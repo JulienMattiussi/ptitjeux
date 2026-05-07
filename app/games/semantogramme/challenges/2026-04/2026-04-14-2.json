@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cyclisme",
+      "boxe",
+      "rugby",
+      "escalade",
+      "manuel"
+    ],
+    [
+      "ski",
+      "voile",
+      "coussin",
+      "volley",
+      "boxe"
+    ],
+    [
+      "vis",
+      "volley",
+      "pelle",
+      "serrure",
+      "porte"
+    ],
+    [
+      "gym",
+      "escalade",
+      "voile",
+      "rideau",
+      "football"
+    ],
+    [
+      "golf",
+      "panneau",
+      "mur",
+      "lampe",
+      "prière"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    1,
+    4,
+    1
+  ],
+  "colClues": [
+    4,
+    4,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ]
+}

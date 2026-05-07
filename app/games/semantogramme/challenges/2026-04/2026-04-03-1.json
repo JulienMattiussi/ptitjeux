@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "parfum",
+      "danse",
+      "tennis",
+      "football"
+    ],
+    [
+      "chaise",
+      "course",
+      "rugby",
+      "savon"
+    ],
+    [
+      "volley",
+      "judo",
+      "basket",
+      "prière"
+    ],
+    [
+      "enveloppe",
+      "danse",
+      "escalade",
+      "course"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ]
+}

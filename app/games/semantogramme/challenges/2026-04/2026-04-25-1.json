@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "glace",
+      "crayon",
+      "tempête",
+      "gel"
+    ],
+    [
+      "pelle",
+      "soleil",
+      "marteau",
+      "rosée"
+    ],
+    [
+      "verglas",
+      "enveloppe",
+      "neige",
+      "tunnel"
+    ],
+    [
+      "pluie",
+      "vent",
+      "vent",
+      "timbre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ]
+}

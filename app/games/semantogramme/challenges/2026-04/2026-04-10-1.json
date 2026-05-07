@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pierre",
+      "fraise",
+      "melon",
+      "framboise"
+    ],
+    [
+      "pêche",
+      "orange",
+      "tournevis",
+      "étoile"
+    ],
+    [
+      "cerise",
+      "mûre",
+      "caillou",
+      "pince"
+    ],
+    [
+      "plateau",
+      "savon",
+      "mûre",
+      "cassis"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ]
+}

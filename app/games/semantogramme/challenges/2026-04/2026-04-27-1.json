@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "silence",
+      "pastèque",
+      "rideau",
+      "banquier"
+    ],
+    [
+      "melon",
+      "fraise",
+      "peigne",
+      "fraise"
+    ],
+    [
+      "pastèque",
+      "figue",
+      "chaise",
+      "prune"
+    ],
+    [
+      "orange",
+      "citron",
+      "poire",
+      "brosse"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ]
+}

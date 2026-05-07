@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "nez",
+      "balai",
+      "nez",
+      "panier"
+    ],
+    [
+      "bouche",
+      "table",
+      "épaule",
+      "coeur"
+    ],
+    [
+      "dos",
+      "bouche",
+      "tabouret",
+      "savon"
+    ],
+    [
+      "pelle",
+      "livre",
+      "genou",
+      "tasse"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ]
+}

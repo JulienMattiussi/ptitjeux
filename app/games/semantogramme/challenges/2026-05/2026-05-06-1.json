@@ -1,0 +1,71 @@
+{
+  "id": "2026-05-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mauve",
+      "racine",
+      "rouge",
+      "tasse"
+    ],
+    [
+      "sol",
+      "fusée",
+      "gris",
+      "porte"
+    ],
+    [
+      "serrure",
+      "violet",
+      "lueur",
+      "gris"
+    ],
+    [
+      "peigne",
+      "indigo",
+      "brun",
+      "jaune"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ]
+}

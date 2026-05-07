@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-08-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "règle",
+      "vent",
+      "étoile",
+      "parfum",
+      "pince",
+      "neige"
+    ],
+    [
+      "brouillard",
+      "rumeur",
+      "vent",
+      "orage",
+      "neige",
+      "éclair"
+    ],
+    [
+      "neige",
+      "rosée",
+      "pince",
+      "neige",
+      "soleil",
+      "glace"
+    ],
+    [
+      "pluie",
+      "chemin",
+      "tabouret",
+      "tabouret",
+      "brouillard",
+      "foudre"
+    ],
+    [
+      "rosée",
+      "étoile",
+      "verglas",
+      "rosée",
+      "glace",
+      "soleil"
+    ],
+    [
+      "foudre",
+      "brouillard",
+      "voisin",
+      "vent",
+      "brouillard",
+      "pétale"
+    ]
+  ],
+  "rowClues": [
+    2,
+    5,
+    5,
+    3,
+    5,
+    4
+  ],
+  "colClues": [
+    5,
+    3,
+    2,
+    4,
+    5,
+    5
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ]
+}

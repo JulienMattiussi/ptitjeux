@@ -1,0 +1,71 @@
+{
+  "id": "2026-05-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "balai",
+      "agenda",
+      "prison",
+      "dos"
+    ],
+    [
+      "chemin",
+      "plateau",
+      "main",
+      "serrure"
+    ],
+    [
+      "oeil",
+      "tasse",
+      "bouche",
+      "tabouret"
+    ],
+    [
+      "lèvre",
+      "oeil",
+      "savon",
+      "bouche"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ]
+}

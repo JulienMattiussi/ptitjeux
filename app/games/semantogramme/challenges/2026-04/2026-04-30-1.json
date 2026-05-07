@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "orage",
+      "vis",
+      "glace",
+      "sol"
+    ],
+    [
+      "panier",
+      "chemin",
+      "rideau",
+      "verglas"
+    ],
+    [
+      "timbre",
+      "pluie",
+      "soleil",
+      "manuel"
+    ],
+    [
+      "glace",
+      "maison",
+      "livre",
+      "pluie"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ]
+}

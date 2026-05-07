@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "brosse",
+      "train",
+      "chaise",
+      "ferry"
+    ],
+    [
+      "camion",
+      "voiture",
+      "mur",
+      "caravane"
+    ],
+    [
+      "vis",
+      "taxi",
+      "ferry",
+      "bateau"
+    ],
+    [
+      "porte",
+      "tramway",
+      "fusée",
+      "sol"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ]
+}

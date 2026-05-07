@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "orage",
+      "tonnerre",
+      "foudre",
+      "globe",
+      "orage"
+    ],
+    [
+      "pluie",
+      "écran",
+      "neige",
+      "pluie",
+      "éclair"
+    ],
+    [
+      "gel",
+      "timbre",
+      "horloge",
+      "tempête",
+      "tunnel"
+    ],
+    [
+      "tonnerre",
+      "étagère",
+      "rideau",
+      "gomme",
+      "tunnel"
+    ],
+    [
+      "brouillard",
+      "chaise",
+      "neige",
+      "neige",
+      "orage"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    2,
+    1,
+    4
+  ],
+  "colClues": [
+    5,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ]
+}

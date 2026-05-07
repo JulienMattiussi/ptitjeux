@@ -17,6 +17,7 @@ const WALL_PATTERN =
 export function Board({ state, cellSize = 60 }: Props) {
   const { level, player, blocks } = state
   const won = isWon(state)
+  const isIceLevel = level.ice.length > 0
 
   const isWall = (x: number, y: number) =>
     level.walls.some(([wx, wy]) => wx === x && wy === y)
@@ -33,7 +34,11 @@ export function Board({ state, cellSize = 60 }: Props) {
 
   return (
     <div
-      className="inline-block rounded-2xl bg-linear-to-br from-slate-200 to-slate-300 p-3 shadow-xl shadow-slate-400/20 dark:from-slate-800 dark:to-slate-900 dark:shadow-black/30"
+      className={`inline-block rounded-2xl p-3 shadow-xl ${
+        isIceLevel
+          ? 'bg-linear-to-br from-sky-100 to-cyan-200 shadow-sky-300/30 dark:from-sky-950 dark:to-cyan-950 dark:shadow-sky-900/40'
+          : 'bg-linear-to-br from-slate-200 to-slate-300 shadow-slate-400/20 dark:from-slate-800 dark:to-slate-900 dark:shadow-black/30'
+      }`}
       role="application"
       aria-label={`Plateau ${level.name}`}
     >

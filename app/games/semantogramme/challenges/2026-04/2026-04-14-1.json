@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "gym",
+      "agenda",
+      "rugby",
+      "rugby"
+    ],
+    [
+      "panier",
+      "course",
+      "règle",
+      "boxe"
+    ],
+    [
+      "carnet",
+      "gym",
+      "serrure",
+      "rideau"
+    ],
+    [
+      "tennis",
+      "pince",
+      "course",
+      "cadre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ]
+}

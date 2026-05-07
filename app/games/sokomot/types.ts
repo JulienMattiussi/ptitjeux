@@ -20,6 +20,8 @@ export type Level = {
     cells: Coord[]
   }
   parMoves?: number
+  /** Suite de coups qui résout le niveau. Lue uniquement par les tests d'intégrité. */
+  solution?: Direction[]
 }
 
 export type Direction = 'up' | 'down' | 'left' | 'right'

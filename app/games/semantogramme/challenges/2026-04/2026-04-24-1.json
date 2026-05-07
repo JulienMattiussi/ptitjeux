@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ombre",
+      "panier",
+      "nuage",
+      "pierre"
+    ],
+    [
+      "verglas",
+      "serrure",
+      "silence",
+      "tournevis"
+    ],
+    [
+      "crayon",
+      "verglas",
+      "lampe",
+      "horloge"
+    ],
+    [
+      "règle",
+      "enveloppe",
+      "panneau",
+      "tempête"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "colClues": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ]
+}

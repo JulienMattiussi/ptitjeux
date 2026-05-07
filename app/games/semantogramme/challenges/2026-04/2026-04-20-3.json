@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-20-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "lèvre",
+      "pied",
+      "tête",
+      "étagère",
+      "cadre",
+      "ongle"
+    ],
+    [
+      "pelle",
+      "tapis",
+      "genou",
+      "dent",
+      "panier",
+      "jambe"
+    ],
+    [
+      "main",
+      "dent",
+      "chemin",
+      "chemin",
+      "table",
+      "dent"
+    ],
+    [
+      "agenda",
+      "panier",
+      "caillou",
+      "tête",
+      "langue",
+      "porte"
+    ],
+    [
+      "crayon",
+      "bureau",
+      "lèvre",
+      "jambe",
+      "bouche",
+      "main"
+    ],
+    [
+      "clé",
+      "bouche",
+      "peau",
+      "plateau",
+      "langue",
+      "ciseaux"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    3,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    3,
+    3,
+    4
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ]
+}

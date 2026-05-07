@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-05-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bus",
+      "vélo",
+      "panier",
+      "lampe",
+      "scooter",
+      "jardin"
+    ],
+    [
+      "vélo",
+      "jardin",
+      "plateau",
+      "livre",
+      "remorque",
+      "fusée"
+    ],
+    [
+      "scooter",
+      "navette",
+      "mémoire",
+      "métro",
+      "cadre",
+      "panneau"
+    ],
+    [
+      "gomme",
+      "banquier",
+      "tramway",
+      "ferry",
+      "mémoire",
+      "camion"
+    ],
+    [
+      "train",
+      "vis",
+      "camion",
+      "moto",
+      "ferry",
+      "voiture"
+    ],
+    [
+      "étagère",
+      "avion",
+      "banquier",
+      "étoile",
+      "manuel",
+      "ciseaux"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    3,
+    5,
+    1
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ]
+}

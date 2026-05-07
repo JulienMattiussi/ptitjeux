@@ -1,0 +1,95 @@
+{
+  "id": "2026-05-02-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "jaune",
+      "pince",
+      "voisin",
+      "blanc",
+      "indigo"
+    ],
+    [
+      "miroir",
+      "brun",
+      "enveloppe",
+      "argenté",
+      "brosse"
+    ],
+    [
+      "balai",
+      "miroir",
+      "racine",
+      "rose",
+      "manuel"
+    ],
+    [
+      "pierre",
+      "blanc",
+      "rouge",
+      "noir",
+      "panier"
+    ],
+    [
+      "rouge",
+      "rideau",
+      "lampe",
+      "porte",
+      "pince"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    4,
+    1
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ]
+}

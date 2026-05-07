@@ -1,43 +1,44 @@
 import { describe, expect, it } from 'vitest'
+import { getAllDates, getLevel } from '~/games/sokomot/challenges'
 import { applyMove, isWon, loadLevel } from '~/games/sokomot/engine'
-import { findLevel } from '~/games/sokomot/levels'
-import type { Direction } from '~/games/sokomot/types'
 
 /**
- * Pour chaque niveau, on encode une séquence de coups qui doit le résoudre.
- * Le test rejoue cette séquence et vérifie isWon(). Cela garantit que chaque
- * niveau livré est réellement résoluble.
+ * Vérifie que **chaque niveau de chaque défi quotidien généré** est résoluble :
+ * on rejoue la séquence `solution` stockée dans le JSON et on vérifie que
+ * `isWon()` renvoie true.
  *
- * Quand on ajoute un nouveau niveau, on doit ajouter sa solution ici. Sans
- * cette entrée, ce test échoue immédiatement, ce qui est intentionnel.
+ * Cela attrape simultanément :
+ * - les régressions du moteur (un changement casse les niveaux historiques)
+ * - les bugs du générateur (un niveau qui sort sans solution valide)
  */
-const SOLUTIONS: Record<string, Direction[]> = {
-  // (1,4) → push M up → push A up → push T up
-  '001-intro': ['right', 'up', 'down', 'right', 'up', 'down', 'right', 'up'],
-  // (1,4) → (3,4) → push O up (slide jusqu'à (3,1)) → (4,4) → push K up (slide jusqu'à (4,1))
-  '002-glace': ['right', 'right', 'up', 'down', 'right', 'up'],
-}
-
 describe('niveaux Sokomot : intégrité', () => {
-  for (const [levelId, moves] of Object.entries(SOLUTIONS)) {
-    it(`${levelId} est résoluble en ${moves.length} coups`, () => {
-      const level = findLevel(levelId)
-      expect(level, `Niveau ${levelId} introuvable`).toBeDefined()
-      let state = loadLevel(level!)
-      for (const move of moves) {
-        state = applyMove(state, move)
-      }
-      expect(isWon(state)).toBe(true)
-    })
+  const dates = getAllDates()
 
-    it(`${levelId} respecte parMoves`, () => {
-      const level = findLevel(levelId)!
-      if (level.parMoves !== undefined) {
+  it('au moins un défi est généré', () => {
+    expect(dates.length).toBeGreaterThan(0)
+  })
+
+  it('chaque niveau a 4 défis et chacun est résoluble', () => {
+    for (const date of dates) {
+      for (const i of [1, 2, 3, 4] as const) {
+        const level = getLevel(date, i)
+        expect(level, `${date}/${i} introuvable`).toBeDefined()
+        expect(level!.solution, `${date}/${i} sans solution`).toBeDefined()
+        let state = loadLevel(level!)
+        for (const move of level!.solution!) {
+          state = applyMove(state, move)
+        }
         expect(
-          moves.length,
-          `La solution doit tenir dans parMoves (${level.parMoves})`,
-        ).toBeLessThanOrEqual(level.parMoves)
+          isWon(state),
+          `${date}/${i} non résolu après replay (mot ${level!.target.word})`,
+        ).toBe(true)
+        if (level!.parMoves !== undefined) {
+          expect(
+            level!.solution!.length,
+            `${date}/${i} solution dépasse parMoves`,
+          ).toBeLessThanOrEqual(level!.parMoves)
+        }
       }
-    })
-  }
+    }
+  })
 })

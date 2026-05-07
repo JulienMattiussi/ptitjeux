@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-03-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "judo",
+      "volley",
+      "enveloppe",
+      "prison",
+      "miroir",
+      "bureau"
+    ],
+    [
+      "marteau",
+      "boxe",
+      "brosse",
+      "banquier",
+      "rideau",
+      "écran"
+    ],
+    [
+      "marathon",
+      "tapis",
+      "tennis",
+      "judo",
+      "golf",
+      "gym"
+    ],
+    [
+      "règle",
+      "golf",
+      "panneau",
+      "judo",
+      "boxe",
+      "basket"
+    ],
+    [
+      "rideau",
+      "coussin",
+      "boxe",
+      "tabouret",
+      "pelle",
+      "gym"
+    ],
+    [
+      "écran",
+      "judo",
+      "course",
+      "horloge",
+      "judo",
+      "mur"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    5,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ]
+}

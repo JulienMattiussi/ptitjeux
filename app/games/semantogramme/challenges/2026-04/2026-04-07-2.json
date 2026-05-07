@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-07-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "thon",
+      "bateau",
+      "étoile",
+      "corail",
+      "baleine"
+    ],
+    [
+      "dauphin",
+      "chemin",
+      "thon",
+      "mémoire",
+      "enveloppe"
+    ],
+    [
+      "bateau",
+      "règle",
+      "fusée",
+      "tabouret",
+      "tabouret"
+    ],
+    [
+      "phare",
+      "prison",
+      "vis",
+      "sol",
+      "jardin"
+    ],
+    [
+      "corail",
+      "vague",
+      "thon",
+      "balai",
+      "phare"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    1,
+    1,
+    4
+  ],
+  "colClues": [
+    5,
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ]
+}

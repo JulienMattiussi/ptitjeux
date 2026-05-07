@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "bureau",
+      "brouillard",
+      "arc-en-ciel",
+      "neige",
+      "vent"
+    ],
+    [
+      "gel",
+      "mémoire",
+      "vent",
+      "tempête",
+      "porte"
+    ],
+    [
+      "neige",
+      "vent",
+      "gel",
+      "neige",
+      "tournevis"
+    ],
+    [
+      "gel",
+      "foudre",
+      "mur",
+      "soleil",
+      "caillou"
+    ],
+    [
+      "prison",
+      "lampe",
+      "arc-en-ciel",
+      "orage",
+      "verglas"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    4,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    4,
+    5,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  ]
+}

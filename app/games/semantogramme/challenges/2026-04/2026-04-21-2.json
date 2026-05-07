@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "voiture",
+      "ferry",
+      "voiture",
+      "panier",
+      "maison"
+    ],
+    [
+      "racine",
+      "fusée",
+      "voiture",
+      "bateau",
+      "manuel"
+    ],
+    [
+      "remorque",
+      "horloge",
+      "caravane",
+      "navette",
+      "autobus"
+    ],
+    [
+      "livre",
+      "coussin",
+      "banquier",
+      "tramway",
+      "cadre"
+    ],
+    [
+      "camion",
+      "tunnel",
+      "tramway",
+      "voiture",
+      "coussin"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    4,
+    1
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ]
+}

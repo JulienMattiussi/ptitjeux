@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "plat",
+      "poêle",
+      "porte",
+      "plat",
+      "sol"
+    ],
+    [
+      "verre",
+      "évier",
+      "tablier",
+      "parfum",
+      "poêle"
+    ],
+    [
+      "pelle",
+      "évier",
+      "étagère",
+      "rideau",
+      "lueur"
+    ],
+    [
+      "cuillère",
+      "épice",
+      "serrure",
+      "marteau",
+      "spatule"
+    ],
+    [
+      "évier",
+      "frigo",
+      "peigne",
+      "ombre",
+      "fourchette"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    5,
+    1,
+    1,
+    3
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ]
+}

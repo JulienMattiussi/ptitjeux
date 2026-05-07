@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-26-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "mûre",
+      "livre",
+      "abricot",
+      "citron",
+      "banquier",
+      "enveloppe"
+    ],
+    [
+      "coussin",
+      "citron",
+      "chemin",
+      "raisin",
+      "cerise",
+      "tunnel"
+    ],
+    [
+      "timbre",
+      "figue",
+      "carnet",
+      "abricot",
+      "cadre",
+      "ciseaux"
+    ],
+    [
+      "fraise",
+      "crayon",
+      "globe",
+      "mangue",
+      "pastèque",
+      "abricot"
+    ],
+    [
+      "abricot",
+      "ciseaux",
+      "fraise",
+      "melon",
+      "fusée",
+      "cassis"
+    ],
+    [
+      "mangue",
+      "agenda",
+      "tournevis",
+      "mûre",
+      "cerise",
+      "parfum"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    4,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    6,
+    3,
+    2
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ]
+}

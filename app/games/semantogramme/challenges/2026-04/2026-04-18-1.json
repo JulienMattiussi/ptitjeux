@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "serrure",
+      "tournevis",
+      "thon",
+      "timbre"
+    ],
+    [
+      "panier",
+      "sable",
+      "thon",
+      "pelle"
+    ],
+    [
+      "rivage",
+      "banquier",
+      "voile",
+      "écume"
+    ],
+    [
+      "vague",
+      "phare",
+      "maison",
+      "racine"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-01-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "taxi",
+      "cadre",
+      "remorque",
+      "timbre",
+      "tramway",
+      "manuel"
+    ],
+    [
+      "bateau",
+      "horloge",
+      "bateau",
+      "bus",
+      "savon",
+      "avion"
+    ],
+    [
+      "panier",
+      "tramway",
+      "caillou",
+      "métro",
+      "caillou",
+      "manuel"
+    ],
+    [
+      "carnet",
+      "voisin",
+      "autobus",
+      "tunnel",
+      "prière",
+      "autobus"
+    ],
+    [
+      "mémoire",
+      "taxi",
+      "remorque",
+      "taxi",
+      "taxi",
+      "scooter"
+    ],
+    [
+      "tapis",
+      "pince",
+      "banquier",
+      "scooter",
+      "bureau",
+      "lampe"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    2,
+    5,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ]
+}

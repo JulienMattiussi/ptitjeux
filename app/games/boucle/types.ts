@@ -26,6 +26,8 @@ export type Level = {
   /** Indice numérique par case : "x,y" -> nombre d'arêtes utilisées (0..3). */
   clues: Record<string, number>
   solutionWord: string
+  /** Cases qui doivent finir à l'intérieur de la boucle, en ordre lecture. Utilisé par les tests. */
+  solutionInsideCells?: Coord[]
 }
 
 export type GameState = {

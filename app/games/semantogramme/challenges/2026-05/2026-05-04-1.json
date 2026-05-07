@@ -1,0 +1,71 @@
+{
+  "id": "2026-05-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "choeur",
+      "batterie",
+      "jardin",
+      "opéra"
+    ],
+    [
+      "rumeur",
+      "guitare",
+      "symphonie",
+      "jazz"
+    ],
+    [
+      "ombre",
+      "porte",
+      "mélodie",
+      "clé"
+    ],
+    [
+      "gamme",
+      "tournevis",
+      "livre",
+      "chemin"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ]
+}

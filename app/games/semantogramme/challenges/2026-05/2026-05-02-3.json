@@ -1,0 +1,123 @@
+{
+  "id": "2026-05-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "voisin",
+      "pince",
+      "pierre",
+      "coeur",
+      "globe",
+      "oreille"
+    ],
+    [
+      "coussin",
+      "genou",
+      "tête",
+      "étoile",
+      "parfum",
+      "parfum"
+    ],
+    [
+      "coeur",
+      "dent",
+      "maison",
+      "brosse",
+      "rideau",
+      "oreille"
+    ],
+    [
+      "genou",
+      "pelle",
+      "nez",
+      "bouche",
+      "lueur",
+      "manuel"
+    ],
+    [
+      "main",
+      "dos",
+      "porte",
+      "chaise",
+      "voisin",
+      "agenda"
+    ],
+    [
+      "tunnel",
+      "bras",
+      "joue",
+      "doigt",
+      "main",
+      "porte"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    3,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ]
+}

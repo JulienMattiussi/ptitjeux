@@ -1,0 +1,95 @@
+{
+  "id": "2026-05-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tapis",
+      "lèvre",
+      "dent",
+      "langue",
+      "écran"
+    ],
+    [
+      "savon",
+      "genou",
+      "silence",
+      "devoir",
+      "brosse"
+    ],
+    [
+      "voisin",
+      "bureau",
+      "nez",
+      "oeil",
+      "épaule"
+    ],
+    [
+      "plateau",
+      "devoir",
+      "caillou",
+      "coussin",
+      "pied"
+    ],
+    [
+      "dos",
+      "peau",
+      "dent",
+      "livre",
+      "pied"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    3,
+    1,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ]
+}

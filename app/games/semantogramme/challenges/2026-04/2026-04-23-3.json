@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-23-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "voisin",
+      "corail",
+      "dauphin",
+      "rivage",
+      "bateau",
+      "cadre"
+    ],
+    [
+      "écaille",
+      "tunnel",
+      "pince",
+      "méduse",
+      "chemin",
+      "porte"
+    ],
+    [
+      "sable",
+      "rumeur",
+      "balai",
+      "balai",
+      "corail",
+      "plage"
+    ],
+    [
+      "porte",
+      "coussin",
+      "règle",
+      "phare",
+      "ciseaux",
+      "maison"
+    ],
+    [
+      "corail",
+      "plateau",
+      "table",
+      "tabouret",
+      "balai",
+      "marteau"
+    ],
+    [
+      "méduse",
+      "sol",
+      "sable",
+      "silence",
+      "bateau",
+      "marin"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    1,
+    1,
+    4
+  ],
+  "colClues": [
+    4,
+    1,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ]
+}

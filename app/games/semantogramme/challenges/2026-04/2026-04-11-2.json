@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "moto",
+      "fusée",
+      "rumeur",
+      "racine",
+      "tapis"
+    ],
+    [
+      "mémoire",
+      "remorque",
+      "navette",
+      "navette",
+      "bateau"
+    ],
+    [
+      "moto",
+      "camion",
+      "serrure",
+      "globe",
+      "bureau"
+    ],
+    [
+      "vis",
+      "tapis",
+      "maison",
+      "pierre",
+      "moto"
+    ],
+    [
+      "vélo",
+      "étoile",
+      "étagère",
+      "miroir",
+      "parfum"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    1,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ]
+}

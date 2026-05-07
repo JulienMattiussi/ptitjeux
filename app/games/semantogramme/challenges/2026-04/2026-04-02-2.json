@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-02-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cerise",
+      "panier",
+      "prune",
+      "table",
+      "pétale"
+    ],
+    [
+      "fraise",
+      "prune",
+      "cerise",
+      "pastèque",
+      "bureau"
+    ],
+    [
+      "crayon",
+      "ananas",
+      "poire",
+      "pastèque",
+      "kiwi"
+    ],
+    [
+      "chaise",
+      "citron",
+      "cadre",
+      "règle",
+      "agenda"
+    ],
+    [
+      "coussin",
+      "figue",
+      "tasse",
+      "mangue",
+      "orange"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "lynx",
+      "table",
+      "rideau",
+      "lapin",
+      "plateau"
+    ],
+    [
+      "vache",
+      "tapis",
+      "savon",
+      "panier",
+      "girafe"
+    ],
+    [
+      "belette",
+      "écureuil",
+      "chemin",
+      "zèbre",
+      "panneau"
+    ],
+    [
+      "ours",
+      "gomme",
+      "lampe",
+      "porte",
+      "chat"
+    ],
+    [
+      "loup",
+      "gomme",
+      "écureuil",
+      "lapin",
+      "chaise"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    5,
+    1,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ]
+}

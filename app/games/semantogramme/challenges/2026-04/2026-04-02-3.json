@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "serrure",
+      "serrure",
+      "tunnel",
+      "dauphin",
+      "phare",
+      "plage"
+    ],
+    [
+      "écran",
+      "plage",
+      "lueur",
+      "fusée",
+      "plage",
+      "étagère"
+    ],
+    [
+      "gomme",
+      "baleine",
+      "écaille",
+      "saumon",
+      "thon",
+      "chaise"
+    ],
+    [
+      "tabouret",
+      "livre",
+      "méduse",
+      "lueur",
+      "ciseaux",
+      "requin"
+    ],
+    [
+      "bateau",
+      "baleine",
+      "maison",
+      "banquier",
+      "sable",
+      "prison"
+    ],
+    [
+      "panier",
+      "écaille",
+      "cadre",
+      "caillou",
+      "porte",
+      "bateau"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    4,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ]
+}

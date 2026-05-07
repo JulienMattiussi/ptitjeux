@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-24-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "baleine",
+      "méduse",
+      "crabe",
+      "coussin",
+      "serrure"
+    ],
+    [
+      "baleine",
+      "poisson",
+      "clé",
+      "rivage",
+      "coussin"
+    ],
+    [
+      "corail",
+      "porte",
+      "pétale",
+      "dauphin",
+      "écume"
+    ],
+    [
+      "vague",
+      "prière",
+      "sardine",
+      "poisson",
+      "globe"
+    ],
+    [
+      "pétale",
+      "balai",
+      "sardine",
+      "saumon",
+      "écume"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  ]
+}

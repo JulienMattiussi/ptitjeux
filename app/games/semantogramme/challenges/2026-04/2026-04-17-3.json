@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-17-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "tonnerre",
+      "marteau",
+      "verglas",
+      "bureau",
+      "prière",
+      "soleil"
+    ],
+    [
+      "rumeur",
+      "pluie",
+      "soleil",
+      "carnet",
+      "livre",
+      "glace"
+    ],
+    [
+      "brouillard",
+      "tapis",
+      "rosée",
+      "tempête",
+      "soleil",
+      "savon"
+    ],
+    [
+      "neige",
+      "manuel",
+      "caillou",
+      "pétale",
+      "globe",
+      "éclair"
+    ],
+    [
+      "nuage",
+      "tapis",
+      "arc-en-ciel",
+      "racine",
+      "chemin",
+      "nuage"
+    ],
+    [
+      "pince",
+      "chemin",
+      "brouillard",
+      "tonnerre",
+      "panier",
+      "gel"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    1,
+    5,
+    2,
+    1,
+    5
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ]
+}

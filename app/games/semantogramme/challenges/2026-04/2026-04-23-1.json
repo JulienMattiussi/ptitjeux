@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ombre",
+      "corail",
+      "crayon",
+      "horloge"
+    ],
+    [
+      "rivage",
+      "baleine",
+      "racine",
+      "rideau"
+    ],
+    [
+      "banquier",
+      "vague",
+      "baleine",
+      "chemin"
+    ],
+    [
+      "jardin",
+      "vague",
+      "mur",
+      "phare"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ]
+}

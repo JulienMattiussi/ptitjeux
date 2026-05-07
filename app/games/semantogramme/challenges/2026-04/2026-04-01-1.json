@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "danse",
+      "prière",
+      "étoile",
+      "peigne"
+    ],
+    [
+      "marathon",
+      "cadre",
+      "mur",
+      "savon"
+    ],
+    [
+      "prière",
+      "tennis",
+      "volley",
+      "golf"
+    ],
+    [
+      "chemin",
+      "danse",
+      "vis",
+      "panneau"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    1
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ]
+}

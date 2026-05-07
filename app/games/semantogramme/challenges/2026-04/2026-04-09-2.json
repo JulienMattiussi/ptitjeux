@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cadre",
+      "tapis",
+      "voile",
+      "sol",
+      "étagère"
+    ],
+    [
+      "gym",
+      "rumeur",
+      "tasse",
+      "football",
+      "tabouret"
+    ],
+    [
+      "football",
+      "basket",
+      "rideau",
+      "voile",
+      "brosse"
+    ],
+    [
+      "parfum",
+      "peigne",
+      "natation",
+      "pierre",
+      "course"
+    ],
+    [
+      "règle",
+      "globe",
+      "rideau",
+      "étagère",
+      "basket"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "prison",
+      "rouge",
+      "maison",
+      "mauve",
+      "brosse"
+    ],
+    [
+      "caillou",
+      "crayon",
+      "blanc",
+      "violet",
+      "doré"
+    ],
+    [
+      "beige",
+      "pétale",
+      "jaune",
+      "carnet",
+      "serrure"
+    ],
+    [
+      "ciseaux",
+      "noir",
+      "peigne",
+      "gris",
+      "tapis"
+    ],
+    [
+      "horloge",
+      "gomme",
+      "orange",
+      "racine",
+      "devoir"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ]
+}

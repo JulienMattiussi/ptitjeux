@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "bureau",
+      "nuage",
+      "verglas",
+      "soleil",
+      "étagère"
+    ],
+    [
+      "clé",
+      "rumeur",
+      "éclair",
+      "vis",
+      "brouillard"
+    ],
+    [
+      "ciseaux",
+      "glace",
+      "devoir",
+      "éclair",
+      "crayon"
+    ],
+    [
+      "gel",
+      "orage",
+      "ombre",
+      "tonnerre",
+      "rosée"
+    ],
+    [
+      "foudre",
+      "livre",
+      "soleil",
+      "miroir",
+      "neige"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ]
+}

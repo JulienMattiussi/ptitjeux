@@ -1,0 +1,71 @@
+{
+  "id": "2026-05-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pelle",
+      "prière",
+      "savon",
+      "joue"
+    ],
+    [
+      "jardin",
+      "tête",
+      "nez",
+      "genou"
+    ],
+    [
+      "crayon",
+      "oeil",
+      "bureau",
+      "vis"
+    ],
+    [
+      "langue",
+      "pied",
+      "ciseaux",
+      "lueur"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ]
+}

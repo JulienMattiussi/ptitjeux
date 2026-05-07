@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "avion",
+      "train",
+      "carnet",
+      "carnet"
+    ],
+    [
+      "pelle",
+      "tasse",
+      "caravane",
+      "lampe"
+    ],
+    [
+      "brosse",
+      "ferry",
+      "prison",
+      "ferry"
+    ],
+    [
+      "mémoire",
+      "panneau",
+      "taxi",
+      "scooter"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ]
+}

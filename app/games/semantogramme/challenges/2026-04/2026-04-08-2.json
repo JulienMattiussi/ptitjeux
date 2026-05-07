@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "racine",
+      "dauphin",
+      "thon",
+      "maison",
+      "pelle"
+    ],
+    [
+      "vague",
+      "pince",
+      "dauphin",
+      "thon",
+      "vague"
+    ],
+    [
+      "marin",
+      "corail",
+      "crabe",
+      "chemin",
+      "vague"
+    ],
+    [
+      "écume",
+      "voile",
+      "rivage",
+      "prière",
+      "coussin"
+    ],
+    [
+      "plage",
+      "requin",
+      "saumon",
+      "écran",
+      "pierre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    4,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    5,
+    1,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ]
+}

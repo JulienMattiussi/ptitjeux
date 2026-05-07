@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-18-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vache",
+      "pierre",
+      "tasse",
+      "miroir",
+      "lion"
+    ],
+    [
+      "belette",
+      "table",
+      "porte",
+      "mouton",
+      "silence"
+    ],
+    [
+      "peigne",
+      "chien",
+      "porte",
+      "lynx",
+      "tournevis"
+    ],
+    [
+      "manuel",
+      "rumeur",
+      "girafe",
+      "écran",
+      "porte"
+    ],
+    [
+      "renard",
+      "agenda",
+      "sol",
+      "livre",
+      "chat"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ]
+}

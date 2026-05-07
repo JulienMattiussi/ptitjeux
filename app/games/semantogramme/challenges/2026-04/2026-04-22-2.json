@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-22-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tournevis",
+      "souris",
+      "lynx",
+      "ours",
+      "miroir"
+    ],
+    [
+      "mouton",
+      "tournevis",
+      "cheval",
+      "ours",
+      "lampe"
+    ],
+    [
+      "plateau",
+      "pétale",
+      "écureuil",
+      "lynx",
+      "lynx"
+    ],
+    [
+      "ciseaux",
+      "enveloppe",
+      "zèbre",
+      "lueur",
+      "tournevis"
+    ],
+    [
+      "chat",
+      "ciseaux",
+      "balai",
+      "marteau",
+      "ombre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    1,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ]
+}

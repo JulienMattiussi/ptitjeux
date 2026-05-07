@@ -1,0 +1,71 @@
+{
+  "id": "2026-04-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mur",
+      "chat",
+      "mouton",
+      "cheval"
+    ],
+    [
+      "cheval",
+      "crayon",
+      "écureuil",
+      "savon"
+    ],
+    [
+      "chien",
+      "souris",
+      "mouton",
+      "fusée"
+    ],
+    [
+      "rumeur",
+      "zèbre",
+      "prison",
+      "loup"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ]
+}

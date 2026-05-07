@@ -1,0 +1,95 @@
+{
+  "id": "2026-04-15-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "fusée",
+      "étoile",
+      "balai",
+      "tablier",
+      "fourchette"
+    ],
+    [
+      "assiette",
+      "mur",
+      "farine",
+      "poêle",
+      "plateau"
+    ],
+    [
+      "évier",
+      "silence",
+      "balai",
+      "évier",
+      "farine"
+    ],
+    [
+      "miroir",
+      "farine",
+      "épice",
+      "assiette",
+      "tablier"
+    ],
+    [
+      "mémoire",
+      "fourchette",
+      "devoir",
+      "cuillère",
+      "chemin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    5,
+    3
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ]
+}

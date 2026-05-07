@@ -1,0 +1,123 @@
+{
+  "id": "2026-04-28-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "sardine",
+      "ciseaux",
+      "marin",
+      "écaille",
+      "tunnel",
+      "clé"
+    ],
+    [
+      "table",
+      "rumeur",
+      "sardine",
+      "baleine",
+      "sardine",
+      "clé"
+    ],
+    [
+      "savon",
+      "crabe",
+      "prison",
+      "livre",
+      "tournevis",
+      "cadre"
+    ],
+    [
+      "lueur",
+      "agenda",
+      "thon",
+      "rivage",
+      "panneau",
+      "bureau"
+    ],
+    [
+      "lueur",
+      "clé",
+      "méduse",
+      "marin",
+      "vague",
+      "thon"
+    ],
+    [
+      "plage",
+      "méduse",
+      "requin",
+      "silence",
+      "sable",
+      "plage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    2,
+    4,
+    5
+  ],
+  "colClues": [
+    2,
+    2,
+    5,
+    4,
+    3,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ]
+}

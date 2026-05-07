@@ -34,9 +34,12 @@ export type GameState = {
   blocks: Block[]
   moves: number
   history: GameSnapshot[]
+  /** Dernière direction tentée par le joueur — utilisée pour orienter le crayon. */
+  lastDirection: Direction
 }
 
 export type GameSnapshot = {
   player: Coord
   blocks: Block[]
+  lastDirection: Direction
 }

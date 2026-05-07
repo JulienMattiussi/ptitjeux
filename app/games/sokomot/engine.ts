@@ -38,6 +38,7 @@ export function loadLevel(level: Level): GameState {
     blocks: level.blocks.map((b) => ({ ...b, pos: [...b.pos] as Coord })),
     moves: 0,
     history: [],
+    lastDirection: 'right',
   }
 }
 
@@ -45,6 +46,7 @@ function snapshot(state: GameState): GameSnapshot {
   return {
     player: [...state.player] as Coord,
     blocks: state.blocks.map((b) => ({ ...b, pos: [...b.pos] as Coord })),
+    lastDirection: state.lastDirection,
   }
 }
 
@@ -117,6 +119,7 @@ export function applyMove(state: GameState, direction: Direction): GameState {
     blocks: newBlocks,
     moves: state.moves + 1,
     history: [...state.history, snapshot(state)],
+    lastDirection: direction,
   }
 }
 
@@ -129,6 +132,7 @@ export function undo(state: GameState): GameState {
     blocks: previous.blocks,
     moves: Math.max(0, state.moves - 1),
     history: state.history.slice(0, -1),
+    lastDirection: previous.lastDirection,
   }
 }
 

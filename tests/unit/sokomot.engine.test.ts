@@ -23,6 +23,30 @@ describe('sokomot engine', () => {
     expect(state.player).toEqual([0, 1])
     expect(state.blocks).toHaveLength(1)
     expect(state.moves).toBe(0)
+    expect(state.lastDirection).toBe('right')
+  })
+
+  it('met à jour lastDirection à chaque coup réussi', () => {
+    let state = loadLevel(makeLevel())
+    state = applyMove(state, 'right')
+    expect(state.lastDirection).toBe('right')
+    // Niveau au-delà du mur : le coup est refusé, lastDirection ne change pas
+    const blockedLevel = makeLevel({ player: [0, 1], walls: [[1, 1]] })
+    let blocked = loadLevel(blockedLevel)
+    blocked = applyMove(blocked, 'right')
+    expect(blocked.lastDirection).toBe('right') // inchangé car bloqué
+  })
+
+  it('undo restaure aussi lastDirection', () => {
+    let state = loadLevel(makeLevel())
+    state = applyMove(state, 'right') // lastDirection: right
+    const beforeUp = state
+    // Tenter up depuis (1,1) : sort des bornes (haut), donc bloqué — pas de changement
+    // Faisons plutôt un coup à droite confirmé puis undo
+    state = applyMove(state, 'right')
+    // après undo, lastDirection redevient ce qu'il était à l'état précédent
+    state = undo(state)
+    expect(state).toEqual(beforeUp)
   })
 
   it('déplace le joueur dans une direction libre', () => {

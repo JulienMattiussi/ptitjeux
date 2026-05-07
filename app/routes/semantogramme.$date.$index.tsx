@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useEffect, useReducer, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
@@ -56,6 +56,60 @@ export default function SemantogrammePlay() {
   const fullyMarked = level ? isFullyMarked(state) : false
   const gridSolved = level ? isGridSolved(state) : false
   const won = level ? isWon(state) : false
+
+  // Sélection au clavier sur la grille : flèches déplacent, Espace cycle.
+  const [selected, setSelected] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
+  const selectedRef = useRef(selected)
+  useEffect(() => {
+    selectedRef.current = selected
+  }, [selected])
+
+  useEffect(() => {
+    if (!level || won || gridSolved) return
+    function handleKey(event: KeyboardEvent) {
+      // Ignore les touches quand l'utilisateur tape dans un champ
+      const target = event.target
+      if (
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement
+      ) {
+        return
+      }
+      const w = level!.width
+      const h = level!.height
+      switch (event.key) {
+        case 'ArrowLeft':
+          event.preventDefault()
+          setSelected((s) => ({ x: Math.max(0, s.x - 1), y: s.y }))
+          return
+        case 'ArrowRight':
+          event.preventDefault()
+          setSelected((s) => ({ x: Math.min(w - 1, s.x + 1), y: s.y }))
+          return
+        case 'ArrowUp':
+          event.preventDefault()
+          setSelected((s) => ({ x: s.x, y: Math.max(0, s.y - 1) }))
+          return
+        case 'ArrowDown':
+          event.preventDefault()
+          setSelected((s) => ({ x: s.x, y: Math.min(h - 1, s.y + 1) }))
+          return
+        case ' ':
+        case 'Spacebar':
+        case 'Enter':
+          event.preventDefault()
+          dispatch({
+            type: 'cycle',
+            x: selectedRef.current.x,
+            y: selectedRef.current.y,
+          })
+          setThemeError(false)
+          return
+      }
+    }
+    window.addEventListener('keydown', handleKey)
+    return () => window.removeEventListener('keydown', handleKey)
+  }, [level, won, gridSolved])
 
   useEffect(() => {
     if (level) prefetchDefinition(level.themeWord)
@@ -141,15 +195,20 @@ export default function SemantogrammePlay() {
       >
         <Board
           state={state}
+          selected={selected}
+          onHoverCell={(x, y) => {
+            if (!won && !gridSolved) setSelected({ x, y })
+          }}
           onCellClick={(x, y) => {
             if (won) return
+            setSelected({ x, y })
             dispatch({ type: 'cycle', x, y })
             setThemeError(false)
           }}
         />
         <PlaySidebar>
           <HelpBox>
-            Clique sur une case pour changer son état :
+            Clique (ou flèches + Espace) pour changer l'état d'une case :
             <span className="mx-1 inline-block rounded bg-amber-200 px-1.5 py-0.5 text-amber-950 dark:bg-amber-700/70 dark:text-amber-50">
               IN
             </span>

@@ -95,6 +95,15 @@ export function SokomotThumbnail({ className = '' }: Props) {
 }
 
 export function BoucleThumbnail({ className = '' }: Props) {
+  // Grille 4 colonnes × 3 lignes. Padding 10px sur chaque côté.
+  // Cellules de 25 × 20. Bordures interieures à x=35,60,85 et y=30,50.
+  const COLS = [22.5, 47.5, 72.5, 97.5]
+  const ROWS = [20, 40, 60]
+  const letters = [
+    ['B', 'X', 'Y', 'Z'],
+    ['O', 'Q', 'F', 'K'],
+    ['N', 'W', 'J', 'V'],
+  ]
   return (
     <svg
       viewBox="0 0 120 80"
@@ -109,60 +118,53 @@ export function BoucleThumbnail({ className = '' }: Props) {
         </linearGradient>
       </defs>
       <rect x="0" y="0" width="120" height="80" rx="10" fill="url(#boucle-bg)" />
-      {/* Grid */}
-      <g stroke="oklch(70% 0.04 170)" strokeWidth="0.5" opacity="0.4">
-        <line x1="30" y1="10" x2="30" y2="70" />
+      {/* Bordure extérieure de la grille + lignes intérieures */}
+      <g stroke="oklch(70% 0.04 170)" strokeWidth="0.5" opacity="0.5" fill="none">
+        <rect x="10" y="10" width="100" height="60" />
+        <line x1="35" y1="10" x2="35" y2="70" />
         <line x1="60" y1="10" x2="60" y2="70" />
-        <line x1="90" y1="10" x2="90" y2="70" />
+        <line x1="85" y1="10" x2="85" y2="70" />
         <line x1="10" y1="30" x2="110" y2="30" />
         <line x1="10" y1="50" x2="110" y2="50" />
       </g>
-      {/* Letters */}
-      {[
-        ['B', 20, 24],
-        ['L', 50, 24],
-        ['Z', 80, 24],
-        ['M', 105, 24],
-        ['O', 20, 44],
-        ['N', 50, 44],
-        ['Y', 80, 44],
-        ['T', 105, 44],
-        ['E', 20, 64],
-        ['Q', 50, 64],
-        ['U', 80, 64],
-        ['F', 105, 64],
-      ].map(([l, x, y]) => (
-        <text
-          key={`${l}-${x}-${y}`}
-          x={x as number}
-          y={y as number}
-          textAnchor="middle"
-          dominantBaseline="central"
-          fontSize="9"
-          fontWeight="600"
-          fill="oklch(40% 0.05 170)"
-        >
-          {l}
-        </text>
-      ))}
-      {/* Loop around B and O (cells (0,0) and (0,1)) */}
+      {/* Lettres */}
+      {ROWS.flatMap((y, ri) =>
+        COLS.map((x, ci) => (
+          <text
+            key={`l-${ri}-${ci}`}
+            x={x}
+            y={y}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize="10"
+            fontWeight="700"
+            fill="oklch(40% 0.05 170)"
+          >
+            {letters[ri][ci]}
+          </text>
+        )),
+      )}
+      {/* Boucle encerclant la colonne 0 (B-O-N) → forme « BON » */}
       <path
-        d="M 12 12 L 36 12 L 36 52 L 12 52 Z"
+        d="M 10 10 L 35 10 L 35 70 L 10 70 Z"
         fill="oklch(75% 0.13 170)"
-        fillOpacity="0.18"
-        stroke="oklch(55% 0.16 170)"
+        fillOpacity="0.22"
+        stroke="oklch(50% 0.18 170)"
         strokeWidth="2.5"
         strokeLinejoin="round"
       />
-      {/* Clue numbers */}
-      <text x="14" y="14.5" fontSize="6" fontWeight="700" fill="oklch(45% 0.16 170)">
+      {/* Indices Slitherlink, alignés en haut-gauche des cases */}
+      <text x="13" y="16" fontSize="6" fontWeight="700" fill="oklch(45% 0.18 145)">
         3
       </text>
-      <text x="44" y="14.5" fontSize="6" fontWeight="700" fill="oklch(45% 0.16 0)">
+      <text x="38" y="16" fontSize="6" fontWeight="700" fill="oklch(60% 0.04 170)">
         1
       </text>
-      <text x="14" y="34.5" fontSize="6" fontWeight="700" fill="oklch(45% 0.16 170)">
+      <text x="13" y="36" fontSize="6" fontWeight="700" fill="oklch(45% 0.18 145)">
         2
+      </text>
+      <text x="13" y="56" fontSize="6" fontWeight="700" fill="oklch(45% 0.18 145)">
+        3
       </text>
     </svg>
   )

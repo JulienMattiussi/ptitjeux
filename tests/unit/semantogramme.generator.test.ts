@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { isGridSolved, isWon, loadLevel, setCellStatus, setThemeGuess } from '~/games/semantogramme/engine'
-import { generateSemantogrammeLevel } from '~/games/semantogramme/generator'
+import { generateSemantogrammeLevel } from '../../generators/semantogramme'
 
 describe('semantogramme/generator', () => {
   it.each([1, 2, 3, 4] as const)('niveau %s : grille carrée 3+i', (i) => {

@@ -109,7 +109,7 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "U",
       "pos": [
         3,
         3
@@ -117,7 +117,7 @@
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "E",
       "pos": [
         4,
         3
@@ -125,7 +125,7 @@
     }
   ],
   "target": {
-    "word": "SEL",
+    "word": "SUE",
     "cells": [
       [
         2,
@@ -151,5 +151,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "sue"
 }

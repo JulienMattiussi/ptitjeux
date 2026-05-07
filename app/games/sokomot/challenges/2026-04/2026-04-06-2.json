@@ -198,7 +198,7 @@
     },
     {
       "id": "b2",
-      "letter": "L",
+      "letter": "A",
       "pos": [
         3,
         4
@@ -206,7 +206,7 @@
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "T",
       "pos": [
         4,
         4
@@ -214,7 +214,7 @@
     },
     {
       "id": "b4",
-      "letter": "U",
+      "letter": "S",
       "pos": [
         5,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "BLEU",
+    "word": "BATS",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "bats"
 }

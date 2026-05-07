@@ -30,6 +30,8 @@ export type Level = {
   solutionInsideCells?: Coord[]
   /** Nombre maximum de toggles d'arêtes pour que la résolution soit considérée « parfaite ». */
   parMoves?: number
+  /** Forme canonique du mot solution (avec accents) pour la recherche Wiktionnaire. */
+  canonicalWord?: string
 }
 
 export type GameState = {

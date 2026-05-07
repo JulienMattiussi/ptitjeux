@@ -206,7 +206,7 @@
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "D",
       "pos": [
         4,
         4
@@ -214,7 +214,7 @@
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "S",
       "pos": [
         5,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "LAIT",
+    "word": "LADS",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "lads"
 }

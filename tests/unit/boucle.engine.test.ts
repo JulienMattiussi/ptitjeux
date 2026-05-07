@@ -62,6 +62,18 @@ describe('boucle engine', () => {
     expect(state.edges).toHaveLength(0)
   })
 
+  it('chaque toggle incrémente le compteur de coups', () => {
+    let state = loadLevel(makeLevel())
+    expect(state.moves).toBe(0)
+    state = toggleEdge(state, { x: 0, y: 0, orientation: 'horizontal' })
+    expect(state.moves).toBe(1)
+    state = toggleEdge(state, { x: 1, y: 0, orientation: 'vertical' })
+    expect(state.moves).toBe(2)
+    // Re-toggle compte aussi
+    state = toggleEdge(state, { x: 0, y: 0, orientation: 'horizontal' })
+    expect(state.moves).toBe(3)
+  })
+
   it('compte les arêtes autour d\'une case', () => {
     let state = loadLevel(makeLevel())
     for (const e of squareLoop(1, 1)) {

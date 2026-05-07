@@ -6,6 +6,7 @@ import { HelpBox } from '~/components/HelpBox'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
+import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/boucle/Board'
 import { getAllDates, getLevel } from '~/games/boucle/challenges'
 import {
@@ -62,6 +63,11 @@ export default function BouclePlay() {
 
   const won = level ? isWon(state) : false
   const cluesOk = level ? areCluesSatisfied(state) : false
+
+  useEffect(() => {
+    if (level) prefetchDefinition(level.canonicalWord ?? level.solutionWord)
+  }, [level])
+
   const loopOk = level ? isValidLoop(state.edges) : false
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
@@ -122,6 +128,7 @@ export default function BouclePlay() {
                     {beatPar ? 'atteint' : 'dépassé'}.
                   </div>
                 )}
+                <WordDefinition word={level.canonicalWord ?? level.solutionWord} />
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}

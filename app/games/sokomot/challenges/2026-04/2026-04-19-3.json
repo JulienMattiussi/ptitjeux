@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "H",
       "pos": [
         2,
         3
@@ -141,7 +141,7 @@
     },
     {
       "id": "b2",
-      "letter": "N",
+      "letter": "A",
       "pos": [
         3,
         3
@@ -149,7 +149,7 @@
     },
     {
       "id": "b3",
-      "letter": "V",
+      "letter": "P",
       "pos": [
         4,
         3
@@ -157,7 +157,7 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "P",
       "pos": [
         5,
         3
@@ -165,7 +165,7 @@
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "A",
       "pos": [
         6,
         3
@@ -173,7 +173,7 @@
     }
   ],
   "target": {
-    "word": "ENVIE",
+    "word": "HAPPA",
     "cells": [
       [
         2,
@@ -215,5 +215,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "happa"
 }

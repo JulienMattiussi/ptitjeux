@@ -10,7 +10,8 @@
       "Bash(pkill -f \"react-router dev\")",
       "Bash(curl -sS -o /dev/null -w \"icone: HTTP %{http_code}, %{size_download} octets\\\\n\" http://localhost:2222/cerveau.jpeg)",
       "Bash(curl -sS http://localhost:2222/)",
-      "WebFetch(domain:docs.github.com)"
+      "Bash(mkdir -p /home/julien/Documents/MyRepos/secretgame/builder)",
+      "Bash(curl -sSL --max-time 60 -o words-fr-raw.json \"https://raw.githubusercontent.com/words/an-array-of-french-words/main/index.json\")"
     ]
   }
 }

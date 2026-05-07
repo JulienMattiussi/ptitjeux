@@ -310,7 +310,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "F",
       "pos": [
         2,
         6
@@ -318,7 +318,7 @@
     },
     {
       "id": "b2",
-      "letter": "T",
+      "letter": "L",
       "pos": [
         3,
         6
@@ -326,7 +326,7 @@
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "A",
       "pos": [
         4,
         6
@@ -342,7 +342,7 @@
     },
     {
       "id": "b5",
-      "letter": "L",
+      "letter": "R",
       "pos": [
         6,
         6
@@ -358,7 +358,7 @@
     }
   ],
   "target": {
-    "word": "ETOILE",
+    "word": "FLAIRE",
     "cells": [
       [
         2,
@@ -405,5 +405,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "flaire"
 }

@@ -310,7 +310,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "Q",
       "pos": [
         2,
         6
@@ -318,7 +318,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "U",
       "pos": [
         3,
         6
@@ -326,7 +326,7 @@
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "A",
       "pos": [
         4,
         6
@@ -334,7 +334,7 @@
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "S",
       "pos": [
         5,
         6
@@ -342,7 +342,7 @@
     },
     {
       "id": "b5",
-      "letter": "I",
+      "letter": "A",
       "pos": [
         6,
         6
@@ -350,7 +350,7 @@
     },
     {
       "id": "b6",
-      "letter": "S",
+      "letter": "R",
       "pos": [
         7,
         6
@@ -358,7 +358,7 @@
     }
   ],
   "target": {
-    "word": "PALAIS",
+    "word": "QUASAR",
     "cells": [
       [
         2,
@@ -405,5 +405,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "quasar"
 }

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { areCluesSatisfied, isValidLoop, isWon, loadLevel, toggleEdge } from '~/games/boucle/engine'
-import { generateBoucleLevel } from '~/games/boucle/generator'
+import { generateBoucleLevel } from '../../generators/boucle'
 import type { Coord, Edge } from '~/games/boucle/types'
 
 function insideCellsToBoundary(cells: Coord[]): Edge[] {
@@ -32,6 +32,23 @@ describe('boucle/generator', () => {
       expect(isValidLoop(state.edges), `niveau ${idx} : boucle invalide`).toBe(true)
       expect(areCluesSatisfied(state), `niveau ${idx} : indices KO`).toBe(true)
       expect(isWon(state), `niveau ${idx} : non gagnant`).toBe(true)
+    }
+  })
+
+  it('expose le canonicalWord (forme avec accents pour le Wiktionnaire)', () => {
+    for (const idx of [1, 2, 3, 4] as const) {
+      const level = generateBoucleLevel('2026-05-07', idx)
+      expect(level.canonicalWord).toBeDefined()
+      const stripped = level.canonicalWord!.normalize('NFD').replace(/\p{Diacritic}/gu, '')
+      expect(stripped.toUpperCase()).toBe(level.solutionWord)
+    }
+  })
+
+  it('expose un parMoves cohérent avec le périmètre', () => {
+    for (const idx of [1, 2, 3, 4] as const) {
+      const level = generateBoucleLevel('2026-05-07', idx)
+      const expectedPerimeter = 2 * (1 + level.height)
+      expect(level.parMoves).toBeGreaterThanOrEqual(expectedPerimeter)
     }
   })
 

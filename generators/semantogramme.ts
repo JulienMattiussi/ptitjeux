@@ -1,6 +1,6 @@
 import { Rng } from '~/lib/random'
+import type { Level } from '~/games/semantogramme/types'
 import { FILLER_WORDS, THEMES } from './themes'
-import type { Level } from './types'
 
 /**
  * Génère un niveau Sémantogramme pour une date et un index donnés.

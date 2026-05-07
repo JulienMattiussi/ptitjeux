@@ -11,9 +11,9 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { dateRange, monthKey } from '../app/lib/dates.js'
-import { generateBoucleLevel } from '../app/games/boucle/generator.js'
-import { generateSemantogrammeLevel } from '../app/games/semantogramme/generator.js'
-import { generateSokomotLevel } from '../app/games/sokomot/generator.js'
+import { generateBoucleLevel } from '../generators/boucle.js'
+import { generateSemantogrammeLevel } from '../generators/semantogramme.js'
+import { generateSokomotLevel } from '../generators/sokomot.js'
 
 const DEFAULT_START = '2026-04-01'
 const DEFAULT_END = '2026-05-07'

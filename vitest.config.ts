@@ -19,8 +19,8 @@ export default defineConfig({
       reporter: ['text', 'lcov'],
       include: [
         'app/games/**/engine.ts',
-        'app/games/**/generator.ts',
         'app/lib/**',
+        'generators/**',
       ],
     },
   },

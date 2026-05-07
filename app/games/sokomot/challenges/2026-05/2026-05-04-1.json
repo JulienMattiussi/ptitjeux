@@ -101,7 +101,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "B",
       "pos": [
         2,
         3
@@ -109,7 +109,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "Y",
       "pos": [
         3,
         3
@@ -117,7 +117,7 @@
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "E",
       "pos": [
         4,
         3
@@ -125,7 +125,7 @@
     }
   ],
   "target": {
-    "word": "CAR",
+    "word": "BYE",
     "cells": [
       [
         2,
@@ -151,5 +151,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "bye"
 }

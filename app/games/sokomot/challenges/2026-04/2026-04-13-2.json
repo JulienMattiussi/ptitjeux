@@ -190,7 +190,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "F",
       "pos": [
         2,
         4
@@ -198,7 +198,7 @@
     },
     {
       "id": "b2",
-      "letter": "X",
+      "letter": "O",
       "pos": [
         3,
         4
@@ -214,7 +214,7 @@
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "E",
       "pos": [
         5,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "EXIL",
+    "word": "FOIE",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "foie"
 }

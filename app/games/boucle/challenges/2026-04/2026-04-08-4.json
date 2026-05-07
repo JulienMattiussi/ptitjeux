@@ -5,7 +5,7 @@
   "height": 7,
   "letters": [
     [
-      "R",
+      "S",
       "D",
       "V",
       "Z",
@@ -14,7 +14,7 @@
       "F"
     ],
     [
-      "A",
+      "T",
       "N",
       "Z",
       "G",
@@ -23,7 +23,7 @@
       "D"
     ],
     [
-      "C",
+      "A",
       "X",
       "N",
       "P",
@@ -32,7 +32,7 @@
       "V"
     ],
     [
-      "I",
+      "B",
       "P",
       "L",
       "V",
@@ -41,7 +41,7 @@
       "R"
     ],
     [
-      "N",
+      "L",
       "M",
       "W",
       "L",
@@ -79,7 +79,7 @@
     "1,0": 1,
     "1,6": 1
   },
-  "solutionWord": "RACINES",
+  "solutionWord": "STABLES",
   "solutionInsideCells": [
     [
       0,
@@ -110,5 +110,6 @@
       6
     ]
   ],
-  "parMoves": 20
+  "parMoves": 20,
+  "canonicalWord": "stables"
 }

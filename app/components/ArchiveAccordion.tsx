@@ -3,7 +3,7 @@ import { CheckMark } from './CheckMark'
 import { ChevronRight } from './icons'
 import { LevelTile } from './LevelTile'
 import { getLevelParMoves } from '~/games'
-import { completionStatus, type CompletionStatus } from '~/lib/completion'
+import { aggregateCompletion, completionStatus, type CompletionStatus } from '~/lib/completion'
 import { dateLabelShort, monthKey, monthLabel } from '~/lib/dates'
 import { GAME_SIZE, isIceLevel, type GameId } from '~/lib/game-styles'
 import type { GameProgress } from '~/lib/localStorage'
@@ -36,11 +36,6 @@ function dayStatuses(
   )
 }
 
-function aggregateStatus(statuses: CompletionStatus[]): CompletionStatus {
-  if (statuses.every((s) => s === 'perfect')) return 'perfect'
-  if (statuses.every((s) => s !== 'unsolved')) return 'solved'
-  return 'unsolved'
-}
 
 export function ArchiveAccordion({ gameId, dates, progress }: Props) {
   const grouped = groupByMonth(dates)
@@ -60,7 +55,7 @@ export function ArchiveAccordion({ gameId, dates, progress }: Props) {
       {months.map((month) => {
         const isOpen = openMonth === month
         const monthDates = (grouped.get(month) ?? []).slice().sort().reverse()
-        const monthAggregate = aggregateStatus(
+        const monthAggregate = aggregateCompletion(
           monthDates.flatMap((d) => dayStatuses(gameId, d, progress)),
         )
         return (
@@ -119,7 +114,7 @@ type DayRowProps = {
 
 function ArchiveDayRow({ gameId, date, progress }: DayRowProps) {
   const statuses = dayStatuses(gameId, date, progress)
-  const aggregate = aggregateStatus(statuses)
+  const aggregate = aggregateCompletion(statuses)
   return (
     <li className="flex items-center gap-3 px-4 py-3 sm:gap-4">
       <div className="flex w-20 shrink-0 items-center gap-1.5 sm:w-24">

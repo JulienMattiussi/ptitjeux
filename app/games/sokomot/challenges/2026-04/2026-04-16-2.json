@@ -190,7 +190,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "C",
       "pos": [
         2,
         4
@@ -198,7 +198,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "O",
       "pos": [
         3,
         4
@@ -206,7 +206,7 @@
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "O",
       "pos": [
         4,
         4
@@ -214,7 +214,7 @@
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "L",
       "pos": [
         5,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "DAME",
+    "word": "COOL",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "cool"
 }

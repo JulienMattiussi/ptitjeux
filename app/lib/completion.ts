@@ -19,3 +19,16 @@ export function completionStatus(
   if (parMoves === undefined || progress.bestMoves === undefined) return 'solved'
   return progress.bestMoves <= parMoves ? 'perfect' : 'solved'
 }
+
+/**
+ * Agrège plusieurs statuts de complétion :
+ * - `perfect` si tous sont parfaits
+ * - `solved` si tous sont au moins résolus (mais pas tous parfaits)
+ * - `unsolved` si au moins un n'est pas terminé
+ */
+export function aggregateCompletion(statuses: readonly CompletionStatus[]): CompletionStatus {
+  if (statuses.length === 0) return 'unsolved'
+  if (statuses.every((s) => s === 'perfect')) return 'perfect'
+  if (statuses.every((s) => s !== 'unsolved')) return 'solved'
+  return 'unsolved'
+}

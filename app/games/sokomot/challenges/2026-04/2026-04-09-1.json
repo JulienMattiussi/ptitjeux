@@ -109,7 +109,7 @@
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "E",
       "pos": [
         3,
         3
@@ -117,7 +117,7 @@
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "R",
       "pos": [
         4,
         3
@@ -125,7 +125,7 @@
     }
   ],
   "target": {
-    "word": "BON",
+    "word": "BER",
     "cells": [
       [
         2,
@@ -151,5 +151,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "ber"
 }

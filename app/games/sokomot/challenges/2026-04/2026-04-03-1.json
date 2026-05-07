@@ -101,7 +101,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "C",
       "pos": [
         2,
         3
@@ -117,7 +117,7 @@
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "N",
       "pos": [
         4,
         3
@@ -125,7 +125,7 @@
     }
   ],
   "target": {
-    "word": "DOS",
+    "word": "CON",
     "cells": [
       [
         2,
@@ -151,5 +151,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "con"
 }

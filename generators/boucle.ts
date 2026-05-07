@@ -1,6 +1,6 @@
 import { Rng } from '~/lib/random'
-import { WORDS_BY_LENGTH } from '../words'
-import type { Coord, Level } from './types'
+import type { Coord, Level } from '~/games/boucle/types'
+import { WORDS_BY_LENGTH } from './wordlists'
 
 const FILLER_LETTERS = 'BCDFGHJKLMNPQRSTVWXZ'.split('')
 
@@ -22,7 +22,8 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
   const wordLen = size
   const rng = new Rng(`boucle:${date}:${index}`)
   const words = WORDS_BY_LENGTH[wordLen] ?? []
-  const word = rng.pick(words)
+  const entry = rng.pick(words)
+  const word = entry.display
 
   const letters: string[][] = []
   const insideCells: Coord[] = []
@@ -49,8 +50,6 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
     '0,0': 3,
     [`0,${height - 1}`]: 3,
   }
-  // Indices intermédiaires : on en met sur ~30% des cases du milieu de la colonne 0,
-  // et un repère sur la colonne voisine.
   for (let y = 1; y < height - 1; y++) {
     clues[`0,${y}`] = 2
   }
@@ -72,5 +71,6 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
     solutionWord: word,
     solutionInsideCells: insideCells,
     parMoves,
+    canonicalWord: entry.canonical,
   }
 }

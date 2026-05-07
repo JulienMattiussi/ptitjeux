@@ -318,7 +318,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         3,
         6
@@ -334,7 +334,7 @@
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "Z",
       "pos": [
         5,
         6
@@ -342,7 +342,7 @@
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "O",
       "pos": [
         6,
         6
@@ -350,7 +350,7 @@
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "L",
       "pos": [
         7,
         6
@@ -358,7 +358,7 @@
     }
   ],
   "target": {
-    "word": "BANANE",
+    "word": "BENZOL",
     "cells": [
       [
         2,
@@ -405,5 +405,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "benzol"
 }

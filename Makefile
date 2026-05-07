@@ -38,6 +38,9 @@ test-watch: ## Lancer les tests en mode watch
 test-coverage: ## Lancer les tests avec rapport de couverture
 	npm run test:coverage
 
+generate-levels: ## Régénérer les défis quotidiens (écrit dans app/games/*/challenges/). Aucune autre cible ne déclenche cette régénération.
+	npm run generate:levels
+
 fix: format lint ## Formater et linter le code
 
 check: build lint typecheck test ## Lancer toutes les vérifications (build, lint, typecheck, tests)

@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "W",
       "pos": [
         2,
         3
@@ -141,7 +141,7 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "I",
       "pos": [
         3,
         3
@@ -157,7 +157,7 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "C",
       "pos": [
         5,
         3
@@ -165,7 +165,7 @@
     },
     {
       "id": "b5",
-      "letter": "R",
+      "letter": "H",
       "pos": [
         6,
         3
@@ -173,7 +173,7 @@
     }
   ],
   "target": {
-    "word": "VENIR",
+    "word": "WINCH",
     "cells": [
       [
         2,
@@ -215,5 +215,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "winch"
 }

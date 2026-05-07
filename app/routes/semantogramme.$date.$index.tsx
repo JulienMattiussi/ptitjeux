@@ -6,6 +6,7 @@ import { HelpBox } from '~/components/HelpBox'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
+import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/semantogramme/Board'
 import { getAllDates, getLevel } from '~/games/semantogramme/challenges'
 import {
@@ -55,6 +56,10 @@ export default function SemantogrammePlay() {
   const fullyMarked = level ? isFullyMarked(state) : false
   const gridSolved = level ? isGridSolved(state) : false
   const won = level ? isWon(state) : false
+
+  useEffect(() => {
+    if (level) prefetchDefinition(level.themeWord)
+  }, [level])
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
 
@@ -123,6 +128,7 @@ export default function SemantogrammePlay() {
                     {beatPar ? 'atteint' : 'dépassé'}.
                   </div>
                 )}
+                <WordDefinition word={level.themeWord} />
               </>
             }
             onReset={() => {

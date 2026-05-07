@@ -190,7 +190,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "A",
       "pos": [
         2,
         4
@@ -198,7 +198,7 @@
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "T",
       "pos": [
         3,
         4
@@ -206,7 +206,7 @@
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "R",
       "pos": [
         4,
         4
@@ -214,7 +214,7 @@
     },
     {
       "id": "b4",
-      "letter": "S",
+      "letter": "E",
       "pos": [
         5,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "VIES",
+    "word": "ATRE",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "âtre"
 }

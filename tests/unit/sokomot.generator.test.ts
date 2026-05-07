@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { applyMove, isWon, loadLevel } from '~/games/sokomot/engine'
-import { generateSokomotLevel, isIceIndex } from '~/games/sokomot/generator'
+import { generateSokomotLevel, isIceIndex } from '../../generators/sokomot'
 
 describe('sokomot/generator', () => {
   it('isIceIndex cible niveaux 2 et 4 uniquement', () => {
@@ -36,6 +36,17 @@ describe('sokomot/generator', () => {
     expect(l4.height).toBe(9)
     expect(l4.ice.length).toBeGreaterThan(l2.ice.length)
     expect(l4.target.word.length).toBe(6)
+  })
+
+  it('expose le canonicalWord (forme avec accents pour le Wiktionnaire)', () => {
+    for (const idx of [1, 2, 3, 4] as const) {
+      const level = generateSokomotLevel('2026-05-07', idx)
+      expect(level.canonicalWord).toBeDefined()
+      expect(typeof level.canonicalWord).toBe('string')
+      // Le display est l'ASCII du canonical
+      const stripped = level.canonicalWord!.normalize('NFD').replace(/\p{Diacritic}/gu, '')
+      expect(stripped.toUpperCase()).toBe(level.target.word)
+    }
   })
 
   it('génération déterministe (même date+index → même niveau)', () => {

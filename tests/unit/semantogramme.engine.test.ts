@@ -53,6 +53,18 @@ describe('semantogramme engine', () => {
     expect(state.status[0][0]).toBe('unmarked')
   })
 
+  it('chaque cycle de case incrémente le compteur de coups', () => {
+    let state = loadLevel(makeLevel())
+    expect(state.moves).toBe(0)
+    state = cycleCellStatus(state, 0, 0)
+    expect(state.moves).toBe(1)
+    state = cycleCellStatus(state, 1, 1)
+    expect(state.moves).toBe(2)
+    // Cycle hors bornes : pas de mouvement
+    state = cycleCellStatus(state, 99, 99)
+    expect(state.moves).toBe(2)
+  })
+
   it('compte les IN par ligne et par colonne', () => {
     let state = loadLevel(makeLevel())
     state = cycleCellStatus(state, 0, 0) // (0,0) → in

@@ -6,6 +6,7 @@ import { HelpBox } from '~/components/HelpBox'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
+import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/sokomot/Board'
 import { getAllDates, getLevel } from '~/games/sokomot/challenges'
 import { applyMove, isWon, loadLevel, reset, undo } from '~/games/sokomot/engine'
@@ -53,6 +54,10 @@ export default function SokomotPlay() {
   )
 
   const won = level ? isWon(state) : false
+
+  useEffect(() => {
+    if (level) prefetchDefinition(level.canonicalWord ?? level.target.word)
+  }, [level])
 
   // L'overlay attend la fin du slide CSS (200 ms duration-200 sur les blocs)
   // pour ne pas s'afficher pendant qu'un bloc glisse encore vers sa cible.
@@ -148,6 +153,7 @@ export default function SokomotPlay() {
                     {beatPar ? 'atteint' : 'dépassé'}.
                   </div>
                 )}
+                <WordDefinition word={level.canonicalWord ?? level.target.word} />
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}

@@ -198,7 +198,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "U",
       "pos": [
         3,
         4
@@ -206,7 +206,7 @@
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "B",
       "pos": [
         4,
         4
@@ -214,7 +214,7 @@
     },
     {
       "id": "b4",
-      "letter": "C",
+      "letter": "S",
       "pos": [
         5,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "PARC",
+    "word": "PUBS",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "pubs"
 }

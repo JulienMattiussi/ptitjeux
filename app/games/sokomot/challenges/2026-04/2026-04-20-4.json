@@ -310,7 +310,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "P",
       "pos": [
         2,
         6
@@ -318,7 +318,7 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "E",
       "pos": [
         3,
         6
@@ -334,7 +334,7 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "E",
       "pos": [
         5,
         6
@@ -342,7 +342,7 @@
     },
     {
       "id": "b5",
-      "letter": "Q",
+      "letter": "E",
       "pos": [
         6,
         6
@@ -350,7 +350,7 @@
     },
     {
       "id": "b6",
-      "letter": "U",
+      "letter": "S",
       "pos": [
         7,
         6
@@ -358,7 +358,7 @@
     }
   ],
   "target": {
-    "word": "MUSIQU",
+    "word": "PESEES",
     "cells": [
       [
         2,
@@ -405,5 +405,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "pesées"
 }

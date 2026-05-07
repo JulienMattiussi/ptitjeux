@@ -22,6 +22,8 @@ export type Level = {
   parMoves?: number
   /** Suite de coups qui résout le niveau. Lue uniquement par les tests d'intégrité. */
   solution?: Direction[]
+  /** Forme canonique du mot cible (avec accents) pour la recherche Wiktionnaire. */
+  canonicalWord?: string
 }
 
 export type Direction = 'up' | 'down' | 'left' | 'right'

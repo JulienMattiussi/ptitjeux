@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "E",
       "pos": [
         2,
         3
@@ -141,7 +141,7 @@
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "C",
       "pos": [
         3,
         3
@@ -149,7 +149,7 @@
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "U",
       "pos": [
         4,
         3
@@ -157,7 +157,7 @@
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "M",
       "pos": [
         5,
         3
@@ -173,7 +173,7 @@
     }
   ],
   "target": {
-    "word": "VOILE",
+    "word": "ECUME",
     "cells": [
       [
         2,
@@ -215,5 +215,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "écume"
 }

@@ -1,6 +1,6 @@
 import { Rng } from '~/lib/random'
-import { WORDS_BY_LENGTH } from '../words'
-import type { Block, Coord, Direction, Level } from './types'
+import type { Block, Coord, Direction, Level } from '~/games/sokomot/types'
+import { WORDS_BY_LENGTH } from './wordlists'
 
 /**
  * Indique si un niveau Sokomot d'index donné est en mode glace.
@@ -44,7 +44,8 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
   const wordLen = 2 + index
   const rng = new Rng(`sokomot:${date}:${index}`)
   const words = WORDS_BY_LENGTH[wordLen] ?? []
-  const word = rng.pick(words)
+  const entry = rng.pick(words)
+  const word = entry.display
   const leftStart = Math.floor((width - wordLen) / 2)
 
   // Cible adossée au mur du haut en mode glace, sinon à 2 lignes en dessous.
@@ -125,5 +126,6 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
     target: { word, cells: targets },
     parMoves: solution.length + 2,
     solution,
+    canonicalWord: entry.canonical,
   }
 }

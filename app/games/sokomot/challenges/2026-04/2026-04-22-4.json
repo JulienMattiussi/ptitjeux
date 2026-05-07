@@ -310,7 +310,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "V",
       "pos": [
         2,
         6
@@ -318,7 +318,7 @@
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "O",
       "pos": [
         3,
         6
@@ -326,7 +326,7 @@
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "L",
       "pos": [
         4,
         6
@@ -334,7 +334,7 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "T",
       "pos": [
         5,
         6
@@ -342,7 +342,7 @@
     },
     {
       "id": "b5",
-      "letter": "S",
+      "letter": "A",
       "pos": [
         6,
         6
@@ -358,7 +358,7 @@
     }
   ],
   "target": {
-    "word": "TROISI",
+    "word": "VOLTAI",
     "cells": [
       [
         2,
@@ -405,5 +405,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "voltai"
 }

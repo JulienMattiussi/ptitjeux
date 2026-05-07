@@ -198,7 +198,7 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         3,
         4
@@ -206,7 +206,7 @@
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "L",
       "pos": [
         4,
         4
@@ -222,7 +222,7 @@
     }
   ],
   "target": {
-    "word": "VENT",
+    "word": "VOLT",
     "cells": [
       [
         2,
@@ -255,5 +255,6 @@
     "down",
     "right",
     "up"
-  ]
+  ],
+  "canonicalWord": "volt"
 }

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Read(//tmp/secretgame-scaffold/**)",
+      "Bash(npm install *)",
+      "Bash(curl -sS http://localhost:5173/)",
+      "Bash(curl -sS http://localhost:5173/sokomot/001-intro)",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"react-router dev\")"
+    ]
+  }
+}

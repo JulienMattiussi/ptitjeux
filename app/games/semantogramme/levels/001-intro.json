@@ -1,0 +1,21 @@
+{
+  "id": "001-intro",
+  "name": "Mer ou montagne",
+  "width": 4,
+  "height": 4,
+  "words": [
+    ["thon", "table", "saumon", "voiture"],
+    ["dauphin", "vague", "chaise", "requin"],
+    ["voile", "marin", "écran", "phare"],
+    ["bureau", "sardine", "horloge", "huître"]
+  ],
+  "rowClues": [2, 3, 3, 2],
+  "colClues": [3, 2, 2, 3],
+  "themeWord": "mer",
+  "solution": [
+    [true, false, true, false],
+    [true, true, false, true],
+    [true, true, false, true],
+    [false, true, false, true]
+  ]
+}

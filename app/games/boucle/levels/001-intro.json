@@ -1,0 +1,23 @@
+{
+  "id": "001-intro",
+  "name": "Premier tracé",
+  "width": 5,
+  "height": 5,
+  "letters": [
+    ["B", "A", "T", "X", "Y"],
+    ["O", "A", "C", "Z", "W"],
+    ["N", "S", "Q", "K", "L"],
+    ["F", "G", "H", "J", "M"],
+    ["P", "R", "T", "V", "N"]
+  ],
+  "clues": {
+    "0,0": 2,
+    "2,0": 2,
+    "4,2": 1,
+    "0,4": 3
+  },
+  "solutionWord": "BON",
+  "enclosedCells": [
+    [0, 0], [0, 1], [0, 2]
+  ]
+}

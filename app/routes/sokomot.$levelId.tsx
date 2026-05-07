@@ -1,5 +1,6 @@
 import { useEffect, useReducer } from 'react'
 import { Link, useParams } from 'react-router'
+import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { Board } from '~/games/sokomot/Board'
 import { applyMove, isWon, loadLevel, reset, undo } from '~/games/sokomot/engine'
@@ -98,7 +99,7 @@ export default function SokomotPlay() {
       backHref="/sokomot"
       backLabel="← Niveaux"
     >
-      <div className="flex flex-col items-start gap-6 lg:flex-row">
+      <GameFrame size="lg">
         <Board state={state} />
         <aside className="flex w-full max-w-xs flex-col gap-3">
           <div className="rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
@@ -112,10 +113,16 @@ export default function SokomotPlay() {
           </div>
 
           {won && (
-            <div className="rounded-xl border border-emerald-300 bg-emerald-50 p-4 text-emerald-900 dark:border-emerald-800 dark:bg-emerald-950 dark:text-emerald-200">
-              <div className="font-semibold">Bravo !</div>
-              <div className="text-sm">
-                Niveau résolu en {state.moves} coup{state.moves > 1 ? 's' : ''}.
+            <div className="animate-pop rounded-xl border border-emerald-300 bg-linear-to-br from-emerald-50 to-teal-50 p-4 shadow-md shadow-emerald-200/50 dark:border-emerald-700 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/30">
+              <div className="flex items-center gap-2 font-display text-lg font-bold text-emerald-800 dark:text-emerald-200">
+                <span aria-hidden="true">✨</span>
+                Niveau résolu
+              </div>
+              <div className="mt-1 text-sm text-emerald-700 dark:text-emerald-300">
+                {state.moves} coup{state.moves > 1 ? 's' : ''}
+                {level.parMoves && state.moves <= level.parMoves
+                  ? ` · objectif atteint`
+                  : ''}
               </div>
             </div>
           )}
@@ -137,12 +144,12 @@ export default function SokomotPlay() {
             </button>
           </div>
 
-          <div className="rounded-xl bg-gray-50 p-3 text-xs text-gray-600 dark:bg-gray-900 dark:text-gray-400">
+          <div className="rounded-xl bg-gray-50 p-3 text-xs text-gray-600 dark:bg-gray-800 dark:text-gray-400">
             Déplace-toi avec les flèches ou ZQSD. Pousse les blocs sur les cases ombrées pour
             former le mot. Sur la glace, tout glisse jusqu'au prochain obstacle.
           </div>
         </aside>
-      </div>
+      </GameFrame>
     </GameLayout>
   )
 }

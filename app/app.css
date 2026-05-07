@@ -4,13 +4,145 @@
   --font-sans:
     'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Couleur marque (clin d'œil au cerveau coloré) */
+  --color-brand-50: oklch(97% 0.02 290);
+  --color-brand-100: oklch(94% 0.04 290);
+  --color-brand-300: oklch(82% 0.13 290);
+  --color-brand-500: oklch(62% 0.2 290);
+  --color-brand-600: oklch(54% 0.22 290);
+  --color-brand-700: oklch(46% 0.22 290);
+  --color-brand-900: oklch(28% 0.16 290);
+
+  /* Accents par jeu */
+  --color-sokomot: oklch(60% 0.18 240);
+  --color-boucle: oklch(60% 0.14 170);
+  --color-semantogramme: oklch(72% 0.17 60);
+}
+
+html {
+  height: 100%;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+body {
+  min-height: 100%;
+  background-image:
+    radial-gradient(ellipse 70% 50% at 20% -10%, oklch(85% 0.12 290 / 0.25), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 90% 10%, oklch(80% 0.15 60 / 0.2), transparent 65%),
+    radial-gradient(ellipse 80% 60% at 50% 110%, oklch(80% 0.13 165 / 0.18), transparent 60%);
+  background-attachment: fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image:
+      radial-gradient(ellipse 70% 50% at 20% -10%, oklch(40% 0.18 290 / 0.4), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 90% 10%, oklch(35% 0.18 60 / 0.25), transparent 65%),
+      radial-gradient(ellipse 80% 60% at 50% 110%, oklch(35% 0.16 165 / 0.25), transparent 60%);
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: oklch(70% 0.05 290) transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    scrollbar-color: oklch(45% 0.05 290) transparent;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+.animate-pop {
+  animation: pop 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+/* Stagger : applique sur des frères avec animate-fade-in-up */
+.stagger > *:nth-child(1) {
+  animation-delay: 0ms;
+}
+.stagger > *:nth-child(2) {
+  animation-delay: 80ms;
+}
+.stagger > *:nth-child(3) {
+  animation-delay: 160ms;
+}
+.stagger > *:nth-child(4) {
+  animation-delay: 240ms;
+}
+.stagger > *:nth-child(5) {
+  animation-delay: 320ms;
+}
+.stagger > *:nth-child(6) {
+  animation-delay: 400ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
   }
 }

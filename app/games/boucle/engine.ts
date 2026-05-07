@@ -8,6 +8,49 @@ export function reset(state: GameState): GameState {
   return loadLevel(state.level)
 }
 
+/**
+ * Déplace une sélection d'arête au clavier. Les flèches dans l'axe de l'arête
+ * passent à l'arête voisine de même orientation ; les flèches perpendiculaires
+ * changent d'orientation, en utilisant le premier sommet de l'arête courante
+ * (gauche pour les horizontales, haut pour les verticales) comme pivot.
+ */
+export function moveEdgeSelection(
+  current: Edge,
+  arrow: 'up' | 'down' | 'left' | 'right',
+  width: number,
+  height: number,
+): Edge {
+  const { x, y, orientation } = current
+  if (orientation === 'horizontal') {
+    // H valide pour 0 ≤ x < width, 0 ≤ y ≤ height
+    switch (arrow) {
+      case 'right':
+        return { x: Math.min(width - 1, x + 1), y, orientation: 'horizontal' }
+      case 'left':
+        return { x: Math.max(0, x - 1), y, orientation: 'horizontal' }
+      case 'up':
+        // V partant du sommet gauche (x, y) vers le haut = V(x, y-1)
+        return { x, y: Math.max(0, y - 1), orientation: 'vertical' }
+      case 'down':
+        // V partant de (x, y) vers le bas = V(x, y)
+        return { x, y: Math.min(height - 1, y), orientation: 'vertical' }
+    }
+  }
+  // V valide pour 0 ≤ x ≤ width, 0 ≤ y < height
+  switch (arrow) {
+    case 'down':
+      return { x, y: Math.min(height - 1, y + 1), orientation: 'vertical' }
+    case 'up':
+      return { x, y: Math.max(0, y - 1), orientation: 'vertical' }
+    case 'right':
+      // H partant du sommet haut (x, y) vers la droite = H(x, y)
+      return { x: Math.min(width - 1, x), y, orientation: 'horizontal' }
+    case 'left':
+      // H partant de (x, y) vers la gauche = H(x-1, y)
+      return { x: Math.max(0, x - 1), y, orientation: 'horizontal' }
+  }
+}
+
 function edgeKey(e: Edge): string {
   return `${e.orientation}:${e.x},${e.y}`
 }

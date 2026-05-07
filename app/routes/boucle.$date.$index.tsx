@@ -1,4 +1,4 @@
-import { useEffect, useReducer } from 'react'
+import { useEffect, useReducer, useRef, useState } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
@@ -14,6 +14,7 @@ import {
   isValidLoop,
   isWon,
   loadLevel,
+  moveEdgeSelection,
   reset,
   toggleEdge,
 } from '~/games/boucle/engine'
@@ -63,6 +64,47 @@ export default function BouclePlay() {
 
   const won = level ? isWon(state) : false
   const cluesOk = level ? areCluesSatisfied(state) : false
+
+  // Sélection au clavier : flèches déplacent l'arête, Espace toggle.
+  const [selected, setSelected] = useState<Edge>({ x: 0, y: 0, orientation: 'horizontal' })
+  const selectedRef = useRef(selected)
+  useEffect(() => {
+    selectedRef.current = selected
+  }, [selected])
+
+  useEffect(() => {
+    if (!level || won) return
+    function handleKey(event: KeyboardEvent) {
+      const w = level!.width
+      const h = level!.height
+      switch (event.key) {
+        case 'ArrowUp':
+          event.preventDefault()
+          setSelected((prev) => moveEdgeSelection(prev, 'up', w, h))
+          return
+        case 'ArrowDown':
+          event.preventDefault()
+          setSelected((prev) => moveEdgeSelection(prev, 'down', w, h))
+          return
+        case 'ArrowLeft':
+          event.preventDefault()
+          setSelected((prev) => moveEdgeSelection(prev, 'left', w, h))
+          return
+        case 'ArrowRight':
+          event.preventDefault()
+          setSelected((prev) => moveEdgeSelection(prev, 'right', w, h))
+          return
+        case ' ':
+        case 'Spacebar':
+        case 'Enter':
+          event.preventDefault()
+          dispatch({ type: 'toggle', edge: selectedRef.current })
+          return
+      }
+    }
+    window.addEventListener('keydown', handleKey)
+    return () => window.removeEventListener('keydown', handleKey)
+  }, [level, won])
 
   useEffect(() => {
     if (level) prefetchDefinition(level.canonicalWord ?? level.solutionWord)
@@ -138,8 +180,15 @@ export default function BouclePlay() {
       >
         <Board
           state={state}
+          selected={selected}
+          onHoverEdge={(edge) => {
+            if (!won) setSelected(edge)
+          }}
           onToggleEdge={(edge) => {
-            if (!won) dispatch({ type: 'toggle', edge })
+            if (!won) {
+              setSelected(edge)
+              dispatch({ type: 'toggle', edge })
+            }
           }}
         />
         <PlaySidebar>
@@ -166,9 +215,10 @@ export default function BouclePlay() {
           </OutlineButton>
 
           <HelpBox>
-            Clique sur une arête entre deux cases pour l'ajouter à la boucle. Les indices te
-            disent combien d'arêtes de la boucle entourent la case. Quand la boucle est valide,
-            les lettres encerclées doivent former le mot.
+            Clique sur une arête entre deux cases pour l'ajouter à la boucle, ou navigue avec
+            les flèches et appuie sur Espace pour la basculer. Les indices te disent combien
+            d'arêtes de la boucle entourent chaque case. Quand la boucle est valide, les
+            lettres encerclées doivent former le mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

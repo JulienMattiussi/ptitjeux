@@ -4,6 +4,10 @@ import type { Edge, GameState } from './types'
 type Props = {
   state: GameState
   onToggleEdge: (edge: Edge) => void
+  /** Arête actuellement sélectionnée (clavier ou survol souris). */
+  selected?: Edge
+  /** Mise à jour de la sélection quand la souris passe sur une arête. */
+  onHoverEdge?: (edge: Edge) => void
   cellSize?: number
 }
 
@@ -21,7 +25,18 @@ function isEdgeActive(edges: Edge[], target: Edge): boolean {
   )
 }
 
-export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
+function isSameEdge(a: Edge | undefined, b: Edge): boolean {
+  if (!a) return false
+  return a.orientation === b.orientation && a.x === b.x && a.y === b.y
+}
+
+export function Board({
+  state,
+  onToggleEdge,
+  selected,
+  onHoverEdge,
+  cellSize = 64,
+}: Props) {
   const { level } = state
   const width = level.width * cellSize + 2 * PADDING
   const height = level.height * cellSize + 2 * PADDING
@@ -156,6 +171,7 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
           const x2 = PADDING + (e.x + 1) * cellSize
           const y = PADDING + e.y * cellSize
           const active = isEdgeActive(state.edges, e)
+          const isSelected = isSameEdge(selected, e)
           return (
             <g key={`h-${e.x}-${e.y}`}>
               {active && (
@@ -170,6 +186,21 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
                   filter="url(#boucle-glow)"
                 />
               )}
+              {isSelected && (
+                <>
+                  <line
+                    x1={x1}
+                    y1={y}
+                    x2={x2}
+                    y2={y}
+                    strokeWidth={8}
+                    className="stroke-amber-400/40 dark:stroke-amber-300/40"
+                    strokeLinecap="round"
+                  />
+                  <circle cx={x1} cy={y} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
+                  <circle cx={x2} cy={y} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
+                </>
+              )}
               <line
                 x1={x1}
                 y1={y}
@@ -181,8 +212,8 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
                     ? 'stroke-sky-600 dark:stroke-sky-300'
                     : 'stroke-gray-300/60 dark:stroke-gray-700/60'
                 }
-                strokeLinecap="round"
                 style={{ transition: 'stroke-width 0.15s ease-out' }}
+                strokeLinecap="round"
               />
               <line
                 x1={x1}
@@ -192,6 +223,7 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
                 strokeWidth={20}
                 stroke="transparent"
                 onClick={() => onToggleEdge(e)}
+                onMouseEnter={() => onHoverEdge?.(e)}
                 className="cursor-pointer"
               />
             </g>
@@ -204,6 +236,7 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
           const y1 = PADDING + e.y * cellSize
           const y2 = PADDING + (e.y + 1) * cellSize
           const active = isEdgeActive(state.edges, e)
+          const isSelected = isSameEdge(selected, e)
           return (
             <g key={`v-${e.x}-${e.y}`}>
               {active && (
@@ -218,6 +251,21 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
                   filter="url(#boucle-glow)"
                 />
               )}
+              {isSelected && (
+                <>
+                  <line
+                    x1={x}
+                    y1={y1}
+                    x2={x}
+                    y2={y2}
+                    strokeWidth={8}
+                    className="stroke-amber-400/40 dark:stroke-amber-300/40"
+                    strokeLinecap="round"
+                  />
+                  <circle cx={x} cy={y1} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
+                  <circle cx={x} cy={y2} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
+                </>
+              )}
               <line
                 x1={x}
                 y1={y1}
@@ -229,8 +277,8 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
                     ? 'stroke-sky-600 dark:stroke-sky-300'
                     : 'stroke-gray-300/60 dark:stroke-gray-700/60'
                 }
-                strokeLinecap="round"
                 style={{ transition: 'stroke-width 0.15s ease-out' }}
+                strokeLinecap="round"
               />
               <line
                 x1={x}
@@ -240,6 +288,7 @@ export function Board({ state, onToggleEdge, cellSize = 64 }: Props) {
                 strokeWidth={20}
                 stroke="transparent"
                 onClick={() => onToggleEdge(e)}
+                onMouseEnter={() => onHoverEdge?.(e)}
                 className="cursor-pointer"
               />
             </g>

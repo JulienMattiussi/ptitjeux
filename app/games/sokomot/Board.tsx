@@ -122,6 +122,8 @@ export function Board({ state, cellSize = 60 }: Props) {
                 won ? 'animate-pop' : ''
               }`}
               style={{
+                top: 0,
+                left: 0,
                 width: blockSize,
                 height: blockSize,
                 fontSize: cellSize * 0.5,
@@ -141,10 +143,12 @@ export function Board({ state, cellSize = 60 }: Props) {
           )
         })}
 
-        {/* Couche animée : joueur */}
+        {/* Couche animée : joueur (z-10 pour passer au-dessus des blocs) */}
         <div
-          className="pointer-events-none absolute transition-transform duration-200 ease-out"
+          className="pointer-events-none absolute z-10 flex items-center justify-center transition-transform duration-200 ease-out"
           style={{
+            top: 0,
+            left: 0,
             width: cellSize,
             height: cellSize,
             transform: `translate(${player[0] * cellSize}px, ${player[1] * cellSize}px)`,
@@ -152,14 +156,9 @@ export function Board({ state, cellSize = 60 }: Props) {
         >
           <svg
             viewBox="0 0 32 32"
-            className="absolute inset-0 m-auto drop-shadow-md"
-            style={{
-              width: cellSize * 0.65,
-              height: cellSize * 0.65,
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-            }}
+            width={cellSize * 0.7}
+            height={cellSize * 0.7}
+            className="drop-shadow-md"
             role="img"
             aria-label="Joueur"
           >

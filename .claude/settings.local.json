@@ -9,7 +9,8 @@
       "Bash(kill %1)",
       "Bash(pkill -f \"react-router dev\")",
       "Bash(curl -sS -o /dev/null -w \"icone: HTTP %{http_code}, %{size_download} octets\\\\n\" http://localhost:2222/cerveau.jpeg)",
-      "Bash(curl -sS http://localhost:2222/)"
+      "Bash(curl -sS http://localhost:2222/)",
+      "WebFetch(domain:docs.github.com)"
     ]
   }
 }

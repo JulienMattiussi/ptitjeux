@@ -2,6 +2,7 @@ import { useEffect, useReducer } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
+import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/sokomot/Board'
 import { applyMove, isWon, loadLevel, reset, undo } from '~/games/sokomot/engine'
 import { findLevel } from '~/games/sokomot/levels'
@@ -12,7 +13,6 @@ type Action =
   | { type: 'move'; direction: Direction }
   | { type: 'undo' }
   | { type: 'reset' }
-  | { type: 'load'; state: GameState }
 
 function reducer(state: GameState, action: Action): GameState {
   switch (action.type) {
@@ -22,8 +22,6 @@ function reducer(state: GameState, action: Action): GameState {
       return undo(state)
     case 'reset':
       return reset(state)
-    case 'load':
-      return action.state
   }
 }
 
@@ -48,8 +46,10 @@ export default function SokomotPlay() {
     (initialLevel) => (initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
   )
 
+  const won = level ? isWon(state) : false
+
   useEffect(() => {
-    if (!level) return
+    if (!level || won) return
     function handleKey(event: KeyboardEvent) {
       const direction = KEY_TO_DIRECTION[event.key]
       if (direction) {
@@ -68,9 +68,7 @@ export default function SokomotPlay() {
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [level])
-
-  const won = level ? isWon(state) : false
+  }, [level, won])
 
   useEffect(() => {
     if (won && level) {
@@ -92,14 +90,42 @@ export default function SokomotPlay() {
     )
   }
 
+  const beatPar = level.parMoves !== undefined && state.moves <= level.parMoves
+
   return (
     <GameLayout
       title={`Sokomot · ${level.name}`}
       subtitle={`Mot à former : ${level.target.word}`}
       backHref="/sokomot"
-      backLabel="← Niveaux"
+      backLabel="Niveaux"
     >
-      <GameFrame size="lg">
+      <GameFrame
+        size="lg"
+        overlay={
+          <VictoryOverlay
+            show={won}
+            title="Niveau résolu !"
+            detail={
+              <>
+                Mot formé en{' '}
+                <span className="font-bold">
+                  {state.moves} coup{state.moves > 1 ? 's' : ''}
+                </span>
+                {level.parMoves !== undefined && (
+                  <>
+                    {' · objectif '}
+                    <span className="font-bold">{level.parMoves}</span>
+                    {beatPar ? ' atteint' : ' dépassé'}
+                  </>
+                )}
+                .
+              </>
+            }
+            onReset={() => dispatch({ type: 'reset' })}
+            backHref="/sokomot"
+          />
+        }
+      >
         <Board state={state} />
         <aside className="flex w-full max-w-xs flex-col gap-3">
           <div className="rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
@@ -112,26 +138,12 @@ export default function SokomotPlay() {
             )}
           </div>
 
-          {won && (
-            <div className="animate-pop rounded-xl border border-emerald-300 bg-linear-to-br from-emerald-50 to-teal-50 p-4 shadow-md shadow-emerald-200/50 dark:border-emerald-700 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/30">
-              <div className="flex items-center gap-2 font-display text-lg font-bold text-emerald-800 dark:text-emerald-200">
-                <span aria-hidden="true">✨</span>
-                Niveau résolu
-              </div>
-              <div className="mt-1 text-sm text-emerald-700 dark:text-emerald-300">
-                {state.moves} coup{state.moves > 1 ? 's' : ''}
-                {level.parMoves && state.moves <= level.parMoves
-                  ? ` · objectif atteint`
-                  : ''}
-              </div>
-            </div>
-          )}
-
           <div className="flex gap-2">
             <button
               type="button"
               onClick={() => dispatch({ type: 'undo' })}
-              className="flex-1 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800"
+              disabled={won}
+              className="flex-1 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-medium hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800"
             >
               Annuler (Ctrl+Z)
             </button>

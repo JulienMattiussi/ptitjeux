@@ -14,9 +14,9 @@ export function meta(_: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <section className="mx-auto max-w-5xl px-4 py-14 sm:py-24">
-        <header className="animate-fade-in-up mb-14 flex flex-col items-center gap-8 text-center sm:flex-row sm:items-center sm:gap-10 sm:text-left">
+    <main>
+      <section className="mx-auto max-w-5xl px-4 py-10 sm:py-16">
+        <header className="animate-fade-in-up mb-10 flex flex-col items-center gap-8 text-center sm:flex-row sm:items-center sm:gap-10 sm:text-left">
           <div className="relative shrink-0">
             <div
               className="absolute -inset-4 rounded-3xl bg-linear-to-br from-fuchsia-300/40 via-amber-200/30 to-emerald-300/40 blur-2xl dark:from-fuchsia-700/40 dark:via-amber-700/30 dark:to-emerald-700/40"
@@ -51,21 +51,6 @@ export default function Home() {
             <GameCard key={game.id} game={game} />
           ))}
         </div>
-
-        <footer className="mt-20 flex flex-col items-center gap-2 text-center text-xs text-gray-500 dark:text-gray-500">
-          <p>
-            Conçu pour le plaisir de la déduction.{' '}
-            <a
-              href="https://github.com/"
-              className="underline-offset-2 hover:underline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Code ouvert
-            </a>
-            .
-          </p>
-        </footer>
       </section>
     </main>
   )

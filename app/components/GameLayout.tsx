@@ -17,7 +17,7 @@ export function GameLayout({
   backLabel = 'Accueil',
 }: Props) {
   return (
-    <div className="min-h-screen">
+    <div>
       <header className="sticky top-0 z-10 border-b border-gray-200/60 bg-white/70 backdrop-blur-md dark:border-gray-800/60 dark:bg-gray-950/70">
         <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-3">
           <Link

@@ -54,12 +54,21 @@ export function isFullyMarked(state: GameState): boolean {
   return state.status.every((row) => row.every((s) => s !== 'unmarked'))
 }
 
+/**
+ * Grille résolue ⇔ l'ensemble des cases marquées IN correspond exactement à
+ * l'ensemble des cases « thème » (`solution[y][x] === true`).
+ *
+ * Les cases hors thème peuvent rester `unmarked` ou `out` indifféremment :
+ * seul le placement des IN compte. Cela évite d'imposer au joueur de marquer
+ * explicitement chaque case non thématique avec OUT pour gagner.
+ */
 export function isGridSolved(state: GameState): boolean {
   const { solution } = state.level
   for (let y = 0; y < state.level.height; y++) {
     for (let x = 0; x < state.level.width; x++) {
-      const expected = solution[y][x] ? 'in' : 'out'
-      if (state.status[y][x] !== expected) return false
+      const shouldBeIn = solution[y][x]
+      const isMarkedIn = state.status[y][x] === 'in'
+      if (shouldBeIn !== isMarkedIn) return false
     }
   }
   return true

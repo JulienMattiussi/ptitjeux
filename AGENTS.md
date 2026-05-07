@@ -19,6 +19,18 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 Tout le contenu visible dans l'interface (textes, labels, messages, titres) est **en français**.
 Les commits, identifiants techniques, noms de variables et commentaires de code restent en anglais.
 
+## Règle impérative — chaque niveau doit être vérifié
+
+**Tout niveau livré (Sokomot, Boucle, Sémantogramme) doit avoir un test d'intégrité dans `tests/unit/<jeu>.levels.test.ts` qui prouve sa résolubilité.**
+
+- **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`.
+- **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`.
+- **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`.
+
+**Ajouter un niveau sans son entrée dans le fichier de tests d'intégrité fait échouer le test concerné** (par construction : la map `SOLUTIONS` ou `LEVEL_IDS` doit être mise à jour). C'est intentionnel et bloquant.
+
+Cette règle empêche de livrer un puzzle qu'on n'a pas su résoudre soi-même, et empêche les régressions dans le moteur (un changement de logique fait immédiatement tomber les tests d'intégrité des niveaux).
+
 ## Stack technique
 
 | Outil | Usage |

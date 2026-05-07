@@ -2,6 +2,7 @@ import { useEffect, useReducer } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
+import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/boucle/Board'
 import {
   areCluesSatisfied,
@@ -65,10 +66,31 @@ export default function BouclePlay() {
       title={`Boucle · ${level.name}`}
       subtitle={`${level.solutionWord.length} lettres à encercler.`}
       backHref="/boucle"
-      backLabel="← Niveaux"
+      backLabel="Niveaux"
     >
-      <GameFrame size="lg">
-        <Board state={state} onToggleEdge={(edge) => dispatch({ type: 'toggle', edge })} />
+      <GameFrame
+        size="lg"
+        overlay={
+          <VictoryOverlay
+            show={won}
+            title="Boucle complète !"
+            detail={
+              <>
+                Mot encerclé :{' '}
+                <span className="font-bold">{level.solutionWord}</span>.
+              </>
+            }
+            onReset={() => dispatch({ type: 'reset' })}
+            backHref="/boucle"
+          />
+        }
+      >
+        <Board
+          state={state}
+          onToggleEdge={(edge) => {
+            if (!won) dispatch({ type: 'toggle', edge })
+          }}
+        />
         <aside className="flex w-full max-w-xs flex-col gap-3">
           <div className="rounded-xl border border-gray-200 bg-white p-3 text-sm dark:border-gray-800 dark:bg-gray-900">
             <div className="flex items-center justify-between">
@@ -96,18 +118,6 @@ export default function BouclePlay() {
               </span>
             </div>
           </div>
-
-          {won && (
-            <div className="animate-pop rounded-xl border border-emerald-300 bg-linear-to-br from-emerald-50 to-teal-50 p-4 shadow-md shadow-emerald-200/50 dark:border-emerald-700 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/30">
-              <div className="flex items-center gap-2 font-display text-lg font-bold text-emerald-800 dark:text-emerald-200">
-                <span aria-hidden="true">✨</span>
-                Boucle complète
-              </div>
-              <div className="mt-1 text-sm text-emerald-700 dark:text-emerald-300">
-                Mot encerclé : <span className="font-semibold">{level.solutionWord}</span>
-              </div>
-            </div>
-          )}
 
           <button
             type="button"

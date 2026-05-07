@@ -2,6 +2,7 @@ import { useEffect, useReducer, useState } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
+import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/semantogramme/Board'
 import {
   cycleCellStatus,
@@ -83,12 +84,32 @@ export default function SemantogrammePlay() {
       title={`Sémantogramme · ${level.name}`}
       subtitle="Identifie les mots liés au thème caché."
       backHref="/semantogramme"
-      backLabel="← Niveaux"
+      backLabel="Niveaux"
     >
-      <GameFrame size="lg">
+      <GameFrame
+        size="lg"
+        overlay={
+          <VictoryOverlay
+            show={won}
+            title="Thème trouvé !"
+            detail={
+              <>
+                Le mot caché était{' '}
+                <span className="font-bold">« {level.themeWord} »</span>.
+              </>
+            }
+            onReset={() => {
+              dispatch({ type: 'reset' })
+              setThemeError(false)
+            }}
+            backHref="/semantogramme"
+          />
+        }
+      >
         <Board
           state={state}
           onCellClick={(x, y) => {
+            if (won) return
             dispatch({ type: 'cycle', x, y })
             setThemeError(false)
           }}
@@ -103,7 +124,7 @@ export default function SemantogrammePlay() {
             <span className="mx-1 inline-block rounded bg-gray-200 px-1.5 py-0.5 line-through dark:bg-gray-700">
               OUT
             </span>
-            (hors thème) → vide. Les compteurs en marge montrent ton avancée.
+            (hors thème) → vide.
           </div>
 
           {fullyMarked && !gridSolved && (
@@ -113,7 +134,7 @@ export default function SemantogrammePlay() {
             </div>
           )}
 
-          {gridSolved && (
+          {gridSolved && !won && (
             <form
               onSubmit={handleSubmit}
               className="animate-pop flex flex-col gap-2 rounded-xl border border-emerald-300 bg-linear-to-br from-emerald-50 to-teal-50 p-3 shadow-md shadow-emerald-200/50 dark:border-emerald-700 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/30"
@@ -132,7 +153,6 @@ export default function SemantogrammePlay() {
                   dispatch({ type: 'guess', value: e.target.value })
                   setThemeError(false)
                 }}
-                disabled={won}
                 autoFocus
                 className="rounded-md border border-emerald-300 bg-white px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200 dark:border-emerald-700 dark:bg-gray-900 dark:text-gray-100"
                 placeholder="Ton mot-thème"
@@ -142,25 +162,21 @@ export default function SemantogrammePlay() {
                   Pas tout à fait. Réessaie.
                 </p>
               )}
-              {won ? (
-                <p className="flex items-center gap-2 font-display text-base font-bold text-emerald-800 dark:text-emerald-200">
-                  <span aria-hidden="true">✨</span>
-                  Bravo ! Le thème était « {level.themeWord} ».
-                </p>
-              ) : (
-                <button
-                  type="submit"
-                  className="rounded-md bg-emerald-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-emerald-500"
-                >
-                  Valider le thème
-                </button>
-              )}
+              <button
+                type="submit"
+                className="rounded-md bg-emerald-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-emerald-500"
+              >
+                Valider le thème
+              </button>
             </form>
           )}
 
           <button
             type="button"
-            onClick={() => dispatch({ type: 'reset' })}
+            onClick={() => {
+              dispatch({ type: 'reset' })
+              setThemeError(false)
+            }}
             className="rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800"
           >
             Recommencer

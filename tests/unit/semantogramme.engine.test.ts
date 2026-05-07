@@ -73,9 +73,8 @@ describe('semantogramme engine', () => {
     expect(isFullyMarked(state)).toBe(true)
   })
 
-  it('détecte la grille résolue uniquement quand chaque case correspond à la solution', () => {
+  it('détecte la grille résolue avec OUT explicites sur les non-thème', () => {
     let state = loadLevel(makeLevel())
-    // Pose le bon placement : (0,0) in, (1,1) in, autres out
     state = cycleCellStatus(state, 0, 0) // (0,0) → in
     state = cycleCellStatus(state, 1, 0) // (1,0) → in
     state = cycleCellStatus(state, 1, 0) // (1,0) → out
@@ -83,6 +82,22 @@ describe('semantogramme engine', () => {
     state = cycleCellStatus(state, 0, 1) // (0,1) → out
     state = cycleCellStatus(state, 1, 1) // (1,1) → in
     expect(isGridSolved(state)).toBe(true)
+  })
+
+  it('détecte la grille résolue avec uniquement les IN posés (OUT laissés vides)', () => {
+    let state = loadLevel(makeLevel())
+    state = cycleCellStatus(state, 0, 0) // (0,0) → in (solution: true)
+    state = cycleCellStatus(state, 1, 1) // (1,1) → in (solution: true)
+    // (1,0) et (0,1) restent unmarked — leur solution est false, donc OK.
+    expect(isGridSolved(state)).toBe(true)
+  })
+
+  it('refuse la grille résolue si une case hors-thème est marquée IN (faux positif)', () => {
+    let state = loadLevel(makeLevel())
+    state = cycleCellStatus(state, 0, 0) // (0,0) → in (solution: true)
+    state = cycleCellStatus(state, 1, 1) // (1,1) → in (solution: true)
+    state = cycleCellStatus(state, 1, 0) // (1,0) → in MAIS solution: false
+    expect(isGridSolved(state)).toBe(false)
   })
 
   it('valide le thème en ignorant la casse et les accents', () => {
@@ -97,8 +112,18 @@ describe('semantogramme engine', () => {
     let state = loadLevel(makeLevel())
     state = cycleCellStatus(state, 0, 0) // (0,0) → in
     state = cycleCellStatus(state, 1, 1) // (1,1) → in
+    expect(isWon(state)).toBe(false) // pas de thème
+    state = setThemeGuess(state, 'tigre')
+    expect(isWon(state)).toBe(false) // mauvais thème
     state = setThemeGuess(state, 'animal')
-    // (1,0) et (0,1) restent unmarked → grille non résolue
+    expect(isWon(state)).toBe(true) // grille OK + bon thème
+  })
+
+  it("isWon est faux quand un IN manque", () => {
+    let state = loadLevel(makeLevel())
+    state = cycleCellStatus(state, 0, 0) // (0,0) → in
+    // (1,1) reste unmarked alors que solution true
+    state = setThemeGuess(state, 'animal')
     expect(isWon(state)).toBe(false)
   })
 })

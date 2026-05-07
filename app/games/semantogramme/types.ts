@@ -15,6 +15,8 @@ export type Level = {
   themeWord: string
   /** Solution : pour chaque case, true si liée au thème. */
   solution: boolean[][]
+  /** Nombre maximum de cycles de cases pour que la résolution soit « parfaite ». */
+  parMoves?: number
 }
 
 export type GameState = {
@@ -23,4 +25,6 @@ export type GameState = {
   status: CellStatus[][]
   /** Tentative de mot-thème saisie par le joueur. */
   themeGuess: string
+  /** Nombre total de cycles de cases effectués (= clics sur la grille). */
+  moves: number
 }

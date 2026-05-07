@@ -1,21 +1,18 @@
 import { useState } from 'react'
-import { CheckMark, LevelTile } from './LevelTile'
+import { CheckMark } from './CheckMark'
+import { ChevronRight } from './icons'
+import { LevelTile } from './LevelTile'
+import { getLevelParMoves } from '~/games'
+import { completionStatus, type CompletionStatus } from '~/lib/completion'
 import { dateLabelShort, monthKey, monthLabel } from '~/lib/dates'
+import { GAME_SIZE, isIceLevel, type GameId } from '~/lib/game-styles'
 import type { GameProgress } from '~/lib/localStorage'
 import { levelKey } from '~/lib/useLocalProgress'
-
-type GameId = 'sokomot' | 'boucle' | 'semantogramme'
 
 type Props = {
   gameId: GameId
   dates: string[]
   progress: GameProgress
-}
-
-const SIZE_FORMULA: Record<GameId, (i: number) => { width: number; height: number }> = {
-  sokomot: (i) => ({ width: 6 + i, height: 5 + i }),
-  boucle: (i) => ({ width: 3 + i, height: 3 + i }),
-  semantogramme: (i) => ({ width: 3 + i, height: 3 + i }),
 }
 
 function groupByMonth(dates: string[]): Map<string, string[]> {
@@ -29,8 +26,20 @@ function groupByMonth(dates: string[]): Map<string, string[]> {
   return m
 }
 
-function isDateFullyDone(progress: GameProgress, date: string): boolean {
-  return [1, 2, 3, 4].every((i) => progress[levelKey(date, i)]?.completed)
+function dayStatuses(
+  gameId: GameId,
+  date: string,
+  progress: GameProgress,
+): CompletionStatus[] {
+  return [1, 2, 3, 4].map((i) =>
+    completionStatus(progress[levelKey(date, i)], getLevelParMoves(gameId, date, i)),
+  )
+}
+
+function aggregateStatus(statuses: CompletionStatus[]): CompletionStatus {
+  if (statuses.every((s) => s === 'perfect')) return 'perfect'
+  if (statuses.every((s) => s !== 'unsolved')) return 'solved'
+  return 'unsolved'
 }
 
 export function ArchiveAccordion({ gameId, dates, progress }: Props) {
@@ -51,7 +60,9 @@ export function ArchiveAccordion({ gameId, dates, progress }: Props) {
       {months.map((month) => {
         const isOpen = openMonth === month
         const monthDates = (grouped.get(month) ?? []).slice().sort().reverse()
-        const monthFullyDone = monthDates.every((d) => isDateFullyDone(progress, d))
+        const monthAggregate = aggregateStatus(
+          monthDates.flatMap((d) => dayStatuses(gameId, d, progress)),
+        )
         return (
           <div
             key={month}
@@ -65,69 +76,79 @@ export function ArchiveAccordion({ gameId, dates, progress }: Props) {
             >
               <span className="flex items-center gap-2 font-display text-base font-semibold capitalize">
                 {monthLabel(month)}
-                {monthFullyDone && <CheckMark size="sm" />}
+                {monthAggregate !== 'unsolved' && (
+                  <CheckMark
+                    size="sm"
+                    variant={monthAggregate === 'perfect' ? 'perfect' : 'solved'}
+                  />
+                )}
               </span>
               <span className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
                 <span>
                   {monthDates.length} jour{monthDates.length > 1 ? 's' : ''}
                 </span>
-                <svg
-                  viewBox="0 0 16 16"
+                <ChevronRight
                   className={`h-4 w-4 transition-transform ${isOpen ? 'rotate-90' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden="true"
-                >
-                  <path d="M 5 3 L 11 8 L 5 13" />
-                </svg>
+                />
               </span>
             </button>
             {isOpen && (
               <ul className="divide-y divide-gray-200 border-t border-gray-200 bg-gray-50/40 dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-950/40">
-                {monthDates.map((date) => {
-                  const dateFullyDone = isDateFullyDone(progress, date)
-                  return (
-                    <li
-                      key={date}
-                      className="flex items-center gap-3 px-4 py-3 sm:gap-4"
-                    >
-                      <div className="flex w-20 shrink-0 items-center gap-1.5 sm:w-24">
-                        <span className="font-mono text-sm capitalize text-gray-700 dark:text-gray-200">
-                          {dateLabelShort(date)}
-                        </span>
-                        {dateFullyDone && <CheckMark size="sm" />}
-                      </div>
-                      <div className="grid flex-1 grid-cols-2 gap-2 sm:grid-cols-4">
-                        {[1, 2, 3, 4].map((i) => {
-                          const size = SIZE_FORMULA[gameId](i)
-                          const iceMode = gameId === 'sokomot' && (i === 2 || i === 4)
-                          return (
-                            <LevelTile
-                              key={i}
-                              gameId={gameId}
-                              date={date}
-                              index={i}
-                              width={size.width}
-                              height={size.height}
-                              locked={false}
-                              completed={!!progress[levelKey(date, i)]?.completed}
-                              variant="archive"
-                              iceMode={iceMode}
-                            />
-                          )
-                        })}
-                      </div>
-                    </li>
-                  )
-                })}
+                {monthDates.map((date) => (
+                  <ArchiveDayRow
+                    key={date}
+                    gameId={gameId}
+                    date={date}
+                    progress={progress}
+                  />
+                ))}
               </ul>
             )}
           </div>
         )
       })}
     </div>
+  )
+}
+
+type DayRowProps = {
+  gameId: GameId
+  date: string
+  progress: GameProgress
+}
+
+function ArchiveDayRow({ gameId, date, progress }: DayRowProps) {
+  const statuses = dayStatuses(gameId, date, progress)
+  const aggregate = aggregateStatus(statuses)
+  return (
+    <li className="flex items-center gap-3 px-4 py-3 sm:gap-4">
+      <div className="flex w-20 shrink-0 items-center gap-1.5 sm:w-24">
+        <span className="font-mono text-sm capitalize text-gray-700 dark:text-gray-200">
+          {dateLabelShort(date)}
+        </span>
+        {aggregate !== 'unsolved' && (
+          <CheckMark size="sm" variant={aggregate === 'perfect' ? 'perfect' : 'solved'} />
+        )}
+      </div>
+      <div className="grid flex-1 grid-cols-2 gap-2 sm:grid-cols-4">
+        {[1, 2, 3, 4].map((i) => {
+          const size = GAME_SIZE[gameId](i)
+          return (
+            <LevelTile
+              key={i}
+              gameId={gameId}
+              date={date}
+              index={i}
+              width={size.width}
+              height={size.height}
+              locked={false}
+              status={statuses[i - 1]}
+              variant="archive"
+              iceMode={isIceLevel(gameId, i)}
+            />
+          )
+        })}
+      </div>
+    </li>
   )
 }

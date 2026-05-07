@@ -73,6 +73,12 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
     colClues.push(count)
   }
 
+  // Le minimum de clics pour résoudre = nombre de cases « in », puisqu'il
+  // suffit de marquer ces cases (les non-thème peuvent rester vides).
+  // On accorde une tolérance pour gérer un ou deux cas hésitants.
+  const inCount = solution.flat().filter(Boolean).length
+  const parMoves = inCount + 3
+
   return {
     id: `${date}-${index}`,
     name: `Niveau ${index} · ${width}×${height}`,
@@ -83,5 +89,6 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
     colClues,
     themeWord: theme.word,
     solution,
+    parMoves,
   }
 }

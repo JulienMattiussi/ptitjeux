@@ -2,9 +2,12 @@ import { useEffect, useReducer } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
+import { HelpBox } from '~/components/HelpBox'
+import { OutlineButton } from '~/components/OutlineButton'
+import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/boucle/Board'
-import { getLevel } from '~/games/boucle/challenges'
+import { getAllDates, getLevel } from '~/games/boucle/challenges'
 import {
   areCluesSatisfied,
   isValidLoop,
@@ -14,11 +17,28 @@ import {
   toggleEdge,
 } from '~/games/boucle/engine'
 import type { Edge, GameState } from '~/games/boucle/types'
-import { dateLabel } from '~/lib/dates'
+import { dateLabel, todayString } from '~/lib/dates'
 import { writeLevelProgress } from '~/lib/localStorage'
 import { levelKey } from '~/lib/useLocalProgress'
 
 type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }
+
+function StatusRow({ label, value, ok }: { label: string; value: string; ok: boolean }) {
+  return (
+    <div className="flex items-center justify-between">
+      <span className="text-gray-500 dark:text-gray-400">{label}</span>
+      <span
+        className={`font-semibold ${
+          ok
+            ? 'text-emerald-600 dark:text-emerald-400'
+            : 'text-amber-600 dark:text-amber-400'
+        }`}
+      >
+        {value}
+      </span>
+    </div>
+  )
+}
 
 function reducer(state: GameState, action: Action): GameState {
   switch (action.type) {
@@ -43,12 +63,20 @@ export default function BouclePlay() {
   const won = level ? isWon(state) : false
   const cluesOk = level ? areCluesSatisfied(state) : false
   const loopOk = level ? isValidLoop(state.edges) : false
+  const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
+  const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+
+  const allDates = getAllDates()
+  const isToday = date === todayString(allDates[allDates.length - 1])
 
   useEffect(() => {
     if (won && date && idx) {
-      writeLevelProgress('boucle', levelKey(date, idx), { completed: true })
+      writeLevelProgress('boucle', levelKey(date, idx), {
+        completed: true,
+        bestMoves: state.moves,
+      })
     }
-  }, [won, date, idx])
+  }, [won, date, idx, state.moves])
 
   if (!level || !date) {
     return (
@@ -66,7 +94,7 @@ export default function BouclePlay() {
 
   return (
     <GameLayout
-      title={`Boucle · ${dateLabel(date)} · niveau ${idx}`}
+      title={`Boucle · ${isToday ? 'Défi du jour' : dateLabel(date)} · niveau ${idx}`}
       subtitle={`${level.solutionWord.length} lettres à encercler.`}
       backHref="/boucle"
       backLabel="Niveaux"
@@ -76,10 +104,24 @@ export default function BouclePlay() {
         overlay={
           <VictoryOverlay
             show={won}
-            title="Boucle complète !"
+            variant={victoryVariant}
+            title={beatPar ? 'Boucle parfaite !' : 'Boucle complète'}
             detail={
               <>
-                Mot encerclé : <span className="font-bold">{level.solutionWord}</span>.
+                <div>
+                  Mot encerclé : <span className="font-bold">{level.solutionWord}</span>{' '}
+                  en{' '}
+                  <span className="font-bold">
+                    {state.moves} coup{state.moves > 1 ? 's' : ''}
+                  </span>
+                  .
+                </div>
+                {level.parMoves !== undefined && (
+                  <div>
+                    Objectif <span className="font-bold">{level.parMoves}</span>{' '}
+                    {beatPar ? 'atteint' : 'dépassé'}.
+                  </div>
+                )}
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}
@@ -93,48 +135,35 @@ export default function BouclePlay() {
             if (!won) dispatch({ type: 'toggle', edge })
           }}
         />
-        <aside className="flex w-full max-w-xs flex-col gap-3">
+        <PlaySidebar>
           <div className="rounded-xl border border-gray-200 bg-white p-3 text-sm dark:border-gray-800 dark:bg-gray-900">
-            <div className="flex items-center justify-between">
-              <span className="text-gray-500 dark:text-gray-400">Indices</span>
-              <span
-                className={`font-semibold ${
-                  cluesOk
-                    ? 'text-emerald-600 dark:text-emerald-400'
-                    : 'text-amber-600 dark:text-amber-400'
-                }`}
-              >
-                {cluesOk ? 'OK' : 'à vérifier'}
-              </span>
+            <StatusRow label="Indices" value={cluesOk ? 'OK' : 'à vérifier'} ok={cluesOk} />
+            <div className="mt-1">
+              <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'ouverte'} ok={loopOk} />
             </div>
-            <div className="mt-1 flex items-center justify-between">
-              <span className="text-gray-500 dark:text-gray-400">Boucle</span>
-              <span
-                className={`font-semibold ${
-                  loopOk
-                    ? 'text-emerald-600 dark:text-emerald-400'
-                    : 'text-amber-600 dark:text-amber-400'
-                }`}
-              >
-                {loopOk ? 'fermée' : 'ouverte'}
+            <div className="mt-2 flex items-center justify-between border-t border-gray-100 pt-2 dark:border-gray-800">
+              <span className="text-gray-500 dark:text-gray-400">Coups</span>
+              <span className="font-semibold">
+                {state.moves}
+                {level.parMoves !== undefined && (
+                  <span className="ml-1 text-xs text-gray-400 dark:text-gray-500">
+                    / {level.parMoves}
+                  </span>
+                )}
               </span>
             </div>
           </div>
 
-          <button
-            type="button"
-            onClick={() => dispatch({ type: 'reset' })}
-            className="rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800"
-          >
+          <OutlineButton onClick={() => dispatch({ type: 'reset' })}>
             Recommencer
-          </button>
+          </OutlineButton>
 
-          <div className="rounded-xl bg-gray-50 p-3 text-xs leading-relaxed text-gray-600 dark:bg-gray-800 dark:text-gray-400">
+          <HelpBox>
             Clique sur une arête entre deux cases pour l'ajouter à la boucle. Les indices te
             disent combien d'arêtes de la boucle entourent la case. Quand la boucle est valide,
             les lettres encerclées doivent former le mot.
-          </div>
-        </aside>
+          </HelpBox>
+        </PlaySidebar>
       </GameFrame>
     </GameLayout>
   )

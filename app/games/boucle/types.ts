@@ -28,9 +28,13 @@ export type Level = {
   solutionWord: string
   /** Cases qui doivent finir à l'intérieur de la boucle, en ordre lecture. Utilisé par les tests. */
   solutionInsideCells?: Coord[]
+  /** Nombre maximum de toggles d'arêtes pour que la résolution soit considérée « parfaite ». */
+  parMoves?: number
 }
 
 export type GameState = {
   level: Level
   edges: Edge[]
+  /** Nombre total de toggles d'arêtes effectués par le joueur. */
+  moves: number
 }

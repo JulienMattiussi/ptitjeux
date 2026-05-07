@@ -1,4 +1,5 @@
 import { Link } from 'react-router'
+import { ChevronRight } from './icons'
 import { THUMBNAILS } from './Thumbnails'
 import type { GameDescriptor } from '~/lib/games-registry'
 
@@ -40,17 +41,7 @@ export function GameCard({ game, completedCount, totalLevels }: Props) {
         </p>
         <span className="mt-auto inline-flex items-center gap-1 pt-2 text-sm font-semibold text-gray-900 transition-transform group-hover:translate-x-1 dark:text-gray-100">
           Jouer
-          <svg
-            viewBox="0 0 16 16"
-            className="h-3.5 w-3.5"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M 5 3 L 11 8 L 5 13" />
-          </svg>
+          <ChevronRight className="h-3.5 w-3.5" />
         </span>
       </div>
     </Link>

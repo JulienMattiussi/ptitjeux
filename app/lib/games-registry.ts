@@ -1,9 +1,12 @@
+import { GAME_ACCENT, type GameId } from './game-styles'
+
 export type GameDescriptor = {
-  id: string
+  id: GameId
   name: string
   tagline: string
   description: string
   href: string
+  /** Classes Tailwind du gradient d'accent (ex. `from-sky-500 to-indigo-600`). */
   accentClass: string
 }
 
@@ -15,7 +18,7 @@ export const games: GameDescriptor[] = [
     description:
       "Un Sokoban où chaque caisse porte une lettre. Aligne-les dans la zone cible pour épeler le mot du niveau. Certains niveaux ajoutent de la glace : tout glisse jusqu'au prochain obstacle.",
     href: '/sokomot',
-    accentClass: 'from-sky-500 to-indigo-600',
+    accentClass: GAME_ACCENT.sokomot.bar,
   },
   {
     id: 'boucle',
@@ -24,7 +27,7 @@ export const games: GameDescriptor[] = [
     description:
       "Trace une seule boucle fermée sur une grille de lettres. Les indices numériques fonctionnent comme un Slitherlink. Les lettres encerclées forment le mot du jour.",
     href: '/boucle',
-    accentClass: 'from-emerald-500 to-teal-600',
+    accentClass: GAME_ACCENT.boucle.bar,
   },
   {
     id: 'semantogramme',
@@ -33,7 +36,7 @@ export const games: GameDescriptor[] = [
     description:
       "Une grille de mots. Les chiffres en marge indiquent combien de mots de chaque ligne et colonne sont liés à un thème caché. Identifie-les tous, puis devine le thème.",
     href: '/semantogramme',
-    accentClass: 'from-amber-500 to-orange-600',
+    accentClass: GAME_ACCENT.semantogramme.bar,
   },
 ]
 

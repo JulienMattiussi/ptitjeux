@@ -16,15 +16,18 @@ export function isIceIndex(index: 1 | 2 | 3 | 4): boolean {
  *
  * Template (toujours résoluble par construction) :
  * - Salle rectangulaire bordée de murs (largeur W, hauteur H).
- * - Cases cibles sur la ligne 2, centrées horizontalement.
  *
- * Mode classique (niveaux 1 et 3) :
- * - Blocs juste en dessous des cibles (ligne 3), prêts à être poussés vers le haut.
+ * Mode classique (niveaux 1 et 3, sans glace) :
+ * - Cases cibles sur la ligne 2.
+ * - Blocs juste en dessous (ligne 3), poussés directement vers le haut.
  *
  * Mode glace (niveaux 2 et 4) :
+ * - Cases cibles sur la ligne 1, **adossées au mur du haut** : c'est ce mur
+ *   qui arrête le bloc qui glisse.
+ * - Toutes les cases entre la ligne 1 (cible) et la ligne H-4 sont gelées.
  * - Blocs sur la ligne H-3.
- * - Toutes les cases entre la ligne 3 et la ligne H-4 sont gelées : pousser un
- *   bloc le fait glisser jusqu'à la ligne 2 (premier non-glace au-dessus).
+ * - Pousser un bloc le fait glisser jusqu'à buter contre le mur du haut ;
+ *   il s'immobilise sur la case cible (avant-dernière en partant du haut).
  *
  * Joueur en bas-gauche (1, H-2) dans tous les cas.
  *
@@ -44,6 +47,9 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
   const word = rng.pick(words)
   const leftStart = Math.floor((width - wordLen) / 2)
 
+  // Cible adossée au mur du haut en mode glace, sinon à 2 lignes en dessous.
+  const targetRow = isIce ? 1 : 2
+  // Bloc juste sous le sol glacé en mode glace, sinon adjacent à la cible.
   const blockRow = isIce ? height - 3 : 3
   const playerRow = height - 2
   const pushRow = blockRow + 1
@@ -58,11 +64,12 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
     walls.push([width - 1, y])
   }
 
-  // Glace : remplit les cases entre la ligne cible et la ligne des blocs
-  // (exclues), sur toute la largeur jouable.
+  // Glace : couvre la cible (ligne 1) et tout l'espace entre cible et blocs.
+  // Le bloc poussé glisse à travers cette zone et n'est arrêté que par le
+  // mur du haut, s'immobilisant sur la case cible.
   const ice: Coord[] = []
   if (isIce) {
-    for (let y = 3; y < blockRow; y++) {
+    for (let y = targetRow; y < blockRow; y++) {
       for (let x = 1; x < width - 1; x++) {
         ice.push([x, y])
       }
@@ -73,17 +80,15 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
   const blocks: Block[] = []
   for (let i = 0; i < wordLen; i++) {
     const col = leftStart + i
-    targets.push([col, 2])
+    targets.push([col, targetRow])
     blocks.push({ id: `b${i + 1}`, letter: word[i], pos: [col, blockRow] })
   }
 
   const player: Coord = [1, playerRow]
 
-  // Solution :
-  // 1. Remonter de la ligne playerRow à pushRow si nécessaire (mode classique).
-  // 2. Pour chaque bloc, se déplacer horizontalement à sa colonne, pousser
-  //    vers le haut (slide automatique en mode glace), redescendre au pushRow
-  //    pour le bloc suivant.
+  // Solution : remonter à pushRow (zéro coup en mode glace puisque pushRow =
+  // playerRow), puis pour chaque bloc se déplacer à sa colonne, pousser,
+  // redescendre.
   const solution: Direction[] = []
   let pos: Coord = [...player] as Coord
   while (pos[1] > pushRow) {

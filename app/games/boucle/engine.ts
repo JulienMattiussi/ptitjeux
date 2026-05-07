@@ -1,7 +1,7 @@
 import type { Coord, Edge, GameState, Level } from './types'
 
 export function loadLevel(level: Level): GameState {
-  return { level, edges: [] }
+  return { level, edges: [], moves: 0 }
 }
 
 export function reset(state: GameState): GameState {
@@ -21,6 +21,7 @@ export function toggleEdge(state: GameState, edge: Edge): GameState {
   return {
     ...state,
     edges: exists ? state.edges.filter((e) => !sameEdge(e, edge)) : [...state.edges, edge],
+    moves: state.moves + 1,
   }
 }
 

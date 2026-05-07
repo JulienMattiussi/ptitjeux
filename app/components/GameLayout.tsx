@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import type { ReactNode } from 'react'
+import { ChevronLeft } from './icons'
 
 type Props = {
   title: string
@@ -25,17 +26,7 @@ export function GameLayout({
             className="group flex items-center gap-2 rounded-md px-2 py-1 text-sm text-gray-500 transition hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-100"
             aria-label={backLabel}
           >
-            <svg
-              viewBox="0 0 16 16"
-              className="h-4 w-4 transition-transform group-hover:-translate-x-0.5"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M 11 3 L 5 8 L 11 13" />
-            </svg>
+            <ChevronLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" />
             <span className="hidden sm:inline">{backLabel}</span>
           </Link>
           <div className="flex-1 truncate">

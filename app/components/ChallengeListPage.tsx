@@ -1,10 +1,12 @@
 import { ArchiveAccordion } from './ArchiveAccordion'
+import { CheckMark } from './CheckMark'
 import { GameLayout } from './GameLayout'
-import { CheckMark, LevelTile } from './LevelTile'
+import { LevelTile } from './LevelTile'
+import { getLevelParMoves } from '~/games'
+import { completionStatus } from '~/lib/completion'
 import { dateLabel, todayString } from '~/lib/dates'
+import { GAME_SIZE, isIceLevel, type GameId } from '~/lib/game-styles'
 import { useLocalProgress, levelKey } from '~/lib/useLocalProgress'
-
-type GameId = 'sokomot' | 'boucle' | 'semantogramme'
 
 type Props = {
   gameId: GameId
@@ -14,19 +16,7 @@ type Props = {
   dates: string[]
 }
 
-const SIZE_FORMULA: Record<GameId, (index: number) => { width: number; height: number }> = {
-  sokomot: (i) => ({ width: 6 + i, height: 5 + i }),
-  boucle: (i) => ({ width: 3 + i, height: 3 + i }),
-  semantogramme: (i) => ({ width: 3 + i, height: 3 + i }),
-}
-
-export function ChallengeListPage({
-  gameId,
-  title,
-  tagline,
-  description,
-  dates,
-}: Props) {
+export function ChallengeListPage({ gameId, title, tagline, description, dates }: Props) {
   const sortedDates = dates.slice().sort()
   const lastAvailable = sortedDates[sortedDates.length - 1]
   const today = todayString(lastAvailable)
@@ -36,8 +26,26 @@ export function ChallengeListPage({
 
   const progress = useLocalProgress(gameId)
 
-  const dailyAllCompleted =
-    !!dailyDate && [1, 2, 3, 4].every((i) => progress[levelKey(dailyDate, i)]?.completed)
+  const dailyAllPerfect =
+    !!dailyDate &&
+    [1, 2, 3, 4].every(
+      (i) =>
+        completionStatus(
+          progress[levelKey(dailyDate, i)],
+          getLevelParMoves(gameId, dailyDate, i),
+        ) === 'perfect',
+    )
+  const dailyAllSolved =
+    !!dailyDate &&
+    [1, 2, 3, 4].every(
+      (i) =>
+        completionStatus(
+          progress[levelKey(dailyDate, i)],
+          getLevelParMoves(gameId, dailyDate, i),
+        ) !== 'unsolved',
+    )
+
+  const dailyHeaderCheck = dailyAllPerfect ? 'perfect' : dailyAllSolved ? 'solved' : null
 
   return (
     <GameLayout title={title} subtitle={tagline}>
@@ -48,7 +56,7 @@ export function ChallengeListPage({
           <header className="mb-4 flex items-baseline justify-between gap-4">
             <h2 className="flex items-center gap-2 font-display text-xl font-bold tracking-tight">
               Défi du jour
-              {dailyAllCompleted && <CheckMark size="md" />}
+              {dailyHeaderCheck && <CheckMark size="md" variant={dailyHeaderCheck} />}
             </h2>
             <span className="text-sm capitalize text-gray-500 dark:text-gray-400">
               {dateLabel(dailyDate)}
@@ -56,12 +64,19 @@ export function ChallengeListPage({
           </header>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {[1, 2, 3, 4].map((i) => {
-              const size = SIZE_FORMULA[gameId](i)
-              const completed = !!progress[levelKey(dailyDate, i)]?.completed
-              const previousCompleted =
-                i === 1 || !!progress[levelKey(dailyDate, i - 1)]?.completed
-              const locked = !previousCompleted
-              const iceMode = gameId === 'sokomot' && (i === 2 || i === 4)
+              const size = GAME_SIZE[gameId](i)
+              const status = completionStatus(
+                progress[levelKey(dailyDate, i)],
+                getLevelParMoves(gameId, dailyDate, i),
+              )
+              const previousStatus =
+                i === 1
+                  ? 'solved'
+                  : completionStatus(
+                      progress[levelKey(dailyDate, i - 1)],
+                      getLevelParMoves(gameId, dailyDate, i - 1),
+                    )
+              const locked = previousStatus === 'unsolved'
               return (
                 <LevelTile
                   key={i}
@@ -71,9 +86,9 @@ export function ChallengeListPage({
                   width={size.width}
                   height={size.height}
                   locked={locked}
-                  completed={completed}
+                  status={status}
                   variant="daily"
-                  iceMode={iceMode}
+                  iceMode={isIceLevel(gameId, i)}
                 />
               )
             })}

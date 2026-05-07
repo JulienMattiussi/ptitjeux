@@ -4,7 +4,7 @@ export function loadLevel(level: Level): GameState {
   const status: CellStatus[][] = Array.from({ length: level.height }, () =>
     Array.from({ length: level.width }, () => 'unmarked' as CellStatus),
   )
-  return { level, status, themeGuess: '' }
+  return { level, status, themeGuess: '', moves: 0 }
 }
 
 export function setCellStatus(
@@ -29,7 +29,8 @@ const NEXT_STATUS: Record<CellStatus, CellStatus> = {
 export function cycleCellStatus(state: GameState, x: number, y: number): GameState {
   if (y < 0 || y >= state.level.height || x < 0 || x >= state.level.width) return state
   const current = state.status[y][x]
-  return setCellStatus(state, x, y, NEXT_STATUS[current])
+  const next = setCellStatus(state, x, y, NEXT_STATUS[current])
+  return { ...next, moves: state.moves + 1 }
 }
 
 export function setThemeGuess(state: GameState, themeGuess: string): GameState {

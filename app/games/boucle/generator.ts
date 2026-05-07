@@ -57,6 +57,11 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
   clues['1,0'] = 1
   clues[`1,${height - 1}`] = 1
 
+  // Périmètre de la boucle solution = nombre minimal de toggles d'arêtes.
+  // On accorde une petite tolérance pour considérer la résolution parfaite.
+  const perimeter = 2 * (1 + wordLen)
+  const parMoves = perimeter + 4
+
   return {
     id: `${date}-${index}`,
     name: `Niveau ${index} · ${width}×${height}`,
@@ -66,5 +71,6 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
     clues,
     solutionWord: word,
     solutionInsideCells: insideCells,
+    parMoves,
   }
 }

@@ -2,9 +2,12 @@ import { useEffect, useReducer, useState } from 'react'
 import { Link, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
+import { HelpBox } from '~/components/HelpBox'
+import { OutlineButton } from '~/components/OutlineButton'
+import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/semantogramme/Board'
-import { getLevel } from '~/games/semantogramme/challenges'
+import { getAllDates, getLevel } from '~/games/semantogramme/challenges'
 import {
   cycleCellStatus,
   isFullyMarked,
@@ -16,7 +19,7 @@ import {
   setThemeGuess,
 } from '~/games/semantogramme/engine'
 import type { GameState } from '~/games/semantogramme/types'
-import { dateLabel } from '~/lib/dates'
+import { dateLabel, todayString } from '~/lib/dates'
 import { writeLevelProgress } from '~/lib/localStorage'
 import { levelKey } from '~/lib/useLocalProgress'
 
@@ -52,12 +55,20 @@ export default function SemantogrammePlay() {
   const fullyMarked = level ? isFullyMarked(state) : false
   const gridSolved = level ? isGridSolved(state) : false
   const won = level ? isWon(state) : false
+  const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
+  const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+
+  const allDates = getAllDates()
+  const isToday = date === todayString(allDates[allDates.length - 1])
 
   useEffect(() => {
     if (won && date && idx) {
-      writeLevelProgress('semantogramme', levelKey(date, idx), { completed: true })
+      writeLevelProgress('semantogramme', levelKey(date, idx), {
+        completed: true,
+        bestMoves: state.moves,
+      })
     }
-  }, [won, date, idx])
+  }, [won, date, idx, state.moves])
 
   if (!level || !date) {
     return (
@@ -84,7 +95,7 @@ export default function SemantogrammePlay() {
 
   return (
     <GameLayout
-      title={`Sémantogramme · ${dateLabel(date)} · niveau ${idx}`}
+      title={`Sémantogramme · ${isToday ? 'Défi du jour' : dateLabel(date)} · niveau ${idx}`}
       subtitle="Identifie les mots liés au thème caché."
       backHref="/semantogramme"
       backLabel="Niveaux"
@@ -94,10 +105,24 @@ export default function SemantogrammePlay() {
         overlay={
           <VictoryOverlay
             show={won}
-            title="Thème trouvé !"
+            variant={victoryVariant}
+            title={beatPar ? 'Thème trouvé !' : 'Thème trouvé'}
             detail={
               <>
-                Le mot caché était <span className="font-bold">« {level.themeWord} »</span>.
+                <div>
+                  Le mot caché était{' '}
+                  <span className="font-bold">« {level.themeWord} »</span>, trouvé en{' '}
+                  <span className="font-bold">
+                    {state.moves} clic{state.moves > 1 ? 's' : ''}
+                  </span>
+                  .
+                </div>
+                {level.parMoves !== undefined && (
+                  <div>
+                    Objectif <span className="font-bold">{level.parMoves}</span>{' '}
+                    {beatPar ? 'atteint' : 'dépassé'}.
+                  </div>
+                )}
               </>
             }
             onReset={() => {
@@ -116,8 +141,8 @@ export default function SemantogrammePlay() {
             setThemeError(false)
           }}
         />
-        <aside className="flex w-full max-w-xs flex-col gap-3">
-          <div className="rounded-xl bg-gray-50 p-3 text-xs leading-relaxed text-gray-600 dark:bg-gray-800 dark:text-gray-400">
+        <PlaySidebar>
+          <HelpBox>
             Clique sur une case pour changer son état :
             <span className="mx-1 inline-block rounded bg-amber-200 px-1.5 py-0.5 text-amber-950 dark:bg-amber-700/70 dark:text-amber-50">
               IN
@@ -127,7 +152,7 @@ export default function SemantogrammePlay() {
               OUT
             </span>
             (hors thème) → vide.
-          </div>
+          </HelpBox>
 
           {fullyMarked && !gridSolved && (
             <div className="rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-200">
@@ -173,17 +198,15 @@ export default function SemantogrammePlay() {
             </form>
           )}
 
-          <button
-            type="button"
+          <OutlineButton
             onClick={() => {
               dispatch({ type: 'reset' })
               setThemeError(false)
             }}
-            className="rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-800 dark:bg-gray-900 dark:hover:bg-gray-800"
           >
             Recommencer
-          </button>
-        </aside>
+          </OutlineButton>
+        </PlaySidebar>
       </GameFrame>
     </GameLayout>
   )

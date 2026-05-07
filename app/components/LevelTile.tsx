@@ -1,7 +1,9 @@
 import { Link } from 'react-router'
+import { CheckMark } from './CheckMark'
+import { ChevronRight, LockIcon } from './icons'
 import { THUMBNAILS } from './Thumbnails'
-
-type GameId = 'sokomot' | 'boucle' | 'semantogramme'
+import type { CompletionStatus } from '~/lib/completion'
+import { GAME_ACCENT, type GameId } from '~/lib/game-styles'
 
 type Props = {
   gameId: GameId
@@ -10,63 +12,12 @@ type Props = {
   width: number
   height: number
   locked: boolean
-  completed: boolean
+  /** Statut de complétion : non résolu / résolu / parfait (objectif respecté). */
+  status: CompletionStatus
   /** `daily` = grande tuile avec libellé « Niveau N ». `archive` = compact, sans libellé. */
   variant?: 'daily' | 'archive'
   /** Affiche un badge « Glace » (mécanique de glissade dans Sokomot). */
   iceMode?: boolean
-}
-
-const ACCENT: Record<
-  GameId,
-  { bar: string; ring: string; text: string; badgeBorder: string; badgeText: string }
-> = {
-  sokomot: {
-    bar: 'from-sky-400 to-indigo-600',
-    ring: 'hover:border-sky-400 dark:hover:border-sky-500',
-    text: 'text-sky-700 dark:text-sky-300',
-    badgeBorder: 'border-sky-500/70 dark:border-sky-400/60',
-    badgeText: 'text-sky-700 dark:text-sky-300',
-  },
-  boucle: {
-    bar: 'from-emerald-400 to-teal-600',
-    ring: 'hover:border-emerald-400 dark:hover:border-emerald-500',
-    text: 'text-emerald-700 dark:text-emerald-300',
-    badgeBorder: 'border-emerald-500/70 dark:border-emerald-400/60',
-    badgeText: 'text-emerald-700 dark:text-emerald-300',
-  },
-  semantogramme: {
-    bar: 'from-amber-400 to-orange-600',
-    ring: 'hover:border-amber-400 dark:hover:border-amber-500',
-    text: 'text-amber-700 dark:text-amber-300',
-    badgeBorder: 'border-amber-500/70 dark:border-amber-400/60',
-    badgeText: 'text-amber-700 dark:text-amber-300',
-  },
-}
-
-export function CheckMark({ size = 'sm' }: { size?: 'sm' | 'md' | 'lg' }) {
-  const wrap =
-    size === 'lg' ? 'h-7 w-7' : size === 'md' ? 'h-6 w-6' : 'h-5 w-5'
-  const inner =
-    size === 'lg' ? 'h-4 w-4' : size === 'md' ? 'h-3.5 w-3.5' : 'h-3 w-3'
-  return (
-    <span
-      className={`inline-flex shrink-0 items-center justify-center rounded-full bg-emerald-500 text-white shadow-sm ${wrap}`}
-      aria-hidden="true"
-    >
-      <svg
-        viewBox="0 0 12 12"
-        className={inner}
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M 2 6 L 5 9 L 10 3" />
-      </svg>
-    </span>
-  )
 }
 
 export function LevelTile({
@@ -76,15 +27,16 @@ export function LevelTile({
   width,
   height,
   locked,
-  completed,
+  status,
   variant = 'daily',
   iceMode = false,
 }: Props) {
-  const Thumbnail = THUMBNAILS[gameId]
-  const c = ACCENT[gameId]
+  const c = GAME_ACCENT[gameId]
   const compact = variant === 'archive'
+  const completed = status !== 'unsolved'
+  const checkVariant = status === 'perfect' ? 'perfect' : 'solved'
 
-  const sizeBadgeBase = `font-display font-extrabold tracking-tight rounded-full border-2 bg-white/95 backdrop-blur dark:bg-gray-900/95 shadow-lg ${c.badgeBorder} ${c.badgeText}`
+  const sizeBadgeBase = `font-display font-extrabold tracking-tight rounded-full border-2 bg-white/95 backdrop-blur dark:bg-gray-900/95 ${c.badgeBorder} ${c.text}`
   const sizeBadgeClass = compact
     ? `${sizeBadgeBase} px-3 py-0.5 text-base shadow-md`
     : `${sizeBadgeBase} px-4 py-1.5 text-2xl shadow-xl`
@@ -105,14 +57,17 @@ export function LevelTile({
           <span className="text-xs font-medium uppercase tracking-wider text-gray-500 dark:text-gray-400">
             Niveau {index}
           </span>
-          {completed && <CheckMark size="sm" />}
+          {completed && <CheckMark size="sm" variant={checkVariant} />}
         </div>
       )}
 
       <div className="relative aspect-3/2 overflow-hidden rounded-md bg-gray-100 dark:bg-gray-950">
-        <Thumbnail className="h-full w-full opacity-80" />
+        {(() => {
+          const Thumbnail = THUMBNAILS[gameId]
+          return <Thumbnail className="h-full w-full opacity-80" />
+        })()}
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className={`${sizeBadgeClass} ${c.text}`}>
+          <span className={sizeBadgeClass}>
             {width} × {height}
           </span>
         </div>
@@ -134,14 +89,7 @@ export function LevelTile({
         )}
         {locked && (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-900/45 backdrop-blur-[1px]">
-            <svg
-              viewBox="0 0 16 16"
-              className="h-6 w-6 text-white drop-shadow"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path d="M5 7V5a3 3 0 1 1 6 0v2h.5A1.5 1.5 0 0 1 13 8.5v4A1.5 1.5 0 0 1 11.5 14h-7A1.5 1.5 0 0 1 3 12.5v-4A1.5 1.5 0 0 1 4.5 7H5zm1.5 0h3V5a1.5 1.5 0 1 0-3 0v2z" />
-            </svg>
+            <LockIcon className="h-6 w-6 text-white drop-shadow" />
           </div>
         )}
       </div>
@@ -150,24 +98,17 @@ export function LevelTile({
         <div className="mt-3 flex items-center justify-between text-sm">
           {locked ? (
             <span className="text-gray-400 dark:text-gray-500">Verrouillé</span>
-          ) : completed ? (
+          ) : status === 'perfect' ? (
             <span className="text-emerald-600 dark:text-emerald-400">Rejouer</span>
+          ) : status === 'solved' ? (
+            <span className="text-amber-600 dark:text-amber-400">Améliorer</span>
           ) : (
             <span className={`font-medium ${c.text}`}>Jouer</span>
           )}
           {!locked && (
-            <svg
-              viewBox="0 0 16 16"
+            <ChevronRight
               className={`h-4 w-4 transition-transform group-hover:translate-x-0.5 ${c.text}`}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
-              <path d="M 5 3 L 11 8 L 5 13" />
-            </svg>
+            />
           )}
         </div>
       )}
@@ -199,3 +140,4 @@ export function LevelTile({
     </Link>
   )
 }
+

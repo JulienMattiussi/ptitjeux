@@ -1,6 +1,6 @@
 {
   "id": "2026-04-18-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
@@ -103,7 +103,7 @@
       "id": "b1",
       "letter": "A",
       "pos": [
-        2,
+        1,
         3
       ]
     },
@@ -120,7 +120,7 @@
       "letter": "S",
       "pos": [
         4,
-        3
+        4
       ]
     }
   ],
@@ -128,29 +128,32 @@
     "word": "AIS",
     "cells": [
       [
-        2,
+        1,
         2
+      ],
+      [
+        2,
+        3
       ],
       [
         3,
-        2
-      ],
-      [
-        4,
-        2
+        4
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 13,
   "solution": [
+    "up",
     "right",
     "up",
-    "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up"
+    "down",
+    "left",
+    "right",
+    "right",
+    "down",
+    "left"
   ],
   "canonicalWord": "ais"
 }

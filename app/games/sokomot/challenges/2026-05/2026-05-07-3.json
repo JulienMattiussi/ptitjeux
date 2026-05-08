@@ -1,11 +1,11 @@
 {
   "id": "2026-05-07-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    2,
+    3
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      1,
+      1
     ]
   ],
   "ice": [],
@@ -135,7 +143,7 @@
       "id": "b1",
       "letter": "A",
       "pos": [
-        2,
+        3,
         3
       ]
     },
@@ -143,15 +151,15 @@
       "id": "b2",
       "letter": "M",
       "pos": [
-        3,
-        3
+        4,
+        5
       ]
     },
     {
       "id": "b3",
       "letter": "P",
       "pos": [
-        4,
+        5,
         3
       ]
     },
@@ -159,16 +167,16 @@
       "id": "b4",
       "letter": "L",
       "pos": [
-        5,
-        3
+        6,
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "I",
       "pos": [
-        6,
-        3
+        7,
+        4
       ]
     }
   ],
@@ -176,45 +184,47 @@
     "word": "AMPLI",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
-        3,
-        2
+        4,
+        3
       ],
       [
         4,
-        2
+        4
       ],
       [
         5,
-        2
+        4
       ],
       [
         6,
-        2
+        5
+      ],
+      [
+        7,
+        5
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 20,
   "solution": [
-    "up",
-    "up",
     "right",
-    "up",
+    "down",
+    "down",
     "down",
     "right",
     "up",
-    "down",
-    "right",
+    "left",
     "up",
-    "down",
-    "right",
     "up",
+    "up",
+    "right",
+    "right",
     "down",
     "right",
-    "up"
+    "down",
+    "up",
+    "right",
+    "down"
   ],
   "canonicalWord": "ampli"
 }

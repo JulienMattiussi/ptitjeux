@@ -1,11 +1,11 @@
 {
   "id": "2026-04-30-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    2,
+    4
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      7,
+      4
     ]
   ],
   "ice": [],
@@ -143,31 +151,31 @@
       "id": "b2",
       "letter": "U",
       "pos": [
-        3,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b3",
       "letter": "C",
       "pos": [
-        4,
-        3
+        5,
+        1
       ]
     },
     {
       "id": "b4",
       "letter": "H",
       "pos": [
-        5,
-        3
+        6,
+        2
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        6,
+        4,
         3
       ]
     }
@@ -181,40 +189,55 @@
       ],
       [
         3,
-        2
+        1
       ],
       [
         4,
-        2
+        1
       ],
       [
         5,
         2
       ],
       [
-        6,
-        2
+        5,
+        3
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 33,
   "solution": [
     "up",
+    "left",
+    "up",
     "up",
     "right",
-    "up",
+    "left",
+    "down",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
+    "right",
+    "right",
     "right",
     "up",
-    "down",
+    "right",
     "right",
     "up",
-    "down",
+    "up",
+    "left",
+    "left",
     "right",
-    "up"
+    "right",
+    "down",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up",
+    "right"
   ],
   "canonicalWord": "puche"
 }

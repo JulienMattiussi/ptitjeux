@@ -1,11 +1,11 @@
 {
   "id": "2026-05-06-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    5,
+    2
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      1,
+      1
     ]
   ],
   "ice": [],
@@ -135,8 +143,8 @@
       "id": "b1",
       "letter": "P",
       "pos": [
-        2,
-        3
+        4,
+        2
       ]
     },
     {
@@ -151,15 +159,15 @@
       "id": "b3",
       "letter": "N",
       "pos": [
-        4,
-        3
+        5,
+        5
       ]
     },
     {
       "id": "b4",
       "letter": "A",
       "pos": [
-        5,
+        6,
         3
       ]
     },
@@ -167,8 +175,8 @@
       "id": "b5",
       "letter": "T",
       "pos": [
-        6,
-        3
+        7,
+        4
       ]
     }
   ],
@@ -176,45 +184,57 @@
     "word": "PANAT",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
         2
       ],
       [
         4,
-        2
+        3
       ],
       [
         5,
-        2
+        4
       ],
       [
         6,
-        2
+        4
+      ],
+      [
+        7,
+        5
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 30,
   "solution": [
+    "left",
     "up",
-    "up",
-    "right",
-    "up",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
-    "up",
+    "down",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
     "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right",
     "down",
     "right",
-    "up"
+    "right",
+    "down",
+    "right",
+    "down"
   ],
   "canonicalWord": "panât"
 }

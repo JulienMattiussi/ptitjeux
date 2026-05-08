@@ -1,6 +1,6 @@
 {
   "id": "2026-04-21-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
@@ -103,7 +103,7 @@
       "id": "b1",
       "letter": "R",
       "pos": [
-        2,
+        1,
         3
       ]
     },
@@ -111,7 +111,7 @@
       "id": "b2",
       "letter": "I",
       "pos": [
-        3,
+        2,
         3
       ]
     },
@@ -119,8 +119,8 @@
       "id": "b3",
       "letter": "T",
       "pos": [
-        4,
-        3
+        3,
+        2
       ]
     }
   ],
@@ -128,27 +128,25 @@
     "word": "RIT",
     "cells": [
       [
+        1,
+        2
+      ],
+      [
         2,
         2
       ],
       [
         3,
-        2
-      ],
-      [
-        4,
-        2
+        1
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 8,
   "solution": [
-    "right",
     "up",
     "down",
     "right",
     "up",
-    "down",
     "right",
     "up"
   ],

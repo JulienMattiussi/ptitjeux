@@ -1,11 +1,11 @@
 {
   "id": "2026-04-04-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    3,
+    1
   ],
   "walls": [
     [
@@ -104,14 +104,14 @@
       "letter": "S",
       "pos": [
         2,
-        3
+        1
       ]
     },
     {
       "id": "b2",
       "letter": "I",
       "pos": [
-        3,
+        1,
         3
       ]
     },
@@ -119,7 +119,7 @@
       "id": "b3",
       "letter": "C",
       "pos": [
-        4,
+        3,
         3
       ]
     }
@@ -128,29 +128,33 @@
     "word": "SIC",
     "cells": [
       [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
         2,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        4,
-        2
+        3
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 14,
   "solution": [
-    "right",
+    "left",
+    "down",
+    "down",
+    "down",
+    "left",
     "up",
     "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up"
+    "right",
+    "up",
+    "left"
   ],
   "canonicalWord": "sic"
 }

@@ -1,11 +1,11 @@
 {
   "id": "2026-05-05-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    3,
+    1
   ],
   "walls": [
     [
@@ -104,22 +104,22 @@
       "letter": "P",
       "pos": [
         2,
-        3
+        1
       ]
     },
     {
       "id": "b2",
       "letter": "I",
       "pos": [
-        3,
-        3
+        2,
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "E",
       "pos": [
-        4,
+        3,
         3
       ]
     }
@@ -128,29 +128,29 @@
     "word": "PIE",
     "cells": [
       [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
         2,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        4,
-        2
+        3
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
+    "left",
     "right",
-    "up",
     "down",
+    "left",
     "right",
-    "up",
+    "right",
     "down",
-    "right",
-    "up"
+    "left"
   ],
   "canonicalWord": "pie"
 }

@@ -1,11 +1,11 @@
 {
   "id": "2026-05-05-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    2,
+    1
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      7,
+      6
     ]
   ],
   "ice": [],
@@ -136,14 +144,14 @@
       "letter": "R",
       "pos": [
         2,
-        3
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        3,
+        4,
         3
       ]
     },
@@ -151,8 +159,8 @@
       "id": "b3",
       "letter": "Y",
       "pos": [
-        4,
-        3
+        3,
+        4
       ]
     },
     {
@@ -160,7 +168,7 @@
       "letter": "O",
       "pos": [
         5,
-        3
+        4
       ]
     },
     {
@@ -177,44 +185,54 @@
     "cells": [
       [
         2,
-        2
+        3
       ],
       [
         3,
-        2
+        3
       ],
       [
         4,
-        2
+        4
       ],
       [
         5,
-        2
+        5
       ],
       [
         6,
-        2
+        4
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 28,
   "solution": [
-    "up",
-    "up",
-    "right",
-    "up",
     "down",
     "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
     "up",
+    "right",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
     "down",
     "right",
-    "up",
     "down",
-    "right",
     "up",
-    "down",
+    "up",
     "right",
-    "up"
+    "down"
   ],
   "canonicalWord": "rayon"
 }

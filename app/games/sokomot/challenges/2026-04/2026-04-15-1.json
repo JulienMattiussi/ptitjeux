@@ -1,11 +1,11 @@
 {
   "id": "2026-04-15-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
     1,
-    4
+    3
   ],
   "walls": [
     [
@@ -103,15 +103,15 @@
       "id": "b1",
       "letter": "C",
       "pos": [
-        2,
-        3
+        1,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "O",
       "pos": [
-        3,
+        2,
         3
       ]
     },
@@ -119,7 +119,7 @@
       "id": "b3",
       "letter": "R",
       "pos": [
-        4,
+        3,
         3
       ]
     }
@@ -128,23 +128,23 @@
     "word": "COR",
     "cells": [
       [
+        1,
+        1
+      ],
+      [
         2,
         2
       ],
       [
         3,
         2
-      ],
-      [
-        4,
-        2
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
-    "right",
     "up",
+    "down",
     "down",
     "right",
     "up",

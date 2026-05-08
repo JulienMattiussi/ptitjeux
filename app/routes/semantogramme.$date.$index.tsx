@@ -116,6 +116,7 @@ export default function SemantogrammePlay() {
   }, [level])
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+  const nextHref = idx < 4 ? `/semantogramme/${date}/${idx + 1}` : undefined
 
   const allDates = getAllDates()
   const isToday = date === todayString(allDates[allDates.length - 1])
@@ -190,6 +191,7 @@ export default function SemantogrammePlay() {
               setThemeError(false)
             }}
             backHref="/semantogramme"
+            nextHref={nextHref}
           />
         }
       >

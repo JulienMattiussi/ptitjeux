@@ -1,11 +1,11 @@
 {
   "id": "2026-04-13-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
     1,
-    4
+    2
   ],
   "walls": [
     [
@@ -104,14 +104,14 @@
       "letter": "G",
       "pos": [
         2,
-        3
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "O",
       "pos": [
-        3,
+        2,
         3
       ]
     },
@@ -120,7 +120,7 @@
       "letter": "Y",
       "pos": [
         4,
-        3
+        4
       ]
     }
   ],
@@ -128,29 +128,34 @@
     "word": "GOY",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
         2
       ],
       [
-        4,
-        2
+        3,
+        3
+      ],
+      [
+        3,
+        4
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 15,
   "solution": [
     "right",
-    "up",
+    "left",
     "down",
     "right",
     "up",
+    "up",
+    "right",
+    "right",
+    "down",
     "down",
     "right",
-    "up"
+    "down",
+    "left"
   ],
   "canonicalWord": "goy"
 }

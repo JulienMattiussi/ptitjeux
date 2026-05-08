@@ -1,11 +1,11 @@
 {
   "id": "2026-05-07-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
     1,
-    4
+    2
   ],
   "walls": [
     [
@@ -104,14 +104,14 @@
       "letter": "C",
       "pos": [
         2,
-        3
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        3,
+        4,
         3
       ]
     },
@@ -120,7 +120,7 @@
       "letter": "P",
       "pos": [
         4,
-        3
+        1
       ]
     }
   ],
@@ -128,29 +128,33 @@
     "word": "CAP",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
         2
       ],
       [
         4,
         2
+      ],
+      [
+        5,
+        1
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 14,
   "solution": [
     "right",
-    "up",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up"
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right"
   ],
   "canonicalWord": "cap"
 }

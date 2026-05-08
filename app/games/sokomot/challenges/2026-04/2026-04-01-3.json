@@ -1,11 +1,11 @@
 {
   "id": "2026-04-01-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    3,
+    1
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      6
     ]
   ],
   "ice": [],
@@ -135,15 +143,15 @@
       "id": "b1",
       "letter": "F",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "U",
       "pos": [
-        3,
+        4,
         3
       ]
     },
@@ -152,7 +160,7 @@
       "letter": "T",
       "pos": [
         4,
-        3
+        1
       ]
     },
     {
@@ -168,7 +176,7 @@
       "letter": "E",
       "pos": [
         6,
-        3
+        2
       ]
     }
   ],
@@ -176,12 +184,8 @@
     "word": "FUTEE",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
-        2
+        3
       ],
       [
         4,
@@ -189,30 +193,44 @@
       ],
       [
         5,
+        1
+      ],
+      [
+        5,
         2
       ],
       [
         6,
-        2
+        1
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 28,
   "solution": [
-    "up",
-    "up",
+    "down",
+    "left",
+    "down",
+    "down",
+    "right",
     "right",
     "up",
     "down",
-    "right",
+    "left",
+    "left",
     "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "left",
+    "down",
+    "left",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
+    "right",
     "right",
     "up",
-    "down",
     "right",
     "up"
   ],

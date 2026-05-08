@@ -1,11 +1,11 @@
 {
   "id": "2026-04-17-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    4,
+    2
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      7,
+      1
     ]
   ],
   "ice": [],
@@ -135,15 +143,15 @@
       "id": "b1",
       "letter": "B",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "U",
       "pos": [
-        3,
+        2,
         3
       ]
     },
@@ -151,8 +159,8 @@
       "id": "b3",
       "letter": "C",
       "pos": [
-        4,
-        3
+        2,
+        4
       ]
     },
     {
@@ -160,15 +168,15 @@
       "letter": "H",
       "pos": [
         5,
-        3
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        6,
-        3
+        4,
+        5
       ]
     }
   ],
@@ -181,40 +189,49 @@
       ],
       [
         3,
-        2
+        3
+      ],
+      [
+        3,
+        4
       ],
       [
         4,
-        2
+        4
       ],
       [
         5,
-        2
-      ],
-      [
-        6,
-        2
+        5
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 27,
   "solution": [
+    "left",
     "up",
-    "up",
-    "right",
-    "up",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
-    "up",
+    "left",
     "down",
     "right",
-    "up",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up"
+    "right",
+    "up",
+    "right",
+    "up",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "right"
   ],
   "canonicalWord": "bûche"
 }

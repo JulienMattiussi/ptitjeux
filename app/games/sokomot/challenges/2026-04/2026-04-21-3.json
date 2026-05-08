@@ -1,11 +1,11 @@
 {
   "id": "2026-04-21-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    3,
+    3
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      7,
+      5
     ]
   ],
   "ice": [],
@@ -135,23 +143,23 @@
       "id": "b1",
       "letter": "E",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "X",
       "pos": [
-        3,
-        3
+        5,
+        1
       ]
     },
     {
       "id": "b3",
       "letter": "I",
       "pos": [
-        4,
+        5,
         3
       ]
     },
@@ -159,7 +167,7 @@
       "id": "b4",
       "letter": "G",
       "pos": [
-        5,
+        6,
         3
       ]
     },
@@ -167,8 +175,8 @@
       "id": "b5",
       "letter": "E",
       "pos": [
-        6,
-        3
+        7,
+        2
       ]
     }
   ],
@@ -176,16 +184,12 @@
     "word": "EXIGE",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
-        2
+        1
       ],
       [
         4,
-        2
+        1
       ],
       [
         5,
@@ -194,25 +198,30 @@
       [
         6,
         2
+      ],
+      [
+        7,
+        1
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 19,
   "solution": [
     "up",
-    "up",
+    "right",
+    "right",
     "right",
     "up",
+    "left",
+    "down",
+    "left",
+    "down",
     "down",
     "right",
     "up",
     "down",
     "right",
     "up",
-    "down",
-    "right",
-    "up",
-    "down",
     "right",
     "up"
   ],

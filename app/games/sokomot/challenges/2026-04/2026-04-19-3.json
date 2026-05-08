@@ -1,11 +1,11 @@
 {
   "id": "2026-04-19-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
     1,
-    6
+    4
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      5,
+      6
     ]
   ],
   "ice": [],
@@ -135,7 +143,7 @@
       "id": "b1",
       "letter": "H",
       "pos": [
-        2,
+        1,
         3
       ]
     },
@@ -144,30 +152,30 @@
       "letter": "A",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "P",
       "pos": [
-        4,
-        3
+        2,
+        4
       ]
     },
     {
       "id": "b4",
       "letter": "P",
       "pos": [
-        5,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "A",
       "pos": [
-        6,
+        5,
         3
       ]
     }
@@ -176,45 +184,50 @@
     "word": "HAPPA",
     "cells": [
       [
+        1,
+        2
+      ],
+      [
         2,
         2
       ],
       [
+        2,
+        3
+      ],
+      [
         3,
-        2
+        3
       ],
       [
         4,
-        2
-      ],
-      [
-        5,
-        2
-      ],
-      [
-        6,
-        2
+        3
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 23,
   "solution": [
     "up",
-    "up",
+    "right",
+    "right",
     "right",
     "up",
+    "left",
+    "down",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
     "up",
     "down",
     "right",
     "up",
-    "down",
+    "right",
+    "right",
     "right",
     "up",
-    "down",
-    "right",
-    "up"
+    "left"
   ],
   "canonicalWord": "happa"
 }

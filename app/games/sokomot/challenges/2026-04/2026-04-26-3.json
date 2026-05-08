@@ -1,11 +1,11 @@
 {
   "id": "2026-04-26-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    6
+    2,
+    2
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      2,
+      6
     ]
   ],
   "ice": [],
@@ -135,23 +143,23 @@
       "id": "b1",
       "letter": "B",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "E",
       "pos": [
-        3,
-        3
+        5,
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "I",
       "pos": [
-        4,
+        6,
         3
       ]
     },
@@ -159,8 +167,8 @@
       "id": "b4",
       "letter": "G",
       "pos": [
-        5,
-        3
+        7,
+        4
       ]
     },
     {
@@ -168,7 +176,7 @@
       "letter": "E",
       "pos": [
         6,
-        3
+        6
       ]
     }
   ],
@@ -176,45 +184,53 @@
     "word": "BEIGE",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
-        3,
-        2
-      ],
-      [
         4,
         2
       ],
       [
         5,
-        2
+        3
       ],
       [
         6,
-        2
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 26,
   "solution": [
-    "up",
-    "up",
     "right",
     "up",
+    "right",
+    "right",
     "down",
     "right",
-    "up",
     "down",
     "right",
+    "down",
     "up",
+    "up",
+    "up",
+    "left",
+    "left",
+    "left",
+    "left",
+    "down",
+    "down",
+    "down",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up"
+    "right"
   ],
   "canonicalWord": "beige"
 }

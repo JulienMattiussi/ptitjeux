@@ -1,11 +1,11 @@
 {
   "id": "2026-04-02-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    5,
+    2
   ],
   "walls": [
     [
@@ -103,8 +103,8 @@
       "id": "b1",
       "letter": "A",
       "pos": [
-        2,
-        3
+        4,
+        2
       ]
     },
     {
@@ -119,7 +119,7 @@
       "id": "b3",
       "letter": "E",
       "pos": [
-        4,
+        5,
         3
       ]
     }
@@ -128,29 +128,36 @@
     "word": "ACE",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
         2
       ],
       [
         4,
-        2
+        3
+      ],
+      [
+        5,
+        4
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 17,
   "solution": [
-    "right",
+    "left",
     "up",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
+    "left",
     "up",
+    "up",
+    "right",
+    "right",
     "down",
     "right",
-    "up"
+    "down"
   ],
   "canonicalWord": "ace"
 }

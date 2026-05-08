@@ -1,11 +1,11 @@
 {
   "id": "2026-04-22-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
     1,
-    6
+    3
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      7,
+      3
     ]
   ],
   "ice": [],
@@ -144,7 +152,7 @@
       "letter": "O",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
@@ -152,7 +160,7 @@
       "letter": "U",
       "pos": [
         4,
-        3
+        1
       ]
     },
     {
@@ -176,16 +184,16 @@
     "word": "TOURS",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
-        2
+        3
       ],
       [
         4,
         2
+      ],
+      [
+        5,
+        1
       ],
       [
         5,
@@ -197,19 +205,20 @@
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 19,
   "solution": [
-    "up",
+    "right",
     "up",
     "right",
     "up",
+    "right",
+    "left",
+    "down",
+    "left",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up",
-    "down",
     "right",
     "up",
     "down",

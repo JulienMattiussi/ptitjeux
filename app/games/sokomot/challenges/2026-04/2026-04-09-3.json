@@ -1,11 +1,11 @@
 {
   "id": "2026-04-09-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
     1,
-    6
+    1
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      2
     ]
   ],
   "ice": [],
@@ -135,7 +143,7 @@
       "id": "b1",
       "letter": "L",
       "pos": [
-        2,
+        3,
         3
       ]
     },
@@ -144,7 +152,7 @@
       "letter": "I",
       "pos": [
         3,
-        3
+        5
       ]
     },
     {
@@ -152,23 +160,23 @@
       "letter": "V",
       "pos": [
         4,
-        3
+        2
       ]
     },
     {
       "id": "b4",
       "letter": "R",
       "pos": [
-        5,
-        3
+        4,
+        5
       ]
     },
     {
       "id": "b5",
       "letter": "A",
       "pos": [
-        6,
-        3
+        5,
+        4
       ]
     }
   ],
@@ -177,42 +185,61 @@
     "cells": [
       [
         2,
-        2
+        3
       ],
       [
         3,
-        2
+        4
       ],
       [
         4,
-        2
+        3
+      ],
+      [
+        4,
+        4
       ],
       [
         5,
-        2
-      ],
-      [
-        6,
-        2
+        3
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 37,
   "solution": [
-    "up",
-    "up",
+    "down",
+    "down",
+    "down",
+    "right",
+    "right",
     "right",
     "up",
+    "left",
+    "down",
+    "left",
+    "down",
     "down",
     "right",
     "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
     "down",
     "right",
-    "up",
     "down",
     "right",
-    "up",
     "down",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
     "right",
     "up"
   ],

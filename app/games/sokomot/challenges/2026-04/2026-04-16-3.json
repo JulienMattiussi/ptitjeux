@@ -1,11 +1,11 @@
 {
   "id": "2026-04-16-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
     1,
-    6
+    2
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      5
     ]
   ],
   "ice": [],
@@ -136,22 +144,22 @@
       "letter": "E",
       "pos": [
         2,
-        3
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "L",
       "pos": [
-        3,
-        3
+        5,
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "I",
       "pos": [
-        4,
+        5,
         3
       ]
     },
@@ -160,7 +168,7 @@
       "letter": "D",
       "pos": [
         5,
-        3
+        4
       ]
     },
     {
@@ -168,17 +176,13 @@
       "letter": "A",
       "pos": [
         6,
-        3
+        5
       ]
     }
   ],
   "target": {
     "word": "ELIDA",
     "cells": [
-      [
-        2,
-        2
-      ],
       [
         3,
         2
@@ -188,33 +192,39 @@
         2
       ],
       [
-        5,
-        2
+        4,
+        3
       ],
       [
-        6,
-        2
+        4,
+        4
+      ],
+      [
+        5,
+        5
       ]
     ]
   },
-  "parMoves": 18,
+  "parMoves": 20,
   "solution": [
-    "up",
-    "up",
     "right",
     "up",
+    "right",
+    "right",
+    "right",
+    "right",
     "down",
+    "left",
     "right",
-    "up",
     "down",
+    "left",
     "right",
-    "up",
     "down",
+    "left",
     "right",
-    "up",
+    "right",
     "down",
-    "right",
-    "up"
+    "left"
   ],
   "canonicalWord": "élida"
 }

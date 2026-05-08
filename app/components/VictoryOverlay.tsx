@@ -11,6 +11,12 @@ type Props = {
   backHref: string
   backLabel?: string
   /**
+   * Si défini, affiche un bouton « Niveau suivant → » comme action principale,
+   * et reléguer « Rejouer » en action secondaire. Doit pointer vers le niveau
+   * suivant (par exemple `/sokomot/2026-05-08/2`).
+   */
+  nextHref?: string
+  /**
    * `perfect` (vert) : objectif de coups atteint.
    * `solved` (ambre) : niveau résolu mais au-dessus de l'objectif.
    */
@@ -73,6 +79,7 @@ export function VictoryOverlay({
   onReset,
   backHref,
   backLabel = '← Niveaux',
+  nextHref,
   variant = 'perfect',
 }: Props) {
   if (!show) return null
@@ -119,21 +126,34 @@ export function VictoryOverlay({
         </h2>
         {detail && <div className={`mt-2 text-base ${s.detail}`}>{detail}</div>}
 
-        <div className="mt-7 flex flex-col gap-2 sm:flex-row sm:justify-center">
-          <button
-            type="button"
-            onClick={onReset}
-            autoFocus
-            className={`rounded-lg px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-lg ${s.primaryBtn}`}
-          >
-            Rejouer
-          </button>
+        <div className="mt-7 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:justify-center">
           <Link
             to={backHref}
             className={`rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`}
           >
             {backLabel}
           </Link>
+          <button
+            type="button"
+            onClick={onReset}
+            autoFocus={!nextHref}
+            className={
+              nextHref
+                ? `rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`
+                : `rounded-lg px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-lg ${s.primaryBtn}`
+            }
+          >
+            Rejouer
+          </button>
+          {nextHref ? (
+            <Link
+              to={nextHref}
+              autoFocus
+              className={`rounded-lg px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-lg ${s.primaryBtn}`}
+            >
+              Suivant →
+            </Link>
+          ) : null}
         </div>
       </div>
     </div>

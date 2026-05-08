@@ -113,6 +113,7 @@ export default function BouclePlay() {
   const loopOk = level ? isValidLoop(state.edges) : false
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+  const nextHref = idx < 4 ? `/boucle/${date}/${idx + 1}` : undefined
 
   const allDates = getAllDates()
   const isToday = date === todayString(allDates[allDates.length - 1])
@@ -175,6 +176,7 @@ export default function BouclePlay() {
             }
             onReset={() => dispatch({ type: 'reset' })}
             backHref="/boucle"
+            nextHref={nextHref}
           />
         }
       >

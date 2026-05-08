@@ -1,11 +1,11 @@
 {
   "id": "2026-04-29-3",
-  "name": "Niveau 3 · 9×8",
+  "name": "Niveau 3 · salle",
   "width": 9,
   "height": 8,
   "player": [
     1,
-    6
+    3
   ],
   "walls": [
     [
@@ -127,6 +127,14 @@
     [
       8,
       6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      5,
+      6
     ]
   ],
   "ice": [],
@@ -144,7 +152,7 @@
       "letter": "M",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
@@ -152,7 +160,7 @@
       "letter": "B",
       "pos": [
         4,
-        3
+        4
       ]
     },
     {
@@ -168,7 +176,7 @@
       "letter": "E",
       "pos": [
         6,
-        3
+        4
       ]
     }
   ],
@@ -176,16 +184,16 @@
     "word": "AMBRE",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
-        2
+        3
       ],
       [
         4,
         2
+      ],
+      [
+        4,
+        3
       ],
       [
         5,
@@ -193,25 +201,25 @@
       ],
       [
         6,
-        2
+        3
       ]
     ]
   },
   "parMoves": 18,
   "solution": [
+    "right",
     "up",
+    "right",
+    "left",
+    "down",
+    "down",
+    "down",
+    "right",
+    "right",
     "up",
     "right",
     "up",
     "down",
-    "right",
-    "up",
-    "down",
-    "right",
-    "up",
-    "down",
-    "right",
-    "up",
     "down",
     "right",
     "up"

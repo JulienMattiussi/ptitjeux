@@ -1,11 +1,11 @@
 {
   "id": "2026-04-26-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
     1,
-    4
+    1
   ],
   "walls": [
     [
@@ -103,15 +103,15 @@
       "id": "b1",
       "letter": "L",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        3,
+        2,
         3
       ]
     },
@@ -133,7 +133,7 @@
       ],
       [
         3,
-        2
+        3
       ],
       [
         4,
@@ -141,14 +141,21 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 17,
   "solution": [
     "right",
+    "right",
+    "right",
+    "down",
+    "left",
     "up",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
-    "up",
     "down",
+    "right",
     "right",
     "up"
   ],

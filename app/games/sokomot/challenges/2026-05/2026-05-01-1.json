@@ -1,11 +1,11 @@
 {
   "id": "2026-05-01-1",
-  "name": "Niveau 1 · 7×6",
+  "name": "Niveau 1 · salle",
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    5,
+    1
   ],
   "walls": [
     [
@@ -103,8 +103,8 @@
       "id": "b1",
       "letter": "F",
       "pos": [
-        2,
-        3
+        4,
+        1
       ]
     },
     {
@@ -112,14 +112,14 @@
       "letter": "I",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "N",
       "pos": [
-        4,
+        5,
         3
       ]
     }
@@ -128,27 +128,31 @@
     "word": "FIN",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
-        2
+        1
       ],
       [
         4,
         2
+      ],
+      [
+        5,
+        2
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 14,
   "solution": [
-    "right",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
     "up",
+    "right",
+    "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
     "up"
   ],

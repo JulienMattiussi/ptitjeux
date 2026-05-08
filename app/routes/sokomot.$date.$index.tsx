@@ -119,6 +119,7 @@ export default function SokomotPlay() {
 
   const beatPar = level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+  const nextHref = idx < 4 ? `/sokomot/${date}/${idx + 1}` : undefined
 
   const allDates = getAllDates()
   const isToday = date === todayString(allDates[allDates.length - 1])
@@ -158,6 +159,7 @@ export default function SokomotPlay() {
             }
             onReset={() => dispatch({ type: 'reset' })}
             backHref="/sokomot"
+            nextHref={nextHref}
           />
         }
       >

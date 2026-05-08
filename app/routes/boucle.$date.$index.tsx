@@ -20,9 +20,8 @@ import {
   toggleEdge,
 } from '~/games/boucle/engine'
 import type { Edge, GameState } from '~/games/boucle/types'
-import { dateLabel, todayString } from '~/lib/dates'
-import { writeLevelProgress } from '~/lib/localStorage'
-import { levelKey } from '~/lib/useLocalProgress'
+import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
 type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }
 
@@ -89,39 +88,14 @@ function BouclePlay() {
     selectedRef.current = selected
   }, [selected])
 
-  useEffect(() => {
-    if (!level || won) return
-    function handleKey(event: KeyboardEvent) {
-      const w = level!.width
-      const h = level!.height
-      switch (event.key) {
-        case 'ArrowUp':
-          event.preventDefault()
-          setSelected((prev) => moveEdgeSelection(prev, 'up', w, h))
-          return
-        case 'ArrowDown':
-          event.preventDefault()
-          setSelected((prev) => moveEdgeSelection(prev, 'down', w, h))
-          return
-        case 'ArrowLeft':
-          event.preventDefault()
-          setSelected((prev) => moveEdgeSelection(prev, 'left', w, h))
-          return
-        case 'ArrowRight':
-          event.preventDefault()
-          setSelected((prev) => moveEdgeSelection(prev, 'right', w, h))
-          return
-        case ' ':
-        case 'Spacebar':
-        case 'Enter':
-          event.preventDefault()
-          dispatch({ type: 'toggle', edge: selectedRef.current })
-          return
-      }
-    }
-    window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
-  }, [level, won])
+  useGameKeyboard({
+    enabled: !!level && !won,
+    onDirection: (direction) => {
+      if (!level) return
+      setSelected((prev) => moveEdgeSelection(prev, direction, level.width, level.height))
+    },
+    onAction: () => dispatch({ type: 'toggle', edge: selectedRef.current }),
+  })
 
   useEffect(() => {
     if (level) prefetchDefinition(level.canonicalWord ?? level.solutionWord)
@@ -130,19 +104,16 @@ function BouclePlay() {
   const loopOk = level ? isValidLoop(state.edges) : false
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
-  const nextHref = idx < 4 ? `/boucle/${date}/${idx + 1}` : undefined
 
   const allDates = getAllDates()
-  const isToday = date === todayString(allDates[allDates.length - 1])
-
-  useEffect(() => {
-    if (won && date && idx) {
-      writeLevelProgress('boucle', levelKey(date, idx), {
-        completed: true,
-        bestMoves: state.moves,
-      })
-    }
-  }, [won, date, idx, state.moves])
+  const { dateChip, nextHref } = useLevelPlayLifecycle({
+    gameId: 'boucle',
+    date: date ?? '',
+    idx,
+    lastAvailableDate: allDates[allDates.length - 1],
+    won,
+    moves: state.moves,
+  })
 
   if (!level || !date) {
     return (
@@ -160,7 +131,7 @@ function BouclePlay() {
 
   return (
     <GameLayout
-      title={`Boucle · ${isToday ? 'Défi du jour' : dateLabel(date)} · niveau ${idx}`}
+      title={`Boucle · ${dateChip} · niveau ${idx}`}
       subtitle={`${level.solutionWord.length} lettres à encercler.`}
       backHref="/boucle"
       backLabel="Niveaux"

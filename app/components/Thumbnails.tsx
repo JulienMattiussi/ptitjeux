@@ -77,11 +77,57 @@ export function SokomotThumbnail({ className = '' }: Props) {
       >
         B
       </text>
-      {/* Player */}
-      <circle cx="20" cy="40" r="4.5" fill="oklch(60% 0.22 20)" />
-      <circle cx="18.5" cy="38.5" r="0.8" fill="white" />
-      <circle cx="21.5" cy="38.5" r="0.8" fill="white" />
-      {/* Arrow */}
+      {/* Joueur — crayon hexagonal pointant vers la droite (cohérent avec le Board) */}
+      <g>
+        {/* Gomme rose */}
+        <rect
+          x="9"
+          y="36"
+          width="3.6"
+          height="8"
+          rx="1"
+          fill="oklch(80% 0.15 0)"
+          stroke="oklch(55% 0.18 0)"
+          strokeWidth="0.4"
+        />
+        {/* Virole métallique */}
+        <rect
+          x="12.6"
+          y="36"
+          width="1.4"
+          height="8"
+          fill="oklch(78% 0.01 250)"
+          stroke="oklch(50% 0.02 250)"
+          strokeWidth="0.3"
+        />
+        {/* Corps hexagonal (3 facettes : haut sombre, centre clair, bas sombre) */}
+        <rect x="14" y="36" width="8" height="2" fill="oklch(76% 0.16 70)" />
+        <rect x="14" y="38" width="8" height="4" fill="oklch(87% 0.19 82)" />
+        <rect x="14" y="42" width="8" height="2" fill="oklch(70% 0.15 65)" />
+        <rect
+          x="14"
+          y="36"
+          width="8"
+          height="8"
+          fill="none"
+          stroke="oklch(55% 0.18 60)"
+          strokeWidth="0.4"
+        />
+        {/* Pointe taillée (3 facettes triangulaires) */}
+        <polygon points="22,36 26,40 22,38" fill="oklch(86% 0.11 78)" />
+        <polygon points="22,38 26,40 22,42" fill="oklch(94% 0.09 82)" />
+        <polygon points="22,42 26,40 22,44" fill="oklch(80% 0.10 70)" />
+        <polygon
+          points="22,36 26,40 22,44"
+          fill="none"
+          stroke="oklch(55% 0.18 60)"
+          strokeWidth="0.4"
+          strokeLinejoin="round"
+        />
+        {/* Mine */}
+        <polygon points="26,40 27.2,40 26,40.8 26,39.2" fill="oklch(18% 0.02 250)" />
+      </g>
+      {/* Flèche de poussée */}
       <path
         d="M 49 40 L 56 40 M 53 37 L 56 40 L 53 43"
         stroke="oklch(50% 0.15 240)"

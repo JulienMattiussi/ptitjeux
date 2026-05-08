@@ -7,6 +7,7 @@ import {
   isValidLoop,
   isWon,
   loadLevel,
+  moveEdgeSelection,
   toggleEdge,
 } from '~/games/boucle/engine'
 import type { Edge, Level } from '~/games/boucle/types'
@@ -157,6 +158,54 @@ describe('boucle engine', () => {
       state = toggleEdge(state, e)
     }
     expect(areCluesSatisfied(state)).toBe(true)
+  })
+
+  describe('moveEdgeSelection', () => {
+    // Plateau 3x3 : H valide pour x ∈ [0..2], y ∈ [0..3] ; V pour x ∈ [0..3], y ∈ [0..2].
+    const W = 3
+    const H = 3
+    const h = (x: number, y: number): Edge => ({ x, y, orientation: 'horizontal' })
+    const v = (x: number, y: number): Edge => ({ x, y, orientation: 'vertical' })
+
+    it('H droite/gauche reste en H, déplace x', () => {
+      expect(moveEdgeSelection(h(1, 1), 'right', W, H)).toEqual(h(2, 1))
+      expect(moveEdgeSelection(h(1, 1), 'left', W, H)).toEqual(h(0, 1))
+    })
+
+    it('H haut/bas pivote en V (autour du sommet gauche)', () => {
+      // H(1,1) up = V(1, 0) ; H(1,1) down = V(1, 1)
+      expect(moveEdgeSelection(h(1, 1), 'up', W, H)).toEqual(v(1, 0))
+      expect(moveEdgeSelection(h(1, 1), 'down', W, H)).toEqual(v(1, 1))
+    })
+
+    it('V haut/bas reste en V, déplace y', () => {
+      expect(moveEdgeSelection(v(1, 1), 'down', W, H)).toEqual(v(1, 2))
+      expect(moveEdgeSelection(v(1, 1), 'up', W, H)).toEqual(v(1, 0))
+    })
+
+    it('V gauche/droite pivote en H (autour du sommet haut)', () => {
+      // V(1,1) right = H(1, 1) ; V(1,1) left = H(0, 1)
+      expect(moveEdgeSelection(v(1, 1), 'right', W, H)).toEqual(h(1, 1))
+      expect(moveEdgeSelection(v(1, 1), 'left', W, H)).toEqual(h(0, 1))
+    })
+
+    it("clamp aux bords : H ne sort pas en x, V ne sort pas en y", () => {
+      expect(moveEdgeSelection(h(0, 1), 'left', W, H)).toEqual(h(0, 1))
+      expect(moveEdgeSelection(h(W - 1, 1), 'right', W, H)).toEqual(h(W - 1, 1))
+      expect(moveEdgeSelection(v(1, 0), 'up', W, H)).toEqual(v(1, 0))
+      expect(moveEdgeSelection(v(1, H - 1), 'down', W, H)).toEqual(v(1, H - 1))
+    })
+
+    it('clamp aux bords lors d\'un pivot H↔V', () => {
+      // H(1,0) up : pivote vers V(1, max(0, -1)) = V(1, 0)
+      expect(moveEdgeSelection(h(1, 0), 'up', W, H)).toEqual(v(1, 0))
+      // H(1, H) down : pivote vers V(1, min(H-1, H)) = V(1, H-1)
+      expect(moveEdgeSelection(h(1, H), 'down', W, H)).toEqual(v(1, H - 1))
+      // V(0, 1) left : pivote vers H(max(0, -1), 1) = H(0, 1)
+      expect(moveEdgeSelection(v(0, 1), 'left', W, H)).toEqual(h(0, 1))
+      // V(W, 1) right : pivote vers H(min(W-1, W), 1) = H(W-1, 1)
+      expect(moveEdgeSelection(v(W, 1), 'right', W, H)).toEqual(h(W - 1, 1))
+    })
   })
 
   it('isWon : tout doit valider (boucle + indices + mot)', () => {

@@ -11,9 +11,8 @@ import { Board } from '~/games/sokomot/Board'
 import { getAllDates, getLevel } from '~/games/sokomot/challenges'
 import { applyMove, isWon, loadLevel, reset, undo } from '~/games/sokomot/engine'
 import type { Direction, GameState } from '~/games/sokomot/types'
-import { dateLabel, todayString } from '~/lib/dates'
-import { writeLevelProgress } from '~/lib/localStorage'
-import { levelKey } from '~/lib/useLocalProgress'
+import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
 type Action =
   | { type: 'move'; direction: Direction }
@@ -29,17 +28,6 @@ function reducer(state: GameState, action: Action): GameState {
     case 'reset':
       return reset(state)
   }
-}
-
-const KEY_TO_DIRECTION: Record<string, Direction> = {
-  ArrowUp: 'up',
-  ArrowDown: 'down',
-  ArrowLeft: 'left',
-  ArrowRight: 'right',
-  w: 'up',
-  s: 'down',
-  a: 'left',
-  d: 'right',
 }
 
 // Wrapper qui force un remount complet (et donc un état frais) chaque fois
@@ -80,36 +68,22 @@ function SokomotPlay() {
     return () => clearTimeout(handle)
   }, [won])
 
-  useEffect(() => {
-    if (!level || won) return
-    function handleKey(event: KeyboardEvent) {
-      const direction = KEY_TO_DIRECTION[event.key]
-      if (direction) {
-        event.preventDefault()
-        dispatch({ type: 'move', direction })
-        return
-      }
-      if (event.key === 'z' && (event.ctrlKey || event.metaKey)) {
-        event.preventDefault()
-        dispatch({ type: 'undo' })
-        return
-      }
-      if (event.key === 'r') {
-        dispatch({ type: 'reset' })
-      }
-    }
-    window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
-  }, [level, won])
+  useGameKeyboard({
+    enabled: !!level && !won,
+    onDirection: (direction) => dispatch({ type: 'move', direction }),
+    onUndo: () => dispatch({ type: 'undo' }),
+    onReset: () => dispatch({ type: 'reset' }),
+  })
 
-  useEffect(() => {
-    if (won && date && idx) {
-      writeLevelProgress('sokomot', levelKey(date, idx), {
-        completed: true,
-        bestMoves: state.moves,
-      })
-    }
-  }, [won, date, idx, state.moves])
+  const allDates = getAllDates()
+  const { dateChip, nextHref } = useLevelPlayLifecycle({
+    gameId: 'sokomot',
+    date: date ?? '',
+    idx,
+    lastAvailableDate: allDates[allDates.length - 1],
+    won,
+    moves: state.moves,
+  })
 
   if (!level || !date) {
     return (
@@ -127,11 +101,6 @@ function SokomotPlay() {
 
   const beatPar = level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
-  const nextHref = idx < 4 ? `/sokomot/${date}/${idx + 1}` : undefined
-
-  const allDates = getAllDates()
-  const isToday = date === todayString(allDates[allDates.length - 1])
-  const dateChip = isToday ? 'Défi du jour' : dateLabel(date)
 
   return (
     <GameLayout

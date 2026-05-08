@@ -20,8 +20,9 @@ export default defineConfig({
       include: [
         'app/games/**/engine.ts',
         'app/lib/**',
-        'generators/**',
+        'generators/**/*.ts',
       ],
+      exclude: ['generators/words-fr-raw.json'],
     },
   },
 })

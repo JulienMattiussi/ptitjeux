@@ -20,9 +20,8 @@ import {
   setThemeGuess,
 } from '~/games/semantogramme/engine'
 import type { GameState } from '~/games/semantogramme/types'
-import { dateLabel, todayString } from '~/lib/dates'
-import { writeLevelProgress } from '~/lib/localStorage'
-import { levelKey } from '~/lib/useLocalProgress'
+import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
 type Action =
   | { type: 'cycle'; x: number; y: number }
@@ -70,71 +69,51 @@ function SemantogrammePlay() {
     selectedRef.current = selected
   }, [selected])
 
-  useEffect(() => {
-    if (!level || won || gridSolved) return
-    function handleKey(event: KeyboardEvent) {
-      // Ignore les touches quand l'utilisateur tape dans un champ
-      const target = event.target
-      if (
-        target instanceof HTMLInputElement ||
-        target instanceof HTMLTextAreaElement
-      ) {
-        return
-      }
-      const w = level!.width
-      const h = level!.height
-      switch (event.key) {
-        case 'ArrowLeft':
-          event.preventDefault()
-          setSelected((s) => ({ x: Math.max(0, s.x - 1), y: s.y }))
-          return
-        case 'ArrowRight':
-          event.preventDefault()
-          setSelected((s) => ({ x: Math.min(w - 1, s.x + 1), y: s.y }))
-          return
-        case 'ArrowUp':
-          event.preventDefault()
-          setSelected((s) => ({ x: s.x, y: Math.max(0, s.y - 1) }))
-          return
-        case 'ArrowDown':
-          event.preventDefault()
-          setSelected((s) => ({ x: s.x, y: Math.min(h - 1, s.y + 1) }))
-          return
-        case ' ':
-        case 'Spacebar':
-        case 'Enter':
-          event.preventDefault()
-          dispatch({
-            type: 'cycle',
-            x: selectedRef.current.x,
-            y: selectedRef.current.y,
-          })
-          setThemeError(false)
-          return
-      }
-    }
-    window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
-  }, [level, won, gridSolved])
+  useGameKeyboard({
+    enabled: !!level && !won && !gridSolved,
+    ignoreInputs: true,
+    onDirection: (direction) => {
+      if (!level) return
+      const w = level.width
+      const h = level.height
+      setSelected((s) => {
+        switch (direction) {
+          case 'left':
+            return { x: Math.max(0, s.x - 1), y: s.y }
+          case 'right':
+            return { x: Math.min(w - 1, s.x + 1), y: s.y }
+          case 'up':
+            return { x: s.x, y: Math.max(0, s.y - 1) }
+          case 'down':
+            return { x: s.x, y: Math.min(h - 1, s.y + 1) }
+        }
+      })
+    },
+    onAction: () => {
+      dispatch({
+        type: 'cycle',
+        x: selectedRef.current.x,
+        y: selectedRef.current.y,
+      })
+      setThemeError(false)
+    },
+  })
 
   useEffect(() => {
     if (level) prefetchDefinition(level.themeWord)
   }, [level])
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
   const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
-  const nextHref = idx < 4 ? `/semantogramme/${date}/${idx + 1}` : undefined
 
   const allDates = getAllDates()
-  const isToday = date === todayString(allDates[allDates.length - 1])
-
-  useEffect(() => {
-    if (won && date && idx) {
-      writeLevelProgress('semantogramme', levelKey(date, idx), {
-        completed: true,
-        bestMoves: state.moves,
-      })
-    }
-  }, [won, date, idx, state.moves])
+  const { dateChip, nextHref } = useLevelPlayLifecycle({
+    gameId: 'semantogramme',
+    date: date ?? '',
+    idx,
+    lastAvailableDate: allDates[allDates.length - 1],
+    won,
+    moves: state.moves,
+  })
 
   if (!level || !date) {
     return (
@@ -161,7 +140,7 @@ function SemantogrammePlay() {
 
   return (
     <GameLayout
-      title={`Sémantogramme · ${isToday ? 'Défi du jour' : dateLabel(date)} · niveau ${idx}`}
+      title={`Sémantogramme · ${dateChip} · niveau ${idx}`}
       subtitle="Identifie les mots liés au thème caché."
       backHref="/semantogramme"
       backLabel="Niveaux"

@@ -40,7 +40,13 @@ function reducer(state: GameState, action: Action): GameState {
   }
 }
 
-export default function SemantogrammePlay() {
+// Wrapper qui force un remount complet quand l'URL change de niveau.
+export default function SemantogrammePlayRoute() {
+  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
+  return <SemantogrammePlay key={`${date}-${index}`} />
+}
+
+function SemantogrammePlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined

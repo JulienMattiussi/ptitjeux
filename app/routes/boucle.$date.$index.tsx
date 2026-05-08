@@ -11,6 +11,7 @@ import { Board } from '~/games/boucle/Board'
 import { getAllDates, getLevel } from '~/games/boucle/challenges'
 import {
   areCluesSatisfied,
+  countEdgesAroundCell,
   isValidLoop,
   isWon,
   loadLevel,
@@ -51,7 +52,13 @@ function reducer(state: GameState, action: Action): GameState {
   }
 }
 
-export default function BouclePlay() {
+// Wrapper qui force un remount complet quand l'URL change de niveau.
+export default function BouclePlayRoute() {
+  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
+  return <BouclePlay key={`${date}-${index}`} />
+}
+
+function BouclePlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
@@ -64,6 +71,16 @@ export default function BouclePlay() {
 
   const won = level ? isWon(state) : false
   const cluesOk = level ? areCluesSatisfied(state) : false
+  const clueEntries = level ? Object.entries(level.clues) : []
+  const totalClues = clueEntries.length
+  const okClues = level
+    ? clueEntries.reduce((acc, [key, target]) => {
+        const [cxStr, cyStr] = key.split(',')
+        return countEdgesAroundCell(state, Number(cxStr), Number(cyStr)) === target
+          ? acc + 1
+          : acc
+      }, 0)
+    : 0
 
   // Sélection au clavier : flèches déplacent l'arête, Espace toggle.
   const [selected, setSelected] = useState<Edge>({ x: 0, y: 0, orientation: 'horizontal' })
@@ -195,7 +212,11 @@ export default function BouclePlay() {
         />
         <PlaySidebar>
           <div className="rounded-xl border border-gray-200 bg-white p-3 text-sm dark:border-gray-800 dark:bg-gray-900">
-            <StatusRow label="Indices" value={cluesOk ? 'OK' : 'à vérifier'} ok={cluesOk} />
+            <StatusRow
+              label="Indices ok"
+              value={`${okClues} / ${totalClues}`}
+              ok={cluesOk}
+            />
             <div className="mt-1">
               <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'ouverte'} ok={loopOk} />
             </div>

@@ -42,7 +42,15 @@ const KEY_TO_DIRECTION: Record<string, Direction> = {
   d: 'right',
 }
 
-export default function SokomotPlay() {
+// Wrapper qui force un remount complet (et donc un état frais) chaque fois
+// que l'URL change vers un autre niveau. Sans cela, le `useReducer` à
+// l'intérieur garde l'état du niveau précédent.
+export default function SokomotPlayRoute() {
+  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
+  return <SokomotPlay key={`${date}-${index}`} />
+}
+
+function SokomotPlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined

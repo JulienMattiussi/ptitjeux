@@ -1,5 +1,5 @@
-import { Link } from 'react-router'
-import type { ReactNode } from 'react'
+import { Link, useNavigate } from 'react-router'
+import { useEffect, type ReactNode } from 'react'
 
 export type VictoryVariant = 'perfect' | 'solved'
 
@@ -82,6 +82,38 @@ export function VictoryOverlay({
   nextHref,
   variant = 'perfect',
 }: Props) {
+  const navigate = useNavigate()
+
+  // Navigation au clavier dans l'overlay : ← retour à la liste, Entrée
+  // rejouer, → niveau suivant (si présent).
+  useEffect(() => {
+    if (!show) return
+    function handleKey(event: KeyboardEvent) {
+      switch (event.key) {
+        case 'ArrowLeft':
+        case 'Backspace':
+        case 'Escape':
+          event.preventDefault()
+          navigate(backHref)
+          return
+        case 'ArrowRight':
+          if (nextHref) {
+            event.preventDefault()
+            navigate(nextHref)
+          }
+          return
+        case 'Enter':
+        case ' ':
+        case 'Spacebar':
+          event.preventDefault()
+          onReset()
+          return
+      }
+    }
+    window.addEventListener('keydown', handleKey)
+    return () => window.removeEventListener('keydown', handleKey)
+  }, [show, backHref, nextHref, onReset, navigate])
+
   if (!show) return null
   const s = STYLES[variant]
   return (
@@ -136,7 +168,6 @@ export function VictoryOverlay({
           <button
             type="button"
             onClick={onReset}
-            autoFocus={!nextHref}
             className={
               nextHref
                 ? `rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`
@@ -148,7 +179,6 @@ export function VictoryOverlay({
           {nextHref ? (
             <Link
               to={nextHref}
-              autoFocus
               className={`rounded-lg px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-lg ${s.primaryBtn}`}
             >
               Suivant →

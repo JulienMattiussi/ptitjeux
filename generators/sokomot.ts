@@ -55,6 +55,17 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
   const slideLength = isIce ? 2 : 1
   const obstacleCount = isIce ? 0 : index + 1
 
+  // Niveau 4 : entièrement glace, cibles le long d'un mur, joueur glisse partout
+  // et utilise les blocs comme points d'appui.
+  if (index === 4) {
+    for (let attempt = 0; attempt < 100; attempt++) {
+      const attemptRng = new Rng(`sokomot:${date}:${index}:fullice:${attempt}`)
+      const candidate = tryGenerateFullIce(attemptRng, word, width, height)
+      if (candidate) return finalize(candidate, date, index, word, entry.canonical, true)
+    }
+    // En cas d'échec rare, on retombera sur le freeform glace standard ci-dessous.
+  }
+
   for (let attempt = 0; attempt < 50; attempt++) {
     const attemptRng = new Rng(`sokomot:${date}:${index}:freeform:${attempt}`)
     const candidate = tryGenerateFreeform(
@@ -461,6 +472,292 @@ function tryGenerateFreeform(
     targets,
     solution,
   }
+}
+
+// ---------- Niveau 4 : génération « entièrement glace » ----------
+
+/**
+ * Pour le niveau 4, on dispose toutes les cibles le long d'un seul mur (le mur
+ * sert d'ancre pour arrêter chaque bloc poussé vers lui). L'intérieur entier
+ * est gelé : le joueur glisse à chaque déplacement et doit s'appuyer sur les
+ * blocs et les murs pour s'arrêter aux bonnes positions.
+ *
+ * Approche **rétrograde** : on part de l'état résolu (chaque bloc sur sa
+ * cible) et on applique un certain nombre de coups inversés aléatoires.
+ * Chaque inverse part d'un état (joueur, blocs) et produit un état antérieur
+ * tel que le coup avant ramène à l'état actuel. La séquence inverse, lue à
+ * l'envers, est donc une solution forward valide par construction.
+ *
+ * Avantage : pas de recherche d'état dans un espace immense ; on construit
+ * directement une trajectoire prouvée résoluble.
+ */
+function tryGenerateFullIce(
+  rng: Rng,
+  word: string,
+  width: number,
+  height: number,
+): LevelDraft | null {
+  // Placement des cibles : alignées le long d'un mur. Le mur sert d'ancre
+  // commune pour arrêter les blocs poussés vers lui : tous les blocs peuvent
+  // être réinsérés sur leurs cibles via une poussée dans la direction du mur.
+  // Avec des cibles dispersées (marche aléatoire), beaucoup de cibles n'ont
+  // pas d'ancre exploitable et la BFS rétrograde ne trouve aucun état initial
+  // exploitable.
+  const targets = pickWallAlignedPath(rng, word.length, width, height)
+  if (!targets) return null
+
+  const walls = buildBorderWalls(width, height)
+  const wallSet = new Set(walls.map(cellKey))
+
+  const ice: Coord[] = []
+  for (let y = 1; y <= height - 2; y++) {
+    for (let x = 1; x <= width - 2; x++) ice.push([x, y])
+  }
+
+  const letters = word.split('').map((l) => l.toUpperCase())
+  const targetSet = new Set(targets.map(cellKey))
+  const freeAtSolved = ice.filter((c) => !targetSet.has(cellKey(c)))
+  if (freeAtSolved.length === 0) return null
+
+  // BFS rétrograde depuis l'état résolu pour trouver une initiale où tous les
+  // blocs sont décollés de leurs cibles. On essaie quelques positions de
+  // joueur dans l'état résolu jusqu'à trouver un démarrage qui aboutit.
+  const orderedStarts = rng.shuffle(freeAtSolved.slice()).slice(0, 6)
+  for (const startPlayer of orderedStarts) {
+    const initialState: RevState = {
+      player: startPlayer,
+      blocks: targets.map((t, i) => ({ pos: t, letter: letters[i] })),
+    }
+    const found = backwardBFS(
+      initialState,
+      targets,
+      letters,
+      wallSet,
+      width,
+      height,
+      80,
+      15_000,
+      Math.max(2, Math.ceil(word.length / 2)),
+    )
+    if (!found) continue
+    const solution = found.directions.slice().reverse()
+    return {
+      walls,
+      ice,
+      player: found.state.player,
+      blocks: found.state.blocks.map((b, i) => ({
+        id: `b${i + 1}`,
+        letter: word[i],
+        pos: b.pos,
+      })),
+      targets,
+      solution,
+    }
+  }
+  return null
+}
+
+/**
+ * BFS rétrograde : depuis l'état résolu (passé en paramètre), explore les
+ * états antérieurs en appliquant des coups inversés. Retourne en priorité
+ * un état où aucune cible n'est satisfaite par sa lettre attendue. Si la
+ * BFS s'épuise avant, retourne l'état avec le plus de blocs décollés trouvé,
+ * à condition qu'il dépasse `minOffTarget`.
+ */
+function backwardBFS(
+  initial: RevState,
+  targets: Coord[],
+  letters: string[],
+  wallSet: Set<string>,
+  width: number,
+  height: number,
+  maxDepth: number,
+  maxStates: number,
+  minOffTarget: number,
+): { state: RevState; directions: Direction[] } | null {
+  const targetKeys = targets.map(cellKey)
+  const offTargetCount = (state: RevState): number => {
+    let count = 0
+    for (let i = 0; i < targets.length; i++) {
+      const tk = targetKeys[i]
+      const blockHere = state.blocks.find((b) => cellKey(b.pos) === tk)
+      if (!blockHere || blockHere.letter !== letters[i]) count++
+    }
+    return count
+  }
+
+  const stateKeyFor = (state: RevState): string => {
+    // Les blocs portent une lettre ; ceux de même lettre sont interchangeables
+    // pour la victoire — donc pour la déduplication BFS aussi.
+    const items = state.blocks.map((b) => `${b.letter}:${b.pos[0]},${b.pos[1]}`)
+    items.sort()
+    return `${state.player[0]},${state.player[1]}|${items.join(';')}`
+  }
+
+  type Node = { state: RevState; directions: Direction[] }
+  const visited = new Set<string>([stateKeyFor(initial)])
+  const queue: Node[] = [{ state: initial, directions: [] }]
+  let best: Node | null = null
+  let bestCount = -1
+
+  while (queue.length > 0) {
+    if (visited.size > maxStates) break
+    const node = queue.shift()!
+    if (node.directions.length >= maxDepth) continue
+    const moves = computeReverseMoves(node.state, wallSet, width, height)
+    for (const move of moves) {
+      const k = stateKeyFor(move.newState)
+      if (visited.has(k)) continue
+      visited.add(k)
+      const newNode: Node = {
+        state: move.newState,
+        directions: [...node.directions, move.direction],
+      }
+      const cnt = offTargetCount(move.newState)
+      if (cnt === targets.length) return newNode
+      if (cnt > bestCount) {
+        bestCount = cnt
+        best = newNode
+      }
+      queue.push(newNode)
+    }
+  }
+  if (best && bestCount >= minOffTarget) return best
+  return null
+}
+
+/**
+ * Renvoie un chemin de `wordLen` cellules adjacentes le long d'un seul mur.
+ * Choisit un mur (haut, bas, gauche, droite) puis une position de départ. Le
+ * mur correspondant servira d'ancre pour stopper les blocs poussés.
+ */
+function pickWallAlignedPath(
+  rng: Rng,
+  wordLen: number,
+  width: number,
+  height: number,
+): Coord[] | null {
+  const interiorMaxX = width - 2
+  const interiorMaxY = height - 2
+  const candidates: Coord[][] = []
+  for (let sx = 1; sx <= interiorMaxX - wordLen + 1; sx++) {
+    const path: Coord[] = []
+    for (let i = 0; i < wordLen; i++) path.push([sx + i, 1])
+    candidates.push(path)
+    const path2: Coord[] = []
+    for (let i = 0; i < wordLen; i++) path2.push([sx + i, interiorMaxY])
+    candidates.push(path2)
+  }
+  for (let sy = 1; sy <= interiorMaxY - wordLen + 1; sy++) {
+    const path: Coord[] = []
+    for (let i = 0; i < wordLen; i++) path.push([1, sy + i])
+    candidates.push(path)
+    const path2: Coord[] = []
+    for (let i = 0; i < wordLen; i++) path2.push([interiorMaxX, sy + i])
+    candidates.push(path2)
+  }
+  if (candidates.length === 0) return null
+  return rng.pick(candidates)
+}
+
+type RevBlock = { pos: Coord; letter: string }
+type RevState = { player: Coord; blocks: RevBlock[] }
+type RevMove = { direction: Direction; newState: RevState }
+
+/**
+ * Énumère tous les coups rétrogrades valides depuis l'état courant.
+ * Un coup rétrograde dans la direction D produit un état antérieur tel que
+ * `applyMove(prior, D)` reproduit l'état courant sur un plateau entièrement
+ * glacé (la dynamique : le joueur glisse jusqu'au prochain obstacle, ou
+ * pousse un bloc qui glisse à son tour).
+ *
+ * Deux types :
+ * - **Sans poussée** : le joueur a glissé depuis A jusqu'à P sans toucher
+ *   un bloc. A est sur la ligne P ← D, et P+D est mur ou bloc (sinon le
+ *   glissement aurait continué).
+ * - **Avec poussée** : le bloc actuellement à B_block a glissé depuis P
+ *   (case actuelle du joueur) en direction D. Le joueur venait de A = P-D.
+ */
+function computeReverseMoves(
+  state: RevState,
+  wallSet: Set<string>,
+  width: number,
+  height: number,
+): RevMove[] {
+  const moves: RevMove[] = []
+  const blockPosSet = new Set(state.blocks.map((b) => cellKey(b.pos)))
+
+  const isWallOrBlock = (c: Coord): boolean => {
+    if (c[0] < 0 || c[1] < 0 || c[0] >= width || c[1] >= height) return true
+    const k = cellKey(c)
+    return wallSet.has(k) || blockPosSet.has(k)
+  }
+
+  for (const { dir, vec } of DIRECTIONS) {
+    // ---- Sans poussée ----
+    // Pour que le glissement se soit arrêté à P, la case P+D doit être un mur
+    // ou un bloc. (Sinon le joueur aurait continué à glisser.)
+    const ahead: Coord = [state.player[0] + vec[0], state.player[1] + vec[1]]
+    if (isWallOrBlock(ahead)) {
+      // A peut être n'importe quelle case sur la ligne P + (-D), tant qu'elle
+      // n'est ni mur ni bloc, et que les cases entre A+D et P sont libres.
+      let cur: Coord = state.player
+      while (true) {
+        const A: Coord = [cur[0] - vec[0], cur[1] - vec[1]]
+        if (A[0] < 0 || A[1] < 0 || A[0] >= width || A[1] >= height) break
+        const ak = cellKey(A)
+        if (wallSet.has(ak)) break
+        if (blockPosSet.has(ak)) break
+        moves.push({
+          direction: dir,
+          newState: { player: A, blocks: state.blocks },
+        })
+        cur = A
+      }
+    }
+
+    // ---- Avec poussée ----
+    // Le joueur venait de A = P - D, a poussé un bloc qui glissait depuis P
+    // jusqu'à B_block dans la direction D. On cherche le 1er bloc rencontré
+    // en suivant D depuis P.
+    const A: Coord = [state.player[0] - vec[0], state.player[1] - vec[1]]
+    if (
+      A[0] >= 0 &&
+      A[1] >= 0 &&
+      A[0] < width &&
+      A[1] < height &&
+      !wallSet.has(cellKey(A)) &&
+      !blockPosSet.has(cellKey(A))
+    ) {
+      let cur: Coord = [state.player[0] + vec[0], state.player[1] + vec[1]]
+      while (
+        cur[0] >= 0 &&
+        cur[1] >= 0 &&
+        cur[0] < width &&
+        cur[1] < height &&
+        !wallSet.has(cellKey(cur))
+      ) {
+        if (blockPosSet.has(cellKey(cur))) {
+          // Bloc trouvé à cur. Vérifier qu'il s'est bien arrêté ici : cur+D
+          // doit être mur ou bloc dans l'état courant.
+          const next: Coord = [cur[0] + vec[0], cur[1] + vec[1]]
+          if (isWallOrBlock(next)) {
+            const blockIdx = state.blocks.findIndex((b) => eq(b.pos, cur))
+            const newBlocks = state.blocks.map((b, i) =>
+              i === blockIdx ? { pos: state.player, letter: b.letter } : b,
+            )
+            moves.push({
+              direction: dir,
+              newState: { player: A, blocks: newBlocks },
+            })
+          }
+          break
+        }
+        cur = [cur[0] + vec[0], cur[1] + vec[1]]
+      }
+    }
+  }
+  return moves
 }
 
 /**

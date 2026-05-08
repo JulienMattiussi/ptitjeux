@@ -18,19 +18,29 @@ const cellKey = (c: Coord): string => `${c[0]},${c[1]}`
 const eq = (a: Coord, b: Coord): boolean => a[0] === b[0] && a[1] === b[1]
 
 /**
+ * Pas autorisés pour la marche aléatoire des cibles : la lettre suivante
+ * peut être à droite, en bas, en bas-à-droite ou en haut-à-droite. Jamais à
+ * gauche, jamais directement au-dessus.
+ */
+const SOKOMOT_STEPS: readonly Coord[] = [
+  [1, 0], // droite
+  [0, 1], // bas
+  [1, 1], // bas-droite
+  [1, -1], // haut-droite
+] as const
+
+/**
  * Génère un niveau Sokomot pour une date et un index donnés.
  *
- * Niveaux glace (2, 4) : layout linéaire fixe (cible adossée au mur du haut,
- * blocs au bas, glace entre les deux pour que le bloc glisse jusqu'à la cible).
- *
- * Niveaux classiques (1, 3) : disposition **libre** des cases cibles. On fait
- * une marche aléatoire dans la grille pour les positionner (les lettres
- * peuvent former une diagonale, un zig-zag ou n'importe quoi). Pour chaque
- * cible, on choisit une direction de poussée libre parmi les 4. Un solveur
- * BFS calcule le chemin du joueur. Si la configuration générée n'est pas
- * solvable, on retente avec une autre graine.
- *
- * Tailles : 7×6, 8×7, 9×8, 10×9 — mots de 3 à 6 lettres.
+ * Tous les niveaux utilisent désormais le **layout libre** :
+ * - Cibles disposées par marche aléatoire (4 pas autorisés ci-dessus).
+ * - Pour chaque cible, direction de poussée choisie parmi les 4.
+ * - Niveaux glace (2, 4) : entre le bloc et la cible se trouvent des cases
+ *   gelées de longueur de glissade `slideLength`. Le bloc poussé glisse à
+ *   travers ces cases et s'immobilise sur la cible (qui n'est pas gelée).
+ * - Niveaux classiques (1, 3) : pas de glace, bloc adjacent à la cible.
+ * - Obstacles internes aléatoires sur les cases qui ne sont pas sur la
+ *   trajectoire de la solution.
  */
 export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level {
   const isIce = isIceIndex(index)
@@ -42,31 +52,29 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
   const entry = rng.pick(words)
   const word = entry.display
 
-  if (isIce) {
-    return buildIceLevel(date, index, word, entry.canonical, width, height)
-  }
+  const slideLength = isIce ? 2 : 1
+  const obstacleCount = isIce ? 0 : index + 1
 
-  // Nombre d'obstacles aléatoires sur les niveaux non-glace : plus le niveau
-  // est avancé, plus on en met. Toujours sur des cases qui ne perturbent pas
-  // la solution.
-  const obstacleCount = Math.max(0, index - 1)
-
-  // Tentatives successives de génération libre. Reseed à chaque essai pour
-  // diverger sans casser le déterminisme global (le premier succès est fixe).
-  for (let attempt = 0; attempt < 30; attempt++) {
+  for (let attempt = 0; attempt < 50; attempt++) {
     const attemptRng = new Rng(`sokomot:${date}:${index}:freeform:${attempt}`)
-    const candidate = tryGenerateFreeform(attemptRng, word, width, height, obstacleCount)
-    if (candidate) {
-      return finalize(candidate, date, index, word, entry.canonical)
-    }
+    const candidate = tryGenerateFreeform(
+      attemptRng,
+      word,
+      width,
+      height,
+      slideLength,
+      obstacleCount,
+    )
+    if (candidate) return finalize(candidate, date, index, word, entry.canonical, isIce)
   }
-  // Filet de sécurité : layout linéaire (toujours résoluble).
+  // Filet de sécurité.
   return finalize(
-    buildLinearFreeformFallback(word, width, height),
+    buildLinearFallback(word, width, height, isIce),
     date,
     index,
     word,
     entry.canonical,
+    isIce,
   )
 }
 
@@ -85,12 +93,14 @@ function finalize(
   index: 1 | 2 | 3 | 4,
   word: string,
   canonical: string,
+  isIce: boolean,
 ): Level {
+  const { width, height } = inferSize(draft.walls)
   return {
     id: `${date}-${index}`,
-    name: `Niveau ${index} · ${draft.walls[0] !== undefined ? 'salle' : ''}`.trim(),
-    width: maxX(draft.walls) + 1,
-    height: maxY(draft.walls) + 1,
+    name: `Niveau ${index} · ${width}×${height}${isIce ? ' · glace' : ''}`,
+    width,
+    height,
     player: draft.player,
     walls: draft.walls,
     ice: draft.ice,
@@ -102,90 +112,17 @@ function finalize(
   }
 }
 
-function maxX(cells: Coord[]): number {
-  let m = 0
-  for (const c of cells) if (c[0] > m) m = c[0]
-  return m
-}
-function maxY(cells: Coord[]): number {
-  let m = 0
-  for (const c of cells) if (c[1] > m) m = c[1]
-  return m
-}
-
-// ---------- Niveau glace : layout linéaire fixe ----------
-
-function buildIceLevel(
-  date: string,
-  index: 1 | 2 | 3 | 4,
-  word: string,
-  canonical: string,
-  width: number,
-  height: number,
-): Level {
-  const wordLen = word.length
-  const targetRow = 1
-  const blockRow = height - 3
-  const playerRow = height - 2
-  const pushRow = blockRow + 1
-  const leftStart = Math.floor((width - wordLen) / 2)
-
-  const walls = buildBorderWalls(width, height)
-
-  const ice: Coord[] = []
-  for (let y = targetRow; y < blockRow; y++) {
-    for (let x = 1; x < width - 1; x++) ice.push([x, y])
+function inferSize(cells: Coord[]): { width: number; height: number } {
+  let mx = 0
+  let my = 0
+  for (const c of cells) {
+    if (c[0] > mx) mx = c[0]
+    if (c[1] > my) my = c[1]
   }
-
-  const targets: Coord[] = []
-  const blocks: Block[] = []
-  for (let i = 0; i < wordLen; i++) {
-    const col = leftStart + i
-    targets.push([col, targetRow])
-    blocks.push({ id: `b${i + 1}`, letter: word[i], pos: [col, blockRow] })
-  }
-
-  const player: Coord = [1, playerRow]
-  const solution: Direction[] = []
-  let pos: Coord = [...player] as Coord
-  while (pos[1] > pushRow) {
-    solution.push('up')
-    pos = [pos[0], pos[1] - 1]
-  }
-  blocks.forEach((b, i) => {
-    while (pos[0] < b.pos[0]) {
-      solution.push('right')
-      pos = [pos[0] + 1, pos[1]]
-    }
-    while (pos[0] > b.pos[0]) {
-      solution.push('left')
-      pos = [pos[0] - 1, pos[1]]
-    }
-    solution.push('up')
-    pos = [pos[0], pos[1] - 1]
-    if (i < blocks.length - 1) {
-      solution.push('down')
-      pos = [pos[0], pos[1] + 1]
-    }
-  })
-
-  return {
-    id: `${date}-${index}`,
-    name: `Niveau ${index} · ${width}×${height} · glace`,
-    width,
-    height,
-    player,
-    walls,
-    ice,
-    blocks,
-    target: { word, cells: targets },
-    parMoves: solution.length + 2,
-    solution,
-    canonicalWord: canonical,
-  }
+  return { width: mx + 1, height: my + 1 }
 }
 
-// ---------- Génération libre ----------
+// ---------- Helpers ----------
 
 function buildBorderWalls(width: number, height: number): Coord[] {
   const walls: Coord[] = []
@@ -203,19 +140,6 @@ function buildBorderWalls(width: number, height: number): Coord[] {
 function inInterior(c: Coord, width: number, height: number): boolean {
   return c[0] >= 1 && c[0] <= width - 2 && c[1] >= 1 && c[1] <= height - 2
 }
-
-/**
- * Pas autorisés pour la marche aléatoire des cibles : la lettre suivante
- * peut être à droite, en bas, en bas-à-droite ou en haut-à-droite. Jamais à
- * gauche, jamais directement au-dessus. Cela donne une lecture cohérente et
- * un layout naturel pour l'œil.
- */
-const SOKOMOT_STEPS: readonly Coord[] = [
-  [1, 0], // droite
-  [0, 1], // bas
-  [1, 1], // bas-droite
-  [1, -1], // haut-droite
-] as const
 
 function placeTargetsRandomWalk(
   rng: Rng,
@@ -253,52 +177,98 @@ function placeTargetsRandomWalk(
 }
 
 /**
- * Pour chaque cible, choisit une direction de poussée et une position de bloc
- * adjacente. Renvoie les blocs initiaux + direction de poussée + position du
- * pousseur (cellule où le joueur doit se trouver pour effectuer la poussée).
+ * Pour chaque cible, choisit une direction de poussée et calcule :
+ * - la position du bloc à `slideLength` cases avant la cible
+ * - les cases de glace intermédiaires (si slideLength > 1)
+ * - la position de poussée (case où le joueur se tient pour pousser)
+ *
+ * Renvoie `null` si une cible ne peut pas être placée sans conflit.
  */
-function placeBlocksAndPushDirections(
+function placeBlocksWithSlide(
   rng: Rng,
   targets: Coord[],
+  slideLength: number,
   width: number,
   height: number,
-): { blocks: Coord[]; pushDirs: Direction[]; pushers: Coord[] } | null {
+): {
+  blocks: Coord[]
+  pushDirs: Direction[]
+  pushers: Coord[]
+  ice: Coord[]
+} | null {
   const targetSet = new Set(targets.map(cellKey))
   const usedBlocks = new Set<string>()
+  const allIceSet = new Set<string>()
+  const allIce: Coord[] = []
   const blocks: Coord[] = []
   const pushDirs: Direction[] = []
   const pushers: Coord[] = []
 
   for (const t of targets) {
     let placed = false
-    // Essaie les 4 directions dans un ordre randomisé pour varier les niveaux.
     const order = rng.shuffle([...DIRECTIONS])
     for (const { dir, vec } of order) {
-      const block: Coord = [t[0] - vec[0], t[1] - vec[1]]
-      const pusher: Coord = [t[0] - 2 * vec[0], t[1] - 2 * vec[1]]
+      const block: Coord = [t[0] - slideLength * vec[0], t[1] - slideLength * vec[1]]
+      const pusher: Coord = [
+        t[0] - (slideLength + 1) * vec[0],
+        t[1] - (slideLength + 1) * vec[1],
+      ]
       if (!inInterior(block, width, height)) continue
       if (!inInterior(pusher, width, height)) continue
-      const bk = cellKey(block)
-      const pk = cellKey(pusher)
-      // Bloc ne peut être sur une autre cible (elles seront occupées en fin de partie)
-      // ni sur un autre bloc déjà placé.
-      if (targetSet.has(bk)) continue
-      if (usedBlocks.has(bk)) continue
-      // Pousseur ne peut être sur un autre bloc (le joueur ne peut pas y entrer).
-      if (usedBlocks.has(pk)) continue
+
+      // Cases de glace intermédiaires (target - i*vec pour i = 1..slideLength-1).
+      const iceForThis: Coord[] = []
+      let valid = true
+      for (let i = 1; i < slideLength; i++) {
+        const c: Coord = [t[0] - i * vec[0], t[1] - i * vec[1]]
+        if (!inInterior(c, width, height)) {
+          valid = false
+          break
+        }
+        if (targetSet.has(cellKey(c))) {
+          valid = false
+          break
+        }
+        if (usedBlocks.has(cellKey(c))) {
+          valid = false
+          break
+        }
+        iceForThis.push(c)
+      }
+      if (!valid) continue
+
+      const blockKey = cellKey(block)
+      const pusherKey = cellKey(pusher)
+      // Le bloc ne peut être sur une autre cible, un autre bloc, ou une glace
+      // existante (player atterrirait sur la glace après poussée et glisserait).
+      if (targetSet.has(blockKey)) continue
+      if (usedBlocks.has(blockKey)) continue
+      if (allIceSet.has(blockKey)) continue
+      // Le pousseur ne peut être sur un autre bloc, ni sur de la glace
+      // (le joueur glisserait et ne pourrait pas pousser).
+      if (usedBlocks.has(pusherKey)) continue
+      if (allIceSet.has(pusherKey)) continue
+
       blocks.push(block)
       pushDirs.push(dir)
       pushers.push(pusher)
-      usedBlocks.add(bk)
+      usedBlocks.add(blockKey)
+      for (const c of iceForThis) {
+        const k = cellKey(c)
+        if (!allIceSet.has(k)) {
+          allIce.push(c)
+          allIceSet.add(k)
+        }
+      }
       placed = true
       break
     }
     if (!placed) return null
   }
-  return { blocks, pushDirs, pushers }
+  return { blocks, pushDirs, pushers, ice: allIce }
 }
 
-/** BFS sur la grille : chemin du joueur de `start` à `goal`, en évitant les obstacles. */
+/** BFS standard : chemin du joueur sur la grille, en évitant `obstacles`. */
 function bfsPath(
   start: Coord,
   goal: Coord,
@@ -327,9 +297,9 @@ function bfsPath(
 }
 
 /**
- * Tente de résoudre le niveau dans l'ordre naturel des cibles : pour chaque
- * cible i, naviguer le joueur jusqu'au pousseur, puis pousser. Retourne null
- * si un déplacement est impossible (bloc bloque le chemin par exemple).
+ * Résout le niveau dans l'ordre naturel des cibles. Le joueur navigue jusqu'au
+ * pousseur de chaque cible (en évitant murs, blocs et glace), puis effectue la
+ * poussée. Renvoie null si la navigation échoue à un moment.
  */
 function solveInOrder(
   initialPlayer: Coord,
@@ -338,6 +308,7 @@ function solveInOrder(
   pushers: Coord[],
   targets: Coord[],
   walls: Set<string>,
+  ice: Set<string>,
   width: number,
   height: number,
 ): Direction[] | null {
@@ -347,6 +318,7 @@ function solveInOrder(
 
   for (let i = 0; i < currentBlocks.length; i++) {
     const obstacles = new Set<string>(walls)
+    for (const c of ice) obstacles.add(c)
     for (let j = 0; j < currentBlocks.length; j++) {
       obstacles.add(cellKey(currentBlocks[j]))
     }
@@ -355,18 +327,16 @@ function solveInOrder(
     if (!path) return null
     moves.push(...path)
     player = pusher
-
-    // Effectue la poussée : le joueur entre dans la case du bloc, le bloc va sur sa cible.
     moves.push(pushDirs[i])
-    player = currentBlocks[i]
+    player = currentBlocks[i] // post-push, player atterrit où était le bloc
     currentBlocks[i] = targets[i]
   }
   return moves
 }
 
 /**
- * Reconstitue le chemin du joueur (en cellules) à partir de sa position
- * initiale et d'une suite de directions.
+ * Reconstitue les cellules visitées par le joueur durant la solution (pour
+ * exclure ces cases lors du placement d'obstacles aléatoires).
  */
 function tracePlayerCells(start: Coord, moves: Direction[]): Set<string> {
   const cells = new Set<string>([cellKey(start)])
@@ -379,12 +349,6 @@ function tracePlayerCells(start: Coord, moves: Direction[]): Set<string> {
   return cells
 }
 
-/**
- * Place quelques obstacles internes (murs supplémentaires) sur des cases qui
- * ne sont sur le chemin de personne : ni cible, ni bloc initial, ni pousseur,
- * ni case visitée par le joueur dans la solution. Garantit ainsi que la
- * solution reste valable.
- */
 function placeRandomObstacles(
   rng: Rng,
   count: number,
@@ -413,34 +377,44 @@ function tryGenerateFreeform(
   word: string,
   width: number,
   height: number,
+  slideLength: number,
   obstacleCount: number,
 ): LevelDraft | null {
   const targets = placeTargetsRandomWalk(rng, word.length, width, height)
   if (!targets) return null
 
-  const placement = placeBlocksAndPushDirections(rng, targets, width, height)
+  const placement = placeBlocksWithSlide(rng, targets, slideLength, width, height)
   if (!placement) return null
 
   const walls = buildBorderWalls(width, height)
   const wallSet = new Set(walls.map(cellKey))
   const targetSet = new Set(targets.map(cellKey))
   const blockSet = new Set(placement.blocks.map(cellKey))
+  const iceSet = new Set(placement.ice.map(cellKey))
 
   // Position de départ du joueur : pousseur du 1er bloc s'il est libre, sinon
-  // première case intérieure libre.
+  // première case intérieure libre (et non-glace).
   let player: Coord | null = null
   const firstPusherKey = cellKey(placement.pushers[0])
   if (
     !targetSet.has(firstPusherKey) &&
     !blockSet.has(firstPusherKey) &&
-    !wallSet.has(firstPusherKey)
+    !wallSet.has(firstPusherKey) &&
+    !iceSet.has(firstPusherKey)
   ) {
     player = placement.pushers[0]
   } else {
     for (let y = 1; y <= height - 2; y++) {
       for (let x = 1; x <= width - 2; x++) {
         const k = cellKey([x, y])
-        if (wallSet.has(k) || targetSet.has(k) || blockSet.has(k)) continue
+        if (
+          wallSet.has(k) ||
+          targetSet.has(k) ||
+          blockSet.has(k) ||
+          iceSet.has(k)
+        ) {
+          continue
+        }
         player = [x, y]
         break
       }
@@ -456,17 +430,18 @@ function tryGenerateFreeform(
     placement.pushers,
     targets,
     wallSet,
+    iceSet,
     width,
     height,
   )
   if (!solution) return null
 
-  // Cellules « intouchables » par les obstacles : tout ce qu'on a placé +
-  // toutes les cellules visitées par le joueur durant la solution.
+  // Cellules « intouchables » par les obstacles aléatoires.
   const forbidden = new Set<string>()
   targets.forEach((t) => forbidden.add(cellKey(t)))
   placement.blocks.forEach((b) => forbidden.add(cellKey(b)))
   placement.pushers.forEach((p) => forbidden.add(cellKey(p)))
+  placement.ice.forEach((c) => forbidden.add(cellKey(c)))
   forbidden.add(cellKey(player))
   for (const c of tracePlayerCells(player, solution)) forbidden.add(c)
 
@@ -480,7 +455,7 @@ function tryGenerateFreeform(
 
   return {
     walls: [...walls, ...obstacles],
-    ice: [],
+    ice: placement.ice,
     player,
     blocks,
     targets,
@@ -490,21 +465,29 @@ function tryGenerateFreeform(
 
 /**
  * Filet de sécurité utilisé si toutes les tentatives de génération libre
- * échouent. Reproduit le layout linéaire historique (cible row 2, blocs row
- * 3, joueur en bas-gauche).
+ * échouent : layout linéaire historique.
  */
-function buildLinearFreeformFallback(
+function buildLinearFallback(
   word: string,
   width: number,
   height: number,
+  isIce: boolean,
 ): LevelDraft {
   const wordLen = word.length
-  const targetRow = 2
-  const blockRow = 3
+  const targetRow = isIce ? 1 : 2
+  const blockRow = isIce ? height - 3 : 3
   const playerRow = height - 2
+  const pushRow = blockRow + 1
   const leftStart = Math.floor((width - wordLen) / 2)
 
   const walls = buildBorderWalls(width, height)
+  const ice: Coord[] = []
+  if (isIce) {
+    for (let y = targetRow; y < blockRow; y++) {
+      for (let x = 1; x < width - 1; x++) ice.push([x, y])
+    }
+  }
+
   const targets: Coord[] = []
   const blocks: Block[] = []
   for (let i = 0; i < wordLen; i++) {
@@ -516,7 +499,7 @@ function buildLinearFreeformFallback(
 
   const solution: Direction[] = []
   let pos: Coord = [...player] as Coord
-  while (pos[1] > blockRow + 1) {
+  while (pos[1] > pushRow) {
     solution.push('up')
     pos = [pos[0], pos[1] - 1]
   }
@@ -537,12 +520,5 @@ function buildLinearFreeformFallback(
     }
   })
 
-  return {
-    walls,
-    ice: [],
-    player,
-    blocks,
-    targets,
-    solution,
-  }
+  return { walls, ice, player, blocks, targets, solution }
 }

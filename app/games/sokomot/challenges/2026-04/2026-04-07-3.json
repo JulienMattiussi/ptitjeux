@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    5
+    5,
+    3
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      5,
-      6
-    ],
-    [
-      4,
-      6
-    ],
-    [
-      6,
-      6
-    ],
-    [
-      3,
-      6
     ]
   ],
   "ice": [],
@@ -151,31 +135,31 @@
       "id": "b1",
       "letter": "H",
       "pos": [
-        1,
-        4
+        5,
+        5
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        2,
-        4
+        3,
+        3
       ]
     },
     {
       "id": "b3",
       "letter": "L",
       "pos": [
-        3,
-        3
+        6,
+        2
       ]
     },
     {
       "id": "b4",
       "letter": "L",
       "pos": [
-        4,
+        6,
         3
       ]
     },
@@ -183,8 +167,8 @@
       "id": "b5",
       "letter": "E",
       "pos": [
-        5,
-        5
+        6,
+        4
       ]
     }
   ],
@@ -192,49 +176,61 @@
     "word": "HALLE",
     "cells": [
       [
-        1,
+        4,
         3
       ],
       [
-        2,
-        3
+        5,
+        2
       ],
       [
-        3,
-        4
+        6,
+        1
       ],
       [
-        4,
-        4
+        7,
+        1
       ],
       [
-        4,
-        5
+        7,
+        2
       ]
     ]
   },
-  "parMoves": 22,
+  "parMoves": 34,
   "solution": [
-    "up",
-    "down",
     "right",
-    "up",
-    "right",
-    "right",
-    "right",
-    "up",
     "up",
     "left",
     "left",
+    "left",
+    "left",
     "down",
+    "right",
+    "right",
+    "down",
+    "down",
+    "down",
+    "right",
+    "up",
+    "right",
+    "up",
+    "right",
+    "up",
+    "up",
+    "down",
+    "down",
+    "left",
+    "left",
+    "down",
+    "left",
+    "up",
+    "right",
     "up",
     "right",
     "down",
     "right",
-    "down",
-    "right",
-    "down",
-    "left"
+    "up"
   ],
   "canonicalWord": "halle"
 }

@@ -84,7 +84,7 @@ export function LevelTile({
         )}
         {compact && completed && (
           <div className="absolute right-1.5 top-1.5">
-            <CheckMark size="sm" />
+            <CheckMark size="sm" variant={checkVariant} />
           </div>
         )}
         {locked && (

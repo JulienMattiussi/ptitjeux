@@ -47,7 +47,7 @@ describe('sokomot/generator', () => {
       const stripped = level.canonicalWord!.normalize('NFD').replace(/\p{Diacritic}/gu, '')
       expect(stripped.toUpperCase()).toBe(level.target.word)
     }
-  })
+  }, 30_000) // L3 et L4 lancent un solveur A* qui peut prendre quelques secondes.
 
   it('génération déterministe (même date+index → même niveau)', () => {
     const a = generateSokomotLevel('2026-05-07', 2)
@@ -75,5 +75,5 @@ describe('sokomot/generator', () => {
       }
       expect(isWon(state), `niveau ${idx} non résolu`).toBe(true)
     }
-  })
+  }, 30_000)
 })

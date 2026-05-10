@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
+    4,
     5
   ],
   "walls": [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      4,
-      6
-    ],
-    [
-      3,
-      2
-    ],
-    [
-      7,
-      6
-    ],
-    [
-      6,
-      6
     ]
   ],
   "ice": [],
@@ -151,15 +135,15 @@
       "id": "b1",
       "letter": "D",
       "pos": [
-        3,
-        4
+        5,
+        1
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        4,
+        2,
         3
       ]
     },
@@ -167,24 +151,24 @@
       "id": "b3",
       "letter": "L",
       "pos": [
-        6,
-        2
+        3,
+        5
       ]
     },
     {
       "id": "b4",
       "letter": "O",
       "pos": [
-        5,
-        4
+        3,
+        2
       ]
     },
     {
       "id": "b5",
       "letter": "T",
       "pos": [
-        6,
-        4
+        5,
+        3
       ]
     }
   ],
@@ -192,46 +176,55 @@
     "word": "DALOT",
     "cells": [
       [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
         3,
         3
       ],
       [
-        4,
-        2
-      ],
-      [
-        5,
-        2
-      ],
-      [
-        5,
-        3
-      ],
-      [
-        6,
-        3
+        3,
+        4
       ]
     ]
   },
-  "parMoves": 20,
+  "parMoves": 29,
   "solution": [
+    "left",
+    "up",
+    "left",
     "up",
     "right",
-    "up",
     "right",
+    "up",
     "right",
     "right",
     "up",
     "left",
-    "down",
     "left",
     "left",
-    "down",
     "down",
     "right",
+    "right",
+    "down",
+    "right",
+    "down",
+    "left",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
     "up",
-    "down",
-    "right",
     "up"
   ],
   "canonicalWord": "dalot"

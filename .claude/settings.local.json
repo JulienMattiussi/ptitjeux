@@ -12,7 +12,13 @@
       "Bash(curl -sS http://localhost:2222/)",
       "Bash(mkdir -p /home/julien/Documents/MyRepos/secretgame/builder)",
       "Bash(curl -sSL --max-time 60 -o words-fr-raw.json \"https://raw.githubusercontent.com/words/an-array-of-french-words/main/index.json\")",
-      "Bash(npx tsx *)"
+      "Bash(npx tsx *)",
+      "Bash(cat > *)",
+      "Bash(DEBUG_SOKOMOT=1 time npx tsx /tmp/test-solver.ts)",
+      "Bash(DEBUG_SOKOMOT=1 npx tsx /tmp/test-solver.ts)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
     ]
   }
 }

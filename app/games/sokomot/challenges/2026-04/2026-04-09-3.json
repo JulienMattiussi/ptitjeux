@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    1
+    5,
+    4
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      7,
-      3
-    ],
-    [
-      7,
-      2
-    ],
-    [
-      3,
-      2
-    ],
-    [
-      1,
-      6
     ]
   ],
   "ice": [],
@@ -151,24 +135,24 @@
       "id": "b1",
       "letter": "L",
       "pos": [
-        3,
-        3
+        2,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "I",
       "pos": [
-        3,
-        5
+        2,
+        3
       ]
     },
     {
       "id": "b3",
       "letter": "V",
       "pos": [
-        4,
-        2
+        5,
+        3
       ]
     },
     {
@@ -176,15 +160,15 @@
       "letter": "R",
       "pos": [
         4,
-        5
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "A",
       "pos": [
-        5,
-        4
+        3,
+        5
       ]
     }
   ],
@@ -197,59 +181,53 @@
       ],
       [
         3,
-        4
-      ],
-      [
-        4,
         3
       ],
       [
-        4,
+        3,
         4
+      ],
+      [
+        4,
+        5
       ],
       [
         5,
-        3
+        6
       ]
     ]
   },
-  "parMoves": 37,
+  "parMoves": 31,
   "solution": [
-    "down",
-    "down",
-    "down",
-    "right",
-    "right",
     "right",
     "up",
     "left",
-    "down",
-    "left",
-    "down",
-    "down",
-    "right",
-    "up",
     "left",
     "up",
     "left",
-    "up",
-    "up",
-    "up",
-    "right",
-    "right",
-    "right",
     "down",
     "right",
     "down",
-    "right",
-    "down",
-    "down",
+    "left",
     "down",
     "left",
     "left",
     "up",
+    "up",
     "right",
-    "up"
+    "left",
+    "up",
+    "up",
+    "right",
+    "down",
+    "left",
+    "down",
+    "down",
+    "right",
+    "down",
+    "down",
+    "right",
+    "right"
   ],
   "canonicalWord": "livra"
 }

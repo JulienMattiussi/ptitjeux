@@ -52,7 +52,14 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
   const entry = rng.pick(words)
   const word = entry.display
 
-  const slideLength = isIce ? 2 : 1
+  // L1 : 1 push par cube (cube adjacent à la cible).
+  // L2 : 1 push par cube qui glisse sur 2 cases de glace.
+  // L3 : Sokoban classique avec rétro-génération multi-directionnelle —
+  //      chaque cube est tiré dans des directions variables, ce qui force
+  //      le joueur à le pousser via des changements de direction.
+  // L4 : full-ice, géré séparément.
+  const slideLength = index === 1 ? 1 : 2
+  const useIceBetween = isIce
   const obstacleCount = isIce ? 0 : index + 1
 
   // Niveau 4 : entièrement glace, cibles le long d'un mur, joueur glisse partout
@@ -66,6 +73,18 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
     // En cas d'échec rare, on retombera sur le freeform glace standard ci-dessous.
   }
 
+  // Niveau 3 : Sokoban classique avec rétro-génération multi-directionnelle.
+  // Le minimum de pushes par cube et la possibilité de tirer dans plusieurs
+  // directions rendent le puzzle bien plus profond que le freeform straight-line.
+  if (index === 3) {
+    for (let attempt = 0; attempt < 100; attempt++) {
+      const attemptRng = new Rng(`sokomot:${date}:${index}:pullchain:${attempt}`)
+      const candidate = tryGenerateSokobanPullChain(attemptRng, word, width, height, 2)
+      if (candidate) return finalize(candidate, date, index, word, entry.canonical, false)
+    }
+    // Fallback freeform straight-line si la chaîne ne réussit pas.
+  }
+
   for (let attempt = 0; attempt < 50; attempt++) {
     const attemptRng = new Rng(`sokomot:${date}:${index}:freeform:${attempt}`)
     const candidate = tryGenerateFreeform(
@@ -74,6 +93,7 @@ export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level 
       width,
       height,
       slideLength,
+      useIceBetween,
       obstacleCount,
     )
     if (candidate) return finalize(candidate, date, index, word, entry.canonical, isIce)
@@ -199,6 +219,7 @@ function placeBlocksWithSlide(
   rng: Rng,
   targets: Coord[],
   slideLength: number,
+  useIceBetween: boolean,
   width: number,
   height: number,
 ): {
@@ -206,11 +227,16 @@ function placeBlocksWithSlide(
   pushDirs: Direction[]
   pushers: Coord[]
   ice: Coord[]
+  /** Cases entre cube et cible (sans glace) qui doivent rester libres pour
+   *  les pushes successifs en mode Sokoban classique. */
+  pushPath: Coord[]
 } | null {
   const targetSet = new Set(targets.map(cellKey))
   const usedBlocks = new Set<string>()
   const allIceSet = new Set<string>()
   const allIce: Coord[] = []
+  const allPushPath: Coord[] = []
+  const allPushPathSet = new Set<string>()
   const blocks: Coord[] = []
   const pushDirs: Direction[] = []
   const pushers: Coord[] = []
@@ -227,8 +253,10 @@ function placeBlocksWithSlide(
       if (!inInterior(block, width, height)) continue
       if (!inInterior(pusher, width, height)) continue
 
-      // Cases de glace intermédiaires (target - i*vec pour i = 1..slideLength-1).
-      const iceForThis: Coord[] = []
+      // Cases intermédiaires (target - i*vec pour i = 1..slideLength-1).
+      // En mode glace : ces cases sont des cellules de glace.
+      // En mode Sokoban : ces cases doivent rester libres (chemin du push).
+      const middleCells: Coord[] = []
       let valid = true
       for (let i = 1; i < slideLength; i++) {
         const c: Coord = [t[0] - i * vec[0], t[1] - i * vec[1]]
@@ -244,7 +272,7 @@ function placeBlocksWithSlide(
           valid = false
           break
         }
-        iceForThis.push(c)
+        middleCells.push(c)
       }
       if (!valid) continue
 
@@ -255,20 +283,46 @@ function placeBlocksWithSlide(
       if (targetSet.has(blockKey)) continue
       if (usedBlocks.has(blockKey)) continue
       if (allIceSet.has(blockKey)) continue
-      // Le pousseur ne peut être sur un autre bloc, ni sur de la glace
-      // (le joueur glisserait et ne pourrait pas pousser).
+      // En mode Sokoban classique : le bloc ne peut pas être sur la trajectoire
+      // de poussée d'un cube précédemment placé (sinon ce push échouerait dans
+      // le solveur, le cube précédent ne pouvant pas traverser celui-ci).
+      if (allPushPathSet.has(blockKey)) continue
+      // Le pousseur ne peut être sur un autre bloc, ni sur de la glace.
       if (usedBlocks.has(pusherKey)) continue
       if (allIceSet.has(pusherKey)) continue
+
+      // En mode Sokoban classique : les cases de poussée de CE cube ne doivent
+      // pas être occupées par un autre cube.
+      if (!useIceBetween) {
+        let pathClash = false
+        for (const c of middleCells) {
+          if (usedBlocks.has(cellKey(c))) {
+            pathClash = true
+            break
+          }
+        }
+        if (pathClash) continue
+      }
 
       blocks.push(block)
       pushDirs.push(dir)
       pushers.push(pusher)
       usedBlocks.add(blockKey)
-      for (const c of iceForThis) {
-        const k = cellKey(c)
-        if (!allIceSet.has(k)) {
-          allIce.push(c)
-          allIceSet.add(k)
+      if (useIceBetween) {
+        for (const c of middleCells) {
+          const k = cellKey(c)
+          if (!allIceSet.has(k)) {
+            allIce.push(c)
+            allIceSet.add(k)
+          }
+        }
+      } else {
+        for (const c of middleCells) {
+          const k = cellKey(c)
+          if (!allPushPathSet.has(k)) {
+            allPushPath.push(c)
+            allPushPathSet.add(k)
+          }
         }
       }
       placed = true
@@ -276,7 +330,7 @@ function placeBlocksWithSlide(
     }
     if (!placed) return null
   }
-  return { blocks, pushDirs, pushers, ice: allIce }
+  return { blocks, pushDirs, pushers, ice: allIce, pushPath: allPushPath }
 }
 
 /** BFS standard : chemin du joueur sur la grille, en évitant `obstacles`. */
@@ -310,7 +364,14 @@ function bfsPath(
 /**
  * Résout le niveau dans l'ordre naturel des cibles. Le joueur navigue jusqu'au
  * pousseur de chaque cible (en évitant murs, blocs et glace), puis effectue la
- * poussée. Renvoie null si la navigation échoue à un moment.
+ * poussée.
+ *
+ * - **Mode glace** (`useIceBetween=true`) : 1 push par cube ; le cube glisse
+ *   automatiquement sur les cases de glace jusqu'à la cible.
+ * - **Mode Sokoban classique** (`useIceBetween=false`) : `slideLength` pushes
+ *   consécutifs par cube ; chaque push avance d'une case.
+ *
+ * Renvoie null si la navigation échoue à un moment.
  */
 function solveInOrder(
   initialPlayer: Coord,
@@ -322,6 +383,8 @@ function solveInOrder(
   ice: Set<string>,
   width: number,
   height: number,
+  slideLength: number,
+  useIceBetween: boolean,
 ): Direction[] | null {
   let player = initialPlayer
   const currentBlocks = initialBlocks.slice()
@@ -338,8 +401,19 @@ function solveInOrder(
     if (!path) return null
     moves.push(...path)
     player = pusher
-    moves.push(pushDirs[i])
-    player = currentBlocks[i] // post-push, player atterrit où était le bloc
+
+    const pushCount = useIceBetween ? 1 : slideLength
+    for (let k = 0; k < pushCount; k++) {
+      moves.push(pushDirs[i])
+    }
+    if (useIceBetween) {
+      // Le cube glisse jusqu'à la cible ; le joueur atterrit où était le cube.
+      player = currentBlocks[i]
+    } else {
+      // N pushes consécutifs : le joueur termine 1 case derrière la cible.
+      const dir = DIRECTIONS.find((d) => d.dir === pushDirs[i])!
+      player = [targets[i][0] - dir.vec[0], targets[i][1] - dir.vec[1]]
+    }
     currentBlocks[i] = targets[i]
   }
   return moves
@@ -389,12 +463,13 @@ function tryGenerateFreeform(
   width: number,
   height: number,
   slideLength: number,
+  useIceBetween: boolean,
   obstacleCount: number,
 ): LevelDraft | null {
   const targets = placeTargetsRandomWalk(rng, word.length, width, height)
   if (!targets) return null
 
-  const placement = placeBlocksWithSlide(rng, targets, slideLength, width, height)
+  const placement = placeBlocksWithSlide(rng, targets, slideLength, useIceBetween, width, height)
   if (!placement) return null
 
   const walls = buildBorderWalls(width, height)
@@ -402,6 +477,7 @@ function tryGenerateFreeform(
   const targetSet = new Set(targets.map(cellKey))
   const blockSet = new Set(placement.blocks.map(cellKey))
   const iceSet = new Set(placement.ice.map(cellKey))
+  const pushPathSet = new Set(placement.pushPath.map(cellKey))
 
   // Position de départ du joueur : pousseur du 1er bloc s'il est libre, sinon
   // première case intérieure libre (et non-glace).
@@ -444,6 +520,8 @@ function tryGenerateFreeform(
     iceSet,
     width,
     height,
+    slideLength,
+    useIceBetween,
   )
   if (!solution) return null
 
@@ -453,6 +531,9 @@ function tryGenerateFreeform(
   placement.blocks.forEach((b) => forbidden.add(cellKey(b)))
   placement.pushers.forEach((p) => forbidden.add(cellKey(p)))
   placement.ice.forEach((c) => forbidden.add(cellKey(c)))
+  // En mode Sokoban classique : cases entre cube et cible doivent rester libres
+  // (le push les traverse).
+  pushPathSet.forEach((k) => forbidden.add(k))
   forbidden.add(cellKey(player))
   for (const c of tracePlayerCells(player, solution)) forbidden.add(c)
 
@@ -472,6 +553,506 @@ function tryGenerateFreeform(
     targets,
     solution,
   }
+}
+
+// ---------- Niveau 3 : génération Sokoban avec pulls multi-directionnels ----------
+
+/**
+ * Génération rétrograde Sokoban classique (sans glace) : on part de l'état
+ * résolu et on applique des **pulls** dans des directions variables. Chaque
+ * pull tire un cube d'une case dans une direction choisie aléatoirement parmi
+ * celles qui sont valides — cela permet aux cubes d'avoir un parcours en
+ * zigzag plutôt qu'en ligne droite.
+ *
+ * Sémantique d'un pull (inverse d'un push Sokoban) :
+ * - État avant pull : cube en C, joueur quelque part, doit naviguer en C - D.
+ * - Pendant le pull (en représentation forward) : le joueur en C - 2D pousse
+ *   dans la direction D, le cube en C - D glisse en C, le joueur en C - D.
+ * - État après pull : cube en C - D, joueur en C - 2D.
+ *
+ * Pour chaque pull on s'assure que le joueur peut **naviguer** depuis sa
+ * position courante jusqu'à C - D (sans pousser de cube). Cela garantit la
+ * solvabilité forward : la séquence inverse des pulls forme une solution.
+ */
+function tryGenerateSokobanPullChain(
+  rng: Rng,
+  word: string,
+  width: number,
+  height: number,
+  pullsPerCube: number,
+): LevelDraft | null {
+  const wordLen = word.length
+  const targets = placeTargetsRandomWalk(rng, wordLen, width, height)
+  if (!targets) return null
+  const targetSet = new Set(targets.map(cellKey))
+
+  const walls = buildBorderWalls(width, height)
+  const wallSet = new Set(walls.map(cellKey))
+
+  // État de génération : cubes (sur leurs cibles initialement), joueur libre.
+  const cubes: Coord[] = targets.map((t) => [t[0], t[1]] as Coord)
+
+  // Joueur initial : une case libre adjacente à un cube cible (pour économiser
+  // une navigation initiale lors du 1er pull).
+  const freeCells: Coord[] = []
+  for (let y = 1; y <= height - 2; y++) {
+    for (let x = 1; x <= width - 2; x++) {
+      const c: Coord = [x, y]
+      if (!targetSet.has(cellKey(c))) freeCells.push(c)
+    }
+  }
+  if (freeCells.length === 0) return null
+  let player: Coord = rng.pick(freeCells)
+
+  type PullRecord = {
+    cubeIdx: number
+    pushDir: Direction
+    /** Position du cube AVANT le pull (= position du cube APRÈS le push forward). */
+    cubeTo: Coord
+    /** Position du cube APRÈS le pull (= position du cube AVANT le push forward). */
+    cubeFrom: Coord
+    /** Position du joueur AVANT le pull (= où il sera lors du push forward). */
+    playerPrePush: Coord
+  }
+  const pulls: PullRecord[] = []
+  const pullsCount = cubes.map(() => 0)
+  const lastPullVec: (Coord | null)[] = cubes.map(() => null)
+  // Plafond doux par cube : on autorise un cube à compenser un autre coincé.
+  // Un cube en pleine exploration peut atteindre 3 pulls ; au-delà la grille
+  // saturerait et la navigation deviendrait pesante.
+  const SOFT_CAP_PER_CUBE = 3
+  const MIN_TOTAL_PULLS = wordLen * pullsPerCube // = 10 par défaut pour wordLen=5
+
+  let progress = true
+  let safety = 0
+  while (progress && safety++ < 50) {
+    progress = false
+    const cubeOrder = rng.shuffle(cubes.map((_, i) => i))
+    for (const cubeIdx of cubeOrder) {
+      if (pullsCount[cubeIdx] >= SOFT_CAP_PER_CUBE) continue
+      const forbiddenVec = lastPullVec[cubeIdx]
+      const pulled = tryOneSokobanPull(
+        cubes,
+        cubeIdx,
+        player,
+        wallSet,
+        rng,
+        width,
+        height,
+        forbiddenVec,
+      )
+      if (!pulled) continue
+      pulls.push(pulled.record)
+      cubes[cubeIdx] = pulled.record.cubeFrom
+      player = pulled.newPlayer
+      pullsCount[cubeIdx]++
+      lastPullVec[cubeIdx] = pulled.usedVec
+      progress = true
+    }
+  }
+
+  // On exige un total minimal de mouvements de cubes. Les cubes peuvent
+  // compenser entre eux (un cube tire 3 fois pour un autre qui n'en peut
+  // qu'un). Chaque cube doit néanmoins avoir bougé au moins une fois (sinon
+  // une lettre serait pré-positionnée sur sa cible).
+  if (pulls.length < MIN_TOTAL_PULLS) return null
+  if (pullsCount.some((n) => n === 0)) return null
+
+  // Reconstruction de la solution forward = inverse de l'ordre des pulls.
+  const forwardOrder = pulls.slice().reverse()
+  const solution: Direction[] = []
+  let curPlayer: Coord = player
+  // Cubes sont à leur position finale (après tous les pulls). On va les
+  // ramener un à un sur leurs cibles via les push forwards.
+  const cubesNow: Coord[] = cubes.map((c) => [c[0], c[1]] as Coord)
+
+  for (const pull of forwardOrder) {
+    // Naviguer vers la pré-push position du joueur.
+    if (!eq(curPlayer, pull.playerPrePush)) {
+      const path = navigatePlayerSokoban(
+        curPlayer,
+        pull.playerPrePush,
+        wallSet,
+        cubesNow,
+        width,
+        height,
+      )
+      if (!path) {
+        return null
+      }
+      solution.push(...path)
+      curPlayer = pull.playerPrePush
+    }
+    // Push forward : le cube va de cubeFrom à cubeTo.
+    solution.push(pull.pushDir)
+    // Vérifier que le cube est bien à cubeFrom.
+    const idxAtFrom = cubesNow.findIndex((c) => eq(c, pull.cubeFrom))
+    if (idxAtFrom !== pull.cubeIdx) {
+      return null
+    }
+    cubesNow[pull.cubeIdx] = [pull.cubeTo[0], pull.cubeTo[1]] as Coord
+    curPlayer = pull.cubeFrom
+  }
+
+  // Position finale : tous les cubes sur leurs cibles.
+  for (let i = 0; i < cubesNow.length; i++) {
+    if (!eq(cubesNow[i], targets[i])) {
+      return null
+    }
+  }
+
+  const blocks: Block[] = cubes.map((pos, i) => ({
+    id: `b${i + 1}`,
+    letter: word[i],
+    pos,
+  }))
+
+  // Optimisation : on lance un solveur forward pour trouver la solution
+  // optimale, et on l'utilise à la place de la solution dérivée des pulls.
+  // Cela garantit un `parMoves` réaliste — sinon le par serait gonflé par les
+  // zigzags artificiels créés par la rétro-génération.
+  const letters = word.split('').map((l) => l.toUpperCase())
+  const optimalSolution = findOptimalSokobanSolution(
+    player,
+    cubes,
+    letters,
+    targets,
+    wallSet,
+    width,
+    height,
+    5_000_000,
+  )
+  // On garde la solution de pulls comme filet de sécurité si le solveur
+  // dépasse son budget.
+  const finalSolution = optimalSolution ?? solution
+
+  return {
+    walls,
+    ice: [],
+    player,
+    blocks,
+    targets,
+    solution: finalSolution,
+  }
+}
+
+/**
+ * Solveur A* forward pour Sokoban classique sans glace. Cherche la solution
+ * **optimale** (en nombre total de coups joueur). Utilise une heuristique
+ * admissible : somme des distances de Manhattan des cubes à leurs cibles —
+ * minorant clair du nombre de pushes restants, donc minorant du nombre de
+ * coups restants.
+ *
+ * On utilise `letters[]` pour gérer la fongibilité des cubes ayant la même
+ * lettre : la heuristique apparie chaque cube à sa cible via l'index original
+ * (pas un appariement optimal, mais conservatif et simple).
+ */
+function findOptimalSokobanSolution(
+  initialPlayer: Coord,
+  initialCubes: Coord[],
+  letters: string[],
+  targets: Coord[],
+  walls: Set<string>,
+  width: number,
+  height: number,
+  maxStates: number,
+): Direction[] | null {
+  const targetKeys = targets.map(cellKey)
+  const isWin = (cubes: readonly Coord[]): boolean => {
+    for (let i = 0; i < targets.length; i++) {
+      const tk = targetKeys[i]
+      const cubeIdx = cubes.findIndex((c) => cellKey(c) === tk)
+      if (cubeIdx < 0) return false
+      if (letters[cubeIdx] !== letters[i]) return false
+    }
+    return true
+  }
+  const stateKey = (player: Coord, cubes: readonly Coord[]): string => {
+    const items: string[] = []
+    for (let i = 0; i < cubes.length; i++) {
+      items.push(`${letters[i]}:${cubes[i][0]},${cubes[i][1]}`)
+    }
+    items.sort()
+    return `${player[0]},${player[1]}|${items.join(';')}`
+  }
+  // Heuristique : on apparie chaque cube de lettre L au plus proche target de
+  // même lettre (sans collisions). Approximation rapide via greedy.
+  const heuristic = (cubes: readonly Coord[]): number => {
+    let total = 0
+    const usedTargets = new Set<number>()
+    for (let i = 0; i < cubes.length; i++) {
+      let bestDist = Infinity
+      let bestIdx = -1
+      for (let j = 0; j < targets.length; j++) {
+        if (usedTargets.has(j)) continue
+        if (letters[j] !== letters[i]) continue
+        const d = Math.abs(cubes[i][0] - targets[j][0]) + Math.abs(cubes[i][1] - targets[j][1])
+        if (d < bestDist) {
+          bestDist = d
+          bestIdx = j
+        }
+      }
+      if (bestIdx < 0) return Infinity
+      usedTargets.add(bestIdx)
+      total += bestDist
+    }
+    return total
+  }
+
+  type Node = {
+    player: Coord
+    cubes: Coord[]
+    parent: number
+    dir: Direction | null
+    g: number // moves so far
+    f: number // g + h
+  }
+  const nodes: Node[] = [
+    {
+      player: initialPlayer,
+      cubes: initialCubes.map((c) => [c[0], c[1]] as Coord),
+      parent: -1,
+      dir: null,
+      g: 0,
+      f: heuristic(initialCubes),
+    },
+  ]
+  if (isWin(nodes[0].cubes)) return []
+
+  // Min-heap simpliste sur f. Index dans `nodes`.
+  const heap: number[] = [0]
+  const heapCompare = (a: number, b: number): number => nodes[a].f - nodes[b].f
+  const heapPush = (idx: number) => {
+    heap.push(idx)
+    let i = heap.length - 1
+    while (i > 0) {
+      const p = Math.floor((i - 1) / 2)
+      if (heapCompare(heap[i], heap[p]) < 0) {
+        ;[heap[i], heap[p]] = [heap[p], heap[i]]
+        i = p
+      } else break
+    }
+  }
+  const heapPop = (): number => {
+    const top = heap[0]
+    const last = heap.pop()!
+    if (heap.length > 0) {
+      heap[0] = last
+      let i = 0
+      while (true) {
+        const l = 2 * i + 1
+        const r = 2 * i + 2
+        let best = i
+        if (l < heap.length && heapCompare(heap[l], heap[best]) < 0) best = l
+        if (r < heap.length && heapCompare(heap[r], heap[best]) < 0) best = r
+        if (best === i) break
+        ;[heap[i], heap[best]] = [heap[best], heap[i]]
+        i = best
+      }
+    }
+    return top
+  }
+
+  // bestG : meilleur g connu pour chaque clé d'état.
+  const bestG = new Map<string, number>()
+  bestG.set(stateKey(initialPlayer, initialCubes), 0)
+
+  while (heap.length > 0) {
+    if (nodes.length > maxStates) return null
+    const cur = heapPop()
+    const node = nodes[cur]
+
+    for (const { dir, vec } of DIRECTIONS) {
+      const adj: Coord = [node.player[0] + vec[0], node.player[1] + vec[1]]
+      if (adj[0] < 0 || adj[0] >= width || adj[1] < 0 || adj[1] >= height) continue
+      if (walls.has(cellKey(adj))) continue
+
+      const cubeIdx = node.cubes.findIndex((c) => eq(c, adj))
+      let newCubes = node.cubes
+      if (cubeIdx >= 0) {
+        const behind: Coord = [adj[0] + vec[0], adj[1] + vec[1]]
+        if (behind[0] < 0 || behind[0] >= width || behind[1] < 0 || behind[1] >= height) continue
+        if (walls.has(cellKey(behind))) continue
+        if (node.cubes.some((c, i) => i !== cubeIdx && eq(c, behind))) continue
+        newCubes = node.cubes.map((c, i) => (i === cubeIdx ? behind : c))
+      }
+      const newPlayer = adj
+      const newG = node.g + 1
+      const k = stateKey(newPlayer, newCubes)
+      const prevG = bestG.get(k)
+      if (prevG !== undefined && prevG <= newG) continue
+      bestG.set(k, newG)
+      const newH = heuristic(newCubes)
+      const idx = nodes.length
+      nodes.push({
+        player: newPlayer,
+        cubes: newCubes,
+        parent: cur,
+        dir,
+        g: newG,
+        f: newG + newH,
+      })
+      if (isWin(newCubes)) {
+        const path: Direction[] = []
+        let i = idx
+        while (i > 0) {
+          const n = nodes[i]
+          if (n.dir) path.unshift(n.dir)
+          i = n.parent
+        }
+        return path
+      }
+      heapPush(idx)
+    }
+  }
+  return null
+}
+
+/**
+ * Tente un pull rétrograde sur le cube `cubeIdx` :
+ * - Liste les directions D où le cube peut être tiré (cube_from = C - D et
+ *   player_after = C - 2*D doivent être libres).
+ * - Pour chaque direction valide, vérifie que le joueur peut **naviguer**
+ *   depuis sa position actuelle jusqu'à `C - D` sans pousser de cube.
+ * - Choisit une direction au hasard parmi celles qui marchent.
+ *
+ * Renvoie l'enregistrement du pull et la nouvelle position du joueur, ou null.
+ */
+function tryOneSokobanPull(
+  cubes: Coord[],
+  cubeIdx: number,
+  player: Coord,
+  wallSet: Set<string>,
+  rng: Rng,
+  width: number,
+  height: number,
+  forbiddenAxisVec: Coord | null,
+): {
+  record: {
+    cubeIdx: number
+    pushDir: Direction
+    cubeTo: Coord
+    cubeFrom: Coord
+    playerPrePush: Coord
+  }
+  newPlayer: Coord
+  usedVec: Coord
+} | null {
+  const cube = cubes[cubeIdx]
+  const otherCubeKeys = new Set<string>()
+  for (let i = 0; i < cubes.length; i++) {
+    if (i !== cubeIdx) otherCubeKeys.add(cellKey(cubes[i]))
+  }
+
+  const isOccupied = (c: Coord): boolean => {
+    if (!inInterior(c, width, height)) return true
+    const k = cellKey(c)
+    return wallSet.has(k) || otherCubeKeys.has(k)
+  }
+
+  type Candidate = {
+    dir: Direction
+    vec: Coord
+    cubeFrom: Coord
+    newPlayer: Coord
+    sameAxis: boolean
+  }
+  const candidates: Candidate[] = []
+  for (const { dir, vec } of DIRECTIONS) {
+    const cubeFrom: Coord = [cube[0] - vec[0], cube[1] - vec[1]]
+    const newPlayer: Coord = [cube[0] - 2 * vec[0], cube[1] - 2 * vec[1]]
+    if (isOccupied(cubeFrom)) continue
+    if (isOccupied(newPlayer)) continue
+    const sameAxis = forbiddenAxisVec
+      ? (vec[0] !== 0 && forbiddenAxisVec[0] !== 0) ||
+        (vec[1] !== 0 && forbiddenAxisVec[1] !== 0)
+      : false
+    candidates.push({ dir, vec, cubeFrom, newPlayer, sameAxis })
+  }
+  if (candidates.length === 0) return null
+
+  // Préférer les directions perpendiculaires (= virage du cube). Si toutes
+  // échouent à la navigation, on retombe sur les mêmes-axes en dernier recours.
+  const perpendicular = candidates.filter((c) => !c.sameAxis)
+  const sameAxis = candidates.filter((c) => c.sameAxis)
+  const ordered = [...rng.shuffle(perpendicular), ...rng.shuffle(sameAxis)]
+
+  for (const c of ordered) {
+    // Le joueur doit naviguer de `player` à `cubeFrom` (= C - D, futur
+    // pré-push) sans pousser de cube. Tous les cubes (y compris celui qu'on
+    // va tirer, encore à `cube`) sont des obstacles pendant cette navigation.
+    const allCubeKeys = new Set([...otherCubeKeys, cellKey(cube)])
+    const path = navigatePlayerSokoban(
+      player,
+      c.cubeFrom,
+      wallSet,
+      cubes,
+      width,
+      height,
+      allCubeKeys,
+    )
+    if (!path) continue
+    return {
+      record: {
+        cubeIdx,
+        pushDir: c.dir,
+        cubeTo: cube,
+        cubeFrom: c.cubeFrom,
+        // En forward, le joueur pousse le cube depuis derrière : il doit se
+        // tenir une case en arrière de la position du cube post-pull, soit
+        // newPlayer (= cubeFrom - vec).
+        playerPrePush: c.newPlayer,
+      },
+      newPlayer: c.newPlayer,
+      usedVec: c.vec,
+    }
+  }
+  return null
+}
+
+/**
+ * BFS de navigation Sokoban classique (1 pas par coup, pas de glissement).
+ * Évite les murs et les cubes (passés en paramètre ou via `cubeKeys` si fourni).
+ */
+function navigatePlayerSokoban(
+  start: Coord,
+  goal: Coord,
+  walls: Set<string>,
+  cubes: Coord[],
+  width: number,
+  height: number,
+  cubeKeys?: Set<string>,
+): Direction[] | null {
+  if (eq(start, goal)) return []
+  const blocked = cubeKeys ?? new Set(cubes.map(cellKey))
+  type Node = { pos: Coord; parent: number; dir: Direction | null }
+  const nodes: Node[] = [{ pos: start, parent: -1, dir: null }]
+  const visited = new Set<string>([cellKey(start)])
+  let head = 0
+  while (head < nodes.length) {
+    const node = nodes[head++]
+    for (const { dir, vec } of DIRECTIONS) {
+      const next: Coord = [node.pos[0] + vec[0], node.pos[1] + vec[1]]
+      if (next[0] < 0 || next[0] >= width || next[1] < 0 || next[1] >= height) continue
+      const nk = cellKey(next)
+      if (walls.has(nk) || blocked.has(nk)) continue
+      if (visited.has(nk)) continue
+      visited.add(nk)
+      const idx = nodes.length
+      nodes.push({ pos: next, parent: head - 1, dir })
+      if (eq(next, goal)) {
+        const path: Direction[] = []
+        let i = idx
+        while (i > 0) {
+          const n = nodes[i]
+          if (n.dir) path.unshift(n.dir)
+          i = n.parent
+        }
+        return path
+      }
+    }
+  }
+  return null
 }
 
 // ---------- Niveau 4 : génération « entièrement glace » ----------

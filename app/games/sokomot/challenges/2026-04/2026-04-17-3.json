@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    2
+    1,
+    1
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      5,
-      2
-    ],
-    [
-      7,
-      1
-    ],
-    [
-      7,
-      4
-    ],
-    [
-      6,
-      3
     ]
   ],
   "ice": [],
@@ -151,7 +135,7 @@
       "id": "b1",
       "letter": "B",
       "pos": [
-        3,
+        1,
         2
       ]
     },
@@ -159,7 +143,7 @@
       "id": "b2",
       "letter": "U",
       "pos": [
-        2,
+        3,
         3
       ]
     },
@@ -176,15 +160,15 @@
       "letter": "H",
       "pos": [
         5,
-        4
+        3
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        4,
-        5
+        6,
+        3
       ]
     }
   ],
@@ -192,45 +176,89 @@
     "word": "BUCHE",
     "cells": [
       [
+        1,
+        1
+      ],
+      [
         2,
+        1
+      ],
+      [
+        3,
         2
       ],
       [
-        3,
-        3
-      ],
-      [
-        3,
-        4
+        4,
+        1
       ],
       [
         4,
-        4
-      ],
-      [
-        5,
-        5
+        2
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 79,
   "solution": [
+    "down",
+    "right",
+    "right",
+    "right",
+    "down",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "left",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up",
+    "down",
+    "left",
+    "left",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "right",
+    "up",
+    "left",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down",
     "left",
     "up",
     "left",
     "left",
     "down",
     "down",
-    "right",
+    "down",
     "left",
-    "down",
+    "left",
+    "up",
     "right",
-    "down",
     "down",
     "right",
     "right",
     "right",
     "up",
+    "left",
+    "up",
+    "down",
+    "right",
     "right",
     "up",
     "left",
@@ -238,8 +266,16 @@
     "down",
     "left",
     "left",
+    "left",
     "up",
-    "right"
+    "up",
+    "down",
+    "down",
+    "right",
+    "up",
+    "left",
+    "left",
+    "up"
   ],
   "canonicalWord": "bûche"
 }

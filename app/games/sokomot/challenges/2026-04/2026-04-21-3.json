@@ -5,7 +5,7 @@
   "height": 8,
   "player": [
     3,
-    3
+    6
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      2,
-      4
-    ],
-    [
-      7,
-      5
-    ],
-    [
-      1,
-      3
-    ],
-    [
-      3,
-      4
     ]
   ],
   "ice": [],
@@ -159,15 +143,15 @@
       "id": "b2",
       "letter": "X",
       "pos": [
-        5,
-        1
+        1,
+        3
       ]
     },
     {
       "id": "b3",
       "letter": "I",
       "pos": [
-        5,
+        2,
         3
       ]
     },
@@ -175,16 +159,16 @@
       "id": "b4",
       "letter": "G",
       "pos": [
-        6,
-        3
+        3,
+        5
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        7,
-        2
+        5,
+        4
       ]
     }
   ],
@@ -192,46 +176,57 @@
     "word": "EXIGE",
     "cells": [
       [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
         3,
-        1
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        5,
-        2
-      ],
-      [
-        6,
-        2
-      ],
-      [
-        7,
-        1
+        5
       ]
     ]
   },
-  "parMoves": 19,
+  "parMoves": 30,
   "solution": [
+    "right",
     "up",
+    "left",
     "right",
     "right",
     "right",
     "up",
     "left",
+    "left",
+    "up",
+    "up",
+    "up",
+    "left",
     "down",
     "left",
     "down",
+    "up",
+    "left",
     "down",
     "right",
     "up",
+    "right",
+    "right",
     "down",
-    "right",
+    "left",
+    "down",
     "up",
-    "right",
-    "up"
+    "left"
   ],
   "canonicalWord": "exige"
 }

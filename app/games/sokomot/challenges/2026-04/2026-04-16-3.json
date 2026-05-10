@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    2
+    5,
+    4
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      1,
-      1
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      1,
-      6
-    ],
-    [
-      1,
-      4
     ]
   ],
   "ice": [],
@@ -151,7 +135,7 @@
       "id": "b1",
       "letter": "E",
       "pos": [
-        2,
+        4,
         2
       ]
     },
@@ -160,23 +144,23 @@
       "letter": "L",
       "pos": [
         5,
-        2
+        3
       ]
     },
     {
       "id": "b3",
       "letter": "I",
       "pos": [
-        5,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b4",
       "letter": "D",
       "pos": [
-        5,
-        4
+        3,
+        5
       ]
     },
     {
@@ -184,7 +168,7 @@
       "letter": "A",
       "pos": [
         6,
-        5
+        3
       ]
     }
   ],
@@ -192,47 +176,57 @@
     "word": "ELIDA",
     "cells": [
       [
-        3,
-        2
-      ],
-      [
         4,
-        2
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
+        1
       ],
       [
         5,
-        5
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
       ]
     ]
   },
-  "parMoves": 20,
+  "parMoves": 30,
   "solution": [
+    "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "left",
+    "down",
+    "left",
+    "down",
+    "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "left",
+    "down",
+    "right",
+    "right",
+    "down",
     "right",
     "up",
     "right",
     "right",
-    "right",
-    "right",
-    "down",
+    "up",
+    "up",
+    "up",
     "left",
-    "right",
-    "down",
-    "left",
-    "right",
-    "down",
-    "left",
-    "right",
-    "right",
-    "down",
-    "left"
+    "down"
   ],
   "canonicalWord": "élida"
 }

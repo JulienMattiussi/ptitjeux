@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    2
+    6,
+    4
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      7,
-      2
-    ],
-    [
-      4,
-      6
-    ],
-    [
-      3,
-      5
-    ],
-    [
-      2,
-      5
     ]
   ],
   "ice": [],
@@ -151,23 +135,23 @@
       "id": "b1",
       "letter": "N",
       "pos": [
-        2,
-        2
+        3,
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "O",
       "pos": [
-        3,
-        3
+        2,
+        4
       ]
     },
     {
       "id": "b3",
       "letter": "P",
       "pos": [
-        5,
+        4,
         3
       ]
     },
@@ -175,7 +159,7 @@
       "id": "b4",
       "letter": "A",
       "pos": [
-        6,
+        5,
         4
       ]
     },
@@ -183,8 +167,8 @@
       "id": "b5",
       "letter": "I",
       "pos": [
-        7,
-        4
+        5,
+        5
       ]
     }
   ],
@@ -192,42 +176,52 @@
     "word": "NOPAI",
     "cells": [
       [
+        2,
+        1
+      ],
+      [
         3,
         2
       ],
       [
         4,
+        2
+      ],
+      [
+        5,
         3
       ],
       [
         5,
-        2
-      ],
-      [
-        6,
-        3
-      ],
-      [
-        7,
-        3
+        4
       ]
     ]
   },
-  "parMoves": 16,
+  "parMoves": 26,
   "solution": [
+    "down",
+    "left",
+    "up",
+    "down",
+    "down",
+    "left",
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "left",
+    "up",
     "right",
     "down",
-    "right",
     "down",
     "right",
     "right",
     "up",
+    "left",
     "down",
-    "down",
-    "right",
+    "left",
     "up",
-    "down",
-    "right",
     "up"
   ],
   "canonicalWord": "nopai"

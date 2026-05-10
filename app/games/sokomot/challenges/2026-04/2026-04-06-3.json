@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    5
+    4,
+    4
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      7,
-      1
-    ],
-    [
-      7,
-      4
-    ],
-    [
-      4,
-      2
-    ],
-    [
-      1,
-      2
     ]
   ],
   "ice": [],
@@ -151,8 +135,8 @@
       "id": "b1",
       "letter": "O",
       "pos": [
-        2,
-        4
+        4,
+        3
       ]
     },
     {
@@ -160,31 +144,31 @@
       "letter": "Y",
       "pos": [
         3,
-        4
+        3
       ]
     },
     {
       "id": "b3",
       "letter": "A",
       "pos": [
-        5,
-        3
+        4,
+        5
       ]
     },
     {
       "id": "b4",
       "letter": "I",
       "pos": [
-        5,
-        5
+        3,
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "S",
       "pos": [
-        6,
-        5
+        5,
+        4
       ]
     }
   ],
@@ -193,46 +177,51 @@
     "cells": [
       [
         2,
+        2
+      ],
+      [
+        2,
         3
       ],
       [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        5,
+        2,
         4
       ],
       [
-        6,
+        3,
+        5
+      ],
+      [
+        4,
         4
       ]
     ]
   },
-  "parMoves": 20,
+  "parMoves": 25,
   "solution": [
     "up",
-    "down",
-    "right",
-    "up",
-    "right",
-    "right",
-    "right",
-    "up",
     "left",
     "down",
     "left",
     "down",
     "down",
     "right",
-    "up",
-    "down",
     "right",
-    "up"
+    "up",
+    "right",
+    "up",
+    "left",
+    "left",
+    "right",
+    "right",
+    "right",
+    "up",
+    "left",
+    "up",
+    "left",
+    "left",
+    "right",
+    "down"
   ],
   "canonicalWord": "oyais"
 }

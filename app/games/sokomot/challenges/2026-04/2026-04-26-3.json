@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    2
+    5,
+    3
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      6,
-      5
-    ],
-    [
-      2,
-      6
-    ],
-    [
-      2,
-      1
-    ],
-    [
-      1,
-      5
     ]
   ],
   "ice": [],
@@ -151,32 +135,32 @@
       "id": "b1",
       "letter": "B",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "E",
       "pos": [
-        5,
-        2
+        2,
+        4
       ]
     },
     {
       "id": "b3",
       "letter": "I",
       "pos": [
-        6,
-        3
+        5,
+        5
       ]
     },
     {
       "id": "b4",
       "letter": "G",
       "pos": [
-        7,
-        4
+        6,
+        2
       ]
     },
     {
@@ -184,7 +168,7 @@
       "letter": "E",
       "pos": [
         6,
-        6
+        3
       ]
     }
   ],
@@ -196,49 +180,53 @@
         2
       ],
       [
-        5,
+        4,
         3
       ],
       [
-        6,
+        5,
         4
       ],
       [
-        7,
-        5
+        6,
+        3
       ],
       [
         7,
-        6
+        3
       ]
     ]
   },
-  "parMoves": 26,
+  "parMoves": 30,
   "solution": [
     "right",
-    "up",
-    "right",
-    "right",
     "down",
-    "right",
     "down",
-    "right",
     "down",
-    "up",
-    "up",
+    "left",
     "up",
     "left",
     "left",
     "left",
     "left",
-    "down",
-    "down",
-    "down",
-    "down",
+    "up",
+    "right",
     "down",
     "right",
+    "up",
+    "left",
+    "up",
     "right",
-    "right"
+    "left",
+    "left",
+    "up",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down"
   ],
   "canonicalWord": "beige"
 }

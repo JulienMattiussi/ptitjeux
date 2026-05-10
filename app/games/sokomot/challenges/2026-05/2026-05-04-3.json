@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    1
+    4,
+    2
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      7,
-      6
-    ],
-    [
-      2,
-      4
-    ],
-    [
-      7,
-      4
-    ],
-    [
-      2,
-      5
     ]
   ],
   "ice": [],
@@ -152,14 +136,14 @@
       "letter": "D",
       "pos": [
         2,
-        1
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "E",
       "pos": [
-        4,
+        3,
         2
       ]
     },
@@ -167,8 +151,8 @@
       "id": "b3",
       "letter": "V",
       "pos": [
-        6,
-        1
+        4,
+        4
       ]
     },
     {
@@ -176,7 +160,7 @@
       "letter": "R",
       "pos": [
         6,
-        2
+        4
       ]
     },
     {
@@ -184,13 +168,17 @@
       "letter": "A",
       "pos": [
         5,
-        4
+        2
       ]
     }
   ],
   "target": {
     "word": "DEVRA",
     "cells": [
+      [
+        2,
+        2
+      ],
       [
         3,
         1
@@ -201,37 +189,35 @@
       ],
       [
         5,
-        1
-      ],
-      [
-        5,
         2
       ],
       [
-        5,
-        3
+        6,
+        2
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 25,
   "solution": [
     "right",
     "down",
-    "down",
     "right",
-    "right",
-    "up",
-    "down",
-    "right",
-    "right",
-    "right",
-    "up",
-    "up",
-    "left",
     "right",
     "down",
     "left",
     "down",
+    "left",
+    "up",
+    "up",
+    "down",
+    "down",
+    "left",
+    "up",
+    "up",
+    "up",
+    "down",
+    "left",
+    "up",
     "down",
     "down",
     "left",

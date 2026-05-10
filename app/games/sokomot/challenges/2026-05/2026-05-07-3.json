@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    3
+    4,
+    1
   ],
   "walls": [
     [
@@ -127,22 +127,6 @@
     [
       8,
       6
-    ],
-    [
-      7,
-      6
-    ],
-    [
-      1,
-      1
-    ],
-    [
-      6,
-      1
-    ],
-    [
-      2,
-      4
     ]
   ],
   "ice": [],
@@ -151,8 +135,8 @@
       "id": "b1",
       "letter": "A",
       "pos": [
-        3,
-        3
+        2,
+        4
       ]
     },
     {
@@ -160,14 +144,14 @@
       "letter": "M",
       "pos": [
         4,
-        5
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "P",
       "pos": [
-        5,
+        2,
         3
       ]
     },
@@ -175,16 +159,16 @@
       "id": "b4",
       "letter": "L",
       "pos": [
-        6,
-        4
+        5,
+        5
       ]
     },
     {
       "id": "b5",
       "letter": "I",
       "pos": [
-        7,
-        4
+        6,
+        3
       ]
     }
   ],
@@ -192,47 +176,56 @@
     "word": "AMPLI",
     "cells": [
       [
-        4,
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
         3
       ],
       [
         4,
-        4
+        3
       ],
       [
         5,
-        4
-      ],
-      [
-        6,
-        5
-      ],
-      [
-        7,
-        5
+        3
       ]
     ]
   },
-  "parMoves": 20,
+  "parMoves": 29,
   "solution": [
     "right",
     "down",
-    "down",
-    "down",
+    "left",
     "right",
-    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "down",
+    "left",
+    "down",
     "left",
     "up",
     "up",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up",
     "up",
     "right",
-    "right",
+    "left",
+    "down",
     "down",
     "right",
-    "down",
-    "up",
-    "right",
-    "down"
+    "up"
   ],
   "canonicalWord": "ampli"
 }

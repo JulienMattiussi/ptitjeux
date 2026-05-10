@@ -2,6 +2,9 @@ import { renderHook } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { readGameProgress } from '~/lib/localStorage'
+import { todayString } from '~/lib/dates'
+
+const TODAY = todayString()
 
 describe('useLevelPlayLifecycle', () => {
   beforeEach(() => {
@@ -11,13 +14,13 @@ describe('useLevelPlayLifecycle', () => {
     window.localStorage.clear()
   })
 
-  it('isToday=true quand date == lastAvailableDate', () => {
+  it("isToday=true quand date == aujourd'hui (lastAvailableDate aussi)", () => {
     const { result } = renderHook(() =>
       useLevelPlayLifecycle({
         gameId: 'sokomot',
-        date: '2026-05-08',
+        date: TODAY,
         idx: 1,
-        lastAvailableDate: '2026-05-08',
+        lastAvailableDate: TODAY,
         won: false,
         moves: 0,
       }),

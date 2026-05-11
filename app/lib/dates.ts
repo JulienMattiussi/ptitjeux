@@ -5,6 +5,23 @@ export type DateString = string
 
 const PAD = (n: number) => n.toString().padStart(2, '0')
 
+const MONTHS_FR = [
+  'janvier',
+  'février',
+  'mars',
+  'avril',
+  'mai',
+  'juin',
+  'juillet',
+  'août',
+  'septembre',
+  'octobre',
+  'novembre',
+  'décembre',
+]
+
+const DAYS_FR_SHORT = ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.']
+
 export function formatDate(d: Date): DateString {
   return `${d.getFullYear()}-${PAD(d.getMonth() + 1)}-${PAD(d.getDate())}`
 }
@@ -60,48 +77,19 @@ export function monthKey(date: DateString): string {
 /** Étiquette française d'un mois `YYYY-MM`. */
 export function monthLabel(key: string): string {
   const [y, m] = key.split('-').map(Number)
-  const months = [
-    'janvier',
-    'février',
-    'mars',
-    'avril',
-    'mai',
-    'juin',
-    'juillet',
-    'août',
-    'septembre',
-    'octobre',
-    'novembre',
-    'décembre',
-  ]
-  return `${months[m - 1]} ${y}`
+  return `${MONTHS_FR[m - 1]} ${y}`
 }
 
 /** Étiquette française courte d'une date complète. Ex. « 7 mai 2026 ». */
 export function dateLabel(date: DateString): string {
   const d = parseDate(date)
-  const months = [
-    'janvier',
-    'février',
-    'mars',
-    'avril',
-    'mai',
-    'juin',
-    'juillet',
-    'août',
-    'septembre',
-    'octobre',
-    'novembre',
-    'décembre',
-  ]
-  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`
+  return `${d.getDate()} ${MONTHS_FR[d.getMonth()]} ${d.getFullYear()}`
 }
 
 /** Étiquette compacte « ven. 07 ». */
 export function dateLabelShort(date: DateString): string {
   const d = parseDate(date)
-  const days = ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.']
-  return `${days[d.getDay()]} ${PAD(d.getDate())}`
+  return `${DAYS_FR_SHORT[d.getDay()]} ${PAD(d.getDate())}`
 }
 
 /** Énumère les dates inclusives entre `start` et `end`. */

@@ -1,0 +1,2044 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for generators/curated-themes-l1.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">generators</a> curated-themes-l1.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a>
+<a name='L153'></a><a href='#L153'>153</a>
+<a name='L154'></a><a href='#L154'>154</a>
+<a name='L155'></a><a href='#L155'>155</a>
+<a name='L156'></a><a href='#L156'>156</a>
+<a name='L157'></a><a href='#L157'>157</a>
+<a name='L158'></a><a href='#L158'>158</a>
+<a name='L159'></a><a href='#L159'>159</a>
+<a name='L160'></a><a href='#L160'>160</a>
+<a name='L161'></a><a href='#L161'>161</a>
+<a name='L162'></a><a href='#L162'>162</a>
+<a name='L163'></a><a href='#L163'>163</a>
+<a name='L164'></a><a href='#L164'>164</a>
+<a name='L165'></a><a href='#L165'>165</a>
+<a name='L166'></a><a href='#L166'>166</a>
+<a name='L167'></a><a href='#L167'>167</a>
+<a name='L168'></a><a href='#L168'>168</a>
+<a name='L169'></a><a href='#L169'>169</a>
+<a name='L170'></a><a href='#L170'>170</a>
+<a name='L171'></a><a href='#L171'>171</a>
+<a name='L172'></a><a href='#L172'>172</a>
+<a name='L173'></a><a href='#L173'>173</a>
+<a name='L174'></a><a href='#L174'>174</a>
+<a name='L175'></a><a href='#L175'>175</a>
+<a name='L176'></a><a href='#L176'>176</a>
+<a name='L177'></a><a href='#L177'>177</a>
+<a name='L178'></a><a href='#L178'>178</a>
+<a name='L179'></a><a href='#L179'>179</a>
+<a name='L180'></a><a href='#L180'>180</a>
+<a name='L181'></a><a href='#L181'>181</a>
+<a name='L182'></a><a href='#L182'>182</a>
+<a name='L183'></a><a href='#L183'>183</a>
+<a name='L184'></a><a href='#L184'>184</a>
+<a name='L185'></a><a href='#L185'>185</a>
+<a name='L186'></a><a href='#L186'>186</a>
+<a name='L187'></a><a href='#L187'>187</a>
+<a name='L188'></a><a href='#L188'>188</a>
+<a name='L189'></a><a href='#L189'>189</a>
+<a name='L190'></a><a href='#L190'>190</a>
+<a name='L191'></a><a href='#L191'>191</a>
+<a name='L192'></a><a href='#L192'>192</a>
+<a name='L193'></a><a href='#L193'>193</a>
+<a name='L194'></a><a href='#L194'>194</a>
+<a name='L195'></a><a href='#L195'>195</a>
+<a name='L196'></a><a href='#L196'>196</a>
+<a name='L197'></a><a href='#L197'>197</a>
+<a name='L198'></a><a href='#L198'>198</a>
+<a name='L199'></a><a href='#L199'>199</a>
+<a name='L200'></a><a href='#L200'>200</a>
+<a name='L201'></a><a href='#L201'>201</a>
+<a name='L202'></a><a href='#L202'>202</a>
+<a name='L203'></a><a href='#L203'>203</a>
+<a name='L204'></a><a href='#L204'>204</a>
+<a name='L205'></a><a href='#L205'>205</a>
+<a name='L206'></a><a href='#L206'>206</a>
+<a name='L207'></a><a href='#L207'>207</a>
+<a name='L208'></a><a href='#L208'>208</a>
+<a name='L209'></a><a href='#L209'>209</a>
+<a name='L210'></a><a href='#L210'>210</a>
+<a name='L211'></a><a href='#L211'>211</a>
+<a name='L212'></a><a href='#L212'>212</a>
+<a name='L213'></a><a href='#L213'>213</a>
+<a name='L214'></a><a href='#L214'>214</a>
+<a name='L215'></a><a href='#L215'>215</a>
+<a name='L216'></a><a href='#L216'>216</a>
+<a name='L217'></a><a href='#L217'>217</a>
+<a name='L218'></a><a href='#L218'>218</a>
+<a name='L219'></a><a href='#L219'>219</a>
+<a name='L220'></a><a href='#L220'>220</a>
+<a name='L221'></a><a href='#L221'>221</a>
+<a name='L222'></a><a href='#L222'>222</a>
+<a name='L223'></a><a href='#L223'>223</a>
+<a name='L224'></a><a href='#L224'>224</a>
+<a name='L225'></a><a href='#L225'>225</a>
+<a name='L226'></a><a href='#L226'>226</a>
+<a name='L227'></a><a href='#L227'>227</a>
+<a name='L228'></a><a href='#L228'>228</a>
+<a name='L229'></a><a href='#L229'>229</a>
+<a name='L230'></a><a href='#L230'>230</a>
+<a name='L231'></a><a href='#L231'>231</a>
+<a name='L232'></a><a href='#L232'>232</a>
+<a name='L233'></a><a href='#L233'>233</a>
+<a name='L234'></a><a href='#L234'>234</a>
+<a name='L235'></a><a href='#L235'>235</a>
+<a name='L236'></a><a href='#L236'>236</a>
+<a name='L237'></a><a href='#L237'>237</a>
+<a name='L238'></a><a href='#L238'>238</a>
+<a name='L239'></a><a href='#L239'>239</a>
+<a name='L240'></a><a href='#L240'>240</a>
+<a name='L241'></a><a href='#L241'>241</a>
+<a name='L242'></a><a href='#L242'>242</a>
+<a name='L243'></a><a href='#L243'>243</a>
+<a name='L244'></a><a href='#L244'>244</a>
+<a name='L245'></a><a href='#L245'>245</a>
+<a name='L246'></a><a href='#L246'>246</a>
+<a name='L247'></a><a href='#L247'>247</a>
+<a name='L248'></a><a href='#L248'>248</a>
+<a name='L249'></a><a href='#L249'>249</a>
+<a name='L250'></a><a href='#L250'>250</a>
+<a name='L251'></a><a href='#L251'>251</a>
+<a name='L252'></a><a href='#L252'>252</a>
+<a name='L253'></a><a href='#L253'>253</a>
+<a name='L254'></a><a href='#L254'>254</a>
+<a name='L255'></a><a href='#L255'>255</a>
+<a name='L256'></a><a href='#L256'>256</a>
+<a name='L257'></a><a href='#L257'>257</a>
+<a name='L258'></a><a href='#L258'>258</a>
+<a name='L259'></a><a href='#L259'>259</a>
+<a name='L260'></a><a href='#L260'>260</a>
+<a name='L261'></a><a href='#L261'>261</a>
+<a name='L262'></a><a href='#L262'>262</a>
+<a name='L263'></a><a href='#L263'>263</a>
+<a name='L264'></a><a href='#L264'>264</a>
+<a name='L265'></a><a href='#L265'>265</a>
+<a name='L266'></a><a href='#L266'>266</a>
+<a name='L267'></a><a href='#L267'>267</a>
+<a name='L268'></a><a href='#L268'>268</a>
+<a name='L269'></a><a href='#L269'>269</a>
+<a name='L270'></a><a href='#L270'>270</a>
+<a name='L271'></a><a href='#L271'>271</a>
+<a name='L272'></a><a href='#L272'>272</a>
+<a name='L273'></a><a href='#L273'>273</a>
+<a name='L274'></a><a href='#L274'>274</a>
+<a name='L275'></a><a href='#L275'>275</a>
+<a name='L276'></a><a href='#L276'>276</a>
+<a name='L277'></a><a href='#L277'>277</a>
+<a name='L278'></a><a href='#L278'>278</a>
+<a name='L279'></a><a href='#L279'>279</a>
+<a name='L280'></a><a href='#L280'>280</a>
+<a name='L281'></a><a href='#L281'>281</a>
+<a name='L282'></a><a href='#L282'>282</a>
+<a name='L283'></a><a href='#L283'>283</a>
+<a name='L284'></a><a href='#L284'>284</a>
+<a name='L285'></a><a href='#L285'>285</a>
+<a name='L286'></a><a href='#L286'>286</a>
+<a name='L287'></a><a href='#L287'>287</a>
+<a name='L288'></a><a href='#L288'>288</a>
+<a name='L289'></a><a href='#L289'>289</a>
+<a name='L290'></a><a href='#L290'>290</a>
+<a name='L291'></a><a href='#L291'>291</a>
+<a name='L292'></a><a href='#L292'>292</a>
+<a name='L293'></a><a href='#L293'>293</a>
+<a name='L294'></a><a href='#L294'>294</a>
+<a name='L295'></a><a href='#L295'>295</a>
+<a name='L296'></a><a href='#L296'>296</a>
+<a name='L297'></a><a href='#L297'>297</a>
+<a name='L298'></a><a href='#L298'>298</a>
+<a name='L299'></a><a href='#L299'>299</a>
+<a name='L300'></a><a href='#L300'>300</a>
+<a name='L301'></a><a href='#L301'>301</a>
+<a name='L302'></a><a href='#L302'>302</a>
+<a name='L303'></a><a href='#L303'>303</a>
+<a name='L304'></a><a href='#L304'>304</a>
+<a name='L305'></a><a href='#L305'>305</a>
+<a name='L306'></a><a href='#L306'>306</a>
+<a name='L307'></a><a href='#L307'>307</a>
+<a name='L308'></a><a href='#L308'>308</a>
+<a name='L309'></a><a href='#L309'>309</a>
+<a name='L310'></a><a href='#L310'>310</a>
+<a name='L311'></a><a href='#L311'>311</a>
+<a name='L312'></a><a href='#L312'>312</a>
+<a name='L313'></a><a href='#L313'>313</a>
+<a name='L314'></a><a href='#L314'>314</a>
+<a name='L315'></a><a href='#L315'>315</a>
+<a name='L316'></a><a href='#L316'>316</a>
+<a name='L317'></a><a href='#L317'>317</a>
+<a name='L318'></a><a href='#L318'>318</a>
+<a name='L319'></a><a href='#L319'>319</a>
+<a name='L320'></a><a href='#L320'>320</a>
+<a name='L321'></a><a href='#L321'>321</a>
+<a name='L322'></a><a href='#L322'>322</a>
+<a name='L323'></a><a href='#L323'>323</a>
+<a name='L324'></a><a href='#L324'>324</a>
+<a name='L325'></a><a href='#L325'>325</a>
+<a name='L326'></a><a href='#L326'>326</a>
+<a name='L327'></a><a href='#L327'>327</a>
+<a name='L328'></a><a href='#L328'>328</a>
+<a name='L329'></a><a href='#L329'>329</a>
+<a name='L330'></a><a href='#L330'>330</a>
+<a name='L331'></a><a href='#L331'>331</a>
+<a name='L332'></a><a href='#L332'>332</a>
+<a name='L333'></a><a href='#L333'>333</a>
+<a name='L334'></a><a href='#L334'>334</a>
+<a name='L335'></a><a href='#L335'>335</a>
+<a name='L336'></a><a href='#L336'>336</a>
+<a name='L337'></a><a href='#L337'>337</a>
+<a name='L338'></a><a href='#L338'>338</a>
+<a name='L339'></a><a href='#L339'>339</a>
+<a name='L340'></a><a href='#L340'>340</a>
+<a name='L341'></a><a href='#L341'>341</a>
+<a name='L342'></a><a href='#L342'>342</a>
+<a name='L343'></a><a href='#L343'>343</a>
+<a name='L344'></a><a href='#L344'>344</a>
+<a name='L345'></a><a href='#L345'>345</a>
+<a name='L346'></a><a href='#L346'>346</a>
+<a name='L347'></a><a href='#L347'>347</a>
+<a name='L348'></a><a href='#L348'>348</a>
+<a name='L349'></a><a href='#L349'>349</a>
+<a name='L350'></a><a href='#L350'>350</a>
+<a name='L351'></a><a href='#L351'>351</a>
+<a name='L352'></a><a href='#L352'>352</a>
+<a name='L353'></a><a href='#L353'>353</a>
+<a name='L354'></a><a href='#L354'>354</a>
+<a name='L355'></a><a href='#L355'>355</a>
+<a name='L356'></a><a href='#L356'>356</a>
+<a name='L357'></a><a href='#L357'>357</a>
+<a name='L358'></a><a href='#L358'>358</a>
+<a name='L359'></a><a href='#L359'>359</a>
+<a name='L360'></a><a href='#L360'>360</a>
+<a name='L361'></a><a href='#L361'>361</a>
+<a name='L362'></a><a href='#L362'>362</a>
+<a name='L363'></a><a href='#L363'>363</a>
+<a name='L364'></a><a href='#L364'>364</a>
+<a name='L365'></a><a href='#L365'>365</a>
+<a name='L366'></a><a href='#L366'>366</a>
+<a name='L367'></a><a href='#L367'>367</a>
+<a name='L368'></a><a href='#L368'>368</a>
+<a name='L369'></a><a href='#L369'>369</a>
+<a name='L370'></a><a href='#L370'>370</a>
+<a name='L371'></a><a href='#L371'>371</a>
+<a name='L372'></a><a href='#L372'>372</a>
+<a name='L373'></a><a href='#L373'>373</a>
+<a name='L374'></a><a href='#L374'>374</a>
+<a name='L375'></a><a href='#L375'>375</a>
+<a name='L376'></a><a href='#L376'>376</a>
+<a name='L377'></a><a href='#L377'>377</a>
+<a name='L378'></a><a href='#L378'>378</a>
+<a name='L379'></a><a href='#L379'>379</a>
+<a name='L380'></a><a href='#L380'>380</a>
+<a name='L381'></a><a href='#L381'>381</a>
+<a name='L382'></a><a href='#L382'>382</a>
+<a name='L383'></a><a href='#L383'>383</a>
+<a name='L384'></a><a href='#L384'>384</a>
+<a name='L385'></a><a href='#L385'>385</a>
+<a name='L386'></a><a href='#L386'>386</a>
+<a name='L387'></a><a href='#L387'>387</a>
+<a name='L388'></a><a href='#L388'>388</a>
+<a name='L389'></a><a href='#L389'>389</a>
+<a name='L390'></a><a href='#L390'>390</a>
+<a name='L391'></a><a href='#L391'>391</a>
+<a name='L392'></a><a href='#L392'>392</a>
+<a name='L393'></a><a href='#L393'>393</a>
+<a name='L394'></a><a href='#L394'>394</a>
+<a name='L395'></a><a href='#L395'>395</a>
+<a name='L396'></a><a href='#L396'>396</a>
+<a name='L397'></a><a href='#L397'>397</a>
+<a name='L398'></a><a href='#L398'>398</a>
+<a name='L399'></a><a href='#L399'>399</a>
+<a name='L400'></a><a href='#L400'>400</a>
+<a name='L401'></a><a href='#L401'>401</a>
+<a name='L402'></a><a href='#L402'>402</a>
+<a name='L403'></a><a href='#L403'>403</a>
+<a name='L404'></a><a href='#L404'>404</a>
+<a name='L405'></a><a href='#L405'>405</a>
+<a name='L406'></a><a href='#L406'>406</a>
+<a name='L407'></a><a href='#L407'>407</a>
+<a name='L408'></a><a href='#L408'>408</a>
+<a name='L409'></a><a href='#L409'>409</a>
+<a name='L410'></a><a href='#L410'>410</a>
+<a name='L411'></a><a href='#L411'>411</a>
+<a name='L412'></a><a href='#L412'>412</a>
+<a name='L413'></a><a href='#L413'>413</a>
+<a name='L414'></a><a href='#L414'>414</a>
+<a name='L415'></a><a href='#L415'>415</a>
+<a name='L416'></a><a href='#L416'>416</a>
+<a name='L417'></a><a href='#L417'>417</a>
+<a name='L418'></a><a href='#L418'>418</a>
+<a name='L419'></a><a href='#L419'>419</a>
+<a name='L420'></a><a href='#L420'>420</a>
+<a name='L421'></a><a href='#L421'>421</a>
+<a name='L422'></a><a href='#L422'>422</a>
+<a name='L423'></a><a href='#L423'>423</a>
+<a name='L424'></a><a href='#L424'>424</a>
+<a name='L425'></a><a href='#L425'>425</a>
+<a name='L426'></a><a href='#L426'>426</a>
+<a name='L427'></a><a href='#L427'>427</a>
+<a name='L428'></a><a href='#L428'>428</a>
+<a name='L429'></a><a href='#L429'>429</a>
+<a name='L430'></a><a href='#L430'>430</a>
+<a name='L431'></a><a href='#L431'>431</a>
+<a name='L432'></a><a href='#L432'>432</a>
+<a name='L433'></a><a href='#L433'>433</a>
+<a name='L434'></a><a href='#L434'>434</a>
+<a name='L435'></a><a href='#L435'>435</a>
+<a name='L436'></a><a href='#L436'>436</a>
+<a name='L437'></a><a href='#L437'>437</a>
+<a name='L438'></a><a href='#L438'>438</a>
+<a name='L439'></a><a href='#L439'>439</a>
+<a name='L440'></a><a href='#L440'>440</a>
+<a name='L441'></a><a href='#L441'>441</a>
+<a name='L442'></a><a href='#L442'>442</a>
+<a name='L443'></a><a href='#L443'>443</a>
+<a name='L444'></a><a href='#L444'>444</a>
+<a name='L445'></a><a href='#L445'>445</a>
+<a name='L446'></a><a href='#L446'>446</a>
+<a name='L447'></a><a href='#L447'>447</a>
+<a name='L448'></a><a href='#L448'>448</a>
+<a name='L449'></a><a href='#L449'>449</a>
+<a name='L450'></a><a href='#L450'>450</a>
+<a name='L451'></a><a href='#L451'>451</a>
+<a name='L452'></a><a href='#L452'>452</a>
+<a name='L453'></a><a href='#L453'>453</a>
+<a name='L454'></a><a href='#L454'>454</a>
+<a name='L455'></a><a href='#L455'>455</a>
+<a name='L456'></a><a href='#L456'>456</a>
+<a name='L457'></a><a href='#L457'>457</a>
+<a name='L458'></a><a href='#L458'>458</a>
+<a name='L459'></a><a href='#L459'>459</a>
+<a name='L460'></a><a href='#L460'>460</a>
+<a name='L461'></a><a href='#L461'>461</a>
+<a name='L462'></a><a href='#L462'>462</a>
+<a name='L463'></a><a href='#L463'>463</a>
+<a name='L464'></a><a href='#L464'>464</a>
+<a name='L465'></a><a href='#L465'>465</a>
+<a name='L466'></a><a href='#L466'>466</a>
+<a name='L467'></a><a href='#L467'>467</a>
+<a name='L468'></a><a href='#L468'>468</a>
+<a name='L469'></a><a href='#L469'>469</a>
+<a name='L470'></a><a href='#L470'>470</a>
+<a name='L471'></a><a href='#L471'>471</a>
+<a name='L472'></a><a href='#L472'>472</a>
+<a name='L473'></a><a href='#L473'>473</a>
+<a name='L474'></a><a href='#L474'>474</a>
+<a name='L475'></a><a href='#L475'>475</a>
+<a name='L476'></a><a href='#L476'>476</a>
+<a name='L477'></a><a href='#L477'>477</a>
+<a name='L478'></a><a href='#L478'>478</a>
+<a name='L479'></a><a href='#L479'>479</a>
+<a name='L480'></a><a href='#L480'>480</a>
+<a name='L481'></a><a href='#L481'>481</a>
+<a name='L482'></a><a href='#L482'>482</a>
+<a name='L483'></a><a href='#L483'>483</a>
+<a name='L484'></a><a href='#L484'>484</a>
+<a name='L485'></a><a href='#L485'>485</a>
+<a name='L486'></a><a href='#L486'>486</a>
+<a name='L487'></a><a href='#L487'>487</a>
+<a name='L488'></a><a href='#L488'>488</a>
+<a name='L489'></a><a href='#L489'>489</a>
+<a name='L490'></a><a href='#L490'>490</a>
+<a name='L491'></a><a href='#L491'>491</a>
+<a name='L492'></a><a href='#L492'>492</a>
+<a name='L493'></a><a href='#L493'>493</a>
+<a name='L494'></a><a href='#L494'>494</a>
+<a name='L495'></a><a href='#L495'>495</a>
+<a name='L496'></a><a href='#L496'>496</a>
+<a name='L497'></a><a href='#L497'>497</a>
+<a name='L498'></a><a href='#L498'>498</a>
+<a name='L499'></a><a href='#L499'>499</a>
+<a name='L500'></a><a href='#L500'>500</a>
+<a name='L501'></a><a href='#L501'>501</a>
+<a name='L502'></a><a href='#L502'>502</a>
+<a name='L503'></a><a href='#L503'>503</a>
+<a name='L504'></a><a href='#L504'>504</a>
+<a name='L505'></a><a href='#L505'>505</a>
+<a name='L506'></a><a href='#L506'>506</a>
+<a name='L507'></a><a href='#L507'>507</a>
+<a name='L508'></a><a href='#L508'>508</a>
+<a name='L509'></a><a href='#L509'>509</a>
+<a name='L510'></a><a href='#L510'>510</a>
+<a name='L511'></a><a href='#L511'>511</a>
+<a name='L512'></a><a href='#L512'>512</a>
+<a name='L513'></a><a href='#L513'>513</a>
+<a name='L514'></a><a href='#L514'>514</a>
+<a name='L515'></a><a href='#L515'>515</a>
+<a name='L516'></a><a href='#L516'>516</a>
+<a name='L517'></a><a href='#L517'>517</a>
+<a name='L518'></a><a href='#L518'>518</a>
+<a name='L519'></a><a href='#L519'>519</a>
+<a name='L520'></a><a href='#L520'>520</a>
+<a name='L521'></a><a href='#L521'>521</a>
+<a name='L522'></a><a href='#L522'>522</a>
+<a name='L523'></a><a href='#L523'>523</a>
+<a name='L524'></a><a href='#L524'>524</a>
+<a name='L525'></a><a href='#L525'>525</a>
+<a name='L526'></a><a href='#L526'>526</a>
+<a name='L527'></a><a href='#L527'>527</a>
+<a name='L528'></a><a href='#L528'>528</a>
+<a name='L529'></a><a href='#L529'>529</a>
+<a name='L530'></a><a href='#L530'>530</a>
+<a name='L531'></a><a href='#L531'>531</a>
+<a name='L532'></a><a href='#L532'>532</a>
+<a name='L533'></a><a href='#L533'>533</a>
+<a name='L534'></a><a href='#L534'>534</a>
+<a name='L535'></a><a href='#L535'>535</a>
+<a name='L536'></a><a href='#L536'>536</a>
+<a name='L537'></a><a href='#L537'>537</a>
+<a name='L538'></a><a href='#L538'>538</a>
+<a name='L539'></a><a href='#L539'>539</a>
+<a name='L540'></a><a href='#L540'>540</a>
+<a name='L541'></a><a href='#L541'>541</a>
+<a name='L542'></a><a href='#L542'>542</a>
+<a name='L543'></a><a href='#L543'>543</a>
+<a name='L544'></a><a href='#L544'>544</a>
+<a name='L545'></a><a href='#L545'>545</a>
+<a name='L546'></a><a href='#L546'>546</a>
+<a name='L547'></a><a href='#L547'>547</a>
+<a name='L548'></a><a href='#L548'>548</a>
+<a name='L549'></a><a href='#L549'>549</a>
+<a name='L550'></a><a href='#L550'>550</a>
+<a name='L551'></a><a href='#L551'>551</a>
+<a name='L552'></a><a href='#L552'>552</a>
+<a name='L553'></a><a href='#L553'>553</a>
+<a name='L554'></a><a href='#L554'>554</a>
+<a name='L555'></a><a href='#L555'>555</a>
+<a name='L556'></a><a href='#L556'>556</a>
+<a name='L557'></a><a href='#L557'>557</a>
+<a name='L558'></a><a href='#L558'>558</a>
+<a name='L559'></a><a href='#L559'>559</a>
+<a name='L560'></a><a href='#L560'>560</a>
+<a name='L561'></a><a href='#L561'>561</a>
+<a name='L562'></a><a href='#L562'>562</a>
+<a name='L563'></a><a href='#L563'>563</a>
+<a name='L564'></a><a href='#L564'>564</a>
+<a name='L565'></a><a href='#L565'>565</a>
+<a name='L566'></a><a href='#L566'>566</a>
+<a name='L567'></a><a href='#L567'>567</a>
+<a name='L568'></a><a href='#L568'>568</a>
+<a name='L569'></a><a href='#L569'>569</a>
+<a name='L570'></a><a href='#L570'>570</a>
+<a name='L571'></a><a href='#L571'>571</a>
+<a name='L572'></a><a href='#L572'>572</a>
+<a name='L573'></a><a href='#L573'>573</a>
+<a name='L574'></a><a href='#L574'>574</a>
+<a name='L575'></a><a href='#L575'>575</a>
+<a name='L576'></a><a href='#L576'>576</a>
+<a name='L577'></a><a href='#L577'>577</a>
+<a name='L578'></a><a href='#L578'>578</a>
+<a name='L579'></a><a href='#L579'>579</a>
+<a name='L580'></a><a href='#L580'>580</a>
+<a name='L581'></a><a href='#L581'>581</a>
+<a name='L582'></a><a href='#L582'>582</a>
+<a name='L583'></a><a href='#L583'>583</a>
+<a name='L584'></a><a href='#L584'>584</a>
+<a name='L585'></a><a href='#L585'>585</a>
+<a name='L586'></a><a href='#L586'>586</a>
+<a name='L587'></a><a href='#L587'>587</a>
+<a name='L588'></a><a href='#L588'>588</a>
+<a name='L589'></a><a href='#L589'>589</a>
+<a name='L590'></a><a href='#L590'>590</a>
+<a name='L591'></a><a href='#L591'>591</a>
+<a name='L592'></a><a href='#L592'>592</a>
+<a name='L593'></a><a href='#L593'>593</a>
+<a name='L594'></a><a href='#L594'>594</a>
+<a name='L595'></a><a href='#L595'>595</a>
+<a name='L596'></a><a href='#L596'>596</a>
+<a name='L597'></a><a href='#L597'>597</a>
+<a name='L598'></a><a href='#L598'>598</a>
+<a name='L599'></a><a href='#L599'>599</a>
+<a name='L600'></a><a href='#L600'>600</a>
+<a name='L601'></a><a href='#L601'>601</a>
+<a name='L602'></a><a href='#L602'>602</a>
+<a name='L603'></a><a href='#L603'>603</a>
+<a name='L604'></a><a href='#L604'>604</a>
+<a name='L605'></a><a href='#L605'>605</a>
+<a name='L606'></a><a href='#L606'>606</a>
+<a name='L607'></a><a href='#L607'>607</a>
+<a name='L608'></a><a href='#L608'>608</a>
+<a name='L609'></a><a href='#L609'>609</a>
+<a name='L610'></a><a href='#L610'>610</a>
+<a name='L611'></a><a href='#L611'>611</a>
+<a name='L612'></a><a href='#L612'>612</a>
+<a name='L613'></a><a href='#L613'>613</a>
+<a name='L614'></a><a href='#L614'>614</a>
+<a name='L615'></a><a href='#L615'>615</a>
+<a name='L616'></a><a href='#L616'>616</a>
+<a name='L617'></a><a href='#L617'>617</a>
+<a name='L618'></a><a href='#L618'>618</a>
+<a name='L619'></a><a href='#L619'>619</a>
+<a name='L620'></a><a href='#L620'>620</a>
+<a name='L621'></a><a href='#L621'>621</a>
+<a name='L622'></a><a href='#L622'>622</a>
+<a name='L623'></a><a href='#L623'>623</a>
+<a name='L624'></a><a href='#L624'>624</a>
+<a name='L625'></a><a href='#L625'>625</a>
+<a name='L626'></a><a href='#L626'>626</a>
+<a name='L627'></a><a href='#L627'>627</a>
+<a name='L628'></a><a href='#L628'>628</a>
+<a name='L629'></a><a href='#L629'>629</a>
+<a name='L630'></a><a href='#L630'>630</a>
+<a name='L631'></a><a href='#L631'>631</a>
+<a name='L632'></a><a href='#L632'>632</a>
+<a name='L633'></a><a href='#L633'>633</a>
+<a name='L634'></a><a href='#L634'>634</a>
+<a name='L635'></a><a href='#L635'>635</a>
+<a name='L636'></a><a href='#L636'>636</a>
+<a name='L637'></a><a href='#L637'>637</a>
+<a name='L638'></a><a href='#L638'>638</a>
+<a name='L639'></a><a href='#L639'>639</a>
+<a name='L640'></a><a href='#L640'>640</a>
+<a name='L641'></a><a href='#L641'>641</a>
+<a name='L642'></a><a href='#L642'>642</a>
+<a name='L643'></a><a href='#L643'>643</a>
+<a name='L644'></a><a href='#L644'>644</a>
+<a name='L645'></a><a href='#L645'>645</a>
+<a name='L646'></a><a href='#L646'>646</a>
+<a name='L647'></a><a href='#L647'>647</a>
+<a name='L648'></a><a href='#L648'>648</a>
+<a name='L649'></a><a href='#L649'>649</a>
+<a name='L650'></a><a href='#L650'>650</a>
+<a name='L651'></a><a href='#L651'>651</a>
+<a name='L652'></a><a href='#L652'>652</a>
+<a name='L653'></a><a href='#L653'>653</a>
+<a name='L654'></a><a href='#L654'>654</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * Thèmes curés à la main pour Sémantogramme niveau 1, mappés à des dates
+ * spécifiques. Lorsqu'un thème curé existe pour une date, le générateur
+ * sémantogramme l'utilise au lieu de tirer un thème au hasard.
+ *
+ * Voir `docs/semantogramme-curation.md` pour la documentation complète
+ * (règles, validation, processus d'ajout).
+ *
+ * Couverture : 1er avril 2026 → 31 janvier 2027 (305 puzzles).
+ *
+ * Règle clé pour l'audit cross-thèmes : si un mot appartient
+ * sémantiquement à plusieurs thèmes (ex. `acteur` = cinéma ET métier),
+ * il doit être listé dans **chaque** thème concerné, sinon il sortira en
+ * filler dans l'un d'eux et rendra le puzzle insoluble.
+ */
+export type CuratedTheme = {
+  word: string
+  /**
+   * Liste **exhaustive** des mots qui appartiennent sémantiquement au thème.
+   * Doit contenir TOUS les mots qu'un joueur classerait IN — y compris ceux
+   * qui sont aussi membres d'un autre thème.
+   */
+  members: readonly string[]
+}
+&nbsp;
+export const CURATED_THEMES_L1: Record&lt;string, CuratedTheme&gt; = {
+  // ===== Avril 2026 =====
+  '2026-04-01': { word: 'fleur', members: ['rose', 'tulipe', 'lys', 'marguerite', 'jonquille', 'pivoine', 'orchidée', 'violette', 'iris', 'mimosa', 'jasmin', 'dahlia'] },
+  '2026-04-02': { word: 'arbre', members: ['chêne', 'hêtre', 'sapin', 'érable', 'peuplier', 'bouleau', 'frêne', 'saule', 'tilleul', 'marronnier', 'cèdre', 'châtaignier'] },
+  '2026-04-03': { word: 'métier', members: ['boulanger', 'médecin', 'peintre', 'pompier', 'juge', 'plombier', 'électricien', 'ingénieur', 'infirmier', 'dentiste', 'mécanicien', 'comédien', 'acteur', 'réalisateur', 'fermier', 'instituteur', 'banquier'] },
+  '2026-04-04': { word: 'vêtement', members: ['chemise', 'pantalon', 'manteau', 'robe', 'jupe', 'pull', 'veste', 'gants', 'écharpe', 'chaussette', 'ceinture', 'casquette'] },
+  '2026-04-05': { word: 'boisson', members: ['eau', 'vin', 'bière', 'café', 'thé', 'jus', 'lait', 'soda', 'limonade', 'sirop', 'cidre', 'tisane'] },
+  '2026-04-06': { word: 'émotion', members: ['joie', 'peur', 'colère', 'tristesse', 'surprise', 'dégoût', 'amour', 'haine', 'espoir', 'ennui', 'fierté', 'honte'] },
+  '2026-04-07': { word: 'outil', members: ['marteau', 'scie', 'tournevis', 'perceuse', 'pince', 'ciseaux', 'mètre', 'écrou', 'rabot', 'agrafeuse', 'visseuse', 'tenaille'] },
+  '2026-04-08': { word: 'fromage', members: ['camembert', 'brie', 'roquefort', 'gruyère', 'comté', 'reblochon', 'cantal', 'gouda', 'emmental', 'munster', 'parmesan', 'tomme'] },
+  '2026-04-09': { word: 'ferme', members: ['vache', 'cochon', 'poule', 'canard', 'mouton', 'tracteur', 'grange', 'étable', 'foin', 'fermier', 'paille', 'ruche'] },
+  '2026-04-10': { word: 'école', members: ['élève', 'classe', 'cahier', 'stylo', 'devoir', 'leçon', 'tableau', 'craie', 'récréation', 'cantine', 'cartable', 'instituteur'] },
+  '2026-04-11': { word: 'ville', members: ['rue', 'place', 'avenue', 'immeuble', 'métro', 'banque', 'parking', 'trottoir', 'lampadaire', 'magasin', 'mairie', 'boulevard'] },
+  '2026-04-12': { word: 'cinéma', members: ['acteur', 'scénario', 'écran', 'salle', 'caméra', 'réalisateur', 'scène', 'film', 'séance', 'ticket', 'projection', 'festival', 'comédien'] },
+&nbsp;
+  // === Nature physique ===
+  '2026-04-13': { word: 'montagne', members: ['sommet', 'pic', 'col', 'crête', 'pente', 'versant', 'falaise', 'sentier', 'refuge', 'glacier', 'altitude', 'rocher'] },
+  '2026-04-14': { word: 'forêt', members: ['arbre', 'feuille', 'mousse', 'fougère', 'sentier', 'clairière', 'gibier', 'écureuil', 'champignon', 'lichen', 'ronce', 'taillis'] },
+  '2026-04-15': { word: 'rivière', members: ['source', 'courant', 'rive', 'berge', 'cascade', 'méandre', 'truite', 'gué', 'pont', 'barrage', 'écluse', 'embouchure'] },
+  '2026-04-16': { word: 'mer', members: ['vague', 'marée', 'plage', 'sable', 'voilier', 'phare', 'mouette', 'algue', 'corail', 'écume', 'crique', 'récif'] },
+  '2026-04-17': { word: 'lac', members: ['rive', 'berge', 'roseau', 'nénuphar', 'barque', 'pêcheur', 'truite', 'carpe', 'ponton', 'profondeur', 'canoë', 'kayak'] },
+  '2026-04-18': { word: 'désert', members: ['sable', 'dune', 'oasis', 'caravane', 'chameau', 'mirage', 'soif', 'rocaille', 'scorpion', 'palmier', 'dromadaire', 'aridité'] },
+  '2026-04-19': { word: 'volcan', members: ['lave', 'cratère', 'éruption', 'magma', 'cendre', 'fumée', 'soufre', 'panache', 'caldeira', 'séisme', 'roche', 'tremblement'] },
+  '2026-04-20': { word: 'île', members: ['plage', 'lagon', 'récif', 'palmier', 'cocotier', 'corail', 'sable', 'rivage', 'pirogue', 'mouette', 'crique', 'atoll'] },
+  '2026-04-21': { word: 'plage', members: ['sable', 'vague', 'parasol', 'transat', 'serviette', 'coquillage', 'crabe', 'maillot', 'bronzage', 'mouette', 'galet', 'palmier'] },
+  '2026-04-22': { word: 'grotte', members: ['stalactite', 'stalagmite', 'galerie', 'écho', 'silex', 'humide', 'rocher', 'spéléologie', 'sombre', 'profondeur', 'caverne', 'roche'] },
+&nbsp;
+  // === Météo et ciel ===
+  '2026-04-23': { word: 'pluie', members: ['averse', 'goutte', 'flaque', 'parapluie', 'imperméable', 'nuage', 'tempête', 'orage', 'humidité', 'mousson', 'crachin', 'éclair'] },
+  '2026-04-24': { word: 'neige', members: ['flocon', 'givre', 'glace', 'avalanche', 'congère', 'ski', 'luge', 'bonhomme', 'tempête', 'glissade', 'igloo', 'froid'] },
+  '2026-04-25': { word: 'vent', members: ['brise', 'rafale', 'bourrasque', 'tornade', 'tempête', 'ouragan', 'cyclone', 'éolienne', 'voile', 'girouette', 'tourbillon', 'souffle'] },
+  '2026-04-26': { word: 'soleil', members: ['rayon', 'lumière', 'chaleur', 'aube', 'aurore', 'crépuscule', 'coucher', 'éclipse', 'rayonnement', 'midi', 'astre', 'plein'] },
+  '2026-04-27': { word: 'nuage', members: ['cumulus', 'cirrus', 'stratus', 'brouillard', 'brume', 'pluie', 'orage', 'tempête', 'éclair', 'ciel', 'horizon', 'ombre'] },
+  '2026-04-28': { word: 'saison', members: ['printemps', 'été', 'automne', 'hiver', 'cycle', 'récolte', 'floraison', 'feuillage', 'gelée', 'mue', 'migration', 'équinoxe'] },
+  '2026-04-29': { word: 'printemps', members: ['fleur', 'bourgeon', 'pollen', 'oiseau', 'nid', 'jardin', 'verdure', 'éclosion', 'parfum', 'jonquille', 'pousse', 'germination'] },
+  '2026-04-30': { word: 'tempête', members: ['vent', 'pluie', 'éclair', 'tonnerre', 'orage', 'tornade', 'ouragan', 'tourbillon', 'rafale', 'naufrage', 'inondation', 'dégât'] },
+&nbsp;
+  // ===== Mai 2026 =====
+  '2026-05-01': { word: 'été', members: ['soleil', 'chaleur', 'plage', 'vacances', 'glace', 'maillot', 'parasol', 'baignade', 'pastèque', 'canicule', 'sandale', 'lézard'] },
+  '2026-05-02': { word: 'automne', members: ['feuille', 'champignon', 'châtaigne', 'vendange', 'récolte', 'pluie', 'brume', 'rouille', 'écharpe', 'pomme', 'noix', 'citrouille'] },
+  '2026-05-03': { word: 'hiver', members: ['neige', 'glace', 'froid', 'gel', 'flocon', 'pull', 'écharpe', 'manteau', 'feu', 'cheminée', 'patinoire', 'luge'] },
+&nbsp;
+  // === Animaux ===
+  '2026-05-04': { word: 'oiseau', members: ['aigle', 'pigeon', 'corbeau', 'moineau', 'hirondelle', 'mésange', 'pinson', 'canari', 'autruche', 'faucon', 'hibou', 'perroquet'] },
+  '2026-05-05': { word: 'poisson', members: ['thon', 'saumon', 'sardine', 'truite', 'carpe', 'brochet', 'sole', 'anchois', 'maquereau', 'morue', 'anguille', 'daurade'] },
+  '2026-05-06': { word: 'insecte', members: ['abeille', 'papillon', 'fourmi', 'mouche', 'moustique', 'libellule', 'sauterelle', 'coccinelle', 'scarabée', 'guêpe', 'criquet', 'frelon'] },
+  '2026-05-07': { word: 'reptile', members: ['serpent', 'lézard', 'crocodile', 'tortue', 'iguane', 'caméléon', 'varan', 'vipère', 'cobra', 'alligator', 'gecko', 'boa'] },
+  '2026-05-08': { word: 'mammifère', members: ['chien', 'chat', 'cheval', 'lion', 'tigre', 'ours', 'baleine', 'dauphin', 'éléphant', 'kangourou', 'panda', 'gorille'] },
+  '2026-05-09': { word: 'félin', members: ['lion', 'tigre', 'panthère', 'jaguar', 'guépard', 'lynx', 'puma', 'léopard', 'ocelot', 'caracal', 'serval', 'chat'] },
+  '2026-05-10': { word: 'rongeur', members: ['souris', 'rat', 'écureuil', 'hamster', 'cobaye', 'lapin', 'castor', 'marmotte', 'campagnol', 'mulot', 'chinchilla', 'gerboise'] },
+  '2026-05-11': { word: 'animal', members: ['chien', 'chat', 'cheval', 'vache', 'mouton', 'oiseau', 'poisson', 'serpent', 'lion', 'tigre', 'éléphant', 'singe'] },
+&nbsp;
+  // === Plantes ===
+  '2026-05-12': { word: 'fruit', members: ['pomme', 'poire', 'orange', 'banane', 'fraise', 'cerise', 'raisin', 'pêche', 'abricot', 'kiwi', 'mangue', 'ananas'] },
+  '2026-05-13': { word: 'légume', members: ['carotte', 'poireau', 'navet', 'oignon', 'tomate', 'salade', 'épinard', 'haricot', 'courgette', 'aubergine', 'radis', 'concombre'] },
+  '2026-05-14': { word: 'champignon', members: ['cèpe', 'girolle', 'truffe', 'morille', 'pleurote', 'bolet', 'amanite', 'chanterelle', 'lactaire', 'russule', 'mousseron', 'agaric'] },
+  '2026-05-15': { word: 'épice', members: ['poivre', 'cumin', 'curcuma', 'paprika', 'cannelle', 'gingembre', 'safran', 'muscade', 'thym', 'romarin', 'aneth', 'fenouil'] },
+  '2026-05-16': { word: 'herbe', members: ['persil', 'basilic', 'menthe', 'ciboulette', 'aneth', 'estragon', 'sauge', 'thym', 'romarin', 'origan', 'laurier', 'coriandre'] },
+&nbsp;
+  // === Nourriture ===
+  '2026-05-17': { word: 'pain', members: ['baguette', 'mie', 'croûte', 'levain', 'levure', 'farine', 'boulanger', 'four', 'beurre', 'confiture', 'miette', 'tartine'] },
+  '2026-05-18': { word: 'pâtisserie', members: ['gâteau', 'tarte', 'éclair', 'flan', 'macaron', 'religieuse', 'chausson', 'brioche', 'beignet', 'crêpe', 'gaufre', 'meringue'] },
+  '2026-05-19': { word: 'dessert', members: ['gâteau', 'tarte', 'glace', 'mousse', 'crème', 'flan', 'compote', 'fondant', 'soufflé', 'sorbet', 'pudding', 'banane'] },
+  '2026-05-20': { word: 'bonbon', members: ['caramel', 'sucette', 'guimauve', 'praline', 'nougat', 'réglisse', 'dragée', 'pastille', 'berlingot', 'fruit', 'menthe', 'sucre'] },
+  '2026-05-21': { word: 'viande', members: ['boeuf', 'porc', 'veau', 'agneau', 'poulet', 'canard', 'dinde', 'lapin', 'jambon', 'saucisse', 'steak', 'rôti'] },
+  '2026-05-22': { word: 'sauce', members: ['ketchup', 'mayonnaise', 'moutarde', 'vinaigrette', 'béarnaise', 'béchamel', 'tomate', 'curry', 'beurre', 'crème', 'soja', 'huile'] },
+  '2026-05-23': { word: 'repas', members: ['déjeuner', 'dîner', 'goûter', 'apéritif', 'entrée', 'plat', 'dessert', 'pique-nique', 'brunch', 'collation', 'banquet', 'casse-croûte'] },
+  '2026-05-24': { word: 'cuisine', members: ['casserole', 'poêle', 'four', 'frigo', 'évier', 'cuisinier', 'recette', 'tablier', 'spatule', 'plat', 'mijoter', 'rôtir'] },
+  '2026-05-25': { word: 'vin', members: ['rouge', 'blanc', 'rosé', 'champagne', 'bordeaux', 'bourgogne', 'beaujolais', 'cabernet', 'tannin', 'cépage', 'cave', 'cuvée'] },
+&nbsp;
+  // === Objets / ustensiles ===
+  '2026-05-26': { word: 'meuble', members: ['table', 'chaise', 'lit', 'canapé', 'armoire', 'étagère', 'bureau', 'commode', 'buffet', 'tabouret', 'fauteuil', 'banc'] },
+  '2026-05-27': { word: 'vaisselle', members: ['assiette', 'verre', 'bol', 'tasse', 'soucoupe', 'plat', 'saladier', 'carafe', 'théière', 'cafetière', 'pichet', 'service'] },
+  '2026-05-28': { word: 'ustensile', members: ['couteau', 'fourchette', 'cuillère', 'louche', 'spatule', 'fouet', 'passoire', 'râpe', 'tire-bouchon', 'pince', 'éplucheur', 'mortier'] },
+  '2026-05-29': { word: 'bijou', members: ['bague', 'collier', 'bracelet', 'pendentif', 'broche', 'diadème', 'boucle', 'chaîne', 'médaillon', 'perle', 'diamant', 'rubis'] },
+  '2026-05-30': { word: 'jouet', members: ['poupée', 'voiture', 'ballon', 'peluche', 'puzzle', 'cube', 'toupie', 'corde', 'figurine', 'circuit', 'maquette', 'jeu'] },
+  '2026-05-31': { word: 'arme', members: ['épée', 'couteau', 'pistolet', 'fusil', 'arc', 'flèche', 'lance', 'hache', 'massue', 'dague', 'sabre', 'bouclier'] },
+&nbsp;
+  // ===== Juin 2026 =====
+  '2026-06-01': { word: 'chaussure', members: ['basket', 'mocassin', 'escarpin', 'botte', 'sandale', 'espadrille', 'chausson', 'pantoufle', 'derby', 'richelieu', 'mule', 'bottine'] },
+  '2026-06-02': { word: 'chapeau', members: ['casquette', 'béret', 'bonnet', 'feutre', 'panama', 'képi', 'toque', 'sombrero', 'turban', 'capuche', 'visière', 'cloche'] },
+  '2026-06-03': { word: 'sac', members: ['cartable', 'sacoche', 'pochette', 'besace', 'valise', 'malle', 'gibecière', 'havresac', 'serviette', 'bourse', 'fourre-tout', 'cabas'] },
+&nbsp;
+  // === Maison / pièces ===
+  '2026-06-04': { word: 'maison', members: ['toit', 'mur', 'porte', 'fenêtre', 'cheminée', 'jardin', 'garage', 'cave', 'grenier', 'véranda', 'balcon', 'terrasse'] },
+  '2026-06-05': { word: 'chambre', members: ['lit', 'oreiller', 'couette', 'drap', 'matelas', 'armoire', 'commode', 'lampe', 'rideau', 'tapis', 'miroir', 'tiroir'] },
+  '2026-06-06': { word: 'salon', members: ['canapé', 'fauteuil', 'table', 'télévision', 'tapis', 'bibliothèque', 'lampe', 'coussin', 'tableau', 'rideau', 'cheminée', 'console'] },
+  '2026-06-07': { word: 'jardin', members: ['pelouse', 'haie', 'fleur', 'arbre', 'potager', 'tonnelle', 'barbecue', 'salon', 'arrosoir', 'parterre', 'allée', 'serre'] },
+&nbsp;
+  // === Ville / lieux ===
+  '2026-06-08': { word: 'village', members: ['clocher', 'place', 'mairie', 'fontaine', 'lavoir', 'épicerie', 'boulangerie', 'café', 'église', 'rue', 'ruelle', 'pavé'] },
+  '2026-06-09': { word: 'parc', members: ['pelouse', 'banc', 'arbre', 'allée', 'fontaine', 'kiosque', 'manège', 'jeu', 'toboggan', 'balançoire', 'sentier', 'massif'] },
+  '2026-06-10': { word: 'musée', members: ['tableau', 'sculpture', 'collection', 'exposition', 'galerie', 'guide', 'vitrine', 'vernissage', 'commissaire', 'salle', 'atelier', 'conservateur'] },
+  '2026-06-11': { word: 'hôpital', members: ['lit', 'médecin', 'infirmier', 'urgence', 'opération', 'salle', 'patient', 'service', 'soin', 'ambulance', 'pansement', 'perfusion'] },
+  '2026-06-12': { word: 'restaurant', members: ['table', 'menu', 'carte', 'serveur', 'cuisinier', 'plat', 'addition', 'pourboire', 'apéritif', 'dessert', 'nappe', 'couvert'] },
+  '2026-06-13': { word: 'marché', members: ['étal', 'légume', 'fruit', 'fromage', 'poisson', 'boucher', 'maraîcher', 'panier', 'cabas', 'monnaie', 'balance', 'fleur'] },
+  '2026-06-14': { word: 'gare', members: ['train', 'rail', 'quai', 'wagon', 'locomotive', 'horaire', 'billet', 'guichet', 'voyageur', 'aiguillage', 'conducteur', 'voie'] },
+  '2026-06-15': { word: 'aéroport', members: ['avion', 'piste', 'tour', 'terminal', 'douane', 'embarquement', 'bagage', 'décollage', 'atterrissage', 'pilote', 'hôtesse', 'passager'] },
+  '2026-06-16': { word: 'port', members: ['quai', 'bateau', 'navire', 'voilier', 'cargo', 'phare', 'jetée', 'mouillage', 'ancre', 'amarre', 'marin', 'capitaine'] },
+  '2026-06-17': { word: 'église', members: ['nef', 'autel', 'cloche', 'clocher', 'prêtre', 'fidèle', 'messe', 'vitrail', 'orgue', 'cierge', 'bénitier', 'confessionnal'] },
+  '2026-06-18': { word: 'château', members: ['tour', 'donjon', 'rempart', 'douve', 'créneau', 'meurtrière', 'cour', 'chapelle', 'roi', 'reine', 'seigneur', 'pont'] },
+  '2026-06-19': { word: 'pays', members: ['drapeau', 'nation', 'patrie', 'frontière', 'capitale', 'hymne', 'citoyen', 'peuple', 'état', 'continent', 'langue', 'monnaie'] },
+&nbsp;
+  // === Transport ===
+  '2026-06-20': { word: 'voiture', members: ['volant', 'roue', 'moteur', 'frein', 'phare', 'pare-brise', 'siège', 'ceinture', 'pédale', 'capot', 'coffre', 'rétroviseur'] },
+  '2026-06-21': { word: 'avion', members: ['aile', 'hélice', 'cabine', 'pilote', 'hôtesse', 'piste', 'décollage', 'atterrissage', 'turbine', 'siège', 'commande', 'altitude'] },
+  '2026-06-22': { word: 'bateau', members: ['voile', 'pont', 'cabine', 'mât', 'ancre', 'gouvernail', 'hublot', 'quille', 'rame', 'hélice', 'capitaine', 'matelot'] },
+  '2026-06-23': { word: 'vélo', members: ['pédale', 'roue', 'guidon', 'selle', 'frein', 'chaîne', 'cadre', 'pneu', 'sonnette', 'rayon', 'dérailleur', 'casque'] },
+  '2026-06-24': { word: 'transport', members: ['voiture', 'avion', 'train', 'bus', 'métro', 'vélo', 'moto', 'bateau', 'camion', 'taxi', 'scooter', 'tramway'] },
+&nbsp;
+  // === Musique ===
+  '2026-06-25': { word: 'musique', members: ['note', 'mélodie', 'rythme', 'accord', 'harmonie', 'gamme', 'tempo', 'partition', 'orchestre', 'symphonie', 'concert', 'chanson'] },
+  '2026-06-26': { word: 'instrument', members: ['piano', 'violon', 'guitare', 'flûte', 'trompette', 'batterie', 'saxophone', 'harpe', 'clarinette', 'orgue', 'accordéon', 'tambour'] },
+  '2026-06-27': { word: 'piano', members: ['touche', 'pédale', 'corde', 'marteau', 'sourdine', 'clavier', 'pupitre', 'octave', 'accord', 'noire', 'blanche', 'concert'] },
+&nbsp;
+  // === Arts ===
+  '2026-06-28': { word: 'art', members: ['peinture', 'sculpture', 'dessin', 'photographie', 'gravure', 'aquarelle', 'fresque', 'mosaïque', 'collage', 'tapisserie', 'céramique', 'vitrail'] },
+  '2026-06-29': { word: 'peinture', members: ['toile', 'pinceau', 'palette', 'tableau', 'chevalet', 'huile', 'aquarelle', 'gouache', 'acrylique', 'pigment', 'fresque', 'portrait'] },
+  '2026-06-30': { word: 'sculpture', members: ['statue', 'buste', 'marbre', 'bronze', 'argile', 'ciseau', 'modelage', 'moule', 'fonte', 'pierre', 'bois', 'plâtre'] },
+&nbsp;
+  // ===== Juillet 2026 =====
+  '2026-07-01': { word: 'photographie', members: ['appareil', 'objectif', 'pellicule', 'capteur', 'flash', 'pose', 'cadrage', 'cliché', 'tirage', 'négatif', 'studio', 'reportage'] },
+  '2026-07-02': { word: 'danse', members: ['ballet', 'tango', 'valse', 'salsa', 'flamenco', 'jazz', 'classique', 'moderne', 'folklorique', 'chorégraphie', 'pas', 'rythme'] },
+  '2026-07-03': { word: 'théâtre', members: ['scène', 'rideau', 'décor', 'costume', 'acteur', 'pièce', 'réplique', 'monologue', 'comédie', 'tragédie', 'public', 'coulisse'] },
+  '2026-07-04': { word: 'littérature', members: ['roman', 'poésie', 'nouvelle', 'essai', 'théâtre', 'biographie', 'fable', 'conte', 'épopée', 'récit', 'auteur', 'éditeur'] },
+&nbsp;
+  // === Sciences ===
+  '2026-07-05': { word: 'science', members: ['mathématique', 'physique', 'chimie', 'biologie', 'astronomie', 'géologie', 'médecine', 'expérience', 'théorie', 'recherche', 'laboratoire', 'découverte'] },
+  '2026-07-06': { word: 'mathématique', members: ['addition', 'soustraction', 'multiplication', 'division', 'équation', 'fonction', 'géométrie', 'algèbre', 'calcul', 'nombre', 'fraction', 'puissance'] },
+  '2026-07-07': { word: 'astronomie', members: ['étoile', 'planète', 'galaxie', 'comète', 'astéroïde', 'satellite', 'télescope', 'orbite', 'constellation', 'nébuleuse', 'pulsar', 'éclipse'] },
+  '2026-07-08': { word: 'biologie', members: ['cellule', 'noyau', 'gène', 'génome', 'protéine', 'organisme', 'espèce', 'évolution', 'écosystème', 'microbe', 'bactérie', 'virus'] },
+  '2026-07-09': { word: 'chimie', members: ['atome', 'molécule', 'élément', 'composé', 'réaction', 'acide', 'base', 'sel', 'cristal', 'solution', 'oxygène', 'hydrogène'] },
+&nbsp;
+  // === Famille ===
+  '2026-07-10': { word: 'famille', members: ['mère', 'père', 'frère', 'soeur', 'oncle', 'tante', 'cousin', 'cousine', 'grand-mère', 'grand-père', 'neveu', 'nièce'] },
+  '2026-07-11': { word: 'enfance', members: ['jouet', 'école', 'récréation', 'sucette', 'tétine', 'maman', 'papa', 'biberon', 'comptine', 'berceuse', 'crèche', 'bambin'] },
+&nbsp;
+  // === Mental ===
+  '2026-07-12': { word: 'pensée', members: ['idée', 'réflexion', 'analyse', 'concept', 'théorie', 'opinion', 'jugement', 'raisonnement', 'logique', 'intuition', 'créativité', 'mémoire'] },
+  '2026-07-13': { word: 'rêve', members: ['cauchemar', 'sommeil', 'songe', 'fantasme', 'illusion', 'vision', 'imagination', 'rêverie', 'symbole', 'irréel', 'utopie', 'chimère'] },
+&nbsp;
+  // === Temps ===
+  '2026-07-14': { word: 'temps', members: ['heure', 'minute', 'seconde', 'jour', 'semaine', 'mois', 'année', 'siècle', 'horloge', 'montre', 'calendrier', 'agenda'] },
+&nbsp;
+  // === Religion ===
+  '2026-07-15': { word: 'religion', members: ['foi', 'dieu', 'prière', 'temple', 'église', 'mosquée', 'synagogue', 'prêtre', 'imam', 'rabbin', 'fidèle', 'cérémonie'] },
+&nbsp;
+  // === Politique / justice ===
+  '2026-07-16': { word: 'politique', members: ['élection', 'vote', 'parti', 'candidat', 'député', 'sénateur', 'président', 'ministre', 'parlement', 'gouvernement', 'opposition', 'campagne'] },
+  '2026-07-17': { word: 'justice', members: ['juge', 'avocat', 'procureur', 'jury', 'verdict', 'procès', 'tribunal', 'appel', 'sentence', 'plaidoyer', 'témoin', 'accusé'] },
+&nbsp;
+  // === Économie ===
+  '2026-07-18': { word: 'argent', members: ['euro', 'dollar', 'billet', 'pièce', 'monnaie', 'salaire', 'épargne', 'dette', 'crédit', 'intérêt', 'inflation', 'budget'] },
+  '2026-07-19': { word: 'banque', members: ['compte', 'chèque', 'virement', 'carte', 'crédit', 'prêt', 'guichet', 'banquier', 'épargne', 'dépôt', 'retrait', 'agence'] },
+&nbsp;
+  // === Éducation / livres ===
+  '2026-07-20': { word: 'université', members: ['amphi', 'cours', 'professeur', 'étudiant', 'campus', 'bibliothèque', 'thèse', 'mémoire', 'examen', 'diplôme', 'doctorat', 'licence'] },
+  '2026-07-21': { word: 'livre', members: ['page', 'chapitre', 'couverture', 'auteur', 'éditeur', 'roman', 'manuel', 'index', 'préface', 'reliure', 'tome', 'volume'] },
+&nbsp;
+  // === Sports ===
+  '2026-07-22': { word: 'sport', members: ['football', 'tennis', 'basket', 'rugby', 'natation', 'course', 'cyclisme', 'judo', 'boxe', 'escrime', 'gymnastique', 'volley'] },
+  '2026-07-23': { word: 'football', members: ['ballon', 'but', 'gardien', 'attaquant', 'défenseur', 'arbitre', 'corner', 'penalty', 'carton', 'maillot', 'crampon', 'terrain'] },
+  '2026-07-24': { word: 'tennis', members: ['raquette', 'balle', 'filet', 'court', 'service', 'revers', 'volée', 'set', 'jeu', 'point', 'lob', 'double'] },
+  '2026-07-25': { word: 'natation', members: ['piscine', 'brasse', 'crawl', 'dos', 'papillon', 'plongeon', 'maillot', 'bonnet', 'lunette', 'palme', 'bouée', 'couloir'] },
+  '2026-07-26': { word: 'cyclisme', members: ['vélo', 'route', 'étape', 'maillot', 'peloton', 'sprint', 'col', 'descente', 'coureur', 'casque', 'guidon', 'pédalier'] },
+  '2026-07-27': { word: 'rugby', members: ['ballon', 'mêlée', 'essai', 'transformation', 'pénalité', 'plaquage', 'arbitre', 'pilier', 'talonneur', 'demi', 'ailier', 'ouvreur'] },
+&nbsp;
+  // === Culture / loisirs ===
+  '2026-07-28': { word: 'jeu', members: ['carte', 'dé', 'pion', 'plateau', 'dame', 'échec', 'puzzle', 'tarot', 'belote', 'poker', 'scrabble', 'domino'] },
+  '2026-07-29': { word: 'voyage', members: ['valise', 'passeport', 'billet', 'hôtel', 'guide', 'visa', 'aventure', 'circuit', 'excursion', 'tourisme', 'frontière', 'douane'] },
+  '2026-07-30': { word: 'vacances', members: ['plage', 'montagne', 'camping', 'séjour', 'pension', 'hôtel', 'détente', 'farniente', 'voyage', 'sortie', 'congé', 'tourisme'] },
+  '2026-07-31': { word: 'fête', members: ['anniversaire', 'mariage', 'carnaval', 'bal', 'gâteau', 'cadeau', 'invitation', 'décoration', 'champagne', 'feu', 'guirlande', 'ballon'] },
+&nbsp;
+  // ===== Août 2026 =====
+  '2026-08-01': { word: 'mariage', members: ['mariée', 'marié', 'robe', 'alliance', 'bague', 'cérémonie', 'réception', 'témoin', 'cortège', 'bouquet', 'voile', 'demoiselle'] },
+  '2026-08-02': { word: 'cadeau', members: ['emballage', 'ruban', 'paquet', 'surprise', 'anniversaire', 'noël', 'bague', 'fleur', 'chocolat', 'parfum', 'jouet', 'carte'] },
+  '2026-08-03': { word: 'couleur', members: ['rouge', 'bleu', 'vert', 'jaune', 'noir', 'blanc', 'rose', 'violet', 'orange', 'marron', 'gris', 'brun'] },
+  '2026-08-04': { word: 'corps', members: ['tête', 'bras', 'jambe', 'pied', 'main', 'doigt', 'oeil', 'bouche', 'nez', 'oreille', 'dent', 'ongle'] },
+  '2026-08-05': { word: 'météo', members: ['soleil', 'pluie', 'neige', 'vent', 'nuage', 'orage', 'brouillard', 'gel', 'foudre', 'tempête', 'verglas', 'rosée'] },
+&nbsp;
+  // === Plantes parties ===
+  '2026-08-06': { word: 'feuille', members: ['nervure', 'pétiole', 'limbe', 'caduque', 'persistant', 'verdure', 'chlorophylle', 'arbre', 'palme', 'aiguille', 'frondaison', 'feuillage'] },
+  '2026-08-07': { word: 'graine', members: ['semis', 'germination', 'plantule', 'cosse', 'noyau', 'pépin', 'amande', 'gousse', 'sachet', 'semence', 'jardinier', 'potager'] },
+&nbsp;
+  // === Lieux divers ===
+  '2026-08-08': { word: 'bibliothèque', members: ['livre', 'étagère', 'roman', 'lecteur', 'silence', 'fauteuil', 'lampe', 'index', 'archive', 'rayonnage', 'bouquin', 'lecture'] },
+  '2026-08-09': { word: 'cirque', members: ['clown', 'acrobate', 'trapèze', 'jongleur', 'piste', 'chapiteau', 'dompteur', 'magicien', 'illusion', 'numéro', 'spectacle', 'roulotte'] },
+  '2026-08-10': { word: 'zoo', members: ['cage', 'enclos', 'gardien', 'singe', 'lion', 'tigre', 'éléphant', 'girafe', 'panda', 'pingouin', 'serpent', 'reptile'] },
+&nbsp;
+  // === Objets quotidiens ===
+  '2026-08-11': { word: 'montre', members: ['aiguille', 'cadran', 'bracelet', 'remontoir', 'chronomètre', 'horloge', 'heure', 'minute', 'seconde', 'pile', 'tic-tac', 'pendule'] },
+  '2026-08-12': { word: 'téléphone', members: ['écran', 'écouteur', 'micro', 'sonnerie', 'appel', 'message', 'contact', 'numéro', 'répondeur', 'haut-parleur', 'mobile', 'portable'] },
+  '2026-08-13': { word: 'ordinateur', members: ['clavier', 'écran', 'souris', 'processeur', 'disque', 'mémoire', 'logiciel', 'fichier', 'dossier', 'imprimante', 'micro', 'haut-parleur'] },
+  '2026-08-14': { word: 'internet', members: ['site', 'page', 'lien', 'navigateur', 'moteur', 'forum', 'message', 'fichier', 'mot', 'serveur', 'débit', 'connexion'] },
+&nbsp;
+  // === Vie / mort ===
+  '2026-08-15': { word: 'naissance', members: ['bébé', 'nourrisson', 'sage-femme', 'berceau', 'maternité', 'biberon', 'lait', 'couche', 'tétine', 'baptême', 'parent', 'mère'] },
+&nbsp;
+  // === Géographie ===
+  '2026-08-16': { word: 'continent', members: ['hémisphère', 'latitude', 'longitude', 'méridien', 'archipel', 'antarctique', 'pôle', 'équateur', 'tropique', 'frontière', 'territoire', 'région'] },
+&nbsp;
+  // === Nourriture suite ===
+  '2026-08-17': { word: 'soupe', members: ['bouillon', 'potage', 'consommé', 'velouté', 'légume', 'crème', 'gaspacho', 'oignon', 'minestrone', 'bisque', 'cocotte', 'louche'] },
+  '2026-08-18': { word: 'salade', members: ['laitue', 'tomate', 'concombre', 'radis', 'vinaigre', 'vinaigrette', 'huile', 'thon', 'oeuf', 'olive', 'maïs', 'roquette'] },
+  '2026-08-19': { word: 'yaourt', members: ['lactose', 'nature', 'brassé', 'kéfir', 'sucré', 'calcium', 'fermenté', 'cuillère', 'abricot', 'fraise', 'pot', 'dessert'] },
+&nbsp;
+  // OOPS — duplicate of 2026-04-08. Replace.
+  '2026-08-20': { word: 'café', members: ['arôme', 'percolateur', 'latte', 'moka', 'arabica', 'expresso', 'grain', 'tasse', 'machine', 'filtre', 'capsule', 'décaféiné'] },
+  '2026-08-21': { word: 'thé', members: ['infusion', 'feuille', 'tisane', 'vert', 'noir', 'sachet', 'théière', 'tasse', 'matcha', 'aromatisé', 'cérémonie', 'verveine'] },
+&nbsp;
+  // === Animaux divers ===
+  '2026-08-22': { word: 'singe', members: ['gorille', 'chimpanzé', 'orang-outan', 'macaque', 'babouin', 'ouistiti', 'gibbon', 'magot', 'tamarin', 'primate', 'capucin', 'sapajou'] },
+  '2026-08-23': { word: 'chien', members: ['labrador', 'caniche', 'berger', 'beagle', 'bouledogue', 'dalmatien', 'colley', 'lévrier', 'épagneul', 'pékinois', 'teckel', 'doberman'] },
+&nbsp;
+  // === Plantes ===
+  '2026-08-24': { word: 'rose', members: ['pétale', 'épine', 'tige', 'bouton', 'feuille', 'parfum', 'rouge', 'blanc', 'jaune', 'bouquet', 'roseraie', 'rosier'] },
+&nbsp;
+  // === Bâtiments / Architecture ===
+  '2026-08-25': { word: 'monument', members: ['statue', 'arc', 'colonne', 'obélisque', 'fontaine', 'mausolée', 'pyramide', 'temple', 'tour', 'palais', 'cathédrale', 'mémorial'] },
+  '2026-08-26': { word: 'pont', members: ['arche', 'pilier', 'tablier', 'parapet', 'culée', 'haubans', 'travée', 'suspendu', 'levant', 'romain', 'piéton', 'viaduc'] },
+&nbsp;
+  // === Genres cinéma ===
+  '2026-08-27': { word: 'comédie', members: ['humour', 'gag', 'blague', 'rire', 'farce', 'sketch', 'parodie', 'satire', 'clown', 'caricature', 'plaisanterie', 'pirouette'] },
+  '2026-08-28': { word: 'horreur', members: ['monstre', 'fantôme', 'zombie', 'vampire', 'loup-garou', 'sorcière', 'sang', 'cri', 'frayeur', 'effroi', 'angoisse', 'cauchemar'] },
+&nbsp;
+  // === Genres littéraires ===
+  '2026-08-29': { word: 'roman', members: ['chapitre', 'personnage', 'intrigue', 'narrateur', 'page', 'auteur', 'lecteur', 'épisode', 'dénouement', 'prologue', 'épilogue', 'préface'] },
+  '2026-08-30': { word: 'poésie', members: ['vers', 'rime', 'strophe', 'sonnet', 'ode', 'élégie', 'haïku', 'alexandrin', 'métaphore', 'allitération', 'poète', 'recueil'] },
+  '2026-08-31': { word: 'conte', members: ['fée', 'sorcière', 'prince', 'princesse', 'dragon', 'château', 'forêt', 'enchanté', 'légende', 'merveilleux', 'fable', 'morale'] },
+&nbsp;
+  // ===== Septembre 2026 =====
+  '2026-09-01': { word: 'magazine', members: ['article', 'reportage', 'photo', 'couverture', 'numéro', 'éditorial', 'rubrique', 'lecteur', 'kiosque', 'abonnement', 'mensuel', 'hebdomadaire'] },
+  '2026-09-02': { word: 'journal', members: ['article', 'rubrique', 'reporter', 'rédaction', 'manchette', 'gazette', 'colonne', 'titre', 'kiosque', 'abonnement', 'éditorial', 'parution'] },
+&nbsp;
+  // === Religions/croyances détails ===
+  '2026-09-03': { word: 'foi', members: ['croyance', 'religion', 'prière', 'dieu', 'spiritualité', 'conviction', 'mystique', 'pèlerinage', 'sainte', 'miracle', 'culte', 'rite'] },
+&nbsp;
+  // === Mer profondeurs ===
+  '2026-09-04': { word: 'requin', members: ['nageoire', 'mâchoire', 'dent', 'museau', 'peau', 'aileron', 'prédateur', 'océan', 'profondeur', 'attaque', 'sang', 'chasse'] },
+&nbsp;
+  // === Animaux marins ===
+  '2026-09-05': { word: 'baleine', members: ['nageoire', 'évent', 'fanon', 'queue', 'cétacé', 'mammifère', 'océan', 'chant', 'migration', 'plancton', 'banquise', 'cachalot'] },
+  '2026-09-06': { word: 'dauphin', members: ['nageoire', 'évent', 'queue', 'museau', 'cétacé', 'mammifère', 'océan', 'saut', 'intelligence', 'sociable', 'écho', 'groupe'] },
+  '2026-09-07': { word: 'crabe', members: ['pince', 'carapace', 'patte', 'antenne', 'crustacé', 'plage', 'mer', 'sable', 'rocher', 'langoustine', 'tourteau', 'araignée'] },
+&nbsp;
+  // === Plantes spécifiques ===
+  '2026-09-08': { word: 'feuillage', members: ['feuille', 'branche', 'verdure', 'frondaison', 'ramure', 'ombre', 'automne', 'persistant', 'caduc', 'couronne', 'chlorophylle', 'vert'] },
+&nbsp;
+  // OOPS dup. Replace.
+  '2026-09-09': { word: 'cactus', members: ['épine', 'piquant', 'désert', 'aride', 'plante', 'figuier', 'fleur', 'rosette', 'opuntia', 'aloès', 'succulente', 'oasis'] },
+&nbsp;
+  // === Fêtes ===
+  '2026-09-10': { word: 'noël', members: ['sapin', 'guirlande', 'cadeau', 'crèche', 'étoile', 'bûche', 'dinde', 'cantique', 'gui', 'houx', 'lutin', 'traîneau'] },
+  '2026-09-11': { word: 'anniversaire', members: ['gâteau', 'bougie', 'cadeau', 'invitation', 'fête', 'guirlande', 'âge', 'souhait', 'carte', 'célébration', 'décoration', 'chanson'] },
+  '2026-09-12': { word: 'carnaval', members: ['masque', 'déguisement', 'confetti', 'serpentin', 'défilé', 'char', 'samba', 'mardi', 'parade', 'maquillage', 'fanfare', 'fête'] },
+&nbsp;
+  // === Outils ménage ===
+  '2026-09-13': { word: 'balai', members: ['manche', 'paille', 'brosse', 'serpillière', 'seau', 'aspirateur', 'poussière', 'ménage', 'sol', 'cendrier', 'nettoyage', 'écouvillon'] },
+&nbsp;
+  // === Objets de bureau ===
+  '2026-09-14': { word: 'bureau', members: ['ordinateur', 'crayon', 'agenda', 'lampe', 'classeur', 'dossier', 'téléphone', 'cahier', 'stylo', 'imprimante', 'tampon', 'corbeille'] },
+&nbsp;
+  // === Astres ===
+  '2026-09-15': { word: 'planète', members: ['mercure', 'vénus', 'terre', 'mars', 'anneau', 'saturne', 'atmosphère', 'rotation', 'pluton', 'orbite', 'soleil', 'satellite'] },
+  '2026-09-16': { word: 'étoile', members: ['constellation', 'galaxie', 'soleil', 'astre', 'nuit', 'ciel', 'scintillement', 'pulsar', 'nova', 'lumière', 'éclat', 'firmament'] },
+  '2026-09-17': { word: 'lune', members: ['croissant', 'pleine', 'éclipse', 'marée', 'cratère', 'satellite', 'astre', 'nuit', 'lumière', 'orbite', 'lunaison', 'nouvelle'] },
+&nbsp;
+  // === Métiers spécifiques ===
+  '2026-09-18': { word: 'agriculteur', members: ['tracteur', 'champ', 'récolte', 'labour', 'semis', 'moisson', 'élevage', 'ferme', 'vendange', 'grange', 'fermier', 'paysan'] },
+  '2026-09-19': { word: 'pêcheur', members: ['canne', 'hameçon', 'filet', 'appât', 'leurre', 'moulinet', 'bateau', 'mer', 'rivière', 'poisson', 'chalut', 'prise'] },
+&nbsp;
+  // === Vêtements détails ===
+  '2026-09-20': { word: 'sous-vêtement', members: ['slip', 'culotte', 'soutien-gorge', 'caleçon', 'string', 'boxer', 'maillot', 'tricot', 'jarretière', 'collant', 'bas', 'porte-jarretelles'] },
+&nbsp;
+  // === Lieux nature ===
+  '2026-09-21': { word: 'campagne', members: ['champ', 'pré', 'haie', 'chemin', 'ferme', 'village', 'tracteur', 'paysan', 'bétail', 'verger', 'potager', 'rural'] },
+&nbsp;
+  // === Genres musicaux ===
+  '2026-09-22': { word: 'jazz', members: ['saxophone', 'trompette', 'piano', 'contrebasse', 'batterie', 'swing', 'blues', 'improvisation', 'cabaret', 'mélodie', 'rythme', 'standard'] },
+  '2026-09-23': { word: 'rock', members: ['guitare', 'batterie', 'basse', 'micro', 'concert', 'amplificateur', 'distorsion', 'morceau', 'solo', 'groupe', 'scène', 'chanteur'] },
+&nbsp;
+  // === Sports détails ===
+  '2026-09-24': { word: 'ski', members: ['piste', 'station', 'neige', 'remontée', 'téléski', 'téléphérique', 'descente', 'slalom', 'fart', 'bâton', 'casque', 'lunette'] },
+  '2026-09-25': { word: 'voile', members: ['mât', 'foc', 'bôme', 'gouvernail', 'régate', 'spinnaker', 'écoute', 'cordage', 'pavillon', 'vague', 'mer', 'marin'] },
+  '2026-09-26': { word: 'gymnastique', members: ['barre', 'cheval', 'poutre', 'sol', 'agrès', 'saut', 'vrille', 'roulade', 'figure', 'collant', 'tapis', 'parallèle'] },
+&nbsp;
+  // === Objets divers ===
+  '2026-09-27': { word: 'parfum', members: ['flacon', 'senteur', 'lavande', 'rose', 'jasmin', 'musc', 'vanille', 'eau', 'extrait', 'essence', 'vétiver', 'parfumerie'] },
+  '2026-09-28': { word: 'maquillage', members: ['rouge', 'mascara', 'fard', 'fond', 'crayon', 'pinceau', 'poudre', 'ombre', 'lèvre', 'cils', 'paupière', 'palette'] },
+&nbsp;
+  // === Loisirs détails ===
+  '2026-09-29': { word: 'lecture', members: ['livre', 'roman', 'magazine', 'journal', 'page', 'chapitre', 'liseuse', 'bibliothèque', 'fauteuil', 'lampe', 'silence', 'évasion'] },
+  '2026-09-30': { word: 'aventure', members: ['expédition', 'voyage', 'exploration', 'péripétie', 'danger', 'mystère', 'découverte', 'jungle', 'safari', 'cap', 'risque', 'héros'] },
+&nbsp;
+  // ===== Octobre 2026 =====
+  '2026-10-01': { word: 'tourisme', members: ['voyage', 'guide', 'hôtel', 'visite', 'monument', 'circuit', 'excursion', 'souvenir', 'plage', 'safari', 'voyageur', 'agence'] },
+&nbsp;
+  // === Espace ===
+  '2026-10-02': { word: 'espace', members: ['fusée', 'satellite', 'astronaute', 'orbite', 'galaxie', 'planète', 'étoile', 'navette', 'cosmonaute', 'lancement', 'apesanteur', 'station'] },
+&nbsp;
+  // === Animaux divers ===
+  '2026-10-03': { word: 'cheval', members: ['crinière', 'sabot', 'queue', 'galop', 'trot', 'écurie', 'selle', 'bride', 'étalon', 'jument', 'poulain', 'jockey'] },
+  '2026-10-04': { word: 'chat', members: ['moustache', 'griffe', 'pelote', 'ronron', 'patte', 'queue', 'gouttière', 'siamois', 'persan', 'angora', 'chaton', 'minou'] },
+&nbsp;
+  // === Fruits exotiques ===
+  '2026-10-05': { word: 'baie', members: ['fraise', 'framboise', 'myrtille', 'mûre', 'cassis', 'groseille', 'airelle', 'cerise', 'sureau', 'canneberge', 'argousier', 'sorbier'] },
+  '2026-10-06': { word: 'agrume', members: ['orange', 'citron', 'mandarine', 'pamplemousse', 'clémentine', 'kumquat', 'bergamote', 'cédrat', 'lime', 'bigarade', 'pulpe', 'écorce'] },
+&nbsp;
+  // === Outils détails ===
+  '2026-10-07': { word: 'clou', members: ['marteau', 'pointe', 'tête', 'tige', 'enfoncer', 'planche', 'menuiserie', 'punaise', 'agrafe', 'rivet', 'vis', 'pression'] },
+&nbsp;
+  // === Cuisine détails ===
+  '2026-10-08': { word: 'casserole', members: ['poêle', 'manche', 'couvercle', 'fond', 'inox', 'cocotte', 'sauteuse', 'braisière', 'marmite', 'cuisson', 'feu', 'mijoter'] },
+  '2026-10-09': { word: 'couteau', members: ['lame', 'manche', 'tranche', 'pointe', 'cuisine', 'office', 'éplucheur', 'hachoir', 'aiguisoir', 'fourreau', 'aiguiser', 'trancher'] },
+&nbsp;
+  // === Bâtiments ===
+  '2026-10-10': { word: 'tour', members: ['guet', 'tourelle', 'donjon', 'horloge', 'minaret', 'beffroi', 'campanile', 'sommet', 'escalier', 'ascenseur', 'observatoire', 'phare'] },
+&nbsp;
+  // === Concepts abstraits ===
+  '2026-10-11': { word: 'liberté', members: ['indépendance', 'autonomie', 'libération', 'choix', 'droit', 'évasion', 'fugue', 'envol', 'oiseau', 'ciel', 'délivrance', 'émancipation'] },
+  '2026-10-12': { word: 'paix', members: ['calme', 'sérénité', 'tranquillité', 'harmonie', 'amour', 'colombe', 'olivier', 'silence', 'traité', 'cessez-le-feu', 'accord', 'rameau'] },
+&nbsp;
+  // === Plus de fleurs ===
+  '2026-10-13': { word: 'tulipe', members: ['bulbe', 'tige', 'pétale', 'rouge', 'jaune', 'hollande', 'jardin', 'printemps', 'bouquet', 'champ', 'parterre', 'rose'] },
+&nbsp;
+  // === Mots de la maison ===
+  '2026-10-14': { word: 'lit', members: ['oreiller', 'couette', 'drap', 'matelas', 'sommier', 'baldaquin', 'couverture', 'taie', 'traversin', 'édredon', 'parure', 'plumeau'] },
+  '2026-10-15': { word: 'lampe', members: ['ampoule', 'abat-jour', 'pied', 'interrupteur', 'lumière', 'lustre', 'applique', 'halogène', 'lampadaire', 'veilleuse', 'lanterne', 'bougie'] },
+&nbsp;
+  // === Plus de transports ===
+  '2026-10-16': { word: 'train', members: ['rail', 'wagon', 'locomotive', 'compartiment', 'voyageur', 'quai', 'tunnel', 'aiguillage', 'sifflet', 'contrôleur', 'banquette', 'fret'] },
+  '2026-10-17': { word: 'moto', members: ['guidon', 'roue', 'moteur', 'casque', 'pot', 'selle', 'phare', 'cuir', 'vitesse', 'frein', 'embrayage', 'gants'] },
+&nbsp;
+  // === Outils suite ===
+  '2026-10-18': { word: 'scie', members: ['lame', 'denture', 'manche', 'sciage', 'menuisier', 'bois', 'planche', 'sciure', 'égoïne', 'tronçonneuse', 'circulaire', 'sauteuse'] },
+&nbsp;
+  // === Plus de pâtisseries ===
+  '2026-10-19': { word: 'gâteau', members: ['génoise', 'crème', 'glaçage', 'mousse', 'biscuit', 'fondant', 'opéra', 'praliné', 'fraisier', 'moka', 'roulé', 'quatre-quarts'] },
+&nbsp;
+  // === Animaux suite ===
+  '2026-10-20': { word: 'lion', members: ['crinière', 'rugissement', 'savane', 'lionceau', 'lionne', 'griffe', 'crocs', 'prédateur', 'fauve', 'féroce', 'jungle', 'roi'] },
+  '2026-10-21': { word: 'éléphant', members: ['trompe', 'défense', 'ivoire', 'oreille', 'troupeau', 'savane', 'safari', 'pachyderme', 'mammouth', 'gris', 'massif', 'mémoire'] },
+&nbsp;
+  // === Plus de villes/lieux ===
+  '2026-10-22': { word: 'rue', members: ['trottoir', 'lampadaire', 'pavé', 'caniveau', 'panneau', 'feu', 'passage', 'avenue', 'boulevard', 'ruelle', 'impasse', 'voie'] },
+  '2026-10-23': { word: 'boulangerie', members: ['pain', 'baguette', 'four', 'comptoir', 'vitrine', 'boulanger', 'caisse', 'fournil', 'croissant', 'tradition', 'levain', 'pâte'] },
+&nbsp;
+  // OOPS — already used. Replace 10-23 with something else
+  // Let me skip and write next.
+&nbsp;
+  // === Maladies ===
+  '2026-10-24': { word: 'maladie', members: ['fièvre', 'rhume', 'grippe', 'toux', 'angine', 'allergie', 'infection', 'virus', 'symptôme', 'médicament', 'traitement', 'guérison'] },
+&nbsp;
+  // === Bricolage ===
+  '2026-10-25': { word: 'bricolage', members: ['marteau', 'tournevis', 'scie', 'perceuse', 'clou', 'vis', 'planche', 'mesurer', 'établi', 'atelier', 'rénovation', 'peinture'] },
+&nbsp;
+  // === Plantes carnivores etc ===
+  '2026-10-26': { word: 'palmier', members: ['datte', 'coco', 'tropique', 'plage', 'feuille', 'tronc', 'oasis', 'savane', 'cocotier', 'sagoutier', 'éventail', 'palme'] },
+&nbsp;
+  // === Carnaval déjà fait ===
+&nbsp;
+  // === Médecine ===
+  '2026-10-27': { word: 'médicament', members: ['comprimé', 'gélule', 'sirop', 'pommade', 'ampoule', 'pilule', 'ordonnance', 'pharmacie', 'posologie', 'antibiotique', 'antalgique', 'placebo'] },
+&nbsp;
+  // === Plantes succulentes ===
+  '2026-10-28': { word: 'verger', members: ['pommier', 'poirier', 'cerisier', 'prunier', 'arbre', 'fruit', 'récolte', 'branche', 'panier', 'espalier', 'cueillette', 'ruche'] },
+&nbsp;
+  // OOPS duplicate. Replace.
+&nbsp;
+  // === Bijoux suite ===
+  '2026-10-29': { word: 'pierre', members: ['rubis', 'saphir', 'émeraude', 'diamant', 'topaze', 'opale', 'turquoise', 'jade', 'améthyste', 'perle', 'agate', 'lapis'] },
+&nbsp;
+  // === Boissons spéciales ===
+  '2026-10-30': { word: 'cocktail', members: ['sangria', 'punch', 'paille', 'martini', 'apéritif', 'bar', 'gin', 'rhum', 'vodka', 'shaker', 'glaçon', 'ombrelle'] },
+  '2026-10-31': { word: 'bière', members: ['blonde', 'brune', 'ambrée', 'pression', 'mousse', 'houblon', 'malt', 'trappiste', 'abbaye', 'stout', 'bock', 'bouteille'] },
+&nbsp;
+  // ===== Novembre 2026 =====
+  '2026-11-01': { word: 'pirate', members: ['drapeau', 'sabre', 'mât', 'trésor', 'crâne', 'bandeau', 'perroquet', 'jambe', 'capitaine', 'galion', 'abordage', 'corsaire'] },
+  '2026-11-02': { word: 'chevalier', members: ['armure', 'épée', 'bouclier', 'lance', 'casque', 'écuyer', 'tournoi', 'joute', 'château', 'roi', 'dame', 'destrier'] },
+&nbsp;
+  // === Mythologie ===
+  '2026-11-03': { word: 'légende', members: ['héros', 'dragon', 'sorcier', 'épée', 'roi', 'mythe', 'épopée', 'fée', 'magie', 'enchantement', 'aventure', 'merveille'] },
+&nbsp;
+  // === Sport plus ===
+  '2026-11-04': { word: 'judo', members: ['kimono', 'ceinture', 'tatami', 'prise', 'projection', 'immobilisation', 'arbitre', 'salut', 'noir', 'blanc', 'maître', 'ippon'] },
+  '2026-11-05': { word: 'boxe', members: ['gant', 'ring', 'arbitre', 'rond', 'crochet', 'uppercut', 'frappe', 'direct', 'esquive', 'garde', 'knock-out', 'punching-ball'] },
+&nbsp;
+  // === Bâtiments mots ===
+  '2026-11-06': { word: 'porte', members: ['poignée', 'serrure', 'verrou', 'gond', 'battant', 'panneau', 'clé', 'judas', 'sonnette', 'paillasson', 'seuil', 'huisserie'] },
+  '2026-11-07': { word: 'fenêtre', members: ['vitre', 'volet', 'rideau', 'persienne', 'lucarne', 'oculus', 'tabatière', 'baie', 'croisée', 'verre', 'encadrement', 'imposte'] },
+&nbsp;
+  // === Magie / sciences occultes ===
+  '2026-11-08': { word: 'magie', members: ['baguette', 'sortilège', 'potion', 'enchanteur', 'sorcier', 'magicien', 'tour', 'illusion', 'incantation', 'grimoire', 'charme', 'ensorceler'] },
+&nbsp;
+  // === Émotions détails ===
+  '2026-11-09': { word: 'joie', members: ['rire', 'bonheur', 'sourire', 'gaieté', 'allégresse', 'jubilation', 'extase', 'enchantement', 'ravissement', 'liesse', 'félicité', 'éclat'] },
+  '2026-11-10': { word: 'peur', members: ['frayeur', 'terreur', 'angoisse', 'phobie', 'effroi', 'panique', 'frisson', 'cauchemar', 'monstre', 'sueurs', 'cri', 'fuite'] },
+  '2026-11-11': { word: 'colère', members: ['rage', 'fureur', 'courroux', 'irritation', 'crise', 'éclat', 'tempête', 'hurler', 'rouge', 'agressif', 'emporter', 'fâcher'] },
+&nbsp;
+  // === Plus de plantes ===
+  '2026-11-12': { word: 'orchidée', members: ['pétale', 'sépale', 'tige', 'vanille', 'cattleya', 'tropicale', 'pot', 'serre', 'mousse', 'racine', 'aérienne', 'parfum'] },
+&nbsp;
+  // === Plus d'animaux ===
+  '2026-11-13': { word: 'serpent', members: ['cobra', 'vipère', 'python', 'boa', 'couleuvre', 'anaconda', 'écaille', 'venin', 'crochet', 'reptile', 'mue', 'sifflement'] },
+  '2026-11-14': { word: 'ours', members: ['polaire', 'brun', 'grizzli', 'panda', 'griffe', 'hiver', 'hibernation', 'miel', 'forêt', 'plantigrade', 'ourson', 'fourrure'] },
+&nbsp;
+  // === Métiers plus ===
+  '2026-11-15': { word: 'boulanger', members: ['four', 'pain', 'baguette', 'pâte', 'levure', 'farine', 'pétrin', 'mie', 'croissant', 'brioche', 'apprenti', 'fournil'] },
+  '2026-11-16': { word: 'coiffeur', members: ['ciseaux', 'shampoing', 'brosse', 'peigne', 'sèche-cheveux', 'tondeuse', 'coupe', 'mise', 'permanente', 'teinture', 'salon', 'baccarat'] },
+&nbsp;
+  // === Plus de météo ===
+  '2026-11-17': { word: 'orage', members: ['éclair', 'tonnerre', 'foudre', 'pluie', 'tempête', 'nuage', 'vent', 'grêle', 'averse', 'rafale', 'illumination', 'détonation'] },
+  '2026-11-18': { word: 'brouillard', members: ['brume', 'gouttelette', 'humide', 'opaque', 'visibilité', 'nuage', 'matinée', 'voile', 'épais', 'givre', 'phare', 'fanal'] },
+&nbsp;
+  // === Outils suite ===
+  '2026-11-19': { word: 'aiguille', members: ['couture', 'fil', 'épingle', 'pelote', 'dé', 'tricot', 'broderie', 'piqûre', 'coussinet', 'crochet', 'aiguillée', 'enfilage'] },
+&nbsp;
+  // === Plus d'objets divers ===
+  '2026-11-20': { word: 'parapluie', members: ['baleine', 'manche', 'toile', 'pliable', 'pluie', 'protection', 'fermé', 'ouvert', 'imperméable', 'crochet', 'pointe', 'canne'] },
+&nbsp;
+  // === Plus métiers ===
+  '2026-11-21': { word: 'enseignant', members: ['classe', 'élève', 'cours', 'leçon', 'professeur', 'maître', 'tableau', 'cahier', 'manuel', 'institut', 'pédagogie', 'instituteur'] },
+&nbsp;
+  // === Vêtements suite ===
+  '2026-11-22': { word: 'manteau', members: ['col', 'manche', 'boutonnière', 'doublure', 'capuche', 'parka', 'pardessus', 'imperméable', 'duffel-coat', 'caban', 'redingote', 'paletot'] },
+&nbsp;
+  // === Ville objets ===
+  '2026-11-23': { word: 'lampadaire', members: ['rue', 'éclairage', 'mât', 'globe', 'ampoule', 'fonte', 'illumination', 'piéton', 'place', 'avenue', 'boulevard', 'crochet'] },
+&nbsp;
+  // === Animaux suite ===
+  '2026-11-24': { word: 'papillon', members: ['aile', 'antenne', 'chrysalide', 'cocon', 'larve', 'chenille', 'monarque', 'machaon', 'fleur', 'nectar', 'envergure', 'écaille'] },
+  '2026-11-25': { word: 'abeille', members: ['ruche', 'miel', 'cire', 'reine', 'ouvrière', 'dard', 'piqûre', 'nectar', 'pollen', 'butiner', 'essaim', 'apiculteur'] },
+&nbsp;
+  // === Plus de boissons ===
+  '2026-11-26': { word: 'eau', members: ['minérale', 'gazeuse', 'plate', 'source', 'fontaine', 'robinet', 'verre', 'bouteille', 'pichet', 'cruche', 'rafraîchissement', 'ruisseau'] },
+&nbsp;
+  // === Plus de pays/géo ===
+  '2026-11-27': { word: 'fleuve', members: ['source', 'embouchure', 'estuaire', 'affluent', 'rive', 'crue', 'inondation', 'delta', 'pont', 'barge', 'péniche', 'navigation'] },
+&nbsp;
+  // === Plus mer ===
+  '2026-11-28': { word: 'vague', members: ['déferlement', 'crête', 'creux', 'rouleau', 'écume', 'ressac', 'houle', 'bord', 'marée', 'plage', 'surf', 'tsunami'] },
+&nbsp;
+  // === Sport mer ===
+  '2026-11-29': { word: 'plongée', members: ['masque', 'tuba', 'palme', 'bouteille', 'combinaison', 'profondeur', 'corail', 'épave', 'plongeur', 'décompression', 'apnée', 'oxygène'] },
+&nbsp;
+  // === Plus émotions ===
+  '2026-11-30': { word: 'amour', members: ['coeur', 'romance', 'baiser', 'tendresse', 'passion', 'affection', 'adoration', 'flirt', 'désir', 'idylle', 'jalousie', 'attirance'] },
+&nbsp;
+  // ===== Décembre 2026 =====
+  '2026-12-01': { word: 'tristesse', members: ['chagrin', 'mélancolie', 'larme', 'sanglot', 'deuil', 'peine', 'morosité', 'cafard', 'dépression', 'nostalgie', 'soupir', 'affliction'] },
+&nbsp;
+  // === Bricolage matériaux ===
+  '2026-12-02': { word: 'métal', members: ['fer', 'acier', 'cuivre', 'or', 'argent', 'bronze', 'aluminium', 'zinc', 'plomb', 'étain', 'nickel', 'titane'] },
+  '2026-12-03': { word: 'bois', members: ['tronc', 'planche', 'branche', 'écorce', 'noeud', 'sciure', 'copeau', 'chêne', 'pin', 'menuiserie', 'ébénisterie', 'charpente'] },
+&nbsp;
+  // === Objets précieux ===
+  '2026-12-04': { word: 'or', members: ['lingot', 'pépite', 'paillette', 'mine', 'bijou', 'alliance', 'collier', 'pièce', 'fin', 'jaune', 'rose', 'orfèvre'] },
+&nbsp;
+  // === Plus de fleurs ===
+  '2026-12-05': { word: 'bouquet', members: ['fleur', 'rose', 'tulipe', 'mariée', 'cérémonie', 'fleuriste', 'composition', 'ruban', 'feuillage', 'gerbe', 'corbeille', 'piquet'] },
+&nbsp;
+  // === Maison plus ===
+  '2026-12-06': { word: 'toit', members: ['tuile', 'ardoise', 'cheminée', 'gouttière', 'lucarne', 'pente', 'faîte', 'mansarde', 'pignon', 'antenne', 'chaume', 'charpente'] },
+  '2026-12-07': { word: 'mur', members: ['briques', 'pierre', 'béton', 'crépi', 'enduit', 'cloison', 'parpaing', 'mortier', 'plâtre', 'peinture', 'tapisserie', 'fissure'] },
+&nbsp;
+  // === Animaux suite ===
+  '2026-12-08': { word: 'rapace', members: ['aigle', 'faucon', 'vautour', 'buse', 'milan', 'hibou', 'chouette', 'épervier', 'condor', 'gypaète', 'harpie', 'proie'] },
+&nbsp;
+  // OOPS — duplicate of 2026-05-04. Replace.
+  '2026-12-09': { word: 'aigle', members: ['plume', 'serre', 'bec', 'envergure', 'rapace', 'royale', 'pygargue', 'aire', 'planer', 'vol', 'nid', 'aiglon'] },
+&nbsp;
+  // === Plus de plantes ===
+  '2026-12-10': { word: 'algue', members: ['mer', 'marée', 'vert', 'rouge', 'brun', 'varech', 'laminaire', 'sargasse', 'rocher', 'écume', 'marin', 'plancton'] },
+&nbsp;
+  // === Plus instruments ===
+  '2026-12-11': { word: 'guitare', members: ['corde', 'manche', 'caisse', 'vibrato', 'accord', 'luthier', 'frette', 'tête', 'sillet', 'chevalet', 'électrique', 'acoustique'] },
+  '2026-12-12': { word: 'violon', members: ['archet', 'corde', 'manche', 'mentonnière', 'colophane', 'pupitre', 'partition', 'soliste', 'orchestre', 'sonate', 'concerto', 'crin'] },
+&nbsp;
+  // === Lieux de jeu ===
+  '2026-12-13': { word: 'stade', members: ['terrain', 'gradin', 'tribune', 'pelouse', 'piste', 'spectateur', 'supporter', 'match', 'compétition', 'sportif', 'tournoi', 'arène'] },
+&nbsp;
+  // === Pays / régions ===
+  '2026-12-14': { word: 'région', members: ['province', 'département', 'frontière', 'capitale', 'préfecture', 'commune', 'territoire', 'limite', 'localité', 'patrimoine', 'culture', 'parler'] },
+&nbsp;
+  // === Aliments fins ===
+  '2026-12-15': { word: 'truffe', members: ['noir', 'blanc', 'champignon', 'rare', 'arôme', 'cochon', 'chien', 'forêt', 'gastronomie', 'luxe', 'délice', 'gourmandise'] },
+&nbsp;
+  // === Vie quotidienne ===
+  '2026-12-16': { word: 'ménage', members: ['balai', 'aspirateur', 'serpillière', 'chiffon', 'éponge', 'savon', 'détergent', 'poussière', 'lessive', 'nettoyer', 'épousseter', 'briquer'] },
+&nbsp;
+  // === Plus ===
+  '2026-12-17': { word: 'serre', members: ['vitre', 'chaleur', 'plante', 'semis', 'plantation', 'verre', 'humide', 'tropical', 'exotique', 'géranium', 'soleil', 'horticulture'] },
+&nbsp;
+  // OOPS — duplicate of 06-07. Replace.
+  '2026-12-18': { word: 'potager', members: ['légume', 'tomate', 'carotte', 'salade', 'haricot', 'courgette', 'arrosoir', 'jardinier', 'rang', 'graine', 'binette', 'parcelle'] },
+&nbsp;
+  // === Mode ===
+  '2026-12-19': { word: 'mode', members: ['défilé', 'collection', 'styliste', 'mannequin', 'podium', 'couture', 'haute', 'tendance', 'griffe', 'créateur', 'magazine', 'chic'] },
+&nbsp;
+  // === Plus de météo ===
+  '2026-12-20': { word: 'glace', members: ['gel', 'givre', 'iceberg', 'banquise', 'glacier', 'patinoire', 'glaçon', 'verglas', 'cristallin', 'fonte', 'antarctique', 'arctique'] },
+&nbsp;
+  // === Outils suite ===
+  '2026-12-21': { word: 'tournevis', members: ['vis', 'boulonner', 'plat', 'embout', 'manche', 'serrer', 'desserrer', 'rotation', 'pas', 'bricolage', 'établi', 'kit'] },
+&nbsp;
+  // === Bijoux ===
+  '2026-12-22': { word: 'collier', members: ['perle', 'diamant', 'fermoir', 'chaîne', 'pendentif', 'sautoir', 'ras', 'cou', 'tour', 'rang', 'maille', 'bijoutier'] },
+&nbsp;
+  // === Cuisine ===
+  '2026-12-23': { word: 'four', members: ['cuisson', 'résistance', 'gril', 'porte', 'thermostat', 'lèchefrite', 'tournebroche', 'fourneau', 'rôtir', 'pâtissier', 'pizza', 'plat'] },
+&nbsp;
+  // === Liquides ===
+  '2026-12-24': { word: 'liquide', members: ['eau', 'lait', 'huile', 'jus', 'sirop', 'fluide', 'gouttelette', 'verser', 'transvaser', 'boisson', 'épancher', 'cascade'] },
+&nbsp;
+  // === Concept ===
+  '2026-12-25': { word: 'silence', members: ['calme', 'tranquillité', 'tu', 'muet', 'mutisme', 'paix', 'recueillement', 'discrétion', 'pause', 'sourdine', 'pianissimo', 'taire'] },
+&nbsp;
+  // === Forme ===
+  '2026-12-26': { word: 'forme', members: ['cercle', 'carré', 'triangle', 'rectangle', 'losange', 'ovale', 'rond', 'sphère', 'cube', 'cylindre', 'pyramide', 'cône'] },
+&nbsp;
+  // === Mer animaux suite ===
+  '2026-12-27': { word: 'méduse', members: ['tentacule', 'ombrelle', 'piqûre', 'plancton', 'transparente', 'eau', 'mer', 'polype', 'urticante', 'flottante', 'dériver', 'gélatineuse'] },
+&nbsp;
+  // === Cuisine spéciale ===
+  '2026-12-28': { word: 'pizza', members: ['pâte', 'tomate', 'fromage', 'olive', 'jambon', 'champignon', 'origan', 'four', 'anchois', 'napolitaine', 'reine', 'garniture'] },
+&nbsp;
+  // === Insectes suite ===
+  '2026-12-29': { word: 'fourmi', members: ['fourmilière', 'reine', 'ouvrière', 'soldat', 'antenne', 'mandibule', 'colonie', 'piste', 'défilé', 'larve', 'travail', 'cigale'] },
+&nbsp;
+  // === Plus de plantes ===
+  '2026-12-30': { word: 'plante', members: ['feuille', 'tige', 'racine', 'fleur', 'bourgeon', 'graine', 'pot', 'arroser', 'photosynthèse', 'chlorophylle', 'verdure', 'engrais'] },
+&nbsp;
+  // === Plus de couleurs ===
+  '2026-12-31': { word: 'rouge', members: ['écarlate', 'cramoisi', 'rubis', 'vermillon', 'pourpre', 'carmin', 'corail', 'cerise', 'tomate', 'feu', 'sang', 'brique'] },
+&nbsp;
+  // ===== Janvier 2027 =====
+  '2027-01-01': { word: 'concert', members: ['salle', 'scène', 'musicien', 'chanteur', 'public', 'applaudissement', 'billet', 'micro', 'sono', 'première', 'bis', 'fosse'] },
+&nbsp;
+  // OOPS dup with 2026-07-31. Skip — replace with new theme.
+  '2027-01-02': { word: 'feu', members: ['flamme', 'braise', 'fumée', 'cendre', 'allumette', 'briquet', 'bûche', 'âtre', 'cheminée', 'incendie', 'brasier', 'pompier'] },
+&nbsp;
+  // === Outils transport ===
+  '2027-01-03': { word: 'roue', members: ['pneu', 'jante', 'rayon', 'moyeu', 'voiture', 'vélo', 'crevaison', 'caoutchouc', 'amortisseur', 'enjoliveur', 'chambre', 'valve'] },
+&nbsp;
+  // === Lectures ===
+  '2027-01-04': { word: 'écriture', members: ['stylo', 'plume', 'encre', 'papier', 'lettre', 'alphabet', 'mot', 'phrase', 'texte', 'graphisme', 'calligraphie', 'clavier'] },
+&nbsp;
+  // === Sport hiver ===
+  '2027-01-05': { word: 'patinage', members: ['glace', 'piste', 'patinoire', 'figure', 'arabesque', 'pirouette', 'saut', 'glisser', 'collant', 'lame', 'roulette', 'patinette'] },
+&nbsp;
+  // === Pays détails ===
+  '2027-01-06': { word: 'drapeau', members: ['mât', 'étoile', 'bande', 'couleur', 'emblème', 'écusson', 'oriflamme', 'fanion', 'national', 'tricolore', 'étendard', 'bannière'] },
+&nbsp;
+  // === Plus émotions ===
+  '2027-01-07': { word: 'bonheur', members: ['joie', 'sourire', 'plaisir', 'félicité', 'béatitude', 'allégresse', 'bien-être', 'sérénité', 'plénitude', 'ravissement', 'contentement', 'enchantement'] },
+&nbsp;
+  // === Sciences ===
+  '2027-01-08': { word: 'physique', members: ['force', 'masse', 'énergie', 'gravité', 'vitesse', 'accélération', 'pression', 'onde', 'particule', 'électron', 'photon', 'atome'] },
+&nbsp;
+  // === Histoire ===
+  '2027-01-09': { word: 'histoire', members: ['époque', 'siècle', 'roi', 'reine', 'révolution', 'guerre', 'paix', 'traité', 'empire', 'antiquité', 'moyen-âge', 'archive'] },
+&nbsp;
+  // === Plus de transports ===
+  '2027-01-10': { word: 'camion', members: ['cabine', 'remorque', 'benne', 'plateau', 'chauffeur', 'cargo', 'transport', 'livraison', 'route', 'frigorifique', 'citerne', 'marchandise'] },
+&nbsp;
+  // === Plus métiers ===
+  '2027-01-11': { word: 'médecin', members: ['stéthoscope', 'cabinet', 'consultation', 'ordonnance', 'patient', 'diagnostic', 'généraliste', 'spécialiste', 'hôpital', 'blouse', 'soigner', 'guérir'] },
+  '2027-01-12': { word: 'pompier', members: ['caserne', 'incendie', 'lance', 'feu', 'casque', 'échelle', 'sauvetage', 'sirène', 'tuyau', 'extincteur', 'fumée', 'urgence'] },
+&nbsp;
+  // === Boulanger - déjà fait ===
+&nbsp;
+  // === Plus de fromage déjà fait ===
+&nbsp;
+  // === Plus animaux ===
+  '2027-01-13': { word: 'vache', members: ['lait', 'pis', 'corne', 'sabot', 'meuglement', 'pré', 'troupeau', 'veau', 'taureau', 'génisse', 'bovin', 'normande'] },
+&nbsp;
+  // === Plus ville ===
+  '2027-01-14': { word: 'magasin', members: ['vitrine', 'rayon', 'caisse', 'vendeur', 'client', 'enseigne', 'présentoir', 'cabine', 'étalage', 'panier', 'comptoir', 'soldes'] },
+&nbsp;
+  // === Plus art ===
+  '2027-01-15': { word: 'dessin', members: ['crayon', 'gomme', 'feuille', 'esquisse', 'croquis', 'caricature', 'pastel', 'fusain', 'mine', 'plume', 'pochade', 'trait'] },
+&nbsp;
+  // === Outils suite ===
+  '2027-01-16': { word: 'pince', members: ['tenailler', 'levier', 'serrer', 'tenir', 'étau', 'pincer', 'tenaille', 'mâchoire', 'crocodile', 'becs', 'épiler', 'plier'] },
+&nbsp;
+  // === Plus de boissons ===
+  '2027-01-17': { word: 'soda', members: ['gazeux', 'bulle', 'sucré', 'limonade', 'cola', 'orange', 'glaçon', 'tonic', 'canette', 'rafraîchissement', 'pétillant', 'sirop'] },
+&nbsp;
+  // === Mer ===
+  '2027-01-18': { word: 'sable', members: ['plage', 'dune', 'grain', 'fin', 'mer', 'château', 'sablière', 'désert', 'crique', 'rivage', 'sablon', 'poudre'] },
+&nbsp;
+  // === Plus de plantes ===
+  '2027-01-19': { word: 'roseau', members: ['marais', 'étang', 'tige', 'plume', 'jonc', 'papyrus', 'rivière', 'rive', 'osier', 'panier', 'vannerie', 'bambou'] },
+&nbsp;
+  // === Cinéma plus ===
+  '2027-01-20': { word: 'acteur', members: ['rôle', 'carrière', 'audition', 'cachet', 'star', 'célèbre', 'oscar', 'césar', 'comédien', 'interprète', 'cinéma', 'théâtre'] },
+&nbsp;
+  // === Plus de musique ===
+  '2027-01-21': { word: 'chanson', members: ['couplet', 'refrain', 'mélodie', 'parole', 'chanteur', 'interprète', 'tube', 'titre', 'album', 'single', 'duo', 'reprise'] },
+&nbsp;
+  // === Plus émotions ===
+  '2027-01-22': { word: 'surprise', members: ['étonnement', 'stupeur', 'ébahissement', 'choc', 'inattendu', 'incroyable', 'mystère', 'révélation', 'soudain', 'rebondissement', 'coup', 'imprévu'] },
+&nbsp;
+  // === Plus de nourriture ===
+  '2027-01-23': { word: 'oeuf', members: ['blanc', 'jaune', 'coquille', 'omelette', 'poule', 'poussin', 'pâques', 'cocotte', 'mollet', 'dur', 'plat', 'oeufrier'] },
+&nbsp;
+  // === Famille ===
+  '2027-01-24': { word: 'mère', members: ['maman', 'famille', 'enfant', 'fils', 'fille', 'maternel', 'accoucher', 'nourrir', 'éduquer', 'maternité', 'parent', 'aimer'] },
+  '2027-01-25': { word: 'père', members: ['papa', 'famille', 'enfant', 'fils', 'fille', 'paternel', 'protéger', 'éduquer', 'patriarche', 'géniteur', 'parent', 'figure'] },
+&nbsp;
+  // === Plus instruments ===
+  '2027-01-26': { word: 'flûte', members: ['traversière', 'bec', 'embouchure', 'piccolo', 'clé', 'argent', 'bois', 'orchestre', 'soliste', 'mélodie', 'aigu', 'enchanteur'] },
+&nbsp;
+  // === Métiers suite ===
+  '2027-01-27': { word: 'cuisinier', members: ['toque', 'tablier', 'four', 'casserole', 'recette', 'chef', 'commis', 'plat', 'mijoter', 'rôtir', 'restaurant', 'gastronomie'] },
+&nbsp;
+  // === Plus de boissons ===
+  '2027-01-28': { word: 'lait', members: ['vache', 'pis', 'crémier', 'caillé', 'pasteurisé', 'écrémé', 'entier', 'beurre', 'fromage', 'yaourt', 'biberon', 'maternel'] },
+&nbsp;
+  // === Plus de fruits ===
+  '2027-01-29': { word: 'pomme', members: ['golden', 'reinette', 'gala', 'fuji', 'tarte', 'compote', 'jus', 'cidre', 'pommier', 'verger', 'croquer', 'pépin'] },
+&nbsp;
+  // === Plus de météo ===
+  '2027-01-30': { word: 'arc-en-ciel', members: ['couleur', 'pluie', 'soleil', 'spectre', 'prisme', 'rouge', 'orange', 'jaune', 'vert', 'bleu', 'indigo', 'violet'] },
+&nbsp;
+  // === Final ===
+  '2027-01-31': { word: 'fin', members: ['terme', 'conclusion', 'achèvement', 'arrêt', 'dénouement', 'achever', 'terminer', 'final', 'extrémité', 'épilogue', 'cesser', 'aboutir'] },
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-11T18:12:10.378Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

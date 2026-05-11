@@ -32,3 +32,16 @@ export function aggregateCompletion(statuses: readonly CompletionStatus[]): Comp
   if (statuses.every((s) => s !== 'unsolved')) return 'solved'
   return 'unsolved'
 }
+
+/**
+ * Choix de la variante d'overlay de victoire en fonction du score réalisé.
+ * `perfect` si objectif respecté (`moves ≤ parMoves`), `solved` sinon.
+ * Si `parMoves` est indéfini, retombe sur `perfect`.
+ */
+export function victoryVariant(
+  moves: number,
+  parMoves: number | undefined,
+): 'perfect' | 'solved' {
+  if (parMoves === undefined) return 'perfect'
+  return moves <= parMoves ? 'perfect' : 'solved'
+}

@@ -1,8 +1,9 @@
 import { useEffect, useReducer, useState } from 'react'
-import { Link, useParams } from 'react-router'
+import { useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { LevelNotFound } from '~/components/LevelNotFound'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
@@ -11,6 +12,7 @@ import { Board } from '~/games/sokomot/Board'
 import { getAllDates, getLevel } from '~/games/sokomot/challenges'
 import { applyMove, isWon, loadLevel, reset, undo } from '~/games/sokomot/engine'
 import type { Direction, GameState } from '~/games/sokomot/types'
+import { victoryVariant } from '~/lib/completion'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
@@ -86,21 +88,11 @@ function SokomotPlay() {
   })
 
   if (!level || !date) {
-    return (
-      <GameLayout title="Niveau introuvable" backHref="/sokomot">
-        <p className="text-gray-600 dark:text-gray-300">
-          Ce niveau n'existe pas.{' '}
-          <Link to="/sokomot" className="underline">
-            Retour
-          </Link>
-          .
-        </p>
-      </GameLayout>
-    )
+    return <LevelNotFound backHref="/sokomot" />
   }
 
   const beatPar = level.parMoves !== undefined && state.moves <= level.parMoves
-  const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+  const variant = victoryVariant(state.moves, level.parMoves)
 
   return (
     <GameLayout
@@ -114,7 +106,7 @@ function SokomotPlay() {
         overlay={
           <VictoryOverlay
             show={showVictory}
-            variant={victoryVariant}
+            variant={variant}
             title={beatPar ? 'Niveau parfait !' : 'Niveau résolu'}
             detail={
               <>

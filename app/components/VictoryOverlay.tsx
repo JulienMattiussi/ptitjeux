@@ -104,7 +104,6 @@ export function VictoryOverlay({
           return
         case 'Enter':
         case ' ':
-        case 'Spacebar':
           event.preventDefault()
           onReset()
           return

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { aggregateCompletion, completionStatus } from '~/lib/completion'
+import { aggregateCompletion, completionStatus, victoryVariant } from '~/lib/completion'
 
 describe('lib/completion — completionStatus', () => {
   it('unsolved sans progression', () => {
@@ -48,5 +48,20 @@ describe('lib/completion — aggregateCompletion', () => {
   it('unsolved si au moins un non terminé', () => {
     expect(aggregateCompletion(['perfect', 'perfect', 'unsolved', 'perfect'])).toBe('unsolved')
     expect(aggregateCompletion(['solved', 'unsolved'])).toBe('unsolved')
+  })
+})
+
+describe('lib/completion — victoryVariant', () => {
+  it('perfect si moves <= parMoves', () => {
+    expect(victoryVariant(5, 10)).toBe('perfect')
+    expect(victoryVariant(10, 10)).toBe('perfect')
+  })
+
+  it('solved si moves > parMoves', () => {
+    expect(victoryVariant(12, 10)).toBe('solved')
+  })
+
+  it('perfect si parMoves est undefined', () => {
+    expect(victoryVariant(99, undefined)).toBe('perfect')
   })
 })

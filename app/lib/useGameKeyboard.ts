@@ -7,13 +7,27 @@ const KEY_TO_DIRECTION: Record<string, GameKeyDirection> = {
   ArrowDown: 'down',
   ArrowLeft: 'left',
   ArrowRight: 'right',
+  // QWERTY : WASD
   w: 'up',
   s: 'down',
   a: 'left',
   d: 'right',
+  // AZERTY : ZQSD (mêmes touches physiques, caractères produits différents)
+  z: 'up',
+  q: 'left',
 }
 
-const ACTION_KEYS = new Set([' ', 'Spacebar', 'Enter'])
+// `event.code` cible la position physique de la touche, indépendamment de la
+// disposition : permet de couvrir QWERTZ et autres dispositions sans surcharger
+// `KEY_TO_DIRECTION`.
+const CODE_TO_DIRECTION: Record<string, GameKeyDirection> = {
+  KeyW: 'up',
+  KeyA: 'left',
+  KeyS: 'down',
+  KeyD: 'right',
+}
+
+const ACTION_KEYS = new Set([' ', 'Enter'])
 
 type Options = {
   enabled: boolean
@@ -57,15 +71,18 @@ export function useGameKeyboard({
         }
       }
 
-      const direction = KEY_TO_DIRECTION[event.key]
-      if (direction && onDirection) {
-        event.preventDefault()
-        onDirection(direction)
-        return
-      }
+      // Ctrl/Cmd+Z avant le mapping directionnel : sur AZERTY, `z` est
+      // aliasé sur « up », il ne faut pas le consommer comme déplacement
+      // quand le joueur essaie de faire undo.
       if (onUndo && event.key === 'z' && (event.ctrlKey || event.metaKey)) {
         event.preventDefault()
         onUndo()
+        return
+      }
+      const direction = KEY_TO_DIRECTION[event.key] ?? CODE_TO_DIRECTION[event.code]
+      if (direction && onDirection) {
+        event.preventDefault()
+        onDirection(direction)
         return
       }
       if (onAction && ACTION_KEYS.has(event.key)) {

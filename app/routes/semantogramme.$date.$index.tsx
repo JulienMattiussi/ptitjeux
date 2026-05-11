@@ -1,8 +1,9 @@
-import { useEffect, useReducer, useRef, useState } from 'react'
-import { Link, useParams } from 'react-router'
+import { useEffect, useReducer, useState } from 'react'
+import { useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { LevelNotFound } from '~/components/LevelNotFound'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
@@ -20,7 +21,10 @@ import {
   setThemeGuess,
 } from '~/games/semantogramme/engine'
 import type { GameState } from '~/games/semantogramme/types'
+import { victoryVariant } from '~/lib/completion'
+import { moveCellCursor } from '~/lib/cursor'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
 type Action =
@@ -64,30 +68,14 @@ function SemantogrammePlay() {
 
   // Sélection au clavier sur la grille : flèches déplacent, Espace cycle.
   const [selected, setSelected] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
-  const selectedRef = useRef(selected)
-  useEffect(() => {
-    selectedRef.current = selected
-  }, [selected])
+  const selectedRef = useLatestRef(selected)
 
   useGameKeyboard({
     enabled: !!level && !won && !gridSolved,
     ignoreInputs: true,
     onDirection: (direction) => {
       if (!level) return
-      const w = level.width
-      const h = level.height
-      setSelected((s) => {
-        switch (direction) {
-          case 'left':
-            return { x: Math.max(0, s.x - 1), y: s.y }
-          case 'right':
-            return { x: Math.min(w - 1, s.x + 1), y: s.y }
-          case 'up':
-            return { x: s.x, y: Math.max(0, s.y - 1) }
-          case 'down':
-            return { x: s.x, y: Math.min(h - 1, s.y + 1) }
-        }
-      })
+      setSelected((s) => moveCellCursor(s, direction, level.width, level.height))
     },
     onAction: () => {
       dispatch({
@@ -103,7 +91,7 @@ function SemantogrammePlay() {
     if (level) prefetchDefinition(level.themeWord)
   }, [level])
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
-  const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+  const variant = victoryVariant(state.moves, level?.parMoves)
 
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({
@@ -116,17 +104,7 @@ function SemantogrammePlay() {
   })
 
   if (!level || !date) {
-    return (
-      <GameLayout title="Niveau introuvable" backHref="/semantogramme">
-        <p className="text-gray-600 dark:text-gray-300">
-          Ce niveau n'existe pas.{' '}
-          <Link to="/semantogramme" className="underline">
-            Retour
-          </Link>
-          .
-        </p>
-      </GameLayout>
-    )
+    return <LevelNotFound backHref="/semantogramme" />
   }
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -150,7 +128,7 @@ function SemantogrammePlay() {
         overlay={
           <VictoryOverlay
             show={won}
-            variant={victoryVariant}
+            variant={variant}
             title={beatPar ? 'Thème trouvé !' : 'Thème trouvé'}
             detail={
               <>

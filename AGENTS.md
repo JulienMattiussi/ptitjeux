@@ -113,10 +113,13 @@ Tout pattern partagé entre les 3 jeux doit vivre dans `app/lib/` ou `app/compon
 | Couleurs/accents par jeu | `app/lib/game-styles.ts` (`GAME_ACCENT`, `GAME_SIZE`, `isIceLevel`) |
 | Catalogue des jeux | `app/lib/games-registry.ts` |
 | Chargement des niveaux JSON | `app/lib/challenges-loader.ts` (`buildChallengeIndex`) |
-| Clavier dans une page de jeu | `app/lib/useGameKeyboard.ts` (flèches + ZQSD + Espace/Entrée + Ctrl+Z + R) |
+| Clavier dans une page de jeu | `app/lib/useGameKeyboard.ts` (flèches + ZQSD/WASD + Espace/Entrée + Ctrl+Z + R) |
 | Cycle de vie d'une partie | `app/lib/useLevelPlayLifecycle.ts` (isToday, dateChip, nextHref, écriture progression) |
 | Lecture progression | `app/lib/useLocalProgress.ts` + `app/lib/localStorage.ts` |
-| Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`) |
+| Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`, `victoryVariant`) |
+| Curseur de case (clavier) | `app/lib/cursor.ts` (`moveCellCursor`) |
+| Ref toujours à jour | `app/lib/useLatestRef.ts` |
+| Page « niveau introuvable » | `app/components/LevelNotFound.tsx` |
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |
 
 Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas déjà** un équivalent dans `lib/` ou `components/`. Avant de copier-coller du code entre 2 routes/jeux, **extraire** dans `lib/`.
@@ -187,7 +190,7 @@ Toute interaction de jeu doit être faisable **sans souris**. Convention partag�
 
 | Touche | Action |
 |---|---|
-| Flèches **↑↓←→** ou **ZQSD** | Déplacer le curseur (Boucle, Sémantogramme) ou le joueur (Sokomot) |
+| Flèches **↑↓←→**, **ZQSD** (AZERTY) ou **WASD** (QWERTY) | Déplacer le curseur (Boucle, Sémantogramme) ou le joueur (Sokomot) |
 | **Espace** ou **Entrée** | Action principale (toggle arête, cycle case, etc.) |
 | **Ctrl+Z** / **Cmd+Z** | Annuler le dernier coup (Sokomot) |
 | **R** | Recommencer le niveau (Sokomot) |
@@ -302,7 +305,7 @@ Sans ce wrapper, le `useReducer` interne garde l'état du niveau précédent qua
 | `make install` | Installer les dépendances |
 | `make start` | Démarrer le serveur de développement |
 | `make build` | Compiler pour la production |
-| `make test` | Lancer les tests Vitest (171 tests à ce jour) |
+| `make test` | Lancer les tests Vitest |
 | `make test-coverage` | Tests + rapport de couverture v8 |
 | `make typecheck` | Vérifier les types TypeScript |
 | `make fix` | Formater (Prettier) + linter (ESLint) |

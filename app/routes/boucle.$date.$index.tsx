@@ -1,8 +1,9 @@
-import { useEffect, useReducer, useRef, useState } from 'react'
-import { Link, useParams } from 'react-router'
+import { useEffect, useReducer, useState } from 'react'
+import { useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { LevelNotFound } from '~/components/LevelNotFound'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
@@ -20,7 +21,9 @@ import {
   toggleEdge,
 } from '~/games/boucle/engine'
 import type { Edge, GameState } from '~/games/boucle/types'
+import { victoryVariant } from '~/lib/completion'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
 type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }
@@ -83,10 +86,7 @@ function BouclePlay() {
 
   // Sélection au clavier : flèches déplacent l'arête, Espace toggle.
   const [selected, setSelected] = useState<Edge>({ x: 0, y: 0, orientation: 'horizontal' })
-  const selectedRef = useRef(selected)
-  useEffect(() => {
-    selectedRef.current = selected
-  }, [selected])
+  const selectedRef = useLatestRef(selected)
 
   useGameKeyboard({
     enabled: !!level && !won,
@@ -103,7 +103,7 @@ function BouclePlay() {
 
   const loopOk = level ? isValidLoop(state.edges) : false
   const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
-  const victoryVariant: 'perfect' | 'solved' = beatPar ? 'perfect' : 'solved'
+  const variant = victoryVariant(state.moves, level?.parMoves)
 
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({
@@ -116,17 +116,7 @@ function BouclePlay() {
   })
 
   if (!level || !date) {
-    return (
-      <GameLayout title="Niveau introuvable" backHref="/boucle">
-        <p className="text-gray-600 dark:text-gray-300">
-          Ce niveau n'existe pas.{' '}
-          <Link to="/boucle" className="underline">
-            Retour
-          </Link>
-          .
-        </p>
-      </GameLayout>
-    )
+    return <LevelNotFound backHref="/boucle" />
   }
 
   return (
@@ -141,7 +131,7 @@ function BouclePlay() {
         overlay={
           <VictoryOverlay
             show={won}
-            variant={victoryVariant}
+            variant={variant}
             title={beatPar ? 'Boucle parfaite !' : 'Boucle complète'}
             detail={
               <>

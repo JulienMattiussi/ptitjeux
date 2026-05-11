@@ -32,9 +32,16 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 - Niveau quotidien partagé.
 
 ### Format de niveau
+
+> Les niveaux livrés sont indexés `YYYY-MM-DD-N` avec `N ∈ {1, 2, 3, 4}`
+> (4 niveaux par jour, tailles croissantes). Le champ `id` reprend ce
+> format. La structure JSON ci-dessous correspond exactement aux fichiers
+> dans `app/games/sokomot/challenges/<YYYY-MM>/`.
+
 ```json
 {
-  "id": "sokomot-2026-05-07",
+  "id": "2026-05-07-1",
+  "name": "Niveau 1 · 7×6",
   "width": 8,
   "height": 6,
   "player": [1, 1],
@@ -80,7 +87,8 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 ### Format de niveau
 ```json
 {
-  "id": "boucle-2026-05-07",
+  "id": "2026-05-07-1",
+  "name": "Niveau 1 · 4×4",
   "width": 7,
   "height": 7,
   "letters": [
@@ -144,7 +152,8 @@ Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont li
 ### Format de niveau
 ```json
 {
-  "id": "semantogramme-2026-05-07",
+  "id": "2026-05-07-3",
+  "name": "Niveau 3 · 6×6",
   "width": 6,
   "height": 6,
   "words": [

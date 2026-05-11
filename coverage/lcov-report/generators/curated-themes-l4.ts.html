@@ -1,0 +1,1081 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for generators/curated-themes-l4.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">generators</a> curated-themes-l4.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a>
+<a name='L153'></a><a href='#L153'>153</a>
+<a name='L154'></a><a href='#L154'>154</a>
+<a name='L155'></a><a href='#L155'>155</a>
+<a name='L156'></a><a href='#L156'>156</a>
+<a name='L157'></a><a href='#L157'>157</a>
+<a name='L158'></a><a href='#L158'>158</a>
+<a name='L159'></a><a href='#L159'>159</a>
+<a name='L160'></a><a href='#L160'>160</a>
+<a name='L161'></a><a href='#L161'>161</a>
+<a name='L162'></a><a href='#L162'>162</a>
+<a name='L163'></a><a href='#L163'>163</a>
+<a name='L164'></a><a href='#L164'>164</a>
+<a name='L165'></a><a href='#L165'>165</a>
+<a name='L166'></a><a href='#L166'>166</a>
+<a name='L167'></a><a href='#L167'>167</a>
+<a name='L168'></a><a href='#L168'>168</a>
+<a name='L169'></a><a href='#L169'>169</a>
+<a name='L170'></a><a href='#L170'>170</a>
+<a name='L171'></a><a href='#L171'>171</a>
+<a name='L172'></a><a href='#L172'>172</a>
+<a name='L173'></a><a href='#L173'>173</a>
+<a name='L174'></a><a href='#L174'>174</a>
+<a name='L175'></a><a href='#L175'>175</a>
+<a name='L176'></a><a href='#L176'>176</a>
+<a name='L177'></a><a href='#L177'>177</a>
+<a name='L178'></a><a href='#L178'>178</a>
+<a name='L179'></a><a href='#L179'>179</a>
+<a name='L180'></a><a href='#L180'>180</a>
+<a name='L181'></a><a href='#L181'>181</a>
+<a name='L182'></a><a href='#L182'>182</a>
+<a name='L183'></a><a href='#L183'>183</a>
+<a name='L184'></a><a href='#L184'>184</a>
+<a name='L185'></a><a href='#L185'>185</a>
+<a name='L186'></a><a href='#L186'>186</a>
+<a name='L187'></a><a href='#L187'>187</a>
+<a name='L188'></a><a href='#L188'>188</a>
+<a name='L189'></a><a href='#L189'>189</a>
+<a name='L190'></a><a href='#L190'>190</a>
+<a name='L191'></a><a href='#L191'>191</a>
+<a name='L192'></a><a href='#L192'>192</a>
+<a name='L193'></a><a href='#L193'>193</a>
+<a name='L194'></a><a href='#L194'>194</a>
+<a name='L195'></a><a href='#L195'>195</a>
+<a name='L196'></a><a href='#L196'>196</a>
+<a name='L197'></a><a href='#L197'>197</a>
+<a name='L198'></a><a href='#L198'>198</a>
+<a name='L199'></a><a href='#L199'>199</a>
+<a name='L200'></a><a href='#L200'>200</a>
+<a name='L201'></a><a href='#L201'>201</a>
+<a name='L202'></a><a href='#L202'>202</a>
+<a name='L203'></a><a href='#L203'>203</a>
+<a name='L204'></a><a href='#L204'>204</a>
+<a name='L205'></a><a href='#L205'>205</a>
+<a name='L206'></a><a href='#L206'>206</a>
+<a name='L207'></a><a href='#L207'>207</a>
+<a name='L208'></a><a href='#L208'>208</a>
+<a name='L209'></a><a href='#L209'>209</a>
+<a name='L210'></a><a href='#L210'>210</a>
+<a name='L211'></a><a href='#L211'>211</a>
+<a name='L212'></a><a href='#L212'>212</a>
+<a name='L213'></a><a href='#L213'>213</a>
+<a name='L214'></a><a href='#L214'>214</a>
+<a name='L215'></a><a href='#L215'>215</a>
+<a name='L216'></a><a href='#L216'>216</a>
+<a name='L217'></a><a href='#L217'>217</a>
+<a name='L218'></a><a href='#L218'>218</a>
+<a name='L219'></a><a href='#L219'>219</a>
+<a name='L220'></a><a href='#L220'>220</a>
+<a name='L221'></a><a href='#L221'>221</a>
+<a name='L222'></a><a href='#L222'>222</a>
+<a name='L223'></a><a href='#L223'>223</a>
+<a name='L224'></a><a href='#L224'>224</a>
+<a name='L225'></a><a href='#L225'>225</a>
+<a name='L226'></a><a href='#L226'>226</a>
+<a name='L227'></a><a href='#L227'>227</a>
+<a name='L228'></a><a href='#L228'>228</a>
+<a name='L229'></a><a href='#L229'>229</a>
+<a name='L230'></a><a href='#L230'>230</a>
+<a name='L231'></a><a href='#L231'>231</a>
+<a name='L232'></a><a href='#L232'>232</a>
+<a name='L233'></a><a href='#L233'>233</a>
+<a name='L234'></a><a href='#L234'>234</a>
+<a name='L235'></a><a href='#L235'>235</a>
+<a name='L236'></a><a href='#L236'>236</a>
+<a name='L237'></a><a href='#L237'>237</a>
+<a name='L238'></a><a href='#L238'>238</a>
+<a name='L239'></a><a href='#L239'>239</a>
+<a name='L240'></a><a href='#L240'>240</a>
+<a name='L241'></a><a href='#L241'>241</a>
+<a name='L242'></a><a href='#L242'>242</a>
+<a name='L243'></a><a href='#L243'>243</a>
+<a name='L244'></a><a href='#L244'>244</a>
+<a name='L245'></a><a href='#L245'>245</a>
+<a name='L246'></a><a href='#L246'>246</a>
+<a name='L247'></a><a href='#L247'>247</a>
+<a name='L248'></a><a href='#L248'>248</a>
+<a name='L249'></a><a href='#L249'>249</a>
+<a name='L250'></a><a href='#L250'>250</a>
+<a name='L251'></a><a href='#L251'>251</a>
+<a name='L252'></a><a href='#L252'>252</a>
+<a name='L253'></a><a href='#L253'>253</a>
+<a name='L254'></a><a href='#L254'>254</a>
+<a name='L255'></a><a href='#L255'>255</a>
+<a name='L256'></a><a href='#L256'>256</a>
+<a name='L257'></a><a href='#L257'>257</a>
+<a name='L258'></a><a href='#L258'>258</a>
+<a name='L259'></a><a href='#L259'>259</a>
+<a name='L260'></a><a href='#L260'>260</a>
+<a name='L261'></a><a href='#L261'>261</a>
+<a name='L262'></a><a href='#L262'>262</a>
+<a name='L263'></a><a href='#L263'>263</a>
+<a name='L264'></a><a href='#L264'>264</a>
+<a name='L265'></a><a href='#L265'>265</a>
+<a name='L266'></a><a href='#L266'>266</a>
+<a name='L267'></a><a href='#L267'>267</a>
+<a name='L268'></a><a href='#L268'>268</a>
+<a name='L269'></a><a href='#L269'>269</a>
+<a name='L270'></a><a href='#L270'>270</a>
+<a name='L271'></a><a href='#L271'>271</a>
+<a name='L272'></a><a href='#L272'>272</a>
+<a name='L273'></a><a href='#L273'>273</a>
+<a name='L274'></a><a href='#L274'>274</a>
+<a name='L275'></a><a href='#L275'>275</a>
+<a name='L276'></a><a href='#L276'>276</a>
+<a name='L277'></a><a href='#L277'>277</a>
+<a name='L278'></a><a href='#L278'>278</a>
+<a name='L279'></a><a href='#L279'>279</a>
+<a name='L280'></a><a href='#L280'>280</a>
+<a name='L281'></a><a href='#L281'>281</a>
+<a name='L282'></a><a href='#L282'>282</a>
+<a name='L283'></a><a href='#L283'>283</a>
+<a name='L284'></a><a href='#L284'>284</a>
+<a name='L285'></a><a href='#L285'>285</a>
+<a name='L286'></a><a href='#L286'>286</a>
+<a name='L287'></a><a href='#L287'>287</a>
+<a name='L288'></a><a href='#L288'>288</a>
+<a name='L289'></a><a href='#L289'>289</a>
+<a name='L290'></a><a href='#L290'>290</a>
+<a name='L291'></a><a href='#L291'>291</a>
+<a name='L292'></a><a href='#L292'>292</a>
+<a name='L293'></a><a href='#L293'>293</a>
+<a name='L294'></a><a href='#L294'>294</a>
+<a name='L295'></a><a href='#L295'>295</a>
+<a name='L296'></a><a href='#L296'>296</a>
+<a name='L297'></a><a href='#L297'>297</a>
+<a name='L298'></a><a href='#L298'>298</a>
+<a name='L299'></a><a href='#L299'>299</a>
+<a name='L300'></a><a href='#L300'>300</a>
+<a name='L301'></a><a href='#L301'>301</a>
+<a name='L302'></a><a href='#L302'>302</a>
+<a name='L303'></a><a href='#L303'>303</a>
+<a name='L304'></a><a href='#L304'>304</a>
+<a name='L305'></a><a href='#L305'>305</a>
+<a name='L306'></a><a href='#L306'>306</a>
+<a name='L307'></a><a href='#L307'>307</a>
+<a name='L308'></a><a href='#L308'>308</a>
+<a name='L309'></a><a href='#L309'>309</a>
+<a name='L310'></a><a href='#L310'>310</a>
+<a name='L311'></a><a href='#L311'>311</a>
+<a name='L312'></a><a href='#L312'>312</a>
+<a name='L313'></a><a href='#L313'>313</a>
+<a name='L314'></a><a href='#L314'>314</a>
+<a name='L315'></a><a href='#L315'>315</a>
+<a name='L316'></a><a href='#L316'>316</a>
+<a name='L317'></a><a href='#L317'>317</a>
+<a name='L318'></a><a href='#L318'>318</a>
+<a name='L319'></a><a href='#L319'>319</a>
+<a name='L320'></a><a href='#L320'>320</a>
+<a name='L321'></a><a href='#L321'>321</a>
+<a name='L322'></a><a href='#L322'>322</a>
+<a name='L323'></a><a href='#L323'>323</a>
+<a name='L324'></a><a href='#L324'>324</a>
+<a name='L325'></a><a href='#L325'>325</a>
+<a name='L326'></a><a href='#L326'>326</a>
+<a name='L327'></a><a href='#L327'>327</a>
+<a name='L328'></a><a href='#L328'>328</a>
+<a name='L329'></a><a href='#L329'>329</a>
+<a name='L330'></a><a href='#L330'>330</a>
+<a name='L331'></a><a href='#L331'>331</a>
+<a name='L332'></a><a href='#L332'>332</a>
+<a name='L333'></a><a href='#L333'>333</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * Thèmes curés à la main pour Sémantogramme niveau 4. Grille 7×7 = 49
+ * cases, N IN ∈ [15, 19] (max ~40 %).
+ *
+ * Différences avec L3 :
+ *   - dimension plus grande (7×7) ;
+ *   - N max **plafonné à 40 %** (19/49) → besoin d'au moins **19 membres**
+ *     par thème ;
+ *   - vocabulaire plus **rare et spécialisé** : on évite les mots du
+ *     français courant, on privilégie les termes techniques, archaïques,
+ *     ou propres à un domaine (héraldique, oenologie, botanique pointue,
+ *     architecture, fauconnerie, marine, etc.).
+ *
+ * Contraintes :
+ *   - Tous les thèmes L4 sont **distincts** des thèmes L1, L2 et L3
+ *     (soit 918 mots-thèmes déjà utilisés).
+ *   - Pool de fillers = membres des autres thèmes L1 ∪ L2 ∪ L3 ∪ L4.
+ *
+ * Voir `docs/semantogramme-curation.md` pour les règles complètes.
+ *
+ * Couverture : 1er avril 2026 → 31 janvier 2027 (306 puzzles).
+ */
+import type { CuratedTheme } from './curated-themes-l1'
+&nbsp;
+export const CURATED_THEMES_L4: Record&lt;string, CuratedTheme&gt; = {
+  '2026-04-01': { word: 'terrine', members: ['cuisine', 'pâté', 'viande', 'forcemeat', 'gras', 'porc', 'volaille', 'gibier', 'gelée', 'foie', 'épice', 'mijoter', 'cuire', 'démouler', 'trancher', 'apéritif', 'entrée', 'rustique', 'traditionnelle'] },
+  '2026-04-02': { word: 'doctoral', members: ['ton', 'voix', 'expression', 'pédant', 'savant', 'professoral', 'magistral', 'autoritaire', 'sentencieux', 'dogmatique', 'parler', 'enseigner', 'expliquer', 'pontifier', 'docte', 'érudit', 'lettré', 'grave', 'imposant'] },
+  '2026-04-03': { word: 'déclamer', members: ['proclamer', 'réciter', 'discourir', 'tonner', 'tirade', 'théâtre', 'orateur', 'tragédie', 'poésie', 'parler', 'haranguer', 'professer', 'pérorer', 'invectiver', 'enflé', 'emphatique', 'oratoire', 'grandiloquent', 'théâtral'] },
+  '2026-04-04': { word: 'spleen', members: ['mélancolie', 'tristesse', 'cafard', 'ennui', 'morosité', 'noirceur', 'baudelaire', 'parisien', 'romantique', 'éprouver', 'ressentir', 'sombrer', 'languir', 'soupirer', 'profond', 'mortel', 'sombre', 'gris', 'pluvieux'] },
+  '2026-04-05': { word: 'quérir', members: ['chercher', 'rechercher', 'demander', 'archaïque', 'littéraire', 'noble', 'élégant', 'requête', 'sollicitation', 'aller', 'partir', 'amener', 'apporter', 'ramener', 'envoyer', 'classique', 'soutenu', 'rare', 'usité'] },
+  '2026-04-06': { word: 'stoïcisme', members: ['philosophie', 'épictète', 'sénèque', 'aurèle', 'sagesse', 'vertu', 'ataraxie', 'résignation', 'devoir', 'discipline', 'maîtrise', 'endurer', 'accepter', 'supporter', 'philosopher', 'stoïque', 'imperturbable', 'grec', 'romain'] },
+  '2026-04-07': { word: 'nihilisme', members: ['philosophie', 'rien', 'négation', 'nietzsche', 'turgenev', 'révolution', 'pessimisme', 'absurde', 'sens', 'valeur', 'nier', 'rejeter', 'destruction', 'nihiliste', 'radical', 'absolu', 'amoral', 'destructeur', 'sombre'] },
+  '2026-04-08': { word: 'gerfaut', members: ['rapace', 'falconidé', 'arctique', 'plumage', 'serre', 'bec', 'falconnerie', 'leurre', 'chaperon', 'mue', 'aile', 'voler', 'planer', 'fondre', 'piquer', 'chasser', 'noble', 'royal', 'puissant'] },
+  '2026-04-09': { word: 'land-art', members: ['mouvement', 'art', 'paysage', 'nature', 'pierre', 'sable', 'bois', 'long', 'smithson', 'goldsworthy', 'créer', 'sculpter', 'aménager', 'éphémère', 'monumental', 'environnemental', 'écologique', 'extérieur', 'site'] },
+  '2026-04-10': { word: 'gnou', members: ['mammifère', 'savane', 'afrique', 'corne', 'migration', 'troupeau', 'antilope', 'pelage', 'sombre', 'kenya', 'tanzanie', 'galoper', 'fuir', 'migrer', 'brouter', 'sauvage', 'massif', 'puissant', 'cornu'] },
+  '2026-04-11': { word: 'éternité', members: ['infini', 'illimité', 'temps', 'durée', 'absolu', 'immortel', 'paradis', 'divin', 'sublime', 'durer', 'persister', 'transcender', 'éternel', 'perpétuel', 'permanent', 'sans-fin', 'mystique', 'philosophique', 'spirituel'] },
+  '2026-04-12': { word: 'toccata', members: ['musique', 'baroque', 'orgue', 'clavecin', 'piano', 'bach', 'frescobaldi', 'virtuose', 'rapide', 'composer', 'jouer', 'préluder', 'enchaîner', 'improvisé', 'fugué', 'brillant', 'éclatant', 'spectaculaire', 'instrumental'] },
+  '2026-04-13': { word: 'andante', members: ['musique', 'tempo', 'modéré', 'allegro', 'adagio', 'mouvement', 'sonate', 'concerto', 'partition', 'pas', 'lent', 'tranquille', 'expressif', 'classique', 'baroque', 'lyrique', 'jouer', 'interpréter', 'élégant'] },
+  '2026-04-14': { word: 'fauvisme', members: ['mouvement', 'art', 'peinture', 'matisse', 'derain', 'vlaminck', 'couleur', 'vive', 'pure', 'expressivité', 'violent', 'cri', 'fauve', 'salon', 'expressionniste', 'éclatant', 'audacieux', 'révolutionnaire', 'simplifier'] },
+  '2026-04-15': { word: 'tatou', members: ['mammifère', 'amérique', 'sud', 'carapace', 'écaille', 'rouler', 'fouiller', 'creuser', 'manger', 'insecte', 'nocturne', 'cuirasse', 'protéger', 'museau', 'long', 'patte', 'griffes', 'défense', 'unique'] },
+  '2026-04-16': { word: 'drisse', members: ['marine', 'cordage', 'voile', 'mât', 'hisser', 'amener', 'frapper', 'border', 'guindant', 'tendre', 'taquet', 'manoeuvre', 'écoute', 'haler', 'choquer', 'gréer', 'embraquer', 'palanquer', 'voilier'] },
+  '2026-04-17': { word: 'incisif', members: ['tranchant', 'mordant', 'cinglant', 'aigu', 'percutant', 'piquant', 'acéré', 'précis', 'critique', 'sarcastique', 'satirique', 'attaquer', 'piquer', 'fendre', 'décisif', 'tranché', 'sec', 'cassant', 'redoutable'] },
+  '2026-04-18': { word: 'pop-art', members: ['mouvement', 'art', 'warhol', 'lichtenstein', 'rauschenberg', 'oldenburg', 'consommation', 'publicité', 'comic', 'icône', 'célébrité', 'reproduire', 'sérigraphie', 'détourner', 'composer', 'populaire', 'commercial', 'américain', 'coloré'] },
+  '2026-04-19': { word: 'futurisme', members: ['mouvement', 'art', 'italien', 'marinetti', 'boccioni', 'balla', 'vitesse', 'machine', 'modernité', 'manifeste', 'guerre', 'progrès', 'avant-garde', 'dynamique', 'puissance', 'mécanique', 'urbain', 'révolutionnaire', 'cinétique'] },
+  '2026-04-20': { word: 'ostraciser', members: ['exclure', 'bannir', 'rejeter', 'écarter', 'exiler', 'marginaliser', 'isoler', 'condamner', 'mépriser', 'rejet', 'exclusion', 'bannissement', 'ostracisme', 'athènes', 'grec', 'antique', 'social', 'soutenu', 'cruel'] },
+  '2026-04-21': { word: 'abscons', members: ['obscur', 'incompréhensible', 'difficile', 'ardu', 'hermétique', 'mystérieux', 'sibyllin', 'opaque', 'caché', 'comprendre', 'décrypter', 'élucider', 'tortueux', 'compliqué', 'abstrus', 'ésotérique', 'inintelligible', 'rare', 'littéraire'] },
+  '2026-04-22': { word: 'cubisme', members: ['mouvement', 'art', 'picasso', 'braque', 'gris', 'léger', 'géométrie', 'fragmentation', 'décomposition', 'analytique', 'synthétique', 'collage', 'guitare', 'arlequin', 'angulaire', 'volume', 'forme', 'révolutionnaire', 'avant-garde'] },
+  '2026-04-23': { word: 'romantisme', members: ['mouvement', 'art', 'littérature', 'hugo', 'lamartine', 'musset', 'chateaubriand', 'sentiment', 'passion', 'nature', 'mélancolie', 'imagination', 'liberté', 'rébellion', 'subjectif', 'rêveur', 'tourmenté', 'sublime', 'individuel'] },
+  '2026-04-24': { word: 'hermine', members: ['héraldique', 'fourrure', 'blason', 'manteau', 'royal', 'bretagne', 'mouchetures', 'noir', 'blanc', 'mustélidé', 'animal', 'queue', 'pelage', 'arborer', 'symbolique', 'pure', 'royale', 'duchesse', 'noble'] },
+  '2026-04-25': { word: 'cingler', members: ['frapper', 'fouetter', 'gifler', 'piquer', 'attaquer', 'critique', 'cinglant', 'voile', 'navire', 'naviguer', 'foncer', 'porter', 'transpercer', 'glacial', 'mordant', 'acide', 'archaïque', 'soutenu', 'tranchant'] },
+  '2026-04-26': { word: 'aphélie', members: ['orbite', 'astre', 'planète', 'soleil', 'éloignement', 'distance', 'kepler', 'ellipse', 'révolution', 'foyer', 'parcours', 'éloigner', 'orbiter', 'maximum', 'lointain', 'cosmique', 'opposé', 'astronomique', 'périhélie'] },
+  '2026-04-27': { word: 'ratatouille', members: ['cuisine', 'provence', 'tomate', 'courgette', 'aubergine', 'poivron', 'oignon', 'ail', 'thym', 'huile', 'olive', 'mijoter', 'préparer', 'savourer', 'estivale', 'méditerranéenne', 'rustique', 'familiale', 'colorée'] },
+  '2026-04-28': { word: 'gyroscope', members: ['instrument', 'rotation', 'axe', 'stabilité', 'précession', 'inertie', 'navigation', 'aéronautique', 'spatial', 'tournoyer', 'mesurer', 'stabiliser', 'orienter', 'précis', 'scientifique', 'cardan', 'foucault', 'mécanique', 'optique'] },
+  '2026-04-29': { word: 'libre-arbitre', members: ['liberté', 'choix', 'volonté', 'autonomie', 'philosophie', 'déterminisme', 'destin', 'kant', 'spinoza', 'décider', 'choisir', 'agir', 'responsable', 'libre', 'individuel', 'moral', 'rationnel', 'humain', 'métaphysique'] },
+  '2026-04-30': { word: 'morigéner', members: ['gronder', 'sermonner', 'réprimander', 'tancer', 'admonester', 'reprocher', 'corriger', 'reprendre', 'fustiger', 'remontrer', 'pédant', 'sévère', 'enfant', 'archaïque', 'soutenu', 'noble', 'parent', 'magistère', 'discipline'] },
+  '2026-05-01': { word: 'tympan', members: ['architecture', 'fronton', 'portail', 'sculpture', 'gothique', 'cathédrale', 'roman', 'demi-cercle', 'orner', 'décorer', 'figuratif', 'jugement', 'apôtre', 'mandorle', 'triangulaire', 'pierre', 'élevé', 'monumental', 'ouvragé'] },
+  '2026-05-02': { word: 'dévonien', members: ['ère', 'paléozoïque', 'fossile', 'poisson', 'plante', 'fougère', 'amphibien', 'invertébré', 'colonisation', 'devon', 'sédiment', 'roche', 'préhistoire', 'évolution', 'extinction', 'ancien', 'lointain', 'continental', 'géologique'] },
+  '2026-05-03': { word: 'tourelle', members: ['architecture', 'tour', 'château', 'manoir', 'pointu', 'petit', 'cylindrique', 'rond', 'défensif', 'fenêtre', 'escalier', 'élever', 'dresser', 'orner', 'percer', 'médiéval', 'gracieux', 'aérien', 'élégant'] },
+  '2026-05-04': { word: 'fluxus', members: ['mouvement', 'art', 'beuys', 'maciunas', 'paik', 'performance', 'happening', 'objet', 'collage', 'anti-art', 'expérimental', 'collectif', 'participer', 'créer', 'transgresser', 'éphémère', 'décalé', 'avant-garde', 'multidisciplinaire'] },
+  '2026-05-05': { word: 'agapanthe', members: ['fleur', 'plante', 'bleu', 'violet', 'blanc', 'ombelle', 'tige', 'haute', 'feuille', 'rubanée', 'jardin', 'estivale', 'fleurir', 'cultiver', 'décorative', 'élégante', 'majestueuse', 'gracieuse', 'tropicale'] },
+  '2026-05-06': { word: 'humanisme', members: ['philosophie', 'renaissance', 'érasme', 'montaigne', 'rabelais', 'antiquité', 'homme', 'éducation', 'culture', 'valeur', 'dignité', 'épanouissement', 'lettres', 'penser', 'cultiver', 'humaniste', 'idéalisme', 'tolérance', 'universel'] },
+  '2026-05-07': { word: 'cantate', members: ['musique', 'baroque', 'bach', 'choeur', 'soliste', 'orchestre', 'aria', 'récitatif', 'religieux', 'profane', 'composition', 'composer', 'interpréter', 'chanter', 'allemand', 'italien', 'sacrée', 'narrative', 'classique'] },
+  '2026-05-08': { word: 'capybara', members: ['rongeur', 'amérique', 'sud', 'eau', 'semi-aquatique', 'rivière', 'troupeau', 'social', 'paisible', 'manger', 'baigner', 'nager', 'brouter', 'grand', 'gris', 'brun', 'museau', 'familial', 'mammifère'] },
+  '2026-05-09': { word: 'lithologie', members: ['science', 'pierre', 'roche', 'minéral', 'cristal', 'identification', 'classification', 'sédiment', 'magma', 'observer', 'analyser', 'identifier', 'cataloguer', 'lithologue', 'pétrographique', 'minéralogique', 'savante', 'spécialisée', 'descriptive'] },
+  '2026-05-10': { word: 'sublime', members: ['beauté', 'grandeur', 'magnificence', 'splendeur', 'majesté', 'noblesse', 'élévation', 'admirer', 'contempler', 'éblouir', 'transcender', 'magnifique', 'splendide', 'majestueux', 'éblouissant', 'inouï', 'extraordinaire', 'transcendant', 'incomparable'] },
+  '2026-05-11': { word: 'cardiologie', members: ['science', 'coeur', 'médecine', 'artère', 'veine', 'pression', 'rythme', 'pouls', 'infarctus', 'angine', 'soigner', 'opérer', 'ausculter', 'cardiologue', 'stéthoscope', 'pompe', 'circulation', 'préventive', 'thérapeutique'] },
+  '2026-05-12': { word: 'renaissance', members: ['époque', 'humanisme', 'italie', 'florence', 'léonard', 'michel-ange', 'raphaël', 'donatello', 'botticelli', 'médicis', 'perspective', 'antiquité', 'humaniste', 'redécouverte', 'florissante', 'culturelle', 'artistique', 'foisonnante', 'glorieuse'] },
+  '2026-05-13': { word: 'dendrologie', members: ['science', 'arbre', 'forêt', 'feuille', 'tronc', 'racine', 'identification', 'cerne', 'datation', 'dendrologue', 'écorce', 'observer', 'cataloguer', 'mesurer', 'savante', 'spécialisée', 'descriptive', 'forestière', 'systématique'] },
+  '2026-05-14': { word: 'atermoyer', members: ['retarder', 'différer', 'hésiter', 'tergiverser', 'temporiser', 'remettre', 'délai', 'attente', 'indécision', 'reculer', 'éviter', 'esquiver', 'piétiner', 'flotter', 'attendre', 'archaïque', 'soutenu', 'noble', 'classique'] },
+  '2026-05-15': { word: 'salmis', members: ['cuisine', 'gibier', 'volaille', 'sauce', 'vin', 'champignon', 'faisan', 'perdrix', 'lapin', 'mijoter', 'rôtir', 'préparer', 'savourer', 'gastronomique', 'française', 'traditionnel', 'classique', 'paysan', 'aromatique'] },
+  '2026-05-16': { word: 'narthex', members: ['architecture', 'église', 'entrée', 'porche', 'vestibule', 'avant-nef', 'colonne', 'voûte', 'fidèle', 'baptême', 'catéchumène', 'orner', 'précéder', 'accueillir', 'séparation', 'roman', 'byzantin', 'antique', 'sacré'] },
+  '2026-05-17': { word: 'compas', members: ['instrument', 'cercle', 'pointe', 'mine', 'tracer', 'mesurer', 'géométrie', 'dessin', 'architecte', 'navigation', 'bras', 'rayon', 'circonférence', 'centre', 'précis', 'symbole', 'maçonnique', 'métallique', 'professionnel'] },
+  '2026-05-18': { word: 'boussole', members: ['instrument', 'aiguille', 'magnétique', 'nord', 'sud', 'est', 'ouest', 'navigation', 'cap', 'pointe', 'orienter', 'indiquer', 'guider', 'observer', 'cardinal', 'précise', 'fiable', 'ancienne', 'maritime'] },
+  '2026-05-19': { word: 'solipsisme', members: ['philosophie', 'soi', 'moi', 'conscience', 'subjectif', 'existence', 'doute', 'cartésien', 'individuel', 'penser', 'douter', 'exister', 'isoler', 'extrême', 'radical', 'idéaliste', 'égocentrique', 'unique', 'absolu'] },
+  '2026-05-20': { word: 'byzantin', members: ['empire', 'art', 'icône', 'mosaïque', 'or', 'pourpre', 'constantinople', 'orthodoxe', 'liturgique', 'sainte-sophie', 'théodora', 'justinien', 'ravenne', 'sacré', 'religieux', 'oriental', 'doré', 'antique', 'splendide'] },
+  '2026-05-21': { word: 'octant', members: ['marine', 'navigation', 'angle', 'astre', 'mesure', 'horizon', 'miroir', 'longitude', 'navigateur', 'sextant', 'instrument', 'observer', 'mesurer', 'positionner', 'huit', 'octave', 'précis', 'optique', 'ancien'] },
+  '2026-05-22': { word: 'cinétisme', members: ['art', 'soto', 'agam', 'vasarely', 'optique', 'spectateur', 'lumière', 'rotation', 'percevoir', 'observer', 'tournoyer', 'vibrer', 'cinétique', 'géométrique', 'visuel', 'dynamique', 'illusion', 'mouvement', 'physique'] },
+  '2026-05-23': { word: 'impromptu', members: ['musique', 'improvisation', 'piano', 'romantique', 'schubert', 'chopin', 'fauré', 'libre', 'spontané', 'composer', 'jouer', 'improviser', 'court', 'expressif', 'lyrique', 'capricieux', 'fantaisiste', 'discret', 'intime'] },
+  '2026-05-24': { word: 'granite', members: ['roche', 'minéral', 'cristalline', 'magmatique', 'feldspath', 'quartz', 'mica', 'rose', 'gris', 'noir', 'monument', 'tombe', 'pierre', 'dur', 'résistant', 'massif', 'cristallin', 'plutonique', 'bretonne'] },
+  '2026-05-25': { word: 'palabrer', members: ['discuter', 'parler', 'débattre', 'discourir', 'épiloguer', 'tergiverser', 'pérorer', 'palabre', 'arabe', 'africain', 'long', 'interminable', 'archaïque', 'soutenu', 'familial', 'tribal', 'oral', 'traditionnel', 'rituel'] },
+  '2026-05-26': { word: 'humilité', members: ['modestie', 'simplicité', 'discrétion', 'effacement', 'vertu', 'sagesse', 'pauvreté', 'service', 'pénitence', 'abaisser', 'reconnaître', 'admettre', 'avouer', 'humble', 'modeste', 'discret', 'simple', 'effacé', 'chrétienne'] },
+  '2026-05-27': { word: 'bouillabaisse', members: ['soupe', 'poisson', 'rouille', 'safran', 'marseille', 'provence', 'fenouil', 'tomate', 'ail', 'rouget', 'rascasse', 'congre', 'savourer', 'mijoter', 'préparer', 'crouton', 'méditerranéenne', 'gastronomique', 'traditionnelle'] },
+  '2026-05-28': { word: 'lettrisme', members: ['mouvement', 'art', 'poésie', 'lettre', 'isou', 'lemaître', 'cri', 'son', 'phonétique', 'composer', 'créer', 'expérimenter', 'transcrire', 'subvertir', 'avant-garde', 'sonore', 'visuel', 'expressif', 'minimaliste'] },
+  '2026-05-29': { word: 'blanquette', members: ['cuisine', 'veau', 'sauce', 'blanche', 'crème', 'champignon', 'oignon', 'carotte', 'bouillon', 'roux', 'mijoter', 'préparer', 'savourer', 'classique', 'française', 'rustique', 'traditionnelle', 'crémeuse', 'familiale'] },
+  '2026-05-30': { word: 'paléogène', members: ['ère', 'cénozoïque', 'mammifère', 'évolution', 'apparition', 'fossile', 'climat', 'tropical', 'forêt', 'éocène', 'oligocène', 'paléocène', 'préhistoire', 'sédiment', 'roche', 'ancien', 'continental', 'géologique', 'lointain'] },
+  '2026-05-31': { word: 'ordovicien', members: ['ère', 'paléozoïque', 'fossile', 'invertébré', 'trilobite', 'graptolithe', 'mer', 'cambrien', 'silurien', 'sédiment', 'roche', 'évolution', 'préhistoire', 'extinction', 'glaciation', 'ancien', 'lointain', 'continental', 'géologique'] },
+  '2026-06-01': { word: 'pétunia', members: ['fleur', 'plante', 'jardin', 'balcon', 'jardinière', 'rose', 'violet', 'blanc', 'rouge', 'pétale', 'corolle', 'tige', 'pendant', 'fleurir', 'cultiver', 'décoratif', 'estival', 'parfumé', 'familial'] },
+  '2026-06-02': { word: 'tapir', members: ['mammifère', 'amérique', 'asie', 'forêt', 'museau', 'trompe', 'gros', 'patte', 'sabot', 'pelage', 'sombre', 'aquatique', 'fouir', 'manger', 'fruit', 'feuille', 'discret', 'paisible', 'rare'] },
+  '2026-06-03': { word: 'raton', members: ['mammifère', 'amérique', 'masque', 'queue', 'rayée', 'patte', 'griffes', 'nocturne', 'omnivore', 'chiper', 'fouiller', 'manger', 'laver', 'opportuniste', 'curieux', 'agile', 'malin', 'urbain', 'gris'] },
+  '2026-06-04': { word: 'gésir', members: ['reposer', 'allonger', 'étendre', 'tombeau', 'mort', 'archaïque', 'littéraire', 'classique', 'cadavre', 'cimetière', 'sol', 'demeurer', 'rester', 'inanimé', 'immobile', 'noble', 'soutenu', 'défunt', 'antique'] },
+  '2026-06-05': { word: 'morse', members: ['mammifère', 'arctique', 'défense', 'ivoire', 'banquise', 'gros', 'pinnipède', 'moustache', 'mâle', 'femelle', 'plonger', 'nager', 'rugir', 'pondre', 'protégé', 'massif', 'lourd', 'paisible', 'social'] },
+  '2026-06-06': { word: 'écoute', members: ['marine', 'voile', 'cordage', 'border', 'choquer', 'manoeuvre', 'navigation', 'tendre', 'régler', 'orienter', 'voilier', 'taquet', 'rapide', 'efficace', 'cordée', 'tirant', 'amure', 'gréement', 'fil'] },
+  '2026-06-07': { word: 'gloire', members: ['renommée', 'honneur', 'célébrité', 'prestige', 'éclat', 'splendeur', 'victoire', 'triomphe', 'auréole', 'gloria', 'briller', 'éclater', 'rayonner', 'consacrer', 'illustrer', 'glorieux', 'illustre', 'célèbre', 'éternelle'] },
+  '2026-06-08': { word: 'existentialisme', members: ['philosophie', 'sartre', 'camus', 'beauvoir', 'heidegger', 'kierkegaard', 'liberté', 'angoisse', 'absurde', 'engagement', 'choisir', 'décider', 'agir', 'exister', 'libre', 'authentique', 'angoissant', 'individuel', 'engagé'] },
+  '2026-06-09': { word: 'rondo', members: ['musique', 'forme', 'refrain', 'thème', 'répétition', 'circulaire', 'classique', 'mozart', 'beethoven', 'final', 'composer', 'jouer', 'enchaîner', 'reprendre', 'enjoué', 'rond', 'binaire', 'allegro', 'gai'] },
+  '2026-06-10': { word: 'orientalisme', members: ['mouvement', 'art', 'delacroix', 'gérôme', 'ingres', 'matisse', 'orient', 'maroc', 'algérie', 'turquie', 'caravane', 'harem', 'mosquée', 'peindre', 'voyager', 'exotique', 'romantique', 'colonial', 'sensuel'] },
+  '2026-06-11': { word: 'néolithique', members: ['préhistoire', 'pierre', 'polie', 'agriculture', 'élevage', 'sédentarisation', 'village', 'poterie', 'tissage', 'menhir', 'dolmen', 'tumulus', 'carnac', 'révolution', 'civilisation', 'âge', 'récent', 'lointain', 'préhistorique'] },
+  '2026-06-12': { word: 'perpétrer', members: ['commettre', 'crime', 'acte', 'meurtre', 'forfait', 'délit', 'attentat', 'malfaiteur', 'criminel', 'accomplir', 'exécuter', 'effectuer', 'réaliser', 'auteur', 'archaïque', 'soutenu', 'grave', 'illégal', 'odieux'] },
+  '2026-06-13': { word: 'crétacé', members: ['ère', 'mésozoïque', 'fossile', 'dinosaure', 'tyrannosaure', 'triceratops', 'extinction', 'météorite', 'jurassique', 'tertiaire', 'sédiment', 'craie', 'préhistoire', 'évolution', 'reptile', 'mammifère', 'continental', 'tropical', 'humide'] },
+  '2026-06-14': { word: 'colombier', members: ['pigeonnier', 'pigeon', 'colombe', 'rural', 'campagne', 'manoir', 'tour', 'rond', 'haut', 'roucouler', 'pondre', 'élever', 'voler', 'percher', 'rustique', 'pittoresque', 'ancestral', 'normand', 'traditionnel'] },
+  '2026-06-15': { word: 'pourfendre', members: ['attaquer', 'transpercer', 'épée', 'lance', 'fustiger', 'critiquer', 'dénoncer', 'pulvériser', 'détruire', 'archaïque', 'noble', 'soutenu', 'guerrier', 'chevalier', 'tranchant', 'mordant', 'vigoureux', 'redoutable', 'classique'] },
+  '2026-06-16': { word: 'velouté', members: ['soupe', 'sauce', 'crème', 'légume', 'asperge', 'champignon', 'courge', 'crémeux', 'onctueux', 'mixer', 'mijoter', 'savourer', 'lié', 'épais', 'fin', 'lisse', 'délicat', 'gastronomique', 'français'] },
+  '2026-06-17': { word: 'cloître', members: ['monastère', 'abbaye', 'galerie', 'colonne', 'jardin', 'moine', 'silence', 'prière', 'arcade', 'voûte', 'colonnade', 'méditation', 'liturgie', 'religieux', 'paisible', 'spirituel', 'roman', 'gothique', 'central'] },
+  '2026-06-18': { word: 'dialectique', members: ['philosophie', 'hégel', 'marx', 'thèse', 'antithèse', 'synthèse', 'contradiction', 'mouvement', 'développement', 'raisonner', 'argumenter', 'opposer', 'penser', 'rationnel', 'logique', 'spéculatif', 'matérialiste', 'idéaliste', 'historique'] },
+  '2026-06-19': { word: 'véhément', members: ['violent', 'passionné', 'ardent', 'fougueux', 'emporté', 'impétueux', 'colère', 'agressif', 'protestation', 'crier', 'protester', 'dénoncer', 'défendre', 'attaquer', 'soutenu', 'expressif', 'enflammé', 'tonitruant', 'rude'] },
+  '2026-06-20': { word: 'papyrus', members: ['plante', 'égypte', 'nil', 'tige', 'feuille', 'roseau', 'aquatique', 'fibre', 'papier', 'manuscrit', 'écriture', 'hiéroglyphe', 'écrire', 'rouler', 'antiquité', 'pharaon', 'cyperus', 'élégant', 'tropical'] },
+  '2026-06-21': { word: 'gigue', members: ['danse', 'baroque', 'irlandaise', 'écossaise', 'rythme', 'pas', 'ternaire', 'rapide', 'vif', 'composer', 'jouer', 'danser', 'fiddle', 'instrument', 'final', 'populaire', 'folklorique', 'enjouée', 'rurale'] },
+  '2026-06-22': { word: 'thermomètre', members: ['instrument', 'température', 'mercure', 'alcool', 'cadran', 'degré', 'celsius', 'fahrenheit', 'fièvre', 'météo', 'mesurer', 'indiquer', 'observer', 'monter', 'descendre', 'précis', 'numérique', 'médical', 'scientifique'] },
+  '2026-06-23': { word: 'fronton', members: ['architecture', 'temple', 'grec', 'romain', 'classique', 'triangle', 'pignon', 'corniche', 'colonne', 'sculpture', 'orner', 'décorer', 'couronner', 'élever', 'monumental', 'symétrique', 'antique', 'noble', 'majestueux'] },
+  '2026-06-24': { word: 'ornithorynque', members: ['mammifère', 'australie', 'aquatique', 'oeuf', 'bec', 'canard', 'queue', 'castor', 'palmé', 'venin', 'éperon', 'pondre', 'fouiller', 'nager', 'unique', 'monotrème', 'étrange', 'primitif', 'endémique'] },
+  '2026-06-25': { word: 'entomologie', members: ['science', 'insecte', 'fourmi', 'abeille', 'papillon', 'coléoptère', 'araignée', 'collection', 'épingle', 'observer', 'collectionner', 'identifier', 'cataloguer', 'entomologue', 'taxonomique', 'descriptive', 'comparée', 'savante', 'spécialisée'] },
+  '2026-06-26': { word: 'océanographie', members: ['science', 'mer', 'océan', 'profondeur', 'sonar', 'plongée', 'plancton', 'courant', 'salinité', 'navire', 'observer', 'mesurer', 'cartographier', 'océanographe', 'aquatique', 'marine', 'scientifique', 'savante', 'spécialisée'] },
+  '2026-06-27': { word: 'sublimation', members: ['transformation', 'élévation', 'transcendance', 'art', 'psychanalyse', 'pulsion', 'spiritualité', 'beauté', 'glace', 'gaz', 'sublimer', 'transcender', 'élever', 'transformer', 'magnifier', 'sublime', 'noble', 'créatif', 'spirituelle'] },
+  '2026-06-28': { word: 'pléistocène', members: ['ère', 'quaternaire', 'glaciation', 'mammouth', 'préhistoire', 'fossile', 'climat', 'glacier', 'banquise', 'homme', 'évolution', 'sédiment', 'roche', 'pliocène', 'holocène', 'ancien', 'récent', 'géologique', 'continental'] },
+  '2026-06-29': { word: 'caracal', members: ['félin', 'afrique', 'asie', 'oreille', 'longue', 'pinceau', 'pelage', 'fauve', 'museau', 'sauter', 'bondir', 'chasser', 'attraper', 'grimper', 'discret', 'silencieux', 'élégant', 'rapide', 'redoutable'] },
+  '2026-06-30': { word: 'concerto', members: ['musique', 'soliste', 'orchestre', 'instrument', 'classique', 'baroque', 'romantique', 'mozart', 'beethoven', 'tchaïkovski', 'piano', 'violon', 'mouvement', 'cadence', 'composer', 'interpréter', 'jouer', 'virtuose', 'allegro'] },
+  '2026-07-01': { word: 'baroque', members: ['style', 'art', 'architecture', 'musique', 'volute', 'doré', 'orné', 'théâtral', 'dramatique', 'caravage', 'bernin', 'rubens', 'haendel', 'foisonnant', 'mouvementé', 'extravagant', 'somptueux', 'italien', 'tardif'] },
+  '2026-07-02': { word: 'sérénade', members: ['musique', 'amour', 'amoureuse', 'fenêtre', 'guitare', 'mandoline', 'soir', 'nuit', 'lune', 'mozart', 'composer', 'jouer', 'chanter', 'séduire', 'éveiller', 'tendre', 'mélodieuse', 'douce', 'italienne'] },
+  '2026-07-03': { word: 'exsuder', members: ['suinter', 'transpirer', 'couler', 'goutte', 'dégoutter', 'humidité', 'sueur', 'larme', 'résine', 'larmoyer', 'imprégner', 'pénétrer', 'sourdre', 'archaïque', 'littéraire', 'naturel', 'lent', 'imperceptible', 'continu'] },
+  '2026-07-04': { word: 'sertir', members: ['bijou', 'pierre', 'monture', 'or', 'argent', 'platine', 'précieux', 'joaillier', 'orfèvre', 'fixer', 'enchâsser', 'ciseler', 'monter', 'enclaver', 'soigner', 'précis', 'minutieux', 'professionnel', 'manuel'] },
+  '2026-07-05': { word: 'miocène', members: ['ère', 'cénozoïque', 'fossile', 'mammifère', 'climat', 'tempéré', 'glacier', 'paléogène', 'pliocène', 'reptile', 'plante', 'évolution', 'préhistoire', 'sédiment', 'roche', 'ancien', 'tertiaire', 'géologique', 'tropical'] },
+  '2026-07-06': { word: 'clafoutis', members: ['cuisine', 'dessert', 'cerise', 'pâte', 'oeuf', 'lait', 'sucre', 'farine', 'four', 'limousin', 'noyau', 'mûr', 'préparer', 'verser', 'cuire', 'savourer', 'familial', 'traditionnel', 'rustique'] },
+  '2026-07-07': { word: 'tertiaire', members: ['ère', 'cénozoïque', 'mammifère', 'évolution', 'apparition', 'fossile', 'climat', 'forêt', 'paléogène', 'néogène', 'préhistoire', 'sédiment', 'roche', 'oligocène', 'tropical', 'ancien', 'continental', 'tempéré', 'géologique'] },
+  '2026-07-08': { word: 'sérénité', members: ['calme', 'paix', 'tranquillité', 'quiétude', 'silence', 'méditation', 'apaisement', 'douceur', 'harmonie', 'apaiser', 'reposer', 'contempler', 'méditer', 'sereine', 'paisible', 'sage', 'tranquille', 'placide', 'imperturbable'] },
+  '2026-07-09': { word: 'ascétique', members: ['austère', 'rigoureux', 'sévère', 'strict', 'sobre', 'moine', 'ermite', 'pénitence', 'jeûne', 'renoncement', 'privation', 'mortification', 'discipline', 'renoncer', 'jeûner', 'mortifier', 'simple', 'rigide', 'spirituel'] },
+  '2026-07-10': { word: 'botanique', members: ['science', 'plante', 'fleur', 'feuille', 'herbier', 'classification', 'linné', 'botaniste', 'flore', 'observer', 'identifier', 'cueillir', 'cataloguer', 'décrire', 'jardin', 'descriptive', 'systématique', 'pharmaceutique', 'spécialisée'] },
+  '2026-07-11': { word: 'providence', members: ['destin', 'fortune', 'hasard', 'fatalité', 'protection', 'divine', 'sort', 'volonté', 'transcendance', 'protéger', 'guider', 'destiner', 'préserver', 'sauver', 'miraculeux', 'béni', 'aidé', 'mystérieux', 'providentiel'] },
+  '2026-07-12': { word: 'bisque', members: ['soupe', 'cuisine', 'homard', 'crabe', 'crevette', 'crustacé', 'crémeuse', 'orangée', 'corail', 'cognac', 'crème', 'mixer', 'mijoter', 'savourer', 'gastronomique', 'française', 'épicée', 'onctueuse', 'fine'] },
+  '2026-07-13': { word: 'harmonie', members: ['concorde', 'accord', 'paix', 'union', 'équilibre', 'symétrie', 'musique', 'consonance', 'cohérence', 'parfaite', 'établir', 'maintenir', 'créer', 'régner', 'préserver', 'rechercher', 'harmonieuse', 'mélodieuse', 'universelle'] },
+  '2026-07-14': { word: 'tergiverser', members: ['hésiter', 'temporiser', 'atermoyer', 'reculer', 'esquiver', 'décider', 'éviter', 'retarder', 'différer', 'biaiser', 'louvoyer', 'flotter', 'piétiner', 'attendre', 'archaïque', 'soutenu', 'lent', 'indécis', 'mou'] },
+  '2026-07-15': { word: 'ampoulé', members: ['emphatique', 'grandiloquent', 'enflé', 'pompeux', 'pédant', 'doctoral', 'gonflé', 'discours', 'style', 'expression', 'pérorer', 'parler', 'enfler', 'pavaner', 'prétentieux', 'théâtral', 'verbeux', 'redondant', 'ridicule'] },
+  '2026-07-16': { word: 'obséquieux', members: ['servile', 'flatteur', 'rampant', 'mielleux', 'lèche-bottes', 'hypocrite', 'pédant', 'cérémonieux', 'révérence', 'salamalec', 'flatter', 'courber', 'révérer', 'complimenter', 'aplatir', 'soumis', 'lâche', 'humble', 'faux'] },
+  '2026-07-17': { word: 'chartreuse', members: ['liqueur', 'verte', 'jaune', 'plante', 'herbe', 'distillation', 'moine', 'chartreux', 'voiron', 'apéritif', 'digestif', 'savourer', 'aromatique', 'amère', 'sucrée', 'puissante', 'secrète', 'recette', 'monastique'] },
+  '2026-07-18': { word: 'malacologie', members: ['science', 'mollusque', 'coquillage', 'escargot', 'huître', 'moule', 'pieuvre', 'spore', 'coquille', 'observer', 'collectionner', 'cataloguer', 'malacologue', 'identifier', 'savante', 'spécialisée', 'descriptive', 'comparée', 'classification'] },
+  '2026-07-19': { word: 'parvis', members: ['architecture', 'place', 'église', 'cathédrale', 'devant', 'esplanade', 'pavé', 'accueil', 'fidèle', 'rassembler', 'attendre', 'arborer', 'traverser', 'mariage', 'baptême', 'sacré', 'sacrement', 'monumental', 'spacieux'] },
+  '2026-07-20': { word: 'trias', members: ['ère', 'mésozoïque', 'fossile', 'reptile', 'dinosaure', 'apparition', 'continental', 'pangée', 'évolution', 'préhistoire', 'sédiment', 'roche', 'précambrien', 'permien', 'jurassique', 'ancien', 'lointain', 'géologique', 'climat'] },
+  '2026-07-21': { word: 'jurassique', members: ['ère', 'mésozoïque', 'dinosaure', 'reptile', 'fossile', 'archéoptéryx', 'brontosaure', 'tyrannosaure', 'paléontologie', 'sédiment', 'préhistoire', 'fougère', 'cycadale', 'extinction', 'évolution', 'tropical', 'humide', 'ancien', 'lointain'] },
+  '2026-07-22': { word: 'néogène', members: ['ère', 'cénozoïque', 'miocène', 'pliocène', 'mammifère', 'fossile', 'évolution', 'préhistoire', 'sédiment', 'roche', 'climat', 'savane', 'hominidé', 'apparition', 'continental', 'tempéré', 'tropical', 'géologique', 'ancien'] },
+  '2026-07-23': { word: 'gargouille', members: ['architecture', 'gothique', 'cathédrale', 'pierre', 'évacuation', 'eau', 'pluie', 'sculpture', 'monstre', 'figure', 'effrayante', 'fantastique', 'orner', 'décorer', 'extérieur', 'protéger', 'paris', 'notre-dame', 'sculptée'] },
+  '2026-07-24': { word: 'mangouste', members: ['carnivore', 'afrique', 'asie', 'serpent', 'cobra', 'rikki-tikki', 'pelage', 'queue', 'museau', 'griffes', 'agile', 'rapide', 'chasser', 'combattre', 'tuer', 'fouir', 'sauvage', 'féroce', 'résistante'] },
+  '2026-07-25': { word: 'presbytère', members: ['architecture', 'curé', 'prêtre', 'église', 'paroisse', 'maison', 'rural', 'village', 'habiter', 'recevoir', 'visiter', 'religieux', 'paisible', 'ancien', 'pierre', 'campagnard', 'noir', 'modeste', 'humble'] },
+  '2026-07-26': { word: 'sagesse', members: ['savoir', 'expérience', 'philosophie', 'vertu', 'sage', 'maturité', 'modération', 'prudence', 'profondeur', 'discernement', 'méditer', 'apprendre', 'enseigner', 'transmettre', 'gagner', 'ancienne', 'orientale', 'populaire', 'précieuse'] },
+  '2026-07-27': { word: 'climatologie', members: ['science', 'climat', 'météo', 'atmosphère', 'température', 'précipitation', 'vent', 'pression', 'réchauffement', 'observer', 'mesurer', 'modéliser', 'prédire', 'climatologue', 'planétaire', 'régional', 'global', 'scientifique', 'savante'] },
+  '2026-07-28': { word: 'expressionnisme', members: ['mouvement', 'art', 'peinture', 'munch', 'kirchner', 'nolde', 'allemand', 'cri', 'angoisse', 'émotion', 'distorsion', 'couleur', 'violent', 'subjectif', 'tortueux', 'pathétique', 'sombre', 'tragique', 'avant-garde'] },
+  '2026-07-29': { word: 'réalisme', members: ['mouvement', 'art', 'littérature', 'courbet', 'balzac', 'flaubert', 'maupassant', 'observation', 'réalité', 'quotidien', 'social', 'décrire', 'observer', 'représenter', 'documenter', 'objectif', 'fidèle', 'authentique', 'sobre'] },
+  '2026-07-30': { word: 'tholos', members: ['architecture', 'circulaire', 'grec', 'temple', 'mycènes', 'tombe', 'coupole', 'colonne', 'rond', 'antique', 'mycénien', 'tumulus', 'voûté', 'monumental', 'sacré', 'rituel', 'archaïque', 'rare', 'mystérieux'] },
+  '2026-07-31': { word: 'beaupré', members: ['marine', 'navire', 'voilier', 'avant', 'mât', 'foc', 'cordage', 'bout-dehors', 'gréement', 'tangon', 'voile', 'tenir', 'amarrer', 'incliné', 'fendre', 'haubanage', 'sabord', 'plongeoir', 'proue'] },
+  '2026-08-01': { word: 'street-art', members: ['art', 'urbain', 'mur', 'graffiti', 'pochoir', 'bombe', 'aérosol', 'banksy', 'invader', 'tag', 'peindre', 'taguer', 'pulvériser', 'illégal', 'spontané', 'underground', 'engagé', 'rebelle', 'éphémère'] },
+  '2026-08-02': { word: 'magnolia', members: ['arbre', 'fleur', 'pétale', 'blanc', 'rose', 'parfumé', 'printemps', 'asie', 'amérique', 'jardin', 'fleurir', 'épanouir', 'tomber', 'odorant', 'grand', 'majestueux', 'décoratif', 'caduc', 'ancien'] },
+  '2026-08-03': { word: 'carcajou', members: ['mustélidé', 'glouton', 'amérique', 'canada', 'nord', 'taïga', 'forêt', 'sombre', 'pelage', 'griffes', 'museau', 'chasser', 'dévorer', 'rôder', 'féroce', 'solitaire', 'puissant', 'rare', 'mystérieux'] },
+  '2026-08-04': { word: 'quaternaire', members: ['ère', 'pléistocène', 'holocène', 'récent', 'glaciation', 'homme', 'mammouth', 'évolution', 'préhistoire', 'sédiment', 'fossile', 'climat', 'cycle', 'glacier', 'humain', 'actuel', 'cénozoïque', 'continental', 'géologique'] },
+  '2026-08-05': { word: 'colonnade', members: ['architecture', 'colonne', 'galerie', 'temple', 'antique', 'grec', 'romain', 'place', 'orné', 'majestueux', 'aligner', 'soutenir', 'entourer', 'décorer', 'monumental', 'noble', 'élégant', 'classique', 'symétrique'] },
+  '2026-08-06': { word: 'contrefort', members: ['architecture', 'mur', 'cathédrale', 'massif', 'pilier', 'soutien', 'arc-boutant', 'paroi', 'élever', 'soutenir', 'consolider', 'épauler', 'pyramide', 'monumental', 'gothique', 'roman', 'puissant', 'épais', 'extérieur'] },
+  '2026-08-07': { word: 'calvados', members: ['eau-de-vie', 'pomme', 'normandie', 'distillation', 'alambic', 'cidre', 'pays-d-auge', 'doux', 'vieux', 'hors-d-âge', 'apéritif', 'digestif', 'savourer', 'déguster', 'siroter', 'ambré', 'puissant', 'aromatique', 'rural'] },
+  '2026-08-08': { word: 'cantique', members: ['chant', 'religieux', 'sacré', 'fidèle', 'choeur', 'messe', 'liturgie', 'noël', 'pâque', 'composer', 'chanter', 'prier', 'louer', 'élever', 'spirituel', 'mystique', 'pieux', 'biblique', 'collectif'] },
+  '2026-08-09': { word: 'consommé', members: ['soupe', 'bouillon', 'cuisine', 'fond', 'gélatine', 'volaille', 'boeuf', 'limpide', 'doré', 'mijoter', 'clarifier', 'filtrer', 'savourer', 'entrée', 'aromatique', 'gastronomique', 'français', 'classique', 'royal'] },
+  '2026-08-10': { word: 'quadrant', members: ['instrument', 'navigation', 'astre', 'angle', 'mesure', 'arc', 'quart', 'cercle', 'astronomie', 'antique', 'arabe', 'médiéval', 'observer', 'calculer', 'mesurer', 'positionner', 'précis', 'sphérique', 'savant'] },
+  '2026-08-11': { word: 'géomorphologie', members: ['science', 'paysage', 'relief', 'érosion', 'sédimentation', 'glaciation', 'rivière', 'montagne', 'plaine', 'observer', 'analyser', 'cartographier', 'géomorphologue', 'modeler', 'former', 'savante', 'spécialisée', 'comparée', 'descriptive'] },
+  '2026-08-12': { word: 'abyssal', members: ['profond', 'abîme', 'gouffre', 'océan', 'fond', 'noir', 'sombre', 'insondable', 'illimité', 'plonger', 'sombrer', 'descendre', 'mystérieux', 'effrayant', 'vertigineux', 'fossé', 'écart', 'différence', 'incommensurable'] },
+  '2026-08-13': { word: 'surréalisme', members: ['mouvement', 'art', 'rêve', 'inconscient', 'breton', 'dalí', 'magritte', 'ernst', 'tanguy', 'manifeste', 'écriture-automatique', 'paranoïa', 'cadavre-exquis', 'onirique', 'fantastique', 'étrange', 'décalé', 'absurde', 'surprenant'] },
+  '2026-08-14': { word: 'béchamel', members: ['sauce', 'roux', 'lait', 'beurre', 'farine', 'muscade', 'gratin', 'lasagne', 'soufflé', 'crémeuse', 'liée', 'onctueuse', 'cuire', 'fouetter', 'épaissir', 'mijoter', 'blanche', 'française', 'classique'] },
+  '2026-08-15': { word: 'métaphysique', members: ['philosophie', 'aristote', 'kant', 'descartes', 'platon', 'être', 'essence', 'substance', 'existence', 'transcendance', 'absolu', 'penser', 'interroger', 'spéculer', 'abstrait', 'ontologique', 'spirituel', 'profond', 'mystérieux'] },
+  '2026-08-16': { word: 'abside', members: ['architecture', 'église', 'cathédrale', 'choeur', 'demi-cercle', 'voûte', 'cul-de-four', 'roman', 'gothique', 'pierre', 'orné', 'fresque', 'mosaïque', 'autel', 'décoration', 'arrondie', 'liturgique', 'sacrée', 'central'] },
+  '2026-08-17': { word: 'astrolabe', members: ['instrument', 'astronomie', 'navigation', 'étoile', 'astre', 'angle', 'mesure', 'antiquité', 'arabe', 'médiéval', 'observer', 'calculer', 'mesurer', 'positionner', 'précis', 'sphérique', 'plan', 'historique', 'savant'] },
+  '2026-08-18': { word: 'tachisme', members: ['mouvement', 'art', 'peinture', 'tache', 'spontané', 'gestuel', 'mathieu', 'hartung', 'soulages', 'pollock', 'jeter', 'éclabousser', 'composer', 'créer', 'expressif', 'lyrique', 'abstrait', 'informel', 'français'] },
+  '2026-08-19': { word: 'lapidaire', members: ['concis', 'bref', 'court', 'sec', 'percutant', 'sentence', 'formule', 'inscription', 'pierre', 'graver', 'écrire', 'résumer', 'condenser', 'épigramme', 'sentencieux', 'incisif', 'mordant', 'frappant', 'tranchant'] },
+  '2026-08-20': { word: 'tarsier', members: ['primate', 'asie', 'philippines', 'yeux', 'énorme', 'nocturne', 'arboricole', 'sauter', 'agripper', 'manger', 'insecte', 'minuscule', 'long', 'doigt', 'queue', 'gros', 'jaune', 'mystérieux', 'primitif'] },
+  '2026-08-21': { word: 'ichtyologie', members: ['science', 'poisson', 'aquatique', 'mer', 'rivière', 'pêche', 'aquarium', 'écaille', 'nageoire', 'observer', 'cataloguer', 'classifier', 'identifier', 'ichtyologue', 'taxonomie', 'savante', 'spécialisée', 'descriptive', 'comparée'] },
+  '2026-08-22': { word: 'parasitologie', members: ['science', 'parasite', 'tique', 'puce', 'ver', 'paludisme', 'amibe', 'plasmodium', 'hôte', 'observer', 'soigner', 'analyser', 'éradiquer', 'parasitologue', 'médicale', 'vétérinaire', 'tropicale', 'savante', 'spécialisée'] },
+  '2026-08-23': { word: 'béqueter', members: ['oiseau', 'bec', 'picorer', 'manger', 'graine', 'fruit', 'baiser', 'tendre', 'amoureux', 'becter', 'mordiller', 'pic', 'bécasse', 'tendrement', 'rapidement', 'délicatement', 'familier', 'familial', 'champêtre'] },
+  '2026-08-24': { word: 'orphisme', members: ['mouvement', 'art', 'delaunay', 'kupka', 'couleur', 'pure', 'cercle', 'rythme', 'lumière', 'abstraction', 'lyrique', 'musical', 'orphée', 'mythologique', 'rotation', 'circulaire', 'vibrant', 'cinétique', 'dynamique'] },
+  '2026-08-25': { word: 'pécari', members: ['mammifère', 'amérique', 'sud', 'forêt', 'savane', 'sanglier', 'défense', 'groin', 'pelage', 'troupeau', 'manger', 'fouir', 'creuser', 'charger', 'social', 'sauvage', 'féroce', 'omnivore', 'tropical'] },
+  '2026-08-26': { word: 'cassoulet', members: ['cuisine', 'haricot', 'blanc', 'confit', 'canard', 'saucisse', 'porc', 'toulouse', 'castelnaudary', 'mijoter', 'cuire', 'savourer', 'préparer', 'gratiner', 'rustique', 'occitan', 'lourd', 'gourmand', 'paysan'] },
+  '2026-08-27': { word: 'ratel', members: ['mustélidé', 'afrique', 'féroce', 'téméraire', 'pelage', 'noir', 'blanc', 'court', 'fouir', 'creuser', 'chasser', 'attaquer', 'venin', 'résistant', 'puissant', 'agressif', 'mythique', 'invincible', 'tenace'] },
+  '2026-08-28': { word: 'nostalgie', members: ['mélancolie', 'souvenir', 'passé', 'enfance', 'regret', 'manque', 'douceur', 'évoquer', 'rappeler', 'songer', 'pleurer', 'sourire', 'remémorer', 'éprouver', 'nostalgique', 'mélancolique', 'tendre', 'sentimentale', 'douce-amère'] },
+  '2026-08-29': { word: 'paléographie', members: ['science', 'écriture', 'manuscrit', 'parchemin', 'ancien', 'antique', 'médiéval', 'caractère', 'alphabet', 'déchiffrer', 'transcrire', 'analyser', 'lire', 'paléographe', 'érudit', 'savant', 'historique', 'spécialisé', 'rigoureux'] },
+  '2026-08-30': { word: 'paléolithique', members: ['préhistoire', 'pierre', 'taillée', 'homme', 'cro-magnon', 'sapiens', 'lascaux', 'chasse', 'cueillette', 'silex', 'grotte', 'feu', 'biface', 'nomade', 'ancien', 'lointain', 'préhistorique', 'âge', 'rupestre'] },
+  '2026-08-31': { word: 'zénith', members: ['ciel', 'culmination', 'apogée', 'sommet', 'midi', 'soleil', 'verticale', 'haut', 'plus-haut', 'culminer', 'atteindre', 'monter', 'maximal', 'point', 'astre', 'observateur', 'opposé', 'astronomique', 'célèbre'] },
+  '2026-09-01': { word: 'virtuosité', members: ['talent', 'maîtrise', 'habileté', 'dextérité', 'technique', 'pianiste', 'violoniste', 'paganini', 'liszt', 'jeu', 'doigté', 'rapide', 'difficile', 'éblouissant', 'spectaculaire', 'virtuose', 'maestro', 'exceptionnel', 'brillant'] },
+  '2026-09-02': { word: 'anthropocène', members: ['ère', 'humain', 'impact', 'climat', 'pollution', 'extinction', 'plastique', 'CO2', 'industrie', 'nucléaire', 'agriculture', 'urbanisation', 'définir', 'observer', 'mesurer', 'récent', 'actuel', 'anthropique', 'planétaire'] },
+  '2026-09-03': { word: 'transcender', members: ['dépasser', 'surpasser', 'élever', 'sublime', 'absolu', 'au-delà', 'mystique', 'philosophie', 'spirituel', 'magnifier', 'pénétrer', 'percer', 'extraordinaire', 'inouï', 'divin', 'transcendant', 'spirituelle', 'profond', 'noble'] },
+  '2026-09-04': { word: 'oligocène', members: ['ère', 'cénozoïque', 'paléogène', 'mammifère', 'évolution', 'fossile', 'climat', 'tempéré', 'préhistoire', 'sédiment', 'roche', 'apparition', 'forêt', 'savane', 'éocène', 'miocène', 'ancien', 'continental', 'géologique'] },
+  '2026-09-05': { word: 'nocturne', members: ['musique', 'piano', 'rêve', 'nuit', 'mélodieux', 'romantique', 'chopin', 'field', 'fauré', 'composer', 'jouer', 'évoquer', 'rêveur', 'paisible', 'lyrique', 'mélancolique', 'délicat', 'intime', 'tendre'] },
+  '2026-09-06': { word: 'constructivisme', members: ['mouvement', 'art', 'rodtchenko', 'tatline', 'malevitch', 'russe', 'révolution', 'soviet', 'géométrie', 'industriel', 'fonctionnel', 'concevoir', 'construire', 'composer', 'pratique', 'utilitaire', 'avant-garde', 'épuré', 'rigoureux'] },
+  '2026-09-07': { word: 'art-nouveau', members: ['mouvement', 'art', 'décoration', 'guimard', 'gallé', 'gaudí', 'klimt', 'mucha', 'fer', 'volute', 'arabesque', 'végétal', 'orné', 'organique', 'sinueux', 'élégant', 'belle-époque', 'parisien', 'fin-de-siècle'] },
+  '2026-09-08': { word: 'capucine', members: ['fleur', 'plante', 'jardin', 'orange', 'jaune', 'rouge', 'feuille', 'rond', 'tige', 'grimpante', 'comestible', 'piquante', 'cultiver', 'fleurir', 'décorative', 'estivale', 'familière', 'paysanne', 'lumineuse'] },
+  '2026-09-09': { word: 'paléontologie', members: ['science', 'fossile', 'os', 'dinosaure', 'préhistoire', 'jurassique', 'crétacé', 'mésozoïque', 'évolution', 'darwinien', 'archéoptéryx', 'tyrannosaure', 'paléontologue', 'fouilles', 'sédimentation', 'extinction', 'reptile', 'mammouth', 'cénozoïque'] },
+  '2026-09-10': { word: 'pointillisme', members: ['mouvement', 'art', 'peinture', 'seurat', 'signac', 'point', 'touche', 'optique', 'mélange', 'division', 'pure', 'couleur', 'analyser', 'décomposer', 'observer', 'méthodique', 'scientifique', 'néo-impressionnisme', 'rigoureux'] },
+  '2026-09-11': { word: 'allegro', members: ['musique', 'tempo', 'rapide', 'vif', 'mouvement', 'sonate', 'symphonie', 'concerto', 'partition', 'mozart', 'beethoven', 'jouer', 'enchaîner', 'précipiter', 'animé', 'enjoué', 'pétillant', 'classique', 'baroque'] },
+  '2026-09-12': { word: 'choucroute', members: ['cuisine', 'chou', 'fermenté', 'alsace', 'lard', 'saucisse', 'porc', 'pomme-de-terre', 'genièvre', 'vin', 'préparer', 'mijoter', 'savourer', 'cuire', 'alsacienne', 'familiale', 'rustique', 'gourmande', 'germanique'] },
+  '2026-09-13': { word: 'fatalité', members: ['destin', 'sort', 'malheur', 'tragédie', 'inexorable', 'inévitable', 'accident', 'mort', 'maladie', 'subir', 'accepter', 'résigner', 'frapper', 'écraser', 'mystérieuse', 'cruelle', 'aveugle', 'tragique', 'éternelle'] },
+  '2026-09-14': { word: 'hibiscus', members: ['fleur', 'tropical', 'plante', 'rouge', 'rose', 'orange', 'pétale', 'corolle', 'tisane', 'caraïbe', 'pacifique', 'décoratif', 'éphémère', 'fleurir', 'épanouir', 'pousser', 'cultiver', 'parfumé', 'exotique'] },
+  '2026-09-15': { word: 'mycologie', members: ['science', 'champignon', 'morille', 'cèpe', 'spore', 'mycélium', 'lichen', 'forêt', 'humidité', 'cueillir', 'identifier', 'observer', 'cataloguer', 'mycologue', 'savante', 'spécialisée', 'naturelle', 'scientifique', 'comestible'] },
+  '2026-09-16': { word: 'fennec', members: ['canidé', 'renard', 'désert', 'sahara', 'afrique', 'oreille', 'grande', 'sable', 'beige', 'museau', 'nocturne', 'chasser', 'fouir', 'creuser', 'agile', 'minuscule', 'discret', 'social', 'rare'] },
+  '2026-09-17': { word: 'glaïeul', members: ['fleur', 'iris', 'tige', 'haute', 'épi', 'rouge', 'rose', 'orange', 'jaune', 'pétale', 'bouquet', 'fleurir', 'cueillir', 'offrir', 'décoratif', 'élégant', 'majestueux', 'cultivé', 'flamboyant'] },
+  '2026-09-18': { word: 'cryptographie', members: ['science', 'code', 'chiffre', 'enigma', 'césar', 'rsa', 'sécurité', 'clé', 'algorithme', 'crypter', 'décrypter', 'protéger', 'cacher', 'analyser', 'cryptographe', 'mathématique', 'informatique', 'militaire', 'numérique'] },
+  '2026-09-19': { word: 'hyperbole', members: ['figure', 'exagération', 'amplification', 'emphase', 'rhétorique', 'littéraire', 'stylistique', 'expression', 'exagérer', 'amplifier', 'grossir', 'forcer', 'évoquer', 'frapper', 'extrême', 'démesurée', 'colossal', 'gigantesque', 'titanesque'] },
+  '2026-09-20': { word: 'magnanime', members: ['générosité', 'noblesse', 'grandeur', 'âme', 'coeur', 'pardon', 'clémence', 'indulgence', 'tolérance', 'pardonner', 'épargner', 'gracier', 'oublier', 'absoudre', 'généreux', 'noble', 'grand', 'tolérant', 'royal'] },
+  '2026-09-21': { word: 'fuchsia', members: ['fleur', 'plante', 'rose', 'violet', 'tropical', 'jardin', 'arbuste', 'pendant', 'corolle', 'pétale', 'colibri', 'pousser', 'fleurir', 'épanouir', 'mexique', 'amérique', 'décoratif', 'gracile', 'pourpre'] },
+  '2026-09-22': { word: 'narval', members: ['cétacé', 'défense', 'corne', 'licorne', 'arctique', 'glace', 'mer', 'banquise', 'long', 'mâle', 'spirale', 'ivoire', 'plonger', 'nager', 'chasser', 'mystérieux', 'monodonté', 'polaire', 'légendaire'] },
+  '2026-09-23': { word: 'laconique', members: ['concis', 'bref', 'court', 'sec', 'sparte', 'lacédémone', 'parole', 'silence', 'spartiate', 'résumer', 'condenser', 'taire', 'parler', 'sentencieux', 'sobre', 'tranchant', 'expression', 'mot', 'minimal'] },
+  '2026-09-24': { word: 'cénozoïque', members: ['ère', 'tertiaire', 'quaternaire', 'mammifère', 'évolution', 'paléogène', 'néogène', 'préhistoire', 'sédiment', 'fossile', 'climat', 'glaciation', 'apparition', 'humain', 'récent', 'continental', 'tropical', 'tempéré', 'géologique'] },
+  '2026-09-25': { word: 'fugue', members: ['composition', 'baroque', 'bach', 'thème', 'contrepoint', 'voix', 'imitation', 'strette', 'réponse', 'sujet', 'tonalité', 'transposer', 'enchaîner', 'développement', 'polyphonie', 'contrapuntique', 'composer', 'jouer', 'orgue'] },
+  '2026-09-26': { word: 'archéen', members: ['ère', 'précambrien', 'primordial', 'origine', 'vie', 'bactérie', 'stromatolite', 'océan', 'volcanisme', 'roche', 'fossile', 'évolution', 'premier', 'ancien', 'préhistoire', 'lointain', 'archaïque', 'géologique', 'tellurique'] },
+  '2026-09-27': { word: 'rococo', members: ['style', 'baroque', 'décoratif', 'ornement', 'volute', 'rocaille', 'coquille', 'asymétrique', 'élégant', 'orné', 'chargé', 'gracieux', 'fragonard', 'watteau', 'boucher', 'pastoral', 'aristocratique', 'tardif', 'foisonnant'] },
+  '2026-09-28': { word: 'menuet', members: ['danse', 'baroque', 'classique', 'gracieux', 'cour', 'salon', 'lent', 'majestueux', 'pas', 'figure', 'mozart', 'haydn', 'bach', 'composer', 'danser', 'aristocratique', 'élégant', 'tripartite', 'ternaire'] },
+  '2026-09-29': { word: 'tendresse', members: ['douceur', 'amour', 'affection', 'caresse', 'baiser', 'sourire', 'soin', 'attention', 'maternité', 'caresser', 'embrasser', 'choyer', 'protéger', 'aimer', 'maternelle', 'douce', 'délicate', 'aimante', 'enveloppante'] },
+  '2026-09-30': { word: 'pavot', members: ['fleur', 'plante', 'rouge', 'noir', 'champ', 'graine', 'huile', 'somnifère', 'opium', 'morphine', 'tige', 'capsule', 'pétale', 'délicat', 'sauvage', 'cultivé', 'décoratif', 'fragile', 'éphémère'] },
+  '2026-10-01': { word: 'languir', members: ['attendre', 'patienter', 'souffrir', 'mourir', 'flétrir', 'dépérir', 'soupirer', 'gémir', 'mélancolie', 'tristesse', 'manque', 'attente', 'épuiser', 'archaïque', 'soutenu', 'amoureux', 'sentimental', 'douloureux', 'romantique'] },
+  '2026-10-02': { word: 'baptistère', members: ['architecture', 'église', 'baptême', 'fonts', 'bénitier', 'cuve', 'sacré', 'liturgique', 'cérémonie', 'baptiser', 'plonger', 'asperger', 'octogonal', 'circulaire', 'pisan', 'romain', 'gothique', 'antique', 'religieux'] },
+  '2026-10-03': { word: 'crocus', members: ['fleur', 'printemps', 'safran', 'bulbe', 'jaune', 'mauve', 'violet', 'blanc', 'jardin', 'pelouse', 'pétale', 'tige', 'corolle', 'fleurir', 'cueillir', 'précoce', 'délicat', 'gracieux', 'frêle'] },
+  '2026-10-04': { word: 'sommelier', members: ['vin', 'cave', 'cellier', 'cépage', 'millésime', 'carafe', 'tire-bouchon', 'verre', 'gobelet', 'décantation', 'dégustation', 'arôme', 'tanin', 'robe', 'bouquet', 'oenologie', 'foudre', 'fût', 'service'] },
+  '2026-10-05': { word: 'sismologie', members: ['science', 'séisme', 'tremblement', 'faille', 'onde', 'magnitude', 'richter', 'épicentre', 'foyer', 'sismographe', 'mesurer', 'détecter', 'enregistrer', 'sismologue', 'tectonique', 'savante', 'spécialisée', 'prédictive', 'instrumentale'] },
+  '2026-10-06': { word: 'désespoir', members: ['douleur', 'tristesse', 'angoisse', 'détresse', 'abattement', 'effondrement', 'noir', 'profond', 'mortel', 'sombrer', 'plonger', 'gémir', 'pleurer', 'crier', 'morne', 'sombre', 'sans-issue', 'absolu', 'incurable'] },
+  '2026-10-07': { word: 'inéluctable', members: ['inévitable', 'fatal', 'incontournable', 'certain', 'mortel', 'destin', 'fatalité', 'absolu', 'extrême', 'subir', 'accepter', 'reconnaître', 'imminent', 'foudroyant', 'tragique', 'définitif', 'inexorable', 'cruel', 'sombre'] },
+  '2026-10-08': { word: 'cabotage', members: ['marine', 'navigation', 'côte', 'commerce', 'navire', 'caboteur', 'court', 'port', 'escale', 'côtière', 'commerciale', 'longer', 'naviguer', 'transporter', 'amarrer', 'historique', 'traditionnel', 'maritime', 'régional'] },
+  '2026-10-09': { word: 'ornithologie', members: ['science', 'oiseau', 'observation', 'jumelle', 'ornithologue', 'audubon', 'migration', 'nid', 'oeuf', 'chant', 'baguer', 'recenser', 'observer', 'identifier', 'cataloguer', 'amateur', 'savante', 'classification', 'comparée'] },
+  '2026-10-10': { word: 'microscope', members: ['instrument', 'optique', 'lentille', 'objectif', 'oculaire', 'agrandir', 'observer', 'cellule', 'bactérie', 'microbe', 'préparation', 'scientifique', 'précis', 'biologique', 'électronique', 'pasteur', 'recherche', 'minuscule', 'haut'] },
+  '2026-10-11': { word: 'axolotl', members: ['amphibien', 'salamandre', 'mexique', 'eau', 'aquatique', 'régénération', 'néoténie', 'branchies', 'pâle', 'rose', 'aquarium', 'rare', 'protégé', 'endémique', 'larvaire', 'aztèque', 'mystérieux', 'curieux', 'unique'] },
+  '2026-10-12': { word: 'nébuleuse', members: ['ciel', 'galaxie', 'cosmos', 'poussière', 'gaz', 'étoile', 'orion', 'aigle', 'oeil-de-chat', 'planétaire', 'diffuse', 'sombre', 'lumineuse', 'lointaine', 'cosmique', 'spirale', 'amas', 'astronomie', 'télescope'] },
+  '2026-10-13': { word: 'impressionnisme', members: ['mouvement', 'art', 'peinture', 'monet', 'manet', 'renoir', 'degas', 'pissarro', 'morisot', 'paris', 'lumière', 'plein-air', 'touche', 'esquisse', 'impression', 'rapide', 'instantané', 'coloré', 'flou'] },
+  '2026-10-14': { word: 'sourdre', members: ['source', 'eau', 'jaillir', 'fontaine', 'rocher', 'sol', 'naître', 'apparaître', 'surgir', 'émaner', 'venir', 'archaïque', 'littéraire', 'noble', 'élégant', 'naturel', 'spontané', 'imperceptible', 'soudain'] },
+  '2026-10-15': { word: 'équinoxe', members: ['saison', 'égalité', 'jour', 'nuit', 'mars', 'septembre', 'printemps', 'automne', 'soleil', 'équateur', 'astronomique', 'cycle', 'rotation', 'transition', 'changement', 'tempérée', 'symbolique', 'précession', 'datation'] },
+  '2026-10-16': { word: 'edelweiss', members: ['fleur', 'alpine', 'montagne', 'altitude', 'rare', 'protégé', 'duvet', 'feutre', 'étoile', 'blanche', 'fleurir', 'pousser', 'cueillir', 'admirer', 'symbolique', 'autriche', 'suisse', 'délicat', 'gracieux'] },
+  '2026-10-17': { word: 'tarentelle', members: ['danse', 'italienne', 'naples', 'tarente', 'rapide', 'rythme', 'tambourin', 'tarentule', 'frénétique', 'danser', 'tournoyer', 'sauter', 'frénésie', 'populaire', 'méridionale', 'gaie', 'sicilienne', 'folklorique', 'tradition'] },
+  '2026-10-18': { word: 'déambulatoire', members: ['architecture', 'église', 'cathédrale', 'gothique', 'chapelle', 'rayonnante', 'choeur', 'tour', 'colonne', 'voûte', 'procession', 'pèlerin', 'circuler', 'admirer', 'prier', 'arrondie', 'arcade', 'sacrée', 'liturgique'] },
+  '2026-10-19': { word: 'coyote', members: ['canidé', 'loup', 'amérique', 'désert', 'plaine', 'hurlement', 'meute', 'pelage', 'gris', 'chasser', 'rôder', 'hurler', 'fuir', 'opportuniste', 'rusé', 'sauvage', 'nocturne', 'agile', 'solitaire'] },
+  '2026-10-20': { word: 'cryogénien', members: ['ère', 'précambrien', 'glaciation', 'terre', 'boule', 'neige', 'glace', 'planète', 'extrême', 'froid', 'préhistoire', 'évolution', 'sédiment', 'fossile', 'ancien', 'lointain', 'géologique', 'global', 'mondial'] },
+  '2026-10-21': { word: 'neurologie', members: ['science', 'cerveau', 'nerf', 'neurone', 'moelle', 'épilepsie', 'parkinson', 'alzheimer', 'imagerie', 'soigner', 'opérer', 'examiner', 'neurologue', 'cellule', 'synapse', 'cortex', 'préventive', 'thérapeutique', 'clinique'] },
+  '2026-10-22': { word: 'baromètre', members: ['instrument', 'pression', 'atmosphérique', 'météo', 'mercure', 'aiguille', 'cadran', 'beau', 'mauvais', 'mesurer', 'indiquer', 'prédire', 'observer', 'monter', 'descendre', 'précis', 'anéroïde', 'sensible', 'scientifique'] },
+  '2026-10-23': { word: 'psychologie', members: ['science', 'esprit', 'comportement', 'mental', 'freud', 'jung', 'lacan', 'piaget', 'cognition', 'émotion', 'inconscient', 'étudier', 'analyser', 'sonder', 'expérimentale', 'clinique', 'sociale', 'cognitive', 'développementale'] },
+  '2026-10-24': { word: 'holocène', members: ['ère', 'quaternaire', 'récent', 'humain', 'climat', 'glaciation', 'réchauffement', 'civilisation', 'agriculture', 'sédentaire', 'actuelle', 'préhistoire', 'évolution', 'datation', 'tempéré', 'interglaciaire', 'géologique', 'moderne', 'court'] },
+  '2026-10-25': { word: 'béatitude', members: ['bonheur', 'paradis', 'félicité', 'bénédiction', 'mystique', 'extase', 'sérénité', 'plénitude', 'paix', 'éprouver', 'savourer', 'rayonner', 'sourire', 'transcender', 'parfaite', 'absolue', 'spirituelle', 'divine', 'éternelle'] },
+  '2026-10-26': { word: 'opportun', members: ['propice', 'favorable', 'adapté', 'convenable', 'utile', 'pertinent', 'judicieux', 'moment', 'instant', 'choisir', 'attendre', 'saisir', 'profiter', 'efficace', 'à-propos', 'idoine', 'parfait', 'bienvenu', 'astucieux'] },
+  '2026-10-27': { word: 'clepsydre', members: ['instrument', 'temps', 'eau', 'écouler', 'mesurer', 'compter', 'antique', 'égypte', 'grec', 'romain', 'préciser', 'verser', 'goutte', 'recueillir', 'historique', 'ancien', 'précise', 'ingénieuse', 'utile'] },
+  '2026-10-28': { word: 'doute', members: ['incertitude', 'hésitation', 'questionnement', 'scepticisme', 'soupçon', 'inquiétude', 'pyrrhonisme', 'descartes', 'méthodique', 'douter', 'questionner', 'interroger', 'hésiter', 'soupçonner', 'cartésien', 'sceptique', 'philosophique', 'fondamental', 'légitime'] },
+  '2026-10-29': { word: 'oratorio', members: ['musique', 'chant', 'religieux', 'sacré', 'narratif', 'soliste', 'choeur', 'orchestre', 'récitatif', 'aria', 'haendel', 'bach', 'haydn', 'messie', 'composition', 'baroque', 'classique', 'biblique', 'dramatique'] },
+  '2026-10-30': { word: 'ogive', members: ['voûte', 'pointe', 'croisée', 'ogival', 'clé', 'gothique', 'cathédrale', 'nervure', 'formeret', 'lierne', 'tierceron', 'doubleau', 'arc', 'arche', 'élancée', 'brisée', 'lancéolée', 'pierre', 'cintré'] },
+  '2026-10-31': { word: 'blason', members: ['héraldique', 'écu', 'écusson', 'armoiries', 'devise', 'cimier', 'casque', 'lambrequin', 'champ', 'partition', 'meuble', 'pal', 'fasce', 'bande', 'chevron', 'orner', 'graver', 'arborer', 'noble'] },
+  '2026-11-01': { word: 'pliocène', members: ['ère', 'cénozoïque', 'mammifère', 'évolution', 'fossile', 'climat', 'refroidissement', 'glaciation', 'hominidé', 'miocène', 'pléistocène', 'apparition', 'préhistoire', 'sédiment', 'roche', 'ancien', 'continental', 'tempéré', 'géologique'] },
+  '2026-11-02': { word: 'tartiflette', members: ['cuisine', 'savoie', 'pomme-de-terre', 'reblochon', 'lardon', 'oignon', 'crème', 'vin', 'blanc', 'four', 'gratin', 'mijoter', 'savourer', 'préparer', 'cuire', 'rustique', 'montagnarde', 'hivernale', 'gourmande'] },
+  '2026-11-03': { word: 'gneiss', members: ['roche', 'minéral', 'foliation', 'feldspath', 'quartz', 'mica', 'métamorphique', 'cristal', 'massif', 'strate', 'érosion', 'affleurement', 'granite', 'orogenèse', 'silicate', 'grise', 'rugueuse', 'feuilletée', 'compacte'] },
+  '2026-11-04': { word: 'quiétude', members: ['calme', 'tranquillité', 'paix', 'silence', 'sérénité', 'apaisement', 'douceur', 'repos', 'béatitude', 'apaiser', 'reposer', 'savourer', 'contempler', 'régner', 'profonde', 'paisible', 'tranquille', 'sereine', 'absolue'] },
+  '2026-11-05': { word: 'tolérance', members: ['acceptation', 'respect', 'ouverture', 'compréhension', 'patience', 'voltaire', 'humanisme', 'différence', 'pluralisme', 'tolérer', 'accepter', 'respecter', 'comprendre', 'admettre', 'partager', 'généreuse', 'éclairée', 'civique', 'universelle'] },
+  '2026-11-06': { word: 'gardénia', members: ['fleur', 'plante', 'arbuste', 'blanche', 'parfumée', 'pétale', 'feuille', 'brillante', 'jardin', 'tropical', 'fleurir', 'cultiver', 'pousser', 'odorante', 'élégante', 'délicate', 'asiatique', 'décorative', 'précieuse'] },
+  '2026-11-07': { word: 'ouistiti', members: ['primate', 'singe', 'amérique', 'sud', 'petit', 'minuscule', 'queue', 'oreille', 'pelage', 'grimper', 'sauter', 'manger', 'fruit', 'insecte', 'agile', 'mignon', 'familial', 'social', 'curieux'] },
+  '2026-11-08': { word: 'herpétologie', members: ['science', 'reptile', 'amphibien', 'serpent', 'lézard', 'crocodile', 'grenouille', 'salamandre', 'écaille', 'venin', 'observer', 'étudier', 'cataloguer', 'herpétologue', 'classifier', 'sauvage', 'tropical', 'scientifique', 'spécialisée'] },
+  '2026-11-09': { word: 'sociologie', members: ['science', 'société', 'groupe', 'institution', 'classe', 'durkheim', 'weber', 'marx', 'bourdieu', 'comportement', 'étudier', 'analyser', 'observer', 'enquêter', 'sociologue', 'urbaine', 'rurale', 'comparée', 'empirique'] },
+  '2026-11-10': { word: 'minimalisme', members: ['mouvement', 'art', 'simplicité', 'épuré', 'sobre', 'judd', 'flavin', 'lewitt', 'géométrique', 'fondamental', 'réduire', 'épurer', 'simplifier', 'essentiel', 'pur', 'austère', 'dépouillé', 'rigoureux', 'contemporain'] },
+  '2026-11-11': { word: 'tabernacle', members: ['liturgie', 'autel', 'eucharistie', 'hostie', 'sacré', 'temple', 'voile', 'cierge', 'orfèvrerie', 'orné', 'enfermer', 'conserver', 'adorer', 'célébrer', 'liturgique', 'religieux', 'mystique', 'précieux', 'central'] },
+  '2026-11-12': { word: 'sablier', members: ['instrument', 'temps', 'sable', 'verre', 'écouler', 'mesurer', 'compter', 'tourner', 'retourner', 'attendre', 'précipiter', 'symbolique', 'memento', 'vanité', 'patience', 'cuisson', 'ancien', 'élégant', 'silencieux'] },
+  '2026-11-13': { word: 'marmotte', members: ['rongeur', 'montagne', 'hibernation', 'terrier', 'galerie', 'dormir', 'siffler', 'gros', 'museau', 'queue', 'pelage', 'alpe', 'pyrénées', 'famille', 'guetter', 'paresseux', 'mignonne', 'familial', 'grégaire'] },
+  '2026-11-14': { word: 'pérorer', members: ['discourir', 'parler', 'déclamer', 'haranguer', 'pontifier', 'pavaner', 'prêcher', 'orateur', 'discours', 'tribune', 'long', 'enflé', 'emphatique', 'grandiloquent', 'professeur', 'archaïque', 'soutenu', 'oratoire', 'théâtral'] },
+  '2026-11-15': { word: 'fantaisie', members: ['musique', 'composition', 'libre', 'improvisation', 'rêve', 'imagination', 'fantasque', 'romantique', 'schubert', 'chopin', 'composer', 'improviser', 'jouer', 'expressif', 'imaginatif', 'créatif', 'spontané', 'lyrique', 'onirique'] },
+  '2026-11-16': { word: 'lémur', members: ['primate', 'madagascar', 'long', 'queue', 'rayée', 'grand', 'yeux', 'arboricole', 'nocturne', 'sauter', 'grimper', 'manger', 'fruit', 'feuille', 'famille', 'protégé', 'endémique', 'curieux', 'agile'] },
+  '2026-11-17': { word: 'limnologie', members: ['science', 'lac', 'étang', 'eau', 'douce', 'plancton', 'algue', 'sédiment', 'biologique', 'observer', 'mesurer', 'analyser', 'limnologue', 'aquatique', 'savante', 'spécialisée', 'écologique', 'comparée', 'physico-chimique'] },
+  '2026-11-18': { word: 'professer', members: ['enseigner', 'déclarer', 'proclamer', 'affirmer', 'soutenir', 'exposer', 'défendre', 'transmettre', 'inculquer', 'docter', 'expliquer', 'foi', 'opinion', 'doctrine', 'professeur', 'magistral', 'académique', 'savant', 'doctoral'] },
+  '2026-11-19': { word: 'mésolithique', members: ['préhistoire', 'pierre', 'taillée', 'homme', 'chasse', 'pêche', 'cueillette', 'campement', 'nomade', 'transitoire', 'microlithe', 'arc', 'flèche', 'foyer', 'paléolithique', 'néolithique', 'ancien', 'préhistorique', 'âge'] },
+  '2026-11-20': { word: 'madrigal', members: ['musique', 'chant', 'polyphonie', 'renaissance', 'italien', 'profane', 'amour', 'pastoral', 'monteverdi', 'lassus', 'gesualdo', 'choeur', 'voix', 'a-cappella', 'composer', 'chanter', 'baroque', 'élégant', 'mélodieux'] },
+  '2026-11-21': { word: 'authenticité', members: ['vérité', 'sincérité', 'vraie', 'pure', 'naturelle', 'spontanée', 'fidélité', 'identité', 'origine', 'rechercher', 'incarner', 'préserver', 'révéler', 'véritable', 'authentique', 'réel', 'profond', 'sincère', 'original'] },
+  '2026-11-22': { word: 'lynx', members: ['félin', 'forêt', 'boréale', 'pelage', 'oreille', 'aiguë', 'pinceau', 'griffes', 'crocs', 'chasser', 'guetter', 'bondir', 'sauter', 'discret', 'silencieux', 'agile', 'puissant', 'solitaire', 'sauvage'] },
+  '2026-11-23': { word: 'schiste', members: ['roche', 'sédimentaire', 'feuillet', 'argileux', 'gris', 'bleu', 'feuillage', 'lit', 'cliver', 'tailler', 'fendre', 'extraire', 'ardoisier', 'foliation', 'cristalline', 'métamorphique', 'litée', 'micacée', 'noir'] },
+  '2026-11-24': { word: 'lupin', members: ['fleur', 'plante', 'tige', 'haute', 'épi', 'bleu', 'violet', 'rose', 'jaune', 'pétale', 'graine', 'champ', 'sauvage', 'cultivé', 'fleurir', 'pousser', 'décoratif', 'rustique', 'généreux'] },
+  '2026-11-25': { word: 'mornay', members: ['sauce', 'béchamel', 'cuisine', 'fromage', 'gruyère', 'parmesan', 'gratin', 'crémeuse', 'jaune', 'épaisse', 'mijoter', 'fouetter', 'fondre', 'garnir', 'classique', 'française', 'onctueuse', 'gourmande', 'savoureuse'] },
+  '2026-11-26': { word: 'situationnisme', members: ['mouvement', 'debord', 'spectacle', 'critique', 'urbain', 'dérive', 'détournement', 'situation', 'révolution', 'subvertir', 'détourner', 'critiquer', 'engagé', 'révolutionnaire', 'théorique', 'social', 'politique', 'avant-garde', 'mai-68'] },
+  '2026-11-27': { word: 'permien', members: ['ère', 'paléozoïque', 'fossile', 'reptile', 'extinction', 'massive', 'continental', 'désertique', 'évolution', 'préhistoire', 'sédiment', 'roche', 'pangée', 'carbonifère', 'trias', 'ancien', 'lointain', 'géologique', 'sec'] },
+  '2026-11-28': { word: 'opiniâtre', members: ['tenace', 'obstiné', 'persévérant', 'entêté', 'volonté', 'caractère', 'détermination', 'effort', 'lutte', 'persévérer', 'continuer', 'insister', 'résister', 'tenir', 'irréductible', 'ferme', 'décidé', 'inflexible', 'fougueux'] },
+  '2026-11-29': { word: 'hortensia', members: ['fleur', 'arbuste', 'jardin', 'rose', 'bleu', 'mauve', 'blanc', 'inflorescence', 'pétale', 'feuille', 'humidité', 'sol', 'acide', 'cultiver', 'fleurir', 'pousser', 'décoratif', 'estival', 'généreux'] },
+  '2026-11-30': { word: 'ouïr', members: ['entendre', 'écouter', 'auditif', 'oreille', 'archaïque', 'littéraire', 'classique', 'son', 'voix', 'noble', 'soutenu', 'audible', 'percevoir', 'capter', 'tendre', 'attentif', 'discerner', 'distinguer', 'rare'] },
+  '2026-12-01': { word: 'précambrien', members: ['ère', 'archéen', 'protérozoïque', 'cryogénien', 'origine', 'vie', 'bactérie', 'stromatolite', 'continent', 'évolution', 'préhistoire', 'sédiment', 'roche', 'volcanisme', 'océan', 'primitif', 'ancien', 'lointain', 'géologique'] },
+  '2026-12-02': { word: 'ineffable', members: ['indescriptible', 'inexprimable', 'mystique', 'transcendant', 'sublime', 'beauté', 'divin', 'extase', 'merveille', 'décrire', 'exprimer', 'dépasser', 'éprouver', 'ressentir', 'profond', 'inouï', 'unique', 'singulier', 'spirituel'] },
+  '2026-12-03': { word: 'fricassée', members: ['cuisine', 'volaille', 'lapin', 'champignon', 'crème', 'vin', 'oignon', 'sauce', 'mijoter', 'préparer', 'savourer', 'cuire', 'lardon', 'carotte', 'classique', 'rustique', 'française', 'crémeuse', 'familiale'] },
+  '2026-12-04': { word: 'lemming', members: ['rongeur', 'arctique', 'toundra', 'migration', 'colonie', 'gros', 'museau', 'pelage', 'brun', 'galerie', 'creuser', 'manger', 'migrer', 'reproduire', 'noyer', 'mystérieux', 'cyclique', 'grégaire', 'mythique'] },
+  '2026-12-05': { word: 'pivoine', members: ['fleur', 'plante', 'rose', 'rouge', 'blanc', 'parfumée', 'pétale', 'corolle', 'mai', 'printemps', 'jardin', 'bouquet', 'cultiver', 'fleurir', 'cueillir', 'épanouir', 'généreuse', 'voluptueuse', 'opulente'] },
+  '2026-12-06': { word: 'importun', members: ['gênant', 'fâcheux', 'inopportun', 'envahissant', 'pesant', 'ennuyeux', 'indésirable', 'visiteur', 'intrus', 'déranger', 'agacer', 'importuner', 'envahir', 'fatiguer', 'irriter', 'mal-venu', 'tenace', 'lassant', 'pénible'] },
+  '2026-12-07': { word: 'dadaïsme', members: ['mouvement', 'art', 'tzara', 'duchamp', 'arp', 'picabia', 'manifeste', 'absurde', 'provocation', 'collage', 'ready-made', 'anti-art', 'rejet', 'subvertir', 'choquer', 'avant-garde', 'irrationnel', 'révolutionnaire', 'iconoclaste'] },
+  '2026-12-08': { word: 'nénuphar', members: ['plante', 'aquatique', 'fleur', 'étang', 'mare', 'feuille', 'eau', 'flottant', 'blanc', 'jaune', 'rose', 'monet', 'giverny', 'tige', 'rhizome', 'fleurir', 'flotter', 'racine', 'douce'] },
+  '2026-12-09': { word: 'mélancolie', members: ['tristesse', 'nostalgie', 'spleen', 'cafard', 'morosité', 'noirceur', 'humeur', 'gris', 'pluvieux', 'songer', 'rêver', 'languir', 'pleurer', 'soupirer', 'romantique', 'mélancolique', 'sentimentale', 'profonde', 'tendre'] },
+  '2026-12-10': { word: 'fustiger', members: ['critiquer', 'blâmer', 'condamner', 'attaquer', 'invectiver', 'flageller', 'sermonner', 'reprocher', 'vilipender', 'dénoncer', 'stigmatiser', 'pourfendre', 'rabaisser', 'dégrader', 'archaïque', 'soutenu', 'violent', 'sévère', 'mordant'] },
+  '2026-12-11': { word: 'vanité', members: ['orgueil', 'arrogance', 'fierté', 'futilité', 'illusion', 'miroir', 'crâne', 'sablier', 'tableau', 'memento', 'mori', 'admirer', 'glorifier', 'parader', 'symbolique', 'vain', 'futile', 'éphémère', 'temporel'] },
+  '2026-12-12': { word: 'silurien', members: ['ère', 'paléozoïque', 'fossile', 'poisson', 'plante', 'corail', 'ordovicien', 'dévonien', 'mer', 'sédiment', 'roche', 'évolution', 'colonisation', 'préhistoire', 'ancien', 'lointain', 'continental', 'géologique', 'tropical'] },
+  '2026-12-13': { word: 'mordant', members: ['acerbe', 'caustique', 'incisif', 'piquant', 'cinglant', 'aigre', 'corrosif', 'satirique', 'humour', 'ironie', 'critique', 'attaquer', 'piquer', 'blesser', 'sarcastique', 'agressif', 'tranchant', 'cassant', 'âpre'] },
+  '2026-12-14': { word: 'lichen', members: ['flore', 'champignon', 'algue', 'symbiose', 'arbre', 'pierre', 'tronc', 'forêt', 'humidité', 'pousser', 'coloniser', 'résister', 'gris', 'jaune', 'vert', 'pionnier', 'thalle', 'lent', 'extrême'] },
+  '2026-12-15': { word: 'tagine', members: ['cuisine', 'maroc', 'maghreb', 'plat', 'terre', 'cuit', 'cône', 'mijoter', 'épice', 'agneau', 'poulet', 'légume', 'olive', 'citron', 'safran', 'cumin', 'savourer', 'traditionnel', 'oriental'] },
+  '2026-12-16': { word: 'bourguignon', members: ['cuisine', 'boeuf', 'vin', 'rouge', 'bourgogne', 'lardon', 'oignon', 'champignon', 'carotte', 'thym', 'mijoter', 'cuire', 'préparer', 'savourer', 'long', 'gourmand', 'rustique', 'française', 'traditionnel'] },
+  '2026-12-17': { word: 'clocheton', members: ['architecture', 'clocher', 'flèche', 'gothique', 'tour', 'petit', 'pointu', 'pinacle', 'ornement', 'orner', 'élever', 'dresser', 'décoratif', 'aérien', 'élancé', 'gracieux', 'médiéval', 'élégant', 'fin'] },
+  '2026-12-18': { word: 'faille', members: ['géologie', 'fracture', 'mouvement', 'tectonique', 'plaque', 'séisme', 'sismique', 'décrochement', 'effondrement', 'glissement', 'andreas', 'rupture', 'cassure', 'fissure', 'discontinuité', 'profonde', 'active', 'majeure', 'verticale'] },
+  '2026-12-19': { word: 'amaryllis', members: ['fleur', 'bulbe', 'trompette', 'rouge', 'rose', 'blanc', 'tige', 'haute', 'pétale', 'fleurir', 'cultiver', 'pousser', 'décorative', 'élégante', 'majestueuse', 'noël', 'hivernale', 'spectaculaire', 'tropicale'] },
+  '2026-12-20': { word: 'intuition', members: ['perception', 'pressentiment', 'instinct', 'flair', 'sixième-sens', 'connaissance', 'évidence', 'révélation', 'inspiration', 'sentir', 'pressentir', 'deviner', 'comprendre', 'percevoir', 'féminine', 'rapide', 'directe', 'spirituelle', 'mystérieuse'] },
+  '2026-12-21': { word: 'fervent', members: ['passionné', 'ardent', 'enthousiaste', 'dévot', 'fidèle', 'sincère', 'profond', 'flamme', 'religion', 'admirer', 'aimer', 'soutenir', 'défendre', 'pratiquer', 'zélé', 'engagé', 'intense', 'convaincu', 'mystique'] },
+  '2026-12-22': { word: 'transept', members: ['architecture', 'église', 'cathédrale', 'plan', 'croix', 'nef', 'choeur', 'bras', 'orné', 'gothique', 'roman', 'fenêtre', 'rose', 'voûte', 'pierre', 'sacré', 'liturgique', 'central', 'perpendiculaire'] },
+  '2026-12-23': { word: 'cépage', members: ['vigne', 'raisin', 'pinot', 'chardonnay', 'cabernet', 'merlot', 'gamay', 'syrah', 'grenache', 'sauvignon', 'riesling', 'sémillon', 'cinsault', 'mourvèdre', 'viognier', 'planter', 'vendanger', 'tailler', 'sélectionner'] },
+  '2026-12-24': { word: 'prélude', members: ['musique', 'introduction', 'piano', 'orgue', 'baroque', 'classique', 'romantique', 'bach', 'chopin', 'rachmaninov', 'composer', 'jouer', 'préluder', 'précéder', 'court', 'libre', 'tonal', 'instrumental', 'expressif'] },
+  '2026-12-25': { word: 'péremptoire', members: ['catégorique', 'décisif', 'tranchant', 'absolu', 'définitif', 'autoritaire', 'sans-réplique', 'ton', 'parole', 'parler', 'imposer', 'affirmer', 'asséner', 'irrécusable', 'incontestable', 'autoritariste', 'cassant', 'ferme', 'doctoral'] },
+  '2026-12-26': { word: 'sextant', members: ['marine', 'navigation', 'astre', 'angle', 'mesure', 'soleil', 'étoile', 'horizon', 'miroir', 'lunette', 'navigateur', 'capitaine', 'utiliser', 'observer', 'mesurer', 'positionner', 'instrument', 'précis', 'optique'] },
+  '2026-12-27': { word: 'suprématisme', members: ['mouvement', 'art', 'malevitch', 'carré', 'noir', 'blanc', 'rouge', 'géométrie', 'pure', 'abstraction', 'spirituel', 'russe', 'révolution', 'épurer', 'simplifier', 'composer', 'cosmique', 'avant-garde', 'absolu'] },
+  '2026-12-28': { word: 'naturalisme', members: ['mouvement', 'littérature', 'zola', 'maupassant', 'goncourt', 'réalité', 'social', 'classe', 'misère', 'observer', 'décrire', 'analyser', 'documenter', 'expérimenter', 'scientifique', 'objectif', 'cru', 'sombre', 'engagé'] },
+  '2026-12-29': { word: 'choir', members: ['tomber', 'chute', 'choit', 'archaïque', 'littéraire', 'élégant', 'classique', 'sol', 'précipice', 'effondrer', 'sombrer', 'plonger', 'descendre', 'défaillir', 'choisir', 'naturel', 'fatal', 'dramatique', 'inexorable'] },
+  '2026-12-30': { word: 'genette', members: ['mammifère', 'carnivore', 'afrique', 'europe', 'pelage', 'queue', 'rayé', 'museau', 'agile', 'nocturne', 'forêt', 'rocher', 'chasser', 'grimper', 'rongeur', 'oiseau', 'gracile', 'farouche', 'tacheté'] },
+  '2026-12-31': { word: 'oeillet', members: ['fleur', 'plante', 'jardin', 'rouge', 'rose', 'blanc', 'parfumé', 'pétale', 'tige', 'mince', 'bouquet', 'mariage', 'symbolique', 'fleurir', 'cueillir', 'offrir', 'décoratif', 'délicat', 'odorant'] },
+  '2027-01-01': { word: 'pragmatisme', members: ['philosophie', 'james', 'dewey', 'peirce', 'utilité', 'action', 'résultat', 'efficacité', 'pratique', 'agir', 'expérimenter', 'tester', 'résoudre', 'utile', 'concret', 'réaliste', 'américain', 'empirique', 'fonctionnel'] },
+  '2027-01-02': { word: 'sibyllin', members: ['oraculaire', 'mystérieux', 'obscur', 'énigmatique', 'sibylle', 'prophétie', 'oracle', 'cumes', 'sentence', 'parler', 'prédire', 'révéler', 'cacher', 'voiler', 'cryptique', 'ambigu', 'hermétique', 'antique', 'mystique'] },
+  '2027-01-03': { word: 'symbolisme', members: ['mouvement', 'littérature', 'mallarmé', 'verlaine', 'baudelaire', 'rimbaud', 'art', 'moreau', 'redon', 'rêve', 'mystère', 'évocation', 'suggérer', 'évoquer', 'symboliser', 'mystique', 'idéaliste', 'décadent', 'fin-de-siècle'] },
+  '2027-01-04': { word: 'oxymore', members: ['figure', 'stylistique', 'antithèse', 'opposition', 'contradiction', 'paradoxe', 'effet', 'littéraire', 'poésie', 'rhétorique', 'phrase', 'expression', 'rapprocher', 'opposer', 'évoquer', 'frapper', 'audacieux', 'lumineuse', 'obscure'] },
+  '2027-01-05': { word: 'okapi', members: ['mammifère', 'congo', 'forêt', 'girafe', 'zèbre', 'rayure', 'pelage', 'brun', 'cou', 'long', 'discret', 'rare', 'protégé', 'endémique', 'cousin', 'paisible', 'sauvage', 'mystérieux', 'unique'] },
+  '2027-01-06': { word: 'ahaner', members: ['effort', 'peine', 'fatigue', 'souffle', 'haleter', 'gémir', 'soupirer', 'transpirer', 'forcer', 'pousser', 'porter', 'soulever', 'travailler', 'pénible', 'ardu', 'épuisant', 'archaïque', 'littéraire', 'rude'] },
+  '2027-01-07': { word: 'kiosque', members: ['pavillon', 'jardin', 'parc', 'musique', 'orient', 'belvédère', 'turc', 'gloriette', 'fer', 'orné', 'ouvert', 'circulaire', 'octogonal', 'décoratif', 'paisible', 'estival', 'aérien', 'champêtre', 'parisien'] },
+  '2027-01-08': { word: 'déconstruction', members: ['philosophie', 'derrida', 'texte', 'sens', 'binaire', 'opposition', 'critique', 'décoder', 'décortiquer', 'analyser', 'remettre', 'questionner', 'examiner', 'subvertir', 'révéler', 'postmoderne', 'française', 'théorique', 'radicale'] },
+  '2027-01-09': { word: 'campanile', members: ['architecture', 'tour', 'clocher', 'italien', 'venise', 'florence', 'pise', 'cloche', 'haut', 'isolé', 'sonner', 'tinter', 'orner', 'admirer', 'monumental', 'renaissance', 'roman', 'gothique', 'élégant'] },
+  '2027-01-10': { word: 'phénoménologie', members: ['philosophie', 'husserl', 'heidegger', 'merleau-ponty', 'conscience', 'expérience', 'perception', 'intentionnalité', 'phénomène', 'décrire', 'analyser', 'mettre-entre-parenthèses', 'observer', 'épochè', 'sartre', 'allemande', 'méthode', 'rigoureuse', 'descriptive'] },
+  '2027-01-11': { word: 'paella', members: ['cuisine', 'espagne', 'riz', 'safran', 'fruit-de-mer', 'crevette', 'poulet', 'poisson', 'légume', 'valencia', 'plat', 'préparer', 'cuire', 'savourer', 'partager', 'jaune', 'généreuse', 'estivale', 'méditerranéenne'] },
+  '2027-01-12': { word: 'pédologie', members: ['science', 'sol', 'terre', 'humus', 'argile', 'sable', 'roche', 'horizon', 'profil', 'classification', 'analyser', 'observer', 'identifier', 'mesurer', 'pédologue', 'agronomique', 'savante', 'spécialisée', 'descriptive'] },
+  '2027-01-13': { word: 'ethnologie', members: ['science', 'culture', 'tribu', 'peuple', 'ethnie', 'coutume', 'tradition', 'rite', 'lévi-strauss', 'totémisme', 'étudier', 'observer', 'comparer', 'décrire', 'ethnologue', 'culturelle', 'comparée', 'descriptive', 'sociale'] },
+  '2027-01-14': { word: 'séraphique', members: ['ange', 'séraphin', 'cieux', 'paradis', 'pureté', 'douceur', 'sainteté', 'mystique', 'extase', 'sourire', 'visage', 'élévation', 'apparaître', 'transcender', 'angélique', 'divin', 'éthéré', 'lumineux', 'sublime'] },
+  '2027-01-15': { word: 'anthropologie', members: ['science', 'homme', 'culture', 'société', 'tribu', 'ethnie', 'rite', 'coutume', 'évolution', 'anthropologue', 'étudier', 'observer', 'analyser', 'lévi-strauss', 'malinowski', 'culturelle', 'sociale', 'physique', 'comparée'] },
+  '2027-01-16': { word: 'suricate', members: ['mammifère', 'afrique', 'désert', 'savane', 'terrier', 'colonie', 'guetteur', 'sentinelle', 'dressé', 'mangouste', 'creuser', 'manger', 'guetter', 'siffler', 'protéger', 'social', 'familial', 'curieux', 'vigilant'] },
+  '2027-01-17': { word: 'patience', members: ['vertu', 'sagesse', 'calme', 'endurance', 'attente', 'persévérance', 'modération', 'tempérance', 'attendre', 'persévérer', 'supporter', 'endurer', 'temporiser', 'tolérer', 'patiente', 'serein', 'tolérant', 'longue', 'tenace'] },
+  '2027-01-18': { word: 'requiem', members: ['musique', 'messe', 'défunt', 'liturgie', 'mozart', 'verdi', 'fauré', 'choeur', 'soliste', 'orchestre', 'introit', 'kyrie', 'dies-irae', 'sanctus', 'agnus', 'lacrimosa', 'composer', 'religieux', 'solennel'] },
+  '2027-01-19': { word: 'carbonifère', members: ['ère', 'paléozoïque', 'charbon', 'fossile', 'fougère', 'plante', 'forêt', 'tropical', 'humide', 'évolution', 'préhistoire', 'sédiment', 'roche', 'apparition', 'amphibien', 'ancien', 'lointain', 'continental', 'géologique'] },
+  '2027-01-20': { word: 'protérozoïque', members: ['ère', 'précambrien', 'fossile', 'bactérie', 'eucaryote', 'algue', 'oxygène', 'glaciation', 'évolution', 'préhistoire', 'sédiment', 'roche', 'origine', 'archéen', 'phanérozoïque', 'ancien', 'lointain', 'géologique', 'primitif'] },
+  '2027-01-21': { word: 'vermouth', members: ['apéritif', 'vin', 'aromatisé', 'herbes', 'écorce', 'amer', 'sec', 'doux', 'rouge', 'blanc', 'italien', 'français', 'martini', 'manhattan', 'cocktail', 'verser', 'savourer', 'siroter', 'glaçon'] },
+  '2027-01-22': { word: 'archéologie', members: ['fouille', 'vestige', 'antiquité', 'tombe', 'ruine', 'civilisation', 'site', 'pelle', 'pinceau', 'datation', 'carbone', 'stratigraphie', 'archéologue', 'creuser', 'exhumer', 'analyser', 'préhistorique', 'antique', 'scientifique'] },
+  '2027-01-23': { word: 'éthéré', members: ['léger', 'aérien', 'subtil', 'vaporeux', 'impalpable', 'spirituel', 'mystique', 'ange', 'rêve', 'flotter', 'planer', 'voltiger', 'transcender', 'évanescent', 'évaporé', 'délicat', 'fragile', 'sublime', 'céleste'] },
+  '2027-01-24': { word: 'abstractionnisme', members: ['mouvement', 'art', 'abstraction', 'kandinsky', 'mondrian', 'malevitch', 'pollock', 'rothko', 'forme', 'couleur', 'ligne', 'épurer', 'simplifier', 'transcender', 'pur', 'non-figuratif', 'spirituel', 'expressif', 'lyrique'] },
+  '2027-01-25': { word: 'cambrien', members: ['ère', 'paléozoïque', 'fossile', 'trilobite', 'explosion', 'invertébré', 'mer', 'sédiment', 'roche', 'précambrien', 'ordovicien', 'apparition', 'évolution', 'biodiversité', 'animal', 'ancien', 'préhistorique', 'géologique', 'datation'] },
+  '2027-01-26': { word: 'azalée', members: ['fleur', 'arbuste', 'jardin', 'rouge', 'rose', 'blanc', 'orange', 'pétale', 'tige', 'feuille', 'humidité', 'sol', 'acide', 'printemps', 'cultiver', 'fleurir', 'pousser', 'décorative', 'asiatique'] },
+  '2027-01-27': { word: 'orfèvre', members: ['or', 'argent', 'métal', 'précieux', 'bijou', 'ciselure', 'joaillier', 'atelier', 'enclume', 'marteau', 'travailler', 'ciseler', 'graver', 'fondre', 'martelé', 'finement', 'artisan', 'maître', 'parisien'] },
+  '2027-01-28': { word: 'chamois', members: ['mammifère', 'montagne', 'alpe', 'pyrénées', 'corne', 'agile', 'sauter', 'bondir', 'grimper', 'rocher', 'pelage', 'brun', 'femelle', 'mâle', 'troupeau', 'sauvage', 'craintif', 'gracieux', 'vif'] },
+  '2027-01-29': { word: 'télescope', members: ['instrument', 'astre', 'étoile', 'planète', 'galaxie', 'lentille', 'miroir', 'lunette', 'optique', 'observer', 'agrandir', 'scruter', 'pointer', 'orienter', 'astronomique', 'hubble', 'puissant', 'précis', 'spatial'] },
+  '2027-01-30': { word: 'plénitude', members: ['complet', 'parfait', 'absolu', 'bonheur', 'épanouissement', 'satisfaction', 'béatitude', 'totalité', 'maturité', 'éprouver', 'ressentir', 'atteindre', 'savourer', 'rayonner', 'pleine', 'parfaite', 'comble', 'profonde', 'sereine'] },
+  '2027-01-31': { word: 'wallaby', members: ['marsupial', 'australie', 'kangourou', 'queue', 'poche', 'patte', 'longue', 'bondir', 'sauter', 'brouter', 'peau', 'pelage', 'minuscule', 'taille', 'gris', 'roux', 'familial', 'paisible', 'gracieux'] },
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-11T18:12:10.378Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

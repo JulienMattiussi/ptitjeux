@@ -5,91 +5,109 @@
   "height": 7,
   "words": [
     [
-      "crayon",
-      "serrure",
-      "banquier",
-      "rouge",
-      "miroir",
-      "brun",
-      "rose"
+      "expressivité",
+      "pure",
+      "art",
+      "cobalt",
+      "violoniste",
+      "veau",
+      "durcir"
     ],
     [
-      "parfum",
-      "livre",
-      "ocre",
-      "brun",
-      "maison",
-      "fusée",
-      "violet"
+      "comestible",
+      "mouvement",
+      "masque",
+      "vlaminck",
+      "malice",
+      "violent",
+      "campagne"
     ],
     [
-      "crayon",
-      "doré",
-      "argenté",
-      "bureau",
-      "doré",
-      "rumeur",
-      "turquoise"
+      "simplifier",
+      "bijoutier",
+      "délice",
+      "vive",
+      "traîneau",
+      "cri",
+      "fauve"
     ],
     [
-      "vis",
-      "argenté",
-      "écran",
-      "beige",
-      "orange",
-      "jaune",
-      "tabouret"
+      "sorbet",
+      "salon",
+      "régional",
+      "abîme",
+      "éclatant",
+      "venin",
+      "musette"
     ],
     [
-      "panneau",
-      "rose",
-      "indigo",
-      "gris",
-      "savon",
-      "bleu",
-      "ciseaux"
+      "raccourcir",
+      "remercier",
+      "respect",
+      "birdie",
+      "argousier",
+      "peinture",
+      "cochon"
     ],
     [
-      "bleu",
-      "vert",
-      "indigo",
-      "jaune",
-      "orange",
-      "rose",
-      "fusée"
+      "traité",
+      "ample",
+      "minéral",
+      "cardiogramme",
+      "saluer",
+      "matisse",
+      "pistil"
     ],
     [
-      "tournevis",
-      "rose",
-      "indigo",
-      "étagère",
-      "cadre",
-      "table",
-      "parfum"
+      "kéfir",
+      "calme",
+      "film",
+      "nappe",
+      "derain",
+      "couleur",
+      "corbeille"
     ]
   ],
   "rowClues": [
     3,
     3,
     4,
-    4,
-    4,
-    6,
+    2,
+    1,
+    1,
     2
   ],
   "colClues": [
-    1,
-    5,
-    5,
-    5,
+    2,
     3,
-    4,
-    3
+    1,
+    2,
+    2,
+    5,
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "fauvisme",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true,
@@ -99,58 +117,40 @@
     ],
     [
       false,
-      false,
-      true,
       true,
       false,
       false,
-      true
+      true,
+      false,
+      false
     ],
     [
       false,
-      true,
-      true,
       false,
-      true,
       false,
-      true
-    ],
-    [
       false,
-      true,
       false,
-      true,
-      true,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       false,
+      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 16
 }

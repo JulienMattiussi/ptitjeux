@@ -5,100 +5,127 @@
   "height": 7,
   "words": [
     [
-      "globe",
-      "savon",
-      "racine",
-      "livre",
-      "saumon",
-      "dauphin",
-      "requin"
+      "mi",
+      "troupeau",
+      "chasser",
+      "transfert",
+      "fluer",
+      "pinceau",
+      "aigle"
     ],
     [
-      "voile",
-      "table",
-      "marin",
-      "panier",
-      "rideau",
-      "devoir",
-      "livre"
+      "silencieux",
+      "guetteur",
+      "embarras",
+      "florissante",
+      "pelage",
+      "boréale",
+      "sismique"
     ],
     [
-      "chemin",
-      "méduse",
-      "prison",
-      "tabouret",
-      "dauphin",
-      "tournevis",
-      "tunnel"
+      "oreille",
+      "évocation",
+      "citron",
+      "cuivré",
+      "casse-croûte",
+      "solitaire",
+      "griffes"
     ],
     [
-      "racine",
-      "corail",
-      "tunnel",
-      "phare",
-      "vis",
-      "savon",
-      "lampe"
+      "forêt",
+      "bondir",
+      "vertèbre",
+      "sauvage",
+      "félin",
+      "frôlement",
+      "alpine"
     ],
     [
-      "corail",
-      "caillou",
-      "bateau",
-      "banquier",
-      "voile",
-      "rivage",
-      "rumeur"
+      "trou",
+      "taon",
+      "agile",
+      "blatte",
+      "défiler",
+      "degré",
+      "os"
     ],
     [
-      "phare",
-      "vague",
-      "tunnel",
-      "écran",
-      "bateau",
-      "corail",
-      "sable"
+      "escroquer",
+      "éventer",
+      "espace",
+      "tisane",
+      "guetter",
+      "thémis",
+      "tournedisque"
     ],
     [
-      "agenda",
-      "ombre",
-      "méduse",
-      "marteau",
-      "phare",
-      "serrure",
-      "racine"
+      "allegro",
+      "malfaiteur",
+      "thème",
+      "portée",
+      "shooter",
+      "esquive",
+      "aiguë"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    2,
-    2,
-    2,
+    3,
     4,
-    5,
-    2
+    1,
+    1,
+    1
   ],
   "colClues": [
     3,
-    3,
-    3,
     1,
-    5,
+    2,
+    1,
+    3,
     3,
     2
   ],
-  "themeWord": "mer",
+  "themeWord": "lynx",
   "solution": [
     [
       false,
       false,
+      true,
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
       true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
@@ -108,7 +135,7 @@
     ],
     [
       false,
-      true,
+      false,
       false,
       false,
       true,
@@ -117,40 +144,13 @@
     ],
     [
       false,
-      true,
-      false,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
-      true,
-      true,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 15
 }

@@ -5,105 +5,96 @@
   "height": 7,
   "words": [
     [
-      "panier",
-      "pierre",
-      "manuel",
-      "panneau",
-      "ciseaux",
-      "chemin",
-      "langue"
+      "sextant",
+      "séparation",
+      "règlement",
+      "étau",
+      "appareil",
+      "architecture",
+      "patrimoine"
     ],
     [
-      "genou",
-      "oeil",
-      "tapis",
-      "jambe",
-      "bras",
-      "chaise",
-      "prière"
+      "marsupial",
+      "cheval",
+      "attentat",
+      "voûte",
+      "pingouin",
+      "avant-nef",
+      "extraire"
     ],
     [
-      "rideau",
-      "silence",
-      "balai",
-      "bouche",
-      "épaule",
-      "coeur",
-      "crayon"
+      "importuner",
+      "baptême",
+      "byzantin",
+      "soupe",
+      "pouvoir",
+      "entrée",
+      "collectionner"
     ],
     [
-      "joue",
-      "lèvre",
-      "bras",
-      "chaise",
-      "ciseaux",
-      "chaise",
-      "nez"
+      "accueillir",
+      "précéder",
+      "fidèle",
+      "porche",
+      "palais",
+      "dossier",
+      "cycle"
     ],
     [
-      "tasse",
-      "sol",
-      "règle",
-      "doigt",
-      "racine",
-      "épaule",
-      "tête"
+      "ceinture",
+      "fauré",
+      "résignation",
+      "fauconnerie",
+      "siamois",
+      "antique",
+      "tabatière"
     ],
     [
-      "dos",
-      "jardin",
-      "voisin",
-      "prison",
-      "oreille",
-      "langue",
-      "coeur"
+      "orner",
+      "sereine",
+      "politique",
+      "effet",
+      "colonne",
+      "sacré",
+      "exaucer"
     ],
     [
-      "lèvre",
-      "fusée",
-      "balai",
-      "épaule",
-      "dent",
-      "oreille",
-      "caillou"
+      "catéchumène",
+      "projet",
+      "dard",
+      "mandoline",
+      "église",
+      "sentimentale",
+      "vestibule"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    3,
+    4,
     1,
-    4,
     3,
-    4,
-    3,
-    4,
-    4
+    3
   ],
   "colClues": [
-    4,
+    3,
+    3,
     2,
-    1,
-    4,
-    4,
-    4,
-    4
+    2,
+    2,
+    5,
+    1
   ],
-  "themeWord": "corps",
+  "themeWord": "narthex",
   "solution": [
     [
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       false
     ],
     [
@@ -111,7 +102,16 @@
       false,
       false,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
       true,
       false
     ],
@@ -119,38 +119,38 @@
       true,
       true,
       true,
+      true,
       false,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
       false,
-      true,
+      false,
       false,
       true,
-      true
+      false
     ],
     [
       true,
       false,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       true,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 23
+  "parMoves": 18
 }

@@ -5,121 +5,103 @@
   "height": 7,
   "words": [
     [
-      "loup",
-      "renard",
-      "balai",
-      "bureau",
-      "mouton",
-      "rumeur",
-      "lueur"
+      "isou",
+      "opérer",
+      "visuel",
+      "traversée",
+      "pansu",
+      "sicilienne",
+      "sonore"
     ],
     [
-      "livre",
-      "castor",
-      "souris",
-      "girafe",
-      "racine",
-      "manuel",
-      "chat"
+      "embarquer",
+      "minimaliste",
+      "avant-garde",
+      "gratuite",
+      "rival",
+      "phonétique",
+      "bernin"
     ],
     [
-      "tournevis",
-      "gomme",
-      "enveloppe",
-      "gomme",
-      "plafond",
-      "mouton",
-      "lion"
+      "écu",
+      "stupeur",
+      "expérimenter",
+      "raréfier",
+      "cri",
+      "lit",
+      "subvertir"
     ],
     [
-      "chien",
-      "castor",
-      "vache",
-      "loup",
-      "prière",
-      "girafe",
-      "lueur"
+      "pulsar",
+      "volatil",
+      "tamis",
+      "lemaître",
+      "muscler",
+      "pincer",
+      "classique"
     ],
     [
-      "pince",
-      "racine",
-      "koala",
-      "marteau",
-      "miroir",
-      "loup",
-      "loup"
+      "épisode",
+      "piste",
+      "art",
+      "lettre",
+      "vert",
+      "son",
+      "transcrire"
     ],
     [
-      "koala",
-      "castor",
-      "girafe",
-      "enveloppe",
-      "jardin",
-      "tigre",
-      "lueur"
+      "drap",
+      "débattre",
+      "expressif",
+      "nouveau-né",
+      "crypté",
+      "soldes",
+      "latte"
     ],
     [
-      "ours",
-      "manuel",
-      "koala",
-      "renard",
-      "bureau",
-      "carnet",
-      "banquier"
+      "plastique",
+      "embaumer",
+      "pingouin",
+      "azerty",
+      "développer",
+      "composer",
+      "connecté"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    2,
-    5,
     3,
-    4,
-    3
-  ],
-  "colClues": [
-    4,
-    4,
-    5,
     3,
     1,
     4,
+    1,
+    1
+  ],
+  "colClues": [
+    1,
+    1,
+    5,
+    2,
+    1,
+    3,
     3
   ],
-  "themeWord": "animal",
+  "themeWord": "lettrisme",
   "solution": [
     [
       true,
-      true,
-      false,
       false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       false,
       false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       true,
       false
@@ -129,28 +111,46 @@
       false,
       true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
       false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      true,
-      false,
-      true,
-      true,
       false,
       false,
+      false,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

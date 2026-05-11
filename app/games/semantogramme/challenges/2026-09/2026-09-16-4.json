@@ -5,119 +5,110 @@
   "height": 7,
   "words": [
     [
-      "horloge",
-      "bateau",
-      "livre",
-      "clé",
-      "ciseaux",
-      "taxi",
-      "sol"
+      "symbiose",
+      "française",
+      "désert",
+      "joindre",
+      "trébucher",
+      "fureur",
+      "marginaliser"
     ],
     [
-      "moto",
-      "clé",
-      "remorque",
-      "fusée",
-      "bateau",
-      "camion",
-      "ferry"
+      "musculature",
+      "hirondelle",
+      "sciatique",
+      "progéniture",
+      "lombric",
+      "beige",
+      "sable"
     ],
     [
-      "sol",
-      "navette",
-      "parfum",
-      "voiture",
-      "ombre",
-      "moto",
-      "règle"
+      "agile",
+      "irréel",
+      "nocturne",
+      "rampant",
+      "poindre",
+      "oreille",
+      "ongle"
     ],
     [
-      "bateau",
-      "bus",
-      "tramway",
-      "agenda",
-      "prière",
-      "bus",
-      "chemin"
+      "galette",
+      "sommaire",
+      "pissaladière",
+      "espadrille",
+      "récif",
+      "grande",
+      "afrique"
     ],
     [
-      "caravane",
-      "tapis",
-      "ferry",
-      "bateau",
-      "jardin",
-      "serrure",
-      "train"
+      "campagne",
+      "canidé",
+      "fouir",
+      "plier",
+      "saumâtre",
+      "rare",
+      "minuscule"
     ],
     [
-      "vélo",
-      "navette",
-      "moto",
-      "voisin",
-      "camion",
-      "voisin",
-      "métro"
+      "creuser",
+      "hérisson",
+      "surfer",
+      "social",
+      "sahara",
+      "discret",
+      "municipale"
     ],
     [
-      "banquier",
-      "scooter",
-      "rideau",
-      "racine",
-      "table",
-      "ferry",
-      "miroir"
+      "véritable",
+      "individuel",
+      "chasser",
+      "coléoptère",
+      "mangue",
+      "bave",
+      "pull"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    6,
     3,
+    2,
     4,
     4,
-    5,
-    2
+    1
   ],
   "colClues": [
-    4,
-    5,
-    4,
-    3,
     2,
+    1,
+    4,
+    1,
+    1,
     5,
     3
   ],
-  "themeWord": "transport",
+  "themeWord": "fennec",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
       false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      true,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
       false,
@@ -125,32 +116,41 @@
       false
     ],
     [
-      true,
-      false,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
+      false,
       false,
       true,
-      false,
       true
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 17
 }

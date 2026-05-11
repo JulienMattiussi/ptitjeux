@@ -5,96 +5,105 @@
   "height": 7,
   "words": [
     [
-      "clé",
-      "langue",
-      "lueur",
-      "oreille",
-      "clé",
+      "gifler",
+      "gratin",
+      "frapper",
+      "arpenter",
+      "cesser",
+      "expliquer",
+      "voile"
+    ],
+    [
+      "cargo",
+      "gifle",
+      "cour",
+      "archaïque",
+      "attaquer",
+      "résignation",
+      "piquer"
+    ],
+    [
+      "soir",
+      "humeur",
+      "acide",
+      "fouetter",
+      "sacoche",
+      "pianissimo",
+      "soutenu"
+    ],
+    [
+      "cinglant",
+      "frayeur",
+      "poupon",
+      "tranchant",
+      "salto",
+      "navire",
+      "bandeau"
+    ],
+    [
+      "pansu",
+      "portefeuille",
+      "critique",
+      "ferveur",
+      "alvéolée",
+      "solution",
+      "poireau"
+    ],
+    [
+      "fourbe",
+      "naviguer",
+      "glacial",
       "bras",
-      "peau"
+      "mayonnaise",
+      "fugue",
+      "calligraphie"
     ],
     [
-      "ciseaux",
-      "tapis",
-      "langue",
-      "dent",
-      "pierre",
-      "banquier",
-      "enveloppe"
-    ],
-    [
-      "mur",
-      "coeur",
-      "oeil",
-      "brosse",
-      "racine",
-      "serrure",
-      "épaule"
-    ],
-    [
-      "pied",
-      "langue",
-      "oeil",
-      "épaule",
-      "pied",
-      "oreille",
-      "écran"
-    ],
-    [
-      "bras",
-      "coeur",
-      "bras",
-      "tunnel",
-      "jardin",
-      "ciseaux",
-      "racine"
-    ],
-    [
-      "pince",
-      "épaule",
-      "table",
-      "ongle",
-      "panier",
-      "genou",
-      "dos"
-    ],
-    [
-      "carnet",
-      "épaule",
-      "joue",
-      "mémoire",
-      "langue",
-      "bouche",
-      "miroir"
+      "transpercer",
+      "porter",
+      "honnêteté",
+      "apprivoiser",
+      "mocassin",
+      "foncer",
+      "douter"
     ]
   ],
   "rowClues": [
-    4,
-    2,
     3,
-    6,
     3,
-    4,
-    4
-  ],
-  "colClues": [
+    3,
+    3,
+    1,
     2,
-    6,
-    5,
-    4,
-    2,
-    4,
     3
   ],
-  "themeWord": "corps",
+  "colClues": [
+    3,
+    2,
+    4,
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "cingler",
   "solution": [
     [
-      false,
       true,
       false,
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      true,
+      false,
       true
     ],
     [
@@ -102,6 +111,24 @@
       false,
       true,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false,
       false,
       false
@@ -113,44 +140,17 @@
       false,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
       false
     ],
     [
       true,
       true,
-      true,
       false,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 18
 }

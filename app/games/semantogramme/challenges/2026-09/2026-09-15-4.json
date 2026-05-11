@@ -5,112 +5,139 @@
   "height": 7,
   "words": [
     [
-      "ciseaux",
-      "noir",
-      "turquoise",
-      "mauve",
-      "ocre",
-      "horloge",
-      "rouge"
+      "spore",
+      "soutenu",
+      "compost",
+      "maximum",
+      "père",
+      "flou",
+      "rétroéclairé"
     ],
     [
-      "peigne",
-      "ombre",
-      "chaise",
-      "rouge",
-      "crayon",
-      "jaune",
-      "mauve"
+      "destructeur",
+      "lichen",
+      "endive",
+      "chauffeur",
+      "acerbe",
+      "cèpe",
+      "cataloguer"
     ],
     [
-      "ocre",
-      "violet",
-      "brun",
-      "indigo",
-      "ocre",
-      "parfum",
-      "carnet"
+      "comestible",
+      "cueillir",
+      "oculus",
+      "garde",
+      "mycélium",
+      "taper",
+      "morille"
     ],
     [
-      "violet",
-      "coussin",
-      "beige",
-      "pierre",
-      "blanc",
-      "vert",
-      "beige"
+      "champignon",
+      "noueux",
+      "identifier",
+      "gambette",
+      "spécialisée",
+      "fastueux",
+      "shopping"
     ],
     [
-      "bureau",
-      "rose",
-      "pince",
-      "doré",
-      "jaune",
-      "violet",
-      "enveloppe"
+      "éduquer",
+      "naturelle",
+      "bpm",
+      "hameçon",
+      "protectrice",
+      "tramway",
+      "frotter"
     ],
     [
-      "noir",
-      "pétale",
-      "orange",
-      "mauve",
-      "argenté",
-      "clé",
-      "jaune"
+      "électron",
+      "bourrer",
+      "conquérir",
+      "culbuter",
+      "science",
+      "pirate",
+      "cheval-marin"
     ],
     [
-      "orange",
-      "bleu",
-      "rumeur",
-      "horloge",
-      "balai",
-      "beige",
-      "blanc"
+      "scientifique",
+      "zénital",
+      "place",
+      "savante",
+      "mycologue",
+      "kenya",
+      "chaise"
     ]
   ],
   "rowClues": [
-    5,
+    1,
     3,
-    5,
-    5,
     4,
-    5,
-    4
+    3,
+    1,
+    1,
+    3
   ],
   "colClues": [
     4,
+    3,
+    1,
+    1,
     4,
-    4,
-    5,
-    5,
-    4,
-    5
+    1,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "mycologie",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
+      false,
+      false,
       true,
       false,
       true
     ],
     [
-      false,
-      false,
-      false,
       true,
       false,
       true,
-      true
+      false,
+      true,
+      false,
+      false
     ],
     [
+      false,
       true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       false,
       false
@@ -118,39 +145,12 @@
     [
       true,
       false,
-      true,
       false,
       true,
       true,
-      true
-    ],
-    [
       false,
-      true,
-      false,
-      true,
-      true,
-      true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 31
+  "parMoves": 16
 }

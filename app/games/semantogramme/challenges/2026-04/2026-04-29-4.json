@@ -5,142 +5,106 @@
   "height": 7,
   "words": [
     [
-      "livre",
-      "rythme",
-      "violon",
-      "pierre",
-      "rythme",
-      "tournevis",
-      "guitare"
+      "massepain",
+      "mortier",
+      "déterminisme",
+      "décider",
+      "humain",
+      "libre",
+      "germaine"
     ],
     [
-      "tambour",
-      "rythme",
-      "piano",
-      "étagère",
-      "chemin",
-      "rythme",
-      "gamme"
+      "tendu",
+      "herpétologue",
+      "amoral",
+      "métaphysique",
+      "orner",
+      "individuel",
+      "esplanade"
     ],
     [
-      "miroir",
-      "mur",
-      "guitare",
-      "règle",
-      "rythme",
-      "horloge",
-      "trompette"
+      "gratifier",
+      "agir",
+      "fouiller",
+      "soumettre",
+      "liberté",
+      "procession",
+      "autonomie"
     ],
     [
-      "plafond",
-      "prison",
-      "clé",
-      "batterie",
-      "violon",
-      "parfum",
-      "mélodie"
+      "volonté",
+      "trilobite",
+      "tortueuse",
+      "choix",
+      "asie",
+      "bijou",
+      "vétiver"
     ],
     [
-      "prison",
-      "sol",
-      "maison",
-      "mélodie",
-      "harpe",
-      "savon",
-      "concerto"
-    ],
-    [
-      "voisin",
-      "marteau",
-      "livre",
-      "rythme",
-      "choeur",
-      "tapis",
-      "concerto"
-    ],
-    [
-      "porte",
-      "flûte",
-      "sol",
-      "tunnel",
-      "violon",
-      "banquier",
+      "papa",
+      "philosophie",
+      "responsable",
+      "destin",
+      "épave",
+      "droiture",
       "tambour"
+    ],
+    [
+      "humaniste",
+      "clinique",
+      "catapulter",
+      "coudre",
+      "chercher",
+      "conduire",
+      "rationnel"
+    ],
+    [
+      "spinoza",
+      "levure",
+      "cocktail",
+      "imagination",
+      "sonner",
+      "rive",
+      "choisir"
     ]
   ],
   "rowClues": [
     4,
-    5,
+    2,
     3,
+    2,
     3,
-    3,
-    3,
-    3
+    1,
+    2
   ],
   "colClues": [
-    1,
-    3,
-    3,
-    3,
-    6,
-    1,
-    7
+    2,
+    2,
+    2,
+    4,
+    2,
+    2,
+    3
   ],
-  "themeWord": "musique",
+  "themeWord": "libre-arbitre",
   "solution": [
     [
       false,
-      true,
-      true,
       false,
       true,
-      false,
-      true
-    ],
-    [
       true,
       true,
       true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
+      false
     ],
     [
       false,
@@ -148,9 +112,45 @@
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

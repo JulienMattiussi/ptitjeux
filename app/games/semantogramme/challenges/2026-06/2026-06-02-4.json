@@ -5,129 +5,138 @@
   "height": 7,
   "words": [
     [
-      "ciseaux",
-      "boxe",
-      "tasse",
-      "course",
-      "golf",
-      "cyclisme",
-      "ombre"
-    ],
-    [
-      "golf",
+      "opposer",
       "bureau",
-      "caillou",
-      "voile",
-      "cyclisme",
-      "peigne",
-      "ski"
+      "boréale",
+      "festoyer",
+      "crue",
+      "asie",
+      "vertical"
     ],
     [
-      "devoir",
-      "natation",
-      "voile",
-      "lueur",
-      "tasse",
-      "lampe",
-      "natation"
+      "griffonner",
+      "jachère",
+      "égyptien",
+      "sombre",
+      "patte",
+      "décrocher",
+      "aquatique"
     ],
     [
-      "course",
-      "vis",
-      "tabouret",
-      "fusée",
-      "ski",
-      "porte",
-      "balai"
+      "perspective",
+      "maillet",
+      "lait",
+      "rare",
+      "paisible",
+      "fouir",
+      "museau"
     ],
     [
-      "course",
-      "volley",
-      "golf",
-      "manuel",
-      "chaise",
-      "porte",
-      "gym"
+      "boomerang",
+      "amérique",
+      "pelage",
+      "inhabité",
+      "pente",
+      "javelot",
+      "chambre"
     ],
     [
-      "miroir",
-      "règle",
-      "porte",
-      "judo",
-      "gym",
-      "tabouret",
-      "volley"
+      "sabot",
+      "siège",
+      "cassure",
+      "sans-coquille",
+      "génitrice",
+      "discret",
+      "fruit"
     ],
     [
-      "boxe",
-      "judo",
-      "tabouret",
-      "ski",
-      "gym",
-      "brosse",
-      "course"
+      "feuille",
+      "pendule",
+      "dimanche",
+      "pluraliste",
+      "figurine",
+      "incurver",
+      "forêt"
+    ],
+    [
+      "sud",
+      "compétition",
+      "bateau",
+      "manger",
+      "gros",
+      "trompe",
+      "mammifère"
     ]
   ],
   "rowClues": [
+    1,
+    3,
     4,
-    4,
+    2,
     3,
     2,
-    4,
-    3,
-    5
+    4
   ],
   "colClues": [
-    4,
-    4,
     2,
-    4,
-    5,
     1,
+    1,
+    3,
+    3,
+    4,
     5
   ],
-  "themeWord": "sport",
+  "themeWord": "tapir",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
       false,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       false,
       true,
-      true,
-      false,
-      false,
-      false,
       true
     ],
     [
       true,
       false,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
@@ -139,18 +148,9 @@
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true,
-      true,
-      false,
       true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

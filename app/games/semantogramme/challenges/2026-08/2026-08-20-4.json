@@ -5,110 +5,119 @@
   "height": 7,
   "words": [
     [
-      "livre",
-      "panier",
-      "cadre",
-      "tabouret",
-      "manuel",
-      "coussin",
-      "mélodie"
+      "gros",
+      "insecte",
+      "minuscule",
+      "mortel",
+      "partition",
+      "dette",
+      "mariner"
     ],
     [
-      "manuel",
-      "guitare",
-      "flûte",
-      "gamme",
-      "parfum",
-      "mélodie",
-      "voisin"
+      "grand-tante",
+      "arboricole",
+      "ascenseur",
+      "humus",
+      "matrice",
+      "reprise",
+      "cerveau"
     ],
     [
-      "panier",
-      "prière",
-      "violon",
-      "accord",
-      "pince",
-      "balai",
-      "gamme"
+      "miette",
+      "reposant",
+      "jais",
+      "frontière",
+      "primitif",
+      "philippines",
+      "bronze"
     ],
     [
-      "carnet",
-      "globe",
-      "racine",
-      "devoir",
-      "guitare",
-      "clé",
-      "guitare"
+      "yeux",
+      "eau-de-vie",
+      "jaune",
+      "primate",
+      "régional",
+      "saumon",
+      "doigt"
     ],
     [
-      "fusée",
-      "brosse",
-      "tambour",
-      "tapis",
-      "concerto",
-      "pelle",
-      "trompette"
+      "décharger",
+      "récitatif",
+      "grand-mère",
+      "thermomètre",
+      "fermier",
+      "asie",
+      "éveiller"
     ],
     [
-      "tambour",
-      "mélodie",
-      "opéra",
-      "agenda",
-      "coussin",
-      "flûte",
-      "pierre"
+      "frottement",
+      "cinéma",
+      "beignet",
+      "agripper",
+      "queue",
+      "énorme",
+      "amoral"
     ],
     [
-      "jardin",
-      "serrure",
-      "trompette",
-      "tambour",
-      "accord",
-      "table",
-      "lampe"
+      "manger",
+      "redingote",
+      "humeur",
+      "sauter",
+      "boire",
+      "nocturne",
+      "station"
     ]
   ],
   "rowClues": [
+    3,
     1,
-    4,
-    3,
     2,
-    3,
     4,
+    1,
+    3,
     3
   ],
   "colClues": [
-    1,
-    2,
-    5,
-    3,
     3,
     2,
-    4
+    2,
+    3,
+    2,
+    4,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "tarsier",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
       true,
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false,
@@ -119,24 +128,6 @@
       false,
       false,
       false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       true,
@@ -145,12 +136,21 @@
     [
       false,
       false,
+      false,
       true,
       true,
+      true,
+      false
+    ],
+    [
       true,
       false,
+      false,
+      true,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

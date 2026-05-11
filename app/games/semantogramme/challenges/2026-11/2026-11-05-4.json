@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "soleil",
-      "serrure",
-      "gel",
-      "gomme",
-      "prière",
-      "prière",
-      "brouillard"
+      "comprendre",
+      "respecter",
+      "voltaire",
+      "ouverture",
+      "insulte",
+      "engloutir",
+      "compréhension"
     ],
     [
-      "porte",
-      "glace",
-      "prière",
-      "pierre",
-      "arc-en-ciel",
-      "voisin",
-      "voisin"
+      "baroque",
+      "rosée",
+      "sécher",
+      "manifeste",
+      "fenouil",
+      "pluralisme",
+      "attelage"
     ],
     [
-      "soleil",
-      "gel",
-      "jardin",
-      "pluie",
-      "écran",
-      "marteau",
-      "éclair"
+      "visiter",
+      "éclairée",
+      "salade",
+      "mécanisée",
+      "neveu",
+      "colline",
+      "embuscade"
     ],
     [
-      "foudre",
-      "éclair",
-      "glace",
-      "devoir",
-      "ombre",
-      "soleil",
-      "orage"
+      "partager",
+      "amuser",
+      "universelle",
+      "tolérer",
+      "patience",
+      "généreuse",
+      "moment"
     ],
     [
-      "pierre",
-      "arc-en-ciel",
-      "arc-en-ciel",
-      "nuage",
-      "ciseaux",
-      "vent",
-      "glace"
-    ],
-    [
-      "pelle",
-      "timbre",
-      "neige",
-      "crayon",
-      "foudre",
-      "orage",
-      "soleil"
+      "coulisser",
+      "antarctique",
+      "accepter",
+      "monopalme",
+      "caramel",
+      "abondance",
+      "spectre"
     ],
     [
       "tonnerre",
-      "chaise",
-      "agenda",
-      "brouillard",
-      "enveloppe",
-      "brouillard",
-      "foudre"
+      "saule",
+      "séduction",
+      "majeure",
+      "rendre",
+      "acceptation",
+      "risotto"
+    ],
+    [
+      "différence",
+      "muscle",
+      "civique",
+      "mentonnière",
+      "rempart",
+      "admettre",
+      "humanisme"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    4,
     5,
+    1,
+    1,
     5,
-    4,
+    1,
+    1,
     4
   ],
   "colClues": [
-    4,
-    4,
-    4,
     3,
     2,
     4,
-    6
+    2,
+    1,
+    4,
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "tolérance",
   "solution": [
     [
       true,
-      false,
       true,
-      false,
+      true,
+      true,
       false,
       false,
       true
     ],
     [
       false,
-      true,
+      false,
+      false,
       false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       true,
       true,
       true,
-      false,
       true,
-      true
+      false
     ],
     [
       false,
       false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
-      true,
-      true
+      false
     ],
     [
       true,
       false,
-      false,
       true,
+      false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 27
+  "parMoves": 18
 }

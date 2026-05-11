@@ -5,123 +5,96 @@
   "height": 7,
   "words": [
     [
-      "fraise",
-      "orange",
-      "fraise",
-      "table",
-      "prune",
-      "fusée",
-      "banquier"
+      "jeûner",
+      "féliciter",
+      "taxonomique",
+      "tessiture",
+      "amphibien",
+      "parure",
+      "visqueux"
     ],
     [
-      "abricot",
-      "pétale",
-      "raisin",
-      "cerise",
-      "règle",
-      "rumeur",
-      "ciseaux"
+      "régurgiter",
+      "savante",
+      "coléoptère",
+      "escroquer",
+      "herpétologue",
+      "épépiner",
+      "identifier"
     ],
     [
-      "raisin",
-      "mémoire",
-      "tapis",
-      "abricot",
-      "mûre",
-      "orange",
-      "lueur"
+      "voyage",
+      "collectionner",
+      "osier",
+      "opale",
+      "authentifier",
+      "comparée",
+      "dormir"
     ],
     [
-      "maison",
-      "devoir",
-      "lampe",
-      "porte",
-      "figue",
-      "poire",
-      "lampe"
+      "abeille",
+      "séquence",
+      "justinien",
+      "pin",
+      "accepter",
+      "documenter",
+      "lacune"
     ],
     [
-      "règle",
-      "pomme",
-      "pastèque",
-      "pelle",
-      "melon",
-      "agenda",
-      "pierre"
+      "spécialisée",
+      "extrémité",
+      "fusionner",
+      "spontané",
+      "papillon",
+      "romaine",
+      "observer"
     ],
     [
-      "parfum",
-      "bureau",
-      "poire",
-      "banane",
-      "chaise",
-      "prière",
-      "mûre"
+      "serrée",
+      "raphaël",
+      "science",
+      "descriptive",
+      "article",
+      "coussin",
+      "prédateur"
     ],
     [
-      "cadre",
-      "orange",
-      "globe",
-      "tasse",
-      "pince",
-      "clé",
-      "serrure"
+      "acerbe",
+      "collection",
+      "évider",
+      "entomologue",
+      "révélation",
+      "retenir",
+      "cataloguer"
     ]
   ],
   "rowClues": [
-    4,
+    1,
     3,
-    4,
     2,
+    1,
     3,
-    3,
-    1
+    2,
+    3
   ],
   "colClues": [
-    3,
-    3,
-    4,
-    3,
-    4,
     2,
-    1
+    3,
+    3,
+    2,
+    1,
+    1,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "entomologie",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
-      false,
-      true,
-      true,
       false
     ],
     [
@@ -129,15 +102,6 @@
       true,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       false,
       true
@@ -148,9 +112,45 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 15
 }

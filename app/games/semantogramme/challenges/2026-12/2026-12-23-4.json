@@ -5,120 +5,111 @@
   "height": 7,
   "words": [
     [
-      "dauphin",
-      "rideau",
-      "crabe",
-      "parfum",
-      "manuel",
-      "corail",
-      "enveloppe"
+      "merlot",
+      "mauve",
+      "cartilage",
+      "poumon",
+      "saisir",
+      "frigo",
+      "folklore"
     ],
     [
-      "peigne",
-      "marin",
-      "plage",
-      "thon",
-      "prison",
-      "crabe",
-      "tunnel"
+      "jaillir",
+      "pinot",
+      "syrah",
+      "volume",
+      "mourant",
+      "extrême",
+      "planter"
     ],
     [
-      "marteau",
-      "jardin",
-      "carnet",
-      "poisson",
-      "serrure",
-      "voile",
-      "saumon"
+      "tailler",
+      "vendanger",
+      "zombie",
+      "sélectionner",
+      "gamay",
+      "hollande",
+      "étable"
     ],
     [
-      "prière",
-      "vis",
-      "rivage",
-      "écaille",
-      "corail",
-      "miroir",
-      "pierre"
+      "paysage",
+      "vestibule",
+      "confus",
+      "tricoter",
+      "mastiquer",
+      "cabernet",
+      "reptile"
     ],
     [
-      "plateau",
-      "globe",
-      "poisson",
-      "racine",
-      "agenda",
-      "horloge",
-      "savon"
+      "vigne",
+      "sacoche",
+      "sémillon",
+      "huit",
+      "mourvèdre",
+      "princesse",
+      "suc"
     ],
     [
-      "voile",
-      "règle",
-      "poisson",
-      "plateau",
-      "bateau",
-      "globe",
-      "étagère"
+      "cacahuète",
+      "étain",
+      "âge",
+      "sauvignon",
+      "lobe",
+      "raisin",
+      "enraciner"
     ],
     [
-      "vague",
-      "crayon",
-      "carnet",
-      "pierre",
-      "lampe",
-      "dauphin",
-      "caillou"
+      "lointaine",
+      "popeye",
+      "sangria",
+      "clé",
+      "pichet",
+      "cinsault",
+      "cellulose"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    3,
-    3,
     1,
     3,
-    2
+    4,
+    1,
+    3,
+    2,
+    1
   ],
   "colClues": [
     3,
-    1,
-    5,
-    3,
     2,
-    4,
+    2,
+    2,
+    2,
+    3,
     1
   ],
-  "themeWord": "mer",
+  "themeWord": "cépage",
   "solution": [
     [
       true,
       false,
-      true,
       false,
       false,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
       true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
-      true,
-      false,
-      true,
       true
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       true,
       false,
@@ -127,10 +118,10 @@
     [
       false,
       false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
       false
     ],
     [
@@ -143,7 +134,16 @@
       false
     ],
     [
+      false,
+      false,
+      false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

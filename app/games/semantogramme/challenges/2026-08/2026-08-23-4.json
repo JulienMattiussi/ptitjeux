@@ -5,95 +5,122 @@
   "height": 7,
   "words": [
     [
-      "racine",
-      "pêche",
-      "cassis",
-      "pomme",
-      "pastèque",
-      "figue",
-      "fusée"
+      "délicatement",
+      "duper",
+      "mordiller",
+      "familial",
+      "tendrement",
+      "vertigineux",
+      "manger"
     ],
     [
-      "tabouret",
-      "pétale",
-      "cerise",
-      "brosse",
-      "enveloppe",
-      "mur",
-      "mûre"
+      "hisser",
+      "bec",
+      "baiser",
+      "épineux",
+      "isocèle",
+      "sépia",
+      "inscription"
     ],
     [
-      "silence",
-      "étoile",
-      "abricot",
-      "pomme",
-      "pêche",
-      "coussin",
-      "citron"
+      "rapidement",
+      "éveil",
+      "philosophie",
+      "fruit",
+      "urbain",
+      "maillet",
+      "nil"
     ],
     [
-      "raisin",
-      "citron",
-      "tunnel",
-      "cassis",
-      "plafond",
-      "orange",
-      "kiwi"
-    ],
-    [
-      "orange",
-      "pince",
-      "balai",
+      "chanson",
+      "stable",
+      "faille",
+      "fard",
       "cadre",
-      "prison",
-      "cassis",
-      "figue"
+      "tendre",
+      "maquillage"
     ],
     [
-      "figue",
-      "citron",
-      "écran",
-      "parfum",
-      "kiwi",
-      "crayon",
-      "pomme"
+      "français",
+      "démocratique",
+      "becter",
+      "fade",
+      "photon",
+      "pic",
+      "graine"
     ],
     [
-      "cassis",
-      "fraise",
-      "horloge",
-      "mangue",
-      "sol",
-      "framboise",
-      "prune"
+      "calcul",
+      "monstre",
+      "construire",
+      "bécasse",
+      "desséché",
+      "aînée",
+      "naturelle"
+    ],
+    [
+      "souris",
+      "russe",
+      "cumul",
+      "encre",
+      "attelage",
+      "folklorique",
+      "familier"
     ]
   ],
   "rowClues": [
     5,
     2,
-    4,
-    5,
+    2,
+    1,
     3,
-    4,
-    5
+    1,
+    1
   ],
   "colClues": [
-    4,
-    4,
+    2,
+    1,
     3,
-    4,
     3,
-    4,
-    6
+    1,
+    2,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "béqueter",
   "solution": [
     [
+      true,
       false,
       true,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -103,54 +130,27 @@
       true,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
       true,
       true
     ],
     [
+      false,
+      false,
+      false,
       true,
       false,
       false,
-      false,
-      false,
-      true,
-      true
+      false
     ],
     [
-      true,
-      true,
       false,
       false,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
-      true,
       false,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 15
 }

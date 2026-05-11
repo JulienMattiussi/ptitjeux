@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "globe",
-      "orange",
-      "manuel",
-      "mauve",
-      "vert",
-      "prière",
-      "doré"
+      "savourer",
+      "parfait",
+      "extravagant",
+      "profonde",
+      "chèque",
+      "rayonner",
+      "enquêter"
     ],
     [
-      "rouge",
-      "panier",
-      "vert",
-      "ocre",
-      "cadre",
-      "fusée",
-      "rideau"
+      "arrêt",
+      "manet",
+      "défense",
+      "chevalet",
+      "absolu",
+      "régate",
+      "porter"
     ],
     [
-      "bleu",
-      "tasse",
-      "brosse",
-      "écran",
-      "ocre",
-      "silence",
-      "bleu"
+      "imprenable",
+      "sandale",
+      "uppercut",
+      "florissante",
+      "satisfaction",
+      "arabe",
+      "opposé"
     ],
     [
-      "orange",
-      "fusée",
-      "mur",
-      "mur",
-      "ocre",
-      "noir",
-      "lueur"
+      "prix",
+      "tropical",
+      "pleine",
+      "biologie",
+      "éteindre",
+      "béatitude",
+      "caldeira"
     ],
     [
-      "tasse",
-      "panneau",
-      "tapis",
-      "turquoise",
-      "indigo",
-      "noir",
-      "bleu"
+      "comble",
+      "prescrire",
+      "recourbé",
+      "espèce",
+      "maturité",
+      "parc",
+      "blonde"
     ],
     [
-      "manuel",
-      "étagère",
-      "turquoise",
-      "timbre",
-      "blanc",
-      "coussin",
-      "marteau"
+      "complet",
+      "fossiliser",
+      "somptueux",
+      "liégeoise",
+      "perroquet",
+      "trophée",
+      "naples"
     ],
     [
-      "panier",
-      "lampe",
-      "gris",
-      "gris",
-      "vert",
-      "argenté",
-      "pelle"
+      "ressentir",
+      "théodora",
+      "parfaite",
+      "effleurer",
+      "épanouissement",
+      "atteindre",
+      "bonheur"
     ]
   ],
   "rowClues": [
     4,
-    3,
-    3,
-    3,
-    4,
+    1,
+    1,
     2,
-    4
+    2,
+    1,
+    5
   ],
   "colClues": [
-    3,
-    1,
-    3,
     4,
-    6,
+    1,
+    2,
+    1,
+    4,
     3,
-    3
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "plénitude",
   "solution": [
     [
+      true,
+      true,
       false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 16
 }

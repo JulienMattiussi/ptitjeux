@@ -5,91 +5,100 @@
   "height": 7,
   "words": [
     [
-      "rivage",
-      "crabe",
-      "racine",
-      "agenda",
-      "vis",
-      "pelle",
-      "ombre"
+      "beuys",
+      "affliction",
+      "expérimental",
+      "barre",
+      "tour",
+      "participer",
+      "sucette"
     ],
     [
-      "baleine",
-      "devoir",
-      "écume",
-      "voisin",
-      "saumon",
-      "prison",
-      "bateau"
+      "trot",
+      "paik",
+      "banqueter",
+      "recommander",
+      "hématome",
+      "passager",
+      "lavoir"
     ],
     [
-      "règle",
-      "plateau",
-      "saumon",
-      "poisson",
-      "écaille",
-      "corail",
-      "bateau"
+      "objet",
+      "secrète",
+      "avant-garde",
+      "multidisciplinaire",
+      "portable",
+      "front",
+      "décalé"
     ],
     [
-      "écran",
-      "sol",
-      "règle",
-      "sable",
-      "poisson",
-      "corail",
-      "maison"
+      "nénuphar",
+      "beignet",
+      "frapper",
+      "maciunas",
+      "découvrir",
+      "miraculeux",
+      "soustraire"
     ],
     [
-      "enveloppe",
-      "thon",
-      "sardine",
-      "tunnel",
-      "sardine",
-      "saumon",
-      "silence"
+      "étreindre",
+      "galoche",
+      "gribouiller",
+      "percher",
+      "happening",
+      "gracieuse",
+      "reporter"
     ],
     [
-      "fusée",
-      "globe",
-      "marin",
-      "dauphin",
-      "sable",
-      "requin",
-      "dauphin"
+      "manche",
+      "aspirer",
+      "créer",
+      "mouvement",
+      "transgresser",
+      "omelette",
+      "collage"
     ],
     [
-      "rivage",
-      "saumon",
-      "rivage",
-      "rideau",
-      "marin",
-      "caillou",
-      "sol"
+      "sarcophage",
+      "pneumatique",
+      "performance",
+      "aromatique",
+      "crédulité",
+      "éjecter",
+      "pastille"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    5,
     3,
+    1,
     4,
-    5,
-    4
+    1,
+    1,
+    4,
+    1
   ],
   "colClues": [
-    3,
-    3,
-    5,
-    3,
-    6,
+    2,
+    1,
     4,
-    3
+    3,
+    2,
+    1,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "fluxus",
   "solution": [
     [
       true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
@@ -101,18 +110,9 @@
       true,
       false,
       true,
-      false,
       true,
       false,
-      true
-    ],
-    [
       false,
-      false,
-      true,
-      true,
-      true,
-      true,
       true
     ],
     [
@@ -120,17 +120,17 @@
       false,
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -139,18 +139,18 @@
       true,
       true,
       true,
-      true,
+      false,
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
       false,
       true,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 15
 }

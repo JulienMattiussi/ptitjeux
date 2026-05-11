@@ -5,92 +5,101 @@
   "height": 7,
   "words": [
     [
-      "caravane",
-      "navette",
-      "timbre",
-      "camion",
-      "voiture",
-      "manuel",
-      "balai"
+      "effrayant",
+      "imprimante",
+      "gliss",
+      "profond",
+      "piéger",
+      "fond",
+      "bossu"
     ],
     [
-      "vélo",
-      "taxi",
-      "parfum",
-      "tasse",
-      "porte",
-      "gomme",
-      "tramway"
+      "puéril",
+      "habitable",
+      "pénétrer",
+      "sombre",
+      "écart",
+      "phalange",
+      "résoudre"
     ],
     [
-      "train",
-      "remorque",
-      "livre",
-      "marteau",
-      "horloge",
-      "panier",
-      "livre"
+      "verbiage",
+      "dragon",
+      "tireur",
+      "univers",
+      "océan",
+      "périple",
+      "maternité"
     ],
     [
-      "fusée",
-      "tournevis",
-      "ciseaux",
-      "chaise",
-      "remorque",
-      "prison",
-      "métro"
+      "havresac",
+      "cime",
+      "verbeux",
+      "volet",
+      "incommensurable",
+      "radioactif",
+      "gouffre"
     ],
     [
-      "crayon",
-      "voiture",
-      "banquier",
-      "tapis",
-      "prière",
-      "sol",
-      "pierre"
+      "effacement",
+      "vertigineux",
+      "chic",
+      "colombier",
+      "fossé",
+      "meringue",
+      "plonger"
     ],
     [
-      "prière",
-      "étagère",
-      "bus",
-      "gomme",
-      "bus",
-      "crayon",
-      "chaise"
+      "phobie",
+      "insondable",
+      "mystérieux",
+      "twister",
+      "astringent",
+      "tarente",
+      "descendre"
     ],
     [
-      "brosse",
-      "camion",
-      "remorque",
-      "métro",
-      "avion",
-      "voiture",
-      "navette"
+      "pommeau",
+      "différence",
+      "sombrer",
+      "noir",
+      "larguer",
+      "soucoupe",
+      "tolérer"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    2,
     2,
     1,
     2,
-    6
+    3,
+    3,
+    3
   ],
   "colClues": [
+    1,
     3,
-    5,
     2,
-    2,
+    3,
     4,
     1,
     3
   ],
-  "themeWord": "transport",
+  "themeWord": "abyssal",
   "solution": [
     [
       true,
+      false,
+      false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
@@ -98,59 +107,50 @@
       false
     ],
     [
-      true,
+      false,
+      false,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       false,
       false,
       true
     ],
     [
+      false,
       true,
       true,
-      false,
-      false,
+      true,
       false,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

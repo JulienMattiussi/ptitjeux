@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "boxe",
-      "natation",
-      "natation",
-      "sol",
-      "prison",
-      "golf",
-      "globe"
+      "publicité",
+      "album",
+      "lance",
+      "noble",
+      "choc",
+      "mozzarella",
+      "guerrier"
     ],
     [
-      "tennis",
-      "serrure",
-      "panier",
-      "enveloppe",
-      "banquier",
-      "course",
-      "rugby"
+      "labyrinthe",
+      "détruire",
+      "attaquer",
+      "monastique",
+      "fustiger",
+      "vigoureux",
+      "critiquer"
     ],
     [
-      "pince",
-      "manuel",
-      "prison",
-      "devoir",
-      "danse",
-      "coussin",
-      "natation"
+      "ancêtre",
+      "gazon",
+      "caniveau",
+      "perle",
+      "pulvériser",
+      "mordant",
+      "roue"
     ],
     [
-      "basket",
-      "ski",
-      "agenda",
-      "natation",
-      "judo",
-      "livre",
-      "brosse"
+      "hymne",
+      "cervical",
+      "colorier",
+      "inoculer",
+      "bronze",
+      "volontaire",
+      "redoutable"
     ],
     [
-      "escalade",
-      "tennis",
-      "plateau",
-      "tennis",
-      "danse",
-      "marathon",
-      "natation"
+      "incendie",
+      "archaïque",
+      "nager",
+      "dénoncer",
+      "danser",
+      "pratique",
+      "pesanteur"
     ],
     [
-      "golf",
-      "natation",
-      "voisin",
-      "porte",
-      "plateau",
-      "judo",
-      "course"
+      "classique",
+      "épée",
+      "asphyxie",
+      "campus",
+      "tranchant",
+      "griffes",
+      "chevalier"
     ],
     [
-      "rideau",
-      "course",
-      "timbre",
-      "crayon",
-      "basket",
-      "rugby",
-      "gomme"
+      "bpm",
+      "cantaloup",
+      "bond",
+      "battue",
+      "réalisateur",
+      "transpercer",
+      "soutenu"
     ]
   ],
   "rowClues": [
-    4,
     3,
+    5,
     2,
-    4,
-    6,
-    4,
-    3
-  ],
-  "colClues": [
-    5,
-    5,
     1,
     2,
     4,
-    5,
-    4
+    2
   ],
-  "themeWord": "sport",
+  "colClues": [
+    1,
+    3,
+    2,
+    2,
+    3,
+    3,
+    5
+  ],
+  "themeWord": "pourfendre",
   "solution": [
     [
-      true,
+      false,
+      false,
       true,
       true,
       false,
       false,
-      true,
-      false
+      true
     ],
     [
+      false,
+      true,
       true,
       false,
-      false,
-      false,
-      false,
+      true,
       true,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 26
+  "parMoves": 19
 }

@@ -5,110 +5,92 @@
   "height": 7,
   "words": [
     [
-      "bateau",
-      "autobus",
-      "miroir",
-      "mémoire",
-      "fusée",
-      "caillou",
-      "globe"
+      "soupe",
+      "mixer",
+      "crustacé",
+      "mercredis",
+      "sécuriser",
+      "chien",
+      "corail"
     ],
     [
-      "table",
-      "autobus",
-      "autobus",
-      "silence",
-      "écran",
-      "avion",
-      "silence"
+      "turquie",
+      "limaces",
+      "vodka",
+      "impair",
+      "crémeuse",
+      "savourer",
+      "onctueuse"
     ],
     [
-      "mémoire",
-      "règle",
-      "scooter",
-      "serrure",
-      "rideau",
-      "coussin",
-      "vélo"
+      "gouttière",
+      "épicée",
+      "gaie",
+      "gastronomique",
+      "salamandre",
+      "potiron",
+      "brut"
     ],
     [
-      "étoile",
-      "lampe",
-      "tramway",
-      "autobus",
-      "bateau",
-      "silence",
-      "tournevis"
+      "château",
+      "forestière",
+      "louche",
+      "beuys",
+      "mijoter",
+      "crème",
+      "cuisine"
     ],
     [
-      "pelle",
-      "chemin",
-      "banquier",
-      "mémoire",
-      "cadre",
-      "panier",
-      "camion"
+      "crevette",
+      "élytre",
+      "belle-soeur",
+      "centralisé",
+      "cognac",
+      "mouillé",
+      "française"
     ],
     [
-      "jardin",
-      "camion",
-      "bus",
-      "tapis",
-      "chemin",
-      "panier",
-      "tasse"
+      "processeur",
+      "connecté",
+      "homard",
+      "pratiquer",
+      "tenue",
+      "croisière",
+      "absolue"
     ],
     [
-      "enveloppe",
-      "caravane",
-      "enveloppe",
-      "prison",
-      "clé",
-      "caillou",
-      "tapis"
+      "gréement",
+      "orangée",
+      "gondole",
+      "dribbler",
+      "évaporer",
+      "cor",
+      "boucher"
     ]
   ],
   "rowClues": [
-    3,
+    4,
     3,
     2,
+    3,
     3,
     1,
-    2,
     1
   ],
   "colClues": [
-    1,
-    4,
-    4,
-    1,
+    2,
+    3,
     2,
     1,
-    2
+    3,
+    2,
+    4
   ],
-  "themeWord": "transport",
+  "themeWord": "bisque",
   "solution": [
     [
       true,
       true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
@@ -118,9 +100,18 @@
     [
       false,
       false,
+      false,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      true,
+      false,
       false,
       false
     ],
@@ -129,13 +120,22 @@
       false,
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false,
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

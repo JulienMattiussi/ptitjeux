@@ -5,96 +5,96 @@
   "height": 7,
   "words": [
     [
-      "cadre",
-      "boxe",
-      "natation",
-      "caillou",
-      "gomme",
-      "boxe",
-      "chaise"
-    ],
-    [
-      "plafond",
-      "manuel",
-      "rumeur",
-      "cyclisme",
-      "ombre",
-      "ski",
-      "parfum"
-    ],
-    [
-      "table",
-      "panier",
-      "voile",
-      "volley",
-      "livre",
-      "judo",
-      "escalade"
-    ],
-    [
+      "griotte",
+      "bouée",
+      "mystique",
+      "pédicure",
+      "élever",
       "marteau",
-      "racine",
-      "étagère",
-      "carnet",
-      "ski",
-      "golf",
-      "panier"
+      "patiente"
     ],
     [
-      "balai",
-      "natation",
-      "golf",
-      "tasse",
-      "panier",
-      "panneau",
-      "pétale"
+      "vautour",
+      "glace",
+      "regarder",
+      "composer",
+      "cap",
+      "gorille",
+      "pâque"
     ],
     [
-      "étoile",
-      "plateau",
-      "lampe",
-      "escalade",
-      "panier",
-      "basket",
-      "pétale"
+      "liturgie",
+      "questionnement",
+      "fidèle",
+      "pieux",
+      "apéro",
+      "noël",
+      "choeur"
     ],
     [
-      "natation",
-      "danse",
-      "escalade",
-      "danse",
-      "boxe",
-      "football",
-      "agenda"
+      "agronomique",
+      "cymbale",
+      "primitive",
+      "apaiser",
+      "rafistoler",
+      "sacré",
+      "louer"
+    ],
+    [
+      "garder",
+      "pétale",
+      "vespéral",
+      "indépendance",
+      "grenache",
+      "abri",
+      "messe"
+    ],
+    [
+      "religieux",
+      "chant",
+      "nanterre",
+      "marié",
+      "chanter",
+      "spirituel",
+      "équipage"
+    ],
+    [
+      "bague",
+      "détachée",
+      "prier",
+      "collectif",
+      "épauler",
+      "rénovation",
+      "biblique"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    2,
+    5,
+    2,
+    1,
     4,
-    2,
-    2,
-    2,
-    6
+    3
   ],
   "colClues": [
+    2,
     1,
     3,
-    4,
-    4,
+    3,
     2,
-    6,
-    1
+    3,
+    5
   ],
-  "themeWord": "sport",
+  "themeWord": "cantique",
   "solution": [
     [
       false,
-      true,
-      true,
-      false,
       false,
       true,
+      false,
+      true,
+      false,
       false
     ],
     [
@@ -103,11 +103,11 @@
       false,
       true,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
-      false,
+      true,
       false,
       true,
       true,
@@ -120,37 +120,37 @@
       false,
       false,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       true,
       true,
       false
     ],
     [
       false,
+      false,
       true,
       true,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 19
 }

@@ -5,132 +5,123 @@
   "height": 7,
   "words": [
     [
-      "règle",
-      "four",
-      "casserole",
-      "fusée",
-      "prière",
-      "four",
-      "pelle"
+      "inapte",
+      "potage",
+      "litée",
+      "métamorphique",
+      "extraire",
+      "scintiller",
+      "quiche"
     ],
     [
-      "caillou",
-      "farine",
-      "bureau",
-      "mémoire",
-      "frigo",
-      "spatule",
-      "spatule"
+      "bleu",
+      "noir",
+      "feuillage",
+      "argileux",
+      "foliation",
+      "massepain",
+      "micacée"
     ],
     [
-      "tunnel",
-      "fourchette",
-      "spatule",
-      "pelle",
-      "étagère",
-      "rideau",
-      "rumeur"
+      "lit",
+      "jointure",
+      "ruse",
+      "cristalline",
+      "ornement",
+      "crète",
+      "balzac"
     ],
     [
-      "spatule",
-      "manuel",
-      "plateau",
-      "farine",
-      "brosse",
-      "cadre",
-      "fourchette"
+      "feuillet",
+      "tranchée",
+      "pantalon",
+      "photo",
+      "diriger",
+      "parent",
+      "creuser"
     ],
     [
-      "poêle",
-      "couteau",
-      "jardin",
-      "évier",
-      "farine",
-      "spatule",
-      "porte"
+      "descendance",
+      "discrète",
+      "transcender",
+      "fournisseur",
+      "gris",
+      "maçonner",
+      "écimer"
     ],
     [
-      "plateau",
-      "lampe",
-      "lueur",
-      "caillou",
-      "frigo",
-      "assiette",
-      "parfum"
+      "siphon",
+      "procès",
+      "sédimentaire",
+      "définir",
+      "tailler",
+      "roche",
+      "défenseur"
     ],
     [
-      "four",
-      "marteau",
-      "parfum",
-      "poêle",
-      "silence",
-      "spatule",
-      "plafond"
+      "syrah",
+      "garage",
+      "fendre",
+      "lugubre",
+      "ardoisier",
+      "familiale",
+      "cliver"
     ]
   ],
   "rowClues": [
     3,
-    4,
+    6,
     2,
+    1,
+    1,
     3,
-    5,
-    2,
     3
   ],
   "colClues": [
     3,
+    1,
     4,
-    2,
-    3,
     3,
     5,
+    1,
     2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "schiste",
   "solution": [
     [
       false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true,
       true,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      false,
-      false,
       false,
       false
     ],
     [
       true,
-      false,
-      false,
       true,
-      false,
+      true,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
@@ -139,18 +130,27 @@
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
       true,
       false
     ],
     [
-      true,
       false,
       false,
       true,
       false,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 19
 }

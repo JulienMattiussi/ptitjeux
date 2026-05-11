@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "crayon",
-      "cadre",
-      "renard",
+      "nier",
+      "mitrailler",
+      "mélancolie",
+      "chateaubriand",
+      "assimiler",
+      "gourou",
+      "imposer"
+    ],
+    [
+      "littérature",
+      "vapeur",
+      "carte",
+      "mine",
+      "gymnastique",
+      "obstiné",
+      "subjectif"
+    ],
+    [
+      "noueuse",
+      "musset",
       "zèbre",
-      "ombre",
-      "tigre",
-      "loup"
+      "collant",
+      "art",
+      "débattre",
+      "flageller"
     ],
     [
-      "fusée",
-      "brosse",
-      "lion",
-      "balai",
-      "cadre",
-      "pelle",
-      "rumeur"
+      "effleurer",
+      "rébellion",
+      "imagination",
+      "hominidé",
+      "écurie",
+      "essai",
+      "profond"
     ],
     [
-      "koala",
-      "tapis",
-      "castor",
-      "tigre",
-      "renard",
-      "tigre",
-      "porte"
+      "imam",
+      "lamartine",
+      "passion",
+      "rgb",
+      "briques",
+      "jument",
+      "psychanalyse"
     ],
     [
-      "castor",
-      "zèbre",
-      "tournevis",
-      "souris",
-      "lapin",
-      "koala",
-      "globe"
+      "arbuste",
+      "liberté",
+      "pantoufle",
+      "entretenir",
+      "enjouée",
+      "rectangulaire",
+      "klezmer"
     ],
     [
-      "écureuil",
-      "vache",
-      "mouton",
-      "agenda",
-      "rideau",
-      "ombre",
-      "castor"
-    ],
-    [
-      "étoile",
-      "vache",
-      "cadre",
-      "cadre",
-      "savon",
-      "silence",
-      "tournevis"
-    ],
-    [
-      "chaise",
-      "souris",
-      "savon",
-      "lampe",
-      "renard",
-      "lapin",
-      "tigre"
+      "mielleux",
+      "mouvement",
+      "profiter",
+      "individuel",
+      "rêveur",
+      "sentiment",
+      "nature"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
+    2,
+    2,
+    2,
     1,
-    5,
-    5,
-    4,
-    1,
-    4
+    5
   ],
   "colClues": [
+    1,
+    5,
     3,
-    4,
-    4,
-    3,
-    3,
-    4,
-    3
+    2,
+    2,
+    1,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "romantisme",
   "solution": [
     [
       false,
@@ -94,40 +94,13 @@
       true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
       false,
       false
     ],
     [
       true,
       false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
@@ -138,6 +111,24 @@
       true,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       false,
       false,
       false
@@ -147,10 +138,19 @@
       true,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

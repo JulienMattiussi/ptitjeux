@@ -5,114 +5,123 @@
   "height": 7,
   "words": [
     [
-      "lueur",
-      "porte",
-      "pied",
-      "dos",
-      "doigt",
-      "silence",
-      "lèvre"
+      "immobilisation",
+      "cargo",
+      "isoler",
+      "existence",
+      "enragé",
+      "parti",
+      "penser"
     ],
     [
-      "joue",
-      "ongle",
-      "pied",
-      "livre",
-      "dent",
-      "bras",
-      "joue"
+      "doute",
+      "bénitier",
+      "moi",
+      "flou",
+      "talon",
+      "enregistrer",
+      "individuel"
     ],
     [
-      "pétale",
-      "mémoire",
-      "langue",
-      "nez",
-      "ongle",
-      "plateau",
-      "gomme"
+      "spirale",
+      "douter",
+      "brassé",
+      "piqué",
+      "damier",
+      "scénario",
+      "idéaliste"
     ],
     [
-      "pied",
-      "épaule",
-      "lampe",
-      "prière",
-      "bras",
-      "prière",
-      "ongle"
+      "profil",
+      "aire",
+      "radical",
+      "examiner",
+      "vertical",
+      "conscience",
+      "effraie"
     ],
     [
-      "bras",
-      "cadre",
-      "voisin",
-      "lampe",
-      "étoile",
-      "prison",
-      "porte"
+      "philosophie",
+      "exister",
+      "lave",
+      "cap",
+      "unique",
+      "mer",
+      "extrême"
     ],
     [
-      "étagère",
-      "nez",
-      "brosse",
-      "panneau",
-      "pétale",
-      "plafond",
-      "prière"
+      "sibérie",
+      "soi",
+      "stromatolite",
+      "monopalme",
+      "communion",
+      "pèlerine",
+      "cartésien"
     ],
     [
-      "silence",
-      "parfum",
-      "langue",
-      "horloge",
-      "main",
-      "oreille",
-      "main"
+      "fibre",
+      "cerner",
+      "caserne",
+      "comique",
+      "boutonnière",
+      "absolu",
+      "subjectif"
     ]
   ],
   "rowClues": [
-    4,
-    6,
     3,
+    3,
+    2,
+    2,
     4,
-    1,
-    1,
-    4
+    2,
+    2
   ],
   "colClues": [
+    2,
     3,
     3,
-    4,
+    1,
+    1,
     2,
-    5,
-    2,
-    4
+    6
   ],
-  "themeWord": "corps",
+  "themeWord": "solipsisme",
   "solution": [
     [
       false,
       false,
       true,
       true,
-      true,
+      false,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
       false,
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
       true,
-      true,
-      true,
       false,
+      false,
+      true,
       false
     ],
     [
@@ -125,32 +134,23 @@
       true
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
       false,
       false,
       false,
       false,
-      false
+      true
     ],
     [
       false,
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 23
+  "parMoves": 18
 }

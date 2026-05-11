@@ -5,103 +5,94 @@
   "height": 7,
   "words": [
     [
-      "panier",
-      "requin",
-      "plage",
-      "voile",
-      "voile",
-      "marin",
-      "vague"
+      "habiter",
+      "enveloppe",
+      "se régaler",
+      "paisible",
+      "consoler",
+      "prédire",
+      "village"
     ],
     [
-      "rivage",
-      "corail",
-      "rumeur",
+      "la",
+      "imperturbable",
+      "degré",
+      "enthousiaste",
+      "rural",
+      "jalousie",
+      "architecture"
+    ],
+    [
+      "ancien",
+      "pleur",
+      "boulangerie",
+      "minestrone",
+      "lyrics",
+      "prêtre",
+      "nuisible"
+    ],
+    [
+      "épargner",
+      "assemblée",
+      "humble",
+      "bâton",
+      "tourmenter",
+      "hiéroglyphe",
+      "religieux"
+    ],
+    [
+      "flemme",
+      "infime",
+      "copier",
+      "magie",
+      "recevoir",
+      "chambre",
+      "visiter"
+    ],
+    [
+      "lunaire",
+      "streptocoque",
+      "postmoderne",
       "pierre",
-      "mémoire",
-      "marteau",
-      "phare"
+      "campagnard",
+      "pupitre",
+      "motif"
     ],
     [
-      "brosse",
-      "racine",
-      "méduse",
-      "tabouret",
-      "prière",
-      "chemin",
-      "bateau"
-    ],
-    [
-      "poisson",
-      "sol",
-      "voile",
-      "mur",
-      "marin",
-      "livre",
-      "voisin"
-    ],
-    [
-      "règle",
-      "rivage",
-      "poisson",
-      "plage",
-      "marin",
-      "pelle",
-      "bateau"
-    ],
-    [
-      "sardine",
-      "serrure",
-      "bateau",
-      "porte",
-      "crayon",
-      "sable",
-      "porte"
-    ],
-    [
-      "bureau",
-      "crabe",
-      "prière",
-      "gomme",
-      "pince",
-      "sable",
-      "banquier"
+      "rouillé",
+      "modeste",
+      "peintre",
+      "recommander",
+      "église",
+      "historique",
+      "chakra"
     ]
   ],
   "rowClues": [
-    6,
     3,
     2,
-    3,
-    5,
-    3,
+    2,
+    2,
+    2,
+    2,
     2
   ],
   "colClues": [
-    3,
-    4,
-    5,
     2,
-    3,
-    3,
+    1,
+    1,
+    2,
+    4,
+    1,
     4
   ],
-  "themeWord": "mer",
+  "themeWord": "presbytère",
   "solution": [
     [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
+      true,
       false,
       false,
       true
@@ -109,26 +100,8 @@
     [
       false,
       false,
-      true,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true,
       false,
       true
@@ -136,7 +109,7 @@
     [
       true,
       false,
-      true,
+      false,
       false,
       false,
       true,
@@ -144,13 +117,40 @@
     ],
     [
       false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
-      false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 15
 }

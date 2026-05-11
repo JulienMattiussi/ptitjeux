@@ -5,91 +5,136 @@
   "height": 7,
   "words": [
     [
-      "mélodie",
-      "chemin",
-      "horloge",
-      "voisin",
-      "harpe",
-      "voisin",
-      "savon"
+      "inondation",
+      "corne",
+      "fer-forgé",
+      "cuivre",
+      "cétacé",
+      "loi",
+      "préciser"
     ],
     [
-      "lueur",
-      "flûte",
-      "horloge",
-      "harpe",
-      "silence",
-      "mur",
-      "batterie"
+      "arctique",
+      "victoire",
+      "licorne",
+      "écu",
+      "sardine",
+      "mystérieux",
+      "plonger"
     ],
     [
-      "brosse",
-      "brosse",
-      "guitare",
-      "tambour",
-      "gamme",
-      "symphonie",
-      "batterie"
+      "mariée",
+      "sale",
+      "foyer",
+      "ivoire",
+      "montre",
+      "moule",
+      "long"
     ],
     [
-      "flûte",
-      "jardin",
-      "plafond",
-      "cadre",
-      "batterie",
-      "orgue",
-      "pierre"
+      "soigné",
+      "monodonté",
+      "tendon",
+      "polaire",
+      "légendaire",
+      "mineur",
+      "arboriculture"
     ],
     [
-      "tambour",
-      "plafond",
-      "pince",
-      "orgue",
-      "batterie",
-      "accord",
-      "guitare"
+      "alourdir",
+      "rectiligne",
+      "mâle",
+      "parler",
+      "gaudí",
+      "trotter",
+      "banquise"
     ],
     [
-      "jazz",
-      "gomme",
-      "flûte",
-      "batterie",
-      "batterie",
-      "cadre",
-      "silence"
+      "voyance",
+      "mycènes",
+      "large",
+      "thèse",
+      "défense",
+      "voiler",
+      "détoxifier"
     ],
     [
-      "note",
-      "chemin",
-      "chant",
-      "cadre",
-      "caillou",
-      "tournevis",
-      "savon"
+      "raisin",
+      "nager",
+      "métamorphose",
+      "devise",
+      "chasser",
+      "mer",
+      "jambon"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    5,
-    3,
-    5,
     4,
-    2
-  ],
-  "colClues": [
-    5,
+    2,
+    3,
+    2,
     1,
-    3,
-    4,
-    5,
-    3,
     3
   ],
-  "themeWord": "musique",
+  "colClues": [
+    1,
+    3,
+    2,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "narval",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -101,56 +146,11 @@
       false,
       true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

@@ -5,111 +5,93 @@
   "height": 7,
   "words": [
     [
-      "dent",
-      "épaule",
-      "écran",
-      "serrure",
-      "langue",
-      "timbre",
-      "porte"
+      "oeuvre",
+      "évolution",
+      "éternel",
+      "bouclier",
+      "cénozoïque",
+      "défraîchir",
+      "voyance"
     ],
     [
-      "ciseaux",
-      "sol",
-      "peau",
-      "plafond",
-      "dos",
-      "savon",
-      "lèvre"
+      "mammouth",
+      "mésozoïque",
+      "hubble",
+      "goldsworthy",
+      "maïs",
+      "os",
+      "déterminisme"
     ],
     [
-      "ciseaux",
-      "bras",
-      "ongle",
-      "panneau",
-      "bouche",
-      "gomme",
-      "tunnel"
+      "doberman",
+      "arrêter",
+      "tyrannosaure",
+      "reptile",
+      "lune",
+      "caverne",
+      "lombaire"
     ],
     [
-      "tête",
-      "joue",
-      "coeur",
-      "tête",
-      "écran",
-      "horloge",
-      "main"
+      "darwinien",
+      "jurassique",
+      "alzheimer",
+      "préhistoire",
+      "narrative",
+      "vacarme",
+      "extinction"
     ],
     [
-      "carnet",
-      "bras",
-      "bras",
-      "timbre",
-      "pelle",
-      "tête",
-      "ciseaux"
+      "fumé",
+      "pose",
+      "climat",
+      "archéoptéryx",
+      "paléontologue",
+      "fossile",
+      "fronton"
     ],
     [
-      "bouche",
-      "horloge",
-      "langue",
-      "rumeur",
-      "peau",
-      "langue",
-      "tête"
+      "dinosaure",
+      "visière",
+      "baudelaire",
+      "chantilly",
+      "propice",
+      "inconscient",
+      "zinc"
     ],
     [
-      "pince",
-      "chaise",
-      "main",
-      "pierre",
-      "genou",
-      "vis",
-      "bouche"
+      "crétacé",
+      "fouilles",
+      "jalousie",
+      "sédimentation",
+      "bouillon",
+      "ontologique",
+      "jumeler"
     ]
   ],
   "rowClues": [
+    2,
     3,
+    2,
+    4,
     3,
-    3,
-    5,
-    3,
-    5,
+    1,
     3
   ],
   "colClues": [
-    3,
     4,
-    6,
+    4,
     1,
-    5,
+    4,
     2,
-    4
+    2,
+    1
   ],
-  "themeWord": "corps",
+  "themeWord": "paléontologie",
   "solution": [
     [
-      true,
-      true,
-      false,
       false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       true,
       false,
@@ -118,39 +100,57 @@
     [
       true,
       true,
-      true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       true,
       false
     ],
     [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
       false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 18
 }

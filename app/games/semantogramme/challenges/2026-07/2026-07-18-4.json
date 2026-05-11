@@ -5,93 +5,102 @@
   "height": 7,
   "words": [
     [
-      "football",
-      "enveloppe",
-      "chemin",
-      "banquier",
-      "danse",
-      "golf",
-      "cadre"
+      "classification",
+      "coupe",
+      "inapte",
+      "observer",
+      "obscurcir",
+      "malacologue",
+      "quadratique"
     ],
     [
-      "brosse",
-      "pétale",
-      "pelle",
-      "football",
-      "gym",
-      "parfum",
-      "football"
+      "quaternaire",
+      "panda",
+      "descriptive",
+      "fustiger",
+      "collectionner",
+      "coquille",
+      "pulsatile"
     ],
     [
-      "natation",
-      "brosse",
-      "natation",
-      "étagère",
-      "tasse",
-      "course",
-      "rugby"
+      "colonne",
+      "cataloguer",
+      "pieuvre",
+      "orang-outan",
+      "science",
+      "plaisir",
+      "savante"
     ],
     [
-      "escalade",
-      "voile",
-      "gym",
-      "horloge",
-      "pierre",
-      "coussin",
-      "ski"
+      "comparée",
+      "monumental",
+      "pédoncule",
+      "craquelée",
+      "agate",
+      "artistique",
+      "vocal"
     ],
     [
-      "gym",
-      "timbre",
-      "tennis",
-      "judo",
-      "pince",
-      "natation",
-      "pétale"
+      "simplicité",
+      "spore",
+      "gratification",
+      "épeler",
+      "mollusque",
+      "montre",
+      "escalader"
     ],
     [
-      "natation",
-      "ciseaux",
-      "mémoire",
-      "course",
-      "judo",
-      "tournevis",
-      "ski"
+      "identifier",
+      "escargot",
+      "moule",
+      "coquillage",
+      "huître",
+      "sirène",
+      "grêle"
     ],
     [
-      "parfum",
-      "silence",
-      "table",
-      "course",
-      "pince",
-      "boxe",
-      "marathon"
+      "découvrir",
+      "borner",
+      "gaver",
+      "aspiration",
+      "spécialisée",
+      "octobre",
+      "vaillant"
     ]
   ],
   "rowClues": [
     3,
     3,
     4,
-    4,
-    4,
-    4,
-    3
+    1,
+    2,
+    5,
+    1
   ],
   "colClues": [
+    3,
+    3,
+    3,
+    2,
     5,
-    1,
-    3,
-    4,
-    3,
-    4,
-    5
+    2,
+    1
   ],
-  "themeWord": "sport",
+  "themeWord": "malacologie",
   "solution": [
     [
       true,
       false,
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true,
       true,
@@ -99,58 +108,49 @@
     ],
     [
       false,
-      false,
-      false,
       true,
       true,
       false,
-      true
-    ],
-    [
       true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
       true,
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       false,
-      true
+      false
     ],
     [
       false,
       false,
       false,
-      true,
       false,
       true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

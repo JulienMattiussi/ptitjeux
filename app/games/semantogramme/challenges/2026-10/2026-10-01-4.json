@@ -5,111 +5,138 @@
   "height": 7,
   "words": [
     [
-      "remorque",
-      "voiture",
-      "avion",
-      "fusée",
-      "tabouret",
-      "bateau",
-      "miroir"
+      "flamboyant",
+      "flétrir",
+      "romantique",
+      "malice",
+      "delaunay",
+      "cocon",
+      "dépérir"
     ],
     [
-      "moto",
-      "taxi",
-      "silence",
-      "vélo",
-      "miroir",
-      "bus",
-      "maison"
+      "épi",
+      "souffrir",
+      "amoureux",
+      "douloureux",
+      "discourir",
+      "prétentieux",
+      "panache"
     ],
     [
-      "clé",
-      "étoile",
-      "camion",
-      "racine",
-      "camion",
-      "banquier",
-      "métro"
+      "gémir",
+      "galactique",
+      "récolte",
+      "rupture",
+      "kale",
+      "siège",
+      "haillon"
     ],
     [
-      "serrure",
-      "plafond",
-      "étoile",
-      "silence",
-      "bateau",
-      "scooter",
-      "crayon"
+      "archaïque",
+      "innovation",
+      "patienter",
+      "compact",
+      "confier",
+      "sentimental",
+      "attente"
     ],
     [
-      "silence",
-      "enveloppe",
-      "remorque",
-      "rideau",
-      "plateau",
-      "train",
-      "bateau"
+      "soir",
+      "idoine",
+      "épuiser",
+      "mélancolie",
+      "sec",
+      "ouïe",
+      "jurassique"
     ],
     [
-      "train",
-      "mur",
-      "bus",
-      "métro",
-      "navette",
-      "ombre",
-      "parfum"
+      "météorite",
+      "tonnerre",
+      "couronner",
+      "vigoureux",
+      "soupirer",
+      "recul",
+      "soutenu"
     ],
     [
-      "vélo",
-      "fusée",
-      "peigne",
-      "agenda",
-      "ferry",
-      "bateau",
-      "étagère"
+      "moule",
+      "gabriel",
+      "jogging",
+      "manque",
+      "attendre",
+      "détourner",
+      "polyphonie"
     ]
   ],
   "rowClues": [
-    5,
+    3,
+    3,
+    1,
+    4,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
     4,
     3,
     2,
-    3,
-    4,
-    4
+    1,
+    3
   ],
-  "colClues": [
-    4,
-    3,
-    4,
-    3,
-    4,
-    5,
-    2
-  ],
-  "themeWord": "transport",
+  "themeWord": "languir",
   "solution": [
     [
+      false,
       true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
       true,
-      true,
       false,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
     ],
     [
       false,
       false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       false,
@@ -119,38 +146,11 @@
       false,
       false,
       false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 17
 }

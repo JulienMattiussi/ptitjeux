@@ -5,95 +5,122 @@
   "height": 7,
   "words": [
     [
-      "rideau",
-      "gel",
-      "savon",
-      "caillou",
-      "table",
-      "globe",
-      "enveloppe"
+      "plaie",
+      "gluant",
+      "cabri",
+      "chronique",
+      "douce",
+      "liqueur",
+      "responsable"
     ],
     [
-      "fusée",
-      "prière",
-      "étoile",
-      "mémoire",
-      "pierre",
-      "mur",
-      "nuage"
+      "tramway",
+      "allergique",
+      "embaumé",
+      "jaune",
+      "plante",
+      "comprendre",
+      "rogner"
     ],
     [
-      "lampe",
-      "arc-en-ciel",
-      "devoir",
-      "tonnerre",
-      "miroir",
-      "sol",
-      "nuage"
+      "incliner",
+      "fumier",
+      "savourer",
+      "tu",
+      "roulotte",
+      "étalage",
+      "monastique"
     ],
     [
-      "étagère",
-      "nuage",
-      "glace",
-      "plafond",
-      "étagère",
-      "neige",
-      "vent"
+      "tatouage",
+      "plateau",
+      "digestif",
+      "chartreux",
+      "apéritif",
+      "crépi",
+      "strophe"
     ],
     [
-      "devoir",
-      "orage",
-      "neige",
-      "carnet",
-      "porte",
-      "verglas",
-      "tonnerre"
+      "provocation",
+      "coton",
+      "conserver",
+      "puissante",
+      "sucrée",
+      "aromatique",
+      "verte"
     ],
     [
-      "gel",
-      "tunnel",
-      "orage",
-      "tournevis",
-      "éclair",
-      "foudre",
-      "tempête"
+      "effrayant",
+      "enlèvement",
+      "beuys",
+      "distillation",
+      "tunisie",
+      "moine",
+      "pauser"
     ],
     [
-      "rumeur",
-      "fusée",
-      "pétale",
-      "foudre",
-      "neige",
-      "arc-en-ciel",
-      "verglas"
+      "voiron",
+      "recette",
+      "delacroix",
+      "herbe",
+      "amère",
+      "fratrie",
+      "char"
     ]
   ],
   "rowClues": [
     1,
-    1,
+    2,
+    2,
     3,
     4,
-    4,
-    5,
+    2,
     4
   ],
   "colClues": [
     1,
+    1,
+    2,
+    5,
     4,
     3,
-    2,
-    2,
-    4,
-    6
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "chartreuse",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
       false,
       false
     ],
@@ -101,43 +128,7 @@
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       true,
       true,
       true
@@ -147,10 +138,19 @@
       false,
       false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
-      true
+      false,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "ocre",
-      "gris",
-      "rose",
-      "brun",
-      "marteau",
-      "parfum",
-      "turquoise"
+      "élégant",
+      "lard",
+      "renaissance",
+      "émotion",
+      "gesualdo",
+      "clinique",
+      "épicée"
     ],
     [
-      "blanc",
-      "vis",
-      "argenté",
-      "lampe",
-      "ocre",
-      "indigo",
-      "étoile"
+      "antenne",
+      "spirale",
+      "imperceptible",
+      "voix",
+      "couvercle",
+      "monteverdi",
+      "magnifique"
     ],
     [
-      "chaise",
-      "tunnel",
-      "noir",
-      "manuel",
-      "beige",
-      "prière",
-      "savon"
+      "chaussette",
+      "balla",
+      "amour",
+      "miracle",
+      "écourter",
+      "profil",
+      "potager"
     ],
     [
-      "pelle",
-      "serrure",
-      "plafond",
-      "orange",
-      "noir",
-      "noir",
-      "mémoire"
+      "baroque",
+      "arrêter",
+      "éplucheur",
+      "ténébreux",
+      "choeur",
+      "montrer",
+      "acteur"
     ],
     [
-      "ocre",
-      "ocre",
-      "mauve",
-      "tapis",
-      "violet",
-      "bleu",
-      "livre"
+      "se chamailler",
+      "chanter",
+      "composer",
+      "gifler",
+      "pelage",
+      "tracer",
+      "oasis"
     ],
     [
-      "fusée",
-      "marteau",
-      "ocre",
-      "tasse",
-      "bleu",
-      "rose",
-      "marteau"
+      "cap",
+      "pleutre",
+      "profane",
+      "musique",
+      "lassus",
+      "devon",
+      "baver"
     ],
     [
-      "indigo",
-      "pétale",
-      "marteau",
-      "blanc",
-      "brun",
-      "cadre",
-      "horloge"
+      "aloès",
+      "vitrine",
+      "dalí",
+      "loi",
+      "a-cappella",
+      "chant",
+      "italien"
     ]
   ],
   "rowClues": [
-    5,
-    4,
-    2,
     3,
-    5,
+    2,
+    1,
+    2,
+    2,
     3,
     3
   ],
   "colClues": [
+    2,
+    1,
     4,
     2,
-    5,
-    3,
-    6,
     4,
+    2,
     1
   ],
-  "themeWord": "couleur",
+  "themeWord": "madrigal",
   "solution": [
     [
       true,
+      false,
       true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 16
 }

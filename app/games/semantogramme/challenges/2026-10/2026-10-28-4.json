@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "marathon",
-      "escalade",
-      "porte",
-      "course",
-      "voisin",
-      "cyclisme",
-      "volley"
+      "interroger",
+      "soupçon",
+      "hésiter",
+      "départ",
+      "menace",
+      "exaucer",
+      "douter"
     ],
     [
-      "rugby",
-      "judo",
-      "tennis",
-      "football",
-      "savon",
-      "natation",
-      "mur"
+      "hésitation",
+      "incertitude",
+      "ouvrière",
+      "fille",
+      "élémentaire",
+      "digérer",
+      "cartésien"
     ],
     [
-      "tabouret",
-      "mur",
-      "basket",
-      "judo",
-      "écran",
-      "tasse",
-      "cyclisme"
+      "tremolo",
+      "grill",
+      "patiné",
+      "sceptique",
+      "questionner",
+      "velu",
+      "fouler"
     ],
     [
-      "agenda",
-      "natation",
-      "golf",
-      "golf",
-      "racine",
-      "escalade",
-      "rugby"
+      "soupçonner",
+      "velouté",
+      "encadrement",
+      "impair",
+      "cultivé",
+      "philosophique",
+      "régénération"
     ],
     [
-      "lampe",
-      "balai",
-      "golf",
-      "silence",
-      "marteau",
-      "rugby",
-      "cyclisme"
+      "grandeur",
+      "descartes",
+      "évanescent",
+      "noisetier",
+      "scepticisme",
+      "bricolée",
+      "écouteur"
     ],
     [
-      "escalade",
-      "basket",
-      "football",
-      "serrure",
-      "volley",
-      "course",
-      "football"
+      "fondamental",
+      "gazeux",
+      "déshydrater",
+      "sucrer",
+      "lutte",
+      "légitime",
+      "lancéolé"
     ],
     [
-      "ciseaux",
-      "voile",
-      "tapis",
-      "devoir",
-      "étagère",
-      "natation",
-      "golf"
+      "pyrrhonisme",
+      "questionnement",
+      "inquiétude",
+      "méthodique",
+      "discuter",
+      "rectitude",
+      "amas"
     ]
   ],
   "rowClues": [
-    5,
-    5,
+    4,
     3,
-    5,
-    3,
-    6,
-    3
+    2,
+    2,
+    2,
+    2,
+    4
   ],
   "colClues": [
-    3,
-    5,
     5,
     4,
-    1,
-    6,
-    6
+    2,
+    2,
+    2,
+    2,
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "doute",
   "solution": [
     [
       true,
       true,
-      false,
       true,
       false,
-      true,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false,
       true,
       false
     ],
     [
       false,
-      false,
-      true,
       true,
       false,
       false,
-      true
+      true,
+      false,
+      false
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
+      false,
+      false,
       true,
-      true
+      false
     ],
     [
       true,
       true,
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 30
+  "parMoves": 19
 }

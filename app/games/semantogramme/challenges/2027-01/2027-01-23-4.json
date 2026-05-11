@@ -5,111 +5,111 @@
   "height": 7,
   "words": [
     [
-      "chat",
-      "vache",
-      "savon",
-      "pierre",
-      "plafond",
-      "lynx",
-      "belette"
+      "invectiver",
+      "corrompu",
+      "céleste",
+      "professionnel",
+      "antilope",
+      "facial",
+      "pisciculture"
     ],
     [
-      "tigre",
-      "serrure",
-      "écureuil",
-      "renard",
-      "rideau",
-      "vis",
-      "panda"
+      "visibilité",
+      "vaporeux",
+      "flotter",
+      "évent",
+      "compliment",
+      "cabaret",
+      "délicat"
     ],
     [
-      "chien",
-      "clé",
-      "cheval",
-      "écureuil",
-      "ombre",
-      "cadre",
-      "chaise"
+      "masque",
+      "cornichon",
+      "pluralisme",
+      "voltiger",
+      "apostropher",
+      "transfert",
+      "manigancer"
     ],
     [
-      "crayon",
-      "agenda",
-      "maison",
-      "rumeur",
-      "pétale",
-      "bureau",
-      "cheval"
+      "fratrie",
+      "penser",
+      "jury",
+      "rétrécir",
+      "lilliputien",
+      "sublime",
+      "touristique"
     ],
     [
-      "ours",
-      "loup",
-      "chien",
-      "lapin",
-      "ombre",
-      "belette",
-      "mouton"
+      "frescobaldi",
+      "arrondir",
+      "évanescent",
+      "fermé",
+      "planer",
+      "mystique",
+      "globe"
     ],
     [
-      "chat",
-      "zèbre",
-      "lynx",
-      "cheval",
-      "caillou",
-      "voisin",
-      "étagère"
+      "évaporé",
+      "apôtre",
+      "léger",
+      "fragile",
+      "ange",
+      "subtil",
+      "vocal"
     ],
     [
-      "clé",
-      "tapis",
-      "panneau",
-      "pelle",
-      "girafe",
-      "lion",
-      "ours"
+      "rêve",
+      "diaphragme",
+      "palabrer",
+      "impalpable",
+      "brosse",
+      "invisible",
+      "sommeil"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    1,
     3,
     1,
-    6,
-    4,
-    3
+    1,
+    3,
+    5,
+    2
   ],
   "colClues": [
-    5,
-    3,
-    4,
-    4,
+    2,
     1,
+    4,
     3,
-    5
+    2,
+    3,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "éthéré",
   "solution": [
     [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
       false,
       false,
-      true,
       true
     ],
     [
-      true,
-      false,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
       false,
-      true,
       true,
       false,
       false,
@@ -121,36 +121,36 @@
       false,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
       false,
       false,
-      false,
+      true,
       false,
       true,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 16
 }

@@ -5,92 +5,101 @@
   "height": 7,
   "words": [
     [
-      "golf",
-      "boxe",
-      "gym",
-      "savon",
-      "boxe",
-      "mur",
-      "règle"
+      "escale",
+      "sentimental",
+      "alliage",
+      "fantasme",
+      "maçon",
+      "cil",
+      "amarrer"
     ],
     [
-      "plafond",
-      "voile",
-      "natation",
-      "tennis",
-      "globe",
-      "peigne",
-      "brosse"
+      "navire",
+      "enduire",
+      "côte",
+      "pianiste",
+      "court",
+      "balancier",
+      "limite"
     ],
     [
-      "caillou",
-      "escalade",
-      "panier",
-      "boxe",
-      "golf",
-      "plafond",
-      "devoir"
+      "contagieuse",
+      "régional",
+      "feuilleter",
+      "sursauter",
+      "maritime",
+      "précambrien",
+      "écimer"
     ],
     [
-      "golf",
-      "manuel",
-      "plateau",
-      "tennis",
-      "enveloppe",
-      "escalade",
-      "rugby"
+      "rider",
+      "dépasser",
+      "marine",
+      "plaisir",
+      "bride",
+      "commerce",
+      "commerciale"
     ],
     [
-      "judo",
-      "balai",
-      "étagère",
-      "devoir",
-      "cyclisme",
-      "silence",
-      "danse"
+      "transporter",
+      "port",
+      "cri",
+      "habitable",
+      "bus",
+      "feuillue",
+      "historique"
     ],
     [
-      "règle",
-      "caillou",
-      "rugby",
-      "chemin",
-      "parfum",
-      "banquier",
-      "étoile"
+      "coffre",
+      "caboteur",
+      "velue",
+      "traditionnel",
+      "ouvrier",
+      "amanite",
+      "naviguer"
     ],
     [
-      "marathon",
-      "volley",
-      "crayon",
-      "danse",
-      "plateau",
-      "étagère",
-      "cyclisme"
+      "monument",
+      "navigation",
+      "armure",
+      "longer",
+      "remporter",
+      "éclat",
+      "côtière"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    3,
+    2,
     3,
     3,
-    4,
     3,
-    1,
-    4
-  ],
-  "colClues": [
-    4,
-    4,
-    3,
-    4,
-    3,
-    1,
     3
   ],
-  "themeWord": "sport",
+  "colClues": [
+    3,
+    4,
+    2,
+    2,
+    2,
+    1,
+    5
+  ],
+  "themeWord": "cabotage",
   "solution": [
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       false,
       true,
@@ -100,50 +109,41 @@
     [
       false,
       true,
-      true,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true,
       false,
       false
     ],
     [
-      true,
       false,
       false,
       true,
+      false,
       false,
       true,
       true
     ],
     [
       true,
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
+      true,
       false,
       true,
       false,
       false,
-      false,
-      false
+      true
     ],
     [
-      true,
+      false,
       true,
       false,
       true,
@@ -152,5 +152,5 @@
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 19
 }

@@ -5,123 +5,96 @@
   "height": 7,
   "words": [
     [
-      "lampe",
-      "cyclisme",
-      "savon",
-      "horloge",
-      "escalade",
-      "devoir",
-      "plateau"
+      "rimbaud",
+      "tripe",
+      "percher",
+      "domestique",
+      "demeurer",
+      "bpm",
+      "soutenu"
     ],
     [
-      "basket",
-      "escalade",
-      "savon",
-      "devoir",
-      "tunnel",
-      "basket",
-      "mémoire"
+      "culturelle",
+      "pigeon",
+      "couette",
+      "déjeuner",
+      "rester",
+      "noble",
+      "fournisseur"
     ],
     [
-      "escalade",
-      "tournevis",
-      "voile",
-      "chaise",
-      "porte",
-      "danse",
-      "course"
+      "agripper",
+      "mort",
+      "étendre",
+      "littéraire",
+      "défunt",
+      "tardif",
+      "reposer"
     ],
     [
-      "timbre",
-      "judo",
-      "caillou",
-      "chaise",
-      "porte",
-      "golf",
-      "tennis"
+      "amertume",
+      "babouin",
+      "tenter",
+      "cadavre",
+      "impétueux",
+      "crète",
+      "audubon"
     ],
     [
-      "miroir",
-      "panier",
-      "gomme",
-      "balai",
-      "table",
-      "football",
-      "étagère"
+      "antique",
+      "classique",
+      "trimbaler",
+      "allonger",
+      "philharmonique",
+      "bougie",
+      "consommer"
     ],
     [
-      "banquier",
-      "horloge",
-      "tasse",
-      "golf",
-      "panier",
-      "panier",
-      "natation"
+      "abriter",
+      "arachnide",
+      "feuillue",
+      "inanimé",
+      "balzac",
+      "tombeau",
+      "immobile"
     ],
     [
-      "enveloppe",
-      "danse",
-      "ski",
-      "judo",
-      "rideau",
-      "lueur",
-      "lueur"
+      "sol",
+      "archaïque",
+      "liesse",
+      "cimetière",
+      "cohabiter",
+      "mordre",
+      "paysan"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    4,
-    3,
-    1,
     2,
+    5,
+    1,
+    3,
+    3,
     3
   ],
   "colClues": [
     2,
-    4,
-    2,
-    2,
+    3,
     1,
-    4,
+    5,
+    3,
+    2,
     3
   ],
-  "themeWord": "sport",
+  "themeWord": "gésir",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
       true
     ],
     [
@@ -129,8 +102,35 @@
       false,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -139,18 +139,18 @@
       false,
       true,
       false,
-      false,
+      true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 19
 }

@@ -5,101 +5,137 @@
   "height": 7,
   "words": [
     [
-      "train",
-      "étagère",
-      "navette",
-      "avion",
-      "métro",
-      "balai",
-      "enveloppe"
+      "éloigner",
+      "géométrie",
+      "parabole",
+      "régime",
+      "vermillon",
+      "anniversaire",
+      "patiner"
     ],
     [
-      "avion",
-      "peigne",
-      "racine",
-      "remorque",
-      "vis",
-      "remorque",
-      "bus"
+      "épier",
+      "collage",
+      "art",
+      "savane",
+      "se chamailler",
+      "analytique",
+      "biodiversité"
     ],
     [
-      "pelle",
-      "bus",
-      "plateau",
-      "caillou",
-      "mémoire",
-      "étagère",
-      "moto"
+      "onirique",
+      "imprimerie",
+      "révolutionnaire",
+      "ancre",
+      "braque",
+      "matinée",
+      "herbes"
     ],
     [
-      "serrure",
-      "tasse",
-      "voiture",
-      "tapis",
-      "caravane",
-      "moto",
-      "table"
+      "comptine",
+      "angulaire",
+      "promenade",
+      "belle-époque",
+      "fragmentation",
+      "décompression",
+      "décomposition"
     ],
     [
-      "tramway",
-      "fusée",
-      "étoile",
-      "autobus",
-      "bureau",
-      "voiture",
-      "balai"
+      "effiler",
+      "soviet",
+      "léger",
+      "comestible",
+      "queue",
+      "audio",
+      "bijou"
     ],
     [
-      "caravane",
-      "brosse",
-      "train",
-      "métro",
-      "prière",
-      "gomme",
-      "livre"
+      "panier",
+      "synthétique",
+      "haute-définition",
+      "arlequin",
+      "écurie",
+      "mouvement",
+      "guitare"
     ],
     [
-      "mémoire",
-      "bateau",
-      "fusée",
-      "scooter",
-      "chaise",
-      "métro",
-      "livre"
+      "forme",
+      "enchantement",
+      "législatif",
+      "créatinine",
+      "avant-garde",
+      "griffes",
+      "picasso"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    1,
+    3,
     2,
     3,
+    1,
     4,
-    3,
     3
   ],
   "colClues": [
+    1,
     4,
     3,
+    1,
     3,
-    5,
     2,
-    4,
-    2
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "cubisme",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true,
       false,
       false
     ],
     [
+      false,
       true,
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true,
       false,
@@ -107,50 +143,14 @@
       true
     ],
     [
-      false,
       true,
       false,
       false,
       false,
+      true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 17
 }

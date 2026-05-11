@@ -5,138 +5,111 @@
   "height": 7,
   "words": [
     [
-      "enveloppe",
-      "chemin",
-      "lueur",
-      "crabe",
-      "sable",
-      "marin",
-      "étagère"
+      "contracter",
+      "pivotante",
+      "pesant",
+      "sonner",
+      "cathédrale",
+      "châtaigne",
+      "russe"
     ],
     [
-      "banquier",
-      "sable",
-      "crabe",
-      "pétale",
-      "chemin",
-      "rivage",
-      "sable"
+      "protestation",
+      "écurie",
+      "épineux",
+      "thorax",
+      "rodtchenko",
+      "utilitaire",
+      "angoissant"
     ],
     [
-      "baleine",
-      "phare",
-      "gomme",
-      "dauphin",
-      "bateau",
-      "marin",
-      "parfum"
+      "gambade",
+      "caractère",
+      "sainte",
+      "art",
+      "tâtonner",
+      "décalé",
+      "rigoureux"
     ],
     [
-      "écume",
-      "marteau",
-      "écume",
-      "marin",
-      "dauphin",
-      "porte",
-      "agenda"
+      "esclave",
+      "soviet",
+      "industriel",
+      "concevoir",
+      "celtique",
+      "explorer",
+      "limpide"
     ],
     [
-      "saumon",
-      "plage",
-      "baleine",
-      "sable",
-      "bureau",
-      "voile",
-      "fusée"
+      "secours",
+      "projectile",
+      "frigorifique",
+      "tomme",
+      "malevitch",
+      "détritus",
+      "dispenser"
     ],
     [
-      "poisson",
-      "dauphin",
-      "phare",
-      "plage",
-      "livre",
-      "mur",
-      "thon"
+      "pratique",
+      "mouvement",
+      "tatline",
+      "avant-garde",
+      "hôte",
+      "pianiste",
+      "cuisson"
     ],
     [
-      "table",
-      "rivage",
-      "crayon",
-      "voile",
-      "banquier",
-      "saumon",
-      "prière"
+      "recyclage",
+      "gazouiller",
+      "légitime",
+      "reins",
+      "immortel",
+      "géométrie",
+      "épuré"
     ]
   ],
   "rowClues": [
+    1,
+    2,
+    2,
     3,
+    1,
     4,
-    5,
-    4,
-    5,
-    5,
-    3
-  ],
-  "colClues": [
-    4,
-    5,
-    4,
-    6,
-    3,
-    5,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "constructivisme",
   "solution": [
     [
       false,
       false,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
-      true,
+      false,
       true
     ],
     [
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
       true,
       true,
       false
     ],
     [
-      true,
       false,
-      true,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false,
       false,
@@ -145,12 +118,39 @@
     [
       false,
       true,
-      false,
+      true,
       true,
       false,
-      true,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 29
+  "parMoves": 15
 }

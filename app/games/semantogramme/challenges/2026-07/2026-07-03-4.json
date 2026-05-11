@@ -5,131 +5,113 @@
   "height": 7,
   "words": [
     [
-      "raisin",
-      "pastèque",
-      "règle",
-      "sol",
-      "savon",
-      "enveloppe",
-      "poire"
+      "atteindre",
+      "culbuter",
+      "huit",
+      "parade",
+      "sueur",
+      "nier",
+      "résine"
     ],
     [
-      "cerise",
-      "lampe",
-      "caillou",
-      "livre",
-      "tunnel",
-      "banane",
-      "balai"
+      "continu",
+      "fade",
+      "archaïque",
+      "élevée",
+      "lèchefrite",
+      "dendrologue",
+      "tian"
     ],
     [
-      "citron",
-      "framboise",
-      "cassis",
-      "kiwi",
-      "chaise",
-      "pince",
-      "rideau"
+      "médaillon",
+      "pénétrer",
+      "imperceptible",
+      "trimbaler",
+      "lettre",
+      "atoll",
+      "chinchilla"
     ],
     [
-      "figue",
-      "fusée",
-      "miroir",
-      "pince",
-      "maison",
-      "poire",
-      "citron"
+      "chute",
+      "graptolithe",
+      "dégoutter",
+      "outil",
+      "éden",
+      "cucurbitacée",
+      "tragédie"
     ],
     [
-      "raisin",
-      "vis",
-      "cassis",
-      "pêche",
-      "abricot",
-      "pierre",
-      "pelle"
+      "suinter",
+      "sourdre",
+      "cartilagineux",
+      "chagrin",
+      "multiplication",
+      "ramper",
+      "corpulent"
     ],
     [
-      "chemin",
-      "plateau",
-      "melon",
-      "banane",
-      "figue",
-      "livre",
-      "vis"
+      "taquiner",
+      "liège",
+      "élysée",
+      "équation",
+      "littéraire",
+      "lent",
+      "destin"
     ],
     [
-      "panier",
-      "abricot",
-      "voisin",
-      "panneau",
-      "cerise",
-      "cassis",
-      "orange"
+      "havane",
+      "gaspacho",
+      "larmoyer",
+      "goutte",
+      "larme",
+      "cafetière",
+      "transpirer"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    4,
-    3,
-    4,
-    3,
+    2,
+    2,
+    1,
+    2,
+    2,
     4
   ],
   "colClues": [
-    5,
+    2,
+    2,
+    4,
+    1,
     3,
-    3,
-    3,
-    3,
-    3,
-    3
+    1,
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "exsuder",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
       true,
-      true,
-      false,
-      false,
-      false,
       false,
       true
     ],
     [
       true,
       false,
+      true,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       true,
       true,
-      true,
+      false,
+      false,
       false,
       false
     ],
@@ -137,20 +119,38 @@
       false,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
+      false,
+      false,
+      false,
       false,
       false
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
       false,
       false,
       true,
       true,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 23
+  "parMoves": 15
 }

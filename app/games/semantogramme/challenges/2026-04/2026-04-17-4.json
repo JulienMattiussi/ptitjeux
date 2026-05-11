@@ -5,133 +5,115 @@
   "height": 7,
   "words": [
     [
-      "marathon",
-      "plateau",
-      "marathon",
-      "marteau",
-      "bureau",
-      "parfum",
-      "manuel"
+      "piquer",
+      "stalagmite",
+      "lèchefrite",
+      "primordial",
+      "duchamp",
+      "primitive",
+      "sec"
     ],
     [
-      "volley",
-      "course",
-      "prière",
-      "rugby",
-      "course",
-      "pierre",
-      "boxe"
+      "détritus",
+      "rédiger",
+      "côte",
+      "décisif",
+      "répéter",
+      "mignon",
+      "antique"
     ],
     [
-      "basket",
-      "football",
-      "judo",
-      "clé",
-      "tennis",
-      "écran",
-      "gomme"
+      "percutant",
+      "traversée",
+      "tranchant",
+      "fin",
+      "satirique",
+      "critique",
+      "gestionnaire"
     ],
     [
-      "enveloppe",
-      "boxe",
-      "football",
-      "chemin",
-      "basket",
-      "voile",
-      "marathon"
+      "stéthoscope",
+      "piquant",
+      "aigu",
+      "propulsion",
+      "tranché",
+      "acéré",
+      "planétaire"
     ],
     [
-      "gym",
-      "plateau",
-      "cyclisme",
-      "horloge",
-      "voile",
-      "volley",
-      "golf"
+      "préhistorique",
+      "précis",
+      "cassant",
+      "mordant",
+      "sarcastique",
+      "cétacé",
+      "tacher"
     ],
     [
-      "pétale",
-      "course",
-      "marathon",
-      "caillou",
-      "cyclisme",
-      "golf",
-      "enveloppe"
+      "dodeliner",
+      "redoutable",
+      "cinglant",
+      "folklore",
+      "froussard",
+      "balancier",
+      "wok"
     ],
     [
-      "judo",
-      "horloge",
-      "golf",
-      "danse",
-      "voile",
-      "ski",
-      "ski"
+      "barbu",
+      "icône",
+      "attaquer",
+      "fendre",
+      "nouvel",
+      "pneumatique",
+      "joie"
     ]
   ],
   "rowClues": [
     2,
-    5,
+    1,
     4,
-    5,
-    5,
     4,
-    6
+    4,
+    2,
+    2
   ],
   "colClues": [
-    5,
-    4,
-    6,
     2,
-    6,
-    4,
-    4
+    3,
+    5,
+    3,
+    3,
+    2,
+    1
   ],
-  "themeWord": "sport",
+  "themeWord": "incisif",
   "solution": [
     [
       true,
       false,
-      true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true,
       false,
+      true,
+      true,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
     ],
     [
       false,
@@ -143,14 +125,32 @@
       false
     ],
     [
-      true,
       false,
       true,
       true,
       true,
       true,
-      true
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 31
+  "parMoves": 19
 }

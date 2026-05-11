@@ -5,145 +5,145 @@
   "height": 7,
   "words": [
     [
-      "pierre",
-      "horloge",
-      "enveloppe",
-      "koala",
-      "panier",
-      "ours",
-      "coussin"
+      "impair",
+      "jaune",
+      "spartiate",
+      "farouche",
+      "français",
+      "mer",
+      "rosette"
     ],
     [
-      "sol",
-      "caillou",
-      "règle",
-      "panneau",
-      "lion",
-      "girafe",
-      "horloge"
+      "trilobite",
+      "explosion",
+      "goûter",
+      "confettis",
+      "amabilité",
+      "animal",
+      "biodiversité"
     ],
     [
-      "tournevis",
-      "belette",
-      "agenda",
-      "écran",
-      "castor",
-      "chaise",
-      "table"
+      "roche",
+      "audacieux",
+      "ancien",
+      "sédiment",
+      "paléozoïque",
+      "épine",
+      "attendre"
     ],
     [
-      "zèbre",
-      "ours",
-      "girafe",
-      "zèbre",
-      "pince",
-      "brosse",
-      "koala"
+      "corbeille",
+      "fossile",
+      "munition",
+      "écriture",
+      "préhistorique",
+      "gêné",
+      "active"
     ],
     [
-      "tasse",
-      "koala",
-      "écureuil",
-      "crayon",
-      "silence",
-      "ours",
-      "chien"
+      "chausser",
+      "invertébré",
+      "grippe",
+      "coton",
+      "ton",
+      "tacheté",
+      "épousseter"
     ],
     [
-      "crayon",
-      "marteau",
-      "lampe",
-      "lynx",
-      "koala",
-      "cheval",
-      "tunnel"
+      "égoïne",
+      "culminer",
+      "géologique",
+      "inoccupé",
+      "vibrer",
+      "apparition",
+      "stigmatiser"
     ],
     [
-      "lynx",
-      "lueur",
-      "mémoire",
-      "lueur",
-      "castor",
-      "gomme",
-      "souris"
+      "nature",
+      "rénover",
+      "illusion",
+      "chocolat",
+      "ordovicien",
+      "éroder",
+      "ère"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    5,
+    1,
     4,
-    3,
-    3
+    4,
+    2,
+    1,
+    2,
+    2
   ],
   "colClues": [
     2,
     3,
     2,
+    1,
     3,
-    4,
-    4,
-    3
+    3,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "cambrien",
   "solution": [
     [
       false,
       false,
       false,
-      true,
+      false,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
+      true,
       false,
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true,
       false
     ],
     [
-      true,
+      false,
       false,
       false,
       false,
@@ -152,5 +152,5 @@
       true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 16
 }

@@ -5,106 +5,97 @@
   "height": 7,
   "words": [
     [
-      "rumeur",
-      "poire",
-      "pêche",
-      "pétale",
-      "cerise",
-      "pêche",
-      "mûre"
+      "geindre",
+      "décrire",
+      "farceur",
+      "nébuleuse",
+      "orgueil",
+      "méthode",
+      "fraîcheur"
     ],
     [
-      "prune",
-      "kiwi",
-      "abricot",
-      "cerise",
-      "tournevis",
-      "carnet",
-      "banane"
+      "diagnostic",
+      "spectacle",
+      "clavier",
+      "datte",
+      "baptême",
+      "icône",
+      "phénomène"
     ],
     [
-      "prison",
-      "maison",
-      "horloge",
-      "sol",
-      "brosse",
-      "brosse",
-      "cerise"
+      "escalier",
+      "sartre",
+      "verglas",
+      "heidegger",
+      "définitif",
+      "cocotier",
+      "épuiser"
     ],
     [
-      "tabouret",
-      "savon",
-      "kiwi",
-      "poire",
-      "orange",
-      "maison",
-      "mangue"
+      "descriptive",
+      "distorsion",
+      "messie",
+      "rigoureuse",
+      "magenta",
+      "épochè",
+      "intentionnalité"
     ],
     [
-      "règle",
-      "abricot",
-      "manuel",
-      "lueur",
-      "globe",
-      "pêche",
-      "pêche"
+      "lancement",
+      "pompier",
+      "husserl",
+      "béatitude",
+      "analyser",
+      "dame",
+      "ninja"
     ],
     [
-      "ananas",
-      "fraise",
-      "règle",
-      "mangue",
-      "tasse",
-      "horloge",
-      "agenda"
+      "pouffer",
+      "perception",
+      "minestrone",
+      "civile",
+      "couverture",
+      "allemande",
+      "merleau-ponty"
     ],
     [
-      "coussin",
-      "table",
-      "pierre",
-      "mangue",
-      "fraise",
-      "ananas",
-      "pelle"
+      "iconoclaste",
+      "a-cappella",
+      "révision",
+      "fade",
+      "néoténie",
+      "expérience",
+      "rôder"
     ]
   ],
   "rowClues": [
-    5,
-    5,
+    2,
     1,
-    4,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
     2,
     4,
+    2,
     3,
-    4,
-    3,
-    3,
-    5
+    1
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "phénoménologie",
   "solution": [
     [
       false,
       true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
-      true
+      false,
+      true,
+      false
     ],
     [
       false,
@@ -117,24 +108,6 @@
     ],
     [
       false,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
       true,
@@ -143,14 +116,41 @@
       false
     ],
     [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
       true,
-      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 15
 }

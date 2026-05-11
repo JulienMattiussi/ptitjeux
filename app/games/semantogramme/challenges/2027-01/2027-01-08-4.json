@@ -5,105 +5,114 @@
   "height": 7,
   "words": [
     [
-      "vélo",
-      "vélo",
-      "voiture",
-      "autobus",
-      "brosse",
-      "timbre",
-      "camion"
+      "opposition",
+      "potier",
+      "banquier",
+      "sourire",
+      "analyser",
+      "wagon",
+      "subvertir"
     ],
     [
-      "remorque",
-      "brosse",
-      "crayon",
-      "agenda",
-      "mémoire",
-      "mémoire",
-      "savon"
+      "derrida",
+      "épuisette",
+      "questionner",
+      "décoder",
+      "gêne",
+      "française",
+      "éleveur"
     ],
     [
-      "pince",
-      "panier",
-      "étoile",
-      "rumeur",
-      "timbre",
-      "caravane",
-      "train"
+      "texte",
+      "cristalline",
+      "sanglant",
+      "canicule",
+      "remettre",
+      "théorique",
+      "croisière"
     ],
     [
-      "plafond",
-      "jardin",
-      "scooter",
-      "bus",
-      "maison",
-      "agenda",
-      "bateau"
+      "pendule",
+      "cravache",
+      "opinion",
+      "tabac",
+      "immaculé",
+      "naviguer",
+      "radicale"
     ],
     [
-      "manuel",
-      "bateau",
-      "fusée",
-      "voiture",
-      "fusée",
-      "plafond",
-      "taxi"
+      "classification",
+      "examiner",
+      "jeûne",
+      "révéler",
+      "sens",
+      "cul-de-four",
+      "picorer"
     ],
     [
-      "moto",
-      "ciseaux",
-      "bus",
-      "panier",
-      "train",
-      "maison",
-      "prière"
+      "résistant",
+      "installer",
+      "binaire",
+      "franchise",
+      "manche",
+      "postmoderne",
+      "méditation"
     ],
     [
-      "tramway",
-      "marteau",
-      "étagère",
-      "train",
-      "maison",
-      "autobus",
-      "brosse"
+      "critique",
+      "extincteur",
+      "cortège",
+      "célébrité",
+      "rapée",
+      "ambrée",
+      "bonus"
     ]
   ],
   "rowClues": [
-    5,
+    3,
+    4,
+    3,
     1,
+    3,
     2,
-    3,
-    5,
-    3,
-    3
+    1
   ],
   "colClues": [
     4,
-    2,
-    4,
-    4,
+    1,
     2,
     2,
-    4
+    3,
+    3,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "déconstruction",
   "solution": [
     [
       true,
-      true,
-      true,
-      true,
       false,
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       true,
       false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false,
-      false,
+      true,
+      true,
       false
     ],
     [
@@ -112,45 +121,36 @@
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
       true,
       true,
       false,
-      true
+      false
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
       false,
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 17
 }

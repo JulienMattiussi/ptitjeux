@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "crayon",
-      "bras",
-      "tournevis",
-      "gomme",
-      "bras",
-      "tapis",
-      "bras"
+      "cou",
+      "brun",
+      "bagage",
+      "métamorphique",
+      "cinématographie",
+      "fourreau",
+      "courbe"
     ],
     [
-      "doigt",
-      "coussin",
-      "rideau",
-      "coeur",
-      "bras",
-      "caillou",
-      "fusée"
+      "cyclique",
+      "fier",
+      "tripartite",
+      "épandre",
+      "littérature",
+      "girafe",
+      "diaphragme"
     ],
     [
-      "joue",
-      "mémoire",
-      "joue",
-      "caillou",
-      "globe",
-      "jambe",
-      "lèvre"
+      "canicule",
+      "sustenter",
+      "cacahuète",
+      "conviction",
+      "forêt",
+      "exiler",
+      "zèbre"
     ],
     [
-      "pied",
-      "timbre",
-      "étoile",
-      "mur",
-      "joue",
-      "panneau",
-      "dent"
+      "pelage",
+      "congo",
+      "sauteuse",
+      "olive",
+      "félicité",
+      "pellicule",
+      "pourrir"
     ],
     [
-      "peigne",
-      "étagère",
-      "rideau",
-      "bouche",
-      "devoir",
-      "carnet",
-      "chaise"
+      "arrivée",
+      "rare",
+      "morosité",
+      "unique",
+      "long",
+      "discrète",
+      "mammifère"
     ],
     [
-      "pied",
-      "serrure",
-      "tunnel",
-      "pétale",
-      "clé",
-      "étagère",
-      "chemin"
+      "sauvage",
+      "ériger",
+      "vasarely",
+      "commission",
+      "fard",
+      "mystérieux",
+      "dalmatien"
     ],
     [
-      "oreille",
-      "peau",
-      "rumeur",
-      "ciseaux",
-      "oreille",
-      "oreille",
-      "jambe"
+      "discret",
+      "faucon",
+      "endémique",
+      "rayure",
+      "protégé",
+      "palmes",
+      "cousin"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
+    1,
+    2,
+    2,
     4,
-    3,
-    1,
-    1,
+    2,
     5
   ],
   "colClues": [
-    5,
-    2,
+    4,
+    3,
     1,
     2,
-    4,
+    3,
     2,
-    4
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "okapi",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
@@ -99,20 +117,20 @@
     ],
     [
       true,
+      true,
       false,
       false,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
-      true,
       false,
       true,
       false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
@@ -120,37 +138,19 @@
       false,
       false,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true,
-      false,
-      false,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
+      true,
       true,
       true,
       false,
-      false,
-      true,
-      true,
       true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 18
 }

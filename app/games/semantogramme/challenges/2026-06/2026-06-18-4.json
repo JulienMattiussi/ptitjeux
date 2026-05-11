@@ -5,121 +5,112 @@
   "height": 7,
   "words": [
     [
-      "verglas",
-      "pluie",
-      "chaise",
-      "orage",
-      "livre",
-      "neige",
-      "ombre"
+      "refuge",
+      "éocène",
+      "raisonner",
+      "occident",
+      "évasion",
+      "épaulette",
+      "logique"
     ],
     [
-      "cadre",
-      "glace",
-      "plafond",
-      "vent",
-      "brouillard",
-      "rosée",
-      "glace"
+      "gaie",
+      "rationnel",
+      "aïeul",
+      "inopportun",
+      "congestion",
+      "voyage",
+      "tapis"
     ],
     [
-      "fusée",
-      "gomme",
-      "plafond",
-      "cadre",
-      "orage",
-      "tournevis",
-      "neige"
+      "résonner",
+      "fugué",
+      "mouvement",
+      "sorcière",
+      "développement",
+      "botticelli",
+      "antithèse"
     ],
     [
-      "verglas",
-      "banquier",
-      "soleil",
-      "arc-en-ciel",
-      "nuage",
-      "pétale",
-      "nuage"
+      "synthèse",
+      "liturgie",
+      "matérialiste",
+      "prise",
+      "opposer",
+      "palabrer",
+      "noire"
     ],
     [
-      "rosée",
-      "serrure",
-      "tonnerre",
-      "prison",
-      "arc-en-ciel",
-      "maison",
-      "chemin"
+      "festival",
+      "essaim",
+      "anche",
+      "apéro",
+      "feuillet",
+      "contradiction",
+      "thèse"
     ],
     [
-      "jardin",
-      "tapis",
-      "nuage",
-      "chemin",
-      "soleil",
-      "pétale",
-      "orage"
+      "spéculatif",
+      "humer",
+      "idéaliste",
+      "corail",
+      "hégel",
+      "philosophie",
+      "auditeur"
     ],
     [
-      "pluie",
-      "vent",
-      "rosée",
-      "tapis",
-      "gel",
-      "nuage",
-      "mémoire"
+      "isolé",
+      "plénitude",
+      "penser",
+      "historique",
+      "maghreb",
+      "paella",
+      "argumenter"
     ]
   ],
   "rowClues": [
-    4,
-    5,
     2,
-    5,
+    1,
     3,
     3,
-    5
+    2,
+    4,
+    3
   ],
   "colClues": [
-    4,
+    2,
+    1,
+    5,
+    1,
     3,
-    4,
-    3,
-    6,
-    3,
+    2,
     4
   ],
-  "themeWord": "météo",
+  "themeWord": "dialectique",
   "solution": [
     [
-      true,
-      true,
+      false,
       false,
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       true,
       false,
       true
@@ -136,21 +127,30 @@
     [
       false,
       false,
-      true,
+      false,
+      false,
       false,
       true,
-      false,
       true
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 27
+  "parMoves": 18
 }

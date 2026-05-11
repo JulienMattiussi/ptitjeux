@@ -5,114 +5,96 @@
   "height": 7,
   "words": [
     [
-      "nuage",
-      "enveloppe",
-      "règle",
-      "arc-en-ciel",
-      "brouillard",
-      "chaise",
-      "brouillard"
+      "écarter",
+      "rejeter",
+      "culotte",
+      "acacia",
+      "somnifère",
+      "rejet",
+      "aromate"
     ],
     [
-      "arc-en-ciel",
-      "soleil",
-      "silence",
-      "écran",
-      "nuage",
-      "rosée",
-      "arc-en-ciel"
+      "soutenu",
+      "cruel",
+      "rire",
+      "exiler",
+      "exclusion",
+      "oreille",
+      "athènes"
     ],
     [
-      "éclair",
-      "vent",
-      "coussin",
-      "nuage",
-      "neige",
-      "étoile",
-      "silence"
+      "enrouler",
+      "consanguin",
+      "antique",
+      "fermé",
+      "grec",
+      "feuillue",
+      "rectangulaire"
     ],
     [
-      "gel",
-      "glace",
-      "pince",
-      "éclair",
-      "timbre",
-      "écran",
-      "gel"
+      "asticot",
+      "carpe",
+      "jeudi",
+      "cloud",
+      "condamner",
+      "colline",
+      "ovale"
     ],
     [
-      "silence",
-      "panier",
-      "brouillard",
-      "panneau",
-      "caillou",
-      "porte",
-      "gomme"
+      "quai",
+      "isoler",
+      "musette",
+      "mairie",
+      "bannissement",
+      "imprimable",
+      "éprouver"
     ],
     [
-      "livre",
-      "verglas",
-      "verglas",
-      "pluie",
-      "brouillard",
-      "savon",
-      "mémoire"
+      "cuisine",
+      "ail",
+      "recoller",
+      "brasser",
+      "bannir",
+      "fait main",
+      "flageller"
     ],
     [
-      "tasse",
-      "lampe",
-      "porte",
-      "brouillard",
-      "mur",
-      "pierre",
-      "gel"
+      "tiré",
+      "exclure",
+      "tasser",
+      "social",
+      "frayeur",
+      "marginaliser",
+      "ostracisme"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     5,
-    4,
-    4,
-    1,
-    4,
-    2
-  ],
-  "colClues": [
-    4,
-    4,
     2,
-    5,
-    4,
+    1,
+    2,
     1,
     4
   ],
-  "themeWord": "météo",
+  "colClues": [
+    2,
+    4,
+    1,
+    2,
+    5,
+    2,
+    2
+  ],
+  "themeWord": "ostraciser",
   "solution": [
     [
       true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      true,
-      false,
       false
     ],
     [
@@ -120,7 +102,7 @@
       true,
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -129,15 +111,6 @@
       false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true,
       false,
       false
@@ -146,11 +119,38 @@
       false,
       false,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 18
 }

@@ -5,102 +5,93 @@
   "height": 7,
   "words": [
     [
-      "manuel",
-      "noir",
-      "ocre",
-      "blanc",
-      "miroir",
-      "plafond",
-      "mauve"
+      "vendre",
+      "onduler",
+      "mouvoir",
+      "évaporer",
+      "cardiologue",
+      "ciseau",
+      "ouvragé"
     ],
     [
-      "gris",
-      "doré",
-      "brun",
+      "élevage",
+      "portail",
+      "couper",
+      "carillonner",
+      "élevé",
+      "cathédrale",
+      "figuratif"
+    ],
+    [
       "pierre",
-      "étagère",
-      "balai",
-      "brun"
+      "rail",
+      "chenille",
+      "mandorle",
+      "demi-cercle",
+      "résonant",
+      "mardi"
     ],
     [
-      "livre",
-      "enveloppe",
-      "noir",
-      "manuel",
-      "parfum",
-      "panier",
-      "vert"
+      "complexe",
+      "sauvetage",
+      "hacker",
+      "architecture",
+      "jour",
+      "ésotérique",
+      "pyrénées"
     ],
     [
-      "bleu",
-      "violet",
-      "horloge",
-      "argenté",
-      "rouge",
-      "violet",
-      "prison"
+      "ronger",
+      "jugement",
+      "glouton",
+      "fronton",
+      "apôtre",
+      "grégaire",
+      "lent"
     ],
     [
-      "chaise",
-      "violet",
-      "chaise",
-      "pierre",
-      "mauve",
-      "noir",
-      "blanc"
+      "chimère",
+      "gothique",
+      "décorer",
+      "rayure",
+      "plateforme",
+      "orner",
+      "cil"
     ],
     [
-      "violet",
-      "tunnel",
-      "pince",
-      "vert",
-      "argenté",
-      "enveloppe",
-      "ocre"
-    ],
-    [
-      "argenté",
-      "manuel",
-      "table",
-      "jardin",
-      "rose",
-      "plafond",
-      "violet"
+      "ample",
+      "dollar",
+      "pulpeux",
+      "visière",
+      "trampoline",
+      "sculpture",
+      "barreau"
     ]
   ],
   "rowClues": [
+    1,
     4,
-    4,
-    2,
-    5,
-    4,
-    4,
-    3
+    3,
+    1,
+    3,
+    3,
+    1
   ],
   "colClues": [
-    4,
-    4,
+    1,
+    3,
+    1,
     3,
     3,
-    4,
-    2,
-    6
+    3,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "tympan",
   "solution": [
     [
       false,
-      true,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
@@ -108,49 +99,58 @@
     ],
     [
       false,
-      false,
       true,
       false,
       false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
       false,
+      true,
+      true,
       false,
-      true,
-      true,
-      true
+      false
     ],
     [
-      true,
-      false,
       false,
       true,
       true,
       false,
-      true
+      false,
+      true,
+      false
     ],
     [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 16
 }

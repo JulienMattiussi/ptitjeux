@@ -5,92 +5,137 @@
   "height": 7,
   "words": [
     [
-      "tunnel",
-      "chat",
-      "porte",
-      "ours",
-      "zèbre",
-      "miroir",
-      "ombre"
+      "gris",
+      "fouiller",
+      "frémir",
+      "banlieue",
+      "surpasser",
+      "sublime",
+      "triade"
     ],
     [
-      "cheval",
-      "banquier",
-      "lion",
-      "savon",
-      "mouton",
-      "renard",
-      "chien"
+      "voltiger",
+      "illusionner",
+      "haler",
+      "brochette",
+      "plénitude",
+      "mystique",
+      "spirituelle"
     ],
     [
-      "tunnel",
-      "pierre",
-      "savon",
-      "ours",
-      "ombre",
-      "cheval",
-      "loup"
+      "extravagant",
+      "malle",
+      "grêle",
+      "déferlement",
+      "assouplir",
+      "fraisier",
+      "absolu"
     ],
     [
-      "silence",
-      "girafe",
-      "tigre",
-      "écureuil",
-      "cheval",
-      "belette",
-      "écureuil"
+      "dépasser",
+      "percer",
+      "archet",
+      "pénétrer",
+      "théorie",
+      "génome",
+      "pulpeuse"
     ],
     [
-      "loup",
-      "tasse",
-      "tigre",
-      "agenda",
-      "ours",
-      "bureau",
-      "lion"
+      "transcendant",
+      "inouï",
+      "au-delà",
+      "manucure",
+      "spirituel",
+      "résistance",
+      "extraordinaire"
     ],
     [
-      "girafe",
-      "ciseaux",
-      "mouton",
-      "racine",
-      "chien",
-      "savon",
-      "étoile"
+      "classifier",
+      "comptoir",
+      "gratter",
+      "magnifier",
+      "élever",
+      "régler",
+      "pavaner"
     ],
     [
-      "lapin",
-      "lynx",
-      "fusée",
-      "chat",
-      "loup",
-      "tournevis",
-      "koala"
+      "pupitre",
+      "obscur",
+      "profond",
+      "humus",
+      "aigreur",
+      "savant",
+      "cru"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    1,
     3,
     5,
-    3,
-    6,
-    4,
-    3,
-    5
+    2,
+    1
   ],
   "colClues": [
-    4,
+    2,
+    2,
+    2,
+    2,
     3,
-    4,
-    4,
-    6,
-    3,
-    5
+    2,
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "transcender",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
@@ -98,59 +143,14 @@
       false
     ],
     [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
       false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 29
+  "parMoves": 16
 }

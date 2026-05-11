@@ -5,93 +5,111 @@
   "height": 7,
   "words": [
     [
-      "pêche",
-      "ciseaux",
-      "banane",
-      "plateau",
-      "horloge",
-      "fusée",
-      "tasse"
+      "géologique",
+      "mori",
+      "eucaryote",
+      "algue",
+      "fragment",
+      "taches",
+      "loi"
     ],
     [
-      "banquier",
-      "kiwi",
-      "sol",
-      "peigne",
-      "miroir",
-      "cadre",
-      "framboise"
+      "monumental",
+      "fossile",
+      "sombre",
+      "évolution",
+      "classeur",
+      "glaciation",
+      "sédiment"
     ],
     [
-      "pomme",
-      "pêche",
-      "melon",
-      "figue",
-      "melon",
-      "agenda",
-      "framboise"
+      "amère",
+      "abeille",
+      "roche",
+      "micacée",
+      "tatouer",
+      "détecter",
+      "pulsatile"
     ],
     [
-      "lampe",
-      "raisin",
-      "pastèque",
-      "melon",
-      "carnet",
-      "voisin",
-      "fraise"
+      "énorme",
+      "origine",
+      "inverser",
+      "précambrien",
+      "nostalgie",
+      "vétérinaire",
+      "vaillance"
     ],
     [
-      "melon",
-      "étagère",
-      "banquier",
-      "abricot",
-      "mangue",
-      "globe",
-      "ciseaux"
+      "péniche",
+      "girouette",
+      "espalier",
+      "consanguin",
+      "ère",
+      "bilan",
+      "ouvrir"
     ],
     [
-      "raisin",
-      "étagère",
-      "prière",
-      "ciseaux",
-      "pomme",
-      "livre",
-      "framboise"
+      "oxygène",
+      "duper",
+      "collectif",
+      "saumâtre",
+      "pouls",
+      "lointain",
+      "couturière"
     ],
     [
-      "peigne",
-      "serrure",
-      "orange",
-      "ananas",
-      "panneau",
-      "melon",
-      "raisin"
+      "préhistoire",
+      "décisif",
+      "ajuster",
+      "ancien",
+      "existence",
+      "foulure",
+      "aiguiser"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    6,
+    3,
     4,
-    3,
-    3,
-    4
+    1,
+    2,
+    1,
+    2,
+    2
   ],
   "colClues": [
-    4,
     3,
+    2,
+    2,
     4,
-    4,
-    3,
     1,
-    5
+    2,
+    1
   ],
-  "themeWord": "fruit",
+  "themeWord": "protérozoïque",
   "solution": [
     [
       true,
       false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       false,
@@ -101,34 +119,16 @@
       false,
       true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
-      true,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
       false,
-      false,
-      true,
       true,
       false,
       false
@@ -138,19 +138,19 @@
       false,
       false,
       false,
-      true,
       false,
-      true
+      true,
+      false
     ],
     [
-      false,
-      false,
-      true,
       true,
       false,
+      false,
       true,
-      true
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 15
 }

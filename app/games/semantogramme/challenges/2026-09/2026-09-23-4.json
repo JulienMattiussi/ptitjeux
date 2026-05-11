@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "framboise",
-      "prune",
-      "savon",
-      "pêche",
-      "citron",
-      "plafond",
-      "fraise"
+      "parole",
+      "roucouler",
+      "salaire",
+      "sobre",
+      "flou",
+      "étrier",
+      "gyrer"
     ],
     [
-      "pêche",
-      "fraise",
-      "miroir",
-      "melon",
-      "tasse",
-      "figue",
-      "enveloppe"
+      "pianissimo",
+      "grandiose",
+      "poupée",
+      "parler",
+      "bûcheron",
+      "cognac",
+      "concis"
     ],
     [
-      "kiwi",
-      "fraise",
-      "citron",
-      "jardin",
-      "livre",
-      "fraise",
-      "fraise"
+      "condenser",
+      "tranchant",
+      "cédrat",
+      "rempart",
+      "cravate",
+      "atelier",
+      "humiliation"
     ],
     [
-      "rumeur",
-      "melon",
-      "mûre",
-      "pince",
-      "pince",
-      "melon",
-      "lampe"
+      "sparte",
+      "bref",
+      "familiale",
+      "sec",
+      "silence",
+      "pneu",
+      "mâcher"
     ],
     [
-      "raisin",
-      "peigne",
-      "pince",
-      "framboise",
-      "mangue",
-      "ananas",
-      "pomme"
+      "aspirer",
+      "artistique",
+      "résonant",
+      "bronzée",
+      "banquette",
+      "mot",
+      "amphi"
     ],
     [
-      "miroir",
-      "miroir",
-      "framboise",
-      "banane",
-      "étagère",
-      "orange",
-      "poire"
+      "pastille",
+      "crabe",
+      "sentencieux",
+      "enchère",
+      "court",
+      "harpe",
+      "laver"
     ],
     [
-      "étoile",
-      "gomme",
-      "bureau",
-      "fusée",
-      "fraise",
-      "citron",
-      "melon"
+      "haler",
+      "imiter",
+      "pomme-de-terre",
+      "taire",
+      "expression",
+      "oscar",
+      "récupérer"
     ]
   ],
   "rowClues": [
-    5,
+    2,
+    2,
+    2,
     4,
-    5,
-    3,
-    5,
-    4,
-    3
+    1,
+    2,
+    2
   ],
   "colClues": [
-    4,
+    3,
+    2,
+    1,
     4,
     3,
-    4,
-    3,
-    6,
-    5
+    1,
+    1
   ],
-  "themeWord": "fruit",
+  "themeWord": "laconique",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      false,
       false,
       true
     ],
@@ -101,56 +110,47 @@
       true,
       true,
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       true,
-      true,
-      false,
       false,
       true,
-      true
+      true,
+      false,
+      false
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       false,
       true,
       false
     ],
     [
-      true,
       false,
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
-      true,
       false,
-      true,
-      true
+      false
     ],
     [
       false,
       false,
       false,
+      true,
+      true,
       false,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 29
+  "parMoves": 15
 }

@@ -5,132 +5,105 @@
   "height": 7,
   "words": [
     [
-      "abricot",
-      "devoir",
-      "prune",
-      "pomme",
-      "pomme",
-      "lueur",
-      "règle"
+      "troupeau",
+      "mâle",
+      "envoûter",
+      "alambic",
+      "hausser",
+      "sablier",
+      "craintif"
     ],
     [
-      "raisin",
-      "abricot",
-      "horloge",
-      "figue",
-      "cerise",
-      "framboise",
-      "pastèque"
+      "agile",
+      "flash",
+      "bugle",
+      "mouiller",
+      "pyrénées",
+      "râpe",
+      "ventre"
     ],
     [
-      "pastèque",
-      "gomme",
-      "melon",
-      "raisin",
-      "figue",
-      "pierre",
-      "cassis"
+      "varan",
+      "accueillir",
+      "mie",
+      "montagne",
+      "enfance",
+      "ail",
+      "baver"
     ],
     [
-      "chemin",
-      "mangue",
-      "banquier",
-      "cerise",
-      "cassis",
-      "kiwi",
-      "pastèque"
+      "fouet",
+      "élu",
+      "récompense",
+      "reblochon",
+      "vif",
+      "fraisée",
+      "standard"
     ],
     [
-      "plateau",
-      "melon",
-      "marteau",
-      "ananas",
-      "timbre",
-      "poire",
-      "écran"
+      "président",
+      "paléozoïque",
+      "cabine",
+      "récitatif",
+      "scénario",
+      "graver",
+      "brun"
     ],
     [
-      "pince",
-      "mur",
-      "panneau",
-      "abricot",
-      "banane",
-      "prune",
-      "table"
+      "pièce",
+      "sacre",
+      "mammifère",
+      "pelage",
+      "récoltant",
+      "femelle",
+      "composition"
     ],
     [
-      "melon",
-      "ombre",
-      "voisin",
-      "lampe",
-      "crayon",
-      "étoile",
-      "tabouret"
+      "spontanée",
+      "aspersion",
+      "rocher",
+      "gracieux",
+      "bondir",
+      "grimper",
+      "escrime"
     ]
   ],
   "rowClues": [
-    4,
-    6,
-    5,
-    5,
-    3,
-    3,
-    1
-  ],
-  "colClues": [
-    4,
     3,
     2,
-    6,
-    5,
-    4,
-    3
+    1,
+    1,
+    1,
+    3,
+    4
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    2,
+    1,
+    2,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "chamois",
   "solution": [
     [
       true,
-      false,
-      true,
-      true,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true,
       false,
       true
     ],
     [
+      true,
+      false,
+      false,
       false,
       true,
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
       false
     ],
     [
@@ -138,19 +111,46 @@
       false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 15
 }

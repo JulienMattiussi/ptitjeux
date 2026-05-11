@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "vis",
-      "balai",
-      "globe",
-      "casserole",
-      "bureau",
-      "casserole",
-      "assiette"
+      "remise",
+      "nectar",
+      "tigre",
+      "orné",
+      "caractère",
+      "genou",
+      "fresque"
     ],
     [
-      "étagère",
-      "plat",
-      "assiette",
-      "casserole",
-      "évier",
-      "pince",
-      "tabouret"
-    ],
-    [
-      "tapis",
-      "évier",
-      "marteau",
-      "cuillère",
-      "horloge",
-      "brosse",
-      "tasse"
-    ],
-    [
+      "mosaïque",
       "pierre",
-      "livre",
-      "assiette",
-      "assiette",
-      "savon",
-      "couteau",
-      "couteau"
+      "architecture",
+      "gothique",
+      "central",
+      "révéler",
+      "cantaloup"
     ],
     [
-      "casserole",
-      "épice",
-      "sol",
-      "étagère",
-      "four",
-      "casserole",
-      "évier"
+      "guichet",
+      "autel",
+      "cul-de-four",
+      "enraciner",
+      "éclipse",
+      "demi-cercle",
+      "fortune"
     ],
     [
-      "voisin",
-      "pétale",
-      "timbre",
-      "tablier",
-      "tablier",
-      "silence",
-      "plat"
+      "venin",
+      "respiration",
+      "décoration",
+      "bulle",
+      "sacrée",
+      "roulant",
+      "galerie"
     ],
     [
-      "crayon",
-      "couteau",
-      "tunnel",
-      "tabouret",
-      "évier",
-      "four",
-      "épice"
+      "cathédrale",
+      "église",
+      "frette",
+      "judd",
+      "grêle",
+      "liturgique",
+      "fruit"
+    ],
+    [
+      "coulisse",
+      "gymnase",
+      "choeur",
+      "agenouiller",
+      "roman",
+      "arrondie",
+      "briquer"
+    ],
+    [
+      "peigne",
+      "réservé",
+      "algérie",
+      "voûte",
+      "esquisser",
+      "classification",
+      "mère"
     ]
   ],
   "rowClues": [
-    3,
-    4,
     2,
-    4,
     5,
     3,
-    4
+    2,
+    3,
+    3,
+    1
   ],
   "colClues": [
-    1,
-    4,
     2,
-    5,
+    3,
     4,
-    4,
-    5
+    3,
+    3,
+    3,
+    1
   ],
-  "themeWord": "cuisine",
+  "themeWord": "abside",
   "solution": [
     [
       false,
@@ -94,11 +94,11 @@
       false,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
-      false,
+      true,
       true,
       true,
       true,
@@ -109,48 +109,48 @@
     [
       false,
       true,
-      false,
       true,
       false,
       false,
+      true,
       false
     ],
     [
       false,
       false,
       true,
-      true,
       false,
       true,
-      true
+      false,
+      false
     ],
     [
       true,
       true,
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true,
       true,
-      true
+      false
     ],
     [
       false,
       false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

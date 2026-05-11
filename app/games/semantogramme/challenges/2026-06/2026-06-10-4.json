@@ -5,94 +5,130 @@
   "height": 7,
   "words": [
     [
-      "renard",
-      "mouton",
-      "zèbre",
-      "girafe",
-      "belette",
-      "pétale",
-      "plafond"
-    ],
-    [
-      "sol",
-      "souris",
-      "pelle",
-      "lynx",
-      "chat",
-      "manuel",
-      "crayon"
-    ],
-    [
-      "ombre",
-      "table",
-      "cadre",
-      "agenda",
-      "lapin",
-      "souris",
-      "lynx"
-    ],
-    [
-      "belette",
-      "crayon",
-      "vis",
-      "serrure",
-      "chien",
-      "lion",
-      "vache"
-    ],
-    [
-      "lion",
-      "enveloppe",
-      "pierre",
-      "écran",
-      "parfum",
-      "renard",
-      "cheval"
-    ],
-    [
-      "ours",
-      "lion",
+      "à-pain",
+      "inoccupé",
+      "rugosité",
+      "rhubarbe",
       "tournevis",
-      "chemin",
-      "gomme",
-      "racine",
-      "ours"
+      "romantique",
+      "mètre"
     ],
     [
-      "panda",
-      "mur",
-      "crayon",
-      "agenda",
-      "lueur",
-      "globe",
-      "tabouret"
+      "mouvement",
+      "familier",
+      "cirrhose",
+      "parcelle",
+      "exotique",
+      "perpétuel",
+      "voyager"
+    ],
+    [
+      "glouton",
+      "algérie",
+      "mondrian",
+      "singulier",
+      "intégrité",
+      "gérôme",
+      "premier"
+    ],
+    [
+      "delacroix",
+      "caravane",
+      "chant",
+      "fumée",
+      "réserve",
+      "cro-magnon",
+      "rothko"
+    ],
+    [
+      "mosquée",
+      "courage",
+      "candeur",
+      "matcha",
+      "turquie",
+      "ouvragé",
+      "possessif"
+    ],
+    [
+      "marée",
+      "colonial",
+      "orient",
+      "do",
+      "aileron",
+      "cheveu",
+      "peindre"
+    ],
+    [
+      "inusité",
+      "matisse",
+      "puéril",
+      "harem",
+      "nature",
+      "féminine",
+      "sensuel"
     ]
   ],
   "rowClues": [
-    5,
+    1,
     3,
+    2,
+    2,
+    2,
     3,
-    4,
-    3,
-    3,
-    1
+    3
   ],
   "colClues": [
-    5,
     3,
+    4,
+    1,
     1,
     2,
-    4,
-    3,
-    4
+    2,
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "orientalisme",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
-      true,
+      false,
+      false,
+      false,
       true,
       false,
       false
@@ -100,57 +136,21 @@
     [
       false,
       true,
-      false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       false,
       false,
       true
     ],
     [
+      false,
+      true,
+      false,
       true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

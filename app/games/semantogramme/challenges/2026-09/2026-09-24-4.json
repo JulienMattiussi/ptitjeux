@@ -5,94 +5,103 @@
   "height": 7,
   "words": [
     [
-      "pétale",
-      "épice",
-      "pierre",
-      "fourchette",
-      "évier",
-      "fourchette",
-      "plateau"
+      "tisonner",
+      "étrier",
+      "limbe",
+      "continental",
+      "détonation",
+      "pliante",
+      "humain"
     ],
     [
-      "four",
-      "tablier",
-      "verre",
-      "pelle",
-      "chaise",
-      "pétale",
-      "farine"
+      "climat",
+      "ère",
+      "apparition",
+      "arachide",
+      "tempéré",
+      "évolution",
+      "rebondissement"
     ],
     [
-      "lueur",
-      "pelle",
-      "rideau",
-      "panneau",
-      "cuillère",
-      "miroir",
-      "évier"
+      "récent",
+      "géologique",
+      "copeau",
+      "colonie",
+      "carillon",
+      "choucroute",
+      "tropical"
     ],
     [
-      "cadre",
-      "ombre",
-      "cuillère",
-      "panier",
-      "rumeur",
-      "recette",
-      "frigo"
+      "préhistoire",
+      "gamin",
+      "tremolo",
+      "fossile",
+      "tertiaire",
+      "cantilène",
+      "mammifère"
     ],
     [
-      "clé",
-      "spatule",
-      "farine",
-      "devoir",
-      "globe",
-      "tablier",
-      "sol"
+      "isolée",
+      "chandelle",
+      "cartable",
+      "fièvre",
+      "gala",
+      "glaciation",
+      "bulbe"
     ],
     [
-      "tournevis",
-      "poêle",
-      "poêle",
-      "four",
-      "poêle",
-      "peigne",
-      "fusée"
+      "fantasme",
+      "créatif",
+      "éventer",
+      "quaternaire",
+      "paléogène",
+      "logique",
+      "fastoyer"
     ],
     [
-      "balai",
-      "fourchette",
-      "spatule",
-      "four",
-      "fourchette",
-      "cuillère",
-      "évier"
+      "sédiment",
+      "pissarro",
+      "jean",
+      "orbe",
+      "néogène",
+      "deuil",
+      "anneau"
     ]
   ],
   "rowClues": [
-    4,
-    4,
     2,
-    3,
+    5,
     3,
     4,
-    6
+    1,
+    2,
+    2
   ],
   "colClues": [
+    4,
+    2,
     1,
-    5,
-    5,
     3,
     4,
-    4,
-    4
+    2,
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "cénozoïque",
   "solution": [
     [
       false,
-      true,
+      false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       true,
       true,
       false
@@ -100,9 +109,18 @@
     [
       true,
       true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       false,
+      true,
+      true,
       false,
       true
     ],
@@ -110,24 +128,6 @@
       false,
       false,
       false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       true,
@@ -135,22 +135,22 @@
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       true,
       false,
       false
     ],
     [
+      true,
+      false,
+      false,
       false,
       true,
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 19
 }

@@ -5,119 +5,92 @@
   "height": 7,
   "words": [
     [
-      "livre",
-      "indigo",
-      "orange",
-      "étoile",
-      "argenté",
-      "orange",
-      "agenda"
+      "harmonieuse",
+      "herbe",
+      "union",
+      "baisotter",
+      "régner",
+      "amère",
+      "rechercher"
     ],
     [
-      "panier",
-      "brun",
-      "plateau",
-      "blanc",
-      "silence",
-      "blanc",
-      "carnet"
+      "inde",
+      "geler",
+      "belvédère",
+      "créer",
+      "dérailleur",
+      "musique",
+      "commencer"
     ],
     [
-      "blanc",
-      "pétale",
-      "étoile",
-      "bleu",
-      "doré",
-      "bleu",
-      "pince"
+      "agacer",
+      "roulé",
+      "tronquer",
+      "ondulé",
+      "équilibre",
+      "tian",
+      "suinter"
     ],
     [
-      "mur",
-      "doré",
-      "rouge",
-      "vis",
-      "noir",
-      "prière",
-      "jaune"
+      "industrie",
+      "effrayante",
+      "caricature",
+      "préserver",
+      "cible",
+      "composé",
+      "sahara"
     ],
     [
-      "pelle",
-      "globe",
-      "lueur",
-      "miroir",
-      "jaune",
-      "chaise",
-      "orange"
+      "tabac",
+      "cohérence",
+      "précession",
+      "parfaite",
+      "précéder",
+      "établir",
+      "nectar"
     ],
     [
-      "enveloppe",
-      "étoile",
-      "vert",
-      "bleu",
-      "horloge",
-      "pince",
-      "prière"
+      "maintenir",
+      "intuition",
+      "concorde",
+      "gousse",
+      "bernin",
+      "gnome",
+      "consonance"
     ],
     [
-      "orange",
-      "règle",
-      "jaune",
-      "parfum",
-      "brun",
-      "vert",
-      "rouge"
+      "expression",
+      "paix",
+      "maternité",
+      "velouté",
+      "symétrie",
+      "sauce",
+      "gusset"
     ]
   ],
   "rowClues": [
     4,
+    2,
+    1,
+    1,
     3,
-    4,
-    4,
-    2,
-    2,
-    5
+    3,
+    2
   ],
   "colClues": [
     2,
+    2,
+    2,
     3,
-    4,
     3,
-    5,
-    4,
-    3
+    2,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "harmonie",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
@@ -128,18 +101,36 @@
       false,
       false,
       false,
-      false,
       true,
       false,
-      true
+      true,
+      false
     ],
     [
       false,
       false,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
       false
     ],
     [
@@ -147,10 +138,19 @@
       false,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

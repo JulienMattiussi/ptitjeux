@@ -5,141 +5,114 @@
   "height": 7,
   "words": [
     [
-      "belette",
-      "girafe",
-      "panda",
-      "zèbre",
-      "vache",
-      "koala",
-      "tasse"
+      "roux",
+      "courber",
+      "candeur",
+      "mijoter",
+      "fontaine",
+      "aride",
+      "sauce"
     ],
     [
-      "ciseaux",
-      "pétale",
-      "vis",
-      "écureuil",
-      "koala",
-      "coussin",
-      "castor"
+      "éperonner",
+      "diaphragme",
+      "pesant",
+      "route",
+      "auteur",
+      "nouveauté",
+      "champignon"
     ],
     [
-      "banquier",
-      "loup",
-      "maison",
-      "devoir",
-      "jardin",
-      "porte",
-      "serrure"
+      "miel",
+      "cerveau",
+      "préparer",
+      "ramure",
+      "gambade",
+      "iglou",
+      "alimenter"
     ],
     [
-      "rideau",
-      "pierre",
-      "écureuil",
-      "castor",
-      "tigre",
-      "cheval",
-      "jardin"
+      "traditionnelle",
+      "lacune",
+      "frère",
+      "bouillon",
+      "carotte",
+      "inscription",
+      "nourriture"
     ],
     [
-      "tournevis",
-      "ours",
-      "brosse",
-      "pelle",
-      "cheval",
-      "tapis",
-      "lueur"
+      "familiale",
+      "streptocoque",
+      "épanoui",
+      "savourer",
+      "allégresse",
+      "classique",
+      "cuisine"
     ],
     [
-      "panneau",
-      "cheval",
-      "lapin",
-      "brosse",
-      "lynx",
-      "chat",
-      "horloge"
+      "free",
+      "digestif",
+      "sargasse",
+      "laver",
+      "radieux",
+      "veau",
+      "française"
     ],
     [
-      "lion",
-      "peigne",
-      "brosse",
-      "lynx",
-      "mémoire",
-      "marteau",
-      "tapis"
+      "pertinent",
+      "crémeuse",
+      "rustique",
+      "faucon",
+      "soudure",
+      "praline",
+      "colle"
     ]
   ],
   "rowClues": [
-    6,
     3,
     1,
+    1,
+    3,
     4,
     2,
-    4,
     2
   ],
   "colClues": [
+    3,
+    1,
     2,
-    4,
     3,
-    4,
-    5,
-    3,
-    1
+    1,
+    2,
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "blanquette",
   "solution": [
     [
       true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
-      true,
       false,
       false,
       false,
       false,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
       false
     ],
     [
@@ -147,10 +120,37 @@
       false,
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

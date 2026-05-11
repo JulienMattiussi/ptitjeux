@@ -5,104 +5,131 @@
   "height": 7,
   "words": [
     [
-      "peigne",
-      "rivage",
-      "tasse",
-      "corail",
-      "rivage",
-      "écaille",
-      "saumon"
+      "joyeux",
+      "transparenter",
+      "sauce",
+      "mijoter",
+      "numéro",
+      "marin",
+      "crémeuse"
     ],
     [
-      "écaille",
-      "gomme",
-      "crabe",
-      "panneau",
-      "écaille",
-      "sable",
-      "bureau"
+      "venise",
+      "cuire",
+      "parka",
+      "absence",
+      "française",
+      "saler",
+      "inoxydable"
     ],
     [
-      "agenda",
-      "bureau",
-      "voisin",
-      "pelle",
-      "prison",
-      "sable",
-      "poisson"
+      "farine",
+      "épaissir",
+      "onctueuse",
+      "arqué",
+      "salinité",
+      "coulisse",
+      "visiter"
     ],
     [
-      "vague",
-      "mur",
-      "balai",
-      "méduse",
-      "saumon",
-      "coussin",
-      "voile"
+      "gratin",
+      "tressée",
+      "imposte",
+      "soufflé",
+      "classique",
+      "tenir",
+      "compteur"
     ],
     [
-      "phare",
-      "voisin",
-      "sardine",
-      "plage",
-      "racine",
-      "carnet",
-      "écaille"
+      "chrono",
+      "pourvoir",
+      "blanche",
+      "obscure",
+      "rang",
+      "roux",
+      "grosse"
     ],
     [
-      "écaille",
-      "crayon",
-      "écume",
-      "rumeur",
-      "plage",
-      "tasse",
-      "plateau"
+      "transmigrer",
+      "capter",
+      "coup",
+      "sorbier",
+      "gonfler",
+      "maroquinerie",
+      "muscade"
     ],
     [
-      "tapis",
-      "sable",
-      "globe",
-      "écaille",
-      "cadre",
-      "peigne",
-      "corail"
+      "envahissant",
+      "pinson",
+      "essuyer",
+      "étroit",
+      "gabriel",
+      "paroi",
+      "lasagne"
     ]
   ],
   "rowClues": [
-    5,
-    4,
-    2,
-    4,
-    4,
     3,
-    3
+    2,
+    3,
+    3,
+    2,
+    1,
+    1
   ],
   "colClues": [
-    4,
+    2,
     2,
     3,
-    4,
-    4,
-    3,
-    5
+    2,
+    2,
+    1,
+    3
   ],
-  "themeWord": "mer",
+  "themeWord": "béchamel",
   "solution": [
     [
       false,
-      true,
       false,
       true,
       true,
-      true,
+      false,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
     ],
     [
       true,
       false,
-      true,
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true,
       false
     ],
@@ -112,45 +139,18 @@
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
       false,
       true
     ],
     [
-      true,
-      false,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
       false,
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 15
 }

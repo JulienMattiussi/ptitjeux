@@ -5,141 +5,132 @@
   "height": 7,
   "words": [
     [
-      "foudre",
-      "silence",
-      "pluie",
-      "vis",
-      "neige",
-      "pince",
-      "livre"
+      "effiler",
+      "opium",
+      "cultivé",
+      "sauvage",
+      "pouvoir",
+      "amphibien",
+      "éphémère"
     ],
     [
-      "tabouret",
-      "rosée",
-      "miroir",
-      "rosée",
-      "sol",
-      "jardin",
-      "rideau"
+      "noir",
+      "surgir",
+      "cendrier",
+      "spiraler",
+      "pétale",
+      "huile",
+      "cépage"
     ],
     [
-      "devoir",
-      "tunnel",
-      "tonnerre",
-      "tonnerre",
-      "tasse",
-      "soleil",
-      "ciseaux"
+      "lente",
+      "asphyxie",
+      "capsule",
+      "cantique",
+      "délicat",
+      "tracer",
+      "gouache"
     ],
     [
-      "foudre",
-      "tempête",
-      "brouillard",
-      "peigne",
-      "glace",
-      "étoile",
-      "écran"
+      "tige",
+      "champ",
+      "culbuter",
+      "tête",
+      "briser",
+      "planète",
+      "jaguar"
     ],
     [
-      "neige",
-      "parfum",
-      "pluie",
-      "orage",
-      "verglas",
-      "étoile",
-      "verglas"
+      "somnifère",
+      "soulever",
+      "rouge",
+      "aplanir",
+      "jante",
+      "abriter",
+      "idyllique"
     ],
     [
-      "brouillard",
-      "coussin",
-      "rosée",
-      "règle",
-      "timbre",
-      "pluie",
-      "racine"
+      "entonner",
+      "fragile",
+      "morphine",
+      "rester",
+      "fontaine",
+      "gâteau",
+      "sourdre"
     ],
     [
-      "cadre",
-      "soleil",
-      "orage",
-      "mur",
-      "gel",
-      "prière",
-      "neige"
+      "fleur",
+      "concis",
+      "chemise",
+      "plante",
+      "matisse",
+      "décoratif",
+      "humilité"
     ]
   ],
   "rowClues": [
+    4,
     3,
     2,
-    3,
-    4,
-    5,
-    3,
-    4
+    2,
+    2,
+    2,
+    3
   ],
   "colClues": [
     4,
     3,
-    6,
-    3,
     4,
     2,
-    2
+    2,
+    2,
+    1
   ],
-  "themeWord": "météo",
+  "themeWord": "pavot",
   "solution": [
     [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
       true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
@@ -147,10 +138,19 @@
       true,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
-      true
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 18
 }

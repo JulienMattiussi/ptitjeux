@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "manuel",
-      "brosse",
-      "ombre",
-      "renard",
-      "gomme",
-      "bureau",
-      "pétale"
+      "unique",
+      "rare",
+      "banc",
+      "bannissement",
+      "volume",
+      "pâle",
+      "branchies"
     ],
     [
-      "tapis",
-      "tasse",
-      "serrure",
-      "panneau",
-      "belette",
-      "chat",
-      "vis"
+      "pression",
+      "pulpeuse",
+      "enterré",
+      "condor",
+      "amphibien",
+      "bourrade",
+      "tablette"
     ],
     [
-      "ombre",
-      "panneau",
-      "tapis",
-      "jardin",
-      "banquier",
-      "loup",
-      "tigre"
+      "pénétrer",
+      "eau",
+      "délicatesse",
+      "salamandre",
+      "espalier",
+      "saturne",
+      "naître"
     ],
     [
-      "tigre",
-      "loup",
-      "lynx",
-      "prière",
-      "crayon",
-      "écureuil",
-      "girafe"
+      "lèche-bottes",
+      "protégé",
+      "aquarium",
+      "moment",
+      "nez",
+      "changer",
+      "arthrose"
     ],
     [
-      "zèbre",
-      "pelle",
-      "table",
-      "plafond",
-      "écran",
-      "panda",
-      "castor"
+      "néoténie",
+      "mystérieux",
+      "régénération",
+      "mot",
+      "inférieur",
+      "sentimental",
+      "aquatique"
     ],
     [
-      "koala",
-      "vache",
-      "lynx",
-      "chien",
-      "mur",
-      "règle",
-      "zèbre"
+      "tomate",
+      "connecté",
+      "gestationnel",
+      "fiesta",
+      "massive",
+      "girolle",
+      "curieux"
     ],
     [
-      "timbre",
-      "ours",
-      "balai",
-      "cheval",
-      "tigre",
-      "parfum",
-      "souris"
+      "mexique",
+      "flaubert",
+      "élagage",
+      "rose",
+      "épiler",
+      "festoyer",
+      "impact"
     ]
   ],
   "rowClues": [
+    4,
     1,
     2,
     2,
-    5,
-    3,
-    5,
-    4
+    4,
+    1,
+    2
   ],
   "colClues": [
     3,
-    3,
-    2,
-    3,
-    2,
     4,
-    5
+    2,
+    2,
+    1,
+    1,
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "axolotl",
   "solution": [
     [
+      true,
+      true,
       false,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true,
       false,
@@ -99,58 +117,40 @@
     ],
     [
       false,
-      false,
-      false,
-      false,
       true,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       true,
       true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
       true
     ],
     [
       false,
-      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

@@ -5,92 +5,128 @@
   "height": 7,
   "words": [
     [
-      "ombre",
-      "souris",
-      "ours",
-      "enveloppe",
-      "ciseaux",
-      "pelle",
-      "tunnel"
+      "larme",
+      "célèbre",
+      "coton",
+      "emblème",
+      "oncle",
+      "lapis",
+      "astronomique"
     ],
     [
-      "mouton",
-      "plateau",
-      "lion",
-      "prière",
-      "souris",
-      "livre",
-      "banquier"
+      "verticale",
+      "opposé",
+      "analogue",
+      "thermomètre",
+      "regarder",
+      "fronton",
+      "hériter"
     ],
     [
-      "banquier",
-      "marteau",
-      "carnet",
-      "plateau",
-      "lapin",
-      "belette",
-      "chat"
+      "aubergine",
+      "rapacité",
+      "ambitionner",
+      "soleil",
+      "citron",
+      "société",
+      "apogée"
     ],
     [
-      "serrure",
-      "panier",
-      "ours",
-      "koala",
-      "chat",
-      "tournevis",
-      "voisin"
+      "fougue",
+      "paléontologie",
+      "lecteur",
+      "tennis",
+      "monter",
+      "consommé",
+      "siège"
     ],
     [
-      "clé",
-      "castor",
-      "cheval",
-      "belette",
-      "tigre",
-      "chaise",
-      "timbre"
+      "gants",
+      "ciel",
+      "point",
+      "audubon",
+      "chinois",
+      "littéraire",
+      "meurtre"
     ],
     [
-      "devoir",
-      "maison",
-      "panda",
-      "girafe",
-      "porte",
-      "règle",
-      "belette"
+      "plus-haut",
+      "senteur",
+      "haut",
+      "culminer",
+      "astre",
+      "midi",
+      "observateur"
     ],
     [
-      "mouton",
-      "timbre",
-      "tunnel",
-      "chien",
-      "caillou",
-      "castor",
-      "lapin"
+      "fleuve",
+      "piaf",
+      "imprimerie",
+      "allergie",
+      "atteindre",
+      "caravage",
+      "solide"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
-    3,
-    4,
-    3,
-    4
+    2,
+    2,
+    1,
+    2,
+    6,
+    1
   ],
   "colClues": [
     2,
+    3,
     2,
-    5,
-    4,
-    4,
     2,
+    3,
+    1,
     3
   ],
-  "themeWord": "animal",
+  "themeWord": "zénith",
   "solution": [
     [
       false,
       true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false,
@@ -101,16 +137,7 @@
       true,
       false,
       true,
-      false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true,
       true,
       true
@@ -118,39 +145,12 @@
     [
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

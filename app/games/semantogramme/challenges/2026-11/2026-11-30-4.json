@@ -5,109 +5,100 @@
   "height": 7,
   "words": [
     [
-      "plateau",
-      "table",
-      "plat",
-      "couteau",
-      "casserole",
-      "table",
-      "banquier"
+      "sextant",
+      "araignée",
+      "heure",
+      "voix",
+      "sentir",
+      "attaquer",
+      "voyager"
     ],
     [
-      "farine",
-      "chemin",
-      "poêle",
-      "frigo",
-      "prière",
-      "étagère",
-      "plat"
+      "auditif",
+      "archaïque",
+      "liqueur",
+      "spinoza",
+      "énorme",
+      "lointaine",
+      "entendre"
     ],
     [
-      "globe",
-      "cuillère",
-      "plafond",
-      "panneau",
-      "chaise",
-      "étagère",
-      "farine"
+      "noble",
+      "rare",
+      "capter",
+      "tendre",
+      "fermier",
+      "vertu",
+      "distinguer"
     ],
     [
-      "chemin",
-      "balai",
-      "recette",
-      "mémoire",
-      "tablier",
-      "farine",
-      "tablier"
+      "audible",
+      "délivrer",
+      "isolé",
+      "écouter",
+      "spontané",
+      "classique",
+      "husserl"
     ],
     [
-      "casserole",
-      "rideau",
-      "fourchette",
-      "fourchette",
-      "banquier",
-      "assiette",
-      "tournevis"
+      "oreille",
+      "allitération",
+      "téléphone",
+      "attentif",
+      "littéraire",
+      "pointage",
+      "secours"
     ],
     [
-      "évier",
-      "ombre",
-      "frigo",
-      "plat",
-      "casserole",
-      "banquier",
-      "plateau"
+      "générosité",
+      "fidélité",
+      "soutenu",
+      "merveille",
+      "orbe",
+      "fugué",
+      "discerner"
     ],
     [
-      "cuillère",
-      "cuillère",
-      "pelle",
-      "casserole",
-      "épice",
-      "four",
-      "plat"
+      "relever",
+      "piémont",
+      "visseuse",
+      "sénat",
+      "armer",
+      "percevoir",
+      "son"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    4,
+    5,
+    3,
+    3,
     2,
-    4,
-    4,
-    4,
-    6
+    2
   ],
   "colClues": [
     4,
     2,
-    5,
-    5,
+    2,
     4,
-    3,
+    1,
+    2,
     4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "ouïr",
   "solution": [
     [
       false,
       false,
+      false,
       true,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
       true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -116,18 +107,18 @@
       true
     ],
     [
-      false,
-      false,
-      true,
-      false,
       true,
       true,
+      true,
+      true,
+      false,
+      false,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       true,
       false,
       true,
@@ -136,21 +127,30 @@
     [
       true,
       false,
-      true,
+      false,
       true,
       true,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
       false,
       true,
-      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 27
+  "parMoves": 19
 }

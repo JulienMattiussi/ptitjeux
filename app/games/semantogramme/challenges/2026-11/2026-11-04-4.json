@@ -5,120 +5,93 @@
   "height": 7,
   "words": [
     [
-      "rose",
-      "règle",
-      "vis",
-      "blanc",
-      "argenté",
-      "ciseaux",
-      "agenda"
+      "contempler",
+      "repos",
+      "casse-croûte",
+      "gusset",
+      "tranquillité",
+      "enseignement",
+      "pondre"
     ],
     [
-      "brosse",
-      "orange",
-      "jaune",
-      "parfum",
-      "mauve",
-      "noir",
-      "noir"
+      "familiale",
+      "matraquer",
+      "éloigné",
+      "paix",
+      "gants",
+      "polype",
+      "douceur"
     ],
     [
-      "tasse",
-      "doré",
-      "carnet",
-      "serrure",
-      "marteau",
-      "jaune",
-      "cadre"
+      "absolue",
+      "teckel",
+      "envoûtante",
+      "métaphysique",
+      "tousser",
+      "reposant",
+      "calme"
     ],
     [
-      "rose",
-      "vis",
-      "jaune",
-      "chaise",
-      "bleu",
-      "enveloppe",
-      "pétale"
+      "mail",
+      "éradiquer",
+      "apaiser",
+      "douleur",
+      "sérénité",
+      "profonde",
+      "obscur"
     ],
     [
-      "manuel",
-      "tasse",
-      "rose",
-      "turquoise",
-      "crayon",
-      "lueur",
-      "tapis"
+      "tranquille",
+      "reposer",
+      "fougue",
+      "régner",
+      "modèle",
+      "épancher",
+      "cognitive"
     ],
     [
-      "racine",
-      "violet",
-      "beige",
-      "plateau",
-      "timbre",
-      "table",
-      "jaune"
+      "béatitude",
+      "verdâtre",
+      "sapiens",
+      "tas",
+      "détergent",
+      "vinification",
+      "amasser"
     ],
     [
-      "vert",
-      "orange",
-      "noir",
-      "argenté",
-      "rouge",
-      "gris",
-      "timbre"
+      "avocat",
+      "rhubarbe",
+      "parlement",
+      "silence",
+      "rameur",
+      "sereine",
+      "théâtral"
     ]
   ],
   "rowClues": [
     3,
-    5,
+    2,
     2,
     3,
-    2,
     3,
-    6
-  ],
-  "colClues": [
-    3,
-    4,
-    5,
-    3,
-    4,
-    3,
+    1,
     2
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    4,
+    2,
+    1,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "quiétude",
   "solution": [
     [
       true,
-      false,
-      false,
-      true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true,
       false,
@@ -127,30 +100,57 @@
     [
       false,
       false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      false,
       false,
       false,
       true
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true,
       true,
+      false
+    ],
+    [
       true,
       true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

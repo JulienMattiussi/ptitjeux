@@ -5,141 +5,141 @@
   "height": 7,
   "words": [
     [
-      "gris",
-      "gris",
-      "mauve",
-      "ciseaux",
-      "maison",
-      "enveloppe",
-      "gris"
+      "corné",
+      "lewitt",
+      "pure",
+      "animal",
+      "réservé",
+      "algorithme",
+      "péripétie"
     ],
     [
-      "argenté",
-      "ciseaux",
-      "gomme",
-      "peigne",
-      "savon",
-      "violet",
-      "rouge"
+      "chaussette",
+      "bretagne",
+      "symphonique",
+      "noir",
+      "stable",
+      "éviction",
+      "intense"
     ],
     [
-      "sol",
-      "mémoire",
-      "tabouret",
-      "prison",
-      "pétale",
-      "doré",
-      "gris"
+      "chartreux",
+      "poulain",
+      "noodle",
+      "pelage",
+      "semoir",
+      "bain",
+      "refuge"
     ],
     [
-      "pelle",
-      "gris",
-      "lampe",
-      "pierre",
-      "prison",
-      "règle",
-      "gris"
+      "ongulé",
+      "royale",
+      "poussée",
+      "génitrice",
+      "attente",
+      "usité",
+      "intrépide"
     ],
     [
-      "miroir",
-      "silence",
-      "jaune",
-      "beige",
-      "vert",
-      "globe",
-      "orange"
+      "noble",
+      "risquer",
+      "fortune",
+      "blatte",
+      "mustélidé",
+      "baffe",
+      "cintre"
     ],
     [
-      "panier",
-      "globe",
-      "jardin",
-      "argenté",
-      "bleu",
-      "argenté",
-      "blanc"
+      "symbolique",
+      "synchrone",
+      "salinité",
+      "pourrir",
+      "héraldique",
+      "tomahawk",
+      "arborer"
     ],
     [
-      "bleu",
-      "argenté",
-      "peigne",
+      "royal",
+      "queue",
+      "providentiel",
+      "fourrure",
+      "personnage",
       "blanc",
-      "ocre",
-      "racine",
-      "violet"
+      "duchesse"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
+    1,
+    1,
+    2,
     3,
-    2,
-    2,
-    4,
-    4,
     5
   ],
   "colClues": [
     3,
     3,
+    1,
+    4,
     2,
-    3,
-    3,
-    3,
-    7
+    1,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "hermine",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
       true,
-      true
+      false,
+      false,
+      false
     ],
     [
       false,
       true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
       true
     ],
     [
@@ -147,10 +147,10 @@
       true,
       false,
       true,
-      true,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

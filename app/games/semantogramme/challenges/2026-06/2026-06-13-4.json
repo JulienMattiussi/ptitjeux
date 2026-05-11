@@ -5,92 +5,92 @@
   "height": 7,
   "words": [
     [
-      "vent",
-      "gel",
-      "rosée",
-      "lueur",
-      "rideau",
-      "devoir",
-      "pluie"
+      "évolution",
+      "volume",
+      "préhistoire",
+      "bilan",
+      "incomparable",
+      "cérémonieux",
+      "fossile"
     ],
     [
-      "nuage",
-      "pluie",
-      "écran",
-      "savon",
-      "vent",
-      "fusée",
-      "parfum"
+      "thai",
+      "égocentrique",
+      "prologue",
+      "fleur",
+      "façonner",
+      "ère",
+      "dinosaure"
     ],
     [
-      "lueur",
-      "foudre",
-      "arc-en-ciel",
-      "éclair",
-      "savon",
-      "tonnerre",
-      "panier"
+      "contemporain",
+      "paprika",
+      "extinction",
+      "tyrannosaure",
+      "reptile",
+      "ready-made",
+      "tressaillir"
     ],
     [
-      "agenda",
-      "foudre",
-      "tournevis",
-      "parfum",
-      "soleil",
-      "verglas",
-      "foudre"
+      "gronderie",
+      "sédiment",
+      "serrer",
+      "maculer",
+      "nanterre",
+      "mammifère",
+      "fonction"
     ],
     [
-      "verglas",
-      "brouillard",
-      "orage",
-      "arc-en-ciel",
-      "balai",
-      "vent",
-      "livre"
+      "triceratops",
+      "surpasser",
+      "éphémère",
+      "confus",
+      "humide",
+      "houblon",
+      "choc"
     ],
     [
-      "verglas",
-      "plateau",
-      "panneau",
-      "écran",
-      "enveloppe",
-      "soleil",
-      "brouillard"
+      "tropical",
+      "oar",
+      "continental",
+      "husserl",
+      "tournant",
+      "jurassique",
+      "tertiaire"
     ],
     [
-      "éclair",
-      "arc-en-ciel",
-      "gel",
-      "écran",
-      "silence",
-      "chemin",
-      "enveloppe"
+      "servile",
+      "météorite",
+      "craie",
+      "fantaisiste",
+      "clavicule",
+      "tromper",
+      "expéditif"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    4,
-    4,
-    5,
+    2,
     3,
-    3
+    2,
+    2,
+    4,
+    2
   ],
   "colClues": [
-    5,
-    6,
-    4,
-    2,
+    3,
     2,
     4,
+    1,
+    2,
+    3,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "crétacé",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false,
       false,
@@ -98,37 +98,28 @@
       true
     ],
     [
-      true,
-      true,
       false,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
+      false,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
       false,
       true,
       false
@@ -138,12 +129,21 @@
       false,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false,
       true,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 18
 }

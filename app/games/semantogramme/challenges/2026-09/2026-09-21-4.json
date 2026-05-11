@@ -5,100 +5,109 @@
   "height": 7,
   "words": [
     [
-      "gomme",
-      "panier",
-      "chien",
-      "rideau",
-      "bureau",
-      "lynx",
-      "étoile"
+      "accéder",
+      "fumé",
+      "bander",
+      "amérique",
+      "rationnel",
+      "cueillette",
+      "acheteur"
     ],
     [
-      "panda",
-      "crayon",
-      "plafond",
-      "maison",
-      "belette",
-      "vache",
-      "brosse"
+      "corolle",
+      "gracile",
+      "violet",
+      "fleur",
+      "épanouir",
+      "ronfler",
+      "limousin"
     ],
     [
-      "fusée",
-      "marteau",
-      "chaise",
-      "miroir",
-      "chien",
-      "caillou",
-      "écureuil"
-    ],
-    [
-      "girafe",
-      "lion",
-      "ombre",
-      "maison",
-      "mouton",
-      "souris",
-      "serrure"
-    ],
-    [
-      "tabouret",
-      "tigre",
-      "mouton",
-      "lapin",
-      "pierre",
-      "pince",
-      "timbre"
-    ],
-    [
-      "mur",
-      "écureuil",
-      "chien",
-      "agenda",
-      "tapis",
-      "chien",
-      "chat"
-    ],
-    [
-      "cheval",
-      "prière",
+      "rectangulaire",
+      "science",
+      "pourchasser",
+      "famille",
+      "pendant",
       "pétale",
-      "rideau",
-      "peigne",
-      "belette",
-      "ours"
+      "noueux"
+    ],
+    [
+      "stratus",
+      "chute",
+      "pourpre",
+      "dévonien",
+      "beauté",
+      "debord",
+      "mexique"
+    ],
+    [
+      "immortaliser",
+      "plante",
+      "rhum",
+      "cantilène",
+      "houx",
+      "rose",
+      "braisière"
+    ],
+    [
+      "germanique",
+      "répétition",
+      "fleurir",
+      "fusionner",
+      "brillant",
+      "arbuste",
+      "manipulation"
+    ],
+    [
+      "pousser",
+      "dragée",
+      "malinowski",
+      "expliquer",
+      "moutarde",
+      "jardin",
+      "tirant"
     ]
   ],
   "rowClues": [
+    1,
+    5,
     2,
-    3,
     2,
-    4,
-    3,
-    4,
-    3
+    2,
+    2,
+    2
   ],
   "colClues": [
+    2,
+    2,
     3,
-    3,
-    3,
-    1,
-    3,
-    5,
-    3
+    2,
+    2,
+    4,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "fuchsia",
   "solution": [
     [
       false,
       false,
+      false,
       true,
       false,
       false,
-      true,
       false
     ],
     [
       true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -109,48 +118,39 @@
     [
       false,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       false,
-      true,
+      false,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
+      false,
       true,
       false,
       false,
+      true,
       false
     ],
     [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
       false,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 16
 }

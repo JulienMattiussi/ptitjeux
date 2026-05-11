@@ -5,130 +5,103 @@
   "height": 7,
   "words": [
     [
-      "jardin",
-      "bleu",
-      "rouge",
-      "rideau",
-      "rideau",
-      "tapis",
-      "tapis"
+      "désert",
+      "éclat",
+      "havane",
+      "terrier",
+      "social",
+      "vigilant",
+      "origine"
     ],
     [
-      "rumeur",
-      "rouge",
-      "table",
-      "clé",
-      "turquoise",
-      "jaune",
-      "gris"
+      "mammifère",
+      "larme",
+      "ver",
+      "frette",
+      "cahoter",
+      "colonie",
+      "italienne"
     ],
     [
-      "vert",
-      "rose",
-      "rouge",
-      "gris",
-      "écran",
-      "ocre",
-      "gris"
+      "assaisonner",
+      "meute",
+      "aiguille",
+      "course",
+      "piété",
+      "agir",
+      "dressé"
     ],
     [
-      "bureau",
-      "orange",
-      "indigo",
-      "devoir",
-      "indigo",
-      "noir",
-      "indigo"
+      "débat",
+      "bronzer",
+      "proclamer",
+      "tasser",
+      "protéger",
+      "australie",
+      "manger"
     ],
     [
-      "brosse",
-      "fusée",
-      "tournevis",
-      "blanc",
-      "devoir",
-      "brun",
-      "livre"
+      "franchir",
+      "sentinelle",
+      "siffler",
+      "sucré",
+      "fleur",
+      "guetter",
+      "adorer"
     ],
     [
-      "savon",
-      "cadre",
-      "argenté",
-      "panier",
-      "orange",
-      "indigo",
-      "bleu"
+      "creuser",
+      "bravoure",
+      "endémique",
+      "semoir",
+      "équinoxe",
+      "latex",
+      "coquillage"
     ],
     [
-      "mémoire",
-      "violet",
-      "table",
-      "orange",
-      "lueur",
-      "rouge",
-      "gris"
+      "curieux",
+      "escargot",
+      "savane",
+      "familial",
+      "kale",
+      "monture",
+      "arrière"
     ]
   ],
   "rowClues": [
-    2,
     4,
-    6,
-    5,
     2,
-    4,
-    4
+    1,
+    2,
+    3,
+    1,
+    3
   ],
   "colClues": [
-    1,
-    5,
     4,
+    1,
+    2,
+    2,
+    2,
     3,
-    3,
-    6,
-    5
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "suricate",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
       false,
-      false,
+      true,
+      true,
+      true,
       false
     ],
     [
-      false,
       true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       true,
       false
@@ -136,21 +109,48 @@
     [
       false,
       false,
-      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
       true,
+      true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
       true,
-      true
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 16
 }

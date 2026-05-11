@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "tournevis",
-      "remorque",
-      "jardin",
-      "règle",
-      "sol",
-      "plateau",
-      "vis"
+      "connecté",
+      "élever",
+      "élan",
+      "législatif",
+      "fenouil",
+      "chausser",
+      "irréel"
     ],
     [
-      "devoir",
-      "avion",
-      "maison",
-      "étagère",
-      "train",
-      "jardin",
-      "ferry"
+      "irrationnel",
+      "tracteur",
+      "cylindrique",
+      "rosée",
+      "élégant",
+      "dresser",
+      "pointu"
     ],
     [
-      "table",
-      "taxi",
-      "table",
-      "bureau",
-      "remorque",
-      "vélo",
-      "métro"
+      "gracieux",
+      "éviction",
+      "abricot",
+      "révéler",
+      "trous",
+      "petit",
+      "rétro"
     ],
     [
-      "navette",
-      "train",
-      "bus",
-      "devoir",
-      "rideau",
-      "taxi",
-      "rideau"
+      "médiéval",
+      "essoufflement",
+      "mule",
+      "lancinante",
+      "clocher",
+      "gouffre",
+      "escalier"
     ],
     [
-      "vélo",
-      "bateau",
-      "rideau",
-      "globe",
-      "silence",
-      "crayon",
-      "agenda"
+      "soumis",
+      "défensif",
+      "château",
+      "zèbre",
+      "fenêtre",
+      "victoire",
+      "manoir"
     ],
     [
-      "voisin",
-      "taxi",
-      "ferry",
-      "pierre",
-      "écran",
-      "vélo",
-      "camion"
+      "urée",
+      "huisserie",
+      "tournage",
+      "architecture",
+      "pochade",
+      "geindre",
+      "armature"
     ],
     [
-      "crayon",
-      "crayon",
-      "fusée",
-      "scooter",
-      "scooter",
-      "vélo",
-      "tunnel"
+      "percer",
+      "réserve",
+      "signac",
+      "marron",
+      "rond",
+      "orner",
+      "descendance"
     ]
   ],
   "rowClues": [
     1,
-    3,
-    4,
     4,
     2,
-    4,
-    4
-  ],
-  "colClues": [
     2,
-    6,
-    3,
+    4,
     1,
-    3,
-    4,
     3
   ],
-  "themeWord": "transport",
+  "colClues": [
+    3,
+    2,
+    2,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "tourelle",
   "solution": [
     [
       false,
@@ -99,17 +99,8 @@
     ],
     [
       false,
-      true,
-      false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true,
       true,
@@ -117,8 +108,8 @@
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false,
       false,
       true,
@@ -126,31 +117,40 @@
     ],
     [
       true,
-      true,
       false,
       false,
       false,
       false,
-      false
+      false,
+      true
     ],
     [
       false,
       true,
       true,
       false,
-      false,
       true,
+      false,
       true
     ],
     [
       false,
       false,
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 17
 }

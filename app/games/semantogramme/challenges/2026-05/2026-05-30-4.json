@@ -5,131 +5,113 @@
   "height": 7,
   "words": [
     [
-      "maison",
-      "pince",
-      "baleine",
-      "agenda",
-      "mémoire",
-      "lueur",
-      "écaille"
+      "pancréas",
+      "laboratoire",
+      "lointain",
+      "ère",
+      "calcul",
+      "enseignement",
+      "labrador"
     ],
     [
-      "saumon",
-      "dauphin",
-      "savon",
-      "panneau",
-      "requin",
-      "enveloppe",
-      "méduse"
+      "perdant",
+      "paléocène",
+      "fossile",
+      "liégeoise",
+      "édulcorer",
+      "plongeoir",
+      "transformation"
     ],
     [
-      "mémoire",
-      "savon",
-      "mur",
-      "thon",
-      "écume",
-      "méduse",
-      "voile"
+      "sédiment",
+      "sustenter",
+      "support",
+      "antivirus",
+      "persistante",
+      "détresse",
+      "égoutter"
     ],
     [
-      "phare",
-      "étagère",
-      "globe",
-      "vague",
-      "coussin",
-      "méduse",
-      "clé"
+      "vaciller",
+      "portugais",
+      "délicat",
+      "retarder",
+      "artisan",
+      "tarte",
+      "apparition"
     ],
     [
-      "dauphin",
-      "crabe",
-      "sol",
-      "globe",
-      "méduse",
-      "miroir",
-      "rumeur"
+      "éocène",
+      "évidence",
+      "baptême",
+      "sombre",
+      "éclat",
+      "atmosphère",
+      "oligocène"
     ],
     [
-      "miroir",
-      "banquier",
-      "pelle",
-      "tournevis",
-      "baleine",
-      "panier",
-      "brosse"
+      "évolution",
+      "portable",
+      "continental",
+      "éponge",
+      "climat",
+      "menacer",
+      "chuter"
     ],
     [
-      "sardine",
-      "étoile",
-      "agenda",
-      "écume",
-      "saumon",
-      "écaille",
-      "dauphin"
+      "cénozoïque",
+      "roche",
+      "forêt",
+      "enchaîner",
+      "cuivre",
+      "mammifère",
+      "libération"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    4,
-    3,
-    3,
+    2,
     1,
-    5
+    1,
+    2,
+    3,
+    4
   ],
   "colClues": [
     4,
     2,
+    4,
     1,
-    3,
-    5,
-    3,
-    4
+    1,
+    1,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "paléogène",
   "solution": [
     [
       false,
       false,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
-      true,
-      false,
-      true
+      false
     ],
     [
       false,
-      false,
-      false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
-      true,
       false,
-      true,
       false
     ],
     [
       true,
-      true,
       false,
       false,
-      true,
+      false,
+      false,
       false,
       false
     ],
@@ -138,19 +120,37 @@
       false,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true,
       false,
       false
     ],
     [
       true,
+      true,
+      true,
       false,
       false,
       true,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 15
 }

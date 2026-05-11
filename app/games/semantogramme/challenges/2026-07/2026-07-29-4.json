@@ -5,101 +5,128 @@
   "height": 7,
   "words": [
     [
-      "bureau",
-      "tonnerre",
-      "verglas",
-      "brouillard",
-      "tabouret",
-      "pluie",
-      "neige"
+      "jais",
+      "cavalier",
+      "balzac",
+      "fidèle",
+      "mouvement",
+      "tarder",
+      "latte"
     ],
     [
-      "écran",
-      "tunnel",
-      "soleil",
-      "agenda",
-      "devoir",
-      "mémoire",
-      "coussin"
+      "art",
+      "effondrement",
+      "cellophane",
+      "social",
+      "transpirer",
+      "non-figuratif",
+      "parpaing"
     ],
     [
-      "miroir",
-      "arc-en-ciel",
-      "porte",
-      "rosée",
-      "chaise",
-      "vis",
-      "nuage"
+      "document",
+      "sourdine",
+      "courbet",
+      "décrire",
+      "maudit",
+      "catégorique",
+      "flaubert"
     ],
     [
-      "foudre",
-      "gel",
-      "orage",
-      "neige",
-      "brouillard",
-      "horloge",
-      "lampe"
+      "réalité",
+      "sobre",
+      "objectif",
+      "échec",
+      "descendance",
+      "maupassant",
+      "documenter"
     ],
     [
-      "devoir",
-      "prière",
-      "pluie",
-      "voisin",
-      "foudre",
-      "plateau",
-      "vent"
+      "portable",
+      "littérature",
+      "observation",
+      "anniversaire",
+      "commémoration",
+      "primordial",
+      "néogène"
     ],
     [
-      "neige",
-      "horloge",
-      "soleil",
-      "panier",
-      "nuage",
-      "foudre",
-      "savon"
+      "présent",
+      "hôtesse",
+      "galop",
+      "instant",
+      "quotidien",
+      "foulard",
+      "mozart"
     ],
     [
-      "banquier",
-      "tasse",
-      "voisin",
-      "arc-en-ciel",
-      "miroir",
-      "vis",
-      "neige"
+      "observer",
+      "nouveau",
+      "sans-fil",
+      "hélice",
+      "représenter",
+      "taille",
+      "patinoire"
     ]
   ],
   "rowClues": [
+    3,
+    2,
+    3,
     5,
+    2,
     1,
-    3,
-    5,
-    3,
-    4,
     2
   ],
   "colClues": [
-    2,
     3,
-    5,
+    2,
     4,
     3,
-    2,
-    4
+    3,
+    1,
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "réalisme",
   "solution": [
     [
       false,
+      false,
       true,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false,
       true,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       false,
@@ -108,49 +135,22 @@
     ],
     [
       false,
-      true,
-      false,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
+      false,
       true,
       false,
       false
     ],
     [
+      true,
+      false,
       false,
       false,
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 23
+  "parMoves": 18
 }

@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "rouge",
-      "pince",
-      "lampe",
-      "jaune",
-      "pierre",
-      "beige",
-      "turquoise"
+      "potage",
+      "florence",
+      "suc",
+      "fondamental",
+      "artistique",
+      "ébénisterie",
+      "engraisser"
     ],
     [
-      "beige",
-      "agenda",
-      "plateau",
-      "rose",
-      "jaune",
-      "noir",
-      "pierre"
+      "apostropher",
+      "humaniste",
+      "manipuler",
+      "grotte",
+      "congeler",
+      "sobre",
+      "champignon"
     ],
     [
-      "brun",
-      "bleu",
-      "jardin",
-      "gomme",
-      "fusée",
-      "blanc",
-      "indigo"
+      "corail",
+      "toulouse",
+      "projecteur",
+      "médicis",
+      "jarretière",
+      "gémissement",
+      "raphaël"
     ],
     [
-      "porte",
-      "racine",
-      "chemin",
-      "jardin",
-      "beige",
-      "peigne",
-      "rumeur"
+      "sursaut",
+      "effiler",
+      "flaque",
+      "refrain",
+      "michel-ange",
+      "tarentule",
+      "florissante"
     ],
     [
-      "blanc",
-      "étagère",
-      "rouge",
-      "tapis",
-      "blanc",
-      "voisin",
-      "rideau"
+      "antiquité",
+      "paupière",
+      "glorieuse",
+      "digestion",
+      "risquer",
+      "léonard",
+      "braise"
     ],
     [
-      "panneau",
-      "prière",
-      "indigo",
-      "pelle",
-      "panneau",
-      "chemin",
-      "mur"
+      "vénérer",
+      "gestuel",
+      "donatello",
+      "époque",
+      "botticelli",
+      "offrir",
+      "bouton"
     ],
     [
-      "timbre",
-      "beige",
-      "chaise",
-      "beige",
-      "rouge",
-      "étagère",
-      "serrure"
+      "lasagne",
+      "foisonnante",
+      "vin",
+      "incommensurable",
+      "prier",
+      "culturelle",
+      "humanisme"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    4,
+    2,
     1,
+    2,
+    2,
     3,
-    1,
+    3,
     3
   ],
   "colClues": [
-    4,
+    1,
+    3,
     2,
     2,
     3,
-    4,
-    3,
-    2
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "renaissance",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
       false,
-      true,
       true
     ],
     [
       true,
       false,
+      true,
       false,
-      true,
-      true,
+      false,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
       false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 16
 }

@@ -5,104 +5,95 @@
   "height": 7,
   "words": [
     [
-      "chaise",
-      "doré",
-      "maison",
-      "écran",
-      "étagère",
-      "indigo",
-      "mémoire"
+      "localité",
+      "pierre",
+      "préhistoire",
+      "pilier",
+      "cueillette",
+      "sapiens",
+      "chasse"
     ],
     [
-      "étoile",
-      "caillou",
-      "tabouret",
-      "jaune",
-      "mémoire",
-      "beige",
-      "rouge"
+      "couronner",
+      "mal-venu",
+      "priser",
+      "brader",
+      "nuit",
+      "rupestre",
+      "lointain"
     ],
     [
-      "bureau",
-      "balai",
-      "étagère",
-      "rose",
-      "pelle",
-      "pelle",
-      "peigne"
+      "grotte",
+      "spore",
+      "cro-magnon",
+      "oiseau",
+      "positionner",
+      "braiser",
+      "nébuleuse"
     ],
     [
-      "crayon",
-      "gris",
-      "ocre",
-      "violet",
-      "étoile",
-      "plafond",
-      "gomme"
+      "pleur",
+      "persienne",
+      "lascaux",
+      "biface",
+      "état",
+      "messe",
+      "limite"
     ],
     [
-      "orange",
-      "argenté",
-      "clé",
-      "orange",
-      "porte",
-      "serrure",
-      "mur"
+      "breton",
+      "incandescent",
+      "nomade",
+      "fusain",
+      "écrou",
+      "magnitude",
+      "enclaver"
     ],
     [
-      "savon",
-      "bureau",
-      "rose",
-      "tournevis",
-      "turquoise",
-      "racine",
-      "gris"
+      "préhistorique",
+      "percer",
+      "âge",
+      "paranoïa",
+      "pont",
+      "rectangle",
+      "trapu"
     ],
     [
-      "gomme",
-      "beige",
-      "devoir",
-      "gris",
-      "turquoise",
-      "vert",
-      "rumeur"
+      "ancien",
+      "laser",
+      "gratiner",
+      "caraïbe",
+      "cockpit",
+      "rester",
+      "homme"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    1,
-    3,
-    3,
-    3,
-    4
-  ],
-  "colClues": [
-    1,
-    4,
-    2,
     5,
     2,
-    3,
+    2,
+    2,
+    1,
+    2,
     2
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    3,
+    1,
+    5,
+    1,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "paléolithique",
   "solution": [
     [
       false,
       true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
+      true,
       true,
       true
     ],
@@ -110,47 +101,56 @@
       false,
       false,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       true,
-      false,
-      true,
-      false,
       true
     ],
     [
-      false,
       true,
       false,
       true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

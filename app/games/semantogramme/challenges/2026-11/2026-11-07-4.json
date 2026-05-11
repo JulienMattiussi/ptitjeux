@@ -5,112 +5,139 @@
   "height": 7,
   "words": [
     [
-      "panneau",
-      "livre",
-      "voisin",
-      "loup",
-      "cheval",
-      "girafe",
-      "castor"
+      "queue",
+      "sauter",
+      "anche",
+      "minuscule",
+      "cassure",
+      "rétroviseur",
+      "ramasser"
     ],
     [
-      "lampe",
-      "prison",
-      "timbre",
-      "écureuil",
-      "lion",
-      "chat",
-      "jardin"
+      "crue",
+      "embarras",
+      "primate",
+      "canneberge",
+      "opposable",
+      "dinde",
+      "muscler"
     ],
     [
-      "panda",
-      "chat",
-      "plateau",
-      "chat",
-      "manuel",
-      "castor",
-      "chat"
+      "dériver",
+      "sermon",
+      "crotté",
+      "taquiner",
+      "delta",
+      "trentaine",
+      "agile"
     ],
     [
-      "crayon",
-      "belette",
-      "pelle",
-      "écran",
-      "balai",
-      "mouton",
-      "livre"
+      "pochette",
+      "fruit",
+      "film",
+      "pudeur",
+      "figuratif",
+      "insecte",
+      "familial"
     ],
     [
-      "lapin",
-      "sol",
-      "ciseaux",
-      "koala",
-      "mouton",
-      "crayon",
-      "brosse"
+      "consolation",
+      "pelage",
+      "sororal",
+      "singe",
+      "effacement",
+      "écaille",
+      "efficace"
     ],
     [
-      "savon",
-      "zèbre",
-      "agenda",
-      "enveloppe",
-      "marteau",
-      "prière",
-      "bureau"
+      "rapper",
+      "kirchner",
+      "sou",
+      "vainqueur",
+      "programme",
+      "amérique",
+      "mignon"
     ],
     [
-      "lynx",
-      "manuel",
-      "chat",
-      "crayon",
-      "coussin",
-      "balai",
-      "pince"
+      "cartésien",
+      "oreille",
+      "gambette",
+      "rugir",
+      "petit",
+      "manger",
+      "sud"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    5,
-    2,
     3,
     1,
-    2
+    1,
+    3,
+    2,
+    2,
+    4
   ],
   "colClues": [
-    3,
-    3,
     1,
     4,
+    1,
+    2,
+    1,
     3,
-    4,
-    2
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "ouistiti",
   "solution": [
     [
+      true,
+      true,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
       false,
+      true,
+      false,
+      true,
       false,
       false,
-      true,
-      true,
-      true,
       false
     ],
     [
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
       true
@@ -120,37 +147,10 @@
       true,
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 16
 }

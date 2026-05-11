@@ -5,102 +5,93 @@
   "height": 7,
   "words": [
     [
-      "étagère",
-      "requin",
-      "poisson",
-      "saumon",
-      "marin",
-      "banquier",
-      "mémoire"
+      "synagogue",
+      "mythique",
+      "aller",
+      "hôpital",
+      "arc-en-ciel",
+      "venin",
+      "document"
     ],
     [
-      "vis",
-      "voile",
-      "thon",
-      "fusée",
-      "tapis",
-      "vague",
-      "timbre"
+      "remontoir",
+      "crasse",
+      "résistant",
+      "agressif",
+      "fulgurant",
+      "dribble",
+      "creuser"
     ],
     [
-      "brosse",
-      "miroir",
-      "vague",
-      "panier",
-      "écume",
-      "sable",
-      "banquier"
+      "barge",
+      "téméraire",
+      "minimiser",
+      "oublié",
+      "albâtre",
+      "goncourt",
+      "blanc"
     ],
     [
-      "plateau",
-      "plage",
-      "balai",
-      "écaille",
-      "marin",
-      "lampe",
-      "tunnel"
+      "fouir",
+      "cathédrale",
+      "proue",
+      "pelage",
+      "court",
+      "sanctionner",
+      "noir"
     ],
     [
-      "tournevis",
-      "écume",
-      "vague",
-      "bureau",
-      "pince",
-      "ombre",
-      "tournevis"
+      "orchestre",
+      "mori",
+      "rester",
+      "attaquer",
+      "concomitant",
+      "regard",
+      "tourbillon"
     ],
     [
-      "saumon",
-      "phare",
-      "requin",
-      "chaise",
-      "poisson",
-      "baleine",
-      "mur"
+      "rotation",
+      "olivier",
+      "bruxelloise",
+      "vache",
+      "chasser",
+      "invincible",
+      "imprégner"
     ],
     [
-      "vague",
-      "carnet",
-      "voile",
-      "panier",
-      "rivage",
-      "rumeur",
-      "sardine"
+      "indépendante",
+      "rayé",
+      "ocre",
+      "juteuse",
+      "fossiliser",
+      "auditif",
+      "puissant"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    2,
     4,
-    3,
-    3,
-    3,
+    1,
     2,
-    5,
-    4
-  ],
-  "colClues": [
-    2,
-    5,
-    6,
-    2,
-    5,
-    3,
     1
   ],
-  "themeWord": "mer",
+  "colClues": [
+    1,
+    2,
+    1,
+    3,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "ratel",
   "solution": [
     [
       false,
       true,
-      true,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       true,
@@ -110,6 +101,42 @@
       false,
       false,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       true,
@@ -117,40 +144,13 @@
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 15
 }

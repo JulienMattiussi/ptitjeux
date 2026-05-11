@@ -5,110 +5,128 @@
   "height": 7,
   "words": [
     [
-      "tigre",
-      "globe",
-      "tigre",
-      "lynx",
-      "vache",
-      "lion",
-      "ours"
+      "parapher",
+      "temple",
+      "rechercher",
+      "envoyer",
+      "amener",
+      "derby",
+      "aller"
     ],
     [
-      "manuel",
-      "plateau",
-      "vache",
-      "tasse",
-      "pelle",
-      "girafe",
-      "chien"
+      "rare",
+      "ontologique",
+      "fleuret",
+      "coccinelle",
+      "littéraire",
+      "ramener",
+      "étendard"
     ],
     [
-      "koala",
-      "loup",
-      "caillou",
-      "belette",
-      "tapis",
-      "coussin",
-      "pelle"
+      "requête",
+      "archaïque",
+      "plancton",
+      "tortue",
+      "soutenu",
+      "tournesol",
+      "soin"
     ],
     [
-      "lion",
-      "marteau",
-      "koala",
-      "koala",
-      "mur",
-      "mouton",
-      "globe"
+      "absolue",
+      "silhouette",
+      "absolu",
+      "nettoyer",
+      "rotation",
+      "réjouir",
+      "apporter"
     ],
     [
-      "fusée",
-      "crayon",
-      "vache",
-      "clé",
-      "tasse",
-      "écureuil",
-      "ours"
+      "fossé",
+      "allongé",
+      "escarpolette",
+      "chercher",
+      "tennis",
+      "blatte",
+      "sandwich"
     ],
     [
-      "lampe",
-      "tasse",
-      "sol",
-      "vis",
-      "zèbre",
-      "zèbre",
-      "écureuil"
+      "menacer",
+      "usité",
+      "sollicitation",
+      "patience",
+      "noble",
+      "peine",
+      "sacrifier"
     ],
     [
-      "renard",
-      "gomme",
-      "tournevis",
-      "vache",
-      "vache",
-      "chat",
-      "horloge"
+      "micro",
+      "jongleur",
+      "pyrénées",
+      "border",
+      "équilibre",
+      "espace",
+      "partir"
     ]
   ],
   "rowClues": [
-    6,
-    3,
-    3,
     4,
     3,
     3,
-    4
+    1,
+    1,
+    3,
+    1
   ],
   "colClues": [
+    2,
+    2,
+    2,
+    2,
     4,
     1,
-    4,
-    4,
-    3,
-    6,
-    4
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "quérir",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       true,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
       false,
@@ -116,41 +134,23 @@
       false
     ],
     [
-      true,
       false,
       true,
       true,
       false,
       true,
+      false,
       false
     ],
     [
       false,
       false,
-      true,
       false,
       false,
-      true,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 16
 }

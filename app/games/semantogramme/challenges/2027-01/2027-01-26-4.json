@@ -5,130 +5,130 @@
   "height": 7,
   "words": [
     [
-      "écran",
-      "panneau",
-      "pelle",
-      "oeil",
-      "pied",
-      "carnet",
-      "tête"
+      "rouge",
+      "introspection",
+      "sablée",
+      "rose",
+      "banane",
+      "asiatique",
+      "acerbe"
     ],
     [
-      "épaule",
-      "clé",
-      "devoir",
-      "maison",
-      "épaule",
-      "genou",
-      "peigne"
+      "printemps",
+      "greffe",
+      "pose",
+      "pieuse",
+      "forum",
+      "ruine",
+      "pousser"
     ],
     [
-      "chaise",
-      "bouche",
-      "tête",
-      "table",
-      "dent",
-      "lueur",
-      "nez"
+      "jardin",
+      "synthèse",
+      "tige",
+      "escalader",
+      "humaniste",
+      "ventouse",
+      "acide"
     ],
     [
-      "épaule",
-      "épaule",
-      "étoile",
-      "porte",
-      "peau",
-      "carnet",
-      "oreille"
+      "grimace",
+      "feuille",
+      "déguisement",
+      "sol",
+      "peuplier",
+      "soie",
+      "derain"
     ],
     [
-      "rumeur",
-      "jambe",
-      "lèvre",
-      "plafond",
-      "brosse",
-      "savon",
-      "pétale"
+      "orange",
+      "pétale",
+      "volet",
+      "fleurir",
+      "tremolo",
+      "cesser",
+      "réchauffer"
     ],
     [
-      "pied",
-      "banquier",
-      "genou",
-      "tasse",
-      "lèvre",
-      "oreille",
-      "voisin"
+      "arbuste",
+      "succès",
+      "sévère",
+      "roulade",
+      "tuile",
+      "fleur",
+      "blanc"
     ],
     [
-      "racine",
-      "crayon",
-      "genou",
-      "table",
-      "table",
-      "tabouret",
-      "langue"
+      "riz",
+      "grandeur",
+      "marx",
+      "parent",
+      "humidité",
+      "cycliste",
+      "cultiver"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    4,
-    4,
     2,
-    4,
+    3,
+    2,
+    3,
+    3,
     2
   ],
   "colClues": [
-    3,
-    3,
-    4,
-    1,
     5,
+    2,
+    1,
+    3,
+    1,
     2,
     4
   ],
-  "themeWord": "corps",
+  "themeWord": "azalée",
   "solution": [
     [
-      false,
+      true,
       false,
       false,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
-      true,
       false,
       true
     ],
     [
       false,
       true,
+      false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false,
       false,
       false
@@ -136,21 +136,21 @@
     [
       true,
       false,
-      true,
+      false,
+      false,
       false,
       true,
-      true,
-      false
+      true
     ],
     [
       false,
       false,
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

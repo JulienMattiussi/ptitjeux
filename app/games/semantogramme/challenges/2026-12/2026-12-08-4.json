@@ -5,120 +5,93 @@
   "height": 7,
   "words": [
     [
-      "marteau",
-      "étoile",
       "rose",
-      "turquoise",
-      "panneau",
-      "violet",
-      "rideau"
+      "régénération",
+      "transférer",
+      "fleurir",
+      "mare",
+      "astronomique",
+      "soigné"
     ],
     [
-      "mémoire",
-      "noir",
-      "serrure",
-      "turquoise",
-      "noir",
-      "blanc",
-      "ocre"
-    ],
-    [
-      "blanc",
-      "pince",
-      "jardin",
-      "indigo",
-      "étagère",
-      "mémoire",
-      "mauve"
-    ],
-    [
-      "silence",
-      "globe",
-      "violet",
-      "blanc",
-      "beige",
-      "enveloppe",
-      "sol"
-    ],
-    [
-      "fusée",
-      "gris",
-      "tabouret",
-      "timbre",
-      "plafond",
-      "jaune",
-      "gris"
-    ],
-    [
-      "brun",
-      "fusée",
-      "panier",
-      "livre",
-      "étagère",
-      "mauve",
-      "manuel"
-    ],
-    [
-      "ocre",
-      "savon",
-      "crayon",
-      "horloge",
-      "livre",
-      "clé",
+      "bricoleur",
+      "humeur",
+      "cacher",
+      "maux",
+      "douce",
+      "patrimoine",
       "blanc"
+    ],
+    [
+      "eau",
+      "aquatique",
+      "giverny",
+      "béton",
+      "fleur",
+      "libre",
+      "monet"
+    ],
+    [
+      "étang",
+      "anémique",
+      "envoûter",
+      "longer",
+      "samba",
+      "tonnerre",
+      "peureux"
+    ],
+    [
+      "rhizome",
+      "slalom",
+      "plante",
+      "vétuste",
+      "maciunas",
+      "chimique",
+      "source"
+    ],
+    [
+      "esquisser",
+      "vert",
+      "feuille",
+      "stromatolite",
+      "égarer",
+      "tige",
+      "semis"
+    ],
+    [
+      "lune",
+      "rive",
+      "phalange",
+      "data",
+      "carnaval",
+      "flotter",
+      "mousseron"
     ]
   ],
   "rowClues": [
     3,
+    2,
     5,
+    1,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    4,
+    1,
     3,
-    3,
+    1,
     3,
     2,
     2
   ],
-  "colClues": [
-    3,
-    2,
-    2,
-    4,
-    2,
-    4,
-    4
-  ],
-  "themeWord": "couleur",
+  "themeWord": "nénuphar",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       true,
       false,
@@ -126,31 +99,58 @@
     ],
     [
       false,
-      true,
       false,
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
       true
     ],
     [
       true,
       false,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true,
       false
     ],
     [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 16
 }

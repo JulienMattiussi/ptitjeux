@@ -5,96 +5,105 @@
   "height": 7,
   "words": [
     [
-      "étoile",
-      "choeur",
-      "note",
-      "rythme",
-      "pierre",
-      "panier",
-      "crayon"
+      "pagaie",
+      "tombe",
+      "acheteur",
+      "james",
+      "vestige",
+      "fouille",
+      "creuser"
     ],
     [
-      "devoir",
-      "jazz",
-      "jardin",
-      "plafond",
-      "choeur",
-      "chant",
-      "maison"
+      "à-fromage",
+      "scientifique",
+      "quadriceps",
+      "irritation",
+      "tom",
+      "analyser",
+      "glisser"
     ],
     [
-      "piano",
-      "tambour",
-      "balai",
-      "piano",
-      "prière",
-      "harpe",
-      "symphonie"
+      "punchline",
+      "carbone",
+      "futile",
+      "clou",
+      "site",
+      "doudou",
+      "corps-de-ballet"
     ],
     [
-      "mur",
-      "livre",
-      "symphonie",
-      "piano",
-      "harpe",
-      "prière",
-      "tambour"
+      "aromate",
+      "vigne",
+      "janvier",
+      "antique",
+      "archéologue",
+      "transilvanien",
+      "arqué"
     ],
     [
-      "silence",
-      "violon",
-      "tambour",
-      "piano",
-      "écran",
-      "accord",
-      "maison"
+      "pelle",
+      "rugby",
+      "jeu",
+      "bulle",
+      "bondé",
+      "salive",
+      "plasma"
     ],
     [
-      "rythme",
-      "accord",
-      "panneau",
-      "horloge",
-      "agenda",
-      "chaise",
-      "guitare"
+      "premier",
+      "rudimentaire",
+      "stratigraphie",
+      "civilisation",
+      "meuglement",
+      "datation",
+      "inhalation"
     ],
     [
-      "savon",
-      "agenda",
-      "violon",
-      "étagère",
-      "brosse",
-      "manuel",
-      "piano"
+      "antiquité",
+      "nef",
+      "pinceau",
+      "exhumer",
+      "poker",
+      "cage",
+      "humecter"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    5,
     4,
-    4,
+    2,
+    2,
+    2,
+    1,
     3,
-    2
+    3
   ],
   "colClues": [
     2,
-    5,
-    4,
-    4,
+    3,
     2,
     3,
-    4
+    3,
+    3,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "archéologie",
   "solution": [
     [
       false,
       true,
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
+      false,
+      true,
       false
     ],
     [
@@ -103,54 +112,45 @@
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
       true,
       false
     ],
     [
       true,
-      true,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
-      true,
       false,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      false,
-      true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

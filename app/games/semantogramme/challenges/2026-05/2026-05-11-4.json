@@ -5,120 +5,102 @@
   "height": 7,
   "words": [
     [
-      "devoir",
-      "mouton",
-      "vache",
-      "tournevis",
-      "racine",
-      "ours",
-      "loup"
+      "concerto",
+      "pompe",
+      "bille",
+      "essai",
+      "réparateur",
+      "degas",
+      "marseille"
     ],
     [
-      "agenda",
-      "voisin",
-      "ours",
-      "zèbre",
-      "bureau",
-      "timbre",
-      "girafe"
+      "angine",
+      "analytique",
+      "soucoupe",
+      "manta",
+      "caresse",
+      "cirque",
+      "thérapeutique"
     ],
     [
-      "caillou",
-      "plateau",
-      "loup",
-      "prison",
-      "girafe",
-      "tunnel",
-      "chat"
+      "malveillance",
+      "valeur",
+      "ausculter",
+      "préventive",
+      "marron",
+      "science",
+      "pourvoir"
     ],
     [
-      "horloge",
-      "tigre",
-      "lion",
-      "vis",
-      "peigne",
-      "savon",
-      "vache"
+      "bourrasque",
+      "stéthoscope",
+      "plaie",
+      "tabatière",
+      "shooter",
+      "opérer",
+      "attribuer"
     ],
     [
-      "devoir",
-      "rumeur",
-      "loup",
-      "castor",
-      "panda",
-      "lynx",
-      "pierre"
+      "restreint",
+      "dressage",
+      "circulation",
+      "pression",
+      "levain",
+      "infarctus",
+      "cardiologue"
     ],
     [
-      "pierre",
-      "savon",
-      "girafe",
-      "loup",
-      "koala",
-      "agenda",
-      "brosse"
+      "processeur",
+      "rythme",
+      "herbe",
+      "shampoing",
+      "médecine",
+      "artère",
+      "ventricule"
     ],
     [
-      "girafe",
-      "ours",
-      "souris",
-      "coussin",
-      "tournevis",
-      "ciseaux",
-      "ours"
+      "élargir",
+      "arbalète",
+      "coeur",
+      "flanquer",
+      "orbiter",
+      "professionnel",
+      "mesquin"
     ]
   ],
   "rowClues": [
+    1,
+    2,
+    3,
+    2,
     4,
     3,
-    3,
-    3,
-    4,
-    3,
-    4
+    1
   ],
   "colClues": [
     1,
     3,
-    7,
-    3,
     3,
     2,
-    5
+    1,
+    4,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "cardiologie",
   "solution": [
     [
       false,
       true,
-      true,
       false,
       false,
-      true,
-      true
+      false,
+      false,
+      false
     ],
     [
-      false,
-      false,
-      true,
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       false,
@@ -129,7 +111,16 @@
       false,
       true,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -138,19 +129,28 @@
       false,
       true,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
+      false,
+      true,
+      true,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

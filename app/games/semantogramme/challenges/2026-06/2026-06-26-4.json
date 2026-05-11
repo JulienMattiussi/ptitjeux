@@ -5,131 +5,104 @@
   "height": 7,
   "words": [
     [
-      "maison",
-      "silence",
-      "vert",
-      "fusée",
-      "beige",
-      "timbre",
-      "noir"
+      "allumer",
+      "scientifique",
+      "paléolithique",
+      "rachmaninov",
+      "sucre",
+      "spécialisée",
+      "méditerranéenne"
     ],
     [
-      "racine",
-      "noir",
-      "étoile",
-      "savon",
-      "jaune",
-      "jaune",
-      "jaune"
-    ],
-    [
-      "mauve",
-      "ombre",
-      "mauve",
-      "blanc",
-      "violet",
-      "violet",
-      "carnet"
-    ],
-    [
-      "noir",
-      "noir",
-      "rouge",
-      "gris",
-      "indigo",
-      "argenté",
-      "pierre"
-    ],
-    [
-      "tournevis",
-      "rose",
-      "cadre",
-      "violet",
-      "gris",
-      "maison",
-      "parfum"
-    ],
-    [
-      "étagère",
-      "timbre",
-      "bleu",
-      "blanc",
-      "ocre",
-      "gomme",
-      "turquoise"
-    ],
-    [
+      "nihiliste",
+      "précis",
+      "instantané",
+      "courant",
+      "aiguillon",
       "tabouret",
-      "banquier",
-      "rose",
-      "rouge",
-      "caillou",
-      "indigo",
-      "livre"
+      "va-et-vient"
+    ],
+    [
+      "quatre-quarts",
+      "patriarche",
+      "cartographier",
+      "polymère",
+      "conscience",
+      "poivron",
+      "mélancolie"
+    ],
+    [
+      "navire",
+      "battre",
+      "observer",
+      "matelas",
+      "axe",
+      "gusset",
+      "horticulture"
+    ],
+    [
+      "connaissance",
+      "algèbre",
+      "sanctuaire",
+      "profondeur",
+      "marine",
+      "plongée",
+      "océanographe"
+    ],
+    [
+      "océan",
+      "lunaire",
+      "assimiler",
+      "mesurer",
+      "mer",
+      "sonar",
+      "épanouissement"
+    ],
+    [
+      "science",
+      "pluie",
+      "liaisonner",
+      "baudruche",
+      "salinité",
+      "gris",
+      "carte"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    1,
+    1,
+    2,
     4,
-    5,
-    6,
-    3,
     4,
-    3
+    2
   ],
   "colClues": [
+    3,
+    1,
     2,
     3,
-    5,
-    5,
-    6,
-    4,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "océanographie",
   "solution": [
     [
       false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
       true,
       false
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
@@ -137,20 +110,47 @@
       false,
       false,
       true,
-      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
-      true
+      true,
+      false,
+      false,
+      false,
+      false
     ],
     [
       false,
       false,
-      true,
-      true,
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 28
+  "parMoves": 16
 }

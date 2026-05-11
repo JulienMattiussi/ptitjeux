@@ -5,122 +5,113 @@
   "height": 7,
   "words": [
     [
-      "brosse",
-      "jardin",
-      "étagère",
-      "tablier",
-      "devoir",
-      "frigo",
-      "mur"
+      "germe",
+      "effacement",
+      "annulaire",
+      "modeste",
+      "galoche",
+      "violette",
+      "ténèbres"
     ],
     [
-      "casserole",
-      "épice",
-      "rumeur",
-      "couteau",
-      "cuillère",
-      "rumeur",
-      "cuillère"
+      "vertu",
+      "frénétique",
+      "tannerie",
+      "fatigant",
+      "épiderme",
+      "croquis",
+      "industrialiser"
     ],
     [
-      "recette",
-      "pierre",
-      "vis",
-      "horloge",
-      "lampe",
-      "poêle",
-      "manuel"
+      "discrétion",
+      "chinchilla",
+      "minaret",
+      "effacé",
+      "cruciforme",
+      "modestie",
+      "simplicité"
     ],
     [
-      "manuel",
-      "plat",
-      "savon",
-      "tapis",
-      "verre",
-      "farine",
-      "évier"
+      "puissant",
+      "caviar",
+      "humble",
+      "sagesse",
+      "sandale",
+      "fortifiée",
+      "avouer"
     ],
     [
-      "rumeur",
-      "panneau",
-      "verre",
-      "livre",
-      "frigo",
-      "poêle",
-      "poêle"
+      "cassiopée",
+      "discret",
+      "admettre",
+      "tueur",
+      "sonder",
+      "sieste",
+      "service"
     ],
     [
-      "recette",
-      "peigne",
-      "balai",
-      "bureau",
-      "tablier",
-      "épice",
-      "carnet"
+      "chrétienne",
+      "pénitence",
+      "thermostat",
+      "tirelire",
+      "pauvreté",
+      "espoir",
+      "simple"
     ],
     [
-      "règle",
-      "panneau",
-      "gomme",
-      "épice",
-      "savon",
-      "tasse",
-      "recette"
+      "fonctionnel",
+      "cystite",
+      "rétablir",
+      "sournois",
+      "reconnaître",
+      "armature",
+      "abaisser"
     ]
   ],
   "rowClues": [
     2,
-    5,
-    2,
-    4,
+    1,
     4,
     3,
+    3,
+    4,
     2
   ],
   "colClues": [
     3,
+    3,
+    2,
+    3,
     2,
     1,
-    3,
-    4,
-    5,
-    4
+    5
   ],
-  "themeWord": "cuisine",
+  "themeWord": "humilité",
   "solution": [
     [
       false,
-      false,
-      false,
       true,
       false,
       true,
+      false,
+      false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
-      false,
       true,
       false,
       false,
       true,
+      false,
       true,
       true
     ],
@@ -128,29 +119,38 @@
       false,
       false,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
       true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       true,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
       false,
-      true,
       false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 19
 }

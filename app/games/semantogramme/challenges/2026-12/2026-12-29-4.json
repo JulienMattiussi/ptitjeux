@@ -5,93 +5,138 @@
   "height": 7,
   "words": [
     [
-      "maison",
-      "pince",
-      "ocre",
-      "argenté",
-      "porte",
-      "ombre",
-      "beige"
+      "violent",
+      "évidence",
+      "littéraire",
+      "amphi",
+      "carpaccio",
+      "cordage",
+      "inexorable"
     ],
     [
-      "peigne",
-      "globe",
-      "étagère",
-      "fusée",
-      "indigo",
-      "crayon",
-      "vis"
+      "caraméliser",
+      "tiré",
+      "degré",
+      "décollage",
+      "effilée",
+      "défaillir",
+      "affleurement"
     ],
     [
-      "balai",
-      "gomme",
-      "indigo",
-      "orange",
-      "clé",
-      "brun",
-      "vert"
+      "choit",
+      "chute",
+      "démon",
+      "lichtenstein",
+      "maladresse",
+      "faiblesse",
+      "belle-hélène"
     ],
     [
-      "jaune",
-      "vert",
-      "lueur",
-      "beige",
-      "violet",
-      "jaune",
-      "coussin"
+      "élégant",
+      "plonger",
+      "précipice",
+      "archaïque",
+      "choisir",
+      "décennie",
+      "cisaille"
     ],
     [
-      "fusée",
-      "argenté",
-      "ciseaux",
-      "règle",
-      "règle",
-      "tabouret",
-      "indigo"
+      "classique",
+      "fatigué",
+      "parquet",
+      "fatal",
+      "tv",
+      "casquette",
+      "effondrer"
     ],
     [
-      "blanc",
-      "ciseaux",
-      "ombre",
-      "blanc",
-      "blanc",
-      "agenda",
-      "tabouret"
+      "shampooing",
+      "parc",
+      "centre",
+      "sol",
+      "verticale",
+      "harnais",
+      "dramatique"
     ],
     [
-      "fusée",
-      "violet",
-      "silence",
-      "parfum",
-      "orange",
-      "règle",
-      "horloge"
+      "chemin",
+      "raffut",
+      "magique",
+      "minéralogique",
+      "magazine",
+      "descendre",
+      "salle-de-bain"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    4,
-    5,
     2,
+    1,
+    2,
+    5,
     3,
-    2
+    2,
+    1
   ],
   "colClues": [
-    2,
     3,
     2,
-    4,
-    4,
+    2,
+    3,
+    1,
     2,
     3
   ],
-  "themeWord": "couleur",
+  "themeWord": "choir",
   "solution": [
     [
       false,
       false,
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false,
       false,
@@ -102,55 +147,10 @@
       false,
       false,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
       false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 16
 }

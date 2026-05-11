@@ -5,109 +5,100 @@
   "height": 7,
   "words": [
     [
-      "spatule",
-      "devoir",
-      "casserole",
-      "lueur",
-      "panier",
-      "ciseaux",
-      "tunnel"
+      "rose",
+      "courageux",
+      "soutenir",
+      "imitation",
+      "bouclier",
+      "décider",
+      "pétale"
     ],
     [
-      "savon",
-      "écran",
-      "vis",
-      "balai",
-      "farine",
-      "épice",
-      "pierre"
+      "épanouir",
+      "mosaïque",
+      "bouquet",
+      "jardin",
+      "grosse-caisse",
+      "fleur",
+      "mai"
     ],
     [
-      "tapis",
-      "banquier",
-      "four",
-      "spatule",
-      "gomme",
-      "épice",
-      "tablier"
+      "sororal",
+      "récif",
+      "cultiver",
+      "cueillir",
+      "grignoter",
+      "humecter",
+      "nuit"
     ],
     [
-      "four",
-      "four",
-      "farine",
-      "cuillère",
-      "recette",
-      "agenda",
-      "balai"
+      "mycénien",
+      "corolle",
+      "parfumée",
+      "matraquer",
+      "généreuse",
+      "plante",
+      "jeunesse"
     ],
     [
-      "caillou",
-      "savon",
-      "mémoire",
-      "spatule",
-      "clé",
-      "brosse",
-      "chaise"
+      "voluptueuse",
+      "opulente",
+      "blanc",
+      "fourche",
+      "venaison",
+      "tchaïkovski",
+      "rouge"
     ],
     [
-      "devoir",
-      "farine",
-      "parfum",
-      "farine",
-      "ombre",
-      "spatule",
-      "épice"
+      "cisaille",
+      "mie",
+      "palan",
+      "palabre",
+      "manoir",
+      "citrouille",
+      "printemps"
     ],
     [
-      "rumeur",
-      "sol",
-      "timbre",
-      "marteau",
-      "tablier",
-      "porte",
-      "pince"
+      "rouille",
+      "mercredi",
+      "mélasse",
+      "mer",
+      "marsupial",
+      "bref",
+      "fleurir"
     ]
   ],
   "rowClues": [
     2,
+    5,
     2,
     4,
-    5,
-    1,
     4,
+    1,
     1
   ],
   "colClues": [
-    2,
-    2,
     3,
+    2,
     4,
-    3,
-    3,
-    2
+    2,
+    1,
+    2,
+    5
   ],
-  "themeWord": "cuisine",
+  "themeWord": "pivoine",
   "solution": [
     [
       true,
       false,
-      true,
       false,
       false,
       false,
-      false
+      false,
+      true
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -116,18 +107,9 @@
       true
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      false,
+      true,
       true,
       false,
       false,
@@ -136,10 +118,19 @@
     [
       false,
       true,
-      false,
       true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -147,9 +138,18 @@
       false,
       false,
       false,
-      true,
       false,
-      false
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 19

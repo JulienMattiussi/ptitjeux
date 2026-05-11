@@ -5,93 +5,138 @@
   "height": 7,
   "words": [
     [
-      "agenda",
-      "marin",
-      "banquier",
-      "étoile",
-      "sol",
-      "pince",
-      "tournevis"
+      "rikki-tikki",
+      "crémier",
+      "carnivore",
+      "pause",
+      "trot",
+      "persévérance",
+      "épaisseur"
     ],
     [
-      "savon",
-      "parfum",
-      "thon",
-      "plage",
-      "marin",
-      "écume",
-      "baleine"
+      "féroce",
+      "vibrant",
+      "tuer",
+      "hépatique",
+      "pelage",
+      "combattre",
+      "archéoptéryx"
     ],
     [
-      "sardine",
-      "baleine",
-      "thon",
-      "crabe",
-      "lueur",
-      "panier",
-      "écaille"
+      "pénétrant",
+      "moyeu",
+      "tarot",
+      "asie",
+      "afrique",
+      "rouler",
+      "tribale"
     ],
     [
-      "prison",
-      "livre",
-      "agenda",
-      "tunnel",
-      "écaille",
-      "marteau",
-      "plage"
+      "griffes",
+      "bénin",
+      "octave",
+      "maîtrise",
+      "chasser",
+      "décisif",
+      "spectacle"
     ],
     [
-      "racine",
-      "vague",
-      "savon",
-      "marin",
-      "globe",
-      "écran",
-      "plage"
+      "lâche",
+      "belvédère",
+      "tricoter",
+      "dromadaire",
+      "partager",
+      "cuillère",
+      "rapide"
     ],
     [
-      "baleine",
-      "étagère",
-      "baleine",
-      "rideau",
-      "voile",
-      "parfum",
-      "écume"
+      "broussailleux",
+      "voyageur",
+      "sauvage",
+      "éplucher",
+      "mésange",
+      "meute",
+      "boucher"
     ],
     [
-      "sardine",
-      "phare",
-      "sardine",
-      "écume",
-      "caillou",
-      "voile",
-      "voile"
+      "ratatouille",
+      "museau",
+      "serpent",
+      "hirsute",
+      "saturer",
+      "calculer",
+      "queue"
     ]
   ],
   "rowClues": [
-    1,
-    5,
-    5,
     2,
-    3,
     4,
-    6
+    2,
+    2,
+    1,
+    1,
+    3
   ],
   "colClues": [
     3,
+    1,
     4,
-    4,
-    4,
+    1,
     3,
-    2,
-    6
+    1,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "mangouste",
   "solution": [
     [
+      true,
       false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       false,
@@ -99,58 +144,13 @@
     ],
     [
       false,
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false,
       false,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true,
       true
     ]
   ],
-  "parMoves": 26
+  "parMoves": 15
 }

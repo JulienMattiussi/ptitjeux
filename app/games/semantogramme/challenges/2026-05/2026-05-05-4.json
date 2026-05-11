@@ -5,112 +5,130 @@
   "height": 7,
   "words": [
     [
-      "timbre",
-      "farine",
-      "tabouret",
-      "écran",
-      "savon",
-      "devoir",
-      "verre"
+      "pourrir",
+      "gaze",
+      "croisière",
+      "plomb",
+      "chapelle",
+      "feuille",
+      "compost"
     ],
     [
-      "casserole",
-      "évier",
-      "plat",
-      "plat",
-      "rumeur",
-      "fusée",
-      "four"
+      "fleurir",
+      "tropicale",
+      "cultiver",
+      "propice",
+      "segment",
+      "gracieuse",
+      "dromadaire"
     ],
     [
-      "épice",
-      "livre",
-      "plateau",
-      "plat",
-      "spatule",
-      "cadre",
-      "jardin"
+      "biologique",
+      "rivière",
+      "graisse",
+      "morose",
+      "ombelle",
+      "fleur",
+      "connecter"
     ],
     [
-      "étoile",
-      "silence",
-      "voisin",
-      "farine",
-      "casserole",
-      "frigo",
-      "tablier"
+      "blanc",
+      "mannequin",
+      "estivale",
+      "pertinent",
+      "majestueuse",
+      "plante",
+      "maux"
     ],
     [
-      "étagère",
-      "tablier",
-      "spatule",
-      "parfum",
-      "table",
-      "cuillère",
-      "cuillère"
+      "goutte",
+      "violet",
+      "sublimer",
+      "lamentation",
+      "décorative",
+      "pépin",
+      "révision"
     ],
     [
-      "recette",
-      "plateau",
-      "tablier",
-      "prière",
-      "fourchette",
-      "tabouret",
-      "caillou"
+      "sous-estimer",
+      "minier",
+      "grizzli",
+      "bleu",
+      "rubanée",
+      "air",
+      "élégante"
     ],
     [
-      "poêle",
-      "serrure",
-      "verre",
-      "tasse",
-      "pince",
-      "évier",
-      "spatule"
+      "tige",
+      "exclusion",
+      "haute",
+      "jardin",
+      "renne",
+      "soda",
+      "équinoxe"
     ]
   ],
   "rowClues": [
+    1,
+    4,
     2,
-    5,
-    3,
     4,
-    4,
+    2,
     3,
-    4
+    3
   ],
   "colClues": [
+    3,
+    2,
+    3,
+    2,
     4,
-    3,
     4,
-    3,
-    3,
-    3,
-    5
+    1
   ],
-  "themeWord": "cuisine",
+  "themeWord": "agapanthe",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       true,
       true,
       true,
+      false,
+      false,
       true,
+      false
+    ],
+    [
       false,
       false,
-      true
+      false,
+      false,
+      true,
+      true,
+      false
     ],
     [
       true,
       false,
+      true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       false,
       false
@@ -121,36 +139,18 @@
       false,
       true,
       true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      false,
-      false,
-      true,
       true
     ],
     [
       true,
       false,
       true,
-      false,
       true,
+      false,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

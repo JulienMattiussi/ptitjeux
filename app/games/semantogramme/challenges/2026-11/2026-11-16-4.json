@@ -5,133 +5,106 @@
   "height": 7,
   "words": [
     [
-      "clé",
-      "nuage",
-      "arc-en-ciel",
-      "agenda",
-      "chemin",
-      "agenda",
-      "tasse"
+      "feuille",
+      "épi",
+      "paresseux",
+      "commercialiser",
+      "manuscrite",
+      "protégé",
+      "poing"
     ],
     [
-      "orage",
-      "verglas",
-      "voisin",
-      "éclair",
-      "éclair",
-      "tempête",
-      "mur"
+      "locomotive",
+      "transgresser",
+      "allumette",
+      "majestueux",
+      "âne",
+      "primate",
+      "belle-soeur"
     ],
     [
-      "nuage",
-      "verglas",
-      "rideau",
-      "brouillard",
-      "orage",
-      "tournevis",
-      "tournevis"
+      "clocher",
+      "cryogénien",
+      "ressac",
+      "sauter",
+      "atterrir",
+      "étroit",
+      "arboricole"
     ],
     [
-      "panier",
-      "vent",
-      "gel",
-      "tapis",
-      "verglas",
-      "silence",
-      "coussin"
+      "rayée",
+      "douleur",
+      "grand",
+      "banque",
+      "parc",
+      "fragment",
+      "famille"
     ],
     [
-      "gomme",
-      "voisin",
-      "nuage",
-      "éclair",
-      "éclair",
-      "arc-en-ciel",
-      "éclair"
+      "obligatoire",
+      "nocturne",
+      "sécurité",
+      "agile",
+      "curieux",
+      "long",
+      "énergique"
     ],
     [
-      "voisin",
-      "étagère",
-      "tabouret",
-      "orage",
-      "savon",
-      "pluie",
-      "arc-en-ciel"
+      "yeux",
+      "violet",
+      "fruit",
+      "garçon",
+      "largeur",
+      "castelnaudary",
+      "grimper"
     ],
     [
-      "brouillard",
-      "brouillard",
-      "brouillard",
-      "éclair",
-      "verglas",
-      "étagère",
-      "vent"
+      "endémique",
+      "accomplir",
+      "madagascar",
+      "médaillon",
+      "oar",
+      "queue",
+      "ériger"
     ]
   ],
   "rowClues": [
     2,
-    5,
+    1,
+    2,
+    3,
     4,
-    3,
-    5,
-    3,
-    6
-  ],
-  "colClues": [
-    3,
-    5,
-    4,
-    5,
-    5,
     3,
     3
   ],
-  "themeWord": "météo",
+  "colClues": [
+    4,
+    1,
+    3,
+    2,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "lémur",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
+      false,
       true,
-      true,
-      true,
-      true,
-      true
+      false
     ],
     [
       false,
@@ -139,18 +112,45 @@
       false,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
       true,
-      true,
-      true,
-      true,
+      false,
       true,
       false,
+      false,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 28
+  "parMoves": 18
 }

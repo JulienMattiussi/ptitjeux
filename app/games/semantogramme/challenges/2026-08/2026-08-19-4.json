@@ -5,129 +5,102 @@
   "height": 7,
   "words": [
     [
-      "coussin",
-      "cadre",
-      "agenda",
-      "dent",
-      "panier",
-      "racine",
-      "écran"
+      "âcre",
+      "urbain",
+      "succès",
+      "trentaine",
+      "mordant",
+      "royal",
+      "écouvillon"
     ],
     [
-      "racine",
-      "lèvre",
-      "genou",
-      "peau",
-      "dos",
-      "ongle",
-      "genou"
+      "flemme",
+      "rétrécir",
+      "sentencieux",
+      "incisif",
+      "concis",
+      "herbes",
+      "persévérance"
     ],
     [
-      "pied",
-      "tabouret",
-      "pince",
-      "coeur",
-      "tête",
-      "tunnel",
-      "jambe"
+      "ectoplasme",
+      "embouchure",
+      "solution",
+      "germination",
+      "pierre",
+      "frappant",
+      "parlement"
     ],
     [
-      "pied",
-      "genou",
-      "doigt",
-      "mémoire",
-      "tête",
-      "main",
-      "pied"
+      "rotatif",
+      "tige",
+      "agrafe",
+      "écrire",
+      "paroi",
+      "percutant",
+      "fortifier"
     ],
     [
-      "nez",
-      "mémoire",
-      "jardin",
-      "bras",
-      "langue",
-      "serrure",
-      "caillou"
+      "dépouiller",
+      "court",
+      "inscription",
+      "tranchant",
+      "kant",
+      "rayonner",
+      "propice"
     ],
     [
-      "marteau",
-      "pelle",
-      "prison",
-      "banquier",
-      "clé",
-      "lampe",
-      "joue"
+      "pique-nique",
+      "plateforme",
+      "sentence",
+      "éleveur",
+      "formule",
+      "bref",
+      "sec"
     ],
     [
-      "timbre",
-      "joue",
-      "vis",
-      "tête",
-      "épaule",
-      "tête",
-      "horloge"
+      "épigramme",
+      "graver",
+      "bracelet",
+      "siamois",
+      "improviser",
+      "résumer",
+      "gymnastique"
     ]
   ],
   "rowClues": [
     1,
-    6,
-    4,
-    6,
-    3,
-    1,
-    4
-  ],
-  "colClues": [
-    3,
     3,
     2,
-    5,
-    5,
+    2,
     3,
-    4
+    4,
+    3
   ],
-  "themeWord": "corps",
+  "colClues": [
+    1,
+    2,
+    3,
+    3,
+    4,
+    4,
+    1
+  ],
+  "themeWord": "lapidaire",
   "solution": [
     [
       false,
       false,
       false,
-      true,
       false,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true,
       false,
@@ -138,19 +111,46 @@
       false,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       false,
-      true
+      false,
+      true,
+      false,
+      true,
+      false
     ],
     [
       false,
       true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 18
 }

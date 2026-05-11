@@ -5,100 +5,100 @@
   "height": 7,
   "words": [
     [
-      "maison",
-      "écran",
-      "écureuil",
-      "belette",
-      "pierre",
-      "girafe",
-      "vache"
+      "confit",
+      "harem",
+      "haricot",
+      "étude",
+      "crêpe",
+      "castelnaudary",
+      "banquette"
     ],
     [
-      "panda",
-      "manuel",
-      "enveloppe",
-      "zèbre",
-      "chien",
-      "table",
-      "prière"
+      "cube",
+      "soupçon",
+      "zen",
+      "cuire",
+      "toulouse",
+      "pluvieux",
+      "transition"
     ],
     [
-      "renard",
-      "cheval",
-      "tigre",
-      "lueur",
-      "lampe",
-      "zèbre",
-      "lynx"
+      "sonner",
+      "rustique",
+      "défenseur",
+      "lourd",
+      "pulpeuse",
+      "lierre",
+      "gourmand"
     ],
     [
-      "mur",
-      "écureuil",
-      "panda",
-      "silence",
-      "castor",
-      "devoir",
-      "mouton"
+      "paysan",
+      "grotte",
+      "puissante",
+      "canard",
+      "soldes",
+      "éditeur",
+      "barbecue"
     ],
     [
-      "écran",
-      "panda",
-      "tournevis",
-      "panda",
-      "serrure",
-      "savon",
-      "pierre"
+      "propulsion",
+      "savourer",
+      "saucisse",
+      "créer",
+      "cuve",
+      "polymère",
+      "passe"
     ],
     [
-      "zèbre",
-      "lampe",
-      "écureuil",
-      "renard",
-      "bureau",
-      "tigre",
-      "belette"
+      "cambrer",
+      "porc",
+      "blanc",
+      "auditif",
+      "préparer",
+      "objectif",
+      "dispenser"
     ],
     [
-      "mur",
-      "horloge",
-      "carnet",
-      "loup",
-      "tigre",
-      "pierre",
-      "lynx"
+      "turquoise",
+      "lumbago",
+      "pédoncule",
+      "transat",
+      "vue",
+      "avouer",
+      "gratiner"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    5,
-    4,
     2,
-    5,
-    3
+    3,
+    2,
+    2,
+    3,
+    1
   ],
   "colClues": [
+    2,
     3,
     3,
-    4,
-    5,
     3,
-    3,
-    5
+    2,
+    1,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "cassoulet",
   "solution": [
     [
-      false,
-      false,
-      true,
       true,
       false,
       true,
-      true
+      false,
+      false,
+      true,
+      false
     ],
     [
-      true,
+      false,
       false,
       false,
       true,
@@ -107,26 +107,17 @@
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
+      false,
       false,
       true
     ],
     [
-      false,
       true,
+      false,
       false,
       true,
       false,
@@ -134,23 +125,32 @@
       false
     ],
     [
+      false,
       true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
       false,
       true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 26
+  "parMoves": 16
 }

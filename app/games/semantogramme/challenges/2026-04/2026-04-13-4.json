@@ -5,139 +5,139 @@
   "height": 7,
   "words": [
     [
-      "dos",
-      "devoir",
-      "doigt",
-      "jambe",
-      "pied",
-      "langue",
-      "gomme"
+      "au-delà",
+      "fugue",
+      "transformer",
+      "modéré",
+      "adagio",
+      "collier",
+      "mouvement"
     ],
     [
-      "coeur",
-      "peau",
-      "devoir",
-      "peau",
-      "bouche",
-      "pied",
-      "nez"
+      "laminaire",
+      "nettoyage",
+      "sautiller",
+      "intentionnalité",
+      "interpréter",
+      "mécanicien",
+      "dormir"
     ],
     [
-      "joue",
-      "coeur",
-      "miroir",
-      "coeur",
-      "maison",
-      "coeur",
-      "mur"
+      "ricaner",
+      "honneur",
+      "concerto",
+      "hôte",
+      "dentiste",
+      "rejeter",
+      "sonate"
     ],
     [
-      "genou",
-      "nez",
-      "coeur",
-      "langue",
-      "vis",
-      "peau",
-      "table"
+      "partition",
+      "élégant",
+      "nouvel",
+      "pédagogie",
+      "tranquille",
+      "tempo",
+      "punchline"
     ],
     [
-      "rumeur",
-      "vis",
-      "dent",
-      "dos",
-      "pied",
-      "dent",
-      "joue"
+      "lent",
+      "parlement",
+      "caractère",
+      "ingérer",
+      "rite",
+      "parabole",
+      "amibe"
     ],
     [
-      "plateau",
-      "oreille",
-      "bouche",
-      "langue",
-      "dos",
-      "nez",
-      "tasse"
+      "planète",
+      "laser",
+      "jouer",
+      "transparenter",
+      "lyrique",
+      "allegro",
+      "deltoïde"
     ],
     [
-      "porte",
-      "genou",
-      "plateau",
-      "jambe",
-      "bouche",
-      "nez",
-      "lampe"
+      "saumurer",
+      "classique",
+      "herbier",
+      "pas",
+      "baroque",
+      "expressif",
+      "feuillet"
     ]
   ],
   "rowClues": [
-    5,
-    6,
+    3,
+    1,
+    2,
     4,
-    5,
-    5,
-    5,
+    1,
+    3,
     4
   ],
   "colClues": [
-    4,
+    2,
+    2,
+    2,
+    2,
     5,
-    4,
-    7,
-    5,
-    7,
+    3,
     2
   ],
-  "themeWord": "corps",
+  "themeWord": "andante",
   "solution": [
     [
-      true,
+      false,
+      false,
       false,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
-      true,
+      false,
       false
     ],
     [
-      true,
-      true,
+      false,
       false,
       true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
       false,
-      true,
       false,
+      true,
       true,
       false
     ],
     [
       true,
-      true,
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
       true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      true,
       true,
       true,
       false
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 34
+  "parMoves": 18
 }

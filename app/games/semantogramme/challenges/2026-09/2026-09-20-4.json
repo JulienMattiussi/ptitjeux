@@ -5,128 +5,92 @@
   "height": 7,
   "words": [
     [
-      "rythme",
-      "trompette",
-      "flûte",
-      "opéra",
-      "devoir",
-      "bureau",
-      "règle"
+      "wallaby",
+      "charentais",
+      "mardi",
+      "éroder",
+      "noblesse",
+      "cardinal",
+      "pardonner"
     ],
     [
-      "caillou",
-      "pince",
-      "prison",
-      "piano",
-      "écran",
-      "flûte",
-      "étoile"
+      "coeur",
+      "sismologue",
+      "basculer",
+      "cathédrale",
+      "instituteur",
+      "nouvelle",
+      "généreux"
     ],
     [
-      "rumeur",
-      "choeur",
-      "opéra",
-      "plateau",
-      "silence",
-      "piano",
-      "règle"
+      "générosité",
+      "partition",
+      "banlieue",
+      "frisson",
+      "larguer",
+      "tolérant",
+      "enjoliveur"
     ],
     [
-      "batterie",
-      "mélodie",
-      "tambour",
-      "ombre",
-      "savon",
-      "lampe",
-      "tambour"
+      "icône",
+      "clémence",
+      "épargner",
+      "disque",
+      "lourde",
+      "caban",
+      "fonction"
     ],
     [
-      "orgue",
-      "guitare",
-      "prière",
-      "banquier",
-      "chant",
-      "enveloppe",
-      "chant"
+      "coutume",
+      "tolérance",
+      "grand",
+      "indulgence",
+      "rocheux",
+      "oublier",
+      "sincère"
     ],
     [
-      "savon",
-      "miroir",
-      "vis",
-      "coussin",
-      "gamme",
-      "coussin",
-      "chaise"
+      "pardon",
+      "écluse",
+      "absoudre",
+      "bannière",
+      "noble",
+      "saule",
+      "ruban"
     ],
     [
-      "gamme",
-      "brosse",
-      "enveloppe",
-      "rythme",
-      "pince",
-      "ombre",
-      "agenda"
+      "farouche",
+      "palper",
+      "royal",
+      "gracier",
+      "mental",
+      "idolâtrer",
+      "écourter"
     ]
   ],
   "rowClues": [
-    4,
     2,
+    2,
+    2,
+    2,
+    4,
     3,
-    4,
-    4,
-    1,
     2
   ],
   "colClues": [
-    4,
-    4,
     3,
-    3,
+    2,
+    4,
+    2,
     2,
     2,
     2
   ],
-  "themeWord": "musique",
+  "themeWord": "magnanime",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true,
@@ -134,23 +98,59 @@
       true
     ],
     [
+      true,
       false,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       true,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

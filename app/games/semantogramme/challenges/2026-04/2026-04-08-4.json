@@ -5,115 +5,97 @@
   "height": 7,
   "words": [
     [
-      "flûte",
-      "pétale",
+      "chasser",
+      "détermination",
+      "doucement",
+      "amplificateur",
+      "enjouée",
+      "mélancolie",
+      "intégrité"
+    ],
+    [
+      "serre",
+      "rare",
+      "ratatouille",
+      "dépôt",
+      "fondre",
+      "personnel",
+      "arctique"
+    ],
+    [
+      "chaperon",
+      "mue",
+      "voler",
+      "contemporain",
+      "lâche",
+      "ennui",
+      "beurre"
+    ],
+    [
+      "royal",
+      "traque",
+      "adorer",
+      "puissant",
+      "rapace",
+      "oligocène",
+      "pignon"
+    ],
+    [
+      "aile",
+      "proue",
+      "morisot",
+      "plumage",
+      "élaguer",
+      "noble",
+      "falconidé"
+    ],
+    [
+      "congo",
+      "tribale",
+      "esquisser",
       "manuel",
-      "guitare",
-      "panier",
-      "rideau",
-      "opéra"
+      "caniculaire",
+      "piquer",
+      "éploré"
     ],
     [
-      "harpe",
-      "violon",
-      "racine",
-      "rythme",
-      "chant",
-      "devoir",
-      "guitare"
-    ],
-    [
-      "pierre",
-      "bureau",
-      "prière",
-      "carnet",
-      "cadre",
-      "choeur",
-      "violon"
-    ],
-    [
-      "accord",
-      "livre",
-      "banquier",
-      "brosse",
-      "batterie",
-      "chant",
-      "tournevis"
-    ],
-    [
-      "racine",
-      "opéra",
-      "ombre",
-      "silence",
-      "maison",
-      "mémoire",
-      "tasse"
-    ],
-    [
-      "balai",
-      "serrure",
-      "symphonie",
-      "enveloppe",
-      "panier",
-      "guitare",
-      "rythme"
-    ],
-    [
-      "chant",
-      "jardin",
-      "ombre",
-      "mélodie",
-      "trompette",
-      "chant",
-      "mémoire"
+      "lingot",
+      "falconnerie",
+      "législatif",
+      "étoffe",
+      "chartreux",
+      "leurre",
+      "capteur"
     ]
   ],
   "rowClues": [
-    3,
-    5,
-    2,
-    3,
     1,
     3,
-    4
+    3,
+    3,
+    4,
+    1,
+    2
   ],
   "colClues": [
-    4,
+    5,
     2,
     1,
+    2,
+    2,
     3,
-    3,
-    4,
-    4
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "gerfaut",
   "solution": [
     [
       true,
       false,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
       false,
-      false,
-      false,
-      true,
-      true
+      false
     ],
     [
       true,
@@ -121,6 +103,42 @@
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -130,27 +148,9 @@
       false,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 17
 }

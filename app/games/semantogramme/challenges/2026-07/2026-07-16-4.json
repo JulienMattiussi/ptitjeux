@@ -5,95 +5,140 @@
   "height": 7,
   "words": [
     [
-      "corail",
-      "rumeur",
-      "saumon",
-      "corail",
-      "écume",
-      "miroir",
-      "mémoire"
+      "courber",
+      "duffel-coat",
+      "prologue",
+      "aplatir",
+      "cravate",
+      "rampant",
+      "gonflement"
     ],
     [
-      "clé",
-      "maison",
-      "chaise",
-      "écran",
-      "chaise",
-      "savon",
-      "requin"
+      "limaces",
+      "douloureux",
+      "ausculter",
+      "humeur",
+      "soumis",
+      "ancestral",
+      "hypocrite"
     ],
     [
-      "thon",
-      "sable",
-      "étoile",
-      "panneau",
-      "lampe",
-      "livre",
-      "écaille"
+      "siphon",
+      "salamalec",
+      "mélodieux",
+      "mielleux",
+      "asymétrique",
+      "iridescent",
+      "bronzage"
     ],
     [
-      "racine",
-      "étagère",
-      "tabouret",
-      "écaille",
-      "vis",
-      "ciseaux",
-      "tapis"
+      "genou",
+      "comic",
+      "révérence",
+      "rayonner",
+      "humble",
+      "faux",
+      "bénin"
     ],
     [
-      "thon",
-      "horloge",
-      "pierre",
-      "sardine",
-      "sardine",
-      "sable",
-      "saumon"
+      "agiter",
+      "pirouetter",
+      "lâche",
+      "drap",
+      "orthodoxe",
+      "révérer",
+      "environnemental"
     ],
     [
-      "savon",
-      "mur",
-      "savon",
-      "chemin",
-      "marteau",
-      "dauphin",
-      "lampe"
+      "flatteur",
+      "résonant",
+      "complimenter",
+      "bout-dehors",
+      "édifier",
+      "épigramme",
+      "fournir"
     ],
     [
-      "racine",
-      "baleine",
-      "table",
-      "dauphin",
-      "prison",
-      "voisin",
-      "ombre"
+      "semelle",
+      "tranquillité",
+      "pleurnicher",
+      "mail",
+      "pédant",
+      "fraisier",
+      "bricolage"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     3,
-    1,
-    5,
-    1,
-    2
+    2,
+    2,
+    3,
+    2,
+    2,
+    1
   ],
   "colClues": [
-    3,
     2,
     1,
-    4,
+    3,
     2,
-    2,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "obséquieux",
   "solution": [
     [
       true,
       false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false,
       false
     ],
@@ -102,55 +147,10 @@
       false,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

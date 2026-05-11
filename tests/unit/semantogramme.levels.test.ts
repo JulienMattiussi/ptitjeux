@@ -10,8 +10,14 @@ import {
 import { CURATED_THEMES_L1 } from '../../generators/curated-themes-l1'
 import { CURATED_THEMES_L2 } from '../../generators/curated-themes-l2'
 import { CURATED_THEMES_L3 } from '../../generators/curated-themes-l3'
+import { CURATED_THEMES_L4 } from '../../generators/curated-themes-l4'
 
-const CURATED_MAPS = { 1: CURATED_THEMES_L1, 2: CURATED_THEMES_L2, 3: CURATED_THEMES_L3 } as const
+const CURATED_MAPS = {
+  1: CURATED_THEMES_L1,
+  2: CURATED_THEMES_L2,
+  3: CURATED_THEMES_L3,
+  4: CURATED_THEMES_L4,
+} as const
 
 describe('niveaux Sémantogramme : intégrité', () => {
   const dates = getAllDates()
@@ -61,7 +67,7 @@ describe('niveaux Sémantogramme : intégrité', () => {
     // (clue = 0) appauvrit le puzzle. Le générateur curé re-mélange jusqu'à
     // satisfaction ; on vérifie ici que le JSON livré respecte bien la règle.
     for (const date of dates) {
-      for (const i of [1, 2, 3] as const) {
+      for (const i of [1, 2, 3, 4] as const) {
         if (!CURATED_MAPS[i][date]) continue
         const level = getLevel(date, i)!
         for (let y = 0; y < level.height; y++) {
@@ -83,7 +89,7 @@ describe('niveaux Sémantogramme : intégrité', () => {
     // L1, L2 et L3 sont curés : chaque case porte un mot distinct. L4 reste
     // tiré aléatoirement et peut répéter (par construction).
     for (const date of dates) {
-      for (const i of [1, 2, 3] as const) {
+      for (const i of [1, 2, 3, 4] as const) {
         if (!CURATED_MAPS[i][date]) continue
         const level = getLevel(date, i)!
         const flat = level.words.flat()
@@ -93,7 +99,7 @@ describe('niveaux Sémantogramme : intégrité', () => {
     }
   })
 
-  it('thèmes curés : tous distincts entre L1, L2, L3 et entre eux', () => {
+  it('thèmes curés : tous distincts entre L1, L2, L3, L4 et entre eux', () => {
     const allCurated: Array<{ source: string; word: string }> = []
     for (const [date, theme] of Object.entries(CURATED_THEMES_L1)) {
       allCurated.push({ source: `L1/${date}`, word: theme.word })
@@ -103,6 +109,9 @@ describe('niveaux Sémantogramme : intégrité', () => {
     }
     for (const [date, theme] of Object.entries(CURATED_THEMES_L3)) {
       allCurated.push({ source: `L3/${date}`, word: theme.word })
+    }
+    for (const [date, theme] of Object.entries(CURATED_THEMES_L4)) {
+      allCurated.push({ source: `L4/${date}`, word: theme.word })
     }
     const seen = new Map<string, string>()
     for (const { source, word } of allCurated) {

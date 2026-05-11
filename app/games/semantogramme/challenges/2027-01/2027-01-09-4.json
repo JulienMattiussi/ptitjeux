@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "requin",
-      "rideau",
-      "table",
-      "parfum",
-      "saumon",
-      "phare",
-      "baleine"
+      "micacée",
+      "gouvernemental",
+      "bataille",
+      "trampoline",
+      "tour",
+      "fenouil",
+      "tartine"
     ],
     [
-      "thon",
-      "voile",
-      "thon",
-      "tasse",
-      "coussin",
-      "prison",
-      "tunnel"
+      "avocat",
+      "amer",
+      "mire",
+      "sternum",
+      "gothique",
+      "orner",
+      "muscler"
     ],
     [
-      "écaille",
-      "gomme",
-      "vague",
-      "plage",
-      "plafond",
-      "méduse",
-      "sol"
+      "architecture",
+      "cloche",
+      "cavité",
+      "haut",
+      "mielleux",
+      "resplendissant",
+      "pendant"
     ],
     [
-      "requin",
-      "règle",
-      "timbre",
-      "corail",
-      "panneau",
-      "silence",
-      "règle"
+      "briller",
+      "pise",
+      "sécréter",
+      "fée",
+      "isolé",
+      "autruche",
+      "monnaie"
     ],
     [
-      "prison",
-      "écaille",
-      "devoir",
-      "pince",
-      "devoir",
-      "écume",
-      "caillou"
+      "clocher",
+      "hériter",
+      "gercé",
+      "capter",
+      "durée",
+      "modelage",
+      "acidulé"
     ],
     [
-      "phare",
-      "poisson",
-      "corail",
-      "écran",
-      "écume",
-      "voile",
-      "horloge"
+      "comprimer",
+      "élégant",
+      "lacune",
+      "électron",
+      "admirer",
+      "italien",
+      "vasarely"
     ],
     [
-      "voile",
-      "méduse",
-      "balai",
-      "sardine",
-      "corail",
-      "écume",
-      "écran"
+      "combat",
+      "verger",
+      "sonner",
+      "florence",
+      "traîner",
+      "norvège",
+      "renaissance"
     ]
   ],
   "rowClues": [
-    4,
+    1,
+    2,
     3,
-    4,
     2,
-    2,
-    5,
-    5
+    1,
+    3,
+    3
   ],
   "colClues": [
-    6,
+    2,
+    3,
+    1,
+    2,
     4,
-    3,
-    3,
-    3,
-    5,
+    2,
     1
   ],
-  "themeWord": "mer",
+  "themeWord": "campanile",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       false,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 15
 }

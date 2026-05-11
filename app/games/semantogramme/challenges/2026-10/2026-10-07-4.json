@@ -5,93 +5,111 @@
   "height": 7,
   "words": [
     [
-      "lion",
-      "manuel",
-      "renard",
-      "chaise",
-      "bureau",
-      "koala",
-      "panneau"
+      "élancé",
+      "reproche",
+      "eau-vive",
+      "remorquer",
+      "fatalité",
+      "foudroyant",
+      "sablière"
     ],
     [
-      "koala",
-      "chaise",
-      "lynx",
-      "belette",
-      "renard",
-      "rumeur",
-      "lion"
+      "destin",
+      "noix",
+      "rapper",
+      "foulard",
+      "autoritariste",
+      "reconnaître",
+      "isolée"
     ],
     [
-      "devoir",
-      "chien",
-      "castor",
-      "coussin",
-      "règle",
-      "ours",
-      "panier"
+      "ouvragé",
+      "apporter",
+      "repousser",
+      "apprenti",
+      "tamiser",
+      "extrême",
+      "campagne"
     ],
     [
-      "tigre",
-      "lion",
-      "bureau",
-      "écureuil",
-      "ombre",
-      "souris",
-      "étoile"
+      "accepter",
+      "définitif",
+      "précession",
+      "printemps",
+      "noter",
+      "vertèbre",
+      "inévitable"
     ],
     [
-      "banquier",
-      "koala",
-      "savon",
-      "parfum",
-      "manuel",
-      "parfum",
-      "koala"
+      "imminent",
+      "sarcophage",
+      "tragique",
+      "dorée",
+      "certain",
+      "choquer",
+      "pleurote"
     ],
     [
-      "souris",
-      "belette",
-      "zèbre",
-      "girafe",
-      "caillou",
-      "mémoire",
-      "parfum"
+      "agrafeuse",
+      "randonnée",
+      "inexorable",
+      "mortel",
+      "projecteur",
+      "métallique",
+      "tsunami"
     ],
     [
-      "cadre",
-      "livre",
-      "rideau",
-      "écureuil",
-      "maison",
-      "carnet",
-      "castor"
+      "cruel",
+      "recommander",
+      "ralentir",
+      "imprimer",
+      "incontournable",
+      "sou",
+      "sombre"
     ]
   ],
   "rowClues": [
-    3,
-    5,
-    3,
-    4,
     2,
-    4,
-    2
+    2,
+    1,
+    3,
+    3,
+    2,
+    3
   ],
   "colClues": [
     4,
-    4,
-    4,
-    4,
+    1,
+    2,
     1,
     3,
-    3
+    3,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "inéluctable",
   "solution": [
     [
-      true,
+      false,
+      false,
+      false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       false,
       true,
@@ -99,33 +117,6 @@
     ],
     [
       true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -135,7 +126,16 @@
     ],
     [
       true,
+      false,
       true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       true,
       false,
@@ -143,14 +143,14 @@
       false
     ],
     [
+      true,
       false,
       false,
       false,
       true,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 23
+  "parMoves": 16
 }

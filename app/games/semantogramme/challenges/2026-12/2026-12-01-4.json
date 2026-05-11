@@ -5,93 +5,111 @@
   "height": 7,
   "words": [
     [
-      "prison",
-      "tablier",
-      "ciseaux",
-      "poêle",
-      "plat",
-      "mur",
-      "règle"
+      "douceur",
+      "élaborer",
+      "immense",
+      "casque",
+      "fuir",
+      "apéro",
+      "roche"
     ],
     [
-      "panneau",
-      "fusée",
-      "couteau",
-      "banquier",
-      "cuillère",
-      "horloge",
-      "fourchette"
+      "stalagmite",
+      "lointain",
+      "océan",
+      "expression",
+      "balle",
+      "primitif",
+      "préhistoire"
     ],
     [
-      "tapis",
-      "verre",
-      "cadre",
-      "mur",
-      "four",
-      "silence",
-      "frigo"
+      "personnel",
+      "expéditif",
+      "ancien",
+      "origine",
+      "cryogénien",
+      "aurèle",
+      "dynamisme"
     ],
     [
-      "rumeur",
-      "caillou",
-      "assiette",
-      "étoile",
-      "assiette",
-      "tabouret",
-      "plat"
+      "kierkegaard",
+      "temple",
+      "protérozoïque",
+      "potion",
+      "continent",
+      "ère",
+      "archéen"
     ],
     [
-      "tournevis",
-      "fourchette",
-      "frigo",
-      "lampe",
-      "verre",
-      "tablier",
-      "crayon"
+      "occulté",
+      "inanimé",
+      "biseau",
+      "vie",
+      "plectre",
+      "délivrance",
+      "obligatoire"
     ],
     [
-      "manuel",
-      "sol",
-      "couteau",
-      "serrure",
-      "balai",
-      "fourchette",
-      "plafond"
+      "sédiment",
+      "servir",
+      "géologique",
+      "irrationnel",
+      "gastrocnémien",
+      "évolution",
+      "stromatolite"
     ],
     [
-      "épice",
-      "farine",
-      "recette",
-      "peigne",
-      "gomme",
-      "caillou",
-      "épice"
+      "législative",
+      "foncer",
+      "cinétique",
+      "sublime",
+      "volcanisme",
+      "bactérie",
+      "cabri"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
+    1,
+    4,
     3,
     4,
-    2,
-    4
+    1,
+    4,
+    2
   ],
   "colClues": [
     1,
-    4,
-    5,
     1,
-    5,
+    4,
     2,
+    3,
+    4,
     4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "précambrien",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       true,
       false,
@@ -103,54 +121,36 @@
       true,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      true,
-      false,
       true
     ],
     [
       false,
       false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
       false,
-      true,
       false
     ],
     [
       true,
+      false,
       true,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 19
 }

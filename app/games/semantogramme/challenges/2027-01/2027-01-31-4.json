@@ -5,118 +5,127 @@
   "height": 7,
   "words": [
     [
-      "maison",
-      "verre",
-      "livre",
-      "couteau",
-      "verre",
-      "assiette",
-      "ciseaux"
+      "pelage",
+      "brouter",
+      "bilan",
+      "facial",
+      "australie",
+      "tristesse",
+      "brosse"
     ],
     [
-      "verre",
-      "frigo",
-      "poêle",
-      "évier",
-      "farine",
-      "plat",
-      "tunnel"
+      "fougueux",
+      "bondir",
+      "transition",
+      "paisible",
+      "paroisse",
+      "gaie",
+      "récréation"
     ],
     [
-      "spatule",
-      "rideau",
-      "tasse",
-      "coussin",
-      "brosse",
-      "chemin",
-      "savon"
+      "congélateur",
+      "gracieux",
+      "acéré",
+      "alligator",
+      "cheval-marin",
+      "patte",
+      "queue"
     ],
     [
-      "casserole",
-      "racine",
-      "farine",
-      "frigo",
-      "tunnel",
-      "silence",
-      "four"
+      "roquefort",
+      "agriculture",
+      "minuscule",
+      "paletot",
+      "sauter",
+      "frange",
+      "dépression"
     ],
     [
-      "verre",
-      "assiette",
-      "fourchette",
-      "carnet",
-      "enveloppe",
-      "fourchette",
-      "recette"
+      "froid",
+      "lutte",
+      "kangourou",
+      "poche",
+      "ouïe",
+      "calmar",
+      "roux"
     ],
     [
-      "épice",
-      "caillou",
-      "jardin",
-      "sol",
-      "crayon",
-      "plat",
-      "ciseaux"
+      "taille",
+      "pochette",
+      "foulée",
+      "familial",
+      "lier",
+      "éocène",
+      "gris"
     ],
     [
-      "four",
-      "assiette",
-      "spatule",
-      "tournevis",
-      "vis",
-      "panier",
-      "cuillère"
+      "longue",
+      "racler",
+      "marsupial",
+      "pinceau",
+      "peau",
+      "réaliser",
+      "cristalline"
     ]
   ],
   "rowClues": [
-    4,
-    6,
-    1,
-    4,
-    5,
-    2,
-    4
-  ],
-  "colClues": [
-    6,
-    4,
-    4,
     3,
     2,
-    4,
+    3,
+    2,
+    3,
+    3,
     3
   ],
-  "themeWord": "cuisine",
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "wallaby",
   "solution": [
     [
+      true,
+      true,
+      false,
       false,
       true,
       false,
-      true,
-      true,
-      true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
+      false,
       true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       false
     ],
     [
+      false,
       true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -126,31 +135,22 @@
     ],
     [
       true,
-      true,
-      true,
       false,
       false,
       true,
+      false,
+      false,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
+      true,
       false,
       true,
+      false,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 26
+  "parMoves": 19
 }

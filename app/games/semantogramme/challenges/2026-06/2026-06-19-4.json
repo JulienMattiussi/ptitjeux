@@ -5,138 +5,129 @@
   "height": 7,
   "words": [
     [
-      "livre",
-      "jardin",
-      "kiwi",
-      "pastèque",
-      "marteau",
-      "crayon",
-      "fraise"
+      "étoile",
+      "colère",
+      "baudelaire",
+      "attaquer",
+      "jumelé",
+      "cygne",
+      "magnifier"
     ],
     [
-      "devoir",
-      "abricot",
-      "parfum",
-      "prison",
-      "caillou",
-      "pelle",
-      "pastèque"
+      "hulotte",
+      "triomphe",
+      "orang-outan",
+      "gravure",
+      "couper",
+      "protestation",
+      "ardent"
     ],
     [
-      "prison",
-      "mûre",
-      "enveloppe",
-      "banane",
-      "pêche",
-      "serrure",
-      "banane"
+      "menu",
+      "rude",
+      "heurter",
+      "classe",
+      "spécialiste",
+      "roue",
+      "trias"
     ],
     [
-      "banane",
-      "agenda",
-      "enveloppe",
-      "orange",
-      "figue",
-      "framboise",
-      "tasse"
+      "défendre",
+      "derby",
+      "violent",
+      "abaisser",
+      "vaisselle",
+      "compresser",
+      "dénoncer"
     ],
     [
-      "coussin",
-      "tasse",
-      "rideau",
-      "figue",
-      "serrure",
-      "marteau",
-      "ananas"
+      "emporté",
+      "agam",
+      "cantaloup",
+      "fougueux",
+      "agressif",
+      "protester",
+      "passionné"
     ],
     [
-      "tournevis",
-      "pastèque",
-      "figue",
-      "orange",
-      "abricot",
-      "pêche",
-      "banane"
+      "savant",
+      "perdrix",
+      "arbuste",
+      "crier",
+      "monumental",
+      "maux",
+      "engendrer"
     ],
     [
-      "cadre",
-      "chemin",
-      "caillou",
-      "étagère",
-      "silence",
-      "figue",
-      "marteau"
+      "expressif",
+      "plaquage",
+      "célèbre",
+      "cingler",
+      "museau",
+      "intense",
+      "haricot"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    1,
     3,
-    2,
-    4,
-    4,
-    2,
-    6,
+    5,
+    1,
     1
   ],
   "colClues": [
-    1,
     3,
     2,
-    5,
+    1,
     3,
-    3,
-    5
+    1,
+    2,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "véhément",
   "solution": [
     [
       false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
-      true,
-      true,
-      true,
       false
     ],
     [
       false,
       false,
       false,
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ],
     [
       false,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true,
       true,
@@ -146,11 +137,20 @@
       false,
       false,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 15
 }

@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "ombre",
-      "timbre",
-      "porte",
-      "tabouret",
-      "sol",
-      "panneau",
-      "opéra"
+      "épanouissement",
+      "or",
+      "crasse",
+      "culture",
+      "persienne",
+      "dignité",
+      "chaussure"
     ],
     [
-      "rideau",
-      "mélodie",
-      "choeur",
-      "guitare",
-      "violon",
-      "pince",
-      "coussin"
+      "glouton",
+      "rabelais",
+      "cultiver",
+      "gyrer",
+      "antiquité",
+      "énorme",
+      "universel"
     ],
     [
-      "horloge",
-      "concerto",
-      "flûte",
-      "accord",
-      "symphonie",
-      "jazz",
-      "porte"
+      "redingote",
+      "érasme",
+      "renaissance",
+      "perceuse",
+      "éclairée",
+      "engraisser",
+      "régurgiter"
     ],
     [
-      "gamme",
-      "note",
-      "piano",
-      "orgue",
-      "crayon",
-      "horloge",
-      "concerto"
+      "cristalline",
+      "cuirasse",
+      "majorité",
+      "humaniste",
+      "tolérance",
+      "philosophie",
+      "lamentation"
     ],
     [
-      "chant",
-      "mur",
-      "tambour",
-      "orgue",
-      "caillou",
-      "prière",
-      "piano"
+      "mémoriser",
+      "espoir",
+      "crise",
+      "fournaise",
+      "éducation",
+      "montaigne",
+      "meurtre"
     ],
     [
-      "devoir",
-      "prière",
-      "maison",
-      "orgue",
-      "piano",
-      "concerto",
-      "accord"
+      "mammouth",
+      "multitude",
+      "bouillir",
+      "valeur",
+      "calendrier",
+      "homme",
+      "sérénité"
     ],
     [
-      "jazz",
-      "devoir",
-      "lueur",
-      "panier",
-      "violon",
-      "brosse",
-      "miroir"
+      "discernement",
+      "brasser",
+      "penser",
+      "oeil-de-chat",
+      "opération",
+      "amener",
+      "pointer"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    5,
-    5,
-    4,
-    4,
-    2
-  ],
-  "colClues": [
     3,
-    3,
-    4,
-    5,
     4,
     2,
-    4
+    3,
+    2,
+    2,
+    1
   ],
-  "themeWord": "musique",
+  "colClues": [
+    1,
+    2,
+    3,
+    3,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "humanisme",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true,
       false,
+      false,
+      true,
+      false,
+      true,
       false
     ],
     [
       false,
       true,
       true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
+      false,
       false,
       true,
       true,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
       false,
       true,
+      false,
       true,
-      true,
-      true
+      false
     ],
     [
+      false,
+      false,
       true,
       false,
       false,
-      false,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 17
 }

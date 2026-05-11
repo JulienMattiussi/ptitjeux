@@ -5,111 +5,93 @@
   "height": 7,
   "words": [
     [
-      "dos",
-      "livre",
-      "plateau",
-      "main",
-      "peau",
-      "tasse",
-      "livre"
+      "chapiteau",
+      "chaussure",
+      "salon",
+      "fronton",
+      "aérien",
+      "case",
+      "plancher"
     ],
     [
-      "étagère",
-      "langue",
-      "épaule",
-      "serrure",
-      "crayon",
-      "dos",
-      "jardin"
+      "flèche",
+      "verjus",
+      "gracieux",
+      "cortège",
+      "orientale",
+      "diplôme",
+      "fainéant"
     ],
     [
-      "porte",
-      "dent",
-      "pied",
-      "racine",
-      "peau",
-      "chemin",
-      "carnet"
+      "responsive",
+      "gothique",
+      "sciuridé",
+      "bienfaiteur",
+      "moral",
+      "élégant",
+      "clocher"
     ],
     [
-      "épaule",
-      "sol",
-      "oreille",
-      "règle",
-      "peau",
-      "tapis",
-      "peau"
+      "architecture",
+      "étalon",
+      "rectitude",
+      "ornement",
+      "collective",
+      "menaçant",
+      "décoratif"
     ],
     [
-      "main",
-      "prière",
-      "langue",
-      "agenda",
-      "mémoire",
-      "nez",
-      "jambe"
+      "crête",
+      "élancé",
+      "éclairer",
+      "spirituelle",
+      "tour",
+      "soustraire",
+      "brie"
     ],
     [
-      "dos",
-      "pince",
-      "épaule",
-      "oeil",
-      "coussin",
-      "plateau",
-      "étoile"
+      "orner",
+      "médiéval",
+      "rarissime",
+      "vaporeux",
+      "taquet",
+      "pointu",
+      "reproche"
     ],
     [
-      "voisin",
-      "peigne",
-      "nez",
-      "tabouret",
-      "fusée",
-      "doigt",
-      "chaise"
+      "fin",
+      "consoler",
+      "dresser",
+      "élever",
+      "petit",
+      "muscler",
+      "dattier"
     ]
   ],
   "rowClues": [
+    1,
+    2,
     3,
     3,
+    2,
     3,
-    4,
-    4,
-    3,
-    2
+    4
   ],
   "colClues": [
     4,
+    3,
     2,
-    6,
     2,
     3,
-    3,
+    2,
     2
   ],
-  "themeWord": "corps",
+  "themeWord": "clocheton",
   "solution": [
     [
-      true,
       false,
       false,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       true,
       false,
@@ -120,14 +102,14 @@
       false,
       true,
       false,
-      true,
       false,
-      true
+      false,
+      false
     ],
     [
-      true,
       false,
       true,
+      false,
       false,
       false,
       true,
@@ -136,21 +118,39 @@
     [
       true,
       false,
-      true,
+      false,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
       false,
       false
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
       false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

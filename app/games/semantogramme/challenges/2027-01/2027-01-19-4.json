@@ -5,96 +5,105 @@
   "height": 7,
   "words": [
     [
-      "mélodie",
-      "timbre",
-      "tunnel",
-      "harpe",
-      "agenda",
-      "violon",
-      "symphonie"
+      "feuilletée",
+      "russe",
+      "longitude",
+      "à-fromage",
+      "votif",
+      "ère",
+      "lacan"
     ],
     [
-      "horloge",
-      "tapis",
-      "mélodie",
-      "piano",
-      "mélodie",
-      "violon",
-      "orgue"
+      "humide",
+      "stalactite",
+      "lithologue",
+      "cola",
+      "plante",
+      "dahlia",
+      "charbon"
     ],
     [
-      "gamme",
-      "orgue",
-      "mémoire",
-      "rythme",
-      "concerto",
-      "pierre",
-      "table"
+      "aura",
+      "lisse",
+      "forêt",
+      "apparition",
+      "évolution",
+      "fossile",
+      "continental"
     ],
     [
-      "tasse",
-      "violon",
-      "opéra",
-      "chant",
-      "flûte",
-      "lampe",
-      "prière"
+      "caniche",
+      "autruche",
+      "croissant",
+      "tablier",
+      "roche",
+      "créateur",
+      "préhistoire"
     ],
     [
-      "accord",
-      "chant",
-      "accord",
-      "trompette",
-      "panneau",
-      "tambour",
-      "jazz"
+      "oxygène",
+      "pollen",
+      "aluminium",
+      "géologique",
+      "âme",
+      "balla",
+      "briquet"
     ],
     [
-      "concerto",
-      "chaise",
-      "cadre",
-      "violon",
-      "banquier",
-      "tournevis",
-      "flûte"
+      "lyre",
+      "paléozoïque",
+      "asperge",
+      "angle",
+      "guirlande",
+      "bricolage",
+      "lointain"
     ],
     [
-      "agenda",
-      "pince",
-      "trompette",
-      "prière",
-      "concerto",
-      "ombre",
-      "marteau"
+      "mare",
+      "traducteur",
+      "ver",
+      "tropical",
+      "nougat",
+      "amphibien",
+      "ancien"
     ]
   ],
   "rowClues": [
-    4,
-    5,
-    4,
-    4,
-    6,
+    1,
     3,
-    2
+    5,
+    2,
+    1,
+    2,
+    3
   ],
   "colClues": [
-    4,
+    1,
+    1,
+    1,
     3,
-    4,
-    6,
-    4,
     3,
-    4
+    3,
+    5
   ],
-  "themeWord": "musique",
+  "themeWord": "carbonifère",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
       false,
-      true,
       false,
       true,
+      false,
       true
     ],
     [
@@ -107,37 +116,28 @@
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      false,
       false,
       false
     ],
     [
       false,
       true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
-      true,
       false,
       false,
       true
@@ -145,12 +145,12 @@
     [
       false,
       false,
-      true,
       false,
       true,
       false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 17
 }

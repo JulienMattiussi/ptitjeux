@@ -5,94 +5,112 @@
   "height": 7,
   "words": [
     [
-      "chien",
-      "coussin",
-      "lynx",
-      "loup",
-      "chien",
-      "parfum",
-      "tournevis"
+      "obscurité",
+      "éradiquer",
+      "parasite",
+      "amibe",
+      "néolithique",
+      "rude",
+      "inox"
     ],
     [
-      "lapin",
-      "prison",
-      "souris",
-      "savon",
-      "globe",
-      "timbre",
-      "girafe"
+      "crouton",
+      "artistique",
+      "hôte",
+      "spécialisée",
+      "thai",
+      "tropicale",
+      "vaporeux"
     ],
     [
-      "lapin",
-      "mémoire",
-      "souris",
-      "lapin",
-      "souris",
-      "carnet",
-      "ombre"
+      "incassable",
+      "observer",
+      "éolienne",
+      "clarifier",
+      "parasitologue",
+      "globule",
+      "étagère"
     ],
     [
-      "devoir",
-      "vache",
-      "zèbre",
-      "porte",
-      "tapis",
-      "panier",
-      "marteau"
+      "science",
+      "veste",
+      "savante",
+      "mustélidé",
+      "vétérinaire",
+      "épingle",
+      "coccinelle"
     ],
     [
-      "souris",
-      "chien",
-      "renard",
-      "tigre",
-      "silence",
-      "koala",
-      "panneau"
+      "ver",
+      "admonester",
+      "étirer",
+      "serviette",
+      "martial",
+      "éclairer",
+      "oignon"
     ],
     [
-      "loup",
-      "gomme",
-      "porte",
-      "parfum",
-      "marteau",
-      "panda",
-      "écureuil"
+      "feuilleté",
+      "figure",
+      "millésime",
+      "jour",
+      "injecter",
+      "paludisme",
+      "distance"
     ],
     [
-      "enveloppe",
-      "prière",
-      "cadre",
-      "lapin",
-      "miroir",
-      "mouton",
-      "panda"
+      "incendie",
+      "agate",
+      "grenouille",
+      "médicale",
+      "analyser",
+      "aquarelle",
+      "plasmodium"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    4,
+    3,
     2,
-    5,
     3,
+    1,
+    1,
     3
   ],
   "colClues": [
-    5,
     2,
-    5,
-    4,
     2,
     3,
-    3
+    3,
+    3,
+    2,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "parasitologie",
   "solution": [
     [
-      true,
       false,
       true,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       false,
       false
@@ -102,55 +120,37 @@
       false,
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       true,
       false,
       false
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false,
       false,
       false,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       false,
       true,
-      false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 16
 }

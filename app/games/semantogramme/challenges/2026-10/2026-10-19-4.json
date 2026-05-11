@@ -5,122 +5,104 @@
   "height": 7,
   "words": [
     [
-      "pierre",
-      "sol",
+      "amérique",
+      "gravier",
+      "mosaïque",
+      "pantin",
+      "sauvage",
+      "halley",
+      "préhistorique"
+    ],
+    [
+      "désert",
+      "malpropre",
+      "gymnastique",
+      "arcade",
+      "résumé",
+      "rusé",
+      "agile"
+    ],
+    [
+      "hurlement",
+      "égoutter",
+      "irriter",
+      "gris",
+      "canidé",
+      "momie",
+      "sangle"
+    ],
+    [
+      "opportuniste",
       "peigne",
-      "foudre",
-      "banquier",
-      "plafond",
-      "silence"
+      "meute",
+      "restreint",
+      "loup",
+      "accomplir",
+      "salamalec"
     ],
     [
-      "écran",
-      "vent",
-      "soleil",
-      "pluie",
-      "plafond",
-      "orage",
-      "lueur"
+      "siffler",
+      "fuir",
+      "polymère",
+      "brun",
+      "fragmentation",
+      "plaine",
+      "patiente"
     ],
     [
-      "balai",
-      "pétale",
-      "rosée",
-      "tonnerre",
-      "tonnerre",
-      "tournevis",
-      "caillou"
+      "robe",
+      "pelage",
+      "hêtre",
+      "chasser",
+      "académique",
+      "béni",
+      "solitaire"
     ],
     [
-      "marteau",
-      "bureau",
-      "foudre",
-      "éclair",
-      "foudre",
-      "gel",
-      "gel"
-    ],
-    [
-      "neige",
-      "pince",
-      "carnet",
-      "nuage",
-      "ciseaux",
-      "sol",
-      "neige"
-    ],
-    [
-      "brosse",
-      "tournevis",
-      "rosée",
-      "soleil",
-      "pluie",
-      "tapis",
-      "agenda"
-    ],
-    [
-      "tournevis",
-      "miroir",
-      "cadre",
-      "pluie",
-      "vent",
-      "orage",
-      "maison"
+      "saison",
+      "nocturne",
+      "passeport",
+      "rôder",
+      "manuel",
+      "jumelle",
+      "éloquence"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    3,
-    5,
+    2,
     3,
     3,
-    3
-  ],
-  "colClues": [
-    1,
-    1,
-    4,
-    7,
-    4,
+    3,
+    2,
     3,
     2
   ],
-  "themeWord": "météo",
+  "colClues": [
+    4,
+    3,
+    1,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "coyote",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
       false,
       false,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       false,
       false
     ],
     [
+      true,
       false,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ],
@@ -129,28 +111,46 @@
       false,
       false,
       true,
+      true,
       false,
-      false,
-      true
+      false
     ],
     [
-      false,
+      true,
       false,
       true,
-      true,
+      false,
       true,
       false,
       false
     ],
     [
       false,
+      true,
       false,
       false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
       true,
+      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

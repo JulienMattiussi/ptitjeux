@@ -5,102 +5,93 @@
   "height": 7,
   "words": [
     [
-      "camion",
-      "scooter",
-      "métro",
-      "remorque",
-      "table",
-      "moto",
-      "bureau"
+      "kiosque",
+      "passionné",
+      "recevoir",
+      "vertigineux",
+      "révolutionnaire",
+      "art",
+      "avant-garde"
     ],
     [
-      "navette",
-      "camion",
-      "train",
-      "tunnel",
-      "moto",
-      "avion",
-      "scooter"
+      "collage",
+      "sabord",
+      "chimique",
+      "négation",
+      "subvertir",
+      "olive",
+      "tournage"
     ],
     [
-      "taxi",
-      "tunnel",
-      "bus",
-      "train",
-      "métro",
-      "vélo",
-      "chaise"
+      "mouvement",
+      "choquer",
+      "provocation",
+      "risquer",
+      "révolu",
+      "auto-stop",
+      "glorieux"
     ],
     [
-      "voiture",
-      "avion",
-      "autobus",
-      "livre",
-      "taxi",
-      "peigne",
-      "marteau"
+      "métamorphique",
+      "irriter",
+      "pichet",
+      "manifeste",
+      "ready-made",
+      "absurde",
+      "brûlure"
     ],
     [
-      "voiture",
-      "silence",
-      "banquier",
-      "fusée",
-      "carnet",
-      "chaise",
-      "clé"
+      "connecté",
+      "tzara",
+      "iconoclaste",
+      "anti-art",
+      "cédrat",
+      "implanter",
+      "choriste"
     ],
     [
-      "métro",
-      "timbre",
-      "tapis",
-      "avion",
-      "chaise",
-      "timbre",
-      "taxi"
+      "religion",
+      "construire",
+      "manche",
+      "église",
+      "irrationnel",
+      "minimaliste",
+      "joaillier"
     ],
     [
-      "lampe",
-      "prison",
-      "scooter",
-      "panier",
-      "mémoire",
-      "bateau",
-      "gomme"
+      "hépatite",
+      "désherber",
+      "rejet",
+      "duchamp",
+      "professeur",
+      "lithologue",
+      "fait main"
     ]
   ],
   "rowClues": [
-    5,
-    6,
-    5,
-    4,
+    3,
     2,
     3,
+    3,
+    3,
+    1,
     2
   ],
   "colClues": [
-    6,
+    2,
+    2,
     3,
-    5,
-    4,
     3,
     4,
-    2
+    2,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "dadaïsme",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       true,
@@ -109,10 +100,10 @@
     [
       true,
       false,
+      false,
+      false,
       true,
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
@@ -120,37 +111,46 @@
       true,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false,
       false,
       false
     ],
     [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
       true,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 17
 }

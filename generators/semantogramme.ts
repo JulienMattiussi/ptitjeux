@@ -3,6 +3,7 @@ import type { Level } from '~/games/semantogramme/types'
 import { CURATED_THEMES_L1 } from './curated-themes-l1'
 import { CURATED_THEMES_L2 } from './curated-themes-l2'
 import { CURATED_THEMES_L3 } from './curated-themes-l3'
+import { CURATED_THEMES_L4 } from './curated-themes-l4'
 import { FILLER_WORDS, THEMES } from './themes'
 
 /**
@@ -39,6 +40,13 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
       size: 6,
       nMin: 14,
       nMax: 18,
+    })
+  }
+  if (index === 4 && CURATED_THEMES_L4[date]) {
+    return generateCurated(date, 4, CURATED_THEMES_L4[date], {
+      size: 7,
+      nMin: 15,
+      nMax: 19,
     })
   }
 
@@ -141,7 +149,7 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
  */
 function generateCurated(
   date: string,
-  levelIndex: 1 | 2 | 3,
+  levelIndex: 1 | 2 | 3 | 4,
   curated: { word: string; members: readonly string[] },
   config: { size: number; nMin: number; nMax: number },
 ): Level {
@@ -191,6 +199,7 @@ function generateCurated(
   addFromMap(CURATED_THEMES_L1, levelIndex === 1)
   addFromMap(CURATED_THEMES_L2, levelIndex === 2)
   addFromMap(CURATED_THEMES_L3, levelIndex === 3)
+  addFromMap(CURATED_THEMES_L4, levelIndex === 4)
   if (fillerPool.size < fillerCount) {
     throw new Error(
       `Pool de fillers trop petit pour le thème ${curated.word} L${levelIndex} (${fillerPool.size} < ${fillerCount})`,

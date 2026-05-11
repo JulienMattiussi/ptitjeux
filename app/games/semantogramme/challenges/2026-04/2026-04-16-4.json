@@ -5,112 +5,94 @@
   "height": 7,
   "words": [
     [
-      "devoir",
-      "bureau",
-      "clé",
-      "jardin",
-      "tunnel",
-      "caravane",
-      "remorque"
+      "voile",
+      "muscade",
+      "photographe",
+      "jongler",
+      "mât",
+      "amener",
+      "frapper"
     ],
     [
-      "avion",
-      "vis",
-      "rideau",
-      "manuel",
-      "agenda",
-      "panier",
-      "métro"
+      "lime",
+      "pilule",
+      "marine",
+      "rotor",
+      "ticket",
+      "éolienne",
+      "optique"
     ],
     [
-      "chaise",
-      "gomme",
-      "écran",
-      "caravane",
-      "ferry",
-      "autobus",
-      "scooter"
+      "artistique",
+      "professoral",
+      "fatigant",
+      "haler",
+      "taquet",
+      "imperméable",
+      "théodora"
     ],
     [
-      "crayon",
-      "horloge",
-      "voiture",
-      "voiture",
-      "scooter",
-      "clé",
-      "caravane"
+      "épinard",
+      "gréer",
+      "artiste",
+      "piétiner",
+      "sous-marine",
+      "palanquer",
+      "cordage"
     ],
     [
-      "ferry",
-      "bus",
-      "autobus",
-      "avion",
-      "plafond",
-      "train",
-      "ferry"
+      "château",
+      "indolent",
+      "crédulité",
+      "écoute",
+      "border",
+      "durer",
+      "vespa"
     ],
     [
-      "savon",
-      "tramway",
-      "métro",
-      "camion",
-      "fusée",
-      "bus",
-      "crayon"
+      "choquer",
+      "cafard",
+      "manoeuvre",
+      "tendre",
+      "hisser",
+      "vieillir",
+      "hôte"
     ],
     [
-      "métro",
-      "chemin",
-      "voiture",
-      "tramway",
-      "peigne",
-      "moto",
-      "enveloppe"
+      "guindant",
+      "civique",
+      "lune",
+      "lancéolé",
+      "bonheur",
+      "profonde",
+      "évasée"
     ]
   ],
   "rowClues": [
+    4,
+    1,
     2,
+    3,
     2,
     4,
-    4,
-    6,
-    5,
-    4
+    1
   ],
   "colClues": [
     3,
+    1,
     2,
-    4,
-    5,
     3,
-    5,
-    5
+    4,
+    2,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "drisse",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       true,
       true,
       true
@@ -119,27 +101,36 @@
       false,
       false,
       true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
+      false,
+      false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -147,10 +138,19 @@
       false,
       true,
       true,
-      false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 17
 }

@@ -5,123 +5,105 @@
   "height": 7,
   "words": [
     [
-      "peigne",
-      "tabouret",
-      "pomme",
-      "ananas",
-      "globe",
-      "abricot",
-      "cassis"
+      "préparer",
+      "gratin",
+      "gourmande",
+      "embellir",
+      "embuscade",
+      "hivernale",
+      "pliage"
     ],
     [
-      "pêche",
-      "peigne",
-      "chemin",
-      "orange",
-      "orange",
-      "poire",
-      "pêche"
+      "rugueux",
+      "rustique",
+      "isolante",
+      "cuisine",
+      "pupille",
+      "coutume",
+      "cuire"
     ],
     [
-      "étoile",
-      "citron",
-      "pomme",
-      "poire",
-      "prune",
-      "pierre",
-      "raisin"
+      "crème",
+      "défenseur",
+      "paix",
+      "lien",
+      "sécher",
+      "réciter",
+      "baroque"
     ],
     [
-      "prison",
-      "orange",
-      "pétale",
-      "clé",
-      "mur",
-      "fraise",
-      "raisin"
+      "vin",
+      "limite",
+      "camembert",
+      "emblème",
+      "percuter",
+      "tatline",
+      "savoie"
     ],
     [
-      "orange",
-      "gomme",
-      "caillou",
-      "chaise",
-      "agenda",
-      "prière",
-      "framboise"
+      "passage",
+      "dendrologue",
+      "planétaire",
+      "blanc",
+      "brasse",
+      "indulgence",
+      "ethnologue"
     ],
     [
-      "pomme",
-      "framboise",
-      "caillou",
-      "cerise",
-      "jardin",
-      "règle",
-      "plafond"
+      "nerf",
+      "parabole",
+      "givre",
+      "urée",
+      "lardon",
+      "reblochon",
+      "invader"
     ],
     [
-      "raisin",
-      "prison",
-      "melon",
-      "globe",
-      "raisin",
-      "fraise",
-      "pierre"
+      "tramway",
+      "savourer",
+      "montagnarde",
+      "chameau",
+      "mulot",
+      "mansarde",
+      "albâtre"
     ]
   ],
   "rowClues": [
     4,
-    5,
-    5,
     3,
+    1,
     2,
-    3,
-    4
+    1,
+    2,
+    2
   ],
   "colClues": [
-    4,
     3,
     3,
-    4,
-    3,
-    4,
-    5
+    2,
+    2,
+    1,
+    2,
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "tartiflette",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true,
       true,
       false,
-      true
+      false,
+      true,
+      false
     ],
     [
       false,
       true,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       true
     ],
     [
@@ -129,15 +111,6 @@
       false,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false,
       false,
       false
@@ -145,12 +118,39 @@
     [
       true,
       false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 15
 }

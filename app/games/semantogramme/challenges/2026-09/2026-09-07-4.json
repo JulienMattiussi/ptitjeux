@@ -5,96 +5,114 @@
   "height": 7,
   "words": [
     [
-      "jaune",
-      "rose",
-      "rouge",
-      "manuel",
-      "argenté",
-      "jaune",
-      "tunnel"
+      "volute",
+      "ulcère",
+      "creuset",
+      "légitime",
+      "renoir",
+      "mat",
+      "sape"
     ],
     [
-      "caillou",
-      "maison",
-      "jardin",
-      "coussin",
-      "indigo",
-      "chaise",
-      "prison"
+      "klimt",
+      "belle-époque",
+      "fulgurer",
+      "serrure",
+      "fin-de-siècle",
+      "décrocher",
+      "élégant"
     ],
     [
-      "manuel",
-      "rouge",
-      "rouge",
-      "beige",
-      "gris",
-      "mauve",
-      "lueur"
+      "organique",
+      "rugir",
+      "épargne",
+      "philosophique",
+      "roller",
+      "chien",
+      "préciser"
     ],
     [
-      "indigo",
-      "argenté",
-      "violet",
-      "règle",
-      "bleu",
-      "violet",
-      "ciseaux"
+      "inutilisé",
+      "python",
+      "marchandise",
+      "tortueuse",
+      "parisien",
+      "gaudí",
+      "arabesque"
     ],
     [
-      "maison",
-      "rouge",
-      "beige",
-      "rouge",
-      "beige",
-      "tournevis",
-      "orange"
+      "vasarely",
+      "conduire",
+      "cousin",
+      "cap",
+      "agrandir",
+      "décoration",
+      "don"
     ],
     [
-      "brosse",
-      "marteau",
-      "panneau",
-      "lueur",
-      "panneau",
-      "argenté",
-      "turquoise"
+      "guimard",
+      "orné",
+      "végétal",
+      "fer",
+      "masque",
+      "sinueux",
+      "mélancolie"
     ],
     [
-      "violet",
-      "gris",
-      "manuel",
-      "mauve",
-      "devoir",
-      "violet",
-      "rouge"
+      "alcool",
+      "husserl",
+      "aile",
+      "jeûner",
+      "mucha",
+      "pâtissier",
+      "éclair"
     ]
   ],
   "rowClues": [
-    5,
+    1,
+    4,
+    1,
+    3,
     1,
     5,
-    5,
-    5,
-    2,
-    5
+    1
   ],
   "colClues": [
-    3,
-    5,
     4,
+    2,
+    1,
+    1,
     3,
-    5,
-    5,
-    3
+    3,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "art-nouveau",
   "solution": [
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
@@ -103,34 +121,7 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
       true
     ],
     [
@@ -140,17 +131,26 @@
       false,
       false,
       true,
-      true
+      false
     ],
     [
       true,
       true,
-      false,
+      true,
       true,
       false,
       true,
-      true
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 28
+  "parMoves": 16
 }

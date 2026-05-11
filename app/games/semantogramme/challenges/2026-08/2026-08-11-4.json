@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "serrure",
-      "porte",
-      "livre",
-      "devoir",
-      "timbre",
-      "rideau",
-      "ferry"
+      "humaniste",
+      "pluie",
+      "montagne",
+      "mou",
+      "charbon",
+      "paysage",
+      "incapable"
     ],
     [
-      "coussin",
-      "autobus",
-      "savon",
-      "caravane",
-      "remorque",
-      "navette",
-      "mémoire"
+      "arrêter",
+      "rivière",
+      "viande",
+      "seau",
+      "batteur",
+      "descriptive",
+      "zinc"
     ],
     [
-      "plateau",
-      "panneau",
-      "métro",
-      "tasse",
-      "ferry",
-      "table",
-      "fusée"
+      "baryton",
+      "soldes",
+      "former",
+      "plaine",
+      "sapiens",
+      "biologie",
+      "préparation"
     ],
     [
-      "camion",
-      "peigne",
-      "voiture",
-      "parfum",
-      "train",
-      "train",
-      "manuel"
+      "choriste",
+      "complimenter",
+      "savante",
+      "moineau",
+      "sédimentation",
+      "irritant",
+      "rupestre"
     ],
     [
-      "lueur",
-      "maison",
-      "banquier",
-      "maison",
-      "balai",
-      "train",
-      "peigne"
+      "empirique",
+      "gorgé",
+      "observer",
+      "hivernale",
+      "érosion",
+      "condamner",
+      "figurine"
     ],
     [
-      "fusée",
-      "crayon",
-      "caravane",
-      "fusée",
-      "avion",
-      "moto",
-      "brosse"
+      "éruption",
+      "continent",
+      "spécialisée",
+      "appliquer",
+      "comparée",
+      "conquérir",
+      "modeler"
     ],
     [
-      "racine",
-      "bureau",
-      "maison",
-      "coussin",
-      "voisin",
-      "plateau",
-      "métro"
+      "glaciation",
+      "relief",
+      "frayeur",
+      "copier",
+      "science",
+      "géomorphologue",
+      "ours"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     2,
-    4,
-    1,
-    5,
-    1
+    2,
+    2,
+    2,
+    2,
+    3,
+    4
   ],
   "colClues": [
-    2,
     1,
-    3,
     2,
+    5,
+    1,
     4,
-    4,
-    2
+    3,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "géomorphologie",
   "solution": [
     [
       false,
       false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
       false,
       true
     ],
     [
-      false,
       true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

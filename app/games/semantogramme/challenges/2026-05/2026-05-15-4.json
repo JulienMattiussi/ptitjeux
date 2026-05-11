@@ -5,109 +5,91 @@
   "height": 7,
   "words": [
     [
-      "mémoire",
-      "plateau",
-      "mémoire",
-      "gomme",
-      "cuillère",
-      "timbre",
-      "racine"
+      "posséder",
+      "sauce",
+      "vers",
+      "traditionnel",
+      "volaille",
+      "route",
+      "préparer"
     ],
     [
-      "tabouret",
-      "verre",
-      "poêle",
-      "chemin",
-      "pierre",
-      "casserole",
-      "maison"
+      "cuisine",
+      "faisan",
+      "décrypter",
+      "guide",
+      "classique",
+      "charge",
+      "détachée"
     ],
     [
-      "mur",
-      "verre",
-      "miroir",
-      "frigo",
-      "couteau",
-      "cadre",
-      "poêle"
+      "bourgeon",
+      "rôtir",
+      "comédien",
+      "parcelle",
+      "courbature",
+      "tapage",
+      "abstrait"
     ],
     [
-      "banquier",
-      "timbre",
-      "mur",
-      "spatule",
-      "miroir",
-      "table",
-      "vis"
+      "rikki-tikki",
+      "savourer",
+      "française",
+      "lecteur",
+      "courbe",
+      "huile",
+      "béton"
     ],
     [
-      "poêle",
-      "casserole",
-      "règle",
-      "spatule",
-      "fusée",
-      "devoir",
-      "table"
+      "paysan",
+      "générosité",
+      "lapin",
+      "ligne",
+      "froid",
+      "enchâsser",
+      "placebo"
     ],
     [
-      "assiette",
-      "agenda",
-      "tablier",
-      "tablier",
-      "recette",
-      "plat",
-      "évier"
+      "buse",
+      "perdrix",
+      "abattement",
+      "aromatique",
+      "mijoter",
+      "champignon",
+      "gibier"
     ],
     [
-      "verre",
-      "étagère",
-      "fourchette",
-      "cuillère",
-      "rumeur",
-      "plat",
-      "peigne"
+      "agriculture",
+      "langue",
+      "gastronomique",
+      "vin",
+      "exhumer",
+      "région",
+      "achever"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     4,
-    1,
     3,
-    6,
-    4
+    1,
+    2,
+    2,
+    5,
+    2
   ],
   "colClues": [
-    3,
-    3,
-    3,
+    2,
     5,
     3,
     3,
+    3,
+    1,
     2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "salmis",
   "solution": [
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
@@ -116,41 +98,59 @@
       true
     ],
     [
-      false,
+      true,
+      true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       false,
       false,
       false
     ],
     [
       true,
-      true,
       false,
       true,
+      false,
       false,
       false,
       false
     ],
     [
-      true,
       false,
       true,
+      false,
       true,
       true,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       true,
       false,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 19
 }

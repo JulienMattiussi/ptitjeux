@@ -5,94 +5,121 @@
   "height": 7,
   "words": [
     [
-      "lynx",
-      "globe",
-      "racine",
-      "girafe",
+      "tunnel",
+      "éclipse",
+      "discrétion",
+      "corné",
+      "figuratif",
+      "curieux",
+      "horizon"
+    ],
+    [
+      "terre",
+      "bannière",
+      "parcimonie",
+      "cravate",
+      "stabiliser",
+      "descriptive",
+      "observer"
+    ],
+    [
+      "agronomique",
+      "moutarde",
+      "pédologue",
       "sol",
-      "panier",
-      "ombre"
+      "développementale",
+      "spot",
+      "sable"
     ],
     [
-      "koala",
-      "miroir",
-      "prison",
-      "koala",
-      "lapin",
-      "agenda",
-      "pierre"
+      "encadrement",
+      "roche",
+      "albâtre",
+      "révérence",
+      "vrille",
+      "dahlia",
+      "argousier"
     ],
     [
-      "écureuil",
-      "sol",
-      "voisin",
-      "souris",
-      "plafond",
-      "horloge",
-      "peigne"
+      "analyser",
+      "courir",
+      "or",
+      "identifier",
+      "épauler",
+      "argile",
+      "gonflable"
     ],
     [
-      "lion",
-      "cheval",
-      "koala",
-      "lynx",
-      "rumeur",
-      "loup",
-      "écran"
+      "profil",
+      "rachmaninov",
+      "impalpable",
+      "couard",
+      "spécialisée",
+      "commis",
+      "humus"
     ],
     [
-      "vache",
-      "chien",
-      "écureuil",
-      "lampe",
-      "lynx",
-      "chat",
-      "règle"
-    ],
-    [
-      "panda",
-      "jardin",
-      "koala",
-      "cheval",
-      "belette",
-      "crayon",
-      "loup"
-    ],
-    [
-      "enveloppe",
-      "écran",
-      "tigre",
-      "caillou",
-      "miroir",
-      "manuel",
-      "sol"
+      "extension",
+      "savante",
+      "couper",
+      "souvenir",
+      "verrou",
+      "maquette",
+      "gothique"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     3,
-    2,
-    5,
-    5,
-    5,
+    4,
+    1,
+    3,
+    3,
     1
   ],
   "colClues": [
-    6,
-    2,
     4,
-    5,
-    3,
     2,
-    1
+    1,
+    2,
+    1,
+    2,
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "pédologie",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false,
       false,
       false
@@ -102,55 +129,28 @@
       false,
       false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       true,
       false
     ],
     [
       true,
-      true,
-      true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
+      false,
       true,
       false,
       true
     ],
     [
       false,
-      false,
       true,
+      false,
       false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 16
 }

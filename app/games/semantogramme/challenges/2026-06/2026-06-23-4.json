@@ -5,96 +5,114 @@
   "height": 7,
   "words": [
     [
-      "figue",
-      "maison",
-      "abricot",
-      "manuel",
-      "panier",
-      "caillou",
-      "poire"
+      "couronner",
+      "médicis",
+      "présage",
+      "classique",
+      "hisser",
+      "fenaison",
+      "raconter"
     ],
     [
-      "pastèque",
-      "parfum",
-      "caillou",
-      "poire",
-      "agenda",
-      "fraise",
-      "orange"
+      "commémoration",
+      "monumental",
+      "sculpture",
+      "grec",
+      "titanesque",
+      "verjus",
+      "triangle"
     ],
     [
-      "livre",
-      "pêche",
-      "rideau",
-      "pêche",
-      "porte",
-      "framboise",
-      "pince"
+      "guider",
+      "rénover",
+      "soulages",
+      "glaçon",
+      "savane",
+      "majestueux",
+      "élever"
     ],
     [
-      "écran",
-      "marteau",
-      "agenda",
-      "globe",
-      "tasse",
-      "figue",
-      "pomme"
+      "architecture",
+      "libellule",
+      "sumo",
+      "temple",
+      "brune",
+      "arbalète",
+      "redresser"
     ],
     [
-      "voisin",
-      "clé",
-      "pastèque",
-      "melon",
-      "prière",
-      "pomme",
-      "caillou"
+      "usité",
+      "abstrus",
+      "châtaigne",
+      "brûlure",
+      "flanquer",
+      "antique",
+      "rétroviseur"
     ],
     [
-      "prune",
-      "coussin",
-      "cerise",
-      "savon",
-      "kiwi",
-      "chaise",
-      "orange"
+      "canada",
+      "puma",
+      "mécanique",
+      "légale",
+      "halley",
+      "orner",
+      "noble"
     ],
     [
-      "manuel",
-      "fraise",
-      "kiwi",
-      "orange",
-      "horloge",
-      "pomme",
-      "marteau"
+      "voyance",
+      "pignon",
+      "concorde",
+      "debord",
+      "corniche",
+      "alambic",
+      "infarctus"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    3,
     2,
-    3,
     4,
-    4
+    2,
+    2,
+    1,
+    2,
+    2
   ],
   "colClues": [
-    3,
     2,
-    4,
-    4,
+    2,
     1,
-    5,
-    4
+    3,
+    1,
+    3,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "fronton",
   "solution": [
     [
       true,
       false,
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
       true
     ],
     [
@@ -103,14 +121,14 @@
       false,
       true,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       false,
       true,
       false
@@ -126,31 +144,13 @@
     ],
     [
       false,
-      false,
-      true,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 15
 }

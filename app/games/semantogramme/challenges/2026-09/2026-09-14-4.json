@@ -5,105 +5,114 @@
   "height": 7,
   "words": [
     [
-      "lueur",
-      "train",
-      "tasse",
-      "miroir",
-      "camion",
-      "manuel",
-      "caravane"
+      "mortier",
+      "parfumé",
+      "soufflet",
+      "éphémère",
+      "germain",
+      "joaillier",
+      "déchiffrer"
     ],
     [
-      "jardin",
-      "pelle",
-      "camion",
-      "jardin",
-      "plateau",
-      "taxi",
-      "panier"
+      "licorne",
+      "cépage",
+      "beauté",
+      "comparaison",
+      "antenne",
+      "orange",
+      "mansarde"
     ],
     [
-      "vis",
-      "écran",
-      "rideau",
-      "train",
-      "étagère",
-      "silence",
-      "avion"
+      "plante",
+      "rose",
+      "aigre",
+      "élégant",
+      "vibrer",
+      "cliquer",
+      "patins"
     ],
     [
-      "panier",
-      "scooter",
-      "tunnel",
-      "taxi",
-      "vélo",
-      "caravane",
-      "porte"
+      "pochette",
+      "connaissance",
+      "pléistocène",
+      "pousser",
+      "restreint",
+      "tropical",
+      "safran"
     ],
     [
-      "ombre",
-      "train",
-      "voiture",
-      "fusée",
-      "ferry",
-      "timbre",
-      "plateau"
+      "météo",
+      "prune",
+      "rouge",
+      "lèchefrite",
+      "extatique",
+      "cargo",
+      "aneth"
     ],
     [
-      "métro",
-      "autobus",
-      "caillou",
-      "métro",
-      "avion",
-      "clé",
-      "lampe"
+      "souris",
+      "artisan",
+      "choucroute",
+      "épanouir",
+      "décoratif",
+      "fleurir",
+      "raisonnement"
     ],
     [
-      "plafond",
-      "moto",
-      "scooter",
-      "autobus",
-      "voisin",
-      "voiture",
-      "remorque"
+      "pétale",
+      "pacifique",
+      "chameau",
+      "tisane",
+      "exotique",
+      "corolle",
+      "caraïbe"
     ]
   ],
   "rowClues": [
+    2,
+    1,
+    2,
+    2,
+    1,
     3,
-    2,
-    2,
-    4,
-    4,
-    4,
-    5
+    6
   ],
   "colClues": [
+    2,
+    3,
     1,
-    5,
-    3,
-    5,
     4,
-    3,
-    3
+    2,
+    4,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "hibiscus",
   "solution": [
     [
       false,
       true,
       false,
-      false,
       true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
       false,
-      true,
+      false,
+      false,
       false
     ],
     [
@@ -112,12 +121,21 @@
       false,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
+      false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
@@ -125,32 +143,14 @@
       false
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
       true,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

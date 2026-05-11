@@ -5,96 +5,132 @@
   "height": 7,
   "words": [
     [
-      "orange",
-      "timbre",
-      "mangue",
-      "panneau",
-      "balai",
-      "citron",
-      "brosse"
+      "mystique",
+      "cirer",
+      "française",
+      "sépia",
+      "bave",
+      "tapette",
+      "sac"
     ],
     [
-      "marteau",
-      "abricot",
-      "raisin",
-      "pince",
-      "cerise",
-      "cerise",
-      "manuel"
+      "profond",
+      "dépasser",
+      "sublime",
+      "responsable",
+      "sensible",
+      "divin",
+      "inouï"
     ],
     [
-      "voisin",
-      "prison",
-      "citron",
-      "ananas",
-      "tunnel",
-      "devoir",
-      "raisin"
+      "sel",
+      "éprouver",
+      "malware",
+      "mélodieux",
+      "paganini",
+      "amandée",
+      "svelte"
     ],
     [
-      "porte",
-      "plateau",
-      "écran",
-      "tasse",
-      "pétale",
-      "racine",
-      "pêche"
+      "pizza",
+      "grimpeur",
+      "beauté",
+      "spirituel",
+      "merveille",
+      "franc",
+      "grue"
     ],
     [
-      "cerise",
-      "tunnel",
-      "cerise",
-      "poire",
-      "melon",
-      "pêche",
-      "cerise"
+      "assouplir",
+      "austère",
+      "décrire",
+      "fût",
+      "remise",
+      "panache",
+      "chevalet"
     ],
     [
-      "melon",
-      "raisin",
-      "savon",
-      "étagère",
-      "lueur",
-      "pomme",
-      "mangue"
+      "incroyable",
+      "exprimer",
+      "extase",
+      "félin",
+      "vigne",
+      "lard",
+      "éléphant"
     ],
     [
-      "ombre",
-      "globe",
-      "kiwi",
-      "tabouret",
-      "maison",
-      "citron",
-      "panier"
+      "version",
+      "indescriptible",
+      "croyance",
+      "harnais",
+      "singulier",
+      "bouledogue",
+      "serpent"
     ]
   ],
   "rowClues": [
-    3,
-    4,
+    1,
+    5,
+    1,
     3,
     1,
-    6,
-    4,
+    2,
     2
   ],
   "colClues": [
-    3,
     2,
-    5,
+    4,
+    4,
+    1,
     2,
-    2,
-    5,
-    4
+    1,
+    1
   ],
-  "themeWord": "fruit",
+  "themeWord": "ineffable",
   "solution": [
     [
       true,
       false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
@@ -102,55 +138,19 @@
       true,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 15
 }

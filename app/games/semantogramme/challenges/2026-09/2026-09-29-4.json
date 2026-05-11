@@ -5,109 +5,118 @@
   "height": 7,
   "words": [
     [
-      "rideau",
-      "lèvre",
-      "prison",
-      "genou",
-      "miroir",
-      "oeil",
-      "lèvre"
+      "klaxon",
+      "pavaner",
+      "maternelle",
+      "parchemin",
+      "enveloppante",
+      "antenne",
+      "annoncer"
     ],
     [
-      "globe",
-      "peau",
-      "bras",
-      "porte",
-      "brosse",
-      "ongle",
-      "bouche"
+      "maternité",
+      "asiatique",
+      "affection",
+      "gélule",
+      "mammouth",
+      "prime",
+      "accéder"
     ],
     [
-      "tournevis",
-      "langue",
-      "doigt",
-      "peau",
-      "tête",
-      "étagère",
-      "pétale"
+      "silencieux",
+      "philharmonique",
+      "humidité",
+      "voeu",
+      "attention",
+      "infusion",
+      "soin"
     ],
     [
-      "plafond",
-      "lampe",
-      "pied",
-      "voisin",
-      "pétale",
-      "jambe",
-      "devoir"
+      "baiser",
+      "aimante",
+      "sourire",
+      "douceur",
+      "aimer",
+      "frère",
+      "haïku"
     ],
     [
-      "pelle",
-      "étagère",
-      "lèvre",
-      "dent",
-      "peigne",
-      "jambe",
-      "oeil"
+      "confondre",
+      "rugissement",
+      "embrasser",
+      "tôt",
+      "éperonner",
+      "moelleux",
+      "inscription"
     ],
     [
-      "langue",
-      "pelle",
-      "tapis",
-      "rumeur",
-      "plateau",
-      "pied",
-      "tête"
+      "caresser",
+      "douce",
+      "amour",
+      "pleutre",
+      "voix",
+      "délicate",
+      "caresse"
     ],
     [
-      "enveloppe",
-      "lèvre",
-      "doigt",
-      "savon",
-      "caillou",
-      "bureau",
-      "joue"
+      "bourrade",
+      "enrouler",
+      "minutieux",
+      "parfumé",
+      "vase",
+      "choyer",
+      "dégât"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    4,
     2,
-    4,
-    3,
-    3
+    2,
+    2,
+    5,
+    1,
+    5,
+    1
   ],
   "colClues": [
-    1,
-    4,
-    5,
     3,
-    1,
+    2,
     5,
-    5
+    1,
+    3,
+    2,
+    2
   ],
-  "themeWord": "corps",
+  "themeWord": "tendresse",
   "solution": [
     [
       false,
-      true,
       false,
       true,
       false,
       true,
-      true
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
     ],
     [
       false,
-      true,
-      true,
       false,
       false,
+      false,
       true,
+      false,
       true
     ],
     [
-      false,
+      true,
       true,
       true,
       true,
@@ -121,22 +130,13 @@
       true,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
       true,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false,
       true,
@@ -144,13 +144,13 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
+      false,
       true,
-      true,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 18
 }

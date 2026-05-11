@@ -5,110 +5,101 @@
   "height": 7,
   "words": [
     [
-      "turquoise",
-      "rose",
-      "mauve",
-      "indigo",
-      "rumeur",
-      "bleu",
-      "tournevis"
+      "asperger",
+      "scolopendre",
+      "pressentiment",
+      "rasséréner",
+      "fessée",
+      "discernement",
+      "octogonal"
     ],
     [
-      "carnet",
-      "indigo",
-      "jaune",
-      "violet",
-      "livre",
-      "indigo",
-      "rouge"
+      "concept",
+      "plantigrade",
+      "bénitier",
+      "soirée",
+      "religieux",
+      "oar",
+      "romain"
     ],
     [
-      "rouge",
-      "turquoise",
-      "doré",
-      "carnet",
-      "ocre",
-      "ombre",
-      "brun"
+      "frein",
+      "circulaire",
+      "architecture",
+      "souterrain",
+      "phare",
+      "beat",
+      "pantomime"
     ],
     [
-      "doré",
-      "panier",
-      "crayon",
-      "crayon",
-      "devoir",
-      "brun",
-      "ombre"
+      "maison",
+      "église",
+      "fâcher",
+      "pisan",
+      "atterrissage",
+      "composée",
+      "passion"
     ],
     [
-      "brun",
-      "mauve",
-      "jaune",
-      "orange",
-      "bureau",
-      "ombre",
-      "fusée"
+      "récurer",
+      "sapin",
+      "fourchette",
+      "évoquer",
+      "fonts",
+      "broderie",
+      "transylvanie"
     ],
     [
-      "rose",
-      "violet",
-      "doré",
-      "lueur",
-      "prison",
+      "cible",
+      "manigancer",
+      "antique",
+      "scientifique",
+      "pot",
+      "plonger",
+      "chevron"
+    ],
+    [
+      "mouillé",
+      "baptiser",
       "jardin",
-      "porte"
-    ],
-    [
-      "argenté",
-      "noir",
-      "plafond",
-      "indigo",
-      "violet",
-      "argenté",
-      "mauve"
+      "baptême",
+      "gothique",
+      "ausculter",
+      "liturgique"
     ]
   ],
   "rowClues": [
-    5,
-    5,
-    5,
     2,
-    4,
     3,
-    6
+    2,
+    2,
+    1,
+    2,
+    4
   ],
   "colClues": [
-    6,
-    6,
-    5,
-    4,
+    1,
+    3,
+    3,
     2,
-    4,
+    3,
+    1,
     3
   ],
-  "themeWord": "couleur",
+  "themeWord": "baptistère",
   "solution": [
     [
       true,
-      true,
-      true,
-      true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       true,
@@ -116,25 +107,7 @@
       true
     ],
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -143,14 +116,41 @@
       false
     ],
     [
+      false,
       true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true,
       true,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 30
+  "parMoves": 16
 }

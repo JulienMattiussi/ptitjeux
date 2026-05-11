@@ -5,113 +5,95 @@
   "height": 7,
   "words": [
     [
-      "tête",
-      "livre",
-      "lueur",
-      "joue",
-      "peau",
-      "cadre",
-      "agenda"
+      "antenne",
+      "saumâtre",
+      "sublime",
+      "douceur",
+      "crétois",
+      "secrète",
+      "braiser"
     ],
     [
-      "clé",
-      "porte",
-      "miroir",
-      "épaule",
-      "joue",
+      "debord",
       "gomme",
-      "pelle"
+      "muet",
+      "terne",
+      "pureté",
+      "élévation",
+      "manipuler"
     ],
     [
-      "langue",
-      "tête",
-      "dos",
-      "marteau",
-      "joue",
-      "enveloppe",
-      "chaise"
+      "mettre",
+      "coco",
+      "pore",
+      "angélique",
+      "guêpe",
+      "canoë",
+      "extase"
     ],
     [
-      "agenda",
-      "maison",
-      "manuel",
-      "plateau",
-      "gomme",
-      "ongle",
-      "dent"
+      "cieux",
+      "apparaître",
+      "séraphin",
+      "intègre",
+      "violoniste",
+      "attentat",
+      "ange"
     ],
     [
-      "dent",
-      "devoir",
-      "racine",
-      "banquier",
-      "dent",
-      "peau",
-      "jambe"
+      "divin",
+      "lumbago",
+      "visage",
+      "lumineux",
+      "grave",
+      "fulgurant",
+      "visuel"
     ],
     [
-      "pied",
-      "pelle",
-      "panier",
-      "parfum",
-      "ongle",
-      "coeur",
-      "globe"
+      "transcender",
+      "boutonnière",
+      "éthéré",
+      "pékinois",
+      "soleil",
+      "prêtre",
+      "tubulaire"
     ],
     [
-      "bras",
-      "langue",
-      "écran",
-      "étagère",
-      "coeur",
-      "gomme",
-      "oeil"
+      "indescriptible",
+      "paradis",
+      "cueillir",
+      "tatie",
+      "mystique",
+      "sainteté",
+      "commercialiser"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    2,
     2,
     4,
-    2,
-    4,
     3,
-    4
-  ],
-  "colClues": [
-    5,
     2,
-    1,
-    2,
-    6,
-    3,
     3
   ],
-  "themeWord": "corps",
+  "colClues": [
+    3,
+    2,
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "séraphique",
   "solution": [
     [
-      true,
       false,
       false,
       true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
       false,
       false
     ],
@@ -120,37 +102,55 @@
       false,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
       true,
       true,
-      true
+      false,
+      false,
+      false
     ],
     [
       true,
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

@@ -5,131 +5,122 @@
   "height": 7,
   "words": [
     [
-      "banane",
-      "tunnel",
-      "cerise",
-      "pêche",
-      "kiwi",
-      "raisin",
-      "ananas"
+      "formeret",
+      "mocassin",
+      "mangouste",
+      "rongeur",
+      "antenne",
+      "tacheté",
+      "bourrer"
     ],
     [
-      "abricot",
-      "maison",
-      "pierre",
-      "melon",
-      "prune",
-      "prison",
-      "plateau"
+      "agile",
+      "forêt",
+      "queue",
+      "récupérer",
+      "s'esclaffer",
+      "pétrin",
+      "grimper"
     ],
     [
-      "mangue",
-      "étagère",
-      "balai",
-      "kiwi",
-      "gomme",
-      "caillou",
-      "lampe"
+      "famille",
+      "sarcophage",
+      "éveil",
+      "développer",
+      "rayé",
+      "amandée",
+      "afrique"
     ],
     [
-      "peigne",
-      "cerise",
-      "citron",
-      "bureau",
-      "mûre",
-      "kiwi",
-      "kiwi"
+      "emporter",
+      "intrépide",
+      "rocher",
+      "chasser",
+      "reconnaître",
+      "anthropique",
+      "cake"
     ],
     [
-      "plateau",
-      "cerise",
-      "panneau",
-      "pêche",
-      "abricot",
-      "timbre",
-      "tabouret"
+      "oiseau",
+      "posture",
+      "pigeon",
+      "extinction",
+      "colombe",
+      "aviateur",
+      "humide"
     ],
     [
-      "orange",
-      "carnet",
-      "plateau",
-      "rideau",
-      "voisin",
-      "orange",
-      "mangue"
+      "parrain",
+      "essai",
+      "vigoureux",
+      "sportive",
+      "gras",
+      "nocturne",
+      "mépriser"
     ],
     [
-      "pierre",
-      "étoile",
-      "gomme",
-      "citron",
-      "citron",
-      "banquier",
-      "pastèque"
+      "pelage",
+      "europe",
+      "talent",
+      "gracile",
+      "intrus",
+      "soeur",
+      "récit"
     ]
   ],
   "rowClues": [
-    6,
-    3,
     2,
-    5,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
     4,
     2,
     2,
-    5,
-    5,
-    3,
-    4
+    1,
+    1,
+    3
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "genette",
   "solution": [
     [
-      true,
       false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
+      false,
       false,
       false
     ],
@@ -139,18 +130,27 @@
       false,
       false,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
       false,
-      true
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 15
 }

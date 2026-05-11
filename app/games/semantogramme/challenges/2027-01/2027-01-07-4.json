@@ -5,112 +5,103 @@
   "height": 7,
   "words": [
     [
-      "coussin",
-      "devoir",
-      "oeil",
-      "marteau",
-      "doigt",
-      "crayon",
-      "ongle"
+      "maussade",
+      "pantin",
+      "fer",
+      "tropique",
+      "précoce",
+      "éthéré",
+      "parc"
     ],
     [
-      "globe",
-      "genou",
-      "plafond",
-      "jambe",
-      "bouche",
-      "savon",
-      "rideau"
+      "rugosité",
+      "pavillon",
+      "décoratif",
+      "musique",
+      "jardin",
+      "nuage",
+      "orient"
     ],
     [
-      "nez",
-      "coussin",
-      "oreille",
-      "cadre",
-      "oreille",
-      "silence",
-      "jambe"
+      "parisien",
+      "cloche",
+      "enfantine",
+      "insuline",
+      "turc",
+      "champêtre",
+      "pluraliste"
     ],
     [
-      "lèvre",
-      "rumeur",
-      "ongle",
-      "ongle",
-      "nez",
-      "épaule",
-      "doigt"
+      "construire",
+      "mordant",
+      "lente",
+      "horde",
+      "gloriette",
+      "gifler",
+      "matinale"
     ],
     [
-      "sol",
-      "devoir",
-      "pied",
-      "plafond",
-      "étagère",
-      "gomme",
-      "vis"
+      "capitaine",
+      "octogonal",
+      "maupassant",
+      "orné",
+      "mucus",
+      "muscade",
+      "ouvert"
     ],
     [
-      "livre",
-      "silence",
-      "étoile",
-      "dent",
-      "dent",
-      "doigt",
-      "langue"
+      "paisible",
+      "estival",
+      "circulaire",
+      "pleur",
+      "orange",
+      "culture",
+      "filiation"
     ],
     [
-      "genou",
-      "timbre",
-      "tasse",
-      "bras",
-      "table",
-      "fusée",
-      "savon"
+      "traîneau",
+      "rondelet",
+      "mellitus",
+      "belvédère",
+      "brillant",
+      "lucarne",
+      "aveugle"
     ]
   ],
   "rowClues": [
+    2,
+    5,
     3,
-    3,
-    4,
-    6,
     1,
-    4,
-    2
+    3,
+    3,
+    1
   ],
   "colClues": [
+    2,
+    3,
+    3,
+    3,
     3,
     1,
-    4,
-    4,
-    5,
-    2,
-    4
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "kiosque",
   "solution": [
     [
       false,
       false,
       true,
       false,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
       true,
-      false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       true,
       false,
       true
@@ -118,32 +109,41 @@
     [
       true,
       false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
-      false,
-      false,
-      false,
+      true,
       false
     ],
     [
       false,
       false,
       false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
       true,
+      false,
+      false,
       true
     ],
     [
       true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 18
 }

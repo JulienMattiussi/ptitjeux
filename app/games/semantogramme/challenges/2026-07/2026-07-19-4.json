@@ -5,97 +5,115 @@
   "height": 7,
   "words": [
     [
-      "peigne",
-      "symphonie",
-      "jardin",
-      "carnet",
-      "orgue",
-      "mur",
-      "marteau"
+      "chaise",
+      "accueil",
+      "esplanade",
+      "chenille",
+      "adoucir",
+      "tissé",
+      "réaction"
     ],
     [
-      "pelle",
-      "piano",
-      "plateau",
-      "mélodie",
-      "clé",
-      "horloge",
-      "silence"
+      "pavé",
+      "traverser",
+      "sibérien",
+      "florissante",
+      "sacré",
+      "rassembler",
+      "thorax"
     ],
     [
-      "mémoire",
-      "brosse",
-      "peigne",
-      "peigne",
-      "flûte",
-      "rumeur",
-      "racine"
+      "apprenti",
+      "château",
+      "volley",
+      "fidèle",
+      "devant",
+      "punch",
+      "sacrement"
     ],
     [
-      "concerto",
-      "choeur",
-      "batterie",
-      "panier",
-      "étoile",
-      "timbre",
-      "jazz"
+      "moderne",
+      "spacieux",
+      "civil",
+      "monumental",
+      "seau",
+      "méditerranéen",
+      "auto-école"
     ],
     [
-      "gamme",
-      "règle",
-      "orgue",
-      "crayon",
-      "piano",
-      "tunnel",
-      "concerto"
+      "recyclable",
+      "pansu",
+      "permanente",
+      "attendre",
+      "sauce",
+      "cathédrale",
+      "rock"
     ],
     [
-      "note",
-      "opéra",
-      "harpe",
-      "tournevis",
-      "guitare",
-      "sol",
-      "maison"
+      "sandwich",
+      "armoire",
+      "propice",
+      "alliance",
+      "circulation",
+      "ocelot",
+      "mariage"
     ],
     [
-      "chant",
-      "savon",
-      "étoile",
-      "piano",
-      "globe",
-      "note",
-      "harpe"
+      "ver",
+      "place",
+      "architecture",
+      "plein",
+      "beauvoir",
+      "antivirus",
+      "baptême"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    1,
-    4,
-    4,
-    4,
-    4
-  ],
-  "colClues": [
-    4,
     4,
     3,
     2,
-    4,
+    2,
     1,
     3
   ],
-  "themeWord": "musique",
+  "colClues": [
+    1,
+    4,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "parvis",
   "solution": [
     [
       false,
       true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true,
-      false,
+      true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
     ],
     [
       false,
@@ -110,47 +128,29 @@
       false,
       false,
       false,
-      false,
       true,
       false,
+      true,
       false
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       false,
       false,
       true
     ],
     [
-      true,
       false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
-      true,
-      false,
-      true,
       true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 17
 }

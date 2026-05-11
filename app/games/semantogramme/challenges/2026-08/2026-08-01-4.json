@@ -5,128 +5,92 @@
   "height": 7,
   "words": [
     [
-      "table",
-      "peigne",
-      "maison",
-      "poêle",
-      "verre",
-      "prière",
-      "serrure"
+      "tag",
+      "invader",
+      "aérosol",
+      "brun",
+      "tribu",
+      "stomacal",
+      "durer"
     ],
     [
-      "parfum",
-      "prière",
-      "four",
-      "étoile",
-      "couteau",
-      "pelle",
-      "fusée"
+      "taguer",
+      "autobloquant",
+      "rebelle",
+      "corser",
+      "marraine",
+      "engagé",
+      "pulvériser"
     ],
     [
-      "fourchette",
-      "spatule",
-      "cuillère",
-      "banquier",
-      "plat",
-      "recette",
-      "frigo"
+      "acide",
+      "caravane",
+      "saison",
+      "graffiti",
+      "composition",
+      "sonnet",
+      "underground"
     ],
     [
-      "casserole",
-      "évier",
-      "plat",
-      "livre",
-      "évier",
-      "épice",
-      "tablier"
+      "éphémère",
+      "pochoir",
+      "lagune",
+      "mur",
+      "rider",
+      "gizeh",
+      "peindre"
     ],
     [
-      "évier",
-      "écran",
-      "four",
-      "écran",
-      "enveloppe",
-      "balai",
-      "livre"
+      "bombe",
+      "rédiger",
+      "banksy",
+      "content",
+      "dur",
+      "astronomique",
+      "alzheimer"
     ],
     [
-      "assiette",
-      "mémoire",
-      "verre",
-      "fusée",
-      "ombre",
-      "pierre",
-      "assiette"
+      "quai",
+      "urbain",
+      "bouquin",
+      "illégal",
+      "magnitude",
+      "arbitre",
+      "tom"
     ],
     [
-      "casserole",
-      "spatule",
-      "miroir",
-      "voisin",
-      "caillou",
-      "poêle",
-      "assiette"
+      "généreuse",
+      "sous-estimer",
+      "crème",
+      "sifflement",
+      "art",
+      "bossu",
+      "spontané"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    6,
-    6,
-    2,
     3,
-    4
+    4,
+    2,
+    4,
+    2,
+    2,
+    2
   ],
   "colClues": [
-    5,
-    3,
-    5,
-    1,
     4,
     3,
+    3,
+    3,
+    1,
+    1,
     4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "street-art",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false,
@@ -139,6 +103,15 @@
       true,
       false,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false,
       true
     ],
@@ -146,11 +119,38 @@
       true,
       true,
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

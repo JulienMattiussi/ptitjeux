@@ -5,122 +5,131 @@
   "height": 7,
   "words": [
     [
-      "balai",
-      "moto",
-      "agenda",
-      "navette",
-      "bateau",
-      "lampe",
-      "camion"
+      "navire",
+      "garage",
+      "mayonnaise",
+      "voilier",
+      "voile",
+      "agréable",
+      "décollage"
     ],
     [
-      "clé",
-      "horloge",
-      "jardin",
-      "cadre",
-      "maison",
-      "prière",
-      "métro"
+      "robuste",
+      "photo",
+      "marine",
+      "maternel",
+      "sabord",
+      "beauté",
+      "éclat"
     ],
     [
-      "bateau",
-      "chemin",
-      "taxi",
-      "train",
-      "fusée",
-      "pelle",
-      "mémoire"
+      "ellipse",
+      "méditerranéenne",
+      "incliné",
+      "buffet",
+      "tolérant",
+      "mât",
+      "haubanage"
     ],
     [
-      "tramway",
-      "remorque",
-      "chaise",
-      "voiture",
-      "brosse",
-      "pince",
-      "caravane"
+      "tectonique",
+      "plongeoir",
+      "sanglant",
+      "bout-dehors",
+      "clocher",
+      "corolle",
+      "pupitre"
     ],
     [
-      "fusée",
-      "caillou",
-      "agenda",
-      "racine",
-      "balai",
-      "peigne",
-      "métro"
+      "gréement",
+      "frisé",
+      "flâner",
+      "cavaler",
+      "tenir",
+      "effacé",
+      "proue"
     ],
     [
-      "navette",
-      "moto",
-      "prière",
-      "bus",
-      "porte",
-      "métro",
-      "train"
+      "cordage",
+      "lutin",
+      "galápagos",
+      "avant",
+      "aile",
+      "tangon",
+      "sucre"
     ],
     [
-      "caravane",
-      "ferry",
-      "gomme",
-      "balai",
-      "ferry",
-      "plafond",
-      "règle"
+      "smithson",
+      "fendre",
+      "palabre",
+      "mellitus",
+      "transitoire",
+      "malevitch",
+      "massue"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    4,
-    4,
+    3,
     2,
-    5,
-    3
+    3,
+    2,
+    3,
+    3,
+    1
   ],
   "colClues": [
-    5,
-    4,
-    1,
-    4,
     3,
-    1,
-    5
+    2,
+    2,
+    3,
+    3,
+    2,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "beaupré",
   "solution": [
     [
-      false,
       true,
       false,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
       false,
       true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
       false,
       true
     ],
@@ -128,29 +137,20 @@
       true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
-      true,
-      true,
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 17
 }

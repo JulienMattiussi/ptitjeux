@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "verglas",
-      "brouillard",
-      "verglas",
-      "écran",
-      "neige",
-      "tunnel",
-      "plateau"
+      "papier",
+      "titane",
+      "rêche",
+      "discrétion",
+      "distinguer",
+      "antiquité",
+      "cyperus"
     ],
     [
-      "étoile",
-      "gel",
-      "vis",
-      "soleil",
-      "lampe",
-      "gel",
-      "sol"
+      "hiéroglyphe",
+      "tropical",
+      "rarissime",
+      "gypaète",
+      "biaiser",
+      "fardeau",
+      "tradition"
     ],
     [
-      "brouillard",
-      "étagère",
-      "panier",
-      "chemin",
-      "tonnerre",
-      "marteau",
-      "vent"
+      "nova",
+      "serein",
+      "heurter",
+      "nil",
+      "manuscrit",
+      "pelletée",
+      "propulsion"
     ],
     [
-      "chemin",
-      "prière",
-      "balai",
-      "caillou",
-      "timbre",
-      "mémoire",
-      "orage"
+      "verveine",
+      "écosse",
+      "canard",
+      "égypte",
+      "plante",
+      "voltige",
+      "écriture"
     ],
     [
-      "gel",
-      "sol",
-      "banquier",
-      "brouillard",
-      "glace",
-      "verglas",
-      "sol"
+      "feuille",
+      "portée",
+      "aquatique",
+      "frisée",
+      "confondre",
+      "élégant",
+      "pharaon"
     ],
     [
-      "porte",
-      "prière",
-      "verglas",
-      "manuel",
-      "soleil",
-      "soleil",
-      "manuel"
+      "rouler",
+      "fibre",
+      "aigre",
+      "volume",
+      "pâtisserie",
+      "escrime",
+      "roseau"
     ],
     [
-      "tempête",
-      "rosée",
-      "neige",
-      "peigne",
-      "orage",
-      "rosée",
-      "tabouret"
+      "qwerty",
+      "dracula",
+      "écrire",
+      "triade",
+      "écologique",
+      "enfler",
+      "amuser"
     ]
   ],
   "rowClues": [
+    3,
+    2,
+    2,
+    3,
     4,
     3,
-    3,
-    1,
-    4,
-    3,
-    5
+    1
   ],
   "colClues": [
     4,
-    3,
-    3,
     2,
-    5,
-    4,
-    2
+    2,
+    2,
+    2,
+    2,
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "papyrus",
   "solution": [
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       true,
       false,
       false
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
-      false,
       true,
-      false
+      false,
+      true
     ],
     [
       true,
       false,
+      true,
       false,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 18
 }

@@ -5,103 +5,139 @@
   "height": 7,
   "words": [
     [
-      "serrure",
-      "brouillard",
-      "soleil",
-      "tonnerre",
-      "racine",
-      "pluie",
-      "prison"
+      "thermostat",
+      "pilier",
+      "ondulé",
+      "épauler",
+      "doubleau",
+      "cathédrale",
+      "patella"
     ],
     [
-      "brouillard",
-      "tournevis",
-      "nuage",
-      "brosse",
-      "tonnerre",
-      "plateau",
-      "neige"
+      "lion",
+      "extérieur",
+      "coutume",
+      "pénible",
+      "minorité",
+      "translucide",
+      "institut"
     ],
     [
-      "sol",
-      "tonnerre",
-      "tabouret",
-      "orage",
-      "ombre",
-      "éclair",
-      "tonnerre"
+      "son",
+      "famille",
+      "quotidien",
+      "massif",
+      "stable",
+      "congratuler",
+      "extrémité"
     ],
     [
-      "verglas",
-      "rosée",
-      "clé",
-      "foudre",
-      "devoir",
-      "pelle",
-      "clé"
+      "titre",
+      "architecture",
+      "boîte",
+      "pénale",
+      "amandier",
+      "mur",
+      "épais"
     ],
     [
-      "bureau",
-      "horloge",
-      "glace",
-      "fusée",
-      "glace",
-      "racine",
-      "sol"
+      "envelopper",
+      "soutenir",
+      "reportage",
+      "arnaque",
+      "gelée",
+      "cocotier",
+      "gothique"
     ],
     [
-      "ciseaux",
-      "enveloppe",
-      "vent",
-      "nuage",
-      "silence",
-      "orage",
-      "foudre"
+      "monumental",
+      "goudron",
+      "élever",
+      "consolider",
+      "soutien",
+      "pliante",
+      "pyramide"
     ],
     [
-      "racine",
-      "pince",
-      "table",
-      "rideau",
-      "tonnerre",
-      "manuel",
-      "peigne"
+      "implanter",
+      "puissant",
+      "arc-boutant",
+      "irritation",
+      "taie",
+      "composé",
+      "paroi"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    4,
+    3,
+    1,
+    1,
     3,
     2,
-    4,
-    1
-  ],
-  "colClues": [
-    2,
-    3,
-    4,
-    4,
-    3,
-    3,
+    5,
     3
   ],
-  "themeWord": "météo",
+  "colClues": [
+    1,
+    5,
+    2,
+    3,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "contrefort",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       true,
       false,
       true,
       false
     ],
     [
-      true,
       false,
       true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true,
       false,
       true
@@ -109,48 +145,12 @@
     [
       false,
       true,
-      false,
       true,
       false,
-      true,
+      false,
+      false,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

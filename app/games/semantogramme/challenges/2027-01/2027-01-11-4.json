@@ -5,140 +5,140 @@
   "height": 7,
   "words": [
     [
-      "caravane",
-      "globe",
-      "tramway",
-      "ciseaux",
-      "porte",
-      "camion",
-      "bureau"
+      "enrouée",
+      "partager",
+      "espagne",
+      "sans-issue",
+      "sainteté",
+      "fruit-de-mer",
+      "safran"
     ],
     [
-      "bateau",
-      "vis",
-      "vélo",
-      "fusée",
-      "caravane",
-      "pince",
-      "vélo"
+      "route",
+      "meurtrière",
+      "péripétie",
+      "trouillard",
+      "valencia",
+      "préparer",
+      "épicerie"
     ],
     [
-      "scooter",
-      "jardin",
-      "silence",
-      "tramway",
-      "racine",
-      "remorque",
-      "peigne"
+      "résignation",
+      "poulet",
+      "arrière",
+      "personnel",
+      "pesanteur",
+      "baiser",
+      "tirée"
     ],
     [
-      "taxi",
-      "autobus",
-      "marteau",
-      "gomme",
-      "enveloppe",
-      "tournevis",
-      "avion"
+      "hurler",
+      "légume",
+      "frénétique",
+      "compétent",
+      "cils",
+      "percuter",
+      "thémis"
     ],
     [
-      "navette",
-      "chemin",
-      "timbre",
-      "panneau",
-      "train",
-      "coussin",
-      "voiture"
+      "jaune",
+      "européen",
+      "remplacer",
+      "savourer",
+      "plat",
+      "méditerranéenne",
+      "riz"
     ],
     [
-      "camion",
-      "tabouret",
-      "vis",
-      "taxi",
-      "taxi",
-      "gomme",
-      "pétale"
+      "crocus",
+      "estivale",
+      "immobilisation",
+      "filer",
+      "cuvée",
+      "satin",
+      "marais"
     ],
     [
-      "voiture",
-      "ferry",
-      "timbre",
-      "peigne",
-      "bureau",
-      "avion",
-      "serrure"
+      "cuisine",
+      "cuire",
+      "piccolo",
+      "emporté",
+      "poisson",
+      "mycènes",
+      "capucin"
     ]
   ],
   "rowClues": [
-    3,
+    4,
+    2,
+    1,
+    1,
     5,
-    3,
-    3,
-    3,
-    3,
+    1,
     3
   ],
   "colClues": [
-    7,
     2,
-    2,
+    5,
+    1,
+    1,
     3,
     3,
-    3,
-    3
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "paella",
   "solution": [
     [
+      false,
       true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       true
     ],
     [
-      true,
-      false,
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
       false,
       false
     ],
@@ -147,10 +147,10 @@
       true,
       false,
       false,
-      false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 17
 }

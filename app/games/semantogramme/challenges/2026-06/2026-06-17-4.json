@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "devoir",
-      "peigne",
-      "sol",
-      "méduse",
-      "clé",
-      "poisson",
-      "corail"
+      "diriger",
+      "hémicycle",
+      "pivot",
+      "silence",
+      "propre",
+      "gélatine",
+      "central"
     ],
     [
-      "marin",
-      "parfum",
-      "corail",
-      "poisson",
-      "phare",
-      "globe",
-      "crayon"
+      "couper",
+      "hésiter",
+      "abbaye",
+      "incassable",
+      "moine",
+      "gonflement",
+      "paisible"
     ],
     [
-      "miroir",
-      "marteau",
-      "manuel",
-      "sable",
-      "devoir",
-      "cadre",
-      "écume"
+      "chaîne",
+      "prière",
+      "galerie",
+      "chauffeur",
+      "patiner",
+      "compréhension",
+      "attraper"
     ],
     [
+      "margelle",
+      "hdmi",
+      "coudre",
+      "astre",
       "jardin",
-      "gomme",
-      "crabe",
-      "méduse",
-      "corail",
-      "écran",
-      "dauphin"
+      "roman",
+      "épandre"
     ],
     [
-      "prison",
-      "sable",
-      "mur",
-      "voile",
-      "rivage",
-      "livre",
-      "marin"
+      "voûte",
+      "arcade",
+      "héraldique",
+      "gothique",
+      "flanquer",
+      "richter",
+      "pyélonéphrite"
     ],
     [
-      "dauphin",
-      "corail",
-      "sable",
-      "écaille",
-      "crabe",
-      "porte",
-      "panneau"
+      "kyrie",
+      "cueillette",
+      "colonnade",
+      "doubleau",
+      "éclosion",
+      "soliste",
+      "chauve"
     ],
     [
-      "marin",
-      "marteau",
-      "sable",
-      "baleine",
-      "vis",
-      "marin",
-      "corail"
+      "slalom",
+      "religieux",
+      "maladresse",
+      "monastère",
+      "tuer",
+      "fulgurer",
+      "solennel"
     ]
   ],
   "rowClues": [
-    3,
-    4,
     2,
-    4,
-    4,
-    5,
-    5
+    3,
+    2,
+    2,
+    3,
+    1,
+    2
   ],
   "colClues": [
+    1,
+    3,
+    3,
     3,
     2,
-    4,
-    7,
-    4,
-    2,
-    5
+    1,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "cloître",
   "solution": [
     [
       false,
@@ -94,15 +94,24 @@
       false,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
+      false,
+      false,
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false,
+      false,
       false,
       false
     ],
@@ -110,47 +119,38 @@
       false,
       false,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
       false
     ],
     [
       true,
-      false,
-      true,
       true,
       false,
       true,
-      true
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 15
 }

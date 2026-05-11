@@ -5,136 +5,100 @@
   "height": 7,
   "words": [
     [
-      "thon",
-      "panneau",
-      "vague",
-      "marin",
-      "mémoire",
-      "chemin",
-      "saumon"
+      "avant-garde",
+      "aigue-marine",
+      "défaillir",
+      "coureur",
+      "cap",
+      "rouge",
+      "dodeliner"
     ],
     [
-      "pierre",
-      "bateau",
-      "étagère",
-      "parfum",
-      "globe",
-      "poisson",
-      "baleine"
+      "insister",
+      "colonie",
+      "topaze",
+      "cabrioler",
+      "figure",
+      "géométrie",
+      "révolution"
     ],
     [
-      "corail",
-      "sable",
-      "écume",
-      "pierre",
-      "méduse",
-      "requin",
-      "saumon"
+      "munch",
+      "amère",
+      "magicien",
+      "épurer",
+      "groin",
+      "blanc",
+      "sonar"
     ],
     [
-      "dauphin",
-      "sardine",
-      "vis",
-      "crabe",
-      "voile",
-      "plage",
-      "crabe"
+      "symptôme",
+      "noir",
+      "nièce",
+      "simplifier",
+      "composer",
+      "randonnée",
+      "soigner"
     ],
     [
-      "plage",
-      "mémoire",
-      "vis",
-      "tapis",
-      "devoir",
-      "bureau",
-      "crabe"
+      "chaude",
+      "escarpé",
+      "carré",
+      "russe",
+      "pure",
+      "identification",
+      "beurré"
     ],
     [
-      "méduse",
-      "table",
-      "silence",
-      "voisin",
-      "gomme",
-      "saumon",
-      "plage"
+      "brochet",
+      "absolu",
+      "buffet",
+      "aumône",
+      "spirituel",
+      "rapprocher",
+      "léopard"
     ],
     [
-      "saumon",
-      "devoir",
-      "brosse",
-      "thon",
-      "rideau",
-      "mémoire",
-      "tournevis"
+      "ciboulette",
+      "photo",
+      "abstraction",
+      "ventiler",
+      "étoile",
+      "transvaser",
+      "barbu"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    6,
-    6,
+    2,
+    2,
     2,
     3,
-    2
+    3,
+    2,
+    1
   ],
   "colClues": [
-    6,
-    3,
+    1,
+    2,
     2,
     3,
-    2,
-    4,
-    6
+    3,
+    3,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "suprématisme",
   "solution": [
     [
       true,
       false,
-      true,
-      true,
       false,
       false,
-      true
+      false,
+      true,
+      false
     ],
     [
       false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       false,
@@ -143,14 +107,50 @@
       true
     ],
     [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 15
 }

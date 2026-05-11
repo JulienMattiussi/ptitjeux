@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "thon",
-      "écume",
-      "écran",
-      "écume",
-      "phare",
-      "parfum",
-      "corail"
+      "art",
+      "âme",
+      "expressif",
+      "dénouement",
+      "grimoire",
+      "router",
+      "rapper"
     ],
     [
-      "pince",
-      "banquier",
-      "fusée",
-      "saumon",
-      "écume",
-      "silence",
-      "tasse"
+      "tom",
+      "tache",
+      "infime",
+      "gestuel",
+      "collage",
+      "roquette",
+      "agenouillement"
     ],
     [
-      "méduse",
-      "saumon",
-      "rivage",
-      "bateau",
-      "banquier",
-      "requin",
-      "panier"
+      "tranchée",
+      "engager",
+      "éclabousser",
+      "pâques",
+      "comic",
+      "fourmi",
+      "expliquer"
     ],
     [
-      "maison",
-      "caillou",
-      "carnet",
-      "phare",
-      "voisin",
-      "sable",
-      "porte"
+      "jeter",
+      "informel",
+      "reinette",
+      "pantin",
+      "plat-de-service",
+      "pylône",
+      "crinière"
     ],
     [
-      "sardine",
-      "bateau",
-      "vis",
-      "plafond",
-      "corail",
-      "règle",
-      "sardine"
+      "pas",
+      "éclairer",
+      "provocation",
+      "pollock",
+      "trappiste",
+      "mathieu",
+      "peinture"
     ],
     [
-      "plafond",
-      "plage",
-      "serrure",
-      "rivage",
-      "bateau",
-      "parfum",
-      "ciseaux"
+      "acheter",
+      "hartung",
+      "chardon",
+      "soulages",
+      "égyptienne",
+      "faux",
+      "vinyle"
     ],
     [
-      "saumon",
-      "poisson",
-      "panier",
-      "requin",
-      "miroir",
-      "voile",
-      "tournevis"
+      "sombrero",
+      "cible",
+      "préluder",
+      "abstrait",
+      "créer",
+      "lyrique",
+      "limousin"
     ]
   ],
   "rowClues": [
-    5,
     2,
-    5,
     2,
-    4,
+    1,
+    2,
     3,
-    4
+    2,
+    3
   ],
   "colClues": [
-    4,
-    5,
-    1,
-    6,
-    4,
+    2,
     3,
-    2
+    2,
+    4,
+    1,
+    2,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "tachisme",
   "solution": [
     [
       true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
       true
     ],
     [
       false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false,
       true,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
-      false,
+      true,
       true,
       false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 15
 }

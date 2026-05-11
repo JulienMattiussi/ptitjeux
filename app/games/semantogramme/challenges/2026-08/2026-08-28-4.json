@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "cuillère",
-      "panneau",
-      "clé",
-      "évier",
-      "mémoire",
-      "étoile",
-      "tablier"
+      "jumeler",
+      "rappeler",
+      "mélancolie",
+      "dictionnaire",
+      "souvenir",
+      "ciselure",
+      "douce-amère"
     ],
     [
-      "four",
-      "devoir",
-      "carnet",
-      "lampe",
-      "fourchette",
-      "crayon",
-      "tablier"
+      "nostalgique",
+      "somptueux",
+      "manque",
+      "haine",
+      "mélancolique",
+      "siffler",
+      "tendre"
     ],
     [
-      "voisin",
-      "plat",
-      "assiette",
-      "assiette",
-      "recette",
-      "silence",
-      "racine"
+      "regret",
+      "taper",
+      "renforcer",
+      "archipel",
+      "évoquer",
+      "honorer",
+      "finement"
     ],
     [
-      "bureau",
-      "fourchette",
-      "lueur",
-      "poêle",
-      "couteau",
-      "fourchette",
-      "tunnel"
+      "enfance",
+      "grenouille",
+      "honneur",
+      "kandinsky",
+      "immeuble",
+      "éprouver",
+      "flamboyant"
     ],
     [
-      "couteau",
-      "globe",
-      "plafond",
-      "poêle",
-      "racine",
-      "tapis",
-      "poêle"
+      "énigmer",
+      "douceur",
+      "songer",
+      "mère",
+      "frette",
+      "incertitude",
+      "pulpeux"
     ],
     [
-      "règle",
-      "jardin",
-      "timbre",
-      "gomme",
-      "four",
-      "prière",
-      "balai"
+      "passé",
+      "printemps",
+      "officier",
+      "messe",
+      "pleurer",
+      "vespéral",
+      "perche"
     ],
     [
-      "voisin",
-      "épice",
-      "chemin",
-      "fusée",
-      "brosse",
-      "bureau",
-      "tunnel"
+      "veilleuse",
+      "sentimentale",
+      "nuit",
+      "sourire",
+      "sein",
+      "sainteté",
+      "remémorer"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     4,
     4,
-    3,
-    1,
-    1
+    2,
+    2,
+    2,
+    2,
+    3
   ],
   "colClues": [
+    4,
     3,
     3,
     1,
-    4,
     4,
     1,
     3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "nostalgie",
   "solution": [
     [
-      true,
-      false,
       false,
       true,
+      true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
       false,
       true
     ],
@@ -104,52 +113,43 @@
       false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 19

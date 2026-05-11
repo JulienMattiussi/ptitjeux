@@ -5,119 +5,92 @@
   "height": 7,
   "words": [
     [
-      "fourchette",
-      "table",
-      "épice",
-      "assiette",
-      "frigo",
-      "spatule",
-      "casserole"
+      "discuter",
+      "archaïque",
+      "pérorer",
+      "discourir",
+      "amure",
+      "constitution",
+      "épiloguer"
     ],
     [
-      "chemin",
-      "spatule",
-      "poêle",
-      "poêle",
-      "spatule",
-      "coussin",
-      "assiette"
+      "interminable",
+      "fahrenheit",
+      "république",
+      "long",
+      "chips",
+      "tribal",
+      "tapenade"
     ],
     [
-      "livre",
-      "fourchette",
-      "manuel",
-      "sol",
-      "frigo",
-      "recette",
-      "crayon"
-    ],
-    [
-      "balai",
-      "règle",
-      "cuillère",
-      "assiette",
-      "chemin",
       "horloge",
-      "farine"
+      "rituel",
+      "vertèbre",
+      "coucher",
+      "pétrir",
+      "héberger",
+      "bronze"
     ],
     [
-      "cuillère",
-      "pince",
-      "chaise",
-      "étagère",
-      "verre",
-      "fourchette",
-      "prison"
+      "apôtre",
+      "africain",
+      "arabe",
+      "palabre",
+      "enchère",
+      "écraser",
+      "sagoutier"
     ],
     [
-      "ciseaux",
-      "table",
-      "marteau",
-      "timbre",
-      "plat",
-      "four",
-      "tournevis"
+      "soutenu",
+      "récitatif",
+      "familial",
+      "traditionnel",
+      "fragilité",
+      "gai",
+      "débattre"
     ],
     [
-      "gomme",
-      "ciseaux",
-      "évier",
-      "spatule",
-      "recette",
-      "spatule",
-      "voisin"
+      "éthique",
+      "lilliputien",
+      "tergiverser",
+      "vichyssoise",
+      "oral",
+      "paléontologie",
+      "rougeoyante"
+    ],
+    [
+      "parler",
+      "garde",
+      "plastique",
+      "éplucher",
+      "indiquer",
+      "tourner",
+      "centenaire"
     ]
   ],
   "rowClues": [
-    6,
     5,
     3,
+    1,
     3,
-    3,
+    4,
     2,
-    4
+    1
   ],
   "colClues": [
-    2,
-    2,
+    4,
+    3,
     4,
     4,
-    6,
-    5,
-    3
+    1,
+    1,
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "palabrer",
   "solution": [
     [
       true,
-      false,
       true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false,
@@ -128,29 +101,56 @@
       true,
       false,
       false,
-      false,
       true,
+      false,
       true,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ],
     [
       false,
       false,
       true,
+      false,
       true,
+      false,
+      false
+    ],
+    [
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 19
 }

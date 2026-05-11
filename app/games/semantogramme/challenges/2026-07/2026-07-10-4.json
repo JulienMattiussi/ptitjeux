@@ -5,102 +5,129 @@
   "height": 7,
   "words": [
     [
-      "mouton",
-      "écureuil",
-      "brosse",
-      "mouton",
-      "koala",
-      "lapin",
-      "loup"
+      "haendel",
+      "roucouler",
+      "horaire",
+      "pèlerin",
+      "ressentir",
+      "spécialisée",
+      "desséché"
     ],
     [
-      "pelle",
-      "castor",
-      "belette",
-      "tabouret",
-      "voisin",
-      "tasse",
-      "pétale"
+      "plante",
+      "pondre",
+      "fuyant",
+      "fleur",
+      "vieux",
+      "jardin",
+      "identifier"
     ],
     [
-      "sol",
-      "écureuil",
-      "lion",
-      "lapin",
-      "bureau",
-      "tigre",
-      "panda"
+      "double",
+      "rendre",
+      "systématique",
+      "authentifier",
+      "cueillir",
+      "boîte",
+      "duffel-coat"
     ],
     [
-      "cheval",
-      "mémoire",
-      "zèbre",
-      "lapin",
-      "mouton",
-      "bureau",
-      "girafe"
+      "feuille",
+      "descriptive",
+      "science",
+      "gaudí",
+      "classification",
+      "béchamel",
+      "guerre"
     ],
     [
-      "timbre",
-      "lampe",
-      "lion",
-      "enveloppe",
-      "zèbre",
-      "belette",
-      "lueur"
+      "pharmaceutique",
+      "linné",
+      "cartable",
+      "voguer",
+      "klezmer",
+      "gravier",
+      "trois-cent-soixante-cinq"
     ],
     [
-      "sol",
-      "lynx",
-      "vache",
-      "chien",
-      "brosse",
-      "fusée",
-      "castor"
+      "étalon",
+      "trou",
+      "panthère",
+      "décrire",
+      "gondolé",
+      "herbier",
+      "questionnement"
     ],
     [
-      "cheval",
-      "savon",
-      "vis",
-      "table",
-      "panda",
-      "globe",
-      "castor"
+      "triangle",
+      "cinsault",
+      "observer",
+      "lisse",
+      "enthousiaste",
+      "personnage",
+      "accélérer"
     ]
   ],
   "rowClues": [
-    6,
-    2,
-    5,
-    5,
-    3,
+    1,
     4,
-    3
+    2,
+    4,
+    2,
+    2,
+    1
   ],
   "colClues": [
     3,
-    4,
-    5,
-    4,
-    4,
+    2,
     3,
-    5
+    2,
+    2,
+    3,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "botanique",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      true,
+      false,
       true,
       true
     ],
     [
       false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false,
       false,
@@ -108,49 +135,22 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
       true,
       false,
-      true,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true,
       false,
-      true
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 28
+  "parMoves": 16
 }

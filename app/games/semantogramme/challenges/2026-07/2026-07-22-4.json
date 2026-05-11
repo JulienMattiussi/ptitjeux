@@ -5,93 +5,120 @@
   "height": 7,
   "words": [
     [
-      "girafe",
-      "souris",
-      "vache",
-      "girafe",
-      "fusée",
-      "écureuil",
-      "marteau"
+      "roche",
+      "braque",
+      "pliocène",
+      "savane",
+      "grisaille",
+      "umami",
+      "hominidé"
     ],
     [
-      "chien",
-      "ours",
-      "ours",
-      "belette",
-      "lion",
-      "panda",
-      "tournevis"
+      "street",
+      "pélagique",
+      "cascade",
+      "ère",
+      "civil",
+      "reproduire",
+      "spéculatif"
     ],
     [
-      "étagère",
-      "marteau",
-      "chien",
-      "écureuil",
-      "horloge",
-      "clé",
-      "mouton"
+      "résigner",
+      "réplique",
+      "officier",
+      "miocène",
+      "taillée",
+      "sélectionner",
+      "climat"
     ],
     [
-      "devoir",
-      "souris",
-      "lapin",
-      "panier",
-      "vache",
-      "chat",
-      "tasse"
+      "mâle",
+      "sédiment",
+      "frisé",
+      "continental",
+      "exagération",
+      "tropical",
+      "alsace"
     ],
     [
-      "vis",
-      "manuel",
-      "souris",
-      "timbre",
-      "panda",
-      "cheval",
-      "belette"
+      "géologique",
+      "modération",
+      "pharmacien",
+      "mammifère",
+      "haine",
+      "cisaille",
+      "fossile"
     ],
     [
-      "étagère",
-      "silence",
-      "maison",
-      "parfum",
-      "koala",
-      "écureuil",
-      "koala"
+      "fenouil",
+      "fumier",
+      "traité",
+      "pivoter",
+      "innovation",
+      "crêpe",
+      "apparition"
     ],
     [
-      "castor",
-      "tapis",
-      "ciseaux",
-      "lynx",
-      "horloge",
-      "zèbre",
-      "chat"
+      "vainqueur",
+      "tempéré",
+      "document",
+      "hirsute",
+      "ancien",
+      "économiser",
+      "musée"
     ]
   ],
   "rowClues": [
-    5,
-    6,
-    3,
     4,
-    4,
+    1,
+    2,
     3,
-    4
+    3,
+    1,
+    2
   ],
   "colClues": [
-    3,
-    3,
+    2,
+    2,
+    1,
     5,
-    4,
-    4,
-    6,
+    1,
+    1,
     4
   ],
-  "themeWord": "animal",
+  "themeWord": "néogène",
   "solution": [
     [
       true,
+      false,
       true,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       false,
       true,
@@ -99,58 +126,31 @@
     ],
     [
       true,
+      false,
+      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
       true,
-      true,
-      true,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 29
+  "parMoves": 16
 }

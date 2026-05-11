@@ -5,129 +5,102 @@
   "height": 7,
   "words": [
     [
-      "chien",
-      "savon",
-      "plateau",
-      "cheval",
-      "ours",
-      "lion",
-      "balai"
+      "béni",
+      "résignation",
+      "préface",
+      "courbé",
+      "plaque",
+      "fortune",
+      "sauver"
     ],
     [
-      "écureuil",
-      "maison",
-      "chien",
-      "ours",
-      "tigre",
-      "loup",
-      "cheval"
+      "faiblesse",
+      "dégoût",
+      "sculptée",
+      "culbute",
+      "sort",
+      "mystérieux",
+      "volée"
     ],
     [
-      "peigne",
-      "chat",
-      "vache",
-      "pelle",
-      "pétale",
-      "carnet",
-      "maison"
+      "préserver",
+      "notoire",
+      "nuit",
+      "destin",
+      "choix",
+      "percher",
+      "posologie"
     ],
     [
-      "mouton",
-      "écureuil",
-      "renard",
-      "carnet",
-      "horloge",
-      "chien",
-      "horloge"
+      "lutin",
+      "hasard",
+      "divine",
+      "colossal",
+      "gomme",
+      "masquer",
+      "délicate"
     ],
     [
-      "ours",
-      "lapin",
-      "lynx",
-      "caillou",
-      "vache",
-      "belette",
-      "tournevis"
+      "pouce",
+      "aidé",
+      "fatalité",
+      "s'affliger",
+      "arborer",
+      "pal",
+      "destiner"
     ],
     [
-      "ours",
-      "chemin",
-      "enveloppe",
-      "livre",
-      "cheval",
-      "jardin",
-      "parfum"
+      "essaim",
+      "volonté",
+      "télécharger",
+      "guider",
+      "spaghetti",
+      "providentiel",
+      "contenu"
     ],
     [
-      "plafond",
-      "renard",
-      "livre",
-      "lampe",
-      "vache",
-      "jardin",
-      "marteau"
+      "soeur",
+      "japonais",
+      "dormir",
+      "cognac",
+      "chaud",
+      "grue",
+      "transcendance"
     ]
   ],
   "rowClues": [
-    4,
-    6,
+    3,
     2,
-    4,
-    5,
     2,
-    2
-  ],
-  "colClues": [
-    5,
-    4,
-    4,
     2,
-    5,
-    4,
+    3,
+    3,
     1
   ],
-  "themeWord": "animal",
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "providence",
   "solution": [
     [
       true,
       false,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true,
+      false,
       true,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true,
       true,
@@ -137,20 +110,47 @@
       true,
       false,
       false,
-      false,
       true,
+      false,
       false,
       false
     ],
     [
       false,
       true,
+      true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
       false,
+      true,
+      false,
+      true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 16
 }

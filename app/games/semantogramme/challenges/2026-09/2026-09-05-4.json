@@ -5,92 +5,137 @@
   "height": 7,
   "words": [
     [
-      "chaise",
-      "rivage",
-      "prière",
-      "racine",
-      "tunnel",
-      "sol",
-      "phare"
+      "paisible",
+      "germaine",
+      "avarice",
+      "urbain",
+      "roman",
+      "piqûre",
+      "sablon"
     ],
     [
-      "serrure",
-      "silence",
-      "pétale",
-      "prison",
-      "ombre",
-      "bateau",
-      "panier"
+      "tendre",
+      "nuit",
+      "mélodieux",
+      "tolérer",
+      "musculature",
+      "bronzée",
+      "tomate"
     ],
     [
-      "tasse",
-      "phare",
-      "cadre",
-      "plage",
-      "sable",
-      "cadre",
-      "marin"
+      "rêve",
+      "condamner",
+      "vocal",
+      "fraude",
+      "indépendante",
+      "desquamation",
+      "musique"
     ],
     [
-      "marin",
-      "requin",
-      "baleine",
-      "brosse",
-      "marin",
-      "mémoire",
-      "racine"
+      "fouiller",
+      "chopin",
+      "latex",
+      "fauré",
+      "grand-père",
+      "intime",
+      "trouer"
     ],
     [
-      "voisin",
-      "tunnel",
-      "rumeur",
-      "écume",
-      "sable",
-      "requin",
-      "plafond"
+      "jouer",
+      "rêveur",
+      "tartine",
+      "creusage",
+      "lyrique",
+      "star",
+      "bijoutier"
     ],
     [
-      "phare",
-      "globe",
-      "dauphin",
-      "sable",
-      "coussin",
-      "thon",
-      "parfum"
+      "renaissance",
+      "gond",
+      "effraie",
+      "changer",
+      "satire",
+      "arabe",
+      "piano"
     ],
     [
-      "voile",
-      "bureau",
-      "rideau",
-      "marin",
-      "thon",
-      "savon",
-      "voile"
+      "espace",
+      "armure",
+      "mélancolique",
+      "pneumatique",
+      "romantique",
+      "cannabis",
+      "martial"
     ]
   ],
   "rowClues": [
-    2,
     1,
-    4,
-    4,
     3,
-    4,
-    4
+    2,
+    3,
+    3,
+    1,
+    2
   ],
   "colClues": [
-    3,
+    4,
     3,
     2,
-    4,
-    4,
-    3,
-    3
+    1,
+    2,
+    1,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "nocturne",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       false,
@@ -100,57 +145,12 @@
     [
       false,
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
       true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 15
 }

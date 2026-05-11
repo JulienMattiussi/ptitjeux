@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "cyclisme",
-      "devoir",
-      "vis",
-      "voile",
-      "boxe",
-      "tasse",
-      "voile"
+      "pli",
+      "oenologie",
+      "sauce",
+      "couronner",
+      "préparer",
+      "carotte",
+      "vin"
     ],
     [
-      "racine",
-      "brosse",
-      "étoile",
-      "cyclisme",
-      "timbre",
-      "voile",
-      "étagère"
+      "atome",
+      "française",
+      "peinture",
+      "lapin",
+      "tireur",
+      "ruisseler",
+      "gomme"
     ],
     [
-      "tapis",
-      "chaise",
-      "natation",
-      "horloge",
-      "marathon",
-      "marathon",
-      "judo"
+      "culmination",
+      "temple",
+      "miraculeux",
+      "pouvoir",
+      "cuire",
+      "mijoter",
+      "lancer"
     ],
     [
-      "volley",
-      "judo",
-      "boxe",
-      "mémoire",
-      "marathon",
-      "mémoire",
-      "gym"
+      "champignon",
+      "amer",
+      "volaille",
+      "sacre",
+      "casser",
+      "rétine",
+      "chameau"
     ],
     [
-      "tennis",
-      "devoir",
-      "peigne",
-      "ski",
-      "natation",
-      "plateau",
-      "voile"
+      "crème",
+      "s'effondrer",
+      "néogène",
+      "oxyder",
+      "charger",
+      "stylistique",
+      "familiale"
     ],
     [
-      "tunnel",
-      "judo",
-      "étoile",
-      "vis",
-      "tennis",
-      "marteau",
-      "ski"
+      "oignon",
+      "caillou",
+      "savourer",
+      "lardon",
+      "parquet",
+      "raquette",
+      "classique"
     ],
     [
-      "chemin",
-      "devoir",
-      "natation",
-      "rumeur",
-      "danse",
-      "ski",
-      "voile"
+      "cuisine",
+      "rustique",
+      "morose",
+      "mannequin",
+      "crémeuse",
+      "soucoupe",
+      "dinde"
     ]
   ],
   "rowClues": [
     4,
     2,
+    2,
+    2,
+    2,
     4,
-    5,
-    4,
-    3,
-    4
+    3
   ],
   "colClues": [
+    4,
+    2,
     3,
     2,
     3,
-    3,
-    6,
-    3,
-    6
+    2,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "fricassée",
   "solution": [
     [
-      true,
       false,
       false,
       true,
-      true,
       false,
+      true,
+      true,
       true
     ],
     [
       false,
-      false,
-      false,
       true,
       false,
       true,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       true,
       true,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 19
 }

@@ -5,110 +5,137 @@
   "height": 7,
   "words": [
     [
-      "girafe",
-      "crayon",
-      "maison",
-      "table",
-      "castor",
-      "souris",
-      "renard"
+      "amoral",
+      "court",
+      "bactérienne",
+      "sens",
+      "poulet",
+      "divine",
+      "nier"
     ],
     [
-      "cheval",
-      "manuel",
-      "pétale",
-      "étoile",
-      "tigre",
-      "renard",
-      "mouton"
+      "rejeter",
+      "lourd",
+      "pessimisme",
+      "absurde",
+      "volatil",
+      "matinale",
+      "trapèze"
     ],
     [
-      "devoir",
-      "lynx",
-      "globe",
-      "pierre",
-      "banquier",
-      "lapin",
-      "globe"
+      "radical",
+      "optique",
+      "classeur",
+      "mouiller",
+      "avaricieux",
+      "nietzsche",
+      "sobriété"
     ],
     [
-      "girafe",
-      "zèbre",
-      "vache",
-      "pétale",
-      "lion",
-      "belette",
-      "girafe"
+      "équilibre",
+      "lustrer",
+      "poireau",
+      "rougir",
+      "destruction",
+      "cintré",
+      "pêcher"
     ],
     [
-      "clé",
-      "zèbre",
-      "ours",
-      "chien",
-      "maison",
-      "pétale",
-      "ombre"
+      "camus",
+      "philosophie",
+      "escalier",
+      "rien",
+      "asperge",
+      "démesurée",
+      "persévérer"
     ],
     [
-      "mur",
-      "lapin",
-      "tigre",
-      "peigne",
-      "chat",
-      "belette",
-      "savon"
+      "négation",
+      "bourse",
+      "tarif",
+      "maternité",
+      "rusé",
+      "destructeur",
+      "cheveu"
     ],
     [
-      "tunnel",
-      "panda",
-      "mur",
-      "souris",
-      "porte",
-      "souris",
-      "chien"
+      "turgenev",
+      "valeur",
+      "multiple",
+      "sublimer",
+      "sombre",
+      "knock-out",
+      "samedi"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    2,
-    6,
     3,
-    4,
-    4
+    3,
+    2,
+    1,
+    2,
+    2,
+    3
   ],
   "colClues": [
-    3,
     5,
+    2,
+    1,
     3,
     2,
-    4,
-    6,
-    4
+    2,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "nihilisme",
   "solution": [
     [
       true,
       false,
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
       true,
-      true
+      false,
+      false,
+      false
     ],
     [
       true,
       false,
       false,
       false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
-      true
+      false,
+      false
     ],
     [
       false,
       true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       false,
@@ -118,39 +145,12 @@
     [
       true,
       true,
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
       false,
-      true,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 16
 }

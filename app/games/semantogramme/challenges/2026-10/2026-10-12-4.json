@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "mauve",
-      "tasse",
-      "gomme",
-      "violet",
-      "voisin",
-      "blanc",
-      "bureau"
+      "gaz",
+      "concurrence",
+      "opposer",
+      "lointaine",
+      "astronomique",
+      "lumineuse",
+      "inoculer"
     ],
     [
-      "lampe",
-      "ocre",
-      "bleu",
-      "ocre",
-      "bureau",
-      "bleu",
-      "argenté"
-    ],
-    [
-      "jardin",
-      "timbre",
-      "brun",
-      "vis",
-      "ocre",
-      "lueur",
-      "gris"
-    ],
-    [
-      "plafond",
-      "jaune",
-      "rose",
-      "noir",
-      "turquoise",
-      "jaune",
-      "mémoire"
-    ],
-    [
-      "ciseaux",
-      "mauve",
-      "vis",
-      "plafond",
-      "argenté",
-      "étoile",
-      "pétale"
-    ],
-    [
-      "doré",
-      "mur",
-      "lueur",
-      "ocre",
-      "bleu",
-      "orange",
-      "blanc"
-    ],
-    [
+      "oeil-de-chat",
+      "fermier",
+      "enrouler",
       "rideau",
-      "timbre",
-      "parfum",
-      "mur",
-      "sol",
-      "gris",
-      "vert"
+      "sombre",
+      "étoile",
+      "garder"
+    ],
+    [
+      "cosmique",
+      "cabinet",
+      "éventer",
+      "discours",
+      "capturer",
+      "doubleau",
+      "astronomie"
+    ],
+    [
+      "cosmos",
+      "télescope",
+      "haltère",
+      "balla",
+      "crayonner",
+      "idyllique",
+      "ciel"
+    ],
+    [
+      "pin",
+      "charbonner",
+      "planétaire",
+      "brader",
+      "reine",
+      "data",
+      "empocher"
+    ],
+    [
+      "avant-garde",
+      "spirale",
+      "sueur",
+      "aigle",
+      "duveteux",
+      "galaxie",
+      "neutron"
+    ],
+    [
+      "poussière",
+      "dessiner",
+      "surdité",
+      "cintré",
+      "rejeton",
+      "levier",
+      "irriter"
     ]
   ],
   "rowClues": [
     3,
-    5,
     3,
-    5,
     2,
-    5,
-    2
+    3,
+    1,
+    3,
+    1
   ],
   "colClues": [
-    2,
-    3,
-    3,
-    4,
-    4,
     5,
-    4
+    2,
+    1,
+    2,
+    1,
+    3,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "nébuleuse",
   "solution": [
     [
       true,
@@ -98,59 +98,59 @@
       false
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
+      true,
       false,
       false,
+      false,
+      false
+    ],
+    [
       false,
       true,
-      true
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 16
 }

@@ -5,121 +5,94 @@
   "height": 7,
   "words": [
     [
-      "mémoire",
-      "devoir",
-      "ciseaux",
-      "figue",
-      "mangue",
-      "plateau",
-      "orange"
+      "haute-définition",
+      "épuré",
+      "arrivée",
+      "brun",
+      "incendier",
+      "rongeur",
+      "mérinos"
     ],
     [
-      "orange",
-      "cerise",
-      "poire",
-      "étoile",
-      "orange",
-      "bureau",
-      "plateau"
+      "inverser",
+      "mammifère",
+      "haendel",
+      "canada",
+      "gris",
+      "rechercher",
+      "morigéner"
     ],
     [
-      "lueur",
-      "miroir",
-      "pêche",
-      "mûre",
-      "table",
-      "banane",
-      "raisin"
+      "familial",
+      "rivière",
+      "troupeau",
+      "semi-aquatique",
+      "éclatant",
+      "prince",
+      "évincer"
     ],
     [
-      "étagère",
-      "citron",
-      "banane",
-      "globe",
-      "timbre",
-      "fraise",
-      "voisin"
+      "cage",
+      "oubli",
+      "paisible",
+      "chêne",
+      "préventive",
+      "manger",
+      "eau"
     ],
     [
-      "livre",
-      "poire",
-      "sol",
-      "raisin",
-      "pierre",
-      "serrure",
-      "mûre"
+      "lourde",
+      "orthoptère",
+      "traditionnel",
+      "pudeur",
+      "bienveillant",
+      "incurver",
+      "nager"
     ],
     [
-      "prune",
-      "melon",
-      "fraise",
-      "framboise",
-      "cassis",
-      "silence",
-      "prune"
+      "social",
+      "sentir",
+      "signet",
+      "étang",
+      "rougeoyant",
+      "estragon",
+      "aventure"
     ],
     [
-      "cassis",
-      "pastèque",
-      "étagère",
-      "abricot",
-      "cassis",
-      "kiwi",
-      "panneau"
+      "fessier",
+      "croisée",
+      "amérique",
+      "reine",
+      "mécanique",
+      "calligraphie",
+      "museau"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    2,
     4,
-    4,
     3,
-    3,
-    6,
-    5
+    1,
+    1,
+    2
   ],
   "colClues": [
+    2,
+    2,
     3,
-    5,
-    4,
-    5,
-    4,
-    3,
-    4
+    2,
+    1,
+    2,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "capybara",
   "solution": [
     [
       false,
       false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       false,
       true,
       false
@@ -128,29 +101,56 @@
       false,
       true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      true,
-      true,
+      false,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 15
 }

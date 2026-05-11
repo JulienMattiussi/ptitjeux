@@ -5,132 +5,123 @@
   "height": 7,
   "words": [
     [
-      "bureau",
-      "phare",
-      "tabouret",
-      "cadre",
-      "écume",
-      "marin",
-      "crabe"
+      "traité",
+      "refuge",
+      "sacré",
+      "jardinier",
+      "amarrer",
+      "oculaire",
+      "évidence"
     ],
     [
-      "thon",
-      "thon",
-      "saumon",
-      "méduse",
-      "timbre",
-      "thon",
-      "enveloppe"
+      "matutinal",
+      "splendide",
+      "ravenne",
+      "parasitologue",
+      "fourrer",
+      "cheminée",
+      "redingote"
     ],
     [
-      "ombre",
-      "chaise",
-      "livre",
-      "bateau",
-      "plage",
-      "écaille",
-      "rivage"
+      "uni",
+      "liturgique",
+      "séjour",
+      "patience",
+      "mosaïque",
+      "secours",
+      "responsive"
     ],
     [
-      "panier",
-      "porte",
-      "voile",
-      "voile",
-      "serrure",
-      "requin",
-      "saumon"
+      "or",
+      "doré",
+      "sainte-sophie",
+      "antique",
+      "gueule",
+      "pelletée",
+      "dribble"
     ],
     [
-      "vis",
-      "étoile",
-      "table",
-      "carnet",
-      "phare",
-      "saumon",
-      "tournevis"
+      "kirchner",
+      "constantinople",
+      "empire",
+      "patinette",
+      "oriental",
+      "vibrant",
+      "chemise"
     ],
     [
-      "table",
-      "méduse",
-      "sable",
-      "étoile",
-      "sable",
-      "parfum",
-      "baleine"
+      "linéaire",
+      "sphérique",
+      "légendaire",
+      "émonder",
+      "rocher",
+      "icône",
+      "salmonidé"
     ],
     [
-      "bateau",
-      "dauphin",
-      "dauphin",
-      "dauphin",
-      "sardine",
-      "écume",
-      "pétale"
+      "gastronomie",
+      "tartine",
+      "orthodoxe",
+      "japonais",
+      "stade",
+      "étalon",
+      "art"
     ]
   ],
   "rowClues": [
-    4,
-    5,
-    4,
-    4,
+    1,
+    2,
     2,
     4,
-    6
+    3,
+    1,
+    2
   ],
   "colClues": [
-    2,
-    4,
-    4,
+    1,
     4,
     5,
-    6,
-    4
+    1,
+    2,
+    1,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "byzantin",
   "solution": [
     [
       false,
+      false,
       true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
-      true,
       false
     ],
     [
       false,
+      true,
+      true,
       false,
       false,
-      true,
-      true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
-      false,
-      true,
       true,
       false,
+      false,
       true,
-      true
+      false,
+      false
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
       true,
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -140,17 +131,26 @@
       false,
       true,
       false,
-      true
+      false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 29
+  "parMoves": 15
 }

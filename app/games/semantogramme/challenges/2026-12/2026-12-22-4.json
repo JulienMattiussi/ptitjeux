@@ -5,95 +5,140 @@
   "height": 7,
   "words": [
     [
-      "rumeur",
-      "marteau",
-      "agenda",
-      "rouge",
-      "tabouret",
-      "brun",
-      "mauve"
-    ],
-    [
-      "serrure",
-      "bureau",
-      "silence",
-      "mauve",
-      "bleu",
-      "bleu",
-      "banquier"
-    ],
-    [
-      "devoir",
-      "maison",
-      "violet",
-      "gris",
-      "savon",
-      "doré",
-      "brun"
-    ],
-    [
-      "tournevis",
-      "noir",
-      "noir",
-      "sol",
-      "manuel",
-      "jaune",
-      "bureau"
-    ],
-    [
-      "noir",
-      "carnet",
-      "règle",
-      "indigo",
-      "violet",
+      "pierre",
+      "allergique",
+      "croix",
       "parfum",
-      "mur"
+      "gothique",
+      "pectoral",
+      "invoquer"
     ],
     [
-      "turquoise",
-      "jaune",
-      "parfum",
-      "agenda",
-      "jaune",
-      "écran",
-      "pierre"
+      "campagnol",
+      "filtrer",
+      "église",
+      "orné",
+      "cathédrale",
+      "facial",
+      "souple"
     ],
     [
-      "clé",
-      "timbre",
-      "indigo",
-      "tournevis",
-      "brun",
-      "coussin",
-      "mémoire"
+      "mue",
+      "oasis",
+      "brume",
+      "cubique",
+      "cabri",
+      "architecture",
+      "marié"
+    ],
+    [
+      "galop",
+      "inférieur",
+      "caravage",
+      "franchir",
+      "croustillante",
+      "flambant",
+      "voûte"
+    ],
+    [
+      "choeur",
+      "bras",
+      "respiratoire",
+      "liturgique",
+      "protestation",
+      "jumelé",
+      "cocktail"
+    ],
+    [
+      "romance",
+      "temple",
+      "judd",
+      "perpendiculaire",
+      "fenêtre",
+      "plan",
+      "nef"
+    ],
+    [
+      "comique",
+      "ciseler",
+      "conserve",
+      "crédule",
+      "inondation",
+      "théorique",
+      "roman"
     ]
   ],
   "rowClues": [
     3,
     3,
+    1,
+    1,
+    3,
     4,
-    3,
-    3,
-    3,
-    2
+    1
   ],
   "colClues": [
     2,
+    1,
     2,
     3,
-    4,
-    4,
-    4,
-    2
+    3,
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "transept",
   "solution": [
     [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       false,
       true,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
       true,
       true
     ],
@@ -101,56 +146,11 @@
       false,
       false,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      true,
       false,
-      true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 16
 }

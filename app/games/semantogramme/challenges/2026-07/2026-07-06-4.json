@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "métro",
-      "scooter",
-      "marteau",
-      "enveloppe",
-      "table",
-      "plateau",
-      "plafond"
+      "farine",
+      "cerise",
+      "orthoptère",
+      "clarinette",
+      "oeuf",
+      "cochon",
+      "verser"
     ],
     [
-      "pétale",
-      "bateau",
-      "tabouret",
-      "avion",
-      "métro",
-      "tramway",
-      "fusée"
+      "sucre",
+      "basmati",
+      "préparer",
+      "entomologue",
+      "pâture",
+      "cuisine",
+      "rustique"
     ],
     [
-      "tunnel",
-      "métro",
-      "porte",
-      "caravane",
-      "timbre",
-      "fusée",
-      "balai"
+      "mûr",
+      "érudit",
+      "pénible",
+      "crypter",
+      "poncer",
+      "maternité",
+      "reportage"
     ],
     [
-      "bateau",
-      "coussin",
-      "voiture",
-      "vélo",
-      "camion",
-      "remorque",
-      "tabouret"
+      "cuire",
+      "maussade",
+      "décoration",
+      "girolle",
+      "familial",
+      "sagesse",
+      "saule"
     ],
     [
-      "autobus",
-      "métro",
-      "bus",
-      "métro",
-      "lueur",
-      "lueur",
-      "caravane"
+      "foulard",
+      "mijoter",
+      "conquérir",
+      "devise",
+      "noyau",
+      "jalousie",
+      "apnée"
     ],
     [
-      "règle",
-      "tabouret",
-      "ferry",
-      "carnet",
-      "camion",
-      "chemin",
-      "prière"
+      "explosion",
+      "maladroit",
+      "limousin",
+      "pâte",
+      "traditionnel",
+      "transylvanie",
+      "savourer"
     ],
     [
-      "moto",
-      "caravane",
-      "métro",
-      "bateau",
-      "lueur",
-      "vélo",
-      "peigne"
+      "minimaliste",
+      "habitable",
+      "intérêt",
+      "four",
+      "majestueuse",
+      "matelas",
+      "menace"
     ]
   ],
   "rowClues": [
+    4,
+    4,
+    1,
     2,
-    5,
-    3,
-    5,
-    5,
-    2,
-    5
+    1,
+    4,
+    1
   ],
   "colClues": [
     4,
-    5,
+    1,
+    2,
+    2,
     4,
-    5,
-    3,
-    4,
-    2
+    1,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "clafoutis",
   "solution": [
     [
       true,
       true,
       false,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
+      true,
+      false,
+      true,
       false,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       true,
       false,
       false
     ],
     [
+      false,
+      false,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       true,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 17
 }

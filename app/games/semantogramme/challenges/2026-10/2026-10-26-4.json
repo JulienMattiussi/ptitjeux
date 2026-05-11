@@ -5,122 +5,104 @@
   "height": 7,
   "words": [
     [
-      "judo",
-      "brosse",
-      "marathon",
-      "rugby",
-      "danse",
-      "basket",
-      "cyclisme"
+      "pertinent",
+      "doseuse",
+      "humiliation",
+      "à-propos",
+      "noé",
+      "marais",
+      "jungle"
     ],
     [
-      "lueur",
-      "globe",
-      "rugby",
-      "volley",
-      "basket",
-      "golf",
-      "escalade"
+      "isoler",
+      "efficace",
+      "saisir",
+      "verglas",
+      "idoine",
+      "utile",
+      "convenable"
     ],
     [
-      "plateau",
-      "peigne",
-      "danse",
-      "chaise",
-      "crayon",
-      "golf",
-      "danse"
+      "pouce",
+      "roupiller",
+      "instant",
+      "rupestre",
+      "propice",
+      "interroger",
+      "invertébré"
     ],
     [
-      "basket",
-      "escalade",
-      "natation",
-      "escalade",
-      "livre",
-      "tennis",
-      "judo"
+      "vainqueur",
+      "porc",
+      "rocheux",
+      "favorable",
+      "bienvenu",
+      "judicieux",
+      "profiter"
     ],
     [
-      "étagère",
-      "savon",
-      "football",
-      "ombre",
-      "volley",
-      "rugby",
-      "football"
+      "rhubarbe",
+      "parfait",
+      "document",
+      "russe",
+      "astucieux",
+      "montante",
+      "supporter"
     ],
     [
-      "course",
-      "rugby",
-      "basket",
-      "course",
-      "caillou",
-      "gym",
-      "football"
+      "locomotive",
+      "moment",
+      "web",
+      "tiède",
+      "reine",
+      "jumelle",
+      "attendre"
     ],
     [
-      "judo",
-      "pelle",
-      "porte",
-      "volley",
-      "football",
-      "cyclisme",
-      "marathon"
+      "adapté",
+      "choisir",
+      "tannerie",
+      "chat",
+      "enfermer",
+      "narrateur",
+      "révérer"
     ]
   ],
   "rowClues": [
-    6,
+    2,
     5,
-    3,
-    6,
-    4,
-    6,
-    5
-  ],
-  "colClues": [
+    2,
     4,
     2,
-    6,
-    5,
-    4,
-    7,
-    7
+    2,
+    2
   ],
-  "themeWord": "sport",
+  "colClues": [
+    2,
+    4,
+    2,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "opportun",
   "solution": [
     [
       true,
       false,
+      false,
       true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false
     ],
     [
       false,
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false,
+      true,
       true,
       true
     ],
@@ -130,27 +112,45 @@
       true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 35
+  "parMoves": 19
 }

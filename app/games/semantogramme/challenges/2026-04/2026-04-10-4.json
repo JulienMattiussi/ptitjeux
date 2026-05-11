@@ -5,92 +5,101 @@
   "height": 7,
   "words": [
     [
-      "remorque",
-      "voiture",
-      "balai",
-      "timbre",
-      "ombre",
-      "plafond",
-      "sol"
+      "fondue",
+      "coffre",
+      "massif",
+      "élevage",
+      "goudron",
+      "antilope",
+      "migrer"
     ],
     [
-      "navette",
-      "jardin",
-      "brosse",
-      "banquier",
-      "train",
-      "ciseaux",
-      "train"
+      "fuir",
+      "savoureuse",
+      "crépi",
+      "parapluie",
+      "écarlate",
+      "guérison",
+      "ventiler"
     ],
     [
-      "jardin",
-      "carnet",
-      "parfum",
-      "avion",
-      "camion",
-      "avion",
-      "pierre"
+      "sentimental",
+      "président",
+      "caillé",
+      "migration",
+      "vif",
+      "directe",
+      "rosée"
     ],
     [
-      "livre",
-      "savon",
-      "voisin",
-      "rumeur",
-      "balai",
-      "bus",
-      "règle"
+      "troupeau",
+      "sécher",
+      "galoper",
+      "dribble",
+      "corps-de-ballet",
+      "économiser",
+      "pelage"
     ],
     [
-      "rideau",
-      "remorque",
-      "rideau",
-      "bateau",
-      "moto",
-      "bateau",
-      "manuel"
+      "juteux",
+      "épineux",
+      "savane",
+      "acacia",
+      "mammifère",
+      "moule",
+      "évacuer"
     ],
     [
-      "taxi",
-      "plateau",
-      "parfum",
-      "parfum",
-      "rideau",
-      "caillou",
-      "serrure"
+      "grimoire",
+      "interpréter",
+      "sombre",
+      "retentissante",
+      "tanzanie",
+      "afrique",
+      "kenya"
     ],
     [
-      "étagère",
-      "métro",
-      "moto",
-      "bureau",
-      "fusée",
-      "camion",
-      "vis"
+      "brouter",
+      "sauvage",
+      "sollicitation",
+      "strophe",
+      "puissant",
+      "rite",
+      "haltérophilie"
     ]
   ],
   "rowClues": [
+    3,
+    1,
+    1,
+    3,
     2,
-    3,
-    3,
-    1,
     4,
-    1,
     3
   ],
   "colClues": [
     3,
-    3,
     1,
-    2,
-    3,
     4,
-    1
+    1,
+    3,
+    2,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "gnou",
   "solution": [
     [
+      false,
+      false,
       true,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       false,
       false,
@@ -98,57 +107,48 @@
       false
     ],
     [
-      true,
       false,
       false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
       false,
+      true,
       false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
       true,
-      true,
-      false
+      true
     ],
     [
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
       true,
+      false,
       false
     ]
   ],

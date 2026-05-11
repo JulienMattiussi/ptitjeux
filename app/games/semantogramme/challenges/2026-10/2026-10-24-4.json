@@ -5,97 +5,97 @@
   "height": 7,
   "words": [
     [
-      "rivage",
-      "requin",
-      "prison",
-      "mur",
-      "phare",
-      "requin",
-      "sable"
+      "flexion",
+      "tableau",
+      "esquif",
+      "récent",
+      "détermination",
+      "tempéré",
+      "algérie"
     ],
     [
-      "panneau",
-      "chaise",
-      "mur",
-      "bateau",
-      "agenda",
-      "dauphin",
-      "dauphin"
+      "voilé",
+      "cardiogramme",
+      "mycènes",
+      "quaternaire",
+      "hostie",
+      "sédentaire",
+      "rapporter"
     ],
     [
-      "marin",
-      "plage",
-      "bateau",
-      "requin",
-      "corail",
-      "baleine",
-      "caillou"
+      "préhistoire",
+      "fleuriste",
+      "fillette",
+      "rock",
+      "recueil",
+      "aérien",
+      "festive"
     ],
     [
-      "carnet",
-      "écume",
-      "silence",
-      "crabe",
-      "phare",
-      "sable",
-      "voile"
+      "attente",
+      "ère",
+      "climat",
+      "manuel",
+      "appliquer",
+      "descendante",
+      "diriger"
     ],
     [
-      "écran",
-      "devoir",
-      "bateau",
-      "méduse",
-      "porte",
-      "étoile",
-      "plage"
+      "observateur",
+      "delacroix",
+      "guetter",
+      "court",
+      "glaciation",
+      "interglaciaire",
+      "pull"
     ],
     [
-      "chemin",
-      "marin",
-      "tabouret",
-      "pierre",
-      "tasse",
-      "écume",
-      "crabe"
+      "moderne",
+      "genièvre",
+      "réchauffement",
+      "rouler",
+      "discrétion",
+      "assourdissant",
+      "actuelle"
     ],
     [
-      "poisson",
-      "livre",
-      "méduse",
-      "ombre",
-      "peigne",
-      "chemin",
-      "jardin"
+      "évolution",
+      "arme",
+      "civilisation",
+      "caractère",
+      "vélo",
+      "endurer",
+      "soupçonner"
     ]
   ],
   "rowClues": [
-    5,
-    3,
-    6,
-    5,
+    2,
+    2,
+    1,
+    2,
     3,
     3,
     2
   ],
   "colClues": [
     3,
-    4,
+    1,
     3,
-    4,
     3,
-    5,
-    5
+    1,
+    3,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "holocène",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
+      false,
       true,
+      false,
       true,
-      true
+      false
     ],
     [
       false,
@@ -104,42 +104,42 @@
       true,
       false,
       true,
-      true
+      false
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
       true,
       false
     ],
     [
-      false,
       true,
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
-      true,
       true
     ],
     [
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 15
 }

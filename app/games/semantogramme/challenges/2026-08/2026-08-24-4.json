@@ -5,110 +5,137 @@
   "height": 7,
   "words": [
     [
-      "chaise",
-      "étagère",
-      "bureau",
-      "saumon",
-      "sardine",
-      "crabe",
-      "carnet"
+      "sourdine",
+      "anthropique",
+      "abstraction",
+      "humer",
+      "lyrique",
+      "gaieté",
+      "adapté"
     ],
     [
-      "clé",
-      "crayon",
-      "corail",
-      "voisin",
-      "phare",
-      "sardine",
-      "plage"
+      "spacieux",
+      "delaunay",
+      "récolté",
+      "orchestre",
+      "swing",
+      "cosmique",
+      "couvercle"
     ],
     [
-      "corail",
-      "saumon",
-      "table",
-      "écran",
-      "vague",
-      "jardin",
-      "cadre"
+      "mythologique",
+      "trouillard",
+      "pénétrer",
+      "art",
+      "bricoler",
+      "musical",
+      "voile"
     ],
     [
-      "plage",
-      "saumon",
-      "panier",
-      "maison",
-      "thon",
-      "peigne",
-      "sable"
+      "kupka",
+      "température",
+      "vibrant",
+      "rythme",
+      "lumière",
+      "cymbale",
+      "cinétique"
     ],
     [
-      "poisson",
-      "poisson",
-      "saumon",
-      "chaise",
-      "balai",
-      "écaille",
-      "tunnel"
+      "mouvement",
+      "discourir",
+      "mesquinerie",
+      "immortelle",
+      "conservateur",
+      "dynamique",
+      "fourche"
     ],
     [
-      "méduse",
-      "poisson",
-      "clé",
-      "ciseaux",
-      "saumon",
-      "marin",
-      "manuel"
+      "archipel",
+      "reprocher",
+      "malpropre",
+      "lundi",
+      "couleur",
+      "kiwi",
+      "altérée"
     ],
     [
-      "jardin",
-      "pétale",
-      "mémoire",
-      "saumon",
-      "plafond",
-      "miroir",
-      "thon"
+      "humilier",
+      "duper",
+      "mammifère",
+      "piste",
+      "marquer",
+      "cercle",
+      "dévonien"
     ]
   ],
   "rowClues": [
+    2,
+    1,
     3,
-    4,
-    3,
-    4,
-    4,
-    4,
-    2
+    5,
+    2,
+    1,
+    1
   ],
   "colClues": [
-    4,
-    4,
+    3,
+    1,
     2,
     2,
-    5,
-    4,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "orphisme",
   "solution": [
     [
       false,
       false,
+      true,
       false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true,
       false,
       true,
+      false
+    ],
+    [
       true,
+      false,
+      true,
+      true,
+      true,
+      false,
       true
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
@@ -116,41 +143,14 @@
       false
     ],
     [
-      true,
-      true,
       false,
       false,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 15
 }

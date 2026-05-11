@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "renard",
-      "chien",
-      "castor",
-      "vache",
-      "timbre",
-      "rumeur",
-      "vache"
+      "tremolo",
+      "foisonnant",
+      "républicaine",
+      "chargé",
+      "levant",
+      "bonus",
+      "fragonard"
     ],
     [
-      "pince",
-      "lion",
-      "horloge",
-      "chien",
-      "chien",
-      "ours",
-      "bureau"
+      "aristocratique",
+      "miniature",
+      "temporel",
+      "orné",
+      "compteur",
+      "larve",
+      "talon"
     ],
     [
-      "belette",
-      "rideau",
-      "devoir",
-      "renard",
-      "cheval",
-      "crayon",
-      "ciseaux"
+      "échouer",
+      "baroque",
+      "rocaille",
+      "folklorique",
+      "humiliation",
+      "maculer",
+      "judo"
     ],
     [
-      "brosse",
-      "pierre",
-      "ciseaux",
-      "belette",
-      "loup",
-      "chat",
-      "souris"
+      "enseigner",
+      "épépiner",
+      "conclusion",
+      "incurver",
+      "volute",
+      "watteau",
+      "boucher"
     ],
     [
-      "porte",
-      "tigre",
-      "chat",
-      "règle",
-      "tabouret",
-      "tournevis",
-      "loup"
+      "tardif",
+      "tour",
+      "selle",
+      "pastoral",
+      "monet",
+      "artère",
+      "lest"
     ],
     [
-      "savon",
-      "renard",
-      "plateau",
-      "loup",
-      "lapin",
-      "règle",
-      "chat"
+      "élégant",
+      "gracieux",
+      "chiffon",
+      "nickel",
+      "nourrir",
+      "créatif",
+      "mirabelle"
     ],
     [
-      "panda",
-      "chien",
-      "ours",
-      "prière",
-      "cadre",
-      "lampe",
-      "lion"
+      "agréée",
+      "décoratif",
+      "pékinois",
+      "idéaliste",
+      "ornement",
+      "gouvernemental",
+      "toile"
     ]
   ],
   "rowClues": [
-    5,
-    4,
     3,
-    4,
+    2,
+    2,
     3,
-    4,
-    4
+    2,
+    2,
+    2
   ],
   "colClues": [
     3,
-    5,
-    3,
-    5,
     4,
+    1,
+    3,
     2,
-    5
+    1,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "rococo",
   "solution": [
     [
+      false,
       true,
-      true,
-      true,
+      false,
       true,
       false,
       false,
       true
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true
     ],
     [
+      true,
       false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
       false,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
       true,
       false,
-      true,
+      false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 16
 }

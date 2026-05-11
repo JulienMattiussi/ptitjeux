@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "rugby",
-      "étoile",
-      "fusée",
-      "football",
-      "basket",
-      "gym",
-      "agenda"
+      "flotter",
+      "ensorceler",
+      "poireau",
+      "rectangle",
+      "fossile",
+      "démocratie",
+      "ancien"
     ],
     [
-      "voile",
-      "horloge",
-      "voile",
-      "horloge",
-      "course",
-      "volley",
-      "agenda"
+      "préhistoire",
+      "lointain",
+      "pouce",
+      "dédier",
+      "cambrien",
+      "merleau-ponty",
+      "oxygène"
     ],
     [
-      "judo",
-      "basket",
-      "tennis",
-      "natation",
-      "basket",
-      "ski",
-      "panier"
+      "pudding",
+      "tracteur",
+      "mer",
+      "paléozoïque",
+      "rabelais",
+      "altitude",
+      "glaciation"
     ],
     [
-      "livre",
-      "natation",
-      "plateau",
-      "silence",
-      "lueur",
-      "golf",
-      "clé"
+      "graptolithe",
+      "lune",
+      "grande",
+      "imbiber",
+      "silurien",
+      "végétal",
+      "malléole"
     ],
     [
-      "voile",
-      "pelle",
-      "basket",
-      "judo",
-      "chemin",
-      "judo",
-      "plafond"
+      "nouvelle-zélande",
+      "falaise",
+      "pulpeux",
+      "évolution",
+      "géologique",
+      "amphi",
+      "ère"
     ],
     [
-      "danse",
-      "voile",
-      "golf",
-      "silence",
-      "mémoire",
-      "chaise",
-      "natation"
+      "enterrer",
+      "extinction",
+      "arrosoir",
+      "filet",
+      "roche",
+      "sédiment",
+      "continental"
     ],
     [
-      "vis",
-      "basket",
-      "cyclisme",
-      "danse",
-      "tapis",
-      "mémoire",
-      "marathon"
+      "magnétique",
+      "gazette",
+      "invertébré",
+      "épictète",
+      "eskimo",
+      "majeur",
+      "trilobite"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    6,
     2,
-    4,
-    4,
-    4
-  ],
-  "colClues": [
-    5,
-    4,
-    5,
-    4,
     3,
-    5,
+    3,
+    2,
+    3,
+    4,
     2
   ],
-  "themeWord": "sport",
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    5,
+    1,
+    5
+  ],
+  "themeWord": "ordovicien",
   "solution": [
     [
-      true,
+      false,
+      false,
       false,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
       true,
+      false,
+      false,
       true,
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
+      false,
+      true,
       true,
       false,
       false,
-      false,
-      true,
-      false
+      true
     ],
     [
       true,
       false,
-      true,
-      true,
+      false,
       false,
       true,
+      false,
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
       false,
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
       true,
+      false,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 19
 }

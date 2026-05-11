@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "panda",
-      "mouton",
-      "miroir",
-      "écureuil",
-      "lynx",
-      "panneau",
-      "cheval"
+      "voiler",
+      "inévitable",
+      "grizzli",
+      "chapeau",
+      "majeure",
+      "prophétie",
+      "enveloppe"
     ],
     [
-      "tigre",
-      "chat",
-      "carnet",
-      "timbre",
-      "carnet",
-      "girafe",
-      "timbre"
+      "cacher",
+      "estival",
+      "prédire",
+      "sentence",
+      "pollen",
+      "pomper",
+      "apparition"
     ],
     [
-      "lynx",
-      "renard",
-      "loup",
-      "parfum",
-      "zèbre",
-      "carnet",
-      "ours"
+      "antique",
+      "agate",
+      "révéler",
+      "gitane",
+      "bêche",
+      "habiter",
+      "morphine"
     ],
     [
-      "castor",
-      "table",
-      "enveloppe",
-      "loup",
-      "pétale",
-      "pétale",
-      "tunnel"
+      "cadet",
+      "harmonie",
+      "isolant",
+      "ambigu",
+      "urinaire",
+      "oracle",
+      "couleuvre"
     ],
     [
-      "peigne",
-      "cheval",
-      "tapis",
-      "chat",
-      "crayon",
-      "plafond",
-      "panda"
+      "inde",
+      "vanter",
+      "cumes",
+      "joute",
+      "mystérieux",
+      "turquoise",
+      "beagle"
     ],
     [
-      "vache",
-      "écureuil",
-      "panneau",
-      "koala",
-      "castor",
-      "mur",
-      "tigre"
+      "gaz",
+      "cryptique",
+      "village",
+      "reins",
+      "croquer",
+      "énigmatique",
+      "hermétique"
     ],
     [
-      "chat",
-      "carnet",
-      "serrure",
-      "chien",
-      "koala",
-      "silence",
-      "silence"
+      "abeille",
+      "assise",
+      "tancer",
+      "comprimer",
+      "mathématique",
+      "obscur",
+      "sibylle"
     ]
   ],
   "rowClues": [
-    5,
-    3,
-    5,
     2,
     3,
-    5,
-    3
+    2,
+    2,
+    2,
+    3,
+    2
   ],
   "colClues": [
-    6,
-    5,
+    3,
     1,
-    5,
+    3,
+    2,
+    1,
     4,
-    1,
-    4
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "sibyllin",
   "solution": [
     [
       true,
-      true,
       false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false,
@@ -108,19 +99,37 @@
     ],
     [
       true,
+      false,
       true,
       true,
       false,
-      true,
       false,
-      true
+      false
     ],
     [
       true,
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
       false,
       false
     ],
@@ -128,29 +137,20 @@
       false,
       true,
       false,
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
-      true,
-      false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 16
 }

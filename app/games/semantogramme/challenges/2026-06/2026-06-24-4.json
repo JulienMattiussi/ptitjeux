@@ -5,104 +5,113 @@
   "height": 7,
   "words": [
     [
-      "timbre",
-      "savon",
-      "étagère",
-      "poêle",
-      "carnet",
-      "épice",
-      "four"
+      "étrange",
+      "oeuf",
+      "ouvreur",
+      "fouiller",
+      "unique",
+      "pondre",
+      "monotrème"
     ],
     [
-      "lampe",
-      "tournevis",
-      "horloge",
-      "pierre",
-      "four",
-      "étoile",
-      "savon"
+      "tatami",
+      "éperon",
+      "colley",
+      "iceberg",
+      "destinataire",
+      "aquatique",
+      "éviction"
     ],
     [
-      "étagère",
-      "recette",
-      "plat",
-      "assiette",
-      "fourchette",
-      "tablier",
-      "règle"
+      "queue",
+      "animer",
+      "endémique",
+      "lambin",
+      "souffler",
+      "baudruche",
+      "foudroyer"
     ],
     [
-      "prière",
-      "farine",
-      "panier",
-      "cuillère",
-      "pétale",
-      "vis",
-      "spatule"
+      "écrit",
+      "australie",
+      "primitif",
+      "mammifère",
+      "fanfare",
+      "canard",
+      "recueillir"
     ],
     [
-      "casserole",
-      "verre",
-      "spatule",
-      "cadre",
-      "étoile",
-      "bureau",
-      "banquier"
+      "larvaire",
+      "effectuer",
+      "bec",
+      "médaille",
+      "organique",
+      "aurore",
+      "inertie"
     ],
     [
-      "vis",
-      "four",
-      "mur",
-      "recette",
-      "tunnel",
-      "peigne",
-      "étagère"
+      "jardin",
+      "nager",
+      "géomorphologue",
+      "égyptienne",
+      "rejeter",
+      "enraciner",
+      "venin"
     ],
     [
-      "crayon",
-      "panneau",
-      "assiette",
-      "gomme",
-      "casserole",
-      "pelle",
-      "fourchette"
+      "street",
+      "rougir",
+      "castor",
+      "volontaire",
+      "palmé",
+      "argent",
+      "bague"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    5,
-    3,
-    3,
+    6,
     2,
-    3
+    2,
+    4,
+    1,
+    2,
+    2
   ],
   "colClues": [
-    1,
-    4,
-    3,
-    4,
-    3,
     2,
-    3
+    4,
+    4,
+    2,
+    2,
+    3,
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "ornithorynque",
   "solution": [
     [
-      false,
-      false,
-      false,
+      true,
       true,
       false,
+      true,
+      true,
       true,
       true
     ],
     [
       false,
+      true,
       false,
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false,
       false
     ],
@@ -111,46 +120,37 @@
       true,
       true,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
       false,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
       false,
+      true,
+      false,
+      true,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 19
 }

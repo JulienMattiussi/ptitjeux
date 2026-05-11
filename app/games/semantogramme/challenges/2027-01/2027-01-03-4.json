@@ -5,92 +5,137 @@
   "height": 7,
   "words": [
     [
-      "serrure",
-      "marteau",
-      "pelle",
-      "coussin",
-      "panneau",
-      "mélodie",
-      "tapis"
+      "transformer",
+      "navigation",
+      "redon",
+      "kiwi",
+      "dattier",
+      "art",
+      "stigmatiser"
     ],
     [
-      "tapis",
-      "tambour",
-      "orgue",
-      "tabouret",
-      "piano",
-      "piano",
-      "mémoire"
+      "littérature",
+      "moreau",
+      "rimbaud",
+      "ambre",
+      "avouer",
+      "évocation",
+      "évoquer"
     ],
     [
-      "marteau",
-      "choeur",
-      "tambour",
-      "violon",
-      "chant",
-      "pelle",
-      "rumeur"
+      "darwinien",
+      "sommier",
+      "verlaine",
+      "géologie",
+      "rêve",
+      "abonnement",
+      "nashville"
     ],
     [
-      "jazz",
-      "mémoire",
-      "accord",
-      "panier",
-      "tasse",
-      "gamme",
-      "note"
+      "sérigraphie",
+      "gond",
+      "beige",
+      "paprika",
+      "mallarmé",
+      "cardan",
+      "décadent"
     ],
     [
-      "note",
-      "sol",
-      "concerto",
-      "concerto",
-      "fusée",
-      "orgue",
-      "concerto"
+      "symboliser",
+      "lutte",
+      "fugué",
+      "défendre",
+      "octroyer",
+      "ready-made",
+      "français"
     ],
     [
-      "violon",
-      "sol",
-      "accord",
-      "mélodie",
-      "lueur",
-      "orgue",
-      "gamme"
+      "fin-de-siècle",
+      "lavage",
+      "cadavérique",
+      "tonne",
+      "boulon",
+      "mouvement",
+      "phénomène"
     ],
     [
-      "banquier",
-      "concerto",
-      "violon",
-      "choeur",
-      "symphonie",
-      "concerto",
-      "écran"
+      "brassé",
+      "penalty",
+      "idéaliste",
+      "baudelaire",
+      "suggérer",
+      "inébranlable",
+      "tronçonneuse"
     ]
   ],
   "rowClues": [
+    2,
+    5,
+    2,
+    2,
     1,
-    4,
-    4,
-    4,
-    5,
-    5,
-    5
+    2,
+    3
   ],
   "colClues": [
     3,
-    3,
-    6,
+    1,
     4,
+    1,
     3,
-    6,
-    3
+    3,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "symbolisme",
   "solution": [
     [
       false,
       false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       false,
@@ -99,58 +144,13 @@
     ],
     [
       false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
       true,
       true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 28
+  "parMoves": 17
 }

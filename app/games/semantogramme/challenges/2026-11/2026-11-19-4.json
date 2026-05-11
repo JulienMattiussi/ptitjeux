@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "rugby",
-      "judo",
-      "pelle",
-      "voile",
-      "gym",
-      "volley",
-      "tennis"
+      "néolithique",
+      "essai",
+      "nomade",
+      "strict",
+      "street",
+      "cueillette",
+      "chasse"
     ],
     [
-      "boxe",
-      "tapis",
-      "clé",
-      "golf",
-      "voile",
-      "clé",
-      "voile"
+      "incassable",
+      "salir",
+      "oeil-de-chat",
+      "pierre",
+      "vitesse",
+      "préhistoire",
+      "pêche"
     ],
     [
-      "cyclisme",
-      "football",
-      "savon",
-      "marathon",
-      "plateau",
-      "course",
-      "miroir"
+      "arc",
+      "râpe",
+      "trous",
+      "ancien",
+      "ronde",
+      "vain",
+      "opportuniste"
     ],
     [
-      "chemin",
-      "globe",
-      "pince",
-      "horloge",
-      "rugby",
-      "course",
-      "marteau"
+      "tourner",
+      "invectiver",
+      "pension",
+      "transitoire",
+      "homme",
+      "doudou",
+      "morue"
     ],
     [
-      "ski",
-      "basket",
-      "escalade",
-      "rumeur",
-      "escalade",
-      "cadre",
-      "étoile"
+      "foyer",
+      "quaternaire",
+      "global",
+      "manigancer",
+      "rallonger",
+      "fracturer",
+      "paléolithique"
     ],
     [
-      "cyclisme",
-      "carnet",
-      "ski",
-      "ski",
-      "tournevis",
-      "course",
-      "devoir"
+      "campement",
+      "microlithe",
+      "âge",
+      "entourer",
+      "parmesan",
+      "percutant",
+      "bernin"
     ],
     [
-      "course",
-      "voile",
-      "gym",
-      "crayon",
-      "livre",
-      "brosse",
-      "natation"
+      "préhistorique",
+      "salé",
+      "lionne",
+      "cohabiter",
+      "flèche",
+      "taillée",
+      "pissarro"
     ]
   ],
   "rowClues": [
-    6,
-    4,
-    4,
-    2,
-    4,
-    4,
-    4
-  ],
-  "colClues": [
-    6,
     4,
     3,
-    4,
-    4,
-    4,
+    2,
+    2,
+    2,
+    3,
     3
   ],
-  "themeWord": "sport",
+  "colClues": [
+    5,
+    1,
+    2,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "mésolithique",
   "solution": [
     [
       true,
-      true,
       false,
       true,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       true,
       true
     ],
@@ -102,55 +111,46 @@
       false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
       true,
-      false,
       true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
       true,
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 19
 }

@@ -5,112 +5,103 @@
   "height": 7,
   "words": [
     [
-      "tabouret",
-      "prison",
-      "frigo",
-      "clé",
-      "bureau",
-      "cuillère",
-      "peigne"
+      "maudit",
+      "javelot",
+      "ancestral",
+      "tour",
+      "humidifier",
+      "colombe",
+      "azerty"
     ],
     [
-      "table",
-      "gomme",
-      "tapis",
-      "lueur",
-      "carnet",
-      "four",
-      "table"
+      "fade",
+      "pigeon",
+      "carnaval",
+      "écouler",
+      "larvaire",
+      "choeur",
+      "maternité"
     ],
     [
-      "recette",
-      "four",
-      "couteau",
-      "fourchette",
-      "rumeur",
-      "clé",
-      "maison"
+      "normand",
+      "opinion",
+      "voodoo",
+      "rond",
+      "pittoresque",
+      "pesante",
+      "campagne"
     ],
     [
-      "recette",
-      "tasse",
-      "frigo",
-      "poêle",
-      "plat",
-      "livre",
-      "spatule"
+      "manoir",
+      "gril",
+      "palmier",
+      "élever",
+      "reculer",
+      "médicale",
+      "pondre"
     ],
     [
-      "assiette",
-      "pierre",
-      "marteau",
-      "tablier",
-      "frigo",
-      "balai",
-      "bureau"
+      "boucle",
+      "rural",
+      "roucouler",
+      "dégoûtant",
+      "pâté",
+      "pigeonnier",
+      "injection"
     ],
     [
-      "plafond",
-      "assiette",
-      "timbre",
-      "lampe",
-      "casserole",
-      "poêle",
-      "miroir"
+      "percher",
+      "sérénité",
+      "voler",
+      "musique",
+      "rustique",
+      "poupon",
+      "bricolage"
     ],
     [
-      "cuillère",
-      "chaise",
-      "maison",
-      "épice",
-      "étagère",
-      "serrure",
-      "couteau"
+      "anche",
+      "haut",
+      "traditionnel",
+      "capucin",
+      "courbet",
+      "hampe",
+      "sourdre"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     1,
     4,
-    5,
     3,
-    3,
-    3
-  ],
-  "colClues": [
-    4,
-    2,
-    3,
-    4,
     3,
     3,
     2
   ],
-  "themeWord": "cuisine",
+  "colClues": [
+    3,
+    3,
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "colombier",
   "solution": [
     [
       false,
       false,
       true,
-      false,
+      true,
       false,
       true,
       false
     ],
     [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
       false
@@ -118,7 +109,7 @@
     [
       true,
       false,
-      true,
+      false,
       true,
       true,
       false,
@@ -129,28 +120,37 @@
       false,
       false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 19
 }

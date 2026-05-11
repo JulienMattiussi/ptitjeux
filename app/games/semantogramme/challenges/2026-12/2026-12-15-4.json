@@ -5,113 +5,104 @@
   "height": 7,
   "words": [
     [
-      "chant",
-      "accord",
-      "voisin",
-      "opéra",
-      "choeur",
-      "parfum",
-      "rumeur"
+      "lactée",
+      "légume",
+      "cumin",
+      "traditionnel",
+      "radicelle",
+      "pisan",
+      "piéton"
     ],
     [
-      "lueur",
-      "carnet",
-      "écran",
-      "rythme",
-      "lueur",
-      "panneau",
-      "mémoire"
+      "campement",
+      "balade",
+      "agneau",
+      "olive",
+      "corticoïde",
+      "terre",
+      "traitement"
     ],
     [
-      "tambour",
-      "sol",
-      "orgue",
-      "concerto",
-      "symphonie",
-      "trompette",
-      "mur"
+      "février",
+      "immortalité",
+      "rang",
+      "majestueuse",
+      "oriental",
+      "oisiveté",
+      "safran"
     ],
     [
-      "savon",
-      "maison",
-      "pétale",
-      "accord",
-      "accord",
-      "accord",
-      "gamme"
+      "plat",
+      "déterminisme",
+      "poulet",
+      "précieuse",
+      "altier",
+      "citron",
+      "cuit"
     ],
     [
-      "tournevis",
-      "chant",
-      "prison",
-      "lueur",
-      "horloge",
-      "batterie",
-      "flûte"
+      "froussard",
+      "thonier",
+      "adapté",
+      "savourer",
+      "enclaver",
+      "cigale",
+      "rechercher"
     ],
     [
-      "concerto",
-      "harpe",
-      "rideau",
-      "opéra",
-      "mélodie",
-      "gamme",
-      "agenda"
+      "mijoter",
+      "rosette",
+      "amoureuse",
+      "authentifier",
+      "tropique",
+      "beignet",
+      "transilvanien"
     ],
     [
-      "orgue",
-      "chant",
-      "table",
-      "flûte",
-      "pelle",
-      "chant",
-      "mur"
+      "copeau",
+      "roulé",
+      "blues",
+      "cône",
+      "maghreb",
+      "maroc",
+      "va-et-vient"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    2,
     4,
     1,
-    5,
-    4,
-    3,
-    5,
-    4
+    1,
+    3
   ],
   "colClues": [
-    4,
-    4,
+    2,
     1,
-    6,
+    3,
     4,
-    5,
+    2,
+    3,
     2
   ],
-  "themeWord": "musique",
+  "themeWord": "tagine",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
       false,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       true,
-      true,
+      false,
       true,
       false
     ],
@@ -119,38 +110,47 @@
       false,
       false,
       false,
+      false,
       true,
-      true,
-      true,
+      false,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
-      false,
+      true,
       true,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 17
 }

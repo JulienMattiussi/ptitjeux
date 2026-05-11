@@ -5,138 +5,102 @@
   "height": 7,
   "words": [
     [
-      "oreille",
-      "tabouret",
-      "bouche",
-      "doigt",
-      "coeur",
-      "langue",
-      "dos"
+      "maçonnique",
+      "travail",
+      "imagerie",
+      "archiver",
+      "cortex",
+      "pétrole",
+      "préventive"
     ],
     [
-      "prière",
-      "oeil",
-      "écran",
-      "langue",
-      "bouche",
-      "vis",
-      "tournevis"
+      "sumo",
+      "mourvèdre",
+      "saigner",
+      "thérapeutique",
+      "parfumée",
+      "cerveau",
+      "péniche"
     ],
     [
-      "plateau",
-      "main",
-      "pince",
-      "livre",
-      "joue",
-      "doigt",
-      "bouche"
+      "alzheimer",
+      "vase",
+      "projection",
+      "synapse",
+      "capuche",
+      "nerf",
+      "épilepsie"
     ],
     [
-      "joue",
-      "bras",
-      "marteau",
-      "pelle",
-      "table",
-      "bouche",
-      "genou"
+      "maraudage",
+      "science",
+      "soigner",
+      "bonté",
+      "opérer",
+      "neurone",
+      "ton"
     ],
     [
-      "genou",
-      "lèvre",
-      "nez",
-      "pince",
-      "cadre",
-      "coussin",
-      "coussin"
+      "argumenter",
+      "bonbon",
+      "clinique",
+      "minimal",
+      "laurier",
+      "devon",
+      "cardiaque"
     ],
     [
-      "gomme",
-      "main",
-      "genou",
-      "joue",
-      "horloge",
-      "genou",
-      "mur"
+      "squelettique",
+      "perdant",
+      "enfilage",
+      "cellule",
+      "neurologue",
+      "habiter",
+      "examiner"
     ],
     [
-      "jambe",
-      "épaule",
-      "pied",
-      "étoile",
-      "ombre",
-      "lueur",
-      "joue"
+      "demoiselle",
+      "instinct",
+      "glace",
+      "modernité",
+      "semence",
+      "voix",
+      "parkinson"
     ]
   ],
   "rowClues": [
-    6,
     3,
+    2,
     4,
     4,
+    1,
     3,
-    4,
-    4
+    1
   ],
   "colClues": [
-    4,
-    6,
-    4,
+    1,
+    1,
     3,
     3,
-    4,
+    3,
+    3,
     4
   ],
-  "themeWord": "corps",
+  "themeWord": "neurologie",
   "solution": [
     [
+      false,
+      false,
       true,
       false,
       true,
-      true,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       false,
       true,
@@ -144,13 +108,49 @@
     ],
     [
       true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 18
 }

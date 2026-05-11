@@ -5,103 +5,94 @@
   "height": 7,
   "words": [
     [
-      "soleil",
-      "tonnerre",
-      "plafond",
-      "coussin",
-      "éclair",
-      "parfum",
-      "marteau"
+      "girafe",
+      "éternel",
+      "illimité",
+      "aérien",
+      "fratrie",
+      "biberon",
+      "paradis"
     ],
     [
-      "neige",
-      "orage",
-      "orage",
-      "neige",
-      "voisin",
-      "règle",
-      "pluie"
+      "pure",
+      "philosophique",
+      "permanent",
+      "fuji",
+      "sans-fin",
+      "tentation",
+      "maturité"
     ],
     [
-      "savon",
-      "gel",
-      "tasse",
-      "brouillard",
-      "gel",
-      "tasse",
-      "tempête"
+      "développement",
+      "infini",
+      "coffrage",
+      "comparaison",
+      "spirituel",
+      "transcender",
+      "mai-68"
     ],
     [
-      "éclair",
-      "neige",
-      "foudre",
-      "rosée",
-      "neige",
-      "glace",
-      "manuel"
+      "mystique",
+      "rocaille",
+      "bol",
+      "durer",
+      "sirène",
+      "perpétuel",
+      "persister"
     ],
     [
-      "plafond",
-      "vent",
-      "prière",
-      "étoile",
-      "parfum",
-      "rosée",
-      "neige"
+      "aviron",
+      "mou",
+      "amande",
+      "durée",
+      "immortel",
+      "apprenti",
+      "algèbre"
     ],
     [
-      "brouillard",
-      "rumeur",
-      "vent",
-      "vent",
-      "arc-en-ciel",
-      "verglas",
-      "pluie"
+      "accusé",
+      "tramway",
+      "divin",
+      "gmail",
+      "assécher",
+      "parer",
+      "sublime"
     ],
     [
-      "porte",
-      "prison",
-      "verglas",
-      "mémoire",
-      "orage",
-      "fusée",
-      "nuage"
+      "cligner",
+      "cravache",
+      "geler",
+      "jockey",
+      "absolu",
+      "orfèvre",
+      "raffiné"
     ]
   ],
   "rowClues": [
     3,
-    5,
-    4,
-    6,
     3,
-    6,
-    3
+    3,
+    4,
+    2,
+    2,
+    1
   ],
   "colClues": [
-    4,
-    5,
-    4,
-    4,
-    5,
+    1,
     3,
-    5
+    3,
+    2,
+    4,
+    2,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "éternité",
   "solution": [
     [
+      false,
       true,
       true,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
       true
@@ -109,19 +100,10 @@
     [
       false,
       true,
-      false,
-      true,
       true,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
@@ -129,28 +111,46 @@
       true,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       false,
       true,
       true
     ],
     [
-      true,
+      false,
+      false,
       false,
       true,
       true,
-      true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
       true,
       false,
-      true,
+      false,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 30
+  "parMoves": 18
 }

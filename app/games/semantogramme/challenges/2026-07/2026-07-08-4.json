@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "nez",
-      "tête",
-      "brosse",
-      "main",
-      "oeil",
-      "peau",
-      "rideau"
+      "fairway",
+      "magnitude",
+      "imperturbable",
+      "paix",
+      "opposer",
+      "match",
+      "mesurer"
     ],
     [
-      "prière",
-      "ongle",
-      "panneau",
-      "écran",
-      "tunnel",
-      "carnet",
-      "ongle"
+      "majestueux",
+      "bêche",
+      "tranquille",
+      "collecte",
+      "taper",
+      "tranquillité",
+      "imposante"
     ],
     [
-      "lueur",
-      "ombre",
-      "peau",
-      "étagère",
-      "épaule",
-      "enveloppe",
-      "fusée"
+      "spyware",
+      "aspirer",
+      "reposer",
+      "silence",
+      "harmonie",
+      "rugueux",
+      "chasseur"
     ],
     [
-      "coeur",
-      "main",
-      "bouche",
-      "ongle",
-      "oreille",
-      "coussin",
-      "manuel"
+      "réaliser",
+      "flamber",
+      "compact",
+      "sereine",
+      "placide",
+      "discipline",
+      "pharynx"
     ],
     [
-      "cadre",
-      "main",
-      "doigt",
-      "miroir",
-      "mémoire",
-      "ombre",
-      "tournevis"
+      "paisible",
+      "apaisement",
+      "méditation",
+      "roucoulement",
+      "jais",
+      "sage",
+      "douceur"
     ],
     [
-      "peau",
-      "dos",
-      "jardin",
-      "bras",
-      "jambe",
-      "timbre",
-      "caillou"
+      "graisse",
+      "radis",
+      "poussière",
+      "gothique",
+      "braiser",
+      "calme",
+      "méditer"
     ],
     [
-      "mémoire",
-      "enveloppe",
-      "main",
-      "lampe",
-      "plafond",
-      "peau",
-      "dos"
+      "capturer",
+      "quiétude",
+      "percolateur",
+      "contempler",
+      "venter",
+      "redondant",
+      "urticante"
     ]
   ],
   "rowClues": [
-    5,
     2,
     2,
-    5,
-    2,
-    4,
-    3
-  ],
-  "colClues": [
     3,
+    2,
     5,
-    4,
-    3,
-    4,
     2,
     2
   ],
-  "themeWord": "corps",
+  "colClues": [
+    1,
+    2,
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "sérénité",
   "solution": [
     [
-      true,
-      true,
+      false,
       false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true,
       false
     ],
     [
       false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false,
-      false,
-      false,
+      true,
       true
     ],
     [
       false,
       false,
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 18
 }

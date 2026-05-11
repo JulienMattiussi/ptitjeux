@@ -5,102 +5,93 @@
   "height": 7,
   "words": [
     [
-      "spatule",
-      "rideau",
-      "épice",
-      "épice",
-      "plateau",
-      "poêle",
-      "recette"
+      "tige",
+      "baudelaire",
+      "champ",
+      "est",
+      "strophe",
+      "fondre",
+      "pétillant"
     ],
     [
-      "cuillère",
-      "tablier",
-      "frigo",
-      "panneau",
-      "miroir",
-      "balai",
-      "carnet"
+      "inoccupé",
+      "orateur",
+      "atoll",
+      "haute",
+      "matinale",
+      "décoratif",
+      "toboggan"
     ],
     [
-      "vis",
-      "assiette",
-      "recette",
-      "frigo",
-      "timbre",
-      "étagère",
-      "fourchette"
+      "équation",
+      "sentence",
+      "généreux",
+      "pousser",
+      "prolonger",
+      "accusé",
+      "cornu"
     ],
     [
-      "verre",
-      "spatule",
-      "épice",
-      "four",
-      "tournevis",
-      "verre",
-      "jardin"
+      "rarissime",
+      "bonheur",
+      "client",
+      "femelle",
+      "rustique",
+      "bleu",
+      "rose"
     ],
     [
-      "marteau",
-      "vis",
-      "four",
-      "pince",
-      "timbre",
-      "cuillère",
-      "cuillère"
+      "lacrimosa",
+      "pectoral",
+      "violet",
+      "bander",
+      "lampadaire",
+      "pétale",
+      "cultivé"
     ],
     [
-      "farine",
-      "évier",
-      "épice",
-      "pince",
-      "couteau",
-      "cadre",
-      "couteau"
+      "tromperie",
+      "banlieue",
+      "pion",
+      "graine",
+      "tester",
+      "plante",
+      "fleurir"
     ],
     [
-      "banquier",
-      "spatule",
-      "verre",
-      "couteau",
-      "lueur",
-      "évier",
-      "casserole"
+      "président",
+      "fleur",
+      "sauvage",
+      "shampooing",
+      "jaune",
+      "lévi-strauss",
+      "épi"
     ]
   ],
   "rowClues": [
-    5,
+    2,
+    2,
+    2,
     3,
-    4,
-    5,
     3,
-    5,
-    5
+    3,
+    4
   ],
   "colClues": [
-    4,
-    5,
-    7,
-    4,
+    1,
     1,
     4,
-    5
+    3,
+    2,
+    4,
+    4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "lupin",
   "solution": [
     [
       true,
       false,
       true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
@@ -108,17 +99,8 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false,
       true,
@@ -128,29 +110,47 @@
       false,
       false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       false,
+      true,
       true
     ],
     [
       false,
       true,
       true,
-      true,
       false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 30
+  "parMoves": 19
 }

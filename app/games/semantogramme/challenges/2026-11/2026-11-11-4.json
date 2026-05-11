@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "tête",
-      "prison",
-      "écran",
-      "mur",
-      "ciseaux",
-      "tête",
-      "savon"
+      "temple",
+      "persistante",
+      "veau",
+      "helicobacter",
+      "domestiquer",
+      "autel",
+      "célébrer"
     ],
     [
-      "chemin",
-      "mur",
-      "caillou",
-      "coeur",
-      "tête",
-      "brosse",
-      "tête"
+      "congeler",
+      "idyllique",
+      "religieux",
+      "adorer",
+      "morigéner",
+      "effeuiller",
+      "orné"
     ],
     [
-      "main",
-      "clé",
-      "bras",
-      "coussin",
-      "genou",
-      "bureau",
-      "ongle"
+      "orfèvrerie",
+      "astronomique",
+      "présent",
+      "central",
+      "eucharistie",
+      "binette",
+      "liturgique"
     ],
     [
-      "ombre",
-      "bouche",
-      "mémoire",
-      "main",
-      "ongle",
-      "brosse",
-      "bras"
+      "incommensurable",
+      "égalité",
+      "précieux",
+      "évolution",
+      "fossette",
+      "voile",
+      "arrogance"
     ],
     [
-      "lèvre",
-      "épaule",
-      "tapis",
-      "pied",
-      "bouche",
-      "pince",
-      "oreille"
+      "plutonique",
+      "conserver",
+      "capter",
+      "rapetisser",
+      "hostie",
+      "bébé",
+      "sacré"
     ],
     [
-      "oreille",
-      "joue",
-      "racine",
-      "langue",
-      "horloge",
-      "langue",
-      "horloge"
+      "inorganique",
+      "mélancolique",
+      "liturgie",
+      "mystique",
+      "pétale",
+      "varan",
+      "nid"
     ],
     [
-      "épaule",
-      "porte",
-      "règle",
-      "livre",
-      "jambe",
-      "bras",
-      "porte"
+      "volley",
+      "larynx",
+      "enfermer",
+      "massive",
+      "ange",
+      "kilo",
+      "silhouette"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    4,
     2,
     3,
-    4,
-    4,
-    5,
-    4,
-    3
+    2,
+    1
   ],
   "colClues": [
-    5,
-    3,
+    2,
     1,
     4,
-    5,
     3,
+    2,
+    2,
     4
   ],
-  "themeWord": "corps",
+  "themeWord": "tabernacle",
   "solution": [
     [
       true,
@@ -95,10 +95,19 @@
       false,
       false,
       true,
-      false
+      true
     ],
     [
       false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
@@ -107,50 +116,41 @@
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false,
       true,
       false
     ],
     [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
       false,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 18
 }

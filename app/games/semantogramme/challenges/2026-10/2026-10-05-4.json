@@ -5,132 +5,123 @@
   "height": 7,
   "words": [
     [
-      "gomme",
-      "tabouret",
-      "recette",
-      "chemin",
-      "tablier",
-      "plat",
-      "épice"
+      "savante",
+      "enregistrer",
+      "séisme",
+      "richter",
+      "rive",
+      "sichuan",
+      "science"
     ],
     [
-      "four",
-      "couteau",
-      "verre",
-      "coussin",
-      "farine",
-      "timbre",
-      "frigo"
+      "minerai",
+      "volley",
+      "tremblement",
+      "assemblée",
+      "guirlande",
+      "liberté",
+      "pittoresque"
     ],
     [
-      "plafond",
-      "four",
-      "spatule",
-      "poêle",
-      "plafond",
-      "poêle",
-      "casserole"
+      "orange",
+      "frisée",
+      "mortel",
+      "souffler",
+      "sismographe",
+      "onde",
+      "sismologue"
     ],
     [
-      "crayon",
-      "tablier",
-      "spatule",
-      "globe",
-      "cadre",
-      "silence",
-      "four"
+      "gémir",
+      "magnitude",
+      "grain",
+      "décidé",
+      "tectonique",
+      "robuste",
+      "épandre"
     ],
     [
-      "épice",
-      "assiette",
-      "crayon",
-      "chaise",
-      "assiette",
-      "cuillère",
-      "caillou"
+      "tumulte",
+      "dossard",
+      "faille",
+      "précipice",
+      "épicentre",
+      "prédictive",
+      "opéra"
     ],
     [
-      "mémoire",
-      "timbre",
-      "plat",
-      "porte",
-      "évier",
-      "mur",
-      "assiette"
+      "instrumentale",
+      "tirelire",
+      "spécialisée",
+      "fenaison",
+      "clairière",
+      "mesurer",
+      "kit"
     ],
     [
-      "gomme",
-      "cuillère",
-      "tablier",
-      "pierre",
-      "poêle",
-      "farine",
-      "casserole"
+      "spray",
+      "radieux",
+      "détecter",
+      "callosité",
+      "vie",
+      "foyer",
+      "rue"
     ]
   ],
   "rowClues": [
-    4,
     5,
-    5,
+    1,
     3,
-    4,
+    2,
     3,
-    5
+    3,
+    2
   ],
   "colClues": [
     2,
+    2,
     5,
-    6,
     1,
-    5,
+    3,
     4,
-    6
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "sismologie",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -139,18 +130,27 @@
       true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
-      true
+      true,
+      false,
+      false,
+      true,
+      false
     ],
     [
       false,
-      true,
-      true,
       false,
       true,
+      false,
+      false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 29
+  "parMoves": 19
 }

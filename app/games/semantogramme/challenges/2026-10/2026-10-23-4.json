@@ -5,137 +5,137 @@
   "height": 7,
   "words": [
     [
-      "caillou",
-      "fusée",
-      "parfum",
-      "panier",
-      "renard",
-      "loup",
-      "zèbre"
+      "fouet",
+      "matraquer",
+      "gloria",
+      "rhizome",
+      "assécher",
+      "glycogène",
+      "science"
     ],
     [
-      "caillou",
-      "étoile",
+      "foudroyant",
+      "lacan",
+      "cognition",
+      "rappeler",
+      "freud",
+      "deltoïde",
+      "chargé"
+    ],
+    [
+      "monstre",
+      "sofa",
+      "baryton",
+      "mental",
+      "piaget",
+      "jung",
+      "expérimentale"
+    ],
+    [
+      "étudier",
       "tigre",
-      "peigne",
-      "globe",
-      "souris",
-      "tunnel"
+      "roupiller",
+      "sociale",
+      "couteau",
+      "physico-chimique",
+      "femelle"
     ],
     [
-      "tasse",
-      "globe",
-      "étagère",
-      "silence",
-      "tournevis",
-      "lynx",
-      "lion"
+      "émotion",
+      "aveugle",
+      "étang",
+      "sixième-sens",
+      "cognitive",
+      "code",
+      "appétit"
     ],
     [
-      "castor",
-      "chien",
-      "girafe",
-      "castor",
-      "écran",
-      "koala",
-      "cheval"
+      "discret",
+      "broder",
+      "glisser",
+      "sonder",
+      "agrafeuse",
+      "développementale",
+      "comportement"
     ],
     [
-      "étoile",
-      "règle",
-      "tigre",
-      "koala",
-      "étagère",
-      "girafe",
-      "manuel"
-    ],
-    [
-      "plateau",
-      "lion",
-      "pétale",
-      "lynx",
-      "clé",
-      "panda",
-      "panda"
-    ],
-    [
-      "marteau",
-      "girafe",
-      "banquier",
-      "lapin",
-      "renard",
-      "fusée",
-      "sol"
+      "lacédémone",
+      "esprit",
+      "irréel",
+      "gecko",
+      "rétine",
+      "quadratique",
+      "or"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    6,
+    1,
     3,
     4,
-    3
+    2,
+    2,
+    3,
+    1
   ],
   "colClues": [
+    2,
+    2,
     1,
     3,
     3,
-    4,
     2,
-    6,
-    4
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "psychologie",
   "solution": [
     [
       false,
       false,
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
       true,
       false,
-      false,
-      true,
       false
     ],
     [
       false,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
-      true,
+      false,
       false,
       true,
-      true
+      false,
+      false,
+      false
     ],
     [
+      true,
+      false,
       false,
       false,
       true,
-      true,
       false,
-      true,
       false
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
       false,
@@ -146,11 +146,11 @@
       false,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 16
 }

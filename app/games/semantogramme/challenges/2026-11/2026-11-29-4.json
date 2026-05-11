@@ -5,97 +5,115 @@
   "height": 7,
   "words": [
     [
-      "agenda",
-      "orange",
-      "enveloppe",
-      "ananas",
-      "citron",
-      "tournevis",
-      "fusée"
+      "dentier",
+      "arbuste",
+      "écrite",
+      "mantra",
+      "feuille",
+      "rustique",
+      "cultiver"
     ],
     [
-      "ciseaux",
-      "mémoire",
-      "ciseaux",
-      "figue",
-      "miroir",
-      "ananas",
-      "mûre"
+      "vigoureux",
+      "cabine",
+      "rose",
+      "archéoptéryx",
+      "rappeler",
+      "putride",
+      "country"
     ],
     [
-      "abricot",
-      "prison",
-      "kiwi",
-      "figue",
-      "horloge",
-      "ananas",
-      "cadre"
+      "blanc",
+      "rarissime",
+      "climat",
+      "mauve",
+      "pousser",
+      "mouche",
+      "fleur"
     ],
     [
-      "pêche",
-      "panier",
-      "orange",
-      "mur",
-      "panneau",
-      "parfum",
-      "prune"
+      "buse",
+      "document",
+      "échiquier",
+      "décoratif",
+      "magique",
+      "brandade",
+      "sol"
     ],
     [
-      "raisin",
-      "mûre",
-      "mûre",
-      "cassis",
-      "pomme",
-      "plafond",
-      "racine"
+      "inflorescence",
+      "emporté",
+      "polluer",
+      "tragédie",
+      "ombelle",
+      "humidité",
+      "plongeoir"
     ],
     [
-      "mur",
-      "ananas",
-      "coussin",
-      "pêche",
-      "maison",
-      "prune",
-      "vis"
+      "astiquer",
+      "belote",
+      "propulser",
+      "fleurir",
+      "donner",
+      "enchère",
+      "mou"
     ],
     [
-      "kiwi",
-      "mûre",
-      "livre",
-      "sol",
-      "poire",
-      "ciseaux",
-      "framboise"
+      "démocratie",
+      "route",
+      "meurtrière",
+      "pantoufle",
+      "romance",
+      "généreux",
+      "jardin"
     ]
   ],
   "rowClues": [
     3,
-    3,
+    1,
     4,
-    3,
-    5,
-    3,
-    4
+    2,
+    2,
+    1,
+    2
   ],
   "colClues": [
-    4,
-    4,
+    2,
+    1,
+    1,
     3,
-    5,
-    3,
-    3,
-    3
+    2,
+    2,
+    4
   ],
-  "themeWord": "fruit",
+  "themeWord": "hortensia",
   "solution": [
     [
       false,
       true,
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true,
       false,
-      false
+      true
     ],
     [
       false,
@@ -103,54 +121,36 @@
       false,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
-      false,
-      true,
       false,
       false,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
-      true,
       false,
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true,
-      false,
       true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 15
 }

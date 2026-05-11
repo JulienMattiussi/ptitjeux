@@ -5,136 +5,118 @@
   "height": 7,
   "words": [
     [
-      "agenda",
-      "piano",
-      "concerto",
-      "silence",
-      "guitare",
-      "tasse",
-      "tambour"
+      "voûter",
+      "entomologue",
+      "tonalité",
+      "châtaignier",
+      "voix",
+      "apogée",
+      "abstraction"
     ],
     [
-      "rythme",
-      "choeur",
-      "horloge",
-      "opéra",
-      "gamme",
-      "symphonie",
-      "devoir"
+      "imitation",
+      "don",
+      "symétrique",
+      "enchaîner",
+      "comparer",
+      "bach",
+      "thème"
     ],
     [
-      "balai",
-      "tasse",
-      "ombre",
-      "peigne",
-      "symphonie",
-      "chant",
-      "mélodie"
+      "glaçage",
+      "évent",
+      "polyphonie",
+      "transposer",
+      "contrapuntique",
+      "janvier",
+      "original"
     ],
     [
-      "batterie",
-      "livre",
-      "symphonie",
-      "choeur",
-      "écran",
-      "lampe",
-      "note"
+      "mélancolie",
+      "rincer",
+      "punaise",
+      "détrempé",
+      "amoureux",
+      "jouer",
+      "charogne"
     ],
     [
-      "note",
-      "plafond",
-      "panier",
-      "prison",
-      "vis",
-      "timbre",
-      "voisin"
+      "brasier",
+      "strette",
+      "sujet",
+      "composer",
+      "baroque",
+      "nolde",
+      "modèle"
     ],
     [
-      "concerto",
-      "parfum",
-      "tunnel",
-      "tournevis",
-      "cadre",
-      "batterie",
-      "gomme"
+      "rubens",
+      "sucer",
+      "contrepoint",
+      "paroisse",
+      "cymbalettes",
+      "aridité",
+      "branchies"
     ],
     [
-      "cadre",
-      "panneau",
-      "tambour",
-      "panneau",
-      "concerto",
-      "étagère",
-      "livre"
+      "composition",
+      "développement",
+      "barbu",
+      "alpine",
+      "paléozoïque",
+      "réprouver",
+      "plongée"
     ]
   ],
   "rowClues": [
+    2,
     4,
-    5,
     3,
+    1,
     4,
     1,
-    2,
     2
   ],
   "colClues": [
-    4,
     2,
-    3,
     2,
     4,
     3,
-    3
+    3,
+    2,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "fugue",
   "solution": [
     [
       false,
-      true,
-      true,
       false,
       true,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
       false,
       false
     ],
     [
       true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -144,13 +126,31 @@
     ],
     [
       false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 17
 }

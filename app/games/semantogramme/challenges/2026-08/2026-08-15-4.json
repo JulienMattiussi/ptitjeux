@@ -5,128 +5,137 @@
   "height": 7,
   "words": [
     [
-      "vis",
-      "carnet",
-      "choeur",
-      "silence",
-      "manuel",
-      "tapis",
-      "piano"
+      "descartes",
+      "pédagogie",
+      "mouvement",
+      "spirituel",
+      "être",
+      "essence",
+      "ontologique"
     ],
     [
-      "chant",
-      "accord",
-      "manuel",
-      "ombre",
-      "chant",
-      "chemin",
-      "chant"
+      "aristote",
+      "bain",
+      "milanaise",
+      "néolithique",
+      "substance",
+      "verre",
+      "instantané"
     ],
     [
-      "pierre",
-      "flûte",
-      "balai",
-      "écran",
-      "tapis",
-      "choeur",
-      "concerto"
+      "sort",
+      "interroger",
+      "réchauffement",
+      "profond",
+      "tourmenter",
+      "rêche",
+      "philosophie"
     ],
     [
-      "mélodie",
-      "violon",
-      "prison",
-      "prison",
-      "pétale",
-      "tournevis",
-      "piano"
+      "injecter",
+      "éloigner",
+      "poncer",
+      "thonier",
+      "cathédrale",
+      "spéculer",
+      "givrer"
     ],
     [
-      "horloge",
-      "symphonie",
-      "guitare",
-      "chaise",
-      "tapis",
-      "violon",
-      "ciseaux"
+      "platon",
+      "publicité",
+      "puma",
+      "frire",
+      "architecte",
+      "monnaie",
+      "essai"
     ],
     [
-      "maison",
-      "harpe",
-      "orgue",
-      "jardin",
-      "miroir",
-      "chant",
-      "choeur"
+      "absolu",
+      "civil",
+      "existence",
+      "orgueil",
+      "patrie",
+      "mystérieux",
+      "planifier"
     ],
     [
-      "symphonie",
-      "rythme",
-      "gomme",
-      "accord",
-      "miroir",
-      "jazz",
-      "pince"
+      "givre",
+      "tortillonner",
+      "sophistiqué",
+      "galaxie",
+      "abstrait",
+      "kant",
+      "théâtral"
     ]
   ],
   "rowClues": [
+    5,
     2,
-    4,
     3,
+    1,
+    1,
     3,
-    3,
-    4,
-    4
+    2
   ],
   "colClues": [
-    3,
-    6,
-    3,
-    1,
-    1,
     4,
-    5
+    1,
+    1,
+    2,
+    3,
+    4,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "métaphysique",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      false,
       true,
       true
     ],
     [
       true,
+      false,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      false,
+      true,
       false,
       false,
       true
     ],
     [
       false,
+      false,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       false,
       false,
@@ -135,22 +144,13 @@
     ],
     [
       false,
-      true,
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 17
 }

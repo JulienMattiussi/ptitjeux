@@ -5,96 +5,114 @@
   "height": 7,
   "words": [
     [
-      "danse",
-      "volley",
-      "rugby",
-      "panier",
-      "course",
-      "voile",
-      "prière"
+      "accord",
+      "prime",
+      "tordre",
+      "tourner",
+      "sociologue",
+      "ancien",
+      "tacheté"
     ],
     [
-      "ciseaux",
-      "course",
-      "bureau",
-      "tunnel",
-      "rugby",
-      "ombre",
-      "marathon"
+      "évolution",
+      "fenaison",
+      "dinosaure",
+      "préhistoire",
+      "humide",
+      "fumer",
+      "tromperie"
     ],
     [
-      "boxe",
-      "savon",
-      "tapis",
-      "bureau",
-      "panier",
-      "escalade",
-      "fusée"
+      "lointain",
+      "archéoptéryx",
+      "parpaing",
+      "ruisseau",
+      "fougère",
+      "nourriture",
+      "boulon"
     ],
     [
-      "règle",
-      "rugby",
-      "lampe",
-      "ski",
-      "voile",
-      "voile",
-      "rugby"
+      "soucieux",
+      "brontosaure",
+      "précis",
+      "illusoire",
+      "cycadale",
+      "productif",
+      "extinction"
     ],
     [
-      "panneau",
-      "course",
-      "clé",
-      "maison",
-      "panneau",
-      "pierre",
-      "prière"
+      "sédiment",
+      "taxonomie",
+      "géométrie",
+      "divine",
+      "aubergine",
+      "ère",
+      "retentissante"
     ],
     [
-      "escalade",
-      "volley",
-      "course",
-      "volley",
-      "course",
-      "règle",
-      "rugby"
+      "aligner",
+      "reptile",
+      "tropical",
+      "tyrannosaure",
+      "château",
+      "paléontologie",
+      "minimiser"
     ],
     [
-      "bureau",
-      "rugby",
-      "enveloppe",
-      "cyclisme",
-      "balai",
-      "golf",
-      "mur"
+      "apéritif",
+      "mésozoïque",
+      "bannir",
+      "dégringoler",
+      "vendre",
+      "voir",
+      "fossile"
     ]
   ],
   "rowClues": [
-    5,
+    1,
+    4,
+    3,
     3,
     2,
-    5,
-    1,
-    6,
-    3
+    4,
+    2
   ],
   "colClues": [
     3,
-    6,
+    4,
+    2,
     2,
     3,
-    4,
-    4,
-    3
+    3,
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "jurassique",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
-      true,
+      false
+    ],
+    [
       true,
       false,
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
@@ -118,39 +136,21 @@
     [
       false,
       true,
-      false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

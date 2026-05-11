@@ -5,94 +5,112 @@
   "height": 7,
   "words": [
     [
-      "orange",
-      "mauve",
-      "noir",
-      "vert",
-      "marteau",
-      "vert",
-      "tunnel"
+      "manger",
+      "migrer",
+      "lapin",
+      "sargasse",
+      "migration",
+      "poltron",
+      "brun"
     ],
     [
-      "bleu",
-      "fusée",
-      "devoir",
-      "orange",
-      "violet",
-      "pétale",
-      "peigne"
+      "oeufrier",
+      "manipulée",
+      "ceinture",
+      "postmoderne",
+      "milieu",
+      "rongeur",
+      "régulier"
     ],
     [
-      "beige",
-      "doré",
-      "rouge",
-      "parfum",
-      "banquier",
-      "blanc",
-      "noir"
+      "secret",
+      "brassé",
+      "acéré",
+      "abdominal",
+      "fanfare",
+      "museau",
+      "cataloguer"
     ],
     [
-      "maison",
-      "orange",
-      "panier",
-      "violet",
-      "indigo",
-      "brun",
-      "rouge"
+      "galerie",
+      "mécanicien",
+      "mellitus",
+      "changer",
+      "beagle",
+      "achille",
+      "arctique"
     ],
     [
-      "coussin",
-      "argenté",
-      "mauve",
-      "gris",
-      "gomme",
-      "bleu",
-      "ocre"
-    ],
-    [
-      "argenté",
-      "écran",
-      "pierre",
-      "argenté",
-      "manuel",
-      "indigo",
-      "gris"
-    ],
-    [
-      "mémoire",
-      "clé",
-      "jaune",
-      "écran",
-      "mur",
+      "débat",
+      "semoir",
       "lampe",
-      "rouge"
+      "raffinement",
+      "creuser",
+      "noyer",
+      "chat"
+    ],
+    [
+      "italienne",
+      "reproduire",
+      "mystérieux",
+      "sumo",
+      "scorpion",
+      "cyclique",
+      "colonie"
+    ],
+    [
+      "thé",
+      "matinal",
+      "noueuse",
+      "toundra",
+      "garage",
+      "teindre",
+      "mythique"
     ]
   ],
   "rowClues": [
-    5,
-    3,
-    5,
-    5,
-    5,
+    4,
+    1,
+    1,
+    2,
+    2,
     4,
     2
   ],
   "colClues": [
-    4,
-    4,
-    4,
-    5,
     2,
-    5,
-    5
+    2,
+    1,
+    1,
+    2,
+    4,
+    4
   ],
-  "themeWord": "couleur",
+  "themeWord": "lemming",
   "solution": [
     [
       true,
       true,
+      false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       false,
       true,
       false
@@ -101,13 +119,22 @@
       true,
       false,
       false,
-      true,
-      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -117,40 +144,13 @@
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 29
+  "parMoves": 16
 }

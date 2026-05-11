@@ -5,122 +5,95 @@
   "height": 7,
   "words": [
     [
-      "écran",
-      "natation",
-      "golf",
-      "serrure",
-      "cyclisme",
-      "escalade",
-      "boxe"
+      "moka",
+      "préhistoire",
+      "nouvel",
+      "fossile",
+      "lumineux",
+      "tropical",
+      "plante"
     ],
     [
-      "escalade",
-      "coussin",
-      "plafond",
-      "mémoire",
-      "écran",
-      "chemin",
-      "volley"
+      "orbite",
+      "sédiment",
+      "tannerie",
+      "tortillonner",
+      "cénozoïque",
+      "idoine",
+      "agrafe"
     ],
     [
-      "football",
-      "plafond",
-      "marteau",
-      "ciseaux",
-      "cadre",
-      "marathon",
-      "boxe"
+      "étudiant",
+      "préserver",
+      "noirâtre",
+      "sinueux",
+      "roche",
+      "géologique",
+      "délicatement"
     ],
     [
-      "plafond",
-      "golf",
-      "miroir",
-      "course",
-      "rugby",
-      "rugby",
-      "football"
+      "mammifère",
+      "espace",
+      "cousine",
+      "paléogène",
+      "dieu",
+      "habileté",
+      "viognier"
     ],
     [
-      "écran",
-      "course",
-      "jardin",
-      "maison",
-      "football",
-      "carnet",
-      "cyclisme"
+      "ère",
+      "underground",
+      "détritus",
+      "pliocène",
+      "taie",
+      "trous",
+      "méditation"
     ],
     [
-      "gomme",
-      "ski",
-      "natation",
-      "gym",
-      "rumeur",
-      "rugby",
-      "rugby"
+      "philharmonique",
+      "climat",
+      "rasséréner",
+      "sommier",
+      "mouche",
+      "magmatique",
+      "glacier"
     ],
     [
-      "plafond",
-      "tapis",
-      "ski",
-      "rugby",
-      "silence",
-      "pelle",
-      "tournevis"
+      "tempéré",
+      "fragile",
+      "ancien",
+      "évolution",
+      "reptile",
+      "tertiaire",
+      "respecter"
     ]
   ],
   "rowClues": [
-    5,
+    4,
     2,
-    3,
-    5,
-    3,
-    5,
-    2
+    2,
+    2,
+    2,
+    2,
+    5
   ],
   "colClues": [
-    2,
+    3,
+    3,
+    1,
     4,
     3,
     3,
-    3,
-    4,
-    6
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "miocène",
   "solution": [
     [
       false,
       true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       true,
       false,
-      true,
-      true,
       true,
       true
     ],
@@ -131,26 +104,53 @@
       false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
+      false
     ],
     [
       false,
       false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

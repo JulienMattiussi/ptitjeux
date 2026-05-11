@@ -5,112 +5,139 @@
   "height": 7,
   "words": [
     [
-      "pétale",
-      "symphonie",
-      "harpe",
-      "choeur",
-      "gamme",
-      "crayon",
-      "mélodie"
+      "cérémonieux",
+      "géologique",
+      "témoin",
+      "courge",
+      "mosaïque",
+      "lourde",
+      "palabrer"
     ],
     [
-      "symphonie",
-      "note",
-      "piano",
-      "violon",
-      "opéra",
-      "flûte",
-      "maison"
+      "oxydable",
+      "fougère",
+      "élaguer",
+      "ministériel",
+      "réponse",
+      "ancien",
+      "miocène"
     ],
     [
-      "batterie",
-      "rythme",
-      "symphonie",
-      "concerto",
-      "violon",
-      "panier",
-      "plateau"
+      "continental",
+      "bombe",
+      "église",
+      "plantation",
+      "parfumerie",
+      "sédiment",
+      "interrupteur"
     ],
     [
-      "accord",
-      "jardin",
-      "rythme",
-      "mélodie",
-      "pierre",
-      "savon",
-      "lampe"
+      "ère",
+      "bonus",
+      "louvoyer",
+      "colonisation",
+      "morose",
+      "invertébré",
+      "ouvrier"
     ],
     [
-      "tournevis",
-      "porte",
-      "étoile",
-      "gamme",
-      "étoile",
-      "timbre",
-      "clé"
+      "plier",
+      "lointain",
+      "tic-tac",
+      "émonder",
+      "extinction",
+      "kyrie",
+      "préhistoire"
     ],
     [
-      "gamme",
-      "gamme",
-      "opéra",
-      "chant",
-      "violon",
-      "rythme",
-      "miroir"
+      "désertique",
+      "fossile",
+      "amphibien",
+      "mystérieux",
+      "devon",
+      "sortilège",
+      "studio"
     ],
     [
-      "orgue",
-      "banquier",
-      "jazz",
-      "parfum",
-      "violon",
-      "coussin",
-      "panneau"
+      "paléozoïque",
+      "frontière",
+      "industrialiser",
+      "poisson",
+      "implorer",
+      "paquet",
+      "évolution"
     ]
   ],
   "rowClues": [
-    5,
-    6,
-    5,
-    3,
     1,
-    6,
+    2,
+    2,
+    3,
+    3,
+    3,
     3
   ],
   "colClues": [
-    5,
+    3,
     4,
-    6,
-    6,
-    5,
+    1,
     2,
-    1
+    2,
+    3,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "dévonien",
   "solution": [
     [
       false,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       false,
       true
     ],
     [
+      false,
       true,
       true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
+      false,
       true,
       false,
       false
@@ -118,39 +145,12 @@
     [
       true,
       false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 29
+  "parMoves": 17
 }

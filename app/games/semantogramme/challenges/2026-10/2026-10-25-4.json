@@ -5,131 +5,113 @@
   "height": 7,
   "words": [
     [
-      "timbre",
-      "parfum",
-      "devoir",
-      "golf",
-      "natation",
-      "rugby",
-      "étoile"
+      "bonheur",
+      "enchanteur",
+      "mystique",
+      "dériver",
+      "sourire",
+      "pureté",
+      "cyperus"
     ],
     [
-      "rugby",
-      "course",
-      "étagère",
-      "lueur",
-      "miroir",
-      "pelle",
-      "globe"
+      "manuel",
+      "châtier",
+      "documenter",
+      "chantier",
+      "rayonner",
+      "bouger",
+      "plumage"
     ],
     [
-      "danse",
-      "jardin",
-      "course",
-      "cyclisme",
-      "judo",
-      "fusée",
-      "tennis"
+      "buste",
+      "bénédiction",
+      "vitrine",
+      "absolue",
+      "rôder",
+      "paradis",
+      "chaleur"
     ],
     [
-      "écran",
-      "gomme",
-      "natation",
-      "horloge",
-      "volley",
-      "danse",
-      "porte"
+      "flotter",
+      "extase",
+      "plénitude",
+      "substance",
+      "polyphonie",
+      "paix",
+      "salmonidé"
     ],
     [
-      "coussin",
-      "miroir",
-      "voile",
-      "crayon",
-      "voile",
-      "ski",
-      "parfum"
+      "sommeil",
+      "crime",
+      "fugué",
+      "parfaite",
+      "félicité",
+      "éprouver",
+      "spirituelle"
     ],
     [
-      "livre",
-      "voile",
-      "rugby",
-      "natation",
-      "judo",
-      "cyclisme",
-      "boxe"
+      "divine",
+      "sérénité",
+      "libraire",
+      "anche",
+      "éternelle",
+      "savourer",
+      "basket"
     ],
     [
-      "lampe",
-      "judo",
-      "devoir",
-      "plafond",
-      "panneau",
-      "football",
-      "voile"
+      "carpaccio",
+      "orgue",
+      "délai",
+      "abstrus",
+      "transcender",
+      "sentier",
+      "parent"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    5,
+    1,
     3,
     3,
-    6,
-    3
+    4,
+    4,
+    1
   ],
   "colClues": [
     2,
     3,
+    2,
+    2,
+    5,
     4,
-    3,
-    5,
-    5,
-    3
+    1
   ],
-  "themeWord": "sport",
+  "themeWord": "béatitude",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true,
+      false,
       true,
       false
     ],
@@ -137,20 +119,38 @@
       false,
       true,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
       true,
       true
     ],
     [
-      false,
+      true,
       true,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 19
 }

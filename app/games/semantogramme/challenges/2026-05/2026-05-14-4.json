@@ -5,111 +5,93 @@
   "height": 7,
   "words": [
     [
-      "porte",
-      "cerise",
-      "marteau",
-      "pastèque",
-      "cerise",
-      "fusée",
-      "ciseaux"
+      "mouiller",
+      "noble",
+      "tuyaux",
+      "oriflamme",
+      "globulaire",
+      "nihiliste",
+      "éviter"
     ],
     [
-      "raisin",
-      "tasse",
-      "ombre",
-      "framboise",
-      "banquier",
-      "abricot",
-      "pêche"
+      "remettre",
+      "nouveau",
+      "pâté",
+      "stocker",
+      "cérémonie",
+      "novice",
+      "porte-greffe"
     ],
     [
-      "fraise",
-      "pêche",
-      "ciseaux",
-      "tapis",
-      "maison",
-      "brosse",
-      "mangue"
+      "ballon",
+      "hésiter",
+      "délai",
+      "lettre",
+      "tergiverser",
+      "soutenu",
+      "indécision"
     ],
     [
-      "pomme",
-      "abricot",
-      "rumeur",
-      "horloge",
-      "raisin",
-      "pelle",
-      "rideau"
+      "mousaka",
+      "spongieux",
+      "différer",
+      "piétiner",
+      "arrêter",
+      "fou rire",
+      "magmatique"
     ],
     [
-      "cassis",
-      "pelle",
-      "clé",
-      "prune",
-      "figue",
-      "vis",
-      "porte"
+      "comprimé",
+      "mourir",
+      "plâtre",
+      "bande",
+      "romantique",
+      "pioncer",
+      "retarder"
     ],
     [
-      "pelle",
-      "abricot",
-      "prune",
-      "prison",
-      "prune",
-      "pastèque",
-      "cassis"
+      "photosynthèse",
+      "guimard",
+      "classique",
+      "communiquer",
+      "éviction",
+      "attendre",
+      "lambin"
     ],
     [
-      "poire",
-      "timbre",
-      "pomme",
-      "chemin",
-      "pelle",
-      "pomme",
-      "peigne"
+      "sanctuaire",
+      "paupière",
+      "électricien",
+      "effrayante",
+      "flotter",
+      "montage",
+      "reculer"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    3,
-    3,
-    3,
+    2,
+    1,
     5,
-    3
+    2,
+    1,
+    2,
+    2
   ],
   "colClues": [
-    5,
-    4,
+    1,
     2,
     3,
-    4,
-    3,
-    3
+    1,
+    2,
+    2,
+    4
   ],
-  "themeWord": "fruit",
+  "themeWord": "atermoyer",
   "solution": [
     [
       false,
       true,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       false,
       false,
@@ -117,19 +99,10 @@
     ],
     [
       true,
-      true,
       false,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
-      true,
-      true,
       false,
       false
     ],
@@ -143,14 +116,41 @@
       true
     ],
     [
+      false,
+      false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false,
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 15
 }

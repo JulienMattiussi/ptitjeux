@@ -5,120 +5,93 @@
   "height": 7,
   "words": [
     [
-      "livre",
-      "marathon",
-      "ski",
-      "miroir",
-      "ski",
-      "ski",
-      "pierre"
+      "callosité",
+      "égarement",
+      "art",
+      "malevitch",
+      "forme",
+      "ligne",
+      "franchise"
     ],
     [
-      "gym",
-      "rugby",
-      "clé",
-      "tabouret",
-      "table",
-      "gym",
-      "voile"
+      "rothko",
+      "radioactif",
+      "redon",
+      "mouvement",
+      "mondrian",
+      "kandinsky",
+      "led"
     ],
     [
-      "natation",
-      "volley",
-      "course",
-      "tunnel",
-      "course",
-      "gym",
-      "gym"
+      "hexagonal",
+      "savant",
+      "emporté",
+      "lyrique",
+      "épinard",
+      "paliers",
+      "cérébral"
     ],
     [
-      "voile",
-      "balai",
-      "vis",
-      "voile",
-      "basket",
-      "rugby",
-      "clé"
+      "meute",
+      "bondir",
+      "maléfique",
+      "intrus",
+      "pur",
+      "prisme",
+      "grenache"
     ],
     [
-      "cyclisme",
-      "maison",
-      "gomme",
-      "cyclisme",
-      "cyclisme",
-      "course",
-      "danse"
+      "tache",
+      "abstraction",
+      "simplifier",
+      "éperon",
+      "port",
+      "sourire",
+      "spirituel"
     ],
     [
-      "devoir",
-      "fusée",
-      "timbre",
-      "crayon",
-      "rugby",
-      "tapis",
-      "coussin"
+      "non-figuratif",
+      "transcender",
+      "deviner",
+      "transmigrer",
+      "messe",
+      "pollock",
+      "doctoral"
     ],
     [
-      "cyclisme",
-      "tennis",
-      "horloge",
-      "racine",
-      "timbre",
-      "rugby",
-      "lueur"
+      "doigt",
+      "expressif",
+      "épurer",
+      "couleur",
+      "spirituelle",
+      "rangement",
+      "lingot"
     ]
   ],
   "rowClues": [
     4,
     4,
-    6,
-    4,
-    5,
     1,
+    1,
+    3,
+    3,
     3
   ],
   "colClues": [
-    5,
+    2,
+    3,
+    3,
     4,
-    2,
-    2,
-    5,
-    6,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "sport",
+  "themeWord": "abstractionnisme",
   "solution": [
     [
       false,
-      true,
-      true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true,
       true,
@@ -131,7 +104,16 @@
       true,
       true,
       true,
-      true
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
     ],
     [
       false,
@@ -143,14 +125,32 @@
       false
     ],
     [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
       false,
       false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 19
 }

@@ -5,105 +5,132 @@
   "height": 7,
   "words": [
     [
-      "miroir",
-      "balai",
-      "autobus",
-      "vélo",
-      "scooter",
-      "moto",
-      "agenda"
+      "pédagogie",
+      "recenser",
+      "tasse",
+      "baleine",
+      "reprendre",
+      "replier",
+      "nouvel"
     ],
     [
-      "table",
-      "ferry",
-      "bureau",
-      "cadre",
-      "plafond",
-      "navette",
-      "ferry"
+      "sévère",
+      "gag",
+      "énorme",
+      "calme",
+      "province",
+      "manchette",
+      "agir"
     ],
     [
-      "avion",
-      "tapis",
-      "taxi",
-      "voisin",
-      "pétale",
-      "étoile",
-      "métro"
+      "reprocher",
+      "voler",
+      "réprimander",
+      "noble",
+      "url",
+      "jungle",
+      "cabrioler"
     ],
     [
-      "tapis",
-      "agenda",
-      "métro",
-      "fusée",
-      "taxi",
-      "carnet",
-      "porte"
+      "gronder",
+      "enfant",
+      "polaire",
+      "rédaction",
+      "frôler",
+      "parent",
+      "épancher"
     ],
     [
-      "moto",
-      "remorque",
-      "balai",
-      "camion",
-      "ferry",
-      "camion",
-      "globe"
+      "magistère",
+      "corriger",
+      "chocolat",
+      "archaïque",
+      "sonnet",
+      "copeau",
+      "sermonner"
     ],
     [
-      "caravane",
-      "camion",
-      "marteau",
-      "taxi",
-      "camion",
-      "caravane",
-      "serrure"
+      "remontrer",
+      "tenace",
+      "admonester",
+      "épineux",
+      "bomber",
+      "précipitation",
+      "fer-forgé"
     ],
     [
-      "panier",
-      "train",
-      "mémoire",
-      "brosse",
-      "miroir",
-      "tunnel",
-      "fusée"
+      "tancer",
+      "naïveté",
+      "parlement",
+      "balustrade",
+      "fustiger",
+      "ambulance",
+      "discipline"
     ]
   ],
   "rowClues": [
+    1,
+    1,
+    3,
+    3,
     4,
-    3,
-    3,
     2,
-    5,
-    5,
-    2
-  ],
-  "colClues": [
-    3,
-    4,
-    3,
-    3,
-    4,
-    4,
     3
   ],
-  "themeWord": "transport",
+  "colClues": [
+    6,
+    2,
+    2,
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "morigéner",
   "solution": [
     [
       false,
       false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
+      true,
+      true,
       false,
       true,
       false,
       false,
-      false,
-      true,
       true
     ],
     [
@@ -113,44 +140,17 @@
       false,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

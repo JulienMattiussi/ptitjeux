@@ -5,106 +5,115 @@
   "height": 7,
   "words": [
     [
-      "mémoire",
-      "bureau",
-      "balai",
-      "rose",
-      "brosse",
-      "mauve",
-      "beige"
+      "mica",
+      "portail",
+      "frottement",
+      "fracturer",
+      "résumer",
+      "plat-de-service",
+      "répondeur"
     ],
     [
-      "argenté",
-      "bleu",
-      "ciseaux",
-      "noir",
-      "turquoise",
-      "orange",
-      "indigo"
+      "quartz",
+      "foliation",
+      "sédentaire",
+      "autoritaire",
+      "compacte",
+      "minéral",
+      "nil"
     ],
     [
-      "miroir",
-      "manuel",
-      "ombre",
-      "orange",
-      "prière",
-      "timbre",
-      "miroir"
+      "crabe",
+      "sextant",
+      "feldspath",
+      "poisseux",
+      "risotto",
+      "métamorphique",
+      "fragile"
     ],
     [
-      "étoile",
-      "jaune",
-      "vert",
-      "turquoise",
-      "banquier",
-      "tunnel",
-      "serrure"
+      "frescobaldi",
+      "croisière",
+      "responsable",
+      "érosion",
+      "évolution",
+      "pet",
+      "algébrique"
     ],
     [
-      "vert",
-      "tapis",
-      "caillou",
-      "mur",
-      "turquoise",
-      "écran",
-      "banquier"
+      "gênant",
+      "orogenèse",
+      "frange",
+      "éconduire",
+      "tireur",
+      "littéraire",
+      "idée"
     ],
     [
-      "doré",
-      "livre",
-      "pince",
-      "turquoise",
-      "pétale",
-      "clé",
-      "règle"
+      "cristal",
+      "prince",
+      "sourd",
+      "cimier",
+      "rugueuse",
+      "massif",
+      "tempérance"
     ],
     [
-      "sol",
-      "mauve",
-      "indigo",
-      "turquoise",
-      "bleu",
-      "serrure",
-      "mauve"
+      "granite",
+      "robuste",
+      "roche",
+      "mouton",
+      "distorsion",
+      "affleurement",
+      "grise"
     ]
   ],
   "rowClues": [
-    3,
-    6,
+    1,
+    4,
+    2,
+    1,
     1,
     3,
-    2,
-    2,
-    5
+    4
   ],
   "colClues": [
-    3,
-    3,
+    4,
     2,
-    6,
-    3,
     2,
-    3
+    1,
+    2,
+    4,
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "gneiss",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
       false,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     [
       true,
       true,
       false,
+      false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
-      true
+      false,
+      false,
+      true,
+      false
     ],
     [
       false,
@@ -118,18 +127,9 @@
     [
       false,
       true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       false,
-      true,
       false,
       false
     ],
@@ -137,20 +137,20 @@
       true,
       false,
       false,
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
-      false,
-      true,
-      true,
-      true,
       true,
       false,
+      true,
+      false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

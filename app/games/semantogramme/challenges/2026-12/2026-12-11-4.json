@@ -5,118 +5,109 @@
   "height": 7,
   "words": [
     [
-      "rideau",
-      "oreille",
-      "dent",
-      "étagère",
-      "brosse",
-      "plafond",
-      "crayon"
+      "cataloguer",
+      "alzheimer",
+      "doucement",
+      "vain",
+      "pruneau",
+      "miroir",
+      "antiadhésive"
     ],
     [
-      "épaule",
-      "bras",
-      "langue",
-      "manuel",
-      "tabouret",
-      "vis",
-      "pied"
+      "fierté",
+      "pesante",
+      "crâne",
+      "entêté",
+      "mori",
+      "passoire",
+      "goulot"
     ],
     [
-      "coeur",
-      "manuel",
-      "timbre",
-      "maison",
-      "pelle",
-      "devoir",
-      "oreille"
+      "afrique",
+      "malevitch",
+      "damnation",
+      "palmé",
+      "futile",
+      "ocre",
+      "activité"
     ],
     [
-      "pied",
-      "plafond",
-      "banquier",
-      "clé",
-      "doigt",
-      "cadre",
-      "banquier"
+      "sablier",
+      "courroux",
+      "sillon",
+      "habileté",
+      "admirer",
+      "arrogance",
+      "subtil"
     ],
     [
-      "joue",
-      "tête",
-      "silence",
-      "peau",
-      "genou",
-      "épaule",
-      "doigt"
+      "délicatement",
+      "cousin",
+      "soeur",
+      "brièveté",
+      "symbolique",
+      "temporel",
+      "cave"
     ],
     [
-      "pierre",
-      "racine",
-      "voisin",
-      "oeil",
-      "voisin",
-      "sol",
-      "prière"
+      "consultation",
+      "éphémère",
+      "cassiopée",
+      "asana",
+      "memento",
+      "illusion",
+      "orgueil"
     ],
     [
-      "dent",
-      "ongle",
-      "marteau",
-      "ongle",
-      "langue",
-      "étagère",
-      "ongle"
+      "tableau",
+      "parader",
+      "sable",
+      "fusil",
+      "valise",
+      "comparaison",
+      "futilité"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    2,
-    2,
-    6,
+    3,
     1,
-    5
+    3,
+    2,
+    4,
+    3
   ],
   "colClues": [
+    3,
+    2,
+    1,
+    1,
     5,
     4,
-    2,
-    3,
-    3,
-    1,
-    4
+    2
   ],
-  "themeWord": "corps",
+  "themeWord": "vanité",
   "solution": [
     [
       false,
+      false,
+      false,
       true,
+      false,
       true,
-      false,
-      false,
-      false,
       false
     ],
     [
       true,
+      false,
       true,
+      false,
       true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       false,
@@ -126,31 +117,40 @@
     ],
     [
       true,
-      true,
+      false,
+      false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       true,
       true
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

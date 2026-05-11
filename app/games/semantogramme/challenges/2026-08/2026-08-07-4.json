@@ -5,96 +5,114 @@
   "height": 7,
   "words": [
     [
-      "coussin",
-      "opéra",
-      "prison",
-      "caillou",
-      "gomme",
-      "harpe",
-      "orgue"
+      "ruine",
+      "tournevis",
+      "enduit",
+      "ambré",
+      "eucaryote",
+      "crête",
+      "farceur"
     ],
     [
-      "batterie",
-      "livre",
-      "trompette",
-      "tasse",
-      "mélodie",
-      "miroir",
-      "symphonie"
+      "poisson-clown",
+      "professer",
+      "sublime",
+      "apéritif",
+      "catégorique",
+      "scolopendre",
+      "déguster"
     ],
     [
-      "chaise",
-      "flûte",
-      "choeur",
-      "carnet",
-      "rumeur",
-      "harpe",
-      "jazz"
+      "vaniteux",
+      "pays-d-auge",
+      "férié",
+      "vieux",
+      "distillation",
+      "massant",
+      "aromatique"
     ],
     [
-      "batterie",
-      "trompette",
-      "chaise",
-      "table",
-      "choeur",
-      "accord",
-      "flûte"
+      "hors-d-âge",
+      "écouter",
+      "pomme",
+      "chaleur",
+      "pied",
+      "agricole",
+      "siroter"
     ],
     [
-      "chemin",
-      "harpe",
-      "piano",
-      "accord",
-      "violon",
-      "violon",
-      "concerto"
+      "normandie",
+      "magnanime",
+      "transitoire",
+      "digestif",
+      "gloriette",
+      "vive",
+      "puissant"
     ],
     [
-      "choeur",
-      "étoile",
-      "tapis",
-      "fusée",
-      "trompette",
-      "mur",
-      "violon"
+      "cidre",
+      "jeudi",
+      "dramatique",
+      "eau-de-vie",
+      "salade",
+      "verbiage",
+      "odorante"
     ],
     [
-      "rumeur",
-      "mélodie",
-      "note",
-      "pierre",
-      "enveloppe",
-      "piano",
-      "concerto"
+      "doux",
+      "agenouiller",
+      "larme",
+      "inutilisé",
+      "éruption",
+      "rural",
+      "félin"
     ]
   ],
   "rowClues": [
-    3,
+    1,
+    2,
     4,
-    4,
-    5,
-    6,
     3,
-    4
+    3,
+    2,
+    2
   ],
   "colClues": [
-    3,
-    5,
     4,
     1,
-    4,
+    1,
     5,
-    7
+    1,
+    1,
+    4
   ],
-  "themeWord": "musique",
+  "themeWord": "calvados",
   "solution": [
     [
       false,
+      false,
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
       true
     ],
     [
@@ -102,55 +120,37 @@
       false,
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
       true
     ],
     [
       true,
       false,
       false,
-      false,
       true,
+      false,
       false,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
       false,
       true,
-      true
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 29
+  "parMoves": 17
 }

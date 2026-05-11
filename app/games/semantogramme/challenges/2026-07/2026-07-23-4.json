@@ -5,97 +5,106 @@
   "height": 7,
   "words": [
     [
-      "vis",
-      "mélodie",
-      "serrure",
-      "harpe",
-      "rythme",
-      "chant",
-      "tambour"
+      "redoutable",
+      "décorer",
+      "protéger",
+      "architecture",
+      "monstre",
+      "mandrin",
+      "enfouir"
     ],
     [
-      "accord",
-      "lampe",
-      "ciseaux",
-      "mélodie",
-      "table",
-      "accord",
-      "serrure"
+      "audacieux",
+      "eau",
+      "éclairage",
+      "récolte",
+      "immaculé",
+      "notre-dame",
+      "caserne"
     ],
     [
-      "harpe",
-      "prière",
-      "batterie",
-      "tambour",
-      "miroir",
-      "lueur",
-      "opéra"
+      "pluie",
+      "duchesse",
+      "aluminium",
+      "paris",
+      "envahissant",
+      "agressif",
+      "phrase"
     ],
     [
-      "harpe",
-      "crayon",
-      "pince",
-      "caillou",
-      "concerto",
-      "flûte",
-      "miroir"
+      "effrayante",
+      "haut-parleur",
+      "sculptée",
+      "pierre",
+      "glacier",
+      "figure",
+      "coucher"
     ],
     [
-      "choeur",
-      "rythme",
-      "ciseaux",
-      "chant",
-      "devoir",
-      "batterie",
-      "piano"
+      "phobie",
+      "cuirasse",
+      "cadeau",
+      "célébrer",
+      "sculpture",
+      "se chamailler",
+      "gothique"
     ],
     [
-      "silence",
-      "note",
-      "mémoire",
-      "batterie",
-      "mélodie",
-      "violon",
-      "lueur"
+      "arbitre",
+      "fantastique",
+      "pâte",
+      "épaissir",
+      "évacuation",
+      "épochè",
+      "banane"
     ],
     [
-      "piano",
-      "fusée",
-      "rythme",
-      "harpe",
-      "racine",
-      "lueur",
-      "symphonie"
+      "pédalier",
+      "tirée",
+      "rameau",
+      "grèce",
+      "félicité",
+      "mandibule",
+      "extérieur"
     ]
   ],
   "rowClues": [
-    5,
-    3,
     4,
-    3,
-    5,
+    2,
+    2,
     4,
-    4
+    2,
+    2,
+    1
   ],
   "colClues": [
-    5,
+    2,
     3,
     2,
-    6,
     3,
-    5,
-    4
+    3,
+    2,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "gargouille",
   "solution": [
     [
       false,
       true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      false,
+      false,
+      false,
       true,
-      true,
-      true
+      false
     ],
     [
       true,
@@ -103,7 +112,7 @@
       false,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
@@ -112,45 +121,36 @@
       true,
       true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
       true,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
       false,
-      true,
       true
     ],
     [
       false,
       true,
       false,
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
-      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 17
 }

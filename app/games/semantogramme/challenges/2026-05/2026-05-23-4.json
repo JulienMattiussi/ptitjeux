@@ -5,90 +5,126 @@
   "height": 7,
   "words": [
     [
-      "voile",
-      "tapis",
-      "corail",
-      "pelle",
-      "racine",
-      "lueur",
-      "poisson"
+      "concentration",
+      "piano",
+      "maroquinerie",
+      "rétine",
+      "brassé",
+      "improvisation",
+      "capricieux"
     ],
     [
-      "plafond",
-      "requin",
-      "crabe",
-      "saumon",
-      "phare",
-      "bureau",
-      "crabe"
+      "comparée",
+      "commercialiser",
+      "vénérer",
+      "inscription",
+      "inexprimable",
+      "pingrerie",
+      "chopin"
     ],
     [
-      "saumon",
-      "pétale",
-      "rumeur",
-      "écran",
-      "porte",
-      "sardine",
-      "sable"
+      "spontané",
+      "court",
+      "marronnier",
+      "discret",
+      "soupirer",
+      "mycélium",
+      "inspecter"
     ],
     [
-      "poisson",
-      "pince",
-      "sable",
-      "agenda",
-      "tabouret",
-      "cadre",
-      "maison"
+      "canari",
+      "dérouler",
+      "éroder",
+      "ralentir",
+      "lyrique",
+      "dresser",
+      "oeufrier"
     ],
     [
-      "dauphin",
-      "étagère",
-      "miroir",
-      "corail",
-      "rumeur",
-      "écume",
-      "pelle"
+      "jouer",
+      "boisson",
+      "intime",
+      "persistant",
+      "éclair",
+      "cicatrice",
+      "fantaisiste"
     ],
     [
-      "vague",
-      "panneau",
-      "plateau",
-      "thon",
-      "gomme",
-      "sardine",
-      "lampe"
+      "sou",
+      "imposante",
+      "musique",
+      "schubert",
+      "tourelle",
+      "teckel",
+      "composer"
     ],
     [
-      "bateau",
-      "dauphin",
-      "pince",
-      "serrure",
-      "savon",
-      "fusée",
-      "mémoire"
+      "colonne",
+      "falconidé",
+      "grisaille",
+      "fauré",
+      "pliable",
+      "voler",
+      "vis"
     ]
   ],
   "rowClues": [
     3,
-    5,
-    3,
-    2,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
-    6,
-    2,
-    3,
+    1,
     3,
     1,
     3,
-    3
+    3,
+    1
   ],
-  "themeWord": "mer",
+  "colClues": [
+    2,
+    2,
+    2,
+    3,
+    1,
+    1,
+    4
+  ],
+  "themeWord": "impromptu",
   "solution": [
     [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       false,
       true,
@@ -99,58 +135,22 @@
     ],
     [
       false,
+      false,
       true,
       true,
-      true,
-      true,
+      false,
       false,
       true
     ],
     [
-      true,
-      false,
       false,
       false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 15
 }

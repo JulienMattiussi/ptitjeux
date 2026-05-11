@@ -5,119 +5,128 @@
   "height": 7,
   "words": [
     [
-      "ombre",
-      "timbre",
-      "dauphin",
-      "poisson",
-      "vis",
-      "saumon",
-      "devoir"
+      "concomitant",
+      "deviner",
+      "noodle",
+      "pectoral",
+      "fin-de-siècle",
+      "décantation",
+      "rapide"
     ],
     [
-      "livre",
-      "étoile",
-      "règle",
-      "livre",
-      "rivage",
-      "écume",
-      "requin"
+      "pressentir",
+      "ouvrier",
+      "normandie",
+      "intégrité",
+      "ours",
+      "délicatesse",
+      "douloureux"
     ],
     [
-      "parfum",
-      "tapis",
-      "lueur",
-      "tasse",
-      "corail",
-      "ciseaux",
-      "pelle"
+      "révélation",
+      "inspiration",
+      "incommensurable",
+      "synthèse",
+      "détourner",
+      "gai",
+      "fasce"
     ],
     [
-      "tapis",
-      "tabouret",
-      "requin",
-      "crayon",
-      "plage",
-      "balai",
-      "porte"
+      "pressentiment",
+      "féminine",
+      "isolante",
+      "providentiel",
+      "attention",
+      "bigarade",
+      "percevoir"
     ],
     [
-      "prison",
-      "plage",
-      "requin",
-      "vague",
-      "agenda",
-      "carnet",
-      "chemin"
+      "extérieur",
+      "colorier",
+      "sentir",
+      "palanquer",
+      "évidence",
+      "érosion",
+      "conducteur"
     ],
     [
-      "rivage",
-      "bateau",
-      "écaille",
-      "ciseaux",
-      "phare",
-      "vis",
-      "baleine"
+      "voler",
+      "brûler",
+      "lewitt",
+      "spirituelle",
+      "loupe",
+      "plaintif",
+      "antigène"
     ],
     [
-      "thon",
-      "clé",
-      "prison",
-      "pierre",
-      "plage",
-      "crabe",
-      "saumon"
+      "flair",
+      "gencive",
+      "magma",
+      "aiguillon",
+      "sixième-sens",
+      "perception",
+      "comprendre"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
     1,
     2,
     3,
-    5,
+    2,
+    1,
     4
   ],
   "colClues": [
-    2,
-    2,
     4,
-    2,
-    5,
     3,
+    1,
+    1,
+    2,
+    1,
     3
   ],
-  "themeWord": "mer",
+  "themeWord": "intuition",
   "solution": [
     [
       false,
-      false,
-      true,
       true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       true,
@@ -126,21 +135,12 @@
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
     ],
     [
       true,
@@ -152,5 +152,5 @@
       true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 15
 }

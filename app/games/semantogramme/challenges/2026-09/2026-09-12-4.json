@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "carnet",
-      "tunnel",
-      "arc-en-ciel",
-      "neige",
-      "neige",
-      "pétale",
-      "glace"
+      "porc",
+      "fermenté",
+      "mai",
+      "pointage",
+      "fragile",
+      "chou",
+      "pousser"
     ],
     [
-      "pétale",
-      "globe",
-      "étoile",
-      "neige",
-      "miroir",
-      "gel",
-      "porte"
+      "happening",
+      "courbe",
+      "seurat",
+      "abricot",
+      "alsace",
+      "tatouage",
+      "aigrir"
     ],
     [
-      "gel",
-      "clé",
-      "tonnerre",
-      "voisin",
-      "racine",
-      "éclair",
-      "manuel"
+      "restreint",
+      "calculer",
+      "rustique",
+      "savourer",
+      "déranger",
+      "vin",
+      "pure"
     ],
     [
-      "glace",
-      "foudre",
-      "tabouret",
-      "horloge",
-      "chemin",
-      "verglas",
-      "pluie"
+      "cuisine",
+      "atterrissage",
+      "alsacienne",
+      "agréable",
+      "prolonger",
+      "germanique",
+      "dragon"
     ],
     [
-      "arc-en-ciel",
-      "soleil",
-      "gel",
-      "globe",
-      "soleil",
-      "tabouret",
-      "balai"
+      "coefficient",
+      "noodle",
+      "frapper",
+      "pomme-de-terre",
+      "knock-out",
+      "mouette",
+      "alourdir"
     ],
     [
-      "éclair",
-      "rumeur",
-      "pluie",
-      "lueur",
-      "soleil",
-      "neige",
-      "miroir"
+      "genièvre",
+      "apprendre",
+      "saucisse",
+      "prune",
+      "magistère",
+      "mijoter",
+      "berceuse"
     ],
     [
-      "brosse",
-      "banquier",
-      "peigne",
-      "glace",
-      "jardin",
-      "écran",
-      "sol"
+      "bride",
+      "lard",
+      "cuire",
+      "transition",
+      "familiale",
+      "serveur",
+      "préparer"
     ]
   ],
   "rowClues": [
+    3,
+    1,
+    3,
+    3,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
     4,
     2,
-    3,
-    4,
-    4,
+    2,
     4,
     1
   ],
-  "colClues": [
-    4,
-    2,
-    4,
-    3,
-    3,
-    4,
-    2
-  ],
-  "themeWord": "météo",
+  "themeWord": "choucroute",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

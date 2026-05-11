@@ -5,93 +5,93 @@
   "height": 7,
   "words": [
     [
-      "flûte",
-      "crayon",
-      "harpe",
-      "maison",
-      "plafond",
-      "racine",
-      "panier"
+      "pose",
+      "eau",
+      "transparence",
+      "kupka",
+      "dollar",
+      "fauré",
+      "démouler"
     ],
     [
-      "jazz",
-      "trompette",
-      "chant",
-      "pince",
-      "accord",
-      "rythme",
-      "mélodie"
+      "surgir",
+      "soudain",
+      "métaphysique",
+      "prier",
+      "rapacité",
+      "aiguisé",
+      "enchaîner"
     ],
     [
-      "symphonie",
-      "étoile",
-      "balai",
-      "guitare",
-      "harpe",
-      "miroir",
-      "choeur"
+      "imprenable",
+      "mémorial",
+      "élégant",
+      "sol",
+      "archaïque",
+      "rocher",
+      "venir"
     ],
     [
-      "crayon",
-      "note",
-      "ciseaux",
-      "tambour",
-      "accord",
-      "concerto",
-      "prière"
+      "paradoxe",
+      "source",
+      "renaissance",
+      "orange",
+      "régional",
+      "infini",
+      "avaler"
     ],
     [
-      "concerto",
-      "mélodie",
-      "gamme",
-      "porte",
-      "jazz",
-      "accord",
-      "jazz"
+      "dériver",
+      "imperceptible",
+      "pansement",
+      "bave",
+      "brochette",
+      "flaque",
+      "mat"
     ],
     [
-      "bureau",
-      "plateau",
-      "étoile",
-      "porte",
-      "prison",
-      "trompette",
-      "jardin"
+      "lapis",
+      "rage",
+      "littéraire",
+      "émaner",
+      "spontané",
+      "naturel",
+      "rusé"
     ],
     [
-      "table",
-      "banquier",
-      "étoile",
-      "lueur",
-      "silence",
-      "gamme",
-      "pierre"
+      "jaillir",
+      "énigmer",
+      "fourrure",
+      "orbite",
+      "naître",
+      "apparaître",
+      "peinture"
     ]
   ],
   "rowClues": [
-    2,
-    6,
-    4,
-    4,
-    6,
     1,
-    1
-  ],
-  "colClues": [
-    4,
-    3,
-    3,
     2,
-    4,
     5,
+    1,
+    1,
+    4,
     3
   ],
-  "themeWord": "musique",
+  "colClues": [
+    2,
+    4,
+    2,
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "sourdre",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
       false,
       false,
       false,
@@ -100,25 +100,43 @@
     [
       true,
       true,
-      true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true,
       true,
       true
     ],
     [
+      false,
       true,
       false,
       false,
-      true,
-      true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
       true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       true,
       true,
@@ -126,31 +144,13 @@
     ],
     [
       true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

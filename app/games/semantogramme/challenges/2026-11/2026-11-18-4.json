@@ -5,93 +5,120 @@
   "height": 7,
   "words": [
     [
-      "timbre",
-      "guitare",
-      "accord",
-      "ombre",
-      "jardin",
-      "bureau",
-      "flûte"
+      "doctrine",
+      "casquette",
+      "inculquer",
+      "spatule",
+      "maciunas",
+      "opinion",
+      "innovation"
     ],
     [
-      "plafond",
-      "accord",
-      "piano",
-      "violon",
-      "lueur",
-      "miroir",
-      "prière"
+      "écureuil",
+      "terrain",
+      "soutenir",
+      "rhizome",
+      "exposer",
+      "théâtrale",
+      "apogée"
     ],
     [
-      "violon",
-      "ombre",
-      "règle",
-      "panier",
-      "concerto",
-      "tasse",
-      "lampe"
+      "stylo",
+      "volcanisme",
+      "propulser",
+      "ténèbres",
+      "colonnade",
+      "enseigner",
+      "ligoter"
     ],
     [
-      "rythme",
-      "peigne",
-      "gamme",
-      "guitare",
-      "jazz",
-      "gamme",
-      "harpe"
+      "éden",
+      "foi",
+      "yaourt",
+      "trait",
+      "culbute",
+      "arrêter",
+      "savant"
     ],
     [
-      "orgue",
-      "panier",
-      "ciseaux",
-      "guitare",
-      "règle",
-      "mélodie",
-      "orgue"
+      "visière",
+      "professeur",
+      "magistral",
+      "arc-en-ciel",
+      "défendre",
+      "docter",
+      "piocher"
     ],
     [
-      "crayon",
-      "concerto",
-      "lampe",
-      "manuel",
-      "symphonie",
-      "lueur",
-      "rumeur"
+      "expliquer",
+      "centre",
+      "proclamer",
+      "déclarer",
+      "doctoral",
+      "pâture",
+      "cryptique"
     ],
     [
-      "rythme",
-      "violon",
-      "mélodie",
-      "tournevis",
-      "batterie",
-      "chaise",
-      "tapis"
+      "chardonnay",
+      "mathieu",
+      "bâtiment",
+      "estimer",
+      "sec",
+      "transmettre",
+      "électron"
     ]
   ],
   "rowClues": [
     3,
-    3,
     2,
-    6,
+    1,
+    2,
     4,
-    2,
-    4
+    4,
+    1
   ],
   "colClues": [
+    2,
+    2,
     4,
-    4,
-    4,
+    1,
     3,
     4,
-    2,
-    3
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "professer",
   "solution": [
     [
+      true,
       false,
       true,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       false,
@@ -101,18 +128,9 @@
       false,
       true,
       true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
@@ -121,36 +139,18 @@
       true,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
       false,
       false
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
-      false,
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 17
 }

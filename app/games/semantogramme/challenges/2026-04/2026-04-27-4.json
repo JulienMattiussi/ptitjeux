@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "loup",
-      "vis",
-      "pierre",
-      "castor",
-      "pierre",
-      "chien",
-      "ours"
+      "rougeur",
+      "noir",
+      "préparer",
+      "thym",
+      "gouache",
+      "transilvanien",
+      "descendance"
     ],
     [
-      "zèbre",
-      "livre",
-      "cheval",
-      "lynx",
-      "lion",
-      "voisin",
-      "chat"
+      "compétent",
+      "aubergine",
+      "méditerranéenne",
+      "estivale",
+      "méditation",
+      "uriner",
+      "huile"
     ],
     [
-      "cheval",
-      "agenda",
-      "cheval",
-      "manuel",
-      "clé",
-      "tabouret",
-      "sol"
+      "pixel",
+      "savourer",
+      "reculer",
+      "poivron",
+      "amplifier",
+      "cymbale",
+      "rugosité"
     ],
     [
-      "livre",
-      "marteau",
-      "tigre",
-      "castor",
-      "bureau",
-      "pelle",
-      "parfum"
+      "ail",
+      "lecteur",
+      "trias",
+      "musculature",
+      "graphisme",
+      "provence",
+      "demander"
     ],
     [
-      "chat",
-      "renard",
-      "règle",
-      "tunnel",
-      "cheval",
-      "prière",
-      "mémoire"
+      "voiler",
+      "pauvreté",
+      "reprise",
+      "tronçonneuse",
+      "naturelle",
+      "courgette",
+      "châtier"
     ],
     [
-      "lapin",
-      "ours",
-      "serrure",
-      "maison",
-      "manuel",
-      "koala",
-      "panneau"
+      "basculer",
+      "leash",
+      "colorée",
+      "balla",
+      "spectaculaire",
+      "oignon",
+      "urne"
     ],
     [
-      "tournevis",
-      "belette",
-      "panda",
-      "rumeur",
-      "lion",
-      "écran",
-      "mémoire"
+      "derain",
+      "figurine",
+      "familiale",
+      "smartphone",
+      "cuisine",
+      "moderne",
+      "olive"
     ]
   ],
   "rowClues": [
+    2,
     4,
-    5,
     2,
     2,
-    3,
-    3,
+    1,
+    2,
     3
   ],
   "colClues": [
-    5,
-    3,
+    1,
+    2,
     4,
     3,
+    1,
     3,
-    2,
     2
   ],
-  "themeWord": "animal",
+  "themeWord": "ratatouille",
   "solution": [
     [
-      true,
       false,
       false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      true,
+      true,
+      false,
+      false,
       true
     ],
     [
+      false,
       true,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

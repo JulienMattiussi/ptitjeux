@@ -5,130 +5,139 @@
   "height": 7,
   "words": [
     [
-      "chemin",
-      "piano",
-      "banquier",
-      "jazz",
-      "accord",
-      "timbre",
-      "tunnel"
+      "parfumerie",
+      "détresse",
+      "pleurer",
+      "gastrique",
+      "mortel",
+      "maquette",
+      "abattement"
     ],
     [
-      "choeur",
-      "jazz",
-      "piano",
-      "silence",
-      "rythme",
-      "caillou",
-      "mémoire"
+      "morne",
+      "noir",
+      "résonant",
+      "crier",
+      "crosse",
+      "séduisante",
+      "détente"
     ],
     [
-      "carnet",
-      "pelle",
-      "concerto",
-      "orgue",
-      "carnet",
-      "ciseaux",
-      "note"
+      "framboise",
+      "aneth",
+      "douleur",
+      "cils",
+      "cour",
+      "doctrine",
+      "abbaye"
     ],
     [
-      "clé",
-      "piano",
-      "gamme",
-      "chemin",
-      "tournevis",
-      "guitare",
-      "batterie"
+      "incurable",
+      "droiture",
+      "monumentale",
+      "bienfaiteur",
+      "sorbier",
+      "allitération",
+      "soustraire"
     ],
     [
-      "jazz",
-      "parfum",
-      "serrure",
-      "tournevis",
-      "globe",
-      "racine",
-      "ombre"
+      "salissure",
+      "reinette",
+      "risotto",
+      "gémir",
+      "grillé",
+      "plonger",
+      "angoisse"
     ],
     [
-      "gamme",
-      "tournevis",
-      "panier",
-      "piano",
-      "choeur",
-      "pétale",
-      "pince"
+      "emblème",
+      "imprévu",
+      "effondrement",
+      "sombre",
+      "écu",
+      "bourse",
+      "rocaille"
     ],
     [
-      "rumeur",
-      "ciseaux",
-      "batterie",
-      "racine",
-      "harpe",
-      "vis",
-      "voisin"
+      "profond",
+      "piaf",
+      "frelon",
+      "sans-issue",
+      "absolu",
+      "philosophique",
+      "enchère"
     ]
   ],
   "rowClues": [
-    3,
     4,
     3,
-    4,
+    1,
     1,
     3,
-    2
+    2,
+    3
   ],
   "colClues": [
     3,
+    2,
     3,
     4,
-    3,
-    4,
+    2,
     1,
     2
   ],
-  "themeWord": "musique",
+  "themeWord": "désespoir",
   "solution": [
     [
       false,
       true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
-      false,
       true,
       true,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       false
@@ -138,19 +147,10 @@
       false,
       false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

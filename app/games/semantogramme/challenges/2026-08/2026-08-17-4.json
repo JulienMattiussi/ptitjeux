@@ -5,93 +5,102 @@
   "height": 7,
   "words": [
     [
-      "marteau",
-      "maison",
-      "bus",
-      "livre",
+      "arabe",
+      "précis",
+      "sollicitation",
+      "instrument",
+      "aiguisée",
+      "ruine",
+      "compote"
+    ],
+    [
+      "réaction",
+      "mesurer",
+      "brailler",
+      "kangourou",
+      "boutique",
+      "obélisque",
+      "plume"
+    ],
+    [
+      "urtique",
+      "antiquité",
+      "astre",
+      "astronomie",
+      "reluire",
+      "affection",
+      "sphérique"
+    ],
+    [
+      "observer",
+      "république",
+      "irrigation",
+      "tridente",
       "étoile",
-      "fusée",
-      "prière"
+      "angle",
+      "décantation"
     ],
     [
-      "rideau",
-      "banquier",
-      "savon",
-      "métro",
-      "serrure",
-      "taxi",
-      "livre"
+      "faiblesse",
+      "aéroport",
+      "cantique",
+      "ordonnance",
+      "cru",
+      "navigation",
+      "plan"
     ],
     [
-      "taxi",
-      "fusée",
-      "moto",
-      "silence",
-      "vélo",
-      "métro",
-      "savon"
+      "mesure",
+      "opportuniste",
+      "accélération",
+      "savant",
+      "flamboyant",
+      "congère",
+      "maniable"
     ],
     [
-      "maison",
-      "fusée",
-      "panneau",
-      "caravane",
-      "crayon",
-      "voiture",
-      "avion"
-    ],
-    [
-      "bus",
-      "autobus",
-      "bateau",
-      "moto",
-      "écran",
-      "parfum",
-      "marteau"
-    ],
-    [
-      "camion",
-      "timbre",
-      "mémoire",
-      "train",
-      "autobus",
-      "scooter",
-      "silence"
-    ],
-    [
-      "agenda",
-      "jardin",
-      "prison",
-      "train",
-      "pétale",
-      "navette",
-      "pétale"
+      "ouïe",
+      "gondole",
+      "médiéval",
+      "positionner",
+      "comédie",
+      "verveine",
+      "comprendre"
     ]
   ],
   "rowClues": [
+    3,
     1,
+    4,
+    3,
     2,
-    4,
-    4,
-    4,
-    4,
+    2,
     2
   ],
   "colClues": [
     3,
-    2,
     3,
-    5,
     2,
-    5,
-    1
+    4,
+    1,
+    2,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "astrolabe",
   "solution": [
     [
-      false,
+      true,
+      true,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       false,
@@ -99,17 +108,17 @@
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
       false,
-      true,
+      false,
       false,
       true,
       true,
@@ -117,40 +126,31 @@
     ],
     [
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       false,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false,
       false
     ],
     [
-      true,
       false,
       false,
       true,
       true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      false,
-      true,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 17
 }

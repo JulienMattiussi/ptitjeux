@@ -5,101 +5,137 @@
   "height": 7,
   "words": [
     [
-      "gris",
-      "indigo",
-      "tournevis",
-      "blanc",
-      "pince",
-      "banquier",
-      "argenté"
+      "archaïque",
+      "castelet",
+      "lent",
+      "soudure",
+      "compréhension",
+      "plantule",
+      "sangloter"
     ],
     [
-      "livre",
-      "violet",
-      "rumeur",
-      "rouge",
-      "banquier",
-      "rumeur",
-      "savon"
+      "hésiter",
+      "rond",
+      "ponctuel",
+      "liturgie",
+      "illusion",
+      "manifeste",
+      "éviter"
     ],
     [
-      "rose",
-      "beige",
-      "plateau",
-      "mauve",
-      "clé",
-      "sol",
-      "tournevis"
+      "elliptique",
+      "rurale",
+      "temporiser",
+      "rhinite",
+      "couler",
+      "mule",
+      "néoténie"
     ],
     [
-      "mauve",
-      "rouge",
-      "voisin",
-      "doré",
-      "devoir",
-      "ocre",
-      "orange"
+      "fuir",
+      "flotter",
+      "louvoyer",
+      "décider",
+      "piétiner",
+      "attendre",
+      "indécis"
     ],
     [
-      "rose",
-      "gomme",
-      "ocre",
-      "doré",
-      "orange",
-      "mémoire",
-      "rouge"
+      "sérénité",
+      "mesquin",
+      "choisir",
+      "écriture-automatique",
+      "ode",
+      "atermoyer",
+      "biaiser"
     ],
     [
-      "rideau",
-      "orange",
-      "noir",
-      "doré",
-      "vert",
-      "tunnel",
-      "turquoise"
+      "frire",
+      "bouquet",
+      "simultané",
+      "mou",
+      "continent",
+      "cruelle",
+      "écoute"
     ],
     [
-      "ocre",
-      "turquoise",
-      "violet",
-      "livre",
-      "chaise",
-      "pétale",
-      "argenté"
+      "esquiver",
+      "rubis",
+      "architecte",
+      "doigt",
+      "genièvre",
+      "négoce",
+      "reculer"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    3,
-    5,
-    5,
-    5,
-    4
-  ],
-  "colClues": [
-    5,
-    6,
-    3,
+    2,
+    1,
     6,
     2,
     1,
-    5
+    2
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    3,
+    1,
+    3,
+    2,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "tergiverser",
   "solution": [
     [
       true,
-      true,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false,
       false,
       true
     ],
     [
       false,
+      false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false,
@@ -108,49 +144,13 @@
     ],
     [
       true,
-      true,
-      false,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 28
+  "parMoves": 16
 }

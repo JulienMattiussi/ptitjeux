@@ -5,111 +5,93 @@
   "height": 7,
   "words": [
     [
-      "langue",
-      "genou",
-      "timbre",
-      "peau",
-      "peau",
-      "bouche",
-      "étagère"
+      "cravache",
+      "cadavre",
+      "accordéon",
+      "temporiser",
+      "sagesse",
+      "tempérance",
+      "modération"
     ],
     [
-      "étoile",
-      "tête",
-      "banquier",
-      "caillou",
-      "peau",
-      "tête",
-      "genou"
+      "astronaute",
+      "tolérant",
+      "calme",
+      "bécasse",
+      "cocotier",
+      "demi-cercle",
+      "trancher"
     ],
     [
-      "globe",
-      "jardin",
-      "doigt",
-      "pied",
-      "oreille",
-      "pied",
-      "genou"
+      "venter",
+      "persévérance",
+      "attendre",
+      "nolde",
+      "tolérer",
+      "félicitation",
+      "persévérer"
     ],
     [
-      "lampe",
-      "enveloppe",
-      "pied",
-      "étagère",
-      "ongle",
-      "panneau",
-      "maison"
+      "noirâtre",
+      "longue",
+      "tenace",
+      "lacédémone",
+      "savant",
+      "endurer",
+      "débat"
     ],
     [
-      "cadre",
-      "épaule",
-      "silence",
-      "dos",
-      "tapis",
-      "vis",
-      "marteau"
+      "supporter",
+      "artistique",
+      "maternité",
+      "enfler",
+      "lambin",
+      "embrasser",
+      "long"
     ],
     [
-      "jambe",
-      "ongle",
-      "jambe",
-      "lèvre",
-      "chemin",
-      "enveloppe",
-      "coussin"
+      "caisse",
+      "sueurs",
+      "foin",
+      "attente",
+      "vertu",
+      "moite",
+      "dompter"
     ],
     [
-      "tapis",
-      "dos",
-      "tête",
-      "cadre",
-      "tournevis",
-      "timbre",
-      "ongle"
+      "serein",
+      "solitaire",
+      "prise",
+      "économiser",
+      "pourriture",
+      "enflammé",
+      "patiente"
     ]
   ],
   "rowClues": [
-    5,
     4,
-    5,
-    2,
     2,
     4,
-    3
+    3,
+    1,
+    2,
+    2
   ],
   "colClues": [
     2,
-    5,
-    4,
-    4,
-    4,
     3,
+    3,
+    2,
+    3,
+    2,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "patience",
   "solution": [
     [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      true,
       true,
       true,
       true,
@@ -117,27 +99,9 @@
     ],
     [
       false,
-      false,
       true,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
       false
@@ -146,11 +110,47 @@
       false,
       true,
       true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 25
+  "parMoves": 18
 }

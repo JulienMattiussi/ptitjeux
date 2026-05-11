@@ -5,104 +5,122 @@
   "height": 7,
   "words": [
     [
-      "pierre",
-      "devoir",
-      "gomme",
-      "mouton",
-      "mouton",
-      "renard",
-      "renard"
+      "fréquent",
+      "urbaine",
+      "noueuse",
+      "robuste",
+      "beurré",
+      "sédiment",
+      "cidre"
     ],
     [
-      "chaise",
-      "prison",
-      "girafe",
-      "belette",
-      "ours",
-      "plateau",
-      "jardin"
+      "observer",
+      "étang",
+      "trompette",
+      "biologique",
+      "aquatique",
+      "acoustique",
+      "évoquer"
     ],
     [
-      "belette",
-      "castor",
-      "zèbre",
-      "manuel",
-      "belette",
-      "lion",
-      "renard"
+      "plancton",
+      "sanglant",
+      "épaisse",
+      "détente",
+      "braise",
+      "douce",
+      "germe"
     ],
     [
-      "vache",
-      "rideau",
-      "tigre",
-      "tigre",
-      "panneau",
-      "chien",
-      "panier"
+      "analyser",
+      "iule",
+      "lingot",
+      "indécis",
+      "tribale",
+      "helicobacter",
+      "dossard"
     ],
     [
-      "bureau",
-      "enveloppe",
-      "miroir",
-      "banquier",
-      "lapin",
-      "pince",
-      "vache"
+      "science",
+      "lac",
+      "eau",
+      "gaie",
+      "bague",
+      "limnologue",
+      "savante"
     ],
     [
-      "étagère",
-      "rideau",
-      "tigre",
-      "tunnel",
-      "lapin",
-      "miroir",
-      "écureuil"
+      "mortel",
+      "rare",
+      "algue",
+      "rotor",
+      "physico-chimique",
+      "manipulée",
+      "cri"
     ],
     [
-      "lapin",
-      "renard",
-      "chien",
-      "cadre",
-      "plateau",
-      "étagère",
-      "fusée"
+      "comparée",
+      "stabilité",
+      "jaser",
+      "taxi",
+      "houblon",
+      "campagne",
+      "colique"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    6,
+    1,
     4,
     2,
-    3,
-    3
+    1,
+    5,
+    2,
+    1
   ],
   "colClues": [
-    3,
+    5,
     2,
-    5,
+    2,
+    1,
+    2,
     3,
-    5,
-    3,
-    4
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "limnologie",
   "solution": [
     [
       false,
       false,
       false,
+      false,
+      false,
       true,
-      true,
-      true,
-      true
+      false
     ],
     [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       false,
       true,
+      false
+    ],
+    [
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       false
     ],
@@ -111,46 +129,28 @@
       true,
       true,
       false,
-      true,
+      false,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
       false,
       true,
-      true,
       false,
-      true,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
       false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 25
+  "parMoves": 16
 }

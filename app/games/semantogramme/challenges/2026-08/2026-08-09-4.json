@@ -5,140 +5,113 @@
   "height": 7,
   "words": [
     [
-      "fusée",
-      "serrure",
-      "tasse",
-      "gamme",
-      "choeur",
-      "mur",
-      "silence"
+      "mijoter",
+      "trappiste",
+      "royal",
+      "boeuf",
+      "improviser",
+      "freiner",
+      "candide"
     ],
     [
-      "parfum",
-      "table",
-      "racine",
-      "coussin",
-      "mélodie",
-      "harpe",
-      "sol"
+      "gastronomique",
+      "lin",
+      "orgueil",
+      "classique",
+      "épidermique",
+      "chemin",
+      "volaille"
     ],
     [
-      "concerto",
-      "tambour",
-      "écran",
-      "racine",
-      "pelle",
-      "tunnel",
-      "écran"
+      "maquereau",
+      "doré",
+      "fabriquer",
+      "anémique",
+      "guidon",
+      "fourreau",
+      "imprenable"
     ],
     [
-      "peigne",
-      "carnet",
-      "orgue",
-      "guitare",
-      "racine",
-      "violon",
-      "violon"
+      "corde",
+      "filtrer",
+      "cuisine",
+      "fond",
+      "pinnipède",
+      "plaisir",
+      "entrée"
     ],
     [
-      "batterie",
-      "devoir",
-      "accord",
-      "opéra",
-      "gamme",
-      "table",
-      "gamme"
+      "intentionnalité",
+      "fraîcheur",
+      "tournesol",
+      "dégât",
+      "gélatine",
+      "commis",
+      "français"
     ],
     [
-      "trompette",
-      "globe",
-      "chaise",
-      "concerto",
-      "guitare",
-      "étoile",
-      "écran"
+      "électronique",
+      "dentition",
+      "bombe",
+      "bouillon",
+      "sursaut",
+      "nouveau-né",
+      "clarifier"
     ],
     [
-      "manuel",
-      "orgue",
-      "mélodie",
-      "note",
-      "pierre",
-      "guitare",
-      "gamme"
+      "mousseron",
+      "soupe",
+      "pastoral",
+      "rupture",
+      "colley",
+      "limpide",
+      "acclamer"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    4,
-    5,
     3,
-    5
+    3,
+    1,
+    4,
+    2,
+    2,
+    2
   ],
   "colClues": [
-    3,
     2,
     3,
-    5,
+    2,
     4,
-    3,
-    3
+    1,
+    1,
+    4
   ],
-  "themeWord": "musique",
+  "themeWord": "consommé",
   "solution": [
     [
-      false,
-      false,
+      true,
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
-      true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       true,
-      true,
-      true,
+      false,
       false,
       true
     ],
     [
+      false,
       true,
       false,
       false,
-      true,
-      true,
+      false,
       false,
       false
     ],
@@ -148,9 +121,36 @@
       true,
       true,
       false,
-      true,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 17
 }

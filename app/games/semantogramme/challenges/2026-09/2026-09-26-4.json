@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "casserole",
-      "table",
-      "évier",
-      "casserole",
-      "porte",
-      "panier",
-      "chaise"
+      "origine",
+      "atteindre",
+      "archaïque",
+      "voyance",
+      "récolter",
+      "scie",
+      "svelte"
     ],
     [
-      "pierre",
-      "plateau",
-      "serrure",
-      "casserole",
-      "plat",
-      "fourchette",
-      "verre"
+      "vie",
+      "géologique",
+      "abeille",
+      "stabiliser",
+      "ère",
+      "pneumonie",
+      "éthéré"
     ],
     [
-      "épice",
-      "tasse",
-      "assiette",
-      "parfum",
-      "règle",
-      "bureau",
-      "recette"
+      "lointain",
+      "belle-hélène",
+      "pissarro",
+      "paléolithique",
+      "terrassement",
+      "pulpeux",
+      "sucre"
     ],
     [
-      "écran",
-      "prison",
-      "rumeur",
-      "maison",
-      "évier",
-      "casserole",
-      "farine"
+      "triceratops",
+      "primordial",
+      "pédestre",
+      "tellurique",
+      "papillon",
+      "évolution",
+      "préhistoire"
     ],
     [
-      "épice",
-      "horloge",
-      "évier",
-      "frigo",
-      "pierre",
-      "jardin",
-      "recette"
+      "solennel",
+      "parasite",
+      "fossile",
+      "ancien",
+      "océan",
+      "borner",
+      "fourmi"
     ],
     [
-      "tunnel",
-      "fourchette",
-      "manuel",
-      "panneau",
-      "plat",
-      "globe",
-      "spatule"
+      "premier",
+      "stromatolite",
+      "volcanisme",
+      "éducatif",
+      "bactérie",
+      "champignon",
+      "tromperie"
     ],
     [
-      "pelle",
-      "panier",
-      "parfum",
-      "plat",
-      "fusée",
-      "casserole",
-      "crayon"
+      "monet",
+      "pénalité",
+      "précambrien",
+      "rater",
+      "roche",
+      "essuyer",
+      "colique"
     ]
   ],
   "rowClues": [
+    2,
     3,
+    1,
     4,
     3,
-    3,
     4,
-    3,
     2
   ],
   "colClues": [
-    3,
-    1,
-    3,
     4,
     3,
-    3,
-    5
+    4,
+    2,
+    4,
+    1,
+    1
   ],
-  "themeWord": "cuisine",
+  "themeWord": "archéen",
   "solution": [
     [
       true,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
       true,
       true
     ],
     [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       true,
-      true,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 19
 }

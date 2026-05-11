@@ -5,97 +5,97 @@
   "height": 7,
   "words": [
     [
-      "lampe",
-      "jardin",
-      "racine",
-      "étoile",
-      "thon",
-      "serrure",
-      "sable"
+      "populaire",
+      "résonant",
+      "ration",
+      "savoir",
+      "discernement",
+      "profondeur",
+      "visseuse"
     ],
     [
-      "serrure",
-      "plateau",
-      "rivage",
-      "écran",
-      "fusée",
-      "marin",
-      "chemin"
+      "tracteur",
+      "beuglement",
+      "vertu",
+      "correspondance",
+      "modéliser",
+      "ancienne",
+      "lumbago"
     ],
     [
-      "sable",
-      "baleine",
-      "thon",
-      "silence",
-      "livre",
-      "horloge",
-      "parfum"
+      "réservé",
+      "vieillir",
+      "confiture",
+      "sélectionner",
+      "sage",
+      "expérience",
+      "calmar"
     ],
     [
-      "étoile",
-      "plage",
-      "vis",
-      "méduse",
-      "chaise",
-      "thon",
-      "saumon"
+      "modération",
+      "pendentif",
+      "bouquin",
+      "vidéo",
+      "attelage",
+      "son",
+      "choucroute"
     ],
     [
-      "marin",
-      "étoile",
-      "pince",
-      "tasse",
-      "sardine",
-      "porte",
-      "baleine"
+      "punch",
+      "gagner",
+      "philosophie",
+      "verger",
+      "tzara",
+      "londres",
+      "penderie"
     ],
     [
-      "phare",
-      "mémoire",
-      "poisson",
-      "plage",
-      "écaille",
-      "sol",
-      "vague"
+      "orientale",
+      "senteur",
+      "précieuse",
+      "fidélité",
+      "botaniste",
+      "cantilène",
+      "alphabet"
     ],
     [
-      "dauphin",
-      "prison",
-      "sardine",
-      "banquier",
-      "lampe",
-      "prison",
-      "parfum"
+      "se réjouir",
+      "maturité",
+      "colophane",
+      "séduisante",
+      "décomposer",
+      "fanion",
+      "prudence"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
     4,
-    3,
-    5,
+    2,
+    2,
+    1,
+    2,
+    2,
     2
   ],
   "colClues": [
-    4,
-    2,
-    4,
-    2,
     3,
     2,
-    4
+    3,
+    1,
+    2,
+    3,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "sagesse",
   "solution": [
     [
-      false,
-      false,
+      true,
       false,
       false,
       true,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
       false,
@@ -107,8 +107,35 @@
       false
     ],
     [
+      false,
+      false,
+      false,
+      false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       false,
       false,
@@ -119,38 +146,11 @@
       false,
       true,
       false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
-      false,
-      true,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 15
 }

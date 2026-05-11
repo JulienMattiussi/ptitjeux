@@ -5,91 +5,109 @@
   "height": 7,
   "words": [
     [
-      "table",
-      "porte",
-      "gris",
-      "jaune",
-      "vert",
-      "fusée",
-      "lampe"
+      "connaissance",
+      "félin",
+      "soyeux",
+      "vernissage",
+      "cortège",
+      "cendre",
+      "ruelle"
     ],
     [
-      "turquoise",
-      "table",
-      "vert",
-      "violet",
-      "ocre",
-      "horloge",
-      "gomme"
+      "transférer",
+      "oreille",
+      "contrebasse",
+      "chasser",
+      "équilatéral",
+      "case",
+      "patinette"
     ],
     [
-      "indigo",
-      "indigo",
-      "tabouret",
-      "livre",
-      "plateau",
-      "jardin",
-      "jaune"
+      "reinette",
+      "thèse",
+      "asie",
+      "museau",
+      "pinceau",
+      "cycle",
+      "séquence"
     ],
     [
-      "bleu",
-      "brun",
-      "turquoise",
-      "ombre",
-      "lueur",
-      "étoile",
-      "règle"
+      "air",
+      "vessie",
+      "bricoleur",
+      "cheminée",
+      "sainte",
+      "redoutable",
+      "afrique"
     ],
     [
-      "rose",
-      "tabouret",
-      "rouge",
-      "tunnel",
-      "voisin",
-      "doré",
-      "indigo"
+      "protégé",
+      "cargo",
+      "mandibule",
+      "attraper",
+      "jante",
+      "gain",
+      "sauter"
     ],
     [
-      "mauve",
-      "prison",
-      "jardin",
-      "mauve",
-      "rouge",
-      "rose",
-      "enveloppe"
+      "rapide",
+      "élégant",
+      "juge",
+      "pelage",
+      "grimper",
+      "princesse",
+      "acacia"
     ],
     [
-      "table",
-      "blanc",
-      "maison",
-      "sol",
-      "pelle",
-      "rose",
-      "mémoire"
+      "bondir",
+      "colorer",
+      "ordure",
+      "odorant",
+      "congratulation",
+      "bec",
+      "fauve"
     ]
   ],
   "rowClues": [
+    1,
+    2,
     3,
-    4,
-    3,
-    3,
-    4,
+    2,
+    2,
     4,
     2
   ],
   "colClues": [
-    5,
+    2,
     3,
+    1,
     4,
-    3,
-    3,
-    3,
-    2
+    2,
+    1,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "caracal",
   "solution": [
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -98,19 +116,19 @@
       false
     ],
     [
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
-      true,
-      true,
-      false,
-      false
+      true
     ],
     [
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       false,
       false,
       true
@@ -118,39 +136,21 @@
     [
       true,
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       false,
       false
     ],
     [
       true,
       false,
-      true,
       false,
       false,
-      true,
+      false,
+      false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 16
 }

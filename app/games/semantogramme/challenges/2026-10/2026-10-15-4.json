@@ -5,93 +5,138 @@
   "height": 7,
   "words": [
     [
-      "porte",
-      "livre",
-      "vent",
-      "devoir",
-      "rosée",
-      "agenda",
-      "verglas"
-    ],
-    [
-      "neige",
-      "étoile",
-      "nuage",
-      "verglas",
-      "pluie",
-      "vent",
-      "soleil"
-    ],
-    [
-      "gel",
-      "glace",
-      "parfum",
-      "orage",
-      "foudre",
-      "caillou",
-      "marteau"
-    ],
-    [
-      "vent",
-      "horloge",
-      "chemin",
-      "jardin",
-      "devoir",
-      "orage",
-      "tasse"
-    ],
-    [
-      "fusée",
-      "tournevis",
+      "morue",
+      "hésiter",
+      "cuve",
+      "resplendissant",
+      "expéditif",
       "soleil",
-      "brouillard",
-      "horloge",
-      "clé",
-      "brouillard"
+      "saison"
     ],
     [
-      "miroir",
-      "chemin",
-      "manuel",
-      "miroir",
-      "glace",
-      "tapis",
-      "clé"
+      "lavage",
+      "se lever",
+      "orbite",
+      "équateur",
+      "gestation",
+      "vacarme",
+      "exagérer"
     ],
     [
-      "rideau",
-      "clé",
-      "tempête",
-      "orage",
-      "pierre",
-      "soleil",
-      "bureau"
+      "flamboyer",
+      "septembre",
+      "jumeau",
+      "sartre",
+      "piscine",
+      "mars",
+      "changement"
+    ],
+    [
+      "incertitude",
+      "nuit",
+      "jour",
+      "bourgogne",
+      "mascara",
+      "acacia",
+      "représenter"
+    ],
+    [
+      "blesser",
+      "rotation",
+      "symbolique",
+      "égalité",
+      "automne",
+      "printemps",
+      "monteverdi"
+    ],
+    [
+      "perroquet",
+      "courber",
+      "essentiel",
+      "enseignement",
+      "datation",
+      "croquante",
+      "transition"
+    ],
+    [
+      "astronomique",
+      "débattre",
+      "précession",
+      "méthode",
+      "belle-soeur",
+      "tempérée",
+      "cabaret"
     ]
   ],
   "rowClues": [
-    3,
-    6,
-    4,
     2,
-    3,
     1,
+    3,
+    2,
+    5,
+    2,
     3
   ],
   "colClues": [
-    3,
     1,
-    4,
-    4,
-    4,
     3,
+    3,
+    2,
+    2,
+    4,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "équinoxe",
   "solution": [
     [
       false,
       false,
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       false,
@@ -101,56 +146,11 @@
       true,
       false,
       true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

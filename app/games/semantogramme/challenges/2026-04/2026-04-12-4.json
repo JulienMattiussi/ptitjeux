@@ -5,112 +5,121 @@
   "height": 7,
   "words": [
     [
-      "course",
-      "manuel",
-      "judo",
-      "tennis",
-      "escalade",
-      "clé",
-      "voile"
+      "boréale",
+      "instrumental",
+      "crédule",
+      "prisme",
+      "liaisonner",
+      "musique",
+      "destrier"
     ],
     [
-      "voile",
-      "vis",
-      "basket",
-      "fusée",
-      "judo",
-      "danse",
-      "course"
+      "bach",
+      "jouer",
+      "cucurbitacée",
+      "parquet",
+      "frescobaldi",
+      "route",
+      "avant"
     ],
     [
-      "ciseaux",
-      "volley",
-      "manuel",
-      "marathon",
-      "tabouret",
-      "prière",
-      "voisin"
+      "couard",
+      "dérailleur",
+      "éclatant",
+      "rouge-à-lèvres",
+      "magie",
+      "aéroport",
+      "improvisé"
     ],
     [
-      "prison",
-      "volley",
-      "enveloppe",
-      "golf",
-      "ciseaux",
-      "horloge",
-      "fusée"
+      "préluder",
+      "clavecin",
+      "intégrité",
+      "ponctuel",
+      "recueil",
+      "allitération",
+      "aperçu"
     ],
     [
-      "balai",
-      "ski",
-      "banquier",
-      "natation",
-      "balai",
-      "rumeur",
-      "gym"
+      "écrire",
+      "baroque",
+      "rétrécir",
+      "concert",
+      "spectaculaire",
+      "fugué",
+      "virtuose"
     ],
     [
-      "basket",
-      "judo",
-      "timbre",
-      "cyclisme",
-      "volley",
-      "parfum",
-      "danse"
+      "narratif",
+      "rempli",
+      "orgue",
+      "rapide",
+      "piano",
+      "poignet",
+      "enchaîner"
     ],
     [
-      "fusée",
-      "course",
-      "étoile",
-      "rugby",
-      "golf",
-      "boxe",
-      "livre"
+      "hamac",
+      "beauté",
+      "composer",
+      "gai",
+      "inonder",
+      "brillant",
+      "guinguette"
     ]
   ],
   "rowClues": [
-    5,
-    5,
-    2,
     2,
     3,
-    5,
-    4
+    2,
+    2,
+    4,
+    4,
+    2
   ],
   "colClues": [
-    3,
-    5,
     2,
-    6,
     4,
-    2,
-    4
+    3,
+    1,
+    3,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "toccata",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
-      false,
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      false,
-      true,
       false,
       false,
       false
@@ -119,24 +128,15 @@
       false,
       true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
       true,
-      false,
-      false,
       true
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true,
       true,
       false,
@@ -144,13 +144,13 @@
     ],
     [
       false,
-      true,
       false,
       true,
-      true,
+      false,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 26
+  "parMoves": 19
 }

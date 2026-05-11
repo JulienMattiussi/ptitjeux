@@ -5,141 +5,141 @@
   "height": 7,
   "words": [
     [
-      "plafond",
-      "turquoise",
-      "bureau",
-      "bleu",
-      "plafond",
-      "prière",
-      "lueur"
+      "gibier",
+      "gras",
+      "viande",
+      "éolienne",
+      "démouler",
+      "kandinsky",
+      "trancher"
     ],
     [
-      "parfum",
-      "indigo",
-      "tapis",
-      "mauve",
-      "règle",
-      "jaune",
-      "violet"
+      "clocher",
+      "idéaliste",
+      "entrée",
+      "gelée",
+      "inde",
+      "apéritif",
+      "sentiment"
     ],
     [
-      "rose",
-      "rumeur",
-      "beige",
-      "indigo",
-      "rose",
-      "rouge",
-      "pierre"
+      "ruine",
+      "sévir",
+      "cuisine",
+      "tantine",
+      "minute",
+      "parquet",
+      "communiquer"
     ],
     [
-      "coussin",
-      "rose",
-      "plafond",
-      "plafond",
-      "globe",
-      "bleu",
-      "jardin"
+      "rustique",
+      "géométrie",
+      "compte",
+      "traditionnelle",
+      "trompette",
+      "piccolo",
+      "volaille"
     ],
     [
-      "bleu",
-      "chemin",
-      "peigne",
-      "rouge",
-      "vert",
-      "argenté",
-      "chemin"
+      "cuire",
+      "rotule",
+      "mélange",
+      "fiable",
+      "brasse",
+      "ode",
+      "numéral"
     ],
     [
-      "étagère",
-      "prison",
-      "beige",
-      "rouge",
-      "racine",
-      "turquoise",
-      "peigne"
+      "épice",
+      "rissoler",
+      "oscillation",
+      "mammifère",
+      "stable",
+      "glaçure",
+      "nombre"
     ],
     [
-      "coussin",
-      "rideau",
-      "violet",
-      "cadre",
-      "brosse",
-      "gris",
-      "lampe"
+      "site",
+      "sabre",
+      "forcemeat",
+      "royale",
+      "pâté",
+      "porcelaine",
+      "dédicacer"
     ]
   ],
   "rowClues": [
-    2,
-    4,
     5,
-    2,
-    4,
     3,
+    1,
+    3,
+    1,
+    1,
     2
   ],
   "colClues": [
+    4,
+    1,
+    4,
     2,
-    3,
-    3,
-    5,
     2,
-    6,
-    1
+    1,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "terrine",
   "solution": [
     [
-      false,
+      true,
+      true,
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false,
       false,
       false
     ],
     [
+      true,
+      false,
       false,
       true,
       false,
-      true,
       false,
-      true,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
       true,
       false,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      true,
       false,
-      true,
       false
     ],
     [
@@ -147,10 +147,10 @@
       false,
       true,
       false,
-      false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

@@ -5,128 +5,137 @@
   "height": 7,
   "words": [
     [
-      "cerise",
-      "plafond",
-      "mur",
-      "sol",
-      "banane",
-      "manuel",
-      "citron"
+      "chrétien",
+      "angle",
+      "plaidoyer",
+      "remplir",
+      "inconnue",
+      "épandre",
+      "patiente"
     ],
     [
-      "serrure",
-      "maison",
-      "tasse",
-      "raisin",
-      "timbre",
-      "peigne",
-      "serrure"
+      "hamster",
+      "longitude",
+      "hublot",
+      "rivière",
+      "miroir",
+      "sextant",
+      "vlaminck"
     ],
     [
-      "mur",
-      "orange",
-      "manuel",
-      "peigne",
-      "globe",
-      "orange",
-      "timbre"
+      "horizon",
+      "assaisonner",
+      "caldeira",
+      "relique",
+      "mesurer",
+      "instrument",
+      "degré"
     ],
     [
-      "prune",
-      "banane",
-      "sol",
-      "manuel",
-      "étagère",
-      "clé",
-      "framboise"
+      "godiller",
+      "main",
+      "dur",
+      "octave",
+      "mesure",
+      "mineur",
+      "voyageur"
     ],
     [
-      "étagère",
-      "carnet",
-      "fraise",
-      "banane",
-      "devoir",
-      "tapis",
-      "tasse"
+      "résolution",
+      "astre",
+      "wok",
+      "baccarat",
+      "succion",
+      "algérie",
+      "positionner"
     ],
     [
-      "citron",
-      "peigne",
-      "orange",
-      "abricot",
-      "mémoire",
-      "orange",
-      "mémoire"
+      "fleuve",
+      "comparée",
+      "marine",
+      "navigation",
+      "combattre",
+      "messie",
+      "nièce"
     ],
     [
-      "devoir",
-      "ananas",
-      "raisin",
-      "tunnel",
-      "orange",
-      "cerise",
-      "tabouret"
+      "optique",
+      "huit",
+      "caïeu",
+      "lacune",
+      "sauter",
+      "course",
+      "roseau"
     ]
   ],
   "rowClues": [
+    1,
     3,
+    3,
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    4,
     1,
     2,
     3,
     2,
-    4,
-    4
+    1
   ],
-  "colClues": [
-    3,
-    3,
-    3,
-    3,
-    2,
-    3,
-    2
-  ],
-  "themeWord": "fruit",
+  "themeWord": "octant",
   "solution": [
     [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
       false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false,
@@ -135,22 +144,13 @@
     ],
     [
       true,
-      false,
-      true,
       true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       false,
-      true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

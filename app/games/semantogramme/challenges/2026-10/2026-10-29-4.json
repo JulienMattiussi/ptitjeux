@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "plat",
-      "épice",
-      "tabouret",
-      "casserole",
-      "pince",
-      "ombre",
-      "carnet"
+      "imperceptible",
+      "haydn",
+      "frisson",
+      "chant",
+      "cahier",
+      "temps",
+      "orchestre"
     ],
     [
-      "tablier",
-      "plateau",
-      "frigo",
-      "porte",
-      "tasse",
-      "casserole",
-      "casserole"
+      "alsace",
+      "musique",
+      "classique",
+      "roucouler",
+      "notre-dame",
+      "reposant",
+      "mesure"
     ],
     [
-      "recette",
-      "verre",
-      "silence",
-      "tablier",
-      "timbre",
-      "poêle",
-      "poêle"
+      "magicien",
+      "narratif",
+      "messie",
+      "tchaïkovski",
+      "sacré",
+      "récitatif",
+      "dramatique"
     ],
     [
-      "tablier",
-      "frigo",
-      "tablier",
-      "porte",
-      "fourchette",
-      "devoir",
-      "table"
+      "chauffer",
+      "forestière",
+      "taguer",
+      "extraire",
+      "snooze",
+      "composition",
+      "choir"
     ],
     [
-      "mur",
-      "évier",
-      "globe",
-      "racine",
-      "frigo",
-      "crayon",
-      "casserole"
+      "noter",
+      "amarre",
+      "religieux",
+      "bach",
+      "harnais",
+      "biblique",
+      "choeur"
     ],
     [
-      "assiette",
-      "verre",
-      "tablier",
-      "tablier",
-      "pétale",
-      "casserole",
-      "assiette"
+      "nébuleuse",
+      "destiner",
+      "propulser",
+      "octave",
+      "voltige",
+      "baroque",
+      "soliste"
     ],
     [
-      "lampe",
-      "écran",
-      "recette",
-      "étagère",
-      "parfum",
-      "peigne",
-      "évier"
+      "haendel",
+      "hasard",
+      "relever",
+      "cymbalettes",
+      "aria",
+      "surveiller",
+      "fronton"
     ]
   ],
   "rowClues": [
     3,
-    4,
+    2,
     5,
+    1,
     4,
-    3,
-    6,
+    2,
     2
   ],
   "colClues": [
-    5,
-    5,
-    4,
+    1,
+    3,
     3,
     2,
-    3,
-    5
+    2,
+    4,
+    4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "oratorio",
   "solution": [
     [
-      true,
-      true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
       false,
       false,
-      true,
       true
     ],
     [
+      false,
       true,
       true,
       false,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
       false,
       true,
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      false,
       true,
       true
     ],
     [
       false,
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       false,
       false,
       false,
-      true
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 27
+  "parMoves": 19
 }

@@ -5,95 +5,95 @@
   "height": 7,
   "words": [
     [
-      "arc-en-ciel",
-      "gel",
-      "carnet",
-      "gel",
-      "vent",
-      "foudre",
-      "vis"
+      "redresser",
+      "rajeunir",
+      "compteur",
+      "ocelot",
+      "noyau",
+      "observer",
+      "abordage"
     ],
     [
-      "pierre",
-      "tonnerre",
-      "globe",
-      "chemin",
-      "règle",
-      "écran",
-      "plafond"
+      "sanguinaire",
+      "angle",
+      "exposer",
+      "mesurer",
+      "serpentin",
+      "infusion",
+      "précis"
     ],
     [
-      "nuage",
-      "plateau",
-      "horloge",
-      "foudre",
-      "glace",
-      "panier",
-      "gomme"
+      "hubble",
+      "bossu",
+      "pourfendre",
+      "arc",
+      "goutte",
+      "artiste",
+      "astronomie"
     ],
     [
-      "pluie",
-      "ombre",
-      "verglas",
-      "tonnerre",
-      "chemin",
-      "silence",
-      "devoir"
+      "quart",
+      "arabe",
+      "antique",
+      "donner",
+      "cercle",
+      "égalité",
+      "instrument"
     ],
     [
-      "porte",
-      "crayon",
-      "rumeur",
-      "maison",
-      "règle",
-      "panneau",
-      "verglas"
+      "magique",
+      "mythologie",
+      "navigation",
+      "calculer",
+      "plectre",
+      "proclamer",
+      "circuit"
     ],
     [
-      "soleil",
-      "pince",
-      "verglas",
-      "enveloppe",
-      "orage",
-      "arc-en-ciel",
-      "pince"
+      "ardoisier",
+      "savant",
+      "engrais",
+      "sibylle",
+      "vibrer",
+      "fondue",
+      "foncé"
     ],
     [
-      "manuel",
-      "racine",
-      "gel",
-      "mémoire",
-      "brouillard",
-      "brouillard",
-      "racine"
+      "positionner",
+      "course",
+      "médiéval",
+      "sphérique",
+      "imitation",
+      "victoire",
+      "astre"
     ]
   ],
   "rowClues": [
+    1,
+    3,
+    2,
     5,
+    2,
     1,
-    3,
-    3,
-    1,
-    4,
-    3
+    4
   ],
   "colClues": [
-    4,
     2,
     3,
     3,
     4,
-    3,
-    1
+    1,
+    1,
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "quadrant",
   "solution": [
     [
-      true,
-      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -101,56 +101,56 @@
       false,
       true,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       true
     ],
     [
       true,
+      true,
+      true,
       false,
       true,
       false,
-      true,
-      true,
-      false
+      true
     ],
     [
       false,
       false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
-      false
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 18
 }

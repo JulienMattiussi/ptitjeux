@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
-      "fusée",
-      "étoile",
-      "balai",
-      "tablier",
-      "fourchette"
+      "putter",
+      "chapelet",
+      "griffonner",
+      "bricoler",
+      "lettre"
     ],
     [
-      "assiette",
-      "mur",
-      "farine",
-      "poêle",
-      "plateau"
+      "gribouiller",
+      "onde",
+      "feuille",
+      "mot",
+      "balcon"
     ],
     [
-      "évier",
-      "silence",
-      "balai",
-      "évier",
-      "farine"
+      "havresac",
+      "cahier",
+      "transcrire",
+      "noter",
+      "crayon"
     ],
     [
-      "miroir",
-      "farine",
-      "épice",
-      "assiette",
-      "tablier"
+      "évider",
+      "crique",
+      "magasin",
+      "stylo",
+      "auteur"
     ],
     [
-      "mémoire",
-      "fourchette",
-      "devoir",
-      "cuillère",
-      "chemin"
+      "titre",
+      "rédiger",
+      "phrase",
+      "plume",
+      "manuscrit"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
     4,
-    2
+    2,
+    4
   ],
   "colClues": [
+    1,
     2,
-    2,
-    2,
-    5,
-    3
+    4,
+    4,
+    4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "écrire",
   "solution": [
     [
       false,
       false,
-      false,
       true,
+      false,
       true
     ],
     [
@@ -71,7 +71,14 @@
       false
     ],
     [
+      false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -83,14 +90,7 @@
       true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

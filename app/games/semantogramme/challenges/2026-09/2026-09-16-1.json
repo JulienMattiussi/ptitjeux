@@ -5,52 +5,58 @@
   "height": 4,
   "words": [
     [
-      "lion",
-      "ciel",
-      "tour",
-      "écharpe"
-    ],
-    [
-      "boutonnière",
+      "criquet",
+      "éditorial",
       "astre",
-      "égoïne",
-      "galaxie"
+      "crampon"
     ],
     [
-      "roquette",
+      "galaxie",
       "nuit",
       "pulsar",
-      "éclat"
+      "piquant"
     ],
     [
-      "constellation",
-      "état",
       "soleil",
-      "parution"
+      "constellation",
+      "héroïsme",
+      "ciel"
+    ],
+    [
+      "maquette",
+      "éclat",
+      "tube",
+      "briques"
     ]
   ],
   "rowClues": [
     1,
-    2,
     3,
-    2
+    3,
+    1
   ],
   "colClues": [
-    1,
+    2,
     3,
     2,
-    2
+    1
   ],
   "themeWord": "étoile",
   "solution": [
     [
       false,
-      true,
       false,
+      true,
       false
     ],
     [
-      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true
@@ -58,13 +64,7 @@
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
       false
     ]
   ],

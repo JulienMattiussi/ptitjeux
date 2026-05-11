@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "plomb",
-      "batterie",
-      "mélodie",
-      "blues"
-    ],
-    [
-      "cabaret",
-      "ovale",
+      "rythme",
       "improvisation",
-      "castor"
+      "panthère",
+      "résumer"
     ],
     [
-      "bois",
-      "archipel",
-      "trompette",
-      "standard"
-    ],
-    [
-      "piano",
       "swing",
-      "aileron",
-      "rythme"
+      "blues",
+      "ruban",
+      "dessert"
+    ],
+    [
+      "mot",
+      "trompette",
+      "piano",
+      "cabaret"
+    ],
+    [
+      "standard",
+      "don",
+      "batterie",
+      "mélodie"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
-    2,
-    2,
     3
   ],
   "colClues": [
-    2,
-    2,
     3,
-    3
+    3,
+    2,
+    2
   ],
   "themeWord": "jazz",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true
+      false
     ],
     [
       true,
-      false,
       true,
+      false,
       false
     ],
     [
       false,
-      false,
+      true,
       true,
       true
     ],
     [
       true,
-      true,
       false,
+      true,
       true
     ]
   ],

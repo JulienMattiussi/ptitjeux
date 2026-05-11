@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "voisin",
-      "marathon",
-      "écran",
-      "voile",
-      "devoir"
+      "front",
+      "gamin",
+      "cerveau",
+      "menton",
+      "bouche"
     ],
     [
-      "clé",
-      "cyclisme",
-      "marathon",
-      "marathon",
-      "sol"
+      "caboche",
+      "cuir",
+      "costaud",
+      "tempe",
+      "crâne"
     ],
     [
-      "natation",
-      "prison",
-      "mur",
-      "escalade",
-      "cadre"
+      "caban",
+      "joue",
+      "mâchoire",
+      "terminal",
+      "oeil"
     ],
     [
-      "judo",
-      "tunnel",
-      "timbre",
-      "tennis",
-      "racine"
+      "panache",
+      "cheveu",
+      "nez",
+      "lèvre",
+      "plat"
     ],
     [
-      "étoile",
-      "chaise",
-      "chemin",
-      "judo",
-      "basket"
+      "éditeur",
+      "visage",
+      "occiput",
+      "sirène",
+      "écoute"
     ]
   ],
   "rowClues": [
-    2,
+    4,
+    4,
     3,
-    2,
     2,
     2
   ],
   "colClues": [
     2,
+    4,
+    4,
     2,
-    1,
-    5,
-    1
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "tête",
   "solution": [
     [
-      false,
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

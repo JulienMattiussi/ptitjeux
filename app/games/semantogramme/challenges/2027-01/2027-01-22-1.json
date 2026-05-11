@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "studio",
-      "hémisphère",
-      "mousse",
-      "incroyable"
-    ],
-    [
-      "oscar",
-      "choc",
-      "foin",
-      "coup"
-    ],
-    [
-      "tablier",
-      "stupeur",
-      "pêche",
-      "guirlande"
-    ],
-    [
+      "coup",
+      "carpe",
       "ébahissement",
-      "rebondissement",
+      "irréel"
+    ],
+    [
+      "exceptionnel",
       "étonnement",
-      "inattendu"
+      "inattendu",
+      "rebondissement"
+    ],
+    [
+      "incroyable",
+      "tante",
+      "briquer",
+      "fouet"
+    ],
+    [
+      "découverte",
+      "commencer",
+      "stupeur",
+      "choc"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    1,
-    4
-  ],
-  "colClues": [
-    1,
     3,
     1,
-    3
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    2
   ],
   "themeWord": "surprise",
   "solution": [
     [
+      true,
       false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
-      false,
       true,
+      false,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ]

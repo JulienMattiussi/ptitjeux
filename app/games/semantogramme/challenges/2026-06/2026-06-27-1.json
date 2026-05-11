@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "origan",
-      "accord",
-      "téléphone",
-      "noire"
-    ],
-    [
-      "roulette",
-      "pupitre",
-      "sourdine",
-      "clavier"
-    ],
-    [
-      "concert",
-      "éclairage",
       "touche",
-      "corde"
+      "coude",
+      "clavier",
+      "spécialiste"
     ],
     [
-      "canard",
-      "star",
-      "alligator",
-      "octave"
+      "noire",
+      "pupitre",
+      "corde",
+      "orient"
+    ],
+    [
+      "sourdine",
+      "concert",
+      "marron",
+      "vessie"
+    ],
+    [
+      "analyse",
+      "barque",
+      "octave",
+      "accord"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    1
+    2,
+    2
   ],
   "colClues": [
-    1,
+    3,
     2,
-    2,
-    4
+    3,
+    1
   ],
   "themeWord": "piano",
   "solution": [
     [
-      false,
       true,
       false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      true
+      false
     ],
     [
       true,
-      false,
       true,
-      true
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
     ],
     [
       false,
       false,
-      false,
+      true,
       true
     ]
   ],

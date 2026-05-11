@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
+      "parole",
+      "dormir",
+      "dent",
       "boxe",
-      "danse",
-      "escalade",
-      "course",
-      "panneau"
+      "amusement"
     ],
     [
-      "gym",
-      "basket",
-      "porte",
-      "danse",
-      "gomme"
+      "mâchoire",
+      "parler",
+      "nostalgie",
+      "palais",
+      "mâcher"
     ],
     [
-      "mémoire",
-      "fusée",
-      "livre",
-      "devoir",
-      "ski"
+      "gouvernement",
+      "cracher",
+      "bâiller",
+      "sourire",
+      "génome"
     ],
     [
-      "manuel",
-      "marathon",
-      "prison",
-      "devoir",
-      "danse"
+      "baiser",
+      "embrasser",
+      "sibérien",
+      "salive",
+      "tonner"
     ],
     [
-      "boxe",
-      "écran",
-      "fusée",
-      "savon",
-      "tasse"
+      "gencive",
+      "gourou",
+      "répondeur",
+      "langue",
+      "mordre"
     ]
   ],
   "rowClues": [
+    2,
     4,
     3,
-    1,
-    2,
-    1
+    3,
+    3
   ],
   "colClues": [
+    4,
     3,
-    3,
-    1,
     2,
+    4,
     2
   ],
-  "themeWord": "sport",
+  "themeWord": "bouche",
   "solution": [
     [
       true,
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
@@ -68,29 +68,29 @@
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true
     ],
     [
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
       false,
       false,
-      false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

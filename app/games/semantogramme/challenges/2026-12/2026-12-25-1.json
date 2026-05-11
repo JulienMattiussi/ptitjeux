@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "wagon",
       "pianissimo",
-      "expédition",
-      "calme"
+      "calme",
+      "muet",
+      "cheville"
     ],
     [
-      "stupeur",
-      "sourdine",
-      "phobie",
-      "bus"
+      "recueillement",
+      "reportage",
+      "orangé",
+      "saison"
     ],
     [
-      "esquisse",
+      "légende",
       "tranquillité",
-      "rugissement",
-      "muet"
+      "discrétion",
+      "sourdine"
     ],
     [
-      "attirance",
-      "discrétion",
       "mutisme",
-      "recueillement"
+      "créer",
+      "cheval",
+      "sieste"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     1,
-    2,
-    3
+    3,
+    1
   ],
   "colClues": [
-    0,
-    4,
-    1,
-    3
+    3,
+    2,
+    2,
+    1
   ],
   "themeWord": "silence",
   "solution": [
     [
-      false,
       true,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
-      false,
       true,
+      false,
       false,
       false
     ],
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true
+      false,
+      false
     ]
   ],
   "parMoves": 8

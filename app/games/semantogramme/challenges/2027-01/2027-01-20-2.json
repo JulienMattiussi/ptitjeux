@@ -5,83 +5,69 @@
   "height": 5,
   "words": [
     [
-      "casserole",
-      "farine",
-      "cadre",
-      "balai",
-      "écran"
+      "tourmenter",
+      "malicieux",
+      "infernal",
+      "hercule",
+      "tentation"
     ],
     [
-      "assiette",
-      "devoir",
-      "cuillère",
-      "lampe",
-      "carnet"
+      "agricole",
+      "maléfique",
+      "gazouiller",
+      "sabot",
+      "crotté"
     ],
     [
-      "silence",
-      "farine",
-      "couteau",
-      "clé",
-      "fourchette"
+      "circulaire",
+      "humer",
+      "rouge",
+      "fourche",
+      "inuit"
     ],
     [
-      "assiette",
-      "panier",
-      "savon",
-      "rideau",
-      "panier"
+      "posséder",
+      "long",
+      "tenter",
+      "esprit",
+      "enfer"
     ],
     [
-      "jardin",
-      "panier",
-      "épice",
-      "spatule",
-      "jardin"
+      "corne",
+      "tortueux",
+      "fourchette",
+      "satan",
+      "cortège"
     ]
   ],
   "rowClues": [
+    4,
     2,
     2,
-    3,
-    1,
-    2
+    4,
+    3
   ],
   "colClues": [
     3,
-    2,
     3,
-    1,
-    1
+    3,
+    4,
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "démon",
   "solution": [
     [
       true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      false,
+      true,
       false
     ],
     [
@@ -90,7 +76,21 @@
       true,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 15
 }

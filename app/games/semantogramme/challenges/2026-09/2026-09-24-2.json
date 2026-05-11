@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "écran",
-      "requin",
-      "coussin",
-      "requin",
-      "manuel"
+      "lueur",
+      "ceinture",
+      "prompt",
+      "feuillue",
+      "naissant"
     ],
     [
-      "méduse",
-      "sardine",
-      "pince",
-      "rideau",
-      "saumon"
+      "rivière",
+      "souple",
+      "orient",
+      "épiderme",
+      "jubilation"
     ],
     [
-      "corail",
-      "écume",
-      "crabe",
-      "marteau",
-      "table"
+      "commencement",
+      "chouette",
+      "rosée",
+      "rosé",
+      "char"
     ],
     [
-      "voisin",
-      "poisson",
-      "baleine",
-      "écume",
-      "poisson"
+      "aube",
+      "paraître",
+      "soleil",
+      "précoce",
+      "débat"
     ],
     [
-      "rivage",
-      "étagère",
-      "fusée",
-      "requin",
-      "règle"
+      "cercle",
+      "féroce",
+      "matinal",
+      "égarement",
+      "embrayage"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    1,
     3,
     4,
-    2
+    1
   ],
   "colClues": [
     3,
+    1,
     4,
     2,
-    3,
-    2
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "aurore",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       false
     ],
     [
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      true,
-      false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

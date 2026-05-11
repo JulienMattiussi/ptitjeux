@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "jambe",
-      "joue",
-      "tunnel",
-      "crayon",
-      "tête"
+      "petit",
+      "sable",
+      "truelle",
+      "minéral",
+      "localité"
     ],
     [
-      "prière",
-      "coeur",
-      "table",
-      "banquier",
-      "dent"
+      "béton",
+      "assurer",
+      "bunker",
+      "gris",
+      "marais"
     ],
     [
-      "manuel",
-      "savon",
-      "lampe",
-      "maison",
-      "épaule"
+      "sac",
+      "thorax",
+      "maçon",
+      "hématome",
+      "résistant"
     ],
     [
-      "sol",
-      "miroir",
-      "main",
-      "bouche",
-      "peau"
+      "amertume",
+      "canevas",
+      "octave",
+      "durcir",
+      "dur"
     ],
     [
-      "tournevis",
-      "lèvre",
-      "porte",
-      "enveloppe",
-      "oeil"
+      "mortier",
+      "fondation",
+      "maçonner",
+      "biscuit",
+      "mélanger"
     ]
   ],
   "rowClues": [
     3,
     2,
-    1,
     3,
-    2
+    2,
+    4
   ],
   "colClues": [
-    1,
     3,
-    1,
-    1,
-    5
+    2,
+    3,
+    3,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "ciment",
   "solution": [
     [
+      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       true
     ],
     [
       false,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       true
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

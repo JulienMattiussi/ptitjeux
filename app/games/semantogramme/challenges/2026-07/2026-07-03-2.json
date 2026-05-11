@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "ciseaux",
-      "livre",
-      "fusée",
-      "gomme",
-      "ski"
+      "piétiner",
+      "foulée",
+      "consanguin",
+      "chaussure",
+      "café"
     ],
     [
-      "football",
-      "parfum",
-      "judo",
-      "natation",
-      "rumeur"
+      "empreinte",
+      "cheville",
+      "gecko",
+      "mollet",
+      "pas"
     ],
     [
-      "chemin",
-      "danse",
-      "golf",
-      "cyclisme",
-      "golf"
+      "plante",
+      "lutte",
+      "maquillage",
+      "orteil",
+      "cadeau"
     ],
     [
-      "tournevis",
-      "prière",
-      "agenda",
-      "tennis",
-      "escalade"
+      "illusoire",
+      "enjambée",
+      "brailler",
+      "chaussette",
+      "pédestre"
     ],
     [
-      "écran",
-      "balai",
-      "chemin",
-      "course",
-      "chemin"
+      "talon",
+      "ossuaire",
+      "semelle",
+      "fumer",
+      "voûte"
     ]
   ],
   "rowClues": [
-    1,
     3,
     4,
     2,
-    1
+    3,
+    3
   ],
   "colClues": [
+    4,
+    3,
     1,
-    1,
-    2,
     4,
     3
   ],
-  "themeWord": "sport",
+  "themeWord": "pied",
   "solution": [
     [
+      true,
+      true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
-      false,
-      false,
+      true,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       true,
       false
     ],
     [
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
+      true,
       false,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

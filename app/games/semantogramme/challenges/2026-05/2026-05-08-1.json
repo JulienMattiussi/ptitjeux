@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "pincer",
-      "boa",
-      "bague",
-      "chien"
-    ],
-    [
-      "étagère",
-      "électrique",
-      "ours",
-      "poire"
-    ],
-    [
-      "régate",
-      "chat",
-      "plumeau",
-      "siamois"
-    ],
-    [
-      "éléphant",
-      "gorille",
+      "hebdomadaire",
       "kangourou",
-      "cheval"
+      "pommade",
+      "vannerie"
+    ],
+    [
+      "gorille",
+      "chien",
+      "mince",
+      "chat"
+    ],
+    [
+      "berceuse",
+      "président",
+      "cheval",
+      "ours"
+    ],
+    [
+      "sandale",
+      "portable",
+      "éléphant",
+      "nouvel"
     ]
   ],
   "rowClues": [
     1,
-    1,
-    1,
-    4
+    3,
+    2,
+    1
   ],
   "colClues": [
     1,
@@ -45,18 +45,6 @@
   "solution": [
     [
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false
@@ -64,8 +52,20 @@
     [
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 7

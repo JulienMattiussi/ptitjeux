@@ -5,39 +5,39 @@
   "height": 5,
   "words": [
     [
-      "voile",
-      "mémoire",
-      "banquier",
-      "natation",
-      "football"
+      "sombre",
+      "panthère",
+      "ébène",
+      "ironie",
+      "fabriquer"
     ],
     [
-      "boxe",
-      "cyclisme",
-      "voile",
-      "crayon",
-      "cyclisme"
+      "autruche",
+      "jais",
+      "encre",
+      "noirâtre",
+      "charbon"
     ],
     [
-      "ski",
-      "parfum",
-      "gym",
-      "voile",
-      "table"
+      "ombre",
+      "spectaculaire",
+      "foncé",
+      "obscurité",
+      "couvercle"
     ],
     [
-      "règle",
-      "basket",
-      "natation",
-      "volley",
-      "ciseaux"
+      "grippe",
+      "ténèbres",
+      "tube",
+      "pétrole",
+      "goudron"
     ],
     [
-      "caillou",
-      "golf",
-      "danse",
-      "basket",
-      "course"
+      "corbeau",
+      "écarlate",
+      "mat",
+      "plastique",
+      "duffel-coat"
     ]
   ],
   "rowClues": [
@@ -45,29 +45,29 @@
     4,
     3,
     3,
-    4
+    2
   ],
   "colClues": [
     3,
     3,
     4,
-    4,
-    3
+    3,
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "noir",
   "solution": [
     [
       true,
-      false,
-      false,
       true,
-      true
+      true,
+      false,
+      false
     ],
     [
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       true
     ],
     [
@@ -80,17 +80,17 @@
     [
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      true,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

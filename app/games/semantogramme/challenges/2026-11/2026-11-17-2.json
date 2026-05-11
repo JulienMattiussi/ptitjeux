@@ -5,60 +5,60 @@
   "height": 5,
   "words": [
     [
-      "plateau",
-      "panneau",
-      "arc-en-ciel",
-      "plateau",
-      "foudre"
+      "rustique",
+      "cuire",
+      "argile",
+      "éclairage",
+      "émail"
     ],
     [
-      "chemin",
-      "brouillard",
-      "pelle",
-      "vent",
-      "brouillard"
+      "musicien",
+      "fragile",
+      "coffre",
+      "potier",
+      "lait"
     ],
     [
-      "glace",
-      "maison",
-      "brouillard",
-      "panneau",
-      "porte"
+      "dette",
+      "moule",
+      "four",
+      "artistique",
+      "tropicale"
     ],
     [
-      "pelle",
-      "tunnel",
-      "tabouret",
-      "éclair",
-      "pluie"
+      "tuile",
+      "pot",
+      "tour",
+      "manuel",
+      "vitrine"
     ],
     [
-      "foudre",
-      "arc-en-ciel",
-      "arc-en-ciel",
-      "panier",
-      "mémoire"
+      "glaise",
+      "glaçure",
+      "capucin",
+      "atoll",
+      "modeler"
     ]
   ],
   "rowClues": [
+    4,
+    2,
     2,
     3,
-    2,
-    2,
     3
   ],
   "colClues": [
     2,
-    2,
+    4,
     3,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "poterie",
   "solution": [
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
       true
@@ -68,29 +68,29 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false
     ],
     [
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
-      true
+      true,
+      true,
+      false
     ],
     [
       true,
       true,
-      true,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

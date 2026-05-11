@@ -5,59 +5,59 @@
   "height": 5,
   "words": [
     [
-      "vert",
-      "pelle",
-      "ciseaux",
-      "vert",
-      "racine"
+      "topaze",
+      "deltoïde",
+      "pépin",
+      "filtrer",
+      "nettoyage"
     ],
     [
-      "rose",
-      "argenté",
-      "jardin",
-      "pierre",
-      "chaise"
+      "lombaire",
+      "laver",
+      "crépi",
+      "flâner",
+      "colique"
     ],
     [
-      "noir",
-      "rouge",
-      "vert",
-      "indigo",
-      "prison"
+      "urinaire",
+      "loisir",
+      "rénal",
+      "néphron",
+      "dialyse"
     ],
     [
-      "bureau",
-      "mémoire",
-      "beige",
-      "indigo",
-      "blanc"
+      "vessie",
+      "urine",
+      "opération",
+      "soigné",
+      "heure"
     ],
     [
-      "noir",
-      "orange",
-      "rideau",
-      "noir",
-      "brun"
+      "cystite",
+      "éliminer",
+      "fête",
+      "judo",
+      "urée"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     2,
     4,
-    3,
-    4
+    2,
+    3
   ],
   "colClues": [
     4,
-    3,
     2,
-    4,
-    2
+    1,
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "rein",
   "solution": [
     [
-      true,
+      false,
       false,
       false,
       true,
@@ -65,20 +65,13 @@
     ],
     [
       true,
-      true,
       false,
       false,
-      false
+      false,
+      true
     ],
     [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -88,9 +81,16 @@
       true,
       true,
       false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

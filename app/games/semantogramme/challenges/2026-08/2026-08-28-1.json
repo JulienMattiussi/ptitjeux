@@ -5,47 +5,47 @@
   "height": 4,
   "words": [
     [
-      "loup-garou",
       "frayeur",
-      "fantôme",
-      "cri"
-    ],
-    [
-      "vampire",
+      "chrysalide",
       "effroi",
-      "soja",
-      "zombie"
+      "angoisse"
     ],
     [
-      "gerboise",
-      "vote",
-      "corbeille",
-      "sang"
-    ],
-    [
-      "angoisse",
-      "cirrus",
       "cauchemar",
-      "écluse"
+      "fantôme",
+      "gourmand",
+      "compétent"
+    ],
+    [
+      "virus",
+      "vampire",
+      "sang",
+      "comprendre"
+    ],
+    [
+      "plaisanterie",
+      "zombie",
+      "cri",
+      "loup-garou"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    1,
-    2
-  ],
-  "colClues": [
     3,
     2,
     2,
     3
   ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
   "themeWord": "horreur",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       true
     ],
@@ -53,19 +53,19 @@
       true,
       true,
       false,
-      true
+      false
     ],
     [
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 10

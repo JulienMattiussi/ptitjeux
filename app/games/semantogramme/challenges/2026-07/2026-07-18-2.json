@@ -5,64 +5,57 @@
   "height": 5,
   "words": [
     [
-      "table",
-      "orage",
-      "rosée",
-      "tapis",
-      "foudre"
+      "muscade",
+      "cartonnage",
+      "plier",
+      "genou",
+      "brique"
     ],
     [
-      "pelle",
-      "plafond",
-      "glace",
-      "tonnerre",
-      "panier"
+      "cheville",
+      "sauter",
+      "alvéole",
+      "médaille",
+      "patte"
     ],
     [
-      "coussin",
-      "balai",
-      "balai",
-      "plateau",
-      "tempête"
+      "mollet",
+      "pied",
+      "fessier",
+      "barque",
+      "fémur"
     ],
     [
-      "arc-en-ciel",
-      "pince",
-      "arc-en-ciel",
-      "verglas",
-      "soleil"
+      "galaxie",
+      "char",
+      "tibia",
+      "volant",
+      "enjambée"
     ],
     [
-      "mur",
-      "rosée",
-      "brouillard",
-      "plafond",
-      "soleil"
+      "courir",
+      "pluton",
+      "gambade",
+      "gambette",
+      "tari"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
+    3,
     4,
+    2,
     3
   ],
   "colClues": [
-    1,
+    3,
     2,
     4,
     2,
-    4
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "jambe",
   "solution": [
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
     [
       false,
       false,
@@ -71,9 +64,23 @@
       false
     ],
     [
+      true,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true
     ],
@@ -82,15 +89,8 @@
       false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

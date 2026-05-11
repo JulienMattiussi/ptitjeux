@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "lumière",
-      "lampadaire",
-      "ampoule",
-      "lanterne"
+      "cheminer",
+      "lanterne",
+      "magenta",
+      "lampadaire"
     ],
     [
-      "lustre",
-      "vitrine",
-      "escarpin",
-      "praliné"
-    ],
-    [
-      "pétiole",
-      "dégât",
-      "abat-jour",
-      "vanille"
-    ],
-    [
-      "cerise",
       "veilleuse",
+      "abat-jour",
       "bougie",
-      "remorque"
+      "mystère"
+    ],
+    [
+      "ampoule",
+      "lustre",
+      "imam",
+      "arranger"
+    ],
+    [
+      "pulmonaire",
+      "dessert",
+      "roquette",
+      "lumière"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    1,
-    2
+    2,
+    3,
+    2,
+    1
   ],
   "colClues": [
     2,
-    2,
     3,
-    1
+    1,
+    2
   ],
   "themeWord": "lampe",
   "solution": [
     [
+      false,
       true,
-      true,
-      true,
+      false,
       true
     ],
     [
       true,
-      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
     [
       false,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 8

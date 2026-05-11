@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "épice",
-      "mémoire",
-      "plat",
-      "frigo",
-      "miroir"
+      "fameux",
+      "fondre",
+      "livraison",
+      "thermos",
+      "chauffer"
     ],
     [
-      "carnet",
-      "peigne",
-      "règle",
-      "balai",
-      "spatule"
+      "américain",
+      "soleil",
+      "flamme",
+      "four",
+      "canicule"
     ],
     [
-      "tournevis",
-      "cuillère",
-      "verre",
-      "lueur",
-      "étoile"
+      "réchauffer",
+      "radiateur",
+      "brûler",
+      "tentacule",
+      "cadette"
     ],
     [
-      "fourchette",
-      "balai",
-      "farine",
-      "spatule",
-      "épice"
+      "audacieux",
+      "fissure",
+      "fournaise",
+      "chaleur",
+      "joyeux"
     ],
     [
-      "farine",
-      "casserole",
-      "casserole",
-      "silence",
-      "balai"
+      "pureté",
+      "bouillir",
+      "cuire",
+      "brûlant",
+      "aisselle"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    2,
     4,
+    3,
+    2,
     3
   ],
   "colClues": [
-    3,
-    2,
+    1,
     4,
-    2,
+    4,
+    4,
     2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "chaud",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true
     ],
     [
       false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
       true
@@ -89,8 +75,22 @@
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

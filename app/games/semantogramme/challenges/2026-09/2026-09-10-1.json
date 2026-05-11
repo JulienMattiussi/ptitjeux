@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "gui",
-      "yaourt",
-      "étoile",
-      "radis"
+      "bûche",
+      "grotte",
+      "brun",
+      "sapin"
     ],
     [
-      "haute",
-      "graine",
-      "lanterne",
-      "cantique"
-    ],
-    [
-      "lutin",
-      "navire",
       "guirlande",
-      "bûche"
+      "fente",
+      "cantique",
+      "pivoter"
     ],
     [
-      "parler",
-      "sapin",
-      "pirouette",
-      "houx"
+      "duel",
+      "lutin",
+      "étoile",
+      "gui"
+    ],
+    [
+      "natte",
+      "houx",
+      "marchandise",
+      "familial"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    2,
     3,
-    2
+    1
   ],
   "colClues": [
     2,
-    1,
     2,
-    3
+    2,
+    2
   ],
   "themeWord": "noël",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
     [
       true,
       false,
@@ -51,13 +57,7 @@
     ],
     [
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
       true,
       true
     ],
@@ -65,7 +65,7 @@
       false,
       true,
       false,
-      true
+      false
     ]
   ],
   "parMoves": 8

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vis",
-      "castor",
-      "koala",
-      "panda",
-      "belette"
+      "frotter",
+      "briquer",
+      "losange",
+      "régurgiter",
+      "rectiligne"
     ],
     [
-      "rumeur",
-      "table",
-      "fusée",
-      "étoile",
-      "vache"
+      "quadrillage",
+      "tir",
+      "transmettre",
+      "carreau",
+      "orthogonal"
     ],
     [
-      "carnet",
-      "lapin",
-      "lion",
-      "girafe",
-      "balai"
+      "angle",
+      "trapèze",
+      "national",
+      "fouler",
+      "échiquier"
     ],
     [
-      "panneau",
-      "cadre",
-      "tunnel",
-      "écran",
-      "vache"
+      "damier",
+      "case",
+      "canicule",
+      "eau",
+      "résultat"
     ],
     [
-      "loup",
-      "serrure",
-      "chemin",
-      "carnet",
-      "silence"
+      "côté",
+      "sombrero",
+      "pavé",
+      "tuile",
+      "documenter"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    3,
-    1,
-    1
-  ],
-  "colClues": [
-    1,
     2,
+    3,
     2,
     2,
     3
   ],
-  "themeWord": "animal",
+  "colClues": [
+    4,
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "carré",
   "solution": [
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      false,
+      true,
       false,
       true
     ],
     [
+      true,
+      false,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      false,
+      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

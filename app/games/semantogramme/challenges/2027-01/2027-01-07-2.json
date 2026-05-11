@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "tigre",
-      "zèbre",
-      "lapin",
-      "parfum",
-      "miroir"
+      "impeccable",
+      "tournebroche",
+      "liaisonner",
+      "pilier",
+      "neutron"
     ],
     [
-      "tigre",
-      "tunnel",
-      "prison",
-      "mur",
-      "ombre"
+      "espalier",
+      "noyau",
+      "préparer",
+      "composer",
+      "liaison"
     ],
     [
-      "castor",
-      "caillou",
-      "horloge",
-      "devoir",
-      "marteau"
+      "climat",
+      "classique",
+      "mystérieuse",
+      "microscopique",
+      "ébauchoir"
     ],
     [
-      "lapin",
-      "racine",
-      "belette",
-      "chien",
-      "koala"
+      "instable",
+      "documenter",
+      "radioactif",
+      "pendentif",
+      "molécule"
     ],
     [
-      "coussin",
-      "panneau",
-      "belette",
-      "belette",
-      "zèbre"
+      "sapin",
+      "élémentaire",
+      "fondamental",
+      "menuiserie",
+      "lier"
     ]
   ],
   "rowClues": [
+    2,
     3,
     1,
-    1,
-    4,
+    3,
     3
   ],
   "colClues": [
-    4,
     1,
+    2,
     3,
     2,
-    2
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "atome",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
-      false
+      true
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
+      false,
       true,
       true
     ],
     [
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false,
       true
     ]
   ],

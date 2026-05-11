@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "mémoire",
-      "natation",
-      "gomme",
-      "écran",
-      "chemin"
+      "cadette",
+      "enfant",
+      "aînée",
+      "cellophane",
+      "famille"
     ],
     [
-      "étoile",
-      "serrure",
-      "danse",
-      "ski",
-      "volley"
+      "sourire",
+      "filiation",
+      "porter",
+      "parent",
+      "manque"
     ],
     [
-      "marathon",
-      "escalade",
-      "rugby",
-      "pelle",
-      "natation"
+      "tenter",
+      "descendance",
+      "sucette",
+      "demoiselle",
+      "progéniture"
     ],
     [
-      "maison",
-      "tennis",
-      "rugby",
-      "brosse",
-      "tennis"
+      "attaquant",
+      "malle",
+      "héritière",
+      "père",
+      "piquant"
     ],
     [
-      "golf",
-      "horloge",
-      "basket",
-      "sol",
-      "mémoire"
+      "éduquer",
+      "ralentir",
+      "filial",
+      "ouistiti",
+      "mère"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     4,
     3,
-    2
+    3,
+    2,
+    3
   ],
   "colClues": [
     2,
     3,
     4,
-    1,
+    3,
     3
   ],
-  "themeWord": "sport",
+  "themeWord": "fille",
   "solution": [
     [
-      false,
+      true,
+      true,
       true,
       false,
+      true
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
-      false,
       true,
+      false,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

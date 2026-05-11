@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "ombre",
-      "mûre",
-      "melon",
-      "peigne",
-      "kiwi"
+      "plomb",
+      "lugubre",
+      "estragon",
+      "sinistre",
+      "cacher"
     ],
     [
-      "prune",
-      "pêche",
-      "ananas",
-      "citron",
-      "clé"
+      "caracal",
+      "montre",
+      "maussade",
+      "chagrin",
+      "pleurer"
     ],
     [
-      "citron",
-      "abricot",
-      "sol",
-      "prune",
-      "abricot"
+      "trappiste",
+      "douleur",
+      "flocon",
+      "peine",
+      "allongé"
     ],
     [
-      "mûre",
-      "agenda",
-      "crayon",
-      "clé",
-      "plafond"
+      "piano",
+      "ectoplasme",
+      "exceptionnel",
+      "ourlet",
+      "mélancolique"
     ],
     [
-      "cadre",
-      "chaise",
-      "cassis",
-      "pierre",
-      "mur"
+      "morosité",
+      "couloir",
+      "billet",
+      "sanglot",
+      "sangloter"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    4,
-    1,
-    1
-  ],
-  "colClues": [
-    3,
-    3,
+    2,
     3,
     2,
-    2
+    1,
+    3
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    1,
+    2,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "triste",
   "solution": [
     [
       false,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
+      false,
       false,
       true,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

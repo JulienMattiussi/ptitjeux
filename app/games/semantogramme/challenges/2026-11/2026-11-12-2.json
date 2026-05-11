@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "chemin",
-      "doigt",
-      "pied",
-      "peau",
-      "pied"
+      "caméra",
+      "endurance",
+      "élan",
+      "olympique",
+      "mythique"
     ],
     [
-      "ongle",
-      "devoir",
-      "peigne",
-      "peau",
-      "pied"
+      "quadrillage",
+      "bouillon",
+      "épuisant",
+      "gambette",
+      "expression"
     ],
     [
-      "horloge",
-      "tête",
-      "rideau",
-      "ciseaux",
-      "tapis"
+      "linéaire",
+      "moite",
+      "médaille",
+      "athlète",
+      "finir"
     ],
     [
-      "genou",
-      "vis",
-      "coussin",
-      "lueur",
-      "timbre"
+      "pupille",
+      "déchiffrer",
+      "dossard",
+      "récupérer",
+      "foulée"
     ],
     [
-      "oeil",
-      "genou",
-      "pied",
-      "globe",
-      "coeur"
+      "départ",
+      "courir",
+      "arracher",
+      "long",
+      "kilomètre"
     ]
   ],
   "rowClues": [
-    4,
     3,
     1,
-    1,
+    3,
+    3,
     4
   ],
   "colClues": [
-    3,
-    3,
+    1,
     2,
-    2,
-    3
+    3,
+    4,
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "marathon",
   "solution": [
     [
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
       true
     ],
     [
       false,
-      true,
       false,
+      true,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
       false,
       false,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     [
       true,
       true,
-      true,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

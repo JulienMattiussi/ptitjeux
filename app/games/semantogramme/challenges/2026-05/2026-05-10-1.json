@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "hurler",
-      "processeur",
-      "marmotte",
-      "gerboise"
-    ],
-    [
-      "écureuil",
       "souris",
-      "castor",
+      "cantique",
+      "leçon",
       "lapin"
     ],
     [
-      "cobaye",
-      "égoïne",
-      "mulot",
-      "pas"
+      "castor",
+      "cassant",
+      "curcuma",
+      "touche"
     ],
     [
-      "sablon",
+      "écureuil",
+      "marmotte",
+      "gel",
+      "cobaye"
+    ],
+    [
+      "houle",
       "hamster",
-      "bambou",
-      "permanente"
+      "mulot",
+      "gerboise"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    2,
-    1
+    1,
+    3,
+    3
   ],
   "colClues": [
-    2,
-    2,
     3,
-    2
+    2,
+    1,
+    3
   ],
   "themeWord": "rongeur",
   "solution": [
     [
+      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
     ],
     [
       false,
       true,
-      false,
-      false
+      true,
+      true
     ]
   ],
   "parMoves": 9

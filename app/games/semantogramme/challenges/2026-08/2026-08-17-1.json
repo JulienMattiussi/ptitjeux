@@ -5,60 +5,60 @@
   "height": 4,
   "words": [
     [
-      "cocotte",
       "bouillon",
       "bisque",
-      "ongle"
+      "sirop",
+      "minestrone"
     ],
     [
-      "colophane",
-      "oignon",
+      "figure",
+      "guérir",
+      "cocotte",
+      "chouette"
+    ],
+    [
       "gaspacho",
-      "haïku"
-    ],
-    [
-      "louche",
-      "intérêt",
-      "tribune",
-      "tigre"
-    ],
-    [
-      "minestrone",
-      "amortisseur",
+      "salin",
       "légume",
-      "gravité"
+      "nation"
+    ],
+    [
+      "oignon",
+      "incantation",
+      "louche",
+      "librairie"
     ]
   ],
   "rowClues": [
     3,
-    2,
     1,
+    2,
     2
   ],
   "colClues": [
     3,
-    2,
+    1,
     3,
-    0
+    1
   ],
   "themeWord": "soupe",
   "solution": [
     [
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false
     ],
     [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      false,
+      true,
       false
     ],
     [

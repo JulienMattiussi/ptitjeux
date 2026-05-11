@@ -5,69 +5,76 @@
   "height": 5,
   "words": [
     [
-      "kiwi",
-      "silence",
-      "pétale",
-      "bureau",
-      "tabouret"
+      "chef",
+      "élysée",
+      "jumelle",
+      "détremper",
+      "gouverner"
     ],
     [
-      "ananas",
-      "silence",
-      "prune",
-      "mûre",
-      "fraise"
+      "république",
+      "pouvoir",
+      "gouvernement",
+      "sépale",
+      "rafraîchissement"
     ],
     [
-      "mur",
-      "vis",
-      "tabouret",
-      "banane",
-      "panneau"
+      "plaisanterie",
+      "azur",
+      "banqueter",
+      "fraisier",
+      "mandat"
     ],
     [
-      "tasse",
-      "fraise",
-      "abricot",
-      "carnet",
-      "ananas"
+      "aiguisoir",
+      "tranquillité",
+      "tissé",
+      "national",
+      "gouda"
     ],
     [
-      "panneau",
-      "framboise",
-      "raisin",
-      "enveloppe",
-      "pêche"
+      "tatouage",
+      "fournir",
+      "élection",
+      "premier",
+      "discours"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    1,
     3,
+    3,
+    1,
+    1,
     3
   ],
   "colClues": [
     2,
     2,
-    3,
+    2,
     2,
     3
   ],
-  "themeWord": "fruit",
+  "themeWord": "président",
   "solution": [
     [
       true,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false
     ],
     [
-      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -79,18 +86,11 @@
     ],
     [
       false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
       true,
-      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

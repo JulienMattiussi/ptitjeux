@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "rive",
-      "dahlia",
-      "mâchoire",
-      "nageoire"
+      "nageoire",
+      "museau",
+      "délivrance",
+      "mâchoire"
     ],
     [
-      "mûre",
-      "songe",
+      "dent",
+      "ouistiti",
       "océan",
-      "museau"
+      "assécher"
     ],
     [
-      "déguisement",
-      "vacances",
-      "canard",
-      "dent"
-    ],
-    [
-      "rhume",
       "chasse",
-      "aneth",
-      "aileron"
+      "tumulte",
+      "droit",
+      "battre"
+    ],
+    [
+      "acquérir",
+      "renne",
+      "aileron",
+      "cirque"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     1,
-    2
+    1
   ],
   "colClues": [
-    0,
+    3,
     1,
     2,
-    4
+    1
   ],
   "themeWord": "requin",
   "solution": [
     [
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
       false,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ],
     [
       false,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 7

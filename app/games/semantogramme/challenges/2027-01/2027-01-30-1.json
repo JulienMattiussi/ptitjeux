@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "bleu",
-      "indigo",
-      "prisme",
-      "spectre"
+      "flan",
+      "violet",
+      "annoncer",
+      "pourchasser"
     ],
     [
-      "reprise",
+      "professeur",
       "orange",
+      "spectre",
+      "couleur"
+    ],
+    [
+      "jaune",
+      "sinistre",
+      "bleu",
+      "collation"
+    ],
+    [
+      "prisme",
       "vert",
-      "violet"
-    ],
-    [
-      "ouvrière",
-      "synagogue",
-      "léopard",
-      "pellicule"
-    ],
-    [
-      "prologue",
-      "taire",
-      "couleur",
-      "jaune"
+      "indigo",
+      "tuile"
     ]
   ],
   "rowClues": [
-    4,
+    1,
     3,
-    0,
-    2
+    2,
+    3
   ],
   "colClues": [
-    1,
     2,
     3,
-    3
+    3,
+    1
   ],
   "themeWord": "arc-en-ciel",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       false
     ],
     [
       false,
-      false,
+      true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 9

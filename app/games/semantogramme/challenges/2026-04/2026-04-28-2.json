@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tasse",
-      "parfum",
-      "volley",
-      "pierre",
-      "prison"
+      "oeuvre",
+      "invention",
+      "artiste",
+      "innover",
+      "nova"
     ],
     [
-      "basket",
-      "serrure",
-      "gym",
-      "gym",
-      "mémoire"
+      "pétiole",
+      "fabriquer",
+      "tortue",
+      "projet",
+      "imaginer"
     ],
     [
-      "danse",
-      "voisin",
-      "marathon",
-      "maison",
-      "bureau"
+      "créativité",
+      "stellaire",
+      "création",
+      "idée",
+      "bonbon"
     ],
     [
-      "pétale",
-      "marteau",
-      "tournevis",
-      "volley",
-      "volley"
+      "concevoir",
+      "imagination",
+      "effleurer",
+      "créateur",
+      "prière"
     ],
     [
-      "parfum",
-      "course",
-      "parfum",
-      "golf",
-      "voile"
+      "lier",
+      "caramel",
+      "composer",
+      "escarpin",
+      "engendrer"
     ]
   ],
   "rowClues": [
-    1,
+    4,
     3,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
-    2,
-    1,
     3,
     3,
     2
   ],
-  "themeWord": "sport",
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "créer",
   "solution": [
     [
-      false,
-      false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
       true,
       true,
       false
     ],
     [
-      true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

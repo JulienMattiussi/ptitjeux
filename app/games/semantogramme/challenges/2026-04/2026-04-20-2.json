@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "prison",
-      "rouge",
-      "maison",
-      "mauve",
-      "brosse"
+      "plante",
+      "désherber",
+      "carnaval",
+      "bandelette",
+      "pollution"
     ],
     [
-      "caillou",
-      "crayon",
-      "blanc",
-      "violet",
-      "doré"
+      "pousser",
+      "graine",
+      "gravir",
+      "planter",
+      "récolter"
     ],
     [
-      "beige",
-      "pétale",
-      "jaune",
-      "carnet",
-      "serrure"
+      "politique",
+      "écossais",
+      "fleur",
+      "cambrer",
+      "bêche"
     ],
     [
-      "ciseaux",
-      "noir",
-      "peigne",
-      "gris",
-      "tapis"
+      "gracieux",
+      "mairie",
+      "rôle",
+      "arrosoir",
+      "arroser"
     ],
     [
-      "horloge",
-      "gomme",
-      "orange",
-      "racine",
-      "devoir"
+      "guignol",
+      "jardin",
+      "chagrin",
+      "toque",
+      "tailler"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    4,
     2,
     2,
-    1
+    2
   ],
   "colClues": [
-    1,
     2,
     3,
-    3,
-    1
+    1,
+    2,
+    4
   ],
-  "themeWord": "couleur",
+  "themeWord": "jardiner",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
-      false
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
     ],
     [
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      false,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

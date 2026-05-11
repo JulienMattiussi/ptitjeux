@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "ski",
-      "cuisinier",
-      "serveur",
-      "couvert"
-    ],
-    [
-      "aboutir",
       "plat",
-      "vodka",
-      "apéritif"
+      "apéritif",
+      "crapaud",
+      "dessert"
     ],
     [
+      "culotte",
+      "tantine",
       "table",
-      "carte",
-      "tracteur",
-      "kangourou"
+      "menu"
     ],
     [
-      "dessert",
-      "espadrille",
-      "caricature",
-      "menu"
+      "réglisse",
+      "carte",
+      "pneu",
+      "serveur"
+    ],
+    [
+      "couvert",
+      "cuisinier",
+      "fait main",
+      "peine"
     ]
   ],
   "rowClues": [
@@ -44,8 +44,14 @@
   "themeWord": "restaurant",
   "solution": [
     [
-      false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true
     ],
@@ -60,12 +66,6 @@
       true,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 9

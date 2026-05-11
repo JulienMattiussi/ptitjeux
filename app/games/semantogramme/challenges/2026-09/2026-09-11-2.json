@@ -5,79 +5,58 @@
   "height": 5,
   "words": [
     [
+      "père",
+      "crépusculaire",
       "soleil",
-      "tasse",
-      "neige",
-      "manuel",
-      "tempête"
+      "noix",
+      "oscar"
     ],
     [
-      "éclair",
-      "tempête",
-      "agenda",
-      "écran",
-      "gel"
+      "épier",
+      "levant",
+      "satellite",
+      "aube",
+      "petit-déjeuner"
     ],
     [
-      "pierre",
-      "banquier",
-      "foudre",
-      "éclair",
-      "orage"
+      "léopard",
+      "cliché",
+      "oiseau",
+      "café",
+      "se lever"
     ],
     [
-      "lampe",
-      "neige",
-      "verglas",
-      "lampe",
-      "carnet"
+      "jetée",
+      "hydrogène",
+      "hêtre",
+      "aurore",
+      "matinal"
     ],
     [
-      "chaise",
-      "glace",
-      "voisin",
-      "tonnerre",
-      "tasse"
+      "éveiller",
+      "réveil",
+      "rosée",
+      "mangue",
+      "matutinal"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     3,
     3,
     2,
-    2
+    4
   ],
   "colClues": [
-    2,
+    1,
     3,
     3,
-    2,
-    3
+    3,
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "matin",
   "solution": [
     [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       true,
       true,
@@ -89,8 +68,29 @@
       true,
       false,
       true,
-      false
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

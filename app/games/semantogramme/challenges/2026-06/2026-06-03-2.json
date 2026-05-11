@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "farine",
-      "plateau",
-      "frigo",
+      "malpropre",
+      "fan",
+      "ventricule",
+      "salir",
+      "prisme"
+    ],
+    [
+      "graisse",
+      "maculer",
+      "crasse",
+      "scintiller",
+      "scénario"
+    ],
+    [
+      "détritus",
+      "muscler",
+      "crotté",
+      "souillure",
+      "salissure"
+    ],
+    [
+      "ceinture",
+      "lisser",
+      "tacher",
+      "souiller",
+      "dégoûtant"
+    ],
+    [
+      "aérosol",
+      "ordure",
       "mur",
-      "règle"
-    ],
-    [
-      "verre",
-      "panier",
-      "pince",
-      "ciseaux",
-      "évier"
-    ],
-    [
-      "épice",
-      "spatule",
-      "étagère",
-      "pince",
-      "plat"
-    ],
-    [
-      "serrure",
-      "casserole",
-      "spatule",
-      "porte",
-      "serrure"
-    ],
-    [
-      "fourchette",
-      "recette",
-      "cadre",
-      "assiette",
-      "carnet"
+      "poussière",
+      "boue"
     ]
   ],
   "rowClues": [
     2,
-    2,
     3,
-    2,
+    4,
+    3,
     3
   ],
   "colClues": [
-    4,
     3,
     2,
-    1,
-    2
+    3,
+    4,
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "sale",
   "solution": [
     [
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false
@@ -66,31 +73,24 @@
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
-      true,
-      true,
       false,
       false,
+      true,
+      true,
       true
     ],
     [
       false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

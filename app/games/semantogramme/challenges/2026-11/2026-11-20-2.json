@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "écureuil",
-      "chien",
-      "brosse",
-      "brosse",
-      "chat"
+      "carrelage",
+      "mère",
+      "denture",
+      "antiquité",
+      "saler"
     ],
     [
-      "maison",
-      "miroir",
-      "mouton",
-      "prison",
-      "castor"
+      "délégué",
+      "antique",
+      "marbre",
+      "oeufrier",
+      "se lever"
     ],
     [
-      "gomme",
-      "écureuil",
-      "renard",
-      "pétale",
-      "girafe"
+      "tesselle",
+      "coloré",
+      "briquer",
+      "hercule",
+      "mercure"
     ],
     [
-      "prison",
-      "castor",
-      "castor",
-      "tigre",
-      "cadre"
+      "assembler",
+      "romain",
+      "beurre",
+      "lien",
+      "motif"
     ],
     [
-      "vache",
-      "pince",
-      "banquier",
-      "panda",
-      "sol"
+      "composer",
+      "décoratif",
+      "bronche",
+      "géométrique",
+      "raffut"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    2,
     2,
     3,
-    3,
-    2
-  ],
-  "colClues": [
-    2,
-    3,
-    3,
-    2,
     3
   ],
-  "themeWord": "animal",
+  "colClues": [
+    4,
+    4,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "mosaïque",
   "solution": [
     [
       true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       false
     ],
     [
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

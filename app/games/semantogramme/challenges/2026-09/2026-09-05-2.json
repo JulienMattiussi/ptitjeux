@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "brosse",
-      "lapin",
-      "lynx",
-      "enveloppe",
-      "souris"
+      "délectable",
+      "marraine",
+      "renifler",
+      "navigation",
+      "lin"
     ],
     [
-      "tunnel",
-      "tunnel",
-      "cheval",
-      "castor",
-      "belette"
+      "tracteur",
+      "gliss",
+      "cousinage",
+      "parent",
+      "margelle"
     ],
     [
-      "carnet",
-      "lueur",
-      "plafond",
-      "castor",
-      "lynx"
+      "belle-soeur",
+      "nièce",
+      "visiter",
+      "tasse",
+      "oncle"
     ],
     [
-      "lion",
-      "ombre",
-      "caillou",
-      "vache",
-      "chaise"
+      "neveu",
+      "gâter",
+      "mère",
+      "rail",
+      "tatie"
     ],
     [
-      "sol",
-      "miroir",
-      "castor",
-      "racine",
-      "rumeur"
+      "grand-tante",
+      "sommaire",
+      "collage",
+      "vitrine",
+      "glaçure"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    1,
     2,
-    2,
+    4,
+    4,
     1
   ],
   "colClues": [
-    1,
-    1,
     3,
     3,
-    3
+    3,
+    1,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "tante",
   "solution": [
     [
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false
     ],
     [
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

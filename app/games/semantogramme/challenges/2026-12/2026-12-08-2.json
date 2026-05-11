@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "devoir",
-      "arc-en-ciel",
-      "balai",
-      "chaise",
-      "table"
+      "écho",
+      "abricot",
+      "bourse",
+      "tour",
+      "lumineux"
     ],
     [
-      "soleil",
-      "chemin",
-      "glace",
-      "tonnerre",
-      "prière"
+      "imprimable",
+      "côte",
+      "fraisier",
+      "côtier",
+      "slalom"
     ],
     [
-      "arc-en-ciel",
-      "globe",
-      "caillou",
-      "devoir",
-      "brouillard"
+      "isolé",
+      "tempo",
+      "navire",
+      "feu",
+      "serrer"
     ],
     [
-      "tonnerre",
-      "arc-en-ciel",
-      "brouillard",
-      "enveloppe",
-      "mémoire"
+      "éclairer",
+      "mer",
+      "plombier",
+      "igloo",
+      "falaise"
     ],
     [
-      "savon",
-      "glace",
-      "foudre",
-      "panier",
-      "livre"
+      "maritime",
+      "imagination",
+      "lumière",
+      "gardien",
+      "guider"
     ]
   ],
   "rowClues": [
-    1,
-    3,
+    2,
     2,
     3,
-    2
+    3,
+    4
   ],
   "colClues": [
     3,
-    3,
-    3,
-    1,
-    1
+    2,
+    2,
+    4,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "phare",
   "solution": [
     [
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -72,25 +79,18 @@
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tasse",
-      "souris",
-      "carnet",
-      "renard",
-      "clé"
+      "sapajou",
+      "ballon",
+      "cendre",
+      "moderne",
+      "extrême"
     ],
     [
-      "plafond",
-      "girafe",
-      "chat",
-      "lynx",
-      "castor"
+      "brûler",
+      "analytique",
+      "rigide",
+      "résurrection",
+      "coton"
     ],
     [
-      "enveloppe",
-      "table",
-      "lynx",
-      "vis",
-      "règle"
+      "éternité",
+      "renaître",
+      "feu",
+      "piétiner",
+      "casque"
     ],
     [
-      "zèbre",
-      "chemin",
-      "porte",
-      "prière",
-      "maison"
+      "casquette",
+      "aile",
+      "flamboyant",
+      "écusson",
+      "majestueux"
     ],
     [
-      "tigre",
-      "tunnel",
-      "lynx",
-      "porte",
-      "étoile"
+      "album",
+      "renaissance",
+      "musée",
+      "flamme",
+      "rouge"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    4,
-    1,
-    1,
-    2
+    3,
+    3,
+    3
   ],
   "colClues": [
     2,
-    2,
+    3,
     3,
     2,
-    1
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "phénix",
   "solution": [
     [
       false,
-      true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false
     ],
     [
       false,
       true,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

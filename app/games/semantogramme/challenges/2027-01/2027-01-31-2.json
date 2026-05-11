@@ -5,70 +5,63 @@
   "height": 5,
   "words": [
     [
-      "spatule",
-      "frigo",
-      "globe",
-      "casserole",
-      "cuillère"
+      "arracher",
+      "perle",
+      "liège",
+      "cambium",
+      "tronc"
     ],
     [
-      "plat",
-      "étagère",
-      "plat",
-      "recette",
-      "panneau"
+      "écusson",
+      "parapluie",
+      "cour",
+      "cannelle",
+      "apprendre"
     ],
     [
-      "ciseaux",
-      "horloge",
-      "banquier",
-      "tablier",
-      "coussin"
+      "bois",
+      "photographe",
+      "protectrice",
+      "fourmilière",
+      "craquelée"
     ],
     [
-      "mémoire",
-      "marteau",
-      "four",
-      "tunnel",
-      "farine"
+      "cendre",
+      "protéger",
+      "voyageur",
+      "rugueuse",
+      "gril"
     ],
     [
-      "four",
-      "tournevis",
-      "recette",
-      "tunnel",
-      "tablier"
+      "rugosité",
+      "coq",
+      "fibreuse",
+      "arbre",
+      "épaisse"
     ]
   ],
   "rowClues": [
     4,
-    3,
     1,
-    2,
-    3
+    3,
+    3,
+    4
   ],
   "colClues": [
-    3,
+    4,
     1,
     3,
-    3,
+    4,
     3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "écorce",
   "solution": [
     [
       true,
-      true,
       false,
+      true,
       true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
     ],
     [
       false,
@@ -78,7 +71,7 @@
       false
     ],
     [
-      false,
+      true,
       false,
       true,
       false,
@@ -86,11 +79,18 @@
     ],
     [
       true,
-      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

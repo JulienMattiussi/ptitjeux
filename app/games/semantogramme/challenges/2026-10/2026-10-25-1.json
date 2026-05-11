@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
+      "vis",
+      "député",
+      "marteau",
+      "rénovation"
+    ],
+    [
+      "longer",
       "atelier",
-      "havresac",
-      "incantation",
-      "soudain"
+      "mois",
+      "perceuse"
+    ],
+    [
+      "apiculteur",
+      "scintiller",
+      "scie",
+      "nectar"
     ],
     [
       "planche",
-      "rénovation",
-      "miel",
-      "amarre"
-    ],
-    [
-      "shaker",
-      "débit",
-      "marteau",
-      "vis"
-    ],
-    [
-      "horloge",
-      "verglas",
-      "scie",
-      "perceuse"
+      "vinaigre",
+      "téter",
+      "gibier"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     1,
-    2,
-    2,
-    2
+    1
   ],
   "colClues": [
     2,
@@ -46,26 +46,26 @@
     [
       true,
       false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false
+      true
     ],
     [
       false,
-      false,
       true,
+      false,
       true
     ],
     [
       false,
       false,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 7

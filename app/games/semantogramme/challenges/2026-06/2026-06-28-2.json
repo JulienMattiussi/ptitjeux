@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "livre",
-      "pétale",
-      "verglas",
-      "nuage",
-      "étoile"
+      "glissade",
+      "rancune",
+      "malveillant",
+      "mosaïque",
+      "insulter"
     ],
     [
-      "enveloppe",
-      "ombre",
-      "panier",
-      "glace",
-      "soleil"
+      "odieux",
+      "insulte",
+      "manche",
+      "coup",
+      "menace"
     ],
     [
-      "coussin",
-      "pierre",
-      "tabouret",
-      "éclair",
-      "brouillard"
+      "détester",
+      "sarcasme",
+      "spectral",
+      "hanter",
+      "magma"
     ],
     [
-      "peigne",
-      "vent",
-      "pluie",
-      "neige",
-      "clé"
+      "haine",
+      "navire",
+      "malveillance",
+      "cruel",
+      "cruauté"
     ],
     [
-      "tempête",
-      "globe",
-      "éclair",
-      "banquier",
-      "vent"
+      "trou",
+      "uppercut",
+      "frapper",
+      "partir",
+      "gouda"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    3,
-    3
-  ],
-  "colClues": [
-    1,
-    1,
     3,
     4,
+    2,
+    4,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "méchant",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
-      true,
-      true,
-      false
+      true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
       true,
-      false,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

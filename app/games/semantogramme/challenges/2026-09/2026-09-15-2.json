@@ -5,67 +5,60 @@
   "height": 5,
   "words": [
     [
-      "savon",
-      "devoir",
-      "savon",
-      "danse",
-      "mémoire"
+      "temps",
+      "télescope",
+      "indiquer",
+      "horloge",
+      "rudimentaire"
     ],
     [
-      "coussin",
-      "danse",
-      "golf",
-      "escalade",
-      "cadre"
+      "tardif",
+      "minute",
+      "aiguillée",
+      "elliptique",
+      "cadran"
     ],
     [
-      "cyclisme",
-      "escalade",
-      "escalade",
-      "savon",
-      "football"
+      "fiesta",
+      "sonner",
+      "obscure",
+      "poulet",
+      "temporel"
     ],
     [
-      "vis",
-      "voile",
-      "étagère",
-      "course",
-      "panneau"
+      "ponctuel",
+      "librairie",
+      "montre",
+      "aiguille",
+      "compter"
     ],
     [
-      "marathon",
-      "volley",
-      "danse",
-      "voile",
-      "tunnel"
+      "précis",
+      "seconde",
+      "féliciter",
+      "jour",
+      "engloutir"
     ]
   ],
   "rowClues": [
-    1,
     3,
-    4,
+    3,
     2,
-    4
+    4,
+    3
   ],
   "colClues": [
-    2,
     4,
     3,
-    4,
-    1
+    2,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "heure",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
       false,
-      true,
       true,
       true,
       false
@@ -73,7 +66,7 @@
     [
       true,
       true,
-      true,
+      false,
       false,
       true
     ],
@@ -81,16 +74,23 @@
       false,
       true,
       false,
+      false,
+      true
+    ],
+    [
       true,
-      false
+      false,
+      true,
+      true,
+      true
     ],
     [
       true,
       true,
-      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

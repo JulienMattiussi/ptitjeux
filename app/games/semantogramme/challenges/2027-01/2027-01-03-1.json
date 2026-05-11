@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
+      "enjoliveur",
+      "uni",
       "caoutchouc",
-      "jante",
-      "voiture",
-      "cascade"
-    ],
-    [
-      "havresac",
-      "refuge",
-      "chambre",
-      "enjoliveur"
-    ],
-    [
-      "moyeu",
-      "rayon",
-      "vote",
       "crevaison"
     ],
     [
-      "anaconda",
-      "pépite",
+      "voter",
+      "vélo",
+      "moyeu",
+      "neige"
+    ],
+    [
+      "chambre",
+      "visa",
+      "virus",
+      "rayon"
+    ],
+    [
+      "parodie",
       "pneu",
-      "vélo"
+      "voiture",
+      "jante"
     ]
   ],
   "rowClues": [
     3,
     2,
-    3,
-    2
+    2,
+    3
   ],
   "colClues": [
     2,
@@ -45,25 +45,25 @@
   "solution": [
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false
     ],
     [
+      true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       true
     ]

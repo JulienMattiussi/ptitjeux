@@ -5,54 +5,54 @@
   "height": 4,
   "words": [
     [
-      "aimer",
       "fils",
-      "fontaine",
-      "moyeu"
+      "guêpe",
+      "forum",
+      "marin"
     ],
     [
-      "nougat",
-      "éolienne",
-      "maman",
-      "accoucher"
-    ],
-    [
-      "éduquer",
-      "serpent",
+      "famille",
       "parent",
-      "lichen"
+      "tonte",
+      "aimer"
     ],
     [
       "enfant",
-      "famille",
-      "lèvre",
-      "cosse"
+      "puma",
+      "maman",
+      "parure"
+    ],
+    [
+      "parpaing",
+      "éduquer",
+      "bouffer",
+      "accoucher"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
+    3,
     2,
     2
   ],
   "colClues": [
     3,
     2,
-    2,
-    1
+    1,
+    2
   ],
   "themeWord": "mère",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
@@ -62,10 +62,10 @@
       false
     ],
     [
-      true,
+      false,
       true,
       false,
-      false
+      true
     ]
   ],
   "parMoves": 8

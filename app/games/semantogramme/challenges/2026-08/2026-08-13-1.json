@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "affection",
+      "pourboire",
+      "broderie",
+      "logiciel",
+      "fichier"
+    ],
+    [
       "micro",
-      "processeur",
-      "cocotte"
-    ],
-    [
-      "lionne",
-      "brie",
-      "dollar",
-      "mémoire"
-    ],
-    [
       "clavier",
-      "écran",
-      "fichier",
-      "dossier"
+      "fièvre",
+      "écran"
     ],
     [
-      "scooter",
-      "navire",
-      "rail",
-      "logiciel"
+      "lactaire",
+      "mémoire",
+      "frontière",
+      "crustacé"
+    ],
+    [
+      "impasse",
+      "processeur",
+      "vertèbre",
+      "dossier"
     ]
   ],
   "rowClues": [
     2,
+    3,
     1,
-    4,
-    1
+    2
   ],
   "colClues": [
     1,
-    2,
-    2,
+    3,
+    1,
     3
   ],
   "themeWord": "ordinateur",
   "solution": [
     [
       false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       false
     ],
     [
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true
     ]

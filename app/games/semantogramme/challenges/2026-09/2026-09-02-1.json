@@ -5,54 +5,48 @@
   "height": 4,
   "words": [
     [
+      "éditorial",
       "reporter",
-      "amanite",
-      "kiosque",
-      "éditorial"
+      "sacrer",
+      "univers"
     ],
     [
+      "léopard",
       "titre",
+      "virement",
+      "article"
+    ],
+    [
       "abonnement",
-      "manchette",
-      "flottante"
+      "bambin",
+      "rédaction",
+      "kiosque"
     ],
     [
-      "cathédrale",
-      "article",
-      "séisme",
-      "rédaction"
-    ],
-    [
-      "parution",
       "rubrique",
-      "cigale",
-      "forêt"
+      "phalange",
+      "parution",
+      "manchette"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    2
+    2,
+    3,
+    3
   ],
   "colClues": [
     3,
-    3,
     2,
-    2
+    2,
+    3
   ],
   "themeWord": "journal",
   "solution": [
     [
       true,
+      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false
     ],
     [
@@ -63,9 +57,15 @@
     ],
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       false,
-      false
+      true,
+      true
     ]
   ],
   "parMoves": 10

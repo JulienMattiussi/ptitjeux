@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vert",
-      "jardin",
-      "porte",
-      "gris",
-      "devoir"
+      "rarissime",
+      "pierre",
+      "altruiste",
+      "voûtée",
+      "héritière"
     ],
     [
-      "balai",
-      "pétale",
-      "beige",
-      "bureau",
-      "bleu"
+      "rubis",
+      "or",
+      "tuba",
+      "gigantesque",
+      "émeraude"
     ],
     [
-      "chaise",
-      "blanc",
-      "doré",
-      "violet",
-      "jaune"
+      "inestimable",
+      "chérir",
+      "perle",
+      "guerre",
+      "rêve"
     ],
     [
-      "fusée",
-      "indigo",
-      "jaune",
-      "étagère",
-      "ocre"
+      "trésor",
+      "alexandrin",
+      "brûlure",
+      "engloutir",
+      "attirance"
     ],
     [
-      "jaune",
-      "orange",
-      "vert",
-      "bleu",
-      "marteau"
+      "terme",
+      "joyau",
+      "estimer",
+      "sacré",
+      "nain"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    4,
     3,
-    4
-  ],
-  "colClues": [
-    2,
     3,
-    4,
-    3,
+    1,
     3
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    4,
+    4,
+    2,
+    1,
+    1
+  ],
+  "themeWord": "précieux",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
     [
       true,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
       false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

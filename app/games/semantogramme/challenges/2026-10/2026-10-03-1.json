@@ -5,49 +5,55 @@
   "height": 4,
   "words": [
     [
+      "léopard",
       "étalon",
+      "bâtiment",
+      "queue"
+    ],
+    [
       "jument",
-      "agrès",
-      "descente"
-    ],
-    [
-      "crinière",
-      "banc",
-      "jockey",
-      "étable"
-    ],
-    [
-      "meurtrière",
-      "bride",
-      "dahlia",
-      "aride"
+      "lunaison",
+      "absorbant",
+      "jockey"
     ],
     [
       "selle",
-      "binette",
-      "queue",
-      "sauvetage"
+      "pesanteur",
+      "bride",
+      "épousseter"
+    ],
+    [
+      "politique",
+      "crinière",
+      "moelle",
+      "basse"
     ]
   ],
   "rowClues": [
     2,
     2,
-    1,
-    2
+    2,
+    1
   ],
   "colClues": [
-    3,
     2,
     2,
-    0
+    1,
+    2
   ],
   "themeWord": "cheval",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ],
     [
       true,
@@ -59,12 +65,6 @@
       false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false
     ]
   ],

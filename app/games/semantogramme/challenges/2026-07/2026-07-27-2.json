@@ -5,68 +5,68 @@
   "height": 5,
   "words": [
     [
-      "rumeur",
-      "oeil",
-      "dent",
-      "pied",
-      "bras"
+      "férié",
+      "félicité",
+      "plage",
+      "travail",
+      "congé"
     ],
     [
-      "bouche",
-      "doigt",
-      "racine",
-      "mur",
-      "écran"
+      "rendez-vous",
+      "planifier",
+      "travailler",
+      "auriculaire",
+      "iglou"
     ],
     [
-      "tabouret",
-      "joue",
-      "table",
-      "tête",
-      "dent"
+      "plastique",
+      "après-midi",
+      "tempête",
+      "agenda",
+      "enduire"
     ],
     [
-      "crayon",
-      "silence",
-      "bouche",
-      "brosse",
-      "coeur"
+      "aperçu",
+      "leurre",
+      "cours",
+      "sucer",
+      "jour"
     ],
     [
-      "bras",
-      "tabouret",
-      "dent",
-      "rideau",
-      "bouche"
+      "frisée",
+      "midi",
+      "semaine",
+      "étudier",
+      "hebdomadaire"
     ]
   ],
   "rowClues": [
-    4,
-    2,
+    3,
     3,
     2,
-    3
+    2,
+    4
   ],
   "colClues": [
     2,
     3,
     3,
-    2,
-    4
+    3,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "mardi",
   "solution": [
     [
+      true,
       false,
-      true,
-      true,
+      false,
       true,
       true
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       false
     ],
@@ -75,7 +75,7 @@
       true,
       false,
       true,
-      true
+      false
     ],
     [
       false,
@@ -85,10 +85,10 @@
       true
     ],
     [
-      true,
       false,
       true,
-      false,
+      true,
+      true,
       true
     ]
   ],

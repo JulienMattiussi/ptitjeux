@@ -5,60 +5,60 @@
   "height": 5,
   "words": [
     [
-      "cerise",
-      "framboise",
-      "figue",
-      "pétale",
-      "pomme"
+      "barboter",
+      "béret",
+      "nageur",
+      "frondaison",
+      "bassin"
     ],
     [
-      "kiwi",
-      "cerise",
-      "rumeur",
-      "prune",
-      "poire"
+      "palme",
+      "maillot",
+      "quatre-quarts",
+      "persil",
+      "piscine"
     ],
     [
-      "kiwi",
-      "cassis",
-      "orange",
-      "parfum",
-      "banquier"
+      "apnée",
+      "judo",
+      "créativité",
+      "plongeon",
+      "déguisement"
     ],
     [
-      "melon",
-      "mur",
-      "ananas",
-      "raisin",
-      "cerise"
+      "sonate",
+      "haut",
+      "inoccupé",
+      "cornée",
+      "flotter"
     ],
     [
-      "porte",
-      "banquier",
-      "citron",
-      "pince",
-      "cassis"
+      "taille",
+      "se confier",
+      "bonnet",
+      "plonger",
+      "thèse"
     ]
   ],
   "rowClues": [
-    4,
-    4,
     3,
-    4,
+    3,
+    2,
+    1,
     2
   ],
   "colClues": [
-    4,
     3,
-    4,
+    1,
     2,
-    4
+    2,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "nager",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false,
       true
@@ -67,30 +67,30 @@
       true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
       true,
-      true,
-      true,
       false,
+      false,
+      true,
       false
     ],
     [
-      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
       true,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 11
 }

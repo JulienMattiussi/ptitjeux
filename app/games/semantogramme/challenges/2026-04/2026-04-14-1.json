@@ -5,54 +5,54 @@
   "height": 4,
   "words": [
     [
-      "sentier",
-      "latitude",
-      "gibier",
-      "fougère"
-    ],
-    [
-      "taillis",
+      "météorite",
       "écureuil",
-      "crevaison",
-      "saladier"
+      "gibier",
+      "champignon"
     ],
     [
-      "mousse",
-      "passage",
+      "sentier",
+      "arbre",
       "clairière",
-      "arbre"
+      "romarin"
     ],
     [
-      "chlorophylle",
-      "champignon",
       "lichen",
-      "bergamote"
+      "cidre",
+      "fougère",
+      "taillis"
+    ],
+    [
+      "hélice",
+      "coussin",
+      "teinture",
+      "mousse"
     ]
   ],
   "rowClues": [
     3,
-    2,
     3,
-    2
+    3,
+    1
   ],
   "colClues": [
-    3,
+    2,
     2,
     3,
-    2
+    3
   ],
   "themeWord": "forêt",
   "solution": [
     [
-      true,
       false,
+      true,
       true,
       true
     ],
     [
       true,
       true,
-      false,
+      true,
       false
     ],
     [
@@ -63,9 +63,9 @@
     ],
     [
       false,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 10

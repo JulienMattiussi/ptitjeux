@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "nuit",
-      "pellicule",
-      "humide",
-      "horticulture"
-    ],
-    [
-      "chaleur",
-      "tropical",
-      "soleil",
-      "rural"
-    ],
-    [
-      "bourgeon",
-      "roseau",
-      "plante",
-      "semis"
-    ],
-    [
       "plantation",
-      "chaume",
+      "fourneau",
+      "semis",
+      "tombeau"
+    ],
+    [
       "géranium",
-      "exotique"
+      "rouiller",
+      "anaconda",
+      "plante"
+    ],
+    [
+      "signaler",
+      "exotique",
+      "chaleur",
+      "humide"
+    ],
+    [
+      "horticulture",
+      "soleil",
+      "marié",
+      "tropical"
     ]
   ],
   "rowClues": [
     2,
-    3,
     2,
+    3,
     3
   ],
   "colClues": [
+    3,
     2,
-    1,
-    4,
+    2,
     3
   ],
   "themeWord": "serre",
   "solution": [
     [
+      true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false
     ],
     [
+      true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       true
     ],
     [
       true,
-      false,
       true,
+      false,
       true
     ]
   ],

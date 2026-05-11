@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "poirier",
-      "chaise",
-      "rêverie",
-      "récif"
+      "grotte",
+      "cueillette",
+      "boutique",
+      "arbre"
     ],
     [
-      "arbre",
-      "patinette",
+      "conducteur",
+      "concert",
+      "développer",
+      "poirier"
+    ],
+    [
       "récolte",
-      "crayon"
-    ],
-    [
       "pommier",
       "fruit",
-      "judas",
-      "calcul"
+      "table"
     ],
     [
-      "écaille",
       "cerisier",
-      "succulente",
-      "cueillette"
+      "théière",
+      "révolu",
+      "tonte"
     ]
   ],
   "rowClues": [
+    2,
     1,
-    2,
-    2,
-    2
+    3,
+    1
   ],
   "colClues": [
-    3,
+    2,
     2,
     1,
-    1
+    2
   ],
   "themeWord": "verger",
   "solution": [
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false
-    ],
     [
       false,
       true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 7

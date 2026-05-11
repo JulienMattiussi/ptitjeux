@@ -5,39 +5,39 @@
   "height": 4,
   "words": [
     [
-      "gazette",
+      "duffel-coat",
       "crin",
-      "hibernation",
-      "orchestre"
-    ],
-    [
-      "défense",
       "colophane",
-      "corde",
-      "truite"
+      "sonate"
     ],
     [
-      "fièvre",
-      "manche",
-      "partition",
+      "masquer",
+      "corde",
+      "orchestre",
+      "partition"
+    ],
+    [
+      "concerto",
+      "dresser",
+      "préparer",
       "soliste"
     ],
     [
-      "sonate",
-      "guitare",
       "pupitre",
-      "concerto"
+      "imagination",
+      "manche",
+      "récréation"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    3
+    3,
+    2,
+    2
   ],
   "colClues": [
-    1,
-    3,
+    2,
+    2,
     3,
     3
   ],
@@ -46,26 +46,26 @@
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 10

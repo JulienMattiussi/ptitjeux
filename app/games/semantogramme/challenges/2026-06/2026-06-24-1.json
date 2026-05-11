@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "chronomètre",
-      "taxi",
-      "bus",
-      "vélo"
-    ],
-    [
-      "camion",
-      "indépendance",
-      "train",
-      "képi"
-    ],
-    [
-      "tisane",
+      "auréole",
       "bateau",
-      "moto",
-      "prêt"
+      "vélo",
+      "sacrement"
     ],
     [
-      "semence",
-      "armure",
-      "crêpe",
-      "scooter"
+      "concision",
+      "bus",
+      "camion",
+      "monastère"
+    ],
+    [
+      "exotique",
+      "moto",
+      "turbine",
+      "taxi"
+    ],
+    [
+      "train",
+      "effleurer",
+      "scooter",
+      "duo"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    1
+    2,
+    2
   ],
   "colClues": [
     1,
-    2,
     3,
-    2
+    3,
+    1
   ],
   "themeWord": "transport",
   "solution": [
@@ -47,12 +47,6 @@
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false
     ],
     [
@@ -63,9 +57,15 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 8

@@ -5,47 +5,53 @@
   "height": 4,
   "words": [
     [
-      "roquefort",
-      "brie",
+      "oeuf",
+      "reblochon",
+      "emmental",
+      "fragilité"
+    ],
+    [
+      "comté",
+      "pétiole",
       "gouda",
-      "reblochon"
+      "brie"
     ],
     [
       "parmesan",
-      "baldaquin",
-      "thon",
-      "fanion"
+      "contenu",
+      "antalgique",
+      "gruyère"
     ],
     [
-      "emmental",
       "camembert",
-      "guépard",
-      "sifflement"
-    ],
-    [
-      "massue",
-      "gruyère",
-      "comté",
-      "cantal"
+      "roquefort",
+      "cantal",
+      "anchois"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    2,
+    3,
     2,
     3
   ],
   "colClues": [
     3,
-    3,
     2,
+    3,
     2
   ],
   "themeWord": "fromage",
   "solution": [
     [
+      false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true
     ],
@@ -53,19 +59,13 @@
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 10

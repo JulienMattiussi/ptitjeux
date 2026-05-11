@@ -5,67 +5,81 @@
   "height": 5,
   "words": [
     [
-      "gym",
-      "boxe",
-      "golf",
-      "bureau",
-      "coussin"
+      "expérience",
+      "puiser",
+      "tronc",
+      "enraciner",
+      "mousseron"
     ],
     [
-      "tennis",
-      "vis",
-      "football",
-      "natation",
-      "course"
+      "pivotante",
+      "maître",
+      "tortueuse",
+      "plumeau",
+      "fibre"
     ],
     [
-      "cyclisme",
-      "cyclisme",
-      "enveloppe",
-      "lueur",
-      "voile"
+      "arbre",
+      "hymne",
+      "malade",
+      "ancrer",
+      "désherber"
     ],
     [
-      "ombre",
-      "natation",
-      "boxe",
-      "pétale",
-      "prison"
+      "rêverie",
+      "fibreuse",
+      "profonde",
+      "terre",
+      "sous-sol"
     ],
     [
-      "judo",
-      "tennis",
-      "parfum",
-      "boxe",
-      "globe"
+      "nourriture",
+      "profondeur",
+      "excursion",
+      "inhalation",
+      "souterraine"
     ]
   ],
   "rowClues": [
     3,
-    4,
     3,
     2,
+    4,
     3
   ],
   "colClues": [
-    4,
-    4,
     3,
-    2,
-    2
+    3,
+    3,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "racine",
   "solution": [
     [
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true,
       true
@@ -76,20 +90,6 @@
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 15

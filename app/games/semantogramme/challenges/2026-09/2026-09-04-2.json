@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "balai",
-      "natation",
-      "gym",
-      "escalade",
-      "tasse"
+      "mère",
+      "recevoir",
+      "pot",
+      "parrain",
+      "parent"
     ],
     [
-      "livre",
-      "chaise",
-      "horloge",
-      "rumeur",
-      "ski"
+      "tante",
+      "délectable",
+      "père",
+      "cousin",
+      "jongleur"
     ],
     [
-      "danse",
-      "football",
-      "devoir",
-      "tabouret",
-      "tennis"
+      "visiter",
+      "farceur",
+      "nièce",
+      "torse",
+      "beau-frère"
     ],
     [
-      "volley",
-      "porte",
-      "prière",
-      "timbre",
-      "escalade"
+      "latitude",
+      "tonton",
+      "castelet",
+      "circuit",
+      "frangin"
     ],
     [
-      "parfum",
-      "gym",
-      "football",
-      "enveloppe",
-      "course"
+      "émail",
+      "tantine",
+      "gâter",
+      "famille",
+      "clown"
     ]
   ],
   "rowClues": [
+    4,
     3,
-    1,
     3,
     2,
     3
   ],
   "colClues": [
-    2,
     3,
-    2,
-    1,
-    4
+    3,
+    3,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "oncle",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
     [
       false,
       true,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

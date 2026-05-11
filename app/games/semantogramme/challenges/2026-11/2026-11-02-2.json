@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "argenté",
-      "maison",
-      "savon",
-      "pelle",
-      "chaise"
+      "écarlate",
+      "lampadaire",
+      "assurer",
+      "sommet",
+      "passe"
     ],
     [
-      "brosse",
-      "violet",
-      "silence",
-      "crayon",
-      "prière"
+      "mur",
+      "antibiotique",
+      "classe",
+      "mousqueton",
+      "serviette"
     ],
     [
-      "violet",
-      "ciseaux",
-      "jaune",
-      "clé",
-      "orange"
+      "cardiogramme",
+      "falaise",
+      "soufflage",
+      "tondeuse",
+      "extrême"
     ],
     [
-      "bureau",
-      "argenté",
-      "gomme",
-      "violet",
-      "tabouret"
+      "broderie",
+      "cartes",
+      "vertical",
+      "baudrier",
+      "magnésie"
     ],
     [
-      "clé",
-      "turquoise",
-      "brosse",
-      "ocre",
-      "balai"
+      "aquatique",
+      "vertigineux",
+      "vaillance",
+      "escalader",
+      "harnais"
     ]
   ],
   "rowClues": [
-    1,
-    1,
-    3,
     2,
-    2
+    2,
+    2,
+    3,
+    3
   ],
   "colClues": [
-    2,
-    3,
     1,
     2,
-    1
+    2,
+    4,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "escalade",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -68,13 +75,13 @@
       true,
       false,
       false,
-      false
+      true
     ],
     [
-      true,
+      false,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
@@ -82,15 +89,8 @@
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 12
 }

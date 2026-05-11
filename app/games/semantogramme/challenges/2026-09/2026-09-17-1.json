@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "châtaigne",
-      "mousseron",
-      "sorcier",
-      "jockey"
-    ],
-    [
+      "shampooing",
+      "climat",
       "astre",
-      "farniente",
-      "brochet",
-      "marée"
+      "gizeh"
     ],
     [
-      "nouvelle",
+      "jazz",
+      "marée",
+      "étamine",
+      "flux"
+    ],
+    [
+      "colis",
+      "agenda",
       "nuit",
-      "pleine",
-      "lame"
+      "pleine"
     ],
     [
-      "épervier",
-      "orbite",
       "éclipse",
-      "marié"
+      "orbite",
+      "foudroyant",
+      "nouvelle"
     ]
   ],
   "rowClues": [
-    0,
+    1,
+    1,
     2,
-    3,
-    2
+    3
   ],
   "colClues": [
+    1,
     2,
     2,
-    2,
-    1
+    2
   ],
   "themeWord": "lune",
   "solution": [
     [
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ],
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 7

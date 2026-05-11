@@ -5,57 +5,64 @@
   "height": 5,
   "words": [
     [
-      "plafond",
-      "oeil",
-      "jambe",
-      "bouche",
-      "tabouret"
+      "plastique",
+      "bulle",
+      "marcher",
+      "clair",
+      "serveur"
     ],
     [
-      "joue",
-      "écran",
-      "fusée",
-      "enveloppe",
-      "joue"
+      "mâchoire",
+      "traverser",
+      "vitre",
+      "diaphane",
+      "créneau"
     ],
     [
-      "bouche",
-      "coeur",
-      "plafond",
-      "manuel",
-      "oeil"
+      "eau",
+      "opale",
+      "morose",
+      "maritime",
+      "transpercer"
     ],
     [
-      "oreille",
-      "chaise",
-      "joue",
-      "dent",
-      "nez"
+      "pédagogie",
+      "gaze",
+      "caricature",
+      "cristal",
+      "tee"
     ],
     [
-      "lèvre",
-      "livre",
-      "coeur",
-      "lèvre",
-      "nez"
+      "verre",
+      "cristallin",
+      "serrer",
+      "limpide",
+      "translucide"
     ]
   ],
   "rowClues": [
     3,
-    2,
     3,
-    4,
+    2,
+    2,
     4
   ],
   "colClues": [
+    3,
     4,
-    2,
-    3,
-    3,
-    4
+    1,
+    4,
+    2
   ],
-  "themeWord": "corps",
+  "themeWord": "transparent",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
     [
       false,
       true,
@@ -71,26 +78,19 @@
       true
     ],
     [
-      true,
+      false,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      true,
       true,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

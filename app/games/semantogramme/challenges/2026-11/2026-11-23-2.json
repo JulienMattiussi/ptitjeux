@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "tabouret",
-      "vache",
-      "prison",
-      "timbre",
-      "belette"
+      "pinceau",
+      "artistique",
+      "tentacule",
+      "japonais",
+      "aiguille"
     ],
     [
-      "mouton",
-      "girafe",
-      "loup",
-      "vache",
-      "règle"
+      "chinois",
+      "encre",
+      "caractère",
+      "élémentaire",
+      "asiatique"
     ],
     [
-      "peigne",
-      "souris",
-      "lapin",
-      "tigre",
-      "renard"
+      "mars",
+      "plume",
+      "écrire",
+      "supporter",
+      "mordre"
     ],
     [
-      "ombre",
-      "marteau",
-      "gomme",
-      "chemin",
-      "zèbre"
+      "croisée",
+      "rafale",
+      "triompher",
+      "papier",
+      "algébrique"
     ],
     [
-      "mouton",
-      "lampe",
-      "pétale",
-      "jardin",
-      "pince"
+      "pommade",
+      "juge",
+      "tracer",
+      "artère",
+      "fluide"
     ]
   ],
   "rowClues": [
+    3,
+    4,
     2,
-    4,
-    4,
     1,
-    1
+    2
   ],
   "colClues": [
     2,
     3,
+    3,
     2,
-    2,
-    3
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "calligraphie",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      false,
+      true,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 12

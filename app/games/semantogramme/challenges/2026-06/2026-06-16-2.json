@@ -5,77 +5,63 @@
   "height": 5,
   "words": [
     [
-      "sol",
-      "panda",
-      "marteau",
-      "mouton",
-      "table"
+      "transparent",
+      "front",
+      "pureté",
+      "lampe",
+      "clarifier"
     ],
     [
-      "pelle",
-      "tunnel",
-      "belette",
-      "jardin",
-      "pierre"
+      "éclat",
+      "orbe",
+      "fauve",
+      "éclairer",
+      "pause"
     ],
     [
-      "timbre",
-      "loup",
-      "coussin",
-      "miroir",
-      "pierre"
+      "aube",
+      "limpide",
+      "acrylique",
+      "irlande",
+      "brouillard"
     ],
     [
-      "girafe",
-      "plateau",
-      "pince",
-      "lapin",
-      "lampe"
+      "paletot",
+      "nature",
+      "cristallin",
+      "transparence",
+      "cassant"
     ],
     [
-      "castor",
-      "agenda",
-      "rumeur",
-      "panda",
-      "souris"
+      "lumière",
+      "gruyère",
+      "pare-brise",
+      "éruption",
+      "jour"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    1,
-    1,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
-    2,
-    2,
+    4,
     1,
+    2,
     3,
-    1
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "clair",
   "solution": [
     [
-      false,
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
+      true
     ],
     [
       true,
@@ -86,11 +72,25 @@
     ],
     [
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 12
 }

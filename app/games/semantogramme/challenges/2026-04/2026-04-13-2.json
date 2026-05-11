@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "remorque",
-      "ferry",
-      "porte",
-      "tournevis",
-      "miroir"
+      "éploré",
+      "pleurnicher",
+      "larmoyer",
+      "piscine",
+      "peine"
     ],
     [
-      "voiture",
-      "coussin",
-      "plafond",
-      "plafond",
-      "scooter"
+      "angle",
+      "plier",
+      "sangloter",
+      "chagrin",
+      "aiglon"
     ],
     [
-      "métro",
-      "navette",
-      "train",
-      "agenda",
-      "tramway"
+      "coiffer",
+      "battre",
+      "tristesse",
+      "larme",
+      "choir"
     ],
     [
-      "jardin",
-      "bus",
-      "caravane",
-      "vélo",
-      "camion"
+      "poudre",
+      "dompteur",
+      "corner",
+      "gémissement",
+      "consolation"
     ],
     [
-      "moto",
-      "gomme",
-      "vis",
-      "métro",
-      "avion"
+      "ver",
+      "douleur",
+      "exotique",
+      "gémir",
+      "lamentation"
     ]
   ],
   "rowClues": [
+    4,
     2,
     2,
-    4,
-    4,
+    2,
     3
   ],
   "colClues": [
-    4,
+    1,
+    2,
     3,
-    2,
-    2,
-    4
+    4,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "pleurer",
   "solution": [
     [
       true,
       true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       false,
+      true,
+      true,
       false
     ],
     [
-      true,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      true,
-      false,
-      true
+      false
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ],
     [
-      true,
       false,
+      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

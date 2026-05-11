@@ -5,61 +5,61 @@
   "height": 5,
   "words": [
     [
-      "lampe",
-      "pétale",
-      "blanc",
-      "fusée",
-      "livre"
+      "colombe",
+      "pousser",
+      "fredonner",
+      "modeste",
+      "chouette"
     ],
     [
-      "prison",
-      "rouge",
-      "panier",
-      "beige",
-      "rideau"
+      "aboutir",
+      "puéril",
+      "créer",
+      "récent",
+      "poindre"
     ],
     [
-      "ocre",
-      "mur",
-      "turquoise",
-      "enveloppe",
-      "coussin"
+      "photographe",
+      "adolescent",
+      "canette",
+      "novice",
+      "débutant"
     ],
     [
-      "étagère",
-      "pétale",
-      "pince",
-      "mauve",
-      "miroir"
+      "courbé",
+      "régner",
+      "enfant",
+      "vidéo",
+      "jeunesse"
     ],
     [
-      "vis",
-      "racine",
-      "ombre",
-      "beige",
-      "doré"
+      "tendre",
+      "jouvenceau",
+      "bébé",
+      "gamin",
+      "malpropre"
     ]
   ],
   "rowClues": [
     1,
     2,
+    3,
     2,
-    1,
-    2
+    4
   ],
   "colClues": [
     1,
-    1,
+    4,
     2,
     3,
-    1
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "jeune",
   "solution": [
     [
       false,
-      false,
       true,
+      false,
       false,
       false
     ],
@@ -71,26 +71,26 @@
       false
     ],
     [
-      true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 12
 }

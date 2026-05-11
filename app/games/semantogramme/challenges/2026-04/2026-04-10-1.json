@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "craie",
-      "leçon",
-      "igloo",
-      "récréation"
+      "pull",
+      "classe",
+      "affluent",
+      "patin"
     ],
     [
-      "visière",
-      "sifflement",
-      "sombrero",
-      "orbite"
-    ],
-    [
-      "jetée",
+      "tableau",
+      "vendange",
       "cartable",
-      "cantine",
-      "classe"
+      "tremper"
     ],
     [
-      "attirance",
-      "observatoire",
-      "rameau",
-      "tableau"
+      "amplifier",
+      "craie",
+      "cantine",
+      "porte"
+    ],
+    [
+      "glace",
+      "récréation",
+      "irlande",
+      "leçon"
     ]
   ],
   "rowClues": [
-    3,
-    0,
-    3,
-    1
+    1,
+    2,
+    2,
+    2
   ],
   "colClues": [
     1,
+    3,
     2,
-    1,
-    3
+    1
   ],
   "themeWord": "école",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
-      true
+      false
     ],
     [
+      true,
       false,
-      false,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
       true,
-      true
+      false
     ],
     [
       false,
-      false,
+      true,
       false,
       true
     ]

@@ -5,75 +5,75 @@
   "height": 5,
   "words": [
     [
-      "ananas",
-      "balai",
-      "écran",
-      "cerise",
-      "banane"
+      "aumône",
+      "prise",
+      "enterré",
+      "large",
+      "chantier"
     ],
     [
-      "prière",
-      "citron",
-      "framboise",
-      "cerise",
-      "pêche"
+      "altruiste",
+      "cadeau",
+      "pont",
+      "étendard",
+      "humer"
     ],
     [
-      "cassis",
-      "carnet",
-      "kiwi",
-      "ananas",
-      "panneau"
+      "dragée",
+      "ourson",
+      "pâques",
+      "libéral",
+      "scénario"
     ],
     [
-      "horloge",
-      "orange",
-      "sol",
-      "gomme",
-      "rideau"
+      "agate",
+      "don",
+      "frêle",
+      "plate",
+      "partager"
     ],
     [
-      "mûre",
-      "prune",
-      "pêche",
-      "racine",
-      "citron"
+      "bienfaiteur",
+      "magnanime",
+      "générosité",
+      "décompression",
+      "sacrifier"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    3,
+    2,
+    2,
     1,
+    2,
     4
   ],
   "colClues": [
     3,
     3,
-    3,
-    3,
-    3
+    1,
+    2,
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "généreux",
   "solution": [
     [
       true,
       false,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
+      false
     ],
     [
       true,
-      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -82,7 +82,7 @@
       true,
       false,
       false,
-      false
+      true
     ],
     [
       true,
@@ -92,5 +92,5 @@
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "abricot",
-      "voisin",
-      "serrure",
-      "prune",
-      "tapis"
+      "code",
+      "pair",
+      "masse",
+      "musclé",
+      "neveu"
     ],
     [
-      "pêche",
-      "pomme",
-      "étoile",
-      "mémoire",
-      "pastèque"
+      "abdominal",
+      "nef",
+      "examiner",
+      "ligament",
+      "fibre"
     ],
     [
-      "citron",
-      "citron",
-      "cadre",
-      "porte",
-      "cerise"
+      "légende",
+      "biceps",
+      "archipel",
+      "tonus",
+      "ancrer"
     ],
     [
-      "panneau",
-      "poire",
-      "pomme",
-      "pelle",
-      "panneau"
+      "caravane",
+      "parfumé",
+      "fessier",
+      "étagère",
+      "tendre"
     ],
     [
-      "prune",
-      "citron",
-      "mangue",
-      "fraise",
-      "vis"
+      "gonfler",
+      "perte",
+      "musculaire",
+      "lionne",
+      "dalmatien"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    2,
-    4
-  ],
-  "colClues": [
-    4,
-    4,
     2,
     2,
     2
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    2,
+    1,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "muscle",
   "solution": [
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       false
     ],
     [
       true,
+      false,
+      false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       true
     ],
     [
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
+      false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

@@ -5,40 +5,40 @@
   "height": 4,
   "words": [
     [
-      "bourgeon",
+      "oiseau",
+      "montre",
+      "heure",
+      "mois"
+    ],
+    [
       "agenda",
-      "rempart",
-      "horloge"
+      "lapin",
+      "minute",
+      "nourriture"
     ],
     [
-      "calendrier",
-      "berge",
-      "pas",
-      "persil"
-    ],
-    [
-      "chenille",
+      "paradis",
       "siècle",
-      "mois",
+      "leurre",
       "année"
     ],
     [
-      "heure",
-      "minute",
-      "montre",
+      "horloge",
+      "parure",
+      "calendrier",
       "semaine"
     ]
   ],
   "rowClues": [
-    2,
-    1,
     3,
-    4
+    2,
+    2,
+    3
   ],
   "colClues": [
     2,
-    3,
     2,
+    3,
     3
   ],
   "themeWord": "temps",
@@ -46,24 +46,24 @@
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       true,
-      true,
+      false,
       true,
       true
     ]

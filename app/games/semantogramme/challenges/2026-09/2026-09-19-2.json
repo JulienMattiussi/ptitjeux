@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "requin",
-      "savon",
-      "phare",
-      "porte",
-      "bureau"
+      "salaire",
+      "mensuel",
+      "pratiquer",
+      "créatinine",
+      "avril"
     ],
     [
-      "méduse",
-      "étagère",
-      "étagère",
-      "poisson",
-      "plateau"
+      "calendrier",
+      "enduit",
+      "brioche",
+      "février",
+      "véloce"
     ],
     [
-      "écume",
-      "timbre",
-      "jardin",
-      "pétale",
-      "globe"
+      "robuste",
+      "tournesol",
+      "loyer",
+      "archer",
+      "portable"
     ],
     [
-      "porte",
-      "ciseaux",
-      "prison",
-      "rivage",
-      "rideau"
+      "endive",
+      "trentaine",
+      "punaise",
+      "dune",
+      "vacances"
     ],
     [
-      "plage",
-      "sardine",
-      "vis",
-      "banquier",
-      "sardine"
+      "sureau",
+      "long",
+      "lune",
+      "compter",
+      "planifier"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     1,
     1,
-    3
+    4
   ],
   "colClues": [
-    4,
-    1,
-    1,
     2,
-    1
+    3,
+    2,
+    2,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "mois",
   "solution": [
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
     [
       true,
       true,
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 11
 }

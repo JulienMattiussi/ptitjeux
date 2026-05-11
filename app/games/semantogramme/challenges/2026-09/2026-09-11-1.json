@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "chanson",
-      "harpie",
-      "bougie",
-      "décoration"
-    ],
-    [
-      "gâteau",
-      "pare-brise",
       "guirlande",
+      "roi",
+      "chanson",
       "âge"
     ],
     [
-      "chic",
-      "fête",
-      "invitation",
-      "carte"
+      "carte",
+      "frisson",
+      "liesse",
+      "ébauchoir"
     ],
     [
-      "cap",
-      "contentement",
-      "rayon",
-      "célébration"
+      "fidèle",
+      "célébration",
+      "décoration",
+      "bougie"
+    ],
+    [
+      "invitation",
+      "cloison",
+      "gâteau",
+      "fête"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    3,
-    1
-  ],
-  "colClues": [
-    2,
     1,
     3,
-    4
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    3
   ],
   "themeWord": "anniversaire",
   "solution": [
@@ -52,8 +52,8 @@
     [
       true,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
@@ -62,9 +62,9 @@
       true
     ],
     [
+      true,
       false,
-      false,
-      false,
+      true,
       true
     ]
   ],

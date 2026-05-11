@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "couche",
-      "sage-femme",
-      "bébé",
-      "farine"
+      "berceau",
+      "praliné",
+      "taie",
+      "transmettre"
     ],
     [
-      "rare",
-      "nourrisson",
       "biberon",
-      "berceau"
-    ],
-    [
-      "demoiselle",
       "mère",
-      "maternité",
-      "prologue"
+      "nourrisson",
+      "mule"
     ],
     [
+      "allumer",
       "lait",
-      "punch",
-      "génome",
-      "perceuse"
+      "ombre",
+      "couche"
+    ],
+    [
+      "ascenseur",
+      "sage-femme",
+      "maternité",
+      "bébé"
     ]
   ],
   "rowClues": [
-    3,
+    1,
     3,
     2,
-    1
+    3
   ],
   "colClues": [
     2,
     3,
-    3,
-    1
+    2,
+    2
   ],
   "themeWord": "naissance",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
     [
       true,
       true,
@@ -52,20 +58,14 @@
     [
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
       true,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false
+      true
     ]
   ],
   "parMoves": 9

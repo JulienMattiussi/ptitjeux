@@ -5,34 +5,34 @@
   "height": 4,
   "words": [
     [
-      "félicité",
-      "meringue",
-      "accord",
-      "évent"
-    ],
-    [
-      "consommé",
-      "bien-être",
-      "joie",
-      "allégresse"
-    ],
-    [
-      "enchantement",
-      "plénitude",
-      "béatitude",
-      "jardinier"
-    ],
-    [
-      "ravissement",
+      "modelage",
       "sérénité",
-      "lèchefrite",
+      "plénitude",
+      "vaillance"
+    ],
+    [
+      "allégresse",
+      "ravissement",
+      "noir",
+      "enchantement"
+    ],
+    [
+      "bien-être",
+      "talonneur",
+      "béatitude",
+      "couturière"
+    ],
+    [
+      "joie",
+      "félicité",
+      "hideux",
       "plaisir"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
-    3,
+    2,
     3
   ],
   "colClues": [
@@ -44,20 +44,20 @@
   "themeWord": "bonheur",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
       true,
-      true,
+      false,
       true,
       false
     ],

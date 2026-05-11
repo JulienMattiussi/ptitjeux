@@ -5,54 +5,48 @@
   "height": 4,
   "words": [
     [
-      "gradin",
-      "pelouse",
-      "cendre",
-      "farine"
+      "confessionnal",
+      "frangin",
+      "match",
+      "pelouse"
     ],
     [
       "sportif",
-      "main",
-      "cantal",
-      "tribune"
-    ],
-    [
-      "tournoi",
-      "match",
-      "piste",
-      "empire"
-    ],
-    [
-      "compétition",
-      "éditeur",
       "arène",
-      "supporter"
+      "tribune",
+      "potion"
+    ],
+    [
+      "jasmin",
+      "piste",
+      "supporter",
+      "bouche"
+    ],
+    [
+      "gradin",
+      "compétition",
+      "jubilation",
+      "tournoi"
     ]
   ],
   "rowClues": [
     2,
-    2,
     3,
+    2,
     3
   ],
   "colClues": [
-    4,
     2,
-    2,
+    3,
+    3,
     2
   ],
   "themeWord": "stade",
   "solution": [
     [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
+      true,
       true
     ],
     [
@@ -62,9 +56,15 @@
       false
     ],
     [
-      true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true
     ]
   ],

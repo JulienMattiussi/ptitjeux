@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "globe",
-      "méduse",
-      "panneau",
-      "crabe",
-      "marin"
+      "mourant",
+      "guérison",
+      "gymnase",
+      "danse",
+      "polype"
     ],
     [
-      "dauphin",
-      "saumon",
-      "crabe",
-      "vague",
-      "globe"
+      "défendre",
+      "tomber",
+      "tombée",
+      "fin",
+      "horizon"
     ],
     [
-      "ciseaux",
-      "cadre",
-      "corail",
-      "méduse",
-      "balai"
+      "soleil",
+      "tonte",
+      "aride",
+      "rat",
+      "maudit"
     ],
     [
-      "tabouret",
-      "agenda",
-      "brosse",
-      "rivage",
-      "marin"
+      "extrémité",
+      "rougeoyant",
+      "baisser",
+      "soir",
+      "fichier"
     ],
     [
-      "prière",
-      "tabouret",
-      "table",
-      "sable",
-      "timbre"
+      "liaisonner",
+      "tardif",
+      "puzzle",
+      "leçon",
+      "pénombre"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    2,
-    2,
-    1
-  ],
-  "colClues": [
     1,
-    2,
-    2,
-    5,
+    4,
+    1,
+    3,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "crépuscule",
   "solution": [
     [
-      false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
       true,
@@ -72,25 +86,11 @@
     ],
     [
       false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      false,
-      true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

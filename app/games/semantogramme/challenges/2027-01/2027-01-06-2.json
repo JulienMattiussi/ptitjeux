@@ -5,79 +5,58 @@
   "height": 5,
   "words": [
     [
-      "orgue",
-      "guitare",
-      "choeur",
-      "crayon",
-      "note"
+      "gouvernail",
+      "égalité",
+      "résolution",
+      "effrayant",
+      "capuche"
     ],
     [
-      "panier",
-      "carnet",
-      "harpe",
-      "jazz",
-      "flûte"
+      "mathématique",
+      "résoudre",
+      "linéaire",
+      "terme",
+      "vainqueur"
     ],
     [
-      "gamme",
-      "panneau",
-      "serrure",
-      "ombre",
-      "horloge"
+      "membre",
+      "algébrique",
+      "fauve",
+      "inconnue",
+      "différentielle"
     ],
     [
-      "maison",
-      "guitare",
-      "batterie",
-      "étoile",
-      "prison"
+      "variable",
+      "rentrer",
+      "remplacer",
+      "converser",
+      "quadratique"
     ],
     [
-      "balai",
-      "étoile",
-      "choeur",
-      "orgue",
-      "note"
+      "récompense",
+      "développer",
+      "intrigue",
+      "spiritualité",
+      "lettre"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    1,
     2,
-    3
+    4,
+    4,
+    2,
+    1
   ],
   "colClues": [
-    2,
-    2,
+    3,
     4,
     2,
-    3
+    2,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "équation",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
@@ -85,11 +64,32 @@
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 13

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "gris",
-      "ocre",
-      "voisin",
-      "indigo",
-      "brun"
+      "pétiller",
+      "minerai",
+      "plaisir",
+      "débutant",
+      "rayonner"
     ],
     [
-      "panneau",
-      "indigo",
-      "rouge",
-      "turquoise",
-      "beige"
+      "jubiler",
+      "tumulte",
+      "remorque",
+      "sourire",
+      "oublier"
     ],
     [
-      "devoir",
-      "jardin",
-      "rumeur",
-      "rouge",
-      "vert"
+      "brûlant",
+      "se réjouir",
+      "joie",
+      "chanson",
+      "épanoui"
     ],
     [
-      "balai",
-      "prière",
-      "bureau",
-      "clé",
-      "vert"
+      "coussinet",
+      "rire",
+      "profusion",
+      "temple",
+      "radieux"
     ],
     [
-      "globe",
-      "étagère",
-      "orange",
-      "rose",
-      "turquoise"
+      "cidre",
+      "satisfait",
+      "autorisé",
+      "joyeux",
+      "allégresse"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    3,
     2,
+    3,
     1,
     3
   ],
   "colClues": [
-    1,
+    2,
+    3,
     2,
     2,
-    4,
-    5
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "heureux",
   "solution": [
     [
       true,
-      true,
       false,
       true,
+      false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
     ],
     [
       false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

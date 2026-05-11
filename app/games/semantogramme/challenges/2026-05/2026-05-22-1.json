@@ -5,47 +5,53 @@
   "height": 4,
   "words": [
     [
-      "mayonnaise",
+      "perroquet",
       "vinaigrette",
-      "cage",
-      "ketchup"
-    ],
-    [
-      "moutarde",
-      "tomate",
-      "bureau",
-      "huile"
+      "mayonnaise",
+      "moutarde"
     ],
     [
       "soja",
-      "crème",
-      "crue",
-      "quai"
+      "neveu",
+      "crustacé",
+      "curry"
     ],
     [
-      "curry",
+      "tomate",
+      "crème",
+      "sangloter",
+      "ketchup"
+    ],
+    [
+      "huile",
       "béchamel",
-      "pignon",
-      "fée"
+      "reinette",
+      "pâtissier"
     ]
   ],
   "rowClues": [
     3,
-    3,
     2,
+    3,
     2
   ],
   "colClues": [
-    4,
-    4,
-    0,
-    2
+    3,
+    3,
+    1,
+    3
   ],
   "themeWord": "sauce",
   "solution": [
     [
+      false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true
     ],
@@ -54,12 +60,6 @@
       true,
       false,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      false
     ],
     [
       true,

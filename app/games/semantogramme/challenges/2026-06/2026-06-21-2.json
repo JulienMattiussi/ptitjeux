@@ -5,68 +5,82 @@
   "height": 5,
   "words": [
     [
-      "marteau",
-      "serrure",
-      "bateau",
-      "moto",
-      "tournevis"
+      "gerboise",
+      "tumulte",
+      "tonnerre",
+      "damnation",
+      "printemps"
     ],
     [
-      "cadre",
-      "voisin",
-      "vélo",
-      "tapis",
-      "navette"
+      "assourdissant",
+      "chapitre",
+      "tonner",
+      "repos",
+      "noix"
     ],
     [
-      "jardin",
-      "vélo",
-      "vélo",
-      "rideau",
-      "bus"
+      "gourmandise",
+      "tapage",
+      "résonner",
+      "porcelaine",
+      "vacarme"
     ],
     [
-      "tramway",
-      "étagère",
-      "rideau",
-      "remorque",
-      "voisin"
+      "klaxon",
+      "gronder",
+      "ski",
+      "coussin",
+      "fracas"
     ],
     [
-      "caravane",
-      "voiture",
-      "jardin",
-      "tramway",
-      "porte"
+      "variable",
+      "cacophonique",
+      "tonitruant",
+      "boucan",
+      "compétent"
     ]
   ],
   "rowClues": [
     2,
     2,
     3,
-    2,
+    3,
     3
   ],
   "colClues": [
     2,
-    2,
-    3,
-    3,
+    4,
+    4,
+    1,
     2
   ],
-  "themeWord": "transport",
+  "themeWord": "bruyant",
   "solution": [
     [
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
-      false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       true
     ],
@@ -74,23 +88,9 @@
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

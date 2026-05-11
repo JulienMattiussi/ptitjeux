@@ -5,49 +5,49 @@
   "height": 4,
   "words": [
     [
-      "verglas",
-      "soleil",
-      "tableau",
-      "neige"
-    ],
-    [
-      "rosée",
-      "vent",
-      "foudre",
-      "gaieté"
-    ],
-    [
-      "jardinier",
-      "frontière",
-      "sportif",
-      "nuage"
-    ],
-    [
+      "nuage",
       "tempête",
-      "voyageur",
+      "soleil",
+      "ruche"
+    ],
+    [
       "gel",
-      "condor"
+      "foudre",
+      "neige",
+      "parterre"
+    ],
+    [
+      "salaire",
+      "verglas",
+      "amusement",
+      "vent"
+    ],
+    [
+      "sirène",
+      "gâter",
+      "rosée",
+      "transfusion"
     ]
   ],
   "rowClues": [
     3,
     3,
-    1,
-    2
+    2,
+    1
   ],
   "colClues": [
+    2,
     3,
-    2,
-    2,
-    2
+    3,
+    1
   ],
   "themeWord": "météo",
   "solution": [
     [
       true,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
@@ -57,12 +57,12 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       false

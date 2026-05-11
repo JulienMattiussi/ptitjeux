@@ -5,61 +5,61 @@
   "height": 5,
   "words": [
     [
-      "oreille",
-      "étoile",
-      "jambe",
-      "prison",
-      "racine"
+      "tube",
+      "gazouiller",
+      "embrasser",
+      "rat",
+      "escalader"
     ],
     [
-      "vis",
-      "banquier",
-      "peau",
-      "cadre",
-      "ongle"
+      "farceur",
+      "dribble",
+      "refrain",
+      "roucouler",
+      "mélodie"
     ],
     [
-      "globe",
-      "enveloppe",
-      "brosse",
-      "prison",
-      "lèvre"
+      "ours",
+      "chanteur",
+      "siffler",
+      "pulpe",
+      "chant"
     ],
     [
-      "nez",
-      "agenda",
-      "savon",
-      "ombre",
-      "genou"
+      "choriste",
+      "choeur",
+      "caniculaire",
+      "voix",
+      "besace"
     ],
     [
-      "épaule",
-      "épaule",
-      "agenda",
-      "lèvre",
-      "oeil"
+      "apiculteur",
+      "couplet",
+      "entonner",
+      "flash",
+      "fredonner"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    1,
-    2,
-    4
+    3,
+    3,
+    3,
+    3
   ],
   "colClues": [
-    3,
-    1,
     2,
-    1,
-    4
+    4,
+    3,
+    2,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "chanter",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       false,
       false
     ],
@@ -67,20 +67,13 @@
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
+      true
+    ],
+    [
       false,
-      false,
+      true,
+      true,
       false,
       true
     ],
@@ -89,8 +82,15 @@
       true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "arbre",
-      "sourdine",
-      "seconde",
-      "persistant"
+      "aiguille",
+      "prédateur",
+      "cocotte",
+      "faîte"
     ],
     [
-      "office",
+      "délégué",
+      "persistant",
+      "polir",
+      "arbre"
+    ],
+    [
       "verdure",
-      "rite",
+      "cochon",
+      "clair",
       "palme"
     ],
     [
-      "élevage",
-      "cocotte",
-      "sèche-cheveux",
-      "aiguille"
-    ],
-    [
+      "triompher",
+      "frondaison",
       "nervure",
-      "gazeuse",
-      "opuntia",
-      "frondaison"
+      "natation"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     1,
+    2,
+    2,
     2
   ],
   "colClues": [
     2,
+    2,
     1,
-    0,
-    4
+    2
   ],
   "themeWord": "feuille",
   "solution": [
@@ -47,7 +47,7 @@
       true,
       false,
       false,
-      true
+      false
     ],
     [
       false,
@@ -56,16 +56,16 @@
       true
     ],
     [
-      false,
+      true,
       false,
       false,
       true
     ],
     [
+      false,
       true,
-      false,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 7

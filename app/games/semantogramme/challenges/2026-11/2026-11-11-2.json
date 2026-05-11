@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "belette",
-      "cheval",
-      "racine",
-      "vis",
-      "savon"
+      "individuel",
+      "sportif",
+      "strophe",
+      "piste",
+      "sprint"
     ],
     [
-      "castor",
-      "pelle",
-      "castor",
-      "coussin",
-      "marteau"
+      "sauter",
+      "antique",
+      "emporter",
+      "comète",
+      "python"
     ],
     [
-      "porte",
-      "crayon",
-      "marteau",
-      "castor",
-      "balai"
+      "oubli",
+      "haie",
+      "stade",
+      "courir",
+      "omelette"
     ],
     [
-      "bureau",
-      "balai",
-      "girafe",
-      "tasse",
-      "écran"
+      "javelot",
+      "teckel",
+      "paupière",
+      "disque",
+      "sarcasme"
     ],
     [
-      "lynx",
-      "cheval",
-      "caillou",
-      "girafe",
-      "lynx"
+      "morale",
+      "carie",
+      "piqûre",
+      "rapide",
+      "ourlet"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    2,
-    1,
-    1,
-    4
-  ],
-  "colClues": [
     3,
-    2,
-    2,
     2,
     1
   ],
-  "themeWord": "animal",
+  "colClues": [
+    3,
+    3,
+    1,
+    4,
+    1
+  ],
+  "themeWord": "athlétisme",
   "solution": [
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
     [
       true,
       true,
       false,
       true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

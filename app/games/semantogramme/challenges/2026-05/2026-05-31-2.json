@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "farine",
-      "timbre",
-      "fourchette",
-      "frigo",
-      "casserole"
+      "paille",
+      "déshydrater",
+      "sécher",
+      "tari",
+      "rôtir"
     ],
     [
-      "fourchette",
-      "chemin",
-      "fourchette",
-      "farine",
-      "tablier"
+      "soif",
+      "cambré",
+      "sécheresse",
+      "bureau",
+      "aride"
     ],
     [
-      "timbre",
-      "prière",
-      "écran",
-      "tablier",
-      "enveloppe"
+      "chuchoter",
+      "persistant",
+      "hémisphère",
+      "foin",
+      "crin"
     ],
     [
-      "cuillère",
-      "mur",
-      "four",
-      "panier",
-      "pétale"
+      "biscuit",
+      "sable",
+      "puissance",
+      "assécher",
+      "aridité"
     ],
     [
-      "épice",
-      "plat",
-      "recette",
-      "évier",
-      "brosse"
+      "défilé",
+      "desséché",
+      "citoyen",
+      "rêche",
+      "désert"
     ]
   ],
   "rowClues": [
     4,
-    4,
+    3,
     1,
-    2,
-    4
+    4,
+    3
   ],
   "colClues": [
+    3,
+    3,
+    2,
     4,
-    1,
-    4,
-    4,
-    2
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "sec",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
     [
-      true,
       false,
       true,
+      false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 15

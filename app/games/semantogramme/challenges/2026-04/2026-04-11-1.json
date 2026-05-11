@@ -5,46 +5,52 @@
   "height": 4,
   "words": [
     [
-      "bolet",
-      "bagage",
-      "lampadaire",
-      "boulevard"
-    ],
-    [
-      "cosmonaute",
-      "immeuble",
-      "métro",
-      "banque"
-    ],
-    [
-      "trottoir",
-      "avenue",
+      "téléphérique",
       "place",
-      "amande"
+      "charbon",
+      "immeuble"
     ],
     [
-      "feuillage",
-      "sénateur",
-      "mousseron",
-      "parking"
+      "banque",
+      "aventure",
+      "avenue",
+      "métro"
+    ],
+    [
+      "hêtre",
+      "trottoir",
+      "coquillage",
+      "pistolet"
+    ],
+    [
+      "lampadaire",
+      "parking",
+      "résistant",
+      "boulevard"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    1
+    1,
+    3
   ],
   "colClues": [
-    1,
     2,
     3,
+    1,
     3
   ],
   "themeWord": "ville",
   "solution": [
     [
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
       true
@@ -52,18 +58,12 @@
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       false,
       true
     ]

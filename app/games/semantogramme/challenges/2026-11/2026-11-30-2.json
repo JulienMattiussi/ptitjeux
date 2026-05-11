@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "tapis",
-      "prison",
-      "golf",
-      "balai",
-      "lueur"
+      "célèbre",
+      "marionnette",
+      "guépard",
+      "figurine",
+      "style"
     ],
     [
-      "boxe",
-      "football",
-      "judo",
-      "rumeur",
-      "judo"
+      "imiter",
+      "illusoire",
+      "manipuler",
+      "manipulation",
+      "couture"
     ],
     [
-      "marathon",
-      "pelle",
-      "basket",
-      "écran",
-      "panneau"
+      "illusion",
+      "voix",
+      "char",
+      "pantin",
+      "décocher"
     ],
     [
-      "course",
-      "sol",
-      "crayon",
-      "judo",
-      "ski"
+      "scène",
+      "spectacle",
+      "théâtral",
+      "trachée",
+      "matin"
     ],
     [
-      "voile",
-      "coussin",
-      "course",
-      "maison",
-      "sol"
+      "comique",
+      "pistolet",
+      "vache",
+      "amusant",
+      "parler"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     2,
+    4,
     3,
-    2
+    3,
+    3
   ],
   "colClues": [
     4,
-    1,
     4,
-    1,
-    2
+    2,
+    4,
+    1
   ],
-  "themeWord": "sport",
+  "themeWord": "ventriloque",
   "solution": [
     [
       false,
-      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false
     ],
     [
@@ -68,29 +82,15 @@
       true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

@@ -5,57 +5,64 @@
   "height": 5,
   "words": [
     [
-      "miroir",
-      "volley",
-      "cyclisme",
-      "gym",
-      "judo"
+      "précieuse",
+      "orient",
+      "larme",
+      "pleur",
+      "douce"
     ],
     [
-      "tapis",
-      "course",
-      "cyclisme",
-      "serrure",
-      "jardin"
+      "brailler",
+      "chemin",
+      "foulard",
+      "satin",
+      "robe"
     ],
     [
-      "judo",
-      "tunnel",
-      "volley",
-      "marteau",
-      "ciseaux"
+      "chute",
+      "mûrier",
+      "pilier",
+      "brillante",
+      "cobalt"
     ],
     [
-      "chaise",
-      "tasse",
-      "tennis",
-      "livre",
-      "silence"
+      "asiatique",
+      "filer",
+      "fabriquer",
+      "sifflement",
+      "cocon"
     ],
     [
-      "vis",
-      "clé",
-      "manuel",
-      "marathon",
-      "globe"
+      "couvert",
+      "guerrier",
+      "lisse",
+      "tisser",
+      "ver"
     ]
   ],
   "rowClues": [
+    3,
     4,
     2,
-    2,
-    1,
-    1
+    3,
+    3
   ],
   "colClues": [
-    1,
     2,
     4,
     2,
-    1
+    3,
+    4
   ],
-  "themeWord": "sport",
+  "themeWord": "soie",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
     [
       false,
       true,
@@ -66,31 +73,24 @@
     [
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
-      false,
       true,
       false,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 15
 }

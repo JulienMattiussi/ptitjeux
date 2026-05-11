@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cheval",
-      "chat",
-      "étagère",
-      "loup",
-      "loup"
+      "religion",
+      "fascinant",
+      "spectacle",
+      "obélisque",
+      "cape"
     ],
     [
-      "ours",
-      "pince",
-      "pétale",
-      "banquier",
-      "tigre"
+      "patience",
+      "étude",
+      "baguette",
+      "monarque",
+      "chapeau"
     ],
     [
-      "lion",
-      "agenda",
-      "chaise",
-      "zèbre",
-      "lapin"
+      "gambade",
+      "donner",
+      "mystique",
+      "habile",
+      "griller"
     ],
     [
-      "zèbre",
-      "tournevis",
-      "devoir",
-      "prière",
-      "chien"
+      "transformer",
+      "disparaître",
+      "morosité",
+      "mystérieux",
+      "brunch"
     ],
     [
-      "lion",
-      "girafe",
-      "chat",
-      "ciseaux",
-      "cheval"
+      "vampire",
+      "marmite",
+      "tour",
+      "théâtral",
+      "circulaire"
     ]
   ],
   "rowClues": [
-    4,
-    2,
     3,
     2,
-    4
+    2,
+    3,
+    2
   ],
   "colClues": [
-    5,
-    2,
     1,
     2,
-    5
+    4,
+    3,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "magicien",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      false,
       false,
       true
     ],
     [
-      true,
       false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true
     ],
     [
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
       true,
       true,
       false,
-      true
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

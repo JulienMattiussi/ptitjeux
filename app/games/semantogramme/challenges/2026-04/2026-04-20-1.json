@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "sommet",
-      "limbe",
-      "crique",
-      "cueillette"
+      "récif",
+      "souterraine",
+      "rivage",
+      "folklorique"
     ],
     [
-      "lagon",
-      "babouin",
-      "expédition",
-      "génome"
+      "acrylique",
+      "crique",
+      "placebo",
+      "auriculaire"
+    ],
+    [
+      "mouette",
+      "pulpe",
+      "durer",
+      "corail"
     ],
     [
       "pirogue",
-      "pique-nique",
-      "rivage",
-      "récif"
-    ],
-    [
-      "corail",
-      "jasmin",
-      "écho",
-      "mouette"
+      "lagon",
+      "enchanteur",
+      "manche"
     ]
   ],
   "rowClues": [
+    2,
     1,
-    1,
-    3,
+    2,
     2
   ],
   "colClues": [
     3,
-    0,
     2,
-    2
+    1,
+    1
   ],
   "themeWord": "île",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false
     ],
     [
       true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 7

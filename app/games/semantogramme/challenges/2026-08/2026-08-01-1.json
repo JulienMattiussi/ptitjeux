@@ -5,47 +5,59 @@
   "height": 4,
   "words": [
     [
+      "voile",
+      "brunch",
       "bague",
-      "robe",
-      "mousson",
-      "village"
+      "robe"
     ],
     [
-      "maître",
       "cortège",
-      "témoin",
-      "mariée"
+      "panache",
+      "juin",
+      "décocher"
     ],
     [
-      "nickel",
-      "vol",
-      "toboggan",
-      "mémoire"
-    ],
-    [
-      "acier",
-      "minaret",
       "demoiselle",
-      "voile"
+      "sacrifier",
+      "semer",
+      "habiter"
+    ],
+    [
+      "cône",
+      "témoin",
+      "mariée",
+      "amusement"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    0,
+    1,
+    1,
     2
   ],
   "colClues": [
+    3,
     1,
     2,
-    2,
-    2
+    1
   ],
   "themeWord": "mariage",
   "solution": [
     [
       true,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false
     ],
@@ -53,19 +65,7 @@
       false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 7

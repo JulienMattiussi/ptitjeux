@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cerise",
-      "panier",
-      "prune",
-      "table",
-      "pétale"
+      "esthétique",
+      "basculer",
+      "menacer",
+      "oxygène",
+      "rêve"
     ],
     [
-      "fraise",
-      "prune",
-      "cerise",
-      "pastèque",
-      "bureau"
+      "somme",
+      "couverture",
+      "nickel",
+      "ronfler",
+      "assoupir"
     ],
     [
-      "crayon",
-      "ananas",
-      "poire",
-      "pastèque",
-      "kiwi"
+      "ours",
+      "pyjama",
+      "fatigue",
+      "somnoler",
+      "parapluie"
     ],
     [
-      "chaise",
-      "citron",
-      "cadre",
-      "règle",
-      "agenda"
+      "levant",
+      "géométrie",
+      "pourboire",
+      "sommeil",
+      "marguerite"
     ],
     [
-      "coussin",
-      "figue",
-      "tasse",
-      "mangue",
-      "orange"
+      "veilleuse",
+      "matelas",
+      "époque",
+      "pluton",
+      "nuit"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    4,
     1,
-    3
-  ],
-  "colClues": [
-    2,
     4,
     3,
-    3,
+    1,
     2
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    1,
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "dormir",
   "solution": [
     [
-      true,
       false,
-      true,
       false,
-      false
+      false,
+      false,
+      true
     ],
     [
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       true,
       true
     ],
     [
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       false,
+      false,
+      true,
       false
     ],
     [
       false,
       true,
       false,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

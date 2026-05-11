@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "dos",
-      "joue",
-      "doigt",
-      "timbre",
-      "agenda"
+      "filleul",
+      "récompense",
+      "jonquille",
+      "citron",
+      "surfer"
     ],
     [
-      "bras",
-      "oeil",
-      "règle",
-      "livre",
-      "pétale"
+      "doré",
+      "numéro",
+      "maïs",
+      "liaisonner",
+      "paille"
     ],
     [
-      "nez",
-      "étoile",
-      "étagère",
-      "table",
-      "épaule"
+      "canari",
+      "éclatant",
+      "carrelage",
+      "inusité",
+      "moutarde"
     ],
     [
-      "ongle",
-      "pelle",
-      "balai",
-      "marteau",
-      "silence"
+      "grec",
+      "épiler",
+      "respiratoire",
+      "tournesol",
+      "ocre"
     ],
     [
-      "clé",
-      "étagère",
-      "pied",
-      "ongle",
-      "parfum"
+      "pâle",
+      "vif",
+      "beurre",
+      "or",
+      "semence"
     ]
   ],
   "rowClues": [
+    2,
+    3,
     3,
     2,
-    2,
-    1,
-    2
+    4
   ],
   "colClues": [
-    4,
+    3,
     2,
-    2,
-    1,
-    1
+    3,
+    3,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "jaune",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
-      false,
+      true,
       false,
       true
     ],
     [
       true,
+      true,
       false,
       false,
-      false,
-      false
+      true
     ],
     [
       false,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 14
 }

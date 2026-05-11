@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "règle",
-      "panneau",
-      "panda",
-      "étoile",
-      "sol"
+      "humide",
+      "obscure",
+      "potage",
+      "inhaler",
+      "reinette"
     ],
     [
+      "stalagmite",
+      "roche",
+      "habiter",
+      "guider",
+      "aérien"
+    ],
+    [
+      "pirate",
+      "remplir",
+      "grotte",
+      "stalactite",
+      "écho"
+    ],
+    [
+      "céramique",
+      "religion",
+      "sombre",
       "ours",
-      "zèbre",
-      "parfum",
-      "écran",
-      "pétale"
+      "sifflement"
     ],
     [
-      "lapin",
-      "lapin",
-      "marteau",
-      "panda",
-      "tournevis"
-    ],
-    [
-      "zèbre",
-      "belette",
-      "fusée",
-      "gomme",
-      "écureuil"
-    ],
-    [
-      "lampe",
-      "horloge",
-      "devoir",
-      "koala",
-      "vache"
+      "sieste",
+      "racler",
+      "cacher",
+      "macaque",
+      "rarissime"
     ]
   ],
   "rowClues": [
-    1,
     2,
     3,
-    3,
-    2
+    4,
+    2,
+    1
   ],
   "colClues": [
     3,
-    3,
-    1,
     2,
-    2
+    4,
+    2,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "caverne",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
@@ -73,24 +66,31 @@
     [
       true,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

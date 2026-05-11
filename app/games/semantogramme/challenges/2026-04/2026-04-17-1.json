@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
+      "foncé",
       "nénuphar",
-      "chêne",
-      "kayak",
-      "fissure"
+      "applique",
+      "rive"
     ],
     [
-      "pêcheur",
-      "roseau",
-      "éclat",
-      "péripétie"
+      "inhabité",
+      "ponton",
+      "richelieu",
+      "roseau"
     ],
     [
       "berge",
       "barque",
-      "groseille",
+      "gomme",
       "truite"
     ],
     [
-      "ponton",
-      "meurtrière",
-      "ambulance",
-      "rive"
+      "pêcheur",
+      "immortaliser",
+      "kayak",
+      "fard"
     ]
   ],
   "rowClues": [
@@ -36,24 +36,24 @@
     2
   ],
   "colClues": [
-    4,
     2,
+    3,
     1,
-    2
+    3
   ],
   "themeWord": "lac",
   "solution": [
     [
-      true,
       false,
       true,
-      false
+      false,
+      true
     ],
     [
-      true,
+      false,
       true,
       false,
-      false
+      true
     ],
     [
       true,
@@ -64,8 +64,8 @@
     [
       true,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 9

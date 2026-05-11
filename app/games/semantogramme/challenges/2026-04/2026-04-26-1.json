@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "rayon",
-      "électron",
-      "chaleur",
-      "crépuscule"
-    ],
-    [
-      "maman",
-      "lumière",
-      "attaquant",
-      "gardien"
-    ],
-    [
-      "évier",
       "éclipse",
-      "boxe",
-      "procès"
+      "astre",
+      "renne",
+      "dégoût"
     ],
     [
-      "midi",
       "aurore",
-      "astre",
-      "rayonnement"
+      "transcendance",
+      "vif",
+      "midi"
+    ],
+    [
+      "photosynthèse",
+      "lumière",
+      "levant",
+      "chaleur"
+    ],
+    [
+      "crépuscule",
+      "mandarine",
+      "rayonnement",
+      "rayon"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    1,
-    4
+    2,
+    2,
+    2,
+    3
   ],
   "colClues": [
-    2,
     3,
     2,
-    2
+    1,
+    3
   ],
   "themeWord": "soleil",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false
+      true
     ],
     [
       true,
-      true,
+      false,
       true,
       true
     ]

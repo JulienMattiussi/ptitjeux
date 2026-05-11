@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "affluent",
-      "rive",
-      "reptile",
-      "boucher"
-    ],
-    [
-      "estuaire",
-      "chocolat",
-      "inondation",
-      "scorpion"
-    ],
-    [
-      "navigation",
       "embouchure",
-      "barge",
-      "espèce"
+      "airelle",
+      "inondation",
+      "estuaire"
     ],
     [
-      "source",
+      "roi",
+      "pont",
+      "voodoo",
+      "rive"
+    ],
+    [
       "crue",
-      "ocelot",
-      "pont"
+      "jouet",
+      "source",
+      "massue"
+    ],
+    [
+      "barge",
+      "affluent",
+      "navigation",
+      "synthétique"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    2,
+    2,
     3
   ],
   "colClues": [
-    4,
     3,
     2,
-    1
+    3,
+    2
   ],
   "themeWord": "fleuve",
   "solution": [
     [
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
-      false
+      true
     ],
     [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
+      false,
       true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 10

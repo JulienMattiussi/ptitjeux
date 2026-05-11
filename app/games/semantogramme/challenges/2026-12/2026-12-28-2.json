@@ -5,61 +5,61 @@
   "height": 5,
   "words": [
     [
-      "silence",
-      "farine",
-      "timbre",
-      "banquier",
-      "frigo"
+      "majorité",
+      "populaire",
+      "démocratique",
+      "dérailleur",
+      "voter"
     ],
     [
-      "vis",
-      "assiette",
-      "savon",
-      "lueur",
-      "verre"
+      "potage",
+      "élection",
+      "munster",
+      "âcre",
+      "république"
     ],
     [
-      "vis",
-      "racine",
-      "maison",
-      "frigo",
-      "prison"
+      "écrémé",
+      "vote",
+      "constitution",
+      "pluraliste",
+      "parlement"
     ],
     [
-      "verre",
-      "plateau",
-      "cuillère",
-      "épice",
-      "couteau"
+      "légiférer",
+      "badigeonner",
+      "représentative",
+      "citoyen",
+      "plonger"
     ],
     [
-      "pierre",
-      "poêle",
-      "brosse",
-      "cuillère",
-      "spatule"
+      "libre",
+      "baudrier",
+      "roulade",
+      "débattre",
+      "parcourir"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
     4,
-    3
+    2,
+    4,
+    3,
+    2
   ],
   "colClues": [
-    1,
     3,
-    1,
     3,
-    4
+    3,
+    3,
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "démocratie",
   "solution": [
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false,
       true
     ],
@@ -72,25 +72,25 @@
     ],
     [
       false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
-      false,
+      true,
       true,
       false
     ],
     [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       true,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

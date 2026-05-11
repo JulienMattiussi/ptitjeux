@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "hiver",
-      "ourson",
-      "lézard",
-      "forêt"
+      "brun",
+      "cinématographie",
+      "tonne",
+      "braiser"
     ],
     [
-      "tambour",
-      "panda",
-      "serpillière",
-      "brun"
-    ],
-    [
+      "haïti",
+      "plantigrade",
       "polaire",
-      "hibernation",
-      "accoucher",
       "grizzli"
     ],
     [
-      "plantigrade",
+      "ourson",
+      "mauve",
+      "hibernation",
+      "forêt"
+    ],
+    [
       "miel",
-      "autonomie",
-      "caleçon"
+      "couleur",
+      "hiver",
+      "panda"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    2,
     3,
-    2
+    3
   ],
   "colClues": [
     3,
-    4,
-    0,
+    1,
+    3,
     3
   ],
   "themeWord": "ours",
   "solution": [
     [
       true,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 10

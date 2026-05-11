@@ -5,80 +5,59 @@
   "height": 5,
   "words": [
     [
-      "tasse",
-      "cadre",
-      "fusée",
-      "voile",
-      "balai"
+      "congé",
+      "clair",
+      "centre",
+      "couturière",
+      "enfant"
     ],
     [
-      "agenda",
-      "devoir",
-      "racine",
-      "tennis",
-      "voile"
+      "semaine",
+      "activité",
+      "pratiquer",
+      "gâter",
+      "mouton"
     ],
     [
-      "maison",
-      "ombre",
-      "rugby",
-      "course",
-      "jardin"
+      "jouer",
+      "calendrier",
+      "sport",
+      "lagon",
+      "férié"
     ],
     [
-      "horloge",
-      "miroir",
-      "golf",
-      "tasse",
-      "boxe"
+      "léopard",
+      "mercredis",
+      "hymne",
+      "reposer",
+      "clouer"
     ],
     [
-      "cyclisme",
-      "gym",
-      "cyclisme",
-      "bureau",
-      "tasse"
+      "piscine",
+      "gravité",
+      "milieu",
+      "posture",
+      "jour"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    2,
+    3,
+    3,
+    4,
     2,
     3
   ],
   "colClues": [
-    1,
-    1,
+    4,
     3,
-    3,
-    2
+    4,
+    1,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "mercredi",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -90,7 +69,28 @@
       true,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 15
 }

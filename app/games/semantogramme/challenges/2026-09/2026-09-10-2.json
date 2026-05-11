@@ -5,58 +5,79 @@
   "height": 5,
   "words": [
     [
-      "ongle",
-      "rumeur",
-      "parfum",
-      "silence",
-      "ongle"
+      "écouteur",
+      "poupon",
+      "nourrir",
+      "nourrisson",
+      "berceau"
     ],
     [
-      "silence",
-      "nez",
-      "enveloppe",
-      "tapis",
-      "genou"
+      "bulletin",
+      "sincère",
+      "menuisier",
+      "téter",
+      "assoupir"
     ],
     [
-      "tête",
-      "pince",
-      "doigt",
-      "pied",
-      "coeur"
+      "diaphragme",
+      "bûche",
+      "biberon",
+      "porter",
+      "nouveau-né"
     ],
     [
-      "lampe",
-      "dent",
-      "manuel",
-      "tabouret",
-      "bras"
+      "minuscule",
+      "guérir",
+      "jonc",
+      "hublot",
+      "allaiter"
     ],
     [
-      "prière",
-      "rideau",
-      "ombre",
-      "coeur",
-      "tête"
+      "naître",
+      "instant",
+      "enfant",
+      "doudou",
+      "tétine"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     4,
+    1,
+    3,
     2,
-    2
+    4
   ],
   "colClues": [
     2,
-    2,
     1,
-    2,
-    5
+    3,
+    4,
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "bébé",
   "solution": [
     [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       true,
       false,
       false,
@@ -64,33 +85,12 @@
       true
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

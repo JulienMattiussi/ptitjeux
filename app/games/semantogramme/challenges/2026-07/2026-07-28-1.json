@@ -5,55 +5,49 @@
   "height": 4,
   "words": [
     [
-      "escarpin",
-      "royale",
+      "dame",
+      "domino",
+      "souiller",
+      "radis"
+    ],
+    [
+      "échec",
+      "annoncer",
       "puzzle",
-      "domino"
+      "concevoir"
     ],
     [
-      "arabica",
-      "débit",
-      "pétale",
-      "échec"
-    ],
-    [
-      "poker",
-      "songe",
-      "belote",
-      "locomotive"
-    ],
-    [
-      "orbite",
       "pion",
-      "menuiserie",
-      "dame"
+      "vaillant",
+      "lait",
+      "belote"
+    ],
+    [
+      "insulte",
+      "guépard",
+      "fournil",
+      "poker"
     ]
   ],
   "rowClues": [
     2,
-    1,
     2,
-    2
+    2,
+    1
   ],
   "colClues": [
+    3,
     1,
     1,
-    2,
-    3
+    2
   ],
   "themeWord": "jeu",
   "solution": [
     [
-      false,
-      false,
       true,
-      true
-    ],
-    [
+      true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
       true,
@@ -62,8 +56,14 @@
       false
     ],
     [
-      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true
     ]

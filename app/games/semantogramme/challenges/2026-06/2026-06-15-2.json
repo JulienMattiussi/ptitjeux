@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tapis",
-      "banquier",
-      "ferry",
-      "voisin",
-      "rideau"
+      "granuleux",
+      "éroder",
+      "assuré",
+      "nef",
+      "défier"
     ],
     [
-      "table",
-      "scooter",
-      "règle",
-      "agenda",
-      "fusée"
+      "roche",
+      "noter",
+      "gratter",
+      "combler",
+      "gliss"
     ],
     [
-      "autobus",
-      "carnet",
-      "cadre",
-      "tramway",
-      "règle"
+      "papier",
+      "écaille",
+      "bambou",
+      "liège",
+      "constitutionnelle"
     ],
     [
-      "silence",
-      "ferry",
-      "cadre",
-      "scooter",
-      "bureau"
+      "râpe",
+      "sable",
+      "lime",
+      "rivaliser",
+      "âpre"
     ],
     [
-      "scooter",
-      "fusée",
-      "racine",
-      "vélo",
-      "train"
+      "désemplir",
+      "préfecture",
+      "noire",
+      "pierre",
+      "égratigner"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    2,
-    2,
-    4
-  ],
-  "colClues": [
     2,
     3,
-    1,
-    3,
+    4,
     2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "rugueux",
   "solution": [
     [
+      true,
+      true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
     ],
     [
-      true,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

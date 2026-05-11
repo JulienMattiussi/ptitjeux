@@ -5,82 +5,82 @@
   "height": 5,
   "words": [
     [
-      "taxi",
-      "panier",
-      "taxi",
-      "avion",
-      "serrure"
+      "digérer",
+      "escalader",
+      "remonter",
+      "roulée",
+      "agripper"
     ],
     [
-      "pince",
-      "étoile",
-      "miroir",
-      "avion",
-      "autobus"
+      "gravir",
+      "canne",
+      "voûter",
+      "monter",
+      "corde"
     ],
     [
-      "caillou",
-      "navette",
-      "autobus",
-      "vélo",
-      "livre"
+      "paroi",
+      "ascensionner",
+      "tampon",
+      "fièvre",
+      "hisser"
     ],
     [
-      "scooter",
-      "bateau",
-      "train",
-      "remorque",
-      "pelle"
+      "débit",
+      "escalade",
+      "serpent",
+      "falaise",
+      "voltige"
     ],
     [
-      "miroir",
-      "navette",
-      "lampe",
-      "avion",
-      "sol"
+      "balai",
+      "altitude",
+      "ocre",
+      "arbre",
+      "lézard"
     ]
   ],
   "rowClues": [
     3,
-    2,
     3,
-    4,
+    3,
+    2,
     2
   ],
   "colClues": [
     2,
+    4,
+    1,
     3,
-    3,
-    5,
-    1
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "grimper",
   "solution": [
     [
-      true,
       false,
       true,
       true,
-      false
+      false,
+      true
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       true,
       false
     ],
@@ -92,5 +92,5 @@
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

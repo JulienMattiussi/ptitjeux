@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "judo",
-      "gomme",
-      "marathon",
-      "panier",
-      "volley"
+      "banque",
+      "reine",
+      "tintement",
+      "église",
+      "clocher"
     ],
     [
-      "brosse",
-      "pétale",
-      "ski",
-      "escalade",
-      "rugby"
+      "tour",
+      "véloce",
+      "retentissante",
+      "carillonner",
+      "symbole"
     ],
     [
-      "marathon",
-      "basket",
-      "ciseaux",
-      "cadre",
-      "gym"
+      "sonore",
+      "bronze",
+      "carillon",
+      "folklorique",
+      "tinter"
     ],
     [
-      "marathon",
-      "ski",
-      "pierre",
-      "volley",
-      "basket"
+      "sonner",
+      "sonnerie",
+      "framboise",
+      "pilier",
+      "cachet"
     ],
     [
-      "cadre",
-      "voisin",
-      "boxe",
-      "devoir",
-      "chemin"
+      "bronzée",
+      "son",
+      "châtaigne",
+      "haute",
+      "bourse"
     ]
   ],
   "rowClues": [
     3,
     3,
-    3,
     4,
-    1
+    2,
+    3
   ],
   "colClues": [
+    4,
     3,
-    2,
     3,
-    2,
-    4
+    3,
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "cloche",
   "solution": [
     [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
       true,
@@ -72,8 +65,15 @@
     ],
     [
       true,
-      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
     ],
@@ -81,16 +81,16 @@
       true,
       true,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

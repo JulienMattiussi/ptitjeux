@@ -5,46 +5,58 @@
   "height": 4,
   "words": [
     [
-      "match",
-      "limbe",
-      "inattendu",
-      "final"
+      "nordique",
+      "quai",
+      "filtrer",
+      "borner"
     ],
     [
-      "compartiment",
       "wagon",
-      "locomotive",
-      "varech"
+      "patient",
+      "compartiment",
+      "sucette"
     ],
     [
-      "choc",
-      "rail",
-      "message",
-      "quai"
-    ],
-    [
-      "cycle",
-      "golden",
       "voyageur",
+      "traditionnel",
+      "alléger",
+      "paresseux"
+    ],
+    [
+      "locomotive",
+      "rail",
+      "préparer",
       "fret"
     ]
   ],
   "rowClues": [
-    0,
-    3,
-    2,
-    2
-  ],
-  "colClues": [
     1,
     2,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
     2,
-    2
+    1,
+    1
   ],
   "themeWord": "train",
   "solution": [
     [
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false
@@ -52,19 +64,7 @@
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true
     ]
   ],

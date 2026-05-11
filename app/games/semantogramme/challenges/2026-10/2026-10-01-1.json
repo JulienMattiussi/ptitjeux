@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "plage",
-      "silex",
-      "excursion",
-      "circuit"
-    ],
-    [
-      "nébuleuse",
-      "hôtel",
-      "agence",
-      "persistant"
-    ],
-    [
       "safari",
-      "monument",
       "voyage",
-      "mars"
+      "utopie",
+      "urinaire"
     ],
     [
-      "voyageur",
-      "saxophone",
+      "plage",
       "souvenir",
-      "péniche"
+      "hôtel",
+      "naturelle"
+    ],
+    [
+      "livraison",
+      "voyageur",
+      "agence",
+      "excursion"
+    ],
+    [
+      "monument",
+      "pente",
+      "génisse",
+      "circuit"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    3,
     3,
     2
   ],
   "colClues": [
     3,
+    3,
     2,
-    4,
-    1
+    2
   ],
   "themeWord": "tourisme",
   "solution": [
     [
       true,
+      true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true
     ],
     [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      true,
-      false
+      false,
+      true
     ]
   ],
   "parMoves": 10

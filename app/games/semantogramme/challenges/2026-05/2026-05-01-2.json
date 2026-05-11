@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vis",
-      "crabe",
-      "table",
-      "phare",
-      "voisin"
+      "planche",
+      "explorer",
+      "tiré",
+      "masque",
+      "voyage"
     ],
     [
-      "ombre",
-      "saumon",
-      "requin",
-      "baleine",
-      "porte"
+      "billet",
+      "poésie",
+      "macaron",
+      "imposant",
+      "battement"
     ],
     [
-      "crayon",
-      "thon",
-      "saumon",
-      "poisson",
-      "jardin"
+      "partir",
+      "crevaison",
+      "avion",
+      "prise",
+      "survoler"
     ],
     [
-      "caillou",
-      "cadre",
-      "baleine",
-      "sardine",
-      "voisin"
+      "fourrure",
+      "aventure",
+      "destination",
+      "hôtel",
+      "imprimante"
     ],
     [
-      "crabe",
-      "ombre",
-      "baleine",
-      "écaille",
-      "marin"
+      "plongeon",
+      "périple",
+      "expédition",
+      "passeport",
+      "modèle"
     ]
   ],
   "rowClues": [
     2,
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
     3,
     3,
     2,
-    4
-  ],
-  "colClues": [
-    1,
-    3,
-    4,
-    5,
     1
   ],
-  "themeWord": "mer",
+  "themeWord": "voyager",
   "solution": [
     [
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

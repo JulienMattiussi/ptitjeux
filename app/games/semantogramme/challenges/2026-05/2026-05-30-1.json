@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "gazeux",
-      "jeu",
-      "halogène",
-      "poupée"
-    ],
-    [
-      "ballon",
-      "puzzle",
-      "forum",
-      "voiture"
-    ],
-    [
-      "photographie",
-      "circuit",
-      "reporter",
+      "aisselle",
+      "bienveillant",
+      "conduire",
       "maquette"
     ],
     [
-      "ananas",
-      "trompette",
-      "gué",
-      "corde"
+      "velouté",
+      "jeu",
+      "puzzle",
+      "coupe"
+    ],
+    [
+      "corde",
+      "voiture",
+      "ballon",
+      "laurier"
+    ],
+    [
+      "circuit",
+      "recueil",
+      "poupée",
+      "maussade"
     ]
   ],
   "rowClues": [
+    1,
     2,
     3,
-    2,
-    1
+    2
   ],
   "colClues": [
-    1,
+    2,
+    2,
     3,
-    0,
-    4
+    1
   ],
   "themeWord": "jouet",
   "solution": [
     [
       false,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true
     ],
     [
       false,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
-      false,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 8

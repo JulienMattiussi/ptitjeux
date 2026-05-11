@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "braise",
-      "brie",
+      "matinale",
+      "incandescent",
+      "cendre",
+      "créateur"
+    ],
+    [
+      "descendant",
       "allumette",
-      "foi"
+      "braise",
+      "ring"
     ],
     [
-      "flamme",
+      "sourcil",
       "fumée",
-      "incendie",
-      "dinde"
+      "persistant",
+      "brise"
     ],
     [
-      "fart",
-      "caricature",
-      "médaillon",
-      "supporter"
-    ],
-    [
-      "pizza",
-      "ferme",
       "pompier",
-      "cendre"
+      "incendie",
+      "composé",
+      "flamme"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    0,
-    2
-  ],
-  "colClues": [
+    1,
     2,
     1,
+    3
+  ],
+  "colClues": [
+    1,
     3,
+    2,
     1
   ],
   "themeWord": "feu",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false
     ],
     [
       false,
-      false,
+      true,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ]
   ],

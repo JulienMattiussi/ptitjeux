@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "agenda",
+      "public",
+      "bal",
+      "expression",
+      "tisonnier",
+      "artistique"
+    ],
+    [
       "judo",
-      "serrure",
-      "timbre",
-      "panier"
+      "geste",
+      "riper",
+      "cirque",
+      "visuel"
     ],
     [
-      "voile",
-      "gym",
-      "ombre",
-      "savon",
-      "rumeur"
+      "évoquer",
+      "religieux",
+      "montage",
+      "imiter",
+      "scène"
     ],
     [
-      "bureau",
-      "plateau",
-      "golf",
-      "marathon",
-      "escalade"
+      "mocassin",
+      "pratiquer",
+      "silencieux",
+      "comique",
+      "spirituel"
     ],
     [
-      "tennis",
-      "étagère",
-      "plateau",
-      "boxe",
-      "golf"
-    ],
-    [
-      "savon",
-      "étoile",
-      "natation",
-      "boxe",
-      "tasse"
+      "gesticuler",
+      "maquillage",
+      "olympique",
+      "pantomime",
+      "silence"
     ]
   ],
   "rowClues": [
-    1,
+    3,
+    3,
+    3,
     2,
-    3,
-    3,
-    2
+    4
   ],
   "colClues": [
-    2,
-    2,
-    2,
     3,
-    2
+    2,
+    2,
+    4,
+    4
   ],
-  "themeWord": "sport",
+  "themeWord": "mime",
   "solution": [
     [
+      true,
       false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
-      false,
       true,
+      false,
       true,
       true
     ],
@@ -90,7 +83,14 @@
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

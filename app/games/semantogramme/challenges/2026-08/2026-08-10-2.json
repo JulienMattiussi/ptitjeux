@@ -5,74 +5,60 @@
   "height": 5,
   "words": [
     [
-      "pierre",
-      "lampe",
-      "prison",
-      "tonnerre",
-      "brouillard"
+      "salut",
+      "eau",
+      "décimal",
+      "shooter",
+      "thé"
     ],
     [
-      "gel",
-      "vis",
-      "gel",
-      "marteau",
-      "racine"
+      "soupe",
+      "attiédir",
+      "fade",
+      "climat",
+      "rudimentaire"
     ],
     [
-      "prison",
-      "racine",
-      "brosse",
-      "mémoire",
-      "tempête"
+      "casserole",
+      "fanal",
+      "lait",
+      "vinaigrette",
+      "chauffer"
     ],
     [
-      "arc-en-ciel",
-      "glace",
-      "tonnerre",
-      "pétale",
-      "prison"
+      "douche",
+      "tiédir",
+      "réalisateur",
+      "mou",
+      "détente"
     ],
     [
-      "pluie",
-      "pelle",
-      "foudre",
-      "pince",
-      "prière"
+      "printemps",
+      "bain",
+      "rebondir",
+      "roquefort",
+      "air"
     ]
   ],
   "rowClues": [
     2,
+    4,
     2,
-    1,
     3,
-    2
+    3
   ],
   "colClues": [
     3,
-    1,
-    3,
-    1,
-    2
+    4,
+    2,
+    2,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "tiède",
   "solution": [
     [
       false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       false,
       true
@@ -81,16 +67,30 @@
       true,
       true,
       true,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false
     ],
     [
       true,
-      false,
       true,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 14
 }

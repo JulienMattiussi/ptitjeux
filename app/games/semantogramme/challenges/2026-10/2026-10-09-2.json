@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "pelle",
-      "serrure",
-      "dos",
-      "peau",
-      "doigt"
+      "mystérieux",
+      "modeler",
+      "trésor",
+      "reposer",
+      "noircir"
     ],
     [
+      "creuser",
+      "plongeur",
       "jardin",
-      "ciseaux",
-      "coussin",
-      "bouche",
-      "joue"
+      "pioche",
+      "minuscule"
     ],
     [
-      "tapis",
-      "bouche",
-      "peigne",
-      "écran",
-      "banquier"
+      "rusé",
+      "truffe",
+      "mine",
+      "feuille",
+      "barbu"
     ],
     [
-      "ongle",
-      "rideau",
-      "bureau",
-      "chaise",
-      "écran"
+      "épeler",
+      "farfadet",
+      "fournir",
+      "justice",
+      "barbe"
     ],
     [
-      "doigt",
-      "racine",
-      "mémoire",
-      "joue",
-      "bouche"
+      "magique",
+      "potager",
+      "lutin",
+      "chapeau",
+      "plaidoyer"
     ]
   ],
   "rowClues": [
+    2,
+    4,
     3,
     2,
-    1,
-    1,
     3
   ],
   "colClues": [
+    4,
+    1,
+    4,
     2,
-    1,
-    1,
-    3,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "gnome",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
+      true,
       false,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     [
       true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       true,
+      false,
+      false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 14
 }

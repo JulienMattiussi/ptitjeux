@@ -5,40 +5,40 @@
   "height": 4,
   "words": [
     [
-      "punching-ball",
+      "pliage",
       "berger",
-      "micro",
-      "épagneul"
-    ],
-    [
-      "pékinois",
-      "caniche",
-      "lumière",
-      "beagle"
-    ],
-    [
       "doberman",
-      "dalmatien",
-      "nougat",
+      "gouda"
+    ],
+    [
+      "épagneul",
+      "bronze",
+      "teckel",
+      "bouledogue"
+    ],
+    [
+      "aspirateur",
+      "beagle",
+      "rejeton",
       "labrador"
     ],
     [
-      "teckel",
-      "larme",
-      "bouledogue",
-      "collier"
+      "caniche",
+      "mannequin",
+      "pékinois",
+      "dalmatien"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    2
+    2,
+    3
   ],
   "colClues": [
+    2,
+    2,
     3,
-    3,
-    1,
     3
   ],
   "themeWord": "chien",
@@ -46,26 +46,26 @@
     [
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 10

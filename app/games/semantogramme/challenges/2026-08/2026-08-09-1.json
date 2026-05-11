@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "cueillette",
-      "tronçonneuse",
-      "objectif",
-      "acrobate"
-    ],
-    [
-      "jongleur",
-      "roulotte",
-      "kangourou",
-      "chenille"
-    ],
-    [
-      "piste",
       "dompteur",
-      "tropicale",
-      "illusion"
+      "trapèze",
+      "spectacle",
+      "dentiste"
     ],
     [
-      "pâques",
-      "spectacle",
-      "mystique",
-      "trapèze"
+      "aiguille",
+      "battre",
+      "embaumer",
+      "jongleur"
+    ],
+    [
+      "fracturer",
+      "piste",
+      "parade",
+      "barque"
+    ],
+    [
+      "illusion",
+      "pain",
+      "roulotte",
+      "acrobate"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
-    2
+    1,
+    1,
+    3
   ],
   "colClues": [
     2,
-    3,
-    0,
-    3
+    2,
+    2,
+    2
   ],
   "themeWord": "cirque",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
     [
       false,
       false,
@@ -50,21 +56,15 @@
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      false,
       true
     ]
   ],

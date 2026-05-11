@@ -5,66 +5,73 @@
   "height": 5,
   "words": [
     [
-      "panneau",
-      "voile",
-      "ski",
-      "rideau",
-      "chemin"
+      "souper",
+      "prolonger",
+      "dîner",
+      "discret",
+      "armure"
     ],
     [
-      "escalade",
-      "serrure",
-      "pierre",
-      "tennis",
-      "basket"
+      "rentrer",
+      "soirée",
+      "créatif",
+      "lampe",
+      "consanguin"
     ],
     [
-      "volley",
-      "voisin",
-      "course",
-      "jardin",
-      "gym"
+      "observer",
+      "danger",
+      "satellite",
+      "coucher",
+      "lune"
     ],
     [
-      "gym",
-      "boxe",
-      "gomme",
-      "ski",
-      "football"
+      "sombre",
+      "vespéral",
+      "tombée",
+      "corser",
+      "apéro"
     ],
     [
-      "porte",
-      "horloge",
-      "football",
-      "enveloppe",
-      "tennis"
+      "nuit",
+      "reposer",
+      "tardif",
+      "extrémité",
+      "crépuscule"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
+    2,
     4,
-    2
-  ],
-  "colClues": [
-    3,
-    2,
-    3,
-    2,
     4
   ],
-  "themeWord": "sport",
+  "colClues": [
+    4,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "soir",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       false,
       false
     ],
     [
       true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -72,7 +79,7 @@
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       true
@@ -80,17 +87,10 @@
     [
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

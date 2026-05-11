@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
+      "alvéole",
       "fidèle",
-      "illusion",
-      "patrimoine",
-      "prière"
-    ],
-    [
-      "rabbin",
       "imam",
-      "temple",
-      "comprimé"
+      "engendrer"
     ],
     [
-      "mosquée",
       "cérémonie",
-      "enclos",
-      "rosier"
+      "mosquée",
+      "énigme",
+      "rabbin"
     ],
     [
-      "peuplier",
-      "soudain",
-      "féroce",
-      "synagogue"
+      "précision",
+      "honorer",
+      "synagogue",
+      "égarement"
+    ],
+    [
+      "champagne",
+      "prière",
+      "minute",
+      "temple"
     ]
   ],
   "rowClues": [
     2,
     3,
-    2,
-    1
+    1,
+    2
   ],
   "colClues": [
+    1,
     3,
     2,
-    1,
     2
   ],
   "themeWord": "religion",
   "solution": [
     [
-      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ],
     [
+      false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true
     ]

@@ -5,40 +5,40 @@
   "height": 4,
   "words": [
     [
-      "lagon",
-      "tradition",
-      "basse",
-      "nectar"
+      "grenier",
+      "ictère",
+      "conte",
+      "cocon"
     ],
     [
+      "homme",
+      "cédrat",
       "larve",
-      "aile",
-      "fenêtre",
-      "fleur"
+      "chausson"
+    ],
+    [
+      "violon",
+      "fleur",
+      "ippon",
+      "aile"
     ],
     [
       "chenille",
-      "évier",
-      "beagle",
+      "underground",
+      "nectar",
       "antenne"
-    ],
-    [
-      "violet",
-      "cocon",
-      "lessive",
-      "béton"
     ]
   ],
   "rowClues": [
     1,
-    3,
+    1,
     2,
-    1
+    3
   ],
   "colClues": [
+    1,
+    1,
     2,
-    2,
-    0,
     3
   ],
   "themeWord": "papillon",
@@ -50,22 +50,22 @@
       true
     ],
     [
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      false,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 7

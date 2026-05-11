@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
+      "voûter",
+      "allée",
+      "sinistre",
+      "femme"
+    ],
+    [
+      "surfer",
       "toboggan",
       "jeu",
+      "scoliose"
+    ],
+    [
       "massif",
-      "allée"
-    ],
-    [
-      "belote",
-      "kiosque",
-      "sentier",
-      "fontaine"
-    ],
-    [
-      "caillé",
-      "comptoir",
+      "métallique",
       "arbre",
-      "hamster"
+      "kiosque"
     ],
     [
-      "banc",
-      "serveur",
-      "carmin",
-      "sciage"
+      "fontaine",
+      "sentier",
+      "force",
+      "banc"
     ]
   ],
   "rowClues": [
-    4,
-    3,
     1,
-    1
+    2,
+    3,
+    3
   ],
   "colClues": [
     2,
-    2,
     3,
+    2,
     2
   ],
   "themeWord": "parc",
   "solution": [
     [
+      false,
       true,
-      true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false
     ],
     [
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
-      false
+      true
     ]
   ],
   "parMoves": 9

@@ -5,34 +5,34 @@
   "height": 4,
   "words": [
     [
+      "gâteau",
+      "soutenir",
+      "décoration",
+      "géologie"
+    ],
+    [
       "anniversaire",
-      "champagne",
-      "ballon",
-      "gâteau"
-    ],
-    [
       "cadeau",
-      "soustraction",
-      "bal",
-      "feu"
-    ],
-    [
-      "fosse",
-      "miroir",
-      "libellule",
-      "lingot"
+      "diagnostic",
+      "précis"
     ],
     [
       "invitation",
-      "décoration",
-      "paternel",
-      "corbeille"
+      "sonore",
+      "feu",
+      "bal"
+    ],
+    [
+      "réparer",
+      "ballon",
+      "tenace",
+      "champagne"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
     3,
-    0,
     2
   ],
   "colClues": [
@@ -45,20 +45,8 @@
   "solution": [
     [
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false
     ],
     [
@@ -66,6 +54,18 @@
       true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 9

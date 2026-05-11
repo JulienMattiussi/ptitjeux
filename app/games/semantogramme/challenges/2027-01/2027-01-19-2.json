@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "turquoise",
-      "brun",
-      "tabouret",
-      "beige",
-      "chemin"
+      "brûler",
+      "képi",
+      "verdict",
+      "éternel",
+      "flamme"
     ],
     [
-      "clé",
-      "caillou",
-      "mauve",
-      "ocre",
-      "jaune"
+      "serpillière",
+      "démon",
+      "aviateur",
+      "gouffre",
+      "fourche"
     ],
     [
-      "ocre",
-      "porte",
-      "rouge",
-      "tournevis",
-      "pince"
+      "gribouiller",
+      "tortue",
+      "plein",
+      "incroyable",
+      "compte"
     ],
     [
-      "mémoire",
-      "gris",
-      "plafond",
-      "gris",
-      "brosse"
+      "damnation",
+      "figuier",
+      "hebdomadaire",
+      "brûlant",
+      "costaud"
     ],
     [
-      "rose",
-      "vert",
-      "mémoire",
-      "timbre",
-      "blanc"
+      "damner",
+      "petite",
+      "feu",
+      "tortueux",
+      "malade"
     ]
   ],
   "rowClues": [
     3,
     3,
-    2,
+    1,
     2,
     3
   ],
   "colClues": [
     3,
-    3,
     2,
-    3,
+    1,
+    4,
     2
   ],
-  "themeWord": "couleur",
+  "themeWord": "enfer",
   "solution": [
     [
       true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
       true,
       true
     ],
     [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

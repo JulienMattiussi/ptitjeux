@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "salle",
+      "cosmique",
+      "couture",
+      "guide",
+      "tableau"
+    ],
+    [
+      "exposition",
       "atelier",
       "vitrine",
-      "basilic"
+      "salissure"
     ],
     [
-      "pavé",
       "galerie",
-      "quille",
-      "frayeur"
+      "patinette",
+      "bonheur",
+      "sculpture"
     ],
     [
-      "guide",
-      "tableau",
-      "pose",
-      "cerisier"
-    ],
-    [
-      "commissaire",
-      "exposition",
-      "sculpture",
-      "collection"
+      "collection",
+      "salle",
+      "décoller",
+      "commissaire"
     ]
   ],
   "rowClues": [
-    3,
-    1,
     2,
-    4
+    3,
+    2,
+    3
   ],
   "colClues": [
     3,
-    4,
     2,
-    1
+    2,
+    3
   ],
   "themeWord": "musée",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
       true,
       false
     ],
     [
-      false,
       true,
       false,
-      false
+      false,
+      true
     ],
     [
       true,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true
     ]
   ],

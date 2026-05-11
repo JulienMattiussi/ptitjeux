@@ -6,46 +6,46 @@
   "words": [
     [
       "foudre",
-      "tonnerre",
-      "détonation",
-      "gants"
-    ],
-    [
-      "éclair",
-      "frisson",
-      "tempête",
-      "cliché"
-    ],
-    [
-      "triangle",
-      "averse",
+      "bambin",
       "vent",
-      "tante"
+      "pulsation"
     ],
     [
-      "nuage",
-      "bouledogue",
+      "détonation",
+      "rougeur",
       "illumination",
-      "rafale"
+      "fille"
+    ],
+    [
+      "or",
+      "averse",
+      "tempête",
+      "éclair"
+    ],
+    [
+      "rafale",
+      "tonnerre",
+      "sagaie",
+      "nuage"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
-    2,
-    2,
     3
   ],
   "colClues": [
     3,
     2,
-    4,
-    1
+    3,
+    2
   ],
   "themeWord": "orage",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false
     ],
@@ -59,12 +59,12 @@
       false,
       true,
       true,
-      false
+      true
     ],
     [
       true,
-      false,
       true,
+      false,
       true
     ]
   ],

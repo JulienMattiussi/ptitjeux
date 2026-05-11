@@ -5,48 +5,48 @@
   "height": 4,
   "words": [
     [
-      "varech",
-      "avenue",
-      "baguette",
-      "évasion"
+      "fugue",
+      "organique",
+      "indépendance",
+      "émancipation"
+    ],
+    [
+      "délivrance",
+      "choix",
+      "ciel",
+      "haie"
     ],
     [
       "libération",
-      "délivrance",
+      "évasion",
+      "acier",
+      "ascenseur"
+    ],
+    [
+      "reins",
+      "enseignement",
       "autonomie",
-      "porte"
-    ],
-    [
-      "indépendance",
-      "fugue",
-      "boutonnière",
       "droit"
-    ],
-    [
-      "émancipation",
-      "ciel",
-      "neige",
-      "choix"
     ]
   ],
   "rowClues": [
-    1,
     3,
     3,
-    3
+    2,
+    2
   ],
   "colClues": [
     3,
+    2,
     3,
-    1,
-    3
+    2
   ],
   "themeWord": "liberté",
   "solution": [
     [
+      true,
       false,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -59,12 +59,12 @@
       true,
       true,
       false,
-      true
+      false
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true
     ]
   ],

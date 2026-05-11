@@ -5,69 +5,76 @@
   "height": 5,
   "words": [
     [
-      "mémoire",
-      "rouge",
-      "étagère",
-      "gris",
-      "cadre"
+      "aigu",
+      "isoloir",
+      "pur",
+      "saturne",
+      "paix"
     ],
     [
-      "jaune",
-      "turquoise",
-      "jardin",
-      "devoir",
-      "argenté"
+      "hibernation",
+      "pulmonaire",
+      "feutré",
+      "sérénité",
+      "chaton"
     ],
     [
-      "pétale",
-      "blanc",
-      "carnet",
-      "règle",
-      "mauve"
+      "tu",
+      "frêle",
+      "muet",
+      "taire",
+      "monastère"
     ],
     [
-      "indigo",
-      "tasse",
-      "beige",
-      "mauve",
-      "tunnel"
+      "altruiste",
+      "calme",
+      "étape",
+      "allégresse",
+      "feutre"
     ],
     [
-      "plateau",
-      "indigo",
-      "bleu",
-      "rouge",
-      "table"
+      "tacite",
+      "garder",
+      "cimetière",
+      "chuchoter",
+      "fleuret"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    3,
+    4,
     2,
-    3,
     3
   ],
   "colClues": [
     2,
-    4,
-    2,
+    1,
     3,
-    2
+    3,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "silencieux",
   "solution": [
     [
       false,
-      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -80,17 +87,10 @@
     [
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

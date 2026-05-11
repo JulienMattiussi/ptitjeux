@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rumeur",
-      "ananas",
-      "melon",
-      "serrure",
-      "banane"
+      "respirer",
+      "dame",
+      "glycogène",
+      "descendre",
+      "sarcasme"
     ],
     [
-      "abricot",
-      "plateau",
-      "rideau",
-      "balai",
-      "citron"
+      "inondation",
+      "coccinelle",
+      "rivet",
+      "toux",
+      "souple"
     ],
     [
-      "plafond",
-      "silence",
-      "miroir",
-      "orange",
-      "lueur"
+      "chakra",
+      "méditation",
+      "oriental",
+      "éduquer",
+      "python"
     ],
     [
-      "écran",
-      "mur",
-      "pelle",
-      "raisin",
-      "kiwi"
+      "paillasson",
+      "pratiquer",
+      "gourou",
+      "méditer",
+      "tapis"
     ],
     [
-      "mûre",
-      "panier",
-      "rideau",
-      "rumeur",
-      "melon"
+      "mantra",
+      "indien",
+      "direct",
+      "matutinal",
+      "chêne"
     ]
   ],
   "rowClues": [
-    3,
-    2,
     1,
-    2,
+    1,
+    3,
+    4,
     2
   ],
   "colClues": [
+    3,
+    3,
     2,
     1,
-    1,
-    2,
-    4
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "yoga",
   "solution": [
     [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       false,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false
     ],
     [
       false,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
       true,
+      true,
       false,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 11
 }

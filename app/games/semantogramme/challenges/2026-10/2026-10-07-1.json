@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "graphisme",
-      "cépage",
-      "menuiserie",
-      "naufrage"
+      "tripe",
+      "pluie",
+      "agrafe",
+      "rectangulaire"
     ],
     [
-      "tête",
-      "enfoncer",
+      "chaussure",
       "planche",
-      "client"
+      "hiver",
+      "rivet"
     ],
     [
-      "bijou",
-      "pulpe",
-      "rivet",
-      "marteau"
+      "marteau",
+      "écouter",
+      "enfoncer",
+      "tirer"
     ],
     [
       "vis",
-      "agrafe",
-      "humidité",
-      "atelier"
+      "tête",
+      "enchantement",
+      "menuiserie"
     ]
   ],
   "rowClues": [
     1,
-    3,
     2,
-    2
+    2,
+    3
   ],
   "colClues": [
     2,
     2,
-    3,
-    1
+    2,
+    2
   ],
   "themeWord": "clou",
   "solution": [
@@ -50,22 +50,22 @@
       false
     ],
     [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
+      false,
       true
     ],
     [
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
-      false
+      true
     ]
   ],
   "parMoves": 8

@@ -5,48 +5,48 @@
   "height": 4,
   "words": [
     [
-      "dague",
+      "taie",
       "traversin",
-      "parure",
-      "sombrero"
+      "démesuré",
+      "chemin"
+    ],
+    [
+      "sommier",
+      "jury",
+      "édredon",
+      "drap"
     ],
     [
       "baldaquin",
-      "pension",
       "oreiller",
-      "sommier"
+      "lamentation",
+      "parure"
     ],
     [
-      "glace",
-      "drap",
-      "lingot",
-      "antenne"
-    ],
-    [
-      "taie",
-      "édredon",
+      "tremper",
+      "consumer",
       "plumeau",
-      "ballon"
+      "violon"
     ]
   ],
   "rowClues": [
     2,
     3,
-    1,
-    3
-  ],
-  "colClues": [
-    2,
-    3,
     3,
     1
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
   ],
   "themeWord": "lit",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
@@ -56,14 +56,14 @@
       true
     ],
     [
-      false,
+      true,
       true,
       false,
-      false
+      true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ]

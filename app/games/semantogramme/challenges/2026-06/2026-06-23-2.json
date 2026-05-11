@@ -5,63 +5,63 @@
   "height": 5,
   "words": [
     [
-      "ciseaux",
-      "carnet",
-      "gel",
-      "gel",
-      "tonnerre"
+      "force",
+      "pince",
+      "tempête",
+      "puissance",
+      "scoliose"
     ],
     [
-      "tapis",
-      "vis",
-      "clé",
-      "rumeur",
-      "gel"
+      "désherber",
+      "paresseux",
+      "orgue",
+      "affection",
+      "puissant"
     ],
     [
-      "caillou",
-      "orage",
-      "nuage",
-      "neige",
-      "glace"
+      "vigoureux",
+      "crustacé",
+      "passage",
+      "remporter",
+      "costaud"
     ],
     [
-      "gel",
-      "nuage",
-      "gel",
-      "manuel",
-      "nuage"
+      "colosse",
+      "muscler",
+      "tonnerre",
+      "audacieux",
+      "robuste"
     ],
     [
-      "foudre",
-      "sol",
-      "glace",
-      "serrure",
-      "tempête"
+      "taureau",
+      "muscle",
+      "hercule",
+      "diaphane",
+      "fortifier"
     ]
   ],
   "rowClues": [
     3,
     1,
+    2,
     4,
-    4,
-    3
+    4
   ],
   "colClues": [
-    2,
-    2,
     4,
     2,
-    5
+    3,
+    1,
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "fort",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true,
-      true
+      false
     ],
     [
       false,
@@ -71,26 +71,26 @@
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       false,
       true
     ],
     [
       true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

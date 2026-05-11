@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "pain",
+      "mort-vivant",
       "farine",
-      "swing",
-      "abeille"
-    ],
-    [
       "apprenti",
-      "pâte",
-      "four",
-      "cèpe"
+      "écosystème"
     ],
     [
-      "chiffon",
-      "fournil",
-      "mie",
-      "bactérie"
-    ],
-    [
-      "thé",
-      "levure",
-      "baguette",
+      "pain",
+      "vermillon",
+      "poussière",
       "pétrin"
+    ],
+    [
+      "baguette",
+      "mie",
+      "canne",
+      "four"
+    ],
+    [
+      "éclosion",
+      "levure",
+      "fournil",
+      "pâte"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
     2,
     3,
     2,
     3
   ],
-  "colClues": [
-    2,
-    4,
-    3,
-    1
-  ],
   "themeWord": "boulanger",
   "solution": [
     [
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false
     ],
     [
+      true,
       false,
+      false,
+      true
+    ],
+    [
       true,
       true,
-      false
+      false,
+      true
     ],
     [
       false,

@@ -5,79 +5,72 @@
   "height": 5,
   "words": [
     [
-      "parfum",
-      "voile",
-      "tennis",
-      "judo",
-      "ciseaux"
+      "marcher",
+      "ennemi",
+      "lutter",
+      "pissenlit",
+      "vaincre"
     ],
     [
-      "savon",
-      "natation",
-      "course",
-      "judo",
-      "ski"
+      "amphi",
+      "résister",
+      "dîner",
+      "combat",
+      "mêlée"
     ],
     [
-      "crayon",
-      "basket",
-      "fusée",
-      "pétale",
-      "danse"
+      "guerre",
+      "texte",
+      "lutte",
+      "fastueux",
+      "armée"
     ],
     [
-      "volley",
-      "racine",
-      "football",
-      "étoile",
-      "basket"
+      "arme",
+      "desquamation",
+      "battre",
+      "affronter",
+      "rivaliser"
     ],
     [
-      "chaise",
-      "jardin",
-      "devoir",
-      "peigne",
-      "football"
+      "duel",
+      "soldat",
+      "maçon",
+      "attaquer",
+      "scruter"
     ]
   ],
   "rowClues": [
     3,
-    4,
     2,
     3,
-    1
+    4,
+    3
   ],
   "colClues": [
-    1,
     3,
     3,
-    2,
-    4
+    3,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "combattre",
   "solution": [
     [
       false,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       false
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
@@ -85,12 +78,19 @@
       true
     ],
     [
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "conservateur",
+      "ring",
       "guitare",
-      "saxophone",
-      "symphonie"
+      "trompette",
+      "frère"
     ],
     [
-      "coquille",
-      "tambour",
-      "croisée",
-      "spectre"
-    ],
-    [
-      "patinette",
-      "double",
       "orgue",
-      "trompette"
+      "violon",
+      "tambour",
+      "gomme"
     ],
     [
-      "âtre",
+      "imprimante",
       "harpe",
+      "diriger",
+      "parent"
+    ],
+    [
       "batterie",
-      "violon"
+      "travée",
+      "plénitude",
+      "saxophone"
     ]
   ],
   "rowClues": [
     2,
+    3,
     1,
-    2,
-    3
+    2
   ],
   "colClues": [
-    0,
+    2,
     3,
-    3,
-    2
+    2,
+    1
   ],
   "themeWord": "instrument",
   "solution": [
@@ -50,21 +50,21 @@
       false
     ],
     [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
       false
     ],
     [
+      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true
     ]
   ],

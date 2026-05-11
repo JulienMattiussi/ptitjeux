@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "fusée",
-      "flûte",
-      "pétale",
-      "symphonie",
-      "opéra"
+      "gliss",
+      "permanente",
+      "rigide",
+      "fossiliser",
+      "caillou"
     ],
     [
-      "coussin",
-      "gomme",
-      "crayon",
-      "brosse",
-      "trompette"
+      "étendre",
+      "béton",
+      "pétrifier",
+      "éclatant",
+      "indépendance"
     ],
     [
-      "guitare",
-      "brosse",
-      "trompette",
-      "tapis",
-      "crayon"
+      "tenace",
+      "marbre",
+      "os",
+      "texte",
+      "acier"
     ],
     [
-      "harpe",
-      "symphonie",
-      "table",
-      "opéra",
-      "règle"
+      "roche",
+      "beauté",
+      "dérapage",
+      "pierre",
+      "solide"
     ],
     [
-      "ombre",
-      "symphonie",
-      "chaise",
-      "chaise",
-      "choeur"
+      "filtre",
+      "ronron",
+      "inflexible",
+      "nervure",
+      "tournebroche"
     ]
   ],
   "rowClues": [
     3,
-    1,
     2,
+    4,
     3,
-    2
+    1
   ],
   "colClues": [
     2,
-    3,
-    1,
+    2,
+    4,
     2,
     3
   ],
-  "themeWord": "musique",
+  "themeWord": "dur",
   "solution": [
     [
       false,
-      true,
       false,
+      true,
       true,
       true
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
       true,
       false,
       false
@@ -80,17 +73,24 @@
     [
       true,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true,
-      false
+      true
     ],
     [
       false,
+      false,
       true,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

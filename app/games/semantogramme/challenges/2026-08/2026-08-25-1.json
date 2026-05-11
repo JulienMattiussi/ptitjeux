@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "alligator",
+      "contact",
+      "temple",
+      "colonne",
+      "écluse"
+    ],
+    [
+      "cathédrale",
+      "palais",
+      "obélisque",
+      "dégainer"
+    ],
+    [
       "statue",
-      "champ",
-      "flamenco"
+      "oignon",
+      "fontaine",
+      "mémorial"
     ],
     [
       "tour",
-      "café",
-      "colonne",
-      "fontaine"
-    ],
-    [
-      "obélisque",
-      "réflexion",
-      "temple",
-      "cathédrale"
-    ],
-    [
-      "pyramide",
-      "palais",
-      "mémorial",
-      "rayonnage"
+      "tristesse",
+      "bigarade",
+      "pyramide"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
     3,
-    3
+    2
   ],
   "colClues": [
     3,
@@ -46,7 +46,13 @@
     [
       false,
       true,
-      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false
     ],
     [
@@ -58,14 +64,8 @@
     [
       true,
       false,
-      true,
+      false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 10

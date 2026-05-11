@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
-      "clé",
-      "plat",
-      "panier",
-      "verre",
-      "ombre"
+      "chrono",
+      "rapide",
+      "délai",
+      "ennemi",
+      "mule"
     ],
     [
-      "épice",
-      "farine",
-      "verre",
-      "chaise",
-      "poêle"
+      "cadran",
+      "bref",
+      "temps",
+      "étirer",
+      "instant"
     ],
     [
-      "balai",
-      "crayon",
-      "tunnel",
-      "règle",
-      "cuillère"
+      "patienter",
+      "léger",
+      "météorite",
+      "perte",
+      "seconde"
     ],
     [
-      "mur",
-      "verre",
-      "évier",
-      "spatule",
-      "frigo"
+      "mesurer",
+      "aiguille",
+      "pure",
+      "précis",
+      "accordéon"
     ],
     [
-      "panneau",
-      "couteau",
-      "racine",
-      "lueur",
-      "épice"
+      "consoler",
+      "voler",
+      "horloge",
+      "attendre",
+      "éphémère"
     ]
   ],
   "rowClues": [
+    3,
+    4,
     2,
-    4,
-    1,
-    4,
-    2
+    3,
+    3
   ],
   "colClues": [
-    1,
     4,
+    3,
+    3,
     2,
-    2,
-    4
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "minute",
   "solution": [
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
       false
     ],
     [
@@ -71,26 +71,26 @@
       true
     ],
     [
-      false,
+      true,
       false,
       false,
       false,
       true
     ],
     [
+      true,
+      true,
       false,
       true,
-      true,
-      true,
-      true
+      false
     ],
     [
       false,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

@@ -5,79 +5,79 @@
   "height": 5,
   "words": [
     [
-      "cuillère",
-      "fourchette",
-      "chaise",
-      "poêle",
-      "recette"
+      "majorité",
+      "démocratique",
+      "garçon",
+      "puéril",
+      "tortueux"
     ],
     [
-      "tournevis",
-      "cuillère",
-      "pelle",
-      "recette",
-      "cuillère"
+      "olive",
+      "défenseur",
+      "élection",
+      "citoyen",
+      "tricoter"
     ],
     [
-      "poêle",
-      "rumeur",
-      "mur",
-      "mur",
-      "pétale"
+      "républicain",
+      "minorité",
+      "mélanger",
+      "humérus",
+      "libre"
     ],
     [
-      "assiette",
-      "devoir",
-      "assiette",
-      "farine",
-      "frigo"
+      "secret",
+      "brochet",
+      "voter",
+      "abstention",
+      "dépouiller"
     ],
     [
-      "carnet",
-      "fourchette",
-      "frigo",
-      "farine",
-      "épice"
+      "urne",
+      "élire",
+      "universel",
+      "scrutin",
+      "lessive"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
     3,
-    1,
     4,
     4
   ],
   "colClues": [
-    3,
-    3,
-    2,
     4,
-    4
+    3,
+    3,
+    3,
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "vote",
   "solution": [
     [
       true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false
     ],
     [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       true,
@@ -85,12 +85,12 @@
       true
     ],
     [
-      false,
       true,
       true,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

@@ -5,57 +5,71 @@
   "height": 5,
   "words": [
     [
-      "taxi",
-      "navette",
-      "tapis",
-      "taxi",
-      "banquier"
+      "rétrécir",
+      "recyclage",
+      "noter",
+      "gouvernemental",
+      "pâte"
     ],
     [
-      "parfum",
-      "étagère",
-      "scooter",
-      "devoir",
-      "moto"
+      "plaque",
+      "molécule",
+      "plier",
+      "heure",
+      "recyclable"
     ],
     [
-      "train",
-      "bus",
-      "étoile",
-      "fusée",
-      "tramway"
+      "colis",
+      "recycler",
+      "supporter",
+      "paquet",
+      "braise"
     ],
     [
-      "navette",
-      "étagère",
-      "moto",
-      "vélo",
-      "taxi"
+      "léger",
+      "boîte",
+      "cartonnage",
+      "emballer",
+      "tablier"
     ],
     [
-      "camion",
-      "silence",
-      "fusée",
-      "jardin",
-      "bureau"
+      "épais",
+      "caméra",
+      "marronnier",
+      "rapidité",
+      "poncer"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    4,
+    3,
+    3,
     4,
     1
   ],
   "colClues": [
     4,
-    2,
-    2,
     3,
-    3
+    2,
+    2,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "carton",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
     [
       true,
       true,
@@ -64,25 +78,11 @@
       false
     ],
     [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
-      true
+      false
     ],
     [
       true,
@@ -92,5 +92,5 @@
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

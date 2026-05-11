@@ -5,70 +5,63 @@
   "height": 5,
   "words": [
     [
-      "pierre",
-      "nuage",
-      "marteau",
-      "racine",
-      "verglas"
+      "nager",
+      "pauser",
+      "soyeux",
+      "plume",
+      "longue"
     ],
     [
-      "arc-en-ciel",
-      "enveloppe",
-      "gel",
-      "glace",
-      "tempête"
+      "mauve",
+      "moelleux",
+      "adoucir",
+      "aiguillée",
+      "fourrure"
     ],
     [
-      "balai",
-      "rosée",
-      "soleil",
-      "plafond",
-      "pluie"
+      "applique",
+      "caresse",
+      "effleurer",
+      "duvet",
+      "bêche"
     ],
     [
-      "brouillard",
-      "chemin",
-      "foudre",
-      "orage",
-      "pluie"
+      "électricien",
+      "pétale",
+      "luxe",
+      "caresser",
+      "apaiser"
     ],
     [
-      "pluie",
-      "arc-en-ciel",
-      "jardin",
-      "brosse",
-      "nuage"
+      "soie",
+      "agneau",
+      "constitution",
+      "satin",
+      "animal"
     ]
   ],
   "rowClues": [
     2,
-    4,
     3,
-    4,
+    3,
+    3,
     3
   ],
   "colClues": [
+    1,
+    4,
     3,
-    3,
-    3,
-    2,
-    5
+    4,
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "doux",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
       true,
-      true
+      false
     ],
     [
       false,
@@ -78,9 +71,16 @@
       true
     ],
     [
-      true,
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       true
     ],
@@ -88,9 +88,9 @@
       true,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

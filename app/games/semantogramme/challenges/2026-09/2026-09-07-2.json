@@ -5,59 +5,59 @@
   "height": 5,
   "words": [
     [
-      "prison",
-      "dent",
-      "chaise",
-      "pelle",
-      "joue"
+      "élever",
+      "nièce",
+      "tombée",
+      "lilliputien",
+      "cousin"
     ],
     [
-      "joue",
-      "tête",
-      "épaule",
-      "pied",
-      "savon"
+      "enfant",
+      "filleul",
+      "félicité",
+      "sourdine",
+      "visiter"
     ],
     [
-      "plafond",
-      "étagère",
-      "dos",
-      "coussin",
-      "parfum"
+      "parent",
+      "sommier",
+      "grenier",
+      "soeur",
+      "cadet"
     ],
     [
-      "ongle",
-      "main",
-      "banquier",
-      "nez",
-      "bouche"
+      "crêpe",
+      "vert-de-gris",
+      "gâter",
+      "tilleul",
+      "bicaméral"
     ],
     [
-      "tête",
-      "caillou",
-      "ciseaux",
-      "tête",
-      "règle"
+      "oncle",
+      "algébrique",
+      "tante",
+      "famille",
+      "descendant"
     ]
   ],
   "rowClues": [
-    2,
-    4,
+    3,
+    3,
+    3,
     1,
-    4,
-    2
+    4
   ],
   "colClues": [
-    3,
-    3,
+    4,
     2,
-    3,
-    2
+    2,
+    2,
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "neveu",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
       false,
@@ -66,22 +66,8 @@
     [
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       true
     ],
     [
@@ -89,8 +75,22 @@
       false,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

@@ -5,58 +5,52 @@
   "height": 4,
   "words": [
     [
-      "matcha",
-      "mortier",
-      "ennui",
-      "iris"
-    ],
-    [
-      "fourchette",
-      "pince",
-      "houblon",
-      "invitation"
-    ],
-    [
-      "louche",
-      "couteau",
-      "passoire",
-      "orgue"
-    ],
-    [
-      "sapin",
-      "sachet",
       "râpe",
-      "kiosque"
+      "fourchette",
+      "globule",
+      "louche"
+    ],
+    [
+      "zodiaque",
+      "pince",
+      "mortier",
+      "sillonner"
+    ],
+    [
+      "semer",
+      "hiver",
+      "passoire",
+      "recevoir"
+    ],
+    [
+      "sillet",
+      "gorge",
+      "maritime",
+      "couteau"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
+    2,
+    1,
     1
   ],
   "colClues": [
+    1,
     2,
-    3,
     2,
-    0
+    2
   ],
   "themeWord": "ustensile",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      false
+      true
     ],
     [
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false
@@ -66,6 +60,12 @@
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 7

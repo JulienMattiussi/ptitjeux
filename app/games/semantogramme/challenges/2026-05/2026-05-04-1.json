@@ -5,55 +5,55 @@
   "height": 4,
   "words": [
     [
-      "faucon",
       "aigle",
-      "étau",
+      "monstre",
+      "immortel",
       "mésange"
     ],
     [
-      "hirondelle",
-      "tarot",
-      "sapajou",
-      "hibou"
-    ],
-    [
-      "couloir",
-      "canari",
-      "concert",
-      "battant"
-    ],
-    [
-      "chrysalide",
-      "pigeon",
       "pinson",
-      "fonte"
+      "ouragan",
+      "canari",
+      "maudit"
+    ],
+    [
+      "respiratoire",
+      "faucon",
+      "concert",
+      "redoutable"
+    ],
+    [
+      "paternel",
+      "hirondelle",
+      "hibou",
+      "pigeon"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     2,
     1,
-    2
+    3
   ],
   "colClues": [
     2,
-    3,
-    1,
+    2,
+    2,
     2
   ],
   "themeWord": "oiseau",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
@@ -65,7 +65,7 @@
       false,
       true,
       true,
-      false
+      true
     ]
   ],
   "parMoves": 8

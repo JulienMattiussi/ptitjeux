@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "foudre",
-      "tempête",
-      "tempête",
-      "brosse",
-      "nuage"
+      "filer",
+      "errer",
+      "détaler",
+      "flèche",
+      "expéditif"
     ],
     [
-      "foudre",
-      "vent",
-      "mémoire",
-      "parfum",
-      "nuage"
+      "biceps",
+      "tampon",
+      "véloce",
+      "oser",
+      "vitesse"
     ],
     [
-      "brouillard",
-      "brouillard",
-      "orage",
-      "voisin",
-      "orage"
+      "guépard",
+      "accélérer",
+      "absence",
+      "saladier",
+      "cavaler"
     ],
     [
-      "vis",
-      "manuel",
-      "rosée",
-      "étoile",
-      "marteau"
+      "éclair",
+      "foncer",
+      "hôpital",
+      "enregistrer",
+      "tempo"
     ],
     [
-      "prison",
-      "glace",
-      "mur",
-      "arc-en-ciel",
-      "prison"
+      "sprint",
+      "mouton",
+      "tenace",
+      "vif",
+      "prompt"
     ]
   ],
   "rowClues": [
     4,
+    2,
+    2,
     3,
-    4,
-    1,
-    2
-  ],
-  "colClues": [
-    3,
-    4,
-    3,
-    1,
     3
   ],
-  "themeWord": "météo",
+  "colClues": [
+    4,
+    2,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "rapide",
   "solution": [
     [
       true,
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true
@@ -67,29 +74,22 @@
       true,
       true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
+      false,
+      true
+    ],
+    [
       true,
-      false
+      false,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 14

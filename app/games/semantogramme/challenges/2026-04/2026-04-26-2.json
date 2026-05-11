@@ -5,57 +5,64 @@
   "height": 5,
   "words": [
     [
-      "bureau",
-      "brouillard",
-      "arc-en-ciel",
-      "neige",
-      "vent"
+      "livre",
+      "badigeonner",
+      "étude",
+      "blonde",
+      "connaissance"
     ],
     [
-      "gel",
+      "intrépide",
+      "étudier",
+      "comprendre",
+      "leçon",
+      "savoir"
+    ],
+    [
+      "tulipe",
       "mémoire",
-      "vent",
-      "tempête",
-      "porte"
+      "mémoriser",
+      "enseignement",
+      "cardio"
     ],
     [
-      "neige",
-      "vent",
-      "gel",
-      "neige",
-      "tournevis"
+      "élève",
+      "assimiler",
+      "révision",
+      "prière",
+      "minimiser"
     ],
     [
-      "gel",
-      "foudre",
-      "mur",
-      "soleil",
-      "caillou"
-    ],
-    [
-      "prison",
-      "lampe",
-      "arc-en-ciel",
-      "orage",
-      "verglas"
+      "concerto",
+      "modeste",
+      "ténèbres",
+      "élastique",
+      "instruire"
     ]
   ],
   "rowClues": [
-    4,
     3,
     4,
     3,
-    3
+    3,
+    1
   ],
   "colClues": [
-    3,
+    2,
     3,
     4,
-    5,
-    2
+    2,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "apprendre",
   "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
     [
       false,
       true,
@@ -64,8 +71,8 @@
       true
     ],
     [
-      true,
       false,
+      true,
       true,
       true,
       false
@@ -74,23 +81,16 @@
       true,
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      true,
       false
     ],
     [
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

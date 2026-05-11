@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "dague",
-      "pizza",
-      "pointe",
-      "spatule"
-    ],
-    [
-      "capot",
-      "queue",
-      "mijoter",
-      "frigo"
-    ],
-    [
-      "four",
-      "salaire",
-      "rôtir",
-      "évier"
+      "pied",
+      "plat",
+      "beau-frère",
+      "rôtir"
     ],
     [
       "poêle",
-      "plat",
+      "chapiteau",
+      "spatule",
+      "voir"
+    ],
+    [
+      "archaïque",
       "cuisinier",
-      "recette"
+      "recette",
+      "évier"
+    ],
+    [
+      "frigo",
+      "parapluie",
+      "mijoter",
+      "four"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     2,
     3,
-    4
+    3
   ],
   "colClues": [
     2,
-    1,
+    2,
     3,
-    4
+    3
   ],
   "themeWord": "cuisine",
   "solution": [
     [
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
+      false,
       true
     ],
     [
       true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      true,
+      false,
       true,
       true
     ]

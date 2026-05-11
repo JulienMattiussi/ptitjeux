@@ -5,73 +5,80 @@
   "height": 5,
   "words": [
     [
-      "turquoise",
-      "chemin",
-      "noir",
-      "bureau",
-      "blanc"
+      "assoupir",
+      "fromage",
+      "saumurer",
+      "jambon",
+      "chips"
     ],
     [
-      "gris",
-      "violet",
-      "cadre",
-      "mauve",
-      "gris"
+      "mariner",
+      "salin",
+      "assaisonner",
+      "sel",
+      "passoire"
     ],
     [
-      "noir",
-      "serrure",
-      "beige",
-      "brosse",
-      "tunnel"
+      "enchère",
+      "sodé",
+      "disparaître",
+      "mer",
+      "défenseur"
     ],
     [
-      "devoir",
-      "tunnel",
-      "gris",
-      "jardin",
-      "jaune"
+      "fiable",
+      "avalanche",
+      "anchois",
+      "écraser",
+      "amanite"
     ],
     [
-      "indigo",
-      "lueur",
-      "beige",
-      "turquoise",
-      "tapis"
+      "rythme",
+      "brasier",
+      "oxydable",
+      "piquant",
+      "expressif"
     ]
   ],
   "rowClues": [
-    3,
+    4,
     4,
     2,
-    2,
-    3
+    1,
+    1
   ],
   "colClues": [
-    4,
     1,
+    3,
+    3,
     4,
-    2,
-    3
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "salé",
   "solution": [
     [
-      true,
       false,
       true,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
       true,
-      false,
       true,
-      true
+      true,
+      false
     ],
     [
+      false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
@@ -80,17 +87,10 @@
     [
       false,
       false,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

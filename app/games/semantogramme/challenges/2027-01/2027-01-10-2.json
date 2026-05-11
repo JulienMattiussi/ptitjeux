@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "bureau",
-      "gomme",
-      "concerto",
-      "guitare",
-      "chant"
+      "stade",
+      "angoisse",
+      "orion",
+      "briller",
+      "firmament"
     ],
     [
-      "piano",
-      "trompette",
-      "piano",
-      "chaise",
-      "piano"
+      "épidermique",
+      "gamin",
+      "courroux",
+      "observer",
+      "astre"
     ],
     [
-      "jazz",
-      "table",
-      "cadre",
-      "opéra",
-      "tambour"
+      "mythique",
+      "vannerie",
+      "lyre",
+      "cassiopée",
+      "lumineuse"
     ],
     [
-      "tunnel",
-      "batterie",
-      "serrure",
-      "concerto",
-      "banquier"
+      "stellaire",
+      "terrifiant",
+      "baleine",
+      "chevalier",
+      "chakra"
     ],
     [
-      "batterie",
-      "trompette",
-      "tunnel",
-      "ciseaux",
-      "carnet"
+      "première",
+      "céleste",
+      "dessiner",
+      "libération",
+      "frêle"
     ]
   ],
   "rowClues": [
     3,
+    2,
     4,
-    3,
     2,
     2
   ],
   "colClues": [
-    3,
-    3,
     2,
+    1,
+    4,
     3,
     3
   ],
-  "themeWord": "musique",
+  "themeWord": "constellation",
   "solution": [
     [
       false,
@@ -64,33 +64,33 @@
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

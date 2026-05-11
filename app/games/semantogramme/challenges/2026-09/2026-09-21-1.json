@@ -5,55 +5,49 @@
   "height": 4,
   "words": [
     [
-      "village",
-      "boulangerie",
-      "agrafeuse",
-      "traversin"
-    ],
-    [
+      "expresso",
+      "conduire",
       "paysan",
+      "village"
+    ],
+    [
+      "invisible",
+      "néphron",
       "pré",
-      "fer",
-      "jambe"
+      "lecteur"
     ],
     [
-      "glace",
-      "géranium",
-      "rural",
-      "salle"
+      "huître",
+      "abri",
+      "aromatique",
+      "rural"
     ],
     [
-      "thon",
+      "potager",
       "verger",
-      "champ",
-      "potager"
+      "innocence",
+      "champ"
     ]
   ],
   "rowClues": [
-    1,
     2,
+    1,
     1,
     3
   ],
   "colClues": [
+    1,
+    1,
     2,
-    2,
-    2,
-    1
+    3
   ],
   "themeWord": "campagne",
   "solution": [
     [
-      true,
       false,
       false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false
+      true
     ],
     [
       false,
@@ -63,8 +57,14 @@
     ],
     [
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      false,
       true
     ]
   ],

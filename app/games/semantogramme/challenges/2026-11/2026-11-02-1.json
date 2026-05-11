@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "roi",
-      "grange",
-      "champagne",
-      "dame"
+      "piquant",
+      "bouquet",
+      "mitrailler",
+      "roi"
     ],
     [
-      "temple",
-      "rafale",
+      "dame",
+      "sanctuaire",
+      "enfouir",
+      "caustique"
+    ],
+    [
+      "bouclier",
+      "rénover",
       "château",
-      "bouclier"
-    ],
-    [
-      "tournoi",
-      "perroquet",
-      "doctorat",
       "épée"
     ],
     [
-      "écouvillon",
-      "écuyer",
+      "tournoi",
       "joute",
-      "cône"
+      "commission",
+      "écuyer"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    2
+    1,
+    1,
+    3,
+    3
   ],
   "colClues": [
-    2,
+    3,
     1,
-    2,
+    1,
     3
   ],
   "themeWord": "chevalier",
   "solution": [
     [
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 8

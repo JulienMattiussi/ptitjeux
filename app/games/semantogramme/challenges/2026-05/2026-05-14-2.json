@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "lion",
-      "belette",
-      "rideau",
-      "souris",
-      "pierre"
+      "joie",
+      "ingérer",
+      "scène",
+      "séquence",
+      "merveilleux"
     ],
     [
-      "plafond",
-      "belette",
-      "balai",
-      "koala",
-      "table"
+      "étain",
+      "gond",
+      "vidéo",
+      "documenter",
+      "acteur"
     ],
     [
-      "globe",
-      "parfum",
-      "pince",
-      "belette",
-      "tunnel"
+      "soudain",
+      "enregistrer",
+      "projeter",
+      "prêt",
+      "défenseur"
     ],
     [
-      "lapin",
-      "mémoire",
-      "chien",
-      "horloge",
-      "sol"
+      "hamster",
+      "plan",
+      "cinéaste",
+      "capturer",
+      "enterrement"
     ],
     [
-      "lynx",
-      "panda",
-      "enveloppe",
-      "table",
-      "vache"
+      "réalisateur",
+      "avenue",
+      "kayak",
+      "rebond",
+      "cinématographie"
     ]
   ],
   "rowClues": [
+    2,
     3,
     2,
-    1,
-    2,
-    3
+    3,
+    2
   ],
   "colClues": [
-    3,
-    3,
     1,
+    2,
+    4,
     3,
-    1
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "filmer",
   "solution": [
     [
-      true,
-      true,
+      false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false
     ],
     [
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "coeur",
-      "racine",
-      "jardin",
-      "dos",
-      "vis"
+      "absence",
+      "sommet",
+      "momie",
+      "préserver",
+      "triangulaire"
     ],
     [
-      "tasse",
-      "oreille",
-      "oreille",
-      "coeur",
-      "panier"
+      "égypte",
+      "mystérieuse",
+      "tombeau",
+      "indiquer",
+      "enterrer"
     ],
     [
-      "coeur",
-      "jardin",
-      "plafond",
-      "timbre",
-      "bras"
+      "sable",
+      "pharaon",
+      "logiciel",
+      "hiéroglyphe",
+      "construire"
     ],
     [
-      "devoir",
-      "panneau",
-      "jambe",
-      "rumeur",
-      "lèvre"
+      "sphinx",
+      "caillot",
+      "tante",
+      "durée",
+      "globe"
     ],
     [
-      "mémoire",
-      "bras",
-      "langue",
-      "brosse",
-      "main"
+      "monumentale",
+      "flaque",
+      "séculaire",
+      "contact",
+      "reliure"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    2,
-    3
+    4,
+    4,
+    4,
+    1,
+    1
   ],
   "colClues": [
-    2,
-    2,
+    4,
     3,
+    2,
     2,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "pyramide",
   "solution": [
     [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

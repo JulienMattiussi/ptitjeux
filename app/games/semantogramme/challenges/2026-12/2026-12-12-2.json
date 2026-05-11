@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "banquier",
-      "éclair",
-      "tunnel",
-      "tournevis",
-      "tabouret"
+      "foin",
+      "lame",
+      "durcir",
+      "carbone",
+      "diagnostic"
     ],
     [
-      "tonnerre",
-      "éclair",
-      "clé",
-      "sol",
-      "écran"
+      "industrie",
+      "inoxydable",
+      "forger",
+      "résistant",
+      "souiller"
     ],
     [
-      "arc-en-ciel",
-      "étoile",
-      "gel",
-      "gel",
-      "carnet"
+      "célébrer",
+      "épée",
+      "éléphant",
+      "mammouth",
+      "industriel"
     ],
     [
-      "mémoire",
-      "éclair",
-      "verglas",
-      "neige",
-      "rosée"
+      "putter",
+      "métallique",
+      "tremper",
+      "ouistiti",
+      "commander"
     ],
     [
-      "éclair",
-      "éclair",
-      "gel",
-      "gomme",
-      "éclair"
+      "fer",
+      "visser",
+      "métal",
+      "forge",
+      "haïku"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
     4,
-    4
+    2,
+    2,
+    3
   ],
   "colClues": [
-    3,
+    2,
+    4,
     4,
     3,
-    2,
-    2
+    1
   ],
-  "themeWord": "météo",
+  "themeWord": "acier",
   "solution": [
     [
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       false
     ],
     [
       true,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
@@ -80,16 +73,23 @@
     [
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 14

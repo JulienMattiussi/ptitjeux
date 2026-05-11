@@ -5,76 +5,69 @@
   "height": 5,
   "words": [
     [
-      "ciseaux",
-      "coussin",
-      "nez",
-      "genou",
-      "ombre"
+      "comté",
+      "rougeoyante",
+      "albâtre",
+      "vociférer",
+      "farine"
     ],
     [
-      "joue",
-      "sol",
-      "peau",
-      "serrure",
-      "globe"
+      "crème",
+      "cygne",
+      "frigo",
+      "lys",
+      "sucre"
     ],
     [
-      "timbre",
-      "dos",
-      "bras",
-      "globe",
-      "main"
+      "nuage",
+      "ivoire",
+      "partager",
+      "latte",
+      "craie"
     ],
     [
-      "doigt",
-      "ongle",
-      "pétale",
-      "timbre",
-      "oeil"
+      "neige",
+      "bonhomme",
+      "fastoyer",
+      "argenté",
+      "artistique"
     ],
     [
-      "étagère",
-      "gomme",
-      "sol",
-      "dent",
-      "coussin"
+      "distinction",
+      "médecin",
+      "porcelaine",
+      "pâle",
+      "lait"
     ]
   ],
   "rowClues": [
     2,
+    4,
+    3,
     2,
-    3,
-    3,
-    1
+    3
   ],
   "colClues": [
+    3,
     2,
     2,
     3,
-    2,
-    2
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "blanc",
   "solution": [
     [
       false,
       false,
       true,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      false,
       true
     ],
     [
@@ -85,12 +78,19 @@
       true
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

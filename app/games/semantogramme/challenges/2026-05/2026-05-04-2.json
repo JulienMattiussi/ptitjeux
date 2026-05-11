@@ -5,67 +5,74 @@
   "height": 5,
   "words": [
     [
-      "pétale",
-      "silence",
-      "tapis",
-      "foudre",
-      "crayon"
+      "succès",
+      "gain",
+      "pensée",
+      "fleuret",
+      "brun"
     ],
     [
-      "marteau",
-      "gel",
-      "foudre",
-      "neige",
-      "vent"
+      "trophée",
+      "bilan",
+      "larmoyer",
+      "médaille",
+      "dracula"
     ],
     [
-      "gel",
-      "orage",
-      "serrure",
-      "fusée",
-      "verglas"
+      "prix",
+      "assimiler",
+      "remporter",
+      "vainqueur",
+      "triompher"
     ],
     [
-      "éclair",
-      "étagère",
-      "vent",
-      "bureau",
-      "brouillard"
+      "champion",
+      "décrocher",
+      "victoire",
+      "vessie",
+      "alliage"
     ],
     [
-      "glace",
-      "cadre",
-      "miroir",
-      "éclair",
-      "pluie"
+      "aîné",
+      "récompense",
+      "apogée",
+      "vaincre",
+      "mériter"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    2,
     4,
-    3,
     3,
     3
   ],
   "colClues": [
+    4,
     3,
     2,
-    2,
     3,
-    4
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "gagner",
   "solution": [
     [
+      true,
+      true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true,
       false
     ],
     [
-      false,
       true,
+      false,
       true,
       true,
       true
@@ -73,20 +80,13 @@
     [
       true,
       true,
+      true,
       false,
-      false,
-      true
+      false
     ],
     [
-      true,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
       true

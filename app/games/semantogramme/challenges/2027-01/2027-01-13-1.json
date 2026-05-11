@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "veau",
-      "taureau",
-      "pis",
+      "admirer",
+      "lait",
+      "normande",
       "troupeau"
     ],
     [
-      "allégresse",
-      "cortège",
-      "normande",
-      "génisse"
-    ],
-    [
-      "maman",
-      "sabot",
-      "pré",
-      "cargo"
-    ],
-    [
-      "nourrir",
+      "taureau",
       "meuglement",
-      "lait",
-      "chic"
+      "crapaud",
+      "marais"
+    ],
+    [
+      "pré",
+      "royale",
+      "grizzli",
+      "pis"
+    ],
+    [
+      "grimoire",
+      "génisse",
+      "sabot",
+      "veau"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
     2,
-    2
+    3
   ],
   "colClues": [
-    1,
+    2,
     3,
-    4,
-    2
+    2,
+    3
   ],
   "themeWord": "vache",
   "solution": [
     [
-      true,
+      false,
       true,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 10

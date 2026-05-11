@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cyclisme",
-      "boxe",
-      "rugby",
-      "escalade",
-      "manuel"
+      "roman",
+      "comprimer",
+      "consulter",
+      "déchiffrer",
+      "librairie"
     ],
     [
-      "ski",
-      "voile",
-      "coussin",
-      "volley",
-      "boxe"
+      "cachalot",
+      "mot",
+      "lecture",
+      "cafard",
+      "épaule"
     ],
     [
-      "vis",
-      "volley",
-      "pelle",
-      "serrure",
-      "porte"
+      "page",
+      "lecteur",
+      "crocus",
+      "nettoyage",
+      "chapitre"
     ],
     [
-      "gym",
-      "escalade",
-      "voile",
-      "rideau",
-      "football"
+      "fulgurant",
+      "texte",
+      "nourrir",
+      "signet",
+      "recueil"
     ],
     [
-      "golf",
-      "panneau",
-      "mur",
-      "lampe",
-      "prière"
+      "liseuse",
+      "bibliothèque",
+      "feuilleter",
+      "épeler",
+      "manuscrit"
     ]
   ],
   "rowClues": [
     4,
-    4,
     1,
-    4,
-    1
+    3,
+    3,
+    4
   ],
   "colClues": [
-    4,
-    4,
-    2,
-    2,
-    2
+    3,
+    3,
+    3,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "lire",
   "solution": [
     [
       true,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
+      false,
       false
     ],
     [
       true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

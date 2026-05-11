@@ -5,47 +5,47 @@
   "height": 4,
   "words": [
     [
-      "héros",
-      "salon",
-      "ciel",
-      "péripétie"
+      "couverture",
+      "risque",
+      "période",
+      "découverte"
     ],
     [
-      "expédition",
-      "sciage",
-      "découverte",
-      "opposition"
-    ],
-    [
-      "ordinateur",
       "mystère",
+      "cacher",
       "danger",
-      "risque"
+      "collant"
     ],
     [
+      "irlande",
+      "péripétie",
+      "poêle",
+      "héros"
+    ],
+    [
+      "photo",
       "exploration",
-      "prêtre",
-      "tondeuse",
-      "café"
+      "char",
+      "expédition"
     ]
   ],
   "rowClues": [
     2,
     2,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    1,
     2,
     2
+  ],
+  "colClues": [
+    1,
+    3,
+    1,
+    3
   ],
   "themeWord": "aventure",
   "solution": [
     [
-      true,
       false,
+      true,
       false,
       true
     ],
@@ -58,14 +58,14 @@
     [
       false,
       true,
-      true,
+      false,
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      false
+      true
     ]
   ],
   "parMoves": 8

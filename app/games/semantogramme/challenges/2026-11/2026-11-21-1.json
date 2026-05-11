@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "instituteur",
-      "professeur",
-      "classe",
-      "pédagogie"
-    ],
-    [
-      "curcuma",
-      "véranda",
+      "tennis",
       "maître",
-      "inondation"
-    ],
-    [
-      "casserole",
-      "cahier",
       "élève",
-      "tableau"
+      "professeur"
     ],
     [
-      "moderne",
-      "venin",
-      "pousse",
-      "cours"
+      "classe",
+      "mot",
+      "tableau",
+      "nature"
+    ],
+    [
+      "instituteur",
+      "cahier",
+      "résultat",
+      "fitness"
+    ],
+    [
+      "brûler",
+      "cours",
+      "pédagogie",
+      "amarre"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     3,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
-    1,
     2,
     3,
-    3
+    3,
+    1
   ],
   "themeWord": "enseignant",
   "solution": [
     [
-      true,
+      false,
       true,
       true,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false
     ],
     [
       false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 9

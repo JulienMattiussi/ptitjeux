@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "jambe",
-      "carnet",
-      "chaise",
-      "balai",
-      "lampe"
+      "truite",
+      "tomber",
+      "sommeil",
+      "ténèbres",
+      "étoile"
     ],
     [
-      "plateau",
-      "cadre",
-      "racine",
-      "bras",
-      "marteau"
+      "détente",
+      "épancher",
+      "cauchemar",
+      "rêver",
+      "tardif"
     ],
     [
-      "chaise",
-      "genou",
-      "tête",
-      "bureau",
-      "lèvre"
+      "rêve",
+      "équipage",
+      "nocturne",
+      "cinéaste",
+      "pamplemousse"
     ],
     [
-      "globe",
-      "jardin",
-      "bras",
-      "étoile",
-      "clé"
+      "arracher",
+      "souterraine",
+      "chouette",
+      "silence",
+      "européen"
     ],
     [
-      "banquier",
-      "manuel",
-      "sol",
-      "oreille",
-      "lèvre"
+      "noir",
+      "obscurité",
+      "rose",
+      "minuit",
+      "sombre"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     3,
-    1,
-    2
+    3,
+    2,
+    2,
+    4
   ],
   "colClues": [
-    1,
-    1,
     2,
-    2,
-    2
+    1,
+    4,
+    4,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "nuit",
   "solution": [
     [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      false,
       true
     ],
     [
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       false
     ],
     [
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 14
 }

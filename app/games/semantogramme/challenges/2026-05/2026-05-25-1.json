@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "temple",
-      "blanc",
-      "cliché",
-      "rond"
-    ],
-    [
-      "équinoxe",
       "cépage",
-      "hachoir",
-      "rouge"
+      "cygne",
+      "couette",
+      "beaujolais"
     ],
     [
+      "prisme",
+      "blanc",
       "rosé",
-      "tannin",
-      "bordeaux",
-      "dette"
+      "tonner"
     ],
     [
-      "imprimante",
-      "cantique",
-      "beaujolais",
+      "tannin",
+      "rythme",
+      "rouge",
+      "division"
+    ],
+    [
+      "bordeaux",
+      "hôpital",
+      "haleine",
       "champagne"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    3,
+    2,
+    2,
     2
   ],
   "colClues": [
-    1,
     3,
+    1,
     2,
     2
   ],
   "themeWord": "vin",
   "solution": [
     [
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false
     ],
     [
-      false,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true
     ]
   ],

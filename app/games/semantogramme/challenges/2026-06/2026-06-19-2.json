@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rideau",
-      "gym",
-      "natation",
-      "tennis",
-      "natation"
+      "fossile",
+      "antique",
+      "vieillir",
+      "vieillard",
+      "erreur"
     ],
     [
-      "cyclisme",
-      "étagère",
-      "ciseaux",
-      "danse",
-      "escalade"
+      "emporter",
+      "cabernet",
+      "vétuste",
+      "albâtre",
+      "patriarche"
     ],
     [
-      "pierre",
-      "boxe",
-      "enveloppe",
-      "livre",
-      "coussin"
+      "caduc",
+      "bière",
+      "centenaire",
+      "antiquité",
+      "relique"
     ],
     [
-      "serrure",
-      "gym",
-      "racine",
-      "basket",
-      "panier"
+      "vendredi",
+      "crocodile",
+      "fraise",
+      "antiquaire",
+      "archaïque"
     ],
     [
-      "brosse",
-      "enveloppe",
-      "pétale",
-      "boxe",
-      "football"
+      "décrépir",
+      "aïeul",
+      "véranda",
+      "vague",
+      "ancêtre"
     ]
   ],
   "rowClues": [
     4,
-    3,
-    1,
     2,
-    2
-  ],
-  "colClues": [
-    1,
-    3,
-    1,
     4,
+    2,
     3
   ],
-  "themeWord": "sport",
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    4
+  ],
+  "themeWord": "vieux",
   "solution": [
     [
-      false,
       true,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
       false,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

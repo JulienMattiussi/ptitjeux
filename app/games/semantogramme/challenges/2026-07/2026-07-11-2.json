@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "étoile",
-      "rivage",
-      "prière",
-      "vague",
-      "voisin"
+      "fêter",
+      "intelligence",
+      "réfléchir",
+      "révolution",
+      "marionnette"
     ],
     [
-      "timbre",
-      "ombre",
-      "rivage",
-      "marin",
-      "plage"
+      "perroquet",
+      "mémoriser",
+      "malicieux",
+      "perruque",
+      "inaltérable"
     ],
     [
-      "jardin",
-      "bateau",
-      "écume",
-      "plage",
-      "bateau"
+      "mental",
+      "remplacer",
+      "armure",
+      "lobe",
+      "cérébral"
     ],
     [
-      "méduse",
-      "carnet",
-      "rivage",
-      "pétale",
-      "écaille"
+      "longueur",
+      "gazeux",
+      "haïku",
+      "crâne",
+      "mémoire"
     ],
     [
-      "poisson",
-      "poisson",
-      "silence",
-      "maison",
-      "table"
+      "penser",
+      "idée",
+      "duffel-coat",
+      "chauve",
+      "pensée"
     ]
   ],
   "rowClues": [
     2,
+    1,
     3,
-    4,
-    3,
-    2
+    2,
+    3
   ],
   "colClues": [
     2,
     3,
-    3,
-    3,
+    1,
+    2,
     3
   ],
-  "themeWord": "mer",
+  "themeWord": "cerveau",
   "solution": [
     [
       false,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
       false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

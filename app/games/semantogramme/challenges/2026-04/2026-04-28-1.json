@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "couloir",
-      "volley",
-      "chasse",
-      "équinoxe"
+      "poids",
+      "atterrissage",
+      "violet",
+      "récolte"
     ],
     [
-      "embouchure",
-      "mardi",
-      "floraison",
-      "gouttelette"
-    ],
-    [
-      "récolte",
-      "mue",
-      "hiver",
-      "migration"
+      "reprise",
+      "silex",
+      "équinoxe",
+      "paradis"
     ],
     [
       "feuillage",
-      "maïs",
-      "applaudissement",
-      "printemps"
+      "hiver",
+      "pleurote",
+      "floraison"
+    ],
+    [
+      "printemps",
+      "migration",
+      "mue",
+      "byzantin"
     ]
   ],
   "rowClues": [
     1,
     1,
-    4,
-    2
+    3,
+    3
   ],
   "colClues": [
     2,
-    1,
     2,
-    3
+    2,
+    2
   ],
   "themeWord": "saison",
   "solution": [
@@ -58,14 +58,14 @@
     [
       true,
       true,
-      true,
+      false,
       true
     ],
     [
       true,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 8

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "mur",
-      "tunnel",
-      "manuel",
-      "marin",
-      "porte"
+      "protéine",
+      "tagueur",
+      "régulier",
+      "sportif",
+      "salle"
     ],
     [
-      "sable",
-      "poisson",
-      "thon",
-      "méduse",
-      "étoile"
+      "mobile",
+      "maculer",
+      "capuche",
+      "barre",
+      "biceps"
     ],
     [
-      "thon",
-      "rivage",
-      "tabouret",
-      "table",
-      "marin"
+      "polaire",
+      "gentilhomme",
+      "mars",
+      "écouter",
+      "banc"
     ],
     [
-      "jardin",
-      "sol",
-      "plage",
-      "panneau",
-      "écaille"
+      "haltère",
+      "intensif",
+      "dauphin",
+      "honorer",
+      "rêve"
     ],
     [
-      "vis",
-      "prison",
-      "poisson",
-      "pince",
-      "vague"
+      "monumentale",
+      "répétition",
+      "soulever",
+      "pair",
+      "nièce"
     ]
   ],
   "rowClues": [
-    1,
     4,
-    3,
+    2,
+    1,
     2,
     2
   ],
   "colClues": [
     2,
     2,
-    3,
+    2,
     2,
     3
   ],
-  "themeWord": "mer",
+  "themeWord": "musculation",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
+      false,
       true,
       true,
-      true,
-      true,
+      false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

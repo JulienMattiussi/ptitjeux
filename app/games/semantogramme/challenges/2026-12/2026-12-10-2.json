@@ -5,73 +5,66 @@
   "height": 5,
   "words": [
     [
-      "pince",
-      "marteau",
-      "vache",
-      "ombre",
-      "lynx"
+      "médiévale",
+      "bilan",
+      "massive",
+      "militaire",
+      "siège"
     ],
     [
-      "chien",
-      "girafe",
-      "horloge",
-      "castor",
-      "écureuil"
+      "ver",
+      "jongleur",
+      "simplifier",
+      "rempart",
+      "modeste"
     ],
     [
-      "lion",
-      "plafond",
-      "ombre",
-      "souris",
-      "manuel"
+      "instantané",
+      "fortifier",
+      "pont-levis",
+      "défendre",
+      "veste"
     ],
     [
-      "brosse",
-      "rumeur",
-      "lapin",
-      "lampe",
-      "souris"
+      "tamarin",
+      "bière",
+      "tour",
+      "meurtrière",
+      "calligraphie"
     ],
     [
-      "lion",
-      "girafe",
-      "mouton",
-      "pierre",
-      "écureuil"
+      "donjon",
+      "soldat",
+      "satire",
+      "populaire",
+      "comprimé"
     ]
   ],
   "rowClues": [
-    2,
     4,
+    1,
+    3,
     2,
-    2,
-    4
+    2
   ],
   "colClues": [
-    3,
+    2,
     2,
     3,
-    2,
-    4
+    4,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "forteresse",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       false,
       true,
@@ -79,18 +72,25 @@
     ],
     [
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
       true,
-      true,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

@@ -5,64 +5,64 @@
   "height": 4,
   "words": [
     [
+      "football",
+      "poirier",
       "dépôt",
+      "carte"
+    ],
+    [
       "prêt",
-      "agence",
-      "virement"
-    ],
-    [
-      "banc",
-      "préface",
-      "fougère",
-      "sel"
-    ],
-    [
-      "roulé",
-      "carte",
-      "corner",
-      "taie"
+      "topaze",
+      "virement",
+      "neige"
     ],
     [
       "compte",
+      "compliment",
+      "agence",
+      "hibou"
+    ],
+    [
+      "dribbler",
       "crédit",
-      "averse",
-      "agate"
+      "politique",
+      "enseignement"
     ]
   ],
   "rowClues": [
-    4,
-    0,
-    1,
-    2
+    2,
+    2,
+    2,
+    1
   ],
   "colClues": [
     2,
-    3,
     1,
+    3,
     1
   ],
   "themeWord": "banque",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ],
     [
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false

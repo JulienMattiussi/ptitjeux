@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vert",
-      "vert",
-      "voisin",
-      "ocre",
-      "rumeur"
+      "porte-jarretelles",
+      "abattre",
+      "fierté",
+      "calligraphie",
+      "perfusion"
     ],
     [
-      "blanc",
-      "règle",
-      "turquoise",
-      "carnet",
-      "étagère"
+      "trappiste",
+      "synthétique",
+      "fibre",
+      "centenaire",
+      "temple"
     ],
     [
-      "lampe",
-      "rose",
-      "brun",
-      "prière",
-      "carnet"
+      "branche",
+      "cerne",
+      "guidon",
+      "cramoisi",
+      "racine"
     ],
     [
-      "voisin",
-      "étoile",
-      "rideau",
-      "crayon",
-      "vert"
+      "noeud",
+      "minestrone",
+      "sève",
+      "casier",
+      "danse"
     ],
     [
-      "miroir",
-      "vert",
-      "chemin",
-      "cadre",
-      "vert"
+      "arbre",
+      "pousser",
+      "massif",
+      "fendre",
+      "stratus"
     ]
   ],
   "rowClues": [
+    1,
+    2,
     3,
     2,
-    2,
-    1,
-    2
+    4
   ],
   "colClues": [
-    2,
+    3,
+    3,
     3,
     2,
-    1,
-    2
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "tronc",
   "solution": [
     [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false
     ],
     [
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true
     ],
     [
+      true,
       false,
       true,
       false,
-      false,
-      true
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

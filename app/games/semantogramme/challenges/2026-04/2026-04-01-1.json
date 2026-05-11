@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "pivoine",
-      "tulipe",
-      "marguerite",
-      "iris"
+      "mimosa",
+      "iris",
+      "tonnerre",
+      "capitaine"
     ],
     [
-      "jasmin",
-      "match",
+      "tic-tac",
+      "violette",
       "dahlia",
       "rose"
     ],
     [
-      "crustacé",
-      "toupie",
-      "reliure",
-      "mimosa"
+      "vitesse",
+      "jasmin",
+      "logique",
+      "pivoine"
     ],
     [
-      "jonquille",
-      "bouton",
-      "gradin",
-      "violette"
+      "tulipe",
+      "déguisement",
+      "marguerite",
+      "jonquille"
     ]
   ],
   "rowClues": [
-    4,
+    2,
     3,
-    1,
-    2
+    2,
+    3
   ],
   "colClues": [
-    3,
-    1,
     2,
-    4
+    3,
+    2,
+    3
   ],
   "themeWord": "fleur",
   "solution": [
     [
       true,
       true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true
     ],
     [
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true
     ]
   ],

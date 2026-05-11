@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "règle",
-      "règle",
-      "voile",
-      "panier",
-      "natation"
+      "lèchefrite",
+      "plasma",
+      "couler",
+      "plaie",
+      "transfusion"
     ],
     [
-      "danse",
-      "cadre",
-      "football",
-      "boxe",
-      "tennis"
+      "embellir",
+      "inox",
+      "circuler",
+      "uppercut",
+      "hémorragie"
     ],
     [
-      "cyclisme",
-      "écran",
-      "danse",
-      "vis",
-      "marathon"
+      "caillot",
+      "sanguin",
+      "sauvage",
+      "artère",
+      "démocratie"
     ],
     [
-      "mur",
-      "football",
-      "ciseaux",
-      "rugby",
-      "lueur"
+      "hématome",
+      "globule",
+      "veine",
+      "griffonner",
+      "hémoglobine"
     ],
     [
-      "racine",
-      "basket",
-      "horloge",
-      "agenda",
-      "marathon"
+      "havresac",
+      "brûlant",
+      "sanglant",
+      "remettre",
+      "écarlate"
     ]
   ],
   "rowClues": [
-    2,
     4,
-    3,
     2,
+    3,
+    4,
     2
   ],
   "colClues": [
     2,
-    2,
     3,
+    4,
     2,
     4
   ],
-  "themeWord": "sport",
+  "themeWord": "sang",
   "solution": [
     [
       false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false,
@@ -65,32 +72,25 @@
     ],
     [
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true,
       false
     ],
     [
-      false,
+      true,
+      true,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

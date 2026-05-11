@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "sable",
-      "vague",
-      "méduse",
-      "écaille",
-      "tournevis"
+      "bond",
+      "saphir",
+      "évacuer",
+      "marin",
+      "turquoise"
     ],
     [
-      "pétale",
-      "écume",
-      "vague",
-      "vague",
-      "sable"
+      "aigue-marine",
+      "élargir",
+      "glace",
+      "deuil",
+      "cyan"
     ],
     [
-      "jardin",
-      "crabe",
-      "panneau",
-      "prière",
-      "dauphin"
+      "azur",
+      "écailles",
+      "hanter",
+      "beignet",
+      "nourrisson"
     ],
     [
-      "tabouret",
-      "dauphin",
-      "ciseaux",
-      "savon",
-      "écume"
+      "polluant",
+      "lapis",
+      "pure",
+      "délectable",
+      "monstre"
     ],
     [
-      "caillou",
-      "requin",
-      "crabe",
-      "sardine",
-      "tasse"
+      "plaie",
+      "cobalt",
+      "profond",
+      "bras",
+      "céleste"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    2,
-    2,
+    3,
+    3,
+    1,
+    1,
     3
   ],
   "colClues": [
+    2,
+    3,
+    2,
     1,
-    5,
-    3,
-    3,
     3
   ],
-  "themeWord": "mer",
+  "themeWord": "bleu",
   "solution": [
     [
+      false,
       true,
+      false,
       true,
+      true
+    ],
+    [
       true,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

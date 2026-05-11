@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rouge",
-      "doré",
-      "doré",
-      "cadre",
-      "panier"
+      "traversin",
+      "maquette",
+      "neige",
+      "abandonner",
+      "moelleux"
     ],
     [
-      "mauve",
-      "rouge",
-      "rumeur",
-      "lueur",
-      "manuel"
+      "dribble",
+      "rayon",
+      "frigo",
+      "tropicale",
+      "frigorifique"
     ],
     [
-      "parfum",
-      "rose",
-      "violet",
-      "orange",
-      "porte"
+      "hiver",
+      "chien",
+      "congeler",
+      "lumbago",
+      "monastère"
     ],
     [
-      "chemin",
-      "brun",
-      "argenté",
-      "tasse",
-      "argenté"
+      "pièce",
+      "gel",
+      "frais",
+      "iceberg",
+      "congélateur"
     ],
     [
-      "mur",
-      "brun",
-      "ocre",
-      "plateau",
-      "violet"
+      "geler",
+      "relaxant",
+      "cou",
+      "refroidir",
+      "glaçon"
     ]
   ],
   "rowClues": [
-    3,
+    1,
     2,
-    3,
-    3,
+    2,
+    4,
     3
   ],
   "colClues": [
     2,
-    5,
-    4,
     1,
-    2
+    4,
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "froid",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true
     ],
     [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

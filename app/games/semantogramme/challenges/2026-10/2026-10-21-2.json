@@ -5,66 +5,73 @@
   "height": 5,
   "words": [
     [
-      "sol",
-      "écran",
-      "cuillère",
-      "pelle",
-      "peigne"
+      "talonneur",
+      "descendre",
+      "lune",
+      "couloir",
+      "pèlerin"
     ],
     [
-      "pierre",
-      "fusée",
-      "recette",
-      "cuillère",
-      "cuillère"
+      "cousin",
+      "concentration",
+      "terme",
+      "coefficient",
+      "basse"
     ],
     [
-      "frigo",
-      "spatule",
-      "timbre",
-      "tasse",
-      "table"
+      "lunaire",
+      "bigarade",
+      "rivage",
+      "flux",
+      "haute"
     ],
     [
-      "caillou",
-      "tabouret",
-      "épice",
-      "couteau",
-      "voisin"
+      "reflux",
+      "inonder",
+      "tacher",
+      "descendante",
+      "cycle"
     ],
     [
-      "silence",
-      "caillou",
-      "tablier",
-      "assiette",
-      "parfum"
+      "monter",
+      "province",
+      "savon",
+      "maritime",
+      "estran"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
     2,
-    2
+    4,
+    4,
+    3
   ],
   "colClues": [
-    1,
-    1,
-    4,
     3,
-    1
+    2,
+    2,
+    4,
+    4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "marée",
   "solution": [
     [
       false,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       true,
       true,
@@ -74,23 +81,16 @@
       true,
       true,
       false,
-      false,
-      false
+      true,
+      true
     ],
     [
+      true,
       false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 15
 }

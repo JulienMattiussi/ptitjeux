@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "rhum",
-      "antibiotique",
-      "lucarne",
-      "cumulus"
+      "sangria",
+      "martini",
+      "éléphant",
+      "essai"
     ],
     [
       "bar",
-      "martini",
-      "shaker",
-      "béret"
+      "apéritif",
+      "ministériel",
+      "antiquité"
     ],
     [
-      "paille",
-      "selle",
+      "veine",
+      "biceps",
       "punch",
-      "constellation"
+      "moite"
     ],
     [
-      "pierre",
-      "comédie",
-      "sangria",
-      "apéritif"
+      "campanile",
+      "shaker",
+      "paille",
+      "rhum"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
-    2
+    2,
+    1,
+    3
   ],
   "colClues": [
+    2,
     3,
-    1,
-    3,
+    2,
     1
   ],
   "themeWord": "cocktail",
   "solution": [
     [
       true,
-      false,
+      true,
       false,
       false
     ],
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
       false
     ],
     [
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true
     ]

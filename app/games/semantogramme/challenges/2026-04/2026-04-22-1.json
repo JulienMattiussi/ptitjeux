@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "fantôme",
-      "carapace",
-      "toque",
-      "national"
+      "silex",
+      "risque",
+      "aigue-marine",
+      "écho"
     ],
     [
-      "écho",
-      "préface",
+      "rocher",
+      "foule",
       "humide",
-      "rocher"
+      "caverne"
+    ],
+    [
+      "lacune",
+      "roche",
+      "stalagmite",
+      "salir"
     ],
     [
       "sombre",
-      "caverne",
+      "paternel",
       "stalactite",
-      "silex"
-    ],
-    [
-      "palais",
-      "roche",
-      "caniveau",
-      "stalagmite"
+      "péniche"
     ]
   ],
   "rowClues": [
-    0,
+    2,
     3,
-    4,
+    2,
     2
   ],
   "colClues": [
-    2,
-    2,
-    2,
-    3
+    3,
+    1,
+    3,
+    2
   ],
   "themeWord": "grotte",
   "solution": [
     [
+      true,
       false,
       false,
+      true
+    ],
+    [
+      true,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 9

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "jungle",
-      "évasion",
-      "télévision",
-      "chapitre"
-    ],
-    [
-      "stalagmite",
-      "pingouin",
-      "roman",
-      "cristal"
-    ],
-    [
+      "braiser",
       "fauteuil",
-      "magazine",
-      "séance",
-      "journal"
+      "évasion",
+      "domino"
     ],
     [
-      "page",
       "bibliothèque",
       "liseuse",
-      "bébé"
+      "journal",
+      "lingot"
+    ],
+    [
+      "vision",
+      "roman",
+      "potion",
+      "languir"
+    ],
+    [
+      "magazine",
+      "pétiller",
+      "page",
+      "chapitre"
     ]
   ],
   "rowClues": [
     2,
-    1,
     3,
+    1,
     3
   ],
   "colClues": [
     2,
     3,
-    2,
-    2
+    3,
+    1
   ],
   "themeWord": "lecture",
   "solution": [
     [
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false
     ],
     [
       true,
       true,
+      true,
+      false
+    ],
+    [
       false,
-      true
+      true,
+      false,
+      false
     ],
     [
       true,
+      false,
       true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 9

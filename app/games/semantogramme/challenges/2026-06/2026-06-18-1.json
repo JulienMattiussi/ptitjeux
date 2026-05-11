@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "roi",
-      "poignée",
-      "lait",
-      "reine"
-    ],
-    [
+      "extension",
+      "ambre",
       "seigneur",
-      "café",
-      "créneau",
-      "chapelle"
+      "rime"
     ],
     [
-      "douve",
       "donjon",
-      "cour",
+      "reine",
+      "chapelle",
+      "bronzée"
+    ],
+    [
+      "roi",
+      "douve",
+      "plage",
       "meurtrière"
     ],
     [
-      "steak",
       "rempart",
-      "banane",
-      "munster"
+      "cour",
+      "créneau",
+      "baisser"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     3,
-    4,
-    1
+    3,
+    3
   ],
   "colClues": [
     3,
-    2,
-    2,
-    3
+    3,
+    3,
+    1
   ],
   "themeWord": "château",
   "solution": [
     [
-      true,
       false,
       false,
-      true
-    ],
-    [
       true,
-      false,
-      true,
-      true
+      false
     ],
     [
       true,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ]
   ],

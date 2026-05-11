@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "gomme",
-      "cheval",
-      "castor",
-      "panda",
-      "gomme"
+      "paume",
+      "oubli",
+      "gant",
+      "tricoter",
+      "doigt"
     ],
     [
-      "manuel",
-      "prière",
-      "banquier",
-      "vache",
-      "zèbre"
+      "austère",
+      "décorée",
+      "épier",
+      "soleil",
+      "jointure"
     ],
     [
-      "ours",
-      "rumeur",
-      "lion",
-      "vis",
-      "tournevis"
+      "poignet",
+      "comté",
+      "thermos",
+      "majeur",
+      "caresse"
     ],
     [
-      "racine",
-      "brosse",
-      "chat",
-      "clé",
-      "cheval"
+      "poire",
+      "poignée",
+      "pouce",
+      "geste",
+      "ongle"
     ],
     [
-      "plafond",
-      "tunnel",
-      "pince",
-      "souris",
-      "renard"
+      "index",
+      "hollande",
+      "recevoir",
+      "dos",
+      "gaze"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
-    2,
-    2
+    1,
+    3,
+    4,
+    1
   ],
   "colClues": [
-    1,
-    1,
     3,
-    3,
-    3
+    1,
+    2,
+    2,
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "main",
   "solution": [
     [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       true,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

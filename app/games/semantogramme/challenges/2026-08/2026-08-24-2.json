@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "lapin",
-      "cadre",
-      "lion",
-      "zèbre",
-      "devoir"
+      "lamentation",
+      "durcir",
+      "rage",
+      "massif",
+      "colombe"
     ],
     [
-      "renard",
-      "zèbre",
-      "gomme",
-      "pétale",
-      "castor"
+      "jubiler",
+      "inébranlable",
+      "fortifier",
+      "fermoir",
+      "voilier"
     ],
     [
-      "castor",
-      "cadre",
-      "tapis",
-      "mémoire",
-      "renard"
+      "facial",
+      "roche",
+      "fondation",
+      "étain",
+      "forteresse"
     ],
     [
-      "lueur",
-      "belette",
-      "mouton",
-      "chien",
-      "castor"
+      "béton",
+      "culbute",
+      "reflux",
+      "roue",
+      "idyllique"
     ],
     [
-      "lueur",
-      "souris",
-      "rumeur",
-      "plafond",
-      "plateau"
+      "résistant",
+      "dépression",
+      "fer",
+      "tenace",
+      "pierre"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    4,
-    1
+    2,
+    3,
+    1,
+    4
   ],
   "colClues": [
+    2,
     3,
     3,
     2,
-    2,
-    3
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "solide",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
       true,
       false
     ],
     [
+      false,
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

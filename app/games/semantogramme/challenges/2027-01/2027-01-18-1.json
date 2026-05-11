@@ -5,52 +5,52 @@
   "height": 4,
   "words": [
     [
-      "emballage",
-      "rivage",
-      "désert",
+      "poudre",
+      "nid",
+      "crique",
       "château"
     ],
     [
-      "mer",
-      "plage",
-      "sombrero",
-      "extrémité"
+      "tirage",
+      "grain",
+      "bénitier",
+      "épée"
     ],
     [
-      "poudre",
-      "fin",
-      "biberon",
-      "grain"
-    ],
-    [
-      "fourchette",
-      "crique",
       "dune",
-      "épiler"
+      "rivage",
+      "pharaon",
+      "fin"
+    ],
+    [
+      "illuminer",
+      "désert",
+      "plage",
+      "mer"
     ]
   ],
   "rowClues": [
     3,
-    2,
+    1,
     3,
-    2
+    3
   ],
   "colClues": [
     2,
-    4,
+    3,
     2,
-    2
+    3
   ],
   "themeWord": "sable",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       false
@@ -65,7 +65,7 @@
       false,
       true,
       true,
-      false
+      true
     ]
   ],
   "parMoves": 10

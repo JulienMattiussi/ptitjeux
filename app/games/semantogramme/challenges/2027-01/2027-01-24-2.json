@@ -5,59 +5,80 @@
   "height": 5,
   "words": [
     [
-      "blanc",
-      "ciseaux",
-      "blanc",
-      "vert",
-      "horloge"
+      "cigale",
+      "pratiquer",
+      "amusement",
+      "traditionnel",
+      "harnais"
     ],
     [
-      "orange",
-      "lampe",
-      "beige",
-      "tunnel",
-      "violet"
+      "élémentaire",
+      "sacrement",
+      "carreau",
+      "danseur",
+      "communion"
     ],
     [
-      "blanc",
-      "violet",
-      "tabouret",
-      "bureau",
-      "blanc"
+      "tradition",
+      "trotter",
+      "religieux",
+      "tripe",
+      "célébrer"
     ],
     [
-      "ocre",
-      "plafond",
-      "turquoise",
-      "rouge",
-      "pierre"
+      "flamenco",
+      "bobine",
+      "ancestral",
+      "baptême",
+      "turquoise"
     ],
     [
-      "vert",
-      "banquier",
-      "chaise",
-      "tunnel",
-      "ocre"
+      "religion",
+      "enterrement",
+      "officier",
+      "égyptien",
+      "aride"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
-    5,
-    1,
+    2,
+    2,
     3,
     2,
     3
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    2,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "rite",
   "solution": [
     [
+      false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -65,32 +86,11 @@
     ],
     [
       true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

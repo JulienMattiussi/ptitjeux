@@ -5,54 +5,54 @@
   "height": 4,
   "words": [
     [
-      "aubergine",
-      "cuisson",
-      "donjon",
-      "vannerie"
-    ],
-    [
       "feu",
-      "fond",
-      "poêle",
-      "cocotte"
-    ],
-    [
-      "sauteuse",
-      "capuche",
-      "fantasme",
-      "licence"
-    ],
-    [
-      "lézard",
-      "tannin",
-      "couvercle",
+      "lichen",
+      "girouette",
       "marmite"
+    ],
+    [
+      "homme",
+      "fond",
+      "bouillon",
+      "couvercle"
+    ],
+    [
+      "cuisson",
+      "évasé",
+      "tesselle",
+      "réjouir"
+    ],
+    [
+      "pygargue",
+      "cocotte",
+      "sauteuse",
+      "poêle"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     1,
-    4,
-    1,
-    2
+    3
   ],
   "colClues": [
     2,
     2,
-    2,
-    2
+    1,
+    3
   ],
   "themeWord": "casserole",
   "solution": [
     [
-      false,
       true,
       false,
-      false
+      false,
+      true
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       true
     ],
     [
@@ -63,7 +63,7 @@
     ],
     [
       false,
-      false,
+      true,
       true,
       true
     ]

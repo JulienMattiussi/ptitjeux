@@ -5,73 +5,66 @@
   "height": 5,
   "words": [
     [
-      "silence",
-      "ombre",
-      "oreille",
-      "écran",
-      "étagère"
+      "tisser",
+      "coton",
+      "absorbant",
+      "foc",
+      "résistant"
     ],
     [
-      "pierre",
-      "silence",
-      "dos",
-      "nez",
-      "chemin"
+      "coudre",
+      "jongler",
+      "soie",
+      "maille",
+      "doux"
     ],
     [
-      "miroir",
-      "fusée",
-      "langue",
-      "bras",
-      "épaule"
+      "fil",
+      "lin",
+      "étoffe",
+      "colombe",
+      "rouleau"
     ],
     [
-      "oreille",
-      "genou",
-      "prison",
-      "pelle",
-      "doigt"
+      "armer",
+      "rosée",
+      "dépôt",
+      "édredon",
+      "broder"
     ],
     [
-      "enveloppe",
-      "plafond",
-      "règle",
-      "langue",
-      "fusée"
+      "tissé",
+      "scruter",
+      "barboter",
+      "électricien",
+      "exceptionnel"
     ]
   ],
   "rowClues": [
+    4,
+    4,
+    4,
     1,
-    2,
-    3,
-    3,
     1
   ],
   "colClues": [
-    1,
-    1,
+    4,
+    2,
     3,
-    3,
-    2
+    1,
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "tissu",
   "solution": [
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
-      false
+      true
     ],
     [
-      false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -80,7 +73,7 @@
     [
       true,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -88,9 +81,16 @@
       false,
       false,
       false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 14
 }

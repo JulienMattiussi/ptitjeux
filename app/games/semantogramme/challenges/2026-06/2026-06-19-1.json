@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "montagne",
-      "continent",
-      "anaconda",
-      "peuple"
-    ],
-    [
-      "poudre",
-      "monnaie",
-      "patrie",
-      "clémentine"
-    ],
-    [
-      "état",
-      "parterre",
       "citoyen",
+      "état",
+      "légale",
       "hymne"
     ],
     [
-      "nation",
-      "cercle",
-      "drapeau",
-      "frontière"
+      "monnaie",
+      "râpe",
+      "frontière",
+      "drapeau"
+    ],
+    [
+      "gelée",
+      "continent",
+      "curiosité",
+      "silencieux"
+    ],
+    [
+      "bicaméral",
+      "patrie",
+      "peuple",
+      "nation"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    3,
+    1,
     3
   ],
   "colClues": [
     2,
-    2,
     3,
+    2,
     3
   ],
   "themeWord": "pays",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
       true
     ],
     [
+      true,
       false,
       true,
+      true
+    ],
+    [
+      false,
       true,
+      false,
       false
     ],
     [
-      true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true
     ]

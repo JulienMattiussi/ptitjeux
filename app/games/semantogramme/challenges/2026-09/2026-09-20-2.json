@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "mouton",
-      "pince",
-      "chat",
-      "chien",
-      "mouton"
+      "trois-cent-soixante-cinq",
+      "porter",
+      "bissextile",
+      "anniversaire",
+      "forge"
     ],
     [
-      "vache",
-      "jardin",
-      "tabouret",
-      "clé",
-      "koala"
+      "origan",
+      "douze",
+      "bilan",
+      "resplendissant",
+      "quille"
     ],
     [
-      "belette",
-      "livre",
-      "livre",
-      "zèbre",
-      "pelle"
+      "annuel",
+      "nature",
+      "manipulation",
+      "mandarine",
+      "idolâtrer"
     ],
     [
-      "girafe",
-      "tasse",
-      "panda",
-      "zèbre",
-      "cheval"
+      "récolte",
+      "bond",
+      "fêter",
+      "autoroute",
+      "passer"
     ],
     [
-      "ombre",
-      "lynx",
-      "lion",
-      "castor",
-      "lampe"
+      "saison",
+      "graisse",
+      "écouler",
+      "rang",
+      "décembre"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
-    2,
-    4,
+    1,
+    3,
     3
   ],
   "colClues": [
     4,
     1,
-    3,
     4,
-    3
+    1,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "année",
   "solution": [
     [
       true,
       false,
       true,
       true,
-      true
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
     ],
     [
       true,
       false,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false
     ],
     [
       true,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
+      true,
       false,
       true,
-      true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

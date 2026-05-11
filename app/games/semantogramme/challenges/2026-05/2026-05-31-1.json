@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "abeille",
-      "hache",
-      "arc",
-      "épée"
-    ],
-    [
-      "python",
-      "massue",
-      "bouclier",
-      "pôle"
-    ],
-    [
-      "terme",
       "dague",
-      "pistolet",
-      "reinette"
+      "explorer",
+      "fusil",
+      "bouclier"
     ],
     [
-      "truffe",
-      "couteau",
+      "pistolet",
       "flèche",
-      "fusil"
+      "sauteuse",
+      "couteau"
+    ],
+    [
+      "capot",
+      "daurade",
+      "arc",
+      "styliste"
+    ],
+    [
+      "massue",
+      "hache",
+      "épée",
+      "pignon"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
+    3,
+    1,
     3
   ],
   "colClues": [
-    0,
-    4,
-    4,
+    3,
+    2,
+    3,
     2
   ],
   "themeWord": "arme",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 10

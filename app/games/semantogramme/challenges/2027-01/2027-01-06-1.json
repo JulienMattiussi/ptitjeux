@@ -5,34 +5,34 @@
   "height": 4,
   "words": [
     [
-      "mât",
-      "écusson",
-      "graine",
-      "parade"
-    ],
-    [
-      "olivier",
-      "national",
-      "botte",
-      "oriflamme"
-    ],
-    [
-      "étendard",
-      "bannière",
       "couleur",
-      "tricolore"
+      "étoile",
+      "étendard",
+      "cathédrale"
     ],
     [
-      "étoile",
-      "crue",
+      "tricolore",
+      "national",
+      "bannière",
+      "berge"
+    ],
+    [
+      "guépard",
       "fanion",
-      "écrémé"
+      "carrière",
+      "mât"
+    ],
+    [
+      "écusson",
+      "spécialiste",
+      "ennemi",
+      "oriflamme"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
-    2,
-    4,
     2
   ],
   "colClues": [
@@ -46,7 +46,13 @@
     [
       true,
       true,
-      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false
     ],
     [
@@ -57,15 +63,9 @@
     ],
     [
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      false
+      false,
+      true
     ]
   ],
   "parMoves": 10

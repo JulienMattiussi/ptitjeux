@@ -5,69 +5,69 @@
   "height": 5,
   "words": [
     [
-      "bureau",
-      "nuage",
-      "verglas",
-      "soleil",
-      "étagère"
+      "rôtir",
+      "réparation",
+      "diaphane",
+      "mécanicien",
+      "remplacer"
     ],
     [
-      "clé",
-      "rumeur",
-      "éclair",
-      "vis",
-      "brouillard"
+      "monopalme",
+      "deuil",
+      "rafistoler",
+      "soudure",
+      "réparateur"
     ],
     [
-      "ciseaux",
-      "glace",
-      "devoir",
-      "éclair",
-      "crayon"
+      "sportive",
+      "colle",
+      "carquois",
+      "panne",
+      "compétition"
     ],
     [
-      "gel",
-      "orage",
-      "ombre",
-      "tonnerre",
-      "rosée"
+      "recoller",
+      "minuit",
+      "long",
+      "pièce",
+      "restaurer"
     ],
     [
-      "foudre",
-      "livre",
-      "soleil",
-      "miroir",
-      "neige"
+      "remettre",
+      "bricoler",
+      "rétablir",
+      "notoire",
+      "écrire"
     ]
   ],
   "rowClues": [
     3,
+    3,
     2,
-    2,
-    4,
+    3,
     3
   ],
   "colClues": [
     2,
     3,
-    3,
-    3,
+    2,
+    4,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "réparer",
   "solution": [
     [
       false,
       true,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
       false,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
@@ -79,17 +79,17 @@
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
-      true
+      false
     ]
   ],
   "parMoves": 14

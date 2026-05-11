@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
-      "savon",
-      "indigo",
-      "doré",
-      "maison",
-      "carnet"
+      "relever",
+      "curry",
+      "silencieux",
+      "piquant",
+      "rater"
     ],
     [
-      "crayon",
-      "crayon",
-      "globe",
-      "mauve",
-      "gris"
+      "triangle",
+      "pèlerin",
+      "lessive",
+      "gingembre",
+      "lit"
     ],
     [
-      "blanc",
-      "gris",
-      "bleu",
-      "pince",
-      "bureau"
+      "aromatique",
+      "poivre",
+      "corsé",
+      "filet",
+      "cannelle"
     ],
     [
-      "mauve",
-      "blanc",
-      "tunnel",
-      "pince",
-      "blanc"
+      "reliure",
+      "couverture",
+      "cendrier",
+      "képi",
+      "safran"
     ],
     [
-      "pelle",
-      "devoir",
-      "globe",
-      "argenté",
-      "argenté"
+      "nourriture",
+      "paprika",
+      "cumin",
+      "pimenter",
+      "régner"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    3,
-    2
+    1,
+    4,
+    1,
+    3
   ],
   "colClues": [
     2,
     3,
     2,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "épicé",
   "solution": [
     [
-      false,
       true,
       true,
       false,
+      true,
       false
     ],
     [
@@ -68,19 +68,12 @@
       false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       false
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -88,8 +81,15 @@
       false,
       false,
       false,
-      true,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 12

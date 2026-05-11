@@ -5,67 +5,60 @@
   "height": 5,
   "words": [
     [
-      "manuel",
-      "cadre",
-      "caillou",
-      "raisin",
-      "agenda"
+      "briques",
+      "salle",
+      "épidermique",
+      "épiderme",
+      "trois-cent-soixante-cinq"
     ],
     [
-      "framboise",
-      "kiwi",
-      "poire",
-      "mûre",
-      "mur"
+      "pore",
+      "derme",
+      "swing",
+      "nuque",
+      "desquamation"
     ],
     [
-      "cerise",
-      "citron",
-      "mur",
-      "framboise",
-      "pêche"
+      "rougeur",
+      "traverser",
+      "sciure",
+      "tache",
+      "idée"
     ],
     [
-      "abricot",
-      "pelle",
-      "marteau",
-      "raisin",
-      "abricot"
+      "grain",
+      "autorisé",
+      "peindre",
+      "évier",
+      "inuit"
     ],
     [
-      "ananas",
-      "fusée",
-      "kiwi",
-      "mûre",
-      "cerise"
+      "piqûre",
+      "pastèque",
+      "verrue",
+      "bronzer",
+      "renforcer"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    4,
+    2,
     3,
-    4
+    2,
+    1,
+    3
   ],
   "colClues": [
     4,
+    1,
     2,
-    2,
-    5,
-    3
+    3,
+    1
   ],
-  "themeWord": "fruit",
+  "themeWord": "peau",
   "solution": [
     [
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false
@@ -74,7 +67,7 @@
       true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
@@ -82,15 +75,22 @@
       false,
       false,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
     ],
     [
       true,
       false,
       true,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 11
 }

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "losange",
-      "rond",
-      "floraison",
-      "cube"
-    ],
-    [
-      "rectangle",
-      "ovale",
-      "plumeau",
-      "pyramide"
-    ],
-    [
-      "roulé",
       "carré",
-      "tonnelle",
-      "cône"
+      "camion",
+      "après-midi",
+      "hiver"
     ],
     [
-      "samba",
-      "bûche",
-      "rime",
-      "glaçon"
+      "cône",
+      "rond",
+      "diaphane",
+      "grill"
+    ],
+    [
+      "pyramide",
+      "cube",
+      "satan",
+      "ovale"
+    ],
+    [
+      "chandelier",
+      "pureté",
+      "losange",
+      "rectangle"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    1,
     2,
-    0
+    3,
+    2
   ],
   "colClues": [
-    2,
     3,
-    0,
-    3
+    2,
+    1,
+    2
   ],
   "themeWord": "forme",
   "solution": [
     [
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 8

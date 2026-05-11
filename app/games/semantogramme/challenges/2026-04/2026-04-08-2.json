@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "racine",
-      "dauphin",
-      "thon",
-      "maison",
-      "pelle"
+      "âcre",
+      "langue",
+      "tempo",
+      "verbiage",
+      "coloré"
     ],
     [
-      "vague",
-      "pince",
-      "dauphin",
-      "thon",
-      "vague"
+      "monologue",
+      "ornée",
+      "dossier",
+      "phrase",
+      "éloquence"
     ],
     [
-      "marin",
-      "corail",
-      "crabe",
-      "chemin",
-      "vague"
+      "été",
+      "bassin",
+      "bavarder",
+      "pommade",
+      "souiller"
     ],
     [
-      "écume",
-      "voile",
-      "rivage",
-      "prière",
-      "coussin"
+      "rythmique",
+      "discours",
+      "discuter",
+      "farine",
+      "palabrer"
     ],
     [
-      "plage",
-      "requin",
-      "saumon",
-      "écran",
-      "pierre"
+      "jaser",
+      "biographie",
+      "produire",
+      "causer",
+      "nez"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    4,
     3,
-    3
-  ],
-  "colClues": [
-    4,
-    4,
-    5,
     1,
+    3,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    2,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "parler",
   "solution": [
     [
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
+      true,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 11
 }

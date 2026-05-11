@@ -5,82 +5,68 @@
   "height": 5,
   "words": [
     [
-      "lampe",
-      "couteau",
-      "épice",
-      "frigo",
-      "ciseaux"
+      "rivage",
+      "élire",
+      "candidat",
+      "moléculaire",
+      "présidentielle"
     ],
     [
-      "lueur",
-      "pelle",
-      "verre",
-      "agenda",
-      "porte"
+      "cirer",
+      "secret",
+      "bulletin",
+      "cérémonie",
+      "voter"
     ],
     [
-      "poêle",
-      "tapis",
-      "livre",
-      "plat",
-      "savon"
+      "dépouiller",
+      "démocratie",
+      "satiété",
+      "urne",
+      "libre"
     ],
     [
-      "plat",
-      "tasse",
-      "fusée",
-      "table",
-      "plat"
+      "caisse",
+      "démocratique",
+      "scrutin",
+      "campagne",
+      "scorpion"
     ],
     [
-      "plat",
-      "évier",
-      "timbre",
-      "frigo",
-      "verre"
+      "vote",
+      "savoir",
+      "parc",
+      "zinc",
+      "résultat"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    2,
-    2,
-    4
-  ],
-  "colClues": [
     3,
-    2,
-    2,
+    4,
     3,
     2
   ],
-  "themeWord": "cuisine",
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "élection",
   "solution": [
     [
       false,
       true,
       true,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
-      false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true
     ],
@@ -89,8 +75,22 @@
       true,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

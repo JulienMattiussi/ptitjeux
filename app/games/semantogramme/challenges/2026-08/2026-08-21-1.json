@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "tasse",
+      "verveine",
+      "rural",
+      "bref",
+      "matcha"
+    ],
+    [
       "feuille",
-      "cérémonie",
+      "argousier",
+      "théière",
+      "cérémonie"
+    ],
+    [
+      "géranium",
+      "infusion",
+      "mouler",
       "tisane"
     ],
     [
-      "labrador",
-      "nef",
-      "théière",
-      "bannière"
-    ],
-    [
-      "noir",
-      "infusion",
-      "récit",
-      "verveine"
-    ],
-    [
       "vert",
-      "étagère",
-      "coucher",
-      "matcha"
+      "tasse",
+      "noir",
+      "cirrhotique"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    2,
     3,
-    2
+    2,
+    3
   ],
   "colClues": [
     3,
@@ -45,27 +45,27 @@
   "solution": [
     [
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       true
     ],
     [
       false,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 10

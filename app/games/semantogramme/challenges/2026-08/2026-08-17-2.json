@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "football",
-      "vis",
-      "ski",
-      "livre",
-      "pétale"
+      "largeur",
+      "ample",
+      "boulevard",
+      "ippon",
+      "fleuve"
     ],
     [
-      "banquier",
-      "ski",
-      "livre",
-      "voile",
-      "pelle"
+      "spacieux",
+      "épaule",
+      "plage",
+      "paysan",
+      "vaste"
     ],
     [
-      "marathon",
-      "serrure",
-      "ski",
-      "gym",
-      "coussin"
+      "comédie",
+      "bol",
+      "étendre",
+      "stocker",
+      "fourmilière"
     ],
     [
-      "miroir",
-      "prison",
-      "prière",
-      "voile",
-      "tennis"
+      "étaler",
+      "avenue",
+      "recette",
+      "éventail",
+      "turquoise"
     ],
     [
-      "cadre",
-      "natation",
-      "golf",
-      "savon",
-      "horloge"
+      "évasé",
+      "horizon",
+      "lancement",
+      "caillé",
+      "généreux"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    4,
+    4,
+    1,
     3,
-    2,
-    2
+    3
   ],
   "colClues": [
-    2,
-    2,
+    4,
+    4,
     3,
-    3,
-    1
+    1,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "large",
   "solution": [
     [
       true,
-      false,
+      true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
+      true
     ],
     [
       true,
-      false,
       true,
       true,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      true,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

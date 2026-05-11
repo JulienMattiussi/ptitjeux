@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "agenda",
-      "règle",
-      "agenda",
-      "voiture",
-      "tunnel"
+      "gabriel",
+      "cieux",
+      "adolescent",
+      "harpe",
+      "plume"
     ],
     [
-      "rideau",
-      "train",
-      "étoile",
-      "enveloppe",
-      "avion"
+      "bienveillant",
+      "oeuvre",
+      "protéger",
+      "emballer",
+      "monumentale"
     ],
     [
-      "voiture",
-      "métro",
-      "brosse",
-      "tapis",
-      "savon"
+      "soir",
+      "article",
+      "industrialiser",
+      "vendange",
+      "annoncer"
     ],
     [
-      "étoile",
-      "livre",
-      "plafond",
-      "voiture",
-      "scooter"
+      "aile",
+      "inhalation",
+      "opulent",
+      "gardien",
+      "séraphin"
     ],
     [
-      "sol",
-      "brosse",
-      "taxi",
-      "vélo",
-      "chemin"
+      "voler",
+      "paradis",
+      "émail",
+      "sacré",
+      "créativité"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
-    1,
+    4,
     2,
     1,
     3,
-    2
+    3
   ],
-  "themeWord": "transport",
+  "colClues": [
+    4,
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "ange",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
       true,
       false,
-      false,
+      true,
       true
     ],
     [
       true,
-      true,
       false,
+      true,
       false,
       false
     ],
@@ -81,16 +74,23 @@
       false,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 13
 }

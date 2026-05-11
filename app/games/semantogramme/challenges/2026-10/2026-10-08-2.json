@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "chemin",
-      "orgue",
-      "pétale",
-      "batterie",
-      "chant"
+      "mer",
+      "mangue",
+      "cassis",
+      "séduire",
+      "enchanter"
     ],
     [
-      "mémoire",
-      "gamme",
-      "accord",
-      "orgue",
-      "prison"
+      "écaille",
+      "séduisante",
+      "bataille",
+      "marin",
+      "débutant"
     ],
     [
-      "étagère",
-      "chemin",
-      "concerto",
-      "flûte",
-      "guitare"
+      "césar",
+      "magique",
+      "mythique",
+      "espalier",
+      "envoûtante"
     ],
     [
-      "jazz",
-      "rythme",
-      "mélodie",
-      "panier",
-      "opéra"
+      "chant",
+      "effrayante",
+      "enseignement",
+      "reins",
+      "cheveu"
     ],
     [
-      "choeur",
-      "devoir",
-      "choeur",
-      "symphonie",
-      "rideau"
+      "set",
+      "queue",
+      "légende",
+      "cuivré",
+      "magicien"
     ]
   ],
   "rowClues": [
     3,
     3,
     3,
-    4,
-    3
+    2,
+    2
   ],
   "colClues": [
-    2,
     3,
-    4,
-    4,
+    3,
+    2,
+    2,
     3
   ],
-  "themeWord": "musique",
+  "themeWord": "sirène",
   "solution": [
     [
-      false,
       true,
+      false,
       false,
       true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true,
       false
     ],
     [
       false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -87,10 +80,17 @@
     [
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 13
 }

@@ -5,46 +5,58 @@
   "height": 4,
   "words": [
     [
-      "attaque",
-      "restaurant",
-      "recette",
-      "hibernation"
-    ],
-    [
-      "célèbre",
+      "rénover",
+      "pont",
       "toque",
-      "sommier",
-      "gastronomie"
+      "chevelure"
     ],
     [
+      "gastronomie",
+      "commis",
+      "recette",
+      "personnage"
+    ],
+    [
+      "urée",
       "casserole",
-      "immeuble",
-      "foi",
-      "monologue"
+      "restaurant",
+      "temporel"
     ],
     [
+      "jazz",
       "four",
-      "cierge",
-      "tablier",
-      "commis"
+      "carreau",
+      "tablier"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     1,
-    3
-  ],
-  "colClues": [
-    2,
-    2,
+    3,
     2,
     2
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    1
   ],
   "themeWord": "cuisinier",
   "solution": [
     [
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false
@@ -53,18 +65,6 @@
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true
     ]
   ],

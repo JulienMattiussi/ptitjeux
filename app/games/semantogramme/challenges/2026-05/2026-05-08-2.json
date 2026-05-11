@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "pelle",
-      "pierre",
-      "oreille",
-      "rumeur",
-      "peau"
+      "envergure",
+      "coulisser",
+      "glissade",
+      "palais",
+      "farniente"
     ],
     [
-      "clé",
-      "plateau",
-      "porte",
-      "jambe",
-      "peau"
+      "déraper",
+      "piste",
+      "instituteur",
+      "glissant",
+      "savon"
     ],
     [
-      "genou",
-      "table",
-      "sol",
-      "dent",
-      "tunnel"
+      "huile",
+      "patin",
+      "tomber",
+      "lisse",
+      "galactique"
     ],
     [
-      "pince",
-      "ombre",
-      "vis",
-      "manuel",
-      "épaule"
+      "distorsion",
+      "neutron",
+      "riper",
+      "jour",
+      "verglas"
     ],
     [
-      "étoile",
-      "dos",
-      "nez",
-      "pelle",
-      "balai"
+      "toboggan",
+      "exploration",
+      "chanter",
+      "bruyante",
+      "dérapage"
     ]
   ],
   "rowClues": [
     2,
+    4,
+    4,
     2,
-    2,
-    1,
     2
   ],
   "colClues": [
-    1,
-    1,
-    2,
+    3,
+    3,
+    3,
     2,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "glisser",
   "solution": [
     [
       false,
-      false,
+      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
+      false
     ],
     [
       true,
+      true,
       false,
-      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
       false,
-      false,
+      true,
       false,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
-      false
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 14
 }

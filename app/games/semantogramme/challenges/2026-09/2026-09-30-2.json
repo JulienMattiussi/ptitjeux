@@ -5,76 +5,76 @@
   "height": 5,
   "words": [
     [
-      "règle",
-      "tunnel",
-      "corail",
-      "gomme",
-      "crabe"
+      "tournoi",
+      "pique",
+      "pointe",
+      "égyptien",
+      "flamboyer"
     ],
     [
-      "prison",
-      "poisson",
-      "enveloppe",
-      "méduse",
-      "thon"
+      "pointu",
+      "long",
+      "hampe",
+      "jaillir",
+      "compétent"
     ],
     [
-      "écume",
-      "rumeur",
-      "crabe",
-      "baleine",
-      "bureau"
+      "colle",
+      "lancer",
+      "crevaison",
+      "impasse",
+      "guerre"
     ],
     [
-      "parfum",
-      "rumeur",
-      "vague",
-      "tunnel",
-      "thon"
+      "embrasser",
+      "pension",
+      "aigu",
+      "préserver",
+      "menaçant"
     ],
     [
-      "chaise",
-      "poisson",
-      "pince",
-      "phare",
-      "tabouret"
+      "humer",
+      "chevalier",
+      "beau-frère",
+      "blanc",
+      "sagaie"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    3,
-    2,
+    4,
+    1,
+    1,
     2
   ],
   "colClues": [
-    1,
     2,
+    4,
     3,
-    3,
-    3
+    1,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "lance",
   "solution": [
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
-      true
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ],
     [
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
       false
     ],
     [
@@ -82,15 +82,15 @@
       false,
       true,
       false,
-      true
+      false
     ],
     [
       false,
       true,
       false,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

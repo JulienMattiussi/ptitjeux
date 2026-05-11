@@ -5,75 +5,82 @@
   "height": 5,
   "words": [
     [
-      "vache",
-      "pierre",
-      "tasse",
-      "miroir",
-      "lion"
+      "brique",
+      "enterrement",
+      "échafaudage",
+      "écouter",
+      "givre"
     ],
     [
-      "belette",
-      "table",
-      "porte",
-      "mouton",
-      "silence"
+      "circuit",
+      "ciment",
+      "bâtiment",
+      "fossile",
+      "quadrilatère"
     ],
     [
-      "peigne",
-      "chien",
-      "porte",
-      "lynx",
-      "tournevis"
+      "direct",
+      "pendentif",
+      "coudre",
+      "plan",
+      "monter"
     ],
     [
-      "manuel",
-      "rumeur",
-      "girafe",
-      "écran",
-      "porte"
+      "restaurer",
+      "grue",
+      "édifier",
+      "ériger",
+      "moyen-âge"
     ],
     [
-      "renard",
-      "agenda",
-      "sol",
-      "livre",
-      "chat"
+      "brûler",
+      "honneur",
+      "assembler",
+      "bâtir",
+      "maçon"
     ]
   ],
   "rowClues": [
     2,
     2,
     2,
-    1,
-    2
+    3,
+    3
   ],
   "colClues": [
-    3,
-    1,
     1,
     2,
+    4,
+    3,
     2
   ],
-  "themeWord": "animal",
+  "themeWord": "construire",
   "solution": [
     [
       true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
+      false,
+      true,
       true
     ],
     [
-      true,
-      false,
       false,
       true,
-      false
-    ],
-    [
-      false,
       true,
-      false,
       true,
       false
     ],
@@ -81,16 +88,9 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 12
 }

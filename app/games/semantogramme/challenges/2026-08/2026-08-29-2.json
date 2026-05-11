@@ -5,81 +5,81 @@
   "height": 5,
   "words": [
     [
-      "serrure",
-      "foudre",
-      "voisin",
-      "gel",
-      "nuage"
+      "noter",
+      "antiquité",
+      "rive",
+      "truffe",
+      "tropical"
     ],
     [
-      "coussin",
-      "vent",
-      "éclair",
-      "tempête",
-      "carnet"
+      "épuiser",
+      "satire",
+      "perle",
+      "unique",
+      "raréfier"
     ],
     [
-      "devoir",
-      "nuage",
-      "éclair",
-      "tonnerre",
-      "pluie"
+      "inusité",
+      "cabernet",
+      "exceptionnel",
+      "germaine",
+      "émail"
     ],
     [
-      "bureau",
-      "brouillard",
-      "brouillard",
-      "étoile",
-      "foudre"
+      "pénale",
+      "lutter",
+      "manquer",
+      "beauté",
+      "diamant"
     ],
     [
-      "tempête",
-      "gel",
-      "verglas",
-      "soleil",
-      "pelle"
+      "pièce",
+      "météorite",
+      "gazette",
+      "manuscrit",
+      "curiosité"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
     4,
-    3,
+    2,
+    2,
     4
   ],
   "colClues": [
-    1,
-    5,
-    4,
-    4,
+    3,
+    2,
+    3,
+    3,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "rare",
   "solution": [
     [
       false,
       true,
       false,
       true,
-      true
+      false
     ],
     [
+      true,
       false,
       true,
       true,
+      true
+    ],
+    [
       true,
+      false,
+      true,
+      false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
       true,
       false,
       true
@@ -87,10 +87,10 @@
     [
       true,
       true,
+      false,
       true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

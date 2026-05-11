@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "glisser",
-      "piste",
-      "cidre",
-      "saut"
-    ],
-    [
-      "jante",
+      "espèce",
+      "saut",
       "lame",
-      "potage",
       "roulette"
     ],
     [
-      "palais",
-      "bock",
-      "sapajou",
-      "frondaison"
+      "agrafeuse",
+      "glace",
+      "maquillé",
+      "moelleux"
     ],
     [
-      "aiguillée",
-      "récréation",
-      "glace",
-      "arabesque"
+      "glisser",
+      "trancher",
+      "exploration",
+      "cessez-le-feu"
+    ],
+    [
+      "piste",
+      "étinceler",
+      "arabesque",
+      "putride"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    0,
+    1,
+    1,
     2
   ],
   "colClues": [
-    1,
     2,
-    1,
-    3
+    2,
+    2,
+    1
   ],
   "themeWord": "patinage",
   "solution": [
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true
     ],
     [
       false,
       true,
       false,
-      true
+      false
     ],
     [
-      false,
+      true,
       false,
       false,
       false
     ],
     [
-      false,
+      true,
       false,
       true,
-      true
+      false
     ]
   ],
   "parMoves": 7

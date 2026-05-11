@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "caillou",
-      "enveloppe",
-      "ananas",
-      "pomme",
-      "abricot"
+      "éthéré",
+      "route",
+      "jardinier",
+      "basket",
+      "spectral"
     ],
     [
-      "kiwi",
-      "gomme",
-      "plateau",
-      "tournevis",
-      "tasse"
+      "hanter",
+      "effrayer",
+      "gaver",
+      "cimetière",
+      "âme"
     ],
     [
-      "framboise",
-      "ananas",
-      "abricot",
-      "orange",
-      "caillou"
+      "numéral",
+      "muet",
+      "lyre",
+      "spectre",
+      "réjouir"
     ],
     [
-      "raisin",
-      "marteau",
-      "abricot",
-      "devoir",
-      "bureau"
+      "ectoplasme",
+      "carrière",
+      "lugubre",
+      "férié",
+      "pleurote"
     ],
     [
-      "pierre",
-      "jardin",
-      "racine",
-      "citron",
-      "melon"
+      "pincé",
+      "transparent",
+      "saule",
+      "apparaître",
+      "calcium"
     ]
   ],
   "rowClues": [
-    3,
-    1,
+    2,
     4,
+    1,
     2,
     2
   ],
   "colClues": [
     3,
+    2,
     1,
-    3,
     3,
     2
   ],
-  "themeWord": "fruit",
+  "themeWord": "fantôme",
   "solution": [
     [
+      true,
       false,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

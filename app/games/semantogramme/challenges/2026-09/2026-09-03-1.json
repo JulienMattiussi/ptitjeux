@@ -5,52 +5,58 @@
   "height": 4,
   "words": [
     [
-      "guerre",
-      "scarabée",
-      "transformation",
-      "miracle"
+      "pèlerinage",
+      "ange",
+      "collection",
+      "croyance"
     ],
     [
       "prière",
-      "pèlerinage",
-      "spiritualité",
-      "bock"
-    ],
-    [
-      "bourse",
-      "mystique",
-      "sainte",
-      "couleuvre"
-    ],
-    [
       "culte",
-      "bec",
+      "vigoureux",
+      "spiritualité"
+    ],
+    [
+      "foncer",
+      "miracle",
+      "sainte",
+      "géniteur"
+    ],
+    [
+      "modeler",
+      "mystique",
       "conviction",
-      "croyance"
+      "radiateur"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
     2,
-    3
+    2
   ],
   "colClues": [
     2,
-    2,
     3,
+    2,
     2
   ],
   "themeWord": "foi",
   "solution": [
     [
-      false,
+      true,
       false,
       false,
       true
     ],
     [
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false
@@ -60,12 +66,6 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 9

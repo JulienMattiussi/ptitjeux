@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "globe",
-      "plafond",
-      "mangue",
-      "globe",
-      "melon"
+      "cyclisme",
+      "momifier",
+      "aigre",
+      "sel",
+      "rare"
     ],
     [
-      "ananas",
-      "ananas",
-      "chemin",
-      "citron",
-      "pêche"
+      "âcre",
+      "saigner",
+      "biberon",
+      "courgette",
+      "offrir"
     ],
     [
-      "citron",
-      "framboise",
-      "mûre",
-      "serrure",
-      "racine"
+      "aride",
+      "arc-en-ciel",
+      "détrempé",
+      "astringent",
+      "quinine"
     ],
     [
-      "abricot",
-      "banane",
-      "devoir",
-      "figue",
-      "kiwi"
+      "pénombre",
+      "café",
+      "ériger",
+      "endive",
+      "noix"
     ],
     [
-      "mangue",
-      "pêche",
-      "chaise",
-      "globe",
-      "écran"
+      "briser",
+      "rempli",
+      "chicorée",
+      "âpre",
+      "rhubarbe"
     ]
   ],
   "rowClues": [
-    2,
-    4,
+    1,
+    1,
     3,
-    4,
-    2
-  ],
-  "colClues": [
-    4,
-    4,
-    2,
-    2,
+    3,
     3
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    1,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "amer",
   "solution": [
     [
       false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       false
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true,
       true
     ],
     [
-      true,
-      true,
       false,
       false,
-      false
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

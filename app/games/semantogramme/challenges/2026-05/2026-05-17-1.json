@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "vanille",
-      "toux",
-      "rat",
-      "microbe"
-    ],
-    [
-      "harpie",
-      "hebdomadaire",
-      "guitare",
-      "cils"
+      "farine",
+      "boulanger",
+      "confiture",
+      "sphinx"
     ],
     [
       "miette",
-      "farine",
-      "boulanger",
+      "baguette",
+      "décoration",
+      "brune"
+    ],
+    [
+      "cyan",
+      "roman",
+      "geste",
       "tartine"
     ],
     [
-      "confiture",
+      "perdant",
+      "dialogue",
       "levure",
-      "baguette",
-      "affluent"
+      "visibilité"
     ]
   ],
   "rowClues": [
-    0,
-    0,
-    4,
-    3
+    3,
+    2,
+    1,
+    1
   ],
   "colClues": [
     2,
@@ -44,8 +44,14 @@
   "themeWord": "pain",
   "solution": [
     [
-      false,
-      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
@@ -53,17 +59,11 @@
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ]

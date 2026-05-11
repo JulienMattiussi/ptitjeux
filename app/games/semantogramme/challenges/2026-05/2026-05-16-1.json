@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "origan",
-      "coriandre",
+      "laurier",
+      "incandescent",
+      "ébène",
+      "décider"
+    ],
+    [
+      "virement",
+      "fleuret",
       "thym",
       "menthe"
     ],
     [
-      "laurier",
-      "limite",
-      "dériver",
-      "mère"
-    ],
-    [
-      "archive",
-      "ciboulette",
-      "hélice",
-      "apéritif"
-    ],
-    [
+      "apiculteur",
       "persil",
-      "texte",
-      "cadeau",
-      "virement"
+      "ciboulette",
+      "métal"
+    ],
+    [
+      "pioche",
+      "origan",
+      "coriandre",
+      "industriel"
     ]
   ],
   "rowClues": [
-    4,
     1,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
-    3,
-    2,
     1,
+    2,
+    3,
     1
   ],
   "themeWord": "herbe",
   "solution": [
     [
       true,
-      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       true
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
       false
     ]
   ],

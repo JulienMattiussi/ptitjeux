@@ -5,77 +5,70 @@
   "height": 5,
   "words": [
     [
-      "tabouret",
-      "plat",
-      "couteau",
-      "farine",
-      "plat"
+      "vinaigre",
+      "géométrique",
+      "acidifier",
+      "aigrir",
+      "se chamailler"
     ],
     [
-      "crayon",
-      "plafond",
-      "casserole",
-      "casserole",
-      "assiette"
+      "rhubarbe",
+      "maquillé",
+      "citron",
+      "kiwi",
+      "guérir"
     ],
     [
-      "peigne",
-      "évier",
-      "épice",
-      "plateau",
-      "poêle"
+      "jury",
+      "caustique",
+      "piquer",
+      "pamplemousse",
+      "cornichon"
     ],
     [
-      "tabouret",
-      "frigo",
-      "casserole",
-      "verre",
-      "plat"
+      "verjus",
+      "aigre",
+      "aisselle",
+      "corrosif",
+      "traversière"
     ],
     [
-      "casserole",
-      "fourchette",
-      "pétale",
-      "recette",
-      "fourchette"
+      "tamarin",
+      "moisson",
+      "acidulé",
+      "fleuriste",
+      "mortel"
     ]
   ],
   "rowClues": [
-    4,
     3,
     3,
     4,
-    4
+    3,
+    2
   ],
   "colClues": [
-    1,
+    4,
+    2,
     4,
     4,
-    4,
-    5
+    1
   ],
-  "themeWord": "cuisine",
+  "themeWord": "acide",
   "solution": [
     [
+      true,
       false,
       true,
       true,
-      true,
-      true
+      false
     ],
     [
-      false,
+      true,
       false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
+      false
     ],
     [
       false,
@@ -89,8 +82,15 @@
       true,
       false,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

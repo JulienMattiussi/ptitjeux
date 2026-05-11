@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "caravane",
-      "mur",
-      "panier",
-      "remorque",
-      "ombre"
+      "délectable",
+      "surdité",
+      "pavillon",
+      "lionceau",
+      "biscuit"
     ],
     [
-      "plateau",
-      "agenda",
-      "rideau",
-      "tapis",
-      "avion"
+      "lobe",
+      "son",
+      "hebdomadaire",
+      "écouteur",
+      "éveiller"
     ],
     [
-      "marteau",
-      "fusée",
-      "mémoire",
-      "tunnel",
-      "navette"
+      "bruit",
+      "tigre",
+      "soie",
+      "cérumen",
+      "boucle"
     ],
     [
-      "prison",
-      "train",
-      "voiture",
-      "autobus",
-      "train"
+      "histoire",
+      "agrès",
+      "écho",
+      "entendre",
+      "baguette"
     ],
     [
-      "ferry",
-      "bateau",
-      "maison",
-      "étoile",
-      "pince"
+      "hanter",
+      "sourd",
+      "auditif",
+      "tympan",
+      "spongieux"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    3,
+    3,
     2,
-    4,
-    2
+    3
   ],
   "colClues": [
     2,
     3,
-    1,
-    2,
-    3
+    3,
+    4,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "oreille",
   "solution": [
     [
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       true
     ],
     [
-      true,
-      true,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

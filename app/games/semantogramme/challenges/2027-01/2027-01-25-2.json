@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "maison",
-      "globe",
-      "orage",
-      "mémoire",
-      "horloge"
+      "bougie",
+      "fan",
+      "lac",
+      "chandelier",
+      "chute"
     ],
     [
-      "brosse",
-      "gel",
-      "orage",
-      "brouillard",
-      "tabouret"
+      "lumière",
+      "allumer",
+      "cire",
+      "fin",
+      "prière"
     ],
     [
-      "nuage",
-      "rideau",
-      "nuage",
-      "pince",
-      "vent"
+      "lumineux",
+      "fibre",
+      "autel",
+      "église",
+      "manquer"
     ],
     [
-      "soleil",
-      "enveloppe",
-      "chemin",
-      "plafond",
-      "crayon"
+      "flamme",
+      "omelette",
+      "léopard",
+      "votif",
+      "fondre"
     ],
     [
-      "horloge",
-      "étagère",
-      "rosée",
-      "enveloppe",
-      "gomme"
+      "rivage",
+      "mèche",
+      "teindre",
+      "jockey",
+      "illuminer"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    4,
     3,
     3,
-    1,
-    1
+    2
   ],
   "colClues": [
-    2,
-    1,
     4,
-    1,
-    1
+    2,
+    2,
+    3,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "cierge",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       true,
       false
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       true
@@ -80,17 +73,24 @@
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ],
     [
+      true,
       false,
       false,
       true,
+      true
+    ],
+    [
       false,
-      false
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 14
 }

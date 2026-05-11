@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "fourchette",
-      "bureau",
-      "casserole",
-      "spatule",
-      "fusée"
+      "sortilège",
+      "potion",
+      "horrible",
+      "ensorceler",
+      "sacre"
     ],
     [
-      "pétale",
-      "recette",
-      "fourchette",
-      "écran",
-      "parfum"
+      "cubique",
+      "célébrité",
+      "galion",
+      "maléfice",
+      "balai"
     ],
     [
-      "évier",
-      "évier",
-      "four",
-      "vis",
-      "frigo"
+      "malfaisante",
+      "chapeau",
+      "effrayante",
+      "cave",
+      "dîner"
     ],
     [
-      "tablier",
-      "rumeur",
-      "fusée",
-      "porte",
-      "caillou"
+      "chat",
+      "gomme",
+      "mystérieuse",
+      "envoûter",
+      "chaudron"
     ],
     [
-      "pelle",
-      "jardin",
-      "frigo",
-      "chemin",
-      "jardin"
+      "parfum",
+      "maudire",
+      "pelouse",
+      "crapaud",
+      "doublure"
     ]
   ],
   "rowClues": [
-    3,
-    2,
     4,
-    1,
-    1
+    2,
+    3,
+    4,
+    2
   ],
   "colClues": [
     3,
-    2,
+    3,
+    3,
     4,
-    1,
-    1
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "sorcière",
   "solution": [
     [
       true,
-      false,
+      true,
       true,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
+      true,
       true
     ],
     [
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ],
     [
+      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       true,
       false,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

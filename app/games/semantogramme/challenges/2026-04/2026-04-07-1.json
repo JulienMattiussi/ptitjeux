@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "pommade",
-      "verdict",
-      "ciseaux",
-      "pince"
-    ],
-    [
-      "marteau",
-      "poivre",
-      "visseuse",
-      "perceuse"
-    ],
-    [
-      "volant",
-      "orchidée",
       "agrafeuse",
-      "mentonnière"
+      "trancher",
+      "perceuse",
+      "mondial"
+    ],
+    [
+      "cochon",
+      "visseuse",
+      "pèlerin",
+      "marteau"
     ],
     [
       "tournevis",
+      "caduc",
       "écrou",
-      "navet",
-      "tenaille"
+      "costume"
+    ],
+    [
+      "pince",
+      "tenaille",
+      "vacarme",
+      "ciseaux"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    1,
+    2,
+    2,
     3
   ],
   "colClues": [
-    2,
-    1,
     3,
-    3
+    2,
+    2,
+    2
   ],
   "themeWord": "outil",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       true
     ],
     [
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
       false

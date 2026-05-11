@@ -5,52 +5,46 @@
   "height": 4,
   "words": [
     [
-      "mouton",
-      "préface",
-      "ouvreur",
-      "lionne"
-    ],
-    [
-      "vache",
-      "canard",
-      "garage",
-      "foin"
-    ],
-    [
-      "souffle",
+      "animal",
       "paille",
-      "cochon",
-      "maille"
+      "sortir",
+      "fermier"
     ],
     [
-      "fermier",
-      "cantique",
-      "capuche",
-      "ruche"
+      "cousinage",
+      "ruche",
+      "rayonner",
+      "mouton"
+    ],
+    [
+      "foin",
+      "vénus",
+      "vache",
+      "cochon"
+    ],
+    [
+      "canard",
+      "préserver",
+      "détoxifier",
+      "haie"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
-    2
+    2,
+    3,
+    1
   ],
   "colClues": [
-    3,
+    2,
     2,
     1,
-    2
+    3
   ],
   "themeWord": "ferme",
   "solution": [
     [
-      true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true
@@ -58,14 +52,20 @@
     [
       false,
       true,
+      false,
+      true
+    ],
+    [
       true,
-      false
+      false,
+      true,
+      true
     ],
     [
       true,
       false,
       false,
-      true
+      false
     ]
   ],
   "parMoves": 8

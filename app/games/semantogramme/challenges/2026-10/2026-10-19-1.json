@@ -5,64 +5,64 @@
   "height": 4,
   "words": [
     [
-      "opéra",
-      "narrateur",
-      "quatre-quarts",
-      "biscuit"
-    ],
-    [
-      "moka",
-      "fondant",
-      "praliné",
-      "concert"
-    ],
-    [
-      "bibliothèque",
+      "transylvanie",
+      "valve",
       "crème",
-      "soupir",
-      "canard"
+      "fondant"
     ],
     [
-      "serrer",
+      "biscuit",
+      "bibliothèque",
+      "moka",
+      "rite"
+    ],
+    [
+      "opéra",
+      "béret",
+      "quatre-quarts",
+      "immortel"
+    ],
+    [
+      "praliné",
       "roulé",
-      "réflexion",
-      "escarpin"
+      "molécule",
+      "impasse"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    1,
-    1
+    2,
+    2,
+    2,
+    2
   ],
   "colClues": [
-    2,
     3,
-    2,
+    1,
+    3,
     1
   ],
   "themeWord": "gâteau",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       true
     ],
     [
       true,
-      true,
+      false,
       true,
       false
     ],
     [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
       false

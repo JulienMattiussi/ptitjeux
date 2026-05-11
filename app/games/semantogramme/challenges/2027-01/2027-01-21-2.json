@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tasse",
-      "orage",
-      "soleil",
-      "pierre",
-      "agenda"
+      "enfer",
+      "transcendance",
+      "semelle",
+      "studio",
+      "exigu"
     ],
     [
-      "ombre",
-      "tempête",
-      "glace",
-      "tonnerre",
-      "agenda"
+      "libellule",
+      "sacrée",
+      "rudimentaire",
+      "patrimoine",
+      "élever"
     ],
     [
-      "ciseaux",
-      "soleil",
-      "orage",
-      "pelle",
-      "pluie"
+      "immortelle",
+      "éternelle",
+      "élargir",
+      "esprit",
+      "paradis"
     ],
     [
-      "timbre",
-      "lampe",
-      "maison",
-      "prière",
-      "rosée"
+      "mort",
+      "spirituelle",
+      "corps",
+      "pure",
+      "tonus"
     ],
     [
-      "éclair",
-      "maison",
-      "glace",
-      "prison",
-      "orage"
+      "transmigrer",
+      "lilas",
+      "menaçant",
+      "machine",
+      "spiritualité"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
-    1,
-    3
+    2,
+    4,
+    4,
+    2
   ],
   "colClues": [
-    1,
-    3,
+    4,
     4,
     1,
+    2,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "âme",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       false,
       false
     ],
     [
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false
     ],
     [
-      false,
-      true,
       true,
       false,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

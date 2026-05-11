@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "violon",
-      "agenda",
-      "mémoire",
-      "violon",
-      "sol"
+      "traverser",
+      "agrandir",
+      "loupe",
+      "guetter",
+      "caresse"
     ],
     [
-      "note",
-      "peigne",
-      "règle",
-      "agenda",
-      "harpe"
+      "examiner",
+      "fixer",
+      "regard",
+      "inspecter",
+      "olympique"
     ],
     [
-      "miroir",
-      "tambour",
-      "ombre",
-      "concerto",
-      "symphonie"
+      "crique",
+      "colley",
+      "morale",
+      "microscope",
+      "ébénisterie"
     ],
     [
-      "harpe",
-      "cadre",
-      "rythme",
-      "jazz",
-      "lueur"
+      "observateur",
+      "détente",
+      "télescope",
+      "détail",
+      "épier"
     ],
     [
-      "plafond",
-      "balai",
-      "timbre",
-      "opéra",
-      "rythme"
+      "contempler",
+      "émail",
+      "regarder",
+      "sauge",
+      "piétiner"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    3,
-    3,
+    4,
+    1,
+    4,
     2
   ],
   "colClues": [
     3,
     1,
-    1,
     4,
-    3
+    4,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "observer",
   "solution": [
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
@@ -89,8 +75,22 @@
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

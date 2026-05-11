@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "marmite",
-      "brune",
-      "sonnet",
-      "averse"
+      "imperméable",
+      "baldaquin",
+      "noyau",
+      "perdant"
     ],
     [
-      "séjour",
-      "goutte",
-      "allergie",
-      "orage"
-    ],
-    [
-      "crachin",
-      "symphonie",
+      "risque",
       "nuage",
-      "imperméable"
+      "crachin",
+      "palme"
     ],
     [
-      "site",
-      "visibilité",
-      "professeur",
-      "flaque"
+      "lynx",
+      "flaque",
+      "orage",
+      "goutte"
+    ],
+    [
+      "fossile",
+      "averse",
+      "applique",
+      "dribble"
     ]
   ],
   "rowClues": [
@@ -37,35 +37,35 @@
   ],
   "colClues": [
     1,
-    1,
-    1,
-    4
+    3,
+    2,
+    1
   ],
   "themeWord": "pluie",
   "solution": [
     [
+      true,
       false,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true
     ],
     [
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 7

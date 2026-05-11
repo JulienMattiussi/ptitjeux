@@ -5,49 +5,55 @@
   "height": 4,
   "words": [
     [
+      "inférieur",
       "fantasme",
-      "citron",
-      "opaque",
-      "imagination"
+      "inattendu",
+      "chimère"
     ],
     [
-      "sommeil",
-      "crèche",
+      "prise",
+      "comète",
       "utopie",
-      "rideau"
+      "sagoutier"
     ],
     [
-      "chlorophylle",
-      "jongleur",
-      "minute",
-      "symbole"
+      "symbole",
+      "plante",
+      "imagination",
+      "moulinet"
     ],
     [
+      "poule",
       "cauchemar",
-      "chimère",
-      "glacier",
-      "escarpin"
+      "sommeil",
+      "mouche"
     ]
   ],
   "rowClues": [
     2,
-    2,
     1,
+    2,
     2
   ],
   "colClues": [
+    1,
+    2,
     3,
-    1,
-    1,
-    2
+    1
   ],
   "themeWord": "rêve",
   "solution": [
     [
+      false,
       true,
       false,
-      false,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
     ],
     [
       true,
@@ -57,14 +63,8 @@
     ],
     [
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
       false
     ]
   ],

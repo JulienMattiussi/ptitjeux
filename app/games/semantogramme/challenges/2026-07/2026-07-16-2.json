@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "jaune",
-      "enveloppe",
-      "doré",
-      "pétale",
-      "vert"
+      "héroïsme",
+      "mousseron",
+      "expression",
+      "portrait",
+      "mâchoire"
     ],
     [
-      "bureau",
-      "bureau",
-      "chemin",
-      "vert",
-      "argenté"
+      "figure",
+      "cafetière",
+      "oeil",
+      "législatif",
+      "mine"
     ],
     [
-      "prière",
-      "chaise",
-      "cadre",
-      "porte",
-      "argenté"
+      "improvisation",
+      "front",
+      "tempe",
+      "occulté",
+      "billet"
     ],
     [
-      "gris",
-      "ocre",
-      "pelle",
-      "turquoise",
-      "sol"
+      "jongleur",
+      "facial",
+      "mayonnaise",
+      "joue",
+      "grimoire"
     ],
     [
-      "agenda",
-      "balai",
-      "savon",
-      "noir",
-      "tournevis"
+      "champ",
+      "physionomie",
+      "sagaie",
+      "grimace",
+      "transcrire"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    1,
     3,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
-    2,
-    1,
     1,
     3,
-    3
+    3,
+    3,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "visage",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       true,
       false,
       true,
@@ -65,20 +72,13 @@
     ],
     [
       false,
-      false,
-      false,
       true,
-      true
+      true,
+      false,
+      false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       true,
@@ -86,11 +86,11 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

@@ -5,77 +5,70 @@
   "height": 5,
   "words": [
     [
-      "ombre",
-      "épice",
-      "fourchette",
-      "cuillère",
-      "verre"
+      "birdie",
+      "cordage",
+      "bougie",
+      "arme",
+      "assaisonner"
     ],
     [
-      "ciseaux",
-      "plat",
-      "frigo",
-      "four",
-      "pierre"
+      "risque",
+      "étrier",
+      "mortel",
+      "feu",
+      "piéger"
     ],
     [
-      "couteau",
-      "prière",
-      "plat",
-      "lueur",
-      "ombre"
+      "fracturer",
+      "falaise",
+      "couette",
+      "menace",
+      "redoutable"
     ],
     [
-      "ombre",
-      "farine",
-      "marteau",
-      "fourchette",
-      "fourchette"
+      "périlleux",
+      "risquer",
+      "piège",
+      "serpent",
+      "carreau"
     ],
     [
-      "bureau",
-      "serrure",
-      "recette",
-      "marteau",
-      "caillou"
+      "hémorragie",
+      "précipice",
+      "menacer",
+      "brochet",
+      "menaçant"
     ]
   ],
   "rowClues": [
+    1,
     4,
     3,
-    2,
-    3,
-    1
+    4,
+    3
   ],
   "colClues": [
-    1,
+    2,
+    3,
     3,
     4,
-    3,
-    2
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "dangereux",
   "solution": [
     [
       false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ],
     [
       false,
@@ -85,12 +78,19 @@
       true
     ],
     [
-      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
+      true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "concerto",
-      "marteau",
-      "mélodie",
-      "symphonie",
-      "violon"
+      "chuter",
+      "discuter",
+      "chevalier",
+      "messe",
+      "valse"
     ],
     [
-      "fusée",
-      "étoile",
-      "plateau",
-      "trompette",
-      "tasse"
+      "légendaire",
+      "hymne",
+      "pirogue",
+      "brume",
+      "majestueux"
     ],
     [
-      "concerto",
-      "pince",
-      "porte",
-      "table",
-      "orgue"
+      "écaille",
+      "voler",
+      "trésor",
+      "queue",
+      "pâtissier"
     ],
     [
-      "guitare",
-      "violon",
-      "jazz",
-      "flûte",
-      "balai"
+      "terminal",
+      "mythique",
+      "gigantesque",
+      "terrasse",
+      "marron"
     ],
     [
-      "harpe",
-      "pierre",
-      "voisin",
-      "étoile",
-      "guitare"
+      "caverne",
+      "cracher",
+      "brûler",
+      "féroce",
+      "rouge"
     ]
   ],
   "rowClues": [
-    4,
     1,
     2,
     4,
-    2
+    2,
+    4
   ],
   "colClues": [
-    4,
-    1,
-    2,
     3,
-    3
+    3,
+    4,
+    2,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "dragon",
   "solution": [
     [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       false,
       true,
+      false,
       false
     ],
     [
@@ -85,11 +78,18 @@
       false
     ],
     [
+      false,
+      true,
       true,
       false,
-      false,
-      false,
-      true
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 13

@@ -5,71 +5,57 @@
   "height": 5,
   "words": [
     [
-      "clé",
-      "tunnel",
-      "citron",
-      "cassis",
-      "peigne"
+      "sain",
+      "cher",
+      "antique",
+      "malpropre",
+      "pharaon"
     ],
     [
-      "banane",
-      "écran",
-      "orange",
-      "framboise",
-      "horloge"
+      "égypte",
+      "auditif",
+      "muscler",
+      "magot",
+      "pékinois"
     ],
     [
-      "racine",
-      "caillou",
-      "fraise",
-      "marteau",
-      "pêche"
+      "pioche",
+      "embaumer",
+      "embaumement",
+      "rancune",
+      "mystérieux"
     ],
     [
-      "banane",
-      "cassis",
-      "pastèque",
-      "tasse",
-      "sol"
+      "enseigne",
+      "sarcophage",
+      "ancien",
+      "poireau",
+      "potier"
     ],
     [
-      "coussin",
-      "melon",
-      "pomme",
-      "caillou",
-      "pince"
+      "champ",
+      "malédiction",
+      "momifier",
+      "sable",
+      "métro"
     ]
   ],
   "rowClues": [
     2,
+    1,
     3,
     2,
-    3,
-    2
+    3
   ],
   "colClues": [
-    2,
-    2,
-    5,
-    2,
-    1
+    1,
+    3,
+    4,
+    1,
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "momie",
   "solution": [
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
     [
       false,
       false,
@@ -79,6 +65,20 @@
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
@@ -88,9 +88,9 @@
       false,
       true,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "bambin",
-      "aluminium",
-      "monstre",
-      "aboutir"
-    ],
-    [
-      "mémorial",
+      "millénaire",
       "papa",
-      "amande",
-      "école"
+      "bambin",
+      "comptine"
     ],
     [
-      "tétine",
-      "biberon",
-      "pied",
-      "jouet"
+      "filiation",
+      "constellation",
+      "école",
+      "écrit"
     ],
     [
       "berceuse",
-      "mouette",
-      "comptine",
-      "plantigrade"
+      "matinée",
+      "bissextile",
+      "biberon"
+    ],
+    [
+      "tétine",
+      "ardoise",
+      "crise",
+      "jouet"
     ]
   ],
   "rowClues": [
+    3,
     1,
     2,
-    3,
     2
   ],
   "colClues": [
-    3,
     2,
     1,
-    2
+    2,
+    3
   ],
   "themeWord": "enfance",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
-      false
+      true,
+      true
     ],
     [
       false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 8

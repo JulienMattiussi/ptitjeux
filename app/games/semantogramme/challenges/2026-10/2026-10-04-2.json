@@ -5,68 +5,75 @@
   "height": 5,
   "words": [
     [
-      "étagère",
-      "tournevis",
-      "savon",
-      "fusée",
-      "caravane"
+      "sortilège",
+      "électrique",
+      "malice",
+      "farfadet",
+      "industrielle"
     ],
     [
-      "métro",
-      "table",
-      "pierre",
-      "pelle",
-      "étagère"
+      "lame",
+      "forêt",
+      "pointu",
+      "farce",
+      "spécialiste"
     ],
     [
-      "tramway",
-      "voiture",
-      "silence",
-      "balai",
-      "devoir"
+      "zénital",
+      "espiègle",
+      "magique",
+      "gouda",
+      "préserver"
     ],
     [
-      "règle",
-      "taxi",
-      "règle",
-      "autobus",
-      "vélo"
+      "minuscule",
+      "gnome",
+      "commode",
+      "malicieux",
+      "farceur"
     ],
     [
-      "tournevis",
-      "vélo",
-      "tramway",
-      "avion",
-      "plateau"
+      "maudire",
+      "taquiner",
+      "damier",
+      "tour",
+      "pépin"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    3,
     2,
-    3,
-    3
-  ],
-  "colClues": [
-    2,
-    3,
-    1,
-    3,
+    4,
     2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    1,
+    4,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "lutin",
   "solution": [
     [
       false,
       false,
-      false,
       true,
-      true
+      true,
+      false
     ],
     [
+      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
-      false,
+      true,
+      true,
       false,
       false
     ],
@@ -74,23 +81,16 @@
       true,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

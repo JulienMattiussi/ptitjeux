@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "tapis",
-      "lèvre",
-      "dent",
-      "langue",
-      "écran"
+      "erreur",
+      "échec",
+      "squelettique",
+      "arabesque",
+      "infection"
     ],
     [
-      "savon",
-      "genou",
-      "silence",
-      "devoir",
-      "brosse"
+      "égarer",
+      "perdant",
+      "rigide",
+      "défaite",
+      "gaspiller"
     ],
     [
-      "voisin",
-      "bureau",
-      "nez",
-      "oeil",
-      "épaule"
+      "luxe",
+      "agrafeuse",
+      "carapace",
+      "oublier",
+      "sympathique"
     ],
     [
-      "plateau",
-      "devoir",
-      "caillou",
-      "coussin",
-      "pied"
+      "égarement",
+      "singe",
+      "échouer",
+      "cabine",
+      "rater"
     ],
     [
-      "dos",
-      "peau",
-      "dent",
-      "livre",
-      "pied"
+      "oubli",
+      "manquer",
+      "pique",
+      "manque",
+      "perte"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    4,
     1,
     3,
-    1,
     4
   ],
   "colClues": [
+    4,
+    3,
     1,
     3,
-    3,
-    2,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "perdre",
   "solution": [
     [
-      false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       true
     ],
@@ -81,16 +74,23 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       true
     ],
     [
       true,
       true,
-      true,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

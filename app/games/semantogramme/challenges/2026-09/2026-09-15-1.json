@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "mercure",
-      "aubergine",
-      "plantation",
-      "pluton"
+      "plomb",
+      "rotation",
+      "pilier",
+      "polymère"
+    ],
+    [
+      "pluton",
+      "orbite",
+      "photographe",
+      "mercure"
     ],
     [
       "anneau",
-      "préfecture",
-      "pignon",
-      "mars"
+      "haleter",
+      "mars",
+      "chic"
     ],
     [
-      "sketch",
-      "milan",
-      "iguane",
-      "orbite"
-    ],
-    [
-      "emporter",
+      "aider",
       "vénus",
-      "rotation",
-      "guirlande"
+      "se réjouir",
+      "géologie"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     1,
-    2
+    3,
+    2,
+    1
   ],
   "colClues": [
     2,
+    3,
     1,
-    1,
-    3
+    1
   ],
   "themeWord": "planète",
   "solution": [
     [
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
-      true,
+      false,
       false
     ]
   ],

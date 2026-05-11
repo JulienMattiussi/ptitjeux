@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "camion",
-      "lueur",
-      "pelle",
-      "moto",
-      "remorque"
+      "peluche",
+      "férié",
+      "tendu",
+      "pendule",
+      "abordage"
     ],
     [
-      "métro",
-      "autobus",
-      "tournevis",
-      "taxi",
-      "taxi"
+      "dégoût",
+      "planifier",
+      "travail",
+      "brûlure",
+      "matin"
     ],
     [
-      "tramway",
-      "bateau",
-      "camion",
-      "rumeur",
-      "manuel"
+      "obstruer",
+      "azur",
+      "hebdomadaire",
+      "ivoire",
+      "tremper"
     ],
     [
-      "clé",
-      "avion",
-      "chemin",
-      "banquier",
-      "train"
+      "calendrier",
+      "agenda",
+      "congé",
+      "jour",
+      "chauffer"
     ],
     [
-      "mur",
-      "moto",
-      "train",
-      "livre",
-      "vélo"
+      "rentrée",
+      "école",
+      "semaine",
+      "commencer",
+      "visière"
     ]
   ],
   "rowClues": [
+    1,
     3,
+    1,
     4,
-    3,
-    2,
-    3
-  ],
-  "colClues": [
-    3,
-    4,
-    2,
-    2,
     4
   ],
-  "themeWord": "transport",
+  "colClues": [
+    2,
+    4,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "lundi",
   "solution": [
     [
-      true,
-      false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
-      true
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

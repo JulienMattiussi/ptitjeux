@@ -5,68 +5,75 @@
   "height": 5,
   "words": [
     [
-      "livre",
-      "tournevis",
-      "genou",
-      "sol",
-      "dent"
+      "levure",
+      "religieux",
+      "antiquité",
+      "gazon",
+      "monumental"
     ],
     [
-      "chaise",
-      "balai",
-      "main",
-      "coeur",
-      "panneau"
+      "colonne",
+      "pupille",
+      "célébrer",
+      "bâtiment",
+      "chagrin"
     ],
     [
-      "oreille",
-      "peau",
-      "racine",
-      "main",
-      "panneau"
+      "cérémonie",
+      "eskimo",
+      "lionceau",
+      "autel",
+      "geler"
     ],
     [
-      "jardin",
-      "tête",
-      "tapis",
-      "tabouret",
-      "coeur"
+      "prier",
+      "mystique",
+      "reflux",
+      "prière",
+      "antique"
     ],
     [
-      "livre",
-      "dent",
-      "plafond",
-      "coeur",
-      "plateau"
+      "statue",
+      "labour",
+      "rite",
+      "pousser",
+      "religion"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
     2,
-    2
+    2,
+    4,
+    3
   ],
   "colClues": [
-    1,
-    3,
+    4,
     2,
     3,
-    2
+    2,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "temple",
   "solution": [
     [
       false,
-      false,
+      true,
       true,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       false
     ],
@@ -75,22 +82,15 @@
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       true
     ],
     [
-      false,
       true,
       false,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

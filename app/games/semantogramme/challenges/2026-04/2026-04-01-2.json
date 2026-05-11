@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "orage",
-      "tonnerre",
-      "foudre",
-      "globe",
-      "orage"
+      "se régaler",
+      "esquisser",
+      "mastiquer",
+      "vodka",
+      "trait"
     ],
     [
-      "pluie",
-      "écran",
-      "neige",
-      "pluie",
-      "éclair"
+      "savourer",
+      "goûter",
+      "banqueter",
+      "marée",
+      "plane"
     ],
     [
-      "gel",
-      "timbre",
-      "horloge",
-      "tempête",
-      "tunnel"
+      "genou",
+      "dévorer",
+      "mâcher",
+      "festoyer",
+      "ingérer"
     ],
     [
-      "tonnerre",
-      "étagère",
-      "rideau",
-      "gomme",
-      "tunnel"
+      "créer",
+      "archipel",
+      "déguster",
+      "engloutir",
+      "grignoter"
     ],
     [
-      "brouillard",
-      "chaise",
-      "neige",
-      "neige",
-      "orage"
+      "bouffer",
+      "carotte",
+      "pointu",
+      "consommer",
+      "polluant"
     ]
   ],
   "rowClues": [
-    4,
-    4,
     2,
-    1,
-    4
+    3,
+    4,
+    3,
+    2
   ],
   "colClues": [
-    5,
-    1,
     3,
+    2,
+    4,
     3,
-    3
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "manger",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false,
-      true
+      false
     ],
     [
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -76,21 +90,7 @@
       false,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

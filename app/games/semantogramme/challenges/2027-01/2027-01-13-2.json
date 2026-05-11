@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "joue",
-      "tabouret",
-      "nez",
-      "pied",
-      "bras"
+      "couronner",
+      "sacrer",
+      "officier",
+      "visage",
+      "pierre"
     ],
     [
-      "jambe",
-      "nez",
-      "bras",
-      "dos",
-      "carnet"
+      "coussinet",
+      "colle",
+      "marronnier",
+      "roi",
+      "ruine"
     ],
     [
-      "carnet",
-      "silence",
-      "dent",
-      "coeur",
-      "nez"
+      "royale",
+      "ponctuel",
+      "monarque",
+      "aube",
+      "royauté"
     ],
     [
-      "lueur",
-      "livre",
-      "plateau",
-      "épaule",
-      "pied"
+      "sacre",
+      "argentée",
+      "aiguille",
+      "symbolique",
+      "porter"
     ],
     [
-      "maison",
-      "main",
-      "oeil",
-      "joue",
-      "tunnel"
+      "or",
+      "précieuse",
+      "contracter",
+      "gambade",
+      "reine"
     ]
   ],
   "rowClues": [
-    4,
-    4,
     3,
-    2,
+    1,
+    3,
+    4,
     3
   ],
   "colClues": [
-    2,
-    2,
     4,
-    5,
-    3
+    3,
+    1,
+    2,
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "couronne",
   "solution": [
     [
       true,
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
-      false,
+      true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
     [
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

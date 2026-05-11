@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
+      "taupe",
       "aiguillée",
-      "envergure",
-      "enfilage",
-      "amortisseur"
-    ],
-    [
-      "tricot",
-      "dé",
-      "couture",
+      "vent",
       "broderie"
     ],
     [
-      "ongle",
-      "cadran",
-      "laboratoire",
-      "firmament"
+      "stade",
+      "coussinet",
+      "enfilage",
+      "nocturne"
     ],
     [
-      "épingle",
+      "tricot",
+      "bonté",
       "fil",
-      "coussinet",
-      "ring"
+      "dé"
+    ],
+    [
+      "couture",
+      "hawaïen",
+      "ventricule",
+      "épingle"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    0,
-    3
-  ],
-  "colClues": [
-    3,
     2,
     3,
-    1
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3
   ],
   "themeWord": "aiguille",
   "solution": [
     [
-      true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ],
     [
       true,
+      false,
       true,
+      true
+    ],
+    [
       true,
-      false
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 9

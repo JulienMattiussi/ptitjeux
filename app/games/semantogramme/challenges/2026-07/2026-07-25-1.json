@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "piscine",
-      "maillot",
-      "train",
-      "transat"
+      "amortisseur",
+      "renaître",
+      "traîner",
+      "maillot"
     ],
     [
-      "couloir",
-      "palme",
-      "déjeuner",
+      "fluide",
+      "bonnet",
+      "wax",
       "plongeon"
     ],
     [
-      "string",
-      "bonnet",
-      "rubis",
-      "dos"
+      "piscine",
+      "papillon",
+      "balance",
+      "nouvelle"
     ],
     [
-      "papillon",
-      "châtaigne",
-      "molécule",
-      "sépale"
+      "dos",
+      "palme",
+      "couloir",
+      "tonitruant"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    3,
     2,
-    1
+    3
   ],
   "colClues": [
+    2,
     3,
-    3,
-    0,
+    1,
     2
   ],
   "themeWord": "natation",
   "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
     [
       true,
       true,
@@ -52,19 +64,7 @@
     [
       true,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false
     ]
   ],

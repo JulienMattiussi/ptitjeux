@@ -1,9 +1,25 @@
-# Sémantogramme — création des niveaux 1 (curés)
+# Sémantogramme — création des niveaux curés (L1 et L2)
 
-Ce document décrit le processus de création des niveaux 1 du sémantogramme,
-qui sont **curés à la main** (un thème par jour, du début avril 2026 à fin
-janvier 2027). Les niveaux 2-4 restent générés automatiquement à partir d'un
-pool de 10 thèmes hardcodés.
+Ce document décrit le processus de création des niveaux **1 et 2** du
+sémantogramme, qui sont **curés à la main** (un thème par jour, du début
+avril 2026 à fin janvier 2027 — 306 puzzles par niveau). Les niveaux 3-4
+restent générés automatiquement à partir d'un pool de 10 thèmes hardcodés.
+
+| Niveau | Grille | N IN ∈    | Min membres | Fichier                      |
+|--------|--------|-----------|-------------|------------------------------|
+| L1     | 4 × 4  | 7 .. 10   | 10          | `generators/curated-themes-l1.ts` (`CURATED_THEMES_L1`)    |
+| L2     | 5 × 5  | 11 .. 15  | 15          | `generators/curated-themes-l2.ts` (`CURATED_THEMES_L2`) |
+
+Différences L2 vs L1 :
+
+- les **thèmes ET les membres** peuvent être des **noms communs,
+  adjectifs ou verbes** (L1 est limité aux noms communs) ;
+- chaque thème nécessite au moins **15 membres** (au lieu de 10) ;
+- les thèmes L2 sont **100 % distincts** des 306 thèmes L1.
+
+Le **pool de fillers** est commun aux deux niveaux : membres de tous les
+autres thèmes curés L1 ∪ L2 (hors membres du thème courant et hors
+mot-thème lui-même).
 
 ## Pourquoi du contenu curé
 
@@ -91,7 +107,7 @@ classerait-il ce mot IN ? Si oui → membre. Si non → filler valide.
 ## Processus pas-à-pas (pour ajouter de nouveaux thèmes)
 
 1. **Choisir un thème** : un nom commun courant, distinct des thèmes déjà
-   curés (voir `generators/curated-themes.ts`).
+   curés (voir `generators/curated-themes-l1.ts`).
 2. **Lister 12 membres candidats** (on garde 12 pour avoir de la marge
    au-dessus du min 10 ; ça permet la diversité entre puzzles si jamais
    un même thème est réutilisé).
@@ -104,7 +120,7 @@ classerait-il ce mot IN ? Si oui → membre. Si non → filler valide.
 4. **Vérifier la cohérence sémantique** : chaque membre doit être dans le
    thème ET pas dans un thème déjà curé d'une manière qui rendrait la
    grille ambiguë.
-5. **Ajouter l'entrée** dans `generators/curated-themes.ts` :
+5. **Ajouter l'entrée** dans `generators/curated-themes-l1.ts` :
    ```ts
    '2026-04-13': {
      word: 'légume',
@@ -146,7 +162,7 @@ fait basculer en `solved` (jaune).
 
 ## Maintenance
 
-- **Pour modifier un thème** déjà publié : éditer `curated-themes.ts`,
+- **Pour modifier un thème** déjà publié : éditer `curated-themes-l1.ts`,
   régénérer. Attention aux joueurs qui auraient déjà la progression
   sauvegardée — leur `bestMoves` deviendrait potentiellement comparé à un
   `parMoves` différent.

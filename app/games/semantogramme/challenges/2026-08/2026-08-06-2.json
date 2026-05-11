@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "bateau",
-      "chaise",
-      "carnet",
-      "panneau",
-      "train"
+      "coucher",
+      "paroi",
+      "achever",
+      "agenda",
+      "clémentine"
     ],
     [
-      "fusée",
-      "vélo",
-      "lueur",
-      "autobus",
-      "mur"
+      "serviette",
+      "rouille",
+      "manège",
+      "cuivré",
+      "ambre"
     ],
     [
-      "lampe",
-      "sol",
-      "jardin",
-      "règle",
-      "train"
+      "oxydable",
+      "questionner",
+      "abricot",
+      "beige",
+      "glycogène"
     ],
     [
-      "autobus",
-      "camion",
-      "bateau",
-      "métro",
-      "lueur"
+      "orangé",
+      "flamme",
+      "vitrail",
+      "fruit",
+      "mandarine"
     ],
     [
-      "voiture",
-      "panneau",
-      "avion",
-      "camion",
-      "voiture"
+      "citrouille",
+      "carotte",
+      "safran",
+      "doré",
+      "mousson"
     ]
   ],
   "rowClues": [
     2,
-    2,
+    3,
     1,
     4,
-    4
+    3
   ],
   "colClues": [
     3,
-    2,
-    2,
     3,
+    2,
+    2,
     3
   ],
-  "themeWord": "transport",
+  "themeWord": "orange",
   "solution": [
     [
       true,
@@ -68,28 +68,28 @@
       true,
       false,
       true,
-      false
+      true
     ],
     [
       false,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
+      true,
       true
     ],
     [
       true,
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 13

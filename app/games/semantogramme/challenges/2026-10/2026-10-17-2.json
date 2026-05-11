@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "agenda",
-      "saumon",
-      "écaille",
-      "ombre",
-      "rivage"
+      "horreur",
+      "brioche",
+      "rugissement",
+      "grill",
+      "verdoyant"
     ],
     [
-      "plage",
-      "manuel",
-      "caillou",
-      "sardine",
-      "thon"
+      "écailles",
+      "effrayer",
+      "taille",
+      "colossal",
+      "persil"
     ],
     [
-      "requin",
-      "cadre",
-      "écaille",
-      "corail",
-      "lampe"
+      "menacer",
+      "chute",
+      "carquois",
+      "patiné",
+      "loyer"
     ],
     [
-      "phare",
-      "porte",
-      "ombre",
-      "table",
-      "maison"
+      "malicieux",
+      "équilibre",
+      "démon",
+      "gueule",
+      "rugir"
     ],
     [
-      "saumon",
-      "silence",
-      "saumon",
-      "timbre",
-      "prison"
+      "pygmée",
+      "hideux",
+      "opinion",
+      "peur",
+      "sel"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    1,
-    2
-  ],
-  "colClues": [
+    2,
     4,
     1,
-    3,
     2,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "monstre",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
-      true
+      true,
+      false,
+      false
     ],
     [
       true,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
@@ -85,12 +78,19 @@
       false
     ],
     [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
       false,
       true,
       false,
+      true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

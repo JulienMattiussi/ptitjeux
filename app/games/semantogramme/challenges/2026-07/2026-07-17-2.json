@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "violet",
-      "vert",
-      "ombre",
-      "cadre",
-      "mauve"
+      "triceps",
+      "étau",
+      "jouer",
+      "serrer",
+      "main"
     ],
     [
-      "rose",
-      "gris",
-      "pince",
-      "sol",
-      "racine"
+      "longueur",
+      "télescope",
+      "levée",
+      "préfecture",
+      "adorer"
     ],
     [
-      "plateau",
-      "jaune",
-      "brun",
-      "blanc",
-      "silence"
+      "relaxant",
+      "comble",
+      "embrasser",
+      "carie",
+      "porter"
     ],
     [
-      "jaune",
-      "mur",
-      "devoir",
-      "ocre",
-      "turquoise"
+      "avant-bras",
+      "oasis",
+      "aisselle",
+      "plante",
+      "figuier"
     ],
     [
-      "turquoise",
-      "peigne",
-      "doré",
-      "argenté",
-      "ocre"
+      "prunier",
+      "biceps",
+      "extension",
+      "brassée",
+      "coude"
     ]
   ],
   "rowClues": [
     3,
+    1,
     2,
-    3,
-    3,
+    2,
     4
   ],
   "colClues": [
-    4,
-    3,
     2,
-    3,
+    1,
+    4,
+    2,
     3
   ],
-  "themeWord": "couleur",
+  "themeWord": "bras",
   "solution": [
     [
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

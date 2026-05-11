@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "caillou",
-      "timbre",
-      "enveloppe",
-      "natation",
-      "timbre"
+      "altitude",
+      "menaçant",
+      "décollage",
+      "fondation",
+      "aviateur"
     ],
     [
-      "danse",
-      "danse",
-      "voile",
-      "pince",
-      "tennis"
+      "planer",
+      "occident",
+      "tournoyer",
+      "plume",
+      "atterrissage"
     ],
     [
-      "maison",
-      "mur",
-      "ski",
-      "voile",
-      "plateau"
+      "ciel",
+      "mercredis",
+      "aile",
+      "piquer",
+      "décoller"
     ],
     [
-      "ski",
-      "devoir",
-      "golf",
-      "mur",
-      "ski"
+      "envol",
+      "aiguisé",
+      "vol",
+      "gratter",
+      "voltiger"
     ],
     [
-      "natation",
-      "peigne",
-      "marteau",
-      "marathon",
-      "tennis"
+      "nocturne",
+      "planeur",
+      "sashimi",
+      "chien",
+      "enterrement"
     ]
   ],
   "rowClues": [
+    3,
+    4,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    4,
     1,
     4,
     2,
-    3,
-    3
+    4
   ],
-  "colClues": [
-    3,
-    1,
-    3,
-    3,
-    3
-  ],
-  "themeWord": "sport",
+  "themeWord": "voler",
   "solution": [
     [
-      false,
-      false,
+      true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

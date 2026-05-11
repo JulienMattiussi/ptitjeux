@@ -5,46 +5,58 @@
   "height": 4,
   "words": [
     [
-      "scène",
-      "amplificateur",
+      "panthère",
+      "basse",
       "micro",
-      "solo"
+      "oeuvre"
     ],
     [
-      "concert",
-      "abat-jour",
       "chanteur",
-      "basse"
+      "solo",
+      "concert",
+      "humérus"
     ],
     [
-      "pied",
-      "métro",
-      "immeuble",
-      "morceau"
-    ],
-    [
-      "pose",
+      "tribune",
       "groupe",
-      "soupir",
-      "distorsion"
+      "distorsion",
+      "amplificateur"
+    ],
+    [
+      "scène",
+      "spacieux",
+      "transvaser",
+      "morceau"
     ]
   ],
   "rowClues": [
-    4,
+    2,
     3,
-    1,
+    3,
     2
   ],
   "colClues": [
     2,
-    2,
-    2,
-    4
+    3,
+    3,
+    2
   ],
   "themeWord": "rock",
   "solution": [
     [
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       true
@@ -52,18 +64,6 @@
     [
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true
     ]

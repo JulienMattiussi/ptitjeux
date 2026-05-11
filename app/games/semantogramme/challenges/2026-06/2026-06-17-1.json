@@ -5,54 +5,60 @@
   "height": 4,
   "words": [
     [
-      "accordéon",
-      "discrétion",
-      "autel",
-      "clou"
-    ],
-    [
-      "bénitier",
-      "beaujolais",
       "orgue",
-      "fidèle"
+      "caricature",
+      "tir",
+      "bénitier"
     ],
     [
-      "vitrail",
-      "star",
+      "cuisson",
+      "confessionnal",
       "cierge",
-      "parler"
+      "nef"
     ],
     [
-      "nef",
-      "leçon",
       "prêtre",
-      "confessionnal"
+      "hélice",
+      "cercueil",
+      "autel"
+    ],
+    [
+      "fidèle",
+      "jais",
+      "vitrail",
+      "haillon"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
     2,
-    3
+    2
   ],
   "colClues": [
     3,
-    0,
-    4,
-    2
+    1,
+    2,
+    3
   ],
   "themeWord": "église",
   "solution": [
     [
+      true,
       false,
+      false,
+      true
+    ],
+    [
       false,
       true,
-      false
+      true,
+      true
     ],
     [
       true,
       false,
-      true,
+      false,
       true
     ],
     [
@@ -60,12 +66,6 @@
       false,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 9

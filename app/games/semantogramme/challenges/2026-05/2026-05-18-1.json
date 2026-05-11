@@ -5,46 +5,52 @@
   "height": 4,
   "words": [
     [
+      "ventricule",
       "chausson",
-      "antarctique",
-      "éclair",
-      "juge"
+      "adoucir",
+      "gâteau"
     ],
     [
-      "selle",
-      "gâteau",
+      "scintiller",
+      "escarpé",
+      "brioche",
+      "jean"
+    ],
+    [
+      "boue",
       "tarte",
-      "bride"
-    ],
-    [
       "macaron",
-      "professeur",
-      "crêpe",
-      "brioche"
+      "flan"
     ],
     [
-      "améthyste",
-      "élément",
-      "pétale",
-      "flan"
+      "éclair",
+      "joyau",
+      "crêpe",
+      "institut"
     ]
   ],
   "rowClues": [
     2,
-    2,
+    1,
     3,
-    1
+    2
   ],
   "colClues": [
-    2,
     1,
+    2,
     3,
     2
   ],
   "themeWord": "pâtisserie",
   "solution": [
     [
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false
@@ -53,19 +59,13 @@
       false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 8

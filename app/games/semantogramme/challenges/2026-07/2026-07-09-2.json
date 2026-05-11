@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "globe",
-      "escalade",
-      "vis",
-      "panneau",
-      "mémoire"
+      "géologie",
+      "brosser",
+      "chauve",
+      "peigner",
+      "chevelure"
     ],
     [
-      "golf",
-      "fusée",
-      "tennis",
-      "escalade",
-      "vis"
+      "shampooing",
+      "abricot",
+      "boucle",
+      "tresse",
+      "mèche"
     ],
     [
-      "gym",
-      "football",
-      "mur",
-      "tennis",
-      "jardin"
+      "simplifier",
+      "bronzer",
+      "hirsute",
+      "lac",
+      "énigmer"
     ],
     [
-      "course",
-      "table",
-      "ciseaux",
-      "course",
-      "tennis"
+      "détoxifier",
+      "coiffer",
+      "creusage",
+      "téléphone",
+      "permanente"
     ],
     [
-      "voisin",
-      "judo",
-      "rideau",
-      "lueur",
-      "volley"
+      "pointe",
+      "crinière",
+      "teindre",
+      "vertèbre",
+      "racine"
     ]
   ],
   "rowClues": [
+    4,
+    4,
     1,
-    3,
-    3,
-    3,
-    2
+    2,
+    4
   ],
   "colClues": [
+    2,
     3,
-    3,
-    1,
-    3,
-    2
+    4,
+    2,
+    4
   ],
-  "themeWord": "sport",
+  "themeWord": "cheveu",
   "solution": [
     [
       false,
       true,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     [
       true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ],
     [
       false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

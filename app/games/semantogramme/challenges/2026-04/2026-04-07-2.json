@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "thon",
-      "bateau",
-      "étoile",
-      "corail",
-      "baleine"
+      "gambader",
+      "caduque",
+      "élan",
+      "chat",
+      "mucus"
     ],
     [
-      "dauphin",
-      "chemin",
-      "thon",
-      "mémoire",
-      "enveloppe"
+      "enjamber",
+      "sourdine",
+      "bondir",
+      "rafraîchissant",
+      "satire"
     ],
     [
-      "bateau",
-      "règle",
-      "fusée",
-      "tabouret",
-      "tabouret"
+      "haie",
+      "rebondir",
+      "minuscule",
+      "trampoline",
+      "sautiller"
     ],
     [
-      "phare",
-      "prison",
-      "vis",
-      "sol",
-      "jardin"
+      "grenier",
+      "tropique",
+      "apogée",
+      "liturgie",
+      "cabrioler"
     ],
     [
-      "corail",
-      "vague",
-      "thon",
-      "balai",
-      "phare"
+      "jalousie",
+      "berger",
+      "messe",
+      "jaillir",
+      "corde"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     4,
-    2,
-    1,
-    1,
-    4
-  ],
-  "colClues": [
-    5,
-    2,
-    2,
     1,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    3,
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "sauter",
   "solution": [
     [
       true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
       true
     ],
     [
-      true,
       false,
-      true,
       false,
-      false
+      false,
+      false,
+      true
     ],
     [
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "placebo",
+      "givre",
       "antibiotique",
-      "première",
-      "levain"
+      "traîneau",
+      "ordonnance"
+    ],
+    [
+      "extension",
+      "cosse",
+      "posologie",
+      "antalgique"
     ],
     [
       "pharmacie",
-      "antalgique",
+      "raccourcir",
+      "pimenter",
+      "brasse"
+    ],
+    [
+      "placebo",
+      "set",
       "pilule",
-      "dîner"
-    ],
-    [
-      "province",
-      "octave",
-      "singe",
-      "épisode"
-    ],
-    [
-      "grimoire",
-      "ciseau",
-      "ordonnance",
-      "posologie"
+      "migration"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    0,
+    2,
+    1,
     2
   ],
   "colClues": [
     2,
+    1,
     2,
-    2,
-    1
+    2
   ],
   "themeWord": "médicament",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
       false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 7

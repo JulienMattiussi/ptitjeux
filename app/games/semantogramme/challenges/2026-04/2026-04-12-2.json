@@ -5,66 +5,73 @@
   "height": 5,
   "words": [
     [
-      "plat",
-      "poêle",
-      "porte",
-      "plat",
-      "sol"
+      "humour",
+      "colonne",
+      "numéro",
+      "ricaner",
+      "glousser"
     ],
     [
-      "verre",
-      "évier",
-      "tablier",
-      "parfum",
-      "poêle"
+      "micro",
+      "éclat",
+      "comique",
+      "fou rire",
+      "thermos"
     ],
     [
-      "pelle",
-      "évier",
-      "étagère",
-      "rideau",
-      "lueur"
+      "débutant",
+      "gloussement",
+      "sourire",
+      "smash",
+      "amusement"
     ],
     [
-      "cuillère",
-      "épice",
-      "serrure",
-      "marteau",
-      "spatule"
+      "risqué",
+      "jubilation",
+      "hilare",
+      "rigoler",
+      "plaisanterie"
     ],
     [
-      "évier",
-      "frigo",
-      "peigne",
-      "ombre",
-      "fourchette"
+      "pouffer",
+      "ironie",
+      "s'esclaffer",
+      "absence",
+      "vainqueur"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    1,
+    3,
+    3,
     3,
     3
   ],
   "colClues": [
+    2,
+    3,
     4,
-    5,
-    1,
-    1,
+    3,
     3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "rire",
   "solution": [
     [
       true,
-      true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -72,25 +79,18 @@
     ],
     [
       false,
-      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

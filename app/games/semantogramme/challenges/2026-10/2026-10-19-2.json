@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "jardin",
-      "tête",
-      "livre",
-      "plateau",
-      "plateau"
+      "découvrir",
+      "monstrueux",
+      "pourchasser",
+      "historique",
+      "taureau"
     ],
     [
-      "balai",
-      "banquier",
-      "dos",
-      "joue",
-      "mur"
+      "thésée",
+      "mythique",
+      "rugir",
+      "mythologie",
+      "magnanime"
     ],
     [
-      "horloge",
-      "bureau",
-      "genou",
-      "tournevis",
-      "balai"
+      "singulier",
+      "champignon",
+      "crétois",
+      "crète",
+      "fil"
     ],
     [
-      "tunnel",
-      "langue",
-      "langue",
-      "dos",
-      "clé"
+      "tôt",
+      "palais",
+      "labyrinthe",
+      "dague",
+      "monstre"
     ],
     [
-      "genou",
-      "bouche",
-      "clé",
-      "oreille",
-      "langue"
+      "noyau",
+      "égarer",
+      "vocifération",
+      "apprenti",
+      "mouillage"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    1,
     3,
-    4
-  ],
-  "colClues": [
-    1,
-    3,
+    4,
     3,
     3,
     1
   ],
-  "themeWord": "corps",
+  "colClues": [
+    1,
+    4,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "minotaure",
   "solution": [
     [
       false,
       true,
+      true,
       false,
-      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

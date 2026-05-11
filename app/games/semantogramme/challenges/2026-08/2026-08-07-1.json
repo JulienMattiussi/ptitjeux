@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "aire",
-      "gousse",
-      "potager",
-      "cosse"
+      "cosse",
+      "plantule",
+      "fragment",
+      "potager"
     ],
     [
-      "beaujolais",
-      "pépin",
-      "palette",
-      "transformation"
+      "mars",
+      "pasteurisé",
+      "germination",
+      "arroser"
     ],
     [
-      "cépage",
-      "gélatineuse",
-      "violet",
-      "plantule"
-    ],
-    [
-      "sachet",
-      "culture",
+      "carreau",
       "jardinier",
-      "germination"
+      "tournesol",
+      "piquant"
+    ],
+    [
+      "gousse",
+      "lier",
+      "pépin",
+      "sachet"
     ]
   ],
   "rowClues": [
@@ -36,30 +36,30 @@
     3
   ],
   "colClues": [
-    1,
     2,
     2,
-    3
+    2,
+    2
   ],
   "themeWord": "graine",
   "solution": [
     [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
       true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true
     ],
     [
       true,

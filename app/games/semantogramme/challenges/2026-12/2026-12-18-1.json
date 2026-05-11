@@ -5,39 +5,39 @@
   "height": 4,
   "words": [
     [
-      "pirogue",
-      "mammifère",
-      "tomate",
+      "morille",
+      "rang",
+      "graine",
       "jardinier"
     ],
     [
-      "longitude",
-      "rang",
-      "gouttelette",
-      "migration"
-    ],
-    [
-      "haricot",
-      "parcelle",
       "carotte",
-      "arrosoir"
+      "haricot",
+      "puce",
+      "galet"
     ],
     [
-      "légume",
-      "graine",
+      "parcelle",
+      "fourreau",
+      "tomate",
+      "accéder"
+    ],
+    [
       "courgette",
-      "salaire"
+      "spiritualité",
+      "arrosoir",
+      "légume"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    1,
-    4,
+    2,
     3
   ],
   "colClues": [
-    2,
     3,
+    2,
     3,
     2
   ],
@@ -45,18 +45,6 @@
   "solution": [
     [
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       true
@@ -64,8 +52,20 @@
     [
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 10

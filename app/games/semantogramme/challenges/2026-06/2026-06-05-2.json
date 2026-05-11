@@ -5,72 +5,58 @@
   "height": 5,
   "words": [
     [
-      "serrure",
-      "note",
-      "règle",
-      "banquier",
-      "coussin"
+      "rempli",
+      "multitude",
+      "brassé",
+      "astéroïde",
+      "porter"
     ],
     [
-      "panier",
-      "coussin",
-      "trompette",
-      "porte",
-      "panneau"
+      "sono",
+      "foule",
+      "abondance",
+      "chef",
+      "masse"
     ],
     [
-      "gamme",
-      "harpe",
-      "vis",
-      "voisin",
-      "plafond"
+      "toit",
+      "remplissage",
+      "grec",
+      "balai",
+      "remplir"
     ],
     [
-      "gamme",
-      "batterie",
-      "banquier",
-      "tambour",
-      "savon"
+      "lettre",
+      "mars",
+      "bondé",
+      "comble",
+      "force"
     ],
     [
-      "panneau",
-      "piano",
-      "chant",
-      "concerto",
-      "gamme"
+      "farci",
+      "crawl",
+      "contenu",
+      "profusion",
+      "combler"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     2,
     3,
+    2,
+    2,
     4
   ],
   "colClues": [
     2,
-    4,
+    3,
+    3,
     2,
-    2,
-    1
+    3
   ],
-  "themeWord": "musique",
+  "themeWord": "plein",
   "solution": [
     [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
@@ -78,19 +64,33 @@
       false
     ],
     [
+      false,
       true,
       true,
       false,
-      true,
-      false
+      true
     ],
     [
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

@@ -5,82 +5,61 @@
   "height": 5,
   "words": [
     [
-      "tramway",
-      "vis",
-      "miroir",
-      "navette",
-      "tunnel"
+      "moelle",
+      "uriner",
+      "humérus",
+      "fanal",
+      "cartilage"
     ],
     [
-      "plateau",
-      "caravane",
-      "cadre",
-      "panneau",
-      "métro"
+      "craquer",
+      "seigneur",
+      "vertèbre",
+      "parental",
+      "concerto"
     ],
     [
-      "plateau",
-      "bureau",
-      "navette",
-      "bus",
-      "ciseaux"
+      "squelettique",
+      "rarissime",
+      "rotule",
+      "fracturer",
+      "gué"
     ],
     [
-      "pince",
-      "enveloppe",
-      "racine",
-      "panier",
-      "vélo"
+      "imaginer",
+      "persistant",
+      "osseux",
+      "palmier",
+      "tibia"
     ],
     [
-      "taxi",
-      "agenda",
-      "moto",
-      "remorque",
-      "serrure"
+      "squelette",
+      "crâne",
+      "arctique",
+      "sifflement",
+      "ronger"
     ]
   ],
   "rowClues": [
+    3,
     2,
+    3,
     2,
-    2,
-    1,
     3
   ],
   "colClues": [
-    2,
+    4,
     1,
-    2,
-    3,
-    2
+    4,
+    1,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "os",
   "solution": [
     [
       true,
       false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true
     ],
@@ -88,9 +67,30 @@
       true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 13
 }

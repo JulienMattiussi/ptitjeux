@@ -5,84 +5,77 @@
   "height": 5,
   "words": [
     [
-      "foudre",
-      "crayon",
-      "éclair",
-      "sol",
-      "verglas"
+      "retenir",
+      "lest",
+      "violet",
+      "figurine",
+      "ulcère"
     ],
     [
-      "pluie",
-      "soleil",
-      "carnet",
-      "éclair",
-      "clé"
+      "sportive",
+      "plonger",
+      "sodé",
+      "chronomètre",
+      "libre"
     ],
     [
-      "orage",
-      "lampe",
-      "balai",
-      "pelle",
-      "globe"
+      "profondeur",
+      "respiration",
+      "profonde",
+      "mosquée",
+      "masque"
     ],
     [
-      "chemin",
-      "rosée",
-      "rumeur",
-      "arc-en-ciel",
-      "écran"
+      "étalage",
+      "palme",
+      "extrême",
+      "paliers",
+      "concevoir"
     ],
     [
-      "plateau",
-      "neige",
-      "soleil",
-      "vent",
-      "voisin"
+      "rugby",
+      "accusé",
+      "sainte",
+      "poumon",
+      "sous-marine"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    1,
     2,
-    3
+    3,
+    4,
+    3,
+    2
   ],
   "colClues": [
     3,
-    3,
+    4,
     2,
-    3,
-    1
+    2,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "apnée",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       true
     ],
     [
       true,
       true,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
+      true
     ],
     [
       false,
@@ -90,7 +83,14 @@
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "chocolat",
-      "chevalet",
-      "lion",
-      "abat-jour"
+      "toile",
+      "nez",
+      "acrylique",
+      "tableau"
     ],
     [
-      "opposition",
+      "naufrage",
       "aquarelle",
+      "chlore",
+      "maquillage"
+    ],
+    [
+      "palette",
+      "trachée",
       "gouache",
-      "noyau"
+      "tornade"
     ],
     [
       "huile",
+      "chevalet",
       "portrait",
-      "palette",
-      "bronzage"
-    ],
-    [
-      "sirop",
-      "tableau",
-      "toile",
-      "acrylique"
+      "bricolée"
     ]
   ],
   "rowClues": [
+    3,
     1,
     2,
-    3,
     3
   ],
   "colClues": [
-    1,
-    4,
+    3,
+    2,
     3,
     1
   ],
   "themeWord": "peinture",
   "solution": [
     [
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 9

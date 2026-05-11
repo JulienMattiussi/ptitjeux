@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "écume",
-      "saumon",
-      "écume",
-      "savon",
-      "plage"
+      "cellophane",
+      "éruption",
+      "tag",
+      "étrenner",
+      "épeler"
     ],
     [
-      "dauphin",
-      "ombre",
-      "méduse",
-      "rumeur",
-      "chaise"
+      "nouveauté",
+      "nouveau",
+      "frais",
+      "babouin",
+      "épisode"
     ],
     [
-      "rumeur",
-      "règle",
-      "gomme",
-      "sable",
-      "miroir"
+      "lueur",
+      "innovation",
+      "donner",
+      "emballage",
+      "transpercer"
     ],
     [
-      "sardine",
-      "timbre",
-      "étoile",
-      "requin",
-      "vague"
+      "sciatique",
+      "charpente",
+      "flambant",
+      "traversière",
+      "athlétisme"
     ],
     [
-      "étoile",
-      "marteau",
-      "devoir",
-      "méduse",
-      "peigne"
+      "rénover",
+      "inutilisé",
+      "sculpteur",
+      "salto",
+      "inaugurer"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    3,
     2,
     1,
-    3,
-    1
+    3
   ],
   "colClues": [
     3,
-    1,
-    2,
     3,
-    2
+    2,
+    2,
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "neuf",
   "solution": [
     [
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 11

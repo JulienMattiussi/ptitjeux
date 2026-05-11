@@ -5,81 +5,81 @@
   "height": 5,
   "words": [
     [
-      "abricot",
-      "ananas",
-      "horloge",
-      "panier",
-      "marteau"
+      "mouillé",
+      "mousson",
+      "symbolique",
+      "pirate",
+      "serpillière"
     ],
     [
-      "abricot",
-      "banane",
-      "ciseaux",
-      "mûre",
-      "prune"
+      "rosée",
+      "brume",
+      "mouiller",
+      "marais",
+      "trampoline"
     ],
     [
-      "cassis",
-      "ananas",
-      "gomme",
-      "pomme",
-      "bureau"
+      "spongieux",
+      "mensuel",
+      "green",
+      "résistance",
+      "humidifié"
     ],
     [
-      "mangue",
-      "mur",
-      "kiwi",
-      "mur",
-      "mémoire"
+      "langue",
+      "croissant",
+      "détrempé",
+      "mouler",
+      "étinceler"
     ],
     [
-      "ananas",
-      "agenda",
-      "pêche",
-      "pomme",
-      "caillou"
+      "humecter",
+      "altitude",
+      "violette",
+      "enduit",
+      "tilleul"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     4,
-    3,
     2,
-    3
-  ],
-  "colClues": [
-    5,
-    3,
-    2,
-    3,
+    1,
     1
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    4,
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "humide",
   "solution": [
     [
       true,
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       true
     ],
     [
       true,
       true,
-      false,
+      true,
       true,
       false
     ],
     [
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false
@@ -87,10 +87,10 @@
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

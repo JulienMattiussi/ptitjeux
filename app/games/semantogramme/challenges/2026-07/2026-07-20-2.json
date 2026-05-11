@@ -5,60 +5,81 @@
   "height": 5,
   "words": [
     [
-      "fourchette",
-      "tapis",
-      "agenda",
-      "devoir",
-      "fourchette"
+      "aisselle",
+      "porter",
+      "avril",
+      "hausser",
+      "épaulé"
     ],
     [
-      "devoir",
-      "assiette",
-      "banquier",
-      "globe",
-      "caillou"
+      "soulever",
+      "arqué",
+      "opaque",
+      "sangle",
+      "clavicule"
     ],
     [
-      "livre",
-      "marteau",
-      "four",
-      "fourchette",
-      "écran"
+      "omoplate",
+      "cou",
+      "torse",
+      "fresque",
+      "bras"
     ],
     [
-      "enveloppe",
-      "pétale",
-      "épice",
-      "fourchette",
-      "recette"
+      "rouler",
+      "trapèze",
+      "rallonger",
+      "chimique",
+      "bretelle"
     ],
     [
-      "enveloppe",
-      "devoir",
-      "four",
-      "timbre",
-      "voisin"
+      "pivoter",
+      "deltoïde",
+      "salir",
+      "brochet",
+      "couche"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    2,
+    4,
+    3,
+    4,
     3,
     1
   ],
   "colClues": [
+    4,
+    4,
     1,
-    1,
-    3,
     2,
-    2
+    4
   ],
-  "themeWord": "cuisine",
+  "themeWord": "épaule",
   "solution": [
     [
       true,
+      true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true
@@ -67,30 +88,9 @@
       false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 15
 }

@@ -6,53 +6,53 @@
   "words": [
     [
       "salsa",
-      "limbe",
-      "classique",
-      "canard"
-    ],
-    [
       "folklorique",
-      "plongeon",
-      "bière",
-      "rythme"
+      "or",
+      "sortilège"
     ],
     [
-      "valse",
+      "cauchemar",
+      "rythme",
+      "pas",
+      "classique"
+    ],
+    [
+      "chorégraphie",
       "tango",
-      "teinture",
-      "chorégraphie"
+      "patrie",
+      "moderne"
     ],
     [
       "jazz",
-      "défenseur",
-      "moderne",
-      "pas"
+      "refuge",
+      "équateur",
+      "valse"
     ]
   ],
   "rowClues": [
     2,
-    2,
     3,
-    3
+    3,
+    2
   ],
   "colClues": [
-    4,
+    3,
+    3,
     1,
-    2,
     3
   ],
   "themeWord": "danse",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -64,7 +64,7 @@
     [
       true,
       false,
-      true,
+      false,
       true
     ]
   ],

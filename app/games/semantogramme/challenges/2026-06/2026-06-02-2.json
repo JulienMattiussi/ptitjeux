@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "note",
-      "livre",
-      "harpe",
-      "panier",
-      "sol"
+      "nettoyer",
+      "lessive",
+      "photographe",
+      "soigné",
+      "mouillé"
     ],
     [
-      "symphonie",
-      "peigne",
-      "gomme",
-      "tunnel",
-      "opéra"
+      "os",
+      "sororal",
+      "sous-marine",
+      "récurer",
+      "détergent"
     ],
     [
-      "manuel",
-      "batterie",
-      "vis",
-      "opéra",
-      "piano"
+      "pommier",
+      "minaret",
+      "nettoyage",
+      "raccourcir",
+      "savon"
     ],
     [
-      "choeur",
-      "tambour",
-      "cadre",
-      "concerto",
-      "guitare"
+      "voler",
+      "esquisser",
+      "linge",
+      "eau",
+      "ligament"
     ],
     [
-      "tambour",
-      "orgue",
-      "choeur",
-      "table",
-      "racine"
+      "immaculé",
+      "astiquer",
+      "vente",
+      "douche",
+      "laver"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    4,
-    3
+    2,
+    2,
+    2,
+    4
   ],
   "colClues": [
+    2,
+    2,
+    2,
     4,
-    3,
-    2,
-    2,
     3
   ],
-  "themeWord": "musique",
+  "themeWord": "propre",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

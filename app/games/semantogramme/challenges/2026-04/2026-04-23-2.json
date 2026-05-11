@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "mur",
-      "beige",
-      "enveloppe",
-      "rouge",
-      "sol"
+      "console",
+      "se ramifier",
+      "soldat",
+      "tendresse",
+      "sécuriser"
     ],
     [
-      "racine",
-      "maison",
-      "gris",
-      "tunnel",
-      "rose"
+      "mourant",
+      "jean",
+      "bouleau",
+      "embrasser",
+      "étreindre"
     ],
     [
-      "bleu",
-      "sol",
-      "mur",
-      "turquoise",
-      "noir"
+      "caresse",
+      "affectionner",
+      "romance",
+      "galoper",
+      "soutenir"
     ],
     [
-      "noir",
-      "horloge",
-      "panneau",
-      "argenté",
-      "étagère"
+      "orangé",
+      "passion",
+      "amoureux",
+      "affection",
+      "apprécier"
     ],
     [
-      "noir",
-      "turquoise",
-      "lampe",
-      "globe",
-      "indigo"
+      "amour",
+      "idolâtrer",
+      "effrayant",
+      "pull",
+      "gril"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     2,
     3,
-    2,
-    3
+    4,
+    2
   ],
   "colClues": [
+    2,
     3,
     2,
-    1,
     3,
-    3
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "aimer",
   "solution": [
     [
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 12

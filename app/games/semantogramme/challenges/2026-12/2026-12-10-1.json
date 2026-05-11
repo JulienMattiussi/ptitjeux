@@ -5,59 +5,53 @@
   "height": 4,
   "words": [
     [
-      "pansement",
-      "laminaire",
-      "marée",
-      "maman"
-    ],
-    [
-      "brun",
-      "plancton",
-      "mer",
-      "sargasse"
-    ],
-    [
-      "rocher",
-      "écume",
-      "pull",
-      "marin"
-    ],
-    [
-      "semence",
+      "sargasse",
       "varech",
-      "courroux",
-      "fromage"
+      "marée",
+      "battant"
+    ],
+    [
+      "laminaire",
+      "commencer",
+      "verdoyant",
+      "brun"
+    ],
+    [
+      "dessert",
+      "écume",
+      "préparer",
+      "mer"
+    ],
+    [
+      "marin",
+      "besace",
+      "rocher",
+      "plancton"
     ]
   ],
   "rowClues": [
-    2,
-    4,
     3,
-    1
+    2,
+    2,
+    3
   ],
   "colClues": [
+    3,
     2,
-    4,
     2,
-    2
+    3
   ],
   "themeWord": "algue",
   "solution": [
     [
-      false,
+      true,
       true,
       true,
       false
     ],
     [
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
+      false,
       false,
       true
     ],
@@ -65,7 +59,13 @@
       false,
       true,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 10

@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "marteau",
-      "bureau",
-      "clé",
-      "étagère",
-      "genou"
+      "étoile",
+      "phare",
+      "soleil",
+      "bataille",
+      "spot"
     ],
     [
-      "coeur",
-      "table",
-      "plafond",
-      "langue",
-      "nez"
+      "imposte",
+      "étinceler",
+      "lettre",
+      "lustre",
+      "rayonner"
     ],
     [
-      "pétale",
-      "jambe",
-      "savon",
-      "lèvre",
-      "serrure"
+      "briller",
+      "cortège",
+      "contrôleur",
+      "matin",
+      "haleter"
     ],
     [
-      "banquier",
-      "tournevis",
-      "nez",
-      "panier",
-      "sol"
+      "illuminer",
+      "resplendissant",
+      "éblouir",
+      "lampe",
+      "langoustine"
     ],
     [
-      "rumeur",
-      "brosse",
-      "coeur",
-      "devoir",
-      "rideau"
+      "bougie",
+      "projecteur",
+      "peur",
+      "égoïne",
+      "baguette"
     ]
   ],
   "rowClues": [
-    1,
+    4,
     3,
-    2,
     1,
-    1
+    4,
+    2
   ],
   "colClues": [
-    1,
-    1,
+    4,
+    4,
     2,
     2,
     2
   ],
-  "themeWord": "corps",
+  "themeWord": "lumineux",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
+      true,
+      true,
       true,
       false,
-      false,
-      true,
       true
     ],
     [
@@ -75,22 +68,29 @@
       true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
-      false,
+      true,
+      true,
+      true,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 14
 }

@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "marteau",
-      "clé",
-      "rumeur",
-      "avion",
-      "caravane"
+      "dé",
+      "agilité",
+      "natte",
+      "rustique",
+      "savane"
     ],
     [
-      "savon",
-      "bus",
-      "mémoire",
-      "autobus",
-      "train"
+      "rudimentaire",
+      "acrylique",
+      "feu",
+      "abriter",
+      "habiter"
     ],
     [
-      "prière",
-      "caravane",
-      "bureau",
-      "sol",
-      "racine"
+      "torchis",
+      "étudiant",
+      "moine",
+      "équipe",
+      "paille"
     ],
     [
-      "crayon",
-      "vélo",
-      "panier",
-      "voiture",
-      "remorque"
+      "marais",
+      "soin",
+      "opinion",
+      "tribale",
+      "caverne"
     ],
     [
-      "camion",
-      "métro",
-      "train",
-      "navette",
-      "étagère"
+      "bois",
+      "pygmée",
+      "planer",
+      "traîneau",
+      "tribal"
     ]
   ],
   "rowClues": [
+    3,
+    4,
     2,
+    1,
+    3
+  ],
+  "colClues": [
     3,
     1,
+    2,
     3,
     4
   ],
-  "colClues": [
-    1,
-    4,
-    1,
-    4,
-    3
-  ],
-  "themeWord": "transport",
+  "themeWord": "hutte",
   "solution": [
     [
       false,
       false,
-      false,
+      true,
       true,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       true,
       true
     ],
     [
-      false,
       true,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
-      true,
+      false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 13

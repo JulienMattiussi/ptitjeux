@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rythme",
-      "chant",
-      "harpe",
-      "rythme",
-      "rideau"
+      "jaune",
+      "crabe",
+      "biliaire",
+      "habiter",
+      "glycogène"
     ],
     [
-      "opéra",
-      "note",
-      "flûte",
-      "pince",
-      "écran"
+      "cour",
+      "détoxifier",
+      "sacrement",
+      "jaunisse",
+      "petite"
     ],
     [
-      "clé",
-      "accord",
-      "jazz",
-      "chant",
-      "guitare"
+      "pièce",
+      "cirrhose",
+      "restaurant",
+      "pâté",
+      "diaphane"
     ],
     [
-      "tambour",
-      "opéra",
-      "batterie",
-      "savon",
-      "chant"
+      "capitale",
+      "ictère",
+      "organe",
+      "rancune",
+      "filtrer"
     ],
     [
-      "tasse",
-      "carnet",
-      "piano",
-      "panneau",
-      "silence"
+      "cirrhotique",
+      "sécréter",
+      "piquet",
+      "bile",
+      "aigrir"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    4,
-    4,
-    1
+    2,
+    2,
+    3,
+    3
   ],
   "colClues": [
-    3,
-    4,
-    5,
     2,
+    4,
+    2,
+    3,
     2
   ],
-  "themeWord": "musique",
+  "themeWord": "foie",
   "solution": [
     [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
       true
     ],
     [
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 13
 }

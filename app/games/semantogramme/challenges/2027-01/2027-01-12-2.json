@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
-      "vent",
-      "lueur",
-      "glace",
-      "marteau",
-      "verglas"
+      "astronomique",
+      "style",
+      "dégât",
+      "hiver",
+      "marquer"
     ],
     [
-      "savon",
-      "rideau",
-      "rosée",
-      "neige",
-      "tempête"
+      "haut-parleur",
+      "vertical",
+      "précis",
+      "fêter",
+      "poing"
     ],
     [
-      "nuage",
-      "brouillard",
-      "ombre",
-      "verglas",
-      "enveloppe"
+      "laboratoire",
+      "cyclique",
+      "annuel",
+      "zénital",
+      "centenaire"
     ],
     [
-      "verglas",
-      "tonnerre",
-      "parfum",
-      "tempête",
-      "nuage"
+      "nuit",
+      "jour",
+      "observer",
+      "comble",
+      "épaisse"
     ],
     [
-      "brouillard",
-      "pluie",
-      "tempête",
-      "gel",
-      "chaise"
+      "gonflable",
+      "été",
+      "symbolique",
+      "soleil",
+      "juin"
     ]
   ],
   "rowClues": [
     3,
+    2,
+    2,
     3,
-    3,
-    4,
     4
   ],
   "colClues": [
+    2,
+    3,
     4,
     3,
-    3,
-    4,
-    3
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "solstice",
   "solution": [
     [
       true,
       false,
-      true,
       false,
+      true,
       true
     ],
     [
@@ -68,29 +68,29 @@
       false,
       true,
       true,
-      true
+      false
     ],
     [
+      false,
       true,
       true,
       false,
-      true,
       false
     ],
     [
       true,
       true,
-      false,
       true,
-      true
+      false,
+      false
     ],
     [
+      false,
       true,
       true,
       true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

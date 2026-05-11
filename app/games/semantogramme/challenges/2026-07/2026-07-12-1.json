@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "ballon",
-      "chêne",
-      "intuition",
-      "fourmi"
+      "concept",
+      "idée",
+      "diriger",
+      "raisonnement"
     ],
     [
-      "concept",
-      "hymne",
+      "grill",
+      "intuition",
       "jugement",
-      "idée"
+      "drap"
+    ],
+    [
+      "épaule",
+      "byzantin",
+      "créativité",
+      "royauté"
     ],
     [
       "analyse",
-      "créativité",
-      "dompteur",
-      "logique"
-    ],
-    [
-      "hurler",
-      "sorbier",
-      "chic",
-      "raisonnement"
+      "peur",
+      "logique",
+      "tétine"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     1,
-    3,
-    3,
-    1
+    2
   ],
   "colClues": [
     2,
-    1,
     2,
-    3
+    3,
+    1
   ],
   "themeWord": "pensée",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
     [
       false,
       false,
@@ -53,19 +65,7 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 8

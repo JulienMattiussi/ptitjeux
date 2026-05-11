@@ -5,67 +5,60 @@
   "height": 5,
   "words": [
     [
-      "moto",
-      "avion",
-      "train",
-      "fusée",
-      "agenda"
+      "âge",
+      "période",
+      "crochet",
+      "rubis",
+      "abstention"
     ],
     [
-      "ferry",
-      "rideau",
-      "jardin",
-      "silence",
-      "pétale"
+      "contemporain",
+      "tomate",
+      "millénaire",
+      "historique",
+      "antique"
     ],
     [
-      "navette",
-      "mur",
-      "remorque",
-      "caravane",
-      "bus"
+      "maraîcher",
+      "histoire",
+      "décennie",
+      "révolu",
+      "haute"
     ],
     [
-      "marteau",
-      "étoile",
-      "bus",
-      "étoile",
-      "coussin"
+      "définir",
+      "visiter",
+      "marquer",
+      "piano",
+      "fracturer"
     ],
     [
-      "taxi",
-      "jardin",
-      "marteau",
-      "pierre",
-      "agenda"
+      "bouillir",
+      "leurre",
+      "caractériser",
+      "débutant",
+      "moderne"
     ]
   ],
   "rowClues": [
+    2,
     4,
-    1,
-    4,
-    1,
-    1
-  ],
-  "colClues": [
-    4,
-    1,
     3,
     2,
-    1
+    2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    3,
+    2,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "époque",
   "solution": [
     [
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false
@@ -79,18 +72,25 @@
     ],
     [
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
       false,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

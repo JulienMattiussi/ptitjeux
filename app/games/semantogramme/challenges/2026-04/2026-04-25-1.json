@@ -5,46 +5,46 @@
   "height": 4,
   "words": [
     [
-      "tourbillon",
-      "souffle",
-      "tempête",
+      "sabre",
+      "tornade",
+      "cyclone",
+      "tempête"
+    ],
+    [
+      "brise",
+      "bander",
+      "lugubre",
       "girouette"
     ],
     [
-      "bourrasque",
-      "coulisse",
-      "brise",
-      "agressif"
-    ],
-    [
-      "tornade",
-      "cyclone",
+      "universel",
       "voile",
-      "ouragan"
+      "bourrasque",
+      "veilleuse"
     ],
     [
-      "gouvernail",
-      "cèpe",
-      "trait",
-      "grenier"
+      "souffle",
+      "tourbillon",
+      "vespéral",
+      "ouragan"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
-    4,
-    0
+    2,
+    3
   ],
   "colClues": [
-    3,
     2,
     3,
-    2
+    2,
+    3
   ],
   "themeWord": "vent",
   "solution": [
     [
-      true,
+      false,
       true,
       true,
       true
@@ -52,20 +52,20 @@
     [
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 10

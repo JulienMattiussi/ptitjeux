@@ -5,49 +5,49 @@
   "height": 4,
   "words": [
     [
-      "casque",
-      "pinceau",
-      "pneu",
-      "sucette"
-    ],
-    [
-      "roquefort",
-      "dérailleur",
-      "frein",
-      "houx"
-    ],
-    [
       "sonnette",
-      "romance",
-      "fosse",
-      "hôtel"
+      "dérailleur",
+      "rêver",
+      "pneu"
     ],
     [
+      "tannin",
       "roue",
       "chaîne",
-      "hirondelle",
+      "tige"
+    ],
+    [
+      "conviction",
+      "génisse",
+      "frein",
+      "havane"
+    ],
+    [
+      "casque",
+      "mémoriser",
+      "berger",
       "rayon"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
-    3
-  ],
-  "colClues": [
     3,
     2,
+    1,
+    2
+  ],
+  "colClues": [
     2,
-    1
+    2,
+    2,
+    2
   ],
   "themeWord": "vélo",
   "solution": [
     [
       true,
-      false,
       true,
-      false
+      false,
+      true
     ],
     [
       false,
@@ -56,14 +56,14 @@
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       false
     ],
     [
       true,
-      true,
+      false,
       false,
       true
     ]

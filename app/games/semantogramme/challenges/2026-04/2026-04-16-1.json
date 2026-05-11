@@ -5,57 +5,45 @@
   "height": 4,
   "words": [
     [
-      "tournevis",
-      "obélisque",
-      "houle",
-      "crayon"
+      "vague",
+      "orbiter",
+      "sable",
+      "or"
     ],
     [
-      "corail",
-      "fusain",
-      "atoll",
+      "marée",
+      "algue",
+      "tremplin",
+      "clavicule"
+    ],
+    [
+      "menuisier",
+      "caban",
+      "phare",
       "crique"
     ],
     [
-      "phare",
-      "tribunal",
-      "marée",
-      "séjour"
-    ],
-    [
-      "sable",
-      "ébénisterie",
-      "vague",
-      "algue"
+      "tigre",
+      "corail",
+      "hublot",
+      "gélatineuse"
     ]
   ],
   "rowClues": [
-    0,
     2,
     2,
-    3
+    2,
+    1
   ],
   "colClues": [
-    3,
-    0,
     2,
-    2
+    2,
+    2,
+    1
   ],
   "themeWord": "mer",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
@@ -63,9 +51,21 @@
     ],
     [
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
     ]
   ],
   "parMoves": 7

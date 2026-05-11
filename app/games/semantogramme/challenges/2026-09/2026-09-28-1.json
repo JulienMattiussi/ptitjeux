@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "cils",
-      "poudre",
-      "tome",
-      "palette"
+      "fendre",
+      "immaculé",
+      "opale",
+      "poudre"
     ],
     [
-      "géranium",
       "ombre",
-      "mascara",
-      "pinceau"
+      "amuser",
+      "palette",
+      "hématome"
     ],
     [
-      "lance",
-      "phrase",
-      "nectar",
-      "aérienne"
-    ],
-    [
-      "champignon",
+      "cils",
+      "cocon",
       "lèvre",
-      "taie",
-      "blues"
+      "mascara"
+    ],
+    [
+      "atelier",
+      "pinceau",
+      "froid",
+      "calcul"
     ]
   ],
   "rowClues": [
+    1,
+    2,
     3,
-    3,
-    0,
     1
   ],
   "colClues": [
+    2,
     1,
-    3,
-    1,
+    2,
     2
   ],
   "themeWord": "maquillage",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ],
     [
+      true,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ],
     [
       false,

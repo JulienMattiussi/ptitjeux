@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tennis",
-      "plafond",
-      "voile",
-      "globe",
-      "rugby"
+      "virement",
+      "chasser",
+      "carton",
+      "puissant",
+      "grignoter"
     ],
     [
-      "ski",
-      "pierre",
-      "tunnel",
-      "ombre",
-      "rugby"
+      "mythique",
+      "cavalier",
+      "consacrer",
+      "nuage",
+      "forêt"
     ],
     [
-      "boxe",
-      "marathon",
-      "coussin",
-      "rideau",
-      "écran"
+      "galop",
+      "légendaire",
+      "cheval",
+      "flèche",
+      "neuronal"
     ],
     [
-      "table",
-      "ski",
-      "natation",
-      "judo",
-      "escalade"
+      "galoper",
+      "mythologie",
+      "sautiller",
+      "homme",
+      "grec"
     ],
     [
-      "tunnel",
-      "sol",
-      "voile",
-      "panier",
-      "course"
+      "sauvage",
+      "grèce",
+      "arc",
+      "sauter",
+      "brun"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
     4,
-    2
+    4,
+    3
   ],
   "colClues": [
-    3,
+    4,
+    4,
     2,
     3,
-    1,
-    4
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "centaure",
   "solution": [
     [
-      true,
       false,
       true,
       false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

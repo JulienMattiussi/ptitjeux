@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "fraise",
+      "menuiserie",
       "pêche",
-      "pomme",
-      "bambou"
+      "turban",
+      "ver"
     ],
     [
-      "raisin",
-      "figurine",
-      "statue",
-      "ananas"
+      "mangue",
+      "effrayant",
+      "fraise",
+      "pomme"
     ],
     [
       "banane",
-      "mangue",
       "poire",
-      "pâte"
+      "habiter",
+      "renforcer"
     ],
     [
-      "bière",
-      "apprenti",
-      "oculus",
-      "cerise"
+      "humidité",
+      "raisin",
+      "cerise",
+      "ananas"
     ]
   ],
   "rowClues": [
+    1,
     3,
     2,
-    3,
-    1
+    3
   ],
   "colClues": [
-    3,
     2,
+    3,
     2,
     2
   ],
   "themeWord": "fruit",
   "solution": [
     [
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
+      true,
       true
     ],
     [
       true,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ]
   ],

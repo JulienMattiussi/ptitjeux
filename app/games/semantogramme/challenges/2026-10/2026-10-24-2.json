@@ -5,82 +5,61 @@
   "height": 5,
   "words": [
     [
-      "tabouret",
-      "vert",
-      "rouge",
-      "bleu",
-      "noir"
+      "éditeur",
+      "cyclisme",
+      "creuser",
+      "long",
+      "fichier"
     ],
     [
-      "argenté",
-      "blanc",
-      "argenté",
-      "pelle",
-      "coussin"
+      "galerie",
+      "métro",
+      "mollet",
+      "bulle",
+      "enfoui"
     ],
     [
-      "carnet",
-      "beige",
-      "globe",
-      "tapis",
-      "noir"
+      "voie",
+      "profond",
+      "placebo",
+      "hirondelle",
+      "parlement"
     ],
     [
-      "tabouret",
-      "ocre",
-      "parfum",
-      "rose",
-      "jardin"
+      "percer",
+      "creusage",
+      "paillasson",
+      "ombre",
+      "marcher"
     ],
     [
-      "bleu",
-      "beige",
-      "serrure",
-      "sol",
-      "silence"
+      "étroit",
+      "sombre",
+      "nombre",
+      "taupe",
+      "pensée"
     ]
   ],
   "rowClues": [
-    4,
+    2,
     3,
     2,
     2,
-    2
+    3
   ],
   "colClues": [
+    4,
+    4,
+    1,
     2,
-    5,
-    2,
-    2,
-    2
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "tunnel",
   "solution": [
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
@@ -89,8 +68,29 @@
       true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

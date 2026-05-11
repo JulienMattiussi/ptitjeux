@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "maison",
-      "foudre",
-      "marteau",
-      "brouillard",
-      "soleil"
+      "mérinos",
+      "bref",
+      "province",
+      "temps",
+      "rivière"
     ],
     [
-      "vent",
-      "étagère",
-      "horloge",
-      "orage",
-      "tapis"
+      "décompter",
+      "amour",
+      "instantané",
+      "monumentale",
+      "instant"
     ],
     [
-      "manuel",
-      "arc-en-ciel",
-      "glace",
-      "marteau",
-      "panneau"
+      "chrono",
+      "minuscule",
+      "flaque",
+      "mocassin",
+      "parer"
     ],
     [
+      "fermé",
+      "tic-tac",
       "éclair",
-      "soleil",
-      "savon",
-      "pince",
-      "arc-en-ciel"
+      "horloge",
+      "pendule"
     ],
     [
-      "tunnel",
-      "balai",
-      "mémoire",
-      "tonnerre",
-      "maison"
+      "minute",
+      "point",
+      "durer",
+      "transcrire",
+      "cadran"
     ]
   ],
   "rowClues": [
-    3,
-    2,
     2,
     3,
-    1
+    2,
+    4,
+    3
   ],
   "colClues": [
+    3,
+    3,
+    3,
     2,
-    3,
-    1,
-    3,
-    2
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "seconde",
   "solution": [
     [
       false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       true
     ],
     [
       true,
       false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

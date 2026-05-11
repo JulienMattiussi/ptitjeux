@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "peigne",
-      "loup-garou",
-      "robinet",
-      "sirène"
-    ],
-    [
-      "étalon",
-      "lance",
-      "caserne",
-      "podium"
-    ],
-    [
+      "altruisme",
+      "ironie",
       "casque",
-      "fret",
-      "échelle",
-      "arroser"
+      "vaste"
     ],
     [
-      "satire",
+      "extincteur",
       "urgence",
-      "saladier",
-      "extincteur"
+      "piste",
+      "caserne"
+    ],
+    [
+      "cloche",
+      "somme",
+      "lance",
+      "boxe"
+    ],
+    [
+      "becs",
+      "sirène",
+      "échelle",
+      "percolateur"
     ]
   ],
   "rowClues": [
     1,
-    2,
-    2,
+    3,
+    1,
     2
   ],
   "colClues": [
     1,
     2,
-    2,
-    2
+    3,
+    1
   ],
   "themeWord": "pompier",
   "solution": [
     [
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
     ],
     [
       false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 7

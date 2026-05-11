@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "écran",
-      "coussin",
-      "pierre",
-      "chat",
-      "panda"
+      "filer",
+      "goudron",
+      "poussière",
+      "espace",
+      "observer"
     ],
     [
-      "ours",
-      "pince",
-      "tigre",
-      "bureau",
-      "renard"
+      "sabot",
+      "biologie",
+      "queue",
+      "glace",
+      "cadeau"
     ],
     [
-      "vache",
-      "cadre",
-      "jardin",
-      "belette",
-      "table"
+      "patinette",
+      "longue",
+      "cosmos",
+      "idyllique",
+      "spirituel"
     ],
     [
-      "renard",
-      "coussin",
-      "gomme",
-      "plateau",
-      "vache"
+      "bourrer",
+      "urine",
+      "orbite",
+      "rare",
+      "lointaine"
     ],
     [
-      "souris",
-      "tigre",
-      "pétale",
-      "cheval",
-      "vache"
+      "garde",
+      "rapide",
+      "navigateur",
+      "acrylique",
+      "orbiter"
     ]
   ],
   "rowClues": [
+    4,
+    2,
     2,
     3,
-    2,
-    2,
-    4
+    1
   ],
   "colClues": [
+    1,
+    1,
     4,
-    1,
-    1,
     3,
-    4
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "comète",
   "solution": [
     [
+      true,
       false,
-      false,
-      false,
+      true,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       false
     ],
     [
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      true,
       true
     ],
     [
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

@@ -5,40 +5,40 @@
   "height": 4,
   "words": [
     [
-      "mandarine",
       "pulpe",
-      "cèpe",
-      "métro"
-    ],
-    [
-      "lime",
-      "passeport",
-      "plaidoyer",
-      "bigarade"
+      "pamplemousse",
+      "bigarade",
+      "obtenir"
     ],
     [
       "cédrat",
-      "bergamote",
+      "chaton",
       "kumquat",
-      "titre"
+      "infusion"
+    ],
+    [
+      "pièce",
+      "lime",
+      "colophane",
+      "bergamote"
     ],
     [
       "écorce",
-      "pamplemousse",
-      "peur",
-      "caillé"
+      "histoire",
+      "mandarine",
+      "appliquer"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    2,
+    2,
     2
   ],
   "colClues": [
-    4,
     3,
-    1,
+    2,
+    3,
     1
   ],
   "themeWord": "agrume",
@@ -46,25 +46,25 @@
     [
       true,
       true,
-      false,
+      true,
       false
     ],
     [
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
+      true,
       false
     ]
   ],

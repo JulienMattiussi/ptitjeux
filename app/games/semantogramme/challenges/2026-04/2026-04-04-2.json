@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "violon",
-      "gamme",
-      "carnet",
-      "étagère",
-      "orgue"
+      "sentier",
+      "embrayage",
+      "piétiner",
+      "avancer",
+      "trottiner"
     ],
     [
-      "plafond",
-      "flûte",
-      "tasse",
-      "piano",
-      "clé"
+      "annulaire",
+      "fouler",
+      "huître",
+      "linge",
+      "gerbe"
     ],
     [
-      "balai",
-      "règle",
-      "maison",
-      "concerto",
-      "balai"
+      "quadratique",
+      "voilier",
+      "progresser",
+      "promenade",
+      "déambuler"
     ],
     [
-      "tambour",
-      "ciseaux",
-      "violon",
-      "manuel",
-      "trompette"
+      "pas",
+      "randonnée",
+      "malléable",
+      "loisir",
+      "argile"
     ],
     [
-      "opéra",
-      "manuel",
-      "rumeur",
-      "parfum",
-      "vis"
+      "fourreau",
+      "estran",
+      "parcourir",
+      "piéton",
+      "cheminer"
     ]
   ],
   "rowClues": [
-    3,
-    2,
+    4,
     1,
     3,
-    1
+    2,
+    3
   ],
   "colClues": [
+    2,
+    2,
     3,
-    2,
-    1,
-    2,
-    2
+    3,
+    3
   ],
-  "themeWord": "musique",
+  "themeWord": "marcher",
   "solution": [
     [
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
       false,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
       false,
       false,
-      false,
       true,
-      false
-    ],
-    [
       true,
-      false,
-      true,
-      false,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 13
 }

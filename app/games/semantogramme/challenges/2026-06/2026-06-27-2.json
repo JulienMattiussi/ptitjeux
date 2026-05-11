@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "étoile",
-      "mur",
-      "turquoise",
-      "beige",
-      "cadre"
+      "saut",
+      "éclairage",
+      "bienveillant",
+      "amabilité",
+      "craquer"
     ],
     [
-      "noir",
-      "indigo",
-      "indigo",
-      "gris",
-      "ombre"
+      "jais",
+      "aider",
+      "pourpre",
+      "aimable",
+      "gentilhomme"
     ],
     [
-      "vert",
-      "jaune",
-      "gomme",
-      "porte",
-      "violet"
+      "cordial",
+      "compliment",
+      "bile",
+      "sympathique",
+      "sourire"
     ],
     [
-      "mémoire",
-      "parfum",
-      "prière",
-      "banquier",
-      "bleu"
+      "mangue",
+      "frisson",
+      "rabot",
+      "bonté",
+      "tendresse"
     ],
     [
-      "noir",
-      "caillou",
-      "blanc",
-      "rouge",
-      "argenté"
+      "gentillesse",
+      "aromatisé",
+      "tisonnier",
+      "inattendu",
+      "consoler"
     ]
   ],
   "rowClues": [
     2,
+    2,
     4,
-    3,
-    1,
-    4
+    2,
+    2
   ],
   "colClues": [
-    3,
     2,
-    3,
-    3,
+    2,
+    1,
+    4,
     3
   ],
-  "themeWord": "couleur",
+  "themeWord": "gentil",
   "solution": [
     [
       false,
@@ -64,9 +64,9 @@
       false
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       true,
       false
     ],
@@ -74,23 +74,23 @@
       true,
       true,
       false,
-      false,
+      true,
       true
     ],
     [
       false,
       false,
       false,
-      false,
+      true,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

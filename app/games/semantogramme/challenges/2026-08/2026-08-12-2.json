@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "étoile",
-      "tabouret",
-      "lueur",
-      "ombre",
-      "souris"
+      "résultat",
+      "improvisation",
+      "verrue",
+      "glace",
+      "banquise"
     ],
     [
-      "ours",
-      "panda",
-      "tournevis",
-      "mur",
-      "écureuil"
+      "temporel",
+      "kiwi",
+      "hiver",
+      "détente",
+      "polaire"
     ],
     [
-      "lapin",
-      "zèbre",
-      "lynx",
-      "rideau",
-      "vache"
+      "froid",
+      "panier",
+      "geler",
+      "gel",
+      "confetti"
     ],
     [
-      "racine",
-      "globe",
-      "cheval",
-      "écureuil",
-      "tabouret"
+      "iceberg",
+      "studio",
+      "oser",
+      "spécialiste",
+      "frigorifique"
     ],
     [
-      "lynx",
-      "belette",
-      "chaise",
-      "tasse",
-      "zèbre"
+      "bus",
+      "pôle",
+      "givre",
+      "frimas",
+      "attentif"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    2,
     3,
-    4,
     2,
     3
   ],
   "colClues": [
-    3,
-    3,
     2,
     1,
-    4
+    3,
+    3,
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "glacial",
   "solution": [
     [
       false,
       false,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -86,11 +79,18 @@
     ],
     [
       true,
-      true,
+      false,
       false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

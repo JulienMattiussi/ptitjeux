@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "voile",
-      "boxe",
-      "balai",
-      "football",
-      "basket"
+      "énigmer",
+      "antique",
+      "crétois",
+      "haltère",
+      "lion"
     ],
     [
-      "escalade",
-      "gomme",
-      "devoir",
-      "pétale",
-      "tournevis"
+      "garder",
+      "questionner",
+      "femme",
+      "colossal",
+      "manche"
     ],
     [
-      "gym",
-      "horloge",
-      "judo",
-      "rugby",
-      "rugby"
+      "gingembre",
+      "gigantesque",
+      "égypte",
+      "aisselle",
+      "égyptien"
     ],
     [
-      "jardin",
-      "volley",
-      "prison",
-      "natation",
-      "clé"
+      "saison",
+      "dracula",
+      "pic",
+      "pyramide",
+      "aile"
     ],
     [
-      "danse",
-      "pétale",
-      "voisin",
-      "voile",
-      "boxe"
+      "an",
+      "antiquité",
+      "gardien",
+      "mystérieux",
+      "vision"
     ]
   ],
   "rowClues": [
+    3,
     4,
-    1,
-    4,
+    3,
     2,
     3
   ],
   "colClues": [
-    4,
     2,
-    1,
     4,
+    3,
+    3,
     3
   ],
-  "themeWord": "sport",
+  "themeWord": "sphinx",
   "solution": [
     [
       true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
+      false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

@@ -5,58 +5,46 @@
   "height": 4,
   "words": [
     [
-      "pastille",
-      "armure",
-      "carafe",
-      "sucre"
-    ],
-    [
-      "moyeu",
-      "vanille",
-      "judas",
-      "frisson"
-    ],
-    [
-      "praline",
-      "safari",
-      "fruit",
-      "moulinet"
-    ],
-    [
+      "découvrir",
+      "avion",
       "réglisse",
-      "lutin",
+      "ironie"
+    ],
+    [
       "berlingot",
+      "gelée",
+      "marbre",
       "dragée"
+    ],
+    [
+      "rustique",
+      "pastille",
+      "praline",
+      "fruit"
+    ],
+    [
+      "sucre",
+      "clocher",
+      "frapper",
+      "rougeoyante"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    0,
-    2,
-    3
+    3,
+    1
   ],
   "colClues": [
-    3,
-    0,
+    2,
+    1,
     2,
     2
   ],
   "themeWord": "bonbon",
   "solution": [
     [
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false
@@ -64,8 +52,20 @@
     [
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 7

@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "opération",
-      "cliché",
-      "lézard",
-      "cobra"
-    ],
-    [
-      "tortue",
       "caméléon",
-      "écorce",
-      "desserrer"
+      "steak",
+      "pensée",
+      "gecko"
     ],
     [
-      "colley",
-      "vipère",
-      "gecko",
-      "proie"
+      "massif",
+      "pinson",
+      "lézard",
+      "vipère"
     ],
     [
-      "clocher",
+      "braisière",
+      "cobra",
+      "large",
+      "fourmi"
+    ],
+    [
       "alligator",
-      "sortilège",
-      "houx"
+      "patinette",
+      "tortue",
+      "genou"
     ]
   ],
   "rowClues": [
     2,
     2,
-    2,
-    1
+    1,
+    2
   ],
   "colClues": [
-    1,
-    3,
     2,
-    1
+    1,
+    2,
+    2
   ],
   "themeWord": "reptile",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
     [
       false,
       false,
@@ -50,21 +56,15 @@
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       false
     ],
     [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
+      true,
       false
     ]
   ],

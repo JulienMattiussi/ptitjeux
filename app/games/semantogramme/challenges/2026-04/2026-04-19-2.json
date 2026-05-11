@@ -5,73 +5,80 @@
   "height": 5,
   "words": [
     [
-      "autobus",
-      "étoile",
-      "chaise",
-      "crayon",
-      "enveloppe"
+      "frire",
+      "fourneau",
+      "cuisine",
+      "cuisson",
+      "panne"
     ],
     [
-      "navette",
-      "ferry",
-      "tapis",
-      "rideau",
-      "taxi"
+      "piment",
+      "bouillir",
+      "casserole",
+      "green",
+      "plat"
     ],
     [
-      "moto",
-      "étoile",
-      "prison",
-      "autobus",
-      "tramway"
+      "poêle",
+      "affiner",
+      "mariner",
+      "chicorée",
+      "balance"
     ],
     [
-      "plafond",
-      "taxi",
-      "racine",
-      "taxi",
-      "remorque"
+      "vacances",
+      "salaire",
+      "tenailler",
+      "assaisonner",
+      "mijoter"
     ],
     [
-      "autobus",
-      "horloge",
-      "navette",
-      "lueur",
-      "vis"
+      "levée",
+      "rôtir",
+      "genou",
+      "four",
+      "libellule"
     ]
   ],
   "rowClues": [
-    1,
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
     3,
     3,
     3,
     2
   ],
-  "colClues": [
-    4,
-    2,
-    1,
-    2,
-    3
-  ],
-  "themeWord": "transport",
+  "themeWord": "cuisiner",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -82,15 +89,8 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

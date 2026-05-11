@@ -5,55 +5,55 @@
   "height": 4,
   "words": [
     [
-      "sablon",
-      "mélancolie",
-      "agrès",
-      "lame"
-    ],
-    [
-      "manche",
+      "microscope",
       "tronçonneuse",
-      "sciure",
+      "denture",
       "sauteuse"
     ],
     [
-      "magot",
-      "menuisier",
-      "messe",
-      "gril"
+      "manche",
+      "tourteau",
+      "planche",
+      "rafraîchissement"
     ],
     [
-      "amphi",
-      "planche",
-      "longitude",
-      "denture"
+      "harnais",
+      "menuisier",
+      "globe",
+      "altruisme"
+    ],
+    [
+      "rikiki",
+      "minute",
+      "sciure",
+      "lame"
     ]
   ],
   "rowClues": [
-    1,
-    4,
+    3,
+    2,
     1,
     2
   ],
   "colClues": [
     1,
+    2,
     3,
-    1,
-    3
+    2
   ],
   "themeWord": "scie",
   "solution": [
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
+      false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
@@ -63,8 +63,8 @@
     ],
     [
       false,
-      true,
       false,
+      true,
       true
     ]
   ],

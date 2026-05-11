@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "budget",
+      "piano",
+      "tondeuse",
+      "crédit",
+      "euro"
+    ],
+    [
       "dette",
-      "écoute",
-      "intérêt"
+      "humecter",
+      "base",
+      "dollar"
     ],
     [
-      "averse",
-      "euro",
-      "lance",
-      "crédit"
+      "salaire",
+      "proton",
+      "billet",
+      "shopping"
     ],
     [
-      "taxi",
-      "serrure",
-      "téléphone",
-      "salaire"
-    ],
-    [
-      "grain",
-      "massue",
-      "dollar",
-      "billet"
+      "comprendre",
+      "intérêt",
+      "caillouteux",
+      "budget"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
+    2,
+    2,
     2
   ],
   "colClues": [
-    1,
     2,
     1,
-    4
+    2,
+    3
   ],
   "themeWord": "argent",
   "solution": [
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true
     ],
     [
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       true
     ]
   ],

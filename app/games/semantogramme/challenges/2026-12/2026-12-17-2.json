@@ -5,63 +5,77 @@
   "height": 5,
   "words": [
     [
-      "joue",
-      "langue",
-      "chaise",
-      "globe",
-      "bras"
+      "poulain",
+      "mériter",
+      "gomme",
+      "rusé",
+      "souple"
     ],
     [
-      "dos",
-      "jambe",
-      "bouche",
-      "serrure",
-      "racine"
+      "gant",
+      "cordage",
+      "tendu",
+      "imperméable",
+      "confiture"
     ],
     [
-      "oeil",
-      "ongle",
-      "pierre",
-      "livre",
-      "jambe"
+      "étirer",
+      "imperméabiliser",
+      "brie",
+      "plantigrade",
+      "attentionné"
     ],
     [
-      "main",
-      "jambe",
-      "horloge",
-      "main",
-      "jambe"
+      "élastique",
+      "latex",
+      "étanche",
+      "iceberg",
+      "fierté"
     ],
     [
-      "dos",
-      "mémoire",
-      "silence",
-      "dos",
-      "oreille"
+      "botte",
+      "soliste",
+      "arbre",
+      "synthétique",
+      "résistant"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    4,
-    3
-  ],
-  "colClues": [
-    5,
-    4,
-    1,
     2,
+    3,
+    2,
+    3,
     4
   ],
-  "themeWord": "corps",
+  "colClues": [
+    4,
+    2,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "caoutchouc",
   "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
     [
       true,
       true,
       false,
       false,
-      true
+      false
     ],
     [
       true,
@@ -72,25 +86,11 @@
     ],
     [
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

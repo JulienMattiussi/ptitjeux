@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tunnel",
-      "camion",
-      "marteau",
-      "ciseaux",
-      "voisin"
+      "piquer",
+      "débit",
+      "renforcer",
+      "jouer",
+      "lampadaire"
     ],
     [
-      "clé",
-      "lampe",
-      "maison",
-      "bateau",
-      "manuel"
+      "aiguille",
+      "dé",
+      "canette",
+      "maquette",
+      "canevas"
     ],
     [
-      "scooter",
-      "voiture",
-      "train",
-      "pince",
-      "avion"
+      "cadre",
+      "fil",
+      "point",
+      "orner",
+      "traditionnel"
     ],
     [
-      "caillou",
-      "sol",
-      "pince",
-      "camion",
-      "fusée"
+      "frigo",
+      "manuel",
+      "tendon",
+      "broder",
+      "dentier"
     ],
     [
-      "bateau",
-      "plateau",
-      "globe",
-      "bateau",
-      "taxi"
+      "vision",
+      "dromadaire",
+      "décoratif",
+      "patient",
+      "tissu"
     ]
   ],
   "rowClues": [
     1,
-    1,
+    3,
     4,
     2,
     3
   ],
   "colClues": [
-    2,
-    2,
-    1,
     3,
-    3
+    3,
+    2,
+    3,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "broderie",
   "solution": [
     [
-      false,
       true,
+      false,
       false,
       false,
       false
     ],
     [
+      true,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

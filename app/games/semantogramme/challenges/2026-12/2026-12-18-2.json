@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "maison",
-      "rugby",
-      "ski",
-      "gomme",
-      "table"
+      "évacuer",
+      "antenne",
+      "briser",
+      "vitre",
+      "brillant"
     ],
     [
-      "pince",
-      "marathon",
-      "cyclisme",
-      "tennis",
-      "boxe"
+      "majeur",
+      "maternel",
+      "veine",
+      "bouteille",
+      "soufflage"
     ],
     [
-      "cadre",
-      "course",
-      "règle",
-      "étagère",
-      "maison"
+      "gobelet",
+      "instituteur",
+      "transparenter",
+      "limpide",
+      "arôme"
     ],
     [
-      "cadre",
-      "golf",
-      "football",
-      "natation",
-      "prison"
+      "cristal",
+      "fragile",
+      "cassant",
+      "oiseau",
+      "lisse"
     ],
     [
-      "natation",
-      "volley",
-      "tunnel",
-      "coussin",
-      "ski"
+      "sage-femme",
+      "éclat",
+      "fenêtre",
+      "souffler",
+      "néphron"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    1,
     3,
+    2,
+    3,
+    4,
     3
   ],
   "colClues": [
-    1,
-    5,
-    3,
     2,
-    2
+    2,
+    4,
+    4,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "verre",
   "solution": [
     [
       false,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true,
       true
     ],
     [
       false,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
-      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

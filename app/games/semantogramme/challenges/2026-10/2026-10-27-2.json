@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "manuel",
-      "jazz",
-      "accord",
-      "piano",
-      "orgue"
+      "vote",
+      "sombre",
+      "digérer",
+      "fondation",
+      "ligament"
     ],
     [
-      "pétale",
-      "opéra",
-      "choeur",
-      "harpe",
-      "lueur"
+      "cave",
+      "fantasme",
+      "coco",
+      "obscurité",
+      "rougir"
     ],
     [
-      "chemin",
-      "rythme",
-      "harpe",
-      "enveloppe",
-      "batterie"
+      "souterrain",
+      "terre",
+      "descendre",
+      "forge",
+      "creuser"
     ],
     [
-      "chant",
-      "table",
-      "pierre",
-      "ciseaux",
-      "brosse"
+      "inférieur",
+      "naturel",
+      "champignon",
+      "humidité",
+      "verdict"
     ],
     [
-      "gomme",
-      "clé",
-      "étoile",
-      "tunnel",
-      "opéra"
+      "profond",
+      "enterré",
+      "discrétion",
+      "habiter",
+      "cuisson"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     4,
     3,
-    3,
-    1,
-    1
+    2
   ],
   "colClues": [
-    1,
-    3,
+    4,
     3,
     2,
-    3
+    3,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "sous-sol",
   "solution": [
     [
       false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
+      true,
+      false,
       true
     ],
     [
-      false,
       true,
+      false,
       true,
       true,
       false
     ],
     [
-      false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

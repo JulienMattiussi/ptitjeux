@@ -5,63 +5,84 @@
   "height": 5,
   "words": [
     [
-      "lynx",
-      "table",
-      "rideau",
-      "lapin",
-      "plateau"
+      "messe",
+      "parmesan",
+      "professeur",
+      "classe",
+      "tableau"
     ],
     [
-      "vache",
-      "tapis",
-      "savon",
-      "panier",
-      "girafe"
+      "cosmonaute",
+      "former",
+      "lavoir",
+      "pivoine",
+      "cou"
     ],
     [
-      "belette",
-      "écureuil",
-      "chemin",
-      "zèbre",
-      "panneau"
+      "sauvage",
+      "geindre",
+      "acrobate",
+      "devoir",
+      "apprendre"
     ],
     [
-      "ours",
-      "gomme",
-      "lampe",
-      "porte",
-      "chat"
+      "solennel",
+      "examen",
+      "éduquer",
+      "transmettre",
+      "craie"
     ],
     [
-      "loup",
-      "gomme",
-      "écureuil",
-      "lapin",
-      "chaise"
+      "cours",
+      "populaire",
+      "sacre",
+      "lacune",
+      "instruire"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    1,
     2,
-    3
-  ],
-  "colClues": [
-    5,
-    1,
-    1,
-    3,
+    4,
     2
   ],
-  "themeWord": "animal",
+  "colClues": [
+    1,
+    2,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "enseigner",
   "solution": [
     [
-      true,
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
     ],
     [
       true,
@@ -69,27 +90,6 @@
       false,
       false,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 12

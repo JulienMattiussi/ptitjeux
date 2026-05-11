@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "bock",
-      "flocon",
-      "tragédie",
-      "oxygène"
-    ],
-    [
-      "or",
-      "épave",
-      "corail",
-      "bouteille"
-    ],
-    [
-      "colère",
-      "aiglon",
-      "écrou",
-      "tuba"
-    ],
-    [
       "profondeur",
-      "apiculteur",
-      "quai",
-      "combinaison"
+      "poids",
+      "étanche",
+      "lustre"
+    ],
+    [
+      "corail",
+      "épave",
+      "combinaison",
+      "décoration"
+    ],
+    [
+      "oxygène",
+      "buse",
+      "raisin",
+      "index"
+    ],
+    [
+      "témoin",
+      "tuba",
+      "fermenté",
+      "bouteille"
     ]
   ],
   "rowClues": [
@@ -36,34 +36,34 @@
     2
   ],
   "colClues": [
+    3,
+    2,
     1,
-    1,
-    1,
-    4
+    1
   ],
   "themeWord": "plongée",
   "solution": [
     [
+      true,
       false,
       false,
-      false,
-      true
+      false
     ],
     [
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true
     ]

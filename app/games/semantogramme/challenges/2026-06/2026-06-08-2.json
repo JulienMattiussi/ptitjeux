@@ -5,75 +5,75 @@
   "height": 5,
   "words": [
     [
-      "navette",
-      "tasse",
-      "règle",
-      "autobus",
-      "panneau"
+      "gazouiller",
+      "sushi",
+      "salade",
+      "brut",
+      "cisailler"
     ],
     [
-      "bateau",
-      "caravane",
-      "étoile",
-      "jardin",
-      "bateau"
+      "préparer",
+      "pondéreux",
+      "légume",
+      "prédateur",
+      "doux"
     ],
     [
-      "bus",
-      "tabouret",
-      "navette",
-      "camion",
-      "rumeur"
+      "gag",
+      "crudité",
+      "oignon",
+      "tartare",
+      "innocence"
     ],
     [
-      "camion",
-      "scooter",
-      "voiture",
-      "étagère",
-      "silence"
+      "frais",
+      "naturel",
+      "tailler",
+      "planter",
+      "envol"
     ],
     [
-      "moto",
-      "caravane",
-      "enveloppe",
-      "bureau",
-      "balai"
+      "puzzle",
+      "retrait",
+      "trampoline",
+      "éplucher",
+      "oeuf"
     ]
   ],
   "rowClues": [
+    4,
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
     2,
     3,
     3,
     3,
     2
   ],
-  "colClues": [
-    5,
-    3,
-    2,
-    2,
-    1
-  ],
-  "themeWord": "transport",
+  "themeWord": "cru",
   "solution": [
     [
-      true,
-      false,
       false,
       true,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      false,
       true
     ],
     [
       true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       false
     ],
@@ -85,11 +85,11 @@
       false
     ],
     [
-      true,
-      true,
       false,
       false,
-      false
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 13

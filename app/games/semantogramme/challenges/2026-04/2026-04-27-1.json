@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "stratus",
-      "comédien",
-      "orage",
-      "ciel"
-    ],
-    [
-      "horizon",
-      "tempête",
-      "bride",
-      "pleine"
-    ],
-    [
-      "chimpanzé",
-      "concombre",
       "cirrus",
-      "banquette"
+      "ciel",
+      "condor",
+      "braise"
     ],
     [
-      "brouillard",
-      "plateau",
-      "mousseron",
-      "génome"
+      "rallonger",
+      "rustique",
+      "voix",
+      "brouillard"
+    ],
+    [
+      "tempête",
+      "orage",
+      "stratus",
+      "allée"
+    ],
+    [
+      "vaincre",
+      "horizon",
+      "foc",
+      "pèlerinage"
     ]
   ],
   "rowClues": [
-    3,
     2,
     1,
+    3,
     1
   ],
   "colClues": [
+    2,
     3,
     1,
-    2,
     1
   ],
   "themeWord": "nuage",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false
     ],
     [
-      true,
       false,
+      true,
       false,
       false
     ]

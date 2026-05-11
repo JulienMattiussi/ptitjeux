@@ -5,76 +5,83 @@
   "height": 5,
   "words": [
     [
-      "brosse",
-      "rumeur",
-      "renard",
-      "coussin",
-      "castor"
+      "détente",
+      "pékinois",
+      "comique",
+      "spectacle",
+      "pioche"
     ],
     [
-      "livre",
-      "lion",
-      "tournevis",
-      "cadre",
-      "mouton"
+      "jouer",
+      "posture",
+      "figurine",
+      "gin",
+      "cannelle"
     ],
     [
-      "lynx",
-      "tabouret",
-      "lapin",
-      "caillou",
-      "belette"
+      "enfantine",
+      "manipulée",
+      "culée",
+      "apaiser",
+      "minou"
     ],
     [
-      "prison",
-      "chat",
-      "mouton",
-      "belette",
-      "tabouret"
+      "été",
+      "ventriloque",
+      "hampe",
+      "fil",
+      "traditionnelle"
     ],
     [
-      "pétale",
-      "étagère",
-      "tournevis",
-      "carnet",
-      "lynx"
+      "mouette",
+      "guignol",
+      "théâtre",
+      "manipulation",
+      "sinistre"
     ]
   ],
   "rowClues": [
     2,
     2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
     3,
     3,
     1
   ],
-  "colClues": [
-    1,
-    2,
-    3,
-    1,
-    4
-  ],
-  "themeWord": "animal",
+  "themeWord": "marionnette",
   "solution": [
     [
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      true
+      false
     ],
     [
       true,
       false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -83,14 +90,7 @@
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

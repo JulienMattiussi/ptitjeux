@@ -5,59 +5,73 @@
   "height": 5,
   "words": [
     [
-      "moto",
-      "fusée",
-      "rumeur",
-      "racine",
-      "tapis"
+      "égyptienne",
+      "salsa",
+      "chorégraphie",
+      "tango",
+      "guincher"
     ],
     [
-      "mémoire",
-      "remorque",
-      "navette",
-      "navette",
-      "bateau"
+      "colosse",
+      "cri",
+      "twister",
+      "maternité",
+      "pas"
     ],
     [
-      "moto",
-      "camion",
-      "serrure",
-      "globe",
-      "bureau"
+      "déguster",
+      "ballet",
+      "canard",
+      "savourer",
+      "saumon"
     ],
     [
-      "vis",
-      "tapis",
-      "maison",
-      "pierre",
-      "moto"
+      "nièce",
+      "tournoyer",
+      "danseur",
+      "agilité",
+      "piste"
     ],
     [
-      "vélo",
-      "étoile",
-      "étagère",
-      "miroir",
-      "parfum"
+      "valse",
+      "industrialiser",
+      "bal",
+      "figure",
+      "vocifération"
     ]
   ],
   "rowClues": [
-    2,
     4,
     2,
     1,
-    1
+    3,
+    3
   ],
   "colClues": [
-    3,
-    3,
     1,
-    1,
-    2
+    3,
+    4,
+    2,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "danser",
   "solution": [
     [
+      false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
@@ -67,30 +81,16 @@
       false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 13
 }

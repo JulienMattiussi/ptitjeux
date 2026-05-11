@@ -5,66 +5,73 @@
   "height": 5,
   "words": [
     [
-      "ombre",
-      "gris",
-      "ocre",
-      "turquoise",
-      "indigo"
+      "lait",
+      "mois",
+      "pierre",
+      "flamenco",
+      "masquer"
     ],
     [
-      "tabouret",
-      "beige",
-      "ocre",
+      "épais",
+      "écran",
+      "agenouillement",
+      "cacher",
+      "saturer"
+    ],
+    [
+      "porcelaine",
+      "mur",
+      "occulté",
+      "gourmand",
+      "tardif"
+    ],
+    [
+      "multiplication",
       "panneau",
-      "étoile"
+      "comté",
+      "obstruer",
+      "belote"
     ],
     [
-      "pétale",
-      "maison",
-      "ocre",
-      "noir",
-      "indigo"
-    ],
-    [
-      "horloge",
-      "rouge",
-      "noir",
-      "indigo",
-      "manuel"
-    ],
-    [
-      "orange",
-      "caillou",
-      "pétale",
-      "argenté",
-      "gris"
+      "somptueux",
+      "impénétrable",
+      "galerie",
+      "rectangle",
+      "indien"
     ]
   ],
   "rowClues": [
-    4,
+    3,
+    3,
+    3,
     2,
-    3,
-    3,
-    3
+    1
   ],
   "colClues": [
-    1,
     3,
     4,
-    4,
-    3
+    2,
+    2,
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "opaque",
   "solution": [
     [
+      true,
       false,
       true,
-      true,
-      true,
+      false,
       true
     ],
     [
+      true,
+      true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       true,
       false,
@@ -72,25 +79,18 @@
     ],
     [
       false,
+      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       false
     ],
     [
+      false,
       true,
       false,
       false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

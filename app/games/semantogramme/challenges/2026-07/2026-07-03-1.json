@@ -5,45 +5,57 @@
   "height": 4,
   "words": [
     [
-      "sapin",
-      "fable",
-      "créateur",
-      "public"
-    ],
-    [
-      "voile",
       "décor",
-      "fosse",
-      "pièce"
-    ],
-    [
-      "serviette",
-      "coulisse",
       "acteur",
-      "tragédie"
+      "farfadet",
+      "saxophone"
     ],
     [
-      "temple",
-      "aloès",
+      "tragédie",
+      "pièce",
       "rideau",
-      "révélation"
+      "comédien"
+    ],
+    [
+      "abbaye",
+      "capitaine",
+      "fourreau",
+      "coulisse"
+    ],
+    [
+      "labour",
+      "public",
+      "tempe",
+      "copeau"
     ]
   ],
   "rowClues": [
-    1,
     2,
     3,
+    1,
     1
   ],
   "colClues": [
-    0,
     2,
-    2,
-    3
+    3,
+    1,
+    1
   ],
   "themeWord": "théâtre",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       false,
       false,
@@ -53,18 +65,6 @@
       false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       false
     ]
   ],

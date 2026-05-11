@@ -5,82 +5,75 @@
   "height": 5,
   "words": [
     [
-      "note",
-      "harpe",
-      "savon",
-      "livre",
-      "choeur"
+      "fragile",
+      "pneu",
+      "urgence",
+      "rond",
+      "cochon"
     ],
     [
-      "gamme",
-      "harpe",
-      "symphonie",
-      "pince",
-      "opéra"
+      "tonneau",
+      "colonne",
+      "fauve",
+      "commerce",
+      "décision"
     ],
     [
-      "orgue",
-      "table",
-      "balai",
-      "concerto",
-      "chant"
+      "corpulent",
+      "grossir",
+      "fièvre",
+      "engraisser",
+      "bouée"
     ],
     [
-      "gomme",
-      "savon",
-      "concerto",
-      "choeur",
-      "jazz"
+      "épaule",
+      "gaze",
+      "pansu",
+      "lisser",
+      "épaissir"
     ],
     [
-      "timbre",
-      "carnet",
-      "mélodie",
-      "lueur",
-      "cadre"
+      "replet",
+      "nuque",
+      "enflure",
+      "éléphant",
+      "cambium"
     ]
   ],
   "rowClues": [
     3,
+    1,
     4,
-    3,
-    3,
-    1
+    2,
+    3
   ],
   "colClues": [
     3,
     2,
-    3,
     2,
-    4
+    3,
+    3
   ],
-  "themeWord": "musique",
+  "themeWord": "gros",
   "solution": [
     [
-      true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
@@ -89,8 +82,15 @@
       false,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

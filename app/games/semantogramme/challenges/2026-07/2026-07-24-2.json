@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "tunnel",
-      "parfum",
-      "prison",
-      "requin",
-      "sable"
+      "digérer",
+      "pianissimo",
+      "satiété",
+      "brûlure",
+      "stomacal"
     ],
     [
-      "sardine",
-      "tabouret",
-      "bateau",
-      "marin",
-      "serrure"
+      "digestion",
+      "juvénile",
+      "tresse",
+      "ulcère",
+      "appétit"
     ],
     [
-      "baleine",
-      "vague",
-      "crayon",
-      "marin",
-      "voile"
+      "aigreur",
+      "reporter",
+      "comptoir",
+      "tremper",
+      "macaron"
     ],
     [
-      "pince",
-      "silence",
-      "crabe",
-      "mémoire",
-      "rumeur"
+      "stout",
+      "tripe",
+      "crocs",
+      "lumineux",
+      "menu"
     ],
     [
-      "méduse",
-      "serrure",
-      "chaise",
-      "caillou",
-      "chaise"
+      "gastrique",
+      "régurgiter",
+      "sourire",
+      "vinaigrette",
+      "montrer"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     4,
-    1,
-    1
-  ],
-  "colClues": [
     3,
     1,
-    2,
-    3,
+    1,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    4,
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "estomac",
   "solution": [
     [
+      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
@@ -66,27 +73,20 @@
     [
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false

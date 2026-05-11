@@ -5,82 +5,82 @@
   "height": 5,
   "words": [
     [
-      "pétale",
-      "nuage",
-      "clé",
-      "porte",
-      "panier"
+      "couvert",
+      "véranda",
+      "horizon",
+      "pointer",
+      "soleil"
     ],
     [
-      "tempête",
-      "porte",
-      "étagère",
-      "ciseaux",
-      "orage"
+      "gousse",
+      "coq",
+      "élastique",
+      "pâle",
+      "noirâtre"
     ],
     [
-      "horloge",
-      "chemin",
-      "enveloppe",
-      "vent",
-      "neige"
+      "oiseau",
+      "crépuscule",
+      "naître",
+      "zoom",
+      "rosée"
     ],
     [
-      "mémoire",
-      "vent",
-      "verglas",
-      "pluie",
-      "glace"
+      "pantoufle",
+      "aurore",
+      "robuste",
+      "précoce",
+      "commencement"
     ],
     [
-      "gel",
-      "étoile",
-      "soleil",
-      "soleil",
-      "rideau"
+      "naissant",
+      "pratiquer",
+      "rosé",
+      "ventriloque",
+      "inspecter"
     ]
   ],
   "rowClues": [
-    1,
-    2,
+    3,
     2,
     4,
-    3
+    3,
+    2
   ],
   "colClues": [
     2,
-    2,
-    2,
+    3,
+    3,
     3,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "aube",
   "solution": [
     [
       false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
-      false,
+      true,
       false
     ],
     [
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
       true,
       true
     ],
@@ -88,9 +88,9 @@
       true,
       false,
       true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

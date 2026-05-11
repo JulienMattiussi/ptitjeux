@@ -5,57 +5,57 @@
   "height": 4,
   "words": [
     [
-      "vis",
-      "caverne",
-      "fruit",
-      "flottante"
-    ],
-    [
-      "honte",
+      "crasseux",
+      "tristesse",
       "joie",
-      "dégoût",
-      "ennui"
-    ],
-    [
-      "épervier",
-      "vernissage",
-      "éléphant",
       "amour"
     ],
     [
+      "dégoût",
+      "honte",
+      "gouffre",
+      "cafetière"
+    ],
+    [
+      "sororal",
+      "tâter",
+      "opale",
+      "ennui"
+    ],
+    [
       "espoir",
-      "robinet",
-      "tristesse",
-      "éditeur"
+      "thermos",
+      "angine",
+      "haïti"
     ]
   ],
   "rowClues": [
-    0,
-    4,
+    3,
+    2,
     1,
-    2
+    1
   ],
   "colClues": [
     2,
-    1,
     2,
+    1,
     2
   ],
   "themeWord": "émotion",
   "solution": [
     [
       false,
-      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       false,
       false,
@@ -64,7 +64,7 @@
     [
       true,
       false,
-      true,
+      false,
       false
     ]
   ],

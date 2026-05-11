@@ -5,73 +5,66 @@
   "height": 5,
   "words": [
     [
-      "loup",
-      "pétale",
-      "chien",
-      "écureuil",
-      "maison"
+      "froid",
+      "vague",
+      "industriel",
+      "sable",
+      "grill"
     ],
     [
-      "loup",
-      "chat",
-      "livre",
-      "lapin",
-      "livre"
+      "longer",
+      "tendu",
+      "plasma",
+      "crique",
+      "côtier"
     ],
     [
-      "voisin",
-      "chemin",
-      "peigne",
-      "koala",
-      "panda"
+      "borner",
+      "message",
+      "uni",
+      "escarpé",
+      "soufflé"
     ],
     [
-      "lynx",
-      "ciseaux",
-      "vache",
-      "plafond",
-      "cheval"
+      "falaise",
+      "sablonneux",
+      "maritime",
+      "grossir",
+      "géométrique"
     ],
     [
-      "vache",
-      "loup",
-      "panneau",
-      "rideau",
-      "zèbre"
+      "pédalier",
+      "négatif",
+      "mer",
+      "immaculé",
+      "fouler"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     3,
     2,
     3,
-    3
+    2
   ],
   "colClues": [
-    4,
+    3,
     2,
     2,
     3,
-    3
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "rivage",
   "solution": [
     [
-      true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
       false
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
@@ -80,17 +73,24 @@
     [
       true,
       false,
-      true,
       false,
-      true
+      true,
+      false
     ],
     [
       true,
       true,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

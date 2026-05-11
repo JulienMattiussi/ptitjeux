@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "marteau",
-      "voisin",
-      "kiwi",
-      "kiwi",
-      "miroir"
+      "télévision",
+      "majeur",
+      "dégainer",
+      "transpercer",
+      "poussiéreux"
     ],
     [
-      "chaise",
-      "pêche",
-      "tunnel",
-      "figue",
-      "framboise"
+      "pourfendre",
+      "meurtrier",
+      "garde",
+      "tranchant",
+      "mouillage"
     ],
     [
-      "ombre",
-      "banane",
-      "melon",
-      "kiwi",
-      "poire"
+      "acéré",
+      "mousquetaire",
+      "palabrer",
+      "dribble",
+      "pivoine"
     ],
     [
-      "figue",
-      "pêche",
-      "prune",
-      "banquier",
-      "cassis"
+      "lame",
+      "lampadaire",
+      "kiosque",
+      "houle",
+      "aiguisé"
     ],
     [
-      "table",
-      "figue",
-      "figue",
-      "citron",
-      "abricot"
+      "contempler",
+      "pommeau",
+      "castor",
+      "photon",
+      "trompette"
     ]
   ],
   "rowClues": [
     2,
-    3,
     4,
-    4,
-    4
+    2,
+    2,
+    1
   ],
   "colClues": [
-    1,
-    4,
-    4,
-    4,
-    4
+    3,
+    3,
+    2,
+    2,
+    1
   ],
-  "themeWord": "fruit",
+  "themeWord": "épée",
   "solution": [
     [
       false,
@@ -64,33 +64,33 @@
       false
     ],
     [
-      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 11
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "tapis",
-      "panneau",
-      "fusée",
-      "tabouret",
-      "train"
+      "creuser",
+      "orbe",
+      "pompe",
+      "margelle",
+      "crochet"
     ],
     [
-      "moto",
-      "prison",
-      "cadre",
-      "brosse",
-      "miroir"
+      "eau",
+      "caresser",
+      "fond",
+      "écho",
+      "brader"
     ],
     [
-      "agenda",
-      "savon",
-      "tramway",
-      "ciseaux",
-      "tabouret"
+      "profondeur",
+      "rond",
+      "dette",
+      "seau",
+      "double"
     ],
     [
-      "pince",
-      "tramway",
-      "sol",
-      "bureau",
-      "avion"
+      "arbre",
+      "puiser",
+      "descendre",
+      "menu",
+      "malfaisante"
     ],
     [
-      "balai",
-      "fusée",
-      "maison",
-      "caravane",
-      "tournevis"
+      "décomposé",
+      "aorte",
+      "équation",
+      "corde",
+      "froid"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    3,
     2,
-    1,
-    1,
-    2,
-    1
-  ],
-  "colClues": [
-    1,
-    1,
-    2,
-    1,
     2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    3,
+    2,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "puits",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
-      false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 13
 }

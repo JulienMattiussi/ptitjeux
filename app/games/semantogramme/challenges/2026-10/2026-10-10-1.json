@@ -5,48 +5,48 @@
   "height": 4,
   "words": [
     [
-      "matcha",
-      "poulet",
-      "guet",
-      "sommet"
+      "escalier",
+      "sommet",
+      "sachet",
+      "guet"
     ],
     [
-      "fleur",
-      "horloge",
+      "crevaison",
       "tourelle",
-      "abeille"
-    ],
-    [
-      "phare",
-      "sol",
-      "campanile",
-      "beffroi"
+      "beffroi",
+      "magnésie"
     ],
     [
       "ascenseur",
-      "emballage",
-      "macaque",
-      "escalier"
+      "campanile",
+      "phare",
+      "bronzer"
+    ],
+    [
+      "gerbe",
+      "âme",
+      "horloge",
+      "étreindre"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     3,
-    2
+    1
   ],
   "colClues": [
     2,
-    1,
     3,
-    3
+    3,
+    1
   ],
   "themeWord": "tour",
   "solution": [
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
@@ -57,15 +57,15 @@
     ],
     [
       true,
-      false,
       true,
-      true
+      true,
+      false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 9

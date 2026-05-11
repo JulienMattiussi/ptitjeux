@@ -5,70 +5,77 @@
   "height": 5,
   "words": [
     [
-      "chant",
-      "devoir",
-      "miroir",
-      "concerto",
-      "tambour"
+      "récit",
+      "éternuement",
+      "canadien",
+      "atome",
+      "bactérie"
     ],
     [
-      "savon",
-      "choeur",
-      "bureau",
-      "guitare",
-      "concerto"
+      "nain",
+      "léger",
+      "fourmi",
+      "microbe",
+      "puce"
     ],
     [
-      "tunnel",
-      "trompette",
-      "règle",
-      "enveloppe",
-      "tasse"
+      "tortueux",
+      "lugubre",
+      "minimiser",
+      "infime",
+      "flamboyer"
     ],
     [
-      "gamme",
-      "chemin",
-      "jardin",
-      "flûte",
-      "harpe"
+      "calme",
+      "menu",
+      "isolante",
+      "seigneur",
+      "couplet"
     ],
     [
-      "trompette",
-      "rythme",
-      "batterie",
-      "guitare",
-      "prison"
+      "langoustine",
+      "rapetisser",
+      "rétrécir",
+      "miette",
+      "lilliputien"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
+    4,
+    2,
     1,
-    3,
     4
   ],
   "colClues": [
-    3,
-    3,
     1,
+    2,
+    3,
     4,
     3
   ],
-  "themeWord": "musique",
+  "themeWord": "minuscule",
   "solution": [
     [
-      true,
+      false,
       false,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
     ],
     [
       false,
@@ -78,19 +85,12 @@
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

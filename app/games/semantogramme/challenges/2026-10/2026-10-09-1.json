@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "vin",
-      "éponge",
-      "pointe",
-      "meringue"
-    ],
-    [
-      "manche",
-      "trancher",
-      "tranche",
+      "gaspacho",
+      "erreur",
+      "bricolage",
       "cuisine"
     ],
     [
-      "roquefort",
-      "office",
-      "miroir",
-      "aiguiser"
+      "lame",
+      "aiguiser",
+      "pointe",
+      "flamboyant"
     ],
     [
-      "contrôleur",
-      "folklorique",
       "fourreau",
-      "lame"
+      "manche",
+      "bec",
+      "chat"
+    ],
+    [
+      "rotule",
+      "office",
+      "tranche",
+      "trancher"
     ]
   ],
   "rowClues": [
     1,
-    4,
+    3,
     2,
-    2
+    3
   ],
   "colClues": [
-    1,
     2,
     3,
-    3
+    2,
+    2
   ],
   "themeWord": "couteau",
   "solution": [
     [
       false,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       false
     ],
     [
       true,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true
     ]

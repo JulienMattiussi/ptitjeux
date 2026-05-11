@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "gym",
-      "timbre",
-      "cyclisme",
-      "livre",
-      "chaise"
+      "baleine",
+      "agrandir",
+      "givrer",
+      "grandir",
+      "éléphant"
     ],
     [
-      "pierre",
-      "tennis",
-      "escalade",
-      "ski",
-      "enveloppe"
+      "spacieux",
+      "grotte",
+      "imposant",
+      "mémoire",
+      "éclairer"
     ],
     [
-      "tunnel",
-      "natation",
-      "natation",
-      "rumeur",
-      "tennis"
+      "brume",
+      "colosse",
+      "immense",
+      "amplifier",
+      "palais"
     ],
     [
-      "basket",
-      "brosse",
-      "golf",
-      "basket",
-      "porte"
+      "vaste",
+      "avant-bras",
+      "titanesque",
+      "géant",
+      "harpe"
     ],
     [
-      "devoir",
-      "tennis",
-      "judo",
-      "tabouret",
-      "carnet"
+      "rouge",
+      "idole",
+      "gratte-ciel",
+      "éolienne",
+      "gigantesque"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    3,
-    3,
+    4,
     3,
     2
   ],
   "colClues": [
-    2,
     3,
-    5,
     2,
-    1
+    4,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "grand",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       true,
       false,
@@ -68,13 +75,6 @@
       true,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       true
     ],
     [
@@ -86,11 +86,11 @@
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

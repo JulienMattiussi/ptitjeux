@@ -5,39 +5,39 @@
   "height": 4,
   "words": [
     [
-      "excursion",
-      "guide",
-      "tornade",
-      "violette"
-    ],
-    [
-      "soutien-gorge",
-      "aventure",
       "circuit",
-      "douane"
+      "douane",
+      "valise",
+      "gorge"
     ],
     [
-      "singe",
-      "écran",
-      "visa",
-      "épine"
+      "trône",
+      "élevage",
+      "guide",
+      "passeport"
     ],
     [
       "frontière",
-      "gecko",
-      "passeport",
-      "valise"
+      "remontoir",
+      "côté",
+      "excursion"
+    ],
+    [
+      "aventure",
+      "condor",
+      "visa",
+      "nova"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    1,
-    3
+    2,
+    2,
+    2
   ],
   "colClues": [
-    2,
-    2,
+    3,
+    1,
     3,
     2
   ],
@@ -46,26 +46,26 @@
     [
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 9

@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "travée",
-      "capsule",
-      "farniente",
-      "rayon"
-    ],
-    [
-      "arbre",
+      "guide",
       "préfecture",
+      "fragile",
+      "huître"
+    ],
+    [
+      "fauve",
+      "promenade",
+      "eau",
+      "territoire"
+    ],
+    [
+      "province",
+      "jugement",
+      "parler",
+      "manège"
+    ],
+    [
+      "coulisse",
       "patrimoine",
-      "parler"
-    ],
-    [
-      "tablier",
       "culture",
-      "seuil",
-      "province"
-    ],
-    [
-      "territoire",
-      "minute",
-      "limite",
-      "mesurer"
+      "limite"
     ]
   ],
   "rowClues": [
-    0,
-    3,
+    1,
+    1,
     2,
-    2
+    3
   ],
   "colClues": [
     1,
@@ -45,19 +45,13 @@
   "solution": [
     [
       false,
-      false,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
       false,
       true
     ],
@@ -66,6 +60,12 @@
       false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 7

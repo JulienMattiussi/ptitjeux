@@ -5,52 +5,52 @@
   "height": 4,
   "words": [
     [
-      "projection",
-      "acteur",
-      "rotation",
-      "carpe"
-    ],
-    [
-      "valise",
-      "caméra",
-      "géranium",
-      "poirier"
-    ],
-    [
+      "fleur",
       "réalisateur",
-      "irritation",
-      "polaire",
-      "scène"
+      "pelote",
+      "forum"
     ],
     [
-      "sureau",
-      "mesurer",
+      "scène",
+      "projection",
+      "cabernet",
+      "guide"
+    ],
+    [
       "scénario",
-      "salle"
+      "éternel",
+      "polaire",
+      "acteur"
+    ],
+    [
+      "salle",
+      "arqué",
+      "caméra",
+      "masquer"
     ]
   ],
   "rowClues": [
-    2,
     1,
+    2,
     2,
     2
   ],
   "colClues": [
-    2,
+    3,
     2,
     1,
-    2
+    1
   ],
   "themeWord": "cinéma",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
       false
@@ -62,10 +62,10 @@
       true
     ],
     [
-      false,
+      true,
       false,
       true,
-      true
+      false
     ]
   ],
   "parMoves": 7

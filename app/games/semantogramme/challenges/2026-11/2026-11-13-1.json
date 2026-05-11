@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "mue",
-      "couleuvre",
-      "venin",
-      "anaconda"
-    ],
-    [
-      "cobra",
+      "religieuse",
       "boa",
-      "prise",
-      "scie"
+      "couleuvre",
+      "aspirateur"
     ],
     [
+      "venin",
       "crochet",
-      "temple",
-      "écaille",
-      "reinette"
+      "tourelle",
+      "écaille"
     ],
     [
-      "reptile",
-      "ombre",
+      "persienne",
+      "mue",
       "python",
-      "brie"
+      "hépatique"
+    ],
+    [
+      "anaconda",
+      "gracile",
+      "reptile",
+      "cobra"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
-    4,
     2,
     3,
-    1
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
   ],
   "themeWord": "serpent",
   "solution": [
     [
+      false,
       true,
       true,
+      false
+    ],
+    [
       true,
+      true,
+      false,
       true
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 10

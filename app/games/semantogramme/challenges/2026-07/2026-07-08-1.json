@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "espèce",
-      "macaron",
-      "microbe",
-      "protéine"
-    ],
-    [
-      "desserrer",
-      "tourbillon",
-      "cellule",
-      "napolitaine"
-    ],
-    [
-      "roulé",
-      "génome",
       "virus",
+      "espèce",
+      "bactérie",
+      "tardif"
+    ],
+    [
+      "célébrité",
+      "caractériser",
+      "microbe",
       "évolution"
     ],
     [
-      "tenailler",
-      "écosystème",
+      "enfantin",
       "organisme",
-      "bactérie"
+      "arabica",
+      "écosystème"
+    ],
+    [
+      "génome",
+      "protéine",
+      "cellule",
+      "mesurer"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    3,
+    2,
+    2,
     3
   ],
   "colClues": [
-    1,
     2,
-    4,
-    3
+    3,
+    3,
+    2
   ],
   "themeWord": "biologie",
   "solution": [
     [
       true,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false
     ],
     [
       false,
-      true,
+      false,
       true,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 10

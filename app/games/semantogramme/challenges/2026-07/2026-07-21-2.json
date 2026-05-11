@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "vis",
-      "brosse",
-      "tonnerre",
-      "silence",
-      "savon"
+      "cylindre",
+      "réfléchir",
+      "scoliose",
+      "cambrer",
+      "égarer"
     ],
     [
-      "tonnerre",
-      "neige",
-      "ombre",
-      "éclair",
-      "vis"
+      "lombaire",
+      "ballet",
+      "sciatique",
+      "bossu",
+      "transpiration"
     ],
     [
-      "neige",
-      "rosée",
-      "neige",
-      "maison",
-      "tempête"
+      "taille",
+      "vertèbre",
+      "égyptienne",
+      "colonne",
+      "enchanté"
     ],
     [
-      "racine",
-      "clé",
-      "livre",
-      "tonnerre",
-      "orage"
+      "pencher",
+      "épine",
+      "nuque",
+      "reins",
+      "améthyste"
     ],
     [
-      "nuage",
-      "mémoire",
-      "neige",
-      "horloge",
-      "rumeur"
+      "parodie",
+      "entrée",
+      "lumbago",
+      "rubis",
+      "omoplate"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    3,
     3,
     4,
-    2,
     2
   ],
   "colClues": [
     3,
     2,
-    3,
-    2,
-    2
+    4,
+    4,
+    1
   ],
-  "themeWord": "météo",
+  "themeWord": "dos",
   "solution": [
     [
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      true,
+      true,
       false
     ],
     [
@@ -73,24 +80,17 @@
     [
       true,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

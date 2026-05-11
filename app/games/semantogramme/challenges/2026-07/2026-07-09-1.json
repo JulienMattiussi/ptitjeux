@@ -5,45 +5,57 @@
   "height": 4,
   "words": [
     [
-      "gélatineuse",
-      "oxygène",
-      "composé",
-      "base"
-    ],
-    [
-      "molécule",
-      "circuit",
-      "cristal",
-      "atome"
-    ],
-    [
-      "vin",
+      "hydrogène",
+      "félicité",
       "élément",
-      "moisson",
-      "sel"
+      "molécule"
     ],
     [
-      "bus",
-      "vache",
-      "roseau",
-      "hydrogène"
+      "atome",
+      "gambette",
+      "cristal",
+      "colombin"
+    ],
+    [
+      "clé",
+      "oxygène",
+      "base",
+      "composé"
+    ],
+    [
+      "sel",
+      "pince",
+      "échelle",
+      "festive"
     ]
   ],
   "rowClues": [
     3,
-    3,
     2,
+    3,
     1
   ],
   "colClues": [
+    3,
     1,
-    2,
-    2,
-    4
+    3,
+    2
   ],
   "themeWord": "chimie",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
@@ -52,20 +64,8 @@
     [
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 9

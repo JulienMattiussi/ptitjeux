@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "violet",
-      "rouge",
-      "coussin",
-      "jaune",
-      "globe"
+      "crasseux",
+      "se confier",
+      "jouer",
+      "parent",
+      "germaine"
     ],
     [
-      "panier",
-      "doré",
-      "argenté",
-      "vert",
-      "ombre"
+      "imagination",
+      "enchantement",
+      "parcelle",
+      "consanguin",
+      "voir"
     ],
     [
-      "table",
-      "panneau",
-      "jaune",
-      "violet",
-      "indigo"
+      "spatule",
+      "cadette",
+      "partager",
+      "soudure",
+      "haute"
     ],
     [
-      "savon",
-      "jaune",
-      "voisin",
-      "vert",
-      "plafond"
+      "sororal",
+      "voûte",
+      "lombaire",
+      "famille",
+      "lactose"
     ],
     [
-      "blanc",
-      "écran",
-      "bleu",
-      "noir",
-      "parfum"
+      "jaguar",
+      "sororité",
+      "latitude",
+      "jumelle",
+      "aînée"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
+    4,
+    1,
+    2,
     2,
     3
   ],
   "colClues": [
+    1,
+    3,
     2,
-    3,
-    3,
-    5,
-    1
+    4,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "soeur",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       true
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
       false,
       true,
       true,
+      false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

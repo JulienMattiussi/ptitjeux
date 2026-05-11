@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "cabinet",
-      "plaisir",
-      "brasier",
-      "roseau"
+      "fugue",
+      "pourrir",
+      "prunier",
+      "diagnostic"
     ],
     [
-      "refuge",
-      "stéthoscope",
-      "patient",
-      "ordonnance"
-    ],
-    [
-      "texte",
-      "atoll",
       "généraliste",
-      "consultation"
+      "patient",
+      "soufre",
+      "couvercle"
     ],
     [
+      "soigner",
+      "stéthoscope",
       "blouse",
-      "opuntia",
-      "diagnostic",
-      "soigner"
+      "traverser"
+    ],
+    [
+      "consultation",
+      "cabinet",
+      "ordonnance",
+      "pistolet"
     ]
   ],
   "rowClues": [
     1,
-    3,
     2,
+    3,
     3
   ],
   "colClues": [
-    2,
-    1,
     3,
-    3
+    3,
+    2,
+    1
   ],
   "themeWord": "médecin",
   "solution": [
     [
-      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
     [
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      true
+      false
     ],
     [
       true,
-      false,
       true,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 9

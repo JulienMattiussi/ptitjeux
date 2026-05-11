@@ -5,75 +5,82 @@
   "height": 5,
   "words": [
     [
-      "tournevis",
-      "souris",
-      "lynx",
-      "ours",
-      "miroir"
+      "pénombre",
+      "soucoupe",
+      "couture",
+      "neveu",
+      "constitutionnelle"
     ],
     [
-      "mouton",
-      "tournevis",
-      "cheval",
-      "ours",
-      "lampe"
+      "innover",
+      "rudimentaire",
+      "modeste",
+      "frein",
+      "machine"
     ],
     [
-      "plateau",
-      "pétale",
-      "écureuil",
-      "lynx",
-      "lynx"
+      "couturière",
+      "tissu",
+      "crâne",
+      "mouette",
+      "reprise"
     ],
     [
-      "ciseaux",
-      "enveloppe",
-      "zèbre",
-      "lueur",
-      "tournevis"
+      "piquer",
+      "fil",
+      "antenne",
+      "patron",
+      "point"
     ],
     [
-      "chat",
-      "ciseaux",
-      "balai",
-      "marteau",
-      "ombre"
+      "arrivée",
+      "broderie",
+      "tricoter",
+      "bouton",
+      "ciseaux"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
     1,
-    1
+    1,
+    3,
+    4,
+    3
   ],
   "colClues": [
     2,
-    1,
-    4,
-    3,
-    1
+    2,
+    2,
+    2,
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "coudre",
   "solution": [
     [
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
@@ -81,16 +88,9 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

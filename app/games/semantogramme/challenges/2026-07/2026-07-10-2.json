@@ -5,58 +5,72 @@
   "height": 5,
   "words": [
     [
-      "lynx",
-      "vache",
-      "règle",
-      "castor",
-      "panier"
+      "frigo",
+      "fin",
+      "échiquier",
+      "pompe",
+      "gentillesse"
     ],
     [
-      "ciseaux",
-      "chat",
-      "règle",
-      "renard",
-      "mouton"
+      "traitement",
+      "chevelure",
+      "thorax",
+      "pulsation",
+      "foncer"
     ],
     [
-      "livre",
-      "loup",
-      "zèbre",
-      "balai",
-      "pierre"
+      "cordial",
+      "rythme",
+      "sérénité",
+      "cardiaque",
+      "ingénieur"
     ],
     [
-      "koala",
-      "panda",
-      "ours",
-      "rideau",
-      "tabouret"
+      "palpiter",
+      "spontané",
+      "sang",
+      "haute",
+      "détonation"
     ],
     [
-      "miroir",
-      "chien",
-      "renard",
-      "racine",
-      "pelle"
+      "aorte",
+      "tiédir",
+      "cardiogramme",
+      "ventricule",
+      "aimer"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    1,
     2,
     3,
-    2
+    2,
+    4
   ],
   "colClues": [
-    2,
-    5,
     3,
-    2,
+    1,
+    3,
+    4,
     1
   ],
-  "themeWord": "animal",
+  "themeWord": "coeur",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       true,
       false,
@@ -64,33 +78,19 @@
       false
     ],
     [
+      true,
       false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

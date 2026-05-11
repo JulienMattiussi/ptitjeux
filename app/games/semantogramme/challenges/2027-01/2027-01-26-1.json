@@ -5,34 +5,34 @@
   "height": 4,
   "words": [
     [
-      "traversière",
-      "soliste",
-      "rideau",
-      "barre"
-    ],
-    [
-      "bec",
-      "cône",
-      "arrosoir",
-      "clé"
-    ],
-    [
-      "condor",
-      "bigarade",
-      "embouchure",
-      "mélodie"
-    ],
-    [
       "bois",
+      "bûche",
+      "spiritualité",
+      "soliste"
+    ],
+    [
+      "politique",
+      "verger",
       "enchanteur",
-      "argent",
-      "punaise"
+      "courageux"
+    ],
+    [
+      "traversière",
+      "clé",
+      "embouchure",
+      "individuel"
+    ],
+    [
+      "mélodie",
+      "bec",
+      "allumer",
+      "argent"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    2,
+    1,
+    3,
     3
   ],
   "colClues": [
@@ -45,12 +45,6 @@
   "solution": [
     [
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true
@@ -59,13 +53,19 @@
       false,
       false,
       true,
-      true
+      false
     ],
     [
       true,
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 9

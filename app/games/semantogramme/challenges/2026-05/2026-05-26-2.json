@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "flûte",
-      "coussin",
-      "choeur",
-      "symphonie",
-      "gamme"
+      "fosse",
+      "inertie",
+      "roulotte",
+      "flâner",
+      "astringent"
     ],
     [
-      "timbre",
-      "pétale",
-      "savon",
-      "coussin",
-      "choeur"
+      "fouler",
+      "éternité",
+      "patience",
+      "tarder",
+      "languir"
     ],
     [
-      "rumeur",
-      "pince",
-      "gamme",
-      "violon",
-      "banquier"
+      "autoroute",
+      "lambin",
+      "paresseux",
+      "traîner",
+      "tonte"
     ],
     [
-      "sol",
-      "bureau",
-      "note",
-      "harpe",
-      "panier"
+      "lenteur",
+      "ralentir",
+      "attente",
+      "congélateur",
+      "germaine"
     ],
     [
-      "choeur",
-      "timbre",
-      "rideau",
-      "globe",
-      "guitare"
+      "fratrie",
+      "atoll",
+      "tuba",
+      "siècle",
+      "minute"
     ]
   ],
   "rowClues": [
+    2,
     4,
-    1,
-    2,
-    2,
-    2
+    3,
+    3,
+    1
   ],
   "colClues": [
-    2,
-    0,
+    1,
+    4,
     3,
-    3,
-    3
+    4,
+    1
   ],
-  "themeWord": "musique",
+  "themeWord": "lent",
   "solution": [
     [
-      true,
       false,
       true,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false
     ],
     [
       false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
       false,
+      true,
       true,
       true,
       false
     ],
     [
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

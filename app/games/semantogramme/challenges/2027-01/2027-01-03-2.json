@@ -5,80 +5,66 @@
   "height": 5,
   "words": [
     [
-      "porte",
-      "timbre",
-      "sable",
-      "dauphin",
-      "horloge"
+      "décimal",
+      "allergie",
+      "liège",
+      "sororal",
+      "calcul"
     ],
     [
-      "bateau",
-      "marteau",
-      "sable",
-      "timbre",
-      "horloge"
+      "briquer",
+      "matelas",
+      "premier",
+      "numéral",
+      "entier"
     ],
     [
-      "poisson",
-      "plafond",
-      "savon",
-      "marin",
-      "rumeur"
+      "compter",
+      "soustraction",
+      "édulcorer",
+      "compte",
+      "set"
     ],
     [
-      "plage",
-      "racine",
-      "phare",
-      "écume",
-      "bateau"
+      "fée",
+      "plantule",
+      "col",
+      "somme",
+      "piccolo"
     ],
     [
-      "écaille",
-      "dauphin",
-      "rideau",
-      "requin",
-      "rivage"
+      "salut",
+      "impair",
+      "pair",
+      "démocratique",
+      "canneberge"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    2,
-    4,
-    4
-  ],
-  "colClues": [
-    4,
-    1,
     3,
-    4,
+    3,
+    1,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    2,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "nombre",
   "solution": [
     [
+      true,
       false,
       false,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
@@ -89,8 +75,22 @@
       true,
       false,
       true,
-      true
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

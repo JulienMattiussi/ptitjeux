@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "pianissimo",
-      "citerne",
+      "pôle",
       "route",
-      "remorque"
+      "hausser",
+      "éruption"
     ],
     [
-      "chenille",
-      "chauffeur",
-      "corne",
-      "reporter"
-    ],
-    [
-      "zinc",
-      "plateau",
-      "empire",
-      "enfoncer"
-    ],
-    [
-      "flûte",
       "cargo",
-      "cruche",
-      "transport"
+      "capturer",
+      "chauffeur",
+      "citerne"
+    ],
+    [
+      "remorque",
+      "rougeur",
+      "transport",
+      "évaporer"
+    ],
+    [
+      "tétine",
+      "humer",
+      "plateau",
+      "tempe"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    1,
-    1,
-    2
+    2,
+    1
   ],
   "colClues": [
-    0,
-    4,
+    2,
     1,
-    2
+    3,
+    1
   ],
   "themeWord": "camion",
   "solution": [
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false
     ],
     [
-      false,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       false
     ],
     [
       false,
-      true,
       false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 7

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cadre",
-      "tapis",
-      "voile",
-      "sol",
-      "étagère"
+      "son",
+      "sonore",
+      "réveil",
+      "flotter",
+      "auditif"
     ],
     [
-      "gym",
-      "rumeur",
-      "tasse",
-      "football",
-      "tabouret"
+      "escalade",
+      "replet",
+      "attention",
+      "résonner",
+      "percevoir"
     ],
     [
-      "football",
-      "basket",
-      "rideau",
-      "voile",
-      "brosse"
+      "jumeau",
+      "concentration",
+      "baudrier",
+      "clémentine",
+      "silence"
     ],
     [
-      "parfum",
-      "peigne",
-      "natation",
-      "pierre",
-      "course"
+      "audition",
+      "écho",
+      "entendre",
+      "capter",
+      "caravane"
     ],
     [
-      "règle",
-      "globe",
-      "rideau",
-      "étagère",
-      "basket"
+      "urbain",
+      "impondérable",
+      "oreille",
+      "auditeur",
+      "écouteur"
     ]
   ],
   "rowClues": [
-    1,
-    2,
+    3,
     3,
     2,
-    1
+    4,
+    3
   ],
   "colClues": [
     2,
-    1,
-    2,
-    2,
-    2
+    3,
+    3,
+    3,
+    4
   ],
-  "themeWord": "sport",
+  "themeWord": "écouter",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       true
     ],
     [
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 15
 }

@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "pince",
-      "avion",
-      "ferry",
-      "caravane",
-      "vélo"
+      "décliner",
+      "beauté",
+      "grâce",
+      "embellir",
+      "gracieux"
     ],
     [
-      "jardin",
-      "remorque",
-      "caravane",
-      "autobus",
-      "plateau"
+      "esthétique",
+      "soigner",
+      "rosée",
+      "noblesse",
+      "bord"
     ],
     [
-      "bus",
-      "tramway",
-      "avion",
-      "bureau",
-      "tabouret"
+      "baccarat",
+      "plein",
+      "gants",
+      "parer",
+      "contracter"
     ],
     [
-      "brosse",
-      "tunnel",
-      "train",
-      "clé",
-      "enveloppe"
+      "classe",
+      "rafale",
+      "chic",
+      "beuglement",
+      "briquet"
     ],
     [
-      "train",
-      "table",
-      "vélo",
-      "fusée",
-      "avion"
+      "raffiné",
+      "comté",
+      "distinction",
+      "sobriété",
+      "canapé"
     ]
   ],
   "rowClues": [
     4,
     3,
-    3,
     1,
+    2,
     3
   ],
   "colClues": [
+    3,
     2,
     3,
-    5,
-    2,
-    2
+    4,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "élégant",
   "solution": [
     [
       false,
@@ -64,24 +64,17 @@
       true
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
+      true,
       false
     ],
     [
       false,
       false,
-      true,
       false,
+      true,
       false
     ],
     [
@@ -89,8 +82,15 @@
       false,
       true,
       false,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

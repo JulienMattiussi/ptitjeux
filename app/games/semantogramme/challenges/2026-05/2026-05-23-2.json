@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "volley",
-      "marteau",
-      "racine",
-      "golf",
-      "pétale"
+      "tremplin",
+      "poids",
+      "roulette",
+      "enclume",
+      "massif"
     ],
     [
-      "course",
-      "tennis",
-      "voile",
-      "tunnel",
-      "mémoire"
+      "épais",
+      "fardeau",
+      "alourdir",
+      "plomb",
+      "sable"
     ],
     [
-      "judo",
-      "escalade",
-      "judo",
-      "escalade",
-      "peigne"
+      "kilo",
+      "réveil",
+      "silence",
+      "kumquat",
+      "pesant"
     ],
     [
-      "porte",
-      "tennis",
-      "jardin",
-      "règle",
-      "lampe"
+      "consistant",
+      "pesanteur",
+      "pondéreux",
+      "momie",
+      "maternité"
     ],
     [
-      "judo",
-      "danse",
-      "tapis",
-      "cyclisme",
-      "rugby"
+      "réparation",
+      "masse",
+      "tonne",
+      "peser",
+      "moteur"
     ]
   ],
   "rowClues": [
-    2,
     3,
     4,
-    1,
-    4
+    2,
+    3,
+    3
   ],
   "colClues": [
-    4,
-    4,
-    2,
     3,
-    1
+    4,
+    3,
+    3,
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "lourd",
   "solution": [
     [
-      true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

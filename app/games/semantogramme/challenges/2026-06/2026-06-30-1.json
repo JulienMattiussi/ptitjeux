@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "écosystème",
-      "buste",
-      "pierre",
-      "plâtre"
-    ],
-    [
-      "moule",
-      "bois",
-      "scarabée",
-      "feu"
-    ],
-    [
-      "modelage",
-      "couloir",
       "bronze",
-      "argile"
+      "argile",
+      "mondial",
+      "marbre"
     ],
     [
-      "fonte",
-      "résistance",
-      "dépôt",
-      "marbre"
+      "veilleuse",
+      "moule",
+      "plâtre",
+      "multitude"
+    ],
+    [
+      "bois",
+      "finir",
+      "décomposé",
+      "fonte"
+    ],
+    [
+      "transfusion",
+      "pierre",
+      "modelage",
+      "buste"
     ]
   ],
   "rowClues": [
     3,
     2,
-    3,
-    2
+    2,
+    3
   ],
   "colClues": [
-    3,
     2,
+    3,
     2,
     3
   ],
   "themeWord": "sculpture",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
-      true,
+      false,
       true
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ]
   ],

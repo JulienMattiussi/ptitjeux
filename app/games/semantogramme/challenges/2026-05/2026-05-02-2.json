@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "jaune",
-      "pince",
-      "voisin",
-      "blanc",
-      "indigo"
+      "explorer",
+      "musée",
+      "château",
+      "touriste",
+      "populaire"
     ],
     [
-      "miroir",
-      "brun",
-      "enveloppe",
-      "argenté",
-      "brosse"
+      "montre",
+      "découvrir",
+      "jointure",
+      "travailler",
+      "admirer"
     ],
     [
-      "balai",
-      "miroir",
-      "racine",
-      "rose",
-      "manuel"
+      "conquérir",
+      "guide",
+      "pèlerin",
+      "excursion",
+      "subtil"
     ],
     [
-      "pierre",
-      "blanc",
-      "rouge",
-      "noir",
-      "panier"
+      "arpenter",
+      "visite",
+      "magnésie",
+      "sonore",
+      "lèvre"
     ],
     [
-      "rouge",
-      "rideau",
-      "lampe",
-      "porte",
-      "pince"
+      "hameçon",
+      "studio",
+      "chambre",
+      "recette",
+      "site"
     ]
   ],
   "rowClues": [
+    4,
+    2,
     3,
     2,
-    1,
-    3,
     1
   ],
   "colClues": [
     2,
-    2,
-    1,
     4,
-    1
+    2,
+    2,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "visiter",
   "solution": [
     [
       true,
-      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 12
 }

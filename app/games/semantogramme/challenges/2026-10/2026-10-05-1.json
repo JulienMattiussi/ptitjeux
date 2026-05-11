@@ -5,51 +5,57 @@
   "height": 4,
   "words": [
     [
-      "équinoxe",
+      "plasma",
+      "écouler",
       "airelle",
-      "groseille",
-      "sureau"
+      "sorbier"
     ],
     [
-      "sorbier",
+      "fanal",
+      "charbon",
       "cerise",
-      "pré",
-      "bock"
+      "rosée"
     ],
     [
-      "airelle",
-      "carotte",
-      "lampe",
-      "clairière"
-    ],
-    [
-      "argousier",
-      "marée",
       "cassis",
-      "poulain"
+      "canneberge",
+      "laitue",
+      "cadre"
+    ],
+    [
+      "groseille",
+      "sureau",
+      "argousier",
+      "poncer"
     ]
   ],
   "rowClues": [
-    3,
     2,
     1,
-    2
+    2,
+    3
   ],
   "colClues": [
+    2,
+    2,
     3,
-    2,
-    2,
     1
   ],
   "themeWord": "baie",
   "solution": [
     [
       false,
-      true,
+      false,
       true,
       true
     ],
     [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
       false,
@@ -57,13 +63,7 @@
     ],
     [
       true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      false,
       true,
       false
     ]

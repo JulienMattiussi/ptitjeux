@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "assiette",
-      "globe",
-      "couteau",
-      "peigne",
-      "panier"
+      "artistique",
+      "argile",
+      "minou",
+      "pétrir",
+      "danger"
     ],
     [
-      "ciseaux",
-      "cadre",
-      "spatule",
-      "étagère",
-      "casserole"
+      "ébauchoir",
+      "agripper",
+      "astiquer",
+      "colombin",
+      "façonner"
     ],
     [
-      "ombre",
-      "verre",
-      "épice",
-      "cuillère",
-      "tabouret"
+      "modeler",
+      "figurine",
+      "enchanteur",
+      "tag",
+      "théorie"
     ],
     [
-      "horloge",
-      "tablier",
-      "casserole",
-      "farine",
-      "couteau"
+      "comédie",
+      "sculpteur",
+      "tour",
+      "glaise",
+      "créatif"
     ],
     [
-      "spatule",
-      "maison",
-      "tablier",
-      "frigo",
-      "tablier"
+      "tridimensionnel",
+      "manuel",
+      "pâte",
+      "immaculé",
+      "pétrole"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    3,
+    2,
     4,
-    4
-  ],
-  "colClues": [
-    2,
-    2,
-    5,
-    3,
     3
   ],
-  "themeWord": "cuisine",
+  "colClues": [
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "modelage",
   "solution": [
     [
       true,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false
     ],
     [
       false,
-      false,
       true,
-      false,
+      true,
+      true,
       true
     ],
     [
+      true,
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 15

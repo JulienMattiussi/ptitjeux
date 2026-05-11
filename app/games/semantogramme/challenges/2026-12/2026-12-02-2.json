@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "racine",
-      "turquoise",
-      "tasse",
-      "turquoise",
-      "violet"
+      "élu",
+      "marbre",
+      "précaire",
+      "trôner",
+      "salle"
     ],
     [
-      "étoile",
-      "écran",
-      "prière",
-      "ocre",
-      "orange"
+      "agate",
+      "lavande",
+      "trou",
+      "pigment",
+      "trône"
     ],
     [
-      "balai",
-      "brun",
-      "violet",
-      "coussin",
-      "livre"
+      "régner",
+      "fastoyer",
+      "décimal",
+      "cumulus",
+      "campagnol"
     ],
     [
-      "rose",
-      "turquoise",
-      "pierre",
-      "chaise",
-      "serrure"
+      "couronne",
+      "roi",
+      "tondeuse",
+      "spectre",
+      "bolet"
     ],
     [
-      "doré",
-      "balai",
-      "rouge",
-      "coussin",
-      "indigo"
+      "éditeur",
+      "or",
+      "monumental",
+      "fastueux",
+      "opulent"
     ]
   ],
   "rowClues": [
     3,
+    1,
     2,
     2,
-    2,
-    3
+    4
   ],
   "colClues": [
     2,
-    3,
-    2,
+    4,
+    1,
     2,
     3
   ],
-  "themeWord": "couleur",
+  "themeWord": "palais",
   "solution": [
     [
       false,
@@ -67,17 +67,10 @@
       false,
       false,
       false,
-      true,
+      false,
       true
     ],
     [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
@@ -86,9 +79,16 @@
     ],
     [
       true,
-      false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       true
     ]
   ],

@@ -6,27 +6,27 @@
   "words": [
     [
       "cinéma",
-      "jus",
-      "jardin",
-      "comédien"
+      "bordeaux",
+      "consulter",
+      "cachet"
     ],
     [
-      "moulinet",
-      "museau",
-      "jugement",
-      "théâtre"
-    ],
-    [
-      "oscar",
-      "crêpe",
-      "table",
+      "imposte",
+      "nuit",
+      "jongler",
       "audition"
     ],
     [
+      "théâtre",
+      "comédien",
+      "fairway",
+      "transporter"
+    ],
+    [
+      "aviateur",
+      "oscar",
       "césar",
-      "génisse",
-      "interprète",
-      "cachet"
+      "interprète"
     ]
   ],
   "rowClues": [
@@ -36,10 +36,10 @@
     3
   ],
   "colClues": [
-    3,
-    0,
+    2,
+    2,
     1,
-    4
+    3
   ],
   "themeWord": "acteur",
   "solution": [
@@ -57,13 +57,13 @@
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true
     ]

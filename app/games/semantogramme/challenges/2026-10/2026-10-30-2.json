@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "train",
-      "moto",
-      "métro",
-      "pince",
-      "autobus"
+      "fermier",
+      "manteau",
+      "sacrée",
+      "chauffer",
+      "bûche"
     ],
     [
-      "racine",
-      "tabouret",
-      "ferry",
-      "horloge",
-      "banquier"
+      "tisonnier",
+      "briquet",
+      "flamme",
+      "palabrer",
+      "ancienne"
     ],
     [
-      "balai",
-      "serrure",
-      "autobus",
-      "miroir",
-      "taxi"
+      "étiré",
+      "banquise",
+      "ancestral",
+      "passion",
+      "crépitante"
     ],
     [
-      "fusée",
-      "voiture",
-      "métro",
-      "scooter",
-      "parfum"
+      "grippe",
+      "foi",
+      "tisonner",
+      "âtre",
+      "rayon"
     ],
     [
-      "gomme",
-      "fusée",
-      "tournevis",
-      "devoir",
-      "bureau"
+      "jaune",
+      "ronflante",
+      "rougeoyante",
+      "chaude",
+      "orfèvre"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    2,
-    4,
-    1
-  ],
-  "colClues": [
-    2,
     3,
     4,
     1,
-    2
+    2,
+    3
   ],
-  "themeWord": "transport",
+  "colClues": [
+    1,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "cheminée",
   "solution": [
     [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
       true,
@@ -66,20 +73,13 @@
     [
       false,
       false,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       true,
       false
@@ -87,10 +87,10 @@
     [
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

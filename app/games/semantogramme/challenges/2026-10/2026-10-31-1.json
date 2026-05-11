@@ -5,64 +5,64 @@
   "height": 4,
   "words": [
     [
-      "criquet",
-      "vitrail",
-      "jupe",
-      "pression"
-    ],
-    [
-      "bock",
-      "dent",
-      "louche",
-      "bouteille"
-    ],
-    [
-      "houblon",
-      "ambrée",
-      "brune",
-      "gant"
-    ],
-    [
-      "blonde",
-      "agrès",
+      "apéro",
       "mousse",
+      "pression",
       "malt"
+    ],
+    [
+      "cruel",
+      "bock",
+      "blonde",
+      "narrateur"
+    ],
+    [
+      "brune",
+      "soigné",
+      "froid",
+      "houblon"
+    ],
+    [
+      "théorie",
+      "projection",
+      "ambrée",
+      "bouteille"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
-    3
+    2,
+    2,
+    2
   ],
   "colClues": [
-    3,
     1,
     2,
+    3,
     3
   ],
   "themeWord": "bière",
   "solution": [
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false
     ],
     [
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true

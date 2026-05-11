@@ -5,51 +5,45 @@
   "height": 4,
   "words": [
     [
-      "plombier",
-      "réalisateur",
-      "saumon",
-      "sénateur"
-    ],
-    [
-      "concerto",
-      "instituteur",
+      "miniature",
       "électricien",
-      "dromadaire"
+      "dentiste",
+      "accordéon"
     ],
     [
-      "dentiste",
+      "plombier",
+      "épeler",
+      "acteur",
+      "réalisateur"
+    ],
+    [
+      "pompier",
+      "instituteur",
+      "quai",
+      "chariot"
+    ],
+    [
       "ingénieur",
       "infirmier",
-      "molécule"
-    ],
-    [
-      "acteur",
-      "pompier",
-      "match",
+      "marée",
       "comédien"
     ]
   ],
   "rowClues": [
     2,
-    2,
     3,
+    2,
     3
   ],
   "colClues": [
     3,
-    4,
+    3,
     2,
-    1
+    2
   ],
   "themeWord": "métier",
   "solution": [
     [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
@@ -57,8 +51,14 @@
     ],
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
+      false,
       false
     ],
     [

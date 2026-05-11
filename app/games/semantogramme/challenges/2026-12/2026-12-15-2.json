@@ -5,80 +5,80 @@
   "height": 5,
   "words": [
     [
-      "chant",
-      "symphonie",
-      "ciseaux",
-      "guitare",
-      "piano"
+      "matcha",
+      "douve",
+      "céleste",
+      "couler",
+      "cloche"
     ],
     [
-      "harpe",
-      "lueur",
-      "étoile",
-      "livre",
-      "rideau"
+      "parquet",
+      "sculpté",
+      "élysée",
+      "artistique",
+      "antique"
     ],
     [
-      "étagère",
-      "mémoire",
-      "flûte",
-      "accord",
-      "piano"
+      "jus",
+      "alliage",
+      "temporel",
+      "âge",
+      "ministère"
     ],
     [
-      "écran",
-      "gamme",
-      "chant",
-      "carnet",
-      "jazz"
+      "antiquité",
+      "monument",
+      "patiner",
+      "cuisson",
+      "statue"
     ],
     [
-      "tournevis",
-      "mélodie",
-      "mémoire",
-      "écran",
-      "ombre"
+      "grizzli",
+      "patiné",
+      "commande",
+      "équilibre",
+      "massif"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
     4,
     1,
     3,
-    3,
-    1
+    4
   ],
-  "colClues": [
-    2,
-    3,
-    2,
-    2,
-    3
-  ],
-  "themeWord": "musique",
+  "themeWord": "bronze",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true,
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      false,
+      true,
       false
     ],
     [
-      false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
       false,
@@ -89,8 +89,8 @@
       true,
       false,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

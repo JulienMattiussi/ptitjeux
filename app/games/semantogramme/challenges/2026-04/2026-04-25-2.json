@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "balai",
-      "silence",
-      "horloge",
-      "mangue",
-      "balai"
+      "écureuil",
+      "fournir",
+      "rare",
+      "période",
+      "écouler"
     ],
     [
-      "abricot",
-      "plateau",
-      "figue",
-      "horloge",
-      "chemin"
+      "levure",
+      "client",
+      "gibier",
+      "boutique",
+      "pupille"
     ],
     [
-      "orange",
-      "mûre",
-      "banane",
-      "silence",
-      "ananas"
+      "cercle",
+      "vente",
+      "tampon",
+      "prédateur",
+      "vendeur"
     ],
     [
-      "jardin",
-      "peigne",
-      "kiwi",
-      "marteau",
-      "rumeur"
+      "commercialiser",
+      "ovale",
+      "troc",
+      "marchand",
+      "seconde"
     ],
     [
-      "lueur",
-      "pomme",
-      "pastèque",
-      "mangue",
-      "tapis"
+      "sarcasme",
+      "exaucer",
+      "livrer",
+      "fournil",
+      "caisse"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    4,
-    1,
-    3
+    2,
+    2,
+    3,
+    2
   ],
   "colClues": [
+    1,
+    3,
     2,
     2,
-    4,
-    2,
-    1
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "vendre",
   "solution": [
     [
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true
     ],
     [
       false,
-      false,
       true,
       false,
+      true,
       false
     ],
     [
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 11

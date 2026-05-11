@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "arc-en-ciel",
-      "voisin",
-      "fusée",
-      "soleil",
-      "clé"
+      "cannelle",
+      "instable",
+      "instant",
+      "abréger",
+      "instantané"
     ],
     [
-      "tempête",
+      "rapide",
+      "fulgurant",
+      "glouton",
       "nuage",
-      "glace",
-      "étagère",
-      "tonnerre"
+      "sobriété"
     ],
     [
-      "arc-en-ciel",
-      "voisin",
-      "tonnerre",
-      "timbre",
-      "pluie"
+      "flash",
+      "tempête",
+      "rapidité",
+      "biliaire",
+      "aveuglant"
     ],
     [
-      "glace",
-      "cadre",
-      "verglas",
-      "panier",
-      "neige"
+      "menaçant",
+      "orage",
+      "lumière",
+      "joyau",
+      "transcrire"
     ],
     [
-      "règle",
-      "rosée",
-      "éclair",
+      "briller",
+      "raffiné",
+      "électrique",
       "foudre",
-      "serrure"
+      "modelage"
     ]
   ],
   "rowClues": [
     2,
+    3,
     4,
-    3,
-    3,
+    2,
     3
   ],
   "colClues": [
+    3,
+    3,
     4,
     2,
-    4,
-    2,
-    3
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "éclair",
   "solution": [
     [
+      false,
+      false,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false
@@ -71,26 +78,19 @@
       true
     ],
     [
-      true,
       false,
       true,
+      true,
       false,
-      true
+      false
     ],
     [
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

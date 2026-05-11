@@ -5,39 +5,39 @@
   "height": 4,
   "words": [
     [
-      "évier",
-      "dragon",
+      "chaleur",
+      "théâtral",
       "morale",
-      "légende"
+      "briller"
     ],
     [
-      "costume",
-      "bouton",
-      "recette",
-      "percolateur"
-    ],
-    [
-      "jambe",
-      "sorcière",
-      "blanc",
-      "brune"
-    ],
-    [
-      "prince",
-      "fée",
+      "sautiller",
+      "soucoupe",
       "princesse",
-      "enchanté"
+      "atterrissage"
+    ],
+    [
+      "fée",
+      "sorcière",
+      "arithmétique",
+      "dragon"
+    ],
+    [
+      "enchanté",
+      "prince",
+      "canette",
+      "légende"
     ]
   ],
   "rowClues": [
-    3,
-    0,
     1,
-    4
+    1,
+    3,
+    3
   ],
   "colClues": [
-    1,
-    3,
+    2,
+    2,
     2,
     2
   ],
@@ -45,26 +45,26 @@
   "solution": [
     [
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
+      false,
       true
     ],
     [
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      true,
+      false,
       true
     ]
   ],

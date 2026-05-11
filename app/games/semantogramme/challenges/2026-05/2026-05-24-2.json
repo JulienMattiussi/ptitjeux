@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "coussin",
-      "marathon",
-      "judo",
-      "racine",
-      "marathon"
+      "sciage",
+      "chimère",
+      "week-end",
+      "délicat",
+      "fin"
     ],
     [
-      "gym",
-      "judo",
-      "porte",
-      "football",
-      "basket"
+      "consoler",
+      "volatil",
+      "alléger",
+      "casquette",
+      "gaze"
     ],
     [
-      "escalade",
-      "tennis",
-      "gym",
-      "balai",
-      "ombre"
+      "mousse",
+      "losange",
+      "coton",
+      "subtil",
+      "ralentir"
     ],
     [
-      "voile",
-      "livre",
-      "basket",
-      "escalade",
-      "danse"
+      "bulle",
+      "plume",
+      "tenailler",
+      "impondérable",
+      "collection"
     ],
     [
-      "cyclisme",
-      "gym",
-      "basket",
-      "banquier",
-      "rideau"
+      "duvet",
+      "air",
+      "vaporeux",
+      "feuille",
+      "momie"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    4,
     3,
-    4,
-    3
+    3,
+    4
   ],
   "colClues": [
+    3,
+    3,
+    3,
     4,
-    4,
-    4,
-    2,
-    3
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "léger",
   "solution": [
     [
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
@@ -65,32 +72,25 @@
     ],
     [
       true,
-      true,
       false,
       true,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
       false
     ],
     [
       true,
+      true,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       true,
       true,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

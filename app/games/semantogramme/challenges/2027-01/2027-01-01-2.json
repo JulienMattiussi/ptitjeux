@@ -5,64 +5,57 @@
   "height": 5,
   "words": [
     [
-      "neige",
-      "tempête",
-      "pelle",
-      "jardin",
-      "tonnerre"
+      "remplacer",
+      "voter",
+      "jus",
+      "code",
+      "pomme"
     ],
     [
-      "banquier",
-      "rosée",
-      "marteau",
-      "nuage",
-      "coussin"
+      "écurie",
+      "parlement",
+      "républicaine",
+      "tu",
+      "heure"
     ],
     [
-      "foudre",
-      "foudre",
-      "écran",
-      "rideau",
-      "gel"
+      "déguster",
+      "légiférer",
+      "règlement",
+      "civile",
+      "avocat"
     ],
     [
-      "tonnerre",
-      "fusée",
-      "lueur",
-      "globe",
-      "vent"
+      "article",
+      "attirance",
+      "souffle",
+      "tribunal",
+      "décret"
     ],
     [
-      "silence",
-      "foudre",
-      "arc-en-ciel",
-      "règle",
-      "arc-en-ciel"
+      "juge",
+      "activité",
+      "légale",
+      "expédition",
+      "pénale"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    3,
     2,
+    4,
+    3,
     3
   ],
   "colClues": [
+    2,
     3,
-    4,
-    1,
-    1,
-    4
+    3,
+    3,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "loi",
   "solution": [
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
     [
       false,
       true,
@@ -71,26 +64,33 @@
       false
     ],
     [
+      false,
       true,
       true,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       true
     ],
     [
       true,
       false,
       false,
-      false,
+      true,
       true
     ],
     [
-      false,
       true,
+      false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

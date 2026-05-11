@@ -5,60 +5,60 @@
   "height": 5,
   "words": [
     [
-      "baleine",
-      "méduse",
-      "crabe",
-      "coussin",
-      "serrure"
+      "désherber",
+      "simplifier",
+      "soldes",
+      "mammouth",
+      "auteur"
     ],
     [
-      "baleine",
-      "poisson",
-      "clé",
-      "rivage",
-      "coussin"
+      "consommer",
+      "caisse",
+      "client",
+      "acquérir",
+      "glycogène"
     ],
     [
-      "corail",
-      "porte",
-      "pétale",
-      "dauphin",
-      "écume"
+      "rouillé",
+      "mètre",
+      "argent",
+      "achat",
+      "magasin"
     ],
     [
-      "vague",
-      "prière",
-      "sardine",
-      "poisson",
-      "globe"
+      "mât",
+      "carte",
+      "oxyder",
+      "ras",
+      "douche"
     ],
     [
-      "pétale",
-      "balai",
-      "sardine",
-      "saumon",
-      "écume"
+      "berger",
+      "commander",
+      "éclair",
+      "cantine",
+      "boutique"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
+    1,
     4,
-    2,
     3,
-    4,
+    1,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    1,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "acheter",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false
@@ -66,31 +66,31 @@
     [
       true,
       true,
-      false,
+      true,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       true
     ],
     [
-      true,
       false,
       true,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

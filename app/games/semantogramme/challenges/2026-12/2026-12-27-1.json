@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "plancton",
-      "découverte",
-      "fenouil",
-      "transparente"
+      "piqûre",
+      "pleine",
+      "transparente",
+      "siffler"
     ],
     [
-      "pichet",
-      "prologue",
-      "chouette",
-      "bannière"
+      "étain",
+      "lime",
+      "sauter",
+      "flottante"
     ],
     [
       "eau",
-      "urticante",
-      "flottante",
+      "cédrat",
+      "trôner",
       "mer"
     ],
     [
-      "arabesque",
-      "avenue",
-      "piqûre",
-      "fumée"
+      "cendrier",
+      "urticante",
+      "générosité",
+      "plancton"
     ]
   ],
   "rowClues": [
     2,
-    0,
-    4,
-    1
+    1,
+    2,
+    2
   ],
   "colClues": [
     2,
     1,
-    2,
-    2
+    1,
+    3
   ],
   "themeWord": "méduse",
   "solution": [
     [
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true
     ],
     [
       false,
+      true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 7

@@ -5,33 +5,33 @@
   "height": 4,
   "words": [
     [
-      "poussière",
-      "savon",
-      "éponge",
-      "séjour"
-    ],
-    [
-      "téléphérique",
-      "chêne",
-      "pédalier",
-      "message"
-    ],
-    [
-      "mars",
-      "canard",
+      "peloton",
+      "vanille",
       "chiffon",
-      "détergent"
+      "azur"
     ],
     [
-      "effroi",
-      "briquer",
+      "meuglement",
+      "cicatrice",
       "serpillière",
-      "épousseter"
+      "briquer"
+    ],
+    [
+      "récent",
+      "détergent",
+      "surdité",
+      "éponge"
+    ],
+    [
+      "poussière",
+      "épousseter",
+      "savon",
+      "parallèle"
     ]
   ],
   "rowClues": [
-    3,
-    0,
+    1,
+    2,
     2,
     3
   ],
@@ -44,15 +44,9 @@
   "themeWord": "ménage",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -64,8 +58,14 @@
     [
       false,
       true,
-      true,
+      false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 8

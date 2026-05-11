@@ -5,40 +5,40 @@
   "height": 4,
   "words": [
     [
-      "massif",
-      "troupeau",
       "ivoire",
-      "gris"
+      "savane",
+      "élancé",
+      "massif"
     ],
     [
+      "saule",
       "oreille",
-      "pachyderme",
-      "martini",
-      "défense"
+      "défense",
+      "pont-levis"
     ],
     [
-      "étalon",
-      "saut",
       "mémoire",
-      "savane"
+      "envoûter",
+      "tourmenter",
+      "troupeau"
     ],
     [
-      "guide",
-      "audition",
+      "étinceler",
       "safari",
-      "lob"
+      "gris",
+      "pachyderme"
     ]
   ],
   "rowClues": [
-    4,
     3,
     2,
-    1
+    2,
+    3
   ],
   "colClues": [
     2,
-    2,
     3,
+    2,
     3
   ],
   "themeWord": "éléphant",
@@ -46,26 +46,26 @@
     [
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true
     ],
     [
       false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 10

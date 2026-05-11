@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vague",
-      "fusée",
-      "plage",
-      "lueur",
-      "bateau"
+      "accéder",
+      "porte",
+      "rabot",
+      "remplissage",
+      "béatitude"
     ],
     [
-      "marin",
-      "requin",
-      "crayon",
-      "jardin",
-      "tasse"
+      "sacré",
+      "voir",
+      "perruque",
+      "nuage",
+      "magique"
     ],
     [
-      "méduse",
-      "écume",
-      "phare",
-      "sardine",
-      "maison"
+      "bonheur",
+      "bactérie",
+      "congère",
+      "minérale",
+      "perroquet"
     ],
     [
-      "racine",
-      "brosse",
-      "baleine",
-      "pelle",
-      "banquier"
+      "aigre",
+      "féroce",
+      "éternité",
+      "parfait",
+      "éden"
     ],
     [
-      "miroir",
-      "plage",
-      "écran",
-      "corail",
-      "pelle"
+      "palet",
+      "panache",
+      "récompense",
+      "céleste",
+      "élever"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    4,
     1,
-    2
+    1,
+    3,
+    3
   ],
   "colClues": [
     3,
-    3,
-    3,
+    1,
     2,
-    1
+    2,
+    3
   ],
-  "themeWord": "mer",
+  "themeWord": "paradis",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       false,
       true
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
       false,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
       true,
-      true,
-      true,
-      false
+      true
     ],
     [
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

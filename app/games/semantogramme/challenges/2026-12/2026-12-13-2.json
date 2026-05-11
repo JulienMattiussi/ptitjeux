@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "ciseaux",
-      "silence",
-      "crabe",
-      "carnet",
-      "fusée"
+      "halley",
+      "maquereau",
+      "clou",
+      "métal",
+      "lourd"
     ],
     [
-      "coussin",
-      "plage",
-      "carnet",
-      "marin",
-      "baleine"
+      "rouille",
+      "minerai",
+      "tampon",
+      "métallique",
+      "aimant"
     ],
     [
-      "voile",
-      "balai",
-      "timbre",
-      "marin",
-      "écaille"
+      "bonheur",
+      "planer",
+      "fossile",
+      "trapu",
+      "magnétique"
     ],
     [
-      "parfum",
-      "table",
-      "lueur",
-      "méduse",
-      "étagère"
+      "musclé",
+      "équilibre",
+      "forge",
+      "aïeul",
+      "aridité"
     ],
     [
-      "horloge",
-      "jardin",
-      "pierre",
-      "sol",
-      "écaille"
+      "résistant",
+      "rouillé",
+      "arctique",
+      "tondre",
+      "ouvert"
     ]
   ],
   "rowClues": [
-    1,
     3,
-    3,
+    4,
     1,
-    1
+    1,
+    2
   ],
   "colClues": [
-    1,
-    1,
-    1,
-    3,
+    2,
+    2,
+    2,
+    2,
     3
   ],
-  "themeWord": "mer",
+  "themeWord": "fer",
   "solution": [
     [
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false
     ],
     [
-      false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 11
 }

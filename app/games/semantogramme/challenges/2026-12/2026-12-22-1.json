@@ -5,41 +5,41 @@
   "height": 4,
   "words": [
     [
-      "bijoutier",
-      "euro",
-      "archive",
-      "mouton"
-    ],
-    [
-      "beurre",
-      "diamant",
-      "sautoir",
-      "caricature"
-    ],
-    [
       "chaîne",
-      "tête",
-      "pendentif",
-      "traversière"
+      "saturne",
+      "décrépir",
+      "bijoutier"
     ],
     [
+      "fable",
+      "menton",
+      "cou",
+      "diamant"
+    ],
+    [
+      "protectrice",
+      "pile",
+      "sautoir",
+      "ras"
+    ],
+    [
+      "étoile",
+      "pendentif",
       "tour",
-      "oxygène",
-      "ras",
-      "cou"
+      "japon"
     ]
   ],
   "rowClues": [
-    1,
     2,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
-    3,
+    1,
     1,
     3,
-    1
+    3
   ],
   "themeWord": "collier",
   "solution": [
@@ -47,25 +47,25 @@
       true,
       false,
       false,
-      false
+      true
     ],
     [
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 8

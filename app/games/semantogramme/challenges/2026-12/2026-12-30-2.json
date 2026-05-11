@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "balai",
-      "gris",
-      "gris",
-      "chemin",
-      "doré"
+      "tendre",
+      "décision",
+      "filet",
+      "sénat",
+      "achèvement"
     ],
     [
-      "racine",
-      "savon",
-      "panier",
-      "orange",
-      "gris"
+      "tumulte",
+      "production",
+      "tannerie",
+      "décret",
+      "conseil"
     ],
     [
-      "doré",
-      "pince",
-      "ocre",
-      "gris",
-      "orange"
+      "décider",
+      "gouvernemental",
+      "sillonner",
+      "compétent",
+      "cloître"
     ],
     [
-      "doré",
-      "mauve",
-      "prière",
-      "beige",
-      "lampe"
+      "autorisé",
+      "diriger",
+      "épave",
+      "bandelette",
+      "fratrie"
     ],
     [
-      "noir",
-      "pelle",
-      "blanc",
-      "ocre",
-      "mauve"
+      "ministériel",
+      "portefeuille",
+      "cabinet",
+      "lamentation",
+      "délégué"
     ]
   ],
   "rowClues": [
+    1,
+    2,
     3,
     2,
-    4,
-    3,
     4
   ],
   "colClues": [
     3,
-    2,
-    3,
     4,
-    4
+    1,
+    2,
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "ministre",
   "solution": [
     [
       false,
       true,
-      true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true
     ],
@@ -86,11 +79,18 @@
     ],
     [
       true,
+      true,
       false,
+      false,
+      false
+    ],
+    [
       true,
       true,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 12
 }

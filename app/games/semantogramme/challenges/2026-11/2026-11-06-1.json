@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "rabot",
-      "serrure",
-      "clé",
-      "mot"
-    ],
-    [
-      "trompette",
-      "tondeuse",
-      "huisserie",
-      "gond"
-    ],
-    [
-      "année",
-      "judas",
-      "poignée",
-      "paillasson"
-    ],
-    [
-      "accusé",
-      "dieu",
       "sonnette",
-      "battant"
+      "gond",
+      "serrure",
+      "or"
+    ],
+    [
+      "poignée",
+      "salive",
+      "clé",
+      "silex"
+    ],
+    [
+      "huisserie",
+      "appareil",
+      "judas",
+      "nourriture"
+    ],
+    [
+      "mobile",
+      "battant",
+      "barbe",
+      "paillasson"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    2,
+    2,
     2
   ],
   "colClues": [
-    0,
+    3,
     2,
-    4,
-    3
+    3,
+    1
   ],
   "themeWord": "porte",
   "solution": [
     [
-      false,
+      true,
       true,
       true,
       false
     ],
     [
-      false,
+      true,
       false,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ],
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      true,
       true
     ]
   ],

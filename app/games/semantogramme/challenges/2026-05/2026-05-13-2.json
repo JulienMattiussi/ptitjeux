@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "pierre",
-      "chemin",
-      "écaille",
-      "phare",
-      "dauphin"
+      "fumée",
+      "toux",
+      "mitrailler",
+      "gesticuler",
+      "cuvée"
     ],
     [
-      "sable",
-      "marin",
-      "baleine",
-      "porte",
-      "baleine"
+      "photographe",
+      "pellicule",
+      "satisfait",
+      "échiquier",
+      "photo"
     ],
     [
-      "chemin",
-      "requin",
-      "miroir",
-      "méduse",
-      "étagère"
+      "pardessus",
+      "zoom",
+      "capturer",
+      "instantané",
+      "shooter"
     ],
     [
-      "clé",
-      "dauphin",
-      "saumon",
-      "vague",
-      "voile"
+      "régate",
+      "décoller",
+      "âme",
+      "image",
+      "siamois"
     ],
     [
-      "thon",
-      "thon",
-      "brosse",
-      "écaille",
-      "carnet"
+      "pose",
+      "taguer",
+      "cliché",
+      "juin",
+      "activité"
     ]
   ],
   "rowClues": [
+    1,
     3,
     4,
-    2,
-    4,
-    3
+    1,
+    2
   ],
   "colClues": [
     2,
-    4,
+    2,
     3,
-    4,
-    3
+    2,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "photographier",
   "solution": [
     [
       false,
       false,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
       true,
       true,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 11
 }

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "colombe",
-      "fugue",
-      "caldeira",
-      "tigre"
-    ],
-    [
-      "saphir",
-      "lion",
-      "chat",
-      "mêlée"
-    ],
-    [
+      "serval",
+      "tigre",
       "lynx",
-      "licence",
-      "imperméable",
+      "risquer"
+    ],
+    [
+      "tempête",
+      "ventre",
+      "ocelot",
       "guépard"
     ],
     [
-      "reporter",
-      "ocelot",
-      "succulente",
-      "serval"
+      "limpidité",
+      "minéral",
+      "grand-mère",
+      "lion"
+    ],
+    [
+      "habile",
+      "chandelier",
+      "chat",
+      "nature"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     1,
-    2,
-    2,
-    2
+    1
   ],
   "colClues": [
     1,
-    2,
     1,
-    3
+    3,
+    2
   ],
   "themeWord": "félin",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
+      true,
       true,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
       false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 7

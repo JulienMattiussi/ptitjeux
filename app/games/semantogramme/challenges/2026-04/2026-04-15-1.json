@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "chagrin",
-      "pont",
-      "truite",
-      "vermillon"
-    ],
-    [
-      "pirogue",
       "source",
-      "gué",
-      "agence"
+      "plaisir",
+      "pont",
+      "barrage"
     ],
     [
-      "fourmilière",
-      "courant",
       "berge",
-      "racine"
+      "plume",
+      "courant",
+      "maraîcher"
     ],
     [
-      "barrage",
-      "biberon",
+      "dossier",
+      "laminaire",
       "rive",
-      "galion"
+      "envoûtante"
+    ],
+    [
+      "microbe",
+      "truite",
+      "aimable",
+      "gué"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
-    2,
+    1,
     2
   ],
   "colClues": [
+    2,
     1,
     3,
-    4,
-    0
+    2
   ],
   "themeWord": "rivière",
   "solution": [
     [
+      true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 8

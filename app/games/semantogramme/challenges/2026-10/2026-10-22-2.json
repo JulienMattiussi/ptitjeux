@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "globe",
-      "étagère",
-      "enveloppe",
-      "moto",
-      "fusée"
+      "sèche-cheveux",
+      "natation",
+      "précaire",
+      "bassin",
+      "rafraîchissant"
     ],
     [
-      "étoile",
-      "tramway",
-      "camion",
-      "plateau",
-      "avion"
+      "chlore",
+      "costume",
+      "ancêtre",
+      "ours",
+      "fil"
     ],
     [
-      "métro",
-      "scooter",
-      "scooter",
-      "brosse",
-      "bureau"
+      "plongeoir",
+      "olympique",
+      "gonflable",
+      "écusson",
+      "longueur"
     ],
     [
-      "taxi",
-      "voiture",
-      "bateau",
-      "racine",
-      "autobus"
+      "municipale",
+      "combinaison",
+      "plonger",
+      "cordage",
+      "bain"
     ],
     [
-      "jardin",
-      "fusée",
-      "manuel",
-      "livre",
-      "règle"
+      "stylo",
+      "maillot",
+      "multitude",
+      "barboter",
+      "présidentiel"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    3,
-    4,
-    1
-  ],
-  "colClues": [
-    2,
-    4,
     3,
     1,
+    4,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2,
     3
   ],
-  "themeWord": "transport",
+  "themeWord": "piscine",
   "solution": [
     [
       false,
-      false,
+      true,
       false,
       true,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       false,
       false
     ],
@@ -85,10 +78,17 @@
       true
     ],
     [
+      true,
       false,
       true,
       false,
+      true
+    ],
+    [
       false,
+      true,
+      false,
+      true,
       false
     ]
   ],

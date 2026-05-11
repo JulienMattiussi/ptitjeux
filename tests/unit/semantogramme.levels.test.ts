@@ -7,6 +7,8 @@ import {
   setCellStatus,
   setThemeGuess,
 } from '~/games/semantogramme/engine'
+import { CURATED_THEMES_L1 } from '../../generators/curated-themes-l1'
+import { CURATED_THEMES_L2 } from '../../generators/curated-themes-l2'
 
 describe('niveaux Sémantogramme : intégrité', () => {
   const dates = getAllDates()
@@ -48,6 +50,61 @@ describe('niveaux Sémantogramme : intégrité', () => {
         state = setThemeGuess(state, level.themeWord)
         expect(isWon(state), `${date}/${i} thème ${level.themeWord} rejeté`).toBe(true)
       }
+    }
+  })
+
+  it('puzzles curés : ≥1 IN et ≥1 OUT par ligne et par colonne', () => {
+    // Une ligne ou colonne tout-IN (clue = width/height) ou tout-OUT
+    // (clue = 0) appauvrit le puzzle. Le générateur curé re-mélange jusqu'à
+    // satisfaction ; on vérifie ici que le JSON livré respecte bien la règle.
+    for (const date of dates) {
+      for (const i of [1, 2] as const) {
+        const curated = i === 1 ? CURATED_THEMES_L1[date] : CURATED_THEMES_L2[date]
+        if (!curated) continue
+        const level = getLevel(date, i)!
+        for (let y = 0; y < level.height; y++) {
+          const inCount = level.solution[y].filter(Boolean).length
+          expect(inCount, `${date}/L${i} ligne ${y} clue=${inCount}`).toBeGreaterThan(0)
+          expect(inCount, `${date}/L${i} ligne ${y} toute-IN`).toBeLessThan(level.width)
+        }
+        for (let x = 0; x < level.width; x++) {
+          let inCount = 0
+          for (let y = 0; y < level.height; y++) if (level.solution[y][x]) inCount++
+          expect(inCount, `${date}/L${i} colonne ${x} clue=0`).toBeGreaterThan(0)
+          expect(inCount, `${date}/L${i} colonne ${x} toute-IN`).toBeLessThan(level.height)
+        }
+      }
+    }
+  })
+
+  it('puzzles curés : aucun mot dupliqué dans la grille', () => {
+    // L1 et L2 sont curés : chaque case porte un mot distinct. L3/L4 sont
+    // tirés aléatoirement et peuvent répéter (par construction).
+    for (const date of dates) {
+      for (const i of [1, 2] as const) {
+        const curated = i === 1 ? CURATED_THEMES_L1[date] : CURATED_THEMES_L2[date]
+        if (!curated) continue
+        const level = getLevel(date, i)!
+        const flat = level.words.flat()
+        const unique = new Set(flat)
+        expect(unique.size, `${date}/L${i} contient un doublon`).toBe(flat.length)
+      }
+    }
+  })
+
+  it('thèmes curés : tous distincts entre L1, L2 et entre eux', () => {
+    const allCurated: Array<{ source: string; word: string }> = []
+    for (const [date, theme] of Object.entries(CURATED_THEMES_L1)) {
+      allCurated.push({ source: `L1/${date}`, word: theme.word })
+    }
+    for (const [date, theme] of Object.entries(CURATED_THEMES_L2)) {
+      allCurated.push({ source: `L2/${date}`, word: theme.word })
+    }
+    const seen = new Map<string, string>()
+    for (const { source, word } of allCurated) {
+      const previous = seen.get(word)
+      expect(previous, `thème "${word}" déjà utilisé en ${previous} et en ${source}`).toBeUndefined()
+      seen.set(word, source)
     }
   })
 })

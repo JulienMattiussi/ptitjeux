@@ -5,72 +5,79 @@
   "height": 5,
   "words": [
     [
-      "mémoire",
-      "violon",
-      "prison",
-      "batterie",
-      "balai"
+      "casier",
+      "produire",
+      "atelier",
+      "pollution",
+      "délivrance"
     ],
     [
-      "cadre",
-      "carnet",
-      "flûte",
-      "panneau",
-      "flûte"
+      "plombier",
+      "industrielle",
+      "cheminée",
+      "toupie",
+      "massive"
     ],
     [
-      "étagère",
-      "serrure",
-      "serrure",
-      "violon",
-      "globe"
+      "chaîne",
+      "sénat",
+      "bruyante",
+      "ancêtre",
+      "souris"
     ],
     [
-      "flûte",
-      "étagère",
-      "savon",
-      "lueur",
-      "tabouret"
+      "fourchette",
+      "baptême",
+      "travailler",
+      "industrie",
+      "larmoyer"
     ],
     [
-      "opéra",
-      "pétale",
-      "règle",
-      "chemin",
-      "lampe"
+      "voûter",
+      "polluante",
+      "soudure",
+      "industrialiser",
+      "production"
     ]
   ],
   "rowClues": [
-    2,
+    4,
+    3,
     2,
     1,
-    1,
-    1
+    3
   ],
   "colClues": [
     2,
-    1,
-    1,
-    2,
-    1
+    3,
+    3,
+    3,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "usine",
   "solution": [
     [
-      false,
       true,
-      false,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       true
     ],
     [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       false,
@@ -78,19 +85,12 @@
       false
     ],
     [
+      false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 13
 }

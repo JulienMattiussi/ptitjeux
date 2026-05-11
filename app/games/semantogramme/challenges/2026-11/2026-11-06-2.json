@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "cassis",
-      "orange",
-      "lampe",
-      "pêche",
-      "mémoire"
+      "portrait",
+      "glacial",
+      "infernal",
+      "rapide",
+      "fondation"
     ],
     [
-      "poire",
-      "ananas",
-      "raisin",
-      "prune",
-      "miroir"
+      "tremplin",
+      "ferveur",
+      "levant",
+      "casque",
+      "audacieux"
     ],
     [
-      "banane",
-      "framboise",
-      "table",
-      "miroir",
-      "tunnel"
+      "glace",
+      "souillure",
+      "transylvanie",
+      "but",
+      "collectif"
     ],
     [
-      "règle",
-      "racine",
-      "tabouret",
-      "raisin",
-      "abricot"
+      "ring",
+      "patins",
+      "piste",
+      "médaille",
+      "paternel"
     ],
     [
-      "rumeur",
-      "gomme",
-      "prune",
-      "agenda",
-      "prune"
+      "olympique",
+      "pinson",
+      "sincère",
+      "canadien",
+      "patiner"
     ]
   ],
   "rowClues": [
+    2,
+    1,
     3,
-    4,
     2,
-    2,
-    2
+    3
   ],
   "colClues": [
-    3,
-    3,
     2,
-    3,
+    2,
+    1,
+    4,
     2
   ],
-  "themeWord": "fruit",
+  "themeWord": "hockey",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
       true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
@@ -86,11 +79,18 @@
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

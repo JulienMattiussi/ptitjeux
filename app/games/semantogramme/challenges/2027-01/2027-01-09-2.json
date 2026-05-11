@@ -5,60 +5,74 @@
   "height": 5,
   "words": [
     [
-      "saumon",
-      "brosse",
-      "thon",
-      "sardine",
-      "serrure"
+      "elliptique",
+      "lointaine",
+      "résonner",
+      "pulpe",
+      "espace"
     ],
     [
-      "rivage",
-      "prière",
-      "bureau",
-      "règle",
-      "peigne"
+      "choc",
+      "spirale",
+      "tournoyer",
+      "milieu",
+      "serré"
     ],
     [
-      "clé",
-      "banquier",
-      "lampe",
-      "étagère",
-      "marin"
+      "buste",
+      "univers",
+      "lactée",
+      "observer",
+      "gâter"
     ],
     [
-      "phare",
-      "tasse",
-      "pince",
-      "plage",
-      "écaille"
+      "galactique",
+      "cube",
+      "fracas",
+      "disque",
+      "gazette"
     ],
     [
-      "prière",
-      "écaille",
-      "maison",
-      "sardine",
-      "silence"
+      "denture",
+      "cosmique",
+      "immense",
+      "moderne",
+      "écureuil"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    1,
+    2,
     3,
+    1,
     2
   ],
   "colClues": [
+    2,
+    4,
     3,
     1,
-    1,
-    3,
-    2
+    1
   ],
-  "themeWord": "mer",
+  "themeWord": "galaxie",
   "solution": [
     [
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true,
       false
@@ -72,25 +86,11 @@
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
+      true,
       true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 11
 }

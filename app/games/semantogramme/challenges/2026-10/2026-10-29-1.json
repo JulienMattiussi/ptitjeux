@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "noir",
+      "opale",
+      "palette",
       "rubis",
-      "turquoise",
-      "émeraude"
+      "perle"
     ],
     [
-      "pluton",
-      "mesurer",
-      "perle",
-      "opale"
+      "émeraude",
+      "sociable",
+      "améthyste",
+      "éclipse"
     ],
     [
-      "topaze",
-      "parapet",
       "diamant",
-      "améthyste"
+      "topaze",
+      "auriculaire",
+      "turquoise"
     ],
     [
-      "sardine",
-      "agate",
-      "conclusion",
-      "volet"
+      "nova",
+      "aquatique",
+      "rhume",
+      "agate"
     ]
   ],
   "rowClues": [
@@ -36,36 +36,36 @@
     1
   ],
   "colClues": [
+    3,
     1,
     2,
-    3,
     3
   ],
   "themeWord": "pierre",
   "solution": [
     [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 9

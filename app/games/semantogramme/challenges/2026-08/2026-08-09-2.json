@@ -5,60 +5,81 @@
   "height": 5,
   "words": [
     [
-      "globe",
-      "sol",
-      "scooter",
-      "voiture",
-      "voiture"
+      "haleine",
+      "salaire",
+      "potier",
+      "sable",
+      "gant"
     ],
     [
-      "crayon",
-      "scooter",
-      "métro",
-      "serrure",
-      "autobus"
+      "bois",
+      "tanner",
+      "taillis",
+      "terre",
+      "café"
     ],
     [
-      "ferry",
-      "miroir",
-      "sol",
-      "balai",
-      "camion"
+      "beige",
+      "pauser",
+      "havane",
+      "fauve",
+      "dribble"
     ],
     [
-      "vélo",
-      "autobus",
-      "tramway",
-      "chemin",
-      "bateau"
+      "cuir",
+      "douve",
+      "écorce",
+      "noisette",
+      "brun"
     ],
     [
-      "métro",
-      "vélo",
-      "vélo",
-      "balai",
-      "avion"
+      "poulet",
+      "sépia",
+      "châtaigne",
+      "verdoyant",
+      "milieu"
     ]
   ],
   "rowClues": [
+    1,
     3,
     3,
-    2,
     4,
-    4
+    2
   ],
   "colClues": [
     3,
+    1,
     3,
     4,
-    1,
-    5
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "marron",
   "solution": [
     [
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       true
@@ -68,29 +89,8 @@
       true,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 13
 }

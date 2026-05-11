@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "ombre",
-      "agenda",
-      "coussin",
-      "framboise",
-      "tunnel",
-      "timbre"
+      "amanite",
+      "titanesque",
+      "vigne",
+      "fémur",
+      "taille",
+      "chardon"
     ],
     [
-      "abricot",
-      "fraise",
-      "banane",
-      "mangue",
-      "poire",
-      "plateau"
+      "enrubanner",
+      "large",
+      "antiquité",
+      "ceinture",
+      "mot",
+      "rotation"
     ],
     [
-      "mémoire",
-      "pomme",
-      "citron",
-      "pastèque",
-      "orange",
-      "étagère"
+      "expliquer",
+      "radieux",
+      "pot",
+      "femme",
+      "rond",
+      "réparer"
     ],
     [
-      "voisin",
-      "serrure",
-      "pomme",
-      "crayon",
-      "fraise",
-      "mûre"
+      "mobile",
+      "sportif",
+      "pivoter",
+      "teinture",
+      "précoce",
+      "fraîche"
     ],
     [
-      "melon",
-      "savon",
-      "rideau",
-      "poire",
-      "raisin",
-      "poire"
+      "plat-de-service",
+      "haltérophilie",
+      "baguettes",
+      "pied",
+      "mouchoir",
+      "bassin"
     ],
     [
-      "manuel",
-      "raisin",
-      "voisin",
-      "kiwi",
-      "plafond",
-      "vis"
+      "corriger",
+      "balancement",
+      "cuisse",
+      "tournevis",
+      "malt",
+      "danser"
     ]
   ],
   "rowClues": [
-    1,
-    5,
-    4,
-    3,
-    4,
-    2
-  ],
-  "colClues": [
     2,
     3,
+    2,
     3,
-    5,
-    4,
-    2
+    1,
+    3
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    1,
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "hanche",
   "solution": [
     [
       false,
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       true,
       false
     ],
     [
       false,
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
       true
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 14
 }

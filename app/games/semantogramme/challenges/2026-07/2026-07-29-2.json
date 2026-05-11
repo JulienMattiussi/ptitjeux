@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "géologie",
-      "apéro",
-      "matin",
-      "congé",
-      "étudier"
+      "parenté",
+      "belle-soeur",
+      "tantine",
+      "serpillière",
+      "aviateur"
     ],
     [
-      "travail",
-      "languir",
-      "cours",
-      "élan",
-      "ronger"
+      "cousine",
+      "effraie",
+      "tranquillité",
+      "domestique",
+      "généreux"
     ],
     [
-      "planifier",
-      "travailler",
-      "fils",
-      "récent",
-      "liturgique"
+      "neveu",
+      "cousinage",
+      "parent",
+      "fixer",
+      "visiter"
     ],
     [
-      "cabine",
-      "flirt",
-      "agenda",
-      "horaire",
-      "élection"
+      "aiguisé",
+      "nièce",
+      "hawaïen",
+      "père",
+      "recevoir"
     ],
     [
-      "marié",
-      "échafaudage",
-      "tonte",
-      "jour",
-      "enfant"
+      "barboter",
+      "sourcil",
+      "fondant",
+      "salon",
+      "gâter"
     ]
   ],
   "rowClues": [
+    2,
+    1,
     4,
-    2,
-    2,
-    2,
+    3,
     1
   ],
   "colClues": [
     2,
+    3,
     2,
-    3,
-    3,
-    1
+    1,
+    3
   ],
-  "themeWord": "jeudi",
+  "themeWord": "tante",
   "solution": [
     [
       false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       true
     ],
     [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
-      true,
-      false
+      false,
+      true
     ]
   ],
   "parMoves": 11

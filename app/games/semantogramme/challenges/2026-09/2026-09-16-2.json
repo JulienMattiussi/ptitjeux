@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "chrono",
-      "rapide",
-      "délai",
-      "ennemi",
-      "mule"
+      "swing",
+      "bunker",
+      "félicité",
+      "malédiction",
+      "social"
     ],
     [
-      "cadran",
-      "bref",
-      "temps",
-      "étirer",
-      "instant"
+      "club",
+      "écossais",
+      "tortueux",
+      "mondial",
+      "putter"
     ],
     [
-      "patienter",
-      "léger",
-      "météorite",
-      "perte",
-      "seconde"
+      "lyrique",
+      "tee",
+      "sportif",
+      "frapper",
+      "driver"
     ],
     [
-      "mesurer",
-      "aiguille",
-      "pure",
-      "précis",
-      "accordéon"
+      "trou",
+      "birdie",
+      "corsaire",
+      "fairway",
+      "green"
     ],
     [
-      "consoler",
-      "voler",
-      "horloge",
-      "attendre",
-      "éphémère"
+      "roseraie",
+      "arc-en-ciel",
+      "voiture",
+      "résister",
+      "élégant"
     ]
   ],
   "rowClues": [
-    3,
-    4,
     2,
-    3,
-    3
+    4,
+    4,
+    4,
+    1
   ],
   "colClues": [
+    3,
     4,
+    1,
     3,
-    3,
-    2,
-    3
+    4
   ],
-  "themeWord": "minute",
+  "themeWord": "golf",
   "solution": [
     [
       true,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       true,
       true,
-      true,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       true
     ],
     [
       true,
+      true,
       false,
-      false,
-      false,
+      true,
       true
     ],
     [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ]
   ],

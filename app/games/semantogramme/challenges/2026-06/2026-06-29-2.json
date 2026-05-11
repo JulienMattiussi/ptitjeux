@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "courage",
-      "chevalier",
-      "cellulose",
-      "courageux",
-      "pioncer"
+      "négoce",
+      "incapable",
+      "écouler",
+      "commerce",
+      "liquider"
     ],
     [
-      "lac",
-      "intrépide",
-      "héroïsme",
-      "guerrier",
-      "oser"
+      "noiraud",
+      "bruyant",
+      "livrer",
+      "amplificateur",
+      "brader"
     ],
     [
-      "décaféiné",
-      "musclé",
-      "vaillance",
-      "colère",
-      "échine"
+      "couard",
+      "troc",
+      "vente",
+      "boutique",
+      "vendeur"
     ],
     [
-      "souterraine",
-      "alligator",
-      "défier",
-      "héros",
-      "audace"
+      "consoler",
+      "ivoire",
+      "client",
+      "fournir",
+      "prix"
     ],
     [
-      "banquet",
-      "audacieux",
-      "courir",
-      "vaillant",
-      "affronter"
+      "enchère",
+      "plongeon",
+      "urbain",
+      "nettoyer",
+      "inauguration"
     ]
   ],
   "rowClues": [
-    3,
     4,
-    1,
+    2,
+    4,
     3,
-    3
+    1
   ],
   "colClues": [
+    2,
     1,
-    3,
-    3,
     4,
-    3
+    3,
+    4
   ],
-  "themeWord": "brave",
+  "themeWord": "vendre",
   "solution": [
     [
       true,
-      true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 14

@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "tête",
-      "miroir",
-      "bras",
-      "doigt",
-      "épaule",
-      "tabouret"
+      "réparateur",
+      "praline",
+      "impulsion",
+      "engagé",
+      "punchline",
+      "fourmilière"
     ],
     [
-      "clé",
-      "rideau",
-      "manuel",
-      "épaule",
-      "dos",
-      "coeur"
+      "stalactite",
+      "urbain",
+      "température",
+      "flow",
+      "commun",
+      "lessive"
     ],
     [
-      "tunnel",
-      "horloge",
-      "oeil",
-      "tabouret",
-      "nez",
-      "fusée"
+      "scander",
+      "somme",
+      "hip-hop",
+      "rappeur",
+      "pignon",
+      "musique"
     ],
     [
-      "rideau",
-      "tunnel",
-      "manuel",
-      "marteau",
-      "doigt",
-      "peau"
+      "amusant",
+      "jeune",
+      "street",
+      "annuel",
+      "rythme",
+      "canari"
     ],
     [
-      "tunnel",
-      "chemin",
-      "caillou",
-      "langue",
-      "jambe",
-      "pierre"
+      "meunière",
+      "constitutionnelle",
+      "pansement",
+      "beat",
+      "chanter",
+      "free"
     ],
     [
-      "bouche",
-      "coeur",
-      "jardin",
-      "serrure",
-      "table",
-      "bras"
+      "insecte",
+      "constitution",
+      "rapper",
+      "rime",
+      "improviser",
+      "dieu"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     4,
     3,
-    2,
-    2,
-    2,
+    3,
     3
   ],
   "colClues": [
-    2,
     1,
     2,
     3,
     5,
-    3
+    4,
+    2
   ],
-  "themeWord": "corps",
+  "themeWord": "rap",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       false,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true,
       false
     ],
@@ -91,34 +115,10 @@
       false,
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

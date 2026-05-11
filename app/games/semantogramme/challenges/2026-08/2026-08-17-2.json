@@ -5,74 +5,60 @@
   "height": 5,
   "words": [
     [
-      "largeur",
-      "ample",
-      "boulevard",
-      "ippon",
-      "fleuve"
+      "ciseaux",
+      "constitution",
+      "opposition",
+      "maléfice",
+      "compter"
     ],
     [
-      "spacieux",
-      "épaule",
-      "plage",
-      "paysan",
-      "vaste"
+      "parlement",
+      "élection",
+      "pluraliste",
+      "majorité",
+      "détonation"
     ],
     [
-      "comédie",
-      "bol",
-      "étendre",
-      "stocker",
-      "fourmilière"
+      "pédoncule",
+      "gyrer",
+      "république",
+      "démocratique",
+      "populaire"
     ],
     [
-      "étaler",
-      "avenue",
-      "recette",
-      "éventail",
-      "turquoise"
+      "craintif",
+      "poids",
+      "vote",
+      "libre",
+      "citoyen"
     ],
     [
-      "évasé",
-      "horizon",
-      "lancement",
-      "caillé",
-      "généreux"
+      "débattre",
+      "légiférer",
+      "sautiller",
+      "représentative",
+      "géniteur"
     ]
   ],
   "rowClues": [
+    2,
     4,
-    4,
-    1,
+    3,
     3,
     3
   ],
   "colClues": [
-    4,
-    4,
+    2,
     3,
-    1,
-    3
+    4,
+    4,
+    2
   ],
-  "themeWord": "large",
+  "themeWord": "démocratie",
   "solution": [
     [
-      true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false
@@ -80,16 +66,30 @@
     [
       true,
       true,
-      false,
+      true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
     ],
     [
       true,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 15

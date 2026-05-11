@@ -5,76 +5,83 @@
   "height": 5,
   "words": [
     [
-      "talonneur",
-      "descendre",
-      "lune",
-      "couloir",
-      "pèlerin"
+      "fête",
+      "mémoire",
+      "rite",
+      "pavillon",
+      "sanctifier"
     ],
     [
-      "cousin",
-      "concentration",
-      "terme",
-      "coefficient",
-      "basse"
+      "cérémonie",
+      "officier",
+      "rhinocéros",
+      "commémoration",
+      "roucouler"
     ],
     [
-      "lunaire",
-      "bigarade",
-      "rivage",
-      "flux",
-      "haute"
+      "fêter",
+      "sphérique",
+      "éclairage",
+      "tradition",
+      "honorer"
     ],
     [
-      "reflux",
-      "inonder",
-      "tacher",
-      "descendante",
-      "cycle"
+      "nez",
+      "rapidité",
+      "commémorer",
+      "arme",
+      "honneur"
     ],
     [
-      "monter",
-      "province",
-      "savon",
-      "maritime",
-      "estran"
+      "glorifier",
+      "anniversaire",
+      "démocratie",
+      "gloire",
+      "gondolé"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     4,
-    4,
+    3,
+    3,
+    2,
     3
   ],
   "colClues": [
+    4,
     3,
     2,
-    2,
-    4,
-    4
+    3,
+    3
   ],
-  "themeWord": "marée",
+  "themeWord": "célébrer",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
       true,
       true,
       false,
+      true,
       false
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
@@ -82,14 +89,7 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 15

@@ -5,83 +5,75 @@
   "height": 6,
   "words": [
     [
-      "fusée",
-      "fusée",
-      "vélo",
-      "fusée",
-      "pierre",
-      "porte"
+      "prier",
+      "rame",
+      "choeur",
+      "posologie",
+      "musique",
+      "crémeux"
     ],
     [
-      "savon",
-      "tramway",
-      "train",
-      "lueur",
-      "bateau",
-      "porte"
+      "liturgie",
+      "véranda",
+      "gizeh",
+      "sud",
+      "cadet",
+      "gâter"
     ],
     [
-      "voiture",
-      "vélo",
-      "bus",
-      "serrure",
-      "caravane",
-      "tramway"
+      "goéland",
+      "esthétique",
+      "chant",
+      "spatial",
+      "collectif",
+      "spirituel"
     ],
     [
-      "coussin",
-      "voisin",
-      "table",
-      "plateau",
-      "timbre",
-      "navette"
+      "écossais",
+      "chanter",
+      "louer",
+      "sacré",
+      "papillon",
+      "plane"
     ],
     [
-      "fusée",
-      "rumeur",
-      "voiture",
-      "globe",
-      "voiture",
-      "cadre"
+      "rédaction",
+      "éditorial",
+      "hibernation",
+      "extatique",
+      "spiritual",
+      "rave"
     ],
     [
-      "marteau",
-      "pierre",
-      "gomme",
-      "moto",
-      "scooter",
-      "autobus"
+      "cèdre",
+      "église",
+      "pissaladière",
+      "distance",
+      "passionné",
+      "noir"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    5,
-    1,
+    2,
     3,
+    3,
+    2,
     3
   ],
   "colClues": [
-    3,
-    3,
-    4,
     2,
+    2,
+    3,
+    3,
     4,
-    3
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "gospel",
   "solution": [
     [
       true,
-      true,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
@@ -89,7 +81,15 @@
     ],
     [
       true,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true,
@@ -97,18 +97,10 @@
     ],
     [
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
+      true,
+      true,
       true,
       false,
-      true,
-      false,
-      true,
       false
     ],
     [
@@ -116,9 +108,17 @@
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

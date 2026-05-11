@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "héroïsme",
-      "mousseron",
-      "expression",
-      "portrait",
-      "mâchoire"
+      "fervente",
+      "prière",
+      "piété",
+      "croyance",
+      "gaieté"
     ],
     [
-      "figure",
-      "cafetière",
-      "oeil",
-      "législatif",
-      "mine"
+      "girouette",
+      "adorer",
+      "chapelet",
+      "candide",
+      "pin"
     ],
     [
-      "improvisation",
-      "front",
-      "tempe",
-      "occulté",
-      "billet"
+      "voilé",
+      "mystique",
+      "sincère",
+      "beige",
+      "chaise"
     ],
     [
-      "jongleur",
-      "facial",
-      "mayonnaise",
-      "joue",
-      "grimoire"
+      "pieuse",
+      "religion",
+      "trampoline",
+      "pétiller",
+      "tragédie"
     ],
     [
-      "champ",
-      "physionomie",
-      "sagaie",
-      "grimace",
-      "transcrire"
+      "zinc",
+      "violet",
+      "prier",
+      "annulaire",
+      "vénérer"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
+    2,
     2,
     2,
     2
   ],
   "colClues": [
+    2,
+    4,
+    4,
     1,
-    3,
-    3,
-    3,
-    2
+    1
   ],
-  "themeWord": "visage",
+  "themeWord": "dévotion",
   "solution": [
     [
-      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 12

@@ -5,75 +5,83 @@
   "height": 6,
   "words": [
     [
-      "scooter",
-      "timbre",
-      "chaise",
-      "rumeur",
-      "train",
-      "timbre"
+      "agricole",
+      "plâtre",
+      "porter",
+      "logiciel",
+      "tourisme",
+      "transporter"
     ],
     [
-      "vélo",
-      "remorque",
-      "autobus",
-      "étoile",
-      "jardin",
-      "rumeur"
+      "tube",
+      "attelage",
+      "botte",
+      "chagrin",
+      "lourde",
+      "collecter"
     ],
     [
-      "devoir",
-      "avion",
-      "livre",
-      "train",
-      "vélo",
-      "mémoire"
+      "cheval",
+      "bois",
+      "dessinateur",
+      "passion",
+      "rural",
+      "détenir"
     ],
     [
-      "chemin",
-      "règle",
-      "globe",
-      "voiture",
-      "tasse",
-      "train"
+      "amusement",
+      "foin",
+      "paille",
+      "roue",
+      "uppercut",
+      "pommée"
     ],
     [
-      "étagère",
-      "camion",
-      "ferry",
-      "parfum",
-      "voiture",
-      "camion"
+      "plancha",
+      "diagnostic",
+      "tirer",
+      "tracteur",
+      "passoire",
+      "lambin"
     ],
     [
-      "brosse",
-      "savon",
-      "scooter",
-      "remorque",
-      "bus",
-      "taxi"
+      "paysan",
+      "rattraper",
+      "posture",
+      "ancien",
+      "tracter",
+      "rizière"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     3,
     2,
-    4,
-    4
-  ],
-  "colClues": [
+    3,
+    3,
     2,
-    3,
-    3,
-    3,
-    4,
     3
   ],
-  "themeWord": "transport",
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "charrette",
   "solution": [
     [
       true,
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
@@ -82,43 +90,35 @@
     [
       true,
       true,
+      false,
+      false,
       true,
-      false,
-      false,
       false
     ],
     [
       false,
       true,
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       false,
-      true
+      false
     ],
     [
-      false,
       true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
       true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

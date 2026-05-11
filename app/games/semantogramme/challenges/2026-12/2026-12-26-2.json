@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "précieuse",
-      "orient",
-      "larme",
-      "pleur",
-      "douce"
+      "bricolée",
+      "fenêtre",
+      "venin",
+      "embrasser",
+      "planche"
     ],
     [
-      "brailler",
-      "chemin",
-      "foulard",
-      "satin",
-      "robe"
+      "enfant",
+      "loisir",
+      "abriter",
+      "lien",
+      "véloce"
     ],
     [
-      "chute",
-      "mûrier",
-      "pilier",
-      "brillante",
-      "cobalt"
+      "porte",
+      "jardin",
+      "petite",
+      "écouler",
+      "construire"
     ],
     [
-      "asiatique",
-      "filer",
-      "fabriquer",
-      "sifflement",
-      "cocon"
+      "italie",
+      "abaisser",
+      "bois",
+      "cuvée",
+      "refuge"
     ],
     [
-      "couvert",
-      "guerrier",
-      "lisse",
-      "tisser",
-      "ver"
+      "isolée",
+      "forêt",
+      "reporter",
+      "rudimentaire",
+      "rustique"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    2,
-    3,
-    3
-  ],
-  "colClues": [
     2,
     4,
     2,
-    3,
     4
   ],
-  "themeWord": "soie",
+  "colClues": [
+    4,
+    3,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "cabane",
   "solution": [
     [
       true,
@@ -64,23 +64,16 @@
       true
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true,
+      false,
       false
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -88,6 +81,13 @@
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ]

@@ -5,67 +5,60 @@
   "height": 5,
   "words": [
     [
-      "odorat",
-      "humérus",
-      "liturgique",
-      "cola",
-      "rissoler"
+      "prix",
+      "célébrité",
+      "tige",
+      "rhubarbe",
+      "gain"
     ],
     [
-      "arête",
-      "cloison",
-      "écouler",
-      "colombe",
-      "flair"
+      "succès",
+      "smash",
+      "décrocher",
+      "baleine",
+      "duvet"
     ],
     [
-      "mucus",
-      "surdité",
-      "éternuement",
-      "priser",
-      "mulot"
+      "doberman",
+      "obtenir",
+      "triompher",
+      "remporter",
+      "cieux"
     ],
     [
-      "adoration",
-      "sarcophage",
-      "agneau",
-      "éternuer",
-      "mathématique"
+      "champion",
+      "nanterre",
+      "auto-école",
+      "trophée",
+      "crabe"
     ],
     [
-      "sentir",
-      "occulté",
-      "humer",
-      "olfactif",
-      "lancer"
+      "mériter",
+      "carreau",
+      "empocher",
+      "honneur",
+      "texte"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    2,
     3,
-    3,
-    1,
-    3
+    2,
+    2
   ],
   "colClues": [
     4,
     1,
-    2,
     3,
+    2,
     1
   ],
-  "themeWord": "nez",
+  "themeWord": "gagner",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true
@@ -74,11 +67,18 @@
       true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true,
@@ -88,7 +88,7 @@
       true,
       false,
       true,
-      true,
+      false,
       false
     ]
   ],

@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "relever",
-      "curry",
-      "silencieux",
-      "piquant",
-      "rater"
+      "risqué",
+      "rythmé",
+      "émail",
+      "dentier",
+      "pèlerine"
     ],
     [
-      "triangle",
-      "pèlerin",
-      "lessive",
-      "gingembre",
-      "lit"
+      "fil",
+      "mordre",
+      "antenne",
+      "gluant",
+      "carie"
     ],
     [
-      "aromatique",
-      "poivre",
-      "corsé",
-      "filet",
-      "cannelle"
+      "vaste",
+      "incisive",
+      "voter",
+      "gel",
+      "lunette"
     ],
     [
-      "reliure",
-      "couverture",
-      "cendrier",
-      "képi",
-      "safran"
+      "sagesse",
+      "figure",
+      "arroser",
+      "prémolaire",
+      "menu"
     ],
     [
-      "nourriture",
-      "paprika",
-      "cumin",
-      "pimenter",
-      "régner"
+      "mâcher",
+      "silicone",
+      "molaire",
+      "racine",
+      "brosse"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    4,
-    1,
-    3
-  ],
-  "colClues": [
     2,
     3,
+    1,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
     2,
     3,
     2
   ],
-  "themeWord": "épicé",
+  "themeWord": "dent",
   "solution": [
     [
+      false,
+      false,
       true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false
     ],
     [
       true,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       false,
       true
@@ -87,9 +73,23 @@
     [
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 12

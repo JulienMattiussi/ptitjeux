@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "forêt",
-      "baguette",
-      "bavarder",
-      "sang",
-      "heure"
+      "pliage",
+      "manche",
+      "tresse",
+      "travail",
+      "fracturer"
     ],
     [
-      "crotté",
-      "marraine",
-      "sortilège",
-      "aile",
-      "magie"
+      "avaler",
+      "gecko",
+      "brassée",
+      "poignet",
+      "main"
     ],
     [
-      "spectacle",
-      "exaucer",
-      "camembert",
-      "diamant",
-      "tonitruant"
+      "thésée",
+      "cruel",
+      "jazz",
+      "avant-bras",
+      "coude"
     ],
     [
-      "sac",
-      "décoratif",
-      "bateau",
-      "enchanteur",
-      "conte"
+      "tantine",
+      "aînée",
+      "étreindre",
+      "aisselle",
+      "buse"
     ],
     [
-      "poudre",
-      "lumineux",
-      "pénale",
-      "débattre",
-      "paillette"
+      "épaule",
+      "féerique",
+      "biceps",
+      "méditerranée",
+      "triceps"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    1,
+    3,
+    2,
     2,
     3
   ],
   "colClues": [
     2,
-    4,
     1,
-    2,
+    3,
+    3,
     3
   ],
-  "themeWord": "fée",
+  "themeWord": "bras",
   "solution": [
     [
       true,
@@ -65,29 +65,29 @@
     ],
     [
       false,
-      true,
+      false,
       true,
       true,
       true
     ],
     [
       false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
       false,
       false,
+      true,
+      true,
       false
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
+      true,
       false,
       true
     ]

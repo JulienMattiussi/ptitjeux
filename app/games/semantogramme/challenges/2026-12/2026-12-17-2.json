@@ -5,83 +5,83 @@
   "height": 5,
   "words": [
     [
-      "poulain",
-      "mériter",
-      "gomme",
-      "rusé",
-      "souple"
+      "troc",
+      "embaumé",
+      "cabrioler",
+      "tremplin",
+      "élan"
     ],
     [
-      "gant",
-      "cordage",
-      "tendu",
-      "imperméable",
-      "confiture"
+      "rebond",
+      "créneau",
+      "bondir",
+      "réception",
+      "jaillir"
     ],
     [
-      "étirer",
-      "imperméabiliser",
-      "brie",
-      "plantigrade",
-      "attentionné"
+      "trampoline",
+      "perche",
+      "folk",
+      "lésion",
+      "sautiller"
     ],
     [
-      "élastique",
-      "latex",
-      "étanche",
-      "iceberg",
-      "fierté"
+      "corde",
+      "résumé",
+      "roulante",
+      "enjamber",
+      "migration"
     ],
     [
-      "botte",
-      "soliste",
-      "arbre",
-      "synthétique",
-      "résistant"
+      "saut",
+      "turquoise",
+      "pirouette",
+      "gambader",
+      "moelle"
     ]
   ],
   "rowClues": [
-    2,
+    3,
+    3,
     3,
     2,
-    3,
-    4
+    3
   ],
   "colClues": [
     4,
-    2,
-    4,
-    2,
-    2
+    1,
+    3,
+    3,
+    3
   ],
-  "themeWord": "caoutchouc",
+  "themeWord": "sauter",
   "solution": [
     [
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      false,
       false
     ],
     [
@@ -89,7 +89,7 @@
       false,
       true,
       true,
-      true
+      false
     ]
   ],
   "parMoves": 14

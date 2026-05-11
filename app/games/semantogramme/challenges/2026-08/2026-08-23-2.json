@@ -5,68 +5,61 @@
   "height": 5,
   "words": [
     [
-      "satin",
-      "poumon",
-      "oeuf",
-      "américain",
-      "casser"
+      "samedi",
+      "cuvée",
+      "plat",
+      "velours",
+      "lustrer"
     ],
     [
-      "porcelaine",
-      "glissade",
-      "dérailleur",
-      "délicat",
-      "précaire"
+      "parquet",
+      "lisser",
+      "multiple",
+      "cher",
+      "maléfique"
     ],
     [
-      "coquille",
-      "fendiller",
-      "personnage",
-      "bulle",
-      "ère"
+      "plastique",
+      "eucalyptus",
+      "marbre",
+      "uni",
+      "oscillation"
     ],
     [
-      "briser",
-      "berger",
-      "pétale",
+      "orchestre",
       "verre",
-      "instable"
+      "miroir",
+      "plan",
+      "porcelaine"
     ],
     [
-      "épidermique",
-      "papier",
-      "essai",
-      "glace",
-      "frêle"
+      "ministre",
+      "cendre",
+      "satin",
+      "polir",
+      "glisser"
     ]
   ],
   "rowClues": [
-    2,
     3,
+    2,
     3,
     4,
     3
   ],
   "colClues": [
-    3,
     2,
     2,
     4,
-    4
+    4,
+    3
   ],
-  "themeWord": "fragile",
+  "themeWord": "lisse",
   "solution": [
     [
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ],
@@ -74,7 +67,7 @@
       true,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
@@ -82,12 +75,19 @@
       false,
       true,
       true,
-      true
+      false
     ],
     [
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
       false,
+      false,
+      true,
       true,
       true
     ]

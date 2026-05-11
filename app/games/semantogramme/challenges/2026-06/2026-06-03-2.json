@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "malpropre",
-      "fan",
-      "ventricule",
-      "salir",
-      "prisme"
+      "cristal",
+      "maman",
+      "ampoule",
+      "verre",
+      "vieillard"
     ],
     [
-      "graisse",
-      "maculer",
-      "crasse",
-      "scintiller",
-      "scénario"
+      "pétale",
+      "valise",
+      "casser",
+      "papier",
+      "fendiller"
     ],
     [
-      "détritus",
-      "muscler",
-      "crotté",
-      "souillure",
-      "salissure"
+      "consoler",
+      "délicat",
+      "bulle",
+      "cassant",
+      "glace"
     ],
     [
-      "ceinture",
-      "lisser",
-      "tacher",
-      "souiller",
-      "dégoûtant"
+      "pulsatile",
+      "satin",
+      "instable",
+      "porcelaine",
+      "coquille"
     ],
     [
-      "aérosol",
-      "ordure",
-      "mur",
-      "poussière",
-      "boue"
+      "sanguin",
+      "briser",
+      "précaire",
+      "mandat",
+      "médaillon"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    4,
     4,
     3,
-    3
+    2
   ],
   "colClues": [
-    3,
     2,
-    3,
+    2,
+    4,
     4,
     3
   ],
-  "themeWord": "sale",
+  "themeWord": "fragile",
   "solution": [
     [
       true,
@@ -65,31 +65,31 @@
     ],
     [
       true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 15

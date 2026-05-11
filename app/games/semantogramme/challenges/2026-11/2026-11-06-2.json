@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "portrait",
-      "glacial",
-      "infernal",
-      "rapide",
-      "fondation"
+      "croûte",
+      "onde",
+      "flocon",
+      "apaiser",
+      "piña"
     ],
     [
-      "tremplin",
-      "ferveur",
-      "levant",
-      "casque",
-      "audacieux"
+      "conduire",
+      "caresse",
+      "duvet",
+      "étamine",
+      "velouté"
     ],
     [
-      "glace",
-      "souillure",
-      "transylvanie",
-      "but",
-      "collectif"
+      "caresser",
+      "priver",
+      "agneau",
+      "tendre",
+      "profond"
     ],
     [
-      "ring",
-      "patins",
-      "piste",
-      "médaille",
-      "paternel"
+      "bijoutier",
+      "moelleux",
+      "soyeux",
+      "satin",
+      "résistance"
     ],
     [
-      "olympique",
-      "pinson",
-      "sincère",
-      "canadien",
-      "patiner"
+      "ébranlement",
+      "lapin",
+      "mélodie",
+      "pétale",
+      "autruche"
     ]
   ],
   "rowClues": [
-    2,
     1,
     3,
-    2,
-    3
+    3,
+    3,
+    1
   ],
   "colClues": [
-    2,
-    2,
     1,
+    2,
+    3,
     4,
-    2
+    1
   ],
-  "themeWord": "hockey",
+  "themeWord": "doux",
   "solution": [
     [
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
       false
     ],
     [
-      true,
-      false,
       false,
       true,
+      true,
+      false,
       true
     ],
     [
+      true,
       false,
       true,
       true,
-      false,
       false
     ],
     [
-      true,
-      false,
       false,
       true,
-      true
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 11

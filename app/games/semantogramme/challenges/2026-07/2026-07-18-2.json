@@ -5,58 +5,72 @@
   "height": 5,
   "words": [
     [
-      "muscade",
-      "cartonnage",
-      "plier",
-      "genou",
-      "brique"
+      "avocat",
+      "décret",
+      "civile",
+      "parlement",
+      "ovale"
     ],
     [
-      "cheville",
-      "sauter",
-      "alvéole",
-      "médaille",
-      "patte"
+      "républicaine",
+      "macaque",
+      "narrateur",
+      "constitutionnelle",
+      "pénale"
     ],
     [
-      "mollet",
-      "pied",
-      "fessier",
-      "barque",
-      "fémur"
+      "annulaire",
+      "prolonger",
+      "appliquer",
+      "règlement",
+      "poltron"
     ],
     [
-      "galaxie",
-      "char",
-      "tibia",
-      "volant",
-      "enjambée"
+      "article",
+      "embout",
+      "absorbant",
+      "justice",
+      "voter"
     ],
     [
-      "courir",
-      "pluton",
-      "gambade",
-      "gambette",
-      "tari"
+      "tribunal",
+      "orgueil",
+      "fillette",
+      "mythologie",
+      "légale"
     ]
   ],
   "rowClues": [
+    4,
+    3,
     2,
     3,
-    4,
-    2,
-    3
+    2
   ],
   "colClues": [
-    3,
+    4,
+    1,
     2,
     4,
-    2,
     3
   ],
-  "themeWord": "jambe",
+  "themeWord": "loi",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       false,
       true,
@@ -65,31 +79,17 @@
     ],
     [
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
       true,
-      false,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 14

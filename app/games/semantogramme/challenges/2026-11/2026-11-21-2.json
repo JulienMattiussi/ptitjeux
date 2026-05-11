@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "mur",
-      "spontané",
-      "rougeoyante",
-      "soupe",
-      "pulvériser"
+      "oxydable",
+      "mat",
+      "voilier",
+      "forger",
+      "malléable"
     ],
     [
-      "rue",
-      "peindre",
-      "aérosol",
-      "prière",
-      "illégal"
+      "rafale",
+      "monnaie",
+      "arthrose",
+      "oxyder",
+      "portée"
     ],
     [
-      "militaire",
-      "tag",
-      "sketch",
-      "rebelle",
-      "rond"
+      "écorce",
+      "sentir",
+      "vert-de-gris",
+      "orthogonal",
+      "enduire"
     ],
     [
-      "poulain",
-      "implorer",
-      "taguer",
-      "art",
-      "ciment"
+      "rouge",
+      "conduire",
+      "hamster",
+      "parasol",
+      "cible"
     ],
     [
-      "plongeoir",
-      "garage",
-      "bombe",
-      "dessin",
-      "aube"
+      "métallique",
+      "casserole",
+      "fil",
+      "office",
+      "métal"
     ]
   ],
   "rowClues": [
     3,
-    4,
     2,
+    1,
     2,
-    1
+    4
   ],
   "colClues": [
+    3,
+    3,
     2,
-    3,
-    3,
     2,
     2
   ],
-  "themeWord": "graffiti",
+  "themeWord": "cuivre",
   "solution": [
     [
       true,
-      true,
       false,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
       true
     ],
     [
@@ -81,15 +74,22 @@
       false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
+      false,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 12

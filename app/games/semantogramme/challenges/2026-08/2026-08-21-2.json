@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "continent",
-      "double",
-      "amplifier",
-      "cathédrale",
-      "gratte-ciel"
+      "vision",
+      "cornée",
+      "sanctionner",
+      "spyware",
+      "regard"
     ],
     [
-      "fanon",
-      "gigantesque",
-      "aurore",
-      "démesuré",
-      "creux"
+      "observation",
+      "cil",
+      "monocle",
+      "téléphérique",
+      "élégant"
     ],
     [
-      "lier",
-      "bambin",
-      "colosse",
-      "gloire",
-      "antalgique"
+      "vue",
+      "creuse",
+      "causer",
+      "éloigné",
+      "oculaire"
     ],
     [
-      "désert",
-      "mesurer",
-      "agrandir",
-      "galaxie",
-      "colossal"
+      "cirrhose",
+      "larme",
+      "invectiver",
+      "rétine",
+      "matin"
     ],
     [
-      "hublot",
-      "hamster",
-      "minaret",
-      "titanesque",
-      "abondance"
+      "paupière",
+      "inaltérable",
+      "tourelle",
+      "concentrer",
+      "aveugle"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    1,
-    4,
-    1
-  ],
-  "colClues": [
-    2,
-    1,
     3,
-    4,
+    3,
+    2,
+    2,
     2
   ],
-  "themeWord": "immense",
+  "colClues": [
+    4,
+    3,
+    1,
+    1,
+    3
+  ],
+  "themeWord": "oeil",
   "solution": [
     [
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -71,25 +85,11 @@
       false
     ],
     [
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 12

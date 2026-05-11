@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "oeuvre",
-      "invention",
-      "artiste",
-      "innover",
-      "nova"
+      "natation",
+      "assise",
+      "rafraîchissant",
+      "effrayer",
+      "municipale"
     ],
     [
-      "pétiole",
-      "fabriquer",
-      "tortue",
-      "projet",
-      "imaginer"
+      "maillot",
+      "large",
+      "tresse",
+      "mobile",
+      "plongeoir"
     ],
     [
-      "créativité",
-      "stellaire",
-      "création",
-      "idée",
-      "bonbon"
+      "bloc",
+      "olympique",
+      "bain",
+      "transat",
+      "bassin"
     ],
     [
-      "concevoir",
-      "imagination",
-      "effleurer",
-      "créateur",
-      "prière"
+      "gonflable",
+      "chlore",
+      "eau",
+      "moule",
+      "optique"
     ],
     [
-      "lier",
-      "caramel",
-      "composer",
-      "escarpin",
-      "engendrer"
+      "fulgurant",
+      "barboter",
+      "longueur",
+      "plonger",
+      "charger"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     4,
     3,
-    3,
-    3,
-    2
+    3
   ],
   "colClues": [
     3,
     3,
-    3,
     4,
-    2
+    2,
+    3
   ],
-  "themeWord": "créer",
+  "themeWord": "piscine",
   "solution": [
     [
       true,
+      false,
       true,
+      false,
+      true
+    ],
+    [
       true,
-      true,
-      false
+      false,
+      false,
+      false,
+      true
     ],
     [
       false,
       true,
-      false,
+      true,
       true,
       true
     ],
     [
       true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       true,
       false,
-      true,
       false
     ],
     [
       false,
-      false,
       true,
-      false,
-      true
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 15

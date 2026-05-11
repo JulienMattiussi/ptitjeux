@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "digérer",
-      "pianissimo",
-      "satiété",
-      "brûlure",
-      "stomacal"
+      "faiblesse",
+      "braisière",
+      "monter",
+      "océan",
+      "solide"
     ],
     [
-      "digestion",
-      "juvénile",
-      "tresse",
-      "ulcère",
-      "appétit"
+      "grue",
+      "carquois",
+      "paraître",
+      "maçon",
+      "maçonnerie"
     ],
     [
-      "aigreur",
-      "reporter",
-      "comptoir",
-      "tremper",
-      "macaron"
+      "échafaudage",
+      "gouda",
+      "trébucher",
+      "fondation",
+      "après-midi"
     ],
     [
-      "stout",
-      "tripe",
-      "crocs",
-      "lumineux",
-      "menu"
+      "sautoir",
+      "bâtir",
+      "pédagogie",
+      "chantier",
+      "cocotte"
     ],
     [
-      "gastrique",
-      "régurgiter",
-      "sourire",
-      "vinaigrette",
-      "montrer"
+      "montante",
+      "vendange",
+      "élever",
+      "ériger",
+      "plan"
     ]
   ],
   "rowClues": [
-    4,
+    1,
     3,
-    1,
-    1,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
-    4,
     2,
     1,
     2,
+    4,
     2
   ],
-  "themeWord": "estomac",
+  "themeWord": "construire",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true
     ],
@@ -68,28 +75,21 @@
       false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 11

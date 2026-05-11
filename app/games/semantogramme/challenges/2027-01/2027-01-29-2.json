@@ -5,69 +5,83 @@
   "height": 5,
   "words": [
     [
-      "tige",
+      "grill",
+      "côtelette",
+      "turbine",
+      "fumer",
+      "cuire"
+    ],
+    [
       "quadrilatère",
-      "truite",
-      "nid",
-      "hémoglobine"
+      "calendrier",
+      "braise",
+      "gril",
+      "verdure"
     ],
     [
-      "souple",
-      "se ramifier",
-      "arbre",
-      "crochet",
-      "cime"
+      "feu",
+      "milieu",
+      "plancha",
+      "barbecue",
+      "épuisant"
     ],
     [
-      "fourche",
-      "feuillue",
-      "tartine",
-      "bière",
-      "pousser"
+      "saisir",
+      "saucisse",
+      "gant",
+      "carboniser",
+      "flamber"
     ],
     [
-      "basse",
-      "rameau",
-      "tronc",
-      "pneumonie",
-      "bourgeon"
-    ],
-    [
-      "haute",
-      "voûter",
-      "noueuse",
-      "feuille",
-      "se chamailler"
+      "rôtir",
+      "charbonner",
+      "lourdeur",
+      "swing",
+      "déraper"
     ]
   ],
   "rowClues": [
-    1,
     4,
+    2,
     3,
     4,
-    3
+    2
   ],
   "colClues": [
     4,
     3,
-    3,
     2,
-    3
+    4,
+    2
   ],
-  "themeWord": "branche",
+  "themeWord": "griller",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
     [
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      true,
       true,
       false
     ],
     [
       true,
       true,
-      true,
       false,
+      true,
       true
     ],
     [
@@ -75,20 +89,6 @@
       true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       false
     ]
   ],

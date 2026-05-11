@@ -5,114 +5,114 @@
   "height": 6,
   "words": [
     [
-      "recette",
-      "plat",
-      "tablier",
-      "four",
-      "savon",
-      "panneau"
+      "ruban",
+      "orage",
+      "époque",
+      "glu",
+      "agglutiner",
+      "goudron"
     ],
     [
-      "assiette",
-      "tabouret",
-      "évier",
-      "plat",
-      "poêle",
-      "fourchette"
+      "fixer",
+      "sage",
+      "roseau",
+      "royale",
+      "croquante",
+      "coller"
     ],
     [
-      "jardin",
-      "fourchette",
-      "rideau",
-      "étoile",
-      "frigo",
-      "pétale"
+      "émancipation",
+      "gluant",
+      "tee",
+      "attacher",
+      "bock",
+      "dessin"
     ],
     [
-      "spatule",
-      "épice",
-      "tablier",
-      "tablier",
-      "fourchette",
-      "panneau"
+      "aisselle",
+      "crasse",
+      "gomme",
+      "colle",
+      "cire",
+      "cd"
     ],
     [
-      "casserole",
-      "tapis",
-      "frigo",
-      "plafond",
-      "poêle",
-      "verre"
+      "soufflet",
+      "résine",
+      "sceller",
+      "fauteuil",
+      "poisseux",
+      "miel"
     ],
     [
-      "assiette",
-      "casserole",
-      "panneau",
-      "évier",
-      "casserole",
-      "prison"
+      "fraîcheur",
+      "adhérer",
+      "acidifier",
+      "visqueux",
+      "mélasse",
+      "auteur"
     ]
   ],
   "rowClues": [
     4,
-    5,
     2,
-    5,
+    2,
+    3,
     4,
-    4
+    3
   ],
   "colClues": [
-    5,
+    2,
+    3,
+    2,
     4,
     4,
-    4,
-    5,
-    2
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "collant",
   "solution": [
     [
       true,
-      true,
-      true,
-      true,
       false,
-      false
+      false,
+      true,
+      true,
+      true
     ],
     [
       true,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
+      true,
       true,
       false,
       true,
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       true,
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 24
+  "parMoves": 18
 }

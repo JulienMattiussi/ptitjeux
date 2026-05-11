@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "artistique",
-      "argile",
-      "minou",
-      "pétrir",
-      "danger"
+      "cirque",
+      "difficile",
+      "membrane",
+      "circassien",
+      "équilibre"
     ],
     [
-      "ébauchoir",
-      "agripper",
-      "astiquer",
-      "colombin",
-      "façonner"
+      "jongler",
+      "triompher",
+      "spectaculaire",
+      "génome",
+      "jongleur"
     ],
     [
-      "modeler",
-      "figurine",
-      "enchanteur",
-      "tag",
-      "théorie"
+      "lancer",
+      "incisive",
+      "rattraper",
+      "assaisonner",
+      "figure"
     ],
     [
-      "comédie",
-      "sculpteur",
-      "tour",
-      "glaise",
-      "créatif"
+      "camion",
+      "précis",
+      "spectacle",
+      "massue",
+      "attente"
     ],
     [
-      "tridimensionnel",
-      "manuel",
-      "pâte",
-      "immaculé",
-      "pétrole"
+      "banquise",
+      "lenteur",
+      "précision",
+      "plume",
+      "balle"
     ]
   ],
   "rowClues": [
+    4,
     3,
     3,
-    2,
-    4,
-    3
-  ],
-  "colClues": [
-    4,
-    4,
-    2,
     3,
     2
   ],
-  "themeWord": "modelage",
+  "colClues": [
+    3,
+    2,
+    4,
+    2,
+    4
+  ],
+  "themeWord": "jonglage",
   "solution": [
     [
       true,
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       true
     ],
     [
       true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      true,
+      false,
       true
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 15

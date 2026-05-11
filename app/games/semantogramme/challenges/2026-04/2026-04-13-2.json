@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "éploré",
-      "pleurnicher",
-      "larmoyer",
-      "piscine",
-      "peine"
+      "mériter",
+      "géranium",
+      "tondre",
+      "taquiner",
+      "vénérer"
     ],
     [
-      "angle",
-      "plier",
-      "sangloter",
-      "chagrin",
-      "aiglon"
+      "tricoter",
+      "contagieux",
+      "traversin",
+      "pull",
+      "moutarde"
     ],
     [
-      "coiffer",
-      "battre",
-      "tristesse",
-      "larme",
-      "choir"
+      "tricot",
+      "sacre",
+      "mérinos",
+      "filer",
+      "mouton"
     ],
     [
-      "poudre",
-      "dompteur",
-      "corner",
-      "gémissement",
-      "consolation"
+      "assimiler",
+      "amphi",
+      "écharpe",
+      "douce",
+      "cardiaque"
     ],
     [
-      "ver",
-      "douleur",
-      "exotique",
-      "gémir",
-      "lamentation"
+      "pic",
+      "pelote",
+      "frisée",
+      "chaussette",
+      "isolante"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
     1,
     2,
-    3,
     4,
-    3
+    2,
+    4
   ],
-  "themeWord": "pleurer",
+  "colClues": [
+    2,
+    1,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "laine",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ],
     [
@@ -72,22 +86,8 @@
     ],
     [
       false,
-      false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       true
     ]

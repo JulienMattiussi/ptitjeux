@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "arc-en-ciel",
-      "éclair",
-      "glace",
-      "tempête",
-      "vent",
-      "prière"
+      "arroser",
+      "élagueur",
+      "aviron",
+      "vaccin",
+      "mèche",
+      "lecture"
     ],
     [
-      "éclair",
-      "gel",
-      "peigne",
-      "crayon",
-      "carnet",
-      "agenda"
+      "aviaire",
+      "cheval",
+      "fièvre",
+      "montante",
+      "gnome",
+      "mort"
     ],
     [
-      "plafond",
-      "nuage",
-      "foudre",
-      "balai",
-      "marteau",
-      "orage"
+      "majestueux",
+      "tisonnier",
+      "frisson",
+      "porcine",
+      "laine",
+      "soigner"
     ],
     [
-      "étagère",
-      "savon",
-      "livre",
-      "carnet",
-      "brosse",
-      "neige"
+      "médecine",
+      "alité",
+      "fatigue",
+      "placebo",
+      "attraper",
+      "jongleur"
     ],
     [
-      "verglas",
-      "pelle",
-      "brouillard",
-      "table",
-      "lampe",
-      "ombre"
+      "maux",
+      "moka",
+      "contagieuse",
+      "virus",
+      "crawl",
+      "digital"
     ],
     [
-      "ombre",
-      "mur",
-      "neige",
-      "gel",
-      "éclair",
-      "carnet"
+      "pandémie",
+      "rhume",
+      "saisonnière",
+      "courbature",
+      "épidémie",
+      "hôtel"
     ]
   ],
   "rowClues": [
-    5,
-    2,
-    3,
     1,
     2,
-    3
+    3,
+    3,
+    3,
+    5
   ],
   "colClues": [
     3,
-    3,
+    2,
+    5,
     4,
     2,
-    2,
-    2
+    1
   ],
-  "themeWord": "météo",
+  "themeWord": "grippe",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       false,
       false
     ],
     [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
-      false,
       false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
       false,
       true,
-      false,
+      true,
       false,
       false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

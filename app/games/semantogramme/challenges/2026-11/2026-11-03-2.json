@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "noble",
-      "pureté",
-      "fleuret",
-      "parer",
-      "jouer"
+      "sacoche",
+      "violette",
+      "glycine",
+      "boucan",
+      "tannerie"
     ],
     [
-      "bâiller",
-      "précis",
-      "éden",
-      "masque",
-      "sportif"
+      "coquillage",
+      "laitue",
+      "barbu",
+      "couteau",
+      "magenta"
     ],
     [
-      "piment",
-      "touche",
-      "esquiver",
-      "jais",
-      "tirer"
+      "pédoncule",
+      "cassis",
+      "aiguiser",
+      "lilas",
+      "industrialiser"
     ],
     [
-      "tragédie",
-      "paroi",
-      "sapin",
-      "chaudron",
-      "duel"
+      "parme",
+      "pourpre",
+      "amethyste",
+      "poirier",
+      "crocus"
     ],
     [
-      "olympique",
-      "tireur",
-      "gratter",
-      "plastron",
-      "farceur"
+      "groseille",
+      "évêque",
+      "mûre",
+      "iris",
+      "aubergine"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
+    2,
     1,
-    3
+    2,
+    4,
+    4
   ],
   "colClues": [
-    2,
+    1,
+    4,
     3,
     2,
-    3,
     3
   ],
-  "themeWord": "escrime",
+  "themeWord": "violet",
   "solution": [
     [
-      true,
       false,
       true,
       true,
+      false,
       false
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       false,
       false,
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 13

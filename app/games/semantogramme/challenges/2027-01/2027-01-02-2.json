@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "majorité",
-      "démocratique",
-      "garçon",
-      "puéril",
-      "tortueux"
+      "wagon",
+      "caresse",
+      "idolâtrer",
+      "poireau",
+      "amitié"
     ],
     [
-      "olive",
-      "défenseur",
-      "élection",
-      "citoyen",
-      "tricoter"
+      "plein-air",
+      "abîme",
+      "auriculaire",
+      "romance",
+      "amour"
     ],
     [
-      "républicain",
-      "minorité",
-      "mélanger",
-      "humérus",
-      "libre"
+      "enseigne",
+      "cible",
+      "chérir",
+      "étreindre",
+      "coeur"
     ],
     [
-      "secret",
-      "brochet",
-      "voter",
-      "abstention",
-      "dépouiller"
+      "baiser",
+      "affection",
+      "embrasser",
+      "frigorifique",
+      "adorer"
     ],
     [
-      "urne",
-      "élire",
-      "universel",
-      "scrutin",
-      "lessive"
+      "apprécier",
+      "affectionner",
+      "safran",
+      "amoureux",
+      "prison"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     3,
     4,
-    4
+    3
   ],
   "colClues": [
-    4,
+    2,
     3,
     3,
     3,
-    2
+    4
   ],
-  "themeWord": "vote",
+  "themeWord": "aimer",
   "solution": [
     [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -88,6 +81,13 @@
       true,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ]

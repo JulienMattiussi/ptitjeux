@@ -5,93 +5,85 @@
   "height": 6,
   "words": [
     [
-      "pêche",
-      "melon",
-      "cassis",
-      "serrure",
-      "bureau",
-      "brosse"
+      "paume",
+      "délicat",
+      "verdâtre",
+      "adoucir",
+      "ventoline",
+      "gambader"
     ],
     [
-      "savon",
-      "savon",
-      "mûre",
-      "framboise",
-      "crayon",
-      "fusée"
+      "ère",
+      "taper",
+      "choc",
+      "bomber",
+      "gourmade",
+      "caldeira"
     ],
     [
-      "ciseaux",
-      "citron",
-      "mûre",
-      "cassis",
-      "kiwi",
-      "pince"
+      "goutte",
+      "battre",
+      "kidnapper",
+      "hip-hop",
+      "urine",
+      "fraction"
     ],
     [
-      "balai",
-      "melon",
-      "cadre",
-      "panier",
-      "miroir",
-      "racine"
+      "dessinateur",
+      "pectorale",
+      "rosser",
+      "baffe",
+      "matraquer",
+      "tabasser"
     ],
     [
-      "figue",
-      "lampe",
-      "rumeur",
-      "melon",
-      "tasse",
-      "raisin"
+      "cogner",
+      "bourrade",
+      "poche",
+      "attentif",
+      "gondole",
+      "heurter"
     ],
     [
-      "raisin",
-      "citron",
-      "plateau",
-      "orange",
-      "figue",
-      "framboise"
+      "taquiner",
+      "assommer",
+      "rocheux",
+      "jambon",
+      "ravissement",
+      "impact"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    4,
     1,
     3,
-    5
-  ],
-  "colClues": [
-    3,
+    1,
     4,
     3,
-    4,
-    2,
     2
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    2,
+    4,
+    2,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "frapper",
   "solution": [
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false,
       false,
       false
     ],
     [
       false,
-      false,
       true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true,
       false
     ],
@@ -104,21 +96,29 @@
       false
     ],
     [
-      true,
       false,
       false,
       true,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
-      true,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

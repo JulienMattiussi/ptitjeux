@@ -5,83 +5,83 @@
   "height": 6,
   "words": [
     [
-      "prière",
-      "enveloppe",
-      "miroir",
-      "rumeur",
-      "prison",
-      "poêle"
+      "persistante",
+      "pastille",
+      "astronomique",
+      "irritante",
+      "bronchite",
+      "sirop"
     ],
     [
-      "fourchette",
-      "globe",
-      "couteau",
-      "pince",
-      "règle",
-      "lampe"
+      "bouillon",
+      "poumon",
+      "sec",
+      "indolent",
+      "auteur",
+      "sureau"
     ],
     [
-      "chaise",
-      "poêle",
-      "carnet",
-      "couteau",
-      "plateau",
-      "poêle"
+      "célébrer",
+      "spasmodique",
+      "tousser",
+      "gorge",
+      "bois",
+      "féerique"
     ],
     [
-      "couteau",
-      "tablier",
-      "tablier",
-      "fourchette",
-      "panier",
-      "spatule"
+      "expectorer",
+      "puissant",
+      "immortaliser",
+      "panache",
+      "rhume",
+      "glisser"
     ],
     [
-      "épice",
-      "fourchette",
-      "assiette",
-      "tabouret",
-      "tapis",
-      "chaise"
+      "feutré",
+      "cracher",
+      "tracteur",
+      "égyptien",
+      "noueuse",
+      "gras"
     ],
     [
-      "évier",
-      "chaise",
-      "savon",
-      "tabouret",
-      "casserole",
-      "frigo"
+      "finesse",
+      "cueilli",
+      "allergie",
+      "asthme",
+      "nocturne",
+      "mouchoir"
     ]
   ],
   "rowClues": [
-    1,
+    5,
     2,
     3,
-    5,
-    3,
-    3
+    2,
+    2,
+    4
   ],
   "colClues": [
+    2,
     4,
     3,
     3,
-    2,
-    1,
-    4
+    3,
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "toux",
   "solution": [
     [
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
-      true,
       false,
+      true,
       true,
       false,
       false,
@@ -90,24 +90,8 @@
     [
       false,
       true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       false,
       false
     ],
@@ -116,9 +100,25 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "globe",
-      "sol",
-      "plafond",
-      "tigre",
-      "fusée",
-      "serrure"
+      "requête",
+      "rembourré",
+      "hébergement",
+      "centralisé",
+      "autel",
+      "swing"
     ],
     [
-      "chien",
-      "banquier",
-      "porte",
-      "souris",
-      "fusée",
-      "renard"
+      "rude",
+      "serpillière",
+      "sql",
+      "usage",
+      "maître",
+      "connecté"
     ],
     [
-      "panda",
-      "livre",
-      "girafe",
-      "girafe",
-      "castor",
-      "timbre"
+      "révision",
+      "application",
+      "malfaisante",
+      "récréation",
+      "stocker",
+      "farniente"
     ],
     [
-      "peigne",
-      "castor",
-      "sol",
-      "zèbre",
-      "écureuil",
-      "koala"
+      "baie",
+      "site",
+      "cloud",
+      "puissant",
+      "brochet",
+      "haricot"
     ],
     [
-      "chat",
-      "coussin",
-      "cadre",
-      "fusée",
-      "agenda",
-      "manuel"
+      "ordinateur",
+      "cheveu",
+      "mémoire",
+      "pulpe",
+      "datacenter",
+      "guider"
     ],
     [
-      "ombre",
-      "castor",
-      "lynx",
-      "timbre",
-      "girafe",
-      "peigne"
+      "lambiner",
+      "maraîcher",
+      "héberger",
+      "assurer",
+      "router",
+      "tzatziki"
     ]
   ],
   "rowClues": [
-    1,
     3,
+    2,
+    2,
     4,
-    4,
-    1,
-    3
+    2,
+    2
   ],
   "colClues": [
     3,
     2,
-    2,
     4,
+    2,
     3,
-    2
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "serveur",
   "solution": [
     [
+      true,
       false,
-      false,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
-      true,
       false,
       false,
       true,
+      false,
       false,
       true
     ],
     [
-      true,
       false,
       true,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
       false,
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

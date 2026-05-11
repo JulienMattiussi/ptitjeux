@@ -5,67 +5,67 @@
   "height": 5,
   "words": [
     [
-      "aigu",
-      "isoloir",
-      "pur",
-      "saturne",
-      "paix"
+      "solution",
+      "tronc",
+      "pivotante",
+      "vessie",
+      "dromadaire"
     ],
     [
-      "hibernation",
-      "pulmonaire",
-      "feutré",
-      "sérénité",
-      "chaton"
+      "nourriture",
+      "fibreuse",
+      "fibre",
+      "ancrer",
+      "essuyer"
     ],
     [
-      "tu",
-      "frêle",
-      "muet",
-      "taire",
-      "monastère"
+      "enraciner",
+      "rêver",
+      "puiser",
+      "volet",
+      "sol"
     ],
     [
-      "altruiste",
-      "calme",
-      "étape",
-      "allégresse",
-      "feutre"
+      "radicelle",
+      "espoir",
+      "maillot",
+      "pétiole",
+      "souterraine"
     ],
     [
-      "tacite",
-      "garder",
-      "cimetière",
-      "chuchoter",
-      "fleuret"
+      "loi",
+      "dune",
+      "dos",
+      "rangée",
+      "terre"
     ]
   ],
   "rowClues": [
-    1,
     2,
     4,
+    3,
     2,
-    3
+    1
   ],
   "colClues": [
+    3,
     2,
+    3,
     1,
-    3,
-    3,
     3
   ],
-  "themeWord": "silencieux",
+  "themeWord": "racine",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       false
@@ -74,22 +74,22 @@
       true,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 12

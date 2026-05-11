@@ -5,99 +5,107 @@
   "height": 6,
   "words": [
     [
-      "parfum",
-      "carnet",
-      "chaise",
-      "taxi",
-      "camion",
-      "tapis"
+      "volte",
+      "mammifère",
+      "vampire",
+      "crépusculaire",
+      "nuit",
+      "analyse"
     ],
     [
-      "étoile",
-      "écran",
-      "métro",
-      "sol",
-      "prison",
-      "bus"
+      "manuelle",
+      "fruit",
+      "fart",
+      "arrondie",
+      "évider",
+      "ré"
     ],
     [
-      "ferry",
-      "balai",
-      "écran",
-      "caravane",
-      "prison",
-      "manuel"
+      "mystérieuse",
+      "verdoyant",
+      "insecte",
+      "caverne",
+      "grimoire",
+      "sombre"
     ],
     [
-      "remorque",
-      "mémoire",
-      "maison",
-      "pétale",
-      "crayon",
-      "caravane"
+      "sortir",
+      "membrane",
+      "voler",
+      "estomac",
+      "piquet",
+      "capter"
     ],
     [
-      "carnet",
-      "crayon",
-      "chemin",
-      "caravane",
-      "ferry",
-      "métro"
+      "cuire",
+      "soutien-gorge",
+      "cerise",
+      "sternum",
+      "glaise",
+      "aile"
     ],
     [
-      "avion",
-      "vélo",
-      "voiture",
-      "caravane",
-      "crayon",
-      "bateau"
+      "croisière",
+      "écholocation",
+      "grotte",
+      "carapace",
+      "pendre",
+      "cheville"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    2,
-    3,
-    5
-  ],
-  "colClues": [
+    4,
+    1,
+    4,
     3,
     1,
+    3
+  ],
+  "colClues": [
     2,
     4,
+    4,
     2,
-    4
+    2,
+    2
   ],
-  "themeWord": "transport",
+  "themeWord": "chauve-souris",
   "solution": [
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       false
     ],
     [
       false,
-      false,
       true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false,
       false
     ],
     [
       true,
       false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       false,
@@ -105,19 +113,11 @@
     ],
     [
       false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 16

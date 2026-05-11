@@ -5,76 +5,84 @@
   "height": 6,
   "words": [
     [
-      "pomme",
-      "prison",
-      "kiwi",
-      "orange",
-      "prune",
-      "règle"
+      "mégapixel",
+      "rocheuse",
+      "parental",
+      "agrandir",
+      "chanteur",
+      "rouge"
     ],
     [
-      "cadre",
-      "marteau",
-      "crayon",
-      "pomme",
-      "crayon",
-      "cadre"
+      "afficher",
+      "numérique",
+      "sécurité",
+      "image",
+      "colorer",
+      "viande"
     ],
     [
-      "tunnel",
-      "figue",
-      "peigne",
-      "prière",
-      "horloge",
-      "étagère"
+      "écouvillon",
+      "trésor",
+      "rénal",
+      "blesser",
+      "rgb",
+      "majeur"
     ],
     [
-      "cerise",
-      "tabouret",
-      "cerise",
-      "raisin",
-      "poire",
-      "cerise"
+      "buse",
+      "cellule",
+      "graphisme",
+      "braisière",
+      "lumineux",
+      "fauve"
     ],
     [
-      "globe",
-      "prune",
-      "plateau",
-      "banane",
-      "pastèque",
-      "mûre"
+      "juteux",
+      "imbiber",
+      "bleu",
+      "saule",
+      "maudit",
+      "résolution"
     ],
     [
-      "fraise",
-      "pastèque",
-      "pastèque",
-      "ananas",
-      "chaise",
-      "orange"
+      "infecter",
+      "corbeau",
+      "carré",
+      "vert",
+      "frangin",
+      "clémentine"
     ]
   ],
   "rowClues": [
+    3,
     4,
     1,
-    1,
-    5,
-    4,
-    5
+    2,
+    2,
+    2
   ],
   "colClues": [
+    2,
+    1,
     3,
     3,
     3,
-    5,
-    3,
-    3
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "pixel",
   "solution": [
     [
       true,
       false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true,
       false
@@ -83,42 +91,34 @@
       false,
       false,
       false,
-      true,
       false,
+      true,
       false
     ],
     [
       false,
+      false,
       true,
       false,
-      false,
-      false,
+      true,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       false,
-      true,
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 14
 }

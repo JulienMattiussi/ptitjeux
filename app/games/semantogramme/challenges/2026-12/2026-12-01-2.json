@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "bricolée",
-      "bois",
-      "prompt",
-      "rudimentaire",
-      "enfant"
+      "citron",
+      "paille",
+      "enfer",
+      "safran",
+      "beurre"
     ],
     [
-      "gris",
-      "pomme",
-      "petite",
-      "service",
-      "toit"
+      "maçonnerie",
+      "jonquille",
+      "barque",
+      "maïs",
+      "assiette"
     ],
     [
-      "illusion",
-      "snapshot",
-      "abriter",
-      "planche",
-      "chanteur"
+      "doré",
+      "or",
+      "détergent",
+      "tournesol",
+      "ocre"
     ],
     [
-      "construire",
-      "manuel",
-      "perche",
-      "fenêtre",
-      "trot"
+      "sourcil",
+      "vif",
+      "pâle",
+      "microscope",
+      "longue"
     ],
     [
-      "habiter",
-      "fragile",
-      "forêt",
-      "affection",
-      "rustique"
+      "soleil",
+      "mat",
+      "manger",
+      "bruyant",
+      "stocker"
     ]
   ],
   "rowClues": [
     4,
     2,
+    4,
     2,
-    2,
-    3
+    1
   ],
   "colClues": [
     3,
+    4,
     1,
     3,
-    3,
-    3
+    2
   ],
-  "themeWord": "cabane",
+  "themeWord": "jaune",
   "solution": [
     [
       true,
@@ -65,31 +65,31 @@
     ],
     [
       false,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       true,
       false
     ],
     [
       true,
-      false,
       true,
       false,
+      true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 13

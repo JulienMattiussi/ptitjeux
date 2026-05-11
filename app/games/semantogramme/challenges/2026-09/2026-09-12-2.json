@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "plein",
-      "déjeuner",
-      "café",
-      "tendre",
-      "apogée"
+      "couard",
+      "rôtie",
+      "férié",
+      "soucieux",
+      "cinéma"
     ],
     [
-      "gamme",
-      "pause",
-      "palpiter",
-      "sieste",
-      "sud"
+      "fin",
+      "moelleux",
+      "apéro",
+      "jour",
+      "terminer"
     ],
     [
-      "restaurant",
-      "basilic",
-      "vacarme",
-      "évacuer",
-      "tête"
+      "sucrer",
+      "sortir",
+      "parapluie",
+      "week-end",
+      "luxueux"
     ],
     [
-      "corser",
-      "synthétique",
-      "galactique",
-      "escrime",
-      "zénital"
+      "olivier",
+      "cantilène",
+      "mouette",
+      "single",
+      "hebdomadaire"
     ],
     [
-      "méridien",
-      "manger",
-      "restaurer",
-      "égalité",
-      "pauser"
+      "semaine",
+      "fêter",
+      "serrée",
+      "congé",
+      "immense"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
+    4,
+    2,
     1,
-    1,
-    4
+    3
   ],
   "colClues": [
+    2,
+    2,
+    2,
     3,
-    3,
-    1,
-    1,
-    4
+    3
   ],
-  "themeWord": "midi",
+  "themeWord": "vendredi",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ],
     [
@@ -68,13 +75,6 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
       false
     ],
     [
@@ -87,9 +87,9 @@
     [
       true,
       true,
-      true,
       false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 12

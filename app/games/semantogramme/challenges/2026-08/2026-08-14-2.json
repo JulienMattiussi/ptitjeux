@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "étoile",
-      "phare",
-      "soleil",
-      "bataille",
-      "spot"
+      "gouache",
+      "rhume",
+      "odorat",
+      "priser",
+      "travail"
     ],
     [
-      "imposte",
-      "étinceler",
-      "lettre",
-      "lustre",
-      "rayonner"
+      "humer",
+      "thermostat",
+      "livraison",
+      "évasion",
+      "caserne"
     ],
     [
-      "briller",
-      "cortège",
-      "contrôleur",
-      "matin",
-      "haleter"
+      "vénus",
+      "commande",
+      "sentir",
+      "reniflement",
+      "mouchoir"
     ],
     [
-      "illuminer",
-      "resplendissant",
-      "éblouir",
-      "lampe",
-      "langoustine"
+      "renifler",
+      "siècle",
+      "arête",
+      "essence",
+      "narine"
     ],
     [
-      "bougie",
-      "projecteur",
-      "peur",
-      "égoïne",
-      "baguette"
+      "parfum",
+      "mucus",
+      "éternuer",
+      "enclos",
+      "éternuement"
     ]
   ],
   "rowClues": [
-    4,
     3,
     1,
-    4,
-    2
+    3,
+    3,
+    4
   ],
   "colClues": [
-    4,
+    3,
+    2,
     4,
     2,
-    2,
-    2
+    3
   ],
-  "themeWord": "lumineux",
+  "themeWord": "nez",
   "solution": [
     [
+      false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       true
     ],
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 14

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "peigne",
-      "guitare",
-      "timbre",
-      "chant",
-      "guitare",
-      "harpe"
+      "malade",
+      "séraphin",
+      "délicatesse",
+      "gros",
+      "pêche",
+      "couplet"
     ],
     [
-      "tambour",
-      "piano",
-      "note",
-      "pierre",
-      "crayon",
-      "concerto"
+      "thonier",
+      "pacifique",
+      "migrateur",
+      "quai",
+      "orange",
+      "âtre"
     ],
     [
-      "opéra",
-      "tunnel",
-      "clé",
-      "rumeur",
-      "opéra",
-      "choeur"
+      "germon",
+      "chronique",
+      "ronge",
+      "caténaire",
+      "capitaine",
+      "marchandise"
     ],
     [
-      "écran",
-      "choeur",
-      "carnet",
-      "jardin",
-      "guitare",
-      "chant"
+      "contenu",
+      "voodoo",
+      "salade",
+      "tonic",
+      "frêle",
+      "épaissir"
     ],
     [
-      "accord",
-      "trompette",
-      "batterie",
-      "trompette",
-      "rythme",
-      "chemin"
+      "sushi",
+      "morue",
+      "rapide",
+      "atlantique",
+      "trajectoire",
+      "conserve"
     ],
     [
-      "pierre",
-      "tambour",
-      "horloge",
-      "tournevis",
-      "étagère",
-      "batterie"
+      "siffler",
+      "biologie",
+      "gras",
+      "blanc",
+      "mer",
+      "rouge"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    2,
     3,
-    3,
+    1,
+    1,
     5,
-    2
+    4
   ],
   "colClues": [
     3,
-    5,
-    2,
     2,
     4,
-    5
+    3,
+    2,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "thon",
   "solution": [
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       true,
       false
     ],
     [
+      true,
+      true,
+      true,
       false,
+      false,
+      false
+    ],
+    [
       true,
       false,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 16
 }

@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "souper",
-      "prolonger",
-      "dîner",
-      "discret",
-      "armure"
+      "comique",
+      "verdict",
+      "circassien",
+      "chaussure",
+      "maquillage"
     ],
     [
-      "rentrer",
-      "soirée",
-      "créatif",
-      "lampe",
-      "consanguin"
+      "gag",
+      "amuser",
+      "article",
+      "rouge",
+      "cirque"
     ],
     [
-      "observer",
-      "danger",
-      "satellite",
-      "coucher",
-      "lune"
+      "action",
+      "maquillé",
+      "lettre",
+      "glisser",
+      "manucure"
     ],
     [
-      "sombre",
-      "vespéral",
-      "tombée",
-      "corser",
-      "apéro"
+      "perruque",
+      "enfant",
+      "rigoler",
+      "chaperon",
+      "croûte"
     ],
     [
-      "nuit",
-      "reposer",
-      "tardif",
-      "extrémité",
-      "crépuscule"
+      "nez",
+      "irriguer",
+      "rire",
+      "organiste",
+      "arrondi"
     ]
   ],
   "rowClues": [
+    4,
+    4,
     2,
     3,
-    2,
-    4,
-    4
+    2
   ],
   "colClues": [
     4,
     3,
     3,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "soir",
+  "themeWord": "clown",
   "solution": [
     [
       true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       false
     ],
     [
       true,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      true
+      false
     ]
   ],
   "parMoves": 15

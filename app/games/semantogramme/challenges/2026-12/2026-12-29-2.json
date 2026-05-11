@@ -5,61 +5,75 @@
   "height": 5,
   "words": [
     [
-      "commission",
-      "puzzle",
-      "débattre",
-      "député",
-      "massif"
+      "rythme",
+      "doigt",
+      "connecter",
+      "danseur",
+      "réunion"
     ],
     [
-      "minimiser",
-      "bicaméral",
-      "débat",
-      "clocher",
-      "loi"
+      "twister",
+      "pas",
+      "haine",
+      "dressage",
+      "caramel"
     ],
     [
-      "sénateur",
-      "législatif",
-      "étaler",
-      "hémicycle",
-      "véranda"
+      "guincher",
+      "sautiller",
+      "marguerite",
+      "piste",
+      "familial"
     ],
     [
-      "démocratique",
-      "fardeau",
-      "élu",
-      "assemblée",
-      "affluent"
+      "rougeoyante",
+      "salsa",
+      "bal",
+      "danse",
+      "tournoyer"
     ],
     [
-      "sénat",
-      "gelée",
-      "aérienne",
-      "national",
-      "souhait"
+      "tango",
+      "valse",
+      "laitue",
+      "figure",
+      "surveiller"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
-    4,
+    2,
     2,
     3,
     4,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    1,
+    4,
     1
   ],
-  "themeWord": "parlement",
+  "themeWord": "danser",
   "solution": [
     [
       true,
       false,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ],
@@ -67,26 +81,12 @@
       false,
       true,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       true,
       false

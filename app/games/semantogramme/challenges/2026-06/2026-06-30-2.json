@@ -5,76 +5,69 @@
   "height": 5,
   "words": [
     [
-      "aumône",
-      "prise",
-      "enterré",
-      "large",
-      "chantier"
+      "fourche",
+      "ramer",
+      "queue",
+      "maléfique",
+      "infernal"
     ],
     [
-      "altruiste",
-      "cadeau",
-      "pont",
-      "étendard",
-      "humer"
+      "smartphone",
+      "tentation",
+      "limonade",
+      "caméléon",
+      "noirâtre"
     ],
     [
-      "dragée",
-      "ourson",
-      "pâques",
-      "libéral",
-      "scénario"
+      "castelet",
+      "malicieux",
+      "visière",
+      "fan",
+      "enfer"
     ],
     [
-      "agate",
-      "don",
-      "frêle",
-      "plate",
-      "partager"
+      "tortueux",
+      "thésauriser",
+      "tomber",
+      "malin",
+      "rabattre"
     ],
     [
-      "bienfaiteur",
-      "magnanime",
-      "générosité",
-      "décompression",
-      "sacrifier"
+      "orbiter",
+      "posséder",
+      "langoustine",
+      "allumette",
+      "rouge"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    4,
     1,
     2,
-    4
-  ],
-  "colClues": [
-    3,
-    3,
-    1,
     2,
     2
   ],
-  "themeWord": "généreux",
+  "colClues": [
+    2,
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "démon",
   "solution": [
     [
       true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ],
     [
@@ -86,8 +79,15 @@
     ],
     [
       true,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
       true,
+      false,
       false,
       true
     ]

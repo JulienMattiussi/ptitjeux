@@ -5,78 +5,86 @@
   "height": 6,
   "words": [
     [
-      "coussin",
-      "épice",
-      "poêle",
-      "pelle",
-      "pelle",
-      "tapis"
-    ],
-    [
-      "étoile",
-      "tapis",
-      "panneau",
-      "pince",
-      "épice",
-      "spatule"
-    ],
-    [
       "plat",
-      "chaise",
-      "lampe",
-      "mur",
-      "gomme",
-      "plat"
+      "débit",
+      "décharger",
+      "plage",
+      "récif",
+      "gourmet"
     ],
     [
-      "étoile",
-      "cuillère",
-      "plat",
-      "panneau",
-      "plat",
-      "prison"
+      "lettre",
+      "ketchup",
+      "sphérique",
+      "gourmandise",
+      "épine",
+      "lavage"
     ],
     [
-      "pétale",
-      "plateau",
-      "plat",
-      "prière",
-      "pelle",
-      "farine"
+      "canadien",
+      "delta",
+      "procureur",
+      "linéaire",
+      "pesant",
+      "noir"
     ],
     [
-      "miroir",
-      "clé",
-      "lampe",
-      "tablier",
-      "assiette",
-      "fourchette"
+      "gastronomie",
+      "majeur",
+      "porcine",
+      "corail",
+      "oeil",
+      "rosser"
+    ],
+    [
+      "mer",
+      "anneau",
+      "rocher",
+      "marin",
+      "parler",
+      "pulpeux"
+    ],
+    [
+      "aquatique",
+      "piquant",
+      "rouge",
+      "fragile",
+      "délicieux",
+      "chandelle"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    4,
+    3,
+    1,
     2,
     3,
-    2,
-    3
+    5
   ],
   "colClues": [
-    1,
-    2,
-    3,
+    4,
     1,
     3,
-    4
+    5,
+    3,
+    2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "oursin",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
       false
     ],
     [
@@ -84,41 +92,33 @@
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
       false,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
+      false,
       true,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
       false,
+      true,
+      true,
       false,
-      true
+      false
     ],
     [
-      false,
-      false,
-      false,
       true,
       true,
-      true
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

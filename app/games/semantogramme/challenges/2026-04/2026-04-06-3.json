@@ -5,108 +5,92 @@
   "height": 6,
   "words": [
     [
-      "horloge",
-      "étoile",
-      "vis",
-      "manuel",
-      "mémoire",
-      "mélodie"
+      "bondir",
+      "épaissir",
+      "redoutable",
+      "orange",
+      "étain",
+      "inde"
     ],
     [
-      "concerto",
-      "lampe",
-      "flûte",
-      "peigne",
-      "chemin",
-      "harpe"
+      "aubergine",
+      "arrêter",
+      "argentée",
+      "chasser",
+      "puissant",
+      "aspirateur"
     ],
     [
-      "pelle",
-      "accord",
-      "tunnel",
-      "crayon",
-      "opéra",
-      "parfum"
+      "dattier",
+      "félin",
+      "sibérie",
+      "majestueux",
+      "âtre",
+      "transatlantique"
     ],
     [
-      "bureau",
-      "devoir",
-      "tournevis",
-      "pince",
-      "jazz",
-      "jazz"
+      "parental",
+      "dimanche",
+      "asie",
+      "limite",
+      "fidèle",
+      "abordage"
     ],
     [
-      "pelle",
-      "note",
-      "plafond",
-      "chant",
-      "tasse",
-      "pince"
+      "rayure",
+      "masque",
+      "bengale",
+      "affût",
+      "numériser",
+      "effacement"
     ],
     [
-      "devoir",
-      "carnet",
-      "vis",
-      "gamme",
-      "gomme",
-      "note"
+      "noir",
+      "forêt",
+      "commencement",
+      "clou",
+      "rare",
+      "féroce"
     ]
   ],
   "rowClues": [
-    1,
+    4,
+    2,
     3,
-    2,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     1,
-    2,
-    1,
-    2,
     2,
     4
   ],
-  "themeWord": "musique",
+  "colClues": [
+    3,
+    2,
+    4,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "tigre",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
     [
       false,
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
       true,
-      false,
       true,
       false,
       false
@@ -114,11 +98,27 @@
     [
       false,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 16
 }

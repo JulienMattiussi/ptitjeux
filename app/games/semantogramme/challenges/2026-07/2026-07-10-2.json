@@ -5,66 +5,59 @@
   "height": 5,
   "words": [
     [
-      "frigo",
-      "fin",
-      "échiquier",
-      "pompe",
-      "gentillesse"
+      "tourmenter",
+      "cellule",
+      "fourche",
+      "tortue",
+      "coriandre"
     ],
     [
-      "traitement",
-      "chevelure",
-      "thorax",
-      "pulsation",
-      "foncer"
+      "brûlant",
+      "porter",
+      "maléfice",
+      "fervente",
+      "sifflement"
     ],
     [
-      "cordial",
-      "rythme",
-      "sérénité",
-      "cardiaque",
-      "ingénieur"
+      "poilu",
+      "ombre",
+      "pollen",
+      "damner",
+      "chaudron"
     ],
     [
-      "palpiter",
-      "spontané",
-      "sang",
-      "haute",
-      "détonation"
+      "cartilagineux",
+      "sinistre",
+      "gouffre",
+      "palper",
+      "expéditif"
     ],
     [
-      "aorte",
-      "tiédir",
-      "cardiogramme",
-      "ventricule",
-      "aimer"
+      "flamme",
+      "tortueux",
+      "damnation",
+      "éternel",
+      "numériser"
     ]
   ],
   "rowClues": [
+    3,
     1,
     2,
-    3,
     2,
     4
   ],
   "colClues": [
     3,
-    1,
+    2,
     3,
-    4,
+    3,
     1
   ],
-  "themeWord": "coeur",
+  "themeWord": "enfer",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -72,24 +65,31 @@
     ],
     [
       true,
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
       false,
       false
     ],
     [
-      true,
       false,
-      true,
+      false,
+      false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 12

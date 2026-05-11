@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "libération",
-      "maroquinerie",
-      "peau",
-      "sagaie",
-      "sac"
+      "naissant",
+      "liseuse",
+      "régaler",
+      "horizon",
+      "poindre"
     ],
     [
-      "trait",
-      "cirer",
-      "assouplir",
-      "aspirateur",
-      "écailles"
+      "lingot",
+      "pointer",
+      "naître",
+      "poire",
+      "crépuscule"
     ],
     [
-      "hisser",
-      "phare",
-      "résistant",
-      "tanner",
-      "tannerie"
+      "beau",
+      "damnation",
+      "pâle",
+      "matinal",
+      "restaurant"
     ],
     [
-      "noble",
-      "embouchure",
-      "chaussure",
-      "hiver",
-      "souple"
+      "relaxant",
+      "pèlerinage",
+      "aurore",
+      "soleil",
+      "flageoler"
     ],
     [
-      "naturel",
-      "gant",
-      "parti",
-      "vache",
-      "martini"
+      "matin",
+      "rosée",
+      "piéton",
+      "coq",
+      "précoce"
     ]
   ],
   "rowClues": [
     3,
+    3,
     2,
-    3,
-    3,
-    3
+    2,
+    4
   ],
   "colClues": [
     2,
+    2,
     3,
     4,
-    2,
     3
   ],
-  "themeWord": "cuir",
+  "themeWord": "aube",
   "solution": [
     [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       true,
       true,
@@ -65,9 +72,9 @@
     ],
     [
       false,
-      true,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
@@ -75,21 +82,14 @@
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 14

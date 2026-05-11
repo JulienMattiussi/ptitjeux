@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "crabe",
-      "écume",
-      "plage",
-      "étagère",
-      "écume",
-      "prison"
+      "congélateur",
+      "confus",
+      "raconter",
+      "arabesque",
+      "achèvement",
+      "jouer"
     ],
     [
-      "écume",
-      "sable",
-      "brosse",
-      "baleine",
-      "horloge",
-      "bureau"
+      "train",
+      "guitare",
+      "chaîne",
+      "sincère",
+      "tradition",
+      "rural"
     ],
     [
-      "bateau",
-      "phare",
-      "sardine",
-      "sardine",
-      "ciseaux",
-      "bateau"
+      "narratif",
+      "galet",
+      "malade",
+      "minou",
+      "épousseter",
+      "authentique"
     ],
     [
-      "phare",
-      "rideau",
-      "écume",
-      "chaise",
-      "rivage",
-      "thon"
+      "indien",
+      "cyclisme",
+      "pudding",
+      "mandoline",
+      "musique",
+      "malédiction"
     ],
     [
-      "clé",
-      "enveloppe",
-      "marin",
-      "plage",
-      "voisin",
-      "jardin"
+      "titane",
+      "racine",
+      "mariée",
+      "studio",
+      "estran",
+      "engagé"
     ],
     [
-      "baleine",
-      "pétale",
-      "baleine",
-      "balai",
-      "écume",
-      "maison"
+      "plaisanterie",
+      "jongleur",
+      "résonner",
+      "centenaire",
+      "populaire",
+      "simple"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    5,
+    2,
     4,
     2,
-    3
-  ],
-  "colClues": [
-    5,
-    3,
-    5,
-    3,
-    3,
+    2,
+    2,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    1,
+    2,
+    1,
+    2,
+    3,
+    5
+  ],
+  "themeWord": "folk",
   "solution": [
     [
-      true,
-      true,
-      true,
+      false,
       false,
       true,
-      false
+      false,
+      false,
+      true
     ],
     [
-      true,
-      true,
       false,
       true,
       false,
-      false
-    ],
-    [
       true,
       true,
-      true,
-      true,
-      false,
       true
     ],
     [
       true,
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      true,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
-      true,
       false,
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 14
 }

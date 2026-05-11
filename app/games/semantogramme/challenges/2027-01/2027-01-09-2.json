@@ -5,59 +5,80 @@
   "height": 5,
   "words": [
     [
-      "elliptique",
-      "lointaine",
-      "résonner",
-      "pulpe",
-      "espace"
+      "miette",
+      "toile",
+      "noueuse",
+      "basse",
+      "bourgeon"
     ],
     [
-      "choc",
-      "spirale",
-      "tournoyer",
-      "milieu",
-      "serré"
+      "réchauffer",
+      "cessez-le-feu",
+      "rejeton",
+      "nid",
+      "souple"
     ],
     [
-      "buste",
-      "univers",
-      "lactée",
-      "observer",
-      "gâter"
+      "rameau",
+      "camembert",
+      "pousser",
+      "canevas",
+      "bouton"
     ],
     [
-      "galactique",
-      "cube",
-      "fracas",
-      "disque",
-      "gazette"
+      "plâtre",
+      "feuillue",
+      "mue",
+      "saumurer",
+      "se ramifier"
     ],
     [
-      "denture",
-      "cosmique",
-      "immense",
-      "moderne",
-      "écureuil"
+      "verser",
+      "tronc",
+      "porte-jarretelles",
+      "haute",
+      "biographie"
     ]
   ],
   "rowClues": [
     3,
     2,
-    3,
-    1,
+    2,
+    2,
     2
   ],
   "colClues": [
-    2,
-    4,
-    3,
     1,
-    1
+    2,
+    2,
+    3,
+    3
   ],
-  "themeWord": "galaxie",
+  "themeWord": "branche",
   "solution": [
     [
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
@@ -66,29 +87,8 @@
     [
       false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       false
     ]
   ],

@@ -5,106 +5,74 @@
   "height": 6,
   "words": [
     [
-      "beige",
-      "rouge",
-      "vis",
-      "panneau",
-      "pelle",
-      "horloge"
+      "passion",
+      "force",
+      "ballet",
+      "commun",
+      "tôt",
+      "consoler"
     ],
     [
-      "noir",
-      "ocre",
-      "rose",
-      "règle",
-      "ocre",
-      "doré"
+      "graine",
+      "emballage",
+      "héritière",
+      "urbain",
+      "jardin",
+      "nid"
     ],
     [
-      "noir",
+      "témoin",
+      "plume",
+      "foin",
+      "tabouret",
       "gris",
-      "argenté",
-      "bureau",
-      "tapis",
-      "gris"
+      "sauter"
     ],
     [
-      "manuel",
-      "rose",
+      "rebondir",
+      "grégaire",
+      "ventoline",
+      "projectile",
+      "réservé",
+      "halogène"
+    ],
+    [
+      "aile",
+      "intègre",
+      "sieste",
+      "oxyder",
       "brun",
-      "mauve",
-      "doré",
-      "rose"
+      "picorer"
     ],
     [
-      "orange",
-      "panneau",
-      "balai",
-      "argenté",
-      "marteau",
-      "panier"
-    ],
-    [
-      "orange",
-      "orange",
-      "orange",
-      "beige",
-      "chemin",
-      "jaune"
+      "bec",
+      "connexion",
+      "voler",
+      "muscade",
+      "minuscule",
+      "meunière"
     ]
   ],
   "rowClues": [
-    2,
-    5,
-    4,
-    5,
-    2,
-    5
-  ],
-  "colClues": [
-    5,
-    5,
+    1,
     4,
     3,
-    2,
-    4
+    1,
+    3,
+    3
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    3,
+    2,
+    1,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "moineau",
   "solution": [
     [
-      true,
-      true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -113,12 +81,44 @@
     ],
     [
       true,
+      false,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      false,
       true,
       false,
+      false,
+      true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 15
 }

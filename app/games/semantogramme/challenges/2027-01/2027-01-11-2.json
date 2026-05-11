@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "filer",
-      "goudron",
-      "poussière",
-      "espace",
-      "observer"
+      "leurre",
+      "grignoter",
+      "rouillé",
+      "dévorer",
+      "collecte"
     ],
     [
-      "sabot",
-      "biologie",
-      "queue",
-      "glace",
-      "cadeau"
+      "jambon",
+      "cartable",
+      "appétit",
+      "trachée",
+      "se régaler"
     ],
     [
-      "patinette",
-      "longue",
-      "cosmos",
-      "idyllique",
-      "spirituel"
+      "avaler",
+      "banqueter",
+      "continent",
+      "single",
+      "consommer"
     ],
     [
-      "bourrer",
-      "urine",
-      "orbite",
-      "rare",
-      "lointaine"
+      "savourer",
+      "radis",
+      "mastiquer",
+      "bouffer",
+      "inondation"
     ],
     [
-      "garde",
-      "rapide",
-      "navigateur",
-      "acrylique",
-      "orbiter"
+      "caractère",
+      "goûter",
+      "ingérer",
+      "égypte",
+      "mâcher"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    2,
+    1,
     3,
-    1
-  ],
-  "colClues": [
-    1,
-    1,
-    4,
     3,
     3
   ],
-  "themeWord": "comète",
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "manger",
   "solution": [
     [
+      false,
       true,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
       true,
@@ -74,20 +88,6 @@
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true
     ]

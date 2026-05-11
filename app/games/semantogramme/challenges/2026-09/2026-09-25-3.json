@@ -5,90 +5,98 @@
   "height": 6,
   "words": [
     [
-      "jardin",
-      "racine",
-      "maison",
-      "tramway",
-      "moto",
-      "miroir"
+      "agate",
+      "couper",
+      "bûcheron",
+      "guerre",
+      "piquer",
+      "arbre"
     ],
     [
-      "gomme",
-      "moto",
-      "autobus",
-      "prière",
-      "scooter",
-      "gomme"
+      "frapper",
+      "crête",
+      "urticante",
+      "manche",
+      "outil",
+      "bois"
     ],
     [
-      "métro",
-      "taxi",
-      "tramway",
-      "pétale",
-      "tournevis",
-      "voiture"
+      "acacia",
+      "sucette",
+      "aube",
+      "fendre",
+      "alphabet",
+      "sillonner"
     ],
     [
-      "métro",
-      "bateau",
-      "train",
-      "brosse",
-      "navette",
-      "caillou"
+      "transpercer",
+      "cognée",
+      "abattre",
+      "couvert",
+      "croissant",
+      "symbole"
     ],
     [
-      "clé",
-      "remorque",
-      "tunnel",
-      "bureau",
-      "fusée",
-      "devoir"
+      "frange",
+      "bavarder",
+      "ossuaire",
+      "centralisé",
+      "tranchant",
+      "éternelle"
     ],
     [
-      "pince",
-      "tournevis",
-      "tasse",
-      "bus",
-      "bureau",
-      "bateau"
+      "rond",
+      "aiguisée",
+      "buste",
+      "tête",
+      "celtique",
+      "pointu"
     ]
   ],
   "rowClues": [
-    2,
+    5,
+    4,
+    1,
     3,
-    4,
-    4,
-    2,
+    1,
     2
   ],
   "colClues": [
-    2,
-    4,
+    1,
     3,
     2,
     4,
-    2
+    3,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "hache",
   "solution": [
     [
       false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
       false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -96,9 +104,9 @@
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
       false
@@ -107,18 +115,10 @@
       false,
       true,
       false,
-      false,
       true,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

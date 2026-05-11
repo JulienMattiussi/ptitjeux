@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "tasse",
-      "manuel",
-      "pluie",
-      "vent",
-      "glace",
-      "foudre"
+      "lien",
+      "colis",
+      "sachet",
+      "raréfier",
+      "sceau",
+      "ruban"
     ],
     [
-      "foudre",
-      "rosée",
-      "arc-en-ciel",
-      "gomme",
-      "miroir",
-      "savon"
+      "ficeler",
+      "aiguiser",
+      "papier",
+      "paquet",
+      "autorisé",
+      "cambré"
     ],
     [
-      "carnet",
-      "brosse",
-      "livre",
-      "neige",
-      "rosée",
-      "vent"
+      "hawaï",
+      "expédier",
+      "errer",
+      "box",
+      "noeud",
+      "bouche"
     ],
     [
-      "banquier",
-      "livre",
-      "tonnerre",
-      "soleil",
-      "panier",
-      "verglas"
+      "sceller",
+      "commémoration",
+      "boîte",
+      "cellophane",
+      "envelopper",
+      "entourer"
     ],
     [
-      "vent",
-      "enveloppe",
-      "neige",
-      "éclair",
-      "agenda",
-      "gel"
+      "décorer",
+      "champ",
+      "colorier",
+      "protéger",
+      "examiner",
+      "rustique"
     ],
     [
-      "vent",
-      "fusée",
-      "banquier",
-      "balai",
-      "plafond",
-      "brouillard"
+      "achat",
+      "empaqueter",
+      "alité",
+      "mériter",
+      "crinière",
+      "oursin"
     ]
   ],
   "rowClues": [
     4,
     3,
-    3,
-    3,
-    4,
-    2
+    2,
+    5,
+    2,
+    1
   ],
   "colClues": [
     3,
-    1,
-    4,
-    4,
-    2,
-    5
+    3,
+    3,
+    3,
+    3,
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "emballer",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
-      true,
-      true,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
       false,
+      true,
+      true,
       false,
       false
     ],
     [
       false,
+      true,
       false,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
+      false
     ],
     [
       true,
       false,
       true,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

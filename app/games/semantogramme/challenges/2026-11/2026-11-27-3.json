@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "concerto",
-      "plafond",
-      "jardin",
-      "choeur",
-      "jazz",
-      "accord"
+      "rare",
+      "chantier",
+      "nocturne",
+      "attiédir",
+      "voiture",
+      "humide"
     ],
     [
-      "symphonie",
-      "tambour",
-      "pétale",
-      "flûte",
-      "note",
-      "carnet"
+      "inaltérable",
+      "colonie",
+      "dégainer",
+      "patte",
+      "compétition",
+      "noir"
     ],
     [
-      "rythme",
-      "symphonie",
-      "gamme",
-      "guitare",
-      "plafond",
-      "piano"
+      "avion",
+      "nuisible",
+      "cime",
+      "aile",
+      "sauteuse",
+      "halogène"
     ],
     [
-      "panier",
-      "batterie",
-      "table",
-      "accord",
-      "plateau",
-      "harpe"
+      "fraction",
+      "écraser",
+      "insecticide",
+      "fuir",
+      "blatte",
+      "berceuse"
     ],
     [
-      "symphonie",
-      "note",
-      "tasse",
-      "chemin",
-      "plateau",
-      "chemin"
+      "rêve",
+      "glu",
+      "sale",
+      "salle-de-bain",
+      "décharger",
+      "meuble"
     ],
     [
-      "batterie",
-      "opéra",
-      "ciseaux",
-      "chant",
-      "caillou",
-      "plateau"
+      "cuisine",
+      "passer",
+      "rapide",
+      "dégoûtant",
+      "rampant",
+      "lac"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    5,
+    2,
     3,
     2,
-    3
+    4,
+    1,
+    4
   ],
   "colClues": [
-    5,
-    5,
     1,
-    5,
+    3,
+    4,
+    4,
     2,
-    3
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "cafard",
   "solution": [
     [
-      true,
       false,
       false,
       true,
-      true,
+      false,
+      false,
       true
     ],
     [
-      true,
+      false,
       true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       false,
       true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       false,
       false
     ],
     [
       true,
-      true,
       false,
       true,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 16
 }

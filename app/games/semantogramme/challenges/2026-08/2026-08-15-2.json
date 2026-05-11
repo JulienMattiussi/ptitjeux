@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "fragile",
-      "pneu",
-      "urgence",
-      "rond",
-      "cochon"
+      "pistolet",
+      "aligner",
+      "portrait",
+      "enlacer",
+      "photo"
     ],
     [
-      "tonneau",
-      "colonne",
-      "fauve",
-      "commerce",
-      "décision"
+      "cliché",
+      "fougue",
+      "précieuse",
+      "élan",
+      "mitrailler"
     ],
     [
-      "corpulent",
-      "grossir",
-      "fièvre",
-      "engraisser",
-      "bouée"
+      "shooter",
+      "incliner",
+      "sobre",
+      "glycine",
+      "instantané"
     ],
     [
-      "épaule",
-      "gaze",
-      "pansu",
-      "lisser",
-      "épaissir"
+      "capturer",
+      "image",
+      "flash",
+      "binaire",
+      "origami"
     ],
     [
-      "replet",
-      "nuque",
-      "enflure",
-      "éléphant",
-      "cambium"
+      "petit",
+      "appareil",
+      "zoom",
+      "objectif",
+      "immortaliser"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    4,
     2,
-    3
+    2,
+    2,
+    3,
+    4
   ],
   "colClues": [
     3,
     2,
-    2,
     3,
-    3
+    1,
+    4
   ],
-  "themeWord": "gros",
+  "themeWord": "photographier",
   "solution": [
     [
       false,
-      true,
       false,
       true,
+      false,
       true
     ],
     [
       true,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 13

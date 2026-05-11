@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "chimie",
-      "relique",
-      "agate",
-      "désherber",
-      "rejeton"
+      "caverne",
+      "plaisir",
+      "barbe",
+      "minier",
+      "pioche"
     ],
     [
-      "marié",
-      "solide",
-      "complexe",
-      "douce",
-      "gaz"
+      "trésor",
+      "hache",
+      "universel",
+      "parole",
+      "frapper"
     ],
     [
-      "téléski",
-      "déménagement",
-      "liaison",
-      "assécher",
-      "chimique"
+      "endormir",
+      "singe",
+      "imposte",
+      "légendaire",
+      "or"
     ],
     [
-      "liaisonner",
-      "brassée",
-      "marmite",
-      "atome",
-      "embrayage"
+      "mousquetaire",
+      "trapu",
+      "parer",
+      "forger",
+      "enterrement"
     ],
     [
-      "organique",
-      "eau",
-      "délice",
-      "simple",
-      "composé"
+      "mine",
+      "causer",
+      "donjon",
+      "source",
+      "rouiller"
     ]
   ],
   "rowClues": [
-    1,
-    3,
+    4,
     2,
     2,
-    4
+    2,
+    2
   ],
   "colClues": [
     3,
     2,
     2,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "molécule",
+  "themeWord": "nain",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       true
     ],
     [
       false,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
       false
     ],
     [
       true,
-      true,
       false,
       true,
-      true
+      false,
+      false
     ]
   ],
   "parMoves": 12

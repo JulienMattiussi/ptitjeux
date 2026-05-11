@@ -5,83 +5,76 @@
   "height": 5,
   "words": [
     [
-      "console",
-      "se ramifier",
-      "soldat",
-      "tendresse",
-      "sécuriser"
+      "rogner",
+      "caboche",
+      "aîné",
+      "se chamailler",
+      "sororal"
     ],
     [
-      "mourant",
-      "jean",
-      "bouleau",
-      "embrasser",
-      "étreindre"
+      "expédier",
+      "peuplier",
+      "soeur",
+      "germain",
+      "lyre"
     ],
     [
-      "caresse",
-      "affectionner",
-      "romance",
-      "galoper",
-      "soutenir"
+      "hiéroglyphe",
+      "rock",
+      "décharger",
+      "paysanne",
+      "consanguin"
     ],
     [
-      "orangé",
-      "passion",
-      "amoureux",
-      "affection",
-      "apprécier"
+      "jouer",
+      "fratrie",
+      "novice",
+      "plateforme",
+      "fraternel"
     ],
     [
-      "amour",
-      "idolâtrer",
-      "effrayant",
-      "pull",
-      "gril"
+      "cadet",
+      "sang",
+      "confus",
+      "bôme",
+      "parent"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
-    4,
-    2
+    2,
+    1,
+    3,
+    3
   ],
   "colClues": [
     2,
-    3,
     2,
-    3,
-    2
+    2,
+    2,
+    4
   ],
-  "themeWord": "aimer",
+  "themeWord": "frère",
   "solution": [
     [
       false,
       false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      true,
+      true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -89,7 +82,14 @@
       true,
       false,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 12

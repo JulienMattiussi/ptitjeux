@@ -5,99 +5,99 @@
   "height": 6,
   "words": [
     [
-      "pétale",
-      "batterie",
-      "rideau",
-      "peigne",
-      "balai",
-      "guitare"
+      "cinéma",
+      "chauffeur",
+      "attente",
+      "course",
+      "compteur",
+      "service"
     ],
     [
-      "trompette",
-      "trompette",
-      "symphonie",
-      "devoir",
-      "tournevis",
-      "balai"
+      "tressée",
+      "lime",
+      "croire",
+      "monter",
+      "voiture",
+      "productif"
     ],
     [
-      "choeur",
-      "tunnel",
-      "ciseaux",
-      "chant",
-      "note",
-      "concerto"
+      "défiler",
+      "tarif",
+      "battre",
+      "rapide",
+      "ligament",
+      "vibrer"
     ],
     [
-      "mur",
-      "note",
-      "harpe",
-      "tunnel",
-      "choeur",
-      "opéra"
+      "commander",
+      "vendeur",
+      "jaune",
+      "tresse",
+      "aéroport",
+      "payer"
     ],
     [
-      "tournevis",
-      "peigne",
-      "livre",
-      "chant",
-      "ombre",
-      "violon"
+      "repos",
+      "hiver",
+      "âne",
+      "cylindrique",
+      "retenir",
+      "transporter"
     ],
     [
-      "manuel",
-      "panneau",
-      "vis",
-      "sol",
-      "accord",
-      "chemin"
+      "descendre",
+      "urbain",
+      "vaste",
+      "sorbier",
+      "asperger",
+      "reprise"
     ]
   ],
   "rowClues": [
+    5,
     2,
-    3,
-    4,
-    4,
     2,
-    1
+    4,
+    1,
+    2
   ],
   "colClues": [
     2,
     3,
     2,
-    2,
     3,
-    4
+    3,
+    3
   ],
-  "themeWord": "musique",
+  "themeWord": "taxi",
   "solution": [
     [
       false,
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true
     ],
     [
+      false,
+      false,
+      false,
       true,
       true,
+      false
+    ],
+    [
+      false,
       true,
       false,
+      true,
       false,
       false
     ],
     [
       true,
       false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
@@ -107,16 +107,16 @@
       false,
       false,
       false,
-      true,
+      false,
       false,
       true
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
+      false,
       false
     ]
   ],

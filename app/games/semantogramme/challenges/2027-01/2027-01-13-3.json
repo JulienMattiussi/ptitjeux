@@ -5,92 +5,108 @@
   "height": 6,
   "words": [
     [
-      "rideau",
-      "oeil",
-      "épaule",
-      "dent",
+      "étiré",
+      "désert",
+      "reposer",
       "tête",
-      "nez"
+      "mouvement",
+      "patte"
     ],
     [
-      "plateau",
-      "oeil",
-      "pince",
-      "pied",
-      "bras",
-      "bras"
+      "sable",
+      "afrique",
+      "oeuf",
+      "résultat",
+      "oiseau",
+      "grande"
     ],
     [
-      "pelle",
-      "ombre",
-      "panneau",
-      "pelle",
-      "ongle",
-      "tabouret"
+      "pétrir",
+      "porcine",
+      "incapable",
+      "inapte",
+      "gros",
+      "étreindre"
     ],
     [
-      "chaise",
-      "tête",
-      "bras",
-      "lèvre",
-      "table",
-      "joue"
+      "cocon",
+      "archéologue",
+      "cou",
+      "rentrer",
+      "manivelle",
+      "enterrer"
     ],
     [
-      "genou",
-      "tabouret",
-      "voisin",
-      "serrure",
-      "jambe",
-      "dos"
+      "pulvériser",
+      "romarin",
+      "cacher",
+      "voler",
+      "rapide",
+      "modem"
     ],
     [
-      "genou",
-      "nez",
-      "cadre",
-      "porte",
-      "coussin",
-      "ongle"
+      "mastiquer",
+      "courir",
+      "propriétaire",
+      "stéthoscope",
+      "cyclique",
+      "savane"
     ]
   ],
   "rowClues": [
-    5,
-    4,
-    1,
-    4,
     3,
-    3
+    5,
+    3,
+    2,
+    2,
+    2
   ],
   "colClues": [
-    2,
+    1,
+    3,
     4,
     2,
     3,
-    4,
-    5
+    4
   ],
-  "themeWord": "corps",
+  "themeWord": "autruche",
   "solution": [
     [
       false,
       true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      true,
+      false,
       true,
       true
     ],
     [
       false,
-      true,
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
+      true,
       false,
       true,
       false
@@ -98,27 +114,11 @@
     [
       false,
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

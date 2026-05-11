@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "banque",
-      "reine",
-      "tintement",
-      "église",
-      "clocher"
+      "traîner",
+      "patience",
+      "escargot",
+      "ralentir",
+      "raffinement"
     ],
     [
-      "tour",
-      "véloce",
-      "retentissante",
-      "carillonner",
-      "symbole"
+      "galette",
+      "tardif",
+      "paresseux",
+      "lenteur",
+      "définir"
     ],
     [
-      "sonore",
-      "bronze",
-      "carillon",
-      "folklorique",
-      "tinter"
+      "tortue",
+      "lambin",
+      "bruyante",
+      "libellule",
+      "artère"
     ],
     [
-      "sonner",
-      "sonnerie",
-      "framboise",
-      "pilier",
-      "cachet"
+      "mou",
+      "embellir",
+      "inertie",
+      "siècle",
+      "munster"
     ],
     [
-      "bronzée",
-      "son",
-      "châtaigne",
-      "haute",
-      "bourse"
+      "fourchette",
+      "flâner",
+      "éternité",
+      "napolitaine",
+      "tarder"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     4,
+    3,
     2,
+    3,
     3
   ],
   "colClues": [
+    3,
+    4,
     4,
     3,
-    3,
-    3,
-    2
+    1
   ],
-  "themeWord": "cloche",
+  "themeWord": "lent",
   "solution": [
     [
-      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 15

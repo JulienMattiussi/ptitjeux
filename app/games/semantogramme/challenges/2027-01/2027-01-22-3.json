@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "manuel",
-      "horloge",
-      "pied",
-      "banquier",
-      "étoile",
-      "devoir"
+      "urticaire",
+      "glisser",
+      "autobloquant",
+      "silencieux",
+      "minute",
+      "embarras"
     ],
     [
-      "oreille",
-      "vis",
-      "doigt",
-      "coeur",
-      "bureau",
-      "oeil"
+      "arrêt",
+      "urbain",
+      "imprenable",
+      "souvenir",
+      "collectif",
+      "transport"
     ],
     [
-      "genou",
-      "épaule",
-      "pied",
-      "bras",
-      "lueur",
-      "pierre"
+      "aiglon",
+      "dompteur",
+      "hilare",
+      "ligne",
+      "rouler",
+      "rondelet"
     ],
     [
-      "caillou",
-      "dos",
-      "fusée",
-      "tournevis",
-      "panneau",
-      "jambe"
+      "monter",
+      "voiture",
+      "éduquer",
+      "brailler",
+      "fil",
+      "escroquerie"
     ],
     [
-      "agenda",
-      "jambe",
-      "prison",
-      "main",
-      "bouche",
-      "lèvre"
+      "rail",
+      "vannerie",
+      "broder",
+      "continent",
+      "spongieux",
+      "escalade"
     ],
     [
-      "tête",
-      "coeur",
-      "horloge",
-      "langue",
-      "langue",
-      "parfum"
+      "tram",
+      "écologique",
+      "caténaire",
+      "pélagique",
+      "circuler",
+      "historique"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    4,
     2,
     4,
-    4
+    2,
+    3,
+    1,
+    5
   ],
   "colClues": [
-    3,
     4,
-    3,
     4,
+    1,
     2,
-    3
+    4,
+    2
   ],
-  "themeWord": "corps",
+  "themeWord": "tramway",
   "solution": [
     [
       false,
+      true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       false,
       false
     ],
     [
       true,
-      false,
       true,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

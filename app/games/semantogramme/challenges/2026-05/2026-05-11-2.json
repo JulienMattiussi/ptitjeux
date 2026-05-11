@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "marcher",
-      "ennemi",
-      "lutter",
-      "pissenlit",
-      "vaincre"
+      "transpiration",
+      "éponge",
+      "résistant",
+      "mouiller",
+      "spongieux"
     ],
     [
-      "amphi",
-      "résister",
-      "dîner",
-      "combat",
-      "mêlée"
+      "humidifié",
+      "ouïe",
+      "cave",
+      "occupé",
+      "serpillière"
     ],
     [
-      "guerre",
-      "texte",
-      "lutte",
-      "fastueux",
-      "armée"
+      "épier",
+      "marais",
+      "médecin",
+      "pluie",
+      "extension"
     ],
     [
-      "arme",
-      "desquamation",
-      "battre",
-      "affronter",
-      "rivaliser"
+      "ictère",
+      "extase",
+      "moite",
+      "mixte",
+      "rosée"
     ],
     [
-      "duel",
-      "soldat",
-      "maçon",
-      "attaquer",
-      "scruter"
+      "mousson",
+      "mouillé",
+      "recourbé",
+      "humecter",
+      "imbiber"
     ]
   ],
   "rowClues": [
+    4,
     3,
     2,
-    3,
-    4,
-    3
+    2,
+    4
   ],
   "colClues": [
     3,
     3,
+    2,
     3,
-    3,
-    3
+    4
   ],
-  "themeWord": "combattre",
+  "themeWord": "humide",
   "solution": [
     [
+      true,
+      true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       true
@@ -71,7 +78,7 @@
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
@@ -79,17 +86,10 @@
     ],
     [
       true,
-      false,
       true,
+      false,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 15

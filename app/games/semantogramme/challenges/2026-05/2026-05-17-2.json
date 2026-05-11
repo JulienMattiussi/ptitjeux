@@ -5,72 +5,58 @@
   "height": 5,
   "words": [
     [
-      "macaron",
-      "rime",
-      "roue",
-      "biscuit",
-      "poumon"
+      "nouveau",
+      "innovation",
+      "rénover",
+      "emballage",
+      "napolitaine"
     ],
     [
-      "maladresse",
-      "reposer",
-      "roquette",
-      "perle",
-      "cercueil"
+      "écrire",
+      "récent",
+      "ravissement",
+      "effilée",
+      "ruse"
     ],
     [
-      "pizza",
-      "sphère",
-      "médaille",
-      "pneu",
-      "libellule"
+      "cellophane",
+      "oeufrier",
+      "soigner",
+      "rural",
+      "style"
     ],
     [
-      "honorer",
-      "disque",
-      "luxe",
-      "soutenir",
-      "bague"
+      "champêtre",
+      "ruisseler",
+      "barbe",
+      "trapèze",
+      "modernité"
     ],
     [
-      "oeil",
-      "métaphore",
-      "cible",
-      "anneau",
-      "mucus"
+      "frais",
+      "fraîcheur",
+      "photon",
+      "achat",
+      "inaugurer"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     4,
-    2,
-    3
+    1,
+    1,
+    1,
+    4
   ],
   "colClues": [
-    2,
-    2,
     3,
     3,
-    1
+    1,
+    2,
+    2
   ],
-  "themeWord": "rond",
+  "themeWord": "neuf",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
       true,
@@ -80,16 +66,30 @@
     [
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true
     ],
     [
       true,
+      true,
       false,
       true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 11

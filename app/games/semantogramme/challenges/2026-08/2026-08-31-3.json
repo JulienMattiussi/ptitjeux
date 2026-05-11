@@ -5,81 +5,73 @@
   "height": 6,
   "words": [
     [
-      "brosse",
-      "four",
-      "frigo",
-      "enveloppe",
-      "banquier",
-      "cadre"
+      "fixer",
+      "long",
+      "tête",
+      "mécanique",
+      "tomber",
+      "pont"
     ],
     [
-      "spatule",
-      "spatule",
-      "verre",
-      "évier",
-      "chaise",
-      "fourchette"
+      "caractériser",
+      "rôtie",
+      "ascension",
+      "métallique",
+      "gros",
+      "dévisser"
     ],
     [
-      "fusée",
-      "évier",
-      "agenda",
-      "assiette",
-      "plat",
-      "pince"
-    ],
-    [
+      "emballer",
+      "écrou",
       "vis",
-      "globe",
-      "enveloppe",
-      "fourchette",
-      "fourchette",
-      "agenda"
+      "jarretière",
+      "serrer",
+      "apiculteur"
     ],
     [
-      "coussin",
-      "recette",
-      "chaise",
-      "couteau",
-      "manuel",
-      "farine"
+      "jante",
+      "rondelle",
+      "mouillé",
+      "zénital",
+      "roulade",
+      "campanile"
     ],
     [
-      "four",
-      "rumeur",
-      "poêle",
-      "casserole",
-      "évier",
-      "globe"
+      "assembler",
+      "terminal",
+      "visser",
+      "allumage",
+      "éteindre",
+      "clé"
+    ],
+    [
+      "individuel",
+      "inflammatoire",
+      "tige",
+      "fortifier",
+      "desserrer",
+      "industriel"
     ]
   ],
   "rowClues": [
-    2,
     5,
     3,
+    3,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
     2,
     3,
     4
   ],
-  "colClues": [
-    2,
-    4,
-    3,
-    5,
-    3,
-    2
-  ],
-  "themeWord": "cuisine",
+  "themeWord": "boulon",
   "solution": [
     [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
       true,
@@ -89,36 +81,44 @@
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true,
       false
     ],
     [
       false,
+      true,
       false,
       false,
-      true,
-      true,
+      false,
       false
     ],
     [
-      false,
       true,
       false,
       true,
+      false,
       false,
       true
     ],
     [
+      false,
+      false,
       true,
       false,
       true,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

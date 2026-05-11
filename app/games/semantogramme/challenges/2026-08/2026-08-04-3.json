@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "moto",
-      "ferry",
-      "tramway",
-      "racine",
-      "fusée",
-      "moto"
+      "peluche",
+      "affluent",
+      "pratique",
+      "connecter",
+      "bricoler",
+      "crayon"
     ],
     [
-      "chaise",
-      "maison",
-      "métro",
-      "fusée",
-      "caravane",
-      "fusée"
+      "court",
+      "protocole",
+      "félicitation",
+      "conviction",
+      "alliance",
+      "jumeler"
     ],
     [
-      "scooter",
-      "métro",
-      "bus",
-      "serrure",
+      "casque",
+      "meurtrier",
+      "gronder",
+      "mobile",
+      "mythe",
+      "transférer"
+    ],
+    [
+      "portée",
+      "fondant",
       "voiture",
-      "silence"
+      "communiquer",
+      "wifi",
+      "surf"
     ],
     [
-      "règle",
-      "train",
-      "bus",
-      "bateau",
-      "moto",
-      "tramway"
+      "commercial",
+      "séchée",
+      "sévère",
+      "sans-fil",
+      "transfert",
+      "téléphone"
     ],
     [
-      "bus",
-      "vis",
-      "camion",
-      "train",
-      "clé",
-      "remorque"
-    ],
-    [
-      "maison",
-      "plateau",
-      "voiture",
-      "pierre",
-      "pince",
-      "racine"
+      "charnière",
+      "piété",
+      "gouvernement",
+      "forêt",
+      "haut-parleur",
+      "mémoire"
     ]
   ],
   "rowClues": [
-    5,
+    2,
+    3,
+    3,
     4,
-    4,
-    5,
-    4,
+    3,
     1
   ],
   "colClues": [
     3,
-    3,
-    6,
-    3,
+    1,
+    2,
     4,
-    4
+    3,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "bluetooth",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
       true,
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       true,
       true
     ],
     [
-      true,
       false,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       false,
       false,
       true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 16
 }

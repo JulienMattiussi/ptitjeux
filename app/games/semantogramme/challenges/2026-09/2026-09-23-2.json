@@ -5,64 +5,57 @@
   "height": 5,
   "words": [
     [
-      "couvert",
-      "véranda",
-      "horizon",
-      "pointer",
-      "soleil"
+      "restreint",
+      "bras",
+      "enseigne",
+      "épaulette",
+      "délai"
     ],
     [
-      "gousse",
-      "coq",
-      "élastique",
-      "pâle",
-      "noirâtre"
+      "rentrer",
+      "snow",
+      "tram",
+      "travailler",
+      "aisselle"
     ],
     [
-      "oiseau",
-      "crépuscule",
-      "naître",
-      "zoom",
-      "rosée"
+      "épaulé",
+      "porter",
+      "abdominal",
+      "trapèze",
+      "bretelle"
     ],
     [
-      "pantoufle",
-      "aurore",
-      "robuste",
-      "précoce",
-      "commencement"
+      "simultanée",
+      "humérus",
+      "hausser",
+      "seconde",
+      "deltoïde"
     ],
     [
-      "naissant",
-      "pratiquer",
-      "rosé",
-      "ventriloque",
-      "inspecter"
+      "torse",
+      "cou",
+      "clavicule",
+      "sangle",
+      "sillet"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    1,
     4,
     3,
-    2
+    4
   ],
   "colClues": [
     2,
-    3,
-    3,
+    4,
+    2,
     3,
     3
   ],
-  "themeWord": "aube",
+  "themeWord": "épaule",
   "solution": [
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
     [
       false,
       true,
@@ -71,24 +64,31 @@
       false
     ],
     [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
       true
     ],
     [
-      false,
       true,
-      false,
       true,
-      true
-    ],
-    [
       true,
-      false,
       true,
-      false,
       false
     ]
   ],

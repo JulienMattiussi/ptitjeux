@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "caméra",
-      "endurance",
-      "élan",
-      "olympique",
-      "mythique"
+      "guérir",
+      "dépouiller",
+      "familier",
+      "abstention",
+      "chinchilla"
     ],
     [
-      "quadrillage",
-      "bouillon",
-      "épuisant",
-      "gambette",
-      "expression"
+      "isoloir",
+      "bulletin",
+      "gourmander",
+      "démocratique",
+      "secret"
     ],
     [
-      "linéaire",
-      "moite",
-      "médaille",
-      "athlète",
-      "finir"
+      "cloche",
+      "majorité",
+      "citoyen",
+      "marteau",
+      "imprimée"
     ],
     [
-      "pupille",
-      "déchiffrer",
-      "dossard",
-      "récupérer",
-      "foulée"
+      "républicain",
+      "élection",
+      "frangin",
+      "balcon",
+      "élire"
     ],
     [
-      "départ",
-      "courir",
-      "arracher",
-      "long",
-      "kilomètre"
+      "voter",
+      "fulgurer",
+      "scrutin",
+      "serré",
+      "libre"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    3,
-    3,
-    4
-  ],
-  "colClues": [
-    1,
+    2,
+    4,
     2,
     3,
-    4,
-    4
+    3
   ],
-  "themeWord": "marathon",
+  "colClues": [
+    3,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "vote",
   "solution": [
     [
       false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
       true,
-      true
-    ],
-    [
       false,
       false,
-      true,
-      true,
       true
     ],
     [
       true,
-      true,
       false,
       true,
+      false,
       true
     ]
   ],

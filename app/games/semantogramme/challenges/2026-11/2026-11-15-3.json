@@ -5,114 +5,114 @@
   "height": 6,
   "words": [
     [
-      "bureau",
-      "flûte",
-      "enveloppe",
-      "jardin",
-      "agenda",
-      "note"
+      "rond",
+      "douleur",
+      "ligament",
+      "arthrose",
+      "national",
+      "tracteur"
     ],
     [
-      "ciseaux",
-      "enveloppe",
-      "panier",
-      "pince",
-      "concerto",
-      "piano"
+      "programme",
+      "extension",
+      "vase",
+      "tendon",
+      "élagage",
+      "coucher"
     ],
     [
-      "ombre",
-      "symphonie",
-      "note",
-      "mélodie",
-      "mur",
-      "porte"
+      "tapis",
+      "duveteux",
+      "articulation",
+      "entonner",
+      "détester",
+      "vétiver"
     ],
     [
-      "concerto",
-      "porte",
-      "miroir",
-      "mémoire",
-      "batterie",
-      "chemin"
+      "choc",
+      "agenouiller",
+      "rotule",
+      "grosse-caisse",
+      "jambe",
+      "patella"
     ],
     [
-      "piano",
-      "violon",
-      "racine",
-      "chaise",
-      "accord",
-      "règle"
+      "petit",
+      "jumelé",
+      "dompteur",
+      "protection",
+      "plier",
+      "fissure"
     ],
     [
-      "clé",
-      "brosse",
-      "miroir",
-      "ciseaux",
-      "flûte",
-      "pétale"
+      "prière",
+      "avironner",
+      "sustenter",
+      "développement",
+      "enfant",
+      "rétine"
     ]
   ],
   "rowClues": [
+    4,
     2,
+    1,
+    5,
     2,
+    2
+  ],
+  "colClues": [
     3,
-    2,
+    3,
+    3,
+    3,
     3,
     1
   ],
-  "colClues": [
-    2,
-    3,
-    1,
-    1,
-    4,
-    2
-  ],
-  "themeWord": "musique",
+  "themeWord": "genou",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
       false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
+      true,
       true
     ],
     [
       false,
       false,
       false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
       true,
       false
     ],
     [
       true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       false,
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 16
 }

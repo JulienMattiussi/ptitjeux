@@ -5,86 +5,86 @@
   "height": 6,
   "words": [
     [
-      "mauve",
-      "jaune",
-      "vis",
-      "blanc",
-      "violet",
-      "vert"
+      "soupe",
+      "mois",
+      "tarte",
+      "vision",
+      "cuit",
+      "cymbale"
     ],
     [
-      "racine",
-      "banquier",
-      "mémoire",
+      "distingué",
+      "comice",
+      "légume",
+      "baby",
+      "cingler",
+      "plaisanterie"
+    ],
+    [
+      "vitamine",
+      "fourrure",
+      "compost",
+      "ruelle",
+      "élève",
+      "fée"
+    ],
+    [
+      "gratin",
+      "cru",
+      "semis",
+      "grâce",
+      "richelieu",
+      "fer"
+    ],
+    [
+      "souterraine",
+      "frais",
+      "fauche",
+      "avant",
+      "siamois",
+      "quiche"
+    ],
+    [
+      "feuille",
+      "désir",
+      "champignon",
+      "vert",
       "jardin",
-      "ocre",
-      "racine"
-    ],
-    [
-      "blanc",
-      "brosse",
-      "balai",
-      "crayon",
-      "balai",
-      "turquoise"
-    ],
-    [
-      "jaune",
-      "beige",
-      "gomme",
-      "gomme",
-      "violet",
-      "serrure"
-    ],
-    [
-      "plateau",
-      "gris",
-      "indigo",
-      "bleu",
-      "mémoire",
-      "bleu"
-    ],
-    [
-      "miroir",
-      "gomme",
-      "argenté",
-      "doré",
-      "lampe",
-      "tournevis"
+      "tendre"
     ]
   ],
   "rowClues": [
-    5,
-    1,
-    2,
     3,
-    4,
-    2
+    2,
+    1,
+    3,
+    2,
+    4
   ],
   "colClues": [
-    3,
-    3,
+    4,
     2,
-    3,
-    3,
+    2,
+    2,
+    2,
     3
   ],
-  "themeWord": "couleur",
+  "themeWord": "épinard",
   "solution": [
     [
       true,
+      false,
       true,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       false
     ],
     [
@@ -93,32 +93,32 @@
       false,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true,
       true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

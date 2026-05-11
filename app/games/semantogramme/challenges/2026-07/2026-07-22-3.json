@@ -5,106 +5,106 @@
   "height": 6,
   "words": [
     [
-      "neige",
-      "brouillard",
-      "enveloppe",
-      "tabouret",
-      "vent",
-      "arc-en-ciel"
-    ],
-    [
-      "soleil",
-      "vent",
-      "devoir",
-      "rosée",
-      "tournevis",
-      "glace"
-    ],
-    [
-      "carnet",
-      "mur",
-      "rosée",
+      "croire",
+      "frire",
+      "effiler",
       "ciseaux",
-      "glace",
-      "serrure"
+      "sculpter",
+      "beurré"
     ],
     [
-      "orage",
-      "pluie",
-      "arc-en-ciel",
-      "verglas",
-      "soleil",
-      "horloge"
+      "sécateur",
+      "aiguiser",
+      "flottante",
+      "charogne",
+      "émonder",
+      "limpidité"
     ],
     [
-      "enveloppe",
-      "vent",
-      "gel",
-      "plateau",
-      "foudre",
-      "glace"
+      "couper",
+      "autorité",
+      "terminal",
+      "illégal",
+      "élaguer",
+      "cisaille"
     ],
     [
-      "lampe",
-      "arc-en-ciel",
-      "soleil",
-      "vent",
-      "orage",
-      "ombre"
+      "panier",
+      "pénale",
+      "poireau",
+      "avaricieux",
+      "ensemencer",
+      "rogner"
+    ],
+    [
+      "tronçonneuse",
+      "arbuste",
+      "rosier",
+      "primitive",
+      "raccourcir",
+      "haie"
+    ],
+    [
+      "journal",
+      "joie",
+      "taillis",
+      "hisser",
+      "rabattre",
+      "glacier"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    2,
+    3,
+    3,
+    3,
+    1,
     5,
-    4,
-    4
+    2
   ],
   "colClues": [
     3,
-    5,
-    4,
+    2,
     3,
+    1,
     5,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "tailler",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
       true,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
       true,
       true,
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       true,
       false,
@@ -113,12 +113,12 @@
     ],
     [
       false,
+      false,
       true,
-      true,
-      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 23
+  "parMoves": 17
 }

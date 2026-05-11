@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "basket",
-      "escalade",
-      "golf",
-      "tabouret",
-      "cyclisme",
-      "serrure"
+      "fer-forgé",
+      "assaisonner",
+      "verre",
+      "paisible",
+      "marron",
+      "alvéolée"
     ],
     [
-      "tapis",
-      "plateau",
-      "voile",
-      "ombre",
-      "course",
-      "escalade"
+      "clameur",
+      "serre",
+      "plante",
+      "éducatif",
+      "candeur",
+      "courbe"
     ],
     [
-      "pince",
-      "volley",
-      "marathon",
-      "basket",
-      "danse",
-      "marathon"
+      "lumière",
+      "remplir",
+      "sable",
+      "tropicale",
+      "bolet",
+      "fleur"
     ],
     [
-      "course",
-      "racine",
-      "mémoire",
-      "tabouret",
-      "clé",
-      "course"
+      "lire",
+      "fenêtre",
+      "pénale",
+      "aluminium",
+      "transparente",
+      "lavoir"
     ],
     [
-      "football",
-      "ciseaux",
-      "marathon",
-      "rugby",
-      "tunnel",
-      "gym"
+      "corne",
+      "chaude",
+      "lumineuse",
+      "tour",
+      "bronzer",
+      "jardin"
     ],
     [
-      "marathon",
-      "natation",
-      "tunnel",
-      "chemin",
-      "golf",
-      "danse"
+      "soleil",
+      "glousser",
+      "envier",
+      "suspendu",
+      "extérieur",
+      "profiter"
     ]
   ],
   "rowClues": [
+    3,
+    2,
+    3,
     4,
     3,
-    5,
-    2,
-    4,
-    4
+    3
   ],
   "colClues": [
     4,
-    3,
-    4,
     2,
-    4,
-    5
+    3,
+    3,
+    3,
+    3
   ],
-  "themeWord": "sport",
+  "themeWord": "véranda",
   "solution": [
     [
       true,
+      false,
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       true,
       false
     ],
@@ -88,37 +112,13 @@
       true
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 18
 }

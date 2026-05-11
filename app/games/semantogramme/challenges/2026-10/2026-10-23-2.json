@@ -5,89 +5,89 @@
   "height": 5,
   "words": [
     [
-      "froid",
-      "vague",
-      "industriel",
-      "sable",
-      "grill"
+      "couloir",
+      "pencher",
+      "choix",
+      "fruit",
+      "doux"
     ],
     [
-      "longer",
-      "tendu",
-      "plasma",
-      "crique",
-      "côtier"
+      "chorégraphie",
+      "rétrécir",
+      "fente",
+      "stalagmite",
+      "pratique"
     ],
     [
-      "borner",
-      "message",
-      "uni",
-      "escarpé",
-      "soufflé"
+      "serré",
+      "nappe",
+      "serrure",
+      "resserrer",
+      "pincé"
     ],
     [
-      "falaise",
-      "sablonneux",
-      "maritime",
-      "grossir",
-      "géométrique"
+      "filiation",
+      "roi",
+      "sentier",
+      "tisane",
+      "comprimer"
     ],
     [
-      "pédalier",
-      "négatif",
-      "mer",
-      "immaculé",
-      "fouler"
+      "goulot",
+      "restreint",
+      "agrafe",
+      "geindre",
+      "mince"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    3,
+    4,
     2,
-    3,
-    2
+    3
   ],
   "colClues": [
     3,
     2,
-    2,
     3,
-    2
+    1,
+    3
   ],
-  "themeWord": "rivage",
+  "themeWord": "étroit",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
     [
       false,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
+      true,
       true,
       true
     ],
     [
-      true,
       false,
       false,
       true,
-      false
+      false,
+      true
     ],
     [
       true,
       true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       true
     ]

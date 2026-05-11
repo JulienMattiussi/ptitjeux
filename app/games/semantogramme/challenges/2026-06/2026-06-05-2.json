@@ -5,82 +5,82 @@
   "height": 5,
   "words": [
     [
-      "rempli",
-      "multitude",
-      "brassé",
-      "astéroïde",
-      "porter"
+      "aînée",
+      "écossais",
+      "sororité",
+      "rotule",
+      "boxe"
     ],
     [
-      "sono",
-      "foule",
-      "abondance",
-      "chef",
-      "masse"
+      "artistique",
+      "famille",
+      "maillot",
+      "cadette",
+      "libellule"
     ],
     [
-      "toit",
-      "remplissage",
-      "grec",
-      "balai",
-      "remplir"
+      "fratrie",
+      "enfance",
+      "aiguisoir",
+      "parent",
+      "fraternel"
     ],
     [
-      "lettre",
-      "mars",
-      "bondé",
-      "comble",
-      "force"
+      "partager",
+      "baisser",
+      "dé",
+      "germaine",
+      "costume"
     ],
     [
-      "farci",
-      "crawl",
-      "contenu",
-      "profusion",
-      "combler"
+      "consanguin",
+      "bave",
+      "jumelle",
+      "frère",
+      "étreindre"
     ]
   ],
   "rowClues": [
     2,
-    3,
     2,
-    2,
-    4
-  ],
-  "colClues": [
-    2,
-    3,
-    3,
+    4,
     2,
     3
   ],
-  "themeWord": "plein",
+  "colClues": [
+    4,
+    2,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "soeur",
   "solution": [
     [
       true,
-      true,
       false,
+      true,
       false,
       false
     ],
     [
       false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
+      true,
       true
     ],
     [
-      false,
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false
     ],
@@ -89,7 +89,7 @@
       false,
       true,
       true,
-      true
+      false
     ]
   ],
   "parMoves": 13

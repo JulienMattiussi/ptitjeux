@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "majestueux",
-      "fût",
-      "carquois",
-      "transpercer",
-      "visière"
+      "huile",
+      "gouache",
+      "spiritual",
+      "confessionnal",
+      "cortège"
     ],
     [
-      "aigu",
-      "trait",
-      "oculus",
-      "bonbon",
-      "arc"
+      "couleur",
+      "nouveauté",
+      "pigment",
+      "chevalet",
+      "pinceau"
     ],
     [
-      "pointu",
-      "mystérieux",
-      "plume",
-      "foudroyant",
-      "archer"
+      "forum",
+      "acrylique",
+      "expressif",
+      "enduire",
+      "peintre"
     ],
     [
-      "lumineux",
-      "filer",
-      "rapide",
-      "signaler",
-      "véloce"
+      "fresque",
+      "tableau",
+      "shopping",
+      "toile",
+      "odorante"
     ],
     [
-      "décoche",
-      "pelote",
-      "ivoire",
-      "décocher",
-      "institut"
+      "colorier",
+      "peinture",
+      "badigeonner",
+      "titane",
+      "frire"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
     4,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
-    3,
     3,
     3,
     3
   ],
-  "themeWord": "flèche",
+  "colClues": [
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "peindre",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ],
     [
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false
     ]
   ],

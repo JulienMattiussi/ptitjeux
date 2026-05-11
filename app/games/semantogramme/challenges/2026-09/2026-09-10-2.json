@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "écouteur",
-      "poupon",
-      "nourrir",
-      "nourrisson",
-      "berceau"
+      "graine",
+      "atome",
+      "lilliputien",
+      "gouvernail",
+      "puce"
     ],
     [
-      "bulletin",
-      "sincère",
-      "menuisier",
-      "téter",
-      "assoupir"
+      "minimiser",
+      "microbe",
+      "rapetisser",
+      "narine",
+      "molécule"
     ],
     [
-      "diaphragme",
-      "bûche",
-      "biberon",
-      "porter",
-      "nouveau-né"
+      "menu",
+      "navigateur",
+      "crocs",
+      "givre",
+      "feuilletage"
     ],
     [
-      "minuscule",
-      "guérir",
-      "jonc",
-      "hublot",
-      "allaiter"
+      "miette",
+      "masser",
+      "nain",
+      "fourmi",
+      "particule"
     ],
     [
-      "naître",
-      "instant",
-      "enfant",
-      "doudou",
-      "tétine"
+      "illusoire",
+      "peintre",
+      "infime",
+      "gloussement",
+      "gravure"
     ]
   ],
   "rowClues": [
     4,
+    4,
     1,
-    3,
-    2,
-    4
+    4,
+    1
   ],
   "colClues": [
-    2,
-    1,
-    3,
     4,
-    4
+    2,
+    4,
+    1,
+    3
   ],
-  "themeWord": "bébé",
+  "themeWord": "minuscule",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
       true
     ],
     [
-      false,
-      false,
-      false,
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      false,
+      true,
       false,
       true,
       true,
       true
     ],
     [
-      true,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
       false,
-      true,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 14

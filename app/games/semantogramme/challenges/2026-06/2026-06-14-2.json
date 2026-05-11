@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "porcelaine",
-      "commode",
-      "plan",
-      "soie",
-      "éléphant"
+      "ordure",
+      "enterré",
+      "graisse",
+      "cabernet",
+      "crotté"
     ],
     [
-      "organe",
-      "planeur",
-      "polir",
-      "caramel",
-      "satin"
+      "pilule",
+      "tache",
+      "malpropre",
+      "salir",
+      "ranger"
     ],
     [
-      "glisser",
-      "velours",
-      "sacoche",
-      "frigorifique",
-      "marbre"
+      "détritus",
+      "bec",
+      "arachnide",
+      "crasseux",
+      "pépite"
     ],
     [
-      "uni",
-      "démocratie",
-      "profonde",
-      "aplanir",
-      "plat"
+      "souiller",
+      "souillure",
+      "ratatouille",
+      "maculer",
+      "crasse"
     ],
     [
-      "plastique",
-      "verre",
-      "parquet",
-      "lustrer",
-      "monstrueux"
+      "dégoûtant",
+      "poussière",
+      "estival",
+      "colorée",
+      "salissure"
     ]
   ],
   "rowClues": [
     3,
+    3,
     2,
-    3,
-    3,
-    4
+    4,
+    3
   ],
   "colClues": [
     4,
-    2,
     3,
+    2,
     3,
     3
   ],
-  "themeWord": "lisse",
+  "themeWord": "sale",
   "solution": [
     [
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false
     ],
     [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 15

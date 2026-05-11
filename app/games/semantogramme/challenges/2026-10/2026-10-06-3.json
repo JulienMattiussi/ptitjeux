@@ -6,110 +6,86 @@
   "words": [
     [
       "orange",
-      "rouge",
-      "doré",
-      "doré",
-      "jaune",
-      "tapis"
+      "sucrée",
+      "amère",
+      "poule",
+      "velours",
+      "juteuse"
     ],
     [
-      "règle",
-      "mauve",
-      "chemin",
-      "brosse",
-      "orange",
-      "rouge"
+      "cardiaque",
+      "médicale",
+      "fauconnerie",
+      "cueillette",
+      "caniculaire",
+      "passager"
     ],
     [
-      "beige",
-      "livre",
-      "ocre",
-      "agenda",
-      "orange",
-      "silence"
+      "liqueur",
+      "paysan",
+      "peloton",
+      "anguille",
+      "souiller",
+      "sécurité"
     ],
     [
-      "rumeur",
-      "mémoire",
-      "serrure",
-      "orange",
-      "manuel",
-      "jaune"
+      "tarte",
+      "gourmandise",
+      "éjecter",
+      "ébénisterie",
+      "pivoine",
+      "vétiver"
     ],
     [
-      "beige",
-      "manuel",
-      "fusée",
-      "doré",
-      "chemin",
-      "beige"
+      "porte",
+      "odorante",
+      "soufflé",
+      "compote",
+      "sciure",
+      "patinette"
     ],
     [
-      "beige",
-      "livre",
-      "chaise",
-      "étoile",
-      "tunnel",
-      "caillou"
+      "pulpe",
+      "fruit",
+      "rose",
+      "char",
+      "éplucher",
+      "duveteux"
     ]
   ],
   "rowClues": [
-    5,
-    3,
-    3,
+    4,
+    1,
+    1,
     2,
-    3,
-    1
+    2,
+    5
   ],
   "colClues": [
     4,
+    4,
+    1,
     2,
     2,
-    3,
-    3,
-    3
+    2
   ],
-  "themeWord": "couleur",
+  "themeWord": "pêche",
   "solution": [
     [
       true,
       true,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
-      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
     ],
     [
       true,
@@ -118,7 +94,31 @@
       false,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

@@ -5,71 +5,71 @@
   "height": 6,
   "words": [
     [
-      "lèvre",
-      "pied",
-      "tête",
-      "étagère",
-      "cadre",
-      "ongle"
+      "tireur",
+      "pistolet",
+      "plomb",
+      "tablette",
+      "féminité",
+      "percussion"
     ],
     [
-      "pelle",
-      "tapis",
-      "genou",
-      "dent",
-      "panier",
-      "jambe"
+      "rafale",
+      "projectile",
+      "colle",
+      "limbe",
+      "arme",
+      "arc"
     ],
     [
-      "main",
-      "dent",
-      "chemin",
-      "chemin",
-      "table",
-      "dent"
+      "arthrose",
+      "fusil",
+      "penalty",
+      "pointage",
+      "flèche",
+      "cathédrale"
     ],
     [
-      "agenda",
-      "panier",
-      "caillou",
-      "tête",
-      "langue",
-      "porte"
+      "détente",
+      "salve",
+      "fonte",
+      "vespéral",
+      "recul",
+      "détonation"
     ],
     [
-      "crayon",
-      "bureau",
-      "lèvre",
-      "jambe",
-      "bouche",
-      "main"
+      "gymnase",
+      "cartouche",
+      "filer",
+      "replier",
+      "défiler",
+      "défier"
     ],
     [
-      "clé",
-      "bouche",
-      "peau",
-      "plateau",
-      "langue",
-      "ciseaux"
+      "acide",
+      "argenté",
+      "gâchette",
+      "caniche",
+      "cymbalettes",
+      "disque"
     ]
   ],
   "rowClues": [
     4,
-    3,
-    3,
-    2,
     4,
-    3
+    3,
+    4,
+    1,
+    1
   ],
   "colClues": [
+    3,
+    5,
     2,
+    1,
     3,
-    4,
-    3,
-    3,
-    4
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "tirer",
   "solution": [
     [
       true,
@@ -80,45 +80,45 @@
       true
     ],
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       true,
       false,
       false,
-      false,
+      true,
       true
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
       true,
       false
     ],
     [
-      false,
-      false,
       true,
       true,
+      false,
+      false,
       true,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

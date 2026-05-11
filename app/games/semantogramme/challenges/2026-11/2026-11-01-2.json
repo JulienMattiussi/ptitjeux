@@ -5,73 +5,80 @@
   "height": 5,
   "words": [
     [
-      "national",
-      "remontoir",
-      "combinaison",
-      "vipère",
-      "planche"
+      "vin",
+      "guignol",
+      "bouteille",
+      "casier",
+      "obscurité"
     ],
     [
-      "mer",
-      "tapage",
-      "percer",
-      "rider",
-      "cordage"
+      "russule",
+      "descendre",
+      "vieillir",
+      "tonneau",
+      "humidité"
     ],
     [
-      "glisser",
-      "hawaïen",
-      "surfer",
-      "soudure",
-      "harpie"
+      "gambade",
+      "frais",
+      "voûte",
+      "amertume",
+      "arche"
     ],
     [
-      "cristal",
-      "congé",
-      "vitre",
-      "tube",
-      "plage"
+      "triceps",
+      "stocker",
+      "voûtée",
+      "hanter",
+      "pâlir"
     ],
     [
-      "bondé",
-      "vague",
-      "leash",
-      "californien",
-      "aquatique"
+      "spectral",
+      "sombre",
+      "mégapixel",
+      "quadratique",
+      "foret"
     ]
   ],
   "rowClues": [
+    4,
+    4,
     2,
     2,
-    3,
-    2,
-    4
+    1
   ],
   "colClues": [
+    1,
+    4,
+    4,
     2,
-    2,
-    3,
-    3,
-    3
+    2
   ],
-  "themeWord": "surf",
+  "themeWord": "cave",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
+      true,
+      true,
       true
     ],
     [
-      true,
-      false,
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -79,17 +86,10 @@
     ],
     [
       false,
+      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 13

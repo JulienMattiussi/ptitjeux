@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "chuter",
-      "discuter",
-      "chevalier",
-      "messe",
-      "valse"
+      "espace",
+      "caïeu",
+      "scolaire",
+      "rare",
+      "étoile"
     ],
     [
-      "légendaire",
-      "hymne",
-      "pirogue",
-      "brume",
-      "majestueux"
+      "métamorphose",
+      "cible",
+      "observer",
+      "orbite",
+      "lointaine"
     ],
     [
-      "écaille",
-      "voler",
-      "trésor",
-      "queue",
-      "pâtissier"
+      "longue",
+      "caresser",
+      "orbiter",
+      "astre",
+      "gronder"
     ],
     [
-      "terminal",
-      "mythique",
-      "gigantesque",
-      "terrasse",
-      "marron"
+      "spectaculaire",
+      "profonde",
+      "irritation",
+      "voltaire",
+      "cosmos"
     ],
     [
-      "caverne",
-      "cracher",
-      "brûler",
-      "féroce",
-      "rouge"
+      "caillouteux",
+      "glacée",
+      "poil",
+      "filer",
+      "indépendante"
     ]
   ],
   "rowClues": [
-    1,
+    3,
+    3,
+    3,
     2,
-    4,
-    2,
-    4
+    2
   ],
   "colClues": [
     3,
-    3,
-    4,
+    1,
     2,
-    1
+    4,
+    3
   ],
-  "themeWord": "dragon",
+  "themeWord": "comète",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
     [
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
+      true,
+      true,
       false
     ],
     [
@@ -71,23 +85,9 @@
       true
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false
     ]

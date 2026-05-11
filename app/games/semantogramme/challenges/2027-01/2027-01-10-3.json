@@ -5,119 +5,119 @@
   "height": 6,
   "words": [
     [
-      "métro",
-      "panneau",
-      "navette",
-      "pelle",
-      "enveloppe",
-      "miroir"
+      "médiévale",
+      "mécanisée",
+      "fraude",
+      "manger",
+      "paletot",
+      "distance"
     ],
     [
-      "scooter",
-      "autobus",
-      "vélo",
-      "plafond",
-      "vélo",
-      "racine"
+      "couteau",
+      "attraper",
+      "aisé",
+      "bougie",
+      "limaces",
+      "patte"
     ],
     [
-      "cadre",
-      "vélo",
-      "tournevis",
-      "tasse",
-      "prison",
-      "caravane"
+      "crucifère",
+      "épine",
+      "rouler",
+      "élever",
+      "boule",
+      "mammifère"
     ],
     [
-      "vis",
-      "panneau",
-      "tramway",
-      "tabouret",
-      "règle",
-      "vélo"
+      "forêt",
+      "aumône",
+      "gratteler",
+      "haie",
+      "velu",
+      "petit"
     ],
     [
-      "ferry",
-      "agenda",
-      "silence",
-      "métro",
-      "agenda",
-      "bus"
+      "ministériel",
+      "défense",
+      "nocturne",
+      "feuille",
+      "promenade",
+      "jardin"
     ],
     [
-      "enveloppe",
-      "avion",
-      "camion",
-      "pince",
-      "tapis",
-      "tramway"
+      "patriarche",
+      "paysage",
+      "fratrie",
+      "piquant",
+      "lèvre",
+      "plongée"
     ]
   ],
   "rowClues": [
+    1,
     2,
     4,
-    2,
-    2,
-    3,
-    3
+    4,
+    4,
+    1
   ],
   "colClues": [
-    3,
-    3,
+    1,
+    2,
+    2,
     4,
-    1,
-    1,
+    3,
     4
   ],
-  "themeWord": "transport",
+  "themeWord": "hérisson",
   "solution": [
     [
-      true,
+      false,
+      false,
       false,
       true,
-      false,
       false,
       false
     ],
     [
+      false,
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 16

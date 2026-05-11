@@ -5,83 +5,69 @@
   "height": 5,
   "words": [
     [
-      "énigmer",
-      "antique",
-      "crétois",
-      "haltère",
-      "lion"
+      "jaunisse",
+      "week-end",
+      "jaune",
+      "cirrhotique",
+      "biliaire"
     ],
     [
-      "garder",
-      "questionner",
-      "femme",
-      "colossal",
-      "manche"
+      "ictère",
+      "détoxifier",
+      "gui",
+      "aviaire",
+      "sécréter"
     ],
     [
-      "gingembre",
-      "gigantesque",
-      "égypte",
-      "aisselle",
-      "égyptien"
+      "piscine",
+      "pâté",
+      "cirrhose",
+      "hépatique",
+      "lourdeur"
     ],
     [
-      "saison",
-      "dracula",
-      "pic",
-      "pyramide",
-      "aile"
+      "grisaille",
+      "plomb",
+      "hépatite",
+      "filtrer",
+      "plat"
     ],
     [
-      "an",
-      "antiquité",
-      "gardien",
-      "mystérieux",
-      "vision"
+      "glycogène",
+      "pesant",
+      "libraire",
+      "organe",
+      "vésicule"
     ]
   ],
   "rowClues": [
-    3,
     4,
+    3,
     3,
     2,
     3
   ],
   "colClues": [
+    3,
     2,
+    3,
     4,
-    3,
-    3,
     3
   ],
-  "themeWord": "sphinx",
+  "themeWord": "foie",
   "solution": [
     [
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      false,
-      true,
       true
     ],
     [
@@ -90,6 +76,20 @@
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 15

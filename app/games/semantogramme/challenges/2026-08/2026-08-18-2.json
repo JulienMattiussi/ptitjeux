@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "tisane",
-      "douze",
-      "éliminer",
-      "couloir",
-      "brièveté"
+      "vainqueur",
+      "immense",
+      "écrit",
+      "assimiler",
+      "addition"
     ],
     [
-      "joyau",
-      "défilé",
-      "exigu",
-      "bulletin",
-      "fissure"
+      "fer-forgé",
+      "agressif",
+      "précis",
+      "produit",
+      "division"
     ],
     [
-      "goulot",
-      "broche",
-      "fente",
-      "pincé",
-      "sentier"
+      "brûlant",
+      "curcuma",
+      "chiffre",
+      "opération",
+      "somme"
     ],
     [
-      "éditorial",
-      "soja",
-      "ruelle",
-      "serrure",
-      "passage"
+      "quinine",
+      "additionner",
+      "multiplication",
+      "bottine",
+      "sensuel"
     ],
     [
-      "noueux",
-      "bijou",
-      "mythe",
-      "rivet",
-      "resserrer"
+      "résultat",
+      "soustraction",
+      "plane",
+      "tomahawk",
+      "olive"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
-    4,
     3,
-    1
+    2,
+    2
   ],
   "colClues": [
     1,
-    1,
-    3,
-    3,
-    4
+    2,
+    4,
+    2,
+    3
   ],
-  "themeWord": "étroit",
+  "themeWord": "calcul",
   "solution": [
     [
       false,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       false
     ],
     [
-      false,
       true,
       true,
       false,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 12

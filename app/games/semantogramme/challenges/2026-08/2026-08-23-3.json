@@ -5,99 +5,83 @@
   "height": 6,
   "words": [
     [
-      "miroir",
-      "tunnel",
-      "racine",
-      "gomme",
-      "bureau",
-      "verre"
+      "coque",
+      "salade",
+      "enflure",
+      "bondir",
+      "cocon",
+      "séchée"
     ],
     [
-      "assiette",
-      "peigne",
-      "farine",
-      "farine",
-      "panneau",
-      "verre"
+      "siamois",
+      "huile",
+      "rond",
+      "gâteau",
+      "apéritif",
+      "rugueuse"
     ],
     [
-      "four",
-      "chaise",
-      "peigne",
-      "épice",
-      "pétale",
-      "fourchette"
+      "pelle",
+      "sec",
+      "cueillette",
+      "piano",
+      "strophe",
+      "umami"
     ],
     [
-      "plafond",
-      "chemin",
-      "tablier",
-      "couteau",
-      "couteau",
-      "casserole"
+      "abandonner",
+      "casser",
+      "vitrine",
+      "défier",
+      "liqueur",
+      "corner"
     ],
     [
-      "évier",
-      "frigo",
-      "panier",
-      "assiette",
-      "miroir",
-      "vis"
+      "fruit",
+      "noyer",
+      "cerneau",
+      "trophée",
+      "synchrone",
+      "apporter"
     ],
     [
-      "casserole",
-      "racine",
-      "cuillère",
-      "poêle",
-      "coussin",
-      "couteau"
+      "tatouer",
+      "glaçage",
+      "pâtisserie",
+      "beurre",
+      "pique-nique",
+      "brasier"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    3,
-    4,
-    3,
-    4
-  ],
-  "colClues": [
-    4,
-    1,
     3,
     5,
-    1,
-    5
+    3,
+    2,
+    3,
+    2
   ],
-  "themeWord": "cuisine",
+  "colClues": [
+    3,
+    5,
+    4,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "noix",
   "solution": [
     [
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false,
       true
     ],
     [
-      true,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       true,
@@ -106,19 +90,35 @@
     [
       true,
       true,
-      false,
       true,
+      false,
       false,
       false
     ],
     [
+      false,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

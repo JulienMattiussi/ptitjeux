@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "écureuil",
-      "fournir",
-      "rare",
-      "période",
-      "écouler"
+      "sieste",
+      "oreiller",
+      "pyjama",
+      "aimable",
+      "somme"
     ],
     [
-      "levure",
-      "client",
-      "gibier",
-      "boutique",
-      "pupille"
+      "rêver",
+      "croisière",
+      "voir",
+      "cabré",
+      "nuit"
     ],
     [
-      "cercle",
-      "vente",
-      "tampon",
-      "prédateur",
-      "vendeur"
+      "muscler",
+      "trottoir",
+      "fatigue",
+      "somnoler",
+      "peindre"
     ],
     [
-      "commercialiser",
-      "ovale",
-      "troc",
-      "marchand",
-      "seconde"
+      "capteur",
+      "restauration",
+      "gag",
+      "assoupir",
+      "hurlement"
     ],
     [
-      "sarcasme",
-      "exaucer",
-      "livrer",
-      "fournil",
-      "caisse"
+      "ministre",
+      "arme",
+      "assouplir",
+      "couverture",
+      "sommeil"
     ]
   ],
   "rowClues": [
+    4,
     2,
     2,
-    2,
-    3,
+    1,
     2
   ],
   "colClues": [
+    2,
     1,
+    2,
     3,
-    2,
-    2,
     3
   ],
-  "themeWord": "vendre",
+  "themeWord": "dormir",
   "solution": [
     [
-      false,
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
       true,
@@ -87,8 +80,15 @@
     [
       false,
       false,
-      true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       true
     ]
   ],

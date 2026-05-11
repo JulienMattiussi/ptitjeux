@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "putter",
-      "chapelet",
-      "griffonner",
-      "bricoler",
-      "lettre"
+      "pied",
+      "cheville",
+      "tibia",
+      "but",
+      "rusé"
     ],
     [
-      "gribouiller",
-      "onde",
-      "feuille",
-      "mot",
-      "balcon"
+      "verte",
+      "remercier",
+      "transfert",
+      "marcher",
+      "plier"
     ],
     [
-      "havresac",
-      "cahier",
-      "transcrire",
-      "noter",
-      "crayon"
+      "courir",
+      "rotule",
+      "fessier",
+      "gambette",
+      "corné"
     ],
     [
-      "évider",
-      "crique",
-      "magasin",
-      "stylo",
-      "auteur"
+      "gambade",
+      "férié",
+      "mollet",
+      "genou",
+      "cuisse"
     ],
     [
-      "titre",
-      "rédiger",
-      "phrase",
-      "plume",
-      "manuscrit"
+      "fémur",
+      "douce",
+      "princesse",
+      "sauter",
+      "rougeâtre"
     ]
   ],
   "rowClues": [
+    3,
+    2,
+    4,
+    4,
+    2
+  ],
+  "colClues": [
+    4,
     2,
     3,
     4,
-    2,
-    4
+    2
   ],
-  "colClues": [
-    1,
-    2,
-    4,
-    4,
-    4
-  ],
-  "themeWord": "écrire",
+  "themeWord": "jambe",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
     [
       false,
       false,
-      true,
       false,
+      true,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       true,
       false
     ],
     [
-      false,
       true,
+      false,
       true,
       true,
       true
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 15

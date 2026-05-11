@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "évacuer",
-      "antenne",
-      "briser",
-      "vitre",
-      "brillant"
+      "sommet",
+      "rival",
+      "ramer",
+      "pygmée",
+      "figure"
     ],
     [
-      "majeur",
-      "maternel",
-      "veine",
-      "bouteille",
-      "soufflage"
+      "paresseux",
+      "collecter",
+      "rectangle",
+      "consoler",
+      "plane"
     ],
     [
-      "gobelet",
-      "instituteur",
-      "transparenter",
-      "limpide",
-      "arôme"
+      "globule",
+      "cercle",
+      "tracer",
+      "losange",
+      "trampoline"
     ],
     [
-      "cristal",
-      "fragile",
-      "cassant",
-      "oiseau",
-      "lisse"
+      "côté",
+      "carré",
+      "analytique",
+      "agriculture",
+      "précise"
     ],
     [
-      "sage-femme",
-      "éclat",
-      "fenêtre",
-      "souffler",
-      "néphron"
+      "triangle",
+      "mesurer",
+      "flûte",
+      "dessiner",
+      "mathématique"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     2,
     3,
     4,
-    3
+    4
   ],
   "colClues": [
+    3,
+    3,
+    3,
     2,
-    2,
-    4,
-    4,
-    3
+    4
   ],
-  "themeWord": "verre",
+  "themeWord": "géométrie",
   "solution": [
     [
+      true,
       false,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
       true
@@ -90,6 +76,20 @@
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 15

@@ -5,101 +5,77 @@
   "height": 6,
   "words": [
     [
-      "pétale",
-      "ski",
-      "tennis",
-      "bureau",
-      "natation",
-      "volley"
+      "carmin",
+      "jouer",
+      "clé",
+      "grande",
+      "rave",
+      "souffler"
     ],
     [
-      "pince",
-      "gym",
-      "prière",
-      "tennis",
-      "judo",
-      "peigne"
+      "souple",
+      "résonant",
+      "aigu",
+      "sournois",
+      "expressif",
+      "lyrique"
     ],
     [
-      "course",
-      "gomme",
-      "manuel",
-      "brosse",
-      "écran",
-      "caillou"
+      "pavillon",
+      "code",
+      "geindre",
+      "loi",
+      "mélodieux",
+      "jument"
     ],
     [
-      "natation",
-      "ski",
-      "football",
-      "devoir",
-      "horloge",
-      "judo"
+      "instrument",
+      "embouchure",
+      "vision",
+      "orchestre",
+      "long",
+      "destrier"
     ],
     [
-      "tunnel",
-      "chemin",
-      "escalade",
-      "marteau",
-      "racine",
-      "sol"
+      "anche",
+      "batteur",
+      "noir",
+      "jazz",
+      "croquant",
+      "gloussement"
     ],
     [
-      "marathon",
-      "course",
-      "cyclisme",
-      "natation",
-      "judo",
-      "pétale"
+      "chambre",
+      "spyware",
+      "klezmer",
+      "bois",
+      "cramoisi",
+      "choir"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    2,
     4,
     3,
-    1,
-    4,
-    1,
-    5
+    3
   ],
   "colClues": [
-    3,
-    4,
     4,
     2,
+    4,
+    3,
     3,
     2
   ],
-  "themeWord": "sport",
+  "themeWord": "clarinette",
   "solution": [
     [
       false,
       true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       false,
       true
     ],
@@ -108,15 +84,39 @@
       false,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
+      false,
+      false,
+      true,
       false
     ],
     [
       true,
       true,
+      false,
       true,
       true,
+      false
+    ],
+    [
       true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
       false
     ]
   ],

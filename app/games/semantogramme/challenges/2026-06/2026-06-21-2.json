@@ -5,76 +5,83 @@
   "height": 5,
   "words": [
     [
-      "gerboise",
-      "tumulte",
-      "tonnerre",
-      "damnation",
-      "printemps"
-    ],
-    [
-      "assourdissant",
-      "chapitre",
-      "tonner",
-      "repos",
-      "noix"
-    ],
-    [
-      "gourmandise",
-      "tapage",
-      "résonner",
-      "porcelaine",
-      "vacarme"
-    ],
-    [
-      "klaxon",
-      "gronder",
-      "ski",
-      "coussin",
+      "cellulose",
+      "lisse",
+      "journal",
+      "sel",
       "fracas"
     ],
     [
-      "variable",
-      "cacophonique",
-      "tonitruant",
-      "boucan",
-      "compétent"
+      "fin",
+      "restreint",
+      "saluer",
+      "soléaire",
+      "passion"
+    ],
+    [
+      "ventricule",
+      "colline",
+      "livre",
+      "origami",
+      "cible"
+    ],
+    [
+      "inaugurer",
+      "arbre",
+      "imprimerie",
+      "écrire",
+      "carnet"
+    ],
+    [
+      "fragile",
+      "recyclable",
+      "parodie",
+      "taille",
+      "recycler"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    3,
+    1,
+    2,
+    4,
     3
   ],
   "colClues": [
+    3,
+    3,
+    3,
     2,
-    4,
-    4,
-    1,
     2
   ],
-  "themeWord": "bruyant",
+  "themeWord": "papier",
   "solution": [
     [
-      false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false
     ],
     [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       true
     ],
     [
@@ -83,13 +90,6 @@
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 13

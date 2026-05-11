@@ -5,119 +5,119 @@
   "height": 6,
   "words": [
     [
-      "évier",
-      "enveloppe",
-      "verre",
-      "porte",
-      "pelle",
-      "épice"
+      "aigreur",
+      "maladie",
+      "doberman",
+      "risque",
+      "piquer",
+      "volley"
     ],
     [
-      "ciseaux",
-      "lueur",
-      "clé",
-      "fourchette",
-      "farine",
-      "tunnel"
+      "soif",
+      "épidémie",
+      "chronique",
+      "rotor",
+      "sucré",
+      "glycémie"
     ],
     [
-      "plat",
-      "gomme",
-      "savon",
-      "pétale",
-      "frigo",
-      "verre"
+      "insuline",
+      "pancréas",
+      "hurlement",
+      "touristique",
+      "aérienne",
+      "obésité"
     ],
     [
-      "tabouret",
-      "farine",
-      "poêle",
-      "timbre",
-      "ombre",
-      "tablier"
+      "coudre",
+      "injecter",
+      "sucre",
+      "piqûre",
+      "lustrer",
+      "roucouler"
     ],
     [
-      "tablier",
-      "farine",
-      "plat",
-      "sol",
-      "lueur",
-      "panneau"
+      "parc",
+      "gestationnel",
+      "grossir",
+      "panne",
+      "mellitus",
+      "urine"
     ],
     [
-      "frigo",
-      "voisin",
-      "agenda",
-      "farine",
-      "verre",
-      "farine"
+      "mesurer",
+      "pauser",
+      "parodie",
+      "rosier",
+      "régime",
+      "final"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    5,
     3,
     3,
     3,
-    4
+    2
   ],
   "colClues": [
+    3,
+    5,
+    2,
+    1,
     4,
-    2,
-    3,
-    2,
-    3,
-    4
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "diabète",
   "solution": [
     [
-      true,
       false,
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
       false,
       false
     ],
     [
+      false,
       true,
       false,
       false,
-      true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 18

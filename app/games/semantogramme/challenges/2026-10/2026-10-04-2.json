@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "sortilège",
-      "électrique",
-      "malice",
-      "farfadet",
-      "industrielle"
+      "avion",
+      "division",
+      "omoplate",
+      "dévorer",
+      "appât"
     ],
     [
-      "lame",
-      "forêt",
-      "pointu",
-      "farce",
-      "spécialiste"
+      "théâtre",
+      "dorsal",
+      "scoliose",
+      "échine",
+      "effort"
     ],
     [
-      "zénital",
-      "espiègle",
-      "magique",
-      "gouda",
-      "préserver"
+      "reins",
+      "californien",
+      "bossu",
+      "nuque",
+      "lisse"
     ],
     [
-      "minuscule",
-      "gnome",
-      "commode",
-      "malicieux",
-      "farceur"
+      "coloré",
+      "pencher",
+      "limpidité",
+      "somnoler",
+      "lombaire"
     ],
     [
-      "maudire",
-      "taquiner",
-      "damier",
-      "tour",
-      "pépin"
+      "lumbago",
+      "épine",
+      "vertèbre",
+      "royal",
+      "sciatique"
     ]
   ],
   "rowClues": [
-    2,
+    1,
+    3,
     3,
     2,
-    4,
-    2
+    4
   ],
   "colClues": [
-    1,
-    4,
+    2,
     3,
     4,
-    1
+    2,
+    2
   ],
-  "themeWord": "lutin",
+  "themeWord": "dos",
   "solution": [
     [
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       false
     ],
     [
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       true
     ],
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 13

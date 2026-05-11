@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "piétiner",
-      "foulée",
-      "consanguin",
-      "chaussure",
-      "café"
+      "enseignement",
+      "assimiler",
+      "orbitale",
+      "révision",
+      "mémoire"
     ],
     [
-      "empreinte",
-      "cheville",
-      "gecko",
-      "mollet",
-      "pas"
+      "instruire",
+      "lancer",
+      "connaissance",
+      "cours",
+      "représentative"
     ],
     [
-      "plante",
-      "lutte",
-      "maquillage",
-      "orteil",
-      "cadeau"
+      "épaisseur",
+      "mémoriser",
+      "élève",
+      "aura",
+      "tenailler"
     ],
     [
-      "illusoire",
-      "enjambée",
-      "brailler",
-      "chaussette",
-      "pédestre"
+      "étude",
+      "savoir",
+      "devoir",
+      "leçon",
+      "étalon"
     ],
     [
-      "talon",
-      "ossuaire",
-      "semelle",
-      "fumer",
-      "voûte"
+      "livre",
+      "retenir",
+      "asthme",
+      "mélasse",
+      "métaphore"
     ]
   ],
   "rowClues": [
-    3,
     4,
-    2,
     3,
-    3
+    2,
+    4,
+    2
   ],
   "colClues": [
     4,
-    3,
-    1,
     4,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "pied",
+  "themeWord": "apprendre",
   "solution": [
     [
       true,
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       true
     ],
     [
       true,
       false,
-      false,
+      true,
       true,
       false
     ],
     [
       false,
       true,
-      false,
       true,
-      true
+      false,
+      false
     ],
     [
       true,
-      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
-      true
+      false,
+      false
     ]
   ],
   "parMoves": 15

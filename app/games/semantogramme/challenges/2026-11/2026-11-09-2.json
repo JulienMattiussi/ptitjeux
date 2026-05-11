@@ -5,72 +5,65 @@
   "height": 5,
   "words": [
     [
-      "moderne",
-      "servir",
-      "cratère",
-      "filet",
-      "parlement"
+      "foin",
+      "enrobé",
+      "maïs",
+      "mollet",
+      "archaïque"
     ],
     [
-      "étape",
-      "fente",
-      "terrain",
-      "plage",
-      "service"
+      "foulée",
+      "empreinte",
+      "cueillir",
+      "chaussure",
+      "piétiner"
     ],
     [
-      "sportif",
-      "olympique",
-      "oar",
-      "sable",
-      "équipe"
+      "enjambée",
+      "planer",
+      "orteil",
+      "mâcher",
+      "pédestre"
     ],
     [
-      "passer",
-      "arc-en-ciel",
-      "passe",
-      "ballon",
-      "cuisson"
+      "talon",
+      "marcher",
+      "taper",
+      "pas",
+      "fermenté"
     ],
     [
-      "acheteur",
-      "maillot",
-      "smasher",
-      "soif",
-      "collectif"
+      "nénuphar",
+      "cheville",
+      "plante",
+      "semelle",
+      "cliché"
     ]
   ],
   "rowClues": [
-    2,
-    3,
+    1,
     4,
     3,
+    4,
     3
   ],
   "colClues": [
-    2,
+    3,
     3,
     3,
     4,
-    3
+    2
   ],
-  "themeWord": "volley",
+  "themeWord": "pied",
   "solution": [
     [
       false,
-      true,
+      false,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       true,
       false,
@@ -80,6 +73,13 @@
     [
       true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false
@@ -88,8 +88,8 @@
       false,
       true,
       true,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 15

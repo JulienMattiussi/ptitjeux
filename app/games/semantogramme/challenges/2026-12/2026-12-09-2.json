@@ -5,58 +5,72 @@
   "height": 5,
   "words": [
     [
-      "absence",
-      "sommet",
-      "momie",
-      "préserver",
-      "triangulaire"
+      "sportif",
+      "magot",
+      "poulet",
+      "desquamation",
+      "parer"
     ],
     [
-      "égypte",
-      "mystérieuse",
-      "tombeau",
-      "indiquer",
-      "enterrer"
+      "tirage",
+      "sabre",
+      "précis",
+      "calmar",
+      "noble"
     ],
     [
-      "sable",
-      "pharaon",
-      "logiciel",
-      "hiéroglyphe",
-      "construire"
+      "manuel",
+      "tirer",
+      "duel",
+      "masque",
+      "épée"
     ],
     [
-      "sphinx",
-      "caillot",
-      "tante",
-      "durée",
-      "globe"
+      "fleuret",
+      "rancune",
+      "fanal",
+      "esquiver",
+      "empaqueter"
     ],
     [
-      "monumentale",
-      "flaque",
-      "séculaire",
-      "contact",
-      "reliure"
+      "touche",
+      "gueule",
+      "piste",
+      "tireur",
+      "pénétrer"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    4,
-    1,
-    1
-  ],
-  "colClues": [
-    4,
-    3,
     2,
+    3,
+    4,
     2,
     3
   ],
-  "themeWord": "pyramide",
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "escrime",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       true,
       true,
@@ -65,30 +79,16 @@
     ],
     [
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   ],

@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "basket",
-      "ski",
-      "golf",
-      "pétale",
-      "étoile",
-      "racine"
+      "cavalcade",
+      "ivoire",
+      "helicobacter",
+      "déguster",
+      "jambe",
+      "crevaison"
     ],
     [
-      "banquier",
-      "cyclisme",
-      "coussin",
-      "clé",
-      "silence",
-      "basket"
+      "mitrailler",
+      "bain",
+      "profond",
+      "chronique",
+      "duodénum",
+      "assourdissant"
     ],
     [
-      "rugby",
-      "marathon",
-      "plateau",
-      "tennis",
-      "tabouret",
-      "brosse"
+      "mot",
+      "cicatriser",
+      "bouche",
+      "plaie",
+      "rayonnage",
+      "baudruche"
     ],
     [
-      "tennis",
-      "tabouret",
-      "natation",
-      "rugby",
-      "boxe",
-      "football"
+      "envoûtante",
+      "soigner",
+      "saigner",
+      "persistant",
+      "avarice",
+      "brailler"
     ],
     [
-      "natation",
-      "marteau",
-      "judo",
-      "panneau",
-      "voile",
-      "judo"
+      "pourfendre",
+      "estomac",
+      "parader",
+      "gastrique",
+      "creuser",
+      "chirurgie"
     ],
     [
-      "enveloppe",
-      "écran",
-      "bureau",
-      "mémoire",
-      "boxe",
-      "peigne"
+      "douloureux",
+      "lésion",
+      "douleur",
+      "député",
+      "champ",
+      "escarpé"
     ]
   ],
   "rowClues": [
-    3,
     2,
     3,
-    5,
+    3,
+    3,
     4,
-    1
-  ],
-  "colClues": [
-    4,
-    3,
-    3,
-    2,
-    3,
     3
   ],
-  "themeWord": "sport",
+  "colClues": [
+    1,
+    4,
+    5,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "ulcère",
   "solution": [
     [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false,
       false
     ],
@@ -83,40 +107,16 @@
       false,
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true,
       false
     ]
   ],

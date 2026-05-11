@@ -5,87 +5,87 @@
   "height": 6,
   "words": [
     [
-      "vent",
-      "rosée",
-      "neige",
-      "racine",
-      "foudre",
-      "rosée"
-    ],
-    [
-      "miroir",
-      "écran",
-      "manuel",
-      "voisin",
-      "verglas",
-      "éclair"
-    ],
-    [
-      "orage",
-      "banquier",
-      "manuel",
-      "vent",
-      "lueur",
-      "cadre"
+      "pédestre",
+      "indépendante",
+      "quartier",
+      "manga",
+      "rédaction",
+      "classement"
     ],
     [
       "livre",
-      "éclair",
-      "agenda",
+      "commerce",
+      "vichyssoise",
+      "muscade",
+      "rayonnage",
+      "cachalot"
+    ],
+    [
+      "bd",
+      "étoile",
+      "portugais",
+      "acheter",
+      "oeuf",
+      "dramatique"
+    ],
+    [
+      "aller",
+      "écosystème",
+      "lire",
+      "sportive",
+      "triangulaire",
+      "recul"
+    ],
+    [
+      "recommander",
+      "abîme",
+      "culturelle",
+      "cavalier",
+      "feuilleter",
+      "jeunesse"
+    ],
+    [
+      "précoce",
+      "naufrage",
       "glace",
-      "tonnerre",
-      "vent"
-    ],
-    [
-      "panneau",
-      "chaise",
-      "devoir",
-      "panneau",
-      "éclair",
-      "étoile"
-    ],
-    [
-      "rumeur",
-      "tonnerre",
-      "neige",
-      "foudre",
-      "neige",
-      "tonnerre"
+      "bibliothèque",
+      "roman",
+      "shaker"
     ]
   ],
   "rowClues": [
-    5,
+    4,
+    3,
     2,
     2,
     4,
-    1,
-    5
+    2
   ],
   "colClues": [
+    4,
     2,
     3,
-    2,
     3,
-    5,
-    4
+    3,
+    2
   ],
-  "themeWord": "météo",
+  "themeWord": "librairie",
   "solution": [
     [
+      false,
       true,
       true,
       true,
       false,
-      true,
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       true,
-      true
+      false
     ],
     [
       true,
@@ -96,29 +96,29 @@
       false
     ],
     [
-      false,
       true,
       false,
       true,
-      true,
-      true
-    ],
-    [
       false,
       false,
-      false,
-      false,
-      true,
       false
     ],
     [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

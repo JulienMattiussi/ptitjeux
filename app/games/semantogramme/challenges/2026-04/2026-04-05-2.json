@@ -5,89 +5,89 @@
   "height": 5,
   "words": [
     [
-      "altitude",
-      "menaçant",
-      "décollage",
-      "fondation",
-      "aviateur"
+      "chalut",
+      "torchis",
+      "opaque",
+      "nuit",
+      "métallique"
     ],
     [
-      "planer",
-      "occident",
-      "tournoyer",
-      "plume",
-      "atterrissage"
+      "ombre",
+      "obscurcir",
+      "obscurité",
+      "tunnel",
+      "couture"
     ],
     [
-      "ciel",
-      "mercredis",
-      "aile",
-      "piquer",
-      "décoller"
+      "crépusculaire",
+      "obscur",
+      "caverne",
+      "capteur",
+      "aiguisée"
     ],
     [
-      "envol",
-      "aiguisé",
-      "vol",
-      "gratter",
-      "voltiger"
+      "ténèbres",
+      "gouffre",
+      "cadet",
+      "lugubre",
+      "cave"
     ],
     [
-      "nocturne",
-      "planeur",
-      "sashimi",
-      "chien",
-      "enterrement"
+      "noir",
+      "bandelette",
+      "noircir",
+      "licence",
+      "moisson"
     ]
   ],
   "rowClues": [
+    2,
+    4,
     3,
     4,
+    2
+  ],
+  "colClues": [
+    4,
+    3,
     4,
     3,
     1
   ],
-  "colClues": [
-    4,
-    1,
-    4,
-    2,
-    4
-  ],
-  "themeWord": "voler",
+  "themeWord": "sombre",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
-      false,
       true
     ],
     [
       true,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       false
     ]

@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "se régaler",
-      "esquisser",
-      "mastiquer",
-      "vodka",
-      "trait"
+      "tournesol",
+      "immortalité",
+      "parure",
+      "pommeau",
+      "transpercer"
     ],
     [
-      "savourer",
-      "goûter",
-      "banqueter",
-      "marée",
-      "plane"
+      "garde",
+      "trait",
+      "duel",
+      "génome",
+      "chasser"
     ],
     [
-      "genou",
-      "dévorer",
-      "mâcher",
-      "festoyer",
-      "ingérer"
-    ],
-    [
-      "créer",
-      "archipel",
-      "déguster",
-      "engloutir",
-      "grignoter"
-    ],
-    [
-      "bouffer",
-      "carotte",
+      "historique",
       "pointu",
-      "consommer",
-      "polluant"
+      "dégainer",
+      "escrime",
+      "loup-garou"
+    ],
+    [
+      "mousquetaire",
+      "acéré",
+      "os",
+      "tranchant",
+      "évoquer"
+    ],
+    [
+      "pourfendre",
+      "lame",
+      "ascenseur",
+      "aiguisé",
+      "boucle"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    4,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
     2,
     4,
     3,
-    2
+    3
   ],
-  "themeWord": "manger",
+  "colClues": [
+    4,
+    3,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "épée",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       false,
       true,
@@ -67,26 +74,19 @@
       true,
       true,
       true,
-      false,
+      true,
       false
     ],
     [
+      true,
+      true,
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
+      false
     ],
     [
       true,
-      false,
+      true,
       false,
       true,
       false

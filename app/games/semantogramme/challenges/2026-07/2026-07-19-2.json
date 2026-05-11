@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "pouce",
-      "ventricule",
-      "empreinte",
-      "tâtonner",
-      "ongle"
+      "assembler",
+      "ongle",
+      "peigne",
+      "caresse",
+      "malveillant"
     ],
     [
-      "expéditif",
-      "pulpe",
-      "articulation",
-      "encadrement",
-      "transparent"
-    ],
-    [
-      "manucure",
-      "tâter",
       "index",
-      "paille",
-      "ménage"
+      "poignet",
+      "vocaliser",
+      "geste",
+      "phalange"
     ],
     [
-      "ériger",
-      "vider",
-      "maçonnerie",
-      "vue",
-      "majeur"
-    ],
-    [
-      "fente",
+      "lagune",
+      "hideux",
       "auriculaire",
-      "annulaire",
-      "président",
-      "pointer"
+      "chemin",
+      "rénover"
+    ],
+    [
+      "pouce",
+      "aridité",
+      "rafraîchissement",
+      "empreinte",
+      "poing"
+    ],
+    [
+      "doigt",
+      "majeur",
+      "siffler",
+      "jointure",
+      "sashimi"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    3,
+    4,
     1,
+    3,
     3
   ],
   "colClues": [
-    2,
     3,
-    4,
+    3,
     1,
-    3
+    4,
+    2
   ],
-  "themeWord": "doigt",
+  "themeWord": "main",
   "solution": [
     [
+      false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false
     ],
     [
       true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
       false,
+      true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 13

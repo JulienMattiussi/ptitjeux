@@ -5,94 +5,86 @@
   "height": 6,
   "words": [
     [
-      "ciseaux",
-      "tramway",
-      "rideau",
-      "remorque",
-      "tramway",
-      "livre"
+      "rapt",
+      "lasso",
+      "arrêter",
+      "trompette",
+      "enfermer",
+      "hideux"
     ],
     [
-      "moto",
-      "camion",
-      "chemin",
-      "rideau",
-      "taxi",
-      "vélo"
+      "séquestrer",
+      "gelée",
+      "support",
+      "transformer",
+      "sociale",
+      "kidnapper"
     ],
     [
-      "fusée",
-      "moto",
-      "jardin",
-      "savon",
-      "remorque",
-      "fusée"
+      "clarinette",
+      "chevalier",
+      "attraper",
+      "ligoter",
+      "enlèvement",
+      "allumer"
     ],
     [
-      "coussin",
-      "étoile",
-      "train",
-      "autobus",
-      "marteau",
-      "horloge"
+      "filet",
+      "métal",
+      "menottes",
+      "empoigner",
+      "cerner",
+      "salle-à-manger"
     ],
     [
-      "savon",
-      "métro",
-      "tournevis",
-      "parfum",
-      "navette",
-      "caillou"
+      "éplucheur",
+      "cage",
+      "mouette",
+      "piège",
+      "chambre",
+      "cyclique"
     ],
     [
-      "cadre",
-      "ombre",
-      "vis",
-      "panneau",
-      "autobus",
-      "tasse"
+      "maîtriser",
+      "soutien-gorge",
+      "oser",
+      "chausser",
+      "aigreur",
+      "tortillonner"
     ]
   ],
   "rowClues": [
+    4,
+    2,
     3,
     4,
-    3,
-    2,
     2,
     1
   ],
   "colClues": [
-    1,
     4,
-    1,
     2,
-    5,
-    2
+    3,
+    3,
+    3,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "capturer",
   "solution": [
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
       true,
       false
     ],
     [
       true,
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
       true
     ],
     [
@@ -100,25 +92,33 @@
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
       true,
       false,
-      false,
       true,
+      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

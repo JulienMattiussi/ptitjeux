@@ -5,58 +5,79 @@
   "height": 5,
   "words": [
     [
-      "paille",
-      "déshydrater",
-      "sécher",
-      "tari",
-      "rôtir"
+      "atmosphère",
+      "pierre",
+      "diamant",
+      "fortifier",
+      "préhension"
     ],
     [
-      "soif",
-      "cambré",
-      "sécheresse",
-      "bureau",
-      "aride"
+      "résistant",
+      "noirâtre",
+      "jubilation",
+      "macaron",
+      "inébranlable"
     ],
     [
-      "chuchoter",
-      "persistant",
-      "hémisphère",
-      "foin",
-      "crin"
+      "mur",
+      "tenace",
+      "lichen",
+      "cerne",
+      "fondation"
     ],
     [
-      "biscuit",
-      "sable",
-      "puissance",
-      "assécher",
-      "aridité"
+      "massif",
+      "fer",
+      "consolider",
+      "béton",
+      "panorama"
     ],
     [
-      "défilé",
-      "desséché",
-      "citoyen",
-      "rêche",
-      "désert"
+      "roche",
+      "pédale",
+      "durcir",
+      "supporter",
+      "acier"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    1,
+    2,
+    3,
     4,
     3
   ],
   "colClues": [
+    4,
     3,
     3,
     2,
-    4,
     3
   ],
-  "themeWord": "sec",
+  "themeWord": "solide",
   "solution": [
     [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
       true,
@@ -68,27 +89,6 @@
       false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true
     ]
   ],

@@ -5,59 +5,73 @@
   "height": 5,
   "words": [
     [
-      "bougie",
-      "fan",
-      "lac",
-      "chandelier",
-      "chute"
+      "étau",
+      "pelle",
+      "jardin",
+      "plante",
+      "free"
     ],
     [
-      "lumière",
-      "allumer",
-      "cire",
-      "fin",
-      "prière"
+      "planter",
+      "chiffon",
+      "arrosoir",
+      "spectral",
+      "terre"
     ],
     [
-      "lumineux",
-      "fibre",
-      "autel",
-      "église",
-      "manquer"
+      "expirer",
+      "rythme",
+      "hibernation",
+      "tailler",
+      "muscler"
     ],
     [
-      "flamme",
-      "omelette",
-      "léopard",
-      "votif",
-      "fondre"
+      "bêche",
+      "sécateur",
+      "jardinier",
+      "exposition",
+      "arroser"
     ],
     [
-      "rivage",
-      "mèche",
-      "teindre",
-      "jockey",
-      "illuminer"
+      "graine",
+      "pousser",
+      "fleur",
+      "essai",
+      "pacifique"
     ]
   ],
   "rowClues": [
-    2,
+    3,
+    3,
+    1,
     4,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
-    4,
-    2,
-    2,
-    3,
     3
   ],
-  "themeWord": "cierge",
+  "colClues": [
+    3,
+    3,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "jardiner",
   "solution": [
     [
+      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -72,24 +86,10 @@
     ],
     [
       true,
+      true,
+      true,
       false,
-      true,
-      true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 14

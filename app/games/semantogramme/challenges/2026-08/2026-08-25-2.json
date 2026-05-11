@@ -5,67 +5,67 @@
   "height": 5,
   "words": [
     [
-      "plastique",
-      "bulle",
-      "marcher",
-      "clair",
-      "serveur"
+      "adolescent",
+      "cosse",
+      "courbure",
+      "juvénile",
+      "arrêter"
     ],
     [
-      "mâchoire",
-      "traverser",
-      "vitre",
-      "diaphane",
-      "créneau"
+      "gamin",
+      "césar",
+      "tendre",
+      "récent",
+      "reprise"
     ],
     [
-      "eau",
-      "opale",
-      "morose",
-      "maritime",
-      "transpercer"
+      "jeunesse",
+      "soupir",
+      "novice",
+      "naissant",
+      "puéril"
     ],
     [
-      "pédagogie",
-      "gaze",
-      "caricature",
-      "cristal",
-      "tee"
+      "pousser",
+      "enfant",
+      "tricolore",
+      "palper",
+      "bébé"
     ],
     [
-      "verre",
-      "cristallin",
-      "serrer",
-      "limpide",
-      "translucide"
+      "mathématique",
+      "fleurir",
+      "jouvenceau",
+      "arme",
+      "truite"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    2,
-    4
-  ],
-  "colClues": [
     3,
     4,
-    1,
-    4,
+    3,
     2
   ],
-  "themeWord": "transparent",
+  "colClues": [
+    4,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "jeune",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       true,
       false
     ],
     [
-      false,
       true,
+      false,
       true,
       true,
       false
@@ -73,6 +73,13 @@
     [
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true
@@ -80,16 +87,9 @@
     [
       false,
       true,
-      false,
       true,
+      false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 14

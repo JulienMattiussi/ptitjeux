@@ -5,103 +5,79 @@
   "height": 6,
   "words": [
     [
-      "ananas",
-      "pomme",
-      "ananas",
-      "kiwi",
-      "peigne",
-      "pomme"
+      "candeur",
+      "rail",
+      "jumelé",
+      "avenue",
+      "sillon",
+      "rénover"
     ],
     [
-      "pince",
-      "sol",
-      "banane",
-      "balai",
-      "fraise",
-      "framboise"
+      "terne",
+      "coffre",
+      "bol",
+      "élancé",
+      "esquive",
+      "simultané"
     ],
     [
-      "fraise",
-      "panier",
-      "orange",
-      "fraise",
-      "carnet",
-      "pomme"
+      "rebond",
+      "aligner",
+      "éclatant",
+      "cire",
+      "boomerang",
+      "doubler"
     ],
     [
-      "figue",
-      "chaise",
-      "raisin",
-      "pomme",
-      "ananas",
-      "cerise"
+      "concomitant",
+      "rangée",
+      "cloître",
+      "cohabiter",
+      "fenêtre",
+      "synchrone"
     ],
     [
-      "parfum",
-      "jardin",
-      "miroir",
-      "écran",
-      "rideau",
-      "framboise"
+      "fan",
+      "caduque",
+      "étage",
+      "flanquer",
+      "comparaison",
+      "franchise"
     ],
     [
-      "table",
-      "écran",
-      "miroir",
-      "carnet",
-      "cassis",
-      "figue"
+      "harnais",
+      "rive",
+      "geler",
+      "cheval-marin",
+      "analogue",
+      "incliner"
     ]
   ],
   "rowClues": [
-    5,
-    3,
     4,
-    5,
     1,
-    2
+    2,
+    4,
+    2,
+    1
   ],
   "colClues": [
+    1,
     3,
     1,
-    4,
     3,
     3,
-    6
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "parallèle",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
       true,
       true,
-      true
+      true,
+      false
     ],
     [
       false,
@@ -113,12 +89,36 @@
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       false,
       false,
       true,
-      true
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 14
 }

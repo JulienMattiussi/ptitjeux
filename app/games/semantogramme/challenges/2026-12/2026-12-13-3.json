@@ -5,78 +5,102 @@
   "height": 6,
   "words": [
     [
-      "nuage",
-      "devoir",
-      "éclair",
-      "lueur",
-      "brosse",
-      "globe"
+      "symbolique",
+      "lent",
+      "utiliser",
+      "streptocoque",
+      "cordée",
+      "fervente"
     ],
     [
-      "parfum",
-      "table",
-      "rosée",
-      "manuel",
-      "racine",
-      "neige"
+      "spaghetti",
+      "fléau",
+      "protégé",
+      "épaisseur",
+      "manger",
+      "mignon"
     ],
     [
-      "tapis",
-      "rosée",
-      "carnet",
-      "nuage",
-      "nuage",
-      "arc-en-ciel"
+      "sichuan",
+      "allumer",
+      "taches",
+      "rare",
+      "pacifique",
+      "rond"
     ],
     [
-      "peigne",
-      "jardin",
-      "silence",
-      "carnet",
-      "pluie",
-      "arc-en-ciel"
+      "blanc",
+      "ours",
+      "capillaire",
+      "reproduction",
+      "bambou",
+      "gag"
     ],
     [
-      "savon",
-      "verglas",
-      "neige",
-      "verglas",
-      "vent",
-      "rumeur"
+      "cruel",
+      "échine",
+      "chine",
+      "plat",
+      "menaçant",
+      "noir"
     ],
     [
-      "timbre",
-      "tempête",
-      "prison",
-      "livre",
-      "vis",
-      "tapis"
+      "roux",
+      "grèce",
+      "do",
+      "hausser",
+      "libraire",
+      "gitane"
     ]
   ],
   "rowClues": [
     2,
-    2,
+    3,
+    5,
     4,
     2,
-    4,
     1
   ],
   "colClues": [
-    1,
-    3,
+    4,
+    2,
     3,
     2,
     3,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "panda",
   "solution": [
     [
       true,
-      false,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
       false
     ],
     [
@@ -88,37 +112,13 @@
       true
     ],
     [
-      false,
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

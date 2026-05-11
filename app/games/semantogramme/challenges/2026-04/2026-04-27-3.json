@@ -5,82 +5,82 @@
   "height": 6,
   "words": [
     [
-      "renard",
-      "lynx",
-      "balai",
-      "chat",
-      "mouton",
-      "belette"
+      "sillet",
+      "vertical",
+      "taguer",
+      "éplucher",
+      "marié",
+      "colonne"
     ],
     [
-      "pince",
+      "rectitude",
+      "vocifération",
       "règle",
-      "girafe",
-      "racine",
-      "parfum",
-      "clé"
+      "poire",
+      "foulure",
+      "frondaison"
     ],
     [
-      "lynx",
-      "souris",
-      "panier",
-      "silence",
-      "silence",
-      "chat"
+      "verticale",
+      "puiser",
+      "câble",
+      "inflexible",
+      "maternité",
+      "boxer"
     ],
     [
-      "devoir",
-      "panier",
-      "belette",
-      "peigne",
-      "chat",
-      "vache"
+      "tendre",
+      "redresser",
+      "arête",
+      "perpendiculaire",
+      "ronron",
+      "canadien"
     ],
     [
-      "sol",
-      "ours",
-      "ombre",
-      "chaise",
-      "zèbre",
-      "pelle"
+      "aligner",
+      "marmite",
+      "pilier",
+      "mandibule",
+      "aplomb",
+      "rectiligne"
     ],
     [
-      "belette",
-      "ours",
-      "lueur",
-      "silence",
-      "marteau",
-      "tigre"
+      "larmoyer",
+      "garnir",
+      "naviguer",
+      "ride",
+      "ligne",
+      "fart"
     ]
   ],
   "rowClues": [
-    5,
-    1,
-    3,
-    3,
     2,
-    3
+    2,
+    2,
+    4,
+    4,
+    1
   ],
   "colClues": [
-    3,
     4,
     2,
-    1,
     3,
-    4
+    2,
+    2,
+    2
   ],
-  "themeWord": "animal",
+  "themeWord": "droit",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
       false,
@@ -89,36 +89,36 @@
     ],
     [
       true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
       false
     ],
     [
       true,
       true,
+      true,
+      true,
       false,
+      false
+    ],
+    [
+      true,
       false,
+      true,
       false,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

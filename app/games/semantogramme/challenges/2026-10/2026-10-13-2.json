@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "enchanter",
-      "pureté",
+      "averse",
+      "filer",
+      "dimanche",
+      "coller",
+      "détaler"
+    ],
+    [
+      "idole",
       "endurance",
-      "pur",
-      "jouet"
+      "galop",
+      "foulée",
+      "fessée"
     ],
     [
-      "mystique",
-      "cheval",
-      "japonais",
-      "tarder",
-      "tribunal"
+      "angora",
+      "vitesse",
+      "marathon",
+      "sprint",
+      "cavaler"
     ],
     [
-      "gracieux",
-      "arc-en-ciel",
-      "crinière",
-      "imposte",
-      "magie"
+      "gracieuse",
+      "gras",
+      "galoper",
+      "aimable",
+      "négoce"
     ],
     [
-      "légendaire",
-      "forêt",
-      "protéine",
-      "rive",
-      "galoper"
-    ],
-    [
-      "voilier",
-      "orthogonal",
-      "chinchilla",
-      "innocence",
-      "guérir"
+      "coureur",
+      "foncer",
+      "jogging",
+      "athlétisme",
+      "piña"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    3,
+    4,
+    1,
+    4
+  ],
+  "colClues": [
+    1,
+    4,
     4,
     3,
     2
   ],
-  "colClues": [
-    4,
-    4,
-    1,
-    2,
-    3
-  ],
-  "themeWord": "licorne",
+  "themeWord": "courir",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
       true,
       true,
-      false,
-      false,
+      true,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 14

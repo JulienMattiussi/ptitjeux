@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "pomme",
-      "vis",
-      "mémoire",
-      "maison",
-      "ananas",
-      "melon"
+      "bottine",
+      "scie",
+      "gourmandise",
+      "inébranlable",
+      "antenne",
+      "lente"
     ],
     [
-      "pêche",
-      "balai",
-      "racine",
+      "do",
+      "replier",
+      "conviction",
+      "répétitif",
+      "glisser",
+      "coquille"
+    ],
+    [
+      "méditer",
+      "rapporter",
+      "thon",
+      "épopée",
+      "porc",
+      "humidité"
+    ],
+    [
       "jardin",
-      "lueur",
-      "banane"
+      "string",
+      "apathique",
+      "minaret",
+      "feuille",
+      "soif"
     ],
     [
-      "plafond",
-      "raisin",
-      "serrure",
-      "pastèque",
-      "banane",
-      "étoile"
+      "helix",
+      "plombier",
+      "haltérophilie",
+      "corne",
+      "bave",
+      "assécher"
     ],
     [
-      "pomme",
-      "raisin",
-      "serrure",
-      "prune",
-      "clé",
-      "écran"
-    ],
-    [
-      "porte",
-      "figue",
-      "bureau",
-      "raisin",
-      "silence",
-      "cassis"
-    ],
-    [
-      "citron",
-      "pêche",
-      "raisin",
-      "pelle",
-      "figue",
-      "cassis"
+      "beurre",
+      "surveiller",
+      "carte",
+      "framboise",
+      "ronger",
+      "milan"
     ]
   ],
   "rowClues": [
     3,
+    3,
+    1,
     2,
     3,
-    3,
-    3,
-    5
+    2
   ],
   "colClues": [
-    4,
-    4,
+    3,
     1,
-    3,
-    3,
-    4
+    1,
+    1,
+    5,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "escargot",
   "solution": [
     [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
-      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -84,12 +100,12 @@
       false,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
-      false,
       true,
+      false,
       false,
       true,
       true,
@@ -97,28 +113,12 @@
     ],
     [
       true,
-      true,
+      false,
+      false,
       false,
       true,
-      false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 14
 }

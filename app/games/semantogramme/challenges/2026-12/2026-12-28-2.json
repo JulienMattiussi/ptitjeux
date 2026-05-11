@@ -5,75 +5,61 @@
   "height": 5,
   "words": [
     [
-      "majorité",
-      "populaire",
-      "démocratique",
-      "dérailleur",
-      "voter"
+      "rempart",
+      "sécurité",
+      "chiromancie",
+      "assuré",
+      "sécuriser"
     ],
     [
-      "potage",
-      "élection",
-      "munster",
-      "âcre",
-      "république"
+      "inébranlable",
+      "bref",
+      "forteresse",
+      "bras",
+      "période"
     ],
     [
-      "écrémé",
-      "vote",
-      "constitution",
-      "pluraliste",
-      "parlement"
+      "protéger",
+      "abri",
+      "dormir",
+      "centenaire",
+      "sain"
     ],
     [
-      "légiférer",
-      "badigeonner",
-      "représentative",
-      "citoyen",
-      "plonger"
+      "refuge",
+      "gardien",
+      "fiable",
+      "humidité",
+      "enraciner"
     ],
     [
-      "libre",
-      "baudrier",
-      "roulade",
-      "débattre",
-      "parcourir"
+      "ciment",
+      "sécurisé",
+      "pouce",
+      "coffre",
+      "garantir"
     ]
   ],
   "rowClues": [
     4,
     2,
-    4,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
-    3,
     3,
     3,
     3
   ],
-  "themeWord": "démocratie",
+  "colClues": [
+    4,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "sûr",
   "solution": [
     [
       true,
       true,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       true
     ],
@@ -81,15 +67,29 @@
       true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
-      false
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 15

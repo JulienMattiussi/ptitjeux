@@ -5,71 +5,71 @@
   "height": 6,
   "words": [
     [
-      "pomme",
-      "melon",
-      "cassis",
-      "carnet",
-      "prune",
-      "rideau"
+      "récolter",
+      "glaner",
+      "arracher",
+      "brun",
+      "récolte",
+      "décrocher"
     ],
     [
-      "pêche",
-      "miroir",
-      "prière",
-      "poire",
-      "abricot",
-      "mûre"
+      "course",
+      "saisir",
+      "vidéo",
+      "roulotte",
+      "cueilleur",
+      "élagage"
     ],
     [
-      "chaise",
-      "coussin",
-      "raisin",
-      "cassis",
-      "prune",
-      "framboise"
+      "crier",
+      "boulangerie",
+      "caraïbe",
+      "pas",
+      "bond",
+      "collecte"
     ],
     [
-      "abricot",
-      "racine",
-      "étagère",
-      "règle",
-      "étoile",
-      "mûre"
+      "crypté",
+      "cueilli",
+      "percer",
+      "liturgique",
+      "dur",
+      "tympan"
     ],
     [
-      "ananas",
-      "cassis",
-      "horloge",
-      "plafond",
-      "abricot",
-      "mûre"
+      "carillonner",
+      "cueillette",
+      "moisson",
+      "fauche",
+      "morne",
+      "panier"
     ],
     [
-      "figue",
-      "voisin",
-      "vis",
-      "livre",
-      "parfum",
-      "rideau"
+      "attraper",
+      "broussailleux",
+      "compteur",
+      "passoire",
+      "courant",
+      "tôt"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    4,
+    5,
     2,
+    1,
+    1,
     4,
     1
   ],
   "colClues": [
-    5,
-    2,
-    2,
     2,
     4,
-    4
+    2,
+    1,
+    2,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "cueillir",
   "solution": [
     [
       true,
@@ -77,26 +77,18 @@
       true,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
       false
     ],
     [
-      true,
       false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       false,
@@ -104,11 +96,19 @@
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      true,
+      true,
+      false,
       true
     ],
     [
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 14
 }

@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "gag",
-      "carpaccio",
-      "cinéma",
-      "enfantin",
-      "temps"
+      "détente",
+      "haltère",
+      "four",
+      "cuire",
+      "doré"
     ],
     [
-      "comique",
-      "modeste",
-      "perruque",
-      "passe",
-      "rigoler"
+      "rôti",
+      "cuisson",
+      "ventre",
+      "casserole",
+      "bouillir"
     ],
     [
-      "gobelet",
-      "rouge",
-      "obstruer",
-      "circassien",
-      "amuser"
+      "frire",
+      "braiser",
+      "lagune",
+      "escalader",
+      "sapin"
     ],
     [
-      "maquillage",
-      "sport",
-      "confetti",
-      "nez",
-      "glisser"
+      "rissoler",
+      "temporel",
+      "chaleur",
+      "morille",
+      "caramélisé"
     ],
     [
-      "dard",
-      "maquillé",
-      "enfant",
-      "cirque",
-      "farce"
+      "mijoter",
+      "griller",
+      "rôtir",
+      "charge",
+      "nettoyage"
     ]
   ],
   "rowClues": [
+    3,
+    4,
     2,
     3,
-    3,
-    3,
-    4
+    3
   ],
   "colClues": [
+    4,
+    3,
     3,
     2,
-    2,
-    4,
-    4
+    3
   ],
-  "themeWord": "clown",
+  "themeWord": "cuit",
   "solution": [
     [
-      true,
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -71,25 +85,11 @@
       true
     ],
     [
-      false,
       true,
-      false,
       true,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 15

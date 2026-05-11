@@ -5,47 +5,47 @@
   "height": 5,
   "words": [
     [
-      "athlète",
-      "constitutionnelle",
-      "marcher",
-      "inhalation",
-      "fichier"
+      "modéré",
+      "mou",
+      "thé",
+      "attiédir",
+      "trait"
     ],
     [
-      "sanguin",
-      "respiration",
-      "souffler",
-      "mésange",
-      "oxygène"
+      "gros",
+      "inauguration",
+      "velue",
+      "imprévu",
+      "tiédir"
     ],
     [
-      "apnée",
-      "aspirer",
-      "inhaler",
-      "camping",
-      "douve"
-    ],
-    [
-      "souffle",
-      "salut",
-      "expirer",
-      "haleter",
-      "inspirer"
-    ],
-    [
-      "haleine",
-      "liberté",
-      "instable",
       "air",
-      "rutilant"
+      "évasion",
+      "soupe",
+      "douche",
+      "poisson-clown"
+    ],
+    [
+      "lait",
+      "bander",
+      "bain",
+      "doux",
+      "chauffer"
+    ],
+    [
+      "respecter",
+      "réchauffer",
+      "ronde",
+      "frotter",
+      "fournil"
     ]
   ],
   "rowClues": [
+    4,
     1,
     3,
-    3,
     4,
-    2
+    1
   ],
   "colClues": [
     3,
@@ -54,27 +54,27 @@
     3,
     2
   ],
-  "themeWord": "respirer",
+  "themeWord": "tiède",
   "solution": [
     [
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
@@ -85,10 +85,10 @@
       true
     ],
     [
+      false,
       true,
       false,
       false,
-      true,
       false
     ]
   ],

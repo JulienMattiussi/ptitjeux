@@ -5,92 +5,76 @@
   "height": 6,
   "words": [
     [
-      "mur",
-      "football",
-      "chaise",
-      "étagère",
-      "boxe",
-      "volley"
+      "apesanteur",
+      "pré",
+      "voûter",
+      "marchand",
+      "secouer",
+      "cygne"
     ],
     [
-      "racine",
-      "balai",
-      "escalade",
-      "sol",
-      "plateau",
-      "mur"
-    ],
-    [
-      "carnet",
-      "caillou",
-      "gym",
-      "serrure",
-      "rugby",
-      "mur"
-    ],
-    [
-      "golf",
-      "escalade",
-      "tapis",
-      "rugby",
+      "percussion",
+      "frapper",
       "danse",
-      "cyclisme"
+      "épineux",
+      "brut",
+      "instrument"
     ],
     [
-      "peigne",
-      "bureau",
-      "basket",
-      "ski",
-      "ski",
-      "panier"
+      "rond",
+      "klaxon",
+      "sevrer",
+      "fête",
+      "cymbalettes",
+      "populaire"
     ],
     [
-      "étagère",
-      "marathon",
-      "golf",
-      "football",
-      "volley",
-      "football"
+      "gitane",
+      "folklore",
+      "taper",
+      "rythme",
+      "cou",
+      "potier"
+    ],
+    [
+      "main",
+      "nager",
+      "magnanime",
+      "plat",
+      "inventer",
+      "aquarium"
+    ],
+    [
+      "brassée",
+      "cercle",
+      "agiter",
+      "jouer",
+      "gerboise",
+      "prunier"
     ]
   ],
   "rowClues": [
-    3,
     1,
-    2,
-    5,
-    3,
-    5
-  ],
-  "colClues": [
-    1,
-    3,
     4,
-    3,
-    5,
+    4,
+    4,
+    2,
     3
   ],
-  "themeWord": "sport",
+  "colClues": [
+    4,
+    3,
+    3,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "tambourin",
   "solution": [
     [
       false,
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       true,
       false
@@ -98,17 +82,33 @@
     [
       true,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true,
       true,
       true
     ],
     [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
@@ -116,9 +116,9 @@
       true,
       true,
       true,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

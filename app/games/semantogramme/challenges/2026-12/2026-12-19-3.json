@@ -5,72 +5,80 @@
   "height": 6,
   "words": [
     [
-      "rideau",
-      "manuel",
-      "pêche",
-      "banquier",
-      "abricot",
-      "prison"
+      "commercialiser",
+      "prix",
+      "valider",
+      "tonner",
+      "galápagos",
+      "gourmander"
     ],
     [
-      "cerise",
-      "framboise",
-      "racine",
-      "gomme",
-      "kiwi",
-      "kiwi"
-    ],
-    [
-      "tasse",
-      "orange",
+      "vidéo",
       "ananas",
-      "carnet",
-      "pastèque",
-      "prison"
+      "reprocher",
+      "régler",
+      "autorité",
+      "péniche"
     ],
     [
-      "citron",
-      "ombre",
-      "jardin",
-      "poire",
-      "pastèque",
-      "plateau"
+      "torride",
+      "polype",
+      "bassin",
+      "sévérité",
+      "ventricule",
+      "mélancolie"
     ],
     [
-      "voisin",
-      "sol",
-      "ciseaux",
-      "kiwi",
-      "pêche",
-      "banquier"
+      "tancer",
+      "réparation",
+      "reproche",
+      "irriguer",
+      "piéger",
+      "toboggan"
     ],
     [
-      "horloge",
-      "tabouret",
-      "citron",
-      "mangue",
-      "coussin",
-      "tasse"
+      "gronderie",
+      "admonester",
+      "rapper",
+      "gracieuse",
+      "récolte",
+      "rugir"
+    ],
+    [
+      "politique",
+      "réprimander",
+      "rappel",
+      "lèchefrite",
+      "fustiger",
+      "sermonner"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    3,
-    3,
     2,
-    2
+    1,
+    2,
+    3,
+    4
   ],
   "colClues": [
     2,
     2,
     3,
-    3,
-    5,
-    1
+    2,
+    2,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "gronder",
   "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
     [
       false,
       false,
@@ -80,11 +88,27 @@
       false
     ],
     [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
       false,
-      true,
+      false,
       true
     ],
     [
@@ -93,32 +117,8 @@
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

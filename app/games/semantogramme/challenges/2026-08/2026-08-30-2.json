@@ -5,80 +5,66 @@
   "height": 5,
   "words": [
     [
-      "star",
-      "morale",
-      "veste",
-      "kéfir",
-      "notoire"
+      "percer",
+      "pair",
+      "gain",
+      "visser",
+      "clou"
     ],
     [
-      "mythe",
-      "illustrer",
-      "large",
-      "idole",
-      "célébrité"
+      "poncer",
+      "scie",
+      "outil",
+      "monter",
+      "arquer"
     ],
     [
-      "dévorer",
-      "légendaire",
-      "tamarin",
-      "illustre",
-      "renommé"
+      "invectiver",
+      "paume",
+      "foulard",
+      "réparer",
+      "clouer"
     ],
     [
-      "marée",
-      "légende",
-      "fan",
-      "gloire",
-      "cabinet"
+      "tournevis",
+      "beurre",
+      "établi",
+      "scier",
+      "babouin"
     ],
     [
-      "logiciel",
-      "glorifier",
-      "consacrer",
-      "fameux",
-      "férié"
+      "perceuse",
+      "châtiment",
+      "planche",
+      "fumier",
+      "bricoleur"
     ]
   ],
   "rowClues": [
-    2,
-    4,
     3,
+    4,
+    2,
     3,
     3
   ],
   "colClues": [
-    2,
     4,
-    2,
+    1,
+    3,
     4,
     3
   ],
-  "themeWord": "célèbre",
+  "themeWord": "bricoler",
   "solution": [
     [
       true,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       true
     ],
     [
-      false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
       true,
@@ -86,10 +72,24 @@
     ],
     [
       false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 15

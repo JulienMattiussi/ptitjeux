@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "frotter",
-      "briquer",
-      "losange",
-      "régurgiter",
-      "rectiligne"
+      "matinée",
+      "sauteuse",
+      "inuit",
+      "culbute",
+      "culminer"
     ],
     [
-      "quadrillage",
-      "tir",
-      "transmettre",
-      "carreau",
-      "orthogonal"
+      "dressage",
+      "primate",
+      "banquise",
+      "tagueur",
+      "polaire"
     ],
     [
-      "angle",
-      "trapèze",
-      "national",
-      "fouler",
-      "échiquier"
+      "isoler",
+      "rouge",
+      "illuminer",
+      "vociférer",
+      "nordique"
     ],
     [
-      "damier",
-      "case",
-      "canicule",
-      "eau",
-      "résultat"
+      "glace",
+      "vigoureux",
+      "arctique",
+      "perche",
+      "construire"
     ],
     [
-      "côté",
-      "sombrero",
-      "pavé",
-      "tuile",
-      "documenter"
+      "glacial",
+      "abriter",
+      "atome",
+      "bloc",
+      "iglou"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
-    4,
     1,
     2,
     2,
-    3
+    3,
+    4
   ],
-  "themeWord": "carré",
+  "colClues": [
+    3,
+    1,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "igloo",
   "solution": [
     [
       false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
       true,
-      false
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 12

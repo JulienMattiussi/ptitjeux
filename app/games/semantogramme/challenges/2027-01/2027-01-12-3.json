@@ -5,84 +5,92 @@
   "height": 6,
   "words": [
     [
-      "miroir",
-      "ongle",
-      "peau",
-      "dos",
-      "crayon",
-      "vis"
+      "gourmandise",
+      "pompier",
+      "beurre",
+      "anniversaire",
+      "final",
+      "poêle"
     ],
     [
-      "horloge",
-      "joue",
-      "porte",
-      "miroir",
-      "carnet",
-      "dent"
+      "rouler",
+      "frétillant",
+      "manger",
+      "bretagne",
+      "distingué",
+      "chandeleur"
     ],
     [
-      "porte",
-      "vis",
-      "manuel",
-      "miroir",
-      "doigt",
-      "devoir"
+      "lait",
+      "oeuf",
+      "ronde",
+      "berge",
+      "mondial",
+      "farine"
     ],
     [
-      "pied",
-      "peau",
-      "pied",
-      "jambe",
-      "marteau",
-      "horloge"
+      "gastrocnémien",
+      "pin",
+      "fine",
+      "amazone",
+      "sucrée",
+      "documenter"
     ],
     [
-      "prison",
-      "genou",
-      "oeil",
-      "bouche",
-      "jambe",
-      "étoile"
+      "décimal",
+      "sucre",
+      "spatule",
+      "candeur",
+      "blatte",
+      "tronçonneuse"
     ],
     [
-      "ombre",
-      "langue",
-      "lèvre",
-      "chemin",
-      "oreille",
-      "coeur"
+      "plier",
+      "bourgeon",
+      "enseignement",
+      "automne",
+      "pâte",
+      "artisanal"
     ]
   ],
   "rowClues": [
     3,
+    4,
+    4,
     2,
-    1,
-    4,
-    4,
-    4
-  ],
-  "colClues": [
-    1,
-    5,
-    4,
-    3,
-    3,
+    2,
     2
   ],
-  "themeWord": "corps",
+  "colClues": [
+    4,
+    2,
+    5,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "crêpe",
   "solution": [
     [
-      false,
-      true,
-      true,
       true,
       false,
-      false
+      true,
+      false,
+      false,
+      true
     ],
     [
-      false,
       true,
       false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false,
       true
@@ -90,24 +98,8 @@
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true,
       false
     ],
@@ -116,9 +108,17 @@
       true,
       true,
       false,
+      false,
+      false
+    ],
+    [
       true,
-      true
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

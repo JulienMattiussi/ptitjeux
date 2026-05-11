@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "médiévale",
-      "bilan",
-      "massive",
-      "militaire",
-      "siège"
+      "universel",
+      "mardi",
+      "silence",
+      "auditif",
+      "résonner"
     ],
     [
-      "ver",
-      "jongleur",
-      "simplifier",
-      "rempart",
-      "modeste"
+      "concentration",
+      "pupille",
+      "feu",
+      "entendre",
+      "concombre"
     ],
     [
-      "instantané",
-      "fortifier",
-      "pont-levis",
-      "défendre",
-      "veste"
+      "attentif",
+      "pente",
+      "capter",
+      "audition",
+      "pyrénées"
     ],
     [
-      "tamarin",
-      "bière",
-      "tour",
-      "meurtrière",
-      "calligraphie"
+      "percevoir",
+      "son",
+      "tannin",
+      "sonore",
+      "teckel"
     ],
     [
-      "donjon",
-      "soldat",
-      "satire",
-      "populaire",
-      "comprimé"
+      "écholocation",
+      "réparation",
+      "mâle",
+      "raffinement",
+      "écho"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     3,
     2,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
     3,
-    4,
+    3,
     1
   ],
-  "themeWord": "forteresse",
+  "colClues": [
+    3,
+    1,
+    2,
+    4,
+    2
+  ],
+  "themeWord": "écouter",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       true,
       true
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
       false
     ],
     [
-      false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -88,8 +81,15 @@
       true,
       true,
       false,
-      false,
+      true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 12

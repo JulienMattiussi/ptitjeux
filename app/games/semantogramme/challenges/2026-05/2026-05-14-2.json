@@ -5,88 +5,88 @@
   "height": 5,
   "words": [
     [
-      "joie",
-      "ingérer",
-      "scène",
-      "séquence",
-      "merveilleux"
+      "terne",
+      "perfusion",
+      "perle",
+      "languir",
+      "pianiste"
     ],
     [
-      "étain",
-      "gond",
-      "vidéo",
-      "documenter",
-      "acteur"
+      "écouvillon",
+      "grisaille",
+      "morne",
+      "ardoise",
+      "décrocher"
     ],
     [
-      "soudain",
-      "enregistrer",
-      "projeter",
-      "prêt",
-      "défenseur"
+      "acier",
+      "béton",
+      "puiser",
+      "aiguillée",
+      "fumée"
     ],
     [
-      "hamster",
-      "plan",
-      "cinéaste",
-      "capturer",
-      "enterrement"
+      "fonte",
+      "caillé",
+      "nez",
+      "plane",
+      "brouillard"
     ],
     [
-      "réalisateur",
-      "avenue",
-      "kayak",
-      "rebond",
-      "cinématographie"
+      "taupe",
+      "éléphant",
+      "peintre",
+      "fulgurer",
+      "pierre"
     ]
   ],
   "rowClues": [
     2,
     3,
-    2,
     3,
-    2
+    1,
+    3
   ],
   "colClues": [
-    1,
-    2,
-    4,
     3,
-    2
+    3,
+    2,
+    1,
+    3
   ],
-  "themeWord": "filmer",
+  "themeWord": "gris",
   "solution": [
     [
+      true,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true,
       false
     ],
     [
-      false,
-      false,
       true,
       true,
+      false,
+      false,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       true

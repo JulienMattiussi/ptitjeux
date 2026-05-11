@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "décliner",
-      "beauté",
-      "grâce",
-      "embellir",
-      "gracieux"
+      "sillonner",
+      "hôtel",
+      "avion",
+      "train",
+      "patience"
     ],
     [
-      "esthétique",
-      "soigner",
-      "rosée",
-      "noblesse",
-      "bord"
+      "valise",
+      "guérison",
+      "étoile",
+      "redingote",
+      "cueilli"
     ],
     [
-      "baccarat",
-      "plein",
-      "gants",
-      "parer",
-      "contracter"
+      "gentilhomme",
+      "maquereau",
+      "billet",
+      "chiromancie",
+      "visiter"
     ],
     [
-      "classe",
-      "rafale",
-      "chic",
-      "beuglement",
-      "briquet"
+      "touriste",
+      "satiété",
+      "pilule",
+      "explorer",
+      "récurer"
     ],
     [
-      "raffiné",
-      "comté",
-      "distinction",
-      "sobriété",
-      "canapé"
+      "gratin",
+      "parcourir",
+      "aventure",
+      "destination",
+      "partir"
     ]
   ],
   "rowClues": [
     4,
-    3,
     1,
     2,
-    3
+    2,
+    4
   ],
   "colClues": [
     3,
     2,
     3,
-    4,
-    1
+    3,
+    2
   ],
-  "themeWord": "élégant",
+  "themeWord": "voyager",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
     [
       false,
       true,
       true,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 13

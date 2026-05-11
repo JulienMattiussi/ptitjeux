@@ -2,19 +2,20 @@ import { Rng } from '~/lib/random'
 import type { Level } from '~/games/semantogramme/types'
 import { CURATED_THEMES_L1 } from './curated-themes-l1'
 import { CURATED_THEMES_L2 } from './curated-themes-l2'
+import { CURATED_THEMES_L3 } from './curated-themes-l3'
 import { FILLER_WORDS, THEMES } from './themes'
 
 /**
  * Génère un niveau Sémantogramme pour une date et un index donnés.
  *
- * Pour les niveaux 1 et 2, on regarde d'abord si un thème curé existe pour
- * cette date (`CURATED_THEMES_L1` ou `CURATED_THEMES_L2`). Si oui, on
- * génère un puzzle qui utilise ce thème avec un N tiré aléatoirement dans
- * une fenêtre dépendant du niveau, des membres distincts (pas de
- * répétition dans la grille), et des fillers également distincts piochés
- * dans le **pool cross-thèmes** (membres des autres thèmes curés L1 ∪ L2).
+ * Pour les niveaux 1, 2 et 3, on regarde d'abord si un thème curé existe
+ * pour cette date (`CURATED_THEMES_L1/L2/L3`). Si oui, on génère un puzzle
+ * qui utilise ce thème avec un N tiré aléatoirement dans une fenêtre
+ * dépendant du niveau, des membres distincts (pas de répétition dans la
+ * grille), et des fillers également distincts piochés dans le **pool
+ * cross-thèmes** (membres des autres thèmes curés L1 ∪ L2 ∪ L3).
  *
- * Sinon (ou pour les niveaux 3-4) on retombe sur le template aléatoire
+ * Sinon (ou pour le niveau 4) on retombe sur le template aléatoire
  * historique : grille N × N (4..7), thème pioché parmi les 10 thèmes
  * en dur, ~50 % de cases « thème », mots possiblement répétés.
  */
@@ -31,6 +32,13 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
       size: 5,
       nMin: 11,
       nMax: 15,
+    })
+  }
+  if (index === 3 && CURATED_THEMES_L3[date]) {
+    return generateCurated(date, 3, CURATED_THEMES_L3[date], {
+      size: 6,
+      nMin: 14,
+      nMax: 18,
     })
   }
 
@@ -133,7 +141,7 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
  */
 function generateCurated(
   date: string,
-  levelIndex: 1 | 2,
+  levelIndex: 1 | 2 | 3,
   curated: { word: string; members: readonly string[] },
   config: { size: number; nMin: number; nMax: number },
 ): Level {
@@ -170,22 +178,19 @@ function generateCurated(
   // propre puzzle (sinon le joueur le verrait dans la grille et le marquerait
   // IN, alors qu'il est censé être OUT).
   const fillerPool = new Set<string>()
-  for (const [otherDate, otherTheme] of Object.entries(CURATED_THEMES_L1)) {
-    if (levelIndex === 1 && otherDate === date) continue
-    for (const m of otherTheme.members) {
-      if (memberSet.has(m)) continue
-      if (m === curated.word) continue
-      fillerPool.add(m)
+  const addFromMap = (map: Record<string, { word: string; members: readonly string[] }>, ownLevel: boolean) => {
+    for (const [otherDate, otherTheme] of Object.entries(map)) {
+      if (ownLevel && otherDate === date) continue
+      for (const m of otherTheme.members) {
+        if (memberSet.has(m)) continue
+        if (m === curated.word) continue
+        fillerPool.add(m)
+      }
     }
   }
-  for (const [otherDate, otherTheme] of Object.entries(CURATED_THEMES_L2)) {
-    if (levelIndex === 2 && otherDate === date) continue
-    for (const m of otherTheme.members) {
-      if (memberSet.has(m)) continue
-      if (m === curated.word) continue
-      fillerPool.add(m)
-    }
-  }
+  addFromMap(CURATED_THEMES_L1, levelIndex === 1)
+  addFromMap(CURATED_THEMES_L2, levelIndex === 2)
+  addFromMap(CURATED_THEMES_L3, levelIndex === 3)
   if (fillerPool.size < fillerCount) {
     throw new Error(
       `Pool de fillers trop petit pour le thème ${curated.word} L${levelIndex} (${fillerPool.size} < ${fillerCount})`,

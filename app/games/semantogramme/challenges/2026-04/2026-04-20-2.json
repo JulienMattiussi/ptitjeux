@@ -5,74 +5,74 @@
   "height": 5,
   "words": [
     [
-      "plante",
-      "désherber",
-      "carnaval",
-      "bandelette",
-      "pollution"
+      "roucouler",
+      "entonner",
+      "résumé",
+      "refrain",
+      "tenailler"
     ],
     [
-      "pousser",
-      "graine",
-      "gravir",
-      "planter",
-      "récolter"
+      "voix",
+      "plisser",
+      "tableau",
+      "choriste",
+      "secours"
     ],
     [
-      "politique",
-      "écossais",
-      "fleur",
-      "cambrer",
-      "bêche"
+      "fredonner",
+      "air",
+      "mélodie",
+      "sillonner",
+      "opéra"
     ],
     [
-      "gracieux",
-      "mairie",
-      "rôle",
-      "arrosoir",
-      "arroser"
+      "président",
+      "candeur",
+      "gaver",
+      "astreindre",
+      "chant"
     ],
     [
-      "guignol",
-      "jardin",
-      "chagrin",
-      "toque",
-      "tailler"
+      "siffler",
+      "molaire",
+      "gazouiller",
+      "ordonnance",
+      "rugueux"
     ]
   ],
   "rowClues": [
+    3,
     2,
     4,
+    1,
+    2
+  ],
+  "colClues": [
+    4,
+    2,
     2,
     2,
     2
   ],
-  "colClues": [
-    2,
-    3,
-    1,
-    2,
-    4
-  ],
-  "themeWord": "jardiner",
+  "themeWord": "chanter",
   "solution": [
     [
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      false,
+      true,
       false
     ],
     [
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       true
@@ -81,15 +81,15 @@
       false,
       false,
       false,
-      true,
+      false,
       true
     ],
     [
+      true,
       false,
       true,
       false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 12

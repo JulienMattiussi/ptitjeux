@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "champ",
-      "agricole",
-      "chasser",
-      "loupe",
-      "rustique"
+      "croquis",
+      "griffonner",
+      "engin",
+      "feuille",
+      "esquisse"
     ],
     [
-      "haillon",
-      "clavicule",
-      "immobile",
-      "exotique",
-      "parfum"
+      "fournil",
+      "illustrer",
+      "feutre",
+      "finesse",
+      "tracer"
     ],
     [
-      "impénétrable",
-      "paille",
-      "adoucir",
-      "jardin",
-      "échouer"
+      "délai",
+      "salin",
+      "enfermer",
+      "crayon",
+      "dessinateur"
     ],
     [
-      "silencieux",
-      "chapeau",
-      "violet",
-      "modéré",
-      "crème"
+      "esquisser",
+      "pousser",
+      "dessin",
+      "contracter",
+      "consistant"
     ],
     [
-      "oriflamme",
-      "piquet",
-      "occulté",
-      "finir",
-      "dresser"
+      "étrenner",
+      "opportuniste",
+      "caricature",
+      "péniche",
+      "caniveau"
     ]
   ],
   "rowClues": [
     4,
+    3,
     2,
     2,
-    2,
-    2
+    1
   ],
   "colClues": [
-    3,
-    4,
     2,
-    1,
-    2
+    2,
+    3,
+    2,
+    3
   ],
-  "themeWord": "épouvantail",
+  "themeWord": "dessiner",
   "solution": [
     [
       true,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       true
     ],
     [
@@ -72,24 +86,10 @@
     ],
     [
       false,
-      true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 12

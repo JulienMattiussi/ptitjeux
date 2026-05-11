@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "silence",
-      "globe",
-      "boxe",
-      "judo",
-      "rugby",
-      "coussin"
+      "galaxie",
+      "hawaïen",
+      "pâté",
+      "figuier",
+      "parka",
+      "pépin"
     ],
     [
-      "pétale",
-      "miroir",
-      "basket",
-      "pince",
-      "jardin",
-      "globe"
+      "horizon",
+      "aspirateur",
+      "gourmandise",
+      "épagneul",
+      "compote",
+      "sucre"
     ],
     [
-      "golf",
-      "mémoire",
-      "table",
-      "tapis",
-      "judo",
-      "basket"
+      "bref",
+      "marronnier",
+      "compost",
+      "visière",
+      "peintre",
+      "tarte"
     ],
     [
-      "rugby",
-      "clé",
-      "tapis",
-      "volley",
-      "natation",
-      "voile"
+      "frais",
+      "méditerranéen",
+      "fruit",
+      "hamac",
+      "orient",
+      "glissant"
     ],
     [
-      "cyclisme",
-      "voile",
-      "marathon",
-      "golf",
-      "marathon",
-      "chaise"
+      "sec",
+      "noir",
+      "violet",
+      "pastèque",
+      "armoire",
+      "pulpe"
     ],
     [
-      "basket",
-      "danse",
-      "racine",
-      "gym",
-      "plafond",
-      "basket"
+      "tableau",
+      "vert",
+      "pochette",
+      "pâtisserie",
+      "archéologue",
+      "cueillette"
     ]
   ],
   "rowClues": [
+    2,
     3,
     1,
-    3,
     4,
-    5,
+    4,
     4
   ],
   "colClues": [
-    4,
     2,
     3,
     4,
-    4,
-    3
+    2,
+    2,
+    5
   ],
-  "themeWord": "sport",
+  "themeWord": "figue",
   "solution": [
     [
       false,
       false,
+      false,
       true,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true,
       true
     ],
     [
-      true,
       false,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
       true,
-      true,
+      false,
       true,
       false
     ],
     [
       true,
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 18
 }

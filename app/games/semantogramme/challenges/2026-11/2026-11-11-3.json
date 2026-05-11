@@ -5,90 +5,74 @@
   "height": 6,
   "words": [
     [
-      "pied",
-      "banquier",
-      "prière",
-      "rideau",
-      "plateau",
-      "rideau"
+      "outil",
+      "sans-fil",
+      "rapide",
+      "cordée",
+      "mandrin",
+      "équilibre"
     ],
     [
-      "plafond",
-      "lèvre",
-      "langue",
-      "dent",
-      "nez",
-      "crayon"
+      "déshydrater",
+      "professionnelle",
+      "cordon",
+      "bricolage",
+      "usage",
+      "attendre"
     ],
     [
-      "dent",
-      "langue",
-      "pied",
-      "langue",
-      "bouche",
-      "prison"
+      "nashville",
+      "âge",
+      "odorante",
+      "manuelle",
+      "batterie",
+      "mouvoir"
     ],
     [
-      "bureau",
-      "jambe",
-      "doigt",
-      "main",
-      "oeil",
-      "jambe"
+      "cloud",
+      "découvrir",
+      "localité",
+      "percer",
+      "visser",
+      "électrique"
     ],
     [
-      "doigt",
-      "dos",
-      "pétale",
-      "coussin",
-      "épaule",
-      "devoir"
+      "commerce",
+      "fumé",
+      "trémousser",
+      "mèche",
+      "puissance",
+      "dévisser"
     ],
     [
-      "doigt",
-      "doigt",
-      "panier",
-      "lèvre",
-      "enveloppe",
-      "racine"
+      "gène",
+      "trouer",
+      "bulle",
+      "havane",
+      "pirouette",
+      "germe"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    5,
     5,
     3,
-    3
-  ],
-  "colClues": [
-    4,
-    5,
+    2,
     3,
-    4,
-    4,
+    3,
     1
   ],
-  "themeWord": "corps",
+  "colClues": [
+    1,
+    3,
+    2,
+    5,
+    4,
+    2
+  ],
+  "themeWord": "perceuse",
   "solution": [
     [
       true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       true,
       true,
@@ -99,26 +83,42 @@
       false,
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
       true
     ],
     [
-      true,
-      true,
       false,
       false,
+      false,
       true,
-      false
+      true,
+      true
     ],
     [
-      true,
-      true,
       false,
       true,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 17
 }

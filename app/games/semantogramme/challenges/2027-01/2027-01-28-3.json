@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "requin",
-      "sable",
-      "ciseaux",
-      "pelle",
-      "saumon",
-      "crabe"
+      "tendre",
+      "concentrer",
+      "spaghetti",
+      "conducteur",
+      "terrasse",
+      "gratin"
     ],
     [
-      "sable",
-      "écume",
-      "table",
-      "sable",
-      "brosse",
-      "poisson"
+      "antihistaminique",
+      "texte",
+      "farcie",
+      "thé",
+      "chuchoter",
+      "taches"
     ],
     [
-      "écume",
-      "thon",
-      "crabe",
-      "crabe",
-      "pierre",
-      "maison"
+      "jardin",
+      "soupe",
+      "courge",
+      "sauter",
+      "légume",
+      "agate"
     ],
     [
-      "saumon",
-      "dauphin",
-      "devoir",
-      "pince",
-      "timbre",
-      "thon"
+      "utopie",
+      "gradin",
+      "cavalcade",
+      "cambrer",
+      "cylindrique",
+      "tian"
     ],
     [
-      "parfum",
-      "poisson",
-      "tapis",
-      "dauphin",
-      "tapis",
-      "étoile"
+      "soigné",
+      "glaner",
+      "diplôme",
+      "loupe",
+      "beignet",
+      "quadrilatère"
     ],
     [
-      "tournevis",
-      "écaille",
-      "sol",
-      "tabouret",
-      "tunnel",
-      "poisson"
+      "potager",
+      "allaiter",
+      "cisailler",
+      "estivale",
+      "cucurbitacée",
+      "hurlement"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    4,
     3,
+    1,
+    4,
     2,
-    2
+    1,
+    3
   ],
   "colClues": [
-    4,
-    6,
+    3,
     1,
     3,
     1,
-    4
+    4,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "courgette",
   "solution": [
     [
       true,
-      true,
-      false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
-      true,
       false,
       true
     ],
     [
+      false,
+      false,
       true,
-      true,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
       true,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true,
-      false,
       false
     ],
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
       false,
-      false,
-      true
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 14
 }

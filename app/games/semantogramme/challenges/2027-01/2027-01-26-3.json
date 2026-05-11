@@ -5,82 +5,98 @@
   "height": 6,
   "words": [
     [
-      "caillou",
-      "rose",
-      "violet",
-      "agenda",
-      "indigo",
-      "étoile"
+      "terne",
+      "cabillaud",
+      "gentilhomme",
+      "plâtre",
+      "filet",
+      "rivaliser"
     ],
     [
-      "plateau",
-      "indigo",
-      "violet",
+      "juin",
+      "détail",
+      "rivière",
+      "gros",
+      "ponctuel",
+      "fleuret"
+    ],
+    [
+      "braisière",
+      "applique",
+      "moule",
+      "récréation",
+      "pêche",
+      "portée"
+    ],
+    [
+      "mer",
+      "islande",
+      "séché",
+      "norvège",
+      "morne",
+      "poisson"
+    ],
+    [
+      "éjecter",
+      "réplique",
+      "protéger",
+      "grill",
+      "havane",
+      "gastronomie"
+    ],
+    [
+      "crémeux",
+      "auriculaire",
+      "brandade",
+      "soupe",
       "blanc",
-      "vis",
-      "rouge"
-    ],
-    [
-      "rouge",
-      "vis",
-      "orange",
-      "caillou",
-      "peigne",
-      "fusée"
-    ],
-    [
-      "bleu",
-      "tournevis",
-      "ocre",
-      "jaune",
-      "ocre",
-      "carnet"
-    ],
-    [
-      "blanc",
-      "mur",
-      "violet",
-      "rose",
-      "tabouret",
-      "étoile"
-    ],
-    [
-      "brosse",
-      "globe",
-      "devoir",
-      "vert",
-      "ocre",
-      "lueur"
+      "fumé"
     ]
   ],
   "rowClues": [
-    3,
-    4,
     2,
-    4,
-    3,
-    2
+    1,
+    1,
+    5,
+    1,
+    5
   ],
   "colClues": [
-    3,
     2,
-    5,
-    4,
+    2,
+    2,
     3,
-    1
+    3,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "morue",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       false,
       true,
       false
     ],
     [
       false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       true,
       true,
@@ -88,12 +104,12 @@
       true
     ],
     [
-      true,
-      false,
-      true,
       false,
       false,
-      false
+      false,
+      false,
+      false,
+      true
     ],
     [
       true,
@@ -101,24 +117,8 @@
       true,
       true,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

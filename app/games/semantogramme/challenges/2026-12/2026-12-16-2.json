@@ -5,74 +5,74 @@
   "height": 5,
   "words": [
     [
-      "polluant",
-      "industriel",
-      "polymère",
-      "impondérable",
-      "sac"
+      "capturer",
+      "char",
+      "logiciel",
+      "reflux",
+      "rivage"
     ],
     [
-      "cercueil",
-      "plexiglas",
-      "racine",
-      "emballage",
-      "recyclable"
+      "isolante",
+      "objectif",
+      "basse",
+      "montante",
+      "gusset"
     ],
     [
-      "léger",
-      "tapis",
-      "étaler",
-      "précieuse",
-      "jambon"
+      "frange",
+      "maritime",
+      "javelot",
+      "rectitude",
+      "sacré"
     ],
     [
-      "jouet",
-      "capsule",
-      "polluer",
-      "mer",
-      "incassable"
+      "lunaire",
+      "grosse-caisse",
+      "haute",
+      "inonder",
+      "flux"
     ],
     [
-      "nourrir",
-      "nappe",
-      "patin",
-      "mousqueton",
-      "bouteille"
+      "noire",
+      "côtière",
+      "coefficient",
+      "effeuiller",
+      "assuré"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    1,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    1,
+    2,
     2,
     1,
-    4
+    4,
+    2
   ],
-  "themeWord": "plastique",
+  "colClues": [
+    1,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "marée",
   "solution": [
     [
-      true,
       false,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       true
     ],
     [
-      true,
       false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false
@@ -81,15 +81,15 @@
       true,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 11

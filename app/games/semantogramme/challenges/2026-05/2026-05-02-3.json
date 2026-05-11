@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "voisin",
-      "pince",
-      "pierre",
-      "coeur",
-      "globe",
-      "oreille"
+      "sympathique",
+      "losange",
+      "majorité",
+      "inertie",
+      "caresser",
+      "rond"
     ],
     [
-      "coussin",
-      "genou",
-      "tête",
-      "étoile",
-      "parfum",
-      "parfum"
+      "répéter",
+      "ratisser",
+      "pectorale",
+      "bâton",
+      "mâchoire",
+      "rugosité"
     ],
     [
-      "coeur",
-      "dent",
-      "maison",
-      "brosse",
-      "rideau",
-      "oreille"
+      "mûrier",
+      "rasoir",
+      "apesanteur",
+      "pointu",
+      "fossette",
+      "bouc"
     ],
     [
-      "genou",
-      "pelle",
-      "nez",
-      "bouche",
-      "lueur",
-      "manuel"
+      "fuyant",
+      "liberté",
+      "barbe",
+      "poireau",
+      "galoche",
+      "volontaire"
     ],
     [
-      "main",
-      "dos",
-      "porte",
-      "chaise",
-      "voisin",
-      "agenda"
+      "martini",
+      "visqueux",
+      "masser",
+      "long",
+      "lustre",
+      "tapenade"
     ],
     [
-      "tunnel",
-      "bras",
-      "joue",
-      "doigt",
-      "main",
-      "porte"
+      "gorge",
+      "diagnostic",
+      "fier",
+      "avancer",
+      "sens",
+      "visage"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
-    3,
-    2,
-    4
-  ],
-  "colClues": [
-    3,
-    4,
-    3,
     3,
     1,
-    2
+    4,
+    4,
+    2,
+    3
   ],
-  "themeWord": "corps",
+  "colClues": [
+    2,
+    1,
+    3,
+    3,
+    4,
+    4
+  ],
+  "themeWord": "menton",
   "solution": [
     [
+      true,
       false,
       false,
       false,
       true,
-      false,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       false
     ],
     [
+      false,
+      true,
+      false,
       true,
       true,
-      false,
-      false,
-      false,
       true
     ],
     [
       true,
       false,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

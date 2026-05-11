@@ -5,58 +5,72 @@
   "height": 5,
   "words": [
     [
-      "détente",
-      "pékinois",
-      "comique",
-      "spectacle",
-      "pioche"
+      "silhouette",
+      "raffinement",
+      "vinaigre",
+      "magie",
+      "feuille"
     ],
     [
-      "jouer",
-      "posture",
-      "figurine",
-      "gin",
-      "cannelle"
+      "vin",
+      "rouille",
+      "grimper",
+      "svelte",
+      "requête"
     ],
     [
-      "enfantine",
-      "manipulée",
-      "culée",
-      "apaiser",
-      "minou"
+      "piquet",
+      "sciuridé",
+      "gazette",
+      "cheveu",
+      "gène"
     ],
     [
-      "été",
-      "ventriloque",
-      "hampe",
-      "fil",
-      "traditionnelle"
+      "annuel",
+      "brodeuse",
+      "gracile",
+      "pellicule",
+      "affiner"
     ],
     [
-      "mouette",
-      "guignol",
-      "théâtre",
-      "manipulation",
-      "sinistre"
+      "texte",
+      "lame",
+      "fin",
+      "mannequin",
+      "élancé"
     ]
   ],
   "rowClues": [
     2,
-    2,
+    1,
     2,
     3,
-    3
+    4
   ],
   "colClues": [
-    2,
+    1,
+    1,
     3,
-    3,
-    3,
-    1
+    4,
+    3
   ],
-  "themeWord": "marionnette",
+  "themeWord": "mince",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       false,
       true,
@@ -64,23 +78,9 @@
       false
     ],
     [
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
       true,
       true
     ],
@@ -89,7 +89,7 @@
       true,
       true,
       true,
-      false
+      true
     ]
   ],
   "parMoves": 12

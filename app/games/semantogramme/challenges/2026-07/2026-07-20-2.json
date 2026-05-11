@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "aisselle",
-      "porter",
-      "avril",
-      "hausser",
-      "épaulé"
+      "radieux",
+      "probe",
+      "cercueil",
+      "tramway",
+      "nocturne"
     ],
     [
-      "soulever",
-      "arqué",
-      "opaque",
-      "sangle",
-      "clavicule"
+      "froncer",
+      "transylvanie",
+      "canine",
+      "transformer",
+      "sang"
     ],
     [
-      "omoplate",
-      "cou",
-      "torse",
-      "fresque",
-      "bras"
+      "lune",
+      "armée",
+      "cassure",
+      "mordre",
+      "dracula"
     ],
     [
-      "rouler",
-      "trapèze",
-      "rallonger",
-      "chimique",
-      "bretelle"
+      "fabriquer",
+      "sucer",
+      "irrigation",
+      "immortel",
+      "salle"
     ],
     [
-      "pivoter",
-      "deltoïde",
-      "salir",
-      "brochet",
-      "couche"
+      "sanguinaire",
+      "implorer",
+      "transilvanien",
+      "château",
+      "nuit"
     ]
   ],
   "rowClues": [
+    2,
     4,
     3,
-    4,
-    3,
-    1
-  ],
-  "colClues": [
-    4,
-    4,
-    1,
     2,
     4
   ],
-  "themeWord": "épaule",
+  "colClues": [
+    2,
+    2,
+    3,
+    4,
+    4
+  ],
+  "themeWord": "vampire",
   "solution": [
     [
-      true,
+      false,
+      false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
@@ -71,25 +78,18 @@
       true
     ],
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       true,
       false,
-      false,
+      true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 15

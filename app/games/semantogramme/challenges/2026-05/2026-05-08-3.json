@@ -5,74 +5,90 @@
   "height": 6,
   "words": [
     [
-      "manuel",
-      "prune",
-      "livre",
-      "fusée",
-      "prison",
-      "globe"
+      "infecter",
+      "silicone",
+      "à-tête",
+      "enrubanner",
+      "pourfendre",
+      "pirate"
     ],
     [
-      "mémoire",
-      "gomme",
-      "ananas",
-      "ananas",
-      "poire",
-      "banquier"
+      "caché",
+      "angine",
+      "poltron",
+      "traditionnelle",
+      "antivirus",
+      "détecter"
     ],
     [
-      "enveloppe",
-      "étagère",
-      "horloge",
-      "horloge",
-      "sol",
-      "poire"
+      "spyware",
+      "hacker",
+      "euro",
+      "bague",
+      "rétroviseur",
+      "gousse"
     ],
     [
-      "prune",
-      "orange",
-      "prison",
-      "étagère",
-      "fraise",
-      "mûre"
+      "sacre",
+      "pince",
+      "aplomb",
+      "infection",
+      "cheval-de-troie",
+      "éradiquer"
     ],
     [
-      "pétale",
-      "table",
-      "fraise",
-      "table",
-      "raisin",
-      "mangue"
+      "tridente",
+      "numérique",
+      "tigre",
+      "cuisinier",
+      "cligner",
+      "wax"
     ],
     [
-      "framboise",
-      "plafond",
-      "abricot",
-      "chemin",
-      "marteau",
-      "gomme"
+      "malveillant",
+      "malware",
+      "fichier",
+      "intensif",
+      "défraîchir",
+      "rejet"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    1,
-    4,
-    3,
-    2
-  ],
-  "colClues": [
     2,
+    3,
     2,
     3,
     1,
-    3,
     3
   ],
-  "themeWord": "fruit",
+  "colClues": [
+    4,
+    3,
+    1,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "virus",
   "solution": [
     [
+      true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       false,
@@ -82,38 +98,22 @@
     [
       false,
       false,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false,

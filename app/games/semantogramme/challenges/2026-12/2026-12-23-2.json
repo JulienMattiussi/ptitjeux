@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "petit",
-      "sable",
-      "truelle",
-      "minéral",
-      "localité"
+      "acidulé",
+      "sauter",
+      "bonhomme",
+      "mariner",
+      "rôtir"
     ],
     [
-      "béton",
-      "assurer",
-      "bunker",
-      "gris",
-      "marais"
+      "projeter",
+      "plat",
+      "mijoter",
+      "casserole",
+      "cuisson"
     ],
     [
-      "sac",
-      "thorax",
-      "maçon",
-      "hématome",
-      "résistant"
+      "feuillue",
+      "poêle",
+      "corps-de-ballet",
+      "griller",
+      "cuisine"
     ],
     [
-      "amertume",
-      "canevas",
-      "octave",
-      "durcir",
-      "dur"
+      "sauce",
+      "bouillir",
+      "feuilletage",
+      "noiraud",
+      "envier"
     ],
     [
-      "mortier",
-      "fondation",
-      "maçonner",
-      "biscuit",
-      "mélanger"
+      "assaisonner",
+      "alourdir",
+      "fourneau",
+      "beau-frère",
+      "glousser"
     ]
   ],
   "rowClues": [
     3,
-    2,
+    4,
     3,
     2,
-    4
+    2
   ],
   "colClues": [
-    3,
     2,
-    3,
+    4,
+    2,
     3,
     3
   ],
-  "themeWord": "ciment",
+  "themeWord": "cuisiner",
   "solution": [
     [
       false,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
       true,
+      false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 14

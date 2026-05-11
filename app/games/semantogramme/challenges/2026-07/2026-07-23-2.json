@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "jaune",
-      "crabe",
-      "biliaire",
-      "habiter",
-      "glycogène"
+      "croyance",
+      "aneth",
+      "maïs",
+      "colombe",
+      "théâtral"
     ],
     [
-      "cour",
-      "détoxifier",
-      "sacrement",
-      "jaunisse",
-      "petite"
+      "cartes",
+      "illusionner",
+      "mystique",
+      "lapin",
+      "rénal"
     ],
     [
-      "pièce",
-      "cirrhose",
-      "restaurant",
-      "pâté",
-      "diaphane"
+      "hamac",
+      "transformer",
+      "baguette",
+      "sql",
+      "amusant"
     ],
     [
-      "capitale",
-      "ictère",
-      "organe",
-      "rancune",
-      "filtrer"
+      "fascinant",
+      "spectacle",
+      "récompense",
+      "mentir",
+      "pendule"
     ],
     [
-      "cirrhotique",
-      "sécréter",
-      "piquet",
-      "bile",
-      "aigrir"
+      "mystérieux",
+      "édredon",
+      "disparaître",
+      "observatoire",
+      "habile"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    3,
-    3
-  ],
-  "colClues": [
     2,
     4,
     2,
+    2,
+    3
+  ],
+  "colClues": [
     3,
+    3,
+    3,
+    2,
     2
   ],
-  "themeWord": "foie",
+  "themeWord": "magicien",
   "solution": [
     [
-      true,
+      false,
+      false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       true
     ],
     [
       true,
       true,
-      false,
+      true,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 13

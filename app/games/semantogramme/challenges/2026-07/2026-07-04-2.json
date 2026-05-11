@@ -5,76 +5,62 @@
   "height": 5,
   "words": [
     [
-      "digestion",
-      "vendredi",
-      "majestueux",
-      "observation",
-      "acier"
+      "national",
+      "forte",
+      "législatif",
+      "démocratique",
+      "rosier"
     ],
     [
-      "toile",
-      "regard",
-      "monocle",
-      "aveugle",
-      "rétine"
+      "légiférer",
+      "animal",
+      "débattre",
+      "voter",
+      "inhalation"
     ],
     [
-      "pupille",
-      "omelette",
-      "cil",
-      "cisailler",
-      "été"
+      "hémicycle",
+      "député",
+      "sénateur",
+      "haute-définition",
+      "débat"
     ],
     [
-      "larme",
-      "télescope",
-      "lunette",
-      "oculaire",
-      "iris"
+      "flemme",
+      "amour",
+      "meringue",
+      "sénat",
+      "gazette"
     ],
     [
-      "garder",
-      "pétrir",
-      "recherche",
-      "sourcil",
-      "courir"
+      "tenue",
+      "village",
+      "chasseur",
+      "rarissime",
+      "commission"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    4,
     1,
-    4,
-    2,
-    4,
     1
   ],
   "colClues": [
-    2,
+    3,
     1,
     3,
-    4,
+    3,
     2
   ],
-  "themeWord": "oeil",
+  "themeWord": "parlement",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
@@ -82,6 +68,13 @@
       false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       true
     ],
     [
@@ -90,6 +83,13 @@
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 12

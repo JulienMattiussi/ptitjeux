@@ -5,76 +5,76 @@
   "height": 6,
   "words": [
     [
-      "fusée",
-      "chemin",
-      "argenté",
-      "panier",
-      "beige",
-      "bureau"
+      "chaleur",
+      "avaler",
+      "fragment",
+      "farfadet",
+      "fièvre",
+      "ondulé"
+    ],
+    [
+      "pastille",
+      "enflammer",
+      "broderie",
+      "nouveau",
+      "boxe",
+      "fuji"
+    ],
+    [
+      "blanche",
+      "consulter",
+      "rude",
+      "révision",
+      "voter",
+      "gorge"
+    ],
+    [
+      "défier",
+      "aiguë",
+      "amygdale",
+      "antibiotique",
+      "manque",
+      "virale"
+    ],
+    [
+      "héberger",
+      "coffre",
+      "gêne",
+      "triste",
+      "bactérienne",
+      "voilier"
     ],
     [
       "rouge",
-      "turquoise",
-      "carnet",
-      "tunnel",
-      "écran",
-      "noir"
-    ],
-    [
-      "miroir",
-      "beige",
-      "turquoise",
-      "turquoise",
-      "étoile",
-      "timbre"
-    ],
-    [
-      "jardin",
-      "règle",
-      "violet",
-      "noir",
-      "bleu",
-      "vert"
-    ],
-    [
-      "bleu",
-      "rose",
-      "racine",
-      "panier",
-      "turquoise",
-      "cadre"
-    ],
-    [
-      "pétale",
-      "bleu",
-      "gomme",
-      "tunnel",
-      "turquoise",
-      "règle"
+      "noire",
+      "athlétisme",
+      "streptocoque",
+      "pelouse",
+      "cyclisme"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
+    2,
     4,
-    3,
+    4,
+    1,
     2
   ],
   "colClues": [
-    2,
-    4,
     3,
-    2,
     4,
+    2,
+    2,
+    2,
     2
   ],
-  "themeWord": "couleur",
+  "themeWord": "angine",
   "solution": [
     [
       false,
-      false,
       true,
+      false,
       false,
       true,
       false
@@ -83,6 +83,14 @@
       true,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false,
       true
@@ -93,32 +101,24 @@
       true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       false,
       true,
       false
     ],
     [
-      false,
       true,
       false,
       false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

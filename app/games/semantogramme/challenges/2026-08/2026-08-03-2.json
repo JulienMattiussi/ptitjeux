@@ -5,69 +5,76 @@
   "height": 5,
   "words": [
     [
-      "filleul",
-      "récompense",
-      "jonquille",
-      "citron",
-      "surfer"
+      "sacré",
+      "cérébral",
+      "squelettique",
+      "gronder",
+      "imaginer"
     ],
     [
-      "doré",
-      "numéro",
-      "maïs",
-      "liaisonner",
-      "paille"
+      "mental",
+      "foule",
+      "jumeler",
+      "esprit",
+      "zoom"
     ],
     [
-      "canari",
-      "éclatant",
-      "carrelage",
-      "inusité",
-      "moutarde"
+      "majorité",
+      "réflexion",
+      "lobe",
+      "réfléchir",
+      "crâne"
     ],
     [
-      "grec",
-      "épiler",
-      "respiratoire",
-      "tournesol",
-      "ocre"
+      "penser",
+      "cognition",
+      "royale",
+      "juge",
+      "neuronal"
     ],
     [
-      "pâle",
-      "vif",
-      "beurre",
-      "or",
-      "semence"
+      "lapin",
+      "intelligence",
+      "mémoire",
+      "fille",
+      "mémoriser"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
     2,
-    4
-  ],
-  "colClues": [
-    3,
-    2,
-    3,
+    4,
     3,
     3
   ],
-  "themeWord": "jaune",
+  "colClues": [
+    2,
+    4,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "cerveau",
   "solution": [
     [
       false,
-      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       false
     ],
     [
-      true,
       false,
       true,
-      false,
+      true,
+      true,
       true
     ],
     [
@@ -79,17 +86,10 @@
     ],
     [
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 14

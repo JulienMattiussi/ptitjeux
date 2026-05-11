@@ -5,98 +5,82 @@
   "height": 6,
   "words": [
     [
-      "boxe",
-      "cyclisme",
-      "boxe",
-      "timbre",
-      "panneau",
-      "escalade"
+      "foulure",
+      "farfadet",
+      "modéré",
+      "rôti",
+      "soda",
+      "jugement"
     ],
     [
-      "volley",
-      "fusée",
-      "danse",
-      "coussin",
-      "cyclisme",
-      "danse"
+      "rond",
+      "colada",
+      "jaune",
+      "extase",
+      "piña",
+      "spectateur"
     ],
     [
-      "cyclisme",
-      "plafond",
-      "carnet",
-      "pince",
-      "course",
-      "ski"
+      "tropical",
+      "erreur",
+      "effacement",
+      "juteux",
+      "épineux",
+      "élytre"
     ],
     [
-      "devoir",
-      "boxe",
-      "voile",
-      "sol",
-      "volley",
-      "mémoire"
+      "sucré",
+      "pulpe",
+      "violet",
+      "caraïbe",
+      "calligraphie",
+      "exotique"
     ],
     [
-      "fusée",
-      "bureau",
-      "peigne",
-      "étoile",
-      "marathon",
-      "marathon"
+      "arqué",
+      "fruit",
+      "inhabité",
+      "tranche",
+      "morne",
+      "maquillé"
     ],
     [
-      "ski",
-      "ski",
-      "parfum",
-      "natation",
-      "course",
-      "cyclisme"
+      "écorce",
+      "apathique",
+      "cueillette",
+      "parure",
+      "feuille",
+      "gros"
     ]
   ],
   "rowClues": [
-    4,
+    1,
     4,
     3,
-    3,
+    4,
     2,
-    5
+    4
   ],
   "colClues": [
     4,
     3,
+    2,
+    4,
     3,
-    1,
-    5,
-    5
+    2
   ],
-  "themeWord": "sport",
+  "themeWord": "ananas",
   "solution": [
     [
-      true,
-      true,
-      true,
       false,
       false,
-      true
+      false,
+      true,
+      false,
+      false
     ],
     [
       true,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
       false,
@@ -104,21 +88,37 @@
       false
     ],
     [
-      false,
-      false,
+      true,
       false,
       false,
       true,
-      true
+      true,
+      false
     ],
     [
       true,
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 21
+  "parMoves": 18
 }

@@ -5,106 +5,98 @@
   "height": 6,
   "words": [
     [
-      "tasse",
-      "langue",
-      "lèvre",
-      "silence",
-      "savon",
-      "tournevis"
+      "angle",
+      "pousser",
+      "vision",
+      "mouche",
+      "multiplier",
+      "trois-cent-soixante-cinq"
     ],
     [
-      "balai",
-      "chemin",
-      "maison",
-      "mémoire",
-      "peau",
-      "carnet"
+      "rapporter",
+      "lever",
+      "fortune",
+      "flexion",
+      "mantra",
+      "interpréter"
     ],
     [
-      "nez",
-      "langue",
-      "globe",
-      "tournevis",
-      "caillou",
-      "bras"
+      "avant-bras",
+      "salive",
+      "alité",
+      "ronge",
+      "corriger",
+      "main"
     ],
     [
-      "lampe",
-      "pelle",
-      "pied",
-      "oeil",
-      "tunnel",
-      "carnet"
+      "articulation",
+      "bras",
+      "amitié",
+      "plier",
+      "pli",
+      "léopard"
     ],
     [
-      "manuel",
-      "main",
-      "tabouret",
-      "coeur",
-      "genou",
-      "chaise"
+      "corolle",
+      "extension",
+      "cogner",
+      "désherber",
+      "cubitus",
+      "humérus"
     ],
     [
-      "épaule",
-      "oeil",
-      "oeil",
-      "coeur",
-      "règle",
-      "marteau"
+      "classement",
+      "manche",
+      "pointu",
+      "kale",
+      "terrier",
+      "poser"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    3,
     2,
-    3,
-    4
-  ],
-  "colClues": [
     2,
     4,
-    3,
-    3,
-    2,
-    1
+    4,
+    3
   ],
-  "themeWord": "corps",
+  "colClues": [
+    3,
+    5,
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "coude",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       false,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
+      true,
       false,
       true,
+      false,
       false
     ],
     [
       true,
-      true,
+      false,
       false,
       false,
       false,
       true
     ],
     [
-      false,
-      false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
@@ -112,13 +104,21 @@
       false
     ],
     [
-      true,
-      true,
+      false,
       true,
       true,
       false,
-      false
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

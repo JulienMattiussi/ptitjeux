@@ -5,87 +5,79 @@
   "height": 6,
   "words": [
     [
-      "chant",
-      "tabouret",
-      "rythme",
-      "jazz",
-      "porte",
-      "ciseaux"
+      "train",
+      "web",
+      "logiciel",
+      "sociale",
+      "utile",
+      "télécharger"
     ],
     [
-      "guitare",
-      "choeur",
-      "fusée",
-      "plateau",
-      "ciseaux",
-      "silence"
+      "valse",
+      "olivier",
+      "crinière",
+      "utiliser",
+      "mât",
+      "icône"
     ],
     [
-      "globe",
-      "caillou",
-      "bureau",
-      "violon",
-      "tunnel",
-      "mélodie"
+      "capillaire",
+      "tablette",
+      "vacarme",
+      "mobile",
+      "cellule",
+      "store"
     ],
     [
-      "trompette",
-      "harpe",
-      "prison",
-      "pelle",
-      "chemin",
-      "caillou"
+      "gibecière",
+      "smartphone",
+      "empreinte",
+      "installer",
+      "frisbee",
+      "impeccable"
     ],
     [
-      "batterie",
-      "porte",
-      "parfum",
-      "crayon",
-      "gamme",
-      "règle"
+      "mini",
+      "loyal",
+      "gratuite",
+      "gestationnel",
+      "plate",
+      "domaine"
     ],
     [
-      "batterie",
-      "tambour",
-      "choeur",
-      "trompette",
-      "voisin",
-      "batterie"
+      "profond",
+      "payante",
+      "dompter",
+      "paquet",
+      "lancer",
+      "soja"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    2,
-    2,
-    5
-  ],
-  "colClues": [
     5,
-    3,
     2,
     3,
-    1,
+    2,
+    2,
     2
   ],
-  "themeWord": "musique",
+  "colClues": [
+    1,
+    4,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "application",
   "solution": [
     [
-      true,
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
@@ -96,28 +88,36 @@
       true
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 16

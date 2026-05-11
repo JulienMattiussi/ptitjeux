@@ -5,108 +5,76 @@
   "height": 6,
   "words": [
     [
-      "abricot",
-      "caillou",
-      "mangue",
-      "lueur",
-      "caillou",
-      "rideau"
+      "callosité",
+      "mollusque",
+      "couette",
+      "dur",
+      "spam",
+      "batavia"
     ],
     [
-      "panier",
-      "banane",
-      "pêche",
-      "mûre",
-      "kiwi",
-      "abricot"
+      "idée",
+      "pagaie",
+      "statue",
+      "évier",
+      "envelopper",
+      "chaussure"
     ],
     [
-      "orange",
-      "timbre",
-      "horloge",
-      "ombre",
-      "globe",
-      "mangue"
+      "pied",
+      "seigneur",
+      "domaine",
+      "toque",
+      "moto",
+      "haut"
     ],
     [
-      "table",
-      "panier",
-      "table",
-      "bureau",
-      "ananas",
-      "banane"
+      "taper",
+      "cycliste",
+      "frapper",
+      "messe",
+      "cheville",
+      "rond"
     ],
     [
-      "mémoire",
-      "framboise",
-      "prune",
-      "mûre",
-      "chaise",
-      "porte"
+      "aiguille",
+      "vente",
+      "sandale",
+      "goéland",
+      "fouler",
+      "torchis"
     ],
     [
-      "règle",
-      "miroir",
-      "cadre",
-      "manuel",
-      "fraise",
-      "étoile"
+      "pesant",
+      "mettre",
+      "extension",
+      "effort",
+      "pivoter",
+      "impasse"
     ]
   ],
   "rowClues": [
     2,
-    5,
+    1,
     2,
-    2,
+    4,
     3,
-    1
+    2
   ],
   "colClues": [
+    4,
+    1,
     2,
-    2,
-    3,
-    2,
+    1,
     3,
     3
   ],
-  "themeWord": "fruit",
+  "themeWord": "talon",
   "solution": [
     [
       true,
       false,
-      true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       false,
       false
@@ -114,11 +82,43 @@
     [
       false,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

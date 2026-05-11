@@ -5,59 +5,73 @@
   "height": 5,
   "words": [
     [
-      "salaire",
-      "mensuel",
-      "pratiquer",
-      "créatinine",
-      "avril"
+      "japon",
+      "os",
+      "créer",
+      "délicat",
+      "pliage"
     ],
     [
-      "calendrier",
-      "enduit",
-      "brioche",
-      "février",
-      "véloce"
+      "banquette",
+      "fleur",
+      "copeau",
+      "mi",
+      "industrielle"
     ],
     [
-      "robuste",
-      "tournesol",
-      "loyer",
-      "archer",
-      "portable"
+      "tortue",
+      "animal",
+      "costume",
+      "élastique",
+      "art"
     ],
     [
-      "endive",
-      "trentaine",
-      "punaise",
-      "dune",
-      "vacances"
+      "traditionnel",
+      "menthe",
+      "lancinante",
+      "plier",
+      "japonais"
     ],
     [
-      "sureau",
-      "long",
-      "lune",
-      "compter",
-      "planifier"
+      "tradition",
+      "cour",
+      "charpentier",
+      "agripper",
+      "fusil"
     ]
   ],
   "rowClues": [
-    3,
+    4,
+    1,
     2,
-    1,
-    1,
-    4
+    3,
+    1
   ],
   "colClues": [
-    2,
     3,
     2,
+    1,
     2,
-    2
+    3
   ],
-  "themeWord": "mois",
+  "themeWord": "origami",
   "solution": [
     [
       true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
@@ -68,28 +82,14 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 11

@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "feutré",
-      "cabas",
-      "armer",
-      "bronze",
-      "couler"
+      "agilité",
+      "voltiger",
+      "transparente",
+      "aérien",
+      "menaçant"
     ],
     [
-      "assemblée",
-      "dur",
-      "construction",
-      "poupon",
-      "opuntia"
+      "noodle",
+      "scier",
+      "travailler",
+      "spectacle",
+      "tourner"
     ],
     [
-      "menu",
-      "invention",
-      "nervure",
-      "pont",
-      "caractériser"
+      "aura",
+      "hulotte",
+      "trapèze",
+      "salto",
+      "souple"
     ],
     [
-      "armature",
-      "maçon",
-      "massif",
-      "masse",
-      "durcir"
+      "maritime",
+      "voltige",
+      "corde",
+      "agile",
+      "sauter"
     ],
     [
-      "coffrage",
-      "armé",
-      "fondation",
-      "sable",
-      "lugubre"
+      "beaujolais",
+      "discuter",
+      "aquarium",
+      "marchandise",
+      "équilibre"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
-    4,
-    4
-  ],
-  "colClues": [
+    3,
     2,
     3,
     4,
-    2,
-    2
+    1
   ],
-  "themeWord": "béton",
+  "colClues": [
+    1,
+    2,
+    2,
+    4,
+    4
+  ],
+  "themeWord": "acrobate",
   "solution": [
     [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
+      true
+    ],
+    [
       false,
+      false,
+      true,
+      true,
       true
     ],
     [
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       true
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      false
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 13

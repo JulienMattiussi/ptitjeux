@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "fameux",
-      "fondre",
-      "livraison",
-      "thermos",
-      "chauffer"
+      "achat",
+      "monnaie",
+      "chardonnay",
+      "brassée",
+      "carte"
     ],
     [
-      "américain",
-      "soleil",
-      "flamme",
-      "four",
-      "canicule"
+      "inorganique",
+      "barre",
+      "magasin",
+      "caisse",
+      "commerce"
     ],
     [
-      "réchauffer",
-      "radiateur",
-      "brûler",
-      "tentacule",
-      "cadette"
+      "prix",
+      "engraisser",
+      "commercial",
+      "client",
+      "attaquer"
     ],
     [
-      "audacieux",
-      "fissure",
-      "fournaise",
-      "chaleur",
-      "joyeux"
+      "soldes",
+      "commander",
+      "molécule",
+      "chariot",
+      "incandescent"
     ],
     [
-      "pureté",
-      "bouillir",
-      "cuire",
-      "brûlant",
-      "aisselle"
+      "argent",
+      "authentifier",
+      "panier",
+      "acquérir",
+      "acheteur"
     ]
   ],
   "rowClues": [
     3,
-    4,
     3,
     2,
-    3
+    3,
+    4
   ],
   "colClues": [
-    1,
     4,
+    2,
+    2,
     4,
-    4,
-    2
+    3
   ],
-  "themeWord": "chaud",
+  "themeWord": "acheter",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      true,
       true,
       false
     ],
     [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 15

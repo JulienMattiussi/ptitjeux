@@ -5,81 +5,73 @@
   "height": 6,
   "words": [
     [
-      "maison",
-      "jardin",
-      "porte",
-      "savon",
-      "vent",
-      "nuage"
+      "orient",
+      "douce",
+      "fleur",
+      "dalmatien",
+      "pendentif",
+      "effilée"
     ],
     [
-      "arc-en-ciel",
-      "neige",
-      "tonnerre",
-      "livre",
-      "sol",
-      "verglas"
+      "vider",
+      "huile",
+      "salée",
+      "sucrée",
+      "massepain",
+      "amandier"
     ],
     [
-      "tournevis",
-      "jardin",
-      "table",
-      "lampe",
-      "arc-en-ciel",
-      "verglas"
+      "penalty",
+      "long",
+      "praliné",
+      "pâte",
+      "éloquence",
+      "fruit"
     ],
     [
-      "globe",
-      "bureau",
-      "tonnerre",
-      "gel",
-      "nuage",
-      "brouillard"
+      "mise",
+      "lait",
+      "amère",
+      "geste",
+      "enjoliveur",
+      "décimal"
     ],
     [
-      "orage",
-      "pince",
-      "soleil",
-      "rideau",
-      "pluie",
-      "fusée"
+      "tache",
+      "sacre",
+      "singulier",
+      "pulsation",
+      "grisaille",
+      "sec"
     ],
     [
-      "ciseaux",
-      "brosse",
-      "nuage",
-      "parfum",
-      "orage",
-      "arc-en-ciel"
+      "trentaine",
+      "apéritif",
+      "arrogance",
+      "coque",
+      "extraction",
+      "fée"
     ]
   ],
   "rowClues": [
-    2,
     4,
-    2,
-    4,
+    5,
     3,
-    3
+    2,
+    1,
+    2
   ],
   "colClues": [
-    2,
     1,
     4,
+    4,
+    3,
     1,
-    5,
-    5
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "amande",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       true,
       true,
@@ -89,9 +81,9 @@
     ],
     [
       false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       true
     ],
@@ -100,25 +92,33 @@
       false,
       true,
       true,
-      true,
+      false,
       true
     ],
     [
-      true,
       false,
       true,
-      false,
       true,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "ongle",
-      "pied",
-      "dos",
-      "voisin",
-      "chemin",
-      "crayon"
+      "inhaler",
+      "religieux",
+      "inspirer",
+      "haleter",
+      "pomper",
+      "ambitionner"
     ],
     [
-      "carnet",
-      "peau",
-      "lampe",
-      "dent",
-      "tournevis",
-      "peau"
+      "sillonner",
+      "vert",
+      "cabré",
+      "pompe",
+      "voeu",
+      "révision"
     ],
     [
-      "globe",
-      "écran",
-      "balai",
-      "lèvre",
-      "jambe",
-      "tapis"
+      "éternel",
+      "rêver",
+      "paille",
+      "ancien",
+      "absorber",
+      "gabriel"
     ],
     [
-      "joue",
-      "rideau",
-      "globe",
-      "coussin",
-      "main",
-      "panier"
+      "jumeau",
+      "succion",
+      "gerbe",
+      "sucer",
+      "aspirateur",
+      "désirer"
     ],
     [
-      "dent",
-      "horloge",
-      "épaule",
-      "ciseaux",
-      "carnet",
-      "nez"
+      "tragédie",
+      "douche",
+      "libéral",
+      "aspiration",
+      "fresque",
+      "fils"
     ],
     [
-      "mur",
-      "dos",
-      "peau",
-      "langue",
-      "nez",
-      "ongle"
+      "véranda",
+      "plancher",
+      "débutant",
+      "inhalation",
+      "vertical",
+      "siphon"
     ]
   ],
   "rowClues": [
+    4,
     3,
     3,
-    2,
-    2,
-    3,
-    5
+    4,
+    1,
+    2
   ],
   "colClues": [
+    1,
+    2,
     3,
-    3,
-    3,
-    3,
-    3,
+    4,
+    4,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "aspirer",
   "solution": [
     [
       true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -84,7 +100,7 @@
       true,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
@@ -92,33 +108,17 @@
       false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
-      true,
       false,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

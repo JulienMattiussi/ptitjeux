@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "pinceau",
-      "artistique",
-      "tentacule",
-      "japonais",
-      "aiguille"
+      "sueurs",
+      "indien",
+      "respiration",
+      "gourou",
+      "annuel"
     ],
     [
-      "chinois",
-      "encre",
-      "caractère",
-      "élémentaire",
-      "asiatique"
+      "tapis",
+      "sérénité",
+      "fleur",
+      "mantra",
+      "bâtiment"
     ],
     [
-      "mars",
-      "plume",
-      "écrire",
-      "supporter",
-      "mordre"
+      "méditer",
+      "posture",
+      "pratiquer",
+      "éducatif",
+      "chèque"
     ],
     [
-      "croisée",
-      "rafale",
-      "triompher",
-      "papier",
-      "algébrique"
+      "garnir",
+      "bas",
+      "tomme",
+      "relaxant",
+      "biliaire"
     ],
     [
-      "pommade",
-      "juge",
-      "tracer",
-      "artère",
-      "fluide"
+      "méditation",
+      "flair",
+      "maternel",
+      "cinéma",
+      "oriental"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    2,
+    3,
+    3,
     1,
     2
   ],
   "colClues": [
-    2,
     3,
     3,
     2,
-    2
+    3,
+    1
   ],
-  "themeWord": "calligraphie",
+  "themeWord": "yoga",
   "solution": [
     [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       true,
       false,
@@ -68,13 +75,6 @@
       true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       false
     ],
     [
@@ -85,9 +85,9 @@
       false
     ],
     [
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       true
     ]

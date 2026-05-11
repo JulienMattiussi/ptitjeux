@@ -5,77 +5,85 @@
   "height": 6,
   "words": [
     [
-      "globe",
-      "poire",
-      "horloge",
-      "kiwi",
-      "raisin",
-      "porte"
+      "baiser",
+      "caustique",
+      "manigancer",
+      "bouche",
+      "iceberg",
+      "plantule"
     ],
     [
-      "banane",
-      "plateau",
-      "jardin",
-      "balai",
-      "plafond",
-      "panneau"
+      "jaunisse",
+      "sucer",
+      "culminer",
+      "fardeau",
+      "pincer",
+      "esquisser"
     ],
     [
-      "citron",
-      "cerise",
-      "jardin",
-      "clé",
-      "chemin",
-      "abricot"
+      "gercé",
+      "charogne",
+      "épancher",
+      "amplifier",
+      "distinctif",
+      "plein"
     ],
     [
-      "ananas",
-      "agenda",
-      "tournevis",
-      "framboise",
-      "ciseaux",
-      "pêche"
+      "décennie",
+      "pétiole",
+      "élève",
+      "contenu",
+      "sourire",
+      "baisotter"
     ],
     [
-      "peigne",
-      "devoir",
-      "kiwi",
-      "figue",
-      "cadre",
-      "mur"
+      "cochon",
+      "syngnathe",
+      "cantine",
+      "parler",
+      "grimper",
+      "serrer"
     ],
     [
-      "chaise",
-      "raisin",
-      "abricot",
-      "savon",
-      "tapis",
-      "orange"
+      "humide",
+      "mordre",
+      "tendre",
+      "manquer",
+      "rouge",
+      "isolée"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    3,
-    3,
     2,
-    3
+    2,
+    2,
+    2,
+    2,
+    4
   ],
   "colClues": [
     3,
-    3,
+    2,
+    1,
     2,
     3,
-    1,
     3
   ],
-  "themeWord": "fruit",
+  "themeWord": "lèvre",
   "solution": [
     [
+      true,
+      false,
       false,
       true,
       false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
       true,
       false
     ],
@@ -85,40 +93,32 @@
       false,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

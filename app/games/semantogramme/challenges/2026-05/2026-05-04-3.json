@@ -5,76 +5,84 @@
   "height": 6,
   "words": [
     [
-      "piano",
-      "chemin",
-      "table",
-      "chant",
-      "mélodie",
-      "guitare"
+      "fluvial",
+      "galia",
+      "eucalyptus",
+      "mentonnière",
+      "chariot",
+      "lent"
     ],
     [
-      "pince",
-      "rideau",
-      "choeur",
-      "flûte",
-      "note",
-      "horloge"
+      "lourd",
+      "absorbant",
+      "patineur",
+      "marchandise",
+      "tirée",
+      "plat"
     ],
     [
-      "parfum",
-      "gamme",
-      "écran",
-      "bureau",
-      "pelle",
-      "concerto"
+      "moyen-âge",
+      "fendiller",
+      "canal",
+      "cola",
+      "moulinet",
+      "transport"
     ],
     [
-      "agenda",
-      "chant",
-      "rythme",
-      "enveloppe",
-      "accord",
-      "ombre"
+      "eau",
+      "habitable",
+      "chrétien",
+      "agilité",
+      "conseiller",
+      "crypté"
     ],
     [
-      "écran",
-      "note",
-      "parfum",
-      "serrure",
-      "opéra",
-      "accord"
+      "costume",
+      "transporter",
+      "paysage",
+      "organe",
+      "plumeux",
+      "long"
     ],
     [
-      "batterie",
-      "peigne",
-      "vis",
-      "rythme",
-      "brosse",
-      "pelle"
+      "commerciale",
+      "caillé",
+      "écluse",
+      "naviguer",
+      "créatinine",
+      "dispenser"
     ]
   ],
   "rowClues": [
+    2,
     4,
-    3,
+    2,
     2,
     3,
-    3,
-    2
-  ],
-  "colClues": [
-    2,
-    3,
-    2,
-    3,
-    4,
     3
   ],
-  "themeWord": "musique",
+  "colClues": [
+    4,
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "themeWord": "péniche",
   "solution": [
     [
       true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true,
       true
@@ -83,42 +91,34 @@
       false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       false,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

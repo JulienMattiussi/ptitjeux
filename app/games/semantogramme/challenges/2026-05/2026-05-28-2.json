@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "traversin",
-      "maquette",
-      "neige",
-      "abandonner",
-      "moelleux"
+      "caoutchouc",
+      "cérumen",
+      "consoler",
+      "sable",
+      "attentionné"
     ],
     [
-      "dribble",
-      "rayon",
-      "frigo",
-      "tropicale",
-      "frigorifique"
+      "submergé",
+      "amabilité",
+      "bienveillant",
+      "douceur",
+      "aider"
     ],
     [
-      "hiver",
-      "chien",
-      "congeler",
-      "lumbago",
-      "monastère"
+      "orchidée",
+      "commémoration",
+      "tram",
+      "urbain",
+      "sourire"
     ],
     [
-      "pièce",
-      "gel",
-      "frais",
-      "iceberg",
-      "congélateur"
+      "artiste",
+      "soutenir",
+      "attention",
+      "compliment",
+      "cadeau"
     ],
     [
-      "geler",
-      "relaxant",
-      "cou",
-      "refroidir",
-      "glaçon"
+      "bonté",
+      "offrir",
+      "effilée",
+      "molécule",
+      "minestrone"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     2,
     4,
-    3
+    1,
+    4,
+    1
   ],
   "colClues": [
-    2,
     1,
-    4,
     2,
-    3
+    3,
+    2,
+    4
   ],
-  "themeWord": "froid",
+  "themeWord": "gentil",
   "solution": [
     [
       false,
       false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 12

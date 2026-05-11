@@ -5,74 +5,90 @@
   "height": 6,
   "words": [
     [
-      "rouge",
-      "prison",
-      "vert",
-      "crayon",
-      "vert",
-      "pierre"
+      "fraise",
+      "pâte",
+      "flan",
+      "siècle",
+      "fruit",
+      "sarcasme"
     ],
     [
-      "jaune",
-      "indigo",
-      "vert",
-      "gomme",
-      "gris",
-      "indigo"
+      "territoire",
+      "occupé",
+      "écosystème",
+      "sucrée",
+      "courber",
+      "crevette"
     ],
     [
-      "règle",
-      "brun",
-      "carnet",
-      "orange",
-      "argenté",
-      "beige"
+      "préparer",
+      "néant",
+      "crème",
+      "fatigante",
+      "plate",
+      "traversin"
     ],
     [
-      "blanc",
-      "blanc",
-      "pince",
-      "noir",
-      "indigo",
-      "jaune"
+      "queue",
+      "ombrelle",
+      "foudre",
+      "ronde",
+      "tirer",
+      "pâtissier"
     ],
     [
-      "enveloppe",
-      "crayon",
-      "gris",
-      "doré",
-      "beige",
-      "blanc"
+      "usage",
+      "gueuler",
+      "meringue",
+      "citron",
+      "entretenir",
+      "smartphone"
     ],
     [
-      "peigne",
-      "rumeur",
-      "tournevis",
-      "doré",
-      "règle",
-      "tunnel"
+      "segment",
+      "épée",
+      "feuilletée",
+      "cuire",
+      "garnir",
+      "enchaîner"
     ]
   ],
   "rowClues": [
+    4,
+    1,
     3,
-    5,
-    4,
-    5,
-    4,
-    1
+    2,
+    2,
+    3
   ],
   "colClues": [
-    3,
-    3,
-    3,
+    2,
+    1,
     4,
-    5,
-    4
+    4,
+    3,
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "tarte",
   "solution": [
     [
       true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
@@ -80,27 +96,11 @@
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
-      true,
-      true
-    ],
-    [
+      false,
       false,
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
       true
     ],
     [
@@ -108,17 +108,17 @@
       false,
       true,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 22
+  "parMoves": 15
 }

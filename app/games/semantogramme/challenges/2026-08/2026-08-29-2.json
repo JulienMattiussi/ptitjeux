@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
+      "composer",
+      "transcrire",
+      "sabot",
+      "spray",
+      "inorganique"
+    ],
+    [
+      "crayon",
+      "phrase",
+      "griffonner",
+      "gerboise",
+      "déraper"
+    ],
+    [
+      "cinéma",
+      "rédiger",
+      "feuille",
+      "cahier",
+      "manuscrit"
+    ],
+    [
+      "trampoline",
+      "dompter",
+      "budget",
+      "stylo",
+      "lettre"
+    ],
+    [
+      "maçonnerie",
+      "auteur",
+      "plume",
       "noter",
-      "antiquité",
-      "rive",
-      "truffe",
-      "tropical"
-    ],
-    [
-      "épuiser",
-      "satire",
-      "perle",
-      "unique",
-      "raréfier"
-    ],
-    [
-      "inusité",
-      "cabernet",
-      "exceptionnel",
-      "germaine",
-      "émail"
-    ],
-    [
-      "pénale",
-      "lutter",
-      "manquer",
-      "beauté",
-      "diamant"
-    ],
-    [
-      "pièce",
-      "météorite",
-      "gazette",
-      "manuscrit",
-      "curiosité"
+      "embaumer"
     ]
   ],
   "rowClues": [
     2,
+    3,
     4,
     2,
-    2,
-    4
-  ],
-  "colClues": [
-    3,
-    2,
-    3,
-    3,
     3
   ],
-  "themeWord": "rare",
+  "colClues": [
+    2,
+    4,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "écrire",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
       true,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false
     ],
     [
       false,
-      false,
       true,
-      false,
+      true,
+      true,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 14

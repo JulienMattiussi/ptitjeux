@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "fossile",
-      "antique",
-      "vieillir",
-      "vieillard",
-      "erreur"
+      "tom",
+      "cisailler",
+      "contrôleur",
+      "à-fromage",
+      "carpaccio"
     ],
     [
-      "emporter",
-      "cabernet",
-      "vétuste",
-      "albâtre",
-      "patriarche"
+      "préparer",
+      "naturel",
+      "rêverie",
+      "salade",
+      "crudité"
     ],
     [
-      "caduc",
-      "bière",
-      "centenaire",
-      "antiquité",
-      "relique"
+      "hampe",
+      "tartare",
+      "trancher",
+      "sashimi",
+      "oeuf"
     ],
     [
-      "vendredi",
-      "crocodile",
-      "fraise",
-      "antiquaire",
-      "archaïque"
+      "fougue",
+      "frais",
+      "légume",
+      "gêné",
+      "tailler"
     ],
     [
-      "décrépir",
-      "aïeul",
-      "véranda",
-      "vague",
-      "ancêtre"
+      "paraphe",
+      "spirale",
+      "sushi",
+      "brut",
+      "pluie"
     ]
   ],
   "rowClues": [
-    4,
     2,
     4,
-    2,
-    3
+    4,
+    3,
+    2
   ],
   "colClues": [
-    3,
-    2,
+    1,
+    4,
     3,
     3,
     4
   ],
-  "themeWord": "vieux",
+  "themeWord": "cru",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
     [
       true,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 15

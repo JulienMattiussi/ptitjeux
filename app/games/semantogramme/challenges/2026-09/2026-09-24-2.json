@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "lueur",
-      "ceinture",
-      "prompt",
-      "feuillue",
-      "naissant"
+      "antiquité",
+      "vénérer",
+      "antique",
+      "mystique",
+      "compétition"
     ],
     [
-      "rivière",
-      "souple",
-      "orient",
-      "épiderme",
-      "jubilation"
+      "colonne",
+      "fulgurant",
+      "expliquer",
+      "fort",
+      "éthique"
     ],
     [
-      "commencement",
-      "chouette",
-      "rosée",
-      "rosé",
-      "char"
+      "cueilleur",
+      "massif",
+      "bébé",
+      "religieux",
+      "enfance"
     ],
     [
-      "aube",
-      "paraître",
-      "soleil",
-      "précoce",
-      "débat"
+      "milanaise",
+      "religion",
+      "rite",
+      "horde",
+      "poing"
     ],
     [
-      "cercle",
-      "féroce",
-      "matinal",
-      "égarement",
-      "embrayage"
+      "boulonner",
+      "porte-jarretelles",
+      "cérémonie",
+      "sacré",
+      "prière"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    3,
     4,
-    1
+    1,
+    1,
+    2,
+    3
   ],
   "colClues": [
-    3,
-    1,
-    4,
     2,
+    2,
+    3,
+    3,
     1
   ],
-  "themeWord": "aurore",
+  "themeWord": "temple",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
     ]
   ],
   "parMoves": 11

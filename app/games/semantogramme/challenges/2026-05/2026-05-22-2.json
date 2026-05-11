@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "baleine",
-      "agrandir",
-      "givrer",
-      "grandir",
-      "éléphant"
+      "fenêtre",
+      "silence",
+      "cirque",
+      "maquillage",
+      "route"
     ],
     [
-      "spacieux",
-      "grotte",
-      "imposant",
-      "mémoire",
-      "éclairer"
+      "visuel",
+      "silencieux",
+      "inspiration",
+      "évoquer",
+      "comique"
     ],
     [
-      "brume",
-      "colosse",
-      "immense",
-      "amplifier",
-      "palais"
+      "pantomime",
+      "enchanté",
+      "tarentule",
+      "artistique",
+      "geste"
     ],
     [
-      "vaste",
-      "avant-bras",
-      "titanesque",
-      "géant",
-      "harpe"
+      "forêt",
+      "imiter",
+      "scène",
+      "air",
+      "sauver"
     ],
     [
-      "rouge",
-      "idole",
-      "gratte-ciel",
-      "éolienne",
-      "gigantesque"
+      "visage",
+      "expressif",
+      "expression",
+      "embarras",
+      "rubrique"
     ]
   ],
   "rowClues": [
-    4,
-    2,
+    3,
     4,
     3,
-    2
+    2,
+    3
   ],
   "colClues": [
     3,
-    2,
     4,
     3,
-    3
+    3,
+    2
   ],
-  "themeWord": "grand",
+  "themeWord": "mime",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
     ],
     [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
-      false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
     ]
   ],
   "parMoves": 15

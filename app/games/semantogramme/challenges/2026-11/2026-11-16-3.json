@@ -5,84 +5,76 @@
   "height": 6,
   "words": [
     [
-      "gomme",
-      "cadre",
-      "peau",
-      "manuel",
-      "règle",
-      "manuel"
+      "cueillette",
+      "acrylique",
+      "mirabelle",
+      "explorer",
+      "mûre",
+      "cheveu"
     ],
     [
-      "parfum",
-      "racine",
-      "lampe",
-      "tasse",
-      "bouche",
-      "timbre"
+      "imagination",
+      "juteuse",
+      "sud",
+      "tropique",
+      "eau-de-vie",
+      "douce"
     ],
     [
-      "agenda",
-      "lèvre",
-      "tasse",
-      "porte",
-      "lampe",
-      "dos"
+      "aspersion",
+      "voyage",
+      "reine-claude",
+      "pruneau",
+      "séchée",
+      "compote"
     ],
     [
-      "épaule",
-      "règle",
-      "pince",
-      "peigne",
-      "langue",
-      "bureau"
+      "jaune",
+      "quetsche",
+      "noyau",
+      "violet",
+      "affliction",
+      "tangage"
     ],
     [
-      "prière",
-      "savon",
-      "rideau",
-      "langue",
-      "devoir",
-      "oreille"
+      "cour",
+      "prunier",
+      "tannerie",
+      "ébahissement",
+      "aluminium",
+      "préventif"
     ],
     [
-      "pétale",
-      "cadre",
-      "épaule",
-      "table",
-      "marteau",
-      "panier"
+      "fruit",
+      "pulpe",
+      "force",
+      "éléphant",
+      "fendre",
+      "sommier"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    4,
+    4,
     1,
-    1,
-    2,
-    2,
-    2,
-    1
-  ],
-  "colClues": [
-    1,
-    1,
-    2,
-    1,
-    2,
     2
   ],
-  "themeWord": "corps",
+  "colClues": [
+    3,
+    4,
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "prune",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
+      true,
       false,
       true,
       false
@@ -92,33 +84,41 @@
       true,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
       true
     ],
     [
       false,
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 17
 }

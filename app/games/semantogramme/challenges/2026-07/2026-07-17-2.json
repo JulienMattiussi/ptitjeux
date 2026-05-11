@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "triceps",
-      "étau",
-      "jouer",
-      "serrer",
-      "main"
+      "va-et-vient",
+      "botte",
+      "arranger",
+      "panne",
+      "recoller"
     ],
     [
-      "longueur",
-      "télescope",
-      "levée",
-      "préfecture",
-      "adorer"
+      "phare",
+      "remettre",
+      "pépin",
+      "soudure",
+      "forêt"
     ],
     [
-      "relaxant",
-      "comble",
-      "embrasser",
-      "carie",
-      "porter"
+      "remplacer",
+      "sécurité",
+      "achèvement",
+      "réparateur",
+      "colle"
     ],
     [
-      "avant-bras",
-      "oasis",
-      "aisselle",
-      "plante",
-      "figuier"
+      "restaurer",
+      "rafistoler",
+      "grimace",
+      "fureur",
+      "rustine"
     ],
     [
-      "prunier",
-      "biceps",
-      "extension",
-      "brassée",
-      "coude"
+      "condenser",
+      "outil",
+      "instable",
+      "rampant",
+      "sucrée"
     ]
   ],
   "rowClues": [
     3,
-    1,
     2,
-    2,
-    4
+    3,
+    3,
+    1
   ],
   "colClues": [
     2,
+    3,
     1,
-    4,
-    2,
+    3,
     3
   ],
-  "themeWord": "bras",
+  "themeWord": "réparer",
   "solution": [
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       true
     ],
     [
       false,
-      false,
       true,
       false,
+      true,
       false
     ],
     [
+      true,
       false,
       false,
       true,
-      false,
       true
     ],
     [
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
+      false,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 12

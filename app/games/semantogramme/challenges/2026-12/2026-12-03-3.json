@@ -5,92 +5,76 @@
   "height": 6,
   "words": [
     [
-      "basket",
-      "boxe",
-      "lampe",
-      "course",
-      "marathon",
-      "tunnel"
+      "jardinier",
+      "manche",
+      "ticket",
+      "cri",
+      "improvisation",
+      "lourde"
     ],
     [
-      "rideau",
-      "ciseaux",
-      "vis",
-      "ski",
-      "marathon",
-      "gomme"
+      "écureuil",
+      "retourner",
+      "outil",
+      "planter",
+      "félon",
+      "rustique"
     ],
     [
-      "balai",
-      "escalade",
-      "gym",
-      "peigne",
-      "balai",
-      "cyclisme"
+      "sursaut",
+      "fainéant",
+      "paille",
+      "paysan",
+      "crue",
+      "utopie"
     ],
     [
-      "rideau",
-      "danse",
-      "brosse",
-      "marathon",
-      "marathon",
-      "balai"
+      "dent",
+      "fumier",
+      "estival",
+      "agricole",
+      "copeau",
+      "soulever"
     ],
     [
-      "gym",
-      "course",
-      "table",
-      "course",
-      "manuel",
-      "cadre"
+      "tamiser",
+      "tridente",
+      "ferme",
+      "intègre",
+      "piquer",
+      "haltère"
     ],
     [
-      "règle",
-      "cyclisme",
-      "gym",
-      "cadre",
-      "tennis",
-      "escalade"
+      "plaidoyer",
+      "rôtir",
+      "foin",
+      "germe",
+      "interpréter",
+      "long"
     ]
   ],
   "rowClues": [
+    3,
     4,
     2,
+    4,
     3,
-    3,
-    3,
-    4
+    2
   ],
   "colClues": [
     2,
-    5,
-    2,
     4,
     4,
-    2
+    3,
+    1,
+    4
   ],
-  "themeWord": "sport",
+  "themeWord": "fourche",
   "solution": [
     [
       true,
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       true
@@ -98,9 +82,17 @@
     [
       false,
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
+      false,
       false
     ],
     [
@@ -109,7 +101,7 @@
       false,
       true,
       false,
-      false
+      true
     ],
     [
       false,
@@ -117,8 +109,16 @@
       true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

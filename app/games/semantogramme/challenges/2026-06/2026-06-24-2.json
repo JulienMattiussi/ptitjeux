@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "jaser",
-      "anémique",
-      "affaiblir",
-      "gesticuler",
-      "halley"
+      "tisonner",
+      "baiser",
+      "lumineux",
+      "sablon",
+      "limpidité"
     ],
     [
-      "rudimentaire",
-      "frêle",
-      "coloré",
-      "chétif",
-      "épuisement"
+      "clarifier",
+      "pureté",
+      "symbiose",
+      "obscure",
+      "cristallin"
     ],
     [
-      "cachet",
-      "épuiser",
-      "inonder",
-      "fils",
-      "farine"
+      "translucide",
+      "gants",
+      "aube",
+      "épépiner",
+      "bûche"
     ],
     [
-      "guirlande",
-      "débile",
-      "fragile",
-      "tromper",
-      "fragilité"
+      "éclairer",
+      "bêche",
+      "grave",
+      "transparent",
+      "rapidité"
     ],
     [
-      "délicatesse",
-      "enfilage",
-      "descendant",
-      "studio",
-      "malade"
+      "jour",
+      "client",
+      "transparence",
+      "lucarne",
+      "pencher"
     ]
   ],
   "rowClues": [
     2,
     3,
-    1,
-    3,
+    2,
+    2,
     2
   ],
   "colClues": [
-    1,
     4,
-    2,
     1,
-    3
+    3,
+    1,
+    2
   ],
-  "themeWord": "faible",
+  "themeWord": "clair",
   "solution": [
     [
       false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       false
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
+      true,
       false
     ],
     [
-      false,
-      true,
       true,
       false,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 11

@@ -5,69 +5,83 @@
   "height": 5,
   "words": [
     [
-      "éditeur",
-      "cyclisme",
-      "creuser",
-      "long",
-      "fichier"
+      "parlementaire",
+      "rame",
+      "tenace",
+      "dangereux",
+      "pétrifier"
     ],
     [
-      "galerie",
-      "métro",
-      "mollet",
-      "bulle",
-      "enfoui"
+      "transcendance",
+      "rigide",
+      "nageoire",
+      "feu",
+      "marbre"
     ],
     [
-      "voie",
-      "profond",
-      "placebo",
-      "hirondelle",
-      "parlement"
+      "éponge",
+      "fer",
+      "soprano",
+      "inflexible",
+      "ciboulette"
     ],
     [
-      "percer",
-      "creusage",
-      "paillasson",
-      "ombre",
-      "marcher"
+      "cépage",
+      "résistant",
+      "durcir",
+      "solide",
+      "os"
     ],
     [
-      "étroit",
-      "sombre",
-      "nombre",
-      "taupe",
-      "pensée"
+      "roche",
+      "acier",
+      "perpendiculaire",
+      "empreinte",
+      "rabbin"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
     2,
     2,
     3
   ],
-  "colClues": [
-    4,
-    4,
-    1,
-    2,
-    1
-  ],
-  "themeWord": "tunnel",
+  "themeWord": "dur",
   "solution": [
     [
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       false
     ],
     [
+      false,
       true,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -75,20 +89,6 @@
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false
     ]
   ],

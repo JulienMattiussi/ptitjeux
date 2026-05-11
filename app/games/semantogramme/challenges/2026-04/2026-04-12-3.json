@@ -5,107 +5,75 @@
   "height": 6,
   "words": [
     [
+      "ballotter",
+      "jardin",
+      "enfoncer",
+      "agricole",
+      "duodénum",
+      "coco"
+    ],
+    [
+      "jardinier",
+      "retourner",
+      "louche",
+      "tranchante",
+      "magasin",
+      "manuel"
+    ],
+    [
+      "lame",
+      "poney",
+      "traversée",
+      "tambour",
+      "rural",
+      "terrassement"
+    ],
+    [
+      "cartes",
+      "soulever",
+      "auto-stop",
+      "transpirer",
+      "rectangulaire",
+      "creuser"
+    ],
+    [
+      "désirer",
       "sol",
-      "casserole",
-      "sol",
-      "peigne",
-      "pelle",
-      "recette"
+      "chimère",
+      "potager",
+      "parrain",
+      "préparer"
     ],
     [
-      "plat",
-      "recette",
-      "tablier",
-      "gomme",
-      "carnet",
-      "globe"
-    ],
-    [
-      "étagère",
-      "four",
-      "silence",
-      "assiette",
-      "verre",
-      "poêle"
-    ],
-    [
-      "poêle",
-      "pince",
-      "frigo",
-      "frigo",
-      "four",
-      "frigo"
-    ],
-    [
-      "spatule",
-      "ombre",
-      "fourchette",
-      "frigo",
-      "étagère",
-      "lampe"
-    ],
-    [
-      "spatule",
-      "crayon",
-      "évier",
-      "verre",
-      "tasse",
-      "pierre"
+      "terre",
+      "outil",
+      "moule",
+      "douceur",
+      "manche",
+      "sillonner"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
     3,
-    4,
-    5,
     3,
-    3
+    4
   ],
   "colClues": [
-    4,
     3,
-    4,
-    4,
-    2,
+    5,
+    1,
+    3,
+    3,
     3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "bêche",
   "solution": [
     [
       false,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false,
@@ -113,12 +81,44 @@
     ],
     [
       true,
-      false,
       true,
+      false,
       true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 18
 }

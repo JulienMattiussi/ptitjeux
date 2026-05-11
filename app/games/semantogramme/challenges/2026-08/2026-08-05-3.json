@@ -5,83 +5,75 @@
   "height": 6,
   "words": [
     [
-      "caravane",
-      "carnet",
-      "plateau",
-      "tournevis",
-      "navette",
-      "gomme"
+      "morosité",
+      "arracher",
+      "grue",
+      "haltérophilie",
+      "chevelure",
+      "bugle"
     ],
     [
-      "bureau",
-      "chemin",
-      "bateau",
-      "métro",
-      "coussin",
-      "tunnel"
+      "lever",
+      "capot",
+      "élévation",
+      "extraction",
+      "imagination",
+      "fragilité"
     ],
     [
-      "remorque",
-      "chemin",
-      "ferry",
-      "train",
-      "moto",
-      "voisin"
+      "danseur",
+      "idée",
+      "élever",
+      "puissance",
+      "hisser",
+      "mozzarella"
     ],
     [
-      "tasse",
-      "remorque",
-      "moto",
-      "manuel",
-      "pierre",
-      "ombre"
+      "palan",
+      "plombier",
+      "haltère",
+      "géranium",
+      "poule",
+      "lundi"
     ],
     [
-      "moto",
-      "lampe",
-      "balai",
-      "lampe",
-      "fusée",
-      "bus"
+      "effort",
+      "thym",
+      "amortisseur",
+      "engager",
+      "lion",
+      "masse"
     ],
     [
-      "table",
-      "écran",
-      "navette",
-      "remorque",
-      "voiture",
-      "caravane"
+      "poids",
+      "soutenir",
+      "roupiller",
+      "couette",
+      "synchrone",
+      "culbute"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    3,
     2,
     2,
-    4,
-    2,
-    2,
-    4
+    3
   ],
   "colClues": [
-    3,
-    1,
+    4,
+    2,
     4,
     3,
-    3,
+    1,
     2
   ],
-  "themeWord": "transport",
+  "themeWord": "soulever",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false,
@@ -92,12 +84,20 @@
       false,
       true,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
+      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       false,
       false,
@@ -112,11 +112,11 @@
       true
     ],
     [
+      true,
+      true,
       false,
       false,
-      true,
-      true,
-      true,
+      false,
       true
     ]
   ],

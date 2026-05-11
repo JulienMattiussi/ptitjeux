@@ -5,107 +5,107 @@
   "height": 6,
   "words": [
     [
-      "bus",
-      "ferry",
-      "sol",
-      "clé",
-      "manuel",
-      "timbre"
+      "punch",
+      "petit-déjeuner",
+      "thé",
+      "corriger",
+      "momifier",
+      "lait"
     ],
     [
-      "métro",
-      "taxi",
-      "métro",
-      "caillou",
-      "vélo",
-      "caravane"
+      "silhouette",
+      "tressauter",
+      "pulluler",
+      "abstention",
+      "remplir",
+      "goûter"
     ],
     [
-      "bateau",
-      "crayon",
-      "scooter",
-      "mur",
-      "maison",
-      "serrure"
+      "manche",
+      "verre",
+      "occupé",
+      "binaire",
+      "transylvanie",
+      "havresac"
     ],
     [
-      "écran",
-      "remorque",
-      "marteau",
-      "camion",
-      "tramway",
-      "moto"
+      "cuisine",
+      "noodle",
+      "comté",
+      "plastique",
+      "envergure",
+      "carillon"
     ],
     [
-      "voisin",
-      "remorque",
-      "voiture",
-      "mur",
-      "caravane",
-      "prière"
+      "biscuit",
+      "céréale",
+      "vaisselle",
+      "inspirer",
+      "asiatique",
+      "satisfait"
     ],
     [
-      "pétale",
-      "brosse",
-      "livre",
-      "remorque",
-      "ferry",
-      "moto"
+      "piémont",
+      "soupe",
+      "canard",
+      "dragon",
+      "matin",
+      "profond"
     ]
   ],
   "rowClues": [
-    2,
-    5,
-    2,
     4,
+    2,
+    1,
+    3,
     3,
     3
   ],
   "colClues": [
-    3,
-    4,
-    3,
     2,
-    4,
+    5,
+    2,
+    1,
+    3,
     3
   ],
-  "themeWord": "transport",
+  "themeWord": "bol",
   "solution": [
     [
       true,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
-      true,
-      false,
-      true,
       false,
       false,
-      false
-    ],
-    [
       false,
-      true,
       false,
-      true,
       true,
       true
     ],
     [
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       true,
@@ -113,12 +113,12 @@
     ],
     [
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

@@ -5,98 +5,82 @@
   "height": 6,
   "words": [
     [
-      "note",
-      "marteau",
-      "lueur",
-      "jardin",
-      "harpe",
-      "pelle"
+      "campus",
+      "cannabis",
+      "rime",
+      "prière",
+      "compartiment",
+      "mozart"
     ],
     [
-      "mélodie",
-      "bureau",
-      "panier",
-      "marteau",
-      "panier",
-      "trompette"
+      "verrou",
+      "tambour",
+      "pacifique",
+      "marionnette",
+      "basse",
+      "tropical"
     ],
     [
-      "symphonie",
-      "piano",
-      "gomme",
+      "content",
+      "laitue",
+      "jouer",
+      "parrain",
       "guitare",
-      "mélodie",
-      "tabouret"
+      "écouter"
     ],
     [
-      "jazz",
-      "note",
-      "guitare",
-      "marteau",
-      "chant",
-      "batterie"
+      "légendaire",
+      "bruyante",
+      "spirituel",
+      "luge",
+      "morue",
+      "menuisier"
     ],
     [
-      "accord",
-      "flûte",
-      "gamme",
-      "trompette",
-      "lampe",
-      "cadre"
+      "rythmé",
+      "roupiller",
+      "rugir",
+      "rasta",
+      "rebelle",
+      "romarin"
     ],
     [
-      "balai",
-      "trompette",
-      "chant",
-      "accord",
-      "mélodie",
-      "batterie"
+      "engagé",
+      "loisir",
+      "marley",
+      "caraïbe",
+      "jamaïque",
+      "chanter"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
     4,
-    5,
-    4,
+    2,
+    1,
+    3,
     5
   ],
   "colClues": [
-    5,
+    2,
+    2,
     4,
-    3,
-    3,
+    2,
     4,
-    3
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "reggae",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -104,21 +88,37 @@
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
       true,
       false,
+      true,
       false
     ],
     [
       false,
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 22
+  "parMoves": 16
 }

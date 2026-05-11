@@ -5,66 +5,59 @@
   "height": 5,
   "words": [
     [
-      "couronner",
-      "sacrer",
-      "officier",
-      "visage",
-      "pierre"
+      "obscurité",
+      "autographe",
+      "tutu",
+      "ébène",
+      "malédiction"
     ],
     [
-      "coussinet",
-      "colle",
-      "marronnier",
-      "roi",
-      "ruine"
+      "noiraud",
+      "éradiquer",
+      "orion",
+      "goudron",
+      "charbon"
     ],
     [
-      "royale",
-      "ponctuel",
-      "monarque",
-      "aube",
-      "royauté"
+      "pétrole",
+      "panthère",
+      "noirâtre",
+      "pied",
+      "ténèbres"
     ],
     [
-      "sacre",
-      "argentée",
-      "aiguille",
-      "symbolique",
-      "porter"
+      "technique",
+      "mixer",
+      "corbeau",
+      "encre",
+      "sombre"
     ],
     [
-      "or",
-      "précieuse",
-      "contracter",
-      "gambade",
-      "reine"
+      "nuit",
+      "foncé",
+      "sucrer",
+      "piratage",
+      "flamboyer"
     ]
   ],
   "rowClues": [
-    3,
-    1,
+    2,
     3,
     4,
-    3
+    3,
+    2
   ],
   "colClues": [
     4,
-    3,
-    1,
     2,
-    4
+    2,
+    3,
+    3
   ],
-  "themeWord": "couronne",
+  "themeWord": "noir",
   "solution": [
     [
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       false,
       true,
@@ -73,13 +66,6 @@
     [
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
       true
@@ -87,9 +73,23 @@
     [
       true,
       true,
-      false,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 14

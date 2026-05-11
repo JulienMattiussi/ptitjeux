@@ -5,90 +5,106 @@
   "height": 6,
   "words": [
     [
-      "bleu",
-      "chaise",
-      "mauve",
-      "plateau",
-      "crayon",
-      "noir"
+      "ingérer",
+      "souffler",
+      "fort",
+      "jouer",
+      "orchestre",
+      "aluminium"
     ],
     [
-      "rose",
-      "gomme",
-      "orange",
-      "jardin",
-      "argenté",
-      "bleu"
+      "stade",
+      "note",
+      "sonner",
+      "idylle",
+      "industrie",
+      "médecine"
     ],
     [
-      "noir",
-      "balai",
-      "carnet",
-      "orange",
-      "panneau",
-      "panneau"
+      "autel",
+      "grise",
+      "fanfare",
+      "constitutionnelle",
+      "éclatant",
+      "bugle"
     ],
     [
-      "beige",
-      "savon",
-      "bleu",
-      "ombre",
-      "mur",
-      "ocre"
+      "aigu",
+      "cuivre",
+      "mètre",
+      "sécurité",
+      "instrument",
+      "miracle"
     ],
     [
-      "table",
-      "tournevis",
-      "lampe",
-      "argenté",
-      "cadre",
-      "mauve"
+      "bière",
+      "octroyer",
+      "noircir",
+      "cuivré",
+      "creusage",
+      "mat"
     ],
     [
-      "turquoise",
-      "rose",
-      "miroir",
-      "violet",
-      "timbre",
-      "mauve"
+      "embouchure",
+      "agilité",
+      "quadratique",
+      "cor",
+      "fente",
+      "éclair"
     ]
   ],
   "rowClues": [
-    3,
     4,
     2,
     3,
-    2,
-    4
+    3,
+    1,
+    2
   ],
   "colClues": [
-    5,
-    1,
+    2,
     3,
     3,
-    1,
-    5
+    3,
+    3,
+    1
   ],
-  "themeWord": "couleur",
+  "themeWord": "trompette",
   "solution": [
     [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true,
-      false,
-      false,
       true
     ],
     [
       true,
-      false,
       true,
       false,
+      false,
       true,
-      true
+      false
     ],
     [
-      true,
+      false,
       false,
       false,
       true,
@@ -98,27 +114,11 @@
     [
       true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

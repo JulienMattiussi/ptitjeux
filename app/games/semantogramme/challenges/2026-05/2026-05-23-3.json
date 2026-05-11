@@ -5,107 +5,75 @@
   "height": 6,
   "words": [
     [
-      "éclair",
-      "brouillard",
-      "manuel",
-      "éclair",
-      "tempête",
-      "éclair"
+      "sombre",
+      "feuille",
+      "défense",
+      "métro",
+      "lobe",
+      "rogner"
     ],
     [
       "jardin",
-      "voisin",
-      "brouillard",
-      "rumeur",
-      "glace",
-      "vent"
+      "griffe",
+      "avocat",
+      "cylindrique",
+      "patte",
+      "incandescent"
     ],
     [
-      "voisin",
-      "tempête",
-      "rideau",
-      "marteau",
-      "soleil",
-      "vent"
+      "richelieu",
+      "béret",
+      "segment",
+      "lever",
+      "ramper",
+      "scolopendre"
     ],
     [
-      "verglas",
-      "globe",
-      "manuel",
-      "crayon",
-      "gel",
-      "verglas"
+      "aride",
+      "fille",
+      "cheveu",
+      "enrouler",
+      "renaître",
+      "mille"
     ],
     [
-      "brouillard",
-      "ombre",
-      "arc-en-ciel",
-      "tournevis",
-      "tournevis",
-      "silence"
-    ],
-    [
-      "pluie",
-      "tonnerre",
-      "tasse",
+      "iule",
+      "glisser",
+      "long",
       "racine",
-      "éclair",
-      "rosée"
+      "résister",
+      "récréation"
+    ],
+    [
+      "humidité",
+      "sofa",
+      "myriapode",
+      "budget",
+      "filleul",
+      "rouler"
     ]
   ],
   "rowClues": [
-    5,
     3,
     3,
     3,
     2,
-    4
+    3,
+    3
   ],
   "colClues": [
     4,
-    3,
     2,
-    1,
-    5,
-    5
+    4,
+    2,
+    2,
+    3
   ],
-  "themeWord": "météo",
+  "themeWord": "mille-pattes",
   "solution": [
     [
       true,
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false,
@@ -113,12 +81,44 @@
     ],
     [
       true,
-      true,
       false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

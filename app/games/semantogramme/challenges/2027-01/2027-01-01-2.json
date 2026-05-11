@@ -5,66 +5,59 @@
   "height": 5,
   "words": [
     [
-      "remplacer",
-      "voter",
-      "jus",
-      "code",
-      "pomme"
+      "orthogonal",
+      "carreau",
+      "angle",
+      "tête",
+      "volume"
     ],
     [
-      "écurie",
-      "parlement",
-      "républicaine",
-      "tu",
-      "heure"
+      "courroux",
+      "damier",
+      "ligoter",
+      "écorcer",
+      "rectiligne"
     ],
     [
-      "déguster",
-      "légiférer",
-      "règlement",
-      "civile",
-      "avocat"
+      "verre",
+      "gabriel",
+      "démon",
+      "pavé",
+      "losange"
     ],
     [
-      "article",
-      "attirance",
-      "souffle",
-      "tribunal",
-      "décret"
+      "échiquier",
+      "équinoxe",
+      "quadrillage",
+      "céleste",
+      "case"
     ],
     [
-      "juge",
-      "activité",
-      "légale",
-      "expédition",
-      "pénale"
+      "cubique",
+      "rectangle",
+      "cube",
+      "agate",
+      "tuile"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    4,
     3,
-    3
+    2,
+    2,
+    3,
+    4
   ],
   "colClues": [
-    2,
     3,
     3,
     3,
-    3
+    1,
+    4
   ],
-  "themeWord": "loi",
+  "themeWord": "carré",
   "solution": [
     [
-      false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
@@ -73,20 +66,27 @@
     [
       false,
       true,
-      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
       true,
       false,
-      false,
       true,
+      false,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       true

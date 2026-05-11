@@ -5,57 +5,78 @@
   "height": 5,
   "words": [
     [
-      "mystérieux",
-      "modeler",
-      "trésor",
-      "reposer",
-      "noircir"
+      "magnésie",
+      "longueur",
+      "lance",
+      "apnée",
+      "brasse"
     ],
     [
-      "creuser",
-      "plongeur",
-      "jardin",
-      "pioche",
-      "minuscule"
+      "plongeon",
+      "salmonidé",
+      "maillot",
+      "bouée",
+      "fougue"
     ],
     [
-      "rusé",
-      "truffe",
-      "mine",
-      "feuille",
-      "barbu"
+      "nageur",
+      "bonnet",
+      "va-et-vient",
+      "papillon",
+      "crawl"
     ],
     [
-      "épeler",
-      "farfadet",
-      "fournir",
-      "justice",
-      "barbe"
+      "flotter",
+      "calmar",
+      "bassin",
+      "pédalier",
+      "spectacle"
     ],
     [
-      "magique",
-      "potager",
-      "lutin",
-      "chapeau",
-      "plaidoyer"
+      "roupiller",
+      "piscine",
+      "palme",
+      "adoration",
+      "émancipation"
     ]
   ],
   "rowClues": [
-    2,
-    4,
     3,
+    3,
+    4,
     2,
-    3
+    2
   ],
   "colClues": [
-    4,
-    1,
-    4,
-    2,
-    3
+    3,
+    3,
+    3,
+    3,
+    2
   ],
-  "themeWord": "gnome",
+  "themeWord": "nager",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
     [
       true,
       false,
@@ -64,31 +85,10 @@
       false
     ],
     [
-      true,
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       false
     ]
   ],

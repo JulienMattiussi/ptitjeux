@@ -5,106 +5,90 @@
   "height": 6,
   "words": [
     [
-      "belette",
-      "souris",
-      "lynx",
-      "serrure",
-      "rideau",
-      "vache"
+      "gratifier",
+      "indien",
+      "protocole",
+      "apporter",
+      "résumer",
+      "assouplir"
     ],
     [
-      "belette",
-      "lapin",
-      "koala",
-      "brosse",
-      "cheval",
-      "balai"
+      "régaler",
+      "cadran",
+      "dispenser",
+      "remettre",
+      "limpide",
+      "chien"
     ],
     [
-      "étoile",
-      "tigre",
-      "pétale",
-      "renard",
-      "koala",
-      "panier"
+      "rue",
+      "galet",
+      "paquet",
+      "pesante",
+      "monumentale",
+      "générosité"
     ],
     [
-      "panda",
-      "pince",
-      "castor",
-      "mémoire",
-      "lapin",
-      "devoir"
+      "colis",
+      "ampoule",
+      "stalagmite",
+      "planche",
+      "pavé",
+      "ruban"
     ],
     [
-      "belette",
-      "serrure",
-      "girafe",
-      "étagère",
-      "rideau",
-      "souris"
+      "étudiant",
+      "tendre",
+      "obscurité",
+      "consacrer",
+      "laitue",
+      "dédier"
     ],
     [
-      "lapin",
-      "écran",
-      "pince",
-      "ours",
-      "coussin",
-      "koala"
+      "don",
+      "pochette",
+      "rempli",
+      "octroyer",
+      "donner",
+      "gratiner"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    3,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
-    5,
-    3,
-    4,
     2,
     3,
+    2,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    4,
+    1,
     3
   ],
-  "themeWord": "animal",
+  "themeWord": "offrir",
   "solution": [
     [
       true,
-      true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       true,
       false,
-      true,
-      true,
       false
     ],
     [
       true,
       false,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
@@ -112,13 +96,29 @@
       true
     ],
     [
-      true,
       false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       true,
       false,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 15
 }

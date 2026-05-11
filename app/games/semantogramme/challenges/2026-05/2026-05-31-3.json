@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "bureau",
-      "racine",
-      "chaise",
-      "requin",
-      "sardine",
-      "requin"
+      "foc",
+      "organiste",
+      "foulure",
+      "monumental",
+      "propre",
+      "puissant"
     ],
     [
-      "sol",
-      "écaille",
-      "pelle",
-      "requin",
-      "coussin",
-      "balai"
+      "gloire",
+      "religieux",
+      "majestueux",
+      "pédale",
+      "église",
+      "lettre"
     ],
     [
-      "vis",
-      "phare",
-      "peigne",
-      "écaille",
-      "écaille",
-      "baleine"
+      "soufflet",
+      "baroque",
+      "étudier",
+      "pochette",
+      "instrument",
+      "zodiaque"
     ],
     [
-      "crabe",
-      "méduse",
-      "banquier",
-      "voisin",
-      "chemin",
-      "règle"
+      "grandiose",
+      "franchir",
+      "maternel",
+      "vigne",
+      "jouer",
+      "wok"
     ],
     [
-      "devoir",
-      "gomme",
-      "voisin",
-      "panier",
-      "sable",
-      "devoir"
+      "travailler",
+      "moelleuse",
+      "parcourir",
+      "ring",
+      "fournir",
+      "clavier"
     ],
     [
-      "chaise",
-      "marin",
-      "phare",
-      "dauphin",
-      "plafond",
-      "ciseaux"
+      "linéaire",
+      "mythique",
+      "prolonger",
+      "liturgie",
+      "robe",
+      "tuyaux"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    4,
-    2,
-    1,
-    3
-  ],
-  "colClues": [
-    1,
-    4,
-    1,
-    4,
     3,
+    3,
+    2,
+    1,
     2
   ],
-  "themeWord": "mer",
+  "colClues": [
+    2,
+    2,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "orgue",
   "solution": [
     [
       false,
-      false,
+      true,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
-      true,
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
       false
     ],
     [
       false,
-      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       false,
       false,
       true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

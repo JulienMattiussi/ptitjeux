@@ -5,77 +5,63 @@
   "height": 5,
   "words": [
     [
-      "dé",
-      "agilité",
-      "natte",
-      "rustique",
-      "savane"
+      "renforcer",
+      "modeler",
+      "arrondi",
+      "sinueux",
+      "ode"
     ],
     [
-      "rudimentaire",
-      "acrylique",
-      "feu",
-      "abriter",
-      "habiter"
+      "opaque",
+      "religieux",
+      "lactaire",
+      "cible",
+      "irritant"
     ],
     [
-      "torchis",
-      "étudiant",
-      "moine",
-      "équipe",
-      "paille"
+      "disque",
+      "sphère",
+      "cercle",
+      "galette",
+      "prompt"
     ],
     [
-      "marais",
-      "soin",
-      "opinion",
-      "tribale",
-      "caverne"
+      "prince",
+      "orbe",
+      "théière",
+      "pneu",
+      "médaille"
     ],
     [
-      "bois",
-      "pygmée",
-      "planer",
-      "traîneau",
-      "tribal"
+      "anneau",
+      "perle",
+      "ballon",
+      "bague",
+      "jaser"
     ]
   ],
   "rowClues": [
-    3,
+    1,
+    1,
     4,
-    2,
-    1,
-    3
-  ],
-  "colClues": [
-    3,
-    1,
-    2,
     3,
     4
   ],
-  "themeWord": "hutte",
+  "colClues": [
+    2,
+    3,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "rond",
   "solution": [
     [
       false,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
@@ -87,9 +73,23 @@
     [
       true,
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
       false,
+      true,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 13

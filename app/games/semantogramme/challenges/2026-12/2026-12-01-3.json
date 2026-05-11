@@ -5,85 +5,101 @@
   "height": 6,
   "words": [
     [
-      "rosée",
-      "livre",
-      "vis",
-      "tournevis",
-      "arc-en-ciel",
-      "tapis"
+      "harpie",
+      "immunité",
+      "ténébreux",
+      "aiguille",
+      "pasteur",
+      "piqûre"
     ],
     [
-      "lueur",
-      "rosée",
-      "brouillard",
-      "glace",
-      "rosée",
-      "vent"
+      "canari",
+      "résonner",
+      "rouillé",
+      "ombrelle",
+      "sauge",
+      "antigène"
     ],
     [
-      "orage",
-      "rumeur",
-      "pince",
-      "orage",
-      "clé",
-      "chaise"
+      "tracteur",
+      "survoler",
+      "tétanos",
+      "égoutter",
+      "injection",
+      "injecter"
     ],
     [
-      "brouillard",
-      "lampe",
-      "rumeur",
-      "brouillard",
-      "pluie",
-      "plateau"
+      "enfant",
+      "obligatoire",
+      "glaner",
+      "front",
+      "prévenir",
+      "covid"
     ],
     [
-      "rosée",
-      "tempête",
-      "sol",
-      "rosée",
-      "pince",
-      "tempête"
+      "seringue",
+      "asiatique",
+      "assoupir",
+      "préventif",
+      "pèlerinage",
+      "rougeole"
     ],
     [
-      "tempête",
-      "éclair",
-      "prière",
-      "gel",
-      "verglas",
-      "orage"
+      "greffe",
+      "protéger",
+      "efficace",
+      "marronnier",
+      "dessiner",
+      "rebelle"
     ]
   ],
   "rowClues": [
-    2,
-    5,
-    2,
+    4,
+    1,
     3,
     4,
-    5
+    3,
+    2
   ],
   "colClues": [
-    5,
+    2,
     3,
-    1,
-    5,
-    4,
-    3
+    2,
+    2,
+    3,
+    5
   ],
-  "themeWord": "météo",
+  "themeWord": "vaccin",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
-      false
+      false,
+      true,
+      true,
+      true
     ],
     [
       false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
-      true,
+      false,
+      false,
       true,
       true
     ],
@@ -93,32 +109,16 @@
       false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
       true
     ],
     [
-      true,
-      true,
       false,
       true,
       true,
-      true
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 21
+  "parMoves": 17
 }

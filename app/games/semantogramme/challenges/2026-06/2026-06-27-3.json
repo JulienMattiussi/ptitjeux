@@ -5,109 +5,109 @@
   "height": 6,
   "words": [
     [
-      "tablier",
-      "assiette",
-      "écran",
-      "four",
-      "casserole",
-      "prison"
+      "domestique",
+      "connecter",
+      "dribbler",
+      "internet",
+      "éveil",
+      "judo"
     ],
     [
-      "fourchette",
-      "couteau",
-      "rumeur",
-      "recette",
-      "clé",
-      "lampe"
+      "signal",
+      "danser",
+      "réseau",
+      "progéniture",
+      "professionnel",
+      "harmonica"
     ],
     [
-      "cuillère",
-      "pince",
-      "coussin",
-      "fourchette",
-      "pelle",
-      "rumeur"
+      "poupon",
+      "configurer",
+      "wifi",
+      "pâlir",
+      "reportage",
+      "box"
     ],
     [
-      "mur",
-      "couteau",
-      "crayon",
-      "jardin",
-      "bureau",
-      "brosse"
+      "aquarelle",
+      "antenne",
+      "ethernet",
+      "débit",
+      "router",
+      "fournisseur"
     ],
     [
-      "caillou",
-      "plat",
-      "casserole",
-      "farine",
-      "savon",
-      "cuillère"
+      "sans-fil",
+      "rectiligne",
+      "modem",
+      "creuse",
+      "épée",
+      "fibre"
     ],
     [
-      "vis",
-      "tabouret",
-      "prière",
-      "tablier",
-      "étoile",
-      "tabouret"
+      "inflammatoire",
+      "décoration",
+      "simultanée",
+      "rapide",
+      "durée",
+      "incandescent"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    2,
-    1,
-    4,
+    3,
+    3,
+    5,
+    3,
     1
   ],
   "colClues": [
     3,
+    3,
     4,
-    1,
-    5,
-    1,
-    1
+    3,
+    2,
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "routeur",
   "solution": [
     [
       true,
       true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
       true,
       false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      false,
       false
     ],
     [
       false,
       true,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false,
       true
     ],
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

@@ -5,110 +5,102 @@
   "height": 6,
   "words": [
     [
-      "fusée",
-      "peigne",
-      "doigt",
-      "silence",
-      "joue",
-      "maison"
+      "abondance",
+      "hôpital",
+      "samu",
+      "secourir",
+      "pruneau",
+      "malade"
     ],
     [
-      "oreille",
-      "livre",
-      "prison",
-      "marteau",
-      "marteau",
-      "pétale"
+      "balancier",
+      "sirène",
+      "algue",
+      "urne",
+      "cieux",
+      "cocotier"
     ],
     [
-      "bureau",
-      "genou",
-      "épaule",
-      "oeil",
-      "dent",
-      "bras"
+      "fortifier",
+      "connexion",
+      "sauver",
+      "fichier",
+      "blanche",
+      "gyrophare"
     ],
     [
-      "pelle",
-      "joue",
-      "main",
-      "panneau",
-      "chaise",
-      "tunnel"
+      "liquider",
+      "pleurnicher",
+      "médicale",
+      "versant",
+      "blessé",
+      "risqué"
     ],
     [
-      "tasse",
-      "rumeur",
-      "tête",
-      "livre",
-      "prison",
-      "écran"
+      "rapide",
+      "rouge",
+      "transporter",
+      "secours",
+      "croix",
+      "jument"
     ],
     [
-      "dos",
-      "main",
-      "bouche",
-      "genou",
-      "tasse",
-      "lèvre"
+      "éducatif",
+      "éclat",
+      "amérindien",
+      "sciage",
+      "urgence",
+      "transport"
     ]
   ],
   "rowClues": [
-    2,
+    4,
     1,
-    5,
-    2,
-    1,
-    5
-  ],
-  "colClues": [
-    2,
     3,
+    2,
     5,
-    2,
-    2,
     2
   ],
-  "themeWord": "corps",
+  "colClues": [
+    1,
+    3,
+    4,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "ambulance",
   "solution": [
     [
       false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
       false,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
     ],
     [
       false,
       false,
       true,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -116,9 +108,17 @@
       true,
       true,
       true,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "cigale",
-      "pratiquer",
-      "amusement",
-      "traditionnel",
-      "harnais"
+      "colophane",
+      "tirer",
+      "flûte",
+      "satiété",
+      "consommer"
     ],
     [
-      "élémentaire",
-      "sacrement",
-      "carreau",
-      "danseur",
-      "communion"
+      "succion",
+      "liquider",
+      "élégant",
+      "caramélisé",
+      "jaser"
     ],
     [
-      "tradition",
-      "trotter",
-      "religieux",
-      "tripe",
-      "célébrer"
+      "crédit",
+      "enchanter",
+      "piston",
+      "thon",
+      "asperger"
     ],
     [
-      "flamenco",
-      "bobine",
-      "ancestral",
-      "baptême",
-      "turquoise"
+      "immortalité",
+      "goupil",
+      "mystérieux",
+      "lumière",
+      "magie"
     ],
     [
-      "religion",
-      "enterrement",
-      "officier",
-      "égyptien",
-      "aride"
+      "pointu",
+      "arc",
+      "chanter",
+      "inflammatoire",
+      "immortel"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    3,
-    2,
-    3
+    1,
+    1,
+    4,
+    4
   ],
   "colClues": [
     2,
     3,
-    3,
-    2,
+    4,
+    1,
     2
   ],
-  "themeWord": "rite",
+  "themeWord": "elfe",
   "solution": [
     [
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
+      false,
       false
     ],
     [
@@ -68,28 +75,21 @@
       true,
       false,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
   "parMoves": 12

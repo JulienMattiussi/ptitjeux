@@ -5,68 +5,82 @@
   "height": 5,
   "words": [
     [
-      "humour",
-      "colonne",
-      "numéro",
-      "ricaner",
-      "glousser"
+      "dériver",
+      "planter",
+      "lest",
+      "bas",
+      "descendre"
     ],
     [
-      "micro",
-      "éclat",
-      "comique",
-      "fou rire",
-      "thermos"
+      "sous-marine",
+      "retenir",
+      "expliquer",
+      "profonde",
+      "pèlerin"
     ],
     [
-      "débutant",
-      "gloussement",
-      "sourire",
-      "smash",
-      "amusement"
+      "sportive",
+      "extrême",
+      "plonger",
+      "épargne",
+      "profondeur"
     ],
     [
-      "risqué",
-      "jubilation",
-      "hilare",
-      "rigoler",
-      "plaisanterie"
+      "paliers",
+      "masque",
+      "goupil",
+      "respiration",
+      "léger"
     ],
     [
-      "pouffer",
-      "ironie",
-      "s'esclaffer",
-      "absence",
-      "vainqueur"
+      "élargir",
+      "oxygène",
+      "poumon",
+      "génoise",
+      "libre"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
     2,
     3,
     4,
     3,
     3
   ],
-  "themeWord": "rire",
+  "colClues": [
+    3,
+    4,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "apnée",
   "solution": [
     [
-      true,
       false,
       false,
       true,
+      false,
       true
     ],
     [
+      true,
+      true,
       false,
       true,
+      false
+    ],
+    [
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ],
@@ -76,20 +90,6 @@
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
   "parMoves": 15

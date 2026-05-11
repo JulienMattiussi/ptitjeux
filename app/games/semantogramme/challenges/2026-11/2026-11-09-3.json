@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "gomme",
-      "pastèque",
-      "abricot",
-      "raisin",
-      "poire",
-      "pomme"
+      "tropical",
+      "inondation",
+      "membrane",
+      "méditation",
+      "comparaison",
+      "sueur"
     ],
     [
-      "tapis",
-      "tapis",
-      "racine",
-      "pelle",
-      "melon",
-      "fusée"
+      "manche",
+      "détester",
+      "bouledogue",
+      "réplique",
+      "corde",
+      "caisse"
     ],
     [
-      "pastèque",
-      "cassis",
-      "citron",
-      "silence",
-      "prière",
-      "mûre"
+      "gratter",
+      "cèdre",
+      "sablonneux",
+      "beagle",
+      "embrayage",
+      "mélodieux"
     ],
     [
-      "prière",
-      "pêche",
-      "mangue",
-      "orange",
-      "caillou",
-      "coussin"
+      "aimanter",
+      "lésion",
+      "plein",
+      "inflation",
+      "hibou",
+      "aigu"
     ],
     [
-      "étagère",
-      "cassis",
-      "tournevis",
-      "lampe",
-      "orange",
-      "globe"
+      "jeune",
+      "écosystème",
+      "tendre",
+      "débattre",
+      "hawaï",
+      "jouer"
     ],
     [
-      "pastèque",
-      "voisin",
-      "racine",
-      "devoir",
-      "agenda",
-      "crayon"
+      "instrument",
+      "doux",
+      "pincer",
+      "exotique",
+      "néphron",
+      "signal"
     ]
   ],
   "rowClues": [
-    5,
     1,
-    4,
     3,
     2,
-    1
+    1,
+    3,
+    4
   ],
   "colClues": [
-    2,
     4,
-    3,
+    1,
     2,
-    3,
-    2
+    1,
+    2,
+    4
   ],
-  "themeWord": "fruit",
+  "themeWord": "ukulélé",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       true,
+      true
+    ],
+    [
       true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -84,41 +100,25 @@
       false,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       false,
-      false,
       true,
-      false
+      true
     ],
     [
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

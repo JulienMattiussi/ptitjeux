@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "calculer",
-      "soustraire",
-      "coefficient",
-      "bleu",
-      "gain"
+      "éteindre",
+      "apogée",
+      "ébauchoir",
+      "mandibule",
+      "tour"
     ],
     [
-      "tome",
-      "division",
-      "addition",
-      "bander",
-      "arithmétique"
+      "chrétien",
+      "marais",
+      "argile",
+      "oscillation",
+      "grange"
     ],
     [
-      "chiffre",
-      "composition",
-      "vendredi",
-      "étendard",
-      "mental"
+      "replet",
+      "façonner",
+      "modeler",
+      "manuel",
+      "gaieté"
     ],
     [
-      "traverser",
-      "additionner",
-      "noter",
-      "opération",
-      "produit"
+      "carte",
+      "sculpteur",
+      "caractère",
+      "éventail",
+      "colombin"
     ],
     [
-      "archive",
-      "marraine",
-      "cerne",
-      "mathématique",
-      "résultat"
+      "pétrir",
+      "pacifique",
+      "artistique",
+      "figurine",
+      "créatif"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    2,
-    3,
-    2
-  ],
-  "colClues": [
-    2,
-    3,
     1,
+    3,
     2,
     4
   ],
-  "themeWord": "calcul",
+  "colClues": [
+    1,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "modelage",
   "solution": [
     [
-      true,
+      false,
+      false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false
     ],
@@ -67,27 +74,20 @@
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       true
     ]

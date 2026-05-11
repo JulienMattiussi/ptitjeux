@@ -5,85 +5,93 @@
   "height": 6,
   "words": [
     [
-      "four",
-      "pelle",
-      "banquier",
-      "pétale",
-      "maison",
-      "cuillère"
+      "ensemencer",
+      "sono",
+      "graine",
+      "tourmenter",
+      "semoir",
+      "cultiver"
     ],
     [
-      "couteau",
-      "devoir",
-      "couteau",
-      "casserole",
-      "étagère",
-      "porte"
+      "attraper",
+      "orthogonal",
+      "terre",
+      "sillon",
+      "agriculture",
+      "jachère"
     ],
     [
-      "four",
-      "épice",
-      "étoile",
-      "manuel",
-      "assiette",
-      "panneau"
+      "germer",
+      "planter",
+      "culture",
+      "temporel",
+      "abondance",
+      "masse"
     ],
     [
-      "évier",
-      "évier",
-      "tablier",
-      "table",
-      "livre",
-      "verre"
+      "champ",
+      "germination",
+      "descendante",
+      "élaguer",
+      "pastel",
+      "enfouir"
     ],
     [
-      "épice",
-      "fusée",
-      "casserole",
-      "plat",
-      "tapis",
-      "plat"
+      "élever",
+      "récolter",
+      "pousse",
+      "caramélisé",
+      "oser",
+      "épandre"
     ],
     [
-      "frigo",
-      "bureau",
-      "évier",
-      "farine",
-      "plafond",
-      "assiette"
+      "modéré",
+      "richelieu",
+      "industrialiser",
+      "sql",
+      "charpentier",
+      "engrais"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    3,
     4,
     4,
-    4
+    3,
+    3,
+    3,
+    1
   ],
   "colClues": [
-    6,
-    2,
-    4,
     3,
+    3,
+    4,
     1,
-    4
+    2,
+    5
   ],
-  "themeWord": "cuisine",
+  "themeWord": "semer",
   "solution": [
     [
       true,
       false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       false,
-      false,
+      true,
+      true,
+      true,
       true
     ],
     [
       true,
+      true,
+      true,
       false,
-      true,
-      true,
       false,
       false
     ],
@@ -92,11 +100,11 @@
       true,
       false,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -104,21 +112,13 @@
       true
     ],
     [
-      true,
       false,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 18
 }

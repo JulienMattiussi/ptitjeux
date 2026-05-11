@@ -5,102 +5,78 @@
   "height": 6,
   "words": [
     [
-      "bus",
-      "vélo",
-      "panier",
-      "lampe",
-      "scooter",
-      "jardin"
+      "numéro",
+      "armer",
+      "chanson",
+      "abstention",
+      "argent",
+      "casser"
     ],
     [
-      "vélo",
-      "jardin",
-      "plateau",
-      "livre",
-      "remorque",
-      "fusée"
+      "amasser",
+      "retentissante",
+      "cochon",
+      "remplir",
+      "framboise",
+      "piéton"
     ],
     [
-      "scooter",
-      "navette",
-      "mémoire",
-      "métro",
-      "cadre",
-      "panneau"
+      "briser",
+      "alimenter",
+      "dévisser",
+      "gonflement",
+      "caisse",
+      "dialogue"
     ],
     [
-      "gomme",
-      "banquier",
-      "tramway",
-      "ferry",
-      "mémoire",
-      "camion"
+      "compter",
+      "collecter",
+      "sou",
+      "thésauriser",
+      "convulser",
+      "exigu"
     ],
     [
-      "train",
-      "vis",
-      "camion",
-      "moto",
-      "ferry",
-      "voiture"
+      "spiritual",
+      "bourrer",
+      "pisciculture",
+      "enfant",
+      "pièce",
+      "monnaie"
     ],
     [
-      "étagère",
-      "avion",
-      "banquier",
-      "étoile",
-      "manuel",
-      "ciseaux"
+      "fond",
+      "décompter",
+      "louer",
+      "martini",
+      "lunaison",
+      "épargne"
     ]
   ],
   "rowClues": [
-    3,
     2,
     3,
-    3,
-    5,
-    1
-  ],
-  "colClues": [
+    2,
     4,
-    3,
-    2,
-    3,
     3,
     2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    4,
+    1,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "tirelire",
   "solution": [
     [
-      true,
-      true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
       true
     ],
     [
@@ -108,17 +84,41 @@
       false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       true,
       true
     ],
     [
-      false,
       true,
       false,
       false,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

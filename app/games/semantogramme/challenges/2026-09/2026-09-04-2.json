@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "mère",
-      "recevoir",
-      "pot",
-      "parrain",
-      "parent"
+      "écho",
+      "candeur",
+      "mystérieuse",
+      "travail",
+      "cruauté"
     ],
     [
-      "tante",
-      "délectable",
-      "père",
-      "cousin",
-      "jongleur"
+      "obscure",
+      "mercure",
+      "stalagmite",
+      "ours",
+      "cacher"
     ],
     [
-      "visiter",
-      "farceur",
-      "nièce",
-      "torse",
-      "beau-frère"
+      "corsaire",
+      "glousser",
+      "habiter",
+      "trésor",
+      "profonde"
     ],
     [
-      "latitude",
-      "tonton",
-      "castelet",
-      "circuit",
-      "frangin"
+      "occiput",
+      "grotte",
+      "peuple",
+      "roche",
+      "rocheuse"
     ],
     [
-      "émail",
-      "tantine",
-      "gâter",
-      "famille",
-      "clown"
+      "sombre",
+      "explorer",
+      "pêche",
+      "sel",
+      "pirate"
     ]
   ],
   "rowClues": [
+    2,
     4,
     3,
     3,
-    2,
     3
   ],
   "colClues": [
     3,
+    2,
     3,
     3,
-    3,
-    3
+    4
   ],
-  "themeWord": "oncle",
+  "themeWord": "caverne",
   "solution": [
     [
       true,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
       false
     ],
     [
       true,
       false,
       true,
+      true,
+      true
+    ],
+    [
       false,
+      false,
+      true,
+      true,
       true
     ],
     [
       false,
       true,
       false,
-      false,
+      true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ]
   ],
   "parMoves": 15

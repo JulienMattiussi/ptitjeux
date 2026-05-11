@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "tasse",
-      "table",
-      "tasse",
-      "silence",
-      "mauve",
-      "bureau"
+      "frémir",
+      "épuisant",
+      "sapin",
+      "bâiller",
+      "nièce",
+      "fournisseur"
     ],
     [
-      "voisin",
-      "mauve",
-      "bleu",
-      "tabouret",
-      "brun",
-      "lampe"
+      "nouvelle-zélande",
+      "jument",
+      "pique",
+      "dentiste",
+      "isocèle",
+      "béquille"
     ],
     [
-      "rouge",
-      "violet",
-      "tapis",
-      "mauve",
-      "écran",
-      "étagère"
+      "drapeau",
+      "sandwich",
+      "biseau",
+      "triade",
+      "angle",
+      "cône"
     ],
     [
-      "cadre",
-      "turquoise",
-      "voisin",
-      "violet",
-      "bleu",
-      "devoir"
+      "sabot",
+      "aveuglant",
+      "côté",
+      "connexion",
+      "triangle",
+      "glissant"
     ],
     [
-      "orange",
-      "argenté",
-      "rumeur",
-      "beige",
-      "horloge",
-      "mauve"
+      "rien",
+      "tripode",
+      "rectangle",
+      "piège",
+      "saturer",
+      "mille"
     ],
     [
-      "globe",
-      "gris",
-      "chemin",
-      "blanc",
-      "orange",
-      "rouge"
+      "équilatéral",
+      "fameux",
+      "sénateur",
+      "pyramide",
+      "puccini",
+      "tricorne"
     ]
   ],
   "rowClues": [
     1,
-    3,
-    3,
-    3,
-    4,
-    4
-  ],
-  "colClues": [
     2,
     5,
-    1,
-    4,
-    4,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    1,
+    2,
+    4,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "triangulaire",
   "solution": [
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
       false,
-      true,
+      false,
+      false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
       true
     ],
     [
       false,
       true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

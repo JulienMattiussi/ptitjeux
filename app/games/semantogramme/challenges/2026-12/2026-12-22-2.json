@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "tisser",
-      "coton",
-      "absorbant",
-      "foc",
-      "résistant"
+      "novice",
+      "visiter",
+      "parrain",
+      "neveu",
+      "tantine"
     ],
     [
-      "coudre",
-      "jongler",
-      "soie",
-      "maille",
-      "doux"
+      "amasser",
+      "pancréas",
+      "tonton",
+      "embarquer",
+      "passe"
     ],
     [
-      "fil",
-      "lin",
-      "étoffe",
-      "colombe",
-      "rouleau"
+      "parent",
+      "paix",
+      "spectre",
+      "cousin",
+      "simple"
     ],
     [
-      "armer",
-      "rosée",
-      "dépôt",
-      "édredon",
-      "broder"
+      "puce",
+      "gâter",
+      "tante",
+      "fracturer",
+      "cousinage"
     ],
     [
-      "tissé",
-      "scruter",
-      "barboter",
-      "électricien",
-      "exceptionnel"
+      "père",
+      "beau-frère",
+      "mère",
+      "géométrie",
+      "famille"
     ]
   ],
   "rowClues": [
     4,
-    4,
-    4,
     1,
-    1
-  ],
-  "colClues": [
-    4,
     2,
     3,
-    1,
     4
   ],
-  "themeWord": "tissu",
+  "colClues": [
+    2,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "oncle",
   "solution": [
     [
-      true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
       true,
-      false,
       true,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 14

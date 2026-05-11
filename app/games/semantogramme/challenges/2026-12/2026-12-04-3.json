@@ -5,83 +5,99 @@
   "height": 6,
   "words": [
     [
-      "verglas",
-      "chaise",
-      "rumeur",
-      "arc-en-ciel",
-      "livre",
-      "orage"
+      "gouffre",
+      "fer",
+      "fraise",
+      "gourmandise",
+      "glace",
+      "croustillante"
     ],
     [
-      "tonnerre",
-      "pluie",
-      "tempête",
-      "verglas",
-      "gomme",
-      "rumeur"
+      "manger",
+      "défaite",
+      "fondre",
+      "engager",
+      "marionnette",
+      "terminal"
     ],
     [
-      "brouillard",
-      "tempête",
-      "plafond",
-      "mémoire",
-      "table",
-      "tapis"
+      "pékinois",
+      "angle",
+      "chantilly",
+      "sucrée",
+      "pâte",
+      "singe"
     ],
     [
-      "mur",
-      "vent",
-      "jardin",
-      "tempête",
-      "nuage",
-      "tempête"
+      "scolopendre",
+      "cannabis",
+      "sucre",
+      "chocolat",
+      "aligner",
+      "touriste"
     ],
     [
-      "pluie",
-      "éclair",
-      "parfum",
-      "arc-en-ciel",
-      "règle",
-      "éclair"
+      "cuire",
+      "bruxelloise",
+      "belge",
+      "liégeoise",
+      "blonde",
+      "farine"
     ],
     [
-      "pluie",
-      "éclair",
-      "tunnel",
-      "rosée",
-      "devoir",
-      "serrure"
+      "porc",
+      "cours",
+      "platine",
+      "pinceau",
+      "beurre",
+      "moelleuse"
     ]
   ],
   "rowClues": [
-    3,
     4,
+    1,
+    3,
+    2,
+    5,
+    2
+  ],
+  "colClues": [
+    2,
     2,
     4,
     4,
+    2,
     3
   ],
-  "colClues": [
-    5,
-    5,
-    1,
-    5,
-    1,
-    3
-  ],
-  "themeWord": "météo",
+  "themeWord": "gaufre",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true,
       false,
       true
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       true,
       false,
@@ -90,35 +106,19 @@
     [
       true,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

@@ -5,73 +5,73 @@
   "height": 5,
   "words": [
     [
-      "âge",
-      "période",
-      "crochet",
-      "rubis",
-      "abstention"
+      "léger",
+      "immeuble",
+      "cultiver",
+      "moulinet",
+      "limite"
     ],
     [
-      "contemporain",
-      "tomate",
-      "millénaire",
-      "historique",
-      "antique"
+      "expliquer",
+      "tonus",
+      "rigide",
+      "recyclable",
+      "déménagement"
     ],
     [
-      "maraîcher",
-      "histoire",
-      "décennie",
-      "révolu",
-      "haute"
+      "épais",
+      "recycler",
+      "résistant",
+      "plier",
+      "vainqueur"
     ],
     [
-      "définir",
-      "visiter",
-      "marquer",
-      "piano",
-      "fracturer"
+      "recyclage",
+      "paquet",
+      "cartable",
+      "griffonner",
+      "emballer"
     ],
     [
-      "bouillir",
-      "leurre",
-      "caractériser",
-      "débutant",
-      "moderne"
+      "tonne",
+      "cartonnage",
+      "colique",
+      "ténèbres",
+      "plaque"
     ]
   ],
   "rowClues": [
-    2,
+    1,
+    3,
     4,
     3,
-    2,
     2
   ],
   "colClues": [
     3,
+    3,
     2,
-    4,
     2,
-    2
+    3
   ],
-  "themeWord": "époque",
+  "themeWord": "carton",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       false,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       true,
       true
     ],
     [
-      false,
+      true,
       true,
       true,
       true,
@@ -79,15 +79,15 @@
     ],
     [
       true,
-      false,
       true,
       false,
-      false
+      false,
+      true
     ],
     [
       false,
-      false,
       true,
+      false,
       false,
       true
     ]

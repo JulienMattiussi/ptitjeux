@@ -5,44 +5,44 @@
   "height": 5,
   "words": [
     [
-      "sain",
-      "garantir",
-      "cheville",
-      "protéger",
-      "refuge"
+      "épousseter",
+      "soleil",
+      "thémis",
+      "sargasse",
+      "brûler"
     ],
     [
-      "enchanteur",
-      "garder",
-      "gardien",
-      "cobalt",
-      "huître"
+      "caniculaire",
+      "permanente",
+      "consumer",
+      "jante",
+      "torride"
     ],
     [
-      "sécurisé",
-      "sécurité",
-      "coffre",
-      "inébranlable",
-      "hydrogène"
+      "feu",
+      "fer",
+      "tortillonner",
+      "lave",
+      "incendier"
     ],
     [
-      "sécuriser",
-      "rayonner",
-      "rempart",
-      "fiable",
-      "frotter"
+      "cendre",
+      "canicule",
+      "cupidité",
+      "chaud",
+      "mirabelle"
     ],
     [
-      "forteresse",
-      "casque",
-      "chips",
-      "assuré",
-      "merveilleux"
+      "fournaise",
+      "bord",
+      "rougir",
+      "incandescent",
+      "pianissimo"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    2,
+    3,
     4,
     3,
     3
@@ -50,12 +50,26 @@
   "colClues": [
     4,
     3,
+    2,
     3,
-    4,
-    1
+    3
   ],
-  "themeWord": "sûr",
+  "themeWord": "brûlant",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
     [
       true,
       true,
@@ -64,16 +78,9 @@
       true
     ],
     [
+      true,
+      true,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false
     ],
@@ -81,13 +88,6 @@
       true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false
     ]

@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "glissade",
-      "rancune",
-      "malveillant",
-      "mosaïque",
-      "insulter"
+      "figurine",
+      "imiter",
+      "légende",
+      "voix",
+      "effilé"
     ],
     [
-      "odieux",
-      "insulte",
-      "manche",
-      "coup",
-      "menace"
+      "amusant",
+      "rajeunir",
+      "rugir",
+      "tesselle",
+      "croiser"
     ],
     [
-      "détester",
-      "sarcasme",
-      "spectral",
-      "hanter",
-      "magma"
+      "pantin",
+      "éphémère",
+      "mystérieux",
+      "comique",
+      "habile"
     ],
     [
-      "haine",
-      "navire",
-      "malveillance",
-      "cruel",
-      "cruauté"
+      "manipuler",
+      "signet",
+      "scène",
+      "théâtral",
+      "illusion"
     ],
     [
-      "trou",
-      "uppercut",
-      "frapper",
-      "partir",
-      "gouda"
+      "fatigante",
+      "oignon",
+      "manipulation",
+      "évacuation",
+      "spectacle"
     ]
   ],
   "rowClues": [
     3,
+    1,
     4,
-    2,
     4,
-    1
+    2
   ],
   "colClues": [
+    4,
+    1,
     3,
     3,
-    3,
-    2,
     3
   ],
-  "themeWord": "méchant",
+  "themeWord": "ventriloque",
   "solution": [
     [
-      false,
       true,
       true,
       false,
-      true
+      true,
+      false
     ],
     [
       true,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false
@@ -85,11 +78,18 @@
       true
     ],
     [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
       true,
       false,
-      false
+      true
     ]
   ],
   "parMoves": 14

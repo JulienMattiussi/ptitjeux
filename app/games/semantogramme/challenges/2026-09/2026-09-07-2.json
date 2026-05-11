@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "élever",
-      "nièce",
-      "tombée",
-      "lilliputien",
-      "cousin"
+      "courage",
+      "soldat",
+      "spectateur",
+      "twelve",
+      "affronter"
     ],
     [
-      "enfant",
-      "filleul",
-      "félicité",
-      "sourdine",
-      "visiter"
+      "vaillant",
+      "sage",
+      "équinoxe",
+      "bravoure",
+      "audace"
     ],
     [
-      "parent",
-      "sommier",
-      "grenier",
-      "soeur",
-      "cadet"
+      "évasé",
+      "vaillance",
+      "héroïsme",
+      "accoudoir",
+      "candide"
     ],
     [
-      "crêpe",
-      "vert-de-gris",
-      "gâter",
-      "tilleul",
-      "bicaméral"
+      "résister",
+      "sculpter",
+      "oser",
+      "confessionnal",
+      "intrépide"
     ],
     [
-      "oncle",
-      "algébrique",
-      "tante",
-      "famille",
-      "descendant"
+      "hymne",
+      "défier",
+      "cueilli",
+      "chevalier",
+      "héros"
     ]
   ],
   "rowClues": [
     3,
     3,
+    2,
     3,
-    1,
-    4
+    3
   ],
   "colClues": [
-    4,
-    2,
+    3,
+    3,
     2,
     2,
     4
   ],
-  "themeWord": "neveu",
+  "themeWord": "brave",
   "solution": [
     [
       true,
@@ -65,13 +65,6 @@
     ],
     [
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -79,7 +72,7 @@
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       false
@@ -88,6 +81,13 @@
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       true
     ]

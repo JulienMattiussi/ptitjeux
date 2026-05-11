@@ -5,108 +5,100 @@
   "height": 6,
   "words": [
     [
-      "miroir",
-      "assiette",
-      "verre",
-      "four",
-      "plafond",
-      "tunnel"
+      "trouer",
+      "reinette",
+      "guidon",
+      "dé",
+      "bénin",
+      "attraper"
     ],
     [
-      "vis",
-      "four",
-      "globe",
-      "verre",
-      "timbre",
-      "spatule"
+      "nez",
+      "janvier",
+      "congestion",
+      "plantigrade",
+      "froid",
+      "hiver"
     ],
     [
-      "frigo",
-      "recette",
-      "tasse",
-      "plat",
-      "ciseaux",
-      "spatule"
+      "guérir",
+      "commun",
+      "fluvial",
+      "virus",
+      "congélateur",
+      "lacune"
     ],
     [
-      "coussin",
-      "caillou",
-      "tunnel",
-      "agenda",
-      "four",
-      "silence"
+      "chaude",
+      "gestationnel",
+      "rayon",
+      "soigner",
+      "gencive",
+      "fièvre"
     ],
     [
-      "cuillère",
-      "poêle",
-      "farine",
-      "cuillère",
-      "tasse",
-      "assiette"
+      "fémur",
+      "éternuement",
+      "star",
+      "mouchoir",
+      "enrhumé",
+      "banal"
     ],
     [
-      "banquier",
-      "cuillère",
-      "marteau",
-      "agenda",
-      "lueur",
-      "jardin"
+      "toux",
+      "contagieux",
+      "figuier",
+      "fatigant",
+      "fournil",
+      "sangria"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    4,
-    1,
-    5,
-    1
-  ],
-  "colClues": [
-    2,
-    5,
     2,
     4,
-    1,
+    3,
+    2,
+    4,
     3
   ],
-  "themeWord": "cuisine",
+  "colClues": [
+    3,
+    3,
+    1,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "rhume",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
+      false,
       true,
       false,
       false
     ],
     [
       false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false,
       true
@@ -115,10 +107,18 @@
       false,
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "autobus",
-      "tramway",
-      "train",
-      "tabouret",
-      "métro",
-      "train"
+      "tennis",
+      "inflammatoire",
+      "pectorale",
+      "transformation",
+      "pollen",
+      "multitude"
     ],
     [
-      "vélo",
-      "navette",
-      "caravane",
-      "ombre",
-      "mur",
-      "bus"
+      "chronique",
+      "informatique",
+      "syncopé",
+      "enfler",
+      "tagueur",
+      "halogène"
     ],
     [
-      "tapis",
-      "remorque",
-      "voiture",
-      "ferry",
-      "silence",
-      "silence"
+      "vieillir",
+      "urticaire",
+      "flamboyer",
+      "gonflement",
+      "farceur",
+      "détaler"
     ],
     [
-      "navette",
-      "vélo",
-      "cadre",
-      "scooter",
-      "ferry",
-      "tunnel"
+      "asthme",
+      "saisonnière",
+      "européen",
+      "alimentaire",
+      "pédale",
+      "rougeur"
     ],
     [
-      "remorque",
-      "silence",
-      "devoir",
-      "prison",
-      "pétale",
-      "plateau"
+      "gratter",
+      "éviction",
+      "antihistaminique",
+      "allergique",
+      "tapage",
+      "cantine"
     ],
     [
-      "tasse",
-      "taxi",
-      "cadre",
-      "brosse",
-      "ferry",
-      "brosse"
+      "arachide",
+      "épicerie",
+      "perroquet",
+      "rougir",
+      "sage",
+      "pose"
     ]
   ],
   "rowClues": [
-    5,
+    2,
+    2,
+    2,
     4,
-    3,
     4,
-    1,
     2
   ],
   "colClues": [
     4,
+    4,
+    1,
     5,
-    3,
-    2,
-    3,
-    2
+    1,
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "allergie",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
       true,
+      false,
       true
     ],
     [
       true,
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
+      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

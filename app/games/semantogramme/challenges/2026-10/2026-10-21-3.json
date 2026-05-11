@@ -5,76 +5,100 @@
   "height": 6,
   "words": [
     [
-      "éclair",
-      "serrure",
-      "brosse",
-      "cadre",
-      "tasse",
-      "nuage"
+      "pulpeuse",
+      "client",
+      "viaduc",
+      "pulpe",
+      "éplucher",
+      "tranche"
     ],
     [
-      "tasse",
-      "manuel",
-      "étagère",
-      "rosée",
-      "tasse",
-      "nuage"
+      "juteuse",
+      "noyau",
+      "rayé",
+      "sucrée",
+      "odorante",
+      "orange"
     ],
     [
-      "nuage",
-      "porte",
-      "porte",
-      "rosée",
-      "brouillard",
-      "foudre"
+      "jaune",
+      "gracieux",
+      "gourmandise",
+      "rougeâtre",
+      "cacophonique",
+      "helicobacter"
     ],
     [
-      "maison",
-      "rosée",
-      "rosée",
-      "nuage",
-      "nuage",
-      "éclair"
+      "obscur",
+      "sternum",
+      "inde",
+      "pivotante",
+      "bébé",
+      "cueillette"
     ],
     [
-      "porte",
-      "verglas",
-      "carnet",
-      "marteau",
-      "manuel",
-      "glace"
+      "vénérer",
+      "philharmonique",
+      "tube",
+      "fruit",
+      "béquille",
+      "parfumée"
     ],
     [
-      "rosée",
-      "soleil",
-      "foudre",
-      "racine",
-      "pluie",
-      "neige"
+      "descendance",
+      "recherché",
+      "gêne",
+      "manguier",
+      "micro",
+      "marsupial"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     4,
     5,
+    3,
     2,
-    5
+    2,
+    1
   ],
   "colClues": [
     3,
-    3,
+    1,
     2,
-    3,
-    3,
-    6
+    5,
+    2,
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "mangue",
   "solution": [
     [
       true,
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true
@@ -88,37 +112,13 @@
       true
     ],
     [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 17
 }

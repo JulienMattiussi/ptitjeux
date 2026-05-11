@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "piquer",
-      "débit",
-      "renforcer",
-      "jouer",
-      "lampadaire"
+      "balancier",
+      "mèche",
+      "brosser",
+      "arrêter",
+      "classeur"
     ],
     [
-      "aiguille",
-      "dé",
-      "canette",
-      "maquette",
-      "canevas"
+      "peigner",
+      "logiciel",
+      "commencement",
+      "tresse",
+      "crinière"
     ],
     [
-      "cadre",
-      "fil",
-      "point",
-      "orner",
-      "traditionnel"
+      "liquider",
+      "coiffer",
+      "chauve",
+      "crépuscule",
+      "pointe"
     ],
     [
-      "frigo",
-      "manuel",
-      "tendon",
-      "broder",
-      "dentier"
+      "racine",
+      "mansarde",
+      "horizon",
+      "teindre",
+      "shampooing"
     ],
     [
-      "vision",
-      "dromadaire",
-      "décoratif",
-      "patient",
-      "tissu"
+      "chevelure",
+      "célébration",
+      "écran",
+      "frange",
+      "enrouée"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    4,
     2,
-    3
-  ],
-  "colClues": [
     3,
     3,
-    2,
     3,
     2
   ],
-  "themeWord": "broderie",
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "cheveu",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false,
       false
     ],
     [
       true,
-      true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 13

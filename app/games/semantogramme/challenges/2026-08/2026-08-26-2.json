@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "lait",
-      "mois",
-      "pierre",
-      "flamenco",
-      "masquer"
+      "caravane",
+      "antique",
+      "cent",
+      "durer",
+      "pélagique"
     ],
     [
-      "épais",
-      "écran",
-      "agenouillement",
-      "cacher",
-      "saturer"
+      "moderne",
+      "démesuré",
+      "illustrer",
+      "remonter",
+      "antiquité"
     ],
     [
-      "porcelaine",
-      "mur",
-      "occulté",
-      "gourmand",
-      "tardif"
+      "duveteux",
+      "médicale",
+      "fêter",
+      "ancien",
+      "ère"
     ],
     [
-      "multiplication",
-      "panneau",
-      "comté",
-      "obstruer",
-      "belote"
+      "ancestral",
+      "levant",
+      "bretonne",
+      "autel",
+      "époque"
     ],
     [
-      "somptueux",
-      "impénétrable",
-      "galerie",
-      "rectangle",
-      "indien"
+      "centenaire",
+      "taire",
+      "reniflement",
+      "persan",
+      "traverser"
     ]
   ],
   "rowClues": [
     3,
-    3,
+    2,
     3,
     2,
-    1
+    2
   ],
   "colClues": [
     3,
-    4,
+    1,
     2,
     2,
-    1
+    4
   ],
-  "themeWord": "opaque",
+  "themeWord": "siècle",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
     [
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      false
+      false,
+      true
     ]
   ],
   "parMoves": 12

@@ -5,102 +5,86 @@
   "height": 6,
   "words": [
     [
-      "panneau",
-      "voile",
-      "jardin",
-      "plage",
-      "vague",
-      "voisin"
+      "calmer",
+      "cantaloup",
+      "écorce",
+      "sentir",
+      "porc",
+      "église"
     ],
     [
-      "thon",
-      "dauphin",
-      "timbre",
-      "globe",
-      "peigne",
-      "voile"
+      "jambon",
+      "cueillette",
+      "charentais",
+      "fontaine",
+      "écureuil",
+      "vert"
     ],
     [
-      "lampe",
-      "plafond",
-      "sardine",
-      "peigne",
-      "pierre",
-      "dauphin"
+      "affection",
+      "rougeoyante",
+      "juteux",
+      "sucré",
+      "errer",
+      "neige"
     ],
     [
-      "pierre",
-      "écran",
-      "voile",
-      "table",
-      "vague",
-      "marin"
+      "pépin",
+      "fruit",
+      "submergé",
+      "final",
+      "sieste",
+      "épuisement"
     ],
     [
-      "timbre",
-      "globe",
-      "méduse",
-      "sardine",
-      "table",
-      "ombre"
+      "franchir",
+      "mouchoir",
+      "gamin",
+      "capturer",
+      "estival",
+      "lèchefrite"
     ],
     [
-      "lueur",
-      "marin",
-      "saumon",
-      "vague",
-      "panneau",
-      "tunnel"
+      "haillon",
+      "entrée",
+      "orange",
+      "station",
+      "sel",
+      "rond"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    3,
+    4,
     2,
+    2,
+    1,
     3
   ],
   "colClues": [
-    1,
-    3,
-    4,
-    3,
     2,
-    3
+    4,
+    4,
+    1,
+    1,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "melon",
   "solution": [
     [
       false,
       true,
+      true,
       false,
-      true,
-      true,
+      false,
       false
     ],
     [
       true,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
       true
     ],
     [
@@ -112,13 +96,29 @@
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
+      false,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

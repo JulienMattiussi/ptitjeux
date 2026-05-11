@@ -5,105 +5,73 @@
   "height": 6,
   "words": [
     [
-      "clé",
-      "ciseaux",
-      "spatule",
-      "assiette",
-      "tunnel",
-      "frigo"
+      "paracétamol",
+      "transpirer",
+      "thermomètre",
+      "infection",
+      "éplucheur",
+      "cauchemar"
     ],
     [
-      "tapis",
-      "couteau",
-      "spatule",
-      "pierre",
-      "assiette",
-      "couteau"
+      "piéton",
+      "monter",
+      "fine",
+      "élevée",
+      "tirage",
+      "température"
     ],
     [
-      "cuillère",
-      "ombre",
-      "farine",
-      "rumeur",
-      "casserole",
-      "spatule"
+      "rigide",
+      "sabler",
+      "haute",
+      "soldat",
+      "sueur",
+      "malade"
     ],
     [
-      "four",
-      "maison",
-      "plateau",
-      "banquier",
-      "tasse",
-      "pelle"
+      "rouge",
+      "délire",
+      "aspirine",
+      "amertume",
+      "chaud",
+      "maladie"
     ],
     [
-      "four",
-      "frigo",
-      "fourchette",
-      "farine",
-      "maison",
-      "four"
+      "ciseau",
+      "cardiogramme",
+      "rafale",
+      "garage",
+      "beagle",
+      "tomber"
     ],
     [
-      "chemin",
-      "plat",
-      "gomme",
-      "cuillère",
-      "fusée",
-      "timbre"
+      "cellule",
+      "frisson",
+      "vitesse",
+      "incliner",
+      "glissant",
+      "bagage"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    4,
-    1,
     5,
-    2
+    3,
+    3,
+    5,
+    1,
+    1
   ],
   "colClues": [
-    3,
-    3,
+    2,
     4,
     3,
     2,
-    4
+    2,
+    5
   ],
-  "themeWord": "cuisine",
+  "themeWord": "fièvre",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
       true,
@@ -116,9 +84,41 @@
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

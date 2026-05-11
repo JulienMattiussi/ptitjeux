@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "colombe",
-      "pousser",
-      "fredonner",
-      "modeste",
-      "chouette"
+      "adoration",
+      "ulcère",
+      "deltoïde",
+      "digestion",
+      "beurré"
     ],
     [
-      "aboutir",
-      "puéril",
-      "créer",
-      "récent",
-      "poindre"
+      "languir",
+      "rasta",
+      "ériger",
+      "ventre",
+      "tamarin"
     ],
     [
-      "photographe",
-      "adolescent",
-      "canette",
-      "novice",
-      "débutant"
+      "pylore",
+      "construire",
+      "gastralgie",
+      "étirer",
+      "satiété"
     ],
     [
-      "courbé",
-      "régner",
-      "enfant",
-      "vidéo",
-      "jeunesse"
+      "avaler",
+      "brûlure",
+      "aigreur",
+      "mue",
+      "aromate"
     ],
     [
-      "tendre",
-      "jouvenceau",
-      "bébé",
-      "gamin",
-      "malpropre"
+      "écraser",
+      "poil",
+      "acide",
+      "gastrique",
+      "suc"
     ]
   ],
   "rowClues": [
+    2,
     1,
-    2,
     3,
-    2,
-    4
+    3,
+    3
   ],
   "colClues": [
-    1,
-    4,
     2,
+    2,
+    3,
     3,
     2
   ],
-  "themeWord": "jeune",
+  "themeWord": "estomac",
   "solution": [
     [
       false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
-      true
+      false
     ],
     [
-      false,
+      true,
       false,
       true,
       false,
@@ -88,8 +81,15 @@
       true,
       true,
       true,
-      true,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 12

@@ -5,78 +5,110 @@
   "height": 6,
   "words": [
     [
-      "peau",
-      "tapis",
-      "cadre",
-      "pince",
-      "oeil",
-      "serrure"
+      "irriter",
+      "rassasier",
+      "sevrer",
+      "arboriculture",
+      "pâture",
+      "nourriture"
     ],
     [
-      "tasse",
-      "coeur",
-      "lampe",
-      "main",
-      "langue",
-      "jardin"
+      "toupie",
+      "gaver",
+      "allaiter",
+      "pèlerine",
+      "pourvoir",
+      "repaître"
     ],
     [
-      "porte",
-      "dent",
-      "étoile",
-      "nez",
-      "pied",
-      "sol"
+      "pic",
+      "pylore",
+      "restaurer",
+      "peur",
+      "sacrifier",
+      "entrée"
     ],
     [
-      "bouche",
-      "dent",
-      "ongle",
-      "table",
-      "prison",
-      "caillou"
+      "marmotte",
+      "biberon",
+      "sustenter",
+      "régaler",
+      "engraisser",
+      "cousinage"
     ],
     [
-      "épaule",
-      "ongle",
-      "oreille",
-      "parfum",
-      "prison",
-      "lueur"
+      "sein",
+      "standard",
+      "trémousser",
+      "éternel",
+      "dinde",
+      "longévité"
     ],
     [
-      "tête",
-      "étagère",
-      "oeil",
-      "horloge",
-      "brosse",
-      "tête"
+      "oser",
+      "alimenter",
+      "paupière",
+      "aliment",
+      "serrée",
+      "mangeoire"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    3,
-    3,
-    3,
+    4,
+    4,
+    1,
+    4,
+    1,
     3
   ],
   "colClues": [
+    1,
     4,
     4,
-    3,
     2,
     3,
-    1
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "nourrir",
   "solution": [
     [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
@@ -84,38 +116,6 @@
       true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false,
       true
     ]

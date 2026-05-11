@@ -5,61 +5,75 @@
   "height": 5,
   "words": [
     [
-      "congé",
-      "clair",
-      "centre",
-      "couturière",
-      "enfant"
+      "grimace",
+      "espiègle",
+      "farfadet",
+      "âme",
+      "jouer"
     ],
     [
-      "semaine",
-      "activité",
-      "pratiquer",
-      "gâter",
-      "mouton"
+      "sceller",
+      "malice",
+      "taquiner",
+      "monarque",
+      "irlande"
     ],
     [
-      "jouer",
-      "calendrier",
-      "sport",
-      "lagon",
-      "férié"
+      "magique",
+      "horloge",
+      "terrasse",
+      "bouée",
+      "gnome"
     ],
     [
-      "léopard",
-      "mercredis",
-      "hymne",
-      "reposer",
-      "clouer"
-    ],
-    [
-      "piscine",
-      "gravité",
-      "milieu",
-      "posture",
+      "farceur",
+      "tromper",
+      "chapeau",
+      "nombre",
       "jour"
+    ],
+    [
+      "mie",
+      "farce",
+      "tour",
+      "forêt",
+      "pointu"
     ]
   ],
   "rowClues": [
     3,
     3,
-    4,
     2,
-    3
+    3,
+    4
   ],
   "colClues": [
+    2,
     4,
-    3,
     4,
     1,
-    3
+    4
   ],
-  "themeWord": "mercredi",
+  "themeWord": "lutin",
   "solution": [
     [
-      true,
       false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       true
     ],
@@ -71,24 +85,10 @@
       false
     ],
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      false,
       true,
-      false
-    ],
-    [
       true,
-      false,
-      true,
-      false,
       true
     ]
   ],

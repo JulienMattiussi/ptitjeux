@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "géologie",
-      "brosser",
-      "chauve",
-      "peigner",
-      "chevelure"
+      "matin",
+      "document",
+      "étudier",
+      "semaine",
+      "agenda"
     ],
     [
-      "shampooing",
-      "abricot",
-      "boucle",
-      "tresse",
-      "mèche"
+      "établi",
+      "jour",
+      "assaisonner",
+      "halogène",
+      "cours"
     ],
     [
-      "simplifier",
-      "bronzer",
-      "hirsute",
-      "lac",
-      "énigmer"
+      "apéro",
+      "horaire",
+      "aimanter",
+      "planifier",
+      "amère"
     ],
     [
-      "détoxifier",
-      "coiffer",
-      "creusage",
-      "téléphone",
-      "permanente"
+      "congé",
+      "poule",
+      "foudre",
+      "calendrier",
+      "travailler"
     ],
     [
-      "pointe",
-      "crinière",
-      "teindre",
-      "vertèbre",
-      "racine"
+      "canapé",
+      "oubli",
+      "travail",
+      "fin",
+      "hebdomadaire"
     ]
   ],
   "rowClues": [
     4,
-    4,
-    1,
-    2,
-    4
-  ],
-  "colClues": [
     2,
     3,
-    4,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
     2,
+    2,
+    4,
     4
   ],
-  "themeWord": "cheveu",
+  "themeWord": "jeudi",
   "solution": [
     [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
       true,
@@ -72,23 +65,30 @@
     ],
     [
       false,
-      false,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false
     ],
     [
-      false,
       true,
       false,
       false,
+      true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      true,
+      true,
       true
     ]
   ],

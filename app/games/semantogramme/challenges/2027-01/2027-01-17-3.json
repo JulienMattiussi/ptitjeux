@@ -5,110 +5,102 @@
   "height": 6,
   "words": [
     [
-      "football",
-      "voile",
-      "natation",
-      "tournevis",
-      "timbre",
-      "volley"
+      "mémoire",
+      "belle-hélène",
+      "composition",
+      "gris",
+      "puissant",
+      "animal"
     ],
     [
-      "étoile",
-      "football",
-      "natation",
-      "clé",
-      "golf",
-      "banquier"
+      "cuirasse",
+      "corne",
+      "caresser",
+      "ligne",
+      "champ",
+      "protégé"
     ],
     [
-      "course",
-      "rugby",
-      "plateau",
-      "tournevis",
-      "judo",
-      "boxe"
+      "vociférer",
+      "humour",
+      "échelle",
+      "forêt",
+      "ongulé",
+      "colossal"
     ],
     [
-      "marathon",
-      "peigne",
-      "volley",
-      "horloge",
-      "globe",
-      "tabouret"
+      "charger",
+      "libre",
+      "alvéolée",
+      "liesse",
+      "fournil",
+      "savane"
     ],
     [
-      "rugby",
-      "jardin",
-      "football",
-      "globe",
-      "natation",
-      "rugby"
+      "lancement",
+      "opinion",
+      "épais",
+      "pachyderme",
+      "afrique",
+      "patte"
     ],
     [
-      "ciseaux",
-      "pétale",
-      "course",
-      "football",
-      "chemin",
-      "ombre"
+      "cornu",
+      "massif",
+      "cravache",
+      "fortifiée",
+      "asie",
+      "oreiller"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    4,
+    3,
+    3,
     2,
     4,
-    2
-  ],
-  "colClues": [
-    4,
-    3,
-    5,
-    1,
-    3,
     3
   ],
-  "themeWord": "sport",
+  "colClues": [
+    3,
+    2,
+    1,
+    3,
+    4,
+    5
+  ],
+  "themeWord": "rhinocéros",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
       true,
+      true
+    ],
+    [
       true,
+      true,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
+      true,
       true,
       true
     ],
     [
       true,
       false,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false,
-      true,
       true
     ],
     [
@@ -116,9 +108,17 @@
       false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

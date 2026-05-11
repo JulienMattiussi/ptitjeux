@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "tracer",
-      "griffonner",
-      "descendance",
-      "appétit",
-      "feutre"
+      "robe",
+      "mondial",
+      "visiter",
+      "bol",
+      "marchand"
     ],
     [
-      "aérien",
-      "fraîcheur",
-      "fond",
-      "caricature",
-      "fusain"
+      "couper",
+      "cimetière",
+      "chemin",
+      "hexagonal",
+      "brillante"
     ],
     [
-      "crawl",
-      "mouillé",
-      "esquisse",
-      "manuscrit",
-      "crayonner"
+      "oeufrier",
+      "lob",
+      "conserve",
+      "filer",
+      "cocon"
     ],
     [
-      "capuche",
-      "silhouette",
-      "pinceau",
-      "raquette",
-      "élégie"
+      "stylo",
+      "stomacal",
+      "tissu",
+      "mûrier",
+      "douce"
     ],
     [
-      "maille",
-      "crayon",
-      "feuille",
-      "félicité",
-      "tennis"
+      "lisse",
+      "tisser",
+      "percussion",
+      "application",
+      "foulard"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     1,
+    2,
+    2,
     3,
-    3,
-    1,
     3
   ],
-  "themeWord": "dessiner",
+  "colClues": [
+    2,
+    1,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "soie",
   "solution": [
     [
       true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false
     ],
     [
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       true,
       true,
       false,
-      false
+      false,
+      true
     ]
   ],
   "parMoves": 11

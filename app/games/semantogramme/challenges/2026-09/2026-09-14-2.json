@@ -5,66 +5,59 @@
   "height": 5,
   "words": [
     [
-      "truite",
-      "tomber",
-      "sommeil",
-      "ténèbres",
-      "étoile"
+      "paisible",
+      "pédale",
+      "tacite",
+      "mutisme",
+      "feutre"
     ],
     [
-      "détente",
-      "épancher",
-      "cauchemar",
-      "rêver",
-      "tardif"
+      "muet",
+      "calme",
+      "couche",
+      "extension",
+      "verni"
     ],
     [
-      "rêve",
-      "équipage",
-      "nocturne",
-      "cinéaste",
-      "pamplemousse"
+      "monastère",
+      "peigne",
+      "discret",
+      "flemmard",
+      "cimetière"
     ],
     [
-      "arracher",
-      "souterraine",
-      "chouette",
+      "sérénité",
+      "feutré",
       "silence",
-      "européen"
+      "discrétion",
+      "imposte"
     ],
     [
-      "noir",
-      "obscurité",
-      "rose",
-      "minuit",
-      "sombre"
+      "grillé",
+      "chuchoter",
+      "incurver",
+      "jardinière",
+      "massue"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
     2,
-    2,
-    4
+    3,
+    4,
+    1
   ],
   "colClues": [
+    4,
+    3,
+    3,
     2,
-    1,
-    4,
-    4,
-    3
+    2
   ],
-  "themeWord": "nuit",
+  "themeWord": "silencieux",
   "solution": [
     [
-      false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -72,24 +65,31 @@
     ],
     [
       true,
-      false,
       true,
+      false,
       false,
       false
     ],
     [
+      true,
       false,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false
     ],
     [
-      true,
-      true,
       false,
       true,
-      true
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 14

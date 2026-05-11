@@ -5,68 +5,75 @@
   "height": 5,
   "words": [
     [
-      "avant-bras",
-      "mauve",
-      "glace",
-      "circulaire",
-      "octave"
+      "cantique",
+      "tombée",
+      "apéro",
+      "encadrement",
+      "prime"
     ],
     [
-      "recoller",
-      "polaire",
-      "arctique",
-      "nordique",
-      "abriter"
+      "nuit",
+      "crépuscule",
+      "souper",
+      "grillé",
+      "soirée"
     ],
     [
-      "illumination",
-      "mariner",
-      "gazette",
-      "fierté",
-      "froid"
+      "rentrer",
+      "stratagème",
+      "malléable",
+      "fin",
+      "tardif"
     ],
     [
-      "aube",
-      "isoler",
-      "isolant",
-      "bouillon",
-      "construire"
+      "emblème",
+      "tramway",
+      "biologie",
+      "mollusque",
+      "coucher"
     ],
     [
-      "inuit",
-      "visibilité",
-      "accéder",
-      "neige",
-      "rectangulaire"
+      "fente",
+      "sombre",
+      "décolleté",
+      "courgette",
+      "reposer"
     ]
   ],
   "rowClues": [
     2,
     4,
-    1,
     3,
+    1,
     2
   ],
   "colClues": [
-    1,
     2,
     3,
-    3,
-    3
+    2,
+    1,
+    4
   ],
-  "themeWord": "igloo",
+  "themeWord": "soir",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
       true,
-      true,
+      false,
+      false,
       true,
       true
     ],
@@ -80,16 +87,9 @@
     [
       false,
       true,
-      true,
+      false,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 12

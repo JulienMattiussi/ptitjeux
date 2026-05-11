@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "résultat",
-      "improvisation",
-      "verrue",
-      "glace",
-      "banquise"
+      "haillon",
+      "paille",
+      "effrayant",
+      "potager",
+      "bouse"
     ],
     [
-      "temporel",
-      "kiwi",
-      "hiver",
-      "détente",
-      "polaire"
+      "macaque",
+      "oiseau",
+      "pétiller",
+      "silencieux",
+      "dictionnaire"
     ],
     [
-      "froid",
-      "panier",
-      "geler",
-      "gel",
-      "confetti"
+      "marchandise",
+      "râpe",
+      "effrayer",
+      "immobile",
+      "racler"
     ],
     [
-      "iceberg",
-      "studio",
-      "oser",
-      "spécialiste",
-      "frigorifique"
+      "dard",
+      "amande",
+      "habitable",
+      "chapeau",
+      "armoire"
     ],
     [
-      "bus",
-      "pôle",
-      "givre",
-      "frimas",
-      "attentif"
+      "champ",
+      "corbeau",
+      "vannerie",
+      "plongeoir",
+      "jardin"
     ]
   ],
   "rowClues": [
+    4,
     2,
     2,
-    3,
-    2,
+    1,
     3
   ],
   "colClues": [
     2,
-    1,
     3,
-    3,
-    3
+    2,
+    4,
+    1
   ],
-  "themeWord": "glacial",
+  "themeWord": "épouvantail",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      true
+      true,
+      true,
+      true,
+      false
     ],
     [
       false,
-      false,
       true,
       false,
-      true
+      true,
+      false
     ],
     [
-      true,
+      false,
       false,
       true,
       true,
       false
     ],
     [
-      true,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
   "parMoves": 12

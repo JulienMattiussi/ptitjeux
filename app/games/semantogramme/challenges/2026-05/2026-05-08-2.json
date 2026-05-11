@@ -5,67 +5,81 @@
   "height": 5,
   "words": [
     [
-      "envergure",
-      "coulisser",
-      "glissade",
-      "palais",
-      "farniente"
+      "mousseron",
+      "but",
+      "fatigant",
+      "palet",
+      "olympique"
     ],
     [
-      "déraper",
-      "piste",
-      "instituteur",
-      "glissant",
-      "savon"
+      "tirer",
+      "immortaliser",
+      "patins",
+      "défendre",
+      "puccini"
     ],
     [
-      "huile",
-      "patin",
-      "tomber",
-      "lisse",
-      "galactique"
+      "abeille",
+      "équipe",
+      "glacial",
+      "mocassin",
+      "croissant"
     ],
     [
-      "distorsion",
-      "neutron",
-      "riper",
-      "jour",
-      "verglas"
+      "signal",
+      "multiple",
+      "tram",
+      "casque",
+      "glace"
     ],
     [
-      "toboggan",
-      "exploration",
-      "chanter",
-      "bruyante",
-      "dérapage"
+      "gardien",
+      "canadien",
+      "collectif",
+      "labyrinthe",
+      "crosse"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
-    4,
-    4,
     2,
-    2
+    4
   ],
   "colClues": [
-    3,
-    3,
-    3,
     2,
+    3,
+    3,
+    3,
     3
   ],
-  "themeWord": "glisser",
+  "themeWord": "hockey",
   "solution": [
     [
       false,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       true
@@ -74,20 +88,6 @@
       true,
       true,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true
     ]

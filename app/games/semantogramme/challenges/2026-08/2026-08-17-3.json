@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "table",
-      "rouge",
-      "vert",
-      "gomme",
-      "agenda",
-      "globe"
+      "introspection",
+      "silence",
+      "dialogue",
+      "picorer",
+      "enterrer",
+      "respiration"
     ],
     [
-      "fusée",
-      "ocre",
-      "porte",
-      "bleu",
-      "plafond",
-      "rose"
+      "zen",
+      "méditation",
+      "premier",
+      "contempler",
+      "paisible",
+      "profond"
     ],
     [
-      "noir",
-      "argenté",
-      "blanc",
-      "mauve",
-      "tunnel",
-      "indigo"
+      "ramure",
+      "arrogance",
+      "apaiser",
+      "hémoglobine",
+      "sérénité",
+      "concentrer"
     ],
     [
-      "jaune",
-      "horloge",
-      "peigne",
-      "ocre",
-      "violet",
-      "prière"
+      "posture",
+      "verveine",
+      "arrondie",
+      "calme",
+      "musique",
+      "californien"
     ],
     [
-      "horloge",
-      "ciseaux",
-      "bleu",
-      "mur",
-      "brun",
-      "rouge"
+      "illustre",
+      "enclos",
+      "matin",
+      "bouddha",
+      "humour",
+      "irlande"
     ],
     [
-      "noir",
-      "tasse",
-      "rose",
-      "vert",
-      "rideau",
-      "mauve"
+      "penser",
+      "sève",
+      "entorse",
+      "wax",
+      "saphir",
+      "omoplate"
     ]
   ],
   "rowClues": [
-    2,
     3,
     5,
     3,
-    3,
-    4
+    2,
+    1,
+    1
   ],
   "colClues": [
-    3,
-    3,
-    4,
     4,
     2,
-    4
+    1,
+    3,
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "méditer",
   "solution": [
     [
-      false,
       true,
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 20
+  "parMoves": 15
 }

@@ -5,69 +5,76 @@
   "height": 5,
   "words": [
     [
-      "parole",
-      "dormir",
-      "dent",
-      "boxe",
-      "amusement"
+      "cambré",
+      "pont",
+      "archer",
+      "voûte",
+      "clarifier"
     ],
     [
-      "mâchoire",
-      "parler",
-      "nostalgie",
-      "palais",
-      "mâcher"
+      "piétiner",
+      "décocher",
+      "courbé",
+      "germaine",
+      "tirer"
     ],
     [
-      "gouvernement",
-      "cracher",
-      "bâiller",
-      "sourire",
-      "génome"
+      "cintré",
+      "capitale",
+      "larguer",
+      "sain",
+      "arqué"
     ],
     [
-      "baiser",
-      "embrasser",
-      "sibérien",
-      "salive",
-      "tonner"
+      "épaisseur",
+      "cible",
+      "arrondi",
+      "bander",
+      "carquois"
     ],
     [
-      "gencive",
-      "gourou",
-      "répondeur",
-      "langue",
-      "mordre"
+      "corde",
+      "destinataire",
+      "tir",
+      "lampadaire",
+      "rugir"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
     4,
     3,
     2,
     4,
     2
   ],
-  "themeWord": "bouche",
+  "colClues": [
+    3,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "arc",
   "solution": [
     [
       true,
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ],
     [
+      false,
       true,
       true,
       false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -75,21 +82,14 @@
       true,
       true,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
   "parMoves": 15

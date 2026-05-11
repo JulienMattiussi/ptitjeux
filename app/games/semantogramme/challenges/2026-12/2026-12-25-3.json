@@ -5,71 +5,71 @@
   "height": 6,
   "words": [
     [
-      "tabouret",
-      "coussin",
-      "train",
-      "train",
-      "train",
-      "moto"
+      "semer",
+      "banlieue",
+      "forme",
+      "jouer",
+      "interpréter",
+      "panique"
     ],
     [
-      "bateau",
-      "prière",
-      "brosse",
-      "camion",
-      "voisin",
-      "cadre"
+      "modestie",
+      "mouvement",
+      "répéter",
+      "attelage",
+      "cellulose",
+      "flash"
     ],
     [
-      "lueur",
-      "prison",
-      "lampe",
-      "agenda",
-      "autobus",
-      "navette"
+      "grandiose",
+      "orchestre",
+      "nageur",
+      "tonal",
+      "lyrique",
+      "concert"
     ],
     [
-      "moto",
-      "clé",
-      "manuel",
-      "chaise",
-      "fusée",
-      "tramway"
+      "écrire",
+      "baguette",
+      "discothèque",
+      "caoutchouc",
+      "oasis",
+      "baguettes"
     ],
     [
-      "maison",
-      "tournevis",
-      "remorque",
-      "bus",
-      "tramway",
-      "avion"
+      "composer",
+      "graine",
+      "chambre",
+      "mozart",
+      "pratique",
+      "classique"
     ],
     [
-      "camion",
-      "autobus",
-      "moto",
-      "bateau",
-      "avion",
-      "silence"
+      "boxe",
+      "beethoven",
+      "star",
+      "peintre",
+      "caracal",
+      "multiple"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    2,
-    2,
-    4,
-    5
-  ],
-  "colClues": [
     3,
     1,
-    3,
+    5,
+    1,
     4,
-    4,
-    4
+    2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    2,
+    4,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "symphonie",
   "solution": [
     [
       false,
@@ -77,48 +77,48 @@
       true,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

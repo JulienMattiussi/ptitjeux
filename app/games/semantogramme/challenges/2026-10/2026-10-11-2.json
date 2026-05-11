@@ -5,75 +5,61 @@
   "height": 5,
   "words": [
     [
-      "sobriété",
-      "légendaire",
-      "volatil",
-      "trésor",
-      "extraire"
+      "théière",
+      "acacia",
+      "majestueux",
+      "fiable",
+      "couronne"
     ],
     [
-      "fanfare",
-      "mouche",
-      "lunaison",
-      "barbu",
-      "trapu"
+      "stéthoscope",
+      "bar",
+      "trône",
+      "roi",
+      "servir"
     ],
     [
-      "python",
-      "creuser",
-      "taille",
-      "rejeton",
-      "petit"
+      "somptueux",
+      "établi",
+      "lueur",
+      "ambulance",
+      "régner"
     ],
     [
-      "aimer",
-      "remplir",
-      "minier",
-      "barbe",
-      "pioche"
+      "monumental",
+      "salle",
+      "opulent",
+      "patella",
+      "couloir"
     ],
     [
-      "hache",
-      "forge",
-      "rempart",
-      "chantier",
-      "rail"
+      "fastoyer",
+      "sévir",
+      "prunier",
+      "or",
+      "royal"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
+    2,
     3,
-    2
+    3
   ],
   "colClues": [
-    1,
     3,
     1,
     3,
-    4
+    2,
+    3
   ],
-  "themeWord": "nain",
+  "themeWord": "palais",
   "solution": [
     [
       false,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true
     ],
@@ -82,14 +68,28 @@
       false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 12

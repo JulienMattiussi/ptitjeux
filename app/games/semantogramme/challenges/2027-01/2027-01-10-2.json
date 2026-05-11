@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "stade",
-      "angoisse",
-      "orion",
-      "briller",
-      "firmament"
+      "lapis",
+      "piscine",
+      "glisser",
+      "canneberge",
+      "croire"
     ],
     [
-      "épidermique",
-      "gamin",
-      "courroux",
-      "observer",
-      "astre"
+      "collectif",
+      "long",
+      "faïence",
+      "ramer",
+      "olympique"
     ],
     [
-      "mythique",
-      "vannerie",
-      "lyre",
-      "cassiopée",
-      "lumineuse"
+      "barre",
+      "humer",
+      "multifonction",
+      "priver",
+      "mercure"
     ],
     [
-      "stellaire",
-      "terrifiant",
-      "baleine",
-      "chevalier",
-      "chakra"
+      "lac",
+      "attention",
+      "tirer",
+      "bateau",
+      "équipage"
     ],
     [
-      "première",
-      "céleste",
-      "dessiner",
-      "libération",
-      "frêle"
+      "oar",
+      "chic",
+      "sportif",
+      "exotique",
+      "siège"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    4,
-    2,
-    2
-  ],
-  "colClues": [
-    2,
     1,
     4,
-    3,
+    1,
+    4,
     3
   ],
-  "themeWord": "constellation",
+  "colClues": [
+    4,
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "aviron",
   "solution": [
     [
       false,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
+      true,
+      true,
       false,
       true,
+      true
+    ],
+    [
       true,
+      false,
+      false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 13

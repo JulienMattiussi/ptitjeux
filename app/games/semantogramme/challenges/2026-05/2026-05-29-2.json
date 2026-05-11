@@ -5,68 +5,75 @@
   "height": 5,
   "words": [
     [
-      "nager",
-      "pauser",
-      "soyeux",
-      "plume",
-      "longue"
+      "écaille",
+      "recherche",
+      "roche",
+      "sable",
+      "racler"
     ],
     [
-      "mauve",
-      "moelleux",
-      "adoucir",
-      "aiguillée",
-      "fourrure"
+      "lime",
+      "surveiller",
+      "pierre",
+      "râpe",
+      "gratter"
     ],
     [
-      "applique",
-      "caresse",
-      "effleurer",
-      "duvet",
-      "bêche"
+      "fourrer",
+      "caillouteux",
+      "thèse",
+      "patineur",
+      "papier"
     ],
     [
-      "électricien",
-      "pétale",
-      "luxe",
-      "caresser",
-      "apaiser"
+      "nombre",
+      "granuleux",
+      "éroder",
+      "égratigner",
+      "asticot"
     ],
     [
-      "soie",
-      "agneau",
-      "constitution",
-      "satin",
-      "animal"
+      "résumé",
+      "bulletin",
+      "pantin",
+      "liège",
+      "élastique"
     ]
   ],
   "rowClues": [
+    4,
+    4,
     2,
     3,
-    3,
-    3,
-    3
+    1
   ],
   "colClues": [
-    1,
-    4,
+    2,
+    2,
     3,
     4,
-    2
+    3
   ],
-  "themeWord": "doux",
+  "themeWord": "rugueux",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
     ],
     [
       false,
       true,
-      true,
+      false,
       false,
       true
     ],
@@ -79,14 +86,7 @@
     ],
     [
       false,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
       false

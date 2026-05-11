@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "frayeur",
-      "ciboulette",
-      "peindre",
-      "biscuit",
-      "décorer"
+      "décembre",
+      "parlement",
+      "annuel",
+      "anniversaire",
+      "civil"
     ],
     [
-      "chimique",
-      "pâtissier",
-      "quadratique",
-      "décoration",
-      "haïku"
+      "plasma",
+      "lambin",
+      "calendrier",
+      "âge",
+      "douze"
     ],
     [
-      "gaieté",
-      "festive",
-      "bondir",
-      "intuition",
-      "haute"
+      "enseignement",
+      "récolte",
+      "confetti",
+      "bilan",
+      "volet"
     ],
     [
-      "décorée",
-      "sucrée",
-      "carie",
-      "roulé",
-      "chocolat"
+      "écouler",
+      "passer",
+      "double",
+      "féerique",
+      "danse"
     ],
     [
-      "rouler",
-      "roulée",
-      "champignon",
-      "figurine",
-      "centre"
+      "cycle",
+      "obligatoire",
+      "bissextile",
+      "renommé",
+      "dromadaire"
     ]
   ],
   "rowClues": [
+    4,
+    3,
     2,
     2,
-    1,
-    4,
-    4
-  ],
-  "colClues": [
-    2,
-    4,
-    1,
-    4,
     2
   ],
-  "themeWord": "bûche",
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "année",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
-      false,
+      true,
       true,
       true
     ],
@@ -71,7 +78,7 @@
       false
     ],
     [
-      false,
+      true,
       true,
       false,
       false,
@@ -79,16 +86,9 @@
     ],
     [
       true,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
+      false,
       false
     ]
   ],

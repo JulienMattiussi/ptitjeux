@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "banquier",
-      "pierre",
-      "porte",
-      "pelle",
-      "abricot",
-      "silence"
+      "bercement",
+      "ascenseur",
+      "bois",
+      "autobloquant",
+      "harmonica",
+      "meuble"
     ],
     [
-      "étoile",
-      "lampe",
-      "étoile",
-      "framboise",
-      "étoile",
-      "peigne"
+      "longue",
+      "respecter",
+      "marsupial",
+      "progéniture",
+      "hercule",
+      "noyer"
     ],
     [
-      "banquier",
-      "étoile",
-      "devoir",
-      "kiwi",
-      "porte",
-      "pastèque"
+      "dodeliner",
+      "dîner",
+      "gâchette",
+      "salle-à-manger",
+      "table",
+      "roulante"
     ],
     [
-      "banane",
-      "coussin",
-      "cassis",
-      "panneau",
-      "melon",
-      "étoile"
+      "box",
+      "sous-estimer",
+      "fréquent",
+      "décréter",
+      "subtil",
+      "pied"
     ],
     [
-      "citron",
-      "orange",
-      "figue",
-      "raisin",
-      "kiwi",
-      "clé"
+      "cuisine",
+      "tabouret",
+      "baroque",
+      "ennemi",
+      "éternelle",
+      "dossier"
     ],
     [
-      "ombre",
-      "melon",
-      "tasse",
-      "poire",
-      "manuel",
-      "cerise"
+      "paille",
+      "plastique",
+      "siège",
+      "noël",
+      "avouer",
+      "assise"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     2,
+    1,
     3,
-    5,
-    3
+    1,
+    3,
+    4
   ],
   "colClues": [
-    2,
-    2,
-    2,
-    4,
     3,
-    2
+    2,
+    2,
+    1,
+    1,
+    5
   ],
-  "themeWord": "fruit",
+  "themeWord": "chaise",
   "solution": [
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
-      false
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
     ],
     [
       true,
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "table",
-      "manuel",
-      "autobus",
-      "plateau",
-      "métro",
-      "serrure"
+      "joindre",
+      "chirurgie",
+      "houle",
+      "transplant",
+      "porte-greffe",
+      "implanter"
     ],
     [
-      "navette",
-      "prison",
-      "prière",
-      "moto",
-      "coussin",
-      "maison"
+      "rameau",
+      "arboriculture",
+      "pilule",
+      "avril",
+      "savoir",
+      "renifler"
     ],
     [
-      "avion",
-      "ferry",
-      "jardin",
-      "pince",
-      "rumeur",
-      "navette"
+      "sonate",
+      "verdâtre",
+      "civile",
+      "pousse",
+      "poisson",
+      "bourgeon"
     ],
     [
-      "taxi",
-      "tapis",
-      "bateau",
-      "train",
-      "remorque",
-      "enveloppe"
+      "oasis",
+      "valse",
+      "fil",
+      "inoculer",
+      "meringue",
+      "instruire"
     ],
     [
-      "voiture",
-      "horloge",
-      "chaise",
-      "prison",
-      "prison",
-      "tunnel"
+      "gris",
+      "sève",
+      "bruyant",
+      "lier",
+      "fusionner",
+      "cambium"
     ],
     [
-      "train",
-      "bus",
-      "train",
-      "train",
-      "plafond",
-      "scooter"
+      "fléau",
+      "casserole",
+      "greffe",
+      "écusson",
+      "lambin",
+      "jardinier"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
-    4,
-    1,
-    5
-  ],
-  "colClues": [
     5,
     2,
-    3,
-    3,
     2,
+    1,
+    4,
     2
   ],
-  "themeWord": "transport",
+  "colClues": [
+    2,
+    3,
+    1,
+    5,
+    2,
+    3
+  ],
+  "themeWord": "greffer",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false,
       false
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

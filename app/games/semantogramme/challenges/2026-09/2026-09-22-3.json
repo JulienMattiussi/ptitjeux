@@ -5,76 +5,84 @@
   "height": 6,
   "words": [
     [
-      "voisin",
-      "ours",
-      "vis",
-      "ours",
-      "devoir",
-      "renard"
+      "enlacer",
+      "lisser",
+      "croire",
+      "choyer",
+      "frôler",
+      "chameau"
     ],
     [
-      "devoir",
-      "étagère",
-      "chat",
-      "ours",
-      "lion",
-      "souris"
+      "doublure",
+      "rivaliser",
+      "effleurer",
+      "masser",
+      "fâcher",
+      "cajoler"
     ],
     [
-      "carnet",
-      "ours",
-      "panneau",
-      "lynx",
-      "ombre",
-      "lion"
+      "garde",
+      "mousaka",
+      "seigneur",
+      "faucon",
+      "cadrage",
+      "palper"
     ],
     [
-      "souris",
-      "serrure",
-      "tapis",
-      "renard",
-      "tabouret",
-      "lion"
+      "flatter",
+      "orner",
+      "destin",
+      "conseiller",
+      "support",
+      "panorama"
     ],
     [
-      "lynx",
-      "castor",
-      "lapin",
-      "pince",
-      "lapin",
-      "castor"
+      "fièvre",
+      "tendresse",
+      "douceur",
+      "félicitation",
+      "fourrure",
+      "tatouer"
     ],
     [
-      "lynx",
-      "lapin",
-      "devoir",
-      "agenda",
-      "tapis",
-      "mémoire"
+      "transformer",
+      "dorloter",
+      "bénitier",
+      "pédalier",
+      "protéine",
+      "frôlement"
     ]
   ],
   "rowClues": [
-    3,
     4,
     3,
-    3,
-    5,
+    1,
+    1,
+    4,
     2
   ],
   "colClues": [
+    2,
     3,
-    4,
     2,
-    4,
     2,
-    5
+    2,
+    4
   ],
-  "themeWord": "animal",
+  "themeWord": "caresser",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false,
       true
@@ -82,43 +90,35 @@
     [
       false,
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
       false,
-      true,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 20
+  "parMoves": 15
 }

@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "chevalet",
-      "richelieu",
-      "sorbet",
-      "rosé",
-      "piquer"
+      "front",
+      "moulinet",
+      "politique",
+      "menton",
+      "occiput"
     ],
     [
-      "huile",
-      "s'effondrer",
-      "étude",
-      "gouache",
-      "palette"
+      "gondolé",
+      "cuir",
+      "oeil",
+      "nuque",
+      "tourner"
     ],
     [
-      "tableau",
-      "aquarelle",
-      "pilier",
-      "pigment",
-      "pliable"
+      "perfusion",
+      "oreille",
+      "mâchoire",
+      "sirène",
+      "cheveu"
     ],
     [
-      "fresque",
-      "sillonner",
-      "enduire",
-      "couleur",
-      "badigeonner"
+      "tempe",
+      "républicain",
+      "asphyxie",
+      "proie",
+      "populaire"
     ],
     [
-      "amincir",
-      "colorier",
-      "violon",
-      "gel",
-      "peintre"
+      "sauveteur",
+      "joue",
+      "nez",
+      "caboche",
+      "circuit"
     ]
   ],
   "rowClues": [
+    3,
+    3,
+    3,
     1,
-    3,
-    3,
-    4,
-    2
-  ],
-  "colClues": [
-    4,
-    2,
-    1,
-    3,
     3
   ],
-  "themeWord": "peindre",
+  "colClues": [
+    2,
+    3,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "tête",
   "solution": [
     [
       true,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true,
       false
     ],
     [
-      true,
       false,
       true,
       true,
+      false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
     ],
     [
       false,
       true,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 13

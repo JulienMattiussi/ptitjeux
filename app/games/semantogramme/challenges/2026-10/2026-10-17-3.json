@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "carnet",
-      "bras",
-      "mur",
-      "plateau",
-      "ciseaux",
-      "pied"
+      "baroque",
+      "soliste",
+      "orchestre",
+      "grave",
+      "mélodieux",
+      "tombée"
     ],
     [
+      "illustrer",
+      "exotique",
+      "console",
+      "spéléologie",
+      "infecter",
+      "instrument"
+    ],
+    [
+      "cobaye",
+      "expressif",
+      "corde",
+      "tactile",
+      "simplet",
+      "archet"
+    ],
+    [
+      "plastron",
+      "caisse",
+      "profond",
+      "beau",
+      "lyrique",
+      "idylle"
+    ],
+    [
+      "pellicule",
+      "capituler",
+      "étirer",
       "jambe",
-      "étagère",
-      "genou",
-      "main",
-      "crayon",
-      "chaise"
+      "jouer",
+      "globule"
     ],
     [
-      "pétale",
-      "voisin",
-      "banquier",
-      "étoile",
-      "peau",
-      "mémoire"
-    ],
-    [
-      "panier",
-      "dent",
-      "sol",
-      "prière",
-      "pied",
-      "épaule"
-    ],
-    [
-      "bras",
-      "jardin",
-      "doigt",
-      "prison",
-      "pelle",
-      "livre"
-    ],
-    [
-      "gomme",
-      "dos",
-      "tasse",
-      "dos",
-      "plafond",
-      "coeur"
+      "pincer",
+      "bpm",
+      "boulon",
+      "foudroyer",
+      "manche",
+      "classique"
     ]
   ],
   "rowClues": [
-    2,
-    3,
+    5,
     1,
     3,
-    2,
+    4,
+    1,
     3
   ],
   "colClues": [
     2,
     3,
+    3,
     2,
-    2,
-    2,
+    4,
     3
   ],
-  "themeWord": "corps",
+  "themeWord": "violoncelle",
   "solution": [
     [
-      false,
       true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       false,
       true
     ],
     [
-      true,
       false,
       true,
       true,
       false,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
       true
     ],
     [
-      true,
       false,
       true,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
-      true,
+      false,
+      false,
       false,
       true,
+      false
+    ],
+    [
+      true,
       false,
+      false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "élu",
+      "fourche",
+      "essuyer",
+      "antique",
+      "apaiser",
+      "antiquité"
+    ],
+    [
+      "composer",
+      "médecine",
+      "fresque",
+      "année",
+      "tesselle"
+    ],
+    [
+      "pointes",
+      "pectorale",
+      "clavicule",
+      "cruel",
+      "décorer"
+    ],
+    [
+      "cueillette",
+      "romain",
       "marbre",
-      "précaire",
-      "trôner",
-      "salle"
+      "enduit",
+      "aridité"
     ],
     [
-      "agate",
-      "lavande",
-      "trou",
-      "pigment",
-      "trône"
-    ],
-    [
-      "régner",
-      "fastoyer",
-      "décimal",
-      "cumulus",
-      "campagnol"
-    ],
-    [
-      "couronne",
-      "roi",
-      "tondeuse",
-      "spectre",
-      "bolet"
-    ],
-    [
-      "éditeur",
-      "or",
-      "monumental",
-      "fastueux",
-      "opulent"
+      "byzantin",
+      "motif",
+      "carboniser",
+      "décoratif",
+      "assembler"
     ]
   ],
   "rowClues": [
+    2,
     3,
     1,
-    2,
     2,
     4
   ],
   "colClues": [
     2,
-    4,
-    1,
     2,
-    3
+    3,
+    1,
+    4
   ],
-  "themeWord": "palais",
+  "themeWord": "mosaïque",
   "solution": [
     [
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       true,
       false,
       true,
+      false,
       true
     ],
     [
@@ -71,23 +78,16 @@
       true
     ],
     [
-      true,
-      true,
       false,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      false,
       false,
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true,
       true
     ]

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "farine",
-      "cadre",
-      "pierre",
-      "pince",
-      "verre",
-      "four"
+      "romaine",
+      "soin",
+      "aiguille",
+      "mesurer",
+      "équilibre",
+      "russule"
     ],
     [
-      "évier",
-      "spatule",
-      "tablier",
-      "panneau",
-      "coussin",
-      "porte"
-    ],
-    [
-      "four",
-      "verre",
+      "duplicité",
+      "justice",
+      "thémis",
+      "peser",
       "recette",
-      "cadre",
-      "évier",
-      "assiette"
+      "kilo"
     ],
     [
-      "pierre",
-      "tournevis",
-      "épice",
-      "recette",
-      "caillou",
-      "fusée"
+      "deltoïde",
+      "précision",
+      "numérique",
+      "territoire",
+      "salle-de-bain",
+      "pharmacie"
     ],
     [
-      "évier",
-      "casserole",
-      "timbre",
-      "fourchette",
-      "couteau",
-      "table"
+      "foncé",
+      "fléau",
+      "barre",
+      "tribal",
+      "feuilleter",
+      "inonder"
     ],
     [
-      "plafond",
-      "mémoire",
-      "casserole",
-      "évier",
-      "panneau",
-      "table"
+      "poids",
+      "oublier",
+      "océan",
+      "guirlande",
+      "hamster",
+      "cuisine"
+    ],
+    [
+      "satisfait",
+      "gramme",
+      "noodle",
+      "commerce",
+      "plateau",
+      "pénale"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    5,
-    2,
     4,
-    2
+    4,
+    4,
+    1,
+    2,
+    3
   ],
   "colClues": [
+    2,
     4,
     3,
-    4,
     3,
     3,
-    2
+    3
   ],
-  "themeWord": "cuisine",
+  "themeWord": "balance",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true,
       true
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       false,
       false,
       false
     ],
     [
       true,
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

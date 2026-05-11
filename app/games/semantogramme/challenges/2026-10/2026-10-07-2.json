@@ -5,88 +5,88 @@
   "height": 5,
   "words": [
     [
-      "pavé",
-      "adoucir",
-      "taille",
-      "féroce",
-      "rideau"
+      "réseau",
+      "qwerty",
+      "secret",
+      "tonal",
+      "libre"
     ],
     [
-      "fleuret",
-      "soliste",
-      "glouton",
-      "mutisme",
-      "dévorer"
+      "écimer",
+      "isoloir",
+      "candidat",
+      "tirée",
+      "rayure"
     ],
     [
-      "forêt",
-      "effrayer",
-      "marchandise",
-      "prêt",
-      "géant"
+      "vote",
+      "costaud",
+      "effacement",
+      "voter",
+      "urne"
     ],
     [
-      "gris",
-      "gronder",
-      "massue",
-      "sanctifier",
-      "cannibale"
+      "amplificateur",
+      "dépouiller",
+      "législative",
+      "élire",
+      "présidentielle"
     ],
     [
-      "menaçant",
-      "effrayant",
-      "tumulte",
-      "modeste",
-      "sculpteur"
+      "campagne",
+      "escarpolette",
+      "quadrillage",
+      "sanction",
+      "remplir"
     ]
   ],
   "rowClues": [
     2,
     2,
     3,
-    3,
-    2
+    4,
+    1
   ],
   "colClues": [
     2,
+    2,
     3,
-    3,
-    1,
+    2,
     3
   ],
-  "themeWord": "ogre",
+  "themeWord": "élection",
   "solution": [
     [
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      true,
+      false,
       false
     ],
     [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
+      true,
       true
     ],
     [
       false,
       true,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       false,
       false

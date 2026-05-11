@@ -5,63 +5,84 @@
   "height": 5,
   "words": [
     [
-      "férié",
-      "félicité",
-      "plage",
-      "travail",
-      "congé"
+      "épée",
+      "pauser",
+      "horloge",
+      "sieste",
+      "restaurer"
     ],
     [
-      "rendez-vous",
-      "planifier",
-      "travailler",
-      "auriculaire",
-      "iglou"
+      "engloutir",
+      "festival",
+      "translucide",
+      "restaurant",
+      "femelle"
     ],
     [
-      "plastique",
-      "après-midi",
-      "tempête",
-      "agenda",
-      "enduire"
+      "soleil",
+      "gronder",
+      "manger",
+      "déjeuner",
+      "méridien"
     ],
     [
-      "aperçu",
-      "leurre",
-      "cours",
-      "sucer",
-      "jour"
+      "plein",
+      "étalage",
+      "zénital",
+      "pis",
+      "inertie"
     ],
     [
-      "frisée",
-      "midi",
-      "semaine",
-      "étudier",
-      "hebdomadaire"
+      "pause",
+      "apogée",
+      "sandwich",
+      "nervure",
+      "frisée"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
+    1,
+    4,
     2,
-    2,
-    4
-  ],
-  "colClues": [
-    2,
-    3,
-    3,
-    3,
     3
   ],
-  "themeWord": "mardi",
+  "colClues": [
+    3,
+    2,
+    4,
+    3,
+    2
+  ],
+  "themeWord": "midi",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ],
     [
       true,
@@ -69,27 +90,6 @@
       true,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 14

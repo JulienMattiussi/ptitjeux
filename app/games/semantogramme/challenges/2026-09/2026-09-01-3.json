@@ -5,71 +5,71 @@
   "height": 6,
   "words": [
     [
-      "choeur",
-      "piano",
-      "tabouret",
-      "enveloppe",
-      "timbre",
-      "chant"
+      "éteindre",
+      "rituel",
+      "fronde",
+      "natation",
+      "parade",
+      "immunité"
     ],
     [
-      "caillou",
-      "orgue",
-      "rythme",
-      "accord",
-      "orgue",
-      "rideau"
+      "chandelle",
+      "noblesse",
+      "flamme",
+      "orchestre",
+      "silence",
+      "crudité"
     ],
     [
-      "tambour",
-      "tasse",
-      "tapis",
-      "ciseaux",
-      "livre",
-      "balai"
+      "allumer",
+      "invitation",
+      "glisser",
+      "chaleur",
+      "parfumée",
+      "robuste"
     ],
     [
-      "gomme",
-      "symphonie",
-      "agenda",
-      "rumeur",
-      "batterie",
-      "trompette"
+      "lumière",
+      "fondre",
+      "jaune",
+      "étudiant",
+      "épaulé",
+      "anniversaire"
     ],
     [
-      "jardin",
-      "gamme",
-      "accord",
-      "mélodie",
-      "tasse",
-      "choeur"
+      "mèche",
+      "allumage",
+      "illuminer",
+      "endive",
+      "fête",
+      "sifflet"
     ],
     [
-      "mélodie",
-      "mélodie",
-      "tabouret",
-      "mur",
-      "accord",
-      "harpe"
+      "février",
+      "mordant",
+      "impeccable",
+      "cake",
+      "romantique",
+      "cire"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    3,
     3,
     4,
-    1,
-    3,
-    4,
-    4
+    2
   ],
   "colClues": [
-    3,
     5,
-    2,
-    2,
     3,
-    4
+    2,
+    1,
+    3,
+    2
   ],
-  "themeWord": "musique",
+  "themeWord": "bougie",
   "solution": [
     [
       true,
@@ -77,48 +77,48 @@
       false,
       false,
       false,
-      true
+      false
     ],
     [
+      true,
       false,
       true,
-      true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
       false
     ],
     [
       false,
-      true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "explorer",
-      "musée",
-      "château",
-      "touriste",
-      "populaire"
+      "aspiration",
+      "métro",
+      "taupe",
+      "inoxydable",
+      "praliné"
     ],
     [
-      "montre",
-      "découvrir",
-      "jointure",
-      "travailler",
-      "admirer"
+      "percer",
+      "autorisé",
+      "train",
+      "long",
+      "slalom"
     ],
     [
-      "conquérir",
-      "guide",
-      "pèlerin",
-      "excursion",
-      "subtil"
+      "corner",
+      "étroit",
+      "enfoui",
+      "sous-marine",
+      "passage"
     ],
     [
-      "arpenter",
-      "visite",
-      "magnésie",
-      "sonore",
-      "lèvre"
+      "chapeau",
+      "hanter",
+      "gratuit",
+      "profond",
+      "organique"
     ],
     [
-      "hameçon",
-      "studio",
-      "chambre",
-      "recette",
-      "site"
+      "creuser",
+      "voie",
+      "rayé",
+      "galerie",
+      "hampe"
     ]
   ],
   "rowClues": [
-    4,
     2,
     3,
-    2,
-    1
+    3,
+    1,
+    3
   ],
   "colClues": [
     2,
-    4,
-    2,
-    2,
-    2
+    3,
+    3,
+    3,
+    1
   ],
-  "themeWord": "visiter",
+  "themeWord": "tunnel",
   "solution": [
     [
+      false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false
@@ -66,14 +73,14 @@
     [
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ],
@@ -81,15 +88,8 @@
       true,
       true,
       false,
-      false,
+      true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 12

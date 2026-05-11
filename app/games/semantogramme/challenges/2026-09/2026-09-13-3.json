@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "indigo",
-      "cadre",
-      "mauve",
-      "plafond",
-      "sol",
-      "vert"
+      "patiner",
+      "plaidoyer",
+      "courbé",
+      "poser",
+      "livre",
+      "naïveté"
     ],
     [
-      "gomme",
-      "rouge",
-      "rose",
-      "crayon",
-      "violet",
-      "chaise"
+      "planche",
+      "rondelet",
+      "longue",
+      "support",
+      "tomate",
+      "religieux"
     ],
     [
-      "beige",
-      "tournevis",
-      "gris",
-      "porte",
-      "gomme",
-      "orange"
+      "palet",
+      "gourmet",
+      "épaisse",
+      "préfecture",
+      "cercueil",
+      "objectif"
     ],
     [
-      "jardin",
-      "jaune",
-      "prière",
-      "pelle",
-      "doré",
-      "plateau"
+      "bibliothèque",
+      "ranger",
+      "murale",
+      "féliciter",
+      "salon",
+      "creuset"
     ],
     [
-      "serrure",
-      "bureau",
-      "indigo",
-      "violet",
-      "gomme",
-      "voisin"
+      "objet",
+      "rail",
+      "tremblement",
+      "tartare",
+      "longer",
+      "mur"
     ],
     [
-      "vis",
-      "rouge",
-      "rose",
-      "vert",
-      "chaise",
-      "jardin"
+      "pavillon",
+      "bénitier",
+      "fixer",
+      "rangement",
+      "état",
+      "haute"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
     2,
+    3,
+    1,
+    4,
     2,
     3
   ],
   "colClues": [
-    2,
     3,
-    5,
-    2,
+    1,
+    4,
+    3,
     2,
     2
   ],
-  "themeWord": "couleur",
+  "themeWord": "étagère",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
       true,
-      false
-    ],
-    [
       true,
-      false,
-      true,
-      false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

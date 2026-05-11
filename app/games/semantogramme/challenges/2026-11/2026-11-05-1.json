@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "poêle",
+      "uppercut",
+      "esquive",
+      "ouragan"
+    ],
+    [
+      "rubis",
+      "rond",
+      "direct",
+      "gant"
+    ],
+    [
+      "faucon",
+      "crochet",
+      "punching-ball",
+      "détonation"
+    ],
+    [
+      "sketch",
+      "garde",
+      "cantine",
+      "ring"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    0,
+    4,
+    3,
+    2
+  ],
+  "themeWord": "boxe",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

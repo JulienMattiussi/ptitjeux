@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ébahissement",
+      "emballage",
+      "église",
+      "fleur"
+    ],
+    [
+      "dauphin",
+      "bague",
+      "figuier",
+      "rail"
+    ],
+    [
+      "paquet",
+      "jouet",
+      "longitude",
+      "bouillon"
+    ],
+    [
+      "carte",
+      "noël",
+      "chocolat",
+      "ruban"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "cadeau",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

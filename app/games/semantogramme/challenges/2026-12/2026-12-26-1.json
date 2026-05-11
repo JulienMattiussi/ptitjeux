@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "losange",
+      "rond",
+      "floraison",
+      "cube"
+    ],
+    [
+      "rectangle",
+      "ovale",
+      "plumeau",
+      "pyramide"
+    ],
+    [
+      "roulé",
+      "carré",
+      "tonnelle",
+      "cône"
+    ],
+    [
+      "samba",
+      "bûche",
+      "rime",
+      "glaçon"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    0
+  ],
+  "colClues": [
+    2,
+    3,
+    0,
+    3
+  ],
+  "themeWord": "forme",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

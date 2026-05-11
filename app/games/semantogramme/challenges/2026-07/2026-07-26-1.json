@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "peloton",
+      "pédalier",
+      "levant",
+      "col"
+    ],
+    [
+      "cousine",
+      "guidon",
+      "fils",
+      "route"
+    ],
+    [
+      "donjon",
+      "thon",
+      "descente",
+      "étape"
+    ],
+    [
+      "maillot",
+      "gouvernail",
+      "vélo",
+      "sprint"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "cyclisme",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

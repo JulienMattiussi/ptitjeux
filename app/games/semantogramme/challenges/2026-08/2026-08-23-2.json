@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-23-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rumeur",
+      "cuillère",
+      "ombre",
+      "cuillère",
+      "épice"
+    ],
+    [
+      "assiette",
+      "plat",
+      "four",
+      "caillou",
+      "globe"
+    ],
+    [
+      "miroir",
+      "table",
+      "fourchette",
+      "table",
+      "recette"
+    ],
+    [
+      "marteau",
+      "étagère",
+      "globe",
+      "couteau",
+      "couteau"
+    ],
+    [
+      "rideau",
+      "recette",
+      "parfum",
+      "tablier",
+      "four"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

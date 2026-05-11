@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "jaune",
+      "maison",
+      "serrure",
+      "jaune",
+      "miroir"
+    ],
+    [
+      "violet",
+      "tunnel",
+      "turquoise",
+      "parfum",
+      "doré"
+    ],
+    [
+      "rideau",
+      "bleu",
+      "doré",
+      "vert",
+      "plateau"
+    ],
+    [
+      "mémoire",
+      "prière",
+      "ocre",
+      "rumeur",
+      "ocre"
+    ],
+    [
+      "bleu",
+      "tapis",
+      "marteau",
+      "fusée",
+      "jardin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

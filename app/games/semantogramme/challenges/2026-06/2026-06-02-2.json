@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-02-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "note",
+      "livre",
+      "harpe",
+      "panier",
+      "sol"
+    ],
+    [
+      "symphonie",
+      "peigne",
+      "gomme",
+      "tunnel",
+      "opéra"
+    ],
+    [
+      "manuel",
+      "batterie",
+      "vis",
+      "opéra",
+      "piano"
+    ],
+    [
+      "choeur",
+      "tambour",
+      "cadre",
+      "concerto",
+      "guitare"
+    ],
+    [
+      "tambour",
+      "orgue",
+      "choeur",
+      "table",
+      "racine"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "remorque",
+      "timbre",
+      "bus",
+      "bateau",
+      "porte"
+    ],
+    [
+      "tramway",
+      "scooter",
+      "avion",
+      "bateau",
+      "lueur"
+    ],
+    [
+      "autobus",
+      "moto",
+      "serrure",
+      "ferry",
+      "tapis"
+    ],
+    [
+      "ferry",
+      "taxi",
+      "tabouret",
+      "scooter",
+      "camion"
+    ],
+    [
+      "scooter",
+      "savon",
+      "avion",
+      "prière",
+      "remorque"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    5,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 17
+}

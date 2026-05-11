@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-31-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pétale",
+      "ocre",
+      "blanc",
+      "orange",
+      "pince"
+    ],
+    [
+      "indigo",
+      "peigne",
+      "rouge",
+      "brosse",
+      "table"
+    ],
+    [
+      "violet",
+      "mémoire",
+      "turquoise",
+      "règle",
+      "serrure"
+    ],
+    [
+      "orange",
+      "livre",
+      "argenté",
+      "tabouret",
+      "pierre"
+    ],
+    [
+      "orange",
+      "mauve",
+      "chaise",
+      "bureau",
+      "noir"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

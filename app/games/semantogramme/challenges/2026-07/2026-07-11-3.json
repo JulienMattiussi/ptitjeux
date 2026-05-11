@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-11-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "pétale",
+      "batterie",
+      "rideau",
+      "peigne",
+      "balai",
+      "guitare"
+    ],
+    [
+      "trompette",
+      "trompette",
+      "symphonie",
+      "devoir",
+      "tournevis",
+      "balai"
+    ],
+    [
+      "choeur",
+      "tunnel",
+      "ciseaux",
+      "chant",
+      "note",
+      "concerto"
+    ],
+    [
+      "mur",
+      "note",
+      "harpe",
+      "tunnel",
+      "choeur",
+      "opéra"
+    ],
+    [
+      "tournevis",
+      "peigne",
+      "livre",
+      "chant",
+      "ombre",
+      "violon"
+    ],
+    [
+      "manuel",
+      "panneau",
+      "vis",
+      "sol",
+      "accord",
+      "chemin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    4,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

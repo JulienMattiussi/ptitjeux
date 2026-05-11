@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "serrure",
+      "foudre",
+      "voisin",
+      "gel",
+      "nuage"
+    ],
+    [
+      "coussin",
+      "vent",
+      "éclair",
+      "tempête",
+      "carnet"
+    ],
+    [
+      "devoir",
+      "nuage",
+      "éclair",
+      "tonnerre",
+      "pluie"
+    ],
+    [
+      "bureau",
+      "brouillard",
+      "brouillard",
+      "étoile",
+      "foudre"
+    ],
+    [
+      "tempête",
+      "gel",
+      "verglas",
+      "soleil",
+      "pelle"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    3,
+    4
+  ],
+  "colClues": [
+    1,
+    5,
+    4,
+    4,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

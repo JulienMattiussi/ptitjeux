@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "charme",
+      "becs",
+      "tenir",
+      "mâchoire"
+    ],
+    [
+      "serrer",
+      "tour",
+      "fermé",
+      "levier"
+    ],
+    [
+      "arrosoir",
+      "carte",
+      "tenailler",
+      "épiler"
+    ],
+    [
+      "plier",
+      "étau",
+      "crocodile",
+      "paprika"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "pince",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

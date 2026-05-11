@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-25-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "couteau",
+      "farine",
+      "fourchette",
+      "tablier",
+      "caillou",
+      "carnet"
+    ],
+    [
+      "crayon",
+      "maison",
+      "évier",
+      "rideau",
+      "étagère",
+      "épice"
+    ],
+    [
+      "farine",
+      "pince",
+      "fourchette",
+      "épice",
+      "marteau",
+      "épice"
+    ],
+    [
+      "pierre",
+      "tablier",
+      "plat",
+      "épice",
+      "recette",
+      "livre"
+    ],
+    [
+      "règle",
+      "épice",
+      "farine",
+      "racine",
+      "cuillère",
+      "tournevis"
+    ],
+    [
+      "tablier",
+      "pelle",
+      "étoile",
+      "épice",
+      "cuillère",
+      "assiette"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    4,
+    4,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    5,
+    4,
+    3,
+    3
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 21
+}

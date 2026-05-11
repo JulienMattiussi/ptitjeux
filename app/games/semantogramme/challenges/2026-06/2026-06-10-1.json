@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "salle",
+      "atelier",
+      "vitrine",
+      "basilic"
+    ],
+    [
+      "pavé",
+      "galerie",
+      "quille",
+      "frayeur"
+    ],
+    [
+      "guide",
+      "tableau",
+      "pose",
+      "cerisier"
+    ],
+    [
+      "commissaire",
+      "exposition",
+      "sculpture",
+      "collection"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "musée",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "transport",
+      "maternel",
+      "pis",
+      "pasteurisé"
+    ],
+    [
+      "entier",
+      "château",
+      "ours",
+      "biberon"
+    ],
+    [
+      "turbine",
+      "braisière",
+      "caillé",
+      "crémier"
+    ],
+    [
+      "vache",
+      "cordage",
+      "yaourt",
+      "fromage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    4
+  ],
+  "themeWord": "lait",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

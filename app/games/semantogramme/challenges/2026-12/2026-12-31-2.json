@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-31-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "kiwi",
+      "silence",
+      "pétale",
+      "bureau",
+      "tabouret"
+    ],
+    [
+      "ananas",
+      "silence",
+      "prune",
+      "mûre",
+      "fraise"
+    ],
+    [
+      "mur",
+      "vis",
+      "tabouret",
+      "banane",
+      "panneau"
+    ],
+    [
+      "tasse",
+      "fraise",
+      "abricot",
+      "carnet",
+      "ananas"
+    ],
+    [
+      "panneau",
+      "framboise",
+      "raisin",
+      "enveloppe",
+      "pêche"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

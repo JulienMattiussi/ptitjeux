@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mayonnaise",
+      "vinaigrette",
+      "cage",
+      "ketchup"
+    ],
+    [
+      "moutarde",
+      "tomate",
+      "bureau",
+      "huile"
+    ],
+    [
+      "soja",
+      "crème",
+      "crue",
+      "quai"
+    ],
+    [
+      "curry",
+      "béchamel",
+      "pignon",
+      "fée"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    4,
+    4,
+    0,
+    2
+  ],
+  "themeWord": "sauce",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

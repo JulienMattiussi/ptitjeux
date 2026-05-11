@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "lampe",
+      "jardin",
+      "ocre",
+      "bleu",
+      "gris"
+    ],
+    [
+      "étoile",
+      "tournevis",
+      "lueur",
+      "bleu",
+      "indigo"
+    ],
+    [
+      "indigo",
+      "beige",
+      "pelle",
+      "tunnel",
+      "pétale"
+    ],
+    [
+      "brun",
+      "panneau",
+      "turquoise",
+      "gris",
+      "maison"
+    ],
+    [
+      "pierre",
+      "gris",
+      "agenda",
+      "sol",
+      "tunnel"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

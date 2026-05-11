@@ -1,0 +1,280 @@
+{
+  "id": "2026-11-05-3",
+  "name": "Niveau 3 · 9×8",
+  "width": 9,
+  "height": 8,
+  "player": [
+    2,
+    2
+  ],
+  "walls": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "ice": [],
+  "blocks": [
+    {
+      "id": "b1",
+      "letter": "F",
+      "pos": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "I",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "X",
+      "pos": [
+        6,
+        3
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "E",
+      "pos": [
+        6,
+        2
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "Z",
+      "pos": [
+        6,
+        4
+      ]
+    }
+  ],
+  "target": {
+    "word": "FIXEZ",
+    "cells": [
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        2
+      ]
+    ]
+  },
+  "parMoves": 78,
+  "solution": [
+    "right",
+    "down",
+    "down",
+    "right",
+    "right",
+    "right",
+    "left",
+    "up",
+    "left",
+    "right",
+    "up",
+    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "up",
+    "left",
+    "left",
+    "left",
+    "down",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down",
+    "up",
+    "left",
+    "left",
+    "left",
+    "down",
+    "down",
+    "down",
+    "right",
+    "right",
+    "right",
+    "right",
+    "up",
+    "down",
+    "down",
+    "right",
+    "up",
+    "left",
+    "left",
+    "left",
+    "up",
+    "up",
+    "down",
+    "down",
+    "right",
+    "right",
+    "right",
+    "up",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up",
+    "left",
+    "left",
+    "up",
+    "right",
+    "up",
+    "right",
+    "left",
+    "down",
+    "down",
+    "right",
+    "right"
+  ],
+  "canonicalWord": "fixez"
+}

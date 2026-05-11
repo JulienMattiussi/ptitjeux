@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bis",
+      "salle",
+      "parole",
+      "billet"
+    ],
+    [
+      "première",
+      "refrain",
+      "pendentif",
+      "applaudissement"
+    ],
+    [
+      "micro",
+      "cuillère",
+      "sono",
+      "tuba"
+    ],
+    [
+      "public",
+      "chanteur",
+      "scène",
+      "pizza"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "concert",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

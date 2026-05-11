@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-31-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "abeille",
+      "hache",
+      "arc",
+      "épée"
+    ],
+    [
+      "python",
+      "massue",
+      "bouclier",
+      "pôle"
+    ],
+    [
+      "terme",
+      "dague",
+      "pistolet",
+      "reinette"
+    ],
+    [
+      "truffe",
+      "couteau",
+      "flèche",
+      "fusil"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    0,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "arme",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-23-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "loup",
+      "pétale",
+      "chien",
+      "écureuil",
+      "maison"
+    ],
+    [
+      "loup",
+      "chat",
+      "livre",
+      "lapin",
+      "livre"
+    ],
+    [
+      "voisin",
+      "chemin",
+      "peigne",
+      "koala",
+      "panda"
+    ],
+    [
+      "lynx",
+      "ciseaux",
+      "vache",
+      "plafond",
+      "cheval"
+    ],
+    [
+      "vache",
+      "loup",
+      "panneau",
+      "rideau",
+      "zèbre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

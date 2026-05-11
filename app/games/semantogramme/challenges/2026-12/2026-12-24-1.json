@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "parpaing",
+      "transvaser",
+      "verser",
+      "jus"
+    ],
+    [
+      "eau",
+      "gouttelette",
+      "huile",
+      "sirop"
+    ],
+    [
+      "germination",
+      "ouvert",
+      "lait",
+      "abbaye"
+    ],
+    [
+      "épancher",
+      "poudre",
+      "jade",
+      "fluide"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "liquide",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

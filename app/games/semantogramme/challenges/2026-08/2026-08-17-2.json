@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "football",
+      "vis",
+      "ski",
+      "livre",
+      "pétale"
+    ],
+    [
+      "banquier",
+      "ski",
+      "livre",
+      "voile",
+      "pelle"
+    ],
+    [
+      "marathon",
+      "serrure",
+      "ski",
+      "gym",
+      "coussin"
+    ],
+    [
+      "miroir",
+      "prison",
+      "prière",
+      "voile",
+      "tennis"
+    ],
+    [
+      "cadre",
+      "natation",
+      "golf",
+      "savon",
+      "horloge"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

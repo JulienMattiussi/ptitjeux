@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-15-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "chant",
+      "symphonie",
+      "ciseaux",
+      "guitare",
+      "piano"
+    ],
+    [
+      "harpe",
+      "lueur",
+      "étoile",
+      "livre",
+      "rideau"
+    ],
+    [
+      "étagère",
+      "mémoire",
+      "flûte",
+      "accord",
+      "piano"
+    ],
+    [
+      "écran",
+      "gamme",
+      "chant",
+      "carnet",
+      "jazz"
+    ],
+    [
+      "tournevis",
+      "mélodie",
+      "mémoire",
+      "écran",
+      "ombre"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

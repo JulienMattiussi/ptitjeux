@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "reporter",
+      "amanite",
+      "kiosque",
+      "éditorial"
+    ],
+    [
+      "titre",
+      "abonnement",
+      "manchette",
+      "flottante"
+    ],
+    [
+      "cathédrale",
+      "article",
+      "séisme",
+      "rédaction"
+    ],
+    [
+      "parution",
+      "rubrique",
+      "cigale",
+      "forêt"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "journal",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tasse",
+      "cadre",
+      "fusée",
+      "voile",
+      "balai"
+    ],
+    [
+      "agenda",
+      "devoir",
+      "racine",
+      "tennis",
+      "voile"
+    ],
+    [
+      "maison",
+      "ombre",
+      "rugby",
+      "course",
+      "jardin"
+    ],
+    [
+      "horloge",
+      "miroir",
+      "golf",
+      "tasse",
+      "boxe"
+    ],
+    [
+      "cyclisme",
+      "gym",
+      "cyclisme",
+      "bureau",
+      "tasse"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    1,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

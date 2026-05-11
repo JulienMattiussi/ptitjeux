@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "temple",
+      "lingot",
+      "pièce",
+      "orfèvre"
+    ],
+    [
+      "paillette",
+      "rose",
+      "fin",
+      "costume"
+    ],
+    [
+      "rouge",
+      "moyeu",
+      "rédaction",
+      "bijou"
+    ],
+    [
+      "navette",
+      "marronnier",
+      "mois",
+      "régate"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    0
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "or",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

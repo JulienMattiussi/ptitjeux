@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pilote",
+      "oriflamme",
+      "siège",
+      "récif"
+    ],
+    [
+      "brise",
+      "tuyau",
+      "hôtesse",
+      "sciage"
+    ],
+    [
+      "turbine",
+      "hélice",
+      "atterrissage",
+      "aile"
+    ],
+    [
+      "dague",
+      "décollage",
+      "turquoise",
+      "gibecière"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "avion",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

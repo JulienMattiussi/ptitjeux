@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "bureau",
+      "gomme",
+      "concerto",
+      "guitare",
+      "chant"
+    ],
+    [
+      "piano",
+      "trompette",
+      "piano",
+      "chaise",
+      "piano"
+    ],
+    [
+      "jazz",
+      "table",
+      "cadre",
+      "opéra",
+      "tambour"
+    ],
+    [
+      "tunnel",
+      "batterie",
+      "serrure",
+      "concerto",
+      "banquier"
+    ],
+    [
+      "batterie",
+      "trompette",
+      "tunnel",
+      "ciseaux",
+      "carnet"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

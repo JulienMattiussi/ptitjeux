@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "roi",
+      "grange",
+      "champagne",
+      "dame"
+    ],
+    [
+      "temple",
+      "rafale",
+      "château",
+      "bouclier"
+    ],
+    [
+      "tournoi",
+      "perroquet",
+      "doctorat",
+      "épée"
+    ],
+    [
+      "écouvillon",
+      "écuyer",
+      "joute",
+      "cône"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "chevalier",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

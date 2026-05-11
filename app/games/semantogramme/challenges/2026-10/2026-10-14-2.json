@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tasse",
+      "souris",
+      "carnet",
+      "renard",
+      "clé"
+    ],
+    [
+      "plafond",
+      "girafe",
+      "chat",
+      "lynx",
+      "castor"
+    ],
+    [
+      "enveloppe",
+      "table",
+      "lynx",
+      "vis",
+      "règle"
+    ],
+    [
+      "zèbre",
+      "chemin",
+      "porte",
+      "prière",
+      "maison"
+    ],
+    [
+      "tigre",
+      "tunnel",
+      "lynx",
+      "porte",
+      "étoile"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

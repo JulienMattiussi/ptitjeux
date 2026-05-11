@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plaquage",
+      "musc",
+      "pénalité",
+      "ballon"
+    ],
+    [
+      "transformation",
+      "mêlée",
+      "alligator",
+      "nombre"
+    ],
+    [
+      "pilier",
+      "parapet",
+      "talonneur",
+      "poésie"
+    ],
+    [
+      "ouvreur",
+      "tiroir",
+      "combinaison",
+      "vert"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    4,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "rugby",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

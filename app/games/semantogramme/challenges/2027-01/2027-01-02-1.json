@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "braise",
+      "brie",
+      "allumette",
+      "foi"
+    ],
+    [
+      "flamme",
+      "fumée",
+      "incendie",
+      "dinde"
+    ],
+    [
+      "fart",
+      "caricature",
+      "médaillon",
+      "supporter"
+    ],
+    [
+      "pizza",
+      "ferme",
+      "pompier",
+      "cendre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    0,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "feu",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

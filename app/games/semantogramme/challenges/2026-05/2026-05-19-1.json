@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cire",
+      "glace",
+      "tarte",
+      "étoile"
+    ],
+    [
+      "théière",
+      "ceinture",
+      "gâteau",
+      "soufflé"
+    ],
+    [
+      "mousse",
+      "banane",
+      "modelage",
+      "cruche"
+    ],
+    [
+      "soutien-gorge",
+      "pudding",
+      "vautour",
+      "rafraîchissement"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "dessert",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

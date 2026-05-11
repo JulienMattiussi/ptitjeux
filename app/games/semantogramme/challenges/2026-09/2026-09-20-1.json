@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "string",
+      "culotte",
+      "comptoir",
+      "caleçon"
+    ],
+    [
+      "pizza",
+      "tricot",
+      "limonade",
+      "collant"
+    ],
+    [
+      "boxer",
+      "toux",
+      "slip",
+      "emblème"
+    ],
+    [
+      "maillot",
+      "scénario",
+      "plancton",
+      "bas"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "sous-vêtement",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

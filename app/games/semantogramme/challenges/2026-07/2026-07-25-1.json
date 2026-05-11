@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "piscine",
+      "maillot",
+      "train",
+      "transat"
+    ],
+    [
+      "couloir",
+      "palme",
+      "déjeuner",
+      "plongeon"
+    ],
+    [
+      "string",
+      "bonnet",
+      "rubis",
+      "dos"
+    ],
+    [
+      "papillon",
+      "châtaigne",
+      "molécule",
+      "sépale"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    0,
+    2
+  ],
+  "themeWord": "natation",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

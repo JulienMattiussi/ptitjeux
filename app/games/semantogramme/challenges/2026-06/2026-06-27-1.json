@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "origan",
+      "accord",
+      "téléphone",
+      "noire"
+    ],
+    [
+      "roulette",
+      "pupitre",
+      "sourdine",
+      "clavier"
+    ],
+    [
+      "concert",
+      "éclairage",
+      "touche",
+      "corde"
+    ],
+    [
+      "canard",
+      "star",
+      "alligator",
+      "octave"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "piano",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

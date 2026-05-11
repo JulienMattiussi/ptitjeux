@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bouquet",
+      "collage",
+      "rêverie",
+      "oeufrier"
+    ],
+    [
+      "réaction",
+      "passeport",
+      "rouge",
+      "tribune"
+    ],
+    [
+      "carte",
+      "parfum",
+      "pétale",
+      "tablier"
+    ],
+    [
+      "bouton",
+      "roseraie",
+      "tige",
+      "bergamote"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    0
+  ],
+  "themeWord": "rose",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

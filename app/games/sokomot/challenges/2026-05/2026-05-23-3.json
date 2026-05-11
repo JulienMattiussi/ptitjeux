@@ -1,0 +1,275 @@
+{
+  "id": "2026-05-23-3",
+  "name": "Niveau 3 · 9×8",
+  "width": 9,
+  "height": 8,
+  "player": [
+    2,
+    6
+  ],
+  "walls": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "ice": [],
+  "blocks": [
+    {
+      "id": "b1",
+      "letter": "F",
+      "pos": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "O",
+      "pos": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "N",
+      "pos": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "D",
+      "pos": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "S",
+      "pos": [
+        6,
+        4
+      ]
+    }
+  ],
+  "target": {
+    "word": "FONDS",
+    "cells": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  },
+  "parMoves": 73,
+  "solution": [
+    "up",
+    "right",
+    "up",
+    "down",
+    "left",
+    "left",
+    "up",
+    "up",
+    "up",
+    "right",
+    "up",
+    "right",
+    "right",
+    "down",
+    "down",
+    "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "up",
+    "left",
+    "left",
+    "down",
+    "up",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "right",
+    "left",
+    "up",
+    "up",
+    "right",
+    "down",
+    "up",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down",
+    "right",
+    "right",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right",
+    "down",
+    "left",
+    "down",
+    "left",
+    "right",
+    "up",
+    "up",
+    "left",
+    "right",
+    "down",
+    "right",
+    "right",
+    "down",
+    "left",
+    "up",
+    "up",
+    "left",
+    "left",
+    "down"
+  ],
+  "canonicalWord": "fonds"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "espadrille",
+      "fourreau",
+      "richelieu",
+      "parcelle"
+    ],
+    [
+      "basket",
+      "mule",
+      "crochet",
+      "concerto"
+    ],
+    [
+      "tournebroche",
+      "botte",
+      "chausson",
+      "sandale"
+    ],
+    [
+      "recueillement",
+      "bottine",
+      "pantoufle",
+      "moyeu"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "chaussure",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

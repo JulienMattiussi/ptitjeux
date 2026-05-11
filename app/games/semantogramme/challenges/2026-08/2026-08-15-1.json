@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "couche",
+      "sage-femme",
+      "bébé",
+      "farine"
+    ],
+    [
+      "rare",
+      "nourrisson",
+      "biberon",
+      "berceau"
+    ],
+    [
+      "demoiselle",
+      "mère",
+      "maternité",
+      "prologue"
+    ],
+    [
+      "lait",
+      "punch",
+      "génome",
+      "perceuse"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "naissance",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

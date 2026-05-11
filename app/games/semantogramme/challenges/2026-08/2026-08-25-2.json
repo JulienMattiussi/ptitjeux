@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-25-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "plafond",
+      "oeil",
+      "jambe",
+      "bouche",
+      "tabouret"
+    ],
+    [
+      "joue",
+      "écran",
+      "fusée",
+      "enveloppe",
+      "joue"
+    ],
+    [
+      "bouche",
+      "coeur",
+      "plafond",
+      "manuel",
+      "oeil"
+    ],
+    [
+      "oreille",
+      "chaise",
+      "joue",
+      "dent",
+      "nez"
+    ],
+    [
+      "lèvre",
+      "livre",
+      "coeur",
+      "lèvre",
+      "nez"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    4,
+    4
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    3,
+    4
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

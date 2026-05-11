@@ -1,0 +1,124 @@
+{
+  "id": "2026-08-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "savon",
+      "violon",
+      "tambour",
+      "enveloppe",
+      "bureau",
+      "rideau"
+    ],
+    [
+      "tapis",
+      "écran",
+      "accord",
+      "symphonie",
+      "trompette",
+      "trompette"
+    ],
+    [
+      "cadre",
+      "banquier",
+      "enveloppe",
+      "concerto",
+      "note",
+      "caillou"
+    ],
+    [
+      "accord",
+      "chant",
+      "panneau",
+      "tapis",
+      "accord",
+      "jazz"
+    ],
+    [
+      "panier",
+      "accord",
+      "horloge",
+      "choeur",
+      "gamme",
+      "mélodie"
+    ],
+    [
+      "rumeur",
+      "jazz",
+      "vis",
+      "chant",
+      "crayon",
+      "plateau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    2,
+    4,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    4,
+    4,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "ciseaux",
+      "coussin",
+      "nez",
+      "genou",
+      "ombre"
+    ],
+    [
+      "joue",
+      "sol",
+      "peau",
+      "serrure",
+      "globe"
+    ],
+    [
+      "timbre",
+      "dos",
+      "bras",
+      "globe",
+      "main"
+    ],
+    [
+      "doigt",
+      "ongle",
+      "pétale",
+      "timbre",
+      "oeil"
+    ],
+    [
+      "étagère",
+      "gomme",
+      "sol",
+      "dent",
+      "coussin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-18-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vague",
+      "fusée",
+      "plage",
+      "lueur",
+      "bateau"
+    ],
+    [
+      "marin",
+      "requin",
+      "crayon",
+      "jardin",
+      "tasse"
+    ],
+    [
+      "méduse",
+      "écume",
+      "phare",
+      "sardine",
+      "maison"
+    ],
+    [
+      "racine",
+      "brosse",
+      "baleine",
+      "pelle",
+      "banquier"
+    ],
+    [
+      "miroir",
+      "plage",
+      "écran",
+      "corail",
+      "pelle"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

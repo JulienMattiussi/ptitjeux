@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
+      "pommade",
+      "verdict",
       "ciseaux",
-      "train",
-      "avion",
-      "pelle"
+      "pince"
     ],
     [
-      "voiture",
-      "vélo",
-      "horloge",
-      "tapis"
+      "marteau",
+      "poivre",
+      "visseuse",
+      "perceuse"
     ],
     [
-      "maison",
-      "moto",
-      "tabouret",
-      "serrure"
+      "volant",
+      "orchidée",
+      "agrafeuse",
+      "mentonnière"
     ],
     [
-      "panneau",
-      "devoir",
-      "serrure",
-      "scooter"
+      "tournevis",
+      "écrou",
+      "navet",
+      "tenaille"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    1,
-    1
-  ],
-  "colClues": [
-    1,
     3,
     1,
-    1
+    3
   ],
-  "themeWord": "transport",
+  "colClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "outil",
   "solution": [
     [
       false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false
     ],
     [
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true
     ]

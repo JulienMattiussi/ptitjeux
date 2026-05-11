@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sablon",
+      "mélancolie",
+      "agrès",
+      "lame"
+    ],
+    [
+      "manche",
+      "tronçonneuse",
+      "sciure",
+      "sauteuse"
+    ],
+    [
+      "magot",
+      "menuisier",
+      "messe",
+      "gril"
+    ],
+    [
+      "amphi",
+      "planche",
+      "longitude",
+      "denture"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "scie",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

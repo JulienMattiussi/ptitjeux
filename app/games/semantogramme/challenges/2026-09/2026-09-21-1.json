@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "village",
+      "boulangerie",
+      "agrafeuse",
+      "traversin"
+    ],
+    [
+      "paysan",
+      "pré",
+      "fer",
+      "jambe"
+    ],
+    [
+      "glace",
+      "géranium",
+      "rural",
+      "salle"
+    ],
+    [
+      "thon",
+      "verger",
+      "champ",
+      "potager"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "campagne",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

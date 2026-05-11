@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "match",
+      "limbe",
+      "inattendu",
+      "final"
+    ],
+    [
+      "compartiment",
+      "wagon",
+      "locomotive",
+      "varech"
+    ],
+    [
+      "choc",
+      "rail",
+      "message",
+      "quai"
+    ],
+    [
+      "cycle",
+      "golden",
+      "voyageur",
+      "fret"
+    ]
+  ],
+  "rowClues": [
+    0,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "train",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "chemin",
+      "orgue",
+      "pétale",
+      "batterie",
+      "chant"
+    ],
+    [
+      "mémoire",
+      "gamme",
+      "accord",
+      "orgue",
+      "prison"
+    ],
+    [
+      "étagère",
+      "chemin",
+      "concerto",
+      "flûte",
+      "guitare"
+    ],
+    [
+      "jazz",
+      "rythme",
+      "mélodie",
+      "panier",
+      "opéra"
+    ],
+    [
+      "choeur",
+      "devoir",
+      "choeur",
+      "symphonie",
+      "rideau"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    4,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

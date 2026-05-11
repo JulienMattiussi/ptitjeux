@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-25-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "maison",
+      "globe",
+      "orage",
+      "mémoire",
+      "horloge"
+    ],
+    [
+      "brosse",
+      "gel",
+      "orage",
+      "brouillard",
+      "tabouret"
+    ],
+    [
+      "nuage",
+      "rideau",
+      "nuage",
+      "pince",
+      "vent"
+    ],
+    [
+      "soleil",
+      "enveloppe",
+      "chemin",
+      "plafond",
+      "crayon"
+    ],
+    [
+      "horloge",
+      "étagère",
+      "rosée",
+      "enveloppe",
+      "gomme"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    1,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

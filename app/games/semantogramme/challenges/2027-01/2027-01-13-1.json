@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "veau",
+      "taureau",
+      "pis",
+      "troupeau"
+    ],
+    [
+      "allégresse",
+      "cortège",
+      "normande",
+      "génisse"
+    ],
+    [
+      "maman",
+      "sabot",
+      "pré",
+      "cargo"
+    ],
+    [
+      "nourrir",
+      "meuglement",
+      "lait",
+      "chic"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "vache",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

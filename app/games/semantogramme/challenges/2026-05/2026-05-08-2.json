@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pelle",
+      "pierre",
+      "oreille",
+      "rumeur",
+      "peau"
+    ],
+    [
+      "clé",
+      "plateau",
+      "porte",
+      "jambe",
+      "peau"
+    ],
+    [
+      "genou",
+      "table",
+      "sol",
+      "dent",
+      "tunnel"
+    ],
+    [
+      "pince",
+      "ombre",
+      "vis",
+      "manuel",
+      "épaule"
+    ],
+    [
+      "étoile",
+      "dos",
+      "nez",
+      "pelle",
+      "balai"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-31-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "racine",
+      "orgue",
+      "note",
+      "parfum",
+      "tapis"
+    ],
+    [
+      "panier",
+      "gamme",
+      "balai",
+      "étagère",
+      "tunnel"
+    ],
+    [
+      "pince",
+      "tabouret",
+      "piano",
+      "violon",
+      "chant"
+    ],
+    [
+      "rythme",
+      "symphonie",
+      "flûte",
+      "panier",
+      "chemin"
+    ],
+    [
+      "batterie",
+      "opéra",
+      "piano",
+      "règle",
+      "lampe"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

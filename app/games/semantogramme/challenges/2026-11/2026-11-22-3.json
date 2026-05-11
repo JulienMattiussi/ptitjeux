@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-22-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "peigne",
+      "ferry",
+      "plateau",
+      "moto",
+      "vélo",
+      "remorque"
+    ],
+    [
+      "mémoire",
+      "parfum",
+      "cadre",
+      "camion",
+      "navette",
+      "crayon"
+    ],
+    [
+      "prière",
+      "tramway",
+      "enveloppe",
+      "livre",
+      "balai",
+      "vélo"
+    ],
+    [
+      "peigne",
+      "voisin",
+      "taxi",
+      "moto",
+      "train",
+      "carnet"
+    ],
+    [
+      "caravane",
+      "livre",
+      "fusée",
+      "brosse",
+      "bus",
+      "pince"
+    ],
+    [
+      "vélo",
+      "moto",
+      "bateau",
+      "tasse",
+      "métro",
+      "panier"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    3,
+    5,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

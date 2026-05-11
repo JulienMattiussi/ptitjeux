@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "galaxie",
+      "tribunal",
+      "poulet",
+      "comète"
+    ],
+    [
+      "pneu",
+      "étoile",
+      "reinette",
+      "astéroïde"
+    ],
+    [
+      "nébuleuse",
+      "doctorat",
+      "orbite",
+      "télescope"
+    ],
+    [
+      "constellation",
+      "huile",
+      "satellite",
+      "éclipse"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "astronomie",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

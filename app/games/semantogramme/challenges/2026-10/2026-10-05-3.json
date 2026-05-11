@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-05-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "cadre",
+      "mur",
+      "bureau",
+      "brouillard",
+      "ombre",
+      "banquier"
+    ],
+    [
+      "soleil",
+      "éclair",
+      "panier",
+      "verglas",
+      "soleil",
+      "foudre"
+    ],
+    [
+      "brouillard",
+      "vent",
+      "éclair",
+      "chemin",
+      "jardin",
+      "nuage"
+    ],
+    [
+      "soleil",
+      "orage",
+      "tasse",
+      "verglas",
+      "pluie",
+      "arc-en-ciel"
+    ],
+    [
+      "pluie",
+      "vent",
+      "neige",
+      "brouillard",
+      "sol",
+      "table"
+    ],
+    [
+      "orage",
+      "pétale",
+      "manuel",
+      "vent",
+      "verglas",
+      "timbre"
+    ]
+  ],
+  "rowClues": [
+    1,
+    5,
+    4,
+    5,
+    4,
+    3
+  ],
+  "colClues": [
+    5,
+    4,
+    2,
+    5,
+    3,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 22
+}

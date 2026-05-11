@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "traversière",
+      "soliste",
+      "rideau",
+      "barre"
+    ],
+    [
+      "bec",
+      "cône",
+      "arrosoir",
+      "clé"
+    ],
+    [
+      "condor",
+      "bigarade",
+      "embouchure",
+      "mélodie"
+    ],
+    [
+      "bois",
+      "enchanteur",
+      "argent",
+      "punaise"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "flûte",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

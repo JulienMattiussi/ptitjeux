@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "travée",
+      "capsule",
+      "farniente",
+      "rayon"
+    ],
+    [
+      "arbre",
+      "préfecture",
+      "patrimoine",
+      "parler"
+    ],
+    [
+      "tablier",
+      "culture",
+      "seuil",
+      "province"
+    ],
+    [
+      "territoire",
+      "minute",
+      "limite",
+      "mesurer"
+    ]
+  ],
+  "rowClues": [
+    0,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "région",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

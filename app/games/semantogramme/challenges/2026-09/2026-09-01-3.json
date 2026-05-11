@@ -1,0 +1,124 @@
+{
+  "id": "2026-09-01-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "choeur",
+      "piano",
+      "tabouret",
+      "enveloppe",
+      "timbre",
+      "chant"
+    ],
+    [
+      "caillou",
+      "orgue",
+      "rythme",
+      "accord",
+      "orgue",
+      "rideau"
+    ],
+    [
+      "tambour",
+      "tasse",
+      "tapis",
+      "ciseaux",
+      "livre",
+      "balai"
+    ],
+    [
+      "gomme",
+      "symphonie",
+      "agenda",
+      "rumeur",
+      "batterie",
+      "trompette"
+    ],
+    [
+      "jardin",
+      "gamme",
+      "accord",
+      "mélodie",
+      "tasse",
+      "choeur"
+    ],
+    [
+      "mélodie",
+      "mélodie",
+      "tabouret",
+      "mur",
+      "accord",
+      "harpe"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    1,
+    3,
+    4,
+    4
+  ],
+  "colClues": [
+    3,
+    5,
+    2,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 19
+}

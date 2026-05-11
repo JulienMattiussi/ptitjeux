@@ -1,0 +1,124 @@
+{
+  "id": "2026-09-17-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "clé",
+      "ciseaux",
+      "spatule",
+      "assiette",
+      "tunnel",
+      "frigo"
+    ],
+    [
+      "tapis",
+      "couteau",
+      "spatule",
+      "pierre",
+      "assiette",
+      "couteau"
+    ],
+    [
+      "cuillère",
+      "ombre",
+      "farine",
+      "rumeur",
+      "casserole",
+      "spatule"
+    ],
+    [
+      "four",
+      "maison",
+      "plateau",
+      "banquier",
+      "tasse",
+      "pelle"
+    ],
+    [
+      "four",
+      "frigo",
+      "fourchette",
+      "farine",
+      "maison",
+      "four"
+    ],
+    [
+      "chemin",
+      "plat",
+      "gomme",
+      "cuillère",
+      "fusée",
+      "timbre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    4,
+    1,
+    5,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    4,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 19
+}

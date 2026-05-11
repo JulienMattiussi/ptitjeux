@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cassis",
+      "orange",
+      "lampe",
+      "pêche",
+      "mémoire"
+    ],
+    [
+      "poire",
+      "ananas",
+      "raisin",
+      "prune",
+      "miroir"
+    ],
+    [
+      "banane",
+      "framboise",
+      "table",
+      "miroir",
+      "tunnel"
+    ],
+    [
+      "règle",
+      "racine",
+      "tabouret",
+      "raisin",
+      "abricot"
+    ],
+    [
+      "rumeur",
+      "gomme",
+      "prune",
+      "agenda",
+      "prune"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

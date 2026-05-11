@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-07-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "guitare",
+      "batterie",
+      "gomme",
+      "choeur",
+      "piano"
+    ],
+    [
+      "flûte",
+      "accord",
+      "agenda",
+      "ciseaux",
+      "plafond"
+    ],
+    [
+      "chemin",
+      "peigne",
+      "choeur",
+      "horloge",
+      "étoile"
+    ],
+    [
+      "étoile",
+      "miroir",
+      "prison",
+      "maison",
+      "flûte"
+    ],
+    [
+      "maison",
+      "tapis",
+      "orgue",
+      "trompette",
+      "miroir"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

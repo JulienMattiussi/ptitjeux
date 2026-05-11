@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "accordéon",
+      "discrétion",
+      "autel",
+      "clou"
+    ],
+    [
+      "bénitier",
+      "beaujolais",
+      "orgue",
+      "fidèle"
+    ],
+    [
+      "vitrail",
+      "star",
+      "cierge",
+      "parler"
+    ],
+    [
+      "nef",
+      "leçon",
+      "prêtre",
+      "confessionnal"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    0,
+    4,
+    2
+  ],
+  "themeWord": "église",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

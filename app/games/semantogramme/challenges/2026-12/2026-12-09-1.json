@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "téléphérique",
+      "fermenté",
+      "envergure",
+      "pavillon"
+    ],
+    [
+      "moineau",
+      "moule",
+      "rapace",
+      "spatule"
+    ],
+    [
+      "primate",
+      "nid",
+      "véranda",
+      "royale"
+    ],
+    [
+      "travée",
+      "aiglon",
+      "plume",
+      "aire"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    0,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "aigle",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

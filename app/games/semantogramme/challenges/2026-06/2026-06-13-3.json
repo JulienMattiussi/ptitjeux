@@ -1,0 +1,124 @@
+{
+  "id": "2026-06-13-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "pétale",
+      "bureau",
+      "écume",
+      "banquier",
+      "devoir",
+      "vis"
+    ],
+    [
+      "saumon",
+      "requin",
+      "prison",
+      "pince",
+      "chaise",
+      "étagère"
+    ],
+    [
+      "plage",
+      "rumeur",
+      "tunnel",
+      "coussin",
+      "jardin",
+      "bateau"
+    ],
+    [
+      "brosse",
+      "panier",
+      "pince",
+      "sardine",
+      "thon",
+      "tabouret"
+    ],
+    [
+      "peigne",
+      "saumon",
+      "caillou",
+      "crabe",
+      "savon",
+      "requin"
+    ],
+    [
+      "étagère",
+      "requin",
+      "ciseaux",
+      "ciseaux",
+      "méduse",
+      "thon"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

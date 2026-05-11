@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "attaque",
+      "restaurant",
+      "recette",
+      "hibernation"
+    ],
+    [
+      "célèbre",
+      "toque",
+      "sommier",
+      "gastronomie"
+    ],
+    [
+      "casserole",
+      "immeuble",
+      "foi",
+      "monologue"
+    ],
+    [
+      "four",
+      "cierge",
+      "tablier",
+      "commis"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "cuisinier",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

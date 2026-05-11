@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-10-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "métro",
+      "panneau",
+      "navette",
+      "pelle",
+      "enveloppe",
+      "miroir"
+    ],
+    [
+      "scooter",
+      "autobus",
+      "vélo",
+      "plafond",
+      "vélo",
+      "racine"
+    ],
+    [
+      "cadre",
+      "vélo",
+      "tournevis",
+      "tasse",
+      "prison",
+      "caravane"
+    ],
+    [
+      "vis",
+      "panneau",
+      "tramway",
+      "tabouret",
+      "règle",
+      "vélo"
+    ],
+    [
+      "ferry",
+      "agenda",
+      "silence",
+      "métro",
+      "agenda",
+      "bus"
+    ],
+    [
+      "enveloppe",
+      "avion",
+      "camion",
+      "pince",
+      "tapis",
+      "tramway"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    4,
+    1,
+    1,
+    4
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

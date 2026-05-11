@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-18-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pelle",
+      "serrure",
+      "blanc",
+      "jardin",
+      "sol"
+    ],
+    [
+      "indigo",
+      "ocre",
+      "jardin",
+      "porte",
+      "bleu"
+    ],
+    [
+      "rumeur",
+      "rouge",
+      "enveloppe",
+      "rumeur",
+      "argenté"
+    ],
+    [
+      "pétale",
+      "doré",
+      "jaune",
+      "argenté",
+      "bleu"
+    ],
+    [
+      "horloge",
+      "rose",
+      "doré",
+      "brun",
+      "fusée"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    1,
+    4,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

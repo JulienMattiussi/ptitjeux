@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-19-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "turquoise",
+      "brun",
+      "tabouret",
+      "beige",
+      "chemin"
+    ],
+    [
+      "clé",
+      "caillou",
+      "mauve",
+      "ocre",
+      "jaune"
+    ],
+    [
+      "ocre",
+      "porte",
+      "rouge",
+      "tournevis",
+      "pince"
+    ],
+    [
+      "mémoire",
+      "gris",
+      "plafond",
+      "gris",
+      "brosse"
+    ],
+    [
+      "rose",
+      "vert",
+      "mémoire",
+      "timbre",
+      "blanc"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

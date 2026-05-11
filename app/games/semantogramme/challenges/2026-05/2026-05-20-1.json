@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pastille",
+      "armure",
+      "carafe",
+      "sucre"
+    ],
+    [
+      "moyeu",
+      "vanille",
+      "judas",
+      "frisson"
+    ],
+    [
+      "praline",
+      "safari",
+      "fruit",
+      "moulinet"
+    ],
+    [
+      "réglisse",
+      "lutin",
+      "berlingot",
+      "dragée"
+    ]
+  ],
+  "rowClues": [
+    2,
+    0,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    0,
+    2,
+    2
+  ],
+  "themeWord": "bonbon",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-27-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "règle",
+      "lion",
+      "sol",
+      "lampe",
+      "marteau",
+      "mouton"
+    ],
+    [
+      "miroir",
+      "panda",
+      "vache",
+      "agenda",
+      "tigre",
+      "écureuil"
+    ],
+    [
+      "lion",
+      "étagère",
+      "ours",
+      "koala",
+      "panda",
+      "table"
+    ],
+    [
+      "zèbre",
+      "pince",
+      "lapin",
+      "tigre",
+      "souris",
+      "chaise"
+    ],
+    [
+      "zèbre",
+      "zèbre",
+      "chien",
+      "belette",
+      "balai",
+      "enveloppe"
+    ],
+    [
+      "chien",
+      "pince",
+      "gomme",
+      "mémoire",
+      "girafe",
+      "lynx"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    4,
+    4,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    4,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 21
+}

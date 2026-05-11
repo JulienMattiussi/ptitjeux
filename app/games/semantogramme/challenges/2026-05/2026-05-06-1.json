@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "mauve",
-      "racine",
-      "rouge",
-      "tasse"
+      "libellule",
+      "mouche",
+      "traîneau",
+      "verser"
     ],
     [
-      "sol",
-      "fusée",
-      "gris",
-      "porte"
+      "criquet",
+      "fourmi",
+      "siège",
+      "képi"
     ],
     [
-      "serrure",
-      "violet",
-      "lueur",
-      "gris"
+      "bois",
+      "coccinelle",
+      "frelon",
+      "guêpe"
     ],
     [
-      "peigne",
-      "indigo",
-      "brun",
-      "jaune"
+      "abeille",
+      "piqûre",
+      "composition",
+      "tenaille"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    2,
-    3
-  ],
-  "colClues": [
-    1,
     2,
     3,
-    2
+    1
   ],
-  "themeWord": "couleur",
+  "colClues": [
+    3,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "insecte",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true
     ],
     [
       false,
       true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 8
 }

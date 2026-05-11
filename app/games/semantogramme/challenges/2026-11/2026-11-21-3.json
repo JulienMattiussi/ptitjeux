@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-21-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "mur",
+      "football",
+      "chaise",
+      "étagère",
+      "boxe",
+      "volley"
+    ],
+    [
+      "racine",
+      "balai",
+      "escalade",
+      "sol",
+      "plateau",
+      "mur"
+    ],
+    [
+      "carnet",
+      "caillou",
+      "gym",
+      "serrure",
+      "rugby",
+      "mur"
+    ],
+    [
+      "golf",
+      "escalade",
+      "tapis",
+      "rugby",
+      "danse",
+      "cyclisme"
+    ],
+    [
+      "peigne",
+      "bureau",
+      "basket",
+      "ski",
+      "ski",
+      "panier"
+    ],
+    [
+      "étagère",
+      "marathon",
+      "golf",
+      "football",
+      "volley",
+      "football"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    5,
+    3,
+    5
+  ],
+  "colClues": [
+    1,
+    3,
+    4,
+    3,
+    5,
+    3
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 19
+}

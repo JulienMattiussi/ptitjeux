@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-22-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "neige",
+      "brouillard",
+      "enveloppe",
+      "tabouret",
+      "vent",
+      "arc-en-ciel"
+    ],
+    [
+      "soleil",
+      "vent",
+      "devoir",
+      "rosée",
+      "tournevis",
+      "glace"
+    ],
+    [
+      "carnet",
+      "mur",
+      "rosée",
+      "ciseaux",
+      "glace",
+      "serrure"
+    ],
+    [
+      "orage",
+      "pluie",
+      "arc-en-ciel",
+      "verglas",
+      "soleil",
+      "horloge"
+    ],
+    [
+      "enveloppe",
+      "vent",
+      "gel",
+      "plateau",
+      "foudre",
+      "glace"
+    ],
+    [
+      "lampe",
+      "arc-en-ciel",
+      "soleil",
+      "vent",
+      "orage",
+      "ombre"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    2,
+    5,
+    4,
+    4
+  ],
+  "colClues": [
+    3,
+    5,
+    4,
+    3,
+    5,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 23
+}

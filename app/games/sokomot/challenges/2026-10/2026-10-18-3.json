@@ -1,0 +1,292 @@
+{
+  "id": "2026-10-18-3",
+  "name": "Niveau 3 · 9×8",
+  "width": 9,
+  "height": 8,
+  "player": [
+    7,
+    2
+  ],
+  "walls": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "ice": [],
+  "blocks": [
+    {
+      "id": "b1",
+      "letter": "R",
+      "pos": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "I",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "C",
+      "pos": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "H",
+      "pos": [
+        6,
+        2
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        5,
+        4
+      ]
+    }
+  ],
+  "target": {
+    "word": "RICHE",
+    "cells": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ]
+  },
+  "parMoves": 90,
+  "solution": [
+    "left",
+    "up",
+    "left",
+    "left",
+    "left",
+    "left",
+    "down",
+    "right",
+    "down",
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "left",
+    "left",
+    "up",
+    "up",
+    "down",
+    "down",
+    "right",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "up",
+    "up",
+    "left",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "down",
+    "down",
+    "right",
+    "right",
+    "up",
+    "left",
+    "right",
+    "right",
+    "up",
+    "up",
+    "left",
+    "right",
+    "down",
+    "down",
+    "down",
+    "down",
+    "down",
+    "left",
+    "up",
+    "right",
+    "up",
+    "up",
+    "up",
+    "up",
+    "left",
+    "down",
+    "right",
+    "down",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right",
+    "down",
+    "down",
+    "left",
+    "up"
+  ],
+  "canonicalWord": "riche"
+}

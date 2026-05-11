@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "panama",
+      "feuille",
+      "cèpe",
+      "graine"
+    ],
+    [
+      "engrais",
+      "solution",
+      "fleur",
+      "pelote"
+    ],
+    [
+      "arroser",
+      "emporter",
+      "pot",
+      "photosynthèse"
+    ],
+    [
+      "bourgeon",
+      "tige",
+      "capuche",
+      "effroi"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "plante",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

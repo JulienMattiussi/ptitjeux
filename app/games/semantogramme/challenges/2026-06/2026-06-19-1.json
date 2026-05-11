@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "montagne",
+      "continent",
+      "anaconda",
+      "peuple"
+    ],
+    [
+      "poudre",
+      "monnaie",
+      "patrie",
+      "clémentine"
+    ],
+    [
+      "état",
+      "parterre",
+      "citoyen",
+      "hymne"
+    ],
+    [
+      "nation",
+      "cercle",
+      "drapeau",
+      "frontière"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "pays",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

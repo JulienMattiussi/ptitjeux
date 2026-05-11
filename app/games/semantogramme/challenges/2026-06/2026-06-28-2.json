@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "livre",
+      "pétale",
+      "verglas",
+      "nuage",
+      "étoile"
+    ],
+    [
+      "enveloppe",
+      "ombre",
+      "panier",
+      "glace",
+      "soleil"
+    ],
+    [
+      "coussin",
+      "pierre",
+      "tabouret",
+      "éclair",
+      "brouillard"
+    ],
+    [
+      "peigne",
+      "vent",
+      "pluie",
+      "neige",
+      "clé"
+    ],
+    [
+      "tempête",
+      "globe",
+      "éclair",
+      "banquier",
+      "vent"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    1,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bleu",
+      "indigo",
+      "prisme",
+      "spectre"
+    ],
+    [
+      "reprise",
+      "orange",
+      "vert",
+      "violet"
+    ],
+    [
+      "ouvrière",
+      "synagogue",
+      "léopard",
+      "pellicule"
+    ],
+    [
+      "prologue",
+      "taire",
+      "couleur",
+      "jaune"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    0,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "arc-en-ciel",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

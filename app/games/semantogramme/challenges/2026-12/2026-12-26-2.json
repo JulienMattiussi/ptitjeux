@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "miroir",
+      "volley",
+      "cyclisme",
+      "gym",
+      "judo"
+    ],
+    [
+      "tapis",
+      "course",
+      "cyclisme",
+      "serrure",
+      "jardin"
+    ],
+    [
+      "judo",
+      "tunnel",
+      "volley",
+      "marteau",
+      "ciseaux"
+    ],
+    [
+      "chaise",
+      "tasse",
+      "tennis",
+      "livre",
+      "silence"
+    ],
+    [
+      "vis",
+      "clé",
+      "manuel",
+      "marathon",
+      "globe"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

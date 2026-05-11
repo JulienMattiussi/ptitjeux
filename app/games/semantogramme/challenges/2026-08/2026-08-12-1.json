@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "enchanté",
+      "delta",
+      "musicien",
+      "figuier"
+    ],
+    [
+      "forêt",
+      "message",
+      "écran",
+      "contact"
+    ],
+    [
+      "micro",
+      "écouteur",
+      "sonnerie",
+      "brosse"
+    ],
+    [
+      "décoration",
+      "haut-parleur",
+      "répondeur",
+      "appel"
+    ]
+  ],
+  "rowClues": [
+    0,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "téléphone",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

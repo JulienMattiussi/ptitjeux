@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "escarpin",
+      "royale",
+      "puzzle",
+      "domino"
+    ],
+    [
+      "arabica",
+      "débit",
+      "pétale",
+      "échec"
+    ],
+    [
+      "poker",
+      "songe",
+      "belote",
+      "locomotive"
+    ],
+    [
+      "orbite",
+      "pion",
+      "menuiserie",
+      "dame"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "jeu",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

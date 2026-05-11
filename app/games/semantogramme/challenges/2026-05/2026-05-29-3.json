@@ -1,0 +1,124 @@
+{
+  "id": "2026-05-29-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "globe",
+      "rouge",
+      "blanc",
+      "enveloppe",
+      "gomme",
+      "lampe"
+    ],
+    [
+      "jaune",
+      "clé",
+      "peigne",
+      "ocre",
+      "ocre",
+      "clé"
+    ],
+    [
+      "ocre",
+      "gomme",
+      "chaise",
+      "beige",
+      "brun",
+      "gris"
+    ],
+    [
+      "pelle",
+      "coussin",
+      "règle",
+      "pierre",
+      "tasse",
+      "rouge"
+    ],
+    [
+      "gris",
+      "violet",
+      "violet",
+      "panier",
+      "parfum",
+      "coussin"
+    ],
+    [
+      "sol",
+      "cadre",
+      "doré",
+      "indigo",
+      "tunnel",
+      "blanc"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

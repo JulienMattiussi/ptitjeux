@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-19-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "cadre",
+      "escalade",
+      "boxe",
+      "gomme",
+      "agenda",
+      "tapis"
+    ],
+    [
+      "peigne",
+      "pince",
+      "pelle",
+      "rugby",
+      "sol",
+      "ski"
+    ],
+    [
+      "mur",
+      "cyclisme",
+      "chemin",
+      "marathon",
+      "danse",
+      "livre"
+    ],
+    [
+      "mur",
+      "rugby",
+      "volley",
+      "ski",
+      "course",
+      "coussin"
+    ],
+    [
+      "natation",
+      "tabouret",
+      "chaise",
+      "cyclisme",
+      "tabouret",
+      "bureau"
+    ],
+    [
+      "course",
+      "rugby",
+      "livre",
+      "table",
+      "serrure",
+      "rideau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    4,
+    2,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

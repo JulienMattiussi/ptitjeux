@@ -1,0 +1,124 @@
+{
+  "id": "2026-05-20-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "écureuil",
+      "zèbre",
+      "écran",
+      "maison",
+      "gomme",
+      "renard"
+    ],
+    [
+      "écureuil",
+      "mur",
+      "parfum",
+      "renard",
+      "ours",
+      "chemin"
+    ],
+    [
+      "belette",
+      "belette",
+      "koala",
+      "chemin",
+      "lion",
+      "zèbre"
+    ],
+    [
+      "étagère",
+      "chien",
+      "clé",
+      "marteau",
+      "lynx",
+      "mouton"
+    ],
+    [
+      "belette",
+      "belette",
+      "pétale",
+      "panda",
+      "cheval",
+      "lion"
+    ],
+    [
+      "zèbre",
+      "silence",
+      "lapin",
+      "lueur",
+      "chaise",
+      "cheval"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    5,
+    3,
+    5,
+    3
+  ],
+  "colClues": [
+    5,
+    4,
+    2,
+    2,
+    4,
+    5
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 22
+}

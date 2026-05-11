@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-30-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "livre",
+      "voile",
+      "brosse",
+      "mémoire",
+      "phare",
+      "marteau"
+    ],
+    [
+      "requin",
+      "mémoire",
+      "écaille",
+      "rideau",
+      "racine",
+      "ciseaux"
+    ],
+    [
+      "horloge",
+      "crabe",
+      "lueur",
+      "prière",
+      "thon",
+      "tasse"
+    ],
+    [
+      "poisson",
+      "caillou",
+      "plage",
+      "racine",
+      "enveloppe",
+      "chaise"
+    ],
+    [
+      "règle",
+      "saumon",
+      "silence",
+      "phare",
+      "écaille",
+      "bureau"
+    ],
+    [
+      "requin",
+      "méduse",
+      "lueur",
+      "rivage",
+      "miroir",
+      "phare"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

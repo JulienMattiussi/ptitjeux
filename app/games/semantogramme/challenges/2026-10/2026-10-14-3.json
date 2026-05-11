@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-14-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "concerto",
+      "violon",
+      "choeur",
+      "peigne",
+      "opéra",
+      "chant"
+    ],
+    [
+      "orgue",
+      "lueur",
+      "mur",
+      "porte",
+      "batterie",
+      "ombre"
+    ],
+    [
+      "maison",
+      "balai",
+      "gamme",
+      "miroir",
+      "opéra",
+      "balai"
+    ],
+    [
+      "batterie",
+      "concerto",
+      "bureau",
+      "trompette",
+      "manuel",
+      "tambour"
+    ],
+    [
+      "accord",
+      "mur",
+      "gamme",
+      "règle",
+      "bureau",
+      "manuel"
+    ],
+    [
+      "marteau",
+      "tambour",
+      "trompette",
+      "symphonie",
+      "racine",
+      "accord"
+    ]
+  ],
+  "rowClues": [
+    5,
+    2,
+    2,
+    4,
+    2,
+    4
+  ],
+  "colClues": [
+    4,
+    3,
+    4,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 19
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "lynx",
+      "vache",
+      "règle",
+      "castor",
+      "panier"
+    ],
+    [
+      "ciseaux",
+      "chat",
+      "règle",
+      "renard",
+      "mouton"
+    ],
+    [
+      "livre",
+      "loup",
+      "zèbre",
+      "balai",
+      "pierre"
+    ],
+    [
+      "koala",
+      "panda",
+      "ours",
+      "rideau",
+      "tabouret"
+    ],
+    [
+      "miroir",
+      "chien",
+      "renard",
+      "racine",
+      "pelle"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    5,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

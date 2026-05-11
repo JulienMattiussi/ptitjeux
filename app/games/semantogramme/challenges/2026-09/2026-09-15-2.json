@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-15-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "savon",
+      "devoir",
+      "savon",
+      "danse",
+      "mémoire"
+    ],
+    [
+      "coussin",
+      "danse",
+      "golf",
+      "escalade",
+      "cadre"
+    ],
+    [
+      "cyclisme",
+      "escalade",
+      "escalade",
+      "savon",
+      "football"
+    ],
+    [
+      "vis",
+      "voile",
+      "étagère",
+      "course",
+      "panneau"
+    ],
+    [
+      "marathon",
+      "volley",
+      "danse",
+      "voile",
+      "tunnel"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    4,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

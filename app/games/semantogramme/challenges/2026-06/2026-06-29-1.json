@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chocolat",
+      "chevalet",
+      "lion",
+      "abat-jour"
+    ],
+    [
+      "opposition",
+      "aquarelle",
+      "gouache",
+      "noyau"
+    ],
+    [
+      "huile",
+      "portrait",
+      "palette",
+      "bronzage"
+    ],
+    [
+      "sirop",
+      "tableau",
+      "toile",
+      "acrylique"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "peinture",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "casque",
+      "pinceau",
+      "pneu",
+      "sucette"
+    ],
+    [
+      "roquefort",
+      "dérailleur",
+      "frein",
+      "houx"
+    ],
+    [
+      "sonnette",
+      "romance",
+      "fosse",
+      "hôtel"
+    ],
+    [
+      "roue",
+      "chaîne",
+      "hirondelle",
+      "rayon"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "vélo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

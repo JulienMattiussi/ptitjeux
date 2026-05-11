@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "pierre",
-      "fraise",
-      "melon",
-      "framboise"
+      "craie",
+      "leçon",
+      "igloo",
+      "récréation"
     ],
     [
-      "pêche",
-      "orange",
-      "tournevis",
-      "étoile"
+      "visière",
+      "sifflement",
+      "sombrero",
+      "orbite"
     ],
     [
-      "cerise",
-      "mûre",
-      "caillou",
-      "pince"
+      "jetée",
+      "cartable",
+      "cantine",
+      "classe"
     ],
     [
-      "plateau",
-      "savon",
-      "mûre",
-      "cassis"
+      "attirance",
+      "observatoire",
+      "rameau",
+      "tableau"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
-    2
+    0,
+    3,
+    1
   ],
   "colClues": [
+    1,
     2,
-    3,
-    2,
-    2
+    1,
+    3
   ],
-  "themeWord": "fruit",
+  "themeWord": "école",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
     [
       false,
       true,
@@ -50,23 +62,11 @@
       true
     ],
     [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 7
 }

@@ -1,10 +1,11 @@
+import { useSearchParams } from 'react-router'
 import { ArchiveAccordion } from './ArchiveAccordion'
 import { CheckMark } from './CheckMark'
 import { GameLayout } from './GameLayout'
 import { LevelTile } from './LevelTile'
 import { getLevelParMoves } from '~/games'
 import { completionStatus } from '~/lib/completion'
-import { dateLabel, todayString } from '~/lib/dates'
+import { dateLabel, shouldShowFutureDates, todayString } from '~/lib/dates'
 import { GAME_SIZE, isIceLevel, type GameId } from '~/lib/game-styles'
 import { useLocalProgress, levelKey } from '~/lib/useLocalProgress'
 
@@ -17,7 +18,15 @@ type Props = {
 }
 
 export function ChallengeListPage({ gameId, title, tagline, description, dates }: Props) {
-  const sortedDates = dates.slice().sort()
+  const allSorted = dates.slice().sort()
+  // Sans le flag dev `VITE_SHOW_FUTURE_DAYS=1`, on masque les défis dont la
+  // date est postérieure à aujourd'hui pour ne pas spoiler le contenu non
+  // encore publié. On calcule « aujourd'hui » sans `lastAvailableDate` ici :
+  // sinon, avec `VITE_FREEZE_TODAY=last-available`, le freeze sauterait à la
+  // dernière date du dataset et tout serait considéré comme déjà publié.
+  const showFuture = shouldShowFutureDates()
+  const realToday = todayString()
+  const sortedDates = showFuture ? allSorted : allSorted.filter((d) => d <= realToday)
   const lastAvailable = sortedDates[sortedDates.length - 1]
   const today = todayString(lastAvailable)
   const todayIsAvailable = sortedDates.includes(today)
@@ -25,6 +34,14 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
   const archiveDates = sortedDates.filter((d) => d !== dailyDate)
 
   const progress = useLocalProgress(gameId)
+
+  // Quand on revient d'un niveau via `?from=YYYY-MM-DD`, on demande à
+  // l'accordéon d'ouvrir le mois correspondant et de scroller jusqu'à la ligne.
+  const [searchParams] = useSearchParams()
+  const fromDate = searchParams.get('from') ?? undefined
+  // Si la date d'origine est la date du défi du jour, pas besoin d'ouvrir
+  // les archives — la ligne est déjà visible en haut.
+  const focusArchiveDate = fromDate && fromDate !== dailyDate ? fromDate : undefined
 
   const dailyAllPerfect =
     !!dailyDate &&
@@ -103,7 +120,12 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
             Tous les défis précédents : pioche ce que tu veux.
           </p>
         </header>
-        <ArchiveAccordion gameId={gameId} dates={archiveDates} progress={progress} />
+        <ArchiveAccordion
+          gameId={gameId}
+          dates={archiveDates}
+          progress={progress}
+          focusDate={focusArchiveDate}
+        />
       </section>
     </GameLayout>
   )

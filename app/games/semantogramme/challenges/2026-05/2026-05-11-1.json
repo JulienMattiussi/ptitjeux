@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "croisée",
+      "cirrus",
+      "poisson",
+      "camion"
+    ],
+    [
+      "oiseau",
+      "aimer",
+      "cachalot",
+      "serpent"
+    ],
+    [
+      "stylo",
+      "éléphant",
+      "tigre",
+      "boisson"
+    ],
+    [
+      "cheval",
+      "chien",
+      "géométrie",
+      "patte"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

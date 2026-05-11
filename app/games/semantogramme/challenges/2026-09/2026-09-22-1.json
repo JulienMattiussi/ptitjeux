@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plomb",
+      "batterie",
+      "mélodie",
+      "blues"
+    ],
+    [
+      "cabaret",
+      "ovale",
+      "improvisation",
+      "castor"
+    ],
+    [
+      "bois",
+      "archipel",
+      "trompette",
+      "standard"
+    ],
+    [
+      "piano",
+      "swing",
+      "aileron",
+      "rythme"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "jazz",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

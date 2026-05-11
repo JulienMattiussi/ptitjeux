@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-03-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "livre",
+      "tournevis",
+      "genou",
+      "sol",
+      "dent"
+    ],
+    [
+      "chaise",
+      "balai",
+      "main",
+      "coeur",
+      "panneau"
+    ],
+    [
+      "oreille",
+      "peau",
+      "racine",
+      "main",
+      "panneau"
+    ],
+    [
+      "jardin",
+      "tête",
+      "tapis",
+      "tabouret",
+      "coeur"
+    ],
+    [
+      "livre",
+      "dent",
+      "plafond",
+      "coeur",
+      "plateau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

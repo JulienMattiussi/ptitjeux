@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cri",
+      "frayeur",
+      "frisson",
+      "apnée"
+    ],
+    [
+      "lèchefrite",
+      "monstre",
+      "effroi",
+      "cône"
+    ],
+    [
+      "phobie",
+      "pianissimo",
+      "terreur",
+      "gomme"
+    ],
+    [
+      "fuite",
+      "sueurs",
+      "chronomètre",
+      "cauchemar"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "peur",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "religieuse",
+      "texte",
+      "clavier",
+      "argent"
+    ],
+    [
+      "congère",
+      "flamenco",
+      "calligraphie",
+      "serpentin"
+    ],
+    [
+      "papier",
+      "graphisme",
+      "stylo",
+      "pavillon"
+    ],
+    [
+      "mot",
+      "phrase",
+      "plume",
+      "lettre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "écriture",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

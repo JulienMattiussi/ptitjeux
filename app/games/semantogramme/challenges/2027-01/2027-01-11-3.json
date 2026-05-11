@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-11-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "pelle",
+      "marteau",
+      "caillou",
+      "pierre",
+      "choeur",
+      "pelle"
+    ],
+    [
+      "batterie",
+      "batterie",
+      "pince",
+      "note",
+      "jardin",
+      "devoir"
+    ],
+    [
+      "harpe",
+      "guitare",
+      "violon",
+      "concerto",
+      "harpe",
+      "fusée"
+    ],
+    [
+      "porte",
+      "fusée",
+      "accord",
+      "ombre",
+      "devoir",
+      "harpe"
+    ],
+    [
+      "opéra",
+      "rythme",
+      "note",
+      "ombre",
+      "chant",
+      "note"
+    ],
+    [
+      "lampe",
+      "batterie",
+      "rythme",
+      "flûte",
+      "piano",
+      "jazz"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    5,
+    2,
+    5,
+    5
+  ],
+  "colClues": [
+    3,
+    4,
+    4,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 21
+}

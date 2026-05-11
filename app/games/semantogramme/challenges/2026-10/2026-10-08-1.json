@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "aubergine",
+      "cuisson",
+      "donjon",
+      "vannerie"
+    ],
+    [
+      "feu",
+      "fond",
+      "poêle",
+      "cocotte"
+    ],
+    [
+      "sauteuse",
+      "capuche",
+      "fantasme",
+      "licence"
+    ],
+    [
+      "lézard",
+      "tannin",
+      "couvercle",
+      "marmite"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "casserole",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

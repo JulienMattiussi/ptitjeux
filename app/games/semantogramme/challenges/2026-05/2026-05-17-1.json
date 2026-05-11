@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "vanille",
+      "toux",
+      "rat",
+      "microbe"
+    ],
+    [
+      "harpie",
+      "hebdomadaire",
+      "guitare",
+      "cils"
+    ],
+    [
+      "miette",
+      "farine",
+      "boulanger",
+      "tartine"
+    ],
+    [
+      "confiture",
+      "levure",
+      "baguette",
+      "affluent"
+    ]
+  ],
+  "rowClues": [
+    0,
+    0,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "pain",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

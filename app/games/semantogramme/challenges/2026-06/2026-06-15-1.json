@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "passager",
+      "archet",
+      "terminal",
+      "atterrissage"
+    ],
+    [
+      "douane",
+      "flocon",
+      "pilote",
+      "lapin"
+    ],
+    [
+      "serpillière",
+      "avion",
+      "piste",
+      "basilic"
+    ],
+    [
+      "horticulture",
+      "tour",
+      "embarquement",
+      "hôtesse"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    2
+  ],
+  "themeWord": "aéroport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

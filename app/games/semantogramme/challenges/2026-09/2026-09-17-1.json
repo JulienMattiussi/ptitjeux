@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "châtaigne",
+      "mousseron",
+      "sorcier",
+      "jockey"
+    ],
+    [
+      "astre",
+      "farniente",
+      "brochet",
+      "marée"
+    ],
+    [
+      "nouvelle",
+      "nuit",
+      "pleine",
+      "lame"
+    ],
+    [
+      "épervier",
+      "orbite",
+      "éclipse",
+      "marié"
+    ]
+  ],
+  "rowClues": [
+    0,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "lune",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

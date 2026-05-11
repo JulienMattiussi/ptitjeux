@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chef",
+      "arabica",
+      "miette",
+      "arabica"
+    ],
+    [
+      "coulisse",
+      "or",
+      "kéfir",
+      "grain"
+    ],
+    [
+      "décaféiné",
+      "machine",
+      "barque",
+      "pâtissier"
+    ],
+    [
+      "tasse",
+      "délivrance",
+      "arôme",
+      "filtre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "café",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

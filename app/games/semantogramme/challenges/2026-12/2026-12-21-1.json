@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "châtaignier",
+      "gouvernail",
+      "avalanche",
+      "salade"
+    ],
+    [
+      "pas",
+      "bricolage",
+      "établi",
+      "boulonner"
+    ],
+    [
+      "briquer",
+      "serrer",
+      "scène",
+      "colonie"
+    ],
+    [
+      "manche",
+      "ruche",
+      "embout",
+      "fenouil"
+    ]
+  ],
+  "rowClues": [
+    0,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "tournevis",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

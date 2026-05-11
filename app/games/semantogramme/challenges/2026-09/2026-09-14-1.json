@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "refuge",
+      "recette",
+      "constellation",
+      "crayon"
+    ],
+    [
+      "lampe",
+      "cartable",
+      "imprimante",
+      "épais"
+    ],
+    [
+      "tampon",
+      "téléphone",
+      "agenda",
+      "album"
+    ],
+    [
+      "ordinateur",
+      "dossier",
+      "classeur",
+      "bouledogue"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "bureau",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

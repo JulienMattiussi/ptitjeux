@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-03-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "violet",
+      "rouge",
+      "coussin",
+      "jaune",
+      "globe"
+    ],
+    [
+      "panier",
+      "doré",
+      "argenté",
+      "vert",
+      "ombre"
+    ],
+    [
+      "table",
+      "panneau",
+      "jaune",
+      "violet",
+      "indigo"
+    ],
+    [
+      "savon",
+      "jaune",
+      "voisin",
+      "vert",
+      "plafond"
+    ],
+    [
+      "blanc",
+      "écran",
+      "bleu",
+      "noir",
+      "parfum"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    5,
+    1
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

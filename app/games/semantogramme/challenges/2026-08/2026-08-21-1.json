@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tasse",
+      "feuille",
+      "cérémonie",
+      "tisane"
+    ],
+    [
+      "labrador",
+      "nef",
+      "théière",
+      "bannière"
+    ],
+    [
+      "noir",
+      "infusion",
+      "récit",
+      "verveine"
+    ],
+    [
+      "vert",
+      "étagère",
+      "coucher",
+      "matcha"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "thé",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

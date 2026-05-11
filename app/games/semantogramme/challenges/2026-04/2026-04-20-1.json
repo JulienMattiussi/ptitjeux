@@ -5,48 +5,60 @@
   "height": 4,
   "words": [
     [
-      "lueur",
-      "pince",
-      "mûre",
-      "melon"
+      "sommet",
+      "limbe",
+      "crique",
+      "cueillette"
     ],
     [
-      "pêche",
-      "rumeur",
-      "chaise",
-      "figue"
+      "lagon",
+      "babouin",
+      "expédition",
+      "génome"
     ],
     [
-      "tasse",
-      "pastèque",
-      "brosse",
-      "timbre"
+      "pirogue",
+      "pique-nique",
+      "rivage",
+      "récif"
     ],
     [
-      "cassis",
-      "raisin",
-      "pastèque",
-      "plafond"
+      "corail",
+      "jasmin",
+      "écho",
+      "mouette"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     1,
-    3
+    1,
+    3,
+    2
   ],
   "colClues": [
-    2,
-    2,
+    3,
+    0,
     2,
     2
   ],
-  "themeWord": "fruit",
+  "themeWord": "île",
   "solution": [
     [
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -54,19 +66,7 @@
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 7
 }

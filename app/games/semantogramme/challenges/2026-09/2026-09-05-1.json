@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "queue",
+      "hêtre",
+      "fanon",
+      "migration"
+    ],
+    [
+      "origan",
+      "chant",
+      "détergent",
+      "cachalot"
+    ],
+    [
+      "plancton",
+      "jument",
+      "océan",
+      "billet"
+    ],
+    [
+      "sorbier",
+      "cétacé",
+      "mammifère",
+      "évent"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "baleine",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

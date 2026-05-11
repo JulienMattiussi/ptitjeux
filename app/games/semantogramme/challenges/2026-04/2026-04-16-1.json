@@ -5,54 +5,54 @@
   "height": 4,
   "words": [
     [
-      "cerise",
-      "pomme",
-      "sol",
-      "pomme"
+      "tournevis",
+      "obélisque",
+      "houle",
+      "crayon"
     ],
     [
-      "pince",
-      "orange",
-      "banane",
-      "cassis"
+      "corail",
+      "fusain",
+      "atoll",
+      "crique"
     ],
     [
-      "pêche",
-      "plafond",
-      "cassis",
-      "table"
+      "phare",
+      "tribunal",
+      "marée",
+      "séjour"
     ],
     [
-      "poire",
-      "manuel",
-      "banane",
-      "cassis"
+      "sable",
+      "ébénisterie",
+      "vague",
+      "algue"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    0,
+    2,
     2,
     3
   ],
   "colClues": [
     3,
+    0,
     2,
-    3,
-    3
+    2
   ],
-  "themeWord": "fruit",
+  "themeWord": "mer",
   "solution": [
     [
-      true,
-      true,
       false,
-      true
+      false,
+      false,
+      false
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
@@ -68,5 +68,5 @@
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 7
 }

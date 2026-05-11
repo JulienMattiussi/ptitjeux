@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "agenda",
+      "règle",
+      "agenda",
+      "voiture",
+      "tunnel"
+    ],
+    [
+      "rideau",
+      "train",
+      "étoile",
+      "enveloppe",
+      "avion"
+    ],
+    [
+      "voiture",
+      "métro",
+      "brosse",
+      "tapis",
+      "savon"
+    ],
+    [
+      "étoile",
+      "livre",
+      "plafond",
+      "voiture",
+      "scooter"
+    ],
+    [
+      "sol",
+      "brosse",
+      "taxi",
+      "vélo",
+      "chemin"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

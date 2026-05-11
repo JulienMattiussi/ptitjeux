@@ -1,0 +1,291 @@
+{
+  "id": "2026-11-08-3",
+  "name": "Niveau 3 · 9×8",
+  "width": 9,
+  "height": 8,
+  "player": [
+    4,
+    2
+  ],
+  "walls": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "ice": [],
+  "blocks": [
+    {
+      "id": "b1",
+      "letter": "R",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "E",
+      "pos": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "P",
+      "pos": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "A",
+      "pos": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "S",
+      "pos": [
+        6,
+        2
+      ]
+    }
+  ],
+  "target": {
+    "word": "REPAS",
+    "cells": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ]
+    ]
+  },
+  "parMoves": 89,
+  "solution": [
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
+    "left",
+    "down",
+    "down",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up",
+    "up",
+    "left",
+    "left",
+    "down",
+    "right",
+    "up",
+    "right",
+    "up",
+    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "down",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "left",
+    "up",
+    "up",
+    "right",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "left",
+    "down",
+    "left",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "up",
+    "left",
+    "up",
+    "up",
+    "left",
+    "left",
+    "left",
+    "right",
+    "down",
+    "right",
+    "right",
+    "down",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up"
+  ],
+  "canonicalWord": "repas"
+}

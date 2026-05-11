@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bourgeon",
+      "agenda",
+      "rempart",
+      "horloge"
+    ],
+    [
+      "calendrier",
+      "berge",
+      "pas",
+      "persil"
+    ],
+    [
+      "chenille",
+      "siècle",
+      "mois",
+      "année"
+    ],
+    [
+      "heure",
+      "minute",
+      "montre",
+      "semaine"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "temps",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

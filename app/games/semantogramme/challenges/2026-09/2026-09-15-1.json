@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mercure",
+      "aubergine",
+      "plantation",
+      "pluton"
+    ],
+    [
+      "anneau",
+      "préfecture",
+      "pignon",
+      "mars"
+    ],
+    [
+      "sketch",
+      "milan",
+      "iguane",
+      "orbite"
+    ],
+    [
+      "emporter",
+      "vénus",
+      "rotation",
+      "guirlande"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    1,
+    3
+  ],
+  "themeWord": "planète",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "studio",
+      "hémisphère",
+      "mousse",
+      "incroyable"
+    ],
+    [
+      "oscar",
+      "choc",
+      "foin",
+      "coup"
+    ],
+    [
+      "tablier",
+      "stupeur",
+      "pêche",
+      "guirlande"
+    ],
+    [
+      "ébahissement",
+      "rebondissement",
+      "étonnement",
+      "inattendu"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    1,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "surprise",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rive",
+      "dahlia",
+      "mâchoire",
+      "nageoire"
+    ],
+    [
+      "mûre",
+      "songe",
+      "océan",
+      "museau"
+    ],
+    [
+      "déguisement",
+      "vacances",
+      "canard",
+      "dent"
+    ],
+    [
+      "rhume",
+      "chasse",
+      "aneth",
+      "aileron"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "requin",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

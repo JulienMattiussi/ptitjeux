@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "toboggan",
+      "jeu",
+      "massif",
+      "allée"
+    ],
+    [
+      "belote",
+      "kiosque",
+      "sentier",
+      "fontaine"
+    ],
+    [
+      "caillé",
+      "comptoir",
+      "arbre",
+      "hamster"
+    ],
+    [
+      "banc",
+      "serveur",
+      "carmin",
+      "sciage"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "parc",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "aiguillage",
+      "nombre",
+      "excursion",
+      "force"
+    ],
+    [
+      "conducteur",
+      "voie",
+      "écuyer",
+      "dégoût"
+    ],
+    [
+      "quai",
+      "train",
+      "guitare",
+      "wagon"
+    ],
+    [
+      "horaire",
+      "scrabble",
+      "billet",
+      "vibrato"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    4,
+    2,
+    1,
+    1
+  ],
+  "themeWord": "gare",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

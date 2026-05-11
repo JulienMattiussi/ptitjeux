@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-30-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "fusée",
+      "flûte",
+      "pétale",
+      "symphonie",
+      "opéra"
+    ],
+    [
+      "coussin",
+      "gomme",
+      "crayon",
+      "brosse",
+      "trompette"
+    ],
+    [
+      "guitare",
+      "brosse",
+      "trompette",
+      "tapis",
+      "crayon"
+    ],
+    [
+      "harpe",
+      "symphonie",
+      "table",
+      "opéra",
+      "règle"
+    ],
+    [
+      "ombre",
+      "symphonie",
+      "chaise",
+      "chaise",
+      "choeur"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 11
+}

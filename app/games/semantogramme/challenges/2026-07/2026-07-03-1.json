@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sapin",
+      "fable",
+      "créateur",
+      "public"
+    ],
+    [
+      "voile",
+      "décor",
+      "fosse",
+      "pièce"
+    ],
+    [
+      "serviette",
+      "coulisse",
+      "acteur",
+      "tragédie"
+    ],
+    [
+      "temple",
+      "aloès",
+      "rideau",
+      "révélation"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    0,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "théâtre",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

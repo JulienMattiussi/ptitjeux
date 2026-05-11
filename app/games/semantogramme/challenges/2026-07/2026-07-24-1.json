@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tranquillité",
+      "carapace",
+      "set",
+      "raquette"
+    ],
+    [
+      "service",
+      "radis",
+      "jeu",
+      "compote"
+    ],
+    [
+      "bigarade",
+      "écurie",
+      "point",
+      "personnage"
+    ],
+    [
+      "volée",
+      "double",
+      "corne",
+      "lob"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "tennis",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

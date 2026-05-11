@@ -142,7 +142,7 @@ function SemantogrammePlay() {
     <GameLayout
       title={`Sémantogramme · ${dateChip} · niveau ${idx}`}
       subtitle="Identifie les mots liés au thème caché."
-      backHref="/semantogramme"
+      backHref={`/semantogramme?from=${date}`}
       backLabel="Niveaux"
     >
       <GameFrame
@@ -175,7 +175,7 @@ function SemantogrammePlay() {
               dispatch({ type: 'reset' })
               setThemeError(false)
             }}
-            backHref="/semantogramme"
+            backHref={`/semantogramme?from=${date}`}
             nextHref={nextHref}
           />
         }

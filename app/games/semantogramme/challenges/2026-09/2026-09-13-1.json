@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "seau",
+      "brosse",
+      "vache",
+      "volley"
+    ],
+    [
+      "beaujolais",
+      "sol",
+      "poussière",
+      "cousine"
+    ],
+    [
+      "rouille",
+      "cendrier",
+      "reportage",
+      "serpillière"
+    ],
+    [
+      "paille",
+      "enfoncer",
+      "nettoyage",
+      "sorbet"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "balai",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

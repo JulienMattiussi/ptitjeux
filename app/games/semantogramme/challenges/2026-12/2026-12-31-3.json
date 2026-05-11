@@ -1,0 +1,124 @@
+{
+  "id": "2026-12-31-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "voile",
+      "bureau",
+      "danse",
+      "boxe",
+      "tapis",
+      "panier"
+    ],
+    [
+      "pétale",
+      "sol",
+      "voile",
+      "tennis",
+      "clé",
+      "boxe"
+    ],
+    [
+      "tennis",
+      "lueur",
+      "ski",
+      "écran",
+      "bureau",
+      "volley"
+    ],
+    [
+      "règle",
+      "écran",
+      "basket",
+      "ombre",
+      "rugby",
+      "rumeur"
+    ],
+    [
+      "parfum",
+      "ski",
+      "escalade",
+      "volley",
+      "boxe",
+      "golf"
+    ],
+    [
+      "étoile",
+      "course",
+      "vis",
+      "volley",
+      "marathon",
+      "boxe"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    2,
+    5,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    5,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 20
+}

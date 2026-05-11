@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "siècle",
+      "étable",
+      "champagne",
+      "forêt"
+    ],
+    [
+      "reine",
+      "antiquité",
+      "roi",
+      "paix"
+    ],
+    [
+      "amplificateur",
+      "archive",
+      "serval",
+      "décompression"
+    ],
+    [
+      "agenda",
+      "guerre",
+      "époque",
+      "révolution"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "histoire",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

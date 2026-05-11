@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-31-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "anniversaire",
+      "champagne",
+      "ballon",
+      "gâteau"
+    ],
+    [
+      "cadeau",
+      "soustraction",
+      "bal",
+      "feu"
+    ],
+    [
+      "fosse",
+      "miroir",
+      "libellule",
+      "lingot"
+    ],
+    [
+      "invitation",
+      "décoration",
+      "paternel",
+      "corbeille"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    0,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "fête",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

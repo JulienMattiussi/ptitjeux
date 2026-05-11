@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "croisée",
+      "enchantement",
+      "oculus",
+      "éclairage"
+    ],
+    [
+      "imposte",
+      "persienne",
+      "écluse",
+      "verre"
+    ],
+    [
+      "viaduc",
+      "cousin",
+      "vitre",
+      "volet"
+    ],
+    [
+      "bord",
+      "steak",
+      "baie",
+      "encadrement"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "fenêtre",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

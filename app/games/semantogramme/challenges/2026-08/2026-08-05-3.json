@@ -1,0 +1,124 @@
+{
+  "id": "2026-08-05-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "caravane",
+      "carnet",
+      "plateau",
+      "tournevis",
+      "navette",
+      "gomme"
+    ],
+    [
+      "bureau",
+      "chemin",
+      "bateau",
+      "métro",
+      "coussin",
+      "tunnel"
+    ],
+    [
+      "remorque",
+      "chemin",
+      "ferry",
+      "train",
+      "moto",
+      "voisin"
+    ],
+    [
+      "tasse",
+      "remorque",
+      "moto",
+      "manuel",
+      "pierre",
+      "ombre"
+    ],
+    [
+      "moto",
+      "lampe",
+      "balai",
+      "lampe",
+      "fusée",
+      "bus"
+    ],
+    [
+      "table",
+      "écran",
+      "navette",
+      "remorque",
+      "voiture",
+      "caravane"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

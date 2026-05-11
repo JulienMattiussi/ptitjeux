@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "silex",
+      "flûte",
+      "dérailleur",
+      "galion"
+    ],
+    [
+      "comté",
+      "doberman",
+      "mât",
+      "jambe"
+    ],
+    [
+      "abordage",
+      "recette",
+      "crâne",
+      "confiture"
+    ],
+    [
+      "curcuma",
+      "normande",
+      "drapeau",
+      "bandeau"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    0,
+    3,
+    3
+  ],
+  "themeWord": "pirate",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

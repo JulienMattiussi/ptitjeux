@@ -5,60 +5,48 @@
   "height": 4,
   "words": [
     [
-      "serrure",
-      "tournevis",
-      "thon",
-      "timbre"
+      "pudding",
+      "chameau",
+      "poisson",
+      "palmier"
     ],
     [
-      "panier",
-      "sable",
-      "thon",
-      "pelle"
+      "scorpion",
+      "soif",
+      "jugement",
+      "fermé"
     ],
     [
-      "rivage",
-      "banquier",
-      "voile",
-      "écume"
+      "aloès",
+      "recueillement",
+      "basse",
+      "caravane"
     ],
     [
-      "vague",
-      "phare",
-      "maison",
-      "racine"
+      "processeur",
+      "oasis",
+      "lavande",
+      "sable"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    3,
+    2,
+    1,
     2
   ],
   "colClues": [
-    2,
-    2,
+    1,
     3,
-    1
+    0,
+    3
   ],
-  "themeWord": "mer",
+  "themeWord": "désert",
   "solution": [
     [
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      true,
       true
     ],
     [
@@ -66,7 +54,19 @@
       true,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 7
 }

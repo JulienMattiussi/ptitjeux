@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tétine",
+      "caricature",
+      "cauchemar",
+      "croquis"
+    ],
+    [
+      "feuille",
+      "pastel",
+      "fusain",
+      "esquisse"
+    ],
+    [
+      "menu",
+      "pochade",
+      "banc",
+      "tampon"
+    ],
+    [
+      "gomme",
+      "trait",
+      "scénario",
+      "plume"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    1,
+    3
+  ],
+  "themeWord": "dessin",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

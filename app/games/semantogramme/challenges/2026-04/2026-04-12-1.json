@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "mur",
-      "bureau",
-      "orange",
-      "enveloppe"
+      "projection",
+      "acteur",
+      "rotation",
+      "carpe"
     ],
     [
-      "mémoire",
-      "crayon",
-      "argenté",
-      "voisin"
+      "valise",
+      "caméra",
+      "géranium",
+      "poirier"
     ],
     [
-      "porte",
-      "argenté",
-      "doré",
-      "indigo"
+      "réalisateur",
+      "irritation",
+      "polaire",
+      "scène"
     ],
     [
-      "jaune",
-      "pelle",
-      "enveloppe",
-      "beige"
+      "sureau",
+      "mesurer",
+      "scénario",
+      "salle"
     ]
   ],
   "rowClues": [
+    2,
     1,
-    1,
-    3,
+    2,
     2
   ],
   "colClues": [
+    2,
+    2,
     1,
-    1,
-    3,
     2
   ],
-  "themeWord": "couleur",
+  "themeWord": "cinéma",
   "solution": [
     [
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
+      false,
       false
     ],
     [
       false,
       true,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

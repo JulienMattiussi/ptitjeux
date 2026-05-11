@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "banquier",
+      "crayon",
+      "devoir",
+      "poêle",
+      "écran"
+    ],
+    [
+      "casserole",
+      "livre",
+      "horloge",
+      "tablier",
+      "frigo"
+    ],
+    [
+      "marteau",
+      "horloge",
+      "frigo",
+      "plafond",
+      "tournevis"
+    ],
+    [
+      "peigne",
+      "poêle",
+      "panier",
+      "coussin",
+      "plateau"
+    ],
+    [
+      "épice",
+      "rumeur",
+      "tablier",
+      "casserole",
+      "panneau"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    1,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

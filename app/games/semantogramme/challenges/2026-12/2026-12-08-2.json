@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "devoir",
+      "arc-en-ciel",
+      "balai",
+      "chaise",
+      "table"
+    ],
+    [
+      "soleil",
+      "chemin",
+      "glace",
+      "tonnerre",
+      "prière"
+    ],
+    [
+      "arc-en-ciel",
+      "globe",
+      "caillou",
+      "devoir",
+      "brouillard"
+    ],
+    [
+      "tonnerre",
+      "arc-en-ciel",
+      "brouillard",
+      "enveloppe",
+      "mémoire"
+    ],
+    [
+      "savon",
+      "glace",
+      "foudre",
+      "panier",
+      "livre"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

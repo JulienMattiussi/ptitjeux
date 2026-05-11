@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mât",
+      "écusson",
+      "graine",
+      "parade"
+    ],
+    [
+      "olivier",
+      "national",
+      "botte",
+      "oriflamme"
+    ],
+    [
+      "étendard",
+      "bannière",
+      "couleur",
+      "tricolore"
+    ],
+    [
+      "étoile",
+      "crue",
+      "fanion",
+      "écrémé"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "drapeau",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

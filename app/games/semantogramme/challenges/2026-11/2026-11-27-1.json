@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "affluent",
+      "rive",
+      "reptile",
+      "boucher"
+    ],
+    [
+      "estuaire",
+      "chocolat",
+      "inondation",
+      "scorpion"
+    ],
+    [
+      "navigation",
+      "embouchure",
+      "barge",
+      "espèce"
+    ],
+    [
+      "source",
+      "crue",
+      "ocelot",
+      "pont"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "fleuve",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

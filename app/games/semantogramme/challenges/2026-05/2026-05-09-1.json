@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "colombe",
+      "fugue",
+      "caldeira",
+      "tigre"
+    ],
+    [
+      "saphir",
+      "lion",
+      "chat",
+      "mêlée"
+    ],
+    [
+      "lynx",
+      "licence",
+      "imperméable",
+      "guépard"
+    ],
+    [
+      "reporter",
+      "ocelot",
+      "succulente",
+      "serval"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "félin",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

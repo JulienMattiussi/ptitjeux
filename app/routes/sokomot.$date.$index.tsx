@@ -106,7 +106,7 @@ function SokomotPlay() {
     <GameLayout
       title={`Sokomot · ${dateChip} · niveau ${idx}`}
       subtitle={`Mot à former : ${level.target.word}`}
-      backHref="/sokomot"
+      backHref={`/sokomot?from=${date}`}
       backLabel="Niveaux"
     >
       <GameFrame
@@ -135,7 +135,7 @@ function SokomotPlay() {
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}
-            backHref="/sokomot"
+            backHref={`/sokomot?from=${date}`}
             nextHref={nextHref}
           />
         }

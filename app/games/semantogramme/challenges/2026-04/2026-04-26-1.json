@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "avion",
-      "train",
-      "carnet",
-      "carnet"
+      "rayon",
+      "électron",
+      "chaleur",
+      "crépuscule"
     ],
     [
-      "pelle",
-      "tasse",
-      "caravane",
-      "lampe"
+      "maman",
+      "lumière",
+      "attaquant",
+      "gardien"
     ],
     [
-      "brosse",
-      "ferry",
-      "prison",
-      "ferry"
+      "évier",
+      "éclipse",
+      "boxe",
+      "procès"
     ],
     [
-      "mémoire",
-      "panneau",
-      "taxi",
-      "scooter"
+      "midi",
+      "aurore",
+      "astre",
+      "rayonnement"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     1,
-    2,
-    2
+    1,
+    4
   ],
   "colClues": [
-    1,
     2,
+    3,
     2,
     2
   ],
-  "themeWord": "transport",
+  "themeWord": "soleil",
   "solution": [
     [
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true
     ],
     [
       false,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

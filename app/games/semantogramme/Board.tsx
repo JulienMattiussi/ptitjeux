@@ -29,7 +29,7 @@ export function Board({ state, onCellClick, selected, onHoverCell }: Props) {
           return (
             <div
               key={`col-${x}`}
-              className={`rounded-md py-1 text-center text-sm font-bold transition-colors ${
+              className={`whitespace-nowrap rounded-md py-1 text-center text-sm font-bold transition-colors ${
                 ok
                   ? 'bg-emerald-200/60 text-emerald-800 dark:bg-emerald-700/40 dark:text-emerald-200'
                   : over
@@ -49,7 +49,7 @@ export function Board({ state, onCellClick, selected, onHoverCell }: Props) {
           return (
             <div key={`row-${y}`} className="contents">
               <div
-                className={`flex items-center justify-end rounded-md px-3 text-sm font-bold transition-colors ${
+                className={`flex items-center justify-end whitespace-nowrap rounded-md px-3 text-sm font-bold transition-colors ${
                   ok
                     ? 'bg-emerald-200/60 text-emerald-800 dark:bg-emerald-700/40 dark:text-emerald-200'
                     : over

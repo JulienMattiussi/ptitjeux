@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "conservateur",
+      "guitare",
+      "saxophone",
+      "symphonie"
+    ],
+    [
+      "coquille",
+      "tambour",
+      "croisée",
+      "spectre"
+    ],
+    [
+      "patinette",
+      "double",
+      "orgue",
+      "trompette"
+    ],
+    [
+      "âtre",
+      "harpe",
+      "batterie",
+      "violon"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    0,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "instrument",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

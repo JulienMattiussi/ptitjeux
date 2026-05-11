@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "atelier",
+      "havresac",
+      "incantation",
+      "soudain"
+    ],
+    [
+      "planche",
+      "rénovation",
+      "miel",
+      "amarre"
+    ],
+    [
+      "shaker",
+      "débit",
+      "marteau",
+      "vis"
+    ],
+    [
+      "horloge",
+      "verglas",
+      "scie",
+      "perceuse"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "bricolage",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

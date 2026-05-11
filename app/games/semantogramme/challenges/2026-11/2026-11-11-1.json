@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "peloton",
+      "rage",
+      "agate",
+      "crise"
+    ],
+    [
+      "nickel",
+      "rouge",
+      "éclat",
+      "cône"
+    ],
+    [
+      "rivière",
+      "tempête",
+      "marchandise",
+      "fâcher"
+    ],
+    [
+      "archive",
+      "tramway",
+      "théâtre",
+      "emporter"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    0,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "colère",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

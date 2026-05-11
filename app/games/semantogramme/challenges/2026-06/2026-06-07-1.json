@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tabatière",
+      "salut",
+      "allée",
+      "brosse"
+    ],
+    [
+      "tonnelle",
+      "barbecue",
+      "bulbe",
+      "olive"
+    ],
+    [
+      "arrosoir",
+      "haie",
+      "salon",
+      "serre"
+    ],
+    [
+      "noix",
+      "potager",
+      "parterre",
+      "arbre"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "jardin",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

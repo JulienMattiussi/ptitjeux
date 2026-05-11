@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "astronomie",
+      "rat",
+      "médecine",
+      "cuvée"
+    ],
+    [
+      "physique",
+      "département",
+      "mathématique",
+      "biologie"
+    ],
+    [
+      "théorie",
+      "épilogue",
+      "citoyen",
+      "recherche"
+    ],
+    [
+      "cigale",
+      "géologie",
+      "visite",
+      "expérience"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "science",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

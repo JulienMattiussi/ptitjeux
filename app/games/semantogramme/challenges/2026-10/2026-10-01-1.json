@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plage",
+      "silex",
+      "excursion",
+      "circuit"
+    ],
+    [
+      "nébuleuse",
+      "hôtel",
+      "agence",
+      "persistant"
+    ],
+    [
+      "safari",
+      "monument",
+      "voyage",
+      "mars"
+    ],
+    [
+      "voyageur",
+      "saxophone",
+      "souvenir",
+      "péniche"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "tourisme",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

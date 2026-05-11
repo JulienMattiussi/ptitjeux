@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pierre",
+      "chemin",
+      "écaille",
+      "phare",
+      "dauphin"
+    ],
+    [
+      "sable",
+      "marin",
+      "baleine",
+      "porte",
+      "baleine"
+    ],
+    [
+      "chemin",
+      "requin",
+      "miroir",
+      "méduse",
+      "étagère"
+    ],
+    [
+      "clé",
+      "dauphin",
+      "saumon",
+      "vague",
+      "voile"
+    ],
+    [
+      "thon",
+      "thon",
+      "brosse",
+      "écaille",
+      "carnet"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

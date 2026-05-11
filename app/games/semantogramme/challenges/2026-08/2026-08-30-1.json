@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "poire",
+      "stratus",
+      "élégie",
+      "mur"
+    ],
+    [
+      "strophe",
+      "enfant",
+      "ode",
+      "sonnet"
+    ],
+    [
+      "envol",
+      "ovale",
+      "poète",
+      "imprimante"
+    ],
+    [
+      "rime",
+      "alexandrin",
+      "déferlement",
+      "recueil"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "poésie",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

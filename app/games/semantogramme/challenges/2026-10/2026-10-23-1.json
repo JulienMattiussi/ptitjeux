@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bouclier",
+      "vitrine",
+      "pain",
+      "croissant"
+    ],
+    [
+      "branche",
+      "fournil",
+      "baguette",
+      "four"
+    ],
+    [
+      "pâte",
+      "plantation",
+      "comptoir",
+      "créneau"
+    ],
+    [
+      "caisse",
+      "russule",
+      "quai",
+      "boulanger"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "boulangerie",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

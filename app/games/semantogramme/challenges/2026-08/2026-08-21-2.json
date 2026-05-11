@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "mouton",
+      "castor",
+      "pétale",
+      "castor",
+      "belette"
+    ],
+    [
+      "lapin",
+      "belette",
+      "tournevis",
+      "souris",
+      "zèbre"
+    ],
+    [
+      "ciseaux",
+      "écureuil",
+      "marteau",
+      "tigre",
+      "souris"
+    ],
+    [
+      "panier",
+      "tournevis",
+      "panda",
+      "coussin",
+      "mouton"
+    ],
+    [
+      "cadre",
+      "étoile",
+      "renard",
+      "savon",
+      "caillou"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

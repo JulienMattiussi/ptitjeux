@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "budget",
+      "dette",
+      "écoute",
+      "intérêt"
+    ],
+    [
+      "averse",
+      "euro",
+      "lance",
+      "crédit"
+    ],
+    [
+      "taxi",
+      "serrure",
+      "téléphone",
+      "salaire"
+    ],
+    [
+      "grain",
+      "massue",
+      "dollar",
+      "billet"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    1,
+    4
+  ],
+  "themeWord": "argent",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

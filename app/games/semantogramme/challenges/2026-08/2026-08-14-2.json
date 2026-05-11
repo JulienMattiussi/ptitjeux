@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "marteau",
+      "bureau",
+      "clé",
+      "étagère",
+      "genou"
+    ],
+    [
+      "coeur",
+      "table",
+      "plafond",
+      "langue",
+      "nez"
+    ],
+    [
+      "pétale",
+      "jambe",
+      "savon",
+      "lèvre",
+      "serrure"
+    ],
+    [
+      "banquier",
+      "tournevis",
+      "nez",
+      "panier",
+      "sol"
+    ],
+    [
+      "rumeur",
+      "brosse",
+      "coeur",
+      "devoir",
+      "rideau"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    1,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

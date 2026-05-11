@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "estuaire",
+      "noix",
+      "morille",
+      "peine"
+    ],
+    [
+      "stéthoscope",
+      "cafard",
+      "dépression",
+      "pinson"
+    ],
+    [
+      "mélancolie",
+      "corsaire",
+      "larme",
+      "chapiteau"
+    ],
+    [
+      "sanglot",
+      "deuil",
+      "nostalgie",
+      "morosité"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "tristesse",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "étoile",
+      "mur",
+      "turquoise",
+      "beige",
+      "cadre"
+    ],
+    [
+      "noir",
+      "indigo",
+      "indigo",
+      "gris",
+      "ombre"
+    ],
+    [
+      "vert",
+      "jaune",
+      "gomme",
+      "porte",
+      "violet"
+    ],
+    [
+      "mémoire",
+      "parfum",
+      "prière",
+      "banquier",
+      "bleu"
+    ],
+    [
+      "noir",
+      "caillou",
+      "blanc",
+      "rouge",
+      "argenté"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    1,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

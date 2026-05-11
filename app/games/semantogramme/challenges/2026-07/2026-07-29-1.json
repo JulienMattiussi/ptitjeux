@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "excursion",
+      "guide",
+      "tornade",
+      "violette"
+    ],
+    [
+      "soutien-gorge",
+      "aventure",
+      "circuit",
+      "douane"
+    ],
+    [
+      "singe",
+      "écran",
+      "visa",
+      "épine"
+    ],
+    [
+      "frontière",
+      "gecko",
+      "passeport",
+      "valise"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "voyage",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

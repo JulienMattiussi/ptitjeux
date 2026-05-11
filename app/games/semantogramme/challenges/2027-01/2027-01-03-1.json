@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "caoutchouc",
+      "jante",
+      "voiture",
+      "cascade"
+    ],
+    [
+      "havresac",
+      "refuge",
+      "chambre",
+      "enjoliveur"
+    ],
+    [
+      "moyeu",
+      "rayon",
+      "vote",
+      "crevaison"
+    ],
+    [
+      "anaconda",
+      "pépite",
+      "pneu",
+      "vélo"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "roue",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "camion",
+      "timbre",
+      "ombre",
+      "camion",
+      "autobus"
+    ],
+    [
+      "fusée",
+      "plafond",
+      "scooter",
+      "scooter",
+      "pelle"
+    ],
+    [
+      "camion",
+      "horloge",
+      "scooter",
+      "vélo",
+      "panneau"
+    ],
+    [
+      "navette",
+      "pince",
+      "avion",
+      "mémoire",
+      "avion"
+    ],
+    [
+      "bateau",
+      "autobus",
+      "table",
+      "caravane",
+      "autobus"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    4,
+    1,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

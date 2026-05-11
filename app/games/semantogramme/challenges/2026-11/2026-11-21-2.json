@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "manuel",
+      "panneau",
+      "lueur",
+      "ombre",
+      "ocre"
+    ],
+    [
+      "gris",
+      "ocre",
+      "porte",
+      "noir",
+      "ocre"
+    ],
+    [
+      "crayon",
+      "tunnel",
+      "rouge",
+      "étoile",
+      "noir"
+    ],
+    [
+      "rose",
+      "orange",
+      "mauve",
+      "tapis",
+      "gris"
+    ],
+    [
+      "globe",
+      "lampe",
+      "argenté",
+      "lampe",
+      "étagère"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

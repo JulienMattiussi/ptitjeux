@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mot",
+      "lien",
+      "cocotte",
+      "trésor"
+    ],
+    [
+      "connexion",
+      "site",
+      "message",
+      "kangourou"
+    ],
+    [
+      "gris",
+      "fichier",
+      "banc",
+      "page"
+    ],
+    [
+      "moteur",
+      "ronce",
+      "camembert",
+      "calme"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "internet",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

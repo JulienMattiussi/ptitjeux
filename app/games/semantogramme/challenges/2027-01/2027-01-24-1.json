@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "aimer",
+      "fils",
+      "fontaine",
+      "moyeu"
+    ],
+    [
+      "nougat",
+      "éolienne",
+      "maman",
+      "accoucher"
+    ],
+    [
+      "éduquer",
+      "serpent",
+      "parent",
+      "lichen"
+    ],
+    [
+      "enfant",
+      "famille",
+      "lèvre",
+      "cosse"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "mère",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

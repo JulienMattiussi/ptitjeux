@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "remorque",
-      "tunnel",
-      "manuel",
-      "coussin"
+      "exploration",
+      "caldeira",
+      "montre",
+      "visa"
     ],
     [
-      "remorque",
-      "fusée",
-      "banquier",
-      "ferry"
+      "roche",
+      "soufre",
+      "magma",
+      "tremblement"
     ],
     [
-      "bateau",
-      "devoir",
-      "caravane",
-      "voiture"
+      "panache",
+      "cratère",
+      "pamplemousse",
+      "ouistiti"
     ],
     [
-      "caravane",
-      "camion",
-      "banquier",
-      "panneau"
+      "lave",
+      "éruption",
+      "sorcière",
+      "aileron"
     ]
   ],
   "rowClues": [
     1,
-    3,
-    3,
+    4,
+    2,
     2
   ],
   "colClues": [
+    3,
     4,
-    2,
     1,
-    2
+    1
   ],
-  "themeWord": "transport",
+  "themeWord": "volcan",
   "solution": [
     [
-      true,
       false,
+      true,
       false,
       false
     ],
     [
       true,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
-      false,
       true,
-      true
+      false,
+      false
     ],
     [
       true,
@@ -68,5 +68,5 @@
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 9
 }

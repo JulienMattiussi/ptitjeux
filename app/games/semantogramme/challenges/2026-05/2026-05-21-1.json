@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "crayon",
+      "découverte",
+      "plante",
+      "ramure"
+    ],
+    [
+      "agneau",
+      "discrétion",
+      "lapin",
+      "steak"
+    ],
+    [
+      "poulet",
+      "rôti",
+      "dinde",
+      "veau"
+    ],
+    [
+      "écureuil",
+      "porc",
+      "saucisse",
+      "avenue"
+    ]
+  ],
+  "rowClues": [
+    0,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "viande",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "roi",
+      "poignée",
+      "lait",
+      "reine"
+    ],
+    [
+      "seigneur",
+      "café",
+      "créneau",
+      "chapelle"
+    ],
+    [
+      "douve",
+      "donjon",
+      "cour",
+      "meurtrière"
+    ],
+    [
+      "steak",
+      "rempart",
+      "banane",
+      "munster"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "château",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

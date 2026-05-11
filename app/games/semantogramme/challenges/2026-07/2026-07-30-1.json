@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cage",
+      "babouin",
+      "détente",
+      "nourrisson"
+    ],
+    [
+      "marié",
+      "congé",
+      "farniente",
+      "sangria"
+    ],
+    [
+      "voyage",
+      "sortie",
+      "hôtel",
+      "bagage"
+    ],
+    [
+      "montagne",
+      "constellation",
+      "séjour",
+      "pension"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "vacances",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

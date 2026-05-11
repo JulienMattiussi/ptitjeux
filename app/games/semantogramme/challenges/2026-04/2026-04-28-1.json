@@ -5,46 +5,58 @@
   "height": 4,
   "words": [
     [
-      "mur",
-      "chat",
-      "mouton",
-      "cheval"
+      "couloir",
+      "volley",
+      "chasse",
+      "équinoxe"
     ],
     [
-      "cheval",
-      "crayon",
-      "écureuil",
-      "savon"
+      "embouchure",
+      "mardi",
+      "floraison",
+      "gouttelette"
     ],
     [
-      "chien",
-      "souris",
-      "mouton",
-      "fusée"
+      "récolte",
+      "mue",
+      "hiver",
+      "migration"
     ],
     [
-      "rumeur",
-      "zèbre",
-      "prison",
-      "loup"
+      "feuillage",
+      "maïs",
+      "applaudissement",
+      "printemps"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    3,
+    1,
+    1,
+    4,
     2
   ],
   "colClues": [
     2,
-    3,
-    3,
-    2
+    1,
+    2,
+    3
   ],
-  "themeWord": "animal",
+  "themeWord": "saison",
   "solution": [
     [
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       true,
       true
@@ -52,21 +64,9 @@
     [
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 8
 }

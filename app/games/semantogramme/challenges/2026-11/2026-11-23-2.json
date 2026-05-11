@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-23-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tabouret",
+      "vache",
+      "prison",
+      "timbre",
+      "belette"
+    ],
+    [
+      "mouton",
+      "girafe",
+      "loup",
+      "vache",
+      "règle"
+    ],
+    [
+      "peigne",
+      "souris",
+      "lapin",
+      "tigre",
+      "renard"
+    ],
+    [
+      "ombre",
+      "marteau",
+      "gomme",
+      "chemin",
+      "zèbre"
+    ],
+    [
+      "mouton",
+      "lampe",
+      "pétale",
+      "jardin",
+      "pince"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    4,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "écosystème",
+      "buste",
+      "pierre",
+      "plâtre"
+    ],
+    [
+      "moule",
+      "bois",
+      "scarabée",
+      "feu"
+    ],
+    [
+      "modelage",
+      "couloir",
+      "bronze",
+      "argile"
+    ],
+    [
+      "fonte",
+      "résistance",
+      "dépôt",
+      "marbre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "sculpture",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

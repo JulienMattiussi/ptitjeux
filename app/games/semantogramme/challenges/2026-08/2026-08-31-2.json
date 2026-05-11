@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-31-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vert",
+      "jardin",
+      "porte",
+      "gris",
+      "devoir"
+    ],
+    [
+      "balai",
+      "pétale",
+      "beige",
+      "bureau",
+      "bleu"
+    ],
+    [
+      "chaise",
+      "blanc",
+      "doré",
+      "violet",
+      "jaune"
+    ],
+    [
+      "fusée",
+      "indigo",
+      "jaune",
+      "étagère",
+      "ocre"
+    ],
+    [
+      "jaune",
+      "orange",
+      "vert",
+      "bleu",
+      "marteau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    3,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

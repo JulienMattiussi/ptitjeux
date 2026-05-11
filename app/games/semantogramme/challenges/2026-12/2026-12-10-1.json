@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pansement",
+      "laminaire",
+      "marée",
+      "maman"
+    ],
+    [
+      "brun",
+      "plancton",
+      "mer",
+      "sargasse"
+    ],
+    [
+      "rocher",
+      "écume",
+      "pull",
+      "marin"
+    ],
+    [
+      "semence",
+      "varech",
+      "courroux",
+      "fromage"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "algue",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

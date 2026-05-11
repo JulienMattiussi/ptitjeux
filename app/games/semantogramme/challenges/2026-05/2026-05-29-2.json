@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pierre",
+      "nuage",
+      "marteau",
+      "racine",
+      "verglas"
+    ],
+    [
+      "arc-en-ciel",
+      "enveloppe",
+      "gel",
+      "glace",
+      "tempête"
+    ],
+    [
+      "balai",
+      "rosée",
+      "soleil",
+      "plafond",
+      "pluie"
+    ],
+    [
+      "brouillard",
+      "chemin",
+      "foudre",
+      "orage",
+      "pluie"
+    ],
+    [
+      "pluie",
+      "arc-en-ciel",
+      "jardin",
+      "brosse",
+      "nuage"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
+    5
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

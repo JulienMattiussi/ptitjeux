@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "nez",
-      "balai",
-      "nez",
-      "panier"
+      "éclosion",
+      "fanion",
+      "parfum",
+      "éclat"
     ],
     [
-      "bouche",
-      "table",
-      "épaule",
-      "coeur"
+      "navigateur",
+      "inondation",
+      "oiseau",
+      "jardin"
     ],
     [
-      "dos",
-      "bouche",
-      "tabouret",
-      "savon"
+      "pôle",
+      "amphi",
+      "bourgeon",
+      "fleur"
     ],
     [
-      "pelle",
-      "livre",
-      "genou",
-      "tasse"
+      "verdure",
+      "angora",
+      "germination",
+      "jonquille"
     ]
   ],
   "rowClues": [
     2,
-    3,
     2,
-    1
+    2,
+    3
   ],
   "colClues": [
-    3,
-    1,
-    3,
-    1
+    2,
+    0,
+    4,
+    3
   ],
-  "themeWord": "corps",
+  "themeWord": "printemps",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       false
     ],
     [
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true
     ],
     [
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 9
 }

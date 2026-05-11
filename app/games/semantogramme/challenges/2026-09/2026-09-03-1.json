@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "guerre",
+      "scarabée",
+      "transformation",
+      "miracle"
+    ],
+    [
+      "prière",
+      "pèlerinage",
+      "spiritualité",
+      "bock"
+    ],
+    [
+      "bourse",
+      "mystique",
+      "sainte",
+      "couleuvre"
+    ],
+    [
+      "culte",
+      "bec",
+      "conviction",
+      "croyance"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "foi",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

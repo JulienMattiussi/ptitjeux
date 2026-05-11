@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "coeur",
+      "racine",
+      "jardin",
+      "dos",
+      "vis"
+    ],
+    [
+      "tasse",
+      "oreille",
+      "oreille",
+      "coeur",
+      "panier"
+    ],
+    [
+      "coeur",
+      "jardin",
+      "plafond",
+      "timbre",
+      "bras"
+    ],
+    [
+      "devoir",
+      "panneau",
+      "jambe",
+      "rumeur",
+      "lèvre"
+    ],
+    [
+      "mémoire",
+      "bras",
+      "langue",
+      "brosse",
+      "main"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-16-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sol",
+      "panda",
+      "marteau",
+      "mouton",
+      "table"
+    ],
+    [
+      "pelle",
+      "tunnel",
+      "belette",
+      "jardin",
+      "pierre"
+    ],
+    [
+      "timbre",
+      "loup",
+      "coussin",
+      "miroir",
+      "pierre"
+    ],
+    [
+      "girafe",
+      "plateau",
+      "pince",
+      "lapin",
+      "lampe"
+    ],
+    [
+      "castor",
+      "agenda",
+      "rumeur",
+      "panda",
+      "souris"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

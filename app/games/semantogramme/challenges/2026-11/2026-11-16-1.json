@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mollet",
+      "éclipse",
+      "mise",
+      "limonade"
+    ],
+    [
+      "salon",
+      "ciseaux",
+      "peigne",
+      "brosse"
+    ],
+    [
+      "brunch",
+      "étudiant",
+      "shampoing",
+      "baccarat"
+    ],
+    [
+      "permanente",
+      "coupe",
+      "estuaire",
+      "escalier"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "coiffeur",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

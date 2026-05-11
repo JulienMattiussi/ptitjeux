@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "matcha",
+      "mortier",
+      "ennui",
+      "iris"
+    ],
+    [
+      "fourchette",
+      "pince",
+      "houblon",
+      "invitation"
+    ],
+    [
+      "louche",
+      "couteau",
+      "passoire",
+      "orgue"
+    ],
+    [
+      "sapin",
+      "sachet",
+      "râpe",
+      "kiosque"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    0
+  ],
+  "themeWord": "ustensile",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

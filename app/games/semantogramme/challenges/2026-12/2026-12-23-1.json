@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "thermostat",
+      "résistance",
+      "concerto",
+      "dollar"
+    ],
+    [
+      "judo",
+      "pizza",
+      "cassis",
+      "tournebroche"
+    ],
+    [
+      "porte",
+      "rat",
+      "napolitaine",
+      "lèchefrite"
+    ],
+    [
+      "triangle",
+      "gril",
+      "lichen",
+      "plat"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    0,
+    3
+  ],
+  "themeWord": "four",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

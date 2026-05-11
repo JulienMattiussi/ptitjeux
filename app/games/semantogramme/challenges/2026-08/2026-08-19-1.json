@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cathédrale",
+      "brassé",
+      "pot",
+      "fermenté"
+    ],
+    [
+      "auteur",
+      "abricot",
+      "patriarche",
+      "lactose"
+    ],
+    [
+      "mobile",
+      "bec",
+      "sucré",
+      "fraise"
+    ],
+    [
+      "humide",
+      "soutien-gorge",
+      "nature",
+      "base"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    0,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "yaourt",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

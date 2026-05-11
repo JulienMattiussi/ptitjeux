@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "zinc",
+      "pâques",
+      "attirance",
+      "acier"
+    ],
+    [
+      "or",
+      "sommet",
+      "cuivre",
+      "étain"
+    ],
+    [
+      "religion",
+      "bourse",
+      "emmental",
+      "lagon"
+    ],
+    [
+      "titane",
+      "parure",
+      "comté",
+      "aluminium"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    0,
+    2
+  ],
+  "colClues": [
+    3,
+    0,
+    1,
+    3
+  ],
+  "themeWord": "métal",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

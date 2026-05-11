@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-07-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "noir",
+      "globe",
+      "beige",
+      "tournevis",
+      "indigo",
+      "globe"
+    ],
+    [
+      "tabouret",
+      "orange",
+      "noir",
+      "argenté",
+      "rouge",
+      "vis"
+    ],
+    [
+      "argenté",
+      "rouge",
+      "orange",
+      "plafond",
+      "noir",
+      "savon"
+    ],
+    [
+      "écran",
+      "panier",
+      "ocre",
+      "mauve",
+      "devoir",
+      "argenté"
+    ],
+    [
+      "mauve",
+      "carnet",
+      "bleu",
+      "brun",
+      "beige",
+      "ocre"
+    ],
+    [
+      "panneau",
+      "argenté",
+      "silence",
+      "miroir",
+      "doré",
+      "violet"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    4,
+    3,
+    5,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    5,
+    3,
+    5,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 22
+}

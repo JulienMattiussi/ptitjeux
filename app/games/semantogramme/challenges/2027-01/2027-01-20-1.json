@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cinéma",
+      "jus",
+      "jardin",
+      "comédien"
+    ],
+    [
+      "moulinet",
+      "museau",
+      "jugement",
+      "théâtre"
+    ],
+    [
+      "oscar",
+      "crêpe",
+      "table",
+      "audition"
+    ],
+    [
+      "césar",
+      "génisse",
+      "interprète",
+      "cachet"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    0,
+    1,
+    4
+  ],
+  "themeWord": "acteur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

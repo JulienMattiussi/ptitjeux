@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-25-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "globe",
+      "méduse",
+      "panneau",
+      "crabe",
+      "marin"
+    ],
+    [
+      "dauphin",
+      "saumon",
+      "crabe",
+      "vague",
+      "globe"
+    ],
+    [
+      "ciseaux",
+      "cadre",
+      "corail",
+      "méduse",
+      "balai"
+    ],
+    [
+      "tabouret",
+      "agenda",
+      "brosse",
+      "rivage",
+      "marin"
+    ],
+    [
+      "prière",
+      "tabouret",
+      "table",
+      "sable",
+      "timbre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    5,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pirogue",
+      "mammifère",
+      "tomate",
+      "jardinier"
+    ],
+    [
+      "longitude",
+      "rang",
+      "gouttelette",
+      "migration"
+    ],
+    [
+      "haricot",
+      "parcelle",
+      "carotte",
+      "arrosoir"
+    ],
+    [
+      "légume",
+      "graine",
+      "courgette",
+      "salaire"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "potager",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

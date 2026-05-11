@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "hiver",
+      "ourson",
+      "lézard",
+      "forêt"
+    ],
+    [
+      "tambour",
+      "panda",
+      "serpillière",
+      "brun"
+    ],
+    [
+      "polaire",
+      "hibernation",
+      "accoucher",
+      "grizzli"
+    ],
+    [
+      "plantigrade",
+      "miel",
+      "autonomie",
+      "caleçon"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    4,
+    0,
+    3
+  ],
+  "themeWord": "ours",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

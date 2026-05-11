@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "voyageur",
+      "roquefort",
+      "mât",
+      "gouvernail"
+    ],
+    [
+      "chaton",
+      "ancre",
+      "pont",
+      "matelot"
+    ],
+    [
+      "tube",
+      "capitaine",
+      "mairie",
+      "osier"
+    ],
+    [
+      "piéton",
+      "bronzage",
+      "percolateur",
+      "quille"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    1
+  ],
+  "colClues": [
+    0,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "bateau",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

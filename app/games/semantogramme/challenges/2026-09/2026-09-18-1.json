@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "vendange",
+      "paille",
+      "incroyable",
+      "anneau"
+    ],
+    [
+      "champ",
+      "récolte",
+      "haubans",
+      "roi"
+    ],
+    [
+      "élevage",
+      "moisson",
+      "paysan",
+      "piscine"
+    ],
+    [
+      "grange",
+      "fermier",
+      "labour",
+      "tracteur"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "agriculteur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

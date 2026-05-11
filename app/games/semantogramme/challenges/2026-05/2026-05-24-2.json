@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-24-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "coussin",
+      "marathon",
+      "judo",
+      "racine",
+      "marathon"
+    ],
+    [
+      "gym",
+      "judo",
+      "porte",
+      "football",
+      "basket"
+    ],
+    [
+      "escalade",
+      "tennis",
+      "gym",
+      "balai",
+      "ombre"
+    ],
+    [
+      "voile",
+      "livre",
+      "basket",
+      "escalade",
+      "danse"
+    ],
+    [
+      "cyclisme",
+      "gym",
+      "basket",
+      "banquier",
+      "rideau"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "danse",
-      "prière",
-      "étoile",
-      "peigne"
+      "pivoine",
+      "tulipe",
+      "marguerite",
+      "iris"
     ],
     [
-      "marathon",
-      "cadre",
-      "mur",
-      "savon"
+      "jasmin",
+      "match",
+      "dahlia",
+      "rose"
     ],
     [
-      "prière",
-      "tennis",
-      "volley",
-      "golf"
+      "crustacé",
+      "toupie",
+      "reliure",
+      "mimosa"
     ],
     [
-      "chemin",
-      "danse",
-      "vis",
-      "panneau"
+      "jonquille",
+      "bouton",
+      "gradin",
+      "violette"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    4,
     3,
-    1
+    1,
+    2
   ],
   "colClues": [
-    2,
-    2,
+    3,
     1,
-    1
+    2,
+    4
   ],
-  "themeWord": "sport",
+  "themeWord": "fleur",
   "solution": [
     [
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       true
     ],
     [
-      false,
       true,
       false,
-      false
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

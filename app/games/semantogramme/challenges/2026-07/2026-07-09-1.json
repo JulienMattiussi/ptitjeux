@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "gélatineuse",
+      "oxygène",
+      "composé",
+      "base"
+    ],
+    [
+      "molécule",
+      "circuit",
+      "cristal",
+      "atome"
+    ],
+    [
+      "vin",
+      "élément",
+      "moisson",
+      "sel"
+    ],
+    [
+      "bus",
+      "vache",
+      "roseau",
+      "hydrogène"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "chimie",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tabouret",
+      "étoile",
+      "pêche",
+      "mûre",
+      "mangue"
+    ],
+    [
+      "pince",
+      "pomme",
+      "vis",
+      "melon",
+      "cassis"
+    ],
+    [
+      "cadre",
+      "lampe",
+      "règle",
+      "devoir",
+      "pastèque"
+    ],
+    [
+      "ciseaux",
+      "fraise",
+      "banane",
+      "caillou",
+      "rideau"
+    ],
+    [
+      "framboise",
+      "mangue",
+      "cadre",
+      "pêche",
+      "fraise"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    2,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

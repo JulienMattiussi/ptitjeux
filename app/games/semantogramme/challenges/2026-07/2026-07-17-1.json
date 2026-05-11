@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plantule",
+      "jury",
+      "miracle",
+      "portable"
+    ],
+    [
+      "zombie",
+      "appel",
+      "pas",
+      "procès"
+    ],
+    [
+      "pommade",
+      "gazeuse",
+      "accusé",
+      "témoin"
+    ],
+    [
+      "procureur",
+      "plaidoyer",
+      "vanille",
+      "abeille"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "justice",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

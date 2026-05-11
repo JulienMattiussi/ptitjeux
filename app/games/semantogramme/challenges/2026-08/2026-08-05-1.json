@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "verglas",
+      "soleil",
+      "tableau",
+      "neige"
+    ],
+    [
+      "rosée",
+      "vent",
+      "foudre",
+      "gaieté"
+    ],
+    [
+      "jardinier",
+      "frontière",
+      "sportif",
+      "nuage"
+    ],
+    [
+      "tempête",
+      "voyageur",
+      "gel",
+      "condor"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

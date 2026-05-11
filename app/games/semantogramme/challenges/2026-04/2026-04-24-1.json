@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "ombre",
-      "panier",
-      "nuage",
-      "pierre"
+      "bol",
+      "bonhomme",
+      "éditeur",
+      "congère"
     ],
     [
-      "verglas",
-      "serrure",
-      "silence",
-      "tournevis"
+      "patient",
+      "luge",
+      "flocon",
+      "glace"
     ],
     [
-      "crayon",
-      "verglas",
-      "lampe",
-      "horloge"
+      "miel",
+      "gastronomie",
+      "avalanche",
+      "igloo"
     ],
     [
-      "règle",
-      "enveloppe",
-      "panneau",
+      "givre",
+      "glissade",
+      "dollar",
       "tempête"
     ]
   ],
   "rowClues": [
-    1,
-    1,
-    1,
-    1
+    2,
+    3,
+    2,
+    3
   ],
   "colClues": [
     1,
-    1,
-    1,
-    1
+    3,
+    2,
+    4
   ],
-  "themeWord": "météo",
+  "themeWord": "neige",
   "solution": [
     [
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      false,
-      false
+      true
     ],
     [
       false,
       true,
-      false,
-      false
+      true,
+      true
     ],
     [
       false,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

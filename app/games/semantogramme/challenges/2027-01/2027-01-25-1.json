@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "voilier",
+      "figure",
+      "famille",
+      "enfant"
+    ],
+    [
+      "reliure",
+      "cerisier",
+      "bonhomme",
+      "protéger"
+    ],
+    [
+      "papa",
+      "parent",
+      "sépale",
+      "plénitude"
+    ],
+    [
+      "paternel",
+      "patriarche",
+      "place",
+      "graphisme"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "père",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

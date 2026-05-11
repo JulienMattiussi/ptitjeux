@@ -1,0 +1,124 @@
+{
+  "id": "2026-09-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "mélodie",
+      "harpe",
+      "chaise",
+      "symphonie",
+      "chemin",
+      "miroir"
+    ],
+    [
+      "tapis",
+      "panneau",
+      "fusée",
+      "timbre",
+      "balai",
+      "opéra"
+    ],
+    [
+      "pelle",
+      "symphonie",
+      "tambour",
+      "tambour",
+      "mélodie",
+      "mur"
+    ],
+    [
+      "parfum",
+      "gamme",
+      "fusée",
+      "mélodie",
+      "concerto",
+      "mélodie"
+    ],
+    [
+      "opéra",
+      "prison",
+      "harpe",
+      "concerto",
+      "enveloppe",
+      "peigne"
+    ],
+    [
+      "accord",
+      "banquier",
+      "racine",
+      "concerto",
+      "choeur",
+      "brosse"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    4,
+    4,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    5,
+    3,
+    2
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

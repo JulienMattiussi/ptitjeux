@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "aride",
+      "roquefort",
+      "frein",
+      "flottante"
+    ],
+    [
+      "pierre",
+      "peinture",
+      "tapisserie",
+      "rite"
+    ],
+    [
+      "pellicule",
+      "mortier",
+      "crépi",
+      "colley"
+    ],
+    [
+      "remorque",
+      "tannin",
+      "parpaing",
+      "cloison"
+    ]
+  ],
+  "rowClues": [
+    0,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "mur",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

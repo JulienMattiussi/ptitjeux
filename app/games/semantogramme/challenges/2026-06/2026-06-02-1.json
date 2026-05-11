@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "spinnaker",
+      "béret",
+      "coco",
+      "visière"
+    ],
+    [
+      "défense",
+      "forêt",
+      "feutre",
+      "cloche"
+    ],
+    [
+      "morosité",
+      "képi",
+      "pignon",
+      "casquette"
+    ],
+    [
+      "houx",
+      "nef",
+      "bonnet",
+      "récif"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    0,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "chapeau",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

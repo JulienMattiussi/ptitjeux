@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "roi",
+      "diamant",
+      "pilier",
+      "fauve"
+    ],
+    [
+      "clémentine",
+      "griffe",
+      "agaric",
+      "prédateur"
+    ],
+    [
+      "désir",
+      "lionceau",
+      "savane",
+      "jungle"
+    ],
+    [
+      "pétale",
+      "projection",
+      "crocs",
+      "féroce"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "lion",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

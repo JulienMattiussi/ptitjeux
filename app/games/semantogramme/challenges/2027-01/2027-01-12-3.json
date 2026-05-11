@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "miroir",
+      "ongle",
+      "peau",
+      "dos",
+      "crayon",
+      "vis"
+    ],
+    [
+      "horloge",
+      "joue",
+      "porte",
+      "miroir",
+      "carnet",
+      "dent"
+    ],
+    [
+      "porte",
+      "vis",
+      "manuel",
+      "miroir",
+      "doigt",
+      "devoir"
+    ],
+    [
+      "pied",
+      "peau",
+      "pied",
+      "jambe",
+      "marteau",
+      "horloge"
+    ],
+    [
+      "prison",
+      "genou",
+      "oeil",
+      "bouche",
+      "jambe",
+      "étoile"
+    ],
+    [
+      "ombre",
+      "langue",
+      "lèvre",
+      "chemin",
+      "oreille",
+      "coeur"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    4,
+    4,
+    4
+  ],
+  "colClues": [
+    1,
+    5,
+    4,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 18
+}

@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "choeur",
-      "batterie",
-      "jardin",
-      "opéra"
+      "faucon",
+      "aigle",
+      "étau",
+      "mésange"
     ],
     [
-      "rumeur",
-      "guitare",
-      "symphonie",
-      "jazz"
+      "hirondelle",
+      "tarot",
+      "sapajou",
+      "hibou"
     ],
     [
-      "ombre",
-      "porte",
-      "mélodie",
-      "clé"
+      "couloir",
+      "canari",
+      "concert",
+      "battant"
     ],
     [
-      "gamme",
-      "tournevis",
-      "livre",
-      "chemin"
+      "chrysalide",
+      "pigeon",
+      "pinson",
+      "fonte"
     ]
   ],
   "rowClues": [
     3,
-    3,
+    2,
     1,
-    1
+    2
   ],
   "colClues": [
     2,
-    2,
-    2,
+    3,
+    1,
     2
   ],
-  "themeWord": "musique",
+  "themeWord": "oiseau",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
-      false,
       true,
+      false,
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 8
 }

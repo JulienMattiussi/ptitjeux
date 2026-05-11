@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cocotte",
+      "bouillon",
+      "bisque",
+      "ongle"
+    ],
+    [
+      "colophane",
+      "oignon",
+      "gaspacho",
+      "haïku"
+    ],
+    [
+      "louche",
+      "intérêt",
+      "tribune",
+      "tigre"
+    ],
+    [
+      "minestrone",
+      "amortisseur",
+      "légume",
+      "gravité"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    0
+  ],
+  "themeWord": "soupe",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

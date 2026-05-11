@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "soleil",
+      "tasse",
+      "neige",
+      "manuel",
+      "tempête"
+    ],
+    [
+      "éclair",
+      "tempête",
+      "agenda",
+      "écran",
+      "gel"
+    ],
+    [
+      "pierre",
+      "banquier",
+      "foudre",
+      "éclair",
+      "orage"
+    ],
+    [
+      "lampe",
+      "neige",
+      "verglas",
+      "lampe",
+      "carnet"
+    ],
+    [
+      "chaise",
+      "glace",
+      "voisin",
+      "tonnerre",
+      "tasse"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

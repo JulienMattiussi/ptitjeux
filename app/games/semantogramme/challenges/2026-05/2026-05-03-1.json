@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "neige",
-      "nuage",
-      "racine",
-      "pluie"
+      "écharpe",
+      "flocon",
+      "sel",
+      "luge"
     ],
     [
-      "vent",
-      "tonnerre",
-      "agenda",
-      "éclair"
+      "école",
+      "cheminée",
+      "manteau",
+      "feu"
     ],
     [
-      "chemin",
+      "froid",
       "gel",
-      "tapis",
-      "nuage"
+      "bricolage",
+      "comptine"
     ],
     [
-      "porte",
-      "neige",
-      "voisin",
-      "pince"
+      "été",
+      "tigre",
+      "carrière",
+      "patinoire"
     ]
   ],
   "rowClues": [
@@ -37,11 +37,11 @@
   ],
   "colClues": [
     2,
-    4,
-    0,
+    3,
+    1,
     3
   ],
-  "themeWord": "météo",
+  "themeWord": "hiver",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       true
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true
     ],
     [
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 9
 }

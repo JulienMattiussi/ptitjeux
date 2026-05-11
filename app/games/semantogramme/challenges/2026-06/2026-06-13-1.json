@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "balance",
+      "pince",
+      "fleur",
+      "cabas"
+    ],
+    [
+      "étal",
+      "apéritif",
+      "fruit",
+      "opaque"
+    ],
+    [
+      "truffe",
+      "fromage",
+      "course",
+      "frappe"
+    ],
+    [
+      "légume",
+      "maraîcher",
+      "cuivre",
+      "poisson"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "marché",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

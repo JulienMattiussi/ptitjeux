@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "lampadaire",
+      "passage",
+      "punaise",
+      "écusson"
+    ],
+    [
+      "panneau",
+      "boulevard",
+      "faucon",
+      "navigateur"
+    ],
+    [
+      "feu",
+      "trottoir",
+      "ruelle",
+      "caniveau"
+    ],
+    [
+      "balai",
+      "avenue",
+      "pavé",
+      "pistolet"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "rue",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

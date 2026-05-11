@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tétine",
+      "caricature",
+      "gag",
+      "parodie"
+    ],
+    [
+      "blague",
+      "lecture",
+      "partition",
+      "examen"
+    ],
+    [
+      "émancipation",
+      "ingénieur",
+      "farce",
+      "chef"
+    ],
+    [
+      "roseau",
+      "sketch",
+      "pirouette",
+      "tirage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "comédie",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-24-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "écran",
+      "requin",
+      "coussin",
+      "requin",
+      "manuel"
+    ],
+    [
+      "méduse",
+      "sardine",
+      "pince",
+      "rideau",
+      "saumon"
+    ],
+    [
+      "corail",
+      "écume",
+      "crabe",
+      "marteau",
+      "table"
+    ],
+    [
+      "voisin",
+      "poisson",
+      "baleine",
+      "écume",
+      "poisson"
+    ],
+    [
+      "rivage",
+      "étagère",
+      "fusée",
+      "requin",
+      "règle"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

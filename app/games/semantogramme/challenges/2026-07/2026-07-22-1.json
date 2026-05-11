@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "judo",
+      "natation",
+      "vol",
+      "pastel"
+    ],
+    [
+      "épais",
+      "course",
+      "groseille",
+      "escrime"
+    ],
+    [
+      "tennis",
+      "football",
+      "basket",
+      "volley"
+    ],
+    [
+      "boxe",
+      "gymnastique",
+      "paillasson",
+      "canette"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

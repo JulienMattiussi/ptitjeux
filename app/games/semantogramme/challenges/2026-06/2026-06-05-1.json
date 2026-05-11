@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rare",
+      "rideau",
+      "tisane",
+      "jonquille"
+    ],
+    [
+      "couette",
+      "matelas",
+      "lampe",
+      "commode"
+    ],
+    [
+      "calme",
+      "nickel",
+      "drap",
+      "oreiller"
+    ],
+    [
+      "armoire",
+      "sureau",
+      "miroir",
+      "tiroir"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "chambre",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

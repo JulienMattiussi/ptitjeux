@@ -1,0 +1,124 @@
+{
+  "id": "2026-06-03-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "fusée",
+      "silence",
+      "prison",
+      "rugby",
+      "basket",
+      "étagère"
+    ],
+    [
+      "escalade",
+      "enveloppe",
+      "savon",
+      "bureau",
+      "mur",
+      "horloge"
+    ],
+    [
+      "enveloppe",
+      "cyclisme",
+      "danse",
+      "livre",
+      "tunnel",
+      "tennis"
+    ],
+    [
+      "parfum",
+      "ski",
+      "natation",
+      "mur",
+      "étoile",
+      "crayon"
+    ],
+    [
+      "lueur",
+      "étoile",
+      "plafond",
+      "rugby",
+      "globe",
+      "ski"
+    ],
+    [
+      "panneau",
+      "rumeur",
+      "manuel",
+      "tennis",
+      "fusée",
+      "tasse"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

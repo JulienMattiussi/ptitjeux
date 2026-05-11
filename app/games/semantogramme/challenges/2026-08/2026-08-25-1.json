@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "alligator",
+      "statue",
+      "champ",
+      "flamenco"
+    ],
+    [
+      "tour",
+      "café",
+      "colonne",
+      "fontaine"
+    ],
+    [
+      "obélisque",
+      "réflexion",
+      "temple",
+      "cathédrale"
+    ],
+    [
+      "pyramide",
+      "palais",
+      "mémorial",
+      "rayonnage"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "monument",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

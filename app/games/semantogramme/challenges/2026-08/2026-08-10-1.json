@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mouillage",
+      "bénitier",
+      "chemise",
+      "pingouin"
+    ],
+    [
+      "plâtre",
+      "girafe",
+      "nuage",
+      "lion"
+    ],
+    [
+      "gardien",
+      "singe",
+      "tigre",
+      "volley"
+    ],
+    [
+      "enclos",
+      "éléphant",
+      "reptile",
+      "serpent"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "zoo",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

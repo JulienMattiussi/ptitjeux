@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "vinaigrette",
+      "thon",
+      "tomate",
+      "laitue"
+    ],
+    [
+      "radis",
+      "concombre",
+      "fourmilière",
+      "arctique"
+    ],
+    [
+      "huile",
+      "tendance",
+      "traitement",
+      "olive"
+    ],
+    [
+      "région",
+      "vinaigre",
+      "caniveau",
+      "capuche"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "salade",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

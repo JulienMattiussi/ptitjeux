@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "colombe",
+      "citron",
+      "stylo",
+      "tranquillité"
+    ],
+    [
+      "jongleur",
+      "char",
+      "embout",
+      "sérénité"
+    ],
+    [
+      "visseuse",
+      "soliste",
+      "dahlia",
+      "silence"
+    ],
+    [
+      "amour",
+      "siècle",
+      "traité",
+      "accord"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    0,
+    1,
+    4
+  ],
+  "themeWord": "paix",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

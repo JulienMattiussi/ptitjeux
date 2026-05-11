@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "concerto",
+      "marteau",
+      "mélodie",
+      "symphonie",
+      "violon"
+    ],
+    [
+      "fusée",
+      "étoile",
+      "plateau",
+      "trompette",
+      "tasse"
+    ],
+    [
+      "concerto",
+      "pince",
+      "porte",
+      "table",
+      "orgue"
+    ],
+    [
+      "guitare",
+      "violon",
+      "jazz",
+      "flûte",
+      "balai"
+    ],
+    [
+      "harpe",
+      "pierre",
+      "voisin",
+      "étoile",
+      "guitare"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    4,
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

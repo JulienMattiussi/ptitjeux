@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "coussin",
+      "ciseaux",
+      "cadre",
+      "tapis",
+      "noir"
+    ],
+    [
+      "brun",
+      "brun",
+      "cadre",
+      "turquoise",
+      "cadre"
+    ],
+    [
+      "pelle",
+      "lampe",
+      "parfum",
+      "miroir",
+      "argenté"
+    ],
+    [
+      "carnet",
+      "prière",
+      "doré",
+      "blanc",
+      "lueur"
+    ],
+    [
+      "vis",
+      "doré",
+      "doré",
+      "rouge",
+      "prière"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

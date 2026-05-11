@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "vin",
+      "éponge",
+      "pointe",
+      "meringue"
+    ],
+    [
+      "manche",
+      "trancher",
+      "tranche",
+      "cuisine"
+    ],
+    [
+      "roquefort",
+      "office",
+      "miroir",
+      "aiguiser"
+    ],
+    [
+      "contrôleur",
+      "folklorique",
+      "fourreau",
+      "lame"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "couteau",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

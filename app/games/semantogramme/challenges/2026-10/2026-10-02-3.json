@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "phare",
+      "parfum",
+      "plafond",
+      "pétale",
+      "étagère",
+      "rideau"
+    ],
+    [
+      "bateau",
+      "chaise",
+      "baleine",
+      "enveloppe",
+      "crabe",
+      "globe"
+    ],
+    [
+      "gomme",
+      "vague",
+      "gomme",
+      "écume",
+      "prison",
+      "panier"
+    ],
+    [
+      "timbre",
+      "baleine",
+      "écume",
+      "poisson",
+      "prière",
+      "écaille"
+    ],
+    [
+      "thon",
+      "gomme",
+      "vis",
+      "phare",
+      "rideau",
+      "rideau"
+    ],
+    [
+      "étoile",
+      "vis",
+      "ciseaux",
+      "savon",
+      "lueur",
+      "dauphin"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    4,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

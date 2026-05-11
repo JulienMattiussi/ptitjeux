@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bague",
+      "robe",
+      "mousson",
+      "village"
+    ],
+    [
+      "maître",
+      "cortège",
+      "témoin",
+      "mariée"
+    ],
+    [
+      "nickel",
+      "vol",
+      "toboggan",
+      "mémoire"
+    ],
+    [
+      "acier",
+      "minaret",
+      "demoiselle",
+      "voile"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    0,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "mariage",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

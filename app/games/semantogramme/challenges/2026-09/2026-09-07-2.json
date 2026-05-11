@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-07-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "prison",
+      "dent",
+      "chaise",
+      "pelle",
+      "joue"
+    ],
+    [
+      "joue",
+      "tête",
+      "épaule",
+      "pied",
+      "savon"
+    ],
+    [
+      "plafond",
+      "étagère",
+      "dos",
+      "coussin",
+      "parfum"
+    ],
+    [
+      "ongle",
+      "main",
+      "banquier",
+      "nez",
+      "bouche"
+    ],
+    [
+      "tête",
+      "caillou",
+      "ciseaux",
+      "tête",
+      "règle"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    1,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

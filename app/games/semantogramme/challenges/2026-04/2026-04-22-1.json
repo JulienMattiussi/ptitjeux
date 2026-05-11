@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "rumeur",
-      "rideau",
-      "autobus",
-      "maison"
+      "fantôme",
+      "carapace",
+      "toque",
+      "national"
     ],
     [
-      "vélo",
-      "ferry",
-      "bateau",
-      "manuel"
+      "écho",
+      "préface",
+      "humide",
+      "rocher"
     ],
     [
-      "bateau",
-      "voisin",
-      "panier",
-      "timbre"
+      "sombre",
+      "caverne",
+      "stalactite",
+      "silex"
     ],
     [
-      "voiture",
-      "bateau",
-      "fusée",
-      "sol"
+      "palais",
+      "roche",
+      "caniveau",
+      "stalagmite"
     ]
   ],
   "rowClues": [
-    1,
+    0,
     3,
-    1,
-    3
+    4,
+    2
   ],
   "colClues": [
-    3,
     2,
-    3,
-    0
+    2,
+    2,
+    3
   ],
-  "themeWord": "transport",
+  "themeWord": "grotte",
   "solution": [
     [
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false
     ],
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
-      false
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 9
 }

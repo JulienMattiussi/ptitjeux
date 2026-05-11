@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "ombre",
-      "corail",
-      "crayon",
-      "horloge"
+      "marmite",
+      "brune",
+      "sonnet",
+      "averse"
     ],
     [
-      "rivage",
-      "baleine",
-      "racine",
-      "rideau"
+      "séjour",
+      "goutte",
+      "allergie",
+      "orage"
     ],
     [
-      "banquier",
-      "vague",
-      "baleine",
-      "chemin"
+      "crachin",
+      "symphonie",
+      "nuage",
+      "imperméable"
     ],
     [
-      "jardin",
-      "vague",
-      "mur",
-      "phare"
+      "site",
+      "visibilité",
+      "professeur",
+      "flaque"
     ]
   ],
   "rowClues": [
     1,
     2,
-    2,
-    2
+    3,
+    1
   ],
   "colClues": [
     1,
-    4,
     1,
-    1
+    1,
+    4
   ],
-  "themeWord": "mer",
+  "themeWord": "pluie",
   "solution": [
     [
       false,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
+      true
     ],
     [
       false,
       true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

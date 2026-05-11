@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "étalon",
+      "jument",
+      "agrès",
+      "descente"
+    ],
+    [
+      "crinière",
+      "banc",
+      "jockey",
+      "étable"
+    ],
+    [
+      "meurtrière",
+      "bride",
+      "dahlia",
+      "aride"
+    ],
+    [
+      "selle",
+      "binette",
+      "queue",
+      "sauvetage"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    0
+  ],
+  "themeWord": "cheval",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

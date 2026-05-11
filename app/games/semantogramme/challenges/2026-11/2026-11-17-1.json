@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "foudre",
+      "tonnerre",
+      "détonation",
+      "gants"
+    ],
+    [
+      "éclair",
+      "frisson",
+      "tempête",
+      "cliché"
+    ],
+    [
+      "triangle",
+      "averse",
+      "vent",
+      "tante"
+    ],
+    [
+      "nuage",
+      "bouledogue",
+      "illumination",
+      "rafale"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "orage",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

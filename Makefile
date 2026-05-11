@@ -38,8 +38,8 @@ test-watch: ## Lancer les tests en mode watch
 test-coverage: ## Lancer les tests avec rapport de couverture
 	npm run test:coverage
 
-generate-levels: ## Régénérer les défis quotidiens (écrit dans app/games/*/challenges/). Aucune autre cible ne déclenche cette régénération.
-	npm run generate:levels
+generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 2026-05-01 --end 2026-05-07 --game sokomot --level 3"
+	npm run generate:levels -- $(ARGS)
 
 fix: format lint ## Formater et linter le code
 

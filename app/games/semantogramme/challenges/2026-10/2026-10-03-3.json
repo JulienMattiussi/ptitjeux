@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-03-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "peigne",
+      "corail",
+      "sable",
+      "savon",
+      "racine",
+      "sol"
+    ],
+    [
+      "poisson",
+      "requin",
+      "silence",
+      "panneau",
+      "crayon",
+      "voile"
+    ],
+    [
+      "écaille",
+      "corail",
+      "chaise",
+      "thon",
+      "écume",
+      "dauphin"
+    ],
+    [
+      "voile",
+      "bateau",
+      "marin",
+      "crabe",
+      "peigne",
+      "marin"
+    ],
+    [
+      "bateau",
+      "étagère",
+      "tapis",
+      "rivage",
+      "crabe",
+      "sable"
+    ],
+    [
+      "bateau",
+      "coussin",
+      "plafond",
+      "voile",
+      "plage",
+      "tunnel"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    5,
+    5,
+    4,
+    3
+  ],
+  "colClues": [
+    5,
+    4,
+    2,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 22
+}

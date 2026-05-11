@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "moustache",
+      "plage",
+      "pince",
+      "tourteau"
+    ],
+    [
+      "rocher",
+      "araignée",
+      "libellule",
+      "neige"
+    ],
+    [
+      "sable",
+      "discrétion",
+      "spéléologie",
+      "crustacé"
+    ],
+    [
+      "patte",
+      "antenne",
+      "salaire",
+      "carapace"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "crabe",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

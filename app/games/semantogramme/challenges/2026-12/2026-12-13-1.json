@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "gradin",
+      "pelouse",
+      "cendre",
+      "farine"
+    ],
+    [
+      "sportif",
+      "main",
+      "cantal",
+      "tribune"
+    ],
+    [
+      "tournoi",
+      "match",
+      "piste",
+      "empire"
+    ],
+    [
+      "compétition",
+      "éditeur",
+      "arène",
+      "supporter"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "stade",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

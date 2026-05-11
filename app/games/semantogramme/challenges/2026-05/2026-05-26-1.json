@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "étagère",
+      "guide",
+      "foi",
+      "bureau"
+    ],
+    [
+      "canapé",
+      "lit",
+      "armoire",
+      "tabouret"
+    ],
+    [
+      "commode",
+      "table",
+      "chiffon",
+      "zinc"
+    ],
+    [
+      "chaise",
+      "persan",
+      "régate",
+      "buffet"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    4,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "meuble",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-02-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "racine",
+      "turquoise",
+      "tasse",
+      "turquoise",
+      "violet"
+    ],
+    [
+      "étoile",
+      "écran",
+      "prière",
+      "ocre",
+      "orange"
+    ],
+    [
+      "balai",
+      "brun",
+      "violet",
+      "coussin",
+      "livre"
+    ],
+    [
+      "rose",
+      "turquoise",
+      "pierre",
+      "chaise",
+      "serrure"
+    ],
+    [
+      "doré",
+      "balai",
+      "rouge",
+      "coussin",
+      "indigo"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

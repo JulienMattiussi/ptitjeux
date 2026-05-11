@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cristallin",
+      "silex",
+      "pilote",
+      "givre"
+    ],
+    [
+      "cellule",
+      "patinoire",
+      "fonte",
+      "moule"
+    ],
+    [
+      "glaçon",
+      "gel",
+      "arctique",
+      "cabas"
+    ],
+    [
+      "verglas",
+      "espalier",
+      "antarctique",
+      "glacier"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "glace",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

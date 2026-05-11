@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sol",
+      "écran",
+      "cuillère",
+      "pelle",
+      "peigne"
+    ],
+    [
+      "pierre",
+      "fusée",
+      "recette",
+      "cuillère",
+      "cuillère"
+    ],
+    [
+      "frigo",
+      "spatule",
+      "timbre",
+      "tasse",
+      "table"
+    ],
+    [
+      "caillou",
+      "tabouret",
+      "épice",
+      "couteau",
+      "voisin"
+    ],
+    [
+      "silence",
+      "caillou",
+      "tablier",
+      "assiette",
+      "parfum"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    1,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

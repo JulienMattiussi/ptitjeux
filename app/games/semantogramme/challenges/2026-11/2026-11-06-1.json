@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rabot",
+      "serrure",
+      "clé",
+      "mot"
+    ],
+    [
+      "trompette",
+      "tondeuse",
+      "huisserie",
+      "gond"
+    ],
+    [
+      "année",
+      "judas",
+      "poignée",
+      "paillasson"
+    ],
+    [
+      "accusé",
+      "dieu",
+      "sonnette",
+      "battant"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    0,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "porte",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

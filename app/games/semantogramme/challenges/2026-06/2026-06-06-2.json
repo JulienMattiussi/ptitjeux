@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "voile",
+      "escalade",
+      "globe",
+      "natation",
+      "mur"
+    ],
+    [
+      "crayon",
+      "serrure",
+      "pierre",
+      "miroir",
+      "golf"
+    ],
+    [
+      "lueur",
+      "rumeur",
+      "voile",
+      "enveloppe",
+      "tabouret"
+    ],
+    [
+      "brosse",
+      "ski",
+      "mémoire",
+      "gym",
+      "chaise"
+    ],
+    [
+      "étoile",
+      "ombre",
+      "ciseaux",
+      "voile",
+      "basket"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "arbre",
+      "sourdine",
+      "seconde",
+      "persistant"
+    ],
+    [
+      "office",
+      "verdure",
+      "rite",
+      "palme"
+    ],
+    [
+      "élevage",
+      "cocotte",
+      "sèche-cheveux",
+      "aiguille"
+    ],
+    [
+      "nervure",
+      "gazeuse",
+      "opuntia",
+      "frondaison"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    0,
+    4
+  ],
+  "themeWord": "feuille",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

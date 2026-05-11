@@ -1,0 +1,124 @@
+{
+  "id": "2026-09-07-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "tasse",
+      "langue",
+      "lèvre",
+      "silence",
+      "savon",
+      "tournevis"
+    ],
+    [
+      "balai",
+      "chemin",
+      "maison",
+      "mémoire",
+      "peau",
+      "carnet"
+    ],
+    [
+      "nez",
+      "langue",
+      "globe",
+      "tournevis",
+      "caillou",
+      "bras"
+    ],
+    [
+      "lampe",
+      "pelle",
+      "pied",
+      "oeil",
+      "tunnel",
+      "carnet"
+    ],
+    [
+      "manuel",
+      "main",
+      "tabouret",
+      "coeur",
+      "genou",
+      "chaise"
+    ],
+    [
+      "épaule",
+      "oeil",
+      "oeil",
+      "coeur",
+      "règle",
+      "marteau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

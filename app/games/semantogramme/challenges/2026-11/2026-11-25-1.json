@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rouleau",
+      "siècle",
+      "nectar",
+      "ouvrière"
+    ],
+    [
+      "ruche",
+      "cire",
+      "miel",
+      "reine"
+    ],
+    [
+      "bonnet",
+      "téléski",
+      "agaric",
+      "infusion"
+    ],
+    [
+      "bricolage",
+      "piqûre",
+      "apiculteur",
+      "couteau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    0,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "abeille",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

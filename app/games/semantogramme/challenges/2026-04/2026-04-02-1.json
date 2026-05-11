@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "étagère",
-      "gomme",
-      "saumon",
-      "mur"
+      "agressif",
+      "hêtre",
+      "plier",
+      "larme"
     ],
     [
-      "lueur",
-      "baleine",
-      "rivage",
-      "écume"
+      "fermenté",
+      "saule",
+      "oncle",
+      "érable"
     ],
     [
-      "étoile",
-      "crabe",
-      "tunnel",
-      "brosse"
+      "broderie",
+      "luthier",
+      "cèdre",
+      "gris"
     ],
     [
-      "sable",
-      "voile",
-      "tournevis",
-      "banquier"
+      "marronnier",
+      "cendrier",
+      "sapin",
+      "peuplier"
     ]
   ],
   "rowClues": [
     1,
-    3,
+    2,
     1,
-    2
+    3
   ],
   "colClues": [
     1,
-    3,
     2,
-    1
+    2,
+    2
   ],
-  "themeWord": "mer",
+  "themeWord": "arbre",
   "solution": [
     [
       false,
-      false,
       true,
+      false,
       false
     ],
     [
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
-      true,
       false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

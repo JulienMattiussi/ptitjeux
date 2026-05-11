@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "casserole",
+      "farine",
+      "cadre",
+      "balai",
+      "écran"
+    ],
+    [
+      "assiette",
+      "devoir",
+      "cuillère",
+      "lampe",
+      "carnet"
+    ],
+    [
+      "silence",
+      "farine",
+      "couteau",
+      "clé",
+      "fourchette"
+    ],
+    [
+      "assiette",
+      "panier",
+      "savon",
+      "rideau",
+      "panier"
+    ],
+    [
+      "jardin",
+      "panier",
+      "épice",
+      "spatule",
+      "jardin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

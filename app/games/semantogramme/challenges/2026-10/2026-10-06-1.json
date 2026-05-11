@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mandarine",
+      "pulpe",
+      "cèpe",
+      "métro"
+    ],
+    [
+      "lime",
+      "passeport",
+      "plaidoyer",
+      "bigarade"
+    ],
+    [
+      "cédrat",
+      "bergamote",
+      "kumquat",
+      "titre"
+    ],
+    [
+      "écorce",
+      "pamplemousse",
+      "peur",
+      "caillé"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    4,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "agrume",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

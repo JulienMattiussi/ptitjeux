@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "écran",
+      "coussin",
+      "pierre",
+      "chat",
+      "panda"
+    ],
+    [
+      "ours",
+      "pince",
+      "tigre",
+      "bureau",
+      "renard"
+    ],
+    [
+      "vache",
+      "cadre",
+      "jardin",
+      "belette",
+      "table"
+    ],
+    [
+      "renard",
+      "coussin",
+      "gomme",
+      "plateau",
+      "vache"
+    ],
+    [
+      "souris",
+      "tigre",
+      "pétale",
+      "cheval",
+      "vache"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    4,
+    1,
+    1,
+    3,
+    4
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

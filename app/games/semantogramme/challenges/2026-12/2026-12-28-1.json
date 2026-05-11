@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "blanche",
+      "pâte",
+      "force",
+      "plume"
+    ],
+    [
+      "four",
+      "tomate",
+      "tranche",
+      "serre"
+    ],
+    [
+      "espoir",
+      "garniture",
+      "guidon",
+      "napolitaine"
+    ],
+    [
+      "peine",
+      "champignon",
+      "origan",
+      "jambon"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "pizza",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

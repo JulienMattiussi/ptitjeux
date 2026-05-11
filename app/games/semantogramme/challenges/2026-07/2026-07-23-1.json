@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "arbitre",
+      "attaquant",
+      "défenseur",
+      "corner"
+    ],
+    [
+      "but",
+      "course",
+      "crampon",
+      "carton"
+    ],
+    [
+      "panama",
+      "encre",
+      "choix",
+      "souris"
+    ],
+    [
+      "ardoise",
+      "terrain",
+      "fermenté",
+      "gardien"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    0,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "football",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "dague",
+      "traversin",
+      "parure",
+      "sombrero"
+    ],
+    [
+      "baldaquin",
+      "pension",
+      "oreiller",
+      "sommier"
+    ],
+    [
+      "glace",
+      "drap",
+      "lingot",
+      "antenne"
+    ],
+    [
+      "taie",
+      "édredon",
+      "plumeau",
+      "ballon"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "lit",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

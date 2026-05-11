@@ -1,0 +1,124 @@
+{
+  "id": "2026-08-04-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "moto",
+      "ferry",
+      "tramway",
+      "racine",
+      "fusée",
+      "moto"
+    ],
+    [
+      "chaise",
+      "maison",
+      "métro",
+      "fusée",
+      "caravane",
+      "fusée"
+    ],
+    [
+      "scooter",
+      "métro",
+      "bus",
+      "serrure",
+      "voiture",
+      "silence"
+    ],
+    [
+      "règle",
+      "train",
+      "bus",
+      "bateau",
+      "moto",
+      "tramway"
+    ],
+    [
+      "bus",
+      "vis",
+      "camion",
+      "train",
+      "clé",
+      "remorque"
+    ],
+    [
+      "maison",
+      "plateau",
+      "voiture",
+      "pierre",
+      "pince",
+      "racine"
+    ]
+  ],
+  "rowClues": [
+    5,
+    4,
+    4,
+    5,
+    4,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    6,
+    3,
+    4,
+    4
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 23
+}

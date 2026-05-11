@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sombre",
+      "losange",
+      "commune",
+      "moineau"
+    ],
+    [
+      "pot",
+      "sapajou",
+      "hôpital",
+      "ouistiti"
+    ],
+    [
+      "gorille",
+      "primate",
+      "babouin",
+      "navet"
+    ],
+    [
+      "orang-outan",
+      "midi",
+      "gibbon",
+      "gant"
+    ]
+  ],
+  "rowClues": [
+    0,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "singe",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

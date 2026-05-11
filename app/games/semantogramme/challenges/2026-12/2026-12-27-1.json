@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plancton",
+      "découverte",
+      "fenouil",
+      "transparente"
+    ],
+    [
+      "pichet",
+      "prologue",
+      "chouette",
+      "bannière"
+    ],
+    [
+      "eau",
+      "urticante",
+      "flottante",
+      "mer"
+    ],
+    [
+      "arabesque",
+      "avenue",
+      "piqûre",
+      "fumée"
+    ]
+  ],
+  "rowClues": [
+    2,
+    0,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "méduse",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

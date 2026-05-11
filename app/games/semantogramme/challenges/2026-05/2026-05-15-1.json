@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fard",
+      "moule",
+      "terminer",
+      "caldeira"
+    ],
+    [
+      "rosier",
+      "curcuma",
+      "espadrille",
+      "corail"
+    ],
+    [
+      "thym",
+      "romarin",
+      "aneth",
+      "paprika"
+    ],
+    [
+      "safran",
+      "cumin",
+      "fenouil",
+      "cauchemar"
+    ]
+  ],
+  "rowClues": [
+    0,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "épice",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

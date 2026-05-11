@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "immobilisation",
+      "morille",
+      "droit",
+      "judas"
+    ],
+    [
+      "prise",
+      "confiture",
+      "opération",
+      "tatami"
+    ],
+    [
+      "maître",
+      "blanc",
+      "permanente",
+      "beignet"
+    ],
+    [
+      "ceinture",
+      "traitement",
+      "projection",
+      "salut"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    1,
+    1,
+    2
+  ],
+  "themeWord": "judo",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

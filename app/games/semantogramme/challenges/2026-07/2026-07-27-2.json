@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rumeur",
+      "oeil",
+      "dent",
+      "pied",
+      "bras"
+    ],
+    [
+      "bouche",
+      "doigt",
+      "racine",
+      "mur",
+      "écran"
+    ],
+    [
+      "tabouret",
+      "joue",
+      "table",
+      "tête",
+      "dent"
+    ],
+    [
+      "crayon",
+      "silence",
+      "bouche",
+      "brosse",
+      "coeur"
+    ],
+    [
+      "bras",
+      "tabouret",
+      "dent",
+      "rideau",
+      "bouche"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

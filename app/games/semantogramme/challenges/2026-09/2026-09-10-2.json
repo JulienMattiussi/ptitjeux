@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "ongle",
+      "rumeur",
+      "parfum",
+      "silence",
+      "ongle"
+    ],
+    [
+      "silence",
+      "nez",
+      "enveloppe",
+      "tapis",
+      "genou"
+    ],
+    [
+      "tête",
+      "pince",
+      "doigt",
+      "pied",
+      "coeur"
+    ],
+    [
+      "lampe",
+      "dent",
+      "manuel",
+      "tabouret",
+      "bras"
+    ],
+    [
+      "prière",
+      "rideau",
+      "ombre",
+      "coeur",
+      "tête"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    2,
+    5
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

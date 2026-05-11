@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-10-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "miroir",
+      "pelle",
+      "jazz",
+      "jazz",
+      "accord",
+      "concerto"
+    ],
+    [
+      "manuel",
+      "étagère",
+      "opéra",
+      "clé",
+      "pétale",
+      "agenda"
+    ],
+    [
+      "choeur",
+      "concerto",
+      "chant",
+      "symphonie",
+      "pelle",
+      "marteau"
+    ],
+    [
+      "chemin",
+      "clé",
+      "banquier",
+      "crayon",
+      "choeur",
+      "brosse"
+    ],
+    [
+      "plateau",
+      "opéra",
+      "table",
+      "tapis",
+      "parfum",
+      "banquier"
+    ],
+    [
+      "rumeur",
+      "table",
+      "chant",
+      "choeur",
+      "carnet",
+      "chemin"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    4,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

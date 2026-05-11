@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-19-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "coeur",
+      "chaise",
+      "banquier",
+      "rumeur",
+      "oreille"
+    ],
+    [
+      "crayon",
+      "doigt",
+      "doigt",
+      "prison",
+      "tête"
+    ],
+    [
+      "pince",
+      "dent",
+      "langue",
+      "horloge",
+      "dos"
+    ],
+    [
+      "vis",
+      "prison",
+      "dos",
+      "coeur",
+      "oeil"
+    ],
+    [
+      "table",
+      "coeur",
+      "peau",
+      "coeur",
+      "bouche"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    4,
+    2,
+    5
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

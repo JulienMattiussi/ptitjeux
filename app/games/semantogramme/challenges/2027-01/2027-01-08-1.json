@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "accélération",
+      "électron",
+      "couplet",
+      "épopée"
+    ],
+    [
+      "châtaigne",
+      "masse",
+      "atome",
+      "palette"
+    ],
+    [
+      "labrador",
+      "onde",
+      "force",
+      "clocher"
+    ],
+    [
+      "particule",
+      "tremblement",
+      "monstre",
+      "mer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    0
+  ],
+  "themeWord": "physique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

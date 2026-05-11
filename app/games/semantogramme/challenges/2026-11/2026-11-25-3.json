@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-25-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "tête",
+      "miroir",
+      "bras",
+      "doigt",
+      "épaule",
+      "tabouret"
+    ],
+    [
+      "clé",
+      "rideau",
+      "manuel",
+      "épaule",
+      "dos",
+      "coeur"
+    ],
+    [
+      "tunnel",
+      "horloge",
+      "oeil",
+      "tabouret",
+      "nez",
+      "fusée"
+    ],
+    [
+      "rideau",
+      "tunnel",
+      "manuel",
+      "marteau",
+      "doigt",
+      "peau"
+    ],
+    [
+      "tunnel",
+      "chemin",
+      "caillou",
+      "langue",
+      "jambe",
+      "pierre"
+    ],
+    [
+      "bouche",
+      "coeur",
+      "jardin",
+      "serrure",
+      "table",
+      "bras"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    3,
+    5,
+    3
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

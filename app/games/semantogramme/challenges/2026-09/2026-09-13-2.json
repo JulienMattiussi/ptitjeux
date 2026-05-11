@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "panneau",
+      "voile",
+      "ski",
+      "rideau",
+      "chemin"
+    ],
+    [
+      "escalade",
+      "serrure",
+      "pierre",
+      "tennis",
+      "basket"
+    ],
+    [
+      "volley",
+      "voisin",
+      "course",
+      "jardin",
+      "gym"
+    ],
+    [
+      "gym",
+      "boxe",
+      "gomme",
+      "ski",
+      "football"
+    ],
+    [
+      "porte",
+      "horloge",
+      "football",
+      "enveloppe",
+      "tennis"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

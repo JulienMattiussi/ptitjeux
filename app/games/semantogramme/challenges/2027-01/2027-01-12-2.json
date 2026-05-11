@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vent",
+      "lueur",
+      "glace",
+      "marteau",
+      "verglas"
+    ],
+    [
+      "savon",
+      "rideau",
+      "rosée",
+      "neige",
+      "tempête"
+    ],
+    [
+      "nuage",
+      "brouillard",
+      "ombre",
+      "verglas",
+      "enveloppe"
+    ],
+    [
+      "verglas",
+      "tonnerre",
+      "parfum",
+      "tempête",
+      "nuage"
+    ],
+    [
+      "brouillard",
+      "pluie",
+      "tempête",
+      "gel",
+      "chaise"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    4,
+    4
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

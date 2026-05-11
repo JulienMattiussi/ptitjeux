@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "caravane",
+      "mur",
+      "panier",
+      "remorque",
+      "ombre"
+    ],
+    [
+      "plateau",
+      "agenda",
+      "rideau",
+      "tapis",
+      "avion"
+    ],
+    [
+      "marteau",
+      "fusée",
+      "mémoire",
+      "tunnel",
+      "navette"
+    ],
+    [
+      "prison",
+      "train",
+      "voiture",
+      "autobus",
+      "train"
+    ],
+    [
+      "ferry",
+      "bateau",
+      "maison",
+      "étoile",
+      "pince"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

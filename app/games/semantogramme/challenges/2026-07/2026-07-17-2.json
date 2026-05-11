@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "violet",
+      "vert",
+      "ombre",
+      "cadre",
+      "mauve"
+    ],
+    [
+      "rose",
+      "gris",
+      "pince",
+      "sol",
+      "racine"
+    ],
+    [
+      "plateau",
+      "jaune",
+      "brun",
+      "blanc",
+      "silence"
+    ],
+    [
+      "jaune",
+      "mur",
+      "devoir",
+      "ocre",
+      "turquoise"
+    ],
+    [
+      "turquoise",
+      "peigne",
+      "doré",
+      "argenté",
+      "ocre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

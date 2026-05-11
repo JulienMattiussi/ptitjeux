@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "banquier",
+      "éclair",
+      "tunnel",
+      "tournevis",
+      "tabouret"
+    ],
+    [
+      "tonnerre",
+      "éclair",
+      "clé",
+      "sol",
+      "écran"
+    ],
+    [
+      "arc-en-ciel",
+      "étoile",
+      "gel",
+      "gel",
+      "carnet"
+    ],
+    [
+      "mémoire",
+      "éclair",
+      "verglas",
+      "neige",
+      "rosée"
+    ],
+    [
+      "éclair",
+      "éclair",
+      "gel",
+      "gomme",
+      "éclair"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    4,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

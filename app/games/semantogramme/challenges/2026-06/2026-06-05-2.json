@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "serrure",
+      "note",
+      "règle",
+      "banquier",
+      "coussin"
+    ],
+    [
+      "panier",
+      "coussin",
+      "trompette",
+      "porte",
+      "panneau"
+    ],
+    [
+      "gamme",
+      "harpe",
+      "vis",
+      "voisin",
+      "plafond"
+    ],
+    [
+      "gamme",
+      "batterie",
+      "banquier",
+      "tambour",
+      "savon"
+    ],
+    [
+      "panneau",
+      "piano",
+      "chant",
+      "concerto",
+      "gamme"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    4,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 11
+}

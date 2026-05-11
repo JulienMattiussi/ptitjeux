@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "silence",
+      "livre",
+      "sable",
+      "racine",
+      "dauphin",
+      "caillou"
+    ],
+    [
+      "timbre",
+      "clé",
+      "caillou",
+      "sable",
+      "devoir",
+      "mur"
+    ],
+    [
+      "poisson",
+      "pelle",
+      "manuel",
+      "silence",
+      "bureau",
+      "rideau"
+    ],
+    [
+      "peigne",
+      "parfum",
+      "méduse",
+      "chaise",
+      "miroir",
+      "bateau"
+    ],
+    [
+      "baleine",
+      "manuel",
+      "sable",
+      "saumon",
+      "étagère",
+      "plage"
+    ],
+    [
+      "phare",
+      "sable",
+      "saumon",
+      "bureau",
+      "chaise",
+      "voisin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "glace",
+      "tournevis",
+      "prison",
+      "table",
+      "tunnel"
+    ],
+    [
+      "tonnerre",
+      "tasse",
+      "tasse",
+      "prière",
+      "jardin"
+    ],
+    [
+      "tempête",
+      "tabouret",
+      "sol",
+      "gel",
+      "voisin"
+    ],
+    [
+      "parfum",
+      "porte",
+      "verglas",
+      "neige",
+      "jardin"
+    ],
+    [
+      "pluie",
+      "orage",
+      "orage",
+      "étagère",
+      "brouillard"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    4,
+    1,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

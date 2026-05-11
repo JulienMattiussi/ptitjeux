@@ -133,7 +133,7 @@ function BouclePlay() {
     <GameLayout
       title={`Boucle · ${dateChip} · niveau ${idx}`}
       subtitle={`${level.solutionWord.length} lettres à encercler.`}
-      backHref="/boucle"
+      backHref={`/boucle?from=${date}`}
       backLabel="Niveaux"
     >
       <GameFrame
@@ -163,7 +163,7 @@ function BouclePlay() {
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}
-            backHref="/boucle"
+            backHref={`/boucle?from=${date}`}
             nextHref={nextHref}
           />
         }

@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-19-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tunnel",
+      "camion",
+      "marteau",
+      "ciseaux",
+      "voisin"
+    ],
+    [
+      "clé",
+      "lampe",
+      "maison",
+      "bateau",
+      "manuel"
+    ],
+    [
+      "scooter",
+      "voiture",
+      "train",
+      "pince",
+      "avion"
+    ],
+    [
+      "caillou",
+      "sol",
+      "pince",
+      "camion",
+      "fusée"
+    ],
+    [
+      "bateau",
+      "plateau",
+      "globe",
+      "bateau",
+      "taxi"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 11
+}

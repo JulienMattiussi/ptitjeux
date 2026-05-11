@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sable",
+      "vague",
+      "méduse",
+      "écaille",
+      "tournevis"
+    ],
+    [
+      "pétale",
+      "écume",
+      "vague",
+      "vague",
+      "sable"
+    ],
+    [
+      "jardin",
+      "crabe",
+      "panneau",
+      "prière",
+      "dauphin"
+    ],
+    [
+      "tabouret",
+      "dauphin",
+      "ciseaux",
+      "savon",
+      "écume"
+    ],
+    [
+      "caillou",
+      "requin",
+      "crabe",
+      "sardine",
+      "tasse"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    5,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

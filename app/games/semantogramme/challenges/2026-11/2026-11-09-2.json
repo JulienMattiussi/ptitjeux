@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tablier",
+      "épice",
+      "balai",
+      "gomme",
+      "verre"
+    ],
+    [
+      "four",
+      "plat",
+      "pétale",
+      "rideau",
+      "cuillère"
+    ],
+    [
+      "sol",
+      "tablier",
+      "tablier",
+      "assiette",
+      "cuillère"
+    ],
+    [
+      "couteau",
+      "tasse",
+      "four",
+      "étoile",
+      "porte"
+    ],
+    [
+      "panier",
+      "épice",
+      "spatule",
+      "prison",
+      "four"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

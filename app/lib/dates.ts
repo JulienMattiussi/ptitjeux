@@ -34,6 +34,19 @@ export function todayString(lastAvailableDate?: DateString): DateString {
   return formatDate(new Date())
 }
 
+/**
+ * Flag dev : si vrai, l'archive affiche aussi les défis dont la date est
+ * dans le futur (mois à venir). Sinon on les masque pour ne pas spoiler le
+ * contenu non encore publié.
+ *
+ * Active le mode en posant `VITE_SHOW_FUTURE_DAYS=1` dans `.env`.
+ */
+export function shouldShowFutureDates(): boolean {
+  return (
+    typeof import.meta !== 'undefined' && import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
+  )
+}
+
 /** Compare deux dates ISO comme des chaînes — l'ordre lexicographique correspond à l'ordre chronologique. */
 export function compareDates(a: DateString, b: DateString): number {
   return a < b ? -1 : a > b ? 1 : 0

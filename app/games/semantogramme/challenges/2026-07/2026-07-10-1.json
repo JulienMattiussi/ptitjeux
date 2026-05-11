@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rénovation",
+      "neveu",
+      "père",
+      "cri"
+    ],
+    [
+      "grand-mère",
+      "soeur",
+      "minute",
+      "oncle"
+    ],
+    [
+      "exotique",
+      "grand-père",
+      "daurade",
+      "frère"
+    ],
+    [
+      "tante",
+      "café",
+      "reporter",
+      "nièce"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "famille",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "saxophone",
+      "fille",
+      "pique-nique",
+      "sketch"
+    ],
+    [
+      "apéritif",
+      "argile",
+      "lien",
+      "cabas"
+    ],
+    [
+      "entrée",
+      "alliance",
+      "tic-tac",
+      "brunch"
+    ],
+    [
+      "dîner",
+      "déjeuner",
+      "banquet",
+      "champ"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "repas",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

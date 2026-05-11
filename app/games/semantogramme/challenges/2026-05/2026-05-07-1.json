@@ -5,52 +5,58 @@
   "height": 4,
   "words": [
     [
-      "caillou",
-      "framboise",
-      "bureau",
-      "ananas"
+      "opération",
+      "cliché",
+      "lézard",
+      "cobra"
     ],
     [
-      "figue",
-      "pastèque",
-      "framboise",
-      "pelle"
+      "tortue",
+      "caméléon",
+      "écorce",
+      "desserrer"
     ],
     [
-      "tunnel",
-      "abricot",
-      "tournevis",
-      "carnet"
+      "colley",
+      "vipère",
+      "gecko",
+      "proie"
     ],
     [
-      "prison",
-      "pince",
-      "manuel",
-      "mûre"
+      "clocher",
+      "alligator",
+      "sortilège",
+      "houx"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    1,
+    2,
+    2,
     1
   ],
   "colClues": [
     1,
     3,
-    1,
-    2
+    2,
+    1
   ],
-  "themeWord": "fruit",
+  "themeWord": "reptile",
   "solution": [
     [
       false,
-      true,
       false,
+      true,
       true
     ],
     [
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false
@@ -60,13 +66,7 @@
       true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pulsar",
+      "étang",
+      "mémoire",
+      "amphi"
+    ],
+    [
+      "cours",
+      "professeur",
+      "étudiant",
+      "diplôme"
+    ],
+    [
+      "mandarine",
+      "bibliothèque",
+      "gelée",
+      "robe"
+    ],
+    [
+      "licence",
+      "doctorat",
+      "salsa",
+      "thèse"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "université",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

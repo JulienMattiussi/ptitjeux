@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "lecture",
+      "pivoine",
+      "mystère",
+      "étagère"
+    ],
+    [
+      "index",
+      "poudre",
+      "opaque",
+      "bouquin"
+    ],
+    [
+      "roman",
+      "vinaigrette",
+      "rayonnage",
+      "silence"
+    ],
+    [
+      "médaillon",
+      "salon",
+      "gymnastique",
+      "fauteuil"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    0,
+    1,
+    4
+  ],
+  "themeWord": "bibliothèque",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

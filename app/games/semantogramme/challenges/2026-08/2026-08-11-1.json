@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "heure",
+      "parcelle",
+      "tic-tac",
+      "aiguille"
+    ],
+    [
+      "remontoir",
+      "cadran",
+      "bannière",
+      "seconde"
+    ],
+    [
+      "joute",
+      "bracelet",
+      "horloge",
+      "minute"
+    ],
+    [
+      "pendule",
+      "ronron",
+      "sol",
+      "écran"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "montre",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

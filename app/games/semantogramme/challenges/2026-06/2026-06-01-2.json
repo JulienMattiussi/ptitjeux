@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "étagère",
+      "chaise",
+      "nuage",
+      "verglas",
+      "plafond"
+    ],
+    [
+      "brouillard",
+      "nuage",
+      "timbre",
+      "vent",
+      "arc-en-ciel"
+    ],
+    [
+      "rideau",
+      "soleil",
+      "pierre",
+      "verglas",
+      "vent"
+    ],
+    [
+      "agenda",
+      "pluie",
+      "prière",
+      "éclair",
+      "verglas"
+    ],
+    [
+      "écran",
+      "orage",
+      "pluie",
+      "tonnerre",
+      "brouillard"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    5,
+    4
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

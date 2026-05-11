@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vert",
+      "vert",
+      "voisin",
+      "ocre",
+      "rumeur"
+    ],
+    [
+      "blanc",
+      "règle",
+      "turquoise",
+      "carnet",
+      "étagère"
+    ],
+    [
+      "lampe",
+      "rose",
+      "brun",
+      "prière",
+      "carnet"
+    ],
+    [
+      "voisin",
+      "étoile",
+      "rideau",
+      "crayon",
+      "vert"
+    ],
+    [
+      "miroir",
+      "vert",
+      "chemin",
+      "cadre",
+      "vert"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

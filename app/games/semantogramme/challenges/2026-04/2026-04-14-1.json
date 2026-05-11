@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "gym",
-      "agenda",
-      "rugby",
-      "rugby"
+      "sentier",
+      "latitude",
+      "gibier",
+      "fougère"
     ],
     [
-      "panier",
-      "course",
-      "règle",
-      "boxe"
+      "taillis",
+      "écureuil",
+      "crevaison",
+      "saladier"
     ],
     [
-      "carnet",
-      "gym",
-      "serrure",
-      "rideau"
+      "mousse",
+      "passage",
+      "clairière",
+      "arbre"
     ],
     [
-      "tennis",
-      "pince",
-      "course",
-      "cadre"
+      "chlorophylle",
+      "champignon",
+      "lichen",
+      "bergamote"
     ]
   ],
   "rowClues": [
     3,
     2,
-    1,
+    3,
     2
   ],
   "colClues": [
+    3,
     2,
-    2,
-    2,
+    3,
     2
   ],
-  "themeWord": "sport",
+  "themeWord": "forêt",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       true
     ],
     [
-      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true
     ],
     [
       false,
       true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 10
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2026-08-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "épisode",
+      "lecteur",
+      "épilogue",
+      "déguisement"
+    ],
+    [
+      "intrigue",
+      "mystère",
+      "préface",
+      "embouchure"
+    ],
+    [
+      "dénouement",
+      "narrateur",
+      "crochet",
+      "caricature"
+    ],
+    [
+      "lionceau",
+      "chapitre",
+      "personnage",
+      "prologue"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "roman",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

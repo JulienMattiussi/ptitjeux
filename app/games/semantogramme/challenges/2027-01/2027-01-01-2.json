@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "neige",
+      "tempête",
+      "pelle",
+      "jardin",
+      "tonnerre"
+    ],
+    [
+      "banquier",
+      "rosée",
+      "marteau",
+      "nuage",
+      "coussin"
+    ],
+    [
+      "foudre",
+      "foudre",
+      "écran",
+      "rideau",
+      "gel"
+    ],
+    [
+      "tonnerre",
+      "fusée",
+      "lueur",
+      "globe",
+      "vent"
+    ],
+    [
+      "silence",
+      "foudre",
+      "arc-en-ciel",
+      "règle",
+      "arc-en-ciel"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    1,
+    1,
+    4
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

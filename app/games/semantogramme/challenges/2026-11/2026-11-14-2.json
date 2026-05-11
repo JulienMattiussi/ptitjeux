@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "foudre",
+      "crayon",
+      "éclair",
+      "sol",
+      "verglas"
+    ],
+    [
+      "pluie",
+      "soleil",
+      "carnet",
+      "éclair",
+      "clé"
+    ],
+    [
+      "orage",
+      "lampe",
+      "balai",
+      "pelle",
+      "globe"
+    ],
+    [
+      "chemin",
+      "rosée",
+      "rumeur",
+      "arc-en-ciel",
+      "écran"
+    ],
+    [
+      "plateau",
+      "neige",
+      "soleil",
+      "vent",
+      "voisin"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

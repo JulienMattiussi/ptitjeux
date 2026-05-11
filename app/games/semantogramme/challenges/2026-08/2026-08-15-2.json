@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-15-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "note",
+      "harpe",
+      "savon",
+      "livre",
+      "choeur"
+    ],
+    [
+      "gamme",
+      "harpe",
+      "symphonie",
+      "pince",
+      "opéra"
+    ],
+    [
+      "orgue",
+      "table",
+      "balai",
+      "concerto",
+      "chant"
+    ],
+    [
+      "gomme",
+      "savon",
+      "concerto",
+      "choeur",
+      "jazz"
+    ],
+    [
+      "timbre",
+      "carnet",
+      "mélodie",
+      "lueur",
+      "cadre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

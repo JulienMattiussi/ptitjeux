@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-19-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "requin",
+      "savon",
+      "phare",
+      "porte",
+      "bureau"
+    ],
+    [
+      "méduse",
+      "étagère",
+      "étagère",
+      "poisson",
+      "plateau"
+    ],
+    [
+      "écume",
+      "timbre",
+      "jardin",
+      "pétale",
+      "globe"
+    ],
+    [
+      "porte",
+      "ciseaux",
+      "prison",
+      "rivage",
+      "rideau"
+    ],
+    [
+      "plage",
+      "sardine",
+      "vis",
+      "banquier",
+      "sardine"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    1,
+    3
+  ],
+  "colClues": [
+    4,
+    1,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

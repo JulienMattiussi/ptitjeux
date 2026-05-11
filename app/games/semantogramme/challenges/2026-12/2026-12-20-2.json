@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "taxi",
+      "navette",
+      "tapis",
+      "taxi",
+      "banquier"
+    ],
+    [
+      "parfum",
+      "étagère",
+      "scooter",
+      "devoir",
+      "moto"
+    ],
+    [
+      "train",
+      "bus",
+      "étoile",
+      "fusée",
+      "tramway"
+    ],
+    [
+      "navette",
+      "étagère",
+      "moto",
+      "vélo",
+      "taxi"
+    ],
+    [
+      "camion",
+      "silence",
+      "fusée",
+      "jardin",
+      "bureau"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    4,
+    4,
+    1
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

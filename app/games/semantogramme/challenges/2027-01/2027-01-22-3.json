@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-22-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "manuel",
+      "horloge",
+      "pied",
+      "banquier",
+      "étoile",
+      "devoir"
+    ],
+    [
+      "oreille",
+      "vis",
+      "doigt",
+      "coeur",
+      "bureau",
+      "oeil"
+    ],
+    [
+      "genou",
+      "épaule",
+      "pied",
+      "bras",
+      "lueur",
+      "pierre"
+    ],
+    [
+      "caillou",
+      "dos",
+      "fusée",
+      "tournevis",
+      "panneau",
+      "jambe"
+    ],
+    [
+      "agenda",
+      "jambe",
+      "prison",
+      "main",
+      "bouche",
+      "lèvre"
+    ],
+    [
+      "tête",
+      "coeur",
+      "horloge",
+      "langue",
+      "langue",
+      "parfum"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    4,
+    2,
+    4,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 19
+}

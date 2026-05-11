@@ -1,0 +1,124 @@
+{
+  "id": "2026-08-27-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "tasse",
+      "manuel",
+      "pluie",
+      "vent",
+      "glace",
+      "foudre"
+    ],
+    [
+      "foudre",
+      "rosée",
+      "arc-en-ciel",
+      "gomme",
+      "miroir",
+      "savon"
+    ],
+    [
+      "carnet",
+      "brosse",
+      "livre",
+      "neige",
+      "rosée",
+      "vent"
+    ],
+    [
+      "banquier",
+      "livre",
+      "tonnerre",
+      "soleil",
+      "panier",
+      "verglas"
+    ],
+    [
+      "vent",
+      "enveloppe",
+      "neige",
+      "éclair",
+      "agenda",
+      "gel"
+    ],
+    [
+      "vent",
+      "fusée",
+      "banquier",
+      "balai",
+      "plafond",
+      "brouillard"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    4,
+    2,
+    5
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 19
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-06-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "globe",
+      "plafond",
+      "mangue",
+      "globe",
+      "melon"
+    ],
+    [
+      "ananas",
+      "ananas",
+      "chemin",
+      "citron",
+      "pêche"
+    ],
+    [
+      "citron",
+      "framboise",
+      "mûre",
+      "serrure",
+      "racine"
+    ],
+    [
+      "abricot",
+      "banane",
+      "devoir",
+      "figue",
+      "kiwi"
+    ],
+    [
+      "mangue",
+      "pêche",
+      "chaise",
+      "globe",
+      "écran"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    4,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "fruit",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "globe",
+      "pachyderme",
+      "ampoule",
+      "soucoupe"
+    ],
+    [
+      "manche",
+      "piéton",
+      "fonte",
+      "sciure"
+    ],
+    [
+      "député",
+      "blonde",
+      "spiritualité",
+      "mât"
+    ],
+    [
+      "chemin",
+      "avenue",
+      "éclairage",
+      "rue"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "lampadaire",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

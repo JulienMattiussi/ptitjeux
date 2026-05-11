@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fidèle",
+      "illusion",
+      "patrimoine",
+      "prière"
+    ],
+    [
+      "rabbin",
+      "imam",
+      "temple",
+      "comprimé"
+    ],
+    [
+      "mosquée",
+      "cérémonie",
+      "enclos",
+      "rosier"
+    ],
+    [
+      "peuplier",
+      "soudain",
+      "féroce",
+      "synagogue"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "religion",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "chemin",
+      "doigt",
+      "pied",
+      "peau",
+      "pied"
+    ],
+    [
+      "ongle",
+      "devoir",
+      "peigne",
+      "peau",
+      "pied"
+    ],
+    [
+      "horloge",
+      "tête",
+      "rideau",
+      "ciseaux",
+      "tapis"
+    ],
+    [
+      "genou",
+      "vis",
+      "coussin",
+      "lueur",
+      "timbre"
+    ],
+    [
+      "oeil",
+      "genou",
+      "pied",
+      "globe",
+      "coeur"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    1,
+    1,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

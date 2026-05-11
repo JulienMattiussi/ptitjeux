@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-09-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "panneau",
+      "gamme",
+      "crayon",
+      "chemin",
+      "manuel",
+      "orgue"
+    ],
+    [
+      "cadre",
+      "tunnel",
+      "gamme",
+      "mur",
+      "harpe",
+      "jazz"
+    ],
+    [
+      "note",
+      "orgue",
+      "violon",
+      "plateau",
+      "opéra",
+      "orgue"
+    ],
+    [
+      "gamme",
+      "piano",
+      "jardin",
+      "choeur",
+      "savon",
+      "flûte"
+    ],
+    [
+      "tambour",
+      "sol",
+      "tambour",
+      "guitare",
+      "tambour",
+      "crayon"
+    ],
+    [
+      "jazz",
+      "mémoire",
+      "plafond",
+      "violon",
+      "banquier",
+      "trompette"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    5,
+    4,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    5
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 21
+}

@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-17-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "brosse",
+      "vache",
+      "loup",
+      "chat",
+      "tigre",
+      "lueur"
+    ],
+    [
+      "règle",
+      "loup",
+      "tigre",
+      "vis",
+      "pétale",
+      "chaise"
+    ],
+    [
+      "souris",
+      "horloge",
+      "fusée",
+      "koala",
+      "tournevis",
+      "manuel"
+    ],
+    [
+      "lion",
+      "caillou",
+      "tapis",
+      "maison",
+      "tigre",
+      "chat"
+    ],
+    [
+      "mur",
+      "tournevis",
+      "jardin",
+      "zèbre",
+      "zèbre",
+      "girafe"
+    ],
+    [
+      "loup",
+      "porte",
+      "lion",
+      "globe",
+      "chien",
+      "porte"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

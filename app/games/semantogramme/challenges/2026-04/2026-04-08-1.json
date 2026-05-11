@@ -5,55 +5,55 @@
   "height": 4,
   "words": [
     [
-      "fourchette",
-      "pétale",
-      "étoile",
-      "plateau"
+      "roquefort",
+      "brie",
+      "gouda",
+      "reblochon"
     ],
     [
-      "verre",
-      "évier",
-      "étoile",
-      "évier"
+      "parmesan",
+      "baldaquin",
+      "thon",
+      "fanion"
     ],
     [
-      "évier",
-      "cuillère",
-      "manuel",
-      "peigne"
+      "emmental",
+      "camembert",
+      "guépard",
+      "sifflement"
     ],
     [
-      "rideau",
-      "fourchette",
-      "cuillère",
-      "casserole"
+      "massue",
+      "gruyère",
+      "comté",
+      "cantal"
     ]
   ],
   "rowClues": [
+    4,
     1,
-    3,
     2,
     3
   ],
   "colClues": [
     3,
     3,
-    1,
+    2,
     2
   ],
-  "themeWord": "cuisine",
+  "themeWord": "fromage",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
     [
       true,
       false,
       false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true
     ],
     [
       true,
@@ -68,5 +68,5 @@
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 10
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pain",
+      "farine",
+      "swing",
+      "abeille"
+    ],
+    [
+      "apprenti",
+      "pâte",
+      "four",
+      "cèpe"
+    ],
+    [
+      "chiffon",
+      "fournil",
+      "mie",
+      "bactérie"
+    ],
+    [
+      "thé",
+      "levure",
+      "baguette",
+      "pétrin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "boulanger",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

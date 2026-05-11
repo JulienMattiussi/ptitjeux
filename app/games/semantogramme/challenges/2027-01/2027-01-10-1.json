@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pianissimo",
+      "citerne",
+      "route",
+      "remorque"
+    ],
+    [
+      "chenille",
+      "chauffeur",
+      "corne",
+      "reporter"
+    ],
+    [
+      "zinc",
+      "plateau",
+      "empire",
+      "enfoncer"
+    ],
+    [
+      "flûte",
+      "cargo",
+      "cruche",
+      "transport"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    0,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "camion",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

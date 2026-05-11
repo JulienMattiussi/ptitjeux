@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "coussin",
+      "savon",
+      "jardin",
+      "marteau",
+      "natation"
+    ],
+    [
+      "chemin",
+      "gym",
+      "tunnel",
+      "judo",
+      "peigne"
+    ],
+    [
+      "tasse",
+      "gym",
+      "tabouret",
+      "judo",
+      "tapis"
+    ],
+    [
+      "tennis",
+      "tennis",
+      "panneau",
+      "football",
+      "marteau"
+    ],
+    [
+      "gym",
+      "judo",
+      "ski",
+      "devoir",
+      "caillou"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "sport",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

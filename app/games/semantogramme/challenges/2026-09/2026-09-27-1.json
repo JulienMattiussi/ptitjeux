@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "berlingot",
+      "lavande",
+      "marchandise",
+      "star"
+    ],
+    [
+      "interrupteur",
+      "vétiver",
+      "allégresse",
+      "dard"
+    ],
+    [
+      "rose",
+      "essence",
+      "ressac",
+      "musc"
+    ],
+    [
+      "flacon",
+      "parfumerie",
+      "édredon",
+      "jasmin"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    0,
+    2
+  ],
+  "themeWord": "parfum",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

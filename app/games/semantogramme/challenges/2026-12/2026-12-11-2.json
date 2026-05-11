@@ -1,0 +1,96 @@
+{
+  "id": "2026-12-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "mémoire",
+      "violon",
+      "prison",
+      "batterie",
+      "balai"
+    ],
+    [
+      "cadre",
+      "carnet",
+      "flûte",
+      "panneau",
+      "flûte"
+    ],
+    [
+      "étagère",
+      "serrure",
+      "serrure",
+      "violon",
+      "globe"
+    ],
+    [
+      "flûte",
+      "étagère",
+      "savon",
+      "lueur",
+      "tabouret"
+    ],
+    [
+      "opéra",
+      "pétale",
+      "règle",
+      "chemin",
+      "lampe"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    1,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

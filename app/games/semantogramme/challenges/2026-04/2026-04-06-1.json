@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "mûre",
-      "cassis",
-      "orange",
-      "voisin"
+      "vis",
+      "caverne",
+      "fruit",
+      "flottante"
     ],
     [
-      "pastèque",
-      "serrure",
-      "abricot",
-      "orange"
+      "honte",
+      "joie",
+      "dégoût",
+      "ennui"
     ],
     [
-      "banane",
-      "agenda",
-      "miroir",
-      "carnet"
+      "épervier",
+      "vernissage",
+      "éléphant",
+      "amour"
     ],
     [
-      "cassis",
-      "rideau",
-      "panier",
-      "cassis"
+      "espoir",
+      "robinet",
+      "tristesse",
+      "éditeur"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    0,
+    4,
     1,
     2
   ],
   "colClues": [
-    4,
+    2,
     1,
     2,
     2
   ],
-  "themeWord": "fruit",
+  "themeWord": "émotion",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       false
     ],
     [
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 7
 }

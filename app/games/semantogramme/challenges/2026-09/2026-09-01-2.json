@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rosée",
+      "mémoire",
+      "timbre",
+      "étagère",
+      "lampe"
+    ],
+    [
+      "éclair",
+      "neige",
+      "brouillard",
+      "nuage",
+      "pétale"
+    ],
+    [
+      "soleil",
+      "brouillard",
+      "prison",
+      "brouillard",
+      "nuage"
+    ],
+    [
+      "sol",
+      "rosée",
+      "gomme",
+      "neige",
+      "verglas"
+    ],
+    [
+      "nuage",
+      "peigne",
+      "silence",
+      "enveloppe",
+      "étoile"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    4,
+    3,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

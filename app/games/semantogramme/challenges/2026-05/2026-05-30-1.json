@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "gazeux",
+      "jeu",
+      "halogène",
+      "poupée"
+    ],
+    [
+      "ballon",
+      "puzzle",
+      "forum",
+      "voiture"
+    ],
+    [
+      "photographie",
+      "circuit",
+      "reporter",
+      "maquette"
+    ],
+    [
+      "ananas",
+      "trompette",
+      "gué",
+      "corde"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    0,
+    4
+  ],
+  "themeWord": "jouet",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

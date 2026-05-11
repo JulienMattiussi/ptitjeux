@@ -1,0 +1,96 @@
+{
+  "id": "2026-05-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "brosse",
+      "gel",
+      "chemin",
+      "tonnerre",
+      "prière"
+    ],
+    [
+      "neige",
+      "clé",
+      "panneau",
+      "vent",
+      "table"
+    ],
+    [
+      "parfum",
+      "neige",
+      "plafond",
+      "vent",
+      "clé"
+    ],
+    [
+      "nuage",
+      "tempête",
+      "orage",
+      "mémoire",
+      "pluie"
+    ],
+    [
+      "soleil",
+      "porte",
+      "bureau",
+      "caillou",
+      "vent"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

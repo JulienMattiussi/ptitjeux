@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "plateau",
+      "panneau",
+      "arc-en-ciel",
+      "plateau",
+      "foudre"
+    ],
+    [
+      "chemin",
+      "brouillard",
+      "pelle",
+      "vent",
+      "brouillard"
+    ],
+    [
+      "glace",
+      "maison",
+      "brouillard",
+      "panneau",
+      "porte"
+    ],
+    [
+      "pelle",
+      "tunnel",
+      "tabouret",
+      "éclair",
+      "pluie"
+    ],
+    [
+      "foudre",
+      "arc-en-ciel",
+      "arc-en-ciel",
+      "panier",
+      "mémoire"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-22-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "globe",
+      "étagère",
+      "enveloppe",
+      "moto",
+      "fusée"
+    ],
+    [
+      "étoile",
+      "tramway",
+      "camion",
+      "plateau",
+      "avion"
+    ],
+    [
+      "métro",
+      "scooter",
+      "scooter",
+      "brosse",
+      "bureau"
+    ],
+    [
+      "taxi",
+      "voiture",
+      "bateau",
+      "racine",
+      "autobus"
+    ],
+    [
+      "jardin",
+      "fusée",
+      "manuel",
+      "livre",
+      "règle"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

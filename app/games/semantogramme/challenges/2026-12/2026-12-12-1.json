@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "gazette",
+      "crin",
+      "hibernation",
+      "orchestre"
+    ],
+    [
+      "défense",
+      "colophane",
+      "corde",
+      "truite"
+    ],
+    [
+      "fièvre",
+      "manche",
+      "partition",
+      "soliste"
+    ],
+    [
+      "sonate",
+      "guitare",
+      "pupitre",
+      "concerto"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "violon",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

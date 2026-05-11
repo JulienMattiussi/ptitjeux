@@ -1,0 +1,124 @@
+{
+  "id": "2026-05-28-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "ombre",
+      "brosse",
+      "ferry",
+      "ferry",
+      "crayon",
+      "tapis"
+    ],
+    [
+      "fusée",
+      "ferry",
+      "scooter",
+      "train",
+      "mur",
+      "porte"
+    ],
+    [
+      "voisin",
+      "rideau",
+      "remorque",
+      "fusée",
+      "navette",
+      "plateau"
+    ],
+    [
+      "miroir",
+      "tabouret",
+      "vélo",
+      "table",
+      "plateau",
+      "ombre"
+    ],
+    [
+      "caravane",
+      "moto",
+      "bureau",
+      "bateau",
+      "bateau",
+      "vélo"
+    ],
+    [
+      "prière",
+      "caravane",
+      "navette",
+      "horloge",
+      "fusée",
+      "bateau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    2,
+    1,
+    5,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    5,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 18
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "massif",
+      "troupeau",
+      "ivoire",
+      "gris"
+    ],
+    [
+      "oreille",
+      "pachyderme",
+      "martini",
+      "défense"
+    ],
+    [
+      "étalon",
+      "saut",
+      "mémoire",
+      "savane"
+    ],
+    [
+      "guide",
+      "audition",
+      "safari",
+      "lob"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "éléphant",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

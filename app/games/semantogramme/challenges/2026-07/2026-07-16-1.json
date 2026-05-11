@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bisque",
+      "élection",
+      "candidat",
+      "campagne"
+    ],
+    [
+      "opposition",
+      "parti",
+      "acteur",
+      "ministre"
+    ],
+    [
+      "silex",
+      "haute",
+      "président",
+      "député"
+    ],
+    [
+      "épinard",
+      "sénateur",
+      "harpe",
+      "golden"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "politique",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

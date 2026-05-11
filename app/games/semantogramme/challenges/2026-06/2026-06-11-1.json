@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sifflement",
+      "patient",
+      "urgence",
+      "pétrin"
+    ],
+    [
+      "service",
+      "basket",
+      "aspirateur",
+      "océan"
+    ],
+    [
+      "médecin",
+      "pansement",
+      "pelote",
+      "plénitude"
+    ],
+    [
+      "ambulance",
+      "puma",
+      "reportage",
+      "opération"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    1
+  ],
+  "themeWord": "hôpital",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

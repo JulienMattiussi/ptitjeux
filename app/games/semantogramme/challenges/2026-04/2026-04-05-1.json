@@ -5,58 +5,52 @@
   "height": 4,
   "words": [
     [
-      "doré",
-      "rose",
-      "bleu",
-      "rideau"
+      "café",
+      "sirop",
+      "quatre-quarts",
+      "jus"
     ],
     [
-      "plafond",
-      "doré",
-      "beige",
-      "indigo"
+      "copeau",
+      "tisane",
+      "limonade",
+      "saule"
     ],
     [
-      "orange",
-      "rose",
-      "turquoise",
-      "panneau"
+      "épine",
+      "imprimante",
+      "sucré",
+      "eau"
     ],
     [
-      "pince",
-      "manuel",
-      "noir",
-      "vert"
+      "terme",
+      "lait",
+      "delta",
+      "cidre"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    3,
+    2,
+    1,
     2
   ],
   "colClues": [
-    2,
+    1,
     3,
-    4,
-    2
+    1,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "boisson",
   "solution": [
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false
@@ -64,9 +58,15 @@
     [
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 8
 }

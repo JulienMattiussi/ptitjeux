@@ -1,0 +1,72 @@
+{
+  "id": "2026-06-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "attirance",
+      "âtre",
+      "marin",
+      "mouillage"
+    ],
+    [
+      "voilier",
+      "capitaine",
+      "ancre",
+      "ivoire"
+    ],
+    [
+      "bateau",
+      "miette",
+      "tante",
+      "labour"
+    ],
+    [
+      "navire",
+      "parallèle",
+      "gouttière",
+      "pédale"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "port",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

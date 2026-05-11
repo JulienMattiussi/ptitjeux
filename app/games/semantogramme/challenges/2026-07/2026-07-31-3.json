@@ -1,0 +1,124 @@
+{
+  "id": "2026-07-31-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "sol",
+      "soleil",
+      "pierre",
+      "coussin",
+      "nuage",
+      "gomme"
+    ],
+    [
+      "tonnerre",
+      "nuage",
+      "savon",
+      "soleil",
+      "bureau",
+      "sol"
+    ],
+    [
+      "nuage",
+      "parfum",
+      "brouillard",
+      "parfum",
+      "glace",
+      "glace"
+    ],
+    [
+      "règle",
+      "soleil",
+      "verglas",
+      "foudre",
+      "foudre",
+      "tabouret"
+    ],
+    [
+      "racine",
+      "écran",
+      "voisin",
+      "gel",
+      "marteau",
+      "brosse"
+    ],
+    [
+      "horloge",
+      "banquier",
+      "chaise",
+      "plafond",
+      "brouillard",
+      "soleil"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "météo",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

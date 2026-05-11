@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-24-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tunnel",
+      "parfum",
+      "prison",
+      "requin",
+      "sable"
+    ],
+    [
+      "sardine",
+      "tabouret",
+      "bateau",
+      "marin",
+      "serrure"
+    ],
+    [
+      "baleine",
+      "vague",
+      "crayon",
+      "marin",
+      "voile"
+    ],
+    [
+      "pince",
+      "silence",
+      "crabe",
+      "mémoire",
+      "rumeur"
+    ],
+    [
+      "méduse",
+      "serrure",
+      "chaise",
+      "caillou",
+      "chaise"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    1,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

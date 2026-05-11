@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tapis",
+      "panneau",
+      "fusée",
+      "tabouret",
+      "train"
+    ],
+    [
+      "moto",
+      "prison",
+      "cadre",
+      "brosse",
+      "miroir"
+    ],
+    [
+      "agenda",
+      "savon",
+      "tramway",
+      "ciseaux",
+      "tabouret"
+    ],
+    [
+      "pince",
+      "tramway",
+      "sol",
+      "bureau",
+      "avion"
+    ],
+    [
+      "balai",
+      "fusée",
+      "maison",
+      "caravane",
+      "tournevis"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    1,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "transport",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

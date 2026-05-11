@@ -1,0 +1,124 @@
+{
+  "id": "2026-08-25-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "rivage",
+      "carnet",
+      "vague",
+      "rivage",
+      "panneau",
+      "bateau"
+    ],
+    [
+      "tasse",
+      "baleine",
+      "ciseaux",
+      "marteau",
+      "marteau",
+      "écaille"
+    ],
+    [
+      "requin",
+      "poisson",
+      "porte",
+      "poisson",
+      "bateau",
+      "marin"
+    ],
+    [
+      "écaille",
+      "rideau",
+      "règle",
+      "dauphin",
+      "agenda",
+      "lampe"
+    ],
+    [
+      "méduse",
+      "dauphin",
+      "tunnel",
+      "vague",
+      "porte",
+      "mur"
+    ],
+    [
+      "méduse",
+      "plage",
+      "manuel",
+      "peigne",
+      "pelle",
+      "rivage"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    5,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    5,
+    4,
+    1,
+    4,
+    1,
+    4
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 19
+}

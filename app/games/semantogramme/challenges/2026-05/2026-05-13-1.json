@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "molécule",
+      "commissaire",
+      "épinard",
+      "papier"
+    ],
+    [
+      "poireau",
+      "institut",
+      "salade",
+      "carotte"
+    ],
+    [
+      "pied",
+      "velouté",
+      "bouton",
+      "aubergine"
+    ],
+    [
+      "tomate",
+      "navet",
+      "gibier",
+      "gourmandise"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "légume",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

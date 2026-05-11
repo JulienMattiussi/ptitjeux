@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-16-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "clé",
+      "plat",
+      "panier",
+      "verre",
+      "ombre"
+    ],
+    [
+      "épice",
+      "farine",
+      "verre",
+      "chaise",
+      "poêle"
+    ],
+    [
+      "balai",
+      "crayon",
+      "tunnel",
+      "règle",
+      "cuillère"
+    ],
+    [
+      "mur",
+      "verre",
+      "évier",
+      "spatule",
+      "frigo"
+    ],
+    [
+      "panneau",
+      "couteau",
+      "racine",
+      "lueur",
+      "épice"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    1,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tartine",
+      "angora",
+      "gouttière",
+      "siamois"
+    ],
+    [
+      "queue",
+      "oasis",
+      "honte",
+      "cocotte"
+    ],
+    [
+      "griffe",
+      "remorque",
+      "moustache",
+      "dard"
+    ],
+    [
+      "minou",
+      "potion",
+      "parution",
+      "persan"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "chat",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

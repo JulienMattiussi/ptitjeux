@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-15-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "mur",
+      "tunnel",
+      "manuel",
+      "marin",
+      "porte"
+    ],
+    [
+      "sable",
+      "poisson",
+      "thon",
+      "méduse",
+      "étoile"
+    ],
+    [
+      "thon",
+      "rivage",
+      "tabouret",
+      "table",
+      "marin"
+    ],
+    [
+      "jardin",
+      "sol",
+      "plage",
+      "panneau",
+      "écaille"
+    ],
+    [
+      "vis",
+      "prison",
+      "poisson",
+      "pince",
+      "vague"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "mer",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

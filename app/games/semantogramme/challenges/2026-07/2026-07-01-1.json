@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cadrage",
+      "capteur",
+      "blague",
+      "reportage"
+    ],
+    [
+      "guérison",
+      "tirage",
+      "objectif",
+      "piqûre"
+    ],
+    [
+      "négatif",
+      "flash",
+      "cliché",
+      "phobie"
+    ],
+    [
+      "chanson",
+      "pose",
+      "rafale",
+      "brise"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "photographie",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

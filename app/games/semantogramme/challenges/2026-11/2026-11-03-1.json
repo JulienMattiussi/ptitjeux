@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "dragon",
+      "mythe",
+      "aventure",
+      "magie"
+    ],
+    [
+      "enchantement",
+      "figuier",
+      "sorcier",
+      "héros"
+    ],
+    [
+      "roi",
+      "épée",
+      "fanon",
+      "parfum"
+    ],
+    [
+      "épinard",
+      "lionne",
+      "parure",
+      "reliure"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    2,
+    0
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "légende",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

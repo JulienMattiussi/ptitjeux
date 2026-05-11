@@ -1,0 +1,96 @@
+{
+  "id": "2027-01-04-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "ocre",
+      "beige",
+      "indigo",
+      "blanc",
+      "écran"
+    ],
+    [
+      "rouge",
+      "beige",
+      "rumeur",
+      "blanc",
+      "bureau"
+    ],
+    [
+      "jardin",
+      "gris",
+      "sol",
+      "rouge",
+      "rouge"
+    ],
+    [
+      "argenté",
+      "globe",
+      "clé",
+      "voisin",
+      "marteau"
+    ],
+    [
+      "orange",
+      "beige",
+      "vert",
+      "pince",
+      "rose"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    3,
+    1,
+    4
+  ],
+  "colClues": [
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

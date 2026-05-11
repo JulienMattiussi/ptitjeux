@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-22-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "chant",
+      "devoir",
+      "miroir",
+      "concerto",
+      "tambour"
+    ],
+    [
+      "savon",
+      "choeur",
+      "bureau",
+      "guitare",
+      "concerto"
+    ],
+    [
+      "tunnel",
+      "trompette",
+      "règle",
+      "enveloppe",
+      "tasse"
+    ],
+    [
+      "gamme",
+      "chemin",
+      "jardin",
+      "flûte",
+      "harpe"
+    ],
+    [
+      "trompette",
+      "rythme",
+      "batterie",
+      "guitare",
+      "prison"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

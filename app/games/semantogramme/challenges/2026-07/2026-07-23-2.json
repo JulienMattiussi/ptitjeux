@@ -1,0 +1,96 @@
+{
+  "id": "2026-07-23-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rythme",
+      "chant",
+      "harpe",
+      "rythme",
+      "rideau"
+    ],
+    [
+      "opéra",
+      "note",
+      "flûte",
+      "pince",
+      "écran"
+    ],
+    [
+      "clé",
+      "accord",
+      "jazz",
+      "chant",
+      "guitare"
+    ],
+    [
+      "tambour",
+      "opéra",
+      "batterie",
+      "savon",
+      "chant"
+    ],
+    [
+      "tasse",
+      "carnet",
+      "piano",
+      "panneau",
+      "silence"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    4,
+    4,
+    1
+  ],
+  "colClues": [
+    3,
+    4,
+    5,
+    2,
+    2
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

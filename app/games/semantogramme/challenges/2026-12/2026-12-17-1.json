@@ -1,0 +1,72 @@
+{
+  "id": "2026-12-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "nuit",
+      "pellicule",
+      "humide",
+      "horticulture"
+    ],
+    [
+      "chaleur",
+      "tropical",
+      "soleil",
+      "rural"
+    ],
+    [
+      "bourgeon",
+      "roseau",
+      "plante",
+      "semis"
+    ],
+    [
+      "plantation",
+      "chaume",
+      "géranium",
+      "exotique"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "serre",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

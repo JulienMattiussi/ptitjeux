@@ -1,0 +1,72 @@
+{
+  "id": "2026-05-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "truffe",
+      "fouet",
+      "russule",
+      "lactaire"
+    ],
+    [
+      "puzzle",
+      "cèpe",
+      "amanite",
+      "tarot"
+    ],
+    [
+      "girolle",
+      "garde",
+      "nuit",
+      "salade"
+    ],
+    [
+      "agaric",
+      "pleurote",
+      "samba",
+      "filtre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "champignon",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

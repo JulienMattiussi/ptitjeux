@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-18-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "choeur",
+      "rythme",
+      "plafond",
+      "marteau",
+      "accord"
+    ],
+    [
+      "note",
+      "trompette",
+      "pierre",
+      "flûte",
+      "mélodie"
+    ],
+    [
+      "chaise",
+      "concerto",
+      "miroir",
+      "peigne",
+      "gamme"
+    ],
+    [
+      "crayon",
+      "étoile",
+      "orgue",
+      "mur",
+      "ombre"
+    ],
+    [
+      "pelle",
+      "pince",
+      "flûte",
+      "tasse",
+      "rythme"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

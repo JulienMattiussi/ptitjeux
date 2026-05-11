@@ -1,0 +1,72 @@
+{
+  "id": "2026-09-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chant",
+      "régate",
+      "pavillon",
+      "défilé"
+    ],
+    [
+      "marin",
+      "vague",
+      "bouton",
+      "préface"
+    ],
+    [
+      "mulot",
+      "écoute",
+      "cordage",
+      "aboutir"
+    ],
+    [
+      "pomme",
+      "valse",
+      "bôme",
+      "mât"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "voile",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

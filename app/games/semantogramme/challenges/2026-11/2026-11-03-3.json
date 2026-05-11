@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-03-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "globe",
+      "chaise",
+      "concerto",
+      "tournevis",
+      "symphonie",
+      "mémoire"
+    ],
+    [
+      "harpe",
+      "horloge",
+      "tasse",
+      "violon",
+      "jazz",
+      "guitare"
+    ],
+    [
+      "rythme",
+      "harpe",
+      "fusée",
+      "cadre",
+      "violon",
+      "crayon"
+    ],
+    [
+      "harpe",
+      "savon",
+      "accord",
+      "choeur",
+      "pétale",
+      "jardin"
+    ],
+    [
+      "manuel",
+      "tambour",
+      "harpe",
+      "tournevis",
+      "savon",
+      "livre"
+    ],
+    [
+      "table",
+      "globe",
+      "tabouret",
+      "mur",
+      "trompette",
+      "maison"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "musique",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

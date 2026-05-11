@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "noir",
+      "rubis",
+      "turquoise",
+      "émeraude"
+    ],
+    [
+      "pluton",
+      "mesurer",
+      "perle",
+      "opale"
+    ],
+    [
+      "topaze",
+      "parapet",
+      "diamant",
+      "améthyste"
+    ],
+    [
+      "sardine",
+      "agate",
+      "conclusion",
+      "volet"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "pierre",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

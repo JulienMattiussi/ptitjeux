@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fantasme",
+      "citron",
+      "opaque",
+      "imagination"
+    ],
+    [
+      "sommeil",
+      "crèche",
+      "utopie",
+      "rideau"
+    ],
+    [
+      "chlorophylle",
+      "jongleur",
+      "minute",
+      "symbole"
+    ],
+    [
+      "cauchemar",
+      "chimère",
+      "glacier",
+      "escarpin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    1,
+    2
+  ],
+  "themeWord": "rêve",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

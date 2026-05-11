@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "époque",
+      "chauffeur",
+      "ressac",
+      "écume"
+    ],
+    [
+      "pastille",
+      "rouleau",
+      "marée",
+      "banquette"
+    ],
+    [
+      "crête",
+      "parmesan",
+      "acteur",
+      "tsunami"
+    ],
+    [
+      "creux",
+      "surf",
+      "bord",
+      "titre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "vague",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

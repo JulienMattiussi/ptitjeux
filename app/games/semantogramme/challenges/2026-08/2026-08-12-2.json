@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "étoile",
+      "tabouret",
+      "lueur",
+      "ombre",
+      "souris"
+    ],
+    [
+      "ours",
+      "panda",
+      "tournevis",
+      "mur",
+      "écureuil"
+    ],
+    [
+      "lapin",
+      "zèbre",
+      "lynx",
+      "rideau",
+      "vache"
+    ],
+    [
+      "racine",
+      "globe",
+      "cheval",
+      "écureuil",
+      "tabouret"
+    ],
+    [
+      "lynx",
+      "belette",
+      "chaise",
+      "tasse",
+      "zèbre"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    1,
+    4
+  ],
+  "themeWord": "animal",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

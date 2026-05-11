@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-03-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "fourchette",
+      "bureau",
+      "casserole",
+      "spatule",
+      "fusée"
+    ],
+    [
+      "pétale",
+      "recette",
+      "fourchette",
+      "écran",
+      "parfum"
+    ],
+    [
+      "évier",
+      "évier",
+      "four",
+      "vis",
+      "frigo"
+    ],
+    [
+      "tablier",
+      "rumeur",
+      "fusée",
+      "porte",
+      "caillou"
+    ],
+    [
+      "pelle",
+      "jardin",
+      "frigo",
+      "chemin",
+      "jardin"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    4,
+    1,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "cuisine",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

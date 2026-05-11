@@ -1,0 +1,72 @@
+{
+  "id": "2027-01-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "peigne",
+      "loup-garou",
+      "robinet",
+      "sirène"
+    ],
+    [
+      "étalon",
+      "lance",
+      "caserne",
+      "podium"
+    ],
+    [
+      "casque",
+      "fret",
+      "échelle",
+      "arroser"
+    ],
+    [
+      "satire",
+      "urgence",
+      "saladier",
+      "extincteur"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "pompier",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

@@ -1,0 +1,124 @@
+{
+  "id": "2026-06-19-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "peau",
+      "écran",
+      "timbre",
+      "brosse",
+      "oeil",
+      "oreille"
+    ],
+    [
+      "main",
+      "règle",
+      "panneau",
+      "lèvre",
+      "genou",
+      "langue"
+    ],
+    [
+      "pétale",
+      "ongle",
+      "genou",
+      "ongle",
+      "bras",
+      "genou"
+    ],
+    [
+      "timbre",
+      "écran",
+      "prison",
+      "bouche",
+      "doigt",
+      "tournevis"
+    ],
+    [
+      "coussin",
+      "pétale",
+      "plateau",
+      "ombre",
+      "miroir",
+      "lèvre"
+    ],
+    [
+      "bras",
+      "pince",
+      "lueur",
+      "plafond",
+      "tapis",
+      "doigt"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    5,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    1,
+    3,
+    4,
+    5
+  ],
+  "themeWord": "corps",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 17
+}

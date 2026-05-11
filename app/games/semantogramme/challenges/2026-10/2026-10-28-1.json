@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "poirier",
+      "chaise",
+      "rêverie",
+      "récif"
+    ],
+    [
+      "arbre",
+      "patinette",
+      "récolte",
+      "crayon"
+    ],
+    [
+      "pommier",
+      "fruit",
+      "judas",
+      "calcul"
+    ],
+    [
+      "écaille",
+      "cerisier",
+      "succulente",
+      "cueillette"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    1
+  ],
+  "themeWord": "verger",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

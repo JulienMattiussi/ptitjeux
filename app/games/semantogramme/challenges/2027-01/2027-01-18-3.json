@@ -1,0 +1,124 @@
+{
+  "id": "2027-01-18-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "jaune",
+      "tasse",
+      "noir",
+      "noir",
+      "horloge",
+      "rose"
+    ],
+    [
+      "ombre",
+      "vis",
+      "enveloppe",
+      "beige",
+      "miroir",
+      "turquoise"
+    ],
+    [
+      "prière",
+      "horloge",
+      "mémoire",
+      "indigo",
+      "tournevis",
+      "doré"
+    ],
+    [
+      "gris",
+      "gris",
+      "violet",
+      "argenté",
+      "tasse",
+      "bleu"
+    ],
+    [
+      "timbre",
+      "silence",
+      "mauve",
+      "rouge",
+      "bleu",
+      "indigo"
+    ],
+    [
+      "chaise",
+      "rose",
+      "jaune",
+      "brosse",
+      "carnet",
+      "devoir"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    5,
+    4,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    5,
+    1,
+    5
+  ],
+  "themeWord": "couleur",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 19
+}

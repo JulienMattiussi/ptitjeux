@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { CheckMark } from './CheckMark'
 import { ChevronRight } from './icons'
 import { LevelTile } from './LevelTile'
@@ -13,6 +13,12 @@ type Props = {
   gameId: GameId
   dates: string[]
   progress: GameProgress
+  /**
+   * Si fournie, ouvre le mois correspondant à cette date au montage et
+   * scrolle jusqu'à la ligne du jour. Utilisé pour ramener le joueur à
+   * l'endroit d'où il vient quand il quitte un niveau.
+   */
+  focusDate?: string
 }
 
 function groupByMonth(dates: string[]): Map<string, string[]> {
@@ -37,10 +43,24 @@ function dayStatuses(
 }
 
 
-export function ArchiveAccordion({ gameId, dates, progress }: Props) {
+export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) {
   const grouped = groupByMonth(dates)
   const months = Array.from(grouped.keys()).sort().reverse()
-  const [openMonth, setOpenMonth] = useState<string | null>(months[0] ?? null)
+  // Si une focusDate est fournie ET que sa date est dans les archives, on
+  // ouvre directement le mois correspondant. Sinon on retombe sur le mois
+  // le plus récent.
+  const focusMonth = focusDate ? monthKey(focusDate) : null
+  const initialOpen =
+    focusMonth && months.includes(focusMonth) ? focusMonth : (months[0] ?? null)
+  const [openMonth, setOpenMonth] = useState<string | null>(initialOpen)
+
+  // Scroll vers la ligne après le premier rendu (le mois est déjà ouvert).
+  const focusRowRef = useRef<HTMLLIElement | null>(null)
+  useEffect(() => {
+    if (focusDate && focusRowRef.current) {
+      focusRowRef.current.scrollIntoView({ behavior: 'auto', block: 'center' })
+    }
+  }, [focusDate])
 
   if (dates.length === 0) {
     return (
@@ -95,6 +115,7 @@ export function ArchiveAccordion({ gameId, dates, progress }: Props) {
                     gameId={gameId}
                     date={date}
                     progress={progress}
+                    rowRef={date === focusDate ? focusRowRef : null}
                   />
                 ))}
               </ul>
@@ -110,13 +131,17 @@ type DayRowProps = {
   gameId: GameId
   date: string
   progress: GameProgress
+  rowRef?: React.RefObject<HTMLLIElement | null> | null
 }
 
-function ArchiveDayRow({ gameId, date, progress }: DayRowProps) {
+function ArchiveDayRow({ gameId, date, progress, rowRef }: DayRowProps) {
   const statuses = dayStatuses(gameId, date, progress)
   const aggregate = aggregateCompletion(statuses)
   return (
-    <li className="flex items-center gap-3 px-4 py-3 sm:gap-4">
+    <li
+      ref={rowRef ?? undefined}
+      className="flex items-center gap-3 px-4 py-3 sm:gap-4"
+    >
       <div className="flex w-20 shrink-0 items-center gap-1.5 sm:w-24">
         <span className="font-mono text-sm capitalize text-gray-700 dark:text-gray-200">
           {dateLabelShort(date)}

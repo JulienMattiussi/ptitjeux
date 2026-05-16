@@ -1,4 +1,4 @@
-# Plan projet — secretgame
+# Plan projet — ptitjeux
 
 Plateforme web de mini-jeux logico-spatiaux, full front-end.
 
@@ -29,7 +29,7 @@ locale est stockée en `localStorage`.
 ## 2. Structure de répertoire
 
 ```
-secretgame/
+ptitjeux/
 ├── docs/
 │   ├── existing-games.md
 │   ├── new-games.md
@@ -196,7 +196,7 @@ nom, tagline, description, href et classe d'accent.
 
 ## 7. Persistance locale
 
-Pas de back-end. `localStorage` stocke (clé `secretgame.progress`) :
+Pas de back-end. `localStorage` stocke (clé `ptitjeux.progress`) :
 
 ```ts
 type Progress = {

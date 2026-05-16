@@ -8,7 +8,7 @@ export type GameProgress = Record<string, LevelProgress>
 
 export type AllProgress = Record<string, GameProgress>
 
-const STORAGE_KEY = 'secretgame.progress'
+const STORAGE_KEY = 'ptitjeux.progress'
 
 function isBrowser(): boolean {
   return typeof window !== 'undefined' && typeof window.localStorage !== 'undefined'

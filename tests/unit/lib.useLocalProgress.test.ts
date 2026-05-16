@@ -44,7 +44,7 @@ describe('lib/useLocalProgress', () => {
     expect(result.current).toEqual({})
     act(() => {
       window.localStorage.setItem(
-        'secretgame.progress',
+        'ptitjeux.progress',
         JSON.stringify({
           sokomot: {
             '2026-05-07-1': { completed: true, bestMoves: 5, lastPlayedAt: '' },
@@ -52,7 +52,7 @@ describe('lib/useLocalProgress', () => {
         }),
       )
       window.dispatchEvent(
-        new StorageEvent('storage', { key: 'secretgame.progress' }),
+        new StorageEvent('storage', { key: 'ptitjeux.progress' }),
       )
     })
     expect(result.current['2026-05-07-1']?.completed).toBe(true)
@@ -76,9 +76,9 @@ describe('lib/useLocalProgress', () => {
     // warning. Le test passe tant qu'on n'a pas de "Can't perform a
     // React state update on an unmounted component".
     window.localStorage.setItem(
-      'secretgame.progress',
+      'ptitjeux.progress',
       JSON.stringify({ sokomot: {} }),
     )
-    window.dispatchEvent(new StorageEvent('storage', { key: 'secretgame.progress' }))
+    window.dispatchEvent(new StorageEvent('storage', { key: 'ptitjeux.progress' }))
   })
 })

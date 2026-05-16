@@ -14,7 +14,7 @@ export function useLocalProgress(gameId: string): GameProgress {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(readGameProgress(gameId))
     function handler(event: StorageEvent) {
-      if (event.key === 'secretgame.progress') {
+      if (event.key === 'ptitjeux.progress') {
         setProgress(readGameProgress(gameId))
       }
     }

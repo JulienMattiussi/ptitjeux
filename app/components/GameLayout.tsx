@@ -39,7 +39,7 @@ export function GameLayout({
           </div>
           <Link
             to="/"
-            aria-label="Secretgame"
+            aria-label="Ptitjeux"
             className="shrink-0 transition hover:opacity-80"
           >
             <img src="/cerveau.jpeg" alt="" className="h-8 w-8 rounded-lg shadow-sm" />

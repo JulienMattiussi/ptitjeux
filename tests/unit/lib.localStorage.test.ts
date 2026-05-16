@@ -55,7 +55,7 @@ describe('lib/localStorage', () => {
   })
 
   it('survit à un JSON corrompu en localStorage', () => {
-    window.localStorage.setItem('secretgame.progress', 'pas-du-json{')
+    window.localStorage.setItem('ptitjeux.progress', 'pas-du-json{')
     expect(readAllProgress()).toEqual({})
   })
 })

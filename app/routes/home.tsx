@@ -4,7 +4,7 @@ import type { Route } from './+types/home'
 
 export function meta(_: Route.MetaArgs) {
   return [
-    { title: 'Secretgame — mini-jeux logico-spatiaux' },
+    { title: 'Ptitjeux — mini-jeux logico-spatiaux' },
     {
       name: 'description',
       content: 'Mini-jeux logico-spatiaux : Sokomot, Boucle, Sémantogramme.',

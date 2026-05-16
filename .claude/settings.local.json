@@ -2,7 +2,7 @@
   "permissions": {
     "allow": [
       "Bash(npm --version)",
-      "Read(//tmp/secretgame-scaffold/**)",
+      "Read(//tmp/ptitjeux-scaffold/**)",
       "Bash(npm install *)",
       "Bash(curl -sS http://localhost:5173/)",
       "Bash(curl -sS http://localhost:5173/sokomot/001-intro)",
@@ -10,7 +10,7 @@
       "Bash(pkill -f \"react-router dev\")",
       "Bash(curl -sS -o /dev/null -w \"icone: HTTP %{http_code}, %{size_download} octets\\\\n\" http://localhost:2222/cerveau.jpeg)",
       "Bash(curl -sS http://localhost:2222/)",
-      "Bash(mkdir -p /home/julien/Documents/MyRepos/secretgame/builder)",
+      "Bash(mkdir -p /home/julien/Documents/MyRepos/ptitjeux/builder)",
       "Bash(curl -sSL --max-time 60 -o words-fr-raw.json \"https://raw.githubusercontent.com/words/an-array-of-french-words/main/index.json\")",
       "Bash(npx tsx *)",
       "Bash(cat > *)",

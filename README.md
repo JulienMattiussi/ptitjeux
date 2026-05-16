@@ -1,4 +1,4 @@
-# Secretgame
+# Ptitjeux
 
 Plateforme web de mini-jeux logico-spatiaux, full front-end.
 

@@ -34,9 +34,9 @@ export default function Home() {
               mini-jeux cérébraux
             </p>
             <h1 className="font-display text-4xl font-bold tracking-tight sm:text-6xl">
-              Secret
+              P'tit
               <span className="bg-linear-to-r from-fuchsia-600 via-amber-500 to-emerald-500 bg-clip-text text-transparent">
-                game
+                jeux
               </span>
             </h1>
             <p className="mt-5 text-lg leading-relaxed text-gray-600 dark:text-gray-300">

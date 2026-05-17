@@ -50,10 +50,3 @@ export const GAME_SIZE: Record<GameId, (index: number) => { width: number; heigh
   semantogramme: (i) => ({ width: 3 + i, height: 3 + i }),
 }
 
-/**
- * Renvoie `true` si ce niveau utilise la mécanique de glace (Sokomot
- * uniquement, niveaux 2 et 4).
- */
-export function isIceLevel(gameId: GameId, index: number): boolean {
-  return gameId === 'sokomot' && (index === 2 || index === 4)
-}

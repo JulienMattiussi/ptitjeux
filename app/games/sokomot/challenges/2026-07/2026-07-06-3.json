@@ -197,14 +197,10 @@
       ]
     ]
   },
-  "parMoves": 31,
+  "parMoves": 29,
   "solution": [
-    "left",
-    "up",
     "right",
     "up",
-    "right",
-    "down",
     "right",
     "right",
     "up",
@@ -227,7 +223,11 @@
     "left",
     "up",
     "left",
-    "up"
+    "up",
+    "left",
+    "left",
+    "up",
+    "right"
   ],
   "canonicalWord": "anisa"
 }

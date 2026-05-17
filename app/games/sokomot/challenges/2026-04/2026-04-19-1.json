@@ -149,19 +149,18 @@
       ]
     ]
   },
-  "parMoves": 13,
+  "parMoves": 10,
   "solution": [
     "left",
+    "right",
+    "right",
     "down",
+    "left",
     "down",
     "down",
     "left",
-    "up",
-    "right",
-    "right",
-    "right",
-    "up",
-    "left"
+    "left",
+    "up"
   ],
   "canonicalWord": "bob"
 }

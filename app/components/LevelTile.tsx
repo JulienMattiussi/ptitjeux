@@ -16,8 +16,6 @@ type Props = {
   status: CompletionStatus
   /** `daily` = grande tuile avec libellé « Niveau N ». `archive` = compact, sans libellé. */
   variant?: 'daily' | 'archive'
-  /** Affiche un badge « Glace » (mécanique de glissade dans Sokomot). */
-  iceMode?: boolean
 }
 
 export function LevelTile({
@@ -29,7 +27,6 @@ export function LevelTile({
   locked,
   status,
   variant = 'daily',
-  iceMode = false,
 }: Props) {
   const c = GAME_ACCENT[gameId]
   const compact = variant === 'archive'
@@ -71,17 +68,6 @@ export function LevelTile({
             {width} × {height}
           </span>
         </div>
-        {iceMode && (
-          <div
-            className={`absolute left-1.5 top-1.5 flex items-center gap-1 rounded-full bg-sky-100/95 ${
-              compact ? 'px-1.5 py-0.5 text-[10px]' : 'px-2 py-0.5 text-[11px]'
-            } font-bold uppercase tracking-wide text-sky-700 ring-1 ring-sky-400/60 backdrop-blur dark:bg-sky-900/80 dark:text-sky-200 dark:ring-sky-500/50`}
-            title="Mode glace : tout glisse jusqu'au prochain obstacle"
-          >
-            <span aria-hidden="true">❄</span>
-            <span>Glace</span>
-          </div>
-        )}
         {compact && completed && (
           <div className="absolute right-1.5 top-1.5">
             <CheckMark size="sm" variant={checkVariant} />

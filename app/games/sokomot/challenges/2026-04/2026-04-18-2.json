@@ -182,11 +182,13 @@
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 13,
   "solution": [
     "left",
+    "right",
     "down",
     "down",
+    "left",
     "down",
     "down",
     "left",
@@ -194,17 +196,7 @@
     "left",
     "left",
     "up",
-    "right",
-    "down",
-    "right",
-    "right",
-    "right",
-    "right",
-    "up",
-    "up",
-    "up",
-    "left",
-    "down"
+    "right"
   ],
   "canonicalWord": "édit"
 }

@@ -149,19 +149,18 @@
       ]
     ]
   },
-  "parMoves": 13,
+  "parMoves": 10,
   "solution": [
     "up",
+    "down",
+    "down",
     "right",
+    "up",
     "right",
     "right",
     "up",
-    "left",
-    "down",
-    "down",
-    "down",
-    "left",
-    "up"
+    "up",
+    "left"
   ],
   "canonicalWord": "est"
 }

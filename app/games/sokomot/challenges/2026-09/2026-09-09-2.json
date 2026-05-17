@@ -182,10 +182,12 @@
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 13,
   "solution": [
     "up",
+    "down",
     "right",
+    "up",
     "right",
     "right",
     "right",
@@ -194,17 +196,7 @@
     "up",
     "up",
     "left",
-    "down",
-    "up",
-    "left",
-    "left",
-    "left",
-    "down",
-    "down",
-    "down",
-    "down",
-    "right",
-    "right"
+    "down"
   ],
   "canonicalWord": "jonc"
 }

@@ -55,16 +55,6 @@ describe('LevelTile', () => {
     expect(screen.getByText('Jouer')).toBeInTheDocument()
   })
 
-  it('iceMode : badge Glace visible', () => {
-    renderTile({ iceMode: true })
-    expect(screen.getByText('Glace')).toBeInTheDocument()
-  })
-
-  it('iceMode désactivé : pas de badge Glace', () => {
-    renderTile({ iceMode: false })
-    expect(screen.queryByText('Glace')).toBeNull()
-  })
-
   it("variant archive : pas de libellé Niveau N ni de statut texte", () => {
     renderTile({ variant: 'archive', status: 'perfect' })
     expect(screen.queryByText('Niveau 1')).toBeNull()

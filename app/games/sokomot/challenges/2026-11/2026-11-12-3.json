@@ -197,7 +197,7 @@
       ]
     ]
   },
-  "parMoves": 32,
+  "parMoves": 29,
   "solution": [
     "right",
     "right",
@@ -205,8 +205,6 @@
     "up",
     "left",
     "left",
-    "down",
-    "up",
     "up",
     "left",
     "down",
@@ -222,13 +220,14 @@
     "left",
     "left",
     "left",
-    "right",
     "up",
+    "right",
     "up",
     "right",
     "up",
     "left",
-    "left"
+    "left",
+    "down"
   ],
   "canonicalWord": "messe"
 }

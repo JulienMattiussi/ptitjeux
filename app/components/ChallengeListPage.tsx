@@ -6,7 +6,7 @@ import { LevelTile } from './LevelTile'
 import { getLevelParMoves } from '~/games'
 import { completionStatus } from '~/lib/completion'
 import { dateLabel, shouldShowFutureDates, todayString } from '~/lib/dates'
-import { GAME_SIZE, isIceLevel, type GameId } from '~/lib/game-styles'
+import { GAME_SIZE, type GameId } from '~/lib/game-styles'
 import { useLocalProgress, levelKey } from '~/lib/useLocalProgress'
 
 type Props = {
@@ -105,7 +105,6 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
                   locked={locked}
                   status={status}
                   variant="daily"
-                  iceMode={isIceLevel(gameId, i)}
                 />
               )
             })}

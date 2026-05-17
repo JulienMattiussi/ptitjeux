@@ -1,5 +1,6 @@
 import { Rng } from '~/lib/random'
 import type { Block, Coord, Direction, Level } from '~/games/sokomot/types'
+import { solveOptimalSokomot } from './sokomot-optimal-solver'
 import { WORDS_BY_LENGTH } from './wordlists'
 
 /** Niveaux 2 et 4 : mécanique de glace. */
@@ -127,7 +128,7 @@ function finalize(
   isIce: boolean,
 ): Level {
   const { width, height } = inferSize(draft.walls)
-  return {
+  const base: Level = {
     id: `${date}-${index}`,
     name: `Niveau ${index} · ${width}×${height}${isIce ? ' · glace' : ''}`,
     width,
@@ -137,10 +138,25 @@ function finalize(
     ice: draft.ice,
     blocks: draft.blocks,
     target: { word, cells: draft.targets },
-    parMoves: draft.solution.length + 2,
+    // Plancher provisoire — réajusté juste après par le solveur optimal.
+    parMoves: draft.solution.length,
     solution: draft.solution,
     canonicalWord: canonical,
   }
+
+  // Recherche d'une solution **optimale** (minimum de coups). Si trouvée,
+  // remplace la solution du générateur (souvent sous-optimale à cause des
+  // zigzags de la rétro-génération) et règle `parMoves` exactement au minimum.
+  //
+  // Sur certains L3 difficiles (échange de cubes adjacents, etc.) le solveur
+  // peut épuiser son budget. Dans ce cas on conserve la solution générée
+  // comme borne supérieure valide — pas optimale mais sans buffer.
+  const optimal = solveOptimalSokomot(base, 5_000_000)
+  if (optimal && optimal.length <= draft.solution.length) {
+    base.solution = optimal
+    base.parMoves = optimal.length
+  }
+  return base
 }
 
 function inferSize(cells: Coord[]): { width: number; height: number } {
@@ -707,206 +723,19 @@ function tryGenerateSokobanPullChain(
     pos,
   }))
 
-  // Optimisation : on lance un solveur forward pour trouver la solution
-  // optimale, et on l'utilise à la place de la solution dérivée des pulls.
-  // Cela garantit un `parMoves` réaliste — sinon le par serait gonflé par les
-  // zigzags artificiels créés par la rétro-génération.
-  const letters = word.split('').map((l) => l.toUpperCase())
-  const optimalSolution = findOptimalSokobanSolution(
-    player,
-    cubes,
-    letters,
-    targets,
-    wallSet,
-    width,
-    height,
-    5_000_000,
-  )
-  // On garde la solution de pulls comme filet de sécurité si le solveur
-  // dépasse son budget.
-  const finalSolution = optimalSolution ?? solution
-
+  // La solution dérivée des pulls est valide mais souvent sous-optimale
+  // (zigzags rétro-générés). L'optimisation vers la solution minimale est
+  // faite globalement par `finalize()` via `solveOptimalSokomot`.
   return {
     walls,
     ice: [],
     player,
     blocks,
     targets,
-    solution: finalSolution,
+    solution,
   }
 }
 
-/**
- * Solveur A* forward pour Sokoban classique sans glace. Cherche la solution
- * **optimale** (en nombre total de coups joueur). Utilise une heuristique
- * admissible : somme des distances de Manhattan des cubes à leurs cibles —
- * minorant clair du nombre de pushes restants, donc minorant du nombre de
- * coups restants.
- *
- * On utilise `letters[]` pour gérer la fongibilité des cubes ayant la même
- * lettre : la heuristique apparie chaque cube à sa cible via l'index original
- * (pas un appariement optimal, mais conservatif et simple).
- */
-function findOptimalSokobanSolution(
-  initialPlayer: Coord,
-  initialCubes: Coord[],
-  letters: string[],
-  targets: Coord[],
-  walls: Set<string>,
-  width: number,
-  height: number,
-  maxStates: number,
-): Direction[] | null {
-  const targetKeys = targets.map(cellKey)
-  const isWin = (cubes: readonly Coord[]): boolean => {
-    for (let i = 0; i < targets.length; i++) {
-      const tk = targetKeys[i]
-      const cubeIdx = cubes.findIndex((c) => cellKey(c) === tk)
-      if (cubeIdx < 0) return false
-      if (letters[cubeIdx] !== letters[i]) return false
-    }
-    return true
-  }
-  const stateKey = (player: Coord, cubes: readonly Coord[]): string => {
-    const items: string[] = []
-    for (let i = 0; i < cubes.length; i++) {
-      items.push(`${letters[i]}:${cubes[i][0]},${cubes[i][1]}`)
-    }
-    items.sort()
-    return `${player[0]},${player[1]}|${items.join(';')}`
-  }
-  // Heuristique : on apparie chaque cube de lettre L au plus proche target de
-  // même lettre (sans collisions). Approximation rapide via greedy.
-  const heuristic = (cubes: readonly Coord[]): number => {
-    let total = 0
-    const usedTargets = new Set<number>()
-    for (let i = 0; i < cubes.length; i++) {
-      let bestDist = Infinity
-      let bestIdx = -1
-      for (let j = 0; j < targets.length; j++) {
-        if (usedTargets.has(j)) continue
-        if (letters[j] !== letters[i]) continue
-        const d = Math.abs(cubes[i][0] - targets[j][0]) + Math.abs(cubes[i][1] - targets[j][1])
-        if (d < bestDist) {
-          bestDist = d
-          bestIdx = j
-        }
-      }
-      if (bestIdx < 0) return Infinity
-      usedTargets.add(bestIdx)
-      total += bestDist
-    }
-    return total
-  }
-
-  type Node = {
-    player: Coord
-    cubes: Coord[]
-    parent: number
-    dir: Direction | null
-    g: number // moves so far
-    f: number // g + h
-  }
-  const nodes: Node[] = [
-    {
-      player: initialPlayer,
-      cubes: initialCubes.map((c) => [c[0], c[1]] as Coord),
-      parent: -1,
-      dir: null,
-      g: 0,
-      f: heuristic(initialCubes),
-    },
-  ]
-  if (isWin(nodes[0].cubes)) return []
-
-  // Min-heap simpliste sur f. Index dans `nodes`.
-  const heap: number[] = [0]
-  const heapCompare = (a: number, b: number): number => nodes[a].f - nodes[b].f
-  const heapPush = (idx: number) => {
-    heap.push(idx)
-    let i = heap.length - 1
-    while (i > 0) {
-      const p = Math.floor((i - 1) / 2)
-      if (heapCompare(heap[i], heap[p]) < 0) {
-        ;[heap[i], heap[p]] = [heap[p], heap[i]]
-        i = p
-      } else break
-    }
-  }
-  const heapPop = (): number => {
-    const top = heap[0]
-    const last = heap.pop()!
-    if (heap.length > 0) {
-      heap[0] = last
-      let i = 0
-      while (true) {
-        const l = 2 * i + 1
-        const r = 2 * i + 2
-        let best = i
-        if (l < heap.length && heapCompare(heap[l], heap[best]) < 0) best = l
-        if (r < heap.length && heapCompare(heap[r], heap[best]) < 0) best = r
-        if (best === i) break
-        ;[heap[i], heap[best]] = [heap[best], heap[i]]
-        i = best
-      }
-    }
-    return top
-  }
-
-  // bestG : meilleur g connu pour chaque clé d'état.
-  const bestG = new Map<string, number>()
-  bestG.set(stateKey(initialPlayer, initialCubes), 0)
-
-  while (heap.length > 0) {
-    if (nodes.length > maxStates) return null
-    const cur = heapPop()
-    const node = nodes[cur]
-
-    for (const { dir, vec } of DIRECTIONS) {
-      const adj: Coord = [node.player[0] + vec[0], node.player[1] + vec[1]]
-      if (adj[0] < 0 || adj[0] >= width || adj[1] < 0 || adj[1] >= height) continue
-      if (walls.has(cellKey(adj))) continue
-
-      const cubeIdx = node.cubes.findIndex((c) => eq(c, adj))
-      let newCubes = node.cubes
-      if (cubeIdx >= 0) {
-        const behind: Coord = [adj[0] + vec[0], adj[1] + vec[1]]
-        if (behind[0] < 0 || behind[0] >= width || behind[1] < 0 || behind[1] >= height) continue
-        if (walls.has(cellKey(behind))) continue
-        if (node.cubes.some((c, i) => i !== cubeIdx && eq(c, behind))) continue
-        newCubes = node.cubes.map((c, i) => (i === cubeIdx ? behind : c))
-      }
-      const newPlayer = adj
-      const newG = node.g + 1
-      const k = stateKey(newPlayer, newCubes)
-      const prevG = bestG.get(k)
-      if (prevG !== undefined && prevG <= newG) continue
-      bestG.set(k, newG)
-      const newH = heuristic(newCubes)
-      const idx = nodes.length
-      nodes.push({
-        player: newPlayer,
-        cubes: newCubes,
-        parent: cur,
-        dir,
-        g: newG,
-        f: newG + newH,
-      })
-      if (isWin(newCubes)) {
-        const path: Direction[] = []
-        let i = idx
-        while (i > 0) {
-          const n = nodes[i]
-          if (n.dir) path.unshift(n.dir)
-          i = n.parent
-        }
-        return path
-      }
-      heapPush(idx)
-    }
-  }
-  return null
-}
 
 /**
  * Tente un pull rétrograde sur le cube `cubeIdx` :

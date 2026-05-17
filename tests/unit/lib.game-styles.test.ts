@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { GAME_ACCENT, GAME_IDS, GAME_SIZE, isIceLevel } from '~/lib/game-styles'
+import { GAME_ACCENT, GAME_IDS, GAME_SIZE } from '~/lib/game-styles'
 
 describe('lib/game-styles', () => {
   it('GAME_IDS contient les trois jeux', () => {
@@ -31,14 +31,4 @@ describe('lib/game-styles', () => {
     expect(GAME_SIZE.semantogramme(4)).toEqual({ width: 7, height: 7 })
   })
 
-  it('isIceLevel cible uniquement Sokomot niveaux 2 et 4', () => {
-    expect(isIceLevel('sokomot', 1)).toBe(false)
-    expect(isIceLevel('sokomot', 2)).toBe(true)
-    expect(isIceLevel('sokomot', 3)).toBe(false)
-    expect(isIceLevel('sokomot', 4)).toBe(true)
-    expect(isIceLevel('boucle', 2)).toBe(false)
-    expect(isIceLevel('boucle', 4)).toBe(false)
-    expect(isIceLevel('semantogramme', 2)).toBe(false)
-    expect(isIceLevel('semantogramme', 4)).toBe(false)
-  })
 })

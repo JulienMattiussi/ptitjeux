@@ -149,20 +149,17 @@
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 9,
   "solution": [
     "up",
+    "down",
+    "right",
+    "up",
+    "left",
     "left",
     "up",
     "up",
-    "right",
-    "left",
-    "down",
-    "down",
-    "down",
-    "right",
-    "right",
-    "up"
+    "right"
   ],
   "canonicalWord": "tel"
 }

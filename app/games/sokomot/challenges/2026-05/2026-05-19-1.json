@@ -149,21 +149,17 @@
       ]
     ]
   },
-  "parMoves": 15,
+  "parMoves": 9,
   "solution": [
     "up",
+    "down",
+    "right",
+    "down",
+    "right",
     "right",
     "up",
-    "right",
-    "right",
-    "down",
-    "left",
-    "down",
-    "down",
-    "left",
-    "left",
     "up",
-    "right"
+    "left"
   ],
   "canonicalWord": "sil"
 }

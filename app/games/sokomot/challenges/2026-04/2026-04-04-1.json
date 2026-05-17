@@ -149,20 +149,18 @@
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 10,
   "solution": [
     "left",
+    "right",
     "down",
-    "down",
+    "right",
     "down",
     "left",
-    "up",
     "down",
-    "right",
-    "right",
-    "right",
-    "up",
-    "left"
+    "left",
+    "left",
+    "up"
   ],
   "canonicalWord": "sic"
 }

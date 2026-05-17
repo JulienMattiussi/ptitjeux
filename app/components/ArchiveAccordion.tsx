@@ -5,7 +5,7 @@ import { LevelTile } from './LevelTile'
 import { getLevelParMoves } from '~/games'
 import { aggregateCompletion, completionStatus, type CompletionStatus } from '~/lib/completion'
 import { dateLabelShort, monthKey, monthLabel } from '~/lib/dates'
-import { GAME_SIZE, isIceLevel, type GameId } from '~/lib/game-styles'
+import { GAME_SIZE, type GameId } from '~/lib/game-styles'
 import type { GameProgress } from '~/lib/localStorage'
 import { levelKey } from '~/lib/useLocalProgress'
 
@@ -164,7 +164,6 @@ function ArchiveDayRow({ gameId, date, progress, rowRef }: DayRowProps) {
               locked={false}
               status={statuses[i - 1]}
               variant="archive"
-              iceMode={isIceLevel(gameId, i)}
             />
           )
         })}

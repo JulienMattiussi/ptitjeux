@@ -186,26 +186,24 @@
       ]
     ]
   },
-  "parMoves": 20,
+  "parMoves": 16,
   "solution": [
     "left",
+    "right",
+    "right",
+    "right",
     "down",
+    "left",
     "down",
     "down",
     "down",
     "left",
     "left",
+    "left",
     "up",
     "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "right",
-    "right",
-    "right",
-    "up",
-    "left"
+    "left",
+    "up"
   ],
   "canonicalWord": "rote"
 }

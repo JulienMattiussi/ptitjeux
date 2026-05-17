@@ -149,20 +149,20 @@
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 12,
   "solution": [
     "left",
     "down",
     "down",
     "down",
+    "right",
+    "right",
+    "up",
     "left",
-    "up",
     "down",
-    "right",
-    "right",
-    "right",
-    "up",
-    "left"
+    "left",
+    "left",
+    "up"
   ],
   "canonicalWord": "vis"
 }

@@ -149,22 +149,20 @@
       ]
     ]
   },
-  "parMoves": 16,
+  "parMoves": 12,
   "solution": [
     "up",
-    "right",
-    "right",
-    "right",
-    "up",
     "left",
+    "up",
+    "up",
+    "right",
+    "right",
     "down",
-    "left",
-    "left",
-    "left",
-    "up",
-    "up",
+    "down",
     "right",
-    "right"
+    "right",
+    "up",
+    "left"
   ],
   "canonicalWord": "toc"
 }

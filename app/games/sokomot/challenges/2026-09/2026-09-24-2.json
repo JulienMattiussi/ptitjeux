@@ -182,26 +182,20 @@
       ]
     ]
   },
-  "parMoves": 20,
+  "parMoves": 12,
   "solution": [
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "left",
+    "up",
     "left",
     "up",
     "up",
     "left",
-    "down",
-    "right",
-    "down",
-    "right",
-    "right",
-    "right",
-    "down",
-    "down",
-    "left",
-    "left",
-    "right",
-    "right",
-    "up",
-    "left"
+    "down"
   ],
   "canonicalWord": "baba"
 }

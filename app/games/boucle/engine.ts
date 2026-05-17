@@ -9,10 +9,18 @@ export function reset(state: GameState): GameState {
 }
 
 /**
- * Déplace une sélection d'arête au clavier. Les flèches dans l'axe de l'arête
- * passent à l'arête voisine de même orientation ; les flèches perpendiculaires
- * changent d'orientation, en utilisant le premier sommet de l'arête courante
- * (gauche pour les horizontales, haut pour les verticales) comme pivot.
+ * Déplace une sélection d'arête au clavier.
+ *
+ * Logique :
+ * - Flèches dans l'axe de l'arête : glisse l'arête (même orientation).
+ * - Flèches perpendiculaires : bascule à l'orientation perpendiculaire,
+ *   pivot sur le premier sommet (gauche pour H, haut pour V).
+ * - Aux deux bords « extrêmes » (x=width-1 pour H+→ et y=height-1 pour V+↓),
+ *   on déborde sur l'arête perpendiculaire correspondante (V(width, …) ou
+ *   H(…, height)). Sans ce débordement, ces deux séries d'arêtes — la
+ *   colonne V de droite et la ligne H du bas — sont inatteignables au
+ *   clavier (les flèches perpendiculaires y mènent depuis l'autre axe,
+ *   mais le pivot toujours sur le sommet haut-gauche les exclut).
  */
 export function moveEdgeSelection(
   current: Edge,
@@ -25,7 +33,9 @@ export function moveEdgeSelection(
     // H valide pour 0 ≤ x < width, 0 ≤ y ≤ height
     switch (arrow) {
       case 'right':
-        return { x: Math.min(width - 1, x + 1), y, orientation: 'horizontal' }
+        if (x < width - 1) return { x: x + 1, y, orientation: 'horizontal' }
+        // Déborde sur la colonne V de droite (sinon inatteignable).
+        return { x: width, y: Math.min(height - 1, y), orientation: 'vertical' }
       case 'left':
         return { x: Math.max(0, x - 1), y, orientation: 'horizontal' }
       case 'up':
@@ -39,7 +49,9 @@ export function moveEdgeSelection(
   // V valide pour 0 ≤ x ≤ width, 0 ≤ y < height
   switch (arrow) {
     case 'down':
-      return { x, y: Math.min(height - 1, y + 1), orientation: 'vertical' }
+      if (y < height - 1) return { x, y: y + 1, orientation: 'vertical' }
+      // Déborde sur la ligne H du bas (sinon inatteignable).
+      return { x: Math.min(width - 1, x), y: height, orientation: 'horizontal' }
     case 'up':
       return { x, y: Math.max(0, y - 1), orientation: 'vertical' }
     case 'right':

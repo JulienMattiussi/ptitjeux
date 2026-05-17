@@ -189,11 +189,30 @@ describe('boucle engine', () => {
       expect(moveEdgeSelection(v(1, 1), 'left', W, H)).toEqual(h(0, 1))
     })
 
-    it("clamp aux bords : H ne sort pas en x, V ne sort pas en y", () => {
+    it("clamp aux bords « intérieurs » : H ne sort pas à gauche, V ne sort pas en haut", () => {
       expect(moveEdgeSelection(h(0, 1), 'left', W, H)).toEqual(h(0, 1))
-      expect(moveEdgeSelection(h(W - 1, 1), 'right', W, H)).toEqual(h(W - 1, 1))
       expect(moveEdgeSelection(v(1, 0), 'up', W, H)).toEqual(v(1, 0))
-      expect(moveEdgeSelection(v(1, H - 1), 'down', W, H)).toEqual(v(1, H - 1))
+    })
+
+    it("aux deux bords « extrêmes », déborde sur la perpendiculaire pour atteindre les arêtes sinon inaccessibles", () => {
+      // H(W-1, 1) + right : déborde sur la colonne V de droite (V valide pour x=W).
+      expect(moveEdgeSelection(h(W - 1, 1), 'right', W, H)).toEqual(v(W, 1))
+      // V(1, H-1) + down : déborde sur la ligne H du bas (H valide pour y=H).
+      expect(moveEdgeSelection(v(1, H - 1), 'down', W, H)).toEqual(h(1, H))
+    })
+
+    it('on peut naviguer jusqu\'à la colonne V de droite et la ligne H du bas', () => {
+      // H(0,0) →→→→ : H(W-1,0) puis débordement vers V(W, 0)
+      let e: Edge = h(0, 0)
+      for (let i = 0; i < W - 1; i++) e = moveEdgeSelection(e, 'right', W, H)
+      expect(e).toEqual(h(W - 1, 0))
+      e = moveEdgeSelection(e, 'right', W, H)
+      expect(e).toEqual(v(W, 0))
+      // V(W, 0) ↓↓↓ : V(W, H-1) puis débordement vers H(W-1, H)
+      for (let i = 0; i < H - 1; i++) e = moveEdgeSelection(e, 'down', W, H)
+      expect(e).toEqual(v(W, H - 1))
+      e = moveEdgeSelection(e, 'down', W, H)
+      expect(e).toEqual(h(W - 1, H))
     })
 
     it('clamp aux bords lors d\'un pivot H↔V', () => {

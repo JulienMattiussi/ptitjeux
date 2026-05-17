@@ -6,53 +6,26 @@ import { HelpBox } from '~/components/HelpBox'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { OutlineButton } from '~/components/OutlineButton'
 import { PlaySidebar } from '~/components/PlaySidebar'
+import { StatusRow } from '~/components/StatusRow'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/boucle/Board'
 import { getAllDates, getLevel } from '~/games/boucle/challenges'
 import {
   areCluesSatisfied,
-  countEdgesAroundCell,
+  countClues,
+  countSatisfiedClues,
   isValidLoop,
   isWon,
   loadLevel,
   moveEdgeSelection,
-  reset,
-  toggleEdge,
+  reducer,
 } from '~/games/boucle/engine'
 import type { Edge, GameState } from '~/games/boucle/types'
-import { victoryVariant } from '~/lib/completion'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
-
-type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }
-
-function StatusRow({ label, value, ok }: { label: string; value: string; ok: boolean }) {
-  return (
-    <div className="flex items-center justify-between">
-      <span className="text-gray-500 dark:text-gray-400">{label}</span>
-      <span
-        className={`font-semibold ${
-          ok
-            ? 'text-emerald-600 dark:text-emerald-400'
-            : 'text-amber-600 dark:text-amber-400'
-        }`}
-      >
-        {value}
-      </span>
-    </div>
-  )
-}
-
-function reducer(state: GameState, action: Action): GameState {
-  switch (action.type) {
-    case 'toggle':
-      return toggleEdge(state, action.edge)
-    case 'reset':
-      return reset(state)
-  }
-}
+import { getVictoryState } from '~/lib/victoryState'
 
 // Wrapper qui force un remount complet quand l'URL change de niveau.
 export default function BouclePlayRoute() {
@@ -73,16 +46,8 @@ function BouclePlay() {
 
   const won = level ? isWon(state) : false
   const cluesOk = level ? areCluesSatisfied(state) : false
-  const clueEntries = level ? Object.entries(level.clues) : []
-  const totalClues = clueEntries.length
-  const okClues = level
-    ? clueEntries.reduce((acc, [key, target]) => {
-        const [cxStr, cyStr] = key.split(',')
-        return countEdgesAroundCell(state, Number(cxStr), Number(cyStr)) === target
-          ? acc + 1
-          : acc
-      }, 0)
-    : 0
+  const totalClues = level ? countClues(state) : 0
+  const okClues = level ? countSatisfiedClues(state) : 0
 
   // Sélection au clavier : flèches déplacent l'arête, Espace toggle.
   const [selected, setSelected] = useState<Edge>({ x: 0, y: 0, orientation: 'horizontal' })
@@ -102,8 +67,7 @@ function BouclePlay() {
   }, [level])
 
   const loopOk = level ? isValidLoop(state.edges) : false
-  const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
-  const variant = victoryVariant(state.moves, level?.parMoves)
+  const { beatPar, variant } = getVictoryState(level, state.moves)
 
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({

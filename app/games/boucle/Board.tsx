@@ -1,3 +1,4 @@
+import { EdgeLine } from './EdgeLine'
 import { clueStatus, findInsideCells, isValidLoop } from './engine'
 import type { Edge, GameState } from './types'
 
@@ -30,13 +31,7 @@ function isSameEdge(a: Edge | undefined, b: Edge): boolean {
   return a.orientation === b.orientation && a.x === b.x && a.y === b.y
 }
 
-export function Board({
-  state,
-  onToggleEdge,
-  selected,
-  onHoverEdge,
-  cellSize = 64,
-}: Props) {
+export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 64 }: Props) {
   const { level } = state
   const width = level.width * cellSize + 2 * PADDING
   const height = level.height * cellSize + 2 * PADDING
@@ -77,7 +72,6 @@ export function Board({
           </filter>
         </defs>
 
-        {/* Surlignage des cases intérieures quand la boucle est valide */}
         {Array.from({ length: level.height }, (_, cy) =>
           Array.from({ length: level.width }, (_, cx) => {
             if (!insideKeys.has(`${cx},${cy}`)) return null
@@ -89,15 +83,12 @@ export function Board({
                 width={cellSize}
                 height={cellSize}
                 className="fill-emerald-200/60 dark:fill-emerald-700/30"
-                style={{
-                  transition: 'opacity 0.3s ease-out',
-                }}
+                style={{ transition: 'opacity 0.3s ease-out' }}
               />
             )
           }),
         )}
 
-        {/* Lettres */}
         {Array.from({ length: level.height }, (_, cy) =>
           Array.from({ length: level.width }, (_, cx) => (
             <text
@@ -118,7 +109,6 @@ export function Board({
           )),
         )}
 
-        {/* Indices */}
         {Object.entries(level.clues).map(([key, value]) => {
           const [cxStr, cyStr] = key.split(',')
           const cx = Number(cxStr)
@@ -152,7 +142,6 @@ export function Board({
           )
         })}
 
-        {/* Sommets */}
         {Array.from({ length: level.height + 1 }, (_, j) =>
           Array.from({ length: level.width + 1 }, (_, i) => (
             <circle
@@ -165,135 +154,35 @@ export function Board({
           )),
         )}
 
-        {/* Arêtes horizontales */}
-        {horizontalEdges.map((e) => {
-          const x1 = PADDING + e.x * cellSize
-          const x2 = PADDING + (e.x + 1) * cellSize
-          const y = PADDING + e.y * cellSize
-          const active = isEdgeActive(state.edges, e)
-          const isSelected = isSameEdge(selected, e)
-          return (
-            <g key={`h-${e.x}-${e.y}`}>
-              {active && (
-                <line
-                  x1={x1}
-                  y1={y}
-                  x2={x2}
-                  y2={y}
-                  strokeWidth={9}
-                  className="stroke-sky-400/40 dark:stroke-sky-300/30"
-                  strokeLinecap="round"
-                  filter="url(#boucle-glow)"
-                />
-              )}
-              {isSelected && (
-                <>
-                  <line
-                    x1={x1}
-                    y1={y}
-                    x2={x2}
-                    y2={y}
-                    strokeWidth={8}
-                    className="stroke-amber-400/40 dark:stroke-amber-300/40"
-                    strokeLinecap="round"
-                  />
-                  <circle cx={x1} cy={y} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
-                  <circle cx={x2} cy={y} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
-                </>
-              )}
-              <line
-                x1={x1}
-                y1={y}
-                x2={x2}
-                y2={y}
-                strokeWidth={active ? 4.5 : 1}
-                className={
-                  active
-                    ? 'stroke-sky-600 dark:stroke-sky-300'
-                    : 'stroke-gray-300/60 dark:stroke-gray-700/60'
-                }
-                style={{ transition: 'stroke-width 0.15s ease-out' }}
-                strokeLinecap="round"
-              />
-              <line
-                x1={x1}
-                y1={y}
-                x2={x2}
-                y2={y}
-                strokeWidth={20}
-                stroke="transparent"
-                onClick={() => onToggleEdge(e)}
-                onMouseEnter={() => onHoverEdge?.(e)}
-                className="cursor-pointer"
-              />
-            </g>
-          )
-        })}
+        {horizontalEdges.map((e) => (
+          <EdgeLine
+            key={`h-${e.x}-${e.y}`}
+            edge={e}
+            x1={PADDING + e.x * cellSize}
+            y1={PADDING + e.y * cellSize}
+            x2={PADDING + (e.x + 1) * cellSize}
+            y2={PADDING + e.y * cellSize}
+            active={isEdgeActive(state.edges, e)}
+            isSelected={isSameEdge(selected, e)}
+            onToggle={onToggleEdge}
+            onHover={onHoverEdge}
+          />
+        ))}
 
-        {/* Arêtes verticales */}
-        {verticalEdges.map((e) => {
-          const x = PADDING + e.x * cellSize
-          const y1 = PADDING + e.y * cellSize
-          const y2 = PADDING + (e.y + 1) * cellSize
-          const active = isEdgeActive(state.edges, e)
-          const isSelected = isSameEdge(selected, e)
-          return (
-            <g key={`v-${e.x}-${e.y}`}>
-              {active && (
-                <line
-                  x1={x}
-                  y1={y1}
-                  x2={x}
-                  y2={y2}
-                  strokeWidth={9}
-                  className="stroke-sky-400/40 dark:stroke-sky-300/30"
-                  strokeLinecap="round"
-                  filter="url(#boucle-glow)"
-                />
-              )}
-              {isSelected && (
-                <>
-                  <line
-                    x1={x}
-                    y1={y1}
-                    x2={x}
-                    y2={y2}
-                    strokeWidth={8}
-                    className="stroke-amber-400/40 dark:stroke-amber-300/40"
-                    strokeLinecap="round"
-                  />
-                  <circle cx={x} cy={y1} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
-                  <circle cx={x} cy={y2} r={3.5} className="fill-amber-500 dark:fill-amber-400" />
-                </>
-              )}
-              <line
-                x1={x}
-                y1={y1}
-                x2={x}
-                y2={y2}
-                strokeWidth={active ? 4.5 : 1}
-                className={
-                  active
-                    ? 'stroke-sky-600 dark:stroke-sky-300'
-                    : 'stroke-gray-300/60 dark:stroke-gray-700/60'
-                }
-                style={{ transition: 'stroke-width 0.15s ease-out' }}
-                strokeLinecap="round"
-              />
-              <line
-                x1={x}
-                y1={y1}
-                x2={x}
-                y2={y2}
-                strokeWidth={20}
-                stroke="transparent"
-                onClick={() => onToggleEdge(e)}
-                onMouseEnter={() => onHoverEdge?.(e)}
-                className="cursor-pointer"
-              />
-            </g>
-          )
-        })}
+        {verticalEdges.map((e) => (
+          <EdgeLine
+            key={`v-${e.x}-${e.y}`}
+            edge={e}
+            x1={PADDING + e.x * cellSize}
+            y1={PADDING + e.y * cellSize}
+            x2={PADDING + e.x * cellSize}
+            y2={PADDING + (e.y + 1) * cellSize}
+            active={isEdgeActive(state.edges, e)}
+            isSelected={isSameEdge(selected, e)}
+            onToggle={onToggleEdge}
+            onHover={onHoverEdge}
+          />
+        ))}
       </svg>
     </div>
   )

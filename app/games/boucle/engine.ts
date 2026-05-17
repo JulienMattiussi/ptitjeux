@@ -255,3 +255,31 @@ export function isWon(state: GameState): boolean {
   if (!areCluesSatisfied(state)) return false
   return getInsideWord(state).toUpperCase() === state.level.solutionWord.toUpperCase()
 }
+
+/**
+ * Nombre d'indices actuellement satisfaits. Utilisé par l'UI pour afficher
+ * la progression « x/y indices ok ».
+ */
+export function countSatisfiedClues(state: GameState): number {
+  let ok = 0
+  for (const [key, expected] of Object.entries(state.level.clues)) {
+    const [cxStr, cyStr] = key.split(',')
+    if (countEdgesAroundCell(state, Number(cxStr), Number(cyStr)) === expected) ok++
+  }
+  return ok
+}
+
+export function countClues(state: GameState): number {
+  return Object.keys(state.level.clues).length
+}
+
+export type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }
+
+export function reducer(state: GameState, action: Action): GameState {
+  switch (action.type) {
+    case 'toggle':
+      return toggleEdge(state, action.edge)
+    case 'reset':
+      return reset(state)
+  }
+}

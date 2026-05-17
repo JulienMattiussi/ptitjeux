@@ -15,7 +15,17 @@
       "Bash(npx tsx *)",
       "Bash(cat > *)",
       "Bash(DEBUG_SOKOMOT=1 time npx tsx /tmp/test-solver.ts)",
-      "Bash(DEBUG_SOKOMOT=1 npx tsx /tmp/test-solver.ts)"
+      "Bash(DEBUG_SOKOMOT=1 npx tsx /tmp/test-solver.ts)",
+      "Bash(xargs -I {} dirname {})",
+      "Bash(awk '/beatPar|variant.*victoryVariant/ {print NR\": \"$0}' /home/julien/Documents/MyRepos/ptitjeux/app/routes/sokomot.\\\\$date.\\\\$index.tsx /home/julien/Documents/MyRepos/ptitjeux/app/routes/boucle.\\\\$date.\\\\$index.tsx /home/julien/Documents/MyRepos/ptitjeux/app/routes/semantogramme.\\\\$date.\\\\$index.tsx)",
+      "Read(//home/julien/Documents/MyRepos/ptitjeux/app/routes/**)",
+      "Bash(awk 'BEGIN {game=\"\"} /^\\\\/home.*index.tsx/ {split\\($1, a, \"/\"\\); game=a[9]; game_file=substr\\(game, 1, index\\(game, \".\"\\)-1\\)} /VictoryOverlay/ && game {print game_file\": line \" NR}' /home/julien/Documents/MyRepos/ptitjeux/app/routes/sokomot.\\\\$date.\\\\$index.tsx /home/julien/Documents/MyRepos/ptitjeux/app/routes/boucle.\\\\$date.\\\\$index.tsx /home/julien/Documents/MyRepos/ptitjeux/app/routes/semantogramme.\\\\$date.\\\\$index.tsx)",
+      "Bash(grep -n \"const.*=\" /home/julien/Documents/MyRepos/ptitjeux/app/routes/boucle.\\\\$date.\\\\$index.tsx | tail -20)",
+      "Bash(grep \"Board\" app/routes/sokomot.\\\\$date.\\\\$index.tsx | head -3)",
+      "Bash(wc -l app/routes/sokomot.\\\\$date.\\\\$index.tsx app/routes/boucle.\\\\$date.\\\\$index.tsx app/routes/semantogramme.\\\\$date.\\\\$index.tsx app/games/sokomot/Board.tsx app/games/boucle/Board.tsx app/games/semantogramme/Board.tsx app/games/sokomot/engine.ts app/games/boucle/engine.ts app/games/semantogramme/engine.ts app/lib/challenges-loader.ts 2>/dev/null)",
+      "Bash(wc -l app/routes/sokomot.\\\\$date.\\\\$index.tsx app/routes/boucle.\\\\$date.\\\\$index.tsx app/routes/semantogramme.\\\\$date.\\\\$index.tsx app/games/sokomot/engine.ts app/games/boucle/engine.ts app/games/semantogramme/engine.ts)",
+      "Bash(npx tsc *)",
+      "Bash(make check *)"
     ],
     "additionalDirectories": [
       "/tmp"

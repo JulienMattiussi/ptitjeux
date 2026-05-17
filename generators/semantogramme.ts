@@ -78,11 +78,20 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
     if (!any) solution[rng.nextInt(height)][x] = true
   }
 
-  // Au moins une case « hors thème » par ligne (sinon clue = width partout, pas marrant) :
+  // Au moins une case « hors thème » par ligne (sinon clue = width partout, pas marrant).
+  // On choisit une colonne qui a strictement plus d'1 IN pour ne pas casser
+  // l'invariant « ≥1 IN par colonne » établi juste au-dessus.
   for (let y = 0; y < height; y++) {
-    if (solution[y].every((v) => v)) {
-      solution[y][rng.nextInt(width)] = false
+    if (!solution[y].every((v) => v)) continue
+    const candidates: number[] = []
+    for (let x = 0; x < width; x++) {
+      let count = 0
+      for (let yy = 0; yy < height; yy++) if (solution[yy][x]) count++
+      if (count > 1) candidates.push(x)
     }
+    // Au moins une colonne en a forcément plusieurs (width≤height invariant)
+    const x = candidates.length > 0 ? candidates[rng.nextInt(candidates.length)] : rng.nextInt(width)
+    solution[y][x] = false
   }
 
   // Pose les mots

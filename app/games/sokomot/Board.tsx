@@ -1,12 +1,6 @@
 import { isWon } from './engine'
-import type { Direction, GameState } from './types'
-
-const PENCIL_ROTATION: Record<Direction, number> = {
-  right: 0,
-  down: 90,
-  left: 180,
-  up: -90,
-}
+import { PencilSprite } from './PencilSprite'
+import type { GameState } from './types'
 
 type Props = {
   state: GameState
@@ -18,21 +12,18 @@ const ICE_PATTERN =
 const ICE_PATTERN_DARK =
   'repeating-linear-gradient(45deg, oklch(35% 0.07 230) 0 6px, oklch(28% 0.05 230) 6px 8px)'
 
-const WALL_PATTERN =
-  'linear-gradient(135deg, oklch(40% 0.02 260), oklch(30% 0.02 260))'
+const WALL_PATTERN = 'linear-gradient(135deg, oklch(40% 0.02 260), oklch(30% 0.02 260))'
 
 export function Board({ state, cellSize = 60 }: Props) {
   const { level, player, blocks } = state
   const won = isWon(state)
   const isIceLevel = level.ice.length > 0
 
-  const isWall = (x: number, y: number) =>
-    level.walls.some(([wx, wy]) => wx === x && wy === y)
+  const isWall = (x: number, y: number) => level.walls.some(([wx, wy]) => wx === x && wy === y)
   const isIce = (x: number, y: number) => level.ice.some(([ix, iy]) => ix === x && iy === y)
   const targetIndex = (x: number, y: number) =>
     level.target.cells.findIndex(([tx, ty]) => tx === x && ty === y)
-  const blockAt = (x: number, y: number) =>
-    blocks.find((b) => b.pos[0] === x && b.pos[1] === y)
+  const blockAt = (x: number, y: number) => blocks.find((b) => b.pos[0] === x && b.pos[1] === y)
 
   const rows = Array.from({ length: level.height }, (_, y) => y)
   const cols = Array.from({ length: level.width }, (_, x) => x)
@@ -56,7 +47,6 @@ export function Board({ state, cellSize = 60 }: Props) {
           height: level.height * cellSize,
         }}
       >
-        {/* Couche statique : cases */}
         <div
           className="grid"
           style={{
@@ -106,7 +96,6 @@ export function Board({ state, cellSize = 60 }: Props) {
           )}
         </div>
 
-        {/* Style switcher pour le motif glace en mode sombre */}
         <style>{`
           @media (prefers-color-scheme: dark) {
             [role="application"] [role="gridcell"] {
@@ -115,18 +104,14 @@ export function Board({ state, cellSize = 60 }: Props) {
           }
         `}</style>
 
-        {/* Couche animée : blocs */}
         {blocks.map((b) => {
-          const onTarget =
-            level.target.cells.findIndex(([tx, ty]) => tx === b.pos[0] && ty === b.pos[1]) >= 0
+          const targetIdx = level.target.cells.findIndex(
+            ([tx, ty]) => tx === b.pos[0] && ty === b.pos[1],
+          )
+          const onTarget = targetIdx >= 0
           const onTargetCorrect =
             won ||
-            (onTarget &&
-              level.target.word[
-                level.target.cells.findIndex(
-                  ([tx, ty]) => tx === b.pos[0] && ty === b.pos[1],
-                )
-              ]?.toUpperCase() === b.letter.toUpperCase())
+            (onTarget && level.target.word[targetIdx]?.toUpperCase() === b.letter.toUpperCase())
           return (
             <div
               key={b.id}
@@ -155,7 +140,6 @@ export function Board({ state, cellSize = 60 }: Props) {
           )
         })}
 
-        {/* Couche animée : joueur (z-10 pour passer au-dessus des blocs) */}
         <div
           className="pointer-events-none absolute z-10 flex items-center justify-center transition-transform duration-200 ease-out"
           style={{
@@ -166,98 +150,9 @@ export function Board({ state, cellSize = 60 }: Props) {
             transform: `translate(${player[0] * cellSize}px, ${player[1] * cellSize}px)`,
           }}
         >
-          <svg
-            viewBox="0 0 100 100"
-            width={cellSize * 0.95}
-            height={cellSize * 0.95}
-            className="drop-shadow-lg transition-transform duration-150 ease-out"
-            style={{ transform: `rotate(${PENCIL_ROTATION[state.lastDirection]}deg)` }}
-            role="img"
-            aria-label={`Crayon orienté ${state.lastDirection}`}
-          >
-            {/* Gomme rose */}
-            <rect
-              x="2"
-              y="22"
-              width="20"
-              height="56"
-              rx="6"
-              fill="oklch(80% 0.15 0)"
-              stroke="oklch(55% 0.18 0)"
-              strokeWidth="1.2"
-            />
-            {/* Virole métallique */}
-            <rect
-              x="22"
-              y="22"
-              width="8"
-              height="56"
-              fill="oklch(78% 0.01 250)"
-              stroke="oklch(50% 0.02 250)"
-              strokeWidth="1"
-            />
-            <line
-              x1="24.5"
-              y1="22"
-              x2="24.5"
-              y2="78"
-              stroke="oklch(50% 0.02 250)"
-              strokeWidth="0.8"
-            />
-            <line
-              x1="27.5"
-              y1="22"
-              x2="27.5"
-              y2="78"
-              stroke="oklch(50% 0.02 250)"
-              strokeWidth="0.8"
-            />
-            {/* Corps hexagonal : 3 facettes horizontales pour suggérer le profil 6 pans */}
-            {/* Facette supérieure (oblique, plus sombre) */}
-            <rect x="30" y="22" width="46" height="14" fill="oklch(76% 0.16 70)" />
-            {/* Facette centrale (face avant, plus claire) */}
-            <rect x="30" y="36" width="46" height="28" fill="oklch(87% 0.19 82)" />
-            {/* Facette inférieure (oblique, encore plus sombre) */}
-            <rect x="30" y="64" width="46" height="14" fill="oklch(70% 0.15 65)" />
-            {/* Reflet sur la facette centrale */}
-            <rect x="32" y="40" width="42" height="3" fill="white" opacity="0.55" />
-            {/* Lignes d'arête entre facettes */}
-            <line x1="30" y1="36" x2="76" y2="36" stroke="oklch(55% 0.16 60)" strokeWidth="0.7" opacity="0.6" />
-            <line x1="30" y1="64" x2="76" y2="64" stroke="oklch(55% 0.16 60)" strokeWidth="0.7" opacity="0.6" />
-            {/* Contour du corps */}
-            <rect
-              x="30"
-              y="22"
-              width="46"
-              height="56"
-              fill="none"
-              stroke="oklch(55% 0.18 60)"
-              strokeWidth="1.2"
-            />
-            {/* Pointe taillée : 3 facettes triangulaires reflétant le hex */}
-            <polygon points="76,22 96,50 76,36" fill="oklch(86% 0.11 78)" />
-            <polygon points="76,36 96,50 76,64" fill="oklch(94% 0.09 82)" />
-            <polygon points="76,64 96,50 76,78" fill="oklch(80% 0.10 70)" />
-            {/* Lignes d'arête de la pointe */}
-            <line x1="76" y1="36" x2="96" y2="50" stroke="oklch(55% 0.16 60)" strokeWidth="0.6" opacity="0.55" />
-            <line x1="76" y1="64" x2="96" y2="50" stroke="oklch(55% 0.16 60)" strokeWidth="0.6" opacity="0.55" />
-            {/* Contour de la pointe */}
-            <polygon
-              points="76,22 96,50 76,78"
-              fill="none"
-              stroke="oklch(55% 0.18 60)"
-              strokeWidth="1.2"
-              strokeLinejoin="round"
-            />
-            {/* Pointe graphite */}
-            <polygon
-              points="96,50 100,50 96,55 96,45"
-              fill="oklch(18% 0.02 250)"
-            />
-          </svg>
+          <PencilSprite direction={state.lastDirection} size={cellSize * 0.95} />
         </div>
 
-        {/* Overlay victoire */}
         {won && (
           <div
             className="pointer-events-none absolute inset-0 animate-fade-in-up"

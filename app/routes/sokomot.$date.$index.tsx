@@ -10,27 +10,11 @@ import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/sokomot/Board'
 import { getAllDates, getLevel } from '~/games/sokomot/challenges'
-import { applyMove, isWon, loadLevel, reset, undo } from '~/games/sokomot/engine'
-import type { Direction, GameState } from '~/games/sokomot/types'
-import { victoryVariant } from '~/lib/completion'
+import { isWon, loadLevel, reducer } from '~/games/sokomot/engine'
+import type { GameState } from '~/games/sokomot/types'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
-
-type Action =
-  | { type: 'move'; direction: Direction }
-  | { type: 'undo' }
-  | { type: 'reset' }
-
-function reducer(state: GameState, action: Action): GameState {
-  switch (action.type) {
-    case 'move':
-      return applyMove(state, action.direction)
-    case 'undo':
-      return undo(state)
-    case 'reset':
-      return reset(state)
-  }
-}
+import { getVictoryState } from '~/lib/victoryState'
 
 // Wrapper qui force un remount complet (et donc un état frais) chaque fois
 // que l'URL change vers un autre niveau. Sans cela, le `useReducer` à
@@ -91,8 +75,7 @@ function SokomotPlay() {
     return <LevelNotFound backHref="/sokomot" />
   }
 
-  const beatPar = level.parMoves !== undefined && state.moves <= level.parMoves
-  const variant = victoryVariant(state.moves, level.parMoves)
+  const { beatPar, variant } = getVictoryState(level, state.moves)
 
   return (
     <GameLayout

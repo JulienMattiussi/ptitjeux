@@ -91,3 +91,19 @@ export function isThemeGuessCorrect(state: GameState): boolean {
 export function isWon(state: GameState): boolean {
   return isGridSolved(state) && isThemeGuessCorrect(state)
 }
+
+export type Action =
+  | { type: 'cycle'; x: number; y: number }
+  | { type: 'reset' }
+  | { type: 'guess'; value: string }
+
+export function reducer(state: GameState, action: Action): GameState {
+  switch (action.type) {
+    case 'cycle':
+      return cycleCellStatus(state, action.x, action.y)
+    case 'reset':
+      return reset(state)
+    case 'guess':
+      return setThemeGuess(state, action.value)
+  }
+}

@@ -148,3 +148,19 @@ export function isWon(state: GameState): boolean {
     return block?.letter.toUpperCase() === target.word[index].toUpperCase()
   })
 }
+
+export type Action =
+  | { type: 'move'; direction: Direction }
+  | { type: 'undo' }
+  | { type: 'reset' }
+
+export function reducer(state: GameState, action: Action): GameState {
+  switch (action.type) {
+    case 'move':
+      return applyMove(state, action.direction)
+    case 'undo':
+      return undo(state)
+    case 'reset':
+      return reset(state)
+  }
+}

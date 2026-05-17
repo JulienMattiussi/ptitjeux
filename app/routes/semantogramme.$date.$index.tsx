@@ -11,37 +11,19 @@ import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/semantogramme/Board'
 import { getAllDates, getLevel } from '~/games/semantogramme/challenges'
 import {
-  cycleCellStatus,
   isFullyMarked,
   isGridSolved,
   isThemeGuessCorrect,
   isWon,
   loadLevel,
-  reset,
-  setThemeGuess,
+  reducer,
 } from '~/games/semantogramme/engine'
 import type { GameState } from '~/games/semantogramme/types'
-import { victoryVariant } from '~/lib/completion'
 import { moveCellCursor } from '~/lib/cursor'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
-
-type Action =
-  | { type: 'cycle'; x: number; y: number }
-  | { type: 'reset' }
-  | { type: 'guess'; value: string }
-
-function reducer(state: GameState, action: Action): GameState {
-  switch (action.type) {
-    case 'cycle':
-      return cycleCellStatus(state, action.x, action.y)
-    case 'reset':
-      return reset(state)
-    case 'guess':
-      return setThemeGuess(state, action.value)
-  }
-}
+import { getVictoryState } from '~/lib/victoryState'
 
 // Wrapper qui force un remount complet quand l'URL change de niveau.
 export default function SemantogrammePlayRoute() {
@@ -90,8 +72,7 @@ function SemantogrammePlay() {
   useEffect(() => {
     if (level) prefetchDefinition(level.themeWord)
   }, [level])
-  const beatPar = !!level && level.parMoves !== undefined && state.moves <= level.parMoves
-  const variant = victoryVariant(state.moves, level?.parMoves)
+  const { beatPar, variant } = getVictoryState(level, state.moves)
 
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({

@@ -1,6 +1,7 @@
 import { Rng } from '~/lib/random'
 import type { Block, Coord, Direction, Level } from '~/games/sokomot/types'
 import { solveOptimalSokomot } from './sokomot-optimal-solver'
+import { solveOptimalSokobanPushState } from './sokomot-pushstate-solver'
 import { WORDS_BY_LENGTH } from './wordlists'
 
 /** Niveaux 2 et 4 : mécanique de glace. */
@@ -148,10 +149,19 @@ function finalize(
   // remplace la solution du générateur (souvent sous-optimale à cause des
   // zigzags de la rétro-génération) et règle `parMoves` exactement au minimum.
   //
-  // Sur certains L3 difficiles (échange de cubes adjacents, etc.) le solveur
-  // peut épuiser son budget. Dans ce cas on conserve la solution générée
-  // comme borne supérieure valide — pas optimale mais sans buffer.
-  const optimal = solveOptimalSokomot(base, 5_000_000)
+  // Stratégie en cascade :
+  //   1. BFS-A* sur (player_pos, cubes) — optimum exact, gère glace + non-glace.
+  //   2. Si budget dépassé sur un L3 difficile (échange de cubes adjacents),
+  //      bascule sur le solveur push-state (transitions par poussée). Le
+  //      push-state explore beaucoup moins d'états sur les puzzles Sokoban
+  //      profonds mais peut renvoyer une solution légèrement au-dessus du
+  //      strict optimum sur certains cas — c'est néanmoins une **borne
+  //      supérieure valide bien meilleure** que la solution rétrogénérée.
+  //   3. Si les deux échouent, on garde la solution du générateur.
+  let optimal = solveOptimalSokomot(base, 5_000_000)
+  if (!optimal && !isIce) {
+    optimal = solveOptimalSokobanPushState(base, 5_000_000)
+  }
   if (optimal && optimal.length <= draft.solution.length) {
     base.solution = optimal
     base.parMoves = optimal.length

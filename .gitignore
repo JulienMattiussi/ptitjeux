@@ -10,3 +10,8 @@
 
 # Tests
 /coverage/
+
+# Claude Code — état local (permissions, lock, transcripts)
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/transcripts/

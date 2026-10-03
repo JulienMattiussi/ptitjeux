@@ -56,6 +56,17 @@ Catalogue des jeux web/mobile cérébraux, casse-tête et jeux de mots qui inspi
 | **DominoFit** | Placer des dominos pour remplir une grille selon des contraintes | mobile |
 | **Tents** | Placer des tentes adjacentes aux arbres avec contraintes ligne/colonne | varié |
 
+## Inkwell Games (puzzles quotidiens)
+
+Studio qui adapte des puzzles papier classiques en défis quotidiens, difficulté croissante du lundi (facile) au dimanche (difficile). Site : inkwellgames.com.
+
+| Jeu | Mécanique | Puzzle classique proche |
+|---|---|---|
+| **Stars** | Placer exactement 2 étoiles par ligne, colonne et région, sans que deux étoiles se touchent | Star Battle (Two Not Touch) |
+| **Fields** | Remplir la grille de champs verts et bleus ; deux champs de même couleur ne se touchent pas, chaque chiffre donne la taille de son champ | Fillomino (variante bicolore) |
+| **Loopy River** (ex-Lazy River) | Tracer une seule boucle fermée qui passe par toutes les cases | Chemin hamiltonien, cousin de Masyu |
+| **Mosaic** | Révéler un pixel art à l'aide d'indices chiffrés | Fill-a-Pix / Nonogram |
+
 ## Spatial / physique
 
 | Jeu | Mécanique |

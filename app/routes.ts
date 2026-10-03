@@ -8,4 +8,6 @@ export default [
   route('boucle/:date/:index', 'routes/boucle.$date.$index.tsx'),
   route('semantogramme', 'routes/semantogramme.tsx'),
   route('semantogramme/:date/:index', 'routes/semantogramme.$date.$index.tsx'),
+  route('anglemort', 'routes/anglemort.tsx'),
+  route('anglemort/:date/:index', 'routes/anglemort.$date.$index.tsx'),
 ] satisfies RouteConfig

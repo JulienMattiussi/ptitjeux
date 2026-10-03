@@ -182,6 +182,95 @@ Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont li
 
 ---
 
+## 4. Angle mort : Vigies × ligne unique
+
+**Pitch** : placer et orienter des vigiles pour surveiller toute la pièce, sauf l'unique couloir par lequel le cambrioleur ira de la porte jusqu'au diamant. Premier jeu **sans mot** : placement pur. Inspiration : Queens, Akari, Loopy River.
+
+### Éléments de la grille
+- **Case libre** : sol, peut recevoir un vigile.
+- **Pilier** (fixe) : bloque la vue et le passage.
+- **Entrée** : case libre sur le **bord** de la grille, point d'arrivée du cambrioleur. Dessinée par une porte sur le pourtour et une flèche venue de l'extérieur. Position différente à chaque niveau.
+- **Diamant 💎** : case libre **n'importe où** dans la pièce, fin du chemin. Position différente à chaque niveau.
+- **Indice chiffré** : case libre qui affiche le nombre de vigiles qui la voient.
+- **Miroir ╱ ╲** (niveau 4, fixe) : dévie la vue de 90°, bloque le passage.
+
+Porte, diamant, indices et miroirs n'acceptent pas de vigile.
+
+### Vigiles
+Trois types, chacun orientable :
+
+| Type | Champs de vision | Orientations |
+|---|---|---|
+| Simple | 1 direction | 4 (↑ → ↓ ←) |
+| Angle | 2 directions à 90° | 4 (┗ ┏ ┓ ┛) |
+| Opposé | 2 directions à 180° | 2 (━ ┃) |
+
+Un vigile éclaire en ligne droite avec sa ou ses lampes torches, jusqu'à un pilier ou au bord de la grille. La lumière passe au-dessus des autres vigiles. Un miroir prolonge le faisceau en le déviant.
+
+Le **lot est donné** par le niveau (ex. « 3 simples + 1 angle ») et doit être entièrement placé.
+
+### Conditions de victoire
+1. Tout le lot est placé.
+2. Chaque indice chiffré est vu par exactement le nombre de vigiles indiqué.
+3. Les cases libres **non surveillées** (hors vigiles) forment **un seul chemin sans embranchement** de 🚪 à 💎 : la porte et le diamant ont exactement 1 voisin non surveillé, toutes les autres cases du chemin exactement 2, et l'ensemble est connexe.
+
+### Progression sur la journée
+Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable : le bord de la grille arrête la vue, pas besoin de bordure de murs.
+
+| Niv. | Taille | Vigiles | Nouveauté |
+|---|---|---|---|
+| 1 | 7×6 | simples | règles de base, chemin compris |
+| 2 | 8×7 | simples | grille plus grande, plus de piliers |
+| 3 | 9×8 | simples + doubles (angle, opposé) | vigiles à 2 champs |
+| 4 | 10×9 | simples + doubles | 1 ou 2 miroirs |
+
+### Chemin du cambrioleur
+- Longueur **variable** d'un niveau à l'autre, mais au minimum `largeur + hauteur` cases (13 en 7×6, 19 en 10×9), et au plus ~40 % des cases libres.
+- Au moins **3 virages**, pour qu'un chemin long mais presque droit ne se devine pas d'un coup d'œil.
+
+### Contrôles
+| Touche | Action |
+|---|---|
+| Flèches / ZQSD / WASD | Déplacer le curseur |
+| **Espace** | Poser le prochain vigile du lot, ou retirer celui sous le curseur |
+| **Entrée** | Faire pivoter le vigile sous le curseur |
+
+Nécessite de distinguer Espace et Entrée dans `useGameKeyboard` (aujourd'hui confondus en « action principale »). Le chemin non surveillé est mis en évidence en direct, pour que le joueur voie le couloir se dessiner.
+
+### Statut `perfect`
+`moves` = nombre de **poses** (les rotations ne comptent pas). `parMoves` = taille du lot. Parfait = aucun vigile retiré ni déplacé, donc résolu sans tâtonner.
+
+### Génération (offline, build-time)
+1. Placer des piliers aléatoires (et les miroirs au niveau 4).
+2. Tirer la porte sur le bord, puis un chemin auto-évitant de longueur et de nombre de virages conformes, qui se termine sur le diamant.
+3. Placer des vigiles (types selon le niveau) qui couvrent toutes les cases hors chemin sans éclairer le chemin, puis retirer les vigiles superflus.
+4. Déduire le lot, puis ajouter des indices chiffrés jusqu'à ce que le solveur trouve une **solution unique**.
+
+### Format de niveau
+```json
+{
+  "id": "2026-10-03-3",
+  "name": "Niveau 3 · 9×8",
+  "width": 9,
+  "height": 8,
+  "pillars": [[2, 1], [5, 3]],
+  "mirrors": [],
+  "door": [0, 4],
+  "diamond": [6, 2],
+  "clues": { "3,5": 2, "7,1": 0 },
+  "pool": { "simple": 3, "angle": 1, "oppose": 1 },
+  "parMoves": 5,
+  "solution": [
+    { "pos": [1, 1], "type": "simple", "facing": "E" },
+    { "pos": [4, 6], "type": "angle", "facing": "N" }
+  ]
+}
+```
+
+`facing` est la direction principale : un vigile `angle` regarde `facing` et sa rotation horaire (N → nord + est), un vigile `oppose` regarde `facing` et son opposé. Les miroirs s'écrivent `{ "pos": [x, y], "kind": "/" }` ou `"\\"`. `solution` n'est lu que par le test d'intégrité.
+
+---
+
 ## Idées en réserve (non priorisées)
 
 ### Galaxies Lexicales — Spiral Galaxies × mots
@@ -201,3 +290,6 @@ Plier une grille pour superposer des motifs. Pure logique combinatoire, sans mot
 
 ### Inertie — Sokoban × glace pure
 Glissade systématique. Tous les blocs glissent jusqu'à un obstacle. Niveaux de planification longue.
+
+### Cascade : pose de dominos × réaction en chaîne (sans mots)
+Placer un lot imposé de pièces (domino droit, domino d'angle à 90°, séparateur en fin de semaine) dans les cases vides, pour qu'une seule poussée depuis ✋ fasse tomber tous les dominos et toutes les cibles 🎯 en une chaîne continue. La « ligne unique » est la trajectoire de la chute. Inspiration : DominoFit, Loopy River, Zip.

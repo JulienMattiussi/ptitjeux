@@ -1,13 +1,16 @@
+import { getLevel as getAngleMortLevel } from './anglemort/challenges'
 import { getLevel as getBoucleLevel } from './boucle/challenges'
 import { getLevel as getSemantogrammeLevel } from './semantogramme/challenges'
 import { getLevel as getSokomotLevel } from './sokomot/challenges'
 import type { GameId } from '~/lib/game-styles'
 
-const GETTERS: Record<GameId, (date: string, index: number) => { parMoves?: number } | undefined> = {
-  sokomot: getSokomotLevel,
-  boucle: getBoucleLevel,
-  semantogramme: getSemantogrammeLevel,
-}
+const GETTERS: Record<GameId, (date: string, index: number) => { parMoves?: number } | undefined> =
+  {
+    sokomot: getSokomotLevel,
+    boucle: getBoucleLevel,
+    semantogramme: getSemantogrammeLevel,
+    anglemort: getAngleMortLevel,
+  }
 
 /**
  * Renvoie l'objectif de coups (parMoves) pour un niveau donné, quel que soit

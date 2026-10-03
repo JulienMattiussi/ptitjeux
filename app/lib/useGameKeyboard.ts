@@ -34,6 +34,11 @@ type Options = {
   onDirection?: (direction: GameKeyDirection) => void
   /** Espace ou Entrée — action principale (poser/cycler/basculer). */
   onAction?: () => void
+  /**
+   * Si fourni, Entrée déclenche cette action secondaire et seul Espace
+   * déclenche `onAction` (ex. Angle mort : Espace pose, Entrée pivote).
+   */
+  onSecondaryAction?: () => void
   /** Ctrl+Z / Cmd+Z. */
   onUndo?: () => void
   /** Touche `r`. */
@@ -57,6 +62,7 @@ export function useGameKeyboard({
   enabled,
   onDirection,
   onAction,
+  onSecondaryAction,
   onUndo,
   onReset,
   ignoreInputs = false,
@@ -85,6 +91,11 @@ export function useGameKeyboard({
         onDirection(direction)
         return
       }
+      if (onSecondaryAction && event.key === 'Enter') {
+        event.preventDefault()
+        onSecondaryAction()
+        return
+      }
       if (onAction && ACTION_KEYS.has(event.key)) {
         event.preventDefault()
         onAction()
@@ -96,5 +107,5 @@ export function useGameKeyboard({
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [enabled, onDirection, onAction, onUndo, onReset, ignoreInputs])
+  }, [enabled, onDirection, onAction, onSecondaryAction, onUndo, onReset, ignoreInputs])
 }

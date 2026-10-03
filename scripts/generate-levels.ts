@@ -1,5 +1,5 @@
 /**
- * Génère les fichiers JSON des défis quotidiens pour les trois jeux.
+ * Génère les fichiers JSON des défis quotidiens de chaque jeu.
  *
  * Usage :
  *   tsx scripts/generate-levels.ts [options]
@@ -7,7 +7,7 @@
  * Options :
  *   --start <YYYY-MM-DD>   Date de début (défaut : 2026-04-01)
  *   --end <YYYY-MM-DD>     Date de fin   (défaut : 2027-01-31)
- *   --game <id>            Restreindre à un jeu (sokomot|boucle|semantogramme).
+ *   --game <id>            Restreindre à un jeu (sokomot|boucle|semantogramme|anglemort).
  *                          Peut être répété : --game sokomot --game boucle
  *   --level <n>            Restreindre à un niveau (1..4). Peut être répété.
  *   --clean                Supprimer les fichiers couverts par le filtre avant
@@ -28,6 +28,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { dateRange, monthKey } from '../app/lib/dates.js'
+import { generateAngleMortLevel } from '../generators/anglemort.js'
 import { generateBoucleLevel } from '../generators/boucle.js'
 import { generateSemantogrammeLevel } from '../generators/semantogramme.js'
 import { generateSokomotLevel } from '../generators/sokomot.js'
@@ -41,6 +42,7 @@ const ALL_GAMES = [
   { id: 'sokomot', generator: generateSokomotLevel },
   { id: 'boucle', generator: generateBoucleLevel },
   { id: 'semantogramme', generator: generateSemantogrammeLevel },
+  { id: 'anglemort', generator: generateAngleMortLevel },
 ] as const
 
 type GameId = (typeof ALL_GAMES)[number]['id']
@@ -88,7 +90,9 @@ function parseArgs(argv: readonly string[]): {
       case '--game': {
         const v = takeValue()
         if (!validGameIds.has(v)) {
-          throw new Error(`--game inconnu : ${v} (attendu : sokomot|boucle|semantogramme)`)
+          throw new Error(
+            `--game inconnu : ${v} (attendu : sokomot|boucle|semantogramme|anglemort)`,
+          )
         }
         games.add(v as GameId)
         break
@@ -125,7 +129,7 @@ function printHelp(): void {
 Options :
   --start <YYYY-MM-DD>   Date de début (défaut : ${DEFAULT_START})
   --end   <YYYY-MM-DD>   Date de fin   (défaut : ${DEFAULT_END})
-  --game  <id>           Jeu à générer (sokomot|boucle|semantogramme). Répétable.
+  --game  <id>           Jeu à générer (sokomot|boucle|semantogramme|anglemort). Répétable.
   --level <n>            Niveau à générer (1..4). Répétable.
   --clean                Supprimer les fichiers du filtre avant régénération.
   -h, --help             Cette aide.

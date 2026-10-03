@@ -25,7 +25,7 @@ export const games: GameDescriptor[] = [
     name: 'Boucle',
     tagline: 'Encercle le mot caché.',
     description:
-      "Trace une seule boucle fermée sur une grille de lettres. Les indices numériques fonctionnent comme un Slitherlink. Les lettres encerclées forment le mot du jour.",
+      'Trace une seule boucle fermée sur une grille de lettres. Les indices numériques fonctionnent comme un Slitherlink. Les lettres encerclées forment le mot du jour.',
     href: '/boucle',
     accentClass: GAME_ACCENT.boucle.bar,
   },
@@ -34,9 +34,18 @@ export const games: GameDescriptor[] = [
     name: 'Sémantogramme',
     tagline: 'Découvre le thème par recoupement.',
     description:
-      "Une grille de mots. Les chiffres en marge indiquent combien de mots de chaque ligne et colonne sont liés à un thème caché. Identifie-les tous, puis devine le thème.",
+      'Une grille de mots. Les chiffres en marge indiquent combien de mots de chaque ligne et colonne sont liés à un thème caché. Identifie-les tous, puis devine le thème.',
     href: '/semantogramme',
     accentClass: GAME_ACCENT.semantogramme.bar,
+  },
+  {
+    id: 'anglemort',
+    name: 'Angle mort',
+    tagline: 'Laisse le champ libre au cambrioleur.',
+    description:
+      "Tu es le chef de la sécurité, et tu es corrompu. Place et oriente tes vigiles pour que tout semble surveillé, en laissant à ton complice un unique couloir dans l'ombre jusqu'au diamant.",
+    href: '/anglemort',
+    accentClass: GAME_ACCENT.anglemort.bar,
   },
 ]
 

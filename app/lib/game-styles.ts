@@ -7,9 +7,14 @@
  * dupliquer les classes CSS.
  */
 
-export type GameId = 'sokomot' | 'boucle' | 'semantogramme'
+export type GameId = 'sokomot' | 'boucle' | 'semantogramme' | 'anglemort'
 
-export const GAME_IDS: readonly GameId[] = ['sokomot', 'boucle', 'semantogramme'] as const
+export const GAME_IDS: readonly GameId[] = [
+  'sokomot',
+  'boucle',
+  'semantogramme',
+  'anglemort',
+] as const
 
 export type GameAccent = {
   /** Gradient pour la barre d'accent en haut des cartes (`bg-linear-to-r ${bar}`). */
@@ -41,6 +46,12 @@ export const GAME_ACCENT: Record<GameId, GameAccent> = {
     text: 'text-amber-700 dark:text-amber-300',
     badgeBorder: 'border-amber-500/70 dark:border-amber-400/60',
   },
+  anglemort: {
+    bar: 'from-violet-500 to-fuchsia-600',
+    ring: 'hover:border-violet-400 dark:hover:border-violet-500',
+    text: 'text-violet-700 dark:text-violet-300',
+    badgeBorder: 'border-violet-500/70 dark:border-violet-400/60',
+  },
 }
 
 /** Calcule la taille de la grille pour un niveau donné dans un jeu donné. */
@@ -48,5 +59,5 @@ export const GAME_SIZE: Record<GameId, (index: number) => { width: number; heigh
   sokomot: (i) => ({ width: 6 + i, height: 5 + i }),
   boucle: (i) => ({ width: 3 + i, height: 3 + i }),
   semantogramme: (i) => ({ width: 3 + i, height: 3 + i }),
+  anglemort: (i) => ({ width: 6 + i, height: 5 + i }),
 }
-

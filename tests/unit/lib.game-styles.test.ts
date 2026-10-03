@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { GAME_ACCENT, GAME_IDS, GAME_SIZE } from '~/lib/game-styles'
 
 describe('lib/game-styles', () => {
-  it('GAME_IDS contient les trois jeux', () => {
-    expect(GAME_IDS).toEqual(['sokomot', 'boucle', 'semantogramme'])
+  it('GAME_IDS contient les quatre jeux', () => {
+    expect(GAME_IDS).toEqual(['sokomot', 'boucle', 'semantogramme', 'anglemort'])
   })
 
   it("GAME_ACCENT a une entrée pour chaque jeu avec toutes les classes requises", () => {

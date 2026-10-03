@@ -6,11 +6,12 @@ Plateforme web de mini-jeux logico-spatiaux, **full front-end**, sans backend.
 Les niveaux sont des fichiers JSON statiques chargés par les routes du framework.
 La progression locale est stockée dans `localStorage`.
 
-Trois jeux dans la v1 :
+Quatre jeux :
 
 1. **Sokomot** — Sokoban × Wordle. Pousser des blocs-lettres pour former un mot dans la zone cible. Variante "mode glace".
 2. **Boucle** — Slitherlink × mot caché. Tracer une boucle fermée sur une grille de lettres ; les lettres encerclées forment le mot du jour.
 3. **Sémantogramme** — Nonogram × Semantle. Identifier les mots liés à un thème caché dans une grille, à l'aide de chiffres en marge façon Nonogram.
+4. **Angle mort** : placement pur, sans mot. Chef de la sécurité corrompu, le joueur place et oriente ses vigiles pour que toute la salle soit éclairée sauf un couloir unique, de l'entrée au diamant, par lequel passe son complice cambrioleur.
 
 Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillées et [docs/project-plan.md](docs/project-plan.md) pour le plan global.
 
@@ -42,6 +43,7 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 - **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`.
 - **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`.
 - **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`.
+- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis vérifier avec le solveur (`generators/anglemort-solver.ts`) que la solution est **unique à l'écran**. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour.
 
 **Ajouter un niveau sans son entrée dans le fichier de tests d'intégrité fait échouer le test concerné** (par construction : la map `SOLUTIONS` ou `LEVEL_IDS` doit être mise à jour). C'est intentionnel et bloquant.
 
@@ -106,7 +108,7 @@ export function isWon(state: GameState): boolean
 
 ### Source unique de vérité — pas de duplication
 
-Tout pattern partagé entre les 3 jeux doit vivre dans `app/lib/` ou `app/components/`. **Ne pas dupliquer**, factoriser :
+Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/components/`. **Ne pas dupliquer**, factoriser :
 
 | Pattern | Source unique |
 |---|---|
@@ -121,6 +123,9 @@ Tout pattern partagé entre les 3 jeux doit vivre dans `app/lib/` ou `app/compon
 | Ref toujours à jour | `app/lib/useLatestRef.ts` |
 | Page « niveau introuvable » | `app/components/LevelNotFound.tsx` |
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |
+| Compteur de coups + objectif (sidebar) | `app/components/MovesCard.tsx` (extras du jeu en `children`) |
+| Boutons Annuler (Ctrl+Z) / Recommencer (R) | `app/components/PlayControls.tsx` |
+| Annulation pour un moteur sans historique | `app/lib/undoable.ts` (`withUndo`, `undoable`) |
 
 Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas déjà** un équivalent dans `lib/` ou `components/`. Avant de copier-coller du code entre 2 routes/jeux, **extraire** dans `lib/`.
 
@@ -191,9 +196,9 @@ Toute interaction de jeu doit être faisable **sans souris**. Convention partag�
 | Touche | Action |
 |---|---|
 | Flèches **↑↓←→**, **ZQSD** (AZERTY) ou **WASD** (QWERTY) | Déplacer le curseur (Boucle, Sémantogramme) ou le joueur (Sokomot) |
-| **Espace** ou **Entrée** | Action principale (toggle arête, cycle case, etc.) |
-| **Ctrl+Z** / **Cmd+Z** | Annuler le dernier coup (Sokomot) |
-| **R** | Recommencer le niveau (Sokomot) |
+| **Espace** ou **Entrée** | Action principale (toggle arête, cycle case, etc.). Si le jeu fournit `onSecondaryAction`, Entrée la déclenche et seul Espace reste l'action principale (Angle mort : Espace pose ou retire, Entrée fait pivoter). |
+| **Ctrl+Z** / **Cmd+Z** | Annuler le dernier coup (tous les jeux) |
+| **R** | Recommencer le niveau (tous les jeux) |
 
 Dans la **modale de victoire** (`VictoryOverlay`) :
 
@@ -236,18 +241,20 @@ Source unique : `app/lib/game-styles.ts`.
 | Sokomot | sky → indigo | barres de cartes, ring de hover, badges de taille |
 | Boucle | emerald → teal | id |
 | Sémantogramme | amber → orange | id |
+| Angle mort | violet → fuchsia | id |
 
 Tout composant qui rend des éléments dépendant du jeu **consomme `GAME_ACCENT[gameId]`** plutôt que de coder en dur les classes Tailwind.
 
 ### Animations et timing
 
 - L'overlay de victoire de **Sokomot** attend **280 ms** après la victoire pour laisser le slide CSS (`duration-200`) terminer avant de s'afficher.
+- Dans **Angle mort**, l'overlay attend que le cambrioleur ait traversé le couloir (`useThiefWalk`, 140 ms par case, plus un pas de pause au diamant).
 - L'overlay anime son apparition (`animate-fade-in-up`) ; la carte intérieure fait `animate-pop`.
 - Les transitions de blocs / arêtes / cellules utilisent `duration-200` (pas plus, pour rester réactif).
 
 ### Mot du jour et définitions
 
-- Tout niveau a un **mot cible** (Sokomot/Boucle) ou un **thème** (Sémantogramme).
+- Tout niveau à mots a un **mot cible** (Sokomot/Boucle) ou un **thème** (Sémantogramme). Angle mort n'a pas de mot.
 - À l'arrivée sur la page de jeu, on **précharge** la définition Wiktionnaire (`prefetchDefinition`) pour qu'elle soit instantanée à la victoire.
 - Le mot envoyé au Wiktionnaire est `level.canonicalWord ?? level.target.word` — préserve les **accents** (le display est ASCII pour la grille, le canonical avec accents pour l'API).
 - Endpoint utilisé : **`fr.wiktionary.org/w/api.php`** (action=query, prop=extracts). Le REST `/api/rest_v1/page/definition` ne marche **pas** sur le Wiktionnaire FR (501).
@@ -313,6 +320,8 @@ Sans ce wrapper, le `useReducer` interne garde l'état du niveau précédent qua
 | `make generate-levels` | **(Manuel uniquement)** Régénérer les défis quotidiens |
 
 > Le serveur dev tourne sur le port **2222** par défaut.
+>
+> **Node 24** requis (`engines` dans `package.json`). Sous Node 25, le `localStorage` natif de Node masque celui de jsdom et fait échouer les tests.
 
 ## Hors scope v1
 

@@ -184,67 +184,82 @@ Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont li
 
 ## 4. Angle mort : Vigies × ligne unique
 
-**Pitch** : placer et orienter des vigiles pour surveiller toute la pièce, sauf l'unique couloir par lequel le cambrioleur ira de la porte jusqu'au diamant. Premier jeu **sans mot** : placement pur. Inspiration : Queens, Akari, Loopy River.
+**Pitch** : tu es le chef de la sécurité, et tu es corrompu. Ce soir, ton complice vient voler le diamant. Place et oriente tes vigiles pour que la salle ait l'air surveillée, tout en lui laissant un unique couloir dans l'ombre, de l'entrée jusqu'au diamant. Premier jeu **sans mot** : placement pur. Inspiration : Queens, Akari, Loopy River, Inkwell Games.
 
 ### Éléments de la grille
 - **Case libre** : sol, peut recevoir un vigile.
-- **Pilier** (fixe) : bloque la vue et le passage.
-- **Entrée** : case libre sur le **bord** de la grille, point d'arrivée du cambrioleur. Dessinée par une porte sur le pourtour et une flèche venue de l'extérieur. Position différente à chaque niveau.
-- **Diamant 💎** : case libre **n'importe où** dans la pièce, fin du chemin. Position différente à chaque niveau.
-- **Indice chiffré** : case libre qui affiche le nombre de vigiles qui la voient.
-- **Miroir ╱ ╲** (niveau 4, fixe) : dévie la vue de 90°, bloque le passage.
+- **Pilier** (fixe) : bloque la lumière et le passage. Même teinte que le mur d'enceinte.
+- **Entrée** : case libre sur le **bord** de la grille. La porte est dessinée dans l'épaisseur du mur, le cambrioleur attend devant, à l'extérieur. Position différente à chaque niveau.
+- **Diamant 💎** : case libre **n'importe où** dans la salle, fin du couloir. Position différente à chaque niveau.
+- **Indice chiffré** : nombre de vigiles qui éclairent la case dans la solution.
+- **Miroir ╱ ╲** (niveau 4, fixe) : dévie le faisceau de 90°, bloque le passage.
 
-Porte, diamant, indices et miroirs n'acceptent pas de vigile.
+Entrée, diamant, indices et miroirs n'acceptent pas de vigile.
 
 ### Vigiles
 Trois types, chacun orientable :
 
-| Type | Champs de vision | Orientations |
-|---|---|---|
-| Simple | 1 direction | 4 (↑ → ↓ ←) |
-| Angle | 2 directions à 90° | 4 (┗ ┏ ┓ ┛) |
-| Opposé | 2 directions à 180° | 2 (━ ┃) |
+| Type | Lampes | Orientations | Dessin |
+|---|---|---|---|
+| Simple | 1, devant | 4 (↑ → ↓ ←) | lampe dans la main droite |
+| Angle | 2, à 90° | 4 | devant + sur le côté droit |
+| Opposé | 2, à 180° | 2 | une lampe dans chaque main, bras écartés |
 
-Un vigile éclaire en ligne droite avec sa ou ses lampes torches, jusqu'à un pilier ou au bord de la grille. La lumière passe au-dessus des autres vigiles. Un miroir prolonge le faisceau en le déviant.
-
-Le **lot est donné** par le niveau (ex. « 3 simples + 1 angle ») et doit être entièrement placé.
+- Une lampe éclaire en ligne droite jusqu'au mur, à un pilier ou à **un autre vigile**, qui arrête le faisceau et fait de l'ombre derrière lui. Un miroir prolonge le faisceau en le déviant.
+- Deux vigiles peuvent se voir.
+- Une lampe ne peut pas être **braquée directement contre le mur ou un pilier** : la pose et la rotation sautent ces orientations. Une case cernée (mur et piliers sur tous ses côtés) ne peut donc pas recevoir de vigile.
+- Le **lot est donné** par le niveau et doit être entièrement placé. La réserve dessine chaque vigile restant.
 
 ### Conditions de victoire
 1. Tout le lot est placé.
-2. Chaque indice chiffré est vu par exactement le nombre de vigiles indiqué.
-3. Les cases libres **non surveillées** (hors vigiles) forment **un seul chemin sans embranchement** de 🚪 à 💎 : la porte et le diamant ont exactement 1 voisin non surveillé, toutes les autres cases du chemin exactement 2, et l'ensemble est connexe.
+2. Chaque indice chiffré est éclairé par exactement le nombre de vigiles indiqué.
+3. Les cases libres **non éclairées** (hors vigiles) forment **un seul couloir sans embranchement** de l'entrée au diamant : l'entrée et le diamant ont exactement 1 voisin dans l'ombre, les autres cases du couloir exactement 2, et l'ensemble est connexe.
+
+À la victoire, le cambrioleur entre, suit le couloir case par case en se tournant dans son sens de marche, ramasse le diamant, puis le panneau de victoire s'affiche (« Casse parfait ! » ou « Le diamant a disparu »).
+
+### Rendu
+- Cases dans l'ombre **sombres**, cases éclairées claires et chaudes : le cambrioleur se cache dans le noir.
+- Vigile vu de dessus : casquette à 6 pans avec visière courte, épaules bleues, mains, lampes et faisceaux. Le personnage pivote par le plus court chemin.
+- Cambrioleur sur le même gabarit : vêtements orange, gants noirs, cheveux, masque noir sur les yeux.
+- Curseur clair (violet pâle, gris sur les cases interdites aux vigiles).
 
 ### Progression sur la journée
-Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable : le bord de la grille arrête la vue, pas besoin de bordure de murs.
+Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 
 | Niv. | Taille | Vigiles | Nouveauté |
 |---|---|---|---|
-| 1 | 7×6 | simples | règles de base, chemin compris |
+| 1 | 7×6 | simples | règles de base, couloir compris |
 | 2 | 8×7 | simples | grille plus grande, plus de piliers |
-| 3 | 9×8 | simples + doubles (angle, opposé) | vigiles à 2 champs |
+| 3 | 9×8 | simples + doubles (angle, opposé) | vigiles à 2 lampes |
 | 4 | 10×9 | simples + doubles | 1 ou 2 miroirs |
 
-### Chemin du cambrioleur
-- Longueur **variable** d'un niveau à l'autre, mais au minimum `largeur + hauteur` cases (13 en 7×6, 19 en 10×9), et au plus ~40 % des cases libres.
-- Au moins **3 virages**, pour qu'un chemin long mais presque droit ne se devine pas d'un coup d'œil.
+### Couloir du cambrioleur
+- Longueur **variable**, au minimum `largeur + hauteur` cases (13 en 7×6, 19 en 10×9), au plus ~40 % des cases libres.
+- Au moins **3 virages**, pour qu'un couloir long mais presque droit ne se devine pas d'un coup d'œil.
 
 ### Contrôles
-| Touche | Action |
+| Entrée | Action |
 |---|---|
+| Clic | Poser un vigile, ou faire pivoter celui en place |
+| Clic droit | Retirer le vigile |
 | Flèches / ZQSD / WASD | Déplacer le curseur |
 | **Espace** | Poser le prochain vigile du lot, ou retirer celui sous le curseur |
-| **Entrée** | Faire pivoter le vigile sous le curseur |
-
-Nécessite de distinguer Espace et Entrée dans `useGameKeyboard` (aujourd'hui confondus en « action principale »). Le chemin non surveillé est mis en évidence en direct, pour que le joueur voie le couloir se dessiner.
+| **Entrée** | Faire pivoter le vigile (passe au type suivant du lot après la dernière orientation) |
+| **Ctrl+Z** / **R** | Annuler / recommencer |
 
 ### Statut `perfect`
 `moves` = nombre de **poses** (les rotations ne comptent pas). `parMoves` = taille du lot. Parfait = aucun vigile retiré ni déplacé, donc résolu sans tâtonner.
 
+### Unicité « à l'écran »
+Le solveur compte les solutions telles que le joueur les voit : cases et types des vigiles, plus l'éclairage de chaque case. Deux placements qui ne diffèrent que par une orientation sans effet visible comptent pour une seule solution, puisqu'aucun indice ne pourrait les départager.
+
 ### Génération (offline, build-time)
 1. Placer des piliers aléatoires (et les miroirs au niveau 4).
-2. Tirer la porte sur le bord, puis un chemin auto-évitant de longueur et de nombre de virages conformes, qui se termine sur le diamant.
-3. Placer des vigiles (types selon le niveau) qui couvrent toutes les cases hors chemin sans éclairer le chemin, puis retirer les vigiles superflus.
-4. Déduire le lot, puis ajouter des indices chiffrés jusqu'à ce que le solveur trouve une **solution unique**.
+2. Tirer l'entrée sur le bord, puis un couloir auto-évitant **induit** (aucune case ne touche le couloir hors de ses voisines) de longueur et de nombre de virages conformes ; il se termine sur le diamant.
+3. Construire avec le solveur un placement de vigiles qui éclaire toutes les cases hors couloir sans éclairer le couloir, puis retirer les vigiles superflus.
+4. Déduire le lot, puis ajouter des indices chiffrés pris là où une solution concurrente diffère, jusqu'à ce que le solveur prouve l'**unicité à l'écran**.
+
+Le solveur (`generators/anglemort-solver.ts`) gère le blocage par des bornes « éclairé à coup sûr » / « peut-être éclairé », propage les contraintes du couloir (degrés, connexité de l'entrée au diamant), des indices et de la couverture, et branche sur les vigiles capables d'éclairer la case la plus contrainte.
 
 ### Format de niveau
 ```json

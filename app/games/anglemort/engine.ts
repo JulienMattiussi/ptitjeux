@@ -89,11 +89,31 @@ export function remaining(state: GameState, type: GuardType): number {
   return state.level.pool[type] - countPlaced(state.guards, type)
 }
 
+/**
+ * Une lampe ne peut pas être braquée directement contre le mur d'enceinte ou
+ * un pilier : chaque direction du vigile doit donner sur une case de la salle.
+ */
+export function isFacingAllowed(level: Level, guard: Omit<Guard, 'pos'> & { pos: Pos }): boolean {
+  return guardDirs(guard).every((d) => {
+    const x = guard.pos[0] + DELTA[d][0]
+    const y = guard.pos[1] + DELTA[d][1]
+    return inBounds(level, x, y) && !isPillar(level, x, y)
+  })
+}
+
+/** Variantes (type, orientation) autorisées sur une case, dans l'ordre de cycle. */
+function allowedVariants(level: Level, pos: Pos, types: readonly GuardType[]) {
+  return types
+    .flatMap((type) => FACINGS[type].map((facing) => ({ type, facing })))
+    .filter((v) => isFacingAllowed(level, { pos, ...v }))
+}
+
 export function placeGuard(state: GameState, x: number, y: number): GameState {
   if (!isPlaceable(state.level, x, y) || guardAt(state, x, y)) return state
-  const type = GUARD_TYPES.find((t) => remaining(state, t) > 0)
-  if (!type) return state
-  const guard: Guard = { pos: [x, y], type, facing: FACINGS[type][0] }
+  const available = GUARD_TYPES.filter((t) => remaining(state, t) > 0)
+  const [variant] = allowedVariants(state.level, [x, y], available)
+  if (!variant) return state
+  const guard: Guard = { pos: [x, y], ...variant }
   return { ...state, guards: [...state.guards, guard], moves: state.moves + 1 }
 }
 
@@ -115,9 +135,11 @@ export function rotateGuard(state: GameState, x: number, y: number): GameState {
   const current = guardAt(state, x, y)
   if (!current) return state
   const others = state.guards.filter((g) => g !== current)
-  const variants = GUARD_TYPES.filter(
+  const types = GUARD_TYPES.filter(
     (t) => t === current.type || state.level.pool[t] - countPlaced(others, t) > 0,
-  ).flatMap((type) => FACINGS[type].map((facing) => ({ type, facing })))
+  )
+  const variants = allowedVariants(state.level, current.pos, types)
+  if (variants.length === 0) return state
   const index = variants.findIndex((v) => v.type === current.type && v.facing === current.facing)
   const next = variants[(index + 1) % variants.length]
   const guards = state.guards.map((g) => (g === current ? { ...g, ...next } : g))

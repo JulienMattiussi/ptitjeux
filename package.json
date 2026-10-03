@@ -2,6 +2,9 @@
   "name": "ptitjeux",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "^24"
+  },
   "scripts": {
     "dev": "react-router dev",
     "build": "react-router build",

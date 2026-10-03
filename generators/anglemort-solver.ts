@@ -23,6 +23,7 @@ import {
   areCluesSatisfied,
   computeVision,
   guardDirs,
+  isFacingAllowed,
   isFloor,
   isPlaceable,
   isSinglePath,
@@ -151,6 +152,7 @@ function buildCandidates(level: Level): Candidate[] {
       for (const type of GUARD_TYPES) {
         if (level.pool[type] === 0) continue
         for (const facing of FACINGS[type]) {
+          if (!isFacingAllowed(level, { pos: [x, y], type, facing })) continue
           const { rays, usesMirror } = traceRays(level, { pos: [x, y], type, facing })
           const reach = new Set(rays.flat()).size
           out.push({ pos: y * level.width + x, type, facing, rays, reach, usesMirror })
@@ -184,10 +186,7 @@ function makeCtx(level: Level, options: SolveOptions): Ctx {
       return [y * w + x, v]
     }),
   )
-  const ends = new Set([
-    level.door[1] * w + level.door[0],
-    level.diamond[1] * w + level.diamond[0],
-  ])
+  const ends = new Set([level.door[1] * w + level.door[0], level.diamond[1] * w + level.diamond[0]])
   return {
     level,
     w,
@@ -396,7 +395,12 @@ function needsCover(ctx: Ctx, n: Node, b: Bounds, u: number): boolean {
  * faisceau l'atteint sans traverser de vigile posé), et présence d'un vigile
  * déjà posé qui l'éclairera si rien ne s'interpose.
  */
-function coverers(ctx: Ctx, n: Node, b: Bounds, u: number): { cands: number[]; uncertain: boolean } {
+function coverers(
+  ctx: Ctx,
+  n: Node,
+  b: Bounds,
+  u: number,
+): { cands: number[]; uncertain: boolean } {
   const cands = ctx.candsAt[u].filter((k) => n.cand[k] === 0)
   let uncertain = false
   ctx.cands.forEach((c, k) => {

@@ -5,6 +5,7 @@ import {
   corridorOrder,
   guardAt,
   guardDirs,
+  isFacingAllowed,
   isPlaceable,
   isPoolComplete,
   isSinglePath,
@@ -101,6 +102,31 @@ describe('anglemort engine : placement', () => {
     expect(placeGuard(state, 0, 0)).toBe(state)
   })
 
+  it('pose dans la première orientation qui ne donne pas sur le mur', () => {
+    const state = placeGuard(loadLevel(makeLevel()), 1, 0)
+    expect(guardAt(state, 1, 0)?.facing).toBe('E')
+  })
+
+  it('ne pose rien dans une case cernée de murs et de piliers', () => {
+    const state = loadLevel(
+      makeLevel({
+        pillars: [
+          [1, 2],
+          [2, 1],
+          [3, 2],
+        ],
+      }),
+    )
+    expect(placeGuard(state, 2, 2)).toBe(state)
+  })
+
+  it('refuse une lampe braquée contre un pilier ou le mur', () => {
+    const level = makeLevel({ pillars: [[2, 1]] })
+    expect(isFacingAllowed(level, { pos: [2, 2], type: 'simple', facing: 'N' })).toBe(false)
+    expect(isFacingAllowed(level, { pos: [2, 2], type: 'simple', facing: 'S' })).toBe(false)
+    expect(isFacingAllowed(level, { pos: [2, 2], type: 'simple', facing: 'E' })).toBe(true)
+  })
+
   it('ne pose rien sur un vigile existant', () => {
     const state = placeGuard(loadLevel(makeLevel()), 0, 2)
     expect(placeGuard(state, 0, 2)).toBe(state)
@@ -142,25 +168,30 @@ describe('anglemort engine : placement', () => {
 })
 
 describe('anglemort engine : rotation', () => {
-  function facings(state: GameState, turns: number): string[] {
+  function facings(state: GameState, [x, y]: Pos, turns: number): string[] {
     const out: string[] = []
     for (let i = 0; i < turns; i++) {
-      state = rotateGuard(state, 0, 2)
-      const g = guardAt(state, 0, 2)
+      state = rotateGuard(state, x, y)
+      const g = guardAt(state, x, y)
       out.push(`${g?.type}:${g?.facing}`)
     }
     return out
   }
 
-  it('un vigile simple fait le tour des 4 orientations', () => {
+  it('un vigile simple au centre fait le tour des 4 orientations', () => {
+    const state = placeGuard(loadLevel(makeLevel()), 2, 1)
+    expect(facings(state, [2, 1], 4)).toEqual(['simple:E', 'simple:S', 'simple:W', 'simple:N'])
+  })
+
+  it('saute les orientations braquées contre le mur', () => {
     const state = placeGuard(loadLevel(makeLevel()), 0, 2)
-    expect(facings(state, 4)).toEqual(['simple:E', 'simple:S', 'simple:W', 'simple:N'])
+    expect(facings(state, [0, 2], 2)).toEqual(['simple:E', 'simple:N'])
   })
 
   it('bascule sur les types encore disponibles du lot après la dernière orientation', () => {
     const level = makeLevel({ pool: { simple: 1, angle: 0, oppose: 1 } })
-    const state = placeGuard(loadLevel(level), 0, 2)
-    expect(facings(state, 6)).toEqual([
+    const state = placeGuard(loadLevel(level), 2, 1)
+    expect(facings(state, [2, 1], 6)).toEqual([
       'simple:E',
       'simple:S',
       'simple:W',
@@ -173,7 +204,7 @@ describe('anglemort engine : rotation', () => {
   it('ne bascule pas sur un type dont le lot est déjà posé ailleurs', () => {
     const level = makeLevel({ pool: { simple: 1, angle: 1, oppose: 0 } })
     const state = withGuards(level, [
-      { pos: [0, 2], type: 'simple', facing: 'W' },
+      { pos: [0, 2], type: 'simple', facing: 'E' },
       { pos: [3, 1], type: 'angle', facing: 'N' },
     ])
     expect(guardAt(rotateGuard(state, 0, 2), 0, 2)).toEqual({
@@ -186,6 +217,18 @@ describe('anglemort engine : rotation', () => {
   it('ne compte pas la rotation comme un coup', () => {
     const state = placeGuard(loadLevel(makeLevel()), 0, 2)
     expect(rotateGuard(state, 0, 2).moves).toBe(1)
+  })
+
+  it('ne pivote pas un vigile dont aucune orientation n est autorisée', () => {
+    const level = makeLevel({
+      pillars: [
+        [1, 2],
+        [2, 1],
+        [3, 2],
+      ],
+    })
+    const state = withGuards(level, [{ pos: [2, 2], type: 'simple', facing: 'N' }])
+    expect(rotateGuard(state, 2, 2)).toBe(state)
   })
 
   it('ignore la rotation sur une case vide', () => {
@@ -384,7 +427,8 @@ describe('anglemort engine : victoire', () => {
     state = reducer(state, { type: 'toggle', x: 0, y: 2 })
     state = reducer(state, { type: 'rotate', x: 0, y: 2 })
     state = reducer(state, { type: 'toggle', x: 3, y: 1 })
-    for (let i = 0; i < 3; i++) state = reducer(state, { type: 'rotate', x: 3, y: 1 })
+    // Contre le mur est : N → S → W.
+    for (let i = 0; i < 2; i++) state = reducer(state, { type: 'rotate', x: 3, y: 1 })
     expect(isWon(state)).toBe(true)
     expect(state.moves).toBe(2)
   })

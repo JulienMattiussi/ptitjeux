@@ -1,0 +1,6 @@
+# Données générées ou écrites à la main, volontairement hors Prettier :
+# niveaux JSON (sortie de `make generate-levels`), dictionnaire, et thèmes
+# Sémantogramme (un thème par ligne, illisibles une fois éclatés).
+app/games/*/challenges/**/*.json
+generators/words-fr-raw.json
+generators/curated-themes-*.ts

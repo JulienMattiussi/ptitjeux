@@ -90,7 +90,8 @@ export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): 
       if (count > 1) candidates.push(x)
     }
     // Au moins une colonne en a forcément plusieurs (width≤height invariant)
-    const x = candidates.length > 0 ? candidates[rng.nextInt(candidates.length)] : rng.nextInt(width)
+    const x =
+      candidates.length > 0 ? candidates[rng.nextInt(candidates.length)] : rng.nextInt(width)
     solution[y][x] = false
   }
 
@@ -195,7 +196,10 @@ function generateCurated(
   // propre puzzle (sinon le joueur le verrait dans la grille et le marquerait
   // IN, alors qu'il est censé être OUT).
   const fillerPool = new Set<string>()
-  const addFromMap = (map: Record<string, { word: string; members: readonly string[] }>, ownLevel: boolean) => {
+  const addFromMap = (
+    map: Record<string, { word: string; members: readonly string[] }>,
+    ownLevel: boolean,
+  ) => {
     for (const [otherDate, otherTheme] of Object.entries(map)) {
       if (ownLevel && otherDate === date) continue
       for (const m of otherTheme.members) {

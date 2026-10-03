@@ -116,7 +116,10 @@ describe('niveaux Sémantogramme : intégrité', () => {
     const seen = new Map<string, string>()
     for (const { source, word } of allCurated) {
       const previous = seen.get(word)
-      expect(previous, `thème "${word}" déjà utilisé en ${previous} et en ${source}`).toBeUndefined()
+      expect(
+        previous,
+        `thème "${word}" déjà utilisé en ${previous} et en ${source}`,
+      ).toBeUndefined()
       seen.set(word, source)
     }
   })

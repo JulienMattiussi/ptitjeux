@@ -52,7 +52,8 @@ function heuristic(level: Level, state: GameState): number {
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < n; j++) {
       if (blocks[i].letter.toUpperCase() !== word[j].toUpperCase()) continue
-      dist[i][j] = Math.abs(blocks[i].pos[0] - targets[j][0]) + Math.abs(blocks[i].pos[1] - targets[j][1])
+      dist[i][j] =
+        Math.abs(blocks[i].pos[0] - targets[j][0]) + Math.abs(blocks[i].pos[1] - targets[j][1])
     }
   }
 

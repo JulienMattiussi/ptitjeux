@@ -40,7 +40,7 @@ describe('WordDefinition', () => {
     vi.restoreAllMocks()
   })
 
-  it('ne rend rien tant que la définition n\'est pas chargée', () => {
+  it("ne rend rien tant que la définition n'est pas chargée", () => {
     vi.spyOn(globalThis, 'fetch').mockImplementation(() => new Promise(() => {}))
     const { container } = render(<WordDefinition word="attentepouralwaystrue" />)
     expect(container.firstChild).toBeNull()
@@ -49,15 +49,13 @@ describe('WordDefinition', () => {
   it('affiche la définition une fois la requête résolue', async () => {
     mockSuccess(SAMPLE_RAW)
     render(<WordDefinition word="motdetest1" />)
-    expect(
-      await screen.findByText(/Petit mammifère carnivore/i),
-    ).toBeInTheDocument()
+    expect(await screen.findByText(/Petit mammifère carnivore/i)).toBeInTheDocument()
     // Lien vers le Wiktionnaire.
     const link = screen.getByRole('link', { name: /Wiktionnaire/i })
     expect(link.getAttribute('href')).toContain('fr.wiktionary.org/wiki/')
   })
 
-  it('ne rend rien si la réponse n\'a pas de définition exploitable', async () => {
+  it("ne rend rien si la réponse n'a pas de définition exploitable", async () => {
     vi.spyOn(globalThis, 'fetch').mockResolvedValue(
       new Response(JSON.stringify({ query: { pages: { '-1': { missing: '' } } } }), {
         status: 200,
@@ -85,9 +83,7 @@ describe('WordDefinition', () => {
     await new Promise((r) => setTimeout(r, 10))
     render(<WordDefinition word="motprefetch1" />)
     // findByText laisse le temps au useEffect de lire le cache et d'updater.
-    expect(
-      await screen.findByText(/Petit mammifère carnivore/i),
-    ).toBeInTheDocument()
+    expect(await screen.findByText(/Petit mammifère carnivore/i)).toBeInTheDocument()
   })
 
   it('cache : un même mot ne déclenche pas deux requêtes', async () => {
@@ -101,7 +97,7 @@ describe('WordDefinition', () => {
     expect(spy.mock.calls.length).toBe(callsAfterFirst)
   })
 
-  it('appelle l\'API avec le mot en minuscules', async () => {
+  it("appelle l'API avec le mot en minuscules", async () => {
     const spy = mockSuccess(SAMPLE_RAW)
     render(<WordDefinition word="MOTMAJ1" />)
     await screen.findByText(/Petit mammifère/i)

@@ -131,7 +131,7 @@ describe('semantogramme engine', () => {
     expect(isWon(state)).toBe(true) // grille OK + bon thème
   })
 
-  it("isWon est faux quand un IN manque", () => {
+  it('isWon est faux quand un IN manque', () => {
     let state = loadLevel(makeLevel())
     state = cycleCellStatus(state, 0, 0) // (0,0) → in
     // (1,1) reste unmarked alors que solution true

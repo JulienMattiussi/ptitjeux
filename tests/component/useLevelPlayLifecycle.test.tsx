@@ -116,7 +116,7 @@ describe('useLevelPlayLifecycle', () => {
     expect(progress['2026-05-08-1']).toMatchObject({ completed: true, bestMoves: 12 })
   })
 
-  it('date manquante : pas d\'écriture localStorage', () => {
+  it("date manquante : pas d'écriture localStorage", () => {
     renderHook(() =>
       useLevelPlayLifecycle({
         gameId: 'sokomot',

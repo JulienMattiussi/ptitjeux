@@ -30,25 +30,17 @@ export function GameLayout({
             <span className="hidden sm:inline">{backLabel}</span>
           </Link>
           <div className="flex-1 truncate">
-            <h1 className="truncate font-display text-base font-semibold sm:text-lg">
-              {title}
-            </h1>
+            <h1 className="truncate font-display text-base font-semibold sm:text-lg">{title}</h1>
             {subtitle && (
               <p className="truncate text-xs text-gray-500 dark:text-gray-400">{subtitle}</p>
             )}
           </div>
-          <Link
-            to="/"
-            aria-label="Ptitjeux"
-            className="shrink-0 transition hover:opacity-80"
-          >
+          <Link to="/" aria-label="Ptitjeux" className="shrink-0 transition hover:opacity-80">
             <img src="/cerveau.jpeg" alt="" className="h-8 w-8 rounded-lg shadow-sm" />
           </Link>
         </div>
       </header>
-      <main className="animate-fade-in-up mx-auto max-w-5xl px-4 py-8 sm:py-10">
-        {children}
-      </main>
+      <main className="animate-fade-in-up mx-auto max-w-5xl px-4 py-8 sm:py-10">{children}</main>
     </div>
   )
 }

@@ -74,7 +74,10 @@ function bfsPlayerWalk(
   return { dist, parent }
 }
 
-function pathFromParents(end: string, parent: Map<string, [string, Direction] | null>): Direction[] {
+function pathFromParents(
+  end: string,
+  parent: Map<string, [string, Direction] | null>,
+): Direction[] {
   const path: Direction[] = []
   let cur = end
   while (true) {

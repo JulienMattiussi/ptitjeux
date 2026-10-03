@@ -42,8 +42,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-5 text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-              Des casse-tête logico-spatiaux à explorer. Aucun compte requis, ta progression
-              reste sur ton appareil.
+              Des casse-tête logico-spatiaux à explorer. Aucun compte requis, ta progression reste
+              sur ton appareil.
             </p>
           </div>
         </header>

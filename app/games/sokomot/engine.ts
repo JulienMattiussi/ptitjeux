@@ -86,11 +86,7 @@ export function applyMove(state: GameState, direction: Direction): GameState {
 
   if (pushed) {
     const behind = add(pushed.pos, dir)
-    if (
-      !inBounds(level, behind) ||
-      isWall(level, behind) ||
-      blockAt(state.blocks, behind)
-    ) {
+    if (!inBounds(level, behind) || isWall(level, behind) || blockAt(state.blocks, behind)) {
       // Can't push.
       return state
     }
@@ -149,10 +145,7 @@ export function isWon(state: GameState): boolean {
   })
 }
 
-export type Action =
-  | { type: 'move'; direction: Direction }
-  | { type: 'undo' }
-  | { type: 'reset' }
+export type Action = { type: 'move'; direction: Direction } | { type: 'undo' } | { type: 'reset' }
 
 export function reducer(state: GameState, action: Action): GameState {
   switch (action.type) {

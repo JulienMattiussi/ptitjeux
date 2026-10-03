@@ -15,9 +15,7 @@ export function StatusRow({ label, value, ok }: Props) {
       <span className="text-gray-500 dark:text-gray-400">{label}</span>
       <span
         className={`font-semibold ${
-          ok
-            ? 'text-emerald-600 dark:text-emerald-400'
-            : 'text-amber-600 dark:text-amber-400'
+          ok ? 'text-emerald-600 dark:text-emerald-400' : 'text-amber-600 dark:text-amber-400'
         }`}
       >
         {value}

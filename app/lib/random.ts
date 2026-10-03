@@ -20,7 +20,7 @@ export class Rng {
   private state: number
   constructor(seed: string) {
     const h = cyrb53(seed)
-    this.state = (h >>> 0) || 1
+    this.state = h >>> 0 || 1
   }
   /** Entier 32 bits non signé. */
   next(): number {

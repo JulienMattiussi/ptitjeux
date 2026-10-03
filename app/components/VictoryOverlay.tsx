@@ -54,8 +54,7 @@ const STYLES: Record<
     shadow: 'shadow-amber-400/30 dark:shadow-amber-900/40',
     title: 'text-amber-800 dark:text-amber-100',
     detail: 'text-amber-700 dark:text-amber-300',
-    primaryBtn:
-      'bg-amber-600 shadow-amber-500/30 hover:bg-amber-500 dark:shadow-amber-900/40',
+    primaryBtn: 'bg-amber-600 shadow-amber-500/30 hover:bg-amber-500 dark:shadow-amber-900/40',
     secondaryBtn:
       'border-amber-300 text-amber-700 hover:bg-amber-50 dark:border-amber-700 dark:text-amber-200',
   },

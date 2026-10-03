@@ -147,6 +147,7 @@ Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas dé
 ### Style
 
 - Prettier : pas de point-virgule, single quotes, 100 cols, trailing comma all.
+- `make format` couvre tout le code (`app/`, `tests/`, `generators/`, `scripts/`, configs racine). Exclus via `.prettierignore` : niveaux JSON générés, dictionnaire, thèmes Sémantogramme (un thème par ligne).
 - Pas de commentaires qui décrivent **ce que** le code fait — seulement le **pourquoi** quand non évident (contraintes, invariants, workarounds).
 - Pas de TODO/FIXME/HACK commités. Si le travail n'est pas fini, ouvrir un ticket ou laisser la branche non mergée.
 

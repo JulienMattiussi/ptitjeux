@@ -31,7 +31,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body className="flex min-h-screen flex-col text-gray-900 dark:text-gray-100">
         <div className="flex-1">{children}</div>
         <footer className="border-t border-gray-200/60 py-4 text-center text-sm text-gray-500 dark:border-gray-800/60 dark:text-gray-400">
-          Fait avec <span aria-hidden>❤️</span><span className="sr-only">amour</span> par{' '}
+          Fait avec <span aria-hidden>❤️</span>
+          <span className="sr-only">amour</span> par{' '}
           <a
             href="https://github.com/YavaDeus"
             target="_blank"
@@ -59,8 +60,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 
   if (isRouteErrorResponse(error)) {
     message = error.status === 404 ? '404' : 'Erreur'
-    details =
-      error.status === 404 ? "Cette page n'existe pas." : error.statusText || details
+    details = error.status === 404 ? "Cette page n'existe pas." : error.statusText || details
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message
     stack = error.stack

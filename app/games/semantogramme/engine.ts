@@ -7,12 +7,7 @@ export function loadLevel(level: Level): GameState {
   return { level, status, themeGuess: '', moves: 0 }
 }
 
-export function setCellStatus(
-  state: GameState,
-  x: number,
-  y: number,
-  next: CellStatus,
-): GameState {
+export function setCellStatus(state: GameState, x: number, y: number, next: CellStatus): GameState {
   if (y < 0 || y >= state.level.height || x < 0 || x >= state.level.width) return state
   const status = state.status.map((row, ry) =>
     ry === y ? row.map((s, rx) => (rx === x ? next : s)) : row,
@@ -76,11 +71,7 @@ export function isGridSolved(state: GameState): boolean {
 }
 
 function normalize(s: string): string {
-  return s
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .trim()
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
 }
 
 export function isThemeGuessCorrect(state: GameState): boolean {
@@ -93,9 +84,7 @@ export function isWon(state: GameState): boolean {
 }
 
 export type Action =
-  | { type: 'cycle'; x: number; y: number }
-  | { type: 'reset' }
-  | { type: 'guess'; value: string }
+  { type: 'cycle'; x: number; y: number } | { type: 'reset' } | { type: 'guess'; value: string }
 
 export function reducer(state: GameState, action: Action): GameState {
   switch (action.type) {

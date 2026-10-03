@@ -272,10 +272,7 @@ function placeBlocksWithSlide(
     const order = rng.shuffle([...DIRECTIONS])
     for (const { dir, vec } of order) {
       const block: Coord = [t[0] - slideLength * vec[0], t[1] - slideLength * vec[1]]
-      const pusher: Coord = [
-        t[0] - (slideLength + 1) * vec[0],
-        t[1] - (slideLength + 1) * vec[1],
-      ]
+      const pusher: Coord = [t[0] - (slideLength + 1) * vec[0], t[1] - (slideLength + 1) * vec[1]]
       if (!inInterior(block, width, height)) continue
       if (!inInterior(pusher, width, height)) continue
 
@@ -520,12 +517,7 @@ function tryGenerateFreeform(
     for (let y = 1; y <= height - 2; y++) {
       for (let x = 1; x <= width - 2; x++) {
         const k = cellKey([x, y])
-        if (
-          wallSet.has(k) ||
-          targetSet.has(k) ||
-          blockSet.has(k) ||
-          iceSet.has(k)
-        ) {
+        if (wallSet.has(k) || targetSet.has(k) || blockSet.has(k) || iceSet.has(k)) {
           continue
         }
         player = [x, y]
@@ -746,7 +738,6 @@ function tryGenerateSokobanPullChain(
   }
 }
 
-
 /**
  * Tente un pull rétrograde sur le cube `cubeIdx` :
  * - Liste les directions D où le cube peut être tiré (cube_from = C - D et
@@ -803,8 +794,7 @@ function tryOneSokobanPull(
     if (isOccupied(cubeFrom)) continue
     if (isOccupied(newPlayer)) continue
     const sameAxis = forbiddenAxisVec
-      ? (vec[0] !== 0 && forbiddenAxisVec[0] !== 0) ||
-        (vec[1] !== 0 && forbiddenAxisVec[1] !== 0)
+      ? (vec[0] !== 0 && forbiddenAxisVec[0] !== 0) || (vec[1] !== 0 && forbiddenAxisVec[1] !== 0)
       : false
     candidates.push({ dir, vec, cubeFrom, newPlayer, sameAxis })
   }

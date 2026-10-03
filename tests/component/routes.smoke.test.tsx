@@ -8,11 +8,7 @@ import SemantogrammePlayRoute from '~/routes/semantogramme.$date.$index'
 // Date qui existe dans le dataset commité — chaque jeu a 4 niveaux.
 const DATE = '2026-10-01'
 
-function renderRoute(
-  path: string,
-  url: string,
-  Component: React.ComponentType,
-) {
+function renderRoute(path: string, url: string, Component: React.ComponentType) {
   return render(
     <MemoryRouter initialEntries={[url]}>
       <Routes>
@@ -28,9 +24,7 @@ describe('Routes de jeu — smoke', () => {
     window.localStorage.clear()
     // Empêche les requêtes Wiktionnaire en arrière-plan : on n'a rien à
     // tester côté définition ici, c'est couvert ailleurs.
-    vi.spyOn(globalThis, 'fetch').mockImplementation(
-      () => new Promise(() => {}),
-    )
+    vi.spyOn(globalThis, 'fetch').mockImplementation(() => new Promise(() => {}))
   })
   afterEach(() => {
     vi.restoreAllMocks()
@@ -39,11 +33,7 @@ describe('Routes de jeu — smoke', () => {
 
   describe('sokomot.$date.$index', () => {
     it('rend la page avec le titre, le mot cible et un plateau', () => {
-      renderRoute(
-        '/sokomot/:date/:index',
-        `/sokomot/${DATE}/1`,
-        SokomotPlayRoute,
-      )
+      renderRoute('/sokomot/:date/:index', `/sokomot/${DATE}/1`, SokomotPlayRoute)
       expect(screen.getByText(/Sokomot/)).toBeInTheDocument()
       expect(screen.getByText(/niveau 1/)).toBeInTheDocument()
       expect(screen.getByText(/Mot à former/)).toBeInTheDocument()
@@ -51,21 +41,13 @@ describe('Routes de jeu — smoke', () => {
     })
 
     it('affiche les contrôles Annuler et Recommencer', () => {
-      renderRoute(
-        '/sokomot/:date/:index',
-        `/sokomot/${DATE}/1`,
-        SokomotPlayRoute,
-      )
+      renderRoute('/sokomot/:date/:index', `/sokomot/${DATE}/1`, SokomotPlayRoute)
       expect(screen.getByRole('button', { name: /Annuler/i })).toBeInTheDocument()
       expect(screen.getByRole('button', { name: /Recommencer/i })).toBeInTheDocument()
     })
 
-    it("affiche LevelNotFound pour une date inexistante", () => {
-      renderRoute(
-        '/sokomot/:date/:index',
-        `/sokomot/2099-01-01/1`,
-        SokomotPlayRoute,
-      )
+    it('affiche LevelNotFound pour une date inexistante', () => {
+      renderRoute('/sokomot/:date/:index', `/sokomot/2099-01-01/1`, SokomotPlayRoute)
       expect(screen.getByRole('heading', { name: /introuvable/i })).toBeInTheDocument()
     })
   })
@@ -79,23 +61,15 @@ describe('Routes de jeu — smoke', () => {
       expect(screen.getByText(/lettres à encercler/)).toBeInTheDocument()
     })
 
-    it("affiche LevelNotFound pour un index hors plage", () => {
-      renderRoute(
-        '/boucle/:date/:index',
-        `/boucle/${DATE}/9`,
-        BouclePlayRoute,
-      )
+    it('affiche LevelNotFound pour un index hors plage', () => {
+      renderRoute('/boucle/:date/:index', `/boucle/${DATE}/9`, BouclePlayRoute)
       expect(screen.getByRole('heading', { name: /introuvable/i })).toBeInTheDocument()
     })
   })
 
   describe('semantogramme.$date.$index', () => {
-    it('rend la page avec le titre et l\'aide IN/OUT', () => {
-      renderRoute(
-        '/semantogramme/:date/:index',
-        `/semantogramme/${DATE}/1`,
-        SemantogrammePlayRoute,
-      )
+    it("rend la page avec le titre et l'aide IN/OUT", () => {
+      renderRoute('/semantogramme/:date/:index', `/semantogramme/${DATE}/1`, SemantogrammePlayRoute)
       expect(screen.getByText(/Sémantogramme/)).toBeInTheDocument()
       expect(screen.getByText(/niveau 1/)).toBeInTheDocument()
       // L'encart d'aide contient les pastilles IN et OUT.
@@ -104,11 +78,7 @@ describe('Routes de jeu — smoke', () => {
     })
 
     it("affiche LevelNotFound quand l'URL ne fournit pas d'index valide", () => {
-      renderRoute(
-        '/semantogramme/:date/:index',
-        `/semantogramme/${DATE}/0`,
-        SemantogrammePlayRoute,
-      )
+      renderRoute('/semantogramme/:date/:index', `/semantogramme/${DATE}/0`, SemantogrammePlayRoute)
       expect(screen.getByRole('heading', { name: /introuvable/i })).toBeInTheDocument()
     })
   })

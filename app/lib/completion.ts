@@ -38,10 +38,7 @@ export function aggregateCompletion(statuses: readonly CompletionStatus[]): Comp
  * `perfect` si objectif respecté (`moves ≤ parMoves`), `solved` sinon.
  * Si `parMoves` est indéfini, retombe sur `perfect`.
  */
-export function victoryVariant(
-  moves: number,
-  parMoves: number | undefined,
-): 'perfect' | 'solved' {
+export function victoryVariant(moves: number, parMoves: number | undefined): 'perfect' | 'solved' {
   if (parMoves === undefined) return 'perfect'
   return moves <= parMoves ? 'perfect' : 'solved'
 }

@@ -59,9 +59,7 @@ export function todayString(lastAvailableDate?: DateString): DateString {
  * Active le mode en posant `VITE_SHOW_FUTURE_DAYS=1` dans `.env`.
  */
 export function shouldShowFutureDates(): boolean {
-  return (
-    typeof import.meta !== 'undefined' && import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
-  )
+  return typeof import.meta !== 'undefined' && import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
 }
 
 /** Compare deux dates ISO comme des chaînes — l'ordre lexicographique correspond à l'ordre chronologique. */
@@ -97,11 +95,7 @@ export function dateRange(start: DateString, end: DateString): DateString[] {
   const result: DateString[] = []
   const startDate = parseDate(start)
   const endDate = parseDate(end)
-  for (
-    let d = new Date(startDate);
-    d.getTime() <= endDate.getTime();
-    d.setDate(d.getDate() + 1)
-  ) {
+  for (let d = new Date(startDate); d.getTime() <= endDate.getTime(); d.setDate(d.getDate() + 1)) {
     result.push(formatDate(d))
   }
   return result

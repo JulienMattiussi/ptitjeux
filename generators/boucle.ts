@@ -32,12 +32,7 @@ function inInterior(c: Coord, width: number, height: number): boolean {
  * Marche aléatoire connexe (droite + bas) pour positionner les cases du mot.
  * Renvoie `null` si la marche sort de la grille avant la fin.
  */
-function placeWordCells(
-  rng: Rng,
-  wordLen: number,
-  width: number,
-  height: number,
-): Coord[] | null {
+function placeWordCells(rng: Rng, wordLen: number, width: number, height: number): Coord[] | null {
   const used = new Set<string>()
   const cells: Coord[] = []
   // Position de départ dans le quart haut-gauche, marge pour grandir.
@@ -109,11 +104,7 @@ function clueForCell(cell: Coord, perimeter: Set<string>): number {
  * Tous les indices sont affichés ; cela facilite la résolution. On peut
  * réduire plus tard pour augmenter la difficulté.
  */
-function chooseClues(
-  insideCells: Coord[],
-  width: number,
-  height: number,
-): Record<string, number> {
+function chooseClues(insideCells: Coord[], width: number, height: number): Record<string, number> {
   const perimeter = perimeterEdges(insideCells)
   const clues: Record<string, number> = {}
   for (let y = 0; y < height; y++) {

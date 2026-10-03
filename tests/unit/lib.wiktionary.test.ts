@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { extractPageText, parseFrenchDefinition, shortenToSentence } from '~/lib/wiktionary'
 
 describe('lib/wiktionary — extractPageText', () => {
-  it('renvoie l\'extrait de la première page non manquante', () => {
+  it("renvoie l'extrait de la première page non manquante", () => {
     const data = {
       query: {
         pages: {

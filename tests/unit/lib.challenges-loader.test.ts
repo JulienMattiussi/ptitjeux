@@ -16,7 +16,7 @@ describe('lib/challenges-loader', () => {
     expect(idx.getLevel('2026-05-02', 1)).toEqual({ id: 'C' })
   })
 
-  it('expose la liste complète d\'une journée via getChallenge', () => {
+  it("expose la liste complète d'une journée via getChallenge", () => {
     const modules: Record<string, FakeLevel> = {
       './a/2026-05-01-1.json': { id: 'A' },
       './a/2026-05-01-2.json': { id: 'B' },
@@ -67,12 +67,7 @@ describe('lib/challenges-loader', () => {
       './a/2026-04-01-1.json': { id: 'D' },
     }
     const idx = buildChallengeIndex(modules)
-    expect(idx.getAllDates()).toEqual([
-      '2026-04-01',
-      '2026-04-02',
-      '2026-08-30',
-      '2026-12-15',
-    ])
+    expect(idx.getAllDates()).toEqual(['2026-04-01', '2026-04-02', '2026-08-30', '2026-12-15'])
   })
 
   it('reconnaît le pattern peu importe la profondeur du dossier', () => {

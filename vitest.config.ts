@@ -20,11 +20,7 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'lcov'],
-      include: [
-        'app/games/**/engine.ts',
-        'app/lib/**',
-        'generators/**/*.ts',
-      ],
+      include: ['app/games/**/engine.ts', 'app/lib/**', 'generators/**/*.ts'],
       exclude: ['generators/words-fr-raw.json'],
     },
   },

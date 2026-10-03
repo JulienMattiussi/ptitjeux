@@ -44,7 +44,7 @@ describe('VictoryOverlay', () => {
     vi.useRealTimers()
   })
 
-  it("ne rend rien quand show est false", () => {
+  it('ne rend rien quand show est false', () => {
     render(
       <MemoryRouter>
         <VictoryOverlay show={false} title="X" onReset={vi.fn()} backHref="/sokomot" />
@@ -81,7 +81,7 @@ describe('VictoryOverlay', () => {
     expect(onReset).toHaveBeenCalledTimes(1)
   })
 
-  it("Entrée déclenche onReset (jamais le bouton focalisé)", async () => {
+  it('Entrée déclenche onReset (jamais le bouton focalisé)', async () => {
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     const { onReset } = renderOverlay({ nextHref: '/sokomot/2026-05-08/2' })
     await user.keyboard('{Enter}')
@@ -131,7 +131,7 @@ describe('VictoryOverlay', () => {
     expect(screen.getByTestId('location')).toHaveTextContent('/sokomot/2026-05-08/1')
   })
 
-  it("ne réagit plus au clavier après show=false (cleanup du listener)", async () => {
+  it('ne réagit plus au clavier après show=false (cleanup du listener)', async () => {
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     const onReset = vi.fn()
     function Wrapper({ show }: { show: boolean }) {

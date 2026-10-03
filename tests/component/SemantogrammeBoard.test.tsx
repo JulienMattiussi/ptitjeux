@@ -33,7 +33,7 @@ describe('semantogramme/Board', () => {
     expect(screen.getByRole('button', { name: /Case lion/i })).toBeInTheDocument()
   })
 
-  it('affiche les indices de ligne et de colonne (0/N à l\'état initial)', () => {
+  it("affiche les indices de ligne et de colonne (0/N à l'état initial)", () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} onCellClick={() => {}} />)
     // 2 lignes + 2 colonnes = 4 affichages « 0 / 1 ».

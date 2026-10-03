@@ -36,20 +36,14 @@ describe('niveaux Boucle : intégrité', () => {
       for (const i of [1, 2, 3, 4] as const) {
         const level = getLevel(date, i)
         expect(level, `${date}/${i} introuvable`).toBeDefined()
-        expect(
-          level!.solutionInsideCells,
-          `${date}/${i} sans solutionInsideCells`,
-        ).toBeDefined()
+        expect(level!.solutionInsideCells, `${date}/${i} sans solutionInsideCells`).toBeDefined()
         const edges = insideCellsToBoundary(level!.solutionInsideCells!)
         let state = loadLevel(level!)
         for (const e of edges) {
           state = toggleEdge(state, e)
         }
         expect(isValidLoop(state.edges), `${date}/${i} : boucle non valide`).toBe(true)
-        expect(
-          areCluesSatisfied(state),
-          `${date}/${i} : indices non satisfaits`,
-        ).toBe(true)
+        expect(areCluesSatisfied(state), `${date}/${i} : indices non satisfaits`).toBe(true)
         expect(getInsideWord(state).toUpperCase()).toBe(level!.solutionWord.toUpperCase())
         expect(isWon(state)).toBe(true)
       }

@@ -6,7 +6,7 @@ describe('lib/game-styles', () => {
     expect(GAME_IDS).toEqual(['sokomot', 'boucle', 'semantogramme', 'anglemort'])
   })
 
-  it("GAME_ACCENT a une entrée pour chaque jeu avec toutes les classes requises", () => {
+  it('GAME_ACCENT a une entrée pour chaque jeu avec toutes les classes requises', () => {
     for (const id of GAME_IDS) {
       const accent = GAME_ACCENT[id]
       expect(accent.bar).toMatch(/from-/)
@@ -30,5 +30,4 @@ describe('lib/game-styles', () => {
     expect(GAME_SIZE.semantogramme(1)).toEqual({ width: 4, height: 4 })
     expect(GAME_SIZE.semantogramme(4)).toEqual({ width: 7, height: 7 })
   })
-
 })

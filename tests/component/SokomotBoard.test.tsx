@@ -26,7 +26,7 @@ describe('sokomot/Board', () => {
     expect(screen.getByRole('application', { name: /Plateau Test/i })).toBeInTheDocument()
   })
 
-  it('rend une case cible avec la lettre attendue (en filigrane) tant que le bloc n\'y est pas', () => {
+  it("rend une case cible avec la lettre attendue (en filigrane) tant que le bloc n'y est pas", () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} />)
     // Le filigrane de cible a aria-hidden, mais on peut le trouver par texte.
@@ -39,7 +39,7 @@ describe('sokomot/Board', () => {
     expect(screen.getByRole('img', { name: /Crayon orienté right/i })).toBeInTheDocument()
   })
 
-  it('met à jour l\'orientation du crayon après un déplacement', () => {
+  it("met à jour l'orientation du crayon après un déplacement", () => {
     let state = loadLevel(LEVEL)
     state = applyMove(state, 'down')
     render(<Board state={state} />)

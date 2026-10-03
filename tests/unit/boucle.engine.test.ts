@@ -75,7 +75,7 @@ describe('boucle engine', () => {
     expect(state.moves).toBe(3)
   })
 
-  it('compte les arêtes autour d\'une case', () => {
+  it("compte les arêtes autour d'une case", () => {
     let state = loadLevel(makeLevel())
     for (const e of squareLoop(1, 1)) {
       state = toggleEdge(state, e)
@@ -135,7 +135,7 @@ describe('boucle engine', () => {
     ])
   })
 
-  it('getInsideWord lit les lettres dans l\'ordre normal', () => {
+  it("getInsideWord lit les lettres dans l'ordre normal", () => {
     let state = loadLevel(
       makeLevel({
         letters: [
@@ -189,19 +189,19 @@ describe('boucle engine', () => {
       expect(moveEdgeSelection(v(1, 1), 'left', W, H)).toEqual(h(0, 1))
     })
 
-    it("clamp aux bords « intérieurs » : H ne sort pas à gauche, V ne sort pas en haut", () => {
+    it('clamp aux bords « intérieurs » : H ne sort pas à gauche, V ne sort pas en haut', () => {
       expect(moveEdgeSelection(h(0, 1), 'left', W, H)).toEqual(h(0, 1))
       expect(moveEdgeSelection(v(1, 0), 'up', W, H)).toEqual(v(1, 0))
     })
 
-    it("aux deux bords « extrêmes », déborde sur la perpendiculaire pour atteindre les arêtes sinon inaccessibles", () => {
+    it('aux deux bords « extrêmes », déborde sur la perpendiculaire pour atteindre les arêtes sinon inaccessibles', () => {
       // H(W-1, 1) + right : déborde sur la colonne V de droite (V valide pour x=W).
       expect(moveEdgeSelection(h(W - 1, 1), 'right', W, H)).toEqual(v(W, 1))
       // V(1, H-1) + down : déborde sur la ligne H du bas (H valide pour y=H).
       expect(moveEdgeSelection(v(1, H - 1), 'down', W, H)).toEqual(h(1, H))
     })
 
-    it('on peut naviguer jusqu\'à la colonne V de droite et la ligne H du bas', () => {
+    it("on peut naviguer jusqu'à la colonne V de droite et la ligne H du bas", () => {
       // H(0,0) →→→→ : H(W-1,0) puis débordement vers V(W, 0)
       let e: Edge = h(0, 0)
       for (let i = 0; i < W - 1; i++) e = moveEdgeSelection(e, 'right', W, H)
@@ -215,7 +215,7 @@ describe('boucle engine', () => {
       expect(e).toEqual(h(W - 1, H))
     })
 
-    it('clamp aux bords lors d\'un pivot H↔V', () => {
+    it("clamp aux bords lors d'un pivot H↔V", () => {
       // H(1,0) up : pivote vers V(1, max(0, -1)) = V(1, 0)
       expect(moveEdgeSelection(h(1, 0), 'up', W, H)).toEqual(v(1, 0))
       // H(1, H) down : pivote vers V(1, min(H-1, H)) = V(1, H-1)

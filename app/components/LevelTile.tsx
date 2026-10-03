@@ -44,10 +44,7 @@ export function LevelTile({
 
   const inner = (
     <>
-      <div
-        className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r ${c.bar}`}
-        aria-hidden="true"
-      />
+      <div className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r ${c.bar}`} aria-hidden="true" />
 
       {variant === 'daily' && (
         <div className="mb-2 flex items-baseline justify-between gap-2">
@@ -133,4 +130,3 @@ export function LevelTile({
     </Link>
   )
 }
-

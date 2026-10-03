@@ -40,22 +40,22 @@ describe('LevelTile', () => {
     expect(disabled.getAttribute('title')).toContain('niveau 2')
   })
 
-  it("perfect : libellé Rejouer", () => {
+  it('perfect : libellé Rejouer', () => {
     renderTile({ status: 'perfect' })
     expect(screen.getByText('Rejouer')).toBeInTheDocument()
   })
 
-  it("solved : libellé Améliorer", () => {
+  it('solved : libellé Améliorer', () => {
     renderTile({ status: 'solved' })
     expect(screen.getByText('Améliorer')).toBeInTheDocument()
   })
 
-  it("unsolved : libellé Jouer", () => {
+  it('unsolved : libellé Jouer', () => {
     renderTile({ status: 'unsolved' })
     expect(screen.getByText('Jouer')).toBeInTheDocument()
   })
 
-  it("variant archive : pas de libellé Niveau N ni de statut texte", () => {
+  it('variant archive : pas de libellé Niveau N ni de statut texte', () => {
     renderTile({ variant: 'archive', status: 'perfect' })
     expect(screen.queryByText('Niveau 1')).toBeNull()
     expect(screen.queryByText('Rejouer')).toBeNull()

@@ -32,16 +32,11 @@ function groupByMonth(dates: string[]): Map<string, string[]> {
   return m
 }
 
-function dayStatuses(
-  gameId: GameId,
-  date: string,
-  progress: GameProgress,
-): CompletionStatus[] {
+function dayStatuses(gameId: GameId, date: string, progress: GameProgress): CompletionStatus[] {
   return [1, 2, 3, 4].map((i) =>
     completionStatus(progress[levelKey(date, i)], getLevelParMoves(gameId, date, i)),
   )
 }
-
 
 export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) {
   const grouped = groupByMonth(dates)
@@ -50,8 +45,7 @@ export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) 
   // ouvre directement le mois correspondant. Sinon on retombe sur le mois
   // le plus récent.
   const focusMonth = focusDate ? monthKey(focusDate) : null
-  const initialOpen =
-    focusMonth && months.includes(focusMonth) ? focusMonth : (months[0] ?? null)
+  const initialOpen = focusMonth && months.includes(focusMonth) ? focusMonth : (months[0] ?? null)
   const [openMonth, setOpenMonth] = useState<string | null>(initialOpen)
 
   // Scroll vers la ligne après le premier rendu (le mois est déjà ouvert).
@@ -64,9 +58,7 @@ export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) 
 
   if (dates.length === 0) {
     return (
-      <p className="text-sm text-gray-500 dark:text-gray-400">
-        Aucun défi archivé pour le moment.
-      </p>
+      <p className="text-sm text-gray-500 dark:text-gray-400">Aucun défi archivé pour le moment.</p>
     )
   }
 
@@ -139,10 +131,7 @@ function ArchiveDayRow({ gameId, date, progress, rowRef }: DayRowProps) {
   const statuses = dayStatuses(gameId, date, progress)
   const aggregate = aggregateCompletion(statuses)
   return (
-    <li
-      ref={rowRef ?? undefined}
-      className="flex items-center gap-3 px-4 py-3 sm:gap-4"
-    >
+    <li ref={rowRef ?? undefined} className="flex items-center gap-3 px-4 py-3 sm:gap-4">
       <div className="flex w-20 shrink-0 items-center gap-1.5 sm:w-24">
         <span className="font-mono text-sm capitalize text-gray-700 dark:text-gray-200">
           {dateLabelShort(date)}

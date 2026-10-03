@@ -51,9 +51,7 @@ describe('lib/useLocalProgress', () => {
           },
         }),
       )
-      window.dispatchEvent(
-        new StorageEvent('storage', { key: 'ptitjeux.progress' }),
-      )
+      window.dispatchEvent(new StorageEvent('storage', { key: 'ptitjeux.progress' }))
     })
     expect(result.current['2026-05-07-1']?.completed).toBe(true)
     expect(result.current['2026-05-07-1']?.bestMoves).toBe(5)
@@ -75,10 +73,7 @@ describe('lib/useLocalProgress', () => {
     // appel à setProgress sur un composant démonté → React loggue un
     // warning. Le test passe tant qu'on n'a pas de "Can't perform a
     // React state update on an unmounted component".
-    window.localStorage.setItem(
-      'ptitjeux.progress',
-      JSON.stringify({ sokomot: {} }),
-    )
+    window.localStorage.setItem('ptitjeux.progress', JSON.stringify({ sokomot: {} }))
     window.dispatchEvent(new StorageEvent('storage', { key: 'ptitjeux.progress' }))
   })
 })

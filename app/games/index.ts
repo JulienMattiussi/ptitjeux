@@ -17,10 +17,6 @@ const GETTERS: Record<GameId, (date: string, index: number) => { parMoves?: numb
  * le jeu. Utilisé par les pages de liste pour afficher une coche verte
  * « parfait » vs ambre « simplement résolu » selon la performance.
  */
-export function getLevelParMoves(
-  gameId: GameId,
-  date: string,
-  index: number,
-): number | undefined {
+export function getLevelParMoves(gameId: GameId, date: string, index: number): number | undefined {
   return GETTERS[gameId](date, index)?.parMoves
 }

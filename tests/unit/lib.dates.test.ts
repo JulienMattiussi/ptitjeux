@@ -27,10 +27,7 @@ describe('lib/dates', () => {
     expect(compareDates('2026-04-02', '2026-04-01')).toBe(1)
     expect(compareDates('2026-04-01', '2026-04-01')).toBe(0)
     // Tri lexicographique = chronologique grâce au padding
-    expect(['2026-05-01', '2026-04-30'].sort(compareDates)).toEqual([
-      '2026-04-30',
-      '2026-05-01',
-    ])
+    expect(['2026-05-01', '2026-04-30'].sort(compareDates)).toEqual(['2026-04-30', '2026-05-01'])
   })
 
   it('monthKey extrait YYYY-MM', () => {

@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { isGridSolved, isWon, loadLevel, setCellStatus, setThemeGuess } from '~/games/semantogramme/engine'
+import {
+  isGridSolved,
+  isWon,
+  loadLevel,
+  setCellStatus,
+  setThemeGuess,
+} from '~/games/semantogramme/engine'
 import { generateSemantogrammeLevel } from '../../generators/semantogramme'
 
 describe('semantogramme/generator', () => {

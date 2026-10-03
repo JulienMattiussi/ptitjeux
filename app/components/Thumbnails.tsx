@@ -11,12 +11,7 @@ type Props = { className?: string }
 
 export function SokomotThumbnail({ className = '' }: Props) {
   return (
-    <svg
-      viewBox="0 0 120 80"
-      className={className}
-      role="img"
-      aria-label="Aperçu de Sokomot"
-    >
+    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu de Sokomot">
       <defs>
         <linearGradient id="sokomot-bg" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="oklch(95% 0.04 240)" />
@@ -37,15 +32,7 @@ export function SokomotThumbnail({ className = '' }: Props) {
         <line x1="10" y1="50" x2="110" y2="50" />
       </g>
       {/* Target zone */}
-      <rect
-        x="60"
-        y="30"
-        width="50"
-        height="20"
-        fill="oklch(70% 0.1 240)"
-        opacity="0.18"
-        rx="2"
-      />
+      <rect x="60" y="30" width="50" height="20" fill="oklch(70% 0.1 240)" opacity="0.18" rx="2" />
       <rect
         x="60"
         y="30"
@@ -155,12 +142,7 @@ export function BoucleThumbnail({ className = '' }: Props) {
     ['N', 'W', 'J', 'V'],
   ]
   return (
-    <svg
-      viewBox="0 0 120 80"
-      className={className}
-      role="img"
-      aria-label="Aperçu de Boucle"
-    >
+    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu de Boucle">
       <defs>
         <linearGradient id="boucle-bg" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="oklch(95% 0.04 170)" />
@@ -222,12 +204,7 @@ export function BoucleThumbnail({ className = '' }: Props) {
 
 export function SemantogrammeThumbnail({ className = '' }: Props) {
   return (
-    <svg
-      viewBox="0 0 120 80"
-      className={className}
-      role="img"
-      aria-label="Aperçu de Sémantogramme"
-    >
+    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu de Sémantogramme">
       <defs>
         <linearGradient id="sem-bg" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="oklch(95% 0.04 60)" />
@@ -333,7 +310,14 @@ export function AngleMortThumbnail({ className = '' }: Props) {
                 {k === '4,1' ? (
                   <rect x={ox} y={oy} width={cell} height={cell} className="fill-slate-300" />
                 ) : (
-                  <rect x={ox + 1.5} y={oy + 1.5} width={cell - 3} height={cell - 3} rx={4} className={fill} />
+                  <rect
+                    x={ox + 1.5}
+                    y={oy + 1.5}
+                    width={cell - 3}
+                    height={cell - 3}
+                    rx={4}
+                    className={fill}
+                  />
                 )}
                 {corridor.has(k) && (
                   <rect
@@ -350,7 +334,13 @@ export function AngleMortThumbnail({ className = '' }: Props) {
             )
           }),
         )}
-        <DoorMark cx={margin + cell / 2} cy={margin + cell * 1.5} size={cell} wall={wall} side="W" />
+        <DoorMark
+          cx={margin + cell / 2}
+          cy={margin + cell * 1.5}
+          size={cell}
+          wall={wall}
+          side="W"
+        />
         <g transform={`translate(${margin - wall - 16} ${margin + cell * 1.5}) scale(1.1)`}>
           <ThiefSprite facing="E" />
         </g>

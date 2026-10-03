@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useState } from 'react'
-import { useParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -38,6 +38,7 @@ export default function SemantogrammePlayRoute() {
 
 function SemantogrammePlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
+  const navigate = useNavigate()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
@@ -57,6 +58,7 @@ function SemantogrammePlay() {
   const selectedRef = useLatestRef(selected)
 
   useGameKeyboard({
+    onBack: () => navigate(`/semantogramme?from=${date}`),
     enabled: !!level && !won && !gridSolved,
     ignoreInputs: true,
     onDirection: (direction) => {

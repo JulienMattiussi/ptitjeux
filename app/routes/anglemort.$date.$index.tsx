@@ -1,5 +1,5 @@
 import { useMemo, useReducer, useState } from 'react'
-import { useParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -45,6 +45,7 @@ export default function AngleMortPlayRoute() {
 
 function AngleMortPlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
+  const navigate = useNavigate()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
@@ -70,6 +71,7 @@ function AngleMortPlay() {
   const selectedRef = useLatestRef(selected)
 
   useGameKeyboard({
+    onBack: () => navigate(`/anglemort?from=${date}`),
     enabled: !!level && !won,
     onDirection: (direction) => {
       if (!level) return

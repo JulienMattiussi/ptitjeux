@@ -17,6 +17,13 @@ describe('useGameKeyboard', () => {
     expect(onDirection.mock.calls.map((c) => c[0])).toEqual(['up', 'down', 'left', 'right'])
   })
 
+  it('Échap → onBack (quitter la partie)', () => {
+    const onBack = vi.fn()
+    renderHook(() => useGameKeyboard({ enabled: true, onBack }))
+    press('Escape')
+    expect(onBack).toHaveBeenCalledOnce()
+  })
+
   it('WASD (QWERTY) aliasés sur les flèches', () => {
     const onDirection = vi.fn()
     renderHook(() => useGameKeyboard({ enabled: true, onDirection }))
@@ -90,9 +97,7 @@ describe('useGameKeyboard', () => {
   it('enabled=false : aucun callback', () => {
     const onDirection = vi.fn()
     const onAction = vi.fn()
-    renderHook(() =>
-      useGameKeyboard({ enabled: false, onDirection, onAction }),
-    )
+    renderHook(() => useGameKeyboard({ enabled: false, onDirection, onAction }))
     press('ArrowUp')
     press('Enter')
     expect(onDirection).not.toHaveBeenCalled()
@@ -101,9 +106,7 @@ describe('useGameKeyboard', () => {
 
   it('ignoreInputs : ignore quand le focus est sur un input', () => {
     const onDirection = vi.fn()
-    renderHook(() =>
-      useGameKeyboard({ enabled: true, onDirection, ignoreInputs: true }),
-    )
+    renderHook(() => useGameKeyboard({ enabled: true, onDirection, ignoreInputs: true }))
     const input = document.createElement('input')
     document.body.appendChild(input)
     input.focus()
@@ -114,9 +117,7 @@ describe('useGameKeyboard', () => {
 
   it('cleanup : retire le listener au démontage', () => {
     const onDirection = vi.fn()
-    const { unmount } = renderHook(() =>
-      useGameKeyboard({ enabled: true, onDirection }),
-    )
+    const { unmount } = renderHook(() => useGameKeyboard({ enabled: true, onDirection }))
     unmount()
     press('ArrowUp')
     expect(onDirection).not.toHaveBeenCalled()

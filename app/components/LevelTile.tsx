@@ -101,15 +101,22 @@ export function LevelTile({
     </>
   )
 
-  const baseClass = `group relative flex flex-col rounded-xl border bg-white/80 ${padding} backdrop-blur transition-all duration-200 dark:bg-gray-900/70 ${
+  const baseClass = `group relative flex flex-col rounded-xl border bg-white/80 ${padding} backdrop-blur transition-all duration-200 dark:bg-gray-900/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:focus-visible:ring-gray-100 dark:focus-visible:ring-offset-gray-950 ${
     locked
       ? 'cursor-not-allowed border-gray-200 dark:border-gray-800'
       : `border-gray-200 hover:-translate-y-0.5 hover:shadow-md dark:border-gray-800 ${c.ring}`
   }`
 
+  // Repères pour la navigation au clavier (focus de départ sur le jour visé).
+  const navAttrs = { 'data-nav-item': '', 'data-date': date, 'data-index': index }
+
   if (locked) {
     return (
+      // Focalisable pour qu'on puisse y arriver aux flèches et lire pourquoi
+      // il est verrouillé ; Entrée et Espace n'y font rien.
       <div
+        {...navAttrs}
+        tabIndex={0}
         className={baseClass}
         title={lockTitle}
         aria-disabled="true"
@@ -121,7 +128,7 @@ export function LevelTile({
   }
 
   return (
-    <Link to={`/${gameId}/${date}/${index}`} className={baseClass}>
+    <Link to={`/${gameId}/${date}/${index}`} {...navAttrs} className={baseClass}>
       {inner}
     </Link>
   )

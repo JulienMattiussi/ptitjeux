@@ -116,7 +116,8 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Couleurs/accents par jeu | `app/lib/game-styles.ts` (`GAME_ACCENT`, `GAME_SIZE`, `isIceLevel`) |
 | Catalogue des jeux | `app/lib/games-registry.ts` |
 | Chargement des niveaux JSON | `app/lib/challenges-loader.ts` (`buildChallengeIndex`) |
-| Clavier dans une page de jeu | `app/lib/useGameKeyboard.ts` (flèches + ZQSD/WASD + Espace/Entrée + Ctrl+Z + R) |
+| Clavier dans une page de jeu | `app/lib/useGameKeyboard.ts` (flèches + ZQSD/WASD + Espace/Entrée + Ctrl+Z + R + Échap) |
+| Clavier hors des pages de jeu | `app/lib/useGridNavigation.ts` + `app/lib/spatialFocus.ts` (attribut `data-nav-item`) |
 | Cycle de vie d'une partie | `app/lib/useLevelPlayLifecycle.ts` (isToday, dateChip, nextHref, écriture progression) |
 | Lecture progression | `app/lib/useLocalProgress.ts` + `app/lib/localStorage.ts` |
 | Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`, `victoryVariant`) |
@@ -201,6 +202,7 @@ Toute interaction de jeu doit être faisable **sans souris**. Convention partag�
 | **Espace** ou **Entrée** | Action principale (toggle arête, cycle case, etc.). Si le jeu fournit `onSecondaryAction`, Entrée la déclenche et seul Espace reste l'action principale (Angle mort : Espace pose ou retire, Entrée fait pivoter). |
 | **Ctrl+Z** / **Cmd+Z** | Annuler le dernier coup (tous les jeux) |
 | **R** | Recommencer le niveau (tous les jeux) |
+| **Échap** | Quitter la partie, retour à la liste des niveaux (tous les jeux) |
 
 Dans la **modale de victoire** (`VictoryOverlay`) :
 
@@ -209,6 +211,16 @@ Dans la **modale de victoire** (`VictoryOverlay`) :
 | **←** / **Backspace** / **Échap** | Retour à la liste des niveaux |
 | **Entrée** ou **Espace** | Rejouer le niveau |
 | **→** | Niveau suivant (si pas le dernier) |
+
+Hors des pages de jeu (accueil, liste des niveaux), `app/lib/useGridNavigation.ts` rend tout faisable au clavier :
+
+| Touche | Action |
+|---|---|
+| Flèches / ZQSD / WASD | Déplacer le focus vers l'élément `data-nav-item` le plus proche à l'écran (`app/lib/spatialFocus.ts`), quelle que soit la mise en page |
+| **Entrée** ou **Espace** | Entrer dans le jeu, lancer le niveau, ouvrir/fermer un mois |
+| **Retour arrière** ou **Échap** | Page précédente (liste des niveaux → accueil) |
+
+La première flèche se pose sur un élément utile (sur la liste : le jour d'où l'on revient via `?from=`, sinon le défi du jour). Tout nouvel élément cliquable de navigation porte `data-nav-item=""` et un contour `focus-visible` lisible. Les niveaux verrouillés restent focalisables (pour lire pourquoi), sans effet à l'activation.
 
 Le hook ignore les frappes quand le focus est dans un `<input>`/`<textarea>` (option `ignoreInputs`), pour ne pas casser les champs de saisie (ex. devinette de thème en Sémantogramme).
 

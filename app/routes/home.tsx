@@ -1,5 +1,6 @@
 import { GameCard } from '~/components/GameCard'
 import { games } from '~/lib/games-registry'
+import { useGridNavigation } from '~/lib/useGridNavigation'
 import type { Route } from './+types/home'
 
 export function meta(_: Route.MetaArgs) {
@@ -7,12 +8,13 @@ export function meta(_: Route.MetaArgs) {
     { title: 'Ptitjeux — mini-jeux logico-spatiaux' },
     {
       name: 'description',
-      content: 'Mini-jeux logico-spatiaux : Sokomot, Boucle, Sémantogramme.',
+      content: 'Mini-jeux logico-spatiaux : Sokomot, Boucle, Sémantogramme, Angle mort.',
     },
   ]
 }
 
 export default function Home() {
+  useGridNavigation()
   return (
     <main>
       <section className="mx-auto max-w-5xl px-4 py-10 sm:py-16">

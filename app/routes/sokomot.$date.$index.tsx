@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useState } from 'react'
-import { useParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -27,6 +27,7 @@ export default function SokomotPlayRoute() {
 
 function SokomotPlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
+  const navigate = useNavigate()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
@@ -54,6 +55,7 @@ function SokomotPlay() {
   }, [won])
 
   useGameKeyboard({
+    onBack: () => navigate(`/sokomot?from=${date}`),
     enabled: !!level && !won,
     onDirection: (direction) => dispatch({ type: 'move', direction }),
     onUndo: () => dispatch({ type: 'undo' }),

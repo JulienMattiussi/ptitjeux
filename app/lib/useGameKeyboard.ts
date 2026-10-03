@@ -27,6 +27,11 @@ const CODE_TO_DIRECTION: Record<string, GameKeyDirection> = {
   KeyD: 'right',
 }
 
+/** Direction associée à une touche (flèches, ZQSD, WASD), quelle que soit la disposition. */
+export function keyDirection(event: KeyboardEvent): GameKeyDirection | undefined {
+  return KEY_TO_DIRECTION[event.key] ?? CODE_TO_DIRECTION[event.code]
+}
+
 const ACTION_KEYS = new Set([' ', 'Enter'])
 
 type Options = {
@@ -43,6 +48,8 @@ type Options = {
   onUndo?: () => void
   /** Touche `r`. */
   onReset?: () => void
+  /** Échap : quitter la partie (retour à la liste des niveaux). */
+  onBack?: () => void
   /** Ignore les frappes quand le focus est dans un input/textarea. */
   ignoreInputs?: boolean
 }
@@ -65,6 +72,7 @@ export function useGameKeyboard({
   onSecondaryAction,
   onUndo,
   onReset,
+  onBack,
   ignoreInputs = false,
 }: Options): void {
   useEffect(() => {
@@ -85,7 +93,12 @@ export function useGameKeyboard({
         onUndo()
         return
       }
-      const direction = KEY_TO_DIRECTION[event.key] ?? CODE_TO_DIRECTION[event.code]
+      if (onBack && event.key === 'Escape') {
+        event.preventDefault()
+        onBack()
+        return
+      }
+      const direction = keyDirection(event)
       if (direction && onDirection) {
         event.preventDefault()
         onDirection(direction)
@@ -107,5 +120,5 @@ export function useGameKeyboard({
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [enabled, onDirection, onAction, onSecondaryAction, onUndo, onReset, ignoreInputs])
+  }, [enabled, onDirection, onAction, onSecondaryAction, onUndo, onReset, onBack, ignoreInputs])
 }

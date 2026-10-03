@@ -1,4 +1,4 @@
-import { useSearchParams } from 'react-router'
+import { useNavigate, useSearchParams } from 'react-router'
 import { ArchiveAccordion } from './ArchiveAccordion'
 import { CheckMark } from './CheckMark'
 import { GameLayout } from './GameLayout'
@@ -7,6 +7,7 @@ import { getLevelParMoves } from '~/games'
 import { completionStatus } from '~/lib/completion'
 import { dateLabel, shouldShowFutureDates, todayString } from '~/lib/dates'
 import { GAME_SIZE, type GameId } from '~/lib/game-styles'
+import { useGridNavigation } from '~/lib/useGridNavigation'
 import { useLocalProgress, levelKey } from '~/lib/useLocalProgress'
 
 type Props = {
@@ -42,6 +43,15 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
   // Si la date d'origine est la date du défi du jour, pas besoin d'ouvrir
   // les archives — la ligne est déjà visible en haut.
   const focusArchiveDate = fromDate && fromDate !== dailyDate ? fromDate : undefined
+
+  // Au clavier, la première flèche se pose sur le jour d'où l'on revient, ou
+  // sur le défi du jour ; Retour arrière / Échap ramène à l'accueil.
+  const navigate = useNavigate()
+  useGridNavigation({
+    onBack: () => navigate('/'),
+    initialFocus: () =>
+      document.querySelector<HTMLElement>(`[data-nav-item][data-date="${fromDate ?? dailyDate}"]`),
+  })
 
   const dailyAllPerfect =
     !!dailyDate &&

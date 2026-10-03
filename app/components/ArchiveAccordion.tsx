@@ -85,9 +85,10 @@ export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) 
           >
             <button
               type="button"
+              data-nav-item=""
               onClick={() => setOpenMonth(isOpen ? null : month)}
               aria-expanded={isOpen}
-              className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition hover:bg-gray-50 dark:hover:bg-gray-800/50"
+              className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left transition hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gray-900 dark:hover:bg-gray-800/50 dark:focus-visible:ring-gray-100"
             >
               <span className="flex items-center gap-2 font-display text-base font-semibold capitalize">
                 {monthLabel(month)}

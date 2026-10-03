@@ -15,7 +15,8 @@ export function GameCard({ game, completedCount, totalLevels }: Props) {
   return (
     <Link
       to={game.href}
-      className="animate-fade-in-up group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 bg-white/80 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900/70 dark:hover:border-gray-700"
+      data-nav-item=""
+      className="animate-fade-in-up group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 bg-white/80 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900/70 dark:hover:border-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:focus-visible:ring-gray-100 dark:focus-visible:ring-offset-gray-950"
     >
       <div
         className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r ${game.accentClass}`}

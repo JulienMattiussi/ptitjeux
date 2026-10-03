@@ -4,7 +4,8 @@ import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { LevelNotFound } from '~/components/LevelNotFound'
-import { OutlineButton } from '~/components/OutlineButton'
+import { MovesCard } from '~/components/MovesCard'
+import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
@@ -29,10 +30,8 @@ function SokomotPlay() {
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
-  const [state, dispatch] = useReducer(
-    reducer,
-    level ?? null,
-    (initialLevel) => (initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
+  const [state, dispatch] = useReducer(reducer, level ?? null, (initialLevel) =>
+    initialLevel ? loadLevel(initialLevel) : ({} as GameState),
   )
 
   const won = level ? isWon(state) : false
@@ -117,35 +116,17 @@ function SokomotPlay() {
       >
         <Board state={state} />
         <PlaySidebar>
-          <div className="rounded-xl border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
-            <div className="text-sm text-gray-500 dark:text-gray-400">Coups</div>
-            <div className="text-3xl font-bold">{state.moves}</div>
-            {level.parMoves && (
-              <div className="text-xs text-gray-500 dark:text-gray-400">
-                Objectif : {level.parMoves}
-              </div>
-            )}
-          </div>
+          <MovesCard moves={state.moves} parMoves={level.parMoves} />
 
-          <div className="flex gap-2">
-            <OutlineButton
-              onClick={() => dispatch({ type: 'undo' })}
-              disabled={won}
-              className="flex-1"
-            >
-              Annuler (Ctrl+Z)
-            </OutlineButton>
-            <OutlineButton
-              onClick={() => dispatch({ type: 'reset' })}
-              className="flex-1"
-            >
-              Recommencer (R)
-            </OutlineButton>
-          </div>
+          <PlayControls
+            onUndo={() => dispatch({ type: 'undo' })}
+            onReset={() => dispatch({ type: 'reset' })}
+            undoDisabled={won || state.history.length === 0}
+          />
 
           <HelpBox>
-            Déplace-toi avec les flèches ou ZQSD. Pousse les blocs sur les cases ombrées pour
-            former le mot.
+            Déplace-toi avec les flèches ou ZQSD. Pousse les blocs sur les cases ombrées pour former
+            le mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

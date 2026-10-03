@@ -4,7 +4,8 @@ import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { LevelNotFound } from '~/components/LevelNotFound'
-import { OutlineButton } from '~/components/OutlineButton'
+import { MovesCard } from '~/components/MovesCard'
+import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/anglemort/Board'
@@ -22,10 +23,13 @@ import { PoolTray } from '~/games/anglemort/PoolTray'
 import type { Dir, GameState, Pos } from '~/games/anglemort/types'
 import { useThiefWalk } from '~/games/anglemort/useThiefWalk'
 import { moveCellCursor } from '~/lib/cursor'
+import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
+
+const undoableReducer = withUndo(reducer, (action) => action.type !== 'reset')
 
 function stepDir([fx, fy]: Pos, [tx, ty]: Pos): Dir {
   if (tx > fx) return 'E'
@@ -44,9 +48,10 @@ function AngleMortPlay() {
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
-  const [state, dispatch] = useReducer(reducer, level ?? null, (initialLevel) =>
-    initialLevel ? loadLevel(initialLevel) : ({} as GameState),
+  const [history, dispatch] = useReducer(undoableReducer, level ?? null, (initialLevel) =>
+    undoable(initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
   )
+  const state = history.present
   const won = level ? isWon(state) : false
   // Le cambrioleur traverse le couloir avant l'annonce de la victoire.
   const corridor = useMemo(
@@ -72,6 +77,8 @@ function AngleMortPlay() {
     },
     onAction: () => dispatch({ type: 'toggle', ...selectedRef.current }),
     onSecondaryAction: () => dispatch({ type: 'rotate', ...selectedRef.current }),
+    onUndo: () => dispatch({ type: 'undo' }),
+    onReset: () => dispatch({ type: 'reset' }),
   })
 
   const { beatPar, variant } = getVictoryState(level, state.moves)
@@ -149,16 +156,16 @@ function AngleMortPlay() {
           }}
         />
         <PlaySidebar>
-          <div className="rounded-xl border border-violet-200 bg-white/70 p-3 text-sm dark:border-violet-800 dark:bg-gray-900/60">
-            <div className="mb-2 font-semibold text-violet-800 dark:text-violet-200">
-              Vigiles à placer
-            </div>
+          <MovesCard label="Poses" moves={state.moves} parMoves={level.parMoves}>
+            <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">Vigiles à placer</div>
             <PoolTray state={state} />
-            <div className="mt-2 text-xs text-gray-600 dark:text-gray-400">
-              Poses : {state.moves}
-              {level.parMoves !== undefined && ` / objectif ${level.parMoves}`}
-            </div>
-          </div>
+          </MovesCard>
+
+          <PlayControls
+            onUndo={() => dispatch({ type: 'undo' })}
+            onReset={() => dispatch({ type: 'reset' })}
+            undoDisabled={won || history.past.length === 0}
+          />
 
           <HelpBox>
             Place tous les vigiles. Les cases sombres doivent former un seul couloir, sans
@@ -168,8 +175,6 @@ function AngleMortPlay() {
           <p className="text-xs text-gray-500 dark:text-gray-400">
             Clic : poser ou pivoter · clic droit : retirer · clavier : flèches, Espace, Entrée
           </p>
-
-          <OutlineButton onClick={() => dispatch({ type: 'reset' })}>Recommencer</OutlineButton>
         </PlaySidebar>
       </GameFrame>
     </GameLayout>

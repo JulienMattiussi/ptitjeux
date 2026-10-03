@@ -4,7 +4,8 @@ import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { LevelNotFound } from '~/components/LevelNotFound'
-import { OutlineButton } from '~/components/OutlineButton'
+import { MovesCard } from '~/components/MovesCard'
+import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { StatusRow } from '~/components/StatusRow'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
@@ -22,10 +23,13 @@ import {
   reducer,
 } from '~/games/boucle/engine'
 import type { Edge, GameState } from '~/games/boucle/types'
+import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
+
+const undoableReducer = withUndo(reducer, (action) => action.type === 'toggle')
 
 // Wrapper qui force un remount complet quand l'URL change de niveau.
 export default function BouclePlayRoute() {
@@ -38,11 +42,10 @@ function BouclePlay() {
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
-  const [state, dispatch] = useReducer(
-    reducer,
-    level ?? null,
-    (initialLevel) => (initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
+  const [history, dispatch] = useReducer(undoableReducer, level ?? null, (initialLevel) =>
+    undoable(initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
   )
+  const state = history.present
 
   const won = level ? isWon(state) : false
   const cluesOk = level ? areCluesSatisfied(state) : false
@@ -60,6 +63,8 @@ function BouclePlay() {
       setSelected((prev) => moveEdgeSelection(prev, direction, level.width, level.height))
     },
     onAction: () => dispatch({ type: 'toggle', edge: selectedRef.current }),
+    onUndo: () => dispatch({ type: 'undo' }),
+    onReset: () => dispatch({ type: 'reset' }),
   })
 
   useEffect(() => {
@@ -100,8 +105,7 @@ function BouclePlay() {
             detail={
               <>
                 <div>
-                  Mot encerclé : <span className="font-bold">{level.solutionWord}</span>{' '}
-                  en{' '}
+                  Mot encerclé : <span className="font-bold">{level.solutionWord}</span> en{' '}
                   <span className="font-bold">
                     {state.moves} coup{state.moves > 1 ? 's' : ''}
                   </span>
@@ -136,37 +140,24 @@ function BouclePlay() {
           }}
         />
         <PlaySidebar>
-          <div className="rounded-xl border border-gray-200 bg-white p-3 text-sm dark:border-gray-800 dark:bg-gray-900">
-            <StatusRow
-              label="Indices ok"
-              value={`${okClues} / ${totalClues}`}
-              ok={cluesOk}
-            />
-            <div className="mt-1">
+          <MovesCard moves={state.moves} parMoves={level.parMoves}>
+            <div className="flex flex-col gap-1 text-sm">
+              <StatusRow label="Indices ok" value={`${okClues} / ${totalClues}`} ok={cluesOk} />
               <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'ouverte'} ok={loopOk} />
             </div>
-            <div className="mt-2 flex items-center justify-between border-t border-gray-100 pt-2 dark:border-gray-800">
-              <span className="text-gray-500 dark:text-gray-400">Coups</span>
-              <span className="font-semibold">
-                {state.moves}
-                {level.parMoves !== undefined && (
-                  <span className="ml-1 text-xs text-gray-400 dark:text-gray-500">
-                    / {level.parMoves}
-                  </span>
-                )}
-              </span>
-            </div>
-          </div>
+          </MovesCard>
 
-          <OutlineButton onClick={() => dispatch({ type: 'reset' })}>
-            Recommencer
-          </OutlineButton>
+          <PlayControls
+            onUndo={() => dispatch({ type: 'undo' })}
+            onReset={() => dispatch({ type: 'reset' })}
+            undoDisabled={won || history.past.length === 0}
+          />
 
           <HelpBox>
-            Clique sur une arête entre deux cases pour l'ajouter à la boucle, ou navigue avec
-            les flèches et appuie sur Espace pour la basculer. Les indices te disent combien
-            d'arêtes de la boucle entourent chaque case. Quand la boucle est valide, les
-            lettres encerclées doivent former le mot.
+            Clique sur une arête entre deux cases pour l'ajouter à la boucle, ou navigue avec les
+            flèches et appuie sur Espace pour la basculer. Les indices te disent combien d'arêtes de
+            la boucle entourent chaque case. Quand la boucle est valide, les lettres encerclées
+            doivent former le mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

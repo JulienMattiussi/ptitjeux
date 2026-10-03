@@ -4,7 +4,8 @@ import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { LevelNotFound } from '~/components/LevelNotFound'
-import { OutlineButton } from '~/components/OutlineButton'
+import { MovesCard } from '~/components/MovesCard'
+import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
@@ -20,10 +21,14 @@ import {
 } from '~/games/semantogramme/engine'
 import type { GameState } from '~/games/semantogramme/types'
 import { moveCellCursor } from '~/lib/cursor'
+import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
+
+// La saisie du thème n'est pas un coup : seuls les changements de case s'annulent.
+const undoableReducer = withUndo(reducer, (action) => action.type === 'cycle')
 
 // Wrapper qui force un remount complet quand l'URL change de niveau.
 export default function SemantogrammePlayRoute() {
@@ -36,11 +41,10 @@ function SemantogrammePlay() {
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
 
-  const [state, dispatch] = useReducer(
-    reducer,
-    level ?? null,
-    (initialLevel) => (initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
+  const [history, dispatch] = useReducer(undoableReducer, level ?? null, (initialLevel) =>
+    undoable(initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
   )
+  const state = history.present
 
   const [themeError, setThemeError] = useState(false)
 
@@ -65,6 +69,14 @@ function SemantogrammePlay() {
         x: selectedRef.current.x,
         y: selectedRef.current.y,
       })
+      setThemeError(false)
+    },
+    onUndo: () => {
+      dispatch({ type: 'undo' })
+      setThemeError(false)
+    },
+    onReset: () => {
+      dispatch({ type: 'reset' })
       setThemeError(false)
     },
   })
@@ -114,8 +126,8 @@ function SemantogrammePlay() {
             detail={
               <>
                 <div>
-                  Le mot caché était{' '}
-                  <span className="font-bold">« {level.themeWord} »</span>, trouvé en{' '}
+                  Le mot caché était <span className="font-bold">« {level.themeWord} »</span>,
+                  trouvé en{' '}
                   <span className="font-bold">
                     {state.moves} clic{state.moves > 1 ? 's' : ''}
                   </span>
@@ -153,6 +165,20 @@ function SemantogrammePlay() {
           }}
         />
         <PlaySidebar>
+          <MovesCard label="Clics" moves={state.moves} parMoves={level.parMoves} />
+
+          <PlayControls
+            onUndo={() => {
+              dispatch({ type: 'undo' })
+              setThemeError(false)
+            }}
+            onReset={() => {
+              dispatch({ type: 'reset' })
+              setThemeError(false)
+            }}
+            undoDisabled={won || history.past.length === 0}
+          />
+
           <HelpBox>
             Clique (ou flèches + Espace) pour changer l'état d'une case :
             <span className="mx-1 inline-block rounded bg-amber-200 px-1.5 py-0.5 text-amber-950 dark:bg-amber-700/70 dark:text-amber-50">
@@ -208,15 +234,6 @@ function SemantogrammePlay() {
               </button>
             </form>
           )}
-
-          <OutlineButton
-            onClick={() => {
-              dispatch({ type: 'reset' })
-              setThemeError(false)
-            }}
-          >
-            Recommencer
-          </OutlineButton>
         </PlaySidebar>
       </GameFrame>
     </GameLayout>

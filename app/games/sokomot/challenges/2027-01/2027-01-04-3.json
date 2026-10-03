@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    6
+    3,
+    3
   ],
   "walls": [
     [
@@ -133,99 +133,117 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "H",
+      "letter": "T",
       "pos": [
-        4,
+        3,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "A",
       "pos": [
         3,
-        3
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "N",
       "pos": [
-        5,
-        3
+        2,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "N",
+      "letter": "I",
       "pos": [
-        4,
-        5
+        5,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "T",
+      "letter": "N",
       "pos": [
         6,
-        4
+        6
       ]
     }
   ],
   "target": {
-    "word": "HUENT",
+    "word": "TANIN",
     "cells": [
       [
-        2,
+        1,
         3
+      ],
+      [
+        2,
+        4
       ],
       [
         3,
         4
       ],
       [
-        4,
-        3
+        3,
+        5
       ],
       [
-        5,
-        3
-      ],
-      [
-        6,
-        3
+        3,
+        6
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 45,
   "solution": [
-    "up",
+    "down",
     "right",
-    "right",
-    "up",
-    "up",
+    "down",
     "left",
     "up",
     "up",
+    "left",
+    "left",
+    "down",
+    "right",
+    "up",
+    "up",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down",
+    "left",
+    "left",
+    "right",
+    "right",
+    "right",
+    "down",
+    "right",
+    "down",
+    "left",
+    "left",
+    "right",
+    "right",
     "right",
     "down",
     "left",
     "left",
     "left",
     "up",
-    "left",
-    "down",
-    "right",
-    "down",
-    "down",
-    "right",
-    "down",
-    "down",
-    "left",
     "up",
-    "right",
+    "up",
+    "left",
+    "left",
+    "down",
+    "left",
+    "down",
+    "down",
     "right",
     "up"
   ],
-  "canonicalWord": "huent"
+  "canonicalWord": "tanin"
 }

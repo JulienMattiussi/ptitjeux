@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    2
+    2,
+    5
   ],
   "walls": [
     [
@@ -133,91 +133,82 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "X",
       "pos": [
-        2,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "b2",
-      "letter": "P",
+      "letter": "E",
       "pos": [
         3,
-        2
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "R",
       "pos": [
-        6,
+        3,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "U",
       "pos": [
         5,
-        2
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "S",
       "pos": [
         6,
-        4
+        5
       ]
     }
   ],
   "target": {
-    "word": "EPIEE",
+    "word": "XERUS",
     "cells": [
       [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
         4,
-        2
+        5
       ],
       [
         5,
-        1
+        5
       ],
       [
         6,
-        2
-      ],
-      [
-        7,
-        1
-      ],
-      [
-        7,
-        2
+        6
       ]
     ]
   },
-  "parMoves": 33,
+  "parMoves": 28,
   "solution": [
-    "right",
-    "right",
-    "left",
-    "down",
-    "down",
+    "up",
+    "up",
     "right",
     "up",
     "right",
-    "up",
-    "down",
-    "left",
-    "down",
-    "down",
     "right",
-    "up",
-    "up",
+    "down",
+    "down",
     "left",
-    "left",
-    "left",
+    "down",
     "left",
     "up",
     "down",
@@ -227,11 +218,15 @@
     "left",
     "up",
     "right",
-    "right",
-    "left",
+    "up",
     "up",
     "right",
-    "right"
+    "right",
+    "down",
+    "down",
+    "right",
+    "right",
+    "down"
   ],
-  "canonicalWord": "épiée"
+  "canonicalWord": "xérus"
 }

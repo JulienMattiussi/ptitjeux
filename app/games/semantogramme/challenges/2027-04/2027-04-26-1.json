@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "grenier",
+      "ictère",
+      "conte",
+      "cocon"
+    ],
+    [
+      "homme",
+      "cédrat",
+      "larve",
+      "chausson"
+    ],
+    [
+      "violon",
+      "fleur",
+      "ippon",
+      "aile"
+    ],
+    [
+      "chenille",
+      "underground",
+      "nectar",
+      "antenne"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "papillon",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

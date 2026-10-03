@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "restreint",
-      "bras",
-      "enseigne",
-      "épaulette",
-      "délai"
+      "rogner",
+      "caboche",
+      "aîné",
+      "se chamailler",
+      "sororal"
     ],
     [
-      "rentrer",
-      "snow",
-      "tram",
-      "travailler",
-      "aisselle"
+      "expédier",
+      "peuplier",
+      "soeur",
+      "germain",
+      "lyre"
     ],
     [
-      "épaulé",
-      "porter",
-      "abdominal",
-      "trapèze",
-      "bretelle"
+      "hiéroglyphe",
+      "rock",
+      "décharger",
+      "paysanne",
+      "consanguin"
     ],
     [
-      "simultanée",
-      "humérus",
-      "hausser",
-      "seconde",
-      "deltoïde"
+      "jouer",
+      "fratrie",
+      "novice",
+      "plateforme",
+      "fraternel"
     ],
     [
-      "torse",
-      "cou",
-      "clavicule",
-      "sangle",
-      "sillet"
+      "cadet",
+      "sang",
+      "confus",
+      "bôme",
+      "parent"
     ]
   ],
   "rowClues": [
+    3,
     2,
     1,
-    4,
-    3,
-    4
-  ],
-  "colClues": [
-    2,
-    4,
-    2,
     3,
     3
   ],
-  "themeWord": "épaule",
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "frère",
   "solution": [
     [
       false,
-      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false
     ],
@@ -74,23 +81,16 @@
       true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       true
     ],
     [
       true,
       true,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

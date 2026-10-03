@@ -5,87 +5,87 @@
   "height": 6,
   "words": [
     [
-      "caraméliser",
-      "entretenir",
-      "soigner",
-      "éduquer",
-      "girouette",
-      "fascinant"
+      "rattraper",
+      "tamiser",
+      "amande",
+      "sql",
+      "amandée",
+      "émonder"
     ],
     [
-      "rugissement",
-      "choyer",
-      "instruire",
-      "samedi",
-      "apprendre",
-      "doublure"
+      "enveloppe",
+      "frétillant",
+      "civile",
+      "fario",
+      "mascara",
+      "lac"
     ],
     [
-      "accoster",
-      "découvrir",
-      "poilu",
-      "poule",
-      "décocher",
-      "pension"
+      "déambuler",
+      "rhum",
+      "urée",
+      "délicate",
+      "moelleuse",
+      "salmonidé"
     ],
     [
-      "sevrer",
-      "varech",
-      "cultiver",
-      "sapajou",
-      "bétail",
-      "troupeau"
+      "permis",
+      "meunière",
+      "pisciculture",
+      "puéril",
+      "tacheté",
+      "sportive"
     ],
     [
-      "éleveur",
-      "transformation",
-      "attaquer",
-      "volaille",
-      "former",
-      "charité"
+      "poisson",
+      "butiner",
+      "pêche",
+      "fumée",
+      "secours",
+      "honorer"
     ],
     [
-      "noueuse",
-      "inculquer",
-      "institut",
-      "chicorée",
-      "concevoir",
-      "nourrir"
+      "jais",
+      "céramique",
+      "arc-en-ciel",
+      "barreau",
+      "enchère",
+      "inflexible"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     3,
     2,
     4,
     3,
-    3
+    1
   ],
   "colClues": [
+    1,
     2,
-    3,
     4,
     3,
-    3,
+    2,
     3
   ],
-  "themeWord": "élever",
+  "themeWord": "truite",
   "solution": [
     [
       false,
-      true,
-      true,
+      false,
       true,
       false,
+      true,
       false
     ],
     [
       false,
       true,
-      true,
       false,
       true,
-      false
+      false,
+      true
     ],
     [
       false,
@@ -96,8 +96,8 @@
       true
     ],
     [
-      true,
       false,
+      true,
       true,
       false,
       true,
@@ -106,19 +106,19 @@
     [
       true,
       false,
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

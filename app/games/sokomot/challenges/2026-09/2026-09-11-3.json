@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    4
+    3,
+    3
   ],
   "walls": [
     [
@@ -133,74 +133,75 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "E",
       "pos": [
         2,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "I",
-      "pos": [
-        3,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "L",
-      "pos": [
-        2,
-        3
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "A",
-      "pos": [
-        4,
         2
       ]
     },
     {
-      "id": "b5",
-      "letter": "I",
+      "id": "b2",
+      "letter": "L",
       "pos": [
-        6,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "U",
+      "pos": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "D",
+      "pos": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        4,
         3
       ]
     }
   ],
   "target": {
-    "word": "BILAI",
+    "word": "ELUDE",
     "cells": [
       [
         1,
-        1
+        2
       ],
       [
         1,
-        2
+        3
       ],
       [
         2,
-        2
+        4
       ],
       [
         3,
-        2
+        4
       ],
       [
         4,
-        2
+        4
       ]
     ]
   },
-  "parMoves": 26,
+  "parMoves": 23,
   "solution": [
-    "up",
     "right",
+    "down",
+    "left",
     "up",
     "up",
     "left",
@@ -208,23 +209,19 @@
     "right",
     "right",
     "down",
+    "right",
+    "down",
     "left",
-    "right",
     "down",
+    "left",
     "down",
-    "right",
+    "left",
     "up",
-    "right",
+    "left",
+    "down",
+    "left",
     "up",
-    "left",
-    "left",
-    "down",
-    "left",
-    "left",
-    "left",
-    "down",
-    "left",
     "up"
   ],
-  "canonicalWord": "bilai"
+  "canonicalWord": "élude"
 }

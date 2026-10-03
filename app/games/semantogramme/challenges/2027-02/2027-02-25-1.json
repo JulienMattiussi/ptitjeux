@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "harpie",
+      "protéger",
+      "mât",
+      "rayonner"
+    ],
+    [
+      "ennui",
+      "noirâtre",
+      "cordage",
+      "régate"
+    ],
+    [
+      "granuleux",
+      "marin",
+      "pantomime",
+      "écoute"
+    ],
+    [
+      "pavillon",
+      "bôme",
+      "pédestre",
+      "vague"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "voile",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

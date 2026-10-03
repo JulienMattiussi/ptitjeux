@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sumo",
+      "verdâtre",
+      "tonneau",
+      "campagnol",
+      "malveillance"
+    ],
+    [
+      "paraître",
+      "baleine",
+      "astre",
+      "épauler",
+      "orbe"
+    ],
+    [
+      "baudruche",
+      "grossir",
+      "chandelier",
+      "fustiger",
+      "engraisser"
+    ],
+    [
+      "épaissir",
+      "pansu",
+      "surf",
+      "pneu",
+      "éléphant"
+    ],
+    [
+      "enfant",
+      "enrobé",
+      "enflure",
+      "laver",
+      "penalty"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "gros",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

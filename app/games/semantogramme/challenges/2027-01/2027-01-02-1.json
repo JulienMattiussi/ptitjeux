@@ -5,60 +5,48 @@
   "height": 4,
   "words": [
     [
-      "matinale",
-      "incandescent",
-      "cendre",
-      "créateur"
+      "emballage",
+      "ravissement",
+      "paquet",
+      "décomposé"
     ],
     [
-      "descendant",
-      "allumette",
-      "braise",
-      "ring"
+      "jouet",
+      "fleur",
+      "révélation",
+      "bague"
     ],
     [
-      "sourcil",
-      "fumée",
-      "persistant",
-      "brise"
+      "noël",
+      "tournage",
+      "ruban",
+      "pinson"
     ],
     [
-      "pompier",
-      "incendie",
-      "composé",
-      "flamme"
+      "bienveillant",
+      "carte",
+      "carillonner",
+      "chocolat"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    1,
-    3
-  ],
-  "colClues": [
-    1,
     3,
     2,
-    1
+    2
   ],
-  "themeWord": "feu",
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "cadeau",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
@@ -66,7 +54,19 @@
       true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

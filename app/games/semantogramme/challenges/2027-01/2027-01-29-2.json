@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "grill",
-      "côtelette",
-      "turbine",
-      "fumer",
-      "cuire"
+      "composer",
+      "transcrire",
+      "sabot",
+      "spray",
+      "inorganique"
     ],
     [
-      "quadrilatère",
-      "calendrier",
-      "braise",
-      "gril",
-      "verdure"
-    ],
-    [
-      "feu",
-      "milieu",
-      "plancha",
-      "barbecue",
-      "épuisant"
-    ],
-    [
-      "saisir",
-      "saucisse",
-      "gant",
-      "carboniser",
-      "flamber"
-    ],
-    [
-      "rôtir",
-      "charbonner",
-      "lourdeur",
-      "swing",
+      "crayon",
+      "phrase",
+      "griffonner",
+      "gerboise",
       "déraper"
+    ],
+    [
+      "cinéma",
+      "rédiger",
+      "feuille",
+      "cahier",
+      "manuscrit"
+    ],
+    [
+      "trampoline",
+      "dompter",
+      "budget",
+      "stylo",
+      "lettre"
+    ],
+    [
+      "maçonnerie",
+      "auteur",
+      "plume",
+      "noter",
+      "embaumer"
     ]
   ],
   "rowClues": [
-    4,
     2,
     3,
     4,
-    2
+    2,
+    3
   ],
   "colClues": [
-    4,
-    3,
     2,
     4,
+    3,
+    3,
     2
   ],
-  "themeWord": "griller",
+  "themeWord": "écrire",
   "solution": [
     [
       true,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       true,
       true
     ],
     [
+      false,
       true,
       true,
-      false,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

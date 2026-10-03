@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "affection",
-      "trois-cent-soixante-cinq",
-      "attirance",
-      "accordéon"
+      "bronze",
+      "argile",
+      "mondial",
+      "marbre"
     ],
     [
-      "panne",
-      "adoration",
-      "étendre",
-      "désir"
+      "veilleuse",
+      "moule",
+      "plâtre",
+      "multitude"
     ],
     [
-      "anneau",
-      "organe",
-      "romance",
-      "ancien"
+      "bois",
+      "finir",
+      "décomposé",
+      "fonte"
     ],
     [
-      "flirt",
-      "baiser",
-      "piste",
-      "coeur"
+      "transfusion",
+      "pierre",
+      "modelage",
+      "buste"
     ]
   ],
   "rowClues": [
+    3,
     2,
     2,
-    1,
     3
   ],
   "colClues": [
     2,
+    3,
     2,
-    2,
-    2
+    3
   ],
-  "themeWord": "amour",
+  "themeWord": "sculpture",
   "solution": [
     [
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       false
     ],
     [
       true,
-      true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

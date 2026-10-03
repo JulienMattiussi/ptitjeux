@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "touche",
-      "or",
-      "apprenti",
-      "énergique",
-      "jour",
-      "payante",
-      "miniature"
+      "synagogue",
+      "mythique",
+      "aller",
+      "hôpital",
+      "arc-en-ciel",
+      "venin",
+      "document"
     ],
     [
-      "aquatique",
-      "pathétique",
-      "gronderie",
-      "liqueur",
-      "emphatique",
-      "évaporer",
-      "finement"
+      "remontoir",
+      "crasse",
+      "résistant",
+      "agressif",
+      "fulgurant",
+      "dribble",
+      "creuser"
     ],
     [
-      "cystite",
-      "martelé",
-      "démouler",
-      "reposant",
-      "lagune",
-      "kepler",
-      "ciselure"
+      "barge",
+      "téméraire",
+      "minimiser",
+      "oublié",
+      "albâtre",
+      "goncourt",
+      "blanc"
     ],
     [
-      "palette",
-      "vain",
-      "condor",
-      "page",
-      "belge",
-      "bijou",
-      "éclairer"
+      "fouir",
+      "cathédrale",
+      "proue",
+      "pelage",
+      "court",
+      "sanctionner",
+      "noir"
     ],
     [
-      "minérale",
-      "travailler",
-      "ciseler",
-      "maître",
-      "sciure",
-      "hawaïen",
-      "joaillier"
+      "orchestre",
+      "mori",
+      "rester",
+      "attaquer",
+      "concomitant",
+      "regard",
+      "tourbillon"
     ],
     [
-      "précieux",
-      "détoxification",
-      "patineur",
-      "métal",
-      "enclume",
-      "artisan",
-      "fléau"
+      "rotation",
+      "olivier",
+      "bruxelloise",
+      "vache",
+      "chasser",
+      "invincible",
+      "imprégner"
     ],
     [
-      "taureau",
-      "fondre",
-      "destination",
-      "virale",
-      "marteau",
-      "graver",
-      "lapin"
+      "indépendante",
+      "rayé",
+      "ocre",
+      "juteuse",
+      "fossiliser",
+      "auditif",
+      "puissant"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    3,
+    2,
+    4,
     1,
     2,
-    1,
-    4,
-    4,
-    3
+    1
   ],
   "colClues": [
     1,
-    4,
+    2,
     1,
-    2,
-    2,
     3,
-    3
+    2,
+    2,
+    4
   ],
-  "themeWord": "orfèvre",
+  "themeWord": "ratel",
   "solution": [
     [
       false,
@@ -94,14 +94,14 @@
       false,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       true
@@ -116,41 +116,41 @@
       true
     ],
     [
-      false,
-      false,
-      false,
+      true,
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
+      false,
+      false,
+      false,
       true,
       false,
       false,
-      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       false
     ],
     [
       false,
-      true,
       false,
       false,
-      true,
-      true,
-      false
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

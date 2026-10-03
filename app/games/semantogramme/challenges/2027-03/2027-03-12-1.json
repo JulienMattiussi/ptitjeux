@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "escalier",
+      "sommet",
+      "sachet",
+      "guet"
+    ],
+    [
+      "crevaison",
+      "tourelle",
+      "beffroi",
+      "magnésie"
+    ],
+    [
+      "ascenseur",
+      "campanile",
+      "phare",
+      "bronzer"
+    ],
+    [
+      "gerbe",
+      "âme",
+      "horloge",
+      "étreindre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "tour",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

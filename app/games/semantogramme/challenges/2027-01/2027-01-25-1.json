@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "patriarche",
-      "jumelle",
-      "éloigné",
-      "polymère"
+      "contact",
+      "temple",
+      "colonne",
+      "écluse"
     ],
     [
-      "famille",
-      "protéger",
-      "apaiser",
-      "papa"
+      "cathédrale",
+      "palais",
+      "obélisque",
+      "dégainer"
     ],
     [
-      "figure",
-      "dalmatien",
-      "parent",
-      "paternel"
+      "statue",
+      "oignon",
+      "fontaine",
+      "mémorial"
     ],
     [
-      "multiplier",
-      "macaque",
-      "enfant",
-      "appel"
+      "tour",
+      "tristesse",
+      "bigarade",
+      "pyramide"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
     3,
-    1
+    2
   ],
   "colClues": [
     3,
-    1,
     2,
+    3,
     2
   ],
-  "themeWord": "père",
+  "themeWord": "monument",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      true,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

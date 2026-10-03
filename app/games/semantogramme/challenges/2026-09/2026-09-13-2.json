@@ -5,58 +5,72 @@
   "height": 5,
   "words": [
     [
-      "comique",
-      "verdict",
-      "circassien",
-      "chaussure",
-      "maquillage"
+      "mériter",
+      "géranium",
+      "tondre",
+      "taquiner",
+      "vénérer"
     ],
     [
-      "gag",
-      "amuser",
-      "article",
-      "rouge",
-      "cirque"
+      "tricoter",
+      "contagieux",
+      "traversin",
+      "pull",
+      "moutarde"
     ],
     [
-      "action",
-      "maquillé",
-      "lettre",
-      "glisser",
-      "manucure"
+      "tricot",
+      "sacre",
+      "mérinos",
+      "filer",
+      "mouton"
     ],
     [
-      "perruque",
-      "enfant",
-      "rigoler",
-      "chaperon",
-      "croûte"
+      "assimiler",
+      "amphi",
+      "écharpe",
+      "douce",
+      "cardiaque"
     ],
     [
-      "nez",
-      "irriguer",
-      "rire",
-      "organiste",
-      "arrondi"
+      "pic",
+      "pelote",
+      "frisée",
+      "chaussette",
+      "isolante"
     ]
   ],
   "rowClues": [
-    4,
+    1,
+    2,
     4,
     2,
-    3,
-    2
+    4
   ],
   "colClues": [
+    2,
+    1,
     4,
-    3,
-    3,
-    3,
+    4,
     2
   ],
-  "themeWord": "clown",
+  "themeWord": "laine",
   "solution": [
     [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
       true,
@@ -64,33 +78,19 @@
       true
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

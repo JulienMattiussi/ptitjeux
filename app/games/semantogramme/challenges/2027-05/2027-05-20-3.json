@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-20-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "thèse",
+      "salée",
+      "douloureux",
+      "méditerranéen",
+      "pizza",
+      "cueillette"
+    ],
+    [
+      "concentration",
+      "odorante",
+      "installer",
+      "fruit",
+      "champêtre",
+      "salade"
+    ],
+    [
+      "olivier",
+      "sonnet",
+      "gourmandise",
+      "féminité",
+      "spaghetti",
+      "quadratique"
+    ],
+    [
+      "arrogant",
+      "soufre",
+      "confortable",
+      "tapenade",
+      "leurre",
+      "cuivré"
+    ],
+    [
+      "gratin",
+      "vert",
+      "amère",
+      "martini",
+      "gueuler",
+      "apéritif"
+    ],
+    [
+      "antique",
+      "liégeoise",
+      "noyau",
+      "noir",
+      "chlore",
+      "crocs"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    5,
+    1,
+    3
+  ],
+  "themeWord": "olive",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

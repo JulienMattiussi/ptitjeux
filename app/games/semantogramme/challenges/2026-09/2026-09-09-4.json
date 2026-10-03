@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "oeuvre",
-      "évolution",
-      "éternel",
-      "bouclier",
-      "cénozoïque",
-      "défraîchir",
-      "voyance"
+      "extérieur",
+      "expressionniste",
+      "sable",
+      "pension",
+      "léopard",
+      "herpétologue",
+      "mai"
     ],
     [
-      "mammouth",
-      "mésozoïque",
-      "hubble",
+      "environnemental",
+      "pioncer",
+      "smithson",
+      "piquante",
+      "félin",
+      "créer",
+      "suinter"
+    ],
+    [
+      "à-pain",
+      "surveiller",
+      "éclabousser",
+      "sirop",
+      "long",
+      "afrique",
+      "cousinage"
+    ],
+    [
+      "nourrisson",
+      "monumental",
+      "éphémère",
+      "site",
+      "truffe",
+      "repaître",
+      "mouvement"
+    ],
+    [
+      "paysage",
+      "inutilisé",
+      "geindre",
+      "législative",
+      "nature",
+      "audace",
+      "léger"
+    ],
+    [
+      "noix",
+      "art",
+      "aspirateur",
+      "jumelle",
+      "vaccin",
       "goldsworthy",
-      "maïs",
-      "os",
-      "déterminisme"
+      "détremper"
     ],
     [
-      "doberman",
-      "arrêter",
-      "tyrannosaure",
-      "reptile",
-      "lune",
-      "caverne",
-      "lombaire"
-    ],
-    [
-      "darwinien",
-      "jurassique",
-      "alzheimer",
-      "préhistoire",
-      "narrative",
-      "vacarme",
-      "extinction"
-    ],
-    [
-      "fumé",
-      "pose",
-      "climat",
-      "archéoptéryx",
-      "paléontologue",
-      "fossile",
-      "fronton"
-    ],
-    [
-      "dinosaure",
-      "visière",
-      "baudelaire",
-      "chantilly",
-      "propice",
-      "inconscient",
-      "zinc"
-    ],
-    [
-      "crétacé",
-      "fouilles",
-      "jalousie",
-      "sédimentation",
-      "bouillon",
-      "ontologique",
-      "jumeler"
+      "pierre",
+      "embaumé",
+      "bois",
+      "lithologue",
+      "maman",
+      "écologique",
+      "aménager"
     ]
   ],
   "rowClues": [
     2,
     3,
-    2,
-    4,
-    3,
     1,
-    3
+    4,
+    2,
+    2,
+    4
   ],
   "colClues": [
     4,
+    2,
     4,
     1,
-    4,
     2,
-    2,
-    1
+    3,
+    2
   ],
-  "themeWord": "paléontologie",
+  "themeWord": "land-art",
   "solution": [
     [
+      true,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
@@ -98,58 +116,40 @@
       false
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false,
       false,
       true
     ],
     [
+      true,
       false,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false,
       false,
-      false
+      true,
+      true
     ]
   ],
   "parMoves": 18

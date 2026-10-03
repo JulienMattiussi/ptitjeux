@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-08-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "croix",
+      "parole",
+      "froussard",
+      "éplucher",
+      "poltron",
+      "thé"
+    ],
+    [
+      "propriétaire",
+      "porcine",
+      "chenille",
+      "trouillard",
+      "tergiverser",
+      "bercement"
+    ],
+    [
+      "frémir",
+      "flageoler",
+      "antiquité",
+      "obélisque",
+      "bénin",
+      "tracter"
+    ],
+    [
+      "fuir",
+      "dessinateur",
+      "opuntia",
+      "sève",
+      "abandonner",
+      "cyclisme"
+    ],
+    [
+      "craintif",
+      "flancher",
+      "peureux",
+      "perte",
+      "renaître",
+      "antiadhésive"
+    ],
+    [
+      "mississippi",
+      "thorax",
+      "déserter",
+      "pleutre",
+      "apathique",
+      "reculer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "lâche",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

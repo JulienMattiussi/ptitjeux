@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "piquer",
-      "fil",
-      "amplificateur",
-      "couture",
-      "bobine"
+      "enseignement",
+      "assimiler",
+      "orbitale",
+      "révision",
+      "mémoire"
     ],
     [
-      "tissu",
-      "cicatriser",
-      "dé",
-      "couturière",
-      "machine"
+      "instruire",
+      "lancer",
+      "connaissance",
+      "cours",
+      "représentative"
     ],
     [
-      "point",
-      "ensorceler",
-      "bouton",
-      "inspirer",
-      "noyer"
+      "épaisseur",
+      "mémoriser",
+      "élève",
+      "aura",
+      "tenailler"
     ],
     [
-      "amuser",
-      "broder",
-      "sanction",
-      "patron",
-      "aiguille"
+      "étude",
+      "savoir",
+      "devoir",
+      "leçon",
+      "étalon"
     ],
     [
-      "précipice",
-      "tropical",
-      "ourlet",
-      "culbute",
-      "amortisseur"
+      "livre",
+      "retenir",
+      "asthme",
+      "mélasse",
+      "métaphore"
     ]
   ],
   "rowClues": [
     4,
-    4,
+    3,
     2,
+    4,
+    2
+  ],
+  "colClues": [
+    4,
+    4,
+    3,
     3,
     1
   ],
-  "colClues": [
-    3,
-    2,
-    3,
-    3,
-    3
-  ],
-  "themeWord": "coudre",
+  "themeWord": "apprendre",
   "solution": [
     [
       true,
@@ -68,29 +68,29 @@
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false
     ],
     [
       false,
       true,
-      false,
       true,
-      true
+      false,
+      false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

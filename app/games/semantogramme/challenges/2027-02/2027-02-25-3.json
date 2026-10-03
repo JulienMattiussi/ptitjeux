@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-25-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "agate",
+      "couper",
+      "bûcheron",
+      "guerre",
+      "piquer",
+      "arbre"
+    ],
+    [
+      "frapper",
+      "crête",
+      "urticante",
+      "manche",
+      "outil",
+      "bois"
+    ],
+    [
+      "acacia",
+      "sucette",
+      "aube",
+      "fendre",
+      "alphabet",
+      "sillonner"
+    ],
+    [
+      "transpercer",
+      "cognée",
+      "abattre",
+      "couvert",
+      "croissant",
+      "symbole"
+    ],
+    [
+      "frange",
+      "bavarder",
+      "ossuaire",
+      "centralisé",
+      "tranchant",
+      "éternelle"
+    ],
+    [
+      "rond",
+      "aiguisée",
+      "buste",
+      "tête",
+      "celtique",
+      "pointu"
+    ]
+  ],
+  "rowClues": [
+    5,
+    4,
+    1,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    4,
+    3,
+    3
+  ],
+  "themeWord": "hache",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

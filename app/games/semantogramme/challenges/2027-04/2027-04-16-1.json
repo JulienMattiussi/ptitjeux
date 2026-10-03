@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "brun",
+      "cinématographie",
+      "tonne",
+      "braiser"
+    ],
+    [
+      "haïti",
+      "plantigrade",
+      "polaire",
+      "grizzli"
+    ],
+    [
+      "ourson",
+      "mauve",
+      "hibernation",
+      "forêt"
+    ],
+    [
+      "miel",
+      "couleur",
+      "hiver",
+      "panda"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "ours",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

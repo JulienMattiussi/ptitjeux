@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-31-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "opale",
+      "palette",
+      "rubis",
+      "perle"
+    ],
+    [
+      "émeraude",
+      "sociable",
+      "améthyste",
+      "éclipse"
+    ],
+    [
+      "diamant",
+      "topaze",
+      "auriculaire",
+      "turquoise"
+    ],
+    [
+      "nova",
+      "aquatique",
+      "rhume",
+      "agate"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "pierre",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

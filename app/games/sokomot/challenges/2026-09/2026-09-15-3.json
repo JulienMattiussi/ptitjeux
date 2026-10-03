@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    3
+    7,
+    4
   ],
   "walls": [
     [
@@ -133,102 +133,98 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
-      "pos": [
-        2,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "O",
-      "pos": [
-        5,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "I",
+      "letter": "L",
       "pos": [
         3,
-        2
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "N",
-      "pos": [
-        5,
         3
       ]
     },
     {
-      "id": "b5",
-      "letter": "G",
+      "id": "b2",
+      "letter": "I",
       "pos": [
-        5,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "M",
+      "pos": [
+        6,
+        3
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "E",
+      "pos": [
+        6,
         4
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "S",
+      "pos": [
+        6,
+        5
       ]
     }
   ],
   "target": {
-    "word": "POING",
+    "word": "LIMES",
     "cells": [
       [
-        3,
-        2
+        4,
+        3
       ],
       [
         4,
-        2
+        4
       ],
       [
         5,
-        1
-      ],
-      [
-        5,
-        2
+        3
       ],
       [
         6,
-        2
+        3
+      ],
+      [
+        6,
+        4
       ]
     ]
   },
-  "parMoves": 30,
+  "parMoves": 26,
   "solution": [
     "up",
-    "down",
     "left",
-    "left",
-    "up",
-    "right",
-    "up",
-    "right",
-    "right",
-    "down",
-    "down",
-    "down",
-    "right",
-    "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "up",
-    "left",
-    "left",
-    "right",
     "right",
     "down",
     "down",
     "left",
     "up",
+    "left",
+    "left",
+    "left",
+    "left",
+    "up",
+    "right",
     "down",
     "left",
+    "left",
+    "down",
+    "right",
+    "right",
+    "down",
+    "right",
+    "up",
+    "right",
+    "down",
+    "right",
     "up"
   ],
-  "canonicalWord": "poing"
+  "canonicalWord": "limes"
 }

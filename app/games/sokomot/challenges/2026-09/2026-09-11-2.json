@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    1
+    3,
+    5
   ],
   "walls": [
     [
@@ -115,12 +115,16 @@
   ],
   "ice": [
     [
-      4,
-      1
+      3,
+      3
     ],
     [
       3,
-      2
+      1
+    ],
+    [
+      4,
+      3
     ],
     [
       5,
@@ -130,42 +134,46 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "S",
       "pos": [
-        5,
-        1
+        3,
+        4
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "A",
       "pos": [
         2,
-        2
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "T",
       "pos": [
-        5,
+        4,
         4
       ]
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "I",
       "pos": [
-        4,
-        3
+        5,
+        4
       ]
     }
   ],
   "target": {
-    "word": "RUAT",
+    "word": "SATI",
     "cells": [
       [
         3,
+        2
+      ],
+      [
+        4,
         1
       ],
       [
@@ -175,31 +183,24 @@
       [
         5,
         2
-      ],
-      [
-        6,
-        3
       ]
     ]
   },
-  "parMoves": 16,
+  "parMoves": 13,
   "solution": [
-    "left",
-    "left",
+    "up",
     "down",
-    "left",
+    "right",
+    "up",
     "down",
-    "left",
+    "right",
+    "up",
+    "up",
     "left",
     "up",
-    "right",
-    "down",
-    "right",
-    "right",
-    "down",
-    "down",
-    "right",
-    "up"
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "ruât"
+  "canonicalWord": "satî"
 }

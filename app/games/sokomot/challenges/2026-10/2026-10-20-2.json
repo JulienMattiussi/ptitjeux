@@ -4,7 +4,7 @@
   "width": 8,
   "height": 7,
   "player": [
-    1,
+    3,
     4
   ],
   "walls": [
@@ -115,24 +115,28 @@
   ],
   "ice": [
     [
-      1,
+      3,
       2
     ],
     [
-      2,
-      3
+      4,
+      2
     ],
     [
-      4,
+      5,
+      2
+    ],
+    [
+      6,
       3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "J",
       "pos": [
-        1,
+        3,
         3
       ]
     },
@@ -140,8 +144,8 @@
       "id": "b2",
       "letter": "A",
       "pos": [
-        2,
-        4
+        4,
+        3
       ]
     },
     {
@@ -154,49 +158,47 @@
     },
     {
       "id": "b4",
-      "letter": "Z",
+      "letter": "V",
       "pos": [
-        4,
+        6,
         4
       ]
     }
   ],
   "target": {
-    "word": "RANZ",
+    "word": "JANV",
     "cells": [
       [
-        1,
+        3,
         1
       ],
       [
-        2,
-        2
-      ],
-      [
-        3,
-        3
-      ],
-      [
         4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
         2
       ]
     ]
   },
-  "parMoves": 13,
+  "parMoves": 11,
   "solution": [
     "up",
     "down",
-    "down",
     "right",
     "up",
     "down",
     "right",
-    "right",
     "up",
+    "down",
+    "down",
     "right",
-    "right",
-    "up",
-    "left"
+    "up"
   ],
-  "canonicalWord": "ranz"
+  "canonicalWord": "janv"
 }

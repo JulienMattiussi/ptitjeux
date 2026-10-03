@@ -5,95 +5,87 @@
   "height": 6,
   "words": [
     [
-      "notoire",
-      "écorce",
-      "rafraîchissant",
-      "marmotte",
-      "rouge",
-      "mou"
+      "mobile",
+      "unique",
+      "essaim",
+      "tennis",
+      "entendre",
+      "plan"
     ],
     [
-      "pulpe",
-      "voltiger",
-      "rond",
-      "poulpe",
-      "identification",
-      "estuaire"
+      "délicate",
+      "conclusion",
+      "bras",
+      "cassure",
+      "montre",
+      "berger"
     ],
     [
-      "prune",
-      "foulée",
-      "californien",
-      "juteux",
-      "estival",
-      "tranche"
+      "isoler",
+      "fine",
+      "masser",
+      "banquette",
+      "bracelet",
+      "flexion"
     ],
     [
-      "milan",
-      "gros",
-      "sucré",
-      "minuit",
-      "fruit",
-      "soif"
+      "jumeler",
+      "vulnérabilité",
+      "articulation",
+      "plaintif",
+      "plastique",
+      "tordre"
     ],
     [
-      "phare",
-      "tatouer",
-      "vert",
-      "rayé",
-      "aveuglant",
-      "ébahissement"
+      "ambulance",
+      "jouer",
+      "germaine",
+      "victoire",
+      "tendre",
+      "manchette"
     ],
     [
-      "mûre",
-      "lourd",
-      "campagnard",
-      "grain",
-      "cueillette",
-      "rappeler"
+      "foulure",
+      "main",
+      "rotation",
+      "prunier",
+      "pékinois",
+      "paresser"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    3,
+    4,
     4,
     2,
+    3,
     3
   ],
   "colClues": [
-    2,
+    3,
     3,
     4,
     2,
-    4,
-    2
+    3,
+    3
   ],
-  "themeWord": "pastèque",
+  "themeWord": "poignet",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
+      false,
       true,
+      false,
       false
     ],
     [
       true,
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
     ],
     [
       false,
@@ -107,18 +99,26 @@
       false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       false,
-      false
+      false,
+      true,
+      true
     ],
     [
       true,
       true,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

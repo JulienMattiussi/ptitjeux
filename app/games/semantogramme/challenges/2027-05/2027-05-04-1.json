@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "clavier",
+      "troupeau",
+      "acier",
+      "titane"
+    ],
+    [
+      "détergent",
+      "aluminium",
+      "gastralgie",
+      "consacrer"
+    ],
+    [
+      "examiner",
+      "or",
+      "étain",
+      "cousinage"
+    ],
+    [
+      "cuivre",
+      "zinc",
+      "beaujolais",
+      "fin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "métal",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
-      "lapis",
-      "piscine",
-      "glisser",
-      "canneberge",
-      "croire"
+      "affluent",
+      "signaler",
+      "pavillon",
+      "côte",
+      "lent"
     ],
     [
-      "collectif",
-      "long",
-      "faïence",
-      "ramer",
-      "olympique"
+      "côtier",
+      "tour",
+      "astreindre",
+      "gardien",
+      "navire"
     ],
     [
-      "barre",
-      "humer",
-      "multifonction",
-      "priver",
-      "mercure"
+      "moine",
+      "lumière",
+      "vif",
+      "lumineux",
+      "creusage"
     ],
     [
-      "lac",
-      "attention",
-      "tirer",
-      "bateau",
-      "équipage"
+      "nouveauté",
+      "sac",
+      "feu",
+      "maritime",
+      "frémir"
     ],
     [
-      "oar",
-      "chic",
-      "sportif",
-      "exotique",
-      "siège"
+      "rocher",
+      "guider",
+      "falaise",
+      "filetage",
+      "mer"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     4,
-    1,
-    4,
-    3
+    2,
+    2,
+    4
   ],
   "colClues": [
-    4,
-    1,
-    3,
     2,
-    3
+    4,
+    2,
+    4,
+    2
   ],
-  "themeWord": "aviron",
+  "themeWord": "phare",
   "solution": [
     [
       false,
-      false,
       true,
       false,
+      true,
       false
     ],
     [
@@ -71,26 +71,26 @@
       true
     ],
     [
+      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

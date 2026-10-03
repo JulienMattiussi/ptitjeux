@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "guirlande",
+      "roi",
+      "chanson",
+      "âge"
+    ],
+    [
+      "carte",
+      "frisson",
+      "liesse",
+      "ébauchoir"
+    ],
+    [
+      "fidèle",
+      "célébration",
+      "décoration",
+      "bougie"
+    ],
+    [
+      "invitation",
+      "cloison",
+      "gâteau",
+      "fête"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "anniversaire",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

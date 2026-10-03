@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "expliquer",
+      "peser",
+      "épais",
+      "cinéma",
+      "latte"
+    ],
+    [
+      "pondéreux",
+      "consistant",
+      "aboutir",
+      "masse",
+      "tramway"
+    ],
+    [
+      "arrache-clou",
+      "kilo",
+      "urbain",
+      "implanter",
+      "familiale"
+    ],
+    [
+      "tonne",
+      "massif",
+      "pivoine",
+      "fardeau",
+      "pesant"
+    ],
+    [
+      "perpendiculaire",
+      "rubis",
+      "ronron",
+      "rocher",
+      "tricoter"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    4,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "lourd",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

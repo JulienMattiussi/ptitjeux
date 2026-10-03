@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     1,
-    2
+    3
   ],
   "walls": [
     [
@@ -97,74 +97,67 @@
       4
     ],
     [
-      1,
-      1
+      4,
+      2
     ],
     [
       5,
-      4
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "V",
       "pos": [
-        2,
+        1,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "H",
+      "letter": "I",
       "pos": [
-        4,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "S",
       "pos": [
-        5,
+        3,
         2
       ]
     }
   ],
   "target": {
-    "word": "PHI",
+    "word": "VIS",
     "cells": [
       [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
         3,
-        2
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        5,
-        3
+        1
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 7,
   "solution": [
-    "right",
+    "up",
+    "down",
     "down",
     "right",
-    "down",
-    "right",
-    "up",
-    "left",
-    "left",
-    "up",
     "up",
     "right",
-    "right",
-    "right",
-    "down"
+    "up"
   ],
-  "canonicalWord": "phi"
+  "canonicalWord": "vis"
 }

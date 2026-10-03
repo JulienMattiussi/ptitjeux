@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-30-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rempart",
+      "sécurité",
+      "chiromancie",
+      "assuré",
+      "sécuriser"
+    ],
+    [
+      "inébranlable",
+      "bref",
+      "forteresse",
+      "bras",
+      "période"
+    ],
+    [
+      "protéger",
+      "abri",
+      "dormir",
+      "centenaire",
+      "sain"
+    ],
+    [
+      "refuge",
+      "gardien",
+      "fiable",
+      "humidité",
+      "enraciner"
+    ],
+    [
+      "ciment",
+      "sécurisé",
+      "pouce",
+      "coffre",
+      "garantir"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "sûr",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

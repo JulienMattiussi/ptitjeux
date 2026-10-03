@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "paisible",
-      "pédale",
-      "tacite",
-      "mutisme",
-      "feutre"
+      "froid",
+      "givrer",
+      "gel",
+      "hurlement",
+      "pôle"
     ],
     [
-      "muet",
-      "calme",
-      "couche",
-      "extension",
-      "verni"
+      "tricot",
+      "geler",
+      "polaire",
+      "givre",
+      "bandelette"
     ],
     [
-      "monastère",
-      "peigne",
-      "discret",
-      "flemmard",
-      "cimetière"
+      "shampoing",
+      "aplanir",
+      "congeler",
+      "banquise",
+      "vent"
     ],
     [
-      "sérénité",
-      "feutré",
-      "silence",
-      "discrétion",
-      "imposte"
+      "limpide",
+      "arctique",
+      "acheter",
+      "frimas",
+      "iceberg"
     ],
     [
-      "grillé",
-      "chuchoter",
-      "incurver",
-      "jardinière",
-      "massue"
+      "patineur",
+      "année",
+      "farfadet",
+      "sibérien",
+      "frigorifique"
     ]
   ],
   "rowClues": [
     4,
-    2,
-    3,
-    4,
-    1
-  ],
-  "colClues": [
-    4,
     3,
     3,
-    2,
+    3,
     2
   ],
-  "themeWord": "silencieux",
+  "colClues": [
+    1,
+    3,
+    3,
+    4,
+    4
+  ],
+  "themeWord": "glacial",
   "solution": [
     [
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
       true
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false,
+      true,
       true
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      false
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

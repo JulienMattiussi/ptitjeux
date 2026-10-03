@@ -5,129 +5,102 @@
   "height": 7,
   "words": [
     [
-      "spray",
-      "roulette",
-      "martini",
-      "écorce",
-      "siroter",
-      "cocktail",
-      "matinal"
+      "urticant",
+      "seiche",
+      "nombre",
+      "cataloguer",
+      "habitable",
+      "ajuster",
+      "taxonomie"
     ],
     [
-      "noter",
-      "sec",
-      "soldes",
-      "apéritif",
-      "malfaiteur",
-      "rouge",
-      "décomposé"
+      "aquarium",
+      "rivière",
+      "savante",
+      "rébellion",
+      "écaille",
+      "science",
+      "descriptive"
     ],
     [
-      "fin-de-siècle",
-      "paisible",
-      "craquelée",
-      "pyrénées",
-      "décennie",
-      "manhattan",
-      "limbe"
+      "capituler",
+      "borner",
+      "classifier",
+      "roulée",
+      "ombre",
+      "ectoplasme",
+      "projection"
     ],
     [
-      "doux",
-      "comptine",
-      "thérapeutique",
-      "herbes",
-      "attribuer",
-      "cendrier",
-      "concept"
+      "grue",
+      "spécialisée",
+      "mer",
+      "observer",
+      "mannequin",
+      "néolithique",
+      "verdict"
     ],
     [
-      "glaçon",
-      "profane",
-      "adagio",
-      "merveilleux",
-      "verser",
-      "amer",
-      "français"
+      "paprika",
+      "immobilisation",
+      "aquatique",
+      "herbier",
+      "incliner",
+      "tester",
+      "crique"
     ],
     [
-      "collective",
-      "recyclable",
-      "vin",
-      "remise",
-      "balla",
-      "galoper",
-      "cyperus"
+      "courbé",
+      "nageoire",
+      "orthoptère",
+      "tabouret",
+      "maupassant",
+      "rappel",
+      "poisson"
     ],
     [
-      "joyau",
-      "chou",
-      "italien",
-      "tiède",
-      "blanc",
-      "débat",
-      "marionnette"
+      "salamalec",
+      "tortillonner",
+      "virement",
+      "identifier",
+      "cisailler",
+      "fourneau",
+      "pinacle"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    6,
+    1,
     3,
     1,
     2,
-    4,
-    1,
-    2
-  ],
-  "colClues": [
-    2,
-    1,
-    3,
-    3,
-    3,
-    4,
     1
   ],
-  "themeWord": "vermouth",
+  "colClues": [
+    1,
+    3,
+    4,
+    3,
+    1,
+    1,
+    3
+  ],
+  "themeWord": "ichtyologie",
   "solution": [
     [
       false,
       false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
       false,
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
+      true
     ],
     [
       true,
-      false,
-      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
       false,
       true,
       true,
@@ -144,13 +117,40 @@
     ],
     [
       false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

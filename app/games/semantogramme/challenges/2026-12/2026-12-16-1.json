@@ -5,47 +5,47 @@
   "height": 4,
   "words": [
     [
-      "peloton",
-      "vanille",
-      "chiffon",
-      "azur"
+      "salut",
+      "parti",
+      "opposition",
+      "consolider"
     ],
     [
-      "meuglement",
-      "cicatrice",
-      "serpillière",
-      "briquer"
+      "pèlerin",
+      "emblème",
+      "sénateur",
+      "campagne"
     ],
     [
-      "récent",
-      "détergent",
-      "surdité",
-      "éponge"
+      "candidat",
+      "piqûre",
+      "croquis",
+      "député"
     ],
     [
-      "poussière",
-      "épousseter",
-      "savon",
-      "parallèle"
+      "élection",
+      "ministre",
+      "courbé",
+      "président"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     2,
     2,
     3
   ],
   "colClues": [
-    1,
     2,
-    3,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "ménage",
+  "themeWord": "politique",
   "solution": [
     [
       false,
-      false,
+      true,
       true,
       false
     ],
@@ -56,17 +56,17 @@
       true
     ],
     [
-      false,
       true,
+      false,
       false,
       true
     ],
     [
       true,
       true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

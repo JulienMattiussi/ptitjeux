@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "poudre",
+      "nid",
+      "crique",
+      "château"
+    ],
+    [
+      "tirage",
+      "grain",
+      "bénitier",
+      "épée"
+    ],
+    [
+      "dune",
+      "rivage",
+      "pharaon",
+      "fin"
+    ],
+    [
+      "illuminer",
+      "désert",
+      "plage",
+      "mer"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "sable",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

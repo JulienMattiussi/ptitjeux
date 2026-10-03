@@ -5,50 +5,44 @@
   "height": 4,
   "words": [
     [
-      "modelage",
-      "sérénité",
-      "plénitude",
-      "vaillance"
+      "cosse",
+      "plantule",
+      "fragment",
+      "potager"
     ],
     [
-      "allégresse",
-      "ravissement",
-      "noir",
-      "enchantement"
+      "mars",
+      "pasteurisé",
+      "germination",
+      "arroser"
     ],
     [
-      "bien-être",
-      "talonneur",
-      "béatitude",
-      "couturière"
+      "carreau",
+      "jardinier",
+      "tournesol",
+      "piquant"
     ],
     [
-      "joie",
-      "félicité",
-      "hideux",
-      "plaisir"
+      "gousse",
+      "lier",
+      "pépin",
+      "sachet"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    2,
+    1,
+    1,
     3
   ],
   "colClues": [
-    3,
-    3,
+    2,
+    2,
     2,
     2
   ],
-  "themeWord": "bonheur",
+  "themeWord": "graine",
   "solution": [
-    [
-      false,
-      true,
-      true,
-      false
-    ],
     [
       true,
       true,
@@ -56,17 +50,23 @@
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

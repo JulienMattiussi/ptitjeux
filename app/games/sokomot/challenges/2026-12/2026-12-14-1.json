@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
+    2,
     4
   ],
   "walls": [
@@ -98,65 +98,69 @@
     ],
     [
       3,
-      4
+      1
     ],
     [
-      5,
-      3
+      1,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "P",
       "pos": [
-        1,
+        2,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "U",
       "pos": [
-        2,
+        3,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "Z",
+      "letter": "T",
       "pos": [
-        3,
+        4,
         2
       ]
     }
   ],
   "target": {
-    "word": "RAZ",
+    "word": "PUT",
     "cells": [
-      [
-        1,
-        2
-      ],
       [
         2,
         2
       ],
       [
         3,
-        1
+        2
+      ],
+      [
+        4,
+        3
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 10,
   "solution": [
     "up",
     "down",
     "right",
     "up",
     "right",
-    "up"
+    "right",
+    "up",
+    "up",
+    "left",
+    "down"
   ],
-  "canonicalWord": "raz"
+  "canonicalWord": "put"
 }

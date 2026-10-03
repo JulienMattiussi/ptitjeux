@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "détonation",
-      "humble",
-      "sauvetage",
-      "inhaler",
-      "effacé",
-      "réservé"
+      "carmin",
+      "jouer",
+      "clé",
+      "grande",
+      "rave",
+      "souffler"
     ],
     [
-      "percolateur",
-      "pudeur",
-      "portefeuille",
-      "effacement",
-      "étinceler",
-      "chaudron"
+      "souple",
+      "résonant",
+      "aigu",
+      "sournois",
+      "expressif",
+      "lyrique"
     ],
     [
-      "parmesan",
-      "ventoline",
-      "fossile",
-      "sobre",
-      "cheval",
-      "discret"
+      "pavillon",
+      "code",
+      "geindre",
+      "loi",
+      "mélodieux",
+      "jument"
     ],
     [
-      "reculer",
-      "sobriété",
-      "butiner",
-      "invitation",
-      "réserve",
-      "guignol"
+      "instrument",
+      "embouchure",
+      "vision",
+      "orchestre",
+      "long",
+      "destrier"
     ],
     [
-      "usage",
-      "discrétion",
-      "sous-estimer",
-      "rougir",
-      "modestie",
-      "maux"
+      "anche",
+      "batteur",
+      "noir",
+      "jazz",
+      "croquant",
+      "gloussement"
     ],
     [
-      "délégué",
-      "humilité",
-      "maigrir",
-      "simple",
-      "plébisciter",
-      "manger"
+      "chambre",
+      "spyware",
+      "klezmer",
+      "bois",
+      "cramoisi",
+      "choir"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
     3,
+    2,
     4,
-    2
+    3,
+    3
   ],
   "colClues": [
-    1,
-    5,
-    1,
     4,
+    2,
+    4,
+    3,
     3,
     2
   ],
-  "themeWord": "modeste",
+  "themeWord": "clarinette",
   "solution": [
     [
       false,
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true,
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true,
       true,
       false
     ],
     [
-      false,
       true,
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "cantique",
-      "tombée",
-      "apéro",
-      "encadrement",
-      "prime"
+      "fondamental",
+      "enfant",
+      "forêt",
+      "lcd",
+      "salsa"
     ],
     [
-      "nuit",
-      "crépuscule",
-      "souper",
-      "grillé",
-      "soirée"
+      "menu",
+      "minuscule",
+      "modeste",
+      "plat",
+      "loyal"
     ],
     [
-      "rentrer",
-      "stratagème",
-      "malléable",
-      "fin",
-      "tardif"
+      "rapetisser",
+      "minimiser",
+      "rétrécir",
+      "oubli",
+      "rikiki"
     ],
     [
-      "emblème",
-      "tramway",
-      "biologie",
-      "mollusque",
-      "coucher"
+      "vaccin",
+      "hdmi",
+      "réduire",
+      "miniature",
+      "poumon"
     ],
     [
-      "fente",
-      "sombre",
-      "décolleté",
-      "courgette",
-      "reposer"
+      "fourmi",
+      "éleveur",
+      "parlement",
+      "bébé",
+      "graine"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    3,
     1,
-    2
+    3,
+    4,
+    2,
+    3
   ],
   "colClues": [
-    2,
+    3,
+    3,
     3,
     2,
-    1,
-    4
+    2
   ],
-  "themeWord": "soir",
+  "themeWord": "petit",
   "solution": [
     [
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       true,
       false,
@@ -71,26 +78,19 @@
       true
     ],
     [
-      true,
       false,
       false,
       true,
-      true
+      true,
+      false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

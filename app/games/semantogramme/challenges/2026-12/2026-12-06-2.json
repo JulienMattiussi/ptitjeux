@@ -5,72 +5,58 @@
   "height": 5,
   "words": [
     [
-      "renforcer",
-      "modeler",
-      "arrondi",
-      "sinueux",
-      "ode"
+      "cambré",
+      "pont",
+      "archer",
+      "voûte",
+      "clarifier"
     ],
     [
-      "opaque",
-      "religieux",
-      "lactaire",
+      "piétiner",
+      "décocher",
+      "courbé",
+      "germaine",
+      "tirer"
+    ],
+    [
+      "cintré",
+      "capitale",
+      "larguer",
+      "sain",
+      "arqué"
+    ],
+    [
+      "épaisseur",
       "cible",
-      "irritant"
+      "arrondi",
+      "bander",
+      "carquois"
     ],
     [
-      "disque",
-      "sphère",
-      "cercle",
-      "galette",
-      "prompt"
-    ],
-    [
-      "prince",
-      "orbe",
-      "théière",
-      "pneu",
-      "médaille"
-    ],
-    [
-      "anneau",
-      "perle",
-      "ballon",
-      "bague",
-      "jaser"
+      "corde",
+      "destinataire",
+      "tir",
+      "lampadaire",
+      "rugir"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     4,
     3,
-    4
+    2,
+    4,
+    2
   ],
   "colClues": [
-    2,
     3,
     3,
     4,
-    1
+    2,
+    3
   ],
-  "themeWord": "rond",
+  "themeWord": "arc",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
       true,
@@ -80,17 +66,31 @@
     [
       false,
       true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
       true,
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

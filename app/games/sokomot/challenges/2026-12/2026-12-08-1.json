@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    5,
+    1
   ],
   "walls": [
     [
@@ -102,22 +102,22 @@
     ],
     [
       1,
-      1
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "H",
       "pos": [
-        1,
-        3
+        4,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "U",
       "pos": [
         3,
         2
@@ -125,42 +125,45 @@
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "M",
       "pos": [
-        3,
+        4,
         3
       ]
     }
   ],
   "target": {
-    "word": "MIT",
+    "word": "HUM",
     "cells": [
       [
-        1,
+        3,
+        1
+      ],
+      [
+        4,
         2
       ],
       [
-        2,
-        2
-      ],
-      [
-        2,
+        5,
         3
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 13,
   "solution": [
-    "up",
-    "right",
-    "down",
-    "right",
-    "right",
-    "up",
     "left",
     "right",
+    "down",
+    "down",
+    "down",
+    "left",
+    "left",
     "up",
-    "left"
+    "right",
+    "left",
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "mit"
+  "canonicalWord": "hum"
 }

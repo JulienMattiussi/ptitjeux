@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    2
+    6
   ],
   "walls": [
     [
@@ -374,23 +374,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "S",
       "pos": [
         2,
-        7
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "E",
       "pos": [
         4,
-        3
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "P",
       "pos": [
         5,
         4
@@ -398,10 +398,10 @@
     },
     {
       "id": "b4",
-      "letter": "B",
+      "letter": "T",
       "pos": [
         6,
-        7
+        1
       ]
     },
     {
@@ -409,59 +409,59 @@
       "letter": "U",
       "pos": [
         7,
-        7
+        1
       ]
     },
     {
       "id": "b6",
-      "letter": "S",
+      "letter": "M",
       "pos": [
         5,
-        3
+        5
       ]
     }
   ],
   "target": {
-    "word": "NIMBUS",
+    "word": "SEPTUM",
     "cells": [
       [
         3,
-        7
+        1
       ],
       [
         4,
-        7
+        1
       ],
       [
         5,
-        7
+        1
       ],
       [
         6,
-        7
+        1
       ],
       [
         7,
-        7
+        1
       ],
       [
         8,
-        7
+        1
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
-    "down",
-    "right",
-    "down",
     "up",
     "right",
+    "up",
     "down",
-    "down",
+    "right",
+    "up",
+    "up",
     "left",
-    "down",
+    "up",
     "right"
   ],
-  "canonicalWord": "nimbus"
+  "canonicalWord": "septum"
 }

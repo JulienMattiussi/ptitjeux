@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-31-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rythme",
+      "doigt",
+      "connecter",
+      "danseur",
+      "réunion"
+    ],
+    [
+      "twister",
+      "pas",
+      "haine",
+      "dressage",
+      "caramel"
+    ],
+    [
+      "guincher",
+      "sautiller",
+      "marguerite",
+      "piste",
+      "familial"
+    ],
+    [
+      "rougeoyante",
+      "salsa",
+      "bal",
+      "danse",
+      "tournoyer"
+    ],
+    [
+      "tango",
+      "valse",
+      "laitue",
+      "figure",
+      "surveiller"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    1,
+    4,
+    1
+  ],
+  "themeWord": "danser",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

@@ -5,67 +5,81 @@
   "height": 5,
   "words": [
     [
-      "chameau",
-      "natation",
-      "turquoise",
-      "sapin",
-      "géométrique"
+      "fenêtre",
+      "silence",
+      "cirque",
+      "maquillage",
+      "route"
     ],
     [
-      "émeraude",
-      "reins",
+      "visuel",
+      "silencieux",
+      "inspiration",
+      "évoquer",
+      "comique"
+    ],
+    [
+      "pantomime",
+      "enchanté",
+      "tarentule",
+      "artistique",
+      "geste"
+    ],
+    [
       "forêt",
-      "remettre",
-      "tremblement"
+      "imiter",
+      "scène",
+      "air",
+      "sauver"
     ],
     [
-      "feuille",
-      "verdoyant",
-      "assourdissant",
-      "livrer",
-      "kaki"
-    ],
-    [
-      "mousse",
-      "barque",
-      "verdâtre",
-      "vision",
-      "menthe"
-    ],
-    [
-      "olive",
-      "tournage",
-      "parent",
-      "tilleul",
-      "jade"
+      "visage",
+      "expressif",
+      "expression",
+      "embarras",
+      "rubrique"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
+    4,
     3,
+    2,
     3
   ],
   "colClues": [
-    4,
-    1,
     3,
-    2,
-    3
+    4,
+    3,
+    3,
+    2
   ],
-  "themeWord": "vert",
+  "themeWord": "mime",
   "solution": [
     [
       false,
-      false,
+      true,
       true,
       true,
       false
     ],
     [
       true,
+      true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false
@@ -73,24 +87,10 @@
     [
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

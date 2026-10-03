@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "étudier",
+      "fermier",
+      "moisson",
+      "vendange"
+    ],
+    [
+      "élevage",
+      "cantal",
+      "grange",
+      "champ"
+    ],
+    [
+      "mousquetaire",
+      "tracteur",
+      "chausson",
+      "astéroïde"
+    ],
+    [
+      "labour",
+      "fémur",
+      "récolte",
+      "paysan"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "agriculteur",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    1
+    2,
+    5
   ],
   "walls": [
     [
@@ -374,75 +374,75 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
-      "pos": [
-        2,
-        7
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
-      "pos": [
-        4,
-        7
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "R",
-      "pos": [
-        5,
-        7
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "C",
-      "pos": [
-        6,
-        2
-      ]
-    },
-    {
-      "id": "b5",
       "letter": "A",
-      "pos": [
-        7,
-        3
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "S",
       "pos": [
         8,
         2
       ]
+    },
+    {
+      "id": "b2",
+      "letter": "V",
+      "pos": [
+        8,
+        3
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "E",
+      "pos": [
+        8,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "R",
+      "pos": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "S",
+      "pos": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "b6",
+      "letter": "E",
+      "pos": [
+        3,
+        7
+      ]
     }
   ],
   "target": {
-    "word": "PERCAS",
+    "word": "AVERSE",
     "cells": [
       [
-        3,
-        7
+        8,
+        2
       ],
       [
-        4,
-        7
+        8,
+        3
       ],
       [
-        5,
-        7
+        8,
+        4
       ],
       [
-        6,
-        7
+        8,
+        5
       ],
       [
-        7,
-        7
+        8,
+        6
       ],
       [
         8,
@@ -450,17 +450,15 @@
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 7,
   "solution": [
-    "down",
     "right",
     "down",
+    "right",
     "left",
     "down",
     "right",
-    "up",
-    "right",
-    "down"
+    "right"
   ],
-  "canonicalWord": "perças"
+  "canonicalWord": "averse"
 }

@@ -5,76 +5,62 @@
   "height": 5,
   "words": [
     [
-      "gaz",
-      "plancha",
-      "arbre",
-      "chagrin",
-      "oeufrier"
+      "noble",
+      "trot",
+      "olympique",
+      "tenaille",
+      "bride"
     ],
     [
-      "liège",
-      "tronc",
-      "sève",
-      "cannelle",
-      "brasse"
+      "fémur",
+      "développement",
+      "tombeau",
+      "étrier",
+      "cheval"
     ],
     [
-      "terre",
-      "python",
-      "arracher",
-      "craquelée",
-      "écorcer"
+      "trotter",
+      "rênes",
+      "selle",
+      "rural",
+      "salaire"
     ],
     [
-      "sécurisé",
-      "fauve",
-      "école",
-      "cendre",
-      "rugosité"
+      "cavalier",
+      "monter",
+      "tarot",
+      "débutant",
+      "motif"
     ],
     [
-      "menaçant",
-      "parlement",
-      "épaisse",
-      "fibreuse",
-      "étage"
+      "galoper",
+      "poudre",
+      "consolation",
+      "queue",
+      "manège"
     ]
   ],
   "rowClues": [
-    1,
     4,
-    3,
+    2,
+    4,
     2,
     2
   ],
   "colClues": [
-    1,
-    1,
     4,
-    4,
-    2
+    3,
+    2,
+    2,
+    3
   ],
-  "themeWord": "écorce",
+  "themeWord": "équitation",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true
     ],
     [
@@ -85,12 +71,26 @@
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

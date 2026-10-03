@@ -5,74 +5,98 @@
   "height": 6,
   "words": [
     [
-      "long",
-      "tenir",
-      "cucurbitacée",
-      "classique",
-      "éclairé",
-      "ventricule"
+      "chasseur",
+      "venaison",
+      "beethoven",
+      "cerf",
+      "maroquinerie",
+      "étreindre"
     ],
     [
-      "spongieux",
-      "caviar",
-      "potager",
-      "cachalot",
-      "duplicité",
-      "parmesan"
+      "sécheresse",
+      "piège",
+      "argenté",
+      "stocker",
+      "enseigne",
+      "agréée"
     ],
     [
-      "griller",
-      "allergie",
-      "lourd",
-      "violet",
-      "pouffer",
-      "gentilhomme"
+      "marley",
+      "lactaire",
+      "affût",
+      "cartouche",
+      "traque",
+      "avenue"
     ],
     [
-      "dispenser",
-      "ange",
-      "agir",
-      "thai",
-      "frire",
-      "mousaka"
+      "meute",
+      "pleutre",
+      "rabattre",
+      "échafaudage",
+      "tourbillon",
+      "mécanique"
     ],
     [
-      "caoutchouc",
-      "gratin",
-      "laboratoire",
-      "ratatouille",
-      "farcie",
-      "développement"
+      "caméra",
+      "tétanos",
+      "forêt",
+      "transport",
+      "pochade",
+      "sanglier"
     ],
     [
-      "méditerranéen",
-      "toit",
-      "estivale",
-      "jardin",
-      "légume",
-      "manipulée"
+      "coquillage",
+      "chien",
+      "cor",
+      "dépôt",
+      "lundi",
+      "embuscade"
     ]
   ],
   "rowClues": [
-    2,
-    4,
+    3,
+    1,
     3,
     2,
-    3,
-    4
+    2,
+    3
   ],
   "colClues": [
+    2,
+    3,
     4,
     2,
-    4,
-    3,
-    3,
+    1,
     2
   ],
-  "themeWord": "aubergine",
+  "themeWord": "chasser",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
@@ -80,45 +104,21 @@
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false,
       true
     ],
     [
-      true,
       false,
       true,
       true,
       false,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

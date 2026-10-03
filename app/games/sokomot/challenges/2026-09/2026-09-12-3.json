@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    5
+    2,
+    4
   ],
   "walls": [
     [
@@ -133,26 +133,26 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "F",
       "pos": [
-        2,
-        2
+        3,
+        5
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "A",
       "pos": [
-        4,
-        4
+        3,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "D",
       "pos": [
-        6,
-        2
+        2,
+        3
       ]
     },
     {
@@ -160,20 +160,20 @@
       "letter": "A",
       "pos": [
         6,
-        4
+        3
       ]
     },
     {
       "id": "b5",
-      "letter": "I",
+      "letter": "S",
       "pos": [
-        5,
+        6,
         5
       ]
     }
   ],
   "target": {
-    "word": "MISAI",
+    "word": "FADAS",
     "cells": [
       [
         2,
@@ -184,60 +184,54 @@
         2
       ],
       [
-        4,
+        3,
         3
       ],
       [
-        5,
+        4,
         2
       ],
       [
-        6,
+        5,
         3
       ]
     ]
   },
-  "parMoves": 39,
+  "parMoves": 33,
   "solution": [
     "right",
-    "left",
-    "up",
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
-    "right",
-    "right",
-    "down",
-    "right",
-    "down",
-    "left",
-    "left",
-    "right",
-    "right",
-    "down",
-    "left",
-    "right",
-    "down",
-    "down",
-    "left",
-    "up",
-    "up",
-    "down",
-    "left",
-    "up",
     "up",
     "down",
     "left",
     "left",
     "up",
+    "right",
+    "down",
+    "right",
+    "right",
+    "down",
     "left",
+    "down",
     "left",
     "up",
     "up",
     "right",
-    "down"
+    "right",
+    "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "left",
+    "up",
+    "up",
+    "right",
+    "up",
+    "right",
+    "up",
+    "left",
+    "left"
   ],
-  "canonicalWord": "misai"
+  "canonicalWord": "fadas"
 }

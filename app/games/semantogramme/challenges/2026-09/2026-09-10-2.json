@@ -5,82 +5,68 @@
   "height": 5,
   "words": [
     [
-      "graine",
-      "atome",
-      "lilliputien",
-      "gouvernail",
-      "puce"
+      "épuiser",
+      "succulente",
+      "figure",
+      "vulnérabilité",
+      "poignée"
     ],
     [
-      "minimiser",
-      "microbe",
-      "rapetisser",
-      "narine",
-      "molécule"
+      "fatiguer",
+      "fleuret",
+      "engager",
+      "épuisement",
+      "affaiblir"
     ],
     [
-      "menu",
-      "navigateur",
-      "crocs",
-      "givre",
-      "feuilletage"
+      "coup",
+      "cellule",
+      "fragilité",
+      "anémique",
+      "uppercut"
     ],
     [
-      "miette",
-      "masser",
-      "nain",
-      "fourmi",
-      "particule"
+      "malade",
+      "chétif",
+      "maladie",
+      "médicale",
+      "restauration"
     ],
     [
-      "illusoire",
-      "peintre",
-      "infime",
-      "gloussement",
-      "gravure"
+      "faiblesse",
+      "frêle",
+      "délicat",
+      "demoiselle",
+      "fatigue"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    1,
-    4,
-    1
+    2,
+    3,
+    2,
+    3,
+    4
   ],
   "colClues": [
     4,
     2,
-    4,
-    1,
-    3
+    3,
+    3,
+    2
   ],
-  "themeWord": "minuscule",
+  "themeWord": "faible",
   "solution": [
     [
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
       true,
       false,
-      true,
+      false,
       true,
       true
     ],
@@ -88,8 +74,22 @@
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
   "parMoves": 14

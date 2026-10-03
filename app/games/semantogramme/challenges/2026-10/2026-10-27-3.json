@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "persistante",
-      "pastille",
-      "astronomique",
-      "irritante",
-      "bronchite",
-      "sirop"
+      "manoeuvrer",
+      "brie",
+      "blessé",
+      "tripe",
+      "étape",
+      "apocalypse"
     ],
     [
-      "bouillon",
-      "poumon",
-      "sec",
-      "indolent",
-      "auteur",
-      "sureau"
+      "transilvanien",
+      "envoyer",
+      "savourer",
+      "pilote",
+      "cap",
+      "simple"
     ],
     [
-      "célébrer",
-      "spasmodique",
-      "tousser",
-      "gorge",
-      "bois",
-      "féerique"
+      "tableau",
+      "aviateur",
+      "gouvernail",
+      "éjecter",
+      "lombric",
+      "cockpit"
     ],
     [
-      "expectorer",
-      "puissant",
-      "immortaliser",
-      "panache",
-      "rhume",
-      "glisser"
+      "guider",
+      "diriger",
+      "gracieux",
+      "décoller",
+      "planer",
+      "staub"
     ],
     [
-      "feutré",
-      "cracher",
-      "tracteur",
-      "égyptien",
-      "noueuse",
-      "gras"
+      "tuteur",
+      "atterrir",
+      "mariage",
+      "craquelée",
+      "manche",
+      "aviation"
     ],
     [
-      "finesse",
-      "cueilli",
-      "allergie",
-      "asthme",
-      "nocturne",
-      "mouchoir"
+      "arc",
+      "floraison",
+      "derby",
+      "piquer",
+      "piqué",
+      "satisfaction"
     ]
   ],
   "rowClues": [
-    5,
-    2,
-    3,
-    2,
-    2,
-    4
-  ],
-  "colClues": [
+    1,
     2,
     4,
+    4,
     3,
-    3,
-    3,
-    3
+    2
   ],
-  "themeWord": "toux",
+  "colClues": [
+    3,
+    3,
+    1,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "piloter",
   "solution": [
     [
       true,
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
       false,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
-      false,
+      true,
       true,
       false
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false,
       false,
       true
     ],
     [
-      false,
+      true,
+      true,
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

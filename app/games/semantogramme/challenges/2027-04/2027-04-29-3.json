@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-29-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "rare",
+      "chantier",
+      "nocturne",
+      "attiédir",
+      "voiture",
+      "humide"
+    ],
+    [
+      "inaltérable",
+      "colonie",
+      "dégainer",
+      "patte",
+      "compétition",
+      "noir"
+    ],
+    [
+      "avion",
+      "nuisible",
+      "cime",
+      "aile",
+      "sauteuse",
+      "halogène"
+    ],
+    [
+      "fraction",
+      "écraser",
+      "insecticide",
+      "fuir",
+      "blatte",
+      "berceuse"
+    ],
+    [
+      "rêve",
+      "glu",
+      "sale",
+      "salle-de-bain",
+      "décharger",
+      "meuble"
+    ],
+    [
+      "cuisine",
+      "passer",
+      "rapide",
+      "dégoûtant",
+      "rampant",
+      "lac"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    4,
+    1,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    4,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "cafard",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

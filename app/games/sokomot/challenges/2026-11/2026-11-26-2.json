@@ -119,16 +119,16 @@
       2
     ],
     [
+      3,
+      1
+    ],
+    [
       2,
       3
     ],
     [
       4,
       2
-    ],
-    [
-      4,
-      3
     ]
   ],
   "blocks": [
@@ -142,34 +142,38 @@
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "E",
+      "pos": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "N",
       "pos": [
         2,
         4
       ]
     },
     {
-      "id": "b3",
-      "letter": "L",
+      "id": "b4",
+      "letter": "D",
       "pos": [
         5,
         2
       ]
-    },
-    {
-      "id": "b4",
-      "letter": "E",
-      "pos": [
-        5,
-        3
-      ]
     }
   ],
   "target": {
-    "word": "PILE",
+    "word": "PEND",
     "cells": [
       [
         1,
+        1
+      ],
+      [
+        2,
         1
       ],
       [
@@ -179,19 +183,15 @@
       [
         3,
         2
-      ],
-      [
-        3,
-        3
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 13,
   "solution": [
-    "up",
-    "down",
     "down",
     "right",
+    "up",
+    "left",
     "up",
     "right",
     "right",
@@ -199,9 +199,8 @@
     "right",
     "up",
     "left",
-    "right",
     "up",
     "left"
   ],
-  "canonicalWord": "pile"
+  "canonicalWord": "pend"
 }

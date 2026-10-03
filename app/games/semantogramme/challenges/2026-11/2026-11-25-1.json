@@ -5,59 +5,47 @@
   "height": 4,
   "words": [
     [
-      "plomb",
-      "épiler",
-      "inhalation",
-      "cire"
+      "accord",
+      "journal",
+      "chanson",
+      "symphonie"
     ],
     [
-      "nectar",
-      "piqûre",
-      "four",
-      "ruche"
+      "ouistiti",
+      "aride",
+      "mélodie",
+      "passion"
     ],
     [
-      "décider",
-      "ouvrière",
-      "apiculteur",
-      "miel"
+      "partition",
+      "tempo",
+      "vainqueur",
+      "harmonie"
     ],
     [
-      "acteur",
-      "tu",
-      "reine",
-      "chenille"
+      "rythme",
+      "valse",
+      "demoiselle",
+      "concert"
     ]
   ],
   "rowClues": [
+    3,
     1,
     3,
-    3,
-    1
+    2
   ],
   "colClues": [
+    3,
     1,
-    2,
     2,
     3
   ],
-  "themeWord": "abeille",
+  "themeWord": "musique",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true
     ],
@@ -66,7 +54,19 @@
       false,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

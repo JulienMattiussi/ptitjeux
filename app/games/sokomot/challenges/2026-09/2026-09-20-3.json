@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    6
+    5,
+    4
   ],
   "walls": [
     [
@@ -133,97 +133,104 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "C",
       "pos": [
-        3,
-        2
+        6,
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "U",
       "pos": [
-        4,
-        1
+        3,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "V",
+      "letter": "L",
       "pos": [
-        3,
+        5,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
+      "letter": "E",
       "pos": [
-        2,
-        5
+        6,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "Z",
       "pos": [
-        5,
-        3
+        6,
+        5
       ]
     }
   ],
   "target": {
-    "word": "OUVRE",
+    "word": "CULEZ",
     "cells": [
       [
-        2,
+        4,
         2
       ],
       [
-        3,
+        5,
         1
       ],
       [
-        3,
+        6,
+        1
+      ],
+      [
+        7,
         2
       ],
       [
-        3,
-        3
-      ],
-      [
-        4,
+        7,
         3
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 32,
   "solution": [
     "up",
-    "up",
-    "right",
-    "right",
-    "right",
-    "right",
+    "left",
+    "left",
     "up",
     "left",
     "up",
-    "up",
-    "left",
-    "down",
-    "left",
     "right",
     "right",
     "down",
+    "right",
+    "down",
+    "down",
+    "right",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up",
+    "right",
+    "up",
+    "up",
+    "left",
+    "right",
+    "down",
     "down",
     "left",
+    "up",
     "left",
     "up",
-    "down",
-    "left",
-    "left",
+    "right",
     "up",
-    "right"
+    "left"
   ],
-  "canonicalWord": "ouvre"
+  "canonicalWord": "culez"
 }

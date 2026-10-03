@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    1
+    3,
+    5
   ],
   "walls": [
     [
@@ -115,94 +115,89 @@
   ],
   "ice": [
     [
-      4,
-      1
-    ],
-    [
-      4,
-      2
-    ],
-    [
-      4,
+      3,
       3
     ],
     [
-      3,
-      4
+      5,
+      3
+    ],
+    [
+      6,
+      3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "J",
+      "letter": "O",
       "pos": [
-        5,
-        1
+        3,
+        4
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "S",
       "pos": [
-        5,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "E",
       "pos": [
         5,
-        3
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "V",
+      "letter": "R",
       "pos": [
-        2,
-        4
+        6,
+        2
       ]
     }
   ],
   "target": {
-    "word": "JANV",
+    "word": "OSER",
     "cells": [
-      [
-        3,
-        1
-      ],
       [
         3,
         2
       ],
       [
-        3,
+        4,
         3
       ],
       [
-        4,
+        5,
+        4
+      ],
+      [
+        6,
         4
       ]
     ]
   },
-  "parMoves": 15,
+  "parMoves": 14,
   "solution": [
-    "left",
-    "right",
-    "down",
-    "left",
-    "right",
-    "down",
-    "left",
-    "down",
-    "left",
-    "left",
-    "down",
+    "up",
     "left",
     "left",
     "up",
-    "right"
+    "right",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down",
+    "up",
+    "right",
+    "down"
   ],
-  "canonicalWord": "janv"
+  "canonicalWord": "oser"
 }

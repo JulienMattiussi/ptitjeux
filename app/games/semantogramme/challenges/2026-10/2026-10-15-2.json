@@ -5,64 +5,57 @@
   "height": 5,
   "words": [
     [
-      "chérir",
-      "pratiquer",
-      "maternité",
-      "avironner",
-      "staub"
+      "insulte",
+      "probité",
+      "pectoral",
+      "wallaby",
+      "tonus"
     ],
     [
-      "président",
-      "sujet",
-      "piscine",
-      "aromatisé",
-      "centre"
+      "biceps",
+      "fichier",
+      "comique",
+      "piétiner",
+      "triceps"
     ],
     [
-      "resserrer",
-      "cycle",
-      "calendrier",
-      "sport",
-      "souvenir"
+      "fibre",
+      "digital",
+      "tendre",
+      "tendon",
+      "musculaire"
     ],
     [
-      "hebdomadaire",
-      "roupiller",
-      "activité",
-      "enfant",
-      "agile"
+      "crampe",
+      "croquis",
+      "abdominal",
+      "succion",
+      "macaron"
     ],
     [
-      "commando",
-      "milieu",
-      "reposer",
-      "congé",
-      "documenter"
+      "masse",
+      "contracter",
+      "fenêtre",
+      "front",
+      "musclé"
     ]
   ],
   "rowClues": [
-    1,
     2,
     2,
-    3,
+    4,
+    2,
     3
   ],
   "colClues": [
-    1,
-    2,
     4,
+    1,
     3,
-    1
+    1,
+    4
   ],
-  "themeWord": "mercredi",
+  "themeWord": "muscle",
   "solution": [
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
     [
       false,
       false,
@@ -71,26 +64,33 @@
       true
     ],
     [
+      true,
       false,
       false,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
       false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

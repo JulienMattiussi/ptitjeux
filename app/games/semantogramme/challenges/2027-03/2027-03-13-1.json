@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fugue",
+      "organique",
+      "indépendance",
+      "émancipation"
+    ],
+    [
+      "délivrance",
+      "choix",
+      "ciel",
+      "haie"
+    ],
+    [
+      "libération",
+      "évasion",
+      "acier",
+      "ascenseur"
+    ],
+    [
+      "reins",
+      "enseignement",
+      "autonomie",
+      "droit"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "liberté",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

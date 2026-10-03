@@ -5,92 +5,76 @@
   "height": 6,
   "words": [
     [
-      "orient",
-      "douce",
-      "fleur",
-      "dalmatien",
-      "pendentif",
-      "effilée"
+      "nuit",
+      "bec",
+      "liseuse",
+      "voler",
+      "colley",
+      "tête"
     ],
     [
-      "vider",
-      "huile",
-      "salée",
-      "sucrée",
-      "massepain",
-      "amandier"
+      "dégringoler",
+      "plume",
+      "replet",
+      "radiateur",
+      "grand-père",
+      "engagement"
     ],
     [
-      "penalty",
-      "long",
-      "praliné",
-      "pâte",
-      "éloquence",
-      "fruit"
+      "cabré",
+      "venin",
+      "sage",
+      "hululer",
+      "empoigner",
+      "url"
     ],
     [
-      "mise",
-      "lait",
-      "amère",
-      "geste",
-      "enjoliveur",
-      "décimal"
+      "limbe",
+      "grignoter",
+      "bottine",
+      "pavé",
+      "silencieux",
+      "trompe"
     ],
     [
-      "tache",
-      "sacre",
-      "singulier",
-      "pulsation",
-      "grisaille",
-      "sec"
+      "tatami",
+      "forêt",
+      "aile",
+      "morceau",
+      "box",
+      "nocturne"
     ],
     [
-      "trentaine",
-      "apéritif",
-      "arrogance",
-      "coque",
-      "extraction",
-      "fée"
+      "serres",
+      "mississippi",
+      "premier",
+      "arbre",
+      "tacheté",
+      "oiseau"
     ]
   ],
   "rowClues": [
     4,
-    5,
-    3,
+    1,
     2,
     1,
-    2
+    3,
+    3
   ],
   "colClues": [
-    1,
-    4,
-    4,
+    2,
+    3,
+    2,
     3,
     1,
-    4
+    3
   ],
-  "themeWord": "amande",
+  "themeWord": "hibou",
   "solution": [
     [
       true,
       true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false,
       true
@@ -98,8 +82,16 @@
     [
       false,
       true,
-      true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false,
       false
     ],
@@ -108,17 +100,25 @@
       false,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

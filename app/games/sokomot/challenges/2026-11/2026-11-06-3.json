@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    3
+    6,
+    2
   ],
   "walls": [
     [
@@ -133,10 +133,10 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "H",
       "pos": [
         2,
-        2
+        5
       ]
     },
     {
@@ -149,85 +149,89 @@
     },
     {
       "id": "b3",
-      "letter": "D",
+      "letter": "V",
       "pos": [
-        4,
-        5
+        2,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
+      "letter": "E",
       "pos": [
-        5,
-        3
+        4,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "S",
       "pos": [
-        6,
-        5
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "CADRE",
+    "word": "HAVES",
     "cells": [
       [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
         4,
-        1
-      ],
-      [
-        5,
-        2
-      ],
-      [
-        5,
         3
       ],
       [
-        6,
-        3
-      ],
-      [
-        7,
-        3
+        4,
+        4
       ]
     ]
   },
-  "parMoves": 29,
+  "parMoves": 33,
   "solution": [
-    "right",
+    "up",
+    "left",
     "down",
     "down",
+    "up",
+    "left",
+    "left",
+    "left",
+    "down",
+    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "down",
+    "down",
+    "left",
+    "down",
+    "left",
+    "up",
+    "up",
     "right",
     "down",
     "right",
     "up",
+    "down",
+    "right",
     "up",
     "down",
-    "down",
-    "left",
-    "left",
-    "left",
-    "up",
-    "up",
-    "left",
-    "up",
-    "right",
-    "left",
-    "left",
-    "up",
     "right",
     "right",
-    "left",
-    "left",
-    "left",
     "up",
-    "right",
-    "right"
+    "left"
   ],
-  "canonicalWord": "cadre"
+  "canonicalWord": "haves"
 }

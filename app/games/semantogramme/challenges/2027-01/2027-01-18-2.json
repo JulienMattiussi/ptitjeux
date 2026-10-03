@@ -5,63 +5,63 @@
   "height": 5,
   "words": [
     [
-      "cacophonique",
-      "crépuscule",
-      "contact",
-      "soupir",
-      "carillonner"
+      "vainqueur",
+      "immense",
+      "écrit",
+      "assimiler",
+      "addition"
     ],
     [
-      "gain",
-      "collant",
-      "raffut",
-      "tapage",
-      "fracas"
+      "fer-forgé",
+      "agressif",
+      "précis",
+      "produit",
+      "division"
     ],
     [
-      "sonore",
-      "klaxon",
-      "écosystème",
-      "boucan",
-      "gronder"
+      "brûlant",
+      "curcuma",
+      "chiffre",
+      "opération",
+      "somme"
     ],
     [
-      "rare",
-      "tonner",
-      "ovale",
-      "remords",
-      "tilleul"
+      "quinine",
+      "additionner",
+      "multiplication",
+      "bottine",
+      "sensuel"
     ],
     [
-      "résonner",
-      "incantation",
-      "tonnerre",
-      "commune",
-      "acoustique"
+      "résultat",
+      "soustraction",
+      "plane",
+      "tomahawk",
+      "olive"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
-    4,
-    1,
+    3,
+    2,
     2
   ],
   "colClues": [
-    3,
+    1,
     2,
+    4,
     2,
-    2,
-    2
+    3
   ],
-  "themeWord": "bruyant",
+  "themeWord": "calcul",
   "solution": [
     [
+      false,
+      false,
       true,
       false,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
@@ -71,26 +71,26 @@
       true
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true,
       true
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       false
     ],
     [
       true,
-      false,
       true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

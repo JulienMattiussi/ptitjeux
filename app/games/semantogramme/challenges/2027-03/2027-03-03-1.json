@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "safari",
+      "voyage",
+      "utopie",
+      "urinaire"
+    ],
+    [
+      "plage",
+      "souvenir",
+      "hôtel",
+      "naturelle"
+    ],
+    [
+      "livraison",
+      "voyageur",
+      "agence",
+      "excursion"
+    ],
+    [
+      "monument",
+      "pente",
+      "génisse",
+      "circuit"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "tourisme",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

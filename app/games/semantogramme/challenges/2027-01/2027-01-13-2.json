@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "obscurité",
-      "autographe",
-      "tutu",
-      "ébène",
-      "malédiction"
+      "spectral",
+      "réjouir",
+      "invisible",
+      "lugubre",
+      "transparent"
     ],
     [
-      "noiraud",
-      "éradiquer",
-      "orion",
-      "goudron",
-      "charbon"
+      "hanter",
+      "château",
+      "conviction",
+      "noix",
+      "sargasse"
     ],
     [
-      "pétrole",
-      "panthère",
-      "noirâtre",
-      "pied",
-      "ténèbres"
+      "crétois",
+      "couette",
+      "compost",
+      "unique",
+      "âme"
     ],
     [
-      "technique",
-      "mixer",
-      "corbeau",
-      "encre",
-      "sombre"
+      "bossu",
+      "revenant",
+      "apparition",
+      "aïeul",
+      "colombin"
     ],
     [
-      "nuit",
-      "foncé",
-      "sucrer",
-      "piratage",
-      "flamboyer"
+      "espace",
+      "apparaître",
+      "sacre",
+      "drap",
+      "pétale"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     4,
-    3,
+    2,
+    1,
+    2,
     2
   ],
   "colClues": [
-    4,
-    2,
     2,
     3,
-    3
+    2,
+    2,
+    2
   ],
-  "themeWord": "noir",
+  "themeWord": "fantôme",
   "solution": [
     [
       true,
       false,
-      false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
-      true,
-      true,
-      true
+      false
     ],
     [
-      true,
+      false,
       true,
       false,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

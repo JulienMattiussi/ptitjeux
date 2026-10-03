@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "silhouette",
+      "raffinement",
+      "vinaigre",
+      "magie",
+      "feuille"
+    ],
+    [
+      "vin",
+      "rouille",
+      "grimper",
+      "svelte",
+      "requête"
+    ],
+    [
+      "piquet",
+      "sciuridé",
+      "gazette",
+      "cheveu",
+      "gène"
+    ],
+    [
+      "annuel",
+      "brodeuse",
+      "gracile",
+      "pellicule",
+      "affiner"
+    ],
+    [
+      "texte",
+      "lame",
+      "fin",
+      "mannequin",
+      "élancé"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    1,
+    1,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "mince",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

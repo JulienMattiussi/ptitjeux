@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    4,
-    1
+    6,
+    2
   ],
   "walls": [
     [
@@ -115,61 +115,61 @@
   ],
   "ice": [
     [
-      2,
-      1
-    ],
-    [
-      2,
-      3
+      4,
+      2
     ],
     [
       4,
       3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "I",
+      "letter": "R",
       "pos": [
-        3,
-        1
+        5,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "N",
-      "pos": [
-        2,
-        4
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "D",
+      "letter": "E",
       "pos": [
         5,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "E",
+      "id": "b3",
+      "letter": "I",
       "pos": [
-        4,
+        2,
         4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "S",
+      "pos": [
+        2,
+        5
       ]
     }
   ],
   "target": {
-    "word": "INDE",
+    "word": "REIS",
     "cells": [
       [
-        1,
-        1
-      ],
-      [
-        2,
+        3,
         2
       ],
       [
@@ -178,27 +178,32 @@
       ],
       [
         4,
-        2
+        4
+      ],
+      [
+        4,
+        5
       ]
     ]
   },
-  "parMoves": 15,
+  "parMoves": 16,
   "solution": [
     "left",
-    "down",
-    "down",
-    "down",
+    "right",
     "down",
     "left",
+    "left",
     "up",
+    "left",
+    "left",
+    "down",
+    "left",
+    "down",
     "down",
     "right",
-    "right",
-    "up",
-    "right",
-    "right",
-    "up",
-    "left"
+    "left",
+    "down",
+    "right"
   ],
-  "canonicalWord": "inde"
+  "canonicalWord": "reis"
 }

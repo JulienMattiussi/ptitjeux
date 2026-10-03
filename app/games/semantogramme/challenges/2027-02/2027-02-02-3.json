@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "enjambée",
+      "cire",
+      "large",
+      "capturer",
+      "abri",
+      "cintre"
+    ],
+    [
+      "transfusion",
+      "cuisine",
+      "bretonne",
+      "informatique",
+      "carrelage",
+      "couverture"
+    ],
+    [
+      "bpm",
+      "avion",
+      "chambre",
+      "ouvrir",
+      "personnage",
+      "vulnérabilité"
+    ],
+    [
+      "caracal",
+      "tiroir",
+      "meuble",
+      "voir",
+      "pirogue",
+      "rustique"
+    ],
+    [
+      "penderie",
+      "profonde",
+      "narine",
+      "ranger",
+      "fermer",
+      "normande"
+    ],
+    [
+      "brosser",
+      "corbeille",
+      "orthogonal",
+      "volaille",
+      "rangement",
+      "pissenlit"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3,
+    5,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "armoire",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

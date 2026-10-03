@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "classeur",
-      "ordinateur",
-      "vétiver",
-      "dossier"
+      "météorite",
+      "écureuil",
+      "gibier",
+      "champignon"
     ],
     [
-      "message",
-      "crayon",
-      "volée",
-      "peintre"
+      "sentier",
+      "arbre",
+      "clairière",
+      "romarin"
     ],
     [
-      "agenda",
-      "lampe",
-      "cystite",
-      "téléphone"
+      "lichen",
+      "cidre",
+      "fougère",
+      "taillis"
     ],
     [
-      "précoce",
-      "tonte",
-      "imprimante",
-      "tampon"
+      "hélice",
+      "coussin",
+      "teinture",
+      "mousse"
     ]
   ],
   "rowClues": [
     3,
-    1,
     3,
-    2
+    3,
+    1
   ],
   "colClues": [
     2,
+    2,
     3,
-    1,
     3
   ],
-  "themeWord": "bureau",
+  "themeWord": "forêt",
   "solution": [
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ],
     [
       true,
-      true,
       false,
+      true,
       true
     ],
     [
       false,
       false,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

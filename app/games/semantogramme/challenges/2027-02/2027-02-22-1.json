@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rythme",
+      "improvisation",
+      "panthère",
+      "résumer"
+    ],
+    [
+      "swing",
+      "blues",
+      "ruban",
+      "dessert"
+    ],
+    [
+      "mot",
+      "trompette",
+      "piano",
+      "cabaret"
+    ],
+    [
+      "standard",
+      "don",
+      "batterie",
+      "mélodie"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "jazz",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

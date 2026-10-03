@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "introduction",
-      "transparent",
-      "frappant",
-      "libre",
-      "gorge",
-      "musique",
-      "aimant"
+      "rikki-tikki",
+      "crémier",
+      "carnivore",
+      "pause",
+      "trot",
+      "persévérance",
+      "épaisseur"
     ],
     [
-      "londres",
-      "extraordinaire",
-      "détritus",
-      "baroque",
-      "pinnipède",
-      "expressif",
-      "gesticuler"
+      "féroce",
+      "vibrant",
+      "tuer",
+      "hépatique",
+      "pelage",
+      "combattre",
+      "archéoptéryx"
     ],
     [
-      "pure",
-      "rachmaninov",
-      "tonal",
-      "piano",
-      "froussard",
-      "jouer",
-      "étape"
+      "pénétrant",
+      "moyeu",
+      "tarot",
+      "asie",
+      "afrique",
+      "rouler",
+      "tribale"
     ],
     [
-      "court",
-      "instrumental",
-      "capitale",
-      "colorer",
-      "sucer",
-      "orgue",
-      "composer"
+      "griffes",
+      "bénin",
+      "octave",
+      "maîtrise",
+      "chasser",
+      "décisif",
+      "spectacle"
     ],
     [
-      "aérienne",
-      "apprendre",
-      "temps",
-      "recyclable",
-      "bach",
-      "torse",
-      "cathédrale"
+      "lâche",
+      "belvédère",
+      "tricoter",
+      "dromadaire",
+      "partager",
+      "cuillère",
+      "rapide"
     ],
     [
-      "led",
-      "chopin",
-      "tarder",
-      "ring",
-      "réjouir",
-      "classique",
-      "romantique"
+      "broussailleux",
+      "voyageur",
+      "sauvage",
+      "éplucher",
+      "mésange",
+      "meute",
+      "boucher"
     ],
     [
-      "terrain",
-      "arête",
-      "planche",
-      "préluder",
-      "métamorphique",
-      "ciment",
-      "munster"
+      "ratatouille",
+      "museau",
+      "serpent",
+      "hirsute",
+      "saturer",
+      "calculer",
+      "queue"
     ]
   ],
   "rowClues": [
-    3,
     2,
     4,
-    4,
+    2,
+    2,
     1,
-    3,
-    1
+    1,
+    3
   ],
   "colClues": [
-    2,
     3,
     1,
     4,
     1,
-    5,
+    3,
+    1,
     2
   ],
-  "themeWord": "prélude",
+  "themeWord": "mangouste",
   "solution": [
     [
       true,
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
+      true,
       true,
       false
     ],
@@ -102,55 +111,46 @@
       false,
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       false,
-      true,
       false
     ],
     [
       true,
-      true,
       false,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       false
     ],
     [
       false,
       true,
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

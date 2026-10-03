@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    4
+    2,
+    3
   ],
   "walls": [
     [
@@ -97,44 +97,48 @@
       4
     ],
     [
-      1,
-      4
+      3,
+      1
     ],
     [
-      5,
-      1
+      4,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "S",
       "pos": [
-        3,
-        3
+        2,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        4,
-        2
+        3,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "C",
       "pos": [
-        5,
-        3
+        4,
+        2
       ]
     }
   ],
   "target": {
-    "word": "FUI",
+    "word": "SIC",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         3,
         2
@@ -142,28 +146,22 @@
       [
         4,
         3
-      ],
-      [
-        5,
-        2
       ]
     ]
   },
-  "parMoves": 13,
+  "parMoves": 11,
   "solution": [
     "up",
     "down",
+    "down",
     "right",
-    "right",
-    "up",
-    "left",
-    "left",
-    "left",
-    "up",
     "up",
     "right",
     "right",
+    "up",
+    "up",
+    "left",
     "down"
   ],
-  "canonicalWord": "fui"
+  "canonicalWord": "sic"
 }

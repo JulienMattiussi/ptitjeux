@@ -5,86 +5,78 @@
   "height": 6,
   "words": [
     [
-      "symphonie",
-      "trône",
-      "ticket",
-      "aérien",
-      "souterrain",
-      "goudron"
+      "combler",
+      "bourrasque",
+      "musc",
+      "toux",
+      "gazelle",
+      "tremplin"
     ],
     [
-      "tragique",
-      "baguettes",
-      "station",
-      "tunnel",
-      "fibreux",
-      "rame"
+      "tétine",
+      "fougue",
+      "calcul",
+      "élancer",
+      "gondole",
+      "féminité"
     ],
     [
-      "apparition",
-      "rail",
-      "sanction",
-      "transport",
-      "implorer",
-      "menace"
+      "icône",
+      "ressort",
+      "kangourou",
+      "cahoter",
+      "fondre",
+      "cristal"
     ],
     [
-      "grand-tante",
-      "descendre",
-      "quai",
-      "rapide",
-      "single",
-      "urbain"
+      "cabri",
+      "sauter",
+      "jaillir",
+      "sujet",
+      "aimant",
+      "rebond"
     ],
     [
-      "monter",
-      "puzzle",
-      "fréquent",
-      "plan",
-      "primate",
-      "envol"
+      "jaillissement",
+      "gambader",
+      "système",
+      "mannequin",
+      "cabrioler",
+      "tressauter"
     ],
     [
-      "changer",
-      "cimetière",
-      "a-cappella",
-      "tromper",
-      "tessiture",
-      "éducatif"
+      "pirouette",
+      "sursauter",
+      "sargasse",
+      "aiguisé",
+      "longueur",
+      "bond"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    4,
+    2,
     3,
-    1
+    4,
+    4,
+    3
   ],
   "colClues": [
-    2,
-    2,
-    4,
+    3,
     5,
+    2,
     1,
-    2
+    3,
+    4
   ],
-  "themeWord": "métro",
+  "themeWord": "bondir",
   "solution": [
     [
       false,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
-      true,
-      false,
       true
     ],
     [
@@ -99,26 +91,34 @@
       false,
       true,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false,
       true
     ],
     [
       true,
-      false,
-      true,
       true,
       false,
-      false
+      false,
+      true,
+      true
     ],
     [
       true,
+      true,
       false,
       false,
       false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

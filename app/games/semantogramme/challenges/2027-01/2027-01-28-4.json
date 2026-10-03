@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "troupeau",
-      "mâle",
-      "envoûter",
-      "alambic",
-      "hausser",
-      "sablier",
-      "craintif"
+      "jumeler",
+      "rappeler",
+      "mélancolie",
+      "dictionnaire",
+      "souvenir",
+      "ciselure",
+      "douce-amère"
     ],
     [
-      "agile",
-      "flash",
-      "bugle",
-      "mouiller",
-      "pyrénées",
-      "râpe",
-      "ventre"
+      "nostalgique",
+      "somptueux",
+      "manque",
+      "haine",
+      "mélancolique",
+      "siffler",
+      "tendre"
     ],
     [
-      "varan",
-      "accueillir",
-      "mie",
-      "montagne",
+      "regret",
+      "taper",
+      "renforcer",
+      "archipel",
+      "évoquer",
+      "honorer",
+      "finement"
+    ],
+    [
       "enfance",
-      "ail",
-      "baver"
+      "grenouille",
+      "honneur",
+      "kandinsky",
+      "immeuble",
+      "éprouver",
+      "flamboyant"
     ],
     [
-      "fouet",
-      "élu",
-      "récompense",
-      "reblochon",
-      "vif",
-      "fraisée",
-      "standard"
+      "énigmer",
+      "douceur",
+      "songer",
+      "mère",
+      "frette",
+      "incertitude",
+      "pulpeux"
     ],
     [
-      "président",
-      "paléozoïque",
-      "cabine",
-      "récitatif",
-      "scénario",
-      "graver",
-      "brun"
+      "passé",
+      "printemps",
+      "officier",
+      "messe",
+      "pleurer",
+      "vespéral",
+      "perche"
     ],
     [
-      "pièce",
-      "sacre",
-      "mammifère",
-      "pelage",
-      "récoltant",
-      "femelle",
-      "composition"
-    ],
-    [
-      "spontanée",
-      "aspersion",
-      "rocher",
-      "gracieux",
-      "bondir",
-      "grimper",
-      "escrime"
+      "veilleuse",
+      "sentimentale",
+      "nuit",
+      "sourire",
+      "sein",
+      "sainteté",
+      "remémorer"
     ]
   ],
   "rowClues": [
-    3,
+    4,
+    4,
     2,
-    1,
-    1,
-    1,
-    3,
-    4
+    2,
+    2,
+    2,
+    3
   ],
   "colClues": [
-    2,
+    4,
+    3,
+    3,
     1,
-    2,
-    3,
-    3,
-    2,
-    2
+    4,
+    1,
+    3
   ],
-  "themeWord": "chamois",
+  "themeWord": "nostalgie",
   "solution": [
     [
+      false,
       true,
       true,
       false,
+      true,
       false,
+      true
+    ],
+    [
+      true,
       false,
+      true,
+      false,
+      true,
       false,
       true
     ],
@@ -107,50 +116,41 @@
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
       false,
       false
     ],
     [
       false,
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

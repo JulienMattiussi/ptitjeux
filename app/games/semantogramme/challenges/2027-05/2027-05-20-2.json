@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sommet",
+      "rival",
+      "ramer",
+      "pygmée",
+      "figure"
+    ],
+    [
+      "paresseux",
+      "collecter",
+      "rectangle",
+      "consoler",
+      "plane"
+    ],
+    [
+      "globule",
+      "cercle",
+      "tracer",
+      "losange",
+      "trampoline"
+    ],
+    [
+      "côté",
+      "carré",
+      "analytique",
+      "agriculture",
+      "précise"
+    ],
+    [
+      "triangle",
+      "mesurer",
+      "flûte",
+      "dessiner",
+      "mathématique"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    4,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "géométrie",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

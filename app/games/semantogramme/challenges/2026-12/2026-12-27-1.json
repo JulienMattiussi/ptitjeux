@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "piqûre",
-      "pleine",
-      "transparente",
-      "siffler"
+      "carton",
+      "parterre",
+      "transformation",
+      "mêlée"
     ],
     [
-      "étain",
-      "lime",
-      "sauter",
-      "flottante"
+      "pilier",
+      "butiner",
+      "escarpé",
+      "talonneur"
     ],
     [
-      "eau",
-      "cédrat",
-      "trôner",
-      "mer"
+      "cire",
+      "saphir",
+      "plaquage",
+      "confettis"
     ],
     [
-      "cendrier",
-      "urticante",
-      "générosité",
-      "plancton"
+      "ballon",
+      "pénalité",
+      "décocher",
+      "ouvreur"
     ]
   ],
   "rowClues": [
     2,
-    1,
     2,
-    2
+    1,
+    3
   ],
   "colClues": [
     2,
     1,
-    1,
+    2,
     3
   ],
-  "themeWord": "méduse",
+  "themeWord": "rugby",
   "solution": [
     [
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

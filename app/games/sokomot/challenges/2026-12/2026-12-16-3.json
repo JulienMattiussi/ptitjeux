@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    4
+    6,
+    2
   ],
   "walls": [
     [
@@ -133,31 +133,31 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "H",
       "pos": [
-        5,
-        1
+        6,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        3,
+        5,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "V",
       "pos": [
-        2,
-        3
+        3,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "B",
+      "letter": "I",
       "pos": [
         5,
         4
@@ -165,28 +165,16 @@
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "S",
       "pos": [
-        4,
-        3
+        5,
+        5
       ]
     }
   ],
   "target": {
-    "word": "GERBE",
+    "word": "HAVIS",
     "cells": [
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        3,
-        3
-      ],
       [
         4,
         2
@@ -194,39 +182,54 @@
       [
         5,
         3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
       ]
     ]
   },
-  "parMoves": 28,
+  "parMoves": 31,
   "solution": [
     "right",
-    "up",
-    "right",
-    "up",
+    "down",
     "left",
     "down",
     "down",
     "left",
-    "left",
+    "right",
     "up",
+    "up",
+    "left",
+    "down",
+    "left",
+    "down",
+    "up",
+    "left",
+    "left",
+    "down",
     "right",
     "down",
     "right",
-    "right",
-    "right",
-    "down",
-    "right",
     "up",
+    "left",
     "up",
     "right",
     "up",
     "left",
-    "left",
-    "right",
     "up",
-    "left",
-    "left",
-    "left"
+    "up",
+    "right",
+    "right",
+    "down"
   ],
-  "canonicalWord": "gerbe"
+  "canonicalWord": "havis"
 }

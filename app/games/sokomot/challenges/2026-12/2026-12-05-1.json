@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    2
+    5,
+    1
   ],
   "walls": [
     [
@@ -109,39 +109,39 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "B",
       "pos": [
-        2,
-        2
+        4,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
-      "pos": [
-        2,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "S",
+      "letter": "O",
       "pos": [
         4,
         2
       ]
+    },
+    {
+      "id": "b3",
+      "letter": "F",
+      "pos": [
+        3,
+        3
+      ]
     }
   ],
   "target": {
-    "word": "TES",
+    "word": "BOF",
     "cells": [
       [
         3,
-        2
+        1
       ],
       [
         3,
-        3
+        2
       ],
       [
         4,
@@ -149,17 +149,18 @@
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 10,
   "solution": [
+    "left",
     "right",
+    "down",
     "left",
     "down",
-    "right",
+    "down",
+    "left",
+    "left",
     "up",
-    "up",
-    "right",
-    "right",
-    "down"
+    "right"
   ],
-  "canonicalWord": "tes"
+  "canonicalWord": "bof"
 }

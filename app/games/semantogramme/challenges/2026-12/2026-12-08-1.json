@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "bas",
-      "baignade",
-      "condor",
-      "épervier"
+      "virus",
+      "espèce",
+      "bactérie",
+      "tardif"
     ],
     [
-      "boulonner",
-      "milan",
-      "expirer",
-      "gypaète"
+      "célébrité",
+      "caractériser",
+      "microbe",
+      "évolution"
     ],
     [
-      "chouette",
-      "aigle",
-      "harpie",
-      "sarcasme"
+      "enfantin",
+      "organisme",
+      "arabica",
+      "écosystème"
     ],
     [
-      "faucon",
-      "religieux",
-      "pavé",
-      "vautour"
+      "génome",
+      "protéine",
+      "cellule",
+      "mesurer"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    2
-  ],
-  "colClues": [
-    2,
     2,
     2,
     3
   ],
-  "themeWord": "rapace",
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "biologie",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
     [
       false,
       false,
@@ -60,13 +66,7 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

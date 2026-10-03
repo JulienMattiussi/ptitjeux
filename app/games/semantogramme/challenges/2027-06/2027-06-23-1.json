@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "single",
+      "reprise",
+      "hôtesse",
+      "innocence"
+    ],
+    [
+      "parole",
+      "terre",
+      "chanteur",
+      "refrain"
+    ],
+    [
+      "aplanir",
+      "titre",
+      "couplet",
+      "album"
+    ],
+    [
+      "interprète",
+      "aquatique",
+      "aviateur",
+      "tube"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "chanson",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

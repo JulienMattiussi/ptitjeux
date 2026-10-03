@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "grill",
+      "côtelette",
+      "turbine",
+      "fumer",
+      "cuire"
+    ],
+    [
+      "quadrilatère",
+      "calendrier",
+      "braise",
+      "gril",
+      "verdure"
+    ],
+    [
+      "feu",
+      "milieu",
+      "plancha",
+      "barbecue",
+      "épuisant"
+    ],
+    [
+      "saisir",
+      "saucisse",
+      "gant",
+      "carboniser",
+      "flamber"
+    ],
+    [
+      "rôtir",
+      "charbonner",
+      "lourdeur",
+      "swing",
+      "déraper"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    4,
+    2
+  ],
+  "themeWord": "griller",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

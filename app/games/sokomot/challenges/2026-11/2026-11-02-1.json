@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    1
+    4,
+    2
   ],
   "walls": [
     [
@@ -97,26 +97,18 @@
       4
     ],
     [
-      4,
+      1,
       4
     ],
     [
-      4,
-      3
+      5,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
-      "pos": [
-        2,
-        1
-      ]
-    },
-    {
-      "id": "b2",
       "letter": "I",
       "pos": [
         3,
@@ -124,44 +116,48 @@
       ]
     },
     {
-      "id": "b3",
-      "letter": "C",
+      "id": "b2",
+      "letter": "L",
       "pos": [
-        2,
+        3,
         3
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "E",
+      "pos": [
+        3,
+        4
       ]
     }
   ],
   "target": {
-    "word": "SIC",
+    "word": "ILE",
     "cells": [
-      [
-        1,
-        1
-      ],
       [
         2,
         2
       ],
       [
-        3,
+        2,
         3
+      ],
+      [
+        2,
+        4
       ]
     ]
   },
-  "parMoves": 11,
+  "parMoves": 7,
   "solution": [
     "left",
     "right",
+    "down",
+    "left",
     "right",
     "down",
-    "left",
-    "down",
-    "down",
-    "left",
-    "left",
-    "up",
-    "right"
+    "left"
   ],
-  "canonicalWord": "sic"
+  "canonicalWord": "île"
 }

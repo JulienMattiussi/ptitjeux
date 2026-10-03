@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sportif",
+      "magot",
+      "poulet",
+      "desquamation",
+      "parer"
+    ],
+    [
+      "tirage",
+      "sabre",
+      "précis",
+      "calmar",
+      "noble"
+    ],
+    [
+      "manuel",
+      "tirer",
+      "duel",
+      "masque",
+      "épée"
+    ],
+    [
+      "fleuret",
+      "rancune",
+      "fanal",
+      "esquiver",
+      "empaqueter"
+    ],
+    [
+      "touche",
+      "gueule",
+      "piste",
+      "tireur",
+      "pénétrer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "escrime",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

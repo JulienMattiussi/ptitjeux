@@ -5,73 +5,59 @@
   "height": 5,
   "words": [
     [
-      "symbolique",
-      "cruche",
-      "royale",
-      "monarque",
-      "rouille"
+      "brioche",
+      "arme",
+      "falaise",
+      "colorée",
+      "tentacule"
     ],
     [
-      "précieuse",
-      "roi",
-      "corne",
-      "peintre",
-      "sororal"
+      "menaçant",
+      "médaille",
+      "serpent",
+      "menacer",
+      "périlleux"
     ],
     [
-      "couronner",
-      "pierre",
-      "prince",
-      "semelle",
-      "expressif"
+      "chaise",
+      "risquer",
+      "iridescente",
+      "redoutable",
+      "sourire"
     ],
     [
-      "or",
-      "grillé",
-      "argentée",
-      "royauté",
-      "sacrer"
+      "risque",
+      "carpe",
+      "permanente",
+      "authentifier",
+      "piéger"
     ],
     [
-      "farceur",
-      "soucieux",
-      "sacre",
-      "ornée",
-      "porter"
+      "pouce",
+      "mortel",
+      "péril",
+      "piège",
+      "chevelure"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    3,
     4,
+    2,
+    2,
     3
   ],
   "colClues": [
-    4,
     2,
-    4,
+    3,
+    3,
     3,
     2
   ],
-  "themeWord": "couronne",
+  "themeWord": "dangereux",
   "solution": [
     [
-      true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -86,11 +72,25 @@
     ],
     [
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

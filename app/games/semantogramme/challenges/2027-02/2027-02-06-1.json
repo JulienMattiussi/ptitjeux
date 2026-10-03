@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fourmilière",
+      "rage",
+      "élémentaire",
+      "nageoire"
+    ],
+    [
+      "museau",
+      "groupe",
+      "queue",
+      "tracer"
+    ],
+    [
+      "cétacé",
+      "océan",
+      "saut",
+      "fret"
+    ],
+    [
+      "médiévale",
+      "mammifère",
+      "intelligence",
+      "évent"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "dauphin",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

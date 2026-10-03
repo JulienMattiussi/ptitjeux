@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    5,
-    1
+    2,
+    4
   ],
   "walls": [
     [
@@ -97,72 +97,70 @@
       4
     ],
     [
-      5,
+      1,
       4
     ],
     [
       5,
-      3
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "H",
       "pos": [
-        4,
-        1
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "I",
       "pos": [
-        2,
+        3,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "Y",
+      "letter": "E",
       "pos": [
-        2,
-        3
+        4,
+        2
       ]
     }
   ],
   "target": {
-    "word": "BOY",
+    "word": "HIE",
     "cells": [
       [
-        3,
-        1
-      ],
-      [
-        3,
+        2,
         2
       ],
       [
         3,
         3
+      ],
+      [
+        4,
+        3
       ]
     ]
   },
-  "parMoves": 12,
+  "parMoves": 10,
   "solution": [
+    "up",
     "left",
-    "down",
-    "left",
-    "down",
-    "down",
-    "left",
-    "left",
+    "up",
     "up",
     "right",
-    "left",
+    "right",
+    "down",
     "up",
-    "right"
+    "right",
+    "down"
   ],
-  "canonicalWord": "boy"
+  "canonicalWord": "hie"
 }

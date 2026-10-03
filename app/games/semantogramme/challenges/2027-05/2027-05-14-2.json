@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "évier",
+      "magique",
+      "rusé",
+      "toupie",
+      "mystérieux"
+    ],
+    [
+      "garder",
+      "balai",
+      "caverne",
+      "instable",
+      "préparer"
+    ],
+    [
+      "amère",
+      "forger",
+      "cabernet",
+      "articulation",
+      "jardin"
+    ],
+    [
+      "chapeau",
+      "ski",
+      "trésor",
+      "malléole",
+      "barbe"
+    ],
+    [
+      "tonte",
+      "creuser",
+      "lutin",
+      "farfadet",
+      "pioche"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    1,
+    4
+  ],
+  "themeWord": "gnome",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

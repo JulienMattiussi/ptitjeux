@@ -5,59 +5,47 @@
   "height": 4,
   "words": [
     [
-      "givre",
-      "antibiotique",
-      "traîneau",
-      "ordonnance"
+      "cafetière",
+      "bol",
+      "serveur",
+      "panama"
     ],
     [
-      "extension",
-      "cosse",
-      "posologie",
-      "antalgique"
+      "soucoupe",
+      "sodé",
+      "verre",
+      "temple"
     ],
     [
-      "pharmacie",
-      "raccourcir",
-      "pimenter",
-      "brasse"
+      "carafe",
+      "paroi",
+      "vertigineux",
+      "théière"
     ],
     [
-      "placebo",
-      "set",
-      "pilule",
-      "migration"
+      "créneau",
+      "hôtesse",
+      "assiette",
+      "service"
     ]
   ],
   "rowClues": [
     2,
     2,
-    1,
+    2,
     2
   ],
   "colClues": [
-    2,
+    3,
     1,
     2,
     2
   ],
-  "themeWord": "médicament",
+  "themeWord": "vaisselle",
   "solution": [
     [
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       false
     ],
@@ -66,7 +54,19 @@
       false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

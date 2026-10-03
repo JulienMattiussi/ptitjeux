@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "rouge",
-      "fleur",
-      "fragile",
-      "pâtissier",
-      "sans-réplique",
-      "crique",
-      "décembre"
+      "navire",
+      "garage",
+      "mayonnaise",
+      "voilier",
+      "voile",
+      "agréable",
+      "décollage"
     ],
     [
-      "engrais",
-      "rubis",
-      "jardin",
-      "rubrique",
-      "fauve",
-      "rose",
-      "vertèbre"
+      "robuste",
+      "photo",
+      "marine",
+      "maternel",
+      "sabord",
+      "beauté",
+      "éclat"
     ],
     [
-      "aéroport",
-      "sculpteur",
-      "synthétique",
-      "symbolique",
-      "astre",
-      "clown",
-      "blanc"
+      "ellipse",
+      "méditerranéenne",
+      "incliné",
+      "buffet",
+      "tolérant",
+      "mât",
+      "haubanage"
     ],
     [
-      "témoin",
-      "offrir",
-      "délicat",
-      "décoratif",
-      "mince",
-      "audacieux",
-      "gémissement"
+      "tectonique",
+      "plongeoir",
+      "sanglant",
+      "bout-dehors",
+      "clocher",
+      "corolle",
+      "pupitre"
     ],
     [
-      "frette",
-      "journal",
-      "détonation",
-      "doudou",
-      "hôtel",
-      "mariage",
-      "foule"
+      "gréement",
+      "frisé",
+      "flâner",
+      "cavaler",
+      "tenir",
+      "effacé",
+      "proue"
     ],
     [
-      "mansarde",
-      "plante",
-      "design",
-      "tremper",
-      "tige",
-      "clarinette",
-      "cueillir"
+      "cordage",
+      "lutin",
+      "galápagos",
+      "avant",
+      "aile",
+      "tangon",
+      "sucre"
     ],
     [
-      "euro",
-      "mire",
-      "fleurir",
-      "pétale",
-      "bouquet",
-      "fuyant",
-      "cumes"
+      "smithson",
+      "fendre",
+      "palabre",
+      "mellitus",
+      "transitoire",
+      "malevitch",
+      "massue"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    4,
-    1,
     3,
-    3
+    2,
+    3,
+    2,
+    3,
+    3,
+    1
   ],
   "colClues": [
-    1,
     3,
-    3,
+    2,
+    2,
     3,
     3,
     2,
     2
   ],
-  "themeWord": "oeillet",
+  "themeWord": "beaupré",
   "solution": [
     [
       true,
+      false,
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      false,
+      true,
       false,
       false
     ],
@@ -104,38 +113,20 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
       true
     ],
     [
       false,
       true,
+      false,
       true,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
       false,
-      true,
       false,
       false,
       true,
@@ -143,11 +134,20 @@
       true
     ],
     [
+      true,
       false,
       false,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
       false,
       false
     ]

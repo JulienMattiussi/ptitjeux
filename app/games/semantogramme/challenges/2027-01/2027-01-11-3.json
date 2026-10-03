@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "londres",
-      "transport",
-      "probité",
-      "campagne",
-      "sangloter",
-      "chauffeur"
+      "lent",
+      "souhait",
+      "marquer",
+      "temps",
+      "rapide",
+      "beat"
     ],
     [
-      "séquestrer",
-      "rouge",
-      "ticket",
-      "baptême",
-      "collectif",
-      "fraction"
+      "mijoter",
+      "impondérable",
+      "syncopé",
+      "relier",
+      "illusoire",
+      "cadence"
     ],
     [
-      "col",
-      "jaune",
-      "chapiteau",
-      "descendre",
-      "quatre-quarts",
-      "scolaire"
+      "pilule",
+      "régulier",
+      "battre",
+      "tempo",
+      "simplet",
+      "orner"
     ],
     [
-      "crémier",
-      "à-fromage",
-      "confier",
-      "mitrailler",
-      "urbain",
-      "passager"
+      "battement",
+      "taper",
+      "box",
+      "ourson",
+      "fourneau",
+      "colorée"
     ],
     [
-      "paupière",
-      "aridité",
-      "antique",
-      "banlieue",
-      "cosmique",
-      "ligne"
+      "assiette",
+      "acquérir",
+      "pompe",
+      "binaire",
+      "percussion",
+      "cosse"
     ],
     [
-      "cystite",
-      "découverte",
-      "parquet",
-      "arrêt",
-      "circuit",
-      "monter"
+      "pulsation",
+      "mesure",
+      "frapper",
+      "film",
+      "musique",
+      "guirlande"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    5,
+    2,
     3,
     2,
     2,
-    3
+    4
   ],
   "colClues": [
-    1,
-    3,
-    1,
     3,
     3,
-    5
+    4,
+    3,
+    3,
+    2
   ],
-  "themeWord": "bus",
+  "themeWord": "rythme",
   "solution": [
     [
       true,
-      true,
       false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true
     ],
     [
       false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       true,
       false,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

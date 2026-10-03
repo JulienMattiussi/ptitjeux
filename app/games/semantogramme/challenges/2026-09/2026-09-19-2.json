@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "japon",
-      "os",
-      "créer",
-      "délicat",
-      "pliage"
+      "chiffre",
+      "numéral",
+      "vendredi",
+      "cirrus",
+      "partager"
     ],
     [
-      "banquette",
-      "fleur",
-      "copeau",
-      "mi",
-      "industrielle"
+      "pair",
+      "gronderie",
+      "compter",
+      "ouragan",
+      "calculer"
     ],
     [
-      "tortue",
-      "animal",
-      "costume",
-      "élastique",
-      "art"
+      "passionné",
+      "poche",
+      "impair",
+      "redingote",
+      "soustraction"
     ],
     [
-      "traditionnel",
-      "menthe",
-      "lancinante",
-      "plier",
-      "japonais"
+      "calcul",
+      "addition",
+      "foule",
+      "décimal",
+      "barque"
     ],
     [
-      "tradition",
-      "cour",
-      "charpentier",
-      "agripper",
-      "fusil"
+      "entier",
+      "souhait",
+      "compte",
+      "multiplication",
+      "arachnide"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     2,
     3,
-    1
-  ],
-  "colClues": [
+    2,
     3,
-    2,
-    1,
-    2,
     3
   ],
-  "themeWord": "origami",
+  "colClues": [
+    4,
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "nombre",
   "solution": [
     [
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
       false
     ],
     [
+      true,
       false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       true,
-      true
+      false
     ],
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

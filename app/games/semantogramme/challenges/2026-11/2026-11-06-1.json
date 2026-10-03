@@ -5,52 +5,46 @@
   "height": 4,
   "words": [
     [
-      "sonnette",
-      "gond",
-      "serrure",
-      "or"
+      "cheminée",
+      "brasier",
+      "tapis",
+      "instruire"
     ],
     [
-      "poignée",
-      "salive",
-      "clé",
-      "silex"
+      "télévision",
+      "veilleuse",
+      "trône",
+      "rideau"
     ],
     [
-      "huisserie",
-      "appareil",
-      "judas",
-      "nourriture"
+      "chrysalide",
+      "tableau",
+      "fauteuil",
+      "canapé"
     ],
     [
-      "mobile",
-      "battant",
-      "barbe",
-      "paillasson"
+      "console",
+      "monument",
+      "pore",
+      "caillouteux"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    2,
-    2
-  ],
-  "colClues": [
-    3,
     2,
     3,
     1
   ],
-  "themeWord": "porte",
+  "colClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "salon",
   "solution": [
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false
@@ -58,15 +52,21 @@
     [
       true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

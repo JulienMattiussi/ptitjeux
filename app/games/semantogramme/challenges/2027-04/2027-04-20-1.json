@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "épais",
+      "meurtrier",
+      "aigre",
+      "nuage"
+    ],
+    [
+      "voile",
+      "glaçure",
+      "aire",
+      "délicat"
+    ],
+    [
+      "phare",
+      "humide",
+      "assuré",
+      "fanal"
+    ],
+    [
+      "frais",
+      "brume",
+      "matinée",
+      "opaque"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "brouillard",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

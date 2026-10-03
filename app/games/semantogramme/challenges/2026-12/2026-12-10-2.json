@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "universel",
-      "mardi",
-      "silence",
-      "auditif",
-      "résonner"
+      "tourmenter",
+      "cellule",
+      "fourche",
+      "tortue",
+      "coriandre"
     ],
     [
-      "concentration",
-      "pupille",
-      "feu",
-      "entendre",
-      "concombre"
+      "brûlant",
+      "porter",
+      "maléfice",
+      "fervente",
+      "sifflement"
     ],
     [
-      "attentif",
-      "pente",
-      "capter",
-      "audition",
-      "pyrénées"
+      "poilu",
+      "ombre",
+      "pollen",
+      "damner",
+      "chaudron"
     ],
     [
-      "percevoir",
-      "son",
-      "tannin",
-      "sonore",
-      "teckel"
+      "cartilagineux",
+      "sinistre",
+      "gouffre",
+      "palper",
+      "expéditif"
     ],
     [
-      "écholocation",
-      "réparation",
-      "mâle",
-      "raffinement",
-      "écho"
+      "flamme",
+      "tortueux",
+      "damnation",
+      "éternel",
+      "numériser"
     ]
   ],
   "rowClues": [
+    3,
+    1,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
     3,
     2,
     3,
     3,
     1
   ],
-  "colClues": [
-    3,
-    1,
-    2,
-    4,
-    2
-  ],
-  "themeWord": "écouter",
+  "themeWord": "enfer",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
+      false,
       false
     ],
     [
       true,
       true,
-      false,
+      true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 12

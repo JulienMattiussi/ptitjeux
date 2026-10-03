@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "reinette",
+      "tarte",
+      "clarifier",
+      "fuji"
+    ],
+    [
+      "barboter",
+      "hémicycle",
+      "cidre",
+      "barre"
+    ],
+    [
+      "golden",
+      "puiser",
+      "regarder",
+      "accéder"
+    ],
+    [
+      "gala",
+      "charbon",
+      "compote",
+      "terne"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "pomme",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "pèlerinage",
-      "ange",
-      "collection",
-      "croyance"
+      "miniature",
+      "électricien",
+      "dentiste",
+      "accordéon"
     ],
     [
-      "prière",
-      "culte",
-      "vigoureux",
-      "spiritualité"
+      "plombier",
+      "épeler",
+      "acteur",
+      "réalisateur"
     ],
     [
-      "foncer",
-      "miracle",
-      "sainte",
-      "géniteur"
+      "pompier",
+      "instituteur",
+      "quai",
+      "chariot"
     ],
     [
-      "modeler",
-      "mystique",
-      "conviction",
-      "radiateur"
+      "ingénieur",
+      "infirmier",
+      "marée",
+      "comédien"
     ]
   ],
   "rowClues": [
     2,
     3,
     2,
-    2
+    3
   ],
   "colClues": [
-    2,
+    3,
     3,
     2,
     2
   ],
-  "themeWord": "foi",
+  "themeWord": "métier",
   "solution": [
     [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
       true,
       false
     ],
     [
+      true,
       false,
       true,
+      true
+    ],
+    [
       true,
+      true,
+      false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

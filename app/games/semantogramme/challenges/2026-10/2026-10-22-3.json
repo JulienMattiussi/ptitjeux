@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "ruban",
-      "orage",
-      "époque",
-      "glu",
-      "agglutiner",
-      "goudron"
+      "prescrire",
+      "brûler",
+      "nager",
+      "prise",
+      "comptoir",
+      "mousaka"
     ],
     [
-      "fixer",
-      "sage",
-      "roseau",
-      "royale",
-      "croquante",
-      "coller"
+      "urgent",
+      "ruisseler",
+      "avril",
+      "nausée",
+      "admirer",
+      "commerce"
     ],
     [
-      "émancipation",
-      "gluant",
-      "tee",
-      "attacher",
-      "bock",
-      "dessin"
+      "ordonnance",
+      "baume",
+      "médicament",
+      "remorque",
+      "enraciner",
+      "tireur"
     ],
     [
-      "aisselle",
-      "crasse",
-      "gomme",
-      "colle",
-      "cire",
-      "cd"
+      "verte",
+      "amphi",
+      "floraison",
+      "industrielle",
+      "palper",
+      "acheter"
     ],
     [
-      "soufflet",
-      "résine",
-      "sceller",
-      "fauteuil",
-      "poisseux",
-      "miel"
+      "parer",
+      "élargir",
+      "pharmacien",
+      "nièce",
+      "conseiller",
+      "sirop"
     ],
     [
-      "fraîcheur",
-      "adhérer",
-      "acidifier",
-      "visqueux",
-      "mélasse",
-      "auteur"
+      "pilule",
+      "âpre",
+      "méditerranée",
+      "rayon",
+      "aller",
+      "zen"
     ]
   ],
   "rowClues": [
-    4,
     2,
     2,
     3,
-    4,
+    2,
+    3,
     3
   ],
   "colClues": [
+    5,
+    1,
     2,
+    1,
     3,
-    2,
-    4,
-    4,
     3
   ],
-  "themeWord": "collant",
+  "themeWord": "pharmacie",
   "solution": [
     [
       true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       false
     ],
     [
-      false,
       true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true,
       true
     ],
     [
-      false,
       true,
+      false,
       false,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

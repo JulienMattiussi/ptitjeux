@@ -5,58 +5,52 @@
   "height": 4,
   "words": [
     [
-      "esquisse",
-      "pencher",
-      "croquis",
-      "feuille"
+      "berceau",
+      "praliné",
+      "taie",
+      "transmettre"
     ],
     [
-      "trait",
-      "berceuse",
-      "fusain",
-      "plume"
+      "biberon",
+      "mère",
+      "nourrisson",
+      "mule"
     ],
     [
-      "revenant",
-      "pastel",
-      "pochade",
-      "caduque"
+      "allumer",
+      "lait",
+      "ombre",
+      "couche"
     ],
     [
-      "crabe",
-      "gomme",
-      "scène",
-      "caricature"
+      "ascenseur",
+      "sage-femme",
+      "maternité",
+      "bébé"
     ]
   ],
   "rowClues": [
+    1,
     3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
     3,
     2,
     2
   ],
-  "colClues": [
-    2,
-    2,
-    3,
-    3
-  ],
-  "themeWord": "dessin",
+  "themeWord": "naissance",
   "solution": [
     [
       true,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
       false
@@ -66,7 +60,13 @@
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

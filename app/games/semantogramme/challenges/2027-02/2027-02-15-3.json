@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-15-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "parking",
+      "solo",
+      "pont",
+      "mer",
+      "houblon",
+      "snapshot"
+    ],
+    [
+      "polir",
+      "croisière",
+      "bas",
+      "transatlantique",
+      "cabine",
+      "grand-père"
+    ],
+    [
+      "conserve",
+      "braisière",
+      "biberon",
+      "naviguer",
+      "amarrer",
+      "plaintif"
+    ],
+    [
+      "condiment",
+      "voguer",
+      "luxe",
+      "empocher",
+      "roulée",
+      "bateau"
+    ],
+    [
+      "recommander",
+      "altier",
+      "chef",
+      "titanic",
+      "surprise",
+      "piscine"
+    ],
+    [
+      "commercial",
+      "flûte",
+      "restaurant",
+      "cape",
+      "gélule",
+      "luxueux"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "paquebot",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    2
+    2,
+    3
   ],
   "walls": [
     [
@@ -98,18 +98,18 @@
     ],
     [
       1,
-      4
+      1
     ],
     [
-      4,
-      1
+      1,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "M",
       "pos": [
         2,
         2
@@ -117,48 +117,48 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        4,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "E",
       "pos": [
-        5,
-        2
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "EUE",
+    "word": "MIE",
     "cells": [
       [
+        2,
+        1
+      ],
+      [
         3,
-        2
+        1
       ],
       [
         4,
         2
-      ],
-      [
-        5,
-        1
       ]
     ]
   },
   "parMoves": 8,
   "solution": [
+    "up",
+    "down",
     "right",
     "down",
-    "down",
-    "right",
     "right",
     "up",
-    "right",
+    "left",
     "up"
   ],
-  "canonicalWord": "eue"
+  "canonicalWord": "mie"
 }

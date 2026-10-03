@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    5
+    4,
+    3
   ],
   "walls": [
     [
@@ -374,75 +374,75 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "J",
-      "pos": [
-        8,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "U",
-      "pos": [
-        8,
-        3
-      ]
-    },
-    {
-      "id": "b3",
       "letter": "R",
-      "pos": [
-        8,
-        4
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "A",
-      "pos": [
-        2,
-        5
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "I",
-      "pos": [
-        3,
-        6
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "T",
       "pos": [
         2,
         7
       ]
+    },
+    {
+      "id": "b2",
+      "letter": "O",
+      "pos": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "S",
+      "pos": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "E",
+      "pos": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "R",
+      "pos": [
+        7,
+        7
+      ]
+    },
+    {
+      "id": "b6",
+      "letter": "A",
+      "pos": [
+        5,
+        4
+      ]
     }
   ],
   "target": {
-    "word": "JURAIT",
+    "word": "ROSERA",
     "cells": [
       [
-        8,
-        2
+        3,
+        7
       ],
       [
-        8,
-        3
+        4,
+        7
       ],
       [
-        8,
-        4
+        5,
+        7
       ],
       [
-        8,
-        5
+        6,
+        7
       ],
       [
-        8,
-        6
+        7,
+        7
       ],
       [
         8,
@@ -450,14 +450,18 @@
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 10,
   "solution": [
-    "right",
     "down",
     "right",
+    "down",
+    "up",
+    "right",
+    "down",
+    "down",
     "left",
     "down",
     "right"
   ],
-  "canonicalWord": "jurait"
+  "canonicalWord": "rosera"
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sonnette",
+      "gond",
+      "serrure",
+      "or"
+    ],
+    [
+      "poignée",
+      "salive",
+      "clé",
+      "silex"
+    ],
+    [
+      "huisserie",
+      "appareil",
+      "judas",
+      "nourriture"
+    ],
+    [
+      "mobile",
+      "battant",
+      "barbe",
+      "paillasson"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "porte",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

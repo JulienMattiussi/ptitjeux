@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "banquette",
+      "effroi",
+      "terreur",
+      "cauchemar"
+    ],
+    [
+      "frisson",
+      "cocon",
+      "cri",
+      "régate"
+    ],
+    [
+      "frayeur",
+      "tic-tac",
+      "baisser",
+      "sueurs"
+    ],
+    [
+      "fuite",
+      "monstre",
+      "jeu",
+      "phobie"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "peur",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

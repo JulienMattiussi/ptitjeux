@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    2
+    6,
+    4
   ],
   "walls": [
     [
@@ -133,52 +133,48 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "S",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "E",
       "pos": [
-        4,
+        5,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "R",
       "pos": [
         6,
-        4
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
+      "letter": "V",
       "pos": [
-        6,
+        4,
         2
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "I",
       "pos": [
-        5,
-        4
+        6,
+        5
       ]
     }
   ],
   "target": {
-    "word": "BUIRE",
+    "word": "SERVI",
     "cells": [
-      [
-        3,
-        3
-      ],
       [
         4,
         2
@@ -189,46 +185,51 @@
       ],
       [
         6,
-        3
+        2
       ],
       [
-        6,
-        4
+        7,
+        2
+      ],
+      [
+        7,
+        3
       ]
     ]
   },
-  "parMoves": 30,
+  "parMoves": 31,
   "solution": [
-    "up",
     "left",
-    "down",
-    "right",
-    "right",
-    "down",
-    "down",
     "left",
-    "up",
-    "right",
-    "up",
-    "up",
-    "right",
-    "down",
-    "right",
-    "down",
-    "down",
     "left",
-    "down",
-    "down",
     "left",
     "left",
     "up",
     "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "right",
+    "left",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
     "up",
-    "left",
+    "down",
+    "right",
     "up",
+    "down",
+    "down",
+    "right",
+    "down",
+    "right",
+    "up",
+    "up",
+    "left",
     "up"
   ],
-  "canonicalWord": "buire"
+  "canonicalWord": "servi"
 }

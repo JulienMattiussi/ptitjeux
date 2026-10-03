@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-29-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "frémir",
+      "épuisant",
+      "sapin",
+      "bâiller",
+      "nièce",
+      "fournisseur"
+    ],
+    [
+      "nouvelle-zélande",
+      "jument",
+      "pique",
+      "dentiste",
+      "isocèle",
+      "béquille"
+    ],
+    [
+      "drapeau",
+      "sandwich",
+      "biseau",
+      "triade",
+      "angle",
+      "cône"
+    ],
+    [
+      "sabot",
+      "aveuglant",
+      "côté",
+      "connexion",
+      "triangle",
+      "glissant"
+    ],
+    [
+      "rien",
+      "tripode",
+      "rectangle",
+      "piège",
+      "saturer",
+      "mille"
+    ],
+    [
+      "équilatéral",
+      "fameux",
+      "sénateur",
+      "pyramide",
+      "puccini",
+      "tricorne"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    5,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "triangulaire",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "caverne",
-      "plaisir",
-      "barbe",
-      "minier",
-      "pioche"
+      "descendant",
+      "gondole",
+      "création",
+      "oncle",
+      "frère"
     ],
     [
-      "trésor",
-      "hache",
-      "universel",
-      "parole",
-      "frapper"
+      "visiter",
+      "terreur",
+      "pointu",
+      "tante",
+      "audace"
     ],
     [
-      "endormir",
-      "singe",
-      "imposte",
-      "légendaire",
-      "or"
+      "famille",
+      "démarrer",
+      "cousin",
+      "fluer",
+      "halley"
     ],
     [
-      "mousquetaire",
-      "trapu",
-      "parer",
-      "forger",
-      "enterrement"
+      "acier",
+      "aîné",
+      "enfant",
+      "parent",
+      "sortir"
     ],
     [
-      "mine",
-      "causer",
-      "donjon",
-      "source",
-      "rouiller"
+      "élever",
+      "gâter",
+      "fratrie",
+      "galápagos",
+      "raffiné"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
     2,
-    2,
-    2
+    3,
+    3
   ],
   "colClues": [
-    3,
+    4,
     2,
-    2,
     3,
-    2
+    3,
+    1
   ],
-  "themeWord": "nain",
+  "themeWord": "neveu",
   "solution": [
     [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
     ],
     [
-      false,
       true,
+      false,
       false,
       true,
       false
@@ -87,10 +73,24 @@
     [
       true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

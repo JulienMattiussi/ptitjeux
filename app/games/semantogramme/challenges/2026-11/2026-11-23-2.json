@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "sueurs",
-      "indien",
-      "respiration",
-      "gourou",
-      "annuel"
+      "guerre",
+      "bataille",
+      "duel",
+      "rayé",
+      "battre"
     ],
     [
-      "tapis",
-      "sérénité",
-      "fleur",
-      "mantra",
-      "bâtiment"
+      "magnanime",
+      "chouette",
+      "tressaillir",
+      "envier",
+      "lutte"
     ],
     [
-      "méditer",
-      "posture",
-      "pratiquer",
-      "éducatif",
-      "chèque"
+      "défendre",
+      "cri",
+      "saule",
+      "vaincre",
+      "crapaud"
     ],
     [
-      "garnir",
-      "bas",
-      "tomme",
-      "relaxant",
-      "biliaire"
+      "arme",
+      "combat",
+      "armée",
+      "liquider",
+      "ennemi"
     ],
     [
-      "méditation",
-      "flair",
-      "maternel",
-      "cinéma",
-      "oriental"
+      "lutter",
+      "aridité",
+      "résister",
+      "attaquer",
+      "siècle"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
+    4,
     1,
-    2
+    2,
+    4,
+    3
   ],
   "colClues": [
-    3,
-    3,
+    4,
     2,
     3,
-    1
+    2,
+    3
   ],
-  "themeWord": "yoga",
+  "themeWord": "combattre",
   "solution": [
     [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
       true,
       false,
-      false
+      true
     ],
     [
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

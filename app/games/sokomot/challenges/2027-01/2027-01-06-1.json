@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    2
+    2,
+    4
   ],
   "walls": [
     [
@@ -97,7 +97,7 @@
       4
     ],
     [
-      1,
+      2,
       1
     ],
     [
@@ -109,62 +109,58 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "A",
       "pos": [
         2,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "O",
-      "pos": [
-        4,
         3
       ]
     },
     {
-      "id": "b3",
-      "letter": "L",
+      "id": "b2",
+      "letter": "R",
       "pos": [
-        5,
+        4,
         2
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "E",
+      "pos": [
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "DOL",
+    "word": "ARE",
     "cells": [
+      [
+        2,
+        2
+      ],
       [
         3,
         2
       ],
       [
-        4,
-        2
-      ],
-      [
-        5,
+        3,
         3
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 10,
   "solution": [
+    "up",
     "right",
     "down",
     "right",
-    "down",
     "right",
     "up",
     "left",
-    "left",
+    "right",
     "up",
-    "up",
-    "right",
-    "right",
-    "right",
-    "down"
+    "left"
   ],
-  "canonicalWord": "dol"
+  "canonicalWord": "are"
 }

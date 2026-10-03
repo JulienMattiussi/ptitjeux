@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "instruire",
-      "gerbe",
-      "fleuriste",
-      "épiderme"
+      "derme",
+      "expérience",
+      "prompt",
+      "rênes"
     ],
     [
-      "composition",
-      "lampadaire",
-      "vache",
-      "fleur"
+      "gracile",
+      "recherche",
+      "théorie",
+      "mathématique"
     ],
     [
-      "percevoir",
-      "rose",
-      "mariée",
-      "bronzer"
+      "géologie",
+      "physique",
+      "arabesque",
+      "expirer"
     ],
     [
-      "piquet",
-      "corbeille",
-      "sortir",
-      "digestion"
+      "biologie",
+      "driver",
+      "médecine",
+      "astronomie"
     ]
   ],
   "rowClues": [
+    1,
+    3,
     2,
-    2,
-    2,
-    2
+    3
   ],
   "colClues": [
     2,
     3,
     2,
-    1
+    2
   ],
-  "themeWord": "bouquet",
+  "themeWord": "science",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
       true,
-      true,
       false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

@@ -5,95 +5,131 @@
   "height": 7,
   "words": [
     [
-      "appétit",
-      "spectacle",
-      "situation",
-      "vigoureux",
-      "biberon",
-      "détourner",
-      "révolutionnaire"
+      "allumer",
+      "scientifique",
+      "paléolithique",
+      "rachmaninov",
+      "sucre",
+      "spécialisée",
+      "méditerranéenne"
     ],
     [
-      "révolution",
-      "avancer",
-      "remplir",
-      "avant-garde",
-      "théorique",
-      "portrait",
-      "don"
+      "nihiliste",
+      "précis",
+      "instantané",
+      "courant",
+      "aiguillon",
+      "tabouret",
+      "va-et-vient"
     ],
     [
-      "colombier",
-      "canicule",
-      "enquêter",
-      "critique",
-      "culminer",
-      "innocence",
-      "mouvement"
+      "quatre-quarts",
+      "patriarche",
+      "cartographier",
+      "polymère",
+      "conscience",
+      "poivron",
+      "mélancolie"
     ],
     [
-      "chrétienne",
-      "urbain",
-      "classification",
-      "sorcier",
-      "truelle",
-      "politique",
-      "bout-dehors"
+      "navire",
+      "battre",
+      "observer",
+      "matelas",
+      "axe",
+      "gusset",
+      "horticulture"
     ],
     [
-      "sauter",
-      "chat",
-      "engagé",
-      "multidisciplinaire",
-      "critiquer",
-      "roupiller",
-      "rubens"
+      "connaissance",
+      "algèbre",
+      "sanctuaire",
+      "profondeur",
+      "marine",
+      "plongée",
+      "océanographe"
     ],
     [
-      "extase",
-      "aneth",
-      "colombin",
-      "polluer",
-      "architecture",
-      "social",
-      "bouquet"
+      "océan",
+      "lunaire",
+      "assimiler",
+      "mesurer",
+      "mer",
+      "sonar",
+      "épanouissement"
     ],
     [
-      "nation",
-      "pêcher",
-      "seuil",
-      "subvertir",
-      "debord",
-      "jade",
-      "mai-68"
+      "science",
+      "pluie",
+      "liaisonner",
+      "baudruche",
+      "salinité",
+      "gris",
+      "carte"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    2,
-    2,
     2,
     1,
-    3
+    1,
+    2,
+    4,
+    4,
+    2
   ],
   "colClues": [
+    3,
     1,
     2,
-    2,
     3,
     3,
     3,
-    3
+    1
   ],
-  "themeWord": "situationnisme",
+  "themeWord": "océanographie",
   "solution": [
     [
       false,
       true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
       true,
       true
     ],
@@ -103,54 +139,18 @@
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
       true,
       false
     ],
     [
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

@@ -5,130 +5,139 @@
   "height": 7,
   "words": [
     [
-      "cravache",
-      "cadavre",
-      "accordéon",
-      "temporiser",
-      "sagesse",
-      "tempérance",
-      "modération"
+      "arabe",
+      "précis",
+      "sollicitation",
+      "instrument",
+      "aiguisée",
+      "ruine",
+      "compote"
     ],
     [
-      "astronaute",
-      "tolérant",
-      "calme",
-      "bécasse",
-      "cocotier",
-      "demi-cercle",
-      "trancher"
+      "réaction",
+      "mesurer",
+      "brailler",
+      "kangourou",
+      "boutique",
+      "obélisque",
+      "plume"
     ],
     [
-      "venter",
-      "persévérance",
-      "attendre",
-      "nolde",
-      "tolérer",
-      "félicitation",
-      "persévérer"
+      "urtique",
+      "antiquité",
+      "astre",
+      "astronomie",
+      "reluire",
+      "affection",
+      "sphérique"
     ],
     [
-      "noirâtre",
-      "longue",
-      "tenace",
-      "lacédémone",
+      "observer",
+      "république",
+      "irrigation",
+      "tridente",
+      "étoile",
+      "angle",
+      "décantation"
+    ],
+    [
+      "faiblesse",
+      "aéroport",
+      "cantique",
+      "ordonnance",
+      "cru",
+      "navigation",
+      "plan"
+    ],
+    [
+      "mesure",
+      "opportuniste",
+      "accélération",
       "savant",
-      "endurer",
-      "débat"
+      "flamboyant",
+      "congère",
+      "maniable"
     ],
     [
-      "supporter",
-      "artistique",
-      "maternité",
-      "enfler",
-      "lambin",
-      "embrasser",
-      "long"
-    ],
-    [
-      "caisse",
-      "sueurs",
-      "foin",
-      "attente",
-      "vertu",
-      "moite",
-      "dompter"
-    ],
-    [
-      "serein",
-      "solitaire",
-      "prise",
-      "économiser",
-      "pourriture",
-      "enflammé",
-      "patiente"
+      "ouïe",
+      "gondole",
+      "médiéval",
+      "positionner",
+      "comédie",
+      "verveine",
+      "comprendre"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    4,
     3,
     1,
+    4,
+    3,
+    2,
     2,
     2
   ],
   "colClues": [
-    2,
     3,
     3,
     2,
-    3,
+    4,
+    1,
     2,
-    3
+    2
   ],
-  "themeWord": "patience",
+  "themeWord": "astrolabe",
   "solution": [
     [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
       false,
       false,
       false
@@ -136,21 +145,12 @@
     [
       false,
       false,
+      true,
+      true,
       false,
-      true,
-      true,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

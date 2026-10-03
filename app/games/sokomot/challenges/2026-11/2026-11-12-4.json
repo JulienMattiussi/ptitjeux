@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    6
+    1
   ],
   "walls": [
     [
@@ -374,42 +374,42 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "M",
       "pos": [
         2,
-        1
+        7
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         4,
-        5
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "E",
       "pos": [
         5,
-        4
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "U",
       "pos": [
         6,
-        1
+        7
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "R",
       "pos": [
         7,
-        1
+        7
       ]
     },
     {
@@ -417,51 +417,50 @@
       "letter": "S",
       "pos": [
         5,
-        5
+        2
       ]
     }
   ],
   "target": {
-    "word": "VEULES",
+    "word": "MOEURS",
     "cells": [
       [
         3,
-        1
+        7
       ],
       [
         4,
-        1
+        7
       ],
       [
         5,
-        1
+        7
       ],
       [
         6,
-        1
+        7
       ],
       [
         7,
-        1
+        7
       ],
       [
         8,
-        1
+        7
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
-    "up",
+    "down",
     "right",
-    "up",
+    "down",
+    "left",
     "down",
     "right",
     "up",
-    "up",
-    "left",
-    "up",
-    "right"
+    "right",
+    "down"
   ],
-  "canonicalWord": "veules"
+  "canonicalWord": "moeurs"
 }

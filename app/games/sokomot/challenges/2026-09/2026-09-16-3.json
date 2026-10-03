@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    7,
-    2
+    5,
+    4
   ],
   "walls": [
     [
@@ -133,58 +133,58 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "E",
       "pos": [
-        3,
-        3
+        4,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "L",
       "pos": [
-        2,
-        2
+        5,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "I",
       "pos": [
-        6,
-        4
+        3,
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "D",
       "pos": [
-        5,
-        3
+        3,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "T",
+      "letter": "A",
       "pos": [
         6,
-        2
+        3
       ]
     }
   ],
   "target": {
-    "word": "CELAT",
+    "word": "ELIDA",
     "cells": [
       [
-        2,
-        3
+        4,
+        1
       ],
       [
-        3,
+        5,
         2
       ],
       [
-        4,
+        5,
         3
       ],
       [
@@ -193,37 +193,40 @@
       ],
       [
         6,
-        3
+        4
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 28,
   "solution": [
-    "down",
-    "down",
-    "left",
-    "left",
-    "down",
+    "up",
     "left",
     "up",
+    "left",
     "up",
     "left",
     "down",
     "left",
+    "down",
+    "right",
+    "right",
+    "right",
+    "down",
     "left",
-    "up",
-    "up",
+    "left",
+    "down",
+    "right",
+    "right",
+    "down",
     "right",
     "up",
     "right",
     "right",
-    "down",
-    "right",
-    "down",
     "up",
     "up",
-    "right",
+    "up",
+    "left",
     "down"
   ],
-  "canonicalWord": "celât"
+  "canonicalWord": "élida"
 }

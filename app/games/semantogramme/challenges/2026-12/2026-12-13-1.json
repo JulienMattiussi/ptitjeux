@@ -5,53 +5,59 @@
   "height": 4,
   "words": [
     [
-      "confessionnal",
-      "frangin",
-      "match",
-      "pelouse"
+      "inférieur",
+      "fantasme",
+      "inattendu",
+      "chimère"
     ],
     [
-      "sportif",
-      "arène",
-      "tribune",
-      "potion"
+      "prise",
+      "comète",
+      "utopie",
+      "sagoutier"
     ],
     [
-      "jasmin",
-      "piste",
-      "supporter",
-      "bouche"
+      "symbole",
+      "plante",
+      "imagination",
+      "moulinet"
     ],
     [
-      "gradin",
-      "compétition",
-      "jubilation",
-      "tournoi"
+      "poule",
+      "cauchemar",
+      "sommeil",
+      "mouche"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    1,
     2,
-    3
-  ],
-  "colClues": [
-    2,
-    3,
-    3,
     2
   ],
-  "themeWord": "stade",
+  "colClues": [
+    1,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "rêve",
   "solution": [
     [
       false,
-      false,
       true,
+      false,
       true
     ],
     [
+      false,
+      false,
       true,
+      false
+    ],
+    [
       true,
+      false,
       true,
       false
     ],
@@ -60,13 +66,7 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

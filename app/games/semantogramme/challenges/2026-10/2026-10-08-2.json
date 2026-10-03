@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "farci",
-      "oncle",
-      "plancher",
-      "gerbe",
-      "store"
+      "mousseron",
+      "but",
+      "fatigant",
+      "palet",
+      "olympique"
     ],
     [
-      "oscillation",
-      "foule",
-      "titanic",
-      "constitutionnelle",
-      "tas"
+      "tirer",
+      "immortaliser",
+      "patins",
+      "défendre",
+      "puccini"
     ],
     [
-      "contenu",
-      "archaïque",
-      "bourrer",
-      "remplir",
-      "saturer"
+      "abeille",
+      "équipe",
+      "glacial",
+      "mocassin",
+      "croissant"
     ],
     [
-      "comble",
-      "pirogue",
-      "garenne",
-      "remplissage",
-      "profusion"
+      "signal",
+      "multiple",
+      "tram",
+      "casque",
+      "glace"
     ],
     [
-      "rempli",
-      "bondé",
-      "abondance",
-      "espalier",
-      "pianissimo"
+      "gardien",
+      "canadien",
+      "collectif",
+      "labyrinthe",
+      "crosse"
     ]
   ],
   "rowClues": [
-    1,
+    3,
+    3,
     2,
-    4,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
     3,
     3
   ],
-  "colClues": [
-    4,
-    2,
-    2,
-    2,
-    3
-  ],
-  "themeWord": "plein",
+  "themeWord": "hockey",
   "solution": [
     [
+      false,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
-      false,
+      true,
+      true,
       false
     ],
     [
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    1
+    2,
+    3
   ],
   "walls": [
     [
@@ -97,8 +97,8 @@
       4
     ],
     [
-      3,
-      2
+      1,
+      3
     ],
     [
       1,
@@ -109,10 +109,10 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "N",
       "pos": [
         2,
-        1
+        2
       ]
     },
     {
@@ -120,47 +120,47 @@
       "letter": "E",
       "pos": [
         4,
-        2
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "Z",
       "pos": [
-        5,
+        4,
         3
       ]
     }
   ],
   "target": {
-    "word": "BEL",
+    "word": "NEZ",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         3,
         1
       ],
       [
         4,
-        1
-      ],
-      [
-        5,
         2
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
-    "right",
+    "up",
     "down",
-    "down",
-    "right",
     "down",
     "right",
     "right",
     "up",
-    "left",
-    "up"
+    "right",
+    "up",
+    "up",
+    "left"
   ],
-  "canonicalWord": "bel"
+  "canonicalWord": "nez"
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-23-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "barque",
+      "rougeoyante",
+      "tortillonner",
+      "manque",
+      "morale",
+      "extase"
+    ],
+    [
+      "capteur",
+      "sacre",
+      "rame",
+      "cabine",
+      "pagaie",
+      "aviron"
+    ],
+    [
+      "spongieux",
+      "éventer",
+      "latte",
+      "stocker",
+      "canot",
+      "urbain"
+    ],
+    [
+      "esquif",
+      "chorégraphie",
+      "gondole",
+      "rameur",
+      "verrue",
+      "limite"
+    ],
+    [
+      "cadence",
+      "pagayer",
+      "royauté",
+      "godiller",
+      "circuit",
+      "couronner"
+    ],
+    [
+      "pirogue",
+      "infection",
+      "régate",
+      "avironner",
+      "godille",
+      "kayak"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    3,
+    3,
+    5
+  ],
+  "colClues": [
+    4,
+    1,
+    3,
+    4,
+    3,
+    2
+  ],
+  "themeWord": "ramer",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 17
+}

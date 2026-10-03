@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    8,
+    7,
     5
   ],
   "walls": [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "B",
       "pos": [
         1,
         2
@@ -382,7 +382,7 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "R",
       "pos": [
         1,
         3
@@ -390,7 +390,7 @@
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "A",
       "pos": [
         1,
         4
@@ -398,31 +398,31 @@
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "V",
       "pos": [
-        7,
+        6,
         5
       ]
     },
     {
       "id": "b5",
-      "letter": "V",
+      "letter": "E",
       "pos": [
-        6,
+        5,
         6
       ]
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "Z",
       "pos": [
-        7,
+        6,
         7
       ]
     }
   ],
   "target": {
-    "word": "DECAVE",
+    "word": "BRAVEZ",
     "cells": [
       [
         1,
@@ -450,14 +450,15 @@
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 7,
   "solution": [
     "left",
     "down",
     "left",
     "right",
     "down",
+    "left",
     "left"
   ],
-  "canonicalWord": "décavé"
+  "canonicalWord": "bravez"
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "symptôme",
-      "cendrier",
-      "papillon",
-      "ballet"
+      "pied",
+      "plat",
+      "beau-frère",
+      "rôtir"
     ],
     [
-      "tapis",
-      "virus",
-      "choc",
-      "agrès"
+      "poêle",
+      "chapiteau",
+      "spatule",
+      "voir"
     ],
     [
-      "allergie",
-      "infection",
-      "médicament",
-      "générosité"
+      "archaïque",
+      "cuisinier",
+      "recette",
+      "évier"
     ],
     [
-      "arrêt",
-      "perche",
-      "toux",
-      "traitement"
+      "frigo",
+      "parapluie",
+      "mijoter",
+      "four"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    2,
+    2,
     3,
-    2
+    3
   ],
   "colClues": [
     2,
     2,
-    2,
-    1
+    3,
+    3
   ],
-  "themeWord": "maladie",
+  "themeWord": "cuisine",
   "solution": [
     [
+      false,
       true,
       false,
+      true
+    ],
+    [
+      true,
       false,
+      true,
       false
     ],
     [
       false,
       true,
-      false,
-      false
+      true,
+      true
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

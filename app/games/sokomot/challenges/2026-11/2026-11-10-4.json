@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    4
+    4,
+    3
   ],
   "walls": [
     [
@@ -374,94 +374,91 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "P",
       "pos": [
-        4,
-        3
+        5,
+        1
       ]
     },
     {
       "id": "b2",
       "letter": "O",
       "pos": [
-        2,
-        1
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "N",
-      "pos": [
-        3,
-        1
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "G",
-      "pos": [
-        4,
+        6,
         2
       ]
     },
     {
-      "id": "b5",
-      "letter": "E",
+      "id": "b3",
+      "letter": "S",
       "pos": [
         5,
         3
       ]
     },
     {
-      "id": "b6",
+      "id": "b4",
       "letter": "A",
       "pos": [
-        7,
-        1
+        8,
+        4
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "N",
+      "pos": [
+        8,
+        5
+      ]
+    },
+    {
+      "id": "b6",
+      "letter": "T",
+      "pos": [
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "LONGEA",
+    "word": "POSANT",
     "cells": [
       [
-        1,
+        8,
         1
       ],
       [
-        2,
-        1
+        8,
+        2
       ],
       [
-        3,
-        1
+        8,
+        3
       ],
       [
-        4,
-        1
+        8,
+        4
       ],
       [
-        5,
-        1
+        8,
+        5
       ],
       [
-        6,
-        1
+        8,
+        6
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 7,
   "solution": [
-    "up",
-    "left",
-    "up",
-    "down",
-    "left",
-    "up",
-    "up",
     "right",
     "up",
-    "left"
+    "right",
+    "left",
+    "up",
+    "right",
+    "right"
   ],
-  "canonicalWord": "longea"
+  "canonicalWord": "posant"
 }

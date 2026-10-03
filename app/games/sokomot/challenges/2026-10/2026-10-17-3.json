@@ -133,9 +133,9 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "Z",
       "pos": [
-        6,
+        3,
         3
       ]
     },
@@ -143,8 +143,8 @@
       "id": "b2",
       "letter": "E",
       "pos": [
-        4,
-        4
+        2,
+        2
       ]
     },
     {
@@ -157,73 +157,72 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "R",
       "pos": [
         6,
-        5
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "T",
+      "letter": "A",
       "pos": [
-        4,
-        6
+        6,
+        3
       ]
     }
   ],
   "target": {
-    "word": "DEBIT",
+    "word": "ZEBRA",
     "cells": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
       [
         4,
         2
       ],
       [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
         5,
-        5
+        2
       ],
       [
-        5,
-        6
+        6,
+        2
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 24,
   "solution": [
     "down",
+    "left",
+    "up",
+    "down",
     "down",
     "left",
     "up",
     "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "left",
+    "left",
+    "down",
+    "right",
+    "down",
+    "down",
+    "right",
+    "down",
     "right",
     "up",
-    "left",
-    "left",
-    "down",
-    "left",
-    "left",
-    "left",
-    "down",
-    "down",
-    "down",
-    "right",
-    "right",
     "up",
-    "up",
-    "down",
-    "left",
-    "left",
-    "up",
-    "right"
+    "left"
   ],
-  "canonicalWord": "débit"
+  "canonicalWord": "zébra"
 }

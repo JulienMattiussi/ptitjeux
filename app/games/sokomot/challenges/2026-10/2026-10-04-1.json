@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    3,
+    1
   ],
   "walls": [
     [
@@ -97,27 +97,27 @@
       4
     ],
     [
-      5,
-      3
+      4,
+      4
     ],
     [
-      4,
-      3
+      5,
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "K",
+      "letter": "B",
       "pos": [
-        1,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "Y",
       "pos": [
         2,
         2
@@ -125,40 +125,39 @@
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "E",
       "pos": [
-        4,
-        1
+        2,
+        3
       ]
     }
   ],
   "target": {
-    "word": "KIT",
+    "word": "BYE",
     "cells": [
+      [
+        1,
+        1
+      ],
       [
         1,
         2
       ],
       [
-        2,
-        1
-      ],
-      [
-        3,
-        1
+        1,
+        3
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 7,
   "solution": [
-    "up",
+    "left",
     "right",
-    "up",
+    "down",
+    "left",
     "right",
-    "right",
-    "right",
-    "up",
+    "down",
     "left"
   ],
-  "canonicalWord": "kit"
+  "canonicalWord": "bye"
 }

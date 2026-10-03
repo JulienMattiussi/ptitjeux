@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "single",
-      "reprise",
-      "hôtesse",
-      "innocence"
+      "verveine",
+      "rural",
+      "bref",
+      "matcha"
     ],
     [
-      "parole",
-      "terre",
-      "chanteur",
-      "refrain"
+      "feuille",
+      "argousier",
+      "théière",
+      "cérémonie"
     ],
     [
-      "aplanir",
-      "titre",
-      "couplet",
-      "album"
+      "géranium",
+      "infusion",
+      "mouler",
+      "tisane"
     ],
     [
-      "interprète",
-      "aquatique",
-      "aviateur",
-      "tube"
+      "vert",
+      "tasse",
+      "noir",
+      "cirrhotique"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    2
+    2,
+    3
   ],
   "colClues": [
     3,
@@ -41,31 +41,31 @@
     2,
     3
   ],
-  "themeWord": "chanson",
+  "themeWord": "thé",
   "solution": [
     [
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 10

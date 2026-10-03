@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
+    4,
     3
   ],
   "walls": [
@@ -374,31 +374,31 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "A",
       "pos": [
-        2,
+        5,
         1
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "S",
       "pos": [
-        3,
+        6,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "Y",
+      "letter": "S",
       "pos": [
-        2,
+        5,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "O",
       "pos": [
         8,
         4
@@ -406,7 +406,7 @@
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "I",
       "pos": [
         8,
         5
@@ -414,7 +414,7 @@
     },
     {
       "id": "b6",
-      "letter": "Z",
+      "letter": "S",
       "pos": [
         8,
         6
@@ -422,7 +422,7 @@
     }
   ],
   "target": {
-    "word": "BAYIEZ",
+    "word": "ASSOIS",
     "cells": [
       [
         8,
@@ -450,14 +450,15 @@
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 7,
   "solution": [
     "right",
     "up",
     "right",
     "left",
     "up",
+    "right",
     "right"
   ],
-  "canonicalWord": "bayiez"
+  "canonicalWord": "assois"
 }

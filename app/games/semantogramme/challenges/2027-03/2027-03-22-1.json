@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "féroce",
+      "tuile",
+      "griffe",
+      "infusion"
+    ],
+    [
+      "crocs",
+      "fauve",
+      "immortel",
+      "génisse"
+    ],
+    [
+      "entier",
+      "roi",
+      "beauté",
+      "jungle"
+    ],
+    [
+      "savane",
+      "pince",
+      "lionceau",
+      "prédateur"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "lion",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

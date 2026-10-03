@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "éditorial",
+      "reporter",
+      "sacrer",
+      "univers"
+    ],
+    [
+      "léopard",
+      "titre",
+      "virement",
+      "article"
+    ],
+    [
+      "abonnement",
+      "bambin",
+      "rédaction",
+      "kiosque"
+    ],
+    [
+      "rubrique",
+      "phalange",
+      "parution",
+      "manchette"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "journal",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

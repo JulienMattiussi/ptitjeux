@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    4
+    3,
+    3
   ],
   "walls": [
     [
@@ -133,99 +133,103 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "J",
       "pos": [
-        3,
-        4
+        1,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "O",
       "pos": [
-        5,
-        5
+        2,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "U",
       "pos": [
-        3,
+        4,
         2
       ]
     },
     {
       "id": "b4",
-      "letter": "O",
+      "letter": "A",
       "pos": [
-        5,
+        3,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "S",
       "pos": [
         5,
-        2
+        5
       ]
     }
   ],
   "target": {
-    "word": "COCON",
+    "word": "JOUAS",
     "cells": [
       [
-        3,
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
         3
       ],
       [
+        2,
+        4
+      ],
+      [
         3,
-        4
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        5,
-        5
-      ],
-      [
-        6,
         4
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 31,
   "solution": [
     "down",
     "left",
     "up",
-    "left",
-    "up",
-    "up",
     "right",
     "up",
-    "right",
-    "down",
+    "up",
     "right",
     "down",
     "right",
     "down",
     "left",
     "left",
-    "right",
-    "up",
-    "up",
-    "up",
+    "down",
     "right",
     "down",
     "down",
+    "right",
+    "up",
+    "right",
     "up",
     "left",
     "left",
-    "down"
+    "down",
+    "left",
+    "down",
+    "left",
+    "up",
+    "left",
+    "up",
+    "up",
+    "up"
   ],
-  "canonicalWord": "cocon"
+  "canonicalWord": "jouas"
 }

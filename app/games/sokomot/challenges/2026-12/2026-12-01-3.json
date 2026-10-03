@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    6,
+    4,
     2
   ],
   "walls": [
@@ -133,52 +133,48 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "Y",
+      "letter": "R",
       "pos": [
-        2,
-        4
+        3,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "I",
       "pos": [
         2,
-        3
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "G",
+      "letter": "S",
       "pos": [
         4,
-        4
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "I",
-      "pos": [
-        6,
         3
       ]
     },
     {
-      "id": "b5",
+      "id": "b4",
       "letter": "S",
       "pos": [
         5,
-        2
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        6,
+        5
       ]
     }
   ],
   "target": {
-    "word": "YOGIS",
+    "word": "RISSE",
     "cells": [
-      [
-        2,
-        1
-      ],
       [
         2,
         2
@@ -188,8 +184,12 @@
         2
       ],
       [
+        3,
+        3
+      ],
+      [
         4,
-        2
+        3
       ],
       [
         5,
@@ -197,70 +197,25 @@
       ]
     ]
   },
-  "parMoves": 87,
+  "parMoves": 39,
   "solution": [
-    "left",
-    "down",
-    "down",
-    "down",
-    "left",
     "up",
-    "down",
-    "left",
-    "left",
-    "left",
-    "up",
-    "up",
-    "right",
-    "up",
-    "up",
-    "right",
-    "right",
-    "right",
-    "down",
-    "right",
-    "right",
-    "down",
     "left",
     "down",
     "down",
     "left",
     "left",
-    "left",
-    "left",
     "up",
     "right",
-    "up",
-    "down",
-    "left",
-    "up",
     "down",
     "right",
-    "right",
-    "right",
-    "up",
-    "left",
-    "right",
-    "right",
-    "up",
-    "up",
-    "left",
-    "left",
     "down",
-    "up",
-    "left",
-    "left",
-    "left",
+    "right",
     "down",
     "down",
     "right",
     "up",
     "down",
-    "down",
-    "right",
-    "right",
-    "right",
-    "up",
     "right",
     "up",
     "up",
@@ -269,23 +224,20 @@
     "down",
     "left",
     "up",
-    "right",
-    "right",
-    "right",
-    "down",
     "down",
     "down",
     "left",
-    "left",
-    "left",
-    "up",
-    "right",
     "up",
     "up",
-    "right",
-    "right",
+    "up",
     "down",
+    "right",
+    "right",
+    "right",
+    "right",
+    "right",
+    "up",
     "left"
   ],
-  "canonicalWord": "yogis"
+  "canonicalWord": "risse"
 }

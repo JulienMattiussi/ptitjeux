@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-10-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "fléchir",
+      "fournisseur",
+      "hébergement",
+      "creuset",
+      "mijoter",
+      "braiser"
+    ],
+    [
+      "rapt",
+      "paillasson",
+      "stalactite",
+      "croasser",
+      "carnaval",
+      "staub"
+    ],
+    [
+      "familiale",
+      "couvercle",
+      "support",
+      "analytique",
+      "pancréas",
+      "cuire"
+    ],
+    [
+      "gourmet",
+      "poêle",
+      "barre",
+      "ramper",
+      "toile",
+      "égoïne"
+    ],
+    [
+      "pénale",
+      "impondérable",
+      "pression",
+      "indigo",
+      "chaîne",
+      "mener"
+    ],
+    [
+      "cuisine",
+      "lourde",
+      "sacoche",
+      "ronde",
+      "bouillir",
+      "rustique"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    3,
+    1,
+    1,
+    5
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "cocotte",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

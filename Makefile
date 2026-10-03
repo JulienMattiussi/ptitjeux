@@ -1,4 +1,4 @@
-.PHONY: help install start build preview lint format format-check typecheck test test-watch test-coverage fix check clean
+.PHONY: help install start build preview lint format format-check typecheck test test-watch test-coverage verify-levels fix check clean
 
 default: help
 
@@ -37,6 +37,9 @@ test-watch: ## Lancer les tests en mode watch
 
 test-coverage: ## Lancer les tests avec rapport de couverture
 	npm run test:coverage
+
+verify-levels: ## Vérifications lourdes des niveaux (unicité, générateurs) : après chaque génération
+	npm run verify:levels
 
 generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 2026-05-01 --end 2026-05-07 --game sokomot --level 3"
 	npm run generate:levels -- $(ARGS)

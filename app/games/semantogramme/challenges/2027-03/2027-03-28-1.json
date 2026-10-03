@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tropique",
+      "sagoutier",
+      "malléable",
+      "imbiber"
+    ],
+    [
+      "éventail",
+      "planifier",
+      "vis",
+      "feuille"
+    ],
+    [
+      "chiffre",
+      "cocotier",
+      "transformation",
+      "pépin"
+    ],
+    [
+      "coco",
+      "savane",
+      "tronc",
+      "pioncer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "palmier",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

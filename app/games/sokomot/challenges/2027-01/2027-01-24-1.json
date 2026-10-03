@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    4,
-    1
+    2,
+    3
   ],
   "walls": [
     [
@@ -97,22 +97,22 @@
       4
     ],
     [
-      1,
-      3
+      2,
+      4
     ],
     [
-      1,
-      2
+      5,
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "T",
       "pos": [
-        3,
-        1
+        2,
+        2
       ]
     },
     {
@@ -125,39 +125,39 @@
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "C",
       "pos": [
-        3,
-        3
+        4,
+        2
       ]
     }
   ],
   "target": {
-    "word": "RAI",
+    "word": "TAC",
     "cells": [
       [
         2,
         1
       ],
       [
-        2,
-        2
+        3,
+        1
       ],
       [
-        2,
-        3
+        4,
+        1
       ]
     ]
   },
   "parMoves": 7,
   "solution": [
-    "left",
-    "right",
+    "up",
     "down",
-    "left",
     "right",
+    "up",
     "down",
-    "left"
+    "right",
+    "up"
   ],
-  "canonicalWord": "rai"
+  "canonicalWord": "tac"
 }

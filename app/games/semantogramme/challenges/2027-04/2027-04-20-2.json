@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pot",
+      "poussée",
+      "mammouth",
+      "vitre",
+      "bulle"
+    ],
+    [
+      "velue",
+      "cellophane",
+      "eau",
+      "plastique",
+      "obscurité"
+    ],
+    [
+      "haut",
+      "grec",
+      "roux",
+      "canine",
+      "diaphane"
+    ],
+    [
+      "cristal",
+      "cristallin",
+      "clair",
+      "gaze",
+      "entonner"
+    ],
+    [
+      "voile",
+      "cicatriser",
+      "traverser",
+      "réflexion",
+      "transpercer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "transparent",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

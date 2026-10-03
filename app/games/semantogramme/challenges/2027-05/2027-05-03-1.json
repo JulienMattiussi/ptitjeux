@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "embouchure",
+      "mélancolie",
+      "peine",
+      "larme"
+    ],
+    [
+      "hachoir",
+      "déambuler",
+      "cafard",
+      "nostalgie"
+    ],
+    [
+      "deuil",
+      "dépression",
+      "étanche",
+      "transilvanien"
+    ],
+    [
+      "morosité",
+      "symbolique",
+      "sanglot",
+      "jeunesse"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "tristesse",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

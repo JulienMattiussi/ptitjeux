@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "pétrifier",
-      "taguer",
-      "plat",
-      "pizza"
+      "but",
+      "arbitre",
+      "athlète",
+      "corner"
     ],
     [
-      "comté",
-      "audace",
-      "porte",
-      "cabrioler"
+      "foudre",
+      "crampon",
+      "envergure",
+      "mèche"
     ],
     [
-      "résistance",
-      "capteur",
-      "gril",
-      "thermostat"
+      "voltige",
+      "parure",
+      "défenseur",
+      "terrain"
     ],
     [
-      "lèchefrite",
-      "tournebroche",
-      "enraciner",
-      "houle"
+      "carton",
+      "attaquant",
+      "gardien",
+      "fil"
     ]
   ],
   "rowClues": [
-    2,
-    1,
     3,
-    2
+    1,
+    2,
+    3
   ],
   "colClues": [
     2,
-    1,
     3,
+    2,
     2
   ],
-  "themeWord": "four",
+  "themeWord": "football",
   "solution": [
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
       false,
-      false,
       true,
+      false,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       true
@@ -64,9 +64,9 @@
     [
       true,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

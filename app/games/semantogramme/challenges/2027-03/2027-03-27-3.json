@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-27-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "traverser",
+      "biographie",
+      "errant",
+      "républicain",
+      "coquillage",
+      "aile"
+    ],
+    [
+      "cueilli",
+      "plume",
+      "arctique",
+      "ratisser",
+      "noir",
+      "glace"
+    ],
+    [
+      "marcher",
+      "hachoir",
+      "banquise",
+      "assuré",
+      "pourriture",
+      "oiseau"
+    ],
+    [
+      "boucle",
+      "colonie",
+      "ministère",
+      "fuite",
+      "frôlement",
+      "antarctique"
+    ],
+    [
+      "amphi",
+      "palmes",
+      "plein-air",
+      "juge",
+      "nager",
+      "froid"
+    ],
+    [
+      "peindre",
+      "poisson",
+      "glisser",
+      "blanc",
+      "délice",
+      "marteau"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    4,
+    3,
+    1,
+    2,
+    5
+  ],
+  "themeWord": "pingouin",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

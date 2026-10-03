@@ -5,93 +5,129 @@
   "height": 7,
   "words": [
     [
-      "comprendre",
-      "respecter",
-      "voltaire",
-      "ouverture",
-      "insulte",
-      "engloutir",
-      "compréhension"
+      "sauvage",
+      "clarifier",
+      "paisible",
+      "ivoire",
+      "caméléon",
+      "moustache",
+      "safran"
     ],
     [
-      "baroque",
-      "rosée",
-      "sécher",
-      "manifeste",
-      "fenouil",
-      "pluralisme",
-      "attelage"
+      "restaurant",
+      "mouvement",
+      "défense",
+      "accoudoir",
+      "protégé",
+      "roquefort",
+      "vacuité"
     ],
     [
-      "visiter",
-      "éclairée",
-      "salade",
-      "mécanisée",
-      "neveu",
-      "colline",
-      "embuscade"
+      "arctique",
+      "plonger",
+      "femelle",
+      "cadavérique",
+      "huître",
+      "lourd",
+      "incliner"
     ],
     [
-      "partager",
-      "amuser",
-      "universelle",
-      "tolérer",
-      "patience",
-      "généreuse",
-      "moment"
+      "pinnipède",
+      "parfumerie",
+      "ennui",
+      "prestige",
+      "pondre",
+      "geste",
+      "soléaire"
     ],
     [
-      "coulisser",
-      "antarctique",
-      "accepter",
-      "monopalme",
-      "caramel",
-      "abondance",
-      "spectre"
+      "mercure",
+      "rafale",
+      "brut",
+      "rugir",
+      "vert-de-gris",
+      "renoncement",
+      "massif"
     ],
     [
-      "tonnerre",
-      "saule",
-      "séduction",
-      "majeure",
-      "rendre",
-      "acceptation",
-      "risotto"
+      "capitale",
+      "social",
+      "noble",
+      "bétail",
+      "patinoire",
+      "nager",
+      "mâle"
     ],
     [
-      "différence",
-      "muscle",
-      "civique",
-      "mentonnière",
-      "rempart",
-      "admettre",
-      "humanisme"
+      "chaud",
+      "illégal",
+      "underground",
+      "mammifère",
+      "banquise",
+      "gros",
+      "onctueux"
     ]
   ],
   "rowClues": [
-    5,
-    1,
-    1,
-    5,
-    1,
-    1,
-    4
-  ],
-  "colClues": [
     3,
     2,
     4,
     2,
-    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3,
+    3,
     4,
     2
   ],
-  "themeWord": "tolérance",
+  "themeWord": "morse",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       true,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false,
       false,
@@ -99,58 +135,22 @@
     ],
     [
       false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 19
 }

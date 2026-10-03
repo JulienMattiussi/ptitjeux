@@ -5,114 +5,114 @@
   "height": 7,
   "words": [
     [
-      "paléolithique",
-      "prière",
-      "gris",
-      "oxygène",
-      "languir",
-      "gouda",
-      "percussion"
+      "strict",
+      "expliquer",
+      "bienvenu",
+      "rassembler",
+      "rauschenberg",
+      "jeûne",
+      "défendre"
     ],
     [
-      "profonde",
-      "tissu",
-      "chenille",
-      "tricorne",
-      "bol",
-      "rudimentaire",
-      "soupirer"
+      "jeûner",
+      "antenne",
+      "sobre",
+      "satisfaction",
+      "géométrique",
+      "privation",
+      "discipline"
     ],
     [
-      "perdrix",
-      "songer",
-      "résumé",
-      "bureau",
-      "appliquer",
-      "spleen",
-      "colosse"
+      "plateforme",
+      "simple",
+      "définir",
+      "renoncement",
+      "atmosphère",
+      "punaise",
+      "banquet"
     ],
     [
-      "séance",
-      "freiner",
-      "humeur",
-      "discuter",
-      "rêver",
-      "plastique",
-      "théorique"
+      "janvier",
+      "inox",
+      "spirituel",
+      "détonation",
+      "résine",
+      "mortifier",
+      "rigoureux"
     ],
     [
-      "incapable",
-      "pluvieux",
-      "dessin",
-      "cafard",
-      "surprenant",
-      "nostalgie",
-      "collective"
+      "mortification",
+      "recyclage",
+      "livraison",
+      "liberté",
+      "mercure",
+      "ermite",
+      "éternel"
     ],
     [
-      "syngnathe",
-      "tristesse",
-      "romantique",
-      "éloquence",
-      "corail",
-      "allitération",
-      "pleurer"
+      "yeux",
+      "rigide",
+      "pénitence",
+      "protection",
+      "renoncer",
+      "lierne",
+      "aria"
     ],
     [
-      "mygale",
-      "vernissage",
-      "arôme",
-      "sentimentale",
-      "morosité",
-      "angine",
-      "rave"
+      "austère",
+      "sévère",
+      "remonter",
+      "matelot",
+      "extrême",
+      "moine",
+      "bondé"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    2,
+    4,
     2,
     3,
+    2,
     3,
-    2
+    3
   ],
   "colClues": [
+    4,
+    3,
+    3,
     1,
-    3,
-    3,
-    2,
-    3,
-    2,
+    1,
+    5,
     2
   ],
-  "themeWord": "mélancolie",
+  "themeWord": "ascétique",
   "solution": [
     [
+      true,
+      false,
+      false,
       false,
       false,
       true,
-      false,
-      true,
-      false,
       false
     ],
     [
       true,
       false,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       true
     ],
     [
       false,
       true,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ],
     [
@@ -120,37 +120,37 @@
       false,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
       true
     ],
     [
+      true,
+      false,
       false,
       false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

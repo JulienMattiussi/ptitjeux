@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "décorer",
-      "romantique",
-      "mathématique",
-      "piqûre",
-      "pimenter",
-      "natation",
-      "gratte-ciel"
-    ],
-    [
-      "cohérence",
+      "arme",
+      "radieux",
+      "ras",
       "analyser",
-      "glaise",
-      "église",
-      "expérience",
-      "temps",
-      "césar"
+      "racine",
+      "oldenburg",
+      "cicatriser"
     ],
     [
-      "dépoussiérer",
-      "sentencieux",
-      "protéine",
-      "jumelé",
-      "altier",
-      "protéger",
-      "aiguë"
+      "art",
+      "décoration",
+      "tonton",
+      "martial",
+      "icône",
+      "composer",
+      "populaire"
     ],
     [
-      "informatique",
-      "labour",
-      "clé",
-      "sensuel",
-      "ligne",
-      "romarin",
-      "chiffre"
+      "comic",
+      "tellurique",
+      "rauschenberg",
+      "stoïque",
+      "merleau-ponty",
+      "défilé",
+      "éjecter"
     ],
     [
-      "imitation",
-      "cryptographe",
-      "code",
-      "cacher",
-      "antiquaire",
-      "ordure",
-      "semoir"
+      "mouchoir",
+      "vendredi",
+      "mouvement",
+      "laver",
+      "holocène",
+      "commercial",
+      "célébrité"
     ],
     [
-      "horizon",
-      "éloge",
-      "numérique",
-      "fournir",
-      "décrypter",
-      "algorithme",
-      "vaisselle"
+      "batteur",
+      "américain",
+      "égoutter",
+      "situation",
+      "obscur",
+      "colonial",
+      "ulcère"
     ],
     [
-      "inoccupé",
-      "sécurité",
-      "tari",
-      "gigantesque",
-      "enigma",
-      "crypter",
-      "rsa"
+      "chapelle",
+      "carboniser",
+      "rajeunir",
+      "consommation",
+      "cupidité",
+      "publicité",
+      "reproduire"
+    ],
+    [
+      "mâcher",
+      "alpe",
+      "fascinant",
+      "munition",
+      "sérigraphie",
+      "détourner",
+      "féliciter"
     ]
   ],
   "rowClues": [
     1,
+    4,
     2,
+    3,
     1,
     3,
-    3,
-    3,
-    4
+    2
   ],
   "colClues": [
-    1,
-    3,
-    4,
+    2,
     1,
     2,
-    3,
+    1,
+    2,
+    5,
     3
   ],
-  "themeWord": "cryptographie",
+  "themeWord": "pop-art",
   "solution": [
     [
       false,
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       false,
@@ -99,11 +117,29 @@
     ],
     [
       false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -111,46 +147,10 @@
       false,
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       true,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

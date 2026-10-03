@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "espace",
-      "caïeu",
-      "scolaire",
-      "rare",
-      "étoile"
+      "chardon",
+      "crucifère",
+      "pièce",
+      "familial",
+      "creuset"
     ],
     [
-      "métamorphose",
-      "cible",
-      "observer",
-      "orbite",
-      "lointaine"
+      "plat-de-service",
+      "plastique",
+      "cantilène",
+      "noël",
+      "fêter"
     ],
     [
-      "longue",
-      "caresser",
-      "orbiter",
-      "astre",
-      "gronder"
+      "aileron",
+      "an",
+      "fête",
+      "huître",
+      "industrielle"
     ],
     [
-      "spectaculaire",
-      "profonde",
-      "irritation",
-      "voltaire",
-      "cosmos"
+      "festif",
+      "traditionnel",
+      "cadeau",
+      "décompression",
+      "champagne"
     ],
     [
-      "caillouteux",
-      "glacée",
-      "poil",
-      "filer",
-      "indépendante"
+      "fondamental",
+      "immunité",
+      "courbé",
+      "gourmand",
+      "poisseux"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    2,
-    2
-  ],
-  "colClues": [
-    3,
     1,
     2,
+    3,
     4,
-    3
+    1
   ],
-  "themeWord": "comète",
+  "colClues": [
+    1,
+    2,
+    2,
+    4,
+    2
+  ],
+  "themeWord": "réveillon",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -65,32 +72,25 @@
     ],
     [
       false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

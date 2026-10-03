@@ -5,81 +5,74 @@
   "height": 5,
   "words": [
     [
-      "sportif",
-      "magot",
-      "poulet",
-      "desquamation",
-      "parer"
+      "matin",
+      "document",
+      "étudier",
+      "semaine",
+      "agenda"
     ],
     [
-      "tirage",
-      "sabre",
-      "précis",
-      "calmar",
-      "noble"
+      "établi",
+      "jour",
+      "assaisonner",
+      "halogène",
+      "cours"
     ],
     [
-      "manuel",
-      "tirer",
-      "duel",
-      "masque",
-      "épée"
+      "apéro",
+      "horaire",
+      "aimanter",
+      "planifier",
+      "amère"
     ],
     [
-      "fleuret",
-      "rancune",
-      "fanal",
-      "esquiver",
-      "empaqueter"
+      "congé",
+      "poule",
+      "foudre",
+      "calendrier",
+      "travailler"
     ],
     [
-      "touche",
-      "gueule",
-      "piste",
-      "tireur",
-      "pénétrer"
+      "canapé",
+      "oubli",
+      "travail",
+      "fin",
+      "hebdomadaire"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     4,
     2,
+    3,
+    3,
     3
   ],
   "colClues": [
     3,
     2,
-    3,
-    3,
-    3
+    2,
+    4,
+    4
   ],
-  "themeWord": "escrime",
+  "themeWord": "jeudi",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true,
       true
     ],
     [
+      false,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false
@@ -87,10 +80,17 @@
     [
       true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

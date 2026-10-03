@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    6,
-    2
+    4,
+    3
   ],
   "walls": [
     [
@@ -133,102 +133,101 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "V",
       "pos": [
-        3,
-        2
+        4,
+        4
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        4,
-        4
+        3,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "L",
       "pos": [
-        4,
-        5
+        5,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        2,
-        4
+        5,
+        2
       ]
     },
     {
       "id": "b5",
-      "letter": "S",
+      "letter": "I",
       "pos": [
-        6,
-        3
+        5,
+        5
       ]
     }
   ],
   "target": {
-    "word": "DIMES",
+    "word": "VELAI",
     "cells": [
-      [
-        4,
-        2
-      ],
       [
         4,
         3
       ],
       [
-        4,
+        5,
         4
       ],
       [
-        4,
-        5
+        6,
+        3
       ],
       [
-        5,
-        5
+        7,
+        3
+      ],
+      [
+        7,
+        4
       ]
     ]
   },
-  "parMoves": 30,
+  "parMoves": 29,
   "solution": [
-    "down",
-    "down",
-    "left",
-    "left",
-    "right",
-    "right",
-    "right",
-    "down",
-    "left",
-    "down",
-    "left",
-    "left",
-    "up",
-    "left",
-    "up",
-    "down",
-    "left",
-    "left",
-    "up",
-    "right",
-    "up",
     "right",
     "left",
     "up",
-    "right",
-    "down",
-    "down",
+    "left",
     "left",
     "down",
-    "right"
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "up",
+    "right",
+    "down",
+    "left",
+    "left",
+    "down",
+    "left",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up",
+    "down",
+    "right",
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "dîmes"
+  "canonicalWord": "vêlai"
 }

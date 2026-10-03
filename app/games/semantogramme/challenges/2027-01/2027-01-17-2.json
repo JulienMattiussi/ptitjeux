@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "confiture",
-      "numéro",
-      "mangeoire",
-      "bois",
-      "glace"
+      "ciseaux",
+      "constitution",
+      "opposition",
+      "maléfice",
+      "compter"
     ],
     [
-      "germination",
-      "dessert",
-      "gâteau",
-      "édulcorer",
-      "moustique"
+      "parlement",
+      "élection",
+      "pluraliste",
+      "majorité",
+      "détonation"
     ],
     [
-      "délectable",
-      "sucrer",
-      "chocolat",
-      "sucette",
-      "vanter"
+      "pédoncule",
+      "gyrer",
+      "république",
+      "démocratique",
+      "populaire"
     ],
     [
-      "caramel",
-      "fraîche",
-      "clouer",
-      "réjouir",
-      "sucre"
+      "craintif",
+      "poids",
+      "vote",
+      "libre",
+      "citoyen"
     ],
     [
-      "jardinier",
-      "sirop",
-      "cils",
-      "anaconda",
-      "bonbon"
+      "débattre",
+      "légiférer",
+      "sautiller",
+      "représentative",
+      "géniteur"
     ]
   ],
   "rowClues": [
     2,
-    3,
     4,
-    2,
-    2
-  ],
-  "colClues": [
     3,
     3,
-    2,
-    2,
     3
   ],
-  "themeWord": "sucré",
+  "colClues": [
+    2,
+    3,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "démocratie",
   "solution": [
     [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       true,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -78,19 +71,26 @@
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
       false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

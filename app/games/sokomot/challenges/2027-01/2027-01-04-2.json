@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    2
+    4,
+    1
   ],
   "walls": [
     [
@@ -115,93 +115,93 @@
   ],
   "ice": [
     [
-      4,
-      2
+      2,
+      1
+    ],
+    [
+      2,
+      3
     ],
     [
       3,
       3
     ],
     [
-      3,
-      4
-    ],
-    [
       4,
-      5
+      3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "M",
       "pos": [
-        5,
-        2
+        3,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "O",
       "pos": [
         2,
-        3
+        4
       ]
     },
     {
       "id": "b3",
       "letter": "N",
       "pos": [
-        2,
+        3,
         4
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "O",
       "pos": [
-        3,
-        5
+        4,
+        4
       ]
     }
   ],
   "target": {
-    "word": "VINA",
+    "word": "MONO",
     "cells": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
       [
         3,
         2
       ],
       [
         4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        5,
-        5
+        2
       ]
     ]
   },
   "parMoves": 14,
   "solution": [
     "left",
+    "down",
+    "down",
+    "right",
+    "down",
+    "down",
     "left",
     "up",
-    "left",
-    "left",
-    "left",
     "down",
-    "down",
-    "right",
     "left",
+    "up",
     "down",
-    "right",
-    "down",
-    "right"
+    "left",
+    "up"
   ],
-  "canonicalWord": "vina"
+  "canonicalWord": "mono"
 }

@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     3,
-    2
+    4
   ],
   "walls": [
     [
@@ -98,67 +98,68 @@
     ],
     [
       5,
-      2
+      3
     ],
     [
       5,
-      4
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "E",
       "pos": [
-        2,
-        2
+        3,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "H",
+      "letter": "U",
       "pos": [
         3,
-        3
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "T",
       "pos": [
-        3,
-        4
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "OHM",
+    "word": "EUT",
     "cells": [
       [
-        1,
+        3,
         2
       ],
       [
-        2,
-        3
+        4,
+        1
       ],
       [
-        2,
-        4
+        4,
+        2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 9,
   "solution": [
-    "left",
-    "right",
-    "right",
+    "up",
     "down",
-    "left",
     "right",
-    "down",
-    "left"
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right"
   ],
-  "canonicalWord": "ohm"
+  "canonicalWord": "eut"
 }

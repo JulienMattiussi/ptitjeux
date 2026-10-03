@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    1,
-    5
+    4,
+    1
   ],
   "walls": [
     [
@@ -115,11 +115,11 @@
   ],
   "ice": [
     [
-      1,
-      3
+      2,
+      1
     ],
     [
-      2,
+      1,
       3
     ],
     [
@@ -128,46 +128,50 @@
     ],
     [
       4,
-      2
+      3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "I",
       "pos": [
-        1,
-        4
+        3,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "N",
       "pos": [
-        2,
+        1,
         4
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "O",
       "pos": [
-        3,
-        3
+        4,
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "X",
       "pos": [
-        4,
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "RANI",
+    "word": "INOX",
     "cells": [
+      [
+        1,
+        1
+      ],
       [
         1,
         2
@@ -178,25 +182,27 @@
       ],
       [
         3,
-        1
-      ],
-      [
-        4,
-        1
+        3
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 15,
   "solution": [
-    "up",
+    "left",
+    "right",
+    "right",
+    "right",
     "down",
-    "right",
-    "up",
-    "right",
-    "up",
     "down",
-    "right",
+    "left",
+    "up",
+    "left",
+    "down",
+    "left",
+    "left",
+    "down",
+    "left",
     "up"
   ],
-  "canonicalWord": "rani"
+  "canonicalWord": "inox"
 }

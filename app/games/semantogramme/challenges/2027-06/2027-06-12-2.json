@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "lapis",
+      "piscine",
+      "glisser",
+      "canneberge",
+      "croire"
+    ],
+    [
+      "collectif",
+      "long",
+      "faïence",
+      "ramer",
+      "olympique"
+    ],
+    [
+      "barre",
+      "humer",
+      "multifonction",
+      "priver",
+      "mercure"
+    ],
+    [
+      "lac",
+      "attention",
+      "tirer",
+      "bateau",
+      "équipage"
+    ],
+    [
+      "oar",
+      "chic",
+      "sportif",
+      "exotique",
+      "siège"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "aviron",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "imagination",
-      "créateur",
-      "an",
-      "création",
-      "mat"
+      "disque",
+      "olympique",
+      "haie",
+      "sprint",
+      "opinion"
     ],
     [
-      "naturelle",
-      "caboche",
-      "fabriquer",
-      "créativité",
-      "terre"
+      "javelot",
+      "segment",
+      "svelte",
+      "bander",
+      "sportif"
     ],
     [
-      "tiède",
-      "inventer",
-      "champêtre",
-      "descente",
-      "oeuvre"
-    ],
-    [
-      "imaginer",
-      "électricien",
-      "projet",
+      "médaille",
+      "trôner",
+      "blanc",
       "dégoût",
-      "élaborer"
+      "sauter"
     ],
     [
-      "affronter",
-      "engendrer",
-      "minimaliste",
-      "public",
-      "géométrique"
+      "parasol",
+      "minier",
+      "individuel",
+      "piste",
+      "rapide"
+    ],
+    [
+      "chat",
+      "propulser",
+      "lancer",
+      "mangeoire",
+      "mammifère"
     ]
   ],
   "rowClues": [
-    3,
+    4,
     2,
     2,
     3,
-    1
-  ],
-  "colClues": [
-    2,
-    3,
-    2,
-    2,
     2
   ],
-  "themeWord": "créer",
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "athlétisme",
   "solution": [
     [
       true,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false
     ],
     [
-      false,
       true,
+      false,
       false,
       false,
       true
@@ -80,17 +73,24 @@
     [
       true,
       false,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
-      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

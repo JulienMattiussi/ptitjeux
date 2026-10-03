@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-18-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vaste",
+      "sauvage",
+      "gigantesque",
+      "enfermer",
+      "menu"
+    ],
+    [
+      "pont",
+      "taille",
+      "monstre",
+      "massue",
+      "blonde"
+    ],
+    [
+      "nordique",
+      "forêt",
+      "caverne",
+      "cri",
+      "tinter"
+    ],
+    [
+      "margelle",
+      "brisée",
+      "aloès",
+      "samedi",
+      "hideux"
+    ],
+    [
+      "pierre",
+      "perle",
+      "filtrer",
+      "rapporter",
+      "fiesta"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    4,
+    1,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "troll",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

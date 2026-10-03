@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    4
+    4,
+    2
   ],
   "walls": [
     [
@@ -98,66 +98,71 @@
     ],
     [
       4,
-      3
+      4
     ],
     [
       5,
-      4
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "E",
       "pos": [
-        1,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
-      "pos": [
-        2,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "N",
+      "letter": "U",
       "pos": [
         3,
         3
       ]
+    },
+    {
+      "id": "b3",
+      "letter": "E",
+      "pos": [
+        2,
+        4
+      ]
     }
   ],
   "target": {
-    "word": "PIN",
+    "word": "EUE",
     "cells": [
       [
-        1,
+        2,
         2
       ],
       [
         2,
-        1
+        3
       ],
       [
         3,
-        2
+        4
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 12,
   "solution": [
-    "up",
+    "left",
     "right",
+    "down",
+    "left",
     "up",
+    "up",
+    "left",
+    "left",
     "down",
     "down",
-    "right",
-    "up"
+    "down",
+    "right"
   ],
-  "canonicalWord": "pin"
+  "canonicalWord": "eue"
 }

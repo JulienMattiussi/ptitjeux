@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "carré",
+      "camion",
+      "après-midi",
+      "hiver"
+    ],
+    [
+      "cône",
+      "rond",
+      "diaphane",
+      "grill"
+    ],
+    [
+      "pyramide",
+      "cube",
+      "satan",
+      "ovale"
+    ],
+    [
+      "chandelier",
+      "pureté",
+      "losange",
+      "rectangle"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "forme",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

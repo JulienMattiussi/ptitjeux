@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "patriarche",
+      "jumelle",
+      "éloigné",
+      "polymère"
+    ],
+    [
+      "famille",
+      "protéger",
+      "apaiser",
+      "papa"
+    ],
+    [
+      "figure",
+      "dalmatien",
+      "parent",
+      "paternel"
+    ],
+    [
+      "multiplier",
+      "macaque",
+      "enfant",
+      "appel"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "père",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

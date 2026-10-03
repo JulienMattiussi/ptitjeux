@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pièce",
+      "fin",
+      "tropical",
+      "bravoure"
+    ],
+    [
+      "boisson",
+      "rose",
+      "paillette",
+      "lime"
+    ],
+    [
+      "farce",
+      "coco",
+      "orfèvre",
+      "sacrifier"
+    ],
+    [
+      "âge",
+      "bijou",
+      "cloison",
+      "lingot"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "or",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

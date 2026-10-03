@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    3
+    2,
+    4
   ],
   "walls": [
     [
@@ -97,67 +97,69 @@
       4
     ],
     [
-      2,
-      2
+      4,
+      3
     ],
     [
-      1,
-      2
+      4,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "C",
       "pos": [
-        3,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
-      "pos": [
-        4,
+        2,
         3
       ]
     },
     {
-      "id": "b3",
-      "letter": "N",
+      "id": "b2",
+      "letter": "O",
       "pos": [
-        5,
-        2
+        2,
+        1
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "I",
+      "pos": [
+        3,
+        3
       ]
     }
   ],
   "target": {
-    "word": "SEN",
+    "word": "COI",
     "cells": [
+      [
+        2,
+        2
+      ],
       [
         3,
         1
       ],
       [
-        4,
+        3,
         2
-      ],
-      [
-        5,
-        1
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
     "up",
     "down",
-    "down",
     "right",
     "up",
-    "right",
-    "up"
+    "left",
+    "left",
+    "up",
+    "up",
+    "right"
   ],
-  "canonicalWord": "sen"
+  "canonicalWord": "coi"
 }

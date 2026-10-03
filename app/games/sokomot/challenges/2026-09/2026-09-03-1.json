@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    4,
+    5,
     1
   ],
   "walls": [
@@ -97,27 +97,27 @@
       4
     ],
     [
-      1,
-      1
+      2,
+      4
     ],
     [
       1,
-      2
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "C",
       "pos": [
-        3,
+        4,
         1
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "O",
       "pos": [
         3,
         2
@@ -125,40 +125,43 @@
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "N",
       "pos": [
-        4,
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "MUT",
+    "word": "CON",
     "cells": [
       [
-        2,
+        3,
         1
       ],
       [
-        2,
+        4,
         2
       ],
       [
-        3,
-        3
+        5,
+        2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 11,
   "solution": [
     "left",
-    "right",
     "down",
+    "down",
+    "down",
+    "right",
+    "up",
     "left",
-    "right",
-    "right",
-    "down",
-    "left"
+    "left",
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "mut"
+  "canonicalWord": "con"
 }

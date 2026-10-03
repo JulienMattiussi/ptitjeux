@@ -5,93 +5,111 @@
   "height": 7,
   "words": [
     [
-      "rose",
-      "régénération",
-      "transférer",
-      "fleurir",
-      "mare",
-      "astronomique",
-      "soigné"
+      "fairway",
+      "magnitude",
+      "imperturbable",
+      "paix",
+      "opposer",
+      "match",
+      "mesurer"
     ],
     [
-      "bricoleur",
-      "humeur",
-      "cacher",
-      "maux",
-      "douce",
-      "patrimoine",
-      "blanc"
+      "majestueux",
+      "bêche",
+      "tranquille",
+      "collecte",
+      "taper",
+      "tranquillité",
+      "imposante"
     ],
     [
-      "eau",
-      "aquatique",
-      "giverny",
-      "béton",
-      "fleur",
-      "libre",
-      "monet"
+      "spyware",
+      "aspirer",
+      "reposer",
+      "silence",
+      "harmonie",
+      "rugueux",
+      "chasseur"
     ],
     [
-      "étang",
-      "anémique",
-      "envoûter",
-      "longer",
-      "samba",
-      "tonnerre",
-      "peureux"
+      "réaliser",
+      "flamber",
+      "compact",
+      "sereine",
+      "placide",
+      "discipline",
+      "pharynx"
     ],
     [
-      "rhizome",
-      "slalom",
-      "plante",
-      "vétuste",
-      "maciunas",
-      "chimique",
-      "source"
+      "paisible",
+      "apaisement",
+      "méditation",
+      "roucoulement",
+      "jais",
+      "sage",
+      "douceur"
     ],
     [
-      "esquisser",
-      "vert",
-      "feuille",
-      "stromatolite",
-      "égarer",
-      "tige",
-      "semis"
+      "graisse",
+      "radis",
+      "poussière",
+      "gothique",
+      "braiser",
+      "calme",
+      "méditer"
     ],
     [
-      "lune",
-      "rive",
-      "phalange",
-      "data",
-      "carnaval",
-      "flotter",
-      "mousseron"
+      "capturer",
+      "quiétude",
+      "percolateur",
+      "contempler",
+      "venter",
+      "redondant",
+      "urticante"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
     2,
     5,
-    1,
-    2,
-    2,
-    1
-  ],
-  "colClues": [
-    4,
-    1,
-    3,
-    1,
-    3,
     2,
     2
   ],
-  "themeWord": "nénuphar",
+  "colClues": [
+    1,
+    2,
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "sérénité",
   "solution": [
     [
+      false,
+      false,
+      true,
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       true,
       false,
@@ -101,56 +119,38 @@
       false,
       false,
       false,
-      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
-      false,
       true
     ],
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -5,48 +5,60 @@
   "height": 4,
   "words": [
     [
-      "enjoliveur",
-      "uni",
-      "caoutchouc",
-      "crevaison"
+      "brun",
+      "violet",
+      "gnome",
+      "ébahissement"
     ],
     [
-      "voter",
-      "vélo",
-      "moyeu",
-      "neige"
+      "orange",
+      "palme",
+      "marron",
+      "inoccupé"
     ],
     [
-      "chambre",
-      "visa",
-      "virus",
-      "rayon"
+      "rose",
+      "bleu",
+      "projection",
+      "blanc"
     ],
     [
-      "parodie",
-      "pneu",
-      "voiture",
-      "jante"
+      "gratter",
+      "noir",
+      "gris",
+      "damier"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
-    2,
-    2,
-    3
+    2
   ],
   "colClues": [
-    2,
-    2,
     3,
-    3
+    3,
+    2,
+    1
   ],
-  "themeWord": "roue",
+  "themeWord": "couleur",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
     [
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true
     ],
     [
@@ -54,19 +66,7 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

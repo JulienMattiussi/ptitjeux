@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-20-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "jaunisse",
+      "week-end",
+      "jaune",
+      "cirrhotique",
+      "biliaire"
+    ],
+    [
+      "ictère",
+      "détoxifier",
+      "gui",
+      "aviaire",
+      "sécréter"
+    ],
+    [
+      "piscine",
+      "pâté",
+      "cirrhose",
+      "hépatique",
+      "lourdeur"
+    ],
+    [
+      "grisaille",
+      "plomb",
+      "hépatite",
+      "filtrer",
+      "plat"
+    ],
+    [
+      "glycogène",
+      "pesant",
+      "libraire",
+      "organe",
+      "vésicule"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "foie",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

@@ -5,67 +5,60 @@
   "height": 5,
   "words": [
     [
-      "parc",
-      "impair",
-      "carboniser",
-      "campagne",
-      "imposant"
+      "exploration",
+      "batterie",
+      "assaisonner",
+      "rouge",
+      "cabernet"
     ],
     [
-      "beignet",
-      "cheminée",
-      "derme",
-      "tourelle",
-      "anniversaire"
+      "décoration",
+      "brûler",
+      "éternel",
+      "feu",
+      "cuillère"
     ],
     [
-      "rider",
-      "antiquité",
-      "campagnard",
-      "gentilhomme",
-      "mairie"
+      "chaleur",
+      "potager",
+      "flamboyer",
+      "taillis",
+      "pieuvre"
     ],
     [
-      "recevoir",
-      "galerie",
-      "noble",
-      "marchand",
-      "colombier"
+      "résurrection",
+      "brasier",
+      "flamme",
+      "aile",
+      "majestueux"
     ],
     [
-      "ippon",
-      "hériter",
-      "neuronal",
-      "saumâtre",
-      "élégant"
+      "axe",
+      "épuiser",
+      "flamboyant",
+      "renaissance",
+      "samu"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    2,
-    3,
+    1,
     4,
     2
   ],
   "colClues": [
-    2,
+    1,
+    1,
     4,
-    2,
-    3,
-    3
+    4,
+    1
   ],
-  "themeWord": "manoir",
+  "themeWord": "phénix",
   "solution": [
     [
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       false
@@ -78,19 +71,26 @@
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ],
     [
       false,
+      false,
       true,
-      false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

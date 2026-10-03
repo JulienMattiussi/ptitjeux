@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tennis",
+      "maître",
+      "élève",
+      "professeur"
+    ],
+    [
+      "classe",
+      "mot",
+      "tableau",
+      "nature"
+    ],
+    [
+      "instituteur",
+      "cahier",
+      "résultat",
+      "fitness"
+    ],
+    [
+      "brûler",
+      "cours",
+      "pédagogie",
+      "amarre"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "enseignant",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

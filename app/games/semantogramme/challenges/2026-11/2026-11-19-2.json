@@ -5,68 +5,75 @@
   "height": 5,
   "words": [
     [
-      "balancier",
-      "mèche",
-      "brosser",
-      "arrêter",
-      "classeur"
+      "tom",
+      "cisailler",
+      "contrôleur",
+      "à-fromage",
+      "carpaccio"
     ],
     [
-      "peigner",
-      "logiciel",
-      "commencement",
-      "tresse",
-      "crinière"
+      "préparer",
+      "naturel",
+      "rêverie",
+      "salade",
+      "crudité"
     ],
     [
-      "liquider",
-      "coiffer",
-      "chauve",
-      "crépuscule",
-      "pointe"
+      "hampe",
+      "tartare",
+      "trancher",
+      "sashimi",
+      "oeuf"
     ],
     [
-      "racine",
-      "mansarde",
-      "horizon",
-      "teindre",
-      "shampooing"
+      "fougue",
+      "frais",
+      "légume",
+      "gêné",
+      "tailler"
     ],
     [
-      "chevelure",
-      "célébration",
-      "écran",
-      "frange",
-      "enrouée"
+      "paraphe",
+      "spirale",
+      "sushi",
+      "brut",
+      "pluie"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
+    4,
+    4,
     3,
     2
   ],
   "colClues": [
+    1,
+    4,
     3,
-    2,
-    2,
     3,
-    3
+    4
   ],
-  "themeWord": "cheveu",
+  "themeWord": "cru",
   "solution": [
     [
       false,
       true,
-      true,
       false,
-      false
+      false,
+      true
     ],
     [
       true,
+      true,
       false,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      true,
       true,
       true
     ],
@@ -78,19 +85,12 @@
       true
     ],
     [
-      true,
       false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "paisible",
+      "pédale",
+      "tacite",
+      "mutisme",
+      "feutre"
+    ],
+    [
+      "muet",
+      "calme",
+      "couche",
+      "extension",
+      "verni"
+    ],
+    [
+      "monastère",
+      "peigne",
+      "discret",
+      "flemmard",
+      "cimetière"
+    ],
+    [
+      "sérénité",
+      "feutré",
+      "silence",
+      "discrétion",
+      "imposte"
+    ],
+    [
+      "grillé",
+      "chuchoter",
+      "incurver",
+      "jardinière",
+      "massue"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "silencieux",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

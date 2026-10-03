@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-28-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "soutenir",
+      "pyramide",
+      "nostalgie",
+      "lyrique",
+      "élevage",
+      "écholocation"
+    ],
+    [
+      "vase",
+      "chronomètre",
+      "long",
+      "tordre",
+      "col",
+      "porter"
+    ],
+    [
+      "phobie",
+      "tendre",
+      "bandeau",
+      "arrière",
+      "établi",
+      "pomme"
+    ],
+    [
+      "visite",
+      "sciuridé",
+      "gorge",
+      "réseau",
+      "boue",
+      "croasser"
+    ],
+    [
+      "mobile",
+      "réduire",
+      "cravate",
+      "tour",
+      "caresser",
+      "ricaner"
+    ],
+    [
+      "nuque",
+      "cap",
+      "radieux",
+      "verser",
+      "matinée",
+      "cervical"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    1,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "cou",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

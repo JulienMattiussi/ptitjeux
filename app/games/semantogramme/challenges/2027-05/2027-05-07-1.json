@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "instruire",
+      "gerbe",
+      "fleuriste",
+      "épiderme"
+    ],
+    [
+      "composition",
+      "lampadaire",
+      "vache",
+      "fleur"
+    ],
+    [
+      "percevoir",
+      "rose",
+      "mariée",
+      "bronzer"
+    ],
+    [
+      "piquet",
+      "corbeille",
+      "sortir",
+      "digestion"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "bouquet",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-19-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "japon",
+      "os",
+      "créer",
+      "délicat",
+      "pliage"
+    ],
+    [
+      "banquette",
+      "fleur",
+      "copeau",
+      "mi",
+      "industrielle"
+    ],
+    [
+      "tortue",
+      "animal",
+      "costume",
+      "élastique",
+      "art"
+    ],
+    [
+      "traditionnel",
+      "menthe",
+      "lancinante",
+      "plier",
+      "japonais"
+    ],
+    [
+      "tradition",
+      "cour",
+      "charpentier",
+      "agripper",
+      "fusil"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "origami",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

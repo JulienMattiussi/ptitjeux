@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "enjoliveur",
+      "uni",
+      "caoutchouc",
+      "crevaison"
+    ],
+    [
+      "voter",
+      "vélo",
+      "moyeu",
+      "neige"
+    ],
+    [
+      "chambre",
+      "visa",
+      "virus",
+      "rayon"
+    ],
+    [
+      "parodie",
+      "pneu",
+      "voiture",
+      "jante"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "roue",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

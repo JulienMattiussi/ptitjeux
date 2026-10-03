@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "osciller",
+      "gris",
+      "pointage",
+      "armature",
+      "collant"
+    ],
+    [
+      "durcir",
+      "couler",
+      "accordéon",
+      "morigéner",
+      "filleul"
+    ],
+    [
+      "immeuble",
+      "coffrage",
+      "fondation",
+      "prise",
+      "dur"
+    ],
+    [
+      "maçon",
+      "ciment",
+      "pont",
+      "domestique",
+      "massif"
+    ],
+    [
+      "sable",
+      "vertigineux",
+      "résistant",
+      "nervure",
+      "armé"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "béton",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

@@ -123,18 +123,18 @@
       2
     ],
     [
-      3,
+      4,
       3
     ],
     [
-      5,
-      3
+      4,
+      4
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "U",
       "pos": [
         5,
         1
@@ -142,7 +142,7 @@
     },
     {
       "id": "b2",
-      "letter": "G",
+      "letter": "R",
       "pos": [
         2,
         2
@@ -150,23 +150,23 @@
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "N",
       "pos": [
-        2,
+        3,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "E",
       "pos": [
-        5,
+        3,
         4
       ]
     }
   ],
   "target": {
-    "word": "EGAL",
+    "word": "URNE",
     "cells": [
       [
         3,
@@ -177,34 +177,32 @@
         2
       ],
       [
-        4,
+        5,
         3
       ],
       [
         5,
-        2
+        4
       ]
     ]
   },
-  "parMoves": 17,
+  "parMoves": 15,
   "solution": [
     "left",
-    "down",
-    "down",
     "left",
     "down",
     "down",
-    "right",
-    "up",
-    "left",
-    "left",
     "left",
     "left",
     "up",
     "right",
     "left",
     "up",
+    "left",
+    "up",
+    "right",
+    "down",
     "right"
   ],
-  "canonicalWord": "égal"
+  "canonicalWord": "urne"
 }

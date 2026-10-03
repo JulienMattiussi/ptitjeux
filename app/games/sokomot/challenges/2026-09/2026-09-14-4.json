@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    1
+    6,
+    3
   ],
   "walls": [
     [
@@ -374,15 +374,15 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "P",
       "pos": [
-        2,
-        7
+        5,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
         4,
         2
@@ -390,7 +390,7 @@
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "L",
       "pos": [
         5,
         3
@@ -398,69 +398,67 @@
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        6,
-        7
+        1,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "K",
+      "letter": "G",
       "pos": [
-        7,
-        7
+        1,
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        5,
-        2
+        1,
+        6
       ]
     }
   ],
   "target": {
-    "word": "EUREKA",
+    "word": "PILAGE",
     "cells": [
       [
-        3,
-        7
+        1,
+        1
       ],
       [
-        4,
-        7
+        1,
+        2
       ],
       [
-        5,
-        7
+        1,
+        3
       ],
       [
-        6,
-        7
+        1,
+        4
       ],
       [
-        7,
-        7
+        1,
+        5
       ],
       [
-        8,
-        7
+        1,
+        6
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 7,
   "solution": [
-    "down",
-    "right",
-    "down",
     "left",
-    "down",
+    "up",
+    "left",
     "right",
     "up",
-    "right",
-    "down"
+    "left",
+    "left"
   ],
-  "canonicalWord": "eurêka"
+  "canonicalWord": "pilage"
 }

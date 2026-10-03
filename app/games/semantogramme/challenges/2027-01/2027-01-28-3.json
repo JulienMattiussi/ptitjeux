@@ -5,83 +5,99 @@
   "height": 6,
   "words": [
     [
-      "tendre",
-      "concentrer",
-      "spaghetti",
-      "conducteur",
-      "terrasse",
-      "gratin"
+      "éphémère",
+      "crucifère",
+      "négoce",
+      "pureté",
+      "charge",
+      "jardin"
     ],
     [
-      "antihistaminique",
-      "texte",
-      "farcie",
-      "thé",
-      "chuchoter",
-      "taches"
-    ],
-    [
-      "jardin",
-      "soupe",
-      "courge",
-      "sauter",
       "légume",
-      "agate"
+      "transparenter",
+      "kale",
+      "rêche",
+      "découvrir",
+      "ambulance"
     ],
     [
-      "utopie",
-      "gradin",
-      "cavalcade",
-      "cambrer",
-      "cylindrique",
-      "tian"
+      "attention",
+      "rouge",
+      "rouler",
+      "fermenter",
+      "farci",
+      "rêver"
     ],
     [
-      "soigné",
-      "glaner",
-      "diplôme",
-      "loupe",
-      "beignet",
-      "quadrilatère"
+      "salade",
+      "germe",
+      "compact",
+      "règlement",
+      "foudroyer",
+      "resplendissant"
     ],
     [
-      "potager",
-      "allaiter",
-      "cisailler",
-      "estivale",
-      "cucurbitacée",
-      "hurlement"
+      "choucroute",
+      "pomme",
+      "rugby",
+      "soupe",
+      "rabot",
+      "transcrire"
+    ],
+    [
+      "neurone",
+      "vert",
+      "feuille",
+      "rond",
+      "apparition",
+      "ère"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    4,
     2,
-    1,
+    2,
+    3,
+    3,
+    3,
     3
   ],
   "colClues": [
     3,
-    1,
+    5,
+    3,
     3,
     1,
-    4,
-    2
+    1
   ],
-  "themeWord": "courgette",
+  "themeWord": "chou",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
       false,
       false,
       true
     ],
     [
+      true,
+      false,
+      true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false,
@@ -90,35 +106,19 @@
     [
       true,
       true,
-      true,
       false,
       true,
+      false,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 16
 }

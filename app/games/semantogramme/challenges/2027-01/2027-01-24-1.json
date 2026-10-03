@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "fils",
-      "guêpe",
-      "forum",
-      "marin"
+      "tige",
+      "bouquet",
+      "cavaler",
+      "rouge"
     ],
     [
-      "famille",
-      "parent",
-      "tonte",
-      "aimer"
+      "cirer",
+      "maudit",
+      "roseraie",
+      "pioche"
     ],
     [
-      "enfant",
-      "puma",
-      "maman",
-      "parure"
+      "pétale",
+      "bouton",
+      "colique",
+      "pédale"
     ],
     [
-      "parpaing",
-      "éduquer",
-      "bouffer",
-      "accoucher"
+      "parfum",
+      "recyclage",
+      "synagogue",
+      "récif"
     ]
   ],
   "rowClues": [
-    1,
     3,
+    1,
     2,
-    2
+    1
   ],
   "colClues": [
     3,
     2,
     1,
-    2
+    1
   ],
-  "themeWord": "mère",
+  "themeWord": "rose",
   "solution": [
     [
       true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       false,
+      true,
       false
     ],
     [
       true,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false
     ],
     [
-      false,
       true,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mort-vivant",
+      "farine",
+      "apprenti",
+      "écosystème"
+    ],
+    [
+      "pain",
+      "vermillon",
+      "poussière",
+      "pétrin"
+    ],
+    [
+      "baguette",
+      "mie",
+      "canne",
+      "four"
+    ],
+    [
+      "éclosion",
+      "levure",
+      "fournil",
+      "pâte"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "boulanger",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

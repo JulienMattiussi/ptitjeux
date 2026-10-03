@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vol",
+      "chimère",
+      "frétillant",
+      "cadence",
+      "rassasier"
+    ],
+    [
+      "ciel",
+      "capteur",
+      "parterre",
+      "caravane",
+      "envol"
+    ],
+    [
+      "plume",
+      "altitude",
+      "piquer",
+      "dangereux",
+      "dégât"
+    ],
+    [
+      "aviateur",
+      "airelle",
+      "osseux",
+      "intuition",
+      "planer"
+    ],
+    [
+      "répétition",
+      "aile",
+      "atterrissage",
+      "atterrir",
+      "outil"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "voler",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

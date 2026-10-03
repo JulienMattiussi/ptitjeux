@@ -5,99 +5,83 @@
   "height": 6,
   "words": [
     [
-      "soldat",
-      "inventer",
-      "écho",
-      "feuilleté",
-      "lierre",
-      "atelier"
+      "venin",
+      "cactus",
+      "huit",
+      "esquiver",
+      "morceau",
+      "urée"
     ],
     [
-      "éminer",
-      "serpenter",
-      "glisser",
-      "garantir",
-      "avancer",
-      "fourrer"
+      "nocturne",
+      "réparer",
+      "patte",
+      "sauter",
+      "queue",
+      "verre"
     ],
     [
-      "ventre",
-      "embarras",
-      "frôler",
-      "fléchir",
-      "hébergement",
-      "cabas"
+      "pince",
+      "aiguillon",
+      "noir",
+      "essaim",
+      "harnais",
+      "arachnide"
     ],
     [
-      "usage",
-      "tortueux",
-      "humilier",
-      "essuyer",
-      "reptation",
-      "apiculteur"
+      "colorer",
+      "remplir",
+      "défendre",
+      "effrayant",
+      "honorer",
+      "grâce"
     ],
     [
-      "reptile",
-      "derme",
-      "commando",
-      "noé",
-      "pétrole",
-      "sinueux"
+      "uriner",
+      "caméra",
+      "piquer",
+      "jaune",
+      "pâque",
+      "crapaud"
     ],
     [
-      "régulier",
-      "estival",
-      "agenouillement",
-      "progresser",
-      "espace",
-      "ondulation"
+      "désert",
+      "guichet",
+      "rissoler",
+      "mortel",
+      "cutané",
+      "tropique"
     ]
   ],
   "rowClues": [
     2,
-    4,
     3,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
-    2,
     4,
     2,
-    3,
+    2,
     3
   ],
-  "themeWord": "ramper",
+  "colClues": [
+    4,
+    1,
+    5,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "scorpion",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       false,
       false
     ],
     [
-      false,
       true,
+      false,
       true,
       false,
       true,
@@ -105,7 +89,7 @@
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       false,
@@ -113,6 +97,22 @@
     ],
     [
       false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true,
@@ -120,5 +120,5 @@
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

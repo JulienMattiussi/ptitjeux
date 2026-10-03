@@ -5,76 +5,62 @@
   "height": 5,
   "words": [
     [
-      "football",
-      "invoquer",
-      "autel",
-      "chapelet",
-      "agenouillement"
+      "pistolet",
+      "aligner",
+      "portrait",
+      "enlacer",
+      "photo"
     ],
     [
-      "lanterne",
-      "gouvernemental",
-      "méditation",
-      "sacrée",
-      "foi"
+      "cliché",
+      "fougue",
+      "précieuse",
+      "élan",
+      "mitrailler"
     ],
     [
-      "implorer",
-      "mosquée",
-      "voltige",
-      "collective",
-      "prier"
+      "shooter",
+      "incliner",
+      "sobre",
+      "glycine",
+      "instantané"
     ],
     [
-      "dieu",
-      "sanctuaire",
-      "côtière",
-      "momifier",
-      "estomac"
+      "capturer",
+      "image",
+      "flash",
+      "binaire",
+      "origami"
     ],
     [
-      "église",
-      "matinale",
-      "fervente",
-      "iris",
-      "route"
+      "petit",
+      "appareil",
+      "zoom",
+      "objectif",
+      "immortaliser"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
+    2,
     3,
-    4,
-    1,
-    3
+    4
   ],
   "colClues": [
     3,
+    2,
     3,
-    3,
-    3,
-    3
+    1,
+    4
   ],
-  "themeWord": "prière",
+  "themeWord": "photographier",
   "solution": [
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
-      true,
       true
     ],
     [
@@ -82,7 +68,14 @@
       false,
       false,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
     ],
     [
       true,
@@ -90,7 +83,14 @@
       true,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

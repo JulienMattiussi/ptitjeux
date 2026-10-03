@@ -5,110 +5,110 @@
   "height": 6,
   "words": [
     [
-      "congélateur",
-      "confus",
-      "raconter",
-      "arabesque",
-      "achèvement",
-      "jouer"
+      "peluche",
+      "affluent",
+      "pratique",
+      "connecter",
+      "bricoler",
+      "crayon"
     ],
     [
-      "train",
-      "guitare",
-      "chaîne",
-      "sincère",
-      "tradition",
-      "rural"
+      "court",
+      "protocole",
+      "félicitation",
+      "conviction",
+      "alliance",
+      "jumeler"
     ],
     [
-      "narratif",
-      "galet",
-      "malade",
-      "minou",
-      "épousseter",
-      "authentique"
+      "casque",
+      "meurtrier",
+      "gronder",
+      "mobile",
+      "mythe",
+      "transférer"
     ],
     [
-      "indien",
-      "cyclisme",
-      "pudding",
-      "mandoline",
-      "musique",
-      "malédiction"
+      "portée",
+      "fondant",
+      "voiture",
+      "communiquer",
+      "wifi",
+      "surf"
     ],
     [
-      "titane",
-      "racine",
-      "mariée",
-      "studio",
-      "estran",
-      "engagé"
+      "commercial",
+      "séchée",
+      "sévère",
+      "sans-fil",
+      "transfert",
+      "téléphone"
     ],
     [
-      "plaisanterie",
-      "jongleur",
-      "résonner",
-      "centenaire",
-      "populaire",
-      "simple"
+      "charnière",
+      "piété",
+      "gouvernement",
+      "forêt",
+      "haut-parleur",
+      "mémoire"
     ]
   ],
   "rowClues": [
     2,
+    3,
+    3,
     4,
-    2,
-    2,
-    2,
-    2
+    3,
+    1
   ],
   "colClues": [
-    1,
-    2,
-    1,
-    2,
     3,
-    5
+    1,
+    2,
+    4,
+    3,
+    3
   ],
-  "themeWord": "folk",
+  "themeWord": "bluetooth",
   "solution": [
     [
       false,
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
-      true,
-      true,
-      true
+      false
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       false,
       true
     ],
     [
+      true,
       false,
       false,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       true,
       false
     ],
     [
       false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -117,8 +117,8 @@
       false,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 16
 }

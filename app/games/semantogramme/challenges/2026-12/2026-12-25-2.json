@@ -5,80 +5,59 @@
   "height": 5,
   "words": [
     [
-      "central",
-      "briller",
-      "caméléon",
-      "vendre",
-      "lampe"
+      "créneau",
+      "côtière",
+      "longévité",
+      "chicorée",
+      "hublot"
     ],
     [
-      "agir",
-      "radieux",
-      "déshydrater",
-      "dauphin",
-      "illuminer"
+      "café",
+      "crâne",
+      "endive",
+      "âpre",
+      "cou"
     ],
     [
-      "pâlir",
-      "soleil",
-      "étoile",
-      "étinceler",
-      "tige"
+      "astringent",
+      "noix",
+      "enclos",
+      "brûlure",
+      "bière"
     ],
     [
-      "bougie",
-      "mérinos",
-      "piloter",
-      "resplendissant",
-      "dépoussiérer"
+      "réparateur",
+      "dîner",
+      "douloureux",
+      "caustique",
+      "domestique"
     ],
     [
-      "lustre",
-      "volter",
-      "éclat",
-      "projecteur",
-      "rayonner"
+      "pamplemousse",
+      "brûler",
+      "satan",
+      "âcre",
+      "tonic"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
+    3,
     3,
     2,
-    4
-  ],
-  "colClues": [
-    2,
-    3,
-    2,
-    3,
     3
   ],
-  "themeWord": "lumineux",
+  "colClues": [
+    3,
+    1,
+    2,
+    4,
+    2
+  ],
+  "themeWord": "amer",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -88,9 +67,30 @@
       true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

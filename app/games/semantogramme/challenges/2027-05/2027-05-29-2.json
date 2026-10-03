@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "américain",
+      "autorité",
+      "temps",
+      "sportif",
+      "tirer"
+    ],
+    [
+      "rapide",
+      "équipe",
+      "rebond",
+      "coulisser",
+      "expression"
+    ],
+    [
+      "collectif",
+      "cavalier",
+      "arbitre",
+      "terrain",
+      "panneau"
+    ],
+    [
+      "nid",
+      "répéter",
+      "ballon",
+      "maillot",
+      "couteau"
+    ],
+    [
+      "pulsation",
+      "sauter",
+      "puissance",
+      "dribbler",
+      "panier"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "basket",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

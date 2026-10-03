@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "abondance",
-      "hôpital",
-      "samu",
-      "secourir",
-      "pruneau",
-      "malade"
+      "romaine",
+      "soin",
+      "aiguille",
+      "mesurer",
+      "équilibre",
+      "russule"
     ],
     [
-      "balancier",
-      "sirène",
-      "algue",
-      "urne",
-      "cieux",
-      "cocotier"
+      "duplicité",
+      "justice",
+      "thémis",
+      "peser",
+      "recette",
+      "kilo"
     ],
     [
-      "fortifier",
-      "connexion",
-      "sauver",
-      "fichier",
-      "blanche",
-      "gyrophare"
+      "deltoïde",
+      "précision",
+      "numérique",
+      "territoire",
+      "salle-de-bain",
+      "pharmacie"
     ],
     [
-      "liquider",
-      "pleurnicher",
-      "médicale",
-      "versant",
-      "blessé",
-      "risqué"
+      "foncé",
+      "fléau",
+      "barre",
+      "tribal",
+      "feuilleter",
+      "inonder"
     ],
     [
-      "rapide",
-      "rouge",
-      "transporter",
-      "secours",
-      "croix",
-      "jument"
+      "poids",
+      "oublier",
+      "océan",
+      "guirlande",
+      "hamster",
+      "cuisine"
     ],
     [
-      "éducatif",
-      "éclat",
-      "amérindien",
-      "sciage",
-      "urgence",
-      "transport"
+      "satisfait",
+      "gramme",
+      "noodle",
+      "commerce",
+      "plateau",
+      "pénale"
     ]
   ],
   "rowClues": [
     4,
-    1,
-    3,
-    2,
-    5,
-    2
-  ],
-  "colClues": [
-    1,
-    3,
     4,
-    2,
     4,
+    1,
+    2,
     3
   ],
-  "themeWord": "ambulance",
+  "colClues": [
+    2,
+    4,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "balance",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -88,37 +104,21 @@
       false
     ],
     [
-      false,
-      false,
       true,
       false,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
-      false,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

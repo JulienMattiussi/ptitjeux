@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    3
+    4,
+    1
   ],
   "walls": [
     [
@@ -97,67 +97,71 @@
       4
     ],
     [
-      1,
-      3
+      5,
+      2
     ],
     [
-      2,
-      2
+      4,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "L",
       "pos": [
         3,
-        2
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        4,
+        2,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "U",
       "pos": [
-        5,
-        2
+        2,
+        3
       ]
     }
   ],
   "target": {
-    "word": "SIC",
+    "word": "LEU",
     "cells": [
       [
+        2,
+        1
+      ],
+      [
         3,
-        1
+        2
       ],
       [
-        4,
-        1
-      ],
-      [
-        5,
-        1
+        3,
+        3
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 11,
   "solution": [
-    "up",
+    "left",
     "down",
-    "right",
-    "up",
     "down",
+    "down",
+    "left",
+    "left",
+    "up",
     "right",
-    "up"
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "sic"
+  "canonicalWord": "leu"
 }

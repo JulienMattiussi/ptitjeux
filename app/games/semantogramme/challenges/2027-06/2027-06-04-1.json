@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "matinale",
+      "incandescent",
+      "cendre",
+      "créateur"
+    ],
+    [
+      "descendant",
+      "allumette",
+      "braise",
+      "ring"
+    ],
+    [
+      "sourcil",
+      "fumée",
+      "persistant",
+      "brise"
+    ],
+    [
+      "pompier",
+      "incendie",
+      "composé",
+      "flamme"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "feu",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

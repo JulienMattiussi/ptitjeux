@@ -5,86 +5,78 @@
   "height": 6,
   "words": [
     [
-      "bonheur",
-      "parrain",
-      "encre",
-      "céphalopode",
-      "seiche",
-      "aquatique"
+      "embaumé",
+      "chardonnay",
+      "manteau",
+      "branche",
+      "manoeuvrer",
+      "intelligent"
     ],
     [
-      "odeur",
-      "mollusque",
-      "spray",
-      "bal",
-      "agrès",
-      "plongée"
-    ],
-    [
-      "rocher",
-      "bière",
-      "mixte",
-      "canari",
-      "corps-de-ballet",
-      "marin"
-    ],
-    [
-      "savourer",
-      "fermier",
-      "amethyste",
-      "domino",
+      "malicieux",
       "vase",
-      "anneau"
+      "légende",
+      "crosse",
+      "tombeau",
+      "stratagème"
     ],
     [
-      "effilé",
-      "biberon",
-      "rapide",
-      "roseau",
-      "sépia",
-      "ordonnance"
+      "ruse",
+      "malice",
+      "tromper",
+      "laminaire",
+      "allergique",
+      "intelligence"
     ],
     [
-      "pêche",
-      "profond",
-      "ras",
-      "brandade",
-      "tentacule",
-      "halogène"
+      "lourde",
+      "fin",
+      "frisé",
+      "serpent",
+      "doré",
+      "astucieux"
+    ],
+    [
+      "sournois",
+      "évacuation",
+      "duper",
+      "piège",
+      "véloce",
+      "discret"
+    ],
+    [
+      "finesse",
+      "brûler",
+      "cathédrale",
+      "fascinant",
+      "manigancer",
+      "astuce"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     4,
-    2,
-    2,
-    1,
+    3,
     3,
     3
   ],
   "colClues": [
-    3,
+    4,
     2,
     2,
-    1,
-    3,
-    4
+    2,
+    2,
+    5
   ],
-  "themeWord": "calmar",
+  "themeWord": "rusé",
   "solution": [
     [
       false,
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      false,
+      true,
       true
     ],
     [
@@ -96,10 +88,18 @@
       true
     ],
     [
+      true,
+      true,
+      true,
       false,
       false,
+      true
+    ],
+    [
       false,
+      true,
       false,
+      true,
       false,
       true
     ],
@@ -107,18 +107,18 @@
       true,
       false,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
       true,
-      true,
       false,
       false,
+      false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

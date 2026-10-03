@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    4
+    4,
+    1
   ],
   "walls": [
     [
@@ -97,44 +97,48 @@
       4
     ],
     [
-      1,
-      4
+      5,
+      3
     ],
     [
-      2,
-      1
+      4,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "I",
+      "pos": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "V",
       "pos": [
         2,
         3
       ]
     },
     {
-      "id": "b2",
-      "letter": "U",
-      "pos": [
-        4,
-        2
-      ]
-    },
-    {
       "id": "b3",
-      "letter": "L",
+      "letter": "E",
       "pos": [
-        4,
+        3,
         3
       ]
     }
   ],
   "target": {
-    "word": "CUL",
+    "word": "IVE",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         2,
         2
@@ -142,25 +146,22 @@
       [
         3,
         2
-      ],
-      [
-        3,
-        3
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 11,
   "solution": [
-    "up",
-    "right",
+    "left",
+    "down",
+    "left",
+    "left",
+    "down",
     "down",
     "right",
-    "right",
     "up",
-    "left",
+    "down",
     "right",
-    "up",
-    "left"
+    "up"
   ],
-  "canonicalWord": "cul"
+  "canonicalWord": "ive"
 }

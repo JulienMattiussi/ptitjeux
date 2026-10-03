@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
+    8,
     5
   ],
   "walls": [
@@ -374,41 +374,41 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        8,
+        1,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "V",
+      "letter": "N",
       "pos": [
-        8,
+        1,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "C",
       "pos": [
-        8,
+        1,
         4
       ]
     },
     {
       "id": "b4",
-      "letter": "U",
+      "letter": "O",
       "pos": [
-        2,
+        7,
         5
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "D",
       "pos": [
-        3,
+        6,
         6
       ]
     },
@@ -416,48 +416,48 @@
       "id": "b6",
       "letter": "E",
       "pos": [
-        2,
+        7,
         7
       ]
     }
   ],
   "target": {
-    "word": "AVOUEE",
+    "word": "ENCODE",
     "cells": [
       [
-        8,
+        1,
         2
       ],
       [
-        8,
+        1,
         3
       ],
       [
-        8,
+        1,
         4
       ],
       [
-        8,
+        1,
         5
       ],
       [
-        8,
+        1,
         6
       ],
       [
-        8,
+        1,
         7
       ]
     ]
   },
   "parMoves": 6,
   "solution": [
-    "right",
-    "down",
-    "right",
     "left",
     "down",
-    "right"
+    "left",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "avouée"
+  "canonicalWord": "encode"
 }

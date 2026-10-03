@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    6
+    6,
+    7
   ],
   "walls": [
     [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "U",
+      "letter": "T",
       "pos": [
         2,
         1
@@ -385,44 +385,44 @@
       "letter": "R",
       "pos": [
         4,
-        5
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "A",
       "pos": [
         5,
-        4
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "N",
+      "letter": "I",
       "pos": [
         6,
-        1
+        6
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         7,
-        1
+        5
       ]
     },
     {
       "id": "b6",
       "letter": "S",
       "pos": [
-        5,
-        5
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "URINAS",
+    "word": "TRAIES",
     "cells": [
       [
         3,
@@ -450,18 +450,17 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
     "up",
     "right",
     "up",
-    "down",
-    "right",
-    "up",
-    "up",
     "left",
     "up",
-    "right"
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "urinas"
+  "canonicalWord": "traies"
 }

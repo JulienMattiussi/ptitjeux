@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    6,
-    3
+    7,
+    4
   ],
   "walls": [
     [
@@ -133,97 +133,106 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "E",
       "pos": [
-        4,
+        3,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "M",
       "pos": [
-        3,
-        4
+        2,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "A",
       "pos": [
-        3,
-        5
+        4,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
-      "pos": [
-        5,
-        5
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "S",
+      "letter": "U",
       "pos": [
         6,
         4
       ]
+    },
+    {
+      "id": "b5",
+      "letter": "X",
+      "pos": [
+        6,
+        5
+      ]
     }
   ],
   "target": {
-    "word": "SENES",
+    "word": "EMAUX",
     "cells": [
       [
-        2,
-        3
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        3,
-        4
-      ],
-      [
         4,
-        5
+        2
       ],
       [
         5,
-        4
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        3
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 34,
   "solution": [
-    "up",
-    "left",
-    "left",
-    "left",
-    "up",
-    "left",
-    "down",
-    "right",
-    "down",
-    "right",
     "down",
     "left",
     "up",
+    "left",
+    "left",
+    "left",
+    "up",
     "right",
-    "right",
+    "down",
+    "down",
     "right",
     "right",
     "down",
+    "right",
+    "up",
+    "up",
     "left",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
     "down",
     "left",
-    "down",
     "left",
     "left",
-    "up"
+    "up",
+    "right",
+    "left",
+    "left",
+    "up",
+    "right",
+    "right",
+    "right"
   ],
-  "canonicalWord": "sénés"
+  "canonicalWord": "émaux"
 }

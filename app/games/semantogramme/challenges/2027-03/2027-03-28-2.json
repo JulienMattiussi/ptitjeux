@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "menottes",
+      "mâle",
+      "fragile",
+      "vitre",
+      "briser"
+    ],
+    [
+      "fenêtre",
+      "creuse",
+      "soufflage",
+      "leçon",
+      "blonde"
+    ],
+    [
+      "céréale",
+      "écran",
+      "éclat",
+      "cristal",
+      "bouteille"
+    ],
+    [
+      "taper",
+      "transparent",
+      "tom",
+      "cassant",
+      "lisse"
+    ],
+    [
+      "concomitant",
+      "vitrine",
+      "souffler",
+      "siècle",
+      "transparenter"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    1,
+    1,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "verre",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plantation",
+      "fourneau",
+      "semis",
+      "tombeau"
+    ],
+    [
+      "géranium",
+      "rouiller",
+      "anaconda",
+      "plante"
+    ],
+    [
+      "signaler",
+      "exotique",
+      "chaleur",
+      "humide"
+    ],
+    [
+      "horticulture",
+      "soleil",
+      "marié",
+      "tropical"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "serre",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

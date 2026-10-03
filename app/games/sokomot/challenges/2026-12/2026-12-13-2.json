@@ -5,7 +5,7 @@
   "height": 7,
   "player": [
     1,
-    5
+    4
   ],
   "walls": [
     [
@@ -116,64 +116,60 @@
   "ice": [
     [
       1,
-      3
-    ],
-    [
-      3,
-      1
-    ],
-    [
-      3,
       2
     ],
     [
-      3,
+      2,
+      3
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
       3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "N",
       "pos": [
         1,
-        4
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "O",
       "pos": [
-        4,
-        1
+        2,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "Y",
       "pos": [
-        4,
-        2
+        5,
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         4,
-        3
+        4
       ]
     }
   ],
   "target": {
-    "word": "TACT",
+    "word": "NOYE",
     "cells": [
       [
         1,
-        2
-      ],
-      [
-        2,
         1
       ],
       [
@@ -181,26 +177,32 @@
         2
       ],
       [
-        2,
-        3
+        3,
+        1
+      ],
+      [
+        4,
+        2
       ]
     ]
   },
-  "parMoves": 13,
+  "parMoves": 15,
   "solution": [
     "up",
+    "down",
+    "down",
     "right",
-    "right",
+    "up",
+    "down",
     "right",
     "right",
     "up",
-    "left",
     "right",
     "up",
-    "left",
     "right",
+    "up",
     "up",
     "left"
   ],
-  "canonicalWord": "tact"
+  "canonicalWord": "noyé"
 }

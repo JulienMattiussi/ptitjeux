@@ -5,76 +5,76 @@
   "height": 6,
   "words": [
     [
-      "discrète",
-      "pâtissier",
-      "précipice",
-      "armer",
-      "clafoutis",
-      "gamin"
+      "huile",
+      "filet",
+      "méditerranée",
+      "humble",
+      "mer",
+      "fanal"
     ],
     [
-      "queue",
-      "soja",
-      "volée",
-      "tarte",
-      "galaxie",
-      "cueillette"
+      "amer",
+      "plongée",
+      "pâte",
+      "visa",
+      "roulé",
+      "denture"
     ],
     [
-      "jus",
-      "manigancer",
-      "morigéner",
-      "pneu",
-      "gaufrier",
-      "bolet"
+      "pizza",
+      "pique-nique",
+      "pissaladière",
+      "oculus",
+      "salé",
+      "mâle"
     ],
     [
-      "séché",
-      "émail",
-      "pleureur",
-      "noyau",
-      "lésiner",
-      "dé"
+      "décoration",
+      "pêche",
+      "jugement",
+      "conserve",
+      "tapenade",
+      "professionnel"
     ],
     [
-      "compote",
-      "rouge",
-      "final",
-      "fruit",
-      "beignet",
-      "couronner"
+      "fendiller",
+      "navigation",
+      "réservé",
+      "examen",
+      "bois",
+      "petite"
     ],
     [
-      "genou",
-      "sucrée",
-      "griotte",
-      "cerisier",
-      "honnêteté",
-      "rose"
+      "pédoncule",
+      "angine",
+      "apéritif",
+      "munster",
+      "phare",
+      "raquette"
     ]
   ],
   "rowClues": [
-    2,
+    4,
+    3,
+    3,
     3,
     1,
-    2,
-    3,
-    4
+    1
   ],
   "colClues": [
-    3,
     3,
     2,
     4,
     1,
-    2
+    4,
+    1
   ],
-  "themeWord": "cerise",
+  "themeWord": "anchois",
   "solution": [
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false,
       true,
       false
@@ -82,42 +82,42 @@
     [
       true,
       false,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 15

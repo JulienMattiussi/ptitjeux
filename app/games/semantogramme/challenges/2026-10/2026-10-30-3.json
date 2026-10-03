@@ -5,101 +5,93 @@
   "height": 6,
   "words": [
     [
-      "malédiction",
-      "croyance",
-      "périlleux",
-      "pingre",
-      "avaricieux",
-      "cupide"
+      "zodiaque",
+      "oled",
+      "guetter",
+      "agile",
+      "discrète",
+      "rugir"
     ],
     [
-      "perdant",
-      "crédule",
-      "submergé",
-      "parcimonie",
-      "mesquin",
-      "cupidité"
+      "sanction",
+      "puissante",
+      "bondir",
+      "élégante",
+      "pèlerine",
+      "multifonction"
     ],
     [
-      "norvège",
-      "pis",
-      "économiser",
-      "thésauriser",
-      "piste",
-      "moine"
+      "félin",
+      "filiation",
+      "détoxifier",
+      "lézard",
+      "écaille",
+      "place"
     ],
     [
-      "proie",
-      "tirelire",
-      "ondulé",
-      "amasser",
-      "flamboyer",
-      "coq"
+      "noir",
+      "jaguar",
+      "forêt",
+      "jungle",
+      "silencieuse",
+      "chiromancie"
     ],
     [
-      "épargne",
-      "rapacité",
-      "pingrerie",
-      "cutané",
-      "lésiner",
-      "four"
+      "juteuse",
+      "astucieux",
+      "piscine",
+      "introspection",
+      "chasser",
+      "rapée"
     ],
     [
-      "aviateur",
-      "avarice",
-      "priver",
-      "mesquinerie",
-      "mettre",
-      "fortune"
+      "pourpre",
+      "mystérieuse",
+      "canoë",
+      "solo",
+      "gaver",
+      "sorcier"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    2,
-    2,
     4,
-    4
+    3,
+    1,
+    5,
+    1,
+    1
   ],
   "colClues": [
-    1,
+    2,
     3,
     3,
-    5,
     3,
-    3
+    3,
+    1
   ],
-  "themeWord": "avare",
+  "themeWord": "panthère",
   "solution": [
     [
       false,
       false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       true,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       true,
       false,
       false
     ],
     [
-      false,
       true,
       false,
-      true,
+      false,
+      false,
       false,
       false
     ],
@@ -107,6 +99,14 @@
       true,
       true,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       false
@@ -114,11 +114,11 @@
     [
       false,
       true,
-      true,
-      true,
       false,
-      true
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

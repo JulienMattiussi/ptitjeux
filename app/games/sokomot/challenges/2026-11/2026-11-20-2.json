@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    2,
-    5
+    6,
+    2
   ],
   "walls": [
     [
@@ -115,10 +115,6 @@
   ],
   "ice": [
     [
-      2,
-      3
-    ],
-    [
       4,
       2
     ],
@@ -127,51 +123,51 @@
       3
     ],
     [
-      4,
+      3,
       4
+    ],
+    [
+      4,
+      5
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "B",
       "pos": [
-        2,
-        4
+        5,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "E",
       "pos": [
         5,
-        2
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "T",
       "pos": [
-        5,
-        3
+        2,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "A",
       "pos": [
-        5,
-        4
+        3,
+        5
       ]
     }
   ],
   "target": {
-    "word": "MURI",
+    "word": "BETA",
     "cells": [
-      [
-        2,
-        2
-      ],
       [
         3,
         2
@@ -181,27 +177,32 @@
         3
       ],
       [
-        3,
+        4,
         4
+      ],
+      [
+        5,
+        5
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 15,
   "solution": [
-    "up",
-    "right",
-    "right",
-    "up",
-    "right",
-    "right",
-    "down",
     "left",
     "right",
     "down",
     "left",
+    "left",
+    "up",
+    "left",
+    "left",
+    "down",
+    "down",
+    "left",
+    "down",
     "right",
     "down",
-    "left"
+    "right"
   ],
-  "canonicalWord": "mûri"
+  "canonicalWord": "bêta"
 }

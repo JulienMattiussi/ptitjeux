@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "morille",
+      "rang",
+      "graine",
+      "jardinier"
+    ],
+    [
+      "carotte",
+      "haricot",
+      "puce",
+      "galet"
+    ],
+    [
+      "parcelle",
+      "fourreau",
+      "tomate",
+      "accéder"
+    ],
+    [
+      "courgette",
+      "spiritualité",
+      "arrosoir",
+      "légume"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "potager",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

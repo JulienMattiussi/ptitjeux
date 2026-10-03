@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    4,
-    1
+    3,
+    3
   ],
   "walls": [
     [
@@ -97,67 +97,67 @@
       4
     ],
     [
-      1,
+      4,
       4
     ],
     [
-      5,
-      3
+      1,
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "U",
+      "letter": "P",
       "pos": [
         3,
-        1
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "L",
       "pos": [
-        3,
+        4,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "U",
       "pos": [
-        3,
-        3
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "URE",
+    "word": "PLU",
     "cells": [
       [
-        2,
+        3,
         1
       ],
       [
-        2,
-        2
+        4,
+        1
       ],
       [
-        2,
-        3
+        5,
+        1
       ]
     ]
   },
   "parMoves": 7,
   "solution": [
-    "left",
-    "right",
+    "up",
     "down",
-    "left",
     "right",
+    "up",
     "down",
-    "left"
+    "right",
+    "up"
   ],
-  "canonicalWord": "ure"
+  "canonicalWord": "plu"
 }

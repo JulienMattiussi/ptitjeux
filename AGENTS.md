@@ -38,12 +38,12 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 
 ### Chaque niveau doit être vérifié par un test d'intégrité
 
-**Tout niveau livré (Sokomot, Boucle, Sémantogramme) doit avoir un test d'intégrité dans `tests/unit/<jeu>.levels.test.ts` qui prouve sa résolubilité.**
+**Tout niveau livré (Sokomot, Boucle, Sémantogramme, Angle mort) doit avoir un test d'intégrité dans `tests/unit/<jeu>.levels.test.ts` qui prouve sa résolubilité.**
 
 - **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`.
 - **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`.
 - **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`.
-- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis vérifier avec le solveur (`generators/anglemort-solver.ts`) que la solution est **unique à l'écran**. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour.
+- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis vérifier avec le solveur (`generators/anglemort-solver.ts`) que la solution est **unique à l'écran**. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour. Chaque grille de base sert 8 fois (symétries, qui conservent l'unicité) : `make test` prouve l'unicité sur un échantillon de grilles d'origine, `make verify-levels` sur toutes.
 
 **Ajouter un niveau sans son entrée dans le fichier de tests d'intégrité fait échouer le test concerné** (par construction : la map `SOLUTIONS` ou `LEVEL_IDS` doit être mise à jour). C'est intentionnel et bloquant.
 
@@ -81,7 +81,8 @@ scripts/                           # Scripts CLI (génération de niveaux)
 tests/
 ├── setup.ts                       # @testing-library/jest-dom matchers
 ├── unit/                          # Logique pure : moteurs, lib, generators, niveaux
-└── component/                     # Rendu RTL : composants et hooks
+├── component/                     # Rendu RTL : composants et hooks
+└── levels/                        # Vérifications lourdes (make verify-levels) : unicité, générateurs en masse
 ```
 
 ## Architecture commune des moteurs de jeu
@@ -162,7 +163,7 @@ Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas dé
 - **Moteurs (`app/games/*/engine.ts`)** : ≥ 90 % statements et branches. Toute fonction exportée doit être testée.
 - **`app/lib/`** : ≥ 90 % statements pour les utilitaires non-triviaux. Les hooks (`use*.ts`) sont testés via `renderHook` de React Testing Library.
 - **Composants critiques** (`VictoryOverlay`, `LevelTile`, `ChallengeListPage`) : tests RTL qui couvrent les branches visibles (états locked/solved/perfect, navigation clavier, accessibilité ARIA).
-- **Générateurs** : un test par jeu qui appelle `generate<Jeu>Level` pour quelques dates et vérifie la solvabilité.
+- **Générateurs** : un test par jeu qui appelle `generate<Jeu>Level` pour quelques dates et vérifie la solvabilité. Le balayage sur un large échantillon de dates (`tests/levels/generators.bulk.test.ts`) tourne dans `make verify-levels`.
 - **Tests d'intégrité de niveaux** : voir règle impérative ci-dessus, **un par niveau livré**.
 
 ### Atomicité des tests
@@ -185,6 +186,7 @@ make test            # tous les tests une fois
 make test-watch      # mode watch
 make test-coverage   # rapport coverage v8
 make check           # build + lint + typecheck + test (pré-commit complet)
+make verify-levels   # vérifications lourdes des niveaux, après chaque make generate-levels
 ```
 
 ## Qualité d'expérience des jeux
@@ -317,6 +319,7 @@ Sans ce wrapper, le `useReducer` interne garde l'état du niveau précédent qua
 | `make typecheck` | Vérifier les types TypeScript |
 | `make fix` | Formater (Prettier) + linter (ESLint) |
 | `make check` | Toutes les vérifications (build + lint + typecheck + test) |
+| `make verify-levels` | Vérifications lourdes des niveaux (`tests/levels/`, config `vitest.levels.config.ts`) : unicité complète d'Angle mort, générateurs rejoués sur un large échantillon de dates. À lancer après chaque `make generate-levels`. |
 | `make generate-levels` | **(Manuel uniquement)** Régénérer les défis quotidiens |
 
 > Le serveur dev tourne sur le port **2222** par défaut.

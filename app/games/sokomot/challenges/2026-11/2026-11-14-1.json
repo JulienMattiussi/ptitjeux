@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    3
+    2,
+    4
   ],
   "walls": [
     [
@@ -97,11 +97,11 @@
       4
     ],
     [
-      4,
+      3,
       4
     ],
     [
-      5,
+      4,
       4
     ]
   ],
@@ -109,58 +109,59 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "P",
       "pos": [
-        1,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "L",
       "pos": [
-        3,
+        2,
         1
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "I",
       "pos": [
-        3,
+        4,
         2
       ]
     }
   ],
   "target": {
-    "word": "BAN",
+    "word": "PLI",
     "cells": [
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
       [
         2,
         2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 11,
   "solution": [
     "up",
     "right",
+    "right",
+    "up",
     "down",
-    "right",
-    "right",
-    "up",
     "left",
-    "right",
+    "left",
+    "left",
     "up",
-    "left"
+    "up",
+    "right"
   ],
-  "canonicalWord": "ban"
+  "canonicalWord": "pli"
 }

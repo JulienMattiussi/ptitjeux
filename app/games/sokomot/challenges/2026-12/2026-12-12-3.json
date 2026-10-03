@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    5,
-    1
+    4,
+    4
   ],
   "walls": [
     [
@@ -133,9 +133,9 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "M",
       "pos": [
-        2,
+        4,
         3
       ]
     },
@@ -143,89 +143,92 @@
       "id": "b2",
       "letter": "O",
       "pos": [
-        4,
-        2
+        2,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
-      "pos": [
-        6,
-        3
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "C",
-      "pos": [
-        5,
-        2
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "A",
+      "letter": "D",
       "pos": [
         5,
         5
       ]
+    },
+    {
+      "id": "b4",
+      "letter": "A",
+      "pos": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "L",
+      "pos": [
+        5,
+        3
+      ]
     }
   ],
   "target": {
-    "word": "FONCA",
+    "word": "MODAL",
     "cells": [
       [
-        4,
-        2
+        3,
+        3
+      ],
+      [
+        3,
+        4
       ],
       [
         4,
-        3
+        5
       ],
       [
         5,
-        3
+        5
       ],
       [
         6,
-        2
-      ],
-      [
-        6,
-        3
+        5
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 30,
   "solution": [
+    "up",
+    "right",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down",
+    "down",
+    "left",
+    "left",
+    "right",
+    "right",
+    "up",
+    "up",
     "left",
     "down",
-    "right",
+    "up",
+    "left",
     "down",
-    "down",
-    "right",
-    "right",
+    "up",
+    "up",
+    "left",
     "up",
     "left",
     "down",
     "left",
     "left",
     "down",
-    "right",
     "down",
-    "right",
-    "up",
-    "up",
-    "left",
-    "left",
-    "left",
-    "left",
-    "up",
-    "left",
-    "up",
-    "right",
     "right"
   ],
-  "canonicalWord": "fonça"
+  "canonicalWord": "modal"
 }

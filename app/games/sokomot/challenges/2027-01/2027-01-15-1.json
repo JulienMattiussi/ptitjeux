@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    3
+    1,
+    4
   ],
   "walls": [
     [
@@ -97,12 +97,12 @@
       4
     ],
     [
-      1,
+      2,
       4
     ],
     [
-      1,
-      2
+      4,
+      4
     ]
   ],
   "ice": [],
@@ -111,54 +111,55 @@
       "id": "b1",
       "letter": "H",
       "pos": [
-        3,
-        2
+        1,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        4,
-        2
+        3,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "C",
       "pos": [
-        5,
-        3
+        3,
+        2
       ]
     }
   ],
   "target": {
-    "word": "HUM",
+    "word": "HIC",
     "cells": [
       [
-        3,
+        1,
+        2
+      ],
+      [
+        2,
         1
       ],
       [
-        4,
-        1
-      ],
-      [
-        5,
+        2,
         2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 9,
   "solution": [
     "up",
-    "down",
+    "right",
+    "right",
     "right",
     "up",
-    "down",
-    "down",
+    "left",
     "right",
-    "up"
+    "up",
+    "left"
   ],
-  "canonicalWord": "hum"
+  "canonicalWord": "hic"
 }

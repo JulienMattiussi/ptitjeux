@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-16-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "mélancolique",
+      "ventre",
+      "crête",
+      "larme",
+      "humour"
+    ],
+    [
+      "doudou",
+      "sorbet",
+      "moka",
+      "ricaner",
+      "peigne"
+    ],
+    [
+      "décorer",
+      "fête",
+      "pouffer",
+      "hilare",
+      "sourire"
+    ],
+    [
+      "ironie",
+      "geste",
+      "amusement",
+      "comique",
+      "cours"
+    ],
+    [
+      "séance",
+      "gaieté",
+      "blague",
+      "éclat",
+      "glousser"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    1,
+    1,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "rire",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

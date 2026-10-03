@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    7
+    6
   ],
   "walls": [
     [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "D",
       "pos": [
         2,
         1
@@ -382,23 +382,23 @@
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "R",
       "pos": [
         4,
-        6
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "Y",
-      "pos": [
-        5,
         5
       ]
     },
     {
-      "id": "b4",
+      "id": "b3",
       "letter": "A",
+      "pos": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "Y",
       "pos": [
         6,
         1
@@ -406,7 +406,7 @@
     },
     {
       "id": "b5",
-      "letter": "L",
+      "letter": "A",
       "pos": [
         7,
         1
@@ -414,15 +414,15 @@
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "I",
       "pos": [
         5,
-        6
+        5
       ]
     }
   ],
   "target": {
-    "word": "LOYALE",
+    "word": "DRAYAI",
     "cells": [
       [
         3,
@@ -450,17 +450,18 @@
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 10,
   "solution": [
     "up",
     "right",
     "up",
-    "left",
-    "up",
-    "right",
     "down",
     "right",
-    "up"
+    "up",
+    "up",
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "loyale"
+  "canonicalWord": "drayai"
 }

@@ -5,109 +5,136 @@
   "height": 7,
   "words": [
     [
-      "parole",
-      "roucouler",
-      "salaire",
-      "sobre",
-      "flou",
-      "étrier",
-      "gyrer"
+      "nier",
+      "mitrailler",
+      "mélancolie",
+      "chateaubriand",
+      "assimiler",
+      "gourou",
+      "imposer"
     ],
     [
-      "pianissimo",
-      "grandiose",
-      "poupée",
-      "parler",
-      "bûcheron",
-      "cognac",
-      "concis"
+      "littérature",
+      "vapeur",
+      "carte",
+      "mine",
+      "gymnastique",
+      "obstiné",
+      "subjectif"
     ],
     [
-      "condenser",
-      "tranchant",
-      "cédrat",
-      "rempart",
-      "cravate",
-      "atelier",
-      "humiliation"
+      "noueuse",
+      "musset",
+      "zèbre",
+      "collant",
+      "art",
+      "débattre",
+      "flageller"
     ],
     [
-      "sparte",
-      "bref",
-      "familiale",
-      "sec",
-      "silence",
-      "pneu",
-      "mâcher"
+      "effleurer",
+      "rébellion",
+      "imagination",
+      "hominidé",
+      "écurie",
+      "essai",
+      "profond"
     ],
     [
-      "aspirer",
-      "artistique",
-      "résonant",
-      "bronzée",
-      "banquette",
-      "mot",
-      "amphi"
+      "imam",
+      "lamartine",
+      "passion",
+      "rgb",
+      "briques",
+      "jument",
+      "psychanalyse"
     ],
     [
-      "pastille",
-      "crabe",
-      "sentencieux",
-      "enchère",
-      "court",
-      "harpe",
-      "laver"
+      "arbuste",
+      "liberté",
+      "pantoufle",
+      "entretenir",
+      "enjouée",
+      "rectangulaire",
+      "klezmer"
     ],
     [
-      "haler",
-      "imiter",
-      "pomme-de-terre",
-      "taire",
-      "expression",
-      "oscar",
-      "récupérer"
+      "mielleux",
+      "mouvement",
+      "profiter",
+      "individuel",
+      "rêveur",
+      "sentiment",
+      "nature"
     ]
   ],
   "rowClues": [
     2,
     2,
     2,
-    4,
-    1,
     2,
-    2
+    2,
+    1,
+    5
   ],
   "colClues": [
+    1,
+    5,
     3,
     2,
+    2,
     1,
-    4,
-    3,
-    1,
-    1
+    2
   ],
-  "themeWord": "laconique",
+  "themeWord": "romantisme",
   "solution": [
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       false,
       false,
       true
     ],
     [
+      false,
       true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
@@ -116,41 +143,14 @@
       false
     ],
     [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

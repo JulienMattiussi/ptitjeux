@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "agate",
-      "couper",
-      "bûcheron",
-      "guerre",
-      "piquer",
-      "arbre"
+      "plume",
+      "valider",
+      "stylo",
+      "jardin",
+      "engager",
+      "tonal"
     ],
     [
-      "frapper",
-      "crête",
-      "urticante",
-      "manche",
-      "outil",
-      "bois"
+      "signature",
+      "artisanal",
+      "hachoir",
+      "haletant",
+      "salir",
+      "star"
     ],
     [
-      "acacia",
-      "sucette",
-      "aube",
-      "fendre",
-      "alphabet",
-      "sillonner"
+      "apposer",
+      "forêt",
+      "sépale",
+      "uppercut",
+      "abat-jour",
+      "autographe"
     ],
     [
-      "transpercer",
-      "cognée",
-      "abattre",
-      "couvert",
-      "croissant",
-      "symbole"
+      "hacker",
+      "document",
+      "jeu",
+      "remettre",
+      "contrat",
+      "paraphe"
     ],
     [
-      "frange",
-      "bavarder",
-      "ossuaire",
-      "centralisé",
-      "tranchant",
-      "éternelle"
+      "célèbre",
+      "agilité",
+      "dédicacer",
+      "tenailler",
+      "cerveau",
+      "authentifier"
     ],
     [
-      "rond",
-      "aiguisée",
-      "buste",
-      "tête",
-      "celtique",
-      "pointu"
+      "trapu",
+      "euro",
+      "main",
+      "parapher",
+      "perdant",
+      "fervente"
     ]
   ],
   "rowClues": [
-    5,
     4,
-    1,
-    3,
-    1,
-    2
-  ],
-  "colClues": [
-    1,
-    3,
+    2,
     2,
     4,
     3,
-    3
+    2
   ],
-  "themeWord": "hache",
+  "colClues": [
+    4,
+    2,
+    3,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "signer",
   "solution": [
     [
-      false,
       true,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false
     ],
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

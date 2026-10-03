@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rythme",
-      "doigt",
-      "connecter",
-      "danseur",
-      "réunion"
+      "parenté",
+      "belle-soeur",
+      "tantine",
+      "serpillière",
+      "aviateur"
     ],
     [
-      "twister",
-      "pas",
-      "haine",
-      "dressage",
-      "caramel"
+      "cousine",
+      "effraie",
+      "tranquillité",
+      "domestique",
+      "généreux"
     ],
     [
-      "guincher",
-      "sautiller",
-      "marguerite",
-      "piste",
-      "familial"
+      "neveu",
+      "cousinage",
+      "parent",
+      "fixer",
+      "visiter"
     ],
     [
-      "rougeoyante",
-      "salsa",
-      "bal",
-      "danse",
-      "tournoyer"
+      "aiguisé",
+      "nièce",
+      "hawaïen",
+      "père",
+      "recevoir"
     ],
     [
-      "tango",
-      "valse",
-      "laitue",
-      "figure",
-      "surveiller"
+      "barboter",
+      "sourcil",
+      "fondant",
+      "salon",
+      "gâter"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    3,
-    4,
-    3
-  ],
-  "colClues": [
-    4,
-    4,
     1,
     4,
+    3,
     1
   ],
-  "themeWord": "danser",
+  "colClues": [
+    2,
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "tante",
   "solution": [
     [
-      true,
-      false,
       false,
       true,
-      false
-    ],
-    [
       true,
-      true,
-      false,
       false,
       false
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
-      true,
-      false
+      true
     ],
     [
       false,
       true,
-      true,
+      false,
       true,
       true
     ],
     [
-      true,
-      true,
       false,
-      true,
-      false
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

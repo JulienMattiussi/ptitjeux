@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cantique",
+      "tombée",
+      "apéro",
+      "encadrement",
+      "prime"
+    ],
+    [
+      "nuit",
+      "crépuscule",
+      "souper",
+      "grillé",
+      "soirée"
+    ],
+    [
+      "rentrer",
+      "stratagème",
+      "malléable",
+      "fin",
+      "tardif"
+    ],
+    [
+      "emblème",
+      "tramway",
+      "biologie",
+      "mollusque",
+      "coucher"
+    ],
+    [
+      "fente",
+      "sombre",
+      "décolleté",
+      "courgette",
+      "reposer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "themeWord": "soir",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "audition",
-      "majeur",
-      "tympan",
-      "veau",
-      "humecter"
+      "tournesol",
+      "immortalité",
+      "parure",
+      "pommeau",
+      "transpercer"
     ],
     [
-      "taquiner",
-      "entendre",
-      "espiègle",
-      "bouclier",
-      "écouteur"
+      "garde",
+      "trait",
+      "duel",
+      "génome",
+      "chasser"
     ],
     [
-      "bronchite",
-      "pavillon",
-      "bruit",
-      "or",
-      "écouter"
+      "historique",
+      "pointu",
+      "dégainer",
+      "escrime",
+      "loup-garou"
     ],
     [
-      "écho",
-      "charger",
-      "auditif",
-      "lobe",
-      "pull"
+      "mousquetaire",
+      "acéré",
+      "os",
+      "tranchant",
+      "évoquer"
     ],
     [
-      "ouïe",
-      "londres",
-      "boucle",
-      "cérumen",
-      "sourd"
+      "pourfendre",
+      "lame",
+      "ascenseur",
+      "aiguisé",
+      "boucle"
     ]
   ],
   "rowClues": [
     2,
     2,
+    4,
     3,
-    3,
-    4
+    3
   ],
   "colClues": [
+    4,
     3,
     2,
     4,
-    2,
-    3
+    1
   ],
-  "themeWord": "oreille",
+  "themeWord": "épée",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       false,
       true,
@@ -64,32 +71,25 @@
       false
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
     ],
     [
       true,
+      true,
       false,
       true,
+      false
+    ],
+    [
       true,
-      true
+      true,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 14

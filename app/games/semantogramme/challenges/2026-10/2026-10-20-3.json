@@ -5,85 +5,77 @@
   "height": 6,
   "words": [
     [
-      "mythologie",
-      "huit",
-      "vespa",
-      "pandémie",
-      "frire",
-      "tempe"
+      "wallaby",
+      "prisme",
+      "minutieux",
+      "vermillon",
+      "couler",
+      "redresser"
     ],
     [
-      "noir",
-      "fan",
-      "manche",
-      "sauter",
-      "sustenter",
-      "beurre"
+      "pissaladière",
+      "lactose",
+      "velue",
+      "pensée",
+      "bomber",
+      "brochet"
     ],
     [
-      "frêle",
-      "abonnement",
-      "caramélisé",
-      "sonnerie",
-      "huile",
-      "mouchoir"
+      "sein",
+      "puissante",
+      "côte",
+      "collier",
+      "url",
+      "cours"
     ],
     [
-      "omelette",
-      "barbe",
-      "antiadhésive",
-      "ronde",
-      "frétillant",
-      "aisselle"
+      "bas",
+      "naturel",
+      "profonde",
+      "poumon",
+      "coeur",
+      "passe"
     ],
     [
-      "rétro",
-      "placebo",
-      "illusionner",
-      "stupeur",
-      "plate",
-      "cuisine"
+      "couleur",
+      "sternum",
+      "ouïe",
+      "décolleté",
+      "large",
+      "respirer"
     ],
     [
-      "tomber",
-      "téfal",
-      "lézard",
-      "blesser",
-      "sucrer",
-      "wok"
+      "rameau",
+      "sainte",
+      "torse",
+      "tardif",
+      "analytique",
+      "balustrade"
     ]
   ],
   "rowClues": [
     1,
+    2,
+    3,
+    4,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
     4,
     2,
     3,
-    2,
-    3
+    2
   ],
-  "colClues": [
-    3,
-    1,
-    3,
-    2,
-    3,
-    3
-  ],
-  "themeWord": "poêle",
+  "themeWord": "poitrine",
   "solution": [
     [
       false,
       false,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       false,
       true
     ],
@@ -97,27 +89,35 @@
     ],
     [
       true,
+      true,
+      true,
       false,
-      true,
-      true,
       false,
       false
     ],
     [
+      true,
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
       false,
-      false,
+      true,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
-      true,
       false,
       false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 15

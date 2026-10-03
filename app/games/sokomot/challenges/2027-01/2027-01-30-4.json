@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
+    2,
     5
   ],
   "walls": [
@@ -374,94 +374,91 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "H",
       "pos": [
-        2,
-        1
+        8,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        4,
-        4
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "T",
-      "pos": [
-        5,
+        8,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "O",
+      "id": "b3",
+      "letter": "N",
       "pos": [
-        6,
-        1
+        8,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "T",
+      "pos": [
+        3,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "U",
+      "letter": "E",
       "pos": [
-        7,
-        1
+        4,
+        6
       ]
     },
     {
       "id": "b6",
-      "letter": "A",
+      "letter": "Z",
       "pos": [
-        5,
-        4
+        3,
+        7
       ]
     }
   ],
   "target": {
-    "word": "TATOUA",
+    "word": "HANTEZ",
     "cells": [
       [
-        3,
-        1
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        5,
-        1
-      ],
-      [
-        6,
-        1
-      ],
-      [
-        7,
-        1
+        8,
+        2
       ],
       [
         8,
-        1
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 7,
   "solution": [
-    "up",
     "right",
-    "up",
     "down",
     "right",
-    "up",
-    "up",
     "left",
-    "up",
+    "down",
+    "right",
     "right"
   ],
-  "canonicalWord": "tatoua"
+  "canonicalWord": "hantez"
 }

@@ -5,73 +5,59 @@
   "height": 5,
   "words": [
     [
-      "bouffer",
-      "collation",
-      "thai",
-      "cannelle",
-      "safran"
+      "écaille",
+      "recherche",
+      "roche",
+      "sable",
+      "racler"
     ],
     [
-      "cumin",
-      "pimenter",
-      "pleutre",
-      "sonate",
-      "curry"
+      "lime",
+      "surveiller",
+      "pierre",
+      "râpe",
+      "gratter"
     ],
     [
-      "binaire",
-      "matcha",
-      "corser",
-      "piquant",
-      "muscade"
+      "fourrer",
+      "caillouteux",
+      "thèse",
+      "patineur",
+      "papier"
     ],
     [
-      "corsé",
-      "clavicule",
-      "aromatique",
-      "grand-père",
-      "transmigrer"
+      "nombre",
+      "granuleux",
+      "éroder",
+      "égratigner",
+      "asticot"
     ],
     [
-      "relever",
-      "poivre",
-      "assaisonner",
-      "internet",
-      "charme"
+      "résumé",
+      "bulletin",
+      "pantin",
+      "liège",
+      "élastique"
     ]
   ],
   "rowClues": [
+    4,
+    4,
     2,
     3,
-    3,
-    2,
-    3
+    1
   ],
   "colClues": [
-    3,
+    2,
     2,
     3,
-    2,
+    4,
     3
   ],
-  "themeWord": "épicé",
+  "themeWord": "rugueux",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
@@ -81,16 +67,30 @@
       true,
       false,
       true,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

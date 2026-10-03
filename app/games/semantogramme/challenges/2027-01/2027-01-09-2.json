@@ -5,68 +5,68 @@
   "height": 5,
   "words": [
     [
-      "miette",
-      "toile",
-      "noueuse",
-      "basse",
-      "bourgeon"
+      "abricot",
+      "éternité",
+      "tremper",
+      "horde",
+      "résistant"
     ],
     [
-      "réchauffer",
-      "cessez-le-feu",
-      "rejeton",
-      "nid",
-      "souple"
+      "retentir",
+      "observatoire",
+      "forger",
+      "métal",
+      "industrie"
     ],
     [
-      "rameau",
-      "camembert",
-      "pousser",
-      "canevas",
-      "bouton"
+      "inaltérable",
+      "séduire",
+      "métallique",
+      "alliage",
+      "gratteler"
     ],
     [
-      "plâtre",
-      "feuillue",
-      "mue",
-      "saumurer",
-      "se ramifier"
+      "tricoter",
+      "lame",
+      "fer",
+      "mi",
+      "librairie"
     ],
     [
-      "verser",
-      "tronc",
-      "porte-jarretelles",
-      "haute",
-      "biographie"
+      "durcir",
+      "épée",
+      "épaulette",
+      "clavicule",
+      "inoxydable"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
-    1,
-    2,
     2,
     3,
+    3,
+    2,
     3
   ],
-  "themeWord": "branche",
+  "colClues": [
+    2,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "acier",
   "solution": [
     [
       false,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       true
     ],
@@ -74,23 +74,23 @@
       true,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

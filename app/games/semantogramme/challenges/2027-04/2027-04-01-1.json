@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sangria",
+      "martini",
+      "éléphant",
+      "essai"
+    ],
+    [
+      "bar",
+      "apéritif",
+      "ministériel",
+      "antiquité"
+    ],
+    [
+      "veine",
+      "biceps",
+      "punch",
+      "moite"
+    ],
+    [
+      "campanile",
+      "shaker",
+      "paille",
+      "rhum"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "cocktail",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

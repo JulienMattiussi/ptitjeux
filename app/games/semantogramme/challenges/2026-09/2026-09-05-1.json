@@ -5,46 +5,52 @@
   "height": 4,
   "words": [
     [
-      "océan",
-      "caramélisé",
-      "colonie",
-      "cachalot"
+      "eau",
+      "lait",
+      "crépi",
+      "café"
     ],
     [
-      "cétacé",
-      "plancton",
-      "glouton",
-      "égarer"
+      "ciboulette",
+      "opinion",
+      "se régaler",
+      "jus"
     ],
     [
-      "guérir",
-      "évent",
-      "fanon",
-      "migration"
+      "tisane",
+      "cidre",
+      "sirop",
+      "caniveau"
     ],
     [
-      "raisonnement",
-      "chant",
-      "queue",
-      "mammifère"
+      "tirer",
+      "cobalt",
+      "enduire",
+      "limonade"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    3
+    1,
+    3,
+    1
   ],
   "colClues": [
     2,
-    3,
     2,
+    1,
     3
   ],
-  "themeWord": "baleine",
+  "themeWord": "boisson",
   "solution": [
     [
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true
@@ -52,21 +58,15 @@
     [
       true,
       true,
-      false,
+      true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

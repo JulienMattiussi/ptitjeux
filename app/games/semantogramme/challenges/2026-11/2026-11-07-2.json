@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "cadet",
-      "magnanimité",
-      "don",
-      "additionner",
-      "desserrer"
+      "western",
+      "rouleau",
+      "plaie",
+      "beugler",
+      "chine"
     ],
     [
-      "cérémonie",
-      "mentir",
-      "bienfaiteur",
-      "partager",
-      "pilier"
+      "interminable",
+      "fluer",
+      "pleurote",
+      "tisser",
+      "laine"
     ],
     [
-      "magnanime",
-      "rame",
-      "océan",
-      "cadeau",
-      "panda"
+      "coton",
+      "leash",
+      "tissé",
+      "russe",
+      "maille"
     ],
     [
-      "destination",
-      "cou",
-      "charité",
-      "fastueux",
-      "aumône"
+      "soie",
+      "épiler",
+      "boutonnière",
+      "souple",
+      "brailler"
     ],
     [
-      "libéral",
-      "altruisme",
-      "donner",
-      "sacrifier",
-      "pâques"
+      "avant",
+      "coudre",
+      "après-midi",
+      "fil",
+      "lin"
     ]
   ],
   "rowClues": [
+    1,
     2,
+    3,
     2,
-    2,
-    2,
-    4
+    3
   ],
   "colClues": [
     2,
     2,
-    4,
+    1,
     3,
-    1
+    3
   ],
-  "themeWord": "généreux",
+  "themeWord": "tissu",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
       false,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
       true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -86,11 +79,18 @@
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

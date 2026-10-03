@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "multitude",
-      "rouge",
-      "office",
-      "minerai"
+      "service",
+      "frigo",
+      "séraphin",
+      "plâtre"
     ],
     [
-      "rage",
-      "hawaïen",
-      "fâcher",
-      "emporter"
+      "peuplier",
+      "opération",
+      "orange",
+      "médecin"
     ],
     [
-      "édredon",
-      "éclat",
-      "crise",
-      "flamenco"
+      "ambulance",
+      "patient",
+      "rougir",
+      "pansement"
     ],
     [
-      "tempête",
-      "déferlement",
-      "retentissante",
-      "couvert"
+      "archipel",
+      "caban",
+      "urgence",
+      "partager"
     ]
   ],
   "rowClues": [
     1,
-    3,
     2,
+    3,
     1
   ],
   "colClues": [
     2,
     2,
-    2,
-    1
+    1,
+    2
   ],
-  "themeWord": "colère",
+  "themeWord": "hôpital",
   "solution": [
     [
-      false,
       true,
+      false,
       false,
       false
     ],
     [
-      true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true
     ],
     [
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      false,
+      true,
       false
     ]
   ],

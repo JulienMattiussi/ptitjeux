@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "léopard",
+      "étalon",
+      "bâtiment",
+      "queue"
+    ],
+    [
+      "jument",
+      "lunaison",
+      "absorbant",
+      "jockey"
+    ],
+    [
+      "selle",
+      "pesanteur",
+      "bride",
+      "épousseter"
+    ],
+    [
+      "politique",
+      "crinière",
+      "moelle",
+      "basse"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "cheval",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

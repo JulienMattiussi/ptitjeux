@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    2
+    1,
+    4
   ],
   "walls": [
     [
@@ -115,94 +115,90 @@
   ],
   "ice": [
     [
-      4,
+      1,
       2
     ],
     [
-      4,
+      2,
       3
     ],
     [
       3,
-      4
+      3
     ],
     [
       4,
-      5
+      3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "S",
       "pos": [
-        5,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "O",
-      "pos": [
-        5,
+        1,
         3
       ]
     },
     {
-      "id": "b3",
-      "letter": "N",
+      "id": "b2",
+      "letter": "A",
       "pos": [
         2,
         4
       ]
     },
     {
-      "id": "b4",
-      "letter": "T",
+      "id": "b3",
+      "letter": "K",
       "pos": [
         3,
-        5
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "I",
+      "pos": [
+        4,
+        4
       ]
     }
   ],
   "target": {
-    "word": "PONT",
+    "word": "SAKI",
     "cells": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
       [
         3,
         2
       ],
       [
-        3,
-        3
-      ],
-      [
         4,
-        4
-      ],
-      [
-        5,
-        5
+        2
       ]
     ]
   },
-  "parMoves": 15,
+  "parMoves": 11,
   "solution": [
-    "left",
-    "right",
-    "down",
-    "left",
-    "left",
     "up",
-    "left",
-    "left",
     "down",
-    "down",
-    "left",
     "down",
     "right",
+    "up",
     "down",
-    "right"
+    "right",
+    "up",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "pont"
+  "canonicalWord": "saki"
 }

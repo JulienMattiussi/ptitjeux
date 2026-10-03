@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "détente",
+      "haltère",
+      "four",
+      "cuire",
+      "doré"
+    ],
+    [
+      "rôti",
+      "cuisson",
+      "ventre",
+      "casserole",
+      "bouillir"
+    ],
+    [
+      "frire",
+      "braiser",
+      "lagune",
+      "escalader",
+      "sapin"
+    ],
+    [
+      "rissoler",
+      "temporel",
+      "chaleur",
+      "morille",
+      "caramélisé"
+    ],
+    [
+      "mijoter",
+      "griller",
+      "rôtir",
+      "charge",
+      "nettoyage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "cuit",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fragilité",
+      "rire",
+      "épaisse",
+      "jubilation"
+    ],
+    [
+      "éducation",
+      "extase",
+      "gaieté",
+      "ravissement"
+    ],
+    [
+      "enchantement",
+      "prolonger",
+      "bonheur",
+      "poncer"
+    ],
+    [
+      "fibre",
+      "éclat",
+      "cacophonique",
+      "félicité"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "joie",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

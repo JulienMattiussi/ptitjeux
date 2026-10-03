@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-21-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "sinueux",
+      "spirale",
+      "arc-en-ciel",
+      "rien",
+      "tuba",
+      "arche"
+    ],
+    [
+      "sibérien",
+      "sciage",
+      "recourbé",
+      "transparent",
+      "germon",
+      "aigre"
+    ],
+    [
+      "arrache-clou",
+      "épais",
+      "fléchir",
+      "cercle",
+      "crète",
+      "arrondir"
+    ],
+    [
+      "fiable",
+      "incurver",
+      "crochet",
+      "parabole",
+      "femme",
+      "téméraire"
+    ],
+    [
+      "inférieur",
+      "vespa",
+      "croissant",
+      "tortueuse",
+      "banane",
+      "arc"
+    ],
+    [
+      "voûte",
+      "gondolé",
+      "bomber",
+      "tordre",
+      "courber",
+      "solfège"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    3,
+    3,
+    3,
+    5
+  ],
+  "colClues": [
+    2,
+    3,
+    5,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "courbe",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

@@ -5,58 +5,79 @@
   "height": 5,
   "words": [
     [
-      "détente",
-      "haltère",
-      "four",
-      "cuire",
-      "doré"
+      "négoce",
+      "incapable",
+      "écouler",
+      "commerce",
+      "liquider"
     ],
     [
-      "rôti",
-      "cuisson",
-      "ventre",
-      "casserole",
-      "bouillir"
+      "noiraud",
+      "bruyant",
+      "livrer",
+      "amplificateur",
+      "brader"
     ],
     [
-      "frire",
-      "braiser",
-      "lagune",
-      "escalader",
-      "sapin"
+      "couard",
+      "troc",
+      "vente",
+      "boutique",
+      "vendeur"
     ],
     [
-      "rissoler",
-      "temporel",
-      "chaleur",
-      "morille",
-      "caramélisé"
+      "consoler",
+      "ivoire",
+      "client",
+      "fournir",
+      "prix"
     ],
     [
-      "mijoter",
-      "griller",
-      "rôtir",
-      "charge",
-      "nettoyage"
+      "enchère",
+      "plongeon",
+      "urbain",
+      "nettoyer",
+      "inauguration"
     ]
   ],
   "rowClues": [
-    3,
     4,
     2,
+    4,
     3,
-    3
+    1
   ],
   "colClues": [
+    2,
+    1,
     4,
     3,
-    3,
-    2,
-    3
+    4
   ],
-  "themeWord": "cuit",
+  "themeWord": "vendre",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
       true,
@@ -65,32 +86,11 @@
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

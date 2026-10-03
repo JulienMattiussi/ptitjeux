@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "pliage",
-      "manche",
-      "tresse",
-      "travail",
-      "fracturer"
+      "aspiration",
+      "métro",
+      "taupe",
+      "inoxydable",
+      "praliné"
     ],
     [
-      "avaler",
-      "gecko",
-      "brassée",
-      "poignet",
-      "main"
+      "percer",
+      "autorisé",
+      "train",
+      "long",
+      "slalom"
     ],
     [
-      "thésée",
-      "cruel",
-      "jazz",
-      "avant-bras",
-      "coude"
+      "corner",
+      "étroit",
+      "enfoui",
+      "sous-marine",
+      "passage"
     ],
     [
-      "tantine",
-      "aînée",
-      "étreindre",
-      "aisselle",
-      "buse"
+      "chapeau",
+      "hanter",
+      "gratuit",
+      "profond",
+      "organique"
     ],
     [
-      "épaule",
-      "féerique",
-      "biceps",
-      "méditerranée",
-      "triceps"
+      "creuser",
+      "voie",
+      "rayé",
+      "galerie",
+      "hampe"
     ]
   ],
   "rowClues": [
     2,
     3,
-    2,
-    2,
+    3,
+    1,
     3
   ],
   "colClues": [
     2,
-    1,
     3,
     3,
-    3
+    3,
+    1
   ],
-  "themeWord": "bras",
+  "themeWord": "tunnel",
   "solution": [
     [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false
     ],
     [
       true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 12

@@ -97,19 +97,19 @@
       4
     ],
     [
-      4,
-      4
+      5,
+      3
     ],
     [
-      1,
-      4
+      4,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "B",
       "pos": [
         2,
         1
@@ -117,23 +117,23 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        2,
-        2
+        1,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "S",
       "pos": [
-        3,
+        2,
         3
       ]
     }
   ],
   "target": {
-    "word": "MUR",
+    "word": "BIS",
     "cells": [
       [
         1,
@@ -145,20 +145,22 @@
       ],
       [
         2,
-        3
+        2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 10,
   "solution": [
     "left",
     "right",
     "down",
-    "left",
-    "right",
-    "right",
     "down",
-    "left"
+    "down",
+    "left",
+    "up",
+    "down",
+    "left",
+    "up"
   ],
-  "canonicalWord": "mur"
+  "canonicalWord": "bis"
 }

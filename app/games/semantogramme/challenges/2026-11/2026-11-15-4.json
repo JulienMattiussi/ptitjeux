@@ -5,128 +5,92 @@
   "height": 7,
   "words": [
     [
-      "chlorophylle",
-      "gaudí",
-      "rafistoler",
-      "composer",
-      "herbier",
-      "petite",
-      "canne"
+      "publicité",
+      "album",
+      "lance",
+      "noble",
+      "choc",
+      "mozzarella",
+      "guerrier"
     ],
     [
-      "libre",
-      "échine",
-      "onirique",
-      "bouteille",
-      "lyrique",
-      "fugue",
-      "laser"
+      "labyrinthe",
+      "détruire",
+      "attaquer",
+      "monastique",
+      "fustiger",
+      "vigoureux",
+      "critiquer"
     ],
     [
-      "taie",
-      "romantique",
-      "couplet",
-      "expressif",
-      "créatif",
-      "festoyer",
-      "improviser"
+      "ancêtre",
+      "gazon",
+      "caniveau",
+      "perle",
+      "pulvériser",
+      "mordant",
+      "roue"
     ],
     [
-      "colosse",
-      "frigorifique",
-      "nouvelle",
-      "spontané",
-      "stoïque",
-      "imagination",
-      "gestation"
+      "hymne",
+      "cervical",
+      "colorier",
+      "inoculer",
+      "bronze",
+      "volontaire",
+      "redoutable"
     ],
     [
-      "improvisation",
-      "chopin",
-      "jouer",
-      "musique",
-      "affronter",
-      "pâte",
-      "composition"
+      "incendie",
+      "archaïque",
+      "nager",
+      "dénoncer",
+      "danser",
+      "pratique",
+      "pesanteur"
     ],
     [
-      "colibri",
-      "développer",
-      "conseil",
-      "affection",
-      "tisser",
-      "schubert",
-      "jung"
+      "classique",
+      "épée",
+      "asphyxie",
+      "campus",
+      "tranchant",
+      "griffes",
+      "chevalier"
     ],
     [
-      "imaginatif",
-      "basse",
-      "fantasque",
-      "berlingot",
-      "rêve",
-      "coquillage",
-      "travail"
+      "bpm",
+      "cantaloup",
+      "bond",
+      "battue",
+      "réalisateur",
+      "transpercer",
+      "soutenu"
     ]
   ],
   "rowClues": [
-    1,
     3,
-    4,
-    2,
     5,
+    2,
     1,
-    3
-  ],
-  "colClues": [
-    3,
     2,
-    3,
     4,
-    3,
-    2,
     2
   ],
-  "themeWord": "fantaisie",
+  "colClues": [
+    1,
+    3,
+    2,
+    2,
+    3,
+    3,
+    5
+  ],
+  "themeWord": "pourfendre",
   "solution": [
     [
       false,
       false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false,
@@ -135,21 +99,57 @@
     ],
     [
       false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
       false,
       false,
+      true,
       true,
       false
     ],
     [
-      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
       false,
       true,
+      false,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 19

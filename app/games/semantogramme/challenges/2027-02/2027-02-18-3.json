@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-18-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "poncer",
+      "apogée",
+      "paella",
+      "acier",
+      "blanc",
+      "céréale"
+    ],
+    [
+      "kraken",
+      "champ",
+      "haltérophilie",
+      "complet",
+      "rizière",
+      "sonnet"
+    ],
+    [
+      "caïeu",
+      "vanter",
+      "athlétisme",
+      "inertie",
+      "thai",
+      "long"
+    ],
+    [
+      "pilaf",
+      "basmati",
+      "observateur",
+      "rite",
+      "rose",
+      "noir"
+    ],
+    [
+      "cola",
+      "grain",
+      "foulée",
+      "sushi",
+      "cornu",
+      "rond"
+    ],
+    [
+      "rythme",
+      "sauvage",
+      "éditorial",
+      "risotto",
+      "asie",
+      "errer"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    4,
+    1,
+    3,
+    4,
+    4
+  ],
+  "themeWord": "riz",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

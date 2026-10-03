@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    3
+    3,
+    2
   ],
   "walls": [
     [
@@ -97,19 +97,19 @@
       4
     ],
     [
-      5,
-      3
+      1,
+      1
     ],
     [
-      1,
-      4
+      4,
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "L",
       "pos": [
         2,
         2
@@ -117,48 +117,47 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "I",
       "pos": [
-        3,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "P",
+      "letter": "S",
       "pos": [
-        4,
-        3
+        2,
+        4
       ]
     }
   ],
   "target": {
-    "word": "CAP",
+    "word": "LIS",
     "cells": [
       [
-        2,
-        1
-      ],
-      [
-        3,
+        1,
         2
       ],
       [
-        4,
-        2
+        1,
+        3
+      ],
+      [
+        1,
+        4
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 7,
   "solution": [
-    "up",
-    "down",
-    "down",
+    "left",
     "right",
-    "up",
     "down",
+    "left",
     "right",
-    "up"
+    "down",
+    "left"
   ],
-  "canonicalWord": "cap"
+  "canonicalWord": "lis"
 }

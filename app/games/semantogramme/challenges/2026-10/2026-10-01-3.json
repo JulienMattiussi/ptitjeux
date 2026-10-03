@@ -5,91 +5,83 @@
   "height": 6,
   "words": [
     [
-      "craquer",
-      "séduisante",
-      "blesser",
-      "pulsatile",
-      "canapé",
-      "hydrogène"
+      "chapiteau",
+      "massif",
+      "grimper",
+      "constellation",
+      "crotte",
+      "intelligent"
     ],
     [
-      "sensuel",
-      "nausée",
-      "son",
-      "pousser",
-      "douleur",
-      "mal"
+      "troupe",
+      "flotter",
+      "fort",
+      "social",
+      "jungle",
+      "imposant"
     ],
     [
-      "bergamote",
-      "lancinante",
-      "aura",
-      "côté",
-      "crise",
-      "lumière"
+      "cordée",
+      "innocence",
+      "congo",
+      "rugir",
+      "lapone",
+      "afrique"
     ],
     [
-      "cadre",
-      "respiratoire",
-      "sardine",
-      "aspirine",
-      "récurrente",
-      "guimauve"
+      "humecter",
+      "malhonnêteté",
+      "fanal",
+      "frapper",
+      "décocher",
+      "jugement"
     ],
     [
-      "mesure",
-      "engin",
-      "sévère",
-      "paracétamol",
-      "tête",
-      "corruption"
+      "grand",
+      "serre",
+      "imiter",
+      "mâle",
+      "sacrifier",
+      "rouiller"
     ],
     [
-      "tempe",
-      "déshydrater",
-      "zodiacale",
-      "poutre",
-      "allongé",
-      "arpenter"
+      "amitié",
+      "mensonge",
+      "puissant",
+      "singe",
+      "abeille",
+      "noir"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    5,
-    2,
     3,
-    2
+    5,
+    3,
+    1,
+    3,
+    3
   ],
   "colClues": [
-    1,
     2,
-    3,
-    4,
+    1,
     5,
-    2
+    5,
+    1,
+    4
   ],
-  "themeWord": "migraine",
+  "themeWord": "gorille",
   "solution": [
     [
       false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
-      false,
       true,
+      false,
       true,
       true,
       true,
@@ -98,9 +90,25 @@
     [
       false,
       false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
+      false,
       false
     ],
     [
@@ -108,17 +116,9 @@
       false,
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      false,
-      false,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "saut",
-      "réchauffer",
-      "demi",
-      "coulisse",
-      "manger",
-      "spontané"
+      "tranchante",
+      "fixer",
+      "outil",
+      "creuser",
+      "malédiction",
+      "pointe"
     ],
     [
-      "urine",
-      "cueilli",
+      "paresse",
+      "archéologue",
+      "lourde",
+      "manche",
+      "fougère",
+      "lame"
+    ],
+    [
+      "mineur",
+      "frapper",
+      "bouche",
+      "liesse",
+      "tricorne",
+      "signature"
+    ],
+    [
+      "caillou",
+      "géranium",
       "rugueuse",
-      "sociale",
-      "fragile",
-      "patte"
+      "piocher",
+      "roche",
+      "durcir"
     ],
     [
-      "chapelet",
-      "pose",
-      "orthoptère",
-      "champ",
-      "porte",
-      "verte"
+      "soufre",
+      "juvénile",
+      "chaîne",
+      "mine",
+      "boutique",
+      "boulonner"
     ],
     [
-      "longue",
-      "sauter",
-      "expresso",
-      "tunisie",
-      "feuille",
-      "herbe"
-    ],
-    [
-      "aquatique",
-      "antenne",
-      "sacré",
-      "jaune",
-      "grillé",
-      "paprika"
-    ],
-    [
-      "cuir",
-      "aérer",
-      "empoigner",
-      "crayonner",
-      "criquet",
-      "aile"
+      "arracher",
+      "fouille",
+      "malhonnêteté",
+      "élémentaire",
+      "mousseron",
+      "bave"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    3,
+    4,
     4,
     2,
+    3,
+    1,
     2
   ],
   "colClues": [
-    2,
-    2,
-    1,
-    2,
+    4,
     3,
-    4
+    2,
+    4,
+    1,
+    2
   ],
-  "themeWord": "sauterelle",
+  "themeWord": "pioche",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       true,
       false
     ],
@@ -83,42 +107,18 @@
       false,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
       true,
-      true
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 16
 }

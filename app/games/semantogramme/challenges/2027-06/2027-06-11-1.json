@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-11-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "obélisque",
+      "pectoral",
+      "paix",
+      "antiquité"
+    ],
+    [
+      "laine",
+      "guerre",
+      "discuter",
+      "écuyer"
+    ],
+    [
+      "archive",
+      "roi",
+      "mondial",
+      "reine"
+    ],
+    [
+      "asana",
+      "siècle",
+      "révolution",
+      "époque"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "histoire",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "microscope",
+      "tronçonneuse",
+      "denture",
+      "sauteuse"
+    ],
+    [
+      "manche",
+      "tourteau",
+      "planche",
+      "rafraîchissement"
+    ],
+    [
+      "harnais",
+      "menuisier",
+      "globe",
+      "altruisme"
+    ],
+    [
+      "rikiki",
+      "minute",
+      "sciure",
+      "lame"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "scie",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

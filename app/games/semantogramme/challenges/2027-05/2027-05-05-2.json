@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "piquer",
+      "fil",
+      "amplificateur",
+      "couture",
+      "bobine"
+    ],
+    [
+      "tissu",
+      "cicatriser",
+      "dé",
+      "couturière",
+      "machine"
+    ],
+    [
+      "point",
+      "ensorceler",
+      "bouton",
+      "inspirer",
+      "noyer"
+    ],
+    [
+      "amuser",
+      "broder",
+      "sanction",
+      "patron",
+      "aiguille"
+    ],
+    [
+      "précipice",
+      "tropical",
+      "ourlet",
+      "culbute",
+      "amortisseur"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "coudre",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

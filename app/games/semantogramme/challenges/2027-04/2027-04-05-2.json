@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sacoche",
+      "violette",
+      "glycine",
+      "boucan",
+      "tannerie"
+    ],
+    [
+      "coquillage",
+      "laitue",
+      "barbu",
+      "couteau",
+      "magenta"
+    ],
+    [
+      "pédoncule",
+      "cassis",
+      "aiguiser",
+      "lilas",
+      "industrialiser"
+    ],
+    [
+      "parme",
+      "pourpre",
+      "amethyste",
+      "poirier",
+      "crocus"
+    ],
+    [
+      "groseille",
+      "évêque",
+      "mûre",
+      "iris",
+      "aubergine"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    4,
+    4
+  ],
+  "colClues": [
+    1,
+    4,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "violet",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

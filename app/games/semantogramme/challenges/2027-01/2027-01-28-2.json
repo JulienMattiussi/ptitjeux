@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "creuser",
-      "margelle",
-      "rond",
-      "ténor",
-      "eau"
+      "épousseter",
+      "soleil",
+      "thémis",
+      "sargasse",
+      "brûler"
     ],
     [
-      "consacrer",
-      "profond",
-      "audacieux",
-      "pot",
-      "grimper"
+      "caniculaire",
+      "permanente",
+      "consumer",
+      "jante",
+      "torride"
     ],
     [
-      "froid",
-      "écho",
-      "ministère",
-      "énergie",
-      "séquestrer"
+      "feu",
+      "fer",
+      "tortillonner",
+      "lave",
+      "incendier"
     ],
     [
-      "descendre",
-      "conversation",
-      "mystérieux",
-      "sombre",
-      "fond"
+      "cendre",
+      "canicule",
+      "cupidité",
+      "chaud",
+      "mirabelle"
     ],
     [
-      "aromatisé",
-      "seau",
-      "puiser",
-      "pompe",
-      "pierre"
+      "fournaise",
+      "bord",
+      "rougir",
+      "incandescent",
+      "pianissimo"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     2,
-    4,
-    4
-  ],
-  "colClues": [
     3,
     4,
     3,
-    2,
     3
   ],
-  "themeWord": "puits",
+  "colClues": [
+    4,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "brûlant",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       false,
       true
     ],
     [
-      false,
+      true,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
+      true,
       false
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 15

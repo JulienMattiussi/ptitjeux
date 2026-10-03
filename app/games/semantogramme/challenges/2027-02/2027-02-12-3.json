@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "floraison",
+      "bouillir",
+      "tracteur",
+      "cadette",
+      "toupie",
+      "tondeuse"
+    ],
+    [
+      "loyer",
+      "famille",
+      "mentir",
+      "cuire",
+      "rôti",
+      "pastel"
+    ],
+    [
+      "sablée",
+      "rougeoyante",
+      "tortillonner",
+      "pesante",
+      "fonte",
+      "lourde"
+    ],
+    [
+      "saxophone",
+      "sorcière",
+      "diagnostic",
+      "agricole",
+      "remuer",
+      "magique"
+    ],
+    [
+      "confettis",
+      "soupe",
+      "saigner",
+      "fouir",
+      "tournée",
+      "inestimable"
+    ],
+    [
+      "cantine",
+      "cuisine",
+      "mijoter",
+      "télécharger",
+      "large",
+      "paysanne"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3,
+    2,
+    5
+  ],
+  "colClues": [
+    1,
+    5,
+    1,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "marmite",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

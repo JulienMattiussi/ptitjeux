@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
+    5,
     3
   ],
   "walls": [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "B",
       "pos": [
         2,
         3
@@ -141,25 +141,25 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        6,
+        2,
         4
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        3,
-        2
+        5,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "G",
       "pos": [
-        5,
+        6,
         2
       ]
     },
@@ -168,57 +168,52 @@
       "letter": "E",
       "pos": [
         6,
-        5
+        3
       ]
     }
   ],
   "target": {
-    "word": "GAULE",
+    "word": "BEIGE",
     "cells": [
       [
         4,
         2
       ],
       [
-        5,
-        2
-      ],
-      [
-        5,
+        4,
         3
       ],
       [
-        6,
+        5,
         4
       ],
       [
+        6,
+        3
+      ],
+      [
         7,
-        5
+        3
       ]
     ]
   },
-  "parMoves": 33,
+  "parMoves": 28,
   "solution": [
     "right",
-    "up",
-    "right",
-    "up",
-    "right",
-    "down",
-    "right",
     "down",
     "down",
-    "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "left",
     "down",
     "left",
     "up",
-    "down",
     "left",
+    "left",
+    "left",
+    "left",
+    "up",
+    "right",
+    "down",
+    "right",
+    "up",
     "left",
     "up",
     "right",
@@ -226,12 +221,12 @@
     "left",
     "up",
     "right",
+    "right",
     "up",
     "right",
     "right",
     "right",
-    "down",
     "down"
   ],
-  "canonicalWord": "gaule"
+  "canonicalWord": "beige"
 }

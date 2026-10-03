@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     5,
-    5
+    7
   ],
   "walls": [
     [
@@ -374,15 +374,15 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "G",
       "pos": [
         4,
-        4
+        6
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "U",
       "pos": [
         2,
         1
@@ -390,7 +390,7 @@
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         3,
         1
@@ -398,10 +398,10 @@
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         4,
-        3
+        5
       ]
     },
     {
@@ -409,7 +409,7 @@
       "letter": "E",
       "pos": [
         5,
-        4
+        6
       ]
     },
     {
@@ -422,7 +422,7 @@
     }
   ],
   "target": {
-    "word": "METTES",
+    "word": "GUEEES",
     "cells": [
       [
         1,
@@ -450,7 +450,7 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
     "up",
     "left",
@@ -460,8 +460,7 @@
     "left",
     "down",
     "left",
-    "up",
     "up"
   ],
-  "canonicalWord": "mettes"
+  "canonicalWord": "guéées"
 }

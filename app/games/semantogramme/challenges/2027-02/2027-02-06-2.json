@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tendu",
+      "imperméabiliser",
+      "pneu",
+      "gomme",
+      "mener"
+    ],
+    [
+      "roue",
+      "balcon",
+      "mouche",
+      "gant",
+      "médicament"
+    ],
+    [
+      "botte",
+      "champagne",
+      "résistant",
+      "imperméable",
+      "garniture"
+    ],
+    [
+      "étirer",
+      "latex",
+      "congère",
+      "arbre",
+      "étanche"
+    ],
+    [
+      "héritière",
+      "félicité",
+      "souple",
+      "invoquer",
+      "illustre"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "caoutchouc",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

@@ -5,105 +5,96 @@
   "height": 7,
   "words": [
     [
-      "escale",
-      "sentimental",
-      "alliage",
-      "fantasme",
-      "maçon",
-      "cil",
-      "amarrer"
+      "haute-définition",
+      "épuré",
+      "arrivée",
+      "brun",
+      "incendier",
+      "rongeur",
+      "mérinos"
     ],
     [
-      "navire",
-      "enduire",
-      "côte",
-      "pianiste",
-      "court",
-      "balancier",
-      "limite"
+      "inverser",
+      "mammifère",
+      "haendel",
+      "canada",
+      "gris",
+      "rechercher",
+      "morigéner"
     ],
     [
-      "contagieuse",
-      "régional",
-      "feuilleter",
-      "sursauter",
-      "maritime",
-      "précambrien",
-      "écimer"
+      "familial",
+      "rivière",
+      "troupeau",
+      "semi-aquatique",
+      "éclatant",
+      "prince",
+      "évincer"
     ],
     [
-      "rider",
-      "dépasser",
-      "marine",
-      "plaisir",
-      "bride",
-      "commerce",
-      "commerciale"
+      "cage",
+      "oubli",
+      "paisible",
+      "chêne",
+      "préventive",
+      "manger",
+      "eau"
     ],
     [
-      "transporter",
-      "port",
-      "cri",
-      "habitable",
-      "bus",
-      "feuillue",
-      "historique"
-    ],
-    [
-      "coffre",
-      "caboteur",
-      "velue",
+      "lourde",
+      "orthoptère",
       "traditionnel",
-      "ouvrier",
-      "amanite",
-      "naviguer"
+      "pudeur",
+      "bienveillant",
+      "incurver",
+      "nager"
     ],
     [
-      "monument",
-      "navigation",
-      "armure",
-      "longer",
-      "remporter",
-      "éclat",
-      "côtière"
+      "social",
+      "sentir",
+      "signet",
+      "étang",
+      "rougeoyant",
+      "estragon",
+      "aventure"
+    ],
+    [
+      "fessier",
+      "croisée",
+      "amérique",
+      "reine",
+      "mécanique",
+      "calligraphie",
+      "museau"
     ]
   ],
   "rowClues": [
     2,
-    3,
     2,
+    4,
     3,
-    3,
-    3,
-    3
+    1,
+    1,
+    2
   ],
   "colClues": [
+    2,
+    2,
     3,
-    4,
-    2,
-    2,
     2,
     1,
-    5
+    2,
+    3
   ],
-  "themeWord": "cabotage",
+  "themeWord": "capybara",
   "solution": [
     [
-      true,
       false,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
       false,
       true,
-      false,
       false
     ],
     [
@@ -116,6 +107,15 @@
       false
     ],
     [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
@@ -125,32 +125,32 @@
       true
     ],
     [
-      true,
-      true,
       false,
       false,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       false,
       false,
       true
     ],
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
-      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

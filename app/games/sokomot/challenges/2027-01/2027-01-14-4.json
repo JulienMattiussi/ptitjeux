@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    1
+    6,
+    7
   ],
   "walls": [
     [
@@ -374,93 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "T",
       "pos": [
-        4,
-        2
+        2,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
-        2,
-        7
+        4,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "M",
       "pos": [
-        3,
-        7
+        5,
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "B",
       "pos": [
-        4,
-        3
+        6,
+        6
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        5,
-        2
+        7,
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "T",
+      "letter": "R",
       "pos": [
-        7,
-        7
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "RENIAT",
+    "word": "TOMBER",
     "cells": [
       [
-        1,
-        7
-      ],
-      [
-        2,
-        7
-      ],
-      [
         3,
-        7
+        1
       ],
       [
         4,
-        7
+        1
       ],
       [
         5,
-        7
+        1
       ],
       [
         6,
-        7
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
       ]
     ]
   },
   "parMoves": 9,
   "solution": [
-    "down",
-    "left",
-    "down",
+    "up",
+    "right",
     "up",
     "left",
-    "down",
+    "up",
     "right",
     "down",
-    "left"
+    "right",
+    "up"
   ],
-  "canonicalWord": "reniât"
+  "canonicalWord": "tomber"
 }

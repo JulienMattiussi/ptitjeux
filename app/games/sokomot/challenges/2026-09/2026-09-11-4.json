@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    3
+    8,
+    5
   ],
   "walls": [
     [
@@ -374,90 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "C",
       "pos": [
-        2,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "I",
-      "pos": [
-        3,
+        1,
         2
       ]
     },
     {
-      "id": "b3",
-      "letter": "R",
+      "id": "b2",
+      "letter": "L",
       "pos": [
-        2,
+        1,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "I",
+      "id": "b3",
+      "letter": "A",
       "pos": [
-        8,
+        1,
         4
       ]
     },
     {
-      "id": "b5",
-      "letter": "G",
+      "id": "b4",
+      "letter": "V",
       "pos": [
-        8,
+        7,
         5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        6,
+        6
       ]
     },
     {
       "id": "b6",
       "letter": "E",
       "pos": [
-        8,
-        6
+        7,
+        7
       ]
     }
   ],
   "target": {
-    "word": "DIRIGE",
+    "word": "CLAVEE",
     "cells": [
       [
-        8,
-        1
-      ],
-      [
-        8,
+        1,
         2
       ],
       [
-        8,
+        1,
         3
       ],
       [
-        8,
+        1,
         4
       ],
       [
-        8,
+        1,
         5
       ],
       [
-        8,
+        1,
         6
+      ],
+      [
+        1,
+        7
       ]
     ]
   },
   "parMoves": 6,
   "solution": [
-    "right",
-    "up",
-    "right",
     "left",
-    "up",
-    "right"
+    "down",
+    "left",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "dirige"
+  "canonicalWord": "clavée"
 }

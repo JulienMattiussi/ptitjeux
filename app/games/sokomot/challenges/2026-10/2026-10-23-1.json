@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
+    4,
     2
   ],
   "walls": [
@@ -101,7 +101,7 @@
       1
     ],
     [
-      2,
+      5,
       4
     ]
   ],
@@ -109,15 +109,15 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "W",
+      "letter": "H",
       "pos": [
-        2,
+        3,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "U",
       "pos": [
         4,
         3
@@ -125,18 +125,18 @@
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "I",
       "pos": [
-        4,
+        3,
         4
       ]
     }
   ],
   "target": {
-    "word": "WON",
+    "word": "HUI",
     "cells": [
       [
-        3,
+        2,
         2
       ],
       [
@@ -144,24 +144,24 @@
         3
       ],
       [
-        3,
+        4,
         4
       ]
     ]
   },
   "parMoves": 11,
   "solution": [
+    "left",
+    "down",
+    "left",
+    "down",
     "right",
+    "up",
     "up",
     "right",
     "right",
     "down",
-    "right",
-    "down",
-    "left",
-    "right",
-    "down",
     "left"
   ],
-  "canonicalWord": "won"
+  "canonicalWord": "hui"
 }

@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    2,
-    5
+    3,
+    1
   ],
   "walls": [
     [
@@ -374,91 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "P",
       "pos": [
-        8,
+        1,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "B",
+      "letter": "I",
       "pos": [
-        8,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "V",
+      "letter": "O",
       "pos": [
-        8,
-        4
+        3,
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "N",
       "pos": [
-        3,
-        5
+        4,
+        7
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "C",
       "pos": [
-        4,
-        6
+        5,
+        7
       ]
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "A",
       "pos": [
-        3,
+        7,
         7
       ]
     }
   ],
   "target": {
-    "word": "OBVIER",
+    "word": "PIONCA",
     "cells": [
       [
-        8,
-        2
+        1,
+        7
       ],
       [
-        8,
-        3
+        2,
+        7
       ],
       [
-        8,
-        4
+        3,
+        7
       ],
       [
-        8,
-        5
+        4,
+        7
       ],
       [
-        8,
-        6
+        5,
+        7
       ],
       [
-        8,
+        6,
         7
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
-    "right",
     "down",
-    "right",
     "left",
     "down",
     "right",
-    "right"
+    "down",
+    "left",
+    "up",
+    "left",
+    "down"
   ],
-  "canonicalWord": "obvier"
+  "canonicalWord": "pionça"
 }

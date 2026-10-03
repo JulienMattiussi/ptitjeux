@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "apéro",
+      "mousse",
+      "pression",
+      "malt"
+    ],
+    [
+      "cruel",
+      "bock",
+      "blonde",
+      "narrateur"
+    ],
+    [
+      "brune",
+      "soigné",
+      "froid",
+      "houblon"
+    ],
+    [
+      "théorie",
+      "projection",
+      "ambrée",
+      "bouteille"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "bière",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

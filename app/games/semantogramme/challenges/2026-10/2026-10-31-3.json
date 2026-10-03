@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "rapide",
-      "venter",
-      "soupir",
-      "pneumatique",
-      "éventer",
-      "venaison"
+      "foc",
+      "organiste",
+      "foulure",
+      "monumental",
+      "propre",
+      "puissant"
     ],
     [
-      "bambin",
-      "égyptien",
-      "mardi",
-      "siffler",
-      "pimenter",
-      "féminité"
+      "gloire",
+      "religieux",
+      "majestueux",
+      "pédale",
+      "église",
+      "lettre"
     ],
     [
-      "espoir",
-      "rhum",
-      "longitude",
-      "haletant",
-      "assemblée",
-      "aérer"
+      "soufflet",
+      "baroque",
+      "étudier",
+      "pochette",
+      "instrument",
+      "zodiaque"
     ],
     [
-      "dossier",
-      "ronfler",
-      "bras",
-      "pommette",
-      "expiration",
-      "ventiler"
+      "grandiose",
+      "franchir",
+      "maternel",
+      "vigne",
+      "jouer",
+      "wok"
     ],
     [
-      "gonfler",
-      "brise",
-      "lanterne",
-      "égalité",
-      "éteindre",
-      "huisserie"
+      "travailler",
+      "moelleuse",
+      "parcourir",
+      "ring",
+      "fournir",
+      "clavier"
     ],
     [
-      "haleine",
-      "expirer",
-      "toit",
-      "reptation",
-      "épeler",
-      "damner"
+      "linéaire",
+      "mythique",
+      "prolonger",
+      "liturgie",
+      "robe",
+      "tuyaux"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    3,
+    3,
+    3,
     2,
-    3,
-    3,
+    1,
     2
   ],
   "colClues": [
     2,
-    4,
+    2,
     1,
     3,
     3,
-    2
+    3
   ],
-  "themeWord": "souffler",
+  "themeWord": "orgue",
   "solution": [
     [
       false,
       true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -83,9 +107,9 @@
       false,
       false,
       false,
-      true,
       false,
-      false
+      false,
+      true
     ],
     [
       false,
@@ -94,31 +118,7 @@
       true,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

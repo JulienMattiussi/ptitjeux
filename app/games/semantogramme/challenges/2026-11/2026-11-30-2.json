@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "ventoline",
-      "patienter",
-      "plancha",
-      "délai",
-      "mesurer"
+      "fourche",
+      "ramer",
+      "queue",
+      "maléfique",
+      "infernal"
     ],
     [
-      "cadran",
-      "immortelle",
-      "fleuriste",
-      "climat",
-      "aiguille"
+      "smartphone",
+      "tentation",
+      "limonade",
+      "caméléon",
+      "noirâtre"
     ],
     [
-      "éphémère",
-      "attendre",
-      "stéthoscope",
-      "piémont",
-      "heure"
+      "castelet",
+      "malicieux",
+      "visière",
+      "fan",
+      "enfer"
     ],
     [
-      "rizière",
-      "pose",
-      "instant",
-      "seconde",
-      "chrono"
+      "tortueux",
+      "thésauriser",
+      "tomber",
+      "malin",
+      "rabattre"
     ],
     [
-      "temps",
-      "horloge",
-      "court",
-      "précis",
-      "écarlate"
+      "orbiter",
+      "posséder",
+      "langoustine",
+      "allumette",
+      "rouge"
     ]
   ],
   "rowClues": [
-    3,
+    4,
+    1,
     2,
-    3,
-    3,
-    4
+    2,
+    2
   ],
   "colClues": [
-    3,
-    3,
     2,
     3,
-    4
+    1,
+    2,
+    3
   ],
-  "themeWord": "minute",
+  "themeWord": "démon",
   "solution": [
     [
-      false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
       true
     ],
     [
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

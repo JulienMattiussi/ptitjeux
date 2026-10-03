@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
+    1,
     1
   ],
   "walls": [
@@ -98,7 +98,7 @@
     ],
     [
       5,
-      1
+      4
     ],
     [
       5,
@@ -109,23 +109,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "A",
       "pos": [
         2,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "U",
-      "pos": [
-        3,
         2
       ]
     },
     {
+      "id": "b2",
+      "letter": "R",
+      "pos": [
+        3,
+        1
+      ]
+    },
+    {
       "id": "b3",
-      "letter": "I",
+      "letter": "C",
       "pos": [
         3,
         3
@@ -133,32 +133,40 @@
     }
   ],
   "target": {
-    "word": "GUI",
+    "word": "ARC",
     "cells": [
       [
         1,
-        1
-      ],
-      [
-        2,
         2
       ],
       [
         2,
-        3
+        1
+      ],
+      [
+        3,
+        2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 16,
   "solution": [
-    "left",
-    "right",
     "right",
     "down",
+    "right",
+    "right",
+    "up",
     "left",
+    "down",
     "right",
     "down",
-    "left"
+    "down",
+    "left",
+    "up",
+    "left",
+    "down",
+    "left",
+    "up"
   ],
-  "canonicalWord": "gui"
+  "canonicalWord": "arc"
 }

@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    4
+    1,
+    1
   ],
   "walls": [
     [
@@ -98,43 +98,47 @@
     ],
     [
       1,
-      3
+      4
     ],
     [
-      1,
-      2
+      5,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "Y",
+      "letter": "V",
       "pos": [
-        3,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "I",
       "pos": [
-        4,
-        3
+        2,
+        2
       ]
     },
     {
       "id": "b3",
       "letter": "N",
       "pos": [
-        5,
-        2
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "YEN",
+    "word": "VIN",
     "cells": [
+      [
+        3,
+        1
+      ],
       [
         3,
         2
@@ -142,27 +146,20 @@
       [
         4,
         2
-      ],
-      [
-        5,
-        3
       ]
     ]
   },
-  "parMoves": 12,
+  "parMoves": 9,
   "solution": [
-    "up",
+    "right",
+    "left",
     "down",
     "right",
-    "up",
-    "left",
-    "left",
-    "up",
-    "up",
+    "down",
+    "down",
     "right",
     "right",
-    "right",
-    "down"
+    "up"
   ],
-  "canonicalWord": "yen"
+  "canonicalWord": "vin"
 }

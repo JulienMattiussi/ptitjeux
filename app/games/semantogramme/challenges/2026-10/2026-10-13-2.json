@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "averse",
-      "filer",
-      "dimanche",
-      "coller",
-      "détaler"
+      "braisière",
+      "arctique",
+      "photosynthèse",
+      "félicitation",
+      "glace"
     ],
     [
-      "idole",
-      "endurance",
-      "galop",
-      "foulée",
-      "fessée"
+      "tango",
+      "récit",
+      "congeler",
+      "iceberg",
+      "agneau"
     ],
     [
-      "angora",
-      "vitesse",
-      "marathon",
-      "sprint",
-      "cavaler"
+      "frigo",
+      "frigorifique",
+      "minutieux",
+      "congélateur",
+      "monastère"
     ],
     [
-      "gracieuse",
-      "gras",
-      "galoper",
-      "aimable",
-      "négoce"
+      "hiver",
+      "intelligent",
+      "élévation",
+      "modeste",
+      "refroidir"
     ],
     [
-      "coureur",
-      "foncer",
-      "jogging",
-      "athlétisme",
-      "piña"
+      "argenté",
+      "givrer",
+      "glaçon",
+      "amusement",
+      "essence"
     ]
   ],
   "rowClues": [
     2,
+    2,
     3,
-    4,
-    1,
-    4
-  ],
-  "colClues": [
-    1,
-    4,
-    4,
-    3,
+    2,
     2
   ],
-  "themeWord": "courir",
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "froid",
   "solution": [
     [
       false,
@@ -65,32 +65,32 @@
     ],
     [
       false,
-      true,
+      false,
       true,
       true,
       false
     ],
     [
+      true,
+      true,
       false,
       true,
+      false
+    ],
+    [
       true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

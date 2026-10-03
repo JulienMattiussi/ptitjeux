@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "gros",
-      "myriapode",
-      "étirer",
-      "ambrée",
-      "gonflé",
-      "échiquier"
+      "piquer",
+      "fortifiée",
+      "massette",
+      "taper",
+      "serrure",
+      "charpentier"
     ],
     [
-      "archer",
-      "bas",
-      "sportif",
-      "coco",
-      "fatigué",
-      "partage"
+      "germaine",
+      "dalmatien",
+      "bricoleur",
+      "clou",
+      "mortier",
+      "unique"
     ],
     [
-      "assourdissant",
-      "mou",
-      "tendu",
-      "effraie",
-      "détail",
-      "hygiène"
+      "alité",
+      "chambre",
+      "tempe",
+      "glaçure",
+      "côtière",
+      "arrache-clou"
     ],
     [
-      "sport",
-      "déception",
-      "gitane",
-      "dessinateur",
-      "rond",
-      "jambe"
+      "frapper",
+      "fiesta",
+      "spectateur",
+      "enfoncer",
+      "acrylique",
+      "apocalypse"
     ],
     [
-      "musclé",
-      "transparent",
-      "condor",
-      "halley",
-      "gastrocnémien",
-      "gratter"
+      "tête",
+      "bois",
+      "outil",
+      "hawaïen",
+      "lourd",
+      "spectacle"
     ],
     [
-      "soléaire",
-      "encadrement",
-      "pointe",
-      "masser",
-      "crampe",
-      "développer"
+      "délicatesse",
+      "contrebasse",
+      "roquefort",
+      "blanc",
+      "piolet",
+      "attaquant"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
     2,
-    3,
+    1,
     2,
-    5
+    4,
+    1
   ],
   "colClues": [
-    4,
-    2,
-    4,
+    3,
     1,
-    5,
+    3,
+    3,
+    2,
     2
   ],
-  "themeWord": "mollet",
+  "themeWord": "marteau",
   "solution": [
     [
       true,
       false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
+      true,
+      false,
       false
     ],
     [
       false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       false,
-      true,
+      false,
       true
     ],
     [
       true,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true,
       false
     ],
     [
-      true,
+      false,
+      false,
+      false,
       false,
       true,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

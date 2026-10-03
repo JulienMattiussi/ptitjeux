@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-22-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vésicule",
+      "silence",
+      "aligner",
+      "illustrer",
+      "vaillance"
+    ],
+    [
+      "jardin",
+      "vacances",
+      "prier",
+      "vigne",
+      "assembler"
+    ],
+    [
+      "poser",
+      "ancien",
+      "prière",
+      "gouvernemental",
+      "cellule"
+    ],
+    [
+      "méditer",
+      "moine",
+      "dramatique",
+      "liturgie",
+      "austère"
+    ],
+    [
+      "travailler",
+      "fastueux",
+      "heurter",
+      "ramper",
+      "religieux"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "monastère",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

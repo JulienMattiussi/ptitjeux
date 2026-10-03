@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    3
+    6,
+    2
   ],
   "walls": [
     [
@@ -133,58 +133,54 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
-      "pos": [
-        2,
-        5
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
+      "letter": "I",
       "pos": [
         3,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "G",
-      "pos": [
-        4,
         2
       ]
     },
     {
-      "id": "b4",
-      "letter": "E",
+      "id": "b2",
+      "letter": "C",
       "pos": [
         5,
+        2
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "O",
+      "pos": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "N",
+      "pos": [
+        4,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "L",
+      "letter": "E",
       "pos": [
-        4,
-        5
+        6,
+        3
       ]
     }
   ],
   "target": {
-    "word": "DEGEL",
+    "word": "ICONE",
     "cells": [
       [
-        3,
-        3
+        2,
+        2
       ],
       [
         3,
-        4
-      ],
-      [
-        4,
         3
       ],
       [
@@ -193,42 +189,37 @@
       ],
       [
         5,
-        3
+        4
+      ],
+      [
+        6,
+        4
       ]
     ]
   },
-  "parMoves": 30,
+  "parMoves": 21,
   "solution": [
-    "right",
-    "right",
-    "down",
-    "left",
-    "up",
-    "up",
     "up",
     "left",
     "down",
     "left",
-    "down",
-    "left",
-    "down",
     "left",
     "down",
     "down",
     "right",
     "up",
     "up",
+    "right",
+    "right",
+    "down",
     "left",
-    "up",
-    "right",
+    "left",
+    "down",
+    "left",
     "down",
     "down",
     "right",
-    "right",
-    "down",
-    "right",
-    "up",
     "up"
   ],
-  "canonicalWord": "dégel"
+  "canonicalWord": "icône"
 }

@@ -5,104 +5,104 @@
   "height": 7,
   "words": [
     [
-      "maçonnique",
-      "travail",
-      "imagerie",
-      "archiver",
-      "cortex",
-      "pétrole",
-      "préventive"
+      "chrétien",
+      "angle",
+      "plaidoyer",
+      "remplir",
+      "inconnue",
+      "épandre",
+      "patiente"
     ],
     [
-      "sumo",
-      "mourvèdre",
-      "saigner",
-      "thérapeutique",
-      "parfumée",
-      "cerveau",
-      "péniche"
+      "hamster",
+      "longitude",
+      "hublot",
+      "rivière",
+      "miroir",
+      "sextant",
+      "vlaminck"
     ],
     [
-      "alzheimer",
-      "vase",
-      "projection",
-      "synapse",
-      "capuche",
-      "nerf",
-      "épilepsie"
+      "horizon",
+      "assaisonner",
+      "caldeira",
+      "relique",
+      "mesurer",
+      "instrument",
+      "degré"
     ],
     [
-      "maraudage",
-      "science",
-      "soigner",
-      "bonté",
-      "opérer",
-      "neurone",
-      "ton"
+      "godiller",
+      "main",
+      "dur",
+      "octave",
+      "mesure",
+      "mineur",
+      "voyageur"
     ],
     [
-      "argumenter",
-      "bonbon",
-      "clinique",
-      "minimal",
-      "laurier",
-      "devon",
-      "cardiaque"
+      "résolution",
+      "astre",
+      "wok",
+      "baccarat",
+      "succion",
+      "algérie",
+      "positionner"
     ],
     [
-      "squelettique",
-      "perdant",
-      "enfilage",
-      "cellule",
-      "neurologue",
-      "habiter",
-      "examiner"
+      "fleuve",
+      "comparée",
+      "marine",
+      "navigation",
+      "combattre",
+      "messie",
+      "nièce"
     ],
     [
-      "demoiselle",
-      "instinct",
-      "glace",
-      "modernité",
-      "semence",
-      "voix",
-      "parkinson"
+      "optique",
+      "huit",
+      "caïeu",
+      "lacune",
+      "sauter",
+      "course",
+      "roseau"
     ]
   ],
   "rowClues": [
+    1,
+    3,
     3,
     2,
-    4,
-    4,
-    1,
-    3,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
+    2,
+    4,
     1,
-    1,
+    2,
     3,
-    3,
-    3,
-    3,
-    4
+    2,
+    1
   ],
-  "themeWord": "neurologie",
+  "themeWord": "octant",
   "solution": [
     [
       false,
-      false,
       true,
       false,
-      true,
       false,
-      true
+      false,
+      false,
+      false
     ],
     [
       false,
+      true,
       false,
       false,
       true,
-      false,
       true,
       false
     ],
@@ -110,27 +110,9 @@
       true,
       false,
       false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       true,
       true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
       false
     ],
     [
@@ -140,17 +122,35 @@
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

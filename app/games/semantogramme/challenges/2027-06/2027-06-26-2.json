@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "colophane",
+      "tirer",
+      "flûte",
+      "satiété",
+      "consommer"
+    ],
+    [
+      "succion",
+      "liquider",
+      "élégant",
+      "caramélisé",
+      "jaser"
+    ],
+    [
+      "crédit",
+      "enchanter",
+      "piston",
+      "thon",
+      "asperger"
+    ],
+    [
+      "immortalité",
+      "goupil",
+      "mystérieux",
+      "lumière",
+      "magie"
+    ],
+    [
+      "pointu",
+      "arc",
+      "chanter",
+      "inflammatoire",
+      "immortel"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    4,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "elfe",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

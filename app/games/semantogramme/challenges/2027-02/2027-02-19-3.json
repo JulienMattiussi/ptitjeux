@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-19-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "illuminer",
+      "confus",
+      "montagne",
+      "littéraire",
+      "agenouillement",
+      "forger"
+    ],
+    [
+      "arnaque",
+      "chasser",
+      "cessez-le-feu",
+      "primer",
+      "précoce",
+      "commande"
+    ],
+    [
+      "hurlement",
+      "potage",
+      "chaperon",
+      "primate",
+      "rusé",
+      "paliers"
+    ],
+    [
+      "résolution",
+      "pelage",
+      "crocs",
+      "vainqueur",
+      "gueule",
+      "meute"
+    ],
+    [
+      "budget",
+      "cortège",
+      "pédale",
+      "légende",
+      "brillant",
+      "parrain"
+    ],
+    [
+      "forêt",
+      "esclave",
+      "hurler",
+      "conte",
+      "rôder",
+      "oriflamme"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    4,
+    1,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "loup",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    4
+    3,
+    5
   ],
   "walls": [
     [
@@ -374,75 +374,75 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "N",
       "pos": [
-        2,
-        7
+        8,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "A",
+      "pos": [
+        8,
+        3
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "T",
+      "pos": [
+        8,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "R",
       "pos": [
         4,
         5
       ]
     },
     {
-      "id": "b3",
-      "letter": "V",
+      "id": "b5",
+      "letter": "O",
       "pos": [
         5,
         6
       ]
     },
     {
-      "id": "b4",
-      "letter": "E",
-      "pos": [
-        6,
-        7
-      ]
-    },
-    {
-      "id": "b5",
+      "id": "b6",
       "letter": "N",
       "pos": [
-        7,
+        4,
         7
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "T",
-      "pos": [
-        5,
-        5
       ]
     }
   ],
   "target": {
-    "word": "VIVENT",
+    "word": "NATRON",
     "cells": [
       [
-        3,
-        7
+        8,
+        2
       ],
       [
-        4,
-        7
+        8,
+        3
       ],
       [
-        5,
-        7
+        8,
+        4
       ],
       [
-        6,
-        7
+        8,
+        5
       ],
       [
-        7,
-        7
+        8,
+        6
       ],
       [
         8,
@@ -450,18 +450,15 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 7,
   "solution": [
-    "down",
     "right",
     "down",
-    "up",
     "right",
-    "down",
-    "down",
     "left",
     "down",
+    "right",
     "right"
   ],
-  "canonicalWord": "vivent"
+  "canonicalWord": "natron"
 }

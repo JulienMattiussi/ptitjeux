@@ -5,102 +5,102 @@
   "height": 6,
   "words": [
     [
-      "urticaire",
-      "glisser",
-      "autobloquant",
-      "silencieux",
-      "minute",
-      "embarras"
+      "étendre",
+      "fumée",
+      "rotatif",
+      "sortilège",
+      "sombrero",
+      "enrouler"
     ],
     [
-      "arrêt",
-      "urbain",
-      "imprenable",
-      "souvenir",
-      "collectif",
-      "transport"
+      "derby",
+      "cylindrée",
+      "film",
+      "nouvelle",
+      "bouteille",
+      "rime"
     ],
     [
-      "aiglon",
-      "dompteur",
-      "hilare",
-      "ligne",
-      "rouler",
-      "rondelet"
+      "empoigner",
+      "crayon",
+      "mauve",
+      "tonneau",
+      "levant",
+      "cylindre"
     ],
     [
-      "monter",
-      "voiture",
-      "éduquer",
-      "brailler",
-      "fil",
-      "escroquerie"
+      "poussin",
+      "flancher",
+      "colonne",
+      "tuyau",
+      "dégât",
+      "candidat"
     ],
     [
-      "rail",
-      "vannerie",
-      "broder",
-      "continent",
-      "spongieux",
-      "escalade"
+      "circonférence",
+      "tartine",
+      "chauve",
+      "clameur",
+      "tombeau",
+      "tube"
     ],
     [
-      "tram",
-      "écologique",
-      "caténaire",
-      "pélagique",
-      "circuler",
-      "historique"
+      "tapette",
+      "tubulaire",
+      "rouleau",
+      "gourmand",
+      "tour",
+      "cinématographie"
     ]
   ],
   "rowClues": [
     2,
-    4,
     2,
     3,
-    1,
-    5
+    2,
+    2,
+    3
   ],
   "colClues": [
-    4,
-    4,
     1,
+    3,
+    3,
     2,
-    4,
-    2
+    2,
+    3
   ],
-  "themeWord": "tramway",
+  "themeWord": "cylindrique",
   "solution": [
     [
       false,
-      true,
       false,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
       false
     ],
     [
-      true,
-      true,
-      false,
       false,
       true,
+      false,
+      true,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       true,
       false,
-      false,
-      true,
       false
     ],
     [
@@ -109,16 +109,16 @@
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

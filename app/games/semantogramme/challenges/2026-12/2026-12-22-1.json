@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "chaîne",
-      "saturne",
-      "décrépir",
-      "bijoutier"
+      "volley",
+      "natation",
+      "crocodile",
+      "doctorat"
     ],
     [
-      "fable",
-      "menton",
-      "cou",
-      "diamant"
+      "tango",
+      "escrime",
+      "course",
+      "gymnastique"
     ],
     [
-      "protectrice",
-      "pile",
-      "sautoir",
-      "ras"
+      "judo",
+      "pommade",
+      "radis",
+      "basket"
     ],
     [
-      "étoile",
-      "pendentif",
-      "tour",
-      "japon"
+      "boxe",
+      "football",
+      "tennis",
+      "vase"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
     2,
     2
   ],
-  "colClues": [
-    1,
-    1,
-    3,
-    3
-  ],
-  "themeWord": "collier",
+  "themeWord": "sport",
   "solution": [
     [
       true,
+      true,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
-      false,
+      true,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
+      false,
+      false,
       true
     ],
     [
-      false,
+      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

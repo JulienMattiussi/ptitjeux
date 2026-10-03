@@ -5,71 +5,57 @@
   "height": 5,
   "words": [
     [
-      "caillouteux",
-      "commencer",
-      "gueule",
-      "sympathique",
-      "férié"
+      "saler",
+      "grippe",
+      "céleste",
+      "anchois",
+      "mensuel"
     ],
     [
-      "jour",
-      "travail",
-      "bijou",
-      "fourbe",
-      "congé"
+      "planer",
+      "saumurer",
+      "judo",
+      "jambon",
+      "mécanique"
     ],
     [
-      "matin",
-      "loyer",
-      "tympan",
-      "reprendre",
-      "racine"
+      "tunnel",
+      "laminaire",
+      "assaisonner",
+      "salin",
+      "morue"
     ],
     [
-      "horaire",
-      "rentrée",
-      "semaine",
-      "réservé",
-      "hebdomadaire"
+      "sel",
+      "légume",
+      "sauveteur",
+      "paysage",
+      "fournaise"
     ],
     [
-      "reprise",
-      "matutinal",
-      "contrebasse",
-      "édredon",
-      "chiffon"
+      "sodé",
+      "sanctionner",
+      "saumâtre",
+      "mariner",
+      "foulard"
     ]
   ],
   "rowClues": [
     2,
+    2,
     3,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
     2,
     4,
     1
   ],
-  "colClues": [
-    4,
-    3,
-    1,
-    1,
-    3
-  ],
-  "themeWord": "lundi",
+  "themeWord": "salé",
   "solution": [
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
     [
       true,
       false,
@@ -78,10 +64,17 @@
       false
     ],
     [
-      true,
-      true,
+      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true
     ],
     [
@@ -89,8 +82,15 @@
       false,
       false,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

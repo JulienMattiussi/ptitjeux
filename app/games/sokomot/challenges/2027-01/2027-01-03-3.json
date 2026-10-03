@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    7,
-    3
+    4,
+    5
   ],
   "walls": [
     [
@@ -133,25 +133,25 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "A",
       "pos": [
-        3,
-        3
+        1,
+        5
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "L",
       "pos": [
-        4,
+        2,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "T",
       "pos": [
-        6,
+        3,
         4
       ]
     },
@@ -159,22 +159,34 @@
       "id": "b4",
       "letter": "O",
       "pos": [
-        3,
+        4,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "P",
+      "letter": "S",
       "pos": [
-        6,
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "SIROP",
+    "word": "ALTOS",
     "cells": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
       [
         3,
         2
@@ -182,48 +194,40 @@
       [
         4,
         1
-      ],
-      [
-        5,
-        2
-      ],
-      [
-        5,
-        3
-      ],
-      [
-        6,
-        4
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 29,
   "solution": [
-    "down",
-    "left",
-    "down",
-    "left",
     "up",
-    "up",
-    "left",
-    "up",
-    "left",
-    "left",
-    "down",
-    "down",
-    "right",
-    "up",
-    "down",
-    "right",
-    "down",
     "right",
     "up",
     "right",
-    "right",
-    "up",
     "up",
     "left",
-    "down"
+    "down",
+    "left",
+    "up",
+    "down",
+    "down",
+    "left",
+    "up",
+    "left",
+    "up",
+    "down",
+    "right",
+    "down",
+    "down",
+    "left",
+    "up",
+    "up",
+    "down",
+    "down",
+    "down",
+    "left",
+    "up",
+    "up",
+    "up"
   ],
-  "canonicalWord": "sirop"
+  "canonicalWord": "altos"
 }

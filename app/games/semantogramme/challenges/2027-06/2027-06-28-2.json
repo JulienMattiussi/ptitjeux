@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "traîner",
+      "patience",
+      "escargot",
+      "ralentir",
+      "raffinement"
+    ],
+    [
+      "galette",
+      "tardif",
+      "paresseux",
+      "lenteur",
+      "définir"
+    ],
+    [
+      "tortue",
+      "lambin",
+      "bruyante",
+      "libellule",
+      "artère"
+    ],
+    [
+      "mou",
+      "embellir",
+      "inertie",
+      "siècle",
+      "munster"
+    ],
+    [
+      "fourchette",
+      "flâner",
+      "éternité",
+      "napolitaine",
+      "tarder"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "lent",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

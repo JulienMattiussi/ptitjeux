@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    3
+    1,
+    1
   ],
   "walls": [
     [
@@ -98,45 +98,45 @@
     ],
     [
       1,
-      2
+      4
     ],
     [
       4,
-      4
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "I",
       "pos": [
         2,
-        2
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
-      "pos": [
-        3,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "T",
+      "letter": "L",
       "pos": [
         4,
         2
       ]
+    },
+    {
+      "id": "b3",
+      "letter": "E",
+      "pos": [
+        4,
+        3
+      ]
     }
   ],
   "target": {
-    "word": "POT",
+    "word": "ILE",
     "cells": [
       [
-        2,
+        3,
         1
       ],
       [
@@ -144,24 +144,25 @@
         2
       ],
       [
-        4,
+        3,
         3
       ]
     ]
   },
-  "parMoves": 11,
+  "parMoves": 12,
   "solution": [
-    "up",
+    "right",
     "down",
     "down",
+    "down",
     "right",
-    "up",
     "right",
     "right",
-    "up",
     "up",
     "left",
-    "down"
+    "right",
+    "up",
+    "left"
   ],
-  "canonicalWord": "pot"
+  "canonicalWord": "île"
 }

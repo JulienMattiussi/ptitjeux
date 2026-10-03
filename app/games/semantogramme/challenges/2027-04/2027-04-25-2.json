@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-25-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sueurs",
+      "indien",
+      "respiration",
+      "gourou",
+      "annuel"
+    ],
+    [
+      "tapis",
+      "sérénité",
+      "fleur",
+      "mantra",
+      "bâtiment"
+    ],
+    [
+      "méditer",
+      "posture",
+      "pratiquer",
+      "éducatif",
+      "chèque"
+    ],
+    [
+      "garnir",
+      "bas",
+      "tomme",
+      "relaxant",
+      "biliaire"
+    ],
+    [
+      "méditation",
+      "flair",
+      "maternel",
+      "cinéma",
+      "oriental"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "yoga",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

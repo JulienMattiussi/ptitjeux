@@ -5,74 +5,60 @@
   "height": 5,
   "words": [
     [
-      "longer",
-      "répétitif",
-      "sable",
-      "couteau",
-      "falaise"
+      "encre",
+      "élégant",
+      "lettre",
+      "phalange",
+      "pingouin"
     ],
     [
-      "cyan",
-      "crique",
-      "vague",
-      "boucan",
-      "maritime"
+      "aiguillée",
+      "écrire",
+      "abricot",
+      "possessif",
+      "rameau"
     ],
     [
-      "escarpé",
-      "durer",
-      "galet",
-      "levée",
-      "autoroute"
+      "chinois",
+      "sécher",
+      "procès",
+      "crétois",
+      "sarcasme"
     ],
     [
-      "prédateur",
-      "côtier",
-      "acheter",
-      "rocheux",
-      "transpercer"
+      "écriture",
+      "émail",
+      "fluide",
+      "tracer",
+      "papier"
     ],
     [
-      "côte",
-      "vente",
-      "sel",
-      "plage",
-      "fouler"
+      "galop",
+      "plume",
+      "cumulus",
+      "asiatique",
+      "pinceau"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    2,
-    2,
+    1,
+    1,
+    4,
     3
   ],
   "colClues": [
     3,
-    2,
     3,
     2,
-    3
+    2,
+    2
   ],
-  "themeWord": "rivage",
+  "themeWord": "calligraphie",
   "solution": [
     [
       true,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false
@@ -81,16 +67,30 @@
       false,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

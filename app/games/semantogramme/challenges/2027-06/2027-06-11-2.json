@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "miette",
+      "toile",
+      "noueuse",
+      "basse",
+      "bourgeon"
+    ],
+    [
+      "réchauffer",
+      "cessez-le-feu",
+      "rejeton",
+      "nid",
+      "souple"
+    ],
+    [
+      "rameau",
+      "camembert",
+      "pousser",
+      "canevas",
+      "bouton"
+    ],
+    [
+      "plâtre",
+      "feuillue",
+      "mue",
+      "saumurer",
+      "se ramifier"
+    ],
+    [
+      "verser",
+      "tronc",
+      "porte-jarretelles",
+      "haute",
+      "biographie"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "branche",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

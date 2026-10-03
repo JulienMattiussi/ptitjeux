@@ -5,91 +5,109 @@
   "height": 7,
   "words": [
     [
-      "tige",
-      "baudelaire",
-      "champ",
-      "est",
-      "strophe",
-      "fondre",
-      "pétillant"
+      "étrange",
+      "oeuf",
+      "ouvreur",
+      "fouiller",
+      "unique",
+      "pondre",
+      "monotrème"
     ],
     [
-      "inoccupé",
-      "orateur",
-      "atoll",
-      "haute",
-      "matinale",
-      "décoratif",
-      "toboggan"
+      "tatami",
+      "éperon",
+      "colley",
+      "iceberg",
+      "destinataire",
+      "aquatique",
+      "éviction"
     ],
     [
-      "équation",
-      "sentence",
-      "généreux",
-      "pousser",
-      "prolonger",
-      "accusé",
-      "cornu"
+      "queue",
+      "animer",
+      "endémique",
+      "lambin",
+      "souffler",
+      "baudruche",
+      "foudroyer"
     ],
     [
-      "rarissime",
-      "bonheur",
-      "client",
-      "femelle",
-      "rustique",
-      "bleu",
-      "rose"
+      "écrit",
+      "australie",
+      "primitif",
+      "mammifère",
+      "fanfare",
+      "canard",
+      "recueillir"
     ],
     [
-      "lacrimosa",
-      "pectoral",
-      "violet",
-      "bander",
-      "lampadaire",
-      "pétale",
-      "cultivé"
+      "larvaire",
+      "effectuer",
+      "bec",
+      "médaille",
+      "organique",
+      "aurore",
+      "inertie"
     ],
     [
-      "tromperie",
-      "banlieue",
-      "pion",
-      "graine",
-      "tester",
-      "plante",
-      "fleurir"
+      "jardin",
+      "nager",
+      "géomorphologue",
+      "égyptienne",
+      "rejeter",
+      "enraciner",
+      "venin"
     ],
     [
-      "président",
-      "fleur",
-      "sauvage",
-      "shampooing",
-      "jaune",
-      "lévi-strauss",
-      "épi"
+      "street",
+      "rougir",
+      "castor",
+      "volontaire",
+      "palmé",
+      "argent",
+      "bague"
     ]
   ],
   "rowClues": [
+    6,
     2,
     2,
+    4,
+    1,
     2,
-    3,
-    3,
-    3,
-    4
+    2
   ],
   "colClues": [
-    1,
-    1,
-    4,
-    3,
     2,
     4,
-    4
+    4,
+    2,
+    2,
+    3,
+    2
   ],
-  "themeWord": "lupin",
+  "themeWord": "ornithorynque",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
@@ -99,8 +117,8 @@
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false,
       true,
@@ -110,18 +128,18 @@
       false,
       false,
       true,
-      true,
+      false,
       false,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -129,27 +147,9 @@
       false,
       true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 19

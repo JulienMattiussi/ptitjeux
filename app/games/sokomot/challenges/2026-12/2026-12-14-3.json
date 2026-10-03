@@ -5,7 +5,7 @@
   "height": 8,
   "player": [
     6,
-    6
+    1
   ],
   "walls": [
     [
@@ -133,31 +133,31 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "N",
+      "pos": [
+        5,
+        1
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "O",
       "pos": [
         3,
         3
       ]
     },
     {
-      "id": "b2",
-      "letter": "E",
-      "pos": [
-        5,
-        4
-      ]
-    },
-    {
       "id": "b3",
-      "letter": "R",
+      "letter": "Y",
       "pos": [
         5,
-        5
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "S",
+      "letter": "A",
       "pos": [
         6,
         2
@@ -165,65 +165,54 @@
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "U",
       "pos": [
-        6,
-        5
+        7,
+        2
       ]
     }
   ],
   "target": {
-    "word": "VERSA",
+    "word": "NOYAU",
     "cells": [
       [
         4,
-        3
+        1
+      ],
+      [
+        4,
+        2
       ],
       [
         5,
-        3
-      ],
-      [
-        5,
-        4
+        1
       ],
       [
         6,
-        3
+        2
       ],
       [
         7,
-        3
+        2
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 14,
   "solution": [
-    "up",
-    "left",
-    "up",
-    "right",
-    "up",
-    "right",
-    "up",
-    "up",
     "left",
     "down",
-    "left",
     "left",
     "left",
     "left",
     "down",
     "right",
     "down",
-    "down",
     "right",
+    "up",
     "down",
     "right",
     "up",
-    "right",
-    "right",
     "up"
   ],
-  "canonicalWord": "versa"
+  "canonicalWord": "noyau"
 }

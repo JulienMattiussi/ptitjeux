@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    3
+    4,
+    1
   ],
   "walls": [
     [
@@ -97,35 +97,35 @@
       4
     ],
     [
-      5,
-      4
+      1,
+      2
     ],
     [
-      5,
-      2
+      2,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "F",
       "pos": [
-        2,
-        2
+        3,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        3,
+        4,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "S",
       "pos": [
         4,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "MUE",
+    "word": "FIS",
     "cells": [
       [
         2,
@@ -141,24 +141,24 @@
       ],
       [
         3,
-        1
+        2
       ],
       [
-        4,
-        2
+        3,
+        3
       ]
     ]
   },
   "parMoves": 8,
   "solution": [
-    "up",
-    "down",
-    "down",
-    "right",
-    "right",
-    "up",
     "left",
-    "up"
+    "right",
+    "right",
+    "down",
+    "left",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "mue"
+  "canonicalWord": "fis"
 }

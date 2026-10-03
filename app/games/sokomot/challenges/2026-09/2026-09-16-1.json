@@ -102,30 +102,30 @@
     ],
     [
       5,
-      4
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "A",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "N",
       "pos": [
         2,
         1
       ]
     },
     {
-      "id": "b2",
-      "letter": "A",
-      "pos": [
-        3,
-        3
-      ]
-    },
-    {
       "id": "b3",
-      "letter": "S",
+      "letter": "A",
       "pos": [
         4,
         3
@@ -133,15 +133,15 @@
     }
   ],
   "target": {
-    "word": "CAS",
+    "word": "ANA",
     "cells": [
       [
-        3,
-        1
+        2,
+        2
       ],
       [
         3,
-        2
+        1
       ],
       [
         4,
@@ -149,17 +149,21 @@
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 13,
   "solution": [
     "right",
     "down",
+    "right",
     "down",
     "down",
+    "right",
     "right",
     "up",
+    "left",
+    "left",
     "down",
-    "right",
+    "left",
     "up"
   ],
-  "canonicalWord": "cas"
+  "canonicalWord": "ana"
 }

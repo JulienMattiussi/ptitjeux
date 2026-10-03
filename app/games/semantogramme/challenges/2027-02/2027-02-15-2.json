@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-15-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "ennui",
+      "vision",
+      "percuter",
+      "mot",
+      "gouttelette"
+    ],
+    [
+      "causer",
+      "bavarder",
+      "organisme",
+      "monologue",
+      "éloquence"
+    ],
+    [
+      "parole",
+      "palabrer",
+      "parrain",
+      "dialogue",
+      "discours"
+    ],
+    [
+      "conversation",
+      "voix",
+      "manguier",
+      "couloir",
+      "caractériser"
+    ],
+    [
+      "astéroïde",
+      "verbiage",
+      "langue",
+      "phrase",
+      "converser"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    4,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "parler",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

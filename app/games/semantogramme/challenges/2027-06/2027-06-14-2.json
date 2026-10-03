@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "fortifier",
+      "aigle",
+      "tailler",
+      "puissant",
+      "jarretière"
+    ],
+    [
+      "cuisson",
+      "ponctuel",
+      "muscler",
+      "renforcer",
+      "colosse"
+    ],
+    [
+      "force",
+      "musclé",
+      "robuste",
+      "costaud",
+      "champignon"
+    ],
+    [
+      "mousseron",
+      "badigeonner",
+      "lion",
+      "rayé",
+      "cliquer"
+    ],
+    [
+      "taureau",
+      "malware",
+      "vigoureux",
+      "hercule",
+      "puissance"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    4,
+    1,
+    4
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "fort",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

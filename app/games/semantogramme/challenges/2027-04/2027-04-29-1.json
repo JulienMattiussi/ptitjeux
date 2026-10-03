@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "embouchure",
+      "airelle",
+      "inondation",
+      "estuaire"
+    ],
+    [
+      "roi",
+      "pont",
+      "voodoo",
+      "rive"
+    ],
+    [
+      "crue",
+      "jouet",
+      "source",
+      "massue"
+    ],
+    [
+      "barge",
+      "affluent",
+      "navigation",
+      "synthétique"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "fleuve",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

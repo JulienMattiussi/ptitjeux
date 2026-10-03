@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "tisonner",
-      "étrier",
-      "limbe",
-      "continental",
-      "détonation",
-      "pliante",
-      "humain"
+      "corné",
+      "lewitt",
+      "pure",
+      "animal",
+      "réservé",
+      "algorithme",
+      "péripétie"
     ],
     [
-      "climat",
-      "ère",
-      "apparition",
-      "arachide",
-      "tempéré",
-      "évolution",
-      "rebondissement"
+      "chaussette",
+      "bretagne",
+      "symphonique",
+      "noir",
+      "stable",
+      "éviction",
+      "intense"
     ],
     [
-      "récent",
-      "géologique",
-      "copeau",
-      "colonie",
-      "carillon",
-      "choucroute",
-      "tropical"
+      "chartreux",
+      "poulain",
+      "noodle",
+      "pelage",
+      "semoir",
+      "bain",
+      "refuge"
     ],
     [
-      "préhistoire",
-      "gamin",
-      "tremolo",
-      "fossile",
-      "tertiaire",
-      "cantilène",
-      "mammifère"
+      "ongulé",
+      "royale",
+      "poussée",
+      "génitrice",
+      "attente",
+      "usité",
+      "intrépide"
     ],
     [
-      "isolée",
-      "chandelle",
-      "cartable",
-      "fièvre",
-      "gala",
-      "glaciation",
-      "bulbe"
+      "noble",
+      "risquer",
+      "fortune",
+      "blatte",
+      "mustélidé",
+      "baffe",
+      "cintre"
     ],
     [
-      "fantasme",
-      "créatif",
-      "éventer",
-      "quaternaire",
-      "paléogène",
-      "logique",
-      "fastoyer"
+      "symbolique",
+      "synchrone",
+      "salinité",
+      "pourrir",
+      "héraldique",
+      "tomahawk",
+      "arborer"
     ],
     [
-      "sédiment",
-      "pissarro",
-      "jean",
-      "orbe",
-      "néogène",
-      "deuil",
-      "anneau"
+      "royal",
+      "queue",
+      "providentiel",
+      "fourrure",
+      "personnage",
+      "blanc",
+      "duchesse"
     ]
   ],
   "rowClues": [
     2,
-    5,
-    3,
-    4,
+    2,
+    1,
     1,
     2,
-    2
+    3,
+    5
   ],
   "colClues": [
+    3,
+    3,
+    1,
     4,
     2,
     1,
-    3,
-    4,
-    2,
-    3
+    2
   ],
-  "themeWord": "cénozoïque",
+  "themeWord": "hermine",
   "solution": [
     [
       false,
       false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       true,
       true,
+      false,
       true,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    5,
+    2,
     3
   ],
   "walls": [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "T",
       "pos": [
         3,
         3
@@ -141,88 +141,95 @@
     },
     {
       "id": "b2",
-      "letter": "U",
-      "pos": [
-        3,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "R",
-      "pos": [
-        3,
-        5
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "E",
-      "pos": [
-        5,
-        4
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "R",
+      "letter": "Y",
       "pos": [
         2,
         4
       ]
+    },
+    {
+      "id": "b3",
+      "letter": "P",
+      "pos": [
+        5,
+        2
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "O",
+      "pos": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "N",
+      "pos": [
+        4,
+        3
+      ]
     }
   ],
   "target": {
-    "word": "DURER",
+    "word": "TYPON",
     "cells": [
       [
-        3,
+        1,
         2
+      ],
+      [
+        2,
+        3
       ],
       [
         3,
         3
       ],
       [
-        3,
-        4
-      ],
-      [
         4,
         4
       ],
       [
-        4,
+        5,
         5
       ]
     ]
   },
-  "parMoves": 24,
+  "parMoves": 31,
   "solution": [
+    "up",
+    "right",
     "right",
     "down",
     "left",
-    "up",
     "left",
-    "left",
+    "right",
+    "down",
     "right",
     "up",
     "up",
-    "left",
+    "up",
+    "right",
+    "down",
+    "right",
     "down",
     "left",
+    "down",
+    "up",
+    "left",
+    "down",
     "left",
     "down",
     "down",
     "right",
     "up",
     "left",
+    "left",
     "up",
-    "right",
-    "down",
-    "down",
-    "down",
-    "right"
+    "left",
+    "up"
   ],
-  "canonicalWord": "durer"
+  "canonicalWord": "typon"
 }

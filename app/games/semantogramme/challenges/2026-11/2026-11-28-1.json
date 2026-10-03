@@ -5,60 +5,54 @@
   "height": 4,
   "words": [
     [
-      "tige",
-      "creux",
-      "tic-tac",
-      "écume"
+      "fresque",
+      "stéthoscope",
+      "essuyer",
+      "céramique"
     ],
     [
-      "ressac",
-      "converser",
-      "crête",
-      "marée"
+      "vitrail",
+      "sculpture",
+      "président",
+      "curry"
     ],
     [
-      "bord",
-      "hirondelle",
-      "rouleau",
-      "mouche"
+      "pèlerinage",
+      "caoutchouc",
+      "collage",
+      "aquarelle"
     ],
     [
-      "bolet",
-      "acidulé",
-      "tsunami",
-      "surf"
+      "bicaméral",
+      "source",
+      "peinture",
+      "tapisserie"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    2,
     2,
     2
   ],
   "colClues": [
     2,
     1,
-    3,
+    2,
     3
   ],
-  "themeWord": "vague",
+  "themeWord": "art",
   "solution": [
     [
-      false,
       true,
+      false,
       false,
       true
     ],
     [
       true,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      true,
       false
     ],
     [
@@ -66,7 +60,13 @@
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

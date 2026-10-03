@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "échouer",
-      "supporter",
-      "panier",
-      "rayon"
+      "moteur",
+      "page",
+      "horde",
+      "message"
     ],
     [
-      "cabine",
-      "bondir",
-      "basse",
-      "crépusculaire"
+      "fichier",
+      "gobelet",
+      "connexion",
+      "tabouret"
     ],
     [
-      "baignade",
-      "caisse",
-      "dos",
-      "vitrine"
+      "détrempé",
+      "balançoire",
+      "mot",
+      "radis"
     ],
     [
-      "expiration",
-      "étalage",
-      "enseigne",
-      "client"
+      "site",
+      "mythique",
+      "affection",
+      "lien"
     ]
   ],
   "rowClues": [
+    3,
     2,
     1,
-    2,
-    3
+    2
   ],
   "colClues": [
+    3,
     1,
     2,
-    2,
-    3
+    2
   ],
-  "themeWord": "magasin",
+  "themeWord": "internet",
   "solution": [
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
       true,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
-      true,
       false,
-      true
+      true,
+      false
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ]
   ],

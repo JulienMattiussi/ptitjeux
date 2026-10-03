@@ -6,7 +6,7 @@ import BouclePlayRoute from '~/routes/boucle.$date.$index'
 import SemantogrammePlayRoute from '~/routes/semantogramme.$date.$index'
 
 // Date qui existe dans le dataset commité — chaque jeu a 4 niveaux.
-const DATE = '2026-05-01'
+const DATE = '2026-10-01'
 
 function renderRoute(
   path: string,

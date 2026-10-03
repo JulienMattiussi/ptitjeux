@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     1,
-    4
+    3
   ],
   "walls": [
     [
@@ -97,27 +97,27 @@
       4
     ],
     [
-      5,
-      3
+      4,
+      2
     ],
     [
       5,
-      4
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "G",
       "pos": [
         1,
-        3
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "Y",
       "pos": [
         2,
         2
@@ -125,43 +125,40 @@
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "M",
       "pos": [
         3,
-        4
+        3
       ]
     }
   ],
   "target": {
-    "word": "SEC",
+    "word": "GYM",
     "cells": [
       [
         1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
         2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        2,
-        4
       ]
     ]
   },
-  "parMoves": 11,
+  "parMoves": 8,
   "solution": [
     "up",
-    "right",
-    "right",
+    "down",
     "right",
     "down",
-    "left",
-    "up",
-    "up",
+    "right",
     "up",
     "left",
-    "down"
+    "up"
   ],
-  "canonicalWord": "sec"
+  "canonicalWord": "gym"
 }

@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
+    8,
     3
   ],
   "walls": [
@@ -374,9 +374,9 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "C",
       "pos": [
-        5,
+        7,
         1
       ]
     },
@@ -384,21 +384,21 @@
       "id": "b2",
       "letter": "A",
       "pos": [
-        4,
+        6,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "V",
       "pos": [
-        5,
+        7,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "P",
+      "letter": "A",
       "pos": [
         1,
         4
@@ -406,7 +406,7 @@
     },
     {
       "id": "b5",
-      "letter": "R",
+      "letter": "L",
       "pos": [
         1,
         5
@@ -414,7 +414,7 @@
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "A",
       "pos": [
         1,
         6
@@ -422,7 +422,7 @@
     }
   ],
   "target": {
-    "word": "PAMPRE",
+    "word": "CAVALA",
     "cells": [
       [
         1,
@@ -450,15 +450,14 @@
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 6,
   "solution": [
     "left",
     "up",
     "left",
     "right",
     "up",
-    "left",
     "left"
   ],
-  "canonicalWord": "pampre"
+  "canonicalWord": "cavala"
 }

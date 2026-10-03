@@ -120,21 +120,17 @@
     ],
     [
       3,
-      2
-    ],
-    [
-      4,
       3
     ],
     [
-      3,
-      4
+      5,
+      3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "G",
       "pos": [
         4,
         1
@@ -142,67 +138,67 @@
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "A",
       "pos": [
-        4,
-        2
+        3,
+        4
       ]
     },
     {
       "id": "b3",
       "letter": "N",
       "pos": [
-        5,
+        2,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "G",
+      "letter": "T",
       "pos": [
-        2,
+        5,
         4
       ]
     }
   ],
   "target": {
-    "word": "LONG",
+    "word": "GANT",
     "cells": [
       [
         2,
         1
       ],
       [
-        2,
+        3,
         2
       ],
       [
-        3,
+        4,
         3
       ],
       [
-        4,
-        4
+        5,
+        2
       ]
     ]
   },
   "parMoves": 15,
   "solution": [
     "left",
-    "right",
+    "down",
+    "left",
+    "left",
+    "left",
     "down",
     "right",
     "down",
-    "left",
-    "up",
-    "left",
     "down",
-    "down",
-    "left",
-    "left",
-    "left",
+    "right",
     "up",
-    "right"
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "long"
+  "canonicalWord": "gant"
 }

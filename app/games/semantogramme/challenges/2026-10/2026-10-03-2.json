@@ -5,75 +5,82 @@
   "height": 5,
   "words": [
     [
-      "soyeux",
-      "frapper",
-      "porter",
-      "nourrir",
-      "doudou"
+      "urine",
+      "salaire",
+      "bouée",
+      "trentaine",
+      "bronzage"
     ],
     [
-      "théière",
-      "poupon",
-      "téter",
-      "enfant",
-      "allaiter"
+      "domaine",
+      "silencieuse",
+      "compter",
+      "mensuel",
+      "lunaire"
     ],
     [
-      "biberon",
-      "vanille",
-      "clocher",
-      "soldes",
-      "sillon"
+      "planifier",
+      "perceuse",
+      "rue",
+      "reproche",
+      "cycle"
     ],
     [
-      "pleurer",
-      "téfal",
-      "tétine",
-      "berceau",
-      "naître"
+      "long",
+      "écouler",
+      "janvier",
+      "mandrin",
+      "flèche"
     ],
     [
-      "côtier",
-      "nouveau-né",
-      "nourrisson",
-      "fatigue",
-      "minuscule"
+      "février",
+      "volley",
+      "court",
+      "calendrier",
+      "avril"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    4,
-    1,
-    4,
-    3
-  ],
-  "colClues": [
     2,
     2,
-    4,
-    3,
     4
   ],
-  "themeWord": "bébé",
+  "colClues": [
+    3,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "mois",
   "solution": [
     [
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       true,
       false,
-      false,
+      true,
       false,
       false
     ],
@@ -83,14 +90,7 @@
       true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

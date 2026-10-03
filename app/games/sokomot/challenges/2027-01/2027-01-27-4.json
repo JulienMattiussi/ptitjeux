@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    5
+    3,
+    3
   ],
   "walls": [
     [
@@ -376,54 +376,58 @@
       "id": "b1",
       "letter": "C",
       "pos": [
-        8,
-        2
+        4,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "H",
+      "letter": "I",
       "pos": [
-        8,
-        3
+        5,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "R",
       "pos": [
-        8,
-        4
+        4,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
+      "letter": "E",
       "pos": [
-        5,
-        5
+        8,
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "N",
       "pos": [
-        6,
-        6
+        8,
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "U",
+      "letter": "T",
       "pos": [
-        5,
-        7
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "CHARNU",
+    "word": "CIRENT",
     "cells": [
+      [
+        8,
+        1
+      ],
       [
         8,
         2
@@ -443,22 +447,18 @@
       [
         8,
         6
-      ],
-      [
-        8,
-        7
       ]
     ]
   },
   "parMoves": 7,
   "solution": [
     "right",
-    "down",
+    "up",
     "right",
     "left",
-    "down",
+    "up",
     "right",
     "right"
   ],
-  "canonicalWord": "charnu"
+  "canonicalWord": "cirent"
 }

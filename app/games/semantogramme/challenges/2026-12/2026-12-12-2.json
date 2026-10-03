@@ -5,67 +5,74 @@
   "height": 5,
   "words": [
     [
-      "évier",
-      "magique",
-      "rusé",
-      "toupie",
-      "mystérieux"
+      "recycler",
+      "pulmonaire",
+      "asthme",
+      "bronche",
+      "expirer"
     ],
     [
-      "garder",
-      "balai",
-      "caverne",
-      "instable",
-      "préparer"
+      "cage",
+      "alvéole",
+      "rite",
+      "forge",
+      "côte"
     ],
     [
-      "amère",
-      "forger",
-      "cabernet",
-      "articulation",
-      "jardin"
+      "volée",
+      "inspirer",
+      "oxygène",
+      "foc",
+      "lumbago"
     ],
     [
-      "chapeau",
-      "ski",
-      "trésor",
-      "malléole",
-      "barbe"
+      "élévation",
+      "souffle",
+      "thorax",
+      "vider",
+      "trachée"
     ],
     [
-      "tonte",
-      "creuser",
-      "lutin",
-      "farfadet",
-      "pioche"
+      "respiratoire",
+      "lionne",
+      "diaphragme",
+      "pneumonie",
+      "médicament"
     ]
   ],
   "rowClues": [
+    4,
     3,
     2,
-    2,
     3,
-    4
+    3
   ],
   "colClues": [
     2,
-    3,
     4,
-    1,
-    4
+    4,
+    2,
+    3
   ],
-  "themeWord": "gnome",
+  "themeWord": "poumon",
   "solution": [
     [
       false,
       true,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false
@@ -73,24 +80,17 @@
     [
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       true
     ],
     [
+      true,
       false,
       true,
       true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

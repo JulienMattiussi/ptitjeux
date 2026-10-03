@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    1
+    2,
+    2
   ],
   "walls": [
     [
@@ -133,55 +133,51 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "N",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
-      "pos": [
-        3,
-        5
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "S",
-      "pos": [
-        4,
-        2
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         6,
         2
       ]
     },
     {
-      "id": "b5",
-      "letter": "R",
+      "id": "b3",
+      "letter": "I",
       "pos": [
         5,
         3
       ]
+    },
+    {
+      "id": "b4",
+      "letter": "S",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        5,
+        5
+      ]
     }
   ],
   "target": {
-    "word": "RUSER",
+    "word": "NOISE",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
-        2,
-        3
+        3,
+        1
       ],
       [
         3,
@@ -189,42 +185,56 @@
       ],
       [
         4,
-        1
+        3
       ],
       [
         5,
-        2
+        3
+      ],
+      [
+        5,
+        4
       ]
     ]
   },
-  "parMoves": 26,
+  "parMoves": 36,
   "solution": [
-    "right",
-    "down",
     "left",
     "down",
+    "right",
+    "up",
+    "right",
+    "right",
+    "down",
     "down",
     "right",
-    "right",
-    "up",
-    "left",
-    "down",
-    "down",
-    "left",
-    "down",
-    "left",
-    "up",
-    "up",
-    "right",
-    "up",
-    "right",
-    "right",
-    "right",
-    "up",
     "right",
     "up",
     "left",
-    "left"
+    "down",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right",
+    "up",
+    "right",
+    "down",
+    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "left",
+    "left",
+    "right",
+    "right",
+    "down",
+    "down",
+    "down",
+    "down",
+    "left",
+    "up"
   ],
-  "canonicalWord": "ruser"
+  "canonicalWord": "noise"
 }

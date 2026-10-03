@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "rougeoyante",
+      "camion",
+      "crépitante",
+      "cap",
+      "allumer"
+    ],
+    [
+      "sonner",
+      "feu",
+      "flamme",
+      "gonflé",
+      "champignon"
+    ],
+    [
+      "culture",
+      "fumée",
+      "bûche",
+      "antihistaminique",
+      "mâcher"
+    ],
+    [
+      "altérée",
+      "tisonnier",
+      "bouddha",
+      "ancienne",
+      "jeunesse"
+    ],
+    [
+      "tisonner",
+      "ronflante",
+      "marteau",
+      "âtre",
+      "taire"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "cheminée",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

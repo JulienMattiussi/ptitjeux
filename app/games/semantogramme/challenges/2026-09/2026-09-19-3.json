@@ -5,100 +5,84 @@
   "height": 6,
   "words": [
     [
-      "illuminer",
-      "confus",
-      "montagne",
-      "littéraire",
-      "agenouillement",
-      "forger"
+      "étendre",
+      "siège",
+      "meuble",
+      "lire",
+      "toboggan",
+      "tissu"
     ],
     [
-      "arnaque",
-      "chasser",
-      "cessez-le-feu",
-      "primer",
-      "précoce",
-      "commande"
+      "ranger",
+      "autel",
+      "oriental",
+      "clameur",
+      "cuir",
+      "velours"
     ],
     [
-      "hurlement",
-      "potage",
-      "chaperon",
-      "primate",
-      "rusé",
-      "paliers"
+      "plat",
+      "syngnathe",
+      "cannelle",
+      "arête",
+      "paresser",
+      "profond"
     ],
     [
-      "résolution",
-      "pelage",
-      "crocs",
-      "vainqueur",
-      "gueule",
-      "meute"
+      "sofa",
+      "thon",
+      "long",
+      "battre",
+      "laitue",
+      "regarder"
     ],
     [
-      "budget",
-      "cortège",
-      "pédale",
-      "légende",
-      "brillant",
-      "parrain"
+      "discuter",
+      "corticoïde",
+      "spray",
+      "givre",
+      "allonger",
+      "palme"
     ],
     [
-      "forêt",
-      "esclave",
-      "hurler",
-      "conte",
-      "rôder",
-      "oriflamme"
+      "convertible",
+      "stupeur",
+      "chauve",
+      "afficher",
+      "reposer",
+      "coussin"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    5,
+    2,
+    2,
     3,
-    4,
-    1,
-    4
+    2,
+    3
   ],
   "colClues": [
-    2,
-    2,
     4,
+    1,
     2,
-    3,
-    1
+    1,
+    4,
+    5
   ],
-  "themeWord": "loup",
+  "themeWord": "canapé",
   "solution": [
     [
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false,
-      false,
-      false
+      true
     ],
     [
       false,
-      true,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       true,
       true
@@ -107,18 +91,34 @@
       false,
       false,
       false,
-      true,
       false,
-      false
+      true,
+      true
     ],
     [
       true,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

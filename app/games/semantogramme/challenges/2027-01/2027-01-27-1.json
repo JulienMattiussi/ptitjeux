@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "rénover",
-      "pont",
-      "toque",
-      "chevelure"
+      "pirouette",
+      "pupitre",
+      "gag",
+      "olympique"
     ],
     [
-      "gastronomie",
-      "commis",
-      "recette",
-      "personnage"
+      "carie",
+      "canard",
+      "caricature",
+      "parodie"
     ],
     [
-      "urée",
-      "casserole",
-      "restaurant",
-      "temporel"
+      "gué",
+      "sketch",
+      "oublier",
+      "natte"
     ],
     [
-      "jazz",
-      "four",
-      "carreau",
-      "tablier"
+      "aérosol",
+      "farce",
+      "blague",
+      "idyllique"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
+    2,
+    1,
     2
   ],
   "colClues": [
     1,
-    3,
+    2,
     3,
     1
   ],
-  "themeWord": "cuisinier",
+  "themeWord": "comédie",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
+      false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

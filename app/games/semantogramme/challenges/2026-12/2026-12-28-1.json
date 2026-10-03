@@ -5,54 +5,54 @@
   "height": 4,
   "words": [
     [
-      "éclipse",
-      "origan",
-      "recoller",
-      "pâte"
+      "dame",
+      "domino",
+      "souiller",
+      "radis"
     ],
     [
-      "console",
-      "garniture",
-      "hibernation",
-      "précieux"
+      "échec",
+      "annoncer",
+      "puzzle",
+      "concevoir"
     ],
     [
-      "napolitaine",
-      "parallèle",
-      "printemps",
-      "tomate"
+      "pion",
+      "vaillant",
+      "lait",
+      "belote"
     ],
     [
-      "jambon",
-      "asana",
-      "four",
-      "champignon"
+      "insulte",
+      "guépard",
+      "fournil",
+      "poker"
     ]
   ],
   "rowClues": [
     2,
-    1,
     2,
-    3
+    2,
+    1
   ],
   "colClues": [
-    2,
-    2,
+    3,
     1,
-    3
+    1,
+    2
   ],
-  "themeWord": "pizza",
+  "themeWord": "jeu",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      true
+      false
     ],
     [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
@@ -62,11 +62,11 @@
       true
     ],
     [
-      true,
       false,
-      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "vis",
-      "député",
-      "marteau",
-      "rénovation"
+      "cépage",
+      "cygne",
+      "couette",
+      "beaujolais"
     ],
     [
-      "longer",
-      "atelier",
-      "mois",
-      "perceuse"
+      "prisme",
+      "blanc",
+      "rosé",
+      "tonner"
     ],
     [
-      "apiculteur",
-      "scintiller",
-      "scie",
-      "nectar"
+      "tannin",
+      "rythme",
+      "rouge",
+      "division"
     ],
     [
-      "planche",
-      "vinaigre",
-      "téter",
-      "gibier"
+      "bordeaux",
+      "hôpital",
+      "haleine",
+      "champagne"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
-    2,
+    3,
     1,
     2,
     2
   ],
-  "themeWord": "bricolage",
+  "themeWord": "vin",
   "solution": [
     [
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true
     ],
     [
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false
@@ -65,8 +65,8 @@
       true,
       false,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

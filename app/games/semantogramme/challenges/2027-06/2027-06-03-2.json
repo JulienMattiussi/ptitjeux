@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-03-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "orthogonal",
+      "carreau",
+      "angle",
+      "tête",
+      "volume"
+    ],
+    [
+      "courroux",
+      "damier",
+      "ligoter",
+      "écorcer",
+      "rectiligne"
+    ],
+    [
+      "verre",
+      "gabriel",
+      "démon",
+      "pavé",
+      "losange"
+    ],
+    [
+      "échiquier",
+      "équinoxe",
+      "quadrillage",
+      "céleste",
+      "case"
+    ],
+    [
+      "cubique",
+      "rectangle",
+      "cube",
+      "agate",
+      "tuile"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "carré",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

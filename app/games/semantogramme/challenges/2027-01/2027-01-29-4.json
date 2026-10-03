@@ -5,122 +5,113 @@
   "height": 7,
   "words": [
     [
-      "segment",
-      "puissant",
-      "fou rire",
-      "jung",
-      "souterrain",
-      "lunette",
-      "goudron"
+      "sainte-sophie",
+      "hampe",
+      "rendez-vous",
+      "ciselure",
+      "historique",
+      "transcendant",
+      "tapette"
     ],
     [
-      "agile",
-      "étoile",
-      "crosse",
-      "comparée",
-      "lentille",
-      "crampe",
-      "pointer"
+      "rigoureux",
+      "érudit",
+      "ancien",
+      "paléographe",
+      "science",
+      "pondéreux",
+      "lire"
     ],
     [
-      "cahier",
-      "planète",
-      "chopin",
-      "pasteur",
-      "astronomique",
-      "exclusion",
-      "pinacle"
+      "sécheresse",
+      "voiron",
+      "parchemin",
+      "ériger",
+      "doctrine",
+      "spécialisé",
+      "crypter"
     ],
     [
-      "recueil",
-      "spectateur",
-      "tireur",
-      "précis",
-      "scruter",
-      "instrument",
-      "jambon"
+      "crasseux",
+      "tabac",
+      "humidifier",
+      "hébergement",
+      "pilier",
+      "savant",
+      "nectar"
     ],
     [
-      "établir",
-      "ciment",
-      "enjoliveur",
-      "orienter",
-      "archive",
-      "faille",
-      "spatial"
+      "crue",
+      "alpe",
+      "harpie",
+      "patte",
+      "mélanger",
+      "médiéval",
+      "genièvre"
     ],
     [
-      "continu",
-      "degré",
-      "sortie",
-      "loup-garou",
-      "hubble",
-      "ange",
-      "annoncer"
+      "analyser",
+      "cerne",
+      "préserver",
+      "alphabet",
+      "transcrire",
+      "ventouse",
+      "dard"
     ],
     [
-      "galaxie",
-      "agrandir",
-      "astre",
-      "mondial",
-      "curcuma",
-      "sahara",
-      "créatif"
+      "pétrole",
+      "manuscrit",
+      "odorant",
+      "urbaine",
+      "précéder",
+      "multiplication",
+      "caractère"
     ]
   ],
   "rowClues": [
+    1,
+    6,
     2,
+    1,
+    1,
     3,
-    2,
-    3,
-    2,
-    1,
-    3
-  ],
-  "colClues": [
-    1,
-    4,
-    1,
-    2,
-    4,
-    2,
     2
   ],
-  "themeWord": "télescope",
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "paléographie",
   "solution": [
     [
       false,
-      true,
       false,
       false,
       false,
       true,
+      false,
       false
     ],
     [
-      false,
       true,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false,
       true
     ],
     [
       false,
-      true,
-      false,
       false,
       true,
       false,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      true,
-      true,
       true,
       false
     ],
@@ -128,28 +119,37 @@
       false,
       false,
       false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 16

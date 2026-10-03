@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "caverne",
+      "plaisir",
+      "barbe",
+      "minier",
+      "pioche"
+    ],
+    [
+      "trésor",
+      "hache",
+      "universel",
+      "parole",
+      "frapper"
+    ],
+    [
+      "endormir",
+      "singe",
+      "imposte",
+      "légendaire",
+      "or"
+    ],
+    [
+      "mousquetaire",
+      "trapu",
+      "parer",
+      "forger",
+      "enterrement"
+    ],
+    [
+      "mine",
+      "causer",
+      "donjon",
+      "source",
+      "rouiller"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "nain",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

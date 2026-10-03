@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "vis",
+      "député",
+      "marteau",
+      "rénovation"
+    ],
+    [
+      "longer",
+      "atelier",
+      "mois",
+      "perceuse"
+    ],
+    [
+      "apiculteur",
+      "scintiller",
+      "scie",
+      "nectar"
+    ],
+    [
+      "planche",
+      "vinaigre",
+      "téter",
+      "gibier"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "bricolage",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

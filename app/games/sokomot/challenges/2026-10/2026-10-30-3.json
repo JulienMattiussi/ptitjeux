@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    6,
-    3
+    2,
+    4
   ],
   "walls": [
     [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "F",
       "pos": [
         3,
         2
@@ -141,97 +141,91 @@
     },
     {
       "id": "b2",
-      "letter": "N",
+      "letter": "I",
       "pos": [
-        6,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "L",
       "pos": [
-        5,
-        3
+        3,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "U",
+      "letter": "M",
       "pos": [
-        5,
-        5
+        3,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "S",
       "pos": [
-        6,
-        5
+        4,
+        4
       ]
     }
   ],
   "target": {
-    "word": "ENOUA",
+    "word": "FILMS",
     "cells": [
       [
-        4,
+        1,
+        1
+      ],
+      [
+        2,
         2
       ],
       [
-        4,
+        2,
         3
       ],
       [
-        5,
+        2,
         4
       ],
       [
-        6,
-        3
-      ],
-      [
-        7,
-        3
+        3,
+        4
       ]
     ]
   },
-  "parMoves": 33,
+  "parMoves": 27,
   "solution": [
+    "up",
+    "right",
+    "right",
     "down",
+    "left",
+    "right",
     "right",
     "down",
     "down",
     "left",
     "up",
+    "down",
+    "left",
+    "up",
+    "up",
+    "down",
+    "right",
+    "right",
+    "up",
+    "left",
+    "up",
+    "left",
     "up",
     "right",
     "up",
-    "up",
     "left",
-    "left",
-    "down",
-    "right",
-    "up",
-    "up",
-    "left",
-    "left",
-    "down",
-    "up",
-    "left",
-    "left",
-    "down",
-    "right",
-    "down",
-    "down",
-    "right",
-    "down",
-    "right",
-    "down",
-    "right",
-    "up",
-    "up"
+    "left"
   ],
-  "canonicalWord": "énoua"
+  "canonicalWord": "films"
 }

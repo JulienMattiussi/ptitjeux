@@ -4,7 +4,7 @@
   "width": 8,
   "height": 7,
   "player": [
-    2,
+    3,
     4
   ],
   "walls": [
@@ -115,93 +115,90 @@
   ],
   "ice": [
     [
-      2,
+      3,
       2
     ],
     [
-      4,
-      1
-    ],
-    [
-      4,
+      5,
       2
     ],
     [
-      4,
+      6,
       3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "P",
       "pos": [
-        2,
+        3,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "I",
       "pos": [
-        5,
-        1
+        2,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "C",
       "pos": [
         5,
-        2
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "O",
+      "letter": "A",
       "pos": [
-        5,
-        3
+        6,
+        4
       ]
     }
   ],
   "target": {
-    "word": "FARO",
+    "word": "PICA",
     "cells": [
       [
-        2,
-        1
-      ],
-      [
         3,
         1
       ],
       [
-        3,
+        4,
         2
       ],
       [
-        3,
-        3
+        5,
+        1
+      ],
+      [
+        6,
+        2
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 15,
   "solution": [
+    "up",
+    "left",
+    "left",
     "up",
     "right",
     "right",
     "down",
+    "down",
     "right",
+    "right",
+    "down",
     "right",
     "up",
     "left",
-    "right",
-    "up",
-    "left",
-    "right",
-    "up",
-    "left"
+    "up"
   ],
-  "canonicalWord": "faro"
+  "canonicalWord": "pica"
 }

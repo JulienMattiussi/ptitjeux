@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    5,
-    2
+    3,
+    4
   ],
   "walls": [
     [
@@ -133,15 +133,15 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "T",
       "pos": [
-        3,
-        3
+        5,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "I",
       "pos": [
         5,
         3
@@ -149,18 +149,18 @@
     },
     {
       "id": "b3",
-      "letter": "Z",
+      "letter": "R",
       "pos": [
         4,
-        2
+        4
       ]
     },
     {
       "id": "b4",
       "letter": "E",
       "pos": [
-        6,
-        2
+        7,
+        3
       ]
     },
     {
@@ -168,69 +168,54 @@
       "letter": "S",
       "pos": [
         6,
-        4
+        5
       ]
     }
   ],
   "target": {
-    "word": "GAZES",
+    "word": "TIRES",
     "cells": [
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        2
-      ],
       [
         4,
         1
       ],
       [
         5,
-        1
+        2
       ],
       [
-        5,
-        2
+        6,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
       ]
     ]
   },
-  "parMoves": 32,
+  "parMoves": 17,
   "solution": [
-    "left",
-    "down",
-    "left",
-    "down",
-    "left",
-    "up",
-    "up",
     "right",
-    "down",
-    "right",
-    "up",
-    "down",
-    "down",
     "right",
     "up",
     "right",
     "up",
-    "left",
+    "up",
     "left",
     "right",
     "down",
-    "down",
-    "down",
     "right",
-    "up",
-    "up",
-    "right",
-    "up",
+    "down",
     "left",
+    "left",
+    "down",
+    "down",
     "right",
-    "up",
-    "left"
+    "up"
   ],
-  "canonicalWord": "gazes"
+  "canonicalWord": "tires"
 }

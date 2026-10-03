@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    4
+    4,
+    1
   ],
   "walls": [
     [
@@ -97,44 +97,48 @@
       4
     ],
     [
-      1,
-      1
+      5,
+      2
     ],
     [
-      1,
-      4
+      5,
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "U",
+      "letter": "S",
       "pos": [
         3,
-        3
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "N",
+      "letter": "E",
       "pos": [
-        4,
+        2,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "N",
       "pos": [
-        4,
-        4
+        3,
+        3
       ]
     }
   ],
   "target": {
-    "word": "UNE",
+    "word": "SEN",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         3,
         2
@@ -142,24 +146,24 @@
       [
         4,
         3
-      ],
-      [
-        5,
-        4
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 13,
   "solution": [
+    "left",
     "right",
+    "down",
+    "down",
+    "down",
+    "left",
     "left",
     "up",
+    "right",
+    "left",
     "left",
     "up",
-    "up",
-    "right",
-    "right",
-    "down"
+    "right"
   ],
-  "canonicalWord": "une"
+  "canonicalWord": "sen"
 }

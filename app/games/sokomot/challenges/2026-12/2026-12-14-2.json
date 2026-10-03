@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    1
+    2,
+    4
   ],
   "walls": [
     [
@@ -115,61 +115,61 @@
   ],
   "ice": [
     [
-      4,
-      1
+      2,
+      2
     ],
     [
-      4,
-      2
+      3,
+      3
     ],
     [
       4,
       3
     ],
     [
-      4,
-      4
+      5,
+      2
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "H",
       "pos": [
-        5,
-        1
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "U",
       "pos": [
-        5,
-        2
+        3,
+        4
       ]
     },
     {
       "id": "b3",
       "letter": "A",
       "pos": [
-        5,
-        3
+        4,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "T",
       "pos": [
         5,
-        4
+        3
       ]
     }
   ],
   "target": {
-    "word": "VRAI",
+    "word": "HUAT",
     "cells": [
       [
-        3,
+        2,
         1
       ],
       [
@@ -177,27 +177,27 @@
         2
       ],
       [
-        3,
-        3
+        4,
+        2
       ],
       [
-        3,
-        4
+        5,
+        1
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
-    "left",
-    "right",
+    "up",
     "down",
-    "left",
-    "right",
     "down",
-    "left",
     "right",
+    "up",
     "down",
-    "left"
+    "right",
+    "up",
+    "right",
+    "up"
   ],
-  "canonicalWord": "vrai"
+  "canonicalWord": "huât"
 }

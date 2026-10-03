@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    1
+    2,
+    3
   ],
   "walls": [
     [
@@ -374,93 +374,91 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "A",
+      "pos": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "L",
       "pos": [
         4,
         2
       ]
     },
     {
-      "id": "b2",
-      "letter": "A",
-      "pos": [
-        2,
-        7
-      ]
-    },
-    {
       "id": "b3",
-      "letter": "T",
+      "letter": "C",
       "pos": [
         3,
-        7
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "Y",
       "pos": [
-        4,
-        3
+        8,
+        4
       ]
     },
     {
       "id": "b5",
       "letter": "N",
       "pos": [
-        5,
-        2
+        8,
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "T",
+      "letter": "E",
       "pos": [
-        7,
-        7
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "PATANT",
+    "word": "ALCYNE",
     "cells": [
       [
-        1,
-        7
+        8,
+        1
       ],
       [
-        2,
-        7
+        8,
+        2
       ],
       [
-        3,
-        7
+        8,
+        3
       ],
       [
-        4,
-        7
+        8,
+        4
       ],
       [
-        5,
-        7
+        8,
+        5
       ],
       [
-        6,
-        7
+        8,
+        6
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 7,
   "solution": [
-    "down",
-    "left",
-    "down",
-    "up",
-    "left",
-    "down",
     "right",
-    "down",
-    "left"
+    "up",
+    "right",
+    "left",
+    "up",
+    "right",
+    "right"
   ],
-  "canonicalWord": "pâtant"
+  "canonicalWord": "alcyne"
 }

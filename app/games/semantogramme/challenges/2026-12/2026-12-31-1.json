@@ -5,47 +5,53 @@
   "height": 4,
   "words": [
     [
+      "gâteau",
+      "soutenir",
+      "décoration",
+      "géologie"
+    ],
+    [
+      "anniversaire",
+      "cadeau",
+      "diagnostic",
+      "précis"
+    ],
+    [
+      "invitation",
+      "sonore",
       "feu",
-      "squelette",
-      "magazine",
-      "flirt"
+      "bal"
     ],
     [
-      "écarlate",
-      "ramure",
-      "pourpre",
-      "rubis"
-    ],
-    [
-      "apprenti",
-      "cramoisi",
-      "musclé",
-      "tisser"
-    ],
-    [
-      "col",
-      "cerise",
-      "vermillon",
-      "cristal"
+      "réparer",
+      "ballon",
+      "tenace",
+      "champagne"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    2,
     3,
-    1,
     2
   ],
   "colClues": [
+    3,
     2,
     2,
-    2,
-    1
+    2
   ],
-  "themeWord": "rouge",
+  "themeWord": "fête",
   "solution": [
     [
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
@@ -59,14 +65,8 @@
       false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

@@ -5,59 +5,80 @@
   "height": 5,
   "words": [
     [
-      "agilité",
-      "voltiger",
-      "transparente",
-      "aérien",
-      "menaçant"
+      "faiblesse",
+      "braisière",
+      "monter",
+      "océan",
+      "solide"
     ],
     [
-      "noodle",
-      "scier",
-      "travailler",
-      "spectacle",
-      "tourner"
+      "grue",
+      "carquois",
+      "paraître",
+      "maçon",
+      "maçonnerie"
     ],
     [
-      "aura",
-      "hulotte",
-      "trapèze",
-      "salto",
-      "souple"
+      "échafaudage",
+      "gouda",
+      "trébucher",
+      "fondation",
+      "après-midi"
     ],
     [
-      "maritime",
-      "voltige",
-      "corde",
-      "agile",
-      "sauter"
+      "sautoir",
+      "bâtir",
+      "pédagogie",
+      "chantier",
+      "cocotte"
     ],
     [
-      "beaujolais",
-      "discuter",
-      "aquarium",
-      "marchandise",
-      "équilibre"
+      "montante",
+      "vendange",
+      "élever",
+      "ériger",
+      "plan"
     ]
   ],
   "rowClues": [
+    1,
     3,
     2,
-    3,
-    4,
-    1
+    2,
+    3
   ],
   "colClues": [
+    2,
     1,
     2,
-    2,
     4,
-    4
+    2
   ],
-  "themeWord": "acrobate",
+  "themeWord": "construire",
   "solution": [
     [
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true,
@@ -66,31 +87,10 @@
     [
       false,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

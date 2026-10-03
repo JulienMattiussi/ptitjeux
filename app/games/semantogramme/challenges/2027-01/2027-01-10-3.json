@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "médiévale",
-      "mécanisée",
-      "fraude",
-      "manger",
-      "paletot",
-      "distance"
+      "ceinture",
+      "apposer",
+      "pharaon",
+      "insecte",
+      "aura",
+      "moulinet"
     ],
     [
-      "couteau",
-      "attraper",
-      "aisé",
-      "bougie",
-      "limaces",
-      "patte"
+      "antenne",
+      "patte",
+      "papier",
+      "antigène",
+      "tas",
+      "basilic"
     ],
     [
-      "crucifère",
-      "épine",
+      "coléoptère",
+      "examiner",
+      "rhinocéros",
+      "symbolique",
+      "aiguisoir",
+      "igloo"
+    ],
+    [
+      "hiéroglyphe",
+      "physique",
+      "bouse",
       "rouler",
-      "élever",
-      "boule",
-      "mammifère"
+      "attaque",
+      "capricorne"
     ],
     [
-      "forêt",
-      "aumône",
-      "gratteler",
-      "haie",
-      "velu",
-      "petit"
+      "noir",
+      "éponge",
+      "cerf-volant",
+      "doré",
+      "tombeau",
+      "élytre"
     ],
     [
-      "ministériel",
-      "défense",
-      "nocturne",
-      "feuille",
-      "promenade",
-      "jardin"
-    ],
-    [
-      "patriarche",
-      "paysage",
-      "fratrie",
-      "piquant",
-      "lèvre",
-      "plongée"
+      "caramélisé",
+      "amulette",
+      "iridescent",
+      "précieuse",
+      "traîneau",
+      "égypte"
     ]
   ],
   "rowClues": [
-    1,
     2,
+    2,
+    3,
     4,
     4,
-    4,
-    1
+    3
   ],
   "colClues": [
-    1,
-    2,
-    2,
     4,
+    2,
+    5,
     3,
-    4
+    1,
+    3
   ],
-  "themeWord": "hérisson",
+  "themeWord": "scarabée",
   "solution": [
     [
       false,
       false,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
       false,
-      true,
-      true
+      false,
+      false,
+      false
     ],
     [
       true,
       false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
+    4,
     2
   ],
   "walls": [
@@ -133,93 +133,102 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "T",
       "pos": [
-        3,
-        3
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
-      "pos": [
-        3,
-        5
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "L",
-      "pos": [
-        3,
+        2,
         2
       ]
     },
     {
-      "id": "b4",
-      "letter": "C",
+      "id": "b2",
+      "letter": "A",
       "pos": [
         5,
+        2
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "R",
+      "pos": [
+        6,
         4
       ]
     },
     {
-      "id": "b5",
-      "letter": "O",
+      "id": "b4",
+      "letter": "S",
       "pos": [
-        6,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "DELCO",
+    "word": "TARSE",
     "cells": [
       [
-        3,
-        2
-      ],
-      [
         4,
-        3
+        1
       ],
       [
         5,
-        3
+        1
+      ],
+      [
+        5,
+        2
       ],
       [
         6,
-        4
+        2
       ],
       [
-        7,
+        6,
         3
       ]
     ]
   },
-  "parMoves": 21,
+  "parMoves": 30,
   "solution": [
+    "down",
+    "right",
+    "up",
     "right",
     "right",
     "down",
     "down",
     "left",
+    "down",
+    "left",
     "up",
     "down",
     "left",
-    "down",
-    "right",
-    "down",
-    "right",
-    "up",
-    "up",
-    "right",
-    "up",
-    "right",
     "up",
     "up",
     "left",
-    "down"
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "right",
+    "down",
+    "right",
+    "right",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "delco"
+  "canonicalWord": "tarse"
 }

@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    3
+    4,
+    2
   ],
   "walls": [
     [
@@ -133,26 +133,26 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "F",
       "pos": [
-        2,
+        3,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "C",
+      "letter": "A",
       "pos": [
-        4,
-        3
+        2,
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "D",
       "pos": [
-        2,
-        5
+        3,
+        4
       ]
     },
     {
@@ -160,25 +160,21 @@
       "letter": "E",
       "pos": [
         5,
-        4
+        2
       ]
     },
     {
       "id": "b5",
       "letter": "R",
       "pos": [
-        6,
+        5,
         4
       ]
     }
   ],
   "target": {
-    "word": "OCRER",
+    "word": "FADER",
     "cells": [
-      [
-        2,
-        1
-      ],
       [
         2,
         2
@@ -193,40 +189,37 @@
       ],
       [
         5,
+        3
+      ],
+      [
+        6,
         4
       ]
     ]
   },
-  "parMoves": 28,
+  "parMoves": 21,
   "solution": [
+    "left",
+    "right",
     "up",
-    "down",
+    "right",
     "down",
     "left",
     "down",
-    "right",
     "down",
     "right",
-    "up",
-    "up",
-    "right",
-    "up",
     "down",
     "down",
-    "right",
-    "up",
-    "down",
-    "right",
-    "right",
-    "up",
+    "left",
+    "left",
     "left",
     "up",
+    "up",
+    "right",
+    "left",
     "left",
     "up",
-    "left",
-    "down",
-    "up",
-    "left"
+    "right"
   ],
-  "canonicalWord": "ocrer"
+  "canonicalWord": "fader"
 }

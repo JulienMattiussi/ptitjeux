@@ -5,82 +5,68 @@
   "height": 5,
   "words": [
     [
-      "vésicule",
-      "silence",
-      "aligner",
-      "illustrer",
-      "vaillance"
+      "radieux",
+      "probe",
+      "cercueil",
+      "tramway",
+      "nocturne"
     ],
     [
-      "jardin",
-      "vacances",
-      "prier",
-      "vigne",
-      "assembler"
+      "froncer",
+      "transylvanie",
+      "canine",
+      "transformer",
+      "sang"
     ],
     [
-      "poser",
-      "ancien",
-      "prière",
-      "gouvernemental",
-      "cellule"
+      "lune",
+      "armée",
+      "cassure",
+      "mordre",
+      "dracula"
     ],
     [
-      "méditer",
-      "moine",
-      "dramatique",
-      "liturgie",
-      "austère"
+      "fabriquer",
+      "sucer",
+      "irrigation",
+      "immortel",
+      "salle"
     ],
     [
-      "travailler",
-      "fastueux",
-      "heurter",
-      "ramper",
-      "religieux"
+      "sanguinaire",
+      "implorer",
+      "transilvanien",
+      "château",
+      "nuit"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    3,
+    2,
     4,
-    2
+    3,
+    2,
+    4
   ],
   "colClues": [
-    3,
-    3,
     2,
     2,
-    3
+    3,
+    4,
+    4
   ],
-  "themeWord": "monastère",
+  "themeWord": "vampire",
   "solution": [
     [
       false,
-      true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true,
       true
     ],
@@ -88,9 +74,23 @@
       true,
       false,
       false,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

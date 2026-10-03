@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
+    3,
     7
   ],
   "walls": [
@@ -374,34 +374,34 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "F",
       "pos": [
-        4,
+        1,
         6
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         2,
-        1
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "T",
       "pos": [
         3,
-        1
+        6
       ]
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         4,
-        5
+        1
       ]
     },
     {
@@ -409,12 +409,12 @@
       "letter": "E",
       "pos": [
         5,
-        6
+        1
       ]
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "S",
       "pos": [
         7,
         1
@@ -422,7 +422,7 @@
     }
   ],
   "target": {
-    "word": "CARTER",
+    "word": "FETEES",
     "cells": [
       [
         1,
@@ -455,12 +455,12 @@
     "up",
     "left",
     "up",
-    "right",
-    "up",
-    "left",
     "down",
     "left",
-    "up"
+    "up",
+    "right",
+    "up",
+    "left"
   ],
-  "canonicalWord": "carter"
+  "canonicalWord": "fêtées"
 }

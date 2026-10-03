@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "mort-vivant",
-      "farine",
-      "apprenti",
-      "écosystème"
+      "commencement",
+      "avion",
+      "velouté",
+      "douane"
     ],
     [
-      "pain",
-      "vermillon",
-      "poussière",
-      "pétrin"
+      "tour",
+      "lapin",
+      "soirée",
+      "embarquement"
     ],
     [
-      "baguette",
-      "mie",
-      "canne",
-      "four"
+      "veau",
+      "passager",
+      "hôtesse",
+      "atterrissage"
     ],
     [
-      "éclosion",
-      "levure",
-      "fournil",
-      "pâte"
+      "pilote",
+      "terminal",
+      "piste",
+      "mousquetaire"
     ]
   ],
   "rowClues": [
@@ -41,31 +41,31 @@
     2,
     3
   ],
-  "themeWord": "boulanger",
+  "themeWord": "aéroport",
   "solution": [
     [
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 10

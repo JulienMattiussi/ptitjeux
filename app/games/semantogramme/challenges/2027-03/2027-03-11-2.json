@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "magnésie",
+      "longueur",
+      "lance",
+      "apnée",
+      "brasse"
+    ],
+    [
+      "plongeon",
+      "salmonidé",
+      "maillot",
+      "bouée",
+      "fougue"
+    ],
+    [
+      "nageur",
+      "bonnet",
+      "va-et-vient",
+      "papillon",
+      "crawl"
+    ],
+    [
+      "flotter",
+      "calmar",
+      "bassin",
+      "pédalier",
+      "spectacle"
+    ],
+    [
+      "roupiller",
+      "piscine",
+      "palme",
+      "adoration",
+      "émancipation"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "nager",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

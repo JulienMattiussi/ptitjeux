@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "médiévale",
+      "mécanisée",
+      "fraude",
+      "manger",
+      "paletot",
+      "distance"
+    ],
+    [
+      "couteau",
+      "attraper",
+      "aisé",
+      "bougie",
+      "limaces",
+      "patte"
+    ],
+    [
+      "crucifère",
+      "épine",
+      "rouler",
+      "élever",
+      "boule",
+      "mammifère"
+    ],
+    [
+      "forêt",
+      "aumône",
+      "gratteler",
+      "haie",
+      "velu",
+      "petit"
+    ],
+    [
+      "ministériel",
+      "défense",
+      "nocturne",
+      "feuille",
+      "promenade",
+      "jardin"
+    ],
+    [
+      "patriarche",
+      "paysage",
+      "fratrie",
+      "piquant",
+      "lèvre",
+      "plongée"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    4,
+    4,
+    4,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "hérisson",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

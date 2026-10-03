@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "avion",
+      "division",
+      "omoplate",
+      "dévorer",
+      "appât"
+    ],
+    [
+      "théâtre",
+      "dorsal",
+      "scoliose",
+      "échine",
+      "effort"
+    ],
+    [
+      "reins",
+      "californien",
+      "bossu",
+      "nuque",
+      "lisse"
+    ],
+    [
+      "coloré",
+      "pencher",
+      "limpidité",
+      "somnoler",
+      "lombaire"
+    ],
+    [
+      "lumbago",
+      "épine",
+      "vertèbre",
+      "royal",
+      "sciatique"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "dos",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    1
+    2,
+    2
   ],
   "walls": [
     [
@@ -133,95 +133,97 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "P",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        5,
+        4,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        5,
+        3,
         4
       ]
     },
     {
       "id": "b4",
-      "letter": "F",
+      "letter": "T",
       "pos": [
-        6,
-        2
+        4,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         6,
-        5
+        4
       ]
     }
   ],
   "target": {
-    "word": "SUIFA",
+    "word": "PIETE",
     "cells": [
       [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
         4,
-        2
+        6
       ],
       [
         5,
-        1
-      ],
-      [
-        6,
-        2
-      ],
-      [
-        7,
-        2
-      ],
-      [
-        7,
-        3
+        6
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 25,
   "solution": [
-    "left",
-    "down",
     "right",
     "down",
-    "right",
-    "down",
-    "right",
-    "up",
-    "up",
-    "right",
     "down",
     "left",
-    "down",
-    "down",
+    "left",
+    "up",
     "right",
     "up",
+    "up",
+    "right",
+    "right",
     "down",
     "down",
     "right",
+    "right",
+    "down",
+    "down",
+    "right",
+    "down",
+    "left",
     "up",
     "up",
     "left",
-    "up"
+    "left",
+    "down"
   ],
-  "canonicalWord": "suifa"
+  "canonicalWord": "piète"
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "livrer",
-      "tramway",
-      "bandeau",
-      "galion"
+      "mule",
+      "basket",
+      "cacahuète",
+      "sandale"
     ],
     [
-      "jambe",
-      "liesse",
-      "fermier",
-      "diagnostic"
+      "bottine",
+      "espadrille",
+      "voyage",
+      "acide"
     ],
     [
-      "crâne",
-      "parfumé",
-      "lumbago",
-      "colle"
+      "richelieu",
+      "mine",
+      "croisée",
+      "pantoufle"
     ],
     [
-      "abordage",
-      "mât",
-      "drapeau",
-      "article"
+      "cime",
+      "astronaute",
+      "botte",
+      "chausson"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    1,
-    1,
-    3
+    2,
+    2
   ],
   "colClues": [
     3,
-    1,
     2,
-    1
+    1,
+    3
   ],
-  "themeWord": "pirate",
+  "themeWord": "chaussure",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
     [
       false,
       false,
       true,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "avaler",
-      "mal",
-      "chanter",
-      "crocodile",
-      "messe",
-      "pharynx"
+      "paume",
+      "délicat",
+      "verdâtre",
+      "adoucir",
+      "ventoline",
+      "gambader"
     ],
     [
-      "lisse",
-      "habiter",
-      "parler",
-      "tranchée",
-      "cou",
-      "tintement"
+      "ère",
+      "taper",
+      "choc",
+      "bomber",
+      "gourmade",
+      "caldeira"
     ],
     [
-      "maille",
-      "inertie",
-      "sablière",
-      "larynx",
-      "couverture",
-      "lombric"
+      "goutte",
+      "battre",
+      "kidnapper",
+      "hip-hop",
+      "urine",
+      "fraction"
     ],
     [
-      "enrouée",
-      "corticoïde",
-      "empocher",
-      "thèse",
-      "serrée",
-      "douleur"
+      "dessinateur",
+      "pectorale",
+      "rosser",
+      "baffe",
+      "matraquer",
+      "tabasser"
     ],
     [
-      "amygdale",
-      "dynamisme",
-      "rasoir",
-      "briques",
-      "profonde",
-      "permanente"
+      "cogner",
+      "bourrade",
+      "poche",
+      "attentif",
+      "gondole",
+      "heurter"
     ],
     [
-      "se confier",
-      "paella",
-      "angine",
-      "tousser",
-      "allure",
-      "pastille"
+      "taquiner",
+      "assommer",
+      "rocheux",
+      "jambon",
+      "ravissement",
+      "impact"
     ]
   ],
   "rowClues": [
-    4,
-    4,
     1,
     3,
+    1,
+    4,
     3,
     2
   ],
   "colClues": [
+    2,
     4,
+    2,
     1,
-    4,
-    3,
-    3,
-    2
+    2,
+    3
   ],
-  "themeWord": "gorge",
+  "themeWord": "frapper",
   "solution": [
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false,
       true
     ],
     [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
-      false
-    ],
-    [
-      true,
       false,
       false,
-      false,
-      true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

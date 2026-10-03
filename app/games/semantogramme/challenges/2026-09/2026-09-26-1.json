@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "roulade",
-      "alphabet",
-      "barre",
-      "défraîchir"
+      "éclipse",
+      "astre",
+      "renne",
+      "dégoût"
     ],
     [
-      "soyeux",
-      "satellite",
-      "taguer",
-      "vrille"
+      "aurore",
+      "transcendance",
+      "vif",
+      "midi"
     ],
     [
-      "saut",
-      "odorat",
-      "extincteur",
-      "final"
+      "photosynthèse",
+      "lumière",
+      "levant",
+      "chaleur"
     ],
     [
-      "parallèle",
-      "cheval",
-      "collant",
-      "saule"
+      "crépuscule",
+      "mandarine",
+      "rayonnement",
+      "rayon"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    1,
+    2,
+    2,
     3
   ],
   "colClues": [
     3,
-    1,
     2,
-    1
+    1,
+    3
   ],
-  "themeWord": "gymnastique",
+  "themeWord": "soleil",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       false
     ],
     [
+      true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       true
     ],
     [
       true,
       false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

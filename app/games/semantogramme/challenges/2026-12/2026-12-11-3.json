@@ -5,100 +5,76 @@
   "height": 6,
   "words": [
     [
-      "tempo",
-      "trémousser",
-      "profonde",
-      "neige",
-      "large",
-      "manche"
+      "cinéma",
+      "chauffeur",
+      "attente",
+      "course",
+      "compteur",
+      "service"
     ],
     [
-      "mécanique",
-      "libraire",
-      "fourrure",
-      "corps-de-ballet",
-      "outil",
-      "ennemi"
+      "tressée",
+      "lime",
+      "croire",
+      "monter",
+      "voiture",
+      "productif"
     ],
     [
-      "narine",
-      "avancer",
-      "soulever",
-      "croiser",
-      "fragilité",
-      "aimanter"
+      "défiler",
+      "tarif",
+      "battre",
+      "rapide",
+      "ligament",
+      "vibrer"
     ],
     [
-      "bêche",
-      "enfant",
-      "bruit",
-      "terrassement",
-      "jeter",
-      "creuser"
+      "commander",
+      "vendeur",
+      "jaune",
+      "tresse",
+      "aéroport",
+      "payer"
     ],
     [
-      "écraser",
-      "traîner",
-      "pencher",
-      "canne",
-      "plate",
-      "rentrée"
+      "repos",
+      "hiver",
+      "âne",
+      "cylindrique",
+      "retenir",
+      "transporter"
     ],
     [
-      "laver",
-      "attaquant",
-      "plage",
-      "détaler",
-      "lame",
-      "jumelé"
+      "descendre",
+      "urbain",
+      "vaste",
+      "sorbier",
+      "asperger",
+      "reprise"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    1,
     5,
+    2,
+    2,
+    4,
     1,
     2
   ],
   "colClues": [
     2,
-    1,
     3,
     2,
-    5,
-    2
+    3,
+    3,
+    3
   ],
-  "themeWord": "pelle",
+  "themeWord": "taxi",
   "solution": [
     [
       false,
-      false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       true,
       true
@@ -107,18 +83,42 @@
       false,
       false,
       false,
-      false,
+      true,
       true,
       false
     ],
     [
       false,
-      false,
       true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

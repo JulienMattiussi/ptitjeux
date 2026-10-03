@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "espèce",
+      "saut",
+      "lame",
+      "roulette"
+    ],
+    [
+      "agrafeuse",
+      "glace",
+      "maquillé",
+      "moelleux"
+    ],
+    [
+      "glisser",
+      "trancher",
+      "exploration",
+      "cessez-le-feu"
+    ],
+    [
+      "piste",
+      "étinceler",
+      "arabesque",
+      "putride"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "patinage",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

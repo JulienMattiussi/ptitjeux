@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    7
+    8,
+    5
   ],
   "walls": [
     [
@@ -374,93 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "C",
       "pos": [
-        2,
-        1
+        1,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "H",
       "pos": [
-        4,
-        1
+        1,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "A",
       "pos": [
-        5,
-        1
+        1,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
-      "pos": [
-        6,
-        6
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "E",
+      "letter": "N",
       "pos": [
         7,
         5
       ]
     },
     {
-      "id": "b6",
-      "letter": "Z",
+      "id": "b5",
+      "letter": "G",
       "pos": [
-        8,
+        6,
         6
+      ]
+    },
+    {
+      "id": "b6",
+      "letter": "E",
+      "pos": [
+        7,
+        7
       ]
     }
   ],
   "target": {
-    "word": "FERREZ",
+    "word": "CHANGE",
     "cells": [
       [
-        3,
-        1
+        1,
+        2
       ],
       [
-        4,
-        1
+        1,
+        3
       ],
       [
-        5,
-        1
+        1,
+        4
       ],
       [
-        6,
-        1
+        1,
+        5
       ],
       [
-        7,
-        1
+        1,
+        6
       ],
       [
-        8,
-        1
+        1,
+        7
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 6,
   "solution": [
-    "up",
-    "right",
-    "up",
     "left",
-    "up",
+    "down",
+    "left",
     "right",
     "down",
-    "right",
-    "up"
+    "left"
   ],
-  "canonicalWord": "ferrez"
+  "canonicalWord": "change"
 }

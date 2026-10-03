@@ -5,44 +5,44 @@
   "height": 5,
   "words": [
     [
-      "américain",
-      "autorité",
-      "temps",
-      "sportif",
-      "tirer"
+      "épée",
+      "pauser",
+      "horloge",
+      "sieste",
+      "restaurer"
     ],
     [
-      "rapide",
-      "équipe",
-      "rebond",
-      "coulisser",
-      "expression"
+      "engloutir",
+      "festival",
+      "translucide",
+      "restaurant",
+      "femelle"
     ],
     [
-      "collectif",
-      "cavalier",
-      "arbitre",
-      "terrain",
-      "panneau"
+      "soleil",
+      "gronder",
+      "manger",
+      "déjeuner",
+      "méridien"
     ],
     [
-      "nid",
-      "répéter",
-      "ballon",
-      "maillot",
-      "couteau"
+      "plein",
+      "étalage",
+      "zénital",
+      "pis",
+      "inertie"
     ],
     [
-      "pulsation",
-      "sauter",
-      "puissance",
-      "dribbler",
-      "panier"
+      "pause",
+      "apogée",
+      "sandwich",
+      "nervure",
+      "frisée"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
+    1,
     4,
     2,
     3
@@ -50,24 +50,24 @@
   "colClues": [
     3,
     2,
-    3,
     4,
-    3
+    3,
+    2
   ],
-  "themeWord": "basket",
+  "themeWord": "midi",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      false,
+      true,
       false
     ],
     [
@@ -78,19 +78,19 @@
       true
     ],
     [
-      false,
+      true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

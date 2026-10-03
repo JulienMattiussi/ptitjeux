@@ -5,90 +5,90 @@
   "height": 6,
   "words": [
     [
-      "aigre",
-      "ancrer",
-      "large",
-      "âcre",
-      "innovation",
-      "cosmos"
+      "retourner",
+      "volant",
+      "fémur",
+      "navigation",
+      "manège",
+      "ring"
     ],
     [
-      "rassembler",
-      "miroir",
-      "jardin",
-      "congo",
-      "sable",
-      "visuel"
+      "pivot",
+      "auditif",
+      "travée",
+      "virer",
+      "molaire",
+      "budget"
     ],
     [
-      "jardinier",
-      "lisser",
-      "gravier",
-      "long",
-      "plane",
-      "aplanir"
+      "humble",
+      "envelopper",
+      "vrille",
+      "manivelle",
+      "réception",
+      "rotation"
     ],
     [
-      "ratisser",
-      "éteindre",
-      "replet",
-      "récurrente",
-      "choir",
-      "plage"
+      "tournoyer",
+      "pirouetter",
+      "permanente",
+      "enrouler",
+      "fumé",
+      "toupie"
     ],
     [
-      "chariot",
-      "pêche",
-      "dent",
-      "circulaire",
-      "aimer",
-      "foin"
+      "orbiter",
+      "sans-fil",
+      "embaumement",
+      "spiraler",
+      "volter",
+      "girouette"
     ],
     [
-      "sifflet",
-      "herbe",
-      "cystite",
-      "pharaon",
-      "branche",
-      "manche"
+      "écouter",
+      "côtelette",
+      "inverser",
+      "feuillage",
+      "cheminer",
+      "épaisse"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    5,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     3,
     2,
     4,
-    1,
-    1,
-    4
+    4,
+    4,
+    1
   ],
-  "themeWord": "râteau",
+  "colClues": [
+    4,
+    3,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "tourner",
   "solution": [
     [
-      false,
-      false,
+      true,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true,
       false
     ],
     [
       true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
       true,
@@ -97,10 +97,18 @@
     ],
     [
       true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
@@ -109,16 +117,8 @@
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

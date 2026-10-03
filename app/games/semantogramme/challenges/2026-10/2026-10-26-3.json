@@ -5,73 +5,81 @@
   "height": 6,
   "words": [
     [
-      "jaune",
-      "nid",
-      "piqûre",
-      "écurie",
-      "smash",
-      "venin"
+      "améthyste",
+      "éplucher",
+      "sandwich",
+      "inébranlable",
+      "bouteille",
+      "tranche"
     ],
     [
-      "pôle",
-      "épingle",
-      "tueur",
-      "don",
-      "rite",
-      "colonie"
+      "cylindrique",
+      "tzatziki",
+      "rond",
+      "lapereau",
+      "commercialiser",
+      "jardin"
     ],
     [
-      "téléski",
-      "taon",
-      "aiguillon",
-      "butiner",
-      "agresser",
-      "descendante"
+      "eau",
+      "champion",
+      "guide",
+      "serre",
+      "brasser",
+      "vitamine"
     ],
     [
-      "sustenter",
-      "seigneur",
-      "noir",
-      "maudire",
-      "cirrhose",
-      "effrayer"
+      "lactaire",
+      "rafraîchissant",
+      "modeste",
+      "respiration",
+      "imbiber",
+      "frais"
     ],
     [
-      "choyer",
-      "aile",
-      "bouche",
-      "gobelet",
-      "bricolée",
-      "fruit"
+      "infecter",
+      "épépiner",
+      "télescopique",
+      "alexandrin",
+      "légume",
+      "risqué"
     ],
     [
-      "emmental",
-      "gueule",
-      "obscurité",
-      "lésiner",
-      "frelon",
-      "écarlate"
+      "beethoven",
+      "fumée",
+      "long",
+      "cru",
+      "pain",
+      "monstre"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    4,
-    2,
-    2,
-    1
-  ],
-  "colClues": [
-    1,
     3,
     4,
-    1,
     2,
-    4
+    2,
+    2,
+    2
   ],
-  "themeWord": "guêpe",
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "concombre",
   "solution": [
     [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
       true,
@@ -80,9 +88,17 @@
       true
     ],
     [
+      true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       true
@@ -90,8 +106,8 @@
     [
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ],
@@ -99,24 +115,8 @@
       false,
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
       false
     ]
   ],

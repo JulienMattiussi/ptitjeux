@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    5
+    4,
+    7
   ],
   "walls": [
     [
@@ -374,90 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "U",
       "pos": [
-        8,
-        2
+        2,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "N",
       "pos": [
-        8,
-        3
+        4,
+        6
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "I",
       "pos": [
-        8,
-        4
+        5,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "D",
+      "letter": "R",
       "pos": [
-        2,
-        5
+        6,
+        1
       ]
     },
     {
       "id": "b5",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        3,
-        6
+        7,
+        1
       ]
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "Z",
       "pos": [
-        2,
-        7
+        5,
+        6
       ]
     }
   ],
   "target": {
-    "word": "NORDIR",
+    "word": "UNIREZ",
     "cells": [
       [
-        8,
-        2
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
       ],
       [
         8,
-        3
-      ],
-      [
-        8,
-        4
-      ],
-      [
-        8,
-        5
-      ],
-      [
-        8,
-        6
-      ],
-      [
-        8,
-        7
+        1
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 9,
   "solution": [
+    "up",
     "right",
-    "down",
-    "right",
+    "up",
     "left",
+    "up",
+    "right",
     "down",
-    "right"
+    "right",
+    "up"
   ],
-  "canonicalWord": "nordir"
+  "canonicalWord": "unirez"
 }

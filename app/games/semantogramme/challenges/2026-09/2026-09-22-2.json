@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "léger",
-      "immeuble",
-      "cultiver",
-      "moulinet",
-      "limite"
+      "galoper",
+      "curiosité",
+      "galop",
+      "homme",
+      "trait"
     ],
     [
-      "expliquer",
-      "tonus",
-      "rigide",
-      "recyclable",
-      "déménagement"
+      "grec",
+      "baisotter",
+      "ouvrière",
+      "légendaire",
+      "éternuer"
     ],
     [
-      "épais",
-      "recycler",
-      "résistant",
-      "plier",
-      "vainqueur"
+      "sauvage",
+      "grèce",
+      "étendre",
+      "profusion",
+      "patins"
     ],
     [
-      "recyclage",
-      "paquet",
-      "cartable",
-      "griffonner",
-      "emballer"
+      "barbe",
+      "voltaire",
+      "mythique",
+      "grand",
+      "arc"
     ],
     [
-      "tonne",
-      "cartonnage",
-      "colique",
-      "ténèbres",
-      "plaque"
+      "enrouée",
+      "moisson",
+      "chasser",
+      "mythologie",
+      "forêt"
     ]
   ],
   "rowClues": [
-    1,
     3,
-    4,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
-    3,
+    2,
     2,
     2,
     3
   ],
-  "themeWord": "carton",
+  "colClues": [
+    3,
+    1,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "centaure",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ],
     [
+      true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       true,
       false
     ],
@@ -82,15 +75,22 @@
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true
     ],
     [
       false,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

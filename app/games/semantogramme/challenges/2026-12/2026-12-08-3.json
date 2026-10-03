@@ -5,76 +5,108 @@
   "height": 6,
   "words": [
     [
-      "longitude",
-      "tennis",
-      "épaulette",
-      "herbe",
-      "brûlure",
-      "honnêteté"
+      "mandat",
+      "roquette",
+      "manche",
+      "mobile",
+      "corné",
+      "pilote"
     ],
     [
-      "décollage",
-      "loyal",
-      "sincérité",
-      "avouer",
-      "confier",
-      "lactaire"
+      "abeille",
+      "cendrier",
+      "évacuation",
+      "planer",
+      "gestation",
+      "aride"
     ],
     [
-      "sucrer",
-      "bagage",
-      "franc",
-      "respecter",
-      "maraîcher",
-      "franchise"
+      "pâle",
+      "bruyant",
+      "tutu",
+      "aéroport",
+      "transat",
+      "inspirer"
     ],
     [
-      "sincère",
-      "vinification",
-      "tempe",
-      "intègre",
-      "probité",
-      "éthique"
+      "voler",
+      "survoler",
+      "humour",
+      "campus",
+      "décoller",
+      "respecter"
     ],
     [
-      "lionceau",
-      "probe",
-      "intégrité",
-      "transparence",
-      "tenir",
-      "diplôme"
+      "sauvetage",
+      "hélistation",
+      "vol",
+      "coeur",
+      "cérébral",
+      "urgence"
     ],
     [
-      "mortel",
-      "loyauté",
-      "minier",
-      "fondre",
-      "droiture",
-      "soufflé"
+      "carotte",
+      "cockpit",
+      "compteur",
+      "machine",
+      "rotor",
+      "atterrir"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     3,
-    4,
-    4,
-    2
-  ],
-  "colClues": [
-    1,
+    2,
     3,
     3,
-    4,
     4,
     3
   ],
-  "themeWord": "honnête",
+  "colClues": [
+    3,
+    4,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "hélicoptère",
   "solution": [
     [
       false,
       false,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       false,
       true
@@ -82,42 +114,10 @@
     [
       false,
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 18

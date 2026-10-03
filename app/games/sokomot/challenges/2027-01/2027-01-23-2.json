@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    1
+    2,
+    5
   ],
   "walls": [
     [
@@ -115,29 +115,29 @@
   ],
   "ice": [
     [
-      4,
-      1
-    ],
-    [
-      4,
-      2
-    ],
-    [
-      4,
+      2,
       3
     ],
     [
       4,
-      4
+      1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "P",
       "pos": [
-        5,
-        1
+        2,
+        4
       ]
     },
     {
@@ -145,29 +145,33 @@
       "letter": "O",
       "pos": [
         5,
-        2
+        1
       ]
     },
     {
       "id": "b3",
       "letter": "L",
       "pos": [
-        5,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "O",
       "pos": [
-        5,
+        4,
         4
       ]
     }
   ],
   "target": {
-    "word": "TOLE",
+    "word": "POLO",
     "cells": [
+      [
+        2,
+        2
+      ],
       [
         3,
         1
@@ -177,27 +181,26 @@
         2
       ],
       [
-        3,
-        3
-      ],
-      [
-        3,
-        4
+        4,
+        2
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 13,
   "solution": [
-    "left",
-    "right",
+    "up",
     "down",
-    "left",
     "right",
+    "up",
     "down",
-    "left",
     "right",
-    "down",
+    "up",
+    "up",
+    "right",
+    "up",
+    "right",
+    "up",
     "left"
   ],
-  "canonicalWord": "tôle"
+  "canonicalWord": "polo"
 }

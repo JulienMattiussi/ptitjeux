@@ -5,7 +5,7 @@
   "height": 8,
   "player": [
     2,
-    1
+    3
   ],
   "walls": [
     [
@@ -133,48 +133,52 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "P",
       "pos": [
-        3,
-        3
+        2,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "V",
+      "letter": "U",
       "pos": [
         2,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "I",
-      "pos": [
-        3,
-        2
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "E",
-      "pos": [
-        6,
         4
       ]
     },
     {
-      "id": "b5",
-      "letter": "R",
+      "id": "b3",
+      "letter": "C",
       "pos": [
-        5,
+        3,
         3
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "H",
+      "pos": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        3,
+        2
       ]
     }
   ],
   "target": {
-    "word": "EVIER",
+    "word": "PUCHE",
     "cells": [
+      [
+        1,
+        2
+      ],
       [
         2,
         3
@@ -185,47 +189,39 @@
       ],
       [
         4,
-        2
+        1
       ],
       [
         4,
-        3
-      ],
-      [
-        5,
         2
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 23,
   "solution": [
-    "down",
-    "right",
     "left",
-    "left",
-    "down",
-    "down",
-    "right",
     "up",
-    "right",
-    "down",
-    "right",
-    "right",
     "up",
     "right",
     "right",
+    "left",
+    "down",
+    "right",
+    "down",
+    "right",
+    "down",
     "down",
     "left",
+    "up",
+    "up",
     "left",
-    "left",
-    "left",
+    "right",
+    "down",
     "down",
     "left",
     "up",
     "left",
-    "up",
-    "up",
-    "right"
+    "up"
   ],
-  "canonicalWord": "évier"
+  "canonicalWord": "puche"
 }

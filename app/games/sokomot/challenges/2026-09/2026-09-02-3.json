@@ -5,7 +5,7 @@
   "height": 8,
   "player": [
     5,
-    4
+    5
   ],
   "walls": [
     [
@@ -133,97 +133,100 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "C",
       "pos": [
-        4,
-        2
+        3,
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        3,
-        3
+        4,
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "D",
       "pos": [
-        6,
-        4
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "G",
-      "pos": [
-        5,
+        2,
         3
       ]
     },
     {
-      "id": "b5",
+      "id": "b4",
       "letter": "E",
       "pos": [
-        6,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "T",
+      "pos": [
+        5,
         2
       ]
     }
   ],
   "target": {
-    "word": "BAUGE",
+    "word": "CADET",
     "cells": [
       [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
         3,
-        2
+        3
       ],
       [
         4,
-        3
+        4
       ],
       [
         5,
-        4
-      ],
-      [
-        6,
         3
-      ],
-      [
-        7,
-        4
       ]
     ]
   },
-  "parMoves": 25,
+  "parMoves": 28,
   "solution": [
-    "left",
-    "up",
     "right",
     "up",
     "left",
-    "right",
-    "right",
+    "down",
+    "left",
+    "left",
     "up",
-    "right",
+    "up",
     "down",
     "down",
     "down",
     "left",
-    "down",
-    "down",
+    "up",
+    "left",
+    "up",
+    "up",
     "right",
     "up",
-    "left",
-    "left",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down",
     "left",
     "left",
     "up",
     "left",
-    "up",
-    "right"
+    "down"
   ],
-  "canonicalWord": "bauge"
+  "canonicalWord": "cadet"
 }

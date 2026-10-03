@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     2,
-    4
+    3
   ],
   "walls": [
     [
@@ -97,27 +97,27 @@
       4
     ],
     [
-      5,
-      4
+      1,
+      2
     ],
     [
-      5,
-      2
+      1,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "C",
       "pos": [
         2,
-        3
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "U",
       "pos": [
         3,
         2
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "L",
       "pos": [
         4,
         2
@@ -133,11 +133,11 @@
     }
   ],
   "target": {
-    "word": "SON",
+    "word": "CUL",
     "cells": [
       [
         2,
-        2
+        1
       ],
       [
         3,
@@ -149,14 +149,15 @@
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 7,
   "solution": [
     "up",
+    "down",
     "right",
     "up",
     "down",
     "right",
     "up"
   ],
-  "canonicalWord": "son"
+  "canonicalWord": "cul"
 }

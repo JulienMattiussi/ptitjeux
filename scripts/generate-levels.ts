@@ -5,8 +5,8 @@
  *   tsx scripts/generate-levels.ts [options]
  *
  * Options :
- *   --start <YYYY-MM-DD>   Date de début (défaut : 2026-04-01)
- *   --end <YYYY-MM-DD>     Date de fin   (défaut : 2027-01-31)
+ *   --start <YYYY-MM-DD>   Date de début (défaut : 2026-09-01)
+ *   --end <YYYY-MM-DD>     Date de fin   (défaut : propre à chaque jeu)
  *   --game <id>            Restreindre à un jeu (sokomot|boucle|semantogramme|anglemort).
  *                          Peut être répété : --game sokomot --game boucle
  *   --level <n>            Restreindre à un niveau (1..4). Peut être répété.
@@ -33,16 +33,16 @@ import { generateBoucleLevel } from '../generators/boucle.js'
 import { generateSemantogrammeLevel } from '../generators/semantogramme.js'
 import { generateSokomotLevel } from '../generators/sokomot.js'
 
-const DEFAULT_START = '2026-04-01'
-const DEFAULT_END = '2027-01-31'
+const DEFAULT_START = '2026-09-01'
 
 const ROOT = path.resolve(import.meta.dirname, '..')
 
 const ALL_GAMES = [
-  { id: 'sokomot', generator: generateSokomotLevel },
-  { id: 'boucle', generator: generateBoucleLevel },
-  { id: 'semantogramme', generator: generateSemantogrammeLevel },
-  { id: 'anglemort', generator: generateAngleMortLevel },
+  // `end` : fin par défaut de la plage couverte par chaque jeu.
+  { id: 'sokomot', generator: generateSokomotLevel, end: '2027-07-03' },
+  { id: 'boucle', generator: generateBoucleLevel, end: '2027-07-03' },
+  { id: 'semantogramme', generator: generateSemantogrammeLevel, end: '2027-07-03' },
+  { id: 'anglemort', generator: generateAngleMortLevel, end: '2027-09-30' },
 ] as const
 
 type GameId = (typeof ALL_GAMES)[number]['id']
@@ -52,13 +52,14 @@ const ALL_LEVELS: readonly LevelIndex[] = [1, 2, 3, 4] as const
 
 function parseArgs(argv: readonly string[]): {
   start: string
-  end: string
+  /** Absent : chaque jeu utilise sa propre fin par défaut. */
+  end: string | undefined
   games: readonly GameId[]
   levels: readonly LevelIndex[]
   clean: boolean
 } {
   let start = DEFAULT_START
-  let end = DEFAULT_END
+  let end: string | undefined
   const games = new Set<GameId>()
   const levels = new Set<LevelIndex>()
   let clean = false
@@ -128,7 +129,7 @@ function printHelp(): void {
 
 Options :
   --start <YYYY-MM-DD>   Date de début (défaut : ${DEFAULT_START})
-  --end   <YYYY-MM-DD>   Date de fin   (défaut : ${DEFAULT_END})
+  --end   <YYYY-MM-DD>   Date de fin   (défaut : propre à chaque jeu)
   --game  <id>           Jeu à générer (sokomot|boucle|semantogramme|anglemort). Répétable.
   --level <n>            Niveau à générer (1..4). Répétable.
   --clean                Supprimer les fichiers du filtre avant régénération.
@@ -139,10 +140,9 @@ filtre sont écrasés.`)
 }
 
 const opts = parseArgs(process.argv.slice(2))
-const dates = dateRange(opts.start, opts.end)
 const selectedGames = ALL_GAMES.filter((g) => opts.games.includes(g.id))
 
-console.log(`Génération de ${dates.length} jours (${opts.start} → ${opts.end})`)
+console.log(`Génération à partir du ${opts.start}${opts.end ? ` jusqu'au ${opts.end}` : ''}`)
 console.log(`  jeux   : ${opts.games.join(', ')}`)
 console.log(`  niveaux: ${opts.levels.join(', ')}`)
 if (opts.clean) console.log(`  --clean activé : suppression des fichiers du filtre avant écriture`)
@@ -151,6 +151,7 @@ let total = 0
 for (const game of selectedGames) {
   const root = path.join(ROOT, 'app/games', game.id, 'challenges')
   await fs.mkdir(root, { recursive: true })
+  const dates = dateRange(opts.start, opts.end ?? game.end)
 
   if (opts.clean) {
     for (const date of dates) {
@@ -174,7 +175,9 @@ for (const game of selectedGames) {
       total += 1
     }
   }
-  console.log(`  ${game.id} : ${written} fichiers écrits`)
+  console.log(
+    `  ${game.id} : ${written} fichiers écrits (${dates[0]} → ${dates[dates.length - 1]})`,
+  )
 }
 
 console.log(`✓ ${total} niveaux générés au total.`)

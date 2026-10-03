@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "huile",
-      "gouache",
-      "spiritual",
-      "confessionnal",
-      "cortège"
+      "natation",
+      "assise",
+      "rafraîchissant",
+      "effrayer",
+      "municipale"
     ],
     [
-      "couleur",
-      "nouveauté",
-      "pigment",
-      "chevalet",
-      "pinceau"
+      "maillot",
+      "large",
+      "tresse",
+      "mobile",
+      "plongeoir"
     ],
     [
-      "forum",
-      "acrylique",
-      "expressif",
-      "enduire",
-      "peintre"
+      "bloc",
+      "olympique",
+      "bain",
+      "transat",
+      "bassin"
     ],
     [
-      "fresque",
-      "tableau",
-      "shopping",
-      "toile",
-      "odorante"
+      "gonflable",
+      "chlore",
+      "eau",
+      "moule",
+      "optique"
     ],
     [
-      "colorier",
-      "peinture",
-      "badigeonner",
-      "titane",
-      "frire"
+      "fulgurant",
+      "barboter",
+      "longueur",
+      "plonger",
+      "charger"
     ]
   ],
   "rowClues": [
+    3,
     2,
     4,
-    3,
     3,
     3
   ],
   "colClues": [
-    4,
+    3,
+    3,
     4,
     2,
-    3,
-    2
+    3
   ],
-  "themeWord": "peindre",
+  "themeWord": "piscine",
   "solution": [
     [
       true,
+      false,
       true,
       false,
-      false,
-      false
+      true
     ],
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
-      false,
+      true,
       true,
       true
     ],
     [
       true,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       false
     ]
   ],

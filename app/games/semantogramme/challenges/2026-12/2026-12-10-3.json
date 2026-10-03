@@ -5,85 +5,93 @@
   "height": 6,
   "words": [
     [
-      "cirque",
-      "rotation",
-      "manoeuvrer",
-      "volte",
-      "culbute",
-      "cédrat"
+      "cosmique",
+      "parfait",
+      "globe",
+      "arrondir",
+      "circulaire",
+      "collectif"
     ],
     [
-      "virer",
-      "gyrer",
-      "mousse",
-      "cuisinier",
-      "minutieux",
-      "charnière"
+      "beffroi",
+      "oeuf",
+      "redingote",
+      "coudre",
+      "ballon",
+      "logique"
     ],
     [
-      "mélancolique",
-      "révolution",
-      "sous-sol",
-      "orienter",
-      "incliner",
-      "géant"
+      "pomme",
+      "cassant",
+      "ébahissement",
+      "sphère",
+      "spasmodique",
+      "orbe"
     ],
     [
-      "tournant",
-      "continu",
-      "changer",
-      "moine",
-      "concevoir",
-      "citrouille"
+      "mécanicien",
+      "bulle",
+      "féminité",
+      "piétiner",
+      "épousseter",
+      "fermenté"
     ],
     [
-      "gond",
-      "industrie",
-      "tour",
-      "bourrasque",
-      "détoxification",
-      "caillou"
+      "concombre",
+      "grisaille",
+      "goutte",
+      "sauterelle",
+      "tracer",
+      "astronomique"
     ],
     [
-      "mouvoir",
-      "extraction",
-      "roulement",
-      "bruyant",
-      "tournoyer",
-      "axe"
+      "galet",
+      "lion",
+      "rouler",
+      "midi",
+      "bougie",
+      "globulaire"
     ]
   ],
   "rowClues": [
     4,
-    3,
-    3,
     2,
+    3,
+    1,
     2,
-    4
+    3
   ],
   "colClues": [
-    4,
     3,
-    4,
     2,
     3,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "pivoter",
+  "themeWord": "sphérique",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       true,
       true,
       false
     ],
     [
-      true,
+      false,
       true,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       false,
       true
     ],
@@ -91,9 +99,17 @@
       false,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
     ],
     [
       true,
@@ -101,24 +117,8 @@
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

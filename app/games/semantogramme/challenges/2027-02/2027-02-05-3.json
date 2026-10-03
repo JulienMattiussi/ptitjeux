@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-05-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "inférieur",
+      "gamin",
+      "efficace",
+      "mollusque",
+      "jazz",
+      "indien"
+    ],
+    [
+      "humidité",
+      "république",
+      "transpiration",
+      "brun",
+      "pluvieux",
+      "vélo"
+    ],
+    [
+      "ronge",
+      "annoncer",
+      "sécréter",
+      "crochet",
+      "magnétique",
+      "gastéropode"
+    ],
+    [
+      "brasse",
+      "bolet",
+      "bave",
+      "long",
+      "piaf",
+      "légume"
+    ],
+    [
+      "oar",
+      "noir",
+      "nuisible",
+      "lent",
+      "glisser",
+      "rikiki"
+    ],
+    [
+      "poisson",
+      "mou",
+      "ouvrir",
+      "interpréter",
+      "frisée",
+      "vendeur"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "limace",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

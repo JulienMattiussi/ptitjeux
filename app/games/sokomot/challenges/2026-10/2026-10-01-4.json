@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    7
+    1,
+    5
   ],
   "walls": [
     [
@@ -374,93 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "L",
       "pos": [
-        2,
-        1
+        8,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "O",
       "pos": [
-        4,
-        1
+        8,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "U",
       "pos": [
-        5,
-        1
+        8,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "S",
+      "letter": "R",
       "pos": [
-        6,
-        6
+        2,
+        5
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        7,
-        5
+        3,
+        6
       ]
     },
     {
       "id": "b6",
-      "letter": "Z",
+      "letter": "E",
       "pos": [
-        8,
-        6
+        2,
+        7
       ]
     }
   ],
   "target": {
-    "word": "BRISEZ",
+    "word": "LOUREE",
     "cells": [
       [
-        3,
-        1
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        5,
-        1
-      ],
-      [
-        6,
-        1
-      ],
-      [
-        7,
-        1
+        8,
+        2
       ],
       [
         8,
-        1
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 6,
   "solution": [
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
     "right",
     "down",
     "right",
-    "up"
+    "left",
+    "down",
+    "right"
   ],
-  "canonicalWord": "brisez"
+  "canonicalWord": "lourée"
 }

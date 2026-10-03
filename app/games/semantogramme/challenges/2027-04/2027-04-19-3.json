@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-19-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "honorer",
+      "fourchette",
+      "ranger",
+      "décorer",
+      "bienfaiteur",
+      "penser"
+    ],
+    [
+      "médaille",
+      "prime",
+      "fait main",
+      "déception",
+      "blesser",
+      "remise"
+    ],
+    [
+      "bonus",
+      "remettre",
+      "beau",
+      "cumul",
+      "ingénieur",
+      "imprimerie"
+    ],
+    [
+      "pourboire",
+      "souvenir",
+      "verdâtre",
+      "distinction",
+      "couronner",
+      "cédrat"
+    ],
+    [
+      "écuyer",
+      "tannin",
+      "voeu",
+      "grèce",
+      "trophée",
+      "gémissement"
+    ],
+    [
+      "vol",
+      "primer",
+      "gratifier",
+      "mériter",
+      "chant",
+      "condor"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    1,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "récompenser",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

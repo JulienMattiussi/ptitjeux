@@ -97,19 +97,19 @@
       4
     ],
     [
-      2,
+      4,
       4
     ],
     [
-      1,
-      1
+      2,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "F",
       "pos": [
         3,
         2
@@ -117,23 +117,23 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "O",
       "pos": [
         4,
-        3
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "U",
       "pos": [
         5,
-        3
+        2
       ]
     }
   ],
   "target": {
-    "word": "GUI",
+    "word": "FOU",
     "cells": [
       [
         3,
@@ -141,18 +141,17 @@
       ],
       [
         4,
-        2
+        1
       ],
       [
         5,
-        2
+        1
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 7,
   "solution": [
     "up",
-    "down",
     "down",
     "right",
     "up",
@@ -160,5 +159,5 @@
     "right",
     "up"
   ],
-  "canonicalWord": "gui"
+  "canonicalWord": "fou"
 }

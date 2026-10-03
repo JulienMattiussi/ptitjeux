@@ -5,48 +5,48 @@
   "height": 4,
   "words": [
     [
-      "léopard",
-      "étalon",
-      "bâtiment",
-      "queue"
+      "bonbon",
+      "flocon",
+      "gel",
+      "patinoire"
     ],
     [
-      "jument",
-      "lunaison",
-      "absorbant",
-      "jockey"
+      "manteau",
+      "temps",
+      "cracher",
+      "luge"
     ],
     [
-      "selle",
-      "pesanteur",
-      "bride",
-      "épousseter"
+      "février",
+      "feu",
+      "hampe",
+      "ronflante"
     ],
     [
-      "politique",
-      "crinière",
-      "moelle",
-      "basse"
+      "écharpe",
+      "cheminée",
+      "froid",
+      "crustacé"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
-    2,
-    1
+    1,
+    3
   ],
   "colClues": [
     2,
+    3,
     2,
-    1,
     2
   ],
-  "themeWord": "cheval",
+  "themeWord": "hiver",
   "solution": [
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
@@ -56,17 +56,17 @@
       true
     ],
     [
-      true,
       false,
       true,
+      false,
       false
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

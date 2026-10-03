@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "religieuse",
+      "boa",
+      "couleuvre",
+      "aspirateur"
+    ],
+    [
+      "venin",
+      "crochet",
+      "tourelle",
+      "écaille"
+    ],
+    [
+      "persienne",
+      "mue",
+      "python",
+      "hépatique"
+    ],
+    [
+      "anaconda",
+      "gracile",
+      "reptile",
+      "cobra"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "serpent",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

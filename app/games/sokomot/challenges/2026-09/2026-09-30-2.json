@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    4,
-    2
+    1,
+    4
   ],
   "walls": [
     [
@@ -115,91 +115,94 @@
   ],
   "ice": [
     [
-      2,
+      1,
       2
     ],
     [
-      3,
+      2,
       3
     ],
     [
-      3,
-      4
+      4,
+      3
     ],
     [
       4,
-      5
+      4
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        3,
-        2
+        1,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "D",
+      "letter": "U",
       "pos": [
-        4,
-        3
+        2,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "T",
       "pos": [
-        4,
-        4
+        5,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "O",
       "pos": [
         5,
-        5
+        4
       ]
     }
   ],
   "target": {
-    "word": "EDIT",
+    "word": "AUTO",
     "cells": [
       [
         1,
+        1
+      ],
+      [
+        2,
         2
       ],
       [
-        2,
+        3,
         3
       ],
       [
-        2,
-        4
-      ],
-      [
         3,
-        5
+        4
       ]
     ]
   },
-  "parMoves": 12,
+  "parMoves": 15,
   "solution": [
-    "left",
+    "up",
+    "down",
+    "down",
+    "right",
+    "up",
     "right",
     "right",
     "down",
+    "right",
+    "right",
+    "up",
     "left",
     "right",
-    "down",
-    "right",
-    "down",
-    "left",
     "up",
     "left"
   ],
-  "canonicalWord": "édit"
+  "canonicalWord": "auto"
 }

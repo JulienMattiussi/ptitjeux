@@ -5,51 +5,45 @@
   "height": 4,
   "words": [
     [
-      "éventail",
-      "photo",
-      "numéro",
-      "hebdomadaire"
+      "mimosa",
+      "iris",
+      "tonnerre",
+      "capitaine"
     ],
     [
-      "kiosque",
-      "article",
-      "barrage",
-      "oiseau"
+      "tic-tac",
+      "violette",
+      "dahlia",
+      "rose"
     ],
     [
-      "emblème",
-      "douleur",
-      "intrépide",
-      "reportage"
+      "vitesse",
+      "jasmin",
+      "logique",
+      "pivoine"
     ],
     [
-      "mansarde",
-      "tigre",
-      "rubrique",
-      "aube"
+      "tulipe",
+      "déguisement",
+      "marguerite",
+      "jonquille"
     ]
   ],
   "rowClues": [
+    2,
     3,
     2,
-    1,
-    1
+    3
   ],
   "colClues": [
-    1,
     2,
+    3,
     2,
-    2
+    3
   ],
-  "themeWord": "magazine",
+  "themeWord": "fleur",
   "solution": [
     [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       true,
       false,
@@ -57,16 +51,22 @@
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

@@ -5,69 +5,76 @@
   "height": 5,
   "words": [
     [
-      "balai",
-      "contrat",
-      "verrue",
-      "maniable",
-      "insulte"
+      "artère",
+      "aromatisé",
+      "couler",
+      "hépatique",
+      "écarlate"
     ],
     [
-      "difficile",
-      "maudire",
-      "ajuster",
-      "effrayante",
-      "ensorceler"
+      "enlacer",
+      "damier",
+      "capillaire",
+      "plaie",
+      "pectoral"
     ],
     [
-      "envoûter",
-      "potion",
-      "chaudron",
-      "broder",
-      "casier"
+      "transfusion",
+      "enduit",
+      "veine",
+      "pâté",
+      "sanguin"
     ],
     [
-      "chat",
-      "crapaud",
-      "tondeuse",
-      "horrible",
-      "chapeau"
+      "saigner",
+      "sanglant",
+      "globule",
+      "curiosité",
+      "rocheux"
     ],
     [
-      "corruption",
-      "malfaisante",
-      "cartilagineux",
-      "sortilège",
-      "entretenir"
+      "caillot",
+      "hémoglobine",
+      "salut",
+      "pluie",
+      "circuler"
     ]
   ],
   "rowClues": [
-    2,
+    3,
+    1,
     3,
     3,
-    4,
-    2
+    3
   ],
   "colClues": [
-    3,
     4,
     2,
     3,
-    2
+    1,
+    3
   ],
-  "themeWord": "sorcière",
+  "themeWord": "sang",
   "solution": [
     [
       true,
       false,
       true,
       false,
-      false
+      true
     ],
     [
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
       true,
+      false,
       true
     ],
     [
@@ -81,16 +88,9 @@
       true,
       true,
       false,
-      true,
+      false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    5,
-    1
+    2,
+    3
   ],
   "walls": [
     [
@@ -98,10 +98,10 @@
     ],
     [
       1,
-      1
+      2
     ],
     [
-      2,
+      5,
       4
     ]
   ],
@@ -109,59 +109,59 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "Q",
+      "letter": "L",
       "pos": [
-        4,
-        1
+        2,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "Y",
       "pos": [
         3,
-        2
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "S",
       "pos": [
         4,
-        3
+        2
       ]
     }
   ],
   "target": {
-    "word": "QUI",
+    "word": "LYS",
     "cells": [
       [
-        3,
+        2,
         1
       ],
       [
-        4,
+        3,
         2
       ],
       [
-        5,
+        4,
         3
       ]
     ]
   },
   "parMoves": 11,
   "solution": [
-    "left",
+    "up",
     "down",
-    "left",
     "down",
     "right",
-    "left",
-    "left",
-    "left",
     "up",
     "right",
-    "right"
+    "right",
+    "up",
+    "up",
+    "left",
+    "down"
   ],
-  "canonicalWord": "qui"
+  "canonicalWord": "lys"
 }

@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "arrêt",
-      "rêve",
-      "conclusion",
-      "rikiki"
+      "chaleur",
+      "théâtral",
+      "morale",
+      "briller"
     ],
     [
-      "extrémité",
-      "terme",
-      "final",
-      "éternuer"
+      "sautiller",
+      "soucoupe",
+      "princesse",
+      "atterrissage"
     ],
     [
-      "attaque",
-      "terminer",
-      "digestion",
-      "cesser"
+      "fée",
+      "sorcière",
+      "arithmétique",
+      "dragon"
     ],
     [
-      "aboutir",
-      "achèvement",
-      "dénouement",
-      "mental"
+      "enchanté",
+      "prince",
+      "canette",
+      "légende"
     ]
   ],
   "rowClues": [
-    2,
+    1,
+    1,
     3,
-    2,
     3
   ],
   "colClues": [
-    3,
-    3,
-    3,
-    1
+    2,
+    2,
+    2,
+    2
   ],
-  "themeWord": "fin",
+  "themeWord": "conte",
   "solution": [
     [
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true
@@ -64,9 +64,9 @@
     [
       true,
       true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

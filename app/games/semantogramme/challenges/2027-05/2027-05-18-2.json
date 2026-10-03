@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-18-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "capturer",
+      "char",
+      "logiciel",
+      "reflux",
+      "rivage"
+    ],
+    [
+      "isolante",
+      "objectif",
+      "basse",
+      "montante",
+      "gusset"
+    ],
+    [
+      "frange",
+      "maritime",
+      "javelot",
+      "rectitude",
+      "sacré"
+    ],
+    [
+      "lunaire",
+      "grosse-caisse",
+      "haute",
+      "inonder",
+      "flux"
+    ],
+    [
+      "noire",
+      "côtière",
+      "coefficient",
+      "effeuiller",
+      "assuré"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "marée",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

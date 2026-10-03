@@ -5,49 +5,49 @@
   "height": 4,
   "words": [
     [
-      "bûche",
-      "grotte",
-      "brun",
-      "sapin"
+      "pull",
+      "classe",
+      "affluent",
+      "patin"
     ],
     [
-      "guirlande",
-      "fente",
-      "cantique",
-      "pivoter"
+      "tableau",
+      "vendange",
+      "cartable",
+      "tremper"
     ],
     [
-      "duel",
-      "lutin",
-      "étoile",
-      "gui"
+      "amplifier",
+      "craie",
+      "cantine",
+      "porte"
     ],
     [
-      "natte",
-      "houx",
-      "marchandise",
-      "familial"
+      "glace",
+      "récréation",
+      "irlande",
+      "leçon"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
-    1
-  ],
-  "colClues": [
-    2,
+    1,
     2,
     2,
     2
   ],
-  "themeWord": "noël",
+  "colClues": [
+    1,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "école",
   "solution": [
     [
+      false,
       true,
       false,
-      false,
-      true
+      false
     ],
     [
       true,
@@ -59,14 +59,14 @@
       false,
       true,
       true,
-      true
+      false
     ],
     [
       false,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

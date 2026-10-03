@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "peigne",
+      "ciseaux",
+      "courageux",
+      "stocker"
+    ],
+    [
+      "bec",
+      "col",
+      "permanente",
+      "coupe"
+    ],
+    [
+      "brosse",
+      "déménagement",
+      "shampoing",
+      "baccarat"
+    ],
+    [
+      "gourmand",
+      "mise",
+      "salon",
+      "polymère"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "coiffeur",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

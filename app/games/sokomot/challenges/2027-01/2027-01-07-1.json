@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     1,
-    2
+    4
   ],
   "walls": [
     [
@@ -97,11 +97,11 @@
       4
     ],
     [
-      3,
+      1,
       1
     ],
     [
-      4,
+      3,
       1
     ]
   ],
@@ -109,56 +109,58 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "F",
       "pos": [
-        2,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "I",
-      "pos": [
-        2,
+        1,
         3
       ]
     },
     {
-      "id": "b3",
-      "letter": "L",
+      "id": "b2",
+      "letter": "E",
       "pos": [
-        4,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "R",
+      "pos": [
+        3,
         3
       ]
     }
   ],
   "target": {
-    "word": "VIL",
+    "word": "FER",
     "cells": [
       [
-        3,
+        1,
         2
       ],
       [
-        3,
+        2,
+        2
+      ],
+      [
+        2,
         3
-      ],
-      [
-        4,
-        2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 10,
   "solution": [
+    "up",
     "right",
+    "down",
+    "right",
+    "right",
+    "up",
     "left",
-    "down",
     "right",
-    "down",
-    "right",
-    "right",
-    "up"
+    "up",
+    "left"
   ],
-  "canonicalWord": "vil"
+  "canonicalWord": "fer"
 }

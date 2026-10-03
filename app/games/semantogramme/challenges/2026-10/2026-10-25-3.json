@@ -5,106 +5,90 @@
   "height": 6,
   "words": [
     [
-      "traverser",
-      "biographie",
-      "errant",
-      "républicain",
-      "coquillage",
-      "aile"
+      "acéré",
+      "pulpe",
+      "grand-tante",
+      "lyre",
+      "maintenir",
+      "jeudi"
     ],
     [
-      "cueilli",
-      "plume",
-      "arctique",
-      "ratisser",
-      "noir",
-      "glace"
+      "destructeur",
+      "effiler",
+      "congélateur",
+      "percer",
+      "avion",
+      "piquer"
     ],
     [
-      "marcher",
-      "hachoir",
-      "banquise",
-      "assuré",
-      "pourriture",
-      "oiseau"
+      "dard",
+      "lancéolé",
+      "chaussure",
+      "chimère",
+      "aiguisé",
+      "piquant"
     ],
     [
-      "boucle",
-      "colonie",
-      "ministère",
-      "fuite",
-      "frôlement",
-      "antarctique"
+      "étalage",
+      "incisif",
+      "détremper",
+      "clou",
+      "bride",
+      "maillet"
     ],
     [
-      "amphi",
-      "palmes",
-      "plein-air",
-      "juge",
-      "nager",
-      "froid"
+      "gmail",
+      "aigu",
+      "pyramide",
+      "havane",
+      "aiguille",
+      "erreur"
     ],
     [
-      "peindre",
-      "poisson",
-      "glisser",
-      "blanc",
-      "délice",
-      "marteau"
+      "complimenter",
+      "mouton",
+      "épingle",
+      "trottiner",
+      "cône",
+      "pic"
     ]
   ],
   "rowClues": [
     1,
-    4,
     3,
+    4,
     2,
     3,
     3
   ],
   "colClues": [
-    1,
-    4,
-    3,
-    1,
     2,
-    5
+    4,
+    2,
+    2,
+    3,
+    3
   ],
-  "themeWord": "pingouin",
+  "themeWord": "pointu",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false,
-      true
+      false,
+      false,
+      false
     ],
     [
       false,
       true,
       false,
-      false,
+      true,
       false,
       true
     ],
     [
-      false,
+      true,
       true,
       false,
       false,
@@ -114,10 +98,26 @@
     [
       false,
       true,
-      true,
+      false,
       true,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 16

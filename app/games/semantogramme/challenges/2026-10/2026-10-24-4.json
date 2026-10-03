@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "flexion",
-      "tableau",
-      "esquif",
-      "récent",
-      "détermination",
-      "tempéré",
-      "algérie"
+      "poulet",
+      "profusion",
+      "particule",
+      "mica",
+      "archéen",
+      "plutonique",
+      "commencer"
     ],
     [
-      "voilé",
-      "cardiogramme",
-      "mycènes",
-      "quaternaire",
-      "hostie",
-      "sédentaire",
-      "rapporter"
+      "barbecue",
+      "cristallin",
+      "boccioni",
+      "frette",
+      "ordonnance",
+      "minéral",
+      "réaliste"
     ],
     [
-      "préhistoire",
-      "fleuriste",
-      "fillette",
-      "rock",
-      "recueil",
-      "aérien",
-      "festive"
+      "monument",
+      "micro",
+      "fourre-tout",
+      "tactile",
+      "picasso",
+      "algérie",
+      "équinoxe"
     ],
     [
-      "attente",
-      "ère",
-      "climat",
-      "manuel",
-      "appliquer",
-      "descendante",
-      "diriger"
+      "carboniser",
+      "staub",
+      "massif",
+      "identité",
+      "feldspath",
+      "noir",
+      "sanglant"
     ],
     [
-      "observateur",
-      "delacroix",
-      "guetter",
-      "court",
-      "glaciation",
-      "interglaciaire",
-      "pull"
+      "acceptation",
+      "flatter",
+      "résistant",
+      "popeye",
+      "usité",
+      "géranium",
+      "rotation"
     ],
     [
-      "moderne",
-      "genièvre",
-      "réchauffement",
-      "rouler",
-      "discrétion",
-      "assourdissant",
-      "actuelle"
+      "haute",
+      "griffe",
+      "gris",
+      "dur",
+      "magmatique",
+      "cristalline",
+      "bretonne"
     ],
     [
-      "évolution",
-      "arme",
-      "civilisation",
-      "caractère",
-      "vélo",
-      "endurer",
-      "soupçonner"
+      "hugo",
+      "dégustation",
+      "éditeur",
+      "moulinet",
+      "weber",
+      "quartz",
+      "tombe"
     ]
   ],
   "rowClues": [
     2,
     2,
     1,
-    2,
     3,
-    3,
+    1,
+    5,
     2
   ],
   "colClues": [
-    3,
+    1,
     1,
     3,
-    3,
-    1,
-    3,
-    1
+    2,
+    2,
+    5,
+    2
   ],
-  "themeWord": "holocène",
+  "themeWord": "granite",
   "solution": [
     [
       false,
@@ -99,9 +99,9 @@
     ],
     [
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       true,
       false
@@ -110,15 +110,6 @@
       true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       false,
@@ -127,30 +118,39 @@
     [
       false,
       false,
-      false,
       true,
+      false,
       true,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true
     ],
     [
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true,
-      false,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

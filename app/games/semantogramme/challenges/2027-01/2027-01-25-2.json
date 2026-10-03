@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "étau",
-      "pelle",
-      "jardin",
-      "plante",
-      "free"
+      "adolescent",
+      "cosse",
+      "courbure",
+      "juvénile",
+      "arrêter"
     ],
     [
-      "planter",
-      "chiffon",
-      "arrosoir",
-      "spectral",
-      "terre"
+      "gamin",
+      "césar",
+      "tendre",
+      "récent",
+      "reprise"
     ],
     [
-      "expirer",
-      "rythme",
-      "hibernation",
-      "tailler",
-      "muscler"
+      "jeunesse",
+      "soupir",
+      "novice",
+      "naissant",
+      "puéril"
     ],
     [
-      "bêche",
-      "sécateur",
-      "jardinier",
-      "exposition",
-      "arroser"
-    ],
-    [
-      "graine",
       "pousser",
-      "fleur",
-      "essai",
-      "pacifique"
+      "enfant",
+      "tricolore",
+      "palper",
+      "bébé"
+    ],
+    [
+      "mathématique",
+      "fleurir",
+      "jouvenceau",
+      "arme",
+      "truite"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    1,
-    4,
-    3
-  ],
-  "colClues": [
-    3,
-    3,
-    4,
     2,
+    3,
+    4,
+    3,
     2
   ],
-  "themeWord": "jardiner",
+  "colClues": [
+    4,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "jeune",
   "solution": [
     [
+      true,
+      false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false
@@ -67,25 +74,18 @@
       true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       true
     ],
     [
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false,

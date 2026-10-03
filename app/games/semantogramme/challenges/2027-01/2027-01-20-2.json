@@ -5,77 +5,63 @@
   "height": 5,
   "words": [
     [
-      "micro",
-      "charnière",
-      "décennie",
-      "définir",
-      "moderne"
+      "sillon",
+      "cuit",
+      "regard",
+      "épier",
+      "épépiner"
     ],
     [
-      "historique",
-      "marquer",
-      "idéaliser",
-      "antique",
-      "vernis"
+      "regarder",
+      "loupe",
+      "télescope",
+      "pharmacien",
+      "oncle"
     ],
     [
-      "terrasse",
-      "histoire",
-      "satisfaction",
-      "immobilisation",
-      "révolu"
+      "microscope",
+      "étaler",
+      "jumelle",
+      "élytre",
+      "pâlir"
     ],
     [
-      "âge",
-      "ère",
-      "caractériser",
-      "microbe",
-      "irrigation"
+      "torride",
+      "inspecter",
+      "fixer",
+      "scruter",
+      "observation"
     ],
     [
-      "siècle",
-      "période",
-      "concombre",
-      "temps",
-      "contemporain"
+      "observateur",
+      "contempler",
+      "détente",
+      "examiner",
+      "escroquerie"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
     3,
-    4
+    2,
+    4,
+    3
   ],
   "colClues": [
     3,
-    4,
-    2,
     3,
-    3
+    4,
+    3,
+    1
   ],
-  "themeWord": "époque",
+  "themeWord": "observer",
   "solution": [
     [
       false,
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
     ],
     [
       true,
@@ -86,11 +72,25 @@
     ],
     [
       true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

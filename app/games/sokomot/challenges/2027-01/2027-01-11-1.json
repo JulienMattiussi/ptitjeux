@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     3,
-    2
+    4
   ],
   "walls": [
     [
@@ -101,63 +101,65 @@
       4
     ],
     [
-      4,
-      1
+      5,
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "U",
+      "letter": "G",
       "pos": [
-        2,
-        2
+        3,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "S",
+      "letter": "A",
       "pos": [
-        2,
-        3
+        3,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "I",
       "pos": [
-        2,
-        4
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "USE",
+    "word": "GAI",
     "cells": [
       [
-        1,
+        3,
         2
       ],
       [
-        1,
-        3
+        4,
+        1
       ],
       [
-        1,
-        4
+        4,
+        2
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
-    "left",
-    "right",
+    "up",
     "down",
-    "left",
     "right",
-    "down",
-    "left"
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right"
   ],
-  "canonicalWord": "use"
+  "canonicalWord": "gai"
 }

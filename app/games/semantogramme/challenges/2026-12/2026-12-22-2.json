@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "novice",
-      "visiter",
-      "parrain",
-      "neveu",
-      "tantine"
+      "épousseter",
+      "décision",
+      "décider",
+      "décréter",
+      "spéléologie"
     ],
     [
-      "amasser",
-      "pancréas",
-      "tonton",
-      "embarquer",
-      "passe"
+      "cabinet",
+      "adhérer",
+      "frappe",
+      "joyeux",
+      "conseil"
     ],
     [
-      "parent",
-      "paix",
-      "spectre",
-      "cousin",
-      "simple"
+      "génoise",
+      "rabbin",
+      "brut",
+      "gouvernemental",
+      "ministère"
     ],
     [
-      "puce",
-      "gâter",
-      "tante",
-      "fracturer",
-      "cousinage"
+      "politique",
+      "compétent",
+      "sentier",
+      "étanche",
+      "délégué"
     ],
     [
-      "père",
-      "beau-frère",
-      "mère",
-      "géométrie",
-      "famille"
+      "portefeuille",
+      "décret",
+      "ministériel",
+      "narratif",
+      "houle"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    3,
+    2,
     2,
     3,
-    4
+    3
   ],
   "colClues": [
-    2,
     3,
-    4,
+    3,
+    2,
     2,
     3
   ],
-  "themeWord": "oncle",
+  "themeWord": "ministre",
   "solution": [
     [
       false,
       true,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       false
     ],
     [
       true,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

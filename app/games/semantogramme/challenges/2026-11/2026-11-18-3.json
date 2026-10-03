@@ -5,85 +5,77 @@
   "height": 6,
   "words": [
     [
-      "vis",
-      "extincteur",
-      "fâcher",
-      "gonflable",
-      "visser",
-      "estuaire"
+      "mignon",
+      "chant",
+      "voler",
+      "création",
+      "bergamote",
+      "vertical"
     ],
     [
-      "baptême",
-      "clé",
-      "four",
-      "tendu",
-      "piété",
-      "cèpe"
+      "sauter",
+      "repos",
+      "aviation",
+      "pleine",
+      "fontaine",
+      "concurrence"
     ],
     [
-      "hexagonal",
-      "illumination",
-      "préventif",
-      "frein",
-      "humilier",
-      "serrée"
+      "haie",
+      "jardin",
+      "gâteau",
+      "semis",
+      "symbolique",
+      "gorge"
     ],
     [
-      "borgne",
-      "saturer",
-      "filetage",
-      "détonation",
-      "rubis",
-      "boulon"
+      "tu",
+      "enrouée",
+      "plume",
+      "picorer",
+      "cyclique",
+      "noël"
     ],
     [
-      "plat",
-      "serrer",
-      "autobloquant",
-      "enterré",
-      "chaton",
-      "assembler"
+      "familier",
+      "aile",
+      "oiseau",
+      "piailler",
+      "fluorescent",
+      "ténébreux"
     ],
     [
-      "rondelle",
-      "bricoler",
-      "desserrer",
-      "lune",
-      "mielleux",
-      "dévisser"
+      "abordage",
+      "rouge",
+      "bec",
+      "rondelet",
+      "lucarne",
+      "sagoutier"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
+    3,
+    1,
+    4,
     3,
     4,
     3
   ],
   "colClues": [
-    5,
-    2,
+    4,
+    4,
+    4,
     3,
-    2,
     1,
-    3
+    2
   ],
-  "themeWord": "écrou",
+  "themeWord": "rouge-gorge",
   "solution": [
     [
       true,
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
       true,
       false,
-      true,
       false,
       false
     ],
@@ -91,15 +83,23 @@
       true,
       false,
       false,
-      true,
+      false,
       false,
       false
     ],
     [
       true,
-      false,
       true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false,
       true
     ],
@@ -107,18 +107,18 @@
       true,
       true,
       true,
+      true,
       false,
-      false,
-      true
+      false
     ],
     [
-      true,
       false,
       true,
+      true,
+      true,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

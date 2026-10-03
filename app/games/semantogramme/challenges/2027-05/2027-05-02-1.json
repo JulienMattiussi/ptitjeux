@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "affection",
+      "trois-cent-soixante-cinq",
+      "attirance",
+      "accordéon"
+    ],
+    [
+      "panne",
+      "adoration",
+      "étendre",
+      "désir"
+    ],
+    [
+      "anneau",
+      "organe",
+      "romance",
+      "ancien"
+    ],
+    [
+      "flirt",
+      "baiser",
+      "piste",
+      "coeur"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "amour",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

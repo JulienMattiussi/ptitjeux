@@ -133,95 +133,95 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "M",
       "pos": [
-        1,
-        4
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
-      "pos": [
-        3,
+        2,
         2
       ]
     },
     {
-      "id": "b3",
-      "letter": "G",
+      "id": "b2",
+      "letter": "A",
       "pos": [
-        3,
-        4
+        4,
+        3
       ]
     },
     {
-      "id": "b4",
-      "letter": "R",
+      "id": "b3",
+      "letter": "I",
       "pos": [
         3,
         3
       ]
     },
     {
-      "id": "b5",
-      "letter": "E",
+      "id": "b4",
+      "letter": "L",
       "pos": [
-        5,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "S",
+      "pos": [
+        3,
         4
       ]
     }
   ],
   "target": {
-    "word": "NEGRE",
+    "word": "MAILS",
     "cells": [
       [
         1,
-        3
+        2
       ],
       [
         2,
         2
       ],
       [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
         3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        5,
-        3
+        5
       ]
     ]
   },
   "parMoves": 23,
   "solution": [
-    "down",
     "right",
-    "up",
-    "left",
-    "up",
-    "up",
-    "left",
-    "up",
-    "left",
-    "left",
     "down",
-    "down",
-    "right",
-    "right",
     "left",
-    "down",
+    "left",
     "down",
     "left",
     "up",
     "right",
-    "down",
     "right",
-    "up"
+    "up",
+    "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "left",
+    "down",
+    "down"
   ],
-  "canonicalWord": "nègre"
+  "canonicalWord": "mails"
 }

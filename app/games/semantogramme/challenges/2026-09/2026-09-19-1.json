@@ -5,51 +5,45 @@
   "height": 4,
   "words": [
     [
-      "mer",
-      "spacieux",
-      "risquer",
-      "bateau"
+      "législative",
+      "cratère",
+      "polaire",
+      "roche"
     ],
     [
-      "brillante",
-      "poisson",
-      "forum",
-      "chalut"
+      "cri",
+      "pivot",
+      "éruption",
+      "caldeira"
     ],
     [
-      "poireau",
-      "saisir",
-      "hameçon",
-      "président"
+      "lave",
+      "altruisme",
+      "panache",
+      "bretelle"
     ],
     [
-      "rivière",
-      "filet",
-      "congélateur",
-      "pourpre"
+      "soufre",
+      "tremblement",
+      "magma",
+      "pétrole"
     ]
   ],
   "rowClues": [
     2,
     2,
-    1,
-    2
+    2,
+    3
   ],
   "colClues": [
     2,
     2,
-    1,
+    3,
     2
   ],
-  "themeWord": "pêcheur",
+  "themeWord": "volcan",
   "solution": [
     [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       true,
       false,
@@ -57,6 +51,12 @@
     ],
     [
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       true,
       false
@@ -64,9 +64,9 @@
     [
       true,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

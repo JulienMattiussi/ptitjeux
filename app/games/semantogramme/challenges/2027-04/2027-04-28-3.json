@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-28-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "ronce",
+      "avaricieux",
+      "haubans",
+      "frondaison",
+      "fardeau",
+      "hébergement"
+    ],
+    [
+      "thonier",
+      "led",
+      "piquer",
+      "comptine",
+      "urinaire",
+      "béchamel"
+    ],
+    [
+      "ninja",
+      "soja",
+      "acéré",
+      "baccarat",
+      "urtique",
+      "moelleux"
+    ],
+    [
+      "confier",
+      "reprendre",
+      "hérisson",
+      "discrétion",
+      "cactus",
+      "pénétrant"
+    ],
+    [
+      "pénétrer",
+      "légale",
+      "épine",
+      "oursin",
+      "gonflé",
+      "écrire"
+    ],
+    [
+      "stridulation",
+      "corrosif",
+      "dard",
+      "mordant",
+      "épineux",
+      "chardon"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3,
+    3,
+    5
+  ],
+  "colClues": [
+    2,
+    1,
+    5,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "piquant",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

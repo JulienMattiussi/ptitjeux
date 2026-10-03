@@ -5,34 +5,34 @@
   "height": 4,
   "words": [
     [
-      "graphisme",
-      "lettre",
-      "stylo",
-      "malfaisante"
+      "bras",
+      "jambe",
+      "smasher",
+      "main"
     ],
     [
-      "robinet",
-      "phrase",
-      "papier",
-      "plume"
+      "oreille",
+      "bouche",
+      "pain",
+      "odieux"
     ],
     [
-      "mot",
-      "calligraphie",
-      "paupière",
-      "éloquence"
+      "oeil",
+      "nouvelle",
+      "ongle",
+      "dent"
     ],
     [
-      "texte",
-      "génoise",
-      "cavité",
-      "clavier"
+      "brunch",
+      "doigt",
+      "nez",
+      "grimper"
     ]
   ],
   "rowClues": [
     3,
-    3,
     2,
+    3,
     2
   ],
   "colClues": [
@@ -41,18 +41,12 @@
     2,
     2
   ],
-  "themeWord": "écriture",
+  "themeWord": "corps",
   "solution": [
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       true
     ],
     [
@@ -64,8 +58,14 @@
     [
       true,
       false,
-      false,
+      true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 10

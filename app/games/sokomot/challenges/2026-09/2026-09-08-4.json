@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    2,
-    3
+    5,
+    4
   ],
   "walls": [
     [
@@ -374,91 +374,94 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "T",
+      "pos": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "U",
+      "pos": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "R",
       "pos": [
         3,
         1
       ]
     },
     {
-      "id": "b2",
-      "letter": "O",
+      "id": "b4",
+      "letter": "E",
       "pos": [
         4,
         2
       ]
     },
     {
-      "id": "b3",
-      "letter": "L",
-      "pos": [
-        3,
-        3
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "L",
-      "pos": [
-        8,
-        4
-      ]
-    },
-    {
       "id": "b5",
-      "letter": "A",
+      "letter": "N",
       "pos": [
-        8,
-        5
+        5,
+        3
       ]
     },
     {
       "id": "b6",
-      "letter": "I",
+      "letter": "T",
       "pos": [
-        8,
-        6
+        7,
+        1
       ]
     }
   ],
   "target": {
-    "word": "COLLAI",
+    "word": "TURENT",
     "cells": [
       [
-        8,
+        1,
         1
       ],
       [
-        8,
-        2
+        2,
+        1
       ],
       [
-        8,
-        3
+        3,
+        1
       ],
       [
-        8,
-        4
+        4,
+        1
       ],
       [
-        8,
-        5
+        5,
+        1
       ],
       [
-        8,
-        6
+        6,
+        1
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 10,
   "solution": [
-    "right",
     "up",
-    "right",
     "left",
     "up",
+    "down",
+    "left",
+    "up",
+    "up",
     "right",
-    "right"
+    "up",
+    "left"
   ],
-  "canonicalWord": "collai"
+  "canonicalWord": "turent"
 }

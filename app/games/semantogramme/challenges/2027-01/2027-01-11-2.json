@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "leurre",
-      "grignoter",
-      "rouillé",
-      "dévorer",
-      "collecte"
+      "pratiquer",
+      "ministériel",
+      "enseigne",
+      "omoplate",
+      "tradition"
     ],
     [
-      "jambon",
-      "cartable",
-      "appétit",
-      "trachée",
-      "se régaler"
+      "mariage",
+      "bouteille",
+      "baptême",
+      "solennel",
+      "liturgie"
     ],
     [
-      "avaler",
-      "banqueter",
-      "continent",
-      "single",
-      "consommer"
+      "galápagos",
+      "sacrement",
+      "célébrer",
+      "ancestral",
+      "sacré"
     ],
     [
-      "savourer",
-      "radis",
-      "mastiquer",
-      "bouffer",
-      "inondation"
+      "traditionnel",
+      "religieux",
+      "communion",
+      "paella",
+      "soie"
     ],
     [
-      "caractère",
-      "goûter",
-      "ingérer",
-      "égypte",
-      "mâcher"
+      "langoustine",
+      "officier",
+      "mât",
+      "religion",
+      "écologique"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    4,
+    4,
     3,
-    3,
-    3
+    2
   ],
   "colClues": [
-    2,
     3,
-    2,
-    2,
+    3,
+    3,
+    3,
     3
   ],
-  "themeWord": "manger",
+  "themeWord": "rite",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

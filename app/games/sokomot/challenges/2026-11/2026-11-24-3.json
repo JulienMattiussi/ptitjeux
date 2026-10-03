@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    2
+    6,
+    4
   ],
   "walls": [
     [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "I",
       "pos": [
         2,
         3
@@ -141,91 +141,107 @@
     },
     {
       "id": "b2",
-      "letter": "I",
-      "pos": [
-        3,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "V",
-      "pos": [
-        5,
-        2
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "E",
+      "letter": "M",
       "pos": [
         5,
         3
       ]
     },
     {
-      "id": "b5",
-      "letter": "S",
+      "id": "b3",
+      "letter": "A",
       "pos": [
-        7,
-        4
+        6,
+        3
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "G",
+      "pos": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "E",
+      "pos": [
+        4,
+        5
       ]
     }
   ],
   "target": {
-    "word": "LIVES",
+    "word": "IMAGE",
     "cells": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
       [
         4,
         2
       ],
       [
-        5,
+        4,
         3
       ],
       [
-        6,
-        2
-      ],
-      [
-        6,
-        3
-      ],
-      [
-        7,
-        3
+        4,
+        4
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 43,
   "solution": [
+    "up",
+    "down",
+    "left",
+    "up",
+    "up",
+    "down",
+    "down",
+    "down",
+    "down",
+    "left",
+    "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "up",
+    "right",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down",
+    "right",
     "right",
     "up",
     "left",
     "left",
-    "down",
     "right",
-    "down",
-    "right",
-    "down",
+    "up",
     "left",
+    "down",
+    "down",
+    "down",
+    "down",
     "left",
     "left",
     "up",
-    "right",
+    "up",
+    "up",
     "left",
     "left",
     "up",
-    "right",
-    "right",
-    "down",
-    "right",
-    "down",
-    "down",
-    "right",
-    "right",
-    "right",
-    "up"
+    "right"
   ],
-  "canonicalWord": "lives"
+  "canonicalWord": "image"
 }

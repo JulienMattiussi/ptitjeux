@@ -5,90 +5,82 @@
   "height": 6,
   "words": [
     [
-      "rond",
-      "douleur",
-      "ligament",
-      "arthrose",
-      "national",
-      "tracteur"
+      "châtier",
+      "rappeler",
+      "sanctionner",
+      "torse",
+      "radieux",
+      "lin"
     ],
     [
-      "programme",
-      "extension",
-      "vase",
-      "tendon",
-      "élagage",
-      "coucher"
+      "sévir",
+      "tartine",
+      "redresser",
+      "frisson",
+      "agir",
+      "stratus"
     ],
     [
-      "tapis",
-      "duveteux",
-      "articulation",
-      "entonner",
-      "détester",
-      "vétiver"
+      "chakra",
+      "aura",
+      "amende",
+      "noyau",
+      "masque",
+      "aviron"
     ],
     [
-      "choc",
-      "agenouiller",
-      "rotule",
-      "grosse-caisse",
-      "jambe",
-      "patella"
+      "binaire",
+      "pénaliser",
+      "punition",
+      "corriger",
+      "rosette",
+      "juvénile"
     ],
     [
-      "petit",
-      "jumelé",
-      "dompteur",
-      "protection",
-      "plier",
-      "fissure"
+      "toile",
+      "cactus",
+      "dormir",
+      "fessée",
+      "fustiger",
+      "courbe"
     ],
     [
-      "prière",
-      "avironner",
-      "sustenter",
-      "développement",
-      "enfant",
-      "rétine"
+      "tape",
+      "généreux",
+      "condamner",
+      "corvée",
+      "baby",
+      "colle"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
     1,
-    5,
+    3,
     2,
-    2
+    4
   ],
   "colClues": [
     3,
+    2,
+    5,
     3,
-    3,
-    3,
-    3,
+    1,
     1
   ],
-  "themeWord": "genou",
+  "themeWord": "punir",
   "solution": [
     [
       true,
       true,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
-      false,
       true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -96,29 +88,37 @@
       false
     ],
     [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

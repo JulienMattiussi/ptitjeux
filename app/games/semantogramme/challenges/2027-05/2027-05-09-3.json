@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-09-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "abondance",
+      "hôpital",
+      "samu",
+      "secourir",
+      "pruneau",
+      "malade"
+    ],
+    [
+      "balancier",
+      "sirène",
+      "algue",
+      "urne",
+      "cieux",
+      "cocotier"
+    ],
+    [
+      "fortifier",
+      "connexion",
+      "sauver",
+      "fichier",
+      "blanche",
+      "gyrophare"
+    ],
+    [
+      "liquider",
+      "pleurnicher",
+      "médicale",
+      "versant",
+      "blessé",
+      "risqué"
+    ],
+    [
+      "rapide",
+      "rouge",
+      "transporter",
+      "secours",
+      "croix",
+      "jument"
+    ],
+    [
+      "éducatif",
+      "éclat",
+      "amérindien",
+      "sciage",
+      "urgence",
+      "transport"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    3,
+    2,
+    5,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    4,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "ambulance",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 17
+}

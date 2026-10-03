@@ -5,73 +5,89 @@
   "height": 6,
   "words": [
     [
-      "voler",
-      "pingrerie",
-      "consolation",
-      "allergie",
-      "oiseau",
-      "chasser"
+      "pourchasser",
+      "soumettre",
+      "domestiquer",
+      "dressage",
+      "sanction",
+      "enchanté"
     ],
     [
-      "feuilletage",
-      "endormir",
-      "rapace",
-      "mousaka",
-      "choix",
-      "habile"
+      "commander",
+      "dompter",
+      "sureau",
+      "discipliner",
+      "palper",
+      "collecter"
     ],
     [
-      "herbe",
-      "fortifiée",
-      "hululer",
-      "bouledogue",
-      "lueur",
-      "soleil"
+      "cirque",
+      "chrono",
+      "labyrinthe",
+      "mine",
+      "astreindre",
+      "apprivoiser"
     ],
     [
-      "serres",
-      "sortie",
-      "effraie",
-      "lapone",
-      "somnoler",
-      "plume"
+      "cravache",
+      "préparer",
+      "conversation",
+      "optique",
+      "maître",
+      "majorité"
     ],
     [
-      "discrète",
-      "bec",
-      "sage",
-      "nocturne",
-      "forêt",
-      "permanente"
+      "fauve",
+      "massette",
+      "écarter",
+      "récompense",
+      "revenant",
+      "sorcière"
     ],
     [
-      "hulotte",
-      "sandale",
-      "argousier",
-      "musée",
-      "rotation",
-      "expressif"
+      "pistil",
+      "boucan",
+      "former",
+      "mort",
+      "silicone",
+      "pile"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    1,
-    4,
-    5,
-    2
+    3,
+    3,
+    3,
+    2,
+    1
   ],
   "colClues": [
     4,
-    1,
-    4,
+    3,
     2,
     3,
-    2
+    2,
+    1
   ],
-  "themeWord": "chouette",
+  "themeWord": "dresser",
   "solution": [
     [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       false,
       false,
@@ -80,10 +96,18 @@
       true
     ],
     [
+      true,
+      true,
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
       false,
+      false,
+      true,
       false,
       false
     ],
@@ -93,32 +117,8 @@
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

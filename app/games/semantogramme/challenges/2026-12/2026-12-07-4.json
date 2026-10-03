@@ -5,96 +5,96 @@
   "height": 7,
   "words": [
     [
-      "kiosque",
-      "passionné",
-      "recevoir",
-      "vertigineux",
-      "révolutionnaire",
-      "art",
-      "avant-garde"
+      "roche",
+      "cénozoïque",
+      "enclaver",
+      "dépoussiérer",
+      "astronaute",
+      "gobelet",
+      "oligocène"
     ],
     [
-      "collage",
-      "sabord",
-      "chimique",
-      "négation",
-      "subvertir",
-      "olive",
-      "tournage"
+      "ancien",
+      "vendredi",
+      "bonus",
+      "relief",
+      "tribune",
+      "galaxie",
+      "mammifère"
     ],
     [
-      "mouvement",
-      "choquer",
-      "provocation",
-      "risquer",
-      "révolu",
-      "auto-stop",
-      "glorieux"
+      "tempéré",
+      "tropical",
+      "précambrien",
+      "palais",
+      "jumeler",
+      "amusement",
+      "climat"
     ],
     [
-      "métamorphique",
-      "irriter",
-      "pichet",
-      "manifeste",
-      "ready-made",
-      "absurde",
-      "brûlure"
+      "préhistoire",
+      "meurtre",
+      "néogène",
+      "star",
+      "belle-hélène",
+      "caractère",
+      "poêle"
     ],
     [
-      "connecté",
-      "tzara",
-      "iconoclaste",
-      "anti-art",
-      "cédrat",
-      "implanter",
-      "choriste"
+      "fossile",
+      "sublimer",
+      "évolution",
+      "dorsal",
+      "apparition",
+      "projeter",
+      "sablée"
     ],
     [
-      "religion",
-      "construire",
-      "manche",
-      "église",
-      "irrationnel",
-      "minimaliste",
-      "joaillier"
+      "porche",
+      "mourvèdre",
+      "menhir",
+      "continental",
+      "rosier",
+      "sono",
+      "coulisse"
     ],
     [
-      "hépatite",
-      "désherber",
-      "rejet",
-      "duchamp",
-      "professeur",
-      "lithologue",
-      "fait main"
+      "immobilisation",
+      "géologique",
+      "synthétique",
+      "saumâtre",
+      "ère",
+      "sédiment",
+      "paléogène"
     ]
   ],
   "rowClues": [
     3,
     2,
     3,
-    3,
+    2,
     3,
     1,
-    2
+    4
   ],
   "colClues": [
-    2,
-    2,
+    5,
     3,
-    3,
-    4,
     2,
-    1
+    1,
+    2,
+    1,
+    4
   ],
-  "themeWord": "dadaïsme",
+  "themeWord": "tertiaire",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
       true,
       true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -102,41 +102,32 @@
       false,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false,
       false
     ],
     [
       true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
@@ -145,12 +136,21 @@
     [
       false,
       false,
-      true,
+      false,
       true,
       false,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

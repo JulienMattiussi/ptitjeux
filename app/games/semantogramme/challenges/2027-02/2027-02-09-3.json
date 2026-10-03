@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-09-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "rapt",
+      "lasso",
+      "arrêter",
+      "trompette",
+      "enfermer",
+      "hideux"
+    ],
+    [
+      "séquestrer",
+      "gelée",
+      "support",
+      "transformer",
+      "sociale",
+      "kidnapper"
+    ],
+    [
+      "clarinette",
+      "chevalier",
+      "attraper",
+      "ligoter",
+      "enlèvement",
+      "allumer"
+    ],
+    [
+      "filet",
+      "métal",
+      "menottes",
+      "empoigner",
+      "cerner",
+      "salle-à-manger"
+    ],
+    [
+      "éplucheur",
+      "cage",
+      "mouette",
+      "piège",
+      "chambre",
+      "cyclique"
+    ],
+    [
+      "maîtriser",
+      "soutien-gorge",
+      "oser",
+      "chausser",
+      "aigreur",
+      "tortillonner"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    4,
+    2,
+    1
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "capturer",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "girafe",
+      "urticante",
+      "neige",
+      "téléphérique"
+    ],
+    [
+      "lunette",
+      "slalom",
+      "instruire",
+      "casque"
+    ],
+    [
+      "pouvoir",
+      "symptôme",
+      "station",
+      "verrue"
+    ],
+    [
+      "bâton",
+      "perruque",
+      "fart",
+      "descente"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "ski",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

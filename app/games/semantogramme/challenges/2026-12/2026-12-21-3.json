@@ -5,109 +5,101 @@
   "height": 6,
   "words": [
     [
-      "tortillonner",
-      "reptile",
-      "glousser",
-      "milanaise",
-      "joyau",
-      "patte"
+      "large",
+      "pâtissier",
+      "intensif",
+      "vipère",
+      "décoller",
+      "thésée"
     ],
     [
-      "hibernation",
-      "décompter",
-      "ninja",
-      "galápagos",
-      "cou",
-      "charentais"
+      "numérique",
+      "mélodieux",
+      "crêpe",
+      "chips",
+      "racler",
+      "aérien"
     ],
     [
-      "aquatique",
-      "plancton",
-      "longévité",
-      "plage",
-      "terre",
-      "serpentine"
+      "bois",
+      "éthéré",
+      "flexible",
+      "fillette",
+      "mobile",
+      "omelette"
     ],
     [
-      "emporter",
-      "écaille",
-      "sable",
-      "rubis",
-      "marmite",
-      "pondéreux"
+      "lisser",
+      "mozzarella",
+      "engin",
+      "outil",
+      "penaud",
+      "tripode"
     ],
     [
-      "chaussée",
-      "carapace",
-      "univers",
-      "vitamine",
-      "pression",
-      "dollar"
+      "délivrance",
+      "chemise",
+      "étaler",
+      "plate",
+      "limaces",
+      "jumelle"
     ],
     [
-      "faîte",
-      "palmes",
-      "oeuf",
-      "creuset",
-      "flancher",
-      "mer"
+      "franchir",
+      "retourner",
+      "indiquer",
+      "assurer",
+      "rock",
+      "professionnelle"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    5,
     2,
-    1,
+    3,
+    2,
+    2,
     2
   ],
   "colClues": [
     3,
+    2,
     3,
-    4,
     2,
     2,
-    3
+    2
   ],
-  "themeWord": "tortue",
+  "themeWord": "spatule",
   "solution": [
     [
       true,
       true,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       false,
       false
     ],
@@ -115,10 +107,18 @@
       false,
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

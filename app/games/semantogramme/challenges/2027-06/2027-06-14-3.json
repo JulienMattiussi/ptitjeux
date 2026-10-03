@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-14-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "gourmandise",
+      "pompier",
+      "beurre",
+      "anniversaire",
+      "final",
+      "poêle"
+    ],
+    [
+      "rouler",
+      "frétillant",
+      "manger",
+      "bretagne",
+      "distingué",
+      "chandeleur"
+    ],
+    [
+      "lait",
+      "oeuf",
+      "ronde",
+      "berge",
+      "mondial",
+      "farine"
+    ],
+    [
+      "gastrocnémien",
+      "pin",
+      "fine",
+      "amazone",
+      "sucrée",
+      "documenter"
+    ],
+    [
+      "décimal",
+      "sucre",
+      "spatule",
+      "candeur",
+      "blatte",
+      "tronçonneuse"
+    ],
+    [
+      "plier",
+      "bourgeon",
+      "enseignement",
+      "automne",
+      "pâte",
+      "artisanal"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    4,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    4,
+    2,
+    5,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "crêpe",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

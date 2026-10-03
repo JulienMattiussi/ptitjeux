@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    6
+    3,
+    5
   ],
   "walls": [
     [
@@ -374,34 +374,34 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "R",
       "pos": [
-        4,
-        5
+        8,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "N",
+      "letter": "E",
       "pos": [
-        2,
-        1
+        8,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "V",
       "pos": [
-        3,
-        1
+        8,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         4,
-        4
+        5
       ]
     },
     {
@@ -409,59 +409,56 @@
       "letter": "I",
       "pos": [
         5,
-        5
+        6
       ]
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "L",
       "pos": [
-        7,
-        1
+        4,
+        7
       ]
     }
   ],
   "target": {
-    "word": "ENRAIE",
+    "word": "REVEIL",
     "cells": [
       [
-        1,
-        1
+        8,
+        2
       ],
       [
-        2,
-        1
+        8,
+        3
       ],
       [
-        3,
-        1
+        8,
+        4
       ],
       [
-        4,
-        1
+        8,
+        5
       ],
       [
-        5,
-        1
+        8,
+        6
       ],
       [
-        6,
-        1
+        8,
+        7
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 7,
   "solution": [
-    "up",
-    "left",
-    "up",
     "right",
-    "up",
+    "down",
+    "right",
     "left",
     "down",
-    "left",
-    "up",
-    "up"
+    "right",
+    "right"
   ],
-  "canonicalWord": "enraie"
+  "canonicalWord": "réveil"
 }

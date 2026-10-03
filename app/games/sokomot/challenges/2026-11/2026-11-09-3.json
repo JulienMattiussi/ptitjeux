@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    6
+    5,
+    3
   ],
   "walls": [
     [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "C",
       "pos": [
         3,
         3
@@ -141,9 +141,9 @@
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "A",
       "pos": [
-        2,
+        3,
         5
       ]
     },
@@ -151,86 +151,82 @@
       "id": "b3",
       "letter": "S",
       "pos": [
-        5,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        4,
+        5,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "E",
       "pos": [
         6,
-        5
+        3
       ]
     }
   ],
   "target": {
-    "word": "ARSIN",
+    "word": "CASEE",
     "cells": [
       [
-        1,
-        2
-      ],
-      [
         2,
-        2
+        3
       ],
       [
         3,
-        2
+        4
       ],
       [
-        4,
-        3
+        3,
+        5
       ],
       [
         4,
         4
+      ],
+      [
+        5,
+        3
       ]
     ]
   },
-  "parMoves": 32,
+  "parMoves": 28,
   "solution": [
-    "up",
-    "up",
-    "right",
-    "up",
-    "right",
-    "up",
     "left",
-    "left",
-    "right",
     "down",
     "down",
     "left",
-    "up",
-    "right",
-    "down",
-    "down",
-    "right",
-    "up",
-    "down",
-    "down",
     "right",
     "right",
-    "up",
     "right",
     "up",
     "left",
-    "left",
-    "up",
+    "right",
     "right",
     "up",
     "left",
-    "left"
+    "up",
+    "left",
+    "left",
+    "down",
+    "left",
+    "down",
+    "left",
+    "left",
+    "down",
+    "down",
+    "right",
+    "up",
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "arsin"
+  "canonicalWord": "casée"
 }

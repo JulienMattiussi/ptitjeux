@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-05-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "lugubre",
+      "blague",
+      "action",
+      "travailler",
+      "graphisme",
+      "énergie"
+    ],
+    [
+      "incapable",
+      "occupé",
+      "dynamisme",
+      "casquette",
+      "fascinant",
+      "cacher"
+    ],
+    [
+      "sanguinaire",
+      "rincer",
+      "reposer",
+      "travail",
+      "cicatrice",
+      "jointure"
+    ],
+    [
+      "sportif",
+      "consoler",
+      "dynamique",
+      "ennui",
+      "fumier",
+      "bouger"
+    ],
+    [
+      "pourfendre",
+      "octobre",
+      "boucan",
+      "efficace",
+      "joyeux",
+      "activité"
+    ],
+    [
+      "productif",
+      "désirer",
+      "effrayer",
+      "énergique",
+      "mouvement",
+      "sport"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    4,
+    1,
+    4
+  ],
+  "themeWord": "actif",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
+    6,
     5
   ],
   "walls": [
@@ -133,59 +133,51 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "Z",
       "pos": [
-        3,
-        5
+        2,
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "A",
       "pos": [
-        3,
-        2
+        4,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "V",
+      "letter": "Z",
       "pos": [
-        5,
-        3
+        6,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "O",
       "pos": [
-        3,
-        4
+        5,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "Z",
+      "letter": "U",
       "pos": [
-        6,
-        5
+        5,
+        4
       ]
     }
   ],
   "target": {
-    "word": "SAVEZ",
+    "word": "ZAZOU",
     "cells": [
       [
-        2,
-        3
-      ],
-      [
-        3,
-        3
-      ],
-      [
         4,
-        3
+        2
       ],
       [
         5,
@@ -193,38 +185,48 @@
       ],
       [
         6,
+        3
+      ],
+      [
+        7,
         4
+      ],
+      [
+        7,
+        5
       ]
     ]
   },
-  "parMoves": 26,
+  "parMoves": 28,
   "solution": [
-    "left",
-    "down",
-    "left",
-    "up",
-    "up",
-    "right",
-    "right",
-    "up",
-    "up",
     "up",
     "left",
-    "down",
-    "right",
-    "right",
-    "right",
-    "down",
-    "left",
-    "right",
-    "down",
     "right",
     "down",
     "down",
     "left",
     "up",
     "left",
-    "up"
+    "left",
+    "up",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "right",
+    "down",
+    "right",
+    "down",
+    "right",
+    "right",
+    "left",
+    "left",
+    "left",
+    "down",
+    "right",
+    "right",
+    "right"
   ],
-  "canonicalWord": "savez"
+  "canonicalWord": "zazou"
 }

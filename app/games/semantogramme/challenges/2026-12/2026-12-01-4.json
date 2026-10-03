@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "douceur",
-      "élaborer",
-      "immense",
-      "casque",
-      "fuir",
-      "apéro",
-      "roche"
+      "hublot",
+      "cinématographie",
+      "cheminer",
+      "émaner",
+      "piano",
+      "volute",
+      "simplifier"
     ],
     [
-      "stalagmite",
-      "lointain",
-      "océan",
-      "expression",
-      "balle",
-      "primitif",
-      "préhistoire"
+      "compliment",
+      "rubens",
+      "haendel",
+      "analytique",
+      "orné",
+      "dramatique",
+      "cliquer"
     ],
     [
-      "personnel",
-      "expéditif",
-      "ancien",
-      "origine",
-      "cryogénien",
-      "aurèle",
-      "dynamisme"
+      "accoucher",
+      "bernin",
+      "kilomètre",
+      "sceau",
+      "extravagant",
+      "italien",
+      "théâtral"
     ],
     [
-      "kierkegaard",
-      "temple",
-      "protérozoïque",
-      "potion",
-      "continent",
-      "ère",
-      "archéen"
+      "data",
+      "sartre",
+      "caravage",
+      "tardif",
+      "transposer",
+      "glaise",
+      "informatique"
     ],
     [
-      "occulté",
-      "inanimé",
-      "biseau",
-      "vie",
-      "plectre",
-      "délivrance",
-      "obligatoire"
+      "ogival",
+      "fougère",
+      "art",
+      "démesurée",
+      "fainéant",
+      "plongeur",
+      "aviation"
     ],
     [
-      "sédiment",
-      "servir",
-      "géologique",
-      "irrationnel",
-      "gastrocnémien",
-      "évolution",
-      "stromatolite"
+      "foisonnant",
+      "parti",
+      "celtique",
+      "architecture",
+      "planche",
+      "ricaner",
+      "mouvementé"
     ],
     [
-      "législative",
-      "foncer",
-      "cinétique",
-      "sublime",
-      "volcanisme",
-      "bactérie",
-      "cabri"
+      "pathétique",
+      "musique",
+      "confetti",
+      "hideux",
+      "doré",
+      "arrondir",
+      "biblique"
     ]
   ],
   "rowClues": [
     1,
     4,
-    3,
     4,
+    2,
     1,
-    4,
+    3,
     2
   ],
   "colClues": [
     1,
-    1,
-    4,
+    3,
+    3,
     2,
     3,
-    4,
-    4
+    3,
+    2
   ],
-  "themeWord": "précambrien",
+  "themeWord": "baroque",
   "solution": [
     [
       false,
@@ -94,15 +94,24 @@
       false,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
+      false,
+      false,
+      true,
       true,
       true
     ],
@@ -111,7 +120,7 @@
       false,
       true,
       true,
-      true,
+      false,
       false,
       false
     ],
@@ -120,15 +129,6 @@
       false,
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       false,
       false
@@ -136,21 +136,21 @@
     [
       true,
       false,
+      false,
       true,
       false,
       false,
-      true,
       true
     ],
     [
       false,
-      false,
+      true,
       false,
       false,
       true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

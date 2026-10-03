@@ -5,60 +5,74 @@
   "height": 5,
   "words": [
     [
-      "mélancolique",
-      "ventre",
-      "crête",
-      "larme",
-      "humour"
+      "terne",
+      "perfusion",
+      "perle",
+      "languir",
+      "pianiste"
     ],
     [
-      "doudou",
-      "sorbet",
-      "moka",
-      "ricaner",
-      "peigne"
+      "écouvillon",
+      "grisaille",
+      "morne",
+      "ardoise",
+      "décrocher"
     ],
     [
-      "décorer",
-      "fête",
-      "pouffer",
-      "hilare",
-      "sourire"
+      "acier",
+      "béton",
+      "puiser",
+      "aiguillée",
+      "fumée"
     ],
     [
-      "ironie",
-      "geste",
-      "amusement",
-      "comique",
-      "cours"
+      "fonte",
+      "caillé",
+      "nez",
+      "plane",
+      "brouillard"
     ],
     [
-      "séance",
-      "gaieté",
-      "blague",
-      "éclat",
-      "glousser"
+      "taupe",
+      "éléphant",
+      "peintre",
+      "fulgurer",
+      "pierre"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    2,
     3,
     3,
-    4
-  ],
-  "colClues": [
     1,
-    1,
-    3,
-    4,
     3
   ],
-  "themeWord": "rire",
+  "colClues": [
+    3,
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "gris",
   "solution": [
     [
+      true,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true
@@ -67,28 +81,14 @@
       false,
       false,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      false,
-      true,
-      true,
       true
     ],
     [
       true,
+      true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
       true
     ]
   ],

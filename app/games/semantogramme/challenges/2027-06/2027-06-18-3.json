@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-18-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "pot",
+      "octroyer",
+      "randonnée",
+      "pêcher",
+      "café",
+      "creuse"
+    ],
+    [
+      "pelle",
+      "iglou",
+      "manche",
+      "remuer",
+      "goûter",
+      "épancher"
+    ],
+    [
+      "étroit",
+      "thé",
+      "mélanger",
+      "dragée",
+      "avaler",
+      "lumineux"
+    ],
+    [
+      "absence",
+      "glaçage",
+      "organisme",
+      "mitrailler",
+      "bois",
+      "cintré"
+    ],
+    [
+      "porter",
+      "inox",
+      "couvert",
+      "soupe",
+      "lagune",
+      "doseuse"
+    ],
+    [
+      "sucre",
+      "génome",
+      "dossard",
+      "musculaire",
+      "attaque",
+      "épingle"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    1,
+    5,
+    1
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    2,
+    4,
+    2
+  ],
+  "themeWord": "cuillère",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

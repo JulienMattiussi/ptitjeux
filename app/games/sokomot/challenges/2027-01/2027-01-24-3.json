@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    5
+    3,
+    3
   ],
   "walls": [
     [
@@ -133,34 +133,34 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "U",
+      "letter": "R",
       "pos": [
         2,
-        3
+        5
       ]
     },
     {
       "id": "b2",
-      "letter": "S",
-      "pos": [
-        5,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         4,
         3
       ]
     },
     {
+      "id": "b3",
+      "letter": "T",
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
       "id": "b4",
-      "letter": "E",
+      "letter": "A",
       "pos": [
         5,
-        5
+        4
       ]
     },
     {
@@ -168,20 +168,20 @@
       "letter": "S",
       "pos": [
         6,
-        3
+        2
       ]
     }
   ],
   "target": {
-    "word": "USEES",
+    "word": "ROTAS",
     "cells": [
       [
-        4,
-        2
+        3,
+        3
       ],
       [
-        5,
-        2
+        4,
+        4
       ],
       [
         5,
@@ -189,38 +189,45 @@
       ],
       [
         6,
-        3
+        2
       ],
       [
         7,
-        3
+        2
       ]
     ]
   },
-  "parMoves": 22,
+  "parMoves": 29,
   "solution": [
-    "right",
-    "up",
-    "up",
-    "right",
-    "left",
-    "down",
-    "down",
     "down",
     "right",
+    "right",
+    "down",
+    "left",
+    "left",
+    "down",
+    "left",
     "up",
     "up",
     "left",
-    "left",
-    "left",
-    "left",
     "up",
-    "left",
+    "right",
     "up",
     "right",
     "right",
     "down",
-    "right"
+    "up",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down",
+    "right",
+    "down",
+    "down",
+    "left",
+    "up",
+    "up"
   ],
-  "canonicalWord": "usées"
+  "canonicalWord": "rotas"
 }

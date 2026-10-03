@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    5
+    6,
+    1
   ],
   "walls": [
     [
@@ -376,73 +376,73 @@
       "id": "b1",
       "letter": "B",
       "pos": [
-        8,
-        2
+        2,
+        7
       ]
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "O",
       "pos": [
-        8,
-        3
+        4,
+        7
       ]
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "S",
       "pos": [
-        8,
-        4
+        5,
+        7
       ]
     },
     {
       "id": "b4",
-      "letter": "Y",
+      "letter": "T",
       "pos": [
-        2,
-        5
+        6,
+        2
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "O",
       "pos": [
-        3,
-        6
+        7,
+        3
       ]
     },
     {
       "id": "b6",
-      "letter": "Z",
+      "letter": "N",
       "pos": [
-        2,
-        7
+        8,
+        2
       ]
     }
   ],
   "target": {
-    "word": "BRAYEZ",
+    "word": "BOSTON",
     "cells": [
       [
-        8,
-        2
+        3,
+        7
       ],
       [
-        8,
-        3
+        4,
+        7
       ],
       [
-        8,
-        4
+        5,
+        7
       ],
       [
-        8,
-        5
+        6,
+        7
       ],
       [
-        8,
-        6
+        7,
+        7
       ],
       [
         8,
@@ -450,14 +450,17 @@
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 9,
   "solution": [
-    "right",
     "down",
     "right",
+    "down",
     "left",
     "down",
-    "right"
+    "right",
+    "up",
+    "right",
+    "down"
   ],
-  "canonicalWord": "brayez"
+  "canonicalWord": "boston"
 }

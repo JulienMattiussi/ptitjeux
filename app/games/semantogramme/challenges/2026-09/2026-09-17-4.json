@@ -5,102 +5,138 @@
   "height": 7,
   "words": [
     [
-      "haute",
-      "paroi",
-      "cultivé",
-      "inonder",
-      "horaire",
-      "permien",
-      "rouge"
+      "piquer",
+      "stalagmite",
+      "lèchefrite",
+      "primordial",
+      "duchamp",
+      "primitive",
+      "sec"
     ],
     [
-      "iris",
-      "élégant",
-      "récurer",
-      "analytique",
-      "table",
-      "gibecière",
-      "autel"
+      "détritus",
+      "rédiger",
+      "côte",
+      "décisif",
+      "répéter",
+      "mignon",
+      "antique"
     ],
     [
-      "contrepoint",
-      "apogée",
-      "tige",
-      "casser",
-      "cowboy",
-      "fleur",
-      "décoratif"
+      "percutant",
+      "traversée",
+      "tranchant",
+      "fin",
+      "satirique",
+      "critique",
+      "gestionnaire"
     ],
     [
-      "majeure",
-      "cueillir",
-      "peintre",
-      "corbeau",
-      "lemaître",
-      "essuyer",
-      "plein"
+      "stéthoscope",
+      "piquant",
+      "aigu",
+      "propulsion",
+      "tranché",
+      "acéré",
+      "planétaire"
     ],
     [
-      "digérer",
-      "roulé",
-      "offrir",
-      "pétale",
-      "fleurir",
-      "flétrir",
-      "majestueux"
+      "préhistorique",
+      "précis",
+      "cassant",
+      "mordant",
+      "sarcastique",
+      "cétacé",
+      "tacher"
     ],
     [
-      "orange",
-      "chaussette",
-      "couronne",
-      "coudre",
-      "profane",
-      "permis",
-      "arrondir"
+      "dodeliner",
+      "redoutable",
+      "cinglant",
+      "folklore",
+      "froussard",
+      "balancier",
+      "wok"
     ],
     [
-      "sarcasme",
-      "masse",
-      "enduire",
-      "épi",
-      "comprimer",
-      "vache",
-      "bouquet"
+      "barbu",
+      "icône",
+      "attaquer",
+      "fendre",
+      "nouvel",
+      "pneumatique",
+      "joie"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    3,
     1,
     4,
-    1,
+    4,
+    4,
+    2,
     2
   ],
   "colClues": [
-    3,
     2,
     3,
+    5,
+    3,
+    3,
     2,
-    1,
-    1,
-    4
+    1
   ],
-  "themeWord": "glaïeul",
+  "themeWord": "incisif",
   "solution": [
     [
       true,
       false,
-      true,
+      false,
       false,
       false,
       false,
       true
     ],
     [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -110,47 +146,11 @@
       false,
       false,
       true,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       false,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

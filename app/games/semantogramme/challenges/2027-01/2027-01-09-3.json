@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "touche",
-      "caraméliser",
-      "taper",
-      "frapper",
-      "mercure",
-      "pompe"
+      "marin",
+      "cachalot",
+      "roulis",
+      "kraken",
+      "mer",
+      "voile"
     ],
     [
-      "griffonner",
-      "usb",
-      "exaucer",
-      "sans-fil",
-      "élever",
-      "minerai"
+      "moine",
+      "châtier",
+      "huit",
+      "crochet",
+      "mollusque",
+      "profond"
     ],
     [
-      "soyeux",
-      "numérique",
-      "abeille",
-      "élan",
-      "boucan",
-      "mécanique"
+      "jambe",
+      "cueilli",
+      "tentacule",
+      "aquatique",
+      "mort",
+      "applique"
     ],
     [
-      "composer",
-      "rétroéclairé",
-      "ordinateur",
-      "affût",
-      "cabernet",
-      "se réjouir"
+      "lampadaire",
+      "rocher",
+      "sous-marin",
+      "calmar",
+      "ventouse",
+      "acheter"
     ],
     [
-      "écrire",
-      "cliquer",
-      "colorier",
-      "lettre",
-      "azerty",
-      "doigt"
+      "attention",
+      "céphalopode",
+      "seiche",
+      "pagaie",
+      "fiddle",
+      "séduction"
     ],
     [
-      "orbite",
-      "pianiste",
-      "pharmacie",
-      "creuser",
-      "colombier",
-      "mimosa"
+      "saler",
+      "brandade",
+      "âcre",
+      "menu",
+      "encre",
+      "poulpe"
     ]
   ],
   "rowClues": [
-    3,
+    4,
+    4,
     2,
+    4,
     2,
-    3,
-    5,
-    1
-  ],
-  "colClues": [
-    3,
-    5,
-    2,
-    3,
-    1,
     2
   ],
-  "themeWord": "clavier",
+  "colClues": [
+    1,
+    3,
+    4,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "pieuvre",
   "solution": [
     [
       true,
+      true,
       false,
       true,
       true,
-      false,
       false
     ],
     [
       false,
-      true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       true,
       true
     ],
     [
       false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false,
-      false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

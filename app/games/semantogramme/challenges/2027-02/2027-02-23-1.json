@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "panthère",
+      "basse",
+      "micro",
+      "oeuvre"
+    ],
+    [
+      "chanteur",
+      "solo",
+      "concert",
+      "humérus"
+    ],
+    [
+      "tribune",
+      "groupe",
+      "distorsion",
+      "amplificateur"
+    ],
+    [
+      "scène",
+      "spacieux",
+      "transvaser",
+      "morceau"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "rock",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

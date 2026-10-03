@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    3
+    7
   ],
   "walls": [
     [
@@ -374,23 +374,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "G",
       "pos": [
         2,
-        7
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         4,
-        4
+        6
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "U",
       "pos": [
         5,
         5
@@ -398,70 +398,69 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "D",
       "pos": [
         6,
-        7
+        1
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "A",
       "pos": [
         7,
-        7
+        1
       ]
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "S",
       "pos": [
         5,
-        4
+        6
       ]
     }
   ],
   "target": {
-    "word": "BELIER",
+    "word": "GOUDAS",
     "cells": [
       [
         3,
-        7
+        1
       ],
       [
         4,
-        7
+        1
       ],
       [
         5,
-        7
+        1
       ],
       [
         6,
-        7
+        1
       ],
       [
         7,
-        7
+        1
       ],
       [
         8,
-        7
+        1
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
-    "down",
+    "up",
     "right",
-    "down",
+    "up",
+    "left",
     "up",
     "right",
     "down",
-    "down",
-    "left",
-    "down",
-    "right"
+    "right",
+    "up"
   ],
-  "canonicalWord": "bélier"
+  "canonicalWord": "goudas"
 }

@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    4
+    4,
+    1
   ],
   "walls": [
     [
@@ -97,44 +97,48 @@
       4
     ],
     [
-      5,
+      1,
       1
     ],
     [
-      1,
-      4
+      5,
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "V",
       "pos": [
-        2,
-        3
+        3,
+        1
       ]
     },
     {
       "id": "b2",
       "letter": "I",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "S",
       "pos": [
         4,
-        2
+        3
       ]
     }
   ],
   "target": {
-    "word": "GIT",
+    "word": "VIS",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         2,
         2
@@ -142,25 +146,23 @@
       [
         3,
         3
-      ],
-      [
-        4,
-        3
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 12,
   "solution": [
+    "left",
+    "down",
+    "down",
+    "down",
+    "right",
+    "right",
     "up",
     "left",
-    "up",
-    "up",
-    "right",
-    "right",
     "down",
-    "up",
-    "right",
-    "down"
+    "left",
+    "left",
+    "up"
   ],
-  "canonicalWord": "gît"
+  "canonicalWord": "vis"
 }

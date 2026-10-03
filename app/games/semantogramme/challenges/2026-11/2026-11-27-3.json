@@ -5,75 +5,91 @@
   "height": 6,
   "words": [
     [
-      "rare",
-      "chantier",
-      "nocturne",
-      "attiédir",
-      "voiture",
-      "humide"
+      "domestique",
+      "connecter",
+      "dribbler",
+      "internet",
+      "éveil",
+      "judo"
     ],
     [
-      "inaltérable",
-      "colonie",
-      "dégainer",
-      "patte",
-      "compétition",
-      "noir"
+      "signal",
+      "danser",
+      "réseau",
+      "progéniture",
+      "professionnel",
+      "harmonica"
     ],
     [
-      "avion",
-      "nuisible",
-      "cime",
-      "aile",
-      "sauteuse",
-      "halogène"
+      "poupon",
+      "configurer",
+      "wifi",
+      "pâlir",
+      "reportage",
+      "box"
     ],
     [
-      "fraction",
-      "écraser",
-      "insecticide",
-      "fuir",
-      "blatte",
-      "berceuse"
+      "aquarelle",
+      "antenne",
+      "ethernet",
+      "débit",
+      "router",
+      "fournisseur"
     ],
     [
-      "rêve",
-      "glu",
-      "sale",
-      "salle-de-bain",
-      "décharger",
-      "meuble"
+      "sans-fil",
+      "rectiligne",
+      "modem",
+      "creuse",
+      "épée",
+      "fibre"
     ],
     [
-      "cuisine",
-      "passer",
+      "inflammatoire",
+      "décoration",
+      "simultanée",
       "rapide",
-      "dégoûtant",
-      "rampant",
-      "lac"
+      "durée",
+      "incandescent"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    2,
-    4,
-    1,
-    4
+    3,
+    3,
+    5,
+    3,
+    1
   ],
   "colClues": [
-    1,
+    3,
     3,
     4,
-    4,
+    3,
     2,
-    2
+    3
   ],
-  "themeWord": "cafard",
+  "themeWord": "routeur",
   "solution": [
     [
+      true,
+      true,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false,
@@ -82,43 +98,27 @@
     [
       false,
       true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       true,
+      false,
       false,
       true
     ],
     [
       false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

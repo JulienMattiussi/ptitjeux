@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tripe",
+      "pluie",
+      "agrafe",
+      "rectangulaire"
+    ],
+    [
+      "chaussure",
+      "planche",
+      "hiver",
+      "rivet"
+    ],
+    [
+      "marteau",
+      "écouter",
+      "enfoncer",
+      "tirer"
+    ],
+    [
+      "vis",
+      "tête",
+      "enchantement",
+      "menuiserie"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "clou",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

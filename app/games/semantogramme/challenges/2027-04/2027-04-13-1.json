@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "multitude",
+      "rouge",
+      "office",
+      "minerai"
+    ],
+    [
+      "rage",
+      "hawaïen",
+      "fâcher",
+      "emporter"
+    ],
+    [
+      "édredon",
+      "éclat",
+      "crise",
+      "flamenco"
+    ],
+    [
+      "tempête",
+      "déferlement",
+      "retentissante",
+      "couvert"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "colère",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

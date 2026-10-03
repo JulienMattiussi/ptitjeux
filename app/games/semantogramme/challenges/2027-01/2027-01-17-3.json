@@ -5,81 +5,73 @@
   "height": 6,
   "words": [
     [
-      "mémoire",
-      "belle-hélène",
-      "composition",
-      "gris",
-      "puissant",
-      "animal"
+      "introspection",
+      "silence",
+      "dialogue",
+      "picorer",
+      "enterrer",
+      "respiration"
     ],
     [
-      "cuirasse",
-      "corne",
-      "caresser",
-      "ligne",
-      "champ",
-      "protégé"
+      "zen",
+      "méditation",
+      "premier",
+      "contempler",
+      "paisible",
+      "profond"
     ],
     [
-      "vociférer",
+      "ramure",
+      "arrogance",
+      "apaiser",
+      "hémoglobine",
+      "sérénité",
+      "concentrer"
+    ],
+    [
+      "posture",
+      "verveine",
+      "arrondie",
+      "calme",
+      "musique",
+      "californien"
+    ],
+    [
+      "illustre",
+      "enclos",
+      "matin",
+      "bouddha",
       "humour",
-      "échelle",
-      "forêt",
-      "ongulé",
-      "colossal"
+      "irlande"
     ],
     [
-      "charger",
-      "libre",
-      "alvéolée",
-      "liesse",
-      "fournil",
-      "savane"
-    ],
-    [
-      "lancement",
-      "opinion",
-      "épais",
-      "pachyderme",
-      "afrique",
-      "patte"
-    ],
-    [
-      "cornu",
-      "massif",
-      "cravache",
-      "fortifiée",
-      "asie",
-      "oreiller"
+      "penser",
+      "sève",
+      "entorse",
+      "wax",
+      "saphir",
+      "omoplate"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    3,
-    2,
-    4,
-    3
-  ],
-  "colClues": [
+    5,
     3,
     2,
     1,
-    3,
-    4,
-    5
+    1
   ],
-  "themeWord": "rhinocéros",
+  "colClues": [
+    4,
+    2,
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "méditer",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       true,
       false,
@@ -88,10 +80,18 @@
       true
     ],
     [
+      true,
+      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
       true,
+      false,
       true,
       true
     ],
@@ -99,26 +99,26 @@
       true,
       false,
       false,
+      true,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
+      false,
       true,
-      true,
-      true,
-      true
+      false,
+      false
     ],
     [
       true,
-      true,
       false,
       false,
-      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

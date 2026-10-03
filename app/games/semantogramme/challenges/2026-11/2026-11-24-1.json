@@ -5,53 +5,53 @@
   "height": 4,
   "words": [
     [
-      "grenier",
-      "ictère",
-      "conte",
-      "cocon"
+      "auréole",
+      "bateau",
+      "vélo",
+      "sacrement"
     ],
     [
-      "homme",
-      "cédrat",
-      "larve",
-      "chausson"
+      "concision",
+      "bus",
+      "camion",
+      "monastère"
     ],
     [
-      "violon",
-      "fleur",
-      "ippon",
-      "aile"
+      "exotique",
+      "moto",
+      "turbine",
+      "taxi"
     ],
     [
-      "chenille",
-      "underground",
-      "nectar",
-      "antenne"
+      "train",
+      "effleurer",
+      "scooter",
+      "duo"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     2,
-    3
+    2,
+    2,
+    2
   ],
   "colClues": [
     1,
-    1,
-    2,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "papillon",
+  "themeWord": "transport",
   "solution": [
     [
       false,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
       false,
-      false,
+      true,
       true,
       false
     ],
@@ -65,8 +65,8 @@
       true,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

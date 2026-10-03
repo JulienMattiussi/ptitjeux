@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    7,
-    5
+    2,
+    4
   ],
   "walls": [
     [
@@ -133,102 +133,101 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "W",
       "pos": [
-        6,
-        4
+        2,
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "V",
+      "letter": "I",
       "pos": [
         3,
-        3
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "N",
       "pos": [
-        6,
-        2
+        5,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "H",
+      "letter": "C",
       "pos": [
-        5,
-        3
+        4,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "H",
       "pos": [
         6,
-        5
+        4
       ]
     }
   ],
   "target": {
-    "word": "EVOHE",
+    "word": "WINCH",
     "cells": [
       [
         4,
-        3
+        2
       ],
       [
         5,
-        4
+        3
       ],
       [
         6,
         3
       ],
       [
-        7,
+        6,
         4
       ],
       [
-        7,
+        6,
         5
       ]
     ]
   },
-  "parMoves": 30,
+  "parMoves": 29,
   "solution": [
-    "up",
     "left",
-    "left",
-    "down",
-    "right",
-    "left",
-    "left",
-    "up",
     "up",
     "right",
     "right",
-    "left",
-    "up",
     "up",
     "right",
-    "down",
+    "right",
     "right",
     "down",
+    "down",
+    "left",
+    "down",
+    "down",
+    "left",
     "up",
     "left",
-    "left",
     "up",
-    "left",
-    "down",
-    "left",
-    "down",
-    "left",
-    "down",
     "right",
+    "up",
+    "right",
+    "left",
+    "down",
+    "left",
+    "left",
+    "up",
+    "right",
+    "right",
+    "down",
     "right"
   ],
-  "canonicalWord": "évohé"
+  "canonicalWord": "winch"
 }

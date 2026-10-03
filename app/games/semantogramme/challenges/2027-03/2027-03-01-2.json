@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pissenlit",
+      "visiter",
+      "cousine",
+      "partager",
+      "fracas"
+    ],
+    [
+      "oncle",
+      "démarrer",
+      "issu",
+      "sciatique",
+      "séduire"
+    ],
+    [
+      "opéra",
+      "germain",
+      "idéaliser",
+      "pétiole",
+      "benne"
+    ],
+    [
+      "tesselle",
+      "gaieté",
+      "enrhumé",
+      "parent",
+      "jouer"
+    ],
+    [
+      "signaler",
+      "nièce",
+      "famille",
+      "éloigné",
+      "épisode"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "cousin",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

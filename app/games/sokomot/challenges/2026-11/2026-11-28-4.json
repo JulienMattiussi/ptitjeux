@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    7
+    7,
+    5
   ],
   "walls": [
     [
@@ -376,37 +376,37 @@
       "id": "b1",
       "letter": "V",
       "pos": [
-        4,
-        6
+        1,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "E",
       "pos": [
-        2,
-        1
+        1,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "I",
       "pos": [
-        3,
-        1
+        1,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "P",
+      "letter": "N",
       "pos": [
-        4,
+        6,
         5
       ]
     },
     {
       "id": "b5",
-      "letter": "I",
+      "letter": "A",
       "pos": [
         5,
         6
@@ -414,53 +414,51 @@
     },
     {
       "id": "b6",
-      "letter": "N",
+      "letter": "T",
       "pos": [
-        7,
-        1
+        6,
+        7
       ]
     }
   ],
   "target": {
-    "word": "VULPIN",
+    "word": "VEINAT",
     "cells": [
       [
         1,
-        1
+        2
       ],
       [
-        2,
-        1
+        1,
+        3
       ],
       [
-        3,
-        1
+        1,
+        4
       ],
       [
-        4,
-        1
+        1,
+        5
       ],
       [
-        5,
-        1
+        1,
+        6
       ],
       [
-        6,
-        1
+        1,
+        7
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 7,
   "solution": [
-    "up",
-    "left",
-    "up",
-    "right",
-    "up",
     "left",
     "down",
     "left",
-    "up"
+    "right",
+    "down",
+    "left",
+    "left"
   ],
-  "canonicalWord": "vulpin"
+  "canonicalWord": "veinât"
 }

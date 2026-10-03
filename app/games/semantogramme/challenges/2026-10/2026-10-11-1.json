@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "fugue",
-      "organique",
-      "indépendance",
-      "émancipation"
+      "chenille",
+      "ruisseau",
+      "serpent",
+      "tigre"
     ],
     [
-      "délivrance",
-      "choix",
-      "ciel",
-      "haie"
+      "théâtre",
+      "oiseau",
+      "chien",
+      "évolution"
     ],
     [
-      "libération",
-      "évasion",
-      "acier",
-      "ascenseur"
+      "poisson",
+      "transfusion",
+      "brun",
+      "cafard"
     ],
     [
-      "reins",
-      "enseignement",
-      "autonomie",
-      "droit"
+      "terminer",
+      "éléphant",
+      "paupière",
+      "cheval"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
+    2,
+    1,
     2
   ],
   "colClues": [
-    3,
+    1,
     2,
-    3,
+    2,
     2
   ],
-  "themeWord": "liberté",
+  "themeWord": "animal",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false
     ],
     [
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
-      false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

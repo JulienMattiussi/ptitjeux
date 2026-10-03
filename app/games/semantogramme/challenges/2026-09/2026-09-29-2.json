@@ -5,83 +5,69 @@
   "height": 5,
   "words": [
     [
-      "pissenlit",
-      "visiter",
-      "cousine",
-      "partager",
-      "fracas"
+      "cheval",
+      "épave",
+      "minerai",
+      "forger",
+      "scrutin"
     ],
     [
-      "oncle",
-      "démarrer",
-      "issu",
-      "sciatique",
-      "séduire"
+      "cabré",
+      "clou",
+      "aimanter",
+      "écossais",
+      "métal"
     ],
     [
-      "opéra",
-      "germain",
-      "idéaliser",
-      "pétiole",
-      "benne"
+      "amphi",
+      "mine",
+      "soudure",
+      "rouillé",
+      "auto-école"
     ],
     [
-      "tesselle",
-      "gaieté",
-      "enrhumé",
-      "parent",
-      "jouer"
+      "métallique",
+      "magnétique",
+      "poussin",
+      "rouiller",
+      "résistant"
     ],
     [
-      "signaler",
-      "nièce",
-      "famille",
-      "éloigné",
-      "épisode"
+      "gaine",
+      "cisaille",
+      "pépin",
+      "aimant",
+      "poulpe"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    1,
-    2,
-    3
-  ],
-  "colClues": [
-    1,
     3,
     3,
-    3,
+    4,
     1
   ],
-  "themeWord": "cousin",
+  "colClues": [
+    2,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "fer",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       true,
       false
     ],
     [
-      true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       true
     ],
     [
@@ -90,7 +76,21 @@
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

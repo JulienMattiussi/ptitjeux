@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "limpidité",
+      "atome",
+      "masse",
+      "oxydable"
+    ],
+    [
+      "accélération",
+      "client",
+      "attirance",
+      "planter"
+    ],
+    [
+      "rabot",
+      "gloire",
+      "particule",
+      "fenêtre"
+    ],
+    [
+      "onde",
+      "électron",
+      "cacophonique",
+      "force"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "physique",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

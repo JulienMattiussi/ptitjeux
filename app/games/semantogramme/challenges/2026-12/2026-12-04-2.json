@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "terre",
-      "hémoglobine",
-      "museau",
-      "humidité",
-      "barbu"
+      "national",
+      "forte",
+      "législatif",
+      "démocratique",
+      "rosier"
     ],
     [
-      "inférieur",
-      "tour",
-      "cave",
-      "gambade",
-      "taupe"
+      "légiférer",
+      "animal",
+      "débattre",
+      "voter",
+      "inhalation"
     ],
     [
-      "profond",
-      "commis",
-      "racine",
-      "aiguë",
-      "fondation"
+      "hémicycle",
+      "député",
+      "sénateur",
+      "haute-définition",
+      "débat"
     ],
     [
-      "pépite",
-      "champignon",
-      "filiation",
-      "humide",
-      "souterrain"
+      "flemme",
+      "amour",
+      "meringue",
+      "sénat",
+      "gazette"
     ],
     [
-      "sombre",
-      "creuser",
-      "obscurité",
-      "descendre",
-      "vote"
+      "tenue",
+      "village",
+      "chasseur",
+      "rarissime",
+      "commission"
     ]
   ],
   "rowClues": [
-    2,
     3,
     3,
-    3,
-    4
+    4,
+    1,
+    1
   ],
   "colClues": [
-    4,
-    2,
+    3,
+    1,
     3,
     3,
-    3
+    2
   ],
-  "themeWord": "sous-sol",
+  "themeWord": "parlement",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      true,
       true,
       false
     ],
     [
       true,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       true
     ],
     [
       false,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

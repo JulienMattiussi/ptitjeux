@@ -5,84 +5,100 @@
   "height": 6,
   "words": [
     [
-      "salade",
-      "argent",
-      "humour",
-      "dent",
-      "rafraîchissement",
-      "large"
+      "marchand",
+      "président",
+      "inébranlable",
+      "sablée",
+      "sermonner",
+      "altérée"
     ],
     [
-      "splendide",
-      "mélodieuse",
-      "mettre-à-jour",
-      "piquer",
-      "fanfare",
-      "plastique"
+      "galactique",
+      "pizza",
+      "feuilletée",
+      "imposante",
+      "fascinant",
+      "expressif"
     ],
     [
-      "célébrer",
-      "viande",
-      "manger",
-      "libraire",
-      "dollar",
-      "ensorceler"
+      "mousquetaire",
+      "boulanger",
+      "tancer",
+      "oeuf",
+      "intuition",
+      "tranchée"
     ],
     [
-      "pâte",
-      "escrime",
-      "inox",
-      "plume",
-      "couvert",
-      "enfourcher"
+      "lever",
+      "levure",
+      "brisée",
+      "rouler",
+      "souffle",
+      "beurre"
     ],
     [
-      "arabica",
-      "tenue",
-      "manche",
-      "pommier",
-      "flatter",
-      "long"
+      "peigner",
+      "tarte",
+      "pétrir",
+      "gel",
+      "sauge",
+      "enchanteur"
     ],
     [
-      "haute-définition",
-      "plante",
-      "fouir",
-      "amuser",
-      "rangement",
-      "enfler"
+      "farine",
+      "nourriture",
+      "sel",
+      "volter",
+      "pain",
+      "sécurisé"
     ]
   ],
   "rowClues": [
-    4,
+    1,
     2,
     2,
-    4,
-    3,
+    5,
+    2,
     3
   ],
   "colClues": [
     2,
     4,
+    4,
     3,
-    3,
-    2,
-    4
+    1,
+    1
   ],
-  "themeWord": "fourchette",
+  "themeWord": "pâte",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       false,
-      true
+      false
     ],
     [
       false,
+      true,
+      true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       true,
       false,
       true
@@ -100,25 +116,9 @@
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

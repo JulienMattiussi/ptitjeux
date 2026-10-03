@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "étau",
+      "pelle",
+      "jardin",
+      "plante",
+      "free"
+    ],
+    [
+      "planter",
+      "chiffon",
+      "arrosoir",
+      "spectral",
+      "terre"
+    ],
+    [
+      "expirer",
+      "rythme",
+      "hibernation",
+      "tailler",
+      "muscler"
+    ],
+    [
+      "bêche",
+      "sécateur",
+      "jardinier",
+      "exposition",
+      "arroser"
+    ],
+    [
+      "graine",
+      "pousser",
+      "fleur",
+      "essai",
+      "pacifique"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "jardiner",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

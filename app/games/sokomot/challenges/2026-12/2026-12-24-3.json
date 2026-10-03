@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    3
+    7,
+    1
   ],
   "walls": [
     [
@@ -133,52 +133,48 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "R",
       "pos": [
-        2,
+        3,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "U",
       "pos": [
-        4,
+        5,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "X",
+      "letter": "S",
       "pos": [
-        4,
-        3
+        6,
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
-      "pos": [
-        6,
-        3
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "S",
+      "letter": "A",
       "pos": [
         7,
         2
       ]
+    },
+    {
+      "id": "b5",
+      "letter": "T",
+      "pos": [
+        5,
+        3
+      ]
     }
   ],
   "target": {
-    "word": "SAXES",
+    "word": "RUSAT",
     "cells": [
-      [
-        3,
-        1
-      ],
       [
         4,
         1
@@ -189,39 +185,46 @@
       ],
       [
         6,
-        2
+        1
       ],
       [
         7,
         1
+      ],
+      [
+        7,
+        2
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 26,
   "solution": [
-    "right",
-    "up",
-    "left",
-    "left",
+    "down",
     "left",
     "down",
-    "right",
     "down",
     "right",
     "up",
     "up",
     "down",
-    "down",
-    "right",
-    "right",
-    "up",
+    "left",
+    "left",
     "up",
     "down",
     "down",
-    "right",
+    "left",
+    "up",
+    "down",
+    "left",
+    "up",
+    "up",
+    "left",
     "up",
     "right",
-    "up"
+    "down",
+    "right",
+    "right",
+    "right"
   ],
-  "canonicalWord": "saxes"
+  "canonicalWord": "rusât"
 }

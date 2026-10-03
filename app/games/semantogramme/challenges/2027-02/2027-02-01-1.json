@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "éventail",
+      "photo",
+      "numéro",
+      "hebdomadaire"
+    ],
+    [
+      "kiosque",
+      "article",
+      "barrage",
+      "oiseau"
+    ],
+    [
+      "emblème",
+      "douleur",
+      "intrépide",
+      "reportage"
+    ],
+    [
+      "mansarde",
+      "tigre",
+      "rubrique",
+      "aube"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "magazine",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

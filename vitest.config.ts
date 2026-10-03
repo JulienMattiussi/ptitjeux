@@ -13,6 +13,9 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./tests/setup.ts'],
+    // Chaque processus charge les niveaux JSON de tous les jeux : sans plafond,
+    // Vitest en lance presque un par cœur et peut saturer la mémoire.
+    maxWorkers: '50%',
     include: ['tests/unit/**/*.test.ts', 'tests/component/**/*.test.tsx'],
     coverage: {
       provider: 'v8',

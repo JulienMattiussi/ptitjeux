@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "chérir",
+      "pratiquer",
+      "maternité",
+      "avironner",
+      "staub"
+    ],
+    [
+      "président",
+      "sujet",
+      "piscine",
+      "aromatisé",
+      "centre"
+    ],
+    [
+      "resserrer",
+      "cycle",
+      "calendrier",
+      "sport",
+      "souvenir"
+    ],
+    [
+      "hebdomadaire",
+      "roupiller",
+      "activité",
+      "enfant",
+      "agile"
+    ],
+    [
+      "commando",
+      "milieu",
+      "reposer",
+      "congé",
+      "documenter"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    3,
+    1
+  ],
+  "themeWord": "mercredi",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "limpidité",
-      "atome",
-      "masse",
-      "oxydable"
+      "cassant",
+      "législative",
+      "libération",
+      "étagère"
     ],
     [
-      "accélération",
-      "client",
-      "attirance",
-      "planter"
+      "mulot",
+      "rayonnage",
+      "altruiste",
+      "index"
     ],
     [
-      "rabot",
-      "gloire",
-      "particule",
-      "fenêtre"
+      "lecture",
+      "bouquin",
+      "roman",
+      "danseur"
     ],
     [
-      "onde",
-      "électron",
-      "cacophonique",
-      "force"
+      "fauteuil",
+      "silence",
+      "grimoire",
+      "visite"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    1,
-    1,
-    3
+    3,
+    2
   ],
   "colClues": [
     2,
-    2,
-    2,
-    1
+    3,
+    1,
+    2
   ],
-  "themeWord": "physique",
+  "themeWord": "bibliothèque",
   "solution": [
     [
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
-      false
+      true
     ],
     [
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    3
+    1
   ],
   "walls": [
     [
@@ -374,23 +374,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "H",
+      "letter": "E",
       "pos": [
-        5,
-        1
+        2,
+        7
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "R",
       "pos": [
-        6,
+        4,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "A",
       "pos": [
         5,
         3
@@ -398,67 +398,69 @@
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "F",
       "pos": [
-        8,
-        4
+        6,
+        7
       ]
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "L",
       "pos": [
-        8,
-        5
+        7,
+        7
       ]
     },
     {
       "id": "b6",
-      "letter": "T",
+      "letter": "A",
       "pos": [
-        8,
-        6
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "HOUANT",
+    "word": "ERAFLA",
     "cells": [
       [
-        8,
-        1
+        3,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
       ],
       [
         8,
-        2
-      ],
-      [
-        8,
-        3
-      ],
-      [
-        8,
-        4
-      ],
-      [
-        8,
-        5
-      ],
-      [
-        8,
-        6
+        7
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
+    "down",
     "right",
-    "up",
-    "right",
+    "down",
     "left",
+    "down",
+    "right",
     "up",
     "right",
-    "right"
+    "down"
   ],
-  "canonicalWord": "houant"
+  "canonicalWord": "érafla"
 }

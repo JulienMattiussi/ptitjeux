@@ -5,7 +5,7 @@
   "height": 8,
   "player": [
     4,
-    4
+    3
   ],
   "walls": [
     [
@@ -133,23 +133,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "B",
       "pos": [
         2,
-        2
+        5
       ]
     },
     {
       "id": "b2",
-      "letter": "T",
+      "letter": "R",
       "pos": [
-        4,
+        3,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "A",
       "pos": [
         5,
         4
@@ -157,49 +157,70 @@
     },
     {
       "id": "b4",
-      "letter": "C",
+      "letter": "I",
       "pos": [
-        6,
-        3
+        3,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "K",
+      "letter": "E",
       "pos": [
-        7,
+        4,
         5
       ]
     }
   ],
   "target": {
-    "word": "STOCK",
+    "word": "BRAIE",
     "cells": [
       [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
         4,
-        1
-      ],
-      [
-        5,
-        1
-      ],
-      [
-        6,
-        2
-      ],
-      [
-        7,
-        1
-      ],
-      [
-        7,
-        2
+        6
       ]
     ]
   },
-  "parMoves": 36,
+  "parMoves": 30,
   "solution": [
+    "right",
+    "down",
+    "left",
+    "down",
     "up",
+    "left",
+    "down",
+    "right",
+    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "left",
+    "up",
+    "up",
+    "up",
+    "left",
+    "down",
+    "left",
+    "down",
+    "left",
     "down",
     "down",
     "right",
@@ -207,34 +228,7 @@
     "up",
     "left",
     "up",
-    "left",
-    "up",
-    "right",
-    "left",
-    "left",
-    "left",
-    "down",
-    "right",
-    "right",
-    "down",
-    "right",
-    "up",
-    "right",
-    "down",
-    "right",
-    "down",
-    "right",
-    "up",
-    "up",
-    "down",
-    "left",
-    "down",
-    "down",
-    "down",
-    "right",
-    "up",
-    "up",
-    "up"
+    "right"
   ],
-  "canonicalWord": "stock"
+  "canonicalWord": "braie"
 }

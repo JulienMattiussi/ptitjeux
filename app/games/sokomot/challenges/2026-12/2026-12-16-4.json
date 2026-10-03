@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    5
+    5,
+    7
   ],
   "walls": [
     [
@@ -374,41 +374,41 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "P",
       "pos": [
-        8,
-        2
+        4,
+        6
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "O",
       "pos": [
-        8,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "N",
       "pos": [
-        8,
-        4
+        3,
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "D",
       "pos": [
-        2,
+        4,
         5
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "U",
       "pos": [
-        3,
+        5,
         6
       ]
     },
@@ -416,48 +416,51 @@
       "id": "b6",
       "letter": "S",
       "pos": [
-        2,
-        7
+        7,
+        1
       ]
     }
   ],
   "target": {
-    "word": "GICLES",
+    "word": "PONDUS",
     "cells": [
       [
-        8,
-        2
+        1,
+        1
       ],
       [
-        8,
-        3
+        2,
+        1
       ],
       [
-        8,
-        4
+        3,
+        1
       ],
       [
-        8,
-        5
+        4,
+        1
       ],
       [
-        8,
-        6
+        5,
+        1
       ],
       [
-        8,
-        7
+        6,
+        1
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 9,
   "solution": [
+    "up",
+    "left",
+    "up",
     "right",
-    "down",
-    "right",
+    "up",
     "left",
     "down",
-    "right"
+    "left",
+    "up"
   ],
-  "canonicalWord": "gicles"
+  "canonicalWord": "pondus"
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "carré",
-      "camion",
-      "après-midi",
-      "hiver"
+      "sprint",
+      "bonhomme",
+      "pédalier",
+      "peloton"
     ],
     [
-      "cône",
-      "rond",
-      "diaphane",
-      "grill"
+      "route",
+      "maillot",
+      "guidon",
+      "kumquat"
     ],
     [
-      "pyramide",
-      "cube",
-      "satan",
-      "ovale"
+      "descente",
+      "col",
+      "toux",
+      "recyclable"
     ],
     [
-      "chandelier",
-      "pureté",
-      "losange",
-      "rectangle"
+      "pirouette",
+      "étape",
+      "malade",
+      "vélo"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
+    3,
+    2,
     2
   ],
   "colClues": [
     3,
+    3,
     2,
-    1,
     2
   ],
-  "themeWord": "forme",
+  "themeWord": "cyclisme",
   "solution": [
     [
       true,
       false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true
     ],
     [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
+      false
+    ],
+    [
       false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

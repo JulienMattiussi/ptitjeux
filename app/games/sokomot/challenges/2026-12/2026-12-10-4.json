@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    3
+    8,
+    5
   ],
   "walls": [
     [
@@ -374,60 +374,56 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "P",
       "pos": [
-        5,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "M",
-      "pos": [
-        4,
+        1,
         2
       ]
     },
     {
-      "id": "b3",
-      "letter": "B",
+      "id": "b2",
+      "letter": "A",
       "pos": [
-        5,
+        1,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "A",
+      "id": "b3",
+      "letter": "R",
       "pos": [
         1,
         4
       ]
     },
     {
-      "id": "b5",
-      "letter": "S",
+      "id": "b4",
+      "letter": "T",
       "pos": [
-        1,
+        7,
         5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "I",
+      "pos": [
+        6,
+        6
       ]
     },
     {
       "id": "b6",
       "letter": "E",
       "pos": [
-        1,
-        6
+        7,
+        7
       ]
     }
   ],
   "target": {
-    "word": "EMBASE",
+    "word": "PARTIE",
     "cells": [
-      [
-        1,
-        1
-      ],
       [
         1,
         2
@@ -447,18 +443,21 @@
       [
         1,
         6
+      ],
+      [
+        1,
+        7
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 6,
   "solution": [
     "left",
-    "up",
+    "down",
     "left",
     "right",
-    "up",
-    "left",
+    "down",
     "left"
   ],
-  "canonicalWord": "embase"
+  "canonicalWord": "partie"
 }

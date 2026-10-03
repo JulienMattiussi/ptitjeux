@@ -5,94 +5,112 @@
   "height": 7,
   "words": [
     [
-      "halogène",
-      "pot-au-feu",
-      "soupirer",
-      "lilas",
-      "écluse",
-      "serpentin",
-      "crotte"
+      "thermostat",
+      "pilier",
+      "ondulé",
+      "épauler",
+      "doubleau",
+      "cathédrale",
+      "patella"
     ],
     [
-      "gouache",
-      "porter",
-      "vaciller",
-      "révérence",
-      "archaïque",
-      "littéraire",
-      "ouvragé"
-    ],
-    [
-      "tonnerre",
-      "peine",
+      "lion",
+      "extérieur",
+      "coutume",
       "pénible",
-      "ardu",
-      "pousser",
-      "travailler",
-      "rosé"
+      "minorité",
+      "translucide",
+      "institut"
     ],
     [
-      "gémir",
-      "épuisant",
-      "station",
-      "fatigue",
-      "redondant",
-      "cicatrice",
-      "parution"
+      "son",
+      "famille",
+      "quotidien",
+      "massif",
+      "stable",
+      "congratuler",
+      "extrémité"
     ],
     [
-      "rude",
-      "louche",
-      "cyclique",
-      "souffle",
-      "épingle",
-      "jalousie",
-      "pastel"
+      "titre",
+      "architecture",
+      "boîte",
+      "pénale",
+      "amandier",
+      "mur",
+      "épais"
     ],
     [
-      "mèche",
-      "tambourin",
-      "résonant",
-      "tisane",
-      "forcer",
-      "plasmodium",
-      "transpirer"
+      "envelopper",
+      "soutenir",
+      "reportage",
+      "arnaque",
+      "gelée",
+      "cocotier",
+      "gothique"
     ],
     [
-      "judo",
-      "haleter",
-      "antiquité",
-      "effort",
-      "tempête",
-      "soulever",
-      "translucide"
+      "monumental",
+      "goudron",
+      "élever",
+      "consolider",
+      "soutien",
+      "pliante",
+      "pyramide"
+    ],
+    [
+      "implanter",
+      "puissant",
+      "arc-boutant",
+      "irritation",
+      "taie",
+      "composé",
+      "paroi"
     ]
   ],
   "rowClues": [
+    3,
+    1,
     1,
     3,
+    2,
     5,
-    3,
-    2,
-    2,
     3
   ],
   "colClues": [
+    1,
+    5,
     2,
-    4,
+    3,
+    1,
     2,
-    4,
-    3,
-    3,
-    1
+    4
   ],
-  "themeWord": "ahaner",
+  "themeWord": "contrefort",
   "solution": [
     [
       false,
+      true,
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false,
       false,
       false
@@ -102,42 +120,24 @@
       true,
       false,
       false,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
       false,
       true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       false,
       false,
-      false
+      false,
+      false,
+      true
     ],
     [
       true,
       false,
-      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
+      true,
       true,
       false,
       true
@@ -145,12 +145,12 @@
     [
       false,
       true,
-      false,
       true,
       false,
-      true,
-      false
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

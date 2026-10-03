@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "comique",
+      "verdict",
+      "circassien",
+      "chaussure",
+      "maquillage"
+    ],
+    [
+      "gag",
+      "amuser",
+      "article",
+      "rouge",
+      "cirque"
+    ],
+    [
+      "action",
+      "maquillé",
+      "lettre",
+      "glisser",
+      "manucure"
+    ],
+    [
+      "perruque",
+      "enfant",
+      "rigoler",
+      "chaperon",
+      "croûte"
+    ],
+    [
+      "nez",
+      "irriguer",
+      "rire",
+      "organiste",
+      "arrondi"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "clown",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pèlerinage",
+      "ange",
+      "collection",
+      "croyance"
+    ],
+    [
+      "prière",
+      "culte",
+      "vigoureux",
+      "spiritualité"
+    ],
+    [
+      "foncer",
+      "miracle",
+      "sainte",
+      "géniteur"
+    ],
+    [
+      "modeler",
+      "mystique",
+      "conviction",
+      "radiateur"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "foi",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

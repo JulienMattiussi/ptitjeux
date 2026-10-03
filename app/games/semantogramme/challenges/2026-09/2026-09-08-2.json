@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "malt",
-      "noire",
-      "facial",
-      "taches",
-      "cannelle"
+      "construire",
+      "prolonger",
+      "tropicale",
+      "sape",
+      "rustique"
     ],
     [
-      "jumeler",
-      "relique",
-      "écho",
-      "tempe",
-      "front"
+      "nourriture",
+      "pavée",
+      "iridescent",
+      "primitive",
+      "tribal"
     ],
     [
-      "figure",
-      "sourire",
-      "aiguisé",
-      "expression",
-      "portrait"
+      "roseraie",
+      "volet",
+      "girouette",
+      "savane",
+      "tribale"
     ],
     [
-      "historique",
-      "bouche",
-      "trait",
-      "débattre",
-      "menton"
+      "bois",
+      "habiter",
+      "splendide",
+      "harmonica",
+      "toit"
     ],
     [
-      "armer",
-      "brochette",
-      "vache",
-      "deuil",
-      "grimace"
+      "pizza",
+      "dattier",
+      "rudimentaire",
+      "tatami",
+      "juteux"
     ]
   ],
   "rowClues": [
-    1,
+    3,
     2,
-    4,
+    2,
     3,
     1
   ],
   "colClues": [
-    1,
     2,
+    1,
     2,
     2,
     4
   ],
-  "themeWord": "visage",
+  "themeWord": "hutte",
   "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
     [
       false,
       false,
       true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 11

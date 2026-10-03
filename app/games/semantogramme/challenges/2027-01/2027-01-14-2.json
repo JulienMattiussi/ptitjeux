@@ -5,67 +5,81 @@
   "height": 5,
   "words": [
     [
-      "épais",
-      "descendant",
-      "craquer",
-      "sacrée",
-      "forge"
+      "gouache",
+      "rhume",
+      "odorat",
+      "priser",
+      "travail"
     ],
     [
-      "gouttelette",
-      "corps",
-      "enfer",
-      "tribal",
-      "transmigrer"
+      "humer",
+      "thermostat",
+      "livraison",
+      "évasion",
+      "caserne"
     ],
     [
-      "conscience",
-      "spiritualité",
-      "esprit",
-      "novice",
-      "immortelle"
+      "vénus",
+      "commande",
+      "sentir",
+      "reniflement",
+      "mouchoir"
     ],
     [
-      "mort",
-      "éternelle",
-      "élever",
-      "visite",
-      "transcendance"
+      "renifler",
+      "siècle",
+      "arête",
+      "essence",
+      "narine"
     ],
     [
-      "période",
-      "paradis",
-      "calmer",
-      "remuer",
-      "pure"
+      "parfum",
+      "mucus",
+      "éternuer",
+      "enclos",
+      "éternuement"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    4,
-    4,
-    2
-  ],
-  "colClues": [
-    2,
-    4,
     3,
     1,
+    3,
+    3,
     4
   ],
-  "themeWord": "âme",
+  "colClues": [
+    3,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "nez",
   "solution": [
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false
     ],
     [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       true
@@ -74,20 +88,6 @@
       true,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true
     ]

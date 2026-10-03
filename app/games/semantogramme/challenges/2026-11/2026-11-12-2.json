@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "guérir",
-      "dépouiller",
-      "familier",
-      "abstention",
-      "chinchilla"
+      "indigo",
+      "cravate",
+      "azur",
+      "océan",
+      "cyan"
     ],
     [
-      "isoloir",
-      "bulletin",
-      "gourmander",
-      "démocratique",
-      "secret"
+      "profond",
+      "glace",
+      "jean",
+      "lapis",
+      "dérouler"
     ],
     [
-      "cloche",
-      "majorité",
-      "citoyen",
-      "marteau",
-      "imprimée"
+      "essaim",
+      "aigue-marine",
+      "mer",
+      "sabre",
+      "céleste"
     ],
     [
-      "républicain",
-      "élection",
-      "frangin",
-      "balcon",
-      "élire"
+      "cobalt",
+      "communion",
+      "pirogue",
+      "gâter",
+      "ciel"
     ],
     [
-      "voter",
-      "fulgurer",
-      "scrutin",
-      "serré",
-      "libre"
+      "lavande",
+      "baryton",
+      "chagrin",
+      "turquoise",
+      "son"
     ]
   ],
   "rowClues": [
-    2,
     4,
-    2,
+    4,
     3,
-    3
+    2,
+    2
   ],
   "colClues": [
-    3,
     4,
     2,
-    2,
+    3,
+    3,
     3
   ],
-  "themeWord": "vote",
+  "themeWord": "bleu",
   "solution": [
     [
-      false,
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
+      false,
       true,
       true,
       false,
-      true,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

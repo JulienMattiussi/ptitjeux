@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "espèce",
-      "saut",
-      "lame",
-      "roulette"
+      "nuage",
+      "tempête",
+      "soleil",
+      "ruche"
     ],
     [
-      "agrafeuse",
-      "glace",
-      "maquillé",
-      "moelleux"
+      "gel",
+      "foudre",
+      "neige",
+      "parterre"
     ],
     [
-      "glisser",
-      "trancher",
-      "exploration",
-      "cessez-le-feu"
+      "salaire",
+      "verglas",
+      "amusement",
+      "vent"
     ],
     [
-      "piste",
-      "étinceler",
-      "arabesque",
-      "putride"
+      "sirène",
+      "gâter",
+      "rosée",
+      "transfusion"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    1,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
+    3,
     2,
     1
   ],
-  "themeWord": "patinage",
+  "colClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "météo",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
     [
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

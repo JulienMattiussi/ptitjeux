@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    2
+    6,
+    3
   ],
   "walls": [
     [
@@ -133,110 +133,103 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "R",
       "pos": [
-        4,
+        2,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "A",
       "pos": [
-        3,
-        2
+        6,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "X",
+      "letter": "I",
       "pos": [
-        6,
-        3
+        4,
+        5
       ]
     },
     {
       "id": "b4",
+      "letter": "D",
+      "pos": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": "b5",
       "letter": "E",
       "pos": [
         6,
         2
       ]
-    },
-    {
-      "id": "b5",
-      "letter": "Z",
-      "pos": [
-        6,
-        4
-      ]
     }
   ],
   "target": {
-    "word": "FIXEZ",
+    "word": "RAIDE",
     "cells": [
       [
         4,
         2
       ],
       [
-        5,
-        1
-      ],
-      [
-        6,
-        2
-      ],
-      [
-        6,
+        4,
         3
       ],
       [
-        7,
-        2
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
       ]
     ]
   },
-  "parMoves": 38,
+  "parMoves": 31,
   "solution": [
     "right",
-    "up",
+    "down",
+    "left",
+    "left",
+    "left",
     "right",
-    "right",
-    "right",
-    "right",
+    "down",
     "down",
     "left",
     "up",
     "left",
-    "down",
-    "up",
-    "left",
-    "left",
-    "down",
-    "right",
-    "left",
-    "down",
-    "down",
-    "right",
-    "right",
-    "right",
-    "down",
-    "right",
     "up",
     "left",
     "up",
-    "down",
+    "right",
     "left",
     "left",
     "up",
     "right",
+    "right",
     "up",
-    "down",
-    "down",
     "right",
     "right",
-    "up"
+    "right",
+    "down",
+    "down",
+    "up",
+    "left",
+    "down",
+    "right",
+    "down"
   ],
-  "canonicalWord": "fixez"
+  "canonicalWord": "raide"
 }

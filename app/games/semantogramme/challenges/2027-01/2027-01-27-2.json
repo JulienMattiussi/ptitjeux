@@ -5,82 +5,68 @@
   "height": 5,
   "words": [
     [
-      "sumo",
-      "verdâtre",
-      "tonneau",
-      "campagnol",
-      "malveillance"
+      "entier",
+      "méditer",
+      "patient",
+      "canevas",
+      "tissu"
     ],
     [
-      "paraître",
-      "baleine",
-      "astre",
-      "épauler",
-      "orbe"
+      "archer",
+      "osseux",
+      "aiguille",
+      "piquer",
+      "broder"
     ],
     [
-      "baudruche",
-      "grossir",
-      "chandelier",
-      "fustiger",
-      "engraisser"
+      "flexible",
+      "cadre",
+      "minutieux",
+      "orner",
+      "dé"
     ],
     [
-      "épaissir",
-      "pansu",
-      "surf",
-      "pneu",
-      "éléphant"
+      "artistique",
+      "motif",
+      "revenant",
+      "cabinet",
+      "vichyssoise"
     ],
     [
-      "enfant",
-      "enrobé",
-      "enflure",
-      "laver",
-      "penalty"
+      "esquisse",
+      "décoratif",
+      "point",
+      "dauphin",
+      "brodeuse"
     ]
   ],
   "rowClues": [
-    2,
-    1,
+    3,
     3,
     4,
-    2
+    2,
+    3
   ],
   "colClues": [
+    1,
     3,
     4,
-    2,
-    1,
-    2
+    3,
+    4
   ],
-  "themeWord": "gros",
+  "themeWord": "broderie",
   "solution": [
     [
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false,
       true
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true,
       true
     ],
@@ -88,9 +74,23 @@
       false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

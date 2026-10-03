@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "couloir",
-      "pencher",
-      "choix",
-      "fruit",
-      "doux"
+      "pureté",
+      "brouillard",
+      "lourd",
+      "forêt",
+      "persistante"
     ],
     [
-      "chorégraphie",
-      "rétrécir",
-      "fente",
-      "stalagmite",
-      "pratique"
+      "soupe",
+      "tapis",
+      "compact",
+      "longer",
+      "enfoncer"
     ],
     [
-      "serré",
-      "nappe",
-      "serrure",
-      "resserrer",
-      "pincé"
+      "crème",
+      "massif",
+      "manteau",
+      "éléphant",
+      "dense"
     ],
     [
-      "filiation",
-      "roi",
-      "sentier",
-      "tisane",
-      "comprimer"
+      "briques",
+      "consistant",
+      "tressaillir",
+      "livre",
+      "matinale"
     ],
     [
-      "goulot",
-      "restreint",
-      "agrafe",
-      "geindre",
-      "mince"
+      "mur",
+      "puce",
+      "engraisser",
+      "épaissir",
+      "menacer"
     ]
   ],
   "rowClues": [
-    1,
-    2,
+    3,
+    3,
     4,
     2,
     3
   ],
   "colClues": [
     3,
-    2,
+    4,
+    4,
     3,
-    1,
-    3
+    1
   ],
-  "themeWord": "étroit",
+  "themeWord": "épais",
   "solution": [
     [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
-      false,
+      true,
       false
     ],
     [
       true,
-      false,
       true,
       true,
-      true
-    ],
-    [
       false,
-      false,
-      true,
-      false,
-      true
+      false
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

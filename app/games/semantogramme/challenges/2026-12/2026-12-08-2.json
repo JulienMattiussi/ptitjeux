@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "élément",
-      "vibrer",
-      "chimie",
-      "solide",
-      "cercueil"
+      "prix",
+      "célébrité",
+      "tige",
+      "rhubarbe",
+      "gain"
     ],
     [
-      "sévère",
-      "antiadhésive",
-      "visibilité",
-      "moléculaire",
-      "liaison"
+      "succès",
+      "smash",
+      "décrocher",
+      "baleine",
+      "duvet"
     ],
     [
-      "poussée",
-      "composer",
-      "liaisonner",
-      "rival",
-      "organique"
+      "doberman",
+      "obtenir",
+      "triompher",
+      "remporter",
+      "cieux"
     ],
     [
-      "simple",
-      "chimique",
-      "casserole",
-      "composé",
-      "snow"
+      "champion",
+      "nanterre",
+      "auto-école",
+      "trophée",
+      "crabe"
     ],
     [
-      "atome",
-      "sacoche",
-      "gaz",
-      "inorganique",
-      "réjouir"
+      "mériter",
+      "carreau",
+      "empocher",
+      "honneur",
+      "texte"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     2,
     3,
-    3,
-    3
-  ],
-  "colClues": [
-    3,
     2,
-    3,
-    4,
     2
   ],
-  "themeWord": "molécule",
+  "colClues": [
+    4,
+    1,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "gagner",
   "solution": [
     [
       true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
+      false,
       false
     ],
     [
       false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false
     ],
     [
       true,
       false,
+      false,
       true,
+      false
+    ],
+    [
       true,
+      false,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

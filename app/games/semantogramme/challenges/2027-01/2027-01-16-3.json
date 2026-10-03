@@ -5,107 +5,107 @@
   "height": 6,
   "words": [
     [
-      "pot",
-      "octroyer",
-      "randonnée",
-      "pêcher",
-      "café",
-      "creuse"
+      "candide",
+      "crème",
+      "navigateur",
+      "couvercle",
+      "printemps",
+      "imperméable"
     ],
     [
-      "pelle",
-      "iglou",
-      "manche",
-      "remuer",
-      "goûter",
-      "épancher"
+      "cueillette",
+      "sec",
+      "reposant",
+      "sage-femme",
+      "aspirine",
+      "amarre"
     ],
     [
-      "étroit",
-      "thé",
-      "mélanger",
-      "dragée",
-      "avaler",
-      "lumineux"
+      "noire",
+      "forêt",
+      "sonnette",
+      "escalier",
+      "frais",
+      "délicat"
     ],
     [
-      "absence",
-      "glaçage",
-      "organisme",
-      "mitrailler",
-      "bois",
-      "cintré"
+      "valider",
+      "sauce",
+      "steak",
+      "musculature",
+      "photo",
+      "recherché"
     ],
     [
-      "porter",
-      "inox",
-      "couvert",
-      "soupe",
-      "lagune",
-      "doseuse"
+      "haute-définition",
+      "obésité",
+      "champignon",
+      "comestible",
+      "binette",
+      "gastronomie"
     ],
     [
-      "sucre",
-      "génome",
-      "dossard",
-      "musculaire",
-      "attaque",
-      "épingle"
+      "gourmandise",
+      "commune",
+      "tabouret",
+      "permanente",
+      "alvéolée",
+      "réjouir"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    2,
     4,
+    2,
     3,
-    1,
-    5,
-    1
+    3
   ],
   "colClues": [
-    4,
-    2,
     3,
-    2,
-    4,
-    2
+    5,
+    1,
+    1,
+    3,
+    3
   ],
-  "themeWord": "cuillère",
+  "themeWord": "morille",
   "solution": [
     [
+      false,
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      true,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false,
@@ -113,12 +113,12 @@
     ],
     [
       true,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

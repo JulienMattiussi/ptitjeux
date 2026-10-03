@@ -5,80 +5,80 @@
   "height": 5,
   "words": [
     [
-      "meurtrière",
-      "sueurs",
-      "archet",
-      "rempart",
-      "amoureux"
+      "javelot",
+      "relique",
+      "talon",
+      "frigorifique",
+      "transpercer"
     ],
     [
-      "rosser",
-      "résister",
-      "tour",
-      "mur",
-      "douve"
+      "capitale",
+      "sagaie",
+      "meurtrier",
+      "décomposé",
+      "tournoi"
     ],
     [
-      "siège",
-      "fortifier",
-      "militaire",
-      "grosse",
-      "jeunesse"
+      "samu",
+      "apprendre",
+      "lancer",
+      "extérieur",
+      "pique"
     ],
     [
-      "médiévale",
-      "laser",
-      "soldat",
-      "massive",
-      "rougeoyant"
+      "long",
+      "saule",
+      "jaillir",
+      "guerrier",
+      "install"
     ],
     [
-      "univers",
-      "refrain",
-      "pont-levis",
-      "tournée",
-      "imprenable"
+      "flash",
+      "pointe",
+      "redoutable",
+      "illusoire",
+      "fer"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
     3,
     2,
-    4,
     3,
-    2
+    3
   ],
-  "themeWord": "forteresse",
+  "colClues": [
+    2,
+    2,
+    4,
+    1,
+    4
+  ],
+  "themeWord": "lance",
   "solution": [
     [
       true,
       false,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
+      false,
       true
     ],
     [
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
@@ -86,11 +86,11 @@
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

@@ -5,66 +5,59 @@
   "height": 5,
   "words": [
     [
-      "aquatique",
-      "combinaison",
-      "maritime",
-      "sombrero",
-      "rajeunir"
+      "évasé",
+      "largeur",
+      "spacieux",
+      "commerciale",
+      "généreux"
     ],
     [
-      "témoin",
-      "hawaïen",
-      "planche",
-      "gingembre",
-      "plage"
+      "populaire",
+      "selle",
+      "ample",
+      "peigne",
+      "épaule"
     ],
     [
-      "attelage",
-      "creuset",
-      "mer",
-      "californien",
-      "prison"
+      "paume",
+      "sororal",
+      "étaler",
+      "rouge",
+      "rayon"
     ],
     [
-      "incroyable",
-      "extrême",
-      "vague",
-      "maïs",
-      "archaïque"
+      "étendre",
+      "banqueter",
+      "plage",
+      "prix",
+      "poisseux"
     ],
     [
-      "tube",
-      "résine",
-      "cérémonie",
-      "cogner",
-      "envie"
+      "élargir",
+      "fleuve",
+      "leash",
+      "avenue",
+      "éclat"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
     2,
     2,
-    1
+    2,
+    3
   ],
   "colClues": [
+    4,
     2,
-    3,
     4,
     1,
-    1
+    2
   ],
-  "themeWord": "surf",
+  "themeWord": "large",
   "solution": [
     [
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
@@ -74,23 +67,30 @@
       false,
       false,
       true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      false,
-      false
+      true
     ],
     [
       true,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

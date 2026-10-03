@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     5,
-    6
+    3
   ],
   "walls": [
     [
@@ -374,94 +374,94 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
-      "pos": [
-        4,
-        5
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "H",
-      "pos": [
-        2,
-        1
-      ]
-    },
-    {
-      "id": "b3",
       "letter": "E",
-      "pos": [
-        3,
-        1
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "I",
       "pos": [
         4,
         4
       ]
     },
     {
-      "id": "b5",
-      "letter": "K",
+      "id": "b2",
+      "letter": "M",
       "pos": [
-        5,
+        2,
+        7
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "A",
+      "pos": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "N",
+      "pos": [
+        4,
         5
       ]
     },
     {
+      "id": "b5",
+      "letter": "A",
+      "pos": [
+        5,
+        4
+      ]
+    },
+    {
       "id": "b6",
-      "letter": "H",
+      "letter": "I",
       "pos": [
         7,
-        1
+        7
       ]
     }
   ],
   "target": {
-    "word": "CHEIKH",
+    "word": "EMANAI",
     "cells": [
       [
         1,
-        1
+        7
       ],
       [
         2,
-        1
+        7
       ],
       [
         3,
-        1
+        7
       ],
       [
         4,
-        1
+        7
       ],
       [
         5,
-        1
+        7
       ],
       [
         6,
-        1
+        7
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
-    "up",
+    "down",
     "left",
-    "up",
-    "right",
+    "down",
     "up",
     "left",
     "down",
-    "left",
-    "up",
-    "up"
+    "down",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "cheikh"
+  "canonicalWord": "émanai"
 }

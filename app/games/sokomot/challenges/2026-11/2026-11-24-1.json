@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     1,
-    3
+    4
   ],
   "walls": [
     [
@@ -98,10 +98,10 @@
     ],
     [
       5,
-      4
+      1
     ],
     [
-      1,
+      2,
       4
     ]
   ],
@@ -109,55 +109,58 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "P",
       "pos": [
         1,
-        2
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "A",
       "pos": [
-        2,
+        3,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "S",
       "pos": [
-        3,
-        2
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "AIE",
+    "word": "PAS",
     "cells": [
       [
         1,
-        1
+        2
       ],
       [
         2,
-        1
+        2
       ],
       [
         3,
-        1
+        3
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 10,
   "solution": [
     "up",
+    "right",
+    "right",
     "down",
+    "right",
     "right",
     "up",
-    "down",
-    "right",
-    "up"
+    "left",
+    "up",
+    "left"
   ],
-  "canonicalWord": "aie"
+  "canonicalWord": "pas"
 }

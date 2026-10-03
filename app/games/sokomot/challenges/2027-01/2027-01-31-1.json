@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    3
+    5,
+    1
   ],
   "walls": [
     [
@@ -98,60 +98,62 @@
     ],
     [
       2,
-      1
+      4
     ],
     [
-      5,
-      1
+      1,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "O",
       "pos": [
-        1,
-        2
+        4,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "I",
       "pos": [
-        2,
+        4,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "E",
       "pos": [
-        3,
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "NON",
+    "word": "OIE",
     "cells": [
       [
-        1,
+        3,
         1
       ],
       [
-        2,
+        4,
         2
       ],
       [
-        3,
+        5,
         2
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 10,
   "solution": [
-    "up",
+    "left",
+    "down",
+    "left",
     "down",
     "down",
     "right",
@@ -160,5 +162,5 @@
     "right",
     "up"
   ],
-  "canonicalWord": "non"
+  "canonicalWord": "oie"
 }

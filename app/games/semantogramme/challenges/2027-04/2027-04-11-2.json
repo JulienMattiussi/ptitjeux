@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "foin",
+      "enrobé",
+      "maïs",
+      "mollet",
+      "archaïque"
+    ],
+    [
+      "foulée",
+      "empreinte",
+      "cueillir",
+      "chaussure",
+      "piétiner"
+    ],
+    [
+      "enjambée",
+      "planer",
+      "orteil",
+      "mâcher",
+      "pédestre"
+    ],
+    [
+      "talon",
+      "marcher",
+      "taper",
+      "pas",
+      "fermenté"
+    ],
+    [
+      "nénuphar",
+      "cheville",
+      "plante",
+      "semelle",
+      "cliché"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "pied",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

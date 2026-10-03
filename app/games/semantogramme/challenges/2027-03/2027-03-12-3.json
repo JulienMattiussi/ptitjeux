@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "écrire",
+      "ambrée",
+      "manigancer",
+      "morose",
+      "longue",
+      "contact"
+    ],
+    [
+      "frange",
+      "basse",
+      "rocheux",
+      "raréfier",
+      "rythmé",
+      "jeu"
+    ],
+    [
+      "service",
+      "salle-à-manger",
+      "meuble",
+      "rêver",
+      "terminal",
+      "micro"
+    ],
+    [
+      "cuisine",
+      "bois",
+      "gond",
+      "manger",
+      "fée",
+      "haute"
+    ],
+    [
+      "uni",
+      "monnaie",
+      "plateau",
+      "dresser",
+      "commémorer",
+      "aneth"
+    ],
+    [
+      "pied",
+      "partage",
+      "ronde",
+      "menace",
+      "nappe",
+      "nid"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    4,
+    2,
+    4
+  ],
+  "colClues": [
+    4,
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "table",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

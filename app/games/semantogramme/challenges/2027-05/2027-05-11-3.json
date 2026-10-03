@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-11-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "spatial",
+      "verticale",
+      "primer",
+      "feu",
+      "moteur",
+      "cosmos"
+    ],
+    [
+      "espace",
+      "médecin",
+      "maléfique",
+      "vaccin",
+      "ferme",
+      "lancer"
+    ],
+    [
+      "lune",
+      "desserrer",
+      "décoller",
+      "écimer",
+      "rapide",
+      "invasive"
+    ],
+    [
+      "voler",
+      "tapage",
+      "satellite",
+      "poser",
+      "manoeuvrer",
+      "mensonge"
+    ],
+    [
+      "mars",
+      "rigide",
+      "astronaute",
+      "firmament",
+      "flamme",
+      "byzantin"
+    ],
+    [
+      "détonation",
+      "char",
+      "décollage",
+      "orbiter",
+      "endormir",
+      "abîme"
+    ]
+  ],
+  "rowClues": [
+    5,
+    2,
+    3,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    5,
+    1,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "fusée",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

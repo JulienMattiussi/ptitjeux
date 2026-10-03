@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
+    5,
     3
   ],
   "walls": [
@@ -374,56 +374,64 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
-      "pos": [
-        2,
-        7
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "I",
+      "letter": "Y",
       "pos": [
         4,
         4
       ]
     },
     {
-      "id": "b3",
-      "letter": "V",
+      "id": "b2",
+      "letter": "P",
       "pos": [
-        5,
-        5
+        2,
+        7
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "R",
+      "pos": [
+        3,
+        7
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
+      "letter": "E",
       "pos": [
-        6,
-        7
+        4,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
-      "pos": [
-        7,
-        7
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "R",
+      "letter": "A",
       "pos": [
         5,
         4
       ]
+    },
+    {
+      "id": "b6",
+      "letter": "U",
+      "pos": [
+        7,
+        7
+      ]
     }
   ],
   "target": {
-    "word": "LIVRER",
+    "word": "YPREAU",
     "cells": [
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        7
+      ],
       [
         3,
         7
@@ -439,29 +447,21 @@
       [
         6,
         7
-      ],
-      [
-        7,
-        7
-      ],
-      [
-        8,
-        7
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
     "down",
-    "right",
-    "down",
-    "up",
-    "right",
-    "down",
-    "down",
     "left",
     "down",
-    "right"
+    "up",
+    "left",
+    "down",
+    "down",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "livrer"
+  "canonicalWord": "ypréau"
 }

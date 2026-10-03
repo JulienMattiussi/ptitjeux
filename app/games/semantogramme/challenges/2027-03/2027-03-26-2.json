@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "parlementaire",
+      "rame",
+      "tenace",
+      "dangereux",
+      "pétrifier"
+    ],
+    [
+      "transcendance",
+      "rigide",
+      "nageoire",
+      "feu",
+      "marbre"
+    ],
+    [
+      "éponge",
+      "fer",
+      "soprano",
+      "inflexible",
+      "ciboulette"
+    ],
+    [
+      "cépage",
+      "résistant",
+      "durcir",
+      "solide",
+      "os"
+    ],
+    [
+      "roche",
+      "acier",
+      "perpendiculaire",
+      "empreinte",
+      "rabbin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "dur",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

@@ -5,46 +5,46 @@
   "height": 4,
   "words": [
     [
-      "sorcière",
-      "travail",
-      "mandibule",
-      "heure"
+      "circuit",
+      "douane",
+      "valise",
+      "gorge"
     ],
     [
-      "dialogue",
-      "esprit",
-      "noble",
-      "ouvrière"
+      "trône",
+      "élevage",
+      "guide",
+      "passeport"
     ],
     [
-      "colonie",
-      "peindre",
-      "gratte-ciel",
-      "défilé"
+      "frontière",
+      "remontoir",
+      "côté",
+      "excursion"
     ],
     [
-      "impair",
-      "cigale",
-      "ouvreur",
-      "larve"
+      "aventure",
+      "condor",
+      "visa",
+      "nova"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    1,
     2,
     2
   ],
   "colClues": [
+    3,
     1,
-    2,
-    1,
-    3
+    3,
+    2
   ],
-  "themeWord": "fourmi",
+  "themeWord": "voyage",
   "solution": [
     [
-      false,
+      true,
       true,
       true,
       false
@@ -52,7 +52,7 @@
     [
       false,
       false,
-      false,
+      true,
       true
     ],
     [
@@ -62,11 +62,11 @@
       true
     ],
     [
-      false,
       true,
       false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

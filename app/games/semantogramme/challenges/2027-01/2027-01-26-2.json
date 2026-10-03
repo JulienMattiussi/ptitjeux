@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "traîner",
-      "patience",
-      "escargot",
-      "ralentir",
-      "raffinement"
+      "caravane",
+      "antique",
+      "cent",
+      "durer",
+      "pélagique"
     ],
     [
-      "galette",
-      "tardif",
-      "paresseux",
-      "lenteur",
-      "définir"
+      "moderne",
+      "démesuré",
+      "illustrer",
+      "remonter",
+      "antiquité"
     ],
     [
-      "tortue",
-      "lambin",
-      "bruyante",
-      "libellule",
-      "artère"
+      "duveteux",
+      "médicale",
+      "fêter",
+      "ancien",
+      "ère"
     ],
     [
-      "mou",
-      "embellir",
-      "inertie",
-      "siècle",
-      "munster"
+      "ancestral",
+      "levant",
+      "bretonne",
+      "autel",
+      "époque"
     ],
     [
-      "fourchette",
-      "flâner",
-      "éternité",
-      "napolitaine",
-      "tarder"
+      "centenaire",
+      "taire",
+      "reniflement",
+      "persan",
+      "traverser"
     ]
   ],
   "rowClues": [
-    4,
     3,
     2,
     3,
-    3
+    2,
+    2
   ],
   "colClues": [
     3,
-    4,
-    4,
-    3,
-    1
+    1,
+    2,
+    2,
+    4
   ],
-  "themeWord": "lent",
+  "themeWord": "siècle",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
       true,
@@ -72,25 +65,32 @@
     ],
     [
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
-      false,
-      false,
-      false
+      true,
+      true
     ],
     [
       true,
       false,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

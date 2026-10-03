@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "rocher",
-      "vulnérabilité",
-      "carapace",
-      "araignée"
+      "agrafeuse",
+      "trancher",
+      "perceuse",
+      "mondial"
     ],
     [
-      "déguisement",
-      "tourteau",
-      "patte",
-      "contemporain"
+      "cochon",
+      "visseuse",
+      "pèlerin",
+      "marteau"
+    ],
+    [
+      "tournevis",
+      "caduc",
+      "écrou",
+      "costume"
     ],
     [
       "pince",
-      "petit-déjeuner",
-      "barbecue",
-      "crustacé"
-    ],
-    [
-      "menton",
-      "sable",
-      "antenne",
-      "plage"
+      "tenaille",
+      "vacarme",
+      "ciseaux"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     2,
     2,
     3
   ],
   "colClues": [
-    2,
-    2,
     3,
-    3
+    2,
+    2,
+    2
   ],
-  "themeWord": "crabe",
+  "themeWord": "outil",
   "solution": [
     [
       true,
       false,
       true,
-      true
+      false
     ],
     [
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

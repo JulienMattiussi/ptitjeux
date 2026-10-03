@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-06-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "gouffre",
+      "fer",
+      "fraise",
+      "gourmandise",
+      "glace",
+      "croustillante"
+    ],
+    [
+      "manger",
+      "défaite",
+      "fondre",
+      "engager",
+      "marionnette",
+      "terminal"
+    ],
+    [
+      "pékinois",
+      "angle",
+      "chantilly",
+      "sucrée",
+      "pâte",
+      "singe"
+    ],
+    [
+      "scolopendre",
+      "cannabis",
+      "sucre",
+      "chocolat",
+      "aligner",
+      "touriste"
+    ],
+    [
+      "cuire",
+      "bruxelloise",
+      "belge",
+      "liégeoise",
+      "blonde",
+      "farine"
+    ],
+    [
+      "porc",
+      "cours",
+      "platine",
+      "pinceau",
+      "beurre",
+      "moelleuse"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    3,
+    2,
+    5,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "gaufre",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 17
+}

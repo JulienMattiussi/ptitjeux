@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "terre",
+      "hémoglobine",
+      "museau",
+      "humidité",
+      "barbu"
+    ],
+    [
+      "inférieur",
+      "tour",
+      "cave",
+      "gambade",
+      "taupe"
+    ],
+    [
+      "profond",
+      "commis",
+      "racine",
+      "aiguë",
+      "fondation"
+    ],
+    [
+      "pépite",
+      "champignon",
+      "filiation",
+      "humide",
+      "souterrain"
+    ],
+    [
+      "sombre",
+      "creuser",
+      "obscurité",
+      "descendre",
+      "vote"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "sous-sol",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

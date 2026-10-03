@@ -5,101 +5,77 @@
   "height": 6,
   "words": [
     [
-      "lune",
-      "farine",
-      "observateur",
-      "payant",
-      "issu",
-      "visser"
+      "mou",
+      "indolent",
+      "putter",
+      "lambiner",
+      "canapé",
+      "traîner"
     ],
     [
-      "solide",
-      "système",
-      "puissante",
-      "utile",
-      "gratuit",
-      "cognition"
+      "mollesse",
+      "apathique",
+      "sieste",
+      "rassembler",
+      "indiquer",
+      "rgb"
     ],
     [
-      "propriétaire",
-      "mettre-à-jour",
-      "développement",
-      "kiwi",
-      "application",
-      "commercial"
+      "flâner",
+      "arquer",
+      "nettoyage",
+      "rapper",
+      "flâneur",
+      "paresser"
     ],
     [
-      "berlingot",
-      "bottine",
-      "éditeur",
-      "inhalateur",
-      "install",
-      "libre"
+      "mélasse",
+      "sauvage",
+      "gâteau",
+      "poussée",
+      "oisiveté",
+      "rayon"
     ],
     [
-      "code",
-      "bureau",
-      "version",
-      "valise",
-      "colorer",
-      "paupière"
+      "modeler",
+      "flemme",
+      "flemmard",
+      "lambin",
+      "paresse",
+      "assise"
     ],
     [
-      "programme",
-      "lancer",
-      "passeport",
-      "pantin",
-      "gonfler",
-      "installer"
+      "inertie",
+      "fainéant",
+      "ceinture",
+      "ficeler",
+      "aigle",
+      "guide"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     5,
     3,
     3,
-    3
+    1,
+    4,
+    2
   ],
   "colClues": [
-    3,
     4,
-    3,
+    4,
     2,
-    3,
-    3
+    2,
+    4,
+    2
   ],
-  "themeWord": "logiciel",
+  "themeWord": "paresseux",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       true,
       true
     ],
@@ -113,11 +89,35 @@
     ],
     [
       true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
       false,
       false,
-      true
+      false
     ]
   ],
   "parMoves": 18

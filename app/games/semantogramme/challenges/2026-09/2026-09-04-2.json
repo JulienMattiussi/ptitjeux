@@ -5,81 +5,74 @@
   "height": 5,
   "words": [
     [
-      "écho",
-      "candeur",
-      "mystérieuse",
-      "travail",
-      "cruauté"
+      "fulgurer",
+      "aveuglant",
+      "rapide",
+      "inspirer",
+      "bûcheron"
     ],
     [
-      "obscure",
-      "mercure",
-      "stalagmite",
-      "ours",
-      "cacher"
+      "grignoter",
+      "briller",
+      "tancer",
+      "lumière",
+      "radicelle"
     ],
     [
-      "corsaire",
-      "glousser",
-      "habiter",
-      "trésor",
-      "profonde"
+      "honnêteté",
+      "mercredi",
+      "terminer",
+      "nuage",
+      "tempête"
     ],
     [
-      "occiput",
-      "grotte",
-      "peuple",
-      "roche",
-      "rocheuse"
+      "électrique",
+      "fulgurant",
+      "instantané",
+      "chaperon",
+      "tonnerre"
     ],
     [
-      "sombre",
-      "explorer",
-      "pêche",
-      "sel",
-      "pirate"
+      "frontière",
+      "foudroyer",
+      "orage",
+      "mille",
+      "fleuriste"
     ]
   ],
   "rowClues": [
+    3,
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
     2,
     4,
     3,
-    3,
-    3
-  ],
-  "colClues": [
-    3,
     2,
-    3,
-    3,
-    4
+    2
   ],
-  "themeWord": "caverne",
+  "themeWord": "éclair",
   "solution": [
     [
       true,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
+      false,
       true,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       true
@@ -87,10 +80,17 @@
     [
       true,
       true,
-      false,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

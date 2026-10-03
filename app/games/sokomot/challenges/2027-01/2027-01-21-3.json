@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    6,
-    4
+    3,
+    2
   ],
   "walls": [
     [
@@ -133,55 +133,55 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "L",
       "pos": [
         3,
-        2
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "O",
       "pos": [
-        5,
-        4
+        4,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "C",
       "pos": [
-        2,
-        3
+        3,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "H",
       "pos": [
-        5,
-        2
+        4,
+        3
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "S",
       "pos": [
         5,
-        5
+        3
       ]
     }
   ],
   "target": {
-    "word": "GIRIE",
+    "word": "LOCHS",
     "cells": [
       [
-        2,
+        3,
         2
       ],
       [
-        3,
-        3
+        4,
+        1
       ],
       [
         4,
@@ -189,31 +189,29 @@
       ],
       [
         5,
-        3
+        1
       ],
       [
-        5,
-        4
+        6,
+        1
       ]
     ]
   },
-  "parMoves": 28,
+  "parMoves": 32,
   "solution": [
     "left",
-    "left",
-    "up",
-    "up",
-    "up",
-    "right",
-    "down",
-    "left",
-    "left",
-    "up",
-    "left",
-    "left",
     "down",
     "down",
     "right",
+    "right",
+    "right",
+    "up",
+    "down",
+    "left",
+    "left",
+    "up",
+    "right",
+    "up",
     "right",
     "left",
     "down",
@@ -223,10 +221,16 @@
     "right",
     "up",
     "down",
+    "right",
     "down",
+    "left",
+    "left",
     "down",
+    "left",
+    "up",
+    "up",
     "right",
     "up"
   ],
-  "canonicalWord": "girie"
+  "canonicalWord": "lochs"
 }

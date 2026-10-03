@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    1
+    6,
+    5
   ],
   "walls": [
     [
@@ -376,40 +376,40 @@
       "id": "b1",
       "letter": "P",
       "pos": [
-        2,
-        7
+        1,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "Y",
       "pos": [
-        4,
-        2
+        1,
+        3
       ]
     },
     {
       "id": "b3",
       "letter": "T",
       "pos": [
-        5,
-        3
+        1,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "H",
       "pos": [
-        6,
-        7
+        5,
+        5
       ]
     },
     {
       "id": "b5",
       "letter": "O",
       "pos": [
-        7,
-        7
+        4,
+        6
       ]
     },
     {
@@ -417,50 +417,48 @@
       "letter": "N",
       "pos": [
         5,
-        2
+        7
       ]
     }
   ],
   "target": {
-    "word": "POTION",
+    "word": "PYTHON",
     "cells": [
       [
-        3,
-        7
+        1,
+        2
       ],
       [
-        4,
-        7
+        1,
+        3
       ],
       [
-        5,
-        7
+        1,
+        4
       ],
       [
-        6,
-        7
+        1,
+        5
       ],
       [
-        7,
-        7
+        1,
+        6
       ],
       [
-        8,
+        1,
         7
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 7,
   "solution": [
+    "left",
     "down",
+    "left",
     "right",
     "down",
     "left",
-    "down",
-    "right",
-    "up",
-    "right",
-    "down"
+    "left"
   ],
-  "canonicalWord": "potion"
+  "canonicalWord": "python"
 }

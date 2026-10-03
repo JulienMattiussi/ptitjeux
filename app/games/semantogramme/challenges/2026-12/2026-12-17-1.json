@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "plantation",
-      "fourneau",
-      "semis",
-      "tombeau"
+      "trachée",
+      "jury",
+      "téléphone",
+      "voilier"
     ],
     [
-      "géranium",
-      "rouiller",
-      "anaconda",
-      "plante"
+      "plaidoyer",
+      "crise",
+      "accusé",
+      "appel"
     ],
     [
-      "signaler",
-      "exotique",
-      "chaleur",
-      "humide"
+      "procès",
+      "shooter",
+      "procureur",
+      "feuilleter"
     ],
     [
-      "horticulture",
-      "soleil",
-      "marié",
-      "tropical"
+      "hausser",
+      "nourrisson",
+      "saule",
+      "témoin"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
     3,
-    3
+    2,
+    1
   ],
   "colClues": [
-    3,
     2,
+    1,
     2,
-    3
+    2
   ],
-  "themeWord": "serre",
+  "themeWord": "justice",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
     [
       true,
       false,
@@ -50,23 +62,11 @@
       false
     ],
     [
-      true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

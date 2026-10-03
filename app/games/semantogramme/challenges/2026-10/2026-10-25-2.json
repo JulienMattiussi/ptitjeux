@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "magie",
-      "poudre",
-      "chuter",
-      "iris",
-      "conte"
+      "patin",
+      "rendement",
+      "chiromancie",
+      "tirer",
+      "tiré"
     ],
     [
-      "mayonnaise",
-      "voltiger",
-      "longitude",
-      "magique",
-      "intégrité"
+      "ninja",
+      "cheval",
+      "transporter",
+      "vocal",
+      "amygdale"
     ],
     [
-      "forêt",
-      "silicone",
-      "baguette",
-      "merveilleux",
-      "éconduire"
+      "glissant",
+      "cloche",
+      "traditionnel",
+      "chien",
+      "biceps"
     ],
     [
-      "aile",
-      "embrasser",
-      "sortilège",
-      "gratteler",
-      "rosier"
+      "rapide",
+      "noël",
+      "nordique",
+      "neige",
+      "matinée"
     ],
     [
-      "cyclique",
-      "exaucer",
-      "paillette",
-      "choisir",
-      "s'esclaffer"
+      "baisotter",
+      "carpaccio",
+      "soldes",
+      "tari",
+      "glisser"
     ]
   ],
   "rowClues": [
     3,
     2,
-    3,
-    2,
-    2
+    4,
+    4,
+    1
   ],
   "colClues": [
     3,
     3,
     3,
-    2,
-    1
+    3,
+    2
   ],
-  "themeWord": "fée",
+  "themeWord": "traîneau",
   "solution": [
     [
       true,
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ],
     [
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false
     ],
     [
-      false,
       true,
       true,
-      false,
+      true,
+      true,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

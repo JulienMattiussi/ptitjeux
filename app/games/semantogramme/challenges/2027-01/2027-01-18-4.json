@@ -5,95 +5,113 @@
   "height": 7,
   "words": [
     [
-      "sommaire",
-      "messe",
-      "marchandise",
-      "russule",
-      "mozart",
-      "loyal",
-      "week-end"
+      "art",
+      "âme",
+      "expressif",
+      "dénouement",
+      "grimoire",
+      "router",
+      "rapper"
     ],
     [
-      "kyrie",
-      "choeur",
-      "désirer",
-      "saturne",
-      "verdi",
-      "sanctus",
-      "courge"
+      "tom",
+      "tache",
+      "infime",
+      "gestuel",
+      "collage",
+      "roquette",
+      "agenouillement"
     ],
     [
-      "fauré",
-      "soliste",
-      "agnus",
-      "défunt",
-      "tambour",
-      "composer",
-      "ruine"
+      "tranchée",
+      "engager",
+      "éclabousser",
+      "pâques",
+      "comic",
+      "fourmi",
+      "expliquer"
     ],
     [
-      "prix",
-      "serpent",
-      "oxyder",
-      "carmin",
-      "bloc",
-      "introit",
-      "ré"
-    ],
-    [
-      "bossu",
-      "maudire",
-      "spot",
-      "orchestre",
-      "liturgie",
-      "borgne",
-      "musique"
-    ],
-    [
+      "jeter",
       "informel",
-      "mucus",
-      "soeur",
-      "bavarder",
-      "lacrimosa",
-      "religieux",
-      "crédulité"
+      "reinette",
+      "pantin",
+      "plat-de-service",
+      "pylône",
+      "crinière"
     ],
     [
-      "dies-irae",
-      "gastrique",
-      "distinguer",
-      "internet",
-      "radieux",
-      "solennel",
-      "cuivre"
+      "pas",
+      "éclairer",
+      "provocation",
+      "pollock",
+      "trappiste",
+      "mathieu",
+      "peinture"
+    ],
+    [
+      "acheter",
+      "hartung",
+      "chardon",
+      "soulages",
+      "égyptienne",
+      "faux",
+      "vinyle"
+    ],
+    [
+      "sombrero",
+      "cible",
+      "préluder",
+      "abstrait",
+      "créer",
+      "lyrique",
+      "limousin"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    5,
+    2,
     1,
+    2,
     3,
     2,
-    2
+    3
   ],
   "colClues": [
+    2,
     3,
-    3,
-    1,
     2,
     4,
-    5,
+    1,
+    2,
     1
   ],
-  "themeWord": "requiem",
+  "themeWord": "tachisme",
   "solution": [
     [
+      true,
       false,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       false,
       false
     ],
@@ -102,26 +120,8 @@
       true,
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      false,
-      false,
-      false,
-      true,
       false
     ],
     [
@@ -129,28 +129,28 @@
       false,
       false,
       true,
-      true,
       false,
+      true,
       true
     ],
     [
       false,
-      false,
-      false,
+      true,
       false,
       true,
-      true,
+      false,
+      false,
       false
     ],
     [
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false,
+      true,
       true,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

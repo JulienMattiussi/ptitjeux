@@ -5,98 +5,82 @@
   "height": 6,
   "words": [
     [
-      "gourmandise",
-      "pompier",
-      "beurre",
-      "anniversaire",
-      "final",
-      "poêle"
+      "paliers",
+      "pouffer",
+      "délire",
+      "guinguette",
+      "gracieuse",
+      "souffler"
     ],
     [
-      "rouler",
-      "frétillant",
-      "manger",
-      "bretagne",
-      "distingué",
-      "chandeleur"
+      "bouton",
+      "préhension",
+      "folklore",
+      "damnation",
+      "pousser",
+      "dynamisme"
     ],
     [
-      "lait",
-      "oeuf",
-      "ronde",
-      "berge",
-      "mondial",
-      "farine"
+      "caché",
+      "parisien",
+      "animer",
+      "délice",
+      "figuier",
+      "pleureur"
     ],
     [
-      "gastrocnémien",
-      "pin",
-      "fine",
-      "amazone",
-      "sucrée",
-      "documenter"
+      "tirer",
+      "silhouette",
+      "crapaud",
+      "hémorragie",
+      "chemin",
+      "bal"
     ],
     [
-      "décimal",
-      "sucre",
-      "spatule",
-      "candeur",
-      "blatte",
-      "tronçonneuse"
+      "soufflet",
+      "fourrer",
+      "jouer",
+      "styliste",
+      "imagination",
+      "rétro"
     ],
     [
-      "plier",
-      "bourgeon",
-      "enseignement",
-      "automne",
-      "pâte",
-      "artisanal"
+      "trait",
+      "populaire",
+      "clavier",
+      "agglutiner",
+      "instrument",
+      "orthogonal"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    4,
-    4,
     2,
     2,
-    2
+    3,
+    3
   ],
   "colClues": [
-    4,
+    3,
     2,
-    5,
+    4,
     1,
     2,
     3
   ],
-  "themeWord": "crêpe",
+  "themeWord": "accordéon",
   "solution": [
     [
-      true,
-      false,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
       false,
-      true,
       true,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -115,10 +99,26 @@
       true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

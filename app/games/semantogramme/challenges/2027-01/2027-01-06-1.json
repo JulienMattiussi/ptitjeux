@@ -5,54 +5,48 @@
   "height": 4,
   "words": [
     [
-      "couleur",
-      "étoile",
-      "étendard",
-      "cathédrale"
+      "aiguille",
+      "prédateur",
+      "cocotte",
+      "faîte"
     ],
     [
-      "tricolore",
-      "national",
-      "bannière",
-      "berge"
+      "délégué",
+      "persistant",
+      "polir",
+      "arbre"
     ],
     [
-      "guépard",
-      "fanion",
-      "carrière",
-      "mât"
+      "verdure",
+      "cochon",
+      "clair",
+      "palme"
     ],
     [
-      "écusson",
-      "spécialiste",
-      "ennemi",
-      "oriflamme"
+      "triompher",
+      "frondaison",
+      "nervure",
+      "natation"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    1,
+    2,
     2,
     2
   ],
   "colClues": [
-    3,
-    3,
     2,
+    2,
+    1,
     2
   ],
-  "themeWord": "drapeau",
+  "themeWord": "feuille",
   "solution": [
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
@@ -66,7 +60,13 @@
       false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

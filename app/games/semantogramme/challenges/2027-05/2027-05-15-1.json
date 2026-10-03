@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "confessionnal",
+      "frangin",
+      "match",
+      "pelouse"
+    ],
+    [
+      "sportif",
+      "arène",
+      "tribune",
+      "potion"
+    ],
+    [
+      "jasmin",
+      "piste",
+      "supporter",
+      "bouche"
+    ],
+    [
+      "gradin",
+      "compétition",
+      "jubilation",
+      "tournoi"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "stade",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

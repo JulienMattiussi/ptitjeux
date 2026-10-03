@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "herbe",
+      "procès",
+      "croisée",
+      "baie"
+    ],
+    [
+      "volet",
+      "verre",
+      "triompher",
+      "vaillance"
+    ],
+    [
+      "amitié",
+      "persienne",
+      "encadrement",
+      "oculus"
+    ],
+    [
+      "imposte",
+      "risquer",
+      "légendaire",
+      "vitre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "fenêtre",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

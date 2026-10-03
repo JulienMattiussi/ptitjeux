@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fils",
+      "guêpe",
+      "forum",
+      "marin"
+    ],
+    [
+      "famille",
+      "parent",
+      "tonte",
+      "aimer"
+    ],
+    [
+      "enfant",
+      "puma",
+      "maman",
+      "parure"
+    ],
+    [
+      "parpaing",
+      "éduquer",
+      "bouffer",
+      "accoucher"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "mère",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

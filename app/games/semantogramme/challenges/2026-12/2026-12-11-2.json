@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "mygale",
-      "cucurbitacée",
-      "café",
-      "fumée",
-      "délicatesse"
+      "découvrir",
+      "dépouiller",
+      "touriste",
+      "château",
+      "aérer"
     ],
     [
-      "épineux",
-      "noisette",
-      "caramel",
-      "chalut",
-      "bois"
+      "dégât",
+      "arpenter",
+      "sautiller",
+      "biologie",
+      "observer"
     ],
     [
-      "cuir",
-      "terre",
-      "agrandir",
-      "écholocation",
-      "sécateur"
+      "sainte",
+      "pic",
+      "roulade",
+      "musée",
+      "parcourir"
     ],
     [
-      "beige",
-      "fauve",
-      "rouille",
-      "douane",
-      "sable"
+      "bière",
+      "guide",
+      "après-midi",
+      "hawaï",
+      "explorer"
     ],
     [
-      "tabac",
-      "rudimentaire",
-      "arithmétique",
-      "brun",
-      "écorce"
+      "azur",
+      "monument",
+      "gourmandise",
+      "curiosité",
+      "arquer"
     ]
   ],
   "rowClues": [
-    1,
     3,
     2,
-    4,
-    3
+    2,
+    2,
+    2
   ],
   "colClues": [
-    3,
-    3,
+    1,
     3,
     1,
+    3,
     3
   ],
-  "themeWord": "marron",
+  "themeWord": "visiter",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
+      true,
+      true,
       false
     ],
     [
       false,
       true,
-      true,
+      false,
       false,
       true
     ],
     [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

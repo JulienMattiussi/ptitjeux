@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    7
+    4,
+    1
   ],
   "walls": [
     [
@@ -374,93 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "E",
       "pos": [
         2,
-        1
+        7
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "C",
       "pos": [
         4,
-        1
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         5,
-        1
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "R",
       "pos": [
         6,
-        6
+        7
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "N",
       "pos": [
         7,
-        5
+        7
       ]
     },
     {
       "id": "b6",
-      "letter": "Z",
+      "letter": "A",
       "pos": [
-        8,
-        6
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "GUEIEZ",
+    "word": "ECORNA",
     "cells": [
       [
         3,
-        1
+        7
       ],
       [
         4,
-        1
+        7
       ],
       [
         5,
-        1
+        7
       ],
       [
         6,
-        1
+        7
       ],
       [
         7,
-        1
+        7
       ],
       [
         8,
-        1
+        7
       ]
     ]
   },
   "parMoves": 9,
   "solution": [
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
-    "right",
     "down",
     "right",
-    "up"
+    "down",
+    "left",
+    "down",
+    "right",
+    "up",
+    "right",
+    "down"
   ],
-  "canonicalWord": "guéiez"
+  "canonicalWord": "écorna"
 }

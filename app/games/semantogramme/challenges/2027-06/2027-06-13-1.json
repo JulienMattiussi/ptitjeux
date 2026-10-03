@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "fugue",
+      "pourrir",
+      "prunier",
+      "diagnostic"
+    ],
+    [
+      "généraliste",
+      "patient",
+      "soufre",
+      "couvercle"
+    ],
+    [
+      "soigner",
+      "stéthoscope",
+      "blouse",
+      "traverser"
+    ],
+    [
+      "consultation",
+      "cabinet",
+      "ordonnance",
+      "pistolet"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "médecin",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

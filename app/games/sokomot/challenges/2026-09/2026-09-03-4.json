@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    8,
+    1,
     3
   ],
   "walls": [
@@ -374,90 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "E",
       "pos": [
-        7,
+        2,
         1
       ]
     },
     {
       "id": "b2",
-      "letter": "L",
+      "letter": "R",
       "pos": [
-        6,
+        3,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "R",
       "pos": [
-        7,
+        2,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "P",
+      "letter": "E",
       "pos": [
-        1,
+        8,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "R",
       "pos": [
-        1,
+        8,
         5
       ]
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "A",
       "pos": [
-        1,
+        8,
         6
       ]
     }
   ],
   "target": {
-    "word": "CLAPER",
+    "word": "ERRERA",
     "cells": [
       [
-        1,
+        8,
         1
       ],
       [
-        1,
+        8,
         2
       ],
       [
-        1,
+        8,
         3
       ],
       [
-        1,
+        8,
         4
       ],
       [
-        1,
+        8,
         5
       ],
       [
-        1,
+        8,
         6
       ]
     ]
   },
   "parMoves": 6,
   "solution": [
-    "left",
-    "up",
-    "left",
     "right",
     "up",
-    "left"
+    "right",
+    "left",
+    "up",
+    "right"
   ],
-  "canonicalWord": "claper"
+  "canonicalWord": "errera"
 }

@@ -5,96 +5,96 @@
   "height": 7,
   "words": [
     [
-      "gris",
-      "fouiller",
-      "frémir",
-      "banlieue",
-      "surpasser",
-      "sublime",
-      "triade"
+      "théâtral",
+      "haranguer",
+      "pérorer",
+      "pointu",
+      "parler",
+      "bronzage",
+      "dieu"
     ],
     [
-      "voltiger",
-      "illusionner",
-      "haler",
-      "brochette",
-      "plénitude",
-      "mystique",
-      "spirituelle"
+      "brouillard",
+      "configurer",
+      "knock-out",
+      "prix",
+      "discourir",
+      "professer",
+      "loi"
     ],
     [
-      "extravagant",
-      "malle",
-      "grêle",
-      "déferlement",
-      "assouplir",
-      "fraisier",
-      "absolu"
+      "égarer",
+      "léger",
+      "acceptation",
+      "tragédie",
+      "oratoire",
+      "patinoire",
+      "imiter"
     ],
     [
-      "dépasser",
-      "percer",
-      "archet",
-      "pénétrer",
-      "théorie",
-      "génome",
-      "pulpeuse"
+      "aluminium",
+      "bourrasque",
+      "brontosaure",
+      "errant",
+      "allemand",
+      "essence",
+      "tirade"
     ],
     [
-      "transcendant",
-      "inouï",
-      "au-delà",
-      "manucure",
-      "spirituel",
-      "résistance",
-      "extraordinaire"
+      "tonner",
+      "emphatique",
+      "fonction",
+      "transvaser",
+      "mycologue",
+      "républicain",
+      "extérieur"
     ],
     [
-      "classifier",
-      "comptoir",
-      "gratter",
-      "magnifier",
-      "élever",
-      "régler",
-      "pavaner"
+      "grandiloquent",
+      "réciter",
+      "caduque",
+      "cintre",
+      "orateur",
+      "manta",
+      "lynx"
     ],
     [
-      "pupitre",
-      "obscur",
-      "profond",
-      "humus",
-      "aigreur",
-      "savant",
-      "cru"
+      "aimable",
+      "proclamer",
+      "enflé",
+      "pleurnicher",
+      "club",
+      "théâtre",
+      "brique"
     ]
   ],
   "rowClues": [
+    4,
     2,
     2,
     1,
+    2,
     3,
-    5,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    1,
+    4,
     2,
     1
   ],
-  "colClues": [
-    2,
-    2,
-    2,
-    2,
-    3,
-    2,
-    3
-  ],
-  "themeWord": "transcender",
+  "themeWord": "déclamer",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
       true,
       true,
+      true,
+      false,
+      true,
+      false,
       false
     ],
     [
@@ -102,36 +102,9 @@
       false,
       false,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
-      true,
-      false,
-      false,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
     ],
     [
       false,
@@ -145,12 +118,39 @@
     [
       false,
       false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       false,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

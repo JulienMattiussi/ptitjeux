@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-29-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "persistante",
+      "pastille",
+      "astronomique",
+      "irritante",
+      "bronchite",
+      "sirop"
+    ],
+    [
+      "bouillon",
+      "poumon",
+      "sec",
+      "indolent",
+      "auteur",
+      "sureau"
+    ],
+    [
+      "célébrer",
+      "spasmodique",
+      "tousser",
+      "gorge",
+      "bois",
+      "féerique"
+    ],
+    [
+      "expectorer",
+      "puissant",
+      "immortaliser",
+      "panache",
+      "rhume",
+      "glisser"
+    ],
+    [
+      "feutré",
+      "cracher",
+      "tracteur",
+      "égyptien",
+      "noueuse",
+      "gras"
+    ],
+    [
+      "finesse",
+      "cueilli",
+      "allergie",
+      "asthme",
+      "nocturne",
+      "mouchoir"
+    ]
+  ],
+  "rowClues": [
+    5,
+    2,
+    3,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "toux",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 18
+}

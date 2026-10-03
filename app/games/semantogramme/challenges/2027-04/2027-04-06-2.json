@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "noeud",
+      "fibre",
+      "épais",
+      "arbre",
+      "pousser"
+    ],
+    [
+      "air",
+      "bois",
+      "creux",
+      "poule",
+      "fendre"
+    ],
+    [
+      "abattre",
+      "rigide",
+      "sournois",
+      "mettre-à-jour",
+      "centenaire"
+    ],
+    [
+      "solo",
+      "vaincre",
+      "noueux",
+      "sève",
+      "moelleux"
+    ],
+    [
+      "manque",
+      "branche",
+      "massif",
+      "cisailler",
+      "alléger"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "tronc",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

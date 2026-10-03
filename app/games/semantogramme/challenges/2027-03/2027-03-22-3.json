@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-22-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "mythologie",
+      "huit",
+      "vespa",
+      "pandémie",
+      "frire",
+      "tempe"
+    ],
+    [
+      "noir",
+      "fan",
+      "manche",
+      "sauter",
+      "sustenter",
+      "beurre"
+    ],
+    [
+      "frêle",
+      "abonnement",
+      "caramélisé",
+      "sonnerie",
+      "huile",
+      "mouchoir"
+    ],
+    [
+      "omelette",
+      "barbe",
+      "antiadhésive",
+      "ronde",
+      "frétillant",
+      "aisselle"
+    ],
+    [
+      "rétro",
+      "placebo",
+      "illusionner",
+      "stupeur",
+      "plate",
+      "cuisine"
+    ],
+    [
+      "tomber",
+      "téfal",
+      "lézard",
+      "blesser",
+      "sucrer",
+      "wok"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "poêle",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

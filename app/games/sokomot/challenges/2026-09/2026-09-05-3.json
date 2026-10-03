@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    1,
-    1
+    6,
+    4
   ],
   "walls": [
     [
@@ -133,10 +133,10 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "N",
       "pos": [
-        1,
-        2
+        3,
+        3
       ]
     },
     {
@@ -144,47 +144,39 @@
       "letter": "O",
       "pos": [
         2,
-        3
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "D",
-      "pos": [
-        2,
-        1
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "E",
-      "pos": [
-        2,
-        2
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "S",
+      "letter": "P",
       "pos": [
         4,
         3
       ]
+    },
+    {
+      "id": "b4",
+      "letter": "A",
+      "pos": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "I",
+      "pos": [
+        5,
+        5
+      ]
     }
   ],
   "target": {
-    "word": "RODES",
+    "word": "NOPAI",
     "cells": [
       [
-        1,
-        1
-      ],
-      [
         2,
-        1
-      ],
-      [
-        3,
         1
       ],
       [
@@ -192,36 +184,45 @@
         2
       ],
       [
-        3,
+        4,
+        2
+      ],
+      [
+        5,
         3
+      ],
+      [
+        5,
+        4
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 24,
   "solution": [
-    "right",
+    "down",
     "left",
+    "up",
     "down",
+    "down",
+    "left",
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "left",
+    "up",
     "right",
     "down",
-    "right",
     "down",
     "right",
     "right",
     "up",
     "left",
-    "down",
-    "left",
-    "down",
-    "left",
-    "up",
-    "up",
-    "up",
-    "down",
     "down",
     "left",
     "up",
     "up"
   ],
-  "canonicalWord": "rodes"
+  "canonicalWord": "nopai"
 }

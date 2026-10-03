@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
+    4,
     1
   ],
   "walls": [
@@ -97,51 +97,51 @@
       4
     ],
     [
-      5,
-      4
+      1,
+      1
     ],
     [
-      5,
-      1
+      1,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "B",
       "pos": [
-        2,
-        2
+        3,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "O",
       "pos": [
-        3,
-        1
+        2,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "B",
       "pos": [
-        3,
-        3
+        4,
+        2
       ]
     }
   ],
   "target": {
-    "word": "VIS",
+    "word": "BOB",
     "cells": [
-      [
-        1,
-        2
-      ],
       [
         2,
         1
+      ],
+      [
+        2,
+        2
       ],
       [
         3,
@@ -149,24 +149,18 @@
       ]
     ]
   },
-  "parMoves": 16,
+  "parMoves": 10,
   "solution": [
-    "down",
-    "down",
-    "right",
-    "right",
-    "up",
     "left",
     "right",
-    "down",
-    "down",
     "right",
-    "up",
-    "right",
-    "up",
+    "down",
     "left",
-    "up",
-    "left"
+    "down",
+    "down",
+    "left",
+    "left",
+    "up"
   ],
-  "canonicalWord": "vis"
+  "canonicalWord": "bob"
 }

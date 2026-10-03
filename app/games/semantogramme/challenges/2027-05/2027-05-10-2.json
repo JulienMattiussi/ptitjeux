@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "élément",
+      "vibrer",
+      "chimie",
+      "solide",
+      "cercueil"
+    ],
+    [
+      "sévère",
+      "antiadhésive",
+      "visibilité",
+      "moléculaire",
+      "liaison"
+    ],
+    [
+      "poussée",
+      "composer",
+      "liaisonner",
+      "rival",
+      "organique"
+    ],
+    [
+      "simple",
+      "chimique",
+      "casserole",
+      "composé",
+      "snow"
+    ],
+    [
+      "atome",
+      "sacoche",
+      "gaz",
+      "inorganique",
+      "réjouir"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "molécule",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    5
+    2,
+    3
   ],
   "walls": [
     [
@@ -133,39 +133,39 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "D",
       "pos": [
         3,
-        2
+        5
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        3,
-        5
+        2,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "V",
       "pos": [
-        6,
-        2
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "L",
-      "pos": [
-        6,
+        4,
         5
       ]
     },
     {
+      "id": "b4",
+      "letter": "I",
+      "pos": [
+        6,
+        4
+      ]
+    },
+    {
       "id": "b5",
-      "letter": "A",
+      "letter": "N",
       "pos": [
         5,
         4
@@ -173,19 +173,15 @@
     }
   ],
   "target": {
-    "word": "BACLA",
+    "word": "DEVIN",
     "cells": [
       [
-        3,
+        2,
         3
       ],
       [
         3,
         4
-      ],
-      [
-        4,
-        3
       ],
       [
         4,
@@ -193,42 +189,45 @@
       ],
       [
         5,
-        5
+        4
+      ],
+      [
+        6,
+        4
       ]
     ]
   },
-  "parMoves": 30,
+  "parMoves": 29,
   "solution": [
-    "down",
-    "left",
-    "up",
-    "right",
-    "right",
-    "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "up",
-    "up",
-    "left",
-    "left",
-    "up",
-    "left",
-    "down",
-    "up",
     "left",
     "down",
     "right",
+    "up",
     "right",
-    "down",
+    "right",
+    "right",
     "down",
     "up",
     "right",
     "right",
     "down",
     "left",
-    "left"
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "right",
+    "down",
+    "right",
+    "up",
+    "left",
+    "left",
+    "left",
+    "down",
+    "left",
+    "up",
+    "up"
   ],
-  "canonicalWord": "bâcla"
+  "canonicalWord": "devin"
 }

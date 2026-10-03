@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mule",
+      "cher",
+      "explorer",
+      "guidon"
+    ],
+    [
+      "cuir",
+      "phare",
+      "noyau",
+      "touche"
+    ],
+    [
+      "papillon",
+      "gants",
+      "frein",
+      "chapeau"
+    ],
+    [
+      "vitesse",
+      "coq",
+      "selle",
+      "pot"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "moto",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

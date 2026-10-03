@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rougeoyante",
-      "camion",
-      "crépitante",
-      "cap",
-      "allumer"
+      "deltoïde",
+      "contagieux",
+      "manipulation",
+      "compétent",
+      "élévation"
     ],
     [
-      "sonner",
-      "feu",
-      "flamme",
-      "gonflé",
-      "champignon"
+      "amende",
+      "ventriloque",
+      "traditionnelle",
+      "klezmer",
+      "isocèle"
     ],
     [
-      "culture",
-      "fumée",
-      "bûche",
-      "antihistaminique",
-      "mâcher"
+      "théâtre",
+      "station",
+      "édredon",
+      "bronzer",
+      "commencement"
     ],
     [
-      "altérée",
-      "tisonnier",
-      "bouddha",
-      "ancienne",
-      "jeunesse"
+      "fonte",
+      "animer",
+      "guignol",
+      "fil",
+      "sculpture"
     ],
     [
-      "tisonner",
-      "ronflante",
-      "marteau",
-      "âtre",
-      "taire"
+      "comique",
+      "antiquité",
+      "enfantine",
+      "jouer",
+      "figurine"
     ]
   ],
   "rowClues": [
+    1,
+    2,
+    1,
     3,
-    2,
-    2,
-    2,
-    3
+    4
   ],
   "colClues": [
     2,
+    2,
     4,
-    3,
     2,
     1
   ],
-  "themeWord": "cheminée",
+  "themeWord": "marionnette",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "bois",
-      "aigu",
-      "éducatif",
-      "ailier",
-      "tessiture",
-      "éroder"
+      "plumeux",
+      "industriel",
+      "rôti",
+      "délicate",
+      "royal",
+      "gastronomie"
     ],
     [
-      "percuter",
-      "miracle",
-      "vaillant",
-      "alléger",
-      "gamme",
-      "artisanal"
+      "vin",
+      "chasse",
+      "tonus",
+      "estomac",
+      "répéter",
+      "nova"
     ],
     [
-      "fendiller",
-      "nourrisson",
-      "orchestre",
-      "ver",
-      "instrument",
-      "maillet"
+      "cuirasse",
+      "oiseau",
+      "guide",
+      "insuline",
+      "innovation",
+      "topaze"
     ],
     [
-      "jouer",
-      "enfant",
-      "lave",
-      "rythme",
-      "frapper",
-      "mélodie"
+      "plume",
+      "arabesque",
+      "encadrement",
+      "acéré",
+      "piailler",
+      "doré"
     ],
     [
-      "festoyer",
-      "percussion",
-      "pincer",
-      "pommeau",
-      "scolaire",
-      "résonant"
+      "cohabiter",
+      "campagne",
+      "queue",
+      "gibier",
+      "colorée",
+      "orang-outan"
     ],
     [
-      "taper",
-      "avenue",
-      "éliminer",
-      "panama",
-      "construire",
-      "illégal"
+      "cent",
+      "femelle",
+      "col",
+      "mâle",
+      "sauvage",
+      "numériser"
     ]
   ],
   "rowClues": [
     4,
     1,
+    1,
     3,
-    5,
-    2,
-    1
+    4,
+    2
   ],
   "colClues": [
-    3,
-    3,
     2,
-    1,
     4,
-    3
+    2,
+    2,
+    3,
+    2
   ],
-  "themeWord": "xylophone",
+  "themeWord": "faisan",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

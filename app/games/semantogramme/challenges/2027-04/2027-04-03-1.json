@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "livrer",
+      "tramway",
+      "bandeau",
+      "galion"
+    ],
+    [
+      "jambe",
+      "liesse",
+      "fermier",
+      "diagnostic"
+    ],
+    [
+      "crâne",
+      "parfumé",
+      "lumbago",
+      "colle"
+    ],
+    [
+      "abordage",
+      "mât",
+      "drapeau",
+      "article"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "pirate",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

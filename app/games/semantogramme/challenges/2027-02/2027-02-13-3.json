@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-13-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "patiner",
+      "plaidoyer",
+      "courbé",
+      "poser",
+      "livre",
+      "naïveté"
+    ],
+    [
+      "planche",
+      "rondelet",
+      "longue",
+      "support",
+      "tomate",
+      "religieux"
+    ],
+    [
+      "palet",
+      "gourmet",
+      "épaisse",
+      "préfecture",
+      "cercueil",
+      "objectif"
+    ],
+    [
+      "bibliothèque",
+      "ranger",
+      "murale",
+      "féliciter",
+      "salon",
+      "creuset"
+    ],
+    [
+      "objet",
+      "rail",
+      "tremblement",
+      "tartare",
+      "longer",
+      "mur"
+    ],
+    [
+      "pavillon",
+      "bénitier",
+      "fixer",
+      "rangement",
+      "état",
+      "haute"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "étagère",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

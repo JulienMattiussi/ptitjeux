@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    2,
-    4
+    4,
+    1
   ],
   "walls": [
     [
@@ -116,92 +116,93 @@
   "ice": [
     [
       2,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
       2
     ],
     [
       4,
-      1
-    ],
-    [
-      4,
-      3
-    ],
-    [
-      5,
       3
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "E",
       "pos": [
-        2,
-        3
+        3,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "M",
       "pos": [
-        5,
-        1
+        1,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "V",
+      "letter": "O",
       "pos": [
         4,
-        4
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "I",
       "pos": [
         5,
-        4
+        3
       ]
     }
   ],
   "target": {
-    "word": "BAVE",
+    "word": "EMOI",
     "cells": [
       [
-        2,
+        1,
         1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
       ],
       [
         3,
-        1
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        5,
-        2
+        3
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 15,
   "solution": [
-    "up",
+    "left",
+    "right",
+    "right",
+    "right",
     "down",
     "down",
-    "right",
-    "right",
+    "left",
     "up",
+    "left",
     "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "up",
-    "up",
-    "left"
+    "left",
+    "left",
+    "down",
+    "left",
+    "up"
   ],
-  "canonicalWord": "bave"
+  "canonicalWord": "émoi"
 }

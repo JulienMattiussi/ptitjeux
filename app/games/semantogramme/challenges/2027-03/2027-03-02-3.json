@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "voler",
+      "pingrerie",
+      "consolation",
+      "allergie",
+      "oiseau",
+      "chasser"
+    ],
+    [
+      "feuilletage",
+      "endormir",
+      "rapace",
+      "mousaka",
+      "choix",
+      "habile"
+    ],
+    [
+      "herbe",
+      "fortifiée",
+      "hululer",
+      "bouledogue",
+      "lueur",
+      "soleil"
+    ],
+    [
+      "serres",
+      "sortie",
+      "effraie",
+      "lapone",
+      "somnoler",
+      "plume"
+    ],
+    [
+      "discrète",
+      "bec",
+      "sage",
+      "nocturne",
+      "forêt",
+      "permanente"
+    ],
+    [
+      "hulotte",
+      "sandale",
+      "argousier",
+      "musée",
+      "rotation",
+      "expressif"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    4,
+    5,
+    2
+  ],
+  "colClues": [
+    4,
+    1,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "chouette",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "hémicycle",
+      "givre",
+      "arctique",
+      "antarctique"
+    ],
+    [
+      "asthme",
+      "fonte",
+      "autorisé",
+      "patinoire"
+    ],
+    [
+      "glaçon",
+      "visseuse",
+      "gel",
+      "servir"
+    ],
+    [
+      "verglas",
+      "spécialiste",
+      "cristallin",
+      "glacier"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "glace",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -5,119 +5,119 @@
   "height": 6,
   "words": [
     [
-      "fente",
-      "orchestre",
-      "syncopé",
-      "moteur",
-      "arrondi",
-      "largeur"
+      "pointage",
+      "génitrice",
+      "patte",
+      "pétale",
+      "épingle",
+      "voir"
     ],
     [
-      "opposable",
-      "main",
-      "bpm",
-      "taille",
-      "préhension",
-      "jumeau"
+      "toile",
+      "artiste",
+      "nettoyer",
+      "attraper",
+      "ventouse",
+      "insecte"
     ],
     [
-      "navigateur",
-      "steak",
-      "célébration",
-      "cargo",
-      "lever",
-      "appuyer"
-    ],
-    [
-      "décorer",
-      "usage",
-      "auto-stop",
-      "pauser",
+      "tisser",
+      "cru",
+      "piéger",
+      "maçon",
       "céréale",
-      "tracter"
+      "bateau"
     ],
     [
-      "effraie",
-      "cil",
-      "développer",
-      "baisser",
-      "fort",
-      "éduquer"
+      "vertigineux",
+      "fil",
+      "tarentule",
+      "kimono",
+      "dette",
+      "guetter"
     ],
     [
-      "pile",
-      "cabotage",
-      "sucer",
-      "mesurer",
-      "cubique",
-      "majeur"
+      "soie",
+      "crochet",
+      "mygale",
+      "tonton",
+      "gag",
+      "mouche"
+    ],
+    [
+      "manta",
+      "caractériser",
+      "cachalot",
+      "balance",
+      "piège",
+      "chanteur"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     2,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
-    1,
     2,
     2,
     3,
     4,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    4,
+    1,
+    2,
     2
   ],
-  "themeWord": "pouce",
+  "themeWord": "araignée",
   "solution": [
     [
       false,
       false,
-      false,
+      true,
       false,
       true,
       false
     ],
     [
       true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       false,
       true,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
       true
     ],
     [
       false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       false,
-      true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 14

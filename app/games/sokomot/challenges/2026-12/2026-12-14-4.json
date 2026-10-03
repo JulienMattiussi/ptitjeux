@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
+    5,
     4
   ],
   "walls": [
@@ -374,56 +374,64 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "J",
-      "pos": [
-        2,
-        7
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
+      "letter": "P",
       "pos": [
         4,
         5
       ]
     },
     {
-      "id": "b3",
-      "letter": "U",
+      "id": "b2",
+      "letter": "O",
       "pos": [
-        5,
-        6
+        2,
+        7
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "S",
+      "pos": [
+        3,
+        7
       ]
     },
     {
       "id": "b4",
-      "letter": "N",
+      "letter": "T",
       "pos": [
-        6,
-        7
+        4,
+        6
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
-      "pos": [
-        7,
-        7
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "I",
+      "letter": "E",
       "pos": [
         5,
         5
       ]
+    },
+    {
+      "id": "b6",
+      "letter": "S",
+      "pos": [
+        7,
+        7
+      ]
     }
   ],
   "target": {
-    "word": "JEUNAI",
+    "word": "POSTES",
     "cells": [
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        7
+      ],
       [
         3,
         7
@@ -439,29 +447,21 @@
       [
         6,
         7
-      ],
-      [
-        7,
-        7
-      ],
-      [
-        8,
-        7
       ]
     ]
   },
   "parMoves": 10,
   "solution": [
     "down",
-    "right",
-    "down",
-    "up",
-    "right",
-    "down",
-    "down",
     "left",
     "down",
-    "right"
+    "up",
+    "left",
+    "down",
+    "down",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "jeûnai"
+  "canonicalWord": "postes"
 }

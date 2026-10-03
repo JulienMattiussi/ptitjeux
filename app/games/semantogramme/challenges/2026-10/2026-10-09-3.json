@@ -5,74 +5,82 @@
   "height": 6,
   "words": [
     [
-      "punch",
-      "petit-déjeuner",
-      "thé",
-      "corriger",
-      "momifier",
-      "lait"
+      "envier",
+      "gentillesse",
+      "douter",
+      "haine",
+      "biblique",
+      "pluie"
     ],
     [
-      "silhouette",
-      "tressauter",
-      "pulluler",
-      "abstention",
-      "remplir",
-      "goûter"
+      "rancunier",
+      "maladroit",
+      "amour",
+      "étroit",
+      "paraphe",
+      "amoureux"
     ],
     [
-      "manche",
-      "verre",
-      "occupé",
-      "binaire",
-      "transylvanie",
-      "havresac"
+      "chicorée",
+      "avocat",
+      "tramway",
+      "campagne",
+      "colère",
+      "enragé"
     ],
     [
-      "cuisine",
-      "noodle",
-      "comté",
-      "plastique",
-      "envergure",
-      "carillon"
+      "concurrence",
+      "soupçon",
+      "rival",
+      "durer",
+      "minou",
+      "kangourou"
     ],
     [
-      "biscuit",
-      "céréale",
-      "vaisselle",
-      "inspirer",
-      "asiatique",
-      "satisfait"
+      "gerbe",
+      "jalousie",
+      "amarrer",
+      "différentielle",
+      "vacarme",
+      "scander"
     ],
     [
-      "piémont",
-      "soupe",
-      "canard",
-      "dragon",
-      "matin",
-      "profond"
+      "soupçonner",
+      "ras",
+      "embrayage",
+      "bibliothèque",
+      "possessif",
+      "épier"
     ]
   ],
   "rowClues": [
+    3,
     4,
     2,
+    3,
     1,
-    3,
-    3,
     3
   ],
   "colClues": [
-    2,
-    5,
-    2,
-    1,
+    4,
     3,
+    3,
+    1,
+    2,
     3
   ],
-  "themeWord": "bol",
+  "themeWord": "jaloux",
   "solution": [
     [
       true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       true,
       false,
@@ -88,6 +96,14 @@
       true
     ],
     [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
@@ -97,23 +113,7 @@
     ],
     [
       true,
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,

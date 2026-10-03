@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "renforcer",
+      "modeler",
+      "arrondi",
+      "sinueux",
+      "ode"
+    ],
+    [
+      "opaque",
+      "religieux",
+      "lactaire",
+      "cible",
+      "irritant"
+    ],
+    [
+      "disque",
+      "sphère",
+      "cercle",
+      "galette",
+      "prompt"
+    ],
+    [
+      "prince",
+      "orbe",
+      "théière",
+      "pneu",
+      "médaille"
+    ],
+    [
+      "anneau",
+      "perle",
+      "ballon",
+      "bague",
+      "jaser"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    4,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "rond",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

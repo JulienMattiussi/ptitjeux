@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    7
+    4
   ],
   "walls": [
     [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "J",
       "pos": [
         2,
         1
@@ -385,20 +385,20 @@
       "letter": "E",
       "pos": [
         4,
-        6
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "V",
+      "letter": "R",
       "pos": [
         5,
-        5
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "O",
+      "letter": "K",
       "pos": [
         6,
         1
@@ -406,7 +406,7 @@
     },
     {
       "id": "b5",
-      "letter": "R",
+      "letter": "E",
       "pos": [
         7,
         1
@@ -414,15 +414,15 @@
     },
     {
       "id": "b6",
-      "letter": "A",
+      "letter": "Z",
       "pos": [
         5,
-        6
+        3
       ]
     }
   ],
   "target": {
-    "word": "DEVORA",
+    "word": "JERKEZ",
     "cells": [
       [
         3,
@@ -450,7 +450,7 @@
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 10,
   "solution": [
     "up",
     "right",
@@ -460,7 +460,8 @@
     "right",
     "down",
     "right",
+    "up",
     "up"
   ],
-  "canonicalWord": "dévora"
+  "canonicalWord": "jerkez"
 }

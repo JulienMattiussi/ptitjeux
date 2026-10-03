@@ -5,75 +5,107 @@
   "height": 6,
   "words": [
     [
-      "véhiculer",
-      "frottement",
+      "roue",
+      "période",
+      "houle",
+      "raffiné",
+      "jardin",
+      "vinaigre"
+    ],
+    [
+      "scénario",
+      "isocèle",
+      "émancipation",
+      "babouin",
+      "punaise",
+      "décharger"
+    ],
+    [
+      "ondulant",
+      "chantier",
+      "pelletée",
+      "bâton",
+      "gravier",
+      "librairie"
+    ],
+    [
+      "fendre",
+      "altier",
       "tracter",
-      "remorque",
-      "flâner",
-      "caisse"
+      "pleine",
+      "gravlax",
+      "pique"
     ],
     [
-      "paresser",
-      "tuba",
-      "cantique",
-      "expérience",
-      "longer",
-      "fardeau"
+      "bras",
+      "confortable",
+      "bois",
+      "maçon",
+      "terre",
+      "courbe"
     ],
     [
-      "espèce",
-      "altruiste",
-      "patron",
-      "bruyante",
-      "froussard",
-      "attelage"
-    ],
-    [
-      "remorquer",
-      "rougeur",
-      "descendance",
-      "court",
-      "puissance",
-      "miel"
-    ],
-    [
-      "haler",
-      "transporter",
-      "corde",
-      "noodle",
-      "chaîne",
-      "tarder"
-    ],
-    [
-      "peser",
-      "mollet",
-      "lambiner",
-      "observer",
-      "lourdeur",
-      "trimbaler"
+      "charger",
+      "pneumatique",
+      "rouler",
+      "cyan",
+      "transport",
+      "colophane"
     ]
   ],
   "rowClues": [
-    5,
-    3,
-    1,
-    1,
-    5,
-    3
-  ],
-  "colClues": [
-    4,
     2,
-    3,
     1,
+    3,
+    2,
     4,
     4
   ],
-  "themeWord": "traîner",
+  "colClues": [
+    3,
+    2,
+    4,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "brouette",
   "solution": [
     [
       true,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       true,
@@ -81,44 +113,12 @@
     ],
     [
       true,
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      false,
-      false,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

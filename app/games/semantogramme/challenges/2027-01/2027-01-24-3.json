@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "festival",
-      "ronron",
-      "sourire",
-      "invectiver",
-      "innocence",
-      "crédule"
+      "aiguiser",
+      "irriter",
+      "crème",
+      "oscillation",
+      "feuille",
+      "tropique"
     ],
     [
-      "séance",
-      "enfance",
-      "illusion",
-      "castelet",
-      "lave",
-      "comédien"
+      "trompe",
+      "astre",
+      "finesse",
+      "lenteur",
+      "frondaison",
+      "spray"
     ],
     [
-      "sculpté",
-      "tatie",
-      "idéaliser",
-      "tendresse",
-      "naïveté",
-      "culbuter"
+      "feutré",
+      "antenne",
+      "larve",
+      "sang",
+      "chic",
+      "rectitude"
     ],
     [
-      "pur",
-      "couronner",
-      "croire",
-      "geindre",
-      "simplicité",
-      "couronne"
+      "industriel",
+      "rapacité",
+      "veiller",
+      "aile",
+      "énigmer",
+      "piquer"
     ],
     [
-      "durée",
-      "simplet",
-      "rêver",
-      "tromper",
-      "candide",
-      "piment"
+      "bourdonnement",
+      "voler",
+      "puissance",
+      "femelle",
+      "aisé",
+      "eau"
     ],
     [
-      "charme",
-      "stéthoscope",
-      "crédulité",
-      "candeur",
-      "percuter",
-      "éducation"
+      "paludisme",
+      "insecte",
+      "aloès",
+      "gitane",
+      "marais",
+      "évacuer"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     3,
-    3,
+    2,
     4,
-    2
+    3
   ],
   "colClues": [
-    1,
-    2,
-    5,
     3,
     4,
-    1
+    2,
+    3,
+    1,
+    4
   ],
-  "themeWord": "naïf",
+  "themeWord": "moustique",
   "solution": [
     [
       false,
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
       true,
-      false,
+      true,
       false,
       false
     ],
     [
       false,
       false,
+      false,
       true,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
-      false,
       true,
       false,
       true,
-      false
+      false,
+      true
     ],
     [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

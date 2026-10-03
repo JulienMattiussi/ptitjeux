@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "crocodile",
-      "tentacule",
-      "tenir",
-      "dur"
+      "région",
+      "pôle",
+      "frontière",
+      "âtre"
     ],
     [
-      "munster",
-      "becs",
-      "mâchoire",
-      "serrer"
+      "équateur",
+      "cieux",
+      "territoire",
+      "banquier"
     ],
     [
-      "levier",
-      "étau",
-      "béatitude",
-      "épiler"
+      "janvier",
+      "légume",
+      "latitude",
+      "tropique"
     ],
     [
-      "débile",
-      "permanente",
-      "tenailler",
-      "plier"
+      "méridien",
+      "archipel",
+      "grizzli",
+      "charbon"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    3,
-    3,
+    2,
     2
   ],
   "colClues": [
-    2,
+    3,
     2,
     3,
-    3
+    1
   ],
-  "themeWord": "pince",
+  "themeWord": "continent",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
     [
       true,
       false,
@@ -51,7 +57,7 @@
     ],
     [
       false,
-      true,
+      false,
       true,
       true
     ],
@@ -59,14 +65,8 @@
       true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

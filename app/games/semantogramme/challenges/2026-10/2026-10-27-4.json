@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "frein",
-      "eau",
-      "nature",
-      "angora",
-      "terreur",
-      "meurtrier",
-      "urne"
+      "animal",
+      "savourer",
+      "ail",
+      "chaume",
+      "sédimentation",
+      "méditerranéenne",
+      "massette"
     ],
     [
-      "canapé",
-      "populaire",
-      "goutte",
-      "sommaire",
-      "pion",
-      "antique",
-      "piocher"
+      "beauté",
+      "préparer",
+      "enrouler",
+      "apogée",
+      "chanter",
+      "safran",
+      "morisot"
     ],
     [
-      "mûr",
-      "guet",
-      "besace",
-      "gélatineuse",
-      "utile",
-      "instrument",
-      "historique"
+      "chapiteau",
+      "inquiétude",
+      "omnivore",
+      "glacial",
+      "aigreur",
+      "ballotter",
+      "crouton"
     ],
     [
-      "australie",
-      "tisser",
-      "paris",
-      "cardiogramme",
-      "pente",
-      "saule",
-      "temps"
+      "urtique",
+      "sarcastique",
+      "tombeau",
+      "tantine",
+      "provence",
+      "phare",
+      "mijoter"
     ],
     [
-      "compter",
-      "grec",
-      "contracter",
-      "égypte",
-      "commando",
-      "mesurer",
-      "enclume"
+      "grave",
+      "vitrail",
+      "gastronomique",
+      "véloce",
+      "modelage",
+      "soupe",
+      "congre"
     ],
     [
-      "traverser",
-      "ricaner",
-      "quatre-quarts",
-      "préciser",
-      "roman",
-      "romain",
-      "ton"
+      "traditionnelle",
+      "être",
+      "religieux",
+      "rouget",
+      "rabbin",
+      "néoténie",
+      "rouille"
     ],
     [
-      "wax",
-      "verser",
-      "strophe",
-      "soprano",
-      "noyau",
-      "écouler",
-      "neveu"
+      "graphisme",
+      "judas",
+      "scorpion",
+      "soustraction",
+      "cuisinier",
+      "zélé",
+      "poisson"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     1,
     2,
     3,
-    1,
-    4,
-    2,
-    2
+    3,
+    1
   ],
   "colClues": [
     1,
-    3,
-    1,
+    2,
     2,
     1,
-    5,
-    2
+    1,
+    3,
+    5
   ],
-  "themeWord": "clepsydre",
+  "themeWord": "bouillabaisse",
   "solution": [
     [
       false,
       true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
@@ -108,12 +99,12 @@
     ],
     [
       false,
+      true,
       false,
       false,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
@@ -125,31 +116,40 @@
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
-      false
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
     ],
     [
       false,
       false,
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 15

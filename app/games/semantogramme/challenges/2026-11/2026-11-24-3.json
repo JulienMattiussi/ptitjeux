@@ -5,75 +5,83 @@
   "height": 6,
   "words": [
     [
-      "malade",
-      "séraphin",
-      "délicatesse",
-      "gros",
-      "pêche",
-      "couplet"
+      "turquoise",
+      "irlande",
+      "jouer",
+      "hideux",
+      "pincer",
+      "fine"
     ],
     [
-      "thonier",
-      "pacifique",
-      "migrateur",
-      "quai",
-      "orange",
-      "âtre"
+      "ourson",
+      "caisse",
+      "glaçure",
+      "corde",
+      "instrument",
+      "hachoir"
     ],
     [
-      "germon",
-      "chronique",
-      "ronge",
-      "caténaire",
-      "capitaine",
-      "marchandise"
+      "pure",
+      "ange",
+      "gratter",
+      "mélodieuse",
+      "douce",
+      "barre"
     ],
     [
-      "contenu",
-      "voodoo",
-      "salade",
-      "tonic",
-      "frêle",
-      "épaissir"
+      "embrasser",
+      "sacrée",
+      "tricot",
+      "cattleya",
+      "sévère",
+      "haricot"
     ],
     [
-      "sushi",
-      "morue",
-      "rapide",
-      "atlantique",
-      "trajectoire",
-      "conserve"
+      "celtique",
+      "crasse",
+      "pédale",
+      "projeter",
+      "royal",
+      "orchestre"
     ],
     [
-      "siffler",
-      "biologie",
-      "gras",
-      "blanc",
-      "mer",
-      "rouge"
+      "antique",
+      "platine",
+      "gazouiller",
+      "céleste",
+      "aimer",
+      "norvège"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    1,
-    1,
+    3,
     5,
-    4
+    1,
+    4,
+    2
   ],
   "colClues": [
     3,
-    2,
     4,
     3,
-    2,
-    2
+    3,
+    4,
+    1
   ],
-  "themeWord": "thon",
+  "themeWord": "harpe",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true,
       true,
@@ -83,6 +91,14 @@
       true,
       true,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       false
@@ -90,35 +106,19 @@
     [
       true,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      false,
       true
     ],
     [
+      true,
       false,
       false,
       true,
-      true,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

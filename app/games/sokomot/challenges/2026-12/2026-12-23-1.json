@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    5,
-    2
+    4,
+    1
   ],
   "walls": [
     [
@@ -98,69 +98,71 @@
     ],
     [
       5,
-      3
+      2
     ],
     [
-      1,
-      4
+      5,
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "O",
       "pos": [
-        4,
-        2
+        3,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "P",
       "pos": [
-        3,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "E",
       "pos": [
-        3,
-        4
+        4,
+        3
       ]
     }
   ],
   "target": {
-    "word": "ROT",
+    "word": "OPE",
     "cells": [
       [
-        3,
+        2,
+        1
+      ],
+      [
+        2,
         2
       ],
       [
-        4,
+        3,
         3
-      ],
-      [
-        4,
-        4
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 12,
   "solution": [
     "left",
-    "up",
-    "left",
-    "left",
+    "down",
     "down",
     "down",
     "right",
+    "right",
+    "up",
     "left",
     "down",
-    "right"
+    "left",
+    "left",
+    "up"
   ],
-  "canonicalWord": "rot"
+  "canonicalWord": "ope"
 }

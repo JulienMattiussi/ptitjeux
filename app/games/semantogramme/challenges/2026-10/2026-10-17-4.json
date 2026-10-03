@@ -5,113 +5,113 @@
   "height": 7,
   "words": [
     [
-      "frénésie",
-      "lâche",
-      "patine",
-      "tournoyer",
-      "naples",
-      "limousin",
-      "généraliste"
+      "cercle",
+      "construction",
+      "élargir",
+      "mesurer",
+      "rigoureux",
+      "empire",
+      "bis"
     ],
     [
-      "oxygène",
-      "tarentule",
-      "méridionale",
-      "danser",
-      "morale",
-      "sauter",
-      "tambourin"
+      "finesse",
+      "spartiate",
+      "rondelet",
+      "société",
+      "descartes",
+      "fuir",
+      "centre"
     ],
     [
-      "compliqué",
-      "ambrée",
-      "manigancer",
-      "populaire",
-      "folklorique",
-      "sinueux",
-      "à-fromage"
+      "bissextile",
+      "isolé",
+      "architecte",
+      "courbure",
+      "lancinante",
+      "spirituelle",
+      "agneau"
     ],
     [
-      "ouistiti",
-      "haute-définition",
-      "incendie",
-      "beagle",
-      "tigre",
-      "italienne",
-      "danse"
+      "olympique",
+      "charbon",
+      "siroter",
+      "rayon",
+      "canari",
+      "tolérer",
+      "circonférence"
     ],
     [
-      "familière",
-      "épingle",
-      "flottant",
-      "caduc",
-      "rythme",
-      "épervier",
-      "droit"
+      "pimenter",
+      "blonde",
+      "dessin",
+      "instrument",
+      "gestationnel",
+      "simplet",
+      "nettoyer"
     ],
     [
-      "cardan",
-      "oublié",
-      "abdominal",
-      "sentier",
-      "éclosion",
-      "gaie",
-      "destination"
+      "parabole",
+      "précis",
+      "pliocène",
+      "pointe",
+      "navigation",
+      "utopie",
+      "symbole"
     ],
     [
-      "sicilienne",
-      "gorge",
-      "rapide",
-      "frénétique",
-      "enfoncer",
-      "éruption",
-      "tradition"
+      "insuline",
+      "géométrie",
+      "interprète",
+      "concret",
+      "bras",
+      "maçonnique",
+      "métallique"
     ]
   ],
   "rowClues": [
-    3,
-    5,
-    2,
     2,
     1,
     1,
+    2,
+    2,
+    4,
     4
   ],
   "colClues": [
-    2,
     1,
     2,
+    2,
     4,
-    3,
-    3,
-    3
+    2,
+    1,
+    4
   ],
-  "themeWord": "tarentelle",
+  "themeWord": "compas",
   "solution": [
     [
       true,
       false,
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
       false,
-      true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
+      true,
       false,
-      true,
-      true,
+      false,
       false,
       false
     ],
@@ -119,38 +119,38 @@
       false,
       false,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
+      true,
       false,
       true,
-      false
+      true,
+      false,
+      true
     ],
     [
-      true,
       false,
-      true,
       true,
       false,
       false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-25-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "gratifier",
+      "indien",
+      "protocole",
+      "apporter",
+      "résumer",
+      "assouplir"
+    ],
+    [
+      "régaler",
+      "cadran",
+      "dispenser",
+      "remettre",
+      "limpide",
+      "chien"
+    ],
+    [
+      "rue",
+      "galet",
+      "paquet",
+      "pesante",
+      "monumentale",
+      "générosité"
+    ],
+    [
+      "colis",
+      "ampoule",
+      "stalagmite",
+      "planche",
+      "pavé",
+      "ruban"
+    ],
+    [
+      "étudiant",
+      "tendre",
+      "obscurité",
+      "consacrer",
+      "laitue",
+      "dédier"
+    ],
+    [
+      "don",
+      "pochette",
+      "rempli",
+      "octroyer",
+      "donner",
+      "gratiner"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    4,
+    1,
+    3
+  ],
+  "themeWord": "offrir",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

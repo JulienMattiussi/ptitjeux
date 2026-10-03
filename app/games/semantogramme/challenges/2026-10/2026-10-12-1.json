@@ -5,52 +5,52 @@
   "height": 4,
   "words": [
     [
-      "traité",
-      "fort",
-      "pic",
-      "morceau"
+      "menuiserie",
+      "pêche",
+      "turban",
+      "ver"
     ],
     [
-      "état",
-      "idée",
-      "colombe",
-      "amour"
+      "mangue",
+      "effrayant",
+      "fraise",
+      "pomme"
     ],
     [
-      "sérénité",
-      "tranquillité",
-      "fermé",
-      "liseuse"
+      "banane",
+      "poire",
+      "habiter",
+      "renforcer"
     ],
     [
-      "accord",
-      "enfer",
-      "silence",
-      "cube"
+      "humidité",
+      "raisin",
+      "cerise",
+      "ananas"
     ]
   ],
   "rowClues": [
     1,
+    3,
     2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
     2,
     2
   ],
-  "colClues": [
-    3,
-    1,
-    2,
-    1
-  ],
-  "themeWord": "paix",
+  "themeWord": "fruit",
   "solution": [
     [
-      true,
       false,
+      true,
       false,
       false
     ],
     [
-      false,
+      true,
       false,
       true,
       true
@@ -62,11 +62,11 @@
       false
     ],
     [
-      true,
       false,
       true,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

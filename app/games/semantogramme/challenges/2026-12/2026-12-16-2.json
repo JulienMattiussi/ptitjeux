@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "capturer",
-      "char",
-      "logiciel",
-      "reflux",
-      "rivage"
+      "fervente",
+      "prière",
+      "piété",
+      "croyance",
+      "gaieté"
     ],
     [
-      "isolante",
-      "objectif",
-      "basse",
-      "montante",
-      "gusset"
+      "girouette",
+      "adorer",
+      "chapelet",
+      "candide",
+      "pin"
     ],
     [
-      "frange",
-      "maritime",
-      "javelot",
-      "rectitude",
-      "sacré"
+      "voilé",
+      "mystique",
+      "sincère",
+      "beige",
+      "chaise"
     ],
     [
-      "lunaire",
-      "grosse-caisse",
-      "haute",
-      "inonder",
-      "flux"
+      "pieuse",
+      "religion",
+      "trampoline",
+      "pétiller",
+      "tragédie"
     ],
     [
-      "noire",
-      "côtière",
-      "coefficient",
-      "effeuiller",
-      "assuré"
+      "zinc",
+      "violet",
+      "prier",
+      "annulaire",
+      "vénérer"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
     4,
+    2,
+    2,
+    2,
     2
   ],
   "colClues": [
-    1,
     2,
-    3,
-    3,
-    2
+    4,
+    4,
+    1,
+    1
   ],
-  "themeWord": "marée",
+  "themeWord": "dévotion",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

@@ -7,7 +7,7 @@ import { getLevel } from '~/games/sokomot/challenges'
 import { readGameProgress } from '~/lib/localStorage'
 import type { Direction } from '~/games/sokomot/types'
 
-const DATE = '2026-05-01'
+const DATE = '2026-10-01'
 
 const KEY_BY_DIRECTION: Record<Direction, string> = {
   up: '{ArrowUp}',

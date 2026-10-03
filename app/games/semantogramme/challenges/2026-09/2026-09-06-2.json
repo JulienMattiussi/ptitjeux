@@ -5,63 +5,63 @@
   "height": 5,
   "words": [
     [
-      "tendu",
-      "imperméabiliser",
-      "pneu",
-      "gomme",
-      "mener"
+      "chérir",
+      "trésor",
+      "austère",
+      "plexiglas",
+      "or"
     ],
     [
-      "roue",
-      "balcon",
-      "mouche",
-      "gant",
-      "médicament"
+      "joyau",
+      "scolaire",
+      "récolte",
+      "pierre",
+      "crudité"
     ],
     [
-      "botte",
-      "champagne",
-      "résistant",
-      "imperméable",
-      "garniture"
+      "vanter",
+      "bander",
+      "inestimable",
+      "maquette",
+      "ressort"
     ],
     [
-      "étirer",
-      "latex",
-      "congère",
-      "arbre",
-      "étanche"
+      "sépia",
+      "hirsute",
+      "cigale",
+      "cher",
+      "protéger"
     ],
     [
-      "héritière",
-      "félicité",
-      "souple",
-      "invoquer",
-      "illustre"
+      "argenté",
+      "estimer",
+      "sacré",
+      "saphir",
+      "tendance"
     ]
   ],
   "rowClues": [
-    4,
-    2,
     3,
-    4,
-    1
+    2,
+    1,
+    2,
+    3
   ],
   "colClues": [
-    4,
+    2,
+    2,
     2,
     3,
-    4,
-    1
+    2
   ],
-  "themeWord": "caoutchouc",
+  "themeWord": "précieux",
   "solution": [
     [
       true,
       true,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ],
     [
       true,
@@ -71,26 +71,26 @@
       false
     ],
     [
-      true,
+      false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       true
     ],
     [
       false,
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

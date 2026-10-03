@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
+    3,
     1
   ],
   "walls": [
@@ -97,11 +97,11 @@
       4
     ],
     [
-      1,
-      3
+      3,
+      2
     ],
     [
-      1,
+      4,
       2
     ]
   ],
@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "G",
       "pos": [
         2,
         1
@@ -117,50 +117,52 @@
     },
     {
       "id": "b2",
-      "letter": "F",
+      "letter": "A",
       "pos": [
-        4,
+        1,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "F",
+      "letter": "P",
       "pos": [
-        5,
+        3,
         3
       ]
     }
   ],
   "target": {
-    "word": "OFF",
+    "word": "GAP",
     "cells": [
       [
-        3,
+        1,
         1
       ],
       [
-        4,
+        1,
         2
       ],
       [
-        5,
-        2
+        2,
+        3
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 12,
   "solution": [
+    "left",
+    "right",
+    "right",
     "right",
     "down",
     "down",
+    "left",
+    "left",
     "down",
-    "right",
-    "right",
-    "up",
-    "down",
-    "right",
+    "left",
+    "left",
     "up"
   ],
-  "canonicalWord": "off"
+  "canonicalWord": "gap"
 }

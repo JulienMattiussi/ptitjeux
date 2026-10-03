@@ -5,96 +5,141 @@
   "height": 7,
   "words": [
     [
-      "sabre",
-      "souiller",
-      "gracile",
-      "miocène",
-      "instantané",
-      "climat",
-      "paléogène"
+      "bravoure",
+      "armature",
+      "dérive",
+      "rivière",
+      "incantation",
+      "pluvieux",
+      "jubilation"
     ],
     [
-      "trottiner",
-      "frire",
-      "ancien",
-      "contempler",
-      "déchiffrer",
-      "serrure",
-      "terrassement"
+      "éprouver",
+      "fâcheux",
+      "ressentir",
+      "plénitude",
+      "clarinette",
+      "romantique",
+      "mortel"
     ],
     [
-      "éocène",
-      "sédiment",
-      "préhistoire",
-      "séché",
-      "truffe",
-      "kiwi",
-      "nord"
+      "guidon",
+      "sorbier",
+      "ruse",
+      "cafard",
+      "dragée",
+      "cathédrale",
+      "harmonie"
     ],
     [
-      "transplant",
-      "savane",
-      "mammifère",
-      "poésie",
-      "vinification",
-      "maternelle",
-      "indépendance"
+      "pression",
+      "gesticuler",
+      "nietzsche",
+      "précise",
+      "tesselle",
+      "gris",
+      "sombre"
     ],
     [
-      "tempéré",
-      "rascasse",
-      "rêverie",
-      "intelligent",
-      "forêt",
-      "dynamique",
-      "développementale"
+      "mélancolie",
+      "morosité",
+      "noirceur",
+      "comice",
+      "tristesse",
+      "profond",
+      "filiation"
     ],
     [
-      "roche",
-      "cénozoïque",
-      "apparition",
-      "tu",
-      "fossile",
-      "continental",
-      "genièvre"
+      "languir",
+      "sombrer",
+      "subir",
+      "parisien",
+      "imprimée",
+      "briller",
+      "baudelaire"
     ],
     [
-      "sicilienne",
-      "géologique",
-      "épée",
-      "filetage",
-      "exagérer",
-      "machine",
-      "évolution"
+      "symétrique",
+      "méditation",
+      "soupirer",
+      "cultivé",
+      "séjour",
+      "téléphone",
+      "flux"
     ]
   ],
   "rowClues": [
-    3,
     1,
-    3,
-    2,
+    4,
+    1,
     2,
     5,
-    2
+    4,
+    1
   ],
   "colClues": [
     3,
-    4,
-    4,
+    2,
+    3,
+    2,
     1,
-    2,
-    2,
-    2
+    4,
+    3
   ],
-  "themeWord": "oligocène",
+  "themeWord": "spleen",
   "solution": [
     [
       false,
       false,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
       true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
       true
     ],
     [
@@ -105,51 +150,6 @@
       false,
       false,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
   "parMoves": 18

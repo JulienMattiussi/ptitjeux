@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "tapisserie",
-      "orteil",
-      "rugueuse",
-      "marteau"
+      "télescope",
+      "satellite",
+      "nébuleuse",
+      "plaquage"
     ],
     [
-      "fils",
-      "mortier",
-      "crépi",
-      "fortifiée"
+      "mercredis",
+      "lilas",
+      "jubilation",
+      "orbite"
     ],
     [
-      "peinture",
-      "basilic",
-      "pirate",
-      "cloison"
+      "étoile",
+      "galaxie",
+      "constellation",
+      "barbe"
     ],
     [
-      "parpaing",
-      "campus",
-      "pierre",
-      "votif"
+      "serpillière",
+      "éclipse",
+      "astéroïde",
+      "comète"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     3,
     1,
-    2,
-    1
+    3,
+    3
   ],
-  "themeWord": "mur",
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "astronomie",
   "solution": [
     [
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false
     ],
     [
-      true,
+      false,
       false,
       false,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

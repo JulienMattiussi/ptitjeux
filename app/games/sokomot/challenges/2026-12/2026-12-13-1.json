@@ -97,11 +97,11 @@
       4
     ],
     [
-      5,
+      4,
       4
     ],
     [
-      2,
+      3,
       4
     ]
   ],
@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "R",
       "pos": [
         1,
         2
@@ -117,15 +117,15 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "I",
       "pos": [
         2,
-        2
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "E",
       "pos": [
         4,
         2
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "BAC",
+    "word": "RIE",
     "cells": [
       [
         1,
@@ -141,7 +141,7 @@
       ],
       [
         2,
-        1
+        2
       ],
       [
         3,
@@ -153,14 +153,14 @@
   "solution": [
     "up",
     "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "right",
-    "right",
     "down",
+    "right",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
     "left"
   ],
-  "canonicalWord": "bac"
+  "canonicalWord": "rie"
 }

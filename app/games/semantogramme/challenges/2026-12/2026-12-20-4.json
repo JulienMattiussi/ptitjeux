@@ -5,132 +5,141 @@
   "height": 7,
   "words": [
     [
-      "concomitant",
-      "deviner",
-      "noodle",
-      "pectoral",
-      "fin-de-siècle",
-      "décantation",
-      "rapide"
+      "roche",
+      "omelette",
+      "rôti",
+      "charbonner",
+      "soustraire",
+      "précambrien",
+      "vendanger"
     ],
     [
-      "pressentir",
-      "ouvrier",
-      "normandie",
-      "intégrité",
-      "ours",
-      "délicatesse",
-      "douloureux"
+      "zodiaque",
+      "former",
+      "foulard",
+      "mirage",
+      "jurassique",
+      "ère",
+      "mètre"
     ],
     [
-      "révélation",
-      "inspiration",
-      "incommensurable",
-      "synthèse",
-      "détourner",
-      "gai",
-      "fasce"
+      "accord",
+      "géologique",
+      "mésozoïque",
+      "déferlement",
+      "tourteau",
+      "magot",
+      "guerre"
     ],
     [
-      "pressentiment",
-      "féminine",
-      "isolante",
-      "providentiel",
-      "attention",
-      "bigarade",
-      "percevoir"
+      "motif",
+      "domestique",
+      "évolution",
+      "apparition",
+      "hisser",
+      "fossile",
+      "lointain"
     ],
     [
-      "extérieur",
-      "colorier",
-      "sentir",
-      "palanquer",
-      "évidence",
-      "érosion",
-      "conducteur"
+      "sédiment",
+      "dinosaure",
+      "astuce",
+      "note",
+      "engloutir",
+      "préhistoire",
+      "agréée"
     ],
     [
-      "voler",
-      "brûler",
-      "lewitt",
-      "spirituelle",
-      "loupe",
-      "plaintif",
-      "antigène"
+      "transvaser",
+      "shampoing",
+      "vinaigrette",
+      "continuer",
+      "cahoter",
+      "pangée",
+      "transplant"
     ],
     [
-      "flair",
-      "gencive",
-      "magma",
-      "aiguillon",
-      "sixième-sens",
-      "perception",
-      "comprendre"
+      "lilas",
+      "crampe",
+      "éloquence",
+      "reptile",
+      "caillot",
+      "ancien",
+      "permien"
     ]
   ],
   "rowClues": [
     2,
-    1,
     2,
-    3,
     2,
-    1,
-    4
-  ],
-  "colClues": [
     4,
     3,
     1,
-    1,
-    2,
-    1,
     3
   ],
-  "themeWord": "intuition",
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    6,
+    2
+  ],
+  "themeWord": "trias",
   "solution": [
     [
-      false,
       true,
       false,
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
       true
     ],
     [
       true,
+      true,
       false,
       false,
       false,
-      false,
-      false,
+      true,
       false
     ],
     [
-      true,
-      true,
       false,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       false,
       true,
-      false,
-      true,
-      false,
       false
     ],
     [
@@ -139,18 +148,9 @@
       false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
       true,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

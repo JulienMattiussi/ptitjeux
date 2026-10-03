@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "mer",
+      "spacieux",
+      "risquer",
+      "bateau"
+    ],
+    [
+      "brillante",
+      "poisson",
+      "forum",
+      "chalut"
+    ],
+    [
+      "poireau",
+      "saisir",
+      "hameçon",
+      "président"
+    ],
+    [
+      "rivière",
+      "filet",
+      "congélateur",
+      "pourpre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "pêcheur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cicatrice",
+      "épidermique",
+      "estivale",
+      "desquamation",
+      "chiffon"
+    ],
+    [
+      "houblon",
+      "poing",
+      "piqûre",
+      "tatouage",
+      "quatre-quarts"
+    ],
+    [
+      "verrue",
+      "ponctuel",
+      "grain",
+      "pointer",
+      "éplucher"
+    ],
+    [
+      "pore",
+      "gratter",
+      "cutané",
+      "printemps",
+      "derme"
+    ],
+    [
+      "idée",
+      "bronzer",
+      "épiderme",
+      "reptile",
+      "rougeur"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "peau",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

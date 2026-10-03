@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chaîne",
+      "saturne",
+      "décrépir",
+      "bijoutier"
+    ],
+    [
+      "fable",
+      "menton",
+      "cou",
+      "diamant"
+    ],
+    [
+      "protectrice",
+      "pile",
+      "sautoir",
+      "ras"
+    ],
+    [
+      "étoile",
+      "pendentif",
+      "tour",
+      "japon"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "collier",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "guide",
+      "préfecture",
+      "fragile",
+      "huître"
+    ],
+    [
+      "fauve",
+      "promenade",
+      "eau",
+      "territoire"
+    ],
+    [
+      "province",
+      "jugement",
+      "parler",
+      "manège"
+    ],
+    [
+      "coulisse",
+      "patrimoine",
+      "culture",
+      "limite"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "région",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

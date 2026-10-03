@@ -4,7 +4,7 @@
   "width": 8,
   "height": 7,
   "player": [
-    2,
+    1,
     5
   ],
   "walls": [
@@ -115,88 +115,93 @@
   ],
   "ice": [
     [
-      2,
+      1,
       3
     ],
     [
-      4,
+      3,
       3
     ],
     [
-      4,
+      3,
+      4
+    ],
+    [
+      3,
       5
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "B",
       "pos": [
-        2,
+        1,
         4
       ]
     },
     {
       "id": "b2",
-      "letter": "C",
+      "letter": "R",
       "pos": [
-        5,
+        4,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "A",
       "pos": [
         4,
-        2
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "N",
+      "letter": "S",
       "pos": [
-        3,
+        4,
         5
       ]
     }
   ],
   "target": {
-    "word": "ACON",
+    "word": "BRAS",
     "cells": [
       [
-        2,
+        1,
         2
       ],
       [
-        3,
+        2,
         3
       ],
       [
-        4,
+        2,
         4
       ],
       [
-        5,
+        2,
         5
       ]
     ]
   },
-  "parMoves": 13,
+  "parMoves": 14,
   "solution": [
     "up",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
     "down",
-    "right",
-    "up",
-    "right",
-    "right",
-    "right",
-    "up",
     "left",
-    "up",
-    "up",
+    "right",
+    "down",
     "left",
-    "down"
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "acon"
+  "canonicalWord": "bras"
 }

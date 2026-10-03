@@ -5,111 +5,102 @@
   "height": 7,
   "words": [
     [
-      "mica",
-      "portail",
-      "frottement",
-      "fracturer",
-      "résumer",
-      "plat-de-service",
-      "répondeur"
+      "serrure",
+      "fouiller",
+      "poésie",
+      "sanctuaire",
+      "mammifère",
+      "fan",
+      "patte"
     ],
     [
-      "quartz",
-      "foliation",
-      "sédentaire",
-      "autoritaire",
-      "compacte",
-      "minéral",
-      "nil"
+      "flaubert",
+      "roulette",
+      "paillasson",
+      "tourbillon",
+      "gravir",
+      "chiper",
+      "figurine"
     ],
     [
-      "crabe",
-      "sextant",
-      "feldspath",
-      "poisseux",
-      "risotto",
-      "métamorphique",
-      "fragile"
+      "terrifiant",
+      "gris",
+      "malin",
+      "vautour",
+      "univers",
+      "griffes",
+      "valencia"
     ],
     [
-      "frescobaldi",
-      "croisière",
-      "responsable",
-      "érosion",
-      "évolution",
-      "pet",
-      "algébrique"
+      "piqûre",
+      "musset",
+      "nocturne",
+      "lèchefrite",
+      "rayée",
+      "globule",
+      "rivage"
     ],
     [
-      "gênant",
-      "orogenèse",
-      "frange",
-      "éconduire",
-      "tireur",
-      "littéraire",
-      "idée"
+      "action",
+      "normandie",
+      "condor",
+      "modèle",
+      "amérique",
+      "opportuniste",
+      "queue"
     ],
     [
-      "cristal",
-      "prince",
-      "sourd",
-      "cimier",
-      "rugueuse",
-      "massif",
-      "tempérance"
+      "agile",
+      "enrobé",
+      "écosse",
+      "curieux",
+      "division",
+      "précision",
+      "marathon"
     ],
     [
-      "granite",
-      "robuste",
-      "roche",
-      "mouton",
-      "distorsion",
-      "affleurement",
-      "grise"
+      "laver",
+      "frisbee",
+      "croasser",
+      "façonner",
+      "vétiver",
+      "épuisement",
+      "rouget"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    2,
-    1,
+    3,
     1,
     3,
-    4
+    2,
+    3,
+    2,
+    1
   ],
   "colClues": [
-    4,
+    2,
     2,
     2,
     1,
-    2,
-    4,
-    1
+    3,
+    3,
+    2
   ],
-  "themeWord": "gneiss",
+  "themeWord": "raton",
   "solution": [
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       false,
       true,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
-      true,
+      false,
       false,
       false,
       true,
@@ -117,40 +108,49 @@
     ],
     [
       false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       false,
       true,
       false,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

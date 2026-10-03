@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    5
+    8,
+    3
   ],
   "walls": [
     [
@@ -374,56 +374,60 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "O",
       "pos": [
-        1,
-        2
+        7,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "B",
       "pos": [
-        1,
-        3
+        6,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "M",
+      "letter": "L",
+      "pos": [
+        7,
+        3
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "O",
       "pos": [
         1,
         4
       ]
     },
     {
-      "id": "b4",
-      "letter": "B",
+      "id": "b5",
+      "letter": "N",
       "pos": [
-        4,
+        1,
         5
       ]
     },
     {
-      "id": "b5",
-      "letter": "E",
-      "pos": [
-        3,
-        6
-      ]
-    },
-    {
       "id": "b6",
-      "letter": "R",
+      "letter": "G",
       "pos": [
-        4,
-        7
+        1,
+        6
       ]
     }
   ],
   "target": {
-    "word": "TOMBER",
+    "word": "OBLONG",
     "cells": [
+      [
+        1,
+        1
+      ],
       [
         1,
         2
@@ -443,22 +447,17 @@
       [
         1,
         6
-      ],
-      [
-        1,
-        7
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 6,
   "solution": [
     "left",
-    "down",
+    "up",
     "left",
     "right",
-    "down",
-    "left",
+    "up",
     "left"
   ],
-  "canonicalWord": "tomber"
+  "canonicalWord": "oblong"
 }

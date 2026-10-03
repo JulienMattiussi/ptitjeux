@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    5
+    8,
+    3
   ],
   "walls": [
     [
@@ -374,90 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "C",
       "pos": [
-        8,
-        2
+        7,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        8,
-        3
+        6,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "R",
       "pos": [
-        8,
-        4
+        7,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "U",
+      "letter": "I",
       "pos": [
-        2,
-        5
+        1,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "E",
       "pos": [
-        3,
-        6
+        1,
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "R",
       "pos": [
-        2,
-        7
+        1,
+        6
       ]
     }
   ],
   "target": {
-    "word": "AUCUNE",
+    "word": "CIRIER",
     "cells": [
       [
-        8,
+        1,
+        1
+      ],
+      [
+        1,
         2
       ],
       [
-        8,
+        1,
         3
       ],
       [
-        8,
+        1,
         4
       ],
       [
-        8,
+        1,
         5
       ],
       [
-        8,
+        1,
         6
-      ],
-      [
-        8,
-        7
       ]
     ]
   },
   "parMoves": 6,
   "solution": [
-    "right",
-    "down",
-    "right",
     "left",
-    "down",
-    "right"
+    "up",
+    "left",
+    "right",
+    "up",
+    "left"
   ],
-  "canonicalWord": "aucune"
+  "canonicalWord": "cirier"
 }

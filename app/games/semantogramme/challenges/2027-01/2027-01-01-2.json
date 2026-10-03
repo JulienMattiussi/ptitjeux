@@ -5,81 +5,74 @@
   "height": 5,
   "words": [
     [
-      "orthogonal",
-      "carreau",
-      "angle",
-      "tête",
-      "volume"
+      "minimaliste",
+      "angine",
+      "allaiter",
+      "rapide",
+      "européen"
     ],
     [
-      "courroux",
-      "damier",
-      "ligoter",
-      "écorcer",
-      "rectiligne"
+      "aorte",
+      "sportif",
+      "sculpteur",
+      "anémique",
+      "barbecue"
     ],
     [
-      "verre",
-      "gabriel",
-      "démon",
-      "pavé",
-      "losange"
+      "calcium",
+      "gymnase",
+      "pivot",
+      "aiguillée",
+      "lancer"
     ],
     [
-      "échiquier",
-      "équinoxe",
-      "quadrillage",
-      "céleste",
-      "case"
+      "olympique",
+      "défendre",
+      "rugosité",
+      "collectif",
+      "maillot"
     ],
     [
-      "cubique",
-      "rectangle",
-      "cube",
-      "agate",
-      "tuile"
+      "soupçon",
+      "illuminer",
+      "inoccupé",
+      "axe",
+      "tirer"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    2,
+    1,
     3,
-    4
+    4,
+    1
   ],
   "colClues": [
-    3,
-    3,
+    1,
     3,
     1,
+    2,
     4
   ],
-  "themeWord": "carré",
+  "themeWord": "handball",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       true
@@ -87,10 +80,17 @@
     [
       true,
       true,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

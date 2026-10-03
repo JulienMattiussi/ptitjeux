@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "shopping",
-      "animal",
-      "patte",
-      "puissance",
-      "cheval",
-      "troupeau"
+      "ensemencer",
+      "sono",
+      "graine",
+      "tourmenter",
+      "semoir",
+      "cultiver"
     ],
     [
-      "bilan",
-      "cartes",
-      "rayure",
-      "lien",
-      "pet",
-      "astringent"
+      "attraper",
+      "orthogonal",
+      "terre",
+      "sillon",
+      "agriculture",
+      "jachère"
     ],
     [
-      "tintement",
-      "crinière",
-      "juge",
-      "ronflante",
-      "savane",
-      "fuir"
+      "germer",
+      "planter",
+      "culture",
+      "temporel",
+      "abondance",
+      "masse"
     ],
     [
-      "culte",
-      "galoper",
-      "écouter",
-      "afrique",
-      "scolaire",
-      "bain"
+      "champ",
+      "germination",
+      "descendante",
+      "élaguer",
+      "pastel",
+      "enfouir"
     ],
     [
-      "nougat",
-      "vaisselle",
-      "corriger",
-      "sauvage",
-      "brouter",
-      "rafraîchissant"
+      "élever",
+      "récolter",
+      "pousse",
+      "caramélisé",
+      "oser",
+      "épandre"
     ],
     [
-      "noir",
-      "angoisse",
-      "équidé",
-      "distinctif",
-      "tropical",
-      "farine"
+      "modéré",
+      "richelieu",
+      "industrialiser",
+      "sql",
+      "charpentier",
+      "engrais"
     ]
   ],
   "rowClues": [
     4,
-    1,
+    4,
     3,
-    2,
-    2,
-    4
+    3,
+    3,
+    1
   ],
   "colClues": [
-    1,
-    3,
     3,
     3,
     4,
-    2
+    1,
+    2,
+    5
   ],
-  "themeWord": "zèbre",
+  "themeWord": "semer",
   "solution": [
     [
-      false,
-      true,
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true,
       true
     ],
     [
       false,
-      true,
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
     ],
     [
       false,
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

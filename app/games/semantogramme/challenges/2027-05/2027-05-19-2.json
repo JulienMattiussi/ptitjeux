@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-19-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "troc",
+      "embaumé",
+      "cabrioler",
+      "tremplin",
+      "élan"
+    ],
+    [
+      "rebond",
+      "créneau",
+      "bondir",
+      "réception",
+      "jaillir"
+    ],
+    [
+      "trampoline",
+      "perche",
+      "folk",
+      "lésion",
+      "sautiller"
+    ],
+    [
+      "corde",
+      "résumé",
+      "roulante",
+      "enjamber",
+      "migration"
+    ],
+    [
+      "saut",
+      "turquoise",
+      "pirouette",
+      "gambader",
+      "moelle"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "sauter",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

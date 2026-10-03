@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "gravir",
-      "mosquée",
-      "poulain",
-      "mordre",
-      "inoxydable"
+      "nouveau",
+      "innovation",
+      "rénover",
+      "emballage",
+      "napolitaine"
     ],
     [
-      "réaction",
-      "sourire",
-      "mâchoire",
-      "salive",
-      "détester"
+      "écrire",
+      "récent",
+      "ravissement",
+      "effilée",
+      "ruse"
     ],
     [
-      "gorge",
-      "parole",
-      "celtique",
-      "gencive",
-      "saturne"
+      "cellophane",
+      "oeufrier",
+      "soigner",
+      "rural",
+      "style"
     ],
     [
-      "européen",
-      "monopalme",
-      "lèvre",
-      "gobelet",
-      "embrasser"
+      "champêtre",
+      "ruisseler",
+      "barbe",
+      "trapèze",
+      "modernité"
     ],
     [
-      "strophe",
-      "cartouche",
-      "baiser",
-      "mâcher",
-      "hématome"
+      "frais",
+      "fraîcheur",
+      "photon",
+      "achat",
+      "inaugurer"
     ]
   ],
   "rowClues": [
+    4,
     1,
+    1,
+    1,
+    4
+  ],
+  "colClues": [
     3,
     3,
+    1,
     2,
     2
   ],
-  "colClues": [
-    1,
-    2,
-    3,
-    4,
-    1
-  ],
-  "themeWord": "bouche",
+  "themeWord": "neuf",
   "solution": [
     [
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
-      true,
       false,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
-      true,
+      false,
       false,
       true
     ],
     [
-      false,
-      false,
       true,
       true,
-      false
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 11

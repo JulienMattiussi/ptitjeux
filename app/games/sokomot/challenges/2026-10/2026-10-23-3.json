@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    6,
+    2,
     6
   ],
   "walls": [
@@ -133,23 +133,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "Z",
+      "letter": "F",
       "pos": [
-        6,
+        2,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         3,
-        2
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "N",
       "pos": [
         4,
         4
@@ -157,77 +157,84 @@
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "D",
       "pos": [
-        3,
-        6
+        2,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "S",
       "pos": [
         6,
-        5
+        4
       ]
     }
   ],
   "target": {
-    "word": "ZELEE",
+    "word": "FONDS",
     "cells": [
       [
-        4,
+        2,
         3
       ],
       [
-        4,
+        2,
         4
       ],
       [
-        4,
+        2,
+        5
+      ],
+      [
+        3,
         5
       ],
       [
         4,
-        6
-      ],
-      [
-        5,
         5
       ]
     ]
   },
-  "parMoves": 29,
+  "parMoves": 36,
   "solution": [
-    "right",
-    "up",
-    "left",
-    "up",
-    "right",
     "up",
     "up",
     "left",
-    "left",
-    "down",
-    "left",
-    "down",
     "up",
     "right",
-    "up",
-    "up",
-    "left",
-    "down",
-    "up",
-    "left",
-    "down",
-    "down",
-    "left",
+    "right",
+    "right",
     "down",
     "right",
     "down",
     "left",
+    "left",
+    "right",
+    "right",
+    "right",
+    "right",
+    "up",
+    "left",
+    "left",
+    "right",
+    "up",
+    "left",
+    "left",
     "down",
-    "right"
+    "left",
+    "right",
+    "up",
+    "up",
+    "left",
+    "down",
+    "down",
+    "up",
+    "up",
+    "up",
+    "left",
+    "down"
   ],
-  "canonicalWord": "zélée"
+  "canonicalWord": "fonds"
 }

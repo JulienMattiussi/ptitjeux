@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     2,
-    3
+    4
   ],
   "walls": [
     [
@@ -98,67 +98,68 @@
     ],
     [
       5,
-      3
+      4
     ],
     [
-      2,
-      4
+      5,
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "L",
       "pos": [
         2,
-        2
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
-      "pos": [
-        3,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "E",
+      "letter": "A",
       "pos": [
         4,
         3
       ]
+    },
+    {
+      "id": "b3",
+      "letter": "D",
+      "pos": [
+        3,
+        4
+      ]
     }
   ],
   "target": {
-    "word": "PIE",
+    "word": "LAD",
     "cells": [
       [
         2,
-        1
+        2
       ],
       [
         3,
-        1
+        3
       ],
       [
         4,
-        2
+        4
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 9,
   "solution": [
     "up",
     "down",
     "right",
     "up",
-    "down",
-    "down",
+    "up",
     "right",
-    "up"
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "pie"
+  "canonicalWord": "lad"
 }

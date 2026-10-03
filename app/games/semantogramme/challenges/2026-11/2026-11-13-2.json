@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "consultation",
-      "raréfier",
-      "lactée",
-      "belge",
-      "basse"
+      "risqué",
+      "rythmé",
+      "émail",
+      "dentier",
+      "pèlerine"
     ],
     [
-      "singulier",
-      "épuiser",
-      "corrosif",
-      "manuscrit",
-      "sinistre"
+      "fil",
+      "mordre",
+      "antenne",
+      "gluant",
+      "carie"
     ],
     [
-      "unique",
-      "servir",
-      "manquer",
-      "orangé",
-      "maçonner"
+      "vaste",
+      "incisive",
+      "voter",
+      "gel",
+      "lunette"
     ],
     [
-      "exceptionnel",
-      "frêle",
-      "antiquité",
-      "galápagos",
-      "truffe"
+      "sagesse",
+      "figure",
+      "arroser",
+      "prémolaire",
+      "menu"
     ],
     [
-      "masque",
-      "éclairage",
-      "curiosité",
-      "diamant",
-      "patella"
+      "mâcher",
+      "silicone",
+      "molaire",
+      "racine",
+      "brosse"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
     3,
-    2
+    1,
+    2,
+    4
   ],
   "colClues": [
     3,
     2,
-    3,
     2,
-    1
+    3,
+    2
   ],
-  "themeWord": "rare",
+  "themeWord": "dent",
   "solution": [
     [
       false,
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
       true,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

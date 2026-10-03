@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "compréhension",
-      "vérité",
-      "profond",
-      "bretelle",
-      "transmigrer",
-      "cymbale",
-      "sincérité"
+      "soi",
+      "écossaise",
+      "composer",
+      "losange",
+      "botte",
+      "esquisser",
+      "fiddle"
     ],
     [
-      "salamalec",
-      "pasteur",
-      "identité",
-      "casse-croûte",
-      "fidélité",
-      "différence",
-      "clameur"
+      "gaudí",
+      "danser",
+      "jonc",
+      "crépitante",
+      "baroque",
+      "heidegger",
+      "galoper"
     ],
     [
-      "trait",
-      "véritable",
-      "endormir",
-      "original",
-      "récurrente",
-      "pleurnicher",
-      "rénovation"
+      "indécision",
+      "suc",
+      "tapage",
+      "breton",
+      "pas",
+      "rapide",
+      "urticant"
     ],
     [
-      "préserver",
-      "sénat",
-      "universelle",
-      "sismologue",
-      "mot",
-      "asiatique",
-      "cosmonaute"
+      "orient",
+      "irlandaise",
+      "ternaire",
+      "vainqueur",
+      "finement",
+      "limaces",
+      "immobile"
     ],
     [
-      "réel",
-      "révéler",
-      "rotor",
-      "sincère",
-      "surveiller",
-      "carillon",
-      "boeuf"
+      "poète",
+      "vif",
+      "pluraliste",
+      "jeudi",
+      "populaire",
+      "serrée",
+      "parpaing"
     ],
     [
-      "instable",
-      "griffe",
-      "poisseux",
-      "authentique",
-      "vénus",
-      "cardiologue",
-      "rechercher"
+      "enjouée",
+      "teinture",
+      "masquer",
+      "folklorique",
+      "vespéral",
+      "rythme",
+      "jouer"
     ],
     [
-      "capsule",
-      "capricieux",
-      "paroi",
-      "incarner",
-      "four",
-      "pure",
-      "apiculteur"
+      "final",
+      "rurale",
+      "garenne",
+      "compliment",
+      "moderne",
+      "mouvoir",
+      "inouï"
     ]
   ],
   "rowClues": [
     3,
     2,
     2,
-    1,
-    3,
     2,
+    2,
+    4,
     2
   ],
   "colClues": [
     2,
+    5,
+    2,
+    1,
     3,
     2,
-    4,
-    1,
-    1,
     2
   ],
-  "themeWord": "authenticité",
+  "themeWord": "gigue",
   "solution": [
     [
       false,
@@ -99,8 +99,8 @@
     ],
     [
       false,
-      false,
       true,
+      false,
       false,
       true,
       false,
@@ -108,10 +108,28 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
+      false,
+      true,
       false,
       false
     ],
@@ -119,38 +137,20 @@
       true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
       true
     ],
     [
-      false,
-      false,
-      false,
+      true,
       true,
       false,
-      true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

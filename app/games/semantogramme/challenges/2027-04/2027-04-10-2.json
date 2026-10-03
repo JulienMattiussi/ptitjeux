@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "algèbre",
+      "ride",
+      "réfléchir",
+      "alimentaire",
+      "frêne"
+    ],
+    [
+      "moto",
+      "solution",
+      "résoudre",
+      "algébrique",
+      "développer"
+    ],
+    [
+      "lever",
+      "simplifier",
+      "inconnue",
+      "démon",
+      "résolution"
+    ],
+    [
+      "chanson",
+      "sanctuaire",
+      "âme",
+      "mathématique",
+      "membre"
+    ],
+    [
+      "cacahuète",
+      "variable",
+      "wagner",
+      "fossile",
+      "archive"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "équation",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

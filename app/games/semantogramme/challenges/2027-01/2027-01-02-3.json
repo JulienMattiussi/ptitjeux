@@ -5,85 +5,101 @@
   "height": 6,
   "words": [
     [
-      "naissant",
-      "fragile",
-      "fauve",
-      "fillette",
-      "marais",
-      "étang"
+      "parader",
+      "pédagogie",
+      "sinistre",
+      "plume",
+      "vanité",
+      "vert"
     ],
     [
-      "farci",
-      "judo",
-      "féminité",
-      "demoiselle",
-      "aérienne",
-      "aubergine"
+      "rapporter",
+      "rite",
+      "couleur",
+      "gastéropode",
+      "séduire",
+      "orgueilleux"
     ],
     [
-      "frimas",
-      "autobloquant",
-      "frette",
-      "aile",
-      "légale",
-      "nénuphar"
+      "crier",
+      "acéré",
+      "splendide",
+      "sorcier",
+      "charbon",
+      "protéger"
     ],
     [
-      "tartine",
-      "ours",
-      "tragédie",
-      "rapide",
-      "entrée",
-      "malveillant"
+      "spéléologie",
+      "noir",
+      "magnifique",
+      "freiner",
+      "bleu",
+      "archaïque"
     ],
     [
-      "planer",
-      "guider",
-      "protéine",
-      "agile",
-      "mourant",
-      "respiration"
+      "asiatique",
+      "épauler",
+      "arc",
+      "oeil",
+      "royal",
+      "aile"
     ],
     [
-      "matrice",
-      "iridescente",
-      "colorée",
-      "voler",
-      "roseau",
-      "rivière"
+      "vendeur",
+      "oiseau",
+      "barreau",
+      "queue",
+      "blesser",
+      "raffinement"
     ]
   ],
   "rowClues": [
+    4,
     3,
     2,
     2,
-    1,
-    2,
-    5
+    3,
+    2
   ],
   "colClues": [
-    1,
     2,
     1,
-    5,
     3,
+    3,
+    4,
     3
   ],
-  "themeWord": "libellule",
+  "themeWord": "paon",
   "solution": [
     [
-      false,
       true,
       false,
       false,
+      true,
       true,
       true
     ],
     [
       false,
       false,
+      true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       true,
       false
     ],
@@ -92,33 +108,17 @@
       false,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

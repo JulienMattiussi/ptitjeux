@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    3
+    5,
+    2
   ],
   "walls": [
     [
@@ -97,71 +97,73 @@
       4
     ],
     [
-      5,
-      4
+      1,
+      2
     ],
     [
-      1,
-      3
+      5,
+      1
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "A",
       "pos": [
-        2,
+        4,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "U",
       "pos": [
-        3,
+        4,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "X",
       "pos": [
-        4,
-        2
+        2,
+        4
       ]
     }
   ],
   "target": {
-    "word": "VET",
+    "word": "AUX",
     "cells": [
-      [
-        2,
-        1
-      ],
       [
         3,
         2
       ],
       [
-        4,
+        3,
         3
+      ],
+      [
+        3,
+        4
       ]
     ]
   },
-  "parMoves": 11,
+  "parMoves": 13,
   "solution": [
-    "up",
+    "left",
+    "right",
     "down",
-    "down",
-    "right",
-    "up",
-    "right",
-    "right",
+    "left",
     "up",
     "up",
     "left",
-    "down"
+    "left",
+    "down",
+    "down",
+    "left",
+    "down",
+    "right"
   ],
-  "canonicalWord": "vêt"
+  "canonicalWord": "aux"
 }

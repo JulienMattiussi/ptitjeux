@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "extrême",
-      "sortir",
-      "ouvrière",
-      "baisser",
-      "neige",
-      "intuition",
-      "creuser"
+      "traité",
+      "refuge",
+      "sacré",
+      "jardinier",
+      "amarrer",
+      "oculaire",
+      "évidence"
     ],
     [
-      "boule",
-      "tempéré",
-      "cervical",
-      "irréductible",
-      "couard",
-      "blatte",
-      "jasmin"
+      "matutinal",
+      "splendide",
+      "ravenne",
+      "parasitologue",
+      "fourrer",
+      "cheminée",
+      "redingote"
     ],
     [
-      "évolution",
-      "mâcher",
-      "ancien",
-      "glaciation",
-      "consumer",
-      "fossile",
-      "soucieux"
+      "uni",
+      "liturgique",
+      "séjour",
+      "patience",
+      "mosaïque",
+      "secours",
+      "responsive"
     ],
     [
-      "tripe",
-      "préhistoire",
-      "application",
-      "ère",
-      "réprouver",
-      "pédant",
-      "crotte"
+      "or",
+      "doré",
+      "sainte-sophie",
+      "antique",
+      "gueule",
+      "pelletée",
+      "dribble"
     ],
     [
-      "géologique",
-      "global",
-      "saucisse",
-      "pêcher",
-      "rester",
-      "sédiment",
-      "lointain"
+      "kirchner",
+      "constantinople",
+      "empire",
+      "patinette",
+      "oriental",
+      "vibrant",
+      "chemise"
     ],
     [
-      "plante",
-      "isoler",
-      "planète",
-      "rappeur",
-      "mérinos",
-      "sentir",
-      "terre"
+      "linéaire",
+      "sphérique",
+      "légendaire",
+      "émonder",
+      "rocher",
+      "icône",
+      "salmonidé"
     ],
     [
-      "glace",
-      "ranger",
-      "irritant",
-      "froid",
-      "plate",
-      "cannabis",
-      "soja"
+      "gastronomie",
+      "tartine",
+      "orthodoxe",
+      "japonais",
+      "stade",
+      "étalon",
+      "art"
     ]
   ],
   "rowClues": [
-    2,
     1,
-    4,
+    2,
     2,
     4,
-    2,
+    3,
+    1,
     2
   ],
   "colClues": [
+    1,
+    4,
     5,
-    2,
-    2,
-    3,
     1,
     2,
-    2
+    1,
+    1
   ],
-  "themeWord": "cryogénien",
+  "themeWord": "byzantin",
   "solution": [
     [
+      false,
+      false,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
@@ -99,58 +117,40 @@
     ],
     [
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false,
       false,
       false
     ],
     [
+      false,
       true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
       false,
-      true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

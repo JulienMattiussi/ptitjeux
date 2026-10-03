@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    3
+    6,
+    5
   ],
   "walls": [
     [
@@ -133,15 +133,15 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "T",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         2,
         4
@@ -149,15 +149,15 @@
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "U",
       "pos": [
-        5,
+        4,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "R",
       "pos": [
         6,
         4
@@ -167,20 +167,24 @@
       "id": "b5",
       "letter": "S",
       "pos": [
-        4,
+        5,
         5
       ]
     }
   ],
   "target": {
-    "word": "VETES",
+    "word": "TOURS",
     "cells": [
       [
-        2,
+        3,
         3
       ],
       [
         3,
+        4
+      ],
+      [
+        4,
         4
       ],
       [
@@ -190,42 +194,35 @@
       [
         5,
         6
-      ],
-      [
-        6,
-        6
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 24,
   "solution": [
+    "right",
+    "up",
     "left",
-    "down",
-    "right",
-    "down",
-    "right",
-    "right",
-    "right",
-    "down",
-    "right",
-    "right",
-    "up",
-    "up",
     "left",
     "down",
     "up",
     "up",
     "left",
     "down",
-    "down",
-    "up",
-    "up",
-    "up",
     "left",
     "down",
-    "down",
+    "left",
+    "left",
     "up",
-    "left"
+    "right",
+    "up",
+    "right",
+    "left",
+    "up",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down"
   ],
-  "canonicalWord": "vêtes"
+  "canonicalWord": "tours"
 }

@@ -5,78 +5,57 @@
   "height": 5,
   "words": [
     [
-      "bras",
-      "beauté",
-      "sanctionner",
-      "père",
-      "bôme"
+      "percer",
+      "pair",
+      "gain",
+      "visser",
+      "clou"
     ],
     [
-      "noblesse",
-      "distingué",
-      "squelette",
-      "chic",
-      "fusain"
+      "poncer",
+      "scie",
+      "outil",
+      "monter",
+      "arquer"
     ],
     [
-      "sobriété",
-      "grâce",
-      "embellir",
-      "classe",
-      "centenaire"
+      "invectiver",
+      "paume",
+      "foulard",
+      "réparer",
+      "clouer"
     ],
     [
-      "sophistiqué",
-      "modèle",
-      "placebo",
-      "parer",
-      "raffiné"
+      "tournevis",
+      "beurre",
+      "établi",
+      "scier",
+      "babouin"
     ],
     [
-      "distinction",
-      "abricot",
-      "axe",
-      "soigner",
-      "style"
+      "perceuse",
+      "châtiment",
+      "planche",
+      "fumier",
+      "bricoleur"
     ]
   ],
   "rowClues": [
-    1,
     3,
     4,
+    2,
     3,
     3
   ],
   "colClues": [
     4,
-    3,
     1,
+    3,
     4,
-    2
+    3
   ],
-  "themeWord": "élégant",
+  "themeWord": "bricoler",
   "solution": [
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
     [
       true,
       false,
@@ -86,11 +65,32 @@
     ],
     [
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

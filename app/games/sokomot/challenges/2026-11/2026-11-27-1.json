@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    2,
-    3
+    3,
+    1
   ],
   "walls": [
     [
@@ -98,68 +98,69 @@
     ],
     [
       5,
-      4
+      1
     ],
     [
-      1,
-      1
+      3,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "F",
       "pos": [
         2,
-        2
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "U",
       "pos": [
-        4,
-        2
+        1,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "I",
       "pos": [
         3,
-        3
+        2
       ]
     }
   ],
   "target": {
-    "word": "BRU",
+    "word": "FUI",
     "cells": [
       [
-        2,
+        1,
         1
       ],
       [
-        3,
+        1,
         2
       ],
       [
-        4,
-        3
+        2,
+        2
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 10,
   "solution": [
-    "up",
-    "down",
-    "right",
-    "up",
-    "up",
+    "left",
     "right",
     "right",
     "down",
-    "left"
+    "left",
+    "down",
+    "left",
+    "down",
+    "left",
+    "up"
   ],
-  "canonicalWord": "bru"
+  "canonicalWord": "fui"
 }

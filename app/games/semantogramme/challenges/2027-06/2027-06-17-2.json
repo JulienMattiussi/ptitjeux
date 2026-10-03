@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "football",
+      "invoquer",
+      "autel",
+      "chapelet",
+      "agenouillement"
+    ],
+    [
+      "lanterne",
+      "gouvernemental",
+      "méditation",
+      "sacrée",
+      "foi"
+    ],
+    [
+      "implorer",
+      "mosquée",
+      "voltige",
+      "collective",
+      "prier"
+    ],
+    [
+      "dieu",
+      "sanctuaire",
+      "côtière",
+      "momifier",
+      "estomac"
+    ],
+    [
+      "église",
+      "matinale",
+      "fervente",
+      "iris",
+      "route"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "prière",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

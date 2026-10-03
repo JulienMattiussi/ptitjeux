@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rénover",
+      "pont",
+      "toque",
+      "chevelure"
+    ],
+    [
+      "gastronomie",
+      "commis",
+      "recette",
+      "personnage"
+    ],
+    [
+      "urée",
+      "casserole",
+      "restaurant",
+      "temporel"
+    ],
+    [
+      "jazz",
+      "four",
+      "carreau",
+      "tablier"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "cuisinier",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

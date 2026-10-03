@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "silhouette",
-      "raffinement",
-      "vinaigre",
-      "magie",
-      "feuille"
+      "fermer",
+      "imperméable",
+      "aperçu",
+      "désert",
+      "continent"
     ],
     [
-      "vin",
-      "rouille",
-      "grimper",
-      "svelte",
-      "requête"
+      "mou",
+      "colosse",
+      "spatial",
+      "démesuré",
+      "gigantesque"
     ],
     [
-      "piquet",
-      "sciuridé",
-      "gazette",
-      "cheveu",
-      "gène"
+      "océan",
+      "pansement",
+      "agrandir",
+      "surdité",
+      "amplifier"
     ],
     [
-      "annuel",
-      "brodeuse",
-      "gracile",
-      "pellicule",
-      "affiner"
+      "poker",
+      "grandir",
+      "vaste",
+      "hépatite",
+      "colossal"
     ],
     [
-      "texte",
-      "lame",
-      "fin",
-      "mannequin",
-      "élancé"
+      "chocolat",
+      "galaxie",
+      "carillon",
+      "éternelle",
+      "munition"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    2,
     3,
-    4
+    3,
+    3,
+    1
   ],
   "colClues": [
     1,
-    1,
     3,
-    4,
-    3
+    2,
+    2,
+    4
   ],
-  "themeWord": "mince",
+  "themeWord": "immense",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
+      true,
       false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
+      true
+    ],
+    [
       false,
       true,
+      false,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 12

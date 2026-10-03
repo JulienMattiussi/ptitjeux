@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-13-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "tempo",
+      "trémousser",
+      "profonde",
+      "neige",
+      "large",
+      "manche"
+    ],
+    [
+      "mécanique",
+      "libraire",
+      "fourrure",
+      "corps-de-ballet",
+      "outil",
+      "ennemi"
+    ],
+    [
+      "narine",
+      "avancer",
+      "soulever",
+      "croiser",
+      "fragilité",
+      "aimanter"
+    ],
+    [
+      "bêche",
+      "enfant",
+      "bruit",
+      "terrassement",
+      "jeter",
+      "creuser"
+    ],
+    [
+      "écraser",
+      "traîner",
+      "pencher",
+      "canne",
+      "plate",
+      "rentrée"
+    ],
+    [
+      "laver",
+      "attaquant",
+      "plage",
+      "détaler",
+      "lame",
+      "jumelé"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    1,
+    5,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    2,
+    5,
+    2
+  ],
+  "themeWord": "pelle",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

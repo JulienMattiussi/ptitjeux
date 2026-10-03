@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "nageoire",
-      "museau",
-      "délivrance",
-      "mâchoire"
+      "garantir",
+      "crasse",
+      "voir",
+      "jupe"
     ],
     [
-      "dent",
-      "ouistiti",
-      "océan",
-      "assécher"
+      "succès",
+      "chaussette",
+      "écharpe",
+      "particule"
     ],
     [
-      "chasse",
-      "tumulte",
-      "droit",
-      "battre"
+      "serval",
+      "aurore",
+      "profusion",
+      "chemise"
     ],
     [
-      "acquérir",
-      "renne",
-      "aileron",
-      "cirque"
+      "robe",
+      "pull",
+      "soja",
+      "pantalon"
     ]
   ],
   "rowClues": [
-    3,
+    1,
     2,
     1,
-    1
+    3
   ],
   "colClues": [
-    3,
     1,
     2,
-    1
+    1,
+    3
   ],
-  "themeWord": "requin",
+  "themeWord": "vêtement",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true
     ],
     [
       true,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 7

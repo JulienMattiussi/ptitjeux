@@ -5,7 +5,7 @@
   "height": 6,
   "player": [
     4,
-    2
+    1
   ],
   "walls": [
     [
@@ -97,12 +97,12 @@
       4
     ],
     [
-      4,
-      1
+      3,
+      4
     ],
     [
-      3,
-      1
+      5,
+      3
     ]
   ],
   "ice": [],
@@ -112,29 +112,33 @@
       "letter": "N",
       "pos": [
         3,
-        2
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "E",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "O",
       "pos": [
         3,
-        4
+        3
       ]
     }
   ],
   "target": {
-    "word": "NUA",
+    "word": "NEO",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         2,
         2
@@ -142,10 +146,6 @@
       [
         2,
         3
-      ],
-      [
-        2,
-        4
       ]
     ]
   },
@@ -159,5 +159,5 @@
     "down",
     "left"
   ],
-  "canonicalWord": "nua"
+  "canonicalWord": "néo"
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "arroser",
-      "élagueur",
-      "aviron",
-      "vaccin",
-      "mèche",
-      "lecture"
+      "inonder",
+      "lagune",
+      "élégant",
+      "sifflet",
+      "tropical",
+      "aile"
     ],
     [
-      "aviaire",
-      "cheval",
-      "fièvre",
-      "montante",
-      "gnome",
-      "mort"
+      "oiseau",
+      "cou",
+      "patte",
+      "ressac",
+      "octave",
+      "tropique"
     ],
     [
-      "majestueux",
-      "tisonnier",
-      "frisson",
-      "porcine",
-      "laine",
-      "soigner"
+      "voler",
+      "sql",
+      "rose",
+      "pastille",
+      "paysage",
+      "marcher"
     ],
     [
-      "médecine",
-      "alité",
-      "fatigue",
-      "placebo",
-      "attraper",
-      "jongleur"
+      "mellitus",
+      "crevette",
+      "week-end",
+      "salsa",
+      "filet",
+      "main-tendue"
     ],
     [
-      "maux",
-      "moka",
-      "contagieuse",
-      "virus",
-      "crawl",
-      "digital"
+      "bec",
+      "antenne",
+      "sportive",
+      "naturel",
+      "règlement",
+      "fresque"
     ],
     [
-      "pandémie",
-      "rhume",
-      "saisonnière",
-      "courbature",
-      "épidémie",
-      "hôtel"
+      "intrépide",
+      "chant",
+      "menton",
+      "plumage",
+      "pêcher",
+      "grand"
     ]
   ],
   "rowClues": [
+    4,
+    4,
+    3,
     1,
-    2,
-    3,
-    3,
-    3,
-    5
+    1,
+    3
   ],
   "colClues": [
     3,
+    3,
+    3,
+    1,
     2,
-    5,
-    4,
-    2,
-    1
+    4
   ],
-  "themeWord": "grippe",
+  "themeWord": "flamant",
   "solution": [
     [
       false,
-      false,
-      false,
+      true,
       true,
       false,
-      false
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
     ],
     [
       true,
       false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       true
     ],
     [
       false,
       true,
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
       false,
       false
     ],
     [
       true,
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

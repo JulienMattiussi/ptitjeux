@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "pâte",
-      "pélagique",
-      "séduire",
-      "langue",
-      "féliciter",
-      "sandwich"
+      "oignon",
+      "potager",
+      "pochette",
+      "photosynthèse",
+      "fondue",
+      "compétition"
     ],
     [
-      "extrémité",
-      "conserve",
-      "compact",
-      "huile",
-      "refuge",
-      "plancton"
+      "tromper",
+      "doux",
+      "blanc",
+      "légume",
+      "potage",
+      "verglas"
     ],
     [
-      "oeil",
-      "déserter",
-      "foule",
-      "serrer",
-      "pêche",
-      "argenté"
+      "éjecter",
+      "épuisement",
+      "long",
+      "code",
+      "céleste",
+      "commerciale"
     ],
     [
-      "prison",
-      "velours",
-      "maroquinerie",
-      "tumulte",
-      "banquier",
-      "fumé"
+      "hurler",
+      "vichyssoise",
+      "mijoter",
+      "périlleux",
+      "intrigue",
+      "tamis"
     ],
     [
-      "petit",
-      "mer",
-      "apéritif",
-      "escargot",
-      "ouragan",
-      "banc"
+      "fibreux",
+      "octobre",
+      "jardin",
+      "hideux",
+      "aromate",
+      "vert"
     ],
     [
-      "rectitude",
-      "instituteur",
-      "marquer",
-      "poisson",
-      "algébrique",
-      "boîte"
+      "tarte",
+      "gratiner",
+      "hélice",
+      "émail",
+      "soupe",
+      "avant-bras"
     ]
   ],
   "rowClues": [
-    2,
-    3,
+    4,
     4,
     1,
+    2,
     4,
-    2
+    3
   ],
   "colClues": [
+    3,
+    4,
+    5,
     1,
-    3,
-    3,
-    3,
-    1,
-    5
+    4,
+    1
   ],
-  "themeWord": "sardine",
+  "themeWord": "poireau",
   "solution": [
     [
-      false,
+      true,
+      true,
       true,
       false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
       true,
       true,
-      false,
+      true,
       false
     ],
     [
       false,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true,
       true
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

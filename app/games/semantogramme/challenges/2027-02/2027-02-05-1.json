@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "océan",
+      "caramélisé",
+      "colonie",
+      "cachalot"
+    ],
+    [
+      "cétacé",
+      "plancton",
+      "glouton",
+      "égarer"
+    ],
+    [
+      "guérir",
+      "évent",
+      "fanon",
+      "migration"
+    ],
+    [
+      "raisonnement",
+      "chant",
+      "queue",
+      "mammifère"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "baleine",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

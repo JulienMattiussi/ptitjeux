@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "noeud",
-      "fibre",
-      "épais",
-      "arbre",
-      "pousser"
+      "lyrics",
+      "cracher",
+      "tenaille",
+      "caverne",
+      "sens"
     ],
     [
-      "air",
-      "bois",
-      "creux",
-      "poule",
-      "fendre"
+      "trésor",
+      "gueule",
+      "brûler",
+      "natation",
+      "autel"
     ],
     [
-      "abattre",
-      "rigide",
-      "sournois",
-      "mettre-à-jour",
-      "centenaire"
+      "aile",
+      "légendaire",
+      "battant",
+      "gastronomie",
+      "fainéant"
     ],
     [
-      "solo",
-      "vaincre",
-      "noueux",
-      "sève",
-      "moelleux"
+      "fourmi",
+      "vaillance",
+      "chevalier",
+      "lourdeur",
+      "gigantesque"
     ],
     [
-      "manque",
-      "branche",
-      "massif",
-      "cisailler",
-      "alléger"
+      "mythique",
+      "voler",
+      "règlement",
+      "gouvernement",
+      "majestueux"
     ]
   ],
   "rowClues": [
-    4,
-    3,
+    2,
     3,
     2,
-    2
-  ],
-  "colClues": [
-    2,
-    4,
-    3,
     2,
     3
   ],
-  "themeWord": "tronc",
+  "colClues": [
+    3,
+    4,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "dragon",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false
     ],
     [
-      false,
+      true,
       true,
       true,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

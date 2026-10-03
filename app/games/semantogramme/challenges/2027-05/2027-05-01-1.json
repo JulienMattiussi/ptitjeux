@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "profondeur",
+      "poids",
+      "étanche",
+      "lustre"
+    ],
+    [
+      "corail",
+      "épave",
+      "combinaison",
+      "décoration"
+    ],
+    [
+      "oxygène",
+      "buse",
+      "raisin",
+      "index"
+    ],
+    [
+      "témoin",
+      "tuba",
+      "fermenté",
+      "bouteille"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    1
+  ],
+  "themeWord": "plongée",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

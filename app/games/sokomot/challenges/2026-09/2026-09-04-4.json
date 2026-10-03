@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    1,
-    5
+    5,
+    3
   ],
   "walls": [
     [
@@ -374,90 +374,94 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "B",
       "pos": [
-        8,
-        2
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "T",
-      "pos": [
-        8,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "R",
-      "pos": [
-        8,
+        4,
         4
       ]
     },
     {
-      "id": "b4",
-      "letter": "I",
+      "id": "b2",
+      "letter": "E",
       "pos": [
         2,
+        7
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "N",
+      "pos": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "Z",
+      "pos": [
+        4,
         5
       ]
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "O",
       "pos": [
-        3,
-        6
+        5,
+        4
       ]
     },
     {
       "id": "b6",
-      "letter": "G",
+      "letter": "L",
       "pos": [
-        2,
+        7,
         7
       ]
     }
   ],
   "target": {
-    "word": "STRING",
+    "word": "BENZOL",
     "cells": [
       [
-        8,
-        2
+        1,
+        7
       ],
       [
-        8,
-        3
+        2,
+        7
       ],
       [
-        8,
-        4
+        3,
+        7
       ],
       [
-        8,
-        5
+        4,
+        7
       ],
       [
-        8,
-        6
+        5,
+        7
       ],
       [
-        8,
+        6,
         7
       ]
     ]
   },
-  "parMoves": 6,
+  "parMoves": 10,
   "solution": [
-    "right",
     "down",
-    "right",
     "left",
     "down",
-    "right"
+    "up",
+    "left",
+    "down",
+    "down",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "string"
+  "canonicalWord": "benzol"
 }

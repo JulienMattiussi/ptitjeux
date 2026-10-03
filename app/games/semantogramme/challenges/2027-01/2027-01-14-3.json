@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "bercement",
-      "ascenseur",
-      "bois",
-      "autobloquant",
-      "harmonica",
-      "meuble"
+      "parisien",
+      "feuilletage",
+      "séculaire",
+      "humble",
+      "lunaire",
+      "beurré"
     ],
     [
-      "longue",
-      "respecter",
-      "marsupial",
-      "progéniture",
-      "hercule",
-      "noyer"
+      "négatif",
+      "univers",
+      "criquet",
+      "manger",
+      "grâce",
+      "oasis"
     ],
     [
-      "dodeliner",
-      "dîner",
-      "gâchette",
-      "salle-à-manger",
-      "table",
-      "roulante"
+      "feuilleté",
+      "fourchette",
+      "farine",
+      "café",
+      "travée",
+      "poing"
     ],
     [
-      "box",
-      "sous-estimer",
-      "fréquent",
-      "décréter",
-      "subtil",
-      "pied"
+      "planche",
+      "rouler",
+      "pâte",
+      "doré",
+      "vaniteux",
+      "intensif"
     ],
     [
-      "cuisine",
-      "tabouret",
-      "baroque",
-      "ennemi",
-      "éternelle",
-      "dossier"
+      "sec",
+      "beurre",
+      "ambre",
+      "levure",
+      "faïence",
+      "boulanger"
     ],
     [
-      "paille",
-      "plastique",
-      "siège",
-      "noël",
-      "avouer",
-      "assise"
+      "orbe",
+      "plier",
+      "épuiser",
+      "fauconnerie",
+      "matin",
+      "cuire"
     ]
   ],
   "rowClues": [
-    2,
+    4,
     1,
     3,
-    1,
     3,
-    4
+    3,
+    3
   ],
   "colClues": [
-    3,
     2,
+    4,
     2,
-    1,
-    1,
-    5
+    4,
+    2,
+    3
   ],
-  "themeWord": "chaise",
+  "themeWord": "croissant",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true,
       false,
-      false,
-      true
+      false
     ],
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
       true
     ],
     [
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

@@ -5,103 +5,79 @@
   "height": 6,
   "words": [
     [
-      "rusé",
-      "verjus",
-      "glissade",
-      "canidé",
-      "caractériser",
-      "impondérable"
+      "trouer",
+      "reinette",
+      "guidon",
+      "dé",
+      "bénin",
+      "attraper"
     ],
     [
-      "voilé",
-      "discret",
-      "spatule",
-      "album",
-      "pompe",
-      "placebo"
+      "nez",
+      "janvier",
+      "congestion",
+      "plantigrade",
+      "froid",
+      "hiver"
     ],
     [
-      "store",
-      "queue",
-      "intelligent",
-      "goupil",
-      "pliable",
-      "malicieux"
+      "guérir",
+      "commun",
+      "fluvial",
+      "virus",
+      "congélateur",
+      "lacune"
     ],
     [
-      "lys",
-      "biographie",
-      "pomme",
-      "roux",
-      "trampoline",
-      "mettre-à-jour"
+      "chaude",
+      "gestationnel",
+      "rayon",
+      "soigner",
+      "gencive",
+      "fièvre"
     ],
     [
-      "fable",
-      "meunière",
-      "chasser",
-      "recyclage",
-      "terrier",
-      "maraudage"
+      "fémur",
+      "éternuement",
+      "star",
+      "mouchoir",
+      "enrhumé",
+      "banal"
     ],
     [
-      "auriculaire",
-      "organiste",
-      "collectif",
-      "flirt",
-      "agile",
-      "gibier"
+      "toux",
+      "contagieux",
+      "figuier",
+      "fatigant",
+      "fournil",
+      "sangria"
     ]
   ],
   "rowClues": [
     2,
-    1,
     4,
-    1,
-    4,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
-    2,
     3,
     2,
+    4,
     3
   ],
-  "themeWord": "renard",
+  "colClues": [
+    3,
+    3,
+    1,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "rhume",
   "solution": [
     [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      true,
-      false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
     ],
     [
       true,
@@ -112,13 +88,37 @@
       true
     ],
     [
+      true,
+      true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       false,
       true,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

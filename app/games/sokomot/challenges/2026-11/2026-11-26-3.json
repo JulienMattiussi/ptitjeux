@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    2
+    6,
+    1
   ],
   "walls": [
     [
@@ -133,9 +133,9 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "T",
       "pos": [
-        3,
+        5,
         4
       ]
     },
@@ -143,99 +143,96 @@
       "id": "b2",
       "letter": "A",
       "pos": [
-        5,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "C",
       "pos": [
         4,
-        2
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "O",
       "pos": [
-        2,
-        3
+        6,
+        2
       ]
     },
     {
       "id": "b5",
-      "letter": "S",
+      "letter": "T",
       "pos": [
-        6,
-        4
+        3,
+        1
       ]
     }
   ],
   "target": {
-    "word": "CANES",
+    "word": "TACOT",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
         3,
-        2
-      ],
-      [
-        4,
         3
       ],
       [
         4,
-        4
+        2
       ],
       [
         5,
-        4
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        1
       ]
     ]
   },
-  "parMoves": 37,
+  "parMoves": 34,
   "solution": [
+    "right",
+    "down",
     "left",
     "down",
     "down",
     "left",
-    "down",
-    "right",
-    "right",
-    "up",
-    "up",
-    "down",
-    "down",
-    "down",
-    "right",
-    "up",
-    "right",
-    "right",
-    "right",
+    "left",
     "up",
     "left",
     "up",
     "left",
-    "left",
+    "up",
     "right",
-    "up",
-    "up",
-    "left",
-    "down",
-    "left",
-    "up",
+    "right",
+    "right",
     "left",
     "left",
-    "down",
     "down",
     "down",
     "right",
+    "up",
+    "down",
+    "down",
+    "down",
+    "left",
+    "up",
+    "left",
+    "up",
+    "left",
+    "up",
     "right",
-    "up"
+    "right",
+    "up",
+    "right"
   ],
-  "canonicalWord": "canes"
+  "canonicalWord": "tacot"
 }

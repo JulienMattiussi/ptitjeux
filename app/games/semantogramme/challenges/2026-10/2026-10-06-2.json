@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "maroquinerie",
-      "tanner",
-      "achat",
-      "douceur",
-      "assouplir"
+      "précis",
+      "paraître",
+      "jour",
+      "payant",
+      "tactile"
     ],
     [
-      "ceinture",
-      "fougère",
-      "monstrueux",
-      "reins",
-      "gant"
+      "stade",
+      "hiver",
+      "annuel",
+      "aliment",
+      "nuit"
     ],
     [
-      "travailler",
-      "fourmilière",
-      "fonction",
-      "noble",
-      "couler"
+      "saison",
+      "télécharger",
+      "fêter",
+      "observer",
+      "été"
     ],
     [
-      "résistant",
-      "immense",
-      "vaciller",
-      "ballotter",
-      "génome"
+      "astronomique",
+      "caresser",
+      "trapu",
+      "frigo",
+      "décembre"
     ],
     [
-      "naturel",
-      "tanné",
-      "cirer",
-      "terrassement",
-      "vache"
+      "mélasse",
+      "cadre",
+      "lavoir",
+      "temps",
+      "symbolique"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    3,
+    4,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
     1,
+    3,
     1,
     4
   ],
-  "colClues": [
-    4,
-    2,
-    1,
-    1,
-    3
-  ],
-  "themeWord": "cuir",
+  "themeWord": "solstice",
   "solution": [
     [
       true,
+      false,
       true,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ],
     [
@@ -74,23 +88,9 @@
       false,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

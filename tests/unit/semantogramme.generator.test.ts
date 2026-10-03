@@ -4,7 +4,7 @@ import { generateSemantogrammeLevel } from '../../generators/semantogramme'
 
 describe('semantogramme/generator', () => {
   it.each([1, 2, 3, 4] as const)('niveau %s : grille carrée 3+i', (i) => {
-    const level = generateSemantogrammeLevel('2026-05-07', i)
+    const level = generateSemantogrammeLevel('2026-10-07', i)
     expect(level.width).toBe(3 + i)
     expect(level.height).toBe(3 + i)
     expect(level.words.length).toBe(level.height)
@@ -13,7 +13,7 @@ describe('semantogramme/generator', () => {
 
   it('rowClues et colClues sont cohérents avec solution', () => {
     for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateSemantogrammeLevel('2026-05-07', idx)
+      const level = generateSemantogrammeLevel('2026-10-07', idx)
       for (let y = 0; y < level.height; y++) {
         const expected = level.solution[y].filter(Boolean).length
         expect(level.rowClues[y]).toBe(expected)
@@ -28,7 +28,7 @@ describe('semantogramme/generator', () => {
 
   it('au moins une case « in » par ligne et par colonne', () => {
     for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateSemantogrammeLevel('2026-05-07', idx)
+      const level = generateSemantogrammeLevel('2026-10-07', idx)
       for (let y = 0; y < level.height; y++) {
         expect(level.solution[y].some(Boolean), `ligne ${y} sans IN`).toBe(true)
       }
@@ -42,7 +42,7 @@ describe('semantogramme/generator', () => {
 
   it('au moins une case « hors thème » par ligne (clue ≠ width)', () => {
     for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateSemantogrammeLevel('2026-05-07', idx)
+      const level = generateSemantogrammeLevel('2026-10-07', idx)
       for (let y = 0; y < level.height; y++) {
         expect(level.rowClues[y]).toBeLessThan(level.width)
       }
@@ -51,7 +51,7 @@ describe('semantogramme/generator', () => {
 
   it('appliquer la solution + thème déclenche victoire', () => {
     for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateSemantogrammeLevel('2026-05-07', idx)
+      const level = generateSemantogrammeLevel('2026-10-07', idx)
       let state = loadLevel(level)
       for (let y = 0; y < level.height; y++) {
         for (let x = 0; x < level.width; x++) {
@@ -65,8 +65,8 @@ describe('semantogramme/generator', () => {
   })
 
   it('génération déterministe', () => {
-    const a = generateSemantogrammeLevel('2026-05-07', 2)
-    const b = generateSemantogrammeLevel('2026-05-07', 2)
+    const a = generateSemantogrammeLevel('2026-10-07', 2)
+    const b = generateSemantogrammeLevel('2026-10-07', 2)
     expect(a.themeWord).toBe(b.themeWord)
     expect(a.solution).toEqual(b.solution)
   })

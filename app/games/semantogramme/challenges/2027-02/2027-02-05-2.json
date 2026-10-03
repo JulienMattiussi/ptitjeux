@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "smasher",
+      "hurler",
+      "rugissement",
+      "beugler",
+      "hurlement"
+    ],
+    [
+      "vocifération",
+      "tonitruer",
+      "proton",
+      "étagère",
+      "zodiacale"
+    ],
+    [
+      "récupérer",
+      "utopie",
+      "gueuler",
+      "colère",
+      "circulaire"
+    ],
+    [
+      "pacifique",
+      "brailler",
+      "biceps",
+      "rugir",
+      "tonnerre"
+    ],
+    [
+      "algue",
+      "mercredis",
+      "cri",
+      "jubiler",
+      "compte"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "crier",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

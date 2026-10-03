@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "envergure",
-      "clémentine",
-      "vitesse",
-      "nid"
+      "hydrogène",
+      "félicité",
+      "élément",
+      "molécule"
     ],
     [
-      "fortifier",
-      "obstruer",
-      "rapace",
-      "gronder"
+      "atome",
+      "gambette",
+      "cristal",
+      "colombin"
     ],
     [
-      "plume",
-      "royale",
-      "gloire",
-      "colonie"
+      "clé",
+      "oxygène",
+      "base",
+      "composé"
     ],
     [
-      "aiglon",
-      "précieuse",
-      "parution",
-      "aire"
+      "sel",
+      "pince",
+      "échelle",
+      "festive"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    1,
-    2,
-    2
+    3,
+    1
   ],
   "colClues": [
     3,
     1,
-    1,
+    3,
     2
   ],
-  "themeWord": "aigle",
+  "themeWord": "chimie",
   "solution": [
     [
       true,
       false,
-      false,
+      true,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
       false,
-      false
+      true,
+      true,
+      true
     ],
     [
       true,
       false,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

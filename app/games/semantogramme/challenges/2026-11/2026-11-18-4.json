@@ -5,120 +5,93 @@
   "height": 7,
   "words": [
     [
-      "doctrine",
-      "casquette",
-      "inculquer",
-      "spatule",
-      "maciunas",
-      "opinion",
-      "innovation"
+      "refuge",
+      "éocène",
+      "raisonner",
+      "occident",
+      "évasion",
+      "épaulette",
+      "logique"
     ],
     [
-      "écureuil",
-      "terrain",
-      "soutenir",
-      "rhizome",
-      "exposer",
-      "théâtrale",
-      "apogée"
+      "gaie",
+      "rationnel",
+      "aïeul",
+      "inopportun",
+      "congestion",
+      "voyage",
+      "tapis"
     ],
     [
-      "stylo",
-      "volcanisme",
-      "propulser",
-      "ténèbres",
-      "colonnade",
-      "enseigner",
-      "ligoter"
+      "résonner",
+      "fugué",
+      "mouvement",
+      "sorcière",
+      "développement",
+      "botticelli",
+      "antithèse"
     ],
     [
-      "éden",
-      "foi",
-      "yaourt",
-      "trait",
-      "culbute",
-      "arrêter",
-      "savant"
+      "synthèse",
+      "liturgie",
+      "matérialiste",
+      "prise",
+      "opposer",
+      "palabrer",
+      "noire"
     ],
     [
-      "visière",
-      "professeur",
-      "magistral",
-      "arc-en-ciel",
-      "défendre",
-      "docter",
-      "piocher"
+      "festival",
+      "essaim",
+      "anche",
+      "apéro",
+      "feuillet",
+      "contradiction",
+      "thèse"
     ],
     [
-      "expliquer",
-      "centre",
-      "proclamer",
-      "déclarer",
-      "doctoral",
-      "pâture",
-      "cryptique"
+      "spéculatif",
+      "humer",
+      "idéaliste",
+      "corail",
+      "hégel",
+      "philosophie",
+      "auditeur"
     ],
     [
-      "chardonnay",
-      "mathieu",
-      "bâtiment",
-      "estimer",
-      "sec",
-      "transmettre",
-      "électron"
+      "isolé",
+      "plénitude",
+      "penser",
+      "historique",
+      "maghreb",
+      "paella",
+      "argumenter"
     ]
   ],
   "rowClues": [
-    3,
     2,
     1,
+    3,
+    3,
     2,
     4,
-    4,
-    1
+    3
   ],
   "colClues": [
     2,
-    2,
-    4,
+    1,
+    5,
     1,
     3,
-    4,
-    1
+    2,
+    4
   ],
-  "themeWord": "professer",
+  "themeWord": "dialectique",
   "solution": [
     [
-      true,
-      false,
-      true,
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       false,
       false,
@@ -127,6 +100,42 @@
     [
       false,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       true,
@@ -134,23 +143,14 @@
       false
     ],
     [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       false,
       true,
-      false
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

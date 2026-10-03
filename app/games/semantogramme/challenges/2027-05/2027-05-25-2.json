@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-25-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "acidulé",
+      "sauter",
+      "bonhomme",
+      "mariner",
+      "rôtir"
+    ],
+    [
+      "projeter",
+      "plat",
+      "mijoter",
+      "casserole",
+      "cuisson"
+    ],
+    [
+      "feuillue",
+      "poêle",
+      "corps-de-ballet",
+      "griller",
+      "cuisine"
+    ],
+    [
+      "sauce",
+      "bouillir",
+      "feuilletage",
+      "noiraud",
+      "envier"
+    ],
+    [
+      "assaisonner",
+      "alourdir",
+      "fourneau",
+      "beau-frère",
+      "glousser"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    4,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "cuisiner",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

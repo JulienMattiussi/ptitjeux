@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "couleur",
+      "étoile",
+      "étendard",
+      "cathédrale"
+    ],
+    [
+      "tricolore",
+      "national",
+      "bannière",
+      "berge"
+    ],
+    [
+      "guépard",
+      "fanion",
+      "carrière",
+      "mât"
+    ],
+    [
+      "écusson",
+      "spécialiste",
+      "ennemi",
+      "oriflamme"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "drapeau",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

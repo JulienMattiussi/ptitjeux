@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "wagon",
-      "caresse",
-      "idolâtrer",
-      "poireau",
-      "amitié"
+      "s'affliger",
+      "temps",
+      "élytre",
+      "application",
+      "heure"
     ],
     [
-      "plein-air",
-      "abîme",
-      "auriculaire",
-      "romance",
-      "amour"
+      "bref",
+      "soupçon",
+      "compter",
+      "pendule",
+      "minute"
     ],
     [
-      "enseigne",
-      "cible",
-      "chérir",
-      "étreindre",
-      "coeur"
+      "fatiguer",
+      "horloge",
+      "précis",
+      "décompter",
+      "minuscule"
     ],
     [
-      "baiser",
-      "affection",
-      "embrasser",
-      "frigorifique",
-      "adorer"
+      "thai",
+      "chrono",
+      "pièce",
+      "canine",
+      "haltère"
     ],
     [
-      "apprécier",
-      "affectionner",
-      "safran",
-      "amoureux",
-      "prison"
+      "beat",
+      "voûtée",
+      "cadran",
+      "tic-tac",
+      "éclair"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    3,
     4,
+    4,
+    1,
     3
   ],
   "colClues": [
-    2,
+    1,
     3,
     3,
     3,
     4
   ],
-  "themeWord": "aimer",
+  "themeWord": "seconde",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       false,
       true
     ],
     [
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       true
     ],
     [
-      true,
-      true,
       false,
       true,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

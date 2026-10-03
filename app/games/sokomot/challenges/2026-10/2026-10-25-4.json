@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    5
+    3,
+    7
   ],
   "walls": [
     [
@@ -374,91 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "G",
+      "letter": "B",
       "pos": [
-        8,
-        2
+        1,
+        6
       ]
     },
     {
       "id": "b2",
-      "letter": "R",
+      "letter": "E",
       "pos": [
-        8,
-        3
+        2,
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "S",
       "pos": [
-        8,
-        4
+        3,
+        6
       ]
     },
     {
       "id": "b4",
-      "letter": "S",
+      "letter": "A",
       "pos": [
-        6,
-        5
+        4,
+        1
       ]
     },
     {
       "id": "b5",
-      "letter": "S",
+      "letter": "C",
       "pos": [
-        7,
-        6
+        5,
+        1
       ]
     },
     {
       "id": "b6",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        6,
-        7
+        7,
+        1
       ]
     }
   ],
   "target": {
-    "word": "GROSSI",
+    "word": "BESACE",
     "cells": [
       [
-        8,
-        2
+        1,
+        1
       ],
       [
-        8,
-        3
+        2,
+        1
       ],
       [
-        8,
-        4
+        3,
+        1
       ],
       [
-        8,
-        5
+        4,
+        1
       ],
       [
-        8,
-        6
+        5,
+        1
       ],
       [
-        8,
-        7
+        6,
+        1
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
-    "right",
-    "down",
-    "right",
+    "up",
     "left",
+    "up",
     "down",
+    "left",
+    "up",
     "right",
-    "right"
+    "up",
+    "left"
   ],
-  "canonicalWord": "grossi"
+  "canonicalWord": "besace"
 }

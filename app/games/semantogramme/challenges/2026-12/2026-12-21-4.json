@@ -5,118 +5,91 @@
   "height": 7,
   "words": [
     [
-      "carapace",
-      "engagé",
-      "écouvillon",
-      "particule",
-      "tuba",
-      "haranguer",
-      "théorique"
+      "accord",
+      "prime",
+      "tordre",
+      "tourner",
+      "sociologue",
+      "ancien",
+      "tacheté"
     ],
     [
-      "participer",
-      "zélé",
-      "arithmétique",
-      "exhumer",
-      "profond",
-      "colada",
-      "chapitre"
+      "évolution",
+      "fenaison",
+      "dinosaure",
+      "préhistoire",
+      "humide",
+      "fumer",
+      "tromperie"
     ],
     [
-      "fastueux",
-      "épicentre",
-      "flamme",
-      "monastique",
-      "engranger",
-      "défendre",
-      "quadratique"
+      "lointain",
+      "archéoptéryx",
+      "parpaing",
+      "ruisseau",
+      "fougère",
+      "nourriture",
+      "boulon"
     ],
     [
-      "longitude",
-      "étonnement",
-      "cognac",
-      "filleul",
-      "se réjouir",
-      "enthousiaste",
-      "géniteur"
+      "soucieux",
+      "brontosaure",
+      "précis",
+      "illusoire",
+      "cycadale",
+      "productif",
+      "extinction"
     ],
     [
-      "religion",
-      "raisonnement",
-      "fidèle",
-      "velours",
-      "derme",
-      "ardent",
-      "dévot"
+      "sédiment",
+      "taxonomie",
+      "géométrie",
+      "divine",
+      "aubergine",
+      "ère",
+      "retentissante"
     ],
     [
-      "soutenir",
-      "équateur",
-      "admirer",
-      "enrubanner",
-      "pratiquer",
-      "aimer",
-      "soigner"
+      "aligner",
+      "reptile",
+      "tropical",
+      "tyrannosaure",
+      "château",
+      "paléontologie",
+      "minimiser"
     ],
     [
-      "sincère",
-      "mammouth",
-      "liturgique",
-      "convaincu",
-      "tempéré",
-      "rocaille",
-      "intense"
+      "apéritif",
+      "mésozoïque",
+      "bannir",
+      "dégringoler",
+      "vendre",
+      "voir",
+      "fossile"
     ]
   ],
   "rowClues": [
     1,
-    2,
-    2,
-    1,
     4,
-    4,
-    3
-  ],
-  "colClues": [
     3,
-    2,
     3,
-    1,
     2,
     4,
     2
   ],
-  "themeWord": "fervent",
+  "colClues": [
+    3,
+    4,
+    2,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "jurassique",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       false,
@@ -128,29 +101,56 @@
       true,
       false,
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
       true
     ],
     [
       true,
       false,
-      true,
       false,
-      true,
+      false,
+      false,
       true,
       false
     ],
     [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
-      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 19
 }

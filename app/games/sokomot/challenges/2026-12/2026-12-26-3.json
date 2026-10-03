@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    4
+    5,
+    2
   ],
   "walls": [
     [
@@ -133,34 +133,34 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "H",
+      "letter": "G",
       "pos": [
-        2,
+        3,
         4
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "I",
       "pos": [
-        3,
-        3
+        4,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "G",
       "pos": [
         2,
-        3
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "U",
       "pos": [
         5,
-        3
+        4
       ]
     },
     {
@@ -173,58 +173,58 @@
     }
   ],
   "target": {
-    "word": "HATEE",
+    "word": "GIGUE",
     "cells": [
       [
-        1,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
         3,
-        1
+        3
       ],
       [
         4,
-        1
+        3
+      ],
+      [
+        4,
+        4
       ],
       [
         5,
-        1
+        5
+      ],
+      [
+        6,
+        4
       ]
     ]
   },
   "parMoves": 26,
   "solution": [
-    "up",
-    "down",
-    "right",
-    "up",
-    "up",
-    "down",
-    "down",
-    "right",
-    "up",
-    "up",
-    "left",
-    "left",
     "down",
     "down",
     "left",
     "down",
+    "down",
+    "left",
     "left",
     "up",
     "up",
     "right",
     "up",
-    "down",
-    "down",
+    "right",
     "right",
     "up",
-    "up"
+    "right",
+    "down",
+    "up",
+    "up",
+    "left",
+    "left",
+    "down",
+    "left",
+    "left",
+    "left",
+    "down",
+    "right"
   ],
-  "canonicalWord": "hâtée"
+  "canonicalWord": "gigue"
 }

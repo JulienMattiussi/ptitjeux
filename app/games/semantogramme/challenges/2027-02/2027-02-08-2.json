@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "malt",
+      "noire",
+      "facial",
+      "taches",
+      "cannelle"
+    ],
+    [
+      "jumeler",
+      "relique",
+      "écho",
+      "tempe",
+      "front"
+    ],
+    [
+      "figure",
+      "sourire",
+      "aiguisé",
+      "expression",
+      "portrait"
+    ],
+    [
+      "historique",
+      "bouche",
+      "trait",
+      "débattre",
+      "menton"
+    ],
+    [
+      "armer",
+      "brochette",
+      "vache",
+      "deuil",
+      "grimace"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "visage",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 11
+}

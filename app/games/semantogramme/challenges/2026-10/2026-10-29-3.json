@@ -5,110 +5,110 @@
   "height": 6,
   "words": [
     [
-      "aigreur",
-      "maladie",
-      "doberman",
-      "risque",
-      "piquer",
-      "volley"
+      "fruit",
+      "tagueur",
+      "remplir",
+      "commerciale",
+      "vendredi",
+      "magenta"
     ],
     [
-      "soif",
-      "épidémie",
-      "chronique",
-      "rotor",
-      "sucré",
-      "glycémie"
+      "champagne",
+      "élégante",
+      "achille",
+      "évasée",
+      "lever",
+      "défilé"
     ],
     [
-      "insuline",
-      "pancréas",
-      "hurlement",
-      "touristique",
-      "aérienne",
-      "obésité"
+      "pivotante",
+      "entendre",
+      "flûte",
+      "caravane",
+      "trinquer",
+      "paresser"
     ],
     [
-      "coudre",
-      "injecter",
-      "sucre",
-      "piqûre",
-      "lustrer",
-      "roucouler"
+      "bataille",
+      "noé",
+      "gala",
+      "effiler",
+      "ferveur",
+      "froid"
     ],
     [
-      "parc",
-      "gestationnel",
-      "grossir",
-      "panne",
-      "mellitus",
-      "urine"
+      "fer-forgé",
+      "spacieux",
+      "apéritif",
+      "glace",
+      "épicerie",
+      "sorbet"
     ],
     [
-      "mesurer",
-      "pauser",
-      "parodie",
-      "rosier",
-      "régime",
-      "final"
+      "vaisselle",
+      "fouir",
+      "rigoler",
+      "sueurs",
+      "pied",
+      "cristal"
     ]
   ],
   "rowClues": [
     2,
-    5,
+    4,
+    2,
+    1,
     3,
-    3,
-    3,
-    2
+    3
   ],
   "colClues": [
     3,
-    5,
-    2,
     1,
     4,
-    3
+    2,
+    3,
+    2
   ],
-  "themeWord": "diabète",
+  "themeWord": "coupe",
   "solution": [
     [
+      true,
       false,
       true,
       false,
       false,
-      true,
       false
     ],
     [
       true,
       true,
-      true,
       false,
       true,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
+      false,
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      false,
       false,
       false
     ],
     [
       false,
-      true,
-      false,
       false,
       true,
+      true,
+      false,
       true
     ],
     [
@@ -117,8 +117,8 @@
       false,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

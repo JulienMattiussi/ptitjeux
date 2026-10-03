@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "sargasse",
-      "varech",
-      "marée",
-      "battant"
+      "oncle",
+      "thermostat",
+      "neveu",
+      "nièce"
     ],
     [
-      "laminaire",
-      "commencer",
-      "verdoyant",
-      "brun"
+      "transport",
+      "grand-père",
+      "brunch",
+      "père"
     ],
     [
-      "dessert",
-      "écume",
-      "préparer",
-      "mer"
+      "logique",
+      "tante",
+      "frère",
+      "jongleur"
     ],
     [
-      "marin",
-      "besace",
-      "rocher",
-      "plancton"
+      "arroser",
+      "chicorée",
+      "soeur",
+      "grand-mère"
     ]
   ],
   "rowClues": [
     3,
     2,
     2,
-    3
+    2
   ],
   "colClues": [
+    1,
+    2,
     3,
-    2,
-    2,
     3
   ],
-  "themeWord": "algue",
+  "themeWord": "famille",
   "solution": [
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false
     ],
     [
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

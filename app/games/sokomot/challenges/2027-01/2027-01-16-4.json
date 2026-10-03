@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    7
+    4,
+    1
   ],
   "walls": [
     [
@@ -377,31 +377,31 @@
       "letter": "S",
       "pos": [
         2,
-        1
+        7
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "A",
       "pos": [
         4,
-        1
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "Q",
       "pos": [
         5,
-        1
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "D",
+      "letter": "U",
       "pos": [
         6,
-        6
+        7
       ]
     },
     {
@@ -409,58 +409,58 @@
       "letter": "A",
       "pos": [
         7,
-        5
+        7
       ]
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "I",
       "pos": [
-        8,
-        6
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "SIRDAR",
+    "word": "SAQUAI",
     "cells": [
       [
         3,
-        1
+        7
       ],
       [
         4,
-        1
+        7
       ],
       [
         5,
-        1
+        7
       ],
       [
         6,
-        1
+        7
       ],
       [
         7,
-        1
+        7
       ],
       [
         8,
-        1
+        7
       ]
     ]
   },
   "parMoves": 9,
   "solution": [
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
-    "right",
     "down",
     "right",
-    "up"
+    "down",
+    "left",
+    "down",
+    "right",
+    "up",
+    "right",
+    "down"
   ],
-  "canonicalWord": "sirdar"
+  "canonicalWord": "saquai"
 }

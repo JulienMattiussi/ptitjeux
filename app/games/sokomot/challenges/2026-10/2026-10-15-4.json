@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    3
+    3,
+    1
   ],
   "walls": [
     [
@@ -374,91 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "R",
       "pos": [
-        6,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "P",
-      "pos": [
-        7,
+        1,
         2
       ]
     },
     {
-      "id": "b3",
-      "letter": "U",
+      "id": "b2",
+      "letter": "E",
       "pos": [
-        6,
+        2,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "R",
+      "id": "b3",
+      "letter": "N",
       "pos": [
-        8,
-        4
+        3,
+        2
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "I",
+      "pos": [
+        4,
+        7
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        8,
-        5
+        5,
+        7
       ]
     },
     {
       "id": "b6",
       "letter": "Z",
       "pos": [
-        8,
-        6
+        7,
+        7
       ]
     }
   ],
   "target": {
-    "word": "EPUREZ",
+    "word": "RENIEZ",
     "cells": [
       [
-        8,
-        1
+        1,
+        7
       ],
       [
-        8,
-        2
+        2,
+        7
       ],
       [
-        8,
-        3
+        3,
+        7
       ],
       [
-        8,
-        4
+        4,
+        7
       ],
       [
-        8,
-        5
+        5,
+        7
       ],
       [
-        8,
-        6
+        6,
+        7
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
+    "down",
+    "left",
+    "down",
     "right",
-    "up",
-    "right",
+    "down",
     "left",
     "up",
-    "right",
-    "right"
+    "left",
+    "down"
   ],
-  "canonicalWord": "épurez"
+  "canonicalWord": "reniez"
 }

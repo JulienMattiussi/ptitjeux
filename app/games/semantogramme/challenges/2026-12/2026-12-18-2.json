@@ -5,73 +5,59 @@
   "height": 5,
   "words": [
     [
-      "sommet",
-      "rival",
-      "ramer",
-      "pygmée",
-      "figure"
+      "avocat",
+      "décret",
+      "civile",
+      "parlement",
+      "ovale"
     ],
     [
-      "paresseux",
-      "collecter",
-      "rectangle",
-      "consoler",
-      "plane"
+      "républicaine",
+      "macaque",
+      "narrateur",
+      "constitutionnelle",
+      "pénale"
     ],
     [
-      "globule",
-      "cercle",
-      "tracer",
-      "losange",
-      "trampoline"
+      "annulaire",
+      "prolonger",
+      "appliquer",
+      "règlement",
+      "poltron"
     ],
     [
-      "côté",
-      "carré",
-      "analytique",
-      "agriculture",
-      "précise"
+      "article",
+      "embout",
+      "absorbant",
+      "justice",
+      "voter"
     ],
     [
-      "triangle",
-      "mesurer",
-      "flûte",
-      "dessiner",
-      "mathématique"
+      "tribunal",
+      "orgueil",
+      "fillette",
+      "mythologie",
+      "légale"
     ]
   ],
   "rowClues": [
-    2,
+    4,
+    3,
     2,
     3,
-    4,
-    4
+    2
   ],
   "colClues": [
-    3,
-    3,
-    3,
+    4,
+    1,
     2,
-    4
+    4,
+    3
   ],
-  "themeWord": "géométrie",
+  "themeWord": "loi",
   "solution": [
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
       true,
@@ -79,18 +65,32 @@
     ],
     [
       true,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
+      false,
+      true,
       true
     ],
     [
       true,
-      true,
       false,
-      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

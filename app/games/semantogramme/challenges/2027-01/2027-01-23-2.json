@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "losange",
-      "décret",
-      "mandat",
-      "républicain",
-      "framboise"
+      "samedi",
+      "cuvée",
+      "plat",
+      "velours",
+      "lustrer"
     ],
     [
-      "valve",
-      "sapin",
-      "rétro",
-      "asiatique",
-      "élire"
+      "parquet",
+      "lisser",
+      "multiple",
+      "cher",
+      "maléfique"
     ],
     [
-      "gouverner",
-      "salon",
-      "ligament",
-      "projecteur",
-      "national"
+      "plastique",
+      "eucalyptus",
+      "marbre",
+      "uni",
+      "oscillation"
     ],
     [
-      "entendre",
-      "discours",
-      "gouvernement",
-      "cartes",
-      "élu"
+      "orchestre",
+      "verre",
+      "miroir",
+      "plan",
+      "porcelaine"
     ],
     [
-      "présider",
-      "indépendance",
-      "chef",
-      "évent",
-      "temps"
+      "ministre",
+      "cendre",
+      "satin",
+      "polir",
+      "glisser"
     ]
   ],
   "rowClues": [
     3,
-    1,
     2,
     3,
-    2
+    4,
+    3
   ],
   "colClues": [
     2,
     2,
-    3,
-    1,
+    4,
+    4,
     3
   ],
-  "themeWord": "président",
+  "themeWord": "lisse",
   "solution": [
     [
       false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
+      true,
+      true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

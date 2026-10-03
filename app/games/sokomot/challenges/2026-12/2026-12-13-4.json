@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    7
+    1
   ],
   "walls": [
     [
@@ -374,93 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "B",
       "pos": [
         2,
-        1
+        7
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         4,
-        6
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "R",
       "pos": [
         5,
-        5
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "D",
       "pos": [
         6,
-        1
+        7
       ]
     },
     {
       "id": "b5",
-      "letter": "R",
+      "letter": "E",
       "pos": [
         7,
-        1
+        7
       ]
     },
     {
       "id": "b6",
-      "letter": "D",
+      "letter": "R",
       "pos": [
         5,
-        6
+        2
       ]
     }
   ],
   "target": {
-    "word": "TETARD",
+    "word": "BORDER",
     "cells": [
       [
         3,
-        1
+        7
       ],
       [
         4,
-        1
+        7
       ],
       [
         5,
-        1
+        7
       ],
       [
         6,
-        1
+        7
       ],
       [
         7,
-        1
+        7
       ],
       [
         8,
-        1
+        7
       ]
     ]
   },
   "parMoves": 9,
   "solution": [
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
-    "right",
     "down",
     "right",
-    "up"
+    "down",
+    "left",
+    "down",
+    "right",
+    "up",
+    "right",
+    "down"
   ],
-  "canonicalWord": "têtard"
+  "canonicalWord": "border"
 }

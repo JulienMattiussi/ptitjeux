@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    1
+    2,
+    4
   ],
   "walls": [
     [
@@ -97,35 +97,35 @@
       4
     ],
     [
-      5,
+      4,
       1
     ],
     [
-      4,
-      1
+      1,
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "P",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b2",
       "letter": "U",
       "pos": [
-        2,
-        1
+        4,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "B",
+      "letter": "S",
       "pos": [
         4,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "TUB",
+    "word": "PUS",
     "cells": [
       [
         2,
@@ -141,31 +141,26 @@
       ],
       [
         3,
-        1
+        2
       ],
       [
-        4,
-        2
+        3,
+        3
       ]
     ]
   },
-  "parMoves": 15,
+  "parMoves": 10,
   "solution": [
+    "up",
+    "down",
     "right",
-    "down",
-    "down",
-    "right",
-    "down",
     "right",
     "right",
     "up",
-    "up",
     "left",
-    "left",
-    "down",
-    "down",
     "right",
-    "up"
+    "up",
+    "left"
   ],
-  "canonicalWord": "tub"
+  "canonicalWord": "pus"
 }

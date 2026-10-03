@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-26-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "discrète",
+      "pâtissier",
+      "précipice",
+      "armer",
+      "clafoutis",
+      "gamin"
+    ],
+    [
+      "queue",
+      "soja",
+      "volée",
+      "tarte",
+      "galaxie",
+      "cueillette"
+    ],
+    [
+      "jus",
+      "manigancer",
+      "morigéner",
+      "pneu",
+      "gaufrier",
+      "bolet"
+    ],
+    [
+      "séché",
+      "émail",
+      "pleureur",
+      "noyau",
+      "lésiner",
+      "dé"
+    ],
+    [
+      "compote",
+      "rouge",
+      "final",
+      "fruit",
+      "beignet",
+      "couronner"
+    ],
+    [
+      "genou",
+      "sucrée",
+      "griotte",
+      "cerisier",
+      "honnêteté",
+      "rose"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    1,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "cerise",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

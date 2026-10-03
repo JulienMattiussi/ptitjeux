@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    5
+    5,
+    4
   ],
   "walls": [
     [
@@ -133,95 +133,101 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "L",
       "pos": [
-        3,
+        2,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "I",
       "pos": [
-        6,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "V",
       "pos": [
-        3,
+        5,
         3
       ]
     },
     {
       "id": "b4",
-      "letter": "G",
+      "letter": "R",
       "pos": [
-        5,
+        4,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        4,
+        3,
         5
       ]
     }
   ],
   "target": {
-    "word": "RANGE",
+    "word": "LIVRA",
     "cells": [
       [
-        3,
-        1
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
+        2,
         3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
       ],
       [
         5,
-        3
-      ],
-      [
-        6,
-        4
+        6
       ]
     ]
   },
-  "parMoves": 23,
+  "parMoves": 29,
   "solution": [
+    "right",
+    "up",
+    "left",
+    "left",
+    "up",
+    "left",
     "down",
     "right",
+    "down",
+    "left",
+    "down",
+    "left",
+    "left",
+    "up",
     "up",
     "right",
+    "left",
+    "up",
     "up",
     "right",
-    "up",
-    "right",
-    "up",
-    "left",
-    "left",
-    "up",
-    "left",
-    "left",
+    "down",
     "left",
     "down",
     "down",
     "right",
-    "up",
     "down",
     "down",
     "right",
     "right"
   ],
-  "canonicalWord": "range"
+  "canonicalWord": "livra"
 }

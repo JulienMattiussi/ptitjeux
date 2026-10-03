@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    2
+    4,
+    7
   ],
   "walls": [
     [
@@ -374,94 +374,93 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "G",
       "pos": [
-        4,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "V",
+      "letter": "R",
       "pos": [
-        2,
-        7
+        4,
+        6
       ]
     },
     {
       "id": "b3",
-      "letter": "I",
+      "letter": "E",
       "pos": [
-        3,
-        7
+        5,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "D",
+      "letter": "G",
       "pos": [
-        4,
-        4
+        6,
+        1
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        5,
-        3
+        7,
+        1
       ]
     },
     {
       "id": "b6",
       "letter": "S",
       "pos": [
-        7,
-        7
+        5,
+        6
       ]
     }
   ],
   "target": {
-    "word": "AVIDES",
+    "word": "GREGES",
     "cells": [
       [
-        1,
-        7
-      ],
-      [
-        2,
-        7
-      ],
-      [
         3,
-        7
+        1
       ],
       [
         4,
-        7
+        1
       ],
       [
         5,
-        7
+        1
       ],
       [
         6,
-        7
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
-    "down",
-    "left",
-    "down",
+    "up",
+    "right",
     "up",
     "left",
-    "down",
-    "down",
+    "up",
     "right",
     "down",
-    "left"
+    "right",
+    "up"
   ],
-  "canonicalWord": "avides"
+  "canonicalWord": "grèges"
 }

@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "théière",
-      "acacia",
-      "majestueux",
-      "fiable",
-      "couronne"
+      "transpiration",
+      "éponge",
+      "résistant",
+      "mouiller",
+      "spongieux"
     ],
     [
-      "stéthoscope",
-      "bar",
-      "trône",
-      "roi",
-      "servir"
+      "humidifié",
+      "ouïe",
+      "cave",
+      "occupé",
+      "serpillière"
     ],
     [
-      "somptueux",
-      "établi",
-      "lueur",
-      "ambulance",
-      "régner"
+      "épier",
+      "marais",
+      "médecin",
+      "pluie",
+      "extension"
     ],
     [
-      "monumental",
-      "salle",
-      "opulent",
-      "patella",
-      "couloir"
+      "ictère",
+      "extase",
+      "moite",
+      "mixte",
+      "rosée"
     ],
     [
-      "fastoyer",
-      "sévir",
-      "prunier",
-      "or",
-      "royal"
+      "mousson",
+      "mouillé",
+      "recourbé",
+      "humecter",
+      "imbiber"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
+    4,
     3,
-    3
+    2,
+    2,
+    4
   ],
   "colClues": [
     3,
-    1,
     3,
     2,
-    3
+    3,
+    4
   ],
-  "themeWord": "palais",
+  "themeWord": "humide",
   "solution": [
     [
+      true,
+      true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       true,
       false,
@@ -65,32 +72,25 @@
     ],
     [
       false,
-      false,
       true,
+      false,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       true
     ],
     [
       true,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

@@ -133,67 +133,67 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "B",
       "pos": [
-        2,
+        4,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "E",
       "pos": [
-        5,
-        2
+        6,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "U",
       "pos": [
-        4,
-        3
+        3,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "R",
       "pos": [
-        6,
-        3
+        4,
+        2
       ]
     },
     {
       "id": "b5",
-      "letter": "L",
+      "letter": "S",
       "pos": [
         5,
-        5
+        4
       ]
     }
   ],
   "target": {
-    "word": "FOCAL",
+    "word": "BEURS",
     "cells": [
-      [
-        3,
-        3
-      ],
       [
         4,
         2
       ],
       [
         5,
-        1
+        3
       ],
       [
-        6,
-        2
+        5,
+        4
       ],
       [
         6,
         3
+      ],
+      [
+        6,
+        4
       ]
     ]
   },
@@ -201,35 +201,35 @@
   "solution": [
     "right",
     "up",
+    "left",
+    "down",
+    "down",
+    "left",
+    "left",
     "up",
+    "right",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "up",
+    "up",
+    "right",
+    "right",
+    "up",
+    "right",
+    "down",
+    "left",
     "left",
     "left",
     "down",
     "down",
     "right",
-    "up",
-    "left",
-    "left",
-    "down",
-    "down",
-    "right",
-    "down",
-    "right",
-    "up",
-    "up",
-    "left",
-    "left",
-    "left",
-    "up",
-    "up",
-    "left",
-    "left",
-    "down",
-    "right",
-    "up",
-    "up",
-    "right",
-    "right"
+    "up"
   ],
-  "canonicalWord": "focal"
+  "canonicalWord": "beurs"
 }

@@ -5,105 +5,114 @@
   "height": 7,
   "words": [
     [
-      "inapte",
-      "potage",
-      "litée",
-      "métamorphique",
-      "extraire",
-      "scintiller",
-      "quiche"
+      "couronner",
+      "médicis",
+      "présage",
+      "classique",
+      "hisser",
+      "fenaison",
+      "raconter"
     ],
     [
-      "bleu",
-      "noir",
-      "feuillage",
-      "argileux",
-      "foliation",
-      "massepain",
-      "micacée"
+      "commémoration",
+      "monumental",
+      "sculpture",
+      "grec",
+      "titanesque",
+      "verjus",
+      "triangle"
     ],
     [
-      "lit",
-      "jointure",
-      "ruse",
-      "cristalline",
-      "ornement",
-      "crète",
-      "balzac"
+      "guider",
+      "rénover",
+      "soulages",
+      "glaçon",
+      "savane",
+      "majestueux",
+      "élever"
     ],
     [
-      "feuillet",
-      "tranchée",
-      "pantalon",
-      "photo",
-      "diriger",
-      "parent",
-      "creuser"
+      "architecture",
+      "libellule",
+      "sumo",
+      "temple",
+      "brune",
+      "arbalète",
+      "redresser"
     ],
     [
-      "descendance",
-      "discrète",
-      "transcender",
-      "fournisseur",
-      "gris",
-      "maçonner",
-      "écimer"
+      "usité",
+      "abstrus",
+      "châtaigne",
+      "brûlure",
+      "flanquer",
+      "antique",
+      "rétroviseur"
     ],
     [
-      "siphon",
-      "procès",
-      "sédimentaire",
-      "définir",
-      "tailler",
-      "roche",
-      "défenseur"
+      "canada",
+      "puma",
+      "mécanique",
+      "légale",
+      "halley",
+      "orner",
+      "noble"
     ],
     [
-      "syrah",
-      "garage",
-      "fendre",
-      "lugubre",
-      "ardoisier",
-      "familiale",
-      "cliver"
+      "voyance",
+      "pignon",
+      "concorde",
+      "debord",
+      "corniche",
+      "alambic",
+      "infarctus"
     ]
   ],
   "rowClues": [
-    3,
-    6,
+    2,
+    4,
+    2,
     2,
     1,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    3,
     1,
     3,
     3
   ],
-  "colClues": [
-    3,
-    1,
-    4,
-    3,
-    5,
-    1,
-    2
-  ],
-  "themeWord": "schiste",
+  "themeWord": "fronton",
   "solution": [
     [
+      true,
       false,
       false,
       true,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
       true,
       true,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
       true
     ],
     [
@@ -116,41 +125,32 @@
       false
     ],
     [
-      true,
       false,
       false,
       false,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
       true,
       false
     ],
     [
       false,
       false,
-      true,
+      false,
+      false,
       false,
       true,
-      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

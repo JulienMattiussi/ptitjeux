@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "soyeux",
+      "frapper",
+      "porter",
+      "nourrir",
+      "doudou"
+    ],
+    [
+      "théière",
+      "poupon",
+      "téter",
+      "enfant",
+      "allaiter"
+    ],
+    [
+      "biberon",
+      "vanille",
+      "clocher",
+      "soldes",
+      "sillon"
+    ],
+    [
+      "pleurer",
+      "téfal",
+      "tétine",
+      "berceau",
+      "naître"
+    ],
+    [
+      "côtier",
+      "nouveau-né",
+      "nourrisson",
+      "fatigue",
+      "minuscule"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "bébé",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

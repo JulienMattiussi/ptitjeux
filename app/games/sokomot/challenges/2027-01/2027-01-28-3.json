@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    2,
-    1
+    3,
+    4
   ],
   "walls": [
     [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "L",
       "pos": [
         3,
         2
@@ -141,39 +141,39 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "Y",
       "pos": [
-        3,
-        3
+        2,
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "S",
       "pos": [
-        2,
-        2
+        4,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "C",
+      "letter": "E",
       "pos": [
-        4,
+        5,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        5,
-        3
+        3,
+        5
       ]
     }
   ],
   "target": {
-    "word": "BERCA",
+    "word": "LYSEE",
     "cells": [
       [
         1,
@@ -185,53 +185,44 @@
       ],
       [
         2,
+        4
+      ],
+      [
+        3,
         5
       ],
       [
         3,
         6
-      ],
-      [
-        4,
-        5
       ]
     ]
   },
-  "parMoves": 33,
+  "parMoves": 24,
   "solution": [
-    "down",
-    "down",
-    "down",
-    "up",
-    "up",
-    "up",
-    "right",
-    "right",
-    "down",
     "left",
+    "up",
+    "up",
+    "up",
     "right",
-    "right",
-    "down",
     "down",
     "right",
     "down",
     "left",
-    "up",
     "left",
-    "up",
-    "left",
-    "up",
-    "left",
-    "up",
-    "left",
-    "down",
     "right",
-    "down",
+    "right",
     "right",
     "down",
     "down",
+    "right",
+    "down",
+    "left",
+    "left",
     "up",
+    "right",
+    "up",
+    "left",
     "left"
   ],
-  "canonicalWord": "berça"
+  "canonicalWord": "lysée"
 }

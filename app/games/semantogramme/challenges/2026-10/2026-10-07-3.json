@@ -5,83 +5,75 @@
   "height": 6,
   "words": [
     [
-      "mou",
-      "sucre",
-      "cabinet",
-      "préparer",
-      "historique",
-      "plectre"
+      "abîme",
+      "descente",
+      "rabaisser",
+      "grande",
+      "détecter",
+      "pluie"
     ],
     [
-      "orient",
-      "oasis",
-      "noyau",
-      "écriture",
-      "coccinelle",
-      "varech"
+      "pente",
+      "arche",
+      "verni",
+      "baisser",
+      "abaisser",
+      "parachute"
     ],
     [
-      "collant",
-      "sec",
-      "monologue",
-      "apéritif",
-      "folklorique",
-      "hiver"
+      "langue",
+      "glissade",
+      "capucin",
+      "escalier",
+      "constitution",
+      "ascenseur"
     ],
     [
-      "effacé",
-      "caramel",
-      "collage",
-      "leash",
-      "compote",
-      "produire"
+      "capituler",
+      "cerne",
+      "caténaire",
+      "jouer",
+      "toboggan",
+      "choir"
     ],
     [
-      "confortable",
-      "pâtisserie",
-      "pourfendre",
-      "boutonnière",
-      "pain",
-      "fruit"
+      "morue",
+      "pastille",
+      "précipice",
+      "orbitale",
+      "consumer",
+      "clé"
     ],
     [
-      "tunisie",
-      "serpent",
-      "noël",
-      "quadrilatère",
-      "cueillette",
-      "resplendissant"
+      "rougir",
+      "vespéral",
+      "plonger",
+      "chauffeur",
+      "embarquer",
+      "réception"
     ]
   ],
   "rowClues": [
-    2,
     3,
+    4,
+    3,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
     3,
     2,
     2,
     3
   ],
-  "colClues": [
-    4,
-    5,
-    2,
-    1,
-    2,
-    1
-  ],
-  "themeWord": "datte",
+  "themeWord": "descendre",
   "solution": [
     [
       true,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
       false,
@@ -89,36 +81,44 @@
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
-      false,
-      false
+      true,
+      true
     ],
     [
       false,
       true,
       false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       false,
       true
     ],
     [
+      false,
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

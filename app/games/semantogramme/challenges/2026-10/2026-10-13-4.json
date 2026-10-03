@@ -5,74 +5,74 @@
   "height": 7,
   "words": [
     [
-      "rouge",
-      "étiré",
-      "massette",
-      "vaste",
-      "instantané",
-      "saumurer",
-      "longue"
+      "feuille",
+      "gratin",
+      "dendrologue",
+      "mars",
+      "tronc",
+      "portefeuille",
+      "inauguration"
     ],
     [
-      "régate",
-      "phénomène",
-      "coloré",
-      "svelte",
-      "paris",
-      "ondulation",
-      "tir"
+      "identification",
+      "rotation",
+      "forêt",
+      "corsaire",
+      "ordonnance",
+      "arbre",
+      "descriptive"
     ],
     [
-      "pissarro",
-      "sens",
-      "mouvement",
-      "évoquer",
-      "poing",
-      "degas",
-      "intelligence"
+      "mairie",
+      "imaginer",
+      "savante",
+      "parental",
+      "gestionnaire",
+      "honte",
+      "dollar"
     ],
     [
-      "cueilleur",
-      "renoir",
-      "équateur",
-      "oeufrier",
-      "théière",
-      "filial",
-      "flou"
+      "char",
+      "chagrin",
+      "cataloguer",
+      "accoudoir",
+      "forestière",
+      "observer",
+      "cinsault"
     ],
     [
-      "monet",
-      "pandémie",
-      "peinture",
-      "chartreux",
-      "crépitante",
-      "esquisse",
-      "son"
+      "mesurer",
+      "doctorat",
+      "inspecter",
+      "décompression",
+      "datation",
+      "cerne",
+      "prunier"
     ],
     [
-      "touche",
-      "warhol",
-      "matinal",
-      "lumière",
-      "négoce",
-      "vestige",
-      "réalité"
+      "chenille",
+      "systématique",
+      "lion",
+      "spatule",
+      "tresse",
+      "écorce",
+      "armé"
     ],
     [
-      "bureau",
-      "religieuse",
-      "morisot",
-      "réplique",
-      "sichuan",
-      "téter",
-      "impression"
+      "malin",
+      "obésité",
+      "corsé",
+      "science",
+      "menuiserie",
+      "spécialisée",
+      "parenté"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
-    2,
+    4,
+    1,
+    3,
     3,
     2,
     2
@@ -82,23 +82,14 @@
     1,
     4,
     1,
-    2,
-    2,
-    2
+    3,
+    5,
+    1
   ],
-  "themeWord": "impressionnisme",
+  "themeWord": "dendrologie",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -113,31 +104,13 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
       true
     ],
     [
-      true,
-      false,
-      true,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
       false,
-      false,
-      true,
       false,
       false,
       false
@@ -147,10 +120,37 @@
       false,
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
-      true
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

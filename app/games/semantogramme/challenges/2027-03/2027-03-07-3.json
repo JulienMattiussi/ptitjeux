@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-07-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "faïence",
+      "ninja",
+      "présenter",
+      "rond",
+      "manger",
+      "service"
+    ],
+    [
+      "apprendre",
+      "porcelaine",
+      "décor",
+      "cabaret",
+      "duel",
+      "grange"
+    ],
+    [
+      "cloche",
+      "agaric",
+      "hiéroglyphe",
+      "fragile",
+      "peloton",
+      "vaisselle"
+    ],
+    [
+      "tergiverser",
+      "cuisine",
+      "pédoncule",
+      "plat-de-service",
+      "malveillance",
+      "graphisme"
+    ],
+    [
+      "plantule",
+      "grimper",
+      "table",
+      "poser",
+      "dessert",
+      "design"
+    ],
+    [
+      "creuse",
+      "puissance",
+      "plat",
+      "carillon",
+      "bas",
+      "jumeau"
+    ]
+  ],
+  "rowClues": [
+    5,
+    2,
+    2,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "assiette",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

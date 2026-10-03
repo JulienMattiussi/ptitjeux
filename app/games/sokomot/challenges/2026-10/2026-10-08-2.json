@@ -119,12 +119,16 @@
       2
     ],
     [
+      4,
+      2
+    ],
+    [
       5,
       3
     ],
     [
       6,
-      2
+      3
     ]
   ],
   "blocks": [
@@ -138,15 +142,15 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "O",
       "pos": [
-        2,
-        2
+        4,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "S",
       "pos": [
         5,
         4
@@ -154,15 +158,15 @@
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         6,
-        3
+        4
       ]
     }
   ],
   "target": {
-    "word": "PART",
+    "word": "POSE",
     "cells": [
       [
         3,
@@ -170,7 +174,7 @@
       ],
       [
         4,
-        2
+        1
       ],
       [
         5,
@@ -178,26 +182,23 @@
       ],
       [
         6,
-        1
+        2
       ]
     ]
   },
-  "parMoves": 14,
+  "parMoves": 11,
   "solution": [
     "up",
-    "left",
-    "left",
-    "up",
-    "right",
-    "right",
     "down",
-    "down",
-    "down",
-    "right",
     "right",
     "up",
+    "down",
+    "down",
+    "right",
+    "up",
+    "down",
     "right",
     "up"
   ],
-  "canonicalWord": "part"
+  "canonicalWord": "pose"
 }

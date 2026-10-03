@@ -5,55 +5,49 @@
   "height": 4,
   "words": [
     [
-      "foudre",
-      "bambin",
-      "vent",
-      "pulsation"
+      "orgue",
+      "caricature",
+      "tir",
+      "bénitier"
     ],
     [
-      "détonation",
-      "rougeur",
-      "illumination",
-      "fille"
+      "cuisson",
+      "confessionnal",
+      "cierge",
+      "nef"
     ],
     [
-      "or",
-      "averse",
-      "tempête",
-      "éclair"
+      "prêtre",
+      "hélice",
+      "cercueil",
+      "autel"
     ],
     [
-      "rafale",
-      "tonnerre",
-      "sagaie",
-      "nuage"
+      "fidèle",
+      "jais",
+      "vitrail",
+      "haillon"
     ]
   ],
   "rowClues": [
     2,
-    2,
     3,
-    3
+    2,
+    2
   ],
   "colClues": [
     3,
+    1,
     2,
-    3,
-    2
+    3
   ],
-  "themeWord": "orage",
+  "themeWord": "église",
   "solution": [
     [
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false
+      true
     ],
     [
       false,
@@ -63,10 +57,16 @@
     ],
     [
       true,
-      true,
+      false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

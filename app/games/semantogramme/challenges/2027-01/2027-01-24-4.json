@@ -5,120 +5,93 @@
   "height": 7,
   "words": [
     [
-      "callosité",
-      "égarement",
-      "art",
-      "malevitch",
-      "forme",
-      "ligne",
-      "franchise"
-    ],
-    [
-      "rothko",
-      "radioactif",
-      "redon",
-      "mouvement",
-      "mondrian",
-      "kandinsky",
-      "led"
-    ],
-    [
-      "hexagonal",
-      "savant",
-      "emporté",
-      "lyrique",
-      "épinard",
-      "paliers",
-      "cérébral"
-    ],
-    [
-      "meute",
-      "bondir",
-      "maléfique",
-      "intrus",
-      "pur",
-      "prisme",
-      "grenache"
-    ],
-    [
-      "tache",
+      "sourdine",
+      "anthropique",
       "abstraction",
-      "simplifier",
-      "éperon",
-      "port",
-      "sourire",
-      "spirituel"
+      "humer",
+      "lyrique",
+      "gaieté",
+      "adapté"
     ],
     [
-      "non-figuratif",
-      "transcender",
-      "deviner",
-      "transmigrer",
-      "messe",
-      "pollock",
-      "doctoral"
+      "spacieux",
+      "delaunay",
+      "récolté",
+      "orchestre",
+      "swing",
+      "cosmique",
+      "couvercle"
     ],
     [
-      "doigt",
-      "expressif",
-      "épurer",
+      "mythologique",
+      "trouillard",
+      "pénétrer",
+      "art",
+      "bricoler",
+      "musical",
+      "voile"
+    ],
+    [
+      "kupka",
+      "température",
+      "vibrant",
+      "rythme",
+      "lumière",
+      "cymbale",
+      "cinétique"
+    ],
+    [
+      "mouvement",
+      "discourir",
+      "mesquinerie",
+      "immortelle",
+      "conservateur",
+      "dynamique",
+      "fourche"
+    ],
+    [
+      "archipel",
+      "reprocher",
+      "malpropre",
+      "lundi",
       "couleur",
-      "spirituelle",
-      "rangement",
-      "lingot"
+      "kiwi",
+      "altérée"
+    ],
+    [
+      "humilier",
+      "duper",
+      "mammifère",
+      "piste",
+      "marquer",
+      "cercle",
+      "dévonien"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    1,
+    2,
     1,
     3,
-    3,
-    3
+    5,
+    2,
+    1,
+    1
   ],
   "colClues": [
+    3,
+    1,
     2,
-    3,
-    3,
-    4,
+    2,
     3,
     3,
     1
   ],
-  "themeWord": "abstractionnisme",
+  "themeWord": "orphisme",
   "solution": [
     [
       false,
       false,
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
@@ -127,15 +100,33 @@
     [
       false,
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       false,
       false,
@@ -144,13 +135,22 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
       false,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

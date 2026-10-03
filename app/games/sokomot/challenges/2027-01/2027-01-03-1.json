@@ -101,15 +101,15 @@
       4
     ],
     [
-      4,
-      2
+      1,
+      4
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "M",
       "pos": [
         2,
         3
@@ -117,15 +117,15 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        3,
-        3
+        4,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "L",
       "pos": [
         3,
         1
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "DES",
+    "word": "MAL",
     "cells": [
       [
         2,
@@ -149,18 +149,20 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 12,
   "solution": [
     "up",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right",
+    "down",
     "down",
     "right",
-    "up",
-    "left",
-    "left",
-    "up",
-    "up",
     "right",
-    "right"
+    "up",
+    "left"
   ],
-  "canonicalWord": "des"
+  "canonicalWord": "mal"
 }

@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    3
+    2,
+    5
   ],
   "walls": [
     [
@@ -133,99 +133,96 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "J",
-      "pos": [
-        4,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "E",
+      "letter": "C",
       "pos": [
         2,
         4
       ]
     },
     {
-      "id": "b3",
-      "letter": "T",
+      "id": "b2",
+      "letter": "O",
       "pos": [
         3,
         3
+      ]
+    },
+    {
+      "id": "b3",
+      "letter": "A",
+      "pos": [
+        5,
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "A",
+      "letter": "C",
       "pos": [
-        5,
-        3
+        4,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "I",
+      "letter": "H",
       "pos": [
-        3,
-        2
+        6,
+        3
       ]
     }
   ],
   "target": {
-    "word": "JETAI",
+    "word": "COACH",
     "cells": [
       [
-        1,
+        3,
+        2
+      ],
+      [
+        4,
         1
       ],
       [
-        1,
+        5,
+        1
+      ],
+      [
+        5,
         2
       ],
       [
-        2,
-        3
-      ],
-      [
-        3,
+        6,
         2
-      ],
-      [
-        3,
-        3
       ]
     ]
   },
-  "parMoves": 27,
+  "parMoves": 24,
   "solution": [
+    "up",
+    "up",
     "left",
+    "up",
+    "right",
+    "down",
+    "right",
+    "down",
+    "right",
+    "up",
+    "up",
+    "down",
+    "right",
+    "up",
     "down",
     "left",
     "down",
-    "left",
+    "down",
+    "right",
     "up",
     "up",
     "down",
     "right",
-    "right",
-    "right",
-    "right",
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
-    "left",
-    "left",
-    "down",
-    "up",
-    "left",
-    "right",
-    "right",
-    "right",
-    "down",
-    "left"
+    "up"
   ],
-  "canonicalWord": "jetai"
+  "canonicalWord": "coach"
 }

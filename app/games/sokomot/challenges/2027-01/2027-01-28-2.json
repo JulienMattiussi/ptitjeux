@@ -4,7 +4,7 @@
   "width": 8,
   "height": 7,
   "player": [
-    2,
+    1,
     4
   ],
   "walls": [
@@ -115,8 +115,12 @@
   ],
   "ice": [
     [
-      2,
+      1,
       2
+    ],
+    [
+      3,
+      1
     ],
     [
       3,
@@ -125,18 +129,14 @@
     [
       4,
       3
-    ],
-    [
-      5,
-      2
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "F",
       "pos": [
-        2,
+        1,
         3
       ]
     },
@@ -144,21 +144,21 @@
       "id": "b2",
       "letter": "I",
       "pos": [
-        3,
-        3
+        4,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         4,
-        4
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "S",
+      "letter": "Z",
       "pos": [
         5,
         3
@@ -166,38 +166,42 @@
     }
   ],
   "target": {
-    "word": "LITS",
+    "word": "FIEZ",
     "cells": [
+      [
+        1,
+        1
+      ],
       [
         2,
         1
       ],
       [
-        3,
-        1
-      ],
-      [
-        4,
+        2,
         2
       ],
       [
-        5,
-        1
+        3,
+        3
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 14,
   "solution": [
     "up",
+    "right",
+    "right",
+    "right",
     "down",
+    "right",
     "right",
     "up",
-    "down",
-    "down",
+    "left",
+    "up",
+    "left",
     "right",
     "up",
-    "right",
-    "up"
+    "left"
   ],
-  "canonicalWord": "lits"
+  "canonicalWord": "fiez"
 }

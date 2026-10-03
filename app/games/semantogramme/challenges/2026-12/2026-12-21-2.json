@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "naissant",
+      "roman",
+      "lecteur",
+      "morigéner",
+      "scier",
+      "page"
+    ],
+    [
+      "consulter",
+      "alimentaire",
+      "librairie",
+      "texte",
+      "chapitre"
+    ],
+    [
+      "recueil",
+      "cible",
       "liseuse",
-      "régaler",
-      "horizon",
-      "poindre"
+      "patins",
+      "signet"
     ],
     [
-      "lingot",
-      "pointer",
-      "naître",
-      "poire",
-      "crépuscule"
+      "pulsatile",
+      "feuilleter",
+      "gonfler",
+      "traîner",
+      "fibreux"
     ],
     [
-      "beau",
-      "damnation",
-      "pâle",
-      "matinal",
-      "restaurant"
-    ],
-    [
-      "relaxant",
-      "pèlerinage",
-      "aurore",
-      "soleil",
-      "flageoler"
-    ],
-    [
-      "matin",
-      "rosée",
-      "piéton",
-      "coq",
-      "précoce"
+      "parcourir",
+      "tenailler",
+      "lecture",
+      "idée",
+      "livre"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    2,
-    2,
-    4
-  ],
-  "colClues": [
-    2,
-    2,
-    3,
     4,
+    3,
+    1,
     3
   ],
-  "themeWord": "aube",
+  "colClues": [
+    4,
+    2,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "lire",
   "solution": [
     [
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true
     ],
     [
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false
     ],
     [
       true,
-      true,
       false,
       true,
+      false,
       true
     ]
   ],

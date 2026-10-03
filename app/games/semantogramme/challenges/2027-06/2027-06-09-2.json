@@ -1,0 +1,96 @@
+{
+  "id": "2027-06-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "écouter",
+      "choir",
+      "muscade",
+      "plonger",
+      "haletant"
+    ],
+    [
+      "pardessus",
+      "flot",
+      "chuter",
+      "harmonie",
+      "cassure"
+    ],
+    [
+      "atterrissage",
+      "punching-ball",
+      "culbute",
+      "dégringoler",
+      "gitane"
+    ],
+    [
+      "précipice",
+      "s'effondrer",
+      "chute",
+      "belote",
+      "paix"
+    ],
+    [
+      "trébucher",
+      "gravité",
+      "pochoir",
+      "glisser",
+      "basculer"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "tomber",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

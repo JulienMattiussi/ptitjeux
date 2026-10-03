@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pulpe",
+      "pamplemousse",
+      "bigarade",
+      "obtenir"
+    ],
+    [
+      "cédrat",
+      "chaton",
+      "kumquat",
+      "infusion"
+    ],
+    [
+      "pièce",
+      "lime",
+      "colophane",
+      "bergamote"
+    ],
+    [
+      "écorce",
+      "histoire",
+      "mandarine",
+      "appliquer"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "agrume",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

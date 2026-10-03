@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    5,
-    3
+    3,
+    4
   ],
   "walls": [
     [
@@ -133,15 +133,15 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "H",
       "pos": [
         2,
-        4
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "O",
       "pos": [
         3,
         3
@@ -149,82 +149,96 @@
     },
     {
       "id": "b3",
-      "letter": "V",
-      "pos": [
-        5,
-        4
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "R",
-      "pos": [
-        6,
-        4
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "E",
+      "letter": "M",
       "pos": [
         5,
         2
       ]
+    },
+    {
+      "id": "b4",
+      "letter": "E",
+      "pos": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "S",
+      "pos": [
+        2,
+        5
+      ]
     }
   ],
   "target": {
-    "word": "OUVRE",
+    "word": "HOMES",
     "cells": [
       [
+        1,
+        1
+      ],
+      [
         2,
-        3
+        1
       ],
       [
         3,
-        4
+        1
       ],
       [
-        4,
-        4
+        3,
+        2
       ],
       [
-        5,
-        4
-      ],
-      [
-        6,
-        4
+        3,
+        3
       ]
     ]
   },
-  "parMoves": 26,
+  "parMoves": 40,
   "solution": [
+    "up",
+    "up",
     "right",
+    "up",
+    "left",
+    "right",
+    "right",
+    "right",
+    "down",
+    "left",
+    "right",
+    "down",
+    "left",
+    "left",
+    "up",
+    "down",
     "down",
     "left",
     "up",
     "left",
-    "up",
-    "left",
     "down",
-    "up",
-    "right",
-    "right",
-    "up",
-    "right",
+    "left",
     "down",
     "down",
     "right",
-    "down",
-    "down",
-    "left",
-    "down",
-    "left",
+    "up",
     "up",
     "left",
-    "left",
-    "left",
-    "up"
+    "up",
+    "up",
+    "down",
+    "right",
+    "down",
+    "right",
+    "right",
+    "up",
+    "up",
+    "right",
+    "up",
+    "left"
   ],
-  "canonicalWord": "ouvre"
+  "canonicalWord": "homes"
 }

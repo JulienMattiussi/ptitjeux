@@ -5,46 +5,46 @@
   "height": 4,
   "words": [
     [
-      "criquet",
-      "éditorial",
-      "astre",
-      "crampon"
+      "vague",
+      "orbiter",
+      "sable",
+      "or"
     ],
     [
-      "galaxie",
-      "nuit",
-      "pulsar",
-      "piquant"
+      "marée",
+      "algue",
+      "tremplin",
+      "clavicule"
     ],
     [
-      "soleil",
-      "constellation",
-      "héroïsme",
-      "ciel"
+      "menuisier",
+      "caban",
+      "phare",
+      "crique"
     ],
     [
-      "maquette",
-      "éclat",
-      "tube",
-      "briques"
+      "tigre",
+      "corail",
+      "hublot",
+      "gélatineuse"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    3,
+    2,
+    2,
+    2,
     1
   ],
   "colClues": [
     2,
-    3,
+    2,
     2,
     1
   ],
-  "themeWord": "étoile",
+  "themeWord": "mer",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       false
@@ -52,13 +52,13 @@
     [
       true,
       true,
-      true,
+      false,
       false
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true
     ],
     [
@@ -68,5 +68,5 @@
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

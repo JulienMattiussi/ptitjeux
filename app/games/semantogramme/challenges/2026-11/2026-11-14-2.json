@@ -5,76 +5,62 @@
   "height": 5,
   "words": [
     [
-      "éloigné",
-      "esthétique",
-      "emporter",
-      "lombric",
-      "longueur"
+      "ordure",
+      "enterré",
+      "graisse",
+      "cabernet",
+      "crotté"
     ],
     [
-      "fleuve",
-      "étendre",
-      "durée",
-      "trésor",
-      "distance"
+      "pilule",
+      "tache",
+      "malpropre",
+      "salir",
+      "ranger"
     ],
     [
-      "parking",
-      "baguette",
-      "modem",
-      "prolonger",
-      "interminable"
+      "détritus",
+      "bec",
+      "arachnide",
+      "crasseux",
+      "pépite"
     ],
     [
-      "hygiène",
-      "étiré",
-      "allonger",
-      "corde",
-      "courbure"
+      "souiller",
+      "souillure",
+      "ratatouille",
+      "maculer",
+      "crasse"
     ],
     [
-      "élancé",
-      "rétroviseur",
-      "bande",
-      "canari",
-      "rallonger"
+      "dégoûtant",
+      "poussière",
+      "estival",
+      "colorée",
+      "salissure"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
     4,
-    3,
-    3,
-    2
+    3
   ],
   "colClues": [
-    3,
+    4,
     3,
     2,
-    2,
-    4
+    3,
+    3
   ],
-  "themeWord": "long",
+  "themeWord": "sale",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true
     ],
     [
@@ -88,9 +74,23 @@
       true,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

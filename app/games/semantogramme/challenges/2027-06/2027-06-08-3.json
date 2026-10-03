@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-08-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "saut",
+      "réchauffer",
+      "demi",
+      "coulisse",
+      "manger",
+      "spontané"
+    ],
+    [
+      "urine",
+      "cueilli",
+      "rugueuse",
+      "sociale",
+      "fragile",
+      "patte"
+    ],
+    [
+      "chapelet",
+      "pose",
+      "orthoptère",
+      "champ",
+      "porte",
+      "verte"
+    ],
+    [
+      "longue",
+      "sauter",
+      "expresso",
+      "tunisie",
+      "feuille",
+      "herbe"
+    ],
+    [
+      "aquatique",
+      "antenne",
+      "sacré",
+      "jaune",
+      "grillé",
+      "paprika"
+    ],
+    [
+      "cuir",
+      "aérer",
+      "empoigner",
+      "crayonner",
+      "criquet",
+      "aile"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    2,
+    3,
+    4
+  ],
+  "themeWord": "sauterelle",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

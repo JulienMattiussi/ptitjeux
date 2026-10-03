@@ -5,93 +5,129 @@
   "height": 7,
   "words": [
     [
-      "effiler",
-      "opium",
-      "cultivé",
-      "sauvage",
-      "pouvoir",
-      "amphibien",
-      "éphémère"
+      "pédagogie",
+      "recenser",
+      "tasse",
+      "baleine",
+      "reprendre",
+      "replier",
+      "nouvel"
     ],
     [
-      "noir",
-      "surgir",
-      "cendrier",
-      "spiraler",
-      "pétale",
-      "huile",
-      "cépage"
+      "sévère",
+      "gag",
+      "énorme",
+      "calme",
+      "province",
+      "manchette",
+      "agir"
     ],
     [
-      "lente",
-      "asphyxie",
-      "capsule",
-      "cantique",
-      "délicat",
-      "tracer",
-      "gouache"
+      "reprocher",
+      "voler",
+      "réprimander",
+      "noble",
+      "url",
+      "jungle",
+      "cabrioler"
     ],
     [
-      "tige",
-      "champ",
-      "culbuter",
-      "tête",
-      "briser",
-      "planète",
-      "jaguar"
+      "gronder",
+      "enfant",
+      "polaire",
+      "rédaction",
+      "frôler",
+      "parent",
+      "épancher"
     ],
     [
-      "somnifère",
-      "soulever",
-      "rouge",
-      "aplanir",
-      "jante",
-      "abriter",
-      "idyllique"
+      "magistère",
+      "corriger",
+      "chocolat",
+      "archaïque",
+      "sonnet",
+      "copeau",
+      "sermonner"
     ],
     [
-      "entonner",
-      "fragile",
-      "morphine",
-      "rester",
-      "fontaine",
-      "gâteau",
-      "sourdre"
+      "remontrer",
+      "tenace",
+      "admonester",
+      "épineux",
+      "bomber",
+      "précipitation",
+      "fer-forgé"
     ],
     [
-      "fleur",
-      "concis",
-      "chemise",
-      "plante",
-      "matisse",
-      "décoratif",
-      "humilité"
+      "tancer",
+      "naïveté",
+      "parlement",
+      "balustrade",
+      "fustiger",
+      "ambulance",
+      "discipline"
     ]
   ],
   "rowClues": [
-    4,
+    1,
+    1,
     3,
-    2,
-    2,
-    2,
+    3,
+    4,
     2,
     3
   ],
   "colClues": [
-    4,
-    3,
-    4,
+    6,
     2,
     2,
     2,
-    1
+    2,
+    1,
+    2
   ],
-  "themeWord": "pavot",
+  "themeWord": "morigéner",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false,
       false,
@@ -100,42 +136,6 @@
     [
       true,
       false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
@@ -146,11 +146,11 @@
       true,
       false,
       false,
-      true,
       false,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

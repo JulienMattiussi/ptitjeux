@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "duffel-coat",
+      "crin",
+      "colophane",
+      "sonate"
+    ],
+    [
+      "masquer",
+      "corde",
+      "orchestre",
+      "partition"
+    ],
+    [
+      "concerto",
+      "dresser",
+      "préparer",
+      "soliste"
+    ],
+    [
+      "pupitre",
+      "imagination",
+      "manche",
+      "récréation"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "violon",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

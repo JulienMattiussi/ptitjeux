@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-04-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "aigre",
+      "ancrer",
+      "large",
+      "âcre",
+      "innovation",
+      "cosmos"
+    ],
+    [
+      "rassembler",
+      "miroir",
+      "jardin",
+      "congo",
+      "sable",
+      "visuel"
+    ],
+    [
+      "jardinier",
+      "lisser",
+      "gravier",
+      "long",
+      "plane",
+      "aplanir"
+    ],
+    [
+      "ratisser",
+      "éteindre",
+      "replet",
+      "récurrente",
+      "choir",
+      "plage"
+    ],
+    [
+      "chariot",
+      "pêche",
+      "dent",
+      "circulaire",
+      "aimer",
+      "foin"
+    ],
+    [
+      "sifflet",
+      "herbe",
+      "cystite",
+      "pharaon",
+      "branche",
+      "manche"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    5,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    4,
+    1,
+    1,
+    4
+  ],
+  "themeWord": "râteau",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

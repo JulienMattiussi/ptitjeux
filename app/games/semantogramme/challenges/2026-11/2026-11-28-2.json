@@ -5,63 +5,63 @@
   "height": 5,
   "words": [
     [
-      "film",
-      "enregistrer",
-      "comprendre",
-      "caméra",
-      "cinéaste"
+      "figurine",
+      "imiter",
+      "légende",
+      "voix",
+      "effilé"
     ],
     [
-      "documenter",
-      "agenda",
-      "reposer",
-      "chaleur",
-      "fantôme"
+      "amusant",
+      "rajeunir",
+      "rugir",
+      "tesselle",
+      "croiser"
     ],
     [
-      "place",
-      "rhinocéros",
-      "montage",
-      "tremblement",
-      "sauveteur"
+      "pantin",
+      "éphémère",
+      "mystérieux",
+      "comique",
+      "habile"
     ],
     [
-      "acquérir",
-      "projeter",
-      "cinématographie",
-      "vidéo",
-      "réalisateur"
+      "manipuler",
+      "signet",
+      "scène",
+      "théâtral",
+      "illusion"
     ],
     [
-      "acteur",
-      "immense",
-      "rotatif",
-      "éveiller",
-      "capturer"
+      "fatigante",
+      "oignon",
+      "manipulation",
+      "évacuation",
+      "spectacle"
     ]
   ],
   "rowClues": [
+    3,
+    1,
     4,
-    1,
-    1,
     4,
     2
   ],
   "colClues": [
+    4,
+    1,
     3,
-    2,
-    2,
-    2,
+    3,
     3
   ],
-  "themeWord": "filmer",
+  "themeWord": "ventriloque",
   "solution": [
     [
       true,
       true,
       false,
       true,
-      true
+      false
     ],
     [
       true,
@@ -71,15 +71,8 @@
       false
     ],
     [
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true,
       true
@@ -87,10 +80,17 @@
     [
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
+      false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

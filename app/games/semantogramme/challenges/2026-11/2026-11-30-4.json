@@ -5,121 +5,103 @@
   "height": 7,
   "words": [
     [
-      "sextant",
-      "araignée",
-      "heure",
-      "voix",
-      "sentir",
-      "attaquer",
-      "voyager"
+      "reprocher",
+      "piano",
+      "jeter",
+      "gaz",
+      "musique",
+      "allegro",
+      "duffel-coat"
     ],
     [
-      "auditif",
-      "archaïque",
-      "liqueur",
-      "spinoza",
-      "énorme",
-      "lointaine",
-      "entendre"
+      "mince",
+      "russe",
+      "raisonner",
+      "douve",
+      "piolet",
+      "violon",
+      "plateforme"
     ],
     [
-      "noble",
-      "rare",
-      "capter",
-      "tendre",
-      "fermier",
-      "vertu",
-      "distinguer"
+      "beethoven",
+      "esquif",
+      "virtuose",
+      "interpréter",
+      "jouer",
+      "marchand",
+      "composer"
     ],
     [
-      "audible",
-      "délivrer",
-      "isolé",
-      "écouter",
-      "spontané",
+      "baroque",
+      "jazz",
+      "mouvement",
+      "orchestre",
+      "bronze",
+      "activité",
+      "ballon"
+    ],
+    [
+      "instrument",
+      "arpenter",
+      "rétablir",
+      "baigner",
+      "médicale",
+      "cérémonieux",
+      "équipage"
+    ],
+    [
+      "religieux",
+      "borner",
+      "sauver",
+      "kilo",
+      "cadence",
+      "destin",
+      "traditionnelle"
+    ],
+    [
+      "fenouil",
       "classique",
-      "husserl"
-    ],
-    [
-      "oreille",
-      "allitération",
-      "téléphone",
-      "attentif",
-      "littéraire",
-      "pointage",
-      "secours"
-    ],
-    [
-      "générosité",
-      "fidélité",
-      "soutenu",
-      "merveille",
-      "orbe",
-      "fugué",
-      "discerner"
-    ],
-    [
-      "relever",
-      "piémont",
-      "visseuse",
-      "sénat",
-      "armer",
-      "percevoir",
-      "son"
+      "tchaïkovski",
+      "gardien",
+      "remplir",
+      "fable",
+      "romantique"
     ]
   ],
   "rowClues": [
-    1,
     3,
+    1,
     5,
     3,
+    1,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
     3,
     2,
     2
   ],
-  "colClues": [
-    4,
-    2,
-    2,
-    4,
-    1,
-    2,
-    4
-  ],
-  "themeWord": "ouïr",
+  "themeWord": "concerto",
   "solution": [
     [
       false,
-      false,
-      false,
       true,
       false,
       false,
+      true,
+      true,
       false
     ],
     [
-      true,
-      true,
       false,
       false,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       false,
       true,
       false
@@ -127,30 +109,48 @@
     [
       true,
       false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false,
       false
     ],
     [
       false,
       false,
+      false,
+      false,
       true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

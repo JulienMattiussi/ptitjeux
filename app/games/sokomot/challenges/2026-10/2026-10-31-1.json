@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
+    1,
     1
   ],
   "walls": [
@@ -97,19 +97,19 @@
       4
     ],
     [
-      5,
-      3
+      1,
+      2
     ],
     [
       1,
-      4
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "U",
       "pos": [
         2,
         1
@@ -117,47 +117,48 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "N",
       "pos": [
-        2,
-        2
+        3,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "X",
+      "letter": "I",
       "pos": [
-        2,
-        3
+        4,
+        2
       ]
     }
   ],
   "target": {
-    "word": "FAX",
+    "word": "UNI",
     "cells": [
       [
-        1,
+        3,
         1
       ],
       [
-        1,
+        3,
         2
       ],
       [
-        1,
-        3
+        4,
+        1
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 8,
   "solution": [
-    "left",
     "right",
     "down",
-    "left",
-    "right",
     "down",
-    "left"
+    "down",
+    "right",
+    "up",
+    "right",
+    "up"
   ],
-  "canonicalWord": "fax"
+  "canonicalWord": "uni"
 }

@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     3,
-    1
+    5
   ],
   "walls": [
     [
@@ -374,93 +374,91 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "Q",
       "pos": [
-        1,
+        8,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "B",
+      "letter": "U",
       "pos": [
-        2,
+        8,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        3,
-        2
+        8,
+        4
       ]
     },
     {
       "id": "b4",
+      "letter": "S",
+      "pos": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "A",
+      "pos": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "b6",
       "letter": "R",
       "pos": [
         4,
         7
       ]
-    },
-    {
-      "id": "b5",
-      "letter": "E",
-      "pos": [
-        5,
-        7
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "Z",
-      "pos": [
-        7,
-        7
-      ]
     }
   ],
   "target": {
-    "word": "OBEREZ",
+    "word": "QUASAR",
     "cells": [
       [
-        1,
-        7
+        8,
+        2
       ],
       [
-        2,
-        7
+        8,
+        3
       ],
       [
-        3,
-        7
+        8,
+        4
       ],
       [
-        4,
-        7
+        8,
+        5
       ],
       [
-        5,
-        7
+        8,
+        6
       ],
       [
-        6,
+        8,
         7
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 7,
   "solution": [
+    "right",
     "down",
+    "right",
     "left",
     "down",
     "right",
-    "down",
-    "left",
-    "up",
-    "left",
-    "down"
+    "right"
   ],
-  "canonicalWord": "obérez"
+  "canonicalWord": "quasar"
 }

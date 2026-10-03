@@ -5,52 +5,52 @@
   "height": 4,
   "words": [
     [
-      "panthère",
-      "basse",
-      "micro",
-      "oeuvre"
+      "imperméable",
+      "baldaquin",
+      "noyau",
+      "perdant"
     ],
     [
-      "chanteur",
-      "solo",
-      "concert",
-      "humérus"
+      "risque",
+      "nuage",
+      "crachin",
+      "palme"
     ],
     [
-      "tribune",
-      "groupe",
-      "distorsion",
-      "amplificateur"
+      "lynx",
+      "flaque",
+      "orage",
+      "goutte"
     ],
     [
-      "scène",
-      "spacieux",
-      "transvaser",
-      "morceau"
+      "fossile",
+      "averse",
+      "applique",
+      "dribble"
     ]
   ],
   "rowClues": [
+    1,
     2,
     3,
-    3,
-    2
+    1
   ],
   "colClues": [
+    1,
+    3,
     2,
-    3,
-    3,
-    2
+    1
   ],
-  "themeWord": "rock",
+  "themeWord": "pluie",
   "solution": [
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false
@@ -62,11 +62,11 @@
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

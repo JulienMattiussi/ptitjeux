@@ -4,7 +4,7 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
+    2,
     4
   ],
   "walls": [
@@ -97,12 +97,12 @@
       4
     ],
     [
-      1,
+      4,
       4
     ],
     [
-      5,
-      3
+      1,
+      4
     ]
   ],
   "ice": [],
@@ -111,30 +111,34 @@
       "id": "b1",
       "letter": "T",
       "pos": [
-        3,
+        2,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
-        3,
-        1
+        4,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "C",
       "pos": [
-        4,
-        3
+        3,
+        1
       ]
     }
   ],
   "target": {
-    "word": "TEL",
+    "word": "TOC",
     "cells": [
+      [
+        2,
+        2
+      ],
       [
         3,
         2
@@ -142,24 +146,23 @@
       [
         4,
         1
-      ],
-      [
-        4,
-        2
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 12,
   "solution": [
     "up",
+    "left",
+    "up",
+    "up",
+    "right",
+    "right",
+    "down",
     "down",
     "right",
+    "right",
     "up",
-    "left",
-    "left",
-    "up",
-    "up",
-    "right"
+    "left"
   ],
-  "canonicalWord": "tel"
+  "canonicalWord": "toc"
 }

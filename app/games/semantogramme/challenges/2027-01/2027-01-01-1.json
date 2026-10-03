@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "se lever",
-      "fossile",
-      "applaudissement",
-      "public"
+      "voile",
+      "brunch",
+      "bague",
+      "robe"
     ],
     [
-      "salle",
-      "sono",
-      "chanteur",
-      "cruche"
+      "cortège",
+      "panache",
+      "juin",
+      "décocher"
     ],
     [
-      "scène",
-      "éloquence",
-      "bissextile",
-      "première"
+      "demoiselle",
+      "sacrifier",
+      "semer",
+      "habiter"
     ],
     [
-      "billet",
-      "galactique",
-      "bis",
-      "micro"
+      "cône",
+      "témoin",
+      "mariée",
+      "amusement"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    2,
-    3
+    1,
+    1,
+    2
   ],
   "colClues": [
     3,
     1,
-    3,
-    3
+    2,
+    1
   ],
-  "themeWord": "concert",
+  "themeWord": "mariage",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
       false,
-      true
+      false
     ],
     [
-      true,
       false,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

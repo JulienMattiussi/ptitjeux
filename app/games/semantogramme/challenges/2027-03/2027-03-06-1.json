@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "moustache",
+      "voix",
+      "prologue",
+      "transcendance"
+    ],
+    [
+      "liturgique",
+      "persan",
+      "gouttière",
+      "griffe"
+    ],
+    [
+      "minou",
+      "queue",
+      "budget",
+      "siamois"
+    ],
+    [
+      "monopalme",
+      "bijou",
+      "rare",
+      "angora"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "chat",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-06-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "selle",
+      "smasher",
+      "indolent",
+      "tournoyer",
+      "correspondance",
+      "curcuma"
+    ],
+    [
+      "noir",
+      "élytre",
+      "insecte",
+      "point",
+      "torse",
+      "capter"
+    ],
+    [
+      "cadrage",
+      "sept",
+      "puceron",
+      "aile",
+      "gérer",
+      "jardin"
+    ],
+    [
+      "tableau",
+      "porte-bonheur",
+      "paume",
+      "utile",
+      "talon",
+      "effacé"
+    ],
+    [
+      "a-cappella",
+      "rouge",
+      "gratte-ciel",
+      "minuscule",
+      "coléoptère",
+      "butiner"
+    ],
+    [
+      "globe",
+      "saturer",
+      "symbolique",
+      "pâle",
+      "voler",
+      "apprivoiser"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    4,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    4,
+    5,
+    2,
+    2
+  ],
+  "themeWord": "coccinelle",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

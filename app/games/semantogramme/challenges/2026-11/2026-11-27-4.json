@@ -5,132 +5,141 @@
   "height": 7,
   "words": [
     [
-      "espoir",
-      "mâchoire",
-      "horloge",
-      "oscar",
-      "vitesse",
-      "pédagogie",
-      "fossile"
+      "soleil",
+      "sève",
+      "spiritualité",
+      "musical",
+      "hublot",
+      "art",
+      "sécuriser"
     ],
     [
-      "préhistoire",
-      "extinction",
-      "inspiration",
-      "orgueilleux",
-      "félicité",
-      "serre",
-      "cueillir"
+      "amulette",
+      "tanner",
+      "laine",
+      "sodé",
+      "idée",
+      "transcender",
+      "parlementaire"
     ],
     [
-      "naturel",
-      "aile",
-      "pangée",
-      "lointain",
-      "arène",
-      "costume",
-      "massive"
+      "képi",
+      "circonférence",
+      "courgette",
+      "sublime",
+      "sublimer",
+      "milan",
+      "spirituelle"
     ],
     [
-      "ancien",
-      "frémir",
-      "baiser",
-      "carbonifère",
-      "lingot",
-      "hululer",
-      "géologique"
+      "magistral",
+      "parterre",
+      "beauté",
+      "pénaliser",
+      "navette",
+      "pelote",
+      "cellulose"
     ],
     [
-      "continental",
-      "paléozoïque",
-      "mince",
-      "maudire",
-      "cd",
-      "reptile",
-      "sec"
+      "gaz",
+      "lame",
+      "transformer",
+      "moisson",
+      "commun",
+      "élever",
+      "magnifier"
     ],
     [
-      "capitaine",
-      "tapenade",
-      "attaque",
-      "alpe",
-      "sédiment",
-      "poltron",
-      "dégrader"
+      "succès",
+      "noble",
+      "mélanger",
+      "perle",
+      "élévation",
+      "cénozoïque",
+      "transcendance"
     ],
     [
-      "kirchner",
-      "ère",
-      "évolution",
-      "trias",
-      "dialogue",
-      "somnifère",
-      "cire"
+      "flancher",
+      "fragment",
+      "conversation",
+      "arpenter",
+      "psychanalyse",
+      "auto-école",
+      "jus"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    3,
-    3,
-    4,
     1,
-    3
+    3,
+    1,
+    4,
+    3,
+    1
   ],
   "colClues": [
-    3,
-    3,
-    2,
-    3,
     1,
     1,
-    4
+    3,
+    1,
+    3,
+    3,
+    3
   ],
-  "themeWord": "permien",
+  "themeWord": "sublimation",
   "solution": [
     [
       false,
       false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       false,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       false,
       false,
       false,
       false
     ],
     [
+      true,
+      false,
+      true,
       false,
       false,
       true,
-      true,
-      false,
-      false,
       true
     ],
     [
-      true,
-      false,
       false,
       true,
       false,
       false,
-      true
-    ],
-    [
-      true,
       true,
       false,
-      false,
-      false,
-      true,
       true
     ],
     [
@@ -139,18 +148,9 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-16-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bonheur",
+      "parrain",
+      "encre",
+      "céphalopode",
+      "seiche",
+      "aquatique"
+    ],
+    [
+      "odeur",
+      "mollusque",
+      "spray",
+      "bal",
+      "agrès",
+      "plongée"
+    ],
+    [
+      "rocher",
+      "bière",
+      "mixte",
+      "canari",
+      "corps-de-ballet",
+      "marin"
+    ],
+    [
+      "savourer",
+      "fermier",
+      "amethyste",
+      "domino",
+      "vase",
+      "anneau"
+    ],
+    [
+      "effilé",
+      "biberon",
+      "rapide",
+      "roseau",
+      "sépia",
+      "ordonnance"
+    ],
+    [
+      "pêche",
+      "profond",
+      "ras",
+      "brandade",
+      "tentacule",
+      "halogène"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    2,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    1,
+    3,
+    4
+  ],
+  "themeWord": "calmar",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "bricolée",
-      "fenêtre",
-      "venin",
-      "embrasser",
-      "planche"
+      "enchanter",
+      "baiser",
+      "fouetter",
+      "feutré",
+      "queue"
     ],
     [
-      "enfant",
-      "loisir",
-      "abriter",
-      "lien",
-      "véloce"
+      "magique",
+      "séduire",
+      "bossu",
+      "écaille",
+      "rapace"
     ],
     [
-      "porte",
-      "jardin",
-      "petite",
-      "écouler",
-      "construire"
+      "tourbillon",
+      "envoûtante",
+      "cheveu",
+      "naufrage",
+      "séduisante"
     ],
     [
-      "italie",
-      "abaisser",
-      "bois",
-      "cuvée",
-      "refuge"
+      "marin",
+      "volée",
+      "aquatique",
+      "mer",
+      "piscine"
     ],
     [
-      "isolée",
-      "forêt",
-      "reporter",
-      "rudimentaire",
-      "rustique"
+      "pétrifier",
+      "marmotte",
+      "lustrer",
+      "spatial",
+      "rocher"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    2,
     4,
-    2,
-    4
+    3,
+    1
   ],
   "colClues": [
-    4,
     3,
+    2,
+    2,
     3,
-    1,
-    4
+    3
   ],
-  "themeWord": "cabane",
+  "themeWord": "sirène",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
       true,
-      false,
       true,
       false,
+      true,
       false
     ],
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      true,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

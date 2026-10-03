@@ -5,48 +5,60 @@
   "height": 4,
   "words": [
     [
-      "gazeuse",
-      "ruisseau",
-      "cruche",
-      "votif"
+      "ring",
+      "guitare",
+      "trompette",
+      "frère"
     ],
     [
-      "plate",
-      "chanteur",
-      "spinnaker",
-      "fontaine"
+      "orgue",
+      "violon",
+      "tambour",
+      "gomme"
     ],
     [
-      "rénal",
-      "voix",
-      "alligator",
-      "robinet"
+      "imprimante",
+      "harpe",
+      "diriger",
+      "parent"
     ],
     [
-      "crin",
-      "paillette",
-      "source",
-      "effrayante"
+      "batterie",
+      "travée",
+      "plénitude",
+      "saxophone"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    3,
     1,
-    1
+    2
   ],
   "colClues": [
     2,
-    1,
+    3,
     2,
-    2
+    1
   ],
-  "themeWord": "eau",
+  "themeWord": "instrument",
   "solution": [
     [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false
     ],
     [
@@ -54,19 +66,7 @@
       false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

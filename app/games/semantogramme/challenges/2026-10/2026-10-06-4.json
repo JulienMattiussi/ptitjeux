@@ -5,90 +5,99 @@
   "height": 7,
   "words": [
     [
-      "parfumerie",
-      "détresse",
-      "pleurer",
-      "gastrique",
-      "mortel",
-      "maquette",
-      "abattement"
+      "épanouissement",
+      "or",
+      "crasse",
+      "culture",
+      "persienne",
+      "dignité",
+      "chaussure"
     ],
     [
-      "morne",
-      "noir",
-      "résonant",
-      "crier",
-      "crosse",
-      "séduisante",
-      "détente"
+      "glouton",
+      "rabelais",
+      "cultiver",
+      "gyrer",
+      "antiquité",
+      "énorme",
+      "universel"
     ],
     [
-      "framboise",
-      "aneth",
-      "douleur",
-      "cils",
-      "cour",
-      "doctrine",
-      "abbaye"
+      "redingote",
+      "érasme",
+      "renaissance",
+      "perceuse",
+      "éclairée",
+      "engraisser",
+      "régurgiter"
     ],
     [
-      "incurable",
-      "droiture",
-      "monumentale",
-      "bienfaiteur",
-      "sorbier",
-      "allitération",
-      "soustraire"
+      "cristalline",
+      "cuirasse",
+      "majorité",
+      "humaniste",
+      "tolérance",
+      "philosophie",
+      "lamentation"
     ],
     [
-      "salissure",
-      "reinette",
-      "risotto",
-      "gémir",
-      "grillé",
-      "plonger",
-      "angoisse"
+      "mémoriser",
+      "espoir",
+      "crise",
+      "fournaise",
+      "éducation",
+      "montaigne",
+      "meurtre"
     ],
     [
-      "emblème",
-      "imprévu",
-      "effondrement",
-      "sombre",
-      "écu",
-      "bourse",
-      "rocaille"
+      "mammouth",
+      "multitude",
+      "bouillir",
+      "valeur",
+      "calendrier",
+      "homme",
+      "sérénité"
     ],
     [
-      "profond",
-      "piaf",
-      "frelon",
-      "sans-issue",
-      "absolu",
-      "philosophique",
-      "enchère"
+      "discernement",
+      "brasser",
+      "penser",
+      "oeil-de-chat",
+      "opération",
+      "amener",
+      "pointer"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    1,
-    1,
+    4,
+    2,
     3,
     2,
-    3
+    2,
+    1
   ],
   "colClues": [
-    3,
+    1,
     2,
+    3,
+    3,
     3,
     4,
-    2,
-    1,
-    2
+    1
   ],
-  "themeWord": "désespoir",
+  "themeWord": "humanisme",
   "solution": [
     [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
@@ -98,27 +107,9 @@
       true
     ],
     [
-      true,
-      true,
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false,
       false,
@@ -129,25 +120,34 @@
       false,
       false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
-      false,
-      false,
       false
     ],
     [
-      true,
+      false,
+      false,
       false,
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       false,
       false
     ]

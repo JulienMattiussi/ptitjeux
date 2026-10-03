@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-21-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bois",
+      "bateau",
+      "éminer",
+      "antique",
+      "culturelle",
+      "symphonie"
+    ],
+    [
+      "pastoral",
+      "religieux",
+      "champêtre",
+      "desquamation",
+      "instrument",
+      "classique"
+    ],
+    [
+      "souffler",
+      "aigu",
+      "synthétique",
+      "tuba",
+      "expressif",
+      "hamac"
+    ],
+    [
+      "orchestre",
+      "cor",
+      "fustiger",
+      "instruire",
+      "hygiène",
+      "plaintif"
+    ],
+    [
+      "double",
+      "punching-ball",
+      "pavillon",
+      "lavoir",
+      "blouse",
+      "mélodieux"
+    ],
+    [
+      "serre",
+      "symphonique",
+      "dracula",
+      "manuelle",
+      "jouer",
+      "anche"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    3,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    5,
+    2,
+    2,
+    1,
+    3,
+    5
+  ],
+  "themeWord": "hautbois",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 18
+}

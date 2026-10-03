@@ -5,47 +5,53 @@
   "height": 4,
   "words": [
     [
-      "serrer",
-      "inaugurer",
-      "rouillé",
-      "dense"
+      "hampe",
+      "rabbin",
+      "tome",
+      "page"
     ],
     [
-      "bricolage",
-      "agenda",
-      "canicule",
-      "boulonner"
+      "butiner",
+      "manuel",
+      "allumer",
+      "cadrage"
     ],
     [
-      "établi",
-      "pas",
-      "semelle",
-      "épopée"
+      "index",
+      "petit-déjeuner",
+      "chasser",
+      "éditeur"
     ],
     [
-      "perruque",
-      "trinquer",
-      "embout",
-      "manche"
+      "volume",
+      "framboise",
+      "reliure",
+      "béchamel"
     ]
   ],
   "rowClues": [
-    1,
     2,
+    1,
     2,
     2
   ],
   "colClues": [
-    3,
+    2,
     1,
-    1,
+    2,
     2
   ],
-  "themeWord": "tournevis",
+  "themeWord": "livre",
   "solution": [
     [
-      true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false
     ],
@@ -57,15 +63,9 @@
     ],
     [
       true,
-      true,
       false,
+      true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 7

@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-17-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "nez",
+      "coudre",
+      "incliné",
+      "inertie",
+      "remise",
+      "léger"
+    ],
+    [
+      "passe",
+      "crapaud",
+      "massant",
+      "expectorer",
+      "accoudoir",
+      "terre"
+    ],
+    [
+      "cuir",
+      "pyrénées",
+      "transpiration",
+      "confortable",
+      "sillon",
+      "profond"
+    ],
+    [
+      "digestion",
+      "mentir",
+      "maux",
+      "reposant",
+      "apporter",
+      "voltaire"
+    ],
+    [
+      "maman",
+      "cavité",
+      "rembourré",
+      "velouté",
+      "salon",
+      "étude"
+    ],
+    [
+      "répétitif",
+      "siège",
+      "tissu",
+      "meuble",
+      "haletant",
+      "invitation"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "fauteuil",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

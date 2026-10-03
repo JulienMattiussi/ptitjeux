@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rue",
+      "piéton",
+      "âme",
+      "safari"
+    ],
+    [
+      "mât",
+      "vider",
+      "ampoule",
+      "leçon"
+    ],
+    [
+      "bénitier",
+      "fonte",
+      "globe",
+      "parallèle"
+    ],
+    [
+      "avenue",
+      "progéniture",
+      "honte",
+      "éclairage"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "lampadaire",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

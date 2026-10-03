@@ -4,7 +4,7 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
+    7,
     1
   ],
   "walls": [
@@ -133,31 +133,31 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "K",
+      "letter": "T",
       "pos": [
         3,
-        2
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "R",
       "pos": [
-        3,
-        5
+        2,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "F",
+      "letter": "I",
       "pos": [
-        4,
-        4
+        6,
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "E",
       "pos": [
         5,
         3
@@ -165,62 +165,58 @@
     },
     {
       "id": "b5",
-      "letter": "R",
+      "letter": "E",
       "pos": [
         6,
-        3
+        2
       ]
     }
   ],
   "target": {
-    "word": "KEFIR",
+    "word": "TRIEE",
     "cells": [
       [
-        2,
+        3,
         2
       ],
       [
-        2,
-        3
-      ],
-      [
-        3,
-        4
-      ],
-      [
         4,
-        3
+        1
       ],
       [
         5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
         3
       ]
     ]
   },
-  "parMoves": 22,
+  "parMoves": 18,
   "solution": [
-    "right",
-    "down",
-    "left",
-    "right",
-    "right",
-    "right",
-    "down",
-    "left",
-    "right",
-    "right",
-    "down",
     "left",
     "down",
+    "right",
+    "down",
+    "down",
+    "left",
+    "left",
+    "up",
+    "down",
+    "left",
     "left",
     "up",
     "left",
-    "down",
-    "left",
-    "down",
+    "up",
     "left",
     "up",
-    "up"
+    "right",
+    "right"
   ],
-  "canonicalWord": "kéfir"
+  "canonicalWord": "triée"
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "panier",
+      "rive",
+      "immortelle",
+      "brunch"
+    ],
+    [
+      "vannerie",
+      "osier",
+      "tige",
+      "sommeil"
+    ],
+    [
+      "nova",
+      "étang",
+      "jonc",
+      "rivière"
+    ],
+    [
+      "antalgique",
+      "mêlée",
+      "papyrus",
+      "bambou"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "roseau",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    5,
-    5
+    4,
+    2
   ],
   "walls": [
     [
@@ -133,31 +133,31 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "D",
       "pos": [
-        3,
+        2,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "E",
       "pos": [
-        5,
-        4
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "N",
-      "pos": [
-        2,
+        3,
         2
       ]
     },
     {
+      "id": "b3",
+      "letter": "V",
+      "pos": [
+        4,
+        4
+      ]
+    },
+    {
       "id": "b4",
-      "letter": "D",
+      "letter": "R",
       "pos": [
         6,
         4
@@ -165,51 +165,44 @@
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        6,
-        3
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "RONDE",
+    "word": "DEVRA",
     "cells": [
       [
+        2,
+        2
+      ],
+      [
         3,
-        2
+        1
       ],
       [
         4,
-        2
-      ],
-      [
-        4,
-        3
+        1
       ],
       [
         5,
         2
       ],
       [
-        5,
-        3
+        6,
+        2
       ]
     ]
   },
-  "parMoves": 38,
+  "parMoves": 23,
   "solution": [
     "right",
-    "right",
-    "up",
-    "up",
-    "left",
-    "right",
     "down",
-    "down",
-    "left",
-    "up",
-    "up",
+    "right",
+    "right",
     "down",
     "left",
     "down",
@@ -217,26 +210,18 @@
     "up",
     "up",
     "down",
-    "left",
-    "up",
-    "left",
-    "left",
-    "up",
-    "up",
-    "right",
     "down",
     "left",
-    "down",
-    "right",
-    "right",
-    "down",
-    "right",
-    "right",
-    "right",
     "up",
-    "right",
     "up",
-    "left"
+    "up",
+    "down",
+    "left",
+    "up",
+    "down",
+    "down",
+    "left",
+    "up"
   ],
-  "canonicalWord": "ronde"
+  "canonicalWord": "devra"
 }

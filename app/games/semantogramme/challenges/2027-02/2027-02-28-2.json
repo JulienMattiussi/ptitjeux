@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "huile",
+      "gouache",
+      "spiritual",
+      "confessionnal",
+      "cortège"
+    ],
+    [
+      "couleur",
+      "nouveauté",
+      "pigment",
+      "chevalet",
+      "pinceau"
+    ],
+    [
+      "forum",
+      "acrylique",
+      "expressif",
+      "enduire",
+      "peintre"
+    ],
+    [
+      "fresque",
+      "tableau",
+      "shopping",
+      "toile",
+      "odorante"
+    ],
+    [
+      "colorier",
+      "peinture",
+      "badigeonner",
+      "titane",
+      "frire"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "peindre",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

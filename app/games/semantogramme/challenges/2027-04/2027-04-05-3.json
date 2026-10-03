@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-05-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "symphonie",
+      "trône",
+      "ticket",
+      "aérien",
+      "souterrain",
+      "goudron"
+    ],
+    [
+      "tragique",
+      "baguettes",
+      "station",
+      "tunnel",
+      "fibreux",
+      "rame"
+    ],
+    [
+      "apparition",
+      "rail",
+      "sanction",
+      "transport",
+      "implorer",
+      "menace"
+    ],
+    [
+      "grand-tante",
+      "descendre",
+      "quai",
+      "rapide",
+      "single",
+      "urbain"
+    ],
+    [
+      "monter",
+      "puzzle",
+      "fréquent",
+      "plan",
+      "primate",
+      "envol"
+    ],
+    [
+      "changer",
+      "cimetière",
+      "a-cappella",
+      "tromper",
+      "tessiture",
+      "éducatif"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    5,
+    1,
+    2
+  ],
+  "themeWord": "métro",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

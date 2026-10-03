@@ -16,6 +16,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "verify:levels": "vitest run --config vitest.levels.config.ts",
     "generate:levels": "tsx scripts/generate-levels.ts"
   },
   "dependencies": {

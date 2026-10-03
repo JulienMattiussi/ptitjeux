@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "croquis",
-      "griffonner",
-      "engin",
-      "feuille",
-      "esquisse"
+      "atmosphère",
+      "pierre",
+      "diamant",
+      "fortifier",
+      "préhension"
     ],
     [
-      "fournil",
-      "illustrer",
-      "feutre",
-      "finesse",
-      "tracer"
+      "résistant",
+      "noirâtre",
+      "jubilation",
+      "macaron",
+      "inébranlable"
     ],
     [
-      "délai",
-      "salin",
-      "enfermer",
-      "crayon",
-      "dessinateur"
+      "mur",
+      "tenace",
+      "lichen",
+      "cerne",
+      "fondation"
     ],
     [
-      "esquisser",
-      "pousser",
-      "dessin",
-      "contracter",
-      "consistant"
+      "massif",
+      "fer",
+      "consolider",
+      "béton",
+      "panorama"
     ],
     [
-      "étrenner",
-      "opportuniste",
-      "caricature",
-      "péniche",
-      "caniveau"
+      "roche",
+      "pédale",
+      "durcir",
+      "supporter",
+      "acier"
     ]
   ],
   "rowClues": [
-    4,
     3,
     2,
-    2,
-    1
+    3,
+    4,
+    3
   ],
   "colClues": [
-    2,
-    2,
+    4,
+    3,
     3,
     2,
     3
   ],
-  "themeWord": "dessiner",
+  "themeWord": "solide",
   "solution": [
     [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "concision",
+      "sommaire",
+      "nuit",
+      "instant",
+      "compact"
+    ],
+    [
+      "aperçu",
+      "reprendre",
+      "résumer",
+      "ministériel",
+      "écourter"
+    ],
+    [
+      "engranger",
+      "brièveté",
+      "extrait",
+      "tricot",
+      "bouc"
+    ],
+    [
+      "cannabis",
+      "dédier",
+      "domestiquer",
+      "cuvée",
+      "écourté"
+    ],
+    [
+      "pendre",
+      "minute",
+      "attentif",
+      "représentative",
+      "cirrus"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "court",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-30-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "tendre",
+      "concentrer",
+      "spaghetti",
+      "conducteur",
+      "terrasse",
+      "gratin"
+    ],
+    [
+      "antihistaminique",
+      "texte",
+      "farcie",
+      "thé",
+      "chuchoter",
+      "taches"
+    ],
+    [
+      "jardin",
+      "soupe",
+      "courge",
+      "sauter",
+      "légume",
+      "agate"
+    ],
+    [
+      "utopie",
+      "gradin",
+      "cavalcade",
+      "cambrer",
+      "cylindrique",
+      "tian"
+    ],
+    [
+      "soigné",
+      "glaner",
+      "diplôme",
+      "loupe",
+      "beignet",
+      "quadrilatère"
+    ],
+    [
+      "potager",
+      "allaiter",
+      "cisailler",
+      "estivale",
+      "cucurbitacée",
+      "hurlement"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    4,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    1,
+    4,
+    2
+  ],
+  "themeWord": "courgette",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

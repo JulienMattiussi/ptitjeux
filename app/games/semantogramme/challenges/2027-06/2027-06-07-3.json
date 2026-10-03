@@ -1,0 +1,124 @@
+{
+  "id": "2027-06-07-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "imprimée",
+      "étroit",
+      "éclairé",
+      "box",
+      "silencieux",
+      "plâtre"
+    ],
+    [
+      "fatigué",
+      "zen",
+      "guider",
+      "mener",
+      "tondre",
+      "passage"
+    ],
+    [
+      "saumurer",
+      "parcourir",
+      "violon",
+      "mille",
+      "serpenter",
+      "fario"
+    ],
+    [
+      "traverser",
+      "arctique",
+      "sauterelle",
+      "porte",
+      "femelle",
+      "central"
+    ],
+    [
+      "menant",
+      "longer",
+      "gaze",
+      "chapelet",
+      "empaqueter",
+      "épiderme"
+    ],
+    [
+      "entier",
+      "couloir",
+      "sombre",
+      "cérébral",
+      "pain",
+      "poussin"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "corridor",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

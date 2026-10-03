@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    3,
-    4
+    1,
+    2
   ],
   "walls": [
     [
@@ -102,22 +102,22 @@
     ],
     [
       1,
-      1
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "D",
       "pos": [
-        3,
-        3
+        2,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "U",
       "pos": [
         4,
         3
@@ -125,39 +125,46 @@
     },
     {
       "id": "b3",
-      "letter": "F",
+      "letter": "R",
       "pos": [
-        5,
-        3
+        3,
+        4
       ]
     }
   ],
   "target": {
-    "word": "PAF",
+    "word": "DUR",
     "cells": [
       [
         3,
         2
       ],
       [
-        4,
-        2
+        3,
+        3
       ],
       [
-        5,
-        2
+        4,
+        4
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 14,
   "solution": [
-    "up",
+    "right",
+    "down",
     "down",
     "right",
+    "left",
     "up",
-    "down",
+    "up",
+    "up",
     "right",
-    "up"
+    "right",
+    "right",
+    "down",
+    "down",
+    "left"
   ],
-  "canonicalWord": "paf"
+  "canonicalWord": "dur"
 }

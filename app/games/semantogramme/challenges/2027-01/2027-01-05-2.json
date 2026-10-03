@@ -5,80 +5,80 @@
   "height": 5,
   "words": [
     [
-      "éduquer",
-      "aînée",
-      "élever",
-      "liturgique",
-      "famille"
+      "haleter",
+      "apnée",
+      "rebelle",
+      "expirer",
+      "décliner"
     ],
     [
-      "nouveau-né",
-      "gonflé",
-      "mocassin",
-      "enfant",
-      "discrète"
+      "décoller",
+      "souffler",
+      "expiration",
+      "ample",
+      "inspirer"
     ],
     [
-      "progéniture",
-      "éclat",
-      "étain",
-      "implanter",
-      "voltaire"
+      "allaiter",
+      "souffle",
+      "reptile",
+      "houle",
+      "gorge"
     ],
     [
-      "mère",
-      "domaine",
-      "cadette",
-      "filial",
-      "descendance"
+      "vessie",
+      "élysée",
+      "aspirer",
+      "poumon",
+      "air"
     ],
     [
-      "père",
-      "sureau",
-      "fillette",
-      "facial",
-      "pantin"
+      "asphyxie",
+      "croûte",
+      "oxygène",
+      "capsule",
+      "respiration"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    1,
-    4,
-    2
-  ],
-  "colClues": [
-    4,
-    1,
+    3,
     3,
     2,
-    2
+    3,
+    3
   ],
-  "themeWord": "fille",
+  "colClues": [
+    2,
+    3,
+    3,
+    2,
+    4
+  ],
+  "themeWord": "respirer",
   "solution": [
     [
       true,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       true
     ],
     [
       false,
-      false,
-      false,
       true,
-      false
+      false,
+      false,
+      true
     ],
     [
-      true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
@@ -89,8 +89,8 @@
       false,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

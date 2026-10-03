@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "tennis",
-      "maître",
-      "élève",
-      "professeur"
+      "aile",
+      "siège",
+      "magazine",
+      "hélice"
     ],
     [
-      "classe",
-      "mot",
-      "tableau",
-      "nature"
+      "pilote",
+      "balance",
+      "pédale",
+      "puma"
     ],
     [
-      "instituteur",
-      "cahier",
-      "résultat",
-      "fitness"
+      "garde",
+      "turbine",
+      "café",
+      "hôtesse"
     ],
     [
-      "brûler",
-      "cours",
-      "pédagogie",
-      "amarre"
+      "linge",
+      "atterrissage",
+      "décollage",
+      "récurer"
     ]
   ],
   "rowClues": [
     3,
-    2,
+    1,
     2,
     2
   ],
   "colClues": [
     2,
     3,
-    3,
-    1
+    1,
+    2
   ],
-  "themeWord": "enseignant",
+  "themeWord": "avion",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       false
     ],
     [
-      true,
+      false,
       true,
       false,
-      false
+      true
     ],
     [
       false,
@@ -68,5 +68,5 @@
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-03-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "biberon",
+      "sillet",
+      "varech",
+      "maroquinerie",
+      "détritus",
+      "sang"
+    ],
+    [
+      "oeil",
+      "tournoyer",
+      "gratteler",
+      "cartes",
+      "mouchoir",
+      "cuisine"
+    ],
+    [
+      "tendre",
+      "âge",
+      "ville",
+      "insecte",
+      "asticot",
+      "dodeliner"
+    ],
+    [
+      "veste",
+      "projecteur",
+      "penaud",
+      "pupille",
+      "thésauriser",
+      "voler"
+    ],
+    [
+      "défricher",
+      "patte",
+      "maison",
+      "butiner",
+      "aile",
+      "douceur"
+    ],
+    [
+      "figuier",
+      "pèlerine",
+      "flair",
+      "bourdonnement",
+      "crotte",
+      "antenne"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    1,
+    4,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    1,
+    3,
+    5,
+    3
+  ],
+  "themeWord": "mouche",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

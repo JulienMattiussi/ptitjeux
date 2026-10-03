@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-30-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bec",
+      "plume",
+      "message",
+      "buffet",
+      "minou",
+      "poignée"
+    ],
+    [
+      "oiseau",
+      "roucouler",
+      "sonnet",
+      "imiter",
+      "urbain",
+      "picorer"
+    ],
+    [
+      "propulsion",
+      "voler",
+      "ville",
+      "voyageur",
+      "pâté",
+      "licence"
+    ],
+    [
+      "fouler",
+      "saule",
+      "adorer",
+      "épinard",
+      "révélation",
+      "place"
+    ],
+    [
+      "brassée",
+      "sauterelle",
+      "parc",
+      "singe",
+      "mouillage",
+      "identification"
+    ],
+    [
+      "délégué",
+      "lune",
+      "crotte",
+      "gris",
+      "sanctuaire",
+      "maussade"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    4,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "pigeon",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

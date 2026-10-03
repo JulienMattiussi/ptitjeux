@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-23-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "oxydable",
+      "mat",
+      "voilier",
+      "forger",
+      "malléable"
+    ],
+    [
+      "rafale",
+      "monnaie",
+      "arthrose",
+      "oxyder",
+      "portée"
+    ],
+    [
+      "écorce",
+      "sentir",
+      "vert-de-gris",
+      "orthogonal",
+      "enduire"
+    ],
+    [
+      "rouge",
+      "conduire",
+      "hamster",
+      "parasol",
+      "cible"
+    ],
+    [
+      "métallique",
+      "casserole",
+      "fil",
+      "office",
+      "métal"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    1,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "cuivre",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

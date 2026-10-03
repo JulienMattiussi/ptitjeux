@@ -5,75 +5,107 @@
   "height": 6,
   "words": [
     [
-      "semer",
-      "banlieue",
-      "forme",
-      "jouer",
-      "interpréter",
-      "panique"
+      "tenace",
+      "ordure",
+      "percer",
+      "menton",
+      "mensonge",
+      "félon"
     ],
     [
-      "modestie",
-      "mouvement",
-      "répéter",
-      "attelage",
-      "cellulose",
-      "flash"
+      "voler",
+      "fourbe",
+      "grain",
+      "gérer",
+      "patte",
+      "isocèle"
     ],
     [
-      "grandiose",
-      "orchestre",
-      "nageur",
-      "tonal",
-      "lyrique",
-      "concert"
+      "labour",
+      "erreur",
+      "ébahissement",
+      "corrompu",
+      "corruption",
+      "malhonnêteté"
     ],
     [
-      "écrire",
-      "baguette",
-      "discothèque",
-      "caoutchouc",
-      "oasis",
-      "baguettes"
+      "duplicité",
+      "frauder",
+      "tromper",
+      "rasséréner",
+      "inhalation",
+      "tromperie"
     ],
     [
-      "composer",
-      "graine",
-      "chambre",
-      "mozart",
-      "pratique",
-      "classique"
+      "vol",
+      "arnaque",
+      "fraude",
+      "escroquerie",
+      "mentir",
+      "fonte"
     ],
     [
-      "boxe",
-      "beethoven",
-      "star",
-      "peintre",
-      "caracal",
-      "multiple"
+      "fier",
+      "escroquer",
+      "pochoir",
+      "duper",
+      "servir",
+      "insecticide"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
-    1,
-    5,
-    1,
     4,
+    5,
     2
   ],
   "colClues": [
-    2,
+    3,
     4,
     2,
     3,
-    2,
+    3,
     3
   ],
-  "themeWord": "symphonie",
+  "themeWord": "malhonnête",
   "solution": [
     [
       false,
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       true,
@@ -83,42 +115,10 @@
       false,
       true,
       false,
-      false,
+      true,
       false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

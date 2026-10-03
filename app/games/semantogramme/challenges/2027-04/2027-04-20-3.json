@@ -1,0 +1,124 @@
+{
+  "id": "2027-04-20-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "vis",
+      "extincteur",
+      "fâcher",
+      "gonflable",
+      "visser",
+      "estuaire"
+    ],
+    [
+      "baptême",
+      "clé",
+      "four",
+      "tendu",
+      "piété",
+      "cèpe"
+    ],
+    [
+      "hexagonal",
+      "illumination",
+      "préventif",
+      "frein",
+      "humilier",
+      "serrée"
+    ],
+    [
+      "borgne",
+      "saturer",
+      "filetage",
+      "détonation",
+      "rubis",
+      "boulon"
+    ],
+    [
+      "plat",
+      "serrer",
+      "autobloquant",
+      "enterré",
+      "chaton",
+      "assembler"
+    ],
+    [
+      "rondelle",
+      "bricoler",
+      "desserrer",
+      "lune",
+      "mielleux",
+      "dévisser"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    5,
+    2,
+    3,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "écrou",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

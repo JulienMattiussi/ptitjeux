@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    5
+    1,
+    3
   ],
   "walls": [
     [
@@ -374,94 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "F",
       "pos": [
-        4,
-        4
+        2,
+        1
       ]
     },
     {
       "id": "b2",
       "letter": "U",
       "pos": [
-        2,
-        1
+        3,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "M",
       "pos": [
-        3,
-        1
-      ]
-    },
-    {
-      "id": "b4",
-      "letter": "H",
-      "pos": [
-        4,
+        2,
         3
       ]
     },
     {
-      "id": "b5",
-      "letter": "A",
+      "id": "b4",
+      "letter": "I",
       "pos": [
-        5,
+        8,
         4
       ]
     },
     {
-      "id": "b6",
-      "letter": "S",
+      "id": "b5",
+      "letter": "G",
       "pos": [
-        7,
-        1
+        8,
+        5
+      ]
+    },
+    {
+      "id": "b6",
+      "letter": "E",
+      "pos": [
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "RUCHAS",
+    "word": "FUMIGE",
     "cells": [
       [
-        1,
+        8,
         1
       ],
       [
-        2,
-        1
+        8,
+        2
       ],
       [
-        3,
-        1
+        8,
+        3
       ],
       [
-        4,
-        1
+        8,
+        4
       ],
       [
-        5,
-        1
+        8,
+        5
       ],
       [
-        6,
-        1
+        8,
+        6
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 6,
   "solution": [
-    "up",
-    "left",
-    "up",
     "right",
     "up",
-    "left",
-    "down",
+    "right",
     "left",
     "up",
-    "up"
+    "right"
   ],
-  "canonicalWord": "ruchas"
+  "canonicalWord": "fumige"
 }

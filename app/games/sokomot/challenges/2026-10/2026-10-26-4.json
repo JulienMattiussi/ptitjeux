@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    6
+    6,
+    7
   ],
   "walls": [
     [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "Q",
+      "letter": "G",
       "pos": [
         2,
         1
@@ -382,47 +382,47 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "E",
       "pos": [
         4,
-        5
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "R",
       "pos": [
         5,
-        4
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "R",
+      "letter": "B",
       "pos": [
         6,
-        1
+        6
       ]
     },
     {
       "id": "b5",
-      "letter": "T",
+      "letter": "A",
       "pos": [
         7,
-        1
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "O",
+      "letter": "T",
       "pos": [
-        5,
-        5
+        8,
+        6
       ]
     }
   ],
   "target": {
-    "word": "QUARTO",
+    "word": "GERBAT",
     "cells": [
       [
         3,
@@ -450,18 +450,17 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
     "up",
     "right",
     "up",
-    "down",
-    "right",
-    "up",
-    "up",
     "left",
     "up",
-    "right"
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "quarto"
+  "canonicalWord": "gerbât"
 }

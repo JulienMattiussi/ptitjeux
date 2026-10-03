@@ -1,0 +1,72 @@
+{
+  "id": "2027-03-29-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "givre",
+      "antibiotique",
+      "traîneau",
+      "ordonnance"
+    ],
+    [
+      "extension",
+      "cosse",
+      "posologie",
+      "antalgique"
+    ],
+    [
+      "pharmacie",
+      "raccourcir",
+      "pimenter",
+      "brasse"
+    ],
+    [
+      "placebo",
+      "set",
+      "pilule",
+      "migration"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "médicament",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

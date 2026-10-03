@@ -5,55 +5,55 @@
   "height": 4,
   "words": [
     [
-      "morille",
-      "rang",
-      "graine",
-      "jardinier"
+      "piano",
+      "tondeuse",
+      "crédit",
+      "euro"
     ],
     [
-      "carotte",
-      "haricot",
-      "puce",
-      "galet"
+      "dette",
+      "humecter",
+      "base",
+      "dollar"
     ],
     [
-      "parcelle",
-      "fourreau",
-      "tomate",
-      "accéder"
+      "salaire",
+      "proton",
+      "billet",
+      "shopping"
     ],
     [
-      "courgette",
-      "spiritualité",
-      "arrosoir",
-      "légume"
+      "comprendre",
+      "intérêt",
+      "caillouteux",
+      "budget"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
     2,
     3
   ],
-  "colClues": [
-    3,
-    2,
-    3,
-    2
-  ],
-  "themeWord": "potager",
+  "themeWord": "argent",
   "solution": [
     [
       false,
-      true,
+      false,
       true,
       true
     ],
     [
       true,
-      true,
       false,
-      false
+      false,
+      true
     ],
     [
       true,
@@ -62,11 +62,11 @@
       false
     ],
     [
-      true,
       false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

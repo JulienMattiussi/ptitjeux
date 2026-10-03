@@ -5,65 +5,65 @@
   "height": 4,
   "words": [
     [
-      "cheminer",
-      "lanterne",
-      "magenta",
-      "lampadaire"
+      "irréel",
+      "cumin",
+      "romarin",
+      "cirrhotique"
     ],
     [
-      "veilleuse",
-      "abat-jour",
-      "bougie",
-      "mystère"
+      "fenouil",
+      "enfer",
+      "curcuma",
+      "beugler"
     ],
     [
-      "ampoule",
-      "lustre",
-      "imam",
-      "arranger"
+      "tête",
+      "frimas",
+      "aneth",
+      "braise"
     ],
     [
-      "pulmonaire",
-      "dessert",
-      "roquette",
-      "lumière"
+      "paprika",
+      "safran",
+      "plan",
+      "thym"
     ]
   ],
   "rowClues": [
     2,
-    3,
     2,
-    1
+    1,
+    3
   ],
   "colClues": [
     2,
+    2,
     3,
-    1,
-    2
+    1
   ],
-  "themeWord": "lampe",
+  "themeWord": "épice",
   "solution": [
     [
       false,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false
     ],
     [
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true
     ]

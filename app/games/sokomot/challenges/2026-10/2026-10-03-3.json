@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    3
+    2,
+    2
   ],
   "walls": [
     [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "M",
       "pos": [
         2,
         3
@@ -141,100 +141,85 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "O",
       "pos": [
         2,
-        4
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "Y",
+      "pos": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "E",
       "pos": [
         5,
         4
       ]
     },
     {
-      "id": "b4",
-      "letter": "A",
-      "pos": [
-        4,
-        2
-      ]
-    },
-    {
       "id": "b5",
       "letter": "S",
       "pos": [
-        4,
-        3
+        5,
+        2
       ]
     }
   ],
   "target": {
-    "word": "PUNAS",
+    "word": "MOYES",
     "cells": [
       [
-        2,
-        2
+        1,
+        3
       ],
       [
         2,
-        3
+        4
       ],
       [
         3,
-        3
-      ],
-      [
-        4,
-        3
+        4
       ],
       [
         4,
         4
+      ],
+      [
+        5,
+        3
       ]
     ]
   },
-  "parMoves": 36,
+  "parMoves": 21,
   "solution": [
-    "up",
-    "left",
-    "left",
-    "down",
-    "down",
-    "right",
-    "up",
-    "right",
-    "up",
     "right",
     "down",
-    "down",
-    "left",
-    "down",
-    "down",
-    "right",
-    "up",
-    "right",
-    "up",
-    "right",
-    "up",
-    "left",
     "left",
     "up",
     "up",
     "right",
+    "right",
+    "right",
     "down",
     "right",
+    "down",
     "down",
     "left",
     "down",
     "down",
     "left",
     "left",
+    "up",
+    "down",
     "left",
     "up"
   ],
-  "canonicalWord": "punas"
+  "canonicalWord": "moyés"
 }

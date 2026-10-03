@@ -1,0 +1,96 @@
+{
+  "id": "2027-05-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "central",
+      "briller",
+      "caméléon",
+      "vendre",
+      "lampe"
+    ],
+    [
+      "agir",
+      "radieux",
+      "déshydrater",
+      "dauphin",
+      "illuminer"
+    ],
+    [
+      "pâlir",
+      "soleil",
+      "étoile",
+      "étinceler",
+      "tige"
+    ],
+    [
+      "bougie",
+      "mérinos",
+      "piloter",
+      "resplendissant",
+      "dépoussiérer"
+    ],
+    [
+      "lustre",
+      "volter",
+      "éclat",
+      "projecteur",
+      "rayonner"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "lumineux",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "gaspacho",
-      "erreur",
-      "bricolage",
-      "cuisine"
+      "serval",
+      "tigre",
+      "lynx",
+      "risquer"
     ],
     [
-      "lame",
-      "aiguiser",
-      "pointe",
-      "flamboyant"
+      "tempête",
+      "ventre",
+      "ocelot",
+      "guépard"
     ],
     [
-      "fourreau",
-      "manche",
-      "bec",
-      "chat"
+      "limpidité",
+      "minéral",
+      "grand-mère",
+      "lion"
     ],
     [
-      "rotule",
-      "office",
-      "tranche",
-      "trancher"
+      "habile",
+      "chandelier",
+      "chat",
+      "nature"
     ]
   ],
   "rowClues": [
-    1,
     3,
     2,
-    3
+    1,
+    1
   ],
   "colClues": [
-    2,
+    1,
+    1,
     3,
-    2,
     2
   ],
-  "themeWord": "couteau",
+  "themeWord": "félin",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
       true,
       false
     ],
     [
-      true,
-      true,
       false,
-      false
+      false,
+      true,
+      true
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-03-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vin",
+      "guignol",
+      "bouteille",
+      "casier",
+      "obscurité"
+    ],
+    [
+      "russule",
+      "descendre",
+      "vieillir",
+      "tonneau",
+      "humidité"
+    ],
+    [
+      "gambade",
+      "frais",
+      "voûte",
+      "amertume",
+      "arche"
+    ],
+    [
+      "triceps",
+      "stocker",
+      "voûtée",
+      "hanter",
+      "pâlir"
+    ],
+    [
+      "spectral",
+      "sombre",
+      "mégapixel",
+      "quadratique",
+      "foret"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    4,
+    4,
+    2,
+    2
+  ],
+  "themeWord": "cave",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

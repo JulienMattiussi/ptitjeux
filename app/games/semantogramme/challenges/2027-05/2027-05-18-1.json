@@ -1,0 +1,72 @@
+{
+  "id": "2027-05-18-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "peloton",
+      "vanille",
+      "chiffon",
+      "azur"
+    ],
+    [
+      "meuglement",
+      "cicatrice",
+      "serpillière",
+      "briquer"
+    ],
+    [
+      "récent",
+      "détergent",
+      "surdité",
+      "éponge"
+    ],
+    [
+      "poussière",
+      "épousseter",
+      "savon",
+      "parallèle"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "ménage",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

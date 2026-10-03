@@ -5,129 +5,138 @@
   "height": 7,
   "words": [
     [
-      "mi",
-      "troupeau",
-      "chasser",
-      "transfert",
-      "fluer",
-      "pinceau",
-      "aigle"
+      "précis",
+      "indiquer",
+      "alcool",
+      "jeannot",
+      "imprévu",
+      "cargo",
+      "cadran"
     ],
     [
-      "silencieux",
-      "guetteur",
-      "embarras",
-      "florissante",
-      "pelage",
-      "boréale",
-      "sismique"
+      "matinale",
+      "ketchup",
+      "danse",
+      "mesurer",
+      "mercure",
+      "abondance",
+      "carnaval"
     ],
     [
-      "oreille",
-      "évocation",
-      "citron",
-      "cuivré",
-      "casse-croûte",
-      "solitaire",
-      "griffes"
+      "boire",
+      "ombelle",
+      "météo",
+      "amethyste",
+      "crapaud",
+      "parisien",
+      "remonter"
     ],
     [
-      "forêt",
-      "bondir",
-      "vertèbre",
-      "sauvage",
-      "félin",
-      "frôlement",
-      "alpine"
-    ],
-    [
-      "trou",
-      "taon",
-      "agile",
-      "blatte",
-      "défiler",
+      "lamartine",
+      "esquisse",
+      "descendre",
+      "récréation",
       "degré",
-      "os"
+      "monter",
+      "cérumen"
     ],
     [
-      "escroquer",
-      "éventer",
-      "espace",
-      "tisane",
-      "guetter",
-      "thémis",
-      "tournedisque"
+      "radis",
+      "jonquille",
+      "modestie",
+      "instrument",
+      "observer",
+      "laminaire",
+      "fièvre"
     ],
     [
-      "allegro",
-      "malfaiteur",
-      "thème",
-      "portée",
-      "shooter",
-      "esquive",
-      "aiguë"
+      "numérique",
+      "scier",
+      "choix",
+      "wifi",
+      "violet",
+      "seau",
+      "environnemental"
+    ],
+    [
+      "atlantique",
+      "communion",
+      "fahrenheit",
+      "sibérie",
+      "comédien",
+      "gain",
+      "scientifique"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    3,
     4,
-    1,
-    1,
-    1
-  ],
-  "colClues": [
-    3,
-    1,
     2,
     1,
     3,
     3,
+    1,
     2
   ],
-  "themeWord": "lynx",
+  "colClues": [
+    2,
+    1,
+    4,
+    2,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "thermomètre",
   "solution": [
     [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
       true,
       false
     ],
     [
-      true,
       false,
       false,
       false,
       true,
       true,
-      false
-    ],
-    [
-      true,
       false,
-      false,
-      false,
-      false,
-      true,
       true
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      true,
       false,
       false,
       false,
@@ -136,21 +145,12 @@
     [
       false,
       false,
-      false,
-      false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

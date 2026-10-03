@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "interminable",
+      "masse",
+      "tactile",
+      "calculer",
+      "chagrin"
+    ],
+    [
+      "pleurer",
+      "peine",
+      "deuil",
+      "consacrer",
+      "mélancolie"
+    ],
+    [
+      "minimaliste",
+      "douleur",
+      "houle",
+      "nocturne",
+      "vertigineux"
+    ],
+    [
+      "voluptueuse",
+      "s'affliger",
+      "sécateur",
+      "sangloter",
+      "tristesse"
+    ],
+    [
+      "sanglot",
+      "lugubre",
+      "nausée",
+      "morosité",
+      "oisiveté"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "triste",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

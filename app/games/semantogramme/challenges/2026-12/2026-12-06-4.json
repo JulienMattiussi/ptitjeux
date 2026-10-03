@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "envahissant",
-      "indésirable",
-      "lassant",
-      "paisible",
-      "consumer",
+      "farine",
+      "cerise",
+      "orthoptère",
+      "clarinette",
+      "oeuf",
+      "cochon",
+      "verser"
+    ],
+    [
+      "sucre",
+      "basmati",
+      "préparer",
+      "entomologue",
+      "pâture",
+      "cuisine",
+      "rustique"
+    ],
+    [
+      "mûr",
+      "érudit",
       "pénible",
-      "visiteur"
+      "crypter",
+      "poncer",
+      "maternité",
+      "reportage"
     ],
     [
-      "sentier",
-      "souffler",
-      "étudiant",
-      "banquier",
-      "pesant",
-      "dépouillé",
-      "agacer"
+      "cuire",
+      "maussade",
+      "décoration",
+      "girolle",
+      "familial",
+      "sagesse",
+      "saule"
     ],
     [
-      "arc",
-      "élégante",
-      "ennuyeux",
-      "irriter",
-      "inopportun",
-      "tenace",
-      "tannin"
+      "foulard",
+      "mijoter",
+      "conquérir",
+      "devise",
+      "noyau",
+      "jalousie",
+      "apnée"
     ],
     [
-      "pygargue",
-      "patron",
-      "séisme",
-      "causer",
-      "envahir",
-      "précoce",
-      "air"
+      "explosion",
+      "maladroit",
+      "limousin",
+      "pâte",
+      "traditionnel",
+      "transylvanie",
+      "savourer"
     ],
     [
-      "chant",
-      "aloès",
-      "rougeur",
-      "résigner",
-      "importuner",
-      "vésicule",
-      "supprimer"
-    ],
-    [
-      "pieuse",
-      "fatiguer",
-      "orangé",
-      "bâtiment",
-      "sculpté",
-      "mal-venu",
-      "crabe"
-    ],
-    [
-      "gênant",
-      "intrus",
-      "fâcheux",
-      "consommer",
-      "déranger",
-      "choquer",
-      "allergique"
+      "minimaliste",
+      "habitable",
+      "intérêt",
+      "four",
+      "majestueuse",
+      "matelas",
+      "menace"
     ]
   ],
   "rowClues": [
-    5,
+    4,
+    4,
+    1,
+    2,
+    1,
+    4,
+    1
+  ],
+  "colClues": [
+    4,
+    1,
+    2,
     2,
     4,
     1,
-    1,
-    2,
-    4
+    3
   ],
-  "colClues": [
-    2,
-    3,
-    3,
-    1,
-    5,
-    3,
-    2
-  ],
-  "themeWord": "importun",
+  "themeWord": "clafoutis",
   "solution": [
     [
       true,
       true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       false,
       true,
@@ -107,12 +98,30 @@
       true
     ],
     [
+      true,
+      false,
+      true,
       false,
       false,
       true,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
       true,
+      false,
       false
     ],
     [
@@ -127,30 +136,21 @@
     [
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false,
-      false
+      true
     ],
     [
       false,
-      true,
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

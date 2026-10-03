@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-08-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "orange",
+      "sucrée",
+      "amère",
+      "poule",
+      "velours",
+      "juteuse"
+    ],
+    [
+      "cardiaque",
+      "médicale",
+      "fauconnerie",
+      "cueillette",
+      "caniculaire",
+      "passager"
+    ],
+    [
+      "liqueur",
+      "paysan",
+      "peloton",
+      "anguille",
+      "souiller",
+      "sécurité"
+    ],
+    [
+      "tarte",
+      "gourmandise",
+      "éjecter",
+      "ébénisterie",
+      "pivoine",
+      "vétiver"
+    ],
+    [
+      "porte",
+      "odorante",
+      "soufflé",
+      "compote",
+      "sciure",
+      "patinette"
+    ],
+    [
+      "pulpe",
+      "fruit",
+      "rose",
+      "char",
+      "éplucher",
+      "duveteux"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    1,
+    2,
+    2,
+    5
+  ],
+  "colClues": [
+    4,
+    4,
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "pêche",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

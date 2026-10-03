@@ -1,0 +1,124 @@
+{
+  "id": "2027-03-01-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "battre",
+      "tache",
+      "rétroviseur",
+      "attacher",
+      "essuyer",
+      "avarice"
+    ],
+    [
+      "pèlerin",
+      "feu",
+      "sépia",
+      "minimaliste",
+      "géologie",
+      "siège"
+    ],
+    [
+      "défaite",
+      "gestation",
+      "freiner",
+      "pommier",
+      "roue",
+      "vespa"
+    ],
+    [
+      "casque",
+      "clair",
+      "plateforme",
+      "caravane",
+      "démarrer",
+      "box"
+    ],
+    [
+      "guidon",
+      "manta",
+      "agile",
+      "selle",
+      "moteur",
+      "béarnaise"
+    ],
+    [
+      "tourteau",
+      "vacarme",
+      "urbain",
+      "deux-roues",
+      "amasser",
+      "pratique"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    5,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "scooter",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

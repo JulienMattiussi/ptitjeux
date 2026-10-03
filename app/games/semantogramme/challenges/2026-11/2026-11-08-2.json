@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "algèbre",
-      "ride",
-      "réfléchir",
-      "alimentaire",
-      "frêne"
+      "peloton",
+      "déménagement",
+      "opposition",
+      "mystérieux",
+      "haut"
     ],
     [
-      "moto",
-      "solution",
-      "résoudre",
-      "algébrique",
-      "développer"
+      "toit",
+      "fouiller",
+      "bouche",
+      "lucarne",
+      "oublié"
     ],
     [
-      "lever",
-      "simplifier",
-      "inconnue",
-      "démon",
-      "résolution"
+      "souvenir",
+      "monter",
+      "candidat",
+      "peigne",
+      "sombre"
     ],
     [
-      "chanson",
-      "sanctuaire",
-      "âme",
-      "mathématique",
-      "membre"
+      "caravane",
+      "tag",
+      "malle",
+      "ranger",
+      "piocher"
     ],
     [
-      "cacahuète",
-      "variable",
-      "wagner",
-      "fossile",
-      "archive"
+      "creuser",
+      "levier",
+      "araignée",
+      "culotte",
+      "poutre"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     4,
     3,
     2,
-    1
+    2
   ],
   "colClues": [
-    1,
+    2,
+    2,
+    2,
     3,
-    2,
-    2,
-    3
+    4
   ],
-  "themeWord": "équation",
+  "themeWord": "grenier",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       false,
+      true
+    ],
+    [
       false,
+      false,
+      true,
+      true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
-      true,
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

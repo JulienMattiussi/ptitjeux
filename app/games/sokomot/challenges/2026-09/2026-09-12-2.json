@@ -4,7 +4,7 @@
   "width": 8,
   "height": 7,
   "player": [
-    3,
+    2,
     5
   ],
   "walls": [
@@ -115,59 +115,63 @@
   ],
   "ice": [
     [
+      2,
+      3
+    ],
+    [
       3,
       3
     ],
     [
-      4,
-      2
+      3,
+      1
     ],
     [
       5,
-      2
-    ],
-    [
-      6,
       2
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "M",
+      "letter": "F",
+      "pos": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "b2",
+      "letter": "L",
       "pos": [
         3,
         4
       ]
     },
     {
-      "id": "b2",
+      "id": "b3",
       "letter": "O",
       "pos": [
-        4,
-        3
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "R",
-      "pos": [
-        5,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "T",
+      "letter": "U",
       "pos": [
-        6,
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "MORT",
+    "word": "FLOU",
     "cells": [
+      [
+        2,
+        2
+      ],
       [
         3,
         2
@@ -179,24 +183,23 @@
       [
         5,
         1
-      ],
-      [
-        6,
-        1
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 12,
   "solution": [
     "up",
-    "right",
-    "up",
     "down",
     "right",
     "up",
-    "down",
     "right",
-    "up"
+    "right",
+    "up",
+    "left",
+    "left",
+    "up",
+    "up",
+    "right"
   ],
-  "canonicalWord": "mort"
+  "canonicalWord": "flou"
 }

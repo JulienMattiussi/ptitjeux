@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "delta",
-      "ossuaire",
-      "soda",
-      "squelette",
-      "trône"
-    ],
-    [
-      "fracturer",
-      "rendement",
-      "côte",
-      "osseux",
-      "tibia"
-    ],
-    [
-      "mâchoire",
-      "sénat",
-      "intelligence",
-      "vertèbre",
-      "télévision"
-    ],
-    [
+      "aînée",
+      "écossais",
+      "sororité",
       "rotule",
-      "occiput",
-      "fémur",
-      "couture",
-      "cartilage"
+      "boxe"
     ],
     [
-      "rose",
-      "rocaille",
-      "moelle",
-      "rigoler",
-      "analytique"
+      "artistique",
+      "famille",
+      "maillot",
+      "cadette",
+      "libellule"
+    ],
+    [
+      "fratrie",
+      "enfance",
+      "aiguisoir",
+      "parent",
+      "fraternel"
+    ],
+    [
+      "partager",
+      "baisser",
+      "dé",
+      "germaine",
+      "costume"
+    ],
+    [
+      "consanguin",
+      "bave",
+      "jumelle",
+      "frère",
+      "étreindre"
     ]
   ],
   "rowClues": [
     2,
+    2,
     4,
     2,
-    3,
-    1
+    3
   ],
   "colClues": [
-    3,
-    1,
-    3,
-    3,
-    2
+    4,
+    2,
+    2,
+    4,
+    1
   ],
-  "themeWord": "os",
+  "themeWord": "soeur",
   "solution": [
     [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
@@ -65,8 +72,8 @@
     ],
     [
       true,
-      false,
       true,
+      false,
       true,
       true
     ],
@@ -81,16 +88,9 @@
       true,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      false,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

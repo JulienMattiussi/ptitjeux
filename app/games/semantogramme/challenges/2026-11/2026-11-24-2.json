@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "foudroyer",
-      "scie",
-      "cardio",
-      "casse-croûte",
-      "artère"
+      "tisonner",
+      "baiser",
+      "lumineux",
+      "sablon",
+      "limpidité"
     ],
     [
-      "veine",
-      "battre",
-      "hisser",
-      "ambrée",
-      "cardiogramme"
+      "clarifier",
+      "pureté",
+      "symbiose",
+      "obscure",
+      "cristallin"
     ],
     [
-      "battement",
-      "aorte",
-      "énigme",
-      "minute",
-      "thorax"
+      "translucide",
+      "gants",
+      "aube",
+      "épépiner",
+      "bûche"
     ],
     [
-      "ventricule",
-      "loyal",
-      "pompe",
-      "sang",
-      "palpiter"
+      "éclairer",
+      "bêche",
+      "grave",
+      "transparent",
+      "rapidité"
     ],
     [
-      "pulsation",
-      "cardiaque",
-      "beignet",
-      "aimer",
-      "silence"
+      "jour",
+      "client",
+      "transparence",
+      "lucarne",
+      "pencher"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    4,
-    3
+    2,
+    2,
+    2
   ],
   "colClues": [
     4,
+    1,
     3,
-    2,
-    2,
-    4
+    1,
+    2
   ],
-  "themeWord": "coeur",
+  "themeWord": "clair",
   "solution": [
     [
       false,
@@ -72,25 +72,25 @@
     ],
     [
       true,
+      false,
       true,
       false,
-      false,
-      true
+      false
     ],
     [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

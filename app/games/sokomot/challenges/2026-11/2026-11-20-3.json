@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    2
+    4,
+    1
   ],
   "walls": [
     [
@@ -133,31 +133,31 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "C",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "O",
       "pos": [
-        5,
-        4
+        3,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "G",
+      "letter": "U",
       "pos": [
-        3,
-        5
+        6,
+        2
       ]
     },
     {
       "id": "b4",
-      "letter": "L",
+      "letter": "V",
       "pos": [
         4,
         2
@@ -167,67 +167,63 @@
       "id": "b5",
       "letter": "E",
       "pos": [
-        6,
+        5,
         3
       ]
     }
   ],
   "target": {
-    "word": "AIGLE",
+    "word": "COUVE",
     "cells": [
       [
-        4,
+        2,
         2
       ],
       [
-        5,
-        3
+        3,
+        2
+      ],
+      [
+        4,
+        1
       ],
       [
         5,
-        4
+        2
       ],
       [
         6,
         3
-      ],
-      [
-        7,
-        3
       ]
     ]
   },
-  "parMoves": 29,
+  "parMoves": 25,
   "solution": [
-    "right",
+    "down",
+    "left",
     "right",
     "down",
     "right",
+    "up",
+    "up",
+    "right",
+    "right",
+    "down",
+    "left",
+    "left",
     "down",
     "down",
+    "down",
     "left",
+    "up",
+    "left",
+    "up",
+    "right",
     "up",
     "down",
     "down",
-    "left",
-    "left",
-    "up",
-    "left",
-    "up",
     "right",
-    "right",
-    "left",
-    "left",
-    "up",
-    "left",
-    "up",
-    "right",
-    "right",
-    "up",
-    "right",
-    "right",
-    "right",
-    "down"
+    "up"
   ],
-  "canonicalWord": "aigle"
+  "canonicalWord": "couve"
 }

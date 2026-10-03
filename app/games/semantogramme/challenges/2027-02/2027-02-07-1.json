@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-07-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "rocher",
+      "vulnérabilité",
+      "carapace",
+      "araignée"
+    ],
+    [
+      "déguisement",
+      "tourteau",
+      "patte",
+      "contemporain"
+    ],
+    [
+      "pince",
+      "petit-déjeuner",
+      "barbecue",
+      "crustacé"
+    ],
+    [
+      "menton",
+      "sable",
+      "antenne",
+      "plage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "crabe",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

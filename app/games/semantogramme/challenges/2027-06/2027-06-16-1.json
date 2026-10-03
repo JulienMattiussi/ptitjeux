@@ -1,0 +1,72 @@
+{
+  "id": "2027-06-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "échouer",
+      "supporter",
+      "panier",
+      "rayon"
+    ],
+    [
+      "cabine",
+      "bondir",
+      "basse",
+      "crépusculaire"
+    ],
+    [
+      "baignade",
+      "caisse",
+      "dos",
+      "vitrine"
+    ],
+    [
+      "expiration",
+      "étalage",
+      "enseigne",
+      "client"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "magasin",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

@@ -5,106 +5,97 @@
   "height": 7,
   "words": [
     [
-      "temple",
-      "persistante",
-      "veau",
-      "helicobacter",
-      "domestiquer",
-      "autel",
-      "célébrer"
+      "âge",
+      "paella",
+      "trottoir",
+      "carnac",
+      "bambin",
+      "meurtre",
+      "courbé"
     ],
     [
-      "congeler",
-      "idyllique",
-      "religieux",
-      "adorer",
-      "morigéner",
-      "effeuiller",
-      "orné"
+      "tumulus",
+      "refroidissement",
+      "allemand",
+      "village",
+      "élevage",
+      "concision",
+      "loyer"
     ],
     [
-      "orfèvrerie",
-      "astronomique",
-      "présent",
-      "central",
-      "eucharistie",
-      "binette",
-      "liturgique"
+      "debord",
+      "illustrer",
+      "violent",
+      "écu",
+      "pierre",
+      "préhistoire",
+      "civilisation"
     ],
     [
-      "incommensurable",
-      "égalité",
-      "précieux",
-      "évolution",
-      "fossette",
-      "voile",
-      "arrogance"
+      "préhistorique",
+      "polie",
+      "freud",
+      "double",
+      "cajoler",
+      "fosse",
+      "fortune"
     ],
     [
-      "plutonique",
-      "conserver",
-      "capter",
-      "rapetisser",
-      "hostie",
-      "bébé",
-      "sacré"
+      "active",
+      "leash",
+      "récent",
+      "dolmen",
+      "poterie",
+      "tétanos",
+      "selle"
     ],
     [
-      "inorganique",
-      "mélancolique",
-      "liturgie",
-      "mystique",
-      "pétale",
-      "varan",
-      "nid"
+      "tissage",
+      "propice",
+      "activité",
+      "sédentarisation",
+      "amère",
+      "bol",
+      "aiguisoir"
     ],
     [
-      "volley",
-      "larynx",
-      "enfermer",
-      "massive",
-      "ange",
-      "kilo",
-      "silhouette"
+      "mer",
+      "menhir",
+      "enrouée",
+      "index",
+      "tiède",
+      "cierge",
+      "tigre"
     ]
   ],
   "rowClues": [
+    2,
     3,
     3,
-    4,
     2,
     3,
     2,
     1
   ],
   "colClues": [
+    4,
     2,
     1,
     4,
     3,
-    2,
-    2,
-    4
+    1,
+    1
   ],
-  "themeWord": "tabernacle",
+  "themeWord": "néolithique",
   "solution": [
     [
       true,
       false,
       false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false,
       false,
-      true
+      false
     ],
     [
       true,
@@ -113,31 +104,22 @@
       true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
       false
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
       true,
-      false,
       true
     ],
     [
-      false,
-      false,
       true,
       true,
+      false,
+      false,
       false,
       false,
       false
@@ -146,11 +128,29 @@
       false,
       false,
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

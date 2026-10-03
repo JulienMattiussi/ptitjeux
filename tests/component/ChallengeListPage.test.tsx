@@ -11,11 +11,11 @@ function renderPage(initialUrl = '/sokomot') {
   // `getLevelParMoves` retourne `undefined` partout et `LevelTile` n'a
   // pas de quoi calculer un statut perfect/solved.
   const dates = [
-    '2026-04-01',
-    '2026-04-15',
-    '2026-05-01',
-    '2026-05-05',
-    '2026-05-11', // = today (fourni par currentDate de la session)
+    '2026-09-01',
+    '2026-09-15',
+    '2026-10-01',
+    '2026-10-02',
+    '2026-10-03', // = today (fourni par currentDate de la session)
   ]
   render(
     <MemoryRouter initialEntries={[initialUrl]}>
@@ -45,7 +45,7 @@ describe('ChallengeListPage', () => {
     expect(screen.getByText('Description du jeu Sokomot.')).toBeInTheDocument()
   })
 
-  it("affiche une section « Défi du jour » avec 4 niveaux", () => {
+  it('affiche une section « Défi du jour » avec 4 niveaux', () => {
     renderPage()
     expect(screen.getByRole('heading', { name: /Défi du jour/ })).toBeInTheDocument()
     expect(screen.getAllByText(/Niveau \d/).length).toBeGreaterThanOrEqual(4)
@@ -60,7 +60,7 @@ describe('ChallengeListPage', () => {
   })
 
   it('déverrouille le niveau 2 quand le niveau 1 est résolu', () => {
-    writeLevelProgress('sokomot', levelKey('2026-05-11', 1), { completed: true, bestMoves: 100 })
+    writeLevelProgress('sokomot', levelKey('2026-10-03', 1), { completed: true, bestMoves: 100 })
     renderPage()
     expect(screen.queryByLabelText(/Niveau 2 verrouillé/)).toBeNull()
   })
@@ -71,32 +71,32 @@ describe('ChallengeListPage', () => {
   })
 
   it("ouvre le mois correspondant à ?from=YYYY-MM-DD à l'arrivée", async () => {
-    renderPage('/sokomot?from=2026-04-15')
-    // Le mois d'avril doit être ouvert : on retrouve une ligne pour la date.
-    // dateLabelShort produit « mer. 15 ».
-    expect(await screen.findByText(/mer\. 15/)).toBeInTheDocument()
+    renderPage('/sokomot?from=2026-09-15')
+    // Le mois de septembre doit être ouvert : on retrouve une ligne pour la date.
+    // dateLabelShort produit « mar. 15 ».
+    expect(await screen.findByText(/mar\. 15/)).toBeInTheDocument()
   })
 
   it('replie/déplie un mois au clic sur son entête', async () => {
     const user = userEvent.setup()
     renderPage()
-    // Plusieurs mois affichés, le plus récent (mai 2026) ouvert par défaut.
-    const mayHeader = screen.getByRole('button', { name: /mai 2026/i })
-    expect(mayHeader).toHaveAttribute('aria-expanded', 'true')
-    await user.click(mayHeader)
-    expect(mayHeader).toHaveAttribute('aria-expanded', 'false')
+    // Plusieurs mois affichés, le plus récent (octobre 2026) ouvert par défaut.
+    const octoberHeader = screen.getByRole('button', { name: /octobre 2026/i })
+    expect(octoberHeader).toHaveAttribute('aria-expanded', 'true')
+    await user.click(octoberHeader)
+    expect(octoberHeader).toHaveAttribute('aria-expanded', 'false')
   })
 
-  it("ouvre un seul mois à la fois (accordéon mutuellement exclusif)", async () => {
+  it('ouvre un seul mois à la fois (accordéon mutuellement exclusif)', async () => {
     const user = userEvent.setup()
     renderPage()
-    const mayHeader = screen.getByRole('button', { name: /mai 2026/i })
-    const aprilHeader = screen.getByRole('button', { name: /avril 2026/i })
-    expect(mayHeader).toHaveAttribute('aria-expanded', 'true')
-    expect(aprilHeader).toHaveAttribute('aria-expanded', 'false')
-    await user.click(aprilHeader)
-    expect(aprilHeader).toHaveAttribute('aria-expanded', 'true')
-    expect(mayHeader).toHaveAttribute('aria-expanded', 'false')
+    const octoberHeader = screen.getByRole('button', { name: /octobre 2026/i })
+    const septemberHeader = screen.getByRole('button', { name: /septembre 2026/i })
+    expect(octoberHeader).toHaveAttribute('aria-expanded', 'true')
+    expect(septemberHeader).toHaveAttribute('aria-expanded', 'false')
+    await user.click(septemberHeader)
+    expect(septemberHeader).toHaveAttribute('aria-expanded', 'true')
+    expect(octoberHeader).toHaveAttribute('aria-expanded', 'false')
   })
 
   it("affiche les 4 tuiles de niveau pour chaque jour d'archive", () => {
@@ -105,14 +105,14 @@ describe('ChallengeListPage', () => {
     // niveau pour une date d'archive (≠ today) du dataset.
     const archive = screen
       .getAllByRole('link')
-      .filter((a) => a.getAttribute('href')?.startsWith('/sokomot/2026-05-05/'))
+      .filter((a) => a.getAttribute('href')?.startsWith('/sokomot/2026-10-02/'))
     expect(archive).toHaveLength(4)
   })
 
   it('couronne « perfect » au header du jour si tous les niveaux du jour sont parfaits', () => {
     // Marque les 4 niveaux comme perfect (bestMoves = 1 ≤ parMoves).
     for (const i of [1, 2, 3, 4]) {
-      writeLevelProgress('sokomot', levelKey('2026-05-11', i), {
+      writeLevelProgress('sokomot', levelKey('2026-10-03', i), {
         completed: true,
         bestMoves: 1,
       })

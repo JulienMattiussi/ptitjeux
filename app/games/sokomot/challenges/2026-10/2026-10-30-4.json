@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     6,
-    1
+    7
   ],
   "walls": [
     [
@@ -374,10 +374,10 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "V",
       "pos": [
         2,
-        7
+        1
       ]
     },
     {
@@ -385,82 +385,82 @@
       "letter": "O",
       "pos": [
         4,
-        7
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "L",
       "pos": [
         5,
-        7
+        1
       ]
     },
     {
       "id": "b4",
-      "letter": "P",
+      "letter": "I",
       "pos": [
         6,
-        2
+        6
       ]
     },
     {
       "id": "b5",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         7,
-        3
+        5
       ]
     },
     {
       "id": "b6",
-      "letter": "I",
+      "letter": "Z",
       "pos": [
         8,
-        2
+        6
       ]
     }
   ],
   "target": {
-    "word": "COUPAI",
+    "word": "VOLIEZ",
     "cells": [
       [
         3,
-        7
+        1
       ],
       [
         4,
-        7
+        1
       ],
       [
         5,
-        7
+        1
       ],
       [
         6,
-        7
+        1
       ],
       [
         7,
-        7
+        1
       ],
       [
         8,
-        7
+        1
       ]
     ]
   },
   "parMoves": 9,
   "solution": [
-    "down",
-    "right",
-    "down",
-    "left",
-    "down",
-    "right",
     "up",
     "right",
-    "down"
+    "up",
+    "left",
+    "up",
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "coupai"
+  "canonicalWord": "voliez"
 }

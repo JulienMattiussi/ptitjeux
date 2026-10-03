@@ -5,83 +5,83 @@
   "height": 6,
   "words": [
     [
-      "baroque",
-      "soliste",
-      "orchestre",
-      "grave",
-      "mélodieux",
-      "tombée"
-    ],
-    [
-      "illustrer",
-      "exotique",
-      "console",
-      "spéléologie",
-      "infecter",
-      "instrument"
-    ],
-    [
-      "cobaye",
-      "expressif",
-      "corde",
-      "tactile",
-      "simplet",
-      "archet"
-    ],
-    [
-      "plastron",
-      "caisse",
-      "profond",
-      "beau",
-      "lyrique",
-      "idylle"
-    ],
-    [
-      "pellicule",
-      "capituler",
-      "étirer",
-      "jambe",
-      "jouer",
-      "globule"
-    ],
-    [
-      "pincer",
-      "bpm",
-      "boulon",
-      "foudroyer",
+      "arrondie",
+      "profonde",
+      "cuisine",
       "manche",
-      "classique"
+      "plongeon",
+      "compter"
+    ],
+    [
+      "enregistrer",
+      "ronde",
+      "armoire",
+      "biblique",
+      "havresac",
+      "grande"
+    ],
+    [
+      "reculer",
+      "marmite",
+      "morose",
+      "sauce",
+      "remuer",
+      "couvert"
+    ],
+    [
+      "puiser",
+      "chapelet",
+      "déguster",
+      "casserole",
+      "anche",
+      "brunch"
+    ],
+    [
+      "modestie",
+      "svelte",
+      "creuse",
+      "transvaser",
+      "dépression",
+      "crèche"
+    ],
+    [
+      "soupe",
+      "bouillon",
+      "cintré",
+      "servir",
+      "verser",
+      "éditorial"
     ]
   ],
   "rowClues": [
-    5,
-    1,
-    3,
     4,
-    1,
-    3
+    2,
+    4,
+    2,
+    2,
+    4
   ],
   "colClues": [
-    2,
     3,
-    3,
-    2,
     4,
-    3
+    2,
+    5,
+    2,
+    2
   ],
-  "themeWord": "violoncelle",
+  "themeWord": "louche",
   "solution": [
     [
       true,
       true,
       true,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -90,35 +90,35 @@
     [
       false,
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
+      true,
+      false,
       false,
       true,
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       false
     ],
     [
       true,
-      false,
-      false,
+      true,
       false,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

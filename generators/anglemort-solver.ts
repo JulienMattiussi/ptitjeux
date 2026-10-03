@@ -63,6 +63,8 @@ export type SolveOptions = {
   forcedPath?: Pos[]
   /** Cases imposées hors du chemin (donc vigile ou éclairées). */
   forbiddenPath?: Pos[]
+  /** Nombre total de vigiles à ne pas dépasser, tous types confondus. */
+  maxGuards?: number
   /** Arrêt dès que ce nombre de solutions est atteint. */
   limit: number
   /** Budget de nœuds explorés ; au-delà, la recherche est déclarée incomplète. */
@@ -78,6 +80,8 @@ export type SolveResult = {
   complete: boolean
   /** Pour chaque solution, vrai si au moins un faisceau passe par un miroir. */
   usesMirror: boolean[]
+  /** Nœuds explorés. */
+  nodes: number
 }
 
 type Node = {
@@ -226,10 +230,16 @@ function choose(ctx: Ctx, n: Node, k: number): boolean {
   const c = ctx.cands[k]
   if (n.cand[k] !== 0 || n.path[c.pos] === 1) return false
   if (n.chosen[c.type] >= ctx.level.pool[c.type]) return false
+  const total = n.chosen.simple + n.chosen.angle + n.chosen.oppose
+  const max = ctx.options.maxGuards ?? Infinity
+  if (total >= max) return false
   forbidAt(ctx, n, c.pos)
   n.cand[k] = 1
   n.chosen[c.type]++
   n.path[c.pos] = -1
+  if (total + 1 === max) {
+    for (let j = 0; j < n.cand.length; j++) if (n.cand[j] === 0) n.cand[j] = -1
+  }
   if (n.chosen[c.type] === ctx.level.pool[c.type]) {
     ctx.cands.forEach((other, j) => {
       if (other.type === c.type && n.cand[j] === 0) n.cand[j] = -1
@@ -526,6 +536,31 @@ function fill(ctx: Ctx, n: Node, from: number): void {
  * exactement une branche, même si le blocage empêche finalement un couvreur
  * posé d'éclairer la case.
  */
+/**
+ * Borne inférieure du nombre de vigiles encore à poser : des cases à couvrir
+ * dont les cases candidates sont deux à deux disjointes exigent chacune un
+ * vigile distinct. Ensemble indépendant glouton, des plus contraintes aux
+ * moins contraintes.
+ */
+function guardsNeeded(mandatory: Set<number>[]): number {
+  const used = new Set<number>()
+  let needed = 0
+  for (const positions of [...mandatory].sort((a, c) => a.size - c.size)) {
+    if ([...positions].some((p) => used.has(p))) continue
+    for (const p of positions) used.add(p)
+    needed++
+  }
+  return needed
+}
+
+function guardsLeft(ctx: Ctx, n: Node): number {
+  const chosen = n.chosen.simple + n.chosen.angle + n.chosen.oppose
+  const pool = ctx.options.exactPool
+    ? ctx.level.pool.simple + ctx.level.pool.angle + ctx.level.pool.oppose
+    : Infinity
+  return Math.min(pool, ctx.options.maxGuards ?? Infinity) - chosen
+}
+
 function search(ctx: Ctx, n: Node): void {
   if (!spend(ctx)) return
   const b = propagate(ctx, n)
@@ -534,9 +569,13 @@ function search(ctx: Ctx, n: Node): void {
   let target = -1
   let options: number[] = []
   let bestScore = Infinity
+  const mandatory: Set<number>[] = []
   for (let u = 0; u < ctx.size; u++) {
     if (!needsCover(ctx, n, b, u)) continue
     const { cands, uncertain } = coverers(ctx, n, b, u)
+    if (n.path[u] === -1 && !uncertain) {
+      mandatory.push(new Set(cands.map((k) => ctx.cands[k].pos)))
+    }
     // Sans couvreur à poser, la case se décide via les autres choix (blocage
     // ou chemin) : brancher dessus ne ferait pas avancer la recherche.
     if (cands.length === 0) continue
@@ -547,6 +586,7 @@ function search(ctx: Ctx, n: Node): void {
       bestScore = score
     }
   }
+  if (guardsNeeded(mandatory) > guardsLeft(ctx, n)) return
   if (target === -1) {
     fill(ctx, n, 0)
     return
@@ -579,7 +619,12 @@ export function solveAngleMort(level: Level, options: SolveOptions): SolveResult
     if (n.path[y * ctx.w + x] !== 1) n.path[y * ctx.w + x] = -1
   }
   if (ok) search(ctx, n)
-  return { solutions: ctx.solutions, complete: !ctx.aborted, usesMirror: ctx.usesMirror }
+  return {
+    solutions: ctx.solutions,
+    complete: !ctx.aborted,
+    usesMirror: ctx.usesMirror,
+    nodes: ctx.nodes,
+  }
 }
 
 export function poolOf(guards: Guard[]): Pool {

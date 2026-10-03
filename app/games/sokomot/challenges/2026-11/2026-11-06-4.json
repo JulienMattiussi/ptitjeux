@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    1
+    1,
+    5
   ],
   "walls": [
     [
@@ -374,75 +374,75 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "I",
+      "letter": "F",
       "pos": [
-        2,
-        7
+        8,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "N",
+      "letter": "O",
       "pos": [
-        4,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "S",
-      "pos": [
-        5,
+        8,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "A",
+      "id": "b3",
+      "letter": "L",
       "pos": [
-        6,
-        7
+        8,
+        4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "L",
+      "pos": [
+        2,
+        5
       ]
     },
     {
       "id": "b5",
-      "letter": "N",
+      "letter": "E",
       "pos": [
-        7,
-        7
+        3,
+        6
       ]
     },
     {
       "id": "b6",
-      "letter": "E",
+      "letter": "T",
       "pos": [
-        5,
-        2
+        2,
+        7
       ]
     }
   ],
   "target": {
-    "word": "INSANE",
+    "word": "FOLLET",
     "cells": [
       [
-        3,
-        7
+        8,
+        2
       ],
       [
-        4,
-        7
+        8,
+        3
       ],
       [
-        5,
-        7
+        8,
+        4
       ],
       [
-        6,
-        7
+        8,
+        5
       ],
       [
-        7,
-        7
+        8,
+        6
       ],
       [
         8,
@@ -450,17 +450,14 @@
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 6,
   "solution": [
-    "down",
     "right",
     "down",
+    "right",
     "left",
     "down",
-    "right",
-    "up",
-    "right",
-    "down"
+    "right"
   ],
-  "canonicalWord": "insane"
+  "canonicalWord": "follet"
 }

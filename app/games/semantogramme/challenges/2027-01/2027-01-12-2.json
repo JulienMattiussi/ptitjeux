@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "fortifier",
-      "aigle",
-      "tailler",
-      "puissant",
-      "jarretière"
+      "haillon",
+      "paille",
+      "effrayant",
+      "potager",
+      "bouse"
     ],
     [
-      "cuisson",
-      "ponctuel",
-      "muscler",
-      "renforcer",
-      "colosse"
+      "macaque",
+      "oiseau",
+      "pétiller",
+      "silencieux",
+      "dictionnaire"
     ],
     [
-      "force",
-      "musclé",
-      "robuste",
-      "costaud",
-      "champignon"
+      "marchandise",
+      "râpe",
+      "effrayer",
+      "immobile",
+      "racler"
     ],
     [
-      "mousseron",
-      "badigeonner",
-      "lion",
-      "rayé",
-      "cliquer"
+      "dard",
+      "amande",
+      "habitable",
+      "chapeau",
+      "armoire"
     ],
     [
-      "taureau",
-      "malware",
-      "vigoureux",
-      "hercule",
-      "puissance"
+      "champ",
+      "corbeau",
+      "vannerie",
+      "plongeoir",
+      "jardin"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     4,
+    2,
+    2,
     1,
-    4
+    3
   ],
   "colClues": [
+    2,
     3,
-    1,
+    2,
     4,
-    4,
-    2
+    1
   ],
-  "themeWord": "fort",
+  "themeWord": "épouvantail",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
       false,
       true,
       false
@@ -68,29 +75,22 @@
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false
     ],
     [
       false,
       false,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

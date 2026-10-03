@@ -5,110 +5,92 @@
   "height": 7,
   "words": [
     [
-      "pétale",
-      "verdi",
-      "vol",
-      "folklore",
-      "blanc",
-      "veau",
-      "unique"
+      "connecté",
+      "élever",
+      "élan",
+      "législatif",
+      "fenouil",
+      "chausser",
+      "irréel"
     ],
     [
-      "jardin",
-      "printemps",
-      "délicat",
-      "orgueil",
-      "ourson",
-      "auditif",
-      "crocodile"
+      "irrationnel",
+      "tracteur",
+      "cylindrique",
+      "rosée",
+      "élégant",
+      "dresser",
+      "pointu"
     ],
     [
-      "fleurir",
-      "joindre",
-      "triangulaire",
-      "ronde",
-      "ratatouille",
-      "bronzage",
-      "lapereau"
+      "gracieux",
+      "éviction",
+      "abricot",
+      "révéler",
+      "trous",
+      "petit",
+      "rétro"
     ],
     [
-      "fleur",
-      "crépitante",
-      "parcourir",
-      "signature",
-      "kenya",
-      "violet",
-      "noircir"
+      "médiéval",
+      "essoufflement",
+      "mule",
+      "lancinante",
+      "clocher",
+      "gouffre",
+      "escalier"
     ],
     [
-      "cracher",
-      "case",
-      "précoce",
-      "invasion",
-      "tube",
-      "maigrir",
-      "cueillir"
+      "soumis",
+      "défensif",
+      "château",
+      "zèbre",
+      "fenêtre",
+      "victoire",
+      "manoir"
     ],
     [
-      "corolle",
-      "panorama",
-      "hors-d-âge",
-      "tige",
-      "bulbe",
-      "pelouse",
-      "gracieux"
+      "urée",
+      "huisserie",
+      "tournage",
+      "architecture",
+      "pochade",
+      "geindre",
+      "armature"
     ],
     [
-      "angora",
-      "safran",
-      "envergure",
-      "jumelé",
-      "créativité",
-      "nature",
-      "doubler"
+      "percer",
+      "réserve",
+      "signac",
+      "marron",
+      "rond",
+      "orner",
+      "descendance"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     1,
+    4,
     2,
     2,
-    5,
-    1
+    4,
+    1,
+    3
   ],
   "colClues": [
-    5,
+    3,
     2,
     2,
     1,
-    2,
-    2,
-    2
+    3,
+    3,
+    3
   ],
-  "themeWord": "crocus",
+  "themeWord": "tourelle",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false,
@@ -116,41 +98,59 @@
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
       false,
       false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       false,
       false,
+      true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

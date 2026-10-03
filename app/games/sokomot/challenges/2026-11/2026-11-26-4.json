@@ -4,7 +4,7 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
+    2,
     3
   ],
   "walls": [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "R",
+      "letter": "I",
       "pos": [
         3,
         1
@@ -382,15 +382,15 @@
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "M",
       "pos": [
-        2,
+        4,
         2
       ]
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "B",
       "pos": [
         3,
         3
@@ -400,65 +400,65 @@
       "id": "b4",
       "letter": "I",
       "pos": [
-        1,
+        8,
         4
       ]
     },
     {
       "id": "b5",
-      "letter": "R",
+      "letter": "B",
       "pos": [
-        1,
+        8,
         5
       ]
     },
     {
       "id": "b6",
-      "letter": "A",
+      "letter": "E",
       "pos": [
-        1,
+        8,
         6
       ]
     }
   ],
   "target": {
-    "word": "ROTIRA",
+    "word": "IMBIBE",
     "cells": [
       [
-        1,
+        8,
         1
       ],
       [
-        1,
+        8,
         2
       ],
       [
-        1,
+        8,
         3
       ],
       [
-        1,
+        8,
         4
       ],
       [
-        1,
+        8,
         5
       ],
       [
-        1,
+        8,
         6
       ]
     ]
   },
   "parMoves": 7,
   "solution": [
-    "left",
-    "up",
-    "left",
     "right",
     "up",
+    "right",
     "left",
-    "left"
+    "up",
+    "right",
+    "right"
   ],
-  "canonicalWord": "rôtira"
+  "canonicalWord": "imbibe"
 }

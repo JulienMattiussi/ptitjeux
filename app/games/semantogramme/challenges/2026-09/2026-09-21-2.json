@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "antique",
-      "thésée",
-      "fil",
-      "taureau",
-      "lait"
+      "cruauté",
+      "malveillance",
+      "noodle",
+      "cruel",
+      "insulter"
     ],
     [
-      "algue",
-      "chevalier",
-      "consumer",
-      "corne",
-      "labyrinthe"
+      "détester",
+      "défense",
+      "haine",
+      "projection",
+      "malicieux"
     ],
     [
-      "rebond",
-      "égarer",
-      "monstre",
-      "monstrueux",
-      "occiput"
+      "montante",
+      "flâner",
+      "correspondance",
+      "sarcasme",
+      "secours"
     ],
     [
-      "voûte",
-      "palais",
-      "voter",
-      "décret",
-      "échine"
+      "éternel",
+      "délivrer",
+      "frapper",
+      "précieux",
+      "odieux"
     ],
     [
-      "rugir",
-      "chaise",
-      "crétois",
-      "légendaire",
-      "mythologie"
+      "tourterelle",
+      "malveillant",
+      "aplanir",
+      "coup",
+      "méchanceté"
     ]
   ],
   "rowClues": [
     4,
-    2,
     3,
     1,
-    4
+    2,
+    3
   ],
   "colClues": [
     2,
+    2,
+    2,
     3,
-    3,
-    4,
-    2
+    4
   ],
-  "themeWord": "minotaure",
+  "themeWord": "méchant",
   "solution": [
     [
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true
     ],
     [
+      true,
       false,
       true,
-      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false
     ],
     [
       false,
+      false,
       true,
       false,
-      false,
-      false
+      true
     ],
     [
-      true,
       false,
       true,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

@@ -5,93 +5,101 @@
   "height": 6,
   "words": [
     [
-      "selle",
-      "smasher",
-      "indolent",
-      "tournoyer",
-      "correspondance",
-      "curcuma"
+      "prisme",
+      "fort",
+      "minuteur",
+      "numérique",
+      "électronique",
+      "tricot"
     ],
     [
-      "noir",
-      "élytre",
-      "insecte",
-      "point",
-      "torse",
-      "capter"
+      "cadran",
+      "airelle",
+      "résistance",
+      "immortelle",
+      "labour",
+      "sommeil"
     ],
     [
-      "cadrage",
-      "sept",
-      "puceron",
-      "aile",
-      "gérer",
-      "jardin"
+      "analogique",
+      "mécanique",
+      "sainte",
+      "sieste",
+      "parodie",
+      "averse"
     ],
     [
-      "tableau",
-      "porte-bonheur",
-      "paume",
-      "utile",
-      "talon",
-      "effacé"
+      "minérale",
+      "rêve",
+      "matin",
+      "azerty",
+      "cruauté",
+      "horloge"
     ],
     [
-      "a-cappella",
+      "sphère",
+      "snooze",
+      "lever",
+      "lactée",
+      "sonner",
+      "agiter"
+    ],
+    [
       "rouge",
-      "gratte-ciel",
-      "minuscule",
-      "coléoptère",
-      "butiner"
-    ],
-    [
-      "globe",
-      "saturer",
-      "symbolique",
-      "pâle",
-      "voler",
-      "apprivoiser"
+      "aiguille",
+      "nuage",
+      "carpe",
+      "cérébral",
+      "gueule"
     ]
   ],
   "rowClues": [
-    1,
     4,
-    4,
+    2,
+    3,
     3,
     4,
     2
   ],
   "colClues": [
-    1,
-    4,
-    4,
+    3,
     5,
+    3,
     2,
-    2
+    2,
+    3
   ],
-  "themeWord": "coccinelle",
+  "themeWord": "réveil",
   "solution": [
     [
       false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
-      true,
+      false,
       false,
       true
     ],
@@ -99,24 +107,16 @@
       false,
       true,
       true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true,
       true
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
-      true,
+      false,
+      false,
       false
     ]
   ],

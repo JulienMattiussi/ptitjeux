@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    2
+    2,
+    4
   ],
   "walls": [
     [
@@ -98,45 +98,45 @@
     ],
     [
       5,
-      2
+      1
     ],
     [
-      1,
-      1
+      4,
+      3
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "D",
       "pos": [
         2,
-        2
+        3
       ]
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "U",
       "pos": [
-        2,
-        3
+        3,
+        2
       ]
     },
     {
       "id": "b3",
-      "letter": "G",
+      "letter": "C",
       "pos": [
-        4,
-        3
+        3,
+        4
       ]
     }
   ],
   "target": {
-    "word": "FIG",
+    "word": "DUC",
     "cells": [
       [
-        3,
+        2,
         2
       ],
       [
@@ -149,18 +149,17 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
     "right",
     "left",
-    "down",
-    "right",
+    "up",
+    "left",
     "up",
     "up",
     "right",
     "right",
-    "down",
     "down"
   ],
-  "canonicalWord": "fig"
+  "canonicalWord": "duc"
 }

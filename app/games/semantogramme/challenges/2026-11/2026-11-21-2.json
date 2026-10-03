@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "oxydable",
-      "mat",
-      "voilier",
-      "forger",
-      "malléable"
+      "cellulose",
+      "lisse",
+      "journal",
+      "sel",
+      "fracas"
     ],
     [
-      "rafale",
-      "monnaie",
-      "arthrose",
-      "oxyder",
-      "portée"
+      "fin",
+      "restreint",
+      "saluer",
+      "soléaire",
+      "passion"
     ],
     [
-      "écorce",
-      "sentir",
-      "vert-de-gris",
-      "orthogonal",
-      "enduire"
-    ],
-    [
-      "rouge",
-      "conduire",
-      "hamster",
-      "parasol",
+      "ventricule",
+      "colline",
+      "livre",
+      "origami",
       "cible"
     ],
     [
-      "métallique",
-      "casserole",
-      "fil",
-      "office",
-      "métal"
+      "inaugurer",
+      "arbre",
+      "imprimerie",
+      "écrire",
+      "carnet"
+    ],
+    [
+      "fragile",
+      "recyclable",
+      "parodie",
+      "taille",
+      "recycler"
     ]
   ],
   "rowClues": [
     3,
-    2,
     1,
     2,
-    4
+    4,
+    3
   ],
   "colClues": [
     3,
     3,
-    2,
+    3,
     2,
     2
   ],
-  "themeWord": "cuivre",
+  "themeWord": "papier",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
     [
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

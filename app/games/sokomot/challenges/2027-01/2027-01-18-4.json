@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    4,
-    3
+    1,
+    5
   ],
   "walls": [
     [
@@ -374,91 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "V",
       "pos": [
-        3,
-        1
-      ]
-    },
-    {
-      "id": "b2",
-      "letter": "P",
-      "pos": [
-        2,
+        8,
         2
       ]
     },
     {
-      "id": "b3",
-      "letter": "P",
+      "id": "b2",
+      "letter": "I",
       "pos": [
-        3,
+        8,
         3
       ]
     },
     {
-      "id": "b4",
-      "letter": "R",
+      "id": "b3",
+      "letter": "O",
       "pos": [
-        1,
+        8,
         4
       ]
     },
     {
-      "id": "b5",
-      "letter": "E",
+      "id": "b4",
+      "letter": "L",
       "pos": [
-        1,
+        2,
         5
+      ]
+    },
+    {
+      "id": "b5",
+      "letter": "A",
+      "pos": [
+        3,
+        6
       ]
     },
     {
       "id": "b6",
       "letter": "T",
       "pos": [
-        1,
-        6
+        2,
+        7
       ]
     }
   ],
   "target": {
-    "word": "APPRET",
+    "word": "VIOLAT",
     "cells": [
       [
-        1,
-        1
-      ],
-      [
-        1,
+        8,
         2
       ],
       [
-        1,
+        8,
         3
       ],
       [
-        1,
+        8,
         4
       ],
       [
-        1,
+        8,
         5
       ],
       [
-        1,
+        8,
         6
+      ],
+      [
+        8,
+        7
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 6,
   "solution": [
-    "left",
-    "up",
-    "left",
     "right",
-    "up",
+    "down",
+    "right",
     "left",
-    "left"
+    "down",
+    "right"
   ],
-  "canonicalWord": "apprêt"
+  "canonicalWord": "violat"
 }

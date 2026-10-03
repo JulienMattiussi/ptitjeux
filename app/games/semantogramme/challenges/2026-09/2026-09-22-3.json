@@ -5,101 +5,93 @@
   "height": 6,
   "words": [
     [
-      "enlacer",
-      "lisser",
-      "croire",
-      "choyer",
-      "frôler",
-      "chameau"
+      "égoutter",
+      "légume",
+      "jus",
+      "gâteau",
+      "os",
+      "perceuse"
     ],
     [
-      "doublure",
-      "rivaliser",
-      "effleurer",
-      "masser",
-      "fâcher",
-      "cajoler"
+      "lapin",
+      "âne",
+      "rapée",
+      "façonner",
+      "vaisselle",
+      "applique"
     ],
     [
-      "garde",
-      "mousaka",
-      "seigneur",
-      "faucon",
-      "cadrage",
-      "palper"
+      "ordinateur",
+      "fane",
+      "sombrero",
+      "éplucher",
+      "classeur",
+      "japonais"
     ],
     [
-      "flatter",
-      "orner",
-      "destin",
-      "conseiller",
-      "support",
-      "panorama"
+      "brouter",
+      "soupe",
+      "potager",
+      "gymnastique",
+      "lampadaire",
+      "sucrée"
     ],
     [
-      "fièvre",
-      "tendresse",
-      "douceur",
-      "félicitation",
-      "fourrure",
-      "tatouer"
+      "sortie",
+      "enchanteur",
+      "rivière",
+      "cloud",
+      "relier",
+      "cake"
     ],
     [
-      "transformer",
-      "dorloter",
-      "bénitier",
-      "pédalier",
-      "protéine",
-      "frôlement"
+      "pingrerie",
+      "salade",
+      "pratiquer",
+      "spontané",
+      "orange",
+      "craie"
     ]
   ],
   "rowClues": [
-    4,
+    3,
+    3,
+    2,
     3,
     1,
-    1,
-    4,
     2
   ],
   "colClues": [
-    2,
+    1,
+    5,
     3,
     2,
-    2,
-    2,
-    4
+    1,
+    2
   ],
-  "themeWord": "caresser",
+  "themeWord": "carotte",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
       false,
-      false,
-      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
       false,
       false
     ],
@@ -108,7 +100,15 @@
       true,
       true,
       false,
-      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -116,9 +116,9 @@
       true,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

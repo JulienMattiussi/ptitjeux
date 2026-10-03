@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    3,
-    4
+    4,
+    2
   ],
   "walls": [
     [
@@ -115,16 +115,20 @@
   ],
   "ice": [
     [
+      2,
+      2
+    ],
+    [
       3,
-      2
-    ],
-    [
-      5,
-      2
-    ],
-    [
-      6,
       3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
     ]
   ],
   "blocks": [
@@ -133,72 +137,69 @@
       "letter": "A",
       "pos": [
         3,
-        3
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "G",
+      "letter": "I",
       "pos": [
-        2,
-        2
-      ]
-    },
-    {
-      "id": "b3",
-      "letter": "E",
-      "pos": [
-        5,
+        4,
         3
       ]
     },
     {
-      "id": "b4",
+      "id": "b3",
       "letter": "S",
       "pos": [
-        6,
+        5,
         4
+      ]
+    },
+    {
+      "id": "b4",
+      "letter": "E",
+      "pos": [
+        5,
+        5
       ]
     }
   ],
   "target": {
-    "word": "AGES",
+    "word": "AISE",
     "cells": [
       [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
         3,
-        1
+        4
       ],
       [
-        4,
-        2
-      ],
-      [
-        5,
-        1
-      ],
-      [
-        6,
-        2
+        3,
+        5
       ]
     ]
   },
-  "parMoves": 15,
+  "parMoves": 12,
   "solution": [
-    "up",
     "left",
-    "left",
-    "up",
     "right",
     "right",
     "down",
-    "down",
-    "right",
-    "right",
-    "down",
-    "right",
-    "up",
     "left",
-    "up"
+    "right",
+    "right",
+    "down",
+    "left",
+    "right",
+    "down",
+    "left"
   ],
-  "canonicalWord": "âges"
+  "canonicalWord": "aise"
 }

@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    6,
-    7
+    1,
+    5
   ],
   "walls": [
     [
@@ -374,93 +374,90 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "F",
+      "letter": "C",
       "pos": [
-        2,
-        1
+        8,
+        2
       ]
     },
     {
       "id": "b2",
       "letter": "O",
       "pos": [
-        4,
-        1
+        8,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "Q",
       "pos": [
-        5,
-        1
+        8,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "D",
+      "letter": "U",
       "pos": [
-        6,
-        6
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "I",
-      "pos": [
-        7,
+        2,
         5
       ]
     },
     {
-      "id": "b6",
-      "letter": "S",
+      "id": "b5",
+      "letter": "E",
       "pos": [
-        8,
+        3,
         6
+      ]
+    },
+    {
+      "id": "b6",
+      "letter": "Z",
+      "pos": [
+        2,
+        7
       ]
     }
   ],
   "target": {
-    "word": "FONDIS",
+    "word": "COQUEZ",
     "cells": [
       [
-        3,
-        1
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        5,
-        1
-      ],
-      [
-        6,
-        1
-      ],
-      [
-        7,
-        1
+        8,
+        2
       ],
       [
         8,
-        1
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
       ]
     ]
   },
-  "parMoves": 9,
+  "parMoves": 6,
   "solution": [
-    "up",
-    "right",
-    "up",
-    "left",
-    "up",
     "right",
     "down",
     "right",
-    "up"
+    "left",
+    "down",
+    "right"
   ],
-  "canonicalWord": "fondis"
+  "canonicalWord": "coquez"
 }

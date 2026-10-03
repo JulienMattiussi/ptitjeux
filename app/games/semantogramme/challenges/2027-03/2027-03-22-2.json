@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-22-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "redoutable",
+      "sabler",
+      "hilare",
+      "banquet",
+      "réjouir"
+    ],
+    [
+      "fête",
+      "slalom",
+      "siphon",
+      "célébrer",
+      "trinquer"
+    ],
+    [
+      "confettis",
+      "anniversaire",
+      "beurre",
+      "champagne",
+      "fauteuil"
+    ],
+    [
+      "célébration",
+      "commémorer",
+      "animer",
+      "dormir",
+      "arroser"
+    ],
+    [
+      "fiesta",
+      "rattraper",
+      "limer",
+      "récent",
+      "mariage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    4,
+    3,
+    1,
+    3,
+    4
+  ],
+  "themeWord": "fêter",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

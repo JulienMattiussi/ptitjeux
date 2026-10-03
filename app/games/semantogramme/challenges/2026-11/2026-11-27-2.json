@@ -5,81 +5,60 @@
   "height": 5,
   "words": [
     [
-      "joyeux",
-      "joie",
-      "gaieté",
-      "soulever",
-      "satisfait"
+      "lyre",
+      "régaler",
+      "jumeau",
+      "mythique",
+      "mort-vivant"
     ],
     [
+      "mythologie",
+      "jubilation",
+      "azur",
+      "étoile",
+      "fixer"
+    ],
+    [
+      "stellaire",
+      "mandoline",
+      "firmament",
+      "scintiller",
+      "céleste"
+    ],
+    [
+      "simplet",
+      "lumineuse",
       "orion",
-      "calme",
-      "rayonner",
-      "collage",
-      "se réjouir"
+      "observer",
+      "briller"
     ],
     [
-      "recyclable",
-      "romain",
-      "cintré",
-      "épanoui",
-      "pétiller"
-    ],
-    [
-      "félicité",
-      "plaisir",
-      "mousquetaire",
-      "béatitude",
-      "dompteur"
-    ],
-    [
-      "rire",
-      "gel",
-      "crasseux",
-      "observatoire",
-      "allégresse"
+      "seconde",
+      "observateur",
+      "astre",
+      "priser",
+      "tabasser"
     ]
   ],
   "rowClues": [
-    4,
     2,
     2,
     3,
-    2
+    4,
+    1
   ],
   "colClues": [
     3,
-    2,
-    2,
-    2,
-    4
+    1,
+    3,
+    3,
+    2
   ],
-  "themeWord": "heureux",
+  "themeWord": "constellation",
   "solution": [
     [
       true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
       false
@@ -88,9 +67,30 @@
       true,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

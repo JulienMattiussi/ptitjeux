@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    4,
-    2
+    1,
+    3
   ],
   "walls": [
     [
@@ -97,11 +97,11 @@
       4
     ],
     [
-      5,
-      2
+      3,
+      1
     ],
     [
-      1,
+      5,
       2
     ]
   ],
@@ -109,56 +109,59 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "S",
+      "letter": "V",
       "pos": [
-        3,
+        1,
         2
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "I",
       "pos": [
-        3,
+        2,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "U",
+      "letter": "A",
       "pos": [
         4,
-        4
+        3
       ]
     }
   ],
   "target": {
-    "word": "SOU",
+    "word": "VIA",
     "cells": [
+      [
+        1,
+        1
+      ],
       [
         2,
         2
       ],
       [
-        2,
-        3
-      ],
-      [
         3,
-        4
+        3
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 11,
   "solution": [
-    "left",
-    "right",
+    "up",
     "down",
-    "left",
-    "right",
-    "right",
     "down",
+    "right",
+    "up",
+    "down",
+    "right",
+    "right",
+    "right",
+    "up",
     "left"
   ],
-  "canonicalWord": "sou"
+  "canonicalWord": "via"
 }

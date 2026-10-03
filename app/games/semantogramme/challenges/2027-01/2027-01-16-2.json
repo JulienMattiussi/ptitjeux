@@ -5,47 +5,47 @@
   "height": 5,
   "words": [
     [
-      "décembre",
-      "parlement",
-      "annuel",
-      "anniversaire",
-      "civil"
+      "sillonner",
+      "hôtel",
+      "avion",
+      "train",
+      "patience"
     ],
     [
-      "plasma",
-      "lambin",
-      "calendrier",
-      "âge",
-      "douze"
+      "valise",
+      "guérison",
+      "étoile",
+      "redingote",
+      "cueilli"
     ],
     [
-      "enseignement",
-      "récolte",
-      "confetti",
-      "bilan",
-      "volet"
+      "gentilhomme",
+      "maquereau",
+      "billet",
+      "chiromancie",
+      "visiter"
     ],
     [
-      "écouler",
-      "passer",
-      "double",
-      "féerique",
-      "danse"
+      "touriste",
+      "satiété",
+      "pilule",
+      "explorer",
+      "récurer"
     ],
     [
-      "cycle",
-      "obligatoire",
-      "bissextile",
-      "renommé",
-      "dromadaire"
+      "gratin",
+      "parcourir",
+      "aventure",
+      "destination",
+      "partir"
     ]
   ],
   "rowClues": [
     4,
-    3,
+    1,
     2,
     2,
-    2
+    4
   ],
   "colClues": [
     3,
@@ -54,42 +54,42 @@
     3,
     2
   ],
-  "themeWord": "année",
+  "themeWord": "voyager",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
+      true,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
   "parMoves": 13

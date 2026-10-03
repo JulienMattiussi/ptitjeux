@@ -5,95 +5,113 @@
   "height": 7,
   "words": [
     [
-      "manger",
-      "migrer",
-      "lapin",
-      "sargasse",
-      "migration",
-      "poltron",
-      "brun"
+      "guerre",
+      "guetter",
+      "éleveur",
+      "scruter",
+      "antiquaire",
+      "platine",
+      "manuel"
     ],
     [
-      "oeufrier",
-      "manipulée",
-      "ceinture",
-      "postmoderne",
-      "milieu",
-      "rongeur",
-      "régulier"
+      "asséner",
+      "joaillier",
+      "orfèvre",
+      "monture",
+      "organisme",
+      "enclaver",
+      "punchline"
     ],
     [
-      "secret",
-      "brassé",
-      "acéré",
-      "abdominal",
-      "fanfare",
-      "museau",
-      "cataloguer"
+      "cockpit",
+      "tanin",
+      "enchâsser",
+      "rigoureuse",
+      "larmoyer",
+      "cuvée",
+      "minutieux"
     ],
     [
-      "galerie",
-      "mécanicien",
-      "mellitus",
-      "changer",
-      "beagle",
-      "achille",
-      "arctique"
+      "rhizome",
+      "imbiber",
+      "gerboise",
+      "sauvage",
+      "eucharistie",
+      "précieux",
+      "accélérer"
     ],
     [
-      "débat",
-      "semoir",
-      "lampe",
-      "raffinement",
-      "creuser",
-      "noyer",
-      "chat"
+      "sourdre",
+      "idée",
+      "rougeur",
+      "latitude",
+      "professionnel",
+      "rubanée",
+      "palmé"
     ],
     [
-      "italienne",
-      "reproduire",
-      "mystérieux",
-      "sumo",
-      "scorpion",
-      "cyclique",
-      "colonie"
+      "bijou",
+      "caustique",
+      "monter",
+      "soutenu",
+      "ciseler",
+      "pierre",
+      "robuste"
     ],
     [
-      "thé",
-      "matinal",
-      "noueuse",
-      "toundra",
-      "garage",
-      "teindre",
-      "mythique"
+      "envoûter",
+      "précis",
+      "chaussure",
+      "or",
+      "évent",
+      "soigner",
+      "poil"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    1,
-    2,
     2,
     4,
-    2
+    2,
+    1,
+    1,
+    4,
+    3
   ],
   "colClues": [
-    2,
-    2,
-    1,
     1,
     2,
-    4,
-    4
+    3,
+    2,
+    2,
+    5,
+    2
   ],
-  "themeWord": "lemming",
+  "themeWord": "sertir",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
+      false,
+      false,
       false,
       true
     ],
@@ -111,23 +129,14 @@
       false,
       false,
       false,
-      false,
       true,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
+      true,
       false,
       true,
       true,
@@ -136,21 +145,12 @@
     [
       false,
       true,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

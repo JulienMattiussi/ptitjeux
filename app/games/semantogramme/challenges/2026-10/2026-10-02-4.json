@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "asperger",
-      "scolopendre",
-      "pressentiment",
-      "rasséréner",
-      "fessée",
-      "discernement",
-      "octogonal"
+      "cérémonieux",
+      "géologique",
+      "témoin",
+      "courge",
+      "mosaïque",
+      "lourde",
+      "palabrer"
     ],
     [
-      "concept",
-      "plantigrade",
-      "bénitier",
-      "soirée",
-      "religieux",
-      "oar",
-      "romain"
+      "oxydable",
+      "fougère",
+      "élaguer",
+      "ministériel",
+      "réponse",
+      "ancien",
+      "miocène"
     ],
     [
-      "frein",
-      "circulaire",
-      "architecture",
-      "souterrain",
-      "phare",
-      "beat",
-      "pantomime"
-    ],
-    [
-      "maison",
+      "continental",
+      "bombe",
       "église",
-      "fâcher",
-      "pisan",
-      "atterrissage",
-      "composée",
-      "passion"
+      "plantation",
+      "parfumerie",
+      "sédiment",
+      "interrupteur"
     ],
     [
-      "récurer",
-      "sapin",
-      "fourchette",
-      "évoquer",
-      "fonts",
-      "broderie",
-      "transylvanie"
+      "ère",
+      "bonus",
+      "louvoyer",
+      "colonisation",
+      "morose",
+      "invertébré",
+      "ouvrier"
     ],
     [
-      "cible",
-      "manigancer",
-      "antique",
-      "scientifique",
-      "pot",
-      "plonger",
-      "chevron"
+      "plier",
+      "lointain",
+      "tic-tac",
+      "émonder",
+      "extinction",
+      "kyrie",
+      "préhistoire"
     ],
     [
-      "mouillé",
-      "baptiser",
-      "jardin",
-      "baptême",
-      "gothique",
-      "ausculter",
-      "liturgique"
+      "désertique",
+      "fossile",
+      "amphibien",
+      "mystérieux",
+      "devon",
+      "sortilège",
+      "studio"
+    ],
+    [
+      "paléozoïque",
+      "frontière",
+      "industrialiser",
+      "poisson",
+      "implorer",
+      "paquet",
+      "évolution"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    2,
     1,
     2,
-    4
-  ],
-  "colClues": [
-    1,
-    3,
-    3,
     2,
     3,
-    1,
+    3,
+    3,
     3
   ],
-  "themeWord": "baptistère",
+  "colClues": [
+    3,
+    4,
+    1,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "dévonien",
   "solution": [
     [
+      false,
       true,
       false,
       false,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
       false,
       false,
       true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      true,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

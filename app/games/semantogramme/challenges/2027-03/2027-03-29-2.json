@@ -1,0 +1,96 @@
+{
+  "id": "2027-03-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cheval",
+      "aiguillage",
+      "antiquaire",
+      "galoper",
+      "pureté"
+    ],
+    [
+      "arc-en-ciel",
+      "légendaire",
+      "écarlate",
+      "tripode",
+      "pur"
+    ],
+    [
+      "avril",
+      "région",
+      "magique",
+      "pouvoir",
+      "élaborer"
+    ],
+    [
+      "développer",
+      "enchanter",
+      "harnais",
+      "shaker",
+      "caricature"
+    ],
+    [
+      "mystique",
+      "corne",
+      "innocence",
+      "forêt",
+      "accélération"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    1,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "licorne",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

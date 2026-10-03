@@ -1,0 +1,124 @@
+{
+  "id": "2027-05-25-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "guide",
+      "piste",
+      "perfusion",
+      "magie",
+      "voltige",
+      "mort-vivant"
+    ],
+    [
+      "expressif",
+      "recevoir",
+      "roulette",
+      "enchaîner",
+      "groupe",
+      "trône"
+    ],
+    [
+      "patineur",
+      "camion",
+      "reins",
+      "figure",
+      "chausser",
+      "glace"
+    ],
+    [
+      "lame",
+      "parquet",
+      "pirouette",
+      "se lever",
+      "tournoyer",
+      "vespa"
+    ],
+    [
+      "roller",
+      "lynx",
+      "patinoire",
+      "pneumonie",
+      "patin",
+      "dérapage"
+    ],
+    [
+      "spectateur",
+      "labrador",
+      "wok",
+      "arabesque",
+      "ambrée",
+      "pas"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    4,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "patiner",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 18
+}

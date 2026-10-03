@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    5,
-    2
+    7,
+    5
   ],
   "walls": [
     [
@@ -133,23 +133,23 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "M",
       "pos": [
-        2,
+        5,
         3
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "U",
       "pos": [
-        4,
-        2
+        3,
+        5
       ]
     },
     {
       "id": "b3",
-      "letter": "C",
+      "letter": "E",
       "pos": [
         3,
         4
@@ -157,80 +157,80 @@
     },
     {
       "id": "b4",
-      "letter": "K",
-      "pos": [
-        5,
-        4
-      ]
-    },
-    {
-      "id": "b5",
-      "letter": "S",
+      "letter": "R",
       "pos": [
         6,
         5
       ]
+    },
+    {
+      "id": "b5",
+      "letter": "A",
+      "pos": [
+        6,
+        2
+      ]
     }
   ],
   "target": {
-    "word": "BOCKS",
+    "word": "MUERA",
     "cells": [
       [
-        2,
-        2
-      ],
-      [
-        2,
+        4,
         3
       ],
       [
-        2,
+        5,
         4
       ],
       [
-        3,
+        5,
         5
       ],
       [
-        4,
-        6
+        6,
+        4
+      ],
+      [
+        7,
+        4
       ]
     ]
   },
   "parMoves": 32,
   "solution": [
     "down",
-    "right",
-    "down",
-    "left",
-    "right",
-    "down",
-    "right",
-    "down",
-    "left",
     "left",
     "up",
     "left",
+    "left",
+    "down",
     "left",
     "left",
     "up",
     "up",
     "right",
+    "right",
     "up",
     "up",
     "right",
-    "down",
+    "right",
+    "up",
     "right",
     "down",
-    "left",
-    "left",
-    "right",
     "down",
     "left",
-    "right",
-    "right",
+    "left",
     "down",
-    "left"
+    "left",
+    "down",
+    "down",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "right"
   ],
-  "canonicalWord": "bocks"
+  "canonicalWord": "muera"
 }

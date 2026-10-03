@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    5
+    7
   ],
   "walls": [
     [
@@ -374,7 +374,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "E",
       "pos": [
         2,
         1
@@ -382,23 +382,23 @@
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "M",
       "pos": [
         4,
-        4
+        6
       ]
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "M",
       "pos": [
         5,
-        3
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "E",
       "pos": [
         6,
         1
@@ -406,7 +406,7 @@
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "N",
       "pos": [
         7,
         1
@@ -414,15 +414,15 @@
     },
     {
       "id": "b6",
-      "letter": "R",
+      "letter": "A",
       "pos": [
         5,
-        4
+        6
       ]
     }
   ],
   "target": {
-    "word": "LISIER",
+    "word": "EMMENA",
     "cells": [
       [
         3,
@@ -450,18 +450,17 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
     "up",
     "right",
     "up",
-    "down",
-    "right",
-    "up",
-    "up",
     "left",
     "up",
-    "right"
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "lisier"
+  "canonicalWord": "emmena"
 }

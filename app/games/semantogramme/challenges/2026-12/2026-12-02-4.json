@@ -5,93 +5,93 @@
   "height": 7,
   "words": [
     [
-      "mystique",
-      "cirer",
-      "française",
-      "sépia",
-      "bave",
-      "tapette",
-      "sac"
+      "fatigue",
+      "aimante",
+      "mozart",
+      "pangée",
+      "volaille",
+      "pygargue",
+      "monument"
     ],
     [
-      "profond",
-      "dépasser",
-      "sublime",
-      "responsable",
-      "sensible",
-      "divin",
-      "inouï"
+      "fenêtre",
+      "cédrat",
+      "sciage",
+      "nuit",
+      "raquette",
+      "mélodieuse",
+      "musique"
     ],
     [
-      "sel",
-      "éprouver",
-      "malware",
-      "mélodieux",
-      "paganini",
-      "amandée",
-      "svelte"
+      "dolmen",
+      "bock",
+      "pissenlit",
+      "séduire",
+      "laboratoire",
+      "pelletée",
+      "italienne"
     ],
     [
-      "pizza",
-      "grimpeur",
-      "beauté",
-      "spirituel",
-      "merveille",
-      "franc",
-      "grue"
+      "guitare",
+      "douce",
+      "immortelle",
+      "éveiller",
+      "ceinture",
+      "soir",
+      "décorée"
     ],
     [
-      "assouplir",
-      "austère",
-      "décrire",
-      "fût",
-      "remise",
-      "panache",
-      "chevalet"
+      "composer",
+      "gmail",
+      "implorer",
+      "mandoline",
+      "chanter",
+      "amoureuse",
+      "humus"
     ],
     [
-      "incroyable",
-      "exprimer",
-      "extase",
-      "félin",
-      "vigne",
-      "lard",
-      "éléphant"
+      "fissure",
+      "feutré",
+      "banc",
+      "soulages",
+      "scier",
+      "tendre",
+      "minou"
     ],
     [
-      "version",
-      "indescriptible",
-      "croyance",
-      "harnais",
-      "singulier",
-      "bouledogue",
-      "serpent"
+      "jouer",
+      "obélisque",
+      "tribale",
+      "hostie",
+      "amour",
+      "régler",
+      "microlithe"
     ]
   ],
   "rowClues": [
     1,
-    5,
-    1,
-    3,
-    1,
+    4,
     2,
+    4,
+    4,
+    1,
     2
   ],
   "colClues": [
-    2,
-    4,
     4,
     1,
-    2,
     1,
-    1
+    4,
+    2,
+    4,
+    2
   ],
-  "themeWord": "ineffable",
+  "themeWord": "sérénade",
   "solution": [
     [
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       false,
       false,
@@ -99,52 +99,52 @@
     ],
     [
       true,
-      true,
-      true,
       false,
+      false,
+      true,
       false,
       true,
       true
     ],
     [
       false,
+      false,
+      false,
       true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
       false,
-      true,
-      true,
-      true,
       false,
+      false,
+      false,
+      true,
       false
     ],
     [
-      false,
-      false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

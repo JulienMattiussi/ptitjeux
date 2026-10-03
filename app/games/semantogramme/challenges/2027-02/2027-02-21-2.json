@@ -1,0 +1,96 @@
+{
+  "id": "2027-02-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "antique",
+      "thésée",
+      "fil",
+      "taureau",
+      "lait"
+    ],
+    [
+      "algue",
+      "chevalier",
+      "consumer",
+      "corne",
+      "labyrinthe"
+    ],
+    [
+      "rebond",
+      "égarer",
+      "monstre",
+      "monstrueux",
+      "occiput"
+    ],
+    [
+      "voûte",
+      "palais",
+      "voter",
+      "décret",
+      "échine"
+    ],
+    [
+      "rugir",
+      "chaise",
+      "crétois",
+      "légendaire",
+      "mythologie"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    3,
+    1,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "minotaure",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

@@ -5,100 +5,108 @@
   "height": 6,
   "words": [
     [
-      "aumône",
-      "paille",
-      "lynx",
-      "rissoler",
-      "tirage",
-      "rapide"
+      "plat",
+      "débit",
+      "décharger",
+      "plage",
+      "récif",
+      "gourmet"
     ],
     [
-      "pasteurisé",
-      "réunion",
-      "taches",
-      "tendon",
-      "argile",
-      "papier"
+      "lettre",
+      "ketchup",
+      "sphérique",
+      "gourmandise",
+      "épine",
+      "lavage"
     ],
     [
-      "nid",
-      "wallaby",
-      "queue",
-      "plafond",
-      "esthétique",
-      "agréable"
+      "canadien",
+      "delta",
+      "procureur",
+      "linéaire",
+      "pesant",
+      "noir"
     ],
     [
-      "aile",
-      "blanche",
-      "réfléchir",
-      "véloce",
-      "conclusion",
-      "pèlerinage"
+      "gastronomie",
+      "majeur",
+      "porcine",
+      "corail",
+      "oeil",
+      "rosser"
     ],
     [
-      "noire",
-      "agile",
-      "migration",
-      "imiter",
-      "gracieuse",
-      "piailler"
+      "mer",
+      "anneau",
+      "rocher",
+      "marin",
+      "parler",
+      "pulpeux"
     ],
     [
-      "pêche",
-      "oiseau",
-      "fourche",
-      "tatie",
-      "élaguer",
-      "soupe"
+      "aquatique",
+      "piquant",
+      "rouge",
+      "fragile",
+      "délicieux",
+      "chandelle"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    2,
-    3,
-    5,
-    2
-  ],
-  "colClues": [
-    3,
     4,
     3,
     1,
     2,
+    3,
+    5
+  ],
+  "colClues": [
+    4,
+    1,
+    3,
+    5,
+    3,
     2
   ],
-  "themeWord": "hirondelle",
+  "themeWord": "oursin",
   "solution": [
     [
+      true,
+      false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       false,
       true
     ],
     [
-      false,
-      false,
+      true,
       false,
       false,
       true,
+      false,
       false
     ],
     [
       true,
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false,
       false
@@ -107,18 +115,10 @@
       true,
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-02-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "shampooing",
+      "climat",
+      "astre",
+      "gizeh"
+    ],
+    [
+      "jazz",
+      "marée",
+      "étamine",
+      "flux"
+    ],
+    [
+      "colis",
+      "agenda",
+      "nuit",
+      "pleine"
+    ],
+    [
+      "éclipse",
+      "orbite",
+      "foudroyant",
+      "nouvelle"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "lune",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

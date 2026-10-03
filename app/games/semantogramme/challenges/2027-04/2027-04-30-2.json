@@ -1,0 +1,96 @@
+{
+  "id": "2027-04-30-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "film",
+      "enregistrer",
+      "comprendre",
+      "caméra",
+      "cinéaste"
+    ],
+    [
+      "documenter",
+      "agenda",
+      "reposer",
+      "chaleur",
+      "fantôme"
+    ],
+    [
+      "place",
+      "rhinocéros",
+      "montage",
+      "tremblement",
+      "sauveteur"
+    ],
+    [
+      "acquérir",
+      "projeter",
+      "cinématographie",
+      "vidéo",
+      "réalisateur"
+    ],
+    [
+      "acteur",
+      "immense",
+      "rotatif",
+      "éveiller",
+      "capturer"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    1,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "filmer",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

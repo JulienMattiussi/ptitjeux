@@ -5,60 +5,48 @@
   "height": 4,
   "words": [
     [
-      "embouchure",
-      "airelle",
-      "inondation",
-      "estuaire"
+      "touche",
+      "coude",
+      "clavier",
+      "spécialiste"
     ],
     [
-      "roi",
-      "pont",
-      "voodoo",
-      "rive"
+      "noire",
+      "pupitre",
+      "corde",
+      "orient"
     ],
     [
-      "crue",
-      "jouet",
-      "source",
-      "massue"
+      "sourdine",
+      "concert",
+      "marron",
+      "vessie"
     ],
     [
-      "barge",
-      "affluent",
-      "navigation",
-      "synthétique"
+      "analyse",
+      "barque",
+      "octave",
+      "accord"
     ]
   ],
   "rowClues": [
+    2,
     3,
     2,
-    2,
-    3
+    2
   ],
   "colClues": [
     3,
     2,
     3,
-    2
+    1
   ],
-  "themeWord": "fleuve",
+  "themeWord": "piano",
   "solution": [
     [
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false
     ],
     [
@@ -66,7 +54,19 @@
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    3,
-    1
+    4,
+    2
   ],
   "walls": [
     [
@@ -133,54 +133,54 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "P",
+      "letter": "A",
       "pos": [
         3,
-        4
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "M",
       "pos": [
-        4,
+        5,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "N",
+      "letter": "B",
       "pos": [
-        3,
-        2
+        2,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "D",
+      "letter": "L",
       "pos": [
-        5,
-        2
+        4,
+        4
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        6,
+        5,
         2
       ]
     }
   ],
   "target": {
-    "word": "PONDE",
+    "word": "AMBLA",
     "cells": [
       [
-        2,
-        2
+        3,
+        1
       ],
       [
-        3,
+        4,
         1
       ],
       [
@@ -188,46 +188,44 @@
         2
       ],
       [
-        5,
-        1
+        4,
+        3
       ],
       [
         5,
-        2
+        3
       ]
     ]
   },
-  "parMoves": 29,
+  "parMoves": 27,
   "solution": [
-    "left",
     "down",
     "right",
     "down",
     "right",
-    "down",
-    "right",
-    "right",
     "up",
-    "left",
     "up",
-    "down",
-    "right",
     "right",
     "up",
     "left",
-    "down",
-    "left",
     "left",
     "down",
     "left",
-    "up",
-    "up",
-    "down",
-    "down",
     "down",
     "left",
     "up",
-    "up"
+    "down",
+    "down",
+    "down",
+    "right",
+    "up",
+    "left",
+    "left",
+    "up",
+    "left",
+    "up",
+    "right",
+    "right"
   ],
-  "canonicalWord": "ponde"
+  "canonicalWord": "ambla"
 }

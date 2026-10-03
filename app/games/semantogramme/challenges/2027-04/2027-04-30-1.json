@@ -1,0 +1,72 @@
+{
+  "id": "2027-04-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tige",
+      "creux",
+      "tic-tac",
+      "écume"
+    ],
+    [
+      "ressac",
+      "converser",
+      "crête",
+      "marée"
+    ],
+    [
+      "bord",
+      "hirondelle",
+      "rouleau",
+      "mouche"
+    ],
+    [
+      "bolet",
+      "acidulé",
+      "tsunami",
+      "surf"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "vague",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

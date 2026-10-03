@@ -4,8 +4,8 @@
   "width": 7,
   "height": 6,
   "player": [
-    1,
-    1
+    2,
+    3
   ],
   "walls": [
     [
@@ -97,35 +97,35 @@
       4
     ],
     [
-      4,
+      3,
       4
     ],
     [
       1,
-      3
+      2
     ]
   ],
   "ice": [],
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "D",
       "pos": [
         2,
-        1
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "O",
       "pos": [
-        3,
-        3
+        4,
+        1
       ]
     },
     {
       "id": "b3",
-      "letter": "E",
+      "letter": "S",
       "pos": [
         4,
         2
@@ -133,8 +133,12 @@
     }
   ],
   "target": {
-    "word": "NUE",
+    "word": "DOS",
     "cells": [
+      [
+        2,
+        1
+      ],
       [
         3,
         1
@@ -142,23 +146,21 @@
       [
         3,
         2
-      ],
-      [
-        4,
-        1
       ]
     ]
   },
-  "parMoves": 8,
+  "parMoves": 10,
   "solution": [
-    "right",
-    "down",
-    "down",
-    "down",
-    "right",
     "up",
     "right",
-    "up"
+    "down",
+    "right",
+    "right",
+    "up",
+    "left",
+    "right",
+    "up",
+    "left"
   ],
-  "canonicalWord": "nue"
+  "canonicalWord": "dos"
 }

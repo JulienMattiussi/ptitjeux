@@ -4,8 +4,8 @@
   "width": 8,
   "height": 7,
   "player": [
-    6,
-    2
+    5,
+    1
   ],
   "walls": [
     [
@@ -115,93 +115,93 @@
   ],
   "ice": [
     [
-      4,
-      2
+      3,
+      1
     ],
     [
-      3,
+      2,
       3
     ],
     [
-      3,
-      4
+      4,
+      3
     ],
     [
       4,
-      5
+      4
     ]
   ],
   "blocks": [
     {
       "id": "b1",
-      "letter": "A",
+      "letter": "C",
       "pos": [
-        5,
-        2
+        4,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "O",
       "pos": [
         2,
-        3
+        4
       ]
     },
     {
       "id": "b3",
-      "letter": "D",
+      "letter": "T",
       "pos": [
-        2,
-        4
+        5,
+        3
       ]
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        3,
-        5
+        5,
+        4
       ]
     }
   ],
   "target": {
-    "word": "AEDE",
+    "word": "COTA",
     "cells": [
       [
-        3,
+        2,
+        1
+      ],
+      [
+        2,
         2
       ],
       [
-        4,
+        3,
         3
       ],
       [
-        4,
+        3,
         4
-      ],
-      [
-        5,
-        5
       ]
     ]
   },
   "parMoves": 14,
   "solution": [
     "left",
-    "left",
-    "up",
-    "left",
-    "left",
-    "left",
-    "down",
-    "down",
     "right",
-    "left",
-    "down",
     "right",
     "down",
-    "right"
+    "down",
+    "left",
+    "right",
+    "down",
+    "left",
+    "down",
+    "left",
+    "left",
+    "left",
+    "up"
   ],
-  "canonicalWord": "aède"
+  "canonicalWord": "cota"
 }

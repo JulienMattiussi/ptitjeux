@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "herbe",
-      "procès",
-      "croisée",
-      "baie"
+      "parterre",
+      "tourteau",
+      "tonnelle",
+      "arrosoir"
     ],
     [
-      "volet",
-      "verre",
-      "triompher",
-      "vaillance"
+      "agate",
+      "arbre",
+      "salon",
+      "long"
     ],
     [
-      "amitié",
-      "persienne",
-      "encadrement",
-      "oculus"
+      "serre",
+      "haie",
+      "barbecue",
+      "opération"
     ],
     [
-      "imposte",
-      "risquer",
-      "légendaire",
-      "vitre"
+      "manipulée",
+      "allée",
+      "gonfler",
+      "potager"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     3,
     2
   ],
   "colClues": [
     2,
-    2,
-    2,
-    3
+    3,
+    3,
+    2
   ],
-  "themeWord": "fenêtre",
+  "themeWord": "jardin",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

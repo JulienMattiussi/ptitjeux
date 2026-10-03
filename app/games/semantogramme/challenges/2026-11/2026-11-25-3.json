@@ -5,102 +5,102 @@
   "height": 6,
   "words": [
     [
-      "réparateur",
-      "praline",
-      "impulsion",
-      "engagé",
-      "punchline",
-      "fourmilière"
+      "prier",
+      "rame",
+      "choeur",
+      "posologie",
+      "musique",
+      "crémeux"
     ],
     [
-      "stalactite",
-      "urbain",
-      "température",
-      "flow",
-      "commun",
-      "lessive"
+      "liturgie",
+      "véranda",
+      "gizeh",
+      "sud",
+      "cadet",
+      "gâter"
     ],
     [
-      "scander",
-      "somme",
-      "hip-hop",
-      "rappeur",
-      "pignon",
-      "musique"
+      "goéland",
+      "esthétique",
+      "chant",
+      "spatial",
+      "collectif",
+      "spirituel"
     ],
     [
-      "amusant",
-      "jeune",
-      "street",
-      "annuel",
-      "rythme",
-      "canari"
-    ],
-    [
-      "meunière",
-      "constitutionnelle",
-      "pansement",
-      "beat",
+      "écossais",
       "chanter",
-      "free"
+      "louer",
+      "sacré",
+      "papillon",
+      "plane"
     ],
     [
-      "insecte",
-      "constitution",
-      "rapper",
-      "rime",
-      "improviser",
-      "dieu"
+      "rédaction",
+      "éditorial",
+      "hibernation",
+      "extatique",
+      "spiritual",
+      "rave"
+    ],
+    [
+      "cèdre",
+      "église",
+      "pissaladière",
+      "distance",
+      "passionné",
+      "noir"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
-    4,
     3,
     3,
+    2,
     3
   ],
   "colClues": [
-    1,
+    2,
     2,
     3,
-    5,
+    3,
     4,
     2
   ],
-  "themeWord": "rap",
+  "themeWord": "gospel",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
       false,
+      true,
       false
     ],
     [
       true,
       false,
-      true,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
       true
     ],
     [
       false,
       true,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
@@ -108,17 +108,17 @@
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

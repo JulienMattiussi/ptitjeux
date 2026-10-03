@@ -5,78 +5,102 @@
   "height": 6,
   "words": [
     [
-      "fer-forgé",
-      "chalut",
-      "glouton",
-      "cigale",
-      "australie",
-      "hériter"
+      "contact",
+      "gibecière",
+      "mélancolique",
+      "flamenco",
+      "militaire",
+      "mandrin"
     ],
     [
-      "admirer",
-      "étage",
-      "fleur",
-      "édulcorer",
-      "antenne",
-      "extérieur"
+      "slip",
+      "callosité",
+      "noir",
+      "poids",
+      "diaphane",
+      "bar"
     ],
     [
-      "titane",
-      "ouvert",
-      "côtière",
-      "terrasse",
-      "fumer",
-      "honnêteté"
+      "minute",
+      "passer",
+      "mississippi",
+      "casserole",
+      "underground",
+      "esquiver"
     ],
     [
-      "galoper",
-      "rugissement",
-      "jardinière",
-      "gazeuse",
-      "blatte",
-      "papier"
+      "twelve",
+      "levier",
+      "plaintif",
+      "mirage",
+      "jouer",
+      "calcium"
     ],
     [
-      "orbiter",
-      "petit",
-      "rambarde",
-      "gramme",
-      "haut",
-      "découverte"
+      "âme",
+      "harmonica",
+      "musique",
+      "échelle",
+      "sirop",
+      "improviser"
     ],
     [
-      "flatter",
-      "balustrade",
-      "fenêtre",
-      "porte",
-      "sortir",
-      "arroser"
+      "sud",
+      "chanter",
+      "soliste",
+      "triste",
+      "racine",
+      "sauver"
     ]
   ],
   "rowClues": [
     1,
-    4,
-    3,
+    2,
     1,
     3,
-    5
+    4,
+    4
   ],
   "colClues": [
-    2,
-    4,
-    4,
-    2,
     3,
+    2,
+    5,
+    1,
+    2,
     2
   ],
-  "themeWord": "balcon",
+  "themeWord": "blues",
   "solution": [
     [
+      false,
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
       false
     ],
     [
@@ -88,37 +112,13 @@
       true
     ],
     [
-      false,
+      true,
       true,
       false,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

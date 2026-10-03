@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    2,
-    3
+    6,
+    7
   ],
   "walls": [
     [
@@ -374,9 +374,9 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "M",
       "pos": [
-        3,
+        2,
         1
       ]
     },
@@ -385,36 +385,36 @@
       "letter": "U",
       "pos": [
         4,
-        2
+        1
       ]
     },
     {
       "id": "b3",
       "letter": "T",
       "pos": [
-        3,
-        3
+        5,
+        1
       ]
     },
     {
       "id": "b4",
       "letter": "A",
       "pos": [
-        8,
-        4
+        6,
+        6
       ]
     },
     {
       "id": "b5",
       "letter": "I",
       "pos": [
-        8,
+        7,
         5
       ]
     },
     {
       "id": "b6",
-      "letter": "T",
+      "letter": "S",
       "pos": [
         8,
         6
@@ -422,43 +422,45 @@
     }
   ],
   "target": {
-    "word": "BUTAIT",
+    "word": "MUTAIS",
     "cells": [
       [
-        8,
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
         1
       ],
       [
         8,
-        2
-      ],
-      [
-        8,
-        3
-      ],
-      [
-        8,
-        4
-      ],
-      [
-        8,
-        5
-      ],
-      [
-        8,
-        6
+        1
       ]
     ]
   },
-  "parMoves": 7,
+  "parMoves": 9,
   "solution": [
-    "right",
     "up",
     "right",
+    "up",
     "left",
     "up",
     "right",
-    "right"
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "butait"
+  "canonicalWord": "mutais"
 }

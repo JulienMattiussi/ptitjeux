@@ -5,92 +5,92 @@
   "height": 7,
   "words": [
     [
-      "interroger",
-      "soupçon",
-      "hésiter",
-      "départ",
-      "menace",
-      "exaucer",
-      "douter"
+      "isou",
+      "opérer",
+      "visuel",
+      "traversée",
+      "pansu",
+      "sicilienne",
+      "sonore"
     ],
     [
-      "hésitation",
-      "incertitude",
-      "ouvrière",
-      "fille",
-      "élémentaire",
-      "digérer",
-      "cartésien"
+      "embarquer",
+      "minimaliste",
+      "avant-garde",
+      "gratuite",
+      "rival",
+      "phonétique",
+      "bernin"
     ],
     [
-      "tremolo",
-      "grill",
-      "patiné",
-      "sceptique",
-      "questionner",
-      "velu",
-      "fouler"
+      "écu",
+      "stupeur",
+      "expérimenter",
+      "raréfier",
+      "cri",
+      "lit",
+      "subvertir"
     ],
     [
-      "soupçonner",
-      "velouté",
-      "encadrement",
-      "impair",
-      "cultivé",
-      "philosophique",
-      "régénération"
+      "pulsar",
+      "volatil",
+      "tamis",
+      "lemaître",
+      "muscler",
+      "pincer",
+      "classique"
     ],
     [
-      "grandeur",
-      "descartes",
-      "évanescent",
-      "noisetier",
-      "scepticisme",
-      "bricolée",
-      "écouteur"
+      "épisode",
+      "piste",
+      "art",
+      "lettre",
+      "vert",
+      "son",
+      "transcrire"
     ],
     [
-      "fondamental",
-      "gazeux",
-      "déshydrater",
-      "sucrer",
-      "lutte",
-      "légitime",
-      "lancéolé"
+      "drap",
+      "débattre",
+      "expressif",
+      "nouveau-né",
+      "crypté",
+      "soldes",
+      "latte"
     ],
     [
-      "pyrrhonisme",
-      "questionnement",
-      "inquiétude",
-      "méthodique",
-      "discuter",
-      "rectitude",
-      "amas"
+      "plastique",
+      "embaumer",
+      "pingouin",
+      "azerty",
+      "développer",
+      "composer",
+      "connecté"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    2,
-    2,
-    2,
-    2,
-    4
+    3,
+    3,
+    1,
+    4,
+    1,
+    1
   ],
   "colClues": [
+    1,
+    1,
     5,
-    4,
     2,
-    2,
-    2,
-    2,
-    2
+    1,
+    3,
+    3
   ],
-  "themeWord": "doute",
+  "themeWord": "lettrisme",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false,
       false,
@@ -98,11 +98,20 @@
       true
     ],
     [
+      false,
       true,
       true,
       false,
       false,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      true,
+      false,
+      true,
       false,
       true
     ],
@@ -111,46 +120,37 @@
       false,
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
       false,
-      false,
-      true,
       false
     ],
     [
       false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

@@ -4,8 +4,8 @@
   "width": 10,
   "height": 9,
   "player": [
-    5,
-    4
+    4,
+    7
   ],
   "walls": [
     [
@@ -374,64 +374,56 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "H",
+      "letter": "R",
       "pos": [
-        4,
-        3
+        2,
+        1
       ]
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "A",
       "pos": [
-        2,
-        1
+        4,
+        6
       ]
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "N",
       "pos": [
-        3,
-        1
+        5,
+        5
       ]
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "G",
       "pos": [
-        4,
-        2
+        6,
+        1
       ]
     },
     {
       "id": "b5",
-      "letter": "T",
-      "pos": [
-        5,
-        3
-      ]
-    },
-    {
-      "id": "b6",
-      "letter": "A",
+      "letter": "E",
       "pos": [
         7,
         1
       ]
+    },
+    {
+      "id": "b6",
+      "letter": "S",
+      "pos": [
+        5,
+        6
+      ]
     }
   ],
   "target": {
-    "word": "HERITA",
+    "word": "RANGES",
     "cells": [
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
       [
         3,
         1
@@ -447,21 +439,28 @@
       [
         6,
         1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 9,
   "solution": [
-    "up",
-    "left",
-    "up",
-    "down",
-    "left",
-    "up",
     "up",
     "right",
     "up",
-    "left"
+    "left",
+    "up",
+    "right",
+    "down",
+    "right",
+    "up"
   ],
-  "canonicalWord": "hérita"
+  "canonicalWord": "ranges"
 }

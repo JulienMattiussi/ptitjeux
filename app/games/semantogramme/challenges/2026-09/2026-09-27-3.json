@@ -5,78 +5,110 @@
   "height": 6,
   "words": [
     [
-      "feuille",
-      "cochon",
+      "sillet",
+      "vertical",
+      "taguer",
+      "éplucher",
+      "marié",
+      "colonne"
+    ],
+    [
+      "rectitude",
+      "vocifération",
+      "règle",
+      "poire",
+      "foulure",
+      "frondaison"
+    ],
+    [
+      "verticale",
+      "puiser",
+      "câble",
+      "inflexible",
+      "maternité",
+      "boxer"
+    ],
+    [
       "tendre",
-      "légume",
-      "pendule",
-      "sandwich"
+      "redresser",
+      "arête",
+      "perpendiculaire",
+      "ronron",
+      "canadien"
     ],
     [
-      "indépendante",
-      "piment",
-      "étrenner",
-      "flamme",
-      "verte",
-      "instituteur"
+      "aligner",
+      "marmite",
+      "pilier",
+      "mandibule",
+      "aplomb",
+      "rectiligne"
     ],
     [
-      "voltiger",
-      "tige",
-      "composée",
-      "croquante",
-      "brouillard",
-      "pourboire"
-    ],
-    [
-      "arrogance",
-      "batavia",
-      "ring",
-      "posture",
-      "aîné",
-      "enchaîner"
-    ],
-    [
-      "reine",
-      "douane",
-      "rosette",
-      "vinaigrette",
-      "blatte",
-      "romaine"
-    ],
-    [
-      "salade",
-      "iceberg",
-      "pomme",
-      "jardin",
-      "cube",
-      "poirier"
+      "larmoyer",
+      "garnir",
+      "naviguer",
+      "ride",
+      "ligne",
+      "fart"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     2,
-    1,
-    3,
-    4
+    2,
+    2,
+    4,
+    4,
+    1
   ],
   "colClues": [
+    4,
+    2,
+    3,
     2,
     2,
-    4,
-    4,
-    1,
     2
   ],
-  "themeWord": "laitue",
+  "themeWord": "droit",
   "solution": [
     [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -85,38 +117,6 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
       false
     ]
   ],

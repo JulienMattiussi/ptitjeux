@@ -5,77 +5,85 @@
   "height": 6,
   "words": [
     [
-      "amanite",
-      "titanesque",
-      "vigne",
-      "fémur",
-      "taille",
-      "chardon"
+      "salir",
+      "effrayant",
+      "naviguer",
+      "juge",
+      "surdité",
+      "design"
     ],
     [
-      "enrubanner",
-      "large",
-      "antiquité",
-      "ceinture",
-      "mot",
-      "rotation"
+      "cabine",
+      "domestique",
+      "scie",
+      "municipale",
+      "restauration",
+      "bordeaux"
     ],
     [
-      "expliquer",
-      "radieux",
-      "pot",
-      "femme",
-      "rond",
-      "réparer"
+      "sagoutier",
+      "embarquer",
+      "fournisseur",
+      "férié",
+      "passager",
+      "mer"
     ],
     [
-      "mobile",
-      "sportif",
-      "pivoter",
-      "teinture",
-      "précoce",
-      "fraîche"
+      "mâle",
+      "cargo",
+      "confiture",
+      "effrayer",
+      "fascinant",
+      "débarquer"
     ],
     [
-      "plat-de-service",
-      "haltérophilie",
-      "baguettes",
-      "pied",
-      "mouchoir",
-      "bassin"
+      "transport",
+      "prix",
+      "traverser",
+      "bateau",
+      "tiédir",
+      "grand"
     ],
     [
-      "corriger",
-      "balancement",
-      "cuisse",
-      "tournevis",
-      "malt",
-      "danser"
+      "réparation",
+      "port",
+      "ticket",
+      "lecteur",
+      "pont",
+      "liaison"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    3,
     1,
+    2,
+    3,
+    2,
+    4,
     3
   ],
   "colClues": [
+    2,
+    3,
+    2,
     1,
     3,
-    2,
-    3,
-    2,
-    3
+    4
   ],
-  "themeWord": "hanche",
+  "themeWord": "ferry",
   "solution": [
     [
       false,
       false,
-      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -83,42 +91,34 @@
       false,
       true,
       false,
-      true,
       false,
+      true,
       true
     ],
     [
       false,
-      false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       false,
       false,
       true
     ],
     [
+      true,
       false,
       true,
       true,
       false,
+      true
+    ],
+    [
       false,
+      true,
+      false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

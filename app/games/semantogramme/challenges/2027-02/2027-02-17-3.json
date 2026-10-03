@@ -1,0 +1,124 @@
+{
+  "id": "2027-02-17-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "paracétamol",
+      "transpirer",
+      "thermomètre",
+      "infection",
+      "éplucheur",
+      "cauchemar"
+    ],
+    [
+      "piéton",
+      "monter",
+      "fine",
+      "élevée",
+      "tirage",
+      "température"
+    ],
+    [
+      "rigide",
+      "sabler",
+      "haute",
+      "soldat",
+      "sueur",
+      "malade"
+    ],
+    [
+      "rouge",
+      "délire",
+      "aspirine",
+      "amertume",
+      "chaud",
+      "maladie"
+    ],
+    [
+      "ciseau",
+      "cardiogramme",
+      "rafale",
+      "garage",
+      "beagle",
+      "tomber"
+    ],
+    [
+      "cellule",
+      "frisson",
+      "vitesse",
+      "incliner",
+      "glissant",
+      "bagage"
+    ]
+  ],
+  "rowClues": [
+    5,
+    3,
+    3,
+    5,
+    1,
+    1
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    2,
+    5
+  ],
+  "themeWord": "fièvre",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

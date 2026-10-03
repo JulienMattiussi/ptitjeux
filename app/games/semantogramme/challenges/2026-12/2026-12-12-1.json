@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "duffel-coat",
-      "crin",
-      "colophane",
-      "sonate"
+      "concept",
+      "idée",
+      "diriger",
+      "raisonnement"
     ],
     [
-      "masquer",
-      "corde",
-      "orchestre",
-      "partition"
+      "grill",
+      "intuition",
+      "jugement",
+      "drap"
     ],
     [
-      "concerto",
-      "dresser",
-      "préparer",
-      "soliste"
+      "épaule",
+      "byzantin",
+      "créativité",
+      "royauté"
     ],
     [
-      "pupitre",
-      "imagination",
-      "manche",
-      "récréation"
+      "analyse",
+      "peur",
+      "logique",
+      "tétine"
     ]
   ],
   "rowClues": [
     3,
-    3,
     2,
+    1,
     2
   ],
   "colClues": [
     2,
     2,
     3,
-    3
+    1
   ],
-  "themeWord": "violon",
+  "themeWord": "pensée",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
       false,
       true,
       true,
-      true
+      false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
-      true
+      false
     ],
     [
       true,
@@ -68,5 +68,5 @@
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

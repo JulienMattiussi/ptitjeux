@@ -5,7 +5,7 @@
   "height": 9,
   "player": [
     4,
-    4
+    5
   ],
   "walls": [
     [
@@ -374,75 +374,75 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "O",
+      "letter": "J",
       "pos": [
-        2,
-        7
+        8,
+        2
       ]
     },
     {
       "id": "b2",
-      "letter": "X",
+      "letter": "E",
       "pos": [
-        4,
-        5
+        8,
+        3
       ]
     },
     {
       "id": "b3",
-      "letter": "Y",
+      "letter": "R",
       "pos": [
-        5,
-        6
+        8,
+        4
       ]
     },
     {
       "id": "b4",
-      "letter": "M",
+      "letter": "K",
       "pos": [
-        6,
-        7
+        5,
+        5
       ]
     },
     {
       "id": "b5",
       "letter": "E",
       "pos": [
-        7,
-        7
+        6,
+        6
       ]
     },
     {
       "id": "b6",
-      "letter": "L",
+      "letter": "S",
       "pos": [
         5,
-        5
+        7
       ]
     }
   ],
   "target": {
-    "word": "OXYMEL",
+    "word": "JERKES",
     "cells": [
       [
-        3,
-        7
+        8,
+        2
       ],
       [
-        4,
-        7
+        8,
+        3
       ],
       [
-        5,
-        7
+        8,
+        4
       ],
       [
-        6,
-        7
+        8,
+        5
       ],
       [
-        7,
-        7
+        8,
+        6
       ],
       [
         8,
@@ -450,18 +450,15 @@
       ]
     ]
   },
-  "parMoves": 10,
+  "parMoves": 7,
   "solution": [
-    "down",
     "right",
     "down",
-    "up",
     "right",
-    "down",
-    "down",
     "left",
     "down",
+    "right",
     "right"
   ],
-  "canonicalWord": "oxymel"
+  "canonicalWord": "jerkes"
 }

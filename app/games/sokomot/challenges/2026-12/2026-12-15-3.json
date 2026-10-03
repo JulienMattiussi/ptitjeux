@@ -4,8 +4,8 @@
   "width": 9,
   "height": 8,
   "player": [
-    4,
-    2
+    3,
+    3
   ],
   "walls": [
     [
@@ -133,7 +133,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "D",
       "pos": [
         3,
         2
@@ -141,15 +141,15 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "O",
       "pos": [
-        6,
+        4,
         3
       ]
     },
     {
       "id": "b3",
-      "letter": "L",
+      "letter": "R",
       "pos": [
         2,
         4
@@ -157,66 +157,66 @@
     },
     {
       "id": "b4",
-      "letter": "B",
+      "letter": "M",
       "pos": [
-        4,
+        2,
         3
       ]
     },
     {
       "id": "b5",
-      "letter": "E",
+      "letter": "I",
       "pos": [
-        6,
+        5,
         4
       ]
     }
   ],
   "target": {
-    "word": "BULBE",
+    "word": "DORMI",
     "cells": [
       [
-        3,
+        1,
         1
       ],
       [
-        4,
+        2,
         2
       ],
       [
-        4,
+        2,
         3
       ],
       [
-        5,
-        3
+        2,
+        4
       ],
       [
-        6,
-        3
+        3,
+        5
       ]
     ]
   },
-  "parMoves": 32,
+  "parMoves": 31,
   "solution": [
+    "up",
+    "right",
+    "up",
+    "left",
+    "left",
+    "down",
+    "left",
+    "down",
+    "right",
+    "left",
+    "down",
     "down",
     "right",
     "up",
     "right",
     "right",
-    "down",
-    "left",
-    "left",
-    "down",
-    "down",
-    "left",
-    "left",
-    "left",
     "up",
     "right",
-    "right",
-    "up",
-    "left",
     "up",
     "left",
     "left",
@@ -224,13 +224,12 @@
     "right",
     "right",
     "down",
+    "right",
     "down",
-    "right",
-    "right",
+    "left",
+    "left",
     "up",
-    "down",
-    "right",
-    "up"
+    "left"
   ],
-  "canonicalWord": "bulbe"
+  "canonicalWord": "dormi"
 }

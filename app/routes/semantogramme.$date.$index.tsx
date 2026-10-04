@@ -26,6 +26,12 @@ import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
+import { gamePlayMeta } from '~/lib/seo'
+import type { Route } from './+types/semantogramme.$date.$index'
+
+export function meta({ params }: Route.MetaArgs) {
+  return gamePlayMeta('semantogramme', params.date, params.index)
+}
 
 // La saisie du thème n'est pas un coup : seuls les changements de case s'annulent.
 const undoableReducer = withUndo(reducer, (action) => action.type === 'cycle')

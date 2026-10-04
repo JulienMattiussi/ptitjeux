@@ -6,78 +6,79 @@
   "pillars": [
     [
       6,
-      6
+      7
     ],
     [
-      4,
+      1,
+      5
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      6,
       2
+    ],
+    [
+      5,
+      5
     ],
     [
       7,
       7
-    ],
-    [
-      6,
-      5
-    ],
-    [
-      0,
-      4
-    ],
-    [
-      1,
-      1
-    ],
-    [
-      0,
-      0
     ]
   ],
   "mirrors": [],
   "door": [
-    7,
-    8
-  ],
-  "diamond": [
     0,
     7
   ],
+  "diamond": [
+    7,
+    2
+  ],
   "clues": {
+    "0,6": 0,
+    "2,8": 0,
     "5,7": 0,
-    "6,7": 0,
-    "5,5": 0,
-    "7,4": 2,
-    "2,6": 2,
     "5,1": 2,
-    "5,0": 2,
-    "0,5": 0,
+    "4,0": 2,
+    "1,2": 1,
+    "0,3": 1,
+    "4,7": 0,
     "2,4": 0,
-    "4,4": 0,
-    "4,3": 0,
-    "1,4": 0,
-    "4,5": 0
+    "7,6": 0
   },
   "pool": {
-    "simple": 5,
-    "angle": 5,
-    "oppose": 0
+    "simple": 8,
+    "angle": 1,
+    "oppose": 2
   },
   "solution": [
     {
       "pos": [
-        0,
-        2
+        1,
+        1
       ],
-      "type": "angle",
-      "facing": "N"
+      "type": "oppose",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        1,
+        0
+      ],
+      "type": "oppose",
+      "facing": "E"
     },
     {
       "pos": [
         3,
-        4
+        7
       ],
       "type": "simple",
-      "facing": "S"
+      "facing": "N"
     },
     {
       "pos": [
@@ -85,23 +86,7 @@
         8
       ],
       "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        2,
-        5
-      ],
-      "type": "simple",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        5,
-        4
-      ],
-      "type": "angle",
-      "facing": "N"
+      "facing": "E"
     },
     {
       "pos": [
@@ -109,19 +94,43 @@
         6
       ],
       "type": "simple",
-      "facing": "S"
+      "facing": "N"
+    },
+    {
+      "pos": [
+        5,
+        4
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        6,
+        5
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        1,
+        8
+      ],
+      "type": "simple",
+      "facing": "W"
     },
     {
       "pos": [
         1,
         6
       ],
-      "type": "angle",
-      "facing": "E"
+      "type": "simple",
+      "facing": "S"
     },
     {
       "pos": [
-        1,
+        2,
         3
       ],
       "type": "simple",
@@ -129,20 +138,12 @@
     },
     {
       "pos": [
-        6,
-        1
+        4,
+        2
       ],
       "type": "angle",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        7,
-        0
-      ],
-      "type": "angle",
-      "facing": "S"
+      "facing": "W"
     }
   ],
-  "parMoves": 10
+  "parMoves": 11
 }

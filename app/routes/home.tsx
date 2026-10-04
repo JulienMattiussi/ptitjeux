@@ -1,16 +1,15 @@
 import { GameCard } from '~/components/GameCard'
 import { games } from '~/lib/games-registry'
 import { useGridNavigation } from '~/lib/useGridNavigation'
-import type { Route } from './+types/home'
+import { pageMeta, SITE_NAME } from '~/lib/seo'
 
-export function meta(_: Route.MetaArgs) {
-  return [
-    { title: 'Ptitjeux — mini-jeux logico-spatiaux' },
-    {
-      name: 'description',
-      content: 'Mini-jeux logico-spatiaux : Sokomot, Boucle, Sémantogramme, Angle mort.',
-    },
-  ]
+export function meta() {
+  return pageMeta({
+    title: `${SITE_NAME} : casse-tête logico-spatiaux du jour`,
+    description:
+      'Des casse-tête logico-spatiaux à explorer chaque jour : Boucle, Angle mort, Sokomot et Sémantogramme. Gratuit, sans compte.',
+    path: '/',
+  })
 }
 
 export default function Home() {
@@ -42,13 +41,13 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-5 text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-              Des casse-tête logico-spatiaux à explorer. Aucun compte requis, ta progression reste
-              sur ton appareil.
+              Des casse-tête logico-spatiaux à explorer chaque jour
             </p>
           </div>
         </header>
 
-        <div className="stagger grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Flex plutôt que grille : la dernière ligne, si elle est incomplète, reste centrée. */}
+        <div className="stagger flex flex-wrap justify-center gap-6 *:w-full sm:*:w-[calc((100%-1.5rem)/2)] lg:*:w-[calc((100%-3rem)/3)]">
           {games.map((game) => (
             <GameCard key={game.id} game={game} />
           ))}

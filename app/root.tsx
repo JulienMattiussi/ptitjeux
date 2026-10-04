@@ -2,6 +2,10 @@ import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration }
 
 import type { Route } from './+types/root'
 import './app.css'
+import { SITE_NAME } from './lib/seo'
+
+// Repli (page d'erreur) : chaque route définit sinon son propre titre.
+export const meta: Route.MetaFunction = () => [{ title: SITE_NAME }]
 
 export const links: Route.LinksFunction = () => [
   { rel: 'icon', type: 'image/jpeg', href: '/cerveau.jpeg' },
@@ -24,7 +28,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ptitjeux</title>
         <Meta />
         <Links />
       </head>

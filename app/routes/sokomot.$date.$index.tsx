@@ -16,6 +16,12 @@ import type { GameState } from '~/games/sokomot/types'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
+import { gamePlayMeta } from '~/lib/seo'
+import type { Route } from './+types/sokomot.$date.$index'
+
+export function meta({ params }: Route.MetaArgs) {
+  return gamePlayMeta('sokomot', params.date, params.index)
+}
 
 // Wrapper qui force un remount complet (et donc un état frais) chaque fois
 // que l'URL change vers un autre niveau. Sans cela, le `useReducer` à

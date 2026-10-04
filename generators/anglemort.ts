@@ -301,6 +301,15 @@ const TARGET_GUARDS: Record<LevelIndex, number> = { 1: 6, 2: 7, 3: 8, 4: 9 }
 const MIN_PILLARS: Record<LevelIndex, number> = { 1: 3, 2: 3, 3: 4, 4: 0 }
 /** Nombre minimal de vigiles à deux lampes (angle ou opposé), la nouveauté du niveau 3. */
 const MIN_DOUBLES: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 2, 4: 1 }
+/** Nombre maximal de vigiles à deux lampes : au-delà, la grille devient touffue. */
+const MAX_DOUBLES: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 3, 4: 4 }
+
+/** Types de vigiles disponibles pour la construction, et plafond de doubles. */
+type GuardKit = { types: readonly GuardType[]; maxDoubles: number }
+
+function doubles(guards: Guard[]): number {
+  return guards.filter((g) => g.type !== 'simple').length
+}
 /** À partir du niveau 3, le diamant est toujours contre le mur d'enceinte ou un pilier. */
 const DIAMOND_AGAINST_WALL: Record<LevelIndex, boolean> = { 1: false, 2: false, 3: true, 4: true }
 /** Densité maximale de piliers (piliers ÷ cases de la salle). */
@@ -355,7 +364,7 @@ function greedyCover(
   rng: Rng,
   level: Level,
   path: Pos[],
-  types: readonly GuardType[],
+  kit: GuardKit,
   initial: Guard[],
 ): Guard[] | null {
   const onPath = new Set(path.map((p) => key(...p)))
@@ -366,6 +375,7 @@ function greedyCover(
   const maxSteps = level.width * level.height
   for (let step = 0; step < maxSteps && covered < target; step++) {
     const occupied = new Set(guards.map((g) => key(...g.pos)))
+    const types = doubles(guards) >= kit.maxDoubles ? (['simple'] as const) : kit.types
     const options: { guard: Guard; covered: number }[] = []
     for (const [x, y] of offCorridor(level, onPath)) {
       if (!isPlaceable(level, x, y) || occupied.has(key(x, y))) continue
@@ -400,7 +410,7 @@ function reduceWithPillars(
   rng: Rng,
   level: Level,
   path: Pos[],
-  types: readonly GuardType[],
+  kit: GuardKit,
   start: Guard[],
   target: number,
   minPillars: number,
@@ -419,7 +429,7 @@ function reduceWithPillars(
     // Un vigile dont la lampe se retrouve contre le nouveau pilier aurait une
     // orientation interdite : on le retire, la réparation le remplace au besoin.
     const kept = guards.filter((g) => !samePos(g.pos, pos) && isFacingAllowed(candidate, g))
-    const repaired = greedyCover(rng, candidate, path, types, pruneRedundant(candidate, path, kept))
+    const repaired = greedyCover(rng, candidate, path, kit, pruneRedundant(candidate, path, kept))
     // Sous le minimum de piliers, un pilier qui ne fait pas grimper le nombre
     // de vigiles est gardé aussi.
     const needPillar = current.pillars.length < minPillars
@@ -454,7 +464,7 @@ function placeDiamondAgainstWall(
   rng: Rng,
   level: Level,
   path: Pos[],
-  types: readonly GuardType[],
+  kit: GuardKit,
   guards: Guard[],
 ): { level: Level; guards: Guard[] } | null {
   if (diamondAgainstWall(level)) return { level, guards }
@@ -468,7 +478,7 @@ function placeDiamondAgainstWall(
   for (const pos of options) {
     const candidate: Level = { ...level, pillars: [...level.pillars, pos] }
     const kept = guards.filter((g) => !samePos(g.pos, pos) && isFacingAllowed(candidate, g))
-    const repaired = greedyCover(rng, candidate, path, types, pruneRedundant(candidate, path, kept))
+    const repaired = greedyCover(rng, candidate, path, kit, pruneRedundant(candidate, path, kept))
     if (repaired) return { level: candidate, guards: repaired }
   }
   return null
@@ -510,9 +520,12 @@ function tryGenerate(
   const room: Level = { ...empty, diamond: path[path.length - 1] }
 
   // 2. Des vigiles qui matérialisent le couloir, sans contrainte de nombre.
-  const types = GUARD_TYPES.filter((t) => room.pool[t] > 0)
+  const kit: GuardKit = {
+    types: GUARD_TYPES.filter((t) => room.pool[t] > 0),
+    maxDoubles: MAX_DOUBLES[index],
+  }
   const started = Date.now()
-  const first = greedyCover(rng, room, path, types, [])
+  const first = greedyCover(rng, room, path, kit, [])
   if (!first) {
     stats.constructMs += Date.now() - started
     return fail(stats, 'construct')
@@ -523,13 +536,13 @@ function tryGenerate(
     rng,
     room,
     path,
-    types,
+    kit,
     first,
     TARGET_GUARDS[index],
     MIN_PILLARS[index],
   )
   const anchored = DIAMOND_AGAINST_WALL[index]
-    ? placeDiamondAgainstWall(rng, reduced.level, path, types, reduced.guards)
+    ? placeDiamondAgainstWall(rng, reduced.level, path, kit, reduced.guards)
     : reduced
   stats.constructMs += Date.now() - started
   if (!anchored) return fail(stats, 'diamond')
@@ -547,7 +560,8 @@ function tryGenerate(
   if (mirrored.level.pillars.length < MIN_PILLARS[index]) {
     return fail(stats, 'pillars')
   }
-  if (solution.filter((g) => g.type !== 'simple').length < MIN_DOUBLES[index]) {
+  const doubleCount = doubles(solution)
+  if (doubleCount < MIN_DOUBLES[index] || doubleCount > MAX_DOUBLES[index]) {
     return fail(stats, 'types')
   }
 

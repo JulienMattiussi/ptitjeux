@@ -5,32 +5,24 @@
   "height": 8,
   "pillars": [
     [
-      8,
-      3
+      6,
+      5
     ],
     [
-      0,
-      2
+      3,
+      5
     ],
     [
-      1,
-      6
+      2,
+      5
     ],
     [
       5,
       0
     ],
     [
-      1,
+      4,
       5
-    ],
-    [
-      2,
-      6
-    ],
-    [
-      7,
-      1
     ]
   ],
   "mirrors": [],
@@ -43,30 +35,30 @@
     5
   ],
   "clues": {
-    "0,7": 0,
-    "4,7": 0,
-    "7,0": 0,
-    "3,3": 2,
+    "3,7": 0,
+    "7,2": 0,
+    "8,0": 0,
     "8,5": 2,
-    "4,2": 2,
-    "5,1": 2,
-    "7,4": 0,
-    "5,4": 0,
-    "5,5": 0,
-    "5,7": 0
+    "1,3": 2,
+    "0,2": 1,
+    "7,3": 0,
+    "0,7": 0,
+    "5,7": 0,
+    "6,4": 0,
+    "7,4": 0
   },
   "pool": {
-    "simple": 2,
-    "angle": 7,
+    "simple": 7,
+    "angle": 2,
     "oppose": 1
   },
   "solution": [
     {
       "pos": [
-        5,
-        2
+        7,
+        1
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "W"
     },
     {
@@ -79,27 +71,35 @@
     },
     {
       "pos": [
-        6,
-        5
+        1,
+        6
       ],
-      "type": "angle",
-      "facing": "E"
+      "type": "simple",
+      "facing": "N"
     },
     {
       "pos": [
         4,
         6
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "W"
     },
     {
       "pos": [
-        3,
-        6
+        4,
+        4
       ],
-      "type": "angle",
-      "facing": "N"
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        8,
+        3
+      ],
+      "type": "simple",
+      "facing": "S"
     },
     {
       "pos": [
@@ -112,34 +112,26 @@
     {
       "pos": [
         6,
-        1
-      ],
-      "type": "angle",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        8,
-        7
+        2
       ],
       "type": "simple",
-      "facing": "N"
+      "facing": "W"
     },
     {
       "pos": [
-        2,
-        0
+        6,
+        6
       ],
-      "type": "oppose",
+      "type": "angle",
       "facing": "E"
     },
     {
       "pos": [
-        2,
-        4
+        3,
+        0
       ],
-      "type": "angle",
-      "facing": "S"
+      "type": "oppose",
+      "facing": "E"
     }
   ],
   "parMoves": 10

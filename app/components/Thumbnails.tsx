@@ -22,7 +22,7 @@ export function SokomotThumbnail({ className = '' }: Props) {
           <stop offset="100%" stopColor="oklch(72% 0.18 70)" />
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="120" height="80" rx="10" fill="url(#sokomot-bg)" />
+      <rect x="0" y="0" width="120" height="80" fill="url(#sokomot-bg)" />
       {/* Grid lines */}
       <g stroke="oklch(70% 0.04 240)" strokeWidth="0.5" opacity="0.4">
         <line x1="30" y1="10" x2="30" y2="70" />
@@ -149,7 +149,7 @@ export function BoucleThumbnail({ className = '' }: Props) {
           <stop offset="100%" stopColor="oklch(88% 0.07 170)" />
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="120" height="80" rx="10" fill="url(#boucle-bg)" />
+      <rect x="0" y="0" width="120" height="80" fill="url(#boucle-bg)" />
       {/* Bordure extérieure de la grille + lignes intérieures */}
       <g stroke="oklch(70% 0.04 170)" strokeWidth="0.5" opacity="0.5" fill="none">
         <rect x="10" y="10" width="100" height="60" />
@@ -215,7 +215,7 @@ export function SemantogrammeThumbnail({ className = '' }: Props) {
           <stop offset="100%" stopColor="oklch(78% 0.16 55)" />
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="120" height="80" rx="10" fill="url(#sem-bg)" />
+      <rect x="0" y="0" width="120" height="80" fill="url(#sem-bg)" />
       {/* Margin numbers */}
       <text x="11" y="22" fontSize="7" fontWeight="700" fill="oklch(50% 0.18 60)">
         2
@@ -288,7 +288,7 @@ export function AngleMortThumbnail({ className = '' }: Props) {
   const corridor = new Set(['1,1', '2,1'])
   return (
     <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu d'Angle mort">
-      <rect x="0" y="0" width="120" height="80" rx="10" className="fill-violet-100" />
+      <rect x="0" y="0" width="120" height="80" className="fill-violet-100" />
       <g transform="translate(2 0) scale(0.339)">
         <rect
           x={margin - wall}

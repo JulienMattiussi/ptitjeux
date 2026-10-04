@@ -28,6 +28,12 @@ import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
+import { gamePlayMeta } from '~/lib/seo'
+import type { Route } from './+types/boucle.$date.$index'
+
+export function meta({ params }: Route.MetaArgs) {
+  return gamePlayMeta('boucle', params.date, params.index)
+}
 
 const undoableReducer = withUndo(reducer, (action) => action.type === 'toggle')
 

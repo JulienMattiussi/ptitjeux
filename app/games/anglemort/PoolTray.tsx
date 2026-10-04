@@ -9,30 +9,33 @@ const TYPE_LABEL: Record<GuardType, string> = {
 }
 
 /**
- * Réserve des vigiles encore à poser : chacun est dessiné, groupés par type.
+ * Réserve des vigiles encore à poser : chacun est dessiné, une ligne par type.
  * Un vigile posé disparaît de la réserve, il n'y a donc rien à compter.
  */
 export function PoolTray({ state }: { state: GameState }) {
-  const left = GUARD_TYPES.flatMap((type) =>
-    Array.from({ length: remaining(state, type) }, (_, i) => ({ type, i })),
-  )
-  const label = GUARD_TYPES.filter((t) => remaining(state, t) > 0)
-    .map((t) => `${remaining(state, t)} à ${TYPE_LABEL[t]}`)
-    .join(', ')
+  const types = GUARD_TYPES.filter((t) => remaining(state, t) > 0)
 
-  if (left.length === 0) {
+  if (types.length === 0) {
     return <p className="text-sm text-gray-500 dark:text-gray-400">Tous les vigiles sont placés.</p>
   }
 
   return (
-    <ul className="flex flex-wrap gap-1.5" aria-label={`Vigiles à placer : ${label}`}>
-      {left.map(({ type, i }) => (
-        <li key={`${type}-${i}`} title={`Vigile à ${TYPE_LABEL[type]}`}>
-          <svg viewBox="-20 -20 40 40" width="36" height="36" aria-hidden="true">
-            <GuardSprite type={type} facing={type === 'oppose' ? 'E' : 'N'} beams={false} />
-          </svg>
-        </li>
+    <div className="flex flex-col gap-1.5">
+      {types.map((type) => (
+        <ul
+          key={type}
+          className="flex flex-wrap gap-1.5"
+          aria-label={`Vigiles à placer : ${remaining(state, type)} à ${TYPE_LABEL[type]}`}
+        >
+          {Array.from({ length: remaining(state, type) }, (_, i) => (
+            <li key={i} title={`Vigile à ${TYPE_LABEL[type]}`}>
+              <svg viewBox="-20 -20 40 40" width="36" height="36" aria-hidden="true">
+                <GuardSprite type={type} facing={type === 'oppose' ? 'E' : 'N'} beams={false} />
+              </svg>
+            </li>
+          ))}
+        </ul>
       ))}
-    </ul>
+    </div>
   )
 }

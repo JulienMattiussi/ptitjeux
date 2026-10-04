@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
   areCluesSatisfied,
+  beamOutlines,
   computeVision,
   corridorOrder,
   expectedCorridor,
@@ -290,6 +291,57 @@ describe('anglemort engine : vision', () => {
     const level = makeLevel({ mirrors: [{ pos: [2, 0], kind: '\\' }] })
     const { seen } = computeVision(level, [{ pos: [0, 0], type: 'simple', facing: 'E' }])
     expect([seen[0][3], seen[1][2], seen[2][2]]).toEqual([0, 1, 1])
+  })
+
+  it('un faisceau éclaire la moitié du miroir par laquelle il entre', () => {
+    const level = makeLevel({ mirrors: [{ pos: [2, 0], kind: '\\' }] })
+    const { litMirrors } = computeVision(level, [{ pos: [0, 0], type: 'simple', facing: 'E' }])
+    expect(litMirrors).toEqual({ '2,0': ['SW'] })
+  })
+
+  it('deux faisceaux sur les deux faces éclairent les deux moitiés du miroir', () => {
+    const level = makeLevel({ width: 5, mirrors: [{ pos: [2, 0], kind: '/' }] })
+    const { litMirrors } = computeVision(level, [
+      { pos: [0, 0], type: 'simple', facing: 'E' },
+      { pos: [4, 0], type: 'simple', facing: 'W' },
+    ])
+    expect(litMirrors['2,0']).toEqual(['NW', 'SE'])
+  })
+
+  it('le tracé d un faisceau s arrête au bord de la case qui le bloque', () => {
+    const level = makeLevel({ pillars: [[3, 2]] })
+    const guard: Guard = { pos: [0, 2], type: 'simple', facing: 'E' }
+    expect(beamOutlines(level, [guard], guard)).toEqual([
+      [
+        [0, 2],
+        [2.5, 2],
+      ],
+    ])
+  })
+
+  it('le tracé d un faisceau tourne sur les miroirs', () => {
+    const level = makeLevel({ mirrors: [{ pos: [2, 0], kind: '\\' }] })
+    const guard: Guard = { pos: [0, 0], type: 'simple', facing: 'E' }
+    expect(beamOutlines(level, [guard], guard)).toEqual([
+      [
+        [0, 0],
+        [2, 0],
+        [2, 2.5],
+      ],
+    ])
+  })
+
+  it('le tracé d une lampe contre un vigile s arrête au bord de sa case', () => {
+    const guards: Guard[] = [
+      { pos: [0, 2], type: 'simple', facing: 'E' },
+      { pos: [1, 2], type: 'simple', facing: 'N' },
+    ]
+    expect(beamOutlines(makeLevel(), guards, guards[0])).toEqual([
+      [
+        [0, 2],
+        [0.5, 2],
+      ],
+    ])
   })
 
   it('un regard qui boucle par les miroirs s arrête en revenant sur son vigile', () => {

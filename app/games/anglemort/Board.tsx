@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
-import { ClueMark, DiamondMark, DoorMark, doorSide, SIDE_VECTOR } from './BoardMarks'
-import { computeVision, isPlaceable, key, unseenCells } from './engine'
+import { ClueMark, DiamondMark, DoorMark, doorSide, MirrorMark, SIDE_VECTOR } from './BoardMarks'
+import { beamOutlines, computeVision, isPlaceable, key, unseenCells } from './engine'
 import { GuardSprite } from './GuardSprite'
 import { ThiefSprite } from './ThiefSprite'
 import type { Dir, GameState, Pos } from './types'
@@ -57,6 +57,8 @@ export function Board({
   const pillars = new Set(level.pillars.map(([x, y]) => key(x, y)))
   const mirrors = new Map(level.mirrors.map((m) => [key(...m.pos), m.kind]))
   const guardByCell = new Map(guards.map((g) => [key(...g.pos), g]))
+  // Vigile sous le curseur (souris ou clavier) : ses faisceaux sont tracés en entier.
+  const hovered = selected ? guardByCell.get(key(selected.x, selected.y)) : undefined
   const width = level.width * CELL + MARGIN * 2
   const height = level.height * CELL + MARGIN * 2
   const origin = (x: number, y: number) => [MARGIN + x * CELL, MARGIN + y * CELL] as const
@@ -88,7 +90,6 @@ export function Board({
 
       const mirror = mirrors.get(k)
       if (mirror) {
-        const [y1, y2] = mirror === '/' ? [oy + CELL - 8, oy + 8] : [oy + 8, oy + CELL - 8]
         cells.push(
           <g
             key={k}
@@ -96,23 +97,7 @@ export function Board({
             aria-label={`Miroir ${mirror}`}
             onMouseEnter={handlers.onMouseEnter}
           >
-            <rect
-              x={ox + 2}
-              y={oy + 2}
-              width={CELL - 4}
-              height={CELL - 4}
-              rx={6}
-              className="fill-slate-200 dark:fill-slate-700"
-            />
-            <line
-              x1={ox + 8}
-              y1={y1}
-              x2={ox + CELL - 8}
-              y2={y2}
-              className="stroke-sky-500"
-              strokeWidth="4"
-              strokeLinecap="round"
-            />
+            <MirrorMark ox={ox} oy={oy} size={CELL} kind={mirror} lit={vision.litMirrors[k]} />
           </g>,
         )
         continue
@@ -212,6 +197,21 @@ export function Board({
         />
         {cells}
         <DoorMark cx={dx + CELL / 2} cy={dy + CELL / 2} size={CELL} wall={WALL} side={side} />
+        {hovered &&
+          !thief &&
+          beamOutlines(level, guards, hovered).map((line, i) => (
+            <polyline
+              key={i}
+              points={line
+                .map(([x, y]) => `${MARGIN + (x + 0.5) * CELL},${MARGIN + (y + 0.5) * CELL}`)
+                .join(' ')}
+              className="fill-none stroke-yellow-300"
+              strokeWidth="3"
+              strokeDasharray="6 4"
+              strokeLinecap="round"
+              pointerEvents="none"
+            />
+          ))}
         {guards.map((g) => {
           const [gx, gy] = origin(...g.pos)
           return (

@@ -149,48 +149,98 @@ export function rotateGuard(state: GameState, x: number, y: number): GameState {
   return { ...state, guards }
 }
 
+/** Moitié d'une case de miroir, de part et d'autre de la diagonale. */
+export type MirrorHalf = 'NW' | 'NE' | 'SE' | 'SW'
+
 export type Vision = {
   /** Nombre de vigiles qui voient chaque case, indexé `[y][x]`. */
   seen: number[][]
+  /** Moitiés de miroir touchées par un faisceau, indexées par `key(x, y)`. */
+  litMirrors: Record<string, MirrorHalf[]>
+}
+
+/** Moitié du miroir par laquelle entre un faisceau qui avance vers `dir`. */
+function mirrorHalf(kind: MirrorKind, dir: Dir): MirrorHalf {
+  if (kind === '/') return dir === 'E' || dir === 'S' ? 'NW' : 'SE'
+  return dir === 'W' || dir === 'S' ? 'NE' : 'SW'
+}
+
+type BeamStep = {
+  pos: Pos
+  mirror?: MirrorKind
+  /** Direction du faisceau en entrant dans la case. */
+  dir: Dir
+  /** Direction en sortant (différente après un miroir). */
+  out: Dir
 }
 
 /**
  * Un faisceau avance case par case, s'arrête au bord, sur un pilier ou sur un
- * autre vigile (qui fait de l'ombre derrière lui), et est dévié par les
- * miroirs.
+ * vigile (qui fait de l'ombre derrière lui, y compris le sien au retour d'une
+ * boucle de miroirs), et est dévié par les miroirs. La réflexion est
+ * réversible : un faisceau ne boucle donc jamais ailleurs que sur son vigile.
  */
+function beamSteps(level: Level, occupied: Set<string>, from: Pos, start: Dir): BeamStep[] {
+  const steps: BeamStep[] = []
+  let [x, y] = from
+  let dir = start
+  for (;;) {
+    x += DELTA[dir][0]
+    y += DELTA[dir][1]
+    if (!inBounds(level, x, y) || isPillar(level, x, y) || occupied.has(key(x, y))) break
+    const mirror = mirrorAt(level, x, y)
+    const out = mirror ? REFLECT[mirror][dir] : dir
+    steps.push({ pos: [x, y], mirror, dir, out })
+    dir = out
+  }
+  return steps
+}
+
 export function computeVision(level: Level, guards: Guard[]): Vision {
   const seen = Array.from({ length: level.height }, () => Array<number>(level.width).fill(0))
+  const litMirrors: Record<string, MirrorHalf[]> = {}
   const occupied = new Set(guards.map((g) => key(...g.pos)))
 
   for (const guard of guards) {
     const counted = new Set<string>()
     for (const start of guardDirs(guard)) {
-      let [x, y] = guard.pos
-      let dir = start
-      for (;;) {
-        x += DELTA[dir][0]
-        y += DELTA[dir][1]
-        if (!inBounds(level, x, y) || isPillar(level, x, y)) break
-        // Couvre aussi le retour sur son propre vigile via les miroirs : la
-        // réflexion est réversible, un faisceau ne boucle donc jamais ailleurs.
-        if (occupied.has(key(x, y))) break
-        const mirror = mirrorAt(level, x, y)
+      for (const { pos, mirror, dir } of beamSteps(level, occupied, guard.pos, start)) {
+        const k = key(...pos)
         if (mirror) {
-          dir = REFLECT[mirror][dir]
+          const half = mirrorHalf(mirror, dir)
+          const halves = (litMirrors[k] ??= [])
+          if (!halves.includes(half)) halves.push(half)
           continue
         }
         // Un vigile à 2 champs qui voit une case par ses deux regards (via un
         // miroir) ne la surveille qu'une fois.
-        if (!counted.has(key(x, y))) {
-          counted.add(key(x, y))
-          seen[y][x]++
+        if (!counted.has(k)) {
+          counted.add(k)
+          seen[pos[1]][pos[0]]++
         }
       }
     }
   }
 
-  return { seen }
+  return { seen, litMirrors }
+}
+
+/**
+ * Tracé des faisceaux d'un vigile posé, une ligne brisée par lampe, en
+ * coordonnées de case (centre de la case (x, y) en (x, y)). Chaque ligne part
+ * du vigile, passe par les miroirs et s'arrête au bord de la case qui la
+ * bloque.
+ */
+export function beamOutlines(level: Level, guards: Guard[], guard: Guard): Pos[][] {
+  const occupied = new Set(guards.map((g) => key(...g.pos)))
+  return guardDirs(guard).map((start) => {
+    const steps = beamSteps(level, occupied, guard.pos, start)
+    const corners = steps.filter((s) => s.mirror).map((s) => s.pos)
+    const last = steps.at(-1)
+    const [lx, ly] = last?.pos ?? guard.pos
+    const out = last?.out ?? start
+    return [guard.pos, ...corners, [lx + DELTA[out][0] / 2, ly + DELTA[out][1] / 2]]
+  })
 }
 
 /** Cases de sol sans vigile que personne ne voit : le couloir du cambrioleur. */

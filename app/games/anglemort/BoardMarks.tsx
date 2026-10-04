@@ -1,4 +1,5 @@
-import type { Level, Pos } from './types'
+import type { MirrorHalf } from './engine'
+import type { Level, MirrorKind, Pos } from './types'
 
 type Side = 'N' | 'S' | 'W' | 'E'
 
@@ -121,5 +122,60 @@ export function ClueMark({
         />
       ))}
     </g>
+  )
+}
+
+/** Miroir dans une case de côté `size` dont le coin haut gauche est (`ox`, `oy`). */
+export function MirrorMark({
+  ox,
+  oy,
+  size,
+  kind,
+  lit = [],
+}: {
+  ox: number
+  oy: number
+  size: number
+  kind: MirrorKind
+  /** Moitiés touchées par un faisceau, teintées comme une case éclairée. */
+  lit?: readonly MirrorHalf[]
+}) {
+  const a = size * 0.04
+  const [l, t, r, b] = [ox + a, oy + a, ox + size - a, oy + size - a]
+  const HALF: Record<MirrorHalf, string> = {
+    NW: `${l},${t} ${r},${t} ${l},${b}`,
+    NE: `${l},${t} ${r},${t} ${r},${b}`,
+    SE: `${r},${t} ${r},${b} ${l},${b}`,
+    SW: `${l},${t} ${l},${b} ${r},${b}`,
+  }
+  const inset = size * 0.15
+  const [y1, y2] = kind === '/' ? [oy + size - inset, oy + inset] : [oy + inset, oy + size - inset]
+  return (
+    <>
+      <rect
+        x={ox + size * 0.04}
+        y={oy + size * 0.04}
+        width={size * 0.92}
+        height={size * 0.92}
+        rx={size * 0.12}
+        className="fill-slate-200 dark:fill-slate-700"
+      />
+      {lit.map((half) => (
+        <polygon
+          key={half}
+          points={HALF[half]}
+          className="fill-amber-100 transition-colors duration-200 dark:fill-amber-700/60"
+        />
+      ))}
+      <line
+        x1={ox + inset}
+        y1={y1}
+        x2={ox + size - inset}
+        y2={y2}
+        className="stroke-sky-500"
+        strokeWidth={size * 0.08}
+        strokeLinecap="round"
+      />
+    </>
   )
 }

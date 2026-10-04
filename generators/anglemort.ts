@@ -8,7 +8,7 @@ import {
   key,
   unseenCells,
 } from '~/games/anglemort/engine'
-import type { Dir, Guard, GuardType, Level, Mirror, Pool, Pos } from '~/games/anglemort/types'
+import type { Dir, Guard, GuardType, Level, Pool, Pos } from '~/games/anglemort/types'
 import { GAME_SIZE } from '~/lib/game-styles'
 import { Rng } from '~/lib/random'
 import {
@@ -165,20 +165,6 @@ function randomPath(rng: Rng, level: Level, length: number, minTurns: number): P
   return extend() ? path : null
 }
 
-function scatter(
-  rng: Rng,
-  width: number,
-  height: number,
-  count: number,
-  avoid: Set<string>,
-): Pos[] {
-  const cells: Pos[] = []
-  for (let y = 0; y < height; y++) {
-    for (let x = 0; x < width; x++) if (!avoid.has(key(x, y))) cells.push([x, y])
-  }
-  return rng.shuffle(cells).slice(0, count)
-}
-
 function seenCounts(level: Level, guards: Guard[]): number[][] {
   return computeVision(level, guards).seen
 }
@@ -301,15 +287,10 @@ function addCluesUntilUnique(
  * pourrait sinon être posé ailleurs, ce qui casserait l'unicité.
  */
 function pruneRedundant(level: Level, path: Pos[], guards: Guard[]): Guard[] {
-  const expected = new Set(path.map((p) => key(...p)))
-  const keepsCorridor = (rest: Guard[]) => {
-    const cells = unseenCells(level, rest, computeVision(level, rest))
-    return cells.length === expected.size && cells.every((c) => expected.has(key(...c)))
-  }
   let current = guards
   for (const guard of guards) {
     const rest = current.filter((g) => g !== guard)
-    if (keepsCorridor(rest)) current = rest
+    if (keepsCorridor(level, path, rest)) current = rest
   }
   return current
 }
@@ -526,15 +507,7 @@ function tryGenerate(
   if (!path) {
     return fail(stats, 'path')
   }
-  const onPath = new Set(path.map((p) => key(...p)))
-  const mirrors: Mirror[] =
-    index === 4
-      ? scatter(rng, width, height, 1 + rng.nextInt(2), onPath).map((pos) => ({
-          pos,
-          kind: rng.pick(['/', '\\'] as const),
-        }))
-      : []
-  const room: Level = { ...empty, mirrors, diamond: path[path.length - 1] }
+  const room: Level = { ...empty, diamond: path[path.length - 1] }
 
   // 2. Des vigiles qui matérialisent le couloir, sans contrainte de nombre.
   const types = GUARD_TYPES.filter((t) => room.pool[t] > 0)
@@ -560,27 +533,31 @@ function tryGenerate(
     : reduced
   stats.constructMs += Date.now() - started
   if (!anchored) return fail(stats, 'diamond')
-  const solution = anchored.guards
-  if (!solution.every((g) => isFacingAllowed(anchored.level, g))) {
+
+  // Niveau 4 : 1 ou 2 vigiles remplacés par des miroirs.
+  const mirrored =
+    index === 4
+      ? replaceGuardsWithMirrors(rng, anchored.level, path, anchored.guards, 1 + rng.nextInt(2))
+      : anchored
+  if (index === 4 && mirrored.level.mirrors.length === 0) return fail(stats, 'mirror')
+  const solution = mirrored.guards
+  if (!solution.every((g) => isFacingAllowed(mirrored.level, g))) {
     return fail(stats, 'construct')
   }
-  if (anchored.level.pillars.length < MIN_PILLARS[index]) {
+  if (mirrored.level.pillars.length < MIN_PILLARS[index]) {
     return fail(stats, 'pillars')
   }
   if (solution.filter((g) => g.type !== 'simple').length < MIN_DOUBLES[index]) {
     return fail(stats, 'types')
   }
-  if (index === 4 && !usesMirror(anchored.level, solution)) {
-    return fail(stats, 'mirror')
-  }
 
   // 4. Les indices guides, jusqu'à l'unicité du couloir.
   const pool = poolOf(solution)
-  const seeded = seedClues(rng, { ...anchored.level, solution }, path, solution, SEED_EXTRA[index])
+  const seeded = seedClues(rng, { ...mirrored.level, solution }, path, solution, SEED_EXTRA[index])
   if (!seeded) {
     return fail(stats, 'clues')
   }
-  const level: Level = { ...anchored.level, pool, solution, clues: seeded }
+  const level: Level = { ...mirrored.level, pool, solution, clues: seeded }
   const unique = addCluesUntilUnique(rng, level, path, MAX_CLUES[index], stats)
   if (!unique) {
     return fail(stats, 'clues')
@@ -593,11 +570,59 @@ function tryGenerate(
   return { ...unique, parMoves: solution.length }
 }
 
-/** Vrai si retirer les miroirs change l'éclairage : au moins un faisceau les utilise. */
-function usesMirror(level: Level, guards: Guard[]): boolean {
-  if (level.mirrors.length === 0) return false
-  const withMirrors = computeVision(level, guards).seen.join(';')
-  return withMirrors !== computeVision({ ...level, mirrors: [] }, guards).seen.join(';')
+function keepsCorridor(level: Level, path: Pos[], guards: Guard[]): boolean {
+  const expected = new Set(path.map((p) => key(...p)))
+  const cells = unseenCells(level, guards, computeVision(level, guards))
+  return cells.length === expected.size && cells.every((c) => expected.has(key(...c)))
+}
+
+/**
+ * Vrai si chaque miroir est indispensable : remplacé par un pilier, il
+ * laisserait des cases hors du couloir dans l'ombre. Un miroir qui ne renvoie
+ * la lumière que dans le mur ne serait qu'un pilier déguisé.
+ */
+function mirrorsEssential(level: Level, path: Pos[], guards: Guard[]): boolean {
+  return level.mirrors.every((m) => {
+    const walled: Level = {
+      ...level,
+      mirrors: level.mirrors.filter((o) => o !== m),
+      pillars: [...level.pillars, m.pos],
+    }
+    return !keepsCorridor(walled, path, guards)
+  })
+}
+
+/**
+ * Remplace jusqu'à `count` vigiles par des miroirs. Un vigile qui reçoit un
+ * faisceau par le côté peut céder sa place à un miroir qui renvoie ce faisceau
+ * sur sa propre ligne : ses cases restent éclairées, avec un vigile de moins.
+ * On essaie chaque vigile dans les deux sens de miroir, et on garde le
+ * remplacement si le couloir est intact et chaque miroir indispensable.
+ */
+function replaceGuardsWithMirrors(
+  rng: Rng,
+  level: Level,
+  path: Pos[],
+  guards: Guard[],
+  count: number,
+): { level: Level; guards: Guard[] } {
+  let current = { level, guards }
+  for (let placed = 0; placed < count; placed++) {
+    const options = rng.shuffle(
+      current.guards.flatMap((g) => (['/', '\\'] as const).map((kind) => ({ g, kind }))),
+    )
+    const next = options
+      .map(({ g, kind }) => ({
+        level: { ...current.level, mirrors: [...current.level.mirrors, { pos: g.pos, kind }] },
+        guards: current.guards.filter((o) => o !== g),
+      }))
+      .find(
+        (c) => keepsCorridor(c.level, path, c.guards) && mirrorsEssential(c.level, path, c.guards),
+      )
+    if (!next) break
+    current = next
+  }
+  return current
 }
 
 /**

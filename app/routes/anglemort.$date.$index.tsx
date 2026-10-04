@@ -22,6 +22,7 @@ import {
   unseenCells,
 } from '~/games/anglemort/engine'
 import { GuardTypePicker, pickableTypes } from '~/games/anglemort/GuardTypePicker'
+import { MirrorHelp } from '~/games/anglemort/MirrorHelp'
 import { PoolTray } from '~/games/anglemort/PoolTray'
 import type { Dir, GameState, GuardType, Pos } from '~/games/anglemort/types'
 import { useThiefWalk } from '~/games/anglemort/useThiefWalk'
@@ -202,6 +203,7 @@ function AngleMortPlay() {
             Place tous les vigiles. Les cases sombres doivent former un seul couloir, sans
             embranchement, de la porte jusqu'au diamant. Un chiffre indique combien de vigiles
             éclairent sa case.
+            {level.mirrors.length > 0 && <MirrorHelp />}
           </HelpBox>
           <p className="text-xs text-gray-500 dark:text-gray-400">
             Clic : poser ou pivoter · clic droit : retirer · clavier : flèches, Espace, Entrée

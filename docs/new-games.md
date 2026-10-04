@@ -190,7 +190,7 @@ Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont li
 - **Case libre** : sol, peut recevoir un vigile.
 - **Pilier** (fixe) : bloque la lumière et le passage. Même teinte que le mur d'enceinte.
 - **Entrée** : case libre sur le **bord** de la grille. La porte est dessinée dans l'épaisseur du mur, le cambrioleur attend devant, à l'extérieur. Position différente à chaque niveau.
-- **Diamant 💎** : case libre **n'importe où** dans la salle, fin du couloir. Position différente à chaque niveau.
+- **Diamant 💎** : case libre dans la salle, fin du couloir. Position différente à chaque niveau. À partir du niveau 3, il est toujours **contre le mur ou un pilier**.
 - **Indice chiffré** : nombre de vigiles qui éclairent la case dans la solution.
 - **Miroir ╱ ╲** (niveau 4, fixe) : dévie le faisceau de 90°, bloque le passage.
 
@@ -230,7 +230,7 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 |---|---|---|---|
 | 1 | 7×6 | simples | règles de base, couloir compris |
 | 2 | 8×7 | simples | grille plus grande, plus de piliers |
-| 3 | 9×8 | simples + doubles (angle, opposé) | vigiles à 2 lampes |
+| 3 | 9×8 | simples + au moins 2 doubles (angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
 | 4 | 10×9 | simples + doubles | 1 ou 2 miroirs |
 
 ### Couloir du cambrioleur
@@ -243,8 +243,9 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 | Clic | Poser un vigile, ou faire pivoter celui en place |
 | Clic droit | Retirer le vigile |
 | Flèches / ZQSD / WASD | Déplacer le curseur |
-| **Espace** | Poser le prochain vigile du lot, ou retirer celui sous le curseur |
-| **Entrée** | Faire pivoter le vigile (passe au type suivant du lot après la dernière orientation) |
+| **Espace** | Poser un vigile du type sélectionné, ou retirer celui sous le curseur |
+| **Entrée** | Faire pivoter le vigile, parmi les orientations autorisées de son type |
+| **1**, **2**, **3** | Choisir le type de vigile à poser (sélecteur sous la grille, affiché dès que le lot mélange plusieurs types) |
 | **Ctrl+Z** / **R** | Annuler / recommencer |
 
 ### Statut `perfect`

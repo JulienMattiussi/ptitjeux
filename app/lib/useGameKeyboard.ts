@@ -32,6 +32,16 @@ export function keyDirection(event: KeyboardEvent): GameKeyDirection | undefined
   return KEY_TO_DIRECTION[event.key] ?? CODE_TO_DIRECTION[event.code]
 }
 
+/**
+ * Chiffre 1 à 9 associé à une touche. On lit aussi `event.code` : sur AZERTY,
+ * la rangée des chiffres produit `&`, `é`, `"`… sans Majuscule.
+ */
+export function keyDigit(event: KeyboardEvent): number | undefined {
+  if (/^[1-9]$/.test(event.key)) return Number(event.key)
+  const match = /^(?:Digit|Numpad)([1-9])$/.exec(event.code)
+  return match ? Number(match[1]) : undefined
+}
+
 const ACTION_KEYS = new Set([' ', 'Enter'])
 
 type Options = {
@@ -50,6 +60,8 @@ type Options = {
   onReset?: () => void
   /** Échap : quitter la partie (retour à la liste des niveaux). */
   onBack?: () => void
+  /** Touches 1 à 9 (ex. Angle mort : choix du type de vigile). */
+  onDigit?: (digit: number) => void
   /** Ignore les frappes quand le focus est dans un input/textarea. */
   ignoreInputs?: boolean
 }
@@ -73,6 +85,7 @@ export function useGameKeyboard({
   onUndo,
   onReset,
   onBack,
+  onDigit,
   ignoreInputs = false,
 }: Options): void {
   useEffect(() => {
@@ -91,6 +104,12 @@ export function useGameKeyboard({
       if (onUndo && event.key === 'z' && (event.ctrlKey || event.metaKey)) {
         event.preventDefault()
         onUndo()
+        return
+      }
+      const digit = keyDigit(event)
+      if (onDigit && digit !== undefined) {
+        event.preventDefault()
+        onDigit(digit)
         return
       }
       if (onBack && event.key === 'Escape') {
@@ -120,5 +139,15 @@ export function useGameKeyboard({
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [enabled, onDirection, onAction, onSecondaryAction, onUndo, onReset, onBack, ignoreInputs])
+  }, [
+    enabled,
+    onDirection,
+    onAction,
+    onSecondaryAction,
+    onUndo,
+    onReset,
+    onBack,
+    onDigit,
+    ignoreInputs,
+  ])
 }

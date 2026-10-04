@@ -17,6 +17,24 @@ describe('useGameKeyboard', () => {
     expect(onDirection.mock.calls.map((c) => c[0])).toEqual(['up', 'down', 'left', 'right'])
   })
 
+  it('touches 1 à 9 → onDigit avec le chiffre', () => {
+    const onDigit = vi.fn()
+    renderHook(() => useGameKeyboard({ enabled: true, onDigit }))
+    press('1')
+    press('3')
+    press('0')
+    expect(onDigit.mock.calls.map((c) => c[0])).toEqual([1, 3])
+  })
+
+  it('AZERTY : la rangée des chiffres sans Majuscule donne aussi 1, 2, 3', () => {
+    const onDigit = vi.fn()
+    renderHook(() => useGameKeyboard({ enabled: true, onDigit }))
+    press('&', { code: 'Digit1' })
+    press('é', { code: 'Digit2' })
+    press('"', { code: 'Digit3' })
+    expect(onDigit.mock.calls.map((c) => c[0])).toEqual([1, 2, 3])
+  })
+
   it('Échap → onBack (quitter la partie)', () => {
     const onBack = vi.fn()
     renderHook(() => useGameKeyboard({ enabled: true, onBack }))

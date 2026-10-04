@@ -3,6 +3,7 @@ import {
   areCluesSatisfied,
   computeVision,
   corridorOrder,
+  expectedCorridor,
   guardAt,
   guardDirs,
   isFacingAllowed,
@@ -138,6 +139,24 @@ describe('anglemort engine : placement', () => {
     expect(placeGuard(state, 3, 1)).toBe(state)
   })
 
+  it('pose le type choisi au sélecteur', () => {
+    const level = makeLevel({ pool: { simple: 1, angle: 1, oppose: 0 } })
+    const state = placeGuard(loadLevel(level), 2, 1, 'angle')
+    expect(guardAt(state, 2, 1)?.type).toBe('angle')
+  })
+
+  it('ne pose rien si le type choisi est épuisé', () => {
+    const level = makeLevel({ pool: { simple: 1, angle: 0, oppose: 0 } })
+    const state = loadLevel(level)
+    expect(placeGuard(state, 2, 1, 'angle')).toBe(state)
+  })
+
+  it('transmet le type choisi via l action toggle', () => {
+    const level = makeLevel({ pool: { simple: 1, angle: 1, oppose: 0 } })
+    const state = reducer(loadLevel(level), { type: 'toggle', x: 2, y: 1, guardType: 'angle' })
+    expect(guardAt(state, 2, 1)?.type).toBe('angle')
+  })
+
   it('pose le type suivant du lot quand les simples sont épuisés', () => {
     let state = loadLevel(makeLevel({ pool: { simple: 1, angle: 0, oppose: 1 } }))
     state = placeGuard(placeGuard(state, 0, 2), 3, 1)
@@ -188,17 +207,10 @@ describe('anglemort engine : rotation', () => {
     expect(facings(state, [0, 2], 2)).toEqual(['simple:E', 'simple:N'])
   })
 
-  it('bascule sur les types encore disponibles du lot après la dernière orientation', () => {
+  it('reste dans son type : un vigile opposé alterne entre ses 2 orientations', () => {
     const level = makeLevel({ pool: { simple: 1, angle: 0, oppose: 1 } })
-    const state = placeGuard(loadLevel(level), 2, 1)
-    expect(facings(state, [2, 1], 6)).toEqual([
-      'simple:E',
-      'simple:S',
-      'simple:W',
-      'oppose:N',
-      'oppose:E',
-      'simple:N',
-    ])
+    const state = placeGuard(loadLevel(level), 2, 1, 'oppose')
+    expect(facings(state, [2, 1], 3)).toEqual(['oppose:E', 'oppose:N', 'oppose:E'])
   })
 
   it('ne bascule pas sur un type dont le lot est déjà posé ailleurs', () => {
@@ -386,6 +398,29 @@ describe('anglemort engine : chemin du cambrioleur', () => {
       [2, 0],
       [3, 0],
     ])
+  })
+})
+
+describe('anglemort engine : couloir attendu (mise au point)', () => {
+  it('déduit le couloir de la solution enregistrée', () => {
+    expect(expectedCorridor(makeLevel())).toEqual([
+      [0, 0],
+      [1, 0],
+      [2, 0],
+      [3, 0],
+    ])
+  })
+
+  it('préfère le couloir tracé d une grille d expérimentation', () => {
+    const corridor: Pos[] = [
+      [0, 0],
+      [0, 1],
+    ]
+    expect(expectedCorridor(makeLevel({ corridor }))).toBe(corridor)
+  })
+
+  it('ne renvoie rien sans solution ni couloir tracé', () => {
+    expect(expectedCorridor(makeLevel({ solution: [] }))).toEqual([])
   })
 })
 

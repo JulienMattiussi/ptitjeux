@@ -13,6 +13,8 @@ type Props = {
   onCellRemove: (x: number, y: number) => void
   selected?: { x: number; y: number }
   onHoverCell?: (x: number, y: number) => void
+  /** Mise au point (`?couloir`) : couloir attendu, teinté sur le plateau. */
+  expected?: Pos[]
   /** Position du cambrioleur pendant sa traversée de victoire. */
   thief?: Pos
   /** Direction de son dernier pas (par défaut : face à la porte). */
@@ -43,7 +45,9 @@ export function Board({
   thief,
   thiefFacing,
   diamondTaken = false,
+  expected = [],
 }: Props) {
+  const expectedSet = new Set(expected.map(([x, y]) => key(x, y)))
   const { level, guards } = state
   const vision = useMemo(() => computeVision(level, guards), [level, guards])
   const unseen = useMemo(
@@ -147,6 +151,16 @@ export function Board({
                   : 'fill-slate-700 dark:fill-slate-900'
             }`}
           />
+          {expectedSet.has(k) && (
+            <rect
+              x={ox + 1.5}
+              y={oy + 1.5}
+              width={CELL - 3}
+              height={CELL - 3}
+              rx={4}
+              className="fill-fuchsia-500/35"
+            />
+          )}
           {unseen.has(k) && !isDoor && !isDiamond && (
             <rect
               x={ox + 6}

@@ -1,21 +1,25 @@
 import { ANGLE, useHeading } from './rotation'
 import type { Dir, GuardType } from './types'
 
-type TorchSpec = { angle: number; x: number }
-
 /**
- * Lampes torches par type, relativement au corps : devant dans la main droite
- * (`x: 8`), ou tendues sur le côté (`x: 0` puis pivotées de ±90°).
+ * Mains du vigile, relativement au corps (dessiné vers le haut). Une main qui
+ * tient une torche la pointe dans la direction de son faisceau (`torch`, en
+ * degrés : 0 devant, 90 à droite, -90 à gauche) ; sinon elle est au repos.
  */
-const TORCHES: Record<GuardType, TorchSpec[]> = {
-  simple: [{ angle: 0, x: 8 }],
+type Hand = { x: number; y: number; torch?: number }
+
+const HANDS: Record<GuardType, Hand[]> = {
+  simple: [
+    { x: -10, y: -3 },
+    { x: 9, y: -6, torch: 0 },
+  ],
   angle: [
-    { angle: 0, x: 8 },
-    { angle: 90, x: 0 },
+    { x: -9, y: -6, torch: 0 },
+    { x: 12, y: -1, torch: 90 },
   ],
   oppose: [
-    { angle: 90, x: 0 },
-    { angle: -90, x: 0 },
+    { x: -12, y: -1, torch: -90 },
+    { x: 12, y: -1, torch: 90 },
   ],
 }
 
@@ -34,17 +38,18 @@ type Props = {
   muted?: boolean
 }
 
-function Torch({ beam, x }: { beam: boolean; x: number }) {
+/** Torche tenue à l'origine (la main), pointée vers le haut, avec son faisceau. */
+function Torch({ beam }: { beam: boolean }) {
   return (
     <g>
       {beam && (
         <polygon
-          points={`${x},-15 ${x - 8},-27 ${x + 8},-27`}
+          points="0,-10 -8,-22 8,-22"
           className="fill-yellow-200/80 dark:fill-yellow-300/50"
         />
       )}
-      <rect x={x - 2} y="-15" width="4" height="9" rx="1" className="fill-slate-600" />
-      <rect x={x - 2.5} y="-16" width="5" height="2.5" rx="1" className="fill-yellow-300" />
+      <rect x="-2" y="-9" width="4" height="9" rx="1" className="fill-slate-600" />
+      <rect x="-2.5" y="-10" width="5" height="2.5" rx="1" className="fill-yellow-300" />
     </g>
   )
 }
@@ -94,11 +99,6 @@ export function GuardSprite({ type, facing, beams = true, muted = false }: Props
       }}
       opacity={muted ? 0.35 : 1}
     >
-      {TORCHES[type].map((t) => (
-        <g key={t.angle} transform={`rotate(${t.angle})`}>
-          <Torch beam={beams} x={t.x} />
-        </g>
-      ))}
       <rect
         x="-13"
         y="-4"
@@ -107,8 +107,16 @@ export function GuardSprite({ type, facing, beams = true, muted = false }: Props
         rx="4"
         className="fill-indigo-500 dark:fill-indigo-400"
       />
-      <circle cx="-10" cy="-3" r="2.6" className="fill-amber-200" />
-      <circle cx="10" cy="-3" r="2.6" className="fill-amber-200" />
+      {HANDS[type].map((hand) =>
+        hand.torch === undefined ? null : (
+          <g key={`${hand.x}`} transform={`translate(${hand.x} ${hand.y}) rotate(${hand.torch})`}>
+            <Torch beam={beams} />
+          </g>
+        ),
+      )}
+      {HANDS[type].map((hand) => (
+        <circle key={`${hand.x}`} cx={hand.x} cy={hand.y} r="2.6" className="fill-amber-200" />
+      ))}
       <Cap />
     </g>
   )

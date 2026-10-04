@@ -69,6 +69,12 @@ export type SolveOptions = {
   limit: number
   /** Budget de nœuds explorés ; au-delà, la recherche est déclarée incomplète. */
   maxNodes: number
+  /**
+   * Ne chercher que des solutions dont le couloir diffère de celui-ci (unicité
+   * du couloir, et non du placement). Une branche dont toutes les cases sont
+   * fixées sur ce même couloir est abandonnée sans énumérer ses vigiles.
+   */
+  excludeCorridor?: Pos[]
   /** Ordre aléatoire des options (construction) ; sinon ordre fixe. */
   rng?: Rng
 }
@@ -118,6 +124,9 @@ type Ctx = {
   solutions: Guard[][]
   usesMirror: boolean[]
   seenKeys: Set<string>
+  /** 1 sur les cases du couloir exclu (`excludeCorridor`), sinon `null`. */
+  excluded: Uint8Array | null
+  excludedKey: string
 }
 
 function traceRays(level: Level, guard: Guard): { rays: number[][]; usesMirror: boolean } {
@@ -207,6 +216,15 @@ function makeCtx(level: Level, options: SolveOptions): Ctx {
     solutions: [],
     usesMirror: [],
     seenKeys: new Set(),
+    excluded: options.excludeCorridor
+      ? Uint8Array.from({ length: size }, (_, i) =>
+          options.excludeCorridor?.some(([x, y]) => y * w + x === i) ? 1 : 0,
+        )
+      : null,
+    excludedKey: (options.excludeCorridor ?? [])
+      .map(([x, y]) => `${x},${y}`)
+      .sort()
+      .join(';'),
   }
 }
 
@@ -491,10 +509,35 @@ export function visibleKey(level: Level, guards: Guard[]): string {
   return `${placed.join(';')}|${computeVision(level, guards).seen.join(';')}`
 }
 
+/** Couloir d'un placement, sous forme de clé : les cases laissées dans l'ombre. */
+function corridorKey(level: Level, guards: Guard[]): string {
+  return unseenCells(level, guards, computeVision(level, guards))
+    .map(([x, y]) => `${x},${y}`)
+    .sort()
+    .join(';')
+}
+
+/** Toutes les cases sont fixées (couloir ou non) et dessinent le couloir exclu. */
+function onExcludedCorridor(ctx: Ctx, n: Node): boolean {
+  const excluded = ctx.excluded
+  if (!excluded) return false
+  for (let i = 0; i < ctx.size; i++) {
+    if (!ctx.floor[i]) continue
+    if (n.path[i] === 0 || (n.path[i] === 1) !== (excluded[i] === 1)) return false
+  }
+  return true
+}
+
 function record(ctx: Ctx, n: Node): void {
   if (!isSolution(ctx, n)) return
   const guards = chosenGuards(ctx, n)
-  const k = visibleKey(ctx.level, guards)
+  // En mode « unicité du couloir », deux solutions ne comptent pour deux que si
+  // leurs couloirs diffèrent, et le couloir exclu ne compte pas.
+  let k = visibleKey(ctx.level, guards)
+  if (ctx.excluded) {
+    k = corridorKey(ctx.level, guards)
+    if (k === ctx.excludedKey) return
+  }
   if (ctx.seenKeys.has(k)) return
   ctx.seenKeys.add(k)
   ctx.solutions.push(guards)
@@ -565,6 +608,7 @@ function search(ctx: Ctx, n: Node): void {
   if (!spend(ctx)) return
   const b = propagate(ctx, n)
   if (!b) return
+  if (onExcludedCorridor(ctx, n)) return
 
   let target = -1
   let options: number[] = []

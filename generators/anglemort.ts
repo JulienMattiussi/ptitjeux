@@ -17,7 +17,8 @@ import { VARIANTS, type Variant, transformLevel } from './anglemort-symmetry'
 type LevelIndex = 1 | 2 | 3 | 4
 
 /** Étape à laquelle une tentative de génération a échoué. */
-export type FailureStage = 'path' | 'construct' | 'pillars' | 'types' | 'mirror' | 'clues'
+export type FailureStage =
+  'path' | 'construct' | 'pillars' | 'diamond' | 'types' | 'mirror' | 'clues'
 
 /**
  * Statistiques de génération, pour mesurer et régler le générateur. Ne
@@ -27,16 +28,24 @@ export type GenerationStats = {
   attempts: number
   failures: Record<FailureStage, number>
   constructMs: number
+  /** Abonné aux événements de génération (instrumentation, facultatif). */
+  onEvent?: (event: GenerationEvent) => void
   uniqueMs: number
   uniqueCalls: number
   /** Vérifications d'unicité interrompues faute de budget. */
   uniqueAborted: number
 }
 
+function fail(stats: GenerationStats, stage: FailureStage): null {
+  stats.failures[stage]++
+  stats.onEvent?.({ type: 'failure', stage })
+  return null
+}
+
 export function emptyStats(): GenerationStats {
   return {
     attempts: 0,
-    failures: { path: 0, construct: 0, pillars: 0, types: 0, mirror: 0, clues: 0 },
+    failures: { path: 0, construct: 0, pillars: 0, diamond: 0, types: 0, mirror: 0, clues: 0 },
     constructMs: 0,
     uniqueMs: 0,
     uniqueCalls: 0,
@@ -44,9 +53,17 @@ export function emptyStats(): GenerationStats {
   }
 }
 
+/** Événement de génération, pour suivre en direct où part le temps. */
+export type GenerationEvent =
+  | { type: 'attempt'; attempt: number }
+  | { type: 'failure'; stage: FailureStage }
+  | { type: 'unique'; ms: number; complete: boolean; rivals: number; clues: number }
+  | { type: 'success'; clues: number; guards: number }
+
 export type GenerateOptions = {
   stats?: GenerationStats
   maxAttempts?: number
+  onEvent?: (event: GenerationEvent) => void
 }
 
 const MAX_ATTEMPTS = 400
@@ -55,6 +72,8 @@ const MAX_CLUES: Record<LevelIndex, number> = { 1: 12, 2: 16, 3: 18, 4: 20 }
 /** Indices posés d'office : sur le couloir, et de valeur 2. */
 const SEED_CORRIDOR = 3
 const SEED_TWOS = 2
+/** Indices supplémentaires posés d'office hors du couloir, pour restreindre d'emblée les options. */
+const SEED_EXTRA: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 1, 4: 1 }
 /** Solutions concurrentes récoltées par tour pour choisir le meilleur indice. */
 const RIVALS = 8
 const PATH_STEPS = 4_000
@@ -164,13 +183,15 @@ function seenCounts(level: Level, guards: Guard[]): number[][] {
 /**
  * Indices posés d'office, avant toute vérification d'unicité : au moins 3 sur
  * le couloir (des « 0 »), au moins 2 « 2 », et un « 3 » ou « 4 » s'il en
- * existe. `null` si la grille n'offre pas deux cases éclairées par 2 vigiles.
+ * existe, plus `extra` indices hors du couloir. `null` si la grille n'offre pas
+ * deux cases éclairées par 2 vigiles.
  */
 function seedClues(
   rng: Rng,
   level: Level,
   path: Pos[],
   solution: Guard[],
+  extra: number,
 ): Record<string, number> | null {
   const truth = seenCounts(level, solution)
   const occupied = new Set(solution.map((g) => key(...g.pos)))
@@ -186,6 +207,8 @@ function seedClues(
     ...rng.shuffle([...twos]).slice(0, SEED_TWOS),
     ...rng.shuffle([...high]).slice(0, 1),
   ]
+  const taken = new Set(picked.map(([x, y]) => key(x, y)))
+  picked.push(...rng.shuffle(lit.filter(([x, y]) => !taken.has(key(x, y)))).slice(0, extra))
   return Object.fromEntries(picked.map(([x, y]) => [key(x, y), truth[y][x]]))
 }
 
@@ -218,6 +241,13 @@ function addCluesUntilUnique(
     if (!result.complete) stats.uniqueAborted++
     const intended = visibleKey(current, solution)
     const rivals = result.solutions.filter((s) => visibleKey(current, s) !== intended)
+    stats.onEvent?.({
+      type: 'unique',
+      ms: Date.now() - started,
+      complete: result.complete,
+      rivals: rivals.length,
+      clues: Object.keys(current.clues).length,
+    })
     if (result.complete && rivals.length === 0) {
       return result.solutions.length === 1 ? current : null
     }
@@ -268,7 +298,11 @@ function pruneRedundant(level: Level, path: Pos[], guards: Guard[]): Guard[] {
 /** Nombre de vigiles visé par niveau : on ajoute des piliers jusqu'à l'atteindre. */
 const TARGET_GUARDS: Record<LevelIndex, number> = { 1: 6, 2: 7, 3: 8, 4: 9 }
 /** Nombre minimal de piliers par niveau. */
-const MIN_PILLARS: Record<LevelIndex, number> = { 1: 3, 2: 3, 3: 0, 4: 0 }
+const MIN_PILLARS: Record<LevelIndex, number> = { 1: 3, 2: 3, 3: 4, 4: 0 }
+/** Nombre minimal de vigiles à deux lampes (angle ou opposé), la nouveauté du niveau 3. */
+const MIN_DOUBLES: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 2, 4: 1 }
+/** À partir du niveau 3, le diamant est toujours contre le mur d'enceinte ou un pilier. */
+const DIAMOND_AGAINST_WALL: Record<LevelIndex, boolean> = { 1: false, 2: false, 3: true, 4: true }
 /** Densité maximale de piliers (piliers ÷ cases de la salle). */
 const MAX_PILLAR_RATIO = 0.18
 /** Essais de pilier par niveau pendant la phase de réduction. */
@@ -400,6 +434,46 @@ function reduceWithPillars(
   return { level: current, guards }
 }
 
+/** Vrai si une case voisine du diamant est hors de la salle ou un pilier. */
+function diamondAgainstWall(level: Level): boolean {
+  const [x, y] = level.diamond
+  return STEPS.some(([dx, dy]) => {
+    const nx = x + dx
+    const ny = y + dy
+    if (nx < 0 || ny < 0 || nx >= level.width || ny >= level.height) return true
+    return level.pillars.some((p) => p[0] === nx && p[1] === ny)
+  })
+}
+
+/**
+ * Colle le diamant à un pilier s'il ne touche pas déjà le mur : on essaie un
+ * pilier sur chaque case voisine hors couloir, en réparant la couverture des
+ * vigiles. `null` si aucune case ne convient.
+ */
+function placeDiamondAgainstWall(
+  rng: Rng,
+  level: Level,
+  path: Pos[],
+  types: readonly GuardType[],
+  guards: Guard[],
+): { level: Level; guards: Guard[] } | null {
+  if (diamondAgainstWall(level)) return { level, guards }
+  const onPath = new Set(path.map((p) => key(...p)))
+  const [x, y] = level.diamond
+  const options = rng.shuffle(
+    STEPS.map(([dx, dy]): Pos => [x + dx, y + dy]).filter(
+      ([nx, ny]) => isFloor(level, nx, ny) && !onPath.has(key(nx, ny)),
+    ),
+  )
+  for (const pos of options) {
+    const candidate: Level = { ...level, pillars: [...level.pillars, pos] }
+    const kept = guards.filter((g) => !samePos(g.pos, pos) && isFacingAllowed(candidate, g))
+    const repaired = greedyCover(rng, candidate, path, types, pruneRedundant(candidate, path, kept))
+    if (repaired) return { level: candidate, guards: repaired }
+  }
+  return null
+}
+
 function samePos(a: Pos, b: Pos): boolean {
   return a[0] === b[0] && a[1] === b[1]
 }
@@ -431,8 +505,7 @@ function tryGenerate(
   const maxLength = Math.max(minLength, Math.floor(width * height * 0.4))
   const path = randomPath(rng, empty, minLength + rng.nextInt(maxLength - minLength + 1), MIN_TURNS)
   if (!path) {
-    stats.failures.path++
-    return null
+    return fail(stats, 'path')
   }
   const onPath = new Set(path.map((p) => key(...p)))
   const mirrors: Mirror[] =
@@ -450,8 +523,7 @@ function tryGenerate(
   const first = greedyCover(rng, room, path, types, [])
   if (!first) {
     stats.constructMs += Date.now() - started
-    stats.failures.construct++
-    return null
+    return fail(stats, 'construct')
   }
 
   // 3. Des piliers pour ramener les vigiles au nombre visé.
@@ -464,33 +536,32 @@ function tryGenerate(
     TARGET_GUARDS[index],
     MIN_PILLARS[index],
   )
+  const anchored = DIAMOND_AGAINST_WALL[index]
+    ? placeDiamondAgainstWall(rng, reduced.level, path, types, reduced.guards)
+    : reduced
   stats.constructMs += Date.now() - started
-  const solution = reduced.guards
-  if (!solution.every((g) => isFacingAllowed(reduced.level, g))) {
-    stats.failures.construct++
-    return null
+  if (!anchored) return fail(stats, 'diamond')
+  const solution = anchored.guards
+  if (!solution.every((g) => isFacingAllowed(anchored.level, g))) {
+    return fail(stats, 'construct')
   }
-  if (reduced.level.pillars.length < MIN_PILLARS[index]) {
-    stats.failures.pillars++
-    return null
+  if (anchored.level.pillars.length < MIN_PILLARS[index]) {
+    return fail(stats, 'pillars')
   }
-  if (index >= 3 && solution.every((g) => g.type === 'simple')) {
-    stats.failures.types++
-    return null
+  if (solution.filter((g) => g.type !== 'simple').length < MIN_DOUBLES[index]) {
+    return fail(stats, 'types')
   }
-  if (index === 4 && !usesMirror(reduced.level, solution)) {
-    stats.failures.mirror++
-    return null
+  if (index === 4 && !usesMirror(anchored.level, solution)) {
+    return fail(stats, 'mirror')
   }
 
   // 4. Les indices guides, jusqu'à l'unicité.
   const pool = poolOf(solution)
-  const seeded = seedClues(rng, { ...reduced.level, solution }, path, solution)
+  const seeded = seedClues(rng, { ...anchored.level, solution }, path, solution, SEED_EXTRA[index])
   if (!seeded) {
-    stats.failures.clues++
-    return null
+    return fail(stats, 'clues')
   }
-  const level: Level = { ...reduced.level, pool, solution, clues: seeded }
+  const level: Level = { ...anchored.level, pool, solution, clues: seeded }
   const unique = addCluesUntilUnique(
     rng,
     level,
@@ -500,9 +571,13 @@ function tryGenerate(
     stats,
   )
   if (!unique) {
-    stats.failures.clues++
-    return null
+    return fail(stats, 'clues')
   }
+  stats.onEvent?.({
+    type: 'success',
+    clues: Object.keys(unique.clues).length,
+    guards: solution.length,
+  })
   return { ...unique, parMoves: solution.length }
 }
 
@@ -535,14 +610,16 @@ const baseCache = new Map<string, Level>()
 export function generateBaseLevel(
   index: LevelIndex,
   base: number,
-  { stats = emptyStats(), maxAttempts = MAX_ATTEMPTS }: GenerateOptions = {},
+  { stats = emptyStats(), maxAttempts = MAX_ATTEMPTS, onEvent }: GenerateOptions = {},
 ): Level {
+  if (onEvent) stats.onEvent = onEvent
   const cacheKey = `${index}-${base}`
   const cached = baseCache.get(cacheKey)
   if (cached) return cached
   const rng = new Rng(`anglemort-${index}-base-${base}`)
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     stats.attempts++
+    stats.onEvent?.({ type: 'attempt', attempt: attempt + 1 })
     const level = tryGenerate(rng, `base-${index}-${base}`, index, stats)
     if (level) {
       baseCache.set(cacheKey, level)

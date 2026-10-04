@@ -108,9 +108,17 @@ function allowedVariants(level: Level, pos: Pos, types: readonly GuardType[]) {
     .filter((v) => isFacingAllowed(level, { pos, ...v }))
 }
 
-export function placeGuard(state: GameState, x: number, y: number): GameState {
+/**
+ * Pose un vigile du type demandé (choisi dans le sélecteur), ou à défaut du
+ * premier type encore disponible dans le lot.
+ */
+export function placeGuard(state: GameState, x: number, y: number, type?: GuardType): GameState {
   if (!isPlaceable(state.level, x, y) || guardAt(state, x, y)) return state
-  const available = GUARD_TYPES.filter((t) => remaining(state, t) > 0)
+  const available = type
+    ? remaining(state, type) > 0
+      ? [type]
+      : []
+    : GUARD_TYPES.filter((t) => remaining(state, t) > 0)
   const [variant] = allowedVariants(state.level, [x, y], available)
   if (!variant) return state
   const guard: Guard = { pos: [x, y], ...variant }
@@ -122,23 +130,18 @@ export function removeGuard(state: GameState, x: number, y: number): GameState {
   return { ...state, guards: state.guards.filter((g) => !samePos(g.pos, x, y)) }
 }
 
-export function toggleGuard(state: GameState, x: number, y: number): GameState {
-  return guardAt(state, x, y) ? removeGuard(state, x, y) : placeGuard(state, x, y)
+export function toggleGuard(state: GameState, x: number, y: number, type?: GuardType): GameState {
+  return guardAt(state, x, y) ? removeGuard(state, x, y) : placeGuard(state, x, y, type)
 }
 
 /**
- * Passe à l'orientation suivante du vigile ; après la dernière orientation de
- * son type, bascule sur le type suivant encore disponible dans le lot. Une
- * seule touche suffit ainsi à parcourir toutes les variantes posables.
+ * Passe à l'orientation autorisée suivante du vigile, sans changer son type
+ * (le type se choisit au sélecteur avant la pose).
  */
 export function rotateGuard(state: GameState, x: number, y: number): GameState {
   const current = guardAt(state, x, y)
   if (!current) return state
-  const others = state.guards.filter((g) => g !== current)
-  const types = GUARD_TYPES.filter(
-    (t) => t === current.type || state.level.pool[t] - countPlaced(others, t) > 0,
-  )
-  const variants = allowedVariants(state.level, current.pos, types)
+  const variants = allowedVariants(state.level, current.pos, [current.type])
   if (variants.length === 0) return state
   const index = variants.findIndex((v) => v.type === current.type && v.facing === current.facing)
   const next = variants[(index + 1) % variants.length]
@@ -257,6 +260,16 @@ export function corridorOrder(cells: Pos[], door: Pos): Pos[] {
   }
 }
 
+/**
+ * Couloir attendu, pour le mode de mise au point `?couloir` : celui que laisse
+ * la solution enregistrée, ou le couloir tracé d'une grille d'expérimentation.
+ */
+export function expectedCorridor(level: Level): Pos[] {
+  if (level.corridor) return level.corridor
+  if (level.solution.length === 0) return []
+  return unseenCells(level, level.solution, computeVision(level, level.solution))
+}
+
 export function areCluesSatisfied(level: Level, vision: Vision): boolean {
   return Object.entries(level.clues).every(([k, count]) => {
     const [x, y] = k.split(',').map(Number)
@@ -279,14 +292,14 @@ export function isWon(state: GameState): boolean {
 }
 
 export type Action =
-  | { type: 'toggle'; x: number; y: number }
+  | { type: 'toggle'; x: number; y: number; guardType?: GuardType }
   | { type: 'rotate'; x: number; y: number }
   | { type: 'reset' }
 
 export function reducer(state: GameState, action: Action): GameState {
   switch (action.type) {
     case 'toggle':
-      return toggleGuard(state, action.x, action.y)
+      return toggleGuard(state, action.x, action.y, action.guardType)
     case 'rotate':
       return rotateGuard(state, action.x, action.y)
     case 'reset':

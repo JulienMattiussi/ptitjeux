@@ -1,5 +1,5 @@
 import { useMemo, useReducer, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
+import { useNavigate, useParams, useSearchParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -13,14 +13,17 @@ import { getAllDates, getLevel } from '~/games/anglemort/challenges'
 import {
   computeVision,
   corridorOrder,
+  expectedCorridor,
   guardAt,
   isWon,
   loadLevel,
   reducer,
+  remaining,
   unseenCells,
 } from '~/games/anglemort/engine'
+import { GuardTypePicker, pickableTypes } from '~/games/anglemort/GuardTypePicker'
 import { PoolTray } from '~/games/anglemort/PoolTray'
-import type { Dir, GameState, Pos } from '~/games/anglemort/types'
+import type { Dir, GameState, GuardType, Pos } from '~/games/anglemort/types'
 import { useThiefWalk } from '~/games/anglemort/useThiefWalk'
 import { moveCellCursor } from '~/lib/cursor'
 import { undoable, withUndo } from '~/lib/undoable'
@@ -45,6 +48,9 @@ export default function AngleMortPlayRoute() {
 
 function AngleMortPlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
+  // Mise au point : `?couloir` dans l'adresse teinte le couloir attendu.
+  const [searchParams] = useSearchParams()
+  const showCorridor = searchParams.has('couloir')
   const navigate = useNavigate()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
@@ -70,6 +76,16 @@ function AngleMortPlay() {
   const [selected, setSelected] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
   const selectedRef = useLatestRef(selected)
 
+  // Type de vigile à poser (sélecteur sous la grille). Quand le type choisi est
+  // épuisé, on bascule sur le premier type encore disponible.
+  const types = level ? pickableTypes(state) : []
+  const [chosenType, setChosenType] = useState<GuardType>(types[0] ?? 'simple')
+  const guardType =
+    !level || remaining(state, chosenType) > 0
+      ? chosenType
+      : (types.find((t) => remaining(state, t) > 0) ?? chosenType)
+  const guardTypeRef = useLatestRef(guardType)
+
   useGameKeyboard({
     onBack: () => navigate(`/anglemort?from=${date}`),
     enabled: !!level && !won,
@@ -77,10 +93,15 @@ function AngleMortPlay() {
       if (!level) return
       setSelected((s) => moveCellCursor(s, direction, level.width, level.height))
     },
-    onAction: () => dispatch({ type: 'toggle', ...selectedRef.current }),
+    onAction: () =>
+      dispatch({ type: 'toggle', ...selectedRef.current, guardType: guardTypeRef.current }),
     onSecondaryAction: () => dispatch({ type: 'rotate', ...selectedRef.current }),
     onUndo: () => dispatch({ type: 'undo' }),
     onReset: () => dispatch({ type: 'reset' }),
+    onDigit: (digit) => {
+      const type = types[digit - 1]
+      if (type && remaining(state, type) > 0) setChosenType(type)
+    },
   })
 
   const { beatPar, variant } = getVictoryState(level, state.moves)
@@ -136,27 +157,35 @@ function AngleMortPlay() {
           />
         }
       >
-        <Board
-          state={state}
-          thief={walk.step >= 0 ? corridor[walk.step] : undefined}
-          thiefFacing={
-            walk.step > 0 ? stepDir(corridor[walk.step - 1], corridor[walk.step]) : undefined
-          }
-          diamondTaken={walk.step >= 0 && walk.step === corridor.length - 1}
-          selected={selected}
-          onHoverCell={(x, y) => {
-            if (!won) setSelected({ x, y })
-          }}
-          onCellClick={(x, y) => {
-            if (won) return
-            setSelected({ x, y })
-            dispatch({ type: guardAt(state, x, y) ? 'rotate' : 'toggle', x, y })
-          }}
-          onCellRemove={(x, y) => {
-            if (won) return
-            dispatch({ type: 'toggle', x, y })
-          }}
-        />
+        <div className="flex flex-col items-center gap-3">
+          <Board
+            state={state}
+            expected={showCorridor && level ? expectedCorridor(level) : undefined}
+            thief={walk.step >= 0 ? corridor[walk.step] : undefined}
+            thiefFacing={
+              walk.step > 0 ? stepDir(corridor[walk.step - 1], corridor[walk.step]) : undefined
+            }
+            diamondTaken={walk.step >= 0 && walk.step === corridor.length - 1}
+            selected={selected}
+            onHoverCell={(x, y) => {
+              if (!won) setSelected({ x, y })
+            }}
+            onCellClick={(x, y) => {
+              if (won) return
+              setSelected({ x, y })
+              dispatch(
+                guardAt(state, x, y)
+                  ? { type: 'rotate', x, y }
+                  : { type: 'toggle', x, y, guardType },
+              )
+            }}
+            onCellRemove={(x, y) => {
+              if (won) return
+              dispatch({ type: 'toggle', x, y })
+            }}
+          />
+          <GuardTypePicker state={state} selected={guardType} onSelect={setChosenType} />
+        </div>
         <PlaySidebar>
           <MovesCard label="Poses" moves={state.moves} parMoves={level.parMoves}>
             <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">Vigiles à placer</div>
@@ -176,6 +205,7 @@ function AngleMortPlay() {
           </HelpBox>
           <p className="text-xs text-gray-500 dark:text-gray-400">
             Clic : poser ou pivoter · clic droit : retirer · clavier : flèches, Espace, Entrée
+            {types.length > 1 && ' · 1, 2, 3 : type de vigile'}
           </p>
         </PlaySidebar>
       </GameFrame>

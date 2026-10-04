@@ -204,6 +204,7 @@ Toute interaction de jeu doit être faisable **sans souris**. Convention partag�
 | **Ctrl+Z** / **Cmd+Z** | Annuler le dernier coup (tous les jeux) |
 | **R** | Recommencer le niveau (tous les jeux) |
 | **Échap** | Quitter la partie, retour à la liste des niveaux (tous les jeux) |
+| **1**, **2**, **3** | Choisir le type de vigile à poser (Angle mort, dès que le lot mélange plusieurs types). Lus aussi par position physique (`event.code`) : sur AZERTY, la rangée des chiffres produit `&`, `é`, `"` sans Majuscule. |
 
 Dans la **modale de victoire** (`VictoryOverlay`) :
 

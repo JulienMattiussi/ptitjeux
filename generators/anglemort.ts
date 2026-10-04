@@ -268,7 +268,7 @@ function pruneRedundant(level: Level, path: Pos[], guards: Guard[]): Guard[] {
 /** Nombre de vigiles visé par niveau : on ajoute des piliers jusqu'à l'atteindre. */
 const TARGET_GUARDS: Record<LevelIndex, number> = { 1: 6, 2: 7, 3: 8, 4: 9 }
 /** Nombre minimal de piliers par niveau. */
-const MIN_PILLARS: Record<LevelIndex, number> = { 1: 3, 2: 0, 3: 0, 4: 0 }
+const MIN_PILLARS: Record<LevelIndex, number> = { 1: 3, 2: 3, 3: 0, 4: 0 }
 /** Densité maximale de piliers (piliers ÷ cases de la salle). */
 const MAX_PILLAR_RATIO = 0.18
 /** Essais de pilier par niveau pendant la phase de réduction. */

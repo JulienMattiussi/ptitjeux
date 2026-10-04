@@ -1,0 +1,113 @@
+{
+  "id": "2026-10-02-2",
+  "name": "Niveau 2 · 8×7",
+  "width": 8,
+  "height": 7,
+  "pillars": [
+    [
+      6,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "mirrors": [],
+  "door": [
+    7,
+    0
+  ],
+  "diamond": [
+    7,
+    5
+  ],
+  "clues": {
+    "3,2": 0,
+    "5,4": 0,
+    "3,1": 0,
+    "2,5": 2,
+    "2,6": 2,
+    "0,5": 1,
+    "0,0": 1,
+    "6,0": 0,
+    "1,5": 1,
+    "0,6": 1
+  },
+  "pool": {
+    "simple": 7,
+    "angle": 0,
+    "oppose": 0
+  },
+  "solution": [
+    {
+      "pos": [
+        6,
+        5
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        7,
+        6
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        1,
+        4
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        2,
+        1
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        4,
+        1
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        0,
+        2
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        4,
+        2
+      ],
+      "type": "simple",
+      "facing": "E"
+    }
+  ],
+  "parMoves": 7
+}

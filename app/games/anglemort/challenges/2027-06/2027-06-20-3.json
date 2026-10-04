@@ -1,0 +1,156 @@
+{
+  "id": "2027-06-20-3",
+  "name": "Niveau 3 · 8×9",
+  "width": 8,
+  "height": 9,
+  "pillars": [
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "mirrors": [],
+  "door": [
+    7,
+    1
+  ],
+  "diamond": [
+    0,
+    3
+  ],
+  "clues": {
+    "6,3": 0,
+    "4,6": 0,
+    "1,5": 0,
+    "2,0": 2,
+    "3,2": 2,
+    "5,0": 1,
+    "2,5": 1,
+    "1,8": 0,
+    "3,6": 0,
+    "4,5": 0,
+    "7,3": 0,
+    "5,4": 0,
+    "5,5": 0
+  },
+  "pool": {
+    "simple": 6,
+    "angle": 4,
+    "oppose": 2
+  },
+  "solution": [
+    {
+      "pos": [
+        6,
+        0
+      ],
+      "type": "oppose",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        2,
+        7
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        6,
+        5
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        5,
+        6
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        4,
+        4
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        6,
+        2
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        1,
+        1
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        6,
+        1
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        4,
+        7
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        0,
+        6
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        3,
+        1
+      ],
+      "type": "oppose",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        7,
+        5
+      ],
+      "type": "angle",
+      "facing": "S"
+    }
+  ],
+  "parMoves": 12
+}

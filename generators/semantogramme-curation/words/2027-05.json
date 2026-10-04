@@ -2,9 +2,9 @@
  "1|vaisselle": [
   "assiette",
   "verre",
-  "évier",
+  "laver",
   "éponge",
-  "lave-vaisselle",
+  "évier",
   "liquide",
   "égouttoir",
   "torchon",
@@ -30,7 +30,7 @@
   "têtu",
   "oreilles",
   "Shrek",
-  "grison",
+  "bât",
   "carotte",
   "mulet",
   "Cadichon"
@@ -80,7 +80,7 @@
   "babouin",
   "primate",
   "liane",
-  "Kong",
+  "ouistiti",
   "grimace"
  ],
  "1|forêt": [
@@ -115,7 +115,7 @@
   "vin",
   "cave",
   "Bourgogne",
-  "pampre",
+  "pressoir",
   "treille",
   "sarment"
  ],
@@ -152,7 +152,7 @@
   "panama",
   "bord",
   "plume",
-  "Indiana",
+  "sombrero",
   "modiste"
  ],
  "1|cactus": [
@@ -162,10 +162,10 @@
   "piquant",
   "succulente",
   "aloès",
-  "saguaro",
   "pot",
-  "opuntia",
-  "Arizona"
+  "western",
+  "Arizona",
+  "plante"
  ],
  "1|souris": [
   "rongeur",
@@ -177,7 +177,7 @@
   "Jerry",
   "grise",
   "ordinateur",
-  "raton"
+  "Minnie"
  ],
  "1|prairie": [
   "pré",
@@ -212,8 +212,8 @@
   "Panthéon",
   "visite",
   "commémoration",
-  "Arc",
-  "triomphal"
+  "Tour-Eiffel",
+  "obélisque"
  ],
  "1|courage": [
   "bravoure",
@@ -241,7 +241,6 @@
  ],
  "1|pluie": [
   "goutte",
-  "parapluie",
   "averse",
   "nuage",
   "flaque",
@@ -249,7 +248,8 @@
   "imperméable",
   "bottes",
   "crachin",
-  "arc-en-ciel"
+  "arc-en-ciel",
+  "nuée"
  ],
  "1|cadeau": [
   "surprise",
@@ -259,9 +259,9 @@
   "offrir",
   "présent",
   "étrennes",
-  "bolduc",
-  "papier-cadeau",
-  "déballer"
+  "ruban",
+  "déballer",
+  "fête"
  ],
  "1|poésie": [
   "poème",
@@ -309,7 +309,7 @@
   "balancier",
   "comtoise",
   "minuterie",
-  "clepsydre"
+  "réveil"
  ],
  "1|tracteur": [
   "ferme",
@@ -320,8 +320,8 @@
   "charrue",
   "moissonneuse",
   "pneu",
-  "Massey",
-  "Deere"
+  "sillon",
+  "gazole"
  ],
  "1|rivière": [
   "courant",
@@ -384,9 +384,9 @@
   "lettre",
   "recyclage",
   "kraft",
-  "Chine",
   "papyrus",
-  "papetier"
+  "papetier",
+  "cahier"
  ],
  "2|averse": [
   "ondée",
@@ -414,13 +414,13 @@
   "réchauffé",
   "mitigé",
   "indifférent",
-  "attiédi",
   "biberon",
   "brise",
   "printemps",
   "lait",
   "fade",
-  "frisquet"
+  "douche",
+  "douceâtre"
  ],
  "2|acheter": [
   "magasin",
@@ -453,7 +453,7 @@
   "début",
   "clarté",
   "chant",
-  "laudes",
+  "lueur",
   "pâleur"
  ],
  "2|zombi": [
@@ -462,7 +462,7 @@
   "horde",
   "cerveau",
   "apocalypse",
-  "Romero",
+  "Thriller",
   "contamination",
   "morsure",
   "Haïti",
@@ -514,7 +514,7 @@
   "manchette",
   "passe",
   "plage",
-  "Noah",
+  "gymnase",
   "service",
   "sable",
   "équipe",
@@ -536,8 +536,8 @@
   "béat",
   "satisfait",
   "chanceux",
-  "élu",
-  "jubilant",
+  "gai",
+  "jovial",
   "euphorique",
   "allègre"
  ],
@@ -556,7 +556,7 @@
   "aspirateur",
   "manque",
   "vacuité",
-  "évider"
+  "vacant"
  ],
  "2|chantier": [
   "grue",
@@ -588,7 +588,7 @@
   "ectoplasme",
   "Halloween",
   "hantise",
-  "maléfice",
+  "frisson",
   "linceul",
   "suaire"
  ],
@@ -689,10 +689,10 @@
   "obstacle",
   "haies",
   "plonger",
-  "sautiller",
   "rebond",
   "puce",
-  "sautoir"
+  "ressort",
+  "élastique"
  ],
  "2|clair": [
   "lumineux",
@@ -742,8 +742,8 @@
   "abri",
   "phoque",
   "traîneau",
-  "Nunavut",
-  "harpon"
+  "harpon",
+  "maison"
  ],
  "2|riche": [
   "fortune",
@@ -759,8 +759,8 @@
   "château",
   "Picsou",
   "Rothschild",
-  "pécune",
-  "aisé"
+  "aisé",
+  "trésor"
  ],
  "2|réparer": [
   "outil",
@@ -856,8 +856,8 @@
   "mousqueton",
   "falaise",
   "bloc",
-  "dégaine",
-  "assurage",
+  "rocher",
+  "harnais",
   "sommet",
   "chausson",
   "magnésie",
@@ -936,7 +936,7 @@
   "ville",
   "klaxon",
   "pétarade",
-  "Hepburn"
+  "béquille"
  ],
  "3|meringue": [
   "sucre",
@@ -954,8 +954,8 @@
   "blanc",
   "Mont-Blanc",
   "pâtissier",
-  "flottante",
-  "Chiboust",
+  "oeufs",
+  "citron",
   "neige"
  ],
  "3|siffler": [
@@ -1016,7 +1016,7 @@
   "jardin",
   "pince",
   "Turbo",
-  "hélice"
+  "mollusque"
  ],
  "3|blues": [
   "Mississippi",
@@ -1032,11 +1032,11 @@
   "Memphis",
   "mélancolie",
   "Hooker",
-  "Waters",
-  "King",
+  "gospel",
   "complainte",
-  "Bessie",
-  "Leadbelly"
+  "Clapton",
+  "chagrin",
+  "musique"
  ],
  "3|ferry": [
   "bateau",
@@ -1045,12 +1045,12 @@
   "port",
   "voiture",
   "passagers",
-  "Douvres",
+  "amarrage",
   "Calais",
   "Corse",
   "pont",
   "cabine",
-  "car-ferry",
+  "Douvres",
   "quai",
   "billet",
   "Roscoff",
@@ -1065,18 +1065,18 @@
   "jambe",
   "fléchir",
   "ligament",
-  "s'agenouiller",
   "prothèse",
   "entorse",
   "écorchure",
   "pansement",
   "arthrose",
   "jarret",
-  "croix",
+  "fémur",
   "kiné",
   "blessure",
   "football",
-  "agenouillement"
+  "tibia",
+  "flexion"
  ],
  "3|amande": [
   "frangipane",
@@ -1091,11 +1091,11 @@
   "effilée",
   "Californie",
   "financier",
-  "Valence",
+  "noisette",
   "macaron",
   "orgeat",
-  "touron",
-  "Aix",
+  "pistache",
+  "Pithiviers",
   "Tuile"
  ],
  "3|traîner": [
@@ -1135,7 +1135,7 @@
   "panorama",
   "glacier",
   "neige",
-  "Brest",
+  "skieur",
   "aérien"
  ],
  "3|aubergine": [
@@ -1154,9 +1154,9 @@
   "brillante",
   "beignet",
   "tian",
-  "Imam",
-  "babaganoush",
-  "caponata"
+  "gratin",
+  "poivron",
+  "courgette"
  ],
  "3|macaron": [
   "Ladurée",
@@ -1215,7 +1215,7 @@
   "téléphone",
   "prolixe",
   "verbeux",
-  "placoter",
+  "moulin",
   "jaser"
  ],
  "3|pouce": [
@@ -1225,7 +1225,7 @@
   "ongle",
   "sucer",
   "mesure",
-  "coucou",
+  "tétine",
   "jeu",
   "pause",
   "saisir",
@@ -1233,7 +1233,7 @@
   "bravo",
   "approbation",
   "phalange",
-  "autostop",
+  "gladiateur",
   "majeur",
   "index",
   "stop"
@@ -1247,11 +1247,11 @@
   "confiture",
   "miel",
   "Méditerranée",
-  "Solliès",
+  "chèvre",
   "pulpe",
   "grains",
+  "Turquie",
   "Smyrne",
-  "mi-figue",
   "Adam",
   "feuille",
   "dattes",
@@ -1272,7 +1272,7 @@
   "sel",
   "Afrique",
   "Kenya",
-  "Nakuru",
+  "équilibre",
   "vol",
   "danse",
   "carotène",
@@ -1280,9 +1280,9 @@
  ],
  "3|emballer": [
   "paquet",
-  "ruban",
+  "adhésif",
   "carton",
-  "scotch",
+  "empaqueter",
   "colis",
   "envelopper",
   "protéger",
@@ -1293,7 +1293,7 @@
   "séduire",
   "enthousiasmer",
   "moteur",
-  "s'emballer",
+  "scotch",
   "cheval",
   "conditionner",
   "ficeler"
@@ -1343,7 +1343,7 @@
   "plante",
   "eau",
   "pelouse",
-  "goutte-à-goutte",
+  "pomme",
   "asperger",
   "irriguer",
   "jardinier",
@@ -1376,7 +1376,7 @@
   "fouet",
   "cuillère",
   "grattoir",
-  "marouflage"
+  "truelle"
  ],
  "3|ambulance": [
   "sirène",
@@ -1416,7 +1416,7 @@
   "mur",
   "trou",
   "fixation",
-  "goujon"
+  "perceuse"
  ],
  "3|morille": [
   "champignon",
@@ -1433,10 +1433,10 @@
   "brun",
   "conique",
   "séchée",
-  "frêne",
+  "Franche-Comté",
   "cèpe",
   "gastronomie",
-  "Morchella"
+  "girolle"
  ],
  "3|rusé": [
   "malin",
@@ -1476,14 +1476,14 @@
   "tente",
   "oreilles",
   "apprivoiser",
-  "Zavatta"
+  "otarie"
  ],
  "3|mille-pattes": [
   "insecte",
   "pattes",
   "myriapode",
   "scolopendre",
-  "iule",
+  "cloporte",
   "ramper",
   "rapide",
   "venin",
@@ -1495,7 +1495,7 @@
   "segments",
   "grouiller",
   "piqûre",
-  "chilopode",
+  "humus",
   "jardin"
  ],
  "3|manette": [
@@ -1515,7 +1515,7 @@
   "pile",
   "Wii",
   "Sega",
-  "Dualshock",
+  "partie",
   "SNES"
  ],
  "4|pétunia": [
@@ -1529,7 +1529,7 @@
   "annuel",
   "solanacée",
   "suspension",
-  "surfinia",
+  "géranium",
   "collant",
   "parfum",
   "massif",
@@ -1578,8 +1578,8 @@
   "autrui",
   "partage",
   "bonté",
-  "Pierre",
-  "Emmanuelle"
+  "Abbé-Pierre",
+  "Mère-Teresa"
  ],
  "4|toucan": [
   "bec",
@@ -1593,9 +1593,9 @@
   "fruits",
   "plumage",
   "Guinness",
-  "Toco",
+  "liane",
   "arbre",
-  "Ramphastos",
+  "canopée",
   "forêt",
   "noir",
   "jaune",
@@ -1656,12 +1656,12 @@
   "insectes",
   "fourmis",
   "édenté",
-  "Dasypus",
-  "Fuleco",
+  "pangolin",
+  "Mundial",
   "cuirasse",
   "museau",
-  "Mataco",
-  "pichi",
+  "Patagonie",
+  "griffes",
   "Argentine",
   "Paraguay"
  ],
@@ -1726,7 +1726,7 @@
   "Madeleine",
   "Basque",
   "pelote",
-  "Guernica"
+  "Biarritz"
  ],
  "4|aïoli": [
   "ail",
@@ -1744,10 +1744,10 @@
   "carottes",
   "escargots",
   "aillade",
-  "aïgo",
-  "Martigues",
+  "olive",
   "pistou",
-  "Toulon"
+  "Toulon",
+  "sauce"
  ],
  "4|narval": [
   "défense",
@@ -1763,7 +1763,7 @@
   "banquise",
   "ivoire",
   "mythe",
-  "Monodon",
+  "harpon",
   "béluga",
   "migrateur",
   "rare",
@@ -1788,8 +1788,8 @@
   "Chopin",
   "Liszt",
   "Appassionata",
-  "Waldstein",
-  "Hammerklavier"
+  "clavecin",
+  "Clair-de-lune"
  ],
  "4|permien": [
   "extinction",
@@ -1798,7 +1798,7 @@
   "trias",
   "dimétrodon",
   "reptile",
-  "synapside",
+  "cataclysme",
   "désert",
   "volcanisme",
   "Sibérie",
@@ -1807,10 +1807,10 @@
   "fossile",
   "conifère",
   "géologie",
-  "Zechstein",
-  "Rotliegend",
+  "primaire",
+  "fougère",
   "Ourals",
-  "Lystrosaurus"
+  "amphibien"
  ],
  "4|icône": [
   "orthodoxe",
@@ -1831,7 +1831,7 @@
   "informatique",
   "pictogramme",
   "idole",
-  "Andreï"
+  "dorure"
  ],
  "4|pavot": [
   "opium",
@@ -1866,14 +1866,14 @@
   "progrès",
   "Littré",
   "Durkheim",
-  "Vienne",
+  "Saint-Simon",
   "logique",
   "Carnap",
   "ordre",
   "vérification",
   "métaphysique",
   "Humanité",
-  "Clotilde"
+  "objectivité"
  ],
  "4|vergue": [
   "mât",
@@ -1893,7 +1893,7 @@
   "cacatois",
   "mâture",
   "navire",
-  "cargue",
+  "corsaire",
   "goélette"
  ],
  "4|fatalité": [
@@ -1926,7 +1926,7 @@
   "féroce",
   "griffes",
   "fourrure",
-  "Gulo",
+  "belette",
   "toundra",
   "solitaire",
   "Québec",
@@ -2013,7 +2013,7 @@
   "néant",
   "essence",
   "engagement",
-  "Saint-Germain-des-Prés",
+  "Ionesco",
   "responsabilité",
   "choix",
   "authenticité",
@@ -2082,7 +2082,7 @@
   "croustillant",
   "chocolat",
   "sucrée",
-  "lamination",
+  "fourchette",
   "caramélisé"
  ],
  "4|cantique": [
@@ -2113,7 +2113,7 @@
   "vagabonder",
   "lambiner",
   "rêvasser",
-  "badauder",
+  "vadrouille",
   "promener",
   "dériver",
   "errer",
@@ -2124,14 +2124,14 @@
   "nonchalance",
   "farniente",
   "s'attarder",
-  "muser",
+  "balade",
   "glander"
  ],
  "4|maniérisme": [
   "Pontormo",
   "Parmigianino",
   "Bronzino",
-  "Rosso",
+  "torsion",
   "Greco",
   "Fontainebleau",
   "Renaissance",

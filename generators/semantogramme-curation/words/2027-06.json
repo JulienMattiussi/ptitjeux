@@ -42,8 +42,8 @@
   "neige",
   "refuge",
   "pic",
+  "randonnée",
   "Everest",
-  "Mont-Blanc",
   "col",
   "glacier"
  ],
@@ -65,8 +65,8 @@
   "vanille",
   "serre",
   "exotique",
-  "Phalaenopsis",
-  "épiphyte",
+  "bouquet",
+  "parfum",
   "pétale",
   "pot",
   "rare"
@@ -80,7 +80,7 @@
   "tournée",
   "colis",
   "sacoche",
-  "Cheval",
+  "enveloppe",
   "calendrier"
  ],
  "1|gâteau": [
@@ -342,7 +342,7 @@
   "cochon",
   "chien",
   "chêne",
-  "Alba",
+  "luxe",
   "rare",
   "caviar",
   "chocolat"
@@ -474,7 +474,7 @@
   "double",
   "simple",
   "amorti",
-  "dégagé",
+  "gymnase",
   "set",
   "Olympique"
  ],
@@ -611,7 +611,7 @@
   "trait",
   "copiste",
   "enluminure",
-  "calame",
+  "stylet",
   "idéogramme"
  ],
  "2|explorer": [
@@ -644,8 +644,8 @@
   "rouille",
   "tatouage",
   "capitaine",
-  "jas",
-  "écubier",
+  "Popeye",
+  "chaloupe",
   "symbole"
  ],
  "2|rosée": [
@@ -708,7 +708,7 @@
   "parabole",
   "espace",
   "fusée",
-  "télécommunication",
+  "Hubble",
   "météo",
   "Terre",
   "planète",
@@ -743,9 +743,9 @@
   "Galadriel",
   "immortel",
   "arc",
-  "Fondcombe",
+  "oreilles",
   "Dobby",
-  "Elrond",
+  "farfadet",
   "lumière",
   "Arwen",
   "féerique"
@@ -760,12 +760,12 @@
   "goulot",
   "défilé",
   "gorge",
-  "détroit",
   "fente",
   "exigu",
   "boyau",
   "sentier",
-  "limité"
+  "limité",
+  "étriqué"
  ],
  "2|oncle": [
   "tante",
@@ -774,7 +774,7 @@
   "famille",
   "Sam",
   "Picsou",
-  "Benz",
+  "Donald",
   "frère",
   "parrain",
   "Vania",
@@ -819,7 +819,6 @@
   "écho"
  ],
  "2|curieux": [
-  "curiosité",
   "fouineur",
   "indiscret",
   "intrigué",
@@ -828,12 +827,13 @@
   "chat",
   "explorer",
   "espion",
-  "Georges",
+  "fureter",
   "étrange",
   "bizarre",
   "insolite",
   "singulier",
-  "badaud"
+  "badaud",
+  "intéressé"
  ],
  "2|escrime": [
   "fleuret",
@@ -849,8 +849,8 @@
   "Zorro",
   "mousquetaire",
   "plastron",
-  "Lacoste",
-  "tireur"
+  "tireur",
+  "fente"
  ],
  "2|oracle": [
   "Delphes",
@@ -1062,8 +1062,8 @@
   "pâte",
   "brune",
   "Maghreb",
-  "Biskra",
-  "Tozeur",
+  "Marrakech",
+  "Sahara",
   "rouleaux",
   "chameau",
   "caravane",
@@ -1267,7 +1267,7 @@
   "dessert",
   "énorme",
   "lourde",
-  "noyaux"
+  "été"
  ],
  "3|tondeuse": [
   "pelouse",
@@ -1304,7 +1304,7 @@
   "vol",
   "colonie",
   "Nemo",
-  "Nigel",
+  "gosier",
   "Alcatraz",
   "envergure",
   "planer"
@@ -1378,13 +1378,13 @@
   "obscurité",
   "crise",
   "tempe",
-  "pulsatile",
+  "lancinant",
   "neurologue",
   "paracétamol",
-  "triptan",
+  "aspirine",
   "repos",
   "chronique",
-  "hémicrânie",
+  "tête",
   "photophobie",
   "stress",
   "fatigue"
@@ -1405,9 +1405,9 @@
   "rayon",
   "promotion",
   "sérénade",
-  "felze",
   "chenal",
-  "Murano"
+  "Murano",
+  "bateau"
  ],
  "3|talon": [
   "pied",
@@ -1442,7 +1442,7 @@
   "orange",
   "noir",
   "chasser",
-  "Corbett",
+  "Shere-Khan",
   "Sumatra",
   "papier",
   "Kellogg's",
@@ -1499,7 +1499,7 @@
   "méfiance",
   "suspension",
   "jugement",
-  "épochè",
+  "Descartes",
   "critique",
   "relativisme",
   "questionnement",
@@ -1521,7 +1521,7 @@
   "Sioux",
   "Yellowstone",
   "Pologne",
-  "Białowieża",
+  "Buffalo-Bill",
   "européen",
   "Lascaux",
   "bovidé",
@@ -1534,7 +1534,7 @@
  ],
  "4|cardiologie": [
   "coeur",
-  "électrocardiogramme",
+  "ventricule",
   "infarctus",
   "stent",
   "pacemaker",
@@ -1565,7 +1565,7 @@
   "taquin",
   "facétieux",
   "gouailleur",
-  "pince-sans-rire",
+  "gausseur",
   "blagueur",
   "espiègle",
   "badin",
@@ -1590,7 +1590,7 @@
   "transept",
   "chapelle",
   "rayonnante",
-  "semi-circulaire",
+  "hémicycle",
   "mosaïque",
   "orientée",
   "vitraux"
@@ -1610,7 +1610,7 @@
   "Coleridge",
   "Pacifique",
   "hurleur",
-  "Diomedea",
+  "goéland",
   "migrateur",
   "îles",
   "tempête",
@@ -1664,7 +1664,6 @@
   "voile",
   "trois-mâts",
   "ketch",
-  "yawl",
   "gréement",
   "navire",
   "poupe",
@@ -1677,7 +1676,8 @@
   "marine",
   "hauban",
   "vergue",
-  "goélette"
+  "goélette",
+  "mâture"
  ],
  "4|providence": [
   "destin",
@@ -1691,7 +1691,7 @@
   "divine",
   "Bossuet",
   "grâce",
-  "État-providence",
+  "Pascal",
   "sauveur",
   "salut",
   "bénédiction",
@@ -1719,14 +1719,14 @@
   "poussin",
   "basse-cour",
   "pivert",
-  "bécot"
+  "volaille"
  ],
  "4|okapi": [
   "girafe",
   "rayures",
   "Congo",
   "forêt",
-  "Ituri",
+  "Zaïre",
   "zèbre",
   "langue",
   "ruminant",
@@ -1737,10 +1737,10 @@
   "ossicônes",
   "brun",
   "pattes",
-  "Johnston",
+  "discret",
   "découverte",
   "menacé",
-  "crypto-zoologie"
+  "zoo"
  ],
  "4|sablier": [
   "temps",
@@ -1943,11 +1943,11 @@
   "Mississippi",
   "tulipier",
   "pétales",
-  "grandiflora",
-  "soulangeana",
+  "camélia",
+  "Japon",
   "jardin",
   "parc",
-  "film",
+  "Floride",
   "persistant",
   "primitif",
   "Chine"
@@ -2034,7 +2034,7 @@
   "algues",
   "paisible",
   "gros",
-  "Trichechus"
+  "Caraïbes"
  ],
  "4|clocheton": [
   "petit",

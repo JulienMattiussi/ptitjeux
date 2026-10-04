@@ -50,14 +50,14 @@
  "1|papillon": [
   "chrysalide",
   "lépidoptère",
-  "piéride",
+  "ailes",
   "Machaon",
   "Morpho",
-  "vanesse",
+  "chenille",
   "nectar",
-  "Apollon",
+  "filet",
   "collectionneur",
-  "imago"
+  "antenne"
  ],
  "1|oeuf": [
   "coquille",
@@ -65,10 +65,10 @@
   "poussin",
   "couver",
   "brouillé",
-  "Bénédicte",
+  "omelette",
   "Fabergé",
   "ponte",
-  "albumen",
+  "jaune",
   "mouillette"
  ],
  "1|boxe": [
@@ -86,14 +86,14 @@
  "1|coquelicot": [
   "mai",
   "tige",
-  "Nemours",
+  "rouge",
   "bleuet",
   "marguerite",
   "armistice",
   "Flandres",
-  "papaver",
+  "champ",
   "talus",
-  "Argenteuil"
+  "Monet"
  ],
  "1|peintre": [
   "Renoir",
@@ -121,7 +121,7 @@
  ],
  "1|horreur": [
   "frayeur",
-  "King",
+  "zombie",
   "Halloween",
   "épouvante",
   "Freddy",
@@ -141,7 +141,7 @@
   "roulant",
   "kilim",
   "Iran",
-  "Boukhara"
+  "Orient"
  ],
  "1|village": [
   "hameau",
@@ -165,7 +165,7 @@
   "fondre",
   "emblème",
   "Zeus",
-  "pygargue"
+  "rapace"
  ],
  "1|plage": [
   "galet",
@@ -177,7 +177,7 @@
   "cabine",
   "ressac",
   "bikini",
-  "estran"
+  "sable"
  ],
  "1|internet": [
   "web",
@@ -195,13 +195,13 @@
   "pleine",
   "Armstrong",
   "loup-garou",
-  "Séléné",
+  "cratère",
   "Apollo",
   "Pierrot",
   "phase",
-  "gibbeuse",
+  "croissant",
   "Tintin",
-  "rousse"
+  "satellite"
  ],
  "1|miel": [
   "ruche",
@@ -256,12 +256,12 @@
   "cocotier",
   "oasis",
   "Croisette",
-  "Kerala",
+  "plage",
   "Miami",
-  "stipe",
+  "tropiques",
   "raphia",
   "Dubaï",
-  "Elche"
+  "désert"
  ],
  "1|méduse": [
   "tentacule",
@@ -269,8 +269,8 @@
   "Gorgone",
   "Persée",
   "urticant",
-  "cnidaire",
-  "Radeau",
+  "piqûre",
+  "transparente",
   "Géricault",
   "filament",
   "ombrelle"
@@ -283,7 +283,7 @@
   "crevaison",
   "cycle",
   "engrenage",
-  "bandage",
+  "rayon",
   "cercle",
   "invention"
  ],
@@ -301,10 +301,10 @@
  ],
  "1|jazz": [
   "swing",
-  "Davis",
+  "trompette",
   "Coltrane",
   "improvisation",
-  "Nouvelle-Orléans",
+  "saxophone",
   "club",
   "be-bop",
   "Ellington",
@@ -356,8 +356,8 @@
   "Rhône",
   "Yosemite",
   "coteau",
-  "ubac",
-  "adret"
+  "rivière",
+  "montagne"
  ],
  "1|tour": [
   "Eiffel",
@@ -383,7 +383,7 @@
   "pervenche",
   "électrique",
   "cobalt",
-  "céruléen",
+  "ciel",
   "ecchymose",
   "Méditerranée",
   "Chagall"
@@ -401,7 +401,7 @@
   "laisser",
   "abandonner",
   "néant",
-  "Léthé",
+  "étourdi",
   "post-it",
   "pardonner"
  ],
@@ -419,7 +419,7 @@
   "excavation",
   "crevasse",
   "entaille",
-  "anfractuosité",
+  "trou",
   "sillon"
  ],
  "2|sous-sol": [
@@ -446,13 +446,13 @@
   "Smaug",
   "Daenerys",
   "Krokmou",
-  "wyverne",
+  "flamme",
   "Mulan",
   "Drogon",
   "Tolkien",
   "Shrek",
   "Eragon",
-  "Fafnir",
+  "écailles",
   "Siegfried",
   "Mushu"
  ],
@@ -464,7 +464,7 @@
   "saint",
   "ferveur",
   "Lourdes",
-  "neuvaine",
+  "prière",
   "ex-voto",
   "agenouiller",
   "vénération",
@@ -556,7 +556,7 @@
   "granulat",
   "bitume",
   "chape",
-  "banché"
+  "ciment"
  ],
  "2|bricoler": [
   "colle",
@@ -578,7 +578,7 @@
  "2|aviron": [
   "rame",
   "skiff",
-  "Henley",
+  "bateau",
   "Oxford",
   "Cambridge",
   "régate",
@@ -589,25 +589,25 @@
   "huit",
   "coulisse",
   "bassin",
-  "tolet",
-  "portant"
+  "coque",
+  "pagaie"
  ],
  "2|geyser": [
   "Yellowstone",
-  "Strokkur",
-  "Geysir",
+  "Islande",
   "bouillonnant",
   "jaillir",
   "thermal",
   "sulfure",
   "pression",
-  "Rotorua",
-  "siliceux",
+  "vapeur",
+  "volcan",
   "intermittent",
   "hydrothermal",
   "chauffe-eau",
   "cumulus",
-  "panache"
+  "panache",
+  "source"
  ],
  "2|célèbre": [
   "star",
@@ -636,7 +636,7 @@
   "amas",
   "interstellaire",
   "quasar",
-  "Messier",
+  "étoile",
   "Magellan",
   "elliptique",
   "lactée",
@@ -691,7 +691,7 @@
   "sol",
   "Invader",
   "azulejo",
-  "smalt",
+  "fresque",
   "Rome"
  ],
  "2|ruelle": [
@@ -736,11 +736,11 @@
   "distant",
   "hautain",
   "accueil",
-  "Yakoutsk",
+  "Sibérie",
   "engelure",
   "bise",
   "stalactite",
-  "Oïmiakon",
+  "banquise",
   "cryogénie",
   "hostile",
   "frissonner"
@@ -759,7 +759,7 @@
   "tuberculose",
   "côte",
   "fumeur",
-  "spiromètre",
+  "respirer",
   "insufflation"
  ],
  "2|gluant": [
@@ -783,7 +783,7 @@
   "ténèbres",
   "couvre-feu",
   "garde",
-  "Saint-Barthélemy",
+  "insomnie",
   "réverbère",
   "veilleuse",
   "noctambule",
@@ -832,7 +832,7 @@
  ],
  "2|magicien": [
   "baguette",
-  "prestidigitateur",
+  "tour",
   "illusionniste",
   "Houdini",
   "cape",
@@ -875,11 +875,11 @@
   "africain",
   "bongo",
   "militaire",
-  "Oskar",
-  "Grass",
+  "batterie",
   "derbouka",
   "cadence",
-  "tribal"
+  "tribal",
+  "rythme"
  ],
  "2|éclipse": [
   "totale",
@@ -894,14 +894,14 @@
   "occultation",
   "cône",
   "astre",
-  "obscurcissement",
-  "syzygie",
-  "Baily"
+  "pénombre",
+  "soleil",
+  "lune"
  ],
  "3|cuillère": [
   "couvert",
   "argenterie",
-  "Geller",
+  "soupe",
   "tordre",
   "servir",
   "ménagère",
@@ -914,7 +914,7 @@
   "biberon",
   "dosage",
   "écumoire",
-  "parisienne",
+  "café",
   "porcelaine",
   "étain"
  ],
@@ -922,7 +922,7 @@
   "Bugs",
   "vitamine",
   "fane",
-  "Daucus",
+  "lapin",
   "bâtonnet",
   "maraîchère",
   "Vichy",
@@ -935,7 +935,7 @@
   "râpé",
   "julienne",
   "glacée",
-  "Créances",
+  "orange",
   "Nantes"
  ],
  "3|babouin": [
@@ -945,18 +945,18 @@
   "mandrill",
   "Rafiki",
   "macaque",
-  "hamadryas",
+  "singe",
   "Thot",
-  "cynocéphale",
+  "savane",
   "canines",
   "harem",
   "Kenya",
   "rocher",
   "dominant",
   "épouillage",
-  "gelada",
+  "troupe",
   "Éthiopie",
-  "callosité"
+  "museau"
  ],
  "3|opéra": [
   "Garnier",
@@ -980,7 +980,7 @@
  ],
  "3|greffer": [
   "organe",
-  "transplantation",
+  "hôpital",
   "chirurgie",
   "rejet",
   "donneur",
@@ -988,9 +988,9 @@
   "moelle",
   "compatibilité",
   "écusson",
-  "scion",
+  "bouture",
   "cicatrisation",
-  "Barnard",
+  "coeur",
   "implanter",
   "receveur",
   "prothèse",
@@ -1006,17 +1006,17 @@
   "aéroclub",
   "remorqueur",
   "treuil",
-  "deltaplane",
-  "Lilienthal",
+  "voile",
   "parapente",
   "cockpit",
   "finesse",
   "envol",
   "aérodynamique",
   "altitude",
-  "vélivole",
+  "aile",
   "Saint-Exupéry",
-  "dérive"
+  "dérive",
+  "silence"
  ],
  "3|fluide": [
   "liquide",
@@ -1030,7 +1030,7 @@
   "lubrifiant",
   "plasma",
   "Bernoulli",
-  "laminaire",
+  "eau",
   "turbulence",
   "ruisseler",
   "onde",
@@ -1039,7 +1039,7 @@
   "continu"
  ],
  "3|cil": [
-  "vibratile",
+  "mascara",
   "extension",
   "Rimmel",
   "coquetterie",
@@ -1048,7 +1048,7 @@
   "larme",
   "oeillade",
   "recourbé",
-  "vibrisse",
+  "paupière",
   "irritation",
   "conjonctivite",
   "orgelet",
@@ -1067,7 +1067,7 @@
   "Okavango",
   "territorial",
   "Zambèze",
-  "Escobar",
+  "Afrique",
   "bain",
   "tonne",
   "Tanzanie",
@@ -1075,7 +1075,7 @@
   "agressif",
   "Kruger",
   "grognement",
-  "nilotique",
+  "fleuve",
   "Botswana"
  ],
  "3|marmite": [
@@ -1091,19 +1091,19 @@
   "ragoût",
   "popote",
   "trépied",
-  "Seb",
+  "mijoter",
   "cuisinière",
   "druide",
   "soupière",
   "fumet",
-  "brouet"
+  "casserole"
  ],
  "3|éternuer": [
   "atchoum",
   "pollen",
   "postillon",
   "réflexe",
-  "sternutatoire",
+  "nez",
   "picotement",
   "irritant",
   "renifler",
@@ -1116,7 +1116,7 @@
   "ambroisie",
   "cyprès",
   "moucher",
-  "rhinorrhée"
+  "rhume"
  ],
  "3|navet": [
   "nanar",
@@ -1135,7 +1135,7 @@
   "bide",
   "catastrophe",
   "fiasco",
-  "Freneuse",
+  "légume",
   "désastre"
  ],
  "3|rouge-gorge": [
@@ -1148,7 +1148,7 @@
   "bouvreuil",
   "sorbier",
   "bocage",
-  "Erithacus",
+  "hiver",
   "pinson",
   "flanc",
   "gazouillis",
@@ -1156,7 +1156,7 @@
   "frimas",
   "jardinet",
   "baies",
-  "trille"
+  "chant"
  ],
  "3|mandoline": [
   "italienne",
@@ -1164,13 +1164,13 @@
   "Vivaldi",
   "lamelle",
   "frettes",
-  "plectre",
+  "cordes",
   "bouzouki",
   "balalaïka",
   "Capri",
   "trémolo",
   "napolitaine",
-  "Corelli",
+  "sérénade",
   "chips",
   "canzone",
   "cithare",
@@ -1228,13 +1228,13 @@
   "plafond",
   "oeil-de-boeuf",
   "chien-assis",
-  "Rodolphe",
+  "grenier",
   "ardoise",
   "isolation",
   "charpente",
   "chambrette",
   "soupente",
-  "galetas",
+  "toit",
   "bonne",
   "pigeonnier"
  ],
@@ -1273,9 +1273,9 @@
   "porte-bonheur",
   "cool",
   "Dijon",
-  "nyctale",
+  "nocturne",
   "Archimède",
-  "strix",
+  "hibou",
   "épatant"
  ],
  "3|riz": [
@@ -1293,8 +1293,8 @@
   "Vietnam",
   "mochi",
   "onigiri",
-  "paddy",
-  "nori",
+  "baguettes",
+  "grain",
   "biryani",
   "Bali"
  ],
@@ -1340,10 +1340,10 @@
  ],
  "3|abricot": [
   "Roussillon",
-  "Bergeron",
+  "confiture",
   "oreillon",
   "Arménie",
-  "rosacée",
+  "verger",
   "Valence",
   "séché",
   "nectarine",
@@ -1351,9 +1351,9 @@
   "Ardèche",
   "Drôme",
   "Turquie",
-  "Malatya",
+  "noyau",
   "chutney",
-  "Luizet",
+  "compote",
   "tartelette",
   "marmelade",
   "fruitier"
@@ -1370,7 +1370,7 @@
   "muqueuse",
   "rhinoplastie",
   "septum",
-  "épistaxis",
+  "nez",
   "saignement",
   "humer",
   "sentir",
@@ -1389,14 +1389,14 @@
   "Atlantique",
   "cachalot",
   "luminescent",
-  "Architeuthis",
+  "géant",
   "mollusque",
-  "Humboldt",
+  "encre",
   "sépia",
-  "chromatophore",
-  "gladius",
   "abysses",
-  "Verne"
+  "Verne",
+  "poulpe",
+  "beignet"
  ],
  "3|traverser": [
   "piéton",
@@ -1412,7 +1412,7 @@
   "survoler",
   "Blériot",
   "Moïse",
-  "zébra",
+  "passerelle",
   "frontière",
   "détroit",
   "isthme",
@@ -1426,7 +1426,7 @@
   "halage",
   "cargaison",
   "fret",
-  "Freycinet",
+  "canal",
   "fluvial",
   "amarrer",
   "chaland",
@@ -1434,7 +1434,7 @@
   "gabare",
   "cale",
   "bief",
-  "Midi",
+  "fleuve",
   "Rhin",
   "timonerie"
  ],
@@ -1451,7 +1451,7 @@
   "spectacle",
   "habileté",
   "dextérité",
-  "Rastelli",
+  "cirque",
   "bilboquet",
   "monocycle",
   "bateleur",
@@ -1473,7 +1473,7 @@
   "coaxial",
   "filin",
   "multiprise",
-  "toron",
+  "électricité",
   "enrouleur",
   "dénuder",
   "connectique"
@@ -1481,17 +1481,17 @@
  "3|espadon": [
   "steak",
   "marlin",
-  "Xiphias",
+  "rostre",
   "grillé",
   "darne",
   "carnassier",
   "migrateur",
-  "Santiago",
+  "pêcheur",
   "plancha",
   "torpille",
   "Floride",
-  "Messine",
-  "palangre",
+  "thon",
+  "épée",
   "Açores",
   "Bermudes",
   "glaive",
@@ -1500,7 +1500,7 @@
  ],
  "3|accordéon": [
   "soufflet",
-  "Horner",
+  "musette",
   "java",
   "guinguette",
   "touches",
@@ -1536,7 +1536,7 @@
   "précurseur",
   "foyer",
   "liquéfaction",
-  "Gutenberg",
+  "faille",
   "Californie"
  ],
  "4|andante": [
@@ -1556,7 +1556,7 @@
   "Schubert",
   "lento",
   "nonchalant",
-  "tranquillo",
+  "Mozart",
   "flânerie",
   "Brahms"
  ],
@@ -1591,7 +1591,7 @@
   "matriarche",
   "bipède",
   "communautaire",
-  "herpestidé",
+  "terrier",
   "Pumbaa",
   "Attenborough",
   "tribu",
@@ -1635,26 +1635,26 @@
   "romane",
   "ornement",
   "Sienne",
-  "Mangia",
+  "beffroi",
   "baptistère",
   "Vérone",
   "Lombardie",
   "brique",
-  "Asinelli",
-  "Garisenda",
-  "Latran"
+  "Pise",
+  "clocher",
+  "Venise"
  ],
  "4|myosotis": [
-  "ne-m'oubliez-pas",
-  "Vergissmeinnicht",
-  "borraginacée",
+  "souvenir",
+  "bleu",
+  "fleurette",
   "sous-bois",
   "sentimental",
   "Allemagne",
   "Danube",
   "rocaille",
   "bisannuel",
-  "scorpioïde",
+  "oubli",
   "azuré",
   "rive",
   "noyade",
@@ -1675,7 +1675,7 @@
   "mégalithe",
   "sédentaire",
   "Stonehenge",
-  "Çatalhöyük",
+  "poterie",
   "Ötzi",
   "tumulus",
   "cromlech",
@@ -1684,7 +1684,7 @@
   "lacustre",
   "Jéricho",
   "torchis",
-  "Natoufien"
+  "élevage"
  ],
  "4|chartreuse": [
   "liqueur",
@@ -1702,24 +1702,24 @@
   "Stendhal",
   "anachorète",
   "secret",
-  "Tarragone",
+  "verte",
   "plantes",
   "distillé",
-  "Sanseverina"
+  "moine"
  ],
  "4|sextant": [
   "angle",
-  "Hadley",
+  "navigateur",
   "point",
   "Cook",
-  "alidade",
-  "limbe",
-  "vernier",
+  "horizon",
+  "étoile",
+  "latitude",
   "Tabarly",
   "nautique",
   "éphémérides",
   "almanach",
-  "culmination",
+  "méridien",
   "réflexion",
   "astronomique",
   "capitaine",
@@ -1732,10 +1732,10 @@
   "nageoire",
   "taxonomie",
   "Cuvier",
-  "Lacépède",
+  "poisson",
   "silure",
   "cœlacanthe",
-  "latérale",
+  "branchie",
   "natatoire",
   "ovipare",
   "alevin",
@@ -1747,7 +1747,7 @@
   "muséum",
   "formol",
   "spécimen",
-  "Agassiz"
+  "écaille"
  ],
  "4|romantisme": [
   "Lamartine",
@@ -1815,10 +1815,9 @@
  "4|caracal": [
   "touffe",
   "roux",
-  "Floppa",
-  "Kirghizistan",
+  "lynx",
+  "oreilles",
   "gazelle",
-  "Turkménistan",
   "Arabie",
   "félidé",
   "pelage",
@@ -1831,7 +1830,8 @@
   "aigrette",
   "Namib",
   "serval",
-  "Sinaï"
+  "Sinaï",
+  "désert"
  ],
  "4|méridien": [
   "zéro",
@@ -1842,17 +1842,17 @@
   "cartographie",
   "Cassini",
   "Dunkerque",
-  "Delambre",
-  "Méchain",
+  "longitude",
+  "Paris",
   "demi-cercle",
   "Saint-Sulpice",
-  "Ferro",
+  "Greenwich",
   "chi",
-  "Kiribati",
+  "horaire",
   "date",
   "géodésique",
   "triangulation",
-  "Brown"
+  "pôle"
  ],
  "4|lapidaire": [
   "concis",
@@ -1888,13 +1888,13 @@
   "Onéguine",
   "noblesse",
   "Mickiewicz",
-  "Tadeusz",
+  "Chopin",
   "rhum",
   "ouverture",
   "Lublin",
   "Gdansk",
-  "Pulaski",
-  "Wieniawski"
+  "danse",
+  "mazurka"
  ],
  "4|rosace": [
   "rayonnante",
@@ -1905,10 +1905,10 @@
   "kaléidoscope",
   "florale",
   "lobe",
-  "remplage",
-  "Sainte-Chapelle",
+  "gothique",
+  "vitrail",
   "entrelacs",
-  "polylobé",
+  "cathédrale",
   "radial",
   "tracé",
   "flamboyant",
@@ -1922,12 +1922,12 @@
   "opulente",
   "arbustive",
   "herbacée",
-  "Luoyang",
+  "Chine",
   "impériale",
   "timidité",
-  "Paeonia",
-  "Péon",
-  "Bernhardt",
+  "jardin",
+  "rose",
+  "parfum",
   "pompon",
   "printanière",
   "fragrance",
@@ -1967,18 +1967,18 @@
   "tortillon",
   "fixatif",
   "Latour",
-  "Carriera",
+  "Degas",
   "Chardin",
   "fusain",
   "sanguine",
-  "Liotard",
+  "craie",
   "Vigée-Lebrun",
   "pâle",
   "tonalité",
   "Albi",
-  "Perronneau",
+  "estompe",
   "fondu",
-  "Isatis"
+  "bleu"
  ],
  "4|tapenade": [
   "câpre",
@@ -1989,7 +1989,7 @@
   "picholine",
   "Nyons",
   "croûton",
-  "Meynier",
+  "olive",
   "panisse",
   "mouliner",
   "provençale",
@@ -2005,8 +2005,8 @@
   "fourmilier",
   "termite",
   "édenté",
-  "xénarthre",
-  "Myrmecophaga",
+  "langue",
+  "insecte",
   "pampa",
   "Colombie",
   "Pantanal",
@@ -2019,7 +2019,7 @@
   "Argentine",
   "Chaco",
   "aplati",
-  "protractile",
+  "museau",
   "tubulaire"
  ],
  "4|géomorphologie": [
@@ -2033,15 +2033,15 @@
   "altération",
   "butte",
   "mesa",
-  "inselberg",
+  "vallée",
   "piémont",
   "ravinement",
   "éolien",
   "alluvion",
   "doline",
-  "lapiaz",
-  "talweg",
-  "pédiment"
+  "glacier",
+  "delta",
+  "falaise"
  ],
  "4|incisif": [
   "cinglant",
@@ -2058,7 +2058,7 @@
   "Voltaire",
   "ironie",
   "verve",
-  "mordacité",
+  "mordant",
   "affûté",
   "précis",
   "décapant",
@@ -2102,7 +2102,7 @@
   "présage",
   "Lohengrin",
   "choral",
-  "tempéré",
+  "Bach",
   "amorce",
   "augure"
  ],
@@ -2117,7 +2117,7 @@
   "lyre",
   "mystères",
   "initiation",
-  "Sonia",
+  "couleur",
   "contrastes",
   "musicalité",
   "prisme",
@@ -2159,7 +2159,7 @@
   "amoralité",
   "provocation",
   "Cratès",
-  "Hipparchia",
+  "chien",
   "impudence",
   "insolence",
   "misanthropie",

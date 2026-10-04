@@ -125,9 +125,6 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
       <section>
         <header className="mb-4">
           <h2 className="font-display text-xl font-bold tracking-tight">Archives</h2>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            Tous les défis précédents : pioche ce que tu veux.
-          </p>
         </header>
         <ArchiveAccordion
           gameId={gameId}

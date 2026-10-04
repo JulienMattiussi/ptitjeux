@@ -18,7 +18,7 @@
   "chaîne",
   "roue",
   "cycliste",
-  "Tour",
+  "pneu",
   "dérailleur",
   "sonnette",
   "VTT"
@@ -40,7 +40,7 @@
   "pluie",
   "cuir",
   "cavalier",
-  "Chat",
+  "pied",
   "mollet",
   "talon",
   "équitation",
@@ -117,7 +117,7 @@
   "perroquet",
   "sabre",
   "abordage",
-  "Jack"
+  "île"
  ],
  "1|ours": [
   "grizzli",
@@ -125,11 +125,11 @@
   "polaire",
   "hibernation",
   "miel",
-  "nounours",
   "Baloo",
   "Winnie",
   "griffes",
-  "tanière"
+  "tanière",
+  "peluche"
  ],
  "1|météo": [
   "prévision",
@@ -266,13 +266,13 @@
  "1|violon": [
   "archet",
   "corde",
-  "Menuhin",
+  "partition",
   "Stradivarius",
   "chevalet",
   "orchestre",
   "luthier",
   "mentonnière",
-  "colophane",
+  "Vivaldi",
   "Paganini"
  ],
  "1|cascade": [
@@ -283,7 +283,7 @@
   "rivière",
   "rocher",
   "écume",
-  "Gavarnie",
+  "montagne",
   "vasque",
   "fracas"
  ],
@@ -369,7 +369,7 @@
   "mâchoire",
   "larmes",
   "Lacoste",
-  "Dundee"
+  "écailles"
  ],
  "2|clown": [
   "Fratellini",
@@ -380,13 +380,13 @@
   "farce",
   "rire",
   "Ronald",
-  "Grock",
   "pitre",
   "Zavatta",
   "perruque",
   "tarte",
   "Ça",
-  "jongler"
+  "jongler",
+  "rouge"
  ],
  "2|sorcière": [
   "balai",
@@ -400,13 +400,13 @@
   "grimoire",
   "bûcher",
   "Salem",
-  "Yaga",
+  "crapaud",
   "magie",
   "envoûtement",
   "Hermione"
  ],
  "2|minuscule": [
-  "mignard",
+  "riquiqui",
   "infime",
   "microscopique",
   "lilliputien",
@@ -427,7 +427,7 @@
   "ellipse",
   "rugby",
   "ballon",
-  "Washington",
+  "amande",
   "visage",
   "allongé",
   "courbe",
@@ -454,7 +454,7 @@
   "avaler",
   "assoiffé",
   "goulot",
-  "lamper"
+  "gosier"
  ],
  "2|lagune": [
   "Venise",
@@ -464,11 +464,11 @@
   "mangrove",
   "flamant",
   "Arcachon",
-  "cordon",
+  "huître",
   "littoral",
   "sel",
   "marais",
-  "Thau",
+  "Camargue",
   "gondole",
   "lido",
   "saumâtre"
@@ -508,7 +508,6 @@
   "migraine"
  ],
  "2|bronze": [
-  "Bénin",
   "alliage",
   "cuivre",
   "étain",
@@ -522,7 +521,8 @@
   "airain",
   "cloche",
   "Rodin",
-  "antique"
+  "antique",
+  "métal"
  ],
  "2|atome": [
   "noyau",
@@ -665,17 +665,17 @@
   "souffle",
   "profondeur",
   "Mayol",
-  "Besson",
+  "dauphin",
   "poumons",
   "palmes",
   "record",
   "bouteille",
   "monopalme",
-  "Pelizzari",
+  "masque",
   "retenir",
   "sommeil",
   "ronflement",
-  "Néry"
+  "lest"
  ],
  "2|nez": [
   "odorat",
@@ -706,14 +706,13 @@
   "valeureux",
   "honnête",
   "gentil",
-  "Wallace",
-  "fier-à-bras",
+  "soldat",
   "preux",
-  "crâne"
+  "guerrier",
+  "fidèle"
  ],
  "2|mentir": [
   "mensonge",
-  "menteur",
   "affabuler",
   "tromper",
   "bluffer",
@@ -726,7 +725,8 @@
   "cacher",
   "duper",
   "fable",
-  "parjure"
+  "parjure",
+  "bobard"
  ],
  "2|mime": [
   "Marceau",
@@ -741,7 +741,7 @@
   "corps",
   "muet",
   "Chaplin",
-  "Deburau",
+  "Pierrot",
   "imiter",
   "rue"
  ],
@@ -759,8 +759,8 @@
   "provocation",
   "Moumine",
   "Tolkien",
-  "Pratchett",
-  "Moria"
+  "Hobbit",
+  "ogre"
  ],
  "2|ancien": [
   "vieux",
@@ -809,9 +809,9 @@
   "bonnet",
   "écharpe",
   "givre",
-  "onglée",
   "rhume",
-  "doudoune"
+  "doudoune",
+  "frimas"
  ],
  "2|yoga": [
   "posture",
@@ -828,7 +828,7 @@
   "relaxation",
   "yogi",
   "mantra",
-  "Hatha"
+  "souffle"
  ],
  "2|chuchoter": [
   "murmurer",
@@ -841,7 +841,7 @@
   "bibliothèque",
   "discret",
   "souffler",
-  "bruisser",
+  "voix",
   "cancan",
   "intimité",
   "ragot",
@@ -903,7 +903,7 @@
   "cire",
   "flamme",
   "chandelle",
-  "lumignon",
+  "cierge",
   "anniversaire",
   "souffler",
   "parfumée",
@@ -926,37 +926,37 @@
   "conférence",
   "compote",
   "Belle-Hélène",
-  "Bourdaloue",
   "juteuse",
   "eau-de-vie",
   "trognon",
   "queue",
   "comice",
-  "Doyenné",
+  "charlotte",
   "sirop",
   "lavement",
   "naïf",
-  "ampoule"
+  "sorbet",
+  "alcool"
  ],
  "3|autruche": [
   "oiseau",
   "plumes",
   "Afrique",
   "course",
-  "plumassier",
+  "géant",
   "cou",
   "enfouir",
-  "ratite",
   "émeu",
   "nandou",
   "élevage",
-  "Struthio",
+  "sable",
   "savane",
   "pattes",
   "rapide",
   "gros",
   "vol",
-  "désert"
+  "désert",
+  "ailes"
  ],
  "3|naviguer": [
   "bateau",
@@ -976,7 +976,7 @@
   "équipage",
   "sextant",
   "louvoyer",
-  "cingler"
+  "marin"
  ],
  "3|symphonie": [
   "orchestre",
@@ -984,7 +984,7 @@
   "Mozart",
   "mouvement",
   "chef",
-  "Neuvième",
+  "Schubert",
   "Mahler",
   "philharmonique",
   "concert",
@@ -1011,8 +1011,8 @@
   "cellulite",
   "cycliste",
   "Jupiter",
-  "massif",
-  "ischio",
+  "dinde",
+  "fesse",
   "adducteurs",
   "dodu",
   "galbée",
@@ -1045,7 +1045,7 @@
   "Bruxelles",
   "pommé",
   "potée",
-  "cabus",
+  "Alsace",
   "romanesco",
   "bébé",
   "pâte",
@@ -1091,12 +1091,12 @@
   "arbre",
   "canopée",
   "chasse",
-  "mélanisme",
+  "tigre",
   "jaguar",
   "fauve",
   "Wakanda",
   "pelage",
-  "Ceylan"
+  "chat"
  ],
  "3|louche": [
   "soupe",
@@ -1132,11 +1132,11 @@
   "Guadeloupe",
   "juteux",
   "sucré",
-  "bromélia",
-  "piña",
-  "colada",
+  "Réunion",
+  "cocktail",
   "conserve",
-  "épineux"
+  "épineux",
+  "sorbet"
  ],
  "3|ver": [
   "terre",
@@ -1172,7 +1172,7 @@
   "souffle",
   "Gershwin",
   "basse",
-  "Weber",
+  "conservatoire",
   "fanfare",
   "harmonie",
   "bec",
@@ -1227,7 +1227,7 @@
   "Davis",
   "fanfare",
   "clairon",
-  "André",
+  "Gillespie",
   "souffler",
   "sonner",
   "orchestre",
@@ -1254,9 +1254,9 @@
   "expulser",
   "renvoyer",
   "dissiper",
-  "pourchasser",
   "repousser",
-  "trophée"
+  "trophée",
+  "gibecière"
  ],
  "3|assiette": [
   "plat",
@@ -1355,7 +1355,7 @@
   "Beatles",
   "bijou",
   "noir",
-  "Khepri",
+  "pharaon",
   "momie"
  ],
  "3|tourner": [
@@ -1415,7 +1415,7 @@
   "petit",
   "taillis",
   "feuilles",
-  "colline",
+  "escargot",
   "bogue"
  ],
  "3|mâchoire": [
@@ -1428,7 +1428,6 @@
   "requin",
   "morsure",
   "crocs",
-  "bruxisme",
   "articulation",
   "serrer",
   "grincer",
@@ -1436,7 +1435,8 @@
   "carrée",
   "fracture",
   "joue",
-  "visage"
+  "visage",
+  "crâne"
  ],
  "3|triangulaire": [
   "tétraèdre",
@@ -1455,7 +1455,7 @@
   "relation",
   "échange",
   "commerce",
-  "pentagone",
+  "Pythagore",
   "foulard"
  ],
  "3|mésange": [
@@ -1475,12 +1475,11 @@
   "noire",
   "mangeoire",
   "arbre",
-  "Parus",
+  "boule",
   "chenilles"
  ],
  "3|orgue": [
   "tuyaux",
-  "Cavaillé-Coll",
   "cathédrale",
   "clavier",
   "pédalier",
@@ -1491,12 +1490,13 @@
   "Barbarie",
   "toccata",
   "Notre-Dame",
-  "cantor",
   "registre",
   "tribune",
   "Hammond",
-  "positif",
-  "buffet"
+  "basilique",
+  "buffet",
+  "musique",
+  "console"
  ],
  "3|échelle": [
   "barreau",
@@ -1523,7 +1523,7 @@
   "séisme",
   "tectonique",
   "plaque",
-  "Andreas",
+  "tremblement",
   "crevasse",
   "fracture",
   "rift",
@@ -1537,7 +1537,7 @@
   "vulnérabilité",
   "Californie",
   "Islande",
-  "décrochement"
+  "Achille"
  ],
  "4|béchamel": [
   "sauce",
@@ -1548,7 +1548,7 @@
   "muscade",
   "lasagne",
   "gratin",
-  "croque-monsieur",
+  "croquette",
   "Mornay",
   "blanche",
   "onctueuse",
@@ -1573,8 +1573,8 @@
   "presse",
   "épreuve",
   "Doré",
-  "xylographie",
-  "rotogravure",
+  "Hokusai",
+  "Goya",
   "aquatinte",
   "graveur",
   "tirage",
@@ -1588,7 +1588,7 @@
   "IRM",
   "échographie",
   "imagerie",
-  "manipulateur",
+  "tumeur",
   "fracture",
   "squelette",
   "Röntgen",
@@ -1599,7 +1599,7 @@
   "contraste",
   "diagnostic",
   "hôpital",
-  "densitométrie",
+  "os",
   "irradiation"
  ],
  "4|colonnade": [
@@ -1617,7 +1617,7 @@
   "fût",
   "chapiteau",
   "galerie",
-  "Perrault",
+  "Rome",
   "architecture",
   "rangée",
   "Parthénon",
@@ -1652,24 +1652,23 @@
   "nocturne",
   "insectes",
   "petit",
-  "Bohol",
   "doigts",
   "saut",
   "arbre",
-  "Sulawesi",
+  "Indonésie",
   "fantôme",
   "Gremlins",
   "Yoda",
   "rotation",
   "tête",
   "menacé",
-  "Asie"
+  "Asie",
+  "arboricole"
  ],
  "4|botanique": [
   "plante",
   "corolle",
   "herbier",
-  "Tournefort",
   "arboretum",
   "Linné",
   "espèce",
@@ -1684,28 +1683,29 @@
   "pistil",
   "étamine",
   "pollen",
-  "végétal"
+  "végétal",
+  "sève"
  ],
  "4|amaryllis": [
   "bulbe",
   "hampe",
   "vermillon",
   "Noël",
-  "hippeastrum",
+  "rouge",
   "trompette",
   "tige",
   "pot",
   "hiver",
   "Brésil",
-  "belladone",
+  "bouquet",
   "bergère",
-  "Virgile",
   "intérieur",
   "forcer",
   "éclosion",
   "pétales",
   "Pâques",
-  "cadeau"
+  "cadeau",
+  "floraison"
  ],
  "4|sagesse": [
   "tempérance",
@@ -1739,36 +1739,36 @@
   "champignons",
   "cèpes",
   "crémeux",
-  "mantecatura",
-  "Vialone",
+  "Piémont",
   "beurre",
   "remuer",
-  "carnaroli",
   "asperges",
   "truffe",
   "oignon",
-  "Vénétie"
+  "Vénétie",
+  "mijoté",
+  "vin"
  ],
  "4|ornithologie": [
   "oiseau",
   "longue-vue",
   "baguage",
   "migration",
-  "Audubon",
+  "nichoir",
   "nid",
   "chant",
   "plumage",
   "observation",
   "espèce",
   "LPO",
-  "Bougrain",
   "ponte",
   "oeuf",
   "rapace",
   "passereau",
   "atlas",
   "affût",
-  "Buffon"
+  "Buffon",
+  "aile"
  ],
  "4|dualisme": [
   "âme",
@@ -1802,7 +1802,7 @@
   "observatoire",
   "Invalides",
   "hémisphère",
-  "lanterneau",
+  "Rome",
   "pendentif",
   "Immortels",
   "Sainte-Sophie",
@@ -1879,8 +1879,8 @@
   "Marinetti",
   "Boccioni",
   "Balla",
-  "Severini",
-  "Carrà",
+  "avion",
+  "cubisme",
   "vitesse",
   "machine",
   "manifeste",
@@ -1891,8 +1891,8 @@
   "automobile",
   "industrie",
   "guerre",
-  "Russolo",
-  "bruitisme",
+  "fascisme",
+  "train",
   "mouvement",
   "électricité"
  ],
@@ -1935,11 +1935,10 @@
   "Nantes",
   "persistant",
   "brillant",
-  "Kerdalo",
+  "jardin",
   "théier"
  ],
  "4|hune": [
-  "enfléchure",
   "plate-forme",
   "vigie",
   "matelot",
@@ -1949,7 +1948,7 @@
   "marine",
   "hauban",
   "observation",
-  "corbeau",
+  "nid-de-pie",
   "mâture",
   "perroquet",
   "voile",
@@ -1957,7 +1956,8 @@
   "pirate",
   "terre",
   "longue-vue",
-  "grimper"
+  "grimper",
+  "bateau"
  ],
  "4|paella": [
   "riz",
@@ -1969,9 +1969,9 @@
   "moules",
   "chorizo",
   "poêle",
-  "Albufera",
+  "poivron",
   "Espagne",
-  "socarrat",
+  "citron",
   "lapin",
   "haricots",
   "fête",
@@ -2011,12 +2011,12 @@
   "mythe",
   "terrain",
   "tribu",
-  "Malinowski",
+  "coutume",
   "Mauss",
   "Mead",
-  "Boas",
+  "totem",
   "structuralisme",
-  "Descola",
+  "ethnie",
   "homme",
   "évolution",
   "fossile",
@@ -2044,7 +2044,7 @@
   "Montaigne"
  ],
  "4|calvados": [
-  "Boulard",
+  "verger",
   "Normandie",
   "eau-de-vie",
   "cidre",
@@ -2058,11 +2058,11 @@
   "Caen",
   "département",
   "Deauville",
-  "Domfrontais",
+  "trou",
   "poire",
   "vieillissement",
   "appellation",
-  "café-calva"
+  "pommeau"
  ],
  "4|hyène": [
   "charognard",
@@ -2071,8 +2071,8 @@
   "Afrique",
   "tachetée",
   "rayée",
-  "Banzai",
-  "Shenzi",
+  "Roi-Lion",
+  "Scar",
   "clan",
   "matriarcat",
   "croc",
@@ -2087,7 +2087,7 @@
  ],
  "4|drisse": [
   "cordage",
-  "balancine",
+  "voilier",
   "hisser",
   "mât",
   "palan",
@@ -2104,7 +2104,7 @@
   "régate",
   "amener",
   "poulie",
-  "coinceur"
+  "bateau"
  ],
  "4|edelweiss": [
   "Alpes",
@@ -2121,7 +2121,7 @@
   "symbole",
   "protégée",
   "alpiniste",
-  "Leontopodium",
+  "Heidi",
   "Tyrol",
   "chamois",
   "névé",
@@ -2139,7 +2139,7 @@
   "cycle",
   "barrage",
   "source",
-  "limnimètre",
+  "lac",
   "inondation",
   "étiage",
   "aquifère",
@@ -2153,14 +2153,14 @@
   "glyphe",
   "poésie",
   "avant-garde",
-  "Lemaître",
+  "dadaïsme",
   "sonore",
   "signe",
   "calligraphie",
-  "Pomerand",
-  "hypergraphie",
-  "Wolman",
-  "Saint-Germain-des-Prés",
+  "Paris",
+  "peinture",
+  "collage",
+  "graphisme",
   "manifeste",
   "typographie",
   "alphabet",

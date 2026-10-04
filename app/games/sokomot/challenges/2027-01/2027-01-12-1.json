@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "S",
       "pos": [
         3,
         1
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "E",
+      "letter": "I",
       "pos": [
         3,
         2
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "O",
+      "letter": "R",
       "pos": [
         3,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "NEO",
+    "word": "SIR",
     "cells": [
       [
         2,
@@ -159,5 +159,5 @@
     "down",
     "left"
   ],
-  "canonicalWord": "néo"
+  "canonicalWord": "sir"
 }

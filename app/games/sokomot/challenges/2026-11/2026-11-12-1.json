@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "L",
+      "letter": "T",
       "pos": [
         2,
         3
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "C",
       "pos": [
         3,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "LIS",
+    "word": "TIC",
     "cells": [
       [
         2,
@@ -161,5 +161,5 @@
     "up",
     "left"
   ],
-  "canonicalWord": "lis"
+  "canonicalWord": "tic"
 }

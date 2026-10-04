@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "R",
       "pos": [
         2,
         2
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "F",
+      "letter": "C",
       "pos": [
         5,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "BOF",
+    "word": "ROC",
     "cells": [
       [
         3,
@@ -161,5 +161,5 @@
     "right",
     "up"
   ],
-  "canonicalWord": "bof"
+  "canonicalWord": "roc"
 }

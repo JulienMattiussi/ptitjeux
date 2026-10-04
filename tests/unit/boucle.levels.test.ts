@@ -49,4 +49,19 @@ describe('niveaux Boucle : intégrité', () => {
       }
     }
   })
+
+  it('aucun mot ne sert deux fois, tous jours et niveaux confondus', () => {
+    const seen = new Map<string, string>()
+    const repeats: string[] = []
+    for (const date of dates) {
+      for (const i of [1, 2, 3, 4] as const) {
+        const word = getLevel(date, i)?.solutionWord.toUpperCase()
+        if (!word) continue
+        const first = seen.get(word)
+        if (first) repeats.push(`${word} : ${first} et ${date}/${i}`)
+        else seen.set(word, `${date}/${i}`)
+      }
+    }
+    expect(repeats).toEqual([])
+  })
 })

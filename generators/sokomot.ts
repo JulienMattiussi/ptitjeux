@@ -2,7 +2,7 @@ import { Rng } from '~/lib/random'
 import type { Block, Coord, Direction, Level } from '~/games/sokomot/types'
 import { solveOptimalSokomot } from './sokomot-optimal-solver'
 import { solveOptimalSokobanPushState } from './sokomot-pushstate-solver'
-import { WORDS_BY_LENGTH } from './wordlists'
+import { freshWords } from './wordlists'
 
 /** Niveaux 2 et 4 : mécanique de glace. */
 export function isIceIndex(index: 1 | 2 | 3 | 4): boolean {
@@ -44,14 +44,22 @@ const SOKOMOT_STEPS: readonly Coord[] = [
  * - Obstacles internes aléatoires sur les cases qui ne sont pas sur la
  *   trajectoire de la solution.
  */
-export function generateSokomotLevel(date: string, index: 1 | 2 | 3 | 4): Level {
+export type SokomotOptions = {
+  /** Mots (forme affichée) déjà publiés : jamais réutilisés. */
+  usedWords?: ReadonlySet<string>
+}
+
+export function generateSokomotLevel(
+  date: string,
+  index: 1 | 2 | 3 | 4,
+  { usedWords }: SokomotOptions = {},
+): Level {
   const isIce = isIceIndex(index)
   const width = 6 + index
   const height = 5 + index
   const wordLen = 2 + index
   const rng = new Rng(`sokomot:${date}:${index}`)
-  const words = WORDS_BY_LENGTH[wordLen] ?? []
-  const entry = rng.pick(words)
+  const entry = rng.pick(freshWords(wordLen, usedWords))
   const word = entry.display
 
   // L1 : 1 push par cube (cube adjacent à la cible).
@@ -158,9 +166,9 @@ function finalize(
   //      strict optimum sur certains cas — c'est néanmoins une **borne
   //      supérieure valide bien meilleure** que la solution rétrogénérée.
   //   3. Si les deux échouent, on garde la solution du générateur.
-  let optimal = solveOptimalSokomot(base, 5_000_000)
+  let optimal = solveOptimalSokomot(base, SOLVER_STATES)
   if (!optimal && !isIce) {
-    optimal = solveOptimalSokobanPushState(base, 5_000_000)
+    optimal = solveOptimalSokobanPushState(base, SOLVER_STATES)
   }
   if (optimal && optimal.length <= draft.solution.length) {
     base.solution = optimal
@@ -168,6 +176,13 @@ function finalize(
   }
   return base
 }
+
+/**
+ * Budget d'états de chaque solveur optimal. À 5 millions, un niveau 3
+ * difficile dépassait 4 Go de mémoire et faisait planter la génération ;
+ * au-delà du budget, on garde la solution du générateur (valide).
+ */
+const SOLVER_STATES = 2_000_000
 
 function inferSize(cells: Coord[]): { width: number; height: number } {
   let mx = 0

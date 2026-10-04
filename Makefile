@@ -41,8 +41,13 @@ test-coverage: ## Lancer les tests avec rapport de couverture
 verify-levels: ## Vérifications lourdes des niveaux (unicité, générateurs) : après chaque génération
 	npm run verify:levels
 
+# Garde-fous de la génération (solveurs gourmands) : mémoire de Node plafonnée,
+# priorité processeur basse, durée maximale. Surchargeables : make generate-levels GEN_MEMORY=8192
+GEN_MEMORY ?= 4096
+GEN_TIMEOUT ?= 6h
+
 generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 2026-05-01 --end 2026-05-07 --game sokomot --level 3"
-	npm run generate:levels -- $(ARGS)
+	NODE_OPTIONS=--max-old-space-size=$(GEN_MEMORY) timeout $(GEN_TIMEOUT) nice -n 15 npm run generate:levels -- $(ARGS)
 
 fix: format lint ## Formater et linter le code
 

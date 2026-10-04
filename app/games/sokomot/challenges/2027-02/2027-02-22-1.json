@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "C",
+      "letter": "D",
       "pos": [
         2,
         2
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "U",
       "pos": [
         3,
         3
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "P",
+      "letter": "T",
       "pos": [
         4,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "CAP",
+    "word": "DUT",
     "cells": [
       [
         2,
@@ -160,5 +160,5 @@
     "right",
     "up"
   ],
-  "canonicalWord": "cap"
+  "canonicalWord": "dut"
 }

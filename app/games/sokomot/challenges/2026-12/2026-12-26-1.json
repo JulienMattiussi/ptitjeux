@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "V",
+      "letter": "C",
       "pos": [
         1,
         2
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "E",
       "pos": [
         2,
         3
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "A",
+      "letter": "P",
       "pos": [
         4,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "VIA",
+    "word": "CEP",
     "cells": [
       [
         1,
@@ -163,5 +163,5 @@
     "up",
     "left"
   ],
-  "canonicalWord": "via"
+  "canonicalWord": "cep"
 }

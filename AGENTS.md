@@ -40,8 +40,8 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 
 **Tout niveau livré (Sokomot, Boucle, Sémantogramme, Angle mort) doit avoir un test d'intégrité dans `tests/unit/<jeu>.levels.test.ts` qui prouve sa résolubilité.**
 
-- **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`.
-- **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`.
+- **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`. Aucun mot ne sert deux fois sur l'ensemble des niveaux (même mécanisme que Boucle).
+- **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`. Aucun mot ne sert deux fois sur l'ensemble des niveaux : le générateur exclut les mots déjà publiés (`usedWords`, fourni par `scripts/generate-levels.ts`).
 - **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`.
 - **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis prouver que le **couloir est unique** (`generators/anglemort-corridors.ts` : couloirs compatibles avec les indices, chaque concurrent déclaré impossible par le solveur). Plusieurs poses peuvent produire ce couloir, c'est voulu. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour. Chaque grille de base sert 8 fois (symétries, qui conservent l'unicité) : `make test` prouve l'unicité sur chaque grille d'origine, `make verify-levels` sur tous les niveaux.
 

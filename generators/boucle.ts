@@ -1,6 +1,6 @@
 import { Rng } from '~/lib/random'
 import type { Coord, Level } from '~/games/boucle/types'
-import { WORDS_BY_LENGTH } from './wordlists'
+import { freshWords } from './wordlists'
 
 const FILLER_LETTERS = 'BCDFGHJKLMNPQRSTVWXZ'.split('')
 
@@ -145,7 +145,16 @@ function chooseClues(insideCells: Coord[], width: number, height: number): Recor
  * - Les cases hors-mot sont remplies de lettres aléatoires.
  * - Les indices Slitherlink sont calculés exactement à partir du périmètre.
  */
-export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
+export type BoucleOptions = {
+  /** Mots (forme affichée) déjà publiés : jamais réutilisés. */
+  usedWords?: ReadonlySet<string>
+}
+
+export function generateBoucleLevel(
+  date: string,
+  index: 1 | 2 | 3 | 4,
+  { usedWords }: BoucleOptions = {},
+): Level {
   const size = 3 + index // 4..7
   const width = size
   const height = size
@@ -154,8 +163,7 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
   // Tentatives successives jusqu'à obtenir une marche complète qui rentre.
   for (let attempt = 0; attempt < 30; attempt++) {
     const rng = new Rng(`boucle:${date}:${index}:${attempt}`)
-    const words = WORDS_BY_LENGTH[wordLen] ?? []
-    const entry = rng.pick(words)
+    const entry = rng.pick(freshWords(wordLen, usedWords))
     const word = entry.display
 
     const cells = placeWordCells(rng, wordLen, width, height)
@@ -198,8 +206,7 @@ export function generateBoucleLevel(date: string, index: 1 | 2 | 3 | 4): Level {
 
   // Filet de sécurité : layout vertical fixe (colonne 0).
   const fallbackRng = new Rng(`boucle:${date}:${index}:fallback`)
-  const words = WORDS_BY_LENGTH[wordLen] ?? []
-  const entry = fallbackRng.pick(words)
+  const entry = fallbackRng.pick(freshWords(wordLen, usedWords))
   const word = entry.display
 
   const letters: string[][] = []

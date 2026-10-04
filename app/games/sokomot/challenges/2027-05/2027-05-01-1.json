@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "R",
       "pos": [
         1,
         2
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "I",
+      "letter": "O",
       "pos": [
         3,
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "T",
+      "letter": "B",
       "pos": [
         3,
         2
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "BIT",
+    "word": "ROB",
     "cells": [
       [
         1,
@@ -162,5 +162,5 @@
     "up",
     "left"
   ],
-  "canonicalWord": "bit"
+  "canonicalWord": "rob"
 }

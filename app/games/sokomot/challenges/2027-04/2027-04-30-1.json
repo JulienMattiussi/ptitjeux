@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "B",
+      "letter": "P",
       "pos": [
         4,
         1
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "O",
+      "letter": "U",
       "pos": [
         2,
         2
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "Y",
+      "letter": "B",
       "pos": [
         2,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "BOY",
+    "word": "PUB",
     "cells": [
       [
         3,
@@ -164,5 +164,5 @@
     "up",
     "right"
   ],
-  "canonicalWord": "boy"
+  "canonicalWord": "pub"
 }

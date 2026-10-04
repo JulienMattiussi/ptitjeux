@@ -134,7 +134,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "E",
+      "letter": "N",
       "pos": [
         4,
         2
@@ -142,7 +142,7 @@
     },
     {
       "id": "b2",
-      "letter": "T",
+      "letter": "E",
       "pos": [
         5,
         3
@@ -150,7 +150,7 @@
     },
     {
       "id": "b3",
-      "letter": "R",
+      "letter": "O",
       "pos": [
         2,
         4
@@ -158,7 +158,7 @@
     },
     {
       "id": "b4",
-      "letter": "E",
+      "letter": "N",
       "pos": [
         3,
         5
@@ -166,7 +166,7 @@
     }
   ],
   "target": {
-    "word": "ETRE",
+    "word": "NEON",
     "cells": [
       [
         2,
@@ -204,5 +204,5 @@
     "down",
     "right"
   ],
-  "canonicalWord": "être"
+  "canonicalWord": "néon"
 }

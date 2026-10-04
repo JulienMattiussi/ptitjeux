@@ -25,40 +25,40 @@ export type CuratedTheme = {
 
 export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   // ===== Avril 2026 =====
-  '2026-09-01': { word: 'fleur', members: ['rose', 'tulipe', 'lys', 'marguerite', 'jonquille', 'pivoine', 'orchidée', 'violette', 'iris', 'mimosa', 'jasmin', 'dahlia'] },
-  '2026-09-02': { word: 'arbre', members: ['chêne', 'hêtre', 'sapin', 'érable', 'peuplier', 'bouleau', 'frêne', 'saule', 'tilleul', 'marronnier', 'cèdre', 'châtaignier'] },
-  '2026-09-03': { word: 'métier', members: ['boulanger', 'médecin', 'peintre', 'pompier', 'juge', 'plombier', 'électricien', 'ingénieur', 'infirmier', 'dentiste', 'mécanicien', 'comédien', 'acteur', 'réalisateur', 'fermier', 'instituteur', 'banquier'] },
-  '2026-09-04': { word: 'vêtement', members: ['chemise', 'pantalon', 'manteau', 'robe', 'jupe', 'pull', 'veste', 'gants', 'écharpe', 'chaussette', 'ceinture', 'casquette'] },
-  '2026-09-05': { word: 'boisson', members: ['eau', 'vin', 'bière', 'café', 'thé', 'jus', 'lait', 'soda', 'limonade', 'sirop', 'cidre', 'tisane'] },
-  '2026-09-06': { word: 'émotion', members: ['joie', 'peur', 'colère', 'tristesse', 'surprise', 'dégoût', 'amour', 'haine', 'espoir', 'ennui', 'fierté', 'honte'] },
-  '2026-09-07': { word: 'outil', members: ['marteau', 'scie', 'tournevis', 'perceuse', 'pince', 'ciseaux', 'mètre', 'écrou', 'rabot', 'agrafeuse', 'visseuse', 'tenaille'] },
-  '2026-09-08': { word: 'fromage', members: ['camembert', 'brie', 'roquefort', 'gruyère', 'comté', 'reblochon', 'cantal', 'gouda', 'emmental', 'munster', 'parmesan', 'tomme'] },
-  '2026-09-09': { word: 'ferme', members: ['vache', 'cochon', 'poule', 'canard', 'mouton', 'tracteur', 'grange', 'étable', 'foin', 'fermier', 'paille', 'ruche'] },
-  '2026-09-10': { word: 'école', members: ['élève', 'classe', 'cahier', 'stylo', 'devoir', 'leçon', 'tableau', 'craie', 'récréation', 'cantine', 'cartable', 'instituteur'] },
-  '2026-09-11': { word: 'ville', members: ['rue', 'place', 'avenue', 'immeuble', 'métro', 'banque', 'parking', 'trottoir', 'lampadaire', 'magasin', 'mairie', 'boulevard'] },
-  '2026-09-12': { word: 'cinéma', members: ['acteur', 'scénario', 'écran', 'salle', 'caméra', 'réalisateur', 'scène', 'film', 'séance', 'ticket', 'projection', 'festival', 'comédien'] },
+  '2026-09-01': { word: 'fleur', members: ['rose', 'tulipe', 'lys', 'marguerite', 'jonquille', 'pivoine', 'orchidée', 'violette', 'iris', 'mimosa', 'jasmin', 'dahlia', 'coquelicot', 'glaïeul', 'lilas', 'camélia', 'bleuet', 'hortensia'] },
+  '2026-09-02': { word: 'arbre', members: ['chêne', 'hêtre', 'sapin', 'érable', 'peuplier', 'bouleau', 'frêne', 'saule', 'tilleul', 'marronnier', 'cèdre', 'châtaignier', 'platane', 'orme', 'mélèze', 'noyer', 'if', 'aulne'] },
+  '2026-09-03': { word: 'métier', members: ['boulanger', 'médecin', 'peintre', 'pompier', 'juge', 'plombier', 'électricien', 'ingénieur', 'infirmier', 'dentiste', 'mécanicien', 'comédien', 'acteur', 'réalisateur', 'fermier', 'instituteur', 'banquier', 'menuisier', 'avocat', 'facteur', 'coiffeur', 'pharmacien', 'cuisinier'] },
+  '2026-09-04': { word: 'vêtement', members: ['chemise', 'pantalon', 'manteau', 'robe', 'jupe', 'pull', 'veste', 'gants', 'écharpe', 'chaussette', 'ceinture', 'casquette', 'blouson', 'short', 'gilet', 'pyjama', 'imperméable', 'cravate'] },
+  '2026-09-05': { word: 'boisson', members: ['eau', 'vin', 'bière', 'café', 'thé', 'jus', 'lait', 'soda', 'limonade', 'sirop', 'cidre', 'tisane', 'champagne', 'cacao', 'grenadine', 'orangeade', 'rhum', 'punch'] },
+  '2026-09-06': { word: 'émotion', members: ['joie', 'peur', 'colère', 'tristesse', 'surprise', 'dégoût', 'amour', 'haine', 'espoir', 'ennui', 'fierté', 'honte', 'angoisse', 'jalousie', 'nostalgie', 'mélancolie', 'émerveillement', 'rancœur'] },
+  '2026-09-07': { word: 'outil', members: ['marteau', 'scie', 'tournevis', 'perceuse', 'pince', 'ciseaux', 'mètre', 'écrou', 'rabot', 'agrafeuse', 'visseuse', 'tenaille', 'clé', 'lime', 'maillet', 'truelle', 'niveau', 'burin'] },
+  '2026-09-08': { word: 'fromage', members: ['camembert', 'brie', 'roquefort', 'gruyère', 'comté', 'reblochon', 'cantal', 'gouda', 'emmental', 'munster', 'parmesan', 'tomme', 'beaufort', 'maroilles', 'chèvre', 'mozzarella', 'feta', 'époisses'] },
+  '2026-09-09': { word: 'ferme', members: ['vache', 'cochon', 'poule', 'canard', 'mouton', 'tracteur', 'grange', 'étable', 'foin', 'paille', 'ruche', 'chèvre', 'dindon', 'lapin', 'fourche', 'silo', 'abreuvoir'] },
+  '2026-09-10': { word: 'école', members: ['élève', 'classe', 'cahier', 'stylo', 'devoir', 'leçon', 'tableau', 'craie', 'récréation', 'cantine', 'cartable', 'instituteur', 'maître', 'trousse', 'règle', 'gomme', 'dictée', 'préau'] },
+  '2026-09-11': { word: 'ville', members: ['rue', 'place', 'avenue', 'immeuble', 'métro', 'banque', 'parking', 'trottoir', 'lampadaire', 'magasin', 'mairie', 'boulevard', 'quartier', 'carrefour', 'gratte-ciel', 'embouteillage', 'tramway', 'piéton'] },
+  '2026-09-12': { word: 'cinéma', members: ['acteur', 'scénario', 'écran', 'salle', 'caméra', 'réalisateur', 'scène', 'film', 'séance', 'ticket', 'projection', 'festival', 'comédien', 'bobine', 'générique', 'doublage', 'pellicule', 'travelling', 'affiche'] },
 
   // === Nature physique ===
-  '2026-09-13': { word: 'montagne', members: ['sommet', 'pic', 'col', 'crête', 'pente', 'versant', 'falaise', 'sentier', 'refuge', 'glacier', 'altitude', 'rocher'] },
-  '2026-09-14': { word: 'forêt', members: ['arbre', 'feuille', 'mousse', 'fougère', 'sentier', 'clairière', 'gibier', 'écureuil', 'champignon', 'lichen', 'ronce', 'taillis'] },
-  '2026-09-15': { word: 'rivière', members: ['source', 'courant', 'rive', 'berge', 'cascade', 'méandre', 'truite', 'gué', 'pont', 'barrage', 'écluse', 'embouchure'] },
-  '2026-09-16': { word: 'mer', members: ['vague', 'marée', 'plage', 'sable', 'voilier', 'phare', 'mouette', 'algue', 'corail', 'écume', 'crique', 'récif'] },
-  '2026-09-17': { word: 'lac', members: ['rive', 'berge', 'roseau', 'nénuphar', 'barque', 'pêcheur', 'truite', 'carpe', 'ponton', 'profondeur', 'canoë', 'kayak'] },
-  '2026-09-18': { word: 'désert', members: ['sable', 'dune', 'oasis', 'caravane', 'chameau', 'mirage', 'soif', 'rocaille', 'scorpion', 'palmier', 'dromadaire', 'aridité'] },
-  '2026-09-19': { word: 'volcan', members: ['lave', 'cratère', 'éruption', 'magma', 'cendre', 'fumée', 'soufre', 'panache', 'caldeira', 'séisme', 'roche', 'tremblement'] },
-  '2026-09-20': { word: 'île', members: ['plage', 'lagon', 'récif', 'palmier', 'cocotier', 'corail', 'sable', 'rivage', 'pirogue', 'mouette', 'crique', 'atoll'] },
-  '2026-09-21': { word: 'plage', members: ['sable', 'vague', 'parasol', 'transat', 'serviette', 'coquillage', 'crabe', 'maillot', 'bronzage', 'mouette', 'galet', 'palmier'] },
-  '2026-09-22': { word: 'grotte', members: ['stalactite', 'stalagmite', 'galerie', 'écho', 'silex', 'humide', 'rocher', 'spéléologie', 'sombre', 'profondeur', 'caverne', 'roche'] },
+  '2026-09-13': { word: 'montagne', members: ['sommet', 'pic', 'col', 'crête', 'pente', 'versant', 'falaise', 'sentier', 'refuge', 'glacier', 'altitude', 'rocher', 'alpiniste', 'cordée', 'piolet', 'chamois', 'névé', 'bivouac'] },
+  '2026-09-14': { word: 'forêt', members: ['arbre', 'feuille', 'mousse', 'fougère', 'sentier', 'clairière', 'gibier', 'écureuil', 'champignon', 'lichen', 'ronce', 'taillis', 'sous-bois', 'bûcheron', 'chevreuil', 'gland', 'humus', 'sanglier'] },
+  '2026-09-15': { word: 'rivière', members: ['source', 'courant', 'rive', 'berge', 'cascade', 'méandre', 'truite', 'gué', 'pont', 'barrage', 'écluse', 'embouchure', 'affluent', 'lit', 'crue', 'galet', 'saumon', 'remous'] },
+  '2026-09-16': { word: 'mer', members: ['vague', 'marée', 'plage', 'sable', 'voilier', 'phare', 'mouette', 'algue', 'corail', 'écume', 'crique', 'récif', 'océan', 'large', 'houle', 'goéland', 'marin', 'embruns'] },
+  '2026-09-17': { word: 'lac', members: ['rive', 'berge', 'roseau', 'nénuphar', 'barque', 'pêcheur', 'truite', 'carpe', 'ponton', 'profondeur', 'canoë', 'kayak', 'pédalo', 'cygne', 'brochet', 'baignade', 'quai', 'étang'] },
+  '2026-09-18': { word: 'désert', members: ['sable', 'dune', 'oasis', 'caravane', 'chameau', 'mirage', 'soif', 'rocaille', 'scorpion', 'palmier', 'dromadaire', 'aridité', 'nomade', 'erg', 'sécheresse', 'cactus'] },
+  '2026-09-19': { word: 'volcan', members: ['lave', 'cratère', 'éruption', 'magma', 'cendre', 'fumée', 'soufre', 'panache', 'caldeira', 'séisme', 'roche', 'tremblement', 'coulée', 'geyser', 'basalte', 'fumerolle', 'lapilli', 'ponce'] },
+  '2026-09-20': { word: 'île', members: ['plage', 'lagon', 'récif', 'palmier', 'cocotier', 'corail', 'sable', 'rivage', 'pirogue', 'mouette', 'crique', 'atoll', 'naufragé', 'archipel', 'insulaire', 'tropique', 'presqu\'île'] },
+  '2026-09-21': { word: 'plage', members: ['sable', 'vague', 'parasol', 'transat', 'serviette', 'coquillage', 'crabe', 'maillot', 'bronzage', 'mouette', 'galet', 'palmier', 'seau', 'pelle', 'château', 'baignade', 'marée', 'glacière'] },
+  '2026-09-22': { word: 'grotte', members: ['stalactite', 'stalagmite', 'galerie', 'écho', 'silex', 'humide', 'rocher', 'spéléologie', 'sombre', 'profondeur', 'caverne', 'roche', 'chauve-souris', 'concrétion', 'gouffre', 'lampe', 'préhistoire'] },
 
   // === Météo et ciel ===
-  '2026-09-23': { word: 'pluie', members: ['averse', 'goutte', 'flaque', 'parapluie', 'imperméable', 'nuage', 'tempête', 'orage', 'humidité', 'mousson', 'crachin', 'éclair'] },
-  '2026-09-24': { word: 'neige', members: ['flocon', 'givre', 'glace', 'avalanche', 'congère', 'ski', 'luge', 'bonhomme', 'tempête', 'glissade', 'igloo', 'froid'] },
-  '2026-09-25': { word: 'vent', members: ['brise', 'rafale', 'bourrasque', 'tornade', 'tempête', 'ouragan', 'cyclone', 'éolienne', 'voile', 'girouette', 'tourbillon', 'souffle'] },
-  '2026-09-26': { word: 'soleil', members: ['rayon', 'lumière', 'chaleur', 'aube', 'aurore', 'crépuscule', 'coucher', 'éclipse', 'rayonnement', 'midi', 'astre', 'plein'] },
-  '2026-09-27': { word: 'nuage', members: ['cumulus', 'cirrus', 'stratus', 'brouillard', 'brume', 'pluie', 'orage', 'tempête', 'éclair', 'ciel', 'horizon', 'ombre'] },
-  '2026-09-28': { word: 'saison', members: ['printemps', 'été', 'automne', 'hiver', 'cycle', 'récolte', 'floraison', 'feuillage', 'gelée', 'mue', 'migration', 'équinoxe'] },
-  '2026-09-29': { word: 'printemps', members: ['fleur', 'bourgeon', 'pollen', 'oiseau', 'nid', 'jardin', 'verdure', 'éclosion', 'parfum', 'jonquille', 'pousse', 'germination'] },
-  '2026-09-30': { word: 'tempête', members: ['vent', 'pluie', 'éclair', 'tonnerre', 'orage', 'tornade', 'ouragan', 'tourbillon', 'rafale', 'naufrage', 'inondation', 'dégât'] },
+  '2026-09-23': { word: 'pluie', members: ['averse', 'goutte', 'flaque', 'parapluie', 'imperméable', 'nuage', 'tempête', 'orage', 'humidité', 'mousson', 'crachin', 'éclair', 'ondée', 'bruine', 'déluge', 'gouttière', 'ruisseler', 'botte'] },
+  '2026-09-24': { word: 'neige', members: ['flocon', 'givre', 'glace', 'avalanche', 'congère', 'ski', 'luge', 'bonhomme', 'tempête', 'glissade', 'igloo', 'froid', 'poudreuse', 'chasse-neige', 'raquette', 'skieur', 'blancheur'] },
+  '2026-09-25': { word: 'vent', members: ['brise', 'rafale', 'bourrasque', 'tornade', 'tempête', 'ouragan', 'cyclone', 'éolienne', 'voile', 'girouette', 'tourbillon', 'souffle', 'mistral', 'zéphyr', 'alizé', 'moulin', 'cerf-volant', 'tramontane'] },
+  '2026-09-26': { word: 'soleil', members: ['rayon', 'lumière', 'chaleur', 'aube', 'aurore', 'crépuscule', 'coucher', 'éclipse', 'rayonnement', 'midi', 'astre', 'plein', 'zénith', 'bronzage', 'solstice', 'été', 'canicule', 'étoile'] },
+  '2026-09-27': { word: 'nuage', members: ['cumulus', 'cirrus', 'stratus', 'brouillard', 'brume', 'pluie', 'orage', 'tempête', 'éclair', 'ciel', 'horizon', 'ombre', 'nimbus', 'averse', 'grisaille', 'altitude', 'vapeur'] },
+  '2026-09-28': { word: 'saison', members: ['printemps', 'été', 'automne', 'hiver', 'cycle', 'récolte', 'floraison', 'feuillage', 'gelée', 'mue', 'migration', 'équinoxe', 'solstice', 'calendrier', 'vendange', 'moisson', 'climat', 'trimestre'] },
+  '2026-09-29': { word: 'printemps', members: ['fleur', 'bourgeon', 'pollen', 'oiseau', 'nid', 'jardin', 'verdure', 'éclosion', 'parfum', 'jonquille', 'pousse', 'germination', 'primevère', 'hirondelle', 'pâques', 'renouveau', 'abeille', 'mars'] },
+  '2026-09-30': { word: 'tempête', members: ['vent', 'pluie', 'éclair', 'tonnerre', 'orage', 'tornade', 'ouragan', 'tourbillon', 'rafale', 'naufrage', 'inondation', 'dégât', 'grêle', 'naufragé', 'cyclone', 'foudre', 'bourrasque', 'alerte'] },
 
   // ===== Mai 2026 =====
   '2026-10-01': { word: 'été', members: ['soleil', 'chaleur', 'plage', 'vacances', 'glace', 'maillot', 'parasol', 'baignade', 'pastèque', 'canicule', 'sandale', 'lézard'] },
@@ -90,7 +90,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2026-10-21': { word: 'viande', members: ['boeuf', 'porc', 'veau', 'agneau', 'poulet', 'canard', 'dinde', 'lapin', 'jambon', 'saucisse', 'steak', 'rôti'] },
   '2026-10-22': { word: 'sauce', members: ['ketchup', 'mayonnaise', 'moutarde', 'vinaigrette', 'béarnaise', 'béchamel', 'tomate', 'curry', 'beurre', 'crème', 'soja', 'huile'] },
   '2026-10-23': { word: 'repas', members: ['déjeuner', 'dîner', 'goûter', 'apéritif', 'entrée', 'plat', 'dessert', 'pique-nique', 'brunch', 'collation', 'banquet', 'casse-croûte'] },
-  '2026-10-24': { word: 'cuisine', members: ['casserole', 'poêle', 'four', 'frigo', 'évier', 'cuisinier', 'recette', 'tablier', 'spatule', 'plat', 'mijoter', 'rôtir'] },
+  '2026-10-24': { word: 'cuisine', members: ['casserole', 'poêle', 'four', 'frigo', 'évier', 'recette', 'tablier', 'spatule', 'plat', 'mijoter', 'rôtir'] },
   '2026-10-25': { word: 'vin', members: ['rouge', 'blanc', 'rosé', 'champagne', 'bordeaux', 'bourgogne', 'beaujolais', 'cabernet', 'tannin', 'cépage', 'cave', 'cuvée'] },
 
   // === Objets / ustensiles ===
@@ -104,7 +104,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   // ===== Juin 2026 =====
   '2026-11-01': { word: 'chaussure', members: ['basket', 'mocassin', 'escarpin', 'botte', 'sandale', 'espadrille', 'chausson', 'pantoufle', 'derby', 'richelieu', 'mule', 'bottine'] },
   '2026-11-02': { word: 'chapeau', members: ['casquette', 'béret', 'bonnet', 'feutre', 'panama', 'képi', 'toque', 'sombrero', 'turban', 'capuche', 'visière', 'cloche'] },
-  '2026-11-03': { word: 'sac', members: ['cartable', 'sacoche', 'pochette', 'besace', 'valise', 'malle', 'gibecière', 'havresac', 'serviette', 'bourse', 'fourre-tout', 'cabas'] },
+  '2026-11-03': { word: 'sac', members: ['cartable', 'pochette', 'besace', 'valise', 'malle', 'gibecière', 'havresac', 'serviette', 'bourse', 'fourre-tout', 'cabas'] },
 
   // === Maison / pièces ===
   '2026-11-04': { word: 'maison', members: ['toit', 'mur', 'porte', 'fenêtre', 'cheminée', 'jardin', 'garage', 'cave', 'grenier', 'véranda', 'balcon', 'terrasse'] },
@@ -162,7 +162,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
 
   // === Mental ===
   '2026-12-12': { word: 'pensée', members: ['idée', 'réflexion', 'analyse', 'concept', 'théorie', 'opinion', 'jugement', 'raisonnement', 'logique', 'intuition', 'créativité', 'mémoire'] },
-  '2026-12-13': { word: 'rêve', members: ['cauchemar', 'sommeil', 'songe', 'fantasme', 'illusion', 'vision', 'imagination', 'rêverie', 'symbole', 'irréel', 'utopie', 'chimère'] },
+  '2026-12-13': { word: 'rêve', members: ['cauchemar', 'sommeil', 'songe', 'fantasme', 'illusion', 'vision', 'imagination', 'symbole', 'irréel', 'utopie', 'chimère'] },
 
   // === Temps ===
   '2026-12-14': { word: 'temps', members: ['heure', 'minute', 'seconde', 'jour', 'semaine', 'mois', 'année', 'siècle', 'horloge', 'montre', 'calendrier', 'agenda'] },
@@ -176,7 +176,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
 
   // === Économie ===
   '2026-12-18': { word: 'argent', members: ['euro', 'dollar', 'billet', 'pièce', 'monnaie', 'salaire', 'épargne', 'dette', 'crédit', 'intérêt', 'inflation', 'budget'] },
-  '2026-12-19': { word: 'banque', members: ['compte', 'chèque', 'virement', 'carte', 'crédit', 'prêt', 'guichet', 'banquier', 'épargne', 'dépôt', 'retrait', 'agence'] },
+  '2026-12-19': { word: 'banque', members: ['compte', 'chèque', 'virement', 'carte', 'crédit', 'prêt', 'guichet', 'épargne', 'dépôt', 'retrait', 'agence'] },
 
   // === Éducation / livres ===
   '2026-12-20': { word: 'université', members: ['amphi', 'cours', 'professeur', 'étudiant', 'campus', 'bibliothèque', 'thèse', 'mémoire', 'examen', 'diplôme', 'doctorat', 'licence'] },
@@ -197,14 +197,14 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2026-12-31': { word: 'fête', members: ['anniversaire', 'mariage', 'carnaval', 'bal', 'gâteau', 'cadeau', 'invitation', 'décoration', 'champagne', 'feu', 'guirlande', 'ballon'] },
 
   // ===== Août 2026 =====
-  '2027-01-01': { word: 'mariage', members: ['mariée', 'marié', 'robe', 'alliance', 'bague', 'cérémonie', 'réception', 'témoin', 'cortège', 'bouquet', 'voile', 'demoiselle'] },
+  '2027-01-01': { word: 'mariage', members: ['mariée', 'robe', 'alliance', 'bague', 'cérémonie', 'réception', 'témoin', 'cortège', 'bouquet', 'voile', 'demoiselle'] },
   '2027-01-02': { word: 'cadeau', members: ['emballage', 'ruban', 'paquet', 'surprise', 'anniversaire', 'noël', 'bague', 'fleur', 'chocolat', 'parfum', 'jouet', 'carte'] },
   '2027-01-03': { word: 'couleur', members: ['rouge', 'bleu', 'vert', 'jaune', 'noir', 'blanc', 'rose', 'violet', 'orange', 'marron', 'gris', 'brun'] },
   '2027-01-04': { word: 'corps', members: ['tête', 'bras', 'jambe', 'pied', 'main', 'doigt', 'oeil', 'bouche', 'nez', 'oreille', 'dent', 'ongle'] },
   '2027-01-05': { word: 'météo', members: ['soleil', 'pluie', 'neige', 'vent', 'nuage', 'orage', 'brouillard', 'gel', 'foudre', 'tempête', 'verglas', 'rosée'] },
 
   // === Plantes parties ===
-  '2027-01-06': { word: 'feuille', members: ['nervure', 'pétiole', 'limbe', 'caduque', 'persistant', 'verdure', 'chlorophylle', 'arbre', 'palme', 'aiguille', 'frondaison', 'feuillage'] },
+  '2027-01-06': { word: 'feuille', members: ['nervure', 'pétiole', 'limbe', 'caduque', 'persistant', 'verdure', 'chlorophylle', 'arbre', 'palme', 'aiguille', 'frondaison'] },
   '2027-01-07': { word: 'graine', members: ['semis', 'germination', 'plantule', 'cosse', 'noyau', 'pépin', 'amande', 'gousse', 'sachet', 'semence', 'jardinier', 'potager'] },
 
   // === Lieux divers ===
@@ -238,7 +238,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-01-23': { word: 'chien', members: ['labrador', 'caniche', 'berger', 'beagle', 'bouledogue', 'dalmatien', 'colley', 'lévrier', 'épagneul', 'pékinois', 'teckel', 'doberman'] },
 
   // === Plantes ===
-  '2027-01-24': { word: 'rose', members: ['pétale', 'épine', 'tige', 'bouton', 'feuille', 'parfum', 'rouge', 'blanc', 'jaune', 'bouquet', 'roseraie', 'rosier'] },
+  '2027-01-24': { word: 'rose', members: ['pétale', 'épine', 'tige', 'bouton', 'feuille', 'parfum', 'rouge', 'blanc', 'jaune', 'bouquet'] },
 
   // === Bâtiments / Architecture ===
   '2027-01-25': { word: 'monument', members: ['statue', 'arc', 'colonne', 'obélisque', 'fontaine', 'mausolée', 'pyramide', 'temple', 'tour', 'palais', 'cathédrale', 'mémorial'] },
@@ -269,7 +269,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-02-07': { word: 'crabe', members: ['pince', 'carapace', 'patte', 'antenne', 'crustacé', 'plage', 'mer', 'sable', 'rocher', 'langoustine', 'tourteau', 'araignée'] },
 
   // === Plantes spécifiques ===
-  '2027-02-08': { word: 'feuillage', members: ['feuille', 'branche', 'verdure', 'frondaison', 'ramure', 'ombre', 'automne', 'persistant', 'caduc', 'couronne', 'chlorophylle', 'vert'] },
+  '2027-02-08': { word: 'feuillage', members: ['branche', 'verdure', 'frondaison', 'ramure', 'ombre', 'automne', 'persistant', 'caduc', 'couronne', 'chlorophylle', 'vert'] },
 
   // OOPS dup. Replace.
   '2027-02-09': { word: 'cactus', members: ['épine', 'piquant', 'désert', 'aride', 'plante', 'figuier', 'fleur', 'rosette', 'opuntia', 'aloès', 'succulente', 'oasis'] },
@@ -288,7 +288,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   // === Astres ===
   '2027-02-15': { word: 'planète', members: ['mercure', 'vénus', 'terre', 'mars', 'anneau', 'saturne', 'atmosphère', 'rotation', 'pluton', 'orbite', 'soleil', 'satellite'] },
   '2027-02-16': { word: 'étoile', members: ['constellation', 'galaxie', 'soleil', 'astre', 'nuit', 'ciel', 'scintillement', 'pulsar', 'nova', 'lumière', 'éclat', 'firmament'] },
-  '2027-02-17': { word: 'lune', members: ['croissant', 'pleine', 'éclipse', 'marée', 'cratère', 'satellite', 'astre', 'nuit', 'lumière', 'orbite', 'lunaison', 'nouvelle'] },
+  '2027-02-17': { word: 'lune', members: ['croissant', 'pleine', 'éclipse', 'marée', 'cratère', 'satellite', 'astre', 'nuit', 'lumière', 'orbite', 'nouvelle'] },
 
   // === Métiers spécifiques ===
   '2027-02-18': { word: 'agriculteur', members: ['tracteur', 'champ', 'récolte', 'labour', 'semis', 'moisson', 'élevage', 'ferme', 'vendange', 'grange', 'fermier', 'paysan'] },
@@ -310,7 +310,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-02-26': { word: 'gymnastique', members: ['barre', 'cheval', 'poutre', 'sol', 'agrès', 'saut', 'vrille', 'roulade', 'figure', 'collant', 'tapis', 'parallèle'] },
 
   // === Objets divers ===
-  '2027-02-27': { word: 'parfum', members: ['flacon', 'senteur', 'lavande', 'rose', 'jasmin', 'musc', 'vanille', 'eau', 'extrait', 'essence', 'vétiver', 'parfumerie'] },
+  '2027-02-27': { word: 'parfum', members: ['flacon', 'senteur', 'lavande', 'rose', 'jasmin', 'musc', 'vanille', 'eau', 'extrait', 'essence', 'vétiver'] },
   '2027-02-28': { word: 'maquillage', members: ['rouge', 'mascara', 'fard', 'fond', 'crayon', 'pinceau', 'poudre', 'ombre', 'lèvre', 'cils', 'paupière', 'palette'] },
 
   // === Loisirs détails ===
@@ -325,7 +325,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
 
   // === Animaux divers ===
   '2027-03-05': { word: 'cheval', members: ['crinière', 'sabot', 'queue', 'galop', 'trot', 'écurie', 'selle', 'bride', 'étalon', 'jument', 'poulain', 'jockey'] },
-  '2027-03-06': { word: 'chat', members: ['moustache', 'griffe', 'pelote', 'ronron', 'patte', 'queue', 'gouttière', 'siamois', 'persan', 'angora', 'chaton', 'minou'] },
+  '2027-03-06': { word: 'chat', members: ['moustache', 'griffe', 'pelote', 'ronron', 'patte', 'queue', 'gouttière', 'siamois', 'persan', 'angora', 'minou'] },
 
   // === Fruits exotiques ===
   '2027-03-07': { word: 'baie', members: ['fraise', 'framboise', 'myrtille', 'mûre', 'cassis', 'groseille', 'airelle', 'cerise', 'sureau', 'canneberge', 'argousier', 'sorbier'] },
@@ -339,10 +339,10 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-03-11': { word: 'couteau', members: ['lame', 'manche', 'tranche', 'pointe', 'cuisine', 'office', 'éplucheur', 'hachoir', 'aiguisoir', 'fourreau', 'aiguiser', 'trancher'] },
 
   // === Bâtiments ===
-  '2027-03-12': { word: 'tour', members: ['guet', 'tourelle', 'donjon', 'horloge', 'minaret', 'beffroi', 'campanile', 'sommet', 'escalier', 'ascenseur', 'observatoire', 'phare'] },
+  '2027-03-12': { word: 'tour', members: ['guet', 'donjon', 'horloge', 'minaret', 'beffroi', 'campanile', 'sommet', 'escalier', 'ascenseur', 'observatoire', 'phare'] },
 
   // === Concepts abstraits ===
-  '2027-03-13': { word: 'liberté', members: ['indépendance', 'autonomie', 'libération', 'choix', 'droit', 'évasion', 'fugue', 'envol', 'oiseau', 'ciel', 'délivrance', 'émancipation'] },
+  '2027-03-13': { word: 'liberté', members: ['indépendance', 'autonomie', 'choix', 'droit', 'évasion', 'fugue', 'envol', 'oiseau', 'ciel', 'délivrance', 'émancipation'] },
   '2027-03-14': { word: 'paix', members: ['calme', 'sérénité', 'tranquillité', 'harmonie', 'amour', 'colombe', 'olivier', 'silence', 'traité', 'cessez-le-feu', 'accord', 'rameau'] },
 
   // === Plus de fleurs ===
@@ -350,25 +350,25 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
 
   // === Mots de la maison ===
   '2027-03-16': { word: 'lit', members: ['oreiller', 'couette', 'drap', 'matelas', 'sommier', 'baldaquin', 'couverture', 'taie', 'traversin', 'édredon', 'parure', 'plumeau'] },
-  '2027-03-17': { word: 'lampe', members: ['ampoule', 'abat-jour', 'pied', 'interrupteur', 'lumière', 'lustre', 'applique', 'halogène', 'lampadaire', 'veilleuse', 'lanterne', 'bougie'] },
+  '2027-03-17': { word: 'lampe', members: ['ampoule', 'abat-jour', 'pied', 'interrupteur', 'lumière', 'lustre', 'applique', 'halogène', 'veilleuse', 'lanterne', 'bougie'] },
 
   // === Plus de transports ===
   '2027-03-18': { word: 'train', members: ['rail', 'wagon', 'locomotive', 'compartiment', 'voyageur', 'quai', 'tunnel', 'aiguillage', 'sifflet', 'contrôleur', 'banquette', 'fret'] },
   '2027-03-19': { word: 'moto', members: ['guidon', 'roue', 'moteur', 'casque', 'pot', 'selle', 'phare', 'cuir', 'vitesse', 'frein', 'embrayage', 'gants'] },
 
   // === Outils suite ===
-  '2027-03-20': { word: 'scie', members: ['lame', 'denture', 'manche', 'sciage', 'menuisier', 'bois', 'planche', 'sciure', 'égoïne', 'tronçonneuse', 'circulaire', 'sauteuse'] },
+  '2027-03-20': { word: 'scie', members: ['lame', 'denture', 'manche', 'menuisier', 'bois', 'planche', 'égoïne', 'tronçonneuse', 'circulaire', 'sauteuse'] },
 
   // === Plus de pâtisseries ===
   '2027-03-21': { word: 'gâteau', members: ['génoise', 'crème', 'glaçage', 'mousse', 'biscuit', 'fondant', 'opéra', 'praliné', 'fraisier', 'moka', 'roulé', 'quatre-quarts'] },
 
   // === Animaux suite ===
-  '2027-03-22': { word: 'lion', members: ['crinière', 'rugissement', 'savane', 'lionceau', 'lionne', 'griffe', 'crocs', 'prédateur', 'fauve', 'féroce', 'jungle', 'roi'] },
+  '2027-03-22': { word: 'lion', members: ['crinière', 'rugissement', 'savane', 'griffe', 'crocs', 'prédateur', 'fauve', 'féroce', 'jungle', 'roi'] },
   '2027-03-23': { word: 'éléphant', members: ['trompe', 'défense', 'ivoire', 'oreille', 'troupeau', 'savane', 'safari', 'pachyderme', 'mammouth', 'gris', 'massif', 'mémoire'] },
 
   // === Plus de villes/lieux ===
   '2027-03-24': { word: 'rue', members: ['trottoir', 'lampadaire', 'pavé', 'caniveau', 'panneau', 'feu', 'passage', 'avenue', 'boulevard', 'ruelle', 'impasse', 'voie'] },
-  '2027-03-25': { word: 'boulangerie', members: ['pain', 'baguette', 'four', 'comptoir', 'vitrine', 'boulanger', 'caisse', 'fournil', 'croissant', 'tradition', 'levain', 'pâte'] },
+  '2027-03-25': { word: 'boulangerie', members: ['pain', 'baguette', 'four', 'comptoir', 'vitrine', 'caisse', 'fournil', 'croissant', 'tradition', 'levain', 'pâte', 'farine', 'brioche'] },
 
   // OOPS — already used. Replace 10-23 with something else
   // Let me skip and write next.
@@ -380,7 +380,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-03-27': { word: 'bricolage', members: ['marteau', 'tournevis', 'scie', 'perceuse', 'clou', 'vis', 'planche', 'mesurer', 'établi', 'atelier', 'rénovation', 'peinture'] },
 
   // === Plantes carnivores etc ===
-  '2027-03-28': { word: 'palmier', members: ['datte', 'coco', 'tropique', 'plage', 'feuille', 'tronc', 'oasis', 'savane', 'cocotier', 'sagoutier', 'éventail', 'palme'] },
+  '2027-03-28': { word: 'palmier', members: ['datte', 'coco', 'tropique', 'plage', 'feuille', 'tronc', 'oasis', 'savane', 'cocotier', 'sagoutier', 'éventail'] },
 
   // === Carnaval déjà fait ===
 
@@ -415,7 +415,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-04-09': { word: 'fenêtre', members: ['vitre', 'volet', 'rideau', 'persienne', 'lucarne', 'oculus', 'tabatière', 'baie', 'croisée', 'verre', 'encadrement', 'imposte'] },
 
   // === Magie / sciences occultes ===
-  '2027-04-10': { word: 'magie', members: ['baguette', 'sortilège', 'potion', 'enchanteur', 'sorcier', 'magicien', 'tour', 'illusion', 'incantation', 'grimoire', 'charme', 'ensorceler'] },
+  '2027-04-10': { word: 'magie', members: ['baguette', 'sortilège', 'potion', 'enchanteur', 'sorcier', 'tour', 'illusion', 'incantation', 'grimoire', 'charme', 'ensorceler'] },
 
   // === Émotions détails ===
   '2027-04-11': { word: 'joie', members: ['rire', 'bonheur', 'sourire', 'gaieté', 'allégresse', 'jubilation', 'extase', 'enchantement', 'ravissement', 'liesse', 'félicité', 'éclat'] },
@@ -427,7 +427,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
 
   // === Plus d'animaux ===
   '2027-04-15': { word: 'serpent', members: ['cobra', 'vipère', 'python', 'boa', 'couleuvre', 'anaconda', 'écaille', 'venin', 'crochet', 'reptile', 'mue', 'sifflement'] },
-  '2027-04-16': { word: 'ours', members: ['polaire', 'brun', 'grizzli', 'panda', 'griffe', 'hiver', 'hibernation', 'miel', 'forêt', 'plantigrade', 'ourson', 'fourrure'] },
+  '2027-04-16': { word: 'ours', members: ['polaire', 'brun', 'grizzli', 'panda', 'griffe', 'hiver', 'hibernation', 'miel', 'forêt', 'plantigrade', 'fourrure'] },
 
   // === Métiers plus ===
   '2027-04-17': { word: 'boulanger', members: ['four', 'pain', 'baguette', 'pâte', 'levure', 'farine', 'pétrin', 'mie', 'croissant', 'brioche', 'apprenti', 'fournil'] },
@@ -438,7 +438,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-04-20': { word: 'brouillard', members: ['brume', 'gouttelette', 'humide', 'opaque', 'visibilité', 'nuage', 'matinée', 'voile', 'épais', 'givre', 'phare', 'fanal'] },
 
   // === Outils suite ===
-  '2027-04-21': { word: 'aiguille', members: ['couture', 'fil', 'épingle', 'pelote', 'dé', 'tricot', 'broderie', 'piqûre', 'coussinet', 'crochet', 'aiguillée', 'enfilage'] },
+  '2027-04-21': { word: 'aiguille', members: ['couture', 'fil', 'épingle', 'pelote', 'dé', 'tricot', 'broderie', 'piqûre', 'coussinet', 'crochet', 'enfilage'] },
 
   // === Plus d'objets divers ===
   '2027-04-22': { word: 'parapluie', members: ['baleine', 'manche', 'toile', 'pliable', 'pluie', 'protection', 'fermé', 'ouvert', 'imperméable', 'crochet', 'pointe', 'canne'] },
@@ -466,7 +466,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-04-30': { word: 'vague', members: ['déferlement', 'crête', 'creux', 'rouleau', 'écume', 'ressac', 'houle', 'bord', 'marée', 'plage', 'surf', 'tsunami'] },
 
   // === Sport mer ===
-  '2027-05-01': { word: 'plongée', members: ['masque', 'tuba', 'palme', 'bouteille', 'combinaison', 'profondeur', 'corail', 'épave', 'plongeur', 'décompression', 'apnée', 'oxygène'] },
+  '2027-05-01': { word: 'plongée', members: ['masque', 'tuba', 'palme', 'bouteille', 'combinaison', 'profondeur', 'corail', 'épave', 'décompression', 'apnée', 'oxygène'] },
 
   // === Plus émotions ===
   '2027-05-02': { word: 'amour', members: ['coeur', 'romance', 'baiser', 'tendresse', 'passion', 'affection', 'adoration', 'flirt', 'désir', 'idylle', 'jalousie', 'attirance'] },
@@ -492,7 +492,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-05-10': { word: 'rapace', members: ['aigle', 'faucon', 'vautour', 'buse', 'milan', 'hibou', 'chouette', 'épervier', 'condor', 'gypaète', 'harpie', 'proie'] },
 
   // OOPS — duplicate of 2026-05-04. Replace.
-  '2027-05-11': { word: 'aigle', members: ['plume', 'serre', 'bec', 'envergure', 'rapace', 'royale', 'pygargue', 'aire', 'planer', 'vol', 'nid', 'aiglon'] },
+  '2027-05-11': { word: 'aigle', members: ['plume', 'serre', 'bec', 'envergure', 'rapace', 'royale', 'pygargue', 'aire', 'planer', 'vol', 'nid'] },
 
   // === Plus de plantes ===
   '2027-05-12': { word: 'algue', members: ['mer', 'marée', 'vert', 'rouge', 'brun', 'varech', 'laminaire', 'sargasse', 'rocher', 'écume', 'marin', 'plancton'] },
@@ -523,7 +523,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-05-21': { word: 'mode', members: ['défilé', 'collection', 'styliste', 'mannequin', 'podium', 'couture', 'haute', 'tendance', 'griffe', 'créateur', 'magazine', 'chic'] },
 
   // === Plus de météo ===
-  '2027-05-22': { word: 'glace', members: ['gel', 'givre', 'iceberg', 'banquise', 'glacier', 'patinoire', 'glaçon', 'verglas', 'cristallin', 'fonte', 'antarctique', 'arctique'] },
+  '2027-05-22': { word: 'glace', members: ['gel', 'givre', 'iceberg', 'banquise', 'patinoire', 'verglas', 'cristallin', 'fonte', 'antarctique', 'arctique'] },
 
   // === Outils suite ===
   '2027-05-23': { word: 'tournevis', members: ['vis', 'boulonner', 'plat', 'embout', 'manche', 'serrer', 'desserrer', 'rotation', 'pas', 'bricolage', 'établi', 'kit'] },
@@ -532,7 +532,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-05-24': { word: 'collier', members: ['perle', 'diamant', 'fermoir', 'chaîne', 'pendentif', 'sautoir', 'ras', 'cou', 'tour', 'rang', 'maille', 'bijoutier'] },
 
   // === Cuisine ===
-  '2027-05-25': { word: 'four', members: ['cuisson', 'résistance', 'gril', 'porte', 'thermostat', 'lèchefrite', 'tournebroche', 'fourneau', 'rôtir', 'pâtissier', 'pizza', 'plat'] },
+  '2027-05-25': { word: 'four', members: ['cuisson', 'résistance', 'gril', 'porte', 'thermostat', 'lèchefrite', 'tournebroche', 'rôtir', 'pâtissier', 'pizza', 'plat'] },
 
   // === Liquides ===
   '2027-05-26': { word: 'liquide', members: ['eau', 'lait', 'huile', 'jus', 'sirop', 'fluide', 'gouttelette', 'verser', 'transvaser', 'boisson', 'épancher', 'cascade'] },
@@ -550,7 +550,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-05-30': { word: 'pizza', members: ['pâte', 'tomate', 'fromage', 'olive', 'jambon', 'champignon', 'origan', 'four', 'anchois', 'napolitaine', 'reine', 'garniture'] },
 
   // === Insectes suite ===
-  '2027-05-31': { word: 'fourmi', members: ['fourmilière', 'reine', 'ouvrière', 'soldat', 'antenne', 'mandibule', 'colonie', 'piste', 'défilé', 'larve', 'travail', 'cigale'] },
+  '2027-05-31': { word: 'fourmi', members: ['reine', 'ouvrière', 'soldat', 'antenne', 'mandibule', 'colonie', 'piste', 'défilé', 'larve', 'travail', 'cigale'] },
 
   // === Plus de plantes ===
   '2027-06-01': { word: 'plante', members: ['feuille', 'tige', 'racine', 'fleur', 'bourgeon', 'graine', 'pot', 'arroser', 'photosynthèse', 'chlorophylle', 'verdure', 'engrais'] },
@@ -571,7 +571,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-06-06': { word: 'écriture', members: ['stylo', 'plume', 'encre', 'papier', 'lettre', 'alphabet', 'mot', 'phrase', 'texte', 'graphisme', 'calligraphie', 'clavier'] },
 
   // === Sport hiver ===
-  '2027-06-07': { word: 'patinage', members: ['glace', 'piste', 'patinoire', 'figure', 'arabesque', 'pirouette', 'saut', 'glisser', 'collant', 'lame', 'roulette', 'patinette'] },
+  '2027-06-07': { word: 'patinage', members: ['glace', 'piste', 'figure', 'arabesque', 'pirouette', 'saut', 'glisser', 'collant', 'lame', 'roulette'] },
 
   // === Pays détails ===
   '2027-06-08': { word: 'drapeau', members: ['mât', 'étoile', 'bande', 'couleur', 'emblème', 'écusson', 'oriflamme', 'fanion', 'national', 'tricolore', 'étendard', 'bannière'] },
@@ -606,13 +606,13 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-06-17': { word: 'dessin', members: ['crayon', 'gomme', 'feuille', 'esquisse', 'croquis', 'caricature', 'pastel', 'fusain', 'mine', 'plume', 'pochade', 'trait'] },
 
   // === Outils suite ===
-  '2027-06-18': { word: 'pince', members: ['tenailler', 'levier', 'serrer', 'tenir', 'étau', 'pincer', 'tenaille', 'mâchoire', 'crocodile', 'becs', 'épiler', 'plier'] },
+  '2027-06-18': { word: 'pince', members: ['tenailler', 'levier', 'serrer', 'tenir', 'étau', 'tenaille', 'mâchoire', 'crocodile', 'becs', 'épiler', 'plier'] },
 
   // === Plus de boissons ===
   '2027-06-19': { word: 'soda', members: ['gazeux', 'bulle', 'sucré', 'limonade', 'cola', 'orange', 'glaçon', 'tonic', 'canette', 'rafraîchissement', 'pétillant', 'sirop'] },
 
   // === Mer ===
-  '2027-06-20': { word: 'sable', members: ['plage', 'dune', 'grain', 'fin', 'mer', 'château', 'sablière', 'désert', 'crique', 'rivage', 'sablon', 'poudre'] },
+  '2027-06-20': { word: 'sable', members: ['plage', 'dune', 'grain', 'fin', 'mer', 'château', 'désert', 'crique', 'rivage', 'poudre'] },
 
   // === Plus de plantes ===
   '2027-06-21': { word: 'roseau', members: ['marais', 'étang', 'tige', 'plume', 'jonc', 'papyrus', 'rivière', 'rive', 'osier', 'panier', 'vannerie', 'bambou'] },
@@ -627,7 +627,7 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-06-24': { word: 'surprise', members: ['étonnement', 'stupeur', 'ébahissement', 'choc', 'inattendu', 'incroyable', 'mystère', 'révélation', 'soudain', 'rebondissement', 'coup', 'imprévu'] },
 
   // === Plus de nourriture ===
-  '2027-06-25': { word: 'oeuf', members: ['blanc', 'jaune', 'coquille', 'omelette', 'poule', 'poussin', 'pâques', 'cocotte', 'mollet', 'dur', 'plat', 'oeufrier'] },
+  '2027-06-25': { word: 'oeuf', members: ['blanc', 'jaune', 'coquille', 'omelette', 'poule', 'poussin', 'pâques', 'cocotte', 'mollet', 'dur', 'plat'] },
 
   // === Famille ===
   '2027-06-26': { word: 'mère', members: ['maman', 'famille', 'enfant', 'fils', 'fille', 'maternel', 'accoucher', 'nourrir', 'éduquer', 'maternité', 'parent', 'aimer'] },
@@ -643,11 +643,11 @@ export const CURATED_THEMES_L1: Record<string, CuratedTheme> = {
   '2027-06-30': { word: 'lait', members: ['vache', 'pis', 'crémier', 'caillé', 'pasteurisé', 'écrémé', 'entier', 'beurre', 'fromage', 'yaourt', 'biberon', 'maternel'] },
 
   // === Plus de fruits ===
-  '2027-07-01': { word: 'pomme', members: ['golden', 'reinette', 'gala', 'fuji', 'tarte', 'compote', 'jus', 'cidre', 'pommier', 'verger', 'croquer', 'pépin'] },
+  '2027-07-01': { word: 'pomme', members: ['golden', 'reinette', 'gala', 'fuji', 'tarte', 'compote', 'jus', 'cidre', 'verger', 'croquer', 'pépin'] },
 
   // === Plus de météo ===
   '2027-07-02': { word: 'arc-en-ciel', members: ['couleur', 'pluie', 'soleil', 'spectre', 'prisme', 'rouge', 'orange', 'jaune', 'vert', 'bleu', 'indigo', 'violet'] },
 
   // === Final ===
-  '2027-07-03': { word: 'fin', members: ['terme', 'conclusion', 'achèvement', 'arrêt', 'dénouement', 'achever', 'terminer', 'final', 'extrémité', 'épilogue', 'cesser', 'aboutir'] },
+  '2027-07-03': { word: 'fin', members: ['terme', 'conclusion', 'achèvement', 'arrêt', 'dénouement', 'achever', 'terminer', 'extrémité', 'épilogue', 'cesser', 'aboutir', 'bout', 'arrivée', 'clôture'] },
 }

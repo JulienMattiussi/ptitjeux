@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "D",
+      "letter": "B",
       "pos": [
         1,
         3
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
         2,
         2
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "S",
+      "letter": "C",
       "pos": [
         3,
         2
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "DUS",
+    "word": "BIC",
     "cells": [
       [
         1,
@@ -163,5 +163,5 @@
     "left",
     "down"
   ],
-  "canonicalWord": "dus"
+  "canonicalWord": "bic"
 }

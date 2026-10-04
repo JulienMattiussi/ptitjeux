@@ -40,3 +40,13 @@ function buildLists(): Record<number, readonly WordEntry[]> {
 }
 
 export const WORDS_BY_LENGTH: Record<number, readonly WordEntry[]> = buildLists()
+
+/** Mots de la longueur voulue, hors mots déjà publiés (forme affichée). */
+export function freshWords(
+  length: number,
+  usedWords: ReadonlySet<string> = new Set(),
+): readonly WordEntry[] {
+  const words = (WORDS_BY_LENGTH[length] ?? []).filter((w) => !usedWords.has(w.display))
+  if (words.length === 0) throw new Error(`Plus aucun mot neuf de ${length} lettres`)
+  return words
+}

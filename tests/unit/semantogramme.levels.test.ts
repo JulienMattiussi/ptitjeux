@@ -11,6 +11,7 @@ import { CURATED_THEMES_L1 } from '../../generators/curated-themes-l1'
 import { CURATED_THEMES_L2 } from '../../generators/curated-themes-l2'
 import { CURATED_THEMES_L3 } from '../../generators/curated-themes-l3'
 import { CURATED_THEMES_L4 } from '../../generators/curated-themes-l4'
+import { familyPairs, normalizeWord } from '../../generators/semantogramme-rules'
 
 const CURATED_MAPS = {
   1: CURATED_THEMES_L1,
@@ -97,6 +98,36 @@ describe('niveaux Sémantogramme : intégrité', () => {
         expect(unique.size, `${date}/L${i} contient un doublon`).toBe(flat.length)
       }
     }
+  })
+
+  it("les mots d'une journée sont tous différents, et différents des thèmes du jour", () => {
+    const found: string[] = []
+    for (const date of dates) {
+      const day = ([1, 2, 3, 4] as const).map((i) => getLevel(date, i)).filter((l) => !!l)
+      const themes = new Set(day.map((l) => normalizeWord(l.themeWord)))
+      const seen = new Set<string>()
+      for (const level of day) {
+        for (const word of level.words.flat()) {
+          const n = normalizeWord(word)
+          if (seen.has(n) || themes.has(n)) found.push(`${level.id} : ${word}`)
+          seen.add(n)
+        }
+      }
+    }
+    expect(found).toEqual([])
+  })
+
+  it('aucun niveau ne contient deux mots de la même famille', () => {
+    const found: string[] = []
+    for (const date of dates) {
+      for (const i of [1, 2, 3, 4] as const) {
+        const level = getLevel(date, i)
+        if (!level) continue
+        for (const [a, b] of familyPairs(level.words.flat()))
+          found.push(`${level.id} : ${a} / ${b}`)
+      }
+    }
+    expect(found).toEqual([])
   })
 
   it('thèmes curés : tous distincts entre L1, L2, L3, L4 et entre eux', () => {

@@ -134,7 +134,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "N",
+      "letter": "E",
       "pos": [
         5,
         1
@@ -142,7 +142,7 @@
     },
     {
       "id": "b2",
-      "letter": "A",
+      "letter": "M",
       "pos": [
         2,
         2
@@ -150,7 +150,7 @@
     },
     {
       "id": "b3",
-      "letter": "Z",
+      "letter": "I",
       "pos": [
         2,
         3
@@ -158,7 +158,7 @@
     },
     {
       "id": "b4",
-      "letter": "I",
+      "letter": "T",
       "pos": [
         3,
         4
@@ -166,7 +166,7 @@
     }
   ],
   "target": {
-    "word": "NAZI",
+    "word": "EMIT",
     "cells": [
       [
         3,
@@ -205,5 +205,5 @@
     "up",
     "right"
   ],
-  "canonicalWord": "nazi"
+  "canonicalWord": "émit"
 }

@@ -109,7 +109,7 @@
   "blocks": [
     {
       "id": "b1",
-      "letter": "T",
+      "letter": "L",
       "pos": [
         2,
         2
@@ -117,7 +117,7 @@
     },
     {
       "id": "b2",
-      "letter": "U",
+      "letter": "I",
       "pos": [
         3,
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "b3",
-      "letter": "B",
+      "letter": "E",
       "pos": [
         4,
         3
@@ -133,7 +133,7 @@
     }
   ],
   "target": {
-    "word": "TUB",
+    "word": "LIE",
     "cells": [
       [
         3,
@@ -162,5 +162,5 @@
     "right",
     "up"
   ],
-  "canonicalWord": "tub"
+  "canonicalWord": "lie"
 }

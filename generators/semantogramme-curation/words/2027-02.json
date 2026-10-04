@@ -12,7 +12,6 @@
   "GR"
  ],
  "1|mariage": [
-  "mariée",
   "alliance",
   "mairie",
   "noces",
@@ -21,7 +20,8 @@
   "voile",
   "traiteur",
   "faire-part",
-  "époux"
+  "époux",
+  "robe"
  ],
  "1|arme": [
   "épée",
@@ -328,12 +328,12 @@
   "automate",
   "androïde",
   "intelligence",
-  "R2-D2",
   "Wall-E",
   "circuit",
   "programme",
   "usine",
-  "humanoïde"
+  "humanoïde",
+  "métal"
  ],
  "2|masque": [
   "déguisement",
@@ -560,7 +560,6 @@
   "haltère",
   "salle",
   "biceps",
-  "muscle",
   "banc",
   "poids",
   "protéine",
@@ -571,7 +570,8 @@
   "abdominaux",
   "pompes",
   "culturiste",
-  "barre"
+  "barre",
+  "force"
  ],
  "2|immense": [
   "gigantesque",
@@ -721,10 +721,10 @@
   "Laponie",
   "glisse",
   "Père-Noël",
-  "musher",
   "attelage",
   "toundra",
-  "cloches"
+  "cloches",
+  "froid"
  ],
  "2|oreille": [
   "ouïe",
@@ -879,7 +879,6 @@
   "fleur",
   "beignet",
   "verte",
-  "cucurbitacée",
   "été",
   "tian",
   "soupe",
@@ -889,7 +888,8 @@
   "jaune",
   "ronde",
   "Nice",
-  "omelette"
+  "omelette",
+  "plant"
  ],
  "3|rythme": [
   "tempo",
@@ -902,14 +902,14 @@
   "danse",
   "musique",
   "swing",
-  "groove",
   "syncope",
   "tambour",
   "jazz",
   "allure",
   "vitesse",
   "routine",
-  "coeur"
+  "coeur",
+  "marche"
  ],
  "3|offrir": [
   "cadeau",
@@ -1041,7 +1041,6 @@
   "potager",
   "rondelle",
   "masque",
-  "cucurbitacée",
   "été",
   "Grèce",
   "crudités",
@@ -1049,7 +1048,8 @@
   "peau",
   "eau",
   "pickles",
-  "mer"
+  "mer",
+  "tranche"
  ],
  "3|criquet": [
   "sauterelle",
@@ -1161,7 +1161,6 @@
   "sous-bois",
   "triton",
   "Chambord",
-  "François",
   "emblème",
   "légende",
   "venin",
@@ -1169,7 +1168,8 @@
   "queue",
   "poêle",
   "régénération",
-  "lézard"
+  "lézard",
+  "batracien"
  ],
  "3|bûcheron": [
   "hache",
@@ -1200,7 +1200,6 @@
   "basse",
   "orchestre",
   "souffle",
-  "sousaphone",
   "trombone",
   "plongée",
   "masque",
@@ -1208,8 +1207,9 @@
   "apnéiste",
   "respirer",
   "surface",
-  "tubiste",
-  "harmonie"
+  "harmonie",
+  "instrument",
+  "musique"
  ],
  "3|frelon": [
   "guêpe",
@@ -1242,14 +1242,14 @@
   "pollen",
   "sifflement",
   "poumons",
-  "corticoïde",
   "spray",
   "toux",
   "pneumologue",
   "aérosol",
   "oppression",
   "acariens",
-  "étouffer"
+  "étouffer",
+  "sport"
  ],
  "3|élever": [
   "éduquer",
@@ -1410,15 +1410,14 @@
   "Pâques",
   "marée",
   "fête",
-  "Nowruz",
-  "zodiaque"
+  "zodiaque",
+  "vernal"
  ],
  "4|atrium": [
   "romain",
   "maison",
   "patio",
   "impluvium",
-  "domus",
   "Pompéi",
   "cour",
   "colonnes",
@@ -1432,7 +1431,8 @@
   "toit",
   "architecture",
   "villa",
-  "basilique"
+  "basilique",
+  "Antiquité"
  ],
  "4|étrave": [
   "proue",
@@ -1469,12 +1469,12 @@
   "adéquat",
   "utile",
   "pertinent",
-  "timing",
   "circonstance",
   "saisir",
   "chance",
   "providentiel",
-  "idoine"
+  "idoine",
+  "commode"
  ],
  "4|mazurka": [
   "Chopin",
@@ -1494,8 +1494,8 @@
   "paysan",
   "salon",
   "romantique",
-  "Glinka",
-  "danseur"
+  "danseur",
+  "violon"
  ],
  "4|déclamer": [
   "réciter",
@@ -1860,20 +1860,20 @@
   "Arp",
   "Picabia",
   "Zurich",
-  "Voltaire",
   "absurde",
   "provocation",
   "ready-made",
   "urinoir",
   "collage",
-  "anti-art",
   "photomontage",
   "Man-Ray",
   "Ernst",
   "dérision",
   "révolte",
   "surréalisme",
-  "manifeste"
+  "manifeste",
+  "cabaret",
+  "nihilisme"
  ],
  "4|wallaby": [
   "kangourou",
@@ -1891,10 +1891,10 @@
   "bond",
   "Skippy",
   "Queensland",
-  "outback",
   "pattes",
   "roux",
-  "Océanie"
+  "Océanie",
+  "mammifère"
  ],
  "4|fervent": [
   "ardent",
@@ -1928,7 +1928,6 @@
   "prémonition",
   "Bergson",
   "spontané",
-  "feeling",
   "subconscient",
   "évidence",
   "illumination",
@@ -1936,7 +1935,8 @@
   "clairvoyance",
   "nez",
   "intime",
-  "conviction"
+  "conviction",
+  "sentiment"
  ],
  "4|lynx": [
   "félin",

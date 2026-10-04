@@ -116,8 +116,8 @@
   "plancton",
   "marée",
   "Bretagne",
-  "sargasse",
-  "chlorophylle"
+  "chlorophylle",
+  "plage"
  ],
  "1|potager": [
   "légume",
@@ -163,9 +163,9 @@
   "prédateur",
   "blanc",
   "marteau",
-  "baleine",
   "nageoire",
-  "mâchoire"
+  "mâchoire",
+  "mer"
  ],
  "1|dinosaure": [
   "tyrannosaure",
@@ -371,10 +371,10 @@
   "pulpe",
   "écorce",
   "Espagne",
-  "citrus",
-  "Jaffa",
   "sanguine",
-  "pépin"
+  "pépin",
+  "Valence",
+  "Floride"
  ],
  "2|cave": [
   "vin",
@@ -417,15 +417,15 @@
   "swing",
   "caddie",
   "par",
-  "birdie",
   "bunker",
-  "fairway",
   "voiturette",
   "drapeau",
   "balle",
-  "putter",
   "parcours",
-  "handicap"
+  "handicap",
+  "gazon",
+  "fer",
+  "tee"
  ],
  "2|tête": [
   "crâne",
@@ -644,9 +644,9 @@
   "articulation",
   "côte",
   "vertèbre",
-  "ossements",
   "orthopédiste",
-  "osselet"
+  "carcasse",
+  "dentition"
  ],
  "2|grimper": [
   "escalade",
@@ -764,8 +764,8 @@
   "forêt",
   "fée",
   "facétieux",
-  "Leprechaun",
-  "troll"
+  "troll",
+  "petit"
  ],
  "2|enseigner": [
   "professeur",
@@ -811,12 +811,12 @@
   "routine",
   "deuxième",
   "beignets",
-  "élection",
   "agenda",
   "jour",
   "hebdomadaire",
   "matin",
-  "mercredi"
+  "mercredi",
+  "réunion"
  ],
  "2|bûche": [
   "bois",
@@ -936,7 +936,6 @@
   "Afrique",
   "acacia",
   "grande",
-  "Zarafa",
   "langue",
   "Sophie",
   "herbivore",
@@ -947,7 +946,8 @@
   "pelage",
   "brouter",
   "Masaï",
-  "cornes"
+  "cornes",
+  "haute"
  ],
  "3|têtu": [
   "obstiné",
@@ -1078,7 +1078,6 @@
   "Grèce",
   "tapenade",
   "picholine",
-  "kalamata",
   "pressoir",
   "apéritif",
   "Méditerranée",
@@ -1087,7 +1086,8 @@
   "branche",
   "paix",
   "martini",
-  "Nice"
+  "Nice",
+  "Italie"
  ],
  "3|piloter": [
   "avion",
@@ -1220,14 +1220,14 @@
   "prince",
   "venin",
   "amphibien",
-  "accoucheur",
   "grenouille",
   "nuit",
   "pluie",
   "jardin",
   "insectes",
   "laid",
-  "fauteuil"
+  "sauter",
+  "bave"
  ],
  "3|collant": [
   "nylon",
@@ -1275,7 +1275,6 @@
   "streptocoque",
   "fièvre",
   "déglutition",
-  "oreillons",
   "pastille",
   "rougeur",
   "pharynx",
@@ -1287,7 +1286,8 @@
   "voix",
   "médecin",
   "test",
-  "irritation"
+  "irritation",
+  "fébrile"
  ],
  "3|grenade": [
   "fruit",
@@ -1343,11 +1343,11 @@
   "Mozart",
   "concerto",
   "Prokofiev",
-  "canard",
   "doigté",
   "clés",
   "nasillard",
-  "partition"
+  "partition",
+  "son"
  ],
  "3|console": [
   "Zelda",
@@ -1436,22 +1436,21 @@
   "pachyderme",
   "blanc",
   "noir",
-  "Népal",
   "Ionesco",
   "cuirasse",
   "charge",
   "massif",
   "Inde",
-  "Java",
   "Sumatra",
-  "Kruger",
   "herbivore",
   "mammifère",
-  "menacé"
+  "menacé",
+  "peau",
+  "zoo",
+  "réserve"
  ],
  "3|noix": [
   "noyer",
-  "noisette",
   "écale",
   "Grenoble",
   "huile",
@@ -1467,7 +1466,8 @@
   "muscade",
   "coco",
   "Brésil",
-  "macadamia"
+  "macadamia",
+  "vin"
  ],
  "4|renne": [
   "Laponie",
@@ -1629,13 +1629,13 @@
   "chevaleresque",
   "miséricorde",
   "bonté",
-  "Titus",
   "roi",
   "Auguste",
   "Cinna",
   "Corneille",
   "vainqueur",
-  "grâce"
+  "grâce",
+  "seigneur"
  ],
  "4|quadrant": [
   "quart",
@@ -1653,10 +1653,10 @@
   "hauteur",
   "astrolabe",
   "graduation",
-  "Brahe",
   "trigonométrie",
   "géométrie",
-  "plan"
+  "plan",
+  "latitude"
  ],
  "4|ahaner": [
   "effort",
@@ -1739,8 +1739,8 @@
   "tabac",
   "quotidien",
   "gazette",
-  "Morris",
-  "marchand"
+  "marchand",
+  "colonne"
  ],
  "4|choucroute": [
   "Colmar",
@@ -1818,13 +1818,13 @@
   "Gérôme",
   "turquerie",
   "Bonaparte",
-  "Saïd",
   "hammam",
   "désert",
   "caravane",
   "Constantinople",
   "sultan",
-  "Shéhérazade"
+  "Shéhérazade",
+  "peinture"
  ],
  "4|sollicitude": [
   "attention",
@@ -2055,7 +2055,7 @@
   "sommeil",
   "colonie",
   "boule",
-  "Pennsylvanie"
+  "hiver"
  ],
  "4|clématite": [
   "grimpante",
@@ -2072,11 +2072,11 @@
   "sauvage",
   "haie",
   "volubile",
-  "cultivar",
   "mur",
   "arceau",
   "arbuste",
-  "glycine"
+  "glycine",
+  "été"
  ],
  "4|ascétique": [
   "austère",

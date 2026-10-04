@@ -8,8 +8,8 @@
   "pétale",
   "champ",
   "Pays-Bas",
-  "jacinthe",
-  "jardin"
+  "jardin",
+  "vase"
  ],
  "1|viande": [
   "boucher",
@@ -31,9 +31,9 @@
   "chanson",
   "partition",
   "orchestre",
-  "musicien",
   "harmonie",
-  "solfège"
+  "solfège",
+  "guitare"
  ],
  "1|zoo": [
   "cage",
@@ -209,11 +209,11 @@
   "huile",
   "soleil",
   "champ",
-  "colza",
   "pétales",
   "Tintin",
   "été",
-  "tige"
+  "tige",
+  "abeille"
  ],
  "1|chaussure": [
   "lacet",
@@ -328,12 +328,12 @@
   "couplet",
   "parole",
   "mélodie",
-  "chanteur",
   "tube",
   "Brassens",
   "Piaf",
   "Aznavour",
-  "fredonner"
+  "fredonner",
+  "micro"
  ],
  "1|pomme": [
   "verger",
@@ -571,14 +571,13 @@
   "douche",
   "shampoing",
   "vaisselle",
-  "lavoir",
   "propre",
-  "baignoire"
+  "baignoire",
+  "bain"
  ],
  "2|rivage": [
   "côte",
   "plage",
-  "rive",
   "berge",
   "littoral",
   "grève",
@@ -590,7 +589,8 @@
   "galet",
   "mer",
   "accoster",
-  "ponton"
+  "ponton",
+  "horizon"
  ],
  "2|ange": [
   "ailes",
@@ -600,14 +600,14 @@
   "chérubin",
   "Gabriel",
   "Michel",
-  "archange",
   "céleste",
   "séraphin",
   "Lucifer",
   "Raphaël",
   "harpe",
   "Annonciation",
-  "Cupidon"
+  "Cupidon",
+  "archange"
  ],
  "2|estomac": [
   "digestion",
@@ -658,7 +658,7 @@
   "calme",
   "mollasson",
   "apathique",
-  "tortiller"
+  "mou"
  ],
  "2|élection": [
   "vote",
@@ -752,7 +752,6 @@
   "butin",
   "voiture",
   "Rackham",
-  "fort",
   "banque",
   "or",
   "sésame",
@@ -760,7 +759,8 @@
   "clé",
   "serrure",
   "bijoux",
-  "jouets"
+  "jouets",
+  "boîte"
  ],
  "2|sonner": [
   "cloche",
@@ -949,14 +949,14 @@
   "petit",
   "wallaby",
   "bush",
-  "outback",
   "Sydney",
   "aborigène",
   "bondir",
   "herbivore",
   "désert",
   "pattes",
-  "roux"
+  "roux",
+  "koala"
  ],
  "3|clavier": [
   "touche",
@@ -980,7 +980,6 @@
  ],
  "3|tirer": [
   "corde",
-  "tirage",
   "arc",
   "fusil",
   "cible",
@@ -996,7 +995,8 @@
   "carte",
   "photocopie",
   "dégainer",
-  "ficelle"
+  "ficelle",
+  "traîner"
  ],
  "3|gorille": [
   "singe",
@@ -1032,11 +1032,11 @@
   "prognathe",
   "double",
   "rasage",
-  "bavoir",
   "proéminent",
   "lèvre",
   "rasoir",
-  "saillant"
+  "saillant",
+  "joue"
  ],
  "3|raisin": [
   "vigne",
@@ -1247,16 +1247,16 @@
   "café",
   "Piémont",
   "chocolat",
-  "noix",
   "Rocher",
   "pâte",
-  "gianduja",
   "goûter",
   "Ferrero",
   "mousse",
   "couleur",
   "yeux",
-  "fruit"
+  "fruit",
+  "gâteau",
+  "automne"
  ],
  "3|planche": [
   "bois",
@@ -1290,13 +1290,13 @@
   "cuillère",
   "chaussons",
   "Marseille",
-  "échinoderme",
   "Méditerranée",
   "plage",
   "boule",
   "oeufs",
   "récif",
-  "aiguille"
+  "aiguille",
+  "pêcheur"
  ],
  "3|pupille": [
   "oeil",
@@ -1372,11 +1372,11 @@
   "obésité",
   "piqûre",
   "capteur",
-  "endocrinologue",
   "édulcorant",
   "maladie",
   "glucose",
-  "sang"
+  "sang",
+  "glucide"
  ],
  "3|passoire": [
   "égoutter",
@@ -1428,7 +1428,6 @@
   "économe",
   "trésor",
   "cassette",
-  "picsou",
   "sou",
   "magot",
   "chiche",
@@ -1436,15 +1435,14 @@
   "cupide",
   "lésiner",
   "thésauriser",
-  "mesquin"
+  "mesquin",
+  "Picsou"
  ],
  "3|loup": [
   "meute",
   "hurler",
   "lune",
-  "louve",
   "Chaperon",
-  "Fenrir",
   "Romulus",
   "garou",
   "forêt",
@@ -1456,7 +1454,9 @@
   "proie",
   "masque",
   "Ysengrin",
-  "gris"
+  "gris",
+  "berger",
+  "fable"
  ],
  "3|melon": [
   "Cavaillon",
@@ -1475,13 +1475,12 @@
   "sorbet",
   "sucré",
   "orange",
-  "cucurbitacée",
-  "apéritif"
+  "apéritif",
+  "fruit"
  ],
  "3|tablette": [
   "chocolat",
   "écran",
-  "iPad",
   "tactile",
   "carré",
   "étagère",
@@ -1496,7 +1495,8 @@
   "stylet",
   "application",
   "numérique",
-  "Android"
+  "Android",
+  "comprimé"
  ],
  "3|lancer": [
   "jeter",
@@ -1715,7 +1715,6 @@
   "massif",
   "acidité",
   "aluminium",
-  "hydrangea",
   "fleur",
   "Japon",
   "Normandie",
@@ -1725,8 +1724,9 @@
   "bouquet",
   "Honfleur",
   "pétale",
-  "panicule",
-  "arbuste"
+  "arbuste",
+  "floraison",
+  "été"
  ],
  "4|cépage": [
   "vigne",
@@ -1745,14 +1745,13 @@
   "riesling",
   "gamay",
   "muscat",
-  "chenin",
-  "viognier",
-  "grappe"
+  "grappe",
+  "Bordeaux",
+  "Bourgogne"
  ],
  "4|beaupré": [
   "mât",
   "proue",
-  "clipper",
   "foc",
   "bout-dehors",
   "voile",
@@ -1768,7 +1767,8 @@
   "avant",
   "figure",
   "grand-voile",
-  "misaine"
+  "misaine",
+  "étai"
  ],
  "4|tendresse": [
   "affection",
@@ -1925,7 +1925,6 @@
   "don",
   "parrainage",
   "sponsor",
-  "Haydn",
   "Auguste",
   "culture",
   "philanthropie",
@@ -1936,7 +1935,8 @@
   "soutien",
   "protection",
   "générosité",
-  "Rothschild"
+  "Rothschild",
+  "entreprise"
  ],
  "4|scherzo": [
   "Beethoven",
@@ -2023,7 +2023,6 @@
   "querelle"
  ],
  "4|sociologie": [
-  "société",
   "Durkheim",
   "Weber",
   "Bourdieu",
@@ -2039,9 +2038,10 @@
   "sondage",
   "Comte",
   "Mauss",
-  "socialisation",
   "domination",
-  "terrain"
+  "terrain",
+  "milieu",
+  "inégalités"
  ],
  "4|pécari": [
   "sanglier",
@@ -2080,10 +2080,10 @@
   "provenance",
   "label",
   "garantie",
-  "Banksy",
   "contrefaçon",
   "Heidegger",
-  "spontanéité"
+  "spontanéité",
+  "preuve"
  ],
  "4|sibyllin": [
   "obscur",

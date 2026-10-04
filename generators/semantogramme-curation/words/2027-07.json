@@ -45,7 +45,7 @@
   "dentiste",
   "printemps",
   "sorbet",
-  "Tagada"
+  "fruit"
  ],
  "1|famille": [
   "parents",
@@ -201,7 +201,7 @@
   "vitamine",
   "pulpe",
   "bergamote",
-  "kumquat"
+  "jus"
  ],
  "1|outil": [
   "marteau",
@@ -369,7 +369,7 @@
   "hiéroglyphe",
   "manuscrit",
   "encre",
-  "écrivain"
+  "page"
  ],
  "2|épée": [
   "lame",
@@ -510,9 +510,7 @@
  "2|voler": [
   "aile",
   "avion",
-  "vol",
   "planer",
-  "s'envoler",
   "pilote",
   "dérober",
   "chiper",
@@ -520,9 +518,11 @@
   "larcin",
   "Icare",
   "décoller",
-  "survoler",
   "papillon",
-  "envol"
+  "envol",
+  "ciel",
+  "libellule",
+  "hirondelle"
  ],
  "2|givre": [
   "gel",
@@ -576,7 +576,6 @@
   "regret"
  ],
  "2|chanter": [
-  "chanson",
   "mélodie",
   "refrain",
   "chorale",
@@ -590,7 +589,8 @@
   "solfège",
   "concert",
   "sérénade",
-  "vocalise"
+  "vocalise",
+  "choeur"
  ],
  "2|marron": [
   "châtaigne",
@@ -743,12 +743,11 @@
   "déferlante",
   "dérive",
   "Californie",
-  "Brice"
+  "écume"
  ],
  "2|perdre": [
   "égarer",
   "défaite",
-  "perte",
   "oublier",
   "chercher",
   "clés",
@@ -760,7 +759,8 @@
   "sombrer",
   "ruine",
   "jeu",
-  "échouer"
+  "échouer",
+  "retrouver"
  ],
  "2|minute": [
   "seconde",
@@ -802,7 +802,6 @@
   "imaginer",
   "fabriquer",
   "construire",
-  "créateur",
   "artiste",
   "oeuvre",
   "inspiration",
@@ -811,7 +810,8 @@
   "Genèse",
   "dessiner",
   "composer",
-  "bâtir"
+  "bâtir",
+  "fonder"
  ],
  "2|forteresse": [
   "château",
@@ -896,7 +896,7 @@
   "glouton",
   "terrifiant",
   "festin",
-  "Barbe-Bleue"
+  "Poucet"
  ],
  "3|chaise": [
   "siège",
@@ -1059,7 +1059,6 @@
   "bille"
  ],
  "3|toux": [
-  "tousser",
   "rhume",
   "sirop",
   "grippe",
@@ -1076,7 +1075,8 @@
   "virus",
   "nuit",
   "chatouillement",
-  "étouffer"
+  "étouffer",
+  "asthme"
  ],
  "3|moineau": [
   "oiseau",
@@ -1114,9 +1114,9 @@
   "ravin",
   "défilé",
   "torrent",
-  "pigeon",
   "glotte",
-  "décolleté"
+  "décolleté",
+  "gosier"
  ],
  "3|secouer": [
   "agiter",
@@ -1151,12 +1151,12 @@
   "rose",
   "violet",
   "blanc",
-  "presse-ail",
   "persillade",
   "tresse",
   "condiment",
   "cuisine",
-  "bulbe"
+  "bulbe",
+  "odeur"
  ],
  "3|raclette": [
   "fromage",
@@ -1291,12 +1291,12 @@
   "rasage",
   "gifle",
   "potelé",
-  "bajoue",
   "larme",
   "creux",
   "rougeur",
   "teint",
-  "boeuf"
+  "boeuf",
+  "mâchoire"
  ],
  "3|tortue": [
   "carapace",
@@ -1479,7 +1479,6 @@
   "baffe"
  ],
  "3|rouler": [
-  "roue",
   "voiture",
   "vélo",
   "pneu",
@@ -1496,7 +1495,8 @@
   "duper",
   "conduire",
   "circuler",
-  "route"
+  "route",
+  "glisser"
  ],
  "3|voilier": [
   "mât",
@@ -1926,7 +1926,6 @@
   "tétrapode",
   "amphibien",
   "primaire",
-  "placoderme",
   "coelacanthe",
   "récif",
   "ammonite",
@@ -1936,7 +1935,8 @@
   "fossile",
   "nageoire",
   "trilobite",
-  "géologie"
+  "géologie",
+  "ère"
  ],
  "4|astrolabe": [
   "étoile",
@@ -2002,7 +2002,6 @@
   "Perry"
  ],
  "4|doctoral": [
-  "docteur",
   "thèse",
   "université",
   "pédant",
@@ -2020,7 +2019,8 @@
   "recherche",
   "laboratoire",
   "pompeux",
-  "cuistre"
+  "cuistre",
+  "académique"
  ],
  "4|plénitude": [
   "épanouissement",
@@ -2028,7 +2028,6 @@
   "bonheur",
   "sérénité",
   "comblé",
-  "complétude",
   "abondance",
   "harmonie",
   "bien-être",
@@ -2041,7 +2040,8 @@
   "félicité",
   "apogée",
   "zénith",
-  "équilibre"
+  "équilibre",
+  "complet"
  ],
  "4|glaïeul": [
   "fleur",
@@ -2116,7 +2116,6 @@
   "analytique",
   "synthétique",
   "Cézanne",
-  "cube",
   "Apollinaire",
   "Montmartre",
   "Bateau-Lavoir",
@@ -2125,7 +2124,8 @@
   "volume",
   "guitare",
   "Duchamp",
-  "peinture"
+  "peinture",
+  "fragmentation"
  ],
  "4|concerto": [
   "soliste",

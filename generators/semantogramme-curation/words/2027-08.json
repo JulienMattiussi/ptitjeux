@@ -114,10 +114,10 @@
   "peur",
   "larme",
   "sentiment",
-  "émoi",
   "frisson",
   "surprise",
-  "dégoût"
+  "dégoût",
+  "coeur"
  ],
  "1|maladie": [
   "médecin",
@@ -328,12 +328,12 @@
   "biche",
   "faon",
   "brame",
-  "cervidé",
   "chasse",
   "ramure",
   "daim",
   "Bambi",
-  "chevreuil"
+  "chevreuil",
+  "cor"
  ],
  "1|métal": [
   "fer",
@@ -360,8 +360,6 @@
   "merveilleux"
  ],
  "1|course": [
-  "courir",
-  "coureur",
   "sprint",
   "marathon",
   "piste",
@@ -369,10 +367,11 @@
   "arrivée",
   "vitesse",
   "chrono",
-  "médaille"
+  "médaille",
+  "stade",
+  "baskets"
  ],
  "2|bruyant": [
-  "bruit",
   "vacarme",
   "tapage",
   "boucan",
@@ -386,7 +385,8 @@
   "tintouin",
   "voisin",
   "décibel",
-  "sirène"
+  "sirène",
+  "pétard"
  ],
  "2|cuivre": [
   "métal",
@@ -619,12 +619,12 @@
   "soldat",
   "tranchée",
   "Verdun",
-  "1914",
   "chèvre",
   "fourrure",
   "pelage",
   "duvet",
-  "sourcils"
+  "sourcils",
+  "moustache"
  ],
  "2|voyager": [
   "valise",
@@ -729,7 +729,6 @@
   "immense"
  ],
  "2|doux": [
-  "douceur",
   "tendre",
   "moelleux",
   "velours",
@@ -743,7 +742,8 @@
   "duvet",
   "peluche",
   "clément",
-  "tiède"
+  "tiède",
+  "miel"
  ],
  "2|ministre": [
   "gouvernement",
@@ -790,17 +790,16 @@
   "émail",
   "glaise",
   "faïence",
-  "pot",
   "cruche",
   "modeler",
   "Vallauris",
-  "grès"
+  "grès",
+  "pichet"
  ],
  "2|muscle": [
   "biceps",
   "triceps",
   "abdominaux",
-  "musculation",
   "tendon",
   "crampe",
   "courbature",
@@ -811,7 +810,8 @@
   "mollet",
   "cuisse",
   "protéine",
-  "athlète"
+  "athlète",
+  "effort"
  ],
  "2|demain": [
   "avenir",
@@ -970,13 +970,13 @@
   "verdure",
   "enfant",
   "potager",
-  "crucifère",
   "arbre",
   "soupe",
   "purée",
   "sain",
   "minceur",
-  "cantine"
+  "cantine",
+  "fibre"
  ],
  "3|site": [
   "internet",
@@ -1285,7 +1285,6 @@
   "vinaigrette",
   "gratin",
   "soupe",
-  "flamiche",
   "Picardie",
   "pot-au-feu",
   "fondue",
@@ -1296,7 +1295,8 @@
   "attendre",
   "verrue",
   "ciboule",
-  "vichyssoise"
+  "vichyssoise",
+  "jardin"
  ],
  "3|mordre": [
   "morsure",
@@ -1341,7 +1341,6 @@
  "3|thon": [
   "poisson",
   "rouge",
-  "albacore",
   "miettes",
   "conserve",
   "boîte",
@@ -1356,7 +1355,8 @@
   "Méditerranée",
   "Basque",
   "Atlantique",
-  "rillettes"
+  "rillettes",
+  "mer"
  ],
  "3|allergie": [
   "pollen",
@@ -1624,7 +1624,6 @@
   "satiriste"
  ],
  "4|ascèse": [
-  "ascète",
   "privation",
   "jeûne",
   "renoncement",
@@ -1642,7 +1641,8 @@
   "sobriété",
   "spiritualité",
   "stoïque",
-  "yogi"
+  "yogi",
+  "carême"
  ],
  "4|armagnac": [
   "eau-de-vie",
@@ -1763,12 +1763,12 @@
   "héraldique",
   "blason",
   "Léonard",
-  "Anne",
   "belette",
   "neige",
   "pelage",
   "Rennes",
-  "drapeau"
+  "drapeau",
+  "duchesse"
  ],
  "4|crocus": [
   "fleur",
@@ -1999,7 +1999,7 @@
   "isotherme",
   "prévision",
   "aridité",
-  "désertification"
+  "terre"
  ],
  "4|impromptu": [
   "spontané",
@@ -2075,7 +2075,6 @@
   "Newton",
   "Fresnel",
   "Huygens",
-  "opticien",
   "lunettes",
   "fibre",
   "laser",
@@ -2083,7 +2082,8 @@
   "focale",
   "loupe",
   "microscope",
-  "illusion"
+  "illusion",
+  "vision"
  ],
  "4|longitude": [
   "méridien",

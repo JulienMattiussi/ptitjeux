@@ -385,13 +385,13 @@
   "piste",
   "farfouiller",
   "détective",
-  "Charlie",
   "explorer",
   "quête",
   "Google",
   "perdu",
   "furet",
-  "investiguer"
+  "investiguer",
+  "fouiner"
  ],
  "2|tante": [
   "oncle",
@@ -547,12 +547,10 @@
   "abîme"
  ],
  "2|cuit": [
-  "cuisson",
   "four",
   "rôti",
   "grillé",
   "bouilli",
-  "cuisant",
   "saignant",
   "carbonisé",
   "casserole",
@@ -561,7 +559,9 @@
   "frit",
   "dorer",
   "mijoté",
-  "cuisinier"
+  "poêle",
+  "fondant",
+  "croustillant"
  ],
  "2|gentil": [
   "aimable",
@@ -887,7 +887,7 @@
   "tartare",
   "bagel",
   "aneth",
-  "gravlax"
+  "poisson"
  ],
  "3|batterie": [
   "métal",
@@ -897,7 +897,6 @@
   "charleston",
   "Starr",
   "rythme",
-  "tom",
   "rock",
   "jazz",
   "solo",
@@ -907,7 +906,8 @@
   "recharger",
   "voiture",
   "téléphone",
-  "cuisine"
+  "cuisine",
+  "caisse"
  ],
  "3|fauteuil": [
   "accoudoir",
@@ -938,7 +938,6 @@
   "vertical",
   "Samu",
   "secours",
-  "hélistation",
   "Airbus",
   "Vinci",
   "survol",
@@ -947,7 +946,8 @@
   "vrombissement",
   "atterrissage",
   "Sikorsky",
-  "drone"
+  "drone",
+  "vol"
  ],
  "3|artichaut": [
   "coeur",
@@ -956,9 +956,7 @@
   "Bretagne",
   "vinaigrette",
   "poivrade",
-  "camus",
   "fond",
-  "barigoule",
   "chardon",
   "légume",
   "Provence",
@@ -967,7 +965,9 @@
   "mayonnaise",
   "épineux",
   "cardon",
-  "romain"
+  "romain",
+  "bouquet",
+  "cuisson"
  ],
  "3|lama": [
   "Pérou",
@@ -978,16 +978,16 @@
   "Bolivie",
   "Inca",
   "vigogne",
-  "guanaco",
   "Tintin",
   "Haddock",
   "camélidé",
-  "dalaï",
   "Tibet",
   "moine",
   "bouddhiste",
   "troupeau",
-  "altitude"
+  "altitude",
+  "Titicaca",
+  "Amérique"
  ],
  "3|ventilateur": [
   "pales",
@@ -1035,7 +1035,6 @@
   "pieds",
   "aisselles",
   "ventre",
-  "guili",
   "taquiner",
   "rigoler",
   "frissonner",
@@ -1047,7 +1046,8 @@
   "torture",
   "titiller",
   "agacer",
-  "barbe"
+  "barbe",
+  "gigoter"
  ],
  "3|faisan": [
   "oiseau",
@@ -1162,12 +1162,12 @@
   "sandwich",
   "lapin",
   "limace",
-  "pommée",
   "cueillir",
   "jardin",
   "fraîche",
   "laver",
-  "essoreuse"
+  "essoreuse",
+  "printemps"
  ],
  "3|cymbale": [
   "batterie",
@@ -1372,7 +1372,6 @@
  "3|saxophone": [
   "jazz",
   "anche",
-  "Sax",
   "Belgique",
   "cuivre",
   "Parker",
@@ -1387,7 +1386,8 @@
   "blues",
   "funk",
   "Getz",
-  "Dinant"
+  "Dinant",
+  "solo"
  ],
  "3|fondue": [
   "fromage",
@@ -1450,7 +1450,6 @@
   "chamois"
  ],
  "3|agrafeuse": [
-  "Rapid",
   "liasse",
   "bureau",
   "feuilles",
@@ -1467,7 +1466,8 @@
   "tapissier",
   "chirurgie",
   "clic",
-  "stylo"
+  "stylo",
+  "attacher"
  ],
  "4|pusillanime": [
   "lâche",

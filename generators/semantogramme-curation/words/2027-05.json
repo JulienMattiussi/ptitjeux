@@ -264,16 +264,16 @@
   "fête"
  ],
  "1|poésie": [
-  "poème",
   "vers",
   "rime",
-  "poète",
   "strophe",
   "sonnet",
   "Hugo",
   "Rimbaud",
   "alexandrin",
-  "recueil"
+  "recueil",
+  "Baudelaire",
+  "Prévert"
  ],
  "1|science": [
   "laboratoire",
@@ -424,7 +424,6 @@
  ],
  "2|acheter": [
   "magasin",
-  "achat",
   "prix",
   "caisse",
   "panier",
@@ -437,7 +436,8 @@
   "payer",
   "commande",
   "shopping",
-  "facture"
+  "facture",
+  "emplette"
  ],
  "2|aube": [
   "lever",
@@ -600,14 +600,14 @@
   "étoile",
   "lune",
   "veillée",
-  "bonsoir",
   "télévision",
   "lampe",
   "fatigue",
   "rentrée",
   "pénombre",
   "vêpres",
-  "angélus"
+  "angélus",
+  "dodo"
  ],
  "2|vert": [
   "herbe",
@@ -651,14 +651,14 @@
   "noyau",
   "chevelure",
   "Rosetta",
-  "Tchouri",
   "ciel",
   "passage",
   "présage",
   "astronome",
   "Hale-Bopp",
   "météore",
-  "bolide"
+  "bolide",
+  "poussière"
  ],
  "2|loi": [
   "code",
@@ -1096,7 +1096,7 @@
   "orgeat",
   "pistache",
   "Pithiviers",
-  "Tuile"
+  "tuile"
  ],
  "3|traîner": [
   "tirer",
@@ -1147,8 +1147,6 @@
   "farcie",
   "grillée",
   "Méditerranée",
-  "solanacée",
-  "parmigiana",
   "potager",
   "été",
   "brillante",
@@ -1156,7 +1154,9 @@
   "tian",
   "gratin",
   "poivron",
-  "courgette"
+  "courgette",
+  "noire",
+  "purée"
  ],
  "3|macaron": [
   "Ladurée",
@@ -1193,10 +1193,10 @@
   "hiver",
   "chute",
   "embrayage",
-  "Plushenko",
   "Joubert",
   "triple",
-  "axel"
+  "axel",
+  "danse"
  ],
  "3|bavard": [
   "pipelette",
@@ -1306,17 +1306,17 @@
   "scanner",
   "bourrage",
   "feuille",
-  "toner",
   "bureau",
   "couleur",
   "photocopieuse",
   "tirage",
-  "impression",
   "pilote",
   "wifi",
   "Epson",
   "HP",
-  "Canon"
+  "Canon",
+  "copie",
+  "ordinateur"
  ],
  "3|homard": [
   "crustacé",
@@ -1362,7 +1362,6 @@
   "cuisine",
   "ustensile",
   "silicone",
-  "maryse",
   "racler",
   "étaler",
   "crêpe",
@@ -1376,7 +1375,8 @@
   "fouet",
   "cuillère",
   "grattoir",
-  "truelle"
+  "truelle",
+  "gâteau"
  ],
  "3|ambulance": [
   "sirène",
@@ -1481,7 +1481,6 @@
  "3|mille-pattes": [
   "insecte",
   "pattes",
-  "myriapode",
   "scolopendre",
   "cloporte",
   "ramper",
@@ -1496,7 +1495,8 @@
   "grouiller",
   "piqûre",
   "humus",
-  "jardin"
+  "jardin",
+  "bestiole"
  ],
  "3|manette": [
   "console",
@@ -1516,7 +1516,7 @@
   "Wii",
   "Sega",
   "partie",
-  "SNES"
+  "Mario"
  ],
  "4|pétunia": [
   "fleur",
@@ -1527,7 +1527,6 @@
   "rose",
   "été",
   "annuel",
-  "solanacée",
   "suspension",
   "géranium",
   "collant",
@@ -1537,7 +1536,8 @@
   "bordure",
   "terrasse",
   "arrosage",
-  "Argentine"
+  "Argentine",
+  "pétale"
  ],
  "4|mélancolie": [
   "tristesse",
@@ -1657,13 +1657,13 @@
   "fourmis",
   "édenté",
   "pangolin",
-  "Mundial",
   "cuirasse",
   "museau",
   "Patagonie",
   "griffes",
   "Argentine",
-  "Paraguay"
+  "Paraguay",
+  "Amérique"
  ],
  "4|atermoyer": [
   "tergiverser",
@@ -1739,15 +1739,15 @@
   "vendredi",
   "Marseille",
   "émulsion",
-  "bourride",
   "rouille",
   "carottes",
   "escargots",
-  "aillade",
   "olive",
   "pistou",
   "Toulon",
-  "sauce"
+  "sauce",
+  "jaune",
+  "oeuf"
  ],
  "4|narval": [
   "défense",
@@ -1796,7 +1796,6 @@
   "Pangée",
   "paléozoïque",
   "trias",
-  "dimétrodon",
   "reptile",
   "cataclysme",
   "désert",
@@ -1810,7 +1809,8 @@
   "primaire",
   "fougère",
   "Ourals",
-  "amphibien"
+  "amphibien",
+  "crise"
  ],
  "4|icône": [
   "orthodoxe",
@@ -1845,14 +1845,14 @@
   "bleu",
   "Himalaya",
   "sommeil",
-  "papaver",
   "héroïne",
   "codéine",
   "Orient",
   "laiteux",
   "Hypnos",
   "pétales",
-  "capsule"
+  "capsule",
+  "drogue"
  ],
  "4|positivisme": [
   "Comte",
@@ -1898,7 +1898,6 @@
  ],
  "4|fatalité": [
   "destin",
-  "fatum",
   "sort",
   "inéluctable",
   "tragédie",
@@ -1915,7 +1914,8 @@
   "nécessité",
   "Racine",
   "Cassandre",
-  "Moires"
+  "Moires",
+  "inexorable"
  ],
  "4|carcajou": [
   "glouton",
@@ -1963,11 +1963,9 @@
   "entendre",
   "écouter",
   "oreille",
-  "ouïe",
   "son",
   "archaïque",
   "oyez",
-  "ouï-dire",
   "audience",
   "percevoir",
   "rumeur",
@@ -1978,7 +1976,9 @@
   "nouvelle",
   "écho",
   "attentif",
-  "auditif"
+  "auditif",
+  "tympan",
+  "acoustique"
  ],
  "4|fresque": [
   "mur",

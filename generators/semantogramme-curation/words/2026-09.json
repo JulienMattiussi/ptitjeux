@@ -81,7 +81,7 @@
   "esquisse",
   "papier",
   "pointe",
-  "taille"
+  "couleur"
  ],
  "1|poulet": [
   "rôti",
@@ -124,12 +124,12 @@
   "niche",
   "laisse",
   "os",
-  "chiot",
   "toutou",
   "collier",
   "croquette",
   "caniche",
-  "Médor"
+  "Médor",
+  "museau"
  ],
  "1|légende": [
   "mythe",
@@ -423,9 +423,9 @@
   "mignon",
   "aimant",
   "bienveillant",
-  "filet",
   "juteux",
-  "cajoler"
+  "cajoler",
+  "câlin"
  ],
  "2|mercredi": [
   "jour",
@@ -742,13 +742,13 @@
   "sagaie",
   "guerrier",
   "romain",
-  "pilum",
   "trajectoire",
   "distance",
   "médaille",
   "harpon",
   "propulsion",
-  "lancer"
+  "lancer",
+  "stade"
  ],
  "2|vote": [
   "urne",
@@ -847,10 +847,10 @@
   "dispute",
   "fratrie",
   "confidente",
-  "Brontë",
   "Cendrillon",
   "Elsa",
-  "chamailler"
+  "chamailler",
+  "frère"
  ],
  "2|berceau": [
   "nourrisson",
@@ -920,14 +920,14 @@
   "bassine",
   "semis",
   "terreau",
-  "semoir",
   "pelouse",
   "géranium",
   "rempoter",
   "motte",
   "aspersion",
-  "binette",
-  "sécheresse"
+  "sécheresse",
+  "eau",
+  "potager"
  ],
  "3|scorpion": [
   "dard",
@@ -940,14 +940,14 @@
   "Mexique",
   "caillou",
   "poison",
-  "tarentule",
   "désert",
   "exosquelette",
   "novembre",
   "mortel",
   "aride",
   "pince",
-  "fluorescent"
+  "fluorescent",
+  "danger"
  ],
  "3|lentille": [
   "légumineuse",
@@ -956,7 +956,6 @@
   "contact",
   "lunette",
   "convergente",
-  "dahl",
   "Inde",
   "corail",
   "protéine",
@@ -966,12 +965,12 @@
   "cuisson",
   "lardon",
   "potage",
-  "Berry",
-  "réfraction"
+  "réfraction",
+  "grain",
+  "optique"
  ],
  "3|orteil": [
   "phalange",
-  "griffe",
   "mycose",
   "crampe",
   "ballerine",
@@ -987,7 +986,8 @@
   "attelle",
   "rhumatisme",
   "podologie",
-  "cinquième"
+  "pied",
+  "pouce"
  ],
  "3|distrait": [
   "étourdi",
@@ -1062,12 +1062,12 @@
   "blues",
   "saloon",
   "vagabond",
-  "mélodica",
   "Springsteen",
   "rails",
   "souffle",
   "plainte",
-  "lamento"
+  "lamento",
+  "bouche"
  ],
  "3|marteau": [
   "clou",
@@ -1118,16 +1118,16 @@
   "bigarreau",
   "guigne",
   "Hanami",
-  "burlat",
-  "merise",
-  "marasquin",
-  "sakura",
   "confit",
   "clafoutis",
   "juin",
   "queue",
   "pédoncule",
-  "verger"
+  "verger",
+  "printemps",
+  "Japon",
+  "fruit",
+  "été"
  ],
  "3|rhume": [
   "kleenex",
@@ -1198,7 +1198,6 @@
   "labyrinthe",
   "enfilade",
   "coursive",
-  "dégagement",
   "Shining",
   "internat",
   "issue",
@@ -1207,7 +1206,8 @@
   "migratoire",
   "aérien",
   "transit",
-  "arcade"
+  "porte",
+  "long"
  ],
  "3|écran": [
   "portable",
@@ -1345,9 +1345,9 @@
   "morsure",
   "pendentif",
   "médaillon",
-  "lavallière",
   "minerve",
-  "trachée"
+  "trachée",
+  "girafe"
  ],
  "3|betterave": [
   "bortsch",
@@ -1366,8 +1366,8 @@
   "arrachage",
   "Beauce",
   "Artois",
-  "ukrainien",
-  "rouge"
+  "rouge",
+  "salade"
  ],
  "3|blaireau": [
   "rasage",
@@ -1423,11 +1423,11 @@
   "rangement",
   "secrétaire",
   "vaisselier",
-  "lingère",
   "battant",
   "moulure",
   "ébéniste",
-  "marqueterie"
+  "marqueterie",
+  "chambre"
  ],
  "3|récompenser": [
   "prix",
@@ -1572,7 +1572,7 @@
   "Onfray",
   "hédonisme",
   "Athènes",
-  "Samos"
+  "bonheur"
  ],
  "4|tapir": [
   "Amérique",
@@ -1592,8 +1592,8 @@
   "terrestre",
   "trapu",
   "menacé",
-  "Belize",
-  "Bornéo"
+  "Bornéo",
+  "forêt"
  ],
  "4|génétique": [
   "ADN",
@@ -1614,7 +1614,7 @@
   "allèle",
   "hélice",
   "phénotype",
-  "caryotype"
+  "héritage"
  ],
  "4|béatitude": [
   "extase",
@@ -1708,7 +1708,6 @@
   "déclin",
   "pénombre",
   "soirée",
-  "nuitée",
   "rougeoyant",
   "dîner",
   "veillée",
@@ -1718,8 +1717,9 @@
   "ponant",
   "occident",
   "clair-obscur",
-  "hespérides",
-  "alanguir"
+  "alanguir",
+  "crépuscule",
+  "prière"
  ],
  "4|clepsydre": [
   "sablier",
@@ -1765,7 +1765,6 @@
  ],
  "4|quaternaire": [
   "glaciation",
-  "sapiens",
   "Néandertal",
   "Cro-Magnon",
   "ère",
@@ -1777,12 +1776,13 @@
   "silex",
   "cueilleur",
   "période",
-  "quatrième",
   "secteur",
   "Chauvet",
   "Altamira",
   "loess",
-  "mammouth"
+  "mammouth",
+  "homme",
+  "bison"
  ],
  "4|orque": [
   "cétacé",
@@ -1794,7 +1794,6 @@
   "aileron",
   "dorsale",
   "Antarctique",
-  "delphinidé",
   "clan",
   "sonar",
   "écholocation",
@@ -1803,7 +1802,8 @@
   "captivité",
   "Antibes",
   "Pacifique",
-  "tueuse"
+  "tueuse",
+  "mer"
  ],
  "4|admonester": [
   "réprimander",
@@ -1883,11 +1883,11 @@
   "Stromboli",
   "soufre",
   "fumerolle",
-  "pyroclastique",
   "caldeira",
   "tectonique",
   "Hawaï",
-  "basalte"
+  "basalte",
+  "lave"
  ],
  "4|sémillant": [
   "vif",
@@ -1965,13 +1965,13 @@
   "jardin",
   "ecclésiastique",
   "clocher",
-  "charme",
   "messe",
   "bénitier",
   "soutane",
   "confession",
   "ouailles",
-  "Leroux"
+  "église",
+  "village"
  ],
  "4|utopie": [
   "More",
@@ -1991,11 +1991,10 @@
   "rêveur",
   "paradis",
   "chimère",
-  "Owen",
-  "Shangri-La"
+  "Shangri-La",
+  "société"
  ],
  "4|axolotl": [
-  "néoténie",
   "branchies",
   "régénération",
   "amphibien",
@@ -2013,7 +2012,8 @@
   "repousse",
   "laboratoire",
   "canal",
-  "mexicain"
+  "eau",
+  "sourire"
  ],
  "4|naturalisme": [
   "Maupassant",
@@ -2032,9 +2032,9 @@
   "crudité",
   "expérimental",
   "Taine",
-  "Rougon",
   "Mirbeau",
-  "roman"
+  "roman",
+  "réalisme"
  ],
  "4|bastingage": [
   "rambarde",
@@ -2071,12 +2071,12 @@
   "Gusteau",
   "basilic",
   "bohémienne",
-  "caponata",
   "piperade",
   "tian",
-  "Linguini",
   "mitonner",
-  "estival"
+  "estival",
+  "aubergine",
+  "tomate"
  ],
  "4|flagorner": [
   "flatter",

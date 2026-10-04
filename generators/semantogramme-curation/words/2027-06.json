@@ -146,14 +146,14 @@
  "1|lecture": [
   "livre",
   "lire",
-  "lecteur",
   "page",
   "bibliothèque",
   "roman",
   "lunettes",
   "marque-page",
   "chapitre",
-  "liseuse"
+  "liseuse",
+  "conte"
  ],
  "1|cuisinier": [
   "chef",
@@ -777,12 +777,12 @@
   "Donald",
   "frère",
   "parrain",
-  "Vania",
-  "Tom",
   "héritage",
   "Amérique",
   "tonton",
-  "cousin"
+  "cousin",
+  "fête",
+  "mariage"
  ],
  "2|rêver": [
   "songe",
@@ -796,10 +796,10 @@
   "désir",
   "utopie",
   "lune",
-  "rêvasser",
   "chimère",
   "illusion",
-  "oreiller"
+  "oreiller",
+  "étoile"
  ],
  "2|cloche": [
   "sonner",
@@ -878,7 +878,6 @@
   "jouet",
   "marimba",
   "vibraphone",
-  "glockenspiel",
   "Saint-Saëns",
   "squelette",
   "orchestre",
@@ -887,10 +886,10 @@
   "gamme",
   "Afrique",
   "balafon",
-  "clavier"
+  "clavier",
+  "baguette"
  ],
  "3|vis": [
-  "tournevis",
   "écrou",
   "boulon",
   "cheville",
@@ -907,7 +906,8 @@
   "fixation",
   "spirale",
   "quincaillerie",
-  "bricolage"
+  "bricolage",
+  "tournevis"
  ],
  "3|pétrir": [
   "pâte",
@@ -930,7 +930,6 @@
   "levain"
  ],
  "3|bus": [
-  "autobus",
   "arrêt",
   "ticket",
   "chauffeur",
@@ -944,10 +943,11 @@
   "RATP",
   "trajet",
   "horaire",
-  "abribus",
   "bondé",
   "navette",
-  "minibus"
+  "impériale",
+  "rouge",
+  "station"
  ],
  "3|piquant": [
   "épine",
@@ -1003,11 +1003,11 @@
   "Marmande",
   "Provence",
   "farcie",
-  "solanacée",
   "fruit",
   "été",
   "mozzarella",
-  "basilic"
+  "basilic",
+  "jus"
  ],
  "3|gourde": [
   "eau",
@@ -1054,7 +1054,6 @@
   "désert",
   "oasis",
   "sucrée",
-  "Medjool",
   "Tunisie",
   "Algérie",
   "ramadan",
@@ -1067,7 +1066,8 @@
   "rouleaux",
   "chameau",
   "caravane",
-  "Arabie"
+  "Arabie",
+  "fruit"
  ],
  "3|renard": [
   "roux",
@@ -1082,12 +1082,12 @@
   "apprivoiser",
   "fourrure",
   "argenté",
-  "vulpin",
   "Zorro",
   "rouquin",
   "Ysengrin",
   "poulailler",
-  "finaud"
+  "finaud",
+  "rouge"
  ],
  "3|naïf": [
   "innocent",
@@ -1132,7 +1132,6 @@
  "3|banjo": [
   "cordes",
   "country",
-  "bluegrass",
   "Amérique",
   "Délivrance",
   "duel",
@@ -1147,7 +1146,8 @@
   "arpège",
   "Appalaches",
   "Sud",
-  "esclaves"
+  "esclaves",
+  "guitare"
  ],
  "3|sauterelle": [
   "insecte",
@@ -1165,9 +1165,9 @@
   "plaie",
   "Égypte",
   "invasion",
-  "orthoptère",
   "bond",
-  "champ"
+  "champ",
+  "verdure"
  ],
  "3|véranda": [
   "verrière",
@@ -1259,7 +1259,6 @@
   "fraîche",
   "tranche",
   "plage",
-  "cucurbitacée",
   "eau",
   "Espagne",
   "pique-nique",
@@ -1267,7 +1266,8 @@
   "dessert",
   "énorme",
   "lourde",
-  "été"
+  "été",
+  "fruit"
  ],
  "3|tondeuse": [
   "pelouse",
@@ -1280,14 +1280,14 @@
   "bruit",
   "essence",
   "électrique",
-  "autoportée",
   "bac",
   "broyage",
   "jardinier",
-  "tonte",
   "cheveux",
   "barbe",
-  "coiffeur"
+  "coiffeur",
+  "coupe",
+  "tracteur"
  ],
  "3|pélican": [
   "oiseau",
@@ -1548,10 +1548,10 @@
   "pontage",
   "ECG",
   "Holter",
-  "angioplastie",
   "cholestérol",
   "défibrillateur",
-  "aorte"
+  "aorte",
+  "battement"
  ],
  "4|goguenard": [
   "moqueur",
@@ -1565,14 +1565,14 @@
   "taquin",
   "facétieux",
   "gouailleur",
-  "gausseur",
   "blagueur",
   "espiègle",
   "badin",
   "ricaneur",
   "frondeur",
   "plaisantin",
-  "titi"
+  "titi",
+  "sourire"
  ],
  "4|abside": [
   "église",
@@ -1583,7 +1583,6 @@
   "gothique",
   "déambulatoire",
   "voûte",
-  "cul-de-four",
   "autel",
   "basilique",
   "nef",
@@ -1593,7 +1592,8 @@
   "hémicycle",
   "mosaïque",
   "orientée",
-  "vitraux"
+  "vitraux",
+  "architecture"
  ],
  "4|albatros": [
   "oiseau",
@@ -1702,7 +1702,6 @@
  ],
  "4|béqueter": [
   "picorer",
-  "becqueter",
   "bec",
   "oiseau",
   "poule",
@@ -1719,7 +1718,8 @@
   "poussin",
   "basse-cour",
   "pivert",
-  "volaille"
+  "volaille",
+  "croquer"
  ],
  "4|okapi": [
   "girafe",
@@ -1734,13 +1734,13 @@
   "timide",
   "Afrique",
   "jungle",
-  "ossicônes",
   "brun",
   "pattes",
   "discret",
   "découverte",
   "menacé",
-  "zoo"
+  "zoo",
+  "sabot"
  ],
  "4|sablier": [
   "temps",
@@ -1857,7 +1857,6 @@
   "Gand",
   "Lille",
   "Arras",
-  "Douai",
   "UNESCO",
   "commune",
   "guet",
@@ -1866,7 +1865,8 @@
   "médiéval",
   "Calais",
   "Amiens",
-  "Béthune"
+  "horloge",
+  "sonneur"
  ],
  "4|pastis": [
   "anis",
@@ -1886,8 +1886,8 @@
   "perroquet",
   "mauresque",
   "Midi",
-  "pastaga",
-  "cigales"
+  "cigales",
+  "Pagnol"
  ],
  "4|blason": [
   "armoiries",
@@ -1941,7 +1941,6 @@
   "Sud",
   "Louisiane",
   "Mississippi",
-  "tulipier",
   "pétales",
   "camélia",
   "Japon",
@@ -1950,7 +1949,8 @@
   "Floride",
   "persistant",
   "primitif",
-  "Chine"
+  "Chine",
+  "arbuste"
  ],
  "4|bisque": [
   "homard",

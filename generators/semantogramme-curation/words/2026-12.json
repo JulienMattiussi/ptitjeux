@@ -16,12 +16,12 @@
   "lame",
   "bûcheron",
   "tronçonneuse",
-  "rabot",
   "bois",
   "planche",
   "égoïne",
   "couper",
-  "menuisier"
+  "menuisier",
+  "arbre"
  ],
  "1|astronaute": [
   "fusée",
@@ -261,7 +261,7 @@
   "pistache",
   "fraise",
   "esquimau",
-  "gelato"
+  "patinoire"
  ],
  "1|gare": [
   "train",
@@ -515,14 +515,14 @@
   "solide",
   "garanti",
   "évident",
-  "assuré",
   "coffre",
   "inviolable",
   "stable",
   "convaincu",
   "infaillible",
-  "rassurant",
-  "protégé"
+  "protégé",
+  "certitude",
+  "assurance"
  ],
  "2|éclair": [
   "foudre",
@@ -612,7 +612,6 @@
  "2|basket": [
   "panier",
   "ballon",
-  "dunk",
   "NBA",
   "Jordan",
   "dribble",
@@ -624,7 +623,8 @@
   "Parker",
   "Converse",
   "tennis",
-  "chaussure"
+  "chaussure",
+  "smash"
  ],
  "2|savant": [
   "scientifique",
@@ -706,10 +706,10 @@
   "gardien",
   "Grèce",
   "créature",
-  "Hagrid",
-  "Poudlard",
   "Gryffondor",
-  "légende"
+  "légende",
+  "monstre",
+  "fabuleux"
  ],
  "2|mince": [
   "fin",
@@ -845,7 +845,7 @@
   "tour",
   "poterie",
   "Play-Doh",
-  "Wallace"
+  "créer"
  ],
  "2|jeudi": [
   "Jupiter",
@@ -868,7 +868,6 @@
   "tartare",
   "sushi",
   "carpaccio",
-  "ceviche",
   "saignant",
   "légume",
   "steak",
@@ -879,7 +878,8 @@
   "millésime",
   "terroir",
   "Bourgogne",
-  "cuisson"
+  "cuisson",
+  "cuit"
  ],
  "2|dessiner": [
   "crayon",
@@ -1081,7 +1081,6 @@
  "3|semer": [
   "graine",
   "sillon",
-  "semis",
   "épis",
   "fermier",
   "labour",
@@ -1096,7 +1095,8 @@
   "sachet",
   "Millet",
   "récolte",
-  "cultiver"
+  "cultiver",
+  "jardinier"
  ],
  "3|haricot": [
   "vert",
@@ -1112,11 +1112,11 @@
   "rame",
   "gousse",
   "légumineuse",
-  "mogette",
   "lingot",
   "princesse",
   "écosser",
-  "grain"
+  "grain",
+  "plat"
  ],
  "3|cadenas": [
   "clé",
@@ -1202,21 +1202,21 @@
   "Marley",
   "Jamaïque",
   "rasta",
-  "dreadlocks",
   "Kingston",
   "ska",
-  "dub",
   "contretemps",
   "Tosh",
   "Wailers",
   "Jah",
   "Babylone",
-  "ganja",
   "Blondy",
   "joint",
   "Zion",
   "Gainsbourg",
-  "Éthiopie"
+  "Éthiopie",
+  "dreadlocks",
+  "Cliff",
+  "rythme"
  ],
  "3|limace": [
   "bave",
@@ -1286,17 +1286,17 @@
   "jaune",
   "Inde",
   "Antilles",
-  "lassi",
   "chutney",
   "exotique",
   "juteux",
   "pulpe",
-  "smoothie",
   "Brésil",
   "Thaïlande",
   "Mali",
   "verger",
-  "sucré"
+  "sucré",
+  "dessert",
+  "papaye"
  ],
  "3|bâiller": [
   "fatigue",
@@ -1463,12 +1463,10 @@
   "torrent",
   "pêche",
   "arc-en-ciel",
-  "fario",
   "saumonée",
   "meunière",
   "amandes",
   "Schubert",
-  "salmonidé",
   "pisciculture",
   "mouche",
   "leurre",
@@ -1476,7 +1474,9 @@
   "bourriche",
   "montagne",
   "fumée",
-  "écailles"
+  "écailles",
+  "nasse",
+  "friture"
  ],
  "3|asperge": [
   "verte",
@@ -1882,11 +1882,9 @@
   "migration",
   "troupeau",
   "Serengeti",
-  "Mara",
   "crocodile",
   "rivière",
   "barbe",
-  "Botswana",
   "bovidé",
   "Kenya",
   "Tanzanie",
@@ -1894,13 +1892,14 @@
   "plaine",
   "galop",
   "bousculade",
-  "harde"
+  "harde",
+  "herbivore",
+  "hyène"
  ],
  "4|cassoulet": [
   "Castelnaudary",
   "Toulouse",
   "Carcassonne",
-  "tarbais",
   "saucisse",
   "confit",
   "canard",
@@ -1915,7 +1914,8 @@
   "plat",
   "hiver",
   "Languedoc",
-  "cocotte"
+  "cocotte",
+  "haricots"
  ],
  "4|virologie": [
   "influenza",
@@ -2166,7 +2166,7 @@
   "pirate",
   "sécurité",
   "agent",
-  "blockchain",
-  "décodeur"
+  "décodeur",
+  "confidentiel"
  ]
 }

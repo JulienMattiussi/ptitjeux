@@ -207,13 +207,13 @@
   "exploration",
   "voyage",
   "expédition",
-  "Indiana",
   "carte",
   "trésor",
   "danger",
   "jungle",
   "boussole",
-  "héros"
+  "héros",
+  "pirate"
  ],
  "1|sauce": [
   "tomate",
@@ -372,21 +372,21 @@
   "écailles"
  ],
  "2|clown": [
-  "Fratellini",
   "cirque",
   "Auguste",
   "maquillage",
   "chaussures",
   "farce",
   "rire",
-  "Ronald",
   "pitre",
   "Zavatta",
   "perruque",
   "tarte",
   "Ça",
   "jongler",
-  "rouge"
+  "rouge",
+  "Bozo",
+  "grimace"
  ],
  "2|sorcière": [
   "balai",
@@ -446,7 +446,6 @@
   "gorgée",
   "siroter",
   "trinquer",
-  "boisson",
   "paille",
   "bouteille",
   "déshydratation",
@@ -454,7 +453,8 @@
   "avaler",
   "assoiffé",
   "goulot",
-  "gosier"
+  "gosier",
+  "bar"
  ],
  "2|lagune": [
   "Venise",
@@ -534,12 +534,12 @@
   "fission",
   "fusion",
   "Bohr",
-  "Rutherford",
   "particule",
   "nucléaire",
   "bombe",
   "Démocrite",
-  "élément"
+  "élément",
+  "physique"
  ],
  "2|président": [
   "élection",
@@ -630,7 +630,6 @@
   "éclat",
   "blague",
   "humour",
-  "sourire",
   "hilarité",
   "bidonner",
   "chatouille",
@@ -641,7 +640,8 @@
   "plaisanterie",
   "joie",
   "farce",
-  "ricaner"
+  "ricaner",
+  "clown"
  ],
  "2|lourd": [
   "poids",
@@ -670,12 +670,12 @@
   "palmes",
   "record",
   "bouteille",
-  "monopalme",
   "masque",
   "retenir",
   "sommeil",
   "ronflement",
-  "lest"
+  "lest",
+  "eau"
  ],
  "2|nez": [
   "odorat",
@@ -733,7 +733,6 @@
   "silence",
   "geste",
   "grimé",
-  "pantomime",
   "Bip",
   "invisible",
   "expression",
@@ -743,7 +742,8 @@
   "Chaplin",
   "Pierrot",
   "imiter",
-  "rue"
+  "rue",
+  "visage"
  ],
  "2|troll": [
   "forêt",
@@ -817,7 +817,6 @@
   "posture",
   "méditation",
   "tapis",
-  "asana",
   "respiration",
   "Inde",
   "zen",
@@ -826,9 +825,10 @@
   "salutation",
   "chakra",
   "relaxation",
-  "yogi",
   "mantra",
-  "souffle"
+  "souffle",
+  "sport",
+  "étirement"
  ],
  "2|chuchoter": [
   "murmurer",
@@ -870,7 +870,6 @@
   "théâtre",
   "Pinocchio",
   "ventriloque",
-  "castelet",
   "gaine",
   "Muppet",
   "Gnafron",
@@ -879,7 +878,8 @@
   "pantin",
   "Lyon",
   "Kermit",
-  "spectacle"
+  "spectacle",
+  "poupée"
  ],
  "2|heure": [
   "horloge",
@@ -947,7 +947,6 @@
   "cou",
   "enfouir",
   "émeu",
-  "nandou",
   "élevage",
   "sable",
   "savane",
@@ -956,7 +955,8 @@
   "gros",
   "vol",
   "désert",
-  "ailes"
+  "ailes",
+  "ferme"
  ],
  "3|naviguer": [
   "bateau",
@@ -1059,7 +1059,6 @@
   "farci"
  ],
  "3|country": [
-  "cowboy",
   "Nashville",
   "banjo",
   "guitare",
@@ -1074,9 +1073,10 @@
   "saloon",
   "Kentucky",
   "harmonica",
-  "bluegrass",
   "Appalaches",
-  "Dixie"
+  "Dixie",
+  "cow-boy",
+  "Amérique"
  ],
  "3|panthère": [
   "noire",
@@ -1085,7 +1085,6 @@
   "léopard",
   "jungle",
   "Bagheera",
-  "Rose",
   "Afrique",
   "Asie",
   "arbre",
@@ -1096,7 +1095,8 @@
   "fauve",
   "Wakanda",
   "pelage",
-  "chat"
+  "chat",
+  "Inde"
  ],
  "3|louche": [
   "soupe",
@@ -1126,7 +1126,6 @@
   "couronne",
   "Hawaï",
   "pizza",
-  "Victoria",
   "tranche",
   "Antilles",
   "Guadeloupe",
@@ -1136,7 +1135,8 @@
   "cocktail",
   "conserve",
   "épineux",
-  "sorbet"
+  "sorbet",
+  "exotique"
  ],
  "3|ver": [
   "terre",
@@ -1164,7 +1164,6 @@
   "orchestre",
   "jazz",
   "Mozart",
-  "Goodman",
   "Bechet",
   "klezmer",
   "embouchure",
@@ -1176,7 +1175,8 @@
   "fanfare",
   "harmonie",
   "bec",
-  "concerto"
+  "concerto",
+  "instrument"
  ],
  "3|balcon": [
   "terrasse",
@@ -1284,7 +1284,6 @@
   "aigrettes",
   "hululer",
   "grand-duc",
-  "moyen-duc",
   "rapace",
   "plumes",
   "yeux",
@@ -1296,7 +1295,8 @@
   "souris",
   "bois",
   "silencieux",
-  "Hedwige"
+  "Hedwige",
+  "oiseau"
  ],
  "3|antenne": [
   "télévision",
@@ -1314,15 +1314,14 @@
   "mât",
   "onde",
   "wifi",
-  "rateau",
   "direct",
-  "chaîne"
+  "chaîne",
+  "râteau"
  ],
  "3|omoplate": [
   "épaule",
   "dos",
   "os",
-  "scapula",
   "clavicule",
   "bras",
   "muscle",
@@ -1336,7 +1335,8 @@
   "saillante",
   "ange",
   "nageur",
-  "dorsal"
+  "dorsal",
+  "colonne"
  ],
  "3|scarabée": [
   "Ra",
@@ -1379,7 +1379,6 @@
   "valse"
  ],
  "3|canapé": [
-  "chesterfield",
   "sofa",
   "coussin",
   "divan",
@@ -1396,7 +1395,8 @@
   "pouf",
   "apéritif",
   "toast",
-  "méridienne"
+  "méridienne",
+  "lit"
  ],
  "3|hérisson": [
   "piquants",
@@ -1420,7 +1420,6 @@
  ],
  "3|mâchoire": [
   "dents",
-  "mâcher",
   "menton",
   "mandibule",
   "maxillaire",
@@ -1436,7 +1435,8 @@
   "fracture",
   "joue",
   "visage",
-  "crâne"
+  "crâne",
+  "gueule"
  ],
  "3|triangulaire": [
   "tétraèdre",
@@ -1484,7 +1484,6 @@
   "clavier",
   "pédalier",
   "Bach",
-  "organiste",
   "souffle",
   "jeux",
   "Barbarie",
@@ -1496,7 +1495,8 @@
   "basilique",
   "buffet",
   "musique",
-  "console"
+  "console",
+  "fugue"
  ],
  "3|échelle": [
   "barreau",
@@ -1537,7 +1537,7 @@
   "vulnérabilité",
   "Californie",
   "Islande",
-  "Achille"
+  "sismique"
  ],
  "4|béchamel": [
   "sauce",
@@ -1576,13 +1576,12 @@
   "Hokusai",
   "Goya",
   "aquatinte",
-  "graveur",
   "tirage",
   "illustration",
-  "encre"
+  "encre",
+  "acide"
  ],
  "4|radiologie": [
-  "tomographie",
   "rayonnement",
   "scanner",
   "IRM",
@@ -1600,7 +1599,8 @@
   "diagnostic",
   "hôpital",
   "os",
-  "irradiation"
+  "irradiation",
+  "blouse"
  ],
  "4|colonnade": [
   "alignement",
@@ -1698,14 +1698,14 @@
   "hiver",
   "Brésil",
   "bouquet",
-  "bergère",
   "intérieur",
   "forcer",
   "éclosion",
   "pétales",
   "Pâques",
   "cadeau",
-  "floraison"
+  "floraison",
+  "Belladone"
  ],
  "4|sagesse": [
   "tempérance",
@@ -1730,7 +1730,6 @@
  ],
  "4|risotto": [
   "riz",
-  "arborio",
   "parmesan",
   "Lombardie",
   "Italie",
@@ -1747,7 +1746,8 @@
   "oignon",
   "Vénétie",
   "mijoté",
-  "vin"
+  "vin",
+  "plat"
  ],
  "4|ornithologie": [
   "oiseau",
@@ -1878,7 +1878,6 @@
  "4|futurisme": [
   "Marinetti",
   "Boccioni",
-  "Balla",
   "avion",
   "cubisme",
   "vitesse",
@@ -1894,7 +1893,8 @@
   "fascisme",
   "train",
   "mouvement",
-  "électricité"
+  "électricité",
+  "avant-garde"
  ],
  "4|météorologie": [
   "prévision",
@@ -2117,7 +2117,6 @@
   "duvet",
   "rocher",
   "altitude",
-  "Mélodie",
   "symbole",
   "protégée",
   "alpiniste",
@@ -2125,7 +2124,8 @@
   "Tyrol",
   "chamois",
   "névé",
-  "rare"
+  "rare",
+  "glacier"
  ],
  "4|hydrologie": [
   "eau",

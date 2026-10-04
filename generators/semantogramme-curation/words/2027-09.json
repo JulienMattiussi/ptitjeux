@@ -48,7 +48,6 @@
   "verte"
  ],
  "1|autobus": [
-  "bus",
   "arrêt",
   "chauffeur",
   "ticket",
@@ -57,7 +56,8 @@
   "RATP",
   "trajet",
   "car",
-  "impériale"
+  "impériale",
+  "station"
  ],
  "1|explorateur": [
   "expédition",
@@ -114,10 +114,10 @@
   "réchaud",
   "duvet",
   "matelas",
-  "campeur",
   "bivouac",
   "vacances",
-  "mobil-home"
+  "mobil-home",
+  "glacière"
  ],
  "1|verger": [
   "pommier",
@@ -192,7 +192,6 @@
   "calmar"
  ],
  "1|liberté": [
-  "libre",
   "Marianne",
   "statue",
   "devise",
@@ -201,7 +200,8 @@
   "Éluard",
   "prison",
   "chaîne",
-  "esclavage"
+  "esclavage",
+  "indépendance"
  ],
  "1|fenêtre": [
   "vitre",
@@ -378,7 +378,6 @@
  ],
  "2|vieux": [
   "âgé",
-  "vieillesse",
   "ancien",
   "rides",
   "retraite",
@@ -391,7 +390,8 @@
   "patriarche",
   "usé",
   "dentier",
-  "centenaire"
+  "centenaire",
+  "sagesse"
  ],
  "2|midi": [
   "déjeuner",
@@ -428,7 +428,6 @@
   "transpiration"
  ],
  "2|crier": [
-  "cri",
   "hurler",
   "vociférer",
   "brailler",
@@ -442,14 +441,14 @@
   "s'égosiller",
   "tonner",
   "rugir",
-  "glapir"
+  "glapir",
+  "appel"
  ],
  "2|mou": [
   "moelleux",
   "flasque",
   "spongieux",
   "souple",
-  "mollesse",
   "guimauve",
   "gélatine",
   "pâte",
@@ -459,7 +458,8 @@
   "montre",
   "avachi",
   "indolent",
-  "apathique"
+  "apathique",
+  "flan"
  ],
  "2|équitation": [
   "cheval",
@@ -504,13 +504,13 @@
   "aîné",
   "cadet",
   "famille",
-  "filiation",
   "progéniture",
   "descendant",
   "prodigue",
   "Télémaque",
   "Ulysse",
-  "Abraham"
+  "Abraham",
+  "naissance"
  ],
  "2|fragile": [
   "cassant",
@@ -581,7 +581,6 @@
   "boyaux"
  ],
  "2|parler": [
-  "parole",
   "voix",
   "discuter",
   "bavarder",
@@ -595,7 +594,8 @@
   "bouche",
   "mot",
   "phrase",
-  "chuchoter"
+  "chuchoter",
+  "papoter"
  ],
  "2|brillant": [
   "éclatant",
@@ -751,7 +751,6 @@
   "rougeoyant"
  ],
  "2|vendre": [
-  "vente",
   "acheteur",
   "prix",
   "marché",
@@ -765,7 +764,8 @@
   "facture",
   "caisse",
   "brader",
-  "vitrine"
+  "vitrine",
+  "étal"
  ],
  "2|bras": [
   "coude",
@@ -944,10 +944,10 @@
   "graine",
   "épouvantail",
   "potimarron",
-  "cucurbitacée",
   "sorcière",
   "tarte",
-  "Thanksgiving"
+  "Thanksgiving",
+  "octobre"
  ],
  "3|folk": [
   "guitare",
@@ -1177,7 +1177,6 @@
   "routeur",
   "serveur",
   "toile",
-  "maillage",
   "filet",
   "noeud",
   "lien",
@@ -1187,7 +1186,8 @@
   "contacts",
   "Résistance",
   "clandestin",
-  "ferroviaire"
+  "ferroviaire",
+  "web"
  ],
  "3|honteux": [
   "rougir",
@@ -1447,7 +1447,7 @@
   "faucheux",
   "soie",
   "tisser",
-  "épeire"
+  "huit"
  ],
  "3|virus": [
   "microbe",
@@ -1501,7 +1501,6 @@
   "Leipzig",
   "Passion",
   "liturgie",
-  "cantor",
   "baroque",
   "Telemann",
   "Buxtehude",
@@ -1509,7 +1508,8 @@
   "motet",
   "profane",
   "sacrée",
-  "chorale"
+  "chorale",
+  "chant"
  ],
  "4|éternité": [
   "infini",
@@ -1606,7 +1606,6 @@
   "griffes",
   "sarigue",
   "omnivore",
-  "rongeur",
   "pelage",
   "Mexique",
   "museau",
@@ -1614,7 +1613,8 @@
   "kangourou",
   "koala",
   "petits",
-  "fourrure"
+  "fourrure",
+  "immobile"
  ],
  "4|navarin": [
   "agneau",
@@ -1628,14 +1628,14 @@
   "mijoter",
   "bataille",
   "Grèce",
-  "1827",
   "marine",
   "Ottomans",
   "épaule",
   "collier",
   "bouquet",
   "garni",
-  "Escoffier"
+  "Escoffier",
+  "plat"
  ],
  "4|polyphonie": [
   "voix",
@@ -1661,7 +1661,6 @@
  "4|mangouste": [
   "serpent",
   "cobra",
-  "Rikki",
   "Kipling",
   "Inde",
   "Afrique",
@@ -1677,7 +1676,8 @@
   "Martinique",
   "invasive",
   "rat",
-  "belette"
+  "belette",
+  "Égypte"
  ],
  "4|estampe": [
   "gravure",
@@ -1687,7 +1687,6 @@
   "lithographie",
   "Hokusai",
   "Hiroshige",
-  "ukiyo-e",
   "Japon",
   "Dürer",
   "Rembrandt",
@@ -1698,7 +1697,8 @@
   "encre",
   "presse",
   "cuivre",
-  "Vague"
+  "Vague",
+  "art"
  ],
  "4|périhélie": [
   "aphélie",
@@ -1754,22 +1754,20 @@
   "Galles",
   "mer",
   "invertébré",
-  "ordovicien",
   "biodiversité",
   "éponge",
   "schiste",
-  "Gould",
   "vie",
   "géologie",
-  "faune"
+  "faune",
+  "diversité",
+  "coquilles"
  ],
  "4|hibiscus": [
   "fleur",
   "Hawaï",
   "tropical",
   "rouge",
-  "bissap",
-  "karkadé",
   "infusion",
   "Afrique",
   "Égypte",
@@ -1782,7 +1780,9 @@
   "mauve",
   "Antilles",
   "pistil",
-  "pétale"
+  "pétale",
+  "thé",
+  "Martinique"
  ],
  "4|sublime": [
   "grandiose",
@@ -1835,7 +1835,6 @@
   "diplomatique",
   "onciale",
   "minuscule",
-  "caroline",
   "gothique",
   "abréviation",
   "déchiffrer",
@@ -1845,7 +1844,8 @@
   "papyrus",
   "palimpseste",
   "datation",
-  "copiste"
+  "copiste",
+  "ancien"
  ],
  "4|tympan": [
   "oreille",

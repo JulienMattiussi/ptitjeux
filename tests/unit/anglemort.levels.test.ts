@@ -4,8 +4,14 @@ import { isWon, loadLevel, placeGuard, rotateGuard } from '~/games/anglemort/eng
 import type { Level } from '~/games/anglemort/types'
 import { isUnique, originalLevels } from '../levels/anglemort.helpers'
 
-const UNIQUENESS_SAMPLE = [1, 2, 3, 4] as const
-const SAMPLE_SIZE = 3
+/**
+ * Grilles d'origine dont `make test` prouve l'unicité, par niveau. Au-delà du
+ * niveau 1, une preuve coûte plusieurs secondes (gros budget du solveur) :
+ * une seule grille suffit à détecter une régression, le reste est couvert par
+ * `make verify-levels`.
+ */
+const SAMPLE_SIZE: Record<1 | 2 | 3 | 4, number> = { 1: 3, 2: 1, 3: 1, 4: 1 }
+const PROOF_TIMEOUT = 60_000
 
 /**
  * Les défis Angle mort peuvent être partiels pendant la mise au point du jeu :
@@ -45,13 +51,17 @@ describe('niveaux Angle mort : intégrité', () => {
   // l'unicité (cf. anglemort.symmetry.test.ts). La preuve complète, coûteuse,
   // tourne dans `make verify-levels` (tests/levels/anglemort.uniqueness.test.ts) ;
   // ici, un échantillon par niveau suffit à détecter une régression du solveur.
-  const sample = UNIQUENESS_SAMPLE.flatMap((index) =>
+  const sample = ([1, 2, 3, 4] as const).flatMap((index) =>
     originalLevels(levels)
       .filter((l) => l.id.endsWith(`-${index}`))
-      .slice(0, SAMPLE_SIZE),
+      .slice(0, SAMPLE_SIZE[index]),
   )
 
-  it.each(sample.map((l) => [l.id, l] as const))('%s : la solution est unique', (_, level) => {
-    expect(isUnique(level)).toBe(true)
-  })
+  it.each(sample.map((l) => [l.id, l] as const))(
+    '%s : la solution est unique',
+    (_, level) => {
+      expect(isUnique(level)).toBe(true)
+    },
+    PROOF_TIMEOUT,
+  )
 })

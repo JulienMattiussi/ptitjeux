@@ -1,19 +1,17 @@
+import { expectedCorridor } from '~/games/anglemort/engine'
 import type { Level } from '~/games/anglemort/types'
-import { UNIQUE_NODES, levelOrigin } from '../../generators/anglemort'
-import { solveAngleMort } from '../../generators/anglemort-solver'
+import { PROOF_CORRIDORS, RIVAL_NODES, levelOrigin } from '../../generators/anglemort'
+import { isCorridorUnique } from '../../generators/anglemort-corridors'
 
 /** Niveaux qui sont la version d'origine (non transformée) de leur grille de base. */
 export function originalLevels(levels: Level[]): Level[] {
   return levels.filter((l) => levelOrigin(l.id.slice(0, 10)).variant === 0)
 }
 
-/** Preuve d'unicité à l'écran, avec le budget utilisé à la génération. */
-export function isUnique(level: Level): boolean {
-  const index = Number(level.id.slice(11)) as 1 | 2 | 3 | 4
-  const result = solveAngleMort(level, {
-    exactPool: true,
-    limit: 2,
-    maxNodes: UNIQUE_NODES[index],
+/** Preuve que le couloir de la solution est le seul couloir possible. */
+export function hasUniqueCorridor(level: Level): boolean {
+  return isCorridorUnique(level, expectedCorridor(level), {
+    maxCorridors: PROOF_CORRIDORS,
+    maxNodes: RIVAL_NODES,
   })
-  return result.complete && result.solutions.length === 1
 }

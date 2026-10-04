@@ -251,14 +251,16 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 ### Statut `perfect`
 `moves` = nombre de **poses** (les rotations ne comptent pas). `parMoves` = taille du lot. Parfait = aucun vigile retiré ni déplacé, donc résolu sans tâtonner.
 
-### Unicité « à l'écran »
-Le solveur compte les solutions telles que le joueur les voit : cases et types des vigiles, plus l'éclairage de chaque case. Deux placements qui ne diffèrent que par une orientation sans effet visible comptent pour une seule solution, puisqu'aucun indice ne pourrait les départager.
+### Unicité du couloir
+Ce qui est garanti, c'est qu'**un seul couloir** est possible, pas une seule pose : plusieurs placements des vigiles peuvent produire ce même couloir, tous gagnants. La preuve se fait en deux temps (`generators/anglemort-corridors.ts`) :
+1. énumérer les couloirs compatibles avec les indices : chemins induits de la porte au diamant, qui passent par chaque « 0 » et évitent chaque case d'indice positif ;
+2. pour chaque couloir concurrent, demander au solveur, couloir imposé, s'il existe une pose du lot qui le produit. Il doit n'en exister aucune.
 
 ### Génération (offline, build-time)
 1. Placer des piliers aléatoires (et les miroirs au niveau 4).
 2. Tirer l'entrée sur le bord, puis un couloir auto-évitant **induit** (aucune case ne touche le couloir hors de ses voisines) de longueur et de nombre de virages conformes ; il se termine sur le diamant.
 3. Construire avec le solveur un placement de vigiles qui éclaire toutes les cases hors couloir sans éclairer le couloir, puis retirer les vigiles superflus.
-4. Déduire le lot, puis ajouter des indices chiffrés pris là où une solution concurrente diffère, jusqu'à ce que le solveur prouve l'**unicité à l'écran**.
+4. Déduire le lot, poser les indices d'office, puis ajouter à chaque tour l'indice qui élimine le plus de couloirs concurrents : un « 0 » sur le couloir élimine ceux qui l'évitent, un chiffre positif ceux qui traversent sa case. Quand il reste peu de concurrents, le solveur écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice). On s'arrête à l'**unicité du couloir**.
 
 Le solveur (`generators/anglemort-solver.ts`) gère le blocage par des bornes « éclairé à coup sûr » / « peut-être éclairé », propage les contraintes du couloir (degrés, connexité de l'entrée au diamant), des indices et de la couverture, et branche sur les vigiles capables d'éclairer la case la plus contrainte.
 

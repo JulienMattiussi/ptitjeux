@@ -2,15 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { getAllDates, getChallenge } from '~/games/anglemort/challenges'
 import { isWon, loadLevel, placeGuard, rotateGuard } from '~/games/anglemort/engine'
 import type { Level } from '~/games/anglemort/types'
-import { isUnique, originalLevels } from '../levels/anglemort.helpers'
+import { hasUniqueCorridor, originalLevels } from '../levels/anglemort.helpers'
 
-/**
- * Grilles d'origine dont `make test` prouve l'unicité, par niveau. Au-delà du
- * niveau 1, une preuve coûte plusieurs secondes (gros budget du solveur) :
- * une seule grille suffit à détecter une régression, le reste est couvert par
- * `make verify-levels`.
- */
-const SAMPLE_SIZE: Record<1 | 2 | 3 | 4, number> = { 1: 3, 2: 1, 3: 1, 4: 1 }
 const PROOF_TIMEOUT = 60_000
 
 /**
@@ -34,9 +27,9 @@ describe('niveaux Angle mort : intégrité', () => {
       let state = loadLevel(level)
       for (const guard of level.solution) {
         const [x, y] = guard.pos
-        state = placeGuard(state, x, y)
-        // Au plus 10 variantes (4 simples + 4 angles + 2 opposés).
-        for (let i = 0; i < 10; i++) {
+        state = placeGuard(state, x, y, guard.type)
+        // Au plus 4 orientations par type.
+        for (let i = 0; i < 4; i++) {
           const placed = state.guards.find((g) => g.pos[0] === x && g.pos[1] === y)
           if (placed?.type === guard.type && placed.facing === guard.facing) break
           state = rotateGuard(state, x, y)
@@ -48,19 +41,12 @@ describe('niveaux Angle mort : intégrité', () => {
   )
 
   // Chaque grille de base sert 8 fois (symétries) ; une symétrie conserve
-  // l'unicité (cf. anglemort.symmetry.test.ts). La preuve complète, coûteuse,
-  // tourne dans `make verify-levels` (tests/levels/anglemort.uniqueness.test.ts) ;
-  // ici, un échantillon par niveau suffit à détecter une régression du solveur.
-  const sample = ([1, 2, 3, 4] as const).flatMap((index) =>
-    originalLevels(levels)
-      .filter((l) => l.id.endsWith(`-${index}`))
-      .slice(0, SAMPLE_SIZE[index]),
-  )
-
-  it.each(sample.map((l) => [l.id, l] as const))(
-    '%s : la solution est unique',
+  // l'unicité du couloir (cf. anglemort.symmetry.test.ts). Ici, chaque grille
+  // d'origine ; `make verify-levels` repasse sur toutes les versions.
+  it.each(originalLevels(levels).map((l) => [l.id, l] as const))(
+    '%s : le couloir est unique',
     (_, level) => {
-      expect(isUnique(level)).toBe(true)
+      expect(hasUniqueCorridor(level)).toBe(true)
     },
     PROOF_TIMEOUT,
   )

@@ -1,20 +1,20 @@
 import { describe, expect, it } from 'vitest'
 import { getAllDates, getChallenge } from '~/games/anglemort/challenges'
-import { isUnique, originalLevels } from './anglemort.helpers'
+import { hasUniqueCorridor } from './anglemort.helpers'
 
 /**
- * Preuve complète : chaque grille de base, dans sa version d'origine, a une
- * solution unique à l'écran. Les 7 autres versions en héritent (symétries).
+ * Preuve complète : chaque niveau, dans chacune des 8 versions de sa grille de
+ * base, n'admet qu'un seul couloir. Les symétries le conservent en théorie ;
+ * ce passage le vérifie aussi en pratique, transformation comprise.
  */
-describe('niveaux Angle mort : unicité de chaque grille de base', () => {
+describe('niveaux Angle mort : unicité du couloir de chaque niveau', () => {
   const levels = getAllDates().flatMap((date) => (getChallenge(date) ?? []).filter(Boolean))
-  const originals = originalLevels(levels)
 
-  it('au moins une grille de base est présente', () => {
-    expect(originals.length).toBeGreaterThan(0)
+  it('au moins un niveau est présent', () => {
+    expect(levels.length).toBeGreaterThan(0)
   })
 
-  it.each(originals.map((l) => [l.id, l] as const))('%s : la solution est unique', (_, level) => {
-    expect(isUnique(level)).toBe(true)
+  it.each(levels.map((l) => [l.id, l] as const))('%s : le couloir est unique', (_, level) => {
+    expect(hasUniqueCorridor(level)).toBe(true)
   })
 })

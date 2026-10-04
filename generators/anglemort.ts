@@ -11,7 +11,15 @@ import {
 import type { Dir, Guard, GuardType, Level, Mirror, Pool, Pos } from '~/games/anglemort/types'
 import { GAME_SIZE } from '~/lib/game-styles'
 import { Rng } from '~/lib/random'
-import { poolOf, solveAngleMort, visibleKey } from './anglemort-solver'
+import {
+  checkRival,
+  compatibleCorridors,
+  corridorCells,
+  corridorId,
+  poseFitsClues,
+  type RivalCheck,
+} from './anglemort-corridors'
+import { poolOf } from './anglemort-solver'
 import { VARIANTS, type Variant, transformLevel } from './anglemort-symmetry'
 
 type LevelIndex = 1 | 2 | 3 | 4
@@ -74,23 +82,18 @@ const SEED_CORRIDOR = 3
 const SEED_TWOS = 2
 /** Indices supplémentaires posés d'office hors du couloir, pour restreindre d'emblée les options. */
 const SEED_EXTRA: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 1, 4: 1 }
-/** Solutions concurrentes récoltées par tour pour choisir le meilleur indice. */
-const RIVALS = 8
 const PATH_STEPS = 4_000
 const MIN_TURNS = 3
 /** Marge de score acceptée dans le choix glouton (variété des niveaux). */
 const GREEDY_SLACK = 1
-/**
- * Budget de nœuds d'une vérification d'unicité, par niveau. La génération est
- * hors ligne : on préfère payer en temps que poser des indices au hasard
- * faute de preuve. Le test d'intégrité réutilise ce même budget.
- */
-export const UNIQUE_NODES: Record<LevelIndex, number> = {
-  1: 150_000,
-  2: 1_500_000,
-  3: 1_500_000,
-  4: 1_500_000,
-}
+/** Plafond de couloirs énumérés : au-delà, on pose des indices sans appeler le solveur. */
+const MAX_CORRIDORS = 200_000
+/** Nombre de concurrents à partir duquel le solveur trie les réalisables. */
+const SOLVE_RIVALS = 300
+/** Budget du solveur pour un couloir concurrent (génération et tests d'intégrité). */
+export const RIVAL_NODES = 50_000
+/** Plafond d'énumération des tests d'intégrité. */
+export const PROOF_CORRIDORS = 1_000_000
 
 /** Plafond du lot pour la construction : doubles seulement à partir du niveau 3. */
 function poolCap(index: LevelIndex): Pool {
@@ -213,64 +216,80 @@ function seedClues(
 }
 
 /**
- * Complète les indices jusqu'à l'unicité. À chaque tour, le solveur récolte
- * plusieurs solutions concurrentes, et on pose l'indice (valeur tirée de la
- * solution voulue) qui en élimine le plus.
+ * Complète les indices jusqu'à l'unicité du couloir. À chaque tour, on liste
+ * les couloirs compatibles avec les indices. Tant qu'ils sont nombreux, on
+ * pose l'indice qui en élimine le plus. Quand il en reste peu, le solveur
+ * écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice), et on
+ * ne vise que les concurrents réalisables ou non tranchés.
+ *
+ * Chaque concurrent passe au solveur une seule fois : un impossible le reste
+ * quand on ajoute des indices, un non tranché reste une cible (un indice de
+ * chemin finira par l'éliminer), et un réalisable garde sa pose, revérifiée à
+ * chaque tour en quelques millisecondes. Le solveur ne repasse que si cette
+ * pose ne respecte plus un nouvel indice.
  */
 function addCluesUntilUnique(
   rng: Rng,
   level: Level,
-  solution: Guard[],
+  path: Pos[],
   maxClues: number,
-  maxNodes: number,
   stats: GenerationStats,
 ): Level | null {
-  const truth = seenCounts(level, solution)
-  const occupied = new Set(solution.map((g) => key(...g.pos)))
+  const w = level.width
+  const truth = seenCounts(level, level.solution)
+  const occupied = new Set(level.solution.map((g) => key(...g.pos)))
   const ends = new Set([key(...level.door), key(...level.diamond)])
+  const intended = corridorCells(level, path)
+  const intendedId = corridorId(intended)
+  const verdicts = new Map<string, RivalCheck>()
   let current = level
   while (Object.keys(current.clues).length <= maxClues) {
     const started = Date.now()
-    const result = solveAngleMort(current, {
-      exactPool: true,
-      limit: RIVALS + 1,
-      maxNodes,
-    })
+    const { corridors, complete } = compatibleCorridors(current, MAX_CORRIDORS)
+    let rivals = corridors.filter((c) => corridorId(c) !== intendedId)
+    if (complete && rivals.length <= SOLVE_RIVALS) {
+      const level = current
+      rivals = rivals.filter((c) => {
+        const id = corridorId(c)
+        let verdict = verdicts.get(id)
+        if (!verdict || (verdict.status === 'possible' && !poseFitsClues(level, verdict.pose))) {
+          verdict = checkRival(level, c, RIVAL_NODES)
+          verdicts.set(id, verdict)
+        }
+        return verdict.status !== 'impossible'
+      })
+    }
     stats.uniqueMs += Date.now() - started
     stats.uniqueCalls++
-    if (!result.complete) stats.uniqueAborted++
-    const intended = visibleKey(current, solution)
-    const rivals = result.solutions.filter((s) => visibleKey(current, s) !== intended)
+    if (!complete) stats.uniqueAborted++
     stats.onEvent?.({
       type: 'unique',
       ms: Date.now() - started,
-      complete: result.complete,
+      complete,
       rivals: rivals.length,
       clues: Object.keys(current.clues).length,
     })
-    if (result.complete && rivals.length === 0) {
-      return result.solutions.length === 1 ? current : null
-    }
+    if (complete && rivals.length === 0) return current
 
+    // Un « 0 » élimine les couloirs qui évitent sa case, un chiffre positif
+    // ceux qui la traversent.
     const free: Pos[] = []
     for (let y = 0; y < level.height; y++) {
-      for (let x = 0; x < level.width; x++) {
+      for (let x = 0; x < w; x++) {
         const k = key(x, y)
         if (isFloor(level, x, y) && !occupied.has(k) && !ends.has(k) && !(k in current.clues)) {
           free.push([x, y])
         }
       }
     }
-    if (free.length === 0) return null
-    // Un indice élimine un rival qui pose un vigile sur sa case ou l'éclaire autrement.
-    const rivalViews = rivals.map((r) => ({
-      seen: seenCounts(current, r),
-      guards: new Set(r.map((g) => key(...g.pos))),
-    }))
-    const score = ([x, y]: Pos) =>
-      rivalViews.filter((r) => r.guards.has(key(x, y)) || r.seen[y][x] !== truth[y][x]).length
-    const best = Math.max(...free.map(score))
-    const [x, y] = rng.pick(free.filter((c) => score(c) === best))
+    const score = ([x, y]: Pos) => {
+      const i = y * w + x
+      return rivals.filter((c) => c[i] !== intended[i]).length
+    }
+    const scores = free.map(score)
+    const best = Math.max(0, ...scores)
+    if (best === 0) return null
+    const [x, y] = rng.pick(free.filter((_, j) => scores[j] === best))
     current = { ...current, clues: { ...current.clues, [key(x, y)]: truth[y][x] } }
   }
   return null
@@ -555,21 +574,14 @@ function tryGenerate(
     return fail(stats, 'mirror')
   }
 
-  // 4. Les indices guides, jusqu'à l'unicité.
+  // 4. Les indices guides, jusqu'à l'unicité du couloir.
   const pool = poolOf(solution)
   const seeded = seedClues(rng, { ...anchored.level, solution }, path, solution, SEED_EXTRA[index])
   if (!seeded) {
     return fail(stats, 'clues')
   }
   const level: Level = { ...anchored.level, pool, solution, clues: seeded }
-  const unique = addCluesUntilUnique(
-    rng,
-    level,
-    solution,
-    MAX_CLUES[index],
-    UNIQUE_NODES[index],
-    stats,
-  )
+  const unique = addCluesUntilUnique(rng, level, path, MAX_CLUES[index], stats)
   if (!unique) {
     return fail(stats, 'clues')
   }

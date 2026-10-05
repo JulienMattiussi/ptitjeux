@@ -1,0 +1,177 @@
+{
+  "id": "2027-04-11-4",
+  "name": "Niveau 4 · 10×9",
+  "width": 10,
+  "height": 9,
+  "pillars": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "mirrors": [
+    {
+      "pos": [
+        3,
+        2
+      ],
+      "kind": "/"
+    },
+    {
+      "pos": [
+        8,
+        1
+      ],
+      "kind": "\\"
+    }
+  ],
+  "door": [
+    3,
+    8
+  ],
+  "diamond": [
+    5,
+    0
+  ],
+  "clues": {
+    "3,0": 0,
+    "2,3": 0,
+    "4,7": 0,
+    "5,2": 2,
+    "7,2": 2,
+    "0,4": 0,
+    "3,1": 0
+  },
+  "pool": {
+    "simple": 7,
+    "angle": 4,
+    "oppose": 0
+  },
+  "solution": [
+    {
+      "pos": [
+        7,
+        8
+      ],
+      "type": "angle",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        5,
+        1
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        9,
+        4
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        6,
+        0
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        9,
+        1
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        0,
+        6
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        2,
+        0
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        4,
+        3
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        3,
+        3
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        0,
+        2
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        2,
+        8
+      ],
+      "type": "simple",
+      "facing": "W"
+    }
+  ],
+  "parMoves": 11
+}

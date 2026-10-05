@@ -1,0 +1,179 @@
+{
+  "id": "2026-09-11-4",
+  "name": "Niveau 4 · 10×9",
+  "width": 10,
+  "height": 9,
+  "pillars": [
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      2
+    ]
+  ],
+  "mirrors": [
+    {
+      "pos": [
+        4,
+        5
+      ],
+      "kind": "\\"
+    }
+  ],
+  "door": [
+    3,
+    8
+  ],
+  "diamond": [
+    3,
+    0
+  ],
+  "clues": {
+    "5,2": 0,
+    "7,0": 0,
+    "5,7": 0,
+    "7,3": 2,
+    "2,4": 2,
+    "3,4": 1,
+    "3,1": 0,
+    "4,3": 1,
+    "6,5": 0,
+    "8,0": 0,
+    "8,2": 0,
+    "4,7": 0
+  },
+  "pool": {
+    "simple": 8,
+    "angle": 4,
+    "oppose": 0
+  },
+  "solution": [
+    {
+      "pos": [
+        1,
+        3
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        2,
+        0
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        0,
+        1
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        0,
+        4
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        7,
+        6
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        5,
+        8
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        7,
+        1
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        1,
+        1
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        4,
+        1
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        8,
+        7
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        4,
+        6
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        9,
+        1
+      ],
+      "type": "simple",
+      "facing": "N"
+    }
+  ],
+  "parMoves": 12
+}

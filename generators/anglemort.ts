@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import {
   DIRS,
   GUARD_TYPES,
@@ -27,6 +29,10 @@ type LevelIndex = 1 | 2 | 3 | 4
 /** Étape à laquelle une tentative de génération a échoué. */
 export type FailureStage =
   'path' | 'construct' | 'pillars' | 'diamond' | 'types' | 'mirror' | 'clues'
+
+/** Étapes d'une tentative, dans l'ordre, pour en mesurer la durée. */
+export type GenerationStep =
+  'path' | 'anchor' | 'cover' | 'pillars' | 'diamond' | 'mirror' | 'seed' | 'unique'
 
 /**
  * Statistiques de génération, pour mesurer et régler le générateur. Ne
@@ -66,6 +72,7 @@ export type GenerationEvent =
   | { type: 'attempt'; attempt: number }
   | { type: 'failure'; stage: FailureStage }
   | { type: 'unique'; ms: number; complete: boolean; rivals: number; clues: number }
+  | { type: 'step'; step: GenerationStep; ms: number }
   | { type: 'success'; clues: number; guards: number }
 
 export type GenerateOptions = {
@@ -80,16 +87,34 @@ const MAX_CLUES: Record<LevelIndex, number> = { 1: 12, 2: 16, 3: 18, 4: 20 }
 /** Indices posés d'office : sur le couloir, et de valeur 2. */
 const SEED_CORRIDOR = 3
 const SEED_TWOS = 2
-/** Indices supplémentaires posés d'office hors du couloir, pour restreindre d'emblée les options. */
-const SEED_EXTRA: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 1, 4: 1 }
+/**
+ * Indices supplémentaires posés d'office hors du couloir. Tirés au hasard
+ * après la pose des vigiles, ils font moins bien que les indices choisis par
+ * `addCluesUntilUnique` : le niveau 4 s'en passe.
+ */
+const SEED_EXTRA: Record<LevelIndex, number> = { 1: 0, 2: 0, 3: 1, 4: 0 }
+/**
+ * Niveau 4 : piliers posés avant les vigiles, contre le diamant et dans
+ * 2 ou 3 coudes du couloir (`[min, max]`). Sans objet aux autres niveaux.
+ */
+const EARLY_PILLARS: Record<LevelIndex, [number, number] | null> = {
+  1: null,
+  2: null,
+  3: null,
+  4: [2, 3],
+}
 const PATH_STEPS = 4_000
 const MIN_TURNS = 3
 /** Marge de score acceptée dans le choix glouton (variété des niveaux). */
 const GREEDY_SLACK = 1
 /** Plafond de couloirs énumérés : au-delà, on pose des indices sans appeler le solveur. */
 const MAX_CORRIDORS = 200_000
-/** Nombre de concurrents à partir duquel le solveur trie les réalisables. */
-const SOLVE_RIVALS = 300
+/**
+ * Nombre de concurrents à partir duquel le solveur trie les réalisables. Au
+ * niveau 4, jamais : avec les miroirs, un concurrent coûte ~10 s de solveur,
+ * on ajoute plutôt des indices jusqu'à un seul couloir possible par la forme.
+ */
+const SOLVE_RIVALS: Record<LevelIndex, number> = { 1: 300, 2: 300, 3: 300, 4: 0 }
 /** Budget du solveur pour un couloir concurrent, à la génération. */
 export const RIVAL_NODES = 50_000
 /** Plafond d'énumération des tests d'intégrité. */
@@ -225,6 +250,7 @@ function addCluesUntilUnique(
   level: Level,
   path: Pos[],
   maxClues: number,
+  solveRivals: number,
   stats: GenerationStats,
 ): Level | null {
   const w = level.width
@@ -239,7 +265,7 @@ function addCluesUntilUnique(
     const started = Date.now()
     const { corridors, complete } = compatibleCorridors(current, MAX_CORRIDORS)
     let rivals = corridors.filter((c) => corridorId(c) !== intendedId)
-    if (complete && rivals.length <= SOLVE_RIVALS) {
+    if (complete && rivals.length > 0 && rivals.length <= solveRivals) {
       const level = current
       rivals = rivals.filter((c) => {
         const id = corridorId(c)
@@ -320,6 +346,8 @@ function doubles(guards: Guard[]): number {
 const DIAMOND_AGAINST_WALL: Record<LevelIndex, boolean> = { 1: false, 2: false, 3: true, 4: true }
 /** Densité maximale de piliers (piliers ÷ cases de la salle). */
 const MAX_PILLAR_RATIO = 0.18
+/** Plafond absolu de piliers, en plus de la densité : au-delà, la salle paraît encombrée. */
+const MAX_PILLARS: Record<LevelIndex, number> = { 1: Infinity, 2: Infinity, 3: Infinity, 4: 10 }
 /** Essais de pilier par niveau pendant la phase de réduction. */
 const PILLAR_TRIALS = 80
 
@@ -420,9 +448,10 @@ function reduceWithPillars(
   start: Guard[],
   target: number,
   minPillars: number,
+  pillarCap: number,
 ): { level: Level; guards: Guard[] } {
   const onPath = new Set(path.map((p) => key(...p)))
-  const maxPillars = Math.floor(level.width * level.height * MAX_PILLAR_RATIO)
+  const maxPillars = Math.min(pillarCap, Math.floor(level.width * level.height * MAX_PILLAR_RATIO))
   let current = level
   let guards = start
   const unfinished = () => guards.length > target || current.pillars.length < minPillars
@@ -490,6 +519,40 @@ function placeDiamondAgainstWall(
   return null
 }
 
+/**
+ * Niveau 4 : colle le diamant à un pilier dès le tracé du couloir, avant de
+ * poser les vigiles, s'il ne touche pas déjà le mur. Le chemin étant induit,
+ * le diamant a toujours une voisine libre hors couloir.
+ */
+function anchorDiamond(rng: Rng, level: Level, path: Pos[]): Level {
+  if (diamondAgainstWall(level)) return level
+  const onPath = new Set(path.map((p) => key(...p)))
+  const [x, y] = level.diamond
+  const options = STEPS.map(([dx, dy]): Pos => [x + dx, y + dy]).filter(
+    ([nx, ny]) => isFloor(level, nx, ny) && !onPath.has(key(nx, ny)),
+  )
+  return options.length > 0 ? { ...level, pillars: [...level.pillars, rng.pick(options)] } : level
+}
+
+/**
+ * Niveau 4 : piliers dans `count` coudes du couloir, avant de poser les
+ * vigiles. La case intérieure d'un virage touche le couloir sur deux côtés :
+ * toute ligne qui la traverse traverse aussi le couloir, seul un vigile posé
+ * dessus pourrait la couvrir. Un pilier fait l'économie de ce vigile.
+ */
+function cornerPillars(rng: Rng, level: Level, path: Pos[], count: number): Level {
+  const blocked = new Set([...path, ...level.pillars].map((p) => key(...p)))
+  const inner = new Map<string, Pos>()
+  for (let i = 1; i < path.length - 1; i++) {
+    const [a, p, b] = [path[i - 1], path[i], path[i + 1]]
+    if (a[0] === b[0] || a[1] === b[1]) continue
+    const c: Pos = [a[0] + b[0] - p[0], a[1] + b[1] - p[1]]
+    if (isFloor(level, ...c) && !blocked.has(key(...c))) inner.set(key(...c), c)
+  }
+  const picked = rng.shuffle([...inner.values()]).slice(0, count)
+  return { ...level, pillars: [...level.pillars, ...picked] }
+}
+
 function samePos(a: Pos, b: Pos): boolean {
   return a[0] === b[0] && a[1] === b[1]
 }
@@ -516,14 +579,33 @@ function tryGenerate(
     solution: [],
   }
 
+  let lap = Date.now()
+  const step = (name: GenerationStep) => {
+    const now = Date.now()
+    stats.onEvent?.({ type: 'step', step: name, ms: now - lap })
+    lap = now
+  }
+
   // 1. Le couloir, dans une salle vide.
   const minLength = width + height
   const maxLength = Math.max(minLength, Math.floor(width * height * 0.4))
   const path = randomPath(rng, empty, minLength + rng.nextInt(maxLength - minLength + 1), MIN_TURNS)
+  step('path')
   if (!path) {
     return fail(stats, 'path')
   }
-  const room: Level = { ...empty, diamond: path[path.length - 1] }
+  let room: Level = { ...empty, diamond: path[path.length - 1] }
+  const early = EARLY_PILLARS[index]
+  if (early) {
+    const [min, max] = early
+    room = cornerPillars(
+      rng,
+      anchorDiamond(rng, room, path),
+      path,
+      min + rng.nextInt(max - min + 1),
+    )
+    step('anchor')
+  }
 
   // 2. Des vigiles qui matérialisent le couloir, sans contrainte de nombre.
   const kit: GuardKit = {
@@ -532,6 +614,7 @@ function tryGenerate(
   }
   const started = Date.now()
   const first = greedyCover(rng, room, path, kit, [])
+  step('cover')
   if (!first) {
     stats.constructMs += Date.now() - started
     return fail(stats, 'construct')
@@ -546,11 +629,14 @@ function tryGenerate(
     first,
     TARGET_GUARDS[index],
     MIN_PILLARS[index],
+    MAX_PILLARS[index],
   )
+  step('pillars')
   const anchored = DIAMOND_AGAINST_WALL[index]
     ? placeDiamondAgainstWall(rng, reduced.level, path, kit, reduced.guards)
     : reduced
   stats.constructMs += Date.now() - started
+  step('diamond')
   if (!anchored) return fail(stats, 'diamond')
 
   // Niveau 4 : 1 ou 2 vigiles remplacés par des miroirs.
@@ -558,6 +644,7 @@ function tryGenerate(
     index === 4
       ? replaceGuardsWithMirrors(rng, anchored.level, path, anchored.guards, 1 + rng.nextInt(2))
       : anchored
+  step('mirror')
   if (index === 4 && mirrored.level.mirrors.length === 0) return fail(stats, 'mirror')
   const solution = mirrored.guards
   if (!solution.every((g) => isFacingAllowed(mirrored.level, g))) {
@@ -574,11 +661,13 @@ function tryGenerate(
   // 4. Les indices guides, jusqu'à l'unicité du couloir.
   const pool = poolOf(solution)
   const seeded = seedClues(rng, { ...mirrored.level, solution }, path, solution, SEED_EXTRA[index])
+  step('seed')
   if (!seeded) {
     return fail(stats, 'clues')
   }
   const level: Level = { ...mirrored.level, pool, solution, clues: seeded }
-  const unique = addCluesUntilUnique(rng, level, path, MAX_CLUES[index], stats)
+  const unique = addCluesUntilUnique(rng, level, path, MAX_CLUES[index], SOLVE_RIVALS[index], stats)
+  step('unique')
   if (!unique) {
     return fail(stats, 'clues')
   }
@@ -613,6 +702,22 @@ function mirrorsEssential(level: Level, path: Pos[], guards: Guard[]): boolean {
 }
 
 /**
+ * Vigile à une lampe sur la case duquel tombe le faisceau d'un autre vigile :
+ * seul candidat à céder sa place à un miroir. Un vigile bloque la lumière, on
+ * regarde donc si sa case serait éclairée sans lui.
+ */
+function isTargeted(level: Level, guards: Guard[], guard: Guard): boolean {
+  if (guard.type !== 'simple') return false
+  const [x, y] = guard.pos
+  return (
+    computeVision(
+      level,
+      guards.filter((g) => g !== guard),
+    ).seen[y][x] > 0
+  )
+}
+
+/**
  * Remplace jusqu'à `count` vigiles par des miroirs. Un vigile qui reçoit un
  * faisceau par le côté peut céder sa place à un miroir qui renvoie ce faisceau
  * sur sa propre ligne : ses cases restent éclairées, avec un vigile de moins.
@@ -628,8 +733,9 @@ function replaceGuardsWithMirrors(
 ): { level: Level; guards: Guard[] } {
   let current = { level, guards }
   for (let placed = 0; placed < count; placed++) {
+    const targets = current.guards.filter((g) => isTargeted(current.level, current.guards, g))
     const options = rng.shuffle(
-      current.guards.flatMap((g) => (['/', '\\'] as const).map((kind) => ({ g, kind }))),
+      targets.flatMap((g) => (['/', '\\'] as const).map((kind) => ({ g, kind }))),
     )
     const next = options
       .map(({ g, kind }) => ({
@@ -664,6 +770,37 @@ export function levelOrigin(date: string): { base: number; variant: Variant } {
 /** Grilles de base déjà calculées : chacune sert à 8 dates d'une même génération. */
 const baseCache = new Map<string, Level>()
 
+/**
+ * Grilles de base écrites une fois pour toutes, jamais régénérées : chaque
+ * fichier est la version d'origine (variante 0) de sa base, relu au lieu
+ * d'être recalculé.
+ * - base 33 : la grille d'essai du niveau 4, validée par Julien ;
+ * - bases 1, 9, 11, 27, 48 : gardées telles qu'avant le plafond de piliers
+ *   (`MAX_PILLARS`), qui décalait leur tirage sans les concerner.
+ */
+const FIXED_BASES: Record<string, string> = {
+  '4-1': challengeFile('2026-09-02', 4),
+  '4-9': challengeFile('2026-09-10', 4),
+  '4-11': challengeFile('2026-09-12', 4),
+  '4-27': challengeFile('2026-09-28', 4),
+  '4-33': challengeFile('2026-10-04', 4),
+  '4-48': challengeFile('2026-10-19', 4),
+}
+
+function challengeFile(date: string, index: LevelIndex): string {
+  const dir = join(import.meta.dirname, '../app/games/anglemort/challenges', date.slice(0, 7))
+  return join(dir, `${date}-${index}.json`)
+}
+
+function loadFixedBase(file: string, base: number): Level {
+  const level = JSON.parse(readFileSync(file, 'utf-8')) as Level
+  const origin = levelOrigin(level.id.slice(0, 10))
+  if (origin.base !== base || origin.variant !== 0) {
+    throw new Error(`Angle mort : ${level.id} n'est pas la version d'origine de la base ${base}`)
+  }
+  return level
+}
+
 export function generateBaseLevel(
   index: LevelIndex,
   base: number,
@@ -673,6 +810,12 @@ export function generateBaseLevel(
   const cacheKey = `${index}-${base}`
   const cached = baseCache.get(cacheKey)
   if (cached) return cached
+  const fixed = FIXED_BASES[cacheKey]
+  if (fixed) {
+    const level = loadFixedBase(fixed, base)
+    baseCache.set(cacheKey, level)
+    return level
+  }
   const rng = new Rng(`anglemort-${index}-base-${base}`)
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     stats.attempts++

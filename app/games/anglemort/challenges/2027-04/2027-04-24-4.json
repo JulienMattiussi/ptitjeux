@@ -1,0 +1,163 @@
+{
+  "id": "2027-04-24-4",
+  "name": "Niveau 4 · 10×9",
+  "width": 10,
+  "height": 9,
+  "pillars": [
+    [
+      4,
+      2
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "mirrors": [
+    {
+      "pos": [
+        6,
+        1
+      ],
+      "kind": "/"
+    },
+    {
+      "pos": [
+        2,
+        5
+      ],
+      "kind": "\\"
+    }
+  ],
+  "door": [
+    9,
+    6
+  ],
+  "diamond": [
+    4,
+    1
+  ],
+  "clues": {
+    "5,8": 0,
+    "3,7": 0,
+    "1,5": 0,
+    "4,4": 2,
+    "5,5": 2,
+    "3,0": 0,
+    "0,2": 1,
+    "8,6": 0,
+    "7,6": 0,
+    "6,6": 0,
+    "3,8": 0,
+    "2,3": 1,
+    "1,4": 0
+  },
+  "pool": {
+    "simple": 7,
+    "angle": 3,
+    "oppose": 0
+  },
+  "solution": [
+    {
+      "pos": [
+        5,
+        0
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        6,
+        3
+      ],
+      "type": "angle",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        3,
+        4
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        7,
+        8
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        3,
+        2
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        2,
+        1
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        7,
+        7
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        4,
+        7
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        7,
+        2
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        0,
+        8
+      ],
+      "type": "angle",
+      "facing": "N"
+    }
+  ],
+  "parMoves": 10
+}

@@ -1,0 +1,169 @@
+{
+  "id": "2026-11-28-4",
+  "name": "Niveau 4 · 9×10",
+  "width": 9,
+  "height": 10,
+  "pillars": [
+    [
+      6,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "mirrors": [
+    {
+      "pos": [
+        0,
+        8
+      ],
+      "kind": "\\"
+    }
+  ],
+  "door": [
+    0,
+    0
+  ],
+  "diamond": [
+    6,
+    6
+  ],
+  "clues": {
+    "6,3": 0,
+    "8,5": 0,
+    "4,0": 0,
+    "2,8": 2,
+    "5,8": 2,
+    "7,6": 0,
+    "2,1": 0,
+    "1,1": 0,
+    "8,6": 0,
+    "5,1": 0
+  },
+  "pool": {
+    "simple": 7,
+    "angle": 4,
+    "oppose": 0
+  },
+  "solution": [
+    {
+      "pos": [
+        4,
+        2
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        5,
+        9
+      ],
+      "type": "angle",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        3,
+        3
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        2,
+        5
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        0,
+        6
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        1,
+        6
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        6,
+        4
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        6,
+        0
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        7,
+        2
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        8,
+        7
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        7,
+        5
+      ],
+      "type": "simple",
+      "facing": "W"
+    }
+  ],
+  "parMoves": 11
+}

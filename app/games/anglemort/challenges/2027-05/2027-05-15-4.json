@@ -1,0 +1,169 @@
+{
+  "id": "2027-05-15-4",
+  "name": "Niveau 4 · 9×10",
+  "width": 9,
+  "height": 10,
+  "pillars": [
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "mirrors": [
+    {
+      "pos": [
+        0,
+        4
+      ],
+      "kind": "/"
+    },
+    {
+      "pos": [
+        4,
+        2
+      ],
+      "kind": "\\"
+    }
+  ],
+  "door": [
+    0,
+    0
+  ],
+  "diamond": [
+    5,
+    5
+  ],
+  "clues": {
+    "8,4": 0,
+    "6,3": 0,
+    "3,6": 0,
+    "1,7": 2,
+    "3,2": 2,
+    "5,7": 0,
+    "7,2": 0,
+    "0,3": 0,
+    "2,5": 0,
+    "2,3": 0,
+    "2,9": 1
+  },
+  "pool": {
+    "simple": 7,
+    "angle": 4,
+    "oppose": 0
+  },
+  "solution": [
+    {
+      "pos": [
+        1,
+        1
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        1,
+        0
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        1,
+        4
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        2,
+        7
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        4,
+        6
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        6,
+        8
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        6,
+        9
+      ],
+      "type": "angle",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        7,
+        3
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        1,
+        2
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        3,
+        4
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        5,
+        0
+      ],
+      "type": "angle",
+      "facing": "E"
+    }
+  ],
+  "parMoves": 11
+}

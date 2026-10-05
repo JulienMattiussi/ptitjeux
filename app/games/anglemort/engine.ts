@@ -311,8 +311,8 @@ export function corridorOrder(cells: Pos[], door: Pos): Pos[] {
 }
 
 /**
- * Couloir attendu, pour le mode de mise au point `?couloir` : celui que laisse
- * la solution enregistrée, ou le couloir tracé d'une grille d'expérimentation.
+ * Couloir attendu, révélé par l'aide : celui que laisse la solution
+ * enregistrée, ou le couloir tracé d'une grille d'expérimentation.
  */
 export function expectedCorridor(level: Level): Pos[] {
   if (level.corridor) return level.corridor

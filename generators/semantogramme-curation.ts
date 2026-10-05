@@ -71,6 +71,24 @@ export function revealsTheme(word: string, theme: string): boolean {
   return !!ending && w.includes(t.slice(0, -ending.length))
 }
 
+/**
+ * L'indice d'aide trahit-il le thème ? Dans les deux sens, mot par mot :
+ * fleur / fleurs, musique / musique populaire, météorologie / météo.
+ */
+export function hintRevealsTheme(hint: string, theme: string): boolean {
+  return hint.split(' ').some((w) => revealsTheme(w, theme) || revealsTheme(theme, w))
+}
+
+/**
+ * Ce que révèle l'aide en jeu : les domaines de sens du thème qui ne le
+ * trahissent pas, à défaut sa catégorie. Vide si la catégorie le trahit aussi.
+ */
+export function helpDomains(theme: string, category: string, domains: string[]): string[] {
+  const safe = domains.filter((d) => !hintRevealsTheme(d, theme))
+  if (safe.length > 0) return safe
+  return hintRevealsTheme(category, theme) ? [] : [category]
+}
+
 /** Problèmes d'un mot pris isolément, au regard de son thème. */
 export function wordIssues(
   word: string,

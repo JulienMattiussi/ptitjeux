@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
 import { PlayControls } from '~/components/PlayControls'
@@ -23,6 +24,7 @@ import type { GameState } from '~/games/semantogramme/types'
 import { moveCellCursor } from '~/lib/cursor'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
@@ -93,6 +95,7 @@ function SemantogrammePlay() {
     if (level) prefetchDefinition(level.themeWord)
   }, [level])
   const { beatPar, variant } = getVictoryState(level, state.moves)
+  const hint = useHint(state.moves, level?.parMoves)
 
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({
@@ -173,7 +176,16 @@ function SemantogrammePlay() {
           }}
         />
         <PlaySidebar>
-          <MovesCard label="Clics" moves={state.moves} parMoves={level.parMoves} />
+          <MovesCard
+            label="Clics"
+            moves={state.moves}
+            parMoves={level.parMoves}
+            hint={
+              <HintButton hint={hint} label={level.domains.length > 1 ? 'Domaines' : 'Domaine'}>
+                {level.domains.join(', ')}
+              </HintButton>
+            }
+          />
 
           <PlayControls
             onUndo={() => {

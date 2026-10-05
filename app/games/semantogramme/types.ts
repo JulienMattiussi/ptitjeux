@@ -13,6 +13,11 @@ export type Level = {
   colClues: number[]
   /** Mot-thème caché. */
   themeWord: string
+  /**
+   * Révélés par l'aide : domaines de sens du thème (curation `domains.json`) qui
+   * ne le trahissent pas, à défaut sa catégorie (`helpDomains`).
+   */
+  domains: string[]
   /** Solution : pour chaque case, true si liée au thème. */
   solution: boolean[][]
   /** Nombre maximum de cycles de cases pour que la résolution soit « parfaite ». */

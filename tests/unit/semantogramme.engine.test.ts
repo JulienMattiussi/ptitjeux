@@ -25,6 +25,7 @@ function makeLevel(overrides: Partial<Level> = {}): Level {
     rowClues: [1, 1],
     colClues: [1, 1],
     themeWord: 'animal',
+    domains: ['animaux'],
     solution: [
       [true, false],
       [false, true],

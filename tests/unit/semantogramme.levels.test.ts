@@ -7,6 +7,8 @@ import {
   setCellStatus,
   setThemeGuess,
 } from '~/games/semantogramme/engine'
+import { loadDomains } from '../../generators/semantogramme'
+import { helpDomains, loadCuration } from '../../generators/semantogramme-curation'
 import { familyPairs, normalizeWord } from '../../generators/semantogramme-rules'
 
 describe('niveaux Sémantogramme : intégrité', () => {
@@ -132,6 +134,29 @@ describe('niveaux Sémantogramme : intégrité', () => {
         for (const w of words) if (earlier.has(w)) found.push(`${sorted[d]} : ${w}`)
       }
     })
+    expect(found).toEqual([])
+  })
+
+  it("l'aide révèle des domaines (ou la catégorie) qui ne trahissent pas le thème", () => {
+    const curation = loadCuration()
+    const domainsOf = new Map<string, string[]>()
+    for (const [domain, themes] of Object.entries(loadDomains())) {
+      for (const t of themes) domainsOf.set(t, [...(domainsOf.get(t) ?? []), domain])
+    }
+    const found: string[] = []
+    for (const date of dates) {
+      for (const i of [1, 2, 3, 4] as const) {
+        const level = getLevel(date, i)!
+        const scheduled = curation.schedule[`${i}`].find((t) => t.date === date)!
+        const expected = helpDomains(
+          level.themeWord,
+          scheduled.category,
+          domainsOf.get(level.themeWord) ?? [],
+        )
+        if (expected.length === 0 || level.domains.join('|') !== expected.join('|'))
+          found.push(`${level.id} : ${level.domains.join(', ')}`)
+      }
+    }
     expect(found).toEqual([])
   })
 

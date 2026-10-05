@@ -25,6 +25,14 @@ html {
   height: 100%;
 }
 
+/* Tailwind v4 ne met plus la main sur les boutons : on la rétablit partout. */
+@layer base {
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+  }
+}
+
 html,
 body {
   @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;

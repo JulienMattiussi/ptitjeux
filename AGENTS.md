@@ -42,8 +42,8 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 
 - **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`. Aucun mot ne sert deux fois sur l'ensemble des niveaux (même mécanisme que Boucle).
 - **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`. Aucun mot ne sert deux fois sur l'ensemble des niveaux : le générateur exclut les mots déjà publiés (`usedWords`, fourni par `scripts/generate-levels.ts`).
-- **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`.
-- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis prouver que le **couloir est unique** (`generators/anglemort-corridors.ts` : couloirs compatibles avec les indices, chaque concurrent déclaré impossible par le solveur). Plusieurs poses peuvent produire ce couloir, c'est voulu. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour. Chaque grille de base sert 8 fois (symétries, qui conservent l'unicité) : `make test` prouve l'unicité sur chaque grille d'origine, `make verify-levels` sur tous les niveaux.
+- **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`. Le même test vérifie les règles de variété : mots d'un jour tous différents et différents des thèmes du jour (règle 2), aucun mot commun avec les deux jours précédents (règle 3), pas deux mots de la même famille dans une grille (règle 4), thèmes tous distincts. La curation (`generators/semantogramme-curation/`) a son propre test sur tout le corpus (`tests/unit/semantogramme-curation.test.ts`), règles dans `generators/semantogramme-curation.ts` ; voir [docs/semantogramme-curation.md](docs/semantogramme-curation.md). **Ne jamais régénérer l'année Sémantogramme** : les grilles publiées sont relues et jouées. Un mot à corriger se corrige localement, dans la curation et dans le JSON du niveau (procédure dans [docs/semantogramme-curation.md](docs/semantogramme-curation.md)).
+- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis prouver que le **couloir est unique** (`generators/anglemort-corridors.ts` : couloirs compatibles avec les indices, chaque concurrent déclaré impossible par le solveur). Plusieurs poses peuvent produire ce couloir, c'est voulu. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour. Chaque grille de base sert 8 fois (symétries, qui conservent l'unicité) : `make test` prouve l'unicité sur chaque grille d'origine, `make verify-levels` sur tous les niveaux. La preuve dispose d'un budget de solveur plus large que la génération (`PROOF_NODES` contre `RIVAL_NODES`, dans `generators/anglemort.ts`) : une variante tournée peut demander plus de calcul que sa grille d'origine.
 
 **Ajouter un niveau sans son entrée dans le fichier de tests d'intégrité fait échouer le test concerné** (par construction : la map `SOLUTIONS` ou `LEVEL_IDS` doit être mise à jour). C'est intentionnel et bloquant.
 
@@ -52,7 +52,7 @@ Cette règle empêche de livrer un puzzle qu'on n'a pas su résoudre soi-même, 
 ### Build vs runtime
 
 - Les générateurs (`generators/`, `scripts/generate-levels.ts`) tournent **uniquement à la commande explicite** `make generate-levels`. Aucune autre cible (build, test, dev) ne les déclenche.
-- Le dossier `generators/` n'est **jamais** importé depuis `app/` — son contenu (336 k mots, embeddings) ne doit pas finir dans le bundle runtime.
+- Le dossier `generators/` n'est **jamais** importé depuis `app/` — son contenu (336 k mots, curation Sémantogramme) ne doit pas finir dans le bundle runtime.
 - Les niveaux JSON sont commités dans `app/games/<jeu>/challenges/<YYYY-MM>/<YYYY-MM-DD>-<index>.json`.
 
 ## Architecture
@@ -127,6 +127,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |
 | Compteur de coups + objectif (sidebar) | `app/components/MovesCard.tsx` (extras du jeu en `children`) |
 | Boutons Annuler (Ctrl+Z) / Recommencer (R) | `app/components/PlayControls.tsx` |
+| Aide « Coincé ? » (au-delà de 2 × `parMoves`) | `app/lib/useHint.ts` + `app/components/HintButton.tsx` (prop `hint` de `MovesCard`) |
 | Annulation pour un moteur sans historique | `app/lib/undoable.ts` (`withUndo`, `undoable`) |
 
 Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas déjà** un équivalent dans `lib/` ou `components/`. Avant de copier-coller du code entre 2 routes/jeux, **extraire** dans `lib/`.
@@ -147,7 +148,7 @@ Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas dé
 ### Style
 
 - Prettier : pas de point-virgule, single quotes, 100 cols, trailing comma all.
-- `make format` couvre tout le code (`app/`, `tests/`, `generators/`, `scripts/`, configs racine). Exclus via `.prettierignore` : niveaux JSON générés, dictionnaire, thèmes Sémantogramme (un thème par ligne).
+- `make format` couvre tout le code (`app/`, `tests/`, `generators/`, `scripts/`, configs racine). Exclus via `.prettierignore` : niveaux JSON générés, dictionnaire, données de curation Sémantogramme.
 - Pas de commentaires qui décrivent **ce que** le code fait — seulement le **pourquoi** quand non évident (contraintes, invariants, workarounds).
 - Pas de TODO/FIXME/HACK commités. Si le travail n'est pas fini, ouvrir un ticket ou laisser la branche non mergée.
 
@@ -268,9 +269,21 @@ Tout composant qui rend des éléments dépendant du jeu **consomme `GAME_ACCENT
 - L'overlay anime son apparition (`animate-fade-in-up`) ; la carte intérieure fait `animate-pop`.
 - Les transitions de blocs / arêtes / cellules utilisent `duration-200` (pas plus, pour rester réactif).
 
+### Aide
+
+Quand le joueur dépasse le double de `parMoves` (`HINT_PAR_FACTOR` dans `app/lib/useHint.ts`), un bouton « Coincé ? Un peu d'aide ? » apparaît à droite du compteur de coups. Une fois proposé, il reste proposé (annuler ou recommencer ne le retire pas) ; une fois révélée, l'aide reste affichée jusqu'à la fin de la partie. Ce qu'elle révèle dépend du jeu :
+
+| Jeu | Aide |
+|---|---|
+| Sokomot | Rang de pose de chaque lettre, tiré de la `solution` (`placementOrder`) |
+| Boucle | Le mot à encercler |
+| Sémantogramme | Le ou les domaines de sens du thème (champ `domains` du niveau, tiré de `domains.json`) ; un domaine qui trahit le thème est écarté, à défaut on montre la catégorie (`helpDomains` dans `generators/semantogramme-curation.ts`) |
+| Angle mort | Le couloir attendu, teinté sur la grille (`expectedCorridor`) |
+
 ### Mot du jour et définitions
 
 - Tout niveau à mots a un **mot cible** (Sokomot/Boucle) ou un **thème** (Sémantogramme). Angle mort n'a pas de mot.
+- Un même jour, deux jeux ne font jamais chercher le même mot (`tests/unit/daily-words.test.ts`) : `scripts/generate-levels.ts` exclut les mots déjà publiés par les autres jeux à cette date. Les thèmes Sémantogramme étant fixés par la curation, une collision se règle en régénérant le niveau de l'autre jeu.
 - À l'arrivée sur la page de jeu, on **précharge** la définition Wiktionnaire (`prefetchDefinition`) pour qu'elle soit instantanée à la victoire.
 - Le mot envoyé au Wiktionnaire est `level.canonicalWord ?? level.target.word` — préserve les **accents** (le display est ASCII pour la grille, le canonical avec accents pour l'API).
 - Endpoint utilisé : **`fr.wiktionary.org/w/api.php`** (action=query, prop=extracts). Le REST `/api/rest_v1/page/definition` ne marche **pas** sur le Wiktionnaire FR (501).
@@ -298,8 +311,8 @@ Tout composant qui rend des éléments dépendant du jeu **consomme `GAME_ACCENT
 
 - Chaque jeu définit son `Level` typé dans `app/games/<jeu>/types.ts`.
 - Les niveaux sont des fichiers JSON dans `app/games/<jeu>/challenges/<YYYY-MM>/<YYYY-MM-DD>-<index>.json`.
-- **Aucun calcul coûteux à l'exécution** — tout est précalculé offline (notamment les embeddings sémantiques pour Sémantogramme).
-- Le champ `solution` (Sokomot) ou équivalent est uniquement lu par les **tests d'intégrité**, pas par le moteur runtime.
+- **Aucun calcul coûteux à l'exécution** — tout est précalculé offline (Sémantogramme : grilles tirées d'une curation écrite à la main, aucun calcul sémantique).
+- Le champ `solution` (Sokomot) ou équivalent est lu par les **tests d'intégrité** et par l'**aide** (voir « Aide »), jamais par la logique de jeu.
 - Le champ `parMoves` définit l'objectif pour le statut `perfect`.
 
 ## Pattern critique — remount par `key`

@@ -140,12 +140,9 @@ Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont li
 - **Synergie** : un mot ambigu peut être tranché par contrainte croisée ligne/colonne, ou inversement, une intuition sémantique débloque une zone bloquée logiquement.
 
 ### Génération (offline, build-time)
-- Choisir un mot-thème.
-- Calculer les embeddings (OpenAI, multilingual sentence-transformers, ou fasttext) pour un dictionnaire.
-- Sélectionner N×N mots avec un mix de mots proches et lointains du thème.
-- Définir un seuil de similarité = "IN" ou "OUT".
-- Calculer les chiffres ligne/colonne.
-- Vérifier l'unicité de la solution Nonogram (avec solveur).
+- Les thèmes et leurs mots sont **curés à la main** (`generators/semantogramme-curation/`) : un thème par jour et par niveau, 10 / 15 / 18 / 19 mots selon le niveau.
+- Le générateur tire une partie des mots du thème, puis complète avec des mots d'autres thèmes, sans lien avec le thème courant (domaines de sens distincts) et jamais répétés à moins de 3 jours.
+- Détails, règles et commandes : [semantogramme-curation.md](semantogramme-curation.md).
 
 > Le runtime ne fait **pas** de calcul sémantique : tout est précalculé en JSON statique.
 
@@ -230,8 +227,8 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 |---|---|---|---|
 | 1 | 7×6 | simples | règles de base, couloir compris |
 | 2 | 8×7 | simples | grille plus grande, plus de piliers |
-| 3 | 9×8 | simples + au moins 2 doubles (angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
-| 4 | 10×9 | simples + doubles | 1 ou 2 miroirs |
+| 3 | 9×8 | simples + 2 à 3 doubles (angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
+| 4 | 10×9 | simples + au plus 4 doubles | 1 ou 2 miroirs, chacun indispensable |
 
 ### Couloir du cambrioleur
 - Longueur **variable**, au minimum `largeur + hauteur` cases (13 en 7×6, 19 en 10×9), au plus ~40 % des cases libres.
@@ -257,10 +254,11 @@ Ce qui est garanti, c'est qu'**un seul couloir** est possible, pas une seule pos
 2. pour chaque couloir concurrent, demander au solveur, couloir imposé, s'il existe une pose du lot qui le produit. Il doit n'en exister aucune.
 
 ### Génération (offline, build-time)
-1. Placer des piliers aléatoires (et les miroirs au niveau 4).
+1. Placer des piliers aléatoires.
 2. Tirer l'entrée sur le bord, puis un couloir auto-évitant **induit** (aucune case ne touche le couloir hors de ses voisines) de longueur et de nombre de virages conformes ; il se termine sur le diamant.
 3. Construire avec le solveur un placement de vigiles qui éclaire toutes les cases hors couloir sans éclairer le couloir, puis retirer les vigiles superflus.
-4. Déduire le lot, poser les indices d'office, puis ajouter à chaque tour l'indice qui élimine le plus de couloirs concurrents : un « 0 » sur le couloir élimine ceux qui l'évitent, un chiffre positif ceux qui traversent sa case. Quand il reste peu de concurrents, le solveur écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice). On s'arrête à l'**unicité du couloir**.
+4. Au niveau 4, remplacer 1 ou 2 vigiles par un miroir : un vigile qui reçoit déjà un faisceau par le côté peut devenir un miroir qui renvoie ce faisceau là où il éclairait. On ne garde que des miroirs indispensables (remplacé par un pilier, le couloir change).
+5. Déduire le lot, poser les indices d'office, puis ajouter à chaque tour l'indice qui élimine le plus de couloirs concurrents : un « 0 » sur le couloir élimine ceux qui l'évitent, un chiffre positif ceux qui traversent sa case. Quand il reste peu de concurrents, le solveur écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice). On s'arrête à l'**unicité du couloir**.
 
 Le solveur (`generators/anglemort-solver.ts`) gère le blocage par des bornes « éclairé à coup sûr » / « peut-être éclairé », propage les contraintes du couloir (degrés, connexité de l'entrée au diamant), des indices et de la couverture, et branche sur les vigiles capables d'éclairer la case la plus contrainte.
 

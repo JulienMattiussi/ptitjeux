@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
 import { PlayControls } from '~/components/PlayControls'
@@ -12,8 +13,10 @@ import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/sokomot/Board'
 import { getAllDates, getLevel } from '~/games/sokomot/challenges'
 import { isWon, loadLevel, reducer } from '~/games/sokomot/engine'
+import { PlacementOrder } from '~/games/sokomot/PlacementOrder'
 import type { GameState } from '~/games/sokomot/types'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useHint } from '~/lib/useHint'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
 import { gamePlayMeta } from '~/lib/seo'
@@ -42,6 +45,7 @@ function SokomotPlay() {
   )
 
   const won = level ? isWon(state) : false
+  const hint = useHint(state.moves, level?.parMoves)
 
   useEffect(() => {
     if (level) prefetchDefinition(level.canonicalWord ?? level.target.word)
@@ -124,7 +128,15 @@ function SokomotPlay() {
       >
         <Board state={state} />
         <PlaySidebar>
-          <MovesCard moves={state.moves} parMoves={level.parMoves} />
+          <MovesCard
+            moves={state.moves}
+            parMoves={level.parMoves}
+            hint={
+              <HintButton hint={hint} label="Ordre de pose">
+                <PlacementOrder level={level} />
+              </HintButton>
+            }
+          />
 
           <PlayControls
             onUndo={() => dispatch({ type: 'undo' })}

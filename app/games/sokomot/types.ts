@@ -20,7 +20,7 @@ export type Level = {
     cells: Coord[]
   }
   parMoves?: number
-  /** Suite de coups qui résout le niveau. Lue uniquement par les tests d'intégrité. */
+  /** Suite de coups qui résout le niveau. Lue par les tests d'intégrité et par l'aide. */
   solution?: Direction[]
   /** Forme canonique du mot cible (avec accents) pour la recherche Wiktionnaire. */
   canonicalWord?: string

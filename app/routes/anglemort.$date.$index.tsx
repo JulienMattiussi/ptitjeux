@@ -1,8 +1,9 @@
 import { useMemo, useReducer, useState } from 'react'
-import { useNavigate, useParams, useSearchParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
 import { PlayControls } from '~/components/PlayControls'
@@ -29,6 +30,7 @@ import { useThiefWalk } from '~/games/anglemort/useThiefWalk'
 import { moveCellCursor } from '~/lib/cursor'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
@@ -55,9 +57,6 @@ export default function AngleMortPlayRoute() {
 
 function AngleMortPlay() {
   const { date, index } = useParams<{ date: string; index: string }>()
-  // Mise au point : `?couloir` dans l'adresse teinte le couloir attendu.
-  const [searchParams] = useSearchParams()
-  const showCorridor = searchParams.has('couloir')
   const navigate = useNavigate()
   const idx = Number(index)
   const level = date && idx ? getLevel(date, idx) : undefined
@@ -112,6 +111,7 @@ function AngleMortPlay() {
   })
 
   const { beatPar, variant } = getVictoryState(level, state.moves)
+  const hint = useHint(state.moves, level?.parMoves)
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({
     gameId: 'anglemort',
@@ -167,7 +167,7 @@ function AngleMortPlay() {
         <div className="flex flex-col items-center gap-3">
           <Board
             state={state}
-            expected={showCorridor && level ? expectedCorridor(level) : undefined}
+            expected={hint.revealed ? expectedCorridor(level) : undefined}
             thief={walk.step >= 0 ? corridor[walk.step] : undefined}
             thiefFacing={
               walk.step > 0 ? stepDir(corridor[walk.step - 1], corridor[walk.step]) : undefined
@@ -194,7 +194,12 @@ function AngleMortPlay() {
           <GuardTypePicker state={state} selected={guardType} onSelect={setChosenType} />
         </div>
         <PlaySidebar>
-          <MovesCard label="Poses" moves={state.moves} parMoves={level.parMoves}>
+          <MovesCard
+            label="Poses"
+            moves={state.moves}
+            parMoves={level.parMoves}
+            hint={<HintButton hint={hint} label="Le couloir est teinté en rose sur la grille." />}
+          >
             <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">Vigiles à placer</div>
             <PoolTray state={state} />
           </MovesCard>

@@ -177,8 +177,9 @@ clavier via `moveEdgeSelection` (pivot horizontal↔vertical).
 **UI** : grille avec mots, indices Nonogram en marges, champ de saisie du
 thème quand la grille est résolue. Navigation clavier via `moveCellCursor`.
 
-Toute la donnée sémantique est précalculée offline (cf. AGENTS.md §Format),
-pas de calcul d'embeddings à l'exécution.
+Toute la donnée sémantique vient d'une curation écrite à la main (cf.
+[semantogramme-curation.md](semantogramme-curation.md)), aucun calcul
+sémantique à l'exécution.
 
 ---
 
@@ -224,7 +225,7 @@ Couverture attendue (cf. AGENTS.md §Tests) :
 - **Composants critiques** : `ChallengeListPage`, `ArchiveAccordion`,
   `LevelTile`, `VictoryOverlay`, `WordDefinition` — tests RTL.
 - **Routes de jeu** : smoke tests (rendu + URL invalide).
-- **Générateurs** : un test par jeu, branche curée et branche aléatoire.
+- **Générateurs** : un test par jeu (Sémantogramme : grilles conformes à la curation).
 - **Tests d'intégrité de niveaux** : rejoue la solution stockée dans chaque
   JSON. Bloquant par construction (la map `SOLUTIONS` / `LEVEL_IDS` doit
   être mise à jour à chaque ajout de niveau).

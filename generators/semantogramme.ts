@@ -5,6 +5,7 @@ import type { Level } from '~/games/semantogramme/types'
 import {
   LEVELS,
   REUSE_GAP,
+  helpDomains,
   loadCuration,
   revealsTheme,
   type Curation,
@@ -131,7 +132,18 @@ export function planYear(curation: Curation, domains: Domains): Map<string, Leve
       if (fillers.length < size * size - n) {
         throw new Error(`Sémantogramme ${date} L${level} : pas assez de mots hors thème`)
       }
-      levels.set(`${date}-${level}`, buildLevel(date, level, theme, members, fillers, rng))
+      const themeDomains = helpDomains(
+        theme,
+        curation.schedule[level][day].category,
+        domainsOfTheme.get(theme) ?? [],
+      )
+      if (themeDomains.length === 0) {
+        throw new Error(`Sémantogramme ${date} L${level} : aucun domaine ne cache le thème`)
+      }
+      levels.set(
+        `${date}-${level}`,
+        buildLevel(date, level, theme, themeDomains, members, fillers, rng),
+      )
     }
   })
   return levels
@@ -146,6 +158,7 @@ function buildLevel(
   date: string,
   level: ThemeLevel,
   theme: string,
+  domains: string[],
   members: string[],
   fillers: string[],
   rng: Rng,
@@ -175,6 +188,7 @@ function buildLevel(
       rowClues,
       colClues,
       themeWord: theme,
+      domains,
       solution,
       // Le minimum de clics est le nombre de cases thème : pas de marge.
       parMoves: members.length,

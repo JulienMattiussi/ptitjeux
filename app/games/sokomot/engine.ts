@@ -139,10 +139,35 @@ export function reset(state: GameState): GameState {
 export function isWon(state: GameState): boolean {
   const { target } = state.level
   if (target.cells.length !== target.word.length) return false
-  return target.cells.every((cell, index) => {
-    const block = blockAt(state.blocks, cell)
-    return block?.letter.toUpperCase() === target.word[index].toUpperCase()
+  return target.cells.every((_, index) => isCellFilled(state, index))
+}
+
+function isCellFilled(state: GameState, index: number): boolean {
+  const block = blockAt(state.blocks, state.level.target.cells[index])
+  return block?.letter.toUpperCase() === state.level.target.word[index].toUpperCase()
+}
+
+/**
+ * Rang de placement (1 = première posée) de chaque lettre du mot cible, dans
+ * l'ordre de la solution enregistrée : une lettre compte comme posée au dernier
+ * coup qui l'amène sur sa case, puisqu'elle n'en bouge plus ensuite. Vide si
+ * le niveau n'a pas de solution.
+ */
+export function placementOrder(level: Level): number[] {
+  if (!level.solution) return []
+  const placedAt = level.target.cells.map(() => -1)
+  let state = loadLevel(level)
+  level.solution.forEach((direction, step) => {
+    state = applyMove(state, direction)
+    placedAt.forEach((at, i) => {
+      if (!isCellFilled(state, i)) placedAt[i] = -1
+      else if (at === -1) placedAt[i] = step
+    })
   })
+  const sorted = placedAt.map((at, i) => ({ at, i })).sort((a, b) => a.at - b.at || a.i - b.i)
+  const ranks = placedAt.map(() => 0)
+  sorted.forEach(({ i }, rank) => (ranks[i] = rank + 1))
+  return ranks
 }
 
 export type Action = { type: 'move'; direction: Direction } | { type: 'undo' } | { type: 'reset' }

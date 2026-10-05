@@ -1,4 +1,4 @@
-# Sémantogramme — curation et génération des niveaux
+# Sémantogramme : curation et génération des niveaux
 
 Les 4 niveaux quotidiens sont tous issus d'une curation écrite à la main,
 dans `generators/semantogramme-curation/` (voir son README) : un thème par
@@ -48,17 +48,26 @@ précédents. Pour chaque niveau :
    case thème et une case hors thème.
 
 Le tirage est déterministe (graine `semantogramme:<date>:<niveau>`).
-`parMoves` vaut exactement le nombre de cases thème.
+`parMoves` vaut exactement le nombre de cases thème. Le champ `domains` du
+niveau est ce que révèle l'aide en jeu : les domaines de sens du thème
+(`domains.json`) qui ne le trahissent pas (fleur / fleurs, musique / musique
+populaire), à défaut sa catégorie (`helpDomains`). Un domaine s'affiche tel
+quel en jeu : son nom doit rester un indice lisible.
 
-## Modifier un thème
+## Corriger un mot
 
-Éditer `words/<mois>.json` (ou `schedule.json`), vérifier avec `make test`,
-puis régénérer :
+Les grilles publiées ont été relues et jouées : **on ne régénère plus
+l'année**. Une génération rejouée changerait les mots hors thème de tous les
+jours suivants.
 
-```bash
-make generate-levels ARGS="--game semantogramme --clean"
-```
+Une correction est locale :
 
-Une modification change aussi les mots hors thème des jours suivants : toute
-l'année est régénérée. Un joueur qui a déjà résolu un niveau garde sa
-progression, mais la grille peut avoir changé.
+1. remplacer le mot dans `words/<mois>.json` ;
+2. remplacer le même mot, à la même case, dans le JSON du niveau
+   (`app/games/semantogramme/challenges/<AAAA-MM>/<date>-<niveau>.json`). Un
+   mot du thème est remplacé par un mot du thème, un mot hors thème par un mot
+   hors thème : `solution`, `rowClues`, `colClues` et `parMoves` ne bougent
+   pas ;
+3. `make test` : le test d'intégrité revérifie les règles 2, 3 et 4 sur le
+   niveau et ses jours voisins, le test de curation revérifie la liste ;
+4. `make verify-levels`.

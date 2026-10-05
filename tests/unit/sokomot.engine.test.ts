@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { applyMove, isWon, loadLevel, undo } from '~/games/sokomot/engine'
+import { applyMove, isWon, loadLevel, placementOrder, undo } from '~/games/sokomot/engine'
 import type { Level } from '~/games/sokomot/types'
 
 function makeLevel(overrides: Partial<Level> = {}): Level {
@@ -112,5 +112,33 @@ describe('sokomot engine', () => {
     expect(isWon(state)).toBe(false)
     const moved = applyMove(state, 'right')
     expect(isWon(moved)).toBe(true)
+  })
+})
+
+describe('sokomot placementOrder', () => {
+  // B est poussé sur sa case au 1er coup, A au 4e : B se pose en premier.
+  const twoBlocks = makeLevel({
+    height: 4,
+    player: [1, 1],
+    blocks: [
+      { id: 'b1', letter: 'B', pos: [2, 1] },
+      { id: 'b2', letter: 'A', pos: [2, 2] },
+    ],
+    target: {
+      word: 'AB',
+      cells: [
+        [3, 2],
+        [3, 1],
+      ],
+    },
+    solution: ['right', 'left', 'down', 'right'],
+  })
+
+  it('donne à chaque lettre son rang de pose dans la solution', () => {
+    expect(placementOrder(twoBlocks)).toEqual([2, 1])
+  })
+
+  it('renvoie une liste vide sans solution enregistrée', () => {
+    expect(placementOrder(makeLevel())).toEqual([])
   })
 })

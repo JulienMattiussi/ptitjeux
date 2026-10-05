@@ -48,7 +48,7 @@ export type Level = {
   pool: Pool
   /** Taille du lot : une pose par vigile, sans retrait. */
   parMoves?: number
-  /** Lu uniquement par le test d'intégrité (et par le mode `?couloir`). */
+  /** Lu par le test d'intégrité et par l'aide (couloir attendu). */
   solution: Guard[]
   /**
    * Mise au point uniquement : couloir attendu d'une grille d'expérimentation

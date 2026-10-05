@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { getAllDates, getLevel } from '~/games/sokomot/challenges'
-import { applyMove, isWon, loadLevel } from '~/games/sokomot/engine'
+import { applyMove, isWon, loadLevel, placementOrder } from '~/games/sokomot/engine'
 
 /**
  * Vérifie que **chaque niveau de chaque défi quotidien généré** est résoluble :
@@ -40,6 +40,19 @@ describe('niveaux Sokomot : intégrité', () => {
         }
       }
     }
+  })
+
+  it("l'aide donne un rang de pose distinct à chaque lettre", () => {
+    const found: string[] = []
+    for (const date of dates) {
+      for (const i of [1, 2, 3, 4] as const) {
+        const level = getLevel(date, i)!
+        const ranks = placementOrder(level)
+        const expected = level.target.word.split('').map((_, r) => r + 1)
+        if ([...ranks].sort((a, b) => a - b).join() !== expected.join()) found.push(level.id)
+      }
+    }
+    expect(found).toEqual([])
   })
 
   it('aucun mot ne sert deux fois, tous jours et niveaux confondus', () => {

@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
+import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
 import { PlayControls } from '~/components/PlayControls'
@@ -25,6 +26,7 @@ import {
 import type { Edge, GameState } from '~/games/boucle/types'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
+import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { getVictoryState } from '~/lib/victoryState'
@@ -81,6 +83,7 @@ function BouclePlay() {
 
   const loopOk = level ? isValidLoop(state.edges) : false
   const { beatPar, variant } = getVictoryState(level, state.moves)
+  const hint = useHint(state.moves, level?.parMoves)
 
   const allDates = getAllDates()
   const { dateChip, nextHref } = useLevelPlayLifecycle({
@@ -148,7 +151,15 @@ function BouclePlay() {
           }}
         />
         <PlaySidebar>
-          <MovesCard moves={state.moves} parMoves={level.parMoves}>
+          <MovesCard
+            moves={state.moves}
+            parMoves={level.parMoves}
+            hint={
+              <HintButton hint={hint} label="Mot à encercler">
+                {level.solutionWord}
+              </HintButton>
+            }
+          >
             <div className="flex flex-col gap-1 text-sm">
               <StatusRow label="Indices ok" value={`${okClues} / ${totalClues}`} ok={cluesOk} />
               <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'ouverte'} ok={loopOk} />

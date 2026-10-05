@@ -13,7 +13,7 @@ type Props = {
   onCellRemove: (x: number, y: number) => void
   selected?: { x: number; y: number }
   onHoverCell?: (x: number, y: number) => void
-  /** Mise au point (`?couloir`) : couloir attendu, teinté sur le plateau. */
+  /** Aide : couloir attendu, teinté sur le plateau. */
   expected?: Pos[]
   /** Position du cambrioleur pendant sa traversée de victoire. */
   thief?: Pos

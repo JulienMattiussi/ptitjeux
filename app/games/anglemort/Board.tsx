@@ -116,7 +116,7 @@ export function Board({
       <svg
         viewBox={`0 0 ${width} ${height}`}
         style={{ width }}
-        className="h-auto max-w-full select-none"
+        className="h-auto max-w-full select-none [-webkit-touch-callout:none]"
       >
         <rect
           x={MARGIN - WALL}

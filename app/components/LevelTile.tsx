@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 import { CheckMark } from './CheckMark'
 import { ChevronRight, LockIcon } from './icons'
-import { THUMBNAILS } from '~/games/thumbnails'
+import { ThumbnailRef } from './Thumbnail'
 import type { CompletionStatus } from '~/lib/completion'
 import { dateLabel } from '~/lib/dates'
 import { GAME_ACCENT, GAME_SIZE, type GameId } from '~/lib/game-styles'
@@ -30,7 +30,6 @@ function archiveLabel(index: number, date: string, status: CompletionStatus): st
 export function LevelTile({ gameId, date, index, locked, status, variant = 'daily' }: Props) {
   const c = GAME_ACCENT[gameId]
   const { width, height } = GAME_SIZE[gameId](index)
-  const Thumbnail = THUMBNAILS[gameId]
   const compact = variant === 'archive'
 
   const sizeBadgeBase = `font-display font-extrabold tracking-tight rounded-full border-2 bg-white/95 backdrop-blur dark:bg-gray-900/95 ${c.badgeBorder} ${c.text}`
@@ -56,7 +55,7 @@ export function LevelTile({ gameId, date, index, locked, status, variant = 'dail
       )}
 
       <div className="relative aspect-3/2 overflow-hidden rounded-md bg-gray-100 dark:bg-gray-950">
-        <Thumbnail className="h-full w-full opacity-80" />
+        <ThumbnailRef gameId={gameId} className="h-full w-full opacity-80" />
         <div className="absolute inset-0 flex items-center justify-center">
           <span className={sizeBadgeClass}>
             {width} × {height}

@@ -1,7 +1,5 @@
-type Props = { className?: string }
-
 /** Aperçu de Boucle : une boucle encercle un mot. */
-export function Thumbnail({ className = '' }: Props) {
+export function ThumbnailArt() {
   const COLS = [22.5, 47.5, 72.5, 97.5]
   const ROWS = [20, 40, 60]
   const letters = [
@@ -10,7 +8,7 @@ export function Thumbnail({ className = '' }: Props) {
     ['N', 'W', 'J', 'V'],
   ]
   return (
-    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu de Boucle">
+    <>
       <defs>
         <linearGradient id="boucle-bg" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="oklch(95% 0.04 170)" />
@@ -64,6 +62,6 @@ export function Thumbnail({ className = '' }: Props) {
       <text x="13" y="56" fontSize="6" fontWeight="700" fill="oklch(45% 0.18 145)">
         3
       </text>
-    </svg>
+    </>
   )
 }

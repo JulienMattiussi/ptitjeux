@@ -1,11 +1,9 @@
 import { PencilSprite } from './PencilSprite'
 
-type Props = { className?: string }
-
 /** Aperçu de Sokomot : pousser une lettre vers la zone cible. */
-export function Thumbnail({ className = '' }: Props) {
+export function ThumbnailArt() {
   return (
-    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu de Sokomot">
+    <>
       <defs>
         <linearGradient id="sokomot-bg" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="oklch(95% 0.04 240)" />
@@ -69,6 +67,6 @@ export function Thumbnail({ className = '' }: Props) {
         strokeLinejoin="round"
         fill="none"
       />
-    </svg>
+    </>
   )
 }

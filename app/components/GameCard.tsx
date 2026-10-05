@@ -1,11 +1,9 @@
 import { Link } from 'react-router'
 import { ChevronRight } from './icons'
-import { THUMBNAILS } from '~/games/thumbnails'
+import { Thumbnail } from './Thumbnail'
 import type { GameDescriptor } from '~/lib/games-registry'
 
 export function GameCard({ game }: { game: GameDescriptor }) {
-  const Thumbnail = THUMBNAILS[game.id]
-
   return (
     <Link
       to={game.href}
@@ -17,7 +15,7 @@ export function GameCard({ game }: { game: GameDescriptor }) {
         aria-hidden="true"
       />
       <div className="relative aspect-3/2 overflow-hidden bg-linear-to-br from-gray-50 to-gray-100 transition-transform duration-500 group-hover:scale-[1.03] dark:from-gray-900 dark:to-gray-950">
-        <Thumbnail className="h-full w-full" />
+        <Thumbnail gameId={game.id} className="h-full w-full" />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">
         <h2 className="font-display text-2xl font-bold tracking-tight">{game.name}</h2>

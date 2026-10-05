@@ -226,7 +226,7 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 |---|---|---|---|
 | 1 | 7×6 | simples | règles de base, couloir compris |
 | 2 | 8×7 | simples | grille plus grande, plus de piliers |
-| 3 | 9×8 | simples + 2 à 4 doubles dans les niveaux publiés, 2 à 3 pour une nouvelle génération (en angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
+| 3 | 9×8 | simples + 2 à 4 doubles (en angle, opposé) ; une nouvelle génération en pose 2 ou 3, pour ne pas en faire plus que les grilles déjà publiées | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
 | 4 | 10×9 | simples + 1 à 4 doubles | 1 ou 2 miroirs, chacun indispensable |
 
 Chaque grille de base sert 8 fois, par rotation ou retournement (cycle figé de 395 jours et 50 bases, `generators/anglemort-schedule.ts`) : une symétrie conserve la solution et l'unicité du couloir, et les quarts de tour donnent des versions en portrait (6×7 au lieu de 7×6).
@@ -240,6 +240,7 @@ Chaque grille de base sert 8 fois, par rotation ou retournement (cycle figé de 
 |---|---|
 | Clic | Poser un vigile, ou faire pivoter celui en place |
 | Clic droit | Retirer le vigile |
+| Appui long (écran tactile) | Retirer le vigile |
 | Flèches / ZQSD / WASD | Déplacer le curseur |
 | **Espace** | Poser un vigile du type sélectionné, ou retirer celui sous le curseur |
 | **Entrée** | Faire pivoter le vigile, parmi les orientations autorisées de son type |

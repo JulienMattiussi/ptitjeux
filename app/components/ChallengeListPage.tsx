@@ -3,6 +3,7 @@ import { ArchiveAccordion } from './ArchiveAccordion'
 import { CheckMark } from './CheckMark'
 import { GameLayout } from './GameLayout'
 import { LevelTile } from './LevelTile'
+import { ThumbnailSymbol } from './Thumbnail'
 import { LEVEL_INDICES } from '~/games/types'
 import { aggregateCompletion, dayStatuses } from '~/lib/completion'
 import { dateLabel, dateRange, shouldShowFutureDates, todayString } from '~/lib/dates'
@@ -58,6 +59,7 @@ export function ChallengeListPage({
 
   return (
     <GameLayout title={name} subtitle={tagline}>
+      <ThumbnailSymbol gameId={gameId} />
       <p className="mb-8 max-w-2xl text-gray-600 dark:text-gray-300">{description}</p>
 
       {dailyDate && (

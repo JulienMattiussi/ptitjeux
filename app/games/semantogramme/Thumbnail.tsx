@@ -1,9 +1,7 @@
-type Props = { className?: string }
-
 /** Aperçu de Sémantogramme : grille de mots et compteurs de marge. */
-export function Thumbnail({ className = '' }: Props) {
+export function ThumbnailArt() {
   return (
-    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu de Sémantogramme">
+    <>
       <defs>
         <linearGradient id="sem-bg" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="oklch(95% 0.04 60)" />
@@ -68,6 +66,6 @@ export function Thumbnail({ className = '' }: Props) {
           </text>
         </g>
       ))}
-    </svg>
+    </>
   )
 }

@@ -137,6 +137,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Dates (format, libellés français, drapeaux de dev) | `app/lib/dates.ts` |
 | Balises SEO et de partage | `app/lib/seo.ts` (`pageMeta`, `gameListMeta`, `gamePlayMeta`) |
 | Ref toujours à jour | `app/lib/useLatestRef.ts` |
+| Appui long au doigt (équivalent du clic droit) | `app/lib/useLongPress.ts` |
 | Page « niveau introuvable » | `app/components/LevelNotFound.tsx` |
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |
 | Compteur de coups + objectif (sidebar) | `app/components/MovesCard.tsx` (extras du jeu en `children`) |

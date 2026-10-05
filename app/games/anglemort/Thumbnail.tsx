@@ -2,17 +2,15 @@ import { DiamondMark, DoorMark } from './BoardMarks'
 import { GuardSprite } from './GuardSprite'
 import { ThiefSprite } from './ThiefSprite'
 
-type Props = { className?: string }
-
 /** Aperçu d'Angle mort : vigiles, couloir sombre et diamant. */
-export function Thumbnail({ className = '' }: Props) {
+export function ThumbnailArt() {
   const cell = 52
   const margin = 40
   const wall = 10
   const lit = new Set(['0,0', '1,0', '2,0', '3,0', '1,2', '2,2', '3,2', '4,2'])
   const corridor = new Set(['1,1', '2,1'])
   return (
-    <svg viewBox="0 0 120 80" className={className} role="img" aria-label="Aperçu d'Angle mort">
+    <>
       <rect x="0" y="0" width="120" height="80" className="fill-violet-100" />
       <g transform="translate(2 0) scale(0.339)">
         <rect
@@ -77,6 +75,6 @@ export function Thumbnail({ className = '' }: Props) {
           <GuardSprite type="simple" facing="E" />
         </g>
       </g>
-    </svg>
+    </>
   )
 }

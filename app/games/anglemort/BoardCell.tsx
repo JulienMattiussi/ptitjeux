@@ -1,4 +1,5 @@
 import { plural } from '~/lib/text'
+import { useLongPress } from '~/lib/useLongPress'
 import { ClueMark, DiamondMark, MirrorMark } from './BoardMarks'
 import type { MirrorHalf } from './engine'
 import type { Dir, Guard, MirrorKind } from './types'
@@ -48,6 +49,9 @@ function floorLabel(c: Extract<CellContent, { kind: 'floor' }>): string {
 
 /** Une case du plateau : pilier, miroir, ou dalle de sol avec ses marques. */
 export function BoardCell({ ox, oy, content, onHover, onClick, onRemove }: Props) {
+  // Au doigt, l'appui long remplace le clic droit (retirer le vigile).
+  const longPress = useLongPress(onRemove)
+
   if (content.kind === 'pillar') {
     return (
       <g role="img" aria-label="Pilier" onMouseEnter={onHover}>
@@ -72,10 +76,13 @@ export function BoardCell({ ox, oy, content, onHover, onClick, onRemove }: Props
       aria-label={floorLabel(content)}
       className="cursor-pointer"
       onMouseEnter={onHover}
-      onClick={onClick}
+      {...longPress.handlers}
+      onClick={() => {
+        if (!longPress.consume()) onClick()
+      }}
       onContextMenu={(e) => {
         e.preventDefault()
-        onRemove()
+        if (!longPress.consume()) onRemove()
       }}
     >
       <rect

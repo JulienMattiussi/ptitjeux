@@ -169,7 +169,8 @@ function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
               )
             }}
             onCellRemove={(x, y) => {
-              if (!won) dispatch({ type: 'toggle', x, y })
+              // Retirer seulement : sur une case vide, « toggle » poserait un vigile.
+              if (!won && guardAt(state, x, y)) dispatch({ type: 'toggle', x, y })
             }}
           />
           <GuardTypePicker state={state} selected={guardType} onSelect={setChosenType} />

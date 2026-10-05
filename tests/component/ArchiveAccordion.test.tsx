@@ -79,11 +79,7 @@ describe('ArchiveAccordion', () => {
     const progress: GameProgress = {}
     for (const date of ['2026-10-01', '2026-10-02']) {
       for (const i of [1, 2, 3, 4]) {
-        progress[levelKey(date, i)] = {
-          completed: true,
-          bestMoves: 1,
-          lastPlayedAt: '',
-        }
+        progress[levelKey(date, i)] = { status: 'perfect', lastPlayedAt: '' }
       }
     }
     renderArchive({ progress })
@@ -95,12 +91,7 @@ describe('ArchiveAccordion', () => {
     const progress: GameProgress = {}
     for (const date of ['2026-10-01', '2026-10-02']) {
       for (const i of [1, 2, 3, 4]) {
-        // bestMoves très haut = au-dessus du parMoves → solved
-        progress[levelKey(date, i)] = {
-          completed: true,
-          bestMoves: 10000,
-          lastPlayedAt: '',
-        }
+        progress[levelKey(date, i)] = { status: 'solved', lastPlayedAt: '' }
       }
     }
     renderArchive({ progress })

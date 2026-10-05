@@ -12,7 +12,7 @@ import { StatusRow } from '~/components/StatusRow'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/boucle/Board'
-import { getLevel } from '~/games/boucle/challenges'
+import * as challenges from '~/games/boucle/challenges'
 import {
   areCluesSatisfied,
   countClues,
@@ -29,7 +29,8 @@ import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
-import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
+import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/boucle.$date.$index'
 
@@ -37,16 +38,22 @@ export function meta({ params }: Route.MetaArgs) {
   return gamePlayMeta('boucle', params.date, params.index)
 }
 
+export function loader({ params }: { params: LevelParams }) {
+  return loadLevelRoute(params, challenges)
+}
+
 const undoableReducer = withUndo(reducer, (action) => action.type === 'toggle')
 
 // Le `key` remonte une partie neuve à chaque changement de niveau.
-export default function BouclePlayRoute() {
-  const { date, idx, level } = useLevelParams(getLevel)
+export default function BouclePlayRoute({ loaderData }: Route.ComponentProps) {
+  const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/boucle" />
-  return <BouclePlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
+  return (
+    <BouclePlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
+  )
 }
 
-function BouclePlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
@@ -56,6 +63,7 @@ function BouclePlay({ level, date, idx }: { level: Level; date: string; idx: num
     gameId: 'boucle',
     date,
     idx,
+    lastDate,
     won,
     moves: state.moves,
     parMoves: level.parMoves,

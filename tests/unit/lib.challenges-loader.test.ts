@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildChallengeIndex } from '~/lib/challenges-loader'
+import { buildChallengeIndex, gameChallenges } from '~/lib/challenges-loader'
 
 type FakeLevel = { id: string }
 
@@ -16,25 +16,8 @@ describe('lib/challenges-loader', () => {
     expect(idx.getLevel('2026-05-02', 1)).toEqual({ id: 'C' })
   })
 
-  it("expose la liste complète d'une journée via getChallenge", () => {
-    const modules: Record<string, FakeLevel> = {
-      './a/2026-05-01-1.json': { id: 'A' },
-      './a/2026-05-01-2.json': { id: 'B' },
-      './a/2026-05-01-3.json': { id: 'C' },
-      './a/2026-05-01-4.json': { id: 'D' },
-    }
-    const idx = buildChallengeIndex(modules)
-    expect(idx.getChallenge('2026-05-01')).toEqual([
-      { id: 'A' },
-      { id: 'B' },
-      { id: 'C' },
-      { id: 'D' },
-    ])
-  })
-
   it('retourne undefined pour une date inconnue', () => {
     const idx = buildChallengeIndex<FakeLevel>({})
-    expect(idx.getChallenge('2026-05-01')).toBeUndefined()
     expect(idx.getLevel('2026-05-01', 1)).toBeUndefined()
   })
 
@@ -78,5 +61,37 @@ describe('lib/challenges-loader', () => {
     const idx = buildChallengeIndex(modules)
     expect(idx.getLevel('2026-05-01', 1)).toEqual({ id: 'flat' })
     expect(idx.getLevel('2026-06-02', 3)).toEqual({ id: 'deep' })
+  })
+
+  it('gameChallenges lit les dates dans les chemins, sans charger les niveaux', () => {
+    let loaded = 0
+    const load = (id: string) => async () => {
+      loaded++
+      return { id }
+    }
+    const game = gameChallenges({
+      './a/2026-05-02-1.json': load('B'),
+      './a/2026-05-01-1.json': load('A'),
+    })
+    expect(game.getAllDates()).toEqual(['2026-05-01', '2026-05-02'])
+    expect(loaded).toBe(0)
+  })
+
+  it('gameChallenges charge le seul niveau demandé', async () => {
+    let loaded = 0
+    const load = (id: string) => async () => {
+      loaded++
+      return { id }
+    }
+    const game = gameChallenges({
+      './a/2026-05-01-1.json': load('A'),
+      './a/2026-05-01-2.json': load('B'),
+    })
+    expect(await game.fetchLevel('2026-05-01', 2)).toEqual({ id: 'B' })
+    expect(loaded).toBe(1)
+  })
+
+  it('gameChallenges renvoie undefined pour un niveau absent', async () => {
+    expect(await gameChallenges({}).fetchLevel('2026-05-01', 1)).toBeUndefined()
   })
 })

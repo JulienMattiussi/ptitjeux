@@ -1,4 +1,4 @@
-.PHONY: default help install start build preview lint knip format format-check typecheck test test-watch test-coverage verify-levels generate-levels fix check clean
+.PHONY: default help install start build check-bundle preview lint knip format format-check typecheck test test-watch test-coverage verify-levels generate-levels fix check clean
 
 default: help
 
@@ -13,6 +13,9 @@ start: ## Lancer l'application en développement (hot reload)
 
 build: ## Compiler l'application pour la production
 	npm run build
+
+check-bundle: build ## Vérifier qu'aucun fichier JS client ne dépasse la taille maximale
+	npm run check:bundle
 
 preview: build ## Prévisualiser le build de production
 	npm run start
@@ -54,7 +57,7 @@ generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 202
 
 fix: format lint ## Formater et linter le code
 
-check: build lint knip typecheck test ## Lancer toutes les vérifications (build, lint, code mort, typecheck, tests)
+check: check-bundle lint knip typecheck test ## Lancer toutes les vérifications (build et taille du bundle, lint, code mort, typecheck, tests)
 	@echo "Toutes les vérifications passent."
 
 clean: ## Supprimer les artefacts de build

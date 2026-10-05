@@ -11,7 +11,7 @@ import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/sokomot/Board'
-import { getLevel } from '~/games/sokomot/challenges'
+import * as challenges from '~/games/sokomot/challenges'
 import { isWon, loadLevel, reducer } from '~/games/sokomot/engine'
 import { PlacementOrder } from '~/games/sokomot/PlacementOrder'
 import type { Level } from '~/games/sokomot/types'
@@ -19,12 +19,17 @@ import { plural } from '~/lib/text'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
-import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
+import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/sokomot.$date.$index'
 
 export function meta({ params }: Route.MetaArgs) {
   return gamePlayMeta('sokomot', params.date, params.index)
+}
+
+export function loader({ params }: { params: LevelParams }) {
+  return loadLevelRoute(params, challenges)
 }
 
 const undoableReducer = withUndo(reducer, (action) => action.type === 'move')
@@ -47,13 +52,15 @@ function useDelayedVictory(won: boolean): boolean {
 
 // Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
 // le `useReducer` garderait l'état du niveau précédent.
-export default function SokomotPlayRoute() {
-  const { date, idx, level } = useLevelParams(getLevel)
+export default function SokomotPlayRoute({ loaderData }: Route.ComponentProps) {
+  const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/sokomot" />
-  return <SokomotPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
+  return (
+    <SokomotPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
+  )
 }
 
-function SokomotPlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
@@ -63,6 +70,7 @@ function SokomotPlay({ level, date, idx }: { level: Level; date: string; idx: nu
     gameId: 'sokomot',
     date,
     idx,
+    lastDate,
     won,
     moves: state.moves,
     parMoves: level.parMoves,

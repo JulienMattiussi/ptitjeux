@@ -1,4 +1,5 @@
-import type { LevelProgress } from './localStorage'
+import { LEVEL_INDICES } from '~/games/types'
+import { levelKey, type GameProgress, type LevelProgress } from './localStorage'
 
 /**
  * Statut de complétion d'un niveau pour un joueur :
@@ -11,13 +12,13 @@ export type CompletionStatus = 'unsolved' | 'solved' | 'perfect'
 /** Statut d'un niveau réussi : variante de la modale de victoire et des coches. */
 export type SolvedStatus = Exclude<CompletionStatus, 'unsolved'>
 
-export function completionStatus(
-  progress: LevelProgress | undefined,
-  parMoves: number,
-): CompletionStatus {
-  if (!progress?.completed) return 'unsolved'
-  if (progress.bestMoves === undefined) return 'solved'
-  return victoryVariant(progress.bestMoves, parMoves)
+export function completionStatus(progress: LevelProgress | undefined): CompletionStatus {
+  return progress?.status ?? 'unsolved'
+}
+
+/** Statuts des 4 niveaux d'une journée, dans l'ordre. */
+export function dayStatuses(date: string, progress: GameProgress): CompletionStatus[] {
+  return LEVEL_INDICES.map((i) => completionStatus(progress[levelKey(date, i)]))
 }
 
 /**

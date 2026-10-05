@@ -1,15 +1,22 @@
 import { renderHook } from '@testing-library/react'
 import type { ReactNode } from 'react'
-import { MemoryRouter, Route, Routes } from 'react-router'
+import { MemoryRouter } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { readGameProgress, writeLevelProgress } from '~/lib/localStorage'
-import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
+import { readGameProgress, recordWin } from '~/lib/localStorage'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 
 function inRouter({ children }: { children: ReactNode }) {
   return <MemoryRouter>{children}</MemoryRouter>
 }
 
-const BASE = { gameId: 'sokomot', idx: 1, won: false, moves: 0, parMoves: 10 } as const
+const BASE = {
+  gameId: 'sokomot',
+  idx: 1,
+  lastDate: '2027-09-30',
+  won: false,
+  moves: 0,
+  parMoves: 10,
+} as const
 
 describe('useLevelPlayLifecycle', () => {
   beforeEach(() => {
@@ -83,52 +90,18 @@ describe('useLevelPlayLifecycle', () => {
     expect(readGameProgress('sokomot')).toEqual({})
   })
 
-  it('enregistre la victoire avec son nombre de coups', () => {
+  it("enregistre une victoire au-delà de l'objectif comme résolue", () => {
     renderHook(() => useLevelPlayLifecycle({ ...BASE, date: '2026-09-01', won: true, moves: 12 }), {
       wrapper: inRouter,
     })
-    expect(readGameProgress('sokomot')['2026-09-01-1']).toMatchObject({
-      completed: true,
-      bestMoves: 12,
-    })
+    expect(readGameProgress('sokomot')['2026-09-01-1'].status).toBe('solved')
   })
 
-  it('garde le meilleur score quand on rejoue moins bien', () => {
-    writeLevelProgress('sokomot', '2026-09-01-1', { completed: true, bestMoves: 8 })
+  it('garde un statut parfait quand on rejoue moins bien', () => {
+    recordWin('sokomot', '2026-09-01-1', 'perfect')
     renderHook(() => useLevelPlayLifecycle({ ...BASE, date: '2026-09-01', won: true, moves: 12 }), {
       wrapper: inRouter,
     })
-    expect(readGameProgress('sokomot')['2026-09-01-1'].bestMoves).toBe(8)
-  })
-})
-
-describe('useLevelParams', () => {
-  const getLevel = (date: string, index: number) =>
-    date === '2026-09-01' && index === 2 ? { id: 'niveau' } : undefined
-
-  function atUrl(url: string) {
-    return function Wrapper({ children }: { children: ReactNode }) {
-      return (
-        <MemoryRouter initialEntries={[url]}>
-          <Routes>
-            <Route path="/jeu/:date/:index" element={children} />
-          </Routes>
-        </MemoryRouter>
-      )
-    }
-  }
-
-  it("lit la date, l'index et le niveau dans l'URL", () => {
-    const { result } = renderHook(() => useLevelParams(getLevel), {
-      wrapper: atUrl('/jeu/2026-09-01/2'),
-    })
-    expect(result.current).toEqual({ date: '2026-09-01', idx: 2, level: { id: 'niveau' } })
-  })
-
-  it('renvoie un niveau indéfini pour une URL qui ne correspond à rien', () => {
-    const { result } = renderHook(() => useLevelParams(getLevel), {
-      wrapper: atUrl('/jeu/2026-09-01/9'),
-    })
-    expect(result.current.level).toBeUndefined()
+    expect(readGameProgress('sokomot')['2026-09-01-1'].status).toBe('perfect')
   })
 })

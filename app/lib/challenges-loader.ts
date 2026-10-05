@@ -1,44 +1,49 @@
 /**
- * Construit l'API d'accès aux niveaux d'un jeu à partir des modules JSON
- * chargés par `import.meta.glob`. Les fichiers sont attendus avec le motif
- * `<date>-<index>.json` (ex. `2026-04-01-1.json`), peu importe la profondeur
- * du dossier (typiquement organisés en sous-dossiers mensuels).
+ * Indexe par date et par niveau des modules chargés par `import.meta.glob`,
+ * à partir de leur chemin `<date>-<index>.json` (ex. `./2026-04/2026-04-01-1.json`).
  *
- * `import.meta.glob` ne peut pas être appelé hors du module appelant — chaque
- * `<jeu>/challenges/index.ts` reste mince et fait l'appel ; ce module ne fait
- * que parser les chemins et exposer les accesseurs partagés.
+ * `import.meta.glob` ne peut pas être appelé hors du module appelant : chaque
+ * `<jeu>/challenges/index.ts` fait l'appel, ce module ne fait que parser les
+ * chemins et exposer les accesseurs partagés.
  */
 const FILE_PATTERN = /(\d{4}-\d{2}-\d{2})-(\d)\.json$/
 
-export type ChallengeIndex<TLevel> = {
-  getChallenge(date: string): TLevel[] | undefined
-  getLevel(date: string, index: number): TLevel | undefined
+export type ChallengeIndex<T> = {
+  getLevel(date: string, index: number): T | undefined
   getAllDates(): string[]
 }
 
-export function buildChallengeIndex<TLevel>(
-  modules: Record<string, TLevel>,
-): ChallengeIndex<TLevel> {
-  const byDate = new Map<string, TLevel[]>()
+export function buildChallengeIndex<T>(modules: Record<string, T>): ChallengeIndex<T> {
+  const byDate = new Map<string, T[]>()
   for (const [filePath, level] of Object.entries(modules)) {
     const match = filePath.match(FILE_PATTERN)
     if (!match) continue
-    const date = match[1]
-    const index = Number(match[2])
-    const arr = byDate.get(date) ?? []
-    arr[index - 1] = level
-    byDate.set(date, arr)
+    const arr = byDate.get(match[1]) ?? []
+    arr[Number(match[2]) - 1] = level
+    byDate.set(match[1], arr)
   }
-
+  const dates = Array.from(byDate.keys()).sort()
   return {
-    getChallenge(date) {
-      return byDate.get(date)
-    },
-    getLevel(date, index) {
-      return byDate.get(date)?.[index - 1]
-    },
-    getAllDates() {
-      return Array.from(byDate.keys()).sort()
-    },
+    getLevel: (date, index) => byDate.get(date)?.[index - 1],
+    getAllDates: () => dates,
+  }
+}
+
+/** Accès aux niveaux d'un jeu tel que le site l'utilise. */
+export type GameChallenges<L> = {
+  getAllDates(): string[]
+  /** Charge un seul niveau, à la demande. */
+  fetchLevel(date: string, index: number): Promise<L | undefined>
+}
+
+/**
+ * Les niveaux ne sont jamais embarqués d'avance : la liste des dates se lit
+ * dans les chemins des fichiers, et une partie charge son seul niveau.
+ */
+export function gameChallenges<L>(levels: Record<string, () => Promise<L>>): GameChallenges<L> {
+  const loaders = buildChallengeIndex(levels)
+  return {
+    getAllDates: loaders.getAllDates,
+    fetchLevel: async (date, index) => loaders.getLevel(date, index)?.(),
   }
 }

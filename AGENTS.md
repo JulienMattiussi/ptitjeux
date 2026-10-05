@@ -3,7 +3,7 @@
 ## Description du projet
 
 Plateforme web de mini-jeux logico-spatiaux, **full front-end**, sans backend.
-Les niveaux sont des fichiers JSON statiques, embarqués au build (`import.meta.glob`).
+Les niveaux sont des fichiers JSON statiques, lus par le serveur et envoyés un par un au navigateur (`loader` des routes).
 La progression locale est stockée dans `localStorage`.
 
 Quatre jeux :
@@ -67,7 +67,6 @@ app/
 │   ├── <jeu>.tsx                  # /<jeu> : liste des niveaux (ChallengeListPage)
 │   └── <jeu>.$date.$index.tsx     # /<jeu>/:date/:index : partie
 ├── games/
-│   ├── index.ts                   # Accès commun aux niveaux de tous les jeux (dates, statuts du jour)
 │   ├── types.ts                   # LevelIndex, LEVEL_INDICES
 │   ├── thumbnails.ts              # Miniature de chaque jeu (accueil, tuiles)
 │   └── <jeu>/
@@ -119,18 +118,17 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 |---|---|
 | Couleurs/accents et tailles par jeu | `app/lib/game-styles.ts` (`GameId`, `GAME_IDS`, `GAME_ACCENT`, `GAME_SIZE`) |
 | Catalogue des jeux | `app/lib/games-registry.ts` (`games`, `findGame`) |
-| Chargement des niveaux JSON | `app/lib/challenges-loader.ts` (`buildChallengeIndex`) |
-| Niveaux de n'importe quel jeu (dates, statuts d'un jour) | `app/games/index.ts` (`getGameDates`, `lastAvailableDate`, `dayStatuses`) |
+| Chargement des niveaux JSON | `app/lib/challenges-loader.ts` (`gameChallenges` : dates, chargement d'un seul niveau) |
+| `loader` des pages de liste et de partie | `app/lib/levelRoute.ts` (`loadListRoute`, `loadLevelRoute`, `PlayProps`) |
 | Index des niveaux d'un jour | `app/games/types.ts` (`LevelIndex`, `LEVEL_INDICES`) |
 | Miniature de chaque jeu | `app/games/thumbnails.ts` (`THUMBNAILS`) |
 | Page « liste des niveaux » | `app/components/ChallengeListPage.tsx` (+ `ArchiveAccordion`, `LevelTile`) |
 | Cadre d'une page de partie | `app/components/GameLayout.tsx`, `GameFrame.tsx`, `PlaySidebar.tsx`, `HelpBox.tsx` |
 | Clavier dans une page de jeu | `app/lib/useGameKeyboard.ts` (flèches + ZQSD/WASD + Espace/Entrée + Ctrl+Z + R + Échap) |
 | Clavier hors des pages de jeu | `app/lib/useGridNavigation.ts` + `app/lib/spatialFocus.ts` (attribut `data-nav-item`) |
-| Niveau désigné par l'URL | `app/lib/useLevelPlayLifecycle.ts` (`useLevelParams`) |
-| Cycle de vie d'une partie | `app/lib/useLevelPlayLifecycle.ts` (titre, retour, niveau suivant, variante de victoire, enregistrement du meilleur score) |
+| Cycle de vie d'une partie | `app/lib/useLevelPlayLifecycle.ts` (titre, retour, niveau suivant, variante de victoire, enregistrement du statut) |
 | Progression | `app/lib/localStorage.ts` (`levelKey`, `recordWin`) + `app/lib/useLocalProgress.ts` |
-| Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`, `SolvedStatus`, `victoryVariant`) |
+| Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`, `SolvedStatus`, `victoryVariant`, `dayStatuses`) |
 | Modale de victoire | `app/components/VictoryOverlay.tsx` + `app/components/ParObjective.tsx` (« Objectif N atteint ») |
 | Coches de complétion | `app/components/CheckMark.tsx` |
 | Direction et curseur de case (clavier) | `app/lib/cursor.ts` (`Direction`, `CellCursor`, `moveCellCursor`) |
@@ -205,7 +203,7 @@ make test            # tous les tests une fois
 make test-watch      # mode watch
 make test-coverage   # rapport coverage v8
 make knip            # code mort : fichiers, exports, dépendances inutilisés
-make check           # build + lint + knip + typecheck + test (pré-commit complet)
+make check           # build + taille du bundle + lint + knip + typecheck + test (pré-commit complet)
 make verify-levels   # vérifications lourdes des niveaux, après chaque make generate-levels
 ```
 
@@ -266,7 +264,7 @@ Trois états (`app/lib/completion.ts`) avec sémantique stricte :
 
 La modale de victoire et les checkmarks reflètent ce statut : variante `perfect` célèbre fort (🎉, gradient vert), `solved` félicite plus discrètement (👍, gradient ambre).
 
-Le statut d'un niveau se calcule sur le **meilleur** score (`recordWin`) : rejouer un niveau parfait en plus de coups ne le fait pas repasser en ambre.
+Le statut est **enregistré à la victoire** dans la sauvegarde (`recordWin`), jamais recalculé : les listes n'ont ainsi besoin que des bornes du calendrier, pas des niveaux. Un statut parfait est conservé : rejouer en plus de coups ne fait pas repasser le niveau en ambre.
 
 ### Couleurs d'accent par jeu
 
@@ -330,19 +328,24 @@ Quand le joueur dépasse le double de `parMoves` (`HINT_PAR_FACTOR` dans `app/li
 
 - Chaque jeu définit son `Level` typé dans `app/games/<jeu>/types.ts`.
 - Les niveaux sont des fichiers JSON dans `app/games/<jeu>/challenges/<YYYY-MM>/<YYYY-MM-DD>-<index>.json`.
+- **Jamais tous les niveaux d'un coup** : le navigateur ne reçoit que les bornes du calendrier, première et dernière date (listes, `loadListRoute` ; le calendrier est continu, vérifié par `games.calendar.test.ts`), ou le niveau joué (partie, `loadLevelRoute`). `make check` échoue si un fichier JS client dépasse 300 ko (`scripts/check-bundle.ts`), pour ne pas revoir tous les niveaux embarqués dans chaque page.
 - **Aucun calcul coûteux à l'exécution** — tout est précalculé offline (Sémantogramme : grilles tirées d'une curation écrite à la main, aucun calcul sémantique).
 - Le champ `solution` (Sokomot) ou équivalent est lu par les **tests d'intégrité** et par l'**aide** (voir « Aide »), jamais par la logique de jeu.
 - Le champ `parMoves` définit l'objectif pour le statut `perfect`.
 
 ## Pattern critique — remount par `key`
 
-Les pages `<jeu>.$date.$index.tsx` exposent un **wrapper** qui lit le niveau dans l'URL, affiche `LevelNotFound` s'il n'existe pas, et sinon force un remount complet via `key` à chaque changement de niveau :
+Les pages `<jeu>.$date.$index.tsx` chargent leur niveau dans un `loader` (côté serveur), puis exposent un **wrapper** qui affiche `LevelNotFound` si le niveau n'existe pas, et sinon force un remount complet via `key` à chaque changement de niveau :
 
 ```tsx
-export default function SokomotPlayRoute() {
-  const { date, idx, level } = useLevelParams(getLevel)
+export function loader({ params }: { params: LevelParams }) {
+  return loadLevelRoute(params, challenges)
+}
+
+export default function SokomotPlayRoute({ loaderData }: Route.ComponentProps) {
+  const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/sokomot" />
-  return <SokomotPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
+  return <SokomotPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
 }
 ```
 
@@ -370,7 +373,7 @@ Dans `.env.local` (non versionné) : `VITE_SHOW_FUTURE_DAYS=1` montre les défis
 | `make typecheck` | Vérifier les types TypeScript |
 | `make fix` | Formater (Prettier) + linter (ESLint) |
 | `make knip` | Code mort : fichiers, exports et dépendances inutilisés (`knip.json`) |
-| `make check` | Toutes les vérifications (build + lint + knip + typecheck + test) |
+| `make check` | Toutes les vérifications (build + taille du bundle + lint + knip + typecheck + test) |
 | `make verify-levels` | Vérifications lourdes des niveaux (`tests/levels/`, config `vitest.levels.config.ts`) : unicité du couloir de chaque niveau d'Angle mort, générateurs rejoués sur un large échantillon de dates. À lancer après chaque `make generate-levels`. |
 | `make generate-levels` | **(Manuel uniquement)** Régénérer les défis quotidiens |
 

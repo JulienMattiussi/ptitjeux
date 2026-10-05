@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest'
-import * as challenges from '~/games/anglemort/challenges'
 import { isWon, loadLevel, placeGuard, rotateGuard } from '~/games/anglemort/engine'
 import { hasUniqueCorridor, originalLevels } from '../helpers/anglemort'
-import { byId, committedLevels } from '../helpers/levels'
+import { byId, committedChallenges, committedLevels } from '../helpers/levels'
+
+const challenges = committedChallenges('anglemort')
 
 const PROOF_TIMEOUT = 60_000
 

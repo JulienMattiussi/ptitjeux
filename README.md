@@ -71,11 +71,11 @@ les listes de niveaux, les flèches déplacent le focus d'une carte à l'autre.
 
 ## Comment ça marche
 
-### Pas de serveur
+### Pas de base de données
 
-Les niveaux sont des fichiers JSON livrés avec le site, un par jour et par niveau. La
-progression reste dans le navigateur (`localStorage`) : pas de compte, rien ne sort de
-l'appareil. Seules les définitions des mots trouvés sont demandées au Wiktionnaire, à
+Les niveaux sont des fichiers JSON livrés avec le site, un par jour et par niveau : le
+serveur n'envoie au navigateur que le niveau joué. La progression reste dans le
+navigateur (`localStorage`) : pas de compte, rien ne sort de l'appareil. Seules les définitions des mots trouvés sont demandées au Wiktionnaire, à
 la victoire.
 
 ### Des niveaux prouvés avant d'être publiés
@@ -114,7 +114,7 @@ make start          # http://localhost:2222
 
 | Commande | Effet |
 |---|---|
-| `make check` | build + lint + code mort (knip) + typecheck + tests (avant chaque commit) |
+| `make check` | build + taille du bundle + lint + code mort (knip) + typecheck + tests (avant chaque commit) |
 | `make test` | tests unitaires, de composants et d'intégrité des niveaux |
 | `make verify-levels` | vérifications lourdes : unicité de chaque niveau, générateurs sur un large échantillon de dates |
 | `make generate-levels` | régénère les défis quotidiens (à la demande uniquement) |

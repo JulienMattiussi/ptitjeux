@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
-import * as challenges from '~/games/anglemort/challenges'
 import { hasUniqueCorridor } from '../helpers/anglemort'
-import { byId, committedLevels } from '../helpers/levels'
+import { byId, committedChallenges, committedLevels } from '../helpers/levels'
+
+const challenges = committedChallenges('anglemort')
 
 /**
  * Preuve complète : chaque niveau, dans chacune des 8 versions de sa grille de

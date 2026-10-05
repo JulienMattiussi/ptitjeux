@@ -11,7 +11,7 @@ import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/semantogramme/Board'
-import { getLevel } from '~/games/semantogramme/challenges'
+import * as challenges from '~/games/semantogramme/challenges'
 import {
   isFullyMarked,
   isGridSolved,
@@ -29,7 +29,8 @@ import { undoable, withUndo, type UndoAction } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
-import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
+import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/semantogramme.$date.$index'
 
@@ -37,17 +38,29 @@ export function meta({ params }: Route.MetaArgs) {
   return gamePlayMeta('semantogramme', params.date, params.index)
 }
 
+export function loader({ params }: { params: LevelParams }) {
+  return loadLevelRoute(params, challenges)
+}
+
 // La saisie du thème n'est pas un coup : seuls les changements de case s'annulent.
 const undoableReducer = withUndo(reducer, (action) => action.type === 'cycle')
 
 // Le `key` remonte une partie neuve à chaque changement de niveau.
-export default function SemantogrammePlayRoute() {
-  const { date, idx, level } = useLevelParams(getLevel)
+export default function SemantogrammePlayRoute({ loaderData }: Route.ComponentProps) {
+  const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/semantogramme" />
-  return <SemantogrammePlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
+  return (
+    <SemantogrammePlay
+      key={`${date}-${idx}`}
+      level={level}
+      date={date}
+      idx={idx}
+      lastDate={lastDate}
+    />
+  )
 }
 
-function SemantogrammePlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
@@ -57,6 +70,7 @@ function SemantogrammePlay({ level, date, idx }: { level: Level; date: string; i
     gameId: 'semantogramme',
     date,
     idx,
+    lastDate,
     won,
     moves: state.moves,
     parMoves: level.parMoves,

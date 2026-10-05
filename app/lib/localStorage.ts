@@ -1,6 +1,11 @@
+import type { SolvedStatus } from './completion'
+
+/**
+ * Un niveau n'est enregistré qu'une fois réussi. Le statut est figé au moment
+ * de la victoire : les listes n'ont pas à recharger les niveaux pour le déduire.
+ */
 export type LevelProgress = {
-  completed: boolean
-  bestMoves?: number
+  status: SolvedStatus
   lastPlayedAt: string
 }
 
@@ -35,17 +40,10 @@ export function readGameProgress(gameId: string): GameProgress {
   return readAllProgress()[gameId] ?? {}
 }
 
-export function writeLevelProgress(
-  gameId: string,
-  levelId: string,
-  patch: Partial<LevelProgress>,
-): void {
+function writeLevelProgress(gameId: string, levelId: string, progress: LevelProgress): void {
   if (!isBrowser()) return
   const all = readAllProgress()
-  const game = all[gameId] ?? {}
-  const previous = game[levelId] ?? { completed: false, lastPlayedAt: new Date().toISOString() }
-  game[levelId] = { ...previous, ...patch, lastPlayedAt: new Date().toISOString() }
-  all[gameId] = game
+  all[gameId] = { ...all[gameId], [levelId]: progress }
   try {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(all))
   } catch {
@@ -54,13 +52,13 @@ export function writeLevelProgress(
 }
 
 /**
- * Enregistre une victoire en gardant le meilleur score : rejouer un niveau
+ * Enregistre une victoire en gardant le meilleur statut : rejouer un niveau
  * parfait en plus de coups ne doit pas lui faire perdre son statut.
  */
-export function recordWin(gameId: string, levelId: string, moves: number): void {
-  const best = readGameProgress(gameId)[levelId]?.bestMoves
+export function recordWin(gameId: string, levelId: string, status: SolvedStatus): void {
+  const previous = readGameProgress(gameId)[levelId]?.status
   writeLevelProgress(gameId, levelId, {
-    completed: true,
-    bestMoves: best === undefined ? moves : Math.min(best, moves),
+    status: previous === 'perfect' ? 'perfect' : status,
+    lastPlayedAt: new Date().toISOString(),
   })
 }

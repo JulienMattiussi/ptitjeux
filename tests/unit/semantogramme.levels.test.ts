@@ -1,12 +1,13 @@
 import { describe, expect, it } from 'vitest'
-import * as challenges from '~/games/semantogramme/challenges'
 import { isGridSolved, isWon, setThemeGuess } from '~/games/semantogramme/engine'
 import { LEVEL_INDICES } from '~/games/types'
 import { loadDomains } from '../../generators/semantogramme'
 import { type ThemeLevel, helpDomains, loadCuration } from '../../generators/semantogramme-curation'
 import { familyPairs, normalizeWord } from '../../generators/semantogramme-rules'
-import { byId, committedLevels } from '../helpers/levels'
+import { byId, committedChallenges, committedLevels } from '../helpers/levels'
 import { applySolution, cluesOf } from '../helpers/semantogramme'
+
+const challenges = committedChallenges('semantogramme')
 
 describe('niveaux Sémantogramme : intégrité', () => {
   const dates = challenges.getAllDates()

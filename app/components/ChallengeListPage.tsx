@@ -3,19 +3,23 @@ import { ArchiveAccordion } from './ArchiveAccordion'
 import { CheckMark } from './CheckMark'
 import { GameLayout } from './GameLayout'
 import { LevelTile } from './LevelTile'
-import { dayStatuses, getGameDates } from '~/games'
 import { LEVEL_INDICES } from '~/games/types'
-import { aggregateCompletion } from '~/lib/completion'
-import { dateLabel, shouldShowFutureDates, todayString } from '~/lib/dates'
+import { aggregateCompletion, dayStatuses } from '~/lib/completion'
+import { dateLabel, dateRange, shouldShowFutureDates, todayString } from '~/lib/dates'
 import type { GameId } from '~/lib/game-styles'
 import { findGame } from '~/lib/games-registry'
+import type { CalendarRange } from '~/lib/levelRoute'
 import { useGridNavigation } from '~/lib/useGridNavigation'
 import { useLocalProgress } from '~/lib/useLocalProgress'
 
 /** Page « liste des niveaux » d'un jeu : défi du jour, puis archives par mois. */
-export function ChallengeListPage({ gameId }: { gameId: GameId }) {
+export function ChallengeListPage({
+  gameId,
+  firstDate,
+  lastDate,
+}: { gameId: GameId } & CalendarRange) {
   const { name, tagline, description } = findGame(gameId)
-  const allSorted = getGameDates(gameId)
+  const allSorted = firstDate && lastDate ? dateRange(firstDate, lastDate) : []
   // Sans le flag dev `VITE_SHOW_FUTURE_DAYS=1`, on masque les défis dont la
   // date est postérieure à aujourd'hui pour ne pas spoiler le contenu non
   // encore publié. On calcule « aujourd'hui » sans `lastAvailableDate` ici :
@@ -49,7 +53,7 @@ export function ChallengeListPage({ gameId }: { gameId: GameId }) {
       document.querySelector<HTMLElement>(`[data-nav-item][data-date="${fromDate ?? dailyDate}"]`),
   })
 
-  const dailyStatuses = dailyDate ? dayStatuses(gameId, dailyDate, progress) : []
+  const dailyStatuses = dailyDate ? dayStatuses(dailyDate, progress) : []
   const dailyAggregate = aggregateCompletion(dailyStatuses)
 
   return (

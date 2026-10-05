@@ -1,11 +1,8 @@
-import { buildChallengeIndex } from '~/lib/challenges-loader'
+import { gameChallenges } from '~/lib/challenges-loader'
 import type { Level } from '../types'
 
-// Un fichier par niveau, organisés en sous-dossiers mensuels
-// (ex. `./2026-04/2026-04-01-1.json`).
-const modules = import.meta.glob<Level>('./*/*.json', {
-  eager: true,
-  import: 'default',
-})
-
-export const { getLevel, getAllDates } = buildChallengeIndex(modules)
+// Un fichier par niveau, en sous-dossiers mensuels (`./2026-09/2026-09-01-1.json`),
+// chacun chargé seulement quand on le joue.
+export const { getAllDates, fetchLevel } = gameChallenges(
+  import.meta.glob<Level>('./*/*.json', { import: 'default' }),
+)

@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest'
-import * as challenges from '~/games/boucle/challenges'
 import { areCluesSatisfied, getInsideWord, isValidLoop, isWon } from '~/games/boucle/engine'
 import { playExpectedLoop } from '../helpers/boucle'
-import { byId, committedLevels } from '../helpers/levels'
+import { byId, committedChallenges, committedLevels } from '../helpers/levels'
+
+const challenges = committedChallenges('boucle')
 
 describe('niveaux Boucle : intégrité', () => {
   const levels = committedLevels(challenges)

@@ -10,7 +10,7 @@ import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/anglemort/Board'
-import { getLevel } from '~/games/anglemort/challenges'
+import * as challenges from '~/games/anglemort/challenges'
 import {
   computeVision,
   corridorOrder,
@@ -35,7 +35,8 @@ import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
-import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
+import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
+import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/anglemort.$date.$index'
 
@@ -43,16 +44,22 @@ export function meta({ params }: Route.MetaArgs) {
   return gamePlayMeta('anglemort', params.date, params.index)
 }
 
+export function loader({ params }: { params: LevelParams }) {
+  return loadLevelRoute(params, challenges)
+}
+
 const undoableReducer = withUndo(reducer, (action) => action.type !== 'reset')
 
 // Le `key` remonte une partie neuve à chaque changement de niveau.
-export default function AngleMortPlayRoute() {
-  const { date, idx, level } = useLevelParams(getLevel)
+export default function AngleMortPlayRoute({ loaderData }: Route.ComponentProps) {
+  const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/anglemort" />
-  return <AngleMortPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
+  return (
+    <AngleMortPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
+  )
 }
 
-function AngleMortPlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
@@ -61,6 +68,7 @@ function AngleMortPlay({ level, date, idx }: { level: Level; date: string; idx: 
     gameId: 'anglemort',
     date,
     idx,
+    lastDate,
     won,
     moves: state.moves,
     parMoves: level.parMoves,

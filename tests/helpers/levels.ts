@@ -1,5 +1,30 @@
+import type { Level as AngleMortLevel } from '~/games/anglemort/types'
+import type { Level as BoucleLevel } from '~/games/boucle/types'
+import type { Level as SemantogrammeLevel } from '~/games/semantogramme/types'
+import type { Level as SokomotLevel } from '~/games/sokomot/types'
 import { LEVEL_INDICES } from '~/games/types'
-import type { ChallengeIndex } from '~/lib/challenges-loader'
+import { buildChallengeIndex, type ChallengeIndex } from '~/lib/challenges-loader'
+import type { GameId } from '~/lib/game-styles'
+
+type LevelOf = {
+  sokomot: SokomotLevel
+  boucle: BoucleLevel
+  semantogramme: SemantogrammeLevel
+  anglemort: AngleMortLevel
+}
+
+// Le site charge un niveau à la fois ; les tests d'intégrité, eux, lisent tout.
+const MODULES = import.meta.glob('../../app/games/*/challenges/*/*.json', {
+  eager: true,
+  import: 'default',
+})
+
+/** Tous les niveaux publiés d'un jeu, accessibles sans attente. */
+export function committedChallenges<G extends GameId>(game: G): ChallengeIndex<LevelOf[G]> {
+  const own = Object.entries(MODULES).filter(([path]) => path.includes(`/games/${game}/`))
+  // Le filtre sur le dossier du jeu garantit le type des fichiers retenus.
+  return buildChallengeIndex(Object.fromEntries(own) as Record<string, LevelOf[G]>)
+}
 
 /**
  * Tous les niveaux publiés d'un jeu, jour par jour puis niveau par niveau. Un

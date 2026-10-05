@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import * as boucle from '~/games/boucle/challenges'
-import * as semantogramme from '~/games/semantogramme/challenges'
-import * as sokomot from '~/games/sokomot/challenges'
 import { LEVEL_INDICES } from '~/games/types'
 import { stripAccents } from '~/lib/text'
+import { committedChallenges } from '../helpers/levels'
+
+const boucle = committedChallenges('boucle')
+const semantogramme = committedChallenges('semantogramme')
+const sokomot = committedChallenges('sokomot')
 
 /** Comparaison telle que le joueur la voit : sans accents, en majuscules. */
 function normalize(word: string): string {

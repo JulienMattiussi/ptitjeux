@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router'
-import { lastAvailableDate } from '~/games'
+import { useNavigate } from 'react-router'
 import { LEVEL_INDICES } from '~/games/types'
 import { victoryVariant, type SolvedStatus } from './completion'
 import { dateLabel, todayString } from './dates'
@@ -8,21 +7,12 @@ import type { GameId } from './game-styles'
 import { findGame } from './games-registry'
 import { levelKey, recordWin } from './localStorage'
 
-/**
- * Niveau désigné par l'URL `/<jeu>/:date/:index`, `undefined` s'il n'existe
- * pas. Lu par le wrapper de chaque route de partie, qui affiche alors
- * `LevelNotFound`, ou remonte la partie sur un `key` propre au niveau.
- */
-export function useLevelParams<L>(getLevel: (date: string, index: number) => L | undefined) {
-  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
-  const idx = Number(index)
-  return { date, idx, level: getLevel(date, idx) }
-}
-
 type Options = {
   gameId: GameId
   date: string
   idx: number
+  /** Dernier défi publié (cf. `todayString`). */
+  lastDate: string | undefined
   won: boolean
   moves: number
   parMoves: number
@@ -47,17 +37,19 @@ export function useLevelPlayLifecycle({
   gameId,
   date,
   idx,
+  lastDate,
   won,
   moves,
   parMoves,
 }: Options): Lifecycle {
   const navigate = useNavigate()
 
+  const variant = victoryVariant(moves, parMoves)
   useEffect(() => {
-    if (won) recordWin(gameId, levelKey(date, idx), moves)
-  }, [gameId, won, date, idx, moves])
+    if (won) recordWin(gameId, levelKey(date, idx), variant)
+  }, [gameId, won, date, idx, variant])
 
-  const isToday = date === todayString(lastAvailableDate(gameId))
+  const isToday = date === todayString(lastDate)
   const dateChip = isToday ? 'Défi du jour' : dateLabel(date)
   const backHref = `/${gameId}?from=${date}`
   return {
@@ -65,6 +57,6 @@ export function useLevelPlayLifecycle({
     backHref,
     goBack: () => navigate(backHref),
     nextHref: idx < LEVEL_INDICES.length ? `/${gameId}/${date}/${idx + 1}` : undefined,
-    variant: victoryVariant(moves, parMoves),
+    variant,
   }
 }

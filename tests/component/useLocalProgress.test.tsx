@@ -1,6 +1,6 @@
 import { act, renderHook } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { writeLevelProgress } from '~/lib/localStorage'
+import { recordWin } from '~/lib/localStorage'
 import { useLocalProgress } from '~/lib/useLocalProgress'
 
 describe('useLocalProgress', () => {
@@ -13,10 +13,9 @@ describe('useLocalProgress', () => {
   })
 
   it('lit la progression au montage', () => {
-    writeLevelProgress('sokomot', '2026-05-07-1', { completed: true, bestMoves: 8 })
+    recordWin('sokomot', '2026-05-07-1', 'perfect')
     const { result } = renderHook(() => useLocalProgress('sokomot'))
-    expect(result.current['2026-05-07-1']?.completed).toBe(true)
-    expect(result.current['2026-05-07-1']?.bestMoves).toBe(8)
+    expect(result.current['2026-05-07-1']?.status).toBe('perfect')
   })
 
   it('renvoie un objet vide si rien dans localStorage', () => {
@@ -25,8 +24,8 @@ describe('useLocalProgress', () => {
   })
 
   it('isole les jeux : ne lit que le sien', () => {
-    writeLevelProgress('sokomot', '2026-05-07-1', { completed: true })
-    writeLevelProgress('boucle', '2026-05-07-1', { completed: true })
+    recordWin('sokomot', '2026-05-07-1', 'solved')
+    recordWin('boucle', '2026-05-07-1', 'solved')
     const { result } = renderHook(() => useLocalProgress('semantogramme'))
     expect(result.current).toEqual({})
   })
@@ -42,14 +41,13 @@ describe('useLocalProgress', () => {
         'ptitjeux.progress',
         JSON.stringify({
           sokomot: {
-            '2026-05-07-1': { completed: true, bestMoves: 5, lastPlayedAt: '' },
+            '2026-05-07-1': { status: 'solved', lastPlayedAt: '' },
           },
         }),
       )
       window.dispatchEvent(new StorageEvent('storage', { key: 'ptitjeux.progress' }))
     })
-    expect(result.current['2026-05-07-1']?.completed).toBe(true)
-    expect(result.current['2026-05-07-1']?.bestMoves).toBe(5)
+    expect(result.current['2026-05-07-1']?.status).toBe('solved')
   })
 
   it("ignore les events storage d'une autre clé", () => {

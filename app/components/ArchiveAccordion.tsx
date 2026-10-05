@@ -2,9 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import { CheckMark } from './CheckMark'
 import { ChevronRight } from './icons'
 import { LevelTile } from './LevelTile'
-import { dayStatuses } from '~/games'
 import { LEVEL_INDICES } from '~/games/types'
-import { aggregateCompletion } from '~/lib/completion'
+import { aggregateCompletion, dayStatuses } from '~/lib/completion'
 import { dateLabelShort, monthKey, monthLabel } from '~/lib/dates'
 import type { GameId } from '~/lib/game-styles'
 import type { GameProgress } from '~/lib/localStorage'
@@ -63,7 +62,7 @@ export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) 
         const isOpen = openMonth === month
         const monthDates = (grouped.get(month) ?? []).slice().sort().reverse()
         const monthAggregate = aggregateCompletion(
-          monthDates.flatMap((d) => dayStatuses(gameId, d, progress)),
+          monthDates.flatMap((d) => dayStatuses(d, progress)),
         )
         return (
           <div
@@ -116,7 +115,7 @@ type DayRowProps = {
 }
 
 function ArchiveDayRow({ gameId, date, progress, rowRef }: DayRowProps) {
-  const statuses = dayStatuses(gameId, date, progress)
+  const statuses = dayStatuses(date, progress)
   const aggregate = aggregateCompletion(statuses)
   return (
     <li ref={rowRef ?? undefined} className="flex items-center gap-3 px-4 py-3 sm:gap-4">

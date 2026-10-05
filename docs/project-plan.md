@@ -18,10 +18,12 @@ Plateforme web de mini-jeux logico-spatiaux, full front-end.
 | Tests | **Vitest** + **Testing Library** | Rapide, intégration native à Vite |
 | Code mort | **knip** | Repère fichiers, exports et dépendances inutilisés (`make knip`, inclus dans `make check`) |
 
-**Pas de back-end** dans la v1. Les niveaux sont des fichiers JSON commités,
-indexés au build par chaque `<jeu>/challenges/index.ts` (`import.meta.glob`) :
-aucun `loader`, aucun appel réseau pour jouer. La progression locale est
-stockée en `localStorage`.
+**Pas de back-end métier** dans la v1 (ni base, ni compte). Les niveaux sont
+des fichiers JSON commités, indexés par chaque `<jeu>/challenges/index.ts`
+(`import.meta.glob`, chargement à la demande). Les `loader` des routes, côté
+serveur, n'envoient au navigateur que les bornes du calendrier (listes) ou le niveau joué
+(partie) : embarquer tous les niveaux dans chaque page pesait 4 Mo. La
+progression locale est stockée en `localStorage`.
 
 ---
 
@@ -54,7 +56,7 @@ Séparation stricte **moteur / rendu** :
   tous les jeux.
 - La page orchestre : `useReducer`, clavier (`useGameKeyboard`), cycle de vie
   (`useLevelPlayLifecycle` : titre, retour, niveau suivant, variante de
-  victoire, meilleur score), aide (`useHint`), modale de victoire.
+  victoire, statut enregistré), aide (`useHint`), modale de victoire.
 
 ---
 
@@ -106,14 +108,16 @@ Règles et génération détaillées : [new-games.md](new-games.md).
 ```ts
 type Progress = {
   [gameId: string]: {
-    [levelId: string]: { completed: boolean; bestMoves?: number; lastPlayedAt: string }
+    [levelId: string]: { status: 'solved' | 'perfect'; lastPlayedAt: string }
   }
 }
 ```
 
-`bestMoves` garde le meilleur score (`recordWin`), qui décide du statut
-`perfect` ou `solved`. Lecture et écriture sont SSR-safe (`app/lib/localStorage.ts`),
-et `useLocalProgress` hydrate après le montage puis suit les autres onglets.
+Un niveau n'est enregistré qu'une fois réussi, avec son statut figé à la
+victoire (`recordWin` garde `perfect` s'il est déjà acquis) : les listes
+colorent leurs coches sans avoir besoin des niveaux. Lecture et écriture sont
+SSR-safe (`app/lib/localStorage.ts`), et `useLocalProgress` hydrate après le
+montage puis suit les autres onglets.
 
 ---
 

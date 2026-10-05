@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest'
-import * as challenges from '~/games/sokomot/challenges'
 import { isWon, placementOrder } from '~/games/sokomot/engine'
-import { byId, committedLevels } from '../helpers/levels'
+import { byId, committedChallenges, committedLevels } from '../helpers/levels'
 import { replaySolution } from '../helpers/sokomot'
+
+const challenges = committedChallenges('sokomot')
 
 /**
  * Chaque niveau publié est résoluble : la `solution` du JSON, rejouée, gagne

@@ -1,11 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
-import {
-  levelKey,
-  readAllProgress,
-  readGameProgress,
-  recordWin,
-  writeLevelProgress,
-} from '~/lib/localStorage'
+import { levelKey, readAllProgress, readGameProgress, recordWin } from '~/lib/localStorage'
 
 describe('lib/localStorage', () => {
   beforeEach(() => {
@@ -20,56 +14,39 @@ describe('lib/localStorage', () => {
     expect(readAllProgress()).toEqual({})
   })
 
-  it('writeLevelProgress puis readGameProgress renvoie le statut', () => {
-    writeLevelProgress('sokomot', '2026-05-07-1', { completed: true, bestMoves: 12 })
-    const progress = readGameProgress('sokomot')
-    expect(progress['2026-05-07-1'].completed).toBe(true)
-    expect(progress['2026-05-07-1'].bestMoves).toBe(12)
-    expect(progress['2026-05-07-1'].lastPlayedAt).toBeTruthy()
+  it('levelKey concatène date et index avec un tiret', () => {
+    expect(levelKey('2026-05-07', 1)).toBe('2026-05-07-1')
   })
 
-  it('writeLevelProgress merge avec les valeurs existantes', () => {
-    writeLevelProgress('sokomot', '2026-05-07-1', { completed: true, bestMoves: 20 })
-    writeLevelProgress('sokomot', '2026-05-07-1', { bestMoves: 15 })
-    const progress = readGameProgress('sokomot')
-    expect(progress['2026-05-07-1'].completed).toBe(true) // conservé
-    expect(progress['2026-05-07-1'].bestMoves).toBe(15) // mis à jour
+  it('recordWin enregistre le statut de la victoire', () => {
+    recordWin('sokomot', '2026-05-07-1', 'solved')
+    const progress = readGameProgress('sokomot')['2026-05-07-1']
+    expect(progress.status).toBe('solved')
+    expect(progress.lastPlayedAt).toBeTruthy()
+  })
+
+  it('recordWin garde un statut parfait quand on rejoue moins bien', () => {
+    recordWin('sokomot', '2026-05-07-1', 'perfect')
+    recordWin('sokomot', '2026-05-07-1', 'solved')
+    expect(readGameProgress('sokomot')['2026-05-07-1'].status).toBe('perfect')
+  })
+
+  it('recordWin passe à parfait quand on fait mieux', () => {
+    recordWin('sokomot', '2026-05-07-1', 'solved')
+    recordWin('sokomot', '2026-05-07-1', 'perfect')
+    expect(readGameProgress('sokomot')['2026-05-07-1'].status).toBe('perfect')
   })
 
   it('isole les jeux dans le storage', () => {
-    writeLevelProgress('sokomot', '2026-05-07-1', { completed: true })
-    writeLevelProgress('boucle', '2026-05-07-1', { completed: true })
-    expect(readGameProgress('sokomot')['2026-05-07-1'].completed).toBe(true)
-    expect(readGameProgress('boucle')['2026-05-07-1'].completed).toBe(true)
+    recordWin('sokomot', '2026-05-07-1', 'solved')
+    recordWin('boucle', '2026-05-07-1', 'perfect')
+    expect(readGameProgress('sokomot')['2026-05-07-1'].status).toBe('solved')
+    expect(readGameProgress('boucle')['2026-05-07-1'].status).toBe('perfect')
     expect(readGameProgress('semantogramme')['2026-05-07-1']).toBeUndefined()
   })
 
   it('readGameProgress renvoie {} pour un jeu inconnu', () => {
     expect(readGameProgress('inconnu')).toEqual({})
-  })
-
-  it('levelKey concatène date et index avec un tiret', () => {
-    expect(levelKey('2026-05-07', 1)).toBe('2026-05-07-1')
-  })
-
-  it('recordWin enregistre une première victoire', () => {
-    recordWin('sokomot', '2026-05-07-1', 12)
-    expect(readGameProgress('sokomot')['2026-05-07-1']).toMatchObject({
-      completed: true,
-      bestMoves: 12,
-    })
-  })
-
-  it('recordWin garde le meilleur score', () => {
-    recordWin('sokomot', '2026-05-07-1', 8)
-    recordWin('sokomot', '2026-05-07-1', 12)
-    expect(readGameProgress('sokomot')['2026-05-07-1'].bestMoves).toBe(8)
-  })
-
-  it('recordWin améliore le score', () => {
-    recordWin('sokomot', '2026-05-07-1', 12)
-    recordWin('sokomot', '2026-05-07-1', 8)
-    expect(readGameProgress('sokomot')['2026-05-07-1'].bestMoves).toBe(8)
   })
 
   it('survit à un JSON corrompu en localStorage', () => {

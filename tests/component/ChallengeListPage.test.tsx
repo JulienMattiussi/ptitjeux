@@ -3,7 +3,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router'
 import { ChallengeListPage } from '~/components/ChallengeListPage'
 import { findGame } from '~/lib/games-registry'
-import { levelKey, writeLevelProgress } from '~/lib/localStorage'
+import { levelKey, recordWin } from '~/lib/localStorage'
 
 /** Jour fixe dans le calendrier publié : les défis suivants sont masqués. */
 const TODAY = '2026-10-03'
@@ -11,7 +11,7 @@ const TODAY = '2026-10-03'
 function renderPage(initialUrl = '/sokomot') {
   render(
     <MemoryRouter initialEntries={[initialUrl]}>
-      <ChallengeListPage gameId="sokomot" />
+      <ChallengeListPage gameId="sokomot" firstDate="2026-09-01" lastDate="2027-09-30" />
     </MemoryRouter>,
   )
 }
@@ -57,7 +57,7 @@ describe('ChallengeListPage', () => {
   })
 
   it('déverrouille le niveau 2 quand le niveau 1 est résolu', () => {
-    writeLevelProgress('sokomot', levelKey(TODAY, 1), { completed: true, bestMoves: 100 })
+    recordWin('sokomot', levelKey(TODAY, 1), 'solved')
     renderPage()
     expect(screen.queryByLabelText(/Niveau 2 verrouillé/)).toBeNull()
   })
@@ -85,13 +85,7 @@ describe('ChallengeListPage', () => {
   })
 
   it('couronne « perfect » au header du jour si tous les niveaux du jour sont parfaits', () => {
-    // Marque les 4 niveaux comme perfect (bestMoves = 1 ≤ parMoves).
-    for (const i of [1, 2, 3, 4]) {
-      writeLevelProgress('sokomot', levelKey(TODAY, i), {
-        completed: true,
-        bestMoves: 1,
-      })
-    }
+    for (const i of [1, 2, 3, 4]) recordWin('sokomot', levelKey(TODAY, i), 'perfect')
     renderPage()
     const dailyHeader = screen.getByRole('heading', { name: /Défi du jour/ })
     // CheckMark rend un span décoratif avec la classe d'accent perfect (vert).

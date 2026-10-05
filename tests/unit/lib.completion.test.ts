@@ -1,29 +1,20 @@
 import { describe, expect, it } from 'vitest'
-import { aggregateCompletion, completionStatus, victoryVariant } from '~/lib/completion'
+import {
+  aggregateCompletion,
+  completionStatus,
+  dayStatuses,
+  victoryVariant,
+} from '~/lib/completion'
+import { levelKey, type GameProgress } from '~/lib/localStorage'
 
-describe('lib/completion — completionStatus', () => {
-  it('unsolved sans progression', () => {
-    expect(completionStatus(undefined, 10)).toBe('unsolved')
-    expect(completionStatus({ completed: false, lastPlayedAt: '' }, 10)).toBe('unsolved')
+describe('lib/completion : completionStatus', () => {
+  it('unsolved sans progression enregistrée', () => {
+    expect(completionStatus(undefined)).toBe('unsolved')
   })
 
-  it('solved si terminé sans bestMoves', () => {
-    expect(completionStatus({ completed: true, lastPlayedAt: '' }, 10)).toBe('solved')
-  })
-
-  it('perfect si bestMoves ≤ parMoves', () => {
-    expect(completionStatus({ completed: true, bestMoves: 8, lastPlayedAt: '' }, 10)).toBe(
-      'perfect',
-    )
-    expect(completionStatus({ completed: true, bestMoves: 10, lastPlayedAt: '' }, 10)).toBe(
-      'perfect',
-    )
-  })
-
-  it('solved si bestMoves > parMoves', () => {
-    expect(completionStatus({ completed: true, bestMoves: 12, lastPlayedAt: '' }, 10)).toBe(
-      'solved',
-    )
+  it('reprend le statut enregistré à la victoire', () => {
+    expect(completionStatus({ status: 'perfect', lastPlayedAt: '' })).toBe('perfect')
+    expect(completionStatus({ status: 'solved', lastPlayedAt: '' })).toBe('solved')
   })
 })
 
@@ -55,5 +46,20 @@ describe('lib/completion — victoryVariant', () => {
 
   it('solved si moves > parMoves', () => {
     expect(victoryVariant(12, 10)).toBe('solved')
+  })
+})
+
+describe('lib/completion : dayStatuses', () => {
+  it('lit le statut enregistré de chaque niveau du jour', () => {
+    const progress: GameProgress = {
+      [levelKey('2026-09-01', 1)]: { status: 'perfect', lastPlayedAt: '' },
+      [levelKey('2026-09-01', 2)]: { status: 'solved', lastPlayedAt: '' },
+    }
+    expect(dayStatuses('2026-09-01', progress)).toEqual([
+      'perfect',
+      'solved',
+      'unsolved',
+      'unsolved',
+    ])
   })
 })

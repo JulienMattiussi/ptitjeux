@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-21-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "PVC",
+      "mâchoire",
+      "requin",
+      "atrabile",
+      "Aragog",
+      "pardonner"
+    ],
+    [
+      "chien",
+      "saccharose",
+      "immatériel",
+      "Shelley",
+      "vampire",
+      "serpent"
+    ],
+    [
+      "attaque",
+      "crique",
+      "hameçon",
+      "round",
+      "patte",
+      "suspense"
+    ],
+    [
+      "aboyer",
+      "perforant",
+      "dent",
+      "croquer",
+      "museler",
+      "chevelure"
+    ],
+    [
+      "tertre",
+      "Marrakech",
+      "ronger",
+      "lésion",
+      "croc",
+      "Amsterdam"
+    ],
+    [
+      "lèvre",
+      "assiégeant",
+      "apex",
+      "tribun",
+      "appât",
+      "satiné"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    4,
+    1,
+    4,
+    1,
+    4,
+    1
+  ],
+  "themeWord": "mordre",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

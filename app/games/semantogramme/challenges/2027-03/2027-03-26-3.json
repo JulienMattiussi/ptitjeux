@@ -5,106 +5,82 @@
   "height": 6,
   "words": [
     [
-      "lune",
-      "farine",
-      "observateur",
-      "payant",
-      "issu",
-      "visser"
+      "alcôve",
+      "hiberner",
+      "estampe",
+      "emmental",
+      "Sonic",
+      "pomme"
     ],
     [
-      "ruisseler",
-      "système",
-      "puissante",
-      "utile",
-      "gratuit",
-      "cognition"
+      "LPO",
+      "haie",
+      "escargot",
+      "fatalisme",
+      "Lapérouse",
+      "Turquie"
     ],
     [
-      "propriétaire",
-      "mettre-à-jour",
-      "développement",
-      "kiwi",
-      "application",
-      "commercial"
+      "route",
+      "baie",
+      "agréable",
+      "Carpates",
+      "boule",
+      "Saint-Sulpice"
     ],
     [
-      "berlingot",
-      "bottine",
-      "éditeur",
-      "inhalateur",
-      "installer",
-      "libre"
+      "clivage",
+      "Brest",
+      "solitude",
+      "insectivore",
+      "épines",
+      "thèse"
     ],
     [
-      "code",
-      "bureau",
-      "version",
-      "valise",
-      "colorer",
-      "paupière"
+      "nocturne",
+      "piquants",
+      "corrosif",
+      "taillis",
+      "limace",
+      "airelle"
     ],
     [
-      "programme",
-      "lancer",
-      "passeport",
-      "pantin",
-      "gonfler",
-      "ordinateur"
+      "Cherbourg",
+      "feuilles",
+      "bogue",
+      "craintif",
+      "jardin",
+      "petit"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    5,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
-    3,
-    4,
     3,
     2,
-    3,
-    3
+    2,
+    2,
+    4,
+    4
   ],
-  "themeWord": "logiciel",
+  "colClues": [
+    2,
+    4,
+    2,
+    2,
+    5,
+    2
+  ],
+  "themeWord": "hérisson",
   "solution": [
     [
       false,
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true,
       true
     ],
     [
       false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -113,12 +89,36 @@
     ],
     [
       true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
+      true,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

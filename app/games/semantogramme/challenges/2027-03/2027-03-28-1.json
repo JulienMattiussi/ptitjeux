@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "tropique",
-      "sagoutier",
-      "malléable",
-      "imbiber"
+      "dîner",
+      "glucose",
+      "plat",
+      "évincer"
     ],
     [
-      "éventail",
-      "planifier",
-      "vis",
-      "feuille"
+      "entrée",
+      "table",
+      "insectes",
+      "assiette"
     ],
     [
-      "chiffre",
-      "cocotier",
-      "transformation",
-      "pépin"
+      "étonné",
+      "déjeuner",
+      "petit-déjeuner",
+      "routier"
     ],
     [
-      "datte",
-      "savane",
-      "tronc",
-      "pioncer"
+      "dessert",
+      "menu",
+      "Greenwich",
+      "manger"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
-    1,
     3
   ],
   "colClues": [
     3,
     3,
-    1,
-    1
+    2,
+    2
   ],
-  "themeWord": "palmier",
+  "themeWord": "repas",
   "solution": [
     [
       true,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
-      false,
+      true,
       false,
       true
     ],
     [
       false,
       true,
-      false,
+      true,
       false
     ],
     [
       true,
       true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

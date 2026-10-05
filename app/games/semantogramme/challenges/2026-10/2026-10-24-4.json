@@ -5,105 +5,96 @@
   "height": 7,
   "words": [
     [
-      "poulet",
-      "profusion",
-      "particule",
-      "mica",
-      "archéen",
-      "plutonique",
-      "commencer"
+      "Amérique",
+      "diriger",
+      "Occitanie",
+      "savane",
+      "moutons",
+      "gelée",
+      "cicatrisation"
     ],
     [
-      "barbecue",
-      "cristallin",
-      "boccioni",
-      "frette",
-      "ordonnance",
-      "minéral",
-      "réaliste"
+      "Bolivie",
+      "dérision",
+      "Thriller",
+      "accéléromètre",
+      "tubulaire",
+      "Puccini",
+      "chimpanzé"
     ],
     [
-      "monument",
-      "micro",
-      "fourre-tout",
-      "tactile",
-      "picasso",
-      "algérie",
-      "équinoxe"
+      "conique",
+      "forêt",
+      "grande",
+      "Normandie",
+      "Colombie",
+      "Phénix",
+      "fourmilier"
     ],
     [
-      "carboniser",
-      "staub",
-      "massif",
-      "identité",
-      "feldspath",
-      "noir",
-      "sanglant"
+      "Cléopâtre",
+      "insecte",
+      "Paraguay",
+      "logique",
+      "chemin",
+      "imprimante",
+      "Pantanal"
     ],
     [
-      "acceptation",
-      "flatter",
-      "résistant",
-      "popeye",
-      "usité",
-      "géranium",
-      "rotation"
+      "allongé",
+      "vacuité",
+      "émotif",
+      "gaspiller",
+      "aplati",
+      "bronze",
+      "grillon"
     ],
     [
-      "haute",
-      "griffe",
-      "gris",
-      "dur",
-      "magmatique",
-      "pierre",
-      "bretonne"
+      "viscosité",
+      "pampa",
+      "fusionner",
+      "Argentine",
+      "soda",
+      "exclusif",
+      "française"
     ],
     [
-      "hugo",
-      "dégustation",
-      "éditeur",
-      "moulinet",
-      "weber",
-      "quartz",
-      "tombe"
+      "virus",
+      "tulipe",
+      "photosynthèse",
+      "portrait",
+      "rehausser",
+      "édenté",
+      "termite"
     ]
   ],
   "rowClues": [
     2,
     2,
-    1,
+    3,
     3,
     1,
-    5,
+    2,
     2
   ],
   "colClues": [
-    1,
-    1,
+    2,
     3,
+    1,
     2,
-    2,
-    5,
-    2
+    3,
+    1,
+    3
   ],
-  "themeWord": "granite",
+  "themeWord": "tamanoir",
   "solution": [
     [
-      false,
+      true,
       false,
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      false,
-      false,
-      true,
       false
     ],
     [
@@ -111,36 +102,45 @@
       false,
       false,
       false,
-      false,
+      true,
       false,
       false
     ],
     [
       false,
-      false,
       true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
     ],
     [
       false,
@@ -152,5 +152,5 @@
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "arrêt",
-      "rêve",
-      "conclusion",
-      "rikiki"
+      "lyrique",
+      "érable",
+      "nervure",
+      "tomber"
     ],
     [
-      "extrémité",
-      "terme",
-      "arrivée",
-      "éternuer"
+      "supermarché",
+      "coteau",
+      "automne",
+      "chlorophylle"
     ],
     [
-      "attaque",
-      "épilogue",
-      "digestion",
-      "cesser"
+      "coriace",
+      "chêne",
+      "papier",
+      "commis"
     ],
     [
-      "aboutir",
-      "achèvement",
-      "dénouement",
-      "mental"
+      "arbre",
+      "chamade",
+      "yourte",
+      "vert"
     ]
   ],
   "rowClues": [
-    2,
     3,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
+    1,
+    2,
     3,
-    3,
-    3,
-    1
+    3
   ],
-  "themeWord": "fin",
+  "themeWord": "feuille",
   "solution": [
     [
-      true,
       false,
       true,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true
     ],
     [
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

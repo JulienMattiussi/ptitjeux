@@ -5,112 +5,103 @@
   "height": 7,
   "words": [
     [
-      "comique",
-      "poudre",
-      "taxi",
-      "envol",
-      "audacieux",
-      "dieu",
-      "monument"
+      "compteur",
+      "malédiction",
+      "orientée",
+      "devise",
+      "manipulateur",
+      "choeur",
+      "balisage"
     ],
     [
-      "soirée",
-      "obscure",
-      "combattre",
-      "littéraire",
-      "sureau",
-      "javelot",
-      "grégaire"
+      "arrosoir",
+      "livreur",
+      "filiforme",
+      "autel",
+      "Oléron",
+      "humanité",
+      "roman"
     ],
     [
-      "familial",
-      "bronche",
-      "pommade",
-      "imperceptible",
-      "juin",
-      "malinowski",
-      "paradoxe"
+      "rapprochement",
+      "chose",
+      "mosaïque",
+      "Proust",
+      "correction",
+      "église",
+      "santé"
     ],
     [
-      "stéthoscope",
-      "pioncer",
-      "tian",
-      "opposer",
-      "stylistique",
-      "frapper",
-      "contradiction"
+      "bifurcation",
+      "remblai",
+      "Atlantide",
+      "moyen",
+      "gothique",
+      "chapelle",
+      "architecture"
     ],
     [
-      "orchidée",
-      "transformer",
-      "rapprocher",
-      "salve",
-      "figure",
-      "détremper",
-      "éternelle"
+      "Atacama",
+      "Christofle",
+      "reine",
+      "axe",
+      "déambulatoire",
+      "chérir",
+      "Alceste"
     ],
     [
-      "effet",
-      "exagérer",
-      "évoquer",
-      "minéralogique",
-      "batavia",
-      "antithèse",
-      "fanion"
+      "gnome",
+      "hémicycle",
+      "escabeau",
+      "demi",
+      "basilique",
+      "chistera",
+      "luminosité"
     ],
     [
-      "poésie",
-      "beignet",
-      "huisserie",
-      "lancéolée",
-      "expression",
-      "parisienne",
-      "bpm"
+      "nef",
+      "transept",
+      "vitraux",
+      "collage",
+      "chiffon",
+      "comblé",
+      "Segway"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    2,
+    3,
     1,
     2,
+    3
+  ],
+  "colClues": [
     1,
-    4,
     2,
+    3,
+    1,
+    3,
     3,
     2
   ],
-  "colClues": [
-    2,
-    1,
-    2,
-    2,
-    4,
-    2,
-    2
-  ],
-  "themeWord": "oxymore",
+  "themeWord": "abside",
   "solution": [
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false,
       false,
+      true,
       false
     ],
     [
       false,
       false,
       false,
-      false,
+      true,
       false,
       false,
       true
@@ -118,8 +109,17 @@
     [
       false,
       false,
+      true,
+      false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       true,
       true
@@ -127,7 +127,16 @@
     [
       false,
       false,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       true,
       false,
@@ -135,19 +144,10 @@
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
       false,
       false
     ]

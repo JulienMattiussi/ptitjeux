@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "meurtrière",
-      "sueurs",
-      "archet",
-      "rempart",
-      "amoureux"
+      "chou-fleur",
+      "trapèze",
+      "dauphin",
+      "pirouette",
+      "galbée"
     ],
     [
-      "rosser",
-      "résister",
-      "tour",
-      "mur",
-      "douve"
+      "Bouglione",
+      "voltige",
+      "fil",
+      "trampoline",
+      "Ecclésiaste"
     ],
     [
-      "siège",
-      "fortifier",
-      "militaire",
-      "grosse",
-      "jeunesse"
+      "Mickey",
+      "fuite",
+      "cirque",
+      "bienvenu",
+      "souplesse"
     ],
     [
-      "médiévale",
-      "laser",
-      "soldat",
-      "massive",
-      "rougeoyant"
+      "pulsation",
+      "porteur",
+      "procuration",
+      "cascadeur",
+      "persévérant"
     ],
     [
-      "univers",
-      "refrain",
-      "pont-levis",
-      "fraction",
-      "imprenable"
+      "jongleur",
+      "funambule",
+      "municipalité",
+      "saltimbanque",
+      "pressoir"
     ]
   ],
   "rowClues": [
     2,
     4,
-    3,
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
-    3,
     2,
     4,
-    3,
-    2
+    2,
+    4,
+    1
   ],
-  "themeWord": "forteresse",
+  "themeWord": "acrobate",
   "solution": [
     [
-      true,
       false,
+      true,
       false,
       true,
       false
     ],
     [
-      false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
@@ -90,7 +76,21 @@
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "couverture",
-      "risque",
-      "période",
-      "découverte"
+      "roue",
+      "chaîne",
+      "dérailleur",
+      "impasse"
     ],
     [
-      "mystère",
-      "cacher",
-      "danger",
-      "collant"
+      "sonnette",
+      "pédale",
+      "ras-el-hanout",
+      "souk"
     ],
     [
-      "irlande",
-      "péripétie",
-      "poêle",
-      "héros"
+      "pompe",
+      "celte",
+      "cycliste",
+      "lardons"
     ],
     [
-      "photo",
-      "exploration",
-      "char",
-      "expédition"
+      "plasma",
+      "sensualité",
+      "guidon",
+      "pneu"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
-    2,
+    1,
     2
   ],
   "colClues": [
-    1,
+    2,
+    2,
     3,
-    1,
-    3
+    1
   ],
-  "themeWord": "aventure",
+  "themeWord": "vélo",
   "solution": [
     [
-      false,
       true,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false
     ],
     [
       false,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      false,
       true
     ]
   ],

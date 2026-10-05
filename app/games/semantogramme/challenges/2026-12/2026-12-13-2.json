@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "évasé",
-      "horizon",
-      "spacieux",
-      "commerciale",
-      "généreux"
+      "Satan",
+      "saint",
+      "Crusoé",
+      "Robinson",
+      "Caligari"
     ],
     [
-      "populaire",
-      "selle",
-      "ample",
-      "peigne",
-      "épaule"
+      "roue",
+      "jour",
+      "mammifère",
+      "week-end",
+      "noir"
     ],
     [
-      "paume",
-      "sororal",
-      "étaler",
-      "rouge",
-      "rayon"
+      "algorithme",
+      "lande",
+      "cierge",
+      "récitatif",
+      "Vénus"
     ],
     [
-      "étendre",
-      "banqueter",
-      "plage",
-      "prix",
-      "poisseux"
+      "fin",
+      "littéraire",
+      "caboche",
+      "poisson",
+      "Jurassique"
     ],
     [
-      "élargir",
-      "fleuve",
-      "oxyder",
-      "avenue",
-      "éclat"
+      "céréale",
+      "semaine",
+      "dragon",
+      "Texas",
+      "carême"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
-    4,
-    2,
-    4,
+    3,
+    3,
     1,
+    2,
     2
   ],
-  "themeWord": "large",
+  "colClues": [
+    1,
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "vendredi",
   "solution": [
     [
+      false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
+      true,
       true
     ],
     [
       false,
       false,
-      true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
       false,
+      true,
       false
     ],
     [
-      true,
       false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

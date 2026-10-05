@@ -5,55 +5,55 @@
   "height": 4,
   "words": [
     [
-      "carton",
-      "parterre",
-      "transformation",
-      "mêlée"
+      "eau",
+      "manche",
+      "préau",
+      "couvercle"
     ],
     [
-      "pilier",
-      "butiner",
-      "escarpé",
-      "talonneur"
+      "science",
+      "cuivre",
+      "réanimation",
+      "égocentrique"
     ],
     [
-      "cire",
-      "saphir",
-      "plaquage",
-      "confettis"
+      "misanthropie",
+      "amoureux",
+      "plaque",
+      "cale"
     ],
     [
-      "ballon",
-      "pénalité",
-      "décocher",
-      "ouvreur"
+      "cuisine",
+      "piment",
+      "faitout",
+      "allergie"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    3,
     1,
-    3
+    1,
+    2
   ],
   "colClues": [
     2,
-    1,
     2,
-    3
+    2,
+    1
   ],
-  "themeWord": "rugby",
+  "themeWord": "casserole",
   "solution": [
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
@@ -63,10 +63,10 @@
     ],
     [
       true,
-      true,
       false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

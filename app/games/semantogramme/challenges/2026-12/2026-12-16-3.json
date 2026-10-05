@@ -5,108 +5,84 @@
   "height": 6,
   "words": [
     [
-      "planer",
-      "article",
-      "scanner",
-      "urticant",
-      "rivage",
-      "plage"
+      "fruits",
+      "presto",
+      "ressort",
+      "Bonaparte",
+      "quai",
+      "Gainsbourg"
     ],
     [
-      "grise",
-      "sacoche",
-      "plume",
-      "tatouer",
-      "récolter",
-      "panier"
+      "transcendance",
+      "commun",
+      "rythme",
+      "Jah",
+      "Montréal",
+      "débrouillard"
     ],
     [
-      "cavaler",
-      "opportuniste",
-      "havane",
-      "pêcher",
-      "éternuement",
-      "plonger"
+      "Zion",
+      "penderie",
+      "coquelicot",
+      "essaim",
+      "Tzara",
+      "rasta"
     ],
     [
-      "piailler",
-      "jumeau",
-      "jachère",
-      "soupir",
-      "goéland",
-      "cri"
+      "fontaine",
+      "billet",
+      "Marley",
+      "Jamaïque",
+      "osciller",
+      "contretemps"
     ],
     [
-      "attacher",
-      "envier",
-      "croquante",
-      "marine",
-      "économiser",
-      "kraken"
+      "frangé",
+      "quarantaine",
+      "Éthiopie",
+      "mousse",
+      "Blondy",
+      "Tosh"
     ],
     [
-      "voler",
-      "parenté",
-      "patin",
-      "oiseau",
-      "perche",
-      "mer"
+      "caboche",
+      "Cliff",
+      "degré",
+      "dreadlocks",
+      "Kingston",
+      "lumière"
     ]
   ],
   "rowClues": [
-    3,
+    1,
+    2,
     2,
     3,
     3,
-    1,
     3
   ],
   "colClues": [
-    4,
     1,
     1,
+    3,
     3,
     2,
     4
   ],
-  "themeWord": "mouette",
+  "themeWord": "reggae",
   "solution": [
     [
-      true,
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
       true
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       false,
       false
@@ -115,10 +91,34 @@
       true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

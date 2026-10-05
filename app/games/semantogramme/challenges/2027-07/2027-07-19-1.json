@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-19-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ronfler",
+      "bâiller",
+      "berceuse",
+      "drone"
+    ],
+    [
+      "Maigret",
+      "dormir",
+      "oreiller",
+      "lit"
+    ],
+    [
+      "sieste",
+      "prétendre",
+      "réveil",
+      "docte"
+    ],
+    [
+      "insomnie",
+      "aérostat",
+      "gracieux",
+      "allusif"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "sommeil",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

@@ -5,102 +5,138 @@
   "height": 7,
   "words": [
     [
-      "impair",
-      "jaune",
-      "spartiate",
-      "farouche",
-      "français",
-      "mer",
-      "rosette"
+      "Cléopâtre",
+      "douze",
+      "potage",
+      "mangrove",
+      "Guyane",
+      "Duruflé",
+      "ultrason"
     ],
     [
-      "trilobite",
-      "explosion",
-      "goûter",
-      "confettis",
-      "amabilité",
-      "animal",
-      "biodiversité"
+      "herbivore",
+      "passage",
+      "sirène",
+      "chaire",
+      "cygne",
+      "cuticule",
+      "astigmate"
     ],
     [
-      "roche",
-      "audacieux",
-      "ancien",
-      "sédiment",
-      "paléozoïque",
-      "épine",
-      "attendre"
+      "lent",
+      "mammifère",
+      "historié",
+      "lugubre",
+      "os",
+      "Floride",
+      "douane"
     ],
     [
-      "corbeille",
-      "fossile",
-      "munition",
-      "écriture",
-      "préhistorique",
-      "gêné",
-      "active"
+      "viser",
+      "gros",
+      "Sénégal",
+      "cirer",
+      "lagune",
+      "caneton",
+      "duchesse"
     ],
     [
-      "chausser",
-      "invertébré",
-      "grippe",
-      "coton",
-      "ton",
-      "tacheté",
-      "épousseter"
+      "cancrelat",
+      "portique",
+      "Verlaine",
+      "imperturbable",
+      "bordure",
+      "paisible",
+      "quarante"
     ],
     [
-      "égoïne",
-      "culminer",
-      "géologique",
-      "inoccupé",
-      "vibrer",
-      "apparition",
-      "stigmatiser"
+      "outre",
+      "César",
+      "algues",
+      "ostéopathe",
+      "lécher",
+      "dugong",
+      "Amazonie"
     ],
     [
-      "nature",
-      "porcelaine",
-      "illusion",
-      "chocolat",
-      "ordovicien",
-      "éroder",
-      "ère"
+      "Caraïbes",
+      "pigeons",
+      "marin",
+      "guirlandes",
+      "menacé",
+      "maraîchère",
+      "hélice"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    4,
     2,
-    1,
     2,
-    2
+    3,
+    3,
+    1,
+    3,
+    4
   ],
   "colClues": [
-    2,
     3,
     2,
+    4,
     1,
     3,
     3,
     2
   ],
-  "themeWord": "cambrien",
+  "themeWord": "lamantin",
   "solution": [
     [
       false,
       false,
       false,
+      true,
+      true,
       false,
+      false
+    ],
+    [
+      true,
       false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
       true,
       true,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true,
@@ -110,47 +146,11 @@
       true,
       false,
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -5,80 +5,66 @@
   "height": 5,
   "words": [
     [
-      "cheval",
-      "aiguillage",
-      "antiquaire",
-      "galoper",
-      "pureté"
+      "alvéole",
+      "accoudoir",
+      "Délivrance",
+      "Baïkonour",
+      "cheminée"
     ],
     [
-      "arc-en-ciel",
-      "légendaire",
-      "écarlate",
-      "tripode",
-      "pur"
+      "affûté",
+      "ouvrier",
+      "délicat",
+      "invincible",
+      "inintelligible"
     ],
     [
-      "avril",
-      "région",
-      "magique",
-      "pouvoir",
-      "élaborer"
+      "machine",
+      "grève",
+      "garde",
+      "manufacture",
+      "sirène"
     ],
     [
-      "développer",
-      "enchanter",
-      "harnais",
-      "shaker",
-      "caricature"
+      "atelier",
+      "mai",
+      "photo",
+      "blason",
+      "pollution"
     ],
     [
-      "mystique",
-      "corne",
-      "innocence",
-      "forêt",
-      "accélération"
+      "flacon",
+      "tamisé",
+      "patron",
+      "fabrique",
+      "robot"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    2,
     1,
-    4
+    1,
+    4,
+    2,
+    3
   ],
   "colClues": [
-    3,
-    3,
     2,
-    3,
-    2
+    2,
+    1,
+    2,
+    4
   ],
-  "themeWord": "licorne",
+  "themeWord": "usine",
   "solution": [
     [
-      true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true
     ],
     [
       false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -87,10 +73,24 @@
     [
       true,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

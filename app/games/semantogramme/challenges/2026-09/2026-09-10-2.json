@@ -5,67 +5,74 @@
   "height": 5,
   "words": [
     [
-      "épuiser",
-      "succulente",
-      "figure",
-      "vulnérabilité",
-      "poignée"
+      "tourner",
+      "saphir",
+      "moustache",
+      "minois",
+      "frimousse"
     ],
     [
-      "fatiguer",
-      "fleuret",
-      "engager",
-      "débile",
-      "affaiblir"
+      "physionomie",
+      "pommette",
+      "teint",
+      "nièce",
+      "nostalgie"
     ],
     [
-      "coup",
-      "cellule",
-      "fragilité",
-      "anémique",
-      "uppercut"
+      "fossette",
+      "traits",
+      "tourment",
+      "grimace",
+      "sourire"
     ],
     [
-      "malade",
-      "chétif",
-      "souffreteux",
-      "médicale",
-      "restauration"
+      "présentoir",
+      "adorer",
+      "regard",
+      "Bosphore",
+      "expression"
     ],
     [
-      "impuissant",
-      "frêle",
-      "délicat",
-      "demoiselle",
-      "las"
+      "profil",
+      "accueil",
+      "disparition",
+      "barbe",
+      "queue"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    2,
     3,
-    4
-  ],
-  "colClues": [
     4,
     2,
-    3,
-    3,
     2
   ],
-  "themeWord": "faible",
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "visage",
   "solution": [
     [
-      true,
       false,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false
     ],
     [
       true,
-      false,
+      true,
       false,
       true,
       true
@@ -74,22 +81,15 @@
       false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 14

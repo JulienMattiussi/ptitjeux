@@ -5,93 +5,93 @@
   "height": 6,
   "words": [
     [
-      "malédiction",
-      "croyance",
-      "périlleux",
-      "pingre",
-      "liard",
-      "cupide"
+      "Clausius",
+      "pourboire",
+      "vidange",
+      "méditatif",
+      "bagne",
+      "fumé"
     ],
     [
-      "perdant",
-      "crédule",
-      "submergé",
-      "parcimonie",
-      "mesquin",
-      "magot"
+      "Dvořák",
+      "frayère",
+      "favorable",
+      "Écosse",
+      "gothique",
+      "sushi"
     ],
     [
-      "norvège",
-      "pis",
-      "économiser",
-      "thésauriser",
-      "piste",
-      "moine"
+      "rose",
+      "tartare",
+      "Loire",
+      "héraldique",
+      "aérostat",
+      "virement"
     ],
     [
-      "proie",
-      "tirelire",
-      "ondulé",
-      "amasser",
-      "flamboyer",
-      "coq"
+      "atomique",
+      "Norvège",
+      "pulsation",
+      "David",
+      "bagel",
+      "aneth"
     ],
     [
-      "épargne",
-      "rapacité",
-      "radin",
-      "cutané",
-      "lésiner",
-      "four"
+      "meringue",
+      "UNESCO",
+      "tubercule",
+      "Merleau-Ponty",
+      "ours",
+      "Canada"
     ],
     [
-      "aviateur",
-      "rapiat",
-      "priver",
-      "grippe-sou",
-      "mettre",
-      "fortune"
+      "chorale",
+      "Alléluia",
+      "migration",
+      "poisson",
+      "élevage",
+      "partager"
     ]
   ],
   "rowClues": [
+    1,
+    3,
     3,
     3,
     2,
-    2,
-    4,
-    4
+    3
   ],
   "colClues": [
     1,
     3,
+    2,
+    2,
     3,
-    5,
-    3,
-    3
+    4
   ],
-  "themeWord": "avare",
+  "themeWord": "saumon",
   "solution": [
     [
       false,
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
-      false,
-      false,
       true,
       true,
+      true,
+      false,
       false,
       false
     ],
@@ -99,26 +99,26 @@
       false,
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

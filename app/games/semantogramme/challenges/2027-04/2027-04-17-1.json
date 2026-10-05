@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "mort-vivant",
-      "farine",
-      "apprenti",
-      "écosystème"
+      "monde",
+      "bec",
+      "cratère",
+      "buffet"
     ],
     [
-      "pain",
-      "vermillon",
-      "poussière",
-      "pétrin"
+      "piment",
+      "stable",
+      "serres",
+      "proie"
     ],
     [
-      "baguette",
-      "mie",
-      "canne",
-      "four"
+      "dattes",
+      "aigle",
+      "Kabylie",
+      "boucle"
     ],
     [
-      "éclosion",
-      "levure",
-      "brioche",
-      "pâte"
+      "vautour",
+      "hibou",
+      "Poucette",
+      "faucon"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    2,
-    3,
+    1,
     3
   ],
   "colClues": [
-    2,
+    1,
     3,
-    2,
-    3
+    1,
+    2
   ],
-  "themeWord": "boulanger",
+  "themeWord": "rapace",
   "solution": [
     [
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       false
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

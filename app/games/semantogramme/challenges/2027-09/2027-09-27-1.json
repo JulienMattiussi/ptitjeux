@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "supporter",
+      "décollage",
+      "tribune",
+      "pergélisol"
+    ],
+    [
+      "Vélodrome",
+      "match",
+      "Normandie",
+      "musée"
+    ],
+    [
+      "athlétisme",
+      "grumeleux",
+      "doigts",
+      "football"
+    ],
+    [
+      "Médan",
+      "prolixe",
+      "billet",
+      "Ardèche"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    1
+  ],
+  "themeWord": "stade",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

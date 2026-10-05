@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-06-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "foin",
+      "auge",
+      "pâle",
+      "fumier",
+      "litière",
+      "mafia"
+    ],
+    [
+      "tondeuse",
+      "congé",
+      "Bethléem",
+      "araignée",
+      "dalle",
+      "réanimation"
+    ],
+    [
+      "harponneur",
+      "cachot",
+      "Salem",
+      "sirène",
+      "aîné",
+      "Jésus"
+    ],
+    [
+      "bétail",
+      "paille",
+      "vache",
+      "griffer",
+      "franc",
+      "eutrophisation"
+    ],
+    [
+      "faible",
+      "boeuf",
+      "texte",
+      "bouvier",
+      "traite",
+      "pourlécher"
+    ],
+    [
+      "pendante",
+      "ferme",
+      "écurie",
+      "étamine",
+      "Aigle",
+      "âne"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "étable",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

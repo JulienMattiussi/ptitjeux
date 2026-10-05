@@ -5,113 +5,104 @@
   "height": 7,
   "words": [
     [
-      "décorer",
-      "romantique",
-      "mathématique",
-      "piqûre",
-      "pimenter",
-      "natation",
-      "gratte-ciel"
+      "vitupérer",
+      "ocelle",
+      "réquisitoire",
+      "siècle",
+      "Byzance",
+      "censurer",
+      "guède"
     ],
     [
-      "cohérence",
-      "analyser",
-      "glaise",
-      "église",
-      "expérience",
-      "temps",
-      "césar"
+      "fièvre",
+      "vilipender",
+      "honnir",
+      "duchesse",
+      "fouetter",
+      "dénoncer",
+      "Héphaïstos"
     ],
     [
-      "dépoussiérer",
-      "sentencieux",
-      "cigale",
-      "jumelé",
-      "altier",
-      "protéger",
-      "aiguë"
+      "flageller",
+      "Alceste",
+      "réprouver",
+      "praline",
+      "hydre",
+      "Coltrane",
+      "Hale-Bopp"
     ],
     [
-      "informatique",
-      "improviser",
-      "clé",
-      "sensuel",
-      "ligne",
-      "romarin",
-      "chiffre"
+      "attaquer",
+      "stigmatiser",
+      "tumeur",
+      "jurassique",
+      "Médicis",
+      "vaporisateur",
+      "ongle"
     ],
     [
-      "imitation",
-      "militaire",
-      "code",
-      "cacher",
-      "antiquaire",
-      "ordure",
-      "semoir"
+      "condamner",
+      "béluga",
+      "débit",
+      "orteil",
+      "pamphlet",
+      "avenue",
+      "abstinence"
     ],
     [
-      "horizon",
-      "éloge",
-      "numérique",
-      "fournir",
-      "décrypter",
-      "algorithme",
-      "vaisselle"
+      "satire",
+      "mûrier",
+      "vol",
+      "blâmer",
+      "obèse",
+      "pingre",
+      "paysans"
     ],
     [
-      "inoccupé",
-      "sécurité",
-      "tari",
-      "gigantesque",
-      "enigma",
-      "science",
-      "rsa"
+      "accabler",
+      "ferreux",
+      "fameux",
+      "absorber",
+      "passé",
+      "critiquer",
+      "diatribe"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    1,
-    3,
-    3,
-    3,
-    4
-  ],
-  "colClues": [
-    1,
     3,
     4,
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    6,
+    2,
+    3,
     1,
     2,
     3,
-    3
+    1
   ],
-  "themeWord": "cryptographie",
+  "themeWord": "fustiger",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
+      true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       true,
       false
     ],
@@ -122,35 +113,44 @@
       false,
       false,
       false,
-      true
+      false
     ],
     [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       true,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
       true,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
-      true,
+      false,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

@@ -5,52 +5,46 @@
   "height": 4,
   "words": [
     [
-      "rue",
-      "piéton",
-      "âme",
-      "safari"
+      "réussite",
+      "boutique",
+      "gloire",
+      "cobalt"
     ],
     [
-      "mât",
-      "vider",
-      "ampoule",
-      "leçon"
+      "feuilletée",
+      "orgueil",
+      "honneur",
+      "distraction"
     ],
     [
-      "bénitier",
-      "fonte",
-      "globe",
-      "parallèle"
+      "grains",
+      "panache",
+      "dignité",
+      "vanité"
     ],
     [
-      "avenue",
-      "progéniture",
-      "honte",
-      "éclairage"
+      "médaille",
+      "refuge",
+      "nation",
+      "nanti"
     ]
   ],
   "rowClues": [
     2,
     2,
-    2,
-    2
-  ],
-  "colClues": [
     3,
-    2,
-    2,
     1
   ],
-  "themeWord": "lampadaire",
+  "colClues": [
+    2,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "fierté",
   "solution": [
     [
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false
@@ -62,10 +56,16 @@
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 8

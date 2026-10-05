@@ -5,86 +5,78 @@
   "height": 6,
   "words": [
     [
-      "marin",
-      "cachalot",
-      "roulis",
-      "kraken",
-      "mer",
-      "voile"
+      "gifle",
+      "Vinteuil",
+      "cuistre",
+      "cogner",
+      "ballon-sonde",
+      "choquer"
     ],
     [
-      "moine",
-      "châtier",
-      "huit",
-      "crochet",
-      "mollusque",
-      "profond"
+      "amas",
+      "Lyonnais",
+      "heurter",
+      "battre",
+      "tambouriner",
+      "cime"
     ],
     [
-      "jambe",
-      "cueilli",
-      "tentacule",
-      "aquatique",
-      "mort",
-      "applique"
+      "pilaf",
+      "écureuil",
+      "alevin",
+      "slalom",
+      "boxe",
+      "architecte"
     ],
     [
-      "lampadaire",
-      "rocher",
-      "sous-marin",
-      "calmar",
-      "ventouse",
-      "acheter"
+      "Bergson",
+      "assassinat",
+      "taloche",
+      "claquer",
+      "socquette",
+      "taper"
     ],
     [
-      "attention",
-      "céphalopode",
-      "seiche",
-      "pagaie",
-      "dattier",
-      "séduction"
+      "gisant",
+      "urne",
+      "prolixe",
+      "fouetter",
+      "Bengale",
+      "percuter"
     ],
     [
-      "saler",
-      "brandade",
-      "âcre",
-      "menu",
-      "encre",
-      "poulpe"
+      "toc",
+      "coup",
+      "assommer",
+      "monnaie",
+      "faîte",
+      "carie"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    2,
-    4,
-    2,
-    2
-  ],
-  "colClues": [
+    3,
+    3,
     1,
     3,
-    4,
-    4,
-    4,
-    2
+    2,
+    4
   ],
-  "themeWord": "pieuvre",
+  "colClues": [
+    2,
+    1,
+    3,
+    5,
+    2,
+    3
+  ],
+  "themeWord": "frapper",
   "solution": [
     [
       true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
-      true,
-      true,
+      false,
       true
     ],
     [
@@ -92,33 +84,41 @@
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       false
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

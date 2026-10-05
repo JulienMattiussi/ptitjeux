@@ -5,83 +5,107 @@
   "height": 6,
   "words": [
     [
-      "avaler",
-      "mal",
-      "chanter",
-      "crocodile",
-      "messe",
-      "pharynx"
+      "pale",
+      "fusée",
+      "rotor",
+      "Karabatic",
+      "Marty",
+      "haleter"
     ],
     [
-      "lisse",
-      "habiter",
-      "parler",
-      "tranchée",
-      "cou",
-      "tintement"
+      "Sikorsky",
+      "agilité",
+      "grogner",
+      "requin",
+      "pioche",
+      "muffin"
     ],
     [
-      "maille",
-      "inertie",
-      "sablière",
-      "larynx",
-      "couverture",
-      "lombric"
+      "vrombissement",
+      "survol",
+      "partisan",
+      "issue",
+      "thème",
+      "égalité"
     ],
     [
-      "enrouée",
-      "corticoïde",
-      "empocher",
-      "thèse",
-      "serrée",
-      "douleur"
+      "turbine",
+      "Tzara",
+      "Jaurès",
+      "atterrissage",
+      "bassine",
+      "pilote"
     ],
     [
-      "amygdale",
-      "dynamisme",
-      "rasoir",
-      "briques",
-      "profonde",
-      "permanente"
+      "barrette",
+      "Vinci",
+      "vertical",
+      "gendarmerie",
+      "treuil",
+      "sacré"
     ],
     [
-      "se confier",
-      "paella",
-      "angine",
-      "tousser",
-      "allure",
-      "pastille"
+      "production",
+      "vol",
+      "Bornéo",
+      "secours",
+      "drone",
+      "Airbus"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    2,
     1,
+    2,
     3,
-    3,
-    2
+    4,
+    4
   ],
   "colClues": [
     4,
-    1,
-    4,
     3,
+    2,
     3,
+    2,
     2
   ],
-  "themeWord": "gorge",
+  "themeWord": "hélicoptère",
   "solution": [
     [
       true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
-      true,
       false,
+      true,
       true,
       true,
       true,
@@ -89,36 +113,12 @@
     ],
     [
       false,
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      false,
       true,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

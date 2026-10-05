@@ -5,61 +5,82 @@
   "height": 5,
   "words": [
     [
-      "magie",
-      "poudre",
-      "chuter",
-      "iris",
-      "conte"
+      "salutation",
+      "relaxation",
+      "étirement",
+      "zen",
+      "détendu"
     ],
     [
-      "mayonnaise",
-      "voltiger",
-      "longitude",
-      "lumineux",
-      "intégrité"
+      "rugueux",
+      "centime",
+      "méditation",
+      "rapace",
+      "distant"
     ],
     [
-      "forêt",
-      "silicone",
-      "baguette",
-      "merveilleux",
-      "éconduire"
+      "sport",
+      "chakra",
+      "souplesse",
+      "mantra",
+      "Byron"
     ],
     [
-      "aile",
-      "embrasser",
-      "sortilège",
-      "raccourci",
-      "rosier"
+      "Inde",
+      "respiration",
+      "posture",
+      "ampère",
+      "tapis"
     ],
     [
-      "cyclique",
-      "exaucer",
-      "paillette",
-      "choisir",
-      "s'esclaffer"
+      "garou",
+      "lotus",
+      "fièvre",
+      "prémonition",
+      "feuilletée"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    3,
-    2,
-    2
+    4,
+    1,
+    4,
+    4,
+    1
   ],
   "colClues": [
     3,
-    3,
-    3,
+    4,
+    4,
     2,
     1
   ],
-  "themeWord": "fée",
+  "themeWord": "yoga",
   "solution": [
     [
       true,
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
     ],
@@ -67,30 +88,9 @@
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

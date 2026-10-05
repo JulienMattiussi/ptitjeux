@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-06-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pâturage",
+      "cocotier",
+      "volière",
+      "doigt"
+    ],
+    [
+      "jardinage",
+      "hernie",
+      "formol",
+      "boxe"
+    ],
+    [
+      "Abel",
+      "hiver",
+      "moufle",
+      "bâiller"
+    ],
+    [
+      "cuir",
+      "chirurgien",
+      "main",
+      "gloire"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "gant",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

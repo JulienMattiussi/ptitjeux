@@ -5,69 +5,69 @@
   "height": 5,
   "words": [
     [
-      "restreint",
-      "bras",
-      "enseigne",
-      "soulever",
-      "délai"
+      "khôl",
+      "cloches",
+      "glisse",
+      "Rudolf",
+      "gaffeur"
     ],
     [
-      "rentrer",
-      "ourson",
-      "tram",
-      "travailler",
-      "aisselle"
+      "bile",
+      "réseau",
+      "husky",
+      "attelage",
+      "Père-Noël"
     ],
     [
-      "omoplate",
-      "porter",
-      "abdominal",
-      "trapèze",
-      "bretelle"
+      "Laponie",
+      "Alaska",
+      "entente",
+      "rennes",
+      "luge"
     ],
     [
-      "simultanée",
-      "rouler",
-      "hausser",
-      "seconde",
-      "deltoïde"
+      "emplacement",
+      "neige",
+      "toundra",
+      "dame",
+      "caddie"
     ],
     [
-      "torse",
-      "cou",
-      "clavicule",
-      "sangle",
-      "sillet"
+      "abstrus",
+      "chiens",
+      "patins",
+      "froid",
+      "large"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    4,
     3,
-    4
-  ],
-  "colClues": [
-    2,
+    3,
     4,
     2,
-    3,
     3
   ],
-  "themeWord": "épaule",
+  "colClues": [
+    1,
+    4,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "traîneau",
   "solution": [
     [
       false,
       true,
-      false,
+      true,
       true,
       false
     ],
     [
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
@@ -82,15 +82,15 @@
       true,
       true,
       false,
-      true
+      false
     ],
     [
-      true,
+      false,
       true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

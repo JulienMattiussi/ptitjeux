@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-24-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "flamenco",
+      "mûre",
+      "rock",
+      "diction"
+    ],
+    [
+      "bissextile",
+      "Hendrix",
+      "Roberval",
+      "électrique"
+    ],
+    [
+      "focale",
+      "savon",
+      "fémur",
+      "corde"
+    ],
+    [
+      "ampli",
+      "Taizé",
+      "étudiant",
+      "médiator"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    1,
+    3
+  ],
+  "themeWord": "guitare",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

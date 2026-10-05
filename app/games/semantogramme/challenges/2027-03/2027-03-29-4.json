@@ -5,96 +5,105 @@
   "height": 7,
   "words": [
     [
-      "frein",
-      "eau",
-      "nature",
-      "angora",
-      "terreur",
-      "meurtrier",
-      "urne"
+      "Lapérouse",
+      "Breton",
+      "reculer",
+      "harangue",
+      "Tyrol",
+      "poids",
+      "XIXe"
     ],
     [
-      "canapé",
-      "populaire",
-      "goutte",
-      "sommaire",
-      "pion",
-      "antique",
-      "piocher"
+      "rare",
+      "glacier",
+      "acceptation",
+      "symbole",
+      "tarentule",
+      "fleur",
+      "crise"
     ],
     [
-      "mûr",
-      "guet",
-      "besace",
-      "gélatineuse",
-      "utile",
-      "instrument",
-      "historique"
+      "cétoine",
+      "Dowland",
+      "altitude",
+      "endormir",
+      "névé",
+      "chamois",
+      "jargon"
     ],
     [
-      "australie",
-      "tisser",
-      "paris",
-      "cardiogramme",
-      "pente",
-      "saule",
-      "temps"
+      "rangée",
+      "sentir",
+      "parjure",
+      "horizon",
+      "étoile",
+      "protégée",
+      "Alpes"
     ],
     [
-      "compter",
-      "grec",
-      "contracter",
-      "égypte",
-      "commando",
-      "mesurer",
-      "enclume"
+      "truelle",
+      "Santos-Dumont",
+      "Lisieux",
+      "montagne",
+      "coeur",
+      "mer",
+      "girafe"
     ],
     [
-      "traverser",
-      "ricaner",
-      "quatre-quarts",
-      "préciser",
-      "tornade",
-      "romain",
-      "ton"
+      "haltère",
+      "carré",
+      "polynôme",
+      "gueules",
+      "suricate",
+      "rocher",
+      "Suisse"
     ],
     [
-      "wax",
-      "verser",
-      "strophe",
-      "soprano",
-      "noyau",
-      "écouler",
-      "neveu"
+      "Autriche",
+      "hydre",
+      "Chiron",
+      "alpiniste",
+      "duvet",
+      "cueillette",
+      "divertissement"
     ]
   ],
   "rowClues": [
     1,
-    2,
+    4,
+    3,
     3,
     1,
-    4,
     2,
-    2
+    3
   ],
   "colClues": [
-    1,
-    3,
-    1,
     2,
     1,
-    5,
+    1,
+    3,
+    4,
+    4,
     2
   ],
-  "themeWord": "clepsydre",
+  "themeWord": "edelweiss",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
+      true,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -102,7 +111,7 @@
       false,
       true,
       false,
-      false,
+      true,
       true,
       false
     ],
@@ -119,38 +128,29 @@
       false,
       false,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       false,
       false,
+      false,
+      false,
+      true,
       true
     ],
     [
       true,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
-      false,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

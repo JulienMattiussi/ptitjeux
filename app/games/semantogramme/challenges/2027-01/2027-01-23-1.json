@@ -5,32 +5,32 @@
   "height": 4,
   "words": [
     [
-      "pliage",
-      "berger",
-      "doberman",
-      "gouda"
+      "labial",
+      "désert",
+      "polynôme",
+      "irrévocable"
     ],
     [
-      "épagneul",
-      "bronze",
-      "teckel",
-      "bouledogue"
+      "Sahara",
+      "Swatch",
+      "plage",
+      "fin"
     ],
     [
-      "aspirateur",
-      "beagle",
-      "rejeton",
-      "labrador"
+      "grain",
+      "social",
+      "château",
+      "apaisement"
     ],
     [
-      "caniche",
-      "mannequin",
-      "pékinois",
-      "dalmatien"
+      "mathématiques",
+      "seau",
+      "quartz",
+      "dune"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     3,
     2,
     3
@@ -39,14 +39,14 @@
     2,
     2,
     3,
-    3
+    2
   ],
-  "themeWord": "chien",
+  "themeWord": "sable",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -56,17 +56,17 @@
       true
     ],
     [
-      false,
       true,
       false,
-      true
+      true,
+      false
     ],
     [
-      true,
       false,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

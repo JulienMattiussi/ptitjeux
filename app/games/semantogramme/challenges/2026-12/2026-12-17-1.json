@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "trachée",
-      "jury",
-      "téléphone",
-      "voilier"
+      "limonade",
+      "vert",
+      "acide",
+      "fermeture"
     ],
     [
-      "plaidoyer",
-      "crise",
-      "accusé",
-      "appel"
+      "agrume",
+      "ré",
+      "pressé",
+      "Paris"
     ],
     [
-      "procès",
-      "shooter",
-      "procureur",
-      "feuilleter"
+      "récent",
+      "tarte",
+      "arrivée",
+      "Menton"
     ],
     [
-      "hausser",
-      "nourrisson",
-      "saule",
-      "témoin"
+      "jaune",
+      "dépasser",
+      "zeste",
+      "jus"
     ]
   ],
   "rowClues": [
-    1,
     3,
     2,
-    1
+    2,
+    3
   ],
   "colClues": [
+    3,
     2,
-    1,
-    2,
+    3,
     2
   ],
-  "themeWord": "justice",
+  "themeWord": "citron",
   "solution": [
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       true
     ],
     [
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

@@ -5,108 +5,117 @@
   "height": 7,
   "words": [
     [
-      "jeûner",
-      "féliciter",
-      "taxonomique",
-      "tessiture",
-      "amphibien",
-      "parure",
-      "visqueux"
+      "quinquina",
+      "absinthe",
+      "flotteur",
+      "oyat",
+      "glaçons",
+      "Negroni",
+      "cocktail"
     ],
     [
-      "régurgiter",
-      "savante",
-      "coléoptère",
-      "escroquer",
-      "herpétologue",
-      "épépiner",
-      "identifier"
+      "Americano",
+      "perforateur",
+      "policier",
+      "routard",
+      "surf",
+      "dry",
+      "joues"
     ],
     [
-      "voyage",
-      "collectionner",
-      "osier",
-      "opale",
-      "authentifier",
-      "comparée",
-      "dormir"
+      "cétacé",
+      "Turin",
+      "contentement",
+      "polyphonie",
+      "chagrin",
+      "savant",
+      "convoitise"
     ],
     [
-      "abeille",
-      "séquence",
-      "justinien",
-      "pin",
-      "accepter",
-      "documenter",
-      "lacune"
+      "imagination",
+      "blanc",
+      "vainqueur",
+      "Mendelssohn",
+      "décapant",
+      "rouge",
+      "glissando"
     ],
     [
-      "spécialisée",
-      "extrémité",
-      "fusionner",
-      "spontané",
-      "fourmi",
-      "romaine",
-      "observer"
+      "séjour",
+      "aromatisé",
+      "plantes",
+      "tranquillité",
+      "podium",
+      "Maghreb",
+      "imprenable"
     ],
     [
-      "serrée",
-      "raphaël",
-      "science",
-      "descriptive",
-      "article",
-      "coussin",
-      "prédateur"
+      "bégayer",
+      "sou",
+      "Chambéry",
+      "olive",
+      "vin",
+      "orgue",
+      "réincarnation"
     ],
     [
-      "acerbe",
-      "épingle",
-      "évider",
-      "insecte",
-      "révélation",
-      "retenir",
-      "cataloguer"
+      "neurasthénie",
+      "tourbière",
+      "drone",
+      "impair",
+      "Cinzano",
+      "épandre",
+      "Ensor"
     ]
   ],
   "rowClues": [
-    1,
-    3,
+    5,
     2,
     1,
-    3,
     2,
-    3
+    2,
+    3,
+    1
   ],
   "colClues": [
     2,
-    3,
-    3,
+    4,
     2,
     1,
-    1,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "entomologie",
+  "themeWord": "vermouth",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
       false,
-      false,
+      true,
+      true,
       true
     ],
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
@@ -116,41 +125,32 @@
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false,
       false,
       false,
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
       true,
       true,
-      false,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
+      false,
+      false,
       false,
       true,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

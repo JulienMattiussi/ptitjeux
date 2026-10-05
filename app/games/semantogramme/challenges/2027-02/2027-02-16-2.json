@@ -5,70 +5,77 @@
   "height": 5,
   "words": [
     [
-      "swing",
-      "bunker",
-      "félicité",
-      "malédiction",
-      "social"
+      "inconnue",
+      "sauna",
+      "limace",
+      "résoudre",
+      "macaque"
     ],
     [
-      "club",
-      "écossais",
-      "tortueux",
-      "mondial",
-      "putter"
+      "solution",
+      "salaire",
+      "formule",
+      "équilibrer",
+      "mathématique"
     ],
     [
-      "lyrique",
-      "tee",
-      "sportif",
-      "frapper",
-      "driver"
+      "craintif",
+      "profil",
+      "Seine",
+      "Einstein",
+      "Chanel"
     ],
     [
-      "trou",
-      "birdie",
-      "corsaire",
-      "fairway",
-      "green"
+      "collier",
+      "degré",
+      "racine",
+      "membre",
+      "égalité"
     ],
     [
-      "roseraie",
-      "arc-en-ciel",
-      "voiture",
-      "résister",
-      "élégant"
+      "système",
+      "alpiniste",
+      "panique",
+      "scratch",
+      "fente"
     ]
   ],
   "rowClues": [
     2,
     4,
-    4,
+    1,
     4,
     1
   ],
   "colClues": [
     3,
-    4,
     1,
-    3,
-    4
+    2,
+    4,
+    2
   ],
-  "themeWord": "golf",
+  "themeWord": "équation",
   "solution": [
     [
       true,
+      false,
+      false,
       true,
-      false,
-      false,
       false
     ],
     [
       true,
-      true,
       false,
       true,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ],
     [
       false,
@@ -79,18 +86,11 @@
     ],
     [
       true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

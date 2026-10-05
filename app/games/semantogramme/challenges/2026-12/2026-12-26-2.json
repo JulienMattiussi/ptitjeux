@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "enchanter",
-      "baiser",
-      "fouetter",
-      "feutré",
-      "queue"
+      "ciel",
+      "pancarte",
+      "comète",
+      "paisible",
+      "chute"
     ],
     [
-      "magique",
-      "séduire",
-      "bossu",
-      "écaille",
-      "rapace"
+      "cratère",
+      "caillou",
+      "Perséides",
+      "lexique",
+      "espace"
     ],
     [
-      "tourbillon",
-      "envoûtante",
-      "cheveu",
-      "naufrage",
-      "légende"
+      "dinosaures",
+      "supporter",
+      "fragment",
+      "Smyrne",
+      "ressources"
     ],
     [
-      "marin",
-      "volée",
-      "aquatique",
-      "mer",
-      "piscine"
+      "impact",
+      "atmosphère",
+      "indescriptible",
+      "sale",
+      "Tunguska"
     ],
     [
-      "pétrifier",
-      "marmotte",
-      "lustrer",
-      "spatial",
-      "rocher"
+      "pavaner",
+      "astéroïde",
+      "bolide",
+      "ferreux",
+      "lycéen"
     ]
   ],
   "rowClues": [
-    2,
     3,
     4,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    2,
     2,
     3,
     3
   ],
-  "themeWord": "sirène",
+  "colClues": [
+    4,
+    3,
+    4,
+    1,
+    3
+  ],
+  "themeWord": "météorite",
   "solution": [
     [
       true,
       false,
-      false,
+      true,
       false,
       true
     ],
     [
       true,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
+      false,
       false
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
+      false,
       true
     ],
     [
-      true,
       false,
+      true,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

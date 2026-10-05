@@ -5,52 +5,52 @@
   "height": 4,
   "words": [
     [
-      "chenille",
-      "ruisseau",
-      "serpent",
-      "tigre"
+      "terreur",
+      "peur",
+      "empoté",
+      "Halloween"
     ],
     [
-      "théâtre",
-      "oiseau",
-      "chien",
-      "évolution"
+      "frayeur",
+      "Freddy",
+      "Hitchcock",
+      "marches"
     ],
     [
-      "poisson",
-      "transfusion",
-      "brun",
-      "cafard"
+      "Chucky",
+      "pipistrelle",
+      "Psychose",
+      "farcie"
     ],
     [
-      "terminer",
-      "éléphant",
-      "paupière",
-      "cheval"
+      "comblé",
+      "zombie",
+      "épouvante",
+      "Grosminet"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
-    2,
-    1,
     2
   ],
   "colClues": [
-    1,
-    2,
-    2,
-    2
+    3,
+    3,
+    3,
+    1
   ],
-  "themeWord": "animal",
+  "themeWord": "horreur",
   "solution": [
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
-      false,
+      true,
       true,
       true,
       false
@@ -58,15 +58,15 @@
     [
       true,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

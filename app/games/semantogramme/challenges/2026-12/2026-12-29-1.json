@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "circuit",
-      "douane",
-      "valise",
-      "gorge"
+      "chamailler",
+      "asticot",
+      "dresser",
+      "peuple"
     ],
     [
-      "trône",
-      "élevage",
-      "guide",
-      "passeport"
+      "canzone",
+      "partition",
+      "placenta",
+      "bottes"
     ],
     [
-      "frontière",
-      "remontoir",
-      "côté",
-      "excursion"
+      "port",
+      "filet",
+      "canne",
+      "épingle"
     ],
     [
-      "aventure",
-      "condor",
-      "visa",
-      "nova"
+      "barque",
+      "ligne",
+      "distillation",
+      "rapporter"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
-    3,
+    1,
     1,
     3,
     2
   ],
-  "themeWord": "voyage",
+  "colClues": [
+    2,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "pêcheur",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
     [
       true,
       true,
@@ -50,23 +62,11 @@
       false
     ],
     [
-      false,
-      false,
       true,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

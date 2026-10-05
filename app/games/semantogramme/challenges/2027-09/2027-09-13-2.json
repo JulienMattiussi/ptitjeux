@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "parapluie",
+      "brioche",
+      "estomac",
+      "panse",
+      "réparer"
+    ],
+    [
+      "faim",
+      "synapse",
+      "Doré",
+      "tôt",
+      "abdomen"
+    ],
+    [
+      "sobriété",
+      "bébé",
+      "digestion",
+      "irisé",
+      "instinct"
+    ],
+    [
+      "aristocratie",
+      "Meccano",
+      "bedaine",
+      "intestin",
+      "boyaux"
+    ],
+    [
+      "bide",
+      "grossesse",
+      "enceinte",
+      "numéroter",
+      "nombril"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "ventre",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

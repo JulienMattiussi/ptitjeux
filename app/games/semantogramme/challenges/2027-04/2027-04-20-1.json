@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "épais",
-      "meurtrier",
-      "aigre",
-      "nuage"
+      "chanteur",
+      "lombaire",
+      "bravo",
+      "festival"
     ],
     [
-      "voile",
-      "glaçure",
-      "aire",
-      "délicat"
+      "approprié",
+      "scène",
+      "rétine",
+      "arrosoir"
     ],
     [
-      "phare",
-      "humide",
-      "assuré",
-      "fanal"
+      "billet",
+      "musicien",
+      "orchestre",
+      "intuition"
     ],
     [
-      "frais",
-      "brume",
-      "matinée",
-      "opaque"
+      "public",
+      "salle",
+      "rappel",
+      "solennel"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     1,
     3,
     3
   ],
   "colClues": [
     3,
-    2,
-    1,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "brouillard",
+  "themeWord": "concert",
   "solution": [
     [
       true,
       false,
-      false,
+      true,
       true
     ],
     [
-      true,
       false,
+      true,
       false,
       false
     ],
     [
       true,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
-      false,
       true,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

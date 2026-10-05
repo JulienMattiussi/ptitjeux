@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "derme",
-      "expérience",
-      "prompt",
-      "rênes"
+      "carrefour",
+      "trottoir",
+      "novembre",
+      "forfait"
     ],
     [
-      "gracile",
-      "recherche",
-      "théorie",
-      "mathématique"
+      "lampadaire",
+      "superlatif",
+      "luge",
+      "passant"
     ],
     [
-      "géologie",
-      "physique",
-      "arabesque",
-      "expirer"
+      "crétin",
+      "piéton",
+      "peuple",
+      "cantique"
     ],
     [
-      "biologie",
-      "driver",
-      "médecine",
-      "astronomie"
+      "caniveau",
+      "Legolas",
+      "adresse",
+      "avenue"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
+    2,
+    1,
     3
   ],
   "colClues": [
-    2,
     3,
     2,
+    1,
     2
   ],
-  "themeWord": "science",
+  "themeWord": "rue",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
       false
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
-      true,
+      false,
       true,
       false,
       false
@@ -68,5 +68,5 @@
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "pièce",
-      "fin",
-      "tropical",
-      "bravoure"
+      "mensuel",
+      "socquette",
+      "prêcheur",
+      "trou"
     ],
     [
-      "boisson",
-      "rose",
-      "paillette",
-      "lime"
+      "talon",
+      "tiroir",
+      "paire",
+      "radio"
     ],
     [
-      "farce",
-      "coco",
-      "orfèvre",
-      "sacrifier"
+      "pied",
+      "routier",
+      "orteil",
+      "laine"
     ],
     [
-      "âge",
-      "bijou",
-      "cloison",
-      "lingot"
+      "allée",
+      "transept",
+      "bathyscaphe",
+      "Noël"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    1,
-    2
-  ],
-  "colClues": [
-    1,
     3,
-    2,
+    3,
     1
   ],
-  "themeWord": "or",
+  "colClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "chaussette",
   "solution": [
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
     [
       false,
       true,
       false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

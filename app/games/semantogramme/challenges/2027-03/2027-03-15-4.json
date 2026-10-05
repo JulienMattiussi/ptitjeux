@@ -5,94 +5,94 @@
   "height": 7,
   "words": [
     [
-      "rouge",
-      "étiré",
-      "massette",
-      "vaste",
-      "instantané",
-      "saumurer",
-      "longue"
+      "chronologie",
+      "épicurisme",
+      "comportement",
+      "personnage",
+      "pittoresque",
+      "Marley",
+      "laie"
     ],
     [
-      "régate",
-      "phénomène",
+      "métro",
+      "s'élancer",
       "coloré",
-      "svelte",
-      "paris",
-      "ondulation",
-      "tir"
+      "picaresque",
+      "cru",
+      "Rabelais",
+      "jovial"
     ],
     [
-      "pissarro",
-      "sens",
-      "mouvement",
-      "évoquer",
-      "poing",
-      "degas",
-      "intelligence"
+      "Hulk",
+      "gouaille",
+      "amphore",
+      "rapière",
+      "rosaire",
+      "marécage",
+      "langage"
     ],
     [
-      "cueilleur",
-      "renoir",
-      "équateur",
-      "oeufrier",
-      "théière",
-      "filial",
-      "flou"
+      "récif",
+      "Memphis",
+      "inconnu",
+      "impatience",
+      "Panurge",
+      "paillard",
+      "endives"
     ],
     [
-      "monet",
-      "pandémie",
-      "peinture",
-      "chartreux",
-      "crépitante",
-      "esquisse",
-      "son"
+      "germer",
+      "verve",
+      "ripailleur",
+      "girolle",
+      "laurier",
+      "matinée",
+      "carat"
     ],
     [
-      "touche",
-      "warhol",
-      "matinal",
-      "lumière",
-      "teindre",
-      "vestige",
-      "réalité"
+      "exubérant",
+      "Falstaff",
+      "germination",
+      "pédicure",
+      "expressif",
+      "gaillard",
+      "tableau"
     ],
     [
-      "bureau",
-      "religieuse",
-      "morisot",
-      "réplique",
-      "sichuan",
-      "téter",
-      "manet"
+      "Floride",
+      "Gargantua",
+      "printanière",
+      "sonore",
+      "ride",
+      "majestueuse",
+      "barème"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    3,
+    4,
     2,
-    3,
     2,
-    2
+    2,
+    4,
+    1
   ],
   "colClues": [
-    3,
     1,
     4,
-    1,
     2,
     2,
+    3,
+    3,
     2
   ],
-  "themeWord": "impressionnisme",
+  "themeWord": "truculent",
   "solution": [
     [
       false,
       false,
       false,
-      false,
+      true,
       true,
       false,
       false
@@ -101,19 +101,10 @@
       false,
       false,
       true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
-      false,
-      false,
-      true,
-      false
+      true
     ],
     [
       false,
@@ -125,32 +116,41 @@
       true
     ],
     [
-      true,
+      false,
+      false,
+      false,
       false,
       true,
-      false,
-      false,
       true,
       false
     ],
     [
-      true,
-      false,
       false,
       true,
+      true,
+      false,
       false,
       false,
       false
     ],
     [
+      true,
+      true,
       false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
       false,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

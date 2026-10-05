@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "frelon",
-      "rénal",
-      "libellule",
-      "fourmi"
+      "brouillé",
+      "possession",
+      "jaune",
+      "métal"
     ],
     [
-      "préserver",
-      "criquet",
-      "agaric",
-      "dard"
+      "coquille",
+      "ponte",
+      "Fabergé",
+      "plombage"
     ],
     [
-      "abeille",
-      "guêpe",
-      "mouche",
-      "spatule"
+      "Barbe-Noire",
+      "laiton",
+      "Colomb",
+      "mouillette"
     ],
     [
-      "origan",
-      "coccinelle",
-      "polaire",
-      "patin"
+      "omelette",
+      "coupable",
+      "luette",
+      "poussin"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
     3,
     1,
     3,
-    1
+    2
   ],
-  "colClues": [
-    2,
-    3,
-    2,
-    1
-  ],
-  "themeWord": "insecte",
+  "themeWord": "oeuf",
   "solution": [
     [
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       true
     ],
     [
-      false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

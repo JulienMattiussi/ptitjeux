@@ -5,100 +5,136 @@
   "height": 7,
   "words": [
     [
-      "nier",
-      "mitrailler",
-      "mélancolie",
-      "chateaubriand",
-      "assimiler",
-      "gourou",
-      "imposer"
+      "bison",
+      "taquin",
+      "achat",
+      "traversière",
+      "rivet",
+      "révolution",
+      "marlin"
     ],
     [
-      "littérature",
-      "vapeur",
-      "carte",
-      "mine",
-      "gymnastique",
-      "obstiné",
-      "subjectif"
+      "expressivité",
+      "nuit",
+      "psaume",
+      "lacet",
+      "trognon",
+      "Proust",
+      "bâche"
     ],
     [
-      "noueuse",
-      "musset",
-      "zèbre",
-      "collant",
-      "art",
-      "débattre",
-      "flageller"
+      "macaronis",
+      "hyperthermie",
+      "perforation",
+      "manta",
+      "rime",
+      "bouquet",
+      "sobre"
     ],
     [
-      "effleurer",
-      "rébellion",
-      "imagination",
-      "hominidé",
-      "écurie",
-      "essai",
-      "profond"
+      "christianisme",
+      "parterre",
+      "Lisbonne",
+      "étonnement",
+      "inadvertance",
+      "frangé",
+      "boeuf"
     ],
     [
-      "imam",
-      "lamartine",
-      "passion",
-      "rgb",
-      "briques",
-      "jument",
-      "psychanalyse"
+      "dentelé",
+      "Arabes",
+      "Cioran",
+      "Portugal",
+      "fleuriste",
+      "imprimerie",
+      "set"
     ],
     [
-      "arbuste",
-      "liberté",
-      "pantoufle",
-      "entretenir",
-      "enjouée",
-      "rectangulaire",
-      "klezmer"
+      "loto",
+      "branchies",
+      "solennelle",
+      "sororité",
+      "rondelle",
+      "cholestérol",
+      "bordure"
     ],
     [
-      "mielleux",
-      "mouvement",
-      "profiter",
-      "individuel",
-      "rêveur",
-      "sentiment",
-      "nature"
+      "bouleau",
+      "trouble",
+      "crapaud",
+      "Rorschach",
+      "carnation",
+      "déformation",
+      "tendinite"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
-    2,
-    2,
-    2,
+    3,
+    3,
     1,
-    5
+    1
   ],
   "colClues": [
     1,
-    5,
-    3,
-    2,
-    2,
     1,
+    2,
+    2,
+    3,
+    4,
     2
   ],
-  "themeWord": "romantisme",
+  "themeWord": "oeillet",
   "solution": [
     [
       false,
       false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
       false,
+      true,
       false
     ],
     [
       true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -108,49 +144,13 @@
     ],
     [
       false,
-      true,
+      false,
       false,
       false,
       true,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

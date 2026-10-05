@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "périhélie",
+      "glapir",
+      "s'égosiller",
+      "intrus",
+      "blague"
+    ],
+    [
+      "appel",
+      "steak",
+      "rugir",
+      "gueuler",
+      "Sainte-Sophie"
+    ],
+    [
+      "tonner",
+      "Bacon",
+      "smoking",
+      "vociférer",
+      "peur"
+    ],
+    [
+      "colère",
+      "beugler",
+      "mégaphone",
+      "Munch",
+      "Euclide"
+    ],
+    [
+      "micro-ondes",
+      "fugue",
+      "LCD",
+      "spatule",
+      "brailler"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "crier",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

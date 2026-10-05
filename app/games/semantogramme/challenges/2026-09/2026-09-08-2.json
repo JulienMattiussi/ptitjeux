@@ -5,62 +5,83 @@
   "height": 5,
   "words": [
     [
-      "construire",
-      "prolonger",
-      "tropicale",
-      "sape",
-      "rustique"
+      "légendaire",
+      "mythique",
+      "nigaud",
+      "taciturne",
+      "majorette"
     ],
     [
-      "nourriture",
-      "pavée",
-      "iridescent",
-      "primitive",
-      "tribal"
+      "Fresnel",
+      "paillettes",
+      "enchanteur",
+      "corne",
+      "épinard"
     ],
     [
-      "roseraie",
-      "volet",
-      "girouette",
-      "savane",
-      "natte"
+      "trampoline",
+      "doudou",
+      "liège",
+      "inscription",
+      "Narnia"
     ],
     [
-      "bois",
-      "habiter",
-      "splendide",
-      "harmonica",
-      "toit"
+      "poney",
+      "bécasse",
+      "relation",
+      "pureté",
+      "magique"
     ],
     [
-      "pizza",
-      "dattier",
-      "rudimentaire",
-      "tatami",
-      "juteux"
+      "basse-cour",
+      "cascadeur",
+      "ordonnance",
+      "sabot",
+      "radeau"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    3,
     2,
     3,
     1
   ],
   "colClues": [
     2,
+    3,
     1,
-    2,
-    2,
-    4
+    3,
+    2
   ],
-  "themeWord": "hutte",
+  "themeWord": "licorne",
   "solution": [
     [
       true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       true
     ],
     [
@@ -68,27 +89,6 @@
       false,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       false
     ]
   ],

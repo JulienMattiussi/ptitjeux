@@ -5,110 +5,94 @@
   "height": 6,
   "words": [
     [
-      "prescrire",
-      "brûler",
-      "nager",
-      "prise",
-      "comptoir",
-      "mousaka"
+      "bourguignon",
+      "scratch",
+      "single",
+      "Deezer",
+      "enfilade",
+      "gigaoctet"
     ],
     [
-      "urgent",
-      "ruisseler",
-      "avril",
-      "nausée",
-      "admirer",
-      "commerce"
+      "stockage",
+      "frisbee",
+      "spéléologie",
+      "jukebox",
+      "Bernin",
+      "pommes"
     ],
     [
-      "ordonnance",
-      "baume",
-      "médicament",
-      "remorque",
-      "enraciner",
-      "tireur"
+      "millefeuille",
+      "DJ",
+      "Héra",
+      "pure",
+      "Werther",
+      "album"
     ],
     [
-      "verte",
-      "amphi",
-      "floraison",
-      "industrielle",
-      "palper",
-      "acheter"
+      "discobole",
+      "Nosferatu",
+      "nomade",
+      "hernie",
+      "microsillon",
+      "label"
     ],
     [
-      "parer",
-      "élargir",
-      "agréée",
-      "nièce",
-      "conseiller",
-      "sirop"
+      "Plutarque",
+      "Logan",
+      "Açores",
+      "rayé",
+      "platine",
+      "électrophone"
     ],
     [
-      "pilule",
-      "âpre",
-      "méditerranée",
-      "rayon",
-      "aller",
-      "zen"
+      "vinyle",
+      "rafistoler",
+      "CD",
+      "azalée",
+      "anxieux",
+      "rênes"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    4,
     3,
     2,
+    4,
     3,
-    3
+    2
   ],
   "colClues": [
-    5,
-    1,
-    2,
-    1,
     3,
-    3
+    3,
+    2,
+    4,
+    2,
+    4
   ],
-  "themeWord": "pharmacie",
+  "themeWord": "disque",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      false,
+      true,
       false,
       true
     ],
     [
       true,
       true,
-      true,
       false,
+      true,
       false,
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       false,
-      true,
+      false,
+      false,
       true
     ],
     [
@@ -117,8 +101,24 @@
       false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

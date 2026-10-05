@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "invectiver",
-      "corrompu",
-      "céleste",
-      "professionnel",
-      "antilope",
-      "facial",
-      "pisciculture"
+      "punk",
+      "dégringoler",
+      "chiche",
+      "pemmican",
+      "voûte",
+      "Soupault",
+      "Breton"
     ],
     [
-      "visibilité",
-      "vaporeux",
-      "flotter",
-      "mois",
-      "compliment",
-      "cabaret",
-      "délicat"
+      "latex",
+      "Freud",
+      "TGV",
+      "parlement",
+      "Magritte",
+      "biologiste",
+      "manifeste"
     ],
     [
-      "masque",
-      "cornichon",
-      "pluralisme",
-      "voltiger",
-      "apostropher",
-      "transfert",
-      "manigancer"
+      "intégralité",
+      "Buñuel",
+      "Miró",
+      "cuillère",
+      "taille",
+      "fronton",
+      "cassant"
     ],
     [
-      "fratrie",
-      "penser",
-      "jury",
-      "rétrécir",
-      "lilliputien",
-      "sublime",
-      "touristique"
+      "pomme",
+      "Desnos",
+      "arachide",
+      "bagel",
+      "inconscient",
+      "portefeuille",
+      "climatisation"
     ],
     [
-      "frescobaldi",
-      "arrondir",
-      "évanescent",
-      "fermé",
-      "planer",
-      "mystique",
-      "globe"
+      "dorloter",
+      "Aragon",
+      "déclamatoire",
+      "formule",
+      "cartes",
+      "troupeau",
+      "Gizeh"
     ],
     [
-      "évaporé",
-      "apôtre",
-      "léger",
-      "fragile",
-      "ange",
-      "subtil",
-      "vocal"
-    ],
-    [
+      "absurde",
+      "épiderme",
       "rêve",
-      "diaphragme",
-      "palabrer",
-      "impalpable",
-      "brosse",
-      "invisible",
-      "sommeil"
+      "Ernst",
+      "collage",
+      "accomplir",
+      "distribuer"
+    ],
+    [
+      "Éluard",
+      "brillante",
+      "hyperbole",
+      "Tanguy",
+      "Dalí",
+      "frangé",
+      "allumette"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    1,
-    1,
-    3,
-    5,
-    2
-  ],
-  "colClues": [
     2,
+    3,
+    2,
+    3,
     1,
     4,
-    3,
-    2,
-    3,
-    1
+    3
   ],
-  "themeWord": "éthéré",
+  "colClues": [
+    3,
+    4,
+    2,
+    2,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "surréalisme",
   "solution": [
     [
       false,
       false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
       true,
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       true
     ],
     [
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       true,
+      false,
       false
     ],
     [
       false,
-      false,
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
+      true,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

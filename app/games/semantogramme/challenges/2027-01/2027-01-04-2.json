@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "primate",
-      "sprint",
-      "duper",
-      "vif",
-      "solo"
+      "fumeur",
+      "dégager",
+      "Chanel",
+      "distingué",
+      "soirée"
     ],
     [
-      "famille",
-      "foudre",
-      "pilaf",
-      "guépard",
-      "détaler"
+      "mentonnière",
+      "dandy",
+      "lithographie",
+      "sculpture",
+      "chic"
     ],
     [
-      "accélérer",
-      "sibérien",
-      "flèche",
-      "expéditif",
-      "filer"
+      "soigné",
+      "noblesse",
+      "pactole",
+      "opalin",
+      "tradition"
     ],
     [
-      "véloce",
-      "tempo",
-      "pince",
-      "simultané",
-      "éclair"
+      "but",
+      "classe",
+      "Warner",
+      "Clapton",
+      "style"
     ],
     [
-      "foncer",
-      "fusée",
-      "instantané",
-      "acacia",
-      "escroquer"
+      "cliché",
+      "défunt",
+      "prestance",
+      "costume",
+      "smoking"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    3,
-    4,
-    3,
+    2,
+    2,
     3
   ],
   "colClues": [
+    1,
     3,
-    4,
     2,
-    3,
-    3
+    2,
+    4
   ],
-  "themeWord": "rapide",
+  "themeWord": "élégant",
   "solution": [
     [
       false,
-      true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
-      false
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

@@ -5,92 +5,92 @@
   "height": 6,
   "words": [
     [
-      "pot",
-      "octroyer",
-      "randonnée",
-      "pêcher",
-      "café",
-      "creuse"
-    ],
-    [
-      "pelle",
-      "iglou",
-      "manche",
-      "remuer",
-      "goûter",
-      "épancher"
-    ],
-    [
-      "étroit",
-      "thé",
-      "mélanger",
-      "dragée",
-      "avaler",
-      "lumineux"
-    ],
-    [
-      "absence",
-      "glaçage",
-      "organisme",
-      "mitrailler",
+      "rythme",
+      "divertissement",
+      "hier",
       "bois",
-      "cintré"
+      "Nemo",
+      "idéaliste"
     ],
     [
-      "porter",
-      "inox",
-      "couvert",
-      "soupe",
-      "lagune",
-      "doseuse"
+      "vent",
+      "tentacules",
+      "Zavatta",
+      "ciseleur",
+      "Samson",
+      "corail"
     ],
     [
-      "sucre",
-      "génome",
-      "dossard",
-      "musculaire",
-      "attaque",
-      "épingle"
+      "fleur",
+      "drakkar",
+      "pétales",
+      "tison",
+      "bouquet",
+      "flan"
+    ],
+    [
+      "mascara",
+      "courber",
+      "berger",
+      "poisson-clown",
+      "rocher",
+      "sous-bois"
+    ],
+    [
+      "aigu",
+      "renoncule",
+      "violoncelle",
+      "urticante",
+      "expulser",
+      "rougir"
+    ],
+    [
+      "Adonis",
+      "pub",
+      "abdominaux",
+      "profil",
+      "Botticelli",
+      "méduse"
     ]
   ],
   "rowClues": [
-    3,
-    4,
-    3,
-    1,
-    5,
-    1
-  ],
-  "colClues": [
-    4,
     2,
     3,
+    3,
+    3,
     2,
-    4,
     2
   ],
-  "themeWord": "cuillère",
+  "colClues": [
+    3,
+    2,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "anémone",
   "solution": [
     [
-      true,
       false,
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       true,
       false
@@ -99,26 +99,26 @@
       false,
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
-      true,
-      true,
-      false,
       true
     ],
     [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       false,
       false,
       false,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

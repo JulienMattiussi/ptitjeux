@@ -5,68 +5,75 @@
   "height": 5,
   "words": [
     [
-      "atmosphère",
-      "pierre",
-      "diamant",
-      "fortifier",
-      "préhension"
+      "prévision",
+      "Swatch",
+      "cône",
+      "Mayas",
+      "sérologie"
     ],
     [
-      "résistant",
-      "noirâtre",
-      "jubilation",
-      "macaron",
-      "inébranlable"
+      "cardinal",
+      "antithèse",
+      "soleil",
+      "déclin",
+      "astre"
     ],
     [
-      "mur",
-      "tenace",
-      "lichen",
-      "cerne",
-      "fondation"
+      "rasta",
+      "partielle",
+      "superstition",
+      "triomphe",
+      "totale"
     ],
     [
-      "massif",
-      "fer",
-      "consolider",
-      "béton",
-      "panorama"
+      "pénombre",
+      "alignement",
+      "Indonésie",
+      "Kirchner",
+      "ombre"
     ],
     [
-      "forteresse",
-      "pédale",
-      "durcir",
-      "supporter",
-      "acier"
+      "théier",
+      "blancs",
+      "perforation",
+      "annulaire",
+      "péché"
     ]
   ],
   "rowClues": [
     3,
     2,
     3,
-    4,
-    3
+    3,
+    1
   ],
   "colClues": [
-    4,
-    3,
+    2,
+    2,
     3,
     2,
     3
   ],
-  "themeWord": "solide",
+  "themeWord": "éclipse",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       true,
       false
     ],
     [
+      false,
+      false,
       true,
       false,
+      true
+    ],
+    [
       false,
+      true,
+      true,
       false,
       true
     ],
@@ -78,19 +85,12 @@
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

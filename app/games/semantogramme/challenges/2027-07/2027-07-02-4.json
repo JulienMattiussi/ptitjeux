@@ -5,94 +5,112 @@
   "height": 7,
   "words": [
     [
-      "savourer",
-      "parfait",
-      "extravagant",
-      "profonde",
-      "chèque",
-      "rayonner",
-      "enquêter"
+      "impénétrable",
+      "Limbourg",
+      "crépuscule",
+      "catamaran",
+      "fusionner",
+      "miniature",
+      "éducation"
     ],
     [
-      "arrêt",
-      "manet",
-      "défense",
-      "chevalet",
-      "absolu",
-      "bouquet",
-      "porter"
+      "papillon",
+      "Dobby",
+      "Hippocrate",
+      "moine",
+      "convoquer",
+      "poivron",
+      "missel"
     ],
     [
-      "imprenable",
-      "sandale",
-      "uppercut",
-      "florissante",
-      "satisfaction",
-      "arabe",
-      "opposé"
+      "panique",
+      "abbaye",
+      "vélin",
+      "endormir",
+      "Suzette",
+      "initiale",
+      "Zavatta"
     ],
     [
-      "prix",
-      "tropical",
-      "pleine",
-      "biologie",
-      "éteindre",
-      "béatitude",
-      "caldeira"
+      "Bresse",
+      "assembler",
+      "soupière",
+      "poulet",
+      "pigment",
+      "scriptorium",
+      "compas"
     ],
     [
-      "comble",
-      "prescrire",
-      "recourbé",
-      "espèce",
-      "maturité",
-      "parc",
-      "blonde"
+      "décor",
+      "néant",
+      "détroit",
+      "adagio",
+      "calligraphie",
+      "lettrine",
+      "bordure"
     ],
     [
-      "complet",
-      "fossiliser",
-      "somptueux",
-      "liégeoise",
-      "perroquet",
-      "trophée",
-      "naples"
+      "amphibie",
+      "copiste",
+      "chercher",
+      "harponneur",
+      "psautier",
+      "vêtement",
+      "cocotte"
     ],
     [
-      "ressentir",
-      "théodora",
-      "éprouver",
-      "effleurer",
-      "épanouissement",
-      "atteindre",
-      "bonheur"
+      "marche",
+      "Fouquet",
+      "Chambéry",
+      "ballade",
+      "fréquence",
+      "cambrioler",
+      "féculent"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    1,
     2,
     2,
-    1,
-    5
-  ],
-  "colClues": [
-    4,
-    1,
-    2,
-    1,
-    4,
     3,
+    2,
+    4,
+    2,
     1
   ],
-  "themeWord": "plénitude",
+  "colClues": [
+    1,
+    4,
+    1,
+    1,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "enluminure",
   "solution": [
     [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
-      true,
       false,
       true,
       false
@@ -103,24 +121,6 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
       true,
       false
     ],
@@ -128,28 +128,28 @@
       true,
       false,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 16

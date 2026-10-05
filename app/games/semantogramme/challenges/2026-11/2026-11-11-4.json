@@ -5,91 +5,127 @@
   "height": 7,
   "words": [
     [
-      "âge",
-      "paella",
-      "trottoir",
-      "carnac",
-      "bambin",
-      "meurtre",
-      "courbé"
+      "Navajo",
+      "glapissement",
+      "nectarine",
+      "désert",
+      "mygale",
+      "passeur",
+      "neveu"
     ],
     [
-      "tumulus",
-      "refroidissement",
-      "allemand",
-      "village",
-      "élevage",
-      "concision",
-      "loyer"
+      "canidé",
+      "millénaire",
+      "nuit",
+      "prairie",
+      "supermarché",
+      "loup",
+      "Poséidon"
     ],
     [
-      "debord",
-      "illustrer",
-      "violent",
-      "écu",
-      "pierre",
-      "préhistoire",
-      "civilisation"
+      "haut-de-forme",
+      "coulis",
+      "clavicule",
+      "dialyse",
+      "Warner",
+      "missel",
+      "différer"
     ],
     [
-      "lointain",
-      "polie",
-      "freud",
-      "double",
-      "cajoler",
-      "fosse",
-      "fortune"
+      "livres",
+      "compromis",
+      "ragots",
+      "malle",
+      "Acme",
+      "mouvement",
+      "Arizona"
     ],
     [
-      "active",
-      "ballotter",
-      "récent",
-      "dolmen",
-      "poterie",
-      "tétanos",
-      "selle"
+      "intéressé",
+      "guimauve",
+      "rapace",
+      "farceur",
+      "laver",
+      "euphorique",
+      "Crick"
     ],
     [
-      "tissage",
-      "propice",
-      "modeste",
-      "sédentarisation",
-      "amère",
-      "bol",
-      "aiguisoir"
+      "captiver",
+      "Bip-Bip",
+      "baobab",
+      "opportuniste",
+      "gluten",
+      "Ramsès",
+      "chacal"
     ],
     [
-      "mer",
-      "menhir",
-      "box",
-      "index",
-      "tiède",
-      "cierge",
-      "tigre"
+      "rusé",
+      "sismographe",
+      "Leipzig",
+      "mandala",
+      "Ouest",
+      "Amérique",
+      "Quichotte"
     ]
   ],
   "rowClues": [
+    4,
+    4,
+    1,
     2,
+    1,
     3,
-    3,
-    2,
-    3,
-    2,
-    1
+    3
   ],
   "colClues": [
-    4,
+    3,
     2,
     1,
     4,
     3,
-    1,
-    1
+    3,
+    2
   ],
-  "themeWord": "néolithique",
+  "themeWord": "coyote",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -98,59 +134,23 @@
       false
     ],
     [
+      false,
+      true,
+      false,
       true,
       false,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
       true
     ],
     [
       true,
-      true,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       true,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "taie",
-      "traversin",
-      "démesuré",
-      "chemin"
+      "plante",
+      "orchidée",
+      "tropical",
+      "Blériot"
     ],
     [
-      "sommier",
-      "jury",
-      "édredon",
-      "drap"
+      "épier",
+      "jardinier",
+      "pixelisé",
+      "humidité"
     ],
     [
-      "baldaquin",
-      "oreiller",
-      "lamentation",
-      "parure"
+      "effet",
+      "entreprise",
+      "verre",
+      "princier"
     ],
     [
-      "tremper",
-      "consumer",
-      "plumeau",
-      "violon"
+      "tomate",
+      "semis",
+      "chérubin",
+      "chaleur"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    3,
-    3,
-    1
+    2,
+    3
   ],
   "colClues": [
     3,
-    2,
+    3,
     2,
     2
   ],
-  "themeWord": "lit",
+  "themeWord": "serre",
   "solution": [
     [
       true,
       true,
-      false,
+      true,
       false
     ],
     [
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

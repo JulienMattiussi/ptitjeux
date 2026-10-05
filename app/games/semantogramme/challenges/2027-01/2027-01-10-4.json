@@ -5,92 +5,119 @@
   "height": 7,
   "words": [
     [
-      "redresser",
-      "rajeunir",
-      "compteur",
-      "ocelot",
-      "noyau",
-      "observer",
-      "abordage"
+      "été",
+      "zèle",
+      "escargots",
+      "Baudelaire",
+      "pétale",
+      "rallonge",
+      "encornet"
     ],
     [
-      "sanguinaire",
-      "angle",
-      "exposer",
-      "mesurer",
-      "serpentin",
-      "infusion",
-      "précis"
+      "souris",
+      "blues",
+      "commencement",
+      "évincer",
+      "Normandie",
+      "tastevin",
+      "acidité"
     ],
     [
-      "hubble",
-      "bossu",
-      "pourfendre",
-      "arc",
-      "goutte",
-      "artiste",
-      "astronomie"
+      "évacuation",
+      "repriser",
+      "légal",
+      "PV",
+      "fleur",
+      "Béjart",
+      "Japon"
     ],
     [
-      "quart",
-      "arabe",
-      "antique",
-      "donner",
-      "cercle",
-      "égalité",
-      "instrument"
+      "instinct",
+      "arbuste",
+      "fossile",
+      "marmelade",
+      "Sorbonne",
+      "Bretagne",
+      "soldat"
     ],
     [
-      "magique",
-      "mythologie",
-      "navigation",
-      "calculer",
-      "plectre",
-      "proclamer",
-      "circuit"
+      "clic",
+      "aluminium",
+      "largo",
+      "Picsou",
+      "Littré",
+      "azulejo",
+      "bouquet"
     ],
     [
-      "ardoisier",
-      "savant",
-      "engrais",
-      "sibylle",
-      "vibrer",
-      "fondue",
-      "foncé"
+      "bruyère",
+      "Honfleur",
+      "rose",
+      "floraison",
+      "procès",
+      "superposer",
+      "révérence"
     ],
     [
-      "positionner",
-      "course",
-      "médiéval",
-      "sphérique",
-      "imitation",
-      "victoire",
-      "étoile"
+      "dessin",
+      "anarchie",
+      "boule",
+      "gonfler",
+      "Daenerys",
+      "Vespa",
+      "turbine"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
-    5,
     2,
-    1,
-    4
+    2,
+    2,
+    2,
+    4,
+    1
   ],
   "colClues": [
     2,
     3,
+    2,
+    1,
     3,
-    4,
     1,
-    1,
-    4
+    3
   ],
-  "themeWord": "quadrant",
+  "themeWord": "hortensia",
   "solution": [
     [
+      true,
       false,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
@@ -101,16 +128,7 @@
       false,
       true,
       false,
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       false,
       true
@@ -118,15 +136,6 @@
     [
       true,
       true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false,
@@ -135,22 +144,13 @@
     ],
     [
       false,
-      true,
       false,
+      true,
       false,
       false,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

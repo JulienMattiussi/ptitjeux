@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-04-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "androïde",
+      "tige",
+      "Bresse",
+      "trébuchet"
+    ],
+    [
+      "appui",
+      "terreau",
+      "mercure",
+      "réglisse"
+    ],
+    [
+      "arroser",
+      "Nolde",
+      "racine",
+      "microscopique"
+    ],
+    [
+      "pot",
+      "feuille",
+      "singe",
+      "jardinier"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    1
+  ],
+  "themeWord": "plante",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

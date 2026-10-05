@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "gravats",
+      "matin",
+      "flocon",
+      "hiver",
+      "pomme"
+    ],
+    [
+      "cristaux",
+      "Dumas",
+      "glace",
+      "gel",
+      "Bouglione"
+    ],
+    [
+      "Panoramix",
+      "gelée",
+      "frimas",
+      "blanc",
+      "dentelle"
+    ],
+    [
+      "vitre",
+      "louvoyer",
+      "déclencheur",
+      "retenue",
+      "congélateur"
+    ],
+    [
+      "inédit",
+      "Vendée",
+      "arroser",
+      "arbres",
+      "brasier"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "givre",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

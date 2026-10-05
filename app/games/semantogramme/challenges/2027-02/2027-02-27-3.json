@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "feuille",
-      "cochon",
-      "tendre",
-      "légume",
-      "pendule",
-      "sandwich"
+      "boulangerie",
+      "France",
+      "Turc",
+      "beurre",
+      "végétal",
+      "conifère"
     ],
     [
-      "indépendante",
-      "piment",
-      "étrenner",
-      "flamme",
-      "verte",
-      "instituteur"
+      "miettes",
+      "jacasser",
+      "café",
+      "écarter",
+      "petit-déjeuner",
+      "Arcimboldo"
     ],
     [
-      "voltiger",
-      "tige",
-      "composée",
-      "croquante",
-      "brouillard",
-      "pourboire"
+      "pépère",
+      "amandes",
+      "balcon",
+      "ossuaire",
+      "vainqueur",
+      "Bruges"
     ],
     [
-      "arrogance",
-      "batavia",
-      "ring",
-      "posture",
-      "aîné",
-      "enchaîner"
+      "Autriche",
+      "persienne",
+      "ragoût",
+      "corne",
+      "jambon",
+      "doré"
     ],
     [
-      "reine",
-      "douane",
-      "rosette",
-      "vinaigrette",
-      "blatte",
-      "romaine"
+      "Madagascar",
+      "viennoiserie",
+      "pie",
+      "GR",
+      "Raphaël",
+      "feuilleté"
     ],
     [
-      "salade",
-      "iceberg",
-      "pomme",
-      "jardin",
-      "cube",
-      "poirier"
+      "récent",
+      "occident",
+      "brioche",
+      "cadavre",
+      "registre",
+      "lune"
     ]
   ],
   "rowClues": [
     4,
-    1,
-    2,
-    1,
     3,
-    4
-  ],
-  "colClues": [
-    2,
-    2,
-    4,
-    4,
     1,
+    4,
+    2,
     2
   ],
-  "themeWord": "laitue",
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "croissant",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

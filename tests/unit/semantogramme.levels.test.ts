@@ -7,18 +7,7 @@ import {
   setCellStatus,
   setThemeGuess,
 } from '~/games/semantogramme/engine'
-import { CURATED_THEMES_L1 } from '../../generators/curated-themes-l1'
-import { CURATED_THEMES_L2 } from '../../generators/curated-themes-l2'
-import { CURATED_THEMES_L3 } from '../../generators/curated-themes-l3'
-import { CURATED_THEMES_L4 } from '../../generators/curated-themes-l4'
 import { familyPairs, normalizeWord } from '../../generators/semantogramme-rules'
-
-const CURATED_MAPS = {
-  1: CURATED_THEMES_L1,
-  2: CURATED_THEMES_L2,
-  3: CURATED_THEMES_L3,
-  4: CURATED_THEMES_L4,
-} as const
 
 describe('niveaux Sémantogramme : intégrité', () => {
   const dates = getAllDates()
@@ -63,13 +52,11 @@ describe('niveaux Sémantogramme : intégrité', () => {
     }
   })
 
-  it('puzzles curés : ≥1 IN et ≥1 OUT par ligne et par colonne', () => {
+  it('≥1 IN et ≥1 OUT par ligne et par colonne', () => {
     // Une ligne ou colonne tout-IN (clue = width/height) ou tout-OUT
-    // (clue = 0) appauvrit le puzzle. Le générateur curé re-mélange jusqu'à
-    // satisfaction ; on vérifie ici que le JSON livré respecte bien la règle.
+    // (clue = 0) appauvrit le puzzle.
     for (const date of dates) {
       for (const i of [1, 2, 3, 4] as const) {
-        if (!CURATED_MAPS[i][date]) continue
         const level = getLevel(date, i)!
         for (let y = 0; y < level.height; y++) {
           const inCount = level.solution[y].filter(Boolean).length
@@ -86,12 +73,9 @@ describe('niveaux Sémantogramme : intégrité', () => {
     }
   })
 
-  it('puzzles curés : aucun mot dupliqué dans la grille', () => {
-    // L1, L2 et L3 sont curés : chaque case porte un mot distinct. L4 reste
-    // tiré aléatoirement et peut répéter (par construction).
+  it('aucun mot dupliqué dans la grille', () => {
     for (const date of dates) {
       for (const i of [1, 2, 3, 4] as const) {
-        if (!CURATED_MAPS[i][date]) continue
         const level = getLevel(date, i)!
         const flat = level.words.flat()
         const unique = new Set(flat)
@@ -130,28 +114,39 @@ describe('niveaux Sémantogramme : intégrité', () => {
     expect(found).toEqual([])
   })
 
-  it('thèmes curés : tous distincts entre L1, L2, L3, L4 et entre eux', () => {
-    const allCurated: Array<{ source: string; word: string }> = []
-    for (const [date, theme] of Object.entries(CURATED_THEMES_L1)) {
-      allCurated.push({ source: `L1/${date}`, word: theme.word })
-    }
-    for (const [date, theme] of Object.entries(CURATED_THEMES_L2)) {
-      allCurated.push({ source: `L2/${date}`, word: theme.word })
-    }
-    for (const [date, theme] of Object.entries(CURATED_THEMES_L3)) {
-      allCurated.push({ source: `L3/${date}`, word: theme.word })
-    }
-    for (const [date, theme] of Object.entries(CURATED_THEMES_L4)) {
-      allCurated.push({ source: `L4/${date}`, word: theme.word })
-    }
+  it('aucun mot commun avec les deux jours précédents (règle 3)', () => {
+    const found: string[] = []
+    const sorted = [...dates].sort()
+    const wordsOfDay = sorted.map(
+      (date) =>
+        new Set(
+          ([1, 2, 3, 4] as const).flatMap((i) =>
+            getLevel(date, i)!.words.flat().map(normalizeWord),
+          ),
+        ),
+    )
+    wordsOfDay.forEach((words, d) => {
+      for (const back of [1, 2]) {
+        const earlier = wordsOfDay[d - back]
+        if (!earlier) continue
+        for (const w of words) if (earlier.has(w)) found.push(`${sorted[d]} : ${w}`)
+      }
+    })
+    expect(found).toEqual([])
+  })
+
+  it('thèmes tous distincts sur tous les niveaux', () => {
     const seen = new Map<string, string>()
-    for (const { source, word } of allCurated) {
-      const previous = seen.get(word)
-      expect(
-        previous,
-        `thème "${word}" déjà utilisé en ${previous} et en ${source}`,
-      ).toBeUndefined()
-      seen.set(word, source)
+    const duplicates: string[] = []
+    for (const date of dates) {
+      for (const i of [1, 2, 3, 4] as const) {
+        const level = getLevel(date, i)!
+        const theme = normalizeWord(level.themeWord)
+        const previous = seen.get(theme)
+        if (previous) duplicates.push(`${level.themeWord} : ${previous} et ${level.id}`)
+        seen.set(theme, level.id)
+      }
     }
+    expect(duplicates).toEqual([])
   })
 })

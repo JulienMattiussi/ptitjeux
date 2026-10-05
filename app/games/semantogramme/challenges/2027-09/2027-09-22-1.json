@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "conchyliologie",
+      "brioche",
+      "viennoiserie",
+      "accablement"
+    ],
+    [
+      "croissant",
+      "Gainsbourg",
+      "knack",
+      "pain"
+    ],
+    [
+      "farine",
+      "office",
+      "conducteur",
+      "levain"
+    ],
+    [
+      "Moires",
+      "comptoir",
+      "baguette",
+      "fournil"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "boulangerie",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

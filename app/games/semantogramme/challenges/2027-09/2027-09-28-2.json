@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-28-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "surprise",
+      "enfouir",
+      "chenet",
+      "feu",
+      "ramoneur"
+    ],
+    [
+      "barreur",
+      "Roland-Garros",
+      "bûche",
+      "irréaliste",
+      "navigateur"
+    ],
+    [
+      "suie",
+      "insert",
+      "saladier",
+      "nounours",
+      "conduit"
+    ],
+    [
+      "Karabatic",
+      "toit",
+      "chevet",
+      "Bonaly",
+      "bois"
+    ],
+    [
+      "tisonnier",
+      "fumée",
+      "âtre",
+      "Roberval",
+      "manteau"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "cheminée",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

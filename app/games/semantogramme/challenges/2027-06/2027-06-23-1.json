@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "single",
-      "reprise",
-      "hôtesse",
-      "innocence"
+      "fil",
+      "marchandise",
+      "dé",
+      "Bavière"
     ],
     [
-      "parole",
-      "terre",
-      "chanteur",
-      "refrain"
+      "médiéval",
+      "piqûre",
+      "couture",
+      "pixel"
     ],
     [
-      "aplanir",
-      "titre",
-      "couplet",
-      "album"
+      "chas",
+      "coudre",
+      "seringue",
+      "menu"
     ],
     [
-      "interprète",
-      "aquatique",
-      "aviateur",
-      "tube"
+      "trépas",
+      "boussole",
+      "moka",
+      "épingle"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    2,
     3,
     2
   ],
   "colClues": [
+    2,
     3,
-    2,
-    2,
-    3
+    3,
+    1
   ],
-  "themeWord": "chanson",
+  "themeWord": "aiguille",
   "solution": [
     [
       true,
-      true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false
     ],
     [
       true,
-      false,
       true,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

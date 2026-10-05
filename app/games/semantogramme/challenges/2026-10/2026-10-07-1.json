@@ -5,53 +5,47 @@
   "height": 4,
   "words": [
     [
-      "caméléon",
-      "steak",
-      "pensée",
-      "gecko"
+      "Tyson",
+      "finaud",
+      "Cerdan",
+      "ring"
     ],
     [
-      "massif",
-      "pinson",
-      "lézard",
-      "vipère"
+      "montante",
+      "KO",
+      "arnaquer",
+      "cognition"
     ],
     [
-      "braisière",
-      "cobra",
-      "large",
-      "fourmi"
+      "protège-dents",
+      "vote",
+      "crochet",
+      "plastique"
     ],
     [
-      "alligator",
-      "patinette",
-      "tortue",
-      "genou"
+      "Ali",
+      "accusé",
+      "quotidien",
+      "Rocky"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    3,
     1,
+    2,
     2
   ],
   "colClues": [
-    2,
+    3,
     1,
     2,
     2
   ],
-  "themeWord": "reptile",
+  "themeWord": "boxe",
   "solution": [
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true
     ],
@@ -66,7 +60,13 @@
       false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

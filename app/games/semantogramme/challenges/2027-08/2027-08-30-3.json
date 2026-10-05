@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-30-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "modique",
+      "Narnia",
+      "frugal",
+      "bac",
+      "effacé",
+      "fouiller"
+    ],
+    [
+      "dépouillé",
+      "pudique",
+      "mollasson",
+      "petit",
+      "classer",
+      "timide"
+    ],
+    [
+      "île",
+      "gel",
+      "express",
+      "honnête",
+      "simple",
+      "indolent"
+    ],
+    [
+      "tourbière",
+      "mégaphone",
+      "réservé",
+      "Baez",
+      "lueur",
+      "mesuré"
+    ],
+    [
+      "Cambridge",
+      "agile",
+      "humilité",
+      "notification",
+      "publicité",
+      "sage"
+    ],
+    [
+      "expert",
+      "discret",
+      "sinus",
+      "accoudoir",
+      "humble",
+      "brochet"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "modeste",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

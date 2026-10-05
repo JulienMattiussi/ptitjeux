@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "pistolet",
-      "aligner",
-      "portrait",
-      "enlacer",
-      "pellicule"
+      "ulcère",
+      "crampe",
+      "maigre",
+      "gastrique",
+      "nausée"
     ],
     [
-      "cliché",
-      "fougue",
-      "précieuse",
-      "élan",
-      "mitrailler"
+      "sirène",
+      "propreté",
+      "ventre",
+      "Hiroshige",
+      "suc"
     ],
     [
-      "shooter",
-      "incliner",
-      "sobre",
-      "glycine",
-      "instantané"
+      "repas",
+      "acide",
+      "intestin",
+      "Basque",
+      "funiculaire"
     ],
     [
-      "capturer",
-      "image",
-      "flash",
-      "binaire",
-      "origami"
+      "foie",
+      "digestion",
+      "poissons",
+      "faim",
+      "brasserie"
     ],
     [
-      "petit",
-      "appareil",
-      "zoom",
-      "objectif",
-      "immortaliser"
+      "Condillac",
+      "panse",
+      "gargouillis",
+      "brûlure",
+      "conduire"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    4,
     2,
     3,
-    4
+    3,
+    3
   ],
   "colClues": [
     3,
-    2,
+    4,
     3,
-    1,
-    4
+    3,
+    2
   ],
-  "themeWord": "photographier",
+  "themeWord": "estomac",
   "solution": [
     [
-      false,
-      false,
+      true,
       true,
       false,
+      true,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       true
     ],
@@ -85,12 +78,19 @@
       false
     ],
     [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

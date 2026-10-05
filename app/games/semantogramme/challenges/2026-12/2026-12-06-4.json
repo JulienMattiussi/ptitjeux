@@ -5,114 +5,96 @@
   "height": 7,
   "words": [
     [
-      "farine",
-      "cerise",
-      "orthoptère",
-      "clarinette",
-      "oeuf",
-      "cochon",
-      "verser"
+      "arabesque",
+      "patrimoine",
+      "Annonciation",
+      "ci-gît",
+      "étendu",
+      "défunt",
+      "génome"
     ],
     [
-      "sucre",
-      "basmati",
-      "préparer",
-      "entomologue",
-      "pâture",
-      "cuisine",
-      "rustique"
+      "repos",
+      "Rothko",
+      "SOS",
+      "esplanade",
+      "Arp",
+      "couché",
+      "cobalt"
     ],
     [
-      "mûr",
-      "érudit",
-      "pénible",
-      "crypter",
-      "poncer",
-      "maternité",
-      "reportage"
+      "cimetière",
+      "fondant",
+      "gisant",
+      "épitaphe",
+      "laiton",
+      "agonisant",
+      "perche"
     ],
     [
-      "cuire",
-      "maussade",
-      "décoration",
-      "girolle",
-      "familial",
-      "sagesse",
-      "saule"
+      "gaffeur",
+      "cadavre",
+      "tolérance",
+      "milan",
+      "faïence",
+      "sépulture",
+      "juriste"
     ],
     [
-      "foulard",
-      "mijoter",
-      "conquérir",
-      "devise",
-      "noyau",
-      "jalousie",
-      "apnée"
+      "idéogramme",
+      "allongé",
+      "naufrage",
+      "perforation",
+      "inerte",
+      "dalle",
+      "abattu"
     ],
     [
-      "explosion",
-      "maladroit",
-      "limousin",
-      "pâte",
-      "traditionnel",
-      "transylvanie",
-      "savourer"
+      "Picabia",
+      "épave",
+      "géométrie",
+      "moisissure",
+      "mort",
+      "falot",
+      "Ionesco"
     ],
     [
-      "minimaliste",
-      "habitable",
-      "intérêt",
-      "four",
-      "majestueuse",
-      "matelas",
-      "menace"
+      "structure",
+      "conseil",
+      "eutrophisation",
+      "goinfre",
+      "tombe",
+      "pastille",
+      "Amélie"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    1,
+    3,
     2,
-    1,
     4,
+    2,
+    5,
+    2,
     1
   ],
   "colClues": [
-    4,
-    1,
+    2,
+    3,
     2,
     2,
     4,
-    1,
-    3
+    5,
+    1
   ],
-  "themeWord": "clafoutis",
+  "themeWord": "gésir",
   "solution": [
     [
-      true,
-      true,
       false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       false
     ],
     [
@@ -120,37 +102,55 @@
       false,
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
+      true,
+      true,
+      false,
+      true,
       false
     ],
     [
       false,
+      true,
       false,
       false,
       false,
       true,
-      false,
       false
     ],
     [
       false,
+      true,
+      true,
       false,
       true,
       true,
-      true,
-      false,
       true
     ],
     [
       false,
+      true,
       false,
       false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 19
 }

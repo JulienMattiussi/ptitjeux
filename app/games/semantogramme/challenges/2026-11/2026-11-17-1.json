@@ -5,51 +5,45 @@
   "height": 4,
   "words": [
     [
-      "orgue",
-      "caricature",
-      "tir",
-      "bénitier"
+      "visible",
+      "fruits",
+      "pot",
+      "grec"
     ],
     [
-      "cuisson",
-      "confessionnal",
-      "cierge",
-      "nef"
+      "cuillère",
+      "crémeux",
+      "affreux",
+      "invisible"
     ],
     [
-      "prêtre",
-      "hélice",
-      "cercueil",
-      "autel"
+      "Danone",
+      "insonorisation",
+      "lait",
+      "bifidus"
     ],
     [
-      "fidèle",
-      "jais",
-      "vitrail",
-      "haillon"
+      "ferment",
+      "projection",
+      "Airbus",
+      "nature"
     ]
   ],
   "rowClues": [
-    2,
     3,
     2,
+    3,
     2
   ],
   "colClues": [
     3,
-    1,
+    2,
     2,
     3
   ],
-  "themeWord": "église",
+  "themeWord": "yaourt",
   "solution": [
     [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       false,
       true,
       true,
@@ -57,16 +51,22 @@
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
-      true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

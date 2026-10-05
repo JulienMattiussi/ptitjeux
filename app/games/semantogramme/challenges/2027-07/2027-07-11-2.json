@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tennis",
+      "anxieux",
+      "éphémère",
+      "trajet",
+      "Castorama"
+    ],
+    [
+      "instant",
+      "Figaro",
+      "momentané",
+      "musée",
+      "cyclope"
+    ],
+    [
+      "sprint",
+      "concis",
+      "sésame",
+      "Polichinelle",
+      "Roland-Garros"
+    ],
+    [
+      "circulation",
+      "nain",
+      "sommaire",
+      "tong",
+      "Rafiki"
+    ],
+    [
+      "bref",
+      "coq",
+      "minijupe",
+      "Schopenhauer",
+      "nager"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    4,
+    2,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "court",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

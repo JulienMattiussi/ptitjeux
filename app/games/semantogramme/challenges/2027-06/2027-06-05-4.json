@@ -5,137 +5,119 @@
   "height": 7,
   "words": [
     [
-      "transformer",
-      "navigation",
-      "redon",
-      "kiwi",
-      "dattier",
-      "art",
-      "stigmatiser"
+      "pourtour",
+      "corail",
+      "attaque",
+      "trinquer",
+      "frondeur",
+      "Castorama",
+      "viscosité"
     ],
     [
-      "littérature",
-      "moreau",
-      "rimbaud",
-      "ambre",
-      "avouer",
-      "évocation",
-      "évoquer"
+      "incertain",
+      "sourire",
+      "gouailleur",
+      "parcourir",
+      "carotide",
+      "Délivrance",
+      "traite"
     ],
     [
-      "darwinien",
-      "sommier",
-      "verlaine",
-      "géologie",
-      "rêve",
-      "abonnement",
-      "nashville"
+      "blagueur",
+      "bien-être",
+      "girofle",
+      "ironique",
+      "Oscar",
+      "irréductible",
+      "facétieux"
     ],
     [
-      "sérigraphie",
-      "gond",
-      "beige",
-      "paprika",
-      "mallarmé",
-      "cardan",
-      "décadent"
+      "cahier",
+      "Crésus",
+      "alphabet",
+      "accord",
+      "anéantir",
+      "titi",
+      "emplacement"
     ],
     [
-      "mystère",
-      "lutte",
-      "fugué",
-      "défendre",
-      "octroyer",
-      "ready-made",
-      "français"
+      "virtuose",
+      "rieur",
+      "sarcastique",
+      "gueules",
+      "sulfurique",
+      "malicieux",
+      "tradition"
     ],
     [
-      "fin-de-siècle",
-      "lavage",
-      "cadavérique",
-      "tressée",
-      "boulon",
-      "allégorie",
-      "phénomène"
+      "persifleur",
+      "taquin",
+      "plaisantin",
+      "railleur",
+      "complet",
+      "virgule",
+      "web"
     ],
     [
-      "brassé",
-      "penalty",
-      "idéaliste",
-      "baudelaire",
-      "suggérer",
-      "inébranlable",
-      "tronçonneuse"
+      "printanier",
+      "chaud",
+      "Onéguine",
+      "charbonnière",
+      "narquois",
+      "stratège",
+      "ruisselant"
     ]
   ],
   "rowClues": [
-    2,
-    5,
-    2,
-    2,
     1,
     2,
-    3
+    3,
+    1,
+    3,
+    4,
+    1
   ],
   "colClues": [
-    3,
-    1,
-    4,
-    1,
+    2,
     3,
     3,
-    2
+    2,
+    2,
+    2,
+    1
   ],
-  "themeWord": "symbolisme",
+  "themeWord": "goguenard",
   "solution": [
     [
       false,
       false,
-      true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
       true,
-      true,
-      true,
       false,
       false,
       true,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false,
@@ -144,13 +126,31 @@
     ],
     [
       false,
+      true,
+      true,
+      false,
       false,
       true,
+      false
+    ],
+    [
       true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

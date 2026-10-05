@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "tennis",
-      "maître",
-      "élève",
-      "professeur"
+      "été",
+      "coucher",
+      "chiens",
+      "étoile"
     ],
     [
-      "classe",
-      "mot",
-      "tableau",
-      "nature"
+      "aérosol",
+      "chaleur",
+      "lumière",
+      "plage"
     ],
     [
-      "instituteur",
-      "cahier",
-      "résultat",
-      "fitness"
+      "suspension",
+      "prémonition",
+      "lever",
+      "vertige"
     ],
     [
-      "brûler",
-      "cours",
-      "pédagogie",
-      "amarre"
+      "bronzage",
+      "flop",
+      "éclipse",
+      "rayon"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
-    2
+    3,
+    1,
+    3
   ],
   "colClues": [
     2,
+    2,
     3,
-    3,
-    1
+    3
   ],
-  "themeWord": "enseignant",
+  "themeWord": "soleil",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
     [
       false,
       true,
@@ -50,23 +56,17 @@
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       false
     ],
     [
       true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

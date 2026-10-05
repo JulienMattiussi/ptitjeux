@@ -5,76 +5,62 @@
   "height": 5,
   "words": [
     [
-      "écaille",
-      "recherche",
-      "roche",
-      "sable",
-      "racler"
+      "ciseler",
+      "Saint-Marc",
+      "cimetière",
+      "raccourcir",
+      "rogner"
     ],
     [
-      "lime",
-      "surveiller",
-      "pierre",
-      "râpe",
-      "gratter"
+      "corriger",
+      "amputer",
+      "hacher",
+      "faucher",
+      "coquilles"
     ],
     [
-      "fourrer",
-      "caillouteux",
-      "thèse",
-      "patineur",
-      "papier"
+      "interrompre",
+      "tronçonner",
+      "fatuité",
+      "tranche",
+      "maman"
     ],
     [
-      "nombre",
-      "granuleux",
-      "éroder",
-      "égratigner",
-      "asticot"
+      "Marennes",
+      "inflexion",
+      "sectionner",
+      "inventeur",
+      "caveau"
     ],
     [
-      "résumé",
-      "bulletin",
-      "pantin",
-      "liège",
-      "élastique"
+      "émincer",
+      "allergie",
+      "fendre",
+      "Messier",
+      "scalpel"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    2,
     3,
-    1
-  ],
-  "colClues": [
-    2,
-    2,
     3,
-    4,
+    3,
+    1,
     3
   ],
-  "themeWord": "rugueux",
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "couper",
   "solution": [
     [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       true
     ],
     [
@@ -85,12 +71,26 @@
       false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

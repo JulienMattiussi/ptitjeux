@@ -5,111 +5,79 @@
   "height": 6,
   "words": [
     [
-      "croix",
-      "parole",
-      "froussard",
-      "éplucher",
-      "poltron",
-      "thé"
+      "mue",
+      "traversière",
+      "cordon",
+      "ravitaillement",
+      "morosité",
+      "soupçonneux"
     ],
     [
-      "propriétaire",
-      "porcine",
-      "chenille",
-      "trouillard",
-      "tergiverser",
-      "bercement"
+      "bourg",
+      "spirale",
+      "infidélité",
+      "rival",
+      "éphémère",
+      "dépit"
     ],
     [
-      "frémir",
-      "flageoler",
-      "antiquité",
-      "obélisque",
-      "bénin",
-      "tracter"
+      "cellule",
+      "bébé",
+      "Iago",
+      "convoitise",
+      "couple",
+      "frère"
     ],
     [
-      "fuir",
-      "dessinateur",
-      "opuntia",
-      "sève",
-      "abandonner",
-      "cyclisme"
+      "Tacite",
+      "rancoeur",
+      "julienne",
+      "Chagall",
+      "cocu",
+      "Othello"
     ],
     [
-      "craintif",
-      "flancher",
-      "peureux",
-      "perte",
-      "renaître",
-      "antiadhésive"
+      "trahison",
+      "Saint-Sulpice",
+      "méfiant",
+      "binaire",
+      "Jéricho",
+      "ripailleur"
     ],
     [
-      "mississippi",
-      "thorax",
-      "déserter",
-      "pleutre",
-      "apathique",
-      "reculer"
+      "colère",
+      "amoureux",
+      "exclusif",
+      "six",
+      "envieux",
+      "parenthèse"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    2,
+    1,
     3,
-    3
+    4,
+    3,
+    2,
+    4
   ],
   "colClues": [
-    3,
+    2,
+    2,
+    4,
     2,
     3,
-    2,
-    3,
-    1
+    4
   ],
-  "themeWord": "lâche",
+  "themeWord": "jaloux",
   "solution": [
     [
       false,
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
@@ -118,7 +86,39 @@
       true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

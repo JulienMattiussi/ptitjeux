@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "aigle",
-      "monstre",
-      "immortel",
-      "mésange"
+      "basketteur",
+      "nouer",
+      "amputer",
+      "rayée"
     ],
     [
-      "pinson",
-      "ouragan",
-      "canari",
-      "maudit"
+      "entretien",
+      "smoking",
+      "noeud",
+      "investiguer"
     ],
     [
-      "respiratoire",
-      "faucon",
-      "concert",
-      "redoutable"
+      "pochette",
+      "épingle",
+      "inouï",
+      "Brel"
     ],
     [
-      "paternel",
-      "hirondelle",
-      "hibou",
-      "pigeon"
+      "costume",
+      "Stradivarius",
+      "discernement",
+      "convivial"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
-    1,
-    3
+    1
   ],
   "colClues": [
-    2,
-    2,
-    2,
-    2
+    3,
+    3,
+    1,
+    1
   ],
-  "themeWord": "oiseau",
+  "themeWord": "cravate",
   "solution": [
     [
-      true,
       false,
+      true,
       false,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
       false
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true
+      false,
+      false
     ]
   ],
   "parMoves": 8

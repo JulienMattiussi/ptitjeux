@@ -90,10 +90,16 @@ const GREEDY_SLACK = 1
 const MAX_CORRIDORS = 200_000
 /** Nombre de concurrents à partir duquel le solveur trie les réalisables. */
 const SOLVE_RIVALS = 300
-/** Budget du solveur pour un couloir concurrent (génération et tests d'intégrité). */
+/** Budget du solveur pour un couloir concurrent, à la génération. */
 export const RIVAL_NODES = 50_000
 /** Plafond d'énumération des tests d'intégrité. */
 export const PROOF_CORRIDORS = 1_000_000
+/**
+ * Budget du solveur pour un concurrent dans les tests d'intégrité. Plus large
+ * que RIVAL_NODES : une variante tournée d'une grille peut demander plus de
+ * nœuds que l'originale pour aboutir à la même preuve.
+ */
+export const PROOF_NODES = 2_000_000
 
 /** Plafond du lot pour la construction : doubles seulement à partir du niveau 3. */
 function poolCap(index: LevelIndex): Pool {

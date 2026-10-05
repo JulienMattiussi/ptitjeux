@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "éteindre",
-      "rituel",
-      "fronde",
-      "natation",
-      "parade",
-      "immunité"
+      "prison",
+      "outil",
+      "visser",
+      "roue",
+      "déambuler",
+      "garage"
     ],
     [
-      "chandelle",
-      "noblesse",
-      "flamme",
-      "orchestre",
-      "silence",
-      "crudité"
+      "durillon",
+      "boulon",
+      "Sioux",
+      "espoir",
+      "vis",
+      "rondelle"
     ],
     [
-      "allumer",
-      "invitation",
-      "glisser",
-      "chaleur",
-      "parfumée",
-      "robuste"
+      "assemblage",
+      "singulier",
+      "ajourner",
+      "serrer",
+      "papillon",
+      "viennoiserie"
     ],
     [
-      "lumière",
-      "fondre",
-      "jaune",
-      "étudiant",
-      "épaulé",
-      "anniversaire"
+      "mécanique",
+      "taloche",
+      "acier",
+      "Ascension",
+      "liste",
+      "Tour"
     ],
     [
-      "mèche",
-      "religion",
-      "illuminer",
-      "endive",
-      "fête",
-      "sifflet"
+      "plomberie",
+      "sensuel",
+      "fjord",
+      "barreur",
+      "analyse",
+      "dévisser"
     ],
     [
-      "février",
-      "mordant",
-      "impeccable",
-      "cake",
-      "romantique",
-      "cire"
+      "filetage",
+      "ail",
+      "clé",
+      "scruter",
+      "hexagonal",
+      "quotidien"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    5,
     3,
     3,
-    4,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
     5,
+    2,
     3,
     2,
-    1,
     3,
-    2
+    3
   ],
-  "themeWord": "bougie",
+  "themeWord": "écrou",
   "solution": [
     [
       true,
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
+      false,
+      true,
+      true,
       false
     ],
     [
@@ -90,14 +106,6 @@
     [
       true,
       false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false,
@@ -105,20 +113,12 @@
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

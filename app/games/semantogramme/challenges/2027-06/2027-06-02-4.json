@@ -5,93 +5,111 @@
   "height": 7,
   "words": [
     [
-      "parfumé",
-      "fleur",
-      "fragile",
-      "pâtissier",
-      "sans-réplique",
-      "crique",
-      "décembre"
+      "Pyrrhon",
+      "gélule",
+      "Descartes",
+      "agnosticisme",
+      "pulpeuse",
+      "correct",
+      "fantomatique"
     ],
     [
-      "engrais",
-      "lascaux",
-      "jardin",
-      "rubrique",
-      "fauve",
-      "rose",
-      "vertèbre"
+      "lunette",
+      "vidange",
+      "coupe-gorge",
+      "certitude",
+      "jugement",
+      "baudet",
+      "frangipane"
     ],
     [
-      "aéroport",
-      "sculpteur",
-      "synthétique",
-      "symbolique",
-      "astre",
-      "clown",
-      "blanc"
+      "bulldozer",
+      "suspension",
+      "Thomas",
+      "Viking",
+      "enchères",
+      "flemmard",
+      "Android"
     ],
     [
-      "témoin",
-      "offrir",
-      "délicat",
-      "décoratif",
-      "mince",
-      "audacieux",
-      "gémissement"
+      "harpon",
+      "indistinct",
+      "zététique",
+      "sente",
+      "incrédulité",
+      "preuve",
+      "cycle"
     ],
     [
-      "frette",
-      "journal",
-      "détonation",
-      "doudou",
-      "hôtel",
-      "mariage",
-      "foule"
+      "Hume",
+      "relativisme",
+      "infirmier",
+      "brigantine",
+      "cep",
+      "inconscient",
+      "questionnement"
     ],
     [
-      "mansarde",
-      "plante",
-      "design",
-      "tremper",
-      "tige",
-      "clarinette",
-      "cueillir"
+      "quarante",
+      "défiance",
+      "rondelle",
+      "doute",
+      "Epson",
+      "méfiance",
+      "réserve"
     ],
     [
-      "euro",
-      "mire",
-      "odorant",
-      "pétale",
-      "bouquet",
-      "fuyant",
-      "cumes"
+      "Montaigne",
+      "musculation",
+      "Homère",
+      "critique",
+      "piqué",
+      "pelleteuse",
+      "chamailler"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    4,
-    1,
     3,
-    3
+    2,
+    2,
+    3,
+    3,
+    4,
+    2
   ],
   "colClues": [
-    1,
     3,
     3,
     3,
-    3,
+    4,
+    2,
     2,
     2
   ],
-  "themeWord": "oeillet",
+  "themeWord": "scepticisme",
   "solution": [
     [
       true,
+      false,
+      true,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -102,15 +120,15 @@
       false,
       true,
       false,
-      false,
+      true,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
       false,
       false,
       true
@@ -118,39 +136,21 @@
     [
       false,
       true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       true,
       false,
-      false,
       true,
-      false,
       true
     ],
     [
+      true,
       false,
       false,
       true,
-      true,
-      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 19
 }

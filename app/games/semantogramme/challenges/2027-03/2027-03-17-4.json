@@ -5,102 +5,120 @@
   "height": 7,
   "words": [
     [
-      "morue",
-      "hésiter",
-      "cuve",
-      "resplendissant",
-      "expéditif",
-      "soleil",
-      "saison"
+      "étranger",
+      "apothéose",
+      "génie",
+      "inspiration",
+      "nage",
+      "tic-tac",
+      "spirituel"
     ],
     [
-      "lavage",
-      "se lever",
-      "orbite",
-      "équateur",
-      "gestation",
-      "vacarme",
-      "exagérer"
+      "sublimer",
+      "colle",
+      "vésicule",
+      "mystique",
+      "bouchon",
+      "râpeux",
+      "orgueil"
     ],
     [
-      "flamboyer",
-      "septembre",
-      "jumeau",
-      "sartre",
-      "octobre",
-      "mars",
-      "changement"
+      "Kant",
+      "élever",
+      "Apollo",
+      "incarné",
+      "chronique",
+      "au-delà",
+      "neurasthénie"
     ],
     [
-      "incertitude",
-      "nuit",
-      "jour",
-      "bourgogne",
-      "mascara",
-      "acacia",
-      "représenter"
+      "frénétique",
+      "sillon",
+      "art",
+      "limite",
+      "Hergé",
+      "céleste",
+      "couronnement"
     ],
     [
-      "blesser",
-      "rotation",
-      "symbolique",
-      "égalité",
-      "automne",
-      "printemps",
-      "monteverdi"
+      "fil",
+      "absolu",
+      "barbecue",
+      "assassinat",
+      "surpasser",
+      "frontière",
+      "surhomme"
     ],
     [
-      "perroquet",
-      "courber",
-      "essentiel",
-      "enseignement",
-      "datation",
-      "croquante",
-      "transition"
+      "divin",
+      "percutant",
+      "extase",
+      "choix",
+      "Taureau",
+      "diagnostic",
+      "dépasser"
     ],
     [
-      "astronomique",
-      "débattre",
-      "précession",
-      "méthode",
-      "belle-soeur",
-      "tempérée",
-      "cabaret"
+      "trône",
+      "Sartre",
+      "antique",
+      "métaphysique",
+      "rutabaga",
+      "Watteau",
+      "vendredi"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    1,
     3,
-    2,
-    5,
-    2,
-    3
-  ],
-  "colClues": [
-    1,
-    3,
-    3,
-    2,
     2,
     4,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    1,
+    2,
     3
   ],
-  "themeWord": "équinoxe",
+  "themeWord": "transcender",
   "solution": [
     [
       false,
+      true,
+      true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false,
       true,
-      true
+      false
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       false,
       false,
@@ -111,35 +129,8 @@
       true,
       false,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
       true
     ],
     [
@@ -148,9 +139,18 @@
       true,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 19
 }

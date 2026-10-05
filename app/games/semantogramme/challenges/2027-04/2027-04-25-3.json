@@ -5,102 +5,78 @@
   "height": 6,
   "words": [
     [
-      "mixte",
-      "virale",
-      "petit-déjeuner",
-      "laver",
-      "vocal",
-      "jeannot"
+      "manger",
+      "palabrer",
+      "guéridon",
+      "boursouflé",
+      "bureau",
+      "Gascogne"
     ],
     [
-      "primer",
-      "a-cappella",
-      "régulier",
-      "hisser",
-      "voix",
-      "plein"
+      "barreau",
+      "Arthur",
+      "patois",
+      "OGM",
+      "peintre",
+      "basse"
     ],
     [
-      "chant",
-      "chef",
-      "ténor",
-      "harmoniser",
-      "représentative",
-      "panda"
+      "pépère",
+      "retomber",
+      "couvert",
+      "pied",
+      "plateau",
+      "distingué"
     ],
     [
-      "liturgique",
-      "église",
-      "soprano",
-      "basse",
-      "doux",
-      "perdrix"
+      "ronde",
+      "repiquer",
+      "sainteté",
+      "opération",
+      "anomie",
+      "tiroir"
     ],
     [
-      "pulpe",
-      "sacré",
-      "martini",
-      "pignon",
-      "chevelure",
-      "répéter"
+      "repas",
+      "université",
+      "matelot",
+      "multiplication",
+      "cuisine",
+      "explosif"
     ],
     [
-      "atterrir",
-      "décorée",
-      "collectif",
-      "linéaire",
-      "labyrinthe",
-      "jardinière"
+      "chevet",
+      "bois",
+      "pommade",
+      "rien",
+      "nappe",
+      "boutonnière"
     ]
   ],
   "rowClues": [
+    3,
     2,
+    3,
     2,
-    4,
-    4,
-    2,
-    1
+    3,
+    3
   ],
   "colClues": [
-    3,
     4,
-    3,
     2,
     2,
-    1
+    2,
+    4,
+    2
   ],
-  "themeWord": "choeur",
+  "themeWord": "table",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
-      false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
       false
     ],
     [
@@ -115,10 +91,34 @@
       false,
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

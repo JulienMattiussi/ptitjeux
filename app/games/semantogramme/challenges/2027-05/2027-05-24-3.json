@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "buffet",
-      "herbe",
-      "refroidir",
-      "bruit",
-      "transporter",
-      "ethernet"
+      "grattoir",
+      "solistes",
+      "caractère",
+      "râler",
+      "étaler",
+      "élagueur"
     ],
     [
-      "manuelle",
-      "lessive",
-      "brancher",
-      "cuivre",
-      "babouin",
-      "colley"
+      "prestige",
+      "automate",
+      "poivre",
+      "truelle",
+      "Esmeralda",
+      "coryphée"
     ],
     [
-      "épais",
-      "long",
-      "gaine",
-      "expectorer",
-      "verser",
-      "numérique"
+      "ébène",
+      "silicone",
+      "ranger",
+      "gâteau",
+      "meuble",
+      "palette"
     ],
     [
-      "aïeul",
-      "flexible",
-      "usb",
-      "électrique",
-      "sanglot",
-      "hdmi"
+      "oiseau",
+      "peintre",
+      "barème",
+      "échassier",
+      "marbré",
+      "fouet"
     ],
     [
-      "récent",
-      "connecter",
-      "relier",
-      "nourriture",
-      "siphon",
-      "caillou"
+      "tabac",
+      "Netflix",
+      "Guyane",
+      "cuisine",
+      "ustensile",
+      "cuillère"
     ],
     [
-      "résistance",
-      "rappel",
-      "tv",
-      "marcher",
-      "équilatéral",
-      "isolant"
+      "Fahrenheit",
+      "Sydney",
+      "racler",
+      "dix",
+      "pétanque",
+      "Hohner"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    4,
-    4,
-    2,
-    2
-  ],
-  "colClues": [
     1,
     3,
-    5,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
     2,
     1,
-    4
+    4,
+    2,
+    3
   ],
-  "themeWord": "câble",
+  "themeWord": "spatule",
   "solution": [
     [
-      false,
+      true,
       false,
       false,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
       false,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "cafetière",
-      "bol",
-      "serveur",
-      "panama"
+      "distributeur",
+      "polystyrène",
+      "mondain",
+      "découvert"
     ],
     [
-      "soucoupe",
-      "sodé",
-      "verre",
-      "temple"
+      "coffre-fort",
+      "avion",
+      "ailette",
+      "poignet"
     ],
     [
-      "carafe",
-      "paroi",
-      "vertigineux",
-      "théière"
+      "outremer",
+      "virement",
+      "intérêt",
+      "norvégienne"
     ],
     [
-      "créneau",
-      "hôtesse",
-      "assiette",
-      "service"
+      "Charlemagne",
+      "arthrose",
+      "braquage",
+      "prêt"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
-    3,
     1,
     2,
     2
   ],
-  "themeWord": "vaisselle",
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "banque",
   "solution": [
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
-    ],
     [
       true,
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ],
     [
       false,
@@ -68,5 +68,5 @@
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

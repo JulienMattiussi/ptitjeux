@@ -5,73 +5,59 @@
   "height": 5,
   "words": [
     [
-      "rythme",
-      "doigt",
-      "connecter",
-      "chorégraphie",
-      "réunion"
+      "salon",
+      "domaine",
+      "expansion",
+      "château",
+      "goinfre"
     ],
     [
-      "twister",
-      "pas",
-      "haine",
-      "dressage",
-      "caramel"
+      "criquet",
+      "majordome",
+      "Baskerville",
+      "décadent",
+      "cheminée"
     ],
     [
-      "guincher",
-      "sautiller",
-      "marguerite",
-      "piste",
-      "familial"
+      "Roscoff",
+      "maître",
+      "tribunal",
+      "jungle",
+      "Moulinsart"
     ],
     [
-      "rougeoyante",
-      "salsa",
-      "bal",
-      "pivoter",
-      "tournoyer"
+      "démotique",
+      "demeure",
+      "Angleterre",
+      "glouton",
+      "claquer"
     ],
     [
-      "tango",
-      "valse",
-      "laitue",
-      "figure",
-      "surveiller"
+      "Athènes",
+      "Pluton",
+      "shopping",
+      "fantôme",
+      "parc"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    4,
-    3
+    3,
+    2,
+    2,
+    2
   ],
   "colClues": [
-    4,
-    4,
     1,
     4,
-    1
+    2,
+    2,
+    3
   ],
-  "themeWord": "danser",
+  "themeWord": "manoir",
   "solution": [
     [
       true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
@@ -81,16 +67,30 @@
       false,
       true,
       true,
-      true,
+      false,
       true
     ],
     [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false,
-      true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

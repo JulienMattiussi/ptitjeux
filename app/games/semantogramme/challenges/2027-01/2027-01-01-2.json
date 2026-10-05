@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "minimaliste",
-      "terrassement",
-      "allaiter",
-      "rapide",
-      "européen"
+      "saignement",
+      "circulation",
+      "rouge",
+      "vampire",
+      "immatériel"
     ],
     [
-      "aorte",
-      "sportif",
-      "sculpteur",
-      "anémique",
-      "barbecue"
+      "sacoche",
+      "constellation",
+      "plaquette",
+      "carriole",
+      "caillot"
     ],
     [
-      "calcium",
-      "gymnase",
-      "pivot",
-      "aiguillée",
-      "lancer"
+      "groupe",
+      "papille",
+      "plasma",
+      "fusible",
+      "écarter"
     ],
     [
-      "olympique",
-      "défendre",
-      "rugosité",
-      "collectif",
-      "maillot"
+      "globule",
+      "hémoglobine",
+      "veine",
+      "coeur",
+      "recéler"
     ],
     [
-      "soupçon",
-      "illuminer",
-      "inoccupé",
-      "axe",
-      "tirer"
+      "trompette",
+      "artère",
+      "tapis",
+      "donneur",
+      "gentleman"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    3,
     4,
-    1
+    2,
+    2,
+    4,
+    2
   ],
   "colClues": [
-    1,
     3,
-    1,
-    2,
-    4
+    3,
+    4,
+    3,
+    1
   ],
-  "themeWord": "handball",
+  "themeWord": "sang",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
-      true
+      true,
+      true,
+      true,
+      false
     ],
     [
       false,
+      false,
       true,
       false,
+      true
+    ],
+    [
+      true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

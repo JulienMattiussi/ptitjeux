@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "courage",
-      "soldat",
-      "spectateur",
-      "abricot",
-      "affronter"
+      "souris",
+      "Saturne",
+      "Poucet",
+      "modeste",
+      "chiot"
     ],
     [
-      "vaillant",
-      "sage",
-      "équinoxe",
-      "cran",
-      "audace"
+      "quasar",
+      "emmental",
+      "garde-corps",
+      "fourmi",
+      "serpillière"
     ],
     [
-      "évasé",
-      "guerrier",
-      "héroïsme",
-      "accoudoir",
-      "candide"
+      "ménisque",
+      "empoté",
+      "minuscule",
+      "aluminium",
+      "lilliputien"
     ],
     [
-      "résister",
-      "sculpter",
-      "oser",
-      "confessionnal",
-      "intrépide"
+      "transept",
+      "nain",
+      "troc",
+      "goutte",
+      "réduit"
     ],
     [
-      "hymne",
-      "défier",
-      "cueilli",
-      "chevalier",
-      "téméraire"
+      "enfant",
+      "Écosse",
+      "miniature",
+      "set",
+      "graine"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
+    1,
     2,
     3,
     3
   ],
   "colClues": [
+    2,
+    1,
     3,
     3,
-    2,
-    2,
     4
   ],
-  "themeWord": "brave",
+  "themeWord": "petit",
   "solution": [
     [
       true,
+      false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
@@ -90,7 +83,14 @@
       false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

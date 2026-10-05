@@ -5,93 +5,77 @@
   "height": 6,
   "words": [
     [
-      "destin",
-      "frapper",
-      "voyance",
-      "bruxelloise",
-      "bouger",
-      "douce"
+      "cave",
+      "cloporte",
+      "soeur",
+      "surf",
+      "ramper",
+      "rapide"
     ],
     [
-      "taper",
-      "lecteur",
-      "plat",
-      "chèque",
-      "sacre",
-      "centre"
+      "humour",
+      "Californie",
+      "garderie",
+      "insecte",
+      "marionnette",
+      "remise"
     ],
     [
-      "grec",
-      "fleuve",
-      "pré",
-      "tendre",
-      "main-tendue",
-      "ligne"
+      "mensonge",
+      "percolateur",
+      "défunt",
+      "jardin",
+      "déambulatoire",
+      "voeu"
     ],
     [
-      "présent",
-      "islande",
-      "volée",
-      "doigt",
-      "rivaliser",
-      "caresser"
+      "pattes",
+      "piqûre",
+      "humide",
+      "humus",
+      "critique",
+      "timidité"
     ],
     [
-      "isolante",
-      "coussin",
-      "tenir",
-      "rose",
-      "pellicule",
-      "creuser"
+      "Darwin",
+      "segments",
+      "scolopendre",
+      "horde",
+      "aimant",
+      "batavia"
     ],
     [
-      "crier",
-      "sueur",
-      "janvier",
-      "green",
-      "exotique",
-      "vainqueur"
+      "danseur",
+      "armature",
+      "anneaux",
+      "extralucide",
+      "pierre",
+      "plat"
     ]
   ],
   "rowClues": [
     4,
-    3,
-    3,
+    1,
+    1,
+    4,
     2,
-    3,
-    1
+    2
   ],
   "colClues": [
     2,
+    3,
+    3,
+    3,
     2,
-    3,
-    3,
-    1,
-    5
+    1
   ],
-  "themeWord": "paume",
+  "themeWord": "mille-pattes",
   "solution": [
     [
       true,
       true,
-      true,
       false,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       true,
       true
     ],
@@ -101,24 +85,40 @@
       false,
       true,
       false,
-      true
+      false
     ],
     [
       false,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false,
-      true
+      false
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

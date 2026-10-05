@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "malt",
-      "noire",
-      "facial",
-      "taches",
-      "cannelle"
+      "réprouver",
+      "culotte",
+      "échiquier",
+      "adhésif",
+      "pastis"
     ],
     [
-      "jumeler",
-      "relique",
-      "écho",
-      "tempe",
-      "front"
+      "cadre",
+      "mètre",
+      "levier",
+      "dés",
+      "quatre"
     ],
     [
-      "figure",
-      "sourire",
-      "aiguisé",
-      "expression",
-      "portrait"
+      "surface",
+      "mérinos",
+      "vertèbre",
+      "cube",
+      "angle"
     ],
     [
-      "historique",
-      "bouche",
-      "trait",
-      "débattre",
-      "menton"
+      "losange",
+      "Gaïa",
+      "ménagère",
+      "case",
+      "géométrie"
     ],
     [
-      "armer",
-      "brochette",
-      "vache",
-      "deuil",
-      "grimace"
+      "bronze",
+      "pâte",
+      "taquiner",
+      "côté",
+      "câlin"
     ]
   ],
   "rowClues": [
     1,
-    2,
     4,
+    3,
     3,
     1
   ],
   "colClues": [
+    3,
     1,
-    2,
-    2,
-    2,
-    4
+    1,
+    4,
+    3
   ],
-  "themeWord": "visage",
+  "themeWord": "carré",
   "solution": [
     [
       false,
@@ -64,13 +64,6 @@
       false
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       true,
       false,
@@ -78,19 +71,26 @@
       true
     ],
     [
-      false,
-      true,
       true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       true
     ],
     [
       false,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

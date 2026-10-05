@@ -5,95 +5,131 @@
   "height": 7,
   "words": [
     [
-      "observer",
-      "orientale",
-      "mesurer",
-      "ère",
-      "actuel",
-      "dossier",
-      "coq"
+      "Rwanda",
+      "château",
+      "marée",
+      "nuit",
+      "sous-titres",
+      "cloche",
+      "panse"
     ],
     [
-      "récent",
-      "discerner",
-      "macaque",
-      "serein",
-      "nucléaire",
-      "ponctuel",
-      "maçonnique"
+      "calendrier",
+      "fête",
+      "mouette",
+      "Stonehenge",
+      "bleu",
+      "kamikaze",
+      "thermidor"
     ],
     [
-      "élève",
-      "CO2",
-      "nuage",
-      "auto-école",
-      "marchandise",
-      "magnitude",
-      "urbanisation"
+      "mathématique",
+      "isoloir",
+      "septembre",
+      "Delacroix",
+      "direction",
+      "accéléromètre",
+      "Courbet"
     ],
     [
-      "façonner",
-      "plastique",
-      "réjouir",
-      "frisbee",
-      "défilé",
-      "lampadaire",
-      "mécanique"
+      "révérence",
+      "pont-levis",
+      "vernal",
+      "kangourou",
+      "rayé",
+      "bravoure",
+      "Bateau-Lavoir"
     ],
     [
-      "trophée",
-      "corail",
-      "agresser",
-      "comprimer",
-      "allergie",
-      "définir",
-      "titanic"
+      "saison",
+      "astronomie",
+      "soleil",
+      "Daudet",
+      "baryton",
+      "bipède",
+      "rempaillage"
     ],
     [
-      "fossé",
-      "impact",
-      "couleur",
-      "sérigraphie",
-      "symbole",
-      "climat",
-      "agriculture"
+      "Pâques",
+      "gloussement",
+      "baiser",
+      "soumis",
+      "mars",
+      "équateur",
+      "solstice"
     ],
     [
-      "tirée",
-      "frapper",
-      "pulsatile",
-      "planétaire",
-      "trottiner",
-      "transparente",
-      "humain"
+      "zodiaque",
+      "automne",
+      "carriole",
+      "jour",
+      "printemps",
+      "exécuter",
+      "Khéphren"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    2,
+    3,
     1,
     1,
     3,
-    2
+    4,
+    4
   ],
   "colClues": [
-    2,
+    4,
     3,
+    4,
+    3,
+    2,
     1,
-    2,
-    2,
-    2,
-    3
+    1
   ],
-  "themeWord": "anthropocène",
+  "themeWord": "équinoxe",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
       false,
       false
     ],
@@ -103,54 +139,18 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      false,
-      false,
       true
     ],
     [
-      false,
+      true,
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

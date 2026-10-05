@@ -5,101 +5,109 @@
   "height": 6,
   "words": [
     [
-      "spatial",
-      "verticale",
-      "primer",
-      "feu",
-      "moteur",
-      "cosmos"
+      "tanière",
+      "Sénèque",
+      "s'éterniser",
+      "poussif",
+      "fourche",
+      "râpé"
     ],
     [
-      "espace",
-      "médecin",
-      "maléfique",
-      "vaccin",
-      "ferme",
-      "lancer"
+      "flâner",
+      "Apollon",
+      "charrette",
+      "retard",
+      "confidentiel",
+      "Berlin"
     ],
     [
-      "lune",
-      "desserrer",
-      "décoller",
-      "écimer",
-      "rapide",
-      "invasive"
+      "pieds",
+      "apogée",
+      "Hokusai",
+      "corde",
+      "tirer",
+      "musarder"
     ],
     [
-      "voler",
-      "tapage",
-      "satellite",
-      "poser",
-      "manoeuvrer",
-      "mensonge"
+      "tintouin",
+      "vadrouiller",
+      "pourparlers",
+      "boulet",
+      "grimoire",
+      "côtier"
     ],
     [
-      "mars",
-      "rigide",
-      "astronaute",
-      "firmament",
-      "flamme",
-      "byzantin"
+      "remorquer",
+      "fenaison",
+      "scrupule",
+      "paresser",
+      "averse",
+      "diplomatie"
     ],
     [
-      "détonation",
-      "char",
-      "propulsion",
-      "orbiter",
-      "endormir",
-      "abîme"
+      "rue",
+      "équilatéral",
+      "chaînes",
+      "porto",
+      "écru",
+      "original"
     ]
   ],
   "rowClues": [
-    5,
     2,
     3,
+    4,
     2,
-    3,
+    2,
     2
   ],
   "colClues": [
+    4,
+    1,
+    3,
     5,
     1,
-    4,
-    2,
-    3,
-    2
+    1
   ],
-  "themeWord": "fusée",
+  "themeWord": "traîner",
   "solution": [
     [
+      false,
+      false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true,
       true,
       true
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
       false,
       true,
+      false,
       false
     ],
     [
       true,
       false,
-      true,
       false,
+      true,
       false,
       false
     ],
@@ -108,17 +116,9 @@
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

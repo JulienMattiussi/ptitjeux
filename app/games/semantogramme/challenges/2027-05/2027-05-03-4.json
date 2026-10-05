@@ -5,93 +5,102 @@
   "height": 7,
   "words": [
     [
-      "douceur",
-      "élaborer",
-      "immense",
-      "casque",
-      "fuir",
-      "apéro",
-      "roche"
+      "interface",
+      "dévouement",
+      "humanitaire",
+      "batavia",
+      "Comte",
+      "poulet",
+      "cantatrice"
     ],
     [
-      "stalagmite",
-      "lointain",
-      "océan",
-      "expression",
-      "balle",
-      "primitif",
-      "préhistoire"
+      "philanthropie",
+      "Tahiti",
+      "entraide",
+      "boulet",
+      "fartage",
+      "pétition",
+      "don"
     ],
     [
-      "personnel",
-      "expéditif",
-      "ancien",
-      "origine",
-      "cryogénien",
-      "aurèle",
-      "dynamisme"
+      "bienveillant",
+      "Abbé-Pierre",
+      "fureur",
+      "bonté",
+      "partage",
+      "irisé",
+      "éblouissant"
     ],
     [
-      "kierkegaard",
-      "temple",
-      "protérozoïque",
-      "potion",
-      "continent",
-      "ère",
-      "archéen"
+      "étable",
+      "courbatures",
+      "bénévolat",
+      "quiétude",
+      "charité",
+      "prêter",
+      "aquatinte"
     ],
     [
-      "occulté",
-      "inanimé",
-      "biseau",
-      "vie",
-      "plectre",
-      "délivrance",
-      "pou"
+      "hostie",
+      "raisin",
+      "autrui",
+      "empathie",
+      "générosité",
+      "spray",
+      "magnétisme"
     ],
     [
-      "sédiment",
-      "servir",
-      "géologique",
-      "irrationnel",
-      "gastrocnémien",
-      "évolution",
-      "stromatolite"
+      "sacrifice",
+      "lamelles",
+      "enfoncer",
+      "Bazille",
+      "bienfaisance",
+      "CD",
+      "Ascension"
     ],
     [
-      "législative",
-      "foncer",
-      "cinétique",
-      "sublime",
-      "volcanisme",
-      "bactérie",
-      "cabri"
+      "vrombir",
+      "tenue",
+      "avachi",
+      "Mère-Teresa",
+      "Masaï",
+      "abnégation",
+      "incorporer"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     3,
-    4,
-    1,
-    4,
+    3,
+    3,
+    2,
+    3,
+    2,
     2
   ],
   "colClues": [
-    1,
-    1,
-    4,
     2,
-    3,
+    2,
     4,
-    4
+    3,
+    5,
+    1,
+    1
   ],
-  "themeWord": "précambrien",
+  "themeWord": "altruisme",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
+      true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       false,
       false,
@@ -100,16 +109,7 @@
     [
       false,
       true,
-      true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       true,
       false,
@@ -121,36 +121,36 @@
       true,
       false,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
-      false,
       true,
-      false,
+      true,
+      true,
       false,
       false
     ],
     [
       true,
       false,
-      true,
       false,
       false,
       true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
       false,
-      false,
       true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

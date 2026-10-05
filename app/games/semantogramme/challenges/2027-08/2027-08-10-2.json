@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "écho",
+      "Jura",
+      "réflexion",
+      "picaresque",
+      "popote"
+    ],
+    [
+      "grotte",
+      "obscurité",
+      "spéléologie",
+      "héroïne",
+      "stalactite"
+    ],
+    [
+      "roche",
+      "tressée",
+      "galerie",
+      "voleurs",
+      "préhistoire"
+    ],
+    [
+      "chronomètre",
+      "ours",
+      "Canon",
+      "Provence",
+      "wok"
+    ],
+    [
+      "Lascaux",
+      "Platon",
+      "chewing-gum",
+      "sceptre",
+      "râpé"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "caverne",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

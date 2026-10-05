@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "commercialiser",
-      "prix",
-      "valider",
-      "tonner",
-      "galápagos",
-      "gourmander"
+      "automobile",
+      "Epson",
+      "cartouche",
+      "encre",
+      "abnégation",
+      "Canon"
     ],
     [
-      "vidéo",
-      "ananas",
-      "reprocher",
-      "régler",
-      "autorité",
-      "péniche"
+      "scanner",
+      "métro",
+      "copie",
+      "wifi",
+      "semis",
+      "censurer"
     ],
     [
-      "torride",
-      "polype",
-      "bassin",
-      "sévérité",
-      "ventricule",
-      "mélancolie"
+      "couleur",
+      "romane",
+      "pilote",
+      "branche",
+      "bourrage",
+      "occident"
     ],
     [
-      "tancer",
-      "réparation",
-      "invectiver",
-      "irriguer",
-      "piéger",
-      "toboggan"
+      "excentricité",
+      "défiance",
+      "tuiles",
+      "bureau",
+      "feuille",
+      "laser"
     ],
     [
-      "morigéner",
-      "admonester",
-      "pissarro",
-      "gracieuse",
-      "récolte",
-      "rugir"
+      "nappe",
+      "capteur",
+      "HP",
+      "photocopieuse",
+      "paléontologue",
+      "Sichuan"
     ],
     [
-      "politique",
-      "réprimander",
-      "rappel",
-      "lèchefrite",
-      "fustiger",
-      "sermonner"
+      "pemmican",
+      "foule",
+      "âne",
+      "papier",
+      "renouveau",
+      "ordinateur"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
-    2,
+    4,
     3,
-    4
+    3,
+    3,
+    2,
+    2
   ],
   "colClues": [
     2,
-    2,
-    3,
-    2,
+    1,
+    4,
+    5,
     2,
     3
   ],
-  "themeWord": "gronder",
+  "themeWord": "imprimante",
   "solution": [
     [
       false,
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
       true
     ],
     [
       false,
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
       false
     ],
     [
+      false,
+      false,
+      false,
       true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

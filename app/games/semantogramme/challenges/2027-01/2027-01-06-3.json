@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "tranchante",
-      "fixer",
-      "outil",
-      "creuser",
-      "malédiction",
-      "pointe"
+      "pergélisol",
+      "malfaiteur",
+      "Mead",
+      "primate",
+      "monde",
+      "pénalité"
     ],
     [
-      "paresse",
-      "archéologue",
-      "lourde",
-      "manche",
-      "fougère",
-      "lame"
+      "Gatsby",
+      "jungle",
+      "banane",
+      "pesto",
+      "Rwanda",
+      "farouche"
     ],
     [
-      "mineur",
-      "frapper",
-      "bouche",
-      "liesse",
-      "tricorne",
-      "signature"
+      "Afrique",
+      "bonobo",
+      "torse",
+      "fou",
+      "chimpanzé",
+      "imaginaire"
     ],
     [
-      "caillou",
-      "géranium",
-      "rugueuse",
-      "terrassier",
-      "roche",
-      "durcir"
+      "Saint-Pierre",
+      "lingerie",
+      "poils",
+      "Congo",
+      "Fossey",
+      "rectiligne"
     ],
     [
-      "soufre",
-      "juvénile",
-      "chaîne",
-      "dure",
-      "boutique",
-      "boulonner"
+      "Harrison",
+      "ballon",
+      "Moulinsart",
+      "présentatrice",
+      "Kong",
+      "aimant"
     ],
     [
-      "arracher",
-      "fouille",
-      "malhonnêteté",
-      "élémentaire",
-      "mousseron",
-      "bave"
+      "nattes",
+      "singe",
+      "copiste",
+      "occupé",
+      "tubulaire",
+      "brousse"
     ]
   ],
   "rowClues": [
+    1,
+    3,
     4,
-    4,
-    2,
     3,
     1,
     2
   ],
   "colClues": [
-    4,
+    1,
+    3,
     3,
     2,
     4,
-    1,
-    2
+    1
   ],
-  "themeWord": "pioche",
+  "themeWord": "gorille",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

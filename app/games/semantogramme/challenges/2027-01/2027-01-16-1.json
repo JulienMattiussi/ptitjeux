@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "région",
-      "pôle",
-      "frontière",
-      "âtre"
+      "bouddhisme",
+      "évent",
+      "cachalot",
+      "harponneur"
     ],
     [
-      "équateur",
-      "cieux",
-      "territoire",
-      "banquier"
+      "cétacé",
+      "base",
+      "fanons",
+      "bleue"
     ],
     [
-      "janvier",
-      "légume",
-      "latitude",
-      "tropique"
+      "Jonas",
+      "oyez",
+      "abstinence",
+      "choix"
     ],
     [
-      "méridien",
-      "archipel",
-      "grizzli",
-      "charbon"
+      "réputation",
+      "chant",
+      "krill",
+      "océan"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
-    2
+    3,
+    1,
+    3
   ],
   "colClues": [
-    3,
+    2,
     2,
     3,
-    1
+    3
   ],
-  "themeWord": "continent",
+  "themeWord": "baleine",
   "solution": [
     [
+      false,
       true,
       true,
-      true,
-      false
+      true
     ],
     [
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

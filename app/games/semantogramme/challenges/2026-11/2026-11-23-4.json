@@ -5,138 +5,111 @@
   "height": 7,
   "words": [
     [
-      "couronner",
-      "médicis",
-      "présage",
-      "classique",
-      "hisser",
-      "fenaison",
-      "raconter"
+      "s'écrouler",
+      "glisser",
+      "cubisme",
+      "réanimation",
+      "chute",
+      "garnie",
+      "Parmigianino"
     ],
     [
-      "commémoration",
-      "monumental",
-      "sculpture",
-      "grec",
-      "titanesque",
-      "afrique",
-      "triangle"
+      "posture",
+      "étai",
+      "servir",
+      "affaisser",
+      "coordonnées",
+      "Perrault",
+      "archaïque"
     ],
     [
-      "guider",
-      "rénover",
-      "soulages",
-      "glaçon",
-      "savane",
-      "majestueux",
-      "élever"
+      "fouet",
+      "biquette",
+      "basculer",
+      "gouache",
+      "coccyx",
+      "laisser",
+      "s'effondrer"
     ],
     [
-      "architecture",
-      "libellule",
-      "sumo",
-      "temple",
-      "brune",
-      "arbalète",
-      "redresser"
+      "topinambour",
+      "dégringoler",
+      "embrayage",
+      "ravinement",
+      "sourcils",
+      "courants",
+      "culbuter"
     ],
     [
-      "usité",
-      "abstrus",
-      "châtaigne",
-      "brûlure",
-      "flanquer",
-      "antique",
-      "rétroviseur"
+      "Pocahontas",
+      "matcha",
+      "Daudet",
+      "antichambre",
+      "vieilli",
+      "désuet",
+      "tomber"
     ],
     [
-      "canada",
-      "puma",
-      "mécanique",
-      "légale",
-      "halley",
-      "orner",
-      "noble"
+      "summum",
+      "abandonner",
+      "littéraire",
+      "cité",
+      "échouer",
+      "verticale",
+      "infaillible"
     ],
     [
-      "voyance",
-      "pignon",
-      "concorde",
-      "debord",
-      "corniche",
-      "alambic",
-      "infarctus"
+      "Musset",
+      "témoignage",
+      "s'affaler",
+      "trébucher",
+      "misanthropie",
+      "bobinette",
+      "pointer"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    2,
-    2,
-    1,
-    2,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
-    1,
     3,
-    1,
     3,
+    3,
+    2,
+    3,
+    2,
     3
   ],
-  "themeWord": "fronton",
+  "colClues": [
+    1,
+    3,
+    3,
+    2,
+    2,
+    4,
+    4
+  ],
+  "themeWord": "choir",
   "solution": [
     [
       true,
+      true,
       false,
       false,
       true,
-      false,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
       false,
       false,
+      true,
+      false,
+      true,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       false,
       true,
@@ -147,10 +120,37 @@
       true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

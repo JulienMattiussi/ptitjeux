@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-02-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "captivité",
+      "Gremlins",
+      "Gien",
+      "persienne"
+    ],
+    [
+      "mendiant",
+      "référendum",
+      "trahison",
+      "amoureux"
+    ],
+    [
+      "onyx",
+      "Étretat",
+      "rame",
+      "soupçon"
+    ],
+    [
+      "convoitise",
+      "rancoeur",
+      "rivalité",
+      "isolation"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    1,
+    3
+  ],
+  "colClues": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "jalousie",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

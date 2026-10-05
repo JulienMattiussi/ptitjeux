@@ -5,69 +5,83 @@
   "height": 5,
   "words": [
     [
-      "samedi",
-      "cuvée",
-      "plat",
-      "velours",
-      "lustrer"
+      "pirate",
+      "crudité",
+      "flair",
+      "président",
+      "affleurement"
     ],
     [
-      "parquet",
-      "soie",
-      "multiple",
-      "cher",
-      "maléfique"
+      "chemin",
+      "étendu",
+      "étalon",
+      "monde",
+      "bahut"
     ],
     [
-      "plastique",
-      "eucalyptus",
-      "marbre",
-      "uni",
-      "oscillation"
+      "doublons",
+      "Rackham",
+      "zika",
+      "voiture",
+      "roseraie"
     ],
     [
-      "orchestre",
-      "verre",
-      "miroir",
-      "plan",
-      "porcelaine"
+      "jouets",
+      "serrure",
+      "convecteur",
+      "banque",
+      "mantra"
     ],
     [
-      "ministre",
-      "cendre",
-      "satin",
-      "polir",
-      "glisser"
+      "sésame",
+      "pommé",
+      "clé",
+      "bijoux",
+      "star"
     ]
   ],
   "rowClues": [
+    1,
+    1,
     3,
-    2,
     3,
-    4,
     3
   ],
   "colClues": [
-    2,
-    2,
     4,
-    4,
-    3
+    2,
+    1,
+    3,
+    1
   ],
-  "themeWord": "lisse",
+  "themeWord": "coffre",
   "solution": [
     [
+      true,
       false,
       false,
-      true,
-      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
+      true,
       false
     ],
     [
@@ -76,21 +90,7 @@
       true,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

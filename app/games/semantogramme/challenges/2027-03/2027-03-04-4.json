@@ -5,93 +5,102 @@
   "height": 7,
   "words": [
     [
-      "asperger",
-      "scolopendre",
-      "pressentiment",
-      "rasséréner",
-      "fessée",
-      "discernement",
-      "octogonal"
+      "nature",
+      "tactile",
+      "brasier",
+      "hôpital",
+      "diagnostic",
+      "nocturne",
+      "mausolée"
     ],
     [
-      "concept",
-      "plantigrade",
-      "bénitier",
-      "soirée",
-      "religieux",
-      "week-end",
-      "romain"
+      "squelette",
+      "lion",
+      "échographie",
+      "stationnaire",
+      "Hegel",
+      "ronchon",
+      "IRM"
     ],
     [
-      "frein",
-      "circulaire",
-      "architecture",
-      "souterrain",
-      "phare",
-      "manet",
-      "pantomime"
+      "frayeur",
+      "tumeur",
+      "os",
+      "Orly",
+      "contraste",
+      "taffetas",
+      "ponton"
     ],
     [
-      "maison",
-      "église",
-      "fâcher",
-      "pisan",
-      "atterrissage",
-      "composée",
-      "passion"
+      "gaillarde",
+      "barbouiller",
+      "menhir",
+      "cirrus",
+      "voyageur",
+      "rayonnement",
+      "Ronsard"
     ],
     [
-      "récurer",
-      "sapin",
-      "fourchette",
-      "évoquer",
-      "fonts",
-      "broderie",
-      "transylvanie"
+      "scanner",
+      "déterminé",
+      "Freddy",
+      "ensemble",
+      "ours",
+      "styliste",
+      "honorer"
     ],
     [
-      "cible",
-      "manigancer",
-      "antique",
-      "scientifique",
-      "pot",
-      "plonger",
-      "chevron"
+      "Röntgen",
+      "mammographie",
+      "Turbo",
+      "imagerie",
+      "blouse",
+      "cliché",
+      "raquette"
     ],
     [
-      "mouillé",
-      "sacré",
-      "jardin",
-      "baptême",
-      "gothique",
-      "ausculter",
-      "liturgique"
+      "plomb",
+      "tribord",
+      "électricité",
+      "pinot",
+      "fracture",
+      "phase",
+      "valeur"
     ]
   ],
   "rowClues": [
     2,
     3,
-    2,
-    2,
+    3,
     1,
-    2,
-    4
+    1,
+    5,
+    2
   ],
   "colClues": [
-    1,
-    3,
-    3,
+    4,
     2,
-    3,
-    1,
-    3
+    2,
+    2,
+    4,
+    2,
+    1
   ],
-  "themeWord": "baptistère",
+  "themeWord": "radiologie",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      true,
       false,
+      true,
       false,
       false,
       false,
@@ -99,35 +108,8 @@
     ],
     [
       false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
@@ -136,21 +118,39 @@
     [
       false,
       false,
-      true,
+      false,
       false,
       false,
       true,
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
-      true
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "léopard",
-      "étalon",
-      "bâtiment",
-      "queue"
+      "vertical",
+      "aphone",
+      "réparer",
+      "atelier"
     ],
     [
-      "jument",
-      "lunaison",
-      "absorbant",
-      "jockey"
+      "marteau",
+      "gant",
+      "clou",
+      "perceuse"
     ],
     [
-      "selle",
-      "pesanteur",
-      "bride",
-      "épousseter"
+      "établi",
+      "scie",
+      "étudiant",
+      "Zambèze"
     ],
     [
-      "politique",
-      "crinière",
-      "moelle",
-      "basse"
+      "vis",
+      "cour",
+      "Castorama",
+      "bouzouki"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
-    2,
-    1
-  ],
-  "colClues": [
-    2,
-    2,
-    1,
     2
   ],
-  "themeWord": "cheval",
+  "colClues": [
+    3,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "bricolage",
   "solution": [
     [
       false,
+      false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true
     ],
     [
       true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       false
     ],
     [
-      false,
       true,
       false,
+      true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-17-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "lézard",
+      "clémentine",
+      "bouilloire",
+      "binoculaire"
+    ],
+    [
+      "zeste",
+      "Cassiopée",
+      "orange",
+      "complainte"
+    ],
+    [
+      "pulpe",
+      "mandarine",
+      "citron",
+      "gêneur"
+    ],
+    [
+      "intangible",
+      "vitamine",
+      "nymphéas",
+      "jus"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "agrume",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

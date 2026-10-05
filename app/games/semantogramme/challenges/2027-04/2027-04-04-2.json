@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "pulvériser",
-      "bombe",
-      "camping",
-      "art",
-      "rebelle"
+      "focale",
+      "utopique",
+      "novice",
+      "proéminent",
+      "bébé"
     ],
     [
-      "travée",
-      "urbain",
-      "pochoir",
-      "sourcil",
-      "attendre"
+      "Shéhérazade",
+      "frais",
+      "jumeau",
+      "esclavage",
+      "adolescent"
     ],
     [
-      "combler",
-      "ébénisterie",
-      "mur",
-      "congeler",
-      "parmesan"
+      "débutant",
+      "ado",
+      "jouvenceau",
+      "berceuse",
+      "dessin"
     ],
     [
-      "tonus",
-      "tagueur",
-      "illégal",
-      "nébuleuse",
-      "aérosol"
+      "vert",
+      "étudiant",
+      "printemps",
+      "génération",
+      "dépasser"
     ],
     [
-      "sommier",
-      "plein",
-      "peindre",
-      "maternité",
-      "rue"
+      "juvénile",
+      "mineur",
+      "enfant",
+      "cadet",
+      "chapitre"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    1,
+    2,
     3,
-    2
+    4,
+    4
   ],
   "colClues": [
-    1,
     3,
     4,
-    1,
-    3
+    4,
+    2,
+    2
   ],
-  "themeWord": "graffiti",
+  "themeWord": "jeune",
   "solution": [
     [
-      true,
-      true,
+      false,
       false,
       true,
+      false,
       true
     ],
     [
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       true,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
-      false,
+      true,
+      true,
+      true,
       false
     ],
     [
-      false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

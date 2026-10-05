@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "Queensland",
+      "avertissement",
+      "four",
+      "levain"
+    ],
+    [
+      "état",
+      "anticorps",
+      "argenté",
+      "mie"
+    ],
+    [
+      "baguette",
+      "farine",
+      "étrille",
+      "nanti"
+    ],
+    [
+      "pétrir",
+      "brebis",
+      "tartine",
+      "costume"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "pain",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

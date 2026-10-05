@@ -5,73 +5,59 @@
   "height": 5,
   "words": [
     [
-      "matin",
-      "document",
-      "étudier",
-      "semaine",
-      "agenda"
+      "Morisot",
+      "coffre",
+      "vestibule",
+      "confiance",
+      "séduire"
     ],
     [
-      "établi",
-      "jour",
-      "assaisonner",
-      "halogène",
-      "cours"
+      "stable",
+      "convaincu",
+      "addition",
+      "garanti",
+      "sécurité"
     ],
     [
-      "apéro",
-      "horaire",
-      "aimanter",
-      "planifier",
-      "amère"
+      "protégé",
+      "sonate",
+      "absence",
+      "fiable",
+      "certitude"
     ],
     [
-      "congé",
-      "poule",
-      "foudre",
-      "calendrier",
-      "travailler"
+      "assurance",
+      "infaillible",
+      "retraite",
+      "radis",
+      "deltoïde"
     ],
     [
-      "canapé",
-      "oubli",
-      "férié",
-      "fin",
-      "hebdomadaire"
+      "évident",
+      "Huygens",
+      "inviolable",
+      "Daenerys",
+      "certain"
     ]
   ],
   "rowClues": [
-    4,
     2,
+    4,
     3,
-    3,
+    2,
     3
   ],
   "colClues": [
-    3,
-    2,
-    2,
     4,
-    4
+    3,
+    1,
+    3,
+    3
   ],
-  "themeWord": "jeudi",
+  "themeWord": "sûr",
   "solution": [
     [
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       true,
       false,
       true,
@@ -79,18 +65,32 @@
     ],
     [
       true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

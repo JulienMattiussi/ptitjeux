@@ -5,76 +5,83 @@
   "height": 5,
   "words": [
     [
-      "percer",
-      "pair",
-      "gain",
-      "visser",
-      "clou"
+      "sprinter",
+      "Santos-Dumont",
+      "lièvre",
+      "pesant",
+      "express"
     ],
     [
-      "poncer",
-      "scie",
-      "outil",
-      "monter",
-      "arquer"
+      "Bolt",
+      "fusée",
+      "vif",
+      "cuit",
+      "description"
     ],
     [
-      "invectiver",
-      "paume",
-      "foulard",
-      "réparer",
-      "atelier"
+      "pressé",
+      "course",
+      "sève",
+      "turbo",
+      "Réunion"
     ],
     [
-      "tournevis",
-      "beurre",
-      "établi",
-      "bois",
-      "babouin"
+      "sèche-linge",
+      "agile",
+      "zéro",
+      "maillets",
+      "éclair"
     ],
     [
-      "marteau",
-      "châtiment",
-      "planche",
-      "fumier",
-      "colle"
+      "accélérer",
+      "perspicace",
+      "vitesse",
+      "fulgurant",
+      "plaisir"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    2,
     3,
+    3,
+    2,
     3
   ],
   "colClues": [
     4,
-    1,
     3,
-    4,
-    3
+    3,
+    2,
+    2
   ],
-  "themeWord": "bricoler",
+  "themeWord": "rapide",
   "solution": [
     [
       true,
       false,
-      false,
       true,
+      false,
       true
     ],
     [
       true,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ],
     [
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       true
     ],
     [
@@ -83,14 +90,7 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

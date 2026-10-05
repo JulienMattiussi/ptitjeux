@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "symptôme",
-      "cendrier",
-      "papillon",
-      "ballet"
+      "Libération",
+      "colique",
+      "orgeat",
+      "quotidien"
     ],
     [
-      "tapis",
-      "virus",
-      "choc",
-      "agrès"
+      "intime",
+      "Métamorphose",
+      "mire",
+      "rédaction"
     ],
     [
-      "allergie",
-      "infection",
-      "médicament",
-      "générosité"
+      "lin",
+      "presse",
+      "une",
+      "article"
     ],
     [
-      "arrêt",
-      "perche",
-      "toux",
-      "traitement"
+      "spasme",
+      "reporter",
+      "bar",
+      "pelage"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    2,
+    2,
     3,
-    2
+    1
   ],
   "colClues": [
     2,
     2,
-    2,
-    1
+    1,
+    3
   ],
-  "themeWord": "maladie",
+  "themeWord": "journal",
   "solution": [
     [
       true,
       false,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ],
     [
       false,
       true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

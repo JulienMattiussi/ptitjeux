@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rosée",
-      "gémissement",
-      "complet",
-      "levant",
-      "aube"
+      "cloporte",
+      "diamant",
+      "unique",
+      "trèfle",
+      "découvert"
     ],
     [
-      "sceau",
-      "matutinal",
-      "soutenir",
-      "café",
-      "tristesse"
+      "fromage",
+      "ancestral",
+      "introuvable",
+      "perle",
+      "canal"
     ],
     [
-      "agréée",
-      "crépusculaire",
-      "pâlir",
-      "éveiller",
-      "gentilhomme"
+      "édition",
+      "exceptionnel",
+      "cloison",
+      "tournage",
+      "occasion"
     ],
     [
-      "aurore",
-      "oiseau",
-      "turquoise",
-      "se lever",
-      "propulsion"
+      "écusson",
+      "Graal",
+      "collection",
+      "carmin",
+      "géométrie"
     ],
     [
-      "accoucher",
-      "petit-déjeuner",
-      "tôt",
-      "comptine",
-      "lever"
+      "robusta",
+      "limité",
+      "communautaire",
+      "Madeleine",
+      "Rocket"
     ]
   ],
   "rowClues": [
     3,
     2,
-    2,
     3,
-    3
+    2,
+    1
   ],
   "colClues": [
-    2,
-    4,
     1,
     4,
-    2
+    3,
+    2,
+    1
   ],
-  "themeWord": "matin",
+  "themeWord": "rare",
   "solution": [
     [
+      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
-      false,
       true,
+      false,
       false
     ],
     [
       false,
       true,
       false,
-      true,
+      false,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

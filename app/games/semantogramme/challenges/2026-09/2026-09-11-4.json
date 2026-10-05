@@ -5,93 +5,111 @@
   "height": 7,
   "words": [
     [
-      "girafe",
-      "toujours",
-      "illimité",
-      "aérien",
-      "fratrie",
-      "biberon",
-      "paradis"
+      "Guerlain",
+      "velours",
+      "sensuel",
+      "exotique",
+      "monoï",
+      "parfum",
+      "tuba"
     ],
     [
-      "pure",
-      "philosophique",
-      "permanent",
-      "fuji",
-      "sans-fin",
-      "tentation",
-      "maturité"
+      "tiaré",
+      "calorifère",
+      "conte",
+      "hibou",
+      "royauté",
+      "Magritte",
+      "rapiat"
     ],
     [
-      "développement",
-      "infini",
-      "coffrage",
-      "comparaison",
-      "spirituel",
-      "transcender",
-      "mai-68"
+      "cage",
+      "bourrée",
+      "Bernin",
+      "apéro",
+      "hamac",
+      "malicieux",
+      "mariée"
     ],
     [
-      "mystique",
-      "rocaille",
-      "bol",
-      "durer",
-      "sirène",
-      "perpétuel",
-      "persister"
+      "variable",
+      "Gatsby",
+      "ticket",
+      "souriant",
+      "Polynésie",
+      "charmer",
+      "chinois"
     ],
     [
-      "aviron",
-      "mou",
-      "amande",
-      "temps",
-      "immortel",
-      "apprenti",
-      "algèbre"
+      "ptérosaure",
+      "basket",
+      "Cuba",
+      "orangerie",
+      "Chanel",
+      "Kinder",
+      "Olympe"
     ],
     [
-      "accusé",
-      "tramway",
-      "divin",
-      "gmail",
-      "assécher",
-      "parer",
-      "sublime"
+      "endroit",
+      "crème",
+      "fantastique",
+      "nacré",
+      "dragée",
+      "Panama",
+      "mélasse"
     ],
     [
-      "cligner",
-      "cravache",
-      "geler",
-      "jockey",
-      "absolu",
-      "orfèvre",
-      "raffiné"
+      "blanc",
+      "friand",
+      "capiteux",
+      "pétrifié",
+      "terroir",
+      "recéler",
+      "boutonnière"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
-    4,
-    2,
-    2,
-    1
-  ],
-  "colClues": [
+    6,
     1,
-    3,
-    3,
+    1,
     2,
-    4,
+    3,
     2,
     3
   ],
-  "themeWord": "éternité",
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "gardénia",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       false,
       false,
@@ -100,8 +118,17 @@
     [
       false,
       true,
+      false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true,
       false,
       false
@@ -110,46 +137,19 @@
       false,
       true,
       false,
+      true,
       false,
-      true,
-      true,
+      false,
       false
     ],
     [
       true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
       false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
     ]
   ],
   "parMoves": 18

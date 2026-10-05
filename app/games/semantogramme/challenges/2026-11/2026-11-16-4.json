@@ -5,92 +5,128 @@
   "height": 7,
   "words": [
     [
-      "assise",
-      "lié",
-      "craintif",
-      "crémeux",
-      "gastronomique",
-      "champignon",
-      "onctueux"
+      "imprécis",
+      "dessert",
+      "Mandelieu",
+      "tisane",
+      "ange",
+      "fête",
+      "février"
     ],
     [
-      "notre-dame",
-      "relier",
-      "courge",
-      "minute",
-      "euclidienne",
-      "rizière",
-      "bénédiction"
+      "circulation",
+      "Australie",
+      "pinot",
+      "Riviera",
+      "percuter",
+      "parfum",
+      "spécieux"
     ],
     [
-      "remontée",
-      "asperge",
-      "glace",
-      "assommer",
-      "boccioni",
-      "lever",
-      "refrain"
+      "soleil",
+      "pompon",
+      "Côte-d'Azur",
+      "sofa",
+      "inouï",
+      "caboche",
+      "Cannes"
     ],
     [
-      "merveille",
-      "mijoter",
-      "sauce",
-      "industrielle",
-      "fâcher",
-      "malice",
-      "antilope"
+      "pilule",
+      "hésitant",
+      "colvert",
+      "écureuil",
+      "belote",
+      "sensitive",
+      "Esterel"
     ],
     [
-      "charger",
-      "français",
-      "signet",
-      "appétit",
-      "contracter",
-      "mixer",
-      "agripper"
+      "Hooker",
+      "larmes",
+      "Arrakis",
+      "acacia",
+      "boule",
+      "duveteux",
+      "vaporeux"
     ],
     [
-      "canot",
-      "plaidoyer",
-      "épais",
-      "couture",
-      "pêcher",
-      "wok",
-      "flacon"
+      "réincarnation",
+      "hiver",
+      "western",
+      "saint-pierre",
+      "propre",
+      "empenne",
+      "Elle"
     ],
     [
-      "lisse",
-      "délicat",
-      "audubon",
-      "plumage",
-      "maussade",
-      "donner",
-      "fin"
+      "tam-tam",
+      "rieur",
+      "klezmer",
+      "débauche",
+      "énorme",
+      "jaune",
+      "bocaux"
     ]
   ],
   "rowClues": [
-    5,
-    1,
-    1,
+    3,
+    3,
+    4,
     2,
-    2,
+    4,
     1,
-    3
+    1
   ],
   "colClues": [
     1,
-    5,
     3,
-    1,
-    1,
     2,
-    2
+    2,
+    1,
+    5,
+    4
   ],
-  "themeWord": "velouté",
+  "themeWord": "mimosa",
   "solution": [
     [
       false,
+      false,
       true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
@@ -99,15 +135,6 @@
     ],
     [
       false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -117,40 +144,13 @@
     ],
     [
       false,
-      true,
-      true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

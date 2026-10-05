@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "cosse",
-      "plantule",
-      "fragment",
-      "potager"
+      "poignée",
+      "sonnette",
+      "verrou",
+      "décoratif"
     ],
     [
-      "mars",
-      "pasteurisé",
-      "germination",
-      "arroser"
+      "serrure",
+      "clé",
+      "gond",
+      "sucer"
     ],
     [
-      "carreau",
-      "jardinier",
-      "tournesol",
-      "piquant"
+      "humus",
+      "entrée",
+      "paillasson",
+      "seuil"
     ],
     [
-      "gousse",
-      "lier",
-      "pépin",
-      "sachet"
+      "battant",
+      "contrastes",
+      "lapin",
+      "neveu"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    1,
-    3
+    3,
+    3,
+    1
   ],
   "colClues": [
-    2,
-    2,
-    2,
-    2
+    3,
+    3,
+    3,
+    1
   ],
-  "themeWord": "graine",
+  "themeWord": "porte",
   "solution": [
     [
       true,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
       true,
-      false,
-      false
+      true,
+      true
     ],
     [
       true,
       false,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

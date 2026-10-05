@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "yaourt",
-      "ascensionner",
-      "tropique",
-      "hisser",
-      "rembourré"
+      "miracle",
+      "soupir",
+      "fiscal",
+      "Inuit",
+      "Éden"
     ],
     [
-      "monter",
-      "rapée",
-      "paroi",
-      "cramoisi",
-      "remonter"
+      "éternité",
+      "nuages",
+      "théière",
+      "félicité",
+      "délice"
     ],
     [
-      "corde",
-      "agripper",
-      "escalade",
-      "cattleya",
-      "échelle"
+      "Ève",
+      "tourbillon",
+      "galion",
+      "pomme",
+      "scientifique"
     ],
     [
-      "congestion",
-      "inattendu",
-      "falaise",
-      "démesuré",
-      "sommet"
+      "cirer",
+      "serpent",
+      "ciel",
+      "anges",
+      "condamner"
     ],
     [
-      "arbre",
-      "altitude",
-      "ronger",
-      "gravir",
-      "mur"
+      "écoute",
+      "Dante",
+      "jardin",
+      "Adam",
+      "glaçage"
     ]
   ],
   "rowClues": [
     2,
-    3,
     4,
     2,
-    4
+    3,
+    3
   ],
   "colClues": [
-    3,
-    3,
-    3,
     2,
-    4
+    3,
+    3,
+    4,
+    2
   ],
-  "themeWord": "grimper",
+  "themeWord": "paradis",
   "solution": [
     [
       false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       true,
       false
     ],
     [
-      true,
       false,
       true,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      true,
-      false,
-      true
+      false
     ],
     [
       false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

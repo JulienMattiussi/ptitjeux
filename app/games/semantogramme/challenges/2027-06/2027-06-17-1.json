@@ -5,48 +5,48 @@
   "height": 4,
   "words": [
     [
-      "esquisse",
-      "pencher",
-      "croquis",
-      "feuille"
+      "élève",
+      "classe",
+      "bande",
+      "copie"
     ],
     [
-      "trait",
-      "berceuse",
-      "fusain",
-      "plume"
+      "maître",
+      "ancêtre",
+      "craie",
+      "institutrice"
     ],
     [
-      "revenant",
-      "pastel",
-      "pochade",
-      "caduque"
+      "graminée",
+      "cours",
+      "agile",
+      "rempaillage"
     ],
     [
-      "crabe",
-      "gomme",
-      "scène",
-      "caricature"
+      "Flore",
+      "saucisson",
+      "école",
+      "professeur"
     ]
   ],
   "rowClues": [
     3,
     3,
-    2,
+    1,
     2
   ],
   "colClues": [
     2,
     2,
-    3,
+    2,
     3
   ],
-  "themeWord": "dessin",
+  "themeWord": "enseignant",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       true
     ],
     [
@@ -58,15 +58,15 @@
     [
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
-      true,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

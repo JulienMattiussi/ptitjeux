@@ -5,127 +5,100 @@
   "height": 7,
   "words": [
     [
-      "société",
-      "romantique",
-      "plaque",
-      "analyser",
-      "godet",
-      "porte-jarretelles",
-      "marx"
+      "haricots",
+      "auto-stop",
+      "loggia",
+      "flop",
+      "bissextile",
+      "pancarte",
+      "Cancer"
     ],
     [
-      "concept",
-      "bourdieu",
-      "demoiselle",
-      "indésirable",
-      "statistique",
-      "dossard",
-      "migrateur"
+      "minijupe",
+      "luisant",
+      "Balance",
+      "causer",
+      "honnête",
+      "Scorpion",
+      "cliquetis"
     ],
     [
-      "gabriel",
-      "science",
-      "comportement",
-      "étudier",
-      "observer",
-      "institution",
-      "protestation"
+      "Bip-Bip",
+      "ascendant",
+      "plâtre",
+      "Sagittaire",
+      "vis",
+      "Harley",
+      "colle"
     ],
     [
-      "comparée",
-      "weber",
-      "séduisante",
-      "stéthoscope",
-      "écrit",
-      "dorsal",
-      "revenant"
+      "Lion",
+      "Gémeaux",
+      "cutter",
+      "acariâtre",
+      "Poissons",
+      "écliptique",
+      "chape"
     ],
     [
-      "boulangerie",
-      "verger",
-      "groupe",
-      "baby",
-      "estivale",
-      "urbaine",
-      "conscience"
+      "fraîcheur",
+      "épiler",
+      "Naples",
+      "azalée",
+      "photophore",
+      "Vierge",
+      "Capricorne"
     ],
     [
-      "empirique",
-      "danser",
-      "parlementaire",
-      "éclater",
-      "rédiger",
-      "durkheim",
-      "classe"
+      "sonner",
+      "claque",
+      "signe",
+      "maison",
+      "Gryffondor",
+      "horoscope",
+      "Verseau"
     ],
     [
-      "rurale",
-      "spongieux",
-      "marée",
-      "bar",
-      "gelée",
-      "vocaliser",
-      "enquêter"
+      "guidon",
+      "ancestral",
+      "chinois",
+      "Ethernet",
+      "Orient",
+      "stratus",
+      "bahut"
     ]
   ],
   "rowClues": [
+    1,
+    2,
+    2,
+    4,
+    2,
     3,
-    2,
-    5,
-    2,
-    2,
-    3,
-    2
+    1
   ],
   "colClues": [
+    1,
+    2,
+    3,
+    1,
+    1,
     4,
-    3,
-    2,
-    2,
-    2,
-    3,
     3
   ],
-  "themeWord": "sociologie",
+  "themeWord": "zodiaque",
   "solution": [
     [
-      true,
       false,
       false,
-      true,
+      false,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
@@ -134,7 +107,25 @@
       false
     ],
     [
+      false,
       true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -143,14 +134,23 @@
       true
     ],
     [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
       false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

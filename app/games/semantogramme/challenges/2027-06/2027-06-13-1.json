@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "fugue",
-      "pourrir",
-      "prunier",
-      "diagnostic"
+      "roman",
+      "conte",
+      "appellation",
+      "Sid"
     ],
     [
-      "généraliste",
-      "patient",
-      "soufre",
-      "couvercle"
+      "chou",
+      "Parques",
+      "veilleuse",
+      "lire"
     ],
     [
-      "soigner",
-      "stéthoscope",
-      "blouse",
-      "traverser"
+      "université",
+      "liseuse",
+      "gloire",
+      "marque-page"
     ],
     [
-      "consultation",
-      "cabinet",
-      "ordonnance",
-      "pistolet"
+      "août",
+      "épilepsie",
+      "lunettes",
+      "bibliothèque"
     ]
   ],
   "rowClues": [
+    2,
     1,
     2,
-    3,
-    3
+    2
   ],
   "colClues": [
-    3,
-    3,
+    1,
     2,
-    1
+    1,
+    3
   ],
-  "themeWord": "médecin",
+  "themeWord": "lecture",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
     [
       false,
       false,
@@ -50,23 +56,17 @@
       true
     ],
     [
-      true,
+      false,
       true,
       false,
-      false
+      true
     ],
     [
+      false,
+      false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

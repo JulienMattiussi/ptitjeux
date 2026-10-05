@@ -5,107 +5,107 @@
   "height": 6,
   "words": [
     [
-      "tantine",
-      "bois",
-      "bébé",
-      "village",
-      "octobre",
-      "scie"
+      "tremblement",
+      "contrepoint",
+      "réverbère",
+      "profession",
+      "rock",
+      "glaçon"
     ],
     [
-      "cap",
-      "long",
-      "lilliputien",
-      "imprenable",
-      "épaisse",
-      "rabotée"
+      "frisson",
+      "convulsion",
+      "infection",
+      "compresse",
+      "James",
+      "température"
     ],
     [
-      "déferlante",
-      "frisé",
-      "lisse",
-      "à-fromage",
-      "découper",
-      "pratique"
+      "somnoler",
+      "aéroport",
+      "delta",
+      "rougeur",
+      "paracétamol",
+      "Krokmou"
     ],
     [
-      "relever",
-      "à-pain",
-      "mousqueton",
-      "plat",
-      "surf",
-      "rectangulaire"
+      "Travolta",
+      "paix",
+      "Caen",
+      "acanthe",
+      "délire",
+      "reculer"
     ],
     [
-      "champ",
-      "menuisier",
-      "protocole",
-      "mathématique",
-      "souris",
-      "rude"
+      "rhizome",
+      "zen",
+      "année",
+      "pardon",
+      "Halloween",
+      "quarante"
     ],
     [
-      "patiner",
-      "circuit",
-      "apéritif",
-      "malice",
-      "dague",
-      "pédoncule"
+      "aspirine",
+      "hyperthermie",
+      "Nana",
+      "malaria",
+      "hydratation",
+      "lierre"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    4,
-    4,
+    5,
     2,
-    2
+    2,
+    1,
+    3
   ],
   "colClues": [
-    2,
     4,
     2,
-    2,
+    1,
     3,
-    4
+    2,
+    3
   ],
-  "themeWord": "planche",
+  "themeWord": "fièvre",
   "solution": [
     [
-      false,
       true,
+      false,
       false,
       false,
       false,
       true
     ],
     [
-      false,
+      true,
+      true,
+      true,
       true,
       false,
-      false,
-      true,
       true
     ],
     [
-      true,
       false,
-      true,
+      false,
+      false,
       true,
       true,
       false
     ],
     [
-      false,
       true,
       false,
+      false,
+      false,
       true,
-      true,
-      true
+      false
     ],
     [
       false,
-      true,
+      false,
       false,
       false,
       false,
@@ -113,12 +113,12 @@
     ],
     [
       true,
-      false,
       true,
       false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "caravane",
-      "antique",
-      "cent",
-      "durer",
-      "pélagique"
+      "maléfique",
+      "flammes",
+      "fourche",
+      "vert",
+      "dégoût"
     ],
     [
-      "moderne",
-      "démesuré",
-      "illustrer",
-      "remonter",
-      "génération"
+      "enfer",
+      "exorcisme",
+      "Bossuet",
+      "tentation",
+      "Belzébuth"
     ],
     [
-      "duveteux",
-      "médicale",
-      "fêter",
-      "ancien",
-      "ère"
+      "propice",
+      "attentif",
+      "diable",
+      "présentateur",
+      "cornes"
     ],
     [
-      "ancestral",
-      "discerner",
-      "bretonne",
-      "autel",
-      "époque"
+      "Lucifer",
+      "pacte",
+      "possession",
+      "Marguerite",
+      "écluse"
     ],
     [
-      "millénaire",
-      "taire",
-      "reniflement",
-      "persan",
-      "traverser"
+      "bûche",
+      "Méphistophélès",
+      "semelle",
+      "Faust",
+      "Satan"
     ]
   ],
   "rowClues": [
     3,
+    4,
     2,
     3,
-    2,
-    2
+    3
   ],
   "colClues": [
     3,
-    1,
+    4,
+    3,
     2,
-    2,
-    4
+    3
   ],
-  "themeWord": "siècle",
+  "themeWord": "démon",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
+      false,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       true
     ],
     [
       true,
+      true,
+      true,
       false,
+      false
+    ],
+    [
       false,
+      true,
       false,
+      true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

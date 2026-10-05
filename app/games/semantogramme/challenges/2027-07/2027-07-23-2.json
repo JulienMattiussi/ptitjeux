@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-23-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "échec",
+      "échouer",
+      "gaspiller",
+      "disparaître",
+      "pousse"
+    ],
+    [
+      "Duruflé",
+      "match",
+      "oublier",
+      "manquer",
+      "bouclier"
+    ],
+    [
+      "Mario",
+      "défaite",
+      "jeu",
+      "clés",
+      "retrouver"
+    ],
+    [
+      "sombrer",
+      "variole",
+      "fragment",
+      "ruine",
+      "égarer"
+    ],
+    [
+      "chercher",
+      "bannière",
+      "muscade",
+      "dose",
+      "entrée"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    4,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "perdre",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

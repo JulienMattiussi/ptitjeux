@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "prisme",
-      "fort",
-      "minuteur",
-      "numérique",
-      "électronique",
-      "tricot"
+      "pelage",
+      "météorite",
+      "Kenya",
+      "brouter",
+      "échouer",
+      "tancer"
     ],
     [
-      "cadran",
-      "airelle",
-      "résistance",
-      "immortelle",
-      "labour",
-      "sommeil"
+      "herbivore",
+      "encolure",
+      "grande",
+      "inattentif",
+      "épuisette",
+      "damnation"
     ],
     [
-      "analogique",
-      "mécanique",
-      "sainte",
-      "sieste",
-      "parodie",
-      "averse"
+      "bracelet",
+      "zoo",
+      "fleuri",
+      "Dante",
+      "mûrier",
+      "haute"
     ],
     [
-      "minérale",
-      "rêve",
-      "matin",
-      "azerty",
-      "cruauté",
-      "horloge"
+      "nervure",
+      "autoritaire",
+      "coupable",
+      "tunnel",
+      "acacia",
+      "trapèze"
     ],
     [
-      "sphère",
-      "alarme",
-      "lever",
-      "lactée",
-      "sonner",
-      "agiter"
+      "élancé",
+      "mineur",
+      "calice",
+      "cornes",
+      "taches",
+      "okapi"
     ],
     [
-      "rouge",
-      "aiguille",
-      "nuage",
-      "carpe",
-      "cérébral",
-      "tousser"
+      "langue",
+      "lunettes",
+      "Sophie",
+      "Afrique",
+      "Masaï",
+      "savane"
     ]
   ],
   "rowClues": [
-    4,
+    3,
+    3,
     2,
-    3,
-    3,
+    1,
     4,
-    2
+    5
   ],
   "colClues": [
-    3,
-    5,
-    3,
+    4,
     2,
-    2,
+    3,
+    3,
+    3,
     3
   ],
-  "themeWord": "réveil",
+  "themeWord": "girafe",
   "solution": [
     [
+      true,
       false,
       true,
       true,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -83,41 +107,17 @@
       true,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       true,
       true
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   ],
   "parMoves": 18

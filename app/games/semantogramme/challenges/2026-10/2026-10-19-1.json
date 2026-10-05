@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "banane",
-      "pivoine",
-      "écouvillon",
-      "équateur"
+      "étonné",
+      "prélude",
+      "sarabande",
+      "mannequin"
     ],
     [
-      "sophistiqué",
-      "percevoir",
-      "laboratoire",
-      "mousse"
+      "Saint-Laurent",
+      "chic",
+      "couturier",
+      "livraison"
     ],
     [
-      "glace",
-      "gâteau",
-      "rampant",
-      "pudding"
+      "Dior",
+      "diva",
+      "kiné",
+      "sonder"
     ],
     [
-      "tarte",
-      "foncer",
-      "soufflé",
-      "gribouiller"
+      "collection",
+      "vogue",
+      "tendance",
+      "emplette"
     ]
   ],
   "rowClues": [
     1,
-    1,
     3,
-    2
+    1,
+    3
   ],
   "colClues": [
     3,
-    1,
-    1,
-    2
+    2,
+    2,
+    1
   ],
-  "themeWord": "dessert",
+  "themeWord": "mode",
   "solution": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
     [
       true,
       false,
@@ -50,23 +62,11 @@
       false
     ],
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

@@ -5,75 +5,91 @@
   "height": 6,
   "words": [
     [
-      "cheval-marin",
-      "massif",
-      "bouton",
-      "pieuvre",
-      "ondulant",
-      "café"
+      "motte",
+      "fane",
+      "goutte",
+      "aimable",
+      "tiaré",
+      "tuyau"
     ],
     [
-      "salsa",
-      "jeudi",
-      "baver",
-      "mollet",
-      "quadriceps",
-      "tendre"
+      "Huis-clos",
+      "bousier",
+      "revendiquer",
+      "semis",
+      "aspersion",
+      "aubaine"
     ],
     [
-      "puissante",
-      "souvenir",
-      "profonde",
-      "arracher",
-      "caresse",
-      "ischio"
+      "terreau",
+      "bronche",
+      "Mendeleïev",
+      "couturière",
+      "diesel",
+      "fusion"
     ],
     [
-      "muscle",
-      "forte",
-      "maigrir",
-      "tisane",
-      "poulet",
-      "fémur"
+      "ocre",
+      "anse",
+      "jardinier",
+      "plate-forme",
+      "microscopique",
+      "pomme"
     ],
     [
-      "jambe",
-      "voluptueuse",
-      "large",
-      "callosité",
-      "ouverture",
-      "visqueux"
+      "géranium",
+      "bec",
+      "démon",
+      "sécheresse",
+      "rempoter",
+      "guéridon"
     ],
     [
-      "sportif",
-      "rond",
-      "rôtie",
-      "veiller",
-      "épaisseur",
-      "cycliste"
+      "zinc",
+      "Platon",
+      "eau",
+      "virulent",
+      "pelouse",
+      "lambin"
     ]
   ],
   "rowClues": [
-    1,
     3,
     2,
-    4,
+    1,
     3,
-    5
+    4,
+    3
   ],
   "colClues": [
     4,
-    4,
     2,
-    1,
     3,
-    4
+    2,
+    3,
+    2
   ],
-  "themeWord": "cuisse",
+  "themeWord": "arrosoir",
   "solution": [
     [
+      true,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       false,
@@ -81,16 +97,8 @@
     ],
     [
       false,
-      false,
-      false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false,
       true
@@ -99,26 +107,18 @@
       true,
       true,
       false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       true,
-      true,
-      false,
-      false,
       false
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

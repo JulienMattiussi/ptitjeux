@@ -5,96 +5,123 @@
   "height": 7,
   "words": [
     [
-      "étrange",
-      "oeuf",
-      "ouvreur",
-      "fouiller",
-      "unique",
-      "pondre",
-      "monotrème"
+      "proue",
+      "baroque",
+      "climatisation",
+      "danse",
+      "incontestable",
+      "pistil",
+      "crétin"
     ],
     [
-      "tatami",
-      "éperon",
-      "colley",
-      "iceberg",
-      "destinataire",
-      "aquatique",
-      "éviction"
+      "jante",
+      "muse",
+      "Haydn",
+      "Cumes",
+      "shaker",
+      "embranchement",
+      "déambuler"
     ],
     [
-      "queue",
-      "animer",
-      "endémique",
-      "lambin",
-      "souffler",
-      "baudruche",
-      "foudroyer"
+      "cour",
+      "bal",
+      "étaler",
+      "perruque",
+      "Rameau",
+      "abat-jour",
+      "Bach"
     ],
     [
-      "écrit",
-      "australie",
-      "primitif",
-      "mammifère",
-      "fanfare",
-      "canard",
-      "recueillir"
-    ],
-    [
-      "larvaire",
-      "effectuer",
-      "bec",
-      "médaille",
-      "organique",
-      "aurore",
-      "inertie"
-    ],
-    [
-      "jardin",
-      "nager",
-      "géomorphologue",
-      "égyptienne",
-      "rejeter",
-      "enraciner",
-      "venin"
-    ],
-    [
-      "trône",
-      "rougir",
-      "castor",
+      "voyageur",
+      "ternaire",
+      "gouailleur",
+      "Loire",
       "volontaire",
-      "palmé",
-      "argent",
-      "bague"
+      "secondaire",
+      "noblesse"
+    ],
+    [
+      "greffe",
+      "Lully",
+      "Philharmonie",
+      "melon",
+      "embuscade",
+      "élégance",
+      "écurie"
+    ],
+    [
+      "révérence",
+      "pas",
+      "salon",
+      "Versailles",
+      "ampoule",
+      "trio",
+      "panne"
+    ],
+    [
+      "Boccherini",
+      "changeant",
+      "grille",
+      "gavotte",
+      "échographie",
+      "provision",
+      "sucrée"
     ]
   ],
   "rowClues": [
-    6,
     2,
+    1,
+    5,
+    2,
+    2,
+    5,
+    2
+  ],
+  "colClues": [
+    3,
+    5,
     2,
     4,
     1,
     2,
     2
   ],
-  "colClues": [
-    2,
-    4,
-    4,
-    2,
-    2,
-    3,
-    2
-  ],
-  "themeWord": "ornithorynque",
+  "themeWord": "menuet",
   "solution": [
     [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -108,15 +135,6 @@
     ],
     [
       true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       true,
@@ -125,29 +143,11 @@
       false
     ],
     [
+      true,
       false,
       false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
       false,
       false
     ]

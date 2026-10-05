@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-03-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "hebdomadaire",
+      "planning",
+      "rayé",
+      "Jamaïque",
+      "viaduc"
+    ],
+    [
+      "Drogon",
+      "exotique",
+      "typhoïde",
+      "vendredi",
+      "lundi"
+    ],
+    [
+      "agenda",
+      "jeudi",
+      "Spielberg",
+      "industrie",
+      "croupier"
+    ],
+    [
+      "dimanche",
+      "frein",
+      "sept",
+      "Comte",
+      "Greco"
+    ],
+    [
+      "jours",
+      "mercredi",
+      "flemmard",
+      "solistes",
+      "samedi"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    1,
+    1,
+    2
+  ],
+  "themeWord": "semaine",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 11
+}

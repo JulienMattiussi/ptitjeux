@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-31-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "dollar",
+      "stylo",
+      "réparer",
+      "bonite"
+    ],
+    [
+      "marchandise",
+      "manuscrit",
+      "intrus",
+      "pipistrelle"
+    ],
+    [
+      "calligraphie",
+      "maîtresse",
+      "cahier",
+      "plume"
+    ],
+    [
+      "lettre",
+      "encre",
+      "équilibrer",
+      "alphabet"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "écriture",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

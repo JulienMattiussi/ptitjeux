@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "pot",
-      "fermenté",
-      "lactose",
-      "blesser"
+      "lacet",
+      "mocassin",
+      "cordonnier",
+      "abstinence"
     ],
     [
-      "solide",
-      "géniteur",
-      "sangle",
-      "nature"
+      "croche",
+      "botte",
+      "semelle",
+      "Vidal"
     ],
     [
-      "épaule",
-      "fraise",
-      "broderie",
-      "brassé"
+      "sandale",
+      "escarpin",
+      "basket",
+      "luciole"
     ],
     [
-      "capot",
-      "abricot",
-      "s'esclaffer",
-      "sucré"
+      "pointure",
+      "fatigue",
+      "Gien",
+      "talon"
     ]
   ],
   "rowClues": [
     3,
-    1,
     2,
+    3,
     2
   ],
   "colClues": [
-    1,
     3,
-    1,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "yaourt",
+  "themeWord": "chaussure",
   "solution": [
     [
       true,
@@ -51,22 +51,22 @@
     ],
     [
       false,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
-      false,
       true,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
-      false,
       true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "carré",
-      "camion",
-      "après-midi",
-      "hiver"
+      "berge",
+      "Écosse",
+      "dessalée",
+      "Ithaque"
     ],
     [
-      "cône",
-      "rond",
-      "diaphane",
-      "grill"
+      "pêche",
+      "beffroi",
+      "courant",
+      "moulin"
     ],
     [
-      "pyramide",
-      "cube",
-      "satan",
-      "ovale"
+      "source",
+      "affluent",
+      "conscience",
+      "imaginer"
     ],
     [
-      "chandelier",
-      "pureté",
-      "losange",
-      "rectangle"
+      "grappe",
+      "pont",
+      "hurlement",
+      "empirisme"
     ]
   ],
   "rowClues": [
     1,
-    2,
     3,
-    2
+    2,
+    1
   ],
   "colClues": [
     3,
     2,
     1,
-    2
+    1
   ],
-  "themeWord": "forme",
+  "themeWord": "rivière",
   "solution": [
     [
       true,
@@ -51,22 +51,22 @@
     ],
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       false
     ],
     [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-27-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "attendre",
+      "érudit",
+      "orbe",
+      "procrastiner",
+      "carrosserie"
+    ],
+    [
+      "combe",
+      "horizon",
+      "agenda",
+      "aujourd'hui",
+      "après"
+    ],
+    [
+      "espoir",
+      "pêche",
+      "avenir",
+      "hier",
+      "larve"
+    ],
+    [
+      "bientôt",
+      "cœlacanthe",
+      "projet",
+      "Cléopâtre",
+      "hymne"
+    ],
+    [
+      "douleur",
+      "prévoir",
+      "magma",
+      "Nintendo",
+      "gêneur"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "demain",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

@@ -5,93 +5,129 @@
   "height": 7,
   "words": [
     [
-      "parfumerie",
-      "détresse",
-      "pleurer",
-      "gastrique",
-      "mortel",
-      "maquette",
-      "abattement"
+      "gastéropode",
+      "chevelure",
+      "visiteur",
+      "étamine",
+      "effrayé",
+      "pataud",
+      "pointes"
     ],
     [
-      "morne",
-      "noir",
-      "résonant",
-      "crier",
-      "crosse",
-      "séduisante",
-      "détente"
+      "sève",
+      "piailler",
+      "message",
+      "apparat",
+      "casino",
+      "corolle",
+      "quille"
     ],
     [
-      "framboise",
-      "aneth",
-      "douleur",
-      "cils",
-      "cour",
-      "doctrine",
-      "abbaye"
+      "faux-fuyant",
+      "pesant",
+      "serre",
+      "Cuvier",
+      "tannerie",
+      "arboretum",
+      "platine"
     ],
     [
-      "incurable",
-      "droiture",
-      "monumentale",
-      "bienfaiteur",
-      "sorbier",
-      "allitération",
-      "soustraire"
+      "Linné",
+      "remuant",
+      "cyclique",
+      "flore",
+      "chalumeau",
+      "pistil",
+      "végétal"
     ],
     [
-      "salissure",
-      "reinette",
-      "risotto",
-      "gémir",
-      "grillé",
-      "plonger",
-      "angoisse"
+      "fourbe",
+      "classification",
+      "confidente",
+      "mensuration",
+      "graine",
+      "elliptique",
+      "racine"
     ],
     [
-      "emblème",
-      "imprévu",
-      "effondrement",
-      "sombre",
-      "écu",
-      "bourse",
-      "rocaille"
+      "nervure",
+      "photosynthèse",
+      "enfantine",
+      "herbier",
+      "Héra",
+      "espèce",
+      "vibrations"
     ],
     [
-      "profond",
-      "piaf",
-      "frelon",
-      "sans-issue",
-      "absolu",
-      "philosophique",
-      "enchère"
+      "micro-ondes",
+      "farouche",
+      "Muséum",
+      "puce",
+      "enrouleur",
+      "corbeau",
+      "pollen"
     ]
   ],
   "rowClues": [
+    1,
+    2,
+    2,
     4,
     3,
-    1,
-    1,
-    3,
-    2,
-    3
+    4,
+    2
   ],
   "colClues": [
     3,
     2,
-    3,
-    4,
     2,
+    3,
     1,
-    2
+    4,
+    3
   ],
-  "themeWord": "désespoir",
+  "themeWord": "botanique",
   "solution": [
     [
       false,
+      false,
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       true,
       false,
@@ -103,7 +139,7 @@
       false,
       true,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -113,44 +149,8 @@
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

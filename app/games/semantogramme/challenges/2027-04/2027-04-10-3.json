@@ -5,103 +5,79 @@
   "height": 6,
   "words": [
     [
-      "fléchir",
-      "fournisseur",
-      "hébergement",
-      "creuset",
-      "mijoter",
-      "braiser"
+      "caméra",
+      "automne",
+      "chaos",
+      "flamboyant",
+      "chasseur",
+      "volaille"
     ],
     [
-      "rapt",
-      "paillasson",
-      "stalactite",
-      "croasser",
-      "carnaval",
-      "staub"
+      "skieur",
+      "épuisé",
+      "queue",
+      "édition",
+      "faux",
+      "lamento"
     ],
     [
-      "familiale",
-      "couvercle",
-      "support",
-      "analytique",
-      "pancréas",
-      "cuire"
+      "lisière",
+      "thésauriser",
+      "Sologne",
+      "Rhin",
+      "Euromillions",
+      "round"
     ],
     [
-      "gourmet",
-      "poêle",
-      "barre",
-      "ramper",
-      "toile",
-      "égoïne"
+      "archéologique",
+      "plumage",
+      "coq",
+      "Télémaque",
+      "battue",
+      "caille"
     ],
     [
-      "pénale",
-      "impondérable",
-      "pression",
-      "indigo",
-      "chaîne",
-      "mener"
+      "hocher",
+      "oiseau",
+      "carrelage",
+      "Diogène",
+      "complexe",
+      "gibier"
     ],
     [
-      "cuisine",
-      "lourde",
-      "sacoche",
-      "ronde",
-      "bouillir",
-      "rustique"
+      "brancher",
+      "perdrix",
+      "vénerie",
+      "doré",
+      "bouleau",
+      "cantate"
     ]
   ],
   "rowClues": [
     3,
     1,
-    3,
-    1,
-    1,
-    5
+    2,
+    4,
+    2,
+    3
   ],
   "colClues": [
-    3,
-    2,
+    1,
+    4,
+    4,
     1,
     2,
-    2,
-    4
+    3
   ],
-  "themeWord": "cocotte",
+  "themeWord": "faisan",
   "solution": [
     [
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
     ],
     [
       false,
@@ -113,12 +89,36 @@
     ],
     [
       true,
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
+      false,
+      true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

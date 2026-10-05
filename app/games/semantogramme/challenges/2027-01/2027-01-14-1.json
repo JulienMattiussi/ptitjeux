@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "moteur",
-      "page",
-      "horde",
-      "message"
+      "pièce",
+      "emmental",
+      "espion",
+      "ressort"
     ],
     [
-      "fichier",
-      "gobelet",
-      "connexion",
-      "tabouret"
+      "pliante",
+      "crue",
+      "scène",
+      "rideau"
     ],
     [
-      "détrempé",
-      "balançoire",
-      "mot",
-      "radis"
+      "cannelle",
+      "acte",
+      "écart",
+      "costume"
     ],
     [
-      "site",
-      "mythique",
-      "affection",
-      "lien"
+      "loupe",
+      "coulisses",
+      "Molière",
+      "réplique"
     ]
   ],
   "rowClues": [
-    3,
-    2,
     1,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
-    3,
     1,
     2,
-    2
+    2,
+    3
   ],
-  "themeWord": "internet",
+  "themeWord": "théâtre",
   "solution": [
     [
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true
     ],
     [
-      true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       true
     ]
   ],

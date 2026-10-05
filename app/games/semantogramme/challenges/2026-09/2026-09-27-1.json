@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "cirrus",
-      "ciel",
-      "condor",
-      "braise"
+      "Beatles",
+      "Westminster",
+      "éolienne",
+      "tramontane"
     ],
     [
-      "rallonger",
-      "rustique",
-      "voix",
-      "brouillard"
+      "glycémie",
+      "mistral",
+      "maquette",
+      "brise"
     ],
     [
-      "tempête",
-      "orage",
-      "stratus",
-      "allée"
+      "girouette",
+      "souffle",
+      "Démocrite",
+      "inhalation"
     ],
     [
-      "vaincre",
-      "horizon",
-      "foc",
-      "pèlerinage"
+      "rafale",
+      "voiler",
+      "accoudoir",
+      "zéphyr"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    3,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
     2,
-    3,
+    2,
     1,
-    1
+    3
   ],
-  "themeWord": "nuage",
+  "themeWord": "vent",
   "solution": [
     [
-      true,
-      true,
       false,
-      false
+      false,
+      true,
+      true
     ],
     [
       false,
-      false,
+      true,
       false,
       true
     ],
     [
       true,
       true,
-      true,
+      false,
       false
     ],
     [
-      false,
       true,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

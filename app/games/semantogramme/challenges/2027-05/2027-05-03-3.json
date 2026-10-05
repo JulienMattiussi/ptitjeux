@@ -5,92 +5,84 @@
   "height": 6,
   "words": [
     [
-      "harpie",
-      "immunité",
-      "ténébreux",
-      "aiguille",
-      "pasteur",
-      "piqûre"
+      "boucle",
+      "artistique",
+      "oeufs",
+      "hélice",
+      "indulgence",
+      "française"
     ],
     [
-      "canari",
-      "résonner",
-      "rouillé",
-      "ombrelle",
-      "sauge",
-      "antigène"
+      "fret",
+      "fouetter",
+      "organe",
+      "luette",
+      "craquant",
+      "citron"
     ],
     [
-      "tracteur",
-      "survoler",
-      "tétanos",
-      "égoutter",
-      "injection",
-      "rappel"
+      "vacherin",
+      "four",
+      "diplodocus",
+      "blanc",
+      "neige",
+      "croquant"
     ],
     [
-      "enfant",
-      "obligatoire",
-      "glaner",
-      "front",
-      "prévenir",
-      "covid"
+      "chantilly",
+      "pâtissier",
+      "fouineur",
+      "pavlova",
+      "fleurette",
+      "gouvernail"
     ],
     [
-      "seringue",
-      "asiatique",
-      "assoupir",
-      "épidémie",
-      "pèlerinage",
-      "rougeole"
+      "alpe",
+      "italienne",
+      "tire-bouchon",
+      "accroche",
+      "sucre",
+      "suisse"
     ],
     [
-      "greffe",
-      "protéger",
-      "efficace",
-      "marronnier",
-      "dessiner",
-      "rebelle"
+      "Flandre",
+      "Mont-Blanc",
+      "miroir",
+      "Périclès",
+      "rosace",
+      "dessert"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    2,
     3,
-    4,
+    5,
+    3,
     3,
     2
   ],
   "colClues": [
     2,
-    3,
-    2,
+    5,
+    1,
     2,
     3,
     5
   ],
-  "themeWord": "vaccin",
+  "themeWord": "meringue",
   "solution": [
     [
       false,
-      true,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       false,
       true
     ],
     [
       false,
-      false,
       true,
+      false,
       false,
       true,
       true
@@ -99,26 +91,34 @@
       true,
       true,
       false,
-      false,
+      true,
       true,
       true
     ],
     [
       true,
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      false,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

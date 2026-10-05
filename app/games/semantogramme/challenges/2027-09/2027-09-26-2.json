@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-26-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "cérémonie",
+      "haut-de-forme",
+      "culte",
+      "sacrifice",
+      "offrande"
+    ],
+    [
+      "acquis",
+      "commission",
+      "coutume",
+      "incantation",
+      "célébration"
+    ],
+    [
+      "tirer",
+      "Irlande",
+      "herbivore",
+      "pontage",
+      "danse"
+    ],
+    [
+      "aquatinte",
+      "sacrement",
+      "passage",
+      "chamane",
+      "aubaine"
+    ],
+    [
+      "pollué",
+      "initiation",
+      "baptême",
+      "tradition",
+      "liturgie"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    1,
+    3,
+    4
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    4,
+    4
+  ],
+  "themeWord": "rite",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

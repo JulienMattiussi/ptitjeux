@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "leurre",
-      "grignoter",
-      "rouillé",
-      "dévorer",
-      "collecte"
+      "semer",
+      "explorer",
+      "pelle",
+      "France",
+      "nuageux"
     ],
     [
-      "jambon",
-      "cartable",
-      "appétit",
-      "trachée",
-      "se régaler"
+      "faille",
+      "pot",
+      "tarot",
+      "Giotto",
+      "arbre"
     ],
     [
-      "avaler",
-      "banqueter",
-      "continent",
-      "single",
-      "consommer"
+      "performance",
+      "terre",
+      "bouture",
+      "repiquer",
+      "minijupe"
     ],
     [
-      "savourer",
-      "radis",
-      "mastiquer",
-      "bouffer",
-      "inondation"
+      "verger",
+      "appât",
+      "graine",
+      "arroser",
+      "jardiner"
     ],
     [
-      "caractère",
-      "goûter",
-      "ingérer",
-      "égypte",
-      "mâcher"
+      "entremets",
+      "bulbe",
+      "germer",
+      "potager",
+      "tiare"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    2,
     3,
-    3,
+    4,
     3
   ],
   "colClues": [
     2,
     3,
-    2,
-    2,
-    3
+    4,
+    3,
+    2
   ],
-  "themeWord": "manger",
+  "themeWord": "planter",
   "solution": [
     [
-      false,
       true,
       false,
       true,
-      false
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       false
     ],
     [
       false,
       true,
-      true,
+      false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

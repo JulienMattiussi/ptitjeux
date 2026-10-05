@@ -5,100 +5,76 @@
   "height": 6,
   "words": [
     [
-      "mythologie",
-      "huit",
-      "vespa",
-      "pandémie",
-      "frire",
-      "tempe"
+      "bec",
+      "bourrage",
+      "interdit",
+      "ailes",
+      "Signac",
+      "bévue"
     ],
     [
-      "noir",
-      "fan",
-      "manche",
-      "sauter",
-      "sustenter",
-      "cuire"
+      "Sixtine",
+      "cérumen",
+      "convaincu",
+      "trapèze",
+      "bras",
+      "aquilin"
     ],
     [
-      "frêle",
-      "abonnement",
-      "caramélisé",
-      "sonnerie",
-      "huile",
-      "mouchoir"
+      "noblesse",
+      "nageur",
+      "compromis",
+      "dos",
+      "potimarron",
+      "kiné"
     ],
     [
-      "omelette",
-      "barbe",
-      "antiadhésive",
-      "ronde",
-      "frétillant",
-      "aisselle"
+      "massage",
+      "Latour",
+      "coudre",
+      "dégoût",
+      "Garfield",
+      "houlette"
     ],
     [
-      "rétro",
-      "placebo",
-      "illusionner",
-      "stupeur",
-      "plate",
-      "cuisine"
+      "ange",
+      "squelette",
+      "muscle",
+      "manifeste",
+      "dorsal",
+      "clavicule"
     ],
     [
-      "tomber",
-      "téfal",
-      "lézard",
-      "blesser",
-      "sucrer",
-      "wok"
+      "saillante",
+      "articulation",
+      "rasta",
+      "épaule",
+      "posture",
+      "songer"
     ]
   ],
   "rowClues": [
     1,
-    4,
     2,
     3,
-    2,
-    3
+    1,
+    5,
+    4
   ],
   "colClues": [
     3,
+    3,
     1,
+    4,
     3,
-    2,
-    3,
-    3
+    2
   ],
-  "themeWord": "poêle",
+  "themeWord": "omoplate",
   "solution": [
     [
       false,
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       false,
       false
@@ -107,6 +83,30 @@
       false,
       false,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true,
       true
@@ -115,10 +115,10 @@
       true,
       true,
       false,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

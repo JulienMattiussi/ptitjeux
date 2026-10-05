@@ -5,109 +5,91 @@
   "height": 7,
   "words": [
     [
-      "mijoter",
-      "trappiste",
-      "royal",
-      "boeuf",
-      "improviser",
-      "freiner",
-      "candide"
+      "aiguille",
+      "tempête",
+      "galaxie",
+      "fluvial",
+      "ophidien",
+      "houille",
+      "illumination"
     ],
     [
-      "gastronomique",
-      "lin",
-      "orgueil",
-      "classique",
-      "épidermique",
-      "chemin",
-      "volaille"
+      "coquetterie",
+      "Torricelli",
+      "inquiétant",
+      "isobare",
+      "Chaplin",
+      "Kermit",
+      "éclaboussure"
     ],
     [
-      "maquereau",
-      "doré",
-      "fabriquer",
-      "anémique",
-      "guidon",
-      "fourreau",
-      "imprenable"
+      "Dim",
+      "trompette",
+      "Zurich",
+      "anticyclone",
+      "monture",
+      "hectopascal",
+      "antilope"
     ],
     [
-      "corde",
-      "filtrer",
-      "cuisine",
-      "fond",
-      "pinnipède",
-      "plaisir",
-      "entrée"
+      "rock",
+      "indicateur",
+      "atmosphère",
+      "dépression",
+      "coffre-fort",
+      "panne",
+      "irritation"
     ],
     [
-      "intentionnalité",
-      "fraîcheur",
-      "tournesol",
-      "dégât",
-      "gélatine",
-      "commis",
-      "français"
+      "pluie",
+      "ronronner",
+      "hypnotiser",
+      "Gagarine",
+      "frivole",
+      "météo",
+      "Popeye"
     ],
     [
-      "électronique",
-      "dentition",
-      "bombe",
-      "bouillon",
-      "sursaut",
-      "nouveau-né",
-      "clarifier"
+      "passion",
+      "emmental",
+      "ciboule",
+      "Disney",
+      "Musset",
+      "constante",
+      "opinion"
     ],
     [
-      "mousseron",
-      "soupe",
-      "pastoral",
-      "rupture",
-      "colley",
-      "limpide",
-      "acclamer"
+      "Vénus",
+      "pression",
+      "teinture",
+      "altimètre",
+      "anéroïde",
+      "cassette",
+      "saucisson"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    2,
     3,
-    3,
+    2,
     1,
-    4,
-    2,
-    2,
-    2
+    3
   ],
   "colClues": [
     2,
-    3,
-    2,
     4,
     1,
+    4,
     1,
-    4
+    2,
+    1
   ],
-  "themeWord": "consommé",
+  "themeWord": "baromètre",
   "solution": [
     [
       true,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -118,20 +100,11 @@
     [
       false,
       true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
@@ -139,6 +112,33 @@
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ],
@@ -146,11 +146,11 @@
       false,
       true,
       false,
-      false,
-      false,
       true,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

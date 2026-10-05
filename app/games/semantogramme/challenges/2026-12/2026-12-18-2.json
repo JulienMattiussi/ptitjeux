@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "avocat",
-      "décret",
-      "civile",
-      "parlement",
-      "ovale"
+      "poussette",
+      "tétine",
+      "frisée",
+      "nourrisson",
+      "bandoulière"
     ],
     [
-      "républicaine",
-      "macaque",
-      "narrateur",
-      "constitutionnelle",
-      "pénale"
+      "berceau",
+      "langer",
+      "babiller",
+      "migraine",
+      "déformation"
     ],
     [
-      "annulaire",
-      "prolonger",
-      "appliquer",
-      "règlement",
-      "poltron"
+      "archéoptéryx",
+      "biberon",
+      "gazouiller",
+      "gousset",
+      "subtil"
     ],
     [
-      "article",
-      "embout",
-      "absorbant",
-      "justice",
-      "voter"
+      "maternité",
+      "Lamartine",
+      "nounou",
+      "doudou",
+      "soda"
     ],
     [
-      "tribunal",
-      "orgueil",
-      "fillette",
-      "mythologie",
-      "légale"
+      "Arménie",
+      "hochet",
+      "landau",
+      "naissance",
+      "couche"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     3,
     2,
     3,
-    2
+    4
   ],
   "colClues": [
+    3,
     4,
-    1,
-    2,
     4,
-    3
+    3,
+    1
   ],
-  "themeWord": "loi",
+  "themeWord": "bébé",
   "solution": [
     [
       true,
       true,
-      true,
+      false,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
       true,
-      true
+      true,
+      false,
+      false
     ],
     [
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
       false
     ],
     [
-      true,
-      false,
       false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
+      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

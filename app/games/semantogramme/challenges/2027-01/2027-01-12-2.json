@@ -5,61 +5,75 @@
   "height": 5,
   "words": [
     [
-      "haillon",
-      "paille",
-      "effrayant",
-      "potager",
-      "bouse"
+      "tartine",
+      "douche",
+      "olfactif",
+      "Onfray",
+      "austérité"
     ],
     [
-      "macaque",
-      "oiseau",
-      "pétiller",
-      "silencieux",
-      "dictionnaire"
+      "propre",
+      "éponge",
+      "patrie",
+      "bain",
+      "shampoing"
     ],
     [
-      "marchandise",
-      "râpe",
-      "chasser",
-      "immobile",
-      "racler"
+      "eau",
+      "nettoyer",
+      "Peugeot",
+      "vaisselle",
+      "démangeaison"
     ],
     [
-      "dard",
-      "amande",
-      "habitable",
-      "chapeau",
-      "armoire"
+      "cantine",
+      "linge",
+      "chemin",
+      "baignoire",
+      "cuivre"
     ],
     [
-      "champ",
-      "corbeau",
-      "vannerie",
-      "plongeoir",
-      "jardin"
+      "machine",
+      "militaire",
+      "savon",
+      "lessive",
+      "rincer"
     ]
   ],
   "rowClues": [
-    4,
-    2,
-    2,
     1,
-    3
-  ],
-  "colClues": [
-    2,
+    4,
     3,
     2,
-    4,
-    1
+    4
   ],
-  "themeWord": "épouvantail",
+  "colClues": [
+    3,
+    4,
+    1,
+    4,
+    2
+  ],
+  "themeWord": "laver",
   "solution": [
     [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ],
@@ -71,26 +85,12 @@
       false
     ],
     [
-      false,
+      true,
       false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

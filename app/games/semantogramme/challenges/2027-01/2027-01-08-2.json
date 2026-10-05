@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "descendant",
-      "gondole",
-      "création",
-      "oncle",
-      "frère"
+      "toile",
+      "plage",
+      "filet",
+      "Thérèse",
+      "balancer"
     ],
     [
-      "visiter",
-      "terreur",
-      "pointu",
-      "tante",
-      "audace"
+      "bercer",
+      "farniente",
+      "concerto",
+      "maladie",
+      "taquiner"
     ],
     [
-      "famille",
-      "démarrer",
-      "cousin",
-      "fluer",
-      "halley"
+      "accroche",
+      "donneur",
+      "corde",
+      "palmier",
+      "devin"
     ],
     [
-      "acier",
-      "aîné",
-      "enfant",
-      "parent",
-      "sortir"
+      "déformation",
+      "système",
+      "procrastiner",
+      "engagement",
+      "tropical"
     ],
     [
-      "nièce",
-      "gâter",
-      "fratrie",
-      "galápagos",
-      "raffiné"
+      "Pouilles",
+      "photographie",
+      "détente",
+      "jardin",
+      "visière"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    3,
-    3
-  ],
-  "colClues": [
     4,
     2,
     3,
-    3,
-    1
+    1,
+    2
   ],
-  "themeWord": "neveu",
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "hamac",
   "solution": [
     [
       true,
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
       true,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

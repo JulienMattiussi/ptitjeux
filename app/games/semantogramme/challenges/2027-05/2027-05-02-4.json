@@ -5,130 +5,121 @@
   "height": 7,
   "words": [
     [
-      "sextant",
-      "araignée",
-      "savoureuse",
-      "voix",
-      "sentir",
-      "attaquer",
-      "voyager"
+      "frétillant",
+      "remontrance",
+      "fils",
+      "frangé",
+      "ketch",
+      "Boileau",
+      "ennui"
     ],
     [
-      "auditif",
-      "archaïque",
-      "liqueur",
-      "spinoza",
-      "énorme",
-      "lointaine",
-      "entendre"
+      "sphinx",
+      "humeur",
+      "pendentif",
+      "grotesque",
+      "regret",
+      "automne",
+      "prétexte"
     ],
     [
-      "noble",
-      "rare",
-      "capter",
-      "tendre",
-      "fermier",
-      "vertu",
-      "distinguer"
+      "spleen",
+      "Flandres",
+      "langueur",
+      "gaffe",
+      "brumes",
+      "merguez",
+      "gracieux"
     ],
     [
-      "audible",
-      "délivrer",
-      "isolé",
-      "écouter",
-      "spontané",
-      "classique",
-      "husserl"
+      "hula-hoop",
+      "atrabile",
+      "romantique",
+      "confiture",
+      "poète",
+      "nourrir",
+      "ventouse"
     ],
     [
-      "oreille",
-      "allitération",
-      "téléphone",
-      "attentif",
-      "littéraire",
-      "pointage",
-      "secours"
+      "lapidaire",
+      "relax",
+      "pluie",
+      "chiendent",
+      "jardinet",
+      "signe",
+      "Dürer"
     ],
     [
-      "générosité",
-      "fidélité",
-      "soutenu",
-      "merveille",
-      "orbe",
-      "fugué",
-      "discerner"
+      "cafard",
+      "codéine",
+      "dégoûtant",
+      "cuvette",
+      "héroïque",
+      "candidat",
+      "Hippocrate"
     ],
     [
-      "relever",
-      "carte",
-      "visseuse",
-      "sénat",
-      "armer",
-      "percevoir",
-      "son"
+      "fantasme",
+      "Baudelaire",
+      "tristesse",
+      "chagrin",
+      "dérobade",
+      "Bateau-Lavoir",
+      "Appassionata"
     ]
   ],
   "rowClues": [
     1,
     3,
-    5,
     3,
     3,
     2,
-    2
+    2,
+    3
   ],
   "colClues": [
-    4,
     2,
-    2,
+    3,
     4,
     1,
-    2,
-    4
+    3,
+    1,
+    3
   ],
-  "themeWord": "ouïr",
+  "themeWord": "mélancolie",
   "solution": [
     [
       false,
       false,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       false,
       false,
       true
     ],
     [
-      true,
-      true,
-      true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       false,
       true,
-      false,
       true,
       false
     ],
     [
       true,
       false,
+      true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true,
       false,
       false
@@ -143,14 +134,23 @@
       true
     ],
     [
+      true,
       false,
       false,
       false,
       false,
+      false,
+      true
+    ],
+    [
       false,
       true,
-      true
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

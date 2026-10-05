@@ -5,75 +5,99 @@
   "height": 6,
   "words": [
     [
-      "révérer",
-      "plébisciter",
-      "uppercut",
-      "rond-point",
-      "charpentier",
-      "armure"
+      "cantine",
+      "gratin",
+      "quiche",
+      "vitamine",
+      "chemin",
+      "pousse"
     ],
     [
-      "cystite",
-      "caserne",
-      "spacieux",
-      "congratulation",
-      "poignée",
-      "glorifier"
+      "mitonner",
+      "vert",
+      "feuille",
+      "glaçons",
+      "terreau",
+      "oseille"
     ],
     [
-      "pourpre",
-      "flatter",
-      "porter",
-      "flamenco",
-      "compliment",
-      "saluer"
+      "chorégraphe",
+      "daim",
+      "virus",
+      "légume",
+      "déduction",
+      "perspective"
     ],
     [
-      "console",
-      "louer",
-      "admirer",
-      "praline",
-      "quadrillage",
-      "connexion"
+      "tatou",
+      "beurre",
+      "rotor",
+      "Andersen",
+      "roué",
+      "ergot"
     ],
     [
-      "goulot",
-      "os",
-      "fourrer",
-      "acclamer",
-      "comique",
-      "remise"
+      "routine",
+      "soupe",
+      "vrille",
+      "omelette",
+      "gouttière",
+      "multiprise"
     ],
     [
-      "recueillement",
-      "applaudissement",
-      "guinguette",
-      "amas",
-      "angine",
-      "étage"
+      "Popeye",
+      "fer",
+      "crème",
+      "potager",
+      "Florentine",
+      "leçon"
     ]
   ],
   "rowClues": [
-    2,
+    5,
     3,
-    4,
+    1,
+    1,
     2,
-    2,
-    1
+    5
   ],
   "colClues": [
-    1,
+    2,
+    5,
+    3,
     4,
-    2,
-    2,
-    2,
-    3
+    1,
+    2
   ],
-  "themeWord": "féliciter",
+  "themeWord": "épinard",
   "solution": [
     [
       true,
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
@@ -81,44 +105,20 @@
     ],
     [
       false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

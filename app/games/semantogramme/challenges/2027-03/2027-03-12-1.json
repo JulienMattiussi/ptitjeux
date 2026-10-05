@@ -5,48 +5,54 @@
   "height": 4,
   "words": [
     [
-      "escalier",
-      "sommet",
-      "sachet",
-      "guet"
+      "anticyclone",
+      "frire",
+      "agréable",
+      "éthéré"
     ],
     [
-      "crevaison",
-      "observatoire",
-      "beffroi",
-      "magnésie"
+      "bulletin",
+      "icône",
+      "présentatrice",
+      "nuage"
     ],
     [
-      "ascenseur",
-      "campanile",
-      "phare",
-      "bronzer"
+      "boulangerie",
+      "pluie",
+      "vent",
+      "étagères"
     ],
     [
-      "gerbe",
-      "âme",
-      "horloge",
-      "étreindre"
+      "soleil",
+      "transcendant",
+      "température",
+      "prévision"
     ]
   ],
   "rowClues": [
+    1,
     3,
     2,
-    3,
-    1
+    3
   ],
   "colClues": [
-    2,
     3,
+    1,
     3,
-    1
+    2
   ],
-  "themeWord": "tour",
+  "themeWord": "météo",
   "solution": [
     [
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
+      true,
       true
     ],
     [
@@ -57,15 +63,9 @@
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
-      false
+      true
     ]
   ],
   "parMoves": 9

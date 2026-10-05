@@ -5,80 +5,66 @@
   "height": 5,
   "words": [
     [
-      "longer",
-      "répétitif",
-      "sable",
-      "couteau",
-      "falaise"
+      "égocentrique",
+      "thon",
+      "moyen",
+      "creux",
+      "trou"
     ],
     [
-      "cyan",
-      "crique",
-      "vague",
-      "boucan",
-      "maritime"
+      "nouer",
+      "piercing",
+      "Willy",
+      "naissance",
+      "retrouver"
     ],
     [
-      "escarpé",
-      "durer",
-      "galet",
-      "levée",
-      "autoroute"
+      "ventre",
+      "placenta",
+      "œnologie",
+      "cordon",
+      "abdomen"
     ],
     [
-      "prédateur",
-      "côtier",
-      "acheter",
-      "rocheux",
-      "transpercer"
+      "Saint-Saëns",
+      "bedaine",
+      "bébé",
+      "centre",
+      "pelote"
     ],
     [
-      "côte",
-      "vente",
-      "sel",
-      "plage",
-      "fouler"
+      "bond",
+      "ombilic",
+      "grumeaux",
+      "division",
+      "fret"
     ]
   ],
   "rowClues": [
     3,
     3,
-    2,
-    2,
-    3
+    4,
+    3,
+    1
   ],
   "colClues": [
     3,
-    2,
-    3,
-    2,
-    3
+    4,
+    1,
+    4,
+    2
   ],
-  "themeWord": "rivage",
+  "themeWord": "nombril",
   "solution": [
     [
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      true,
-      false,
       true
     ],
     [
       true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
@@ -86,11 +72,25 @@
     ],
     [
       true,
-      false,
+      true,
       false,
       true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

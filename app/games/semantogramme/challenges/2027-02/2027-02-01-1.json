@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "éventail",
-      "photo",
-      "numéro",
-      "hebdomadaire"
+      "chaussures",
+      "fève",
+      "séduisant",
+      "enquête"
     ],
     [
-      "kiosque",
-      "article",
-      "barrage",
-      "oiseau"
+      "Shéhérazade",
+      "GR",
+      "étape",
+      "sentier"
     ],
     [
-      "emblème",
-      "douleur",
-      "intrépide",
-      "reportage"
+      "bâtons",
+      "viaduc",
+      "bisannuel",
+      "boussole"
     ],
     [
-      "mansarde",
-      "tigre",
-      "rubrique",
-      "aube"
+      "gourde",
+      "titiller",
+      "marcheur",
+      "bocage"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    2,
-    1,
-    1
-  ],
-  "colClues": [
-    1,
-    2,
     2,
     2
   ],
-  "themeWord": "magazine",
+  "colClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "randonnée",
   "solution": [
     [
+      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       false
     ],
     [
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "bûche",
-      "grotte",
-      "brun",
-      "sapin"
+      "poche",
+      "ceinture",
+      "persan",
+      "short"
     ],
     [
-      "guirlande",
-      "fente",
-      "cantique",
-      "pivoter"
+      "sucette",
+      "Copperfield",
+      "bretelles",
+      "jean"
     ],
     [
-      "duel",
-      "lutin",
-      "étoile",
-      "gui"
+      "moelle",
+      "leçon",
+      "jambe",
+      "ponçage"
     ],
     [
-      "natte",
-      "houx",
-      "marchandise",
-      "familial"
+      "pli",
+      "velours",
+      "creuser",
+      "ourlet"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    1
+    2,
+    1,
+    3
   ],
   "colClues": [
     2,
     2,
     2,
-    2
+    3
   ],
-  "themeWord": "noël",
+  "themeWord": "pantalon",
   "solution": [
     [
       true,
-      false,
+      true,
       false,
       true
     ],
     [
-      true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
       true,
       true
     ],
     [
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

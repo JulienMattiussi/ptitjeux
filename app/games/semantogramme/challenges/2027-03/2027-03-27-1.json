@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "vis",
-      "député",
-      "marteau",
-      "rénovation"
+      "voie",
+      "mijoter",
+      "contrôleur",
+      "SNCF"
     ],
     [
-      "longer",
-      "atelier",
-      "mois",
-      "perceuse"
+      "vertébré",
+      "Indiens",
+      "gare",
+      "gabier"
     ],
     [
-      "apiculteur",
-      "scintiller",
-      "scie",
-      "nectar"
+      "fusionner",
+      "rail",
+      "voyageur",
+      "locomotive"
     ],
     [
-      "planche",
-      "vinaigre",
-      "téter",
-      "gibier"
+      "pangolin",
+      "wagon",
+      "montante",
+      "quai"
     ]
   ],
   "rowClues": [
     3,
-    2,
     1,
-    1
-  ],
-  "colClues": [
-    2,
-    1,
-    2,
+    3,
     2
   ],
-  "themeWord": "bricolage",
+  "colClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "train",
   "solution": [
     [
       true,
@@ -51,22 +51,22 @@
     ],
     [
       false,
-      true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true
     ],
     [
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

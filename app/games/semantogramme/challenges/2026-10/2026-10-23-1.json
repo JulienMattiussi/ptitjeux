@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "apéritif",
-      "brunch",
-      "déjeuner",
-      "risque"
+      "marathon",
+      "tentacule",
+      "prison",
+      "Toulon"
     ],
     [
-      "pénombre",
-      "banquet",
-      "longue",
-      "dîner"
+      "innover",
+      "transparente",
+      "Gorgone",
+      "Géricault"
     ],
     [
-      "papyrus",
-      "figure",
-      "entrée",
-      "fouet"
+      "gélatineux",
+      "Olympe",
+      "urticant",
+      "filament"
     ],
     [
-      "pygmée",
-      "pique-nique",
-      "rime",
-      "époque"
+      "Persée",
+      "crucifix",
+      "ombrelle",
+      "piqûre"
     ]
   ],
   "rowClues": [
-    3,
-    2,
     1,
-    1
+    3,
+    3,
+    3
   ],
   "colClues": [
-    1,
-    3,
     2,
-    1
+    2,
+    3,
+    3
   ],
-  "themeWord": "repas",
+  "themeWord": "méduse",
   "solution": [
     [
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
-      false
+      true
     ],
     [
-      false,
       true,
       false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

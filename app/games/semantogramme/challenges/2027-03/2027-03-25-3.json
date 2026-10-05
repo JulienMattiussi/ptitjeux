@@ -5,82 +5,74 @@
   "height": 6,
   "words": [
     [
-      "fer-forgé",
-      "assaisonner",
-      "verre",
-      "paisible",
-      "marron",
-      "alvéolée"
+      "coussin",
+      "divan",
+      "plaid",
+      "servir",
+      "canyon",
+      "but"
     ],
     [
-      "clameur",
-      "serre",
-      "plante",
-      "éducatif",
-      "candeur",
-      "courbe"
+      "catéchisme",
+      "crépusculaire",
+      "picorer",
+      "lit",
+      "Satie",
+      "commissure"
     ],
     [
-      "lumière",
-      "remplir",
-      "sable",
-      "tropicale",
-      "bolet",
-      "fleur"
+      "dossier",
+      "monolithe",
+      "convertible",
+      "affluent",
+      "apéritif",
+      "fable"
     ],
     [
-      "lire",
-      "fenêtre",
-      "pénale",
-      "aluminium",
-      "transparente",
-      "lavoir"
+      "assise",
+      "transhumance",
+      "oraison",
+      "Excel",
+      "tomber",
+      "congelé"
     ],
     [
-      "corne",
-      "chaude",
-      "lumineuse",
-      "tour",
-      "bronzer",
-      "jardin"
+      "méridienne",
+      "fauteuil",
+      "renifler",
+      "toast",
+      "télévision",
+      "accoudoir"
     ],
     [
-      "soleil",
-      "glousser",
-      "envier",
-      "suspendu",
-      "extérieur",
-      "profiter"
+      "résurrection",
+      "déambuler",
+      "envie",
+      "sieste",
+      "tissu",
+      "sofa"
     ]
   ],
   "rowClues": [
     3,
-    2,
+    1,
     3,
-    4,
-    3,
+    1,
+    5,
     3
   ],
   "colClues": [
     4,
     2,
+    2,
     3,
     3,
-    3,
-    3
+    2
   ],
-  "themeWord": "véranda",
+  "themeWord": "canapé",
   "solution": [
     [
       true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       false,
@@ -88,37 +80,45 @@
       false
     ],
     [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
+      true,
+      true,
       true
     ],
     [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       false,
       false,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

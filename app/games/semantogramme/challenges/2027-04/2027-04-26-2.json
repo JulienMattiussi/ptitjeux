@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "foudroyer",
-      "scie",
-      "cardio",
-      "casse-croûte",
-      "artère"
+      "exercice",
+      "crieur",
+      "guet",
+      "fête",
+      "Noël"
     ],
     [
-      "veine",
-      "battre",
-      "hisser",
-      "ambrée",
-      "cordial"
+      "écran",
+      "rapace",
+      "avant",
+      "insomnie",
+      "cymbale"
     ],
     [
-      "battement",
-      "aorte",
-      "énigme",
-      "minute",
-      "thorax"
+      "Hindenburg",
+      "suc",
+      "vigilance",
+      "lampe",
+      "caramel"
     ],
     [
-      "ventricule",
-      "loyal",
-      "pompe",
-      "sang",
-      "palpiter"
+      "récriminer",
+      "attente",
+      "éveil",
+      "réchauffement",
+      "tournevis"
     ],
     [
-      "pulsation",
-      "pouls",
-      "beignet",
-      "aimer",
-      "silence"
+      "jour",
+      "béluga",
+      "Saint-Benoît",
+      "examen",
+      "coasser"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
-    3,
-    3,
-    4,
-    3
+    2,
+    2
   ],
   "colClues": [
+    2,
+    1,
     4,
-    3,
-    2,
-    2,
-    4
+    4,
+    1
   ],
-  "themeWord": "coeur",
+  "themeWord": "veille",
   "solution": [
     [
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true
     ],
     [
       true,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

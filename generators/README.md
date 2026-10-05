@@ -11,14 +11,12 @@ runtime — l'app ne consomme que les JSON déjà générés dans
 |---|---|
 | [words-fr-raw.json](words-fr-raw.json) | Dictionnaire français complet (336 524 entrées, ~4.5 MB). Source : npm `an-array-of-french-words` (MIT). |
 | [wordlists.ts](wordlists.ts) | Filtre + groupe le dico par longueur, en majuscules ASCII. Exporte `WORDS_BY_LENGTH` consommé par les générateurs Sokomot et Boucle. |
-| [themes.ts](themes.ts) | Pool générique de thèmes Sémantogramme + pool de mots filler. Utilisé uniquement pour la branche aléatoire (dates sans thème curé). |
-| [curated-themes-l1.ts](curated-themes-l1.ts) | Thèmes curés niveau 1 (grilles 4×4). **Figés** — voir AGENTS.md. |
-| [curated-themes-l2.ts](curated-themes-l2.ts) | Thèmes curés niveau 2 (grilles 5×5). |
-| [curated-themes-l3.ts](curated-themes-l3.ts) | Thèmes curés niveau 3 (grilles 6×6). |
-| [curated-themes-l4.ts](curated-themes-l4.ts) | Thèmes curés niveau 4 (grilles 7×7). |
+| [semantogramme-curation/](semantogramme-curation/) | Curation Sémantogramme : calendrier des 1580 thèmes, mots de chaque thème, domaines de sens, décisions manuelles. |
+| [semantogramme-curation.ts](semantogramme-curation.ts) | Règles automatiques de la curation (source unique, testée sur tout le corpus). |
+| [semantogramme-rules.ts](semantogramme-rules.ts) | Normalisation des mots et heuristique « même famille ». |
 | [sokomot.ts](sokomot.ts) | Générateur Sokomot (template push-up + glace). |
 | [boucle.ts](boucle.ts) | Générateur Boucle (rectangle entourant une colonne). |
-| [semantogramme.ts](semantogramme.ts) | Générateur Sémantogramme : utilise un thème curé si disponible pour la date, sinon retombe sur la branche aléatoire `themes.ts`. |
+| [semantogramme.ts](semantogramme.ts) | Générateur Sémantogramme : planifie toute l'année depuis la curation (voir [docs/semantogramme-curation.md](../docs/semantogramme-curation.md)). |
 
 ## Usage
 
@@ -31,9 +29,8 @@ make generate-levels ARGS="--start 2026-06-01 --end 2026-06-30"
 make generate-levels ARGS="--start 2026-05-01 --end 2026-05-07 --game sokomot --level 3"
 ```
 
-> **Attention — Sémantogramme L1 figés.** Les 306 niveaux curés L1 ne doivent
-> plus être régénérés une fois publiés. Voir AGENTS.md et la note dans la
-> mémoire projet.
+> **Sémantogramme** : les niveaux d'un jour dépendent des jours précédents,
+> on régénère donc toujours l'année entière : `ARGS="--game semantogramme --clean"`.
 
 ## Mise à jour du dictionnaire
 

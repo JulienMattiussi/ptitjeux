@@ -5,53 +5,47 @@
   "height": 4,
   "words": [
     [
-      "pull",
-      "classe",
-      "affluent",
-      "patin"
+      "criée",
+      "brocante",
+      "vendeur",
+      "meuble"
     ],
     [
-      "tableau",
-      "vendange",
-      "cartable",
-      "tremper"
+      "ancêtres",
+      "panier",
+      "cageot",
+      "caveau"
     ],
     [
-      "amplifier",
-      "craie",
-      "cantine",
-      "porte"
+      "étal",
+      "pâlir",
+      "Galilée",
+      "blouse"
     ],
     [
-      "glace",
-      "récréation",
-      "irlande",
-      "leçon"
+      "halle",
+      "Doliprane",
+      "condamné",
+      "forain"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     1,
-    2,
-    2,
     2
   ],
   "colClues": [
-    1,
     3,
+    2,
     2,
     1
   ],
-  "themeWord": "école",
+  "themeWord": "marché",
   "solution": [
     [
-      false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
       true,
       false
     ],
@@ -62,11 +56,17 @@
       false
     ],
     [
-      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

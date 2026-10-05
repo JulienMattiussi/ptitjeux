@@ -5,74 +5,106 @@
   "height": 6,
   "words": [
     [
-      "tropical",
-      "inondation",
-      "membrane",
-      "méditation",
-      "comparaison",
-      "sueur"
+      "verger",
+      "blanche",
+      "Cézanne",
+      "livraison",
+      "tannerie",
+      "duvet"
     ],
     [
-      "manche",
-      "détester",
-      "bouledogue",
-      "réplique",
-      "corde",
-      "caisse"
+      "sermon",
+      "Zambèze",
+      "Melba",
+      "osseux",
+      "velours",
+      "amitié"
     ],
     [
-      "gratter",
-      "cèdre",
-      "sablonneux",
-      "beagle",
-      "embrayage",
-      "mélodieux"
+      "fruit",
+      "anathème",
+      "tristesse",
+      "Bellini",
+      "caisse",
+      "enveloppe"
     ],
     [
-      "aimanter",
-      "lésion",
-      "plein",
-      "inflation",
-      "hibou",
-      "aigu"
+      "fuite",
+      "opportunisme",
+      "nectarine",
+      "rougeur",
+      "noyau",
+      "sorbet"
     ],
     [
-      "jeune",
-      "écosystème",
-      "tendre",
-      "débattre",
-      "hawaï",
-      "jouer"
+      "jaune",
+      "mystification",
+      "fumeur",
+      "Laguiole",
+      "main",
+      "chaume"
     ],
     [
-      "instrument",
-      "doux",
-      "pincer",
-      "exotique",
-      "néphron",
-      "signal"
+      "toque",
+      "juteuse",
+      "abricot",
+      "algèbre",
+      "joues",
+      "tarte"
     ]
   ],
   "rowClues": [
-    1,
     3,
     2,
-    1,
+    2,
     3,
+    1,
     4
   ],
   "colClues": [
-    4,
-    1,
+    3,
     2,
+    3,
     1,
-    2,
-    4
+    3,
+    3
   ],
-  "themeWord": "ukulélé",
+  "themeWord": "pêche",
   "solution": [
     [
       true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       false,
@@ -80,45 +112,13 @@
       false
     ],
     [
-      true,
-      false,
-      false,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

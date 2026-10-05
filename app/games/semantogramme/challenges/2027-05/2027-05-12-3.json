@@ -5,79 +5,79 @@
   "height": 6,
   "words": [
     [
-      "cirque",
-      "rotation",
-      "manoeuvrer",
-      "volte",
-      "culbute",
-      "cédrat"
+      "aérien",
+      "enthousiasmer",
+      "Maghreb",
+      "bulles",
+      "culbuter",
+      "télécabine"
     ],
     [
-      "virer",
-      "pirouette",
-      "mousse",
-      "cuisinier",
-      "minutieux",
-      "charnière"
+      "ski",
+      "Grenoble",
+      "festin",
+      "rugissement",
+      "Douvres",
+      "montagne"
     ],
     [
-      "mélancolique",
-      "révolution",
-      "sous-sol",
-      "orienter",
-      "incliner",
-      "géant"
+      "dollar",
+      "altitude",
+      "baobab",
+      "épargne",
+      "Chamonix",
+      "Galileo"
     ],
     [
-      "tournant",
-      "continu",
-      "changer",
-      "moine",
-      "concevoir",
-      "citrouille"
+      "siffler",
+      "sacristain",
+      "périgée",
+      "câble",
+      "station",
+      "pylône"
     ],
     [
-      "gond",
-      "industrie",
-      "girouette",
-      "bourrasque",
-      "détoxification",
-      "caillou"
+      "cher",
+      "panorama",
+      "skieur",
+      "graisse",
+      "glacier",
+      "étudier"
     ],
     [
-      "mouvoir",
-      "extraction",
-      "roulement",
-      "bruyant",
-      "roue",
-      "axe"
+      "sabot",
+      "aigre",
+      "cardon",
+      "Pic-du-Midi",
+      "vertige",
+      "cabine"
     ]
   ],
   "rowClues": [
-    4,
     3,
     3,
     2,
-    2,
-    4
-  ],
-  "colClues": [
-    4,
     3,
-    4,
-    2,
     3,
     2
   ],
-  "themeWord": "pivoter",
+  "colClues": [
+    2,
+    3,
+    1,
+    2,
+    4,
+    4
+  ],
+  "themeWord": "téléphérique",
   "solution": [
     [
+      true,
+      false,
       false,
       true,
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
@@ -91,34 +91,34 @@
       false,
       true,
       false,
-      true,
+      false,
       true,
       false
     ],
     [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
       true,
-      false,
-      false,
       false
     ],
     [
-      true,
-      false,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      true,
       false,
-      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

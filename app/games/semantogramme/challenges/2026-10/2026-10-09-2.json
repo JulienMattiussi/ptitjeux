@@ -5,73 +5,80 @@
   "height": 5,
   "words": [
     [
-      "modéré",
-      "mou",
-      "thé",
-      "attiédir",
-      "trait"
+      "indécis",
+      "rétro",
+      "muscle",
+      "arête",
+      "décade"
     ],
     [
-      "gros",
-      "inauguration",
-      "velue",
-      "imprévu",
-      "climat"
+      "calendrier",
+      "yéyé",
+      "tube",
+      "orangerie",
+      "transcender"
     ],
     [
-      "air",
-      "évasion",
-      "soupe",
-      "douche",
-      "poisson-clown"
+      "chronologie",
+      "armoire",
+      "parfumée",
+      "millénaire",
+      "génération"
     ],
     [
-      "lait",
-      "bander",
-      "bain",
-      "doux",
-      "chauffer"
+      "chorizo",
+      "infatigable",
+      "dix",
+      "punk",
+      "production"
     ],
     [
-      "respecter",
-      "réchauffer",
-      "ronde",
-      "frotter",
-      "fournil"
+      "recensement",
+      "baby-boom",
+      "bilan",
+      "disco",
+      "Baez"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    2,
     3,
-    4,
-    1
+    3,
+    2,
+    4
   ],
   "colClues": [
     3,
-    2,
+    3,
     3,
     3,
     2
   ],
-  "themeWord": "tiède",
+  "themeWord": "décennie",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      false,
+      true,
       false,
       false,
       true
     ],
     [
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -79,18 +86,11 @@
     ],
     [
       true,
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

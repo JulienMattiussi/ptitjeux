@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-22-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "destruction",
+      "combinaison",
+      "rouleau",
+      "déferlante",
+      "bêche"
+    ],
+    [
+      "phénotype",
+      "agaçant",
+      "planche",
+      "océan",
+      "marionnette"
+    ],
+    [
+      "Hossegor",
+      "Hawaï",
+      "basalte",
+      "Mère-Teresa",
+      "tube"
+    ],
+    [
+      "glisse",
+      "vague",
+      "nourriture",
+      "mare",
+      "insuline"
+    ],
+    [
+      "écume",
+      "apprenti",
+      "dérive",
+      "Biarritz",
+      "cuisinier"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "surf",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

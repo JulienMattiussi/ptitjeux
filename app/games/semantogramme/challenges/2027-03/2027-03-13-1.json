@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "fugue",
-      "organique",
-      "indépendance",
-      "émancipation"
+      "assourdissant",
+      "bras",
+      "comité",
+      "censurer"
     ],
     [
-      "délivrance",
-      "choix",
-      "ciel",
-      "haie"
+      "démonstration",
+      "peintre",
+      "ventre",
+      "dépasser"
     ],
     [
-      "envol",
-      "évasion",
-      "acier",
-      "ascenseur"
+      "muscle",
+      "tête",
+      "retour",
+      "coeur"
     ],
     [
-      "reins",
-      "enseignement",
-      "autonomie",
-      "droit"
+      "squelette",
+      "jambe",
+      "Antarctique",
+      "sang"
     ]
   ],
   "rowClues": [
+    1,
+    1,
     3,
-    3,
-    2,
-    2
+    3
   ],
   "colClues": [
-    3,
     2,
     3,
+    1,
     2
   ],
-  "themeWord": "liberté",
+  "themeWord": "corps",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true
     ],
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

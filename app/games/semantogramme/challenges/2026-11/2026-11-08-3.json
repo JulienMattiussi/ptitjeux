@@ -5,74 +5,74 @@
   "height": 6,
   "words": [
     [
-      "baiser",
-      "caustique",
-      "manigancer",
-      "lippe",
-      "iceberg",
-      "plantule"
+      "dérangement",
+      "gnocchi",
+      "torréfaction",
+      "Camargue",
+      "rasta",
+      "Fellini"
     ],
     [
-      "jaunisse",
-      "sucer",
-      "culminer",
-      "fardeau",
-      "pincer",
-      "esquisser"
+      "monarque",
+      "canari",
+      "grammaire",
+      "marais",
+      "sang",
+      "piqûre"
     ],
     [
-      "gercé",
-      "charogne",
-      "épancher",
-      "amplifier",
-      "distinctif",
-      "plein"
+      "roque",
+      "bovidé",
+      "vertébré",
+      "démangeaison",
+      "citronnelle",
+      "arc-boutant"
     ],
     [
-      "décennie",
-      "pétiole",
-      "élève",
-      "contenu",
-      "sourire",
-      "pulpeux"
+      "bord",
+      "été",
+      "Hubble",
+      "Keats",
+      "saumure",
+      "répulsif"
     ],
     [
-      "cochon",
-      "syngnathe",
-      "cantine",
-      "parler",
-      "grimper",
-      "serrer"
+      "dengue",
+      "nuit",
+      "spray",
+      "ballerine",
+      "quatre",
+      "rangé"
     ],
     [
-      "humide",
-      "mordre",
-      "tendre",
-      "manquer",
-      "rouge",
-      "isolée"
+      "insecte",
+      "paludisme",
+      "homogène",
+      "Ernst",
+      "bouton",
+      "anophèle"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    2,
-    2,
-    4
-  ],
-  "colClues": [
+    1,
     3,
     2,
-    1,
     2,
     3,
     3
   ],
-  "themeWord": "lèvre",
+  "colClues": [
+    2,
+    3,
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "moustique",
   "solution": [
     [
-      true,
+      false,
       false,
       false,
       true,
@@ -81,33 +81,25 @@
     ],
     [
       false,
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
       false,
       false,
+      false,
+      true,
       true,
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
-      true
-    ],
-    [
       false,
       false,
-      false,
-      true,
       false,
       true
     ],
@@ -116,8 +108,16 @@
       true,
       true,
       false,
-      true,
+      false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 14

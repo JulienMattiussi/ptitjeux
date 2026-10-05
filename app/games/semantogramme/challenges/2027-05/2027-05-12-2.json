@@ -5,67 +5,74 @@
   "height": 5,
   "words": [
     [
-      "universel",
-      "mardi",
-      "silence",
-      "auditif",
-      "résonner"
+      "casque",
+      "chef",
+      "plan",
+      "lauze",
+      "pelleteuse"
     ],
     [
-      "concentration",
-      "pupille",
-      "feu",
-      "entendre",
-      "concombre"
+      "parpaing",
+      "remuer",
+      "béton",
+      "brique",
+      "Roland-Garros"
     ],
     [
-      "attentif",
-      "pente",
-      "capter",
-      "oreille",
-      "pyrénées"
+      "lisière",
+      "bijoux",
+      "sommelier",
+      "grue",
+      "calamar"
     ],
     [
-      "percevoir",
-      "son",
-      "tannin",
-      "sonore",
-      "teckel"
+      "ouvrier",
+      "hollandaise",
+      "anglais",
+      "Ithaque",
+      "amitié"
     ],
     [
-      "expérimentale",
-      "réparation",
-      "mâle",
-      "raffinement",
-      "écho"
+      "bulldozer",
+      "sonde",
+      "spécialiste",
+      "travaux",
+      "minerai"
     ]
   ],
   "rowClues": [
+    4,
     3,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    4,
+    1,
     2,
-    3,
     3,
     1
   ],
-  "colClues": [
-    3,
-    1,
-    2,
-    4,
-    2
-  ],
-  "themeWord": "écouter",
+  "themeWord": "chantier",
   "solution": [
     [
-      false,
-      false,
       true,
       true,
+      true,
+      false,
       true
     ],
     [
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false
@@ -73,24 +80,17 @@
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

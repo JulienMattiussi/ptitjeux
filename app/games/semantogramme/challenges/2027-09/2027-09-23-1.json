@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "grisaille",
+      "travail",
+      "Matisse",
+      "apprentissage"
+    ],
+    [
+      "savoir-faire",
+      "emploi",
+      "ronger",
+      "compétence"
+    ],
+    [
+      "profession",
+      "boulot",
+      "perdrix",
+      "rayonnage"
+    ],
+    [
+      "hurler",
+      "Gavroche",
+      "carrière",
+      "artisan"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "métier",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

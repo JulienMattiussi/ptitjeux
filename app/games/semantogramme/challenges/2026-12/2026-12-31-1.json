@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "gâteau",
-      "soutenir",
-      "décoration",
-      "géologie"
+      "parka",
+      "spirale",
+      "fourrure",
+      "centrifugeuse"
     ],
     [
-      "anniversaire",
-      "cadeau",
-      "diagnostic",
-      "précis"
+      "tapenade",
+      "hiver",
+      "col",
+      "cumulus"
     ],
     [
-      "invitation",
-      "sonore",
-      "feu",
-      "bal"
+      "imperméable",
+      "jargon",
+      "perplexité",
+      "laine"
     ],
     [
-      "réparer",
-      "ballon",
-      "tenace",
-      "champagne"
+      "doudoune",
+      "pistache",
+      "Braque",
+      "frire"
     ]
   ],
   "rowClues": [
     2,
     2,
-    3,
-    2
+    2,
+    1
   ],
   "colClues": [
     3,
+    1,
     2,
-    2,
-    2
+    1
   ],
-  "themeWord": "fête",
+  "themeWord": "manteau",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       false
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
       false,
-      true,
+      false,
       true
     ],
     [
-      false,
       true,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

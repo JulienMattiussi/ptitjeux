@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-09-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "rhume",
+      "cinéma",
+      "Milka",
+      "expectoration",
+      "grippe",
+      "festin"
+    ],
+    [
+      "bariolé",
+      "podologue",
+      "bronchite",
+      "observation",
+      "Nietzsche",
+      "mouchoir"
+    ],
+    [
+      "asthme",
+      "chatouillement",
+      "parapher",
+      "poumons",
+      "virus",
+      "sèche"
+    ],
+    [
+      "grasse",
+      "Naples",
+      "étouffer",
+      "osier",
+      "brame",
+      "sirop"
+    ],
+    [
+      "pétales",
+      "coqueluche",
+      "graduation",
+      "majuscule",
+      "irritation",
+      "charité"
+    ],
+    [
+      "Tahiti",
+      "cidre",
+      "matrice",
+      "quinte",
+      "nuit",
+      "Joule"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    5,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "toux",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

@@ -5,91 +5,109 @@
   "height": 7,
   "words": [
     [
-      "avant-garde",
-      "aigue-marine",
-      "défaillir",
-      "coureur",
-      "cap",
-      "rouge",
-      "dodeliner"
+      "farniente",
+      "chemin",
+      "Coca",
+      "lambiner",
+      "demi",
+      "balade",
+      "truand"
     ],
     [
-      "insister",
-      "colonie",
-      "topaze",
-      "cabrioler",
-      "figure",
-      "géométrie",
-      "révolution"
+      "vagabonder",
+      "moiteur",
+      "vogue",
+      "Bruges",
+      "traîner",
+      "escargot",
+      "rouleau"
     ],
     [
-      "munch",
-      "amère",
-      "magicien",
-      "épurer",
-      "groin",
-      "blanc",
-      "sonar"
+      "moisissure",
+      "arachnophobie",
+      "Théodora",
+      "hublot",
+      "hôtel",
+      "dériver",
+      "préparatifs"
     ],
     [
-      "symptôme",
-      "noir",
-      "précipitation",
-      "simplifier",
-      "composer",
-      "randonnée",
-      "soigner"
+      "largage",
+      "Aragog",
+      "Paganini",
+      "promener",
+      "tapir",
+      "flocon",
+      "baguenauder"
     ],
     [
-      "chaude",
-      "escarpé",
-      "carré",
-      "russe",
-      "pure",
-      "identification",
-      "beurré"
+      "nonchalance",
+      "langoustines",
+      "flâner",
+      "Ursula",
+      "sauter",
+      "s'attarder",
+      "stop"
     ],
     [
-      "brochet",
-      "absolu",
-      "buffet",
-      "aumône",
-      "spirituel",
-      "rapprocher",
-      "léopard"
+      "rêvasser",
+      "oisiveté",
+      "vadrouille",
+      "paresser",
+      "Schliemann",
+      "bandonéon",
+      "poix"
     ],
     [
-      "ciboulette",
-      "photo",
-      "abstraction",
-      "ventiler",
-      "étoile",
-      "transvaser",
-      "barbu"
+      "errer",
+      "massage",
+      "crevettes",
+      "Vézelay",
+      "lys",
+      "lenteur",
+      "glander"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    2,
-    2,
-    3,
-    3,
-    2,
-    1
-  ],
-  "colClues": [
     1,
     2,
+    3,
+    4,
+    3
+  ],
+  "colClues": [
+    5,
+    2,
     2,
     3,
-    3,
-    3,
-    1
+    1,
+    4,
+    2
   ],
-  "themeWord": "suprématisme",
+  "themeWord": "musarder",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -99,58 +117,40 @@
     ],
     [
       false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false,
       false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

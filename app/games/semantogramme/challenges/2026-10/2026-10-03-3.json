@@ -5,77 +5,85 @@
   "height": 6,
   "words": [
     [
-      "trouer",
-      "reinette",
-      "guidon",
-      "dé",
-      "bénin",
-      "attraper"
+      "chic",
+      "ado",
+      "fesses",
+      "joaillerie",
+      "acupuncture",
+      "épouillage"
     ],
     [
-      "nez",
-      "transmigrer",
-      "congestion",
-      "plantigrade",
-      "froid",
-      "inhalation"
+      "motet",
+      "singe",
+      "mensuel",
+      "Égypte",
+      "harem",
+      "savane"
     ],
     [
-      "guérir",
-      "commun",
-      "fluvial",
-      "virus",
-      "gaie",
-      "lacune"
+      "troupe",
+      "darne",
+      "canines",
+      "Vézelay",
+      "mesuré",
+      "patin"
     ],
     [
-      "chaude",
-      "gestationnel",
-      "rayon",
-      "soigner",
-      "gencive",
-      "fièvre"
+      "primate",
+      "Afrique",
+      "décadence",
+      "Éthiopie",
+      "marimba",
+      "pipelette"
     ],
     [
-      "fémur",
-      "éternuement",
-      "star",
-      "mouchoir",
-      "enrhumé",
-      "banal"
+      "eau",
+      "Angleterre",
+      "phobie",
+      "impact",
+      "publicité",
+      "rocher"
     ],
     [
-      "toux",
-      "contagieux",
-      "figuier",
-      "fatigant",
-      "fournil",
-      "sangria"
+      "langueur",
+      "Rafiki",
+      "courbette",
+      "direction",
+      "larme",
+      "Kenya"
     ]
   ],
   "rowClues": [
     2,
     4,
-    3,
     2,
-    4,
-    3
-  ],
-  "colClues": [
-    3,
     3,
     1,
-    4,
+    2
+  ],
+  "colClues": [
+    2,
     3,
+    2,
+    2,
+    1,
     4
   ],
-  "themeWord": "rhume",
+  "themeWord": "babouin",
   "solution": [
     [
       false,
       false,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       true,
       true
     ],
@@ -84,8 +92,8 @@
       false,
       true,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       true,
@@ -99,7 +107,7 @@
       false,
       false,
       false,
-      true,
+      false,
       false,
       true
     ],
@@ -107,18 +115,10 @@
       false,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

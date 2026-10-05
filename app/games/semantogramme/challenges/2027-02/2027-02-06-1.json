@@ -5,46 +5,52 @@
   "height": 4,
   "words": [
     [
-      "fourmilière",
-      "rage",
-      "élémentaire",
-      "nageoire"
+      "ton",
+      "revue",
+      "orientée",
+      "rondeur"
     ],
     [
-      "museau",
-      "groupe",
-      "queue",
-      "tracer"
+      "abonnement",
+      "Pasteur",
+      "short",
+      "mensuel"
     ],
     [
-      "cétacé",
-      "océan",
-      "saut",
-      "fret"
+      "kiosque",
+      "rédaction",
+      "seiche",
+      "article"
     ],
     [
-      "médiévale",
-      "mammifère",
-      "intelligence",
-      "évent"
+      "Louisiane",
+      "gaver",
+      "couverture",
+      "sociologie"
     ]
   ],
   "rowClues": [
     1,
+    2,
     3,
-    3,
-    3
+    1
   ],
   "colClues": [
     2,
-    3,
-    3,
+    2,
+    1,
     2
   ],
-  "themeWord": "dauphin",
+  "themeWord": "magazine",
   "solution": [
     [
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true
@@ -52,21 +58,15 @@
     [
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
+      false,
+      true
     ],
     [
       false,
+      false,
       true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

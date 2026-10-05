@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "piano",
-      "tondeuse",
-      "crédit",
-      "euro"
+      "Kourou",
+      "névrose",
+      "Rackham",
+      "or"
     ],
     [
-      "dette",
-      "humecter",
-      "base",
-      "dollar"
+      "bijoux",
+      "sadique",
+      "vaccin",
+      "butin"
     ],
     [
-      "salaire",
-      "proton",
-      "billet",
-      "shopping"
+      "pirate",
+      "Marianne",
+      "coffre",
+      "île"
     ],
     [
-      "comprendre",
-      "intérêt",
-      "caillouteux",
-      "budget"
+      "chasse",
+      "doublon",
+      "carte",
+      "fourbe"
     ]
   ],
   "rowClues": [
     2,
     2,
-    2,
-    2
-  ],
-  "colClues": [
-    2,
-    1,
-    2,
+    3,
     3
   ],
-  "themeWord": "argent",
+  "colClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "trésor",
   "solution": [
     [
       false,
@@ -59,14 +59,14 @@
       true,
       false,
       true,
-      false
+      true
     ],
     [
-      false,
       true,
-      false,
-      true
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

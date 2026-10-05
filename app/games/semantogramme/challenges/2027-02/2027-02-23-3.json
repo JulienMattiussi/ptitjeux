@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "barque",
-      "rougeoyante",
-      "cierge",
-      "manque",
-      "morale",
-      "extase"
+      "troupeau",
+      "acquis",
+      "éduquer",
+      "cocktail",
+      "porc",
+      "ferme"
     ],
     [
-      "capteur",
-      "sacre",
-      "dame",
-      "cabine",
-      "pagaie",
-      "aviron"
+      "attente",
+      "construire",
+      "Jonas",
+      "désabusé",
+      "Darwin",
+      "désespoir"
     ],
     [
-      "spongieux",
-      "éventer",
-      "latte",
-      "stocker",
-      "canot",
-      "urbain"
+      "bétail",
+      "hisser",
+      "cor",
+      "tortilla",
+      "maquillage",
+      "dresser"
     ],
     [
-      "esquif",
-      "chorégraphie",
-      "gondole",
-      "voguer",
-      "verrue",
-      "limite"
+      "envergure",
+      "socialiste",
+      "colonial",
+      "lever",
+      "soigner",
+      "parent"
     ],
     [
-      "cadence",
-      "pagayer",
-      "royauté",
-      "godiller",
-      "circuit",
-      "couronner"
+      "basse-cour",
+      "éducation",
+      "Martinique",
+      "feuillet",
+      "grandir",
+      "vieillard"
     ],
     [
-      "pirogue",
-      "infection",
-      "régate",
-      "embarcation",
-      "galère",
-      "kayak"
+      "protégée",
+      "pâté",
+      "monter",
+      "fontaine",
+      "escarpin",
+      "vacant"
     ]
   ],
   "rowClues": [
-    1,
     4,
     1,
     3,
     3,
-    5
+    3,
+    1
   ],
   "colClues": [
-    4,
+    3,
+    3,
+    2,
     1,
     3,
-    4,
-    3,
-    2
+    3
   ],
-  "themeWord": "ramer",
+  "themeWord": "élever",
   "solution": [
     [
       true,
       false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
       false
     ],
     [
+      true,
+      true,
       false,
       false,
-      true,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

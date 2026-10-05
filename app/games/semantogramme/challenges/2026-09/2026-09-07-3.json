@@ -5,103 +5,79 @@
   "height": 6,
   "words": [
     [
-      "irriter",
-      "rassasier",
-      "sevrer",
-      "arboriculture",
-      "pâture",
-      "provisions"
+      "titi",
+      "chef",
+      "lunaire",
+      "étendoir",
+      "rêvasser",
+      "perdu"
     ],
     [
-      "toupie",
-      "gaver",
-      "allaiter",
-      "pèlerine",
-      "pourvoir",
-      "repaître"
+      "Tournesol",
+      "dégringoler",
+      "janvier",
+      "fatigue",
+      "sermonner",
+      "picorer"
     ],
     [
-      "pic",
-      "pylore",
-      "restaurer",
-      "peur",
-      "sacrifier",
-      "entrée"
+      "pieux",
+      "bourde",
+      "Donatello",
+      "concentration",
+      "Lagaffe",
+      "ailleurs"
     ],
     [
-      "marmotte",
-      "biberon",
-      "sustenter",
-      "régaler",
-      "engraisser",
-      "cousinage"
+      "perroquet",
+      "crasse",
+      "absent",
+      "étourdi",
+      "évasif",
+      "oubli"
     ],
     [
-      "sein",
-      "standard",
-      "trémousser",
-      "éternel",
-      "dinde",
-      "longévité"
+      "cajoler",
+      "gaffe",
+      "Kalamata",
+      "couper",
+      "myopie",
+      "complexe"
     ],
     [
-      "oser",
-      "alimenter",
-      "paupière",
-      "ration",
-      "serrée",
-      "mangeoire"
+      "égarer",
+      "pause",
+      "inattentif",
+      "songeur",
+      "papillonner",
+      "dinde"
     ]
   ],
   "rowClues": [
+    3,
+    1,
     4,
     4,
     1,
-    4,
-    1,
-    3
+    4
   ],
   "colClues": [
-    1,
-    4,
-    4,
+    2,
     2,
     3,
+    3,
+    4,
     3
   ],
-  "themeWord": "nourrir",
+  "themeWord": "distrait",
   "solution": [
     [
       false,
-      true,
+      false,
       true,
       false,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
     ],
     [
       true,
@@ -116,8 +92,32 @@
       true,
       false,
       true,
-      false,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 17

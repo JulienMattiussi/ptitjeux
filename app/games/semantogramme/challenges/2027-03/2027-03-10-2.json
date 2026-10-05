@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "farci",
-      "oncle",
-      "plancher",
-      "gerbe",
-      "store"
+      "nucléaire",
+      "music-hall",
+      "vestibule",
+      "fission",
+      "mousse"
     ],
     [
-      "oscillation",
-      "foule",
-      "titanic",
-      "constitutionnelle",
-      "tas"
+      "neutron",
+      "tragédie",
+      "particule",
+      "proton",
+      "dandysme"
     ],
     [
-      "contenu",
-      "archaïque",
-      "bourrer",
-      "remplir",
-      "saturer"
+      "noyau",
+      "Démocrite",
+      "physique",
+      "narcissisme",
+      "électron"
     ],
     [
-      "comble",
-      "pirogue",
-      "garenne",
-      "masse",
-      "profusion"
+      "sarcophage",
+      "molécule",
+      "matière",
+      "élément",
+      "malheureux"
     ],
     [
-      "gaver",
-      "bondé",
-      "abondance",
-      "espalier",
-      "pianissimo"
+      "Bohr",
+      "fusion",
+      "Ourse",
+      "inconditionnel",
+      "nacre"
     ]
   ],
   "rowClues": [
-    1,
     2,
+    3,
     4,
     3,
-    3
+    2
   ],
   "colClues": [
     4,
-    2,
-    2,
-    2,
-    3
+    3,
+    3,
+    3,
+    1
   ],
-  "themeWord": "plein",
+  "themeWord": "atome",
   "solution": [
     [
       true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
+      false
     ],
     [
       true,
       true,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

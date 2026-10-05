@@ -5,45 +5,51 @@
   "height": 4,
   "words": [
     [
-      "morille",
-      "rang",
-      "graine",
-      "jardinier"
+      "bulles",
+      "existence",
+      "pirate",
+      "carreaux"
     ],
     [
-      "carotte",
-      "haricot",
-      "puce",
-      "galet"
+      "élite",
+      "gazeux",
+      "glaçons",
+      "paille"
     ],
     [
-      "parcelle",
-      "fourreau",
-      "tomate",
-      "accéder"
+      "sucré",
+      "triple",
+      "demi-cercle",
+      "limonade"
     ],
     [
-      "courgette",
-      "spiritualité",
-      "arrosoir",
-      "légume"
+      "ampère",
+      "canette",
+      "Orangina",
+      "cordée"
     ]
   ],
   "rowClues": [
+    1,
     3,
     2,
-    2,
-    3
-  ],
-  "colClues": [
-    3,
-    2,
-    3,
     2
   ],
-  "themeWord": "potager",
+  "colClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "soda",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
@@ -51,22 +57,16 @@
     ],
     [
       true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

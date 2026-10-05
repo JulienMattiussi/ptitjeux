@@ -5,102 +5,111 @@
   "height": 7,
   "words": [
     [
-      "feuille",
-      "gratin",
-      "aubier",
-      "mars",
-      "tronc",
-      "portefeuille",
-      "inauguration"
+      "Picabia",
+      "silex",
+      "aller",
+      "proie",
+      "émissaire",
+      "chèvre",
+      "convoquer"
     ],
     [
-      "identification",
-      "rotation",
-      "forêt",
-      "corsaire",
-      "ordonnance",
-      "arbre",
-      "descriptive"
+      "tournoi",
+      "hameçon",
+      "rond",
+      "valet",
+      "assemblée",
+      "abricotier",
+      "affectation"
     ],
     [
-      "mairie",
-      "imaginer",
-      "savante",
-      "parental",
-      "gestionnaire",
-      "honte",
-      "dollar"
+      "rein",
+      "Amadeus",
+      "physionomie",
+      "filleul",
+      "yacht",
+      "chercher",
+      "héraut"
     ],
     [
-      "char",
-      "chagrin",
-      "cataloguer",
-      "accoudoir",
-      "racine",
-      "observer",
-      "cinsault"
+      "tata",
+      "Taine",
+      "Homère",
+      "mander",
+      "glotte",
+      "hérisson",
+      "appeler"
     ],
     [
-      "mesurer",
-      "doctorat",
-      "inspecter",
-      "décompression",
-      "datation",
-      "cerne",
-      "prunier"
+      "gai",
+      "commission",
+      "bulletin",
+      "limité",
+      "jeter",
+      "deux-roues",
+      "Tanzanie"
     ],
     [
-      "chenille",
-      "systématique",
-      "lion",
-      "spatule",
-      "tresse",
-      "écorce",
-      "armé"
+      "Corneille",
+      "coursier",
+      "demander",
+      "verso",
+      "serres",
+      "Baïkonour",
+      "envoyer"
     ],
     [
-      "malin",
-      "obésité",
-      "crépi",
-      "science",
-      "menuiserie",
-      "spécialisée",
-      "composée"
+      "masque",
+      "ramener",
+      "apesanteur",
+      "gant",
+      "sergent",
+      "barbecue",
+      "comté"
     ]
   ],
   "rowClues": [
     3,
-    4,
     1,
-    3,
-    3,
     2,
+    2,
+    1,
+    4,
     2
   ],
   "colClues": [
-    3,
-    1,
-    4,
     1,
     3,
-    5,
-    1
+    2,
+    2,
+    2,
+    1,
+    4
   ],
-  "themeWord": "dendrologie",
+  "themeWord": "quérir",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false,
       false
     ],
     [
-      true,
       false,
-      true,
+      false,
+      false,
       false,
       false,
       true,
@@ -109,29 +118,11 @@
     [
       false,
       false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      false,
-      false,
-      true,
-      true,
-      false
+      true
     ],
     [
       false,
@@ -139,18 +130,27 @@
       false,
       false,
       false,
-      true,
+      false,
       false
     ],
     [
+      true,
+      true,
+      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
       false,
-      true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

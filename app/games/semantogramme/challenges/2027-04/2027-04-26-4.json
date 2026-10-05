@@ -5,95 +5,113 @@
   "height": 7,
   "words": [
     [
-      "tige",
-      "baudelaire",
-      "champ",
-      "est",
-      "strophe",
-      "fondre",
-      "pétillant"
+      "Germinal",
+      "classique",
+      "fission",
+      "propice",
+      "musée",
+      "plat",
+      "saut"
     ],
     [
-      "inoccupé",
-      "orateur",
-      "atoll",
-      "haute",
-      "matinale",
+      "rentrée",
+      "façade",
+      "énumérer",
+      "céréale",
+      "architecture",
+      "Gabon",
+      "encadrement"
+    ],
+    [
+      "senteur",
       "décoratif",
-      "toboggan"
+      "têtu",
+      "ferry",
+      "colonne",
+      "Job",
+      "infidélité"
     ],
     [
-      "équation",
-      "sentence",
-      "généreux",
-      "pousser",
-      "prolonger",
-      "accusé",
-      "cornu"
+      "rincée",
+      "stylet",
+      "côtier",
+      "pilier",
+      "demi-cercle",
+      "sulfure",
+      "beugler"
     ],
     [
-      "rarissime",
-      "bonheur",
-      "client",
-      "femelle",
-      "rustique",
-      "bleu",
-      "rose"
+      "mur",
+      "Corbusier",
+      "rotation",
+      "âne",
+      "pendule",
+      "cheminot",
+      "argile"
     ],
     [
-      "lacrimosa",
-      "pectoral",
-      "violet",
-      "bander",
-      "lampadaire",
-      "pétale",
-      "cultivé"
+      "barcarolle",
+      "glycémie",
+      "corinthien",
+      "cannelures",
+      "entablement",
+      "saillie",
+      "Renaissance"
     ],
     [
-      "tromperie",
-      "banlieue",
-      "pion",
-      "graine",
-      "tester",
-      "plante",
-      "fleurir"
-    ],
-    [
-      "président",
-      "grappe",
-      "sauvage",
-      "shampooing",
-      "jaune",
-      "lévi-strauss",
-      "épi"
+      "expansion",
+      "Palladio",
+      "pieux",
+      "mug",
+      "Bergues",
+      "fût",
+      "dorique"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
-    2,
-    3,
-    3,
-    3,
-    4
+    1,
+    1,
+    5,
+    3
   ],
   "colClues": [
     1,
+    4,
     1,
-    4,
-    3,
     2,
-    4,
-    4
+    3,
+    3,
+    3
   ],
-  "themeWord": "lupin",
+  "themeWord": "pilastre",
   "solution": [
     [
-      true,
       false,
       true,
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
       false,
       false
     ],
@@ -103,7 +121,16 @@
       false,
       true,
       false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
@@ -111,46 +138,19 @@
       false,
       true,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true,
       true,
       true
     ],
     [
       false,
-      false,
       true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

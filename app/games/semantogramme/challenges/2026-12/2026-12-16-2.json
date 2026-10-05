@@ -5,83 +5,69 @@
   "height": 5,
   "words": [
     [
-      "fervente",
-      "prière",
-      "piété",
-      "croyance",
-      "gaieté"
+      "bourde",
+      "seconde",
+      "scientifique",
+      "découverte",
+      "lettré"
     ],
     [
-      "girouette",
-      "adorer",
-      "chapelet",
-      "candide",
-      "pin"
+      "sage",
+      "invectiver",
+      "agriculteur",
+      "Einstein",
+      "orientable"
     ],
     [
-      "voilé",
-      "mystique",
-      "sincère",
-      "beige",
-      "chaise"
+      "Bayard",
+      "nausée",
+      "érudit",
+      "vétuste",
+      "professeur"
     ],
     [
-      "pieuse",
-      "religion",
-      "trampoline",
-      "pétiller",
-      "tragédie"
+      "plénitude",
+      "docte",
+      "cubisme",
+      "Curie",
+      "chiche"
     ],
     [
-      "zinc",
-      "violet",
-      "culte",
-      "annulaire",
-      "vénérer"
+      "lésiner",
+      "chercheur",
+      "Pocahontas",
+      "génie",
+      "cisailles"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
     2,
     2,
     2
   ],
   "colClues": [
+    1,
+    2,
     2,
     4,
-    4,
-    1,
-    1
+    2
   ],
-  "themeWord": "dévotion",
+  "themeWord": "savant",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
+      false,
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
+      true
     ],
     [
       true,
+      false,
+      false,
       true,
-      false,
-      false,
       false
     ],
     [
@@ -90,7 +76,21 @@
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

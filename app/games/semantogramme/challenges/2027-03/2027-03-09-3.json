@@ -5,82 +5,74 @@
   "height": 6,
   "words": [
     [
-      "mou",
-      "sucre",
-      "cabinet",
-      "préparer",
-      "historique",
-      "plectre"
+      "rejeter",
+      "banjo",
+      "western",
+      "agonisant",
+      "castagnettes",
+      "alerte"
     ],
     [
-      "orient",
-      "oasis",
-      "noyau",
-      "écriture",
-      "coccinelle",
-      "varech"
+      "Texas",
+      "bottes",
+      "maquette",
+      "gentil",
+      "Flaubert",
+      "stigmatiser"
     ],
     [
-      "collant",
-      "sec",
-      "monologue",
-      "apéritif",
-      "folklorique",
-      "pendule"
+      "Tazieff",
+      "Kong",
+      "garou",
+      "Rothko",
+      "respiration",
+      "cow-boy"
     ],
     [
-      "effacé",
-      "caramel",
-      "gouvernemental",
-      "dextérité",
-      "compote",
-      "produire"
+      "Kentucky",
+      "chapeau",
+      "Parton",
+      "lame",
+      "Dixie",
+      "violon"
     ],
     [
-      "confortable",
-      "pâtisserie",
-      "pourfendre",
-      "boutonnière",
-      "pain",
-      "fruit"
+      "guitare",
+      "Appalaches",
+      "Cash",
+      "comportement",
+      "maquillage",
+      "Brahms"
     ],
     [
-      "tunisie",
-      "serpent",
-      "noël",
-      "quadrilatère",
-      "cueillette",
-      "resplendissant"
+      "atrabile",
+      "saloon",
+      "rodéo",
+      "Nashville",
+      "censure",
+      "tombereau"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
     2,
-    2,
+    1,
+    5,
+    3,
     3
   ],
   "colClues": [
-    4,
+    3,
     5,
-    2,
+    4,
     1,
-    2,
-    1
+    1,
+    2
   ],
-  "themeWord": "datte",
+  "themeWord": "country",
   "solution": [
     [
-      true,
-      true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false,
@@ -91,21 +83,13 @@
       true,
       true,
       false,
-      true,
+      false,
       false,
       false
     ],
     [
       false,
-      true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
@@ -113,12 +97,28 @@
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

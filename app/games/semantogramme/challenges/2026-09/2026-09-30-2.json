@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "disque",
-      "olympique",
-      "haie",
-      "sprint",
-      "opinion"
+      "répétition",
+      "biscuit",
+      "joint",
+      "naissance",
+      "couffin"
     ],
     [
-      "javelot",
-      "segment",
-      "svelte",
-      "bander",
-      "sportif"
+      "ré",
+      "Mésopotamie",
+      "Freud",
+      "nourrisson",
+      "oeil"
     ],
     [
-      "médaille",
-      "trôner",
-      "blanc",
-      "dégoût",
-      "sauter"
+      "civilisation",
+      "mobile",
+      "vasque",
+      "chasseur",
+      "cuissot"
     ],
     [
-      "parasol",
-      "minier",
-      "individuel",
-      "piste",
-      "rapide"
+      "Aragon",
+      "layette",
+      "nid",
+      "laitue",
+      "langes"
     ],
     [
-      "chat",
-      "propulser",
-      "lancer",
-      "mangeoire",
-      "mammifère"
+      "adducteurs",
+      "maternité",
+      "gai",
+      "origine",
+      "verve"
     ]
   ],
   "rowClues": [
-    4,
+    2,
     2,
     2,
     3,
     2
   ],
   "colClues": [
+    1,
+    4,
+    1,
     3,
-    2,
-    3,
-    2,
-    3
+    2
   ],
-  "themeWord": "athlétisme",
+  "themeWord": "berceau",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
-      true,
+      false,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
+      false
     ],
     [
       false,
       true,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

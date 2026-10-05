@@ -5,84 +5,84 @@
   "height": 5,
   "words": [
     [
-      "avion",
-      "division",
-      "omoplate",
-      "dévorer",
-      "appât"
+      "étang",
+      "marais",
+      "Arcachon",
+      "bandelette",
+      "sel"
     ],
     [
-      "théâtre",
-      "dorsal",
-      "scoliose",
-      "échine",
-      "effort"
+      "commune",
+      "Manche",
+      "ourson",
+      "littoral",
+      "mousquetaire"
     ],
     [
-      "reins",
-      "californien",
-      "bossu",
-      "nuque",
-      "lisse"
+      "pascal",
+      "flamant",
+      "lido",
+      "jointure",
+      "gondole"
     ],
     [
-      "coloré",
-      "pencher",
-      "limpidité",
-      "somnoler",
-      "lombaire"
+      "salée",
+      "organiste",
+      "huître",
+      "arrogant",
+      "appartement"
     ],
     [
-      "lumbago",
-      "épine",
-      "vertèbre",
-      "royal",
-      "sciatique"
+      "lagon",
+      "Camargue",
+      "Venise",
+      "Word",
+      "saumâtre"
     ]
   ],
   "rowClues": [
+    4,
     1,
-    3,
     3,
     2,
     4
   ],
   "colClues": [
-    2,
+    3,
     3,
     4,
-    2,
-    2
+    1,
+    3
   ],
-  "themeWord": "dos",
+  "themeWord": "lagune",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ],
     [
       true,
@@ -92,5 +92,5 @@
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

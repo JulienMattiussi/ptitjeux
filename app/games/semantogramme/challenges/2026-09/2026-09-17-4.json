@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "piquer",
-      "stalagmite",
-      "lèchefrite",
-      "primordial",
-      "duchamp",
-      "primitive",
-      "sec"
+      "coulisses",
+      "pelure",
+      "paille",
+      "gronder",
+      "roué",
+      "réprimander",
+      "frettes"
     ],
     [
-      "détritus",
-      "rédiger",
-      "côte",
-      "décisif",
-      "répéter",
-      "mignon",
-      "antique"
+      "protéine",
+      "avertissement",
+      "hautain",
+      "muscat",
+      "remontrance",
+      "aquilin",
+      "recadrer"
     ],
     [
-      "percutant",
-      "traversée",
-      "tranchant",
-      "fin",
-      "satirique",
-      "critique",
-      "gestionnaire"
+      "guérison",
+      "tancer",
+      "écaille",
+      "USB",
+      "flagorneur",
+      "ichtyosaure",
+      "punition"
     ],
     [
-      "stéthoscope",
-      "piquant",
-      "aigu",
-      "propulsion",
-      "coupant",
-      "acéré",
-      "planétaire"
+      "éphémérides",
+      "surdoué",
+      "corriger",
+      "pêcheur",
+      "toupie",
+      "brocoli",
+      "Grincheux"
     ],
     [
-      "préhistorique",
-      "précis",
-      "cassant",
-      "mordant",
-      "sarcastique",
-      "cétacé",
-      "tacher"
+      "sermonner",
+      "émetteur",
+      "mercuriale",
+      "sanction",
+      "allégorie",
+      "statue",
+      "censure"
     ],
     [
-      "dodeliner",
-      "redoutable",
-      "cinglant",
-      "folklore",
-      "froussard",
-      "balancier",
-      "wok"
+      "chapitrer",
+      "houspiller",
+      "hanter",
+      "David",
+      "roulant",
+      "drone",
+      "vélociraptor"
     ],
     [
-      "barbu",
-      "icône",
-      "attaquer",
-      "fendre",
-      "nouvel",
-      "pneumatique",
-      "joie"
+      "blâmer",
+      "rusé",
+      "semonce",
+      "ragoût",
+      "Rachmaninov",
+      "bocal",
+      "agronomie"
     ]
   ],
   "rowClues": [
     2,
+    3,
+    2,
     1,
-    4,
-    4,
     4,
     2,
     2
   ],
   "colClues": [
-    2,
     3,
-    5,
     3,
     3,
     2,
-    1
+    1,
+    1,
+    3
   ],
-  "themeWord": "incisif",
+  "themeWord": "admonester",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
@@ -100,8 +118,26 @@
     [
       false,
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false,
       false,
       false
@@ -111,46 +147,10 @@
       false,
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

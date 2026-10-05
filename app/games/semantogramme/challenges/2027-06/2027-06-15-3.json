@@ -5,103 +5,95 @@
   "height": 6,
   "words": [
     [
-      "étiré",
-      "désert",
-      "reposer",
-      "tête",
-      "mouvement",
-      "patte"
+      "entreprenant",
+      "verte",
+      "invasion",
+      "verdure",
+      "marches",
+      "stridulation"
     ],
     [
-      "sable",
-      "afrique",
-      "oeuf",
-      "résultat",
-      "oiseau",
-      "grande"
+      "champ",
+      "haubans",
+      "herbe",
+      "dilater",
+      "dormir",
+      "prairie"
     ],
     [
-      "pétrir",
-      "porcine",
-      "incapable",
-      "inapte",
-      "gros",
-      "étreindre"
+      "chant",
+      "nuée",
+      "élytres",
+      "criquet",
+      "été",
+      "aileron"
     ],
     [
-      "cocon",
-      "archéologue",
-      "cou",
-      "rentrer",
-      "manivelle",
-      "enterrer"
+      "pliant",
+      "Pasquier",
+      "insecte",
+      "Annecy",
+      "antennes",
+      "Liège"
     ],
     [
-      "pulvériser",
-      "romarin",
-      "cacher",
-      "voler",
-      "rapide",
-      "modem"
+      "Courvoisier",
+      "inexorable",
+      "Égypte",
+      "grillon",
+      "Pinder",
+      "pénétration"
     ],
     [
-      "mastiquer",
-      "courir",
-      "propriétaire",
-      "stéthoscope",
-      "cyclique",
-      "savane"
+      "chirurgie",
+      "plaie",
+      "chatouille",
+      "Hawaï",
+      "distraction",
+      "collier"
     ]
   ],
   "rowClues": [
+    4,
+    3,
+    5,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
     3,
     5,
     3,
     2,
-    2,
     2
   ],
-  "colClues": [
-    1,
-    3,
-    4,
-    2,
-    3,
-    4
-  ],
-  "themeWord": "autruche",
+  "themeWord": "sauterelle",
   "solution": [
     [
       false,
       true,
-      false,
+      true,
       true,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
       false,
       true,
+      false,
+      false,
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
     ],
     [
       false,
@@ -113,11 +105,19 @@
     ],
     [
       false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
       false,
-      true
+      false
     ]
   ],
   "parMoves": 17

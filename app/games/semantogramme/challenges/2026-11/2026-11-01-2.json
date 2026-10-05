@@ -5,82 +5,61 @@
   "height": 5,
   "words": [
     [
-      "incendier",
-      "espace",
-      "impondérable",
-      "amas",
-      "voie"
+      "Espagne",
+      "apathie",
+      "campus",
+      "clémentine",
+      "pulpe"
     ],
     [
-      "immortalité",
-      "cosmos",
-      "observer",
-      "félicité",
-      "géranium"
+      "quartier",
+      "sanguine",
+      "acanthe",
+      "zeste",
+      "misanthrope"
     ],
     [
-      "vipère",
-      "tournoyer",
-      "étoile",
-      "liberté",
-      "elliptique"
+      "sol",
+      "vitamine",
+      "mandarine",
+      "laiteux",
+      "éperon"
     ],
     [
-      "crustacé",
-      "opaque",
-      "lactée",
-      "planète",
-      "cosmique"
+      "écorce",
+      "agrume",
+      "remontrance",
+      "pépin",
+      "projet"
     ],
     [
-      "lointaine",
-      "briller",
-      "capitale",
-      "univers",
-      "feuilletage"
+      "dessalage",
+      "désastre",
+      "triton",
+      "Valence",
+      "Floride"
     ]
   ],
   "rowClues": [
     3,
+    3,
     2,
     3,
-    3,
-    3
+    2
   ],
   "colClues": [
+    3,
+    3,
     1,
     4,
-    3,
-    3,
-    3
+    2
   ],
-  "themeWord": "galaxie",
+  "themeWord": "orange",
   "solution": [
     [
-      false,
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       true
     ],
@@ -90,7 +69,28 @@
       false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

@@ -5,58 +5,46 @@
   "height": 4,
   "words": [
     [
-      "sprint",
-      "bonhomme",
-      "pédalier",
-      "peloton"
+      "ruine",
+      "Méditerranée",
+      "globe-trotteur",
+      "guède"
     ],
     [
-      "route",
-      "maillot",
-      "guidon",
-      "kumquat"
+      "berbère",
+      "iode",
+      "marin",
+      "écume"
     ],
     [
-      "descente",
-      "col",
-      "toux",
-      "recyclable"
+      "régal",
+      "mouette",
+      "assemblée",
+      "littoral"
     ],
     [
-      "pirouette",
-      "étape",
-      "malade",
-      "vélo"
+      "bateau",
+      "dossier",
+      "sel",
+      "obséquieux"
     ]
   ],
   "rowClues": [
-    3,
+    1,
     3,
     2,
     2
   ],
   "colClues": [
-    3,
+    1,
     3,
     2,
     2
   ],
-  "themeWord": "cyclisme",
+  "themeWord": "mer",
   "solution": [
     [
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       false,
       false
@@ -64,9 +52,21 @@
     [
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "couloir",
-      "pencher",
-      "choix",
-      "fruit",
-      "doux"
+      "jet-set",
+      "malicieux",
+      "boyau",
+      "zélé",
+      "foyer"
     ],
     [
-      "chorégraphie",
-      "rétrécir",
-      "fente",
-      "stalagmite",
-      "pratique"
+      "ascendant",
+      "geste",
+      "fermentation",
+      "papa",
+      "Londres"
     ],
     [
-      "exigu",
-      "nappe",
-      "défilé",
-      "resserrer",
-      "pincé"
+      "trois",
+      "enfant",
+      "père",
+      "maman",
+      "naissance"
     ],
     [
-      "filiation",
-      "roi",
-      "sentier",
-      "tisane",
-      "comprimer"
+      "éducation",
+      "mère",
+      "fluorescent",
+      "brique",
+      "marmaille"
     ],
     [
-      "goulot",
-      "restreint",
-      "agrafe",
-      "geindre",
-      "mince"
+      "réunion",
+      "nager",
+      "tuteur",
+      "école",
+      "nonchalant"
     ]
   ],
   "rowClues": [
     1,
     2,
     4,
-    2,
+    3,
     3
   ],
   "colClues": [
     3,
     2,
+    2,
     3,
-    1,
     3
   ],
-  "themeWord": "étroit",
+  "themeWord": "parent",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

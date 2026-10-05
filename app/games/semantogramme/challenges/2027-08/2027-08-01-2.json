@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-01-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "maçon",
+      "assourdissant",
+      "tintamarre",
+      "décibel",
+      "lecteur"
+    ],
+    [
+      "tapage",
+      "sirène",
+      "entreprise",
+      "honnir",
+      "chahut"
+    ],
+    [
+      "monumental",
+      "vacarme",
+      "boucan",
+      "sonore",
+      "voisin"
+    ],
+    [
+      "tumulte",
+      "Lemaître",
+      "convertir",
+      "cordonnier",
+      "tintouin"
+    ],
+    [
+      "pétard",
+      "fracas",
+      "valve",
+      "antivol",
+      "klaxon"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    2,
+    4
+  ],
+  "themeWord": "bruyant",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

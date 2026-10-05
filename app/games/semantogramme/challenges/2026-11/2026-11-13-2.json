@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "risqué",
-      "rythmé",
-      "émail",
-      "croquer",
-      "pèlerine"
+      "sécateur",
+      "cadran",
+      "Galilée",
+      "oscillation",
+      "cheminée"
     ],
     [
-      "fil",
-      "mordre",
-      "antenne",
-      "gluant",
-      "carie"
+      "Yoda",
+      "Pontormo",
+      "remontoir",
+      "balancier",
+      "bourdonner"
     ],
     [
-      "vaste",
-      "incisive",
-      "voter",
-      "gel",
-      "lunette"
+      "tic-tac",
+      "sonnerie",
+      "vertige",
+      "marguerite",
+      "ready-made"
     ],
     [
-      "sagesse",
-      "figure",
-      "arroser",
-      "prémolaire",
-      "menu"
+      "comtoise",
+      "bovidé",
+      "coucou",
+      "extralucide",
+      "potins"
     ],
     [
-      "mâcher",
-      "silicone",
-      "molaire",
-      "racine",
-      "brosse"
+      "mobil-home",
+      "chameau",
+      "auriculaire",
+      "heure",
+      "sentence"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    3,
-    1,
     2,
-    4
+    2,
+    1
   ],
   "colClues": [
-    3,
     2,
     2,
     3,
-    2
+    3,
+    1
   ],
-  "themeWord": "dent",
+  "themeWord": "pendule",
   "solution": [
     [
       false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

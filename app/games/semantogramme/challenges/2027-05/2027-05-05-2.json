@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "ciseaux",
-      "fil",
-      "amplificateur",
-      "couture",
-      "bobine"
+      "chant",
+      "pourparlers",
+      "Oedipe",
+      "arctique",
+      "tribal"
     ],
     [
-      "tissu",
-      "cicatriser",
-      "dé",
-      "tricoter",
-      "machine"
+      "naissance",
+      "vertébré",
+      "programme",
+      "Maghreb",
+      "dispute"
     ],
     [
-      "point",
-      "ensorceler",
-      "bouton",
-      "inspirer",
-      "noyer"
+      "clarté",
+      "coq",
+      "broche",
+      "soleil",
+      "mesa"
     ],
     [
-      "amuser",
-      "broder",
-      "sanction",
-      "patron",
-      "aiguille"
+      "lueur",
+      "rocaille",
+      "matin",
+      "début",
+      "étiquette"
     ],
     [
-      "précipice",
-      "tropical",
-      "ourlet",
-      "culbute",
-      "amortisseur"
+      "Niger",
+      "tricheur",
+      "horizon",
+      "pâleur",
+      "réveil"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    2,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    2,
+    1,
+    1,
     3,
     3,
     3
   ],
-  "themeWord": "coudre",
+  "colClues": [
+    4,
+    1,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "aube",
   "solution": [
     [
       true,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ],
     [
       false,
       false,
       true,
-      false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

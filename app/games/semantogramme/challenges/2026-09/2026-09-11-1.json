@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "téléphérique",
-      "place",
-      "charbon",
-      "immeuble"
+      "croquette",
+      "niche",
+      "Démosthène",
+      "vénéneux"
     ],
     [
-      "banque",
-      "aventure",
-      "avenue",
-      "métro"
+      "rangé",
+      "aboyer",
+      "museau",
+      "collier"
     ],
     [
-      "hêtre",
-      "trottoir",
-      "coquillage",
-      "pistolet"
+      "Médor",
+      "sacre",
+      "zigzag",
+      "toutou"
     ],
     [
-      "lampadaire",
-      "parking",
-      "résistant",
-      "boulevard"
+      "relèvement",
+      "caniche",
+      "laisse",
+      "os"
     ]
   ],
   "rowClues": [
     2,
     3,
-    1,
+    2,
     3
   ],
   "colClues": [
     2,
     3,
-    1,
+    2,
     3
   ],
-  "themeWord": "ville",
+  "themeWord": "chien",
   "solution": [
     [
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false
     ],
     [
+      false,
       true,
+      true,
+      true
+    ],
+    [
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

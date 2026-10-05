@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "front",
-      "moulinet",
-      "politique",
-      "menton",
-      "occiput"
+      "ambre",
+      "mental",
+      "bourguignonne",
+      "préhistoire",
+      "coquillage"
     ],
     [
-      "gondolé",
-      "cuir",
-      "oeil",
-      "nuque",
-      "tourner"
+      "trilobite",
+      "cantatrice",
+      "paléontologue",
+      "prétendre",
+      "ammonite"
     ],
     [
-      "perfusion",
-      "oreille",
-      "mâchoire",
-      "sirène",
-      "cheveu"
+      "empreinte",
+      "autrefois",
+      "osier",
+      "vestige",
+      "strophe"
     ],
     [
-      "tempe",
-      "républicain",
-      "asphyxie",
-      "proie",
-      "populaire"
+      "Pise",
+      "drôle",
+      "sédiment",
+      "brader",
+      "strate"
     ],
     [
-      "sauveteur",
-      "joue",
-      "nez",
-      "caboche",
-      "circuit"
+      "roche",
+      "pétrifié",
+      "calcaire",
+      "coeur",
+      "carbone"
     ]
   ],
   "rowClues": [
     3,
     3,
-    3,
-    1,
-    3
+    2,
+    2,
+    4
   ],
   "colClues": [
+    4,
+    1,
+    3,
     2,
-    3,
-    3,
-    3,
-    2
+    4
   ],
-  "themeWord": "tête",
+  "themeWord": "fossile",
   "solution": [
     [
       true,
@@ -64,15 +64,8 @@
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true
@@ -81,16 +74,23 @@
       true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       true,
       true,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

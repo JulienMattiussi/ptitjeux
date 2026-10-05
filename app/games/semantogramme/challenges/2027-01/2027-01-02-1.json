@@ -5,54 +5,48 @@
   "height": 4,
   "words": [
     [
-      "emballage",
-      "ravissement",
-      "paquet",
-      "décomposé"
+      "pollution",
+      "canard",
+      "grillade",
+      "côtelette"
     ],
     [
-      "jouet",
-      "fleur",
-      "révélation",
-      "bague"
+      "steak",
+      "fanion",
+      "boeuf",
+      "Mandelieu"
     ],
     [
-      "noël",
-      "tournage",
-      "ruban",
-      "pinson"
+      "Shrek",
+      "boucher",
+      "ennui",
+      "porc"
     ],
     [
-      "bienveillant",
-      "carte",
-      "carillonner",
-      "chocolat"
+      "agneau",
+      "Goya",
+      "visqueux",
+      "îles"
     ]
   ],
   "rowClues": [
     2,
-    3,
     2,
-    2
+    2,
+    1
   ],
   "colClues": [
-    3,
     2,
+    1,
     2,
     2
   ],
-  "themeWord": "cadeau",
+  "themeWord": "viande",
   "solution": [
     [
-      true,
+      false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true
     ],
     [
@@ -66,7 +60,13 @@
       true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

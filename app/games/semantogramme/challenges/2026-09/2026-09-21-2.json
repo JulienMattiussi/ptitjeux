@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cruauté",
-      "malveillance",
-      "cou",
-      "cruel",
-      "insulter"
+      "atomique",
+      "élève",
+      "coiffeuse",
+      "éphémère",
+      "sprint"
     ],
     [
-      "détester",
-      "défense",
-      "haine",
-      "projection",
-      "malicieux"
+      "ganache",
+      "accalmie",
+      "instant",
+      "oyat",
+      "précision"
     ],
     [
-      "montante",
-      "flâner",
-      "correspondance",
-      "sarcasme",
-      "secours"
+      "top",
+      "record",
+      "spirale",
+      "lycée",
+      "compétition"
     ],
     [
-      "éternel",
-      "délivrer",
-      "frapper",
-      "précieux",
-      "odieux"
+      "moment",
+      "quartz",
+      "proximité",
+      "tic-tac",
+      "babiller"
     ],
     [
-      "tourterelle",
-      "rancune",
-      "aplanir",
-      "coup",
-      "sadique"
+      "bref",
+      "rap",
+      "veule",
+      "centième",
+      "battement"
     ]
   ],
   "rowClues": [
-    4,
     3,
-    1,
     2,
+    3,
+    3,
     3
   ],
   "colClues": [
+    4,
     2,
-    2,
-    2,
-    3,
-    4
+    1,
+    4,
+    3
   ],
-  "themeWord": "méchant",
+  "themeWord": "seconde",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
-      true
+      true,
+      false
     ],
     [
-      false,
       true,
+      false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

@@ -5,54 +5,48 @@
   "height": 4,
   "words": [
     [
-      "ring",
-      "guitare",
-      "trompette",
-      "frère"
+      "rase-mottes",
+      "soleil",
+      "efficace",
+      "messager"
     ],
     [
-      "orgue",
-      "violon",
-      "tambour",
-      "gomme"
+      "religion",
+      "chapeau",
+      "texture",
+      "Niger"
     ],
     [
-      "imprimante",
-      "harpe",
-      "diriger",
-      "parent"
+      "logo",
+      "bidonner",
+      "isolation",
+      "tête"
     ],
     [
-      "batterie",
-      "travée",
-      "plénitude",
-      "saxophone"
+      "Gavroche",
+      "enjamber",
+      "baseball",
+      "rap"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     1,
-    2
+    1,
+    2,
+    3
   ],
   "colClues": [
     2,
-    3,
     2,
-    1
+    1,
+    2
   ],
-  "themeWord": "instrument",
+  "themeWord": "casquette",
   "solution": [
     [
       false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
@@ -66,7 +60,13 @@
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

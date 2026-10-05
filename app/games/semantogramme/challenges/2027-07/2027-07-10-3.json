@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-10-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "serveur",
+      "piailler",
+      "allumette",
+      "catéchumène",
+      "intrigue",
+      "grotte"
+    ],
+    [
+      "brindille",
+      "pierrot",
+      "pain",
+      "miettes",
+      "gris",
+      "courriel"
+    ],
+    [
+      "nid",
+      "piaf",
+      "graine",
+      "planche",
+      "toit",
+      "embaumer"
+    ],
+    [
+      "Paris",
+      "Babylone",
+      "design",
+      "surmonter",
+      "petit",
+      "Lorient"
+    ],
+    [
+      "oiseau",
+      "équerre",
+      "pressé",
+      "jardinier",
+      "rue",
+      "commun"
+    ],
+    [
+      "plume",
+      "Mead",
+      "bisannuel",
+      "passereau",
+      "ville",
+      "pale"
+    ]
+  ],
+  "rowClues": [
+    1,
+    5,
+    4,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    5,
+    3,
+    2,
+    2,
+    5,
+    1
+  ],
+  "themeWord": "moineau",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

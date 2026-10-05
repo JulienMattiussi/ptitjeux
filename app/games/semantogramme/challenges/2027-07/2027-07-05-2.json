@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-05-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "genou",
+      "pagode",
+      "humour",
+      "casque",
+      "artiste"
+    ],
+    [
+      "music-hall",
+      "Jean-Marc",
+      "arbustive",
+      "dialogue",
+      "pantin"
+    ],
+    [
+      "marionnette",
+      "imiter",
+      "fruitier",
+      "enjambée",
+      "chlore"
+    ],
+    [
+      "parler",
+      "illusion",
+      "lèvres",
+      "sketch",
+      "culmination"
+    ],
+    [
+      "rugir",
+      "Panacloc",
+      "détroit",
+      "spectacle",
+      "poupée"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "ventriloque",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

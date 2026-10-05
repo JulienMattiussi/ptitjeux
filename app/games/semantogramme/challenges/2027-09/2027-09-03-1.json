@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-03-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "modeler",
+      "questionnement",
+      "convalescent",
+      "hocher"
+    ],
+    [
+      "cirrus",
+      "ciseau",
+      "buste",
+      "bronze"
+    ],
+    [
+      "statue",
+      "Michel-Ange",
+      "marbre",
+      "humanité"
+    ],
+    [
+      "socle",
+      "argile",
+      "fondue",
+      "Rodin"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "sculpture",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

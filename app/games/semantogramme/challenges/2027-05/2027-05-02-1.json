@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "affection",
-      "trois-cent-soixante-cinq",
-      "attirance",
-      "accordéon"
+      "récréation",
+      "pyjama",
+      "souvenir",
+      "puéril"
     ],
     [
-      "panne",
-      "adoration",
-      "étendre",
-      "désir"
+      "doudou",
+      "innocence",
+      "centime",
+      "jouet"
     ],
     [
-      "anneau",
-      "organe",
-      "romance",
-      "ancien"
+      "bambin",
+      "folklore",
+      "comptine",
+      "protégé"
     ],
     [
-      "flirt",
-      "baiser",
-      "piste",
-      "coeur"
+      "Roméo",
+      "école",
+      "dilution",
+      "insouciance"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
-    3
-  ],
-  "colClues": [
-    2,
-    2,
+    3,
+    3,
     2,
     2
   ],
-  "themeWord": "amour",
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "enfance",
   "solution": [
     [
       true,
       false,
       true,
-      false
+      true
     ],
     [
-      false,
+      true,
       true,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
       false
     ],
     [
-      true,
+      false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

@@ -5,86 +5,78 @@
   "height": 6,
   "words": [
     [
-      "pâte",
-      "pélagique",
-      "séduire",
-      "langue",
-      "féliciter",
-      "sandwich"
+      "tendre",
+      "sucre",
+      "gaufrette",
+      "miel",
+      "pistaches",
+      "mensonger"
     ],
     [
-      "extrémité",
-      "conserve",
-      "compact",
-      "huile",
-      "refuge",
-      "plancton"
+      "tamisé",
+      "troisième",
+      "Provence",
+      "bonbon",
+      "dentiste",
+      "dégringoler"
     ],
     [
-      "oeil",
-      "déserter",
-      "foule",
-      "serrer",
-      "pêche",
-      "argenté"
+      "Résistance",
+      "Montélimar",
+      "Nana",
+      "Budé",
+      "ARN",
+      "croquant"
     ],
     [
-      "prison",
-      "velours",
-      "maroquinerie",
-      "tumulte",
-      "banquier",
-      "fumé"
+      "Espagne",
+      "blanc",
+      "exubérant",
+      "amandes",
+      "respect",
+      "bousier"
+    ],
+    [
+      "acupuncture",
+      "colvert",
+      "glucose",
+      "œnophile",
+      "Charente",
+      "confiserie"
     ],
     [
       "petit",
-      "mer",
-      "apéritif",
-      "escargot",
-      "ouragan",
-      "banc"
-    ],
-    [
-      "rectitude",
-      "instituteur",
-      "marquer",
-      "poisson",
-      "algébrique",
-      "boîte"
+      "friandise",
+      "bitter",
+      "sacrement",
+      "sentinelle",
+      "cadence"
     ]
   ],
   "rowClues": [
+    5,
+    3,
     2,
     3,
-    4,
-    1,
-    4,
-    2
+    2,
+    1
   ],
   "colClues": [
-    1,
+    2,
+    4,
     3,
     3,
-    3,
-    1,
-    5
+    2,
+    2
   ],
-  "themeWord": "sardine",
+  "themeWord": "nougat",
   "solution": [
     [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
       true,
-      false,
+      true,
+      true,
       false
     ],
     [
@@ -93,31 +85,39 @@
       true,
       true,
       true,
-      true
+      false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
+      true,
+      true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       true,
       false,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 16

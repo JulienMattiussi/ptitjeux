@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-26-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chambre",
+      "villa",
+      "dimanche",
+      "fenêtre"
+    ],
+    [
+      "viande",
+      "mur",
+      "silure",
+      "blanc"
+    ],
+    [
+      "foyer",
+      "punir",
+      "cuisine",
+      "bateleur"
+    ],
+    [
+      "porte",
+      "perspicacité",
+      "spiruline",
+      "brique"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "maison",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

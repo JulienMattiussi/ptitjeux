@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "enjoliveur",
-      "uni",
-      "caoutchouc",
-      "crevaison"
+      "noire",
+      "passant",
+      "ère",
+      "pêcher"
     ],
     [
-      "voter",
-      "vélo",
-      "moyeu",
-      "neige"
+      "cran",
+      "cuir",
+      "Ricoeur",
+      "sécurité"
     ],
     [
-      "chambre",
-      "visa",
-      "virus",
-      "rayon"
+      "époque",
+      "acte",
+      "bretelles",
+      "sèche-linge"
     ],
     [
-      "parodie",
-      "pneu",
-      "voiture",
-      "jante"
+      "épreuve",
+      "boucle",
+      "taille",
+      "coût"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    2,
-    2,
-    3
+    1,
+    2
   ],
   "colClues": [
     2,
-    2,
     3,
-    3
+    2,
+    1
   ],
-  "themeWord": "roue",
+  "themeWord": "ceinture",
   "solution": [
     [
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
-      true
+      false
     ],
     [
       false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

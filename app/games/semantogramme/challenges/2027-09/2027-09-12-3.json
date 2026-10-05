@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bouilli",
+      "marin",
+      "plume",
+      "bonne",
+      "goéland",
+      "fossoyeur"
+    ],
+    [
+      "adagio",
+      "blâmer",
+      "manège",
+      "éboulis",
+      "frite",
+      "rieuse"
+    ],
+    [
+      "restaurer",
+      "abdominaux",
+      "coati",
+      "falaise",
+      "vol",
+      "troupe"
+    ],
+    [
+      "chips",
+      "botte",
+      "essieu",
+      "blanche",
+      "raifort",
+      "phare"
+    ],
+    [
+      "treille",
+      "bateau",
+      "origami",
+      "Bretagne",
+      "plage",
+      "littoral"
+    ],
+    [
+      "Tosh",
+      "Buckingham",
+      "embruns",
+      "danseuse",
+      "crapaud",
+      "légumes"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "mouette",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

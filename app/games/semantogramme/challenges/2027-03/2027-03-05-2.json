@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "soyeux",
-      "frapper",
-      "porter",
-      "nourrir",
-      "doudou"
+      "avaler",
+      "bar",
+      "gorgée",
+      "aïoli",
+      "Logan"
     ],
     [
-      "théière",
-      "poupon",
-      "téter",
-      "enfant",
-      "allaiter"
+      "fifre",
+      "soif",
+      "siroter",
+      "trinquer",
+      "verso"
     ],
     [
-      "biberon",
-      "vanille",
-      "clocher",
-      "soldes",
-      "sillon"
+      "gosier",
+      "eau",
+      "canon",
+      "caviar",
+      "désaltérer"
     ],
     [
-      "pleurer",
-      "téfal",
-      "tétine",
-      "berceau",
-      "naître"
+      "goulot",
+      "héritier",
+      "Licorne",
+      "paille",
+      "Rothschild"
     ],
     [
-      "côtier",
-      "nouveau-né",
-      "couche",
-      "fatigue",
-      "minuscule"
+      "assoiffé",
+      "déshydratation",
+      "raccourci",
+      "coiffeur",
+      "verre"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    1,
-    4,
+    3,
+    3,
+    2,
     3
   ],
   "colClues": [
-    2,
-    2,
     4,
-    3,
-    4
+    4,
+    2,
+    2,
+    2
   ],
-  "themeWord": "bébé",
+  "themeWord": "boire",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false
     ],
     [
-      true,
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       true
     ],
     [
+      true,
+      false,
       false,
       true,
+      false
+    ],
+    [
       true,
+      true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-13-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bistrot",
+      "Oscar",
+      "scène",
+      "tournage"
+    ],
+    [
+      "attraper",
+      "film",
+      "triangle",
+      "casting"
+    ],
+    [
+      "comédien",
+      "cinéma",
+      "théâtre",
+      "trimestre"
+    ],
+    [
+      "tradition",
+      "arabesque",
+      "auto-stop",
+      "César"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    1
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "acteur",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

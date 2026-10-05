@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "ronger",
-      "féerique",
-      "pèlerin",
-      "babouin"
+      "rayon",
+      "lézard",
+      "caisse",
+      "vitrine"
     ],
     [
-      "ouistiti",
-      "tremper",
-      "sapajou",
-      "primate"
+      "boutique",
+      "coupe-gorge",
+      "souquer",
+      "commerce"
     ],
     [
-      "digestion",
-      "chauve",
-      "orang-outan",
-      "gibbon"
+      "lin",
+      "vendeur",
+      "étalage",
+      "sécheresse"
     ],
     [
-      "égalité",
-      "gorille",
-      "noyau",
-      "tunnel"
+      "sacré",
+      "achat",
+      "activité",
+      "énergie"
     ]
   ],
   "rowClues": [
-    1,
     3,
+    2,
     2,
     1
   ],
   "colClues": [
-    1,
-    1,
     2,
-    3
+    2,
+    2,
+    2
   ],
-  "themeWord": "singe",
+  "themeWord": "magasin",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
       true
     ],
     [
+      true,
       false,
+      false,
+      true
+    ],
+    [
       false,
       true,
-      true
+      true,
+      false
     ],
     [
       false,
@@ -68,5 +68,5 @@
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

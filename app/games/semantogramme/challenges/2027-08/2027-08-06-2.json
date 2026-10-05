@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "décalage",
+      "ronfler",
+      "faim",
+      "osier",
+      "voler"
+    ],
+    [
+      "ciel",
+      "air",
+      "riz",
+      "Achille",
+      "toile"
+    ],
+    [
+      "Chine",
+      "rafale",
+      "planer",
+      "cadran",
+      "fil"
+    ],
+    [
+      "losange",
+      "ficelle",
+      "basilique",
+      "armature",
+      "plage"
+    ],
+    [
+      "assis",
+      "vent",
+      "fondre",
+      "grille",
+      "mousson"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    4,
+    4,
+    1
+  ],
+  "colClues": [
+    3,
+    4,
+    1,
+    1,
+    4
+  ],
+  "themeWord": "cerf-volant",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

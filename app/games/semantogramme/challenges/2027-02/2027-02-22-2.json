@@ -5,60 +5,60 @@
   "height": 5,
   "words": [
     [
-      "léger",
-      "immeuble",
-      "cultiver",
-      "moulinet",
-      "limite"
+      "mérinos",
+      "bobine",
+      "distillation",
+      "cuisses",
+      "Aladdin"
     ],
     [
-      "expliquer",
-      "tonus",
-      "rigide",
-      "recyclable",
-      "déménagement"
+      "elliptique",
+      "ingrédient",
+      "smash",
+      "sonnette",
+      "alpaga"
     ],
     [
-      "épais",
-      "boîte",
-      "résistant",
-      "plier",
-      "vainqueur"
+      "mouton",
+      "élévation",
+      "cachemire",
+      "cardage",
+      "bref"
     ],
     [
-      "papier",
-      "paquet",
-      "cartable",
-      "griffonner",
-      "emballer"
+      "tricot",
+      "antiviral",
+      "maille",
+      "chaussettes",
+      "franchir"
     ],
     [
-      "tonne",
-      "scotch",
-      "colique",
-      "ténèbres",
-      "plaque"
+      "écharpe",
+      "pull",
+      "filature",
+      "pelote",
+      "casque"
     ]
   ],
   "rowClues": [
+    2,
     1,
     3,
-    4,
     3,
-    2
+    4
   ],
   "colClues": [
+    4,
+    2,
     3,
     3,
-    2,
-    2,
-    3
+    1
   ],
-  "themeWord": "carton",
+  "themeWord": "laine",
   "solution": [
     [
       true,
-      false,
+      true,
       false,
       false,
       false
@@ -66,13 +66,20 @@
     [
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       true,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false
@@ -80,16 +87,9 @@
     [
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 13

@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "menuiserie",
-      "poirier",
-      "mosquée",
-      "os"
+      "parasol",
+      "allégé",
+      "distingué",
+      "couleurs"
     ],
     [
-      "pin",
-      "familial",
-      "branche",
-      "vertigineux"
+      "superposé",
+      "Martini",
+      "paille",
+      "sein"
     ],
     [
-      "caniveau",
-      "écorce",
-      "copeau",
-      "tronc"
+      "Timon",
+      "Durkheim",
+      "apéritif",
+      "barman"
     ],
     [
-      "charpente",
-      "anchois",
-      "chêne",
-      "taureau"
+      "aspirer",
+      "olive",
+      "acupuncture",
+      "shaker"
     ]
   ],
   "rowClues": [
     1,
     2,
-    3,
+    2,
     2
   ],
   "colClues": [
-    3,
     1,
-    3,
-    1
+    2,
+    2,
+    2
   ],
-  "themeWord": "bois",
+  "themeWord": "cocktail",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       false
     ],
     [
-      true,
       false,
+      true,
       true,
       false
     ],
     [
       false,
-      true,
+      false,
       true,
       true
     ],
     [
-      true,
       false,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

@@ -5,94 +5,78 @@
   "height": 6,
   "words": [
     [
-      "ensemencer",
-      "sono",
-      "graine",
-      "tourmenter",
-      "semoir",
-      "cultiver"
+      "muscade",
+      "paisible",
+      "Scandinavie",
+      "Senna",
+      "altimètre",
+      "projeter"
     ],
     [
-      "attraper",
-      "orthogonal",
-      "terre",
-      "sillon",
-      "agriculture",
-      "jachère"
+      "commandes",
+      "navigation",
+      "Groenland",
+      "septum",
+      "Assommoir",
+      "hélicoptère"
     ],
     [
-      "germer",
-      "planter",
-      "culture",
-      "temporel",
-      "abondance",
-      "masse"
+      "gouvernail",
+      "décoller",
+      "chenet",
+      "général",
+      "jouets",
+      "serveur"
     ],
     [
-      "champ",
-      "germination",
-      "descendante",
-      "élaguer",
-      "pastel",
-      "enfouir"
+      "volant",
+      "conduire",
+      "avion",
+      "Reims",
+      "bolide",
+      "covid"
     ],
     [
-      "élever",
-      "récolter",
-      "pousse",
-      "caramélisé",
-      "oser",
-      "épandre"
+      "drone",
+      "Tchaïkovski",
+      "radar",
+      "emprise",
+      "torréfaction",
+      "Marquise"
     ],
     [
-      "modéré",
-      "richelieu",
-      "industrialiser",
-      "sql",
-      "charpentier",
-      "engrais"
+      "dimanche",
+      "dioxyde",
+      "course",
+      "atterrir",
+      "diriger",
+      "clic"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    2,
     4,
+    2,
+    3
+  ],
+  "colClues": [
     4,
     3,
     3,
+    2,
     3,
     1
   ],
-  "colClues": [
-    3,
-    3,
-    4,
-    1,
-    2,
-    5
-  ],
-  "themeWord": "semer",
+  "themeWord": "piloter",
   "solution": [
     [
-      true,
       false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
@@ -104,21 +88,37 @@
       true
     ],
     [
-      false,
       true,
       true,
       false,
       false,
-      true
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
-      true
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

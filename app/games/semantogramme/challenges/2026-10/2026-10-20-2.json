@@ -5,82 +5,68 @@
   "height": 5,
   "words": [
     [
-      "tardif",
-      "baisser",
-      "destructeur",
-      "coucher",
-      "horizon"
+      "cajoler",
+      "lampadaire",
+      "traboule",
+      "coupe-gorge",
+      "gloire"
     ],
     [
-      "chimère",
-      "écume",
-      "monumental",
-      "décliner",
-      "rougeur"
+      "Ravel",
+      "Naples",
+      "venelle",
+      "crème",
+      "impasse"
     ],
     [
-      "pénombre",
-      "autorité",
-      "matinale",
-      "plaisir",
-      "soleil"
+      "passage",
+      "dédale",
+      "pavé",
+      "médina",
+      "chose"
     ],
     [
-      "iridescente",
-      "soir",
-      "circulaire",
-      "écho",
-      "fin"
+      "velouté",
+      "saumonée",
+      "dénuder",
+      "sente",
+      "aménité"
     ],
     [
-      "tombée",
-      "occident",
-      "mourant",
-      "vespéral",
-      "évasée"
+      "Méphisto",
+      "poubelle",
+      "cul-de-sac",
+      "souk",
+      "étroite"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     4,
-    2,
-    2,
-    2,
+    1,
     4
   ],
   "colClues": [
-    3,
-    3,
     1,
-    3,
-    4
+    4,
+    4,
+    4,
+    2
   ],
-  "themeWord": "crépuscule",
+  "themeWord": "ruelle",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -90,7 +76,21 @@
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

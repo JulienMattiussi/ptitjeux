@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-12-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "pointure",
+      "marqueterie",
+      "bitter",
+      "congre",
+      "déception"
+    ],
+    [
+      "pamplemousse",
+      "cacao",
+      "Petit-Prince",
+      "essai",
+      "pagaie"
+    ],
+    [
+      "assoiffé",
+      "quinine",
+      "Dujardin",
+      "rancoeur",
+      "bière"
+    ],
+    [
+      "inhalateur",
+      "aigreur",
+      "est",
+      "trimestre",
+      "gentiane"
+    ],
+    [
+      "guirlandes",
+      "message",
+      "endive",
+      "goût",
+      "accueil"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "amer",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

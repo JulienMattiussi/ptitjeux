@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "cirque",
-      "difficile",
-      "membrane",
-      "circassien",
-      "équilibre"
+      "sabot",
+      "cheval",
+      "production",
+      "mythologie",
+      "créature"
     ],
     [
-      "quilles",
-      "triompher",
-      "spectaculaire",
-      "génome",
-      "foulard"
+      "lauriers",
+      "meunier",
+      "Héraclès",
+      "homme",
+      "yaourt"
     ],
     [
-      "lancer",
-      "incisive",
-      "rattraper",
-      "assaisonner",
-      "figure"
+      "constellation",
+      "galop",
+      "arc",
+      "tango",
+      "forêt"
     ],
     [
-      "camion",
-      "précis",
-      "rythmique",
-      "massue",
-      "attente"
+      "flèche",
+      "moineau",
+      "éthéré",
+      "caneton",
+      "séché"
     ],
     [
-      "banquise",
-      "lenteur",
-      "adresse",
-      "plume",
-      "balle"
+      "Narnia",
+      "panais",
+      "maussade",
+      "Grèce",
+      "asiatique"
     ]
   ],
   "rowClues": [
     4,
-    3,
-    3,
-    3,
+    2,
+    4,
+    1,
     2
   ],
   "colClues": [
-    3,
-    2,
     4,
     2,
-    4
+    2,
+    3,
+    2
   ],
-  "themeWord": "jonglage",
+  "themeWord": "centaure",
   "solution": [
     [
       true,
@@ -64,33 +64,33 @@
       true
     ],
     [
-      true,
       false,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

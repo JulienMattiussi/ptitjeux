@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-07-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "amende",
+      "dents",
+      "gamme",
+      "assiette",
+      "pompier",
+      "vaisselle"
+    ],
+    [
+      "prix",
+      "fondue",
+      "sacoche",
+      "Gretzky",
+      "lippe",
+      "libero"
+    ],
+    [
+      "couvert",
+      "impudence",
+      "Switch",
+      "inox",
+      "table",
+      "escargot"
+    ],
+    [
+      "chanterelle",
+      "argenterie",
+      "musicien",
+      "mars",
+      "couteau",
+      "Socrate"
+    ],
+    [
+      "Enigma",
+      "jardinier",
+      "piquer",
+      "pull",
+      "réanimation",
+      "manger"
+    ],
+    [
+      "songe",
+      "dogme",
+      "Chandeleur",
+      "figurine",
+      "estimation",
+      "laiton"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    4,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "fourchette",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

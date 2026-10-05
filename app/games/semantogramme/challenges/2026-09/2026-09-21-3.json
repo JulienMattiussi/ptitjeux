@@ -5,79 +5,87 @@
   "height": 6,
   "words": [
     [
-      "orgueilleux",
-      "bomber",
-      "volume",
-      "scander",
-      "arrogant",
-      "satisfaction"
+      "immeuble",
+      "dollar",
+      "têtard",
+      "Greenwich",
+      "menottes",
+      "prisonnier"
     ],
     [
-      "altier",
-      "gloire",
-      "superbe",
-      "vaniteux",
-      "verdi",
-      "parader"
+      "appréhender",
+      "menuet",
+      "mai",
+      "embuscade",
+      "bagad",
+      "exprimer"
     ],
     [
-      "main-tendue",
-      "observer",
-      "dignité",
-      "noble",
-      "élever",
-      "mine"
+      "attraper",
+      "butin",
+      "traquer",
+      "piège",
+      "pardon",
+      "proie"
     ],
     [
-      "paon",
-      "armature",
-      "tribunal",
-      "vanter",
-      "chiffon",
-      "honorer"
+      "avant",
+      "bleu",
+      "otage",
+      "rafle",
+      "crachin",
+      "Maya"
     ],
     [
-      "culpabilité",
-      "glorifier",
-      "culbuter",
-      "haricot",
-      "aperçu",
-      "judo"
+      "nasse",
+      "filet",
+      "Pokémon",
+      "arène",
+      "ravisseur",
+      "origine"
     ],
     [
-      "pousser",
-      "orbite",
-      "monastère",
-      "seconde",
-      "honneur",
-      "foret"
+      "cage",
+      "relax",
+      "parc",
+      "arrêter",
+      "lasso",
+      "distillation"
     ]
   ],
   "rowClues": [
-    4,
-    5,
-    3,
-    3,
-    1,
-    1
-  ],
-  "colClues": [
-    3,
-    3,
     2,
-    3,
-    3,
+    2,
+    5,
+    2,
+    4,
     3
   ],
-  "themeWord": "fier",
+  "colClues": [
+    4,
+    2,
+    3,
+    4,
+    3,
+    2
+  ],
+  "themeWord": "capturer",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       false,
       false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
     ],
     [
       true,
@@ -92,6 +100,14 @@
       false,
       true,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       true,
       false
     ],
@@ -100,25 +116,9 @@
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

@@ -5,47 +5,59 @@
   "height": 4,
   "words": [
     [
-      "confessionnal",
-      "frangin",
-      "match",
-      "pelouse"
+      "guet",
+      "échasse",
+      "yogi",
+      "chat"
     ],
     [
-      "sportif",
-      "arène",
-      "tribune",
-      "potion"
+      "grise",
+      "approfondir",
+      "inquiétant",
+      "Mickey"
     ],
     [
-      "jasmin",
-      "piste",
-      "supporter",
-      "bouche"
+      "fromage",
+      "sibylle",
+      "Jerry",
+      "rongeur"
     ],
     [
-      "gradin",
-      "compétition",
-      "jubilation",
-      "tournoi"
+      "piège",
+      "ordinateur",
+      "Minnie",
+      "aura"
     ]
   ],
   "rowClues": [
+    1,
     2,
     3,
-    2,
     3
   ],
   "colClues": [
+    3,
+    1,
     2,
-    3,
-    3,
-    2
+    3
   ],
-  "themeWord": "stade",
+  "themeWord": "souris",
   "solution": [
     [
       false,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       true
     ],
@@ -54,19 +66,7 @@
       true,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

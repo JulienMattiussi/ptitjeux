@@ -5,74 +5,74 @@
   "height": 6,
   "words": [
     [
-      "écrire",
-      "ambrée",
-      "manigancer",
-      "morose",
-      "longue",
-      "contact"
+      "prisonnier",
+      "armature",
+      "festivités",
+      "jean",
+      "jaune",
+      "cuisinière"
     ],
     [
-      "frange",
-      "basse",
-      "rocheux",
-      "raréfier",
-      "rythmé",
-      "jeu"
+      "arboricole",
+      "pizza",
+      "Réunion",
+      "écorce",
+      "fusil",
+      "épineux"
     ],
     [
-      "service",
-      "salle-à-manger",
-      "meuble",
-      "rêver",
-      "terminal",
-      "micro"
+      "Hawaï",
+      "compteur",
+      "tirelire",
+      "tranche",
+      "tante",
+      "dentelé"
     ],
     [
-      "cuisine",
-      "bois",
-      "gond",
-      "manger",
-      "fée",
-      "haute"
+      "manutention",
+      "juteux",
+      "Antilles",
+      "cocktail",
+      "montante",
+      "Guadeloupe"
     ],
     [
-      "uni",
-      "monnaie",
-      "plateau",
-      "dresser",
-      "commémorer",
-      "aneth"
+      "fruit",
+      "Jafar",
+      "exotique",
+      "sorbet",
+      "Salieri",
+      "buffet"
     ],
     [
-      "pied",
-      "partage",
-      "ronde",
-      "menace",
-      "nappe",
-      "nid"
+      "sucré",
+      "conserve",
+      "Candide",
+      "roulis",
+      "tropical",
+      "couronne"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
+    1,
     4,
     2,
+    4,
+    3,
     4
   ],
   "colClues": [
-    4,
-    4,
     3,
+    3,
+    3,
+    4,
     2,
-    2,
-    2
+    3
   ],
-  "themeWord": "table",
+  "themeWord": "ananas",
   "solution": [
     [
-      true,
+      false,
       false,
       false,
       false,
@@ -82,29 +82,29 @@
     [
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
       false,
+      false,
+      true,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       true,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
       true,
@@ -114,11 +114,11 @@
     [
       true,
       true,
-      true,
+      false,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

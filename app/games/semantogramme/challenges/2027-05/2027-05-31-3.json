@@ -5,75 +5,83 @@
   "height": 6,
   "words": [
     [
-      "fer-forgé",
-      "chalut",
-      "glouton",
-      "tombée",
-      "australie",
-      "hériter"
+      "gigoter",
+      "joystick",
+      "Lacrimosa",
+      "Sega",
+      "télécommande",
+      "baseball"
     ],
     [
-      "admirer",
-      "étage",
-      "fleur",
-      "édulcorer",
-      "antenne",
-      "extérieur"
+      "pédales",
+      "joueur",
+      "vacuum",
+      "incisive",
+      "repriser",
+      "ostéopathe"
     ],
     [
-      "titane",
-      "ouvert",
-      "côtière",
-      "terrasse",
-      "fumer",
-      "honnêteté"
+      "gâchette",
+      "larme",
+      "Clouseau",
+      "levier",
+      "Mario",
+      "prévenance"
     ],
     [
-      "galoper",
-      "rugissement",
-      "jardinière",
-      "gazeuse",
-      "blatte",
-      "papier"
+      "Husserl",
+      "croix",
+      "caramel",
+      "bossu",
+      "console",
+      "Xbox"
     ],
     [
-      "orbiter",
-      "petit",
-      "rambarde",
-      "gramme",
-      "haut",
-      "découverte"
+      "silurien",
+      "chromosome",
+      "tondeuse",
+      "Wii",
+      "Marquise",
+      "museler"
     ],
     [
-      "flatter",
-      "balustrade",
-      "fenêtre",
-      "porte",
-      "sortir",
-      "arroser"
+      "vibrations",
+      "neurasthénie",
+      "pile",
+      "Nintendo",
+      "porc-épic",
+      "Dolly"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     3,
     1,
     3,
-    5
+    3,
+    1,
+    3
   ],
   "colClues": [
     2,
-    4,
-    4,
-    2,
     3,
-    2
+    1,
+    4,
+    3,
+    1
   ],
-  "themeWord": "balcon",
+  "themeWord": "manette",
   "solution": [
     [
+      false,
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
@@ -81,44 +89,36 @@
     ],
     [
       true,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       false,
+      true,
       true
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
-      false,
       false,
       false
     ],
     [
-      false,
-      true,
       true,
       false,
       true,
+      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

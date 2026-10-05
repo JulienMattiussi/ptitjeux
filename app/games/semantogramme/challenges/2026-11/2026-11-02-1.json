@@ -5,47 +5,47 @@
   "height": 4,
   "words": [
     [
-      "équinoxe",
-      "bonnet",
-      "feutre",
-      "cloche"
+      "ronfler",
+      "détrempé",
+      "minou",
+      "griffe"
     ],
     [
-      "municipale",
-      "visière",
-      "képi",
-      "soigner"
+      "claveciniste",
+      "miauler",
+      "félin",
+      "chaos"
     ],
     [
-      "béret",
-      "tisser",
-      "thym",
-      "tridimensionnel"
+      "ronronner",
+      "Debord",
+      "trompe-l'oeil",
+      "Garfield"
     ],
     [
-      "lanterne",
-      "anguille",
-      "casquette",
-      "perroquet"
+      "buvard",
+      "litière",
+      "matou",
+      "diplodocus"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
     1,
     2,
     3,
-    1
+    2
   ],
-  "themeWord": "chapeau",
+  "themeWord": "chat",
   "solution": [
     [
       false,
-      true,
+      false,
       true,
       true
     ],
@@ -59,14 +59,14 @@
       true,
       false,
       false,
-      false
+      true
     ],
     [
       false,
-      false,
+      true,
       true,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "épais",
-      "descendant",
-      "craquer",
-      "sacrée",
-      "forge"
+      "fouiller",
+      "bossu",
+      "parcourir",
+      "chimpanzé",
+      "menuisier"
     ],
     [
-      "gouttelette",
-      "corps",
-      "enfer",
-      "tribal",
-      "transmigrer"
+      "pôle",
+      "armoire",
+      "carte",
+      "djinn",
+      "société"
     ],
     [
-      "conscience",
-      "spiritualité",
-      "esprit",
-      "novice",
-      "immortelle"
+      "Colomb",
+      "inconnu",
+      "tangage",
+      "Cook",
+      "découvrir"
     ],
     [
-      "mort",
-      "éternelle",
-      "élever",
-      "visite",
-      "pensée"
+      "Pascal",
+      "sonder",
+      "Hohner",
+      "Magellan",
+      "Livingstone"
     ],
     [
-      "période",
-      "paradis",
-      "calmer",
-      "remuer",
-      "pure"
+      "Mirbeau",
+      "expédition",
+      "boussole",
+      "jungle",
+      "aventurier"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    4,
-    4,
-    2
-  ],
-  "colClues": [
+    2,
     2,
     4,
     3,
-    1,
     4
   ],
-  "themeWord": "âme",
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "explorer",
   "solution": [
     [
-      false,
-      false,
+      true,
       false,
       true,
+      false,
       false
     ],
     [
-      false,
-      true,
       true,
       false,
-      true
+      true,
+      false,
+      false
     ],
     [
       true,
       true,
-      true,
       false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
       true
     ],
     [
       false,
       true,
       false,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

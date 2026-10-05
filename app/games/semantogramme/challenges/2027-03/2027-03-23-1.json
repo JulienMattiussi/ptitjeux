@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "ivoire",
-      "savane",
-      "élancé",
-      "massif"
+      "abattu",
+      "partition",
+      "latitude",
+      "archet"
     ],
     [
-      "saule",
-      "oreille",
-      "défense",
-      "pont-levis"
+      "mentonnière",
+      "Paganini",
+      "crudités",
+      "absurde"
     ],
     [
-      "trompe",
-      "envoûter",
-      "tourmenter",
-      "troupeau"
+      "Télémaque",
+      "lecteur",
+      "corde",
+      "chevalet"
     ],
     [
-      "étinceler",
-      "safari",
-      "gris",
-      "pachyderme"
+      "Verne",
+      "bouillotte",
+      "Stradivarius",
+      "drakkar"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    3
+    2,
+    1
   ],
   "colClues": [
+    1,
     2,
-    3,
     2,
-    3
+    2
   ],
-  "themeWord": "éléphant",
+  "themeWord": "violon",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ],
     [
       false,
+      false,
       true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

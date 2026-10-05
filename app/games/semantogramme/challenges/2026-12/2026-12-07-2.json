@@ -5,70 +5,77 @@
   "height": 5,
   "words": [
     [
-      "fondamental",
-      "enfant",
-      "forêt",
-      "lcd",
-      "salsa"
+      "Nantes",
+      "fracture",
+      "jardin",
+      "ontologie",
+      "intégralité"
     ],
     [
-      "menu",
-      "minuscule",
-      "modeste",
-      "plat",
-      "loyal"
+      "s'écrouler",
+      "gospel",
+      "petit",
+      "Prof",
+      "barbe"
     ],
     [
-      "rapetisser",
-      "minimiser",
-      "rétrécir",
-      "oubli",
-      "rikiki"
+      "Blanche-Neige",
+      "Tolkien",
+      "piston",
+      "connaisseur",
+      "géant"
     ],
     [
-      "vaccin",
-      "hdmi",
-      "réduire",
-      "miniature",
-      "poumon"
+      "Dormeur",
+      "mine",
+      "Simplet",
+      "Keats",
+      "Grincheux"
     ],
     [
-      "fourmi",
-      "éleveur",
-      "parlement",
-      "bébé",
-      "graine"
+      "tentacule",
+      "impénétrable",
+      "genièvre",
+      "AZERTY",
+      "hache"
     ]
   ],
   "rowClues": [
     1,
     3,
+    3,
     4,
-    2,
-    3
+    1
   ],
   "colClues": [
-    3,
-    3,
-    3,
     2,
-    2
+    2,
+    3,
+    1,
+    4
   ],
-  "themeWord": "petit",
+  "themeWord": "nain",
   "solution": [
     [
       false,
-      true,
       false,
+      true,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
       true,
       true,
       false,
-      false
+      false,
+      true
     ],
     [
       true,
@@ -80,17 +87,10 @@
     [
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
-      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

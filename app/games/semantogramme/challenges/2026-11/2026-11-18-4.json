@@ -5,94 +5,103 @@
   "height": 7,
   "words": [
     [
-      "refuge",
-      "éocène",
-      "raisonner",
-      "occident",
-      "évasion",
-      "épaulette",
-      "logique"
+      "Windows",
+      "vilain",
+      "écoute",
+      "soin",
+      "tendresse",
+      "roulant",
+      "bienveillance"
     ],
     [
-      "gaie",
-      "rationnel",
-      "aïeul",
-      "inopportun",
-      "congestion",
-      "voyage",
-      "tapis"
+      "gourmandise",
+      "cogner",
+      "faire-part",
+      "inquiétude",
+      "mai",
+      "atlas",
+      "protection"
     ],
     [
-      "résonner",
-      "fugué",
-      "mouvement",
-      "sorcière",
-      "développement",
-      "botticelli",
-      "antithèse"
+      "tsé-tsé",
+      "dévouement",
+      "rougeoyant",
+      "gaieté",
+      "barres",
+      "intérêt",
+      "Vésuve"
     ],
     [
-      "synthèse",
-      "liturgie",
-      "matérialiste",
-      "prise",
-      "opposer",
-      "palabrer",
-      "noire"
+      "égard",
+      "affection",
+      "plaquage",
+      "délicatesse",
+      "cuisses",
+      "trot",
+      "chaleur"
     ],
     [
-      "festival",
-      "essaim",
-      "anche",
-      "apéro",
-      "feuillet",
-      "contradiction",
-      "thèse"
+      "angélus",
+      "altruisme",
+      "résoudre",
+      "empathie",
+      "attention",
+      "glisse",
+      "pouffer"
     ],
     [
-      "spéculatif",
-      "humer",
-      "idéaliste",
-      "corail",
-      "hégel",
-      "philosophie",
-      "auditeur"
+      "hydrogène",
+      "Josquin",
+      "tiédeur",
+      "bondé",
+      "top",
+      "secours",
+      "symbole"
     ],
     [
-      "isolé",
-      "plénitude",
-      "penser",
-      "historique",
-      "maghreb",
-      "paella",
-      "argumenter"
+      "travailleur",
+      "patte",
+      "Cadichon",
+      "solennelle",
+      "compassion",
+      "chapitrer",
+      "débutant"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    1,
-    3,
-    3,
     2,
     4,
-    3
+    3,
+    1,
+    1
   ],
   "colClues": [
-    2,
-    1,
-    5,
     1,
     3,
+    1,
+    4,
+    3,
     2,
-    4
+    3
   ],
-  "themeWord": "dialectique",
+  "themeWord": "sollicitude",
   "solution": [
     [
       false,
       false,
       true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false,
       false,
       true
@@ -103,25 +112,34 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
       false,
       false
     ],
     [
       false,
       false,
-      true,
+      false,
+      false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
       false
     ],
     [
@@ -129,28 +147,10 @@
       false,
       false,
       false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      true,
-      false,
-      true,
-      true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

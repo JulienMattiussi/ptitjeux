@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "cadran",
-      "surdité",
-      "jour",
-      "réservé",
-      "compter"
+      "rythme",
+      "pédant",
+      "poisson-clown",
+      "habitus",
+      "monisme"
     ],
     [
-      "horloge",
-      "ébranlement",
-      "précis",
-      "tardif",
-      "aiguille"
+      "tam-tam",
+      "timbale",
+      "cadence",
+      "fanfare",
+      "illusoire"
     ],
     [
-      "montant",
-      "réflexion",
-      "évoquer",
-      "rendez-vous",
-      "tropique"
+      "majorette",
+      "roulement",
+      "Tiffany",
+      "derbouka",
+      "africain"
     ],
     [
-      "temps",
-      "desquamation",
-      "ponctuel",
-      "indiquer",
-      "aspersion"
+      "Mondrian",
+      "bongo",
+      "militaire",
+      "madeleine",
+      "tribal"
     ],
     [
-      "cloison",
-      "montre",
-      "creux",
-      "bouger",
-      "horaire"
+      "batterie",
+      "mouchoir",
+      "Canada",
+      "raisin",
+      "intelligente"
     ]
   ],
   "rowClues": [
-    3,
-    4,
     1,
+    4,
+    4,
     3,
-    2
+    1
   ],
   "colClues": [
+    4,
     3,
-    1,
-    3,
-    3,
-    3
+    2,
+    2,
+    2
   ],
-  "themeWord": "heure",
+  "themeWord": "tambour",
   "solution": [
     [
       true,
       false,
-      true,
       false,
-      true
+      false,
+      false
     ],
     [
       true,
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false
     ],
     [
       true,
+      true,
       false,
       true,
-      true,
-      false
+      true
     ],
     [
       false,
       true,
-      false,
+      true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 13

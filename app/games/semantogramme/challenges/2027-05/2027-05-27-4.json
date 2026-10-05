@@ -5,93 +5,138 @@
   "height": 7,
   "words": [
     [
-      "titane",
-      "légale",
-      "rodtchenko",
-      "foule",
-      "rikiki",
-      "doctoral",
-      "sans-réplique"
+      "boulangerie",
+      "plante",
+      "sucrée",
+      "vanille",
+      "croustillant",
+      "dard",
+      "huer"
     ],
     [
-      "paradoxe",
-      "ferme",
-      "tranchant",
-      "autoritariste",
-      "campanile",
-      "dé",
-      "doré"
+      "fécond",
+      "crémeux",
+      "caramélisé",
+      "achillée",
+      "Cinzano",
+      "lasagne",
+      "romantique"
     ],
     [
-      "gaudí",
-      "tombée",
-      "merveilleux",
-      "mangue",
-      "catégorique",
-      "impérieux",
-      "bousculer"
+      "fondant",
+      "butte",
+      "fard",
+      "ondulé",
+      "discrétion",
+      "court",
+      "Immortels"
     ],
     [
-      "parler",
-      "soigné",
-      "diamètre",
-      "décisif",
-      "cathédrale",
-      "caniculaire",
-      "attendre"
+      "précurseur",
+      "glaçage",
+      "étrennes",
+      "pâtisserie",
+      "examen",
+      "musicalité",
+      "croix"
     ],
     [
-      "pyramide",
-      "rue",
-      "plébisciter",
-      "consultation",
-      "parole",
-      "définitif",
-      "pétillant"
+      "fourchette",
+      "inflexible",
+      "pendante",
+      "Napoléon",
+      "succès",
+      "Budé",
+      "bis"
     ],
     [
-      "fer-forgé",
-      "irrécusable",
-      "pion",
-      "absolu",
-      "imposer",
-      "ton",
-      "incontestable"
+      "indigo",
+      "djinn",
+      "feuilletage",
+      "bisou",
+      "horloger",
+      "marbré",
+      "strates"
     ],
     [
-      "érasme",
-      "cro-magnon",
-      "affirmer",
-      "différence",
-      "cassant",
-      "étamine",
-      "asséner"
+      "truie",
+      "clémentine",
+      "couches",
+      "vandalisme",
+      "anéroïde",
+      "lecteur",
+      "chocolat"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    2,
-    2,
     5,
-    3
-  ],
-  "colClues": [
+    4,
     1,
     2,
     2,
     3,
-    4,
-    4,
-    3
+    2
   ],
-  "themeWord": "péremptoire",
+  "colClues": [
+    3,
+    3,
+    4,
+    4,
+    1,
+    2,
+    2
+  ],
+  "themeWord": "millefeuille",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true,
@@ -99,55 +144,10 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
       false,
       true
     ]

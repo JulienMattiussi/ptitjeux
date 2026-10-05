@@ -5,75 +5,82 @@
   "height": 5,
   "words": [
     [
-      "solide",
-      "aigle",
-      "tailler",
-      "puissant",
-      "jarretière"
+      "présent",
+      "plastique",
+      "douves",
+      "banlieue",
+      "film"
     ],
     [
-      "cuisson",
-      "ponctuel",
-      "muscler",
-      "renforcer",
-      "colosse"
+      "clair",
+      "Éden",
+      "visible",
+      "people",
+      "honnête"
     ],
     [
-      "force",
-      "tonnerre",
-      "robuste",
-      "costaud",
-      "champignon"
+      "feuilleté",
+      "glander",
+      "Sparte",
+      "limpide",
+      "comble"
     ],
     [
-      "mousseron",
-      "badigeonner",
-      "lion",
-      "rayé",
-      "cliquer"
+      "glace",
+      "eau",
+      "Pavlov",
+      "cristal",
+      "homme"
     ],
     [
-      "taureau",
-      "malware",
-      "vigoureux",
-      "hercule",
-      "tempête"
+      "suspense",
+      "web",
+      "méduse",
+      "pieu",
+      "invisible"
     ]
   ],
   "rowClues": [
     2,
     3,
-    4,
     1,
-    4
-  ],
-  "colClues": [
     3,
-    1,
-    4,
-    4,
     2
   ],
-  "themeWord": "fort",
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "transparent",
   "solution": [
     [
+      false,
       true,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true
     ],
     [
       true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
+      false,
       true,
       false
     ],
@@ -82,15 +89,8 @@
       false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

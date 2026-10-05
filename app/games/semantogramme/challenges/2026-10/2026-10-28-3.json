@@ -5,109 +5,85 @@
   "height": 6,
   "words": [
     [
-      "roue",
-      "période",
-      "houle",
-      "raffiné",
-      "jardin",
-      "vinaigre"
+      "diatribe",
+      "bilboquet",
+      "habileté",
+      "tambouriner",
+      "cirque",
+      "massue"
     ],
     [
-      "scénario",
-      "isocèle",
-      "émancipation",
-      "babouin",
-      "punaise",
-      "décharger"
+      "balle",
+      "dédale",
+      "diabolo",
+      "oedème",
+      "dextérité",
+      "aïoli"
     ],
     [
-      "ondulant",
-      "chantier",
-      "pelletée",
-      "bâton",
-      "gravier",
-      "librairie"
+      "monocycle",
+      "assiettes",
+      "cracheur",
+      "rôtir",
+      "funambule",
+      "mariage"
     ],
     [
-      "fendre",
-      "altier",
-      "tracter",
-      "pleine",
-      "gravlax",
-      "pique"
+      "quilles",
+      "torches",
+      "équilibre",
+      "foire",
+      "spleen",
+      "MacGyver"
     ],
     [
-      "bras",
-      "confortable",
-      "bois",
-      "maçon",
-      "terre",
-      "courbe"
+      "asperges",
+      "goémon",
+      "fourche",
+      "convergente",
+      "bateleur",
+      "pelage"
     ],
     [
-      "charger",
-      "pneumatique",
-      "rouler",
-      "cyan",
-      "transport",
-      "colophane"
+      "adresse",
+      "mirabelle",
+      "spectacle",
+      "agile",
+      "lames",
+      "chamois"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    3,
-    2,
     4,
-    4
+    3,
+    4,
+    4,
+    1,
+    2
   ],
   "colClues": [
-    3,
-    2,
     4,
-    2,
+    3,
+    5,
+    1,
     4,
     1
   ],
-  "themeWord": "brouette",
+  "themeWord": "jongleur",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
-      false
-    ],
-    [
+      true,
       false,
-      false,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
       true,
-      false
-    ],
-    [
       false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
       true,
       false
     ],
@@ -117,8 +93,32 @@
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

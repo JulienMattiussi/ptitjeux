@@ -5,100 +5,76 @@
   "height": 6,
   "words": [
     [
-      "angle",
-      "pousser",
-      "vision",
-      "mouche",
-      "multiplier",
-      "trois-cent-soixante-cinq"
+      "téflon",
+      "beurre",
+      "lave-linge",
+      "omelette",
+      "huile",
+      "Corbusier"
     ],
     [
-      "rapporter",
-      "lever",
-      "fortune",
-      "flexion",
-      "mantra",
-      "interpréter"
+      "ballet",
+      "wok",
+      "steak",
+      "Polyphème",
+      "Gabon",
+      "Sonic"
     ],
     [
-      "avant-bras",
-      "salive",
-      "alité",
-      "ronge",
-      "corriger",
-      "main"
+      "limpide",
+      "habit",
+      "sermon",
+      "fulminer",
+      "effilée",
+      "cuisine"
     ],
     [
-      "articulation",
-      "bras",
-      "amitié",
-      "plier",
-      "pli",
-      "léopard"
+      "Donatello",
+      "frire",
+      "Godin",
+      "pétarade",
+      "rissoler",
+      "berceuse"
     ],
     [
-      "corolle",
-      "extension",
-      "cogner",
-      "désherber",
-      "cubitus",
-      "humérus"
+      "bois",
+      "cantatrice",
+      "chauffage",
+      "Haydn",
+      "coupable",
+      "Nadar"
     ],
     [
-      "classement",
-      "manche",
-      "pointu",
-      "nucléaire",
-      "terrier",
-      "poser"
+      "sauter",
+      "bourriche",
+      "longitude",
+      "plancha",
+      "filetage",
+      "tonton"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
     4,
-    4,
-    3
+    2,
+    1,
+    3,
+    2,
+    2
   ],
   "colClues": [
     3,
-    5,
+    3,
+    3,
     2,
     2,
-    2,
-    3
+    1
   ],
-  "themeWord": "coude",
+  "themeWord": "poêle",
   "solution": [
     [
       true,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       true,
       false
@@ -108,7 +84,15 @@
       true,
       true,
       false,
-      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -116,9 +100,25 @@
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
-      true
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

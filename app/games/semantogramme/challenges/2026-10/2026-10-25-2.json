@@ -5,59 +5,80 @@
   "height": 5,
   "words": [
     [
-      "patin",
-      "rendement",
-      "chiromancie",
-      "tirer",
-      "glace"
+      "réverbère",
+      "coucher",
+      "Homère",
+      "saillant",
+      "Shéhérazade"
     ],
     [
-      "ninja",
-      "cheval",
-      "transporter",
-      "vocal",
-      "amygdale"
+      "ronfler",
+      "couvre-feu",
+      "luciole",
+      "Hermès",
+      "Kreutzer"
     ],
     [
-      "glissant",
-      "cloche",
-      "traditionnel",
-      "chien",
-      "biceps"
+      "sandwich",
+      "ténèbres",
+      "expert",
+      "troubadour",
+      "Aristippe"
     ],
     [
-      "rapide",
-      "noël",
-      "nordique",
-      "neige",
-      "matinée"
+      "bikini",
+      "menuet",
+      "économe",
+      "nyctalope",
+      "noctambule"
     ],
     [
-      "agenouiller",
-      "carpaccio",
-      "soldes",
-      "tari",
-      "pôle"
+      "pirouette",
+      "dodo",
+      "protéger",
+      "insomnie",
+      "bonsoir"
     ]
   ],
   "rowClues": [
     3,
+    3,
+    1,
     2,
-    4,
-    4,
-    1
+    3
   ],
   "colClues": [
-    3,
-    3,
-    3,
-    3,
-    2
+    2,
+    4,
+    1,
+    2,
+    3
   ],
-  "themeWord": "traîneau",
+  "themeWord": "nuit",
   "solution": [
     [
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true,
@@ -66,31 +87,10 @@
     [
       false,
       true,
-      true,
       false,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

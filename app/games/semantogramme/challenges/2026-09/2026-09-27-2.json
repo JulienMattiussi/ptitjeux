@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "salve",
-      "médiévale",
-      "lumineux",
-      "fermoir",
-      "lumière"
+      "steppe",
+      "renne",
+      "tunnel",
+      "nomade",
+      "émerveillement"
     ],
     [
-      "tome",
-      "prière",
-      "autel",
-      "sacré",
-      "flamme"
+      "intelligence",
+      "Sibérie",
+      "blizzard",
+      "métro",
+      "Inuit"
     ],
     [
-      "costaud",
-      "examen",
-      "milanaise",
-      "naviguer",
-      "allumer"
+      "basket",
+      "lichen",
+      "félicité",
+      "Lévi-Strauss",
+      "Pythonisse"
     ],
     [
-      "votif",
-      "église",
-      "chaperon",
-      "rendement",
-      "fondre"
+      "désolé",
+      "Léger",
+      "gel",
+      "Alaska",
+      "Groenland"
     ],
     [
-      "bougie",
-      "commis",
-      "téfal",
-      "fondant",
-      "serpentin"
+      "arctique",
+      "yacht",
+      "pinte",
+      "mousse",
+      "caribou"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    1,
     3,
-    2
+    3,
+    1,
+    4,
+    3
   ],
   "colClues": [
+    3,
+    3,
     2,
-    2,
-    2,
-    2,
-    4
+    3,
+    3
   ],
-  "themeWord": "cierge",
+  "themeWord": "toundra",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

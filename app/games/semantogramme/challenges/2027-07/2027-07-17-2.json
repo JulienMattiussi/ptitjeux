@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "méandre",
+      "solistes",
+      "Vivaldi",
+      "torrent",
+      "Kyoto"
+    ],
+    [
+      "clap",
+      "fraîcheur",
+      "Flore",
+      "émeu",
+      "cascade"
+    ],
+    [
+      "truite",
+      "forêt",
+      "moulin",
+      "murmure",
+      "tapisserie"
+    ],
+    [
+      "ru",
+      "mécanicien",
+      "gué",
+      "pont",
+      "hublot"
+    ],
+    [
+      "source",
+      "eau",
+      "berge",
+      "brailler",
+      "galets"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    3,
+    4
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "ruisseau",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

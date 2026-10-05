@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "pâques",
-      "dinde",
-      "poète",
-      "écrou"
+      "Lactel",
+      "biceps",
+      "Lévi-Strauss",
+      "traite"
     ],
     [
-      "ode",
-      "sonnet",
-      "strophe",
-      "croissant"
+      "yaourt",
+      "accumulateur",
+      "lactose",
+      "notoriété"
     ],
     [
-      "broche",
-      "oculus",
-      "agaric",
-      "élégie"
+      "maçon",
+      "crème",
+      "entomologiste",
+      "bouteille"
     ],
     [
-      "alexandrin",
-      "rime",
-      "expliquer",
-      "recueil"
+      "écrémé",
+      "intime",
+      "biberon",
+      "vache"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    1,
+    2,
+    2,
+    2,
     3
   ],
   "colClues": [
+    3,
+    1,
     2,
-    2,
-    2,
-    2
+    3
   ],
-  "themeWord": "poésie",
+  "themeWord": "lait",
   "solution": [
     [
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true
     ],
     [
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

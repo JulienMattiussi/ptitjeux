@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-31-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "juillet",
+      "Gargantua",
+      "affamé",
+      "terrifiant",
+      "givré"
+    ],
+    [
+      "cannibale",
+      "habileté",
+      "enfants",
+      "monstre",
+      "symbiose"
+    ],
+    [
+      "poulailler",
+      "moka",
+      "Perrault",
+      "géant",
+      "conte"
+    ],
+    [
+      "forêt",
+      "bidouiller",
+      "Poucet",
+      "bébête",
+      "Chambéry"
+    ],
+    [
+      "recéler",
+      "glouton",
+      "hérédité",
+      "Shrek",
+      "dévorer"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "ogre",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

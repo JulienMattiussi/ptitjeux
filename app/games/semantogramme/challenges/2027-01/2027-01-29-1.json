@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "narrateur",
-      "balance",
-      "intrigue",
-      "poupon"
+      "compote",
+      "Golden",
+      "Normandie",
+      "crescendo"
     ],
     [
-      "lecteur",
-      "prologue",
-      "tournoi",
-      "dénouement"
+      "stable",
+      "verger",
+      "cidre",
+      "percolateur"
     ],
     [
-      "préface",
-      "voler",
-      "épisode",
-      "épilogue"
+      "pare-brise",
+      "affleurement",
+      "pépin",
+      "papillonner"
     ],
     [
-      "bondé",
-      "concentration",
-      "chapitre",
-      "personnage"
+      "limpide",
+      "réchauffé",
+      "apocalypse",
+      "Newton"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    3,
-    3,
-    2
+    1,
+    1
   ],
   "colClues": [
-    3,
     1,
+    2,
     3,
-    3
+    1
   ],
-  "themeWord": "roman",
+  "themeWord": "pomme",
   "solution": [
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false
     ],
     [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
-      true,
+      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

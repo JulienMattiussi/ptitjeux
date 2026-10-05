@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "dague",
-      "explorer",
-      "fusil",
-      "bouclier"
+      "vigie",
+      "Montparnasse",
+      "silo",
+      "minaret"
     ],
     [
-      "pistolet",
-      "flèche",
-      "sauteuse",
-      "couteau"
+      "oseille",
+      "sommet",
+      "hauteur",
+      "Mushu"
     ],
     [
-      "capot",
-      "daurade",
-      "arc",
-      "styliste"
+      "bouillotte",
+      "contrôle",
+      "cartes",
+      "Babel"
     ],
     [
-      "massue",
-      "hache",
-      "épée",
-      "pignon"
+      "Eiffel",
+      "fauve",
+      "Pise",
+      "urbain"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    1,
-    3
-  ],
-  "colClues": [
-    3,
     2,
-    3,
+    2,
     2
   ],
-  "themeWord": "arme",
+  "colClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "tour",
   "solution": [
     [
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       false
     ],
     [
+      false,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

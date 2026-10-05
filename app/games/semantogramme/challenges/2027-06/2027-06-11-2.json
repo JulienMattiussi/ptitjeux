@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "miette",
-      "toile",
-      "noueuse",
-      "basse",
-      "bourgeon"
+      "anneau",
+      "barre",
+      "Garcimore",
+      "ballon",
+      "éternel"
     ],
     [
-      "réchauffer",
-      "cessez-le-feu",
-      "rejeton",
-      "nid",
-      "souple"
+      "globe",
+      "adepte",
+      "jambes",
+      "bague",
+      "XIXe"
     ],
     [
-      "rameau",
-      "camembert",
-      "pousser",
-      "canevas",
-      "bouton"
+      "courbe",
+      "œnophile",
+      "assiette",
+      "roue",
+      "orange"
     ],
     [
-      "plâtre",
-      "feuillue",
-      "mue",
-      "saumurer",
-      "se ramifier"
+      "malédiction",
+      "assemblée",
+      "disque",
+      "lune",
+      "cercle"
     ],
     [
-      "verser",
-      "tronc",
-      "porte-jarretelles",
-      "haute",
-      "biographie"
+      "boule",
+      "sphère",
+      "parrain",
+      "gisant",
+      "pièce"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    2,
-    2
-  ],
-  "colClues": [
-    1,
-    2,
-    2,
+    4,
     3,
     3
   ],
-  "themeWord": "branche",
+  "colClues": [
+    4,
+    1,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "rond",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

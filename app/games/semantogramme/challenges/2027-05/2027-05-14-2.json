@@ -5,73 +5,80 @@
   "height": 5,
   "words": [
     [
-      "évier",
-      "magique",
-      "rusé",
-      "toupie",
-      "mystérieux"
+      "télévision",
+      "dodo",
+      "aquatinte",
+      "illustration",
+      "amadouer"
     ],
     [
-      "garder",
-      "balai",
-      "caverne",
-      "instable",
-      "soucoupe"
+      "acuité",
+      "maroquinerie",
+      "crépuscule",
+      "traits",
+      "angélus"
     ],
     [
-      "amère",
-      "forger",
-      "cabernet",
-      "articulation",
-      "jardin"
+      "lune",
+      "écrivain",
+      "pénombre",
+      "entier",
+      "dîner"
     ],
     [
-      "chapeau",
-      "ski",
-      "trésor",
-      "malléole",
-      "barbe"
+      "naviguer",
+      "rentrée",
+      "foulure",
+      "Vador",
+      "nuit"
     ],
     [
-      "tonte",
-      "creuser",
-      "lutin",
-      "farfadet",
-      "pioche"
+      "fatigue",
+      "lampe",
+      "sous-sol",
+      "vêpres",
+      "étoile"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
     3,
+    2,
     4
   ],
   "colClues": [
-    2,
     3,
-    4,
+    3,
+    2,
     1,
     4
   ],
-  "themeWord": "gnome",
+  "themeWord": "soir",
   "solution": [
     [
-      false,
       true,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
       false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
@@ -79,18 +86,11 @@
     ],
     [
       true,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

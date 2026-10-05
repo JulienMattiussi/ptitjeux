@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "voiler",
-      "inévitable",
-      "grizzli",
-      "chapeau",
-      "majeure",
-      "prophétie",
-      "enveloppe"
+      "malléole",
+      "Holter",
+      "infarctus",
+      "stéthoscope",
+      "tir",
+      "relique",
+      "Vague"
     ],
     [
-      "cacher",
-      "estival",
-      "prédire",
-      "sentence",
-      "pollen",
-      "pomper",
-      "apparition"
+      "skieur",
+      "mijoter",
+      "pull",
+      "équilibre",
+      "cancrelat",
+      "faitout",
+      "arythmie"
     ],
     [
-      "antique",
-      "agate",
-      "révéler",
-      "gitane",
-      "bêche",
-      "habiter",
-      "morphine"
+      "stent",
+      "ventricule",
+      "munition",
+      "cholestérol",
+      "Père-Noël",
+      "droit",
+      "mécanique"
     ],
     [
-      "cadet",
-      "harmonie",
-      "isolant",
-      "ambigu",
-      "urinaire",
-      "oracle",
-      "couleuvre"
+      "coeur",
+      "hypertension",
+      "pacemaker",
+      "défibrillateur",
+      "visite",
+      "mât",
+      "exagération"
     ],
     [
-      "inde",
-      "vanter",
-      "cumes",
-      "joute",
-      "mystérieux",
-      "turquoise",
-      "beagle"
+      "gestation",
+      "cuite",
+      "arbustive",
+      "aorte",
+      "progresser",
+      "palpitation",
+      "mandat"
     ],
     [
-      "gaz",
-      "cryptique",
-      "village",
-      "reins",
-      "croquer",
-      "énigmatique",
-      "hermétique"
+      "manette",
+      "Nil",
+      "reptile",
+      "manque",
+      "battement",
+      "Greenwich",
+      "université"
     ],
     [
-      "abeille",
-      "assise",
-      "tancer",
-      "comprimer",
-      "mathématique",
-      "obscur",
-      "mystique"
+      "population",
+      "humanisme",
+      "tension",
+      "marchand",
+      "évier",
+      "proie",
+      "flotte"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    2,
-    2,
-    2,
+    1,
     3,
-    2
+    4,
+    2,
+    1,
+    1
   ],
   "colClues": [
-    3,
-    1,
-    3,
     2,
-    1,
+    3,
+    3,
     4,
-    2
+    1,
+    1,
+    1
   ],
-  "themeWord": "sibyllin",
+  "themeWord": "cardiologie",
   "solution": [
     [
-      true,
-      false,
-      false,
-      false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false,
@@ -107,50 +98,59 @@
       false
     ],
     [
-      true,
-      false,
-      true,
       false,
       false,
       false,
-      false
-    ],
-    [
       false,
       false,
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
       true
     ],
     [
+      true,
+      true,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       false,
       false,
       false,
       true,
-      true
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

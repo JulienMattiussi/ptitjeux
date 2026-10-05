@@ -5,58 +5,72 @@
   "height": 5,
   "words": [
     [
-      "affluent",
-      "signaler",
-      "pavillon",
-      "côte",
-      "lent"
+      "axe",
+      "compas",
+      "acceptation",
+      "polygone",
+      "Lucy"
     ],
     [
-      "côtier",
-      "tour",
-      "astreindre",
-      "isolé",
-      "navire"
+      "saignant",
+      "Pythagore",
+      "droite",
+      "éclaireur",
+      "nacré"
     ],
     [
-      "moine",
-      "lumière",
-      "vif",
-      "lumineux",
-      "creusage"
+      "Goya",
+      "angle",
+      "fleurs",
+      "rapporteur",
+      "ratisser"
     ],
     [
-      "nouveauté",
-      "sac",
-      "feu",
-      "maritime",
-      "frémir"
+      "aire",
+      "missel",
+      "théorème",
+      "paysan",
+      "cercle"
     ],
     [
-      "rocher",
-      "guider",
-      "falaise",
-      "filetage",
-      "mer"
+      "rayonnage",
+      "triangle",
+      "carré",
+      "Euclide",
+      "héraldique"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    4,
     2,
-    2,
-    4
+    3,
+    3
   ],
   "colClues": [
     2,
     4,
-    2,
-    4,
-    2
+    3,
+    3,
+    1
   ],
-  "themeWord": "phare",
+  "themeWord": "géométrie",
   "solution": [
     [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
@@ -65,32 +79,18 @@
     ],
     [
       true,
-      true,
       false,
       true,
+      false,
       true
     ],
     [
       false,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "aurore",
+      "volant",
+      "farci",
+      "fricassée",
+      "fraternité"
+    ],
+    [
+      "fratrie",
+      "moine",
+      "opulent",
+      "ouest",
+      "Abel"
+    ],
+    [
+      "dispute",
+      "cadet",
+      "Dalton",
+      "boréale",
+      "Carpates"
+    ],
+    [
+      "parent",
+      "frangin",
+      "soeur",
+      "jumeau",
+      "abside"
+    ],
+    [
+      "Chartreuse",
+      "Tarn",
+      "galoper",
+      "complicité",
+      "Caïn"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    4,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "frère",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 13
+}

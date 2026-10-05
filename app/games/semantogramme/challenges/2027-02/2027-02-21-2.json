@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "antique",
-      "thésée",
-      "fil",
-      "taureau",
-      "lait"
+      "terre",
+      "visage",
+      "irrésolu",
+      "Luxembourg",
+      "créature"
     ],
     [
-      "algue",
-      "chevalier",
-      "consumer",
-      "corne",
-      "labyrinthe"
+      "farfadet",
+      "bande-annonce",
+      "lutin",
+      "Amélie",
+      "panier"
     ],
     [
-      "rebond",
-      "égarer",
-      "monstre",
-      "mythique",
-      "occiput"
+      "statuette",
+      "Proust",
+      "mener",
+      "flan",
+      "embrayage"
     ],
     [
-      "voûte",
-      "palais",
-      "voter",
-      "décret",
-      "échine"
+      "chou",
+      "mythologie",
+      "bonnet",
+      "jardin",
+      "mine"
     ],
     [
-      "rugir",
-      "chaise",
-      "crétois",
-      "légendaire",
-      "mythologie"
+      "nain",
+      "champignon",
+      "salle",
+      "barbe",
+      "percer"
     ]
   ],
   "rowClues": [
-    4,
     2,
     3,
     1,
-    4
+    4,
+    3
   ],
   "colClues": [
+    4,
+    2,
     2,
     3,
-    3,
-    4,
     2
   ],
-  "themeWord": "minotaure",
+  "themeWord": "gnome",
   "solution": [
     [
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       true,
       false
     ],
     [
+      true,
       false,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

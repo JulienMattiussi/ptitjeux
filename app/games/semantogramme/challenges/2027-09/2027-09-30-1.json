@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ferme",
+      "soumettre",
+      "exploitation",
+      "paysan"
+    ],
+    [
+      "semer",
+      "traquer",
+      "labourer",
+      "bétail"
+    ],
+    [
+      "dévot",
+      "tracteur",
+      "moisson",
+      "récolte"
+    ],
+    [
+      "pain",
+      "champ",
+      "pantalon",
+      "trépied"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "agriculteur",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

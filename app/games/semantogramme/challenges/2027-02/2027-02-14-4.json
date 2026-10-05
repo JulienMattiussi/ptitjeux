@@ -5,92 +5,92 @@
   "height": 7,
   "words": [
     [
-      "mortier",
-      "parfumé",
-      "soufflet",
-      "éphémère",
-      "germain",
-      "joaillier",
-      "déchiffrer"
+      "pardon",
+      "Elsa",
+      "fantasque",
+      "Peirce",
+      "diesel",
+      "mocassin",
+      "coucher"
     ],
     [
-      "licorne",
-      "cépage",
-      "beauté",
-      "comparaison",
-      "antenne",
-      "orange",
-      "mansarde"
+      "James",
+      "utilité",
+      "Courvoisier",
+      "réalisme",
+      "rase-mottes",
+      "Amérique",
+      "trafic"
     ],
     [
-      "plante",
-      "rose",
-      "aigre",
-      "élégant",
-      "vibrer",
-      "cliquer",
-      "patins"
-    ],
-    [
-      "pochette",
-      "connaissance",
-      "pléistocène",
-      "pousser",
-      "restreint",
+      "expérience",
+      "résultat",
+      "opportunisme",
+      "bandonéon",
+      "cygne",
       "tropical",
-      "safran"
+      "malingre"
     ],
     [
-      "météo",
-      "prune",
-      "rouge",
-      "lèchefrite",
-      "extatique",
-      "cargo",
-      "aneth"
+      "prêcheur",
+      "praxis",
+      "coiffure",
+      "méthode",
+      "Dewey",
+      "conséquence",
+      "isoloir"
     ],
     [
-      "souris",
-      "artisan",
-      "choucroute",
-      "épanouir",
-      "décoratif",
-      "fleurir",
-      "raisonnement"
+      "hache",
+      "efficace",
+      "vérité",
+      "chevreuil",
+      "action",
+      "biaiser",
+      "concret"
     ],
     [
-      "pétale",
-      "pacifique",
-      "chameau",
-      "tisane",
-      "exotique",
-      "corolle",
-      "caraïbe"
+      "terrain",
+      "Amazon",
+      "poussée",
+      "bousculade",
+      "tacheté",
+      "glaçons",
+      "Ploumanac'h"
+    ],
+    [
+      "empirisme",
+      "livraison",
+      "gargouillis",
+      "orgelet",
+      "désinfecter",
+      "rédaction",
+      "saumâtre"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    2,
-    2,
-    1,
-    3,
-    6
-  ],
-  "colClues": [
-    2,
-    3,
     1,
     4,
-    2,
+    3,
     4,
+    4,
+    1,
     1
   ],
-  "themeWord": "hibiscus",
+  "colClues": [
+    4,
+    4,
+    2,
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "pragmatisme",
   "solution": [
     [
       false,
-      true,
+      false,
       false,
       true,
       false,
@@ -98,26 +98,8 @@
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
@@ -125,8 +107,8 @@
       false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
       false,
@@ -135,7 +117,7 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
       true,
@@ -143,14 +125,32 @@
       false
     ],
     [
+      false,
       true,
       true,
       false,
       true,
-      true,
-      true,
+      false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

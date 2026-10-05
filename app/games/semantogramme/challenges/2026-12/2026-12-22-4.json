@@ -5,103 +5,121 @@
   "height": 7,
   "words": [
     [
-      "roche",
-      "braque",
-      "pliocène",
-      "savane",
-      "grisaille",
-      "umami",
-      "hominidé"
+      "Caravage",
+      "Bernin",
+      "rugir",
+      "duodénum",
+      "excès",
+      "clavecin",
+      "érosion"
     ],
     [
-      "pudeur",
-      "pélagique",
-      "cascade",
-      "ère",
-      "civil",
-      "reproduire",
-      "spéculatif"
+      "volute",
+      "Rome",
+      "discret",
+      "merle",
+      "aisselle",
+      "boyau",
+      "Bach"
     ],
     [
-      "résigner",
-      "réplique",
-      "officier",
-      "miocène",
-      "taillée",
-      "sélectionner",
-      "climat"
+      "Nice",
+      "ornement",
+      "féodalité",
+      "douze",
+      "exubérance",
+      "arête",
+      "salsa"
     ],
     [
-      "mâle",
-      "sédiment",
-      "frisé",
-      "continental",
-      "exagération",
-      "tropical",
-      "alsace"
+      "Haendel",
+      "Monteverdi",
+      "Vivaldi",
+      "bouillant",
+      "s'emporter",
+      "Gargantua",
+      "Poucet"
     ],
     [
-      "géologique",
-      "modération",
-      "pharmacien",
-      "mammifère",
-      "haine",
-      "lettré",
-      "fossile"
+      "vocabulaire",
+      "écosystème",
+      "communautaire",
+      "dorure",
+      "Rubens",
+      "compétition",
+      "pistil"
     ],
     [
-      "fenouil",
-      "fumier",
-      "traité",
-      "pivoter",
-      "innovation",
-      "crêpe",
-      "apparition"
+      "flatter",
+      "psychanalyse",
+      "luxation",
+      "pli",
+      "trompe-l'oeil",
+      "sachet",
+      "acidité"
     ],
     [
-      "vainqueur",
-      "tempéré",
-      "document",
-      "hirsute",
-      "ancien",
-      "économiser",
-      "musée"
+      "description",
+      "baseball",
+      "Prague",
+      "troisième",
+      "boxe",
+      "Aristippe",
+      "thermomètre"
     ]
   ],
   "rowClues": [
     4,
-    1,
+    3,
     2,
     3,
-    3,
+    2,
     1,
-    2
+    1
   ],
   "colClues": [
+    3,
+    4,
     2,
-    2,
     1,
-    5,
+    4,
     1,
-    1,
-    4
+    1
   ],
-  "themeWord": "néogène",
+  "themeWord": "baroque",
   "solution": [
     [
       true,
+      true,
+      false,
       false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false,
       false,
       true
     ],
     [
       false,
+      true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false,
       false,
       false
@@ -111,43 +129,25 @@
       false,
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
-      true,
-      false,
-      true,
       false
     ],
     [
-      true,
+      false,
+      false,
       false,
       false,
       true,
       false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
-      true,
       false,
       false
     ]

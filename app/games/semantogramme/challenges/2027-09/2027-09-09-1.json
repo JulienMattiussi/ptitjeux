@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-09-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chewing-gum",
+      "Parme",
+      "sucette",
+      "guimauve"
+    ],
+    [
+      "confiserie",
+      "usine",
+      "Haribo",
+      "praline"
+    ],
+    [
+      "phytoplancton",
+      "Carpates",
+      "réglisse",
+      "bain"
+    ],
+    [
+      "berlingot",
+      "caramel",
+      "académique",
+      "ressentir"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "bonbon",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "vendange",
-      "peloton",
-      "rouille",
-      "champignon"
+      "Titicaca",
+      "baignade",
+      "Ness",
+      "averse"
     ],
     [
-      "fiable",
-      "écharpe",
-      "citrouille",
-      "noix"
+      "marché",
+      "Baïkal",
+      "Orient",
+      "Michigan"
     ],
     [
-      "chambre",
-      "récolte",
-      "minimiser",
-      "foncé"
+      "barrage",
+      "chérie",
+      "nourrir",
+      "Léman"
     ],
     [
-      "pomme",
-      "feuille",
-      "brume",
-      "biliaire"
+      "pédalo",
+      "voiture",
+      "Annecy",
+      "Bourget"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    1,
+    2,
+    2,
     3
   ],
   "colClues": [
+    3,
     2,
-    3,
-    3,
-    2
+    2,
+    3
   ],
-  "themeWord": "automne",
+  "themeWord": "lac",
   "solution": [
     [
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 10

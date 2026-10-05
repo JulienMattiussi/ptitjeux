@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "glace",
-      "chaleur",
-      "guet",
-      "plombier"
+      "Marseille",
+      "modique",
+      "bulle",
+      "baignoire"
     ],
     [
-      "parasol",
-      "maillot",
-      "étoffe",
-      "plage"
+      "Dove",
+      "gisant",
+      "Jamaïque",
+      "douche"
     ],
     [
-      "haïku",
-      "mausolée",
-      "soleil",
-      "toupie"
+      "Nord",
+      "glycérine",
+      "fougueux",
+      "lessive"
     ],
     [
-      "sandale",
-      "consanguin",
-      "vacances",
-      "lézard"
+      "Alep",
+      "shampoing",
+      "hygiène",
+      "allègre"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    1,
+    2,
+    2,
     3
   ],
   "colClues": [
     3,
     2,
     2,
-    2
+    3
   ],
-  "themeWord": "été",
+  "themeWord": "savon",
   "solution": [
     [
       true,
-      true,
       false,
-      false
+      true,
+      true
     ],
     [
       true,
-      true,
+      false,
       false,
       true
     ],
     [
       false,
-      false,
       true,
-      false
+      false,
+      true
     ],
     [
       true,
-      false,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

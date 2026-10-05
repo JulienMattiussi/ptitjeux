@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "lombaire",
-      "télescope",
-      "enfourcher",
-      "fustiger",
-      "filtrer"
+      "Odyssée",
+      "endurance",
+      "regarder",
+      "Doliprane",
+      "probité"
     ],
     [
-      "uriner",
-      "tresse",
-      "autonomie",
-      "colique",
-      "alphabet"
+      "Florentine",
+      "arrivée",
+      "chrono",
+      "mur",
+      "Berlin"
     ],
     [
-      "cystite",
-      "urinaire",
-      "clou",
-      "créatinine",
-      "panneau"
+      "aimable",
+      "ravitaillement",
+      "erg",
+      "médaille",
+      "foulée"
     ],
     [
-      "changer",
-      "beurre",
-      "autobloquant",
-      "calcul",
-      "fente"
+      "console",
+      "Daenerys",
+      "coureur",
+      "potiron",
+      "outil"
     ],
     [
-      "urée",
-      "vessie",
-      "dialyse",
-      "néphron",
-      "sud"
+      "dossard",
+      "réconciliation",
+      "dactylo",
+      "course",
+      "baskets"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
+    4,
     3,
     1,
-    4
+    3
   ],
   "colClues": [
-    4,
-    2,
     1,
-    4,
-    1
+    3,
+    2,
+    3,
+    3
   ],
-  "themeWord": "rein",
+  "themeWord": "marathon",
   "solution": [
     [
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       true
     ],
     [
-      true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
-      false
+      true
     ],
     [
       false,
       false,
-      false,
       true,
+      false,
       false
     ],
     [
       true,
+      false,
+      false,
       true,
-      true,
-      true,
-      false
+      true
     ]
   ],
   "parMoves": 12

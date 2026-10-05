@@ -5,51 +5,45 @@
   "height": 4,
   "words": [
     [
-      "discuter",
-      "caravane",
-      "rouler",
-      "esquisse"
+      "pirouette",
+      "piste",
+      "glisse",
+      "bouc"
     ],
     [
-      "scorpion",
-      "sable",
-      "oasis",
-      "pied"
+      "Bohr",
+      "dépression",
+      "haut-de-forme",
+      "figure"
     ],
     [
-      "atoll",
-      "escarpin",
-      "chameau",
-      "éternuement"
+      "jury",
+      "Dumas",
+      "Candeloro",
+      "lame"
     ],
     [
-      "aimant",
-      "palmier",
-      "pépin",
-      "soif"
+      "vrille",
+      "triple",
+      "betterave",
+      "Bonaly"
     ]
   ],
   "rowClues": [
-    1,
     3,
     1,
-    2
+    3,
+    3
   ],
   "colClues": [
-    1,
     3,
     2,
-    1
+    2,
+    3
   ],
-  "themeWord": "désert",
+  "themeWord": "patinage",
   "solution": [
     [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       true,
@@ -58,15 +52,21 @@
     [
       false,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
+      true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

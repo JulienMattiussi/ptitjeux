@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-14-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "Caïn",
+      "galette",
+      "archéologue",
+      "satire",
+      "bleu",
+      "roseau"
+    ],
+    [
+      "chasseuse",
+      "demoiselle",
+      "clouté",
+      "géométrie",
+      "arène",
+      "blessure"
+    ],
+    [
+      "hélicoptère",
+      "larve",
+      "cours",
+      "vert",
+      "eau",
+      "nymphe"
+    ],
+    [
+      "skiff",
+      "laurier",
+      "étang",
+      "badigeonner",
+      "nénuphar",
+      "vacarme"
+    ],
+    [
+      "marchander",
+      "coqueluche",
+      "pendentif",
+      "voler",
+      "moustique",
+      "Deauville"
+    ],
+    [
+      "aile",
+      "faussaire",
+      "chausson",
+      "coucher",
+      "insecte",
+      "mare"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    5,
+    2,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    1,
+    2,
+    5,
+    3
+  ],
+  "themeWord": "libellule",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 16
+}

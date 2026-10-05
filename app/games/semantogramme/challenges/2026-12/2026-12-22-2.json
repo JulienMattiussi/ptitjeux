@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "épousseter",
-      "décision",
-      "décider",
-      "décréter",
-      "spéléologie"
+      "Louvre",
+      "niçoise",
+      "luxe",
+      "royal",
+      "Versailles"
     ],
     [
-      "cabinet",
-      "adhérer",
-      "frappe",
-      "joyeux",
-      "conseil"
+      "dépenser",
+      "Élysée",
+      "autrefois",
+      "verni",
+      "bouche"
     ],
     [
-      "génoise",
-      "rabbin",
-      "brut",
-      "gouvernemental",
-      "premier"
+      "Buckingham",
+      "château",
+      "panthère",
+      "promotion",
+      "salle"
     ],
     [
-      "politique",
-      "compétent",
-      "sentier",
-      "étanche",
-      "délégué"
+      "effort",
+      "plant",
+      "sultan",
+      "clémentine",
+      "chauffe-eau"
     ],
     [
-      "portefeuille",
-      "autorisé",
-      "diriger",
-      "narratif",
-      "houle"
+      "goût",
+      "Gévaudan",
+      "princier",
+      "roi",
+      "justice"
     ]
   ],
   "rowClues": [
-    3,
+    4,
     2,
-    2,
     3,
-    3
+    1,
+    4
   ],
   "colClues": [
     3,
+    2,
     3,
     2,
-    2,
-    3
+    4
   ],
-  "themeWord": "ministre",
+  "themeWord": "palais",
   "solution": [
     [
+      true,
       false,
       true,
       true,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
+      true,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

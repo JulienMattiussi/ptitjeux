@@ -5,90 +5,108 @@
   "height": 7,
   "words": [
     [
-      "cercle",
-      "construction",
-      "élargir",
-      "mesurer",
-      "rigoureux",
-      "empire",
-      "bis"
+      "jouvenceau",
+      "pot-au-feu",
+      "épitaphe",
+      "vernissage",
+      "marches",
+      "Tacite",
+      "GPS"
     ],
     [
-      "finesse",
-      "spartiate",
-      "rondelet",
-      "société",
-      "descartes",
-      "fuir",
-      "centre"
+      "tailleur",
+      "épigraphie",
+      "amener",
+      "Renaissance",
+      "chargement",
+      "Hallyday",
+      "style"
     ],
     [
-      "bissextile",
-      "isolé",
-      "architecte",
-      "courbure",
-      "lancinante",
-      "spirituelle",
-      "agneau"
+      "stèle",
+      "vainqueur",
+      "économiser",
+      "aphorisme",
+      "caméscope",
+      "flambée",
+      "dévotion"
     ],
     [
-      "olympique",
-      "charbon",
-      "siroter",
-      "rayon",
-      "canari",
-      "tolérer",
-      "circonférence"
+      "Camus",
+      "têtard",
+      "formule",
+      "chocolatine",
+      "tranchant",
+      "facette",
+      "dense"
     ],
     [
-      "pimenter",
-      "blonde",
-      "dessin",
-      "instrument",
-      "gestationnel",
-      "simplet",
-      "nettoyer"
+      "brièveté",
+      "rampe",
+      "Hamlet",
+      "inhalateur",
+      "diamantaire",
+      "Lapérouse",
+      "concis"
     ],
     [
-      "parabole",
-      "précis",
-      "pliocène",
-      "pointe",
-      "navigation",
-      "utopie",
-      "symbole"
+      "sueur",
+      "best-seller",
+      "frayère",
+      "Parques",
+      "Maison-Blanche",
+      "sentence",
+      "foyer"
     ],
     [
-      "insuline",
-      "géométrie",
-      "interprète",
-      "concret",
-      "bras",
-      "maçonnique",
-      "métallique"
+      "polisseur",
+      "assassinat",
+      "percutant",
+      "graphisme",
+      "machette",
+      "maxime",
+      "slogan"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    1,
     2,
     2,
     4,
+    3,
+    1,
     4
   ],
   "colClues": [
+    3,
     1,
-    2,
+    3,
+    1,
     2,
     4,
-    2,
-    1,
     4
   ],
-  "themeWord": "compas",
+  "themeWord": "lapidaire",
   "solution": [
     [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       false,
@@ -100,57 +118,39 @@
     [
       false,
       false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       false,
       false,
+      true,
       false,
       true
     ],
     [
       false,
       false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
       false
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      true,
       true,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

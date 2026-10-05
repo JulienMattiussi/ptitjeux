@@ -5,110 +5,137 @@
   "height": 7,
   "words": [
     [
-      "serrure",
-      "fouiller",
-      "poésie",
-      "sanctuaire",
-      "mammifère",
-      "fan",
-      "patte"
+      "restaurer",
+      "bouquet",
+      "terrasser",
+      "huitième",
+      "roué",
+      "répartie",
+      "inventer"
     ],
     [
-      "flaubert",
-      "roulette",
-      "paillasson",
-      "tourbillon",
-      "gravir",
-      "chiper",
-      "figurine"
+      "tension",
+      "nièce",
+      "charbon",
+      "bouchon",
+      "Renault",
+      "mésozoïque",
+      "Parthénon"
     ],
     [
-      "terrifiant",
-      "gris",
-      "malin",
-      "vautour",
-      "univers",
-      "griffes",
-      "valencia"
+      "voilier",
+      "trapu",
+      "Tosh",
+      "cépage",
+      "tanin",
+      "Gien",
+      "horloge"
     ],
     [
-      "piqûre",
-      "musset",
-      "nocturne",
-      "lèchefrite",
-      "rayée",
-      "globule",
-      "rivage"
+      "Matisse",
+      "Galice",
+      "Chaperon",
+      "carte",
+      "balalaïka",
+      "cuvée",
+      "Landes"
     ],
     [
-      "action",
-      "normandie",
-      "condor",
-      "modèle",
-      "amérique",
-      "opportuniste",
-      "queue"
+      "pull",
+      "grillé",
+      "œnophile",
+      "Bordeaux",
+      "sumo",
+      "Bourgogne",
+      "nez"
     ],
     [
-      "agile",
-      "enrobé",
-      "écosse",
-      "curieux",
-      "division",
-      "précision",
-      "marathon"
+      "Scandinavie",
+      "brut",
+      "dégustation",
+      "expertise",
+      "dard",
+      "carafe",
+      "percevoir"
     ],
     [
-      "laver",
-      "frisbee",
-      "croasser",
-      "façonner",
-      "vétiver",
-      "épuisement",
-      "rouget"
+      "tastevin",
+      "urticaire",
+      "Riesling",
+      "accord",
+      "rare",
+      "verre",
+      "enfouir"
     ]
   ],
   "rowClues": [
-    3,
     1,
-    3,
+    1,
     2,
-    3,
     2,
-    1
+    4,
+    2,
+    4
   ],
   "colClues": [
-    2,
-    2,
-    2,
+    1,
     1,
     3,
-    3,
-    2
+    5,
+    1,
+    4,
+    1
   ],
-  "themeWord": "raton",
+  "themeWord": "sommelier",
   "solution": [
     [
       false,
       true,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
@@ -116,41 +143,14 @@
       false
     ],
     [
-      false,
-      false,
       true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

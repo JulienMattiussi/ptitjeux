@@ -5,141 +5,105 @@
   "height": 7,
   "words": [
     [
-      "ruine",
-      "tournevis",
-      "enduit",
-      "ambré",
-      "eucaryote",
-      "crête",
-      "farceur"
+      "Chine",
+      "Gabon",
+      "kératine",
+      "oracle",
+      "armure",
+      "interprète",
+      "vieilli"
     ],
     [
-      "poisson-clown",
-      "professer",
-      "sublime",
-      "apéritif",
-      "catégorique",
-      "scolopendre",
-      "déguster"
+      "luxation",
+      "tatou",
+      "fongique",
+      "langue",
+      "hernie",
+      "Asie",
+      "Plougastel"
     ],
     [
-      "vaniteux",
-      "pays-d-auge",
-      "férié",
-      "vieux",
-      "distillation",
-      "massant",
-      "aromatique"
+      "menacé",
+      "pitié",
+      "serpent",
+      "saccharose",
+      "steward",
+      "insectivore",
+      "mannequin"
     ],
     [
-      "hors-d-âge",
-      "écouter",
-      "pomme",
-      "chaleur",
-      "pied",
-      "agricole",
-      "siroter"
+      "trafic",
+      "braconnage",
+      "opticien",
+      "régime",
+      "tannerie",
+      "succès",
+      "augmenter"
     ],
     [
-      "normandie",
-      "magnanime",
-      "transitoire",
-      "digestif",
-      "gloriette",
-      "vive",
-      "puissant"
+      "lagopède",
+      "covid",
+      "lessive",
+      "mammifère",
+      "écailles",
+      "modernité",
+      "nocturne"
     ],
     [
-      "cidre",
-      "jeudi",
-      "dramatique",
-      "eau-de-vie",
-      "salade",
-      "verbiage",
-      "odorante"
+      "boule",
+      "termites",
+      "idylle",
+      "Opéra",
+      "arthrose",
+      "réveil",
+      "Crabe"
     ],
     [
-      "doux",
-      "agenouiller",
-      "larme",
-      "inutilisé",
-      "éruption",
-      "rural",
-      "félin"
+      "pickles",
+      "fourmis",
+      "thermomètre",
+      "parasite",
+      "hémoglobine",
+      "Suzette",
+      "panier"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     4,
     3,
-    3,
     2,
-    2
+    2,
+    4,
+    2,
+    1
   ],
   "colClues": [
     4,
+    6,
     1,
-    1,
-    5,
-    1,
-    1,
-    4
+    2,
+    2,
+    2,
+    1
   ],
-  "themeWord": "calvados",
+  "themeWord": "pangolin",
   "solution": [
     [
-      false,
-      false,
-      false,
+      true,
+      true,
       true,
       false,
+      true,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       true,
       false,
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
       false
     ],
     [
@@ -149,8 +113,44 @@
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

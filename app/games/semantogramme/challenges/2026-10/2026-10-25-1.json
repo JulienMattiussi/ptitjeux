@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "cépage",
-      "cygne",
-      "couette",
-      "beaujolais"
+      "forfait",
+      "fartage",
+      "station",
+      "collectionneur"
     ],
     [
-      "prisme",
-      "blanc",
-      "rosé",
-      "tonner"
+      "magazine",
+      "frise",
+      "scolaire",
+      "poudreuse"
     ],
     [
-      "tannin",
-      "rythme",
-      "rouge",
-      "division"
+      "tire-fesses",
+      "schuss",
+      "tapas",
+      "poinçon"
     ],
     [
-      "bordeaux",
-      "hôpital",
-      "haleine",
-      "champagne"
+      "cétoine",
+      "alphabet",
+      "lauriers",
+      "chalet"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     3,
     1,
     2,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
     2
   ],
-  "themeWord": "vin",
+  "themeWord": "ski",
   "solution": [
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true
     ],
     [
+      true,
+      true,
       false,
-      true,
-      true,
       false
     ],
     [
-      true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

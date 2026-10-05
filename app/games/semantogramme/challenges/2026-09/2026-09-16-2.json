@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "robe",
-      "mondial",
-      "visiter",
-      "bol",
-      "marchand"
+      "éprouvette",
+      "finale",
+      "Genèse",
+      "taffetas",
+      "Lyon"
     ],
     [
-      "couper",
-      "cimetière",
-      "chemin",
-      "hexagonal",
-      "brillante"
+      "pétard",
+      "Orient",
+      "étoffe",
+      "foulard",
+      "canut"
     ],
     [
-      "oeufrier",
-      "lob",
-      "conserve",
-      "filer",
+      "kimono",
+      "luxe",
+      "chromatique",
+      "origine",
+      "Finlande"
+    ],
+    [
+      "cachemire",
+      "lingerie",
+      "fil",
+      "satin",
       "cocon"
     ],
     [
-      "stylo",
-      "stomacal",
-      "tissu",
       "mûrier",
-      "douce"
-    ],
-    [
-      "lisse",
-      "précieuse",
-      "percussion",
-      "application",
-      "foulard"
+      "chalumeau",
+      "brocart",
+      "Chine",
+      "effets"
     ]
   ],
   "rowClues": [
-    1,
     2,
+    4,
     2,
-    3,
+    4,
     3
   ],
   "colClues": [
     2,
-    1,
-    2,
-    2,
-    4
+    3,
+    3,
+    4,
+    3
   ],
   "themeWord": "soie",
   "solution": [
     [
-      true,
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false
     ],
     [
       false,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       true
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

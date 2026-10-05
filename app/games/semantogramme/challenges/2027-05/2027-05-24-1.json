@@ -5,46 +5,52 @@
   "height": 4,
   "words": [
     [
-      "chaîne",
-      "saturne",
-      "décrépir",
-      "bijoutier"
+      "expérience",
+      "chimie",
+      "laboratoire",
+      "pouffer"
     ],
     [
-      "fable",
-      "menton",
-      "cou",
-      "diamant"
+      "chercheur",
+      "impudence",
+      "bosquet",
+      "savant"
     ],
     [
-      "protectrice",
-      "pile",
-      "sautoir",
-      "ras"
+      "Signac",
+      "hypertension",
+      "biologie",
+      "velouté"
     ],
     [
-      "étoile",
-      "pendentif",
-      "tour",
-      "japon"
+      "bijou",
+      "aubergine",
+      "physique",
+      "session"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
-    2,
-    2
+    1,
+    1
   ],
   "colClues": [
-    1,
+    2,
     1,
     3,
-    3
+    1
   ],
-  "themeWord": "collier",
+  "themeWord": "science",
   "solution": [
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true
@@ -53,20 +59,14 @@
       false,
       false,
       true,
-      true
+      false
     ],
     [
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

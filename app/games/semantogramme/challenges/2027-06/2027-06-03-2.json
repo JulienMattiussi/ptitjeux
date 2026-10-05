@@ -5,56 +5,56 @@
   "height": 5,
   "words": [
     [
-      "orthogonal",
-      "côté",
-      "angle",
-      "tête",
-      "volume"
+      "Amazonie",
+      "pagaie",
+      "lagon",
+      "méhari",
+      "religion"
     ],
     [
-      "courroux",
-      "damier",
-      "ligoter",
-      "écorcer",
-      "rectiligne"
+      "kayak",
+      "poli",
+      "pêcheur",
+      "éphémérides",
+      "creusé"
     ],
     [
-      "verre",
-      "gabriel",
-      "démon",
-      "pavé",
-      "losange"
+      "opalin",
+      "cellulose",
+      "rameur",
+      "radeau",
+      "Polynésie"
     ],
     [
-      "échiquier",
-      "équinoxe",
-      "quadrillage",
-      "céleste",
-      "case"
+      "créature",
+      "canoë",
+      "rigoler",
+      "fleuve",
+      "zoo"
     ],
     [
-      "cubique",
-      "rectangle",
-      "cube",
-      "agate",
-      "tuile"
+      "Niger",
+      "content",
+      "balancier",
+      "embarcation",
+      "rivière"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
     3,
+    3,
+    2,
     4
   ],
   "colClues": [
     3,
+    2,
+    4,
     3,
-    3,
-    1,
-    4
+    3
   ],
-  "themeWord": "carré",
+  "themeWord": "pirogue",
   "solution": [
     [
       true,
@@ -64,20 +64,6 @@
       false
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       true,
@@ -85,12 +71,26 @@
       true
     ],
     [
+      false,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

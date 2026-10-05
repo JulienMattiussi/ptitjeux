@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "sacré",
-      "cérébral",
-      "squelettique",
-      "gronder",
-      "imaginer"
+      "bruit",
+      "Morgane",
+      "ailes",
+      "marraine",
+      "baguette"
     ],
     [
-      "mental",
-      "foule",
-      "jumeler",
-      "esprit",
-      "zoom"
+      "rieuse",
+      "Soutine",
+      "voeu",
+      "magie",
+      "lutin"
     ],
     [
-      "majorité",
-      "réflexion",
-      "lobe",
-      "méninges",
-      "crâne"
+      "enchanteresse",
+      "dopamine",
+      "coffre-fort",
+      "Carabosse",
+      "satirique"
     ],
     [
-      "penser",
-      "cognition",
-      "royale",
-      "juge",
-      "neuronal"
+      "charpente",
+      "détective",
+      "ramure",
+      "boycotter",
+      "Cendrillon"
     ],
     [
-      "lapin",
-      "intelligence",
-      "mémoire",
-      "fille",
-      "mémoriser"
+      "embarcation",
+      "radin",
+      "étincelle",
+      "missel",
+      "Jean-Marc"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     4,
+    3,
+    2,
+    1,
+    1
+  ],
+  "colClues": [
+    1,
+    1,
+    3,
     3,
     3
   ],
-  "colClues": [
-    2,
-    4,
-    2,
-    2,
-    4
-  ],
-  "themeWord": "cerveau",
+  "themeWord": "fée",
   "solution": [
     [
       false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
+      true,
+      true,
       true
     ],
     [
@@ -72,25 +79,18 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
-      true
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

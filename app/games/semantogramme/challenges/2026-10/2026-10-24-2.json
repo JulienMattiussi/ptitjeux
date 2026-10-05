@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "canicule",
-      "immobile",
-      "ring",
-      "fondre",
-      "cuire"
+      "lourdaud",
+      "musculation",
+      "sirupeux",
+      "larynx",
+      "morve"
     ],
     [
-      "mésange",
-      "thermos",
-      "chaleur",
-      "vase",
-      "tiède"
+      "glaire",
+      "sculpteur",
+      "encens",
+      "normande",
+      "limace"
     ],
     [
-      "bouillir",
-      "fournaise",
-      "étuve",
-      "pendentif",
-      "beau"
+      "Carmen",
+      "goudron",
+      "colle",
+      "Sydney",
+      "bave"
     ],
     [
-      "sévère",
-      "musée",
-      "feu",
-      "congé",
-      "réchauffer"
+      "antique",
+      "pâteux",
+      "visqueux",
+      "chewing-gum",
+      "thermomètre"
     ],
     [
-      "soleil",
-      "brûlant",
-      "radiateur",
-      "flamme",
-      "vieillard"
+      "poisseux",
+      "alizé",
+      "abordage",
+      "poix",
+      "projeter"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
     2,
-    4
+    2,
+    3,
+    3,
+    2
   ],
   "colClues": [
+    2,
+    2,
     3,
-    3,
-    4,
     2,
     3
   ],
-  "themeWord": "chaud",
+  "themeWord": "gluant",
   "solution": [
     [
-      true,
       false,
       false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -71,26 +78,19 @@
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       false
     ],
     [
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

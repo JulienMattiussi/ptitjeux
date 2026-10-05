@@ -5,75 +5,83 @@
   "height": 6,
   "words": [
     [
-      "illuminer",
-      "confus",
-      "montagne",
-      "roller",
-      "agenouillement",
-      "forger"
+      "hache",
+      "Louisiane",
+      "pâtes",
+      "question",
+      "arbre",
+      "abattre"
     ],
     [
-      "arnaque",
-      "chasser",
-      "cessez-le-feu",
-      "primer",
-      "précoce",
-      "commande"
+      "chambrette",
+      "Canada",
+      "tronçonneuse",
+      "parchemin",
+      "gothique",
+      "sort"
     ],
     [
-      "hurlement",
-      "potage",
-      "chaperon",
-      "primate",
-      "rusé",
-      "paliers"
+      "mythe",
+      "rondin",
+      "feuilleté",
+      "flanelle",
+      "anneau",
+      "carreaux"
     ],
     [
-      "résolution",
-      "pelage",
-      "crocs",
-      "vainqueur",
-      "gueule",
-      "meute"
+      "pondre",
+      "chêne",
+      "lard",
+      "bois",
+      "tonitruant",
+      "stère"
     ],
     [
-      "budget",
-      "cortège",
-      "pédale",
-      "légende",
-      "brillant",
-      "parrain"
+      "vêpres",
+      "cognée",
+      "lessive",
+      "coupe",
+      "électrophone",
+      "élagage"
     ],
     [
-      "forêt",
-      "esclave",
-      "canidé",
-      "conte",
-      "rôder",
-      "oriflamme"
+      "jaser",
+      "Poucet",
+      "scie",
+      "gerbille",
+      "chemise",
+      "conte"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     3,
-    4,
-    1,
+    2,
+    3,
+    3,
+    3,
     4
   ],
   "colClues": [
-    2,
-    2,
-    4,
+    1,
+    5,
     2,
     3,
-    1
+    2,
+    5
   ],
-  "themeWord": "loup",
+  "themeWord": "bûcheron",
   "solution": [
     [
+      true,
       false,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false,
@@ -83,17 +91,25 @@
       false,
       true,
       false,
+      true,
       false,
-      false,
-      false
+      true
     ],
     [
-      true,
       false,
       true,
       false,
       true,
-      false
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
     ],
     [
       false,
@@ -102,23 +118,7 @@
       false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "éditorial",
-      "reporter",
-      "sacrer",
-      "univers"
+      "traiteur",
+      "voile",
+      "Marquet",
+      "mairie"
     ],
     [
-      "léopard",
-      "titre",
-      "virement",
-      "article"
+      "alliance",
+      "Rhône",
+      "bague",
+      "bosse"
     ],
     [
-      "abonnement",
-      "bambin",
-      "rédaction",
-      "kiosque"
+      "ours",
+      "témoin",
+      "robe",
+      "noces"
     ],
     [
-      "rubrique",
-      "phalange",
-      "parution",
-      "manchette"
+      "déferlante",
+      "défrichement",
+      "faire-part",
+      "fluorescent"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     3,
-    3
+    1
   ],
   "colClues": [
+    2,
+    2,
     3,
-    2,
-    2,
-    3
+    2
   ],
-  "themeWord": "journal",
+  "themeWord": "mariage",
   "solution": [
     [
       true,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       false
     ],
     [
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

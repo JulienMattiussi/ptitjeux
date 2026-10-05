@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "blanche",
+      "blizzard",
+      "original",
+      "camion"
+    ],
+    [
+      "col",
+      "repasser",
+      "céleste",
+      "poignet"
+    ],
+    [
+      "malheureux",
+      "poche",
+      "bouton",
+      "manche"
+    ],
+    [
+      "carreaux",
+      "cravate",
+      "jambière",
+      "lin"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "chemise",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

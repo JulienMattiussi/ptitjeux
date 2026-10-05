@@ -5,56 +5,44 @@
   "height": 4,
   "words": [
     [
-      "criquet",
-      "éditorial",
-      "astre",
-      "crampon"
+      "caneton",
+      "palmé",
+      "délicatesse",
+      "colvert"
     ],
     [
-      "galaxie",
-      "nuit",
-      "pulsar",
-      "piquant"
+      "coin-coin",
+      "anéantir",
+      "Donald",
+      "mare"
     ],
     [
-      "soleil",
-      "constellation",
-      "héroïsme",
-      "ciel"
+      "colonne",
+      "plume",
+      "bain",
+      "magret"
     ],
     [
-      "maquette",
-      "éclat",
-      "tube",
-      "briques"
+      "confit",
+      "mi",
+      "Cellini",
+      "focale"
     ]
   ],
   "rowClues": [
-    1,
+    3,
     3,
     3,
     1
   ],
   "colClues": [
-    2,
     3,
     2,
-    1
+    2,
+    3
   ],
-  "themeWord": "étoile",
+  "themeWord": "canard",
   "solution": [
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
     [
       true,
       true,
@@ -62,11 +50,23 @@
       true
     ],
     [
+      true,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

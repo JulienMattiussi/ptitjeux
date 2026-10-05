@@ -5,83 +5,91 @@
   "height": 6,
   "words": [
     [
-      "inférieur",
-      "gamin",
-      "efficace",
-      "mollusque",
+      "marche",
+      "caravane",
+      "métronome",
+      "battement",
+      "faucille",
+      "sprint"
+    ],
+    [
+      "maudire",
+      "EEG",
+      "vivace",
+      "fissure",
+      "swing",
+      "nager"
+    ],
+    [
+      "danse",
+      "allure",
+      "marlin",
       "jazz",
-      "indien"
+      "cadence",
+      "courant"
     ],
     [
-      "humidité",
-      "république",
-      "transpiration",
-      "brun",
-      "pluvieux",
-      "vélo"
+      "musique",
+      "mesure",
+      "guichet",
+      "lutin",
+      "percussion",
+      "sauna"
     ],
     [
-      "ronge",
-      "annoncer",
-      "sécréter",
-      "crochet",
-      "magnétique",
-      "gastéropode"
+      "Sami",
+      "prudent",
+      "tempo",
+      "routine",
+      "fréquence",
+      "vitesse"
     ],
     [
-      "brasse",
-      "bolet",
-      "bave",
-      "long",
-      "piaf",
-      "légume"
-    ],
-    [
-      "naïveté",
-      "noir",
-      "nuisible",
-      "lent",
-      "glisser",
-      "rikiki"
-    ],
-    [
-      "poisson",
-      "mou",
-      "ouvrir",
-      "interpréter",
-      "frisée",
-      "vendeur"
+      "coeur",
+      "appeler",
+      "pulsation",
+      "pléistocène",
+      "tambour",
+      "syncope"
     ]
   ],
   "rowClues": [
+    3,
     1,
-    3,
-    3,
-    3,
     4,
-    1
+    3,
+    3,
+    4
   ],
   "colClues": [
-    2,
-    2,
-    3,
     4,
     2,
+    3,
+    3,
+    4,
     2
   ],
-  "themeWord": "limace",
+  "themeWord": "rythme",
   "solution": [
     [
+      true,
       false,
-      false,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
-      true,
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true,
       true,
@@ -89,36 +97,28 @@
     ],
     [
       true,
-      false,
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
-      false,
-      false,
-      true,
       true,
       false,
+      true,
+      false,
+      true,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

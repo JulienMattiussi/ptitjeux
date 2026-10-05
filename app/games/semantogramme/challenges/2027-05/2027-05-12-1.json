@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "sargasse",
-      "varech",
-      "marée",
-      "battant"
+      "jardiner",
+      "prêcher",
+      "phare",
+      "fusain"
     ],
     [
-      "laminaire",
-      "commencer",
-      "verdoyant",
-      "brun"
+      "ragots",
+      "brume",
+      "bonne",
+      "matin"
     ],
     [
-      "dessert",
-      "écume",
-      "préparer",
-      "mer"
+      "humidité",
+      "visibilité",
+      "arabica",
+      "précambrien"
     ],
     [
-      "marin",
-      "besace",
-      "rocher",
-      "plancton"
+      "coton",
+      "provenance",
+      "opaque",
+      "Portique"
     ]
   ],
   "rowClues": [
-    3,
+    1,
     2,
     2,
-    3
+    2
   ],
   "colClues": [
-    3,
     2,
     2,
-    3
+    2,
+    1
   ],
-  "themeWord": "algue",
+  "themeWord": "brouillard",
   "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
     [
       true,
       true,
-      true,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

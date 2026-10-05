@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "réseau",
-      "qwerty",
-      "secret",
-      "tonal",
-      "libre"
+      "hiéroglyphe",
+      "miso",
+      "statue",
+      "antique",
+      "plâtre"
     ],
     [
-      "écimer",
-      "isoloir",
-      "candidat",
-      "tirée",
-      "rayure"
+      "métal",
+      "défaillant",
+      "inquiet",
+      "airain",
+      "patine"
     ],
     [
-      "vote",
-      "costaud",
-      "effacement",
-      "bulletin",
-      "urne"
+      "temporal",
+      "phénotype",
+      "spatule",
+      "cuivre",
+      "alliage"
     ],
     [
-      "amplificateur",
-      "dépouiller",
-      "législative",
-      "élire",
-      "présidentielle"
+      "âge",
+      "fonderie",
+      "podium",
+      "macaque",
+      "lancement"
     ],
     [
-      "campagne",
-      "escarpolette",
-      "quadrillage",
-      "sanction",
-      "remplir"
+      "sculpture",
+      "Rodin",
+      "couard",
+      "Tchekhov",
+      "troisième"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    3,
-    4,
-    1
-  ],
-  "colClues": [
-    2,
-    2,
     3,
     2,
+    3,
     3
   ],
-  "themeWord": "élection",
+  "colClues": [
+    3,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "bronze",
   "solution": [
     [
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      false,
       false
     ],
     [
@@ -79,18 +72,25 @@
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ],
     [
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

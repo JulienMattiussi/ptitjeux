@@ -5,77 +5,70 @@
   "height": 5,
   "words": [
     [
-      "natation",
-      "assise",
-      "rafraîchissant",
-      "effrayer",
-      "municipale"
+      "Sahara",
+      "rubato",
+      "étuve",
+      "bouillant",
+      "ardent"
     ],
     [
-      "maillot",
-      "large",
-      "tresse",
-      "mobile",
-      "plongeoir"
+      "transpirer",
+      "reprise",
+      "lave",
+      "offrande",
+      "tailleur"
     ],
     [
-      "bloc",
-      "olympique",
-      "bain",
-      "transat",
-      "bassin"
+      "hammam",
+      "thermostat",
+      "fournaise",
+      "roche",
+      "Memphis"
     ],
     [
-      "gonflable",
-      "chlore",
-      "eau",
-      "moule",
-      "optique"
+      "tropical",
+      "compromis",
+      "diable",
+      "torride",
+      "cannibale"
     ],
     [
-      "fulgurant",
-      "barboter",
-      "longueur",
-      "rectangulaire",
-      "charger"
+      "chorégraphie",
+      "sueur",
+      "grog",
+      "sauna",
+      "braise"
     ]
   ],
   "rowClues": [
+    4,
+    2,
     3,
     2,
-    4,
-    3,
-    3
+    4
   ],
   "colClues": [
-    3,
-    3,
     4,
     2,
-    3
+    4,
+    3,
+    2
   ],
-  "themeWord": "piscine",
+  "themeWord": "chaud",
   "solution": [
     [
       true,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      true,
-      true
+      false,
+      false
     ],
     [
       true,
@@ -85,11 +78,18 @@
       false
     ],
     [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
       true,
-      false
+      true
     ]
   ],
   "parMoves": 15

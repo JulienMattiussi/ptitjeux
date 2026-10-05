@@ -5,102 +5,93 @@
   "height": 7,
   "words": [
     [
-      "archaïque",
-      "castelet",
-      "lent",
-      "soudure",
-      "compréhension",
-      "plantule",
-      "sangloter"
+      "boussole",
+      "Segway",
+      "toupie",
+      "Cambridge",
+      "greffe",
+      "réconciliation",
+      "rotation"
     ],
     [
-      "hésiter",
-      "rond",
-      "ponctuel",
-      "liturgie",
-      "illusion",
-      "manifeste",
-      "éviter"
+      "ennemi",
+      "concorde",
+      "drone",
+      "rejeter",
+      "emprise",
+      "gloire",
+      "Héphaïstos"
     ],
     [
-      "elliptique",
-      "rurale",
-      "temporiser",
-      "rhinite",
-      "couler",
-      "mule",
-      "néoténie"
+      "visière",
+      "stabilité",
+      "cuisses",
+      "tronc",
+      "Foucault",
+      "satellite",
+      "Ouranos"
     ],
     [
-      "fuir",
-      "flotter",
-      "louvoyer",
-      "décider",
-      "piétiner",
-      "attendre",
-      "indécis"
+      "médina",
+      "Sumatra",
+      "variant",
+      "minerai",
+      "axe",
+      "ventre",
+      "gifler"
     ],
     [
-      "sérénité",
-      "mesquin",
-      "choisir",
-      "écriture-automatique",
-      "ode",
-      "atermoyer",
-      "biaiser"
+      "tire-bouchon",
+      "combattre",
+      "précession",
+      "avion",
+      "proue",
+      "autoportrait",
+      "moine"
     ],
     [
-      "frire",
-      "bouquet",
-      "simultané",
-      "mou",
-      "continent",
-      "cruelle",
-      "écoute"
+      "Liège",
+      "rotor",
+      "cantonais",
+      "rue",
+      "revue",
+      "accéléromètre",
+      "voix"
     ],
     [
-      "retarder",
-      "rubis",
-      "architecte",
-      "doigt",
-      "genièvre",
-      "négoce",
-      "reculer"
+      "réprimander",
+      "complot",
+      "facétieux",
+      "chaos",
+      "inertie",
+      "rouquin",
+      "navigation"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    4,
     1,
-    6,
-    2,
+    3,
     1,
+    2,
+    2,
     2
   ],
   "colClues": [
+    1,
+    3,
     3,
     1,
     3,
     2,
-    1,
-    2,
-    4
+    2
   ],
-  "themeWord": "tergiverser",
+  "themeWord": "gyroscope",
   "solution": [
     [
       true,
-      false,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
       false,
       false,
       false,
@@ -118,39 +109,48 @@
     [
       false,
       true,
+      false,
+      false,
       true,
       true,
-      true,
-      true,
-      true
+      false
     ],
     [
       false,
       false,
       false,
       false,
-      false,
       true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       false,
       false,
       false
     ],
     [
+      false,
       true,
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

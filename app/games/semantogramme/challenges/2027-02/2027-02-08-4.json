@@ -5,90 +5,135 @@
   "height": 7,
   "words": [
     [
-      "caban",
-      "gracieux",
-      "rayonnante",
-      "échec",
-      "origan",
-      "inestimable",
-      "feuille"
+      "masque",
+      "dispute",
+      "désespoir",
+      "bagage",
+      "improvisation",
+      "conteur",
+      "saisir"
     ],
     [
-      "orange",
-      "lumineuse",
-      "dessiner",
-      "majestueuse",
-      "cultiver",
-      "interprète",
-      "épanouissement"
+      "Amérique",
+      "bretelle",
+      "omnivore",
+      "clavecin",
+      "narguilé",
+      "trembler",
+      "rongeur"
     ],
     [
-      "banquette",
-      "fleur",
-      "oreiller",
-      "cuve",
-      "soi",
-      "parpaing",
-      "cacophonique"
+      "cloches",
+      "molécule",
+      "imprimerie",
+      "XIXe",
+      "ville",
+      "poubelle",
+      "ocre"
     ],
     [
-      "penser",
-      "malveillant",
-      "tige",
-      "fouille",
-      "rosée",
-      "modération",
-      "paysanne"
+      "pattes",
+      "Canada",
+      "Saint-Jean",
+      "brandade",
+      "forêt",
+      "laver",
+      "fourrure"
     ],
     [
-      "piquante",
-      "préparer",
-      "traité",
-      "jaune",
-      "plante",
-      "spectral",
-      "grimpante"
+      "fayot",
+      "coati",
+      "Android",
+      "fouiller",
+      "anneaux",
+      "numérique",
+      "hédonisme"
     ],
     [
-      "wok",
-      "abriter",
-      "estivale",
-      "comestible",
-      "humilité",
-      "familière",
-      "écrou"
+      "huître",
+      "épopée",
+      "diaphane",
+      "Bambi",
+      "blé",
+      "marelle",
+      "nocturne"
     ],
     [
-      "rouge",
-      "jardin",
-      "rond",
-      "dragée",
-      "durer",
-      "expérimental",
-      "décorative"
+      "chenet",
+      "cran",
+      "voiture",
+      "funiculaire",
+      "corde",
+      "Rocket",
+      "queue"
     ]
   ],
   "rowClues": [
     1,
     3,
-    1,
     2,
-    4,
+    5,
     3,
-    4
+    1,
+    2
   ],
   "colClues": [
     3,
-    3,
-    3,
-    2,
     2,
     1,
+    1,
+    3,
+    3,
     4
   ],
-  "themeWord": "capucine",
+  "themeWord": "raton",
   "solution": [
     [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
       false,
@@ -98,59 +143,14 @@
       true
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

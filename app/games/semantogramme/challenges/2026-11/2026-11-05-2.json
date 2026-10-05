@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "aînée",
-      "écossais",
-      "sororité",
-      "rotule",
-      "boxe"
+      "compter",
+      "cou",
+      "clair-obscur",
+      "migraine",
+      "mercredi"
     ],
     [
-      "artistique",
-      "famille",
-      "maillot",
-      "cadette",
-      "libellule"
+      "tempe",
+      "oreille",
+      "jarret",
+      "rayonnage",
+      "anges"
     ],
     [
-      "fratrie",
-      "enfance",
-      "aiguisoir",
-      "parent",
-      "fraternel"
+      "crâne",
+      "souvenir",
+      "cerveau",
+      "triangulation",
+      "Californie"
     ],
     [
-      "partager",
-      "baisser",
-      "dé",
-      "germaine",
-      "costume"
+      "Thriller",
+      "caboche",
+      "chevelure",
+      "nuque",
+      "visage"
     ],
     [
-      "consanguin",
-      "bave",
-      "jumelle",
-      "frère",
-      "penser"
+      "transpercer",
+      "bannière",
+      "galion",
+      "chef",
+      "sommet"
     ]
   ],
   "rowClues": [
     2,
     2,
-    4,
     2,
-    3
+    4,
+    2
   ],
   "colClues": [
-    4,
     2,
+    3,
     2,
-    4,
-    1
+    3,
+    2
   ],
-  "themeWord": "soeur",
+  "themeWord": "tête",
   "solution": [
     [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       false,
@@ -74,23 +67,30 @@
       true,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
     [
-      true,
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

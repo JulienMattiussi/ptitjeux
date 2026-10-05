@@ -5,110 +5,102 @@
   "height": 6,
   "words": [
     [
-      "égoutter",
-      "légume",
-      "jus",
-      "gâteau",
-      "os",
-      "perceuse"
+      "paysan",
+      "laurier",
+      "délire",
+      "acidulé",
+      "tribunal",
+      "règle"
     ],
     [
-      "lapin",
-      "âne",
-      "rapée",
-      "façonner",
-      "vaisselle",
-      "applique"
+      "faculté",
+      "avocat",
+      "métamorphose",
+      "Gloria",
+      "tension",
+      "tissu"
     ],
     [
-      "ordinateur",
-      "fane",
-      "sombrero",
-      "éplucher",
-      "classeur",
-      "japonais"
+      "devoir",
+      "provençale",
+      "équerre",
+      "vieillissement",
+      "étirer",
+      "plaidoirie"
     ],
     [
-      "brouter",
-      "soupe",
-      "potager",
-      "gymnastique",
-      "lampadaire",
-      "sucrée"
+      "juriste",
+      "isobare",
+      "aplomb",
+      "pluviomètre",
+      "debout",
+      "rectiligne"
     ],
     [
-      "sortie",
-      "enchanteur",
-      "rivière",
-      "cloud",
-      "relier",
-      "cake"
+      "Guggenheim",
+      "code",
+      "obscur",
+      "hydromel",
+      "délayé",
+      "élaguer"
     ],
     [
-      "pingrerie",
-      "salade",
-      "pratiquer",
-      "spontané",
-      "orange",
-      "craie"
+      "notaire",
+      "privilège",
+      "Afro-Américain",
+      "barreau",
+      "page",
+      "distillerie"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
     2,
     3,
+    4,
     1,
-    2
+    3
   ],
   "colClues": [
-    1,
-    5,
+    4,
     3,
     2,
     1,
-    2
+    2,
+    3
   ],
-  "themeWord": "carotte",
+  "themeWord": "droit",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       true,
-      true,
+      false,
+      false,
       false,
       false
     ],
     [
       true,
-      true,
-      true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
       true
     ],
     [
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -116,9 +108,17 @@
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

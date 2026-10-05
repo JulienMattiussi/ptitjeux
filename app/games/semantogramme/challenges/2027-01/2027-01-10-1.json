@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "gardien",
-      "lueur",
-      "tigre",
-      "singe"
+      "arsenal",
+      "formule",
+      "tangage",
+      "tenaille"
     ],
     [
-      "lion",
-      "éléphant",
-      "enclos",
-      "fêter"
+      "pancréas",
+      "atome",
+      "Lavoisier",
+      "éprouvette"
     ],
     [
-      "pingouin",
-      "levure",
-      "reptile",
-      "tampon"
+      "flotter",
+      "câpre",
+      "réaction",
+      "grisaille"
     ],
     [
-      "boulangerie",
-      "girafe",
-      "crocodile",
-      "serpent"
+      "laboratoire",
+      "chicorée",
+      "cimier",
+      "Mendeleïev"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    3,
-    2,
+    1,
     2
   ],
   "colClues": [
-    3,
+    1,
     2,
-    3,
+    2,
     2
   ],
-  "themeWord": "zoo",
+  "themeWord": "chimie",
   "solution": [
     [
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ],
     [
       true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

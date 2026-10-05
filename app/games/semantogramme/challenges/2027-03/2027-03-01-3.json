@@ -5,82 +5,98 @@
   "height": 6,
   "words": [
     [
-      "battre",
-      "tache",
-      "rétroviseur",
-      "attacher",
-      "essuyer",
-      "avarice"
+      "immatériel",
+      "élagage",
+      "contrat",
+      "photophore",
+      "caribou",
+      "flamme"
     ],
     [
-      "pèlerin",
-      "feu",
-      "sépia",
-      "minimaliste",
-      "géologie",
-      "siège"
+      "mardi",
+      "chakra",
+      "douves",
+      "croque",
+      "souffler",
+      "retroussé"
     ],
     [
-      "défaite",
-      "gestation",
-      "freiner",
-      "pommier",
-      "roue",
-      "vespa"
+      "cierge",
+      "aigrettes",
+      "panne",
+      "accordeur",
+      "allumette",
+      "mèche"
     ],
     [
-      "casque",
-      "clair",
-      "plateforme",
-      "caravane",
-      "conduire",
-      "box"
+      "fondre",
+      "veilleuse",
+      "lumbago",
+      "précambrien",
+      "agacer",
+      "candélabre"
     ],
     [
-      "guidon",
-      "manta",
-      "agile",
-      "selle",
       "moteur",
-      "béarnaise"
+      "tergiverser",
+      "chandelle",
+      "lumière",
+      "hallucination",
+      "dîner"
     ],
     [
-      "tourteau",
-      "vacarme",
-      "urbain",
-      "deux-roues",
-      "amasser",
-      "pratique"
+      "rite",
+      "téléski",
+      "parfumée",
+      "romantique",
+      "Napoléon",
+      "cire"
     ]
   ],
   "rowClues": [
-    1,
     2,
+    1,
+    4,
     3,
-    3,
-    3,
+    4,
     3
   ],
   "colClues": [
-    2,
-    1,
-    5,
+    3,
     1,
     3,
-    3
+    3,
+    2,
+    5
   ],
-  "themeWord": "scooter",
+  "themeWord": "bougie",
   "solution": [
     [
       false,
       false,
+      false,
       true,
       false,
-      false,
-      false
+      true
     ],
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       false,
@@ -88,28 +104,12 @@
       true
     ],
     [
-      false,
-      false,
       true,
       false,
       true,
+      true,
+      false,
       true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
     ],
     [
       false,
@@ -120,5 +120,5 @@
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "fresque",
-      "stéthoscope",
-      "essuyer",
-      "céramique"
+      "public",
+      "tulipe",
+      "bouquet",
+      "bourgeon"
     ],
     [
-      "vitrail",
-      "sculpture",
-      "président",
-      "curry"
+      "digestif",
+      "butiner",
+      "rose",
+      "jardin"
     ],
     [
-      "pèlerinage",
-      "caoutchouc",
-      "collage",
-      "aquarelle"
+      "pollen",
+      "knack",
+      "égocentrisme",
+      "Gainsbourg"
     ],
     [
-      "bicaméral",
-      "source",
-      "peinture",
-      "tapisserie"
+      "tige",
+      "corolle",
+      "Maya",
+      "matcha"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
+    3,
+    3,
+    1,
     2
   ],
   "colClues": [
     2,
-    1,
+    3,
     2,
-    3
+    2
   ],
-  "themeWord": "art",
+  "themeWord": "fleur",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
     [
       true,
       false,
       false,
-      true
+      false
     ],
     [
       true,
       true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

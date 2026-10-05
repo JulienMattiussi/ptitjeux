@@ -5,60 +5,54 @@
   "height": 4,
   "words": [
     [
-      "accord",
-      "mandibule",
-      "sillet",
-      "caisse"
+      "béret",
+      "Giotto",
+      "paille",
+      "BD"
     ],
     [
-      "électrique",
-      "corde",
-      "chevalet",
-      "parlement"
+      "flamant",
+      "melon",
+      "plume",
+      "panama"
     ],
     [
-      "luthier",
-      "hibou",
-      "moto",
-      "manche"
+      "béquille",
+      "cuillère",
+      "sombrero",
+      "modiste"
     ],
     [
-      "immeuble",
-      "résistance",
-      "vibrato",
-      "acoustique"
+      "saucisson",
+      "Gandalf",
+      "Inca",
+      "haut-de-forme"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     3,
     2,
-    2
+    1
   ],
   "colClues": [
-    3,
+    1,
     1,
     3,
     3
   ],
-  "themeWord": "guitare",
+  "themeWord": "chapeau",
   "solution": [
     [
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -66,7 +60,13 @@
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

@@ -5,120 +5,129 @@
   "height": 7,
   "words": [
     [
-      "désert",
-      "éclat",
-      "havane",
+      "noyer",
+      "Vivaldi",
+      "témoin",
+      "dopamine",
+      "curry",
+      "torride",
+      "Byron"
+    ],
+    [
+      "entrain",
+      "italien",
+      "porridge",
+      "allure",
+      "joyeux",
+      "crétin",
+      "télésiège"
+    ],
+    [
+      "paresser",
+      "Roberval",
+      "cave",
+      "mâche",
+      "brillant",
+      "rapide",
+      "mouvement"
+    ],
+    [
+      "épreuve",
+      "pied",
+      "printemps",
+      "fratrie",
+      "gravier",
+      "lacustre",
+      "Mozart"
+    ],
+    [
+      "concerto",
+      "implacable",
+      "sonate",
+      "Sorbonne",
+      "vivace",
+      "Marennes",
+      "andante"
+    ],
+    [
+      "bourdonner",
+      "infusion",
+      "tempo",
+      "maniéré",
+      "Rorschach",
+      "façade",
+      "vif"
+    ],
+    [
+      "symphonie",
+      "loterie",
+      "photon",
+      "presto",
+      "ragot",
       "terrier",
-      "social",
-      "vigilant",
-      "origine"
-    ],
-    [
-      "mammifère",
-      "larme",
-      "ver",
-      "frette",
-      "cahoter",
-      "colonie",
-      "italienne"
-    ],
-    [
-      "assaisonner",
-      "meute",
-      "aiguille",
-      "course",
-      "piété",
-      "agir",
-      "dressé"
-    ],
-    [
-      "débat",
-      "bronzer",
-      "proclamer",
-      "tasser",
-      "protéger",
-      "australie",
-      "manger"
-    ],
-    [
-      "franchir",
-      "sentinelle",
-      "siffler",
-      "monastère",
-      "fleur",
-      "guetter",
-      "adorer"
-    ],
-    [
-      "creuser",
-      "bravoure",
-      "endémique",
-      "semoir",
-      "équinoxe",
-      "latex",
-      "coquillage"
-    ],
-    [
-      "curieux",
-      "escargot",
-      "savane",
-      "familial",
-      "jadis",
-      "monture",
-      "arrière"
+      "débat"
     ]
   ],
   "rowClues": [
+    1,
+    4,
+    3,
+    2,
     4,
     2,
-    1,
-    2,
-    3,
-    1,
-    3
-  ],
-  "colClues": [
-    4,
-    1,
-    2,
-    2,
-    2,
-    3,
     2
   ],
-  "themeWord": "suricate",
+  "colClues": [
+    3,
+    2,
+    3,
+    2,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "allegro",
   "solution": [
     [
+      false,
       true,
       false,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
+      true,
       false,
       true,
+      true,
+      false,
       false
     ],
     [
       false,
       false,
       false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       false,
       true
     ],
     [
+      true,
       false,
-      false,
-      false,
+      true,
       false,
       true,
       false,
@@ -126,31 +135,22 @@
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false,
-      true,
-      false
+      false,
+      true
     ],
     [
       true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

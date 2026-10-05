@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "crocodile",
+      "iguane",
+      "chacal",
+      "Baïkonour"
+    ],
+    [
+      "serpent",
+      "structure",
+      "tortue",
+      "Prague"
+    ],
+    [
+      "lézard",
+      "alligator",
+      "gaffeur",
+      "caméléon"
+    ],
+    [
+      "artimon",
+      "vipère",
+      "écaille",
+      "boa"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "reptile",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

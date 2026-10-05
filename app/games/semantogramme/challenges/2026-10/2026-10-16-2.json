@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "dignité",
-      "ongle",
-      "geindre",
-      "quadrilatère",
-      "déambuler"
+      "cosmos",
+      "tronçonneuse",
+      "elliptique",
+      "halo",
+      "humérus"
     ],
     [
-      "gémissement",
-      "lamentation",
-      "mouchoir",
-      "obscure",
-      "peine"
+      "amas",
+      "Verlaine",
+      "Andromède",
+      "Danone",
+      "Magellan"
     ],
     [
-      "béarnaise",
-      "pochade",
-      "tristesse",
-      "larme",
-      "forestière"
+      "supernova",
+      "traiteur",
+      "spirale",
+      "couenne",
+      "vol"
     ],
     [
-      "congratuler",
-      "fléchir",
-      "sangloter",
-      "chagrin",
-      "cachalot"
+      "Tatin",
+      "interstellaire",
+      "coude",
+      "univers",
+      "Gabriel"
     ],
     [
-      "haleter",
-      "éploré",
-      "recherché",
-      "mythologie",
-      "douleur"
+      "anarchie",
+      "Hubble",
+      "quasar",
+      "gondole",
+      "cheveux"
     ]
   ],
   "rowClues": [
-    1,
-    4,
+    3,
+    3,
     2,
     2,
     2
   ],
   "colClues": [
-    1,
+    3,
     2,
     4,
     2,
-    2
+    1
   ],
-  "themeWord": "pleurer",
+  "themeWord": "galaxie",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
+      true,
+      true,
       false
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
       true
     ],
     [
-      false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
       false,
-      true
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

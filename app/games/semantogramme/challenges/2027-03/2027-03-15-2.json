@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "averse",
-      "filer",
-      "dimanche",
-      "coller",
-      "détaler"
+      "papier",
+      "recyclage",
+      "Machaut",
+      "colis",
+      "arbitre"
     ],
     [
-      "idole",
-      "endurance",
-      "galop",
-      "foulée",
-      "fessée"
+      "scotch",
+      "ondulé",
+      "sanguine",
+      "pétard",
+      "chaussettes"
     ],
     [
-      "angora",
-      "vitesse",
-      "marathon",
-      "sprint",
-      "cavaler"
+      "déménagement",
+      "dessin",
+      "prairie",
+      "invitation",
+      "maquette"
     ],
     [
-      "gracieuse",
-      "gras",
-      "course",
-      "aimable",
-      "négoce"
+      "inadvertance",
+      "Père-Lachaise",
+      "boîte",
+      "chou-fleur",
+      "Amazon"
     ],
     [
-      "coureur",
-      "foncer",
-      "jogging",
-      "athlétisme",
-      "piña"
+      "pliage",
+      "emballage",
+      "pancarte",
+      "Salomé",
+      "financier"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     4,
-    1,
-    4
+    2,
+    4,
+    2,
+    3
   ],
   "colClues": [
-    1,
     4,
     4,
-    3,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "courir",
+  "themeWord": "carton",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       false,
       false
     ],
     [
       true,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       true,
       true,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

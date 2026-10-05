@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "parlementaire",
-      "rame",
-      "tenace",
-      "dangereux",
-      "pétrifier"
+      "gazole",
+      "poumons",
+      "frigo",
+      "Moissac",
+      "slip"
     ],
     [
-      "transcendance",
-      "rigide",
-      "nageoire",
-      "feu",
-      "marbre"
+      "sud",
+      "gel",
+      "fête",
+      "aérodynamique",
+      "grelotter"
     ],
     [
-      "éponge",
-      "fer",
-      "soprano",
-      "inflexible",
-      "ciboulette"
+      "cactus",
+      "congélateur",
+      "frisson",
+      "rhume",
+      "hiver"
     ],
     [
-      "cépage",
-      "résistant",
-      "diamant",
-      "solide",
-      "os"
+      "téléski",
+      "pôle",
+      "givre",
+      "neige",
+      "écharpe"
     ],
     [
-      "roche",
-      "acier",
-      "perpendiculaire",
-      "empreinte",
-      "rabbin"
+      "bonnet",
+      "festoyer",
+      "glace",
+      "frimas",
+      "doudoune"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
     2,
     4,
-    2
+    4,
+    4
   ],
   "colClues": [
     1,
+    3,
     4,
-    2,
-    2,
-    3
+    3,
+    4
   ],
-  "themeWord": "dur",
+  "themeWord": "froid",
   "solution": [
     [
       false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       false
     ],
     [
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       true,
       true
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

@@ -5,93 +5,93 @@
   "height": 7,
   "words": [
     [
-      "soi",
-      "écossaise",
-      "composer",
-      "losange",
-      "botte",
-      "esquisser",
-      "violon"
+      "Vanoise",
+      "excommunier",
+      "condamné",
+      "impérieux",
+      "régénération",
+      "ronronner",
+      "escarpé"
     ],
     [
-      "gaudí",
-      "danser",
-      "jonc",
-      "crépitante",
-      "baroque",
-      "heidegger",
-      "galoper"
+      "dériveur",
+      "résistant",
+      "canine",
+      "saut",
+      "accident",
+      "socialiste",
+      "poète"
     ],
     [
-      "indécision",
-      "suc",
-      "tapage",
-      "breton",
-      "pas",
-      "rapide",
-      "urticant"
+      "ongulé",
+      "accent",
+      "cadeaux",
+      "porc-épic",
+      "agilité",
+      "brasse",
+      "champion"
     ],
     [
-      "orient",
-      "irlandaise",
-      "ternaire",
-      "vainqueur",
-      "finement",
-      "limaces",
-      "immobile"
+      "Tosh",
+      "Sparte",
+      "lécher",
+      "cabri",
+      "photosynthèse",
+      "bovidé",
+      "éboulis"
     ],
     [
-      "poète",
-      "vif",
-      "pluraliste",
-      "jeudi",
-      "populaire",
-      "serrée",
-      "parpaing"
+      "repas",
+      "Chartreuse",
+      "candidat",
+      "guetteur",
+      "princesse",
+      "sommet",
+      "rap"
     ],
     [
-      "enjouée",
-      "teinture",
-      "masquer",
-      "folklorique",
-      "vespéral",
-      "rythme",
-      "jouer"
+      "édenté",
+      "chiffon",
+      "cuir",
+      "tectonique",
+      "peau",
+      "sacre",
+      "Élysée"
     ],
     [
-      "final",
-      "rurale",
-      "garenne",
-      "compliment",
-      "moderne",
-      "mouvoir",
-      "inouï"
+      "trois",
+      "voûte",
+      "lavage",
+      "eutrophisation",
+      "rocher",
+      "interro",
+      "romane"
     ]
   ],
   "rowClues": [
+    2,
+    1,
+    2,
     3,
     2,
-    2,
-    2,
-    2,
-    4,
+    3,
     2
   ],
   "colClues": [
     2,
-    5,
     2,
-    1,
+    2,
+    2,
     3,
     2,
     2
   ],
-  "themeWord": "gigue",
+  "themeWord": "chamois",
   "solution": [
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false,
       false,
       false,
@@ -99,7 +99,16 @@
     ],
     [
       false,
+      false,
+      false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       true,
@@ -108,33 +117,6 @@
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -143,14 +125,32 @@
       true
     ],
     [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-08-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "somnoler",
+      "assoupir",
+      "lit",
+      "roupiller",
+      "grandir"
+    ],
+    [
+      "futilité",
+      "coq",
+      "nuit",
+      "ronfler",
+      "berceuse"
+    ],
+    [
+      "insomnie",
+      "sieste",
+      "Mushu",
+      "oreiller",
+      "babouin"
+    ],
+    [
+      "sommeil",
+      "bâiller",
+      "Fabergé",
+      "couette",
+      "pupille"
+    ],
+    [
+      "salée",
+      "Noé",
+      "pyjama",
+      "molécule",
+      "diffraction"
+    ]
+  ],
+  "rowClues": [
+    4,
+    3,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    1
+  ],
+  "themeWord": "dormir",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

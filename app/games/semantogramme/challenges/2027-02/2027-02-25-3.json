@@ -5,94 +5,78 @@
   "height": 6,
   "words": [
     [
-      "agate",
-      "couper",
-      "bûcheron",
-      "guerre",
-      "piquer",
-      "arbre"
+      "accent",
+      "crayon",
+      "ambitionner",
+      "perforant",
+      "chapeau",
+      "ramasser"
     ],
     [
-      "frapper",
-      "crête",
-      "urticante",
-      "manche",
-      "outil",
-      "bois"
+      "vitrail",
+      "piquant",
+      "talon",
+      "engelure",
+      "Dauphiné",
+      "enjoué"
     ],
     [
-      "acacia",
-      "sucette",
-      "aube",
-      "fendre",
-      "alphabet",
-      "sillonner"
+      "ballet",
+      "lance",
+      "culotte",
+      "dard",
+      "fugue",
+      "poignard"
     ],
     [
-      "transpercer",
-      "cognée",
-      "abattre",
-      "couvert",
-      "croissant",
-      "symbole"
+      "poinçon",
+      "eau",
+      "stylet",
+      "lucidité",
+      "puma",
+      "Simon"
     ],
     [
-      "frange",
-      "bavarder",
-      "ossuaire",
-      "centralisé",
-      "tranchant",
-      "éternelle"
+      "vadrouille",
+      "gendarme",
+      "épine",
+      "tonitruant",
+      "mouiller",
+      "aiguille"
     ],
     [
-      "rond",
-      "aiguisée",
-      "buste",
-      "tête",
-      "celtique",
-      "pointu"
+      "châtiment",
+      "haricot",
+      "caïman",
+      "plaquage",
+      "clou",
+      "acéré"
     ]
   ],
   "rowClues": [
-    5,
     4,
-    1,
+    2,
     3,
-    1,
+    2,
+    2,
     2
   ],
   "colClues": [
-    1,
+    2,
+    3,
     3,
     2,
-    4,
-    3,
+    2,
     3
   ],
-  "themeWord": "hache",
+  "themeWord": "pointu",
   "solution": [
     [
+      true,
+      true,
       false,
       true,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
       false
     ],
     [
@@ -101,6 +85,30 @@
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true
     ],
     [
@@ -109,16 +117,8 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

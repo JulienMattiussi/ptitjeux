@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "artère",
-      "aromatisé",
-      "couler",
-      "hépatique",
-      "écarlate"
+      "aubergine",
+      "améthyste",
+      "moutons",
+      "pourpre",
+      "glycine"
     ],
     [
-      "enlacer",
-      "damier",
-      "capillaire",
-      "plaie",
-      "pectoral"
+      "lilas",
+      "prune",
+      "écriture",
+      "lavande",
+      "indigo"
     ],
     [
-      "transfusion",
-      "enduit",
-      "veine",
-      "pâté",
-      "hémorragie"
+      "évêque",
+      "moule",
+      "magenta",
+      "cerveau",
+      "Microsoft"
     ],
     [
-      "saigner",
-      "hématome",
-      "globule",
-      "curiosité",
-      "rocheux"
+      "variole",
+      "texto",
+      "parme",
+      "mauve",
+      "clair"
     ],
     [
-      "caillot",
-      "hémoglobine",
-      "salut",
-      "pluie",
-      "circuler"
+      "myrtille",
+      "pupille",
+      "vieillissement",
+      "prévention",
+      "couleur"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    3,
-    3,
-    3
+    4,
+    4,
+    2,
+    2,
+    2
   ],
   "colClues": [
     4,
     2,
+    2,
     3,
-    1,
     3
   ],
-  "themeWord": "sang",
+  "themeWord": "violet",
   "solution": [
     [
       true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
       true,
       false,
-      true
+      false
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       false
     ],
     [
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

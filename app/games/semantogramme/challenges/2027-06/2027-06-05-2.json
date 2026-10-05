@@ -5,58 +5,65 @@
   "height": 5,
   "words": [
     [
-      "expliquer",
-      "peser",
-      "épais",
-      "cinéma",
-      "latte"
+      "luxation",
+      "musculation",
+      "porter",
+      "omoplate",
+      "cage"
     ],
     [
-      "pondéreux",
-      "consistant",
-      "aboutir",
-      "masse",
-      "tramway"
+      "timonerie",
+      "agneau",
+      "deltoïde",
+      "pourparlers",
+      "ordure"
     ],
     [
-      "arrache-clou",
-      "kilo",
-      "urbain",
-      "implanter",
-      "familiale"
+      "bras",
+      "hausser",
+      "cou",
+      "rotation",
+      "Orly"
     ],
     [
-      "tonne",
-      "alourdir",
-      "pivoine",
-      "fardeau",
-      "pesant"
+      "articulation",
+      "muscade",
+      "objectif",
+      "morale",
+      "dos"
     ],
     [
-      "perpendiculaire",
-      "rubis",
-      "ronron",
-      "rocher",
-      "tricoter"
+      "décollage",
+      "clavicule",
+      "gigot",
+      "carquois",
+      "bretelle"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    1,
     4,
-    1
+    2,
+    4,
+    2,
+    3
   ],
   "colClues": [
-    2,
-    4,
-    1,
     3,
-    1
+    4,
+    4,
+    2,
+    2
   ],
-  "themeWord": "lourd",
+  "themeWord": "épaule",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       true,
@@ -66,31 +73,24 @@
     [
       true,
       true,
-      false,
+      true,
       true,
       false
     ],
     [
-      false,
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      true,
       true
     ],
     [
       false,
-      false,
-      false,
       true,
-      false
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

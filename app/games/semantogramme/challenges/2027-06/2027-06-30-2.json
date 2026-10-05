@@ -5,61 +5,61 @@
   "height": 5,
   "words": [
     [
-      "creuser",
-      "margelle",
-      "rond",
-      "ténor",
-      "eau"
+      "Oedipe",
+      "fondant",
+      "avalanche",
+      "préambule",
+      "prophétie"
     ],
     [
-      "consacrer",
-      "profond",
-      "audacieux",
-      "pot",
-      "grimper"
+      "filetage",
+      "augure",
+      "pommette",
+      "énigme",
+      "aristocrate"
     ],
     [
-      "froid",
-      "écho",
-      "ministère",
-      "énergie",
-      "séquestrer"
+      "pompiers",
+      "prédiction",
+      "destin",
+      "Rembrandt",
+      "pénalité"
     ],
     [
-      "descendre",
-      "conversation",
-      "mystérieux",
-      "sombre",
-      "fond"
+      "net",
+      "car",
+      "Delphes",
+      "consulter",
+      "temple"
     ],
     [
-      "aromatisé",
-      "seau",
-      "puiser",
-      "pompe",
-      "pierre"
+      "Matrix",
+      "thésauriser",
+      "curiosité",
+      "Pythie",
+      "présage"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     2,
-    4,
-    4
-  ],
-  "colClues": [
-    3,
-    4,
-    3,
     2,
+    2,
+    3,
     3
   ],
-  "themeWord": "puits",
+  "colClues": [
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "oracle",
   "solution": [
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ],
@@ -67,30 +67,30 @@
       false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

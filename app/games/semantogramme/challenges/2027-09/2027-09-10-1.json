@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tente",
+      "musette",
+      "caravane",
+      "réchaud"
+    ],
+    [
+      "Sahara",
+      "bivouac",
+      "adhésif",
+      "combiner"
+    ],
+    [
+      "fourmilier",
+      "duvet",
+      "mobil-home",
+      "soutane"
+    ],
+    [
+      "Atacama",
+      "strate",
+      "Coltrane",
+      "matelas"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "camping",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 7
+}

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "admirer",
-      "lait",
-      "normande",
-      "troupeau"
+      "mélusine",
+      "reine",
+      "gargouiller",
+      "tour"
     ],
     [
-      "taureau",
-      "meuglement",
-      "crapaud",
-      "marais"
+      "docte",
+      "aiguilles",
+      "cavalier",
+      "Kasparov"
     ],
     [
-      "pré",
-      "royale",
-      "grizzli",
-      "pis"
+      "roque",
+      "Windows",
+      "visite",
+      "pion"
     ],
     [
-      "grimoire",
-      "génisse",
-      "sabot",
-      "veau"
+      "fou",
+      "croûton",
+      "mat",
+      "gladiateur"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
     2,
-    3,
+    1,
     2,
     3
   ],
-  "themeWord": "vache",
+  "themeWord": "échecs",
   "solution": [
     [
       false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true
     ],
     [
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

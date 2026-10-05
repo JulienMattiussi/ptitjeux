@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "millénaire",
-      "papa",
-      "bambin",
-      "comptine"
+      "tubéreux",
+      "ampoule",
+      "lanterne",
+      "Aladin"
     ],
     [
-      "filiation",
-      "constellation",
-      "école",
-      "écrit"
+      "slogan",
+      "interrupteur",
+      "abat-jour",
+      "torche"
     ],
     [
-      "berceuse",
-      "matinée",
-      "bissextile",
-      "biberon"
+      "python",
+      "nuque",
+      "lumière",
+      "couler"
     ],
     [
-      "tétine",
-      "ardoise",
-      "crise",
-      "jouet"
+      "halogène",
+      "veilleuse",
+      "concentration",
+      "chevet"
     ]
   ],
   "rowClues": [
     3,
+    3,
     1,
-    2,
-    2
-  ],
-  "colClues": [
-    2,
-    1,
-    2,
     3
   ],
-  "themeWord": "enfance",
+  "colClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "lampe",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
     [
       false,
       true,
@@ -57,16 +63,10 @@
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

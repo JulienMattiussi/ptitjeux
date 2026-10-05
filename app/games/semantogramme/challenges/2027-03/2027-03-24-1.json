@@ -5,48 +5,54 @@
   "height": 4,
   "words": [
     [
-      "lampadaire",
-      "boulevard",
-      "omelette",
-      "rikiki"
+      "rocher",
+      "écume",
+      "gélatineux",
+      "plaquette"
     ],
     [
-      "observer",
-      "panneau",
-      "caniveau",
-      "avenue"
+      "serpent",
+      "labeur",
+      "vasque",
+      "harpagon"
     ],
     [
-      "colosse",
-      "trottoir",
-      "pavé",
-      "ruelle"
+      "reprocher",
+      "Niagara",
+      "fracas",
+      "rivière"
     ],
     [
-      "tortue",
-      "oxygène",
-      "feu",
-      "passage"
+      "Berlioz",
+      "sablier",
+      "torrent",
+      "hier"
     ]
   ],
   "rowClues": [
     2,
+    1,
     3,
-    3,
-    2
+    1
   ],
   "colClues": [
     1,
+    2,
     3,
-    3,
-    3
+    1
   ],
-  "themeWord": "rue",
+  "themeWord": "cascade",
   "solution": [
     [
       true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false
     ],
     [
@@ -57,16 +63,10 @@
     ],
     [
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

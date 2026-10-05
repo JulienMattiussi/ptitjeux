@@ -5,74 +5,74 @@
   "height": 6,
   "words": [
     [
-      "paliers",
-      "pouffer",
-      "délire",
-      "guinguette",
-      "gracieuse",
-      "souffler"
+      "nomade",
+      "lavis",
+      "sang",
+      "cracher",
+      "escalier",
+      "selle"
     ],
     [
-      "bouton",
-      "préhension",
-      "folklore",
-      "damnation",
-      "pousser",
-      "dynamisme"
+      "Touareg",
+      "désert",
+      "facette",
+      "Douvres",
+      "trésor",
+      "visseuse"
     ],
     [
-      "caché",
-      "parisien",
-      "animer",
-      "délice",
-      "figuier",
-      "pleureur"
+      "résoudre",
+      "Sahara",
+      "Puccini",
+      "Bédouin",
+      "soif",
+      "Égypte"
     ],
     [
-      "tirer",
-      "silhouette",
-      "crapaud",
-      "hémorragie",
-      "chemin",
-      "bal"
+      "bosse",
+      "Olympe",
+      "méhari",
+      "ailleurs",
+      "étape",
+      "taupe"
     ],
     [
-      "mélodie",
-      "fourrer",
-      "jouer",
-      "styliste",
-      "imagination",
-      "rétro"
+      "poudre",
+      "remporter",
+      "jupe",
+      "bât",
+      "oasis",
+      "Arabie"
     ],
     [
-      "trait",
-      "populaire",
-      "clavier",
-      "agglutiner",
-      "instrument",
-      "orthogonal"
+      "caravane",
+      "XO",
+      "chameau",
+      "tachetée",
+      "lait",
+      "créer"
     ]
   ],
   "rowClues": [
-    2,
     3,
     2,
+    4,
     2,
     3,
     3
   ],
   "colClues": [
-    3,
-    2,
     4,
-    1,
     2,
+    2,
+    3,
+    3,
     3
   ],
-  "themeWord": "accordéon",
+  "themeWord": "dromadaire",
   "solution": [
     [
-      false,
+      true,
       false,
       false,
       true,
@@ -81,44 +81,44 @@
     ],
     [
       true,
-      false,
       true,
       false,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
       true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
       true,
       false,
       false,
       false
     ],
     [
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
       true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "plier",
-      "voiture",
-      "aplatir",
-      "museau",
-      "pincé",
-      "carbone",
-      "sargasse"
+      "développeur",
+      "amusement",
+      "accès",
+      "arbalète",
+      "lever",
+      "chimie",
+      "galerie"
     ],
     [
-      "chardonnay",
-      "réalité",
-      "griffes",
-      "noirâtre",
-      "blatte",
-      "poilu",
-      "glouton"
+      "tympan",
+      "grenache",
+      "glaise",
+      "parvis",
+      "digression",
+      "porche",
+      "graphite"
     ],
     [
-      "dévorer",
-      "solitaire",
-      "capituler",
-      "canada",
-      "mettre-à-jour",
-      "pollock",
-      "sombre"
+      "fourbe",
+      "digestif",
+      "ostréiculteur",
+      "laisser",
+      "marée",
+      "portail",
+      "Morricone"
     ],
     [
-      "delacroix",
-      "rocheux",
-      "inoculer",
-      "consacrer",
-      "taïga",
-      "mustélidé",
-      "rare"
+      "lime",
+      "pénitent",
+      "Gauguin",
+      "ongulé",
+      "atteindre",
+      "hydrologie",
+      "pansement"
     ],
     [
-      "médiéval",
-      "puissant",
-      "mériter",
-      "mystérieux",
-      "meuble",
-      "pelage",
-      "faïence"
+      "hache",
+      "Nikon",
+      "surface",
+      "pleurer",
+      "Pumbaa",
+      "honorer",
+      "église"
     ],
     [
-      "convenable",
-      "forêt",
-      "amérique",
-      "oiseau",
-      "rôder",
-      "peloton",
-      "chasser"
+      "s'éterniser",
+      "baptistère",
+      "Cluny",
+      "catéchumène",
+      "roman",
+      "byzantin",
+      "nef"
     ],
     [
-      "décennie",
-      "césar",
-      "commission",
-      "pauvreté",
-      "mégapixel",
-      "crise",
-      "féroce"
+      "atrium",
+      "Vichy",
+      "grasse",
+      "basilique",
+      "sévère",
+      "vestibule",
+      "cool"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    4,
     3,
-    3,
-    4,
-    1
+    1,
+    1,
+    1,
+    6,
+    3
   ],
   "colClues": [
+    2,
+    2,
+    2,
+    3,
     1,
-    3,
-    2,
-    3,
-    2,
-    2,
-    5
+    4,
+    3
   ],
-  "themeWord": "carcajou",
+  "themeWord": "narthex",
   "solution": [
     [
       false,
       false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
@@ -108,25 +99,7 @@
     ],
     [
       true,
-      true,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       false,
@@ -135,12 +108,21 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
+      false,
       true,
-      true,
+      false
+    ],
+    [
       false,
       true,
       false,
-      true
+      false,
+      false,
+      false,
+      false
     ],
     [
       false,
@@ -150,7 +132,25 @@
       false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

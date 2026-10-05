@@ -5,86 +5,94 @@
   "height": 6,
   "words": [
     [
-      "campus",
-      "cannabis",
-      "rime",
-      "prière",
-      "compartiment",
-      "mozart"
+      "étroite",
+      "pépère",
+      "fertilité",
+      "part",
+      "fouille",
+      "zeste"
     ],
     [
-      "verrou",
-      "tambour",
-      "pacifique",
-      "marionnette",
-      "basse",
-      "tropical"
+      "corvée",
+      "peler",
+      "Vézelay",
+      "patate",
+      "examiner",
+      "démesuré"
     ],
     [
-      "content",
-      "laitue",
-      "danser",
-      "parrain",
-      "guitare",
-      "écouter"
+      "hydratation",
+      "docker",
+      "pelure",
+      "navet",
+      "Démosthène",
+      "couteau"
     ],
     [
-      "légendaire",
-      "bruyante",
-      "spirituel",
-      "luge",
-      "morue",
-      "menuisier"
+      "adolescent",
+      "trousse",
+      "décortiquer",
+      "Orangerie",
+      "économe",
+      "Panthéon"
     ],
     [
-      "rythmé",
-      "roupiller",
-      "rugir",
-      "rasta",
-      "rebelle",
-      "romarin"
+      "peau",
+      "écorce",
+      "narine",
+      "vérifier",
+      "éclair",
+      "cuisinier"
     ],
     [
-      "engagé",
-      "loisir",
-      "marley",
-      "caraïbe",
-      "jamaïque",
-      "chanter"
+      "carotte",
+      "traverser",
+      "chant",
+      "tubercule",
+      "protégé",
+      "inégalités"
     ]
   ],
   "rowClues": [
     1,
     4,
-    2,
-    1,
     3,
-    5
-  ],
-  "colClues": [
-    2,
-    2,
-    4,
     2,
     4,
     2
   ],
-  "themeWord": "reggae",
+  "colClues": [
+    3,
+    2,
+    2,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "éplucher",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ],
     [
       false,
+      false,
       true,
       true,
       false,
-      true,
       true
     ],
     [
@@ -96,28 +104,20 @@
       false
     ],
     [
-      false,
-      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
       true,
-      true,
-      true,
+      false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
   "parMoves": 16

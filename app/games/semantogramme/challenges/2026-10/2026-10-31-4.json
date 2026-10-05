@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "flotter",
-      "ensorceler",
-      "poireau",
-      "rectangle",
-      "fossile",
-      "démocratie",
-      "ancien"
+      "Sahel",
+      "rejet",
+      "Leeuwenhoek",
+      "galaxie",
+      "insolence",
+      "braire",
+      "froideur"
     ],
     [
-      "préhistoire",
-      "lointain",
-      "pouce",
-      "dédier",
-      "cambrien",
-      "merleau-ponty",
-      "oxygène"
+      "désabusé",
+      "urticant",
+      "Alexandre",
+      "mépris",
+      "Diogène",
+      "gouaille",
+      "entier"
     ],
     [
-      "pudding",
-      "tracteur",
-      "mer",
-      "paléozoïque",
-      "rabelais",
-      "altitude",
-      "glaciation"
+      "provocation",
+      "chien",
+      "Boccherini",
+      "peloton",
+      "loquace",
+      "Sinope",
+      "gros"
     ],
     [
-      "graptolithe",
-      "lune",
-      "grande",
-      "imbiber",
-      "silurien",
-      "végétal",
-      "malléole"
+      "pizzicato",
+      "apiculteur",
+      "Languedoc",
+      "désillusion",
+      "misanthropie",
+      "persiflage",
+      "filer"
     ],
     [
-      "nouvelle-zélande",
-      "falaise",
-      "pulpeux",
-      "évolution",
-      "géologique",
-      "amphi",
-      "ère"
+      "équipe",
+      "philosophie",
+      "équinoxe",
+      "Machiavel",
+      "pourparlers",
+      "courageux",
+      "idéogramme"
     ],
     [
-      "enterrer",
-      "extinction",
-      "arrosoir",
-      "filet",
-      "roche",
-      "sédiment",
-      "continental"
+      "réalisateur",
+      "nageur",
+      "chant",
+      "tonneau",
+      "Parme",
+      "rafistoler",
+      "évangile"
     ],
     [
-      "magnétique",
-      "gazette",
-      "invertébré",
-      "épictète",
-      "eskimo",
-      "majeur",
-      "trilobite"
+      "traîne",
+      "redorer",
+      "cuivres",
+      "amoralité",
+      "Molière",
+      "levain",
+      "sarcasme"
     ]
   ],
   "rowClues": [
     2,
+    4,
     3,
     3,
     2,
-    3,
-    4,
+    1,
     2
   ],
   "colClues": [
     2,
     2,
-    2,
-    2,
-    5,
     1,
-    5
+    5,
+    3,
+    2,
+    2
   ],
-  "themeWord": "ordovicien",
+  "themeWord": "cynisme",
   "solution": [
     [
       false,
@@ -99,29 +99,20 @@
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
+      true,
       true,
       false,
       false
     ],
     [
-      false,
-      false,
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       false,
       false,
       false,
       true,
-      false,
       false
     ],
     [
@@ -130,27 +121,36 @@
       false,
       true,
       true,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
       true,
       false,
+      true,
       false,
-      true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
       false,
+      false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 17
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "capitaine",
-      "mordre",
-      "dérailleur",
-      "torride"
+      "violon",
+      "guitare",
+      "parler",
+      "pédant"
     ],
     [
-      "courir",
-      "gouvernail",
-      "quille",
-      "matelot"
+      "papier",
+      "grand-mère",
+      "piano",
+      "musique"
     ],
     [
-      "prunier",
-      "mât",
-      "pont",
-      "oxygène"
+      "IRM",
+      "Yellowstone",
+      "flûte",
+      "batterie"
     ],
     [
-      "isolant",
-      "sanglot",
-      "ancre",
-      "hibou"
+      "harpe",
+      "magma",
+      "trompette",
+      "musicien"
     ]
   ],
   "rowClues": [
-    1,
-    3,
     2,
-    1
+    2,
+    2,
+    3
   ],
   "colClues": [
-    1,
     2,
+    1,
     3,
-    1
+    3
   ],
-  "themeWord": "bateau",
+  "themeWord": "instrument",
   "solution": [
     [
       true,
-      false,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
+      false,
       true,
       true
     ],
     [
       false,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
-      false,
+      true,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

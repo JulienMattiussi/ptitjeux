@@ -5,74 +5,74 @@
   "height": 6,
   "words": [
     [
-      "soldat",
-      "inventer",
-      "écho",
-      "feuilleté",
-      "lierre",
-      "atelier"
+      "rapide",
+      "trône",
+      "contagieux",
+      "français",
+      "causer",
+      "indépendance"
     ],
     [
-      "liturgie",
-      "serpenter",
-      "glisser",
-      "garantir",
-      "avancer",
-      "fourrer"
+      "jaser",
+      "équilatéral",
+      "long",
+      "enterrer",
+      "pie",
+      "prolixe"
     ],
     [
-      "ventre",
-      "embarras",
-      "frôler",
-      "fléchir",
-      "hébergement",
-      "cabas"
+      "moustique",
+      "concierge",
+      "bagnard",
+      "moulin",
+      "intarissable",
+      "babiller"
     ],
     [
-      "usage",
-      "tortueux",
-      "humilier",
-      "essuyer",
-      "reptation",
-      "apiculteur"
+      "commère",
+      "croustillant",
+      "téléphone",
+      "Sorbonne",
+      "Carnac",
+      "ragots"
     ],
     [
-      "reptile",
-      "pivot",
-      "commando",
-      "noé",
-      "pétrole",
-      "sinueux"
+      "jacasser",
+      "ébrancher",
+      "étalage",
+      "champ",
+      "vallée",
+      "potins"
     ],
     [
-      "régulier",
-      "estival",
-      "agenouillement",
-      "progresser",
-      "espace",
-      "ondulation"
+      "nausée",
+      "royauté",
+      "cosmodrome",
+      "papoter",
+      "poudre",
+      "volubile"
     ]
   ],
   "rowClues": [
-    2,
+    1,
+    3,
     4,
     3,
-    3,
-    3,
+    2,
     2
   ],
   "colClues": [
     3,
-    2,
-    4,
+    1,
+    1,
     2,
     3,
-    3
+    5
   ],
-  "themeWord": "ramper",
+  "themeWord": "bavard",
   "solution": [
     [
-      true,
+      false,
       false,
       false,
       false,
@@ -80,10 +80,18 @@
       false
     ],
     [
-      false,
-      true,
       true,
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       true,
       true
     ],
@@ -91,22 +99,14 @@
       true,
       false,
       true,
-      true,
       false,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      false,
-      true,
-      false
+      true
     ],
     [
       true,
       false,
-      true,
+      false,
       false,
       false,
       true
@@ -120,5 +120,5 @@
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

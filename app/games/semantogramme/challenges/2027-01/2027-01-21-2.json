@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vision",
-      "cornée",
-      "sanctionner",
-      "spyware",
-      "regard"
+      "signal",
+      "Fécamp",
+      "cafard",
+      "deuil",
+      "Hurlevent"
     ],
     [
-      "observation",
-      "cil",
-      "monocle",
-      "téléphérique",
-      "élégant"
+      "Saint-Marc",
+      "songeur",
+      "mâchoire",
+      "morose",
+      "incorporer"
     ],
     [
-      "vue",
-      "creuse",
-      "causer",
-      "éloigné",
-      "oculaire"
-    ],
-    [
-      "cirrhose",
+      "peine",
       "larme",
-      "invectiver",
-      "rétine",
-      "matin"
+      "malheureux",
+      "Zola",
+      "déprimé"
     ],
     [
-      "paupière",
-      "inaltérable",
-      "tourelle",
-      "concentrer",
-      "aveugle"
+      "mamelle",
+      "Ellroy",
+      "sanglot",
+      "maussade",
+      "chagrin"
+    ],
+    [
+      "pleurer",
+      "mélancolique",
+      "désolé",
+      "navets",
+      "lugubre"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    2,
-    2
-  ],
-  "colClues": [
+    1,
     4,
     3,
-    1,
-    1,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    3,
     3
   ],
-  "themeWord": "oeil",
+  "themeWord": "triste",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
-      true
-    ],
-    [
       true,
       true,
-      true,
-      false,
       false
     ],
     [
-      true,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       false
     ],
     [
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

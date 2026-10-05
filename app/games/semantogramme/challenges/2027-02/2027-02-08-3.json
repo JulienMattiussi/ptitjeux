@@ -5,84 +5,100 @@
   "height": 6,
   "words": [
     [
-      "récolter",
-      "glaner",
-      "arracher",
-      "brun",
-      "ramasser",
-      "décrocher"
+      "ajuster",
+      "variqueux",
+      "dévoué",
+      "plaie",
+      "litanie",
+      "douleur"
     ],
     [
-      "course",
-      "saisir",
-      "vidéo",
-      "roulotte",
-      "champignon",
-      "élagage"
+      "impact",
+      "brûlure",
+      "escarre",
+      "rhum",
+      "activité",
+      "lésion"
     ],
     [
-      "crier",
-      "boulangerie",
-      "caraïbe",
-      "pas",
-      "bond",
-      "collecte"
+      "aphte",
+      "acide",
+      "chaussons",
+      "justice",
+      "bipède",
+      "ventre"
     ],
     [
-      "crypté",
-      "amasser",
-      "percer",
-      "liturgique",
-      "dur",
-      "tympan"
+      "hybride",
+      "bouche",
+      "médicament",
+      "opportunisme",
+      "saignement",
+      "couveuse"
     ],
     [
-      "carillonner",
-      "verger",
-      "moisson",
-      "fauche",
-      "morne",
-      "panier"
+      "saumonée",
+      "cuisson",
+      "cicatrisation",
+      "portage",
+      "estomac",
+      "chapeau"
     ],
     [
-      "attraper",
-      "broussailleux",
-      "compteur",
-      "passoire",
-      "courant",
-      "tôt"
+      "hydratation",
+      "bétail",
+      "duodénum",
+      "inflammation",
+      "stress",
+      "gastrique"
     ]
   ],
   "rowClues": [
-    5,
+    3,
+    3,
+    3,
+    3,
     2,
-    1,
-    1,
-    4,
-    1
+    4
   ],
   "colClues": [
-    2,
+    1,
+    4,
     4,
     2,
-    1,
-    2,
-    3
+    3,
+    4
   ],
-  "themeWord": "cueillir",
+  "themeWord": "ulcère",
   "solution": [
     [
-      true,
-      true,
+      false,
       true,
       false,
       true,
+      false,
       true
     ],
     [
       false,
       true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true,
       false
@@ -90,35 +106,19 @@
     [
       false,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
-      false,
-      false,
+      true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
       false,
+      true,
+      true,
+      true,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

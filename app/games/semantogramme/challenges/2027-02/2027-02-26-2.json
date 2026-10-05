@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "effrayer",
-      "tangage",
-      "gronder",
-      "cannibale",
-      "cousin"
+      "chute",
+      "Nadar",
+      "Experts",
+      "amoureux",
+      "genou"
     ],
     [
-      "enfant",
-      "opaque",
-      "glouton",
-      "géant",
-      "taille"
+      "destruction",
+      "pomme",
+      "feuilles",
+      "s'effondrer",
+      "Newton"
     ],
     [
-      "appétit",
-      "légendaire",
-      "élégante",
-      "cruauté",
-      "caverne"
+      "compréhension",
+      "mandat",
+      "glisser",
+      "tamarin",
+      "inquiet"
     ],
     [
-      "dérapage",
-      "menaçant",
-      "cépage",
-      "douche",
-      "forêt"
+      "Ça",
+      "trébucher",
+      "culbute",
+      "pluie",
+      "parachute"
     ],
     [
-      "gène",
-      "imprévu",
-      "gigantesque",
-      "féroce",
-      "voter"
+      "bleu",
+      "rusé",
+      "gravité",
+      "lardons",
+      "dégringoler"
     ]
   ],
   "rowClues": [
     3,
     4,
-    3,
-    2,
-    2
-  ],
-  "colClues": [
-    3,
     1,
-    3,
     4,
     3
   ],
-  "themeWord": "ogre",
+  "colClues": [
+    2,
+    2,
+    4,
+    3,
+    4
+  ],
+  "themeWord": "tomber",
   "solution": [
     [
       true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
-      true,
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

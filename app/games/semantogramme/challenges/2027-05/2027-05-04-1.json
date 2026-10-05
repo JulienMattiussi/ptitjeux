@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "clavier",
-      "troupeau",
-      "acier",
-      "titane"
+      "masque",
+      "Narnia",
+      "Bergues",
+      "charpentier"
     ],
     [
-      "détergent",
-      "aluminium",
-      "gastralgie",
-      "consacrer"
+      "détendeur",
+      "parabole",
+      "combinaison",
+      "forcer"
     ],
     [
-      "examiner",
-      "or",
-      "étain",
-      "cousinage"
+      "Deezer",
+      "tuba",
+      "corail",
+      "récif"
     ],
     [
-      "cuivre",
-      "zinc",
-      "beaujolais",
-      "fin"
+      "bouteille",
+      "atelier",
+      "profondeur",
+      "palmes"
     ]
   ],
   "rowClues": [
-    2,
     1,
     2,
-    2
+    3,
+    3
   ],
   "colClues": [
+    3,
     1,
     3,
-    2,
-    1
+    2
   ],
-  "themeWord": "métal",
+  "themeWord": "plongée",
   "solution": [
     [
+      true,
       false,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true
     ],
     [
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

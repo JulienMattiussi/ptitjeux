@@ -5,123 +5,105 @@
   "height": 7,
   "words": [
     [
-      "art",
-      "âme",
-      "expressif",
-      "dénouement",
-      "grimoire",
-      "router",
-      "rapper"
+      "bidouiller",
+      "langer",
+      "palombe",
+      "Auvergne",
+      "parmentier",
+      "nid",
+      "biset"
     ],
     [
-      "montante",
-      "composer",
-      "infime",
-      "gestuel",
-      "collage",
-      "roquette",
-      "agenouillement"
+      "prologue",
+      "pigeon",
+      "Pesquet",
+      "corriger",
+      "mitrailleuse",
+      "privilège",
+      "Munch"
     ],
     [
-      "tranchée",
-      "engager",
-      "éclabousser",
-      "pâques",
-      "singulier",
-      "fourmi",
-      "sichuan"
+      "mort-vivant",
+      "officine",
+      "people",
+      "roucouler",
+      "Hardy",
+      "tour",
+      "manoir"
     ],
     [
-      "jeter",
-      "informel",
-      "reinette",
-      "pantin",
-      "plat-de-service",
-      "pylône",
-      "crinière"
+      "fiente",
+      "échecs",
+      "visser",
+      "agacer",
+      "volière",
+      "légal",
+      "tenue"
     ],
     [
-      "pas",
-      "éclairer",
-      "provocation",
-      "pollock",
-      "trappiste",
-      "mathieu",
-      "peinture"
+      "Candeloro",
+      "plumes",
+      "joie",
+      "seigneur",
+      "fardeau",
+      "pourboire",
+      "château"
     ],
     [
-      "acheter",
-      "hartung",
-      "chardon",
-      "soulages",
-      "égyptienne",
-      "faux",
-      "vinyle"
+      "effacé",
+      "ferme",
+      "voyageur",
+      "féodal",
+      "ramier",
+      "bannière",
+      "Normandie"
     ],
     [
-      "sombrero",
-      "cible",
-      "préluder",
-      "abstrait",
-      "créer",
-      "lyrique",
-      "limousin"
+      "bohémienne",
+      "stalactite",
+      "économiser",
+      "essai",
+      "messager",
+      "marchandise",
+      "glotte"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    1,
+    3,
     2,
     3,
     2,
-    3
-  ],
-  "colClues": [
-    2,
     3,
-    2,
-    4,
-    1,
-    2,
+    5,
     1
   ],
-  "themeWord": "tachisme",
+  "colClues": [
+    1,
+    3,
+    2,
+    3,
+    3,
+    3,
+    4
+  ],
+  "themeWord": "colombier",
   "solution": [
     [
+      false,
+      false,
       true,
       false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
       true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
       false
     ],
     [
@@ -134,23 +116,41 @@
       true
     ],
     [
-      false,
       true,
       false,
-      true,
       false,
+      false,
+      true,
       false,
       false
     ],
     [
       false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
-      true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

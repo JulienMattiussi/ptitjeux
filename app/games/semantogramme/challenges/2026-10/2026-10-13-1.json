@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "gracile",
-      "poireau",
-      "diaphane",
-      "sole"
+      "clignotant",
+      "maire",
+      "suspect",
+      "parachute"
     ],
     [
-      "épinard",
-      "aiglon",
-      "livraison",
-      "gémir"
+      "hameau",
+      "bourg",
+      "place",
+      "herbacée"
     ],
     [
-      "salade",
-      "tomate",
-      "aubergine",
-      "mensuel"
+      "naissance",
+      "séraphin",
+      "Astérix",
+      "lavoir"
     ],
     [
-      "geler",
-      "évasé",
-      "carotte",
-      "navet"
+      "artichaut",
+      "Humanité",
+      "Bayeux",
+      "Obélix"
     ]
   ],
   "rowClues": [
     1,
-    1,
     3,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
     2,
     1
   ],
-  "themeWord": "légume",
+  "colClues": [
+    1,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "village",
   "solution": [
     [
       false,
@@ -51,12 +51,6 @@
     ],
     [
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       true,
       false
@@ -65,6 +59,12 @@
       false,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
       true
     ]
   ],

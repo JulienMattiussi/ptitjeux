@@ -5,82 +5,61 @@
   "height": 5,
   "words": [
     [
-      "achat",
-      "monnaie",
-      "chardonnay",
-      "brassée",
-      "carte"
+      "résistant",
+      "Samson",
+      "colosse",
+      "bastion",
+      "auditorium"
     ],
     [
-      "inorganique",
-      "barre",
-      "magasin",
-      "caisse",
-      "commerce"
+      "muscle",
+      "citoyen",
+      "Popeye",
+      "costaud",
+      "tajine"
     ],
     [
-      "prix",
-      "engraisser",
-      "rivet",
-      "client",
-      "attaquer"
+      "ossuaire",
+      "haltère",
+      "armure",
+      "piano",
+      "puissant"
     ],
     [
-      "soldes",
-      "commander",
-      "molécule",
-      "chariot",
-      "incandescent"
+      "répartie",
+      "superbe",
+      "cancre",
+      "citadelle",
+      "accoudé"
     ],
     [
-      "argent",
-      "authentifier",
-      "panier",
-      "acquérir",
-      "consommer"
+      "Goliath",
+      "kilt",
+      "Hercule",
+      "tétine",
+      "ébranler"
     ]
   ],
   "rowClues": [
+    4,
     3,
     3,
-    2,
-    3,
-    4
+    1,
+    2
   ],
   "colClues": [
-    4,
+    3,
     2,
-    2,
     4,
-    3
+    3,
+    1
   ],
-  "themeWord": "acheter",
+  "themeWord": "fort",
   "solution": [
     [
       true,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false
     ],
@@ -89,8 +68,29 @@
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

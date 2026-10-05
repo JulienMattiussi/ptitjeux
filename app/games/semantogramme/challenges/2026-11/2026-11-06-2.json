@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "pulpe",
-      "montrer",
-      "auriculaire",
-      "articulation",
-      "guidon"
+      "Soupault",
+      "planter",
+      "plates-bandes",
+      "camoufler",
+      "mûr"
     ],
     [
-      "attentionné",
-      "urinaire",
-      "manucure",
-      "bague",
-      "accélération"
+      "électricien",
+      "nordique",
+      "s'écrouler",
+      "râteau",
+      "futuriste"
     ],
     [
-      "bouse",
-      "orchidée",
-      "onduler",
-      "scoliose",
-      "phalange"
+      "invasion",
+      "physionomie",
+      "arroser",
+      "condamner",
+      "briller"
     ],
     [
-      "digital",
-      "pouce",
-      "empreinte",
-      "index",
-      "rustique"
+      "tondre",
+      "Perséides",
+      "désherber",
+      "sécateur",
+      "rime"
     ],
     [
-      "tâter",
-      "ongle",
-      "pointer",
-      "tâtonner",
-      "rubis"
+      "taille",
+      "biner",
+      "compost",
+      "fantasque",
+      "rempoter"
     ]
   ],
   "rowClues": [
-    4,
     2,
     1,
-    4,
+    1,
+    3,
     4
   ],
   "colClues": [
-    3,
-    3,
+    2,
+    2,
     4,
-    4,
+    2,
     1
   ],
-  "themeWord": "doigt",
+  "themeWord": "jardiner",
   "solution": [
     [
+      false,
       true,
       true,
-      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false
     ],
@@ -67,30 +74,23 @@
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

@@ -5,140 +5,131 @@
   "height": 7,
   "words": [
     [
-      "nez",
-      "cadavre",
-      "accordéon",
-      "temporiser",
-      "sagesse",
-      "tempérance",
-      "modération"
+      "pratique",
+      "soutenir",
+      "Excel",
+      "délire",
+      "enquête",
+      "carillon",
+      "Calais"
     ],
     [
-      "astronaute",
-      "tolérant",
-      "calme",
-      "bécasse",
-      "cocotier",
-      "demi-cercle",
-      "trancher"
+      "traversière",
+      "mojito",
+      "Amiens",
+      "ourlet",
+      "UNESCO",
+      "paléozoïque",
+      "Inca"
     ],
     [
-      "venter",
-      "persévérance",
-      "attendre",
-      "nolde",
-      "indulgence",
-      "félicitation",
-      "longanimité"
+      "sonneur",
+      "Lille",
+      "Belgique",
+      "Gand",
+      "matelas",
+      "horloge",
+      "acacia"
     ],
     [
-      "noirâtre",
-      "longue",
-      "tenace",
-      "lacédémone",
-      "savant",
-      "endurer",
-      "débat"
+      "équanimité",
+      "géante",
+      "gadoue",
+      "chasseur",
+      "Arras",
+      "médiéval",
+      "cachalot"
     ],
     [
-      "supporter",
-      "artistique",
-      "maternité",
-      "enfler",
-      "lambin",
-      "embrasser",
-      "organique"
+      "Bruges",
+      "crudités",
+      "fabrique",
+      "simultané",
+      "écarter",
+      "côtier",
+      "murmurer"
     ],
     [
-      "caisse",
-      "sueurs",
-      "foin",
-      "constance",
-      "vertu",
-      "moite",
-      "dompter"
+      "Flandre",
+      "complot",
+      "embrayage",
+      "tronçonner",
+      "Garfunkel",
+      "Carabosse",
+      "gigaoctet"
     ],
     [
-      "serein",
-      "solitaire",
-      "prise",
-      "économiser",
-      "pourriture",
-      "enflammé",
-      "stoïcisme"
+      "tour",
+      "adoucissant",
+      "luette",
+      "stable",
+      "Bergues",
+      "gourde",
+      "blessé"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    4,
-    3,
+    2,
+    5,
+    2,
     1,
-    2,
+    1,
     2
   ],
   "colClues": [
+    4,
+    1,
     2,
+    1,
     3,
     3,
-    2,
-    3,
-    2,
-    3
+    1
   ],
-  "themeWord": "patience",
+  "themeWord": "beffroi",
   "solution": [
     [
       false,
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
-      false,
+      true,
       false,
       false
     ],
     [
-      false,
+      true,
+      true,
       true,
       true,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
       false
     ],
     [
       false,
       false,
       false,
+      false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false,
       false
     ],
@@ -149,8 +140,17 @@
       false,
       false,
       false,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

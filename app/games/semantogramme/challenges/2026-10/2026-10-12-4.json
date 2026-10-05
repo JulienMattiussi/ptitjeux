@@ -5,103 +5,121 @@
   "height": 7,
   "words": [
     [
-      "potage",
-      "florence",
-      "suc",
-      "fondamental",
-      "artistique",
-      "ébénisterie",
-      "engraisser"
+      "Delacroix",
+      "déferlante",
+      "tourment",
+      "étroit",
+      "poker",
+      "Werther",
+      "scolaire"
     ],
     [
-      "apostropher",
-      "humaniste",
-      "manipuler",
-      "grotte",
-      "congeler",
-      "sobre",
-      "champignon"
+      "Chateaubriand",
+      "médiathèque",
+      "toxique",
+      "diviser",
+      "gueuler",
+      "renfoncement",
+      "chimie"
     ],
     [
-      "corail",
-      "toulouse",
-      "projecteur",
-      "médicis",
-      "jarretière",
-      "gémissement",
-      "raphaël"
+      "Shelley",
+      "Vigny",
+      "goéland",
+      "fourchette",
+      "Cellini",
+      "brioché",
+      "ammonite"
     ],
     [
-      "sursaut",
-      "effiler",
-      "flaque",
-      "refrain",
-      "michel-ange",
-      "tarentule",
-      "florissante"
+      "Panacloc",
+      "ruines",
+      "Goethe",
+      "sentiment",
+      "tangente",
+      "Darjeeling",
+      "porte-avions"
     ],
     [
-      "antiquité",
-      "paupière",
-      "glorieuse",
-      "digestion",
-      "risquer",
-      "léonard",
-      "braise"
+      "bonheur",
+      "messagère",
+      "adorer",
+      "Novalis",
+      "Nerval",
+      "capiteux",
+      "accroche"
     ],
     [
-      "vénérer",
-      "gestuel",
-      "donatello",
-      "époque",
-      "botticelli",
-      "offrir",
-      "bouton"
+      "éternité",
+      "armoiries",
+      "ferry",
+      "Lamartine",
+      "Friedrich",
+      "névrose",
+      "Hernani"
     ],
     [
-      "lasagne",
-      "foisonnante",
-      "vin",
-      "incommensurable",
-      "prier",
-      "culturelle",
-      "redécouverte"
+      "fissure",
+      "mutisme",
+      "Schumann",
+      "coach",
+      "lyrisme",
+      "spot",
+      "poumon"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     1,
     2,
+    3,
     2,
     3,
-    3,
-    3
+    2
   ],
   "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3,
     1,
-    3,
-    2,
-    2,
-    3,
-    2,
-    3
+    1
   ],
-  "themeWord": "renaissance",
+  "themeWord": "romantisme",
   "solution": [
     [
+      true,
       false,
       true,
       false,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       false,
       false
     ],
     [
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       false,
       false,
       false
@@ -111,45 +129,27 @@
       false,
       false,
       true,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 16

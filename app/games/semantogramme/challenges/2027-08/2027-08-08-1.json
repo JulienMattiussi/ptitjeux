@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pastel",
+      "braquage",
+      "esquisse",
+      "feutre"
+    ],
+    [
+      "gomme",
+      "croquis",
+      "colorier",
+      "tympan"
+    ],
+    [
+      "trouille",
+      "trait",
+      "crayon",
+      "réduit"
+    ],
+    [
+      "fusain",
+      "papier",
+      "fréquence",
+      "orgue"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "dessin",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

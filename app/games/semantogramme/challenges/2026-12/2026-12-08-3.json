@@ -5,106 +5,82 @@
   "height": 6,
   "words": [
     [
-      "mandat",
-      "roquette",
-      "manche",
-      "mobile",
-      "corné",
-      "pilote"
+      "carreau",
+      "germe",
+      "moule",
+      "Liège",
+      "Nutella",
+      "margelle"
     ],
     [
-      "abeille",
-      "cendrier",
-      "évacuation",
-      "planer",
-      "gestation",
-      "aride"
+      "supporter",
+      "Bruxelles",
+      "Lille",
+      "atrabile",
+      "sillage",
+      "goûter"
     ],
     [
-      "pâle",
-      "bruyant",
-      "tutu",
-      "aéroport",
-      "transat",
-      "inspirer"
+      "pâte",
+      "contentement",
+      "dérober",
+      "sucre",
+      "rondelles",
+      "palanquin"
     ],
     [
-      "voler",
-      "survoler",
-      "humour",
-      "campus",
-      "décoller",
-      "respecter"
+      "Arabes",
+      "courbature",
+      "chantilly",
+      "puéril",
+      "dentelle",
+      "palette"
     ],
     [
-      "sauvetage",
-      "hélistation",
-      "vol",
-      "coeur",
-      "cérébral",
-      "urgence"
+      "navigateur",
+      "crêpe",
+      "caramel",
+      "croustillant",
+      "marche",
+      "fer"
     ],
     [
-      "carotte",
-      "cockpit",
-      "compteur",
-      "machine",
-      "rotor",
-      "atterrir"
+      "Belgique",
+      "griffes",
+      "pureté",
+      "foire",
+      "kermesse",
+      "cortège"
     ]
   ],
   "rowClues": [
+    4,
     3,
     2,
-    3,
-    3,
+    2,
     4,
     3
   ],
   "colClues": [
     3,
+    2,
+    4,
     4,
     3,
-    3,
-    2,
-    3
+    2
   ],
-  "themeWord": "hélicoptère",
+  "themeWord": "gaufre",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       true,
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false,
       true,
       false
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -112,12 +88,36 @@
       true
     ],
     [
-      false,
       true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 18

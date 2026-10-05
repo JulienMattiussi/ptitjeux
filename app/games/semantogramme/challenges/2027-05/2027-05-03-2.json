@@ -5,75 +5,68 @@
   "height": 5,
   "words": [
     [
-      "citron",
-      "paille",
-      "enfer",
-      "safran",
-      "beurre"
+      "analytique",
+      "brise",
+      "VIH",
+      "printemps",
+      "eau"
     ],
     [
-      "maçonnerie",
-      "jonquille",
-      "barque",
-      "maïs",
-      "assiette"
+      "moyen",
+      "malhabile",
+      "douceâtre",
+      "doux",
+      "lait"
     ],
     [
-      "doré",
-      "or",
-      "détergent",
-      "tournesol",
-      "ocre"
+      "poussif",
+      "douche",
+      "biberon",
+      "plénitude",
+      "café"
     ],
     [
-      "sourcil",
-      "vif",
-      "pâle",
-      "microscope",
-      "longue"
+      "indifférent",
+      "littéraire",
+      "fade",
+      "truffe",
+      "rupestre"
     ],
     [
-      "soleil",
-      "mat",
-      "manger",
-      "bruyant",
-      "stocker"
+      "réchauffé",
+      "grincer",
+      "mitigé",
+      "bain",
+      "assoupi"
     ]
   ],
   "rowClues": [
+    3,
     4,
+    3,
     2,
-    4,
-    2,
-    1
+    3
   ],
   "colClues": [
     3,
+    2,
     4,
-    1,
     3,
-    2
+    3
   ],
-  "themeWord": "jaune",
+  "themeWord": "tiède",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       true
     ],
@@ -82,15 +75,22 @@
       true,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

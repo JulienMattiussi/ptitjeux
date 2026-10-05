@@ -5,81 +5,74 @@
   "height": 5,
   "words": [
     [
-      "peloton",
-      "déménagement",
-      "opposition",
-      "mystérieux",
-      "haut"
+      "enclume",
+      "revenir",
+      "Eiffel",
+      "chamailler",
+      "bouillon"
     ],
     [
-      "toit",
-      "fouiller",
-      "bouche",
-      "lucarne",
-      "oublié"
+      "sidérurgie",
+      "LCD",
+      "canevas",
+      "fenaison",
+      "lingot"
     ],
     [
-      "souvenir",
-      "monter",
-      "candidat",
-      "peigne",
-      "sombre"
+      "forge",
+      "rouille",
+      "acier",
+      "aimant",
+      "défenses"
     ],
     [
-      "caravane",
-      "tag",
-      "malle",
-      "ranger",
-      "piocher"
+      "cale",
+      "bohémien",
+      "métal",
+      "Marseille",
+      "Joker"
     ],
     [
-      "creuser",
-      "levier",
-      "araignée",
-      "culotte",
-      "poutre"
+      "s'ennuyer",
+      "clou",
+      "repasser",
+      "exil",
+      "gruau"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    3,
     2,
+    4,
+    1,
     2
   ],
   "colClues": [
-    2,
-    2,
-    2,
     3,
-    4
+    2,
+    4,
+    1,
+    1
   ],
-  "themeWord": "grenier",
+  "themeWord": "fer",
   "solution": [
     [
-      false,
-      false,
+      true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false
@@ -89,8 +82,15 @@
       false,
       true,
       false,
-      true
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

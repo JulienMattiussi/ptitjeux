@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "éclipse",
-      "origan",
-      "recoller",
-      "pâte"
+      "sèche",
+      "basketteur",
+      "Père-Lachaise",
+      "bâtons"
     ],
     [
-      "console",
-      "garniture",
-      "hibernation",
-      "précieux"
+      "caveau",
+      "sépulture",
+      "épitaphe",
+      "sobre"
     ],
     [
-      "napolitaine",
-      "parallèle",
-      "printemps",
-      "tomate"
+      "sororité",
+      "chrysanthème",
+      "tombe",
+      "Toussaint"
     ],
     [
-      "jambon",
-      "asana",
-      "four",
-      "champignon"
+      "dévisser",
+      "deuil",
+      "granulés",
+      "mausolée"
     ]
   ],
   "rowClues": [
-    2,
     1,
-    2,
-    3
+    3,
+    3,
+    2
   ],
   "colClues": [
-    2,
-    2,
     1,
-    3
+    3,
+    3,
+    2
   ],
-  "themeWord": "pizza",
+  "themeWord": "cimetière",
   "solution": [
     [
       false,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      false,
       false
     ],
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
-      false,
+      true,
+      true,
       true
     ],
     [
-      true,
       false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

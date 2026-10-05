@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-10-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "vulnérable",
+      "églantine",
+      "Kermit",
+      "frêle",
+      "chétif"
+    ],
+    [
+      "porcelaine",
+      "robinet",
+      "précaire",
+      "par",
+      "faible"
+    ],
+    [
+      "verre",
+      "critique",
+      "Tesla",
+      "Ptolémée",
+      "agité"
+    ],
+    [
+      "emballage",
+      "confession",
+      "indien",
+      "dragon",
+      "Turc"
+    ],
+    [
+      "vis",
+      "attention",
+      "sensible",
+      "carton",
+      "fêlure"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    1,
+    4
+  ],
+  "colClues": [
+    4,
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "fragile",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 12
+}

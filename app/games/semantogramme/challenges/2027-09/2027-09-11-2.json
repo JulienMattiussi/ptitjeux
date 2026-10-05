@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "anophèle",
+      "arbuste",
+      "bouton",
+      "lagopède",
+      "carriole"
+    ],
+    [
+      "repriser",
+      "machine",
+      "envahisseur",
+      "ourlet",
+      "fil"
+    ],
+    [
+      "Hale-Bopp",
+      "tissu",
+      "aiguille",
+      "dé",
+      "Philippines"
+    ],
+    [
+      "point",
+      "piquer",
+      "automobile",
+      "Wolverine",
+      "couture"
+    ],
+    [
+      "Singer",
+      "épingle",
+      "ciseaux",
+      "patron",
+      "Quimper"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    4,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "coudre",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

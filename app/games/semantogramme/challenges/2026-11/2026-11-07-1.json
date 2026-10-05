@@ -5,55 +5,49 @@
   "height": 4,
   "words": [
     [
-      "parterre",
-      "tourteau",
-      "tonnelle",
-      "arrosoir"
+      "baudruche",
+      "chaton",
+      "tracer",
+      "football"
     ],
     [
-      "agate",
-      "pelouse",
-      "salon",
-      "long"
-    ],
-    [
-      "serre",
-      "haie",
-      "barbecue",
-      "opération"
-    ],
-    [
-      "manipulée",
-      "allée",
+      "penalty",
+      "basket",
       "gonfler",
-      "potager"
+      "égoutter"
+    ],
+    [
+      "Josquin",
+      "minuscule",
+      "logique",
+      "rond"
+    ],
+    [
+      "montgolfière",
+      "dribble",
+      "valve",
+      "marinier"
     ]
   ],
   "rowClues": [
-    3,
     2,
     3,
-    2
+    1,
+    3
   ],
   "colClues": [
+    3,
     2,
-    3,
-    3,
+    2,
     2
   ],
-  "themeWord": "jardin",
+  "themeWord": "ballon",
   "solution": [
     [
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
@@ -63,10 +57,16 @@
     ],
     [
       false,
-      true,
+      false,
       false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

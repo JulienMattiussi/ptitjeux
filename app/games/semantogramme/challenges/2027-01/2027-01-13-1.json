@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "pourboire",
-      "broderie",
-      "logiciel",
-      "fichier"
+      "juge",
+      "métaphysique",
+      "avocat",
+      "tribunal"
     ],
     [
-      "micro",
-      "clavier",
-      "fièvre",
-      "écran"
+      "balance",
+      "atteindre",
+      "Réaumur",
+      "verdict"
     ],
     [
-      "lactaire",
-      "mémoire",
-      "frontière",
-      "crustacé"
+      "procès",
+      "fabrique",
+      "prison",
+      "Plougastel"
     ],
     [
-      "impasse",
-      "processeur",
-      "vertèbre",
-      "dossier"
+      "ajourner",
+      "coupable",
+      "loi",
+      "innocent"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    3,
-    1,
-    2
-  ],
-  "colClues": [
-    1,
-    3,
-    1,
+    2,
     3
   ],
-  "themeWord": "ordinateur",
+  "colClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "justice",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
       false,
       true,
-      false,
+      true,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

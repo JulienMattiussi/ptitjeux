@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "courber",
-      "duffel-coat",
-      "prologue",
-      "aplatir",
-      "cravate",
-      "rampant",
-      "gonflement"
+      "rose",
+      "recherche",
+      "jongleur",
+      "plante",
+      "spectre",
+      "Jura",
+      "ombre"
     ],
     [
-      "limaces",
-      "douloureux",
-      "ausculter",
-      "humeur",
-      "soumis",
-      "ancestral",
-      "hypocrite"
+      "Brésil",
+      "avaler",
+      "classique",
+      "cuissot",
+      "contrôle",
+      "Mendeleïev",
+      "troll"
     ],
     [
-      "siphon",
-      "salamalec",
-      "mélodieux",
-      "mielleux",
-      "asymétrique",
-      "iridescent",
-      "bronzage"
+      "flotter",
+      "serre",
+      "dé",
+      "statue",
+      "basse",
+      "nef",
+      "tubéreux"
     ],
     [
-      "genou",
-      "destiner",
-      "révérence",
-      "rayonner",
-      "humble",
-      "faux",
-      "bénin"
+      "brancher",
+      "nageur",
+      "annuel",
+      "hybride",
+      "percussions",
+      "guérite",
+      "socle"
     ],
     [
-      "agiter",
-      "pirouetter",
-      "lâche",
-      "drap",
-      "orthodoxe",
-      "servile",
-      "environnemental"
+      "goélette",
+      "panse",
+      "Tacite",
+      "Bellini",
+      "massif",
+      "rouge",
+      "feuillage"
     ],
     [
-      "flatteur",
-      "résonant",
-      "complimenter",
-      "bout-dehors",
-      "édifier",
-      "épigramme",
-      "fournir"
+      "Queen-Mary",
+      "jardinière",
+      "tendre",
+      "sépia",
+      "iode",
+      "suspension",
+      "saumon"
     ],
     [
-      "semelle",
-      "tranquillité",
-      "pleurnicher",
-      "mail",
-      "pédant",
-      "fraisier",
-      "bricolage"
+      "potée",
+      "pot",
+      "balade",
+      "bordure",
+      "précision",
+      "onciale",
+      "mycélium"
     ]
   ],
   "rowClues": [
     3,
+    1,
     2,
     2,
     3,
     2,
-    2,
-    1
+    3
   ],
   "colClues": [
-    2,
+    3,
+    3,
     1,
     3,
+    1,
     2,
-    3,
-    3,
-    1
+    3
   ],
-  "themeWord": "obséquieux",
+  "themeWord": "bégonia",
   "solution": [
     [
       true,
@@ -94,7 +94,34 @@
       false,
       true,
       false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -103,31 +130,13 @@
       false,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       false,
       true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       false,
       true,
@@ -135,22 +144,13 @@
     ],
     [
       true,
+      true,
       false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

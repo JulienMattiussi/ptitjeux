@@ -5,74 +5,74 @@
   "height": 6,
   "words": [
     [
-      "rapt",
-      "lasso",
-      "arrêter",
-      "trompette",
-      "enfermer",
-      "hideux"
+      "dépense",
+      "olivier",
+      "Noé",
+      "noisetier",
+      "pureté",
+      "cosmétique"
     ],
     [
-      "séquestrer",
-      "gelée",
-      "support",
-      "transformer",
-      "sociale",
-      "kidnapper"
+      "pigeon",
+      "Brahms",
+      "Picasso",
+      "astucieux",
+      "amour",
+      "paix"
     ],
     [
-      "clarinette",
-      "chevalier",
-      "attraper",
-      "ligoter",
-      "enlèvement",
-      "allumer"
+      "vol",
+      "Mushu",
+      "Saint-Esprit",
+      "arche",
+      "symbole",
+      "but"
     ],
     [
-      "filet",
-      "métal",
-      "menottes",
-      "empoigner",
-      "cerner",
-      "salle-à-manger"
+      "carême",
+      "défilé",
+      "protéine",
+      "Lang",
+      "plume",
+      "blanche"
     ],
     [
-      "éplucheur",
-      "cage",
-      "mouette",
-      "piège",
-      "chambre",
-      "cyclique"
+      "pourrir",
+      "dormir",
+      "foire",
+      "lanternon",
+      "cartésien",
+      "lâcher"
     ],
     [
-      "maîtriser",
-      "soutien-gorge",
-      "oser",
-      "chausser",
-      "aigreur",
-      "bienfaiteur"
+      "demi",
+      "Morricone",
+      "mariage",
+      "tourterelle",
+      "rameau",
+      "jaunes"
     ]
   ],
   "rowClues": [
-    4,
-    2,
     3,
     4,
+    4,
     2,
-    1
+    1,
+    3
   ],
   "colClues": [
+    2,
+    1,
     4,
     2,
-    3,
-    3,
-    3,
-    1
+    5,
+    3
   ],
-  "themeWord": "capturer",
+  "themeWord": "colombe",
   "solution": [
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -81,6 +81,30 @@
     ],
     [
       true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       false,
       false,
@@ -94,31 +118,7 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

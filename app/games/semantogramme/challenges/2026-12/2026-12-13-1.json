@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "inférieur",
-      "fantasme",
-      "inattendu",
-      "chimère"
+      "hélicoptère",
+      "scintiller",
+      "constellation",
+      "momie"
     ],
     [
-      "prise",
-      "comète",
-      "utopie",
-      "sagoutier"
+      "briller",
+      "repasser",
+      "utilité",
+      "filante"
     ],
     [
-      "symbole",
-      "plante",
-      "imagination",
-      "moulinet"
+      "ciel",
+      "discuter",
+      "galaxie",
+      "supernova"
     ],
     [
-      "poule",
-      "cauchemar",
-      "sommeil",
-      "mouche"
+      "Soleil",
+      "pesant",
+      "astre",
+      "Polaire"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    2,
-    2
-  ],
-  "colClues": [
-    1,
     2,
     3,
-    1
+    3
   ],
-  "themeWord": "rêve",
+  "colClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "étoile",
   "solution": [
     [
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true
     ],
     [
-      false,
+      true,
       false,
       true,
-      false
+      true
     ],
     [
       true,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

@@ -5,102 +5,110 @@
   "height": 6,
   "words": [
     [
-      "détonation",
-      "humble",
-      "sauvetage",
-      "inhaler",
-      "effacé",
-      "réservé"
+      "plume",
+      "ippon",
+      "colombe",
+      "Saint-Marc",
+      "gitane",
+      "toit"
     ],
     [
-      "percolateur",
-      "pudeur",
-      "portefeuille",
-      "pudique",
-      "étinceler",
-      "chaudron"
+      "tsunami",
+      "impala",
+      "messager",
+      "Popeye",
+      "artifice",
+      "confiserie"
     ],
     [
-      "parmesan",
-      "ventoline",
-      "fossile",
-      "sobre",
-      "cheval",
-      "discret"
+      "dupe",
+      "voyageur",
+      "cheville",
+      "tuba",
+      "Muppet",
+      "panneau"
     ],
     [
-      "reculer",
-      "retenue",
-      "butiner",
-      "invitation",
-      "timide",
-      "guignol"
+      "ville",
+      "frayeur",
+      "fiente",
+      "gris",
+      "naïf",
+      "pain"
     ],
     [
-      "usage",
-      "peu",
-      "sous-estimer",
-      "rougir",
-      "anonyme",
-      "maux"
+      "approbation",
+      "social",
+      "Venise",
+      "persillade",
+      "Bacchus",
+      "rythme"
     ],
     [
-      "délégué",
-      "humilité",
-      "maigrir",
-      "simple",
-      "plébisciter",
-      "manger"
+      "singulier",
+      "roucouler",
+      "statue",
+      "place",
+      "chauffagiste",
+      "arnaque"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    2,
-    3,
     4,
-    2
-  ],
-  "colClues": [
     1,
+    2,
     5,
     1,
-    4,
-    3,
-    2
+    4
   ],
-  "themeWord": "modeste",
+  "colClues": [
+    3,
+    2,
+    5,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "pigeon",
   "solution": [
     [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
       false,
       true
     ],
     [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -108,17 +116,9 @@
       true,
       true,
       true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

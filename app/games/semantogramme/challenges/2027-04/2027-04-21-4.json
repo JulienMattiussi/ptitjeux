@@ -5,114 +5,96 @@
   "height": 7,
   "words": [
     [
-      "néolithique",
-      "essai",
-      "nomade",
-      "strict",
-      "mémorial",
-      "cueillette",
-      "chasse"
+      "ligne",
+      "inviolable",
+      "Delaunay",
+      "quadrant",
+      "lyrique",
+      "couleur",
+      "dorer"
     ],
     [
-      "incassable",
-      "salir",
-      "oeil-de-chat",
-      "pierre",
-      "vitesse",
-      "préhistoire",
-      "pêche"
+      "Toscane",
+      "figure",
+      "vacherin",
+      "non-figuratif",
+      "Malevitch",
+      "Ferrero",
+      "pressoir"
     ],
     [
-      "arc",
-      "râpe",
-      "trous",
-      "ancien",
-      "ronde",
-      "vain",
-      "opportuniste"
+      "géométrique",
+      "Hartung",
+      "joyaux",
+      "faux",
+      "carré",
+      "réveillon",
+      "Rothko"
     ],
     [
-      "tourner",
-      "invectiver",
-      "pension",
-      "transitoire",
-      "homme",
-      "doudou",
-      "morue"
+      "fiel",
+      "tache",
+      "borné",
+      "Klee",
+      "parka",
+      "confetti",
+      "fumé"
     ],
     [
-      "foyer",
-      "quaternaire",
-      "global",
-      "manigancer",
-      "rallonger",
-      "fracturer",
-      "paléolithique"
+      "mitron",
+      "lasagne",
+      "pourlécher",
+      "forme",
+      "archives",
+      "enclume",
+      "informel"
     ],
     [
-      "campement",
-      "microlithe",
-      "âge",
-      "entourer",
-      "parmesan",
-      "percutant",
-      "bernin"
+      "extension",
+      "acarien",
+      "pitié",
+      "corinthien",
+      "Jéricho",
+      "Pollock",
+      "ramure"
     ],
     [
-      "silex",
-      "salé",
-      "lionne",
-      "cohabiter",
-      "flèche",
-      "taillée",
-      "pissarro"
+      "inintelligible",
+      "rhinite",
+      "Kupka",
+      "gabier",
+      "cadrage",
+      "parent",
+      "diffus"
     ]
   ],
   "rowClues": [
     4,
-    3,
+    2,
+    4,
     2,
     2,
-    2,
-    3,
-    3
+    1,
+    1
   ],
   "colClues": [
-    5,
-    1,
+    2,
+    2,
     2,
     3,
-    2,
     3,
-    3
+    2,
+    2
   ],
-  "themeWord": "mésolithique",
+  "themeWord": "abstractionnisme",
   "solution": [
     [
       true,
       false,
       true,
       false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
       false
     ],
     [
@@ -126,31 +108,49 @@
     ],
     [
       true,
+      true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       true
     ],
     [
-      true,
-      true,
+      false,
       true,
       false,
+      true,
       false,
       false,
       false
     ],
     [
-      true,
       false,
       false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

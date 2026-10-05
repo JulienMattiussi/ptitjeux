@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "peloton",
-      "vanille",
-      "chiffon",
-      "azur"
+      "litote",
+      "colonne",
+      "touriste",
+      "Panthéon"
     ],
     [
-      "meuglement",
-      "cicatrice",
-      "serpillière",
-      "briquer"
+      "obélisque",
+      "porte-monnaie",
+      "historique",
+      "commémoration"
     ],
     [
-      "récent",
-      "détergent",
-      "surdité",
-      "éponge"
+      "statue",
+      "flûte",
+      "condensation",
+      "baldaquin"
     ],
     [
-      "poussière",
-      "épousseter",
-      "savon",
-      "parallèle"
+      "Tour-Eiffel",
+      "dégringoler",
+      "visite",
+      "patrimoine"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     1,
-    2,
-    2,
     3
   ],
   "colClues": [
-    1,
-    2,
     3,
-    2
+    1,
+    3,
+    3
   ],
-  "themeWord": "ménage",
+  "themeWord": "monument",
   "solution": [
     [
       false,
-      false,
       true,
-      false
+      true,
+      true
     ],
     [
-      false,
+      true,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
-      true
+      false,
+      false
     ],
     [
       true,
+      false,
       true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

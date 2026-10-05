@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "queue",
-      "sauter",
-      "anche",
-      "minuscule",
-      "cassure",
-      "rétroviseur",
-      "ramasser"
+      "jardin",
+      "bouquet",
+      "orange",
+      "désir",
+      "emploi",
+      "comète",
+      "culotte"
     ],
     [
-      "crue",
-      "embarras",
-      "primate",
-      "canneberge",
-      "opposable",
-      "dinde",
-      "muscler"
+      "comestible",
+      "fraise",
+      "diffus",
+      "s'écrouler",
+      "glorifier",
+      "Puy",
+      "infaillible"
     ],
     [
-      "dériver",
-      "sermon",
-      "crotté",
-      "taquiner",
-      "delta",
-      "trentaine",
-      "agile"
+      "enfantine",
+      "kermesse",
+      "froment",
+      "religieux",
+      "Pérou",
+      "câpre",
+      "polygone"
     ],
     [
-      "pochette",
-      "fruit",
-      "film",
-      "matinal",
-      "figuratif",
-      "insecte",
-      "familial"
+      "salade",
+      "Yosemite",
+      "sonnaille",
+      "Aigle",
+      "danse",
+      "dinosaure",
+      "potager"
     ],
     [
-      "consolation",
-      "pelage",
-      "sororal",
-      "singe",
-      "effacement",
-      "écaille",
-      "efficace"
+      "secondaire",
+      "carie",
+      "laver",
+      "dissiper",
+      "torpille",
+      "feuille",
+      "Neuschwanstein"
     ],
     [
-      "rapper",
-      "kirchner",
-      "sou",
-      "vainqueur",
-      "programme",
-      "amérique",
-      "mignon"
+      "pétale",
+      "procession",
+      "pucerons",
+      "bactérie",
+      "coupe",
+      "glaneur",
+      "verdict"
     ],
     [
-      "cartésien",
-      "oreille",
-      "gambette",
-      "rugir",
-      "petit",
-      "manger",
-      "sud"
+      "mexicaine",
+      "guérite",
+      "prisonnier",
+      "grimpante",
+      "ronde",
+      "abstention",
+      "fleur"
     ]
   ],
   "rowClues": [
     3,
     1,
-    1,
     3,
-    2,
+    3,
+    1,
     2,
     4
   ],
   "colClues": [
-    1,
-    4,
+    6,
     1,
     2,
     1,
     3,
-    4
+    2,
+    2
   ],
-  "themeWord": "ouistiti",
+  "themeWord": "capucine",
   "solution": [
     [
       true,
       true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
@@ -107,50 +98,59 @@
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
+      true,
       false,
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
       true
     ],
     [
       false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       false,
       false,
       true,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

@@ -79,7 +79,7 @@ const ALL_GAMES: readonly GameEntry[] = [
   {
     id: 'semantogramme',
     generator: (d, i) => generateSemantogrammeLevel(d, i),
-    end: '2027-07-03',
+    end: '2027-09-30',
     wordOf: (level) => level.themeWord ?? '',
   },
   { id: 'anglemort', generator: (d, i) => generateAngleMortLevel(d, i), end: '2027-09-30' },

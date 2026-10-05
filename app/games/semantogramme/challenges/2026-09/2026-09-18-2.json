@@ -5,82 +5,75 @@
   "height": 5,
   "words": [
     [
-      "encre",
-      "élégant",
-      "lettre",
-      "phalange",
-      "pingouin"
+      "muet",
+      "ventricule",
+      "introverti",
+      "sourdine",
+      "giclée"
     ],
     [
-      "aiguillée",
-      "écrire",
-      "abricot",
-      "possessif",
-      "rameau"
+      "ninja",
+      "visibilité",
+      "nonchalance",
+      "chut",
+      "analogie"
     ],
     [
-      "chinois",
-      "sécher",
-      "procès",
-      "crétois",
-      "sarcasme"
+      "Afrique",
+      "Arcelor",
+      "barreau",
+      "aphone",
+      "taciturne"
     ],
     [
-      "écriture",
-      "émail",
-      "fluide",
-      "tracer",
-      "papier"
+      "régime",
+      "moine",
+      "RATP",
+      "ombre",
+      "feutré"
     ],
     [
-      "galop",
-      "plume",
-      "cumulus",
-      "asiatique",
-      "pinceau"
+      "mystérieux",
+      "réservé",
+      "doublons",
+      "sacrée",
+      "discret"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    1,
-    4,
+    2,
+    2,
+    3,
     3
   ],
   "colClues": [
     3,
-    3,
     2,
-    2,
-    2
+    1,
+    4,
+    3
   ],
-  "themeWord": "calligraphie",
+  "themeWord": "silencieux",
   "solution": [
     [
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
       true,
       false,
       false,
-      false,
+      true,
       false
     ],
     [
-      true,
       false,
-      true,
+      false,
+      false,
       true,
       true
     ],
@@ -89,8 +82,15 @@
       true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

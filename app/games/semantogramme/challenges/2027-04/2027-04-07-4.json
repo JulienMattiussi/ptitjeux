@@ -5,111 +5,102 @@
   "height": 7,
   "words": [
     [
-      "comprendre",
-      "respecter",
-      "voltaire",
-      "ouverture",
-      "insulte",
-      "engloutir",
-      "diversité"
+      "Haydn",
+      "Poussin",
+      "norvégienne",
+      "bonhomme",
+      "Concarneau",
+      "Lebrun",
+      "Mansart"
     ],
     [
-      "baroque",
-      "rosée",
-      "sécher",
-      "manifeste",
-      "fenouil",
-      "pluralisme",
-      "attelage"
+      "sucette",
+      "dictionnaire",
+      "Fables",
+      "nounours",
+      "Hollywood",
+      "démangeaison",
+      "caisse"
     ],
     [
-      "visiter",
-      "éclairée",
-      "salade",
-      "mécanisée",
-      "neveu",
-      "colline",
-      "embuscade"
+      "bienséance",
+      "tragédie",
+      "margelle",
+      "Racine",
+      "Alexandre",
+      "discernement",
+      "basalte"
     ],
     [
-      "partager",
-      "amuser",
-      "universelle",
-      "bienveillance",
-      "patience",
-      "généreuse",
-      "moment"
+      "Chauvet",
+      "vieillissement",
+      "raison",
+      "Corneille",
+      "violette",
+      "caniche",
+      "foudre"
     ],
     [
-      "coulisser",
-      "antarctique",
-      "accepter",
-      "monopalme",
-      "caramel",
-      "abondance",
-      "spectre"
+      "penaud",
+      "enjambée",
+      "gorge",
+      "Versailles",
+      "Lully",
+      "mesure",
+      "clarifié"
     ],
     [
-      "tonnerre",
-      "saule",
-      "séduction",
-      "majeure",
-      "rendre",
-      "écoute",
-      "risotto"
+      "règles",
+      "Prokofiev",
+      "Fénelon",
+      "unisson",
+      "antivol",
+      "éducation",
+      "Boileau"
     ],
     [
-      "différence",
-      "fumerolle",
-      "civique",
-      "mentonnière",
-      "rempart",
-      "admettre",
-      "humanisme"
+      "Mozart",
+      "jugement",
+      "lésiner",
+      "sécréter",
+      "ordre",
+      "acné",
+      "équilibre"
     ]
   ],
   "rowClues": [
-    5,
+    4,
     1,
-    1,
-    5,
-    1,
-    1,
-    4
-  ],
-  "colClues": [
     3,
     2,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
     4,
     2,
-    1,
-    4,
-    2
+    3,
+    3,
+    2,
+    2,
+    3
   ],
-  "themeWord": "tolérance",
+  "themeWord": "classicisme",
   "solution": [
     [
       true,
       true,
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       false,
       false,
@@ -117,18 +108,18 @@
     ],
     [
       true,
+      true,
       false,
       true,
-      true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
       true,
-      false,
+      true,
       false,
       false,
       false
@@ -137,8 +128,8 @@
       false,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false
     ],
@@ -148,9 +139,18 @@
       true,
       false,
       false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 19
 }

@@ -5,71 +5,71 @@
   "height": 6,
   "words": [
     [
-      "galaxie",
-      "hawaïen",
-      "pâté",
-      "confiture",
-      "parka",
-      "pépin"
+      "potion",
+      "tuba",
+      "diviser",
+      "palmier",
+      "pliant",
+      "Algérie"
     ],
     [
-      "horizon",
-      "aspirateur",
-      "gourmandise",
-      "épagneul",
-      "compote",
-      "sucre"
+      "Martell",
+      "sucrée",
+      "noyau",
+      "chameau",
+      "défricher",
+      "rouleaux"
     ],
     [
-      "bref",
-      "marronnier",
-      "polluant",
-      "visière",
-      "peintre",
-      "tarte"
+      "Maghreb",
+      "brune",
+      "caravane",
+      "assommer",
+      "conduit",
+      "fruit"
     ],
     [
-      "frais",
-      "méditerranéen",
-      "fruit",
-      "hamac",
-      "orient",
-      "glissant"
+      "législatif",
+      "glossaire",
+      "oasis",
+      "commande",
+      "faussaire",
+      "pâte"
     ],
     [
-      "sec",
-      "noir",
-      "violet",
-      "pastèque",
-      "armoire",
-      "pulpe"
+      "Marrakech",
+      "Sahara",
+      "dévonien",
+      "pourparlers",
+      "cèpes",
+      "ramadan"
     ],
     [
-      "tableau",
-      "vert",
-      "pochette",
-      "pâtisserie",
-      "archéologue",
-      "cueillette"
+      "claveciniste",
+      "pétales",
+      "biaiser",
+      "Arabie",
+      "désert",
+      "chantant"
     ]
   ],
   "rowClues": [
     2,
+    4,
+    4,
+    2,
     3,
-    1,
-    4,
-    4,
-    4
+    2
   ],
   "colClues": [
     2,
     3,
-    4,
-    2,
-    2,
+    3,
+    3,
+    1,
     5
   ],
-  "themeWord": "figue",
+  "themeWord": "datte",
   "solution": [
     [
       false,
@@ -81,17 +81,9 @@
     ],
     [
       false,
-      false,
       true,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       true
     ],
@@ -100,25 +92,33 @@
       true,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

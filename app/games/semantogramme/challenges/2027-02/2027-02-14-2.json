@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "paisible",
-      "pédale",
-      "tacite",
-      "mutisme",
-      "feutre"
+      "paysage",
+      "culturiste",
+      "perdu",
+      "coach",
+      "Kaamelott"
     ],
     [
-      "muet",
-      "calme",
-      "couche",
-      "extension",
-      "verni"
+      "salle",
+      "carême",
+      "œnologie",
+      "répétition",
+      "force"
     ],
     [
-      "monastère",
-      "peigne",
-      "discret",
-      "flemmard",
-      "cimetière"
+      "barre",
+      "biceps",
+      "Xbox",
+      "squat",
+      "développé"
     ],
     [
-      "sérénité",
-      "tu",
-      "paix",
-      "taire",
-      "imposte"
+      "ouvrir",
+      "banc",
+      "protéine",
+      "pompes",
+      "long"
     ],
     [
-      "grillé",
-      "chuchoter",
-      "incurver",
-      "jardinière",
-      "massue"
+      "Primatice",
+      "couenne",
+      "abdominaux",
+      "fraise",
+      "poids"
     ]
   ],
   "rowClues": [
-    4,
     2,
     3,
     4,
-    1
-  ],
-  "colClues": [
-    4,
     3,
-    3,
-    2,
     2
   ],
-  "themeWord": "silencieux",
+  "colClues": [
+    2,
+    3,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "musculation",
   "solution": [
     [
+      false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true
     ],
@@ -67,29 +74,22 @@
       true,
       true,
       false,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 14

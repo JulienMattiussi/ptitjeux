@@ -5,82 +5,75 @@
   "height": 5,
   "words": [
     [
-      "décembre",
-      "parlement",
-      "annuel",
-      "anniversaire",
-      "civil"
+      "résultat",
+      "embouteillage",
+      "mouillé",
+      "nageur",
+      "scintiller"
     ],
     [
-      "plasma",
-      "lambin",
-      "calendrier",
-      "âge",
-      "douze"
+      "Rafiki",
+      "herbe",
+      "aurore",
+      "vaguelette",
+      "perle"
     ],
     [
-      "enseignement",
-      "récolte",
-      "confetti",
-      "bilan",
-      "volet"
+      "brume",
+      "givre",
+      "humidité",
+      "héritage",
+      "Nantes"
     ],
     [
-      "écouler",
-      "passer",
-      "double",
-      "féerique",
-      "danse"
+      "condensation",
+      "masse",
+      "cristal",
+      "civière",
+      "matin"
     ],
     [
-      "cycle",
-      "obligatoire",
-      "bissextile",
-      "renommé",
-      "dromadaire"
+      "feuille",
+      "pissenlit",
+      "essoufflement",
+      "goutte",
+      "aube"
     ]
   ],
   "rowClues": [
-    4,
+    2,
     3,
-    2,
-    2,
-    2
+    3,
+    3,
+    3
   ],
   "colClues": [
     3,
     2,
-    3,
-    3,
-    2
+    4,
+    1,
+    4
   ],
-  "themeWord": "année",
+  "themeWord": "rosée",
   "solution": [
     [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
       true,
-      false,
       true,
-      false
+      false,
+      true
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       false
     ],
@@ -89,8 +82,15 @@
       false,
       true,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

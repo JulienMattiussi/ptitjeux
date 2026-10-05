@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "rouge",
-      "caresse",
-      "pieuse",
-      "montante",
-      "baiser",
-      "demoiselle"
+      "orchestre",
+      "cuir",
+      "escale",
+      "crapaud",
+      "canapé",
+      "pouf"
     ],
     [
-      "matelot",
-      "enfantine",
-      "humiliation",
-      "fossette",
-      "douce",
-      "voyage"
+      "tambouriner",
+      "bascule",
+      "relax",
+      "club",
+      "coussin",
+      "Kindle"
     ],
     [
-      "sobriété",
-      "gros",
-      "visage",
-      "arrondie",
-      "firmament",
-      "blouse"
+      "scientifique",
+      "bergère",
+      "dossier",
+      "lèvres",
+      "lycra",
+      "salon"
     ],
     [
-      "gifle",
-      "creuse",
-      "douloureux",
-      "affronter",
-      "classe",
-      "plasma"
+      "tropique",
+      "roulant",
+      "superposition",
+      "greffe",
+      "Voltaire",
+      "mille-pattes"
     ],
     [
-      "gaspacho",
-      "miroir",
-      "tendre",
-      "mordre",
-      "fessier",
-      "pommette"
+      "misanthrope",
+      "Carnac",
+      "pistons",
+      "assise",
+      "combat",
+      "sirupeux"
     ],
     [
-      "économiser",
-      "sql",
-      "enclume",
-      "flanquer",
-      "inspecter",
-      "pleine"
+      "Académie",
+      "dentiste",
+      "système",
+      "Cinzano",
+      "gentil",
+      "accoudoir"
     ]
   ],
   "rowClues": [
-    3,
+    5,
+    4,
     3,
     2,
-    2,
-    3,
-    1
+    1,
+    3
   ],
   "colClues": [
     2,
-    3,
+    5,
     2,
     3,
-    2,
-    2
+    3,
+    3
   ],
-  "themeWord": "joue",
+  "themeWord": "fauteuil",
   "solution": [
     [
       true,
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
       false,
       true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       false,
       true
     ],
     [
       false,
+      true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

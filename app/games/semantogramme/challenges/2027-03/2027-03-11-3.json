@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "punch",
-      "petit-déjeuner",
-      "thé",
-      "corriger",
-      "momifier",
-      "lait"
-    ],
-    [
-      "silhouette",
-      "tressauter",
-      "pulluler",
-      "abstention",
-      "remplir",
-      "goûter"
-    ],
-    [
-      "cieux",
-      "verre",
-      "occupé",
-      "binaire",
-      "transylvanie",
-      "havresac"
-    ],
-    [
-      "faïence",
-      "porcelaine",
-      "comté",
-      "plastique",
-      "envergure",
-      "carillon"
-    ],
-    [
-      "biscuit",
-      "céréale",
-      "vaisselle",
-      "inspirer",
-      "asiatique",
-      "satisfait"
-    ],
-    [
-      "piémont",
       "soupe",
-      "canard",
-      "dragon",
-      "matin",
-      "profond"
+      "carriole",
+      "cuire",
+      "galoubet",
+      "ustensile",
+      "ménestrel"
+    ],
+    [
+      "raccourcir",
+      "psautier",
+      "excès",
+      "bizarre",
+      "nation",
+      "massue"
+    ],
+    [
+      "inox",
+      "inquiétant",
+      "potage",
+      "équivoque",
+      "suspicieux",
+      "denier"
+    ],
+    [
+      "invitation",
+      "cuillère",
+      "manche",
+      "Saint-Pierre",
+      "sauce",
+      "douteux"
+    ],
+    [
+      "gerbille",
+      "automne",
+      "bouillon",
+      "étrange",
+      "parachute",
+      "ciboule"
+    ],
+    [
+      "cuisine",
+      "démotique",
+      "encourager",
+      "végétal",
+      "servir",
+      "suspect"
     ]
   ],
   "rowClues": [
+    3,
+    1,
+    5,
     4,
     2,
-    1,
-    3,
-    3,
     3
   ],
   "colClues": [
-    2,
-    5,
-    2,
-    1,
     3,
-    3
+    2,
+    4,
+    3,
+    4,
+    2
   ],
-  "themeWord": "bol",
+  "themeWord": "louche",
   "solution": [
     [
       true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       false,
-      false,
+      true,
       true
     ],
     [
       false,
       false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
       false,
       false
     ],
     [
       true,
-      true,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -5,90 +5,144 @@
   "height": 7,
   "words": [
     [
-      "flamboyant",
-      "flétrir",
-      "romantique",
-      "malice",
-      "delaunay",
-      "cocon",
-      "dépérir"
+      "presse",
+      "Rembrandt",
+      "accuser",
+      "thème",
+      "hélicoptère",
+      "Peuls",
+      "encre"
     ],
     [
-      "épi",
-      "souffrir",
-      "amoureux",
-      "douloureux",
-      "discourir",
-      "prétentieux",
-      "panache"
+      "acide",
+      "fête",
+      "planche",
+      "doigts",
+      "discobole",
+      "Goya",
+      "chromosome"
     ],
     [
-      "gémir",
-      "galactique",
-      "récolte",
-      "rupture",
-      "minorité",
-      "siège",
-      "haillon"
+      "tirage",
+      "septum",
+      "pignon",
+      "Doré",
+      "eau-forte",
+      "burin",
+      "pis"
     ],
     [
-      "archaïque",
-      "innovation",
-      "patienter",
-      "compact",
-      "confier",
-      "sentimental",
-      "attente"
+      "combles",
+      "épreuve",
+      "épidémie",
+      "langer",
+      "illustration",
+      "oeil-de-boeuf",
+      "saisir"
     ],
     [
-      "soir",
-      "idoine",
-      "épuiser",
-      "mélancolie",
-      "sec",
-      "ouïe",
-      "jurassique"
+      "Rafiki",
+      "colonne",
+      "volière",
+      "EEG",
+      "intègre",
+      "aquatinte",
+      "estampe"
     ],
     [
-      "météorite",
-      "tonnerre",
-      "couronner",
-      "vigoureux",
-      "soupirer",
-      "recul",
-      "soutenu"
+      "Marmande",
+      "Dürer",
+      "sommelier",
+      "pédagogie",
+      "lessivage",
+      "soda",
+      "Zoroastre"
     ],
     [
-      "moule",
-      "gabriel",
-      "jogging",
-      "manque",
-      "tristesse",
-      "détourner",
-      "polyphonie"
+      "répondeur",
+      "taille-douce",
+      "cuivre",
+      "onyx",
+      "pointer",
+      "gorgé",
+      "lithographie"
     ]
   ],
   "rowClues": [
     3,
     3,
-    1,
     4,
     2,
-    2,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
-    4,
-    3,
     2,
     1,
     3
   ],
-  "themeWord": "languir",
+  "colClues": [
+    3,
+    4,
+    2,
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "gravure",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       true,
@@ -96,61 +150,7 @@
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

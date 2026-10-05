@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-29-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "repassage",
+      "comestible",
+      "mamelle",
+      "pédale",
+      "sablée",
+      "eucalyptus"
+    ],
+    [
+      "induction",
+      "four",
+      "design",
+      "âne",
+      "fraises",
+      "clafoutis"
+    ],
+    [
+      "Pasteur",
+      "photo",
+      "moule",
+      "Fécamp",
+      "brisée",
+      "Arras"
+    ],
+    [
+      "couvert",
+      "gorgée",
+      "dessert",
+      "casser",
+      "jaillir",
+      "pâtissier"
+    ],
+    [
+      "pommes",
+      "pioche",
+      "baffe",
+      "coupe-gorge",
+      "quiche",
+      "part"
+    ],
+    [
+      "norvégienne",
+      "citron",
+      "flan",
+      "Tatin",
+      "bouche",
+      "menu"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    1,
+    2,
+    4,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "tarte",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

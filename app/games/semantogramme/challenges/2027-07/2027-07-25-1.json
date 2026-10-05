@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-25-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ordonnance",
+      "pétale",
+      "stéthoscope",
+      "cabas"
+    ],
+    [
+      "hôpital",
+      "téléphone",
+      "consultation",
+      "malade"
+    ],
+    [
+      "blouse",
+      "généraliste",
+      "époux",
+      "Hippocrate"
+    ],
+    [
+      "meunier",
+      "cabinet",
+      "conversation",
+      "diagnostic"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "médecin",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

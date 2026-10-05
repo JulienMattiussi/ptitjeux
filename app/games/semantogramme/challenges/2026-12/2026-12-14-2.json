@@ -5,59 +5,66 @@
   "height": 5,
   "words": [
     [
-      "exploration",
-      "batterie",
-      "assaisonner",
-      "rouge",
-      "cabernet"
+      "girafe",
+      "vaste",
+      "immense",
+      "lessive",
+      "titan"
     ],
     [
-      "décoration",
-      "brûler",
-      "éternel",
-      "feu",
-      "cuillère"
+      "géant",
+      "single",
+      "crépusculaire",
+      "basketteur",
+      "Sixtine"
     ],
     [
-      "chaleur",
-      "potager",
-      "flamboyer",
-      "taillis",
-      "pieuvre"
+      "futur",
+      "haubans",
+      "hernie",
+      "gratte-ciel",
+      "sourdine"
     ],
     [
-      "résurrection",
-      "brasier",
-      "flamme",
-      "aile",
-      "majestueux"
+      "taille",
+      "Hemingway",
+      "gigantesque",
+      "colossal",
+      "énorme"
     ],
     [
-      "axe",
-      "épuiser",
-      "cendre",
-      "renaissance",
-      "samu"
+      "calmar",
+      "orphelin",
+      "adulte",
+      "haut",
+      "Goliath"
     ]
   ],
   "rowClues": [
-    1,
-    3,
+    4,
+    2,
     1,
     4,
-    2
+    3
   ],
   "colClues": [
+    3,
     1,
-    1,
+    3,
     4,
-    4,
-    1
+    3
   ],
-  "themeWord": "phénix",
+  "themeWord": "grand",
   "solution": [
     [
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
@@ -65,16 +72,9 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
-      false,
       false
     ],
     [
@@ -89,8 +89,8 @@
       false,
       true,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

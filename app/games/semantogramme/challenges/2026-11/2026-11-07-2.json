@@ -5,61 +5,75 @@
   "height": 5,
   "words": [
     [
-      "western",
-      "rouleau",
-      "plaie",
-      "beugler",
-      "chine"
+      "nièce",
+      "généalogie",
+      "lignée",
+      "oncle",
+      "nageur"
     ],
     [
-      "interminable",
-      "fluer",
-      "pleurote",
-      "résistant",
-      "laine"
+      "corniche",
+      "palais",
+      "grand-père",
+      "réunion",
+      "cajou"
     ],
     [
-      "coton",
-      "capteur",
-      "broder",
-      "russe",
-      "maille"
+      "inventaire",
+      "thermique",
+      "lointain",
+      "luminosité",
+      "lampadaire"
     ],
     [
-      "soie",
-      "épiler",
-      "boutonnière",
-      "souple",
-      "brailler"
+      "trafic",
+      "rênes",
+      "énergumène",
+      "correctif",
+      "tante"
     ],
     [
-      "avant",
-      "coudre",
-      "après-midi",
-      "fil",
-      "lin"
+      "germain",
+      "arbre",
+      "crèche",
+      "neveu",
+      "mariage"
     ]
   ],
   "rowClues": [
+    4,
+    2,
     1,
-    2,
-    3,
-    2,
-    3
+    1,
+    4
   ],
   "colClues": [
     2,
     2,
-    1,
     3,
-    3
+    3,
+    2
   ],
-  "themeWord": "tissu",
+  "themeWord": "cousin",
   "solution": [
     [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      true,
       false,
       false
     ],
@@ -67,30 +81,16 @@
       false,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true
     ],
     [
       true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

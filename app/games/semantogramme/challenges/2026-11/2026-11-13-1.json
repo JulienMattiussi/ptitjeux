@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "égalité",
-      "légume",
-      "cuire",
-      "étal"
+      "dos",
+      "crawl",
+      "lunettes",
+      "zoonose"
     ],
     [
-      "fleur",
-      "balance",
-      "fruit",
-      "leçon"
+      "brasse",
+      "cuisson",
+      "prune",
+      "nager"
     ],
     [
-      "durer",
-      "plastique",
-      "maraîcher",
-      "révolution"
+      "Byzance",
+      "Manaudou",
+      "papillon",
+      "piscine"
     ],
     [
-      "fromage",
-      "poésie",
-      "poisson",
-      "cabas"
+      "vitrail",
+      "bonnet",
+      "phoque",
+      "longueur"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    1,
-    3
-  ],
-  "colClues": [
-    2,
     2,
     3,
     2
   ],
-  "themeWord": "marché",
+  "colClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "natation",
   "solution": [
     [
-      false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       true
     ],
     [
+      false,
       true,
       true,
-      true,
-      false
+      true
     ],
     [
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      true,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

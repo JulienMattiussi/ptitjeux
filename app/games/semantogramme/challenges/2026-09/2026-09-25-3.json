@@ -5,78 +5,78 @@
   "height": 6,
   "words": [
     [
-      "plume",
-      "valider",
-      "stylo",
-      "jardin",
-      "engager",
-      "tonal"
+      "centre",
+      "tache",
+      "bortsch",
+      "inventeur",
+      "résister",
+      "mirabelle"
     ],
     [
-      "signature",
-      "artisanal",
-      "hachoir",
-      "haletant",
-      "salir",
-      "star"
+      "tubercule",
+      "répéter",
+      "Scarlatti",
+      "trapèze",
+      "Loire",
+      "fourragère"
     ],
     [
-      "apposer",
-      "forêt",
-      "sépale",
-      "uppercut",
-      "abat-jour",
-      "autographe"
+      "pourpre",
+      "logique",
+      "garçon",
+      "dépérir",
+      "rostre",
+      "illusionniste"
     ],
     [
-      "hacker",
-      "document",
-      "jeu",
-      "remettre",
-      "contrat",
-      "paraphe"
+      "mélasse",
+      "vinaigrette",
+      "Russie",
+      "Picardie",
+      "apathique",
+      "anticipation"
     ],
     [
-      "célèbre",
-      "agilité",
-      "dédicacer",
-      "tenailler",
-      "cerveau",
-      "authentifier"
+      "sucrière",
+      "pichet",
+      "respirer",
+      "Artois",
+      "colorant",
+      "Beauce"
     ],
     [
-      "trapu",
-      "euro",
-      "main",
-      "nom",
-      "perdant",
-      "fervente"
+      "hibou",
+      "salade",
+      "genoux",
+      "cuite",
+      "vrille",
+      "raffinerie"
     ]
   ],
   "rowClues": [
-    4,
     2,
     2,
+    1,
     4,
-    3,
-    2
+    4,
+    3
   ],
   "colClues": [
     4,
-    2,
     3,
     2,
-    2,
-    4
+    3,
+    1,
+    3
   ],
-  "themeWord": "signer",
+  "themeWord": "betterave",
   "solution": [
     [
-      true,
+      false,
       true,
       true,
       false,
-      true,
+      false,
       false
     ],
     [
@@ -93,32 +93,32 @@
       false,
       false,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
+      false
     ],
     [
       true,
-      false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

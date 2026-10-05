@@ -5,107 +5,83 @@
   "height": 6,
   "words": [
     [
-      "améthyste",
-      "éplucher",
-      "sandwich",
-      "inébranlable",
-      "bouteille",
-      "tranche"
+      "chasselas",
+      "nageoires",
+      "croiser",
+      "parterre",
+      "transpercer",
+      "Moïse"
     ],
     [
-      "cylindrique",
-      "tzatziki",
-      "rond",
-      "lapereau",
-      "commercialiser",
-      "jardin"
+      "parcourir",
+      "parabole",
+      "apnéiste",
+      "mercredi",
+      "piéton",
+      "battement"
     ],
     [
-      "eau",
-      "champion",
-      "guide",
-      "serre",
-      "brasser",
-      "vitamine"
+      "coulis",
+      "gué",
+      "clouté",
+      "Virginie",
+      "franchir",
+      "arrosage"
     ],
     [
-      "lactaire",
-      "rafraîchissant",
-      "modeste",
-      "respiration",
-      "imbiber",
-      "frais"
+      "lambin",
+      "bac",
+      "frontière",
+      "survoler",
+      "trois-mâts",
+      "détroit"
     ],
     [
-      "infecter",
-      "épépiner",
-      "télescopique",
-      "alexandrin",
-      "légume",
-      "risqué"
+      "douteux",
+      "gilet",
+      "charcuterie",
+      "impeccable",
+      "sillonner",
+      "Kabylie"
     ],
     [
-      "beethoven",
-      "fumée",
-      "long",
-      "cru",
-      "pain",
-      "monstre"
+      "isthme",
+      "aigrettes",
+      "sacristain",
+      "douves",
+      "savon",
+      "percer"
     ]
   ],
   "rowClues": [
     3,
+    2,
+    3,
     4,
-    2,
-    2,
-    2,
+    1,
     2
   ],
   "colClues": [
     2,
-    4,
-    3,
     2,
+    3,
     1,
+    4,
     3
   ],
-  "themeWord": "concombre",
+  "themeWord": "traverser",
   "solution": [
     [
       false,
-      true,
+      false,
       true,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      true,
-      false,
-      false,
       true
     ],
     [
       true,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
@@ -113,11 +89,35 @@
     ],
     [
       false,
-      false,
       true,
       true,
       false,
+      true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
   "parMoves": 15

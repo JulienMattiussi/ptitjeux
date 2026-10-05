@@ -5,60 +5,67 @@
   "height": 5,
   "words": [
     [
-      "précis",
-      "paraître",
-      "jour",
-      "payant",
-      "tactile"
+      "ferveur",
+      "gag",
+      "marine",
+      "attachement",
+      "Rémy"
     ],
     [
-      "stade",
-      "hiver",
-      "annuel",
-      "aliment",
-      "nuit"
+      "jetée",
+      "pèlerinage",
+      "sacrifice",
+      "endroit",
+      "tasse"
     ],
     [
-      "saison",
-      "télécharger",
-      "fêter",
-      "observer",
-      "été"
+      "miche",
+      "saint",
+      "fidélité",
+      "ex-voto",
+      "Lourdes"
     ],
     [
-      "astronomique",
-      "caresser",
-      "trapu",
-      "frigo",
-      "décembre"
+      "canari",
+      "radiographie",
+      "vénération",
+      "squat",
+      "agenouiller"
     ],
     [
-      "mélasse",
-      "cadre",
-      "lavoir",
-      "temps",
-      "symbolique"
+      "oubliette",
+      "piété",
+      "Lilliput",
+      "alerte",
+      "succès"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    2,
     4,
     2,
     1
   ],
   "colClues": [
-    3,
     1,
     3,
-    1,
-    4
+    3,
+    2,
+    2
   ],
-  "themeWord": "solstice",
+  "themeWord": "dévotion",
   "solution": [
     [
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false
@@ -67,30 +74,23 @@
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       false,
       true
     ],
     [
       false,
+      true,
       false,
       false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

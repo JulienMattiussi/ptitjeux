@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "garnir",
-      "manque",
-      "romain",
-      "oubli",
-      "égarement"
+      "Gauguin",
+      "montagne",
+      "moutons",
+      "verrier",
+      "signal"
     ],
     [
-      "givrer",
-      "avril",
-      "norvège",
-      "zodiacale",
-      "sacrifier"
+      "Goodyear",
+      "cétacé",
+      "Clouzot",
+      "fromage",
+      "bronches"
     ],
     [
-      "abandonner",
-      "transmettre",
-      "perte",
-      "multiplication",
-      "monnaie"
+      "houlette",
+      "milieu",
+      "transhumance",
+      "troupeau",
+      "panthère"
     ],
     [
-      "gaspiller",
-      "traverser",
-      "cupidité",
-      "perdant",
-      "invectiver"
+      "patou",
+      "flûte",
+      "Égypte",
+      "pâturage",
+      "bâton"
     ],
     [
-      "écho",
-      "échec",
-      "déception",
-      "césar",
-      "erreur"
+      "chien",
+      "cruciforme",
+      "meuble",
+      "agneau",
+      "suffrage"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     1,
-    2,
-    2,
-    3
+    3,
+    4,
+    2
   ],
   "colClues": [
+    3,
     2,
     2,
-    2,
-    2,
-    3
+    4,
+    1
   ],
-  "themeWord": "perdre",
+  "themeWord": "berger",
   "solution": [
     [
       false,
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false
     ],
     [
-      true,
+      false,
       false,
       false,
       true,
       false
     ],
     [
+      true,
       false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
+      true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

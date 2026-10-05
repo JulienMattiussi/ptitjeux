@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-15-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "échelle",
+      "sauveteur",
+      "camion",
+      "Carlos"
+    ],
+    [
+      "Pasquier",
+      "casque",
+      "lance",
+      "Arménie"
+    ],
+    [
+      "palmé",
+      "minuterie",
+      "feu",
+      "sirène"
+    ],
+    [
+      "sotte",
+      "luminescent",
+      "maire",
+      "brigade"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "pompier",
+  "solution": [
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

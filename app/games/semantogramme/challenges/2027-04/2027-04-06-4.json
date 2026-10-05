@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "contempler",
-      "repos",
-      "casse-croûte",
-      "crétois",
-      "tranquillité",
-      "enseignement",
-      "pondre"
+      "Ravel",
+      "danse",
+      "taloche",
+      "littoral",
+      "Tchaïkovski",
+      "bal",
+      "mandat"
     ],
     [
-      "familiale",
-      "matraquer",
-      "éloigné",
-      "paix",
-      "gants",
-      "polype",
-      "douceur"
+      "zéro",
+      "capituler",
+      "protecteur",
+      "Brel",
+      "trois",
+      "haler",
+      "tournoyer"
     ],
     [
-      "absolue",
-      "teckel",
-      "envoûtante",
-      "métaphysique",
-      "tousser",
-      "enclaver",
-      "calme"
+      "Vienne",
+      "seigneur",
+      "sumo",
+      "Renoir",
+      "charnière",
+      "Sissi",
+      "impact"
     ],
     [
-      "mail",
-      "éradiquer",
-      "apaiser",
-      "douleur",
-      "sérénité",
-      "profonde",
-      "obscur"
+      "preuve",
+      "musette",
+      "vertige",
+      "ternaire",
+      "Chopin",
+      "Woodstock",
+      "reine"
     ],
     [
-      "bien-être",
-      "paisible",
-      "fougue",
-      "régner",
-      "modèle",
-      "épancher",
-      "cognitive"
+      "révolution",
+      "salon",
+      "frisée",
+      "forêt",
+      "halogène",
+      "Aladin",
+      "Hawking"
     ],
     [
-      "béatitude",
-      "verdâtre",
-      "sapiens",
-      "tas",
-      "détergent",
-      "vinification",
-      "amasser"
+      "vérifier",
+      "retourner",
+      "Danube",
+      "lente",
+      "luxe",
+      "krill",
+      "effacer"
     ],
     [
-      "avocat",
-      "rhubarbe",
-      "parlement",
-      "silence",
-      "rameur",
-      "sereine",
-      "théâtral"
+      "polygone",
+      "labeur",
+      "Strauss",
+      "allongé",
+      "acrobatique",
+      "grandiose",
+      "accordéon"
     ]
   ],
   "rowClues": [
+    4,
     3,
     2,
-    2,
-    3,
-    3,
+    4,
     1,
+    2,
     2
   ],
   "colClues": [
-    4,
     2,
-    1,
     3,
-    2,
+    3,
+    3,
+    3,
     2,
     2
   ],
-  "themeWord": "quiétude",
+  "themeWord": "valse",
   "solution": [
     [
       true,
@@ -94,7 +94,7 @@
       false,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
@@ -102,7 +102,7 @@
       false,
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -112,45 +112,45 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "concept",
-      "idée",
-      "diriger",
-      "raisonnement"
+      "sauvignon",
+      "musette",
+      "bandoulière",
+      "poche"
     ],
     [
-      "grill",
-      "intuition",
-      "jugement",
-      "drap"
+      "cartable",
+      "fou",
+      "aubaine",
+      "Franche-Comté"
     ],
     [
-      "épaule",
-      "byzantin",
-      "créativité",
-      "royauté"
+      "Joker",
+      "Vuitton",
+      "poignée",
+      "fourre-tout"
     ],
     [
-      "analyse",
-      "peur",
-      "logique",
-      "tétine"
+      "cabas",
+      "fermeture",
+      "Bergues",
+      "besace"
     ]
   ],
   "rowClues": [
     3,
-    2,
     1,
-    2
+    3,
+    3
   ],
   "colClues": [
     2,
-    2,
     3,
-    1
+    2,
+    3
   ],
-  "themeWord": "pensée",
+  "themeWord": "sac",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
     [
       true,
       true,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

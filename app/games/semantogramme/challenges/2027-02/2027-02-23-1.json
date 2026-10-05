@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "panthère",
-      "basse",
-      "micro",
-      "oeuvre"
+      "homard",
+      "serrer",
+      "épigraphie",
+      "mâchoire"
     ],
     [
-      "chanteur",
-      "solo",
-      "concert",
-      "humérus"
+      "géodésique",
+      "cheveux",
+      "chakra",
+      "confession"
     ],
     [
-      "tribune",
-      "groupe",
-      "distorsion",
-      "amplificateur"
+      "Paganini",
+      "jungle",
+      "outil",
+      "Amiens"
     ],
     [
-      "scène",
-      "spacieux",
-      "transvaser",
-      "morceau"
+      "linge",
+      "tenaille",
+      "ligne",
+      "querelle"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    3,
+    1,
+    1,
     2
   ],
   "colClues": [
     2,
     3,
-    3,
-    2
+    1,
+    1
   ],
-  "themeWord": "rock",
+  "themeWord": "pince",
   "solution": [
     [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false
     ],
     [
       true,
       true,
-      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

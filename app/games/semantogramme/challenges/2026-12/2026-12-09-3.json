@@ -5,91 +5,107 @@
   "height": 6,
   "words": [
     [
-      "long",
-      "décrocher",
-      "pomme",
-      "nébuleuse",
-      "fouir",
-      "pêche"
+      "plumes",
+      "diatribe",
+      "store",
+      "artimon",
+      "modeler",
+      "volière"
     ],
     [
-      "lombric",
-      "allongé",
-      "soie",
-      "mou",
-      "pourriture",
-      "patin"
+      "ailleurs",
+      "pirate",
+      "Buffalo-Bill",
+      "crayon",
+      "Jacquot",
+      "prochain"
     ],
     [
-      "filleul",
-      "compost",
-      "parfumée",
-      "sou",
-      "ramper",
-      "morue"
+      "Warner",
+      "ara",
+      "cacatoès",
+      "tropical",
+      "Lavillenie",
+      "hotte"
     ],
     [
-      "creuser",
-      "remise",
-      "terre",
-      "brûlure",
-      "terme",
-      "mortel"
+      "perchoir",
+      "jungle",
+      "Elizabeth",
+      "Rio",
+      "Coco",
+      "cage"
     ],
     [
-      "circuler",
-      "cylindrique",
-      "parent",
-      "égoïne",
-      "horreur",
-      "royale"
+      "Amazonie",
+      "plèvre",
+      "Offenbach",
+      "prudent",
+      "bec",
+      "expert"
     ],
     [
-      "retourner",
-      "minuscule",
-      "parasite",
-      "remplissage",
-      "ondulé",
-      "rivet"
+      "imitation",
+      "imagerie",
+      "truand",
+      "perruche",
+      "répéter",
+      "zeppelin"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
+    3,
     5,
     2,
-    2,
-    1,
     3
   ],
   "colClues": [
+    4,
+    3,
+    1,
     3,
     4,
-    4,
-    1,
-    4,
-    1
+    2
   ],
-  "themeWord": "ver",
+  "themeWord": "perroquet",
   "solution": [
     [
       true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
       false,
       false,
       true,
@@ -98,24 +114,8 @@
     [
       true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       true,
       false
     ]

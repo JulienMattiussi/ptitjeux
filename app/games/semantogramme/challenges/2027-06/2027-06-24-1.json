@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "coup",
-      "carpe",
-      "ébahissement",
-      "irréel"
+      "rubis",
+      "studieux",
+      "feu",
+      "vague"
     ],
     [
-      "exceptionnel",
-      "étonnement",
-      "inattendu",
-      "rebondissement"
+      "chiffre",
+      "Caillebotte",
+      "Constantinople",
+      "cerise"
     ],
     [
-      "incroyable",
-      "tante",
-      "briquer",
-      "fouet"
+      "fraise",
+      "cardinal",
+      "meeting",
+      "clonage"
     ],
     [
-      "découverte",
-      "commencer",
-      "stupeur",
-      "choc"
+      "liquéfaction",
+      "carmin",
+      "pompier",
+      "plateau"
     ]
   ],
   "rowClues": [
     2,
-    3,
     1,
+    2,
     2
   ],
   "colClues": [
     2,
-    1,
-    3,
-    2
+    2,
+    2,
+    1
   ],
-  "themeWord": "surprise",
+  "themeWord": "rouge",
   "solution": [
     [
       true,
@@ -51,22 +51,22 @@
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       false
     ],
     [
       false,
-      false,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

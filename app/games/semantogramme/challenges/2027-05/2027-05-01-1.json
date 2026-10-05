@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "profondeur",
-      "poids",
-      "étanche",
-      "lustre"
+      "inhalateur",
+      "verre",
+      "assiette",
+      "laver"
     ],
     [
-      "corail",
-      "épave",
-      "combinaison",
-      "décoration"
+      "porcelaine",
+      "spécialiste",
+      "tamponner",
+      "Vinteuil"
     ],
     [
-      "oxygène",
-      "buse",
-      "raisin",
-      "index"
+      "hululer",
+      "interrompre",
+      "évier",
+      "olfactif"
     ],
     [
-      "témoin",
-      "tuba",
-      "fermenté",
-      "bouteille"
+      "liquide",
+      "égouttoir",
+      "Rimmel",
+      "sabre"
     ]
   ],
   "rowClues": [
-    1,
     3,
+    1,
     1,
     2
   ],
   "colClues": [
-    3,
     2,
-    1,
+    2,
+    2,
     1
   ],
-  "themeWord": "plongée",
+  "themeWord": "vaisselle",
   "solution": [
     [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      false,
+      true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
     ]
   ],
   "parMoves": 7

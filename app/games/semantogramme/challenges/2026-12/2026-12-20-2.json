@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "radieux",
-      "probe",
-      "cercueil",
-      "tramway",
-      "nocturne"
+      "légende",
+      "Boccherini",
+      "blason",
+      "ailes",
+      "déballer"
     ],
     [
-      "froncer",
-      "transylvanie",
-      "canine",
-      "cape",
-      "sang"
+      "chemise",
+      "hasard",
+      "monstre",
+      "créature",
+      "Grèce"
     ],
     [
-      "lune",
-      "armée",
-      "cassure",
-      "mordre",
-      "dracula"
+      "fabuleux",
+      "tradition",
+      "cassonade",
+      "serres",
+      "gardien"
     ],
     [
-      "fabriquer",
-      "sucer",
-      "irrigation",
-      "immortel",
-      "salle"
+      "héraldique",
+      "Hypnos",
+      "vibrations",
+      "acupuncture",
+      "gibecière"
     ],
     [
-      "chauve-souris",
-      "implorer",
-      "pâle",
-      "château",
-      "nuit"
+      "chimère",
+      "Gryffondor",
+      "bercer",
+      "Scrooge",
+      "mythologie"
     ]
   ],
   "rowClues": [
-    2,
-    4,
     3,
-    2,
-    4
+    3,
+    3,
+    1,
+    3
   ],
   "colClues": [
-    2,
+    4,
+    1,
     2,
     3,
-    4,
-    4
+    3
   ],
-  "themeWord": "vampire",
+  "themeWord": "griffon",
   "solution": [
     [
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
-      true,
+      false,
       false,
       true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

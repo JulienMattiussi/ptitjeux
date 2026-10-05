@@ -5,75 +5,91 @@
   "height": 6,
   "words": [
     [
-      "plateau",
-      "crucifère",
-      "seringue",
-      "kumquat",
-      "rapporter",
-      "tesselle"
+      "pharynx",
+      "pastille",
+      "porte",
+      "Padoue",
+      "endive",
+      "enfant"
     ],
     [
-      "griffes",
-      "colporter",
-      "maintenir",
-      "apporter",
-      "ode",
-      "visa"
+      "rougeur",
+      "retomber",
+      "gorge",
+      "étrille",
+      "placenta",
+      "fébrile"
     ],
     [
-      "archéologue",
-      "hisser",
-      "persan",
-      "détenir",
-      "discrétion",
-      "éthéré"
+      "suif",
+      "test",
+      "abondant",
+      "reptile",
+      "douleur",
+      "Laurel"
     ],
     [
-      "tenir",
-      "procureur",
-      "modem",
-      "frigorifique",
-      "effort",
-      "cent"
+      "chaudière",
+      "fièvre",
+      "streptocoque",
+      "amygdales",
+      "séduisant",
+      "voix"
     ],
     [
-      "épauler",
-      "beignet",
-      "larve",
-      "arborer",
-      "perle",
-      "transporter"
+      "inflammation",
+      "hip-hop",
+      "médecin",
+      "irritation",
+      "duper",
+      "suspense"
     ],
     [
-      "fardeau",
-      "branche",
-      "lait",
-      "manuelle",
-      "soutenir",
-      "sablière"
+      "millénaire",
+      "virus",
+      "fartage",
+      "toux",
+      "déglutition",
+      "aubaine"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     3,
     2,
-    2,
+    4,
     3,
-    2
+    3
   ],
   "colClues": [
+    3,
     4,
+    3,
+    3,
     2,
-    1,
-    3,
-    3,
-    1
+    3
   ],
-  "themeWord": "porter",
+  "themeWord": "angine",
   "solution": [
     [
       true,
+      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
@@ -83,30 +99,6 @@
       false,
       true,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       false,
       true
@@ -114,11 +106,19 @@
     [
       true,
       false,
+      true,
+      true,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      false,
+      true,
       true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

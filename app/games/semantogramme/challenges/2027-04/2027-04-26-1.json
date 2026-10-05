@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "grenier",
-      "ictère",
-      "conte",
-      "cocon"
+      "étape",
+      "maillot",
+      "grandir",
+      "peloton"
     ],
     [
-      "homme",
-      "cédrat",
-      "larve",
-      "chausson"
+      "vélo",
+      "moue",
+      "linguistique",
+      "sprint"
     ],
     [
-      "violon",
-      "fleur",
-      "ippon",
-      "aile"
+      "Ouranos",
+      "Tour",
+      "mandrill",
+      "bâiller"
     ],
     [
-      "chenille",
-      "underground",
-      "nectar",
-      "antenne"
+      "naturalisme",
+      "Alcatraz",
+      "pédaler",
+      "smoking"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    3,
     2,
-    3
+    1,
+    1
   ],
   "colClues": [
-    1,
-    1,
     2,
-    3
+    2,
+    1,
+    2
   ],
-  "themeWord": "papillon",
+  "themeWord": "cyclisme",
   "solution": [
     [
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
     ],
     [
       false,
       false,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 7

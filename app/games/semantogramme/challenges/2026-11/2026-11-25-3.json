@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "prier",
-      "rame",
-      "choeur",
-      "posologie",
-      "chorale",
-      "crémeux"
+      "écran",
+      "Switch",
+      "pupitre",
+      "Zelda",
+      "manette",
+      "Lisbonne"
     ],
     [
-      "liturgie",
-      "véranda",
-      "gizeh",
-      "sud",
-      "cadet",
-      "gâter"
+      "cancrelat",
+      "mixage",
+      "Karabatic",
+      "table",
+      "voler",
+      "retraite"
     ],
     [
-      "goéland",
-      "esthétique",
-      "chant",
-      "outrance",
-      "collectif",
-      "spirituel"
-    ],
-    [
-      "écossais",
-      "mississippi",
-      "louer",
-      "sacré",
-      "papillon",
-      "plane"
-    ],
-    [
-      "rédaction",
-      "éditorial",
-      "hibernation",
-      "extatique",
-      "chrétien",
-      "rave"
-    ],
-    [
-      "cèdre",
+      "PlayStation",
+      "calmar",
+      "meuble",
+      "épatant",
       "église",
-      "pissaladière",
-      "distance",
-      "passionné",
-      "noir"
+      "sénior"
+    ],
+    [
+      "commande",
+      "carotène",
+      "excursion",
+      "cartouche",
+      "Xbox",
+      "joueur"
+    ],
+    [
+      "Luxembourg",
+      "Atari",
+      "Mario",
+      "effacement",
+      "gloire",
+      "citerne"
+    ],
+    [
+      "dessalée",
+      "Sega",
+      "xylographie",
+      "Nintendo",
+      "Bengale",
+      "lasso"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    3,
-    3,
-    2,
-    3
-  ],
-  "colClues": [
+    5,
     2,
     2,
-    3,
-    3,
     4,
+    2,
     2
   ],
-  "themeWord": "gospel",
+  "colClues": [
+    3,
+    4,
+    3,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "console",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -84,14 +100,6 @@
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       true,
       true
     ],
@@ -99,26 +107,18 @@
       false,
       true,
       true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      false,
-      true,
-      true,
       false
     ],
     [
       false,
       true,
       false,
-      false,
       true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

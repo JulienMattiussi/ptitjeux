@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-08-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "reculer",
+      "continu",
+      "armoire",
+      "schiste"
+    ],
+    [
+      "commode",
+      "malhabile",
+      "volet",
+      "fenêtre"
+    ],
+    [
+      "pyjama",
+      "Berlioz",
+      "chevet",
+      "caleçon"
+    ],
+    [
+      "oreiller",
+      "lit",
+      "viole",
+      "couette"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "chambre",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

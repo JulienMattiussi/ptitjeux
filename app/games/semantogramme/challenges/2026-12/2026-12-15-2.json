@@ -5,84 +5,63 @@
   "height": 5,
   "words": [
     [
-      "égyptien",
-      "antique",
-      "gardien",
-      "lion",
-      "dresser"
+      "ovation",
+      "smash",
+      "chaussure",
+      "dribble",
+      "esquimau"
     ],
     [
-      "sage",
-      "extrémité",
-      "rempli",
-      "femme",
-      "londres"
+      "corbeau",
+      "spécimen",
+      "parquet",
+      "porche",
+      "terrain"
     ],
     [
-      "éolienne",
-      "pyramide",
-      "diadème",
-      "éradiquer",
-      "passer"
+      "crevaison",
+      "panier",
+      "Parker",
+      "pousse",
+      "Converse"
     ],
     [
-      "plisser",
-      "parti",
-      "garder",
-      "questionner",
-      "gigantesque"
+      "pataud",
+      "Jordan",
+      "NBA",
+      "Tatin",
+      "rebond"
     ],
     [
-      "chorégraphie",
-      "règle",
-      "mystérieux",
-      "mue",
-      "colossal"
+      "pivot",
+      "tennis",
+      "Vincennes",
+      "rutabaga",
+      "coupole"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    1,
     3,
-    2
-  ],
-  "colClues": [
-    1,
     2,
     3,
     3,
     2
   ],
-  "themeWord": "sphinx",
+  "colClues": [
+    1,
+    4,
+    4,
+    1,
+    3
+  ],
+  "themeWord": "basket",
   "solution": [
     [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
     ],
     [
       false,
@@ -90,7 +69,28 @@
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

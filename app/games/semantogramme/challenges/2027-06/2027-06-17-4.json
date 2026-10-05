@@ -5,95 +5,140 @@
   "height": 7,
   "words": [
     [
-      "voiture",
-      "sociale",
-      "urinaire",
-      "athlétisme",
-      "amplifier",
-      "comparée",
-      "picasso"
+      "langoustines",
+      "convaincu",
+      "cogito",
+      "obélisque",
+      "cape",
+      "vigneron",
+      "filtre"
     ],
     [
-      "culturelle",
-      "pirouetter",
-      "pulpeux",
-      "doublure",
-      "clairière",
-      "pédicure",
-      "observer"
+      "Spinoza",
+      "paysan",
+      "Descartes",
+      "incantation",
+      "vertige",
+      "plateau",
+      "inondation"
     ],
     [
-      "tacite",
-      "tournoi",
+      "clown",
+      "bissextile",
+      "empirisme",
+      "Bosch",
+      "certitude",
+      "meunier",
+      "silicone"
+    ],
+    [
+      "compassion",
+      "pattes",
+      "logique",
+      "Leibniz",
+      "évidence",
+      "courants",
+      "Hollywood"
+    ],
+    [
+      "Oscar",
+      "mathématique",
+      "crèche",
+      "démonstration",
+      "vinaigre",
+      "déduction",
+      "pantalon"
+    ],
+    [
+      "doute",
+      "entourer",
+      "Dalí",
+      "ordre",
+      "méthode",
+      "Lumières",
+      "parents"
+    ],
+    [
       "science",
-      "malinowski",
-      "mijoter",
-      "limpidité",
-      "curiosité"
-    ],
-    [
-      "rite",
-      "base",
-      "écart",
-      "livre",
-      "sonnette",
-      "tresse",
-      "tribu"
-    ],
-    [
-      "climat",
-      "lévi-strauss",
-      "dragon",
-      "coutume",
-      "pluton",
-      "étudier",
-      "lugubre"
-    ],
-    [
-      "salir",
-      "aloès",
-      "brûlure",
-      "glissant",
-      "physique",
-      "évolution",
-      "douleur"
-    ],
-    [
-      "homme",
-      "repaître",
-      "analyser",
-      "juteux",
-      "orientale",
-      "société",
-      "cavalier"
+      "malin",
+      "pizza",
+      "bille",
+      "papa",
+      "chasseuse",
+      "Kant"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    2,
-    3,
-    2,
-    3
-  ],
-  "colClues": [
-    3,
-    2,
-    2,
-    2,
     1,
+    2,
+    2,
+    3,
+    3,
     4,
     2
   ],
-  "themeWord": "anthropologie",
+  "colClues": [
+    3,
+    1,
+    4,
+    3,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "rationalisme",
   "solution": [
     [
       false,
+      false,
       true,
       false,
       false,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
       true,
       false
     ],
@@ -105,52 +150,7 @@
       false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

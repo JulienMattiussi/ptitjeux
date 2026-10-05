@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-21-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "Amérique",
+      "crise",
+      "ressentir",
+      "pessimisme"
+    ],
+    [
+      "guérite",
+      "héritière",
+      "Antarctique",
+      "carte"
+    ],
+    [
+      "Afrique",
+      "Océanie",
+      "pictogramme",
+      "globe"
+    ],
+    [
+      "Pangée",
+      "Ursula",
+      "Europe",
+      "plaque"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "continent",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

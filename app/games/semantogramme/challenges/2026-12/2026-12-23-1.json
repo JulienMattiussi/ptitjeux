@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "but",
-      "arbitre",
-      "athlète",
-      "corner"
+      "convertible",
+      "interdite",
+      "noyer",
+      "Saint-Lazare"
     ],
     [
-      "foudre",
-      "crampon",
-      "envergure",
-      "mèche"
+      "billet",
+      "voie",
+      "quai",
+      "atrium"
     ],
     [
-      "voltige",
-      "parure",
-      "défenseur",
-      "terrain"
+      "horaire",
+      "valise",
+      "encourager",
+      "SNCF"
     ],
     [
-      "carton",
-      "attaquant",
-      "gardien",
-      "fil"
+      "TGV",
+      "inattentif",
+      "Beyblade",
+      "Rigoletto"
     ]
   ],
   "rowClues": [
-    3,
     1,
-    2,
-    3
+    3,
+    3,
+    1
   ],
   "colClues": [
-    2,
     3,
     2,
+    1,
     2
   ],
-  "themeWord": "football",
+  "themeWord": "gare",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       false
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

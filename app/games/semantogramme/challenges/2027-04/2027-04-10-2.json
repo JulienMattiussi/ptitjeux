@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "algèbre",
-      "ride",
-      "réfléchir",
-      "alimentaire",
-      "frêne"
+      "s'aplatir",
+      "carbone",
+      "liaison",
+      "formule",
+      "structure"
     ],
     [
-      "moto",
-      "solution",
-      "résoudre",
-      "linéaire",
-      "développer"
+      "Wailers",
+      "anonyme",
+      "citrouille",
+      "Lavoisier",
+      "salé"
     ],
     [
-      "lever",
-      "simplifier",
-      "inconnue",
-      "démon",
-      "résolution"
+      "bourguignon",
+      "réaction",
+      "nostalgie",
+      "canidé",
+      "poussée"
     ],
     [
-      "chanson",
-      "sanctuaire",
-      "âme",
-      "mathématique",
-      "membre"
+      "chimie",
+      "ADN",
+      "Asie",
+      "ossuaire",
+      "atome"
     ],
     [
-      "cacahuète",
-      "variable",
-      "wagner",
-      "fossile",
-      "archive"
+      "oxygène",
+      "laboratoire",
+      "cacatois",
+      "médicament",
+      "tourbillon"
     ]
   ],
   "rowClues": [
-    1,
     4,
-    3,
-    2,
-    1
-  ],
-  "colClues": [
+    1,
     1,
     3,
-    2,
-    2,
     3
   ],
-  "themeWord": "équation",
+  "colClues": [
+    2,
+    4,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "molécule",
   "solution": [
     [
+      false,
       true,
+      true,
+      true,
+      true
+    ],
+    [
       false,
       false,
       false,
+      true,
       false
     ],
     [
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
       true,
+      false,
+      false,
       true
     ],
     [
-      false,
       true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

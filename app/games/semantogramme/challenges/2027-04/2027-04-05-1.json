@@ -5,50 +5,44 @@
   "height": 4,
   "words": [
     [
-      "dragon",
-      "sorcier",
-      "dégainer",
-      "mythe"
+      "Milan",
+      "rire",
+      "secrétaire",
+      "épaissir"
     ],
     [
-      "flirt",
-      "héros",
-      "tag",
-      "versant"
+      "théâtre",
+      "gag",
+      "attelage",
+      "discours"
     ],
     [
-      "magie",
-      "batterie",
-      "enchantement",
-      "roi"
+      "Molière",
+      "humour",
+      "scène",
+      "monarchie"
     ],
     [
-      "aventure",
-      "escalade",
-      "commémoration",
-      "épée"
+      "Érasme",
+      "immonde",
+      "Ionesco",
+      "sketch"
     ]
   ],
   "rowClues": [
-    3,
     1,
+    2,
     3,
-    2
+    1
   ],
   "colClues": [
-    3,
     2,
+    3,
     1,
-    3
+    1
   ],
-  "themeWord": "légende",
+  "themeWord": "comédie",
   "solution": [
-    [
-      true,
-      true,
-      false,
-      true
-    ],
     [
       false,
       true,
@@ -57,16 +51,22 @@
     ],
     [
       true,
-      false,
       true,
-      true
+      false,
+      false
     ],
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "matinale",
-      "incandescent",
-      "cendre",
-      "créateur"
+      "randonnée",
+      "pic",
+      "Puccini",
+      "guépard"
     ],
     [
-      "descendant",
-      "allumette",
-      "braise",
-      "ring"
+      "neige",
+      "luette",
+      "baveuse",
+      "glacier"
     ],
     [
-      "sourcil",
-      "fumée",
-      "persistant",
-      "brise"
+      "refuge",
+      "alpiniste",
+      "col",
+      "algue"
     ],
     [
-      "pompier",
-      "incendie",
-      "composé",
-      "flamme"
+      "Duchamp",
+      "sainte",
+      "mobiliser",
+      "sommet"
     ]
   ],
   "rowClues": [
-    1,
     2,
-    1,
-    3
-  ],
-  "colClues": [
-    1,
+    2,
     3,
-    2,
     1
   ],
-  "themeWord": "feu",
+  "colClues": [
+    3,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "montagne",
   "solution": [
     [
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false
     ],
     [
       true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-30-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "Pasteur",
+      "acidité",
+      "mutation",
+      "pirate",
+      "distillerie",
+      "Alcatraz"
+    ],
+    [
+      "variant",
+      "contagion",
+      "rhume",
+      "Corelli",
+      "anticorps",
+      "marcheur"
+    ],
+    [
+      "maroquinerie",
+      "people",
+      "grippe",
+      "s'attarder",
+      "pourfendre",
+      "Covid"
+    ],
+    [
+      "vaccin",
+      "groseille",
+      "affirmer",
+      "microbe",
+      "tissu",
+      "fièvre"
+    ],
+    [
+      "infection",
+      "informatique",
+      "quinquina",
+      "pandémie",
+      "épidémie",
+      "rébus"
+    ],
+    [
+      "archives",
+      "glissando",
+      "Arsène",
+      "joaillier",
+      "germe",
+      "structuralisme"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    3,
+    4,
+    1
+  ],
+  "colClues": [
+    4,
+    2,
+    3,
+    3,
+    3,
+    2
+  ],
+  "themeWord": "virus",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "chalut",
-      "torchis",
-      "opaque",
-      "nuit",
-      "métallique"
+      "goûter",
+      "feuille",
+      "garderie",
+      "après-midi",
+      "devoirs"
     ],
     [
-      "ombre",
-      "obscurcir",
-      "assombrir",
-      "tunnel",
-      "couture"
+      "tourner",
+      "incendie",
+      "tondeuse",
+      "cendres",
+      "conservatoire"
     ],
     [
-      "crépusculaire",
-      "pénombre",
-      "caverne",
-      "capteur",
-      "aiguisée"
+      "marteau",
+      "enfant",
+      "jour",
+      "sortie",
+      "aérosol"
     ],
     [
-      "ténèbres",
-      "gouffre",
-      "cadet",
-      "lugubre",
-      "brune"
+      "Fourier",
+      "tropical",
+      "activité",
+      "milieu",
+      "couronne"
     ],
     [
-      "noir",
-      "bandelette",
-      "grotte",
-      "licence",
-      "moisson"
+      "critiquer",
+      "hebdomadaire",
+      "bourgeon",
+      "vigie",
+      "chanterelle"
     ]
   ],
   "rowClues": [
-    2,
     4,
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
     3,
     4,
     2
   ],
-  "colClues": [
-    4,
-    3,
-    4,
-    3,
-    1
-  ],
-  "themeWord": "sombre",
+  "themeWord": "mercredi",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
-      false
+      true,
+      true,
+      true
     ],
     [
-      true,
-      true,
+      false,
+      false,
       false,
       true,
       true
     ],
     [
-      true,
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "liaison",
-      "agneau",
-      "honnêteté",
-      "proton",
-      "fondamental"
+      "ruisselant",
+      "patois",
+      "goût",
+      "beauté",
+      "lécher"
     ],
     [
-      "généreuse",
-      "lier",
-      "élémentaire",
-      "secret",
-      "instable"
+      "salive",
+      "parole",
+      "foin",
+      "vocabulaire",
+      "pellicule"
     ],
     [
-      "sphinx",
-      "orbitale",
-      "héros",
-      "chimie",
-      "molécule"
+      "encourager",
+      "accoudoir",
+      "grammaire",
+      "linguistique",
+      "bilingue"
     ],
     [
-      "électron",
-      "microscopique",
-      "radioactif",
-      "côtoyer",
-      "fourrer"
+      "inébranlable",
+      "Arche",
+      "sempiternel",
+      "rizière",
+      "dialecte"
     ],
     [
-      "arachnide",
-      "composer",
-      "temps",
-      "sommaire",
-      "écarlate"
+      "Molière",
+      "hippodrome",
+      "analogie",
+      "Licorne",
+      "idiome"
     ]
   ],
   "rowClues": [
     3,
     3,
     3,
-    3,
-    1
+    1,
+    2
   ],
   "colClues": [
     2,
-    4,
     2,
     2,
-    3
+    2,
+    4
   ],
-  "themeWord": "atome",
+  "themeWord": "langue",
   "solution": [
     [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       true,
       true,
@@ -71,26 +64,33 @@
       true
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       true,
       false,
+      true,
       false
     ],
     [
       false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

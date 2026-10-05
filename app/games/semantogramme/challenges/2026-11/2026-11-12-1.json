@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "plat",
-      "apéritif",
-      "crapaud",
-      "dessert"
+      "Millet",
+      "machette",
+      "liane",
+      "luxuriant"
     ],
     [
-      "culotte",
-      "tantine",
-      "table",
-      "menu"
+      "ébène",
+      "enrouleur",
+      "singe",
+      "Mowgli"
     ],
     [
-      "réglisse",
-      "carte",
-      "pneu",
-      "serveur"
+      "patou",
+      "tropical",
+      "aseptisé",
+      "Tarzan"
     ],
     [
-      "couvert",
-      "cuisinier",
-      "fait main",
-      "peine"
+      "moiteur",
+      "perroquet",
+      "Amazonie",
+      "blessure"
     ]
   ],
   "rowClues": [
     3,
     2,
     2,
-    2
-  ],
-  "colClues": [
-    2,
-    3,
-    1,
     3
   ],
-  "themeWord": "restaurant",
+  "colClues": [
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "jungle",
   "solution": [
     [
+      false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true
     ],
     [
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true
@@ -64,9 +64,9 @@
     [
       true,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

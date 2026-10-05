@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-11-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "page",
+      "répulsif",
+      "style",
+      "feuilleter",
+      "alphabet"
+    ],
+    [
+      "sultan",
+      "liseuse",
+      "lecteur",
+      "journal",
+      "sacrifice"
+    ],
+    [
+      "origine",
+      "bibliothèque",
+      "lecture",
+      "livre",
+      "lunettes"
+    ],
+    [
+      "son",
+      "roman",
+      "invasive",
+      "piano",
+      "déchiffrer"
+    ],
+    [
+      "sous-marin",
+      "parcourir",
+      "monisme",
+      "marque-page",
+      "girofle"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    4,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    4,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "lire",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 14
+}

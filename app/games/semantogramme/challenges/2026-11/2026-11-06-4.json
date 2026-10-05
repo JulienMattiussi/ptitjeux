@@ -5,92 +5,101 @@
   "height": 7,
   "words": [
     [
-      "bouddha",
-      "manger",
-      "transpercer",
-      "cédrat",
-      "planeur",
-      "paléontologue",
-      "manoeuvre"
+      "arachnide",
+      "entropie",
+      "civière",
+      "Verdi",
+      "patinoire",
+      "diabolo",
+      "projet"
     ],
     [
-      "carillon",
-      "duel",
-      "choquer",
-      "amusant",
-      "fil",
-      "gréement",
-      "caméra"
+      "travail",
+      "Boltzmann",
+      "brigade",
+      "palpitation",
+      "dominer",
+      "labour",
+      "physique"
     ],
     [
-      "logique",
-      "tabasser",
-      "phobie",
-      "cordée",
-      "voile",
-      "extravagant",
-      "territoire"
+      "pression",
+      "traboule",
+      "équilibre",
+      "bourricot",
+      "semonce",
+      "piston",
+      "rendement"
     ],
     [
-      "criminel",
-      "main",
-      "sans-réplique",
-      "pneumonie",
-      "rapide",
-      "escarpolette",
-      "orienter"
+      "phare",
+      "machine",
+      "garderie",
+      "Clausius",
+      "Joule",
+      "Immortels",
+      "énergie"
     ],
     [
-      "navigation",
-      "colonne",
-      "tirant",
-      "pénitence",
-      "descendre",
-      "michel-ange",
-      "amure"
+      "chaleur",
+      "cagnotte",
+      "Limbourg",
+      "gond",
+      "vapeur",
+      "cycle",
+      "possessif"
     ],
     [
-      "coussin",
-      "régler",
-      "galaxie",
-      "tranche",
-      "cordage",
-      "sonder",
-      "marine"
+      "ogre",
+      "anatomie",
+      "Titicaca",
+      "viaduc",
+      "incisif",
+      "Kelvin",
+      "Dixie"
     ],
     [
-      "idéalisme",
-      "digestion",
-      "glouton",
-      "gazouiller",
-      "tendre",
-      "border",
-      "tirage"
+      "pudique",
+      "moteur",
+      "Styx",
+      "joyaux",
+      "déjeuner",
+      "bielle",
+      "tropicale"
     ]
   ],
   "rowClues": [
     1,
     3,
-    2,
-    2,
+    4,
+    4,
     3,
-    3,
-    2
+    1,
+    1
   ],
   "colClues": [
+    3,
+    4,
     1,
     1,
     2,
-    1,
-    5,
-    2,
-    4
+    3,
+    3
   ],
-  "themeWord": "écoute",
+  "themeWord": "thermodynamique",
   "solution": [
     [
       false,
+      true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false,
@@ -98,9 +107,27 @@
       true
     ],
     [
+      true,
+      false,
+      true,
       false,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       true,
       true,
@@ -110,47 +137,20 @@
       false,
       false,
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false,
       false,
-      true
-    ],
-    [
       false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

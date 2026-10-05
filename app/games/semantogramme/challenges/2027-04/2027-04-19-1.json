@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "foudre",
-      "bambin",
-      "vent",
-      "pulsation"
+      "souffler",
+      "fête",
+      "fonder",
+      "gâteau"
     ],
     [
-      "détonation",
-      "rougeur",
-      "illumination",
-      "fille"
+      "âge",
+      "inonder",
+      "cadeau",
+      "bougies"
     ],
     [
-      "or",
-      "averse",
-      "tempête",
-      "éclair"
+      "université",
+      "Copacabana",
+      "surprise",
+      "carte"
     ],
     [
-      "rafale",
-      "tonnerre",
-      "sagaie",
-      "nuage"
+      "invités",
+      "surpasser",
+      "dromadaire",
+      "suffisance"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    3
+    3,
+    2,
+    1
   ],
   "colClues": [
     3,
+    1,
     2,
-    3,
-    2
+    3
   ],
-  "themeWord": "orage",
+  "themeWord": "anniversaire",
   "solution": [
     [
       true,
-      false,
       true,
-      false
+      false,
+      true
     ],
     [
       true,
       false,
       true,
-      false
+      true
     ],
     [
       false,
-      true,
+      false,
       true,
       true
     ],
     [
       true,
-      true,
       false,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

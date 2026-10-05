@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-17-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "pudeur",
+      "bourriche",
+      "surnaturel",
+      "tonitruant",
+      "grumeaux",
+      "escrimeur"
+    ],
+    [
+      "kamikaze",
+      "remords",
+      "faute",
+      "gêne",
+      "dromadaire",
+      "infâme"
+    ],
+    [
+      "clavecin",
+      "ésotérique",
+      "coupable",
+      "déshonneur",
+      "auteur",
+      "Annecy"
+    ],
+    [
+      "vagabond",
+      "rougir",
+      "Zorro",
+      "punition",
+      "forfait",
+      "tison"
+    ],
+    [
+      "penaud",
+      "scandaleux",
+      "mortifié",
+      "opprobre",
+      "embarrassé",
+      "Jean-Marc"
+    ],
+    [
+      "atrium",
+      "marathon",
+      "indigne",
+      "humilié",
+      "ajuster",
+      "postillon"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    2,
+    1,
+    5,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    4,
+    4,
+    1,
+    1
+  ],
+  "themeWord": "honteux",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

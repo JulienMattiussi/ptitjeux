@@ -5,74 +5,81 @@
   "height": 5,
   "words": [
     [
-      "pureté",
-      "brouillard",
-      "lourd",
-      "forêt",
-      "persistante"
+      "réchauffement",
+      "souffle",
+      "ci-gît",
+      "musc",
+      "bronche"
     ],
     [
-      "soupe",
-      "tapis",
-      "compact",
-      "longer",
-      "enfoncer"
+      "plèvre",
+      "tabac",
+      "calcaire",
+      "pneumonie",
+      "argument"
     ],
     [
-      "crème",
-      "massif",
-      "manteau",
-      "éléphant",
-      "dense"
+      "estoc",
+      "trésor",
+      "inspirer",
+      "site",
+      "côte"
     ],
     [
-      "briques",
-      "consistant",
-      "tressaillir",
-      "livre",
-      "matinale"
-    ],
-    [
-      "mur",
+      "tuberculose",
       "puce",
-      "engraisser",
-      "condenser",
-      "menacer"
+      "expirer",
+      "strate",
+      "thorax"
+    ],
+    [
+      "s'étioler",
+      "diaphragme",
+      "basculer",
+      "Comte",
+      "respirer"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    4,
     2,
-    3
+    3,
+    2,
+    3,
+    2
   ],
   "colClues": [
+    2,
     3,
-    4,
-    4,
-    3,
-    1
+    2,
+    1,
+    4
   ],
-  "themeWord": "épais",
+  "themeWord": "poumon",
   "solution": [
     [
       false,
       true,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ],
     [
-      true,
       true,
       true,
       false,
+      true,
       false
     ],
     [
+      false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       false,
       true
@@ -81,16 +88,9 @@
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

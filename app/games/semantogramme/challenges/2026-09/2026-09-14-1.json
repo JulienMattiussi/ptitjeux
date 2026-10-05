@@ -5,48 +5,60 @@
   "height": 4,
   "words": [
     [
-      "météorite",
-      "écureuil",
-      "gibier",
-      "champignon"
+      "secouer",
+      "coeur",
+      "pilon",
+      "soupente"
     ],
     [
-      "sentier",
-      "arbre",
-      "clairière",
-      "romarin"
+      "râteau",
+      "baiser",
+      "Cupidon",
+      "Saint-Valentin"
     ],
     [
-      "lichen",
-      "cidre",
-      "fougère",
-      "taillis"
+      "câlin",
+      "Whistler",
+      "Debord",
+      "passion"
     ],
     [
-      "hélice",
-      "coussin",
-      "teinture",
-      "mousse"
+      "Roméo",
+      "flèche",
+      "couple",
+      "clavier"
     ]
   ],
   "rowClues": [
+    1,
     3,
-    3,
-    3,
-    1
+    2,
+    3
   ],
   "colClues": [
     2,
-    2,
     3,
-    3
+    2,
+    2
   ],
-  "themeWord": "forêt",
+  "themeWord": "amour",
   "solution": [
     [
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       true
     ],
     [
@@ -54,19 +66,7 @@
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

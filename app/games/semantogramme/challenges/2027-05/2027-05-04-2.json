@@ -5,76 +5,69 @@
   "height": 5,
   "words": [
     [
-      "fourche",
-      "essuyer",
-      "antique",
-      "apaiser",
-      "carrelage"
+      "courses",
+      "irréductible",
+      "légumes",
+      "Lumières",
+      "magasin"
     ],
     [
-      "composer",
-      "médecine",
-      "fresque",
-      "année",
-      "tesselle"
+      "panier",
+      "shopping",
+      "verglas",
+      "dépenser",
+      "soldes"
     ],
     [
-      "pointes",
-      "pectorale",
-      "clavicule",
-      "cruel",
-      "décorer"
+      "confit",
+      "prix",
+      "marchand",
+      "contraction",
+      "Margherita"
     ],
     [
-      "cueillette",
-      "romain",
-      "marbre",
-      "enduit",
-      "aridité"
+      "caisse",
+      "luthier",
+      "œnophile",
+      "facture",
+      "mousquetaire"
     ],
     [
-      "byzantin",
-      "motif",
-      "carboniser",
-      "verre",
-      "assembler"
+      "DJ",
+      "sushi",
+      "payer",
+      "emplette",
+      "commande"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    1,
+    4,
     2,
-    4
+    2,
+    3
   ],
   "colClues": [
+    3,
     2,
     2,
     3,
-    1,
-    4
+    3
   ],
-  "themeWord": "mosaïque",
+  "themeWord": "acheter",
   "solution": [
     [
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
@@ -86,11 +79,18 @@
     ],
     [
       true,
-      true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

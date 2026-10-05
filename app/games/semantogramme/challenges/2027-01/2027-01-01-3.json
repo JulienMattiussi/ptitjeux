@@ -5,91 +5,107 @@
   "height": 6,
   "words": [
     [
-      "chaleur",
-      "avaler",
-      "fragment",
-      "farfadet",
-      "fièvre",
-      "ondulé"
+      "David",
+      "chevalet",
+      "celtique",
+      "arpège",
+      "Debussy",
+      "Gavroche"
     ],
     [
-      "pastille",
-      "enflammer",
-      "broderie",
-      "nouveau",
-      "boxe",
-      "fuji"
+      "trousseau",
+      "céleste",
+      "instrument",
+      "construction",
+      "indolent",
+      "Bretagne"
     ],
     [
-      "blanche",
-      "consulter",
-      "rude",
-      "révision",
-      "voter",
-      "gorge"
+      "lyre",
+      "ronronner",
+      "chaussons",
+      "car",
+      "sagaie",
+      "cordes"
     ],
     [
-      "défier",
-      "aiguë",
-      "amygdale",
-      "antibiotique",
-      "manque",
-      "virale"
+      "Thrace",
+      "pincer",
+      "Ra",
+      "accorder",
+      "guêpe",
+      "escarre"
     ],
     [
-      "héberger",
-      "coffre",
-      "gêne",
-      "triste",
-      "bactérienne",
-      "voilier"
+      "perforateur",
+      "former",
+      "glissando",
+      "focale",
+      "favorable",
+      "Irlande"
     ],
     [
-      "rouge",
-      "noire",
-      "athlétisme",
-      "streptocoque",
-      "pelouse",
-      "cyclisme"
+      "Parton",
+      "Stivell",
+      "pédales",
+      "matérialisme",
+      "doré",
+      "roseau"
     ]
   ],
   "rowClues": [
+    5,
+    3,
     2,
     2,
-    4,
-    4,
-    1,
-    2
+    2,
+    3
   ],
   "colClues": [
-    3,
+    2,
+    4,
     4,
     2,
     2,
-    2,
-    2
+    3
   ],
-  "themeWord": "angine",
+  "themeWord": "harpe",
   "solution": [
     [
-      false,
       true,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
+      false,
       true,
       true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       false,
       false
     ],
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false,
       false,
@@ -99,26 +115,10 @@
       false,
       true,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

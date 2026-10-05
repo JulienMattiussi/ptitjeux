@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-06-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "billes",
+      "supporter",
+      "clepsydre",
+      "galerie",
+      "Uber",
+      "massepain"
+    ],
+    [
+      "abri",
+      "Lascaux",
+      "toccata",
+      "banc",
+      "claque",
+      "fiscale"
+    ],
+    [
+      "guêpe",
+      "sablier",
+      "Mendeleïev",
+      "cloître",
+      "Pythagore",
+      "instituteur"
+    ],
+    [
+      "satire",
+      "élève",
+      "goûter",
+      "lacune",
+      "Thot",
+      "maternelle"
+    ],
+    [
+      "épier",
+      "surveillant",
+      "armure",
+      "curcuma",
+      "toit",
+      "récréation"
+    ],
+    [
+      "Cracovie",
+      "pluie",
+      "marelle",
+      "colonnes",
+      "distant",
+      "bénédicité"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    4,
+    1,
+    3
+  ],
+  "themeWord": "préau",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

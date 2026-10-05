@@ -5,61 +5,68 @@
   "height": 5,
   "words": [
     [
-      "écouter",
-      "choir",
-      "muscade",
-      "plonger",
-      "haletant"
+      "focaliser",
+      "enquête",
+      "Buridan",
+      "rachis",
+      "déprime"
     ],
     [
-      "pardessus",
-      "flot",
-      "chuter",
-      "harmonie",
-      "cassure"
+      "Corse",
+      "agrandir",
+      "détail",
+      "détective",
+      "urticaire"
     ],
     [
-      "atterrissage",
-      "punching-ball",
-      "culbute",
-      "dégringoler",
-      "gitane"
+      "pénible",
+      "enduire",
+      "bijoutier",
+      "hollandaise",
+      "exceptionnel"
     ],
     [
-      "précipice",
-      "s'effondrer",
-      "verglas",
-      "belote",
-      "paix"
+      "frileux",
+      "soleil",
+      "grossir",
+      "optique",
+      "microscope"
     ],
     [
-      "trébucher",
-      "gravité",
-      "pochoir",
-      "glisser",
-      "basculer"
+      "pendule",
+      "Brassens",
+      "lentille",
+      "indice",
+      "verre"
     ]
   ],
   "rowClues": [
     2,
-    1,
-    2,
     3,
-    4
+    1,
+    4,
+    3
   ],
   "colClues": [
-    2,
+    1,
     3,
+    4,
     3,
-    3,
-    1
+    2
   ],
-  "themeWord": "tomber",
+  "themeWord": "loupe",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       false
     ],
@@ -72,25 +79,18 @@
     ],
     [
       false,
-      false,
       true,
       true,
-      false
+      true,
+      true
     ],
     [
-      true,
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

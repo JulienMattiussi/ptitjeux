@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "bouffer",
-      "collation",
-      "thai",
-      "cannelle",
-      "safran"
+      "rendez-vous",
+      "sèche-linge",
+      "rôti",
+      "réveil",
+      "fuseau"
     ],
     [
-      "cumin",
-      "pimenter",
-      "pleutre",
-      "sonate",
-      "curry"
+      "thé",
+      "horloge",
+      "délice",
+      "retard",
+      "ponctuel"
     ],
     [
-      "binaire",
-      "matcha",
-      "corser",
-      "piquant",
-      "muscade"
+      "cou",
+      "Schopenhauer",
+      "seconde",
+      "sablier",
+      "tribal"
     ],
     [
-      "fort",
-      "clavicule",
-      "aromatique",
-      "grand-père",
-      "transmigrer"
+      "minuit",
+      "fanfaronnade",
+      "montre",
+      "Chaperon",
+      "horaire"
     ],
     [
-      "relever",
-      "poivre",
-      "assaisonner",
-      "internet",
-      "charme"
+      "aiguille",
+      "hévéa",
+      "cadran",
+      "midi",
+      "minute"
     ]
   ],
   "rowClues": [
-    2,
     3,
     3,
     2,
-    3
+    3,
+    4
   ],
   "colClues": [
     3,
-    2,
+    1,
     3,
-    2,
-    3
+    4,
+    4
   ],
-  "themeWord": "épicé",
+  "themeWord": "heure",
   "solution": [
     [
-      false,
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
+      false,
       true,
       true
     ],
     [
-      true,
+      false,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
-      false
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

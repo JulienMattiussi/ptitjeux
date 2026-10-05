@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "gaz",
-      "plancha",
-      "arbre",
-      "chagrin",
-      "oeufrier"
+      "météo",
+      "parabole",
+      "consultation",
+      "polar",
+      "station"
     ],
     [
-      "liège",
-      "tronc",
-      "sève",
-      "cannelle",
-      "brasse"
+      "Spoutnik",
+      "Terre",
+      "canari",
+      "faucheux",
+      "Galileo"
     ],
     [
-      "terre",
-      "python",
-      "arracher",
-      "craquelée",
-      "protectrice"
+      "lune",
+      "odeur",
+      "caddie",
+      "GPS",
+      "lancement"
     ],
     [
-      "sécurisé",
-      "fauve",
-      "école",
-      "cendre",
-      "rugosité"
+      "antenne",
+      "fusée",
+      "espace",
+      "Hubble",
+      "fantôme"
     ],
     [
-      "menaçant",
-      "parlement",
-      "épaisse",
-      "fibreuse",
-      "étage"
+      "cristallin",
+      "Aladdin",
+      "marimba",
+      "ménestrel",
+      "orbite"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     3,
-    2,
-    2
+    3,
+    3,
+    4,
+    1
   ],
   "colClues": [
-    1,
-    1,
     4,
-    4,
-    2
+    3,
+    1,
+    2,
+    4
   ],
-  "themeWord": "écorce",
+  "themeWord": "satellite",
   "solution": [
     [
+      true,
+      true,
       false,
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true
     ],
     [
+      true,
+      true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

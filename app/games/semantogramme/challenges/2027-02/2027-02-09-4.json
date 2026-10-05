@@ -5,101 +5,92 @@
   "height": 7,
   "words": [
     [
-      "oeuvre",
-      "évolution",
-      "éternel",
-      "bouclier",
-      "cénozoïque",
-      "défraîchir",
-      "voyance"
-    ],
-    [
-      "mammouth",
-      "mésozoïque",
-      "hubble",
-      "goldsworthy",
-      "maïs",
-      "os",
-      "déterminisme"
-    ],
-    [
-      "doberman",
-      "activité",
-      "tyrannosaure",
-      "reptile",
-      "lune",
-      "caverne",
-      "lombaire"
-    ],
-    [
-      "darwinien",
-      "jurassique",
-      "alzheimer",
-      "préhistoire",
-      "narrative",
-      "vacarme",
-      "extinction"
-    ],
-    [
-      "fumé",
-      "pose",
-      "climat",
-      "archéoptéryx",
-      "science",
-      "fossile",
-      "fronton"
-    ],
-    [
-      "dinosaure",
-      "visière",
-      "baudelaire",
-      "chantilly",
-      "propice",
-      "inconscient",
-      "zinc"
-    ],
-    [
-      "crétacé",
-      "fouilles",
-      "jalousie",
-      "sédimentation",
+      "chaud",
+      "présent",
+      "canal",
+      "vain",
+      "énigme",
       "bouillon",
-      "ontologique",
-      "jumeler"
+      "éloignement"
+    ],
+    [
+      "engueuler",
+      "expert",
+      "ramure",
+      "potage",
+      "accompli",
+      "gelée",
+      "Marceau"
+    ],
+    [
+      "gastronomie",
+      "Marennes",
+      "boeuf",
+      "Escoffier",
+      "trimer",
+      "volaille",
+      "bourdon"
+    ],
+    [
+      "skate",
+      "Springsteen",
+      "gratte-ciel",
+      "réduction",
+      "respirer",
+      "triangulation",
+      "seringue"
+    ],
+    [
+      "fumet",
+      "clarifié",
+      "moutarde",
+      "chef",
+      "viande",
+      "flaque",
+      "sophrologie"
+    ],
+    [
+      "maniéré",
+      "chance",
+      "silex",
+      "suites",
+      "acharné",
+      "Sicile",
+      "parfait"
+    ],
+    [
+      "virtuose",
+      "achevé",
+      "purger",
+      "froid",
+      "virus",
+      "impériale",
+      "Tamise"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    2,
     4,
-    3,
+    4,
+    1,
+    4,
     1,
     3
   ],
   "colClues": [
     4,
-    4,
+    3,
     1,
-    4,
+    5,
     2,
-    2,
+    3,
     1
   ],
-  "themeWord": "paléontologie",
+  "themeWord": "consommé",
   "solution": [
     [
-      false,
       true,
       false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       false,
@@ -108,8 +99,26 @@
     ],
     [
       false,
+      true,
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       false,
       false,
@@ -120,27 +129,18 @@
       true,
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       false,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
     ],
     [
       true,
@@ -152,5 +152,5 @@
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 19
 }

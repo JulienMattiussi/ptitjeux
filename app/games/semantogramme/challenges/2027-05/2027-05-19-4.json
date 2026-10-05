@@ -5,99 +5,90 @@
   "height": 7,
   "words": [
     [
-      "chapiteau",
-      "chaussure",
-      "salon",
-      "fronton",
-      "aérien",
-      "case",
-      "plancher"
+      "inéluctable",
+      "pointer",
+      "nécessité",
+      "guigne",
+      "recensement",
+      "Tefal",
+      "blé"
     ],
     [
-      "flèche",
-      "verjus",
-      "gracieux",
-      "cortège",
-      "orientale",
-      "diplôme",
-      "fainéant"
+      "floraison",
+      "tragédie",
+      "chance",
+      "grand-mère",
+      "sculpteur",
+      "glaive",
+      "oracle"
     ],
     [
-      "soupçonner",
-      "gothique",
-      "sciuridé",
-      "bienfaiteur",
-      "moral",
-      "élégant",
-      "église"
+      "Oedipe",
+      "fartage",
+      "Darwin",
+      "kiosque",
+      "smoking",
+      "fuite",
+      "hasard"
     ],
     [
-      "architecture",
-      "étalon",
-      "rectitude",
-      "ornement",
-      "collective",
-      "menaçant",
-      "décoratif"
+      "exposition",
+      "Lagaffe",
+      "Bundestag",
+      "Parques",
+      "Cassandre",
+      "malheur",
+      "souillé"
     ],
     [
-      "crête",
-      "élancé",
-      "éclairer",
-      "spirituelle",
-      "tour",
-      "soustraire",
-      "brie"
+      "beurre",
+      "malédiction",
+      "prédestination",
+      "Forêt-Noire",
+      "incontestable",
+      "diffus",
+      "Zénon"
     ],
     [
-      "pinacle",
-      "médiéval",
-      "rarissime",
-      "vaporeux",
-      "taquet",
-      "pointu",
-      "reproche"
+      "pic",
+      "galop",
+      "Brocéliande",
+      "inévitable",
+      "danser",
+      "missel",
+      "Baez"
     ],
     [
-      "fin",
-      "consoler",
-      "dresser",
-      "élever",
-      "petit",
-      "muscler",
-      "dattier"
+      "anglaise",
+      "Moires",
+      "caribou",
+      "Bourget",
+      "karma",
+      "profiter",
+      "ring"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    2,
+    3,
+    2,
     1,
-    2,
-    3,
-    3,
-    2,
-    3,
-    4
-  ],
-  "colClues": [
-    4,
-    3,
-    2,
-    2,
-    3,
-    2,
     2
   ],
-  "themeWord": "clocheton",
+  "colClues": [
+    2,
+    3,
+    3,
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "fatalité",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
@@ -109,48 +100,57 @@
     [
       false,
       true,
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       true
     ],
     [
       true,
       false,
       false,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false,
-      false,
       true,
       false
     ],
     [
-      true,
       false,
       true,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

@@ -5,69 +5,69 @@
   "height": 5,
   "words": [
     [
-      "ennui",
-      "vision",
-      "percuter",
-      "mot",
-      "gouttelette"
+      "baleine",
+      "titanesque",
+      "univers",
+      "gigantesque",
+      "ergoter"
     ],
     [
-      "causer",
-      "bavarder",
-      "organisme",
-      "monologue",
-      "éloquence"
+      "Salomé",
+      "Fables",
+      "infini",
+      "Schumann",
+      "désert"
     ],
     [
-      "parole",
-      "palabrer",
-      "parrain",
-      "dialogue",
-      "discours"
+      "colossal",
+      "énorme",
+      "absorber",
+      "montagne",
+      "fanal"
     ],
     [
-      "conversation",
-      "voix",
-      "manguier",
-      "couloir",
-      "caractériser"
+      "Rostropovitch",
+      "badigeonner",
+      "GPS",
+      "danse",
+      "pharaonique"
     ],
     [
-      "astéroïde",
-      "verbiage",
-      "langue",
-      "phrase",
-      "discuter"
+      "galaxie",
+      "technologie",
+      "hydratation",
+      "atrium",
+      "démesuré"
     ]
   ],
   "rowClues": [
-    1,
-    4,
     4,
     2,
-    4
+    3,
+    1,
+    1
   ],
   "colClues": [
-    3,
-    4,
-    1,
-    4,
+    2,
+    2,
+    2,
+    2,
     3
   ],
-  "themeWord": "parler",
+  "themeWord": "immense",
   "solution": [
     [
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false
     ],
     [
-      true,
-      true,
+      false,
       false,
       true,
+      false,
       true
     ],
     [
@@ -75,22 +75,22 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

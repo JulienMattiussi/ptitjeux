@@ -5,95 +5,140 @@
   "height": 7,
   "words": [
     [
-      "hélice",
-      "étalage",
-      "composition",
-      "leçon",
-      "chanter",
-      "sentiment",
-      "soliste"
+      "échographie",
+      "fidèle",
+      "rayé",
+      "printemps",
+      "Scrat",
+      "fleurette",
+      "Baudelaire"
     ],
     [
-      "ronron",
-      "ruban",
-      "spaghetti",
-      "bach",
-      "thémis",
-      "tracteur",
-      "pont-levis"
+      "souvenir",
+      "surf",
+      "tante",
+      "construire",
+      "style",
+      "rive",
+      "humanoïde"
     ],
     [
-      "kirchner",
-      "synapse",
-      "tourterelle",
-      "italien",
-      "orchestre",
-      "danseur",
-      "révision"
+      "promesse",
+      "discrétion",
+      "noyade",
+      "Capri",
+      "écaille",
+      "sous-bois",
+      "forain"
     ],
     [
-      "bâiller",
-      "profane",
-      "musique",
-      "viognier",
-      "embellir",
-      "récitatif",
-      "cimetière"
+      "germination",
+      "festin",
+      "oubli",
+      "olive",
+      "boisson",
+      "rocaille",
+      "signe"
     ],
     [
-      "religieux",
-      "pagaie",
-      "tremplin",
-      "allemand",
-      "territoire",
-      "interpréter",
-      "courge"
+      "partager",
+      "assemblage",
+      "déambulatoire",
+      "Pompéi",
+      "messager",
+      "cordée",
+      "bande"
     ],
     [
-      "baroque",
-      "copier",
-      "aloès",
-      "verrue",
-      "aria",
-      "classique",
-      "sacrée"
+      "Sagittaire",
+      "habitus",
+      "Alpes",
+      "sentimental",
+      "foncer",
+      "cauchemar",
+      "jardinière"
     ],
     [
-      "choeur",
-      "averse",
-      "narrative",
-      "meurtre",
-      "viande",
-      "horreur",
-      "pénétrant"
+      "penalty",
+      "ajourner",
+      "bulles",
+      "Allemagne",
+      "original",
+      "gène",
+      "interprète"
     ]
   ],
   "rowClues": [
     3,
+    2,
+    4,
+    2,
     1,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
     2,
     3,
     3,
-    4,
-    2
-  ],
-  "colClues": [
-    3,
     1,
-    3,
-    3,
-    3,
-    3,
-    2
+    4,
+    1
   ],
-  "themeWord": "cantate",
+  "themeWord": "myosotis",
   "solution": [
     [
       false,
-      false,
       true,
       false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
       false,
       true
     ],
@@ -102,55 +147,10 @@
       false,
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

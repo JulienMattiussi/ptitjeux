@@ -5,100 +5,76 @@
   "height": 6,
   "words": [
     [
-      "enlacer",
-      "lisser",
-      "croire",
-      "choyer",
-      "frôler",
-      "chameau"
+      "clairvoyance",
+      "assurance",
+      "aérosol",
+      "vacuité",
+      "thon",
+      "gêneur"
     ],
     [
-      "doublure",
-      "rivaliser",
-      "effleurer",
-      "masser",
-      "fâcher",
-      "cajoler"
+      "loupe",
+      "bronches",
+      "carillon",
+      "rodéo",
+      "ronchon",
+      "pneumologue"
     ],
     [
-      "garde",
-      "mousaka",
-      "seigneur",
-      "faucon",
-      "cadrage",
-      "palper"
+      "Ventoline",
+      "tuyau",
+      "sport",
+      "inhalateur",
+      "acariens",
+      "allergie"
     ],
     [
-      "flatter",
-      "orner",
-      "destin",
-      "conseiller",
-      "support",
-      "panorama"
+      "spécimen",
+      "hanter",
+      "oppression",
+      "sécréter",
+      "poumons",
+      "toux"
     ],
     [
-      "fièvre",
-      "tendresse",
-      "douceur",
-      "félicitation",
-      "fourrure",
-      "tatouer"
+      "macaron",
+      "Limoges",
+      "Niger",
+      "dégustation",
+      "Nice",
+      "spray"
     ],
     [
-      "transformer",
-      "dorloter",
-      "bénitier",
-      "pédalier",
-      "protéine",
-      "velours"
+      "artillerie",
+      "classique",
+      "pollen",
+      "ringard",
+      "obus",
+      "respiration"
     ]
   ],
   "rowClues": [
-    4,
+    1,
+    2,
+    5,
     3,
     1,
-    1,
-    4,
     2
   ],
   "colClues": [
+    1,
+    1,
+    4,
+    1,
     2,
-    3,
-    2,
-    2,
-    2,
-    4
+    5
   ],
-  "themeWord": "caresser",
+  "themeWord": "asthme",
   "solution": [
     [
-      true,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false,
       false
@@ -106,6 +82,22 @@
     [
       false,
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true,
@@ -113,12 +105,20 @@
     ],
     [
       false,
-      true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

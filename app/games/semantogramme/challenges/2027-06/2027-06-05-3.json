@@ -5,85 +5,93 @@
   "height": 6,
   "words": [
     [
-      "lugubre",
-      "blague",
-      "diligent",
-      "travailler",
-      "graphisme",
-      "énergie"
+      "Tefal",
+      "insignifiant",
+      "divisionnisme",
+      "Russie",
+      "ronce",
+      "poivre"
     ],
     [
-      "incapable",
-      "occupé",
-      "dynamisme",
-      "casquette",
-      "fascinant",
-      "cacher"
+      "mordant",
+      "château",
+      "pointu",
+      "Grimm",
+      "aiguille",
+      "expression"
     ],
     [
-      "sanguinaire",
-      "rincer",
-      "reposer",
-      "vif",
-      "cicatrice",
-      "jointure"
+      "cactus",
+      "épicé",
+      "athlète",
+      "hérisson",
+      "adulateur",
+      "embrun"
     ],
     [
-      "sportif",
-      "consoler",
-      "infatigable",
-      "ennui",
-      "fumier",
-      "bouger"
+      "Versailles",
+      "condamné",
+      "couler",
+      "agonir",
+      "acéré",
+      "porc-épic"
     ],
     [
-      "pourfendre",
-      "octobre",
-      "boucan",
-      "efficace",
-      "joyeux",
-      "zélé"
+      "piment",
+      "fort",
+      "télescope",
+      "carence",
+      "biche",
+      "boisson"
     ],
     [
-      "productif",
-      "désirer",
-      "effrayer",
-      "entreprenant",
-      "mouvement",
-      "alerte"
+      "poudre",
+      "laisser",
+      "épine",
+      "relevé",
+      "caustique",
+      "cristaux"
     ]
   ],
   "rowClues": [
+    2,
+    3,
     3,
     2,
-    1,
-    3,
     2,
-    4
+    3
   ],
   "colClues": [
-    2,
-    1,
     3,
+    2,
+    2,
+    2,
     4,
-    1,
-    4
+    2
   ],
-  "themeWord": "actif",
+  "themeWord": "piquant",
   "solution": [
     [
       false,
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       true
     ],
     [
+      true,
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
       false,
+      true,
       false,
       false
     ],
@@ -91,33 +99,25 @@
       false,
       false,
       false,
+      false,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       false,
       false
     ],
     [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
       true,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 15

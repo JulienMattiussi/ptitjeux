@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-13-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "trappeur",
+      "désastre",
+      "Bocuse",
+      "refuge",
+      "abri"
+    ],
+    [
+      "miche",
+      "divin",
+      "carême",
+      "Belem",
+      "planche"
+    ],
+    [
+      "Ysengrin",
+      "tracteur",
+      "Robinson",
+      "passe",
+      "sentence"
+    ],
+    [
+      "chalet",
+      "aisé",
+      "échelle",
+      "hutte",
+      "construire"
+    ],
+    [
+      "pêcheur",
+      "toit",
+      "cachette",
+      "bidonville",
+      "gerbe"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    1,
+    4,
+    4
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "cabane",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

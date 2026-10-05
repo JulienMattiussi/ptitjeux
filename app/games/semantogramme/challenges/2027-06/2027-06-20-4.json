@@ -5,130 +5,112 @@
   "height": 7,
   "words": [
     [
-      "sommaire",
-      "messe",
-      "marchandise",
-      "russule",
-      "mozart",
+      "pigeon",
+      "appeler",
+      "provocation",
+      "huitième",
+      "badaud",
+      "pétanque",
+      "trouble"
+    ],
+    [
+      "égalité",
+      "apéritif",
+      "Provence",
+      "anis",
+      "embué",
+      "patron",
+      "paternité"
+    ],
+    [
+      "louche",
+      "cadrage",
+      "plafonnier",
+      "ruminer",
+      "fenouil",
+      "flageolet",
+      "réglisse"
+    ],
+    [
+      "feuilletée",
       "loyal",
-      "week-end"
+      "vivipare",
+      "Midi",
+      "proéminent",
+      "Pagnol",
+      "crédit"
     ],
     [
-      "kyrie",
-      "choeur",
-      "désirer",
-      "saturne",
-      "verdi",
-      "sanctus",
-      "courge"
+      "cigales",
+      "Olympe",
+      "questionnement",
+      "interro",
+      "remaniement",
+      "pisciculture",
+      "printanier"
     ],
     [
-      "fauré",
-      "soliste",
-      "agnus",
-      "défunt",
-      "tambour",
-      "composer",
-      "ruine"
+      "pendante",
+      "scaphandre",
+      "glaçon",
+      "jaune",
+      "tomate",
+      "laine",
+      "Pernod"
     ],
     [
-      "prix",
-      "serpent",
-      "oxyder",
-      "carmin",
-      "bloc",
-      "introit",
-      "ré"
-    ],
-    [
-      "bossu",
-      "maudire",
-      "spot",
-      "orchestre",
-      "liturgie",
-      "borgne",
-      "musique"
-    ],
-    [
-      "informel",
-      "mucus",
-      "soeur",
-      "bavarder",
-      "lacrimosa",
-      "religieux",
-      "crédulité"
-    ],
-    [
-      "dies-irae",
-      "gastrique",
-      "distinguer",
-      "internet",
-      "radieux",
-      "solennel",
-      "cuivre"
+      "feldspath",
+      "joyaux",
+      "mauresque",
+      "Ricard",
+      "Marseille",
+      "fabriquer",
+      "refroidir"
     ]
   ],
   "rowClues": [
     2,
-    4,
-    5,
-    1,
+    3,
     3,
     2,
-    2
+    1,
+    4,
+    3
   ],
   "colClues": [
-    3,
-    3,
-    1,
     2,
+    1,
+    3,
     4,
-    5,
-    1
+    3,
+    2,
+    3
   ],
-  "themeWord": "requiem",
+  "themeWord": "pastis",
   "solution": [
     [
       false,
-      true,
+      false,
+      false,
       false,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       true,
       false,
       true
@@ -137,8 +119,8 @@
       false,
       false,
       false,
-      false,
       true,
+      false,
       true,
       false
     ],
@@ -148,9 +130,27 @@
       false,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 18
 }

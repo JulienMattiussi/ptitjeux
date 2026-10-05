@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-16-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "atchoum",
+      "ébène",
+      "salière",
+      "européen",
+      "filet",
+      "chambre"
+    ],
+    [
+      "noeud",
+      "Résistance",
+      "coccinelle",
+      "gousset",
+      "toile",
+      "web"
+    ],
+    [
+      "social",
+      "préhistoire",
+      "ronronner",
+      "compte",
+      "funiculaire",
+      "marcher"
+    ],
+    [
+      "connexion",
+      "partenaire",
+      "serveur",
+      "wifi",
+      "s'aplatir",
+      "algues"
+    ],
+    [
+      "câble",
+      "entier",
+      "cassoulet",
+      "raisin",
+      "fumeux",
+      "clandestin"
+    ],
+    [
+      "routeur",
+      "brute",
+      "lien",
+      "ferroviaire",
+      "internet",
+      "pâlir"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    5,
+    1,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "réseau",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 15
+}

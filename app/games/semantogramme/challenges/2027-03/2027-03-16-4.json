@@ -5,80 +5,80 @@
   "height": 7,
   "words": [
     [
-      "pose",
-      "eau",
-      "transparence",
-      "kupka",
-      "dollar",
-      "fauré",
-      "démouler"
+      "extinction",
+      "excavation",
+      "dodo",
+      "préhistoire",
+      "bracelet",
+      "entremets",
+      "alpe"
     ],
     [
-      "surgir",
-      "soudain",
-      "métaphysique",
-      "prier",
-      "rapacité",
-      "aiguisé",
-      "enchaîner"
+      "cartésien",
+      "infirmière",
+      "fatal",
+      "farine",
+      "rythme",
+      "squelette",
+      "déshonneur"
     ],
     [
+      "Jurassique",
+      "pragmatisme",
+      "os",
+      "muséum",
+      "Raiponce",
+      "reflets",
+      "rancoeur"
+    ],
+    [
+      "approfondir",
+      "Lucy",
+      "fourmi",
+      "intelligente",
+      "ambre",
+      "vocabulaire",
+      "short"
+    ],
+    [
+      "ammonite",
+      "mammouth",
+      "remblai",
+      "Garnier",
+      "aisé",
       "imprenable",
-      "mémorial",
-      "élégant",
-      "sol",
-      "archaïque",
-      "rocher",
-      "venir"
+      "fouille"
     ],
     [
-      "paradoxe",
-      "source",
-      "renaissance",
-      "orange",
-      "régional",
-      "infini",
-      "avaler"
+      "scintiller",
+      "Lisbonne",
+      "tendresse",
+      "eucharistie",
+      "empreinte",
+      "évolution",
+      "Delphes"
     ],
     [
-      "dériver",
-      "imperceptible",
-      "pansement",
-      "bave",
-      "brochette",
-      "flaque",
-      "mat"
-    ],
-    [
-      "lapis",
-      "rage",
-      "littéraire",
-      "émaner",
-      "spontané",
-      "naturel",
-      "rusé"
-    ],
-    [
-      "jaillir",
-      "latitude",
-      "fourrure",
-      "orbite",
-      "naître",
-      "apparaître",
-      "peinture"
+      "sarrasin",
+      "Coppens",
+      "trilobite",
+      "causes",
+      "Cuvier",
+      "dinosaure",
+      "erg"
     ]
   ],
   "rowClues": [
+    3,
     1,
+    3,
     2,
-    5,
-    1,
-    1,
-    4,
-    3
+    3,
+    2,
+    4
   ],
   "colClues": [
-    2,
+    3,
     4,
     2,
     2,
@@ -86,14 +86,41 @@
     3,
     1
   ],
-  "themeWord": "sourdre",
+  "themeWord": "paléontologie",
   "solution": [
     [
+      true,
+      true,
       false,
       true,
       false,
       false,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
       false,
       false
     ],
@@ -104,53 +131,26 @@
       false,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true,
       true
     ],
     [
       false,
-      true,
       false,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       true,
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

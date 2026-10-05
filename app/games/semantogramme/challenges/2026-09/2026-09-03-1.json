@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "miniature",
-      "électricien",
-      "dentiste",
-      "accordéon"
+      "tonte",
+      "troupeau",
+      "chalet",
+      "brebis"
     ],
     [
-      "plombier",
-      "épeler",
-      "acteur",
-      "réalisateur"
+      "laine",
+      "trajectoire",
+      "Dolly",
+      "cuve"
     ],
     [
-      "pompier",
-      "instituteur",
-      "quai",
-      "chariot"
+      "match",
+      "transhumance",
+      "chevelure",
+      "agneau"
     ],
     [
-      "ingénieur",
-      "infirmier",
-      "marée",
-      "comédien"
+      "mort-vivant",
+      "bêler",
+      "bélier",
+      "alphabet"
     ]
   ],
   "rowClues": [
-    2,
     3,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
-    3,
+    2,
     3,
     2,
     2
   ],
-  "themeWord": "métier",
+  "themeWord": "mouton",
   "solution": [
     [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

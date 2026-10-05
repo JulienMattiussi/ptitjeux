@@ -5,92 +5,110 @@
   "height": 7,
   "words": [
     [
-      "grand-père",
-      "avion",
-      "cent",
-      "agam",
-      "hisser",
-      "ring",
-      "manucure"
+      "festin",
+      "bourguignonne",
+      "Latour",
+      "dieu",
+      "laisse",
+      "Vigée-Lebrun",
+      "rappel"
     ],
     [
-      "tournoyer",
-      "serval",
-      "lob",
-      "capitale",
-      "mai-68",
-      "observer",
-      "poule"
+      "Lauragais",
+      "Chardin",
+      "pâle",
+      "découvrir",
+      "agrume",
+      "Cocagne",
+      "Riviera"
     ],
     [
-      "couler",
-      "évincer",
-      "airelle",
-      "spirale",
-      "art",
-      "soprano",
-      "consoler"
+      "atomique",
+      "scribe",
+      "pub",
+      "Toulouse",
+      "sacre",
+      "apathique",
+      "Gesualdo"
     ],
     [
-      "attirance",
-      "percevoir",
-      "parasol",
-      "conclusion",
-      "caduque",
-      "cuire",
-      "spectateur"
+      "traversière",
+      "Albi",
+      "craie",
+      "paon",
+      "tomber",
+      "Navajo",
+      "bile"
     ],
     [
-      "cartilage",
-      "ample",
-      "effacement",
-      "vasarely",
-      "rotation",
-      "geler",
-      "effondrer"
+      "Machaut",
+      "estompe",
+      "tonalité",
+      "sanguine",
+      "hébergeur",
+      "fixatif",
+      "bleu"
     ],
     [
-      "physionomie",
-      "soutien-gorge",
-      "mouvement",
-      "lumière",
-      "nier",
-      "router",
-      "tulipe"
+      "nucléaire",
+      "Degas",
+      "doublage",
+      "plumes",
+      "tortillon",
+      "fusain",
+      "vigile"
     ],
     [
-      "illusion",
-      "vibrer",
-      "géométrique",
-      "dynamique",
-      "vénus",
-      "confondre",
-      "gélule"
+      "guède",
+      "général",
+      "Darjeeling",
+      "pôle",
+      "traîneau",
+      "Gizeh",
+      "variant"
     ]
   ],
   "rowClues": [
+    2,
+    4,
     1,
     2,
-    2,
-    2,
-    2,
-    2,
-    4
+    5,
+    3,
+    1
   ],
   "colClues": [
     2,
-    2,
-    2,
-    5,
+    4,
+    4,
     2,
     1,
+    4,
     1
   ],
-  "themeWord": "cinétisme",
+  "themeWord": "pastel",
   "solution": [
     [
       false,
       false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false,
@@ -98,59 +116,41 @@
       false
     ],
     [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       true,
+      false,
+      false,
       false,
       false
     ],
     [
       false,
       true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
       false,
+      true,
       false,
       false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false,
       false
     ],
     [
       true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "Saint-Saëns",
+      "Nemo",
+      "papa",
+      "Verne"
+    ],
+    [
+      "submersible",
+      "thuriféraire",
+      "hublot",
+      "congestion"
+    ],
+    [
+      "poison",
+      "nucléaire",
+      "torpille",
+      "plongée"
+    ],
+    [
+      "Nautilus",
+      "dieu",
+      "périscope",
+      "sonar"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "sous-marin",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

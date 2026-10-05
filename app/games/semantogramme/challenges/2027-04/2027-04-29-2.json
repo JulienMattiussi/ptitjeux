@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "joyeux",
-      "joie",
-      "gaieté",
-      "soulever",
-      "satisfait"
+      "goudron",
+      "relief",
+      "volière",
+      "obscurité",
+      "larme"
     ],
     [
-      "orion",
-      "calme",
-      "rayonner",
-      "collage",
-      "se réjouir"
+      "prélude",
+      "chat",
+      "jais",
+      "amygdales",
+      "panais"
     ],
     [
-      "recyclable",
-      "romain",
-      "cintré",
-      "épanoui",
-      "pétiller"
+      "proche",
+      "tableau",
+      "réglisse",
+      "Soulages",
+      "ébène"
     ],
     [
-      "félicité",
-      "plaisir",
-      "mousquetaire",
-      "béatitude",
-      "dompteur"
+      "semis",
+      "éolienne",
+      "four",
+      "ténèbres",
+      "corbeau"
     ],
     [
-      "rire",
-      "gel",
-      "crasseux",
-      "observatoire",
-      "allégresse"
+      "Acme",
+      "chanceux",
+      "onyx",
+      "Nashville",
+      "céramique"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     4,
     2,
+    1
+  ],
+  "colClues": [
+    1,
     2,
+    3,
     3,
     2
   ],
-  "colClues": [
-    3,
-    2,
-    2,
-    2,
-    4
-  ],
-  "themeWord": "heureux",
+  "themeWord": "noir",
   "solution": [
     [
       true,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
       false
     ],
     [
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
       false,
-      false,
+      true,
+      true,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

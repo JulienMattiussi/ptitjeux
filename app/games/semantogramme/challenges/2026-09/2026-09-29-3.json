@@ -5,60 +5,60 @@
   "height": 6,
   "words": [
     [
-      "ingérer",
-      "souffler",
-      "fort",
-      "jouer",
-      "orchestre",
-      "aluminium"
+      "Nobel",
+      "lauréat",
+      "gratifier",
+      "robinet",
+      "nageoire",
+      "trophée"
     ],
     [
-      "stade",
-      "note",
-      "sonner",
-      "idylle",
-      "industrie",
-      "médecine"
+      "Cupidon",
+      "modeler",
+      "prime",
+      "honorer",
+      "chasselas",
+      "absent"
     ],
     [
-      "autel",
-      "grise",
-      "fanfare",
-      "constitutionnelle",
-      "éclatant",
-      "bugle"
+      "tectonique",
+      "bravo",
+      "astronomie",
+      "bonus",
+      "sans-abri",
+      "négation"
     ],
     [
-      "aigu",
-      "cuivre",
-      "mètre",
-      "sécurité",
-      "instrument",
-      "miracle"
+      "monisme",
+      "César",
+      "jumeau",
+      "saillant",
+      "métronome",
+      "Jarnac"
     ],
     [
-      "bière",
-      "octroyer",
-      "noircir",
-      "piston",
-      "creusage",
-      "mat"
+      "mention",
+      "danseuse",
+      "décoration",
+      "rivage",
+      "palmarès",
+      "prix"
     ],
     [
-      "embouchure",
-      "agilité",
-      "quadratique",
-      "cor",
-      "fente",
-      "éclair"
+      "marbre",
+      "IRM",
+      "carême",
+      "Goncourt",
+      "Oscar",
+      "sentencieux"
     ]
   ],
   "rowClues": [
     4,
     2,
-    3,
-    3,
+    2,
     1,
+    4,
     2
   ],
   "colClues": [
@@ -66,29 +66,45 @@
     3,
     3,
     3,
-    3,
-    1
+    2,
+    2
   ],
-  "themeWord": "trompette",
+  "themeWord": "récompenser",
   "solution": [
     [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
       true,
-      true,
       false,
+      true,
       false,
       false
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       false,
@@ -96,27 +112,11 @@
       true
     ],
     [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      true,
-      false,
       false
     ]
   ],

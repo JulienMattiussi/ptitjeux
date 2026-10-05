@@ -5,100 +5,92 @@
   "height": 6,
   "words": [
     [
-      "mignon",
-      "chant",
-      "voler",
-      "création",
-      "bergamote",
-      "vertical"
-    ],
-    [
-      "sauter",
-      "repos",
-      "aviation",
-      "pleine",
-      "fontaine",
-      "concurrence"
-    ],
-    [
-      "haie",
+      "idéogramme",
+      "coassement",
+      "écologique",
+      "têtard",
       "jardin",
-      "gâteau",
-      "semis",
-      "symbolique",
-      "gorge"
+      "épée"
     ],
     [
-      "tu",
-      "enrouée",
-      "plume",
-      "picorer",
-      "cyclique",
-      "noël"
+      "transporter",
+      "râpe",
+      "Whistler",
+      "fumeux",
+      "pléistocène",
+      "mare"
     ],
     [
-      "familier",
-      "aile",
-      "oiseau",
-      "piailler",
-      "fluorescent",
-      "ténébreux"
+      "île",
+      "baiser",
+      "discours",
+      "prince",
+      "Kenya",
+      "bave"
     ],
     [
-      "abordage",
-      "rouge",
-      "bec",
-      "rondelet",
-      "lucarne",
-      "sagoutier"
+      "verrue",
+      "grenouille",
+      "batracien",
+      "insectes",
+      "épais",
+      "braquage"
+    ],
+    [
+      "pépites",
+      "bavarder",
+      "Louvre",
+      "multiprise",
+      "nuit",
+      "rusé"
+    ],
+    [
+      "venin",
+      "pustules",
+      "laid",
+      "brailler",
+      "pluie",
+      "panse"
     ]
   ],
   "rowClues": [
     3,
     1,
-    4,
     3,
     4,
-    3
+    1,
+    4
   ],
   "colClues": [
+    2,
     4,
-    4,
-    4,
+    2,
     3,
-    1,
+    3,
     2
   ],
-  "themeWord": "rouge-gorge",
+  "themeWord": "crapaud",
   "solution": [
     [
-      true,
-      true,
+      false,
       true,
       false,
-      false,
+      true,
+      true,
       false
     ],
     [
-      true,
       false,
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      false,
-      true,
       true
     ],
     [
       false,
-      false,
       true,
+      false,
       true,
       false,
       true
@@ -113,12 +105,20 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
       true,
       false,
+      true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

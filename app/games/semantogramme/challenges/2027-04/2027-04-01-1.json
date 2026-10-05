@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "sangria",
-      "martini",
-      "éléphant",
-      "essai"
+      "Chine",
+      "Japon",
+      "culotte",
+      "réticent"
     ],
     [
-      "bar",
-      "apéritif",
-      "ministériel",
-      "antiquité"
+      "tandem",
+      "pousse",
+      "canne",
+      "flûte"
     ],
     [
-      "veine",
-      "biceps",
-      "punch",
-      "moite"
+      "forêt",
+      "caresser",
+      "épargne",
+      "tige"
     ],
     [
-      "campanile",
-      "shaker",
-      "paille",
-      "rhum"
+      "panda",
+      "séché",
+      "sauce",
+      "zen"
     ]
   ],
   "rowClues": [
     2,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
     2,
     1,
     3
   ],
-  "colClues": [
-    2,
-    3,
-    2,
-    1
-  ],
-  "themeWord": "cocktail",
+  "themeWord": "bambou",
   "solution": [
     [
       true,
@@ -50,23 +50,23 @@
       false
     ],
     [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       true,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

@@ -5,79 +5,72 @@
   "height": 5,
   "words": [
     [
-      "oxydable",
-      "mat",
-      "voilier",
-      "forger",
-      "malléable"
+      "rouleau",
+      "fébrile",
+      "lin",
+      "satin",
+      "pyramide"
     ],
     [
-      "rafale",
-      "monnaie",
-      "arthrose",
-      "oxyder",
-      "portée"
-    ],
-    [
-      "écorce",
-      "sentir",
-      "vert-de-gris",
-      "orthogonal",
-      "enduire"
-    ],
-    [
-      "rouge",
-      "conduire",
-      "hamster",
-      "parasol",
-      "cible"
-    ],
-    [
-      "métallique",
-      "casserole",
+      "allemande",
+      "étoffe",
+      "goinfre",
       "fil",
-      "office",
-      "rouille"
+      "coton"
+    ],
+    [
+      "mercerie",
+      "aiguille",
+      "Holter",
+      "traîne",
+      "duveteux"
+    ],
+    [
+      "litote",
+      "laine",
+      "Vérone",
+      "gong",
+      "couture"
+    ],
+    [
+      "boîte",
+      "contagion",
+      "étagères",
+      "velours",
+      "polystyrène"
     ]
   ],
   "rowClues": [
     3,
+    3,
     2,
-    1,
     2,
-    4
+    1
   ],
   "colClues": [
-    3,
-    3,
     2,
-    2,
+    3,
+    1,
+    3,
     2
   ],
-  "themeWord": "cuivre",
+  "themeWord": "tissu",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true,
       true
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       true,
       false,
@@ -85,12 +78,19 @@
       false
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

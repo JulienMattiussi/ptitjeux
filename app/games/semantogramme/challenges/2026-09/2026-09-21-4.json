@@ -5,97 +5,97 @@
   "height": 7,
   "words": [
     [
-      "élucider",
-      "campanile",
-      "prisme",
-      "électrique",
-      "comprendre",
-      "tacite",
-      "fixer"
+      "gerbille",
+      "gai",
+      "emballage",
+      "pointes",
+      "Alexandre",
+      "persienne",
+      "pétillant"
     ],
     [
-      "symptôme",
-      "tambourin",
-      "caché",
-      "chandeleur",
-      "fumer",
-      "incompréhensible",
-      "compliqué"
+      "podologie",
+      "carbonisé",
+      "primesautier",
+      "schiste",
+      "filetage",
+      "guilleret",
+      "frétillant"
     ],
     [
-      "littéraire",
-      "pardonner",
-      "sibyllin",
-      "halogène",
-      "iconoclaste",
-      "ésotérique",
-      "crème"
+      "galant",
+      "entrain",
+      "temporiser",
+      "pimpant",
+      "dynamique",
+      "été",
+      "pair"
     ],
     [
-      "bretonne",
-      "difficile",
-      "discuter",
-      "tortueux",
-      "pachyderme",
-      "récitatif",
-      "inintelligible"
+      "calorifère",
+      "tapir",
+      "limon",
+      "trébuchet",
+      "Huysmans",
+      "allègre",
+      "sommier"
     ],
     [
-      "parisienne",
-      "infini",
-      "ramper",
-      "placebo",
-      "mystérieux",
-      "ardu",
-      "tirant"
+      "dorure",
+      "fringant",
+      "psyché",
+      "vif",
+      "absinthe",
+      "bateleur",
+      "abstention"
     ],
     [
-      "enrouée",
-      "verdoyant",
-      "pleine",
-      "collant",
-      "tonner",
-      "pagaie",
-      "abstrus"
+      "pH",
+      "fougueux",
+      "rétroviseur",
+      "espiègle",
+      "maléfique",
+      "sépulture",
+      "étrennes"
     ],
     [
-      "pencher",
-      "abattre",
-      "border",
-      "tendre",
-      "pratique",
-      "opaque",
-      "radieux"
+      "suspense",
+      "général",
+      "blessure",
+      "tanière",
+      "vivacité",
+      "carène",
+      "enjoué"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    3,
-    2,
+    4,
     1,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
-    2,
     1,
-    2,
-    1,
-    2,
     4,
+    1,
+    3,
+    2,
+    2,
     3
   ],
-  "themeWord": "abscons",
+  "themeWord": "sémillant",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
       false,
-      false
+      false,
+      false,
+      false,
+      true
     ],
     [
       false,
@@ -108,8 +108,17 @@
     ],
     [
       true,
+      true,
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       false,
       true,
@@ -121,36 +130,27 @@
       false,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

@@ -5,95 +5,131 @@
   "height": 7,
   "words": [
     [
-      "cadran",
-      "aiguille",
-      "pression",
-      "kimono",
-      "descendre",
-      "courbature",
-      "génisse"
+      "homme",
+      "forme",
+      "couper",
+      "évolution",
+      "chaussette",
+      "culture",
+      "utilité"
     ],
     [
-      "précis",
-      "plénitude",
-      "motif",
-      "maturité",
-      "météo",
-      "montant",
-      "mercure"
+      "lance",
+      "pagode",
+      "attentat",
+      "épine",
+      "parenté",
+      "Mead",
+      "Lucy"
     ],
     [
-      "sofa",
-      "ski",
-      "monter",
-      "indiquer",
-      "duodénum",
-      "fameux",
-      "tabasser"
+      "Lévi-Strauss",
+      "mûre",
+      "tribu",
+      "société",
+      "Croisette",
+      "pigments",
+      "pruneau"
     ],
     [
-      "cinglant",
-      "prédire",
-      "proie",
-      "huit",
-      "pulpeuse",
-      "pourfendre",
-      "syngnathe"
+      "wifi",
+      "mythe",
+      "vibraphone",
+      "Jacob",
+      "rite",
+      "nacré",
+      "homogénéité"
     ],
     [
-      "instrument",
-      "innocence",
-      "canal",
-      "sensible",
-      "anéroïde",
-      "nolde",
-      "matin"
+      "glacis",
+      "navet",
+      "hédonisme",
+      "structuralisme",
+      "maire",
+      "vivace",
+      "hyperbole"
     ],
     [
-      "covid",
-      "pasteur",
-      "scientifique",
-      "surprise",
-      "renaître",
-      "pèlerin",
-      "mauvais"
+      "totem",
+      "bosseur",
+      "Metropolis",
+      "Copenhague",
+      "artisan",
+      "libre",
+      "Mauss"
     ],
     [
-      "caisse",
-      "panne",
-      "mesurer",
-      "mucus",
-      "beau",
-      "atmosphérique",
-      "ethnie"
+      "pervenche",
+      "peler",
+      "coutume",
+      "pivert",
+      "ostentation",
+      "ethnie",
+      "tabouret"
     ]
   ],
   "rowClues": [
-    4,
+    3,
+    3,
     3,
     2,
     1,
-    3,
     2,
-    3
+    2
   ],
   "colClues": [
     3,
-    2,
-    4,
-    2,
-    4,
     1,
+    2,
+    3,
+    2,
+    3,
     2
   ],
-  "themeWord": "baromètre",
+  "themeWord": "anthropologie",
   "solution": [
     [
       true,
-      true,
+      false,
+      false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false,
       false
     ],
@@ -102,7 +138,7 @@
       false,
       false,
       false,
-      true,
+      false,
       false,
       true
     ],
@@ -110,47 +146,11 @@
       false,
       false,
       true,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

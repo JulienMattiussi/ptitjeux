@@ -5,68 +5,68 @@
   "height": 5,
   "words": [
     [
-      "toboggan",
-      "soleil",
-      "gris",
-      "disque",
-      "miroir"
+      "peinture",
+      "cuisson",
+      "sauvage",
+      "torture",
+      "viande"
     ],
     [
-      "bambou",
-      "paillette",
-      "rayon",
-      "sifflet",
-      "croix"
+      "Wagner",
+      "carpaccio",
+      "poste",
+      "sprint",
+      "longue-vue"
     ],
     [
-      "maladresse",
-      "resplendissant",
-      "rutilant",
-      "or",
-      "étinceler"
+      "tracteur",
+      "steak",
+      "cuit",
+      "racine",
+      "vin"
     ],
     [
-      "éclatant",
-      "argent",
-      "code",
-      "trappiste",
-      "scintiller"
+      "Callas",
+      "manichéisme",
+      "prétexte",
+      "Dumbo",
+      "légume"
     ],
     [
-      "triompher",
-      "vénérer",
-      "étoile",
-      "escalader",
-      "reluire"
+      "Bourgogne",
+      "déception",
+      "terroir",
+      "sushi",
+      "brut"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    4,
     3,
-    2
-  ],
-  "colClues": [
     1,
-    4,
     3,
     1,
     4
   ],
-  "themeWord": "brillant",
+  "colClues": [
+    1,
+    3,
+    3,
+    1,
+    4
+  ],
+  "themeWord": "cru",
   "solution": [
     [
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
@@ -74,23 +74,23 @@
       false,
       true,
       true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       true
     ],
     [
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

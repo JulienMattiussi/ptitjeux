@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "crémeux",
-      "belle-soeur",
-      "famille",
-      "serpillière",
-      "aviateur"
+      "Sam",
+      "déshydratation",
+      "bûcheron",
+      "réservé",
+      "veille"
     ],
     [
-      "cousine",
-      "effraie",
-      "tranquillité",
-      "domestique",
-      "généreux"
+      "craie",
+      "arrière",
+      "jour",
+      "quatrième",
+      "Jupiter"
     ],
     [
-      "neveu",
-      "mère",
-      "parent",
-      "fixer",
-      "visiter"
+      "saint",
+      "prédateur",
+      "semaine",
+      "mercredi",
+      "opéra"
     ],
     [
-      "aiguisé",
-      "nièce",
-      "hawaïen",
-      "père",
-      "recevoir"
+      "marmite",
+      "week-end",
+      "après-midi",
+      "matinée",
+      "Huxley"
     ],
     [
-      "barboter",
-      "sourcil",
-      "fondant",
-      "salon",
-      "gâter"
+      "vendredi",
+      "Ascension",
+      "marché",
+      "hebdomadaire",
+      "piquet"
     ]
   ],
   "rowClues": [
-    2,
     1,
-    4,
     3,
-    1
+    3,
+    3,
+    4
   ],
   "colClues": [
     2,
-    3,
     2,
-    1,
-    3
+    4,
+    4,
+    2
   ],
-  "themeWord": "tante",
+  "themeWord": "jeudi",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       true,
+      true,
+      true
+    ],
+    [
       true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

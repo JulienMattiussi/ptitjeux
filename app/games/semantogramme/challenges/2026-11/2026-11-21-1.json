@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "aile",
-      "siège",
-      "magazine",
-      "hélice"
+      "prière",
+      "christianisme",
+      "Passe-Crassane",
+      "culte"
     ],
     [
-      "pilote",
-      "balance",
-      "pédale",
-      "puma"
+      "croyance",
+      "achat",
+      "conflit",
+      "dieu"
     ],
     [
-      "garde",
-      "turbine",
-      "café",
-      "hôtesse"
+      "foi",
+      "Elgar",
+      "judaïsme",
+      "islam"
     ],
     [
-      "linge",
-      "atterrissage",
-      "décollage",
-      "récurer"
+      "sciure",
+      "souverain",
+      "bouddhisme",
+      "NASA"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    2,
-    2
-  ],
-  "colClues": [
     2,
     3,
-    1,
-    2
+    1
   ],
-  "themeWord": "avion",
+  "colClues": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "themeWord": "religion",
   "solution": [
     [
       true,
@@ -53,20 +53,20 @@
       true,
       false,
       false,
-      false
+      true
     ],
     [
-      false,
       true,
       false,
+      true,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

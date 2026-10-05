@@ -5,45 +5,51 @@
   "height": 4,
   "words": [
     [
-      "limpidité",
-      "atome",
-      "masse",
-      "oxydable"
+      "coffre",
+      "fantaisie",
+      "molette",
+      "ouvrir"
     ],
     [
-      "accélération",
-      "client",
-      "attirance",
-      "planter"
+      "Tyson",
+      "serrure",
+      "trousseau",
+      "thé"
     ],
     [
-      "rabot",
-      "gloire",
-      "particule",
-      "fenêtre"
+      "fermer",
+      "réputation",
+      "taquin",
+      "cadenas"
     ],
     [
-      "onde",
-      "électron",
-      "cacophonique",
-      "force"
+      "Rubens",
+      "double",
+      "semer",
+      "rayé"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    1,
-    1,
-    3
+    2,
+    1
   ],
   "colClues": [
     2,
     2,
     2,
-    1
+    2
   ],
-  "themeWord": "physique",
+  "themeWord": "clé",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       true,
       true,
@@ -52,21 +58,15 @@
     [
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

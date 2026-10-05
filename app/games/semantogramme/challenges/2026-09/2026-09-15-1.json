@@ -5,49 +5,55 @@
   "height": 4,
   "words": [
     [
-      "source",
-      "plaisir",
-      "pont",
-      "barrage"
+      "oreiller",
+      "Freud",
+      "sommeil",
+      "nirvana"
     ],
     [
-      "berge",
-      "plume",
-      "courant",
-      "maraîcher"
+      "remblai",
+      "cauchemar",
+      "Windsor",
+      "claquer"
     ],
     [
-      "dossier",
-      "laminaire",
-      "rive",
-      "envoûtante"
+      "illusion",
+      "lisse",
+      "nuit",
+      "victoire"
     ],
     [
-      "microbe",
-      "truite",
-      "aimable",
-      "gué"
+      "doline",
+      "grue",
+      "Arras",
+      "endormi"
     ]
   ],
   "rowClues": [
     3,
-    2,
     1,
-    2
+    2,
+    1
   ],
   "colClues": [
     2,
-    1,
-    3,
-    2
+    2,
+    2,
+    1
   ],
-  "themeWord": "rivière",
+  "themeWord": "rêve",
   "solution": [
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
-      true
+      false,
+      false
     ],
     [
       true,
@@ -58,15 +64,9 @@
     [
       false,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

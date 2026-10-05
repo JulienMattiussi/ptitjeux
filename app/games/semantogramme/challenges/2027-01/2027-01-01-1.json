@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "voile",
-      "brunch",
-      "bague",
-      "robe"
+      "fleur",
+      "gluten",
+      "bulbe",
+      "fondant"
     ],
     [
-      "cortège",
-      "panache",
-      "juin",
-      "décocher"
+      "champ",
+      "tanière",
+      "jardin",
+      "Amsterdam"
     ],
     [
-      "demoiselle",
-      "sacrifier",
-      "semer",
-      "habiter"
+      "arthrose",
+      "pétale",
+      "obligatoire",
+      "Pays-Bas"
     ],
     [
-      "cône",
-      "témoin",
-      "mariée",
-      "amusement"
+      "sec",
+      "bouquet",
+      "vase",
+      "Hollande"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    1,
-    1,
-    2
+    2,
+    3
   ],
   "colClues": [
-    3,
-    1,
     2,
-    1
+    2,
+    3,
+    3
   ],
-  "themeWord": "mariage",
+  "themeWord": "tulipe",
   "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
     [
       true,
       false,
@@ -50,23 +56,17 @@
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false
+      true
     ],
     [
       false,
       true,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

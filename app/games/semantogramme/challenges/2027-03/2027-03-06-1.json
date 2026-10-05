@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "moustache",
-      "voix",
-      "prologue",
-      "transcendance"
+      "féroce",
+      "Dante",
+      "perdreau",
+      "branchies"
     ],
     [
-      "liturgique",
-      "persan",
-      "gouttière",
-      "griffe"
+      "banc",
+      "pêche",
+      "apogée",
+      "aquarium"
     ],
     [
-      "minou",
-      "queue",
-      "budget",
-      "siamois"
+      "irritant",
+      "bocal",
+      "nageoire",
+      "encens"
     ],
     [
-      "monopalme",
-      "bijou",
-      "rare",
-      "angora"
+      "rouge",
+      "kilomètre",
+      "arête",
+      "tigre"
     ]
   ],
   "rowClues": [
     1,
     3,
-    3,
-    1
+    2,
+    2
   ],
   "colClues": [
     2,
     2,
-    1,
-    3
+    2,
+    2
   ],
-  "themeWord": "chat",
+  "themeWord": "poisson",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       false,
+      true
+    ],
+    [
       false,
+      true,
+      true,
       false
     ],
     [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
+      true,
+      false
     ]
   ],
   "parMoves": 8

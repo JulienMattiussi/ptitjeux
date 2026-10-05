@@ -5,70 +5,63 @@
   "height": 5,
   "words": [
     [
-      "adolescent",
-      "cosse",
-      "courbure",
-      "juvénile",
-      "arrêter"
+      "dieux",
+      "Jenner",
+      "famille",
+      "aumône",
+      "gamine"
     ],
     [
-      "gamin",
-      "césar",
-      "tendre",
-      "récent",
-      "reprise"
-    ],
-    [
-      "rajeunir",
-      "soupir",
-      "novice",
-      "naissant",
-      "puéril"
-    ],
-    [
-      "pousser",
+      "cadette",
+      "tic-tac",
+      "adolescente",
       "enfant",
-      "tricolore",
-      "palper",
-      "bébé"
+      "fils"
     ],
     [
-      "mathématique",
-      "fleurir",
-      "jouvenceau",
-      "arme",
-      "truite"
+      "oubli",
+      "virtuose",
+      "taciturne",
+      "nattes",
+      "soeur"
+    ],
+    [
+      "mère",
+      "Onéguine",
+      "inouï",
+      "héritière",
+      "idéal"
+    ],
+    [
+      "poupée",
+      "benjamine",
+      "Piazzolla",
+      "petite",
+      "demoiselle"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    4,
-    3,
-    2
-  ],
-  "colClues": [
     4,
     2,
-    3,
-    3,
-    2
+    2,
+    4
   ],
-  "themeWord": "jeune",
+  "colClues": [
+    3,
+    1,
+    2,
+    4,
+    4
+  ],
+  "themeWord": "fille",
   "solution": [
     [
-      true,
       false,
       false,
       true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
@@ -78,18 +71,25 @@
       true
     ],
     [
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       true
     ],
     [
-      false,
-      true,
       true,
       false,
+      false,
+      true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 14

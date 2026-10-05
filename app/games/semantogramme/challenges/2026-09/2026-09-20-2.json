@@ -5,61 +5,75 @@
   "height": 5,
   "words": [
     [
-      "roucouler",
-      "entonner",
-      "résumé",
-      "refrain",
-      "tenailler"
+      "tatouage",
+      "sérénade",
+      "éternel",
+      "Artois",
+      "oiseau"
     ],
     [
-      "voix",
-      "plisser",
-      "tableau",
-      "choriste",
-      "secours"
+      "incandescent",
+      "brasier",
+      "roller",
+      "Dumbledore",
+      "antiquité"
     ],
     [
-      "fredonner",
-      "air",
-      "mélodie",
-      "sillonner",
-      "opéra"
+      "symbole",
+      "renouveau",
+      "bûcher",
+      "renaître",
+      "dépense"
     ],
     [
-      "président",
-      "candeur",
-      "gaver",
-      "astreindre",
-      "ténor"
+      "résurrection",
+      "chevalerie",
+      "musarder",
+      "flamme",
+      "hydrodynamique"
     ],
     [
-      "siffler",
-      "molaire",
-      "gazouiller",
-      "ordonnance",
-      "rugueux"
+      "chou-fleur",
+      "palissade",
+      "couturier",
+      "immortel",
+      "Rocket"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    3,
     4,
-    1,
-    2
+    2,
+    1
   ],
   "colClues": [
+    3,
+    2,
+    2,
     4,
-    2,
-    2,
-    2,
-    2
+    1
   ],
-  "themeWord": "chanter",
+  "themeWord": "phénix",
   "solution": [
     [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       true,
       false
     ],
@@ -71,24 +85,10 @@
       false
     ],
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       true,
-      false,
       false
     ]
   ],

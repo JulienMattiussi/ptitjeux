@@ -5,61 +5,61 @@
   "height": 5,
   "words": [
     [
-      "symbolique",
-      "cruche",
-      "royale",
-      "monarque",
-      "rouille"
+      "limité",
+      "serré",
+      "agaçant",
+      "gorge",
+      "Pascal"
     ],
     [
-      "précieuse",
-      "roi",
-      "corne",
-      "peintre",
-      "sororal"
+      "défilé",
+      "boyau",
+      "écaille",
+      "sentier",
+      "salsa"
     ],
     [
-      "pourpre",
-      "pierre",
-      "prince",
-      "semelle",
-      "expressif"
+      "resserré",
+      "moelleux",
+      "couloir",
+      "Spinoza",
+      "canari"
     ],
     [
-      "or",
-      "grillé",
-      "argentée",
-      "royauté",
-      "sacrer"
+      "athlétisme",
+      "simultané",
+      "Vinci",
+      "mince",
+      "satellite"
     ],
     [
-      "farceur",
-      "soucieux",
-      "reine",
-      "ornée",
-      "porter"
+      "goulot",
+      "ramoneur",
+      "fente",
+      "passage",
+      "ruelle"
     ]
   ],
   "rowClues": [
     3,
-    2,
     3,
-    4,
-    3
+    2,
+    1,
+    4
   ],
   "colClues": [
     4,
     2,
+    2,
     4,
-    3,
-    2
+    1
   ],
-  "themeWord": "couronne",
+  "themeWord": "étroit",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       true,
       false
     ],
@@ -67,30 +67,30 @@
       true,
       true,
       false,
-      false,
-      false
-    ],
-    [
       true,
-      true,
-      true,
-      false,
       false
     ],
     [
       true,
       false,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

@@ -5,52 +5,52 @@
   "height": 4,
   "words": [
     [
-      "apéro",
-      "mousse",
-      "pression",
-      "malt"
+      "étincelle",
+      "bois",
+      "sensation",
+      "cheminée"
     ],
     [
-      "cruel",
-      "bock",
-      "blonde",
-      "narrateur"
+      "allumette",
+      "foyer",
+      "flamme",
+      "Hamlet"
     ],
     [
-      "brune",
-      "soigné",
-      "froid",
-      "houblon"
+      "fumée",
+      "sofa",
+      "incendie",
+      "calendrier"
     ],
     [
-      "théorie",
-      "projection",
-      "ambrée",
-      "bouteille"
+      "froussard",
+      "âtre",
+      "couche",
+      "braise"
     ]
   ],
   "rowClues": [
     3,
-    2,
+    3,
     2,
     2
   ],
   "colClues": [
-    1,
-    2,
     3,
-    3
+    3,
+    2,
+    2
   ],
-  "themeWord": "bière",
+  "themeWord": "feu",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
-      false,
+      true,
       true,
       true,
       false
@@ -58,15 +58,15 @@
     [
       true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       false,
-      false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

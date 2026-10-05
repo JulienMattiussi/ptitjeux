@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "virus",
-      "espèce",
-      "bactérie",
-      "tardif"
+      "scène",
+      "chandelle",
+      "Stones",
+      "ronchon"
     ],
     [
-      "célébrité",
-      "caractériser",
-      "microbe",
-      "évolution"
+      "riff",
+      "Sully",
+      "papyrus",
+      "Beatles"
     ],
     [
-      "enfantin",
-      "organisme",
-      "arabica",
-      "écosystème"
+      "pois",
+      "électrique",
+      "guitare",
+      "concert"
     ],
     [
-      "génome",
-      "protéine",
-      "cellule",
-      "mesurer"
+      "prétentieux",
+      "batterie",
+      "Elvis",
+      "aigle"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    3
-  ],
-  "colClues": [
-    2,
-    3,
     3,
     2
   ],
-  "themeWord": "biologie",
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "rock",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false
     ],
     [
-      false,
-      false,
       true,
+      false,
+      false,
       true
     ],
     [
       false,
       true,
-      false,
+      true,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

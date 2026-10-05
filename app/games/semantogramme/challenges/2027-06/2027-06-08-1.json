@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "couleur",
-      "étoile",
-      "étendard",
-      "cathédrale"
+      "anniversaire",
+      "four",
+      "pâtissier",
+      "Scrooge"
     ],
     [
-      "tricolore",
-      "national",
-      "bannière",
-      "berge"
+      "cobalt",
+      "pathogène",
+      "génoise",
+      "coucher"
     ],
     [
-      "guépard",
-      "fanion",
-      "carrière",
-      "mât"
+      "glaçage",
+      "chocolat",
+      "farine",
+      "université"
     ],
     [
-      "écusson",
-      "spécialiste",
-      "ennemi",
-      "oriflamme"
+      "langoustines",
+      "bougies",
+      "frettes",
+      "crème"
     ]
   ],
   "rowClues": [
     3,
+    1,
     3,
-    2,
     2
   ],
   "colClues": [
-    3,
-    3,
     2,
-    2
+    3,
+    3,
+    1
   ],
-  "themeWord": "drapeau",
+  "themeWord": "gâteau",
   "solution": [
     [
       true,
@@ -50,6 +50,12 @@
       false
     ],
     [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       true,
       true,
@@ -60,13 +66,7 @@
       true,
       false,
       true
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

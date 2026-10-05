@@ -5,93 +5,109 @@
   "height": 6,
   "words": [
     [
-      "bercement",
-      "ascenseur",
-      "bois",
-      "autobloquant",
-      "harmonica",
-      "meuble"
+      "rayé",
+      "Martinique",
+      "toit",
+      "verrière",
+      "internet",
+      "vœux"
     ],
     [
-      "longue",
-      "respecter",
-      "marsupial",
-      "progéniture",
-      "hercule",
-      "noyer"
+      "extase",
+      "soleil",
+      "monter",
+      "Inde",
+      "Bateau-Lavoir",
+      "jardin"
     ],
     [
-      "dodeliner",
-      "dîner",
-      "gâchette",
-      "salle-à-manger",
-      "table",
-      "roulante"
+      "hiver",
+      "guigne",
+      "bonsoir",
+      "salon",
+      "laser",
+      "mandarine"
     ],
     [
-      "box",
-      "sous-estimer",
-      "fréquent",
-      "décréter",
-      "subtil",
-      "pied"
+      "osier",
+      "aluminium",
+      "pistache",
+      "isotherme",
+      "mémo",
+      "panais"
     ],
     [
-      "cuisine",
-      "tabouret",
-      "baroque",
-      "ennemi",
-      "travailler",
-      "dossier"
+      "colonial",
+      "austérité",
+      "infime",
+      "production",
+      "maison",
+      "extension"
     ],
     [
-      "paille",
-      "plastique",
-      "siège",
-      "noël",
-      "avouer",
-      "assise"
+      "huppé",
+      "bonté",
+      "Piaget",
+      "abri",
+      "plantes",
+      "terrasse"
     ]
   ],
   "rowClues": [
     2,
-    1,
     3,
-    1,
+    2,
+    2,
     3,
-    4
+    3
   ],
   "colClues": [
     3,
     2,
+    1,
+    4,
     2,
-    1,
-    1,
-    5
+    3
   ],
-  "themeWord": "chaise",
+  "themeWord": "véranda",
   "solution": [
     [
       false,
       false,
       true,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       false,
       true
     ],
     [
       true,
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       true,
       true
     ],
@@ -99,26 +115,10 @@
       false,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

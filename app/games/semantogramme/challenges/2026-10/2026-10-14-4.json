@@ -5,110 +5,92 @@
   "height": 7,
   "words": [
     [
-      "mouiller",
-      "noble",
-      "tuyaux",
-      "oriflamme",
-      "globulaire",
-      "nihiliste",
-      "éviter"
+      "sensualité",
+      "étourdi",
+      "volupté",
+      "aiguille",
+      "festin",
+      "utilitarisme",
+      "Rabelais"
     ],
     [
-      "remettre",
-      "nouveau",
-      "pâté",
-      "stocker",
-      "cérémonie",
-      "novice",
-      "porte-greffe"
+      "silence",
+      "plaisir",
+      "écolier",
+      "débauche",
+      "Cordouan",
+      "punition",
+      "hibiscus"
     ],
     [
-      "ballon",
-      "hésiter",
-      "délai",
-      "lettre",
-      "tergiverser",
-      "soutenu",
-      "indécision"
+      "Bruxelles",
+      "désordre",
+      "Beethoven",
+      "profiter",
+      "Aristippe",
+      "Neptune",
+      "crise"
     ],
     [
-      "mousaka",
-      "spongieux",
-      "différer",
-      "piétiner",
-      "arrêter",
-      "fou rire",
-      "magmatique"
+      "chevreuil",
+      "satisfaction",
+      "Bentham",
+      "inspiration",
+      "mobile",
+      "gourmandise",
+      "louer"
     ],
     [
-      "comprimé",
-      "mourir",
-      "plâtre",
-      "bande",
-      "romantique",
-      "pioncer",
-      "retarder"
+      "élévation",
+      "illusoire",
+      "chai",
+      "Poppins",
+      "Lucullus",
+      "seringue",
+      "Tocqueville"
     ],
     [
-      "photosynthèse",
-      "guimard",
-      "classique",
-      "communiquer",
-      "éviction",
-      "attendre",
-      "lambin"
+      "équidistant",
+      "syrah",
+      "Disney",
+      "délice",
+      "anciens",
+      "agenouiller",
+      "heure"
     ],
     [
-      "sanctuaire",
-      "paupière",
-      "électricien",
-      "effrayante",
-      "flotter",
-      "montage",
-      "reculer"
+      "Pythie",
+      "Bacchus",
+      "élégance",
+      "sybarite",
+      "velours",
+      "embrasser",
+      "Dionysos"
     ]
   ],
   "rowClues": [
-    2,
-    1,
     5,
     2,
-    1,
-    2,
-    2
-  ],
-  "colClues": [
-    1,
     2,
     3,
     1,
-    2,
-    2,
-    4
+    1,
+    3
   ],
-  "themeWord": "atermoyer",
+  "colClues": [
+    1,
+    3,
+    2,
+    4,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "hédonisme",
   "solution": [
     [
-      false,
       true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true,
@@ -117,8 +99,8 @@
     ],
     [
       false,
-      false,
       true,
+      false,
       true,
       false,
       false,
@@ -128,14 +110,14 @@
       false,
       false,
       false,
+      true,
+      true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       false,
@@ -148,9 +130,27 @@
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

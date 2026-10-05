@@ -5,103 +5,94 @@
   "height": 7,
   "words": [
     [
-      "massepain",
-      "mortier",
-      "déterminisme",
-      "décider",
-      "humain",
-      "délibération",
-      "germaine"
+      "basilic",
+      "tian",
+      "effleurer",
+      "treillis",
+      "elliptique",
+      "Rémy",
+      "rationalisme"
     ],
     [
-      "tendu",
-      "herpétologue",
-      "amoral",
-      "métaphysique",
-      "orner",
-      "individuel",
-      "esplanade"
+      "Zénon",
+      "Gusteau",
+      "plat",
+      "relique",
+      "tomate",
+      "squelette",
+      "production"
     ],
     [
-      "gratifier",
-      "agir",
-      "fouiller",
-      "soumettre",
-      "liberté",
-      "procession",
-      "autonomie"
+      "Pixar",
+      "catalogue",
+      "ostréiculteur",
+      "mijoter",
+      "rat",
+      "nage",
+      "piperade"
     ],
     [
-      "volonté",
-      "trilobite",
-      "tortueuse",
-      "choix",
-      "asie",
-      "bijou",
-      "vétiver"
+      "thym",
+      "panthère",
+      "aubergine",
+      "trame",
+      "polynôme",
+      "îles",
+      "Ceylan"
     ],
     [
-      "papa",
-      "philosophie",
-      "responsable",
-      "destin",
-      "scolaire",
-      "droiture",
-      "tambour"
+      "forgeron",
+      "urne",
+      "écailles",
+      "jarretelle",
+      "Annonciation",
+      "courgette",
+      "courtiser"
     ],
     [
-      "humaniste",
-      "clinique",
-      "catapulter",
-      "coudre",
-      "chercher",
-      "conduire",
-      "rationnel"
+      "dévaler",
+      "poivron",
+      "Pic-du-Midi",
+      "photographie",
+      "olive",
+      "anniversaire",
+      "honnête"
     ],
     [
-      "spinoza",
-      "levure",
-      "cocktail",
-      "imagination",
-      "emporter",
-      "rive",
-      "moral"
+      "surveillant",
+      "estival",
+      "mitonner",
+      "Big-Bang",
+      "niçoise",
+      "arroser",
+      "cinéaste"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     4,
     2,
-    3,
-    2,
-    3,
     1,
-    2
-  ],
-  "colClues": [
-    2,
-    2,
-    2,
-    4,
-    2,
     2,
     3
   ],
-  "themeWord": "libre-arbitre",
+  "colClues": [
+    3,
+    4,
+    3,
+    1,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "ratatouille",
   "solution": [
     [
-      false,
-      false,
       true,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      false,
-      true,
       false,
       true,
       false
@@ -109,8 +100,17 @@
     [
       false,
       true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
+      true,
       true,
       false,
       true
@@ -118,17 +118,8 @@
     [
       true,
       false,
-      false,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       false,
       false,
       false
@@ -139,18 +130,27 @@
       false,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
+      false,
       true,
       false,
       false,
+      true,
       false,
+      false
+    ],
+    [
       false,
+      true,
+      true,
       false,
-      true
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

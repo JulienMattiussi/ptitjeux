@@ -5,87 +5,103 @@
   "height": 6,
   "words": [
     [
-      "jardinier",
-      "manche",
-      "ticket",
-      "cri",
-      "improvisation",
-      "lourde"
+      "induction",
+      "vif",
+      "kaléidoscope",
+      "Raphaël",
+      "militant",
+      "travailleur"
     ],
     [
-      "écureuil",
-      "retourner",
-      "outil",
-      "planter",
-      "félon",
-      "rustique"
+      "zélé",
+      "remuant",
+      "coupante",
+      "rameau",
+      "Montparnasse",
+      "injurier"
     ],
     [
-      "sursaut",
-      "fainéant",
-      "paille",
-      "paysan",
-      "crue",
-      "utopie"
+      "bilan",
+      "canzone",
+      "volontaire",
+      "retraite",
+      "énergique",
+      "bosseur"
     ],
     [
-      "dent",
-      "fumier",
-      "estival",
-      "agricole",
-      "sommier",
-      "soulever"
+      "dynamique",
+      "dégonflé",
+      "repiquer",
+      "ressources",
+      "échanger",
+      "Gillespie"
     ],
     [
-      "tamiser",
-      "tridente",
-      "ferme",
-      "intègre",
-      "piquer",
-      "haltère"
+      "napperon",
+      "habitus",
+      "sportif",
+      "occupé",
+      "bifidus",
+      "ragot"
     ],
     [
-      "plaidoyer",
-      "rôtir",
-      "foin",
-      "germe",
-      "interpréter",
-      "long"
+      "bretelle",
+      "volcan",
+      "Castorama",
+      "faon",
+      "Achille",
+      "nombril"
     ]
   ],
   "rowClues": [
     3,
-    4,
     2,
-    4,
-    3,
-    2
+    5,
+    1,
+    2,
+    1
   ],
   "colClues": [
-    2,
-    4,
-    4,
     3,
-    1,
-    4
+    3,
+    2,
+    2,
+    2,
+    2
   ],
-  "themeWord": "fourche",
+  "themeWord": "actif",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
       true
     ],
     [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
       true,
-      false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     [
       false,
@@ -96,29 +112,13 @@
       false
     ],
     [
-      true,
-      true,
       false,
       true,
       false,
-      true
-    ],
-    [
       false,
-      true,
-      true,
       false,
-      true,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

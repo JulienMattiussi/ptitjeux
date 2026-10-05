@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "huile",
-      "gouache",
-      "spiritual",
-      "confessionnal",
-      "cortège"
+      "vétérinaire",
+      "dos",
+      "destrier",
+      "bois",
+      "agrume"
     ],
     [
-      "couleur",
-      "nouveauté",
-      "pigment",
-      "chevalet",
-      "pinceau"
+      "bouleau",
+      "éclaboussure",
+      "spasme",
+      "arbre",
+      "variable"
     ],
     [
-      "forum",
-      "acrylique",
-      "expressif",
-      "enduire",
-      "peintre"
+      "tanin",
+      "cran",
+      "cannelle",
+      "NBA",
+      "rugueux"
     ],
     [
-      "fresque",
-      "tableau",
-      "shopping",
-      "toile",
-      "odorante"
+      "zébrure",
+      "plafonnier",
+      "Noureev",
+      "Terre",
+      "tribord"
     ],
     [
-      "colorier",
-      "aquarelle",
-      "badigeonner",
-      "titane",
-      "frire"
+      "orbe",
+      "pin",
+      "liège",
+      "sève",
+      "chromatique"
     ]
   ],
   "rowClues": [
     2,
-    4,
+    2,
     3,
-    3,
+    1,
     3
   ],
   "colClues": [
-    4,
-    4,
     2,
-    3,
+    1,
+    2,
+    4,
     2
   ],
-  "themeWord": "peindre",
+  "themeWord": "écorce",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
       false
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 11
 }

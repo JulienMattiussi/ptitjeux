@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "cheminer",
-      "lanterne",
-      "magenta",
-      "halogène"
+      "Klimt",
+      "haubans",
+      "brassière",
+      "Novalis"
     ],
     [
-      "veilleuse",
-      "abat-jour",
-      "bougie",
-      "mystère"
+      "élastique",
+      "tracer",
+      "lingerie",
+      "échalote"
     ],
     [
-      "ampoule",
-      "lustre",
-      "imam",
-      "arranger"
+      "culotte",
+      "caleçon",
+      "traversée",
+      "boxer"
     ],
     [
-      "pulmonaire",
-      "dessert",
-      "roquette",
-      "lumière"
+      "soutien-gorge",
+      "Donatello",
+      "maillot",
+      "slip"
     ]
   ],
   "rowClues": [
+    1,
     2,
     3,
-    2,
-    1
+    3
   ],
   "colClues": [
-    2,
     3,
     1,
+    3,
     2
   ],
-  "themeWord": "lampe",
+  "themeWord": "sous-vêtement",
   "solution": [
     [
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
+      true,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

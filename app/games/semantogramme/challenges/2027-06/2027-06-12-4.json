@@ -5,95 +5,122 @@
   "height": 7,
   "words": [
     [
-      "geindre",
-      "décrire",
-      "farceur",
-      "nébuleuse",
-      "orgueil",
-      "méthode",
-      "fraîcheur"
+      "poule",
+      "Gascogne",
+      "pissenlit",
+      "basse-cour",
+      "poussin",
+      "édenté",
+      "sursauter"
     ],
     [
-      "diagnostic",
-      "spectacle",
-      "clavier",
-      "datte",
-      "baptême",
-      "icône",
-      "mettre-entre-parenthèses"
+      "maraîchère",
+      "moineau",
+      "presse",
+      "pessimisme",
+      "parmentier",
+      "insonorisation",
+      "Heredia"
     ],
     [
-      "escalier",
-      "sartre",
-      "verglas",
-      "heidegger",
-      "définitif",
-      "cocotier",
-      "épuiser"
+      "porter",
+      "ventre",
+      "tapoter",
+      "croquer",
+      "oiseau",
+      "transcendance",
+      "vendange"
     ],
     [
-      "descriptive",
-      "distorsion",
-      "messie",
-      "rigoureuse",
-      "magenta",
-      "épochè",
-      "intentionnalité"
+      "chirurgien",
+      "télécommande",
+      "lamentation",
+      "orientable",
+      "picorer",
+      "picoter",
+      "ambigu"
     ],
     [
-      "lancement",
-      "pompier",
-      "husserl",
-      "béatitude",
-      "analyser",
-      "dame",
-      "ninja"
+      "Moïse",
+      "envol",
+      "crier",
+      "grain",
+      "manger",
+      "maître",
+      "caténaire"
     ],
     [
-      "pouffer",
-      "perception",
-      "minestrone",
-      "civile",
-      "couverture",
-      "allemande",
-      "merleau-ponty"
+      "dactylo",
+      "Acme",
+      "piquer",
+      "cabinet",
+      "Dracula",
+      "méditatif",
+      "grignoter"
     ],
     [
-      "fatigué",
-      "a-cappella",
-      "révision",
-      "fade",
-      "néoténie",
-      "expérience",
-      "rôder"
+      "hallebarde",
+      "décibel",
+      "pivert",
+      "beurre",
+      "mésange",
+      "griotte",
+      "volaille"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    2,
-    4,
-    2,
     3,
-    1
+    1,
+    3,
+    2,
+    2,
+    2,
+    3
   ],
   "colClues": [
     1,
+    1,
     3,
+    3,
+    5,
     1,
-    2,
-    1,
-    4,
-    3
+    2
   ],
-  "themeWord": "phénoménologie",
+  "themeWord": "béqueter",
   "solution": [
     [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
       true,
       false
     ],
@@ -101,6 +128,15 @@
       false,
       false,
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       false,
@@ -108,49 +144,13 @@
     ],
     [
       false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       true,
       false,
       true,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

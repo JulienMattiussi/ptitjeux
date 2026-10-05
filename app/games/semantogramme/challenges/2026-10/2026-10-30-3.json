@@ -5,76 +5,100 @@
   "height": 6,
   "words": [
     [
-      "zodiaque",
-      "oled",
-      "guetter",
-      "agile",
-      "discrète",
-      "rugir"
+      "darne",
+      "migrateur",
+      "ailette",
+      "pêcheur",
+      "Gretzky",
+      "torpille"
     ],
     [
-      "sanction",
-      "puissante",
-      "bondir",
-      "élégante",
-      "pèlerine",
-      "multifonction"
+      "mer",
+      "système",
+      "carnassier",
+      "plancha",
+      "illumination",
+      "marlin"
     ],
     [
-      "félin",
-      "filiation",
-      "détoxifier",
-      "lézard",
-      "écaille",
-      "place"
+      "décoratif",
+      "atomique",
+      "mêlée",
+      "rostre",
+      "machine",
+      "maquette"
     ],
     [
-      "noir",
-      "jaguar",
-      "forêt",
-      "jungle",
-      "silencieuse",
-      "chiromancie"
+      "poisson",
+      "estocade",
+      "chanterelle",
+      "Açores",
+      "thon",
+      "glaive"
     ],
     [
-      "juteuse",
-      "astucieux",
-      "piscine",
-      "introspection",
-      "chasser",
-      "rapée"
+      "avion",
+      "grillé",
+      "médiathèque",
+      "collégien",
+      "Traviata",
+      "kilométrique"
     ],
     [
-      "pourpre",
-      "mystérieuse",
-      "canoë",
-      "solo",
-      "gaver",
-      "sorcier"
+      "cuisiner",
+      "hydrodynamique",
+      "Mickey",
+      "steak",
+      "nourriture",
+      "épée"
     ]
   ],
   "rowClues": [
     4,
-    3,
+    4,
     1,
     5,
     1,
-    1
+    3
   ],
   "colClues": [
-    2,
     3,
-    3,
-    3,
-    3,
-    1
+    4,
+    1,
+    5,
+    1,
+    4
   ],
-  "themeWord": "panthère",
+  "themeWord": "espadon",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
     [
       false,
       false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true,
       true
@@ -82,43 +106,19 @@
     [
       false,
       true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false,
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       true,
       false,
+      true,
       false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

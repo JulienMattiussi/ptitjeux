@@ -5,94 +5,103 @@
   "height": 7,
   "words": [
     [
-      "au-delà",
-      "fugue",
-      "transformer",
-      "modéré",
-      "adagio",
-      "collier",
-      "mouvement"
+      "durée",
+      "Courchevel",
+      "Alexandrie",
+      "amphore",
+      "débit",
+      "menace",
+      "Victoria"
     ],
     [
-      "laminaire",
-      "nettoyage",
-      "sautiller",
-      "intentionnalité",
-      "interpréter",
-      "mécanicien",
-      "dormir"
+      "chronométrie",
+      "yeux",
+      "siphon",
+      "exploitation",
+      "flotteur",
+      "touiller",
+      "hydraulique"
     ],
     [
-      "ricaner",
-      "honneur",
-      "concerto",
-      "hôte",
-      "dentiste",
-      "rejeter",
-      "sonate"
+      "Schubert",
+      "rebelle",
+      "socle",
+      "moelleux",
+      "Vador",
+      "goutte",
+      "écoulement"
     ],
     [
-      "partition",
-      "élégant",
-      "nouvel",
-      "pédagogie",
-      "tranquille",
-      "tempo",
-      "carnivore"
+      "Platon",
+      "sablier",
+      "Babylone",
+      "ru",
+      "fleuron",
+      "Portique",
+      "récipient"
     ],
     [
-      "lent",
-      "parlement",
-      "caractère",
-      "ingérer",
-      "rite",
-      "parabole",
-      "amibe"
+      "orifice",
+      "chauffeur",
+      "guetter",
+      "confus",
+      "antiquité",
+      "gnomon",
+      "réciter"
     ],
     [
-      "planète",
-      "laser",
-      "jouer",
-      "éprouver",
-      "lyrique",
-      "allegro",
-      "deltoïde"
+      "ciseau",
+      "Karnak",
+      "gencive",
+      "pétition",
+      "barreaux",
+      "Bisounours",
+      "arête"
     ],
     [
-      "saumurer",
-      "classique",
-      "herbier",
-      "pas",
-      "baroque",
-      "expressif",
-      "feuillet"
+      "appareil",
+      "réservoir",
+      "Calypso",
+      "matcha",
+      "Clausius",
+      "annuel",
+      "pouvoir"
     ]
   ],
   "rowClues": [
-    3,
-    1,
+    4,
+    4,
     2,
     4,
-    1,
     3,
-    4
+    1,
+    1
   ],
   "colClues": [
-    2,
-    2,
-    2,
-    2,
-    5,
+    4,
     3,
-    2
+    3,
+    1,
+    3,
+    2,
+    3
   ],
-  "themeWord": "andante",
+  "themeWord": "clepsydre",
   "solution": [
     [
-      false,
-      false,
+      true,
       false,
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true,
       false,
       true
@@ -102,13 +111,13 @@
       false,
       false,
       false,
-      true,
       false,
-      false
+      true,
+      true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
       false,
@@ -117,26 +126,8 @@
     ],
     [
       true,
-      true,
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       true,
       true,
@@ -146,11 +137,20 @@
       false,
       true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 19
 }

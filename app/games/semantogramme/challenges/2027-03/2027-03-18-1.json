@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "nordique",
-      "quai",
-      "filtrer",
-      "borner"
+      "exploration",
+      "expédition",
+      "héros",
+      "origami"
     ],
     [
-      "wagon",
-      "patient",
-      "compartiment",
-      "sucette"
+      "pirate",
+      "ériger",
+      "voyage",
+      "moufle"
     ],
     [
-      "voyageur",
-      "traditionnel",
-      "alléger",
-      "paresseux"
+      "Aigle",
+      "danger",
+      "jeter",
+      "trésor"
     ],
     [
-      "locomotive",
-      "rail",
-      "préparer",
-      "fret"
+      "arc-boutant",
+      "jungle",
+      "vain",
+      "rougeole"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    1,
-    3
-  ],
-  "colClues": [
     3,
     2,
-    1,
+    2,
     1
   ],
-  "themeWord": "train",
+  "colClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "aventure",
   "solution": [
     [
-      false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
       true,
       false
     ],
     [
       true,
       false,
-      false,
+      true,
       false
     ],
     [
-      true,
+      false,
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

@@ -5,77 +5,77 @@
   "height": 5,
   "words": [
     [
-      "adoration",
-      "ulcère",
-      "deltoïde",
-      "digestion",
-      "beurré"
+      "république",
+      "pneumologue",
+      "alpiniste",
+      "mur",
+      "steppe"
     ],
     [
-      "languir",
-      "rasta",
-      "ériger",
-      "ventre",
-      "tamarin"
+      "Matisse",
+      "escalade",
+      "lance",
+      "singe",
+      "moyeu"
     ],
     [
-      "pylore",
-      "construire",
-      "gastralgie",
-      "étirer",
-      "satiété"
+      "arbre",
+      "varappe",
+      "frontal",
+      "truffe",
+      "pelure"
     ],
     [
-      "avaler",
-      "brûlure",
-      "aigreur",
-      "mue",
-      "aromate"
+      "échelle",
+      "paroi",
+      "sommet",
+      "soufre",
+      "pizza"
     ],
     [
-      "écraser",
-      "poil",
-      "acide",
-      "digérer",
-      "suc"
+      "timbre",
+      "corde",
+      "lierre",
+      "baudrier",
+      "falaise"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    2,
+    2,
     3,
-    3,
-    3
+    4
   ],
   "colClues": [
     2,
-    2,
+    4,
     3,
     3,
-    2
+    1
   ],
-  "themeWord": "estomac",
+  "themeWord": "grimper",
   "solution": [
     [
       false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
+      false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
     ],
     [
       true,
@@ -86,11 +86,11 @@
     ],
     [
       false,
-      false,
+      true,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

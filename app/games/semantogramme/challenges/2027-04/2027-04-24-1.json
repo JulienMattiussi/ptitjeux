@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "caban",
-      "boutonnière",
-      "doublure",
-      "cuire"
+      "gastronomie",
+      "inviter",
+      "piqûre",
+      "échassier"
     ],
     [
-      "esquisser",
-      "migration",
-      "affiner",
-      "pardessus"
+      "évidé",
+      "soin",
+      "premier",
+      "blouse"
     ],
     [
-      "nectar",
-      "paletot",
-      "col",
-      "parka"
+      "pansement",
+      "skieur",
+      "rapides",
+      "seringue"
     ],
     [
-      "découvrir",
-      "capuche",
-      "clairière",
-      "manche"
+      "garde",
+      "Dubaï",
+      "mycose",
+      "urgences"
     ]
   ],
   "rowClues": [
-    3,
     1,
-    3,
+    2,
+    2,
     2
   ],
   "colClues": [
-    1,
-    3,
     2,
+    1,
+    1,
     3
   ],
-  "themeWord": "manteau",
+  "themeWord": "infirmier",
   "solution": [
     [
-      true,
-      true,
+      false,
+      false,
       true,
       false
     ],
     [
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

@@ -7,6 +7,7 @@ import {
   setThemeGuess,
 } from '~/games/semantogramme/engine'
 import { generateSemantogrammeLevel } from '../../generators/semantogramme'
+import { loadCuration } from '../../generators/semantogramme-curation'
 
 describe('semantogramme/generator', () => {
   it.each([1, 2, 3, 4] as const)('niveau %s : grille carrée 3+i', (i) => {
@@ -77,45 +78,20 @@ describe('semantogramme/generator', () => {
     expect(a.solution).toEqual(b.solution)
   })
 
-  describe('branche aléatoire (date sans thème curé)', () => {
-    // `1970-01-01` n'existe dans aucun des `CURATED_THEMES_L*` → le générateur
-    // retombe sur le template aléatoire historique (grille N×N, ~50% thème,
-    // mots potentiellement répétés). On vérifie qu'il produit toujours un
-    // niveau valide et résoluble.
-    const DATE = '1970-01-01'
+  it('reprend le thème du calendrier de curation', () => {
+    expect(generateSemantogrammeLevel('2026-09-01', 1).themeWord).toBe('roman')
+  })
 
-    it.each([1, 2, 3, 4] as const)('niveau %s : grille valide et résoluble', (idx) => {
-      const level = generateSemantogrammeLevel(DATE, idx)
-      expect(level.width).toBe(3 + idx)
-      expect(level.height).toBe(3 + idx)
-      // Au moins un IN par ligne et colonne, au moins un OUT par ligne.
-      for (let y = 0; y < level.height; y++) {
-        expect(level.solution[y].some(Boolean)).toBe(true)
-        expect(level.rowClues[y]).toBeLessThan(level.width)
-      }
-      for (let x = 0; x < level.width; x++) {
-        let any = false
-        for (let y = 0; y < level.height; y++) if (level.solution[y][x]) any = true
-        expect(any).toBe(true)
-      }
-      // Résoluble : appliquer la solution + le thème valide la grille.
-      let state = loadLevel(level)
-      for (let y = 0; y < level.height; y++) {
-        for (let x = 0; x < level.width; x++) {
-          state = setCellStatus(state, x, y, level.solution[y][x] ? 'in' : 'out')
-        }
-      }
-      expect(isGridSolved(state)).toBe(true)
-      state = setThemeGuess(state, level.themeWord)
-      expect(isWon(state)).toBe(true)
-    })
+  it('les cases thème sont des mots curés du thème, les autres non', () => {
+    const curation = loadCuration()
+    const level = generateSemantogrammeLevel('2026-10-07', 3)
+    const members = new Set(curation.words[`3|${level.themeWord}`])
+    level.words.forEach((row, y) =>
+      row.forEach((word, x) => expect(members.has(word), word).toBe(level.solution[y][x])),
+    )
+  })
 
-    it('déterministe sur la branche aléatoire aussi', () => {
-      const a = generateSemantogrammeLevel(DATE, 3)
-      const b = generateSemantogrammeLevel(DATE, 3)
-      expect(a.themeWord).toBe(b.themeWord)
-      expect(a.solution).toEqual(b.solution)
-      expect(a.words).toEqual(b.words)
-    })
+  it('refuse une date absente du calendrier', () => {
+    expect(() => generateSemantogrammeLevel('1970-01-01', 1)).toThrow()
   })
 })

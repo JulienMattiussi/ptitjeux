@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "corticoïde",
-      "culminer",
-      "confiture",
-      "demi",
-      "hausser",
-      "sommet"
+      "oeufs",
+      "poêle",
+      "norvégienne",
+      "majesté",
+      "mentonnière",
+      "pochoir"
     ],
     [
-      "sagoutier",
-      "douve",
-      "gastronomie",
-      "gratte-ciel",
-      "élever",
-      "saphir"
+      "fixation",
+      "direction",
+      "ciboulette",
+      "Woodstock",
+      "yeux",
+      "battre"
     ],
     [
-      "apporter",
-      "remonter",
-      "recul",
-      "autruche",
-      "embarquer",
-      "transpirer"
+      "Alexandre",
+      "espagnole",
+      "langouste",
+      "brouillé",
+      "Riverdance",
+      "champignons"
     ],
     [
-      "escalier",
-      "délicate",
-      "bande",
-      "survoler",
-      "détecter",
-      "échelle"
+      "Vador",
+      "courtisan",
+      "protégée",
+      "plier",
+      "jambon",
+      "persil"
     ],
     [
-      "joyeux",
-      "déserter",
-      "pieuvre",
-      "pente",
-      "plancton",
-      "mystérieuse"
+      "baveuse",
+      "vivarium",
+      "meunière",
+      "fruitier",
+      "quantité",
+      "dépoli"
     ],
     [
-      "enfourcher",
-      "sceller",
-      "gravir",
-      "colline",
-      "régate",
-      "mot"
+      "archéologue",
+      "tuba",
+      "fromage",
+      "explorer",
+      "dîner",
+      "eau-de-vie"
     ]
   ],
   "rowClues": [
     3,
     2,
-    2,
+    3,
     3,
     1,
-    3
+    2
   ],
   "colClues": [
     2,
     2,
-    1,
-    4,
     3,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "monter",
+  "themeWord": "omelette",
   "solution": [
     [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       false,
       false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      true,
+      false,
       true
     ],
     [
@@ -85,38 +101,22 @@
       false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
       true
     ],
     [
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       false,
       false
     ],
     [
+      false,
+      false,
       true,
       false,
       true,
-      true,
-      false,
       false
     ]
   ],

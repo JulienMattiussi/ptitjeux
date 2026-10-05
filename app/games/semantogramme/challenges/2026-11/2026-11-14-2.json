@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "ordure",
-      "enterré",
-      "graisse",
-      "cabernet",
-      "crotté"
+      "neuf",
+      "bedaine",
+      "ombre",
+      "simple",
+      "Matrix"
     ],
     [
-      "pilule",
-      "tache",
-      "fange",
-      "poisseux",
-      "ranger"
+      "cri",
+      "rosée",
+      "poisson",
+      "facture",
+      "matin"
     ],
     [
-      "détritus",
-      "bec",
-      "arachnide",
-      "crasseux",
-      "pépite"
+      "frénétique",
+      "menthe",
+      "frisquet",
+      "glacé",
+      "couvert"
     ],
     [
-      "souiller",
-      "pollué",
-      "ratatouille",
-      "maculer",
-      "immonde"
+      "lambin",
+      "bal",
+      "dépense",
+      "coût",
+      "bille"
     ],
     [
-      "dégoûtant",
-      "poussière",
-      "estival",
-      "colorée",
-      "boue"
+      "récent",
+      "brise",
+      "Mansart",
+      "réfrigérateur",
+      "molaire"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
     4,
+    3,
+    2,
     3
   ],
   "colClues": [
-    4,
-    3,
     2,
     3,
-    3
+    4,
+    4,
+    1
   ],
-  "themeWord": "sale",
+  "themeWord": "frais",
   "solution": [
     [
       true,
       false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
       true
     ],
     [
@@ -71,9 +78,9 @@
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       false
     ],
@@ -82,15 +89,8 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

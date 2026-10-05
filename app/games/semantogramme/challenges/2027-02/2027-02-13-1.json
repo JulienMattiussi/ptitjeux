@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "pointu",
-      "cendrier",
-      "soigné",
-      "seau"
+      "vermeil",
+      "Nala",
+      "bureau",
+      "bocage"
     ],
     [
-      "brosse",
-      "nettoyage",
-      "sol",
-      "passe"
+      "cadreur",
+      "Simba",
+      "Afrique",
+      "fauve"
     ],
     [
-      "poussière",
-      "vol",
-      "fait main",
-      "piqûre"
+      "crinière",
+      "tergiverser",
+      "chasse",
+      "savane"
     ],
     [
-      "serpillière",
-      "peigne",
-      "paille",
-      "addition"
+      "roi",
+      "innocence",
+      "rugir",
+      "Mufasa"
     ]
   ],
   "rowClues": [
-    2,
-    3,
     1,
-    2
+    3,
+    3,
+    3
   ],
   "colClues": [
+    2,
+    2,
     3,
-    2,
-    2,
-    1
+    3
   ],
-  "themeWord": "balai",
+  "themeWord": "lion",
   "solution": [
     [
       false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      false,
-      false
+      true,
+      true
     ],
     [
       true,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

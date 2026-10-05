@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-14-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "crinière",
+      "bogue",
+      "sablier",
+      "funèbre",
+      "Ardèche"
+    ],
+    [
+      "hérisson",
+      "terre",
+      "chaud",
+      "automne",
+      "moraine"
+    ],
+    [
+      "transept",
+      "brun",
+      "bois",
+      "vadrouiller",
+      "noir"
+    ],
+    [
+      "classer",
+      "Beauce",
+      "glacé",
+      "Nancy",
+      "horizon"
+    ],
+    [
+      "noisette",
+      "MacGyver",
+      "brachiosaure",
+      "café",
+      "milieu"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "marron",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 12
+}

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "négoce",
-      "incapable",
-      "écouler",
-      "commerce",
-      "liquider"
+      "placide",
+      "doux",
+      "acrobatique",
+      "zen",
+      "paisible"
     ],
     [
-      "noiraud",
-      "bruyant",
-      "livrer",
-      "amplificateur",
-      "brader"
+      "serein",
+      "ambitionner",
+      "lac",
+      "isocèle",
+      "chef"
     ],
     [
-      "couard",
-      "troc",
-      "vente",
-      "boutique",
-      "vendeur"
+      "apaisé",
+      "analyse",
+      "plat",
+      "mordant",
+      "Cliff"
     ],
     [
-      "consoler",
-      "ivoire",
-      "client",
-      "fournir",
-      "prix"
+      "sketch",
+      "repos",
+      "échouer",
+      "flegme",
+      "silence"
     ],
     [
-      "enchère",
-      "plongeon",
-      "urbain",
-      "nettoyer",
-      "inauguration"
+      "sérénité",
+      "quiétude",
+      "détendu",
+      "bohème",
+      "tranquille"
     ]
   ],
   "rowClues": [
     4,
     2,
-    4,
-    3,
-    1
-  ],
-  "colClues": [
     2,
-    1,
-    4,
     3,
     4
   ],
-  "themeWord": "vendre",
+  "colClues": [
+    4,
+    3,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "calme",
   "solution": [
     [
       true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       true,
       true
     ],
     [
       true,
       false,
-      false,
+      true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

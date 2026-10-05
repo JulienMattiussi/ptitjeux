@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "réaction",
-      "fenêtre",
-      "garage",
-      "foc"
+      "approuver",
+      "crème",
+      "tasse",
+      "parapente"
     ],
     [
-      "cheminée",
-      "porte",
-      "grenier",
-      "carte"
+      "torréfaction",
+      "prologue",
+      "banlieue",
+      "coelacanthe"
     ],
     [
-      "terrasse",
-      "cave",
-      "nuque",
-      "balcon"
+      "texture",
+      "audacieux",
+      "arabica",
+      "percolateur"
     ],
     [
-      "mur",
-      "cardiogramme",
-      "crédit",
-      "véranda"
+      "grain",
+      "moka",
+      "angle",
+      "robusta"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
-    2
+    1,
+    2,
+    3
   ],
   "colClues": [
-    3,
-    3,
+    2,
+    2,
     2,
     2
   ],
-  "themeWord": "maison",
+  "themeWord": "café",
   "solution": [
     [
       false,
@@ -51,22 +51,22 @@
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
-      true,
-      true,
       false,
+      false,
+      true,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

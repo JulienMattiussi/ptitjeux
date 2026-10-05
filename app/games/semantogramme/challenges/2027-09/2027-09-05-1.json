@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "station",
+      "Scala",
+      "comptine",
+      "RATP"
+    ],
+    [
+      "entretien",
+      "passager",
+      "coelacanthe",
+      "Westminster"
+    ],
+    [
+      "tectonique",
+      "ticket",
+      "émonder",
+      "arrêt"
+    ],
+    [
+      "chauffeur",
+      "fût",
+      "impériale",
+      "pucerons"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    2,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "autobus",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 7
+}

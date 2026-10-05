@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-27-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "carcasse",
+      "bibliothèque",
+      "buanderie",
+      "secret"
+    ],
+    [
+      "calme",
+      "minute",
+      "taire",
+      "venin"
+    ],
+    [
+      "muet",
+      "bruit",
+      "chut",
+      "Poe"
+    ],
+    [
+      "mutisme",
+      "achat",
+      "devoirs",
+      "accéléromètre"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    1
+  ],
+  "themeWord": "silence",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

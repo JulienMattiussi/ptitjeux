@@ -5,96 +5,105 @@
   "height": 7,
   "words": [
     [
-      "sourdine",
-      "anthropique",
-      "abstraction",
-      "humer",
-      "lyrique",
-      "gaieté",
-      "adapté"
+      "Cygne",
+      "icône",
+      "ordure",
+      "pester",
+      "élixir",
+      "orthodoxe",
+      "goulot"
     ],
     [
-      "spacieux",
-      "delaunay",
-      "récolté",
-      "orchestre",
-      "swing",
-      "cosmique",
-      "couvercle"
+      "Sainte-Sophie",
+      "Justinien",
+      "eunuque",
+      "Délivrance",
+      "appétit",
+      "mosaïque",
+      "liquéfaction"
     ],
     [
-      "mythologique",
-      "trouillard",
-      "pénétrer",
-      "art",
-      "bricoler",
-      "musical",
-      "voile"
+      "jury",
+      "querelle",
+      "gravats",
+      "visiteur",
+      "Bosphore",
+      "momentané",
+      "Istanbul"
     ],
     [
-      "kupka",
-      "température",
-      "vibrant",
-      "rythme",
-      "lumière",
-      "cymbale",
-      "cinétique"
+      "chapelet",
+      "griffes",
+      "humilité",
+      "autocrate",
+      "Ravenne",
+      "coupole",
+      "complexe"
     ],
     [
-      "mouvement",
-      "discourir",
-      "mesquinerie",
-      "immortelle",
-      "conservateur",
-      "dynamique",
-      "fourche"
+      "Théodora",
+      "causer",
+      "forum",
+      "Paléologue",
+      "Constantinople",
+      "basilique",
+      "culmination"
     ],
     [
-      "archipel",
-      "reprocher",
-      "malpropre",
-      "lundi",
-      "couleur",
-      "kiwi",
-      "altérée"
+      "aventure",
+      "biceps",
+      "boulettes",
+      "amoralité",
+      "clou",
+      "cilice",
+      "empereur"
     ],
     [
-      "humilier",
-      "duper",
-      "mammifère",
-      "piste",
-      "marquer",
-      "cercle",
-      "dévonien"
+      "ferry",
+      "freux",
+      "paix",
+      "doré",
+      "chamade",
+      "duel",
+      "pensum"
     ]
   ],
   "rowClues": [
     2,
-    1,
+    4,
     3,
-    5,
-    2,
+    4,
+    4,
     1,
     1
   ],
   "colClues": [
+    2,
     3,
     1,
-    2,
-    2,
     3,
     3,
-    1
+    4,
+    3
   ],
-  "themeWord": "orphisme",
+  "themeWord": "byzantin",
   "solution": [
     [
       false,
-      false,
       true,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
+      false,
+      true,
       false
     ],
     [
@@ -102,34 +111,25 @@
       true,
       false,
       false,
+      true,
       false,
-      false,
-      false
+      true
     ],
     [
-      true,
       false,
       false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true,
       true,
-      false,
       true
     ],
     [
       true,
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true,
       false
     ],
@@ -138,19 +138,19 @@
       false,
       false,
       false,
-      true,
       false,
-      false
+      false,
+      true
     ],
     [
       false,
       false,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

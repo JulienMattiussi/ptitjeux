@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "aiguille",
-      "prédateur",
-      "cocotte",
-      "faîte"
+      "palmes",
+      "prince",
+      "verte",
+      "lambiner"
     ],
     [
-      "délégué",
-      "persistant",
-      "polir",
-      "arbre"
+      "mare",
+      "couchant",
+      "Kermit",
+      "dégringoler"
     ],
     [
-      "verdure",
-      "cochon",
-      "clair",
-      "palme"
+      "nénuphar",
+      "sauter",
+      "rhume",
+      "coasser"
     ],
     [
-      "triompher",
-      "frondaison",
-      "nervure",
-      "natation"
+      "cuisses",
+      "batracien",
+      "laiton",
+      "têtard"
     ]
   ],
   "rowClues": [
-    1,
     2,
     2,
-    2
+    3,
+    3
   ],
   "colClues": [
+    3,
+    3,
     2,
-    2,
-    1,
     2
   ],
-  "themeWord": "feuille",
+  "themeWord": "grenouille",
   "solution": [
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
+      true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

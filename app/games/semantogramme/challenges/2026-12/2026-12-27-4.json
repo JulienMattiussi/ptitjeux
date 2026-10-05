@@ -5,100 +5,109 @@
   "height": 7,
   "words": [
     [
-      "acoustique",
-      "cils",
-      "magasin",
-      "savante",
-      "modéliser",
-      "mesurer",
-      "prédire"
+      "existence",
+      "archéologue",
+      "nettoyer",
+      "Mésopotamie",
+      "Masaï",
+      "brise",
+      "survoler"
     ],
     [
-      "sicilienne",
-      "maître",
-      "lèchefrite",
-      "télescopique",
-      "descriptive",
-      "régional",
-      "sanglot"
+      "apparition",
+      "Sartre",
+      "dan",
+      "exploit",
+      "Lusitania",
+      "visionnaire",
+      "Pinocchio"
     ],
     [
-      "tonnerre",
-      "planétaire",
-      "décalé",
-      "acte",
-      "météo",
-      "température",
-      "observer"
+      "intuition",
+      "mâchoire",
+      "dépasser",
+      "seiche",
+      "humanoïde",
+      "description",
+      "croissant"
     ],
     [
-      "réchauffement",
-      "gorille",
-      "science",
-      "fidélité",
-      "glacier",
-      "vent",
-      "précipitation"
+      "andante",
+      "irréaliste",
+      "blatte",
+      "carpette",
+      "vécu",
+      "Malraux",
+      "mouillé"
     ],
     [
-      "balcon",
-      "atmosphère",
-      "renifler",
-      "quotidien",
-      "saison",
-      "pression",
-      "gaudí"
+      "angora",
+      "Ricoeur",
+      "Soissons",
+      "réduction",
+      "vertige",
+      "pipelette",
+      "Hegel"
     ],
     [
-      "paradoxe",
-      "interglaciaire",
-      "global",
-      "téter",
-      "projection",
-      "dinosaure",
-      "essentiel"
+      "Jafar",
+      "savoureux",
+      "Levinas",
+      "chose",
+      "perception",
+      "chair",
+      "parabole"
     ],
     [
-      "cesser",
-      "carbone",
-      "transpirer",
-      "mur",
-      "persil",
-      "séduction",
-      "paresseux"
+      "étriqué",
+      "culotte",
+      "inconditionnel",
+      "esprit",
+      "conscience",
+      "plantaire",
+      "elfe"
     ]
   ],
   "rowClues": [
-    4,
     1,
-    4,
-    5,
+    2,
+    2,
+    1,
     3,
-    1,
-    1
+    4,
+    2
   ],
   "colClues": [
-    1,
     3,
     2,
     1,
-    4,
-    5,
-    3
+    3,
+    3,
+    2,
+    1
   ],
-  "themeWord": "climatologie",
+  "themeWord": "phénoménologie",
   "solution": [
     [
+      true,
       false,
       false,
       false,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false
     ],
     [
+      true,
+      true,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false,
@@ -108,37 +117,10 @@
     ],
     [
       false,
-      true,
       false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
       false,
       false
     ],
@@ -146,11 +128,29 @@
       false,
       true,
       false,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "manoeuvrer",
-      "brie",
-      "blessé",
-      "tripe",
-      "étape",
-      "apocalypse"
+      "Seine",
+      "cargaison",
+      "chaland",
+      "kilomètre",
+      "halage",
+      "ligament"
     ],
     [
-      "transilvanien",
-      "envoyer",
-      "savourer",
-      "copilote",
-      "cap",
-      "simple"
+      "fret",
+      "constellation",
+      "bateau",
+      "gabare",
+      "cambrioleur",
+      "bief"
     ],
     [
-      "tableau",
-      "aviateur",
-      "gouvernail",
-      "éjecter",
-      "lombric",
-      "cockpit"
+      "marinier",
+      "obtus",
+      "Rhin",
+      "écluse",
+      "ruisselant",
+      "amphore"
     ],
     [
-      "guider",
-      "diriger",
-      "gracieux",
-      "décoller",
-      "planer",
-      "staub"
+      "Bozo",
+      "levain",
+      "canal",
+      "amarrer",
+      "batelier",
+      "ophtalmologue"
     ],
     [
-      "tuteur",
-      "atterrir",
-      "mariage",
-      "craquelée",
-      "manche",
-      "survoler"
+      "frais",
+      "Elvis",
+      "bouteilles",
+      "fluvial",
+      "mitonner",
+      "Enigma"
     ],
     [
-      "arc",
-      "floraison",
-      "derby",
-      "piquer",
-      "commande",
-      "satisfaction"
+      "cale",
+      "timonerie",
+      "silencieux",
+      "flash",
+      "élu",
+      "fleuve"
     ]
   ],
   "rowClues": [
+    4,
+    4,
+    3,
+    3,
     1,
+    3
+  ],
+  "colClues": [
+    4,
     2,
     4,
     4,
-    3,
+    2,
     2
   ],
-  "colClues": [
-    3,
-    3,
-    1,
-    3,
-    4,
-    2
-  ],
-  "themeWord": "piloter",
+  "themeWord": "péniche",
   "solution": [
     [
       true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       false
     ],
     [
       true,
-      true,
-      true,
       false,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       true,
       false
     ],
     [
       false,
-      true,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

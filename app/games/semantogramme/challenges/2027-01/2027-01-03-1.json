@@ -5,56 +5,44 @@
   "height": 4,
   "words": [
     [
-      "brun",
-      "violet",
-      "gnome",
-      "ébahissement"
+      "rythme",
+      "partition",
+      "lignes",
+      "orchestre"
     ],
     [
-      "orange",
-      "palme",
-      "marron",
-      "inoccupé"
+      "base",
+      "Morphée",
+      "harmonie",
+      "chanson"
     ],
     [
-      "rose",
-      "bleu",
-      "projection",
-      "blanc"
+      "guitare",
+      "rire",
+      "renifler",
+      "note"
     ],
     [
-      "gratter",
-      "noir",
-      "gris",
-      "damier"
+      "solfège",
+      "mélodie",
+      "concert",
+      "rédaction"
     ]
   ],
   "rowClues": [
-    2,
-    2,
     3,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
     3,
-    3,
     2,
-    1
+    2,
+    3
   ],
-  "themeWord": "couleur",
+  "themeWord": "musique",
   "solution": [
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
-    ],
     [
       true,
       true,
@@ -63,10 +51,22 @@
     ],
     [
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

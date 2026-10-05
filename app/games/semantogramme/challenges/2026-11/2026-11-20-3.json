@@ -5,83 +5,75 @@
   "height": 6,
   "words": [
     [
-      "législatif",
-      "long",
-      "noir",
-      "fin",
-      "ailier",
-      "paupière"
+      "Laplace",
+      "verre",
+      "Poséidon",
+      "Dürer",
+      "chalumeau",
+      "distance"
     ],
     [
-      "mascara",
-      "profondeur",
-      "esquisse",
-      "cartonnage",
-      "tomber",
-      "apesanteur"
+      "zoom",
+      "Cavaillon",
+      "ballon",
+      "incontestable",
+      "Saint-Laurent",
+      "python"
     ],
     [
-      "beau-frère",
-      "battre",
-      "féminité",
-      "opuntia",
-      "tibia",
-      "élaborer"
+      "vent",
+      "Honda",
+      "tempête",
+      "pipe",
+      "cornemuse",
+      "rafale"
     ],
     [
-      "soyeux",
-      "tian",
-      "gazelle",
-      "autel",
-      "plaisir",
-      "maquiller"
+      "pissenlit",
+      "faisceau",
+      "QWERTY",
+      "bise",
+      "chandelle",
+      "anniversaire"
     ],
     [
-      "pimenter",
-      "tarif",
-      "protection",
-      "séduction",
-      "cligner",
-      "mince"
+      "surdité",
+      "vasière",
+      "respirer",
+      "transcendance",
+      "roublard",
+      "poumons"
     ],
     [
-      "court",
-      "fascinant",
-      "silex",
-      "coller",
-      "délicat",
-      "fusain"
+      "haleine",
+      "bougie",
+      "expirer",
+      "ostréiculteur",
+      "gonfler",
+      "porridge"
     ]
   ],
   "rowClues": [
+    2,
+    1,
+    5,
     4,
     2,
-    2,
-    2,
-    4,
-    2
+    4
   ],
   "colClues": [
     3,
     2,
-    3,
+    4,
     2,
-    3,
+    4,
     3
   ],
-  "themeWord": "cil",
+  "themeWord": "souffler",
   "solution": [
     [
       false,
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       false,
       true,
@@ -89,7 +81,7 @@
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false,
@@ -98,14 +90,6 @@
     [
       true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       true,
       true,
@@ -115,10 +99,26 @@
       true,
       false,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 18
 }

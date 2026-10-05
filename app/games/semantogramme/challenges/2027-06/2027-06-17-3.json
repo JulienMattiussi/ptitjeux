@@ -5,73 +5,81 @@
   "height": 6,
   "words": [
     [
-      "franchir",
-      "forêt",
-      "ouvrière",
-      "foudroyant",
-      "bijou",
-      "sillonner"
+      "ventre",
+      "chauffeur",
+      "Chartreuse",
+      "Londres",
+      "Marne",
+      "compteur"
     ],
     [
-      "guerre",
-      "perroquet",
-      "singulier",
-      "passage",
-      "pleutre",
-      "transpercer"
+      "station",
+      "attentat",
+      "abricotier",
+      "tuyère",
+      "binaire",
+      "aéroport"
     ],
     [
-      "mer",
-      "mécanicien",
-      "fleuve",
-      "impulsion",
-      "charnière",
-      "enjamber"
+      "abandonner",
+      "Réaumur",
+      "jaune",
+      "Peugeot",
+      "infirmier",
+      "cabane"
     ],
     [
-      "tunnel",
-      "rue",
-      "voguer",
-      "côtoyer",
-      "longer",
-      "syncopé"
+      "bref",
+      "tzatziki",
+      "blouson",
+      "trajet",
+      "client",
+      "Cassini"
     ],
     [
-      "syngnathe",
-      "rebondissement",
-      "colle",
-      "gué",
-      "odieux",
-      "faïence"
+      "course",
+      "VTC",
+      "génome",
+      "périscope",
+      "cocaïne",
+      "inexprimable"
     ],
     [
-      "pont",
-      "sang",
-      "nouvelle-zélande",
-      "parcourir",
-      "pêcher",
-      "dépression"
+      "cool",
+      "pourboire",
+      "survivant",
+      "irritant",
+      "Marseille",
+      "défunt"
     ]
   ],
   "rowClues": [
+    4,
     2,
     2,
     2,
-    5,
-    1,
+    2,
     2
   ],
   "colClues": [
+    2,
     3,
     1,
-    2,
-    4,
-    1,
-    3
+    3,
+    3,
+    2
   ],
-  "themeWord": "traverser",
+  "themeWord": "taxi",
   "solution": [
     [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
       true,
       false,
       false,
@@ -82,25 +90,9 @@
     [
       false,
       false,
-      false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
       false
     ],
     [
@@ -108,15 +100,23 @@
       false,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
       true,
+      true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
+      false,
+      true,
       false
     ]
   ],

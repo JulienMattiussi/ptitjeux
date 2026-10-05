@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "bride",
-      "marronnier",
-      "carnaval",
-      "vaillant"
+      "cartable",
+      "gouvernail",
+      "maîtresse",
+      "noisetier"
     ],
     [
-      "taper",
-      "sourd",
-      "muscade",
-      "saule"
+      "préau",
+      "cahier",
+      "excavation",
+      "craie"
     ],
     [
-      "érable",
-      "choix",
-      "sapin",
-      "hêtre"
+      "chiendent",
+      "élève",
+      "hérédité",
+      "récréation"
     ],
     [
-      "parti",
-      "cèdre",
-      "porte",
-      "peuplier"
+      "tableau",
+      "cantine",
+      "traîne",
+      "dictée"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    2,
     3,
-    2
+    2,
+    3
   ],
   "colClues": [
-    1,
-    2,
+    3,
+    3,
     1,
     3
   ],
-  "themeWord": "arbre",
+  "themeWord": "école",
   "solution": [
     [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
+      true,
+      true,
       false,
+      true
+    ],
+    [
       false,
+      true,
       false,
       true
     ],
     [
       true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

@@ -5,93 +5,93 @@
   "height": 7,
   "words": [
     [
-      "jeu",
-      "chapelle",
-      "habileté",
-      "dorée",
-      "dextérité",
-      "luxe",
-      "conducteur"
+      "Afrique",
+      "accélération",
+      "rivage",
+      "Oléron",
+      "gazelle",
+      "pure",
+      "halle"
     ],
     [
-      "pulvériser",
-      "spectaculaire",
-      "immobile",
-      "doigté",
-      "commander",
-      "girafe",
-      "talent"
+      "Pétrarque",
+      "édition",
+      "SOS",
+      "rapidité",
+      "Esmeralda",
+      "Namibie",
+      "pétrir"
     ],
     [
-      "brillant",
-      "rapt",
-      "malléable",
-      "crouton",
-      "ulcère",
-      "éponge",
-      "fasce"
+      "mécanicien",
+      "fondue",
+      "chasse",
+      "achillée",
+      "Huis-clos",
+      "savane",
+      "élancé"
     ],
     [
-      "classe",
-      "juvénile",
-      "limbe",
-      "caillouteux",
-      "rapide",
-      "atterrir",
-      "rallonger"
+      "menacé",
+      "farine",
+      "androïde",
+      "Segway",
+      "pointe",
+      "échelle",
+      "catalogue"
     ],
     [
-      "argousier",
-      "épine",
-      "pousser",
-      "cabas",
-      "liszt",
-      "provocation",
-      "paganini"
+      "brasser",
+      "merlot",
+      "hier",
+      "précaire",
+      "plaisantin",
+      "Kenya",
+      "foncé"
     ],
     [
-      "rouget",
-      "maestro",
-      "pianiste",
-      "lionceau",
-      "maîtrise",
-      "exceptionnel",
-      "larmoyer"
+      "jarretelle",
+      "sprint",
+      "larmes",
+      "traque",
+      "foulée",
+      "Hawaï",
+      "tranquillité"
     ],
     [
-      "effort",
-      "technique",
-      "violoniste",
-      "sauce",
-      "caleçon",
-      "difficile",
-      "midi"
+      "inéluctable",
+      "Celsius",
+      "taches",
+      "griffes",
+      "village",
+      "léopard",
+      "commissure"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    1,
-    1,
     2,
+    3,
+    2,
+    1,
     4,
     3
   ],
   "colClues": [
     2,
-    3,
-    3,
-    1,
-    4,
     2,
-    2
+    3,
+    3,
+    3,
+    4,
+    1
   ],
-  "themeWord": "virtuosité",
+  "themeWord": "guépard",
   "solution": [
     [
       true,
-      false,
       true,
+      false,
       false,
       true,
       false,
@@ -99,11 +99,20 @@
     ],
     [
       false,
+      false,
+      false,
       true,
       false,
       true,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      false,
+      false,
+      true,
       true
     ],
     [
@@ -111,15 +120,6 @@
       false,
       false,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true,
       false,
       false
@@ -129,16 +129,7 @@
       false,
       false,
       false,
-      true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
       true,
       false
     ],
@@ -146,11 +137,20 @@
       false,
       true,
       true,
+      true,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false,
       true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

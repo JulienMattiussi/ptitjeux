@@ -5,92 +5,84 @@
   "height": 6,
   "words": [
     [
-      "cinéma",
-      "chauffeur",
-      "attente",
-      "course",
-      "compteur",
-      "service"
+      "houspiller",
+      "cassoulet",
+      "surréalisme",
+      "poutre",
+      "vert",
+      "blanc"
     ],
     [
-      "tressée",
-      "lime",
-      "croire",
-      "monter",
-      "voiture",
-      "productif"
+      "Jack",
+      "sagaie",
+      "légumineuse",
+      "plat",
+      "Garfunkel",
+      "Goethe"
     ],
     [
-      "défiler",
-      "tarif",
-      "battre",
-      "rapide",
-      "ligament",
-      "vibrer"
+      "flageolet",
+      "traquer",
+      "lisière",
+      "bénéfice",
+      "lingot",
+      "récurer"
     ],
     [
-      "commander",
-      "vendeur",
-      "jaune",
-      "os",
-      "aéroport",
-      "payer"
+      "princesse",
+      "rouge",
+      "accalmie",
+      "Soissons",
+      "nuance",
+      "enduire"
     ],
     [
-      "repos",
-      "hiver",
-      "âne",
-      "cylindrique",
-      "retenir",
-      "transporter"
+      "preux",
+      "grain",
+      "Krafft",
+      "divin",
+      "rame",
+      "ombrelle"
     ],
     [
-      "descendre",
-      "urbain",
-      "vaste",
-      "sorbier",
-      "asperger",
-      "reprise"
+      "magique",
+      "écosser",
+      "Desproges",
+      "lin",
+      "oculaire",
+      "archive"
     ]
   ],
   "rowClues": [
-    5,
+    3,
+    3,
     2,
+    3,
     2,
-    4,
-    1,
     2
   ],
   "colClues": [
+    4,
+    4,
+    1,
     2,
     3,
-    2,
-    3,
-    3,
-    3
+    1
   ],
-  "themeWord": "taxi",
+  "themeWord": "haricot",
   "solution": [
     [
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       true,
       true
     ],
     [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
+      true,
       true,
       false,
       false
@@ -98,18 +90,26 @@
     [
       true,
       false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
       true,
       false,
       true,
-      true
+      false,
+      false
     ],
     [
       false,
+      true,
       false,
       false,
-      false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

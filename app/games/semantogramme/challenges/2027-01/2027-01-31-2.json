@@ -5,81 +5,81 @@
   "height": 5,
   "words": [
     [
-      "noueux",
-      "payer",
-      "tari",
-      "foin",
-      "nuage"
+      "fumée",
+      "toast",
+      "foulure",
+      "gazette",
+      "État"
     ],
     [
-      "paille",
-      "desséché",
-      "shaker",
-      "restauration",
-      "déshydrater"
+      "barbecue",
+      "saisir",
+      "griotte",
+      "braise",
+      "massage"
     ],
     [
-      "créatinine",
-      "cendre",
-      "négoce",
-      "câble",
-      "perte"
+      "côte",
+      "brûler",
+      "plancha",
+      "résine",
+      "brochette"
     ],
     [
-      "aridité",
-      "uni",
-      "désert",
-      "soif",
-      "rêche"
+      "encre",
+      "feu",
+      "saucisse",
+      "croque",
+      "charbon"
     ],
     [
-      "évaporer",
-      "requête",
-      "assécher",
-      "atmosphérique",
-      "distance"
+      "merguez",
+      "bronchite",
+      "clonage",
+      "ordonnance",
+      "pain"
     ]
   ],
   "rowClues": [
     2,
     3,
-    1,
+    4,
     4,
     2
   ],
   "colClues": [
-    3,
+    4,
+    4,
     2,
-    3,
     2,
-    2
+    3
   ],
-  "themeWord": "sec",
+  "themeWord": "griller",
   "solution": [
     [
-      false,
-      false,
       true,
       true,
+      false,
+      false,
       false
     ],
     [
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       true,
       true
@@ -87,10 +87,10 @@
     [
       true,
       false,
-      true,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

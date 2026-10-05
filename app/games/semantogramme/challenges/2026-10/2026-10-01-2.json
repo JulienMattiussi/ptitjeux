@@ -5,74 +5,60 @@
   "height": 5,
   "words": [
     [
-      "chardon",
-      "crucifère",
-      "pièce",
-      "familial",
-      "creuset"
+      "commando",
+      "Drogon",
+      "pervenche",
+      "cobalt",
+      "hennir"
     ],
     [
-      "plat-de-service",
-      "plastique",
-      "cantilène",
-      "noël",
-      "fêter"
+      "Chagall",
+      "ciel",
+      "Klein",
+      "interglaciaire",
+      "Gutenberg"
     ],
     [
-      "aileron",
-      "an",
-      "bûche",
-      "huître",
-      "industrielle"
+      "turquoise",
+      "nocturne",
+      "fourbe",
+      "indigo",
+      "Méditerranée"
     ],
     [
-      "festif",
-      "traditionnel",
-      "cadeau",
-      "décompression",
-      "champagne"
+      "jean",
+      "électrique",
+      "gruau",
+      "ecchymose",
+      "Beauce"
     ],
     [
-      "fondamental",
-      "immunité",
-      "courbé",
-      "gourmand",
-      "poisseux"
+      "version",
+      "sangria",
+      "outremer",
+      "Schtroumpf",
+      "tempura"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    3,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
     2,
     3,
     4,
     1
   ],
-  "colClues": [
-    1,
-    2,
-    2,
-    4,
-    2
-  ],
-  "themeWord": "réveillon",
+  "themeWord": "bleu",
   "solution": [
     [
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
@@ -82,15 +68,29 @@
       true,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
     ],
     [
       false,
       false,
-      false,
+      true,
       true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

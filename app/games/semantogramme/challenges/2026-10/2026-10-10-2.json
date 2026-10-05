@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "pixel",
-      "abricot",
-      "tapette",
-      "mandarine",
-      "citrouille"
+      "Nil",
+      "traîne",
+      "négliger",
+      "caméscope",
+      "limousine"
     ],
     [
-      "paprika",
-      "safran",
-      "carotte",
-      "étroit",
-      "saturne"
+      "chromosome",
+      "clap",
+      "échasse",
+      "interminable",
+      "tintement"
     ],
     [
-      "feu",
-      "cuivré",
-      "maladie",
-      "boulevard",
-      "prière"
+      "légendaire",
+      "kilométrique",
+      "ficelle",
+      "élancé",
+      "persévérance"
     ],
     [
-      "abat-jour",
-      "foulard",
-      "réalisateur",
-      "coucher",
-      "rouille"
+      "commande",
+      "méditatif",
+      "piano",
+      "triton",
+      "mètre"
     ],
     [
-      "inondation",
-      "vidéo",
-      "clémentine",
-      "flamme",
-      "fruit"
+      "liane",
+      "étiré",
+      "hallebardes",
+      "Arabie",
+      "voiturette"
     ]
   ],
   "rowClues": [
     3,
+    2,
     3,
-    2,
-    2,
-    3
+    1,
+    2
   ],
   "colClues": [
     2,
     3,
     2,
-    3,
-    3
+    2,
+    2
   ],
-  "themeWord": "orange",
+  "themeWord": "long",
   "solution": [
     [
-      false,
+      true,
       true,
       false,
-      true,
+      false,
       true
     ],
     [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
+      true,
+      true,
       false
     ],
     [
       false,
-      false,
-      false,
       true,
-      true
+      true,
+      true,
+      false
     ],
     [
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

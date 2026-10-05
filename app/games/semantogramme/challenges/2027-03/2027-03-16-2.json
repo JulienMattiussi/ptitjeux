@@ -5,50 +5,50 @@
   "height": 5,
   "words": [
     [
-      "mélancolique",
-      "ventre",
-      "crête",
-      "larme",
-      "humour"
+      "Hippocrate",
+      "serval",
+      "farce",
+      "humour",
+      "obsèques"
     ],
     [
-      "doudou",
-      "sorbet",
-      "moka",
       "ricaner",
-      "peigne"
-    ],
-    [
-      "décorer",
-      "fête",
-      "pouffer",
-      "hilare",
-      "sourire"
-    ],
-    [
-      "ironie",
-      "geste",
-      "amusement",
-      "comique",
-      "cours"
-    ],
-    [
-      "séance",
-      "gaieté",
-      "blague",
+      "lampion",
+      "chatouille",
       "éclat",
-      "glousser"
+      "plaisanterie"
+    ],
+    [
+      "clown",
+      "gloussement",
+      "exotisme",
+      "Josquin",
+      "bidonner"
+    ],
+    [
+      "hilarité",
+      "terminal",
+      "cache-cache",
+      "comique",
+      "drôle"
+    ],
+    [
+      "blague",
+      "bouche",
+      "pouffer",
+      "joie",
+      "fruit"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    2,
+    4,
     3,
     3,
-    4
+    3
   ],
   "colClues": [
-    1,
+    4,
     1,
     3,
     4,
@@ -59,38 +59,38 @@
     [
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       true,
       false
     ],
     [
+      true,
       false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       true,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

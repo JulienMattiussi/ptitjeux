@@ -5,74 +5,82 @@
   "height": 6,
   "words": [
     [
-      "bruyant",
-      "gizeh",
-      "courge",
-      "appât",
-      "fermenté",
-      "légume"
+      "manège",
+      "sabot",
+      "Iago",
+      "hippodrome",
+      "cheval",
+      "Jenner"
     ],
     [
-      "racine",
-      "jardin",
-      "tendance",
-      "gracile",
-      "chaperon",
-      "fane"
+      "plaine",
+      "Fromentin",
+      "mayonnaise",
+      "vent",
+      "chenet",
+      "western"
     ],
     [
-      "hôpital",
-      "fer",
-      "rouge",
-      "beurre",
-      "tonitruer",
-      "fidèle"
+      "jockey",
+      "civilisation",
+      "prohibition",
+      "ouvert",
+      "adolescent",
+      "équitation"
     ],
     [
-      "quai",
-      "apéritif",
-      "agréable",
-      "esquisser",
-      "attribuer",
-      "fario"
+      "esclaves",
+      "proie",
+      "bretelle",
+      "excellence",
+      "crinière",
+      "Volkswagen"
     ],
     [
-      "délicat",
-      "polluant",
-      "épicé",
-      "rond",
-      "cru",
-      "doubler"
+      "trot",
+      "insectivore",
+      "hypocentre",
+      "Molière",
+      "Espagne",
+      "clavicule"
     ],
     [
-      "croquant",
-      "évolution",
-      "noir",
-      "véloce",
-      "frais",
-      "rose"
+      "Pompadour",
+      "poussière",
+      "cavalier",
+      "course",
+      "Dyson",
+      "étalon"
     ]
   ],
   "rowClues": [
-    1,
-    3,
+    4,
+    2,
     2,
     1,
-    3,
+    1,
     4
   ],
   "colClues": [
+    4,
     2,
-    2,
-    3,
+    1,
     2,
     2,
     3
   ],
-  "themeWord": "radis",
+  "themeWord": "galoper",
   "solution": [
     [
+      true,
+      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false,
@@ -81,7 +89,7 @@
     ],
     [
       true,
-      true,
+      false,
       false,
       false,
       false,
@@ -90,33 +98,25 @@
     [
       false,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       false
     ],
     [
       true,
       false,
-      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      true,
+      true,
+      false,
       true
     ]
   ],

@@ -5,83 +5,76 @@
   "height": 5,
   "words": [
     [
-      "ciseaux",
-      "constitution",
-      "opposition",
-      "maléfice",
-      "compter"
+      "puma",
+      "mou",
+      "Troie",
+      "Ingres",
+      "pharmacie"
     ],
     [
-      "parlement",
-      "élection",
-      "pluraliste",
-      "majorité",
-      "détonation"
+      "escargot",
+      "tuberculose",
+      "igloo",
+      "berceuse",
+      "pépère"
     ],
     [
-      "pédoncule",
-      "an",
-      "république",
-      "liberté",
-      "populaire"
+      "exclusif",
+      "traîner",
+      "apathique",
+      "contrat",
+      "poussif"
     ],
     [
-      "craintif",
-      "poids",
-      "vote",
-      "libre",
-      "citoyen"
+      "tortue",
+      "paresseux",
+      "percussion",
+      "doucement",
+      "filante"
     ],
     [
-      "débattre",
-      "légiférer",
-      "sautiller",
-      "représentative",
-      "géniteur"
+      "stylo",
+      "flâner",
+      "patient",
+      "limace",
+      "lambin"
     ]
   ],
   "rowClues": [
+    1,
     2,
-    4,
     3,
     3,
-    3
+    4
   ],
   "colClues": [
     2,
-    3,
     4,
-    4,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "démocratie",
+  "themeWord": "lent",
   "solution": [
     [
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
       true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      true,
+      false,
       true
     ],
     [
       false,
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
@@ -90,7 +83,14 @@
       false,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

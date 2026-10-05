@@ -5,45 +5,57 @@
   "height": 4,
   "words": [
     [
-      "étudiant",
-      "doctorat",
-      "bibliothèque",
-      "lanterne"
+      "archange",
+      "vibrer",
+      "Chopin",
+      "queue"
     ],
     [
-      "aimanter",
-      "cours",
-      "thèse",
-      "professeur"
+      "accordeur",
+      "ramoneur",
+      "lavis",
+      "Steinway"
     ],
     [
-      "amphi",
-      "diplôme",
-      "gouvernemental",
-      "mémoire"
+      "touche",
+      "pédale",
+      "Pleyel",
+      "Auvergne"
     ],
     [
-      "climat",
-      "succulente",
-      "licence",
-      "austère"
+      "gueules",
+      "tabouret",
+      "partition",
+      "clavier"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
-    3,
-    3,
-    1
+    3
   ],
   "colClues": [
     2,
+    2,
     3,
-    3,
-    2
+    3
   ],
-  "themeWord": "université",
+  "themeWord": "piano",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       true,
       true,
       true,
@@ -54,18 +66,6 @@
       true,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 10

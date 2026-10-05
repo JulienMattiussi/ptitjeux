@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-28-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "Sète",
+      "Kandinsky",
+      "clepsydre",
+      "élaguer",
+      "dissonance",
+      "poilu"
+    ],
+    [
+      "pierre",
+      "biologie",
+      "persienne",
+      "figurine",
+      "couper",
+      "bonsaï"
+    ],
+    [
+      "crayon",
+      "Ève",
+      "broussailleux",
+      "trois",
+      "rosier",
+      "décolleté"
+    ],
+    [
+      "ciseau",
+      "topiaire",
+      "haie",
+      "taper",
+      "dispute",
+      "exprimer"
+    ],
+    [
+      "dépasser",
+      "sécateur",
+      "buis",
+      "émonder",
+      "jardinier",
+      "sculpter"
+    ],
+    [
+      "costume",
+      "gâteau",
+      "poubelle",
+      "diamant",
+      "ébrancher",
+      "papeterie"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    2,
+    3,
+    5,
+    3
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "tailler",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

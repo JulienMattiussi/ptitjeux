@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "remontoir",
-      "tic-tac",
-      "aiguille",
-      "protéger"
+      "pétrin",
+      "pinceaux",
+      "motif",
+      "four"
     ],
     [
-      "seconde",
-      "odorat",
-      "minute",
-      "horloge"
+      "siphon",
+      "tétine",
+      "croissant",
+      "levain"
     ],
     [
-      "cousinage",
-      "bracelet",
-      "caresser",
-      "brassée"
+      "mitron",
+      "chinoiserie",
+      "miche",
+      "ressentir"
     ],
     [
-      "cadran",
-      "ligament",
-      "heure",
-      "pendule"
+      "farine",
+      "baguette",
+      "hardi",
+      "pain"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    1,
+    2,
+    2,
+    2,
     3
   ],
   "colClues": [
     3,
+    1,
     2,
-    3,
-    2
+    3
   ],
-  "themeWord": "montre",
+  "themeWord": "boulanger",
   "solution": [
     [
       true,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ],
     [
-      true,
+      false,
       false,
       true,
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
       true,
-      false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

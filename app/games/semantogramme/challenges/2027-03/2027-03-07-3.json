@@ -5,91 +5,83 @@
   "height": 6,
   "words": [
     [
-      "faïence",
-      "ninja",
-      "présenter",
-      "rond",
-      "manger",
-      "service"
+      "descente",
+      "pince",
+      "parlement",
+      "barbichette",
+      "linge",
+      "envie"
     ],
     [
-      "apprendre",
-      "porcelaine",
-      "décor",
-      "cabaret",
-      "duel",
-      "grange"
+      "levier",
+      "lave-linge",
+      "passerelle",
+      "évier",
+      "laque",
+      "fer"
     ],
     [
-      "cloche",
-      "agaric",
-      "hiéroglyphe",
-      "fragile",
-      "peloton",
-      "vaisselle"
+      "jazz",
+      "propre",
+      "panier",
+      "sous-sol",
+      "corvée",
+      "millefeuille"
     ],
     [
-      "tergiverser",
-      "cuisine",
-      "pédoncule",
-      "plat-de-service",
-      "malveillance",
-      "graphisme"
+      "lessive",
+      "dose",
+      "étendoir",
+      "Doisneau",
+      "langue",
+      "herbacée"
     ],
     [
-      "plantule",
-      "grimper",
-      "table",
-      "poser",
-      "dessert",
-      "design"
+      "Alzheimer",
+      "départ",
+      "cellier",
+      "Mondrian",
+      "itinéraire",
+      "sèche-linge"
     ],
     [
-      "creuse",
-      "puissance",
-      "soupe",
-      "carillon",
-      "bas",
-      "jumeau"
+      "tambour",
+      "repassage",
+      "sale",
+      "Giotto",
+      "poireaux",
+      "corde"
     ]
   ],
   "rowClues": [
-    5,
     2,
-    2,
-    2,
+    3,
     4,
-    2
+    2,
+    2,
+    4
   ],
   "colClues": [
     2,
+    4,
+    4,
     2,
-    4,
-    4,
     2,
     3
   ],
-  "themeWord": "assiette",
+  "themeWord": "buanderie",
   "solution": [
     [
-      true,
       false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
+      true,
       false
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
       false,
@@ -98,8 +90,16 @@
     [
       false,
       true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       true,
+      false,
       false,
       false
     ],
@@ -107,17 +107,17 @@
       false,
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       false,
-      false
+      true
     ]
   ],
   "parMoves": 17

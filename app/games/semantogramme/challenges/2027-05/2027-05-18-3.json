@@ -5,110 +5,86 @@
   "height": 6,
   "words": [
     [
-      "sérénade",
-      "sinistre",
-      "sauter",
-      "noir",
-      "aile",
-      "croasser"
+      "sec",
+      "peler",
+      "Alléluia",
+      "karst",
+      "Picasso",
+      "confiture"
     ],
     [
-      "oiseau",
-      "broche",
-      "symbolique",
-      "aigu",
-      "horreur",
-      "gazeux"
+      "phoque",
+      "chèvre",
+      "grillon",
+      "brûlure",
+      "fruit",
+      "grains"
     ],
     [
-      "plume",
-      "sombre",
-      "maille",
-      "apprenti",
-      "brune",
-      "lit"
+      "pluie",
+      "équilibrer",
+      "miel",
+      "indien",
+      "barrière",
+      "Barbarie"
     ],
     [
-      "présentoir",
-      "trône",
-      "grand",
-      "aviaire",
-      "plateau",
-      "tiroir"
+      "dattes",
+      "Méditerranée",
+      "Ficus",
+      "ORL",
+      "violet",
+      "Provence"
     ],
     [
-      "rivière",
-      "intelligent",
-      "mort",
-      "noueuse",
-      "magnanime",
-      "charogne"
+      "toile",
+      "taquet",
+      "anaphylaxie",
+      "Adam",
+      "Smyrne",
+      "pouvoir"
     ],
     [
-      "élagueur",
-      "mouillé",
-      "tour",
-      "raisonnement",
-      "présage",
-      "aridité"
+      "feuille",
+      "couturier",
+      "Templier",
+      "promotion",
+      "christianisme",
+      "éloignement"
     ]
   ],
   "rowClues": [
-    4,
     2,
-    2,
-    1,
     3,
-    2
+    2,
+    5,
+    2,
+    1
   ],
   "colClues": [
-    2,
     3,
-    4,
-    1,
     2,
-    2
+    2,
+    1,
+    3,
+    4
   ],
-  "themeWord": "corbeau",
+  "themeWord": "figue",
   "solution": [
     [
-      false,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
-      true,
       false,
       true,
       false,
       false,
-      false
-    ],
-    [
       true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
       true
     ],
     [
@@ -116,9 +92,33 @@
       false,
       true,
       false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

@@ -5,75 +5,107 @@
   "height": 6,
   "words": [
     [
-      "sarcasme",
-      "poche",
-      "fait main",
-      "mire",
-      "concentration",
-      "pointer"
+      "goût",
+      "navire",
+      "cuite",
+      "Lusitania",
+      "luxe",
+      "boutique"
     ],
     [
-      "cousine",
-      "communion",
-      "aligner",
-      "centre",
-      "kimono",
-      "triade"
+      "Queen-Mary",
+      "milliards",
+      "Chaperon",
+      "iceberg",
+      "angélus",
+      "Leblanc"
     ],
     [
-      "milieu",
-      "tireur",
-      "lunette",
-      "projeter",
-      "ajuster",
-      "catapulter"
+      "Normandie",
+      "Thriller",
+      "bleue",
+      "cabine",
+      "XIXe",
+      "irrémédiable"
     ],
     [
-      "dérapage",
-      "carabine",
-      "fraise",
-      "sophistiqué",
-      "précision",
-      "globe"
+      "France",
+      "brouette",
+      "escale",
+      "animal",
+      "acupuncture",
+      "hypertension"
     ],
     [
-      "fronde",
-      "objectif",
-      "sanctifier",
-      "tulipe",
-      "arbalète",
-      "horrible"
+      "commandant",
+      "matelot",
+      "Chevreul",
+      "cheminée",
+      "steward",
+      "traversée"
     ],
     [
-      "champagne",
-      "orienter",
-      "arc",
-      "cible",
-      "canoë",
-      "cercle"
+      "inquiétude",
+      "hublot",
+      "sprinter",
+      "croisière",
+      "récriminer",
+      "Titanic"
     ]
   ],
   "rowClues": [
     3,
     2,
-    4,
     2,
-    3,
+    2,
+    5,
     3
   ],
   "colClues": [
+    4,
+    3,
+    1,
+    5,
     2,
-    4,
-    3,
-    3,
-    4,
-    1
+    2
   ],
-  "themeWord": "viser",
+  "themeWord": "paquebot",
   "solution": [
     [
       false,
+      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true,
       true,
@@ -81,43 +113,11 @@
     ],
     [
       false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
       true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
+      true
     ]
   ],
   "parMoves": 17

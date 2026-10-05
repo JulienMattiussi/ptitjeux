@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "dériver",
-      "planter",
-      "lest",
-      "bas",
-      "descendre"
+      "Machiavel",
+      "plongée",
+      "boulevard",
+      "ouvert",
+      "estuaire"
     ],
     [
-      "sous-marine",
-      "retenir",
-      "expliquer",
-      "profonde",
-      "pèlerin"
+      "attaque",
+      "Achille",
+      "carrure",
+      "chronomètre",
+      "winch"
     ],
     [
-      "sportive",
-      "extrême",
-      "plonger",
-      "épargne",
-      "monopalme"
+      "autoroute",
+      "Mercalli",
+      "envergure",
+      "vaste",
+      "avenue"
     ],
     [
-      "paliers",
-      "masque",
-      "goupil",
-      "respiration",
-      "léger"
+      "consulter",
+      "étendu",
+      "anarchie",
+      "panoramique",
+      "fugue"
     ],
     [
-      "élargir",
-      "oxygène",
-      "poumon",
-      "génoise",
-      "libre"
+      "spacieux",
+      "sprinter",
+      "horizon",
+      "elliptique",
+      "nappage"
     ]
   ],
   "rowClues": [
-    2,
     3,
+    1,
     4,
-    3,
-    3
+    2,
+    2
   ],
   "colClues": [
-    3,
+    2,
+    1,
     4,
     3,
-    2,
-    3
+    2
   ],
-  "themeWord": "apnée",
+  "themeWord": "large",
   "solution": [
     [
       false,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true,
@@ -72,25 +86,11 @@
     ],
     [
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

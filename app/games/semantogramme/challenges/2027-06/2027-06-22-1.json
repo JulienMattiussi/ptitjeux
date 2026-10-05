@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "cinéma",
-      "bordeaux",
-      "consulter",
-      "cachet"
+      "ailes",
+      "grain",
+      "frissonner",
+      "Daudet"
     ],
     [
-      "imposte",
-      "nuit",
-      "jongler",
-      "audition"
+      "commencement",
+      "blé",
+      "roue",
+      "meule"
     ],
     [
-      "théâtre",
-      "comédien",
-      "fairway",
-      "transporter"
+      "vent",
+      "test",
+      "mêlée",
+      "Petit-Prince"
     ],
     [
-      "aviateur",
-      "oscar",
-      "césar",
-      "interprète"
+      "Hollande",
+      "farine",
+      "meunier",
+      "emploi"
     ]
   ],
   "rowClues": [
-    2,
+    3,
+    3,
     1,
-    2,
     3
   ],
   "colClues": [
+    3,
+    3,
     2,
-    2,
-    1,
-    3
+    2
   ],
-  "themeWord": "acteur",
+  "themeWord": "moulin",
   "solution": [
     [
       true,
-      false,
+      true,
       false,
       true
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       false
     ],
     [
-      false,
       true,
       true,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

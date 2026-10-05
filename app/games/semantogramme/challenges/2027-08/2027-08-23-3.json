@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-23-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "comité",
+      "barbe",
+      "sashimi",
+      "Méditerranée",
+      "Chamonix",
+      "grenache"
+    ],
+    [
+      "boîte",
+      "mépris",
+      "bonite",
+      "mutation",
+      "fanon",
+      "loisir"
+    ],
+    [
+      "mer",
+      "gravier",
+      "catamaran",
+      "poisson",
+      "rillettes",
+      "piperade"
+    ],
+    [
+      "miettes",
+      "pêche",
+      "complicité",
+      "sobriété",
+      "sushi",
+      "huile"
+    ],
+    [
+      "façonner",
+      "conserve",
+      "salade",
+      "rouge",
+      "diviser",
+      "jour"
+    ],
+    [
+      "Basque",
+      "niçoise",
+      "radio",
+      "sandwich",
+      "chiot",
+      "cirrhose"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    4,
+    3,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "thon",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

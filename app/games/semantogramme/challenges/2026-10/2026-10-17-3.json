@@ -5,86 +5,102 @@
   "height": 6,
   "words": [
     [
-      "arrondie",
-      "profonde",
-      "cuisine",
-      "manche",
-      "plongeon",
-      "compter"
+      "Antisthène",
+      "poutre",
+      "taquet",
+      "quai",
+      "Marne",
+      "lucarne"
     ],
     [
-      "enregistrer",
-      "ronde",
-      "armoire",
-      "biblique",
-      "havresac",
-      "grande"
+      "pigeonnier",
+      "courante",
+      "oeil-de-boeuf",
+      "charpente",
+      "flemmard",
+      "acclamer"
     ],
     [
-      "reculer",
-      "marmite",
-      "morose",
-      "sauce",
-      "remuer",
-      "couvert"
+      "grenier",
+      "bohème",
+      "skate",
+      "lait",
+      "tumulus",
+      "soupente"
     ],
     [
-      "puiser",
-      "chapelet",
-      "déguster",
-      "casserole",
-      "anche",
-      "brunch"
+      "pente",
+      "patois",
+      "fusil",
+      "vasistas",
+      "combles",
+      "toit"
     ],
     [
-      "modestie",
-      "svelte",
-      "creuse",
-      "transvaser",
-      "dépression",
-      "crèche"
+      "rafraîchissant",
+      "chambrette",
+      "blues",
+      "bonne",
+      "plafond",
+      "étudiant"
     ],
     [
-      "soupe",
-      "bouillon",
-      "cintré",
-      "servir",
-      "verser",
-      "éditorial"
+      "arrêt",
+      "ardoise",
+      "gélatine",
+      "tapissier",
+      "Sami",
+      "lignite"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    3,
     4,
-    2,
     4,
-    2,
-    2,
-    4
+    1
   ],
   "colClues": [
     3,
     4,
+    1,
+    3,
     2,
-    5,
-    2,
-    2
+    4
   ],
-  "themeWord": "louche",
+  "themeWord": "mansarde",
   "solution": [
     [
+      false,
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      false,
       true,
       true,
       false,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
       true
     ],
     [
@@ -96,29 +112,13 @@
       true
     ],
     [
-      true,
-      false,
       false,
       true,
       false,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

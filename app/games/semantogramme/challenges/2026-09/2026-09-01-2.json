@@ -5,67 +5,81 @@
   "height": 5,
   "words": [
     [
-      "tournesol",
-      "immortalité",
-      "parure",
-      "pommeau",
-      "transpercer"
+      "Mandelieu",
+      "création",
+      "Gauguin",
+      "accabler",
+      "Grèce"
     ],
     [
-      "garde",
-      "trait",
-      "duel",
-      "génome",
-      "chasser"
+      "Hendrix",
+      "culte",
+      "bricolage",
+      "zéphyr",
+      "Angkor"
     ],
     [
-      "historique",
-      "pointu",
-      "dégainer",
-      "escrime",
-      "loup-garou"
+      "dieu",
+      "Jérusalem",
+      "sacré",
+      "lento",
+      "pagode"
     ],
     [
-      "mousquetaire",
-      "acéré",
-      "os",
-      "tranchant",
-      "évoquer"
+      "sanctuaire",
+      "colonne",
+      "encens",
+      "écho",
+      "arachide"
     ],
     [
-      "pourfendre",
-      "lame",
-      "ascenseur",
-      "aiguisé",
-      "boucle"
+      "autel",
+      "Parthénon",
+      "marbre",
+      "offrande",
+      "triangulation"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     2,
     4,
     3,
-    3
+    4
   ],
   "colClues": [
+    3,
     4,
     3,
-    2,
-    4,
-    1
+    1,
+    3
   ],
-  "themeWord": "épée",
+  "themeWord": "temple",
   "solution": [
     [
       false,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      false,
+      false,
       true
     ],
     [
       true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false
@@ -74,20 +88,6 @@
       true,
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
       true,
       false
     ]

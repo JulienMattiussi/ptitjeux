@@ -5,88 +5,88 @@
   "height": 7,
   "words": [
     [
-      "papier",
-      "titane",
-      "rêche",
-      "discrétion",
-      "distinguer",
-      "antiquité",
-      "cyperus"
+      "idée",
+      "à-propos",
+      "dinosaures",
+      "grain",
+      "Amen",
+      "sérénade",
+      "dépassement"
     ],
     [
-      "hiéroglyphe",
-      "tropical",
-      "rarissime",
-      "gypaète",
-      "biaiser",
-      "fardeau",
-      "tradition"
+      "solo",
+      "nougat",
+      "exclure",
+      "tracé",
+      "dialogue",
+      "synthèse",
+      "chance"
     ],
     [
-      "nova",
-      "serein",
-      "heurter",
-      "nil",
-      "manuscrit",
-      "pelletée",
-      "propulsion"
+      "Socrate",
+      "contradiction",
+      "trier",
+      "antithèse",
+      "caraméliser",
+      "investiture",
+      "rayé"
     ],
     [
-      "verveine",
-      "écosse",
-      "canard",
-      "égypte",
-      "plante",
-      "voltige",
-      "écriture"
+      "Comaneci",
+      "Fichte",
+      "envergure",
+      "trousseau",
+      "pollution",
+      "argumentation",
+      "Marx"
     ],
     [
-      "feuille",
-      "portée",
-      "aquatique",
-      "frisée",
-      "confondre",
-      "élégant",
-      "pharaon"
+      "partielle",
+      "maïeutique",
+      "raisonnement",
+      "Portugal",
+      "émeu",
+      "résurrection",
+      "vitesse"
     ],
     [
-      "rouler",
-      "fibre",
-      "aigre",
-      "volume",
-      "pâtisserie",
-      "escrime",
-      "roseau"
+      "agréable",
+      "dessalée",
+      "Hegel",
+      "Oléron",
+      "progéniture",
+      "glabre",
+      "matérialisme"
     ],
     [
-      "qwerty",
-      "dracula",
-      "écrire",
-      "triade",
-      "écologique",
-      "enfler",
-      "amuser"
+      "soudain",
+      "poisson",
+      "logique",
+      "pot-de-vin",
+      "menteur",
+      "flair",
+      "Zénon"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
     3,
-    4,
     3,
-    1
+    2,
+    2,
+    2
   ],
   "colClues": [
-    4,
     2,
-    2,
-    2,
-    2,
+    3,
+    3,
+    1,
+    1,
     2,
     4
   ],
-  "themeWord": "papyrus",
+  "themeWord": "dialectique",
   "solution": [
     [
       true,
@@ -94,13 +94,40 @@
       false,
       false,
       false,
-      true,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
     ],
     [
       true,
       true,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       false,
       false,
@@ -109,34 +136,7 @@
     [
       false,
       false,
-      false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       false,
       false,
@@ -149,8 +149,8 @@
       false,
       false,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

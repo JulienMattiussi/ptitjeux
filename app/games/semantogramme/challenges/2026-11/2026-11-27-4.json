@@ -5,113 +5,104 @@
   "height": 7,
   "words": [
     [
-      "soleil",
-      "sève",
-      "spiritualité",
-      "musical",
-      "hublot",
-      "art",
-      "sécuriser"
+      "piston",
+      "lichen",
+      "moisissure",
+      "spore",
+      "cracheur",
+      "truffe",
+      "locomotive"
     ],
     [
-      "amulette",
-      "tanner",
-      "laine",
-      "sodé",
-      "idée",
-      "transcender",
-      "parlementaire"
+      "champignon",
+      "oiseau-mouche",
+      "musculation",
+      "mie",
+      "souriant",
+      "musclé",
+      "pied"
     ],
     [
-      "képi",
-      "circonférence",
-      "courgette",
-      "vapeur",
-      "état",
-      "milan",
-      "créatif"
+      "Galliano",
+      "front",
+      "morille",
+      "VIH",
+      "sagaie",
+      "faute",
+      "amanite"
     ],
     [
-      "magistral",
-      "parterre",
-      "beauté",
-      "pénaliser",
-      "navette",
-      "pelote",
-      "cellulose"
+      "aquatique",
+      "bolet",
+      "baies",
+      "cueillette",
+      "idoine",
+      "renifler",
+      "levure"
     ],
     [
-      "gaz",
-      "lame",
-      "pulsion",
-      "moisson",
-      "commun",
-      "élever",
-      "magnifier"
+      "litote",
+      "girolle",
+      "imperturbable",
+      "relation",
+      "Paraguay",
+      "trempe",
+      "Huis-clos"
     ],
     [
-      "succès",
-      "noble",
-      "mélanger",
-      "perle",
-      "élévation",
-      "cénozoïque",
-      "glace"
+      "agrandir",
+      "plèvre",
+      "cèpe",
+      "lotus",
+      "slalom",
+      "grog",
+      "mycélium"
     ],
     [
-      "flancher",
-      "fragment",
-      "conversation",
-      "arpenter",
-      "psychanalyse",
-      "auto-école",
-      "jus"
+      "Atlas",
+      "proclamer",
+      "forêt",
+      "proximité",
+      "comestible",
+      "voix",
+      "fongique"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    3,
-    1,
     4,
+    2,
+    2,
     3,
-    1
+    1,
+    2,
+    3
   ],
   "colClues": [
     1,
+    3,
+    4,
+    2,
     1,
-    3,
     1,
-    3,
-    3,
-    3
+    5
   ],
-  "themeWord": "sublimation",
+  "themeWord": "mycologie",
   "solution": [
     [
       false,
-      false,
       true,
-      false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
+      true,
       false,
       true,
       false
     ],
     [
-      false,
-      false,
-      false,
       true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ],
@@ -122,15 +113,15 @@
       false,
       false,
       false,
-      false
+      true
     ],
     [
-      true,
       false,
       true,
       false,
-      false,
       true,
+      false,
+      false,
       true
     ],
     [
@@ -138,19 +129,28 @@
       true,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
       false,
-      false,
+      true,
       false,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

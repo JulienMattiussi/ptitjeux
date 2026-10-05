@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "flan",
-      "violet",
-      "annoncer",
-      "pourchasser"
+      "émission",
+      "antenne",
+      "ruelle",
+      "écran"
     ],
     [
-      "professeur",
-      "orange",
-      "spectre",
-      "couleur"
+      "beaufort",
+      "présentateur",
+      "dégringoler",
+      "programme"
     ],
     [
-      "jaune",
-      "sinistre",
-      "bleu",
-      "collation"
+      "haltère",
+      "anéantir",
+      "zapper",
+      "Mansart"
     ],
     [
-      "prisme",
-      "vert",
-      "indigo",
-      "tuile"
+      "autoroute",
+      "journal",
+      "papoter",
+      "propulsion"
     ]
   ],
   "rowClues": [
+    3,
+    2,
     1,
-    3,
-    2,
-    3
-  ],
-  "colClues": [
-    2,
-    3,
-    3,
     1
   ],
-  "themeWord": "arc-en-ciel",
+  "colClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "télévision",
   "solution": [
     [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
+      false,
       true
     ],
     [
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       false
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

@@ -5,49 +5,49 @@
   "height": 4,
   "words": [
     [
-      "oeuf",
-      "reblochon",
-      "emmental",
-      "fragilité"
+      "coq",
+      "volaille",
+      "félicitations",
+      "broche"
     ],
     [
-      "comté",
-      "pétiole",
-      "gouda",
-      "brie"
+      "pilon",
+      "aloès",
+      "aile",
+      "crête"
     ],
     [
-      "parmesan",
-      "contenu",
-      "antalgique",
-      "gruyère"
+      "eunuque",
+      "rôti",
+      "persifleur",
+      "Bresse"
     ],
     [
-      "camembert",
-      "roquefort",
-      "cantal",
-      "anchois"
+      "vaisselle",
+      "curry",
+      "Florentine",
+      "tronçonneuse"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     3,
     2,
-    3
+    1
   ],
   "colClues": [
-    3,
     2,
     3,
-    2
+    1,
+    3
   ],
-  "themeWord": "fromage",
+  "themeWord": "poulet",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
@@ -56,17 +56,17 @@
       true
     ],
     [
-      true,
       false,
+      true,
       false,
       true
     ],
     [
+      false,
       true,
-      true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

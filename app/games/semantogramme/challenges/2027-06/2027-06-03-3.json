@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "javelot",
-      "estuaire",
-      "sciuridé",
-      "forêt",
-      "gland",
-      "toit"
+      "paddy",
+      "farine",
+      "pizza",
+      "protège-dents",
+      "pain",
+      "soupirer"
     ],
     [
-      "agile",
-      "amasser",
-      "mignon",
-      "noisette",
-      "cacher",
-      "torse"
+      "magnanimité",
+      "travailler",
+      "étiquette",
+      "étonné",
+      "accéléromètre",
+      "ignoble"
     ],
     [
-      "écrire",
-      "velue",
-      "rongeur",
-      "centralisé",
-      "roux",
-      "véloce"
+      "fournil",
+      "réflexe",
+      "Colombie",
+      "saillie",
+      "bout-dehors",
+      "doudoune"
     ],
     [
-      "grimper",
-      "gaze",
-      "compter",
-      "barge",
-      "standard",
-      "touffu"
+      "Hernani",
+      "argile",
+      "superposé",
+      "eau",
+      "Théodora",
+      "levain"
     ],
     [
-      "gris",
-      "patte",
-      "mélodieuse",
-      "sauter",
-      "compartiment",
-      "ténébreux"
+      "dentelé",
+      "sérologie",
+      "orthopédiste",
+      "brioche",
+      "levure",
+      "modeler"
     ],
     [
-      "romance",
-      "moustique",
-      "cauchemar",
-      "queue",
-      "but",
-      "fréquent"
+      "pâte",
+      "masser",
+      "aristocratie",
+      "courant",
+      "malaxer",
+      "tranquillité"
     ]
   ],
   "rowClues": [
     3,
-    5,
+    1,
+    1,
     3,
-    2,
     3,
-    1
+    3
   ],
   "colClues": [
-    3,
     2,
-    3,
     4,
+    1,
+    2,
     3,
     2
   ],
-  "themeWord": "écureuil",
+  "themeWord": "pétrir",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       true,
       false
     ],
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       true,
       true
     ],
     [
       true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
-      false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

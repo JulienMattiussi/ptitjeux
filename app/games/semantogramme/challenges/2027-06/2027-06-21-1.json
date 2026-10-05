@@ -5,46 +5,58 @@
   "height": 4,
   "words": [
     [
-      "panier",
-      "rive",
-      "immortelle",
-      "brunch"
+      "décembre",
+      "bongo",
+      "étoile",
+      "crèche"
     ],
     [
-      "vannerie",
-      "osier",
-      "tige",
-      "sommeil"
+      "Cyrulnik",
+      "mépris",
+      "bûche",
+      "chaussette"
     ],
     [
-      "nova",
-      "étang",
-      "jonc",
-      "rivière"
+      "renne",
+      "sapin",
+      "irlandaise",
+      "période"
     ],
     [
-      "antalgique",
-      "mêlée",
-      "papyrus",
-      "bambou"
+      "réveillon",
+      "guirlande",
+      "traîneau",
+      "Shelley"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    3,
-    3,
-    2
+    2,
+    3
   ],
   "colClues": [
-    2,
     3,
+    2,
     3,
     2
   ],
-  "themeWord": "roseau",
+  "themeWord": "noël",
   "solution": [
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
       false
@@ -54,18 +66,6 @@
       true,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 10

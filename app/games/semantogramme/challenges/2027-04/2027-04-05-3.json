@@ -5,76 +5,76 @@
   "height": 6,
   "words": [
     [
-      "symphonie",
-      "trône",
-      "ticket",
-      "aérien",
-      "souterrain",
-      "goudron"
+      "Nolde",
+      "chimère",
+      "paysan",
+      "bouquet",
+      "cuisson",
+      "malfaisant"
     ],
     [
-      "tragique",
-      "baguettes",
-      "station",
-      "tunnel",
-      "fibreux",
-      "rame"
+      "fragrance",
+      "limousine",
+      "songeur",
+      "légume",
+      "romain",
+      "Bretagne"
     ],
     [
-      "apparition",
-      "rail",
-      "sanction",
-      "transport",
-      "implorer",
-      "menace"
+      "épineux",
+      "poivrade",
+      "vinaigrette",
+      "sourdine",
+      "humidité",
+      "mayonnaise"
     ],
     [
-      "grand-tante",
-      "descendre",
-      "quai",
-      "rapide",
-      "single",
-      "urbain"
+      "symbole",
+      "chardon",
+      "fond",
+      "piquant",
+      "Provence",
+      "feuilles"
     ],
     [
-      "monter",
-      "puzzle",
-      "fréquent",
-      "plan",
-      "primate",
-      "envol"
+      "prise",
+      "Monopoly",
+      "gêneur",
+      "coeur",
+      "patinoire",
+      "foin"
     ],
     [
-      "changer",
-      "cimetière",
-      "a-cappella",
-      "tromper",
-      "tessiture",
-      "éducatif"
+      "violet",
+      "SOS",
+      "rugueux",
+      "short",
+      "enfoncer",
+      "fanion"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
-    4,
     3,
+    4,
+    5,
+    2,
     1
   ],
   "colClues": [
     2,
     2,
+    2,
     4,
-    5,
-    1,
-    2
+    3,
+    4
   ],
-  "themeWord": "métro",
+  "themeWord": "artichaut",
   "solution": [
     [
       false,
       false,
-      true,
+      false,
       true,
       true,
       false
@@ -82,34 +82,34 @@
     [
       false,
       false,
+      false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
       false,
       true
     ],
     [
       false,
       true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
       true,
-      false,
       true
     ],
     [
-      true,
+      false,
+      false,
       false,
       true,
-      true,
       false,
-      false
+      true
     ],
     [
       true,
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

@@ -5,120 +5,102 @@
   "height": 7,
   "words": [
     [
-      "frais",
-      "héros",
-      "sextant",
-      "inexprimable",
-      "moule",
-      "pieuvre",
-      "acerbe"
+      "star",
+      "Dumbo",
+      "or",
+      "vaccin",
+      "célébrité",
+      "silence",
+      "tendon"
     ],
     [
-      "cassant",
-      "rodtchenko",
-      "critique",
-      "piquer",
-      "âpre",
-      "régaler",
-      "aigre"
+      "Vierge",
+      "mausolée",
+      "Grèce",
+      "rouille",
+      "tremplin",
+      "pictogramme",
+      "Russie"
     ],
     [
-      "cd",
-      "canoë",
-      "cible",
-      "incisif",
-      "pousser",
-      "obstruer",
-      "satirique"
+      "à-pic",
+      "informatique",
+      "brasserie",
+      "calebasse",
+      "Roublev",
+      "héraut",
+      "Rigoletto"
     ],
     [
-      "gouttière",
-      "blesser",
-      "sciure",
-      "costaud",
-      "sarcophage",
-      "humour",
-      "tranchant"
+      "espion",
+      "déterminé",
+      "institution",
+      "bois",
+      "ventricule",
+      "gouvernail",
+      "guigne"
     ],
     [
-      "récupérer",
-      "étalon",
-      "nettoyage",
-      "biberon",
-      "corrosif",
-      "travée",
-      "rendre"
+      "Byzance",
+      "idole",
+      "Christ",
+      "tourbière",
+      "guérite",
+      "vénération",
+      "sainte"
     ],
     [
-      "gérôme",
-      "orchidée",
-      "piquant",
-      "brodeuse",
-      "beurré",
-      "ironie",
-      "baver"
+      "dorure",
+      "orthodoxe",
+      "roue",
+      "peinture",
+      "fanes",
+      "écrémé",
+      "hémoglobine"
     ],
     [
-      "attaquer",
-      "créneau",
-      "cinglant",
-      "hypocrite",
-      "méditer",
-      "rythmique",
-      "branchies"
+      "saccharose",
+      "ponçage",
+      "Alsace",
+      "baffe",
+      "symbole",
+      "cognition",
+      "charbonnière"
     ]
   ],
   "rowClues": [
+    3,
+    4,
+    2,
     1,
     5,
+    3,
+    1
+  ],
+  "colClues": [
+    4,
+    3,
+    3,
     2,
     3,
-    1,
     2,
     2
   ],
-  "colClues": [
-    2,
-    1,
-    3,
-    2,
-    2,
-    2,
-    4
-  ],
-  "themeWord": "mordant",
+  "themeWord": "icône",
   "solution": [
     [
+      true,
       false,
+      true,
       false,
+      true,
       false,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       true,
       false,
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       false,
       true,
@@ -126,7 +108,7 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       false,
       true,
@@ -136,21 +118,39 @@
     [
       false,
       false,
+      false,
       true,
       false,
       false,
-      true,
       false
     ],
     [
       true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

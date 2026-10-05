@@ -5,79 +5,58 @@
   "height": 5,
   "words": [
     [
-      "pot",
-      "poussée",
-      "mammouth",
-      "vitre",
-      "bulle"
+      "dense",
+      "purée",
+      "gros",
+      "couche",
+      "roulotte"
     ],
     [
-      "velue",
-      "cellophane",
-      "eau",
-      "plastique",
-      "obscurité"
+      "pâteux",
+      "eutrophisation",
+      "cajou",
+      "obséquieux",
+      "câlin"
     ],
     [
-      "haut",
-      "grec",
-      "roux",
-      "canine",
-      "diaphane"
+      "Liszt",
+      "volumineux",
+      "sanglier",
+      "lourd",
+      "touffu"
     ],
     [
-      "cristal",
-      "verre",
-      "clair",
-      "gaze",
-      "entonner"
+      "Esterel",
+      "moisson",
+      "fourrure",
+      "large",
+      "escabeau"
     ],
     [
-      "limpide",
-      "cicatriser",
-      "traverser",
-      "réflexion",
-      "transpercer"
+      "grattoir",
+      "chaussures",
+      "noisetier",
+      "mur",
+      "bergère"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    1,
     4,
-    3
+    1,
+    3,
+    2,
+    1
   ],
   "colClues": [
     2,
     2,
-    3,
-    3,
-    3
+    2,
+    4,
+    1
   ],
-  "themeWord": "transparent",
+  "themeWord": "épais",
   "solution": [
     [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
       true,
       true,
@@ -87,10 +66,31 @@
     [
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

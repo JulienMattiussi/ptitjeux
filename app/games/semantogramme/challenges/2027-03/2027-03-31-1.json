@@ -5,49 +5,55 @@
   "height": 4,
   "words": [
     [
-      "opale",
-      "palette",
-      "rubis",
-      "perle"
+      "alligator",
+      "reptile",
+      "Quattrocento",
+      "caïman"
     ],
     [
-      "émeraude",
-      "sociable",
-      "améthyste",
-      "éclipse"
+      "album",
+      "Nil",
+      "écailles",
+      "précurseur"
     ],
     [
-      "diamant",
-      "topaze",
-      "auriculaire",
-      "turquoise"
+      "dents",
+      "souffler",
+      "larmes",
+      "candélabre"
     ],
     [
-      "nova",
-      "aquatique",
-      "rhume",
-      "agate"
+      "Lacoste",
+      "marais",
+      "Bosphore",
+      "mâchoire"
     ]
   ],
   "rowClues": [
     3,
     2,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    1,
     2,
     3
   ],
-  "themeWord": "pierre",
+  "colClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "crocodile",
   "solution": [
     [
       true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       true,
-      true
+      true,
+      false
     ],
     [
       true,
@@ -60,13 +66,7 @@
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

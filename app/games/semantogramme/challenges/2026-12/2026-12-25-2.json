@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "créneau",
-      "côtière",
-      "longévité",
-      "chicorée",
-      "hublot"
+      "tournée",
+      "domestique",
+      "torchon",
+      "enflé",
+      "vitamine"
     ],
     [
-      "café",
-      "crâne",
-      "endive",
-      "âpre",
-      "cou"
+      "itinéraire",
+      "bolet",
+      "parcourir",
+      "glaneur",
+      "modique"
     ],
     [
-      "astringent",
-      "noix",
-      "enclos",
-      "brûlure",
-      "bière"
+      "aquatinte",
+      "monument",
+      "découvrir",
+      "gros",
+      "excursion"
     ],
     [
-      "réparateur",
-      "dîner",
-      "douloureux",
-      "caustique",
-      "domestique"
+      "brailler",
+      "musée",
+      "nouveau",
+      "randonnée",
+      "touriste"
     ],
     [
-      "pamplemousse",
-      "brûler",
-      "satan",
-      "âcre",
-      "tonic"
+      "Ravenne",
+      "croisière",
+      "promenade",
+      "voyage",
+      "guide"
     ]
   ],
   "rowClues": [
     1,
+    2,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
     3,
     3,
     2,
     3
   ],
-  "colClues": [
-    3,
-    1,
-    2,
-    4,
-    2
-  ],
-  "themeWord": "amer",
+  "themeWord": "visiter",
   "solution": [
     [
-      false,
-      false,
-      false,
       true,
+      false,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
-      true,
-      true,
       false,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
+      true,
       false,
       true,
-      true,
-      false
+      true
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

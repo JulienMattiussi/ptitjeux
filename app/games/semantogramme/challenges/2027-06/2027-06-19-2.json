@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "confiture",
-      "numéro",
-      "mangeoire",
-      "bois",
-      "glace"
+      "butiner",
+      "dévoué",
+      "poussette",
+      "casting",
+      "aumône"
     ],
     [
-      "germination",
-      "dessert",
-      "gâteau",
-      "édulcorer",
-      "moustique"
+      "schuss",
+      "poney",
+      "bénévole",
+      "altruiste",
+      "blog"
     ],
     [
-      "délectable",
-      "mielleux",
-      "chocolat",
-      "sucette",
-      "vanter"
+      "magnanime",
+      "inédit",
+      "charitable",
+      "bonté",
+      "offrir"
     ],
     [
-      "caramel",
-      "fraîche",
-      "clouer",
-      "réjouir",
-      "sirupeux"
+      "Tunisie",
+      "don",
+      "rebelle",
+      "Brandebourg",
+      "large"
     ],
     [
-      "jardinier",
-      "sirop",
-      "cils",
-      "anaconda",
-      "bonbon"
+      "barrique",
+      "paroi",
+      "donjon",
+      "partager",
+      "exploit"
     ]
   ],
   "rowClues": [
     2,
-    3,
+    2,
     4,
     2,
-    2
+    1
   ],
   "colClues": [
-    3,
-    3,
+    1,
     2,
     2,
+    3,
     3
   ],
-  "themeWord": "sucré",
+  "themeWord": "généreux",
   "solution": [
     [
-      true,
       false,
+      true,
       false,
       false,
       true
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
+      false,
       true,
       true,
       false
@@ -80,8 +73,8 @@
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
@@ -90,7 +83,14 @@
       false,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

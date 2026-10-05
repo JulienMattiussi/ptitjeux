@@ -5,100 +5,84 @@
   "height": 6,
   "words": [
     [
-      "fleurir",
-      "mandrin",
-      "morille",
-      "poisson-clown",
-      "datacenter",
-      "submergé"
+      "répartie",
+      "tamia",
+      "délation",
+      "freux",
+      "sonate",
+      "Styx"
     ],
     [
-      "documenter",
-      "cnidaire",
-      "roulée",
-      "ongulé",
-      "impondérable",
-      "besace"
+      "noir",
+      "ustensile",
+      "charognard",
+      "catacombe",
+      "hamac",
+      "fromage"
     ],
     [
-      "impénétrable",
-      "tentacule",
-      "rouge",
-      "séisme",
-      "corail",
-      "urticant"
+      "largo",
+      "roche",
+      "dentition",
+      "purgatoire",
+      "plumage",
+      "irascible"
     ],
     [
-      "éleveur",
-      "rivage",
-      "fantôme",
-      "destrier",
-      "photosynthèse",
-      "mer"
+      "Poe",
+      "fable",
+      "bouddha",
+      "princier",
+      "oiseau",
+      "corneille"
     ],
     [
-      "croquante",
-      "enchantement",
-      "vociférer",
-      "domino",
-      "projectile",
-      "aquatique"
+      "Odin",
+      "renard",
+      "sinistre",
+      "présage",
+      "cicatrisation",
+      "croasser"
     ],
     [
-      "chameau",
-      "cantal",
-      "rose",
-      "aquarium",
-      "vodka",
-      "marée"
+      "cétacé",
+      "Pineau",
+      "perforateur",
+      "téléphone",
+      "augure",
+      "furieux"
     ]
   ],
   "rowClues": [
+    2,
     3,
     1,
     4,
-    2,
-    1,
-    3
+    5,
+    1
   ],
   "colClues": [
-    1,
     3,
     2,
+    3,
     2,
-    1,
-    5
+    3,
+    3
   ],
-  "themeWord": "anémone",
+  "themeWord": "corbeau",
   "solution": [
     [
-      true,
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
       false,
       false
     ],
     [
-      false,
-      true,
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
       false,
       false,
       true
@@ -108,17 +92,33 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
       false,
       true
     ],
     [
       false,
       false,
-      true,
-      true,
       false,
-      true
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 16
 }

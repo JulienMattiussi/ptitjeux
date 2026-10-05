@@ -5,77 +5,101 @@
   "height": 6,
   "words": [
     [
-      "naissant",
-      "fragile",
-      "fauve",
-      "fillette",
-      "marais",
-      "étang"
+      "scolaire",
+      "Carpates",
+      "transport",
+      "chauffeur",
+      "soumettre",
+      "pâtisserie"
     ],
     [
-      "farci",
-      "judo",
-      "féminité",
-      "demoiselle",
-      "aérienne",
-      "aubergine"
+      "impériale",
+      "car",
+      "compte",
+      "RATP",
+      "attentif",
+      "ticket"
     ],
     [
-      "frimas",
-      "autobloquant",
-      "frette",
-      "aile",
-      "légale",
-      "nénuphar"
+      "Botticelli",
+      "jonc",
+      "concombre",
+      "sommelier",
+      "terminus",
+      "complot"
     ],
     [
-      "tartine",
-      "ours",
-      "tragédie",
-      "rapide",
-      "entrée",
-      "malveillant"
+      "brouillé",
+      "arrêt",
+      "Foucault",
+      "Londres",
+      "navette",
+      "rouge"
     ],
     [
-      "planer",
-      "guider",
-      "protéine",
-      "agile",
-      "mourant",
-      "respiration"
+      "pince",
+      "latex",
+      "sorcier",
+      "horaire",
+      "bondé",
+      "plaquette"
     ],
     [
-      "matrice",
-      "iridescente",
-      "colorée",
-      "voler",
-      "roseau",
-      "rivière"
+      "vagues",
+      "passager",
+      "station",
+      "congère",
+      "trajet",
+      "ligne"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
+    4,
     1,
+    4,
     2,
-    5
+    4
   ],
   "colClues": [
-    1,
     2,
-    1,
-    5,
     3,
+    2,
+    4,
+    4,
     3
   ],
-  "themeWord": "libellule",
+  "themeWord": "bus",
   "solution": [
     [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       true,
       false,
+      true
+    ],
+    [
       false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       true,
       true
     ],
@@ -89,36 +113,12 @@
     ],
     [
       false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       true,
-      true,
+      false,
       true,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

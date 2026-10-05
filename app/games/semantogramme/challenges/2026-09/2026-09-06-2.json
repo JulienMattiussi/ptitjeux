@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "chérir",
-      "trésor",
-      "austère",
-      "plexiglas",
-      "or"
+      "givré",
+      "voilé",
+      "présentateur",
+      "vallée",
+      "Guignol"
     ],
     [
-      "joyau",
-      "scolaire",
-      "récolte",
-      "pierre",
-      "crudité"
+      "mat",
+      "masqué",
+      "Télémaque",
+      "charognard",
+      "volet"
     ],
     [
-      "vanter",
-      "bander",
-      "inestimable",
-      "maquette",
-      "ressort"
+      "mur",
+      "pôle",
+      "Astérix",
+      "store",
+      "encre"
     ],
     [
-      "sépia",
-      "hirsute",
-      "cigale",
-      "perle",
-      "protéger"
+      "excellence",
+      "mochi",
+      "trouble",
+      "fumée",
+      "Peugeot"
     ],
     [
-      "argenté",
-      "estimer",
-      "sacré",
-      "saphir",
-      "tendance"
+      "impénétrable",
+      "nuageux",
+      "rideau",
+      "travail",
+      "dépoli"
     ]
   ],
   "rowClues": [
+    2,
+    3,
     3,
     2,
-    1,
+    4
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
     2,
     3
   ],
-  "colClues": [
-    2,
-    2,
-    2,
-    3,
-    2
-  ],
-  "themeWord": "précieux",
+  "themeWord": "opaque",
   "solution": [
     [
       true,
       true,
       false,
       false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
       true
     ],
     [
@@ -68,29 +75,22 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

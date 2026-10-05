@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "haïti",
-      "pourrir",
-      "grandir",
-      "écouler",
-      "monstrueux"
+      "dresser",
+      "palet",
+      "Othello",
+      "rondelle",
+      "gardien"
     ],
     [
-      "clair",
-      "cimetière",
-      "errer",
-      "féliciter",
-      "tirage"
+      "rocaille",
+      "tiercé",
+      "pliante",
+      "pénalité",
+      "Gretzky"
     ],
     [
-      "fer-forgé",
-      "ronfler",
-      "obligatoire",
-      "trait",
-      "horde"
+      "but",
+      "méfiance",
+      "arbitre",
+      "cirque",
+      "gazon"
     ],
     [
-      "cercueil",
-      "putride",
-      "copier",
-      "dévorer",
-      "épicé"
+      "brouillard",
+      "bâton",
+      "Canada",
+      "Eurydice",
+      "Montréal"
     ],
     [
-      "défier",
-      "errant",
-      "cadavre",
-      "mort-vivant",
-      "décomposé"
+      "pistil",
+      "Vauban",
+      "rotonde",
+      "patin",
+      "Puccini"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
     1,
+    2,
+    2,
     3,
     4
   ],
-  "colClues": [
-    2,
-    4,
-    2,
-    2,
-    2
-  ],
-  "themeWord": "zombi",
+  "themeWord": "hockey",
   "solution": [
     [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
-      true,
       false,
-      false
+      true,
+      true
     ],
     [
       false,
       false,
       false,
-      false,
+      true,
       true
     ],
     [
       true,
-      true,
       false,
       true,
-      false
+      false,
+      true
     ],
     [
       false,
       true,
       true,
-      true,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
     ]
   ],
   "parMoves": 12

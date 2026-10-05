@@ -5,54 +5,60 @@
   "height": 4,
   "words": [
     [
-      "élève",
-      "rôti",
-      "veau",
-      "fleuret"
+      "Goethe",
+      "rugby",
+      "pont-levis",
+      "rempart"
     ],
     [
-      "chemin",
-      "porc",
-      "fureur",
-      "saucisse"
+      "seigneur",
+      "Loire",
+      "instinct",
+      "Chambord"
     ],
     [
-      "agneau",
-      "dinde",
-      "verveine",
-      "désir"
+      "oubliette",
+      "cannibale",
+      "créneau",
+      "Versailles"
     ],
     [
-      "poulet",
-      "chaleur",
-      "steak",
-      "lapin"
+      "meurtrière",
+      "douves",
+      "impossible",
+      "gourmandise"
     ]
   ],
   "rowClues": [
     2,
+    3,
+    3,
+    2
+  ],
+  "colClues": [
+    3,
     2,
     2,
     3
   ],
-  "colClues": [
-    2,
-    3,
-    2,
-    2
-  ],
-  "themeWord": "viande",
+  "themeWord": "château",
   "solution": [
     [
       false,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
-      false,
+      true,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -60,13 +66,7 @@
       true,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

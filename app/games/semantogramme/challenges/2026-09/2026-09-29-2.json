@@ -5,82 +5,82 @@
   "height": 5,
   "words": [
     [
-      "cheval",
-      "épave",
-      "minerai",
-      "forger",
-      "scrutin"
+      "confidente",
+      "Dupont",
+      "radis",
+      "Elsa",
+      "jumelle"
     ],
     [
-      "cabré",
-      "clou",
-      "aimanter",
-      "écossais",
-      "métal"
+      "couvent",
+      "obséquieux",
+      "grain",
+      "guide",
+      "mitigé"
     ],
     [
-      "amphi",
-      "tôle",
-      "soudure",
-      "rouillé",
-      "auto-école"
+      "cadette",
+      "cordonnier",
+      "Cendrillon",
+      "préliminaire",
+      "juin"
     ],
     [
-      "fonte",
-      "magnétique",
-      "poussin",
-      "enclume",
-      "résistant"
+      "osselets",
+      "fratrie",
+      "chamailler",
+      "nonne",
+      "dispute"
     ],
     [
-      "gaine",
-      "cisaille",
-      "pépin",
-      "acier",
-      "poulpe"
+      "peler",
+      "sculpture",
+      "élisabéthain",
+      "aînée",
+      "maquillage"
     ]
   ],
   "rowClues": [
     3,
-    3,
-    3,
+    1,
+    2,
     4,
     1
   ],
   "colClues": [
+    3,
+    1,
     2,
     3,
-    3,
-    4,
     2
   ],
-  "themeWord": "fer",
+  "themeWord": "soeur",
   "solution": [
     [
       true,
       false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       true,
-      true,
-      false,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       true,
       true
     ],
@@ -92,5 +92,5 @@
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

@@ -5,101 +5,101 @@
   "height": 6,
   "words": [
     [
-      "urbain",
-      "discothèque",
-      "boîte",
-      "aigreur",
-      "altruisme",
-      "lob"
+      "cognée",
+      "muscat",
+      "farine",
+      "rouleau",
+      "traumatisme",
+      "lac"
     ],
     [
-      "compresser",
-      "underground",
-      "polluante",
-      "sportive",
-      "rave",
-      "édifier"
+      "sacré",
+      "envol",
+      "élytres",
+      "pompon",
+      "beurre",
+      "tarte"
     ],
     [
-      "bpm",
-      "éternité",
-      "musique",
-      "mixer",
-      "rythme",
-      "iguane"
+      "pied",
+      "pinson",
+      "spaghetti",
+      "pétrir",
+      "faiblesse",
+      "boulanger"
     ],
     [
-      "fraisée",
-      "électronique",
-      "danser",
-      "répétitif",
-      "club",
-      "platine"
+      "sablée",
+      "socquette",
+      "modeler",
+      "aromatisé",
+      "pizza",
+      "feuilletée"
     ],
     [
-      "coller",
-      "sauterelle",
-      "popeye",
-      "jaguar",
-      "cordage",
-      "minimaliste"
+      "hypocondrie",
+      "dispute",
+      "aiguillon",
+      "verser",
+      "Gorgone",
+      "levain"
     ],
     [
-      "jouer",
-      "synthé",
-      "ficeler",
-      "châtaigne",
-      "rapide",
-      "familial"
+      "gnocchi",
+      "dentifrice",
+      "lever",
+      "brisée",
+      "Éluard",
+      "levure"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    2,
+    3,
     4,
-    5,
     1,
-    3
+    5
   ],
   "colClues": [
-    3,
+    2,
+    1,
     4,
     3,
     2,
-    4,
-    2
+    5
   ],
-  "themeWord": "techno",
+  "themeWord": "pâte",
   "solution": [
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      true,
+      true,
       false,
       false
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
       false,
       false,
       true,
-      false
+      true,
+      false,
+      true
     ],
     [
       true,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
       true,
       true
     ],
@@ -114,11 +114,11 @@
     [
       true,
       true,
-      false,
-      false,
       true,
-      false
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

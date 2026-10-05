@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "feu",
-      "lichen",
-      "girouette",
-      "marmite"
+      "île",
+      "large",
+      "perroquet",
+      "ivresse"
     ],
     [
-      "homme",
-      "fond",
-      "bouillon",
-      "couvercle"
+      "abordage",
+      "Valois",
+      "lecture",
+      "corsaire"
     ],
     [
-      "cuisson",
-      "évasé",
-      "tesselle",
-      "réjouir"
+      "trésor",
+      "sabre",
+      "spirituel",
+      "palme"
     ],
     [
-      "pygargue",
-      "cocotte",
-      "sauteuse",
-      "poêle"
+      "réussite",
+      "râpeux",
+      "drapeau",
+      "fuite"
     ]
   ],
   "rowClues": [
     2,
     2,
-    1,
-    3
+    2,
+    1
   ],
   "colClues": [
-    2,
-    2,
+    3,
     1,
-    3
+    2,
+    1
   ],
-  "themeWord": "casserole",
+  "themeWord": "pirate",
   "solution": [
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true
+      false
     ],
     [
       true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
     [
       false,
+      false,
       true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "fils",
-      "guêpe",
-      "forum",
-      "marin"
+      "pâtisserie",
+      "mousse",
+      "sucré",
+      "jean"
     ],
     [
-      "famille",
-      "parent",
-      "tonte",
-      "aimer"
+      "sorbet",
+      "front",
+      "Libération",
+      "okapi"
     ],
     [
-      "enfant",
-      "puma",
-      "maman",
-      "parure"
+      "fanes",
+      "flan",
+      "tiramisu",
+      "mains"
     ],
     [
-      "parpaing",
-      "éduquer",
-      "bouffer",
-      "accoucher"
+      "fruit",
+      "tarte",
+      "scoliose",
+      "gâteau"
     ]
   ],
   "rowClues": [
-    1,
     3,
+    1,
     2,
-    2
+    3
   ],
   "colClues": [
     3,
+    3,
     2,
-    1,
-    2
+    1
   ],
-  "themeWord": "mère",
+  "themeWord": "dessert",
   "solution": [
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
-      true
-    ],
-    [
       true,
-      false,
       true,
       false
     ],
     [
-      false,
+      true,
       true,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

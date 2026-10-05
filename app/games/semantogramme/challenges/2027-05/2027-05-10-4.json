@@ -5,115 +5,133 @@
   "height": 7,
   "words": [
     [
-      "rose",
-      "régénération",
-      "transférer",
-      "fleurir",
-      "mare",
-      "astronomique",
-      "soigné"
+      "inscription",
+      "pelote",
+      "façade",
+      "couple",
+      "Panthéon",
+      "classique",
+      "souquer"
     ],
     [
-      "bricoleur",
-      "humeur",
-      "cacher",
-      "maux",
-      "douce",
-      "patrimoine",
-      "blanc"
+      "enthousiaste",
+      "veille",
+      "Parthénon",
+      "grec",
+      "baratiner",
+      "Maine",
+      "dauphin"
     ],
     [
-      "eau",
-      "aquatique",
-      "giverny",
-      "béton",
-      "racine",
-      "libre",
-      "monet"
+      "Biarritz",
+      "peluche",
+      "épitaphe",
+      "brillant",
+      "frise",
+      "crayons",
+      "aplat"
     ],
     [
-      "étang",
-      "anémique",
-      "envoûter",
-      "longer",
-      "samba",
-      "tonnerre",
-      "peureux"
+      "tympan",
+      "Apollinaire",
+      "mur",
+      "ramen",
+      "écliptique",
+      "latin",
+      "corniche"
     ],
     [
-      "rhizome",
-      "slalom",
-      "plante",
-      "vétuste",
-      "maciunas",
-      "chimique",
-      "source"
+      "distillerie",
+      "oscillation",
+      "sculpture",
+      "Basque",
+      "triangle",
+      "temple",
+      "graduation"
     ],
     [
-      "esquisser",
-      "vert",
-      "feuille",
-      "stromatolite",
-      "égarer",
-      "tige",
-      "semis"
+      "Madeleine",
+      "Languedoc",
+      "blason",
+      "évier",
+      "bataille",
+      "alphabet",
+      "bande"
     ],
     [
-      "lune",
-      "rive",
-      "phalange",
-      "data",
-      "carnaval",
-      "flotter",
-      "mousseron"
+      "colonnes",
+      "horloger",
+      "marinade",
+      "fossé",
+      "chistera",
+      "empaqueter",
+      "outre"
     ]
   ],
   "rowClues": [
-    3,
+    5,
     2,
+    2,
+    3,
+    4,
+    1,
+    2
+  ],
+  "colClues": [
     5,
     1,
+    4,
     2,
+    4,
     2,
     1
   ],
-  "colClues": [
-    4,
-    1,
-    3,
-    1,
-    3,
-    2,
-    2
-  ],
-  "themeWord": "nénuphar",
+  "themeWord": "fronton",
   "solution": [
     [
       true,
-      false,
-      false,
       true,
       true,
       false,
+      true,
+      true,
       false
     ],
     [
       false,
       false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
-      true,
-      true,
-      true,
+      false,
       false,
       true,
-      false,
-      true
+      true,
+      true,
+      true,
+      false
     ],
     [
       true,
@@ -127,30 +145,12 @@
     [
       true,
       false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       false,
       true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

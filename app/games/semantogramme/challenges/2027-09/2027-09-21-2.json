@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-21-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "sonnaille",
+      "onde",
+      "arme",
+      "cardage",
+      "hampe"
+    ],
+    [
+      "présent",
+      "roulis",
+      "paracétamol",
+      "tuyau",
+      "monde"
+    ],
+    [
+      "hallebarde",
+      "pointe",
+      "arrosage",
+      "pavlova",
+      "incendie"
+    ],
+    [
+      "Stephenson",
+      "cantonais",
+      "chevalier",
+      "métamorphique",
+      "entaille"
+    ],
+    [
+      "moulin",
+      "vendange",
+      "laïcité",
+      "fer",
+      "javelot"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    4,
+    1,
+    3
+  ],
+  "colClues": [
+    2,
+    1,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "lance",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 11
+}

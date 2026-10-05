@@ -5,62 +5,62 @@
   "height": 5,
   "words": [
     [
-      "lyrics",
-      "cracher",
-      "tenaille",
-      "caverne",
-      "sens"
+      "enrouleur",
+      "rincée",
+      "handicap",
+      "vieilli",
+      "verve"
     ],
     [
-      "trésor",
-      "gueule",
-      "brûler",
-      "natation",
-      "autel"
+      "par",
+      "fer",
+      "bunker",
+      "gîte",
+      "spontanéité"
     ],
     [
-      "aile",
-      "légendaire",
-      "battant",
-      "gastronomie",
-      "fainéant"
+      "club",
+      "voiturette",
+      "bave",
+      "trou",
+      "green"
     ],
     [
-      "fourmi",
-      "vaillance",
-      "chevalier",
-      "lourdeur",
-      "gigantesque"
+      "tee",
+      "drapeau",
+      "parcours",
+      "ventouse",
+      "noble"
     ],
     [
-      "mythique",
-      "voler",
-      "règlement",
-      "gouvernement",
-      "majestueux"
+      "gazon",
+      "swing",
+      "yacht",
+      "clarinette",
+      "balle"
     ]
   ],
   "rowClues": [
-    2,
+    1,
     3,
-    2,
-    2,
+    4,
+    3,
     3
   ],
   "colClues": [
-    3,
     4,
-    2,
+    4,
+    3,
     1,
     2
   ],
-  "themeWord": "dragon",
+  "themeWord": "golf",
   "solution": [
     [
       false,
-      true,
       false,
       true,
+      false,
       false
     ],
     [
@@ -74,15 +74,15 @@
       true,
       true,
       false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
-      false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
     ],
     [
       true,
@@ -92,5 +92,5 @@
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

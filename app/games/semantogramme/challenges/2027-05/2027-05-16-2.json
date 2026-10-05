@@ -5,76 +5,62 @@
   "height": 5,
   "words": [
     [
-      "parc",
-      "impair",
-      "carboniser",
-      "campagne",
-      "imposant"
+      "monastère",
+      "ingrédient",
+      "destin",
+      "investiguer",
+      "Pentecôte"
     ],
     [
-      "beignet",
-      "cheminée",
-      "derme",
-      "tourelle",
-      "anniversaire"
+      "couteau",
+      "four",
+      "marmite",
+      "notice",
+      "casserole"
     ],
     [
-      "rider",
-      "antiquité",
-      "habiter",
-      "gentilhomme",
-      "mairie"
+      "Belon",
+      "mijoter",
+      "plat",
+      "poêle",
+      "tablier"
     ],
     [
-      "recevoir",
-      "galerie",
-      "noble",
-      "marchand",
-      "colombier"
+      "mitonner",
+      "dégoût",
+      "Dowland",
+      "Tibet",
+      "mesa"
     ],
     [
-      "ippon",
-      "hériter",
-      "neuronal",
-      "saumâtre",
-      "élégant"
+      "recette",
+      "goûter",
+      "fanal",
+      "épiler",
+      "aborigène"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    3,
+    1,
     4,
+    4,
+    1,
     2
   ],
   "colClues": [
-    2,
+    3,
     4,
     2,
-    3,
-    3
+    1,
+    2
   ],
-  "themeWord": "manoir",
+  "themeWord": "cuisiner",
   "solution": [
     [
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       true,
       false,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      true,
       false
     ],
     [
@@ -87,10 +73,24 @@
     [
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

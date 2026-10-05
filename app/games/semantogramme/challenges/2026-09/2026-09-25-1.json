@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "sabre",
-      "tornade",
-      "cyclone",
-      "tempête"
+      "défense",
+      "barrir",
+      "arnaque",
+      "Shakira"
     ],
     [
-      "brise",
-      "bander",
-      "lugubre",
-      "girouette"
+      "pachyderme",
+      "extension",
+      "verrou",
+      "Dumbo"
     ],
     [
-      "universel",
-      "voile",
-      "bourrasque",
-      "veilleuse"
+      "Hannibal",
+      "géométrie",
+      "mammouth",
+      "recéler"
     ],
     [
-      "souffle",
-      "tourbillon",
-      "vespéral",
-      "ouragan"
+      "tertre",
+      "cornac",
+      "trompe",
+      "discrète"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
-    2,
     3,
     2,
-    3
+    2,
+    1
   ],
-  "themeWord": "vent",
+  "themeWord": "éléphant",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      true
+      false
     ],
     [
       true,
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ],
     [
       false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-24-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bévue",
+      "sermon",
+      "trébucher",
+      "krill",
+      "casser",
+      "balourd"
+    ],
+    [
+      "mains",
+      "internat",
+      "bourde",
+      "godiche",
+      "OLED",
+      "malhabile"
+    ],
+    [
+      "météore",
+      "sol",
+      "dessalée",
+      "renverser",
+      "imaginer",
+      "tapir"
+    ],
+    [
+      "bébé",
+      "gauche",
+      "pied",
+      "tomber",
+      "enduro",
+      "enveloppe"
+    ],
+    [
+      "chamade",
+      "empoté",
+      "chef-d'oeuvre",
+      "pataud",
+      "Guinness",
+      "anglais"
+    ],
+    [
+      "gaffeur",
+      "lourdaud",
+      "palissade",
+      "mandibule",
+      "Homère",
+      "Uber"
+    ]
+  ],
+  "rowClues": [
+    4,
+    4,
+    1,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    1,
+    2
+  ],
+  "themeWord": "maladroit",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

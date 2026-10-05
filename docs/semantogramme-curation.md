@@ -1,173 +1,64 @@
-# Sémantogramme — création des niveaux curés (L1 et L2)
+# Sémantogramme — curation et génération des niveaux
 
-Ce document décrit le processus de création des niveaux **1 et 2** du
-sémantogramme, qui sont **curés à la main** (un thème par jour, du début
-avril 2026 à fin janvier 2027 — 306 puzzles par niveau). Les niveaux 3-4
-restent générés automatiquement à partir d'un pool de 10 thèmes hardcodés.
+Les 4 niveaux quotidiens sont tous issus d'une curation écrite à la main,
+dans `generators/semantogramme-curation/` (voir son README) : un thème par
+jour et par niveau, du 2026-09-01 au 2027-09-30 (1580 thèmes, tous
+différents).
 
-| Niveau | Grille | N IN ∈    | Min membres | Fichier                      |
-|--------|--------|-----------|-------------|------------------------------|
-| L1     | 4 × 4  | 7 .. 10   | 10          | `generators/curated-themes-l1.ts` (`CURATED_THEMES_L1`)    |
-| L2     | 5 × 5  | 11 .. 15  | 15          | `generators/curated-themes-l2.ts` (`CURATED_THEMES_L2`) |
+| Niveau | Grille | Cases thème | Mots curés par thème |
+|--------|--------|-------------|----------------------|
+| L1     | 4 × 4  | 7 .. 10     | 10                   |
+| L2     | 5 × 5  | 11 .. 15    | 15                   |
+| L3     | 6 × 6  | 14 .. 18    | 18                   |
+| L4     | 7 × 7  | 15 .. 19    | 19                   |
 
-Différences L2 vs L1 :
+## Données
 
-- les **thèmes ET les membres** peuvent être des **noms communs,
-  adjectifs ou verbes** (L1 est limité aux noms communs) ;
-- chaque thème nécessite au moins **15 membres** (au lieu de 10) ;
-- les thèmes L2 sont **100 % distincts** des 306 thèmes L1.
+- `schedule.json` : le calendrier (date, thème, catégorie). Deux thèmes d'une
+  même catégorie ne se suivent pas ; deux thèmes d'un même domaine de sens
+  (`domains.json`) sont espacés d'au moins 7 jours.
+- `words/<AAAA-MM>.json` : les mots de chaque thème.
+- `allowed.json` : les décisions prises à la main (mots admis hors
+  dictionnaire, couples gardés ou refusés).
 
-Le **pool de fillers** est commun aux deux niveaux : membres de tous les
-autres thèmes curés L1 ∪ L2 (hors membres du thème courant et hors
-mot-thème lui-même).
+Les règles automatiques des listes (taille, dictionnaire, famille, mot qui
+trahit le thème, répétition à moins de 3 jours…) sont dans
+`generators/semantogramme-curation.ts` et vérifiées sur tout le corpus par
+`tests/unit/semantogramme-curation.test.ts`. Le jugement (lien évident,
+nom propre connu) reste une relecture humaine.
 
-## Pourquoi du contenu curé
+## Génération
 
-Pour un niveau de découverte, on veut :
+`generators/semantogramme.ts` planifie toute l'année d'un coup, jour après
+jour (`planYear`) : les mots hors thème d'un jour dépendent des jours
+précédents. Pour chaque niveau :
 
-- des thèmes **immédiatement reconnaissables** par tout francophone ;
-- une vingtaine de mots membres clairement associés au thème (sans
-  ambiguïté) ;
-- une grille **toujours résoluble** par sémantique pure : si un mot est
-  posé en case « IN », tous les joueurs s'accorderont à dire qu'il est
-  bien dans le thème.
+1. on tire le nombre de cases thème dans la plage du niveau, puis autant de
+   mots curés du thème ;
+2. on complète avec des mots hors thème piochés parmi les mots des autres
+   thèmes, en excluant :
+   - les mots et thèmes des deux jours précédents et des deux suivants, et
+     les mots hors thème déjà posés ces jours-là (règles 2 et 3) ;
+   - les mots des thèmes du même domaine de sens, ou des thèmes liés (dont
+     la liste contient le thème courant, ou l'inverse) : un mot hors thème
+     ne doit pas pouvoir passer pour un mot du thème ;
+   - les mots de la même famille qu'un mot déjà placé, ou qui trahissent le
+     thème (règle 4) ;
+3. on mélange jusqu'à ce que chaque ligne et chaque colonne ait au moins une
+   case thème et une case hors thème.
 
-Une génération automatique produirait des thèmes parfois flous (« choses
-rondes ») ou des cooccurrences ambiguës (« voile » qui peut être à la fois
-sport, mer et vêtement). On préfère donc lister à la main.
+Le tirage est déterministe (graine `semantogramme:<date>:<niveau>`).
+`parMoves` vaut exactement le nombre de cases thème.
 
-## Anatomie d'un niveau curé
+## Modifier un thème
 
-Un niveau 1 fait **4 × 4 = 16 cases**. Il contient :
+Éditer `words/<mois>.json` (ou `schedule.json`), vérifier avec `make test`,
+puis régénérer :
 
-- `N` cases **IN** = mots du thème, avec `N` tiré aléatoirement entre **7
-  et 10** par la graine date+index. Au-delà de 10, la grille devient trop
-  saturée (≥ 11/16 cases « IN ») et le puzzle perd son intérêt.
-- `16 − N` cases **OUT** = mots qui n'appartiennent **pas** au thème
-  courant.
-- Les indices `rowClues` et `colClues` sont calculés depuis la matrice
-  solution (placement des IN).
+```bash
+make generate-levels ARGS="--game semantogramme --clean"
+```
 
-Tous les mots placés dans une grille sont **distincts** — pas de
-répétition, ni pour les membres ni pour les fillers.
-
-## Règles de curation
-
-### Pour le thème (`word`)
-
-- Doit être un **nom commun** (pas de nom propre, pas de marque, pas
-  d'adjectif).
-- Doit être **courant** : si le mot demande un dictionnaire pour être
-  identifié, il est rejeté.
-- Doit être **distinct** de tous les autres thèmes de la collection (on
-  vise ~305 thèmes différents).
-- Doit exister tel quel dans `generators/words-fr-raw.json` (vérifié à la
-  génération).
-
-### Pour les membres
-
-- **Au moins 10** membres distincts par thème (le N tiré peut atteindre
-  10).
-- La liste doit être **exhaustive** : elle doit contenir TOUS les mots
-  qu'un joueur classerait IN pour ce thème — y compris ceux qui sont
-  aussi membres d'un autre thème (ex. `acteur` est membre du thème
-  `cinéma` ET de `métier`). Si on oublie un mot, il sortira en filler et
-  rendra le puzzle insoluble.
-- Chaque membre est **fortement associé** au thème : si un joueur lit le
-  mot et connaît le thème, il marque la case IN sans hésiter.
-- Chaque membre existe tel quel dans `words-fr-raw.json`.
-- Au-delà de 10, on peut en lister 12-17 pour diversifier les puzzles
-  d'un même thème (mais chaque thème n'est utilisé qu'une seule fois sur
-  la collection, donc l'enjeu est surtout de couvrir les ambiguïtés
-  cross-thèmes).
-
-### Pour les fillers
-
-**Pas de pool générique.** Les fillers d'un puzzle viennent du **pool des
-membres de tous les autres thèmes curés**. Un mot de la liste « fleur »
-peut donc servir de filler dans une grille « métier » : par construction,
-il n'est pas un métier.
-
-Conséquence importante : si un mot appartient sémantiquement à
-**plusieurs** thèmes (ex. « voile » dans `mer` ET `transport`), il faut
-l'inscrire dans les `members` de **tous** les thèmes concernés. Sinon il
-sortira en filler dans l'un alors que le joueur le marquerait IN.
-
-Décision **au cas par cas** par le curateur :
-- `acteur` est membre de `cinéma` et de `métier` → liste dans les deux.
-- `instituteur` est membre de `école` et de `métier` → liste dans les
-  deux.
-- `chêne` est membre de `arbre` uniquement → liste dans `arbre` seulement.
-- `pétale` n'est pas listé comme membre de `fleur` (c'est une PARTIE de
-  fleur, pas une fleur) → reste un filler valide pour fleur.
-
-La règle de validation : un joueur connaissant le thème courant
-classerait-il ce mot IN ? Si oui → membre. Si non → filler valide.
-
-## Processus pas-à-pas (pour ajouter de nouveaux thèmes)
-
-1. **Choisir un thème** : un nom commun courant, distinct des thèmes déjà
-   curés (voir `generators/curated-themes-l1.ts`).
-2. **Lister 12 membres candidats** (on garde 12 pour avoir de la marge
-   au-dessus du min 10 ; ça permet la diversité entre puzzles si jamais
-   un même thème est réutilisé).
-3. **Valider chaque mot** dans le dictionnaire :
-   ```bash
-   node -e 'const d=require("./generators/words-fr-raw.json");for(const w of ["fleur","rose","tulipe"])console.log(w,d.includes(w))'
-   ```
-   Si un mot manque, en choisir un proche qui existe (ex. `mozzarella`
-   absent → remplacer par `parmesan` ou `tomme`).
-4. **Vérifier la cohérence sémantique** : chaque membre doit être dans le
-   thème ET pas dans un thème déjà curé d'une manière qui rendrait la
-   grille ambiguë.
-5. **Ajouter l'entrée** dans `generators/curated-themes-l1.ts` :
-   ```ts
-   '2026-04-13': {
-     word: 'légume',
-     members: ['carotte', 'navet', 'poireau', /* ... */],
-   },
-   ```
-6. **Régénérer les niveaux** :
-   ```bash
-   make generate-levels
-   ```
-7. **Vérifier dans le navigateur** : ouvrir le niveau du jour
-   correspondant et confirmer qu'il fonctionne.
-
-## Validation automatique
-
-Le générateur jette une exception en cas d'invariant cassé :
-
-- Thème avec moins de 10 membres → `Theme X a moins de 10 membres curés`.
-- Pool cross-thèmes trop petit après exclusion → `Pool de fillers trop
-  petit pour le thème X`. Ce cas n'arrive que si le total cumulé des
-  membres des autres thèmes est insuffisant pour couvrir 6 à 9 fillers
-  distincts — c'est-à-dire jamais en pratique à partir de ~5 thèmes
-  curés.
-
-Si l'exception est levée pendant `make generate-levels`, la génération
-s'arrête et il faut corriger la curation.
-
-## Format final (JSON)
-
-Chaque niveau est sérialisé en JSON dans
-`app/games/semantogramme/challenges/<YYYY-MM>/<YYYY-MM-DD>-1.json` avec la
-structure habituelle (`words`, `rowClues`, `colClues`, `themeWord`,
-`solution`, `parMoves`).
-
-Le `parMoves` est égal **exactement** à `N` (le nombre de cases IN).
-Aucune marge n'est accordée : il faut faire pile le bon nombre de clics
-pour décrocher la coche verte (« perfect »). Tout clic perdu ou superflu
-fait basculer en `solved` (jaune).
-
-## Maintenance
-
-- **Pour modifier un thème** déjà publié : éditer `curated-themes-l1.ts`,
-  régénérer. Attention aux joueurs qui auraient déjà la progression
-  sauvegardée — leur `bestMoves` deviendrait potentiellement comparé à un
-  `parMoves` différent.
-- **Pour rajouter un thème** sur une date qui était auto-générée :
-  ajouter l'entrée et régénérer. Le générateur préfère systématiquement
-  le thème curé.
-- **Pour retirer une date du curé** (revenir à l'aléatoire) : supprimer
-  l'entrée du record.
+Une modification change aussi les mots hors thème des jours suivants : toute
+l'année est régénérée. Un joueur qui a déjà résolu un niveau garde sa
+progression, mais la grille peut avoir changé.

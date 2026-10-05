@@ -5,95 +5,113 @@
   "height": 7,
   "words": [
     [
-      "callosité",
-      "couleur",
-      "épine",
-      "orner",
-      "art",
-      "chakra",
-      "touche"
+      "Cerbère",
+      "stable",
+      "dérailleur",
+      "s'étioler",
+      "stationnaire",
+      "jours",
+      "pâlir"
     ],
     [
-      "décomposer",
-      "tannerie",
-      "flux",
-      "pigeon",
-      "inintelligible",
-      "spéculatif",
-      "inflexible"
+      "étagère",
+      "stalactite",
+      "apocalypse",
+      "traîner",
+      "altération",
+      "propreté",
+      "soldes"
     ],
     [
-      "observer",
-      "lancer",
-      "néo-impressionnisme",
-      "fantasme",
-      "sommet",
-      "technique",
-      "écarter"
+      "mélancolie",
+      "spleen",
+      "amoureux",
+      "rêverie",
+      "autrui",
+      "aquatique",
+      "désir"
     ],
     [
-      "ourlet",
-      "mélange",
-      "signac",
-      "marchand",
-      "peinture",
-      "pulsation",
-      "rigoureux"
+      "absence",
+      "atome",
+      "Sud",
+      "s'ennuyer",
+      "vœux",
+      "conscience",
+      "langer"
     ],
     [
-      "pépite",
-      "asie",
-      "analyser",
-      "tilleul",
-      "scientifique",
-      "mouvement",
-      "aiguillon"
+      "manque",
+      "déception",
+      "sauter",
+      "austérité",
+      "regret",
+      "lenteur",
+      "allégé"
     ],
     [
-      "sceptique",
-      "seurat",
-      "recommander",
-      "fournil",
-      "détente",
-      "aimante",
-      "pure"
+      "gyrophare",
+      "gravir",
+      "triangle",
+      "pessimisme",
+      "lassitude",
+      "dépérir",
+      "frénétique"
     ],
     [
-      "télescope",
-      "division",
-      "verlaine",
-      "méthodique",
-      "nier",
-      "optique",
-      "sélectionner"
+      "impatience",
+      "entrain",
+      "passagers",
+      "potée",
+      "Mbappé",
+      "lecteur",
+      "attente"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     1,
+    5,
     2,
-    4,
     3,
     2,
-    3
+    2
   ],
   "colClues": [
-    2,
     4,
-    3,
     1,
-    3,
+    1,
+    4,
+    2,
     2,
     3
   ],
-  "themeWord": "pointillisme",
+  "themeWord": "languir",
   "solution": [
     [
       false,
-      true,
       false,
       false,
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
       false,
       true
     ],
@@ -101,7 +119,7 @@
       true,
       false,
       false,
-      false,
+      true,
       false,
       false,
       false
@@ -109,25 +127,7 @@
     [
       true,
       false,
-      true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
       false,
       true,
       true,
@@ -135,22 +135,22 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       false,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

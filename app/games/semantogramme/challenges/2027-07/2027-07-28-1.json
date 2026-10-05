@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-28-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "sourire",
+      "bonté",
+      "fjord",
+      "cygne"
+    ],
+    [
+      "Tocqueville",
+      "trèfle",
+      "harmonie",
+      "antithèse"
+    ],
+    [
+      "rire",
+      "joie",
+      "volontaire",
+      "contentement"
+    ],
+    [
+      "félicité",
+      "enfance",
+      "épanouissement",
+      "plaisir"
+    ]
+  ],
+  "rowClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "bonheur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

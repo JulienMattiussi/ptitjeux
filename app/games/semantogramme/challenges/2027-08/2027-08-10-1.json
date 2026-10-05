@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-10-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "couler",
+      "larme",
+      "yang",
+      "sentiment"
+    ],
+    [
+      "frisson",
+      "loess",
+      "peur",
+      "proche"
+    ],
+    [
+      "reprocher",
+      "coeur",
+      "colère",
+      "tristesse"
+    ],
+    [
+      "praline",
+      "skipper",
+      "surprise",
+      "dégoût"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "émotion",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

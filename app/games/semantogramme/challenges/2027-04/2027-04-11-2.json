@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "foin",
-      "enrobé",
-      "maïs",
-      "mollet",
-      "archaïque"
+      "remontrance",
+      "diable",
+      "Cerbère",
+      "Satan",
+      "abîme"
     ],
     [
-      "foulée",
-      "empreinte",
-      "cueillir",
-      "chaussure",
-      "piétiner"
+      "Méphisto",
+      "épilepsie",
+      "trot",
+      "tourment",
+      "Lucifer"
     ],
     [
-      "enjambée",
-      "planer",
-      "orteil",
-      "mâcher",
-      "pédestre"
+      "terrine",
+      "purgatoire",
+      "Narcisse",
+      "vaniteux",
+      "archipel"
     ],
     [
-      "talon",
-      "marcher",
-      "taper",
-      "pas",
-      "fermenté"
+      "pangolin",
+      "démon",
+      "Rolex",
+      "flammes",
+      "Styx"
     ],
     [
-      "nénuphar",
-      "cheville",
-      "plante",
-      "semelle",
-      "cliché"
+      "damnation",
+      "ordure",
+      "Hadès",
+      "géhenne",
+      "aristocrate"
     ]
   ],
   "rowClues": [
-    1,
     4,
     3,
-    4,
+    1,
+    3,
     3
   ],
   "colClues": [
+    2,
     3,
-    3,
-    3,
+    2,
     4,
-    2
+    3
   ],
-  "themeWord": "pied",
+  "themeWord": "enfer",
   "solution": [
     [
       false,
-      false,
-      false,
       true,
-      false
+      true,
+      true,
+      true
     ],
     [
       true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true,
@@ -73,24 +87,10 @@
     [
       true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

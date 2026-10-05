@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "piqûre",
-      "pleine",
-      "transparente",
-      "siffler"
+      "plume",
+      "tubulaire",
+      "subsistance",
+      "refroidir"
     ],
     [
-      "étain",
-      "lime",
-      "sauter",
-      "flottante"
+      "bec",
+      "migration",
+      "formol",
+      "soda"
     ],
     [
-      "eau",
-      "cédrat",
-      "trôner",
-      "mer"
+      "nièce",
+      "diviser",
+      "mésange",
+      "nid"
     ],
     [
-      "cendrier",
-      "urticante",
-      "générosité",
-      "plancton"
+      "oisillon",
+      "aile",
+      "moineau",
+      "grotte"
     ]
   ],
   "rowClues": [
-    2,
     1,
     2,
-    2
-  ],
-  "colClues": [
     2,
-    1,
-    1,
     3
   ],
-  "themeWord": "méduse",
+  "colClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "oiseau",
   "solution": [
     [
       true,
       false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      false,
       false
     ],
     [
       false,
       false,
-      false,
+      true,
       true
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

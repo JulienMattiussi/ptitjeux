@@ -5,110 +5,128 @@
   "height": 7,
   "words": [
     [
-      "roux",
-      "courber",
-      "candeur",
-      "mijoter",
-      "fontaine",
-      "aride",
-      "sauce"
+      "hésitation",
+      "grondin",
+      "humilité",
+      "musicalité",
+      "ventiler",
+      "maquereau",
+      "essoreuse"
     ],
     [
-      "éperonner",
-      "diaphragme",
-      "pesant",
-      "route",
-      "auteur",
-      "nouveauté",
-      "champignon"
+      "Montagnier",
+      "laïcité",
+      "sinus",
+      "initiation",
+      "Polaire",
+      "lyre",
+      "saumonée"
     ],
     [
-      "miel",
-      "cerveau",
-      "préparer",
-      "ramure",
-      "gambade",
-      "iglou",
-      "alimenter"
+      "treillis",
+      "demeure",
+      "Enfers",
+      "réincarnation",
+      "Léger",
+      "Basque",
+      "Eurydice"
     ],
     [
-      "traditionnelle",
-      "lacune",
-      "frère",
-      "bouillon",
-      "carotte",
-      "inscription",
-      "nourriture"
+      "Duchamp",
+      "chuinter",
+      "bourreau",
+      "menottes",
+      "Picabia",
+      "lido",
+      "mystères"
     ],
     [
-      "familiale",
-      "streptocoque",
-      "épanoui",
-      "savourer",
-      "allégresse",
-      "classique",
-      "cuisine"
+      "inédit",
+      "cercles",
+      "Thrace",
+      "bousculer",
+      "livret",
+      "tarot",
+      "moraine"
     ],
     [
-      "farine",
-      "digestif",
-      "sargasse",
-      "laver",
-      "radieux",
-      "veau",
-      "française"
+      "amulette",
+      "Kindle",
+      "couleur",
+      "prisme",
+      "Apollinaire",
+      "mathématiques",
+      "Noé"
     ],
     [
-      "pertinent",
-      "crémeuse",
-      "rustique",
-      "faucon",
-      "soudure",
-      "praline",
-      "colle"
+      "Delaunay",
+      "simultané",
+      "agent",
+      "barque",
+      "Kupka",
+      "contrastes",
+      "marge"
     ]
   ],
   "rowClues": [
-    3,
     1,
-    1,
+    2,
+    4,
     3,
+    2,
+    3,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    4,
     4,
     2,
     2
   ],
-  "colClues": [
-    3,
-    1,
-    2,
-    3,
-    1,
-    2,
-    4
-  ],
-  "themeWord": "blanquette",
+  "themeWord": "orphisme",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
       false,
       false,
-      true,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
       false,
       false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
       false,
       true
     ],
     [
       false,
-      false,
+      true,
       true,
       false,
       false,
@@ -116,9 +134,9 @@
       false
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true,
       true,
       false,
@@ -126,31 +144,13 @@
     ],
     [
       true,
-      false,
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
-      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

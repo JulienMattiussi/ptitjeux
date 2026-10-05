@@ -5,35 +5,35 @@
   "height": 4,
   "words": [
     [
-      "élaguer",
-      "médiévale",
-      "café",
-      "clocher"
+      "longue",
+      "décolleté",
+      "renne",
+      "soirée"
     ],
     [
-      "césar",
-      "mairie",
-      "pivoter",
-      "décliner"
+      "matou",
+      "bal",
+      "pense-bête",
+      "couturière"
     ],
     [
-      "cannibale",
-      "pavé",
-      "panthère",
-      "gecko"
+      "frotter",
+      "mariée",
+      "Alep",
+      "imbibé"
     ],
     [
-      "épicerie",
-      "rue",
-      "production",
-      "boulangerie"
+      "combiner",
+      "vie",
+      "volant",
+      "solde"
     ]
   ],
   "rowClues": [
+    3,
     2,
     1,
-    1,
-    3
+    1
   ],
   "colClues": [
     1,
@@ -41,12 +41,18 @@
     1,
     2
   ],
-  "themeWord": "village",
+  "themeWord": "robe",
   "solution": [
     [
+      true,
+      true,
       false,
+      true
+    ],
+    [
       false,
       true,
+      false,
       true
     ],
     [
@@ -57,15 +63,9 @@
     ],
     [
       false,
-      true,
       false,
+      true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 7

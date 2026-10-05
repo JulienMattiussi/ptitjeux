@@ -1,6 +1,6 @@
 import { expectedCorridor } from '~/games/anglemort/engine'
 import type { Level } from '~/games/anglemort/types'
-import { PROOF_CORRIDORS, RIVAL_NODES, levelOrigin } from '../../generators/anglemort'
+import { PROOF_CORRIDORS, PROOF_NODES, levelOrigin } from '../../generators/anglemort'
 import { isCorridorUnique } from '../../generators/anglemort-corridors'
 
 /** Niveaux qui sont la version d'origine (non transformée) de leur grille de base. */
@@ -12,6 +12,6 @@ export function originalLevels(levels: Level[]): Level[] {
 export function hasUniqueCorridor(level: Level): boolean {
   return isCorridorUnique(level, expectedCorridor(level), {
     maxCorridors: PROOF_CORRIDORS,
-    maxNodes: RIVAL_NODES,
+    maxNodes: PROOF_NODES,
   })
 }

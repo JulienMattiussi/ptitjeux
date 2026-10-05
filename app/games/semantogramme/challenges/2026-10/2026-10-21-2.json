@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "hebdomadaire",
-      "cinéma",
-      "fête",
-      "première",
-      "taches"
+      "sous-couche",
+      "teinte",
+      "white-spirit",
+      "mesa",
+      "dégradé"
     ],
     [
-      "loisir",
-      "trois-cent-soixante-cinq",
-      "romarin",
-      "masse",
-      "masque"
+      "inviter",
+      "nuancier",
+      "camaïeu",
+      "laque",
+      "badigeonner"
     ],
     [
-      "reposer",
-      "plafond",
-      "menuisier",
-      "flâner",
-      "après-midi"
+      "tamponner",
+      "duperie",
+      "Atlas",
+      "barbouiller",
+      "pervenche"
     ],
     [
-      "sortir",
-      "pasteurisé",
-      "jour",
-      "férié",
-      "voyance"
+      "retouche",
+      "touche",
+      "brosse",
+      "Leeuwenhoek",
+      "cerise"
     ],
     [
-      "élargir",
-      "dorée",
-      "week-end",
-      "soirée",
-      "civil"
+      "oubli",
+      "pistolet",
+      "verrine",
+      "enduire",
+      "QWERTY"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    3,
+    4,
+    4,
+    2,
     3,
     2
   ],
   "colClues": [
+    3,
     4,
-    1,
     3,
     3,
-    1
+    2
   ],
-  "themeWord": "samedi",
+  "themeWord": "peindre",
   "solution": [
     [
       true,
       true,
       true,
       false,
-      false
+      true
     ],
     [
+      false,
       true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
       true,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       true,
       false
     ],
     [
+      true,
+      true,
+      true,
       false,
+      false
+    ],
+    [
       false,
       true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

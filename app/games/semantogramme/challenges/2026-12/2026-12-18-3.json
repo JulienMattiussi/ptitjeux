@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "vert",
-      "chaperon",
-      "attention",
-      "fruit",
-      "triste",
-      "parka"
+      "chaise",
+      "juvénile",
+      "contre-réforme",
+      "gramme",
+      "rizière",
+      "retenir"
     ],
     [
-      "cueillette",
-      "merveilleux",
-      "vitamine",
-      "bomber",
-      "club",
-      "nouvelle-zélande"
+      "transat",
+      "été",
+      "Mozart",
+      "soleil",
+      "longueur",
+      "sou"
     ],
     [
-      "brun",
-      "tropical",
-      "trembler",
-      "éplucher",
-      "gencive",
-      "discret"
+      "chérie",
+      "serveur",
+      "Android",
+      "Pacifique",
+      "imprudent",
+      "pergola"
     ],
     [
-      "cutané",
-      "londres",
-      "exotique",
-      "imprimable",
-      "tranche",
-      "acide"
+      "apéritif",
+      "cervicale",
+      "décisif",
+      "fissure",
+      "élisabéthain",
+      "plancher"
     ],
     [
-      "arabica",
-      "baptême",
-      "oeuf",
-      "sourdine",
-      "boutique",
-      "récit"
+      "fleurette",
+      "germer",
+      "parasol",
+      "toit",
+      "déglutir",
+      "bistrot"
     ],
     [
-      "rond",
-      "gronder",
-      "pépin",
-      "sucrée",
-      "transcrire",
-      "libellule"
+      "volet",
+      "balcon",
+      "brasserie",
+      "câpres",
+      "bois",
+      "café"
     ]
   ],
   "rowClues": [
     2,
     3,
+    2,
+    2,
     3,
-    3,
-    1,
-    3
+    4
   ],
   "colClues": [
-    4,
-    1,
-    4,
     3,
-    1,
-    2
+    3,
+    2,
+    2,
+    2,
+    4
   ],
-  "themeWord": "kiwi",
+  "themeWord": "terrasse",
   "solution": [
     [
       true,
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false,
       false
     ],
     [
-      true,
       false,
       true,
+      false,
       false,
       false,
       true
     ],
     [
       true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      true,
       false,
-      true,
+      false,
       true
     ],
     [
       false,
       false,
       true,
+      true,
       false,
-      false,
-      false
+      true
     ],
     [
-      true,
       false,
       true,
       true,
       false,
-      false
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

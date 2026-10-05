@@ -5,97 +5,106 @@
   "height": 7,
   "words": [
     [
-      "concentration",
-      "piano",
-      "maroquinerie",
-      "rétine",
-      "brassé",
-      "improvisation",
-      "capricieux"
+      "présentatrice",
+      "partita",
+      "examiner",
+      "pistou",
+      "Rialto",
+      "croquis",
+      "réforme"
     ],
     [
-      "comparée",
-      "commercialiser",
-      "vénérer",
-      "inscription",
-      "inexprimable",
-      "pingrerie",
-      "chopin"
+      "olive",
+      "argumentation",
+      "amuse-bouche",
+      "clan",
+      "Kalamata",
+      "safari",
+      "trente"
     ],
     [
-      "spontané",
-      "court",
-      "marronnier",
-      "discret",
-      "soupirer",
-      "mycélium",
-      "inspecter"
+      "merlot",
+      "trouillard",
+      "bientôt",
+      "tatami",
+      "casting",
+      "exil",
+      "marinade"
     ],
     [
-      "canari",
-      "dérouler",
-      "éroder",
-      "ralentir",
-      "lyrique",
-      "dresser",
-      "oeufrier"
+      "Troie",
+      "caviar",
+      "pain",
+      "gaillard",
+      "abnégation",
+      "toast",
+      "sermonner"
     ],
     [
-      "jouer",
-      "boisson",
-      "intime",
-      "persistant",
-      "éclair",
-      "cicatrice",
-      "fantaisiste"
+      "ivoire",
+      "pudeur",
+      "consonance",
+      "barbe",
+      "tartine",
+      "Jamaïque",
+      "croûton"
     ],
     [
-      "sou",
-      "imposante",
-      "musique",
-      "schubert",
-      "tourelle",
-      "teckel",
-      "composer"
+      "huile",
+      "mouliner",
+      "aquarium",
+      "millésime",
+      "picholine",
+      "câpre",
+      "fille"
     ],
     [
-      "colonne",
-      "falconidé",
-      "grisaille",
-      "fauré",
-      "pliable",
-      "voler",
-      "vis"
+      "camembert",
+      "Nyons",
+      "provençale",
+      "solitaire",
+      "fossoyeur",
+      "caramélisé",
+      "enterrer"
     ]
   ],
   "rowClues": [
-    3,
     1,
     3,
     1,
     3,
-    3,
-    1
+    2,
+    4,
+    2
   ],
   "colClues": [
     2,
-    2,
-    2,
+    3,
     3,
     1,
-    1,
-    4
+    3,
+    2,
+    2
   ],
-  "themeWord": "impromptu",
+  "themeWord": "tapenade",
   "solution": [
     [
       false,
+      false,
+      false,
       true,
       false,
       false,
+      false
+    ],
+    [
+      true,
       false,
       true,
-      true
+      false,
+      true,
+      false,
+      false
     ],
     [
       false,
@@ -107,12 +116,12 @@
       true
     ],
     [
+      false,
       true,
       true,
       false,
+      false,
       true,
-      false,
-      false,
       false
     ],
     [
@@ -122,35 +131,26 @@
       false,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
       false
     ],
     [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

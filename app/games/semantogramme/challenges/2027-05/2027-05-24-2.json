@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "novice",
-      "visiter",
-      "parrain",
-      "neveu",
-      "tantine"
+      "bricoler",
+      "migrateur",
+      "tournevis",
+      "outil",
+      "restaurer"
     ],
     [
-      "amasser",
-      "pancréas",
-      "tonton",
-      "embarquer",
-      "passe"
+      "directeur",
+      "atelier",
+      "soudure",
+      "panne",
+      "concis"
     ],
     [
-      "parent",
-      "paix",
-      "spectre",
-      "cousin",
-      "simple"
+      "raccommoder",
+      "pièce",
+      "mécanicien",
+      "chanteur",
+      "perchoir"
     ],
     [
-      "puce",
-      "gâter",
-      "frangin",
-      "fracturer",
-      "nièce"
+      "Russie",
+      "garantie",
+      "ruche",
+      "dépanner",
+      "éperon"
     ],
     [
-      "père",
-      "beau-frère",
-      "mère",
-      "géométrie",
-      "famille"
+      "desserré",
+      "enjambée",
+      "graphique",
+      "garage",
+      "colle"
     ]
   ],
   "rowClues": [
     4,
-    1,
-    2,
     3,
-    4
+    3,
+    2,
+    2
   ],
   "colClues": [
     2,
     3,
+    3,
     4,
-    2,
-    3
+    2
   ],
-  "themeWord": "oncle",
+  "themeWord": "réparer",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       true,
       true
     ],
     [
       false,
-      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false,
       false
     ],
     [
-      true,
       false,
+      true,
       false,
       true,
       false
     ],
     [
       false,
-      true,
-      true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
       false,
+      true,
       true
     ]
   ],

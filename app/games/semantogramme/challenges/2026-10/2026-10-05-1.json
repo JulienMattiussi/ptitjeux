@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "brassé",
-      "origan",
-      "carpe",
-      "brochet"
+      "antenne",
+      "ailes",
+      "pessimisme",
+      "collectionneur"
     ],
     [
-      "truite",
-      "saumon",
-      "sardine",
-      "vis"
+      "Magnificat",
+      "voler",
+      "sec",
+      "Machaon"
     ],
     [
-      "maquereau",
-      "remettre",
-      "mousseron",
-      "sole"
+      "filet",
+      "enterrer",
+      "aviron",
+      "kermesse"
     ],
     [
-      "serré",
-      "anguille",
-      "glaise",
-      "thon"
+      "fleur",
+      "tonne",
+      "nectar",
+      "jardiner"
     ]
   ],
   "rowClues": [
-    2,
     3,
     2,
+    1,
     2
   ],
   "colClues": [
+    3,
     2,
-    2,
-    2,
-    3
+    1,
+    2
   ],
-  "themeWord": "poisson",
+  "themeWord": "papillon",
   "solution": [
     [
+      true,
+      true,
       false,
+      true
+    ],
+    [
       false,
       true,
+      false,
       true
     ],
     [
       true,
-      true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

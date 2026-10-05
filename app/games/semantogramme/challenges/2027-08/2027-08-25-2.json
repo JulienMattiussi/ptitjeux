@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-25-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "faïence",
+      "four",
+      "déballer",
+      "vase",
+      "sauna"
+    ],
+    [
+      "Wolverine",
+      "tour",
+      "modeler",
+      "potier",
+      "grès"
+    ],
+    [
+      "wok",
+      "pichet",
+      "Jamaïque",
+      "génie",
+      "Milka"
+    ],
+    [
+      "Cluny",
+      "Vallauris",
+      "Chauve-souris",
+      "basketteur",
+      "cruche"
+    ],
+    [
+      "mucus",
+      "dessert",
+      "méhari",
+      "glaise",
+      "médecin"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    1,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    4,
+    1,
+    3,
+    2
+  ],
+  "themeWord": "poterie",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 11
+}

@@ -5,152 +5,152 @@
   "height": 7,
   "words": [
     [
-      "jumeler",
-      "rappeler",
-      "mélancolie",
-      "dictionnaire",
-      "souvenir",
-      "ciselure",
-      "douce-amère"
+      "segments",
+      "timonerie",
+      "armistice",
+      "Delphes",
+      "résille",
+      "colonie",
+      "tir"
     ],
     [
-      "autrefois",
-      "somptueux",
-      "manque",
-      "haine",
-      "jadis",
-      "siffler",
-      "tendre"
+      "oracle",
+      "nébuleux",
+      "voilé",
+      "gospel",
+      "Basque",
+      "tomber",
+      "prophétie"
     ],
     [
-      "regret",
-      "taper",
-      "renforcer",
-      "archipel",
-      "évoquer",
-      "honorer",
-      "finement"
+      "bandonéon",
+      "ajourner",
+      "relais",
+      "tonner",
+      "planche",
+      "situationniste",
+      "ambigu"
     ],
     [
-      "enfance",
-      "grenouille",
-      "honneur",
-      "kandinsky",
-      "immeuble",
-      "éprouver",
-      "flamboyant"
+      "ésotérique",
+      "risque",
+      "faiblesse",
+      "violent",
+      "compositeur",
+      "hermétique",
+      "fossoyeur"
     ],
     [
-      "stalactite",
-      "langueur",
-      "songer",
-      "mère",
-      "frette",
-      "incertitude",
-      "pulpeux"
+      "aloès",
+      "Cumes",
+      "Pythie",
+      "dadaïsme",
+      "Caraïbes",
+      "dorloter",
+      "obscur"
     ],
     [
-      "passé",
-      "printemps",
-      "officier",
-      "messe",
-      "pleurer",
-      "vespéral",
-      "perche"
+      "ardent",
+      "machine",
+      "couple",
+      "insondable",
+      "abscons",
+      "impénétrable",
+      "front"
     ],
     [
-      "veilleuse",
-      "sentimentale",
-      "nuit",
-      "sourire",
-      "sein",
-      "sainteté",
-      "remémorer"
+      "esclaves",
+      "insectivore",
+      "énigmatique",
+      "huppée",
+      "harissa",
+      "Doliprane",
+      "congratuler"
     ]
   ],
   "rowClues": [
+    1,
     4,
-    4,
+    1,
     2,
-    2,
-    2,
-    2,
-    3
+    3,
+    3,
+    1
   ],
   "colClues": [
-    4,
+    2,
+    2,
     3,
-    3,
+    2,
     1,
-    4,
-    1,
+    2,
     3
   ],
-  "themeWord": "nostalgie",
+  "themeWord": "sibyllin",
   "solution": [
     [
       false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       true,
       true,
       false,
-      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
+      false,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
-      true,
       false,
       false,
       false,
       true,
-      false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      false,
       true,
       false
     ],
     [
       false,
-      true,
+      false,
       true,
       false,
       false,
       false,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

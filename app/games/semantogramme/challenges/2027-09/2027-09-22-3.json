@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-22-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "voiture",
+      "alliage",
+      "insecte",
+      "vol",
+      "distributeur",
+      "asiatique"
+    ],
+    [
+      "bilieux",
+      "chance",
+      "delta",
+      "popcorn",
+      "béton",
+      "élytres"
+    ],
+    [
+      "noir",
+      "évidé",
+      "Volkswagen",
+      "puceron",
+      "porte-bonheur",
+      "brocarder"
+    ],
+    [
+      "idiome",
+      "larve",
+      "Choupette",
+      "rouge",
+      "hiver",
+      "feuille"
+    ],
+    [
+      "écologique",
+      "solaire",
+      "engueuler",
+      "dérive",
+      "mètre",
+      "aînée"
+    ],
+    [
+      "isobare",
+      "perroquet",
+      "Nintendo",
+      "gluten",
+      "Beetle",
+      "Zeus"
+    ]
+  ],
+  "rowClues": [
+    4,
+    2,
+    4,
+    5,
+    1,
+    1
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "coccinelle",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 17
+}

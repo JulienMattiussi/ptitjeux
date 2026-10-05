@@ -5,81 +5,81 @@
   "height": 5,
   "words": [
     [
-      "cantique",
-      "tombée",
-      "apéro",
-      "encadrement",
-      "prime"
+      "férocité",
+      "équipe",
+      "capitaine",
+      "ballon",
+      "Morisot"
     ],
     [
-      "nuit",
-      "crépuscule",
-      "souper",
-      "grillé",
-      "dîner"
+      "gymnase",
+      "César",
+      "sujet",
+      "manchette",
+      "filet"
     ],
     [
-      "rentrer",
-      "stratagème",
-      "malléable",
-      "fin",
-      "tardif"
+      "plage",
+      "Belem",
+      "contre",
+      "service",
+      "réseau"
     ],
     [
-      "emblème",
-      "tramway",
-      "biologie",
-      "mollusque",
-      "coucher"
+      "bure",
+      "libero",
+      "mistral",
+      "cantine",
+      "set"
     ],
     [
-      "fente",
-      "sombre",
-      "décolleté",
-      "courgette",
-      "reposer"
+      "brume",
+      "passe",
+      "obésité",
+      "sable",
+      "attaque"
     ]
   ],
   "rowClues": [
     2,
-    4,
     3,
-    1,
-    2
+    3,
+    2,
+    3
   ],
   "colClues": [
     2,
     3,
-    2,
     1,
-    4
+    4,
+    3
   ],
-  "themeWord": "soir",
+  "themeWord": "volley",
   "solution": [
     [
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
       true
     ],
     [
+      true,
       false,
+      true,
+      true,
+      false
+    ],
+    [
       false,
+      true,
       false,
       false,
       true
@@ -88,9 +88,9 @@
       false,
       true,
       false,
-      false,
+      true,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

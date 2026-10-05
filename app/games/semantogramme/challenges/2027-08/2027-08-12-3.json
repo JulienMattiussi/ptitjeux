@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-12-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "bois",
+      "touriste",
+      "décapiter",
+      "Atlantide",
+      "dauphinois",
+      "entourer"
+    ],
+    [
+      "guérite",
+      "élevage",
+      "compromis",
+      "bûcheron",
+      "lame",
+      "navigateur"
+    ],
+    [
+      "polaire",
+      "foi",
+      "atterrir",
+      "abattre",
+      "forêt",
+      "guerre"
+    ],
+    [
+      "fermier",
+      "bouddhiste",
+      "arbre",
+      "attaquer",
+      "Fossey",
+      "cognée"
+    ],
+    [
+      "billot",
+      "fendre",
+      "manche",
+      "perche",
+      "bourreau",
+      "globe"
+    ],
+    [
+      "gourmand",
+      "enterrer",
+      "tronc",
+      "Viking",
+      "funiculaire",
+      "tranchant"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    2,
+    4,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "hache",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 17
+}

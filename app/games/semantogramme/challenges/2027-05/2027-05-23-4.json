@@ -5,92 +5,101 @@
   "height": 7,
   "words": [
     [
-      "macaque",
-      "engagé",
-      "écouvillon",
-      "particule",
-      "tuba",
-      "haranguer",
-      "théorique"
+      "mur",
+      "chaux",
+      "nourrisson",
+      "murale",
+      "ravinement",
+      "itinéraire",
+      "ridicule"
     ],
     [
-      "bach",
-      "zélé",
-      "arithmétique",
-      "exhumer",
-      "profond",
-      "colada",
-      "chapitre"
+      "pigment",
+      "drosophile",
+      "intelligent",
+      "abstrait",
+      "vœux",
+      "grignoter",
+      "ravageur"
     ],
     [
-      "fastueux",
-      "épicentre",
-      "flamme",
-      "monastique",
-      "engranger",
-      "défendre",
-      "quadratique"
+      "Lascaux",
+      "dressage",
+      "espèce",
+      "amusement",
+      "traumatisme",
+      "s'aplatir",
+      "plafond"
     ],
     [
-      "longitude",
-      "étonnement",
-      "cognac",
-      "filleul",
-      "se réjouir",
-      "enthousiaste",
-      "géniteur"
+      "affection",
+      "chorégraphe",
+      "peinture",
+      "éditeur",
+      "méridienne",
+      "enduit",
+      "Michel-Ange"
     ],
     [
-      "religion",
-      "raisonnement",
-      "fidèle",
-      "velours",
-      "derme",
-      "ardent",
-      "dévot"
+      "épopée",
+      "Socrate",
+      "gaillarde",
+      "perfection",
+      "Tantale",
+      "Chamallow",
+      "Pompéi"
     ],
     [
-      "soutenir",
-      "équateur",
-      "admirer",
-      "enrubanner",
-      "pratiquer",
-      "aimer",
-      "soigner"
+      "Giotto",
+      "grelot",
+      "Sixtine",
+      "voûte",
+      "anémique",
+      "Nashville",
+      "tableau"
     ],
     [
-      "sincère",
-      "mammouth",
-      "liturgique",
-      "convaincu",
-      "tempéré",
-      "rocaille",
-      "intense"
+      "rythme",
+      "rigide",
+      "confondre",
+      "Assise",
+      "Rivera",
+      "chapelle",
+      "sans-abri"
     ]
   ],
   "rowClues": [
+    3,
     1,
     2,
+    3,
     2,
-    1,
-    4,
-    4,
+    3,
     3
   ],
   "colClues": [
-    3,
-    2,
-    3,
+    5,
     1,
     2,
-    4,
-    2
+    2,
+    1,
+    2,
+    4
   ],
-  "themeWord": "fervent",
+  "themeWord": "fresque",
   "solution": [
     [
+      true,
+      true,
       false,
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
       false,
       false,
       false,
@@ -98,34 +107,16 @@
       false
     ],
     [
-      false,
       true,
       false,
       false,
-      true,
       false,
-      false
+      false,
+      false,
+      true
     ],
     [
       false,
-      false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false,
@@ -136,20 +127,29 @@
     [
       true,
       false,
-      true,
       false,
-      true,
-      true,
-      false
+      false,
+      false,
+      false,
+      true
     ],
     [
       true,
       false,
-      false,
       true,
       false,
       false,
+      false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 17

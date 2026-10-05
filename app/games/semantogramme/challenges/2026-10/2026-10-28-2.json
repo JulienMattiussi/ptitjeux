@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "caoutchouc",
-      "cérumen",
-      "consoler",
-      "sable",
-      "attentionné"
+      "cape",
+      "Oz",
+      "Gandalf",
+      "Conques",
+      "appât"
     ],
     [
-      "submergé",
-      "amabilité",
-      "bienveillant",
-      "douceur",
-      "aider"
+      "illusionniste",
+      "soda",
+      "Potter",
+      "col",
+      "Spider-Man"
     ],
     [
-      "orchidée",
-      "commémoration",
-      "tram",
-      "urbain",
-      "sourire"
+      "Travolta",
+      "escamoter",
+      "Chopin",
+      "sorcier",
+      "Houdini"
     ],
     [
-      "artiste",
-      "soutenir",
-      "sympathique",
-      "compliment",
-      "cadeau"
+      "moufle",
+      "Garcimore",
+      "abracadabra",
+      "Copperfield",
+      "baguette"
     ],
     [
-      "bonté",
-      "offrir",
-      "effilée",
-      "molécule",
-      "minestrone"
+      "tour",
+      "croûtons",
+      "touiller",
+      "mentaliste",
+      "assistante"
     ]
   ],
   "rowClues": [
-    2,
-    4,
-    1,
-    4,
-    1
-  ],
-  "colClues": [
-    1,
-    2,
     3,
     2,
-    4
+    3,
+    4,
+    3
   ],
-  "themeWord": "gentil",
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "magicien",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

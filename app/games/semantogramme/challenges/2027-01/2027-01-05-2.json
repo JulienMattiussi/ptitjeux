@@ -5,74 +5,81 @@
   "height": 5,
   "words": [
     [
-      "haleter",
-      "apnée",
-      "rebelle",
-      "expirer",
-      "décliner"
+      "veille",
+      "ferraille",
+      "brocante",
+      "combles",
+      "toile"
     ],
     [
-      "décoller",
-      "souffler",
-      "haleine",
-      "ample",
-      "inspirer"
+      "poutre",
+      "souvenir",
+      "araignée",
+      "force",
+      "vieux"
     ],
     [
-      "allaiter",
-      "inhalation",
-      "reptile",
-      "houle",
-      "gorge"
+      "Pythonisse",
+      "tombereau",
+      "tire-bouchon",
+      "jouets",
+      "ongles"
     ],
     [
-      "vessie",
-      "élysée",
-      "aspirer",
-      "poumon",
-      "air"
+      "lucarne",
+      "Sam",
+      "Balzac",
+      "enfantin",
+      "malle"
     ],
     [
-      "asphyxie",
-      "croûte",
-      "oxygène",
-      "capsule",
-      "poitrine"
+      "juin",
+      "Tanguy",
+      "trésor",
+      "dépaysement",
+      "consigne"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
+    4,
+    1,
     2,
-    3,
-    3
+    1
   ],
   "colClues": [
     2,
-    3,
+    2,
     3,
     2,
-    4
+    3
   ],
-  "themeWord": "respirer",
+  "themeWord": "grenier",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
     [
       true,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false
     ],
     [
-      false,
-      true,
       true,
       false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true
@@ -81,16 +88,9 @@
       false,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

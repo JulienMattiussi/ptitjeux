@@ -5,83 +5,62 @@
   "height": 5,
   "words": [
     [
-      "pratiquer",
-      "ministériel",
-      "enseigne",
-      "omoplate",
-      "tradition"
+      "connaisseur",
+      "obscur",
+      "foncé",
+      "ombre",
+      "planétaire"
     ],
     [
-      "mariage",
-      "bouteille",
-      "baptême",
-      "solennel",
-      "liturgie"
+      "cassonade",
+      "noir",
+      "irrévocable",
+      "gothique",
+      "construire"
     ],
     [
-      "galápagos",
-      "sacrement",
-      "célébrer",
-      "ancestral",
-      "enterrement"
+      "ténèbres",
+      "insister",
+      "griffe",
+      "tunnel",
+      "sous-bois"
     ],
     [
-      "cérémonie",
-      "religieux",
-      "communion",
-      "paella",
-      "soie"
+      "texte",
+      "nuit",
+      "étrier",
+      "balancer",
+      "lugubre"
     ],
     [
-      "langoustine",
-      "officier",
-      "mât",
-      "culte",
-      "écologique"
+      "coulée",
+      "funèbre",
+      "visière",
+      "tamisé",
+      "caverne"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    4,
-    4,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
-    3,
-    3,
-    3,
+    2,
+    2,
     3
   ],
-  "themeWord": "rite",
+  "colClues": [
+    1,
+    4,
+    1,
+    4,
+    2
+  ],
+  "themeWord": "sombre",
   "solution": [
     [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       true,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       false
     ],
     [
@@ -90,7 +69,28 @@
       false,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

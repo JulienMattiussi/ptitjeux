@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "shampooing",
-      "climat",
-      "astre",
-      "gizeh"
+      "économe",
+      "passoire",
+      "aigu",
+      "tiroir"
     ],
     [
-      "jazz",
-      "marée",
-      "étamine",
-      "flux"
+      "demander",
+      "spatule",
+      "râpe",
+      "annuel"
     ],
     [
-      "colis",
-      "agenda",
-      "nuit",
-      "pleine"
+      "cuillère",
+      "écumoire",
+      "fouet",
+      "nez"
     ],
     [
-      "éclipse",
-      "orbite",
-      "foudroyant",
-      "nouvelle"
+      "cuisine",
+      "partition",
+      "louche",
+      "Iago"
     ]
   ],
   "rowClues": [
-    1,
-    1,
+    3,
     2,
-    3
-  ],
-  "colClues": [
-    1,
-    2,
-    2,
+    3,
     2
   ],
-  "themeWord": "lune",
+  "colClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "ustensile",
   "solution": [
     [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

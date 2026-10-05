@@ -5,70 +5,70 @@
   "height": 5,
   "words": [
     [
-      "imagination",
-      "créateur",
-      "an",
-      "artiste",
-      "mat"
+      "Borromini",
+      "grimoire",
+      "végétal",
+      "trace",
+      "vésicule"
     ],
     [
-      "naturelle",
-      "caboche",
-      "fabriquer",
-      "concevoir",
-      "terre"
+      "Hermione",
+      "bûcher",
+      "quadrillage",
+      "chapeau",
+      "chaudron"
     ],
     [
-      "tiède",
-      "inventer",
-      "champêtre",
-      "descente",
-      "oeuvre"
+      "Rolex",
+      "magie",
+      "isotherme",
+      "gants",
+      "verrue"
     ],
     [
-      "idée",
-      "électricien",
-      "projet",
-      "dégoût",
-      "élaborer"
+      "potion",
+      "valeurs",
+      "Halloween",
+      "crapaud",
+      "corbeau"
     ],
     [
-      "affronter",
-      "engendrer",
-      "minimaliste",
-      "public",
-      "géométrique"
+      "envoûtement",
+      "balai",
+      "Salem",
+      "sortilège",
+      "s'écrouler"
     ]
   ],
   "rowClues": [
-    3,
+    1,
+    4,
     2,
-    2,
-    3,
-    1
+    4,
+    4
   ],
   "colClues": [
+    3,
+    4,
     2,
     3,
-    2,
-    2,
-    2
+    3
   ],
-  "themeWord": "créer",
+  "themeWord": "sorcière",
   "solution": [
     [
-      true,
-      true,
       false,
       true,
+      false,
+      false,
       false
     ],
     [
-      false,
-      false,
       true,
       true,
-      false
+      false,
+      true,
+      true
     ],
     [
       false,
@@ -81,16 +81,16 @@
       true,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
-      false,
       true,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

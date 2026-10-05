@@ -5,71 +5,71 @@
   "height": 6,
   "words": [
     [
-      "manger",
-      "peau",
-      "beau",
-      "câble",
-      "lèchefrite",
-      "cabernet"
+      "pilon",
+      "déserteur",
+      "matérialisme",
+      "Poirot",
+      "plongée",
+      "lenteur"
     ],
     [
-      "vinification",
-      "doré",
-      "explorer",
-      "roux",
-      "zodiacale",
-      "transylvanie"
+      "ardoise",
+      "dégonflé",
+      "causes",
+      "fable",
+      "goutte",
+      "cloche"
     ],
     [
-      "pépin",
-      "nageoire",
-      "vigne",
-      "chardonnay",
-      "arthrose",
-      "vendange"
+      "trouillard",
+      "Cluedo",
+      "fuir",
+      "mou",
+      "défaillir",
+      "matelas"
     ],
     [
-      "cueillette",
-      "jus",
-      "siècle",
-      "sucré",
-      "sec",
-      "fruit"
+      "poltron",
+      "Coltrane",
+      "veule",
+      "peureux",
+      "pleutre",
+      "Swatch"
     ],
     [
-      "noir",
-      "rouge",
-      "nashville",
-      "laser",
-      "révérer",
-      "robuste"
+      "cogner",
+      "chicorée",
+      "lanterne",
+      "attachement",
+      "anticorps",
+      "desserré"
     ],
     [
-      "vert",
-      "éventer",
-      "poncer",
-      "pulpe",
-      "royale",
-      "grappe"
+      "traître",
+      "trompeur",
+      "froussard",
+      "émaner",
+      "faible",
+      "chalet"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
+    1,
     4,
-    5,
-    2,
+    4,
+    1,
     3
   ],
   "colClues": [
-    5,
-    4,
-    1,
     3,
-    1,
-    4
+    2,
+    3,
+    2,
+    3,
+    1
   ],
-  "themeWord": "raisin",
+  "themeWord": "lâche",
   "solution": [
     [
       false,
@@ -77,10 +77,10 @@
       false,
       false,
       false,
-      true
+      false
     ],
     [
-      true,
+      false,
       true,
       false,
       false,
@@ -92,33 +92,33 @@
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
       false
     ],
     [
       true,
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       true,
       false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

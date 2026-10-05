@@ -5,75 +5,82 @@
   "height": 5,
   "words": [
     [
-      "couard",
-      "rôtie",
-      "férié",
-      "soucieux",
-      "cinéma"
+      "satisfaction",
+      "doudou",
+      "rester",
+      "guetter",
+      "aloès"
     ],
     [
-      "fin",
-      "moelleux",
-      "apéro",
-      "jour",
-      "terminer"
+      "bagel",
+      "suspense",
+      "horloge",
+      "Fumseck",
+      "rendez-vous"
     ],
     [
-      "sucrer",
-      "sortir",
-      "parapluie",
-      "week-end",
-      "luxueux"
+      "Godot",
+      "guichet",
+      "impatient",
+      "songe",
+      "patience"
     ],
     [
-      "olivier",
-      "cantilène",
-      "mouette",
-      "single",
-      "hebdomadaire"
+      "temps",
+      "retard",
+      "file",
+      "espérer",
+      "enchère"
     ],
     [
-      "semaine",
-      "fêter",
-      "serrée",
-      "congé",
-      "immense"
+      "dentier",
+      "tourbillon",
+      "carotène",
+      "quai",
+      "poireauter"
     ]
   ],
   "rowClues": [
     2,
+    3,
     4,
-    2,
-    1,
-    3
+    4,
+    2
   ],
   "colClues": [
     2,
-    2,
-    2,
+    3,
+    4,
     3,
     3
   ],
-  "themeWord": "vendredi",
+  "themeWord": "attendre",
   "solution": [
     [
       false,
       false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true
     ],
     [
       true,
+      true,
+      true,
       false,
-      true,
-      true,
       true
     ],
     [
-      false,
       true,
-      false,
+      true,
+      true,
       true,
       false
     ],
@@ -81,16 +88,9 @@
       false,
       false,
       false,
-      false,
+      true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

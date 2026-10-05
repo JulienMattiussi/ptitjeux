@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cambré",
-      "pont",
-      "flèche",
-      "voûte",
-      "clarifier"
+      "aigre",
+      "estomac",
+      "déterminé",
+      "Pays-Bas",
+      "chaudière"
     ],
     [
-      "piétiner",
-      "décocher",
-      "courbé",
-      "germaine",
-      "tirer"
+      "chimie",
+      "régénération",
+      "Foucault",
+      "raccommoder",
+      "pH"
     ],
     [
-      "cintré",
-      "capitale",
-      "larguer",
-      "sain",
-      "arqué"
+      "Buffon",
+      "base",
+      "Valois",
+      "pomme",
+      "agrandir"
     ],
     [
-      "épaisseur",
-      "cible",
-      "arrondi",
-      "bander",
-      "carquois"
+      "pluie",
+      "vitriol",
+      "vinaigre",
+      "Parthénon",
+      "Doliprane"
     ],
     [
-      "corde",
-      "destinataire",
-      "tir",
-      "lampadaire",
-      "rugir"
+      "sulfurique",
+      "citron",
+      "Adam",
+      "corrosif",
+      "fruit"
     ]
   ],
   "rowClues": [
-    4,
-    3,
     2,
-    4,
-    2
+    2,
+    2,
+    3,
+    4
   ],
   "colClues": [
-    3,
-    3,
     4,
+    4,
+    1,
     2,
-    3
+    2
   ],
-  "themeWord": "arc",
+  "themeWord": "acide",
   "solution": [
     [
       true,
       true,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       false
     ],
     [
-      false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

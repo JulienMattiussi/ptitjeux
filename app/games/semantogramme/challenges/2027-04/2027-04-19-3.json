@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "honorer",
-      "fourchette",
-      "ranger",
-      "décorer",
-      "bienfaiteur",
-      "penser"
+      "grimper",
+      "étang",
+      "couper",
+      "tailler",
+      "bûcheron",
+      "aviron"
     ],
     [
-      "médaille",
-      "prime",
-      "fait main",
-      "déception",
-      "blesser",
-      "remise"
+      "reconstruction",
+      "sécateur",
+      "hyène",
+      "métaphore",
+      "supprimer",
+      "aduler"
     ],
     [
-      "bonus",
-      "remettre",
-      "beau",
-      "cumul",
-      "ingénieur",
-      "imprimerie"
+      "texte",
+      "puzzle",
+      "impala",
+      "battre",
+      "boutons",
+      "maïeutique"
     ],
     [
-      "pourboire",
-      "souvenir",
-      "verdâtre",
-      "distinction",
-      "couronner",
-      "cédrat"
+      "étape",
+      "simplifier",
+      "scie",
+      "abattre",
+      "réduire",
+      "merle"
     ],
     [
-      "écuyer",
-      "tannin",
-      "voeu",
-      "grèce",
-      "trophée",
-      "gémissement"
+      "émonder",
+      "SOS",
+      "tronçonneuse",
+      "discuter",
+      "ski",
+      "nacelle"
     ],
     [
-      "vol",
-      "remercier",
-      "gratifier",
-      "mériter",
-      "chant",
-      "condor"
+      "haie",
+      "Vérone",
+      "avion",
+      "arbre",
+      "branche",
+      "corde"
     ]
   ],
   "rowClues": [
+    4,
     2,
-    3,
-    3,
-    3,
     1,
-    3
+    4,
+    3,
+    4
   ],
   "colClues": [
     4,
-    3,
-    1,
-    4,
     2,
-    1
+    3,
+    3,
+    4,
+    2
   ],
-  "themeWord": "récompenser",
+  "themeWord": "élaguer",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
+      false,
+      true,
       false
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
+      true,
       false,
       false,
       true
     ],
     [
       true,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

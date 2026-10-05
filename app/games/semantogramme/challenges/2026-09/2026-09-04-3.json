@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "retourner",
-      "volant",
-      "fémur",
-      "navigation",
-      "manège",
-      "ring"
+      "palombe",
+      "romanesque",
+      "danger",
+      "coupe",
+      "poison",
+      "alevin"
     ],
     [
-      "pivot",
-      "auditif",
-      "travée",
-      "virer",
-      "molaire",
-      "budget"
+      "superbe",
+      "Gauguin",
+      "novembre",
+      "gymnastique",
+      "exosquelette",
+      "nounou"
     ],
     [
-      "humble",
-      "envelopper",
-      "vrille",
-      "manivelle",
-      "réception",
-      "rotation"
+      "damnation",
+      "saut",
+      "pince",
+      "treille",
+      "caoutchouc",
+      "Gorgone"
     ],
     [
-      "hélice",
-      "pirouetter",
-      "permanente",
-      "enrouler",
-      "fumé",
-      "toupie"
+      "aride",
+      "concave",
+      "Hendrix",
+      "venin",
+      "client",
+      "pinte"
     ],
     [
-      "orbiter",
-      "sans-fil",
-      "embaumement",
-      "rouet",
-      "volter",
-      "girouette"
+      "Kasparov",
+      "tartare",
+      "carapace",
+      "mortel",
+      "Mexique",
+      "signe"
     ],
     [
-      "écouter",
-      "côtelette",
-      "inverser",
-      "feuillage",
-      "cheminer",
-      "épaisse"
+      "boycotter",
+      "queue",
+      "arachnide",
+      "fluorescent",
+      "défunt",
+      "caillou"
     ]
   ],
   "rowClues": [
-    3,
+    2,
+    2,
+    1,
     2,
     4,
-    4,
-    4,
-    1
+    4
   ],
   "colClues": [
-    4,
+    1,
+    1,
+    5,
     3,
-    2,
-    4,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "tourner",
+  "themeWord": "scorpion",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -89,36 +105,20 @@
     ],
     [
       false,
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       true,
       true
     ],
     [
       false,
-      false,
+      true,
+      true,
       true,
       false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

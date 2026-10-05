@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "crasseux",
-      "tristesse",
-      "joie",
-      "amour"
+      "traversière",
+      "bagage",
+      "itinéraire",
+      "limace"
     ],
     [
-      "dégoût",
-      "honte",
-      "gouffre",
-      "cafetière"
+      "cognac",
+      "destination",
+      "basculer",
+      "billet"
     ],
     [
-      "sororal",
-      "tâter",
-      "opale",
-      "ennui"
+      "valise",
+      "braguette",
+      "escale",
+      "globe-trotteur"
     ],
     [
-      "espoir",
-      "thermos",
-      "angine",
-      "haïti"
+      "passeport",
+      "touriste",
+      "demain",
+      "croisière"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
-    1
+    2,
+    3,
+    3
   ],
   "colClues": [
     2,
+    3,
     2,
-    1,
-    2
+    3
   ],
-  "themeWord": "émotion",
+  "themeWord": "voyage",
   "solution": [
     [
       false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false
     ],
     [
       false,
-      false,
+      true,
       false,
       true
     ],
     [
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 10
 }

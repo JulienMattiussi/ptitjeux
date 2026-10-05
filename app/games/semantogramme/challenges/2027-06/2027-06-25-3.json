@@ -5,75 +5,107 @@
   "height": 6,
   "words": [
     [
-      "gratifier",
-      "indien",
-      "protocole",
-      "apporter",
-      "résumer",
-      "assouplir"
+      "assis",
+      "vieilli",
+      "chaleureux",
+      "cordes",
+      "pique",
+      "orchestre"
     ],
     [
-      "régaler",
-      "cadran",
-      "dispenser",
-      "remettre",
-      "limpide",
-      "chien"
+      "Kipling",
+      "orphelin",
+      "assembler",
+      "vocalise",
+      "grave",
+      "Stradivarius"
     ],
     [
-      "rue",
-      "galet",
-      "paquet",
-      "pesante",
-      "monumentale",
-      "générosité"
+      "batelier",
+      "quatuor",
+      "chevalet",
+      "Plutarque",
+      "abstraction",
+      "entaille"
     ],
     [
-      "colis",
-      "ampoule",
-      "stalagmite",
-      "planche",
-      "pavé",
-      "ruban"
+      "photosynthèse",
+      "luthier",
+      "gouttière",
+      "distillé",
+      "dérision",
+      "meule"
     ],
     [
-      "étudiant",
-      "tendre",
-      "obscurité",
-      "consacrer",
-      "laitue",
-      "dédier"
+      "platine",
+      "archet",
+      "spinnaker",
+      "suites",
+      "craie",
+      "billot"
     ],
     [
-      "don",
-      "pochette",
-      "rempli",
-      "octroyer",
-      "donner",
-      "aviaire"
+      "Elgar",
+      "Roi-Lion",
+      "langage",
+      "ululer",
+      "boisé",
+      "soirée"
     ]
   ],
   "rowClues": [
+    5,
     2,
-    3,
     2,
     1,
-    3,
-    4
+    2,
+    2
   ],
   "colClues": [
+    2,
     3,
     2,
     2,
-    4,
-    1,
-    3
+    3,
+    2
   ],
-  "themeWord": "offrir",
+  "themeWord": "violoncelle",
   "solution": [
     [
       true,
       false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       true,
       false,
@@ -82,43 +114,11 @@
     [
       true,
       false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       false,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

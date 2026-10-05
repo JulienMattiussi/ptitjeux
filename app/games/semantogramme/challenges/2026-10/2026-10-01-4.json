@@ -5,96 +5,132 @@
   "height": 7,
   "words": [
     [
-      "vendre",
-      "onduler",
-      "mouvoir",
-      "évaporer",
-      "cardiologue",
-      "ciseau",
-      "ouvragé"
+      "ponctuel",
+      "chatouillement",
+      "déglutition",
+      "réplique",
+      "bouillon",
+      "ordonnée",
+      "aléa"
     ],
     [
-      "civilisation",
-      "portail",
-      "couper",
-      "carillonner",
-      "élevé",
-      "cathédrale",
-      "figuratif"
+      "abat-jour",
+      "irrévocable",
+      "crédit",
+      "mistral",
+      "Fukushima",
+      "tremblement",
+      "séisme"
     ],
     [
-      "pierre",
-      "rail",
-      "chenille",
-      "mandorle",
-      "demi-cercle",
-      "résonant",
-      "mardi"
+      "hypocentre",
+      "Haïti",
+      "foyer",
+      "Californie",
+      "chevet",
+      "impénétrable",
+      "germination"
     ],
     [
-      "complexe",
-      "sauvetage",
-      "hacker",
-      "architecture",
-      "jour",
-      "ésotérique",
-      "pyrénées"
+      "accord",
+      "sagaie",
+      "hyperthermie",
+      "hermétique",
+      "Richter",
+      "clavicule",
+      "brio"
     ],
     [
-      "ronger",
-      "triangulaire",
-      "glouton",
-      "fronton",
-      "apôtre",
-      "grégaire",
-      "lent"
+      "annuel",
+      "magnitude",
+      "épicentre",
+      "restaurer",
+      "faille",
+      "précurseur",
+      "secousse"
     ],
     [
-      "chimère",
-      "gothique",
-      "décorer",
-      "rayure",
-      "plateforme",
-      "orner",
-      "cil"
+      "livreur",
+      "tsunami",
+      "Thriller",
+      "adolescente",
+      "rayonnante",
+      "Magritte",
+      "foncé"
     ],
     [
-      "ample",
-      "dollar",
-      "pulpeux",
-      "visière",
-      "trampoline",
-      "sculpture",
-      "barreau"
+      "liquéfaction",
+      "Dim",
+      "emprise",
+      "gastrique",
+      "date",
+      "accalmie",
+      "funk"
     ]
   ],
   "rowClues": [
-    1,
+    2,
+    3,
     4,
-    3,
     1,
-    3,
-    3,
+    5,
+    1,
     1
   ],
   "colClues": [
-    1,
+    2,
     3,
-    1,
+    2,
+    2,
     3,
-    3,
-    3,
-    2
+    2,
+    3
   ],
-  "themeWord": "tympan",
+  "themeWord": "sismologie",
   "solution": [
     [
       false,
       false,
       false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       false,
       false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
       true
     ],
     [
@@ -102,55 +138,19 @@
       true,
       false,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       false,
       false
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       true,
       false,
       false,
-      true,
-      false
-    ],
-    [
       false,
       false,
       false,
-      false,
-      false,
-      true,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

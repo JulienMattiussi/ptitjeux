@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "passerelle",
+      "rutabaga",
+      "pile",
+      "torpille"
+    ],
+    [
+      "cocotier",
+      "viaduc",
+      "Millau",
+      "arrivée"
+    ],
+    [
+      "rivière",
+      "suspendu",
+      "enjamber",
+      "oeillade"
+    ],
+    [
+      "traverser",
+      "arche",
+      "charleston",
+      "Avignon"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "pont",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

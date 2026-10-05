@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-22-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tricher",
+      "abracadabra",
+      "chapeau",
+      "sorcier"
+    ],
+    [
+      "potion",
+      "daim",
+      "baguette",
+      "sortilège"
+    ],
+    [
+      "Merlin",
+      "Passion",
+      "illusion",
+      "HP"
+    ],
+    [
+      "tour",
+      "lapin",
+      "divin",
+      "détresse"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "magie",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

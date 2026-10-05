@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-05-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "plantain",
+      "mesure",
+      "robot",
+      "Chiquita"
+    ],
+    [
+      "dissimuler",
+      "singe",
+      "peau",
+      "régime"
+    ],
+    [
+      "Malraux",
+      "Antilles",
+      "jaune",
+      "tropical"
+    ],
+    [
+      "Martinique",
+      "croître",
+      "uni",
+      "embarquement"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "banane",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

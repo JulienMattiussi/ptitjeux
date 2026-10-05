@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "sommet",
-      "rival",
-      "ramer",
-      "pygmée",
-      "figure"
+      "précis",
+      "lumineux",
+      "limpide",
+      "brigantine",
+      "miso"
     ],
     [
-      "paresseux",
-      "collecter",
-      "rectangle",
-      "consoler",
-      "plane"
+      "étendard",
+      "bâiller",
+      "simple",
+      "cristallin",
+      "pâle"
     ],
     [
-      "globule",
-      "cercle",
-      "tracer",
-      "losange",
-      "trampoline"
+      "panthère",
+      "jour",
+      "électron",
+      "net",
+      "bienvenu"
     ],
     [
-      "côté",
-      "carré",
-      "analytique",
-      "agriculture",
-      "précise"
+      "transparent",
+      "garantie",
+      "lune",
+      "corriger",
+      "brillant"
     ],
     [
-      "triangle",
-      "mesurer",
-      "flûte",
-      "dessiner",
-      "mathématique"
+      "eau",
+      "randonnée",
+      "djinn",
+      "Inca",
+      "agenda"
     ]
   ],
   "rowClues": [
-    2,
+    3,
+    3,
     2,
     3,
-    4,
-    4
+    1
   ],
   "colClues": [
     3,
-    3,
+    2,
     3,
     2,
-    4
+    2
   ],
-  "themeWord": "géométrie",
+  "themeWord": "clair",
   "solution": [
     [
       true,
+      true,
+      true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
       false,
       false,
       true,
-      false,
+      true,
       true
     ],
     [
       false,
       true,
-      true,
+      false,
       true,
       false
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
       true
     ],
     [
       true,
-      true,
       false,
-      true,
-      true
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

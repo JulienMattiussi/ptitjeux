@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "spiritualité",
+      "Paul",
+      "fournitures",
+      "calmar"
+    ],
+    [
+      "estimation",
+      "tentacule",
+      "pieuvre",
+      "encre"
+    ],
+    [
+      "rocher",
+      "cuticule",
+      "ventouse",
+      "officine"
+    ],
+    [
+      "gorge",
+      "chinoiserie",
+      "céphalopode",
+      "Mahler"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "colClues": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "poulpe",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

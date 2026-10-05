@@ -5,112 +5,103 @@
   "height": 7,
   "words": [
     [
-      "escale",
-      "sentimental",
-      "alliage",
-      "fantasme",
-      "maçon",
-      "cil",
-      "amarrer"
+      "panne",
+      "tondre",
+      "angora",
+      "Kafka",
+      "conseil",
+      "sort",
+      "prudence"
     ],
     [
-      "navire",
-      "enduire",
-      "côte",
-      "pianiste",
-      "court",
-      "balancier",
-      "limite"
+      "maxime",
+      "dent",
+      "mâture",
+      "discernement",
+      "Salomon",
+      "misère",
+      "Jenner"
     ],
     [
-      "contagieuse",
-      "régional",
-      "feuilleter",
-      "sursauter",
-      "maritime",
-      "précambrien",
-      "écimer"
+      "atelier",
+      "voûte",
+      "expérience",
+      "partita",
+      "colique",
+      "vieillard",
+      "germain"
     ],
     [
-      "rider",
-      "dépasser",
-      "marine",
-      "plaisir",
-      "bride",
-      "commerce",
-      "bateau"
+      "Socrate",
+      "menace",
+      "tiercé",
+      "Confucius",
+      "convaincu",
+      "armoise",
+      "chouette"
     ],
     [
-      "transporter",
-      "port",
-      "cri",
-      "habitable",
-      "bus",
-      "tic-tac",
-      "historique"
+      "savoir",
+      "livraison",
+      "piment",
+      "chèque",
+      "moraine",
+      "sincérité",
+      "proverbe"
     ],
     [
-      "coffre",
-      "littoral",
-      "velue",
-      "traditionnel",
-      "ouvrier",
-      "amanite",
-      "naviguer"
+      "Athéna",
+      "nettoyer",
+      "naturel",
+      "Bouddha",
+      "tisonnier",
+      "examen",
+      "guerrier"
     ],
     [
-      "monument",
-      "marchandise",
-      "armure",
-      "longer",
-      "remporter",
-      "éclat",
-      "côtière"
+      "combiné",
+      "Lille",
+      "accoudoir",
+      "Moires",
+      "sagacité",
+      "charbonnière",
+      "imagerie"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    2,
-    3,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
-    3,
     4,
     2,
+    3,
     2,
     2,
-    1,
-    5
+    1
   ],
-  "themeWord": "cabotage",
+  "colClues": [
+    4,
+    1,
+    1,
+    3,
+    3,
+    1,
+    3
+  ],
+  "themeWord": "sagesse",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
-      false,
       false,
       true
     ],
     [
       true,
-      false,
       true,
       false,
       true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       true,
       false,
       false
@@ -122,20 +113,11 @@
       false,
       false,
       true,
-      true
+      false
     ],
     [
       true,
-      true,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       true,
       false,
@@ -143,14 +125,32 @@
       true
     ],
     [
-      false,
       true,
       false,
-      true,
+      false,
+      false,
       false,
       false,
       true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 16
 }

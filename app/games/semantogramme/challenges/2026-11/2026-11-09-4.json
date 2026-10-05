@@ -5,130 +5,103 @@
   "height": 7,
   "words": [
     [
-      "beethoven",
-      "musique",
-      "caniche",
-      "jardinier",
-      "plumage",
-      "gai",
-      "dépoussiérer"
+      "angle",
+      "vertueux",
+      "cadran",
+      "piscine",
+      "fouisseur",
+      "filetage",
+      "musclé"
     ],
     [
-      "rancunier",
-      "récoltant",
-      "circulaire",
-      "bloc",
-      "inattendu",
-      "jouer",
-      "allegro"
+      "sextant",
+      "peuple",
+      "tonnerre",
+      "latitude",
+      "jus",
+      "degré",
+      "détente"
     ],
     [
-      "infime",
-      "composer",
-      "pelote",
-      "enterré",
-      "rame",
-      "centralisé",
-      "répétition"
+      "bonus",
+      "instrument",
+      "vermine",
+      "aisselles",
+      "inconnu",
+      "astrolabe",
+      "secteur"
     ],
     [
-      "bicaméral",
-      "mozart",
-      "forme",
-      "visite",
-      "reprendre",
-      "surprenant",
-      "loi"
+      "minou",
+      "merlot",
+      "rôti",
+      "quart",
+      "observatoire",
+      "tulle",
+      "boeuf"
     ],
     [
-      "fermenté",
-      "tourner",
-      "binaire",
-      "patiné",
-      "chirurgie",
-      "enjoué",
-      "nombre"
+      "plan",
+      "Floride",
+      "rivet",
+      "navigation",
+      "rapporteur",
+      "hisser",
+      "suite"
     ],
     [
-      "cul-de-four",
-      "classique",
-      "invectiver",
-      "rond",
-      "palette",
-      "enchaîner",
-      "final"
+      "sonnette",
+      "lisse",
+      "Kyoto",
+      "dessin",
+      "rascasse",
+      "géométrie",
+      "cardon"
     ],
     [
-      "tatie",
-      "duveteux",
-      "mycologue",
-      "noyer",
-      "tonner",
-      "thème",
-      "refrain"
+      "graduation",
+      "cercle",
+      "gouache",
+      "arc",
+      "trigonométrie",
+      "hauteur",
+      "boucher"
     ]
   ],
   "rowClues": [
+    2,
     3,
     3,
     2,
     3,
-    2,
-    4,
-    2
+    1,
+    5
   ],
   "colClues": [
+    4,
+    2,
     1,
     4,
     3,
-    1,
-    1,
-    5,
-    4
+    4,
+    1
   ],
-  "themeWord": "rondo",
+  "themeWord": "quadrant",
   "solution": [
     [
       true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true,
       false,
       false
     ],
     [
+      true,
       false,
       false,
       true,
-      false,
       false,
       true,
       false
@@ -137,7 +110,7 @@
       false,
       true,
       false,
-      true,
+      false,
       false,
       true,
       true
@@ -146,10 +119,37 @@
       false,
       false,
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       false,
       true,
-      true
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
   "parMoves": 19

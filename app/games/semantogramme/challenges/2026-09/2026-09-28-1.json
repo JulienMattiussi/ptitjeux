@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "poids",
-      "atterrissage",
-      "violet",
-      "récolte"
+      "réception",
+      "basilique",
+      "cadre",
+      "portrait"
     ],
     [
-      "reprise",
-      "silex",
-      "équinoxe",
-      "paradis"
+      "catégorique",
+      "astrophysique",
+      "hébergeur",
+      "chevalet"
     ],
     [
-      "feuillage",
-      "hiver",
-      "pleurote",
-      "floraison"
+      "gouache",
+      "huile",
+      "ardu",
+      "vernis"
     ],
     [
-      "printemps",
-      "migration",
-      "mue",
-      "byzantin"
+      "Joconde",
+      "aristocratie",
+      "baudrier",
+      "roué"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     1,
     3,
-    3
+    1
   ],
   "colClues": [
     2,
-    2,
-    2,
-    2
+    1,
+    1,
+    3
   ],
-  "themeWord": "saison",
+  "themeWord": "peinture",
   "solution": [
     [
       false,
       false,
-      false,
+      true,
       true
     ],
     [
       false,
       false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       true
     ],
     [
       true,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

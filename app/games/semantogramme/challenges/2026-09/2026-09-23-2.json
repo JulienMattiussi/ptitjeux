@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rogner",
-      "caboche",
-      "aîné",
-      "se chamailler",
-      "sororal"
+      "lancer",
+      "décathlon",
+      "jet",
+      "polka",
+      "distance"
     ],
     [
-      "expédier",
-      "peuplier",
-      "soeur",
-      "germain",
-      "lyre"
+      "irréductible",
+      "tulle",
+      "sagaie",
+      "radin",
+      "toile"
     ],
     [
-      "hiéroglyphe",
-      "rock",
-      "décharger",
-      "paysanne",
-      "consanguin"
+      "médaille",
+      "élevage",
+      "propulsion",
+      "stade",
+      "commère"
     ],
     [
-      "jouer",
-      "fratrie",
-      "novice",
-      "plateforme",
-      "fraternel"
+      "trajectoire",
+      "pique",
+      "romain",
+      "confiant",
+      "chaire"
     ],
     [
-      "cadet",
-      "sang",
-      "confus",
-      "bôme",
-      "parent"
+      "guerrier",
+      "jaunes",
+      "zika",
+      "athlète",
+      "élan"
     ]
   ],
   "rowClues": [
-    3,
-    2,
+    4,
     1,
+    3,
     3,
     3
   ],
   "colClues": [
+    4,
     2,
+    4,
     2,
-    2,
-    2,
-    4
+    2
   ],
-  "themeWord": "frère",
+  "themeWord": "javelot",
   "solution": [
     [
-      false,
-      false,
       true,
       true,
+      true,
+      false,
       true
     ],
     [
       false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
       false
     ],
     [
+      true,
+      true,
+      true,
       false,
-      false,
-      false,
-      false,
-      true
+      false
     ],
     [
       true,
+      false,
+      false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

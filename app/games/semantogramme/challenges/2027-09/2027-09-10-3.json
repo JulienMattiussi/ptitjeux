@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-10-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "canne",
+      "fruit",
+      "désordre",
+      "étang",
+      "ligne",
+      "ex-voto"
+    ],
+    [
+      "sirupeux",
+      "Niger",
+      "filet",
+      "lichen",
+      "gai",
+      "maître-verrier"
+    ],
+    [
+      "expertise",
+      "poisson",
+      "moulinet",
+      "justice",
+      "Shangri-La",
+      "arbre"
+    ],
+    [
+      "bouchon",
+      "ver",
+      "livres",
+      "pâle",
+      "briller",
+      "astrologie"
+    ],
+    [
+      "coussin",
+      "chalutier",
+      "truite",
+      "appât",
+      "lessivage",
+      "rivière"
+    ],
+    [
+      "flirter",
+      "hameçon",
+      "neurologue",
+      "patience",
+      "Darwin",
+      "divination"
+    ]
+  ],
+  "rowClues": [
+    4,
+    1,
+    3,
+    2,
+    4,
+    2
+  ],
+  "colClues": [
+    2,
+    5,
+    3,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "pêcher",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

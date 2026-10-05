@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "serrer",
-      "inaugurer",
-      "rouillé",
-      "dense"
+      "alexandrin",
+      "attention",
+      "sonnet",
+      "Prévert"
     ],
     [
-      "bricolage",
-      "agenda",
-      "canicule",
-      "boulonner"
+      "sybarite",
+      "abondance",
+      "Baudelaire",
+      "savane"
     ],
     [
-      "établi",
-      "pas",
-      "semelle",
-      "épopée"
+      "croupier",
+      "vers",
+      "narquois",
+      "hérédité"
     ],
     [
-      "perruque",
-      "trinquer",
-      "embout",
-      "manche"
+      "Hugo",
+      "danser",
+      "strophe",
+      "Démocrite"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     3,
     1,
     1,
     2
   ],
-  "themeWord": "tournevis",
+  "colClues": [
+    2,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "poésie",
   "solution": [
     [
       true,
       false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false
     ],
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true
     ]
   ],
   "parMoves": 7

@@ -5,61 +5,61 @@
   "height": 4,
   "words": [
     [
-      "bronze",
-      "argile",
-      "mondial",
-      "marbre"
+      "marin",
+      "cul-de-sac",
+      "port",
+      "ancre"
     ],
     [
-      "veilleuse",
-      "moule",
-      "plâtre",
-      "multitude"
+      "crudités",
+      "suc",
+      "brun",
+      "équipage"
     ],
     [
-      "bois",
-      "finir",
-      "décomposé",
-      "fonte"
+      "superposé",
+      "piercing",
+      "coque",
+      "soumettre"
     ],
     [
-      "transfusion",
-      "pierre",
-      "modelage",
-      "buste"
+      "tamis",
+      "voile",
+      "quai",
+      "mât"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
+    1,
+    1,
     3
   ],
   "colClues": [
-    2,
+    1,
+    1,
     3,
-    2,
     3
   ],
-  "themeWord": "sculpture",
+  "themeWord": "bateau",
   "solution": [
     [
       true,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true
     ],
     [
       false,
-      true,
+      false,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      true
     ],
     [
       false,
@@ -68,5 +68,5 @@
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

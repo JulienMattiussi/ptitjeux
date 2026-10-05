@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "brun",
-      "cinématographie",
-      "tonne",
-      "braiser"
+      "excursion",
+      "geindre",
+      "peuple",
+      "carte"
     ],
     [
-      "haïti",
-      "plantigrade",
-      "polaire",
-      "grizzli"
+      "capitale",
+      "État",
+      "tranchant",
+      "hymne"
     ],
     [
-      "fourrure",
-      "mauve",
-      "hibernation",
-      "forêt"
+      "frontière",
+      "drapeau",
+      "nation",
+      "ombre"
     ],
     [
-      "miel",
-      "couleur",
-      "hiver",
-      "panda"
+      "Bateau-Lavoir",
+      "écluse",
+      "boule",
+      "patrie"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
     3,
-    3
+    1
   ],
   "colClues": [
-    3,
-    1,
-    3,
+    2,
+    2,
+    2,
     3
   ],
-  "themeWord": "ours",
+  "themeWord": "pays",
   "solution": [
     [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
       true,
       false,
-      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
       false
     ],
     [
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

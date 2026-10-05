@@ -5,130 +5,139 @@
   "height": 7,
   "words": [
     [
-      "kiosque",
-      "passionné",
-      "recevoir",
-      "vertigineux",
-      "révolutionnaire",
-      "art",
-      "avant-garde"
+      "modeste",
+      "guitare",
+      "écho",
+      "costaud",
+      "onde",
+      "réverbération",
+      "gauche"
     ],
     [
-      "collage",
-      "sabord",
-      "chimique",
-      "négation",
-      "subvertir",
-      "olive",
-      "tournage"
+      "salle",
+      "monumental",
+      "expertise",
+      "chai",
+      "émincer",
+      "glaire",
+      "décalage"
     ],
     [
-      "mouvement",
-      "choquer",
-      "provocation",
-      "risquer",
-      "langue",
+      "faitout",
+      "pâtes",
+      "Cancale",
+      "abri",
+      "brio",
+      "insonorisation",
+      "sonorité"
+    ],
+    [
       "auto-stop",
-      "glorieux"
+      "décibel",
+      "unisson",
+      "pépites",
+      "repousse",
+      "corail",
+      "squelette"
     ],
     [
-      "métamorphique",
-      "irriter",
-      "pichet",
-      "manifeste",
-      "ready-made",
-      "absurde",
-      "brûlure"
+      "auditorium",
+      "bruit",
+      "grognement",
+      "remaniement",
+      "DJ",
+      "au-delà",
+      "pâlir"
     ],
     [
-      "connecté",
-      "tzara",
-      "iconoclaste",
-      "anti-art",
-      "cédrat",
-      "implanter",
-      "choriste"
+      "oreille",
+      "diplomatique",
+      "amplification",
+      "atteindre",
+      "librairie",
+      "moyen",
+      "propulsion"
     ],
     [
-      "religion",
-      "construire",
-      "manche",
-      "église",
-      "irrationnel",
-      "minimaliste",
-      "joaillier"
-    ],
-    [
-      "hépatite",
-      "désherber",
-      "rejet",
-      "duchamp",
-      "professeur",
-      "lithologue",
-      "fait main"
+      "agrandir",
+      "mosaïque",
+      "peigne",
+      "concert",
+      "vidange",
+      "physique",
+      "Philharmonie"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    3,
-    3,
-    3,
+    4,
     1,
-    2
+    2,
+    1,
+    2,
+    2,
+    3
   ],
   "colClues": [
-    2,
-    2,
     3,
     3,
-    4,
     2,
-    1
+    1,
+    1,
+    3,
+    2
   ],
-  "themeWord": "dadaïsme",
+  "themeWord": "acoustique",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
     [
       false,
       false,
       false,
       false,
-      true,
+      false,
       true,
       true
     ],
     [
-      true,
-      false,
-      false,
       false,
       true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
       false,
       false,
       false,
       false
     ],
     [
+      true,
+      true,
       false,
       false,
       false,
-      true,
-      true,
-      true,
+      false,
       false
     ],
     [
+      true,
       false,
       true,
-      true,
-      true,
+      false,
       false,
       false,
       false
@@ -137,20 +146,11 @@
       false,
       false,
       false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
-      true,
-      false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

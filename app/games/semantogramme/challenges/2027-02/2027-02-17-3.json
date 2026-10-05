@@ -5,75 +5,91 @@
   "height": 6,
   "words": [
     [
-      "paracétamol",
-      "transpirer",
-      "thermomètre",
-      "infection",
-      "éplucheur",
-      "cauchemar"
+      "consciencieux",
+      "yang",
+      "scrupuleux",
+      "correct",
+      "Malevitch",
+      "fidèle"
     ],
     [
-      "piéton",
-      "monter",
-      "fine",
-      "élevée",
-      "tirage",
-      "température"
+      "Limoges",
+      "moral",
+      "Chandeleur",
+      "confiance",
+      "probité",
+      "parfumée"
     ],
     [
-      "rigide",
-      "sabler",
-      "haute",
-      "soldat",
-      "sueur",
-      "malade"
+      "minou",
+      "Crabe",
+      "franc",
+      "parole",
+      "Éthiopie",
+      "vertueux"
     ],
     [
-      "rouge",
-      "délire",
-      "aspirine",
-      "amertume",
-      "chaud",
-      "grippe"
+      "provocation",
+      "patron",
+      "droit",
+      "ponte",
+      "vernis",
+      "fendre"
     ],
     [
-      "ciseau",
-      "cardiogramme",
-      "rafale",
-      "garage",
-      "beagle",
-      "tomber"
+      "Obélix",
+      "feuilletage",
+      "intègre",
+      "gymnase",
+      "vérité",
+      "querelle"
     ],
     [
-      "cellule",
-      "frisson",
-      "vitesse",
-      "incliner",
-      "glissant",
-      "bagage"
+      "douceur",
+      "retenue",
+      "somme",
+      "loyal",
+      "valse",
+      "aveugler"
     ]
   ],
   "rowClues": [
-    5,
+    4,
     3,
     3,
-    5,
     1,
+    2,
     1
   ],
   "colClues": [
-    2,
+    1,
+    1,
     4,
-    3,
+    4,
     2,
-    2,
-    5
+    2
   ],
-  "themeWord": "fièvre",
+  "themeWord": "honnête",
   "solution": [
     [
       true,
+      false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       true,
       false,
@@ -81,11 +97,11 @@
     ],
     [
       false,
-      true,
       false,
       true,
       false,
-      true
+      false,
+      false
     ],
     [
       false,
@@ -93,32 +109,16 @@
       true,
       false,
       true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true,
-      true
+      false
     ],
     [
       false,
       false,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      false,
-      false,
       false,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 14
 }

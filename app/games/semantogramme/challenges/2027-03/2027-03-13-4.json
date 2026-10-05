@@ -5,120 +5,102 @@
   "height": 7,
   "words": [
     [
-      "unique",
-      "rare",
-      "banc",
-      "bannissement",
-      "volume",
-      "pâle",
-      "branchies"
+      "ossuaire",
+      "plaquette",
+      "rédiger",
+      "jupe",
+      "matière",
+      "Zoroastre",
+      "connexion"
     ],
     [
+      "vis",
+      "monisme",
+      "clap",
+      "marinier",
+      "asymptote",
+      "autel",
+      "rigide"
+    ],
+    [
+      "yin",
+      "deux",
+      "séparation",
+      "Descartes",
       "pression",
-      "pulpeuse",
-      "enterré",
-      "condor",
-      "amphibien",
-      "bourrade",
-      "tablette"
+      "neveu",
+      "Aragon"
     ],
     [
-      "pénétrer",
-      "eau",
-      "délicatesse",
-      "salamandre",
-      "espalier",
-      "saturne",
-      "naître"
+      "Platon",
+      "verger",
+      "âme",
+      "mal",
+      "Courchevel",
+      "ballon-sonde",
+      "yang"
     ],
     [
-      "lèche-bottes",
-      "protégé",
-      "larvaire",
-      "moment",
-      "nez",
-      "changer",
-      "arthrose"
+      "nasse",
+      "binaire",
+      "thaï",
+      "stère",
+      "opposition",
+      "équinoxe",
+      "croûte"
     ],
     [
-      "néoténie",
-      "mystérieux",
-      "régénération",
-      "mot",
-      "inférieur",
-      "sentimental",
-      "aquatique"
+      "renaître",
+      "pamphlet",
+      "manichéisme",
+      "billot",
+      "chair",
+      "esprit",
+      "Vauxcelles"
     ],
     [
-      "tomate",
-      "connecté",
-      "gestationnel",
-      "fiesta",
-      "massive",
-      "girolle",
-      "curieux"
-    ],
-    [
-      "mexique",
-      "flaubert",
-      "élagage",
-      "endémique",
-      "épiler",
-      "festoyer",
-      "impact"
+      "Marrakech",
+      "cartésien",
+      "agriculture",
+      "subsistance",
+      "Mufasa",
+      "différer",
+      "vendredi"
     ]
   ],
   "rowClues": [
-    4,
-    1,
     2,
-    2,
-    4,
     1,
-    2
+    4,
+    4,
+    2,
+    3,
+    1
   ],
   "colClues": [
-    3,
+    2,
     4,
+    3,
     2,
+    3,
     2,
-    1,
-    1,
-    3
+    1
   ],
-  "themeWord": "axolotl",
+  "themeWord": "dualisme",
   "solution": [
     [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
       false,
       false,
       false,
       false,
       true,
-      false,
+      true,
       false
     ],
     [
       false,
       true,
       false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       false,
       false,
       false,
@@ -128,29 +110,47 @@
       true,
       true,
       true,
+      true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       false,
       false,
       true
     ],
     [
       false,
+      true,
       false,
       false,
+      true,
       false,
-      false,
-      false,
-      true
+      false
     ],
     [
-      true,
       false,
       false,
       true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

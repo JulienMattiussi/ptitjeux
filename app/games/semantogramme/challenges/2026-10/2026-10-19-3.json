@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "causer",
-      "province",
-      "bague",
-      "personnel",
-      "url",
-      "arête"
+      "pelote",
+      "country",
+      "levier",
+      "stick",
+      "sympa",
+      "ululer"
     ],
     [
-      "amphi",
-      "aromate",
-      "commercial",
-      "mobile",
-      "consulter",
-      "partir"
+      "prédiction",
+      "vrombissement",
+      "porte-bonheur",
+      "doudoune",
+      "épatant",
+      "effraie"
     ],
     [
-      "design",
-      "contenu",
-      "estuaire",
-      "sécurisé",
-      "tee",
-      "congé"
+      "chuinter",
+      "Bornéo",
+      "recourbé",
+      "atomique",
+      "MacGyver",
+      "soupçonneux"
     ],
     [
-      "oxyder",
-      "délire",
-      "web",
-      "gourmet",
-      "allergie",
-      "domaine"
+      "Navajo",
+      "binaire",
+      "perspective",
+      "vitrée",
+      "poirier",
+      "hibou"
     ],
     [
-      "flancher",
-      "navigateur",
-      "gentilhomme",
-      "traducteur",
-      "internet",
-      "essoufflement"
+      "anathème",
+      "péril",
+      "Archimède",
+      "Dijon",
+      "néphrologue",
+      "génial"
     ],
     [
-      "hébergement",
-      "terre",
-      "gratuit",
-      "tartare",
-      "forte",
-      "candidat"
+      "Cyrulnik",
+      "chevêche",
+      "nocturne",
+      "cool",
+      "Athéna",
+      "super"
     ]
   ],
   "rowClues": [
-    2,
     3,
     3,
-    2,
-    2,
-    2
+    1,
+    1,
+    3,
+    5
   ],
   "colClues": [
     2,
+    1,
+    3,
     2,
     3,
-    3,
-    3,
-    1
+    5
   ],
-  "themeWord": "site",
+  "themeWord": "chouette",
   "solution": [
     [
+      true,
       false,
       false,
       false,
       true,
-      true,
-      false
+      true
     ],
     [
       false,
       false,
       true,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
       true,
-      true,
       false,
-      true,
+      false,
+      false,
       false,
       false
     ],
     [
       false,
       false,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
       false,
-      true,
-      false,
       false,
       true,
-      false
+      true,
+      false,
+      true
     ],
     [
-      true,
       false,
       true,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 16
 }

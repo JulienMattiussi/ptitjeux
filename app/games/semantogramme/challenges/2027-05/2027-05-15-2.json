@@ -5,68 +5,68 @@
   "height": 5,
   "words": [
     [
-      "aquatique",
-      "combinaison",
-      "maritime",
-      "sombrero",
-      "rajeunir"
+      "jade",
+      "herbe",
+      "dodu",
+      "feuille",
+      "espoir"
     ],
     [
-      "témoin",
-      "hawaïen",
-      "planche",
-      "gingembre",
-      "plage"
+      "gaieté",
+      "union",
+      "carotte",
+      "enfoncer",
+      "émeraude"
     ],
     [
-      "attelage",
-      "creuset",
-      "mer",
-      "californien",
-      "prison"
+      "Aladdin",
+      "voeu",
+      "grenouille",
+      "kaki",
+      "application"
     ],
     [
-      "incroyable",
-      "extrême",
-      "vague",
-      "maïs",
-      "archaïque"
+      "utilitarisme",
+      "olive",
+      "ménagerie",
+      "Hulk",
+      "alpe"
     ],
     [
-      "tube",
-      "résine",
-      "cérémonie",
-      "cogner",
-      "envie"
+      "pomme",
+      "chlorophylle",
+      "menthe",
+      "écologie",
+      "beaufort"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    4,
+    1,
     2,
     2,
-    1
+    4
   ],
   "colClues": [
     2,
     3,
+    2,
     4,
-    1,
-    1
+    2
   ],
-  "themeWord": "surf",
+  "themeWord": "vert",
   "solution": [
     [
       true,
       true,
-      true,
       false,
-      false
+      true,
+      true
     ],
     [
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       true
     ],
@@ -80,17 +80,17 @@
     [
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

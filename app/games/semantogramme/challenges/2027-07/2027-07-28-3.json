@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-28-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "Carabosse",
+      "fourmis",
+      "voie",
+      "giboulée",
+      "malle",
+      "rapprochement"
+    ],
+    [
+      "minois",
+      "porche",
+      "univers",
+      "latitude",
+      "rail",
+      "charitable"
+    ],
+    [
+      "chamois",
+      "droite",
+      "méridien",
+      "Euclide",
+      "simultané",
+      "comparaison"
+    ],
+    [
+      "article",
+      "gymnastique",
+      "angle",
+      "prêter",
+      "tartelette",
+      "monde"
+    ],
+    [
+      "chérubin",
+      "sinus",
+      "code",
+      "équateur",
+      "manifeste",
+      "gravier"
+    ],
+    [
+      "ligne",
+      "équidistant",
+      "analogie",
+      "tangente",
+      "côtes",
+      "grandiose"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    5,
+    3,
+    1,
+    4
+  ],
+  "colClues": [
+    1,
+    3,
+    5,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "parallèle",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 18
+}

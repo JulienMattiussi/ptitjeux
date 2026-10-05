@@ -5,84 +5,63 @@
   "height": 5,
   "words": [
     [
-      "sportif",
-      "magot",
-      "poulet",
-      "desquamation",
-      "parer"
+      "vacant",
+      "alevin",
+      "manque",
+      "kilomètre",
+      "vacuum"
     ],
     [
-      "tirage",
-      "sabre",
-      "précis",
-      "calmar",
-      "noble"
+      "aspirateur",
+      "conjonctivite",
+      "espace",
+      "rien",
+      "sucrière"
     ],
     [
-      "manuel",
-      "tirer",
-      "duel",
-      "masque",
-      "épée"
+      "absence",
+      "lente",
+      "civette",
+      "Parmigianino",
+      "Richter"
     ],
     [
-      "fleuret",
-      "rancune",
-      "fanal",
-      "esquiver",
-      "empaqueter"
+      "désert",
+      "silence",
+      "prédire",
+      "bouteille",
+      "vacuité"
     ],
     [
-      "touche",
-      "gueule",
-      "piste",
-      "plastron",
-      "pénétrer"
+      "recadrer",
+      "néant",
+      "Orient-Express",
+      "verre",
+      "trou"
     ]
   ],
   "rowClues": [
-    2,
     3,
+    3,
+    1,
     4,
-    2,
     3
   ],
   "colClues": [
-    3,
+    4,
     2,
-    3,
+    2,
     3,
     3
   ],
-  "themeWord": "escrime",
+  "themeWord": "vide",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false
     ],
     [
       true,
@@ -90,6 +69,27 @@
       true,
       true,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 14

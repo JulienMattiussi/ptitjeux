@@ -5,67 +5,74 @@
   "height": 5,
   "words": [
     [
-      "basmati",
-      "danger",
-      "pistil",
-      "cacophonique",
-      "cuire"
+      "constitution",
+      "pluralisme",
+      "citoyen",
+      "galbée",
+      "pétillant"
     ],
     [
-      "tourner",
-      "rustique",
-      "orgue",
-      "potier",
-      "soldes"
+      "parvis",
+      "intermittent",
+      "Athènes",
+      "majorité",
+      "suffrage"
     ],
     [
-      "vase",
-      "taper",
-      "seconde",
-      "ancestral",
-      "artistique"
+      "droit",
+      "performance",
+      "samba",
+      "Périclès",
+      "billes"
     ],
     [
-      "modeler",
-      "culminer",
-      "apporter",
-      "fragile",
-      "pot"
+      "liberté",
+      "agriculture",
+      "annonce",
+      "Tocqueville",
+      "drosophile"
     ],
     [
-      "russe",
-      "maritime",
-      "manuel",
-      "argile",
-      "licence"
+      "vote",
+      "république",
+      "grand-mât",
+      "peuple",
+      "magret"
     ]
   ],
   "rowClues": [
-    1,
     3,
     3,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
-    1,
-    1,
-    4,
+    2,
+    2,
     3
   ],
-  "themeWord": "poterie",
+  "colClues": [
+    4,
+    2,
+    2,
+    4,
+    1
+  ],
+  "themeWord": "démocratie",
   "solution": [
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
     [
       false,
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      true,
+      false,
       false,
       true,
       false
@@ -75,22 +82,15 @@
       false,
       false,
       true,
-      true
+      false
     ],
     [
       true,
-      false,
-      false,
       true,
-      true
-    ],
-    [
       false,
-      false,
-      true,
       true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

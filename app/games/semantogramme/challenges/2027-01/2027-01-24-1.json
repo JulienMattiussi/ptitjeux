@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "tige",
-      "bouquet",
-      "cavaler",
-      "rouge"
+      "Raiponce",
+      "Diana",
+      "tiare",
+      "omelette"
     ],
     [
-      "cirer",
-      "maudit",
-      "épine",
-      "pioche"
+      "quadriceps",
+      "robe",
+      "support",
+      "gazeux"
     ],
     [
-      "pétale",
-      "bouton",
-      "colique",
-      "pédale"
+      "poulet",
+      "Aurore",
+      "dentiste",
+      "carrosse"
     ],
     [
-      "parfum",
-      "recyclage",
-      "synagogue",
-      "récif"
+      "couronne",
+      "peuple",
+      "Leia",
+      "ludique"
     ]
   ],
   "rowClues": [
     3,
     1,
     2,
-    1
+    2
   ],
   "colClues": [
+    2,
     3,
     2,
-    1,
     1
   ],
-  "themeWord": "rose",
+  "themeWord": "princesse",
   "solution": [
     [
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       true,
       false,
       true
     ],
     [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       true,
       false,
-      false
-    ],
-    [
       true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

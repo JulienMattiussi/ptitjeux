@@ -5,74 +5,67 @@
   "height": 5,
   "words": [
     [
-      "jaunisse",
-      "week-end",
-      "bile",
-      "cirrhotique",
-      "biliaire"
+      "soldat",
+      "faîte",
+      "Lafarge",
+      "preux",
+      "guerrier"
     ],
     [
-      "ictère",
-      "détoxifier",
-      "gui",
-      "aviaire",
-      "sécréter"
+      "vaillant",
+      "escroc",
+      "courageux",
+      "fidèle",
+      "signe"
     ],
     [
-      "piscine",
-      "pâté",
-      "alcool",
-      "hépatique",
-      "lourdeur"
+      "rieur",
+      "carnassier",
+      "cultiver",
+      "honnête",
+      "orifice"
     ],
     [
-      "grisaille",
-      "plomb",
-      "oie",
-      "filtrer",
-      "plat"
+      "valeureux",
+      "embruns",
+      "esthétique",
+      "examen",
+      "gentil"
     ],
     [
-      "glycogène",
-      "pesant",
-      "libraire",
-      "organe",
-      "vésicule"
+      "serré",
+      "téméraire",
+      "hardi",
+      "gaufrette",
+      "audace"
     ]
   ],
   "rowClues": [
-    4,
     3,
     3,
+    1,
     2,
     3
   ],
   "colClues": [
     3,
+    1,
     2,
     3,
-    4,
     3
   ],
-  "themeWord": "foie",
+  "themeWord": "brave",
   "solution": [
     [
       true,
       false,
-      true,
+      false,
       true,
       true
     ],
     [
       true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true,
       false
@@ -80,7 +73,7 @@
     [
       false,
       false,
-      true,
+      false,
       true,
       false
     ],
@@ -88,9 +81,16 @@
       true,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

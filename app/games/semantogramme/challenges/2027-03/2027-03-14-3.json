@@ -5,101 +5,85 @@
   "height": 6,
   "words": [
     [
-      "caraméliser",
-      "entretenir",
-      "soigner",
-      "éduquer",
-      "girouette",
-      "fascinant"
+      "paume",
+      "poignée",
+      "conservatoire",
+      "monocoque",
+      "Hermione",
+      "reine"
     ],
     [
-      "rugissement",
-      "choyer",
-      "instruire",
-      "samedi",
-      "apprendre",
-      "doublure"
+      "Gershwin",
+      "sondage",
+      "grouiller",
+      "embouchure",
+      "clés",
+      "bois"
     ],
     [
-      "accoster",
-      "découvrir",
-      "poilu",
-      "poule",
-      "décocher",
-      "pension"
+      "concerto",
+      "bavard",
+      "hanneton",
+      "Mozart",
+      "jazz",
+      "archaïque"
     ],
     [
-      "sevrer",
-      "varech",
-      "cultiver",
-      "sapajou",
-      "bétail",
-      "troupeau"
+      "ruban",
+      "Lang",
+      "bibliothèque",
+      "Bechet",
+      "saumâtre",
+      "chaînes"
     ],
     [
-      "élevage",
-      "transformation",
-      "attaquer",
-      "volaille",
-      "former",
-      "charité"
+      "bec",
+      "mielleux",
+      "fanfare",
+      "harmonie",
+      "basse",
+      "anche"
     ],
     [
-      "noueuse",
-      "inculquer",
-      "institut",
-      "chicorée",
-      "concevoir",
-      "nourrir"
+      "épines",
+      "orchestre",
+      "Signac",
+      "madeleine",
+      "klezmer",
+      "nonne"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    2,
+    1,
     4,
     3,
-    3
+    1,
+    5,
+    2
   ],
   "colClues": [
+    3,
+    1,
     2,
-    3,
     4,
-    3,
-    3,
-    3
+    4,
+    2
   ],
-  "themeWord": "élever",
+  "themeWord": "clarinette",
   "solution": [
     [
       false,
+      false,
       true,
-      true,
-      true,
+      false,
       false,
       false
     ],
     [
-      false,
       true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       true,
       true
     ],
@@ -113,12 +97,28 @@
     ],
     [
       false,
-      true,
-      true,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

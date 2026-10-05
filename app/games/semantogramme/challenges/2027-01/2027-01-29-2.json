@@ -5,82 +5,75 @@
   "height": 5,
   "words": [
     [
-      "composer",
-      "transcrire",
-      "sabot",
-      "spray",
-      "inorganique"
+      "peigne",
+      "calvitie",
+      "demi",
+      "match",
+      "brosse"
     ],
     [
-      "crayon",
-      "phrase",
-      "griffonner",
-      "gerboise",
-      "déraper"
+      "agneau",
+      "coiffeur",
+      "compresse",
+      "Epson",
+      "tresse"
     ],
     [
-      "cinéma",
-      "rédiger",
-      "feuille",
-      "cahier",
-      "manuscrit"
+      "frange",
+      "biquette",
+      "barrette",
+      "brushing",
+      "mèche"
     ],
     [
-      "trampoline",
-      "dompter",
-      "budget",
-      "stylo",
-      "lettre"
+      "rotonde",
+      "boucle",
+      "chignon",
+      "perruque",
+      "pic"
     ],
     [
-      "maçonnerie",
-      "auteur",
-      "plume",
-      "noter",
-      "embaumer"
+      "Marquise",
+      "roux",
+      "Escoffier",
+      "blond",
+      "shampoing"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    4,
     2,
+    4,
+    3,
     3
   ],
   "colClues": [
     2,
     4,
+    2,
     3,
-    3,
-    2
+    4
   ],
-  "themeWord": "écrire",
+  "themeWord": "cheveu",
   "solution": [
     [
       true,
       true,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true
     ],
     [
       false,
+      true,
       false,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       true
     ],
@@ -90,7 +83,14 @@
       true,
       true,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

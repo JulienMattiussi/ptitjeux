@@ -5,78 +5,94 @@
   "height": 6,
   "words": [
     [
-      "chicorée",
-      "tropical",
-      "affût",
-      "vert",
-      "imiter",
-      "rouge"
+      "inquiétude",
+      "méandre",
+      "silhouette",
+      "abscisse",
+      "inflexion",
+      "croissance"
     ],
     [
-      "oiseau",
-      "longévité",
-      "élastique",
-      "papillon",
-      "couleur",
-      "bleu"
+      "chlore",
+      "Willy",
+      "statistique",
+      "oratorio",
+      "virage",
+      "graphique"
     ],
     [
-      "contact",
-      "sociable",
-      "occupé",
-      "épaule",
-      "cage",
-      "comestible"
+      "Marineland",
+      "glycine",
+      "bosse",
+      "Fouquet",
+      "besace",
+      "sinusoïde"
     ],
     [
-      "agripper",
-      "asana",
-      "répéter",
-      "sagaie",
-      "parler",
-      "préface"
+      "galbe",
+      "cambré",
+      "Bayeux",
+      "alto",
+      "filleul",
+      "Mufasa"
     ],
     [
-      "enregistrer",
-      "inauguration",
-      "sincère",
-      "bec",
-      "couteau",
-      "pirate"
+      "bureau",
+      "parabole",
+      "aviaire",
+      "ordonnée",
+      "arrondi",
+      "reproche"
     ],
     [
-      "cheville",
-      "plat",
-      "serré",
-      "intelligent",
-      "drap",
-      "aile"
+      "sinueux",
+      "rondeur",
+      "Lacrimosa",
+      "faille",
+      "fauché",
+      "achat"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    5,
     3,
     2,
     2,
+    3,
     2
   ],
   "colClues": [
-    1,
+    2,
+    4,
     3,
-    1,
-    4,
-    4,
-    4
+    2,
+    3,
+    3
   ],
-  "themeWord": "perroquet",
+  "themeWord": "courbe",
   "solution": [
     [
       false,
       true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
       false,
       true,
+      false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
       true
     ],
     [
@@ -84,8 +100,8 @@
       true,
       false,
       false,
-      true,
-      true
+      false,
+      false
     ],
     [
       false,
@@ -96,28 +112,12 @@
       false
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
-      true,
+      false,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 17

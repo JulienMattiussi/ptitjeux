@@ -5,76 +5,76 @@
   "height": 5,
   "words": [
     [
-      "détente",
-      "haltère",
-      "four",
-      "cuire",
-      "doré"
+      "cahier",
+      "proposer",
+      "origami",
+      "ruminer",
+      "cellulose"
     ],
     [
-      "rôti",
-      "cuisson",
-      "ventre",
-      "casserole",
-      "bouillir"
+      "lettre",
+      "papetier",
+      "papyrus",
+      "milieu",
+      "imprimante"
     ],
     [
-      "frire",
-      "braiser",
-      "lagune",
-      "escalader",
-      "sapin"
+      "immuable",
+      "rame",
+      "journal",
+      "carton",
+      "remaniement"
     ],
     [
-      "rissoler",
-      "temporel",
-      "chaleur",
-      "morille",
-      "caramélisé"
+      "pâte",
+      "prédateur",
+      "crayon",
+      "couturière",
+      "spasme"
     ],
     [
-      "mijoter",
-      "griller",
-      "poêle",
-      "charge",
-      "nettoyage"
+      "visière",
+      "généreux",
+      "huître",
+      "escargots",
+      "recyclage"
     ]
   ],
   "rowClues": [
     3,
     4,
-    2,
     3,
-    3
+    2,
+    1
   ],
   "colClues": [
-    4,
-    3,
     3,
     2,
+    4,
+    1,
     3
   ],
-  "themeWord": "cuit",
+  "themeWord": "papier",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       true,
       true,
-      false,
       true,
+      false,
       true
     ],
     [
+      false,
       true,
       true,
-      false,
-      false,
+      true,
       false
     ],
     [
@@ -82,15 +82,15 @@
       false,
       true,
       false,
-      true
+      false
     ],
     [
-      true,
-      true,
-      true,
       false,
-      false
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

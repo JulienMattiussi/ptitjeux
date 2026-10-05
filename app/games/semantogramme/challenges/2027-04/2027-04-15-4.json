@@ -5,109 +5,118 @@
   "height": 7,
   "words": [
     [
-      "cliver",
-      "monarque",
-      "lamentation",
-      "faucon",
-      "poltron",
-      "montagne",
-      "queue"
+      "ruelle",
+      "reptile",
+      "terrarium",
+      "lasagne",
+      "embaumer",
+      "rincer",
+      "taudis"
     ],
     [
-      "ébène",
-      "possessif",
-      "guetter",
-      "majestueux",
-      "ouistiti",
-      "ponton",
-      "aiguisée"
+      "vivarium",
+      "déferlante",
+      "écaille",
+      "batracien",
+      "amphibien",
+      "Peirce",
+      "Phelps"
     ],
     [
-      "gaufrier",
-      "rongeur",
-      "artère",
-      "colorier",
-      "remporter",
-      "paresseux",
-      "parution"
+      "cinéaste",
+      "masse",
+      "carafe",
+      "spi",
+      "sensible",
+      "épicé",
+      "venin"
     ],
     [
-      "noircir",
-      "pyrénées",
-      "zen",
-      "démon",
-      "gros",
-      "pelage",
-      "allergie"
+      "Cuvier",
+      "salamandre",
+      "crêpe",
+      "hula-hoop",
+      "éboulis",
+      "gecko",
+      "Hawking"
     ],
     [
-      "hibernation",
-      "galerie",
-      "marathon",
-      "famille",
-      "dormir",
-      "fuir",
-      "fairway"
+      "liane",
+      "balcon",
+      "tortue",
+      "civilisation",
+      "trapéziste",
+      "multicoque",
+      "devise"
     ],
     [
-      "terrier",
-      "va-et-vient",
-      "aile",
-      "alpe",
-      "nettoyer",
-      "siffler",
-      "mignonne"
+      "grenouille",
+      "Shining",
+      "plant",
+      "giclée",
+      "iguane",
+      "soutien",
+      "Lehár"
     ],
     [
-      "grégaire",
-      "glorieux",
-      "museau",
-      "haillon",
-      "sépale",
-      "élément",
-      "fuyant"
+      "suicide",
+      "serpent",
+      "crocodile",
+      "ratisser",
+      "séduire",
+      "caméléon",
+      "cellule"
     ]
   ],
   "rowClues": [
     2,
+    4,
     1,
     2,
-    3,
-    4,
-    4,
-    2
+    1,
+    2,
+    3
   ],
   "colClues": [
+    2,
     3,
-    3,
-    2,
-    2,
-    2,
     4,
-    2
+    1,
+    2,
+    2,
+    1
   ],
-  "themeWord": "marmotte",
+  "themeWord": "herpétologie",
   "solution": [
     [
       false,
+      true,
+      true,
       false,
       false,
       false,
+      false
+    ],
+    [
+      true,
       false,
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -117,19 +126,10 @@
     ],
     [
       false,
+      false,
       true,
       false,
       false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      true,
       false,
       false
     ],
@@ -137,20 +137,20 @@
       true,
       false,
       false,
-      true,
       false,
       true,
-      true
+      false,
+      false
     ],
     [
-      true,
       false,
       true,
+      true,
       false,
       false,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

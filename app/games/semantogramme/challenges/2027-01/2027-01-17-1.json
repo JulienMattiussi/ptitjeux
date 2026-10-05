@@ -5,48 +5,54 @@
   "height": 4,
   "words": [
     [
-      "bouillon",
-      "bisque",
-      "sirop",
-      "minestrone"
+      "trouille",
+      "trembler",
+      "charnière",
+      "frayeur"
     ],
     [
-      "figure",
-      "guérir",
-      "cocotte",
-      "chouette"
+      "angoisse",
+      "paillard",
+      "terreur",
+      "cauchemar"
     ],
     [
-      "gaspacho",
-      "salin",
-      "légume",
-      "nation"
+      "Sagittaire",
+      "ustensile",
+      "panique",
+      "meringue"
     ],
     [
-      "oignon",
-      "incantation",
-      "louche",
-      "librairie"
+      "phobie",
+      "chatouille",
+      "tournée",
+      "effroi"
     ]
   ],
   "rowClues": [
     3,
+    3,
     1,
-    2,
     2
   ],
   "colClues": [
     3,
     1,
-    3,
-    1
+    2,
+    3
   ],
-  "themeWord": "soupe",
+  "themeWord": "peur",
   "solution": [
     [
       true,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       true
     ],
     [
@@ -58,15 +64,9 @@
     [
       true,
       false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "guirlande",
-      "roi",
-      "chanson",
-      "âge"
+      "Ninja",
+      "électricien",
+      "plat",
+      "vingt"
     ],
     [
-      "carte",
-      "frisson",
-      "liesse",
-      "ébauchoir"
+      "dévisser",
+      "ajuster",
+      "outil",
+      "soleil"
     ],
     [
-      "fidèle",
-      "célébration",
-      "décoration",
-      "bougie"
+      "visser",
+      "rectiligne",
+      "hotte",
+      "manche"
     ],
     [
-      "invitation",
-      "cloison",
-      "gâteau",
-      "fête"
+      "effleurer",
+      "cheminot",
+      "embout",
+      "vis"
     ]
   ],
   "rowClues": [
-    3,
-    1,
-    3,
-    3
+    2,
+    2,
+    2,
+    2
   ],
   "colClues": [
-    3,
+    2,
     1,
     3,
-    3
+    2
   ],
-  "themeWord": "anniversaire",
+  "themeWord": "tournevis",
   "solution": [
     [
-      true,
       false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      false,
       false
     ],
     [
+      true,
       false,
       true,
-      true,
-      true
+      false
     ],
     [
       true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

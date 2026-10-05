@@ -5,98 +5,82 @@
   "height": 6,
   "words": [
     [
-      "musclé",
-      "vitrine",
-      "tragique",
-      "dramatique",
-      "lueur",
-      "milan"
+      "été",
+      "Liszt",
+      "pagaie",
+      "climatisation",
+      "azuré",
+      "connaisseur"
     ],
     [
-      "lyrique",
-      "baryton",
-      "électron",
-      "livret",
-      "abandonner",
-      "interpréter"
+      "envoûtement",
+      "étain",
+      "dégradé",
+      "turbine",
+      "radiateur",
+      "ployer"
     ],
     [
-      "chanter",
-      "engager",
-      "demi",
-      "piqûre",
-      "errant",
-      "scène"
+      "bourguignon",
+      "Télémaque",
+      "gond",
+      "ordinateur",
+      "pales",
+      "oscillant"
     ],
     [
-      "aria",
-      "bijoutier",
-      "vanter",
-      "verdi",
-      "ténor",
-      "télescope"
+      "armistice",
+      "épicéa",
+      "recensement",
+      "brocart",
+      "chaleur",
+      "rafraîchir"
     ],
     [
-      "flûte",
-      "trapu",
-      "soprano",
-      "rafale",
-      "équipage",
-      "forger"
+      "brute",
+      "vélociraptor",
+      "vitesse",
+      "enjamber",
+      "punir",
+      "canicule"
     ],
     [
-      "imam",
-      "fier",
-      "truite",
-      "mouvement",
-      "wagner",
-      "puccini"
+      "air",
+      "souffler",
+      "balai",
+      "cactus",
+      "moteur",
+      "indicateur"
     ]
   ],
   "rowClues": [
-    3,
-    4,
+    2,
     2,
     3,
-    1,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
-    3,
+    2,
     1,
-    2,
+    1,
     3,
-    2,
-    4
+    4,
+    3
   ],
-  "themeWord": "opéra",
+  "themeWord": "ventilateur",
   "solution": [
     [
+      true,
       false,
       false,
       true,
-      true,
       false,
-      true
+      false
     ],
     [
-      true,
-      true,
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -106,10 +90,10 @@
     [
       false,
       false,
+      false,
       true,
-      false,
-      false,
-      false
+      true,
+      true
     ],
     [
       false,
@@ -118,7 +102,23 @@
       false,
       true,
       true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

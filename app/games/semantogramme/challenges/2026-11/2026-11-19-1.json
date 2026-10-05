@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "citoyen",
-      "état",
-      "légale",
-      "hymne"
+      "sphère",
+      "Cri",
+      "aîné",
+      "contour"
     ],
     [
-      "monnaie",
-      "râpe",
-      "frontière",
-      "drapeau"
+      "rectangle",
+      "stick",
+      "mars",
+      "orchidée"
     ],
     [
-      "gelée",
-      "continent",
-      "curiosité",
-      "silencieux"
+      "silhouette",
+      "triangle",
+      "Alexandrie",
+      "ovale"
     ],
     [
-      "bicaméral",
-      "patrie",
-      "peuple",
-      "nation"
+      "Ornans",
+      "losange",
+      "cercle",
+      "carré"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
     1,
+    3,
     3
   ],
   "colClues": [
-    2,
     3,
     2,
+    1,
     3
   ],
-  "themeWord": "pays",
+  "themeWord": "forme",
   "solution": [
     [
       true,
-      true,
+      false,
       false,
       true
     ],
     [
       true,
       false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
       false,
       false
     ],
     [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       true,
       true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

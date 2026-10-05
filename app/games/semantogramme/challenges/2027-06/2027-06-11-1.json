@@ -5,44 +5,50 @@
   "height": 4,
   "words": [
     [
-      "obélisque",
-      "pectoral",
-      "paix",
-      "antiquité"
+      "vitesse",
+      "gravité",
+      "hune",
+      "énergie"
     ],
     [
-      "laine",
-      "guerre",
-      "discuter",
-      "écuyer"
+      "principe",
+      "pelletée",
+      "Newton",
+      "Einstein"
     ],
     [
-      "archive",
-      "roi",
-      "mondial",
-      "reine"
+      "atome",
+      "foncé",
+      "force",
+      "fredonner"
     ],
     [
-      "asana",
-      "siècle",
-      "révolution",
-      "époque"
+      "relativité",
+      "lumière",
+      "stationnaire",
+      "laboratoire"
     ]
   ],
   "rowClues": [
-    2,
-    1,
     3,
+    2,
+    2,
     3
   ],
   "colClues": [
-    1,
     3,
+    2,
     2,
     3
   ],
-  "themeWord": "histoire",
+  "themeWord": "physique",
   "solution": [
+    [
+      true,
+      true,
+      false,
+      true
+    ],
     [
       false,
       false,
@@ -50,9 +56,9 @@
       true
     ],
     [
-      false,
       true,
       false,
+      true,
       false
     ],
     [
@@ -60,13 +66,7 @@
       true,
       false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

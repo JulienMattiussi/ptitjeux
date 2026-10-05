@@ -5,90 +5,74 @@
   "height": 6,
   "words": [
     [
-      "guide",
-      "piste",
-      "perfusion",
-      "magie",
-      "voltige",
-      "mort-vivant"
+      "préliminaire",
+      "redondant",
+      "sécurité",
+      "blessé",
+      "sirène",
+      "urgence"
     ],
     [
-      "expressif",
-      "recevoir",
-      "roulette",
-      "enchaîner",
-      "groupe",
-      "trône"
+      "évacuation",
+      "fronton",
+      "secours",
+      "gyrophare",
+      "civière",
+      "tannerie"
     ],
     [
-      "gel",
-      "camion",
-      "reins",
-      "figure",
-      "chausser",
-      "glace"
+      "hôpital",
+      "héroïque",
+      "pompiers",
+      "défibrillateur",
+      "malade",
+      "Samu"
     ],
     [
-      "lame",
-      "parquet",
-      "pirouette",
-      "se lever",
-      "tournoyer",
-      "vespa"
+      "trace",
+      "équinoxe",
+      "longitude",
+      "transport",
+      "coltiner",
+      "infirmier"
     ],
     [
-      "roller",
-      "lynx",
-      "hiver",
-      "pneumonie",
-      "glisser",
-      "dérapage"
+      "postérité",
+      "concierge",
+      "incrédulité",
+      "artistique",
+      "brancard",
+      "réanimation"
     ],
     [
-      "spectateur",
-      "labrador",
-      "wok",
-      "arabesque",
-      "ambrée",
-      "pas"
+      "assemblée",
+      "SMUR",
+      "accident",
+      "déshydraté",
+      "popote",
+      "maquereau"
     ]
   ],
   "rowClues": [
+    3,
+    4,
+    5,
     2,
     2,
-    4,
-    4,
-    4,
     2
   ],
   "colClues": [
-    3,
     2,
-    3,
+    1,
     3,
     4,
-    3
+    4,
+    4
   ],
-  "themeWord": "patiner",
+  "themeWord": "ambulance",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       false,
       true,
@@ -97,9 +81,9 @@
     ],
     [
       true,
-      true,
-      true,
       false,
+      true,
+      true,
       true,
       false
     ],
@@ -107,7 +91,7 @@
       true,
       false,
       true,
-      false,
+      true,
       true,
       true
     ],
@@ -118,6 +102,22 @@
       true,
       false,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 18

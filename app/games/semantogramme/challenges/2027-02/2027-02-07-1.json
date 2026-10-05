@@ -5,49 +5,55 @@
   "height": 4,
   "words": [
     [
-      "rocher",
-      "vulnérabilité",
-      "carapace",
-      "araignée"
+      "merguez",
+      "élection",
+      "Assemblée",
+      "député"
     ],
     [
-      "déguisement",
-      "tourteau",
-      "patte",
-      "contemporain"
+      "parti",
+      "Pontormo",
+      "campagne",
+      "adducteurs"
     ],
     [
-      "pince",
-      "petit-déjeuner",
-      "barbecue",
-      "crustacé"
+      "négation",
+      "ministre",
+      "droite",
+      "vidéo"
     ],
     [
-      "menton",
-      "sable",
-      "antenne",
-      "plage"
+      "gouvernement",
+      "gauche",
+      "tee",
+      "URL"
     ]
   ],
   "rowClues": [
     3,
     2,
     2,
-    3
+    2
   ],
   "colClues": [
     2,
-    2,
     3,
-    3
+    3,
+    1
   ],
-  "themeWord": "crabe",
+  "themeWord": "politique",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
     [
       true,
       false,
       true,
-      true
+      false
     ],
     [
       false,
@@ -57,16 +63,10 @@
     ],
     [
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

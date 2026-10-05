@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "féroce",
-      "tuile",
-      "griffe",
-      "infusion"
+      "printemps",
+      "météo",
+      "été",
+      "substance"
     ],
     [
-      "crocs",
-      "fauve",
-      "immortel",
-      "génisse"
+      "Pixar",
+      "équinoxe",
+      "fichier",
+      "architecture"
     ],
     [
-      "entier",
-      "roi",
-      "beauté",
-      "jungle"
+      "exprimer",
+      "haricot",
+      "volonté",
+      "automne"
     ],
     [
-      "savane",
-      "pince",
-      "crinière",
-      "prédateur"
+      "Cyrulnik",
+      "solstice",
+      "maçon",
+      "changement"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
     3,
-    2,
-    2,
+    1,
+    1,
     2
   ],
-  "themeWord": "lion",
+  "colClues": [
+    1,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "saison",
   "solution": [
     [
       true,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
-      false,
       false
     ],
     [
       false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true
     ],
     [
-      true,
       false,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 7
 }

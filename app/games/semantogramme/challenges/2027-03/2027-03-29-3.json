@@ -5,84 +5,92 @@
   "height": 6,
   "words": [
     [
-      "persistante",
-      "pastille",
-      "astronomique",
-      "irritante",
-      "bronchite",
-      "sirop"
+      "boule",
+      "séduire",
+      "petite",
+      "noire",
+      "coucou",
+      "faïence"
     ],
     [
-      "bouillon",
-      "poumon",
-      "sec",
-      "indolent",
-      "auteur",
-      "sureau"
+      "garanti",
+      "bleue",
+      "lucane",
+      "nichoir",
+      "clochette",
+      "oiseau"
     ],
     [
-      "célébrer",
-      "spasmodique",
-      "tousser",
-      "gorge",
-      "bois",
-      "féerique"
+      "hiver",
+      "Rackham",
+      "glisse",
+      "Belon",
+      "saturé",
+      "tempura"
     ],
     [
-      "expectorer",
-      "puissant",
-      "immortaliser",
-      "panache",
-      "rhume",
-      "glisser"
+      "Sissi",
+      "suif",
+      "plumage",
+      "huppée",
+      "charbonnière",
+      "graines"
     ],
     [
-      "feutré",
-      "cracher",
-      "tracteur",
-      "égyptien",
-      "noueuse",
-      "gras"
+      "obstiné",
+      "chenilles",
+      "ventiler",
+      "jardin",
+      "chant",
+      "Satan"
     ],
     [
-      "finesse",
-      "cueilli",
-      "allergie",
-      "asthme",
-      "nocturne",
-      "mouchoir"
+      "carotte",
+      "arbre",
+      "mangeoire",
+      "Vuitton",
+      "passereau",
+      "Rudolph"
     ]
   ],
   "rowClues": [
-    5,
-    2,
     3,
-    2,
-    2,
-    4
+    3,
+    1,
+    5,
+    3,
+    3
   ],
   "colClues": [
     2,
     4,
     3,
+    4,
     3,
-    3,
-    3
+    2
   ],
-  "themeWord": "toux",
+  "themeWord": "mésange",
   "solution": [
     [
       true,
-      true,
       false,
       true,
       true,
-      true
+      false,
+      false
     ],
     [
       false,
       true,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
       false,
       false,
       false
@@ -92,32 +100,24 @@
       true,
       true,
       true,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      false,
+      true,
+      true,
       false
     ],
     [
+      false,
       true,
-      false,
-      false,
+      true,
       false,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
     ]
   ],
   "parMoves": 18

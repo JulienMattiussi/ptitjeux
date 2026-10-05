@@ -5,58 +5,58 @@
   "height": 4,
   "words": [
     [
-      "se lever",
-      "fossile",
-      "applaudissement",
-      "public"
+      "Donatello",
+      "Belgique",
+      "brasserie",
+      "malt"
     ],
     [
-      "salle",
-      "sono",
-      "chanteur",
-      "cruche"
+      "flic",
+      "brune",
+      "demi",
+      "vaporisation"
     ],
     [
-      "scène",
-      "éloquence",
-      "bissextile",
-      "première"
+      "raisonnement",
+      "brousse",
+      "Vésuve",
+      "pinte"
     ],
     [
-      "billet",
-      "galactique",
-      "bis",
-      "micro"
+      "pression",
+      "hévéa",
+      "mentaliste",
+      "inventaire"
     ]
   ],
   "rowClues": [
-    2,
     3,
     2,
-    3
+    1,
+    1
   ],
   "colClues": [
-    3,
     1,
-    3,
-    3
+    2,
+    2,
+    2
   ],
-  "themeWord": "concert",
+  "themeWord": "bière",
   "solution": [
     [
       false,
-      false,
+      true,
       true,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       false
     ],
     [
-      true,
+      false,
       false,
       false,
       true
@@ -64,9 +64,9 @@
     [
       true,
       false,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

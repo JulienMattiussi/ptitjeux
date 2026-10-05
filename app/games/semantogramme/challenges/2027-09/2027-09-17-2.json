@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-17-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "tombeau",
+      "pascal",
+      "pyramide",
+      "invention",
+      "Anubis"
+    ],
+    [
+      "Carter",
+      "embaumer",
+      "guitare",
+      "estomac",
+      "privation"
+    ],
+    [
+      "clairon",
+      "Ramsès",
+      "serre",
+      "canope",
+      "Toutankhamon"
+    ],
+    [
+      "sarcophage",
+      "futilité",
+      "leurre",
+      "Louvre",
+      "aiguille"
+    ],
+    [
+      "malédiction",
+      "bandelette",
+      "natron",
+      "fougasse",
+      "romanesque"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    4,
+    3,
+    2,
+    2,
+    2
+  ],
+  "themeWord": "momie",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 13
+}

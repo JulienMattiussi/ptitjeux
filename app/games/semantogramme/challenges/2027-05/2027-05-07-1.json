@@ -5,49 +5,49 @@
   "height": 4,
   "words": [
     [
-      "instruire",
-      "gerbe",
-      "fleuriste",
-      "épiderme"
+      "Mendel",
+      "soutane",
+      "chimpanzé",
+      "grimace"
     ],
     [
-      "composition",
-      "lampadaire",
-      "vache",
-      "tulipe"
+      "gorille",
+      "tulipe",
+      "indigent",
+      "primate"
     ],
     [
-      "percevoir",
-      "ruban",
-      "mariée",
-      "bronzer"
+      "ouistiti",
+      "rondelle",
+      "liane",
+      "orang-outan"
     ],
     [
-      "piquet",
-      "corbeille",
-      "sortir",
-      "digestion"
+      "banane",
+      "macaque",
+      "babouin",
+      "planète"
     ]
   ],
   "rowClues": [
     2,
     2,
-    2,
-    2
+    3,
+    3
   ],
   "colClues": [
-    2,
     3,
-    2,
-    1
+    1,
+    3,
+    3
   ],
-  "themeWord": "bouquet",
+  "themeWord": "singe",
   "solution": [
     [
       false,
+      false,
       true,
-      true,
-      false
+      true
     ],
     [
       true,
@@ -56,17 +56,17 @@
       true
     ],
     [
+      true,
       false,
       true,
-      true,
-      false
+      true
     ],
     [
       true,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

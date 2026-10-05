@@ -5,119 +5,119 @@
   "height": 6,
   "words": [
     [
-      "londres",
-      "transport",
-      "probité",
-      "campagne",
-      "sangloter",
-      "chauffeur"
+      "bureau",
+      "archéologique",
+      "familier",
+      "malade",
+      "pizza",
+      "tisane"
     ],
     [
-      "séquestrer",
-      "rouge",
-      "ticket",
-      "baptême",
-      "collectif",
-      "fraction"
+      "Hugo",
+      "lit",
+      "joystick",
+      "pandémie",
+      "fièvre",
+      "aviaire"
     ],
     [
-      "col",
-      "jaune",
-      "chapiteau",
-      "descendre",
-      "quatre-quarts",
-      "scolaire"
+      "jambon",
+      "saisonnière",
+      "courbatures",
+      "toux",
+      "rênes",
+      "hiver"
     ],
     [
-      "crémier",
-      "à-fromage",
-      "confier",
-      "mitrailler",
-      "urbain",
-      "passager"
+      "influenza",
+      "agriculture",
+      "bétail",
+      "rassemblement",
+      "frissons",
+      "vaccin"
     ],
     [
-      "paupière",
-      "aridité",
-      "antique",
-      "banlieue",
-      "cosmique",
-      "ligne"
+      "espagnole",
+      "traîneau",
+      "touiller",
+      "monastère",
+      "juxtaposition",
+      "naseau"
     ],
     [
-      "cystite",
-      "découverte",
-      "parquet",
-      "arrêt",
-      "circuit",
-      "monter"
+      "rhume",
+      "bidonner",
+      "contagion",
+      "méridienne",
+      "émerveillement",
+      "certificat"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
     2,
-    2,
-    3
+    4,
+    4,
+    3,
+    1,
+    2
   ],
   "colClues": [
-    1,
     3,
-    1,
+    2,
+    2,
     3,
-    3,
-    5
+    2,
+    4
   ],
-  "themeWord": "bus",
+  "themeWord": "grippe",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
+      false,
+      true,
       false,
       true
     ],
     [
       false,
       true,
-      true,
       false,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     [
-      false,
       true,
       false,
       true,
       false,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      true
+      false
     ]
   ],
   "parMoves": 16

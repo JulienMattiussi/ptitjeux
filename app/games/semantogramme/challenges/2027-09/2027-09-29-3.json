@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-29-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "Nil",
+      "caresser",
+      "repasser",
+      "perplexité",
+      "Languedoc",
+      "plafond"
+    ],
+    [
+      "Hannibal",
+      "Lyre",
+      "catastrophe",
+      "beauf",
+      "crabe",
+      "Rameau"
+    ],
+    [
+      "soie",
+      "Aragog",
+      "tempérance",
+      "grenier",
+      "liquéfaction",
+      "architrave"
+    ],
+    [
+      "piège",
+      "fil",
+      "théorème",
+      "mygale",
+      "polar",
+      "tarentule"
+    ],
+    [
+      "Kasparov",
+      "nymphéa",
+      "toile",
+      "inhalateur",
+      "magie",
+      "Darjeeling"
+    ],
+    [
+      "tisser",
+      "huit",
+      "Spider-Man",
+      "hibiscus",
+      "ériger",
+      "faucheux"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    4,
+    1,
+    4
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "araignée",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "langue",
-      "citron",
-      "pare-brise",
-      "ancrer",
-      "vinaigre"
+      "salière",
+      "acier",
+      "souris",
+      "constellation",
+      "scolopendre"
     ],
     [
-      "aigrir",
-      "caustique",
-      "cosmonaute",
-      "verjus",
-      "mythique"
+      "selle",
+      "fébrile",
+      "dégager",
+      "brume",
+      "fumée"
     ],
     [
-      "pamplemousse",
-      "dressage",
-      "grâce",
-      "unique",
-      "institut"
+      "ardoise",
+      "anthracite",
+      "pigeon",
+      "chorale",
+      "ours"
     ],
     [
-      "tamarin",
-      "hawaïen",
-      "yaourt",
-      "frisson",
-      "cornichon"
+      "cadran",
+      "vandalisme",
+      "pôle",
+      "éléphant",
+      "propre"
     ],
     [
-      "mâle",
-      "kiwi",
-      "menu",
-      "étrenner",
-      "âpre"
+      "perle",
+      "cendre",
+      "béton",
+      "cheveux",
+      "habile"
     ]
   ],
   "rowClues": [
     2,
+    2,
     3,
     1,
-    3,
-    2
+    4
   ],
   "colClues": [
+    2,
     3,
     3,
-    1,
-    1,
-    3
+    3,
+    1
   ],
-  "themeWord": "acide",
+  "themeWord": "gris",
   "solution": [
     [
       false,
       true,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       false,
+      false,
+      true,
       true
     ],
     [
       true,
       true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       true,
       false
     ],
     [
       true,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

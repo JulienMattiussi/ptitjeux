@@ -5,64 +5,64 @@
   "height": 4,
   "words": [
     [
-      "patriarche",
-      "jumelle",
-      "éloigné",
-      "polymère"
+      "compréhension",
+      "blanc",
+      "géométrie",
+      "cumulus"
     ],
     [
-      "famille",
-      "protéger",
-      "apaiser",
-      "papa"
+      "ciel",
+      "nébulosité",
+      "lames",
+      "brume"
     ],
     [
-      "figure",
-      "dalmatien",
-      "parent",
-      "paternel"
+      "géranium",
+      "gris",
+      "échographie",
+      "vipère"
     ],
     [
-      "multiplier",
-      "macaque",
-      "enfant",
-      "appel"
+      "stratus",
+      "empirisme",
+      "orage",
+      "astrologie"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    1,
     2,
+    3,
+    1,
     2
   ],
-  "themeWord": "père",
+  "colClues": [
+    2,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "nuage",
   "solution": [
     [
+      false,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
       false,
       true,
       false

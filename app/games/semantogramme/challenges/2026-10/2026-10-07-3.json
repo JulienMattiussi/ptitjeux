@@ -5,85 +5,101 @@
   "height": 6,
   "words": [
     [
-      "abîme",
-      "décliner",
-      "rabaisser",
-      "grande",
-      "détecter",
-      "pluie"
+      "Zorro",
+      "aisé",
+      "achevé",
+      "engranger",
+      "liquide",
+      "nez"
     ],
     [
-      "pente",
-      "arche",
-      "verni",
-      "baisser",
-      "abaisser",
-      "parachute"
+      "geste",
+      "Chardin",
+      "Brocéliande",
+      "souplesse",
+      "arthrose",
+      "lubrifiant"
     ],
     [
-      "langue",
-      "glissade",
-      "capucin",
-      "escalier",
-      "constitution",
-      "ascenseur"
+      "continu",
+      "tourbe",
+      "glissant",
+      "eau",
+      "haute",
+      "Buñuel"
     ],
     [
-      "capituler",
-      "cerne",
-      "caténaire",
-      "jouer",
-      "toboggan",
-      "choir"
+      "viscosité",
+      "casque",
+      "limpide",
+      "désoeuvrement",
+      "turbulence",
+      "circulation"
     ],
     [
-      "morue",
-      "pastille",
-      "précipice",
-      "maléfique",
-      "consumer",
-      "clé"
+      "Casals",
+      "écoulement",
+      "stick",
+      "plasma",
+      "jouets",
+      "ériger"
     ],
     [
-      "rougir",
-      "vespéral",
-      "plonger",
-      "chauffeur",
-      "embarquer",
-      "réception"
+      "Diogène",
+      "manichéisme",
+      "bougé",
+      "ondoyant",
+      "onde",
+      "Inuit"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     3,
     4,
-    3,
     2,
-    1,
-    1
+    2
   ],
   "colClues": [
     2,
     2,
+    2,
+    4,
     3,
-    2,
-    2,
-    3
+    2
   ],
-  "themeWord": "descendre",
+  "themeWord": "fluide",
   "solution": [
     [
-      true,
-      true,
+      false,
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       false,
       false
     ],
     [
       true,
       false,
-      false,
       true,
+      false,
       true,
       true
     ],
@@ -92,33 +108,17 @@
       true,
       false,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
       false,
       false
     ],
     [
       false,
       false,
+      false,
       true,
-      false,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

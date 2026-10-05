@@ -5,100 +5,100 @@
   "height": 6,
   "words": [
     [
-      "tv",
-      "mélasse",
-      "ouvrier",
-      "jonquille",
-      "résolution",
-      "haute-définition"
+      "récipient",
+      "cuirasse",
+      "Inde",
+      "blanc",
+      "bocal",
+      "s'écrouler"
     ],
     [
-      "récolte",
-      "projecteur",
-      "persistant",
-      "nourrir",
-      "réchauffer",
-      "plat"
+      "réserve",
+      "herbivore",
+      "Freddy",
+      "brocante",
+      "laid",
+      "tubulaire"
     ],
     [
-      "tutu",
-      "tactile",
-      "montrer",
-      "fond",
-      "cinéma",
-      "zodiaque"
+      "tic-tac",
+      "hexagonal",
+      "fuyant",
+      "corne",
+      "travailler",
+      "banquise"
     ],
     [
-      "bigarade",
-      "candide",
-      "afficher",
-      "led",
-      "oled",
-      "génitrice"
+      "volte-face",
+      "petits",
+      "applaudir",
+      "noir",
+      "Sumatra",
+      "couvert"
     ],
     [
-      "lcd",
-      "voyageur",
-      "reniflement",
-      "apathique",
-      "regarder",
-      "large"
+      "Namibie",
+      "feuilleton",
+      "peau",
+      "piquant",
+      "amandes",
+      "nasal"
     ],
     [
-      "parapluie",
-      "pastel",
-      "pixel",
-      "ordinateur",
-      "central",
-      "barboter"
+      "zoo",
+      "chemise",
+      "pachyderme",
+      "Fichte",
+      "massif",
+      "mammifère"
     ]
   ],
   "rowClues": [
     3,
     2,
-    4,
-    3,
-    3,
-    2
+    1,
+    2,
+    2,
+    4
   ],
   "colClues": [
-    2,
+    3,
     2,
     3,
     3,
-    4,
-    3
+    2,
+    1
   ],
-  "themeWord": "écran",
+  "themeWord": "rhinocéros",
   "solution": [
     [
-      true,
-      false,
-      false,
       false,
       true,
-      true
+      true,
+      true,
+      false,
+      false
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true,
       false
@@ -106,19 +106,19 @@
     [
       true,
       false,
+      true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 14
 }

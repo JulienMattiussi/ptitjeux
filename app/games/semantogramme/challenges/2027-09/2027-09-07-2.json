@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-07-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "Viking",
+      "luzerne",
+      "framboise",
+      "cheval",
+      "rênes"
+    ],
+    [
+      "cravache",
+      "ratatouille",
+      "sabot",
+      "trot",
+      "nougat"
+    ],
+    [
+      "Crabe",
+      "acte",
+      "selle",
+      "obstacle",
+      "étrier"
+    ],
+    [
+      "cavalier",
+      "bombe",
+      "Raphaël",
+      "galop",
+      "profil"
+    ],
+    [
+      "poney",
+      "manège",
+      "dressage",
+      "déontologie",
+      "jument"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    3,
+    3,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    4,
+    3
+  ],
+  "themeWord": "équitation",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

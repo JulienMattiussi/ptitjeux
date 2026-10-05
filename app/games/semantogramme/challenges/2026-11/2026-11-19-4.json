@@ -5,90 +5,117 @@
   "height": 7,
   "words": [
     [
-      "étoile",
-      "colère",
-      "baudelaire",
-      "attaquer",
-      "jumelé",
-      "cygne",
-      "magnifier"
+      "enflé",
+      "affecté",
+      "charabia",
+      "déluge",
+      "inébranlable",
+      "ego",
+      "spirale"
     ],
     [
-      "hulotte",
-      "triomphe",
-      "orang-outan",
-      "gravure",
-      "couper",
-      "protestation",
-      "ardent"
+      "convenable",
+      "emphatique",
+      "guinguette",
+      "fleuri",
+      "langue",
+      "maniéré",
+      "style"
     ],
     [
-      "menu",
-      "rude",
-      "heurter",
-      "classe",
-      "spécialiste",
-      "roue",
-      "trias"
+      "prétentieux",
+      "verbeux",
+      "baroque",
+      "fossoyeur",
+      "crédit",
+      "suspension",
+      "mémoire"
     ],
     [
-      "défendre",
-      "derby",
-      "violent",
-      "abaisser",
-      "vaisselle",
-      "bille",
-      "dénoncer"
+      "garçon",
+      "redondant",
+      "cacher",
+      "creux",
+      "accéléromètre",
+      "sentimental",
+      "réaction"
     ],
     [
-      "emporté",
-      "agam",
-      "cantaloup",
-      "fougueux",
-      "agressif",
-      "enflammé",
-      "passionné"
+      "fusil",
+      "tranchée",
+      "déclamatoire",
+      "plainte",
+      "silicone",
+      "dictée",
+      "boursouflé"
     ],
     [
-      "savant",
-      "perdrix",
-      "arbuste",
-      "crier",
-      "monumental",
-      "maux",
-      "engendrer"
+      "pédant",
+      "après-guerre",
+      "salsa",
+      "Eldorado",
+      "solennel",
+      "casse-pieds",
+      "précieux"
     ],
     [
-      "expressif",
-      "plaquage",
-      "célèbre",
-      "cingler",
-      "museau",
-      "intense",
-      "haricot"
+      "grandiloquent",
+      "Hippocrate",
+      "collage",
+      "aisselle",
+      "séchée",
+      "pompeux",
+      "rhétorique"
     ]
   ],
   "rowClues": [
     2,
-    2,
-    1,
-    3,
-    5,
-    1,
-    1
-  ],
-  "colClues": [
+    4,
     3,
     2,
-    1,
-    3,
-    1,
     2,
+    3,
     3
   ],
-  "themeWord": "véhément",
+  "colClues": [
+    4,
+    4,
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "ampoulé",
   "solution": [
     [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
       false,
       true,
       false,
@@ -99,58 +126,31 @@
     ],
     [
       false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
       false,
       false,
       false,
       false,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

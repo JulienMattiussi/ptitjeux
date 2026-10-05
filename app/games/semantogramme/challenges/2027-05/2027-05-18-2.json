@@ -5,73 +5,66 @@
   "height": 5,
   "words": [
     [
-      "capturer",
-      "char",
-      "logiciel",
-      "reflux",
-      "rivage"
+      "loupe",
+      "country",
+      "parlement",
+      "avocat",
+      "député"
     ],
     [
-      "isolante",
-      "objectif",
-      "basse",
-      "montante",
-      "hubble"
+      "décret",
+      "code",
+      "Tatin",
+      "Vador",
+      "Millet"
     ],
     [
-      "frange",
-      "maritime",
-      "javelot",
-      "rectitude",
-      "sacré"
+      "législation",
+      "droit",
+      "constitution",
+      "réseau",
+      "Mendel"
     ],
     [
-      "lunaire",
-      "grosse-caisse",
-      "haute",
-      "inonder",
-      "flux"
+      "article",
+      "amende",
+      "tribunal",
+      "roquette",
+      "justice"
     ],
     [
-      "noire",
-      "côtière",
-      "coefficient",
-      "effeuiller",
-      "assuré"
+      "juge",
+      "aimant",
+      "règle",
+      "faitout",
+      "muet"
     ]
   ],
   "rowClues": [
+    3,
     2,
-    2,
-    1,
+    3,
     4,
     2
   ],
   "colClues": [
+    4,
+    3,
+    4,
     1,
-    2,
-    3,
-    3,
     2
   ],
-  "themeWord": "marée",
+  "themeWord": "loi",
   "solution": [
     [
       false,
       false,
-      false,
+      true,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
-      true,
-      false
-    ],
-    [
-      false,
       true,
       false,
       false,
@@ -79,18 +72,25 @@
     ],
     [
       true,
+      true,
+      true,
       false,
+      false
+    ],
+    [
       true,
       true,
+      true,
+      false,
       true
     ],
     [
-      false,
       true,
+      false,
       true,
       false,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

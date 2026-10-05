@@ -1,0 +1,96 @@
+{
+  "id": "2027-08-29-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "Marseille",
+      "peintre",
+      "oyat",
+      "narquois",
+      "distinction"
+    ],
+    [
+      "bédouin",
+      "sable",
+      "erg",
+      "ondulation",
+      "vin"
+    ],
+    [
+      "dromadaire",
+      "parcourir",
+      "cabinet",
+      "chameau",
+      "Touareg"
+    ],
+    [
+      "flasque",
+      "mûrier",
+      "oasis",
+      "désert",
+      "versatile"
+    ],
+    [
+      "Sahara",
+      "bunker",
+      "Pilat",
+      "Arrakis",
+      "crête"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    3,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    1,
+    4,
+    4,
+    2
+  ],
+  "themeWord": "dune",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "ancien",
+      "tenue",
+      "costume",
+      "képi"
+    ],
+    [
+      "soldat",
+      "destin",
+      "marin",
+      "écolier"
+    ],
+    [
+      "invertébré",
+      "infirmière",
+      "granulat",
+      "Allemagne"
+    ],
+    [
+      "policier",
+      "cow-boy",
+      "Kaa",
+      "galon"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    2
+  ],
+  "colClues": [
+    2,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "uniforme",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

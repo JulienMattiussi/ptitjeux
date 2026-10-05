@@ -5,105 +5,132 @@
   "height": 7,
   "words": [
     [
-      "voile",
-      "muscade",
-      "photographe",
-      "jongler",
-      "mât",
-      "amener",
-      "frapper"
+      "inciter",
+      "écholocation",
+      "photographie",
+      "corrosif",
+      "Marineland",
+      "omnivore",
+      "concombre"
     ],
     [
-      "lime",
-      "pilule",
-      "marine",
-      "rotor",
-      "ticket",
-      "éolienne",
-      "optique"
+      "précipice",
+      "supprimer",
+      "tueuse",
+      "totem",
+      "Vauban",
+      "braquage",
+      "Antarctique"
     ],
     [
-      "artistique",
-      "professoral",
-      "fatigant",
-      "haler",
-      "taquet",
-      "imperméable",
-      "théodora"
+      "transcendant",
+      "captivité",
+      "dorsale",
+      "chiot",
+      "jovial",
+      "acariens",
+      "Willy"
     ],
     [
-      "épinard",
-      "gréer",
-      "aînée",
-      "piétiner",
-      "sous-marine",
-      "palanquer",
-      "cordage"
+      "baleine",
+      "Lucifer",
+      "jonquille",
+      "Polaire",
+      "géologie",
+      "Cocagne",
+      "mer"
     ],
     [
-      "château",
-      "indolent",
-      "crédulité",
-      "écoute",
-      "border",
-      "durer",
-      "vespa"
+      "volt",
+      "sondage",
+      "union",
+      "allègre",
+      "Antibes",
+      "sonar",
+      "graphisme"
     ],
     [
-      "choquer",
-      "cafard",
-      "manoeuvre",
-      "tendre",
-      "hisser",
-      "vieillir",
-      "hôte"
+      "otage",
+      "bourdonner",
+      "usine",
+      "cétacé",
+      "Roberval",
+      "monogramme",
+      "omoplate"
     ],
     [
-      "guindant",
-      "civique",
-      "lune",
-      "lancéolé",
-      "bonheur",
-      "profonde",
-      "évasée"
+      "phoque",
+      "billes",
+      "Pacifique",
+      "aileron",
+      "ARN",
+      "otarie",
+      "prédateur"
     ]
   ],
   "rowClues": [
-    4,
-    1,
+    2,
     2,
     3,
     2,
-    4,
-    1
+    2,
+    1,
+    5
   ],
   "colClues": [
-    3,
-    1,
+    2,
     2,
     3,
-    4,
     2,
-    2
+    2,
+    2,
+    4
   ],
-  "themeWord": "drisse",
+  "themeWord": "orque",
   "solution": [
     [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
       false,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
       true
     ],
     [
       false,
       false,
+      false,
+      false,
       true,
-      false,
-      false,
-      false,
+      true,
       false
     ],
     [
@@ -111,45 +138,18 @@
       false,
       false,
       true,
-      true,
+      false,
       false,
       false
     ],
     [
-      false,
       true,
       false,
-      false,
+      true,
+      true,
       false,
       true,
       true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
     ]
   ],
   "parMoves": 17

@@ -5,59 +5,80 @@
   "height": 5,
   "words": [
     [
-      "vin",
-      "guignol",
-      "bouteille",
-      "casier",
-      "obscurité"
+      "Pompadour",
+      "bisou",
+      "faconde",
+      "neveu",
+      "tata"
     ],
     [
-      "russule",
-      "descendre",
-      "vieillir",
-      "tonneau",
-      "humidité"
+      "marraine",
+      "pureté",
+      "Whistler",
+      "gifle",
+      "confiture"
     ],
     [
-      "gambade",
-      "frais",
-      "voûte",
-      "amertume",
-      "arche"
+      "famille",
+      "épouillage",
+      "coursive",
+      "gâteau",
+      "Brahms"
     ],
     [
-      "triceps",
-      "stocker",
-      "sous-sol",
-      "hanter",
-      "pâlir"
+      "frontal",
+      "bâtir",
+      "nièce",
+      "oncle",
+      "cousin"
     ],
     [
-      "spectral",
-      "sombre",
-      "mégapixel",
-      "quadratique",
-      "foret"
+      "coupante",
+      "cadeau",
+      "Nietzsche",
+      "peser",
+      "visite"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    3,
     2,
     2,
-    1
-  ],
-  "colClues": [
-    1,
-    4,
-    4,
-    2,
+    3,
     2
   ],
-  "themeWord": "cave",
+  "colClues": [
+    2,
+    2,
+    1,
+    3,
+    4
+  ],
+  "themeWord": "tante",
   "solution": [
     [
+      false,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -66,31 +87,10 @@
     [
       false,
       true,
-      true,
-      true,
+      false,
+      false,
       true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

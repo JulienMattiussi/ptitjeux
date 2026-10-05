@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "rappeur",
-      "transilvanien",
-      "démocratique",
-      "maudit",
-      "patinoire"
+      "forçat",
+      "trapu",
+      "Ravenne",
+      "azulejo",
+      "complot"
     ],
     [
-      "antique",
-      "ancien",
-      "égypte",
-      "public",
-      "tampon"
+      "carreau",
+      "Bip",
+      "motif",
+      "pore",
+      "Barcelone"
     ],
     [
-      "préserver",
-      "chapitre",
-      "sable",
-      "popeye",
-      "pyramide"
+      "Sioux",
+      "fresque",
+      "sol",
+      "faïence",
+      "Réaumur"
     ],
     [
-      "maladresse",
-      "nostalgie",
-      "embaumé",
-      "bandelette",
-      "mystérieux"
+      "vessie",
+      "émail",
+      "tesson",
+      "journaux",
+      "puzzle"
     ],
     [
-      "mener",
-      "noir",
-      "pharaon",
-      "malédiction",
-      "préface"
+      "Invader",
+      "Gaudí",
+      "preuve",
+      "céramique",
+      "année"
     ]
   ],
   "rowClues": [
-    1,
+    2,
     3,
     3,
     3,
-    2
+    3
   ],
   "colClues": [
     2,
-    1,
+    3,
     4,
     3,
     2
   ],
-  "themeWord": "momie",
+  "themeWord": "mosaïque",
   "solution": [
     [
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       true,
-      true,
-      false,
       false
     ],
     [
@@ -79,18 +72,25 @@
     ],
     [
       false,
-      false,
       true,
       true,
-      true
+      true,
+      false
     ],
     [
       false,
-      false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 14
 }

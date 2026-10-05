@@ -5,108 +5,108 @@
   "height": 7,
   "words": [
     [
-      "atteindre",
-      "culbuter",
-      "huit",
-      "parade",
-      "sueur",
-      "nier",
-      "résine"
+      "lance",
+      "envie",
+      "cadet",
+      "hibou",
+      "essoreuse",
+      "précambrien",
+      "bond"
     ],
     [
-      "continu",
-      "fade",
-      "archaïque",
-      "élevée",
-      "lèchefrite",
-      "dendrologue",
-      "tian"
+      "notice",
+      "Bretagne",
+      "registre",
+      "s'effondrer",
+      "granite",
+      "minéral",
+      "cristallin"
     ],
     [
-      "médaillon",
-      "pénétrer",
-      "imperceptible",
-      "trimbaler",
-      "lettre",
-      "atoll",
-      "chinchilla"
+      "croissant",
+      "galet",
+      "géologue",
+      "détresse",
+      "urbain",
+      "humanitaire",
+      "calotte"
     ],
     [
-      "chute",
-      "graptolithe",
-      "dégoutter",
-      "outil",
-      "éden",
-      "cucurbitacée",
-      "stomacal"
+      "bouture",
+      "feldspath",
+      "estompé",
+      "mica",
+      "socle",
+      "sushi",
+      "échassier"
     ],
     [
-      "suinter",
-      "sourdre",
-      "cartilagineux",
-      "chagrin",
-      "multiplication",
-      "ramper",
-      "corpulent"
+      "Nana",
+      "Vosges",
+      "bijoutier",
+      "caillou",
+      "réprimande",
+      "métamorphique",
+      "schiste"
     ],
     [
-      "taquiner",
-      "liège",
-      "élysée",
-      "équation",
-      "littéraire",
-      "lent",
-      "destin"
+      "rayée",
+      "baisser",
+      "ameublir",
+      "calvitie",
+      "quartz",
+      "héroïque",
+      "épanoui"
     ],
     [
-      "havane",
-      "gaspacho",
-      "larmoyer",
-      "goutte",
-      "imprégner",
-      "cafetière",
-      "transpirer"
+      "montagne",
+      "glapir",
+      "enfourcher",
+      "Auvergne",
+      "roche",
+      "feuilleté",
+      "râpé"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
     1,
+    4,
     2,
-    2,
+    3,
+    4,
+    1,
     4
   ],
   "colClues": [
-    2,
-    2,
+    1,
     4,
     1,
     3,
-    1,
+    4,
+    4,
     2
   ],
-  "themeWord": "exsuder",
+  "themeWord": "gneiss",
   "solution": [
     [
       false,
       false,
       false,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       false,
+      false,
+      true,
+      true,
       true
     ],
     [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
@@ -117,40 +117,40 @@
     ],
     [
       false,
-      false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      false,
-      false,
       false,
       false
     ],
     [
       false,
-      false,
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true,
       false,
+      true,
+      false,
+      true,
       true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

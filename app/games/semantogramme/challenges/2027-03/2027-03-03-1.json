@@ -5,53 +5,47 @@
   "height": 4,
   "words": [
     [
-      "safari",
-      "voyage",
-      "utopie",
-      "urinaire"
+      "détenu",
+      "bénir",
+      "cachot",
+      "pourboire"
     ],
     [
-      "plage",
-      "souvenir",
-      "hôtel",
-      "naturelle"
+      "Clausius",
+      "peine",
+      "Alcatraz",
+      "gardien"
     ],
     [
-      "livraison",
-      "visite",
-      "agence",
-      "excursion"
+      "cellule",
+      "malfaisant",
+      "barreaux",
+      "blagueur"
     ],
     [
-      "monument",
-      "pente",
-      "génisse",
-      "circuit"
+      "corbeille",
+      "tailler",
+      "salinité",
+      "évasion"
     ]
   ],
   "rowClues": [
     2,
     3,
-    3,
-    2
+    2,
+    1
   ],
   "colClues": [
-    3,
-    3,
     2,
+    1,
+    3,
     2
   ],
-  "themeWord": "tourisme",
+  "themeWord": "prison",
   "solution": [
     [
       true,
-      true,
       false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false
     ],
@@ -63,10 +57,16 @@
     ],
     [
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       false,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

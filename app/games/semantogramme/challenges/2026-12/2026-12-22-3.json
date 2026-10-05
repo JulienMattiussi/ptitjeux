@@ -5,95 +5,79 @@
   "height": 6,
   "words": [
     [
-      "croire",
-      "frire",
-      "effiler",
-      "ciseaux",
-      "sculpter",
-      "beurré"
+      "carnet",
+      "épidémie",
+      "branchage",
+      "prévention",
+      "grippe",
+      "occasion"
     ],
     [
-      "sécateur",
-      "aiguiser",
-      "flottante",
-      "charogne",
-      "émonder",
-      "limpidité"
+      "cuir",
+      "silex",
+      "zeste",
+      "tonnelle",
+      "houille",
+      "virus"
     ],
     [
-      "couper",
-      "autorité",
-      "terminal",
-      "illégal",
-      "élaguer",
-      "cisaille"
+      "rage",
+      "céréale",
+      "Facebook",
+      "diction",
+      "mousseline",
+      "chiendent"
     ],
     [
-      "panier",
-      "pénale",
-      "poireau",
-      "avaricieux",
-      "ensemencer",
-      "rogner"
+      "anticorps",
+      "immunité",
+      "Pythonisse",
+      "dose",
+      "variole",
+      "Galileo"
     ],
     [
-      "tronçonneuse",
-      "arbuste",
-      "rosier",
-      "primitive",
-      "raccourcir",
-      "haie"
+      "infirmière",
+      "rappel",
+      "ARN",
+      "dégoûtant",
+      "cuissot",
+      "cocaïne"
     ],
     [
-      "journal",
-      "joie",
-      "lime",
-      "hisser",
-      "rabattre",
-      "glacier"
+      "seringue",
+      "guilleret",
+      "sous-couche",
+      "Jenner",
+      "Karajan",
+      "Pasteur"
     ]
   ],
   "rowClues": [
-    3,
-    3,
-    3,
+    4,
     1,
-    5,
-    2
-  ],
-  "colClues": [
-    3,
-    2,
-    3,
     1,
-    5,
+    4,
+    3,
     3
   ],
-  "themeWord": "tailler",
+  "colClues": [
+    5,
+    3,
+    1,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "vaccin",
   "solution": [
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true,
-      true
     ],
     [
       false,
@@ -105,20 +89,36 @@
     ],
     [
       true,
-      true,
-      true,
       false,
-      true,
-      true
+      false,
+      false,
+      false,
+      false
     ],
     [
-      false,
-      false,
+      true,
       true,
       false,
+      true,
       true,
       false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

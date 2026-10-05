@@ -5,77 +5,85 @@
   "height": 6,
   "words": [
     [
-      "bondir",
-      "épaissir",
-      "redoutable",
-      "orange",
-      "étain",
-      "inde"
+      "pointes",
+      "pied",
+      "marmelade",
+      "fondations",
+      "étoilé",
+      "podologie"
     ],
     [
-      "aubergine",
-      "arrêter",
-      "argentée",
-      "chasser",
-      "puissant",
-      "aspirateur"
+      "eutrophisation",
+      "plantaire",
+      "quai",
+      "délire",
+      "Kinder",
+      "rhumatisme"
     ],
     [
-      "dattier",
-      "félin",
-      "sibérie",
-      "majestueux",
-      "âtre",
-      "transatlantique"
+      "sibyllin",
+      "chameau",
+      "milliards",
+      "ongle",
+      "pouce",
+      "bout"
     ],
     [
-      "parental",
-      "dimanche",
-      "asie",
-      "limite",
-      "fidèle",
-      "abordage"
+      "porte",
+      "mycose",
+      "pair",
+      "Harley",
+      "fracture",
+      "effleurer"
     ],
     [
-      "rayure",
-      "masque",
-      "bengale",
-      "affût",
-      "numériser",
-      "effacement"
+      "crampe",
+      "tirelire",
+      "phalange",
+      "gros",
+      "cogner",
+      "songe"
     ],
     [
-      "noir",
-      "forêt",
-      "commencement",
-      "clou",
-      "rare",
-      "féroce"
+      "croisée",
+      "ballerine",
+      "amas",
+      "incisive",
+      "roumaine",
+      "Ellington"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
     3,
-    1,
     2,
-    4
+    4,
+    1
   ],
   "colClues": [
-    3,
     2,
     4,
-    3,
+    1,
     2,
-    2
+    3,
+    3
   ],
-  "themeWord": "tigre",
+  "themeWord": "orteil",
   "solution": [
     [
       true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
-      true,
+      false,
+      false,
       false,
       true
     ],
@@ -85,40 +93,32 @@
       false,
       true,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      true,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

@@ -5,62 +5,76 @@
   "height": 5,
   "words": [
     [
-      "ébahissement",
-      "agenda",
-      "hebdomadaire",
-      "fouler",
-      "congé"
+      "morceau",
+      "rejet",
+      "cotiser",
+      "exotisme",
+      "fouiner"
     ],
     [
-      "midi",
-      "gril",
-      "chiffre",
-      "semaine",
-      "paillette"
+      "solidarité",
+      "bouture",
+      "bretelles",
+      "générosité",
+      "gâteau"
     ],
     [
-      "salin",
-      "galoche",
-      "côté",
-      "jour",
-      "intérêt"
+      "luthier",
+      "échanger",
+      "entraide",
+      "prêter",
+      "répartir"
     ],
     [
-      "rendez-vous",
-      "desséché",
-      "planifier",
-      "coq",
-      "cours"
+      "communauté",
+      "Torricelli",
+      "traverser",
+      "troc",
+      "diviser"
     ],
     [
-      "étudier",
-      "travail",
-      "goulot",
-      "humour",
-      "apogée"
+      "moitié",
+      "distribuer",
+      "donner",
+      "Guerlain",
+      "barbecue"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
     3,
-    2
+    4,
+    3,
+    3
   ],
   "colClues": [
+    4,
+    2,
     3,
-    2,
-    2,
-    2,
-    2
+    3,
+    3
   ],
-  "themeWord": "mardi",
+  "themeWord": "partager",
   "solution": [
     [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       true,
       true,
-      false,
+      true,
       true
     ],
     [
@@ -68,29 +82,15 @@
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       true
     ],
     [
       true,
       true,
-      false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

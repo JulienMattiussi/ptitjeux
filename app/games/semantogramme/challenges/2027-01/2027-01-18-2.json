@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "vainqueur",
-      "immense",
-      "écrit",
-      "assimiler",
-      "addition"
+      "président",
+      "original",
+      "musclé",
+      "maïeutique",
+      "campagne"
     ],
     [
-      "fer-forgé",
-      "agressif",
-      "précis",
-      "produit",
-      "division"
+      "scrutin",
+      "corbeau",
+      "amen",
+      "majorité",
+      "aîné"
     ],
     [
-      "brûlant",
-      "curcuma",
-      "chiffre",
-      "opération",
-      "somme"
+      "typographie",
+      "maire",
+      "Rémy",
+      "historié",
+      "résultat"
     ],
     [
-      "quinine",
-      "arithmétique",
-      "multiplication",
-      "bottine",
-      "sensuel"
+      "idéal",
+      "suffrage",
+      "spi",
+      "jazz",
+      "isoloir"
     ],
     [
-      "résultat",
-      "soustraction",
-      "plane",
-      "tomahawk",
-      "parure"
+      "stick",
+      "alpaga",
+      "urne",
+      "bulletin",
+      "abstention"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
     2,
-    2
-  ],
-  "colClues": [
-    1,
     2,
-    4,
     2,
     3
   ],
-  "themeWord": "calcul",
+  "colClues": [
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "élection",
   "solution": [
     [
-      false,
-      false,
       true,
+      false,
+      false,
       false,
       true
     ],
     [
-      false,
-      false,
       true,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
       false
     ],
     [
-      true,
+      false,
       true,
       false,
       false,
-      false
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

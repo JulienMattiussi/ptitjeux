@@ -5,78 +5,110 @@
   "height": 6,
   "words": [
     [
-      "salir",
-      "effrayant",
-      "naviguer",
-      "juge",
-      "surdité",
-      "design"
+      "nuit",
+      "manichéisme",
+      "gastéropode",
+      "sauna",
+      "postérité",
+      "lent"
     ],
     [
-      "cabine",
-      "domestique",
-      "scie",
-      "municipale",
-      "restauration",
-      "bordeaux"
+      "tourbe",
+      "Jérusalem",
+      "moka",
+      "ragots",
+      "mucus",
+      "escargot"
     ],
     [
-      "sagoutier",
-      "embarquer",
-      "fournisseur",
-      "férié",
-      "passager",
-      "mer"
+      "cristal",
+      "vilain",
+      "saltimbanque",
+      "bureau",
+      "visqueux",
+      "antenne"
     ],
     [
-      "mâle",
-      "cargo",
-      "confiture",
-      "pélagique",
-      "fascinant",
-      "débarquer"
+      "rampant",
+      "punk",
+      "potager",
+      "bave",
+      "carrosse",
+      "vasistas"
     ],
     [
-      "transport",
-      "prix",
-      "traverser",
-      "bateau",
-      "tiédir",
-      "grand"
+      "serviable",
+      "salade",
+      "Condom",
+      "pluie",
+      "orange",
+      "relation"
     ],
     [
-      "réparation",
-      "port",
-      "ticket",
-      "lecteur",
-      "pont",
-      "liaison"
+      "jardin",
+      "aigre",
+      "fuite",
+      "invincible",
+      "agonisant",
+      "barguigner"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
     2,
-    4,
-    3
+    2,
+    3,
+    3,
+    1
   ],
   "colClues": [
-    2,
     3,
-    2,
     1,
+    2,
+    2,
     3,
-    4
+    3
   ],
-  "themeWord": "ferry",
+  "themeWord": "limace",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
       false
     ],
     [
@@ -84,41 +116,9 @@
       false,
       false,
       false,
-      true,
+      false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

@@ -5,89 +5,73 @@
   "height": 6,
   "words": [
     [
-      "transcendance",
-      "rôle",
-      "scène",
-      "danse",
-      "écosse",
-      "flottante"
+      "enfilade",
+      "procrastiner",
+      "long",
+      "imperméable",
+      "hall",
+      "Sagittaire"
     ],
     [
-      "classique",
-      "millénaire",
-      "romantique",
-      "protégé",
-      "humilité",
-      "fondant"
+      "truie",
+      "bordure",
+      "routard",
+      "cruciforme",
+      "passage",
+      "nonchalant"
     ],
     [
-      "pas",
-      "thermos",
-      "chorégraphie",
-      "allergique",
-      "figure",
-      "vider"
+      "majestueux",
+      "porte",
+      "entrée",
+      "coursive",
+      "vestibule",
+      "Shining"
     ],
     [
-      "filer",
-      "élégant",
-      "gastronomie",
-      "paletot",
-      "tournoyer",
-      "pointes"
+      "issue",
+      "moquette",
+      "ongle",
+      "lumière",
+      "cuvette",
+      "placenta"
     ],
     [
-      "gracieux",
-      "tutu",
-      "tapenade",
-      "avancer",
-      "sauter",
-      "radioactif"
+      "hôtel",
+      "tablature",
+      "couloir",
+      "fameux",
+      "galerie",
+      "monarchie"
     ],
     [
-      "pause",
-      "aérien",
-      "cumulus",
-      "corps-de-ballet",
-      "russe",
-      "porter"
+      "Belgique",
+      "internat",
+      "labyrinthe",
+      "appartement",
+      "égoïne",
+      "symphonie"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    3,
+    1,
+    5,
     3,
     3,
-    3,
-    4
+    3
   ],
   "colClues": [
     3,
     3,
-    3,
-    2,
     4,
-    2
+    3,
+    4,
+    1
   ],
-  "themeWord": "ballet",
+  "themeWord": "corridor",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
@@ -97,9 +81,17 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      false
+    ],
+    [
       false,
-      false,
+      true,
+      true,
+      true,
       true,
       true
     ],
@@ -107,6 +99,14 @@
       true,
       true,
       false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       true,
       false
@@ -114,11 +114,11 @@
     [
       false,
       true,
+      true,
+      true,
       false,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 18
 }

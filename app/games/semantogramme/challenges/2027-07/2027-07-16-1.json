@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-16-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pré",
+      "gospel",
+      "câble",
+      "venin"
+    ],
+    [
+      "fusible",
+      "enduire",
+      "Varsovie",
+      "eau-forte"
+    ],
+    [
+      "renaître",
+      "prise",
+      "volt",
+      "ampère"
+    ],
+    [
+      "ampoule",
+      "lumière",
+      "batterie",
+      "courage"
+    ]
+  ],
+  "rowClues": [
+    1,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    1
+  ],
+  "themeWord": "électricité",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 8
+}

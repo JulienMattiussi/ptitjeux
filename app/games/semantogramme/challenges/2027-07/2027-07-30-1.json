@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-30-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "bourguignon",
+      "truie",
+      "Babe",
+      "boue"
+    ],
+    [
+      "Peppa",
+      "historique",
+      "salière",
+      "falot"
+    ],
+    [
+      "emphatique",
+      "groin",
+      "tirelire",
+      "cuite"
+    ],
+    [
+      "saucisson",
+      "porc",
+      "natron",
+      "jambon"
+    ]
+  ],
+  "rowClues": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "cochon",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 9
+}

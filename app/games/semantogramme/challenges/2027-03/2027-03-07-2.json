@@ -5,76 +5,69 @@
   "height": 5,
   "words": [
     [
-      "aile",
-      "céleste",
-      "gabriel",
-      "vénérer",
-      "stout"
+      "soliste",
+      "exigu",
+      "chenet",
+      "loisirs",
+      "marché"
     ],
     [
-      "précipice",
-      "cieux",
-      "chausser",
-      "paradis",
-      "destrier"
+      "courses",
+      "détente",
+      "sabbat",
+      "atterrissage",
+      "ménage"
     ],
     [
-      "charpentier",
-      "harpe",
-      "levée",
-      "séraphin",
-      "annoncer"
+      "couenne",
+      "igloo",
+      "sortie",
+      "Prokofiev",
+      "morosité"
     ],
     [
-      "soigner",
-      "capitaine",
-      "plume",
-      "aïeul",
-      "vanter"
+      "David",
+      "pique-nique",
+      "Shabbat",
+      "fête",
+      "brocante"
     ],
     [
-      "navigateur",
-      "carafe",
-      "protéger",
-      "gardien",
-      "tableau"
+      "Saturne",
+      "repos",
+      "week-end",
+      "soirée",
+      "mystique"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    3,
+    4,
     1,
-    2
+    4,
+    4
   ],
   "colClues": [
-    1,
+    2,
     3,
+    4,
     3,
-    3,
-    1
+    3
   ],
-  "themeWord": "ange",
+  "themeWord": "samedi",
   "solution": [
     [
-      true,
-      true,
-      true,
       false,
-      false
+      false,
+      false,
+      true,
+      true
     ],
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
       true
     ],
     [
@@ -86,11 +79,18 @@
     ],
     [
       false,
-      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

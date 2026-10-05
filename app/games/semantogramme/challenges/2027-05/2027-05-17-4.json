@@ -5,123 +5,114 @@
   "height": 7,
   "words": [
     [
-      "lactée",
-      "légume",
-      "cumin",
-      "traditionnel",
-      "radicelle",
-      "pisan",
-      "piéton"
+      "haut-fourneau",
+      "courbature",
+      "rabot",
+      "coton",
+      "Carnap",
+      "joueur",
+      "lucidité"
     ],
     [
-      "campement",
-      "balade",
-      "épice",
-      "olive",
-      "corticoïde",
-      "terre",
-      "traitement"
+      "rationalité",
+      "empirisme",
+      "pathos",
+      "progrès",
+      "mollasson",
+      "Angkor",
+      "chaud"
     ],
     [
-      "février",
-      "immortalité",
-      "rang",
-      "majestueuse",
-      "oriental",
-      "oisiveté",
-      "safran"
+      "fait",
+      "revenir",
+      "escargots",
+      "toc",
+      "Opinel",
+      "cornichon",
+      "Saint-Simon"
     ],
     [
-      "plat",
-      "déterminisme",
-      "poulet",
-      "précieuse",
-      "altier",
-      "citron",
-      "cuit"
+      "bibliothèque",
+      "impérieux",
+      "compote",
+      "Comte",
+      "sociologie",
+      "Littré",
+      "docker"
     ],
     [
-      "froussard",
-      "thonier",
-      "adapté",
-      "savourer",
-      "enclaver",
-      "cigale",
-      "rechercher"
+      "mer",
+      "ordre",
+      "science",
+      "vérification",
+      "Humanité",
+      "sang",
+      "logique"
     ],
     [
-      "mijoter",
-      "rosette",
-      "amoureuse",
-      "authentifier",
-      "tropique",
-      "beignet",
-      "transilvanien"
+      "membre",
+      "trombone",
+      "observation",
+      "expérience",
+      "bécasse",
+      "barrette",
+      "convergente"
     ],
     [
-      "copeau",
-      "roulé",
-      "blues",
-      "cône",
-      "maghreb",
-      "maroc",
-      "va-et-vient"
+      "objectivité",
+      "lamentation",
+      "flambage",
+      "Durkheim",
+      "relief",
+      "équivoque",
+      "métaphysique"
     ]
   ],
   "rowClues": [
-    3,
+    1,
     3,
     2,
-    4,
-    1,
-    1,
+    3,
+    5,
+    2,
     3
   ],
   "colClues": [
+    3,
     2,
+    2,
+    5,
+    3,
     1,
-    3,
-    4,
-    2,
-    3,
-    2
+    3
   ],
-  "themeWord": "tagine",
+  "themeWord": "positivisme",
   "solution": [
     [
       false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
       true,
       true,
+      false,
       true,
       false,
       false,
       false
     ],
     [
-      false,
-      false,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
       true,
       false,
       false,
-      true,
+      false,
+      false,
+      false,
       true
     ],
     [
@@ -129,6 +120,24 @@
       false,
       false,
       true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false,
       false,
       false
@@ -137,20 +146,11 @@
       true,
       false,
       false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       true,
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 19
 }

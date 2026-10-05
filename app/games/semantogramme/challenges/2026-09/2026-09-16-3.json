@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "maquillage",
-      "président",
-      "inébranlable",
-      "sablée",
-      "sermonner",
-      "altérée"
+      "glaire",
+      "européen",
+      "TGV",
+      "prune",
+      "Tatin",
+      "bielle"
     ],
     [
-      "galactique",
-      "pizza",
-      "feuilletée",
-      "imposante",
-      "fascinant",
-      "expressif"
+      "chaudière",
+      "wagon",
+      "coquilles",
+      "diesel",
+      "sifflet",
+      "chevalet"
     ],
     [
-      "mousquetaire",
-      "boulanger",
-      "tancer",
-      "oeuf",
-      "intuition",
-      "tranchée"
+      "convoi",
+      "vapeur",
+      "mécanicien",
+      "lombaire",
+      "Stephenson",
+      "intrigué"
     ],
     [
-      "lever",
-      "levure",
-      "brisée",
-      "rouler",
-      "souffle",
-      "beurre"
+      "réussite",
+      "cheville",
+      "motrice",
+      "Kafka",
+      "Orient-Express",
+      "voie"
     ],
     [
-      "peigner",
-      "tarte",
-      "pétrir",
-      "gel",
-      "sauge",
-      "enchanteur"
+      "cheminot",
+      "piston",
+      "Cuba",
+      "isard",
+      "tender",
+      "charbon"
     ],
     [
-      "farine",
-      "nourriture",
-      "sel",
-      "volter",
-      "pain",
-      "sécurisé"
+      "Nautilus",
+      "mollusque",
+      "émulsion",
+      "aiguillage",
+      "Vuitton",
+      "fredonner"
     ]
   ],
   "rowClues": [
-    1,
-    2,
-    2,
-    5,
-    2,
-    3
-  ],
-  "colClues": [
     2,
     4,
     4,
     3,
-    1,
+    4,
     1
   ],
-  "themeWord": "pâte",
+  "colClues": [
+    3,
+    3,
+    3,
+    2,
+    4,
+    3
+  ],
+  "themeWord": "locomotive",
   "solution": [
     [
       false,
       false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       true
     ],
     [
-      false,
       true,
       true,
       false,
-      false,
+      true,
+      true,
       false
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

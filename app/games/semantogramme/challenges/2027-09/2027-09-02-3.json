@@ -1,0 +1,124 @@
+{
+  "id": "2027-09-02-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "patate",
+      "Maghreb",
+      "réplication",
+      "Arp",
+      "bigarreau",
+      "poutre"
+    ],
+    [
+      "bois",
+      "meule",
+      "paille",
+      "reculer",
+      "agrandir",
+      "tracteur"
+    ],
+    [
+      "grotesque",
+      "net",
+      "Argenteuil",
+      "hangar",
+      "Shakira",
+      "rayonnante"
+    ],
+    [
+      "verbeux",
+      "grenier",
+      "alcôve",
+      "passe",
+      "charpente",
+      "moisson"
+    ],
+    [
+      "étable",
+      "saint",
+      "forme",
+      "Madagascar",
+      "botte",
+      "estimation"
+    ],
+    [
+      "fourrage",
+      "entente",
+      "fourche",
+      "gouffre",
+      "Narcisse",
+      "remise"
+    ]
+  ],
+  "rowClues": [
+    1,
+    4,
+    1,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "grange",
+  "solution": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

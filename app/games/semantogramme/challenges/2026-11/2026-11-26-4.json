@@ -5,131 +5,95 @@
   "height": 7,
   "words": [
     [
-      "allumer",
-      "scientifique",
-      "paléolithique",
-      "rachmaninov",
-      "sucre",
-      "spécialisée",
-      "méditerranéenne"
+      "climat",
+      "inventaire",
+      "fronton",
+      "mobil-home",
+      "brou",
+      "entablement",
+      "poutre"
     ],
     [
-      "nihiliste",
-      "précis",
-      "instantané",
-      "courant",
-      "aiguillon",
-      "tabouret",
-      "va-et-vient"
+      "ionique",
+      "Assise",
+      "ska",
+      "pachyderme",
+      "luxuriant",
+      "frise",
+      "colonne"
     ],
     [
-      "quatre-quarts",
-      "patriarche",
-      "cartographier",
-      "polymère",
-      "conscience",
-      "poivron",
-      "mélancolie"
+      "linteau",
+      "raffiné",
+      "entrelacs",
+      "puéril",
+      "corniche",
+      "prognathe",
+      "céphalopode"
     ],
     [
-      "navire",
-      "battre",
-      "observer",
-      "matelas",
-      "axe",
-      "tic-tac",
-      "horticulture"
+      "menthe",
+      "badigeonner",
+      "ninja",
+      "notaire",
+      "incertitude",
+      "épave",
+      "antique"
     ],
     [
-      "connaissance",
-      "algèbre",
-      "sanctuaire",
-      "profondeur",
-      "marine",
-      "plongée",
-      "abysse"
+      "respect",
+      "ordre",
+      "pierre",
+      "suinter",
+      "Polynésie",
+      "chapiteau",
+      "portique"
     ],
     [
-      "marée",
-      "lunaire",
-      "assimiler",
-      "mesurer",
-      "mer",
-      "sonar",
-      "épanouissement"
+      "pléistocène",
+      "cent",
+      "classique",
+      "Parthénon",
+      "corinthien",
+      "route",
+      "musicien"
     ],
     [
-      "plancton",
-      "pluie",
-      "liaisonner",
-      "baudruche",
-      "salinité",
-      "gris",
-      "expérimenter"
+      "plomb",
+      "commissariat",
+      "index",
+      "Gaïa",
+      "patate",
+      "Lemaître",
+      "Vitruve"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
     1,
-    1,
-    2,
     4,
-    4,
-    2
-  ],
-  "colClues": [
-    3,
-    1,
-    2,
-    3,
-    3,
     3,
     1
   ],
-  "themeWord": "océanographie",
+  "colClues": [
+    2,
+    1,
+    3,
+    1,
+    2,
+    3,
+    5
+  ],
+  "themeWord": "architrave",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       true,
       false,
       false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true,
       true,
       true
     ],
@@ -137,10 +101,10 @@
       true,
       false,
       false,
+      false,
+      false,
       true,
-      true,
-      true,
-      false
+      true
     ],
     [
       true,
@@ -150,7 +114,43 @@
       true,
       false,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

@@ -5,83 +5,62 @@
   "height": 5,
   "words": [
     [
-      "sillon",
-      "cuit",
-      "regard",
-      "épier",
-      "épépiner"
+      "toboggan",
+      "garage",
+      "brasse",
+      "pompon",
+      "bouée"
     ],
     [
-      "détail",
-      "loupe",
-      "télescope",
-      "pharmacien",
-      "oncle"
+      "plongeoir",
+      "olympique",
+      "grossissement",
+      "baignade",
+      "transat"
     ],
     [
-      "microscope",
-      "étaler",
-      "jumelle",
-      "élytre",
-      "pâlir"
+      "Suzette",
+      "longueur",
+      "épervier",
+      "maillot",
+      "réflexion"
     ],
     [
-      "torride",
-      "inspecter",
-      "fixer",
-      "scruter",
-      "oeil"
+      "vestiaire",
+      "bassin",
+      "Hooker",
+      "pourrir",
+      "chevalet"
     ],
     [
-      "guetter",
-      "contempler",
-      "détente",
-      "examiner",
-      "escroquerie"
+      "chlore",
+      "maître-nageur",
+      "bonnet",
+      "judaïsme",
+      "nager"
     ]
   ],
   "rowClues": [
-    2,
     3,
-    2,
     4,
-    3
+    2,
+    2,
+    4
   ],
   "colClues": [
-    3,
-    3,
     4,
-    3,
-    1
+    4,
+    2,
+    2,
+    3
   ],
-  "themeWord": "observer",
+  "themeWord": "piscine",
   "solution": [
     [
-      false,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
       true
     ],
     [
@@ -89,8 +68,29 @@
       true,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
       false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

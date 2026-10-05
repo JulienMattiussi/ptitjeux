@@ -5,48 +5,60 @@
   "height": 4,
   "words": [
     [
-      "mer",
-      "spacieux",
-      "risquer",
-      "bateau"
+      "souris",
+      "source",
+      "portable",
+      "saignant"
     ],
     [
-      "brillante",
-      "poisson",
-      "forum",
-      "chalut"
+      "dorique",
+      "monstre",
+      "lucane",
+      "Microsoft"
     ],
     [
-      "poireau",
-      "saisir",
-      "hameçon",
-      "président"
+      "novice",
+      "violette",
+      "fichier",
+      "clavier"
     ],
     [
-      "rivière",
-      "filet",
-      "congélateur",
-      "pourpre"
+      "égout",
+      "processeur",
+      "indulgence",
+      "Apple"
     ]
   ],
   "rowClues": [
     2,
-    2,
     1,
+    2,
     2
   ],
   "colClues": [
-    2,
-    2,
     1,
-    2
+    1,
+    2,
+    3
   ],
-  "themeWord": "pêcheur",
+  "themeWord": "ordinateur",
   "solution": [
     [
       true,
       false,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true
     ],
     [
@@ -54,18 +66,6 @@
       true,
       false,
       true
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false
     ]
   ],
   "parMoves": 7

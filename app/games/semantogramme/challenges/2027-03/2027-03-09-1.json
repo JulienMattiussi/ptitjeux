@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "tripe",
-      "pluie",
-      "agrafe",
-      "rectangulaire"
+      "garde-robe",
+      "olympique",
+      "athlète",
+      "match"
     ],
     [
-      "chaussure",
-      "planche",
-      "hiver",
-      "rivet"
+      "médaille",
+      "lavis",
+      "isthme",
+      "champion"
     ],
     [
-      "marteau",
-      "écouter",
-      "enfoncer",
-      "tirer"
+      "arbitre",
+      "stade",
+      "compétition",
+      "pertinent"
     ],
     [
-      "vis",
-      "tête",
-      "enchantement",
-      "menuiserie"
+      "entraînement",
+      "napperon",
+      "équipe",
+      "ammonite"
     ]
   ],
   "rowClues": [
-    1,
+    3,
     2,
-    2,
-    3
-  ],
-  "colClues": [
-    2,
-    2,
-    2,
+    3,
     2
   ],
-  "themeWord": "clou",
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "sport",
   "solution": [
     [
       false,
-      false,
       true,
-      false
-    ],
-    [
-      false,
       true,
-      false,
       true
     ],
     [
       true,
       false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       false
     ],
     [
       true,
-      true,
       false,
-      true
+      true,
+      false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

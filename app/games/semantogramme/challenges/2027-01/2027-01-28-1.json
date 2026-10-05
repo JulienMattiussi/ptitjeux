@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "frayeur",
-      "chrysalide",
-      "effroi",
-      "angoisse"
+      "écumoire",
+      "fredonner",
+      "micro",
+      "Brassens"
     ],
     [
-      "cauchemar",
-      "fantôme",
-      "gourmand",
-      "compétent"
+      "Piaf",
+      "imprécis",
+      "Aznavour",
+      "Chartreuse"
     ],
     [
-      "virus",
-      "vampire",
-      "sang",
-      "comprendre"
+      "brise",
+      "Toulouse",
+      "mélodie",
+      "couplet"
     ],
     [
-      "plaisanterie",
-      "zombie",
-      "cri",
-      "loup-garou"
+      "refrain",
+      "tube",
+      "prétentieux",
+      "parole"
     ]
   ],
   "rowClues": [
@@ -37,14 +37,26 @@
   ],
   "colClues": [
     2,
+    2,
     3,
-    3,
-    2
+    3
   ],
-  "themeWord": "horreur",
+  "themeWord": "chanson",
   "solution": [
     [
+      false,
       true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true
@@ -53,18 +65,6 @@
       true,
       true,
       false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
       true
     ]
   ],

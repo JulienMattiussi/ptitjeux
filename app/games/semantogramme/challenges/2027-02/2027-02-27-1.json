@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "jasmin",
-      "robuste",
-      "rétroviseur",
-      "soigné"
+      "drap",
+      "mélancolie",
+      "matelas",
+      "Geisha"
     ],
     [
-      "résultat",
-      "essence",
-      "lavande",
-      "extrait"
+      "superposé",
+      "chambre",
+      "colossal",
+      "parvis"
     ],
     [
-      "flacon",
-      "arête",
-      "rose",
-      "vétiver"
+      "doublon",
+      "description",
+      "dormir",
+      "couette"
     ],
     [
-      "voilé",
-      "corbeille",
-      "musc",
-      "façonner"
+      "sommier",
+      "baldaquin",
+      "ancêtre",
+      "manufacture"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    3,
-    1
-  ],
-  "colClues": [
     2,
-    1,
-    3,
+    2,
+    2,
     2
   ],
-  "themeWord": "parfum",
+  "colClues": [
+    3,
+    2,
+    2,
+    1
+  ],
+  "themeWord": "lit",
   "solution": [
     [
       true,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
       false,
       false
     ],
     [
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       true,
       true
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       false
     ]
   ],

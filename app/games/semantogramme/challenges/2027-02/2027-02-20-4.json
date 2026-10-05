@@ -5,136 +5,118 @@
   "height": 7,
   "words": [
     [
-      "wallaby",
-      "charentais",
-      "mardi",
-      "éroder",
-      "noblesse",
-      "cardinal",
-      "pardonner"
+      "Varsovie",
+      "pétrole",
+      "route",
+      "feuille",
+      "Démosthène",
+      "chaume",
+      "contracter"
     ],
     [
-      "coeur",
-      "sismologue",
-      "basculer",
-      "cathédrale",
-      "instituteur",
-      "nouvelle",
-      "généreux"
+      "remuer",
+      "assesseur",
+      "menace",
+      "rose",
+      "mare",
+      "clonage",
+      "Banksy"
     ],
     [
-      "bonté",
-      "partition",
-      "banlieue",
-      "frisson",
-      "larguer",
-      "tolérant",
-      "enjoliveur"
+      "sang",
+      "Orangerie",
+      "nymphéa",
+      "fratrie",
+      "flottante",
+      "spiritueux",
+      "Monet"
     ],
     [
-      "icône",
-      "clémence",
-      "épargner",
-      "disque",
-      "lourde",
-      "caban",
-      "fonction"
+      "punk",
+      "Sully",
+      "carpe",
+      "bain",
+      "Victoria",
+      "course",
+      "pédales"
     ],
     [
-      "coutume",
-      "charitable",
-      "grand",
-      "indulgence",
-      "rocheux",
-      "oublier",
-      "sincère"
+      "aquatique",
+      "Lancelot",
+      "sente",
+      "freux",
+      "perforant",
+      "magique",
+      "haut-fourneau"
     ],
     [
-      "bienveillant",
-      "écluse",
-      "absoudre",
-      "bannière",
-      "âme",
-      "saule",
-      "ruban"
+      "blanc",
+      "Coppens",
+      "grenouille",
+      "étang",
+      "électron",
+      "fleur",
+      "malade"
     ],
     [
-      "farouche",
-      "palper",
-      "royal",
-      "gracier",
-      "mental",
-      "idolâtrer",
-      "écourter"
+      "charabia",
+      "Calypso",
+      "cachette",
+      "prétexte",
+      "lac",
+      "lotus",
+      "température"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
+    1,
     2,
     4,
-    3,
+    2,
+    1,
+    4,
     2
   ],
   "colClues": [
-    3,
     2,
+    1,
+    3,
+    3,
     4,
     2,
-    2,
-    2,
-    2
+    1
   ],
-  "themeWord": "magnanime",
+  "themeWord": "nénuphar",
   "solution": [
     [
       false,
       false,
       false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
       false,
       true,
       false,
       true
     ],
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
       false,
       true,
       false,
@@ -143,14 +125,32 @@
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
       false,
       true,
       true,
       false,
+      true,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      false,
+      true,
+      true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

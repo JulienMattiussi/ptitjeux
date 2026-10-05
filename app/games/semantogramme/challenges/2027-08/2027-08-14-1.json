@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "tempête",
+      "baby-boom",
+      "dégâts",
+      "glace"
+    ],
+    [
+      "cumulonimbus",
+      "caramélisé",
+      "grésil",
+      "averse"
+    ],
+    [
+      "carrosserie",
+      "récolte",
+      "orage",
+      "Google"
+    ],
+    [
+      "pudique",
+      "Michel",
+      "enduit",
+      "nuage"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    3,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
+    3,
+    3
+  ],
+  "themeWord": "grêle",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

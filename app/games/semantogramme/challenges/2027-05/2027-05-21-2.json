@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "cicatrice",
-      "épidermique",
-      "estivale",
-      "desquamation",
-      "chiffon"
+      "pacifisme",
+      "lion",
+      "endive",
+      "pharaon",
+      "Thèbes"
     ],
     [
-      "houblon",
-      "poing",
-      "piqûre",
-      "tatouage",
-      "quatre-quarts"
+      "désert",
+      "marginaliser",
+      "pyramide",
+      "organisme",
+      "hallebardes"
     ],
     [
-      "verrue",
-      "ponctuel",
-      "grain",
-      "mue",
-      "éplucher"
+      "Égypte",
+      "enchâsser",
+      "glabre",
+      "félin",
+      "statue"
     ],
     [
-      "pore",
-      "gratter",
-      "cutané",
-      "printemps",
-      "derme"
+      "saucisse",
+      "six",
+      "efficace",
+      "énigme",
+      "gardien"
     ],
     [
-      "idée",
-      "bronzer",
-      "bouton",
-      "reptile",
-      "rougeur"
+      "effilée",
+      "ongulé",
+      "Khéphren",
+      "papillon",
+      "bande"
     ]
   ],
   "rowClues": [
     3,
     2,
     3,
-    4,
-    3
+    2,
+    2
   ],
   "colClues": [
-    3,
-    3,
-    4,
     2,
+    1,
+    2,
+    4,
     3
   ],
-  "themeWord": "peau",
+  "themeWord": "sphinx",
   "solution": [
     [
-      true,
+      false,
       true,
       false,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       false
     ],
     [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       false,
       false,
       true,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

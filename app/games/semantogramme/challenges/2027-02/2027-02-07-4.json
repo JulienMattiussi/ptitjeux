@@ -5,113 +5,104 @@
   "height": 7,
   "words": [
     [
-      "volute",
-      "ulcère",
-      "creuset",
-      "légitime",
-      "renoir",
-      "mat",
-      "sape"
+      "condiment",
+      "Racine",
+      "solennel",
+      "karma",
+      "comédien",
+      "fraude",
+      "emphase"
     ],
     [
-      "klimt",
-      "belle-époque",
-      "fulgurer",
-      "serrure",
-      "fin-de-siècle",
-      "décrocher",
-      "élégant"
+      "Krokmou",
+      "voix",
+      "glander",
+      "Pictionary",
+      "scène",
+      "malheur",
+      "SNCF"
     ],
     [
-      "organique",
-      "rugir",
-      "épargne",
-      "philosophique",
-      "roller",
-      "chien",
-      "préciser"
+      "trident",
+      "front",
+      "présentateur",
+      "accéléromètre",
+      "Schopenhauer",
+      "patate",
+      "orateur"
     ],
     [
-      "inutilisé",
-      "python",
-      "marchandise",
-      "tortueuse",
-      "parisien",
-      "gaudí",
-      "arabesque"
+      "théâtre",
+      "tirade",
+      "poème",
+      "tactile",
+      "enclos",
+      "tragédie",
+      "aérien"
     ],
     [
-      "vasarely",
-      "conduire",
-      "cousin",
-      "cap",
-      "agrandir",
-      "décoration",
-      "don"
+      "Rackham",
+      "vers",
+      "ornement",
+      "termite",
+      "timide",
+      "échine",
+      "proclamer"
     ],
     [
-      "guimard",
-      "orné",
-      "végétal",
-      "fer",
-      "masque",
-      "sinueux",
-      "mélancolie"
+      "diction",
+      "réciter",
+      "Eldorado",
+      "crudité",
+      "accoudé",
+      "Cyrano",
+      "lointain"
     ],
     [
-      "alcool",
-      "husserl",
-      "aile",
-      "jeûner",
-      "mucha",
-      "pâtissier",
-      "éclair"
+      "attraper",
+      "Ratatouille",
+      "diriger",
+      "Corneille",
+      "salamandre",
+      "prologue",
+      "aphélie"
     ]
   ],
   "rowClues": [
-    1,
-    4,
-    1,
-    3,
-    1,
-    5,
-    1
-  ],
-  "colClues": [
     4,
     2,
     1,
-    1,
+    4,
+    2,
     3,
-    3,
-    2
+    1
   ],
-  "themeWord": "art-nouveau",
+  "colClues": [
+    2,
+    5,
+    2,
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "déclamer",
   "solution": [
     [
-      true,
       false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      false,
       false,
       true,
       false,
       true
     ],
     [
+      false,
       true,
       false,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ],
@@ -120,13 +111,31 @@
       false,
       false,
       false,
-      true,
-      true,
+      false,
+      false,
       true
     ],
     [
+      true,
+      true,
+      true,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       false,
       false,
@@ -134,23 +143,14 @@
       false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       false,
       true,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

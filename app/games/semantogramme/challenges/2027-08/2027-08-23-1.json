@@ -1,0 +1,72 @@
+{
+  "id": "2027-08-23-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "argent",
+      "Antilles",
+      "doublage",
+      "médaillon"
+    ],
+    [
+      "bourg",
+      "interro",
+      "pendentif",
+      "filtrer"
+    ],
+    [
+      "Conques",
+      "perle",
+      "or",
+      "bijou"
+    ],
+    [
+      "chaîne",
+      "cou",
+      "laisse",
+      "mesure"
+    ]
+  ],
+  "rowClues": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "collier",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 9
+}

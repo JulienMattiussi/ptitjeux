@@ -5,75 +5,91 @@
   "height": 6,
   "words": [
     [
-      "ruisseler",
-      "se réjouir",
-      "punching-ball",
-      "découverte",
-      "félon",
-      "pédicure"
+      "donneur",
+      "rejet",
+      "écusson",
+      "organe",
+      "morose",
+      "chirurgie"
     ],
     [
-      "époque",
-      "podium",
-      "sanglier",
-      "tenue",
-      "solo",
-      "gaz"
+      "macaron",
+      "bouture",
+      "Buffalo-Bill",
+      "atterrissage",
+      "deuil",
+      "comblé"
     ],
     [
-      "adorer",
-      "mobile",
-      "coussin",
-      "huile",
-      "frisson",
-      "continu"
+      "punk",
+      "cornée",
+      "Arago",
+      "pompe",
+      "savoir",
+      "tulle"
     ],
     [
-      "drapeau",
-      "courant",
-      "précieux",
-      "puce",
-      "mouvement",
-      "vapeur"
+      "populaire",
+      "râpée",
+      "colvert",
+      "hermétique",
+      "coeur",
+      "implanter"
     ],
     [
-      "rustine",
-      "pétrole",
-      "gêné",
-      "applaudissement",
-      "flot",
-      "fluer"
+      "Switch",
+      "bloc",
+      "prothèse",
+      "hôpital",
+      "anesthésie",
+      "arbre"
     ],
     [
-      "ébahissement",
-      "maille",
-      "vaporeux",
-      "flux",
-      "circuler",
-      "glacée"
+      "receveur",
+      "verbiage",
+      "compatibilité",
+      "détrempé",
+      "rugissement",
+      "moelle"
     ]
   ],
   "rowClues": [
+    5,
     1,
     1,
-    3,
-    3,
-    3,
+    2,
+    5,
     3
   ],
   "colClues": [
-    1,
-    3,
-    1,
     2,
+    4,
     3,
+    2,
+    2,
     4
   ],
-  "themeWord": "fluide",
+  "themeWord": "greffer",
   "solution": [
     [
       true,
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false,
@@ -84,41 +100,25 @@
       false,
       false,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
       true,
       true
     ],
     [
       false,
       true,
-      false,
-      false,
+      true,
+      true,
       true,
       true
     ],
     [
+      true,
+      false,
+      true,
       false,
       false,
-      true,
-      true,
-      true,
-      false
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

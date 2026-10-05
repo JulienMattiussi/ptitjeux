@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-06-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "montre",
+      "fuite",
+      "coussin",
+      "moelleux",
+      "cumin"
+    ],
+    [
+      "bouillant",
+      "pâte",
+      "souple",
+      "édredon",
+      "Thémis"
+    ],
+    [
+      "spongieux",
+      "Tirésias",
+      "harceleur",
+      "Haïti",
+      "avachi"
+    ],
+    [
+      "détroit",
+      "yeux",
+      "gélatine",
+      "concorde",
+      "apathique"
+    ],
+    [
+      "heureux",
+      "guimauve",
+      "flan",
+      "Dalí",
+      "flasque"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    3,
+    3
+  ],
+  "themeWord": "mou",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 14
+}

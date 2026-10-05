@@ -5,107 +5,75 @@
   "height": 6,
   "words": [
     [
-      "inonder",
-      "lagune",
-      "élégant",
-      "sifflet",
-      "tropical",
-      "aile"
+      "incruster",
+      "soupe",
+      "modeler",
+      "papeterie",
+      "lâcher",
+      "tranquillité"
     ],
     [
-      "oiseau",
-      "cou",
-      "patte",
-      "ressac",
-      "octave",
-      "colonie"
+      "Nobel",
+      "sauvage",
+      "gruau",
+      "chinois",
+      "insulaire",
+      "Chardin"
     ],
     [
-      "voler",
-      "sql",
-      "rose",
-      "pastille",
-      "paysage",
-      "marcher"
+      "air",
+      "ramen",
+      "anémomètre",
+      "céréales",
+      "Garnier",
+      "Quimper"
     ],
     [
-      "mellitus",
-      "crevette",
-      "week-end",
-      "salsa",
-      "filet",
-      "main-tendue"
+      "paillette",
+      "autocrate",
+      "faire-part",
+      "petit-déjeuner",
+      "miso",
+      "chantant"
     ],
     [
-      "bec",
-      "antenne",
-      "sportive",
-      "naturel",
-      "règlement",
-      "fresque"
+      "tibétain",
+      "ancêtres",
+      "receveur",
+      "porridge",
+      "contentement",
+      "proscrire"
     ],
     [
-      "intrépide",
-      "chant",
-      "menton",
-      "plumage",
-      "pêcher",
-      "grand"
+      "nouilles",
+      "veine",
+      "cidre",
+      "chance",
+      "fatuité",
+      "pho"
     ]
   ],
   "rowClues": [
-    4,
+    1,
+    2,
     4,
     3,
-    1,
-    1,
-    3
+    2,
+    5
   ],
   "colClues": [
     3,
     3,
-    3,
-    1,
     2,
-    4
+    5,
+    1,
+    3
   ],
-  "themeWord": "flamant",
+  "themeWord": "bol",
   "solution": [
     [
       false,
       true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       false,
       false,
@@ -114,11 +82,43 @@
     [
       false,
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
       false,
       true,
       true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
       true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 17
 }

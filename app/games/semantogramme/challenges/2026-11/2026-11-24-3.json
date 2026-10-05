@@ -5,107 +5,75 @@
   "height": 6,
   "words": [
     [
-      "turquoise",
-      "irlande",
-      "jouer",
-      "hideux",
-      "pincer",
-      "fine"
+      "pastoral",
+      "souffle",
+      "son",
+      "doucement",
+      "Prokofiev",
+      "concerto"
     ],
     [
-      "ourson",
-      "caisse",
-      "glaçure",
-      "corde",
-      "instrument",
-      "hachoir"
+      "partition",
+      "éditeur",
+      "redondant",
+      "doigté",
+      "mug",
+      "Bosphore"
     ],
     [
-      "pure",
-      "ange",
-      "gratter",
-      "mélodieuse",
-      "douce",
-      "barre"
+      "Aznavour",
+      "musette",
+      "symphonie",
+      "clarinette",
+      "Freddy",
+      "mélodie"
     ],
     [
-      "embrasser",
-      "sacrée",
-      "tricot",
-      "cattleya",
-      "sévère",
-      "haricot"
+      "trouillard",
+      "basson",
+      "Rafiki",
+      "escamoter",
+      "Roi-Lion",
+      "Athènes"
     ],
     [
-      "celtique",
-      "crasse",
-      "pédale",
-      "projeter",
-      "royal",
-      "orchestre"
+      "schiste",
+      "Babylone",
+      "bois",
+      "acrobate",
+      "amphithéâtre",
+      "nasillard"
     ],
     [
-      "antique",
-      "platine",
-      "gazouiller",
-      "céleste",
-      "aimer",
-      "norvège"
+      "frissonner",
+      "Mozart",
+      "Haendel",
+      "boulevard",
+      "parasite",
+      "forcer"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     5,
-    1,
+    2,
     4,
+    1,
+    2,
     2
   ],
   "colClues": [
-    3,
+    2,
     4,
-    3,
-    3,
     4,
-    1
+    2,
+    1,
+    3
   ],
-  "themeWord": "harpe",
+  "themeWord": "hautbois",
   "solution": [
     [
-      false,
       true,
       true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       true,
       false,
       true,
@@ -118,7 +86,39 @@
       true,
       false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 16
 }

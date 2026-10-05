@@ -5,107 +5,99 @@
   "height": 6,
   "words": [
     [
-      "chapiteau",
-      "massif",
-      "grimper",
-      "constellation",
-      "crotte",
-      "intelligent"
+      "Ornans",
+      "biberon",
+      "Limbourg",
+      "revenant",
+      "tordre",
+      "comète"
     ],
     [
-      "troupe",
-      "flotter",
-      "fort",
-      "social",
-      "jungle",
-      "imposant"
+      "entremets",
+      "pavaner",
+      "honneur",
+      "gris",
+      "prétentieux",
+      "ménagère"
     ],
     [
-      "cordée",
-      "innocence",
-      "congo",
-      "rugir",
-      "lapone",
-      "afrique"
+      "graphique",
+      "couvert",
+      "fameux",
+      "déferlante",
+      "tonnelle",
+      "sorbet"
     ],
     [
-      "humecter",
-      "malhonnêteté",
-      "fanal",
-      "frapper",
-      "décocher",
-      "jugement"
+      "café",
+      "compote",
+      "soupe",
+      "étain",
+      "cirrus",
+      "songeur"
     ],
     [
-      "grand",
-      "serre",
-      "imiter",
-      "mâle",
-      "sacrifier",
-      "rouiller"
+      "impossible",
+      "bouillie",
+      "pupitre",
+      "pastis",
+      "gobelet",
+      "chalutier"
     ],
     [
-      "amitié",
-      "mensonge",
-      "puissant",
-      "singe",
-      "abeille",
-      "noir"
+      "purée",
+      "servir",
+      "dosage",
+      "Daumier",
+      "argenterie",
+      "porcelaine"
     ]
   ],
   "rowClues": [
+    2,
+    2,
+    2,
+    4,
+    2,
+    5
+  ],
+  "colClues": [
     3,
     5,
-    3,
+    2,
     1,
     3,
     3
   ],
-  "colClues": [
-    2,
-    1,
-    5,
-    5,
-    1,
-    4
-  ],
-  "themeWord": "gorille",
+  "themeWord": "cuillère",
   "solution": [
     [
       false,
       true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      true,
-      true
-    ],
-    [
       false,
       false,
       true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
       false
     ],
     [
       true,
       false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
       true,
       true,
       false,
@@ -113,12 +105,20 @@
     ],
     [
       false,
-      false,
-      true,
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

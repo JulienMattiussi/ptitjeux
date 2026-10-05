@@ -5,28 +5,28 @@
   "height": 4,
   "words": [
     [
-      "duffel-coat",
-      "crin",
-      "colophane",
-      "sonate"
+      "aloès",
+      "plante",
+      "Arizona",
+      "art"
     ],
     [
-      "masquer",
-      "corde",
-      "orchestre",
-      "partition"
+      "western",
+      "Durandal",
+      "piquant",
+      "aride"
     ],
     [
-      "concerto",
-      "dresser",
-      "préparer",
-      "soliste"
+      "Mexique",
+      "pot",
+      "paon",
+      "subtil"
     ],
     [
-      "pupitre",
-      "imagination",
-      "manche",
-      "récréation"
+      "goinfre",
+      "épine",
+      "succulente",
+      "soprano"
     ]
   ],
   "rowClues": [
@@ -36,34 +36,34 @@
     2
   ],
   "colClues": [
-    2,
-    2,
     3,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "violon",
+  "themeWord": "cactus",
   "solution": [
     [
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
       true,
-      true,
-      true
+      false
     ],
     [
       true,
       false,
-      false,
+      true,
       true
     ],
     [
       true,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false
     ]

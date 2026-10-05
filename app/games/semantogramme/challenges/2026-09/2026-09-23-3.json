@@ -5,110 +5,110 @@
   "height": 6,
   "words": [
     [
-      "assemblée",
-      "évier",
-      "mariner",
-      "fusil",
-      "circuler",
-      "aisselle"
+      "cerceau",
+      "conduire",
+      "gitane",
+      "candélabre",
+      "sonnaille",
+      "percussion"
     ],
     [
-      "décider",
-      "gérer",
-      "volant",
-      "inspirer",
-      "hémisphère",
-      "semis"
+      "Esmeralda",
+      "orthodontie",
+      "cliquetis",
+      "fifre",
+      "Provence",
+      "ménestrel"
     ],
     [
-      "animer",
-      "éveiller",
-      "auto-école",
-      "inverser",
-      "agir",
-      "chauffeur"
+      "hollandaise",
+      "flamenco",
+      "Carmen",
+      "maigre",
+      "troupes",
+      "échec"
     ],
     [
-      "évolution",
-      "intensif",
-      "cavaler",
-      "feu",
-      "piloter",
-      "autoroute"
+      "tendresse",
+      "saltimbanque",
+      "redoublant",
+      "bohémien",
+      "crasse",
+      "galère"
     ],
     [
-      "guider",
-      "permis",
-      "rapacité",
-      "diriger",
-      "voyage",
-      "banquise"
+      "troubadour",
+      "galoubet",
+      "grelot",
+      "Madeleine",
+      "glaçon",
+      "Polichinelle"
     ],
     [
-      "tourisme",
-      "nager",
-      "réjouir",
-      "transport",
-      "mener",
-      "abricot"
+      "décollage",
+      "remontée",
+      "manchot",
+      "farandole",
+      "rangée",
+      "olivier"
     ]
   ],
   "rowClues": [
-    1,
+    4,
+    5,
+    2,
     2,
     3,
-    2,
-    4,
-    2
+    1
   ],
   "colClues": [
-    2,
-    2,
-    2,
-    2,
+    3,
+    3,
     4,
+    3,
+    2,
     2
   ],
-  "themeWord": "conduire",
+  "themeWord": "tambourin",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       true
     ],
     [
       true,
-      true,
       false,
       true,
       true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -116,9 +116,9 @@
       false,
       false,
       true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 17
 }

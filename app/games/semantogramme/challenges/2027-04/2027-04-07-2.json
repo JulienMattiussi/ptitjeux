@@ -5,60 +5,74 @@
   "height": 5,
   "words": [
     [
-      "delta",
-      "ossuaire",
-      "soda",
-      "squelette",
-      "trône"
+      "Kingston",
+      "genou",
+      "plâtre",
+      "glucose",
+      "patte"
     ],
     [
-      "fracturer",
-      "rendement",
-      "côte",
-      "osseux",
+      "cuisse",
+      "béquille",
+      "équilibriste",
+      "pinceaux",
+      "marcher"
+    ],
+    [
+      "santé",
+      "mollet",
+      "boxe",
+      "courir",
+      "établi"
+    ],
+    [
+      "pied",
+      "Garcimore",
+      "nasal",
+      "commémorer",
       "tibia"
     ],
     [
-      "mâchoire",
-      "sénat",
-      "intelligence",
-      "vertèbre",
-      "télévision"
-    ],
-    [
-      "rotule",
-      "occiput",
-      "fémur",
-      "couture",
-      "cartilage"
-    ],
-    [
-      "rose",
-      "rocaille",
-      "moelle",
-      "rigoler",
-      "analytique"
+      "Béjart",
+      "boulanger",
+      "bas",
+      "cheville",
+      "luxuriant"
     ]
   ],
   "rowClues": [
+    3,
+    3,
     2,
-    4,
     2,
-    3,
-    1
-  ],
-  "colClues": [
-    3,
-    1,
-    3,
-    3,
     2
   ],
-  "themeWord": "os",
+  "colClues": [
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "jambe",
   "solution": [
     [
       false,
       true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       true,
       false
@@ -66,21 +80,7 @@
     [
       true,
       false,
-      true,
-      true,
-      true
-    ],
-    [
-      true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       true
     ],
@@ -88,7 +88,7 @@
       false,
       false,
       true,
-      false,
+      true,
       false
     ]
   ],

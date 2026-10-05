@@ -5,93 +5,129 @@
   "height": 7,
   "words": [
     [
-      "mystique",
-      "cirer",
-      "française",
-      "sépia",
-      "bave",
-      "tapette",
-      "sac"
+      "adversité",
+      "arbre",
+      "coeur",
+      "noir",
+      "orange",
+      "saphir",
+      "outremer"
     ],
     [
-      "profond",
-      "dépasser",
-      "sublime",
-      "responsable",
-      "sensible",
-      "divin",
-      "inouï"
+      "kilomètre",
+      "mousseline",
+      "bocaux",
+      "spécialiste",
+      "perforateur",
+      "liane",
+      "mystification"
     ],
     [
-      "sel",
-      "éprouver",
-      "malware",
-      "mélodieux",
-      "paganini",
-      "amandée",
-      "svelte"
-    ],
-    [
-      "pizza",
-      "grimpeur",
-      "beauté",
-      "spirituel",
-      "merveille",
-      "palme",
-      "grue"
-    ],
-    [
-      "assouplir",
-      "austère",
-      "décrire",
-      "fût",
-      "remise",
-      "panache",
-      "chevalet"
-    ],
-    [
-      "incroyable",
-      "exprimer",
-      "extase",
-      "félin",
-      "vigne",
-      "lard",
-      "éléphant"
-    ],
-    [
+      "Brésil",
+      "comète",
+      "coloré",
+      "créer",
+      "Mendelssohn",
       "version",
+      "écholocation"
+    ],
+    [
+      "étirement",
+      "jaune",
+      "généreux",
+      "jungle",
+      "volet",
+      "chape",
+      "cartouche"
+    ],
+    [
+      "Pise",
+      "venin",
+      "fruits",
+      "logo",
       "indescriptible",
-      "croyance",
-      "harnais",
-      "singulier",
-      "bouledogue",
-      "serpent"
+      "séchée",
+      "herbacée"
+    ],
+    [
+      "canopée",
+      "pommé",
+      "plumage",
+      "adresse",
+      "cachette",
+      "forêt",
+      "bec"
+    ],
+    [
+      "oiseau",
+      "Amazonie",
+      "perroquet",
+      "enclos",
+      "souffler",
+      "altruiste",
+      "pare-brise"
     ]
   ],
   "rowClues": [
-    1,
-    5,
-    1,
     3,
     1,
     2,
-    2
+    2,
+    1,
+    4,
+    3
   ],
   "colClues": [
+    3,
+    3,
+    4,
     2,
-    4,
-    4,
     1,
     2,
-    1,
     1
   ],
-  "themeWord": "ineffable",
+  "themeWord": "toucan",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
     [
       true,
       false,
+      true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       false,
       false,
@@ -99,7 +135,7 @@
     ],
     [
       true,
-      true,
+      false,
       true,
       false,
       false,
@@ -107,50 +143,14 @@
       true
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       true,
       true,
       false,
-      false
-    ],
-    [
       false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 16
 }

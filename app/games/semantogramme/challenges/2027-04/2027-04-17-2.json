@@ -5,63 +5,84 @@
   "height": 5,
   "words": [
     [
-      "vol",
-      "chimère",
-      "frétillant",
-      "cadence",
-      "rassasier"
+      "amarrer",
+      "fermentation",
+      "embarcadère",
+      "ponton",
+      "assoupi"
     ],
     [
-      "ciel",
-      "capteur",
-      "parterre",
-      "caravane",
-      "envol"
+      "voie",
+      "manipulation",
+      "bateau",
+      "Orsay",
+      "train"
     ],
     [
-      "plume",
-      "altitude",
-      "piquer",
-      "dangereux",
-      "dégât"
+      "s'ennuyer",
+      "recourbé",
+      "gare",
+      "port",
+      "roulant"
     ],
     [
-      "aviateur",
-      "airelle",
-      "osseux",
-      "intuition",
-      "planer"
+      "bord",
+      "valise",
+      "profil",
+      "passager",
+      "Seine"
     ],
     [
-      "répétition",
-      "aile",
-      "atterrissage",
-      "voltiger",
-      "outil"
+      "docker",
+      "braguette",
+      "Flaubert",
+      "Vietnam",
+      "attente"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
+    4,
     2,
-    3
+    4,
+    2
   ],
   "colClues": [
     4,
-    2,
-    2,
     1,
-    2
+    3,
+    4,
+    3
   ],
-  "themeWord": "voler",
+  "themeWord": "quai",
   "solution": [
     [
       true,
       false,
-      false,
-      false,
+      true,
+      true,
       false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ],
     [
       true,
@@ -69,28 +90,7 @@
       false,
       false,
       true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 15
 }

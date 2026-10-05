@@ -5,130 +5,94 @@
   "height": 7,
   "words": [
     [
-      "chlorophylle",
-      "gaudí",
-      "rafistoler",
-      "composer",
-      "herbier",
-      "petite",
-      "cadrer"
+      "obèse",
+      "paysan",
+      "flotter",
+      "Limoges",
+      "arc-en-ciel",
+      "bibelot",
+      "oeufs"
     ],
     [
-      "libre",
-      "échine",
-      "onirique",
-      "bouteille",
-      "lyrique",
-      "fugue",
-      "laser"
+      "relèvement",
+      "nacre",
+      "cire",
+      "implacable",
+      "retomber",
+      "enjambée",
+      "combiné"
     ],
     [
-      "taie",
-      "romantique",
-      "couplet",
-      "expressif",
-      "créatif",
-      "festoyer",
-      "improviser"
+      "croque",
+      "bluffant",
+      "pavillon",
+      "douillet",
+      "lésion",
+      "attention",
+      "magnétisme"
     ],
     [
-      "colosse",
-      "frigorifique",
-      "nouvelle",
-      "spontané",
-      "stoïque",
-      "imagination",
-      "gestation"
+      "poule",
+      "crème",
+      "délicat",
+      "Botticelli",
+      "calotte",
+      "blancs",
+      "léger"
     ],
     [
-      "caprice",
-      "chopin",
-      "jouer",
-      "musique",
-      "affronter",
-      "attacher",
-      "fiction"
+      "gruyère",
+      "blason",
+      "locomotive",
+      "gastronomie",
+      "Richter",
+      "liège",
+      "liqueur"
     ],
     [
-      "colibri",
-      "développer",
-      "conseil",
-      "affection",
-      "tisser",
-      "schubert",
-      "jung"
+      "pronostic",
+      "soutenance",
+      "bas",
+      "chocolat",
+      "gonflé",
+      "apostropher",
+      "balisage"
     ],
     [
-      "originalité",
-      "basse",
-      "lubie",
-      "berlingot",
-      "rêve",
-      "coquillage",
-      "travail"
+      "ramequin",
+      "monter",
+      "scriptorium",
+      "routier",
+      "gants",
+      "sidéré",
+      "urticante"
     ]
   ],
   "rowClues": [
     1,
-    3,
-    4,
-    2,
-    5,
     1,
+    1,
+    4,
+    3,
+    2,
     3
   ],
   "colClues": [
-    3,
     2,
     3,
-    4,
-    3,
+    1,
     2,
-    2
+    2,
+    2,
+    3
   ],
-  "themeWord": "fantaisie",
+  "themeWord": "soufflé",
   "solution": [
     [
       false,
       false,
       false,
-      true,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      true,
       false,
       false,
       true
@@ -138,19 +102,55 @@
       false,
       false,
       false,
+      true,
+      false,
+      false
+    ],
+    [
       false,
       true,
+      false,
+      false,
+      false,
+      false,
       false
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
     ],
     [
       true,
       false,
-      true,
       false,
       true,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
       false
     ]
   ],
-  "parMoves": 19
+  "parMoves": 15
 }

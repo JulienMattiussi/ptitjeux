@@ -5,84 +5,108 @@
   "height": 6,
   "words": [
     [
-      "inhaler",
-      "religieux",
-      "inspirer",
-      "haleter",
-      "pomper",
-      "ambitionner"
+      "sociologie",
+      "pont-levis",
+      "cancan",
+      "Alcatraz",
+      "hémicycle",
+      "faîte"
     ],
     [
-      "sillonner",
-      "vert",
-      "cabré",
-      "poussière",
-      "voeu",
-      "révision"
+      "vol",
+      "brun",
+      "patins",
+      "pêche",
+      "bec",
+      "ascendance"
     ],
     [
-      "éternel",
-      "rêver",
-      "paille",
-      "ancien",
-      "absorber",
-      "gabriel"
+      "colonie",
+      "déglutition",
+      "gosier",
+      "Rialto",
+      "marin",
+      "badin"
     ],
     [
-      "jumeau",
-      "succion",
-      "gerbe",
-      "sucer",
-      "souffle",
-      "désirer"
+      "Nemo",
+      "contre",
+      "hilarité",
+      "plumage",
+      "fruitier",
+      "envergure"
     ],
     [
-      "tragédie",
-      "douche",
-      "libéral",
-      "vide",
-      "fresque",
-      "fils"
+      "poche",
+      "côte",
+      "bourdon",
+      "lagune",
+      "Californie",
+      "fureter"
     ],
     [
-      "véranda",
-      "plancher",
-      "débutant",
-      "humer",
-      "allongée",
-      "siphon"
+      "rythme",
+      "Afrique",
+      "planer",
+      "Tosh",
+      "Horowitz",
+      "Roscoff"
     ]
   ],
   "rowClues": [
-    4,
-    3,
-    3,
-    4,
     1,
+    4,
+    3,
+    3,
+    4,
     2
   ],
   "colClues": [
-    1,
-    2,
+    4,
     3,
+    2,
     4,
-    4,
-    3
+    3,
+    1
   ],
-  "themeWord": "aspirer",
+  "themeWord": "pélican",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
       true,
       false,
       true,
       false,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
       true
     ],
     [
-      false,
-      false,
       true,
+      true,
+      false,
       true,
       true,
       false
@@ -92,32 +116,8 @@
       true,
       true,
       false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
     ]
   ],
   "parMoves": 17

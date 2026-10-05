@@ -5,109 +5,91 @@
   "height": 7,
   "words": [
     [
-      "larme",
-      "célèbre",
-      "coton",
-      "emblème",
-      "oncle",
-      "lapis",
-      "astronomique"
+      "virer",
+      "inattentif",
+      "Dumas",
+      "galvaniser",
+      "parapher",
+      "néphrologue",
+      "orateur"
     ],
     [
-      "verticale",
-      "opposé",
-      "analogue",
-      "thermomètre",
-      "regarder",
-      "fronton",
-      "hériter"
+      "éloquence",
+      "rassemblement",
+      "bidonner",
+      "tirade",
+      "chèvre",
+      "pus",
+      "accompli"
     ],
     [
-      "aubergine",
-      "rapacité",
-      "ambitionner",
-      "soleil",
-      "citron",
-      "société",
-      "apogée"
+      "écailles",
+      "obèse",
+      "apostropher",
+      "ontologie",
+      "exhorter",
+      "sommet",
+      "dissiper"
     ],
     [
-      "fougue",
-      "paléontologie",
-      "lecteur",
-      "tennis",
-      "monter",
-      "consommé",
-      "siège"
+      "Bélier",
+      "Sparte",
+      "muqueuse",
+      "Montmorency",
+      "invectiver",
+      "emballage",
+      "mobiliser"
     ],
     [
-      "gants",
-      "ciel",
-      "point",
-      "audubon",
-      "chinois",
-      "littéraire",
-      "meurtre"
+      "correctif",
+      "général",
+      "ulcère",
+      "bourriche",
+      "étroite",
+      "foule",
+      "aborigène"
     ],
     [
-      "plus-haut",
-      "senteur",
-      "haut",
-      "culminer",
-      "maximal",
-      "midi",
-      "observateur"
+      "Jaurès",
+      "coati",
+      "pub",
+      "linceul",
+      "meeting",
+      "tribun",
+      "troupes"
     ],
     [
-      "fleuve",
-      "piaf",
-      "imprimerie",
-      "allergie",
-      "atteindre",
-      "caravage",
-      "solide"
+      "Démosthène",
+      "estrade",
+      "écho",
+      "concierge",
+      "motrice",
+      "Cicéron",
+      "discours"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
     2,
-    1,
     2,
-    6,
-    1
+    4,
+    4
   ],
   "colClues": [
-    2,
     3,
-    2,
-    2,
     3,
     1,
-    3
+    2,
+    3,
+    3,
+    4
   ],
-  "themeWord": "zénith",
+  "themeWord": "haranguer",
   "solution": [
     [
       false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
@@ -116,9 +98,18 @@
       true
     ],
     [
+      true,
+      true,
+      false,
+      true,
       false,
       false,
+      false
+    ],
+    [
       false,
+      false,
+      true,
       false,
       true,
       false,
@@ -126,31 +117,40 @@
     ],
     [
       false,
+      false,
+      false,
+      false,
       true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       false,
       false,
       false,
+      true,
       false
     ],
     [
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       true,
       true,
       true
     ],
     [
-      false,
+      true,
+      true,
       false,
       false,
       false,
       true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

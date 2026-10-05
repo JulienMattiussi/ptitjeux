@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "écho",
-      "candeur",
-      "mystérieuse",
-      "travail",
-      "cruauté"
+      "abattu",
+      "serpillière",
+      "récent",
+      "Baïkal",
+      "désinfecter"
     ],
     [
-      "obscure",
-      "mercure",
-      "stalagmite",
-      "ours",
-      "cacher"
+      "détergent",
+      "palais",
+      "Zola",
+      "frotter",
+      "conducteur"
     ],
     [
-      "corsaire",
-      "glousser",
-      "habiter",
-      "trésor",
-      "profonde"
+      "laver",
+      "aspirateur",
+      "récurer",
+      "chiffon",
+      "tambourin"
     ],
     [
-      "occiput",
-      "grotte",
-      "peuple",
-      "rocheuse",
-      "humide"
+      "occident",
+      "astiquer",
+      "propre",
+      "fantaisie",
+      "accompli"
     ],
     [
-      "sombre",
-      "explorer",
-      "pêche",
-      "sel",
-      "pirate"
+      "poussière",
+      "ménage",
+      "éponge",
+      "Humanité",
+      "savon"
     ]
   ],
   "rowClues": [
     2,
+    2,
     4,
-    3,
-    3,
-    3
+    2,
+    4
   ],
   "colClues": [
     3,
+    4,
+    3,
     2,
-    3,
-    3,
-    4
+    2
   ],
-  "themeWord": "caverne",
+  "themeWord": "nettoyer",
   "solution": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
     [
       true,
       false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       false,
       false
     ],
     [
       true,
-      false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

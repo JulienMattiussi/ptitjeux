@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "eau",
-      "lait",
-      "crépi",
-      "café"
+      "naufragé",
+      "désuet",
+      "Corse",
+      "atoll"
     ],
     [
-      "ciboulette",
-      "opinion",
-      "se régaler",
-      "jus"
+      "Mercure",
+      "insulaire",
+      "sonneur",
+      "ferry"
     ],
     [
-      "tisane",
-      "cidre",
-      "sirop",
-      "caniveau"
+      "lagon",
+      "cerise",
+      "Robinson",
+      "yéti"
     ],
     [
-      "tirer",
-      "cobalt",
-      "enduire",
-      "limonade"
+      "rivage",
+      "archipel",
+      "musette",
+      "Tahiti"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    3,
-    1
-  ],
-  "colClues": [
     2,
     2,
-    1,
     3
   ],
-  "themeWord": "boisson",
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "île",
   "solution": [
     [
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
       true
     ],
     [
-      false,
-      false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
+      false,
       true,
       false
     ],
     [
-      false,
-      false,
+      true,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

@@ -5,123 +5,96 @@
   "height": 7,
   "words": [
     [
-      "internet",
-      "digital",
-      "champignon",
-      "flore",
-      "touche",
-      "effort",
-      "décrépir"
+      "Hypnos",
+      "contravention",
+      "opium",
+      "rouge",
+      "chef-d'oeuvre",
+      "fourmi",
+      "laiteux"
     ],
     [
-      "gris",
-      "satin",
-      "roquette",
-      "pierre",
-      "forêt",
-      "orangé",
-      "patineur"
+      "Afghanistan",
+      "pigeon",
+      "Gryffondor",
+      "premier",
+      "développé",
+      "archéologue",
+      "miauler"
     ],
     [
-      "algue",
-      "échouer",
-      "coureur",
-      "voguer",
-      "analogique",
-      "coloniser",
-      "régate"
+      "critique",
+      "héroïne",
+      "cahier",
+      "escargot",
+      "artiste",
+      "Himalaya",
+      "talon"
     ],
     [
-      "symbiose",
-      "vert",
-      "épine",
-      "tronc",
-      "concombre",
-      "arbre",
-      "extrême"
+      "pâtisserie",
+      "morphine",
+      "ruisseler",
+      "langueur",
+      "amas",
+      "glabre",
+      "graines"
     ],
     [
-      "humidité",
-      "détrempé",
-      "céphalopode",
-      "oiseau",
-      "pâques",
-      "pénétrant",
-      "loup"
+      "Apple",
+      "bleu",
+      "Morisot",
+      "Lyre",
+      "coquelicot",
+      "galet",
+      "introuvable"
     ],
     [
-      "balzac",
-      "ennemi",
-      "décoche",
-      "biodiversité",
-      "fibreuse",
-      "jaune",
-      "allongé"
+      "drogue",
+      "Mead",
+      "Walkyrie",
+      "lave-linge",
+      "ogre",
+      "fleur",
+      "capsule"
     ],
     [
-      "durer",
-      "analytique",
-      "procureur",
-      "brasser",
-      "pousser",
-      "gratification",
-      "phare"
+      "Orient",
+      "sommeil",
+      "pensée",
+      "pétales",
+      "supprimer",
+      "opaque",
+      "codéine"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    5,
-    1,
-    1,
-    1
-  ],
-  "colClues": [
     4,
     1,
-    1,
+    2,
     3,
     2,
     3,
-    1
+    4
   ],
-  "themeWord": "lichen",
+  "colClues": [
+    5,
+    4,
+    1,
+    2,
+    1,
+    2,
+    4
+  ],
+  "themeWord": "pavot",
   "solution": [
     [
-      false,
-      false,
       true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
       false,
       true,
       true,
       false,
-      false
-    ],
-    [
-      true,
       false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      true,
-      false,
-      true,
       true
     ],
     [
@@ -135,7 +108,7 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       false,
       false,
@@ -143,14 +116,41 @@
       false
     ],
     [
+      true,
+      true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
       false,
       false,
       true,
       false,
       false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

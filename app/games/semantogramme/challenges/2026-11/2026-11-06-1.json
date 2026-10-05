@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "cheminée",
-      "brasier",
-      "tapis",
-      "instruire"
+      "axel",
+      "Rio",
+      "contemporain",
+      "huitième"
     ],
     [
-      "télévision",
-      "veilleuse",
-      "trône",
-      "rideau"
+      "Venise",
+      "Nice",
+      "Dunkerque",
+      "lierre"
     ],
     [
-      "chrysalide",
-      "tableau",
-      "fauteuil",
-      "canapé"
+      "char",
+      "cotillons",
+      "masque",
+      "samba"
     ],
     [
-      "console",
-      "monument",
-      "pore",
-      "caillouteux"
+      "ethnie",
+      "confettis",
+      "féculent",
+      "déguisement"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
     3,
-    1
+    3,
+    2
   ],
   "colClues": [
+    2,
     3,
-    1,
     2,
     2
   ],
-  "themeWord": "salon",
+  "themeWord": "carnaval",
   "solution": [
     [
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      true,
       true,
       false
     ],
     [
       true,
       false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
       true,
       true
     ],
     [
+      false,
       true,
       false,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

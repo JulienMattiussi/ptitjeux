@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-08-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "lunette",
+      "servir",
+      "nattes",
+      "va-et-vient",
+      "Candide",
+      "tireur"
+    ],
+    [
+      "sèche-linge",
+      "ring",
+      "pales",
+      "fusil",
+      "mire",
+      "cible"
+    ],
+    [
+      "devoir",
+      "Adonis",
+      "cardinal",
+      "après-midi",
+      "ajuster",
+      "pointer"
+    ],
+    [
+      "objectif",
+      "aspirer",
+      "galette",
+      "bizarre",
+      "composition",
+      "sauna"
+    ],
+    [
+      "prétendre",
+      "précision",
+      "tir",
+      "flèche",
+      "saturé",
+      "Lucy"
+    ],
+    [
+      "Concarneau",
+      "bille",
+      "arc",
+      "carabine",
+      "spécieux",
+      "frite"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    2,
+    4,
+    3
+  ],
+  "colClues": [
+    3,
+    3,
+    2,
+    3,
+    2,
+    3
+  ],
+  "themeWord": "viser",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

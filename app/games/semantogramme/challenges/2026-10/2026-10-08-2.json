@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "mousseron",
-      "but",
-      "fatigant",
-      "palet",
-      "olympique"
+      "ludique",
+      "tricher",
+      "belote",
+      "carbonifère",
+      "partie"
     ],
     [
-      "tirer",
-      "immortaliser",
-      "patins",
-      "défendre",
-      "puccini"
+      "cache-cache",
+      "osselets",
+      "Patagonie",
+      "Dowland",
+      "amusement"
     ],
     [
-      "abeille",
-      "équipe",
-      "glacial",
-      "mocassin",
-      "croissant"
+      "rôle",
+      "dé",
+      "marelle",
+      "froideur",
+      "serviette"
     ],
     [
-      "signal",
-      "multiple",
-      "tram",
-      "casque",
-      "piste"
+      "brindille",
+      "Andersen",
+      "Monopoly",
+      "poker",
+      "Chauvet"
     ],
     [
-      "gardien",
-      "canadien",
-      "collectif",
-      "labyrinthe",
-      "crosse"
+      "monogramme",
+      "congelé",
+      "fraîcheur",
+      "pion",
+      "s'ennuyer"
     ]
   ],
   "rowClues": [
+    4,
     3,
     3,
     2,
-    2,
-    4
+    1
   ],
   "colClues": [
+    3,
+    3,
+    3,
     2,
-    3,
-    3,
-    3,
-    3
+    2
   ],
-  "themeWord": "hockey",
+  "themeWord": "jouer",
   "solution": [
     [
-      false,
+      true,
+      true,
       true,
       false,
-      true,
       true
     ],
     [
       true,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -72,25 +86,11 @@
     ],
     [
       false,
-      true,
-      true,
       false,
+      false,
+      true,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 13
 }

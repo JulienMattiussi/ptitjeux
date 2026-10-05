@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-15-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "Descartes",
+      "haricot",
+      "méthode",
+      "retraite",
+      "sérénité",
+      "Camus"
+    ],
+    [
+      "calme",
+      "conduit",
+      "respiration",
+      "détergent",
+      "au-delà",
+      "mille-pattes"
+    ],
+    [
+      "couver",
+      "fanon",
+      "nautile",
+      "brigade",
+      "contempler",
+      "yoga"
+    ],
+    [
+      "mantra",
+      "réfléchir",
+      "concentration",
+      "tempo",
+      "lotus",
+      "songer"
+    ],
+    [
+      "Giotto",
+      "ruminer",
+      "émissaire",
+      "tubercule",
+      "moine",
+      "bouddhisme"
+    ],
+    [
+      "philosopher",
+      "souverain",
+      "planning",
+      "Peugeot",
+      "illégal",
+      "direct"
+    ]
+  ],
+  "rowClues": [
+    3,
+    2,
+    2,
+    5,
+    3,
+    1
+  ],
+  "colClues": [
+    4,
+    2,
+    2,
+    1,
+    4,
+    3
+  ],
+  "themeWord": "méditer",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

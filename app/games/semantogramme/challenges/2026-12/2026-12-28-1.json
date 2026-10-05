@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "dame",
-      "domino",
-      "souiller",
-      "radis"
+      "apiculteur",
+      "essaim",
+      "moule",
+      "pizza"
     ],
     [
-      "échec",
-      "annoncer",
-      "puzzle",
-      "concevoir"
+      "inspirer",
+      "dard",
+      "pollen",
+      "Boccherini"
     ],
     [
-      "pion",
-      "vaillant",
-      "lait",
-      "belote"
+      "Maya",
+      "Prague",
+      "essoufflé",
+      "miel"
     ],
     [
-      "insulte",
-      "guépard",
-      "fournil",
-      "poker"
+      "indigo",
+      "butiner",
+      "altruiste",
+      "ruche"
     ]
   ],
   "rowClues": [
     2,
     2,
     2,
-    1
+    2
   ],
   "colClues": [
+    2,
     3,
-    1,
     1,
     2
   ],
-  "themeWord": "jeu",
+  "themeWord": "abeille",
   "solution": [
     [
       true,
@@ -50,8 +50,8 @@
       false
     ],
     [
-      true,
       false,
+      true,
       true,
       false
     ],
@@ -63,10 +63,10 @@
     ],
     [
       false,
-      false,
+      true,
       false,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

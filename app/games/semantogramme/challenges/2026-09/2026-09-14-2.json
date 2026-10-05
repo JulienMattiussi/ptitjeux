@@ -5,57 +5,64 @@
   "height": 5,
   "words": [
     [
-      "froid",
-      "givrer",
-      "gel",
-      "hurlement",
-      "pôle"
+      "cachalot",
+      "potage",
+      "radio",
+      "attention",
+      "confesseur"
     ],
     [
-      "tricot",
-      "geler",
-      "polaire",
-      "hiver",
-      "bandelette"
+      "murmure",
+      "auditeur",
+      "mélodie",
+      "table",
+      "espion"
     ],
     [
-      "shampoing",
-      "aplanir",
-      "congeler",
-      "banquise",
-      "vent"
+      "confidence",
+      "entendre",
+      "insouciant",
+      "psychologue",
+      "bruit"
     ],
     [
-      "limpide",
-      "arctique",
-      "acheter",
-      "frimas",
-      "iceberg"
+      "éduquer",
+      "meurtrière",
+      "stéthoscope",
+      "ouïe",
+      "pont"
     ],
     [
-      "patineur",
-      "année",
-      "farfadet",
-      "sibérien",
-      "frigorifique"
+      "chorale",
+      "son",
+      "fluvial",
+      "tempe",
+      "éloge"
     ]
   ],
   "rowClues": [
+    3,
     4,
-    3,
-    3,
-    3,
-    2
+    4,
+    2,
+    1
   ],
   "colClues": [
-    1,
+    2,
     3,
     3,
-    4,
-    4
+    3,
+    3
   ],
-  "themeWord": "glacial",
+  "themeWord": "écouter",
   "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
     [
       true,
       true,
@@ -64,33 +71,26 @@
       true
     ],
     [
+      true,
+      true,
       false,
       true,
+      true
+    ],
+    [
+      false,
+      false,
       true,
       true,
       false
     ],
     [
       false,
-      false,
-      true,
-      true,
-      true
-    ],
-    [
-      false,
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      false,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

@@ -5,91 +5,99 @@
   "height": 6,
   "words": [
     [
-      "éphémère",
-      "crucifère",
-      "négoce",
-      "pureté",
-      "charge",
-      "jardin"
+      "tas",
+      "colosse",
+      "canidé",
+      "Lucullus",
+      "oublier",
+      "Mowgli"
     ],
     [
-      "légume",
-      "gestuel",
-      "mijoter",
-      "rêche",
-      "découvrir",
-      "ambulance"
+      "angle",
+      "proie",
+      "curiosité",
+      "cigarette",
+      "bourg",
+      "Bellérophon"
     ],
     [
-      "attention",
-      "rouge",
-      "rouler",
-      "fermenter",
-      "farci",
-      "rêver"
+      "aromatisé",
+      "masque",
+      "Polynésie",
+      "dévot",
+      "épuisé",
+      "halogène"
     ],
     [
-      "salade",
-      "germe",
-      "compact",
-      "règlement",
-      "foudroyer",
-      "resplendissant"
+      "assiettes",
+      "Volkswagen",
+      "Bruno",
+      "carnivore",
+      "Chaperon",
+      "Nolde"
     ],
     [
-      "choucroute",
-      "pomme",
-      "rugby",
-      "soupe",
-      "rabot",
-      "persévérer"
+      "Ysengrin",
+      "berger",
+      "fable",
+      "meute",
+      "forêt",
+      "réchauffement"
     ],
     [
-      "neurone",
-      "vert",
-      "feuille",
-      "rond",
-      "apparition",
-      "ère"
+      "écailles",
+      "Romulus",
+      "lune",
+      "Gévaudan",
+      "reflets",
+      "brique"
     ]
   ],
   "rowClues": [
     2,
+    1,
+    1,
     2,
-    3,
-    3,
-    3,
+    5,
     3
   ],
   "colClues": [
-    3,
-    5,
-    3,
-    3,
     1,
+    4,
+    3,
+    3,
+    2,
     1
   ],
-  "themeWord": "chou",
+  "themeWord": "loup",
   "solution": [
     [
       false,
-      true,
       false,
+      true,
       false,
       false,
       true
     ],
     [
-      true,
       false,
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       false,
       false,
       false
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
       true,
@@ -99,16 +107,8 @@
       true,
       true,
       true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      true,
-      false,
       false
     ],
     [
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 14
 }

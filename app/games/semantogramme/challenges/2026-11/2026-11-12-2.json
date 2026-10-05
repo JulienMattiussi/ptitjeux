@@ -5,66 +5,80 @@
   "height": 5,
   "words": [
     [
-      "indigo",
-      "cravate",
-      "azur",
-      "océan",
-      "cyan"
+      "bataille",
+      "fournaise",
+      "montante",
+      "pur",
+      "syrah"
     ],
     [
-      "profond",
-      "glace",
-      "jean",
-      "lapis",
-      "dérouler"
+      "duel",
+      "victoire",
+      "guerre",
+      "ouvrage",
+      "serré"
     ],
     [
-      "essaim",
-      "aigue-marine",
-      "mer",
-      "sabre",
-      "céleste"
+      "défense",
+      "front",
+      "méhari",
+      "vaincre",
+      "armée"
     ],
     [
-      "cobalt",
-      "communion",
-      "pirogue",
-      "gâter",
-      "ciel"
+      "Diana",
+      "soldat",
+      "lutter",
+      "attaque",
+      "omission"
     ],
     [
-      "lavande",
-      "baryton",
-      "chagrin",
-      "turquoise",
-      "son"
+      "bonheur",
+      "ennemi",
+      "résister",
+      "affronter",
+      "provocation"
     ]
   ],
   "rowClues": [
-    4,
-    4,
+    1,
     3,
-    2,
-    2
-  ],
-  "colClues": [
     4,
-    2,
-    3,
     3,
     3
   ],
-  "themeWord": "bleu",
+  "colClues": [
+    3,
+    4,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "combattre",
   "solution": [
     [
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
       true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true
     ],
     [
-      true,
+      false,
       true,
       true,
       true,
@@ -74,23 +88,9 @@
       false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

@@ -5,32 +5,32 @@
   "height": 4,
   "words": [
     [
-      "agrafeuse",
-      "trancher",
-      "perceuse",
-      "mondial"
+      "incruster",
+      "dessin",
+      "esquisse",
+      "trousse"
     ],
     [
-      "cochon",
-      "visseuse",
-      "pèlerin",
-      "marteau"
+      "gomme",
+      "larme",
+      "graphite",
+      "pondre"
     ],
     [
-      "tournevis",
-      "caduc",
-      "écrou",
-      "costume"
+      "papier",
+      "démotique",
+      "pointe",
+      "assurance"
     ],
     [
-      "pince",
-      "tenaille",
-      "vacarme",
-      "ciseaux"
+      "couleur",
+      "mine",
+      "yin",
+      "colorier"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     2,
     3
@@ -38,22 +38,22 @@
   "colClues": [
     3,
     2,
-    2,
+    3,
     2
   ],
-  "themeWord": "outil",
+  "themeWord": "crayon",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
     [
       true,
       false,
       true,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      true
     ],
     [
       true,
@@ -68,5 +68,5 @@
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 10
 }

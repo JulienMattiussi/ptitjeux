@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "javelot",
-      "relique",
-      "talon",
-      "frigorifique",
-      "transpercer"
+      "illégal",
+      "palissade",
+      "rap",
+      "wagon",
+      "coton"
     ],
     [
-      "capitale",
-      "sagaie",
-      "meurtrier",
-      "décomposé",
-      "tournoi"
+      "lettrage",
+      "tirade",
+      "hulotte",
+      "chaussettes",
+      "carrelage"
     ],
     [
-      "samu",
-      "apprendre",
-      "hampe",
-      "extérieur",
-      "pique"
+      "chimie",
+      "bercer",
+      "aérosol",
+      "artiste",
+      "Panthéon"
     ],
     [
-      "long",
-      "saule",
-      "jaillir",
-      "guerrier",
-      "calame"
+      "agrandir",
+      "Banksy",
+      "vandalisme",
+      "pochoir",
+      "tonnelle"
     ],
     [
-      "flash",
-      "pointe",
-      "redoutable",
-      "illusoire",
-      "fer"
+      "urbain",
+      "sucette",
+      "signature",
+      "façade",
+      "squat"
     ]
   ],
   "rowClues": [
-    2,
-    3,
-    2,
-    3,
-    3
-  ],
-  "colClues": [
-    2,
-    2,
     4,
     1,
+    2,
+    3,
     4
   ],
-  "themeWord": "lance",
+  "colClues": [
+    3,
+    2,
+    4,
+    4,
+    1
+  ],
+  "themeWord": "graffiti",
   "solution": [
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      false,
-      true
+      false
     ],
     [
       true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
       true,
@@ -88,9 +81,16 @@
       false,
       true,
       true,
+      true,
+      false
+    ],
+    [
+      true,
       false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

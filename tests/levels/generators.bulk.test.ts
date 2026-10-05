@@ -21,6 +21,7 @@ import { isWon as anglemortIsWon } from '~/games/anglemort/engine'
 import { GAME_SIZE } from '~/lib/game-styles'
 import { generateBoucleLevel } from '../../generators/boucle'
 import { generateSemantogrammeLevel } from '../../generators/semantogramme'
+import { loadCuration } from '../../generators/semantogramme-curation'
 
 /**
  * Tests « heavy » qui appellent les 3 générateurs sur un large échantillon
@@ -125,7 +126,12 @@ describe('générateurs : robustesse sur un large échantillon de dates', () => 
   })
 
   describe('semantogramme', () => {
-    it.each(SAMPLE_DATES)('date %s : 4 niveaux résolubles et bien formés', (date) => {
+    // Le générateur ne connaît que les dates du calendrier de curation.
+    const SEMANTOGRAMME_SAMPLE = loadCuration()
+      .schedule['1'].map((t) => t.date)
+      .filter((_, i) => i % 17 === 0)
+
+    it.each(SEMANTOGRAMME_SAMPLE)('date %s : 4 niveaux résolubles et bien formés', (date) => {
       for (const idx of INDICES) {
         const level = generateSemantogrammeLevel(date, idx)
         expect(level.width, `${date}/${idx} width`).toBe(3 + idx)

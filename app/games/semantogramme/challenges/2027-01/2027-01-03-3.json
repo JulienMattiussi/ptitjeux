@@ -5,91 +5,99 @@
   "height": 6,
   "words": [
     [
-      "agricole",
-      "plâtre",
-      "porter",
-      "logiciel",
-      "tourisme",
-      "transporter"
+      "brute",
+      "trous",
+      "Smyrne",
+      "marsupial",
+      "wallaby",
+      "étui"
     ],
     [
-      "tube",
-      "attelage",
-      "botte",
-      "chagrin",
-      "lourde",
-      "collecter"
+      "farine",
+      "aborigène",
+      "grouiller",
+      "Tartuffe",
+      "pattes",
+      "bush"
     ],
     [
-      "cheval",
-      "bois",
-      "dessinateur",
-      "passion",
-      "rural",
-      "détenir"
+      "boxer",
+      "roux",
+      "bonsaï",
+      "herbivore",
+      "atmosphère",
+      "Sydney"
     ],
     [
-      "amusement",
-      "foin",
-      "paille",
-      "roue",
-      "uppercut",
-      "pommée"
+      "poche",
+      "zinc",
+      "parapluie",
+      "loisir",
+      "désert",
+      "palmarès"
     ],
     [
-      "plancha",
-      "diagnostic",
-      "tirer",
-      "tracteur",
-      "passoire",
-      "lambin"
+      "terminus",
+      "pacte",
+      "sauter",
+      "fessée",
+      "Australie",
+      "sacre"
     ],
     [
-      "paysan",
-      "rattraper",
-      "posture",
-      "ancien",
-      "ferme",
-      "rizière"
+      "admonester",
+      "Skippy",
+      "livraison",
+      "Assemblée",
+      "Babar",
+      "queue"
     ]
   ],
   "rowClues": [
-    3,
     2,
     3,
-    3,
+    4,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
+    2,
     3,
-    3,
-    3,
-    3,
-    3,
-    1
+    1,
+    2,
+    4,
+    3
   ],
-  "themeWord": "charrette",
+  "themeWord": "kangourou",
   "solution": [
     [
+      false,
+      false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
       false,
       true
     ],
     [
-      false,
       true,
       false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
       false,
       false,
       true,
@@ -97,28 +105,20 @@
     ],
     [
       false,
-      true,
-      true,
+      false,
       true,
       false,
+      true,
       false
     ],
     [
       false,
-      false,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
       true,
       false,
       false,
-      true,
-      true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

@@ -1,0 +1,124 @@
+{
+  "id": "2027-07-20-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "couche",
+      "barbe",
+      "baiser",
+      "persifleur",
+      "pancréas",
+      "intelligent"
+    ],
+    [
+      "courgette",
+      "cri",
+      "larme",
+      "bongo",
+      "aisselle",
+      "mâchoire"
+    ],
+    [
+      "rougeur",
+      "rougir",
+      "pommette",
+      "maquillage",
+      "pigments",
+      "nettoyer"
+    ],
+    [
+      "meneur",
+      "picaresque",
+      "jet-set",
+      "boeuf",
+      "creux",
+      "fossette"
+    ],
+    [
+      "crue",
+      "Fénelon",
+      "traîneau",
+      "brouillard",
+      "bise",
+      "potelé"
+    ],
+    [
+      "gifle",
+      "champignons",
+      "teint",
+      "ombre",
+      "visage",
+      "Bellérophon"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    4,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    4,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "joue",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

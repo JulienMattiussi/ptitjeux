@@ -5,94 +5,86 @@
   "height": 6,
   "words": [
     [
-      "ronce",
-      "avaricieux",
-      "haubans",
-      "frondaison",
-      "fardeau",
-      "hébergement"
+      "mouvement",
+      "fainéant",
+      "errer",
+      "procrastiner",
+      "théorie",
+      "guilleret"
     ],
     [
-      "thonier",
-      "led",
-      "piquer",
-      "comptine",
-      "urinaire",
-      "béchamel"
+      "arbre",
+      "granulés",
+      "Amazonie",
+      "nonchalant",
+      "condensation",
+      "pédagogie"
     ],
     [
-      "ninja",
-      "soja",
-      "acéré",
-      "baccarat",
-      "urtique",
-      "moelleux"
+      "Cerbère",
+      "foi",
+      "mollasson",
+      "Hardy",
+      "dormir",
+      "Sid"
     ],
     [
-      "confier",
-      "reprendre",
-      "hérisson",
-      "discrétion",
-      "cactus",
-      "pénétrant"
+      "portrait",
+      "gisement",
+      "fumerolle",
+      "curé",
+      "anticorps",
+      "oisif"
     ],
     [
-      "âpre",
-      "légale",
-      "épine",
-      "oursin",
-      "gonflé",
-      "écrire"
+      "Zootopie",
+      "flemmard",
+      "Baïkonour",
+      "canapé",
+      "consultation",
+      "musarder"
     ],
     [
-      "stridulation",
-      "corrosif",
-      "dard",
-      "mordant",
-      "aiguillon",
-      "chardon"
+      "ferment",
+      "cassonade",
+      "griffes",
+      "Louis-XV",
+      "sieste",
+      "gravats"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     2,
     3,
     3,
-    5
-  ],
-  "colClues": [
-    2,
     1,
-    5,
-    2,
     3,
     2
   ],
-  "themeWord": "piquant",
+  "colClues": [
+    2,
+    2,
+    3,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "paresseux",
   "solution": [
     [
+      false,
       true,
       false,
-      false,
-      false,
+      true,
       false,
       false
     ],
     [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       true,
       false,
       true,
+      true,
+      false,
       false
     ],
     [
@@ -104,21 +96,29 @@
       true
     ],
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
       true,
       false,
-      true,
       true,
       false,
       false
     ],
     [
       false,
+      false,
       true,
+      false,
       true,
-      true,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

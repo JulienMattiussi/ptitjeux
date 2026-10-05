@@ -5,53 +5,53 @@
   "height": 4,
   "words": [
     [
-      "humidité",
-      "voie",
-      "horaire",
-      "inspirer"
+      "marteau",
+      "Spielberg",
+      "roman",
+      "nageoire"
     ],
     [
-      "rire",
-      "wagon",
-      "malpropre",
-      "quai"
+      "dents",
+      "pointer",
+      "tuyère",
+      "prédateur"
     ],
     [
-      "aiguillage",
-      "bouquin",
-      "conducteur",
-      "billet"
+      "mer",
+      "psyché",
+      "aileron",
+      "blanc"
     ],
     [
-      "cola",
-      "train",
-      "survivre",
-      "éventail"
+      "énergie",
+      "mâchoire",
+      "squale",
+      "ancêtres"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
-    1
-  ],
-  "colClues": [
-    1,
     3,
     2,
+    3,
     2
   ],
-  "themeWord": "gare",
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "requin",
   "solution": [
     [
+      true,
+      true,
       false,
-      true,
-      true,
-      false
+      true
     ],
     [
-      false,
       true,
+      false,
       false,
       true
     ],
@@ -64,9 +64,9 @@
     [
       false,
       true,
-      false,
+      true,
       false
     ]
   ],
-  "parMoves": 8
+  "parMoves": 10
 }

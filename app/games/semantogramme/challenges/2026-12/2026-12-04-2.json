@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "national",
-      "forte",
-      "législatif",
-      "démocratique",
-      "rosier"
+      "souffleur",
+      "favorable",
+      "silice",
+      "bouteille",
+      "éclat"
     ],
     [
-      "légiférer",
-      "animal",
-      "débattre",
-      "voter",
-      "inhalation"
+      "escroc",
+      "loupe",
+      "Ramsès",
+      "carafe",
+      "carquois"
     ],
     [
-      "hémicycle",
-      "député",
-      "sénateur",
-      "haute-définition",
-      "bicaméral"
+      "pare-brise",
+      "gobelet",
+      "vermillon",
+      "griffu",
+      "Chine"
     ],
     [
-      "flemme",
-      "amour",
-      "meringue",
-      "élu",
-      "gazette"
+      "loisirs",
+      "cristal",
+      "Murano",
+      "transparent",
+      "coupe"
     ],
     [
-      "tenue",
-      "village",
-      "chasseur",
-      "rarissime",
-      "commission"
+      "fragile",
+      "boire",
+      "axe",
+      "vitre",
+      "sarcastique"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     4,
-    1,
-    1
+    2,
+    2,
+    4,
+    3
   ],
   "colClues": [
     3,
-    1,
-    3,
-    3,
+    4,
+    2,
+    4,
     2
   ],
-  "themeWord": "parlement",
+  "themeWord": "verre",
   "solution": [
     [
       true,
       false,
       true,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
       true
     ],
     [
       false,
-      false,
+      true,
       false,
       true,
       false
     ],
     [
+      true,
+      true,
       false,
       false,
+      false
+    ],
+    [
       false,
-      false,
+      true,
+      true,
+      true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

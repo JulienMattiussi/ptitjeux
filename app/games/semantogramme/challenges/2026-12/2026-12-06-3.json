@@ -5,79 +5,111 @@
   "height": 6,
   "words": [
     [
-      "la",
-      "édredon",
-      "pointée",
-      "raffut",
-      "gastralgie",
-      "chanter"
+      "égout",
+      "pardonner",
+      "tartan",
+      "Bretagne",
+      "symptôme",
+      "bagad"
     ],
     [
-      "griffe",
-      "tondre",
-      "samedi",
-      "configurer",
-      "détachée",
-      "famille"
+      "bourdon",
+      "Interceltique",
+      "Hanami",
+      "tireur",
+      "fest-noz",
+      "Irlande"
     ],
     [
-      "do",
-      "élever",
-      "leçon",
-      "parme",
-      "première",
-      "ré"
+      "outre",
+      "endormi",
+      "souffler",
+      "sonneur",
+      "volt",
+      "kilt"
     ],
     [
-      "liée",
-      "musique",
-      "altérée",
-      "église",
-      "clou",
-      "fa"
+      "émarger",
+      "Lorient",
+      "passereau",
+      "musette",
+      "Galice",
+      "frimousse"
     ],
     [
-      "étain",
-      "si",
-      "rabot",
-      "enterrer",
-      "tenue",
-      "mi"
+      "impériale",
+      "emphatique",
+      "dallage",
+      "Écosse",
+      "frit",
+      "nymphéa"
     ],
     [
-      "sol",
-      "arborer",
-      "concerto",
-      "clé",
-      "écrire",
-      "jouer"
+      "haleter",
+      "récent",
+      "Zelda",
+      "Apple",
+      "biniou",
+      "loggia"
     ]
   ],
   "rowClues": [
     3,
-    1,
-    2,
+    4,
     4,
     3,
-    4
+    1,
+    1
   ],
   "colClues": [
+    2,
+    2,
+    2,
     4,
-    2,
-    2,
-    1,
     3,
-    5
+    3
   ],
-  "themeWord": "note",
+  "themeWord": "cornemuse",
   "solution": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
     [
       true,
       false,
       true,
-      false,
+      true,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
     ],
     [
       false,
@@ -86,39 +118,7 @@
       false,
       true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

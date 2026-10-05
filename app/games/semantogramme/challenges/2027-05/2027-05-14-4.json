@@ -5,102 +5,129 @@
   "height": 7,
   "words": [
     [
-      "bactérienne",
-      "jeunesse",
-      "roche",
-      "amour",
-      "ère",
-      "sichuan",
-      "paléozoïque"
+      "crise",
+      "pastèque",
+      "crayon",
+      "désert",
+      "taloche",
+      "carbonifère",
+      "anglaise"
     ],
     [
-      "lointain",
-      "convertible",
-      "plante",
-      "vainqueur",
-      "mouvement",
-      "transport",
-      "tranche"
+      "tendre",
+      "Baïkal",
+      "citadelle",
+      "Ourals",
+      "cycle",
+      "scotch",
+      "ADN"
     ],
     [
-      "continental",
-      "gréement",
-      "disque",
-      "vente",
-      "évolution",
-      "rugueuse",
-      "enfoncer"
+      "bébête",
+      "lande",
+      "délicat",
+      "accueil",
+      "extinction",
+      "soutenir",
+      "blizzard"
     ],
     [
-      "se ramifier",
-      "ancien",
-      "illusion",
-      "consolation",
-      "punching-ball",
-      "omelette",
-      "géologique"
+      "débordant",
+      "cheveux",
+      "euro",
+      "pittoresque",
+      "thaï",
+      "amphibien",
+      "trias"
     ],
     [
-      "mécanique",
-      "préhistoire",
-      "respirer",
-      "colonisation",
-      "éclairer",
-      "col",
-      "manta"
-    ],
-    [
-      "introduction",
-      "intuition",
-      "dévonien",
-      "taquiner",
       "fossile",
-      "poisson",
-      "bonté"
+      "nécessité",
+      "cotillons",
+      "cadavre",
+      "roumaine",
+      "faussaire",
+      "Karajan"
     ],
     [
-      "sédiment",
-      "ordovicien",
-      "farcie",
-      "maquiller",
-      "corail",
-      "patinoire",
-      "chopin"
+      "primaire",
+      "vol",
+      "géologie",
+      "palmé",
+      "Sibérie",
+      "volcanisme",
+      "trilobite"
+    ],
+    [
+      "cataclysme",
+      "Pangée",
+      "cassoulet",
+      "déclarer",
+      "Rialto",
+      "conifère",
+      "vétuste"
     ]
   ],
   "rowClues": [
     3,
+    1,
+    1,
     2,
-    2,
-    2,
-    2,
-    3,
+    1,
+    5,
     3
   ],
   "colClues": [
-    3,
-    3,
-    3,
-    1,
     4,
     1,
+    1,
+    2,
+    2,
+    4,
     2
   ],
-  "themeWord": "silurien",
+  "themeWord": "permien",
   "solution": [
     [
+      true,
       false,
       false,
       true,
       false,
       true,
+      false
+    ],
+    [
       false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       false,
       false,
       false,
@@ -109,48 +136,21 @@
     [
       true,
       false,
-      false,
-      false,
       true,
       false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      false,
-      false,
-      false,
+      true,
       true
     ],
     [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       true,
       false,
       false,
-      true,
       false,
+      true,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

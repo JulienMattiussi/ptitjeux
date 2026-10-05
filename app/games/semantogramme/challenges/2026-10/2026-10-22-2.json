@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "fenêtre",
-      "silence",
-      "cirque",
-      "maquillage",
-      "route"
+      "Negroni",
+      "frigorifié",
+      "hostile",
+      "combat",
+      "philosopher"
     ],
     [
-      "visuel",
-      "public",
-      "inspiration",
-      "évoquer",
-      "comique"
+      "accueil",
+      "banquise",
+      "Sibérie",
+      "Templier",
+      "frissonner"
     ],
     [
-      "pantomime",
-      "enchanté",
-      "tarentule",
-      "artistique",
-      "geste"
+      "Lombardie",
+      "beaupré",
+      "hautain",
+      "froid",
+      "distant"
     ],
     [
-      "forêt",
-      "imiter",
-      "scène",
-      "air",
-      "sauver"
+      "réflexion",
+      "passionné",
+      "congelé",
+      "grelotter",
+      "Mendel"
     ],
     [
-      "visage",
-      "expressif",
-      "grimace",
-      "embarras",
-      "rubrique"
+      "Pilat",
+      "bise",
+      "centre",
+      "phobie",
+      "iceberg"
     ]
   ],
   "rowClues": [
-    3,
+    2,
     4,
     3,
     2,
-    3
-  ],
-  "colClues": [
-    3,
-    4,
-    3,
-    3,
     2
   ],
-  "themeWord": "mime",
+  "colClues": [
+    1,
+    3,
+    4,
+    2,
+    3
+  ],
+  "themeWord": "glacial",
   "solution": [
     [
       false,
       true,
       true,
-      true,
+      false,
       false
     ],
     [
       true,
       true,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
-      false,
-      true,
       true
     ],
     [
       false,
-      true,
-      true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       false
     ],
     [
-      true,
-      true,
+      false,
       true,
       false,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 13
 }

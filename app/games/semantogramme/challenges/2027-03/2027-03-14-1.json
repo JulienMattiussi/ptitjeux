@@ -5,67 +5,67 @@
   "height": 4,
   "words": [
     [
-      "traité",
-      "fort",
-      "pic",
-      "morceau"
+      "coteau",
+      "odorat",
+      "oubliettes",
+      "tertre"
     ],
     [
-      "état",
-      "idée",
-      "colombe",
-      "amour"
+      "hollandaise",
+      "Montmartre",
+      "vallon",
+      "fessée"
     ],
     [
-      "sérénité",
-      "tranquillité",
-      "fermé",
-      "liseuse"
+      "arpège",
+      "Kourou",
+      "correct",
+      "pente"
     ],
     [
-      "accord",
-      "enfer",
-      "silence",
-      "cube"
+      "poste",
+      "compas",
+      "butte",
+      "sommet"
     ]
   ],
   "rowClues": [
+    2,
+    2,
     1,
-    2,
-    2,
     2
   ],
   "colClues": [
-    3,
+    1,
     1,
     2,
-    1
+    3
   ],
-  "themeWord": "paix",
+  "themeWord": "colline",
   "solution": [
     [
       true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
     ],
     [
       false,
       false,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 7

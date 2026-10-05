@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "rougeoyante",
-      "camion",
-      "crépitante",
-      "cap",
-      "allumer"
+      "bienveillant",
+      "courtois",
+      "papaye",
+      "affectueux",
+      "haka"
     ],
     [
-      "sonner",
-      "feu",
-      "flamme",
-      "gonflé",
-      "champignon"
+      "morsure",
+      "groupe",
+      "Bisounours",
+      "sage",
+      "doux"
     ],
     [
-      "culture",
-      "fumée",
-      "bûche",
-      "antihistaminique",
-      "mâcher"
+      "attentionné",
+      "généreux",
+      "ange",
+      "bonté",
+      "boutique"
     ],
     [
-      "altérée",
-      "tisonnier",
-      "bouddha",
-      "ancienne",
-      "jeunesse"
+      "aimable",
+      "gosier",
+      "serviable",
+      "poli",
+      "gorille"
     ],
     [
-      "briquet",
-      "ronflante",
-      "marteau",
-      "âtre",
-      "taire"
+      "gourmandise",
+      "agréable",
+      "noeud",
+      "imperméable",
+      "sympathique"
     ]
   ],
   "rowClues": [
     3,
-    2,
-    2,
-    2,
-    3
-  ],
-  "colClues": [
-    2,
+    3,
     4,
     3,
-    2,
-    1
+    2
   ],
-  "themeWord": "cheminée",
+  "colClues": [
+    3,
+    3,
+    3,
+    4,
+    2
+  ],
+  "themeWord": "gentil",
   "solution": [
     [
       true,
-      false,
       true,
       false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
       true
     ],
     [
-      false,
       true,
       true,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
       true,
       false
     ],
     [
       true,
-      true,
       false,
       true,
+      true,
       false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 15
 }

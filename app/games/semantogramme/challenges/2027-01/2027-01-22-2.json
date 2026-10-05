@@ -5,67 +5,74 @@
   "height": 5,
   "words": [
     [
-      "brioche",
-      "arme",
-      "falaise",
-      "colorée",
-      "tentacule"
+      "ferme",
+      "béton",
+      "costaud",
+      "résistant",
+      "anesthésie"
     ],
     [
-      "menaçant",
-      "médaille",
-      "serpent",
-      "précipice",
-      "périlleux"
+      "viennoiserie",
+      "médina",
+      "délation",
+      "diamant",
+      "solide"
     ],
     [
-      "chaise",
-      "risquer",
-      "iridescente",
-      "redoutable",
-      "sourire"
+      "cratère",
+      "rigide",
+      "roc",
+      "coriace",
+      "fer"
     ],
     [
-      "poison",
-      "carpe",
-      "permanente",
-      "authentifier",
-      "piéger"
+      "Pissarro",
+      "granit",
+      "croiser",
+      "pénible",
+      "preux"
     ],
     [
-      "pouce",
-      "mortel",
-      "feu",
-      "alerte",
-      "chevelure"
+      "difficile",
+      "pierre",
+      "sévère",
+      "monotrème",
+      "confiture"
     ]
   ],
   "rowClues": [
-    2,
     4,
     2,
+    4,
     2,
     3
   ],
   "colClues": [
     2,
+    4,
     3,
-    3,
-    3,
+    4,
     2
   ],
-  "themeWord": "dangereux",
+  "themeWord": "dur",
   "solution": [
     [
-      false,
       true,
       true,
-      false,
+      true,
+      true,
       false
     ],
     [
-      true,
       false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       true,
       true
@@ -79,18 +86,11 @@
     ],
     [
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
       true,
       true,
-      true,
+      false,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 15
 }

@@ -5,75 +5,75 @@
   "height": 6,
   "words": [
     [
-      "cueillette",
-      "belle-hélène",
-      "éplucher",
-      "marron",
-      "allongée",
-      "compote"
+      "Ferrero",
+      "andante",
+      "goûter",
+      "futé",
+      "beurre",
+      "fruit"
     ],
     [
-      "scier",
-      "pulpe",
-      "femelle",
-      "sucre",
-      "frai",
-      "pépin"
+      "achat",
+      "récompense",
+      "partager",
+      "Piémont",
+      "prélude",
+      "yeux"
     ],
     [
-      "mouton",
-      "simultané",
-      "fruit",
-      "comice",
-      "cannelle",
-      "faïence"
+      "rayée",
+      "café",
+      "coq",
+      "praliné",
+      "chalet",
+      "ravisseur"
     ],
     [
-      "tarte",
-      "kilomètre",
-      "expliquer",
-      "foulée",
-      "conseil",
-      "vert"
+      "Rocher",
+      "crosse",
+      "piercing",
+      "poinçon",
+      "pâte",
+      "inox"
     ],
     [
-      "épervier",
-      "magique",
-      "juteuse",
-      "queue",
-      "mobile",
-      "noyau"
+      "chocolat",
+      "pelletée",
+      "excentricité",
+      "coque",
+      "brillante",
+      "Alzheimer"
     ],
     [
-      "tutu",
-      "appareil",
-      "verger",
-      "cisailler",
-      "proie",
-      "jaune"
+      "Nutella",
+      "maladie",
+      "protège-dents",
+      "lithographie",
+      "mousse",
+      "gâteau"
     ]
   ],
   "rowClues": [
-    5,
-    3,
+    4,
     2,
     2,
-    3,
-    2
+    2,
+    2,
+    3
   ],
   "colClues": [
-    2,
-    2,
     4,
-    3,
     1,
-    5
+    1,
+    3,
+    3,
+    3
   ],
-  "themeWord": "poire",
+  "themeWord": "noisette",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false,
       true,
@@ -81,7 +81,7 @@
     ],
     [
       false,
-      true,
+      false,
       false,
       true,
       false,
@@ -89,8 +89,8 @@
     ],
     [
       false,
-      false,
       true,
+      false,
       true,
       false,
       false
@@ -100,25 +100,25 @@
       false,
       false,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
+      true,
       false,
       false,
       true,
-      true,
       false,
-      true
+      false
     ],
     [
-      false,
-      false,
       true,
       false,
       false,
+      false,
+      true,
       true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

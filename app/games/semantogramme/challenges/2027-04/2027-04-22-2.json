@@ -5,80 +5,73 @@
   "height": 5,
   "words": [
     [
-      "caillouteux",
-      "commencer",
-      "gueule",
-      "sympathique",
-      "férié"
+      "baby-boom",
+      "méninges",
+      "sacristain",
+      "matcha",
+      "prière"
     ],
     [
-      "jour",
-      "travail",
-      "bijou",
-      "fourbe",
-      "congé"
+      "Cassini",
+      "mèche",
+      "gigaoctet",
+      "pascal",
+      "lueur"
     ],
     [
-      "matin",
-      "loyer",
-      "tympan",
-      "reprendre",
-      "racine"
+      "Hubble",
+      "voeu",
+      "autel",
+      "présent",
+      "chandelier"
     ],
     [
-      "horaire",
-      "rentrée",
-      "semaine",
-      "réservé",
-      "hebdomadaire"
+      "cire",
+      "dévotion",
+      "chapelle",
+      "baguette",
+      "flamme"
     ],
     [
-      "reprise",
-      "matutinal",
-      "contrebasse",
-      "édredon",
-      "chiffon"
+      "mojito",
+      "Roscoff",
+      "procession",
+      "Olympique",
+      "tumulte"
     ]
   ],
   "rowClues": [
     2,
     3,
-    2,
+    3,
     4,
     1
   ],
   "colClues": [
-    4,
+    1,
     3,
+    4,
     1,
-    1,
-    3
+    4
   ],
-  "themeWord": "lundi",
+  "themeWord": "cierge",
   "solution": [
     [
       false,
-      true,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
       false,
       true
     ],
     [
-      true,
-      false,
       false,
       true,
-      false
+      false,
+      true,
+      true
     ],
     [
-      true,
+      false,
       true,
       true,
       false,
@@ -86,11 +79,18 @@
     ],
     [
       true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
       false,
       false,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

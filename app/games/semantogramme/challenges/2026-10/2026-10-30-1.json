@@ -5,47 +5,53 @@
   "height": 4,
   "words": [
     [
-      "aisselle",
-      "bienveillant",
-      "conduire",
-      "maquette"
+      "Kentucky",
+      "gamme",
+      "Chamonix",
+      "combe"
     ],
     [
-      "velouté",
-      "jeu",
-      "puzzle",
-      "coupe"
+      "vignoble",
+      "Rhône",
+      "absorber",
+      "glaciaire"
     ],
     [
-      "corde",
-      "voiture",
-      "ballon",
-      "laurier"
+      "humilié",
+      "colline",
+      "coteau",
+      "hardi"
     ],
     [
-      "circuit",
-      "recueil",
-      "poupée",
-      "maussade"
+      "montagne",
+      "équilibrer",
+      "frissonner",
+      "sagacité"
     ]
   ],
   "rowClues": [
-    1,
     2,
     3,
-    2
+    2,
+    1
   ],
   "colClues": [
     2,
     2,
-    3,
-    1
+    2,
+    2
   ],
-  "themeWord": "jouet",
+  "themeWord": "vallée",
   "solution": [
     [
       false,
       false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
       false,
       true
     ],
@@ -57,14 +63,8 @@
     ],
     [
       true,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
       false,
-      true,
+      false,
       false
     ]
   ],

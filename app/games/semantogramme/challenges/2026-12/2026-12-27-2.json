@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "épée",
-      "pauser",
-      "horloge",
-      "sieste",
-      "restaurer"
+      "satin",
+      "gaz",
+      "dur",
+      "goûter",
+      "costaud"
     ],
     [
-      "engloutir",
-      "festival",
-      "translucide",
-      "horaire",
-      "femelle"
+      "nourrice",
+      "crâne",
+      "robuste",
+      "postiche",
+      "béton"
     ],
     [
-      "soleil",
-      "gronder",
-      "manger",
-      "déjeuner",
-      "méridien"
+      "rigide",
+      "roc",
+      "inébranlable",
+      "rage",
+      "résistant"
     ],
     [
-      "plein",
-      "étalage",
-      "zénital",
-      "pis",
-      "inertie"
+      "cube",
+      "massif",
+      "plate-forme",
+      "liquide",
+      "suspect"
     ],
     [
-      "cantine",
-      "apogée",
-      "sandwich",
-      "nervure",
-      "frisée"
+      "fiable",
+      "ravi",
+      "stable",
+      "Mariano",
+      "pierre"
     ]
   ],
   "rowClues": [
-    4,
-    1,
-    4,
+    3,
     2,
+    4,
+    3,
     3
   ],
   "colClues": [
     3,
-    2,
-    4,
     3,
-    2
+    4,
+    1,
+    4
   ],
-  "themeWord": "midi",
+  "themeWord": "solide",
   "solution": [
     [
       false,
       true,
       true,
-      true,
+      false,
       true
     ],
     [
       false,
       false,
-      false,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      true,
-      true,
       true
     ],
     [
       true,
-      false,
+      true,
       true,
       false,
-      false
+      true
     ],
     [
       true,
       true,
+      false,
+      true,
+      false
+    ],
+    [
       true,
       false,
-      false
+      true,
+      false,
+      true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 15
 }

@@ -5,65 +5,58 @@
   "height": 5,
   "words": [
     [
-      "ventoline",
-      "patienter",
-      "plancha",
-      "délai",
-      "mesurer"
+      "grain",
+      "esquimau",
+      "Bologne",
+      "kamikaze",
+      "ondée"
     ],
     [
-      "cadran",
-      "immortelle",
-      "fleuriste",
-      "climat",
-      "aiguille"
+      "parapluie",
+      "hallebardes",
+      "sou",
+      "sculpteur",
+      "rincée"
     ],
     [
-      "éphémère",
-      "attendre",
-      "stéthoscope",
-      "piémont",
-      "heure"
+      "nuage",
+      "réduit",
+      "trombe",
+      "digestif",
+      "marionnette"
     ],
     [
-      "rizière",
-      "pose",
-      "instant",
-      "seconde",
-      "chrono"
+      "frissons",
+      "déluge",
+      "cardan",
+      "imperméable",
+      "moqueur"
     ],
     [
-      "temps",
-      "horloge",
-      "court",
-      "précis",
-      "écarlate"
+      "entreprise",
+      "abri",
+      "orage",
+      "giboulée",
+      "magnitude"
     ]
   ],
   "rowClues": [
-    3,
     2,
     3,
-    3,
-    4
+    2,
+    2,
+    3
   ],
   "colClues": [
     3,
     3,
     2,
-    3,
-    4
+    2,
+    2
   ],
-  "themeWord": "minute",
+  "themeWord": "averse",
   "solution": [
     [
-      false,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
       true,
       false,
       false,
@@ -78,19 +71,26 @@
       true
     ],
     [
-      false,
+      true,
       false,
       true,
-      true,
-      true
+      false,
+      false
     ],
     [
+      false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
       true,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

@@ -5,92 +5,84 @@
   "height": 6,
   "words": [
     [
-      "croquant",
-      "agitation",
-      "vulnérabilité",
-      "éveil",
-      "tartine",
-      "voyage"
+      "cockpit",
+      "plèvre",
+      "vol",
+      "tutelle",
+      "silence",
+      "zut"
     ],
     [
-      "agiter",
-      "voûtée",
-      "aîné",
-      "serrée",
-      "illustre",
-      "fidèle"
+      "fermier",
+      "poivron",
+      "juste",
+      "aéroclub",
+      "nef",
+      "moyeu"
     ],
     [
-      "cahoter",
-      "aigre",
-      "manche",
-      "trémousser",
-      "guichet",
-      "costaud"
+      "enchanteresse",
+      "motet",
+      "Héphaïstos",
+      "thermique",
+      "dérive",
+      "ascendance"
     ],
     [
-      "marteau",
-      "horrible",
-      "praliné",
-      "ébranlement",
-      "frisson",
-      "convulser"
+      "aérodynamique",
+      "envol",
+      "Polyphème",
+      "sérologie",
+      "imprimerie",
+      "durillon"
     ],
     [
-      "ballotter",
-      "haïti",
-      "pigment",
-      "éloignement",
-      "art",
-      "compote"
+      "altitude",
+      "mouvement",
+      "remorqueur",
+      "remonter",
+      "aile",
+      "pilote"
     ],
     [
-      "vente",
-      "vibrer",
-      "brasser",
-      "sursaut",
-      "remuer",
-      "tressaillir"
+      "parapente",
+      "finesse",
+      "serré",
+      "Crusoé",
+      "peser",
+      "acte"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    3,
     3,
     1,
-    5
-  ],
-  "colClues": [
     3,
-    2,
     2,
     4,
-    2,
     2
   ],
-  "themeWord": "secouer",
+  "colClues": [
+    4,
+    2,
+    2,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "planeur",
   "solution": [
     [
-      false,
       true,
       false,
       true,
       false,
+      true,
       false
     ],
     [
-      true,
       false,
       false,
       false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       true,
       false,
       false
@@ -105,19 +97,27 @@
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       false,
       false
     ],
     [
+      true,
       false,
       true,
-      true,
-      true,
+      false,
       true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "parMoves": 15

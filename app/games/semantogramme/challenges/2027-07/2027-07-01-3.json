@@ -5,120 +5,120 @@
   "height": 6,
   "words": [
     [
-      "calmer",
-      "cantaloup",
-      "écorce",
-      "sentir",
-      "porc",
-      "église"
+      "assise",
+      "bascule",
+      "adrénaline",
+      "siège",
+      "rempaillage",
+      "renaître"
     ],
     [
-      "jambon",
-      "cueillette",
-      "charentais",
-      "fontaine",
-      "écureuil",
-      "vert"
+      "aveugle",
+      "penalty",
+      "électrique",
+      "scie",
+      "longue",
+      "personnage"
     ],
     [
-      "affection",
-      "rougeoyante",
-      "juteux",
-      "sucré",
-      "errer",
-      "neige"
+      "choc",
+      "mandibule",
+      "monastère",
+      "panache",
+      "pliante",
+      "bureau"
     ],
     [
-      "pépin",
-      "fruit",
-      "submergé",
-      "final",
-      "sieste",
-      "épuisement"
+      "table",
+      "Josquin",
+      "militant",
+      "haute",
+      "calice",
+      "Puccini"
     ],
     [
-      "franchir",
-      "mouchoir",
-      "gamin",
-      "capturer",
-      "estival",
-      "lèchefrite"
+      "pieds",
+      "jacquard",
+      "tabouret",
+      "dossier",
+      "fauteuil",
+      "paille"
     ],
     [
-      "haillon",
-      "entrée",
-      "orange",
-      "station",
-      "sel",
-      "rond"
+      "bois",
+      "bistrot",
+      "radial",
+      "réfectoire",
+      "musicale",
+      "imaginer"
     ]
   ],
   "rowClues": [
-    2,
     4,
     2,
     2,
-    1,
+    2,
+    5,
     3
   ],
   "colClues": [
+    4,
     2,
-    4,
-    4,
-    1,
-    1,
+    2,
+    3,
+    5,
     2
   ],
-  "themeWord": "melon",
+  "themeWord": "chaise",
   "solution": [
     [
-      false,
       true,
       true,
       false,
-      false,
+      true,
+      true,
       false
     ],
     [
-      true,
-      true,
-      true,
       false,
       false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
       true
     ],
     [
-      false,
-      false,
       true,
+      false,
+      false,
       true,
       false,
       false
     ],
     [
       true,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
       false,
       true,
       true,
-      false,
-      false,
+      true,
       true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 18
 }

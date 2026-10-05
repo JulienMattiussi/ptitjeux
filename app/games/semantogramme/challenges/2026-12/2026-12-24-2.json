@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "faiblesse",
-      "braisière",
-      "monter",
-      "océan",
-      "solide"
+      "estrade",
+      "paradis",
+      "défunt",
+      "psyché",
+      "ferme"
     ],
     [
-      "grue",
-      "carquois",
-      "paraître",
-      "maçon",
-      "édifier"
+      "inédit",
+      "violon",
+      "larynx",
+      "spiritualité",
+      "pétrifié"
     ],
     [
-      "échafaudage",
-      "gouda",
-      "trébucher",
-      "fondation",
-      "après-midi"
+      "coeur",
+      "néphrologue",
+      "fantôme",
+      "brioche",
+      "soeur"
     ],
     [
-      "sautoir",
-      "bâtir",
-      "pédagogie",
-      "chantier",
-      "cocotte"
+      "immortalité",
+      "réincarnation",
+      "conscience",
+      "inintelligible",
+      "cuve"
     ],
     [
-      "montante",
-      "vendange",
-      "élever",
-      "ériger",
-      "plan"
+      "intérieur",
+      "magot",
+      "souffle",
+      "canari",
+      "hotte"
     ]
   ],
   "rowClues": [
-    1,
     3,
     2,
-    2,
-    3
-  ],
-  "colClues": [
-    2,
-    1,
-    2,
-    4,
+    3,
+    3,
     2
   ],
-  "themeWord": "construire",
+  "colClues": [
+    3,
+    3,
+    4,
+    2,
+    1
+  ],
+  "themeWord": "âme",
   "solution": [
     [
       false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
       false,
       true,
       false,
+      true,
       false
     ],
     [
       true,
       false,
-      false,
       true,
+      false,
       true
     ],
     [
       true,
-      false,
-      false,
       true,
+      true,
+      false,
       false
     ],
     [
-      false,
       true,
       false,
       true,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
-      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 13
 }

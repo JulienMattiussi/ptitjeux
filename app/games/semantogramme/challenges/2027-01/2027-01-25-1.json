@@ -5,60 +5,48 @@
   "height": 4,
   "words": [
     [
-      "contact",
-      "temple",
-      "colonne",
-      "écluse"
+      "fourmi",
+      "flambage",
+      "reprocher",
+      "coccinelle"
     ],
     [
-      "cathédrale",
-      "palais",
-      "obélisque",
-      "dégainer"
+      "abeille",
+      "musclé",
+      "ville",
+      "larve"
     ],
     [
-      "statue",
-      "oignon",
-      "fontaine",
-      "mémorial"
+      "prêle",
+      "entomologiste",
+      "mouche",
+      "scarabée"
     ],
     [
-      "tour",
-      "tristesse",
-      "bigarade",
-      "pyramide"
+      "Parker",
+      "papillon",
+      "silurien",
+      "chrono"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
-    2
-  ],
-  "colClues": [
-    3,
     2,
     3,
-    2
+    1
   ],
-  "themeWord": "monument",
+  "colClues": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "themeWord": "insecte",
   "solution": [
     [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
-      true,
+      false,
       true
     ],
     [
@@ -66,7 +54,19 @@
       false,
       false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 8
 }

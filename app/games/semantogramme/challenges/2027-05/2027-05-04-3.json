@@ -5,75 +5,83 @@
   "height": 6,
   "words": [
     [
-      "antibiotique",
-      "agréable",
-      "instrument",
-      "jouer",
-      "paisible",
-      "corps-de-ballet"
+      "trapèze",
+      "serpent",
+      "déduction",
+      "ancien",
+      "mélodie",
+      "porteur"
     ],
     [
-      "clouer",
-      "gastéropode",
-      "aiguë",
-      "sérénade",
-      "corde",
-      "crèche"
+      "pipeau",
+      "exploitation",
+      "lèvres",
+      "appeler",
+      "idiome",
+      "court"
     ],
     [
-      "ville",
-      "rapide",
-      "pincer",
-      "pouce",
-      "localité",
-      "tremolo"
+      "perception",
+      "triompher",
+      "cloporte",
+      "décathlon",
+      "berger",
+      "train"
     ],
     [
-      "cnidaire",
-      "plectre",
-      "carotte",
-      "permis",
-      "lustrer",
-      "manche"
+      "Pythonisse",
+      "arbitre",
+      "réincarnation",
+      "trille",
+      "Limoges",
+      "Friedrich"
     ],
     [
-      "folklore",
-      "irriter",
-      "caisse",
-      "rideau",
-      "sicile",
-      "mélodieuse"
+      "mangrove",
+      "ontologie",
+      "pivoines",
+      "admirer",
+      "merle",
+      "bouilloire"
     ],
     [
-      "gratter",
-      "esquif",
-      "sucrée",
-      "italie",
-      "iceberg",
-      "venise"
+      "huer",
+      "buffet",
+      "air",
+      "doigts",
+      "vent",
+      "pinson"
     ]
   ],
   "rowClues": [
-    3,
-    3,
+    2,
     3,
     2,
-    4,
-    3
+    2,
+    3,
+    5
   ],
   "colClues": [
     2,
-    3,
-    4,
-    3,
     2,
-    4
+    2,
+    4,
+    4,
+    3
   ],
-  "themeWord": "mandoline",
+  "themeWord": "siffler",
   "solution": [
     [
       false,
       true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
       true,
       true,
       false,
@@ -82,43 +90,35 @@
     [
       false,
       false,
+      false,
+      false,
       true,
+      true
+    ],
+    [
+      false,
       true,
+      false,
       true,
+      false,
       false
     ],
     [
       false,
-      true,
-      true,
       false,
-      false,
-      true
-    ],
-    [
       false,
       true,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
       true,
       true
     ],
     [
       true,
       false,
-      false,
       true,
-      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 18
+  "parMoves": 17
 }

@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "masque",
-      "aiguisoir",
-      "goûter",
-      "débutant"
+      "orchestre",
+      "ketchup",
+      "champagne",
+      "Onfray"
     ],
     [
-      "héros",
-      "préface",
-      "expérience",
-      "char"
+      "vélin",
+      "traversière",
+      "musique",
+      "trou"
     ],
     [
-      "confetti",
-      "meurtrier",
-      "muscade",
-      "défilé"
+      "pipeau",
+      "souffle",
+      "Pan",
+      "Bambi"
     ],
     [
-      "mérinos",
-      "parade",
-      "déguisement",
-      "maquillage"
+      "dégoût",
+      "Mozart",
+      "poils",
+      "veilleur"
     ]
   ],
   "rowClues": [
-    1,
-    1,
     2,
-    3
+    3,
+    3,
+    1
   ],
   "colClues": [
     2,
-    1,
-    1,
-    3
+    3,
+    3,
+    1
   ],
-  "themeWord": "carnaval",
+  "themeWord": "flûte",
   "solution": [
     [
       true,
       false,
-      false,
+      true,
       false
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ],
     [
       true,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
       false,
       true,
-      true,
-      true
+      false,
+      false
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

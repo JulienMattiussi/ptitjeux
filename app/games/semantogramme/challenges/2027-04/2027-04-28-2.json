@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "interminable",
-      "masse",
-      "tactile",
-      "calculer",
-      "chagrin"
+      "machine",
+      "inouï",
+      "castagnettes",
+      "Archimède",
+      "château"
     ],
     [
-      "pleurer",
-      "peine",
-      "deuil",
-      "consacrer",
-      "mélancolie"
+      "manette",
+      "trébuchet",
+      "patrouille",
+      "tanière",
+      "dénuder"
     ],
     [
-      "minimaliste",
-      "douleur",
-      "houle",
-      "nocturne",
-      "vertigineux"
+      "sauce",
+      "trou",
+      "siège",
+      "laver",
+      "Minnie"
     ],
     [
-      "voluptueuse",
-      "s'affliger",
-      "sécateur",
-      "sangloter",
-      "larme"
+      "assiégeant",
+      "Kafka",
+      "romain",
+      "lancer",
+      "Astérix"
     ],
     [
-      "sinistre",
-      "lugubre",
-      "nausée",
-      "morosité",
-      "oisiveté"
+      "boulet",
+      "porte-avions",
+      "Man-Ray",
+      "Moyen-Âge",
+      "pierre"
     ]
   ],
   "rowClues": [
+    3,
+    1,
     1,
     4,
-    1,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
     3,
     3
   ],
-  "colClues": [
-    2,
-    4,
-    1,
-    2,
-    3
-  ],
-  "themeWord": "triste",
+  "themeWord": "catapulte",
   "solution": [
     [
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       false,
+      false,
+      true,
       true
     ],
     [
@@ -79,8 +72,15 @@
     ],
     [
       false,
+      false,
       true,
       false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       true,
       true
     ],
@@ -89,8 +89,8 @@
       true,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "addition",
-      "juvénile",
-      "géométrie",
-      "fraction"
+      "jambes",
+      "assiette",
+      "gaspacho",
+      "récompense"
     ],
     [
-      "éternuer",
-      "puissance",
-      "division",
-      "tamarin"
+      "légumes",
+      "pure",
+      "pistou",
+      "vermicelle"
     ],
     [
-      "journal",
-      "calcul",
-      "soustraction",
-      "collant"
+      "potage",
+      "cher",
+      "bouillon",
+      "velouté"
     ],
     [
-      "héros",
-      "nombre",
-      "accord",
-      "navire"
+      "réglisse",
+      "calvitie",
+      "assistante",
+      "minestrone"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    2,
-    2,
+    3,
     1
   ],
   "colClues": [
+    2,
     1,
     3,
-    3,
-    1
+    3
   ],
-  "themeWord": "mathématique",
+  "themeWord": "soupe",
   "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
     [
       true,
       false,
@@ -51,22 +63,10 @@
     ],
     [
       false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      true,
-      false
-    ],
-    [
       false,
-      true,
-      false,
-      false
+      true
     ]
   ],
-  "parMoves": 8
+  "parMoves": 9
 }

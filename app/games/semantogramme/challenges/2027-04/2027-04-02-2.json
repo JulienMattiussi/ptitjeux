@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "croquis",
-      "griffonner",
-      "engin",
-      "feuille",
-      "esquisse"
+      "colonnade",
+      "impudence",
+      "détective",
+      "Google",
+      "bravo"
     ],
     [
-      "fournil",
-      "illustrer",
-      "feutre",
-      "finesse",
-      "tracer"
+      "trouver",
+      "ménisque",
+      "misanthropie",
+      "purgatoire",
+      "fouiner"
     ],
     [
-      "délai",
-      "salin",
-      "enfermer",
-      "crayon",
-      "pinceau"
+      "piémont",
+      "perdu",
+      "camélia",
+      "juron",
+      "enquête"
     ],
     [
-      "silhouette",
-      "pousser",
-      "fusain",
-      "contracter",
-      "consistant"
+      "Montmorency",
+      "furet",
+      "tapas",
+      "piste",
+      "farfouiller"
     ],
     [
-      "étrenner",
-      "opportuniste",
-      "caricature",
-      "péniche",
-      "caniveau"
+      "explorer",
+      "investiguer",
+      "brun",
+      "trésor",
+      "fouiller"
     ]
   ],
   "rowClues": [
-    4,
+    2,
+    2,
+    2,
     3,
-    2,
-    2,
-    1
+    4
   ],
   "colClues": [
     2,
-    2,
     3,
-    2,
-    3
+    1,
+    3,
+    4
   ],
-  "themeWord": "dessiner",
+  "themeWord": "chercher",
   "solution": [
     [
-      true,
-      true,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      true,
-      false,
       false
     ],
     [
+      true,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       false,
       true,
       false,
-      false
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

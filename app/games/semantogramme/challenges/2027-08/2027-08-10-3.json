@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-10-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "voix",
+      "affabuler",
+      "décolleté",
+      "araignée",
+      "chorale",
+      "turbo"
+    ],
+    [
+      "tragédie",
+      "basse",
+      "alto",
+      "escarpé",
+      "église",
+      "glacier"
+    ],
+    [
+      "Ravenne",
+      "ensemble",
+      "verrière",
+      "osseux",
+      "chef",
+      "clepsydre"
+    ],
+    [
+      "hurler",
+      "chanteur",
+      "logo",
+      "confesseur",
+      "aiguilles",
+      "centième"
+    ],
+    [
+      "grecque",
+      "tendinite",
+      "polyphonie",
+      "soprano",
+      "Sophie",
+      "autel"
+    ],
+    [
+      "cathédrale",
+      "stalle",
+      "abside",
+      "pamplemousse",
+      "Graal",
+      "Orwell"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    2,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    4,
+    4,
+    3,
+    1,
+    3,
+    1
+  ],
+  "themeWord": "choeur",
+  "solution": [
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "parMoves": 16
+}

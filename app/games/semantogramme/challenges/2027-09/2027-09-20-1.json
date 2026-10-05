@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-20-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "chrono",
+      "pousse",
+      "tournesol",
+      "pédagogie"
+    ],
+    [
+      "apprenti",
+      "Keats",
+      "terre",
+      "noyau"
+    ],
+    [
+      "ranger",
+      "germer",
+      "pissenlit",
+      "sachet"
+    ],
+    [
+      "germination",
+      "Chartreuse",
+      "flou",
+      "pépin"
+    ]
+  ],
+  "rowClues": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "colClues": [
+    1,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "graine",
+  "solution": [
+    [
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 8
+}

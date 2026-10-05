@@ -5,49 +5,55 @@
   "height": 4,
   "words": [
     [
-      "herbe",
-      "procès",
-      "croisée",
-      "baie"
+      "lancement",
+      "note",
+      "alpage",
+      "drapeau"
     ],
     [
-      "volet",
-      "verre",
-      "triompher",
-      "vaillance"
+      "fantaisie",
+      "urne",
+      "mariage",
+      "lignite"
     ],
     [
-      "amitié",
-      "persienne",
-      "encadrement",
-      "oculus"
+      "écharpe",
+      "conseil",
+      "mijoter",
+      "dose"
     ],
     [
-      "imposte",
-      "risquer",
-      "légendaire",
-      "vitre"
+      "commune",
+      "Hôtel-de-Ville",
+      "ci-gît",
+      "tricolore"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
-    2
-  ],
-  "colClues": [
-    2,
+    1,
     2,
     2,
     3
   ],
-  "themeWord": "fenêtre",
+  "colClues": [
+    2,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "mairie",
   "solution": [
     [
       false,
       false,
-      true,
+      false,
       true
+    ],
+    [
+      false,
+      true,
+      true,
+      false
     ],
     [
       true,
@@ -56,17 +62,11 @@
       false
     ],
     [
-      false,
       true,
       true,
-      true
-    ],
-    [
-      true,
-      false,
       false,
       true
     ]
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

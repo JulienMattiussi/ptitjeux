@@ -5,93 +5,102 @@
   "height": 7,
   "words": [
     [
-      "poireau",
-      "vase",
-      "armure",
-      "distinctif",
-      "homme",
-      "comparer",
-      "préhistoire"
+      "sommeil",
+      "Nancy",
+      "prophète",
+      "prairie",
+      "colonie",
+      "luth",
+      "flatteur"
     ],
     [
-      "ethnologue",
-      "ichtyologue",
-      "haltère",
-      "enclaver",
-      "quaternaire",
-      "pulluler",
-      "précoce"
+      "Renoir",
+      "céleste",
+      "fourrure",
+      "oisiveté",
+      "hiver",
+      "transposer",
+      "rongeur"
     ],
     [
-      "laboratoire",
-      "roche",
-      "évolution",
-      "banquise",
-      "échine",
-      "ciselure",
-      "holocène"
+      "maîtresse",
+      "repriser",
+      "montagne",
+      "intelligence",
+      "Pyrénées",
+      "sifflement",
+      "dormir"
     ],
     [
-      "cligner",
-      "spiritual",
-      "planche",
-      "fermenter",
-      "géologique",
-      "matutinal",
-      "pressentir"
+      "cockpit",
+      "modernité",
+      "Mont-Blanc",
+      "rougeur",
+      "pneumonie",
+      "Finlande",
+      "glissade"
     ],
     [
-      "culmination",
-      "fossile",
-      "engager",
-      "pliocène",
-      "glacier",
-      "transilvanien",
-      "trôner"
+      "flottante",
+      "Duchamp",
+      "Vienne",
+      "Gizeh",
+      "Savoie",
+      "Americano",
+      "justice"
     ],
     [
-      "mammouth",
-      "climat",
-      "pelote",
-      "effrayant",
-      "récent",
-      "boccioni",
-      "peintre"
+      "profiter",
+      "Alpes",
+      "damnation",
+      "apnée",
+      "caustique",
+      "simplifier",
+      "effets"
     ],
     [
-      "ancien",
-      "défaillir",
-      "détresse",
-      "frein",
-      "baver",
-      "continental",
-      "ère"
+      "morse",
+      "performance",
+      "terrier",
+      "automne",
+      "pluvieux",
+      "boule",
+      "Mansart"
     ]
   ],
   "rowClues": [
-    2,
+    3,
+    3,
+    4,
+    1,
+    1,
+    1,
+    2
+  ],
+  "colClues": [
+    1,
     1,
     4,
     1,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
+    4,
     2,
-    3,
-    1,
-    2,
-    5,
-    1,
-    3
+    2
   ],
-  "themeWord": "pléistocène",
+  "themeWord": "marmotte",
   "solution": [
     [
+      true,
       false,
       false,
+      true,
+      true,
       false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
       false,
       true,
       false,
@@ -100,24 +109,24 @@
     [
       false,
       false,
-      false,
-      false,
       true,
-      false,
-      false
-    ],
-    [
       false,
       true,
       true,
-      true,
-      false,
-      false,
       true
     ],
     [
       false,
       false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
@@ -128,29 +137,20 @@
       false,
       true,
       false,
-      true,
-      true,
+      false,
+      false,
       false,
       false
     ],
     [
-      true,
-      true,
       false,
       false,
       true,
       false,
+      false,
+      true,
       false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
     ]
   ],
-  "parMoves": 17
+  "parMoves": 15
 }

@@ -5,66 +5,59 @@
   "height": 5,
   "words": [
     [
-      "transpiration",
-      "éponge",
-      "résistant",
-      "mouiller",
-      "spongieux"
+      "muraille",
+      "pérennité",
+      "maçon",
+      "molaire",
+      "coffrage"
     ],
     [
-      "brume",
-      "ouïe",
-      "cave",
-      "occupé",
-      "serpillière"
+      "osier",
+      "gravier",
+      "mortier",
+      "propulsion",
+      "granulat"
     ],
     [
-      "épier",
-      "marais",
-      "médecin",
-      "pluie",
-      "extension"
+      "bitume",
+      "pilier",
+      "mythologie",
+      "ciment",
+      "Corbusier"
     ],
     [
-      "ictère",
-      "extase",
-      "moite",
-      "mixte",
-      "rosée"
+      "foi",
+      "tricheur",
+      "parpaing",
+      "construction",
+      "cent"
     ],
     [
-      "mousson",
-      "détrempé",
-      "recourbé",
-      "humecter",
-      "imbiber"
+      "pataud",
+      "chape",
+      "hérédité",
+      "carnivore",
+      "droit"
     ]
   ],
   "rowClues": [
-    4,
+    2,
     3,
+    4,
     2,
-    2,
-    4
+    1
   ],
   "colClues": [
+    1,
     3,
     3,
     2,
-    3,
-    4
+    3
   ],
-  "themeWord": "humide",
+  "themeWord": "béton",
   "solution": [
     [
-      true,
-      true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
       false,
       true,
       false,
@@ -73,24 +66,31 @@
     [
       false,
       true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
       true,
       false
     ],
     [
       false,
-      false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      true,
       false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 12
 }

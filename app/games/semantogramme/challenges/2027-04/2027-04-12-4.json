@@ -5,96 +5,141 @@
   "height": 7,
   "words": [
     [
-      "épurer",
-      "négation",
-      "dédicacer",
-      "simplicité",
-      "mouvement",
-      "sobre",
-      "contemporain"
+      "Croisette",
+      "tabouret",
+      "Faust",
+      "fiscal",
+      "Mésopotamie",
+      "procrastiner",
+      "loupe"
     ],
     [
-      "opérer",
-      "capricorne",
-      "art",
-      "phonétique",
-      "labyrinthe",
-      "mât",
-      "rigoureux"
+      "épingle",
+      "papillon",
+      "larve",
+      "granulat",
+      "étage",
+      "discrétion",
+      "regarder"
     ],
     [
-      "pur",
-      "sucrée",
-      "épargne",
-      "signature",
-      "sport",
-      "lewitt",
-      "remplir"
+      "coltiner",
+      "éternel",
+      "Buffalo-Bill",
+      "collection",
+      "impair",
+      "vandalisme",
+      "Valais"
     ],
     [
-      "géométrique",
-      "réduire",
-      "dressage",
-      "raffinement",
-      "molécule",
-      "judd",
-      "saturer"
+      "ricaneur",
+      "chimérique",
+      "processeur",
+      "Word",
+      "élytre",
+      "filet",
+      "GR"
     ],
     [
-      "liaison",
-      "dépouillé",
-      "montagne",
-      "mandat",
-      "pliage",
-      "multitude",
-      "radieux"
+      "embrun",
+      "écrou",
+      "gazouillis",
+      "Arabes",
+      "fourmi",
+      "passagers",
+      "dogme"
     ],
     [
-      "photographe",
-      "essentiel",
-      "adoration",
-      "emporter",
-      "fondamental",
-      "frisbee",
-      "gastronomie"
+      "spécimen",
+      "scarabée",
+      "caboche",
+      "boîte",
+      "abeille",
+      "brindille",
+      "métamorphose"
     ],
     [
-      "premier",
-      "cligner",
-      "balle",
-      "austère",
-      "violette",
-      "décisif",
-      "noisetier"
+      "express",
+      "Comte",
+      "Muséum",
+      "matelas",
+      "bluffant",
+      "coléoptère",
+      "prêt"
     ]
   ],
   "rowClues": [
+    1,
+    3,
+    1,
+    2,
+    1,
     5,
-    2,
-    2,
-    3,
-    1,
-    2,
-    1
-  ],
-  "colClues": [
-    3,
-    3,
-    1,
-    2,
-    2,
-    3,
     2
   ],
-  "themeWord": "minimalisme",
+  "colClues": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2
+  ],
+  "themeWord": "entomologie",
   "solution": [
     [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       false,
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
       true
     ],
     [
@@ -103,54 +148,9 @@
       true,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 15
 }

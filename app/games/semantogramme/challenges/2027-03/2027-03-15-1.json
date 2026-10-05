@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "climat",
-      "jardin",
-      "bulbe",
-      "girouette"
+      "carotte",
+      "taire",
+      "constance",
+      "expectoration"
     ],
     [
-      "parterre",
-      "ver",
-      "département",
-      "printemps"
+      "courgette",
+      "épinard",
+      "lames",
+      "chou"
     ],
     [
-      "gingembre",
-      "rose",
-      "pétale",
-      "rabbin"
+      "soupe",
+      "galon",
+      "cent",
+      "loisir"
     ],
     [
-      "argent",
-      "citerne",
-      "tarot",
-      "hollande"
+      "épuisé",
+      "poireau",
+      "maraîcher",
+      "potager"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    2,
-    1
+    1,
+    3,
+    1,
+    3
   ],
   "colClues": [
+    3,
+    2,
     1,
-    2,
-    2,
     2
   ],
-  "themeWord": "tulipe",
+  "themeWord": "légume",
   "solution": [
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false
     ],
     [
       true,
-      false,
+      true,
       false,
       true
     ],
     [
+      true,
       false,
-      true,
-      true,
+      false,
       false
     ],
     [
       false,
-      false,
-      false,
+      true,
+      true,
       true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 8
 }

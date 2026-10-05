@@ -5,47 +5,53 @@
   "height": 4,
   "words": [
     [
-      "harpie",
-      "protéger",
-      "mât",
-      "rayonner"
+      "master",
+      "Fourier",
+      "excès",
+      "examen"
     ],
     [
-      "ennui",
-      "noirâtre",
-      "cordage",
-      "régate"
+      "magnum",
+      "licence",
+      "amphithéâtre",
+      "gratte-ciel"
     ],
     [
-      "granuleux",
-      "marin",
-      "pantomime",
-      "écoute"
+      "Afro-Américain",
+      "chanson",
+      "Sorbonne",
+      "faculté"
     ],
     [
-      "pavillon",
-      "bôme",
-      "pédestre",
-      "vague"
+      "îles",
+      "professeur",
+      "diplôme",
+      "adéquat"
     ]
   ],
   "rowClues": [
-    1,
     2,
     2,
-    3
+    2,
+    2
   ],
   "colClues": [
     1,
     2,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "voile",
+  "themeWord": "université",
   "solution": [
     [
+      true,
       false,
       false,
+      true
+    ],
+    [
+      false,
+      true,
       true,
       false
     ],
@@ -58,14 +64,8 @@
     [
       false,
       true,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 8

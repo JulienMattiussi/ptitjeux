@@ -1,299 +1,184 @@
+import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { Rng } from '~/lib/random'
 import type { Level } from '~/games/semantogramme/types'
-import { CURATED_THEMES_L1 } from './curated-themes-l1'
-import { CURATED_THEMES_L2 } from './curated-themes-l2'
-import { CURATED_THEMES_L3 } from './curated-themes-l3'
-import { CURATED_THEMES_L4 } from './curated-themes-l4'
-import { FILLER_WORDS, THEMES } from './themes'
+import {
+  LEVELS,
+  REUSE_GAP,
+  loadCuration,
+  revealsTheme,
+  type Curation,
+  type ThemeLevel,
+} from './semantogramme-curation'
+import { normalizeWord, sameFamily } from './semantogramme-rules'
+
+/** Taille de grille et nombre de cases « thème », tiré dans [nMin, nMax]. */
+const GRID: Record<ThemeLevel, { size: number; nMin: number; nMax: number }> = {
+  1: { size: 4, nMin: 7, nMax: 10 },
+  2: { size: 5, nMin: 11, nMax: 15 },
+  3: { size: 6, nMin: 14, nMax: 18 },
+  4: { size: 7, nMin: 15, nMax: 19 },
+}
+
+const MAX_SHUFFLES = 1000
+
+/** Domaine de sens → thèmes (tous niveaux confondus), voir `semantogramme-curation/`. */
+export type Domains = Record<string, string[]>
+
+let plan: Map<string, Level> | undefined
 
 /**
- * Génère un niveau Sémantogramme pour une date et un index donnés.
- *
- * Pour les niveaux 1, 2 et 3, on regarde d'abord si un thème curé existe
- * pour cette date (`CURATED_THEMES_L1/L2/L3`). Si oui, on génère un puzzle
- * qui utilise ce thème avec un N tiré aléatoirement dans une fenêtre
- * dépendant du niveau, des membres distincts (pas de répétition dans la
- * grille), et des fillers également distincts piochés dans le **pool
- * cross-thèmes** (membres des autres thèmes curés L1 ∪ L2 ∪ L3).
- *
- * Sinon (ou pour le niveau 4) on retombe sur le template aléatoire
- * historique : grille N × N (4..7), thème pioché parmi les 10 thèmes
- * en dur, ~50 % de cases « thème », mots possiblement répétés.
+ * Niveau Sémantogramme d'une date. Toute l'année est planifiée d'un coup
+ * (`planYear`) : les mots hors thème d'un jour dépendent de ceux des jours
+ * précédents (règle 3), un niveau ne se génère donc pas isolément.
  */
 export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): Level {
-  if (index === 1 && CURATED_THEMES_L1[date]) {
-    return generateCurated(date, 1, CURATED_THEMES_L1[date], {
-      size: 4,
-      nMin: 7,
-      nMax: 10,
-    })
-  }
-  if (index === 2 && CURATED_THEMES_L2[date]) {
-    return generateCurated(date, 2, CURATED_THEMES_L2[date], {
-      size: 5,
-      nMin: 11,
-      nMax: 15,
-    })
-  }
-  if (index === 3 && CURATED_THEMES_L3[date]) {
-    return generateCurated(date, 3, CURATED_THEMES_L3[date], {
-      size: 6,
-      nMin: 14,
-      nMax: 18,
-    })
-  }
-  if (index === 4 && CURATED_THEMES_L4[date]) {
-    return generateCurated(date, 4, CURATED_THEMES_L4[date], {
-      size: 7,
-      nMin: 15,
-      nMax: 19,
-    })
-  }
+  plan ??= planYear(loadCuration(), loadDomains())
+  const level = plan.get(`${date}-${index}`)
+  if (!level) throw new Error(`Sémantogramme : aucun thème curé le ${date} au niveau ${index}`)
+  return level
+}
 
-  const size = 3 + index // 4, 5, 6, 7
-  const width = size
-  const height = size
-  const rng = new Rng(`semantogramme:${date}:${index}`)
-  const theme = rng.pick(THEMES)
-
-  // Solution : ~50 % de cases thème. On garantit au moins 1 case thème par
-  // ligne et par colonne pour que le puzzle soit informatif.
-  const solution: boolean[][] = Array.from({ length: height }, () =>
-    Array.from({ length: width }, () => rng.random() < 0.5),
-  )
-  // Au moins une case « thème » par ligne et par colonne (sinon clue 0 partout) :
-  for (let y = 0; y < height; y++) {
-    if (!solution[y].some((v) => v)) {
-      solution[y][rng.nextInt(width)] = true
-    }
-  }
-  for (let x = 0; x < width; x++) {
-    let any = false
-    for (let y = 0; y < height; y++) {
-      if (solution[y][x]) {
-        any = true
-        break
-      }
-    }
-    if (!any) solution[rng.nextInt(height)][x] = true
-  }
-
-  // Au moins une case « hors thème » par ligne (sinon clue = width partout, pas marrant).
-  // On choisit une colonne qui a strictement plus d'1 IN pour ne pas casser
-  // l'invariant « ≥1 IN par colonne » établi juste au-dessus.
-  for (let y = 0; y < height; y++) {
-    if (!solution[y].every((v) => v)) continue
-    const candidates: number[] = []
-    for (let x = 0; x < width; x++) {
-      let count = 0
-      for (let yy = 0; yy < height; yy++) if (solution[yy][x]) count++
-      if (count > 1) candidates.push(x)
-    }
-    // Au moins une colonne en a forcément plusieurs (width≤height invariant)
-    const x =
-      candidates.length > 0 ? candidates[rng.nextInt(candidates.length)] : rng.nextInt(width)
-    solution[y][x] = false
-  }
-
-  // Pose les mots
-  const words: string[][] = []
-  for (let y = 0; y < height; y++) {
-    const row: string[] = []
-    for (let x = 0; x < width; x++) {
-      if (solution[y][x]) {
-        row.push(rng.pick(theme.members))
-      } else {
-        row.push(rng.pick(FILLER_WORDS))
-      }
-    }
-    words.push(row)
-  }
-
-  // Clues
-  const rowClues = solution.map((row) => row.filter(Boolean).length)
-  const colClues: number[] = []
-  for (let x = 0; x < width; x++) {
-    let count = 0
-    for (let y = 0; y < height; y++) {
-      if (solution[y][x]) count++
-    }
-    colClues.push(count)
-  }
-
-  // Le minimum de clics pour résoudre = nombre exact de cases « IN » :
-  // il suffit de marquer chacune d'elles (les non-thème peuvent rester
-  // vides). Aucune marge : un seul clic perdu ou en trop bascule en `solved`.
-  const inCount = solution.flat().filter(Boolean).length
-  const parMoves = inCount
-
-  return {
-    id: `${date}-${index}`,
-    name: `Niveau ${index} · ${width}×${height}`,
-    width,
-    height,
-    words,
-    rowClues,
-    colClues,
-    themeWord: theme.word,
-    solution,
-    parMoves,
-  }
+export function loadDomains(): Domains {
+  const file = join(import.meta.dirname, 'semantogramme-curation', 'domains.json')
+  return JSON.parse(readFileSync(file, 'utf-8')) as Domains
 }
 
 /**
- * Génère un niveau Sémantogramme curé (L1 ou L2).
- *
- * - Grille `size × size`, N IN tiré aléatoirement dans `[nMin, nMax]`.
- * - Tous les mots placés (membres et fillers) sont **distincts** — pas de
- *   répétition dans la grille.
- * - Les fillers viennent du **pool cross-thèmes** : membres de tous les
- *   autres thèmes curés L1 ∪ L2, hors membres du thème courant et hors
- *   mot-thème lui-même. Cette stratégie évite les pools génériques qui
- *   contiennent des mots sémantiquement ambigus (ex. « banquier » comme
- *   filler dans une grille « métier »).
- *
- * Règle d'audit : si un mot appartient sémantiquement à plusieurs thèmes
- * (ex. « voile » pour mer ET transport), il faut l'inclure dans **tous**
- * les `members` concernés pour qu'il ne se retrouve jamais filler dans
- * l'un quand il est légitime IN.
+ * Planifie tous les niveaux du calendrier, jour après jour. Les mots hors
+ * thème sont piochés parmi les mots des autres thèmes et respectent :
+ * - règle 2 : tous les mots d'un jour sont différents, et différents des thèmes du jour ;
+ * - règle 3 : aucun mot commun avec les deux jours précédents ni les deux suivants ;
+ * - règle 4 : pas deux mots de la même famille dans une grille, ni un mot qui trahit le thème ;
+ * - règle 5 (approchée) : pas de mot d'un thème du même domaine de sens, ni d'un
+ *   thème lié (dont la liste contient le thème courant, ou l'inverse).
  */
-function generateCurated(
+export function planYear(curation: Curation, domains: Domains): Map<string, Level> {
+  const days = curation.schedule['1'].map((t) => t.date)
+  const themeOf = (level: ThemeLevel, day: number) => curation.schedule[level][day].word
+  const membersOf = (level: ThemeLevel, day: number) =>
+    curation.words[`${level}|${themeOf(level, day)}`]
+
+  const domainsOfTheme = new Map<string, string[]>()
+  for (const [domain, themes] of Object.entries(domains)) {
+    for (const t of themes) domainsOfTheme.set(t, [...(domainsOfTheme.get(t) ?? []), domain])
+  }
+
+  const allThemes = LEVELS.flatMap((l) =>
+    curation.schedule[l].map((t) => ({
+      word: t.word,
+      normalized: normalizeWord(t.word),
+      list: curation.words[`${l}|${t.word}`].map(normalizeWord),
+    })),
+  )
+  const pool = [...new Set(Object.values(curation.words).flat())]
+
+  /** Mots qu'aucun mot hors thème du thème `key` ne doit être (règle 5 approchée). */
+  function relatedWords(level: ThemeLevel, theme: string): Set<string> {
+    const t = normalizeWord(theme)
+    const own = new Set(curation.words[`${level}|${theme}`].map(normalizeWord))
+    const myDomains = new Set(domainsOfTheme.get(theme) ?? [])
+    const related = new Set<string>()
+    for (const other of allThemes) {
+      const sameDomain = (domainsOfTheme.get(other.word) ?? []).some((d) => myDomains.has(d))
+      const linked = other.list.includes(t) || own.has(other.normalized)
+      if (sameDomain || linked) {
+        related.add(other.normalized)
+        for (const w of other.list) related.add(w)
+      }
+    }
+    return related
+  }
+
+  const fillersOfDay: Set<string>[] = []
+  const levels = new Map<string, Level>()
+
+  days.forEach((date, day) => {
+    // Réservé : tous les mots et thèmes des jours voisins, plus les mots hors
+    // thème déjà posés sur les jours précédents.
+    const reserved = new Set<string>()
+    for (let d = day - REUSE_GAP + 1; d <= day + REUSE_GAP - 1; d++) {
+      if (d < 0 || d >= days.length) continue
+      for (const l of LEVELS) {
+        reserved.add(normalizeWord(themeOf(l, d)))
+        for (const w of membersOf(l, d)) reserved.add(normalizeWord(w))
+      }
+      for (const w of fillersOfDay[d] ?? []) reserved.add(w)
+    }
+    fillersOfDay[day] = new Set()
+
+    for (const level of LEVELS) {
+      const theme = themeOf(level, day)
+      const { size, nMin, nMax } = GRID[level]
+      const rng = new Rng(`semantogramme:${date}:${level}`)
+      const n = nMin + rng.nextInt(nMax - nMin + 1)
+      const members = rng.shuffle(membersOf(level, day).slice()).slice(0, n)
+
+      const related = relatedWords(level, theme)
+      const chosen = [...members]
+      const fillers: string[] = []
+      for (const candidate of rng.shuffle(pool.slice())) {
+        if (fillers.length === size * size - n) break
+        const c = normalizeWord(candidate)
+        if (reserved.has(c) || related.has(c)) continue
+        if (revealsTheme(candidate, theme)) continue
+        if (chosen.some((w) => sameFamily(w, candidate))) continue
+        fillers.push(candidate)
+        chosen.push(candidate)
+        reserved.add(c)
+        fillersOfDay[day].add(c)
+      }
+      if (fillers.length < size * size - n) {
+        throw new Error(`Sémantogramme ${date} L${level} : pas assez de mots hors thème`)
+      }
+      levels.set(`${date}-${level}`, buildLevel(date, level, theme, members, fillers, rng))
+    }
+  })
+  return levels
+}
+
+/**
+ * Place les mots dans la grille, en re-mélangeant jusqu'à ce que chaque ligne
+ * et chaque colonne ait au moins une case thème et une case hors thème : un
+ * indice à 0 ou égal à la largeur appauvrirait le puzzle.
+ */
+function buildLevel(
   date: string,
-  levelIndex: 1 | 2 | 3 | 4,
-  curated: { word: string; members: readonly string[] },
-  config: { size: number; nMin: number; nMax: number },
+  level: ThemeLevel,
+  theme: string,
+  members: string[],
+  fillers: string[],
+  rng: Rng,
 ): Level {
-  const { size, nMin, nMax } = config
-  const width = size
-  const height = size
-  const rng = new Rng(`semantogramme:${date}:${levelIndex}`)
-  const memberSet = new Set<string>(curated.members)
-  if (memberSet.size !== curated.members.length) {
-    throw new Error(`Theme ${curated.word} L${levelIndex} : doublon dans la liste des membres`)
-  }
-  if (memberSet.has(curated.word)) {
-    throw new Error(
-      `Theme ${curated.word} L${levelIndex} : le mot-thème ne doit pas figurer dans ses propres membres`,
-    )
-  }
-  if (curated.members.length < nMax) {
-    throw new Error(
-      `Theme ${curated.word} (L${levelIndex}) a moins de ${nMax} membres curés (${curated.members.length})`,
-    )
-  }
-
-  const n = nMin + rng.nextInt(nMax - nMin + 1) // [nMin, nMax]
-  const totalCells = width * height
-  const fillerCount = totalCells - n
-
-  // Tire N membres distincts.
-  const shuffledMembers = rng.shuffle(curated.members.slice())
-  const chosenMembers = shuffledMembers.slice(0, n)
-
-  // Pool de fillers = membres de tous les **autres** thèmes curés (L1 ∪ L2).
-  // Un membre du thème courant n'est jamais filler (auto-exclu via memberSet).
-  // Le mot-thème lui-même ne doit jamais apparaître comme filler dans son
-  // propre puzzle (sinon le joueur le verrait dans la grille et le marquerait
-  // IN, alors qu'il est censé être OUT).
-  const fillerPool = new Set<string>()
-  const addFromMap = (
-    map: Record<string, { word: string; members: readonly string[] }>,
-    ownLevel: boolean,
-  ) => {
-    for (const [otherDate, otherTheme] of Object.entries(map)) {
-      if (ownLevel && otherDate === date) continue
-      for (const m of otherTheme.members) {
-        if (memberSet.has(m)) continue
-        if (m === curated.word) continue
-        fillerPool.add(m)
-      }
-    }
-  }
-  addFromMap(CURATED_THEMES_L1, levelIndex === 1)
-  addFromMap(CURATED_THEMES_L2, levelIndex === 2)
-  addFromMap(CURATED_THEMES_L3, levelIndex === 3)
-  addFromMap(CURATED_THEMES_L4, levelIndex === 4)
-  if (fillerPool.size < fillerCount) {
-    throw new Error(
-      `Pool de fillers trop petit pour le thème ${curated.word} L${levelIndex} (${fillerPool.size} < ${fillerCount})`,
-    )
-  }
-  const shuffledFillers = rng.shuffle(Array.from(fillerPool))
-  const chosenFillers = shuffledFillers.slice(0, fillerCount)
-
-  type Cell = { word: string; isIn: boolean }
-  const cells: Cell[] = [
-    ...chosenMembers.map((w) => ({ word: w, isIn: true })),
-    ...chosenFillers.map((w) => ({ word: w, isIn: false })),
+  const size = GRID[level].size
+  const cells = [
+    ...members.map((word) => ({ word, isIn: true })),
+    ...fillers.map((word) => ({ word, isIn: false })),
   ]
-
-  // On re-mélange jusqu'à ce que chaque ligne et chaque colonne contienne
-  // au moins une case IN ET au moins une case OUT. Sinon le joueur a un
-  // indice trivialement à 0 (colonne tout-OUT) ou égal à la largeur
-  // (colonne tout-IN), ce qui appauvrit le puzzle. La probabilité d'un
-  // mauvais tirage avec N proche des extrêmes [nMin, nMax] n'est pas
-  // négligeable (~40 % sur 5×5 / N=15) ; quelques shuffles supplémentaires
-  // suffisent en pratique.
-  const words: string[][] = []
-  const solution: boolean[][] = []
-  const MAX_ATTEMPTS = 1000
-  let attempt = 0
-  while (true) {
+  for (let attempt = 0; attempt < MAX_SHUFFLES; attempt++) {
     rng.shuffle(cells)
-    words.length = 0
-    solution.length = 0
-    for (let y = 0; y < height; y++) {
-      const row: string[] = []
-      const sol: boolean[] = []
-      for (let x = 0; x < width; x++) {
-        const c = cells[y * width + x]
-        row.push(c.word)
-        sol.push(c.isIn)
-      }
-      words.push(row)
-      solution.push(sol)
-    }
-    let ok = true
-    for (let y = 0; y < height && ok; y++) {
-      const inCount = solution[y].filter(Boolean).length
-      if (inCount === 0 || inCount === width) ok = false
-    }
-    for (let x = 0; x < width && ok; x++) {
-      let inCount = 0
-      for (let y = 0; y < height; y++) if (solution[y][x]) inCount++
-      if (inCount === 0 || inCount === height) ok = false
-    }
-    if (ok) break
-    attempt++
-    if (attempt >= MAX_ATTEMPTS) {
-      throw new Error(
-        `Impossible de placer ${curated.word} L${levelIndex} sans ligne/colonne extrême (${MAX_ATTEMPTS} essais)`,
-      )
+    const solution = Array.from({ length: size }, (_, y) =>
+      cells.slice(y * size, (y + 1) * size).map((c) => c.isIn),
+    )
+    const rowClues = solution.map((row) => row.filter(Boolean).length)
+    const colClues = Array.from({ length: size }, (_, x) => solution.filter((row) => row[x]).length)
+    const balanced = [...rowClues, ...colClues].every((c) => c > 0 && c < size)
+    if (!balanced) continue
+    return {
+      id: `${date}-${level}`,
+      name: `Niveau ${level} · ${size}×${size}`,
+      width: size,
+      height: size,
+      words: Array.from({ length: size }, (_, y) =>
+        cells.slice(y * size, (y + 1) * size).map((c) => c.word),
+      ),
+      rowClues,
+      colClues,
+      themeWord: theme,
+      solution,
+      // Le minimum de clics est le nombre de cases thème : pas de marge.
+      parMoves: members.length,
     }
   }
-
-  const rowClues = solution.map((row) => row.filter(Boolean).length)
-  const colClues: number[] = []
-  for (let x = 0; x < width; x++) {
-    let count = 0
-    for (let y = 0; y < height; y++) if (solution[y][x]) count++
-    colClues.push(count)
-  }
-
-  // Le minimum de clics = nombre exact de cases IN. Pas de marge : il faut
-  // viser pile poil pour décrocher la coche verte (« perfect »).
-  const parMoves = n
-
-  return {
-    id: `${date}-${levelIndex}`,
-    name: `Niveau ${levelIndex} · ${width}×${height}`,
-    width,
-    height,
-    words,
-    rowClues,
-    colClues,
-    themeWord: curated.word,
-    solution,
-    parMoves,
-  }
+  throw new Error(`Sémantogramme ${date} L${level} : grille équilibrée introuvable`)
 }

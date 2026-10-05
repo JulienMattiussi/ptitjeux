@@ -5,112 +5,139 @@
   "height": 7,
   "words": [
     [
-      "apéritif",
-      "modernité",
-      "émotion",
-      "avant-garde",
-      "distorsion",
-      "désirer",
-      "kirchner"
+      "haillons",
+      "bec",
+      "Friedrich",
+      "nuque",
+      "précis",
+      "épilation",
+      "ellipse"
     ],
     [
-      "translucide",
-      "crosse",
-      "corticoïde",
-      "violent",
-      "poindre",
-      "vénus",
-      "museau"
+      "arceau",
+      "gène",
+      "couffin",
+      "excellence",
+      "Nil",
+      "Camargue",
+      "César"
     ],
     [
-      "inflation",
-      "couleur",
-      "asiatique",
-      "regret",
-      "mise",
-      "mouvement",
-      "munch"
+      "jours",
+      "migration",
+      "marais",
+      "Bazille",
+      "magnifique",
+      "vasière",
+      "tiroir"
     ],
     [
-      "commun",
-      "épanouissement",
-      "angoisse",
-      "barbecue",
-      "rédiger",
-      "ancestral",
-      "calcium"
+      "galère",
+      "rush",
+      "mercerie",
+      "culmination",
+      "scribe",
+      "plumage",
+      "Égypte"
     ],
     [
-      "sombre",
-      "tortueux",
-      "toux",
-      "peinture",
-      "estran",
-      "brodeuse",
-      "panache"
+      "Thot",
+      "quetsche",
+      "dieu",
+      "petits",
+      "Confucius",
+      "tribu",
+      "momie"
     ],
     [
-      "écharpe",
-      "tirade",
-      "fraise",
-      "pathétique",
-      "joaillier",
-      "nolde",
-      "miniature"
+      "ravageur",
+      "chakra",
+      "hôtel",
+      "échassier",
+      "prédiction",
+      "colonie",
+      "chauve"
     ],
     [
-      "putter",
-      "subjectif",
-      "paume",
-      "tragique",
-      "gramme",
-      "diamant",
-      "quadrillage"
+      "Hannibal",
+      "carrière",
+      "sacré",
+      "Picabia",
+      "blanc",
+      "rouge",
+      "affaisser"
     ]
   ],
   "rowClues": [
-    4,
     1,
-    3,
-    1,
-    3,
     2,
-    2
+    3,
+    3,
+    3,
+    4,
+    3
   ],
   "colClues": [
     1,
-    3,
     2,
-    5,
+    4,
     1,
-    2,
-    2
+    3,
+    5,
+    3
   ],
-  "themeWord": "expressionnisme",
+  "themeWord": "ibis",
   "solution": [
     [
       false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       false,
       true,
       true,
+      false
+    ],
+    [
+      false,
       true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
       false,
       true
     ],
     [
       false,
       false,
-      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
       true,
-      false,
-      false,
       false,
       true,
       true
@@ -120,37 +147,10 @@
       false,
       true,
       false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false,
-      false,
       false
     ]
   ],
-  "parMoves": 16
+  "parMoves": 19
 }

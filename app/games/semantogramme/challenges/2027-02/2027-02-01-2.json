@@ -5,77 +5,63 @@
   "height": 5,
   "words": [
     [
-      "audition",
-      "majeur",
-      "tympan",
-      "veau",
-      "humecter"
+      "volontaire",
+      "gaz",
+      "déclaration",
+      "Roscoff",
+      "cacatoès"
     ],
     [
-      "taquiner",
-      "entendre",
-      "espiègle",
-      "pliocène",
-      "écouteur"
+      "bal",
+      "Ricoeur",
+      "Halloween",
+      "anonyme",
+      "Belladone"
     ],
     [
-      "bronchite",
-      "pavillon",
-      "bruit",
-      "or",
-      "son"
+      "Zorro",
+      "baobab",
+      "nuisible",
+      "chanter",
+      "arythmie"
     ],
     [
-      "écho",
-      "charger",
-      "casque",
-      "lobe",
-      "pull"
+      "chirurgical",
+      "borne",
+      "déguisement",
+      "haies",
+      "théâtre"
     ],
     [
-      "ouïe",
-      "londres",
-      "boucle",
-      "cérumen",
-      "sourd"
+      "troupe",
+      "visage",
+      "Fantômas",
+      "grognement",
+      "Venise"
     ]
   ],
   "rowClues": [
-    2,
-    2,
+    1,
     3,
+    1,
     3,
-    4
+    3
   ],
   "colClues": [
     3,
     2,
-    4,
-    2,
-    3
+    3,
+    1,
+    2
   ],
-  "themeWord": "oreille",
+  "themeWord": "masque",
   "solution": [
     [
-      true,
       false,
       true,
+      false,
       false,
       false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      true,
-      true,
-      false,
-      true
     ],
     [
       true,
@@ -87,10 +73,24 @@
     [
       true,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
+      false,
       true
     ]
   ],
-  "parMoves": 14
+  "parMoves": 11
 }

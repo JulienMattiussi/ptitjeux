@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "comique",
-      "verdict",
-      "circassien",
-      "chaussure",
-      "maquillage"
+      "observatoire",
+      "Limoux",
+      "mille-pattes",
+      "géant",
+      "X-Men"
     ],
     [
-      "gag",
-      "amuser",
-      "article",
-      "rouge",
-      "cirque"
+      "forgeron",
+      "existence",
+      "foudre",
+      "tatouage",
+      "Odyssée"
     ],
     [
-      "action",
-      "farce",
-      "lettre",
-      "glisser",
-      "manucure"
+      "mythologie",
+      "oeil",
+      "hammam",
+      "Parton",
+      "bousculer"
     ],
     [
-      "perruque",
-      "enfant",
-      "rigoler",
-      "chaperon",
-      "croûte"
+      "grotte",
+      "Polyphème",
+      "front",
+      "monstre",
+      "quadrant"
     ],
     [
-      "nez",
-      "irriguer",
-      "rire",
-      "organiste",
-      "arrondi"
+      "endives",
+      "berger",
+      "virulent",
+      "aveugler",
+      "Héphaïstos"
     ]
   ],
   "rowClues": [
-    4,
-    4,
     2,
     3,
-    2
+    2,
+    4,
+    3
   ],
   "colClues": [
-    4,
     3,
     3,
+    2,
     3,
-    2
+    3
   ],
-  "themeWord": "clown",
+  "themeWord": "cyclope",
   "solution": [
     [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
       true,
       false,
       true,
-      true,
+      false,
       true
     ],
     [
       true,
       true,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
       true,
       true
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 14
 }

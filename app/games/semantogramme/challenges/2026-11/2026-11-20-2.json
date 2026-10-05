@@ -5,81 +5,67 @@
   "height": 5,
   "words": [
     [
-      "mer",
-      "grippe",
-      "céleste",
-      "anchois",
-      "mensuel"
+      "calotte",
+      "réflecteur",
+      "Burke",
+      "crevasse",
+      "moraine"
     ],
     [
-      "planer",
-      "saumurer",
-      "judo",
-      "jambon",
-      "mécanique"
+      "Groenland",
+      "montagne",
+      "courbature",
+      "thésauriser",
+      "archange"
     ],
     [
-      "tunnel",
-      "laminaire",
-      "assaisonner",
-      "olive",
-      "morue"
+      "iceberg",
+      "compost",
+      "neige",
+      "sorbet",
+      "corbeau"
     ],
     [
-      "sel",
-      "légume",
-      "sauveteur",
-      "paysage",
-      "fournaise"
+      "VTT",
+      "plate-forme",
+      "fonte",
+      "névé",
+      "Flaubert"
     ],
     [
-      "sodé",
-      "sanctionner",
-      "saumâtre",
-      "mariner",
-      "foulard"
+      "réchauffement",
+      "Piaget",
+      "fondre",
+      "fratrie",
+      "fricassée"
     ]
   ],
   "rowClues": [
-    2,
+    3,
     2,
     3,
-    1,
-    3
+    2,
+    2
   ],
   "colClues": [
-    3,
-    1,
-    2,
     4,
+    1,
+    3,
+    3,
     1
   ],
-  "themeWord": "salé",
+  "themeWord": "glacier",
   "solution": [
     [
       true,
       false,
       false,
       true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      true,
       true
     ],
     [
       true,
-      false,
+      true,
       false,
       false,
       false
@@ -90,7 +76,21 @@
       true,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

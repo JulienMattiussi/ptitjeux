@@ -5,110 +5,110 @@
   "height": 6,
   "words": [
     [
-      "cocon",
-      "monarque",
-      "ramper",
-      "papillon",
-      "voûte",
-      "mue"
+      "informatique",
+      "rhéteur",
+      "installer",
+      "bug",
+      "adjugé",
+      "programme"
     ],
     [
-      "amarrer",
-      "nourrir",
-      "aorte",
-      "verte",
-      "mille",
-      "mielleux"
+      "Word",
+      "Armstrong",
+      "code",
+      "sente",
+      "napper",
+      "ange"
     ],
     [
-      "jardin",
-      "masquer",
-      "archaïque",
-      "transformer",
-      "tisser",
-      "orgueil"
+      "développeur",
+      "Carlos",
+      "prêt",
+      "translucide",
+      "épilepsie",
+      "jargon"
     ],
     [
-      "linge",
-      "épine",
-      "sportif",
-      "velue",
-      "feuille",
-      "kangourou"
+      "version",
+      "application",
+      "Williams",
+      "libre",
+      "algorithme",
+      "menuet"
     ],
     [
-      "mail",
-      "iris",
-      "gratuit",
-      "larve",
-      "manger",
-      "écailles"
+      "désaltérer",
+      "Nadja",
+      "payer",
+      "Windows",
+      "braise",
+      "Windsor"
     ],
     [
-      "soie",
-      "acheter",
-      "métamorphose",
-      "libraire",
-      "voracité",
-      "beaujolais"
+      "licence",
+      "Conques",
+      "Excel",
+      "septembre",
+      "interface",
+      "Kyoto"
     ]
   ],
   "rowClues": [
-    5,
+    4,
     2,
-    3,
-    3,
-    2,
+    1,
+    4,
+    1,
     3
   ],
   "colClues": [
+    5,
+    1,
+    3,
     3,
     2,
-    2,
-    5,
-    5,
     1
   ],
-  "themeWord": "chenille",
+  "themeWord": "logiciel",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       true,
       false,
       true
     ],
     [
-      false,
-      false,
+      true,
       false,
       true,
-      true,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
       true,
       true,
       false
     ],
     [
       false,
-      true,
-      false,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
       false,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -120,5 +120,5 @@
       false
     ]
   ],
-  "parMoves": 18
+  "parMoves": 15
 }

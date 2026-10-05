@@ -1,0 +1,72 @@
+{
+  "id": "2027-09-14-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "pied",
+      "Thor",
+      "chanterelle",
+      "hypocondrie"
+    ],
+    [
+      "girolle",
+      "clarté",
+      "vénéneux",
+      "chapeau"
+    ],
+    [
+      "rap",
+      "cèpe",
+      "dose",
+      "morille"
+    ],
+    [
+      "amanite",
+      "cueillette",
+      "Mario",
+      "grisaille"
+    ]
+  ],
+  "rowClues": [
+    2,
+    3,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    3,
+    2
+  ],
+  "themeWord": "champignon",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "parMoves": 10
+}

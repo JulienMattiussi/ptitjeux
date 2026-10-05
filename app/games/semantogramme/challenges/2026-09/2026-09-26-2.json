@@ -5,91 +5,91 @@
   "height": 5,
   "words": [
     [
-      "boulangerie",
-      "silicone",
-      "obscurité",
-      "veiller",
-      "silence"
+      "charade",
+      "abdomen",
+      "Cluedo",
+      "flair",
+      "affirmatif"
     ],
     [
-      "lune",
-      "fuir",
-      "rêve",
-      "sombre",
-      "cauchemar"
+      "pronostic",
+      "paillettes",
+      "poche",
+      "rébus",
+      "communauté"
     ],
     [
-      "chouette",
-      "sommeil",
-      "mortel",
-      "brochette",
-      "éthique"
+      "voyante",
+      "réflecteur",
+      "mystère",
+      "radieux",
+      "indice"
     ],
     [
-      "tardif",
-      "dormir",
-      "nocturne",
-      "roulante",
-      "percuter"
+      "Isou",
+      "hasard",
+      "réponse",
+      "exploit",
+      "ramasser"
     ],
     [
-      "urbain",
-      "étoile",
-      "glissant",
-      "minuit",
-      "plonger"
+      "compresse",
+      "sphinx",
+      "pari",
+      "prédire",
+      "supposer"
     ]
   ],
   "rowClues": [
     3,
-    4,
     2,
     3,
-    2
+    2,
+    4
   ],
   "colClues": [
     3,
-    3,
-    3,
+    2,
+    4,
     3,
     2
   ],
-  "themeWord": "nuit",
+  "themeWord": "deviner",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
       true
     ],
     [
+      false,
+      true,
       true,
       false,
+      false
+    ],
+    [
+      false,
+      true,
       true,
       true,
       true
-    ],
-    [
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      true,
-      false
     ]
   ],
   "parMoves": 14

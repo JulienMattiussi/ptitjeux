@@ -5,141 +5,123 @@
   "height": 7,
   "words": [
     [
-      "habiter",
-      "enveloppe",
-      "se régaler",
-      "paisible",
-      "consoler",
-      "prédire",
-      "village"
+      "maussade",
+      "relique",
+      "hulotte",
+      "combinaison",
+      "noir",
+      "humilié",
+      "baffe"
     ],
     [
-      "la",
-      "imperturbable",
-      "degré",
-      "enthousiaste",
-      "rural",
-      "jalousie",
-      "architecture"
+      "ranger",
+      "Beatles",
+      "dormir",
+      "sombre",
+      "bile",
+      "Hippocrate",
+      "consigne"
     ],
     [
-      "ancien",
-      "pleur",
-      "boulangerie",
-      "minestrone",
-      "lyrics",
-      "prêtre",
-      "nuisible"
+      "irascible",
+      "renfrogné",
+      "mélancolique",
+      "humeur",
+      "lagune",
+      "Alceste",
+      "spatule"
     ],
     [
-      "épargner",
-      "assemblée",
-      "humble",
-      "bâton",
-      "tourmenter",
-      "hiéroglyphe",
-      "religieux"
+      "Molière",
+      "funéraire",
+      "division",
+      "bilieux",
+      "livraison",
+      "aigri",
+      "décimal"
     ],
     [
-      "flemme",
-      "infime",
-      "copier",
-      "magie",
-      "recevoir",
-      "chambre",
-      "visiter"
+      "Touareg",
+      "ronchon",
+      "paparazzi",
+      "case",
+      "Nil",
+      "Lacan",
+      "colérique"
     ],
     [
-      "lunaire",
-      "streptocoque",
-      "postmoderne",
-      "pierre",
-      "campagnard",
-      "pupitre",
-      "motif"
+      "acariâtre",
+      "hypocondriaque",
+      "phénotype",
+      "misanthrope",
+      "douceur",
+      "marginaliser",
+      "avaler"
     ],
     [
-      "rouillé",
-      "modeste",
-      "peintre",
-      "recommander",
-      "église",
-      "historique",
-      "chakra"
+      "chromatique",
+      "grincheux",
+      "briller",
+      "lettré",
+      "binaire",
+      "aménité",
+      "visière"
     ]
   ],
   "rowClues": [
+    2,
+    3,
+    5,
     3,
     2,
-    2,
-    2,
-    2,
-    2,
-    2
+    3,
+    1
   ],
   "colClues": [
-    2,
-    1,
-    1,
-    2,
+    4,
     4,
     1,
-    4
+    4,
+    2,
+    3,
+    1
   ],
-  "themeWord": "presbytère",
+  "themeWord": "atrabilaire",
   "solution": [
     [
       true,
       false,
       false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      true,
       false
     ],
     [
       false,
       false,
+      false,
       true,
-      false,
-      false,
-      false,
-      true
+      true,
+      true,
+      false
     ],
     [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       true,
       false,
-      true
+      true,
+      false
     ],
     [
-      false,
+      true,
       false,
       false,
       true,
-      true,
       false,
+      true,
       false
     ],
     [
@@ -147,10 +129,28 @@
       true,
       false,
       false,
+      false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 19
 }

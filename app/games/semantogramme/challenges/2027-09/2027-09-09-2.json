@@ -1,0 +1,96 @@
+{
+  "id": "2027-09-09-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "Abraham",
+      "Ulysse",
+      "journaux",
+      "prodigue",
+      "cassoulet"
+    ],
+    [
+      "famille",
+      "naissance",
+      "enfant",
+      "cadet",
+      "contrôle"
+    ],
+    [
+      "dépaysement",
+      "arabesque",
+      "descendant",
+      "punaise",
+      "Télémaque"
+    ],
+    [
+      "héron",
+      "narrateur",
+      "progéniture",
+      "branchement",
+      "héritier"
+    ],
+    [
+      "père",
+      "pathos",
+      "aîné",
+      "garçon",
+      "mère"
+    ]
+  ],
+  "rowClues": [
+    3,
+    4,
+    2,
+    2,
+    4
+  ],
+  "colClues": [
+    3,
+    2,
+    4,
+    3,
+    3
+  ],
+  "themeWord": "fils",
+  "solution": [
+    [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

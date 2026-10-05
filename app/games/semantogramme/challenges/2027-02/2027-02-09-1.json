@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "épine",
-      "nectar",
-      "enfer",
-      "piquant"
+      "paratonnerre",
+      "pèlerinage",
+      "équateur",
+      "nuage"
     ],
     [
-      "succulente",
-      "désert",
-      "desserrer",
-      "plumeau"
+      "grondement",
+      "pluie",
+      "barcarolle",
+      "foudre"
     ],
     [
-      "lugubre",
-      "plante",
-      "semis",
-      "rosette"
+      "éclair",
+      "docker",
+      "électrique",
+      "ketch"
     ],
     [
-      "odieux",
-      "pochette",
-      "oasis",
-      "aloès"
+      "pâturage",
+      "accomplir",
+      "tonnerre",
+      "locomotive"
     ]
   ],
   "rowClues": [
     2,
+    3,
     2,
+    1
+  ],
+  "colClues": [
+    3,
+    1,
     2,
     2
   ],
-  "colClues": [
-    2,
-    2,
-    1,
-    3
-  ],
-  "themeWord": "cactus",
+  "themeWord": "orage",
   "solution": [
     [
       true,
@@ -53,19 +53,19 @@
       true,
       true,
       false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
       false
     ],
     [
       false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
       false,
       true,
-      true
+      false
     ]
   ],
   "parMoves": 8

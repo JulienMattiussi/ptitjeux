@@ -1,0 +1,72 @@
+{
+  "id": "2027-07-12-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
+  "words": [
+    [
+      "cosmos",
+      "névrose",
+      "NASA",
+      "fusée"
+    ],
+    [
+      "univers",
+      "planète",
+      "astronaute",
+      "mensuration"
+    ],
+    [
+      "Bosphore",
+      "embranchement",
+      "Yukon",
+      "galaxie"
+    ],
+    [
+      "satellite",
+      "station",
+      "insecte",
+      "étoile"
+    ]
+  ],
+  "rowClues": [
+    3,
+    3,
+    1,
+    3
+  ],
+  "colClues": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "themeWord": "espace",
+  "solution": [
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "parMoves": 10
+}

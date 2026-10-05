@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "autonomie",
-      "armoire",
-      "cuire",
-      "crasseux"
+      "sensible",
+      "naissance",
+      "hibou",
+      "tireur"
     ],
     [
-      "rideau",
-      "minerai",
-      "matelas",
-      "drap"
+      "matriarche",
+      "Alexandrie",
+      "placenta",
+      "berceuse"
     ],
     [
-      "étreindre",
-      "miroir",
-      "oreiller",
-      "couette"
+      "câlin",
+      "allaitement",
+      "correct",
+      "tendresse"
     ],
     [
-      "lampe",
-      "tiroir",
-      "magasin",
-      "commode"
+      "maternité",
+      "famille",
+      "maman",
+      "radin"
     ]
   ],
   "rowClues": [
     1,
-    3,
+    2,
     3,
     3
   ],
   "colClues": [
-    2,
     3,
-    2,
-    3
+    3,
+    1,
+    2
   ],
-  "themeWord": "chambre",
+  "themeWord": "mère",
   "solution": [
     [
       false,
@@ -52,13 +52,7 @@
     [
       true,
       false,
-      true,
-      true
-    ],
-    [
       false,
-      true,
-      true,
       true
     ],
     [
@@ -66,7 +60,13 @@
       true,
       false,
       true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

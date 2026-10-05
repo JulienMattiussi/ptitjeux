@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "embouchure",
-      "airelle",
-      "inondation",
-      "estuaire"
+      "sifflement",
+      "Blériot",
+      "venin",
+      "serrure"
     ],
     [
-      "roi",
-      "pont",
-      "voodoo",
-      "rive"
+      "Kaa",
+      "emportement",
+      "subjectif",
+      "rayée"
     ],
     [
-      "crue",
-      "jouet",
-      "source",
-      "massue"
+      "boa",
+      "poulain",
+      "cave",
+      "écailles"
     ],
     [
-      "barge",
-      "affluent",
-      "navigation",
-      "synthétique"
+      "passagers",
+      "cobra",
+      "couleuvre",
+      "bandonéon"
     ]
   ],
   "rowClues": [
-    3,
     2,
+    1,
     2,
-    3
+    2
   ],
   "colClues": [
     3,
+    1,
     2,
-    3,
-    2
+    1
   ],
-  "themeWord": "fleuve",
+  "themeWord": "serpent",
   "solution": [
     [
       true,
       false,
       true,
-      true
-    ],
-    [
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
       false
     ],
     [
       true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
       true,
       true,
       false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

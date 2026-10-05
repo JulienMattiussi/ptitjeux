@@ -5,74 +5,60 @@
   "height": 5,
   "words": [
     [
-      "noble",
-      "trot",
-      "olympique",
-      "tenaille",
-      "bride"
+      "Ricard",
+      "piquet",
+      "grue",
+      "échafaudage",
+      "trépas"
     ],
     [
-      "fémur",
-      "développement",
-      "tombeau",
-      "étrier",
-      "cheval"
+      "chantier",
+      "maçon",
+      "inestimable",
+      "béton",
+      "plan"
     ],
     [
-      "sportif",
-      "rênes",
-      "selle",
-      "rural",
-      "salaire"
+      "édifier",
+      "globe-trotteur",
+      "bâtir",
+      "toit",
+      "fondations"
     ],
     [
-      "cavalier",
-      "monter",
-      "tarot",
-      "débutant",
-      "motif"
+      "Lego",
+      "lubrifiant",
+      "intrigué",
+      "revenant",
+      "Calvin"
     ],
     [
-      "galoper",
-      "poudre",
-      "consolation",
-      "queue",
-      "manège"
+      "éloignement",
+      "charpentier",
+      "cétacé",
+      "nuit",
+      "distribuer"
     ]
   ],
   "rowClues": [
-    4,
     2,
     4,
-    2,
-    2
+    4,
+    1,
+    1
   ],
   "colClues": [
-    4,
     3,
     2,
     2,
-    3
+    3,
+    2
   ],
-  "themeWord": "équitation",
+  "themeWord": "construire",
   "solution": [
     [
-      true,
-      true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      false,
-      true,
-      true
-    ],
-    [
-      true,
-      true,
       true,
       true,
       false
@@ -81,16 +67,30 @@
       true,
       true,
       false,
+      true,
+      true
+    ],
+    [
+      true,
       false,
-      false
+      true,
+      true,
+      true
     ],
     [
       true,
       false,
       false,
       false,
-      true
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
     ]
   ],
-  "parMoves": 14
+  "parMoves": 12
 }

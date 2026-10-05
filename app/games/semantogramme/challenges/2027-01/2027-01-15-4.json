@@ -5,95 +5,104 @@
   "height": 7,
   "words": [
     [
-      "descartes",
-      "pédagogie",
-      "mouvement",
+      "subtil",
+      "Finlande",
+      "cantique",
+      "matérialisme",
+      "intangible",
+      "Orly",
+      "attentat"
+    ],
+    [
+      "conjonctivite",
+      "ravissement",
+      "fantomatique",
+      "mirage",
+      "palmier",
+      "fragile",
+      "évanescent"
+    ],
+    [
+      "immatériel",
+      "asiatique",
+      "Utopie",
+      "impalpable",
+      "élève",
+      "Versailles",
+      "rôtir"
+    ],
+    [
+      "Doliprane",
+      "diaphane",
+      "fébrile",
+      "artistique",
+      "moelle",
+      "pandémie",
+      "léger"
+    ],
+    [
       "spirituel",
-      "être",
-      "essence",
-      "ontologique"
+      "club",
+      "brume",
+      "délicat",
+      "vaporeux",
+      "vicieux",
+      "profondeur"
     ],
     [
-      "aristote",
-      "bain",
-      "milanaise",
-      "néolithique",
-      "substance",
-      "verre",
-      "connecter"
+      "traite",
+      "hameau",
+      "salaire",
+      "irréel",
+      "aérien",
+      "morsure",
+      "ail"
     ],
     [
-      "sort",
-      "interroger",
-      "réchauffement",
-      "profond",
-      "tourmenter",
-      "replet",
-      "philosophie"
-    ],
-    [
-      "injecter",
-      "éloigner",
-      "poncer",
-      "thonier",
-      "cathédrale",
-      "spéculer",
-      "givrer"
-    ],
-    [
-      "platon",
-      "publicité",
-      "puma",
-      "frire",
-      "architecte",
-      "monnaie",
-      "essai"
-    ],
-    [
-      "absolu",
-      "civil",
-      "existence",
-      "orgueil",
-      "patrie",
-      "mystérieux",
-      "planifier"
-    ],
-    [
-      "son",
-      "feu",
-      "sophistiqué",
-      "galaxie",
-      "abstrait",
-      "kant",
-      "théâtral"
+      "drogue",
+      "argenté",
+      "chimérique",
+      "taxi",
+      "moussaka",
+      "dame",
+      "coutume"
     ]
   ],
   "rowClues": [
-    5,
     2,
     3,
-    1,
-    1,
-    3,
-    2
+    2,
+    2,
+    4,
+    2,
+    1
   ],
   "colClues": [
-    4,
-    1,
-    1,
-    2,
     3,
-    4,
+    1,
+    3,
+    3,
+    3,
+    1,
     2
   ],
-  "themeWord": "métaphysique",
+  "themeWord": "éthéré",
   "solution": [
     [
       true,
       false,
       false,
+      false,
       true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
       true,
+      false,
+      false,
       true,
       true
     ],
@@ -101,8 +110,8 @@
       true,
       false,
       false,
-      false,
       true,
+      false,
       false,
       false
     ],
@@ -110,47 +119,38 @@
       false,
       true,
       false,
-      true,
+      false,
       false,
       false,
       true
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
-      false,
-      false,
       true,
+      true,
+      false,
       false
     ],
     [
       false,
       false,
       false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
-      true,
+      false,
+      false,
+      false,
       false
     ]
   ],
-  "parMoves": 17
+  "parMoves": 16
 }

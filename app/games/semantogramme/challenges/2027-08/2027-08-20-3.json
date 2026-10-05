@@ -1,0 +1,124 @@
+{
+  "id": "2027-08-20-3",
+  "name": "Niveau 3 · 6×6",
+  "width": 6,
+  "height": 6,
+  "words": [
+    [
+      "cisailles",
+      "apparat",
+      "terre",
+      "orgeat",
+      "psyché",
+      "dévotion"
+    ],
+    [
+      "ciboule",
+      "envahissant",
+      "jardin",
+      "amarrer",
+      "gratin",
+      "préau"
+    ],
+    [
+      "chouiner",
+      "contrefaçon",
+      "vichyssoise",
+      "vinaigrette",
+      "fondue",
+      "Bambi"
+    ],
+    [
+      "Sorbonne",
+      "tanière",
+      "bowling",
+      "Gnafron",
+      "princier",
+      "hiver"
+    ],
+    [
+      "potage",
+      "racine",
+      "sève",
+      "soupe",
+      "celtique",
+      "Picardie"
+    ],
+    [
+      "stratigraphie",
+      "attendre",
+      "atomique",
+      "Antiquité",
+      "légume",
+      "quiche"
+    ]
+  ],
+  "rowClues": [
+    1,
+    3,
+    3,
+    1,
+    4,
+    3
+  ],
+  "colClues": [
+    2,
+    2,
+    3,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "poireau",
+  "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

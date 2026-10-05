@@ -1,0 +1,96 @@
+{
+  "id": "2027-07-24-2",
+  "name": "Niveau 2 · 5×5",
+  "width": 5,
+  "height": 5,
+  "words": [
+    [
+      "toucher",
+      "quart",
+      "pales",
+      "instant",
+      "hermine"
+    ],
+    [
+      "temps",
+      "ponctuel",
+      "chronomètre",
+      "concombre",
+      "soixante"
+    ],
+    [
+      "sablier",
+      "trotteuse",
+      "papetier",
+      "délai",
+      "horloge"
+    ],
+    [
+      "moment",
+      "glaçon",
+      "seconde",
+      "édredon",
+      "Mbappé"
+    ],
+    [
+      "bielle",
+      "compter",
+      "tonte",
+      "pendule",
+      "attente"
+    ]
+  ],
+  "rowClues": [
+    2,
+    4,
+    4,
+    2,
+    3
+  ],
+  "colClues": [
+    3,
+    4,
+    2,
+    3,
+    3
+  ],
+  "themeWord": "minute",
+  "solution": [
+    [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true
+    ]
+  ],
+  "parMoves": 15
+}

@@ -5,62 +5,83 @@
   "height": 5,
   "words": [
     [
-      "linge",
-      "chaton",
-      "serviette",
-      "humilité",
-      "briller"
+      "trouble",
+      "transfusion",
+      "kamikaze",
+      "parent",
+      "risque"
     ],
     [
-      "eau",
-      "nettoyer",
-      "observatoire",
-      "détergent",
-      "mue"
+      "torticolis",
+      "piège",
+      "alerte",
+      "biaiser",
+      "accident"
     ],
     [
-      "savon",
-      "sarcasme",
-      "récurer",
-      "embaumement",
-      "héroïsme"
+      "céréales",
+      "poumon",
+      "Fourier",
+      "péril",
+      "simple"
     ],
     [
-      "édifier",
-      "hygiène",
-      "astiquer",
-      "immaculé",
-      "caisse"
+      "menace",
+      "garnison",
+      "brigantin",
+      "précipice",
+      "imprudent"
     ],
     [
-      "contact",
-      "pierre",
-      "cymbalettes",
-      "allure",
-      "soigné"
+      "poison",
+      "venimeux",
+      "argentique",
+      "interdit",
+      "explosif"
     ]
   ],
   "rowClues": [
-    3,
-    3,
     2,
     3,
-    1
+    1,
+    3,
+    4
   ],
   "colClues": [
-    3,
+    2,
+    2,
     2,
     3,
-    2,
-    2
+    4
   ],
-  "themeWord": "propre",
+  "themeWord": "dangereux",
   "solution": [
+    [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
     [
       true,
       false,
-      true,
       false,
+      true,
       true
     ],
     [
@@ -68,29 +89,8 @@
       true,
       false,
       true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
       true
     ]
   ],
-  "parMoves": 12
+  "parMoves": 13
 }

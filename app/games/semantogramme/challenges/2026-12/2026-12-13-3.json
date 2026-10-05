@@ -5,93 +5,85 @@
   "height": 6,
   "words": [
     [
-      "tricot",
-      "écarlate",
-      "bois",
-      "télescopique",
-      "grimper",
-      "paysanne"
+      "peluche",
+      "narguilé",
+      "lac",
+      "soie",
+      "métamorphose",
+      "athlétisme"
     ],
     [
-      "stable",
-      "étudiant",
-      "peintre",
-      "haute",
-      "songe",
-      "marraine"
+      "tonnerre",
+      "vaporisation",
+      "orties",
+      "tracteur",
+      "beauf",
+      "char"
     ],
     [
-      "arqué",
-      "oriental",
-      "hisser",
-      "concurrence",
-      "mort",
-      "pliante"
+      "écale",
+      "Concarneau",
+      "chrysalide",
+      "effilée",
+      "Bossuet",
+      "méditation"
     ],
     [
-      "maigrir",
-      "abattre",
-      "jardinier",
-      "descendre",
-      "barreau",
-      "épiler"
+      "manège",
+      "insecte",
+      "larve",
+      "batterie",
+      "bulldozer",
+      "Alice"
     ],
     [
-      "rave",
-      "béret",
-      "rhinite",
-      "monter",
-      "aluminium",
-      "abbaye"
+      "coulisses",
+      "Caterpillar",
+      "arbres",
+      "complicité",
+      "Hollande",
+      "feuille"
     ],
     [
-      "longue",
-      "pompier",
-      "lourde",
-      "plombier",
-      "popeye",
-      "menant"
+      "verte",
+      "perceuse",
+      "vainqueur",
+      "Opinel",
+      "mue",
+      "cocon"
     ]
   ],
   "rowClues": [
     3,
     3,
+    1,
+    5,
     2,
-    3,
-    2,
-    4
+    3
   ],
   "colClues": [
     2,
-    1,
-    5,
-    5,
     3,
-    1
+    3,
+    2,
+    3,
+    4
   ],
-  "themeWord": "échelle",
+  "themeWord": "chenille",
   "solution": [
     [
       false,
-      false,
-      true,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       false,
       true,
       true,
-      false,
       false
     ],
     [
       false,
       false,
       true,
-      false,
+      true,
       false,
       true
     ],
@@ -99,25 +91,33 @@
       false,
       false,
       true,
-      true,
-      true,
-      false
-    ],
-    [
       false,
       false,
-      false,
-      true,
-      true,
       false
     ],
     [
       true,
       true,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
       true,
       false,
-      false
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
     ]
   ],
   "parMoves": 17

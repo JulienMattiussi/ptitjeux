@@ -5,62 +5,69 @@
   "height": 5,
   "words": [
     [
-      "chameau",
-      "natation",
-      "turquoise",
-      "sapin",
-      "géométrique"
+      "passé",
+      "ru",
+      "antique",
+      "aïeul",
+      "autrefois"
     ],
     [
-      "émeraude",
-      "reins",
-      "forêt",
-      "remettre",
-      "tremblement"
+      "nombre",
+      "patrimoine",
+      "Murnau",
+      "fatal",
+      "célébrer"
     ],
     [
-      "feuille",
-      "verdoyant",
-      "assourdissant",
-      "livrer",
-      "kaki"
+      "vieux",
+      "réincarnation",
+      "vétuste",
+      "cimier",
+      "houle"
     ],
     [
-      "mousse",
-      "barque",
-      "verdâtre",
-      "vision",
-      "menthe"
+      "algorithme",
+      "ancestral",
+      "bronzage",
+      "archaïque",
+      "scalpel"
     ],
     [
-      "olive",
-      "tournage",
-      "parent",
-      "tilleul",
-      "jade"
+      "ancêtre",
+      "séculaire",
+      "historique",
+      "relique",
+      "admirer"
     ]
   ],
   "rowClues": [
-    2,
-    2,
-    3,
-    3,
-    3
-  ],
-  "colClues": [
     4,
     1,
-    3,
     2,
-    3
+    2,
+    4
   ],
-  "themeWord": "vert",
+  "colClues": [
+    3,
+    3,
+    3,
+    3,
+    1
+  ],
+  "themeWord": "ancien",
   "solution": [
     [
-      false,
+      true,
       false,
       true,
       true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
       false
     ],
     [
@@ -71,25 +78,18 @@
       false
     ],
     [
-      true,
+      false,
       true,
       false,
-      false,
-      true
+      true,
+      false
     ],
     [
       true,
-      false,
       true,
-      false,
-      true
-    ],
-    [
       true,
-      false,
-      false,
       true,
-      true
+      false
     ]
   ],
   "parMoves": 13

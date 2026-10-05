@@ -5,109 +5,85 @@
   "height": 6,
   "words": [
     [
-      "introspection",
-      "silence",
-      "dialogue",
-      "picorer",
-      "enterrer",
-      "respiration"
+      "trait",
+      "hérisson",
+      "carrelage",
+      "seuil",
+      "couloir",
+      "parapluie"
     ],
     [
-      "zen",
+      "patère",
+      "accueil",
+      "paillasson",
+      "tsé-tsé",
+      "lombric",
+      "mince"
+    ],
+    [
+      "oreille",
+      "glaçon",
+      "bricolage",
+      "pécan",
+      "manteau",
+      "balance"
+    ],
+    [
+      "entrée",
+      "perron",
+      "deuil",
+      "antichambre",
+      "marbre",
+      "coffre"
+    ],
+    [
+      "sablée",
+      "framboise",
+      "hall",
+      "transparente",
+      "arroser",
+      "porte"
+    ],
+    [
       "tapis",
-      "premier",
-      "contempler",
-      "paisible",
-      "profond"
-    ],
-    [
-      "ramure",
-      "arrogance",
-      "apaiser",
-      "hémoglobine",
-      "sérénité",
-      "concentrer"
-    ],
-    [
-      "posture",
-      "verveine",
-      "arrondie",
-      "calme",
-      "musique",
-      "californien"
-    ],
-    [
-      "illustre",
-      "enclos",
-      "matin",
-      "bouddha",
-      "humour",
-      "irlande"
-    ],
-    [
-      "penser",
-      "sève",
-      "entorse",
-      "wax",
-      "saphir",
-      "omoplate"
+      "pistil",
+      "escalier",
+      "palier",
+      "KO",
+      "mascara"
     ]
   ],
   "rowClues": [
-    3,
-    5,
+    4,
     3,
     2,
-    1,
-    1
+    4,
+    2,
+    3
   ],
   "colClues": [
     4,
     2,
-    1,
+    4,
     3,
-    2,
-    3
+    3,
+    2
   ],
-  "themeWord": "méditer",
+  "themeWord": "vestibule",
   "solution": [
     [
-      true,
-      true,
       false,
       false,
-      false,
-      true
-    ],
-    [
       true,
-      true,
-      false,
       true,
       true,
       true
     ],
     [
-      false,
-      false,
+      true,
+      true,
       true,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
       false,
       false
     ],
@@ -116,9 +92,33 @@
       false,
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
       false,
       false
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

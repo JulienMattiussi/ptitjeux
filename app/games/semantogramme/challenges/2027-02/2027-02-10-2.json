@@ -5,90 +5,90 @@
   "height": 5,
   "words": [
     [
-      "graine",
-      "atome",
-      "lilliputien",
-      "gouvernail",
-      "puce"
+      "confus",
+      "craintif",
+      "emplette",
+      "invectiver",
+      "embarrassé"
     ],
     [
-      "minimiser",
-      "microbe",
-      "rapetisser",
-      "narine",
-      "molécule"
+      "jongler",
+      "tapis",
+      "Comte",
+      "pudique",
+      "effacé"
     ],
     [
-      "menu",
-      "navigateur",
-      "crocs",
-      "givre",
-      "feuilletage"
-    ],
-    [
-      "miette",
-      "masser",
+      "solitaire",
+      "printemps",
+      "émotif",
       "nain",
-      "fourmi",
-      "particule"
+      "rougir"
     ],
     [
-      "illusoire",
-      "peintre",
-      "infime",
-      "gloussement",
-      "gravure"
+      "livre",
+      "hésitant",
+      "gêné",
+      "frôler",
+      "paillette"
+    ],
+    [
+      "boule",
+      "bégayer",
+      "réservé",
+      "introverti",
+      "réglisse"
     ]
   ],
   "rowClues": [
-    4,
-    4,
-    1,
-    4,
-    1
-  ],
-  "colClues": [
-    4,
+    3,
     2,
     4,
-    1,
+    2,
     3
   ],
-  "themeWord": "minuscule",
+  "colClues": [
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "themeWord": "timide",
   "solution": [
     [
       true,
       true,
-      true,
+      false,
       false,
       true
     ],
     [
-      true,
-      true,
-      true,
       false,
+      false,
+      false,
+      true,
       true
     ],
     [
       true,
       false,
+      true,
+      true,
+      true
+    ],
+    [
       false,
+      true,
+      true,
       false,
       false
     ],
     [
-      true,
       false,
       true,
       true,
-      true
-    ],
-    [
-      false,
-      false,
       true,
-      false,
       false
     ]
   ],

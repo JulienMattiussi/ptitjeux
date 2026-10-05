@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "lait",
-      "jus",
-      "épancher",
-      "bouillon"
+      "cadran",
+      "une",
+      "comtoise",
+      "flageller"
     ],
     [
-      "fluide",
-      "transvaser",
-      "sirop",
-      "immaculé"
+      "réveil",
+      "minuterie",
+      "fougasse",
+      "pendule"
     ],
     [
-      "olympique",
-      "verser",
-      "carbone",
-      "fourre-tout"
+      "aiguille",
+      "balancier",
+      "royauté",
+      "boursouflé"
     ],
     [
-      "gouttelette",
-      "barbu",
-      "eau",
-      "huile"
+      "pas",
+      "Limoux",
+      "coucou",
+      "tic-tac"
     ]
   ],
   "rowClues": [
+    2,
     3,
-    3,
-    1,
-    3
+    2,
+    2
   ],
   "colClues": [
     3,
-    3,
-    3,
-    1
+    2,
+    2,
+    2
   ],
-  "themeWord": "liquide",
+  "themeWord": "horloge",
   "solution": [
     [
       true,
-      true,
+      false,
       true,
       false
     ],
     [
       true,
       true,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      false,
       false
     ],
     [
       false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
       false,
       true,
       true
     ]
   ],
-  "parMoves": 10
+  "parMoves": 9
 }

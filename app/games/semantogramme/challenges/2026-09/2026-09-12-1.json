@@ -5,43 +5,43 @@
   "height": 4,
   "words": [
     [
-      "fleur",
-      "réalisateur",
-      "pelote",
-      "forum"
+      "contrepoint",
+      "héros",
+      "deltoïde",
+      "carreau"
     ],
     [
-      "scène",
-      "projection",
-      "cabernet",
-      "guide"
+      "folklore",
+      "Merlin",
+      "galoche",
+      "dragon"
     ],
     [
-      "écran",
-      "éternel",
-      "polaire",
-      "acteur"
+      "Wolverine",
+      "question",
+      "épopée",
+      "mythe"
     ],
     [
-      "salle",
-      "arqué",
-      "caméra",
-      "masquer"
+      "Arthur",
+      "Mahler",
+      "raccourci",
+      "laurier"
     ]
   ],
   "rowClues": [
     1,
-    2,
-    2,
-    2
-  ],
-  "colClues": [
     3,
     2,
-    1,
     1
   ],
-  "themeWord": "cinéma",
+  "colClues": [
+    2,
+    2,
+    1,
+    2
+  ],
+  "themeWord": "légende",
   "solution": [
     [
       false,
@@ -53,18 +53,18 @@
       true,
       true,
       false,
-      false
+      true
     ],
     [
+      false,
+      false,
       true,
-      false,
-      false,
       true
     ],
     [
       true,
       false,
-      true,
+      false,
       false
     ]
   ],

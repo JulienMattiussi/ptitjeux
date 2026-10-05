@@ -5,68 +5,68 @@
   "height": 4,
   "words": [
     [
-      "oiseau",
-      "montre",
-      "heure",
-      "mois"
+      "dégringoler",
+      "pivoines",
+      "roses",
+      "binoculaire"
     ],
     [
-      "agenda",
-      "lapin",
-      "minute",
-      "nourriture"
+      "composition",
+      "sarrasin",
+      "goupille",
+      "lancer"
     ],
     [
-      "paradis",
-      "siècle",
-      "leurre",
-      "année"
+      "Saint-Valentin",
+      "mariée",
+      "croasser",
+      "irréfutable"
     ],
     [
-      "horloge",
-      "parure",
-      "calendrier",
-      "semaine"
+      "impluvium",
+      "ruban",
+      "cèpe",
+      "gentiane"
     ]
   ],
   "rowClues": [
-    3,
     2,
     2,
-    3
+    2,
+    1
   ],
   "colClues": [
     2,
-    2,
     3,
-    3
+    1,
+    1
   ],
-  "themeWord": "temps",
+  "themeWord": "bouquet",
   "solution": [
     [
       false,
       true,
       true,
-      true
+      false
     ],
     [
       true,
       false,
+      false,
+      true
+    ],
+    [
       true,
+      true,
+      false,
       false
     ],
     [
       false,
       true,
       false,
-      true
-    ],
-    [
-      true,
-      false,
-      true,
-      true
+      false
     ]
   ],
-  "parMoves": 10
+  "parMoves": 7
 }

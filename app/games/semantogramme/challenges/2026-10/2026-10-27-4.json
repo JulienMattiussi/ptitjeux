@@ -5,95 +5,131 @@
   "height": 7,
   "words": [
     [
-      "animal",
-      "tomate",
-      "ail",
-      "chaume",
-      "sédimentation",
-      "méditerranéenne",
-      "massette"
+      "Reine",
+      "étoffe",
+      "chaire",
+      "punaise",
+      "aérosol",
+      "brebis",
+      "adepte"
     ],
     [
-      "beauté",
-      "préparer",
-      "enrouler",
-      "apogée",
-      "chanter",
-      "safran",
-      "morisot"
+      "Sorbonne",
+      "œnologie",
+      "mince",
+      "Inca",
+      "magistral",
+      "Ourals",
+      "opinion"
     ],
     [
-      "chapiteau",
-      "inquiétude",
-      "omnivore",
-      "glacial",
-      "aigreur",
-      "ballotter",
-      "crouton"
+      "chevet",
+      "Windsor",
+      "bras",
+      "formule",
+      "prêcher",
+      "Pontarlier",
+      "thèse"
     ],
     [
-      "urtique",
-      "sarcastique",
-      "tombeau",
-      "tantine",
-      "provence",
-      "phare",
-      "mijoter"
+      "credo",
+      "balisage",
+      "verger",
+      "doctrine",
+      "affirmer",
+      "privilège",
+      "secteur"
     ],
     [
-      "grave",
-      "vitrail",
-      "gastronomique",
-      "véloce",
-      "modelage",
-      "soupe",
-      "congre"
+      "Éden",
+      "artillerie",
+      "soutenir",
+      "torchis",
+      "conviction",
+      "revendiquer",
+      "Hammond"
     ],
     [
-      "traditionnelle",
-      "être",
-      "religieux",
-      "rouget",
-      "rabbin",
-      "néoténie",
-      "rouille"
+      "corpulent",
+      "amphithéâtre",
+      "relèvement",
+      "proclamer",
+      "massif",
+      "envergure",
+      "kamikaze"
     ],
     [
-      "graphisme",
-      "judas",
-      "scorpion",
-      "soustraction",
-      "cuisinier",
-      "zélé",
-      "poisson"
+      "exotique",
+      "Pavlov",
+      "karaoké",
+      "déclarer",
+      "polype",
+      "covid",
+      "clarifié"
     ]
   ],
   "rowClues": [
-    3,
-    2,
     1,
+    3,
     2,
     3,
     3,
+    2,
     1
   ],
   "colClues": [
-    1,
-    2,
     2,
     1,
-    1,
+    2,
     3,
-    5
+    4,
+    1,
+    2
   ],
-  "themeWord": "bouillabaisse",
+  "themeWord": "professer",
   "solution": [
     [
       false,
-      true,
+      false,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      true,
       true,
       false
     ],
@@ -101,55 +137,19 @@
       false,
       true,
       false,
-      false,
-      false,
       true,
+      false,
+      false,
       false
     ],
     [
       false,
       false,
       false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
       true,
       false,
       false,
-      true,
-      true
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
+      false
     ]
   ],
   "parMoves": 15

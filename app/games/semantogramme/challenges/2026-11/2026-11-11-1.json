@@ -5,66 +5,66 @@
   "height": 4,
   "words": [
     [
-      "service",
-      "frigo",
-      "séraphin",
-      "plâtre"
+      "tomate",
+      "épouvantail",
+      "Pavlov",
+      "semis"
     ],
     [
-      "peuplier",
-      "opération",
-      "orange",
-      "médecin"
+      "jardinier",
+      "minois",
+      "légume",
+      "destination"
     ],
     [
-      "ambulance",
-      "patient",
-      "rougir",
-      "pansement"
+      "cachot",
+      "rang",
+      "motiver",
+      "mauvais"
     ],
     [
-      "archipel",
-      "caban",
-      "urgence",
-      "partager"
+      "radis",
+      "liturgie",
+      "pétition",
+      "gonflé"
     ]
   ],
   "rowClues": [
-    1,
-    2,
     3,
+    2,
+    1,
     1
   ],
   "colClues": [
-    2,
+    3,
     2,
     1,
-    2
+    1
   ],
-  "themeWord": "hôpital",
+  "themeWord": "potager",
   "solution": [
     [
       true,
+      true,
       false,
+      true
+    ],
+    [
+      true,
       false,
+      true,
       false
     ],
     [
       false,
       true,
       false,
-      true
+      false
     ],
     [
       true,
-      true,
-      false,
-      true
-    ],
-    [
       false,
       false,
-      true,
       false
     ]
   ],

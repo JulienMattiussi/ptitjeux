@@ -5,68 +5,61 @@
   "height": 5,
   "words": [
     [
-      "pissenlit",
-      "visiter",
-      "tante",
-      "partager",
-      "fracas"
+      "salière",
+      "rouge",
+      "grimace",
+      "heurter",
+      "redorer"
     ],
     [
-      "oncle",
-      "démarrer",
-      "issu",
-      "sciatique",
-      "séduire"
+      "expertise",
+      "rire",
+      "lavis",
+      "farce",
+      "inflexion"
     ],
     [
-      "opéra",
-      "germain",
-      "idéaliser",
-      "pétiole",
-      "benne"
+      "antennes",
+      "bordure",
+      "Zorro",
+      "Ça",
+      "pitre"
     ],
     [
-      "tesselle",
-      "gaieté",
-      "enrhumé",
-      "parent",
-      "jouer"
+      "jongler",
+      "perruque",
+      "cirque",
+      "Swatch",
+      "tarte"
     ],
     [
-      "signaler",
-      "nièce",
-      "famille",
-      "éloigné",
-      "épisode"
+      "chaussures",
+      "préhistoire",
+      "citronnelle",
+      "Zavatta",
+      "Holter"
     ]
   ],
   "rowClues": [
-    3,
     2,
-    1,
     2,
-    3
+    2,
+    4,
+    2
   ],
   "colClues": [
-    1,
+    2,
     3,
+    2,
     3,
-    3,
-    1
+    2
   ],
-  "themeWord": "cousin",
+  "themeWord": "clown",
   "solution": [
     [
       false,
       true,
       true,
-      true,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
       false,
       false
     ],
@@ -74,7 +67,7 @@
       false,
       true,
       false,
-      false,
+      true,
       false
     ],
     [
@@ -85,12 +78,19 @@
       true
     ],
     [
+      true,
+      true,
+      true,
       false,
+      true
+    ],
+    [
       true,
-      true,
+      false,
+      false,
       true,
       false
     ]
   ],
-  "parMoves": 11
+  "parMoves": 12
 }

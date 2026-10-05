@@ -5,75 +5,75 @@
   "height": 5,
   "words": [
     [
-      "spectral",
-      "réjouir",
-      "invisible",
-      "lugubre",
-      "transparent"
+      "accoster",
+      "galet",
+      "lettre",
+      "bord",
+      "correct"
     ],
     [
-      "hanter",
-      "château",
-      "conviction",
-      "noix",
-      "sargasse"
+      "serpillière",
+      "ferment",
+      "Bruges",
+      "mer",
+      "ponton"
     ],
     [
-      "crétois",
-      "couette",
-      "compost",
-      "unique",
-      "âme"
+      "plage",
+      "side-car",
+      "vague",
+      "serrure",
+      "anse"
     ],
     [
-      "bossu",
-      "revenant",
-      "apparition",
-      "aïeul",
-      "colombin"
+      "emploi",
+      "grève",
+      "littoral",
+      "côte",
+      "tracé"
     ],
     [
-      "espace",
-      "éthéré",
-      "sacre",
-      "drap",
-      "pétale"
+      "Goethe",
+      "falaise",
+      "éclair",
+      "berge",
+      "horizon"
     ]
   ],
   "rowClues": [
-    4,
+    3,
     2,
-    1,
-    2,
-    2
+    3,
+    3,
+    3
   ],
   "colClues": [
     2,
     3,
     2,
-    2,
-    2
+    4,
+    3
   ],
-  "themeWord": "fantôme",
+  "themeWord": "rivage",
   "solution": [
     [
       true,
+      true,
       false,
       true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
       true,
       true
     ],
     [
       true,
+      false,
       true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
       false,
       true
     ],
@@ -81,7 +81,7 @@
       false,
       true,
       true,
-      false,
+      true,
       false
     ],
     [
@@ -89,8 +89,8 @@
       true,
       false,
       true,
-      false
+      true
     ]
   ],
-  "parMoves": 11
+  "parMoves": 14
 }

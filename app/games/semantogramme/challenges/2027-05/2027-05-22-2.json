@@ -5,69 +5,62 @@
   "height": 5,
   "words": [
     [
-      "vésicule",
-      "silence",
-      "aligner",
-      "illustrer",
-      "vaillance"
+      "blocs",
+      "bât",
+      "harpon",
+      "Belon",
+      "piqueur"
     ],
     [
-      "jardin",
-      "vacances",
-      "prier",
-      "vigne",
-      "assembler"
+      "filetage",
+      "Groenland",
+      "phoque",
+      "Lyonnais",
+      "Pandore"
     ],
     [
-      "poser",
-      "ancien",
-      "chapelle",
-      "gouvernemental",
-      "cellule"
+      "froid",
+      "congé",
+      "esquimau",
+      "louvoyer",
+      "sépia"
     ],
     [
-      "méditer",
-      "moine",
-      "dramatique",
-      "liturgie",
-      "austère"
+      "pôle",
+      "abri",
+      "gris",
+      "dôme",
+      "banquise"
     ],
     [
-      "travailler",
-      "fastueux",
-      "heurter",
-      "ramper",
-      "religieux"
+      "buée",
+      "aparté",
+      "maison",
+      "aurore",
+      "bricolage"
     ]
   ],
   "rowClues": [
-    1,
-    3,
-    3,
+    2,
+    2,
+    2,
     4,
-    2
+    1
   ],
   "colClues": [
     3,
-    3,
     2,
-    2,
-    3
+    4,
+    1,
+    1
   ],
-  "themeWord": "monastère",
+  "themeWord": "igloo",
   "solution": [
     [
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
       true,
       false,
       true,
-      true,
+      false,
       false
     ],
     [
@@ -75,7 +68,14 @@
       true,
       true,
       false,
-      true
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
     ],
     [
       true,
@@ -85,12 +85,12 @@
       true
     ],
     [
+      false,
+      false,
       true,
       false,
-      false,
-      false,
-      true
+      false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 11
 }

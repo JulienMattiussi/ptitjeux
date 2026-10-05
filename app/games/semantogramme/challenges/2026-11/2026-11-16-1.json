@@ -5,44 +5,56 @@
   "height": 4,
   "words": [
     [
-      "fard",
-      "ancre",
-      "gastronomie",
-      "capitaine"
+      "trône",
+      "bergère",
+      "entreprenant",
+      "tamarin"
     ],
     [
-      "rustine",
-      "creusage",
-      "voilier",
-      "phalange"
+      "Victoria",
+      "roi",
+      "couronne",
+      "Locke"
     ],
     [
-      "achever",
-      "mouillage",
-      "bateau",
-      "royal"
+      "Hannibal",
+      "Cléopâtre",
+      "soif",
+      "Elizabeth"
     ],
     [
-      "navire",
-      "marin",
-      "culée",
-      "manchette"
+      "abeille",
+      "royaume",
+      "ras-el-hanout",
+      "majesté"
     ]
   ],
   "rowClues": [
-    2,
-    1,
-    2,
-    2
-  ],
-  "colClues": [
     1,
     3,
     2,
-    1
+    3
   ],
-  "themeWord": "port",
+  "colClues": [
+    3,
+    3,
+    1,
+    2
+  ],
+  "themeWord": "reine",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ],
     [
       false,
       true,
@@ -50,23 +62,11 @@
       true
     ],
     [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      true,
-      false
-    ],
-    [
       true,
       true,
       false,
-      false
+      true
     ]
   ],
-  "parMoves": 7
+  "parMoves": 9
 }

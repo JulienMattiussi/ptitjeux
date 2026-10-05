@@ -5,121 +5,139 @@
   "height": 7,
   "words": [
     [
-      "joyeux",
-      "éléphant",
-      "sauce",
-      "mijoter",
-      "numéro",
-      "marin",
-      "crémeuse"
+      "neutre",
+      "proximité",
+      "volet",
+      "Monaco",
+      "civet",
+      "abysses",
+      "gazelle"
     ],
     [
-      "venise",
-      "fouetter",
-      "parka",
-      "absence",
-      "française",
-      "saler",
-      "inoxydable"
+      "agilité",
+      "retrouver",
+      "courants",
+      "svelte",
+      "Meeko",
+      "cimetière",
+      "aîné"
     ],
     [
-      "liée",
-      "épaissir",
-      "onctueuse",
-      "arqué",
+      "corail",
+      "ridicule",
+      "marée",
+      "sous-marin",
+      "Nautilus",
+      "siffler",
+      "grandiose"
+    ],
+    [
+      "bathyscaphe",
+      "enjamber",
+      "roulant",
+      "Calypso",
+      "Atlantique",
+      "promotion",
+      "canard"
+    ],
+    [
+      "quinquina",
+      "biologie",
+      "ambigu",
+      "plongée",
+      "fond",
+      "sonar",
+      "Cousteau"
+    ],
+    [
+      "plancton",
+      "saloon",
+      "moiteur",
+      "Cambridge",
+      "houle",
+      "enchère",
+      "accueil"
+    ],
+    [
+      "Chandeleur",
+      "thorax",
       "salinité",
-      "coulisse",
-      "visiter"
-    ],
-    [
-      "gratin",
-      "tressée",
-      "imposte",
-      "soufflé",
-      "classique",
-      "tenir",
-      "compteur"
-    ],
-    [
-      "chrono",
-      "pourvoir",
-      "blanche",
-      "obscure",
-      "rang",
-      "roux",
-      "grosse"
-    ],
-    [
-      "cher",
-      "capter",
-      "coup",
-      "sorbier",
-      "gonfler",
-      "maroquinerie",
-      "muscade"
-    ],
-    [
-      "envahissant",
-      "pinson",
-      "essuyer",
-      "étroit",
-      "gabriel",
-      "paroi",
-      "lasagne"
+      "homogène",
+      "Fahrenheit",
+      "tissu",
+      "puzzle"
     ]
   ],
   "rowClues": [
-    3,
-    2,
-    3,
-    3,
     2,
     1,
+    4,
+    3,
+    5,
+    2,
     1
   ],
   "colClues": [
-    2,
-    2,
     3,
-    2,
-    2,
     1,
-    3
+    3,
+    4,
+    4,
+    2,
+    1
   ],
-  "themeWord": "béchamel",
+  "themeWord": "océanographie",
   "solution": [
     [
       false,
       false,
+      false,
       true,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
       true
     ],
     [
-      false,
-      true,
-      false,
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      true,
-      true,
       true,
       false,
       false,
       false,
-      false
-    ],
-    [
-      true,
-      false,
-      false,
-      true,
       true,
       false,
       false
@@ -130,27 +148,9 @@
       true,
       false,
       false,
-      true,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 18
 }

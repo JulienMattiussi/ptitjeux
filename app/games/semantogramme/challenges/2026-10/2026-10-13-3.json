@@ -5,72 +5,96 @@
   "height": 6,
   "words": [
     [
-      "fissure",
-      "pliable",
-      "tabac",
-      "portable",
-      "lampe",
-      "frimas"
-    ],
-    [
-      "pied",
-      "descendre",
-      "rave",
-      "cargo",
-      "pratique",
-      "bibliothèque"
-    ],
-    [
-      "court",
-      "grimper",
+      "jardinet",
+      "tiramisu",
       "monter",
-      "sagoutier",
-      "nouveauté",
-      "neveu"
+      "bocage",
+      "dosage",
+      "pinson"
     ],
     [
-      "contagieuse",
-      "stable",
-      "échelle",
-      "gambader",
-      "vinyle",
-      "coucher"
+      "musclé",
+      "inventeur",
+      "Polynésie",
+      "oiseau",
+      "marinade",
+      "baies"
     ],
     [
-      "plafond",
-      "sauge",
-      "aluminium",
-      "avant",
-      "godiller",
-      "mesquinerie"
+      "égard",
+      "mangeoire",
+      "européen",
+      "effacé",
+      "gazouillis",
+      "lotus"
     ],
     [
-      "ectoplasme",
-      "petit",
-      "avouer",
-      "balançoire",
-      "cuisine",
-      "espadrille"
+      "haleine",
+      "hiver",
+      "paysage",
+      "frimas",
+      "insectivore",
+      "côtelette"
+    ],
+    [
+      "merle",
+      "courber",
+      "chant",
+      "gratiné",
+      "voeux",
+      "familier"
+    ],
+    [
+      "bouvreuil",
+      "motivation",
+      "tulipe",
+      "passereau",
+      "bilingue",
+      "poitrail"
     ]
   ],
   "rowClues": [
     3,
-    4,
-    3,
-    1,
     2,
-    2
+    2,
+    3,
+    4,
+    3
   ],
   "colClues": [
     3,
-    5,
     2,
     1,
+    4,
     3,
-    1
+    4
   ],
-  "themeWord": "escabeau",
+  "themeWord": "rouge-gorge",
   "solution": [
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
     [
       false,
       true,
@@ -81,44 +105,20 @@
     ],
     [
       true,
-      true,
       false,
+      true,
       false,
       true,
       true
     ],
     [
       true,
-      true,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      true,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      true,
       false,
       false,
       true,
-      false
+      false,
+      true
     ]
   ],
-  "parMoves": 15
+  "parMoves": 17
 }

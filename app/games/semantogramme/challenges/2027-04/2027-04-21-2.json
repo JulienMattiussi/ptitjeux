@@ -5,92 +5,92 @@
   "height": 5,
   "words": [
     [
-      "balancier",
-      "mèche",
-      "brosser",
-      "arrêter",
-      "classeur"
+      "mer",
+      "audience",
+      "flux",
+      "farfadet",
+      "sociologie"
     ],
     [
-      "peigner",
-      "logiciel",
-      "commencement",
-      "tresse",
-      "crinière"
+      "pêche",
+      "basse",
+      "froment",
+      "grève",
+      "vague"
     ],
     [
-      "liquider",
-      "coiffer",
-      "chauve",
-      "crépuscule",
-      "pointe"
+      "contravention",
+      "Nosferatu",
+      "algues",
+      "haute",
+      "parfumeur"
     ],
     [
-      "racine",
-      "mansarde",
-      "horizon",
-      "teindre",
-      "shampooing"
+      "législatif",
+      "orgeat",
+      "coefficient",
+      "flamenco",
+      "océan"
     ],
     [
-      "capillaire",
-      "célébration",
-      "écran",
-      "frange",
-      "enrouée"
+      "lune",
+      "montante",
+      "reflux",
+      "noire",
+      "baiser"
     ]
   ],
   "rowClues": [
     2,
-    3,
-    3,
-    3,
-    2
+    4,
+    2,
+    2,
+    4
   ],
   "colClues": [
     3,
     2,
-    2,
+    4,
     3,
-    3
+    2
   ],
-  "themeWord": "cheveu",
+  "themeWord": "marée",
   "solution": [
     [
-      false,
       true,
+      false,
       true,
       false,
       false
     ],
     [
       true,
-      false,
+      true,
       false,
       true,
       true
     ],
     [
       false,
+      false,
       true,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
       true,
       false,
       true
     ],
     [
       true,
-      false,
-      false,
       true,
-      true
-    ],
-    [
       true,
-      false,
-      false,
       true,
       false
     ]
   ],
-  "parMoves": 13
+  "parMoves": 14
 }

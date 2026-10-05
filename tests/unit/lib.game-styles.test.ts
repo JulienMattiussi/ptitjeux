@@ -1,11 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { GAME_ACCENT, GAME_IDS, GAME_SIZE } from '~/lib/game-styles'
+import { GAME_ACCENT, GAME_SIZE } from '~/lib/game-styles'
+import { games } from '~/lib/games-registry'
+
+const GAME_IDS = games.map((g) => g.id)
 
 describe('lib/game-styles', () => {
-  it('GAME_IDS contient les quatre jeux', () => {
-    expect(GAME_IDS).toEqual(['sokomot', 'boucle', 'semantogramme', 'anglemort'])
-  })
-
   it('GAME_ACCENT a une entrée pour chaque jeu avec toutes les classes requises', () => {
     for (const id of GAME_IDS) {
       const accent = GAME_ACCENT[id]

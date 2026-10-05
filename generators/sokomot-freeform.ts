@@ -5,7 +5,7 @@
  * - Niveau 2 : deux cases d'écart dont une case de glace intermédiaire : le
  *   bloc poussé glisse et s'arrête sur la cible, qui n'est pas gelée.
  * La solution pousse les blocs dans l'ordre du mot ; des obstacles aléatoires
- * sont ensuite posés hors des cases qu'elle utilise.
+ * (niveau 1 seulement) sont ensuite posés hors des cases qu'elle utilise.
  */
 import type { Coord, Direction } from '~/games/sokomot/types'
 import type { Rng } from './random'
@@ -25,7 +25,7 @@ import {
 
 export type FreeformParams = {
   slideLength: number
-  /** Cases entre bloc et cible gelées (le bloc glisse) ; sinon poussées une à une. */
+  /** Cases entre bloc et cible gelées (le bloc glisse) ; sinon, le bloc est poussé case par case. */
   iceBetween: boolean
   obstacleCount: number
 }
@@ -88,9 +88,9 @@ function placeBlocksWithSlide(
 
       const blockKey = cellKey(block)
       const pusherKey = cellKey(pusher)
-      // Un bloc sur de la glace ferait glisser le joueur qui prend sa place.
       if (targetSet.has(blockKey)) continue
       if (usedBlocks.has(blockKey)) continue
+      // Un bloc sur de la glace ferait glisser le joueur qui prend sa place.
       if (allIceSet.has(blockKey)) continue
       // Sur la trajectoire d'un bloc déjà placé, il bloquerait sa poussée.
       if (allPushPathSet.has(blockKey)) continue

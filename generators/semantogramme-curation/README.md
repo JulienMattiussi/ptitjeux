@@ -3,7 +3,7 @@
 1580 thèmes (395 jours × 4 niveaux, du 2026-09-01 au 2027-09-30).
 
 - `schedule.json` : calendrier, un thème par jour et par niveau, avec sa catégorie.
-- `domains.json` : domaines de sens (tous niveaux confondus) ; deux thèmes d'un même domaine sont espacés d'au moins 7 jours.
+- `domains.json` : domaines de sens (tous niveaux confondus), qui servent à écarter des mots trop proches du thème et à l'aide.
 - `words/<AAAA-MM>.json` : mots du thème, clé `niveau|thème` ; 10 / 15 / 18 / 19 mots selon le niveau.
 - `allowed.json` : décisions prises à la main, que les contrôles respectent.
   - `words` : mots en minuscules absents du dictionnaire mais admis (wifi, selfie, doudou…). Tout autre mot en minuscules hors dictionnaire est refusé.

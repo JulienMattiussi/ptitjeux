@@ -4,6 +4,7 @@
  * nombre, diamant collé à un mur, miroirs.
  */
 import {
+  DELTA,
   FACINGS,
   computeVision,
   isFacingAllowed,
@@ -24,12 +25,7 @@ const MAX_PILLAR_RATIO = 0.18
 /** Essais de pilier par niveau pendant la phase de réduction. */
 const PILLAR_TRIALS = 80
 
-const STEPS: readonly Pos[] = [
-  [0, -1],
-  [1, 0],
-  [0, 1],
-  [-1, 0],
-]
+const STEPS: readonly Pos[] = Object.values(DELTA)
 
 /** Types de vigiles disponibles pour la construction, et plafond de doubles. */
 export type GuardKit = { types: readonly GuardType[]; maxDoubles: number }
@@ -309,7 +305,8 @@ export function placeDiamondAgainstWall(
 export function anchorDiamond(rng: Rng, level: Level, path: Pos[]): Level {
   if (diamondAgainstWall(level)) return level
   const options = besideDiamond(level, path)
-  return options.length > 0 ? { ...level, pillars: [...level.pillars, rng.pick(options)] } : level
+  if (options.length === 0) throw new Error('Angle mort : diamant sans voisine hors couloir')
+  return { ...level, pillars: [...level.pillars, rng.pick(options)] }
 }
 
 /**

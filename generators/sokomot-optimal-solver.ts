@@ -6,7 +6,7 @@
  * et cohérente quand un coup déplace un bloc d'une case au plus. Avec de la
  * glace, une glissade couvre plusieurs cases en un coup : l'heuristique n'est
  * plus admissible et la recherche se fait en largeur (h = 0), ce qui reste
- * optimal. Les niveaux de glace sont courts (moins de 20 coups), la largeur
+ * optimal. Les niveaux de glace sont courts (20 coups au plus), la largeur
  * suffit.
  */
 import { applyMove, isWon, loadLevel } from '~/games/sokomot/engine'

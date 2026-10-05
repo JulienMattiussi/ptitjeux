@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { levelKey, readAllProgress, readGameProgress, recordWin } from '~/lib/localStorage'
 
 describe('lib/localStorage', () => {
@@ -18,11 +18,15 @@ describe('lib/localStorage', () => {
     expect(levelKey('2026-05-07', 1)).toBe('2026-05-07-1')
   })
 
-  it('recordWin enregistre le statut de la victoire', () => {
+  it('recordWin enregistre le statut et la date de la victoire', () => {
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date('2026-05-07T10:00:00Z'))
     recordWin('sokomot', '2026-05-07-1', 'solved')
-    const progress = readGameProgress('sokomot')['2026-05-07-1']
-    expect(progress.status).toBe('solved')
-    expect(progress.lastPlayedAt).toBeTruthy()
+    vi.useRealTimers()
+    expect(readGameProgress('sokomot')['2026-05-07-1']).toEqual({
+      status: 'solved',
+      lastPlayedAt: '2026-05-07T10:00:00.000Z',
+    })
   })
 
   it('recordWin garde un statut parfait quand on rejoue moins bien', () => {
@@ -37,7 +41,7 @@ describe('lib/localStorage', () => {
     expect(readGameProgress('sokomot')['2026-05-07-1'].status).toBe('perfect')
   })
 
-  it('isole les jeux dans le storage', () => {
+  it('isole les jeux dans le stockage', () => {
     recordWin('sokomot', '2026-05-07-1', 'solved')
     recordWin('boucle', '2026-05-07-1', 'perfect')
     expect(readGameProgress('sokomot')['2026-05-07-1'].status).toBe('solved')
@@ -47,6 +51,11 @@ describe('lib/localStorage', () => {
 
   it('readGameProgress renvoie {} pour un jeu inconnu', () => {
     expect(readGameProgress('inconnu')).toEqual({})
+  })
+
+  it.each(['42', 'null'])("ignore une sauvegarde qui n'est pas un objet (%s)", (raw) => {
+    window.localStorage.setItem('ptitjeux.progress', raw)
+    expect(readAllProgress()).toEqual({})
   })
 
   it('survit à un JSON corrompu en localStorage', () => {

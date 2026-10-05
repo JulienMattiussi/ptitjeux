@@ -11,11 +11,11 @@ import { tryGenerateSokobanPullChain } from '../../generators/sokomot-pullchain'
 import { replaySolution } from '../helpers/sokomot'
 
 const DATE = '2026-10-07'
-// Les niveaux 3 et 4 passent par les solveurs, qui prennent quelques secondes.
+// Les solveurs prennent quelques secondes aux niveaux 3 et 4.
 const SOLVER_TIMEOUT = 30_000
 
 describe('sokomot/generator', () => {
-  it('isIceIndex cible niveaux 2 et 4 uniquement', () => {
+  it('isIceIndex ne cible que les niveaux 2 et 4', () => {
     expect(LEVEL_INDICES.map(isIceIndex)).toEqual([false, true, false, true])
   })
 

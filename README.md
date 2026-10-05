@@ -17,7 +17,7 @@ niveaux par jour, de plus en plus grands.**
 </a>
 
 <sub>
-  100 % front-end &nbsp;·&nbsp; React Router 7 + React 19 &nbsp;·&nbsp; TypeScript strict &nbsp;·&nbsp;
+  sans base de données &nbsp;·&nbsp; React Router 7 + React 19 &nbsp;·&nbsp; TypeScript strict &nbsp;·&nbsp;
   Tailwind CSS v4 &nbsp;·&nbsp; niveaux générés et prouvés hors ligne &nbsp;·&nbsp; licence MIT
 </sub>
 
@@ -35,7 +35,7 @@ résultat **parfait**.
 
 **Encercle le mot caché.** Trace une seule boucle fermée sur une grille de lettres : les
 chiffres disent combien de côtés de chaque case la boucle emprunte, et les lettres
-encerclées forment le mot du jour. Un Slitherlink avec un mot à trouver.
+encerclées forment le mot caché. Un Slitherlink avec un mot à trouver.
 
 <img src="docs/images/boucle.png" width="720" alt="Une partie de Boucle : une grille de lettres avec ses indices chiffrés, le compteur de coups et l'aide à droite.">
 
@@ -114,10 +114,10 @@ make start          # http://localhost:2222
 
 | Commande | Effet |
 |---|---|
-| `make check` | build + taille du bundle + lint + code mort (knip) + typecheck + tests (avant chaque commit) |
+| `make check` | build + lint + code mort (knip) + typecheck + tests (avant chaque commit) |
 | `make test` | tests unitaires, de composants et d'intégrité des niveaux |
 | `make verify-levels` | vérifications lourdes : unicité de chaque niveau, générateurs sur un large échantillon de dates |
-| `make generate-levels` | régénère les défis quotidiens (à la demande uniquement) |
+| `make generate-levels` | régénère les défis quotidiens (à la demande uniquement, jamais Sémantogramme sans demande explicite) |
 
 Stack : React Router 7 (mode framework), React 19, TypeScript strict, Vite, Tailwind CSS
 v4, Vitest et Testing Library.

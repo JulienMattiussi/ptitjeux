@@ -3,6 +3,7 @@ import { CheckMark } from './CheckMark'
 import { ChevronRight, LockIcon } from './icons'
 import { THUMBNAILS } from '~/games/thumbnails'
 import type { CompletionStatus } from '~/lib/completion'
+import { dateLabel } from '~/lib/dates'
 import { GAME_ACCENT, GAME_SIZE, type GameId } from '~/lib/game-styles'
 
 type Props = {
@@ -14,6 +15,16 @@ type Props = {
   status: CompletionStatus
   /** `daily` = grande tuile avec libellé « Niveau N ». `archive` = compact, sans libellé. */
   variant?: 'daily' | 'archive'
+}
+
+const STATUS_SUFFIX: Record<CompletionStatus, string> = {
+  unsolved: '',
+  solved: ', résolu',
+  perfect: ', parfait',
+}
+
+function archiveLabel(index: number, date: string, status: CompletionStatus): string {
+  return `Niveau ${index} du ${dateLabel(date)}${STATUS_SUFFIX[status]}`
 }
 
 export function LevelTile({ gameId, date, index, locked, status, variant = 'daily' }: Props) {
@@ -111,7 +122,13 @@ export function LevelTile({ gameId, date, index, locked, status, variant = 'dail
   }
 
   return (
-    <Link to={`/${gameId}/${date}/${index}`} {...navAttrs} className={baseClass}>
+    <Link
+      to={`/${gameId}/${date}/${index}`}
+      {...navAttrs}
+      // En archive, rien de visible ne distingue les tuiles : le nom accessible le fait.
+      aria-label={compact ? archiveLabel(index, date, status) : undefined}
+      className={baseClass}
+    >
       {inner}
     </Link>
   )

@@ -65,7 +65,7 @@ export function prefetchDefinition(word: string): void {
  * Affiche la définition d'un mot tirée du Wiktionnaire francophone.
  *
  * - Lit immédiatement le cache au montage : si déjà préchargée, la définition
- *   apparaît sans pop.
+ *   apparaît sans apparition tardive.
  * - Sinon, lance la requête et met à jour quand elle aboutit.
  * - Si l'appel échoue (réseau, 404, etc.), le composant ne rend rien.
  */

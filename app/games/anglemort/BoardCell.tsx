@@ -36,7 +36,7 @@ type Props = {
 
 function floorLabel(c: Extract<CellContent, { kind: 'floor' }>): string {
   if (c.guard) return `Vigile tourné vers ${DIR_LABEL[c.guard.facing]}`
-  if (c.isDoor) return "Case d'entrée"
+  if (c.isDoor) return "Porte d'entrée"
   if (c.isDiamond) return 'Diamant'
   if (c.clue !== undefined) {
     const must = c.clue > 1 ? 'doivent' : 'doit'

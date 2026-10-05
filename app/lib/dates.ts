@@ -32,19 +32,26 @@ export function parseDate(s: DateString): Date {
 }
 
 /**
- * Renvoie la date d'aujourd'hui pour le visiteur, au format `YYYY-MM-DD`.
+ * Le défi change à minuit, heure de Paris, pour tout le monde : le serveur
+ * (souvent en UTC) et le navigateur calculent ainsi le même jour, sans quoi
+ * le rendu serveur et l'hydratation divergeraient la nuit.
+ */
+const PARIS_DAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' })
+
+/**
+ * Date du défi du jour, au format `YYYY-MM-DD`.
  *
  * En mode développement, on peut figer la « date du jour » à la date du dernier
  * niveau disponible : utile pour tester l'expérience sans avoir à attendre.
  *
- * Active le mode en posant `VITE_FREEZE_TODAY=last-available` dans `.env`.
+ * Active le mode en posant `VITE_FREEZE_TODAY=last-available` dans `.env.local`.
  * `lastAvailableDate` est alors utilisé comme date du jour.
  */
 export function todayString(lastAvailableDate?: DateString): DateString {
   if (import.meta.env?.VITE_FREEZE_TODAY === 'last-available' && lastAvailableDate) {
     return lastAvailableDate
   }
-  return formatDate(new Date())
+  return PARIS_DAY.format(new Date())
 }
 
 /**
@@ -52,7 +59,7 @@ export function todayString(lastAvailableDate?: DateString): DateString {
  * dans le futur (mois à venir). Sinon on les masque pour ne pas spoiler le
  * contenu non encore publié.
  *
- * Active le mode en posant `VITE_SHOW_FUTURE_DAYS=1` dans `.env`.
+ * Active le mode en posant `VITE_SHOW_FUTURE_DAYS=1` dans `.env.local`.
  */
 export function shouldShowFutureDates(): boolean {
   return import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
@@ -74,7 +81,7 @@ export function monthLabel(key: string): string {
   return `${MONTHS_FR[m - 1]} ${y}`
 }
 
-/** Étiquette française courte d'une date complète. Ex. « 7 mai 2026 ». */
+/** Étiquette française longue d'une date (« 7 mai 2026 »). */
 export function dateLabel(date: DateString): string {
   const d = parseDate(date)
   return `${d.getDate()} ${MONTHS_FR[d.getMonth()]} ${d.getFullYear()}`

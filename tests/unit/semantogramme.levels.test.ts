@@ -45,7 +45,7 @@ describe('niveaux Sémantogramme : intégrité', () => {
     expect(new Set(flat).size).toBe(flat.length)
   })
 
-  it("les mots d'une journée sont tous différents, et différents des thèmes du jour", () => {
+  it("les mots d'une journée sont tous différents, et différents des thèmes du jour (règle 2)", () => {
     const found: string[] = []
     for (const date of dates) {
       const day = LEVEL_INDICES.flatMap((i) => challenges.getLevel(date, i) ?? [])
@@ -62,7 +62,7 @@ describe('niveaux Sémantogramme : intégrité', () => {
     expect(found).toEqual([])
   })
 
-  it('aucun niveau ne contient deux mots de la même famille', () => {
+  it('aucun niveau ne contient deux mots de la même famille (règle 4)', () => {
     const found: string[] = []
     for (const level of levels) {
       for (const [a, b] of familyPairs(level.words.flat())) found.push(`${level.id} : ${a} / ${b}`)

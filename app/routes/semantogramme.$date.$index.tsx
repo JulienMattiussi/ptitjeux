@@ -34,8 +34,8 @@ import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/semantogramme.$date.$index'
 
-export function meta({ params }: Route.MetaArgs) {
-  return gamePlayMeta('semantogramme', params.date, params.index)
+export function meta({ params, loaderData }: Route.MetaArgs) {
+  return gamePlayMeta('semantogramme', params.date, params.index, !!loaderData?.level)
 }
 
 export function loader({ params }: { params: LevelParams }) {
@@ -45,7 +45,8 @@ export function loader({ params }: { params: LevelParams }) {
 // La saisie du thème n'est pas un coup : seuls les changements de case s'annulent.
 const undoableReducer = withUndo(reducer, (action) => action.type === 'cycle')
 
-// Le `key` remonte une partie neuve à chaque changement de niveau.
+// Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
+// le `useReducer` garderait l'état du niveau précédent.
 export default function SemantogrammePlayRoute({ loaderData }: Route.ComponentProps) {
   const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/semantogramme" />
@@ -114,12 +115,12 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           <VictoryOverlay
             show={won}
             variant={variant}
-            title={variant === 'perfect' ? 'Thème trouvé !' : 'Thème trouvé'}
+            title={variant === 'perfect' ? 'Sans faute !' : 'Thème trouvé'}
             detail={
               <>
                 <div>
-                  Le mot caché était <span className="font-bold">« {level.themeWord} »</span>,
-                  trouvé en <span className="font-bold">{plural(state.moves, 'clic')}</span>.
+                  Le thème était <span className="font-bold">« {level.themeWord} »</span>, trouvé en{' '}
+                  <span className="font-bold">{plural(state.moves, 'coup')}</span>.
                 </div>
                 <ParObjective parMoves={level.parMoves} variant={variant} />
                 <WordDefinition word={level.themeWord} />
@@ -145,7 +146,6 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
         />
         <PlaySidebar>
           <MovesCard
-            label="Clics"
             moves={state.moves}
             parMoves={level.parMoves}
             hint={
@@ -162,15 +162,15 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           />
 
           <HelpBox>
-            Clique (ou flèches + Espace) pour changer l'état d'une case :
+            Clique (ou flèches + Espace ou Entrée) pour changer l'état d'une case :
             <span className="mx-1 inline-block rounded bg-amber-200 px-1.5 py-0.5 text-amber-950 dark:bg-amber-700/70 dark:text-amber-50">
-              IN
+              Liée au thème
             </span>
-            (liée au thème) →
+            →
             <span className="mx-1 inline-block rounded bg-gray-200 px-1.5 py-0.5 line-through dark:bg-gray-700">
-              OUT
+              Hors thème
             </span>
-            (hors thème) → vide.
+            → non marquée.
           </HelpBox>
 
           {isFullyMarked(state) && !gridSolved && (

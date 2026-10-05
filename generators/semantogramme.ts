@@ -43,7 +43,9 @@ let plan: Map<string, Level> | undefined
 export function generateSemantogrammeLevel(date: string, index: LevelIndex): Level {
   plan ??= planYear(loadCuration(), loadDomains())
   const level = plan.get(`${date}-${index}`)
-  if (!level) throw new Error(`Sémantogramme : aucun thème curé le ${date} au niveau ${index}`)
+  if (!level) {
+    throw new Error(`Sémantogramme : aucun thème dans la curation le ${date} au niveau ${index}`)
+  }
   return level
 }
 
@@ -58,8 +60,8 @@ export function loadDomains(): Domains {
  * - règle 2 : tous les mots d'un jour sont différents, et différents des thèmes du jour ;
  * - règle 3 : aucun mot commun avec les deux jours précédents ni les deux suivants ;
  * - règle 4 : pas deux mots de la même famille dans une grille, ni un mot qui trahit le thème ;
- * - règle 5 (approchée) : pas de mot d'un thème du même domaine de sens, ni d'un
- *   thème lié (dont la liste contient le thème courant, ou l'inverse).
+ * - enfin, pas de mot d'un thème du même domaine de sens, ni d'un thème lié
+ *   (dont la liste contient le thème courant, ou l'inverse).
  */
 function planYear(curation: Curation, domains: Domains): Map<string, Level> {
   const days = curation.schedule['1'].map((t) => t.date)
@@ -81,7 +83,7 @@ function planYear(curation: Curation, domains: Domains): Map<string, Level> {
   )
   const pool = [...new Set(Object.values(curation.words).flat())]
 
-  /** Mots exclus des mots hors thème de `theme` (règle 5 approchée). */
+  /** Mots exclus des mots hors thème de `theme` : ceux des thèmes du même domaine ou liés. */
   function relatedWords(level: ThemeLevel, theme: string): Set<string> {
     const t = normalizeWord(theme)
     const own = new Set(curation.words[`${level}|${theme}`].map(normalizeWord))

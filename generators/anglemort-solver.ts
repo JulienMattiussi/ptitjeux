@@ -1,11 +1,14 @@
 /**
  * Solveur Angle mort, build-time uniquement : cherche les poses du lot
- * **entier** qui respectent les indices et laissent un couloir unique.
+ * **entier** qui respectent les indices et dont les cases dans l'ombre forment
+ * un seul chemin, de la porte au diamant. Comparer les couloirs de ces poses
+ * (unicité du couloir) revient à `anglemort-corridors.ts`.
  *
- * Les bornes d'éclairage et la propagation vivent dans
- * `anglemort-propagate.ts`. Le branchement se fait **par case** (une variante
- * de vigile, ou aucun vigile), ce qui partitionne l'espace : chaque solution
- * est trouvée une seule fois, donc on peut compter. La validation finale
+ * Les candidats et les bornes d'éclairage vivent dans `anglemort-bounds.ts`,
+ * les règles de déduction dans `anglemort-propagate.ts`. Le branchement se
+ * fait **par case** (une variante de vigile, ou aucun vigile), ce qui
+ * partitionne l'espace : chaque solution est trouvée une seule fois, donc on
+ * peut compter. La validation finale
  * passe par le moteur du jeu.
  */
 import {
@@ -25,8 +28,8 @@ import {
   forcePath,
   makeCtx,
   needsCover,
-  propagate,
-} from './anglemort-propagate'
+} from './anglemort-bounds'
+import { propagate } from './anglemort-propagate'
 
 export type SolveOptions = {
   /** Cases imposées sur le chemin (la porte et le diamant le sont toujours). */

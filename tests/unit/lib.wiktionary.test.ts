@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { extractPageText, parseFrenchDefinition, shortenToSentence } from '~/lib/wiktionary'
 
-describe('lib/wiktionary — extractPageText', () => {
+describe('lib/wiktionary : extractPageText', () => {
   it("renvoie l'extrait de la première page non manquante", () => {
     const data = {
       query: {
@@ -13,7 +13,7 @@ describe('lib/wiktionary — extractPageText', () => {
     expect(extractPageText(data)).toBe('Hello world')
   })
 
-  it('renvoie null si la page est missing', () => {
+  it('renvoie null si la page est absente', () => {
     const data = {
       query: { pages: { '-1': { missing: '', title: 'inconnu' } } },
     }
@@ -34,7 +34,7 @@ describe('lib/wiktionary — extractPageText', () => {
   })
 })
 
-describe('lib/wiktionary — parseFrenchDefinition', () => {
+describe('lib/wiktionary : parseFrenchDefinition', () => {
   it("extrait la première définition d'un nom commun", () => {
     const raw = `
 == Français ==
@@ -101,7 +101,7 @@ Première personne du singulier du passé simple du verbe pierrer.
     )
   })
 
-  it('saute les lignes de prononciation/inflection (avec barres obliques)', () => {
+  it('saute les lignes de prononciation ou de flexion (entre antislashs)', () => {
     const raw = `
 == Français ==
 === Nom commun ===
@@ -118,7 +118,7 @@ Automobile.
     expect(parseFrenchDefinition(raw)).toBeNull()
   })
 
-  it('renvoie null si seules sections étymologie/références sont présentes', () => {
+  it('renvoie null si seules les sections Étymologie et Références sont présentes', () => {
     const raw = `
 == Français ==
 === Étymologie ===
@@ -157,14 +157,14 @@ ${longSentence}
   })
 })
 
-describe('lib/wiktionary — shortenToSentence', () => {
+describe('lib/wiktionary : shortenToSentence', () => {
   it('renvoie tel quel sous la limite', () => {
     expect(shortenToSentence('Petit texte.', 50)).toBe('Petit texte.')
   })
 
   it('coupe à la fin de phrase la plus tardive sous la limite', () => {
     const s = 'Phrase un. Phrase deux. Phrase trois plus longue.'
-    // 25 chars : "Phrase un. Phrase deux. " → on garde la 2e phrase complète
+    // Limite 25 : la 3e phrase ne tient pas, on garde les deux premières.
     expect(shortenToSentence(s, 25)).toBe('Phrase un. Phrase deux.')
   })
 

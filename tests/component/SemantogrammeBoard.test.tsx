@@ -38,7 +38,6 @@ describe('semantogramme/Board', () => {
   it("affiche les indices de ligne et de colonne (0/N à l'état initial)", () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} onCellClick={() => {}} />)
-    // 2 lignes + 2 colonnes = 4 affichages « 0 / 1 ».
     expect(screen.getAllByText('0 / 1')).toHaveLength(4)
   })
 
@@ -53,13 +52,13 @@ describe('semantogramme/Board', () => {
 
   it('reflète le statut « in » via aria-pressed=true', () => {
     let state = loadLevel(LEVEL)
-    state = cycleCellStatus(state, 0, 0) // unmarked → in
+    state = cycleCellStatus(state, 0, 0)
     render(<Board state={state} onCellClick={() => {}} />)
     const chat = screen.getByRole('button', { name: /Case chat/i })
     expect(chat).toHaveAttribute('aria-pressed', 'true')
   })
 
-  it('marque la case sélectionnée avec un anneau ring-2', () => {
+  it('met en évidence la case sélectionnée (ring-2)', () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} onCellClick={() => {}} selected={{ x: 1, y: 0 }} />)
     const pomme = screen.getByRole('button', { name: /Case pomme/i })

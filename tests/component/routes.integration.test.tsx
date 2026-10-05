@@ -1,4 +1,4 @@
-import { screen, waitFor } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import * as SokomotPlay from '~/routes/sokomot.$date.$index'
@@ -25,39 +25,31 @@ async function renderRoute(url: string) {
   await screen.findByText('Coups')
 }
 
-describe('routes (intégration) : Sokomot — flow complet jouer → gagner → progression', () => {
+describe('routes (intégration) : Sokomot, partie complète jouer → gagner → progression', () => {
   beforeEach(() => {
     window.localStorage.clear()
     // Wiktionnaire : fetch suspendu pour ne pas générer de bruit.
     vi.spyOn(globalThis, 'fetch').mockImplementation(() => new Promise(() => {}))
-    vi.useFakeTimers({ shouldAdvanceTime: true })
   })
 
   afterEach(() => {
     vi.restoreAllMocks()
-    vi.useRealTimers()
     window.localStorage.clear()
   })
 
   it('appliquer la solution au clavier déclenche la victoire et écrit la progression', async () => {
-    const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
+    const user = userEvent.setup()
     await renderRoute(`/sokomot/${DATE}/1`)
 
-    // Sanity : l'overlay de victoire n'est pas visible au démarrage.
     expect(screen.queryByText(/Niveau parfait|Niveau résolu/)).not.toBeInTheDocument()
 
-    // Joue la solution stockée.
     for (const move of LEVEL.solution) {
       await user.keyboard(KEY_BY_DIRECTION[move])
     }
 
-    // L'overlay attend 280ms avant d'apparaître.
-    vi.advanceTimersByTime(300)
-    await waitFor(() => {
-      expect(screen.getByText(/Niveau parfait|Niveau résolu/)).toBeInTheDocument()
-    })
+    // L'overlay attend la fin du glissement des blocs (280 ms) avant d'apparaître.
+    expect(await screen.findByText(/Niveau parfait|Niveau résolu/)).toBeInTheDocument()
 
-    // La progression a été écrite dans localStorage.
     const progress = readGameProgress('sokomot')
     expect(progress[`${DATE}-1`]?.status).toBe('perfect')
   })

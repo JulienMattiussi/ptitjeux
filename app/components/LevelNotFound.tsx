@@ -12,7 +12,7 @@ type Props = {
  */
 export function LevelNotFound({ backHref }: Props) {
   return (
-    <GameLayout title="Niveau introuvable" backHref={backHref}>
+    <GameLayout title="Niveau introuvable" backHref={backHref} backLabel="Niveaux">
       <p className="text-gray-600 dark:text-gray-300">
         Ce niveau n'existe pas.{' '}
         <Link to={backHref} className="underline">

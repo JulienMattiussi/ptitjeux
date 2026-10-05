@@ -34,8 +34,8 @@ import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/boucle.$date.$index'
 
-export function meta({ params }: Route.MetaArgs) {
-  return gamePlayMeta('boucle', params.date, params.index)
+export function meta({ params, loaderData }: Route.MetaArgs) {
+  return gamePlayMeta('boucle', params.date, params.index, !!loaderData?.level)
 }
 
 export function loader({ params }: { params: LevelParams }) {
@@ -44,7 +44,8 @@ export function loader({ params }: { params: LevelParams }) {
 
 const undoableReducer = withUndo(reducer, (action) => action.type === 'toggle')
 
-// Le `key` remonte une partie neuve à chaque changement de niveau.
+// Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
+// le `useReducer` garderait l'état du niveau précédent.
 export default function BouclePlayRoute({ loaderData }: Route.ComponentProps) {
   const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/boucle" />
@@ -102,8 +103,8 @@ function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             detail={
               <>
                 <div>
-                  Mot encerclé : <span className="font-bold">{level.solutionWord}</span> en{' '}
-                  <span className="font-bold">{plural(state.moves, 'coup')}</span>.
+                  Mot encerclé en <span className="font-bold">{plural(state.moves, 'coup')}</span> :{' '}
+                  <span className="font-bold">{level.solutionWord}</span>.
                 </div>
                 <ParObjective parMoves={level.parMoves} variant={variant} />
                 <WordDefinition word={level.canonicalWord} />
@@ -143,7 +144,7 @@ function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
                 value={`${countSatisfiedClues(state)} / ${countClues(state)}`}
                 ok={areCluesSatisfied(state)}
               />
-              <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'ouverte'} ok={loopOk} />
+              <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'incomplète'} ok={loopOk} />
             </div>
           </MovesCard>
 

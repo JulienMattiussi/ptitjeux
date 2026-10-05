@@ -8,6 +8,7 @@ import {
   isThemeGuessCorrect,
   isWon,
   loadLevel,
+  reducer,
   setThemeGuess,
 } from '~/games/semantogramme/engine'
 import type { Level } from '~/games/semantogramme/types'
@@ -36,7 +37,7 @@ function makeLevel(overrides: Partial<Level> = {}): Level {
 }
 
 describe('semantogramme engine', () => {
-  it('charge un niveau avec toutes les cases unmarked', () => {
+  it('charge un niveau avec toutes les cases non marquées', () => {
     const state = loadLevel(makeLevel())
     expect(state.status).toEqual([
       ['unmarked', 'unmarked'],
@@ -69,8 +70,8 @@ describe('semantogramme engine', () => {
 
   it('compte les IN par ligne et par colonne', () => {
     let state = loadLevel(makeLevel())
-    state = cycleCellStatus(state, 0, 0) // (0,0) → in
-    state = cycleCellStatus(state, 1, 1) // (1,1) → in
+    state = cycleCellStatus(state, 0, 0)
+    state = cycleCellStatus(state, 1, 1)
     expect(countInPerRow(state, 0)).toBe(1)
     expect(countInPerRow(state, 1)).toBe(1)
     expect(countInPerCol(state, 0)).toBe(1)
@@ -80,37 +81,37 @@ describe('semantogramme engine', () => {
   it('détecte une grille pleinement marquée', () => {
     let state = loadLevel(makeLevel())
     expect(isFullyMarked(state)).toBe(false)
-    state = cycleCellStatus(state, 0, 0) // in
-    state = cycleCellStatus(state, 0, 1) // in
-    state = cycleCellStatus(state, 1, 0) // in
-    state = cycleCellStatus(state, 1, 1) // in
+    state = cycleCellStatus(state, 0, 0)
+    state = cycleCellStatus(state, 0, 1)
+    state = cycleCellStatus(state, 1, 0)
+    state = cycleCellStatus(state, 1, 1)
     expect(isFullyMarked(state)).toBe(true)
   })
 
   it('détecte la grille résolue avec OUT explicites sur les non-thème', () => {
     let state = loadLevel(makeLevel())
-    state = cycleCellStatus(state, 0, 0) // (0,0) → in
-    state = cycleCellStatus(state, 1, 0) // (1,0) → in
-    state = cycleCellStatus(state, 1, 0) // (1,0) → out
-    state = cycleCellStatus(state, 0, 1) // (0,1) → in
-    state = cycleCellStatus(state, 0, 1) // (0,1) → out
-    state = cycleCellStatus(state, 1, 1) // (1,1) → in
+    state = cycleCellStatus(state, 0, 0)
+    state = cycleCellStatus(state, 1, 0)
+    state = cycleCellStatus(state, 1, 0)
+    state = cycleCellStatus(state, 0, 1)
+    state = cycleCellStatus(state, 0, 1)
+    state = cycleCellStatus(state, 1, 1)
     expect(isGridSolved(state)).toBe(true)
   })
 
   it('détecte la grille résolue avec uniquement les IN posés (OUT laissés vides)', () => {
     let state = loadLevel(makeLevel())
-    state = cycleCellStatus(state, 0, 0) // (0,0) → in (solution: true)
-    state = cycleCellStatus(state, 1, 1) // (1,1) → in (solution: true)
-    // (1,0) et (0,1) restent unmarked — leur solution est false, donc OK.
+    state = cycleCellStatus(state, 0, 0)
+    state = cycleCellStatus(state, 1, 1)
+    // (1,0) et (0,1) restent vides : hors thème, inutile de les marquer OUT.
     expect(isGridSolved(state)).toBe(true)
   })
 
   it('refuse la grille résolue si une case hors-thème est marquée IN (faux positif)', () => {
     let state = loadLevel(makeLevel())
-    state = cycleCellStatus(state, 0, 0) // (0,0) → in (solution: true)
-    state = cycleCellStatus(state, 1, 1) // (1,1) → in (solution: true)
-    state = cycleCellStatus(state, 1, 0) // (1,0) → in MAIS solution: false
+    state = cycleCellStatus(state, 0, 0)
+    state = cycleCellStatus(state, 1, 1)
+    state = cycleCellStatus(state, 1, 0) // hors thème
     expect(isGridSolved(state)).toBe(false)
   })
 
@@ -124,8 +125,8 @@ describe('semantogramme engine', () => {
 
   it("isWon n'est vrai que si la grille est résolue ET le thème est juste", () => {
     let state = loadLevel(makeLevel())
-    state = cycleCellStatus(state, 0, 0) // (0,0) → in
-    state = cycleCellStatus(state, 1, 1) // (1,1) → in
+    state = cycleCellStatus(state, 0, 0)
+    state = cycleCellStatus(state, 1, 1)
     expect(isWon(state)).toBe(false) // pas de thème
     state = setThemeGuess(state, 'tigre')
     expect(isWon(state)).toBe(false) // mauvais thème
@@ -135,9 +136,28 @@ describe('semantogramme engine', () => {
 
   it('isWon est faux quand un IN manque', () => {
     let state = loadLevel(makeLevel())
-    state = cycleCellStatus(state, 0, 0) // (0,0) → in
-    // (1,1) reste unmarked alors que solution true
+    state = cycleCellStatus(state, 0, 0)
+    // (1,1) fait partie du thème mais reste vide.
     state = setThemeGuess(state, 'animal')
     expect(isWon(state)).toBe(false)
+  })
+})
+
+describe('semantogramme engine : reducer', () => {
+  it('cycle fait tourner le statut de la case et compte le clic', () => {
+    const state = reducer(loadLevel(makeLevel()), { type: 'cycle', x: 1, y: 0 })
+    expect(state.status[0][1]).toBe('in')
+    expect(state.moves).toBe(1)
+  })
+
+  it('guess enregistre la proposition sans compter de clic', () => {
+    const state = reducer(loadLevel(makeLevel()), { type: 'guess', value: 'chat' })
+    expect(state.themeGuess).toBe('chat')
+    expect(state.moves).toBe(0)
+  })
+
+  it('reset revient au niveau de départ', () => {
+    const played = reducer(loadLevel(makeLevel()), { type: 'cycle', x: 0, y: 0 })
+    expect(reducer(played, { type: 'reset' })).toEqual(loadLevel(makeLevel()))
   })
 })

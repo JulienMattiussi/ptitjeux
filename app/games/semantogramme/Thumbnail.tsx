@@ -15,7 +15,6 @@ export function Thumbnail({ className = '' }: Props) {
         </linearGradient>
       </defs>
       <rect x="0" y="0" width="120" height="80" fill="url(#sem-bg)" />
-      {/* Compteurs de marge */}
       <text x="11" y="22" fontSize="7" fontWeight="700" fill="oklch(50% 0.18 60)">
         2
       </text>
@@ -34,7 +33,6 @@ export function Thumbnail({ className = '' }: Props) {
       <text x="92" y="14" fontSize="7" fontWeight="700" fill="oklch(50% 0.18 60)">
         2
       </text>
-      {/* Cases */}
       {[
         [22, 16, true, 'thon'],
         [50, 16, false, 'banc'],
@@ -73,9 +71,3 @@ export function Thumbnail({ className = '' }: Props) {
     </svg>
   )
 }
-
-/**
- * Mini-plateau Angle mort 5×3 dessiné avec les vraies pièces du jeu : deux
- * vigiles éclairent les rangées du haut et du bas, le couloir du milieu reste
- * dans l'ombre de la porte jusqu'au diamant.
- */

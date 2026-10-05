@@ -219,7 +219,7 @@ describe('anglemort engine : rotation', () => {
     expect(facings(state, [2, 1], 3)).toEqual(['oppose:E', 'oppose:N', 'oppose:E'])
   })
 
-  it('ne bascule pas sur un type dont le lot est déjà posé ailleurs', () => {
+  it('un vigile simple pivote sans changer de type, même avec un autre type au lot', () => {
     const level = makeLevel({ pool: { simple: 1, angle: 1, oppose: 0 } })
     const state = withGuards(level, [
       { pos: [0, 2], type: 'simple', facing: 'E' },
@@ -491,7 +491,7 @@ describe('anglemort engine : marche du cambrioleur', () => {
 })
 
 describe('anglemort engine : victoire', () => {
-  it('vérifie les indices chiffrés', () => {
+  it('areCluesSatisfied : vrai avec la solution, faux sans vigile', () => {
     const level = makeLevel()
     expect(areCluesSatisfied(level, computeVision(level, level.solution))).toBe(true)
     expect(areCluesSatisfied(level, computeVision(level, []))).toBe(false)
@@ -502,7 +502,7 @@ describe('anglemort engine : victoire', () => {
     expect(isWon(withGuards(level, level.solution))).toBe(true)
   })
 
-  it('gagne en jouant la solution au clavier : poser puis pivoter', () => {
+  it('gagne en jouant la solution action par action : poser puis pivoter', () => {
     let state = loadLevel(makeLevel())
     state = reducer(state, { type: 'toggle', x: 0, y: 2 })
     state = reducer(state, { type: 'rotate', x: 0, y: 2 })

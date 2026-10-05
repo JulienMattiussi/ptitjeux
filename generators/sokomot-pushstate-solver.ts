@@ -17,48 +17,8 @@
  * `parMoves` bien meilleure que la solution générée à rebours.
  */
 import type { Coord, Direction, Level } from '~/games/sokomot/types'
-import { DIRECTIONS, cellKey } from './sokomot-grid'
+import { DIRECTIONS, cellKey, inBounds, pathTo, walkFrom } from './sokomot-grid'
 import { createMinHeap, matchingDistance, stateKey } from './sokomot-search'
-
-type Walk = { dist: Map<string, number>; parent: Map<string, [string, Direction] | null> }
-
-/** Parcours en largeur de la marche du joueur depuis `start`, murs et blocs exclus. */
-function walkFrom(
-  start: Coord,
-  cubeSet: Set<string>,
-  wallSet: Set<string>,
-  width: number,
-  height: number,
-): Walk {
-  const dist = new Map<string, number>()
-  const parent = new Map<string, [string, Direction] | null>()
-  const startKey = cellKey(start)
-  dist.set(startKey, 0)
-  parent.set(startKey, null)
-  const queue: Coord[] = [start]
-  let head = 0
-  while (head < queue.length) {
-    const [x, y] = queue[head++]
-    const k = cellKey([x, y])
-    const d = dist.get(k)!
-    for (const { dir, vec } of DIRECTIONS) {
-      const next: Coord = [x + vec[0], y + vec[1]]
-      if (next[0] < 0 || next[0] >= width || next[1] < 0 || next[1] >= height) continue
-      const nk = cellKey(next)
-      if (wallSet.has(nk) || cubeSet.has(nk) || dist.has(nk)) continue
-      dist.set(nk, d + 1)
-      parent.set(nk, [k, dir])
-      queue.push(next)
-    }
-  }
-  return { dist, parent }
-}
-
-function pathTo(end: string, parent: Walk['parent']): Direction[] {
-  const path: Direction[] = []
-  for (let p = parent.get(end); p; p = parent.get(p[0])) path.unshift(p[1])
-  return path
-}
 
 type Node = {
   /** Vidé une fois le nœud développé, pour ménager la mémoire. */
@@ -120,15 +80,15 @@ export function solveSokomotByPushes(level: Level, maxStates: number): Direction
     if (node.cubes.length === 0) continue
 
     const cubeSet = new Set(node.cubes.map(cellKey))
-    const reach = walkFrom(node.playerPos, cubeSet, wallSet, width, height)
+    const blocked = (k: string) => wallSet.has(k) || cubeSet.has(k)
+    const reach = walkFrom(node.playerPos, blocked, width, height)
 
     for (let i = 0; i < node.cubes.length; i++) {
       const [cx, cy] = node.cubes[i]
       for (const { dir, vec } of DIRECTIONS) {
         const pusher: Coord = [cx - vec[0], cy - vec[1]]
         const to: Coord = [cx + vec[0], cy + vec[1]]
-        if (to[0] < 0 || to[0] >= width || to[1] < 0 || to[1] >= height) continue
-        if (pusher[0] < 0 || pusher[0] >= width || pusher[1] < 0 || pusher[1] >= height) continue
+        if (!inBounds(to, width, height) || !inBounds(pusher, width, height)) continue
         const tk = cellKey(to)
         if (wallSet.has(tk) || cubeSet.has(tk)) continue
         const pk = cellKey(pusher)

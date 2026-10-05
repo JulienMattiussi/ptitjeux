@@ -1,10 +1,10 @@
 {
   "$schema": "https://unpkg.com/knip@6/schema.json",
-  "entry": ["scripts/*.ts", "tests/levels/**/*.test.ts"],
+  "entry": ["scripts/*.ts!", "tests/levels/**/*.test.ts"],
   "project": [
-    "app/**/*.{ts,tsx,css}",
-    "generators/**/*.ts",
-    "scripts/**/*.ts",
+    "app/**/*.{ts,tsx,css}!",
+    "generators/**/*.ts!",
+    "scripts/**/*.ts!",
     "tests/**/*.{ts,tsx}"
   ]
 }

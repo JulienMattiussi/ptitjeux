@@ -24,8 +24,8 @@ import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/sokomot.$date.$index'
 
-export function meta({ params }: Route.MetaArgs) {
-  return gamePlayMeta('sokomot', params.date, params.index)
+export function meta({ params, loaderData }: Route.MetaArgs) {
+  return gamePlayMeta('sokomot', params.date, params.index, !!loaderData?.level)
 }
 
 export function loader({ params }: { params: LevelParams }) {
@@ -91,7 +91,7 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
   return (
     <GameLayout
       title={title}
-      subtitle={`Mot à former : ${level.target.word}`}
+      subtitle={`Mot à former : ${level.target.word}.`}
       backHref={backHref}
       backLabel="Niveaux"
     >
@@ -135,8 +135,8 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           />
 
           <HelpBox>
-            Déplace-toi avec les flèches ou ZQSD. Pousse les blocs sur les cases ombrées pour former
-            le mot.
+            Déplace-toi avec les flèches ou ZQSD. Pousse les lettres sur les cases en pointillés
+            pour former le mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

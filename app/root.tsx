@@ -1,4 +1,12 @@
-import { isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration } from 'react-router'
+import {
+  isRouteErrorResponse,
+  Link,
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from 'react-router'
 
 import type { Route } from './+types/root'
 import './app.css'
@@ -63,7 +71,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 
   if (isRouteErrorResponse(error)) {
     message = error.status === 404 ? '404' : 'Erreur'
-    details = error.status === 404 ? "Cette page n'existe pas." : error.statusText || details
+    details = error.status === 404 ? "Cette page n'existe pas." : details
   } else if (import.meta.env.DEV && error && error instanceof Error) {
     details = error.message
     stack = error.stack
@@ -73,6 +81,11 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     <main className="container mx-auto p-4 pt-16">
       <h1 className="text-3xl font-bold">{message}</h1>
       <p className="mt-2">{details}</p>
+      <p className="mt-4">
+        <Link to="/" className="underline">
+          Retour à l'accueil
+        </Link>
+      </p>
       {stack && (
         <pre className="mt-4 w-full overflow-x-auto rounded bg-gray-100 p-4 dark:bg-gray-900">
           <code>{stack}</code>

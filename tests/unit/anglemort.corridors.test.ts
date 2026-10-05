@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Level, Pos } from '~/games/anglemort/types'
+import { addCluesUntilUnique } from '../../generators/anglemort-clues'
 import {
   checkRival,
   compatibleCorridors,
@@ -9,6 +10,8 @@ import {
   poseFitsClues,
   rivalStatus,
 } from '../../generators/anglemort-corridors'
+import { emptyStats } from '../../generators/anglemort-stats'
+import { Rng } from '../../generators/random'
 
 // Salle 3×2, porte en haut à gauche, diamant en haut à droite. Deux couloirs
 // induits : tout droit sur la rangée du haut, ou le détour par celle du bas.
@@ -117,5 +120,20 @@ describe('isCorridorUnique', () => {
 
   it("faux quand l'énumération est incomplète", () => {
     expect(isCorridorUnique(room(), STRAIGHT, { maxCorridors: 1, maxNodes: 10_000 })).toBe(false)
+  })
+})
+
+describe('addCluesUntilUnique', () => {
+  const unique = (solveRivals: number) =>
+    addCluesUntilUnique(new Rng('test'), room(), STRAIGHT, 5, solveRivals, emptyStats())
+
+  it("n'ajoute aucun indice quand le solveur écarte le seul concurrent, impossible", () => {
+    expect(unique(1)?.clues).toEqual({})
+  })
+
+  it('sans solveur, ajoute un indice qui élimine le concurrent', () => {
+    const level = unique(0)
+    expect(Object.keys(level?.clues ?? {})).toHaveLength(1)
+    expect(ids(level as Level)).toEqual([id(STRAIGHT)])
   })
 })

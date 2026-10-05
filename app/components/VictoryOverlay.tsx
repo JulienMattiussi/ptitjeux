@@ -61,13 +61,13 @@ const STYLES: Record<
 /**
  * Overlay de victoire commun. Couvre intégralement la `GameFrame` parente
  * (qui doit être en `position: relative`) avec un voile flou et une carte
- * centrée. Bloque les interactions sous-jacentes : retour à la liste,
- * « Rejouer » ou « Suivant ».
+ * centrée. Bloque les interactions sous-jacentes et propose : retour à la
+ * liste, « Rejouer » ou « Suivant ».
  *
  * Deux variantes :
- * - `perfect` (vert) : objectif de coups atteint — célébration maximale.
- * - `solved` (ambre) : niveau résolu mais au-dessus de l'objectif —
- *   on félicite plus discrètement.
+ * - `perfect` (vert) : objectif de coups atteint : célébration maximale.
+ * - `solved` (ambre) : niveau résolu mais au-dessus de l'objectif : on
+ *   félicite plus discrètement.
  */
 export function VictoryOverlay({
   show,
@@ -80,8 +80,7 @@ export function VictoryOverlay({
 }: Props) {
   const navigate = useNavigate()
 
-  // Navigation au clavier dans l'overlay : ← retour à la liste, Entrée
-  // rejouer, → niveau suivant (si présent).
+  // ← / Retour arrière / Échap : liste ; Entrée / Espace : rejouer ; → : suivant.
   useEffect(() => {
     if (!show) return
     function handleKey(event: KeyboardEvent) {

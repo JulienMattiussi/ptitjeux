@@ -24,7 +24,9 @@ describe('HintButton', () => {
 
   it("propose l'aide sans la révéler", () => {
     render(<Harness available />)
-    expect(screen.getByRole('button', { name: "Coincé ? Un peu d'aide ?" })).toBeInTheDocument()
+    expect(
+      screen.getByRole('button', { name: "Coincé\u00a0? Un peu d'aide\u00a0?" }),
+    ).toBeInTheDocument()
     expect(screen.queryByText('CHAT')).not.toBeInTheDocument()
   })
 

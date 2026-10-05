@@ -27,8 +27,8 @@ export function isIceIndex(index: LevelIndex): boolean {
 }
 
 /**
- * Budget d'états de chaque solveur. À 5 millions, un niveau 3 difficile
- * dépassait 4 Go de mémoire et faisait planter la génération ; au-delà du
+ * Budget d'états de chaque solveur, borné par la mémoire : à 5 millions, un
+ * niveau 3 difficile dépasse 4 Go et fait planter la génération. Au-delà du
  * budget, on garde la solution du générateur (valide).
  */
 const SOLVER_STATES = 2_000_000

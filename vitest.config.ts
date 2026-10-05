@@ -26,6 +26,8 @@ export default defineConfig({
       include: ['app/games/**/engine.ts', 'app/lib/**', 'generators/**/*.ts'],
       // Seuils d'AGENTS.md : moteurs et utilitaires partagés.
       thresholds: {
+        // Par fichier : un module bien couvert ne doit pas en masquer un faible.
+        perFile: true,
         'app/games/**/engine.ts': { statements: 90, branches: 90 },
         'app/lib/**': { statements: 90 },
       },

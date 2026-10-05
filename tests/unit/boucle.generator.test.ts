@@ -17,7 +17,7 @@ describe('boucle/generator', () => {
   it.each(LEVEL_INDICES)('niveau %s : la boucle attendue fait gagner', (i) => {
     const { state } = playExpectedLoop(generateBoucleLevel(DATE, i))
     expect(isValidLoop(state.edges), 'boucle invalide').toBe(true)
-    expect(areCluesSatisfied(state), 'indices KO').toBe(true)
+    expect(areCluesSatisfied(state), 'indices non satisfaits').toBe(true)
     expect(isWon(state), 'non gagnant').toBe(true)
   })
 

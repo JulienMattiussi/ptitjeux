@@ -6,7 +6,7 @@ type Props = ButtonHTMLAttributes<HTMLButtonElement>
  * Bouton secondaire à bordure : fond blanc, bordure grise, hover doux.
  * Utilisé pour « Recommencer », « Annuler », et autres actions neutres.
  *
- * Accepte tous les props HTML standards d'un bouton — y compris `disabled`,
+ * Accepte tous les props HTML standards d'un bouton, y compris `disabled`,
  * qui applique automatiquement un style « inactif ».
  */
 export function OutlineButton({ className = '', ...rest }: Props) {

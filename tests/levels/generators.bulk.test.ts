@@ -26,8 +26,8 @@ import { replaySolution } from '../helpers/sokomot'
  * `make generate-levels`.
  */
 
-// 24 dates hors du calendrier publié pour la plupart : premiers, milieux et
-// fins de mois, sur deux années.
+// 24 dates (premiers, milieux et fins de mois, sur deux années), dont 20
+// avant le calendrier publié : pour Sokomot et Boucle, des tirages inédits.
 const SAMPLE_DATES = [
   '2025-01-01',
   '2025-02-28',
@@ -56,8 +56,10 @@ const SAMPLE_DATES = [
 ]
 
 /**
- * Angle mort : chaque date tire une grille de base différente. Le niveau 3
- * coûte deux à trois minutes de solveur par grille : on n'en rejoue que deux.
+ * Angle mort : le calendrier boucle, chaque date retombe donc sur une grille
+ * de base déjà publiée (20 bases distinctes ici), dans l'une de ses 8
+ * symétries. Le niveau 3 coûte deux à trois minutes de solveur par grille :
+ * on n'en rejoue que deux.
  */
 const ANGLEMORT_SAMPLES: Record<LevelIndex, readonly string[]> = {
   1: SAMPLE_DATES,
@@ -93,7 +95,7 @@ describe('générateurs : robustesse sur un large échantillon de dates', () => 
 
         const { state, edges } = playExpectedLoop(level)
         expect(isValidLoop(state.edges), `${date}/${idx} boucle invalide`).toBe(true)
-        expect(areCluesSatisfied(state), `${date}/${idx} indices KO`).toBe(true)
+        expect(areCluesSatisfied(state), `${date}/${idx} indices non satisfaits`).toBe(true)
         expect(boucleIsWon(state), `${date}/${idx} non gagnant`).toBe(true)
         expect(edges.length, `${date}/${idx} dépasse parMoves`).toBeLessThanOrEqual(level.parMoves)
       }

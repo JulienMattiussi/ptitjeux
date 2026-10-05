@@ -1,9 +1,8 @@
-import { stripAccents } from '~/lib/text'
-
 /**
  * Règles de variété des grilles Sémantogramme, partagées par le générateur
  * et les tests d'intégrité.
  */
+import { stripAccents } from '~/lib/text'
 
 /** Forme de comparaison : sans accents, en minuscules. */
 export function normalizeWord(word: string): string {

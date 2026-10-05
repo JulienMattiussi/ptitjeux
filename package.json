@@ -1,6 +1,6 @@
 {
   "name": "ptitjeux",
-  "description": "Mini-jeux logico-spatiaux quotidiens : Boucle, Angle mort, Sokomot et Sémantogramme. 100 % front-end.",
+  "description": "Mini-jeux logico-spatiaux quotidiens : Boucle, Angle mort, Sokomot et Sémantogramme. Sans base de données ni compte.",
   "author": "YavaDeus",
   "license": "MIT",
   "homepage": "https://ptitjeux.yavadeus.dev",
@@ -29,11 +29,11 @@
   "scripts": {
     "dev": "react-router dev",
     "build": "react-router build",
-    "check:bundle": "tsx scripts/check-bundle.ts",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "lint": "eslint .",
     "knip": "knip",
+    "knip:production": "knip --production --include files,exports,types",
     "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"tests/**/*.{ts,tsx}\" \"generators/**/*.ts\" \"scripts/**/*.ts\" \"*.ts\"",
     "format:check": "prettier --check \"app/**/*.{ts,tsx,css}\" \"tests/**/*.{ts,tsx}\" \"generators/**/*.ts\" \"scripts/**/*.ts\" \"*.ts\"",
     "test": "vitest run",

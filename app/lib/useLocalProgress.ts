@@ -10,8 +10,8 @@ export function useLocalProgress(gameId: GameId): GameProgress {
   const [progress, setProgress] = useState<GameProgress>({})
 
   useEffect(() => {
-    // Hydration-safe : initial state vide côté SSR/premier render, puis on lit
-    // localStorage après le mount pour ne pas créer de mismatch d'hydratation.
+    // Sans risque à l'hydratation : état vide au rendu serveur et au premier
+    // rendu, lecture après le montage.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(readGameProgress(gameId))
     function handler(event: StorageEvent) {

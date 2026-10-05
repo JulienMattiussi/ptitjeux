@@ -46,11 +46,16 @@ export function pageMeta({
   ]
 }
 
+/** Pas de majuscule après « : » dans un titre. */
+function lowerFirst(text: string): string {
+  return text.charAt(0).toLowerCase() + text.slice(1)
+}
+
 /** Page « liste des niveaux » d'un jeu. */
 export function gameListMeta(gameId: GameId): MetaDescriptor[] {
   const game = findGame(gameId)
   return pageMeta({
-    title: `${game.name} : ${game.tagline.replace(/\.$/, '')} | ${SITE_NAME}`,
+    title: `${game.name} : ${lowerFirst(game.tagline.replace(/\.$/, ''))} | ${SITE_NAME}`,
     description: game.description,
     path: game.href,
   })
@@ -61,11 +66,18 @@ export function gameListMeta(gameId: GameId): MetaDescriptor[] {
  * identiques (et des défis à venir) diluent le site sans rien apporter ; la
  * liste des niveaux du jeu est la page à référencer.
  */
-export function gamePlayMeta(gameId: GameId, date = '', index = ''): MetaDescriptor[] {
+export function gamePlayMeta(
+  gameId: GameId,
+  date = '',
+  index = '',
+  found = true,
+): MetaDescriptor[] {
   const game = findGame(gameId)
   const day = /^\d{4}-\d{2}-\d{2}$/.test(date) ? dateLabel(date) : date
   return pageMeta({
-    title: `${game.name} · ${day} · niveau ${index} | ${SITE_NAME}`,
+    title: found
+      ? `${game.name} · ${day} · niveau ${index} | ${SITE_NAME}`
+      : `${game.name} · niveau introuvable | ${SITE_NAME}`,
     description: `${game.tagline} ${game.description}`,
     path: `${game.href}/${date}/${index}`,
     indexable: false,

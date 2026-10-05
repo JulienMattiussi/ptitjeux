@@ -29,7 +29,7 @@ export function ThemeGuessForm({ value, onChange, onSubmit, error }: Props) {
         onChange={(e) => onChange(e.target.value)}
         autoFocus
         className="rounded-md border border-emerald-300 bg-white px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200 dark:border-emerald-700 dark:bg-gray-900 dark:text-gray-100"
-        placeholder="Ton mot-thème"
+        placeholder="Ta proposition"
       />
       {error && (
         <p className="text-xs text-rose-600 dark:text-rose-400">Pas tout à fait. Réessaie.</p>

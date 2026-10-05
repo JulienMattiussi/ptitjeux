@@ -51,7 +51,7 @@ describe('wordIssues', () => {
     expect(issues('Molière', 'théâtre')).toEqual([])
   })
 
-  it.each(['foie gras', 'Queen Mary'])('refuse l’espace dans « %s »', (word) => {
+  it.each(['foie gras', 'Queen Mary'])("refuse l'espace dans « %s »", (word) => {
     expect(issues(word)).toContain('contient une espace')
   })
 
@@ -66,7 +66,7 @@ describe('wordIssues', () => {
   it.each(['feeling', 'groove', 'foie-gras', 'étoile-filante', 'accalmir'])(
     'refuse « %s », hors dictionnaire et non admis',
     (word) => {
-      expect(issues(word)).toContain('hors dictionnaire (ni dans allowed.json)')
+      expect(issues(word)).toContain('hors dictionnaire (absent aussi de allowed.json)')
     },
   )
 
@@ -107,7 +107,7 @@ describe('checkCuration', () => {
       tiny({ '1|chat': ['souris'], '1|fleur': ten(['rose']) }),
       dictionary,
     )
-    expect(issues).toContain('1|chat : 1 mots au lieu de 10')
+    expect(issues).toContain('1|chat : 1 mot au lieu de 10')
   })
 
   it('signale deux mots de la même famille dans une liste', () => {
@@ -123,7 +123,7 @@ describe('checkCuration', () => {
     expect(issues.some((i) => i.includes('« moustache » déjà dans 1|chat'))).toBe(true)
   })
 
-  it('signale un mot égal au thème d’un jour voisin', () => {
+  it("signale un mot égal au thème d'un jour voisin", () => {
     const issues = checkCuration(tiny({ '1|chat': ten(['fleur']) }), dictionary)
     expect(issues.some((i) => i.includes("« fleur » thème d'un jour voisin"))).toBe(true)
   })

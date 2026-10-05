@@ -35,7 +35,11 @@ export function GameLayout({
               <p className="truncate text-xs text-gray-500 dark:text-gray-400">{subtitle}</p>
             )}
           </div>
-          <Link to="/" aria-label="Ptitjeux" className="shrink-0 transition hover:opacity-80">
+          <Link
+            to="/"
+            aria-label="Accueil P'titjeux"
+            className="shrink-0 transition hover:opacity-80"
+          >
             <img src="/cerveau.jpeg" alt="" className="h-8 w-8 rounded-lg shadow-sm" />
           </Link>
         </div>

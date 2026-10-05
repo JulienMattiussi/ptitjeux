@@ -41,7 +41,7 @@ export function ChallengeListPage({
   const [searchParams] = useSearchParams()
   const fromDate = searchParams.get('from') ?? undefined
   // Si la date d'origine est la date du défi du jour, pas besoin d'ouvrir
-  // les archives — la ligne est déjà visible en haut.
+  // les archives : la ligne est déjà visible en haut.
   const focusArchiveDate = fromDate && fromDate !== dailyDate ? fromDate : undefined
 
   // Au clavier, la première flèche se pose sur le jour d'où l'on revient, ou

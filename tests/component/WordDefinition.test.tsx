@@ -2,8 +2,7 @@ import { render, screen, waitFor } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 
-// La première ligne « ligne 1 » est trop courte (< 6 chars) — le parser
-// remonte donc directement à la première ligne substantielle.
+// Extrait minimal : une section Nom commun, puis une forme de verbe à ignorer.
 const SAMPLE_RAW = `
 == Français ==
 
@@ -47,7 +46,6 @@ describe('WordDefinition', () => {
     mockSuccess(SAMPLE_RAW)
     render(<WordDefinition word="motdetest1" />)
     expect(await screen.findByText(/Petit mammifère carnivore/i)).toBeInTheDocument()
-    // Lien vers le Wiktionnaire.
     const link = screen.getByRole('link', { name: /Wiktionnaire/i })
     expect(link.getAttribute('href')).toContain('fr.wiktionary.org/wiki/')
   })

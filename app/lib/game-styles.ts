@@ -9,13 +9,6 @@
 
 export type GameId = 'sokomot' | 'boucle' | 'semantogramme' | 'anglemort'
 
-export const GAME_IDS: readonly GameId[] = [
-  'sokomot',
-  'boucle',
-  'semantogramme',
-  'anglemort',
-] as const
-
 export type GameAccent = {
   /** Gradient pour la barre d'accent en haut des cartes (`bg-linear-to-r ${bar}`). */
   bar: string

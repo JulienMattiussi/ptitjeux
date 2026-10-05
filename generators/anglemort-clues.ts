@@ -4,7 +4,6 @@
  */
 import { computeVision, isFloor, key } from '~/games/anglemort/engine'
 import type { Guard, Level, Pos } from '~/games/anglemort/types'
-import type { GenerationStats } from './anglemort'
 import { offCorridor } from './anglemort-construct'
 import {
   type RivalCheck,
@@ -14,6 +13,7 @@ import {
   corridorId,
   poseFitsClues,
 } from './anglemort-corridors'
+import type { GenerationStats } from './anglemort-stats'
 import type { Rng } from './random'
 
 /** Indices posés d'office : sur le couloir, et de valeur 2. */
@@ -25,10 +25,11 @@ const MAX_CORRIDORS = 200_000
 const RIVAL_NODES = 50_000
 
 /**
- * Indices posés d'office, avant toute vérification d'unicité : au moins 3 sur
- * le couloir (des « 0 »), au moins 2 « 2 », et un « 3 » ou « 4 » s'il en
- * existe, plus `extra` indices hors du couloir. `null` si la grille n'offre pas
- * deux cases éclairées par 2 vigiles.
+ * Indices posés d'office, avant toute vérification d'unicité : 3 sur le
+ * couloir (des « 0 »), 2 « 2 », et un « 3 » ou « 4 » s'il en existe, plus
+ * `extra` indices hors du couloir. `null` si le couloir compte moins de 3
+ * cases (porte et diamant exclus) ou si la grille n'offre pas deux cases
+ * éclairées par 2 vigiles.
  */
 export function seedClues(
   rng: Rng,

@@ -2,14 +2,8 @@
  * Repérage des cases d'une grille Angle mort pour les générateurs : clés
  * d'indice et voisinage des cases de sol, en indices `y * width + x`.
  */
-import { isFloor } from '~/games/anglemort/engine'
-import type { Level, Pos } from '~/games/anglemort/types'
-
-/** Case d'une clé d'indice `"x,y"`. */
-export function parseKey(k: string): Pos {
-  const [x, y] = k.split(',').map(Number)
-  return [x, y]
-}
+import { isFloor, parseKey } from '~/games/anglemort/engine'
+import type { Level } from '~/games/anglemort/types'
 
 /** Indices du niveau, par indice de case. */
 export function clueEntries(level: Level): [number, number][] {

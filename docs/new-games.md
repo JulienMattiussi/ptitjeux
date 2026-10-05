@@ -7,7 +7,7 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 
 ## 1. Sokomot — Sokoban × Wordle
 
-**Pitch** : pousser des blocs-lettres pour former le mot du jour dans la zone cible.
+**Pitch** : pousser des blocs-lettres pour former le mot caché dans la zone cible.
 
 ### Mécanique
 - Grille avec un personnage, des blocs-lettres, des murs, et une zone cible (cases marquées).
@@ -28,7 +28,7 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 - **Lexical** : le mot guide mais peut être deviné en cours de jeu.
 
 ### Score
-- Nombre de coups, comparé à l'objectif `parMoves` (le minimum trouvé par le solveur).
+- Nombre de coups, comparé à l'objectif `parMoves` (la meilleure solution trouvée par les solveurs).
 
 ### Format de niveau
 
@@ -64,7 +64,7 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 
 ## 2. Boucle — Slitherlink × mot caché
 
-**Pitch** : tracer une boucle fermée sur une grille de lettres ; les lettres encerclées forment le mot du jour.
+**Pitch** : tracer une boucle fermée sur une grille de lettres ; les lettres encerclées forment le mot caché.
 
 ### Mécanique
 - Grille de lettres avec des indices numériques sur certaines cases (comme Slitherlink).
@@ -112,8 +112,8 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 ### Mécanique
 - Grille N×N où **chaque case contient un mot**.
 - Sur chaque ligne et chaque colonne, un **chiffre en marge** indique combien de mots de cette ligne/colonne sont "dans le thème" (sémantiquement proches du mot-thème caché).
-- Le joueur peint chaque case en **IN** (lié au thème) ou **OUT** (hors thème).
-- **Objectif** : identifier toutes les cases IN. Une fois la grille résolue, le joueur peut deviner le mot-thème.
+- Le joueur marque chaque case **liée au thème** ou **hors thème** (une case peut aussi rester non marquée).
+- **Objectif** : identifier toutes les cases liées au thème. Une fois la grille résolue, le joueur devine le thème.
 
 ### Exemple
 
@@ -134,7 +134,7 @@ Thème caché : **POISSON**
 Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont liés à POISSON. Le `3` au-dessus de la colonne 1 dit : 3 des 6 mots de cette colonne le sont.
 
 ### Difficulté
-- **Logique pure** (Nonogram) quand les contraintes forcent un cas (ligne `6/6` → tout IN, ligne `0/6` → tout OUT).
+- **Logique pure** (Nonogram) quand les contraintes forcent un cas (ligne `6/6` : tout est lié au thème, ligne `0/6` : rien ne l'est).
 - **Sémantique** quand on reconnaît qu'un mot est clairement lié ou non au thème.
 - **Synergie** : un mot ambigu peut être tranché par contrainte croisée ligne/colonne, ou inversement, une intuition sémantique débloque une zone bloquée logiquement.
 
@@ -198,7 +198,7 @@ Trois types, chacun orientable :
 | Type | Lampes | Orientations | Dessin |
 |---|---|---|---|
 | Simple | 1, devant | 4 (↑ → ↓ ←) | lampe dans la main droite |
-| Angle | 2, à 90° | 4 | devant + sur le côté droit |
+| En angle | 2, à 90° | 4 | devant + sur le côté droit |
 | Opposé | 2, à 180° | 2 | une lampe dans chaque main, bras écartés |
 
 - Une lampe éclaire en ligne droite jusqu'au mur, à un pilier ou à **un autre vigile**, qui arrête le faisceau et fait de l'ombre derrière lui. Un miroir prolonge le faisceau en le déviant.
@@ -226,8 +226,10 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 |---|---|---|---|
 | 1 | 7×6 | simples | règles de base, couloir compris |
 | 2 | 8×7 | simples | grille plus grande, plus de piliers |
-| 3 | 9×8 | simples + 2 à 3 doubles (angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
+| 3 | 9×8 | simples + 2 à 4 doubles dans les niveaux publiés, 2 à 3 pour une nouvelle génération (en angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
 | 4 | 10×9 | simples + 1 à 4 doubles | 1 ou 2 miroirs, chacun indispensable |
+
+Chaque grille de base sert 8 fois, par rotation ou retournement (cycle figé de 395 jours et 50 bases, `generators/anglemort-schedule.ts`) : une symétrie conserve la solution et l'unicité du couloir, et les quarts de tour donnent des versions en portrait (6×7 au lieu de 7×6).
 
 ### Couloir du cambrioleur
 - Longueur **variable**, au minimum `largeur + hauteur` cases (13 en 7×6, 19 en 10×9), au plus ~40 % des cases libres.
@@ -243,6 +245,7 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 | **Entrée** | Faire pivoter le vigile, parmi les orientations autorisées de son type |
 | **1**, **2**, **3** | Choisir le type de vigile à poser (sélecteur sous la grille, affiché dès que le lot mélange plusieurs types) |
 | **Ctrl+Z** / **R** | Annuler / recommencer |
+| **Échap** | Retour à la liste des niveaux |
 
 ### Statut `perfect`
 `moves` = nombre de **poses** (les rotations ne comptent pas). `parMoves` = taille du lot. Parfait = aucun vigile retiré ni déplacé, donc résolu sans tâtonner.
@@ -253,13 +256,13 @@ Ce qui est garanti, c'est qu'**un seul couloir** est possible, pas une seule pos
 2. pour chaque couloir concurrent, demander au solveur, couloir imposé, s'il existe une pose du lot qui le produit. Il doit n'en exister aucune.
 
 ### Génération (offline, build-time)
-1. Placer des piliers aléatoires.
-2. Tirer l'entrée sur le bord, puis un couloir auto-évitant **induit** (aucune case ne touche le couloir hors de ses voisines) de longueur et de nombre de virages conformes ; il se termine sur le diamant.
-3. Couvrir de façon gloutonne les cases hors couloir avec des vigiles qui n'éclairent pas le couloir, puis retirer les vigiles superflus.
+1. Tirer l'entrée sur le bord, puis, dans la salle vide, un couloir auto-évitant **induit** (aucune case ne touche le couloir hors de ses voisines) de longueur et de nombre de virages conformes ; il se termine sur le diamant. Seul le niveau 4 pose d'office 2 ou 3 piliers, contre le diamant et dans les virages.
+2. Couvrir de façon gloutonne les cases hors couloir avec des vigiles qui n'éclairent pas le couloir, puis retirer les vigiles superflus.
+3. Ajouter des piliers là où ils économisent des vigiles, puis placer le diamant contre un mur ou un pilier (à partir du niveau 3).
 4. Au niveau 4, remplacer 1 ou 2 vigiles par un miroir : un vigile qui reçoit déjà un faisceau par le côté peut devenir un miroir qui renvoie ce faisceau là où il éclairait. On ne garde que des miroirs indispensables (remplacé par un pilier, le couloir change).
 5. Déduire le lot, poser les indices d'office, puis ajouter à chaque tour l'indice qui élimine le plus de couloirs concurrents : un « 0 » sur le couloir élimine ceux qui l'évitent, un chiffre positif ceux qui traversent sa case. Quand il reste peu de concurrents, le solveur écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice). On s'arrête à l'**unicité du couloir**. Au niveau 4, le solveur n'est jamais appelé (trop lent avec les miroirs) : on ajoute des indices jusqu'à ce qu'un seul couloir reste possible par la forme.
 
-Le solveur (`generators/anglemort-solver.ts`) gère le blocage par des bornes « éclairé à coup sûr » / « peut-être éclairé », propage les contraintes du couloir (degrés, connexité de l'entrée au diamant), des indices et de la couverture, et branche sur les vigiles capables d'éclairer la case la plus contrainte.
+Le solveur (`generators/anglemort-solver.ts`, propagation dans `anglemort-propagate.ts`) gère le blocage par des bornes « éclairé à coup sûr » / « peut-être éclairé », propage les contraintes du couloir (degrés, connexité de l'entrée au diamant), des indices et de la couverture, et branche sur les vigiles capables d'éclairer la case la plus contrainte.
 
 ### Format de niveau
 ```json
@@ -282,7 +285,7 @@ Le solveur (`generators/anglemort-solver.ts`) gère le blocage par des bornes «
 }
 ```
 
-`facing` est la direction principale : un vigile `angle` regarde `facing` et sa rotation horaire (N → nord + est), un vigile `oppose` regarde `facing` et son opposé. Les miroirs s'écrivent `{ "pos": [x, y], "kind": "/" }` ou `"\\"`. `solution` n'est lu que par le test d'intégrité.
+`facing` est la direction principale : un vigile `angle` regarde `facing` et sa rotation horaire (N → nord + est), un vigile `oppose` regarde `facing` et son opposé. Les miroirs s'écrivent `{ "pos": [x, y], "kind": "/" }` ou `"\\"`. `solution` n'est lu que par le test d'intégrité et par l'aide (couloir attendu).
 
 ---
 

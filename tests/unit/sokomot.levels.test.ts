@@ -19,7 +19,7 @@ describe('niveaux Sokomot : intégrité', () => {
     expect(levels).toHaveLength(dates.length * 4)
   })
 
-  it.each(byId(levels))('%s : la solution rejouée gagne en parMoves coups', (_, level) => {
+  it.each(byId(levels))('%s : la solution rejouée gagne en au plus parMoves coups', (_, level) => {
     expect(isWon(replaySolution(level))).toBe(true)
     expect(level.solution.length).toBeLessThanOrEqual(level.parMoves)
   })

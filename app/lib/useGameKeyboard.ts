@@ -46,7 +46,7 @@ const ACTION_KEYS = new Set([' ', 'Enter'])
 type Options = {
   enabled: boolean
   onDirection?: (direction: Direction) => void
-  /** Espace ou Entrée — action principale (poser/cycler/basculer). */
+  /** Espace ou Entrée : action principale (poser/cycler/basculer). */
   onAction?: () => void
   /**
    * Si fourni, Entrée déclenche cette action secondaire et seul Espace
@@ -92,7 +92,7 @@ export function useGameKeyboard({
 
       // Ctrl/Cmd+Z avant le mapping directionnel : sur AZERTY, `z` est
       // aliasé sur « up », il ne faut pas le consommer comme déplacement
-      // quand le joueur essaie de faire undo.
+      // quand le joueur essaie d'annuler.
       if (onUndo && event.key === 'z' && (event.ctrlKey || event.metaKey)) {
         event.preventDefault()
         onUndo()

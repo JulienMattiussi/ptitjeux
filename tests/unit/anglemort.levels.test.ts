@@ -17,7 +17,7 @@ describe('niveaux Angle mort : intégrité', () => {
   })
 
   it.each(byId(levels))(
-    '%s : la solution, jouée pose par pose, gagne en parMoves poses',
+    '%s : la solution, jouée pose par pose, gagne en au plus parMoves poses',
     (_, level) => {
       let state = loadLevel(level)
       for (const guard of level.solution) {

@@ -2,8 +2,6 @@ type Props = { className?: string }
 
 /** Aperçu de Boucle : une boucle encercle un mot. */
 export function Thumbnail({ className = '' }: Props) {
-  // Grille 4 colonnes × 3 lignes. Padding 10px sur chaque côté.
-  // Cellules de 25 × 20. Bordures intérieures à x=35,60,85 et y=30,50.
   const COLS = [22.5, 47.5, 72.5, 97.5]
   const ROWS = [20, 40, 60]
   const letters = [
@@ -20,7 +18,6 @@ export function Thumbnail({ className = '' }: Props) {
         </linearGradient>
       </defs>
       <rect x="0" y="0" width="120" height="80" fill="url(#boucle-bg)" />
-      {/* Bordure extérieure de la grille + lignes intérieures */}
       <g stroke="oklch(70% 0.04 170)" strokeWidth="0.5" opacity="0.5" fill="none">
         <rect x="10" y="10" width="100" height="60" />
         <line x1="35" y1="10" x2="35" y2="70" />
@@ -29,7 +26,6 @@ export function Thumbnail({ className = '' }: Props) {
         <line x1="10" y1="30" x2="110" y2="30" />
         <line x1="10" y1="50" x2="110" y2="50" />
       </g>
-      {/* Lettres */}
       {ROWS.flatMap((y, ri) =>
         COLS.map((x, ci) => (
           <text

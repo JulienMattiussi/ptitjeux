@@ -1,7 +1,4 @@
-/**
- * PRNG déterministe basé sur un hachage de la chaîne de seed.
- * Implémente xorshift32 après un hachage cyrb53 pour la graine.
- */
+/** PRNG déterministe : graine hachée par cyrb53, puis xorshift32. */
 
 function cyrb53(str: string, seed = 0): number {
   let h1 = 0xdeadbeef ^ seed

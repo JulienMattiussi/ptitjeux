@@ -1,6 +1,6 @@
-import { renderHook } from '@testing-library/react'
+import { act, render, renderHook, screen } from '@testing-library/react'
 import type { ReactNode } from 'react'
-import { MemoryRouter } from 'react-router'
+import { MemoryRouter, Route, Routes, useLocation } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { readGameProgress, recordWin } from '~/lib/localStorage'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
@@ -103,5 +103,27 @@ describe('useLevelPlayLifecycle', () => {
       wrapper: inRouter,
     })
     expect(readGameProgress('sokomot')['2026-09-01-1'].status).toBe('perfect')
+  })
+
+  it('goBack ramène à la liste des niveaux, ouverte sur le jour joué', () => {
+    let goBack = () => {}
+    function Play() {
+      goBack = useLevelPlayLifecycle({ ...BASE, date: '2026-09-01' }).goBack
+      return null
+    }
+    function Where() {
+      const { pathname, search } = useLocation()
+      return <div data-testid="where">{pathname + search}</div>
+    }
+    render(
+      <MemoryRouter initialEntries={['/sokomot/2026-09-01/1']}>
+        <Routes>
+          <Route path="/sokomot/:date/:index" element={<Play />} />
+          <Route path="*" element={<Where />} />
+        </Routes>
+      </MemoryRouter>,
+    )
+    act(() => goBack())
+    expect(screen.getByTestId('where')).toHaveTextContent('/sokomot?from=2026-09-01')
   })
 })

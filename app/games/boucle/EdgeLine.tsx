@@ -17,7 +17,7 @@ type Props = {
  * clavier (si sélectionnée), trait visible et zone cliquable transparente.
  *
  * Horizontale et verticale ont la même structure, seules les coordonnées
- * changent. Le composant ne s'occupe pas de la géométrie — il reçoit
+ * changent. Le composant ne s'occupe pas de la géométrie : il reçoit
  * `x1/y1/x2/y2` déjà calculés.
  */
 export function EdgeLine({ edge, x1, y1, x2, y2, active, isSelected, onToggle, onHover }: Props) {

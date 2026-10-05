@@ -5,7 +5,7 @@ import { Board } from '~/games/boucle/Board'
 import { loadLevel, toggleEdge } from '~/games/boucle/engine'
 import type { Level } from '~/games/boucle/types'
 
-// Grille 3x3 avec un mot trivial. Pas de clues pour simplifier l'arbre rendu.
+// Grille 3×3 avec un mot trivial et un seul indice.
 const LEVEL: Level = {
   id: 'test',
   name: 'Test',
@@ -41,7 +41,6 @@ describe('boucle/Board', () => {
   it('affiche la valeur de chaque indice', () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} onToggleEdge={() => {}} />)
-    // Indice « 2 » pour la case (1,1).
     expect(screen.getByText('2')).toBeInTheDocument()
   })
 
@@ -58,7 +57,6 @@ describe('boucle/Board', () => {
   })
 
   it('met en évidence les cases intérieures quand une boucle valide est tracée', () => {
-    // Boucle autour de la case (1,1) : 4 arêtes formant un carré.
     let state = loadLevel(LEVEL)
     state = toggleEdge(state, { x: 1, y: 1, orientation: 'horizontal' })
     state = toggleEdge(state, { x: 1, y: 2, orientation: 'horizontal' })
@@ -66,7 +64,6 @@ describe('boucle/Board', () => {
     state = toggleEdge(state, { x: 2, y: 1, orientation: 'vertical' })
 
     const { container } = render(<Board state={state} onToggleEdge={() => {}} />)
-    // Le surlignage intérieur est un <rect> avec la classe fill-emerald-200/60.
     const insideRect = container.querySelector('rect.fill-emerald-200\\/60')
     expect(insideRect).not.toBeNull()
   })

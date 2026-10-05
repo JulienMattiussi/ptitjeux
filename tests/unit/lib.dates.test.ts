@@ -13,7 +13,7 @@ import {
 } from '~/lib/dates'
 
 describe('lib/dates', () => {
-  it('formatDate renvoie YYYY-MM-DD avec padding', () => {
+  it('formatDate renvoie YYYY-MM-DD avec des zéros devant', () => {
     expect(formatDate(new Date(2026, 0, 1))).toBe('2026-01-01')
     expect(formatDate(new Date(2026, 4, 7))).toBe('2026-05-07')
     expect(formatDate(new Date(2026, 11, 31))).toBe('2026-12-31')
@@ -65,7 +65,7 @@ describe('lib/dates', () => {
     ])
   })
 
-  it('dateRange supporte une seule date', () => {
+  it('dateRange accepte une seule date', () => {
     expect(dateRange('2026-05-07', '2026-05-07')).toEqual(['2026-05-07'])
   })
 })
@@ -75,8 +75,11 @@ describe('lib/dates : drapeaux de dev', () => {
     vi.unstubAllEnvs()
   })
 
-  it('todayString renvoie la vraie date du jour par défaut', () => {
-    expect(todayString('2027-09-30')).toBe(formatDate(new Date()))
+  it('todayString renvoie la date du jour à Paris par défaut', () => {
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date('2026-10-05T12:00:00+02:00'))
+    expect(todayString('2027-09-30')).toBe('2026-10-05')
+    vi.useRealTimers()
   })
 
   it('todayString se fige sur la dernière date disponible avec VITE_FREEZE_TODAY', () => {
@@ -88,5 +91,18 @@ describe('lib/dates : drapeaux de dev', () => {
     expect(shouldShowFutureDates()).toBe(false)
     vi.stubEnv('VITE_SHOW_FUTURE_DAYS', '1')
     expect(shouldShowFutureDates()).toBe(true)
+  })
+})
+
+describe('lib/dates : jour du défi', () => {
+  afterEach(() => {
+    vi.useRealTimers()
+  })
+
+  it('change à minuit heure de Paris, quel que soit le fuseau du serveur', () => {
+    vi.useFakeTimers({ toFake: ['Date'] })
+    // 23 h 30 UTC le 4 octobre : déjà le 5 à Paris.
+    vi.setSystemTime(new Date('2026-10-04T23:30:00Z'))
+    expect(todayString()).toBe('2026-10-05')
   })
 })

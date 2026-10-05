@@ -1,12 +1,7 @@
 import { pickableTypes, remaining, restFacing } from './engine'
 import { GuardSprite } from './GuardSprite'
+import { GUARD_LABEL } from './guardLabels'
 import type { GameState, GuardType } from './types'
-
-const LABEL: Record<GuardType, string> = {
-  simple: 'Simple',
-  angle: 'En angle',
-  oppose: 'Opposé',
-}
 
 type Props = {
   state: GameState
@@ -34,7 +29,7 @@ export function GuardTypePicker({ state, selected, onSelect }: Props) {
             type="button"
             role="radio"
             aria-checked={active}
-            aria-label={`${LABEL[type]}, ${left} restant${left > 1 ? 's' : ''}, touche ${i + 1}`}
+            aria-label={`${GUARD_LABEL[type]}, ${left} restant${left > 1 ? 's' : ''}, touche ${i + 1}`}
             disabled={left === 0}
             onClick={() => onSelect(type)}
             className={`relative rounded-xl bg-slate-800 p-1 ring-offset-2 transition duration-200 disabled:cursor-not-allowed disabled:opacity-30 dark:bg-slate-900 dark:ring-offset-gray-950 ${

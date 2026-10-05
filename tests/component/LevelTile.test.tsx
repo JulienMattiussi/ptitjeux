@@ -2,7 +2,9 @@ import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 import { MemoryRouter } from 'react-router'
 import { LevelTile } from '~/components/LevelTile'
-import { GAME_IDS } from '~/lib/game-styles'
+import { games } from '~/lib/games-registry'
+
+const GAME_IDS = games.map((g) => g.id)
 
 function renderTile(overrides: Partial<React.ComponentProps<typeof LevelTile>> = {}) {
   const props: React.ComponentProps<typeof LevelTile> = {
@@ -29,11 +31,10 @@ describe('LevelTile', () => {
     expect(screen.getByText('Niveau 1')).toBeInTheDocument()
   })
 
-  it('verrouillé : pas de lien, message de verrouillage et tooltip', () => {
+  it('verrouillé : pas de lien, message de verrouillage et infobulle', () => {
     renderTile({ locked: true, index: 3 })
     expect(screen.queryByRole('link')).toBeNull()
     expect(screen.getByText('Verrouillé')).toBeInTheDocument()
-    // aria-label contient l'instruction sur le niveau précédent.
     const disabled = screen.getByLabelText(/Niveau 3 verrouillé/)
     expect(disabled).toHaveAttribute('aria-disabled', 'true')
     expect(disabled.getAttribute('title')).toContain('niveau 2')
@@ -54,7 +55,7 @@ describe('LevelTile', () => {
     expect(screen.getByText('Jouer')).toBeInTheDocument()
   })
 
-  it('variant archive : pas de libellé Niveau N ni de statut texte', () => {
+  it('variante archive : pas de libellé Niveau N ni de statut texte', () => {
     renderTile({ variant: 'archive', status: 'perfect' })
     expect(screen.queryByText('Niveau 1')).toBeNull()
     expect(screen.queryByText('Rejouer')).toBeNull()
@@ -63,5 +64,12 @@ describe('LevelTile', () => {
   it.each(GAME_IDS)('génère le bon href pour %s', (gameId) => {
     renderTile({ gameId, index: 2 })
     expect(screen.getByRole('link')).toHaveAttribute('href', `/${gameId}/2026-05-08/2`)
+  })
+
+  it('variante archive : le lien nomme le niveau, sa date et son statut', () => {
+    renderTile({ variant: 'archive', status: 'perfect', index: 2 })
+    expect(
+      screen.getByRole('link', { name: 'Niveau 2 du 8 mai 2026, parfait' }),
+    ).toBeInTheDocument()
   })
 })

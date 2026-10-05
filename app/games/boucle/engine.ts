@@ -18,8 +18,8 @@ function reset(state: GameState): GameState {
  *   pivot sur le premier sommet (gauche pour H, haut pour V).
  * - Aux deux bords « extrêmes » (x=width-1 pour H+→ et y=height-1 pour V+↓),
  *   on déborde sur l'arête perpendiculaire correspondante (V(width, …) ou
- *   H(…, height)). Sans ce débordement, ces deux séries d'arêtes — la
- *   colonne V de droite et la ligne H du bas — sont inatteignables au
+ *   H(…, height)). Sans ce débordement, ces deux séries d'arêtes (la
+ *   colonne V de droite et la ligne H du bas) sont inatteignables au
  *   clavier (les flèches perpendiculaires y mènent depuis l'autre axe,
  *   mais le pivot toujours sur le sommet haut-gauche les exclut).
  */
@@ -99,7 +99,6 @@ export function countEdgesAroundCell(state: GameState, cx: number, cy: number): 
   return cellEdges(cx, cy).filter((e) => set.has(edgeKey(e))).length
 }
 
-/** Liste des sommets touchés par une arête. */
 function edgeVertices(e: Edge): [Coord, Coord] {
   return e.orientation === 'horizontal'
     ? [
@@ -198,7 +197,7 @@ export function clueStatus(state: GameState, cx: number, cy: number): ClueStatus
  *
  * On modélise un **anneau extérieur virtuel** d'une case d'épaisseur autour de
  * la grille. Le flood-fill démarre dans cet anneau et tente d'entrer dans la
- * grille en traversant les arêtes du bord — mais s'arrête sur toute arête
+ * grille en traversant les arêtes du bord, mais s'arrête sur toute arête
  * appartenant à la boucle, y compris quand elle longe le bord.
  *
  * Sans cet anneau, une boucle qui longe le bord (par exemple un rectangle

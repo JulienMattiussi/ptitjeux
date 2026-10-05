@@ -1,5 +1,4 @@
 import { describe, expect, it } from 'vitest'
-import { findGame } from '~/lib/games-registry'
 import { gameListMeta, gamePlayMeta, pageMeta, SITE_NAME } from '~/lib/seo'
 
 function content(meta: ReturnType<typeof pageMeta>, key: string, value: string) {
@@ -24,10 +23,9 @@ describe('lib/seo', () => {
     expect(content(meta, 'name', 'robots')).toMatchObject({ content: 'noindex, follow' })
   })
 
-  it('gameListMeta titre la page avec le nom et la tagline du jeu', () => {
-    const game = findGame('boucle')
+  it("gameListMeta titre la page avec le nom et l'accroche du jeu, sans majuscule après « : »", () => {
     expect(gameListMeta('boucle')[0]).toEqual({
-      title: `${game.name} : ${game.tagline.replace(/\.$/, '')} | ${SITE_NAME}`,
+      title: `Boucle : encercle le mot caché | ${SITE_NAME}`,
     })
   })
 
@@ -40,5 +38,11 @@ describe('lib/seo', () => {
   it("gamePlayMeta exclut les pages de niveau de l'index", () => {
     const meta = gamePlayMeta('sokomot', '2026-09-01', '2')
     expect(content(meta, 'name', 'robots')).toMatchObject({ content: 'noindex, follow' })
+  })
+
+  it('gamePlayMeta titre une page de niveau introuvable sans date ni index', () => {
+    expect(gamePlayMeta('boucle', 'foo', '0', false)[0]).toEqual({
+      title: `Boucle · niveau introuvable | ${SITE_NAME}`,
+    })
   })
 })

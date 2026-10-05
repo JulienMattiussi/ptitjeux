@@ -12,6 +12,7 @@ import {
   isWon,
   loadLevel,
   moveEdgeSelection,
+  reducer,
   sameEdge,
   toggleEdge,
 } from '~/games/boucle/engine'
@@ -40,10 +41,10 @@ function makeLevel(overrides: Partial<Level> = {}): Level {
 /** Boucle = carré 1×1 entourant la case `(cx, cy)`. */
 function squareLoop(cx: number, cy: number): Edge[] {
   return [
-    { x: cx, y: cy, orientation: 'horizontal' }, // top
-    { x: cx, y: cy + 1, orientation: 'horizontal' }, // bottom
-    { x: cx, y: cy, orientation: 'vertical' }, // left
-    { x: cx + 1, y: cy, orientation: 'vertical' }, // right
+    { x: cx, y: cy, orientation: 'horizontal' },
+    { x: cx, y: cy + 1, orientation: 'horizontal' },
+    { x: cx, y: cy, orientation: 'vertical' },
+    { x: cx + 1, y: cy, orientation: 'vertical' },
   ]
 }
 
@@ -78,7 +79,6 @@ describe('boucle engine', () => {
     expect(state.moves).toBe(1)
     state = toggleEdge(state, { x: 1, y: 0, orientation: 'vertical' })
     expect(state.moves).toBe(2)
-    // Re-toggle compte aussi
     state = toggleEdge(state, { x: 0, y: 0, orientation: 'horizontal' })
     expect(state.moves).toBe(3)
   })
@@ -89,7 +89,6 @@ describe('boucle engine', () => {
       state = toggleEdge(state, e)
     }
     expect(countEdgesAroundCell(state, 1, 1)).toBe(4)
-    // Les voisines de (1,1) ont chacune 1 arête commune avec la boucle.
     expect(countEdgesAroundCell(state, 0, 1)).toBe(1)
     expect(countEdgesAroundCell(state, 2, 1)).toBe(1)
     expect(countEdgesAroundCell(state, 1, 0)).toBe(1)
@@ -119,7 +118,6 @@ describe('boucle engine', () => {
   })
 
   it('isValidLoop refuse une figure en 8 (sommet de degré 4)', () => {
-    // Un nœud à (1,1) partagé par deux carrés = degré 4
     const figureEight = [
       ...squareLoop(0, 0),
       { x: 1, y: 1, orientation: 'horizontal' as const },
@@ -159,7 +157,7 @@ describe('boucle engine', () => {
     expect(getInsideWord(state)).toBe('MAIS')
   })
 
-  it('areCluesSatisfied valide un carré 1×1 avec clue 4', () => {
+  it("areCluesSatisfied valide un carré 1×1 avec l'indice 4", () => {
     let state = loadLevel(makeLevel({ clues: { '1,1': 4 } }))
     expect(areCluesSatisfied(state)).toBe(false)
     for (const e of squareLoop(1, 1)) {
@@ -181,7 +179,6 @@ describe('boucle engine', () => {
     })
 
     it('H haut/bas pivote en V (autour du sommet gauche)', () => {
-      // H(1,1) up = V(1, 0) ; H(1,1) down = V(1, 1)
       expect(moveEdgeSelection(h(1, 1), 'up', W, H)).toEqual(v(1, 0))
       expect(moveEdgeSelection(h(1, 1), 'down', W, H)).toEqual(v(1, 1))
     })
@@ -192,12 +189,11 @@ describe('boucle engine', () => {
     })
 
     it('V gauche/droite pivote en H (autour du sommet haut)', () => {
-      // V(1,1) right = H(1, 1) ; V(1,1) left = H(0, 1)
       expect(moveEdgeSelection(v(1, 1), 'right', W, H)).toEqual(h(1, 1))
       expect(moveEdgeSelection(v(1, 1), 'left', W, H)).toEqual(h(0, 1))
     })
 
-    it('clamp aux bords « intérieurs » : H ne sort pas à gauche, V ne sort pas en haut', () => {
+    it('bloque aux bords « intérieurs » : H ne sort pas à gauche, V ne sort pas en haut', () => {
       expect(moveEdgeSelection(h(0, 1), 'left', W, H)).toEqual(h(0, 1))
       expect(moveEdgeSelection(v(1, 0), 'up', W, H)).toEqual(v(1, 0))
     })
@@ -210,32 +206,26 @@ describe('boucle engine', () => {
     })
 
     it("on peut naviguer jusqu'à la colonne V de droite et la ligne H du bas", () => {
-      // H(0,0) →→→→ : H(W-1,0) puis débordement vers V(W, 0)
       let e: Edge = h(0, 0)
       for (let i = 0; i < W - 1; i++) e = moveEdgeSelection(e, 'right', W, H)
       expect(e).toEqual(h(W - 1, 0))
       e = moveEdgeSelection(e, 'right', W, H)
       expect(e).toEqual(v(W, 0))
-      // V(W, 0) ↓↓↓ : V(W, H-1) puis débordement vers H(W-1, H)
       for (let i = 0; i < H - 1; i++) e = moveEdgeSelection(e, 'down', W, H)
       expect(e).toEqual(v(W, H - 1))
       e = moveEdgeSelection(e, 'down', W, H)
       expect(e).toEqual(h(W - 1, H))
     })
 
-    it("clamp aux bords lors d'un pivot H↔V", () => {
-      // H(1,0) up : pivote vers V(1, max(0, -1)) = V(1, 0)
+    it("bloque aux bords lors d'un pivot H↔V", () => {
       expect(moveEdgeSelection(h(1, 0), 'up', W, H)).toEqual(v(1, 0))
-      // H(1, H) down : pivote vers V(1, min(H-1, H)) = V(1, H-1)
       expect(moveEdgeSelection(h(1, H), 'down', W, H)).toEqual(v(1, H - 1))
-      // V(0, 1) left : pivote vers H(max(0, -1), 1) = H(0, 1)
       expect(moveEdgeSelection(v(0, 1), 'left', W, H)).toEqual(h(0, 1))
-      // V(W, 1) right : pivote vers H(min(W-1, W), 1) = H(W-1, 1)
       expect(moveEdgeSelection(v(W, 1), 'right', W, H)).toEqual(h(W - 1, 1))
     })
   })
 
-  it('isWon : tout doit valider (boucle + indices + mot)', () => {
+  it('isWon exige boucle valide, indices satisfaits et bon mot', () => {
     let state = loadLevel(
       makeLevel({
         letters: [
@@ -291,5 +281,20 @@ describe('boucle engine : indices', () => {
   it('sameEdge compare position et orientation', () => {
     expect(sameEdge(square[0], { x: 1, y: 1, orientation: 'horizontal' })).toBe(true)
     expect(sameEdge(square[0], { x: 1, y: 1, orientation: 'vertical' })).toBe(false)
+  })
+})
+
+describe('boucle engine : reducer', () => {
+  const edge: Edge = { x: 0, y: 0, orientation: 'horizontal' }
+
+  it("toggle bascule l'arête et compte le coup", () => {
+    const state = reducer(loadLevel(makeLevel()), { type: 'toggle', edge })
+    expect(state.edges).toEqual([edge])
+    expect(state.moves).toBe(1)
+  })
+
+  it('reset revient au niveau de départ', () => {
+    const played = reducer(loadLevel(makeLevel()), { type: 'toggle', edge })
+    expect(reducer(played, { type: 'reset' })).toEqual(loadLevel(makeLevel()))
   })
 })

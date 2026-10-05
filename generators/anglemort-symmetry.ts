@@ -4,9 +4,8 @@
  * éclairage, solutions (donc l'unicité). Les quarts de tour échangent largeur
  * et hauteur (versions portrait).
  */
-import { CLOCKWISE, FACINGS, guardDirs } from '~/games/anglemort/engine'
+import { CLOCKWISE, FACINGS, guardDirs, key, parseKey } from '~/games/anglemort/engine'
 import type { Dir, Guard, Level, MirrorKind, Pos } from '~/games/anglemort/types'
-import { parseKey } from './anglemort-grid'
 
 /** 0..7 : `variant % 4` quarts de tour horaires, précédés d'un miroir gauche-droite si `variant >= 4`. */
 export type Variant = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
@@ -20,7 +19,7 @@ type Transform = {
   dir: (d: Dir) => Dir
   width: number
   height: number
-  /** Chaque miroir ou quart de tour inverse le sens d'un miroir ╱ ╲. */
+  /** Chaque retournement ou quart de tour inverse le sens d'un miroir ╱ ╲. */
   swapsMirrors: boolean
 }
 
@@ -82,8 +81,7 @@ export function transformLevel(level: Level, variant: Variant): Level {
     diamond: t.pos(level.diamond),
     clues: Object.fromEntries(
       Object.entries(level.clues).map(([k, v]) => {
-        const [x, y] = t.pos(parseKey(k))
-        return [`${x},${y}`, v]
+        return [key(...t.pos(parseKey(k))), v]
       }),
     ),
     solution: level.solution.map((g) => transformGuard(t, g)),

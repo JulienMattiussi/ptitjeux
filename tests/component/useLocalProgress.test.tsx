@@ -9,6 +9,7 @@ describe('useLocalProgress', () => {
   })
 
   afterEach(() => {
+    vi.restoreAllMocks()
     window.localStorage.clear()
   })
 
@@ -32,7 +33,7 @@ describe('useLocalProgress', () => {
 
   it('se met à jour quand un autre onglet écrit dans localStorage', () => {
     // Simule l'écriture par un autre onglet : changement direct du
-    // localStorage suivi de l'event `storage` (que le navigateur émet
+    // localStorage suivi de l'événement `storage` (que le navigateur émet
     // seulement aux autres onglets, jamais à celui qui écrit).
     const { result } = renderHook(() => useLocalProgress('sokomot'))
     expect(result.current).toEqual({})
@@ -50,10 +51,11 @@ describe('useLocalProgress', () => {
     expect(result.current['2026-05-07-1']?.status).toBe('solved')
   })
 
-  it("ignore les events storage d'une autre clé", () => {
+  it("ignore les événements storage d'une autre clé", () => {
     const { result } = renderHook(() => useLocalProgress('sokomot'))
     act(() => {
-      window.localStorage.setItem('autre.cle', 'x')
+      // La progression a changé, mais l'événement annonce une autre clé.
+      recordWin('sokomot', '2026-05-07-1', 'solved')
       window.dispatchEvent(new StorageEvent('storage', { key: 'autre.cle' }))
     })
     expect(result.current).toEqual({})
@@ -64,6 +66,5 @@ describe('useLocalProgress', () => {
     const { unmount } = renderHook(() => useLocalProgress('sokomot'))
     unmount()
     expect(remove).toHaveBeenCalledWith('storage', expect.any(Function))
-    remove.mockRestore()
   })
 })

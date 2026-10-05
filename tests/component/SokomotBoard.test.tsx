@@ -28,14 +28,14 @@ describe('sokomot/Board', () => {
     expect(screen.getByRole('application', { name: /Plateau Test/i })).toBeInTheDocument()
   })
 
-  it("rend une case cible avec la lettre attendue (en filigrane) tant que le bloc n'y est pas", () => {
+  it("affiche la lettre attendue en filigrane sur la case cible tant que le bloc n'y est pas", () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} />)
-    // Le filigrane de cible a aria-hidden, mais on peut le trouver par texte.
-    expect(screen.getAllByText('A').length).toBeGreaterThanOrEqual(1)
+    // Un « A » pour le bloc, un second pour le filigrane de la cible.
+    expect(screen.getAllByText('A')).toHaveLength(2)
   })
 
-  it('rend le crayon (player) avec une orientation par défaut « right »', () => {
+  it('rend le crayon orienté vers la droite par défaut', () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} />)
     expect(screen.getByRole('img', { name: /Crayon tourné vers la droite/i })).toBeInTheDocument()
@@ -48,7 +48,7 @@ describe('sokomot/Board', () => {
     expect(screen.getByRole('img', { name: /Crayon tourné vers le bas/i })).toBeInTheDocument()
   })
 
-  it('rend autant de gridcell que de cases (width × height)', () => {
+  it('rend autant de cellules que de cases (width × height)', () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} />)
     expect(screen.getAllByRole('gridcell')).toHaveLength(LEVEL.width * LEVEL.height)

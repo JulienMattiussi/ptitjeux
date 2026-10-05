@@ -53,7 +53,7 @@ describe('VictoryOverlay', () => {
     expect(screen.queryByRole('dialog')).toBeNull()
   })
 
-  it('rend titre, détail et boutons', () => {
+  it('affiche le titre, le détail et les boutons', () => {
     renderOverlay({
       detail: <p>Détail de victoire</p>,
       nextHref: '/sokomot/2026-05-08/2',
@@ -127,11 +127,10 @@ describe('VictoryOverlay', () => {
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     renderOverlay()
     await user.keyboard('{ArrowRight}')
-    // Pas de navigation : on reste sur la route initiale.
     expect(screen.getByTestId('location')).toHaveTextContent('/sokomot/2026-05-08/1')
   })
 
-  it('ne réagit plus au clavier après show=false (cleanup du listener)', async () => {
+  it("ne réagit plus au clavier après show=false (retire l'écouteur)", async () => {
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     const onReset = vi.fn()
     function Wrapper({ show }: { show: boolean }) {

@@ -12,10 +12,10 @@ import * as AngleMortIndex from '~/routes/anglemort'
 import { games } from '~/lib/games-registry'
 import { renderRoute } from '../helpers/routes'
 
-// Date qui existe dans le dataset commité — chaque jeu a 4 niveaux.
+// Date présente dans les niveaux publiés : chaque jeu y a 4 niveaux.
 const DATE = '2026-10-01'
 
-describe('Routes de jeu — smoke', () => {
+describe('Routes : rendu de base', () => {
   beforeEach(() => {
     window.localStorage.clear()
     // Empêche les requêtes Wiktionnaire en arrière-plan : on n'a rien à
@@ -71,7 +71,6 @@ describe('Routes de jeu — smoke', () => {
         loader: BouclePlay.loader,
       })
       await screen.findByRole('heading', { level: 1 })
-      // Le titre h1 contient « Boucle · … · niveau 1 ».
       expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Boucle/)
       expect(screen.getByText(/niveau 1/)).toBeInTheDocument()
       expect(screen.getByText(/lettres à encercler/)).toBeInTheDocument()
@@ -88,7 +87,7 @@ describe('Routes de jeu — smoke', () => {
   })
 
   describe('semantogramme.$date.$index', () => {
-    it("rend la page avec le titre et l'aide IN/OUT", async () => {
+    it("rend la page avec le titre et la légende des états d'une case", async () => {
       renderRoute('/semantogramme/:date/:index', `/semantogramme/${DATE}/1`, {
         Component: SemantogrammePlay.default,
         loader: SemantogrammePlay.loader,
@@ -96,13 +95,12 @@ describe('Routes de jeu — smoke', () => {
       await screen.findByRole('heading', { level: 1 })
       expect(screen.getByText(/Sémantogramme/)).toBeInTheDocument()
       expect(screen.getByText(/niveau 1/)).toBeInTheDocument()
-      // L'encart d'aide contient les pastilles IN et OUT.
-      expect(screen.getByText('IN')).toBeInTheDocument()
-      expect(screen.getByText('OUT')).toBeInTheDocument()
+      expect(screen.getByText('Liée au thème')).toBeInTheDocument()
+      expect(screen.getByText('Hors thème')).toBeInTheDocument()
     })
 
-    it("affiche LevelNotFound quand l'URL ne fournit pas d'index valide", async () => {
-      renderRoute('/semantogramme/:date/:index', `/semantogramme/${DATE}/0`, {
+    it("affiche LevelNotFound quand l'index n'est pas un nombre", async () => {
+      renderRoute('/semantogramme/:date/:index', `/semantogramme/${DATE}/abc`, {
         Component: SemantogrammePlay.default,
         loader: SemantogrammePlay.loader,
       })

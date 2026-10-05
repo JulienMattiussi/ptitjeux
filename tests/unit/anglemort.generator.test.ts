@@ -2,13 +2,17 @@ import { describe, expect, it } from 'vitest'
 import { isWon, loadLevel } from '~/games/anglemort/engine'
 import type { Level } from '~/games/anglemort/types'
 import { GAME_SIZE } from '~/lib/game-styles'
-import { emptyStats, generateAngleMortLevel } from '../../generators/anglemort'
+import { generateAngleMortLevel } from '../../generators/anglemort'
 import {
-  challengeFile,
+  BASES,
+  SCHEDULE_DAYS,
   isFixedBaseLevel,
   levelOrigin,
   loadFixedBase,
 } from '../../generators/anglemort-schedule'
+import { emptyStats } from '../../generators/anglemort-stats'
+import { VARIANTS } from '../../generators/anglemort-symmetry'
+import { challengeFile } from '../../generators/calendar'
 import { hasUniqueCorridor } from '../helpers/anglemort'
 
 // Niveau 4 seulement : sa génération n'appelle pas le solveur. Quelques
@@ -59,6 +63,22 @@ describe('anglemort/generator (niveau 4)', { timeout: GENERATION_TIMEOUT }, () =
 })
 
 describe('anglemort/schedule', () => {
+  // Figés : les changer redistribuerait tous les niveaux publiés.
+  it('le cycle compte 395 jours et 50 bases, assez pour leurs 8 symétries', () => {
+    expect(SCHEDULE_DAYS).toBe(395)
+    expect(BASES).toBe(50)
+    expect(BASES * VARIANTS.length).toBeGreaterThanOrEqual(SCHEDULE_DAYS)
+  })
+
+  it.each([
+    ['2026-09-02', 1, 0],
+    ['2026-10-04', 33, 0],
+    ['2026-10-19', 48, 0],
+    ['2027-09-30', 44, 7],
+  ])('%s : base %i, version %i', (date, base, variant) => {
+    expect(levelOrigin(date)).toEqual({ base, variant })
+  })
+
   it("le calendrier commence par la base 0 dans sa version d'origine", () => {
     expect(levelOrigin('2026-09-01')).toEqual({ base: 0, variant: 0 })
   })
@@ -79,11 +99,11 @@ describe('anglemort/schedule', () => {
   })
 
   it("refuse un fichier qui n'est pas la version d'origine de la base annoncée", () => {
-    expect(() => loadFixedBase(challengeFile('2026-10-04', 4), 32)).toThrow(/base 32/)
+    expect(() => loadFixedBase(challengeFile('anglemort', '2026-10-04', 4), 32)).toThrow(/base 32/)
   })
 
   it("relit une grille fixée telle qu'elle est publiée", () => {
-    const level = loadFixedBase(challengeFile('2026-10-04', 4), 33)
+    const level = loadFixedBase(challengeFile('anglemort', '2026-10-04', 4), 33)
     expect(generateAngleMortLevel('2026-10-04', 4)).toEqual(level)
   })
 })

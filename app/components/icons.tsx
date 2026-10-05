@@ -1,8 +1,3 @@
-/**
- * Icônes SVG inline réutilisées dans toute l'application.
- * Centralisation pour éviter la duplication de SVG dans chaque composant.
- */
-
 type IconProps = { className?: string }
 
 export function ChevronRight({ className = 'h-4 w-4' }: IconProps) {

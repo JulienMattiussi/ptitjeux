@@ -16,7 +16,7 @@ export const games: GameDescriptor[] = [
     name: 'Boucle',
     tagline: 'Encercle le mot caché.',
     description:
-      'Trace une seule boucle fermée sur une grille de lettres. Les lettres encerclées forment le mot du jour.',
+      'Trace une seule boucle fermée sur une grille de lettres. Les lettres encerclées forment le mot caché.',
     href: '/boucle',
     accentClass: GAME_ACCENT.boucle.bar,
   },
@@ -34,7 +34,7 @@ export const games: GameDescriptor[] = [
     name: 'Sokomot',
     tagline: 'Pousse les lettres, forme le mot.',
     description:
-      'Un Sokoban où chaque caisse porte une lettre. Aligne-les dans la zone cible pour épeler le mot du niveau.',
+      'Un Sokoban où chaque caisse porte une lettre. Aligne-les dans la zone cible pour épeler le mot caché.',
     href: '/sokomot',
     accentClass: GAME_ACCENT.sokomot.bar,
   },

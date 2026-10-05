@@ -40,8 +40,8 @@ import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/anglemort.$date.$index'
 
-export function meta({ params }: Route.MetaArgs) {
-  return gamePlayMeta('anglemort', params.date, params.index)
+export function meta({ params, loaderData }: Route.MetaArgs) {
+  return gamePlayMeta('anglemort', params.date, params.index, !!loaderData?.level)
 }
 
 export function loader({ params }: { params: LevelParams }) {
@@ -50,7 +50,8 @@ export function loader({ params }: { params: LevelParams }) {
 
 const undoableReducer = withUndo(reducer, (action) => action.type !== 'reset')
 
-// Le `key` remonte une partie neuve à chaque changement de niveau.
+// Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
+// le `useReducer` garderait l'état du niveau précédent.
 export default function AngleMortPlayRoute({ loaderData }: Route.ComponentProps) {
   const { date, idx, level, lastDate } = loaderData
   if (!level) return <LevelNotFound backHref="/anglemort" />

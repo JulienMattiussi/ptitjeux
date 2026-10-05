@@ -25,10 +25,8 @@ function state(pool: Pool) {
 describe('PoolTray', () => {
   it('une ligne par type encore à placer, avec le nombre restant', () => {
     render(<PoolTray state={state({ simple: 2, angle: 0, oppose: 1 })} />)
-    expect(screen.getByLabelText('Vigiles à placer : 2 à une lampe')).toBeInTheDocument()
-    expect(
-      screen.getByLabelText('Vigiles à placer : 1 à deux lampes dos à dos'),
-    ).toBeInTheDocument()
+    expect(screen.getByLabelText('Vigiles à placer, type simple : 2')).toBeInTheDocument()
+    expect(screen.getByLabelText('Vigiles à placer, type opposé : 1')).toBeInTheDocument()
   })
 
   it('annonce quand tous les vigiles sont placés', () => {

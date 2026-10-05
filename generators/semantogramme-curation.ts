@@ -57,7 +57,7 @@ const VERB_ENDINGS = ['er', 'ir', 're', 'oir']
 
 /**
  * Le mot trahit-il le thème ? Couvre les cas qui échappent à `sameFamily` :
- * thème caché au milieu (bonsoir, autobus, parapluie), dans un composant
+ * thème caché dans le mot (bonsoir, autobus, parapluie), dans un composant
  * (presse-ail, cocotte-minute), ou radical d'un verbe (sautiller, coureur).
  */
 export function revealsTheme(word: string, theme: string): boolean {
@@ -109,7 +109,7 @@ export function wordIssues(
   if (allowed.banned.includes(`${theme}|${word}`)) issues.push('refusé (allowed.json, banned)')
   const lower = word.toLowerCase()
   if (word[0] === lower[0] && !dictionary.has(lower) && !allowed.words.includes(word)) {
-    issues.push('hors dictionnaire (ni dans allowed.json)')
+    issues.push('hors dictionnaire (absent aussi de allowed.json)')
   }
   return issues
 }
@@ -182,7 +182,8 @@ export function checkCuration(curation: Curation, dictionary: Set<string>): stri
       continue
     }
     if (words.length !== MEMBER_COUNT[level]) {
-      issues.push(`${key} : ${words.length} mots au lieu de ${MEMBER_COUNT[level]}`)
+      const count = `${words.length} mot${words.length > 1 ? 's' : ''}`
+      issues.push(`${key} : ${count} au lieu de ${MEMBER_COUNT[level]}`)
     }
     const normalized = words.map(normalizeWord)
     normalized.forEach((n, i) => {

@@ -13,7 +13,7 @@ export const REFLECT: Record<MirrorKind, Record<Dir, Dir>> = {
   '\\': { E: 'S', S: 'E', W: 'N', N: 'W' },
 }
 
-/** Ordre de pose et de cycle des types : du plus simple au plus puissant. */
+/** Ordre de pose et du sélecteur : du plus simple au plus puissant. */
 export const GUARD_TYPES: readonly GuardType[] = ['simple', 'angle', 'oppose']
 
 /** Les vigiles `oppose` n'ont que 2 orientations distinctes (━ et ┃). */
@@ -46,6 +46,12 @@ export function stepDir([fx, fy]: Pos, [tx, ty]: Pos): Dir {
 
 export function key(x: number, y: number): string {
   return `${x},${y}`
+}
+
+/** Case d'une clé `"x,y"` (inverse de `key`). */
+export function parseKey(k: string): Pos {
+  const [x, y] = k.split(',').map(Number)
+  return [x, y]
 }
 
 export function guardDirs(guard: Pick<Guard, 'type' | 'facing'>): Dir[] {
@@ -309,7 +315,7 @@ export function isSinglePath(cells: Pos[], door: Pos, diamond: Pos): boolean {
     for (const n of neighbours(x, y)) {
       if (!reached.has(n)) {
         reached.add(n)
-        queue.push(n.split(',').map(Number) as Pos)
+        queue.push(parseKey(n))
       }
     }
   }
@@ -343,7 +349,7 @@ export function expectedCorridor(level: Level): Pos[] {
 
 export function areCluesSatisfied(level: Level, vision: Vision): boolean {
   return Object.entries(level.clues).every(([k, count]) => {
-    const [x, y] = k.split(',').map(Number)
+    const [x, y] = parseKey(k)
     return vision.seen[y][x] === count
   })
 }

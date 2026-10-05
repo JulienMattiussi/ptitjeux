@@ -42,7 +42,7 @@ describe('useGameKeyboard', () => {
     expect(onBack).toHaveBeenCalledOnce()
   })
 
-  it('WASD (QWERTY) aliasés sur les flèches', () => {
+  it('WASD (QWERTY) associés aux flèches', () => {
     const onDirection = vi.fn()
     renderHook(() => useGameKeyboard({ enabled: true, onDirection }))
     press('w')
@@ -52,9 +52,9 @@ describe('useGameKeyboard', () => {
     expect(onDirection.mock.calls.map((c) => c[0])).toEqual(['up', 'down', 'left', 'right'])
   })
 
-  it('ZQSD (AZERTY) aliasés sur les flèches via event.key', () => {
+  it('ZQSD (AZERTY) associés aux flèches via event.key', () => {
     // Sur un clavier AZERTY, les touches physiques WASD émettent les
-    // caractères Z, Q, S, D — on les couvre par leur valeur `key`.
+    // caractères Z, Q, S, D : on les couvre par leur valeur `key`.
     const onDirection = vi.fn()
     renderHook(() => useGameKeyboard({ enabled: true, onDirection }))
     press('z')
@@ -65,9 +65,9 @@ describe('useGameKeyboard', () => {
   })
 
   it('event.code KeyW/KeyA/KeyS/KeyD couvre toute disposition physique', () => {
-    // Sur les dispositions exotiques (QWERTZ, Dvorak…) ou si le user a
-    // remappé sa touche, `event.code` reste la position physique. Couvert
-    // par l'event simulé avec un `code` explicite et un `key` non géré.
+    // Sur les dispositions exotiques (QWERTZ, Dvorak…) ou si l'utilisateur a
+    // réaffecté sa touche, `event.code` reste la position physique. Couvert
+    // par l'événement simulé avec un `code` explicite et un `key` non géré.
     const onDirection = vi.fn()
     renderHook(() => useGameKeyboard({ enabled: true, onDirection }))
     window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Unidentified', code: 'KeyW' }))
@@ -94,9 +94,9 @@ describe('useGameKeyboard', () => {
     expect(onUndo).toHaveBeenCalledTimes(2)
   })
 
-  it('Ctrl+Z prend la main sur le mapping AZERTY z=up', () => {
-    // Avec onDirection ET onUndo, Ctrl+Z doit déclencher undo, pas
-    // un déplacement vers le haut (sinon AZERTY casse l'undo).
+  it("Ctrl+Z prend la main sur l'association AZERTY z = haut", () => {
+    // Avec onDirection ET onUndo, Ctrl+Z doit annuler, pas déplacer
+    // vers le haut (sinon AZERTY casse l'annulation).
     const onDirection = vi.fn()
     const onUndo = vi.fn()
     renderHook(() => useGameKeyboard({ enabled: true, onDirection, onUndo }))
@@ -156,7 +156,7 @@ describe('useGameKeyboard', () => {
     expect(onReset).not.toHaveBeenCalled()
   })
 
-  it('cleanup : retire le listener au démontage', () => {
+  it("retire l'écouteur au démontage", () => {
     const onDirection = vi.fn()
     const { unmount } = renderHook(() => useGameKeyboard({ enabled: true, onDirection }))
     unmount()

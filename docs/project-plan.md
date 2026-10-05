@@ -1,6 +1,6 @@
 # Plan projet — ptitjeux
 
-Plateforme web de mini-jeux logico-spatiaux, full front-end.
+Plateforme web de mini-jeux logico-spatiaux, sans back-end métier (ni base, ni compte).
 
 > **Document de référence opérationnelle :** [AGENTS.md](../AGENTS.md) (stack,
 > arborescence, conventions, sources uniques, tests, commandes). Ce fichier
@@ -37,8 +37,9 @@ progression locale est stockée en `localStorage`.
 
 Jeux : `sokomot`, `boucle`, `semantogramme`, `anglemort`.
 
-Chaque page de partie passe par un wrapper qui lit le niveau dans l'URL
-(`useLevelParams`) et remonte la partie sur un `key` propre au niveau (cf.
+Chaque page de partie charge son niveau dans un `loader` côté serveur
+(`loadLevelRoute`), puis un wrapper affiche `LevelNotFound` si le niveau
+manque, et sinon remonte la partie sur un `key` propre au niveau (cf.
 AGENTS.md §« Pattern critique »).
 
 ---

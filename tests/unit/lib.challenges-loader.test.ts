@@ -4,7 +4,7 @@ import { buildChallengeIndex, gameChallenges } from '~/lib/challenges-loader'
 type FakeLevel = { id: string }
 
 describe('lib/challenges-loader', () => {
-  it('indexe les niveaux par date et par index (1-based)', () => {
+  it('indexe les niveaux par date et par index (à partir de 1)', () => {
     const modules: Record<string, FakeLevel> = {
       './2026-05/2026-05-01-1.json': { id: 'A' },
       './2026-05/2026-05-01-2.json': { id: 'B' },
@@ -30,7 +30,7 @@ describe('lib/challenges-loader', () => {
     expect(idx.getLevel('2026-05-01', 99)).toBeUndefined()
   })
 
-  it('ignore les fichiers qui ne matchent pas le pattern <date>-<index>.json', () => {
+  it('ignore les fichiers qui ne suivent pas le motif <date>-<index>.json', () => {
     const modules: Record<string, FakeLevel> = {
       './README.md': { id: 'should be ignored' },
       './2026-05/index.ts': { id: 'should be ignored' },
@@ -53,7 +53,7 @@ describe('lib/challenges-loader', () => {
     expect(idx.getAllDates()).toEqual(['2026-04-01', '2026-04-02', '2026-08-30', '2026-12-15'])
   })
 
-  it('reconnaît le pattern peu importe la profondeur du dossier', () => {
+  it('reconnaît le motif quelle que soit la profondeur du dossier', () => {
     const modules: Record<string, FakeLevel> = {
       './2026-05-01-1.json': { id: 'flat' },
       './foo/bar/baz/2026-06-02-3.json': { id: 'deep' },

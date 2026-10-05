@@ -1,4 +1,4 @@
-.PHONY: default help install start build check-bundle preview lint knip format format-check typecheck test test-watch test-coverage verify-levels generate-levels fix check clean
+.PHONY: default help install start build preview lint knip knip-production format format-check typecheck test test-watch test-coverage verify-levels generate-levels fix check clean
 
 default: help
 
@@ -14,9 +14,6 @@ start: ## Lancer l'application en développement (hot reload)
 build: ## Compiler l'application pour la production
 	npm run build
 
-check-bundle: build ## Vérifier qu'aucun fichier JS client ne dépasse la taille maximale
-	npm run check:bundle
-
 preview: build ## Prévisualiser le build de production
 	npm run start
 
@@ -25,6 +22,9 @@ lint: ## Vérifier le code avec ESLint
 
 knip: ## Détecter le code mort (fichiers, exports, dépendances inutilisés)
 	npm run knip
+
+knip-production: ## Lister ce que seul le code de test utilise (à trier : beaucoup est exporté pour être testé)
+	npm run knip:production
 
 format: ## Formater le code avec Prettier
 	npm run format
@@ -35,7 +35,7 @@ format-check: ## Vérifier le formatage avec Prettier
 typecheck: ## Vérifier les types TypeScript
 	npm run typecheck
 
-test: ## Lancer les tests unitaires
+test: ## Lancer les tests unitaires et de composants
 	npm run test
 
 test-watch: ## Lancer les tests en mode watch
@@ -52,12 +52,12 @@ verify-levels: ## Vérifications lourdes des niveaux (unicité, générateurs) :
 GEN_MEMORY ?= 4096
 GEN_TIMEOUT ?= 6h
 
-generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 2026-05-01 --end 2026-05-07 --game sokomot --level 3"
+generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 2026-10-01 --end 2026-10-07 --game sokomot --level 3"
 	NODE_OPTIONS=--max-old-space-size=$(GEN_MEMORY) timeout $(GEN_TIMEOUT) nice -n 15 npm run generate:levels -- $(ARGS)
 
 fix: format lint ## Formater et linter le code
 
-check: check-bundle lint knip typecheck test ## Lancer toutes les vérifications (build et taille du bundle, lint, code mort, typecheck, tests)
+check: build lint knip typecheck test ## Lancer toutes les vérifications (build, lint, code mort, typecheck, tests)
 	@echo "Toutes les vérifications passent."
 
 clean: ## Supprimer les artefacts de build

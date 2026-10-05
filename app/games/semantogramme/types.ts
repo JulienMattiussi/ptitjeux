@@ -30,6 +30,6 @@ export type GameState = {
   status: CellStatus[][]
   /** Tentative de mot-thème saisie par le joueur. */
   themeGuess: string
-  /** Nombre total de cycles de cases effectués (= clics sur la grille). */
+  /** Nombre total de cycles de cases effectués (clic ou touche d'action). */
   moves: number
 }

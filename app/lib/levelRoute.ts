@@ -1,5 +1,6 @@
 import { data } from 'react-router'
 import type { GameChallenges } from './challenges-loader'
+import { shouldShowFutureDates, todayString } from './dates'
 
 /** Calendrier publié d'un jeu : un défi chaque jour, de `firstDate` à `lastDate`. */
 export type CalendarRange = { firstDate: string | undefined; lastDate: string | undefined }
@@ -27,15 +28,23 @@ export type PlayProps<L> = {
   lastDate: string | undefined
 }
 
+/** Un défi à venir n'est pas encore publié, même si son fichier existe. */
+function isPublished(date: string): boolean {
+  return shouldShowFutureDates() || date <= todayString()
+}
+
 /**
  * `loader` d'une page de partie, exécuté côté serveur : seul le niveau
- * désigné par l'URL part vers le navigateur, jamais l'index des niveaux. Un
- * niveau absent répond 404, et la page affiche `LevelNotFound`.
+ * désigné par l'URL part vers le navigateur, jamais l'index des niveaux. Une
+ * URL mal formée, un niveau absent ou à venir répondent 404, et la page
+ * affiche `LevelNotFound`.
  */
 export async function loadLevelRoute<L>(params: LevelParams, challenges: GameChallenges<L>) {
   const date = params.date ?? ''
   const idx = Number(params.index)
-  const level = (await challenges.fetchLevel(date, idx)) ?? null
+  const valid = /^\d{4}-\d{2}-\d{2}$/.test(date) && /^[1-4]$/.test(params.index ?? '')
+  const level =
+    valid && isPublished(date) ? ((await challenges.fetchLevel(date, idx)) ?? null) : null
   const lastDate = challenges.getAllDates().at(-1)
   return data({ date, idx, level, lastDate }, { status: level ? 200 : 404 })
 }

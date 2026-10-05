@@ -17,6 +17,7 @@ import {
   buildBorderWalls,
   cellKey,
   eq,
+  inBounds,
   letterBlocks,
 } from './sokomot-grid'
 import { stateKey } from './sokomot-search'
@@ -76,7 +77,7 @@ export function tryGenerateFullIce(
 }
 
 /**
- * Parcours en largeur à rebours depuis l'état résolu. Renvoie dès qu'il en
+ * Parcours en largeur à rebours depuis l'état résolu. Renvoie dès qu'il
  * trouve un état où aucune cible ne porte sa lettre ; sinon, budget épuisé,
  * l'état le plus décollé s'il atteint `minOffTarget` blocs hors cible.
  */
@@ -98,8 +99,6 @@ function backwardBFS(
     }
     return count
   }
-  // Deux blocs de même lettre sont interchangeables pour la victoire, donc
-  // aussi pour la déduplication.
   const keyOf = (state: RevState) => stateKey(state.player, state.blocks)
 
   type Node = { state: RevState; directions: Direction[] }
@@ -172,9 +171,8 @@ function computeReverseMoves(
 ): RevMove[] {
   const moves: RevMove[] = []
   const blockPosSet = new Set(state.blocks.map((b) => cellKey(b.pos)))
-  const outside = (c: Coord) => c[0] < 0 || c[1] < 0 || c[0] >= width || c[1] >= height
   const isWallOrBlock = (c: Coord): boolean =>
-    outside(c) || wallSet.has(cellKey(c)) || blockPosSet.has(cellKey(c))
+    !inBounds(c, width, height) || wallSet.has(cellKey(c)) || blockPosSet.has(cellKey(c))
 
   for (const { dir, vec } of DIRECTIONS) {
     const ahead: Coord = [state.player[0] + vec[0], state.player[1] + vec[1]]
@@ -191,7 +189,7 @@ function computeReverseMoves(
     const from: Coord = [state.player[0] - vec[0], state.player[1] - vec[1]]
     if (isWallOrBlock(from)) continue
     let cur: Coord = ahead
-    while (!outside(cur) && !wallSet.has(cellKey(cur))) {
+    while (inBounds(cur, width, height) && !wallSet.has(cellKey(cur))) {
       if (blockPosSet.has(cellKey(cur))) {
         if (isWallOrBlock([cur[0] + vec[0], cur[1] + vec[1]])) {
           const blockIdx = state.blocks.findIndex((b) => eq(b.pos, cur))

@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
-import { GAME_IDS } from '~/lib/game-styles'
+import type { GameId } from '~/lib/game-styles'
 import { findGame, games } from '~/lib/games-registry'
+
+const GAME_IDS = games.map((g) => g.id)
 
 describe('lib/games-registry', () => {
   it('contient les 4 jeux attendus', () => {
@@ -12,7 +14,7 @@ describe('lib/games-registry', () => {
     ])
   })
 
-  it('chaque jeu a un nom, tagline, description, href et accentClass', () => {
+  it('chaque jeu a un nom, une accroche, une description, un lien et un accent', () => {
     for (const game of games) {
       expect(game.name).toBeTruthy()
       expect(game.tagline).toBeTruthy()
@@ -24,5 +26,10 @@ describe('lib/games-registry', () => {
 
   it.each(GAME_IDS)('findGame trouve %s', (id) => {
     expect(findGame(id).id).toBe(id)
+  })
+
+  it('findGame refuse un identifiant absent du catalogue', () => {
+    // Impossible à écrire sans forcer le type : le cas protège une URL ou une sauvegarde corrompue.
+    expect(() => findGame('inconnu' as GameId)).toThrow('Jeu absent du catalogue')
   })
 })

@@ -52,30 +52,23 @@ function placeWordCells(rng: Rng, wordLen: number, width: number, height: number
 }
 
 /**
- * Calcule la liste des arêtes du périmètre d'un ensemble de cases connexes.
- * Une arête est sur le périmètre si elle sépare une case « dedans » d'une
- * case « dehors » (ou du bord de la grille).
+ * Boucle attendue : les arêtes qui séparent une case du mot du reste. Les
+ * cases du mot, voisines par un côté et sans trou, n'en forment qu'une seule.
  */
 function perimeterEdges(insideCells: Coord[]): Set<string> {
   const insideSet = new Set(insideCells.map(cellKey))
   const edges = new Set<string>()
+  // Arête H:x,y = bord haut de la case (x, y) ; V:x,y = bord gauche.
   for (const [cx, cy] of insideCells) {
-    // Top : H(cx, cy)
     if (!insideSet.has(cellKey([cx, cy - 1]))) edges.add(`H:${cx},${cy}`)
-    // Bottom : H(cx, cy+1)
     if (!insideSet.has(cellKey([cx, cy + 1]))) edges.add(`H:${cx},${cy + 1}`)
-    // Left : V(cx, cy)
     if (!insideSet.has(cellKey([cx - 1, cy]))) edges.add(`V:${cx},${cy}`)
-    // Right : V(cx+1, cy)
     if (!insideSet.has(cellKey([cx + 1, cy]))) edges.add(`V:${cx + 1},${cy}`)
   }
   return edges
 }
 
-/**
- * Pour une case donnée, compte combien de ses 4 arêtes sont dans la boucle.
- * C'est le nombre d'indice qu'on affiche dans le Slitherlink.
- */
+/** Indice Slitherlink d'une case : nombre de ses 4 côtés sur la boucle. */
 function clueForCell(cell: Coord, perimeter: Set<string>): number {
   const [cx, cy] = cell
   let count = 0

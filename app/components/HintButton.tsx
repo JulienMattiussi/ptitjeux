@@ -26,7 +26,7 @@ export function HintButton({ hint, label, children }: Props) {
       onClick={hint.reveal}
       className="animate-pop max-w-32 rounded-md border border-amber-300 bg-amber-50 px-2 py-1 text-xs font-medium text-amber-900 transition hover:bg-amber-100 focus-visible:outline-2 focus-visible:outline-amber-500 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-200 dark:hover:bg-amber-900"
     >
-      Coincé ? Un peu d'aide ?
+      Coincé{'\u00a0'}? Un peu d'aide{'\u00a0'}?
     </button>
   )
 }

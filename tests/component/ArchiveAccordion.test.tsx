@@ -20,7 +20,7 @@ function renderArchive(props: Partial<React.ComponentProps<typeof ArchiveAccordi
 }
 
 describe('ArchiveAccordion', () => {
-  it("rend un message vide quand il n'y a aucune archive", () => {
+  it("affiche un message quand il n'y a aucune archive", () => {
     renderArchive({ dates: [] })
     expect(screen.getByText(/Aucun défi archivé/)).toBeInTheDocument()
   })
@@ -64,7 +64,7 @@ describe('ArchiveAccordion', () => {
     expect(octoberHeader).toHaveAttribute('aria-expanded', 'false')
   })
 
-  it('ouvre un autre mois ferme le précédent (mutuellement exclusif)', async () => {
+  it('ouvrir un autre mois ferme le précédent (mutuellement exclusif)', async () => {
     const user = userEvent.setup()
     renderArchive()
     const octoberHeader = screen.getByRole('button', { name: /octobre 2026/i })
@@ -74,8 +74,7 @@ describe('ArchiveAccordion', () => {
     expect(octoberHeader).toHaveAttribute('aria-expanded', 'false')
   })
 
-  it('affiche une coche perfect sur le mois si tous ses jours sont parfaits', () => {
-    // Marque tous les niveaux d'octobre comme perfect.
+  it('affiche une coche verte sur le mois si tous ses jours sont parfaits', () => {
     const progress: GameProgress = {}
     for (const date of ['2026-10-01', '2026-10-02']) {
       for (const i of [1, 2, 3, 4]) {
@@ -87,7 +86,7 @@ describe('ArchiveAccordion', () => {
     expect(octoberHeader.querySelector('span.bg-emerald-500')).not.toBeNull()
   })
 
-  it('affiche une coche solved (ambre) si tous résolus mais pas tous parfaits', () => {
+  it('affiche une coche ambre sur le mois si tous ses jours sont résolus mais pas tous parfaits', () => {
     const progress: GameProgress = {}
     for (const date of ['2026-10-01', '2026-10-02']) {
       for (const i of [1, 2, 3, 4]) {

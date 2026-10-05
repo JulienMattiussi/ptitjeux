@@ -18,7 +18,7 @@ describe('lib/completion : completionStatus', () => {
   })
 })
 
-describe('lib/completion — aggregateCompletion', () => {
+describe('lib/completion : aggregateCompletion', () => {
   it('renvoie unsolved sur une liste vide', () => {
     expect(aggregateCompletion([])).toBe('unsolved')
   })
@@ -38,7 +38,7 @@ describe('lib/completion — aggregateCompletion', () => {
   })
 })
 
-describe('lib/completion — victoryVariant', () => {
+describe('lib/completion : victoryVariant', () => {
   it('perfect si moves <= parMoves', () => {
     expect(victoryVariant(5, 10)).toBe('perfect')
     expect(victoryVariant(10, 10)).toBe('perfect')

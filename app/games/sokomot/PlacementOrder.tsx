@@ -10,7 +10,7 @@ export function PlacementOrder({ level }: { level: Level }) {
       .map((letter, i) => ({ letter, rank: ranks[i] }))
       .sort((a, b) => a.rank - b.rank)
       .map((l) => l.letter)
-      .join(' > ')
+      .join(' → ')
   }, [level])
   return <>{sequence}</>
 }

@@ -1,8 +1,10 @@
 /**
  * Génère les fichiers JSON des défis quotidiens de chaque jeu. À ne lancer
  * que sur commande explicite (`make generate-levels`) : les niveaux publiés
- * sont figés, et les grilles Sémantogramme ne se régénèrent jamais (voir
- * `docs/semantogramme-curation.md`).
+ * sont figés. Les grilles Sémantogramme, relues et jouées, ne se régénèrent
+ * pas (voir `docs/semantogramme-curation.md`) : ce jeu n'est traité que sur
+ * `--game semantogramme` explicite, et `--clean` ne supprime jamais ses
+ * fichiers.
  *
  * Usage :
  *   tsx scripts/generate-levels.ts [options]
@@ -12,9 +14,11 @@
  *   --end <YYYY-MM-DD>     Date de fin   (défaut : fin du calendrier, 2027-09-30)
  *   --game <id>            Restreindre à un jeu (sokomot|boucle|semantogramme|anglemort).
  *                          Peut être répété : --game sokomot --game boucle
+ *                          Défaut : tous les jeux sauf semantogramme.
  *   --level <n>            Restreindre à un niveau (1..4). Peut être répété.
  *   --clean                Supprimer d'abord les fichiers du filtre (dates, jeux,
- *                          niveaux), sauf les grilles de base fixées d'Angle mort.
+ *                          niveaux), sauf ceux de Sémantogramme et les grilles de
+ *                          base fixées d'Angle mort.
  *                          Sans ce flag, les fichiers du filtre sont écrasés et
  *                          tous les autres restent intacts.
  *   -h, --help             Afficher cette aide.
@@ -24,42 +28,42 @@
  *     → ne (re)génère que les Sokomot L3 du 1er au 7 octobre 2026.
  *
  *   tsx scripts/generate-levels.ts --game anglemort --level 4 --clean
- *     → supprime puis régénère tous les Angle mort L4 du calendrier.
+ *     → supprime puis régénère tous les Angle mort L4 du calendrier, sauf les
+ *       bases fixées.
  */
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { LEVEL_INDICES, type LevelIndex } from '../app/games/types.js'
 import { dateRange, monthKey } from '../app/lib/dates.js'
-import { stripAccents } from '../app/lib/text.js'
 import { generateAngleMortLevel } from '../generators/anglemort.js'
-import { isFixedBaseLevel } from '../generators/anglemort-schedule.js'
 import { generateBoucleLevel } from '../generators/boucle.js'
-import { CALENDAR_END, CALENDAR_START } from '../generators/calendar.js'
+import { CALENDAR_END, CALENDAR_START, levelFile } from '../generators/calendar.js'
 import { generateSemantogrammeLevel } from '../generators/semantogramme.js'
 import { generateSokomotLevel } from '../generators/sokomot.js'
-import { filesToClean, levelFile } from './level-files.js'
+import {
+  type WordOf,
+  displayWord,
+  filesToClean,
+  keptOnClean,
+  publishedWords,
+  wordsOfDate,
+} from './level-files.js'
 
 const ROOT = path.resolve(import.meta.dirname, '..')
 
 type GameEntry = {
   id: 'sokomot' | 'boucle' | 'semantogramme' | 'anglemort'
-  /** `usedWords` : mots déjà publiés, pour les jeux qui les excluent. */
+  /**
+   * `usedWords` : mots à exclure (déjà publiés, ou à trouver ce jour-là dans
+   * un autre jeu), pour les jeux qui les excluent.
+   */
   generator: (date: string, index: LevelIndex, usedWords: Set<string>) => object
   /** Mot à trouver d'un niveau : jamais deux fois le même un jour donné, tous jeux confondus. */
-  wordOf?: (level: {
-    solutionWord?: string
-    target?: { word: string }
-    themeWord?: string
-  }) => string
+  wordOf?: WordOf
   /** Le générateur exclut aussi les mots déjà publiés les autres jours. */
   noRepeat?: boolean
-  /** Niveaux que `--clean` ne supprime jamais. */
-  keep?: (date: string, index: LevelIndex) => boolean
-}
-
-/** Forme affichée d'un mot : sans accents, en majuscules. */
-function display(word: string): string {
-  return stripAccents(word).toUpperCase()
+  /** Traité seulement si `--game` le nomme : ses niveaux publiés ne se régénèrent pas. */
+  explicitOnly?: boolean
 }
 
 const ALL_GAMES: readonly GameEntry[] = [
@@ -79,12 +83,11 @@ const ALL_GAMES: readonly GameEntry[] = [
     id: 'semantogramme',
     generator: (d, i) => generateSemantogrammeLevel(d, i),
     wordOf: (level) => level.themeWord ?? '',
+    explicitOnly: true,
   },
   {
     id: 'anglemort',
     generator: (d, i) => generateAngleMortLevel(d, i),
-    // Le générateur relit ces fichiers : les supprimer casserait la génération.
-    keep: isFixedBaseLevel,
   },
 ]
 
@@ -157,7 +160,10 @@ function parseArgs(argv: readonly string[]): {
   return {
     start,
     end,
-    games: games.size > 0 ? Array.from(games) : ALL_GAMES.map((g) => g.id),
+    games:
+      games.size > 0
+        ? Array.from(games)
+        : ALL_GAMES.filter((g) => !g.explicitOnly).map((g) => g.id),
     levels: levels.size > 0 ? Array.from(levels).sort() : LEVEL_INDICES,
     clean,
   }
@@ -170,9 +176,10 @@ Options :
   --start <YYYY-MM-DD>   Date de début (défaut : ${CALENDAR_START})
   --end   <YYYY-MM-DD>   Date de fin   (défaut : ${CALENDAR_END})
   --game  <id>           Jeu à générer (sokomot|boucle|semantogramme|anglemort). Répétable.
+                         Défaut : tous sauf semantogramme, qui ne se régénère pas.
   --level <n>            Niveau à générer (1..4). Répétable.
   --clean                Supprimer les fichiers du filtre avant régénération
-                         (sauf les grilles de base fixées d'Angle mort).
+                         (sauf Sémantogramme et les grilles de base fixées d'Angle mort).
   -h, --help             Cette aide.
 
 Sans --clean, les fichiers hors filtre sont préservés ; les fichiers dans le
@@ -194,35 +201,25 @@ for (const game of selectedGames) {
   const dates = dateRange(opts.start, opts.end)
 
   if (opts.clean) {
-    for (const file of filesToClean(dates, opts.levels, game.keep)) {
+    for (const file of filesToClean(dates, opts.levels, keptOnClean(game.id))) {
       await fs.rm(path.join(root, file), { force: true })
     }
   }
 
   // Mots des niveaux conservés (hors de la plage régénérée) : jamais repris.
-  const usedWords = new Set<string>()
-  if (game.wordOf && game.noRepeat) {
-    const regenerated = new Set(dates.flatMap((d) => opts.levels.map((i) => levelFile(d, i))))
-    for (const month of await fs.readdir(root)) {
-      if (!/^\d{4}-\d{2}$/.test(month)) continue
-      for (const file of await fs.readdir(path.join(root, month))) {
-        if (!file.endsWith('.json') || regenerated.has(`${month}/${file}`)) continue
-        const level = JSON.parse(await fs.readFile(path.join(root, month, file), 'utf-8'))
-        usedWords.add(display(game.wordOf(level)))
-      }
-    }
-  }
+  const regenerated = new Set(dates.flatMap((d) => opts.levels.map((i) => levelFile(d, i))))
+  const usedWords =
+    game.wordOf && game.noRepeat
+      ? await publishedWords(root, game.wordOf, regenerated)
+      : new Set<string>()
 
   /** Mots à trouver des autres jeux à cette date. */
   async function otherGamesWords(date: string): Promise<string[]> {
     const words: string[] = []
     for (const other of ALL_GAMES) {
       if (other.id === game.id || !other.wordOf) continue
-      for (const index of LEVEL_INDICES) {
-        const file = path.join(ROOT, 'app/games', other.id, 'challenges', levelFile(date, index))
-        const raw = await fs.readFile(file, 'utf-8').catch(() => null)
-        if (raw) words.push(display(other.wordOf(JSON.parse(raw))))
-      }
+      const otherRoot = path.join(ROOT, 'app/games', other.id, 'challenges')
+      words.push(...(await wordsOfDate(otherRoot, other.wordOf, date, LEVEL_INDICES)))
     }
     return words
   }
@@ -235,7 +232,7 @@ for (const game of selectedGames) {
     for (const index of opts.levels) {
       const level = game.generator(date, index, new Set(excluded))
       if (game.wordOf) {
-        const word = display(game.wordOf(level))
+        const word = displayWord(game.wordOf(level))
         usedWords.add(word)
         excluded.push(word)
       }

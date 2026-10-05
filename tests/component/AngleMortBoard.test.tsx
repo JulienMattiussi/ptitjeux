@@ -30,12 +30,12 @@ function renderBoard(state = loadLevel(LEVEL)) {
 describe('anglemort/Board', () => {
   it('nomme la porte, le diamant et les piliers', () => {
     renderBoard()
-    expect(screen.getByRole('button', { name: "Case d'entrée" })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: "Porte d'entrée" })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: 'Diamant' })).toBeInTheDocument()
     expect(screen.getByRole('img', { name: 'Pilier' })).toBeInTheDocument()
   })
 
-  it("accorde le libellé d'un indice à un seul vigile", () => {
+  it("annonce l'éclairage attendu d'une case à indice", () => {
     renderBoard()
     expect(
       screen.getByRole('button', { name: /Indice : 1 vigile doit éclairer cette case/ }),

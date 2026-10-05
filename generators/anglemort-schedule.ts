@@ -5,15 +5,20 @@
  * (50), donc jamais dans le même mois.
  */
 import { readFileSync } from 'node:fs'
-import { join } from 'node:path'
 import type { Level } from '~/games/anglemort/types'
 import type { LevelIndex } from '~/games/types'
 import { daysBetween } from '~/lib/dates'
-import { VARIANTS, type Variant } from './anglemort-symmetry'
-import { CALENDAR_END, CALENDAR_START } from './calendar'
+import type { Variant } from './anglemort-symmetry'
+import { CALENDAR_START, challengeFile } from './calendar'
 
-const SCHEDULE_DAYS = daysBetween(CALENDAR_START, CALENDAR_END) + 1
-const BASES = Math.ceil(SCHEDULE_DAYS / VARIANTS.length)
+/**
+ * Longueur du cycle (du 2026-09-01 au 2027-09-30) et nombre de bases
+ * (⌈395 / 8⌉), figés : les déduire de `CALENDAR_END` ferait, à chaque
+ * prolongation du calendrier, changer la base et la symétrie de chaque date,
+ * donc tous les niveaux publiés, et décalerait les `FIXED_BASES`.
+ */
+export const SCHEDULE_DAYS = 395
+export const BASES = 50
 
 export function levelOrigin(date: string): { base: number; variant: Variant } {
   const day = daysBetween(CALENDAR_START, date)
@@ -43,11 +48,6 @@ export function isFixedBaseLevel(date: string, index: LevelIndex): boolean {
   return FIXED_BASES[`${index}-${levelOrigin(date).base}`] === date
 }
 
-export function challengeFile(date: string, index: LevelIndex): string {
-  const dir = join(import.meta.dirname, '../app/games/anglemort/challenges', date.slice(0, 7))
-  return join(dir, `${date}-${index}.json`)
-}
-
 export function loadFixedBase(file: string, base: number): Level {
   const level = JSON.parse(readFileSync(file, 'utf-8')) as Level
   const origin = levelOrigin(level.id.slice(0, 10))
@@ -60,5 +60,5 @@ export function loadFixedBase(file: string, base: number): Level {
 /** Grille de base fixée du niveau, ou `null` si elle se génère. */
 export function fixedBase(index: LevelIndex, base: number): Level | null {
   const date = FIXED_BASES[`${index}-${base}`]
-  return date ? loadFixedBase(challengeFile(date, index), base) : null
+  return date ? loadFixedBase(challengeFile('anglemort', date, index), base) : null
 }

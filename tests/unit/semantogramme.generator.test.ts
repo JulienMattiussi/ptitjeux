@@ -46,7 +46,7 @@ describe('semantogramme/generator', () => {
     expect(generateSemantogrammeLevel('2026-09-01', 1).themeWord).toBe('roman')
   })
 
-  it('les cases thème sont des mots curés du thème, les autres non', () => {
+  it('les cases thème sont des mots de la curation du thème, les autres non', () => {
     const curation = loadCuration()
     const level = generateSemantogrammeLevel(DATE, 3)
     const members = new Set(curation.words[`3|${level.themeWord}`])

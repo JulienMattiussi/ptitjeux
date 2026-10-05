@@ -15,8 +15,9 @@ différents).
 ## Données
 
 - `schedule.json` : le calendrier (date, thème, catégorie). Deux thèmes d'une
-  même catégorie ne se suivent pas ; deux thèmes d'un même domaine de sens
-  (`domains.json`) sont espacés d'au moins 7 jours.
+  même catégorie ne se suivent jamais (vérifié). L'écart d'au moins 7 jours
+  entre deux thèmes d'un même domaine de sens (`domains.json`) était visé à la
+  rédaction, mais n'est ni vérifié ni respecté partout.
 - `words/<AAAA-MM>.json` : les mots de chaque thème.
 - `allowed.json` : les décisions prises à la main (mots admis hors
   dictionnaire, couples gardés ou refusés).

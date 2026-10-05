@@ -8,7 +8,7 @@ describe('useLatestRef', () => {
     expect(result.current.current).toBe(42)
   })
 
-  it('met à jour la ref quand la valeur change entre deux renders', () => {
+  it('met à jour la ref quand la valeur change entre deux rendus', () => {
     const { result, rerender } = renderHook(({ v }: { v: number }) => useLatestRef(v), {
       initialProps: { v: 1 },
     })
@@ -17,7 +17,7 @@ describe('useLatestRef', () => {
     expect(result.current.current).toBe(99)
   })
 
-  it('renvoie le même objet ref entre les renders (identité stable)', () => {
+  it('renvoie le même objet ref entre les rendus (identité stable)', () => {
     const { result, rerender } = renderHook(({ v }: { v: number }) => useLatestRef(v), {
       initialProps: { v: 1 },
     })

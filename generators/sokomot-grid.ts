@@ -56,6 +56,10 @@ export function buildBorderWalls(width: number, height: number): Coord[] {
   return walls
 }
 
+export function inBounds(c: Coord, width: number, height: number): boolean {
+  return c[0] >= 0 && c[0] < width && c[1] >= 0 && c[1] < height
+}
+
 export function inInterior(c: Coord, width: number, height: number): boolean {
   return c[0] >= 1 && c[0] <= width - 2 && c[1] >= 1 && c[1] <= height - 2
 }
@@ -140,10 +144,54 @@ export function tracePlayerCells(start: Coord, moves: Direction[]): Set<string> 
   return cells
 }
 
+/** Marche du joueur depuis une case : distance et pas d'arrivée de chaque case atteinte. */
+export type Walk = {
+  dist: Map<string, number>
+  parent: Map<string, [string, Direction] | null>
+}
+
 /**
- * Plus court chemin du joueur, un pas par coup, sans glissade ni poussée :
- * `null` si `goal` est inaccessible en évitant `obstacles`.
+ * Parcours en largeur de la marche du joueur depuis `start`, un pas par coup,
+ * sans glissade ni poussée, en évitant les cases `blocked`.
  */
+export function walkFrom(
+  start: Coord,
+  blocked: (key: string) => boolean,
+  width: number,
+  height: number,
+): Walk {
+  const dist = new Map<string, number>()
+  const parent = new Map<string, [string, Direction] | null>()
+  const startKey = cellKey(start)
+  dist.set(startKey, 0)
+  parent.set(startKey, null)
+  const queue: Coord[] = [start]
+  let head = 0
+  while (head < queue.length) {
+    const [x, y] = queue[head++]
+    const k = cellKey([x, y])
+    const d = dist.get(k)!
+    for (const { dir, vec } of DIRECTIONS) {
+      const next: Coord = [x + vec[0], y + vec[1]]
+      if (!inBounds(next, width, height)) continue
+      const nk = cellKey(next)
+      if (blocked(nk) || dist.has(nk)) continue
+      dist.set(nk, d + 1)
+      parent.set(nk, [k, dir])
+      queue.push(next)
+    }
+  }
+  return { dist, parent }
+}
+
+/** Coups de la marche jusqu'à la case `end`, atteinte par `walkFrom`. */
+export function pathTo(end: string, parent: Walk['parent']): Direction[] {
+  const path: Direction[] = []
+  for (let p = parent.get(end); p; p = parent.get(p[0])) path.unshift(p[1])
+  return path
+}
+
+/** Plus court chemin du joueur : `null` si `goal` est inaccessible en évitant `obstacles`. */
 export function walkPath(
   start: Coord,
   goal: Coord,
@@ -151,26 +199,7 @@ export function walkPath(
   width: number,
   height: number,
 ): Direction[] | null {
-  if (eq(start, goal)) return []
-  type Node = { pos: Coord; parent: number; dir: Direction | null }
-  const nodes: Node[] = [{ pos: start, parent: -1, dir: null }]
-  const visited = new Set<string>([cellKey(start)])
-  let head = 0
-  while (head < nodes.length) {
-    const node = nodes[head++]
-    for (const { dir, vec } of DIRECTIONS) {
-      const next: Coord = [node.pos[0] + vec[0], node.pos[1] + vec[1]]
-      if (next[0] < 0 || next[0] >= width || next[1] < 0 || next[1] >= height) continue
-      const nk = cellKey(next)
-      if (obstacles.has(nk) || visited.has(nk)) continue
-      visited.add(nk)
-      nodes.push({ pos: next, parent: head - 1, dir })
-      if (eq(next, goal)) {
-        const path: Direction[] = []
-        for (let i = nodes.length - 1; i > 0; i = nodes[i].parent) path.unshift(nodes[i].dir!)
-        return path
-      }
-    }
-  }
-  return null
+  const goalKey = cellKey(goal)
+  const { dist, parent } = walkFrom(start, (k) => obstacles.has(k), width, height)
+  return dist.has(goalKey) ? pathTo(goalKey, parent) : null
 }

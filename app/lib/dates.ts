@@ -41,11 +41,7 @@ export function parseDate(s: DateString): Date {
  * `lastAvailableDate` est alors utilisé comme date du jour.
  */
 export function todayString(lastAvailableDate?: DateString): DateString {
-  if (
-    typeof import.meta !== 'undefined' &&
-    import.meta.env?.VITE_FREEZE_TODAY === 'last-available' &&
-    lastAvailableDate
-  ) {
+  if (import.meta.env?.VITE_FREEZE_TODAY === 'last-available' && lastAvailableDate) {
     return lastAvailableDate
   }
   return formatDate(new Date())
@@ -59,12 +55,12 @@ export function todayString(lastAvailableDate?: DateString): DateString {
  * Active le mode en posant `VITE_SHOW_FUTURE_DAYS=1` dans `.env`.
  */
 export function shouldShowFutureDates(): boolean {
-  return typeof import.meta !== 'undefined' && import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
+  return import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
 }
 
-/** Compare deux dates ISO comme des chaînes — l'ordre lexicographique correspond à l'ordre chronologique. */
-export function compareDates(a: DateString, b: DateString): number {
-  return a < b ? -1 : a > b ? 1 : 0
+/** Nombre de jours de `from` à `to` (négatif si `to` précède `from`). */
+export function daysBetween(from: DateString, to: DateString): number {
+  return Math.round((Date.parse(to) - Date.parse(from)) / 86_400_000)
 }
 
 /** Mois clé pour grouper : `YYYY-MM`. */

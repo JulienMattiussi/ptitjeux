@@ -5,19 +5,19 @@ import type { LevelProgress } from './localStorage'
  * - `unsolved` : pas encore réussi
  * - `solved` : réussi mais au-dessus de l'objectif de coups
  * - `perfect` : réussi ET objectif respecté
- *
- * Si le niveau n'a pas d'objectif (parMoves indéfini), on retombe sur `solved`
- * dès qu'il est terminé.
  */
 export type CompletionStatus = 'unsolved' | 'solved' | 'perfect'
 
+/** Statut d'un niveau réussi : variante de la modale de victoire et des coches. */
+export type SolvedStatus = Exclude<CompletionStatus, 'unsolved'>
+
 export function completionStatus(
   progress: LevelProgress | undefined,
-  parMoves: number | undefined,
+  parMoves: number,
 ): CompletionStatus {
   if (!progress?.completed) return 'unsolved'
-  if (parMoves === undefined || progress.bestMoves === undefined) return 'solved'
-  return progress.bestMoves <= parMoves ? 'perfect' : 'solved'
+  if (progress.bestMoves === undefined) return 'solved'
+  return victoryVariant(progress.bestMoves, parMoves)
 }
 
 /**
@@ -33,12 +33,7 @@ export function aggregateCompletion(statuses: readonly CompletionStatus[]): Comp
   return 'unsolved'
 }
 
-/**
- * Choix de la variante d'overlay de victoire en fonction du score réalisé.
- * `perfect` si objectif respecté (`moves ≤ parMoves`), `solved` sinon.
- * Si `parMoves` est indéfini, retombe sur `perfect`.
- */
-export function victoryVariant(moves: number, parMoves: number | undefined): 'perfect' | 'solved' {
-  if (parMoves === undefined) return 'perfect'
+/** `perfect` si l'objectif est respecté (`moves ≤ parMoves`), `solved` sinon. */
+export function victoryVariant(moves: number, parMoves: number): SolvedStatus {
   return moves <= parMoves ? 'perfect' : 'solved'
 }

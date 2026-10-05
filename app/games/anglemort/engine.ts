@@ -1,14 +1,14 @@
 import type { Dir, GameState, Guard, GuardType, Level, MirrorKind, Pos } from './types'
 
-export const DIRS: readonly Dir[] = ['N', 'E', 'S', 'W']
+const DIRS: readonly Dir[] = ['N', 'E', 'S', 'W']
 
-const DELTA: Record<Dir, Pos> = { N: [0, -1], E: [1, 0], S: [0, 1], W: [-1, 0] }
+export const DELTA: Record<Dir, Pos> = { N: [0, -1], E: [1, 0], S: [0, 1], W: [-1, 0] }
 
-const CLOCKWISE: Record<Dir, Dir> = { N: 'E', E: 'S', S: 'W', W: 'N' }
+export const CLOCKWISE: Record<Dir, Dir> = { N: 'E', E: 'S', S: 'W', W: 'N' }
 
-const OPPOSITE: Record<Dir, Dir> = { N: 'S', E: 'W', S: 'N', W: 'E' }
+export const OPPOSITE: Record<Dir, Dir> = { N: 'S', E: 'W', S: 'N', W: 'E' }
 
-const REFLECT: Record<MirrorKind, Record<Dir, Dir>> = {
+export const REFLECT: Record<MirrorKind, Record<Dir, Dir>> = {
   '/': { E: 'N', N: 'E', W: 'S', S: 'W' },
   '\\': { E: 'S', S: 'E', W: 'N', N: 'W' },
 }
@@ -17,10 +17,31 @@ const REFLECT: Record<MirrorKind, Record<Dir, Dir>> = {
 export const GUARD_TYPES: readonly GuardType[] = ['simple', 'angle', 'oppose']
 
 /** Les vigiles `oppose` n'ont que 2 orientations distinctes (━ et ┃). */
-const FACINGS: Record<GuardType, readonly Dir[]> = {
+export const FACINGS: Record<GuardType, readonly Dir[]> = {
   simple: DIRS,
   angle: DIRS,
   oppose: ['N', 'E'],
+}
+
+/** Orientation d'un vigile présenté hors de la grille (réserve, sélecteur de type). */
+export function restFacing(type: GuardType): Dir {
+  return type === 'oppose' ? 'E' : 'N'
+}
+
+/** Côté du mur d'enceinte où s'ouvre la porte (elle est toujours sur le bord). */
+export function doorSide(level: Level): Dir {
+  const [x, y] = level.door
+  if (x === 0) return 'W'
+  if (x === level.width - 1) return 'E'
+  if (y === 0) return 'N'
+  return 'S'
+}
+
+/** Direction d'un pas entre deux cases voisines. */
+export function stepDir([fx, fy]: Pos, [tx, ty]: Pos): Dir {
+  if (tx > fx) return 'E'
+  if (tx < fx) return 'W'
+  return ty > fy ? 'S' : 'N'
 }
 
 export function key(x: number, y: number): string {
@@ -42,7 +63,7 @@ function inBounds(level: Level, x: number, y: number): boolean {
   return x >= 0 && x < level.width && y >= 0 && y < level.height
 }
 
-function samePos(a: Pos, x: number, y: number): boolean {
+export function samePos(a: Pos, x: number, y: number): boolean {
   return a[0] === x && a[1] === y
 }
 
@@ -77,7 +98,7 @@ export function loadLevel(level: Level): GameState {
   return { level, guards: [], moves: 0 }
 }
 
-export function reset(state: GameState): GameState {
+function reset(state: GameState): GameState {
   return loadLevel(state.level)
 }
 
@@ -89,11 +110,16 @@ export function remaining(state: GameState, type: GuardType): number {
   return state.level.pool[type] - countPlaced(state.guards, type)
 }
 
+/** Types de vigiles présents dans le lot, dans l'ordre du sélecteur (touches 1, 2, 3). */
+export function pickableTypes(state: GameState): GuardType[] {
+  return GUARD_TYPES.filter((t) => state.level.pool[t] > 0)
+}
+
 /**
  * Une lampe ne peut pas être braquée directement contre le mur d'enceinte ou
  * un pilier : chaque direction du vigile doit donner sur une case de la salle.
  */
-export function isFacingAllowed(level: Level, guard: Omit<Guard, 'pos'> & { pos: Pos }): boolean {
+export function isFacingAllowed(level: Level, guard: Guard): boolean {
   return guardDirs(guard).every((d) => {
     const x = guard.pos[0] + DELTA[d][0]
     const y = guard.pos[1] + DELTA[d][1]
@@ -310,13 +336,8 @@ export function corridorOrder(cells: Pos[], door: Pos): Pos[] {
   }
 }
 
-/**
- * Couloir attendu, révélé par l'aide : celui que laisse la solution
- * enregistrée, ou le couloir tracé d'une grille d'expérimentation.
- */
+/** Couloir attendu, révélé par l'aide : celui que laisse la solution enregistrée. */
 export function expectedCorridor(level: Level): Pos[] {
-  if (level.corridor) return level.corridor
-  if (level.solution.length === 0) return []
   return unseenCells(level, level.solution, computeVision(level, level.solution))
 }
 

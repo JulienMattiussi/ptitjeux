@@ -21,7 +21,7 @@ export type Level = {
   /** Solution : pour chaque case, true si liée au thème. */
   solution: boolean[][]
   /** Nombre maximum de cycles de cases pour que la résolution soit « parfaite ». */
-  parMoves?: number
+  parMoves: number
 }
 
 export type GameState = {

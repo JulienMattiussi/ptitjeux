@@ -1,20 +1,15 @@
 import { act, renderHook } from '@testing-library/react'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { writeLevelProgress } from '~/lib/localStorage'
-import { levelKey, useLocalProgress } from '~/lib/useLocalProgress'
+import { useLocalProgress } from '~/lib/useLocalProgress'
 
-describe('lib/useLocalProgress', () => {
+describe('useLocalProgress', () => {
   beforeEach(() => {
     window.localStorage.clear()
   })
 
   afterEach(() => {
     window.localStorage.clear()
-  })
-
-  it('levelKey concatène date et index avec un tiret', () => {
-    expect(levelKey('2026-05-07', 1)).toBe('2026-05-07-1')
-    expect(levelKey('2026-04-15', 4)).toBe('2026-04-15-4')
   })
 
   it('lit la progression au montage', () => {
@@ -66,14 +61,11 @@ describe('lib/useLocalProgress', () => {
     expect(result.current).toEqual({})
   })
 
-  it('cleanup : retire le listener au démontage', () => {
+  it("retire l'écoute des autres onglets au démontage", () => {
+    const remove = vi.spyOn(window, 'removeEventListener')
     const { unmount } = renderHook(() => useLocalProgress('sokomot'))
     unmount()
-    // Si le listener n'avait pas été retiré, l'event ci-dessous ferait
-    // appel à setProgress sur un composant démonté → React loggue un
-    // warning. Le test passe tant qu'on n'a pas de "Can't perform a
-    // React state update on an unmounted component".
-    window.localStorage.setItem('ptitjeux.progress', JSON.stringify({ sokomot: {} }))
-    window.dispatchEvent(new StorageEvent('storage', { key: 'ptitjeux.progress' }))
+    expect(remove).toHaveBeenCalledWith('storage', expect.any(Function))
+    remove.mockRestore()
   })
 })

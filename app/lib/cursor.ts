@@ -1,14 +1,15 @@
-import type { GameKeyDirection } from './useGameKeyboard'
+/** Direction d'un déplacement au clavier, commune à tous les jeux. */
+export type Direction = 'up' | 'down' | 'left' | 'right'
 
 export type CellCursor = { x: number; y: number }
 
 /**
  * Déplace un curseur de case (x, y) dans la direction donnée et le borne aux
- * limites de la grille. Utilisé par Sémantogramme pour la navigation clavier.
+ * limites de la grille (Sémantogramme, Angle mort).
  */
 export function moveCellCursor(
   cursor: CellCursor,
-  direction: GameKeyDirection,
+  direction: Direction,
   width: number,
   height: number,
 ): CellCursor {

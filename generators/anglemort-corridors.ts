@@ -13,18 +13,19 @@
  */
 import { areCluesSatisfied, computeVision, isFloor, isPlaceable } from '~/games/anglemort/engine'
 import type { Guard, Level, Pos } from '~/games/anglemort/types'
+import { clueEntries, floorNeighbours } from './anglemort-grid'
 import { solveAngleMort } from './anglemort-solver'
 
 /** Un couloir : 1 sur ses cases (indice `y * width + x`), 0 ailleurs. */
-export type CorridorCells = Uint8Array
+type CorridorCells = Uint8Array
 
-export type CorridorList = {
+type CorridorList = {
   corridors: CorridorCells[]
   /** `false` si l'énumération s'est arrêtée au plafond `maxCorridors`. */
   complete: boolean
 }
 
-export type RivalStatus = 'impossible' | 'possible' | 'unknown'
+type RivalStatus = 'impossible' | 'possible' | 'unknown'
 
 /** Verdict sur un concurrent ; s'il est réalisable, une pose qui le produit. */
 export type RivalCheck =
@@ -40,21 +41,6 @@ export function corridorId(cells: CorridorCells): string {
   return cells.join('')
 }
 
-function neighbourLists(level: Level): number[][] {
-  const w = level.width
-  const h = level.height
-  return Array.from({ length: w * h }, (_, i) => {
-    const x = i % w
-    const y = Math.floor(i / w)
-    const list: number[] = []
-    if (x > 0) list.push(i - 1)
-    if (x < w - 1) list.push(i + 1)
-    if (y > 0) list.push(i - w)
-    if (y < h - 1) list.push(i + w)
-    return list.filter((n) => isFloor(level, n % w, Math.floor(n / w)))
-  })
-}
-
 /**
  * Couloirs compatibles avec les indices du niveau. Un couloir est un chemin
  * **induit** (aucune case ne touche une autre case du chemin hors de ses deux
@@ -62,13 +48,10 @@ function neighbourLists(level: Level): number[][] {
  */
 export function compatibleCorridors(level: Level, maxCorridors: number): CorridorList {
   const w = level.width
-  const nbs = neighbourLists(level)
+  const nbs = floorNeighbours(level)
   const door = level.door[1] * w + level.door[0]
   const diamond = level.diamond[1] * w + level.diamond[0]
-  const clues = Object.entries(level.clues).map(([k, v]) => {
-    const [x, y] = k.split(',').map(Number)
-    return [y * w + x, v] as const
-  })
+  const clues = clueEntries(level)
   const lit = new Set(clues.filter(([, v]) => v > 0).map(([i]) => i))
   const dark = clues.filter(([, v]) => v === 0).map(([i]) => i)
   const on = new Uint8Array(w * level.height)
@@ -97,7 +80,7 @@ export function compatibleCorridors(level: Level, maxCorridors: number): Corrido
   return { corridors, complete }
 }
 
-/** Existe-t-il une pose du lot (exacte) qui produit exactement ce couloir ? */
+/** Existe-t-il une pose du lot entier qui produit exactement ce couloir ? */
 export function checkRival(level: Level, cells: CorridorCells, maxNodes: number): RivalCheck {
   const w = level.width
   const forcedPath: Pos[] = []
@@ -108,13 +91,7 @@ export function checkRival(level: Level, cells: CorridorCells, maxNodes: number)
     if (!isFloor(level, x, y)) continue
     ;(cells[i] ? forcedPath : forbiddenPath).push([x, y])
   }
-  const result = solveAngleMort(level, {
-    exactPool: true,
-    limit: 1,
-    maxNodes,
-    forcedPath,
-    forbiddenPath,
-  })
+  const result = solveAngleMort(level, { limit: 1, maxNodes, forcedPath, forbiddenPath })
   if (result.solutions.length > 0) return { status: 'possible', pose: result.solutions[0] }
   return { status: result.complete ? 'impossible' : 'unknown' }
 }
@@ -135,17 +112,28 @@ export function poseFitsClues(level: Level, pose: Guard[]): boolean {
   )
 }
 
-export type UniquenessBudget = {
+type UniquenessBudget = {
   maxCorridors: number
   /** Budget du solveur pour chaque couloir concurrent. */
   maxNodes: number
 }
 
 /**
+ * Budget des preuves d'unicité des tests d'intégrité. Le solveur y dispose de
+ * plus de nœuds qu'à la génération (`RIVAL_NODES`) : une variante tournée
+ * d'une grille peut en demander plus que l'originale pour la même preuve.
+ */
+const PROOF_BUDGET: UniquenessBudget = { maxCorridors: 1_000_000, maxNodes: 2_000_000 }
+
+/**
  * Preuve que `corridor` est le seul couloir possible : `true` seulement si
  * l'énumération est complète et que chaque concurrent est prouvé impossible.
  */
-export function isCorridorUnique(level: Level, corridor: Pos[], budget: UniquenessBudget): boolean {
+export function isCorridorUnique(
+  level: Level,
+  corridor: Pos[],
+  budget: UniquenessBudget = PROOF_BUDGET,
+): boolean {
   const { corridors, complete } = compatibleCorridors(level, budget.maxCorridors)
   if (!complete) return false
   const intended = corridorId(corridorCells(level, corridor))

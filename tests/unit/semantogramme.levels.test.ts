@@ -1,95 +1,53 @@
 import { describe, expect, it } from 'vitest'
-import { getAllDates, getLevel } from '~/games/semantogramme/challenges'
-import {
-  isGridSolved,
-  isWon,
-  loadLevel,
-  setCellStatus,
-  setThemeGuess,
-} from '~/games/semantogramme/engine'
+import * as challenges from '~/games/semantogramme/challenges'
+import { isGridSolved, isWon, setThemeGuess } from '~/games/semantogramme/engine'
+import { LEVEL_INDICES } from '~/games/types'
 import { loadDomains } from '../../generators/semantogramme'
-import { helpDomains, loadCuration } from '../../generators/semantogramme-curation'
+import { type ThemeLevel, helpDomains, loadCuration } from '../../generators/semantogramme-curation'
 import { familyPairs, normalizeWord } from '../../generators/semantogramme-rules'
+import { byId, committedLevels } from '../helpers/levels'
+import { applySolution, cluesOf } from '../helpers/semantogramme'
 
 describe('niveaux Sémantogramme : intégrité', () => {
-  const dates = getAllDates()
+  const dates = challenges.getAllDates()
+  const levels = committedLevels(challenges)
 
-  it('au moins un défi est généré', () => {
+  it('chaque jour publié a ses 4 niveaux', () => {
     expect(dates.length).toBeGreaterThan(0)
+    expect(levels).toHaveLength(dates.length * 4)
   })
 
-  it('rowClues et colClues correspondent à la solution', () => {
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)!
-        for (let y = 0; y < level.height; y++) {
-          const expected = level.solution[y].filter(Boolean).length
-          expect(level.rowClues[y], `${date}/${i} rowClues[${y}]`).toBe(expected)
-        }
-        for (let x = 0; x < level.width; x++) {
-          let count = 0
-          for (let y = 0; y < level.height; y++) {
-            if (level.solution[y][x]) count++
-          }
-          expect(level.colClues[x], `${date}/${i} colClues[${x}]`).toBe(count)
-        }
-      }
-    }
+  it.each(byId(levels))('%s : rowClues et colClues correspondent à la solution', (_, level) => {
+    expect(cluesOf(level.solution)).toEqual({ rowClues: level.rowClues, colClues: level.colClues })
   })
 
-  it('appliquer la solution + thème déclenche la victoire', () => {
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)!
-        let state = loadLevel(level)
-        for (let y = 0; y < level.height; y++) {
-          for (let x = 0; x < level.width; x++) {
-            state = setCellStatus(state, x, y, level.solution[y][x] ? 'in' : 'out')
-          }
-        }
-        expect(isGridSolved(state), `${date}/${i} grille non résolue`).toBe(true)
-        state = setThemeGuess(state, level.themeWord)
-        expect(isWon(state), `${date}/${i} thème ${level.themeWord} rejeté`).toBe(true)
-      }
-    }
+  it.each(byId(levels))('%s : la solution et le thème font gagner', (_, level) => {
+    const state = applySolution(level)
+    expect(isGridSolved(state), 'grille non résolue').toBe(true)
+    expect(isWon(setThemeGuess(state, level.themeWord)), `thème ${level.themeWord} rejeté`).toBe(
+      true,
+    )
   })
 
-  it('≥1 IN et ≥1 OUT par ligne et par colonne', () => {
-    // Une ligne ou colonne tout-IN (clue = width/height) ou tout-OUT
-    // (clue = 0) appauvrit le puzzle.
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)!
-        for (let y = 0; y < level.height; y++) {
-          const inCount = level.solution[y].filter(Boolean).length
-          expect(inCount, `${date}/L${i} ligne ${y} clue=${inCount}`).toBeGreaterThan(0)
-          expect(inCount, `${date}/L${i} ligne ${y} toute-IN`).toBeLessThan(level.width)
-        }
-        for (let x = 0; x < level.width; x++) {
-          let inCount = 0
-          for (let y = 0; y < level.height; y++) if (level.solution[y][x]) inCount++
-          expect(inCount, `${date}/L${i} colonne ${x} clue=0`).toBeGreaterThan(0)
-          expect(inCount, `${date}/L${i} colonne ${x} toute-IN`).toBeLessThan(level.height)
-        }
-      }
-    }
-  })
+  // Une ligne ou colonne toute « thème » ou toute « hors thème » appauvrit le puzzle.
+  it.each(byId(levels))(
+    '%s : au moins une case de chaque sorte par ligne et colonne',
+    (_, level) => {
+      const { rowClues, colClues } = cluesOf(level.solution)
+      for (const n of rowClues) expect(n > 0 && n < level.width).toBe(true)
+      for (const n of colClues) expect(n > 0 && n < level.height).toBe(true)
+    },
+  )
 
-  it('aucun mot dupliqué dans la grille', () => {
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)!
-        const flat = level.words.flat()
-        const unique = new Set(flat)
-        expect(unique.size, `${date}/L${i} contient un doublon`).toBe(flat.length)
-      }
-    }
+  it.each(byId(levels))('%s : aucun mot dupliqué dans la grille', (_, level) => {
+    const flat = level.words.flat()
+    expect(new Set(flat).size).toBe(flat.length)
   })
 
   it("les mots d'une journée sont tous différents, et différents des thèmes du jour", () => {
     const found: string[] = []
     for (const date of dates) {
-      const day = ([1, 2, 3, 4] as const).map((i) => getLevel(date, i)).filter((l) => !!l)
+      const day = LEVEL_INDICES.flatMap((i) => challenges.getLevel(date, i) ?? [])
       const themes = new Set(day.map((l) => normalizeWord(l.themeWord)))
       const seen = new Set<string>()
       for (const level of day) {
@@ -105,13 +63,8 @@ describe('niveaux Sémantogramme : intégrité', () => {
 
   it('aucun niveau ne contient deux mots de la même famille', () => {
     const found: string[] = []
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)
-        if (!level) continue
-        for (const [a, b] of familyPairs(level.words.flat()))
-          found.push(`${level.id} : ${a} / ${b}`)
-      }
+    for (const level of levels) {
+      for (const [a, b] of familyPairs(level.words.flat())) found.push(`${level.id} : ${a} / ${b}`)
     }
     expect(found).toEqual([])
   })
@@ -122,8 +75,8 @@ describe('niveaux Sémantogramme : intégrité', () => {
     const wordsOfDay = sorted.map(
       (date) =>
         new Set(
-          ([1, 2, 3, 4] as const).flatMap((i) =>
-            getLevel(date, i)!.words.flat().map(normalizeWord),
+          LEVEL_INDICES.flatMap((i) => challenges.getLevel(date, i) ?? []).flatMap((l) =>
+            l.words.flat().map(normalizeWord),
           ),
         ),
     )
@@ -144,18 +97,18 @@ describe('niveaux Sémantogramme : intégrité', () => {
       for (const t of themes) domainsOf.set(t, [...(domainsOf.get(t) ?? []), domain])
     }
     const found: string[] = []
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)!
-        const scheduled = curation.schedule[`${i}`].find((t) => t.date === date)!
-        const expected = helpDomains(
-          level.themeWord,
-          scheduled.category,
-          domainsOf.get(level.themeWord) ?? [],
-        )
-        if (expected.length === 0 || level.domains.join('|') !== expected.join('|'))
-          found.push(`${level.id} : ${level.domains.join(', ')}`)
-      }
+    for (const level of levels) {
+      const date = level.id.slice(0, 10)
+      const scheduled = curation.schedule[level.id.slice(11) as ThemeLevel].find(
+        (t) => t.date === date,
+      )!
+      const expected = helpDomains(
+        level.themeWord,
+        scheduled.category,
+        domainsOf.get(level.themeWord) ?? [],
+      )
+      if (expected.length === 0 || level.domains.join('|') !== expected.join('|'))
+        found.push(`${level.id} : ${level.domains.join(', ')}`)
     }
     expect(found).toEqual([])
   })
@@ -163,14 +116,11 @@ describe('niveaux Sémantogramme : intégrité', () => {
   it('thèmes tous distincts sur tous les niveaux', () => {
     const seen = new Map<string, string>()
     const duplicates: string[] = []
-    for (const date of dates) {
-      for (const i of [1, 2, 3, 4] as const) {
-        const level = getLevel(date, i)!
-        const theme = normalizeWord(level.themeWord)
-        const previous = seen.get(theme)
-        if (previous) duplicates.push(`${level.themeWord} : ${previous} et ${level.id}`)
-        seen.set(theme, level.id)
-      }
+    for (const level of levels) {
+      const theme = normalizeWord(level.themeWord)
+      const previous = seen.get(theme)
+      if (previous) duplicates.push(`${level.themeWord} : ${previous} et ${level.id}`)
+      seen.set(theme, level.id)
     }
     expect(duplicates).toEqual([])
   })

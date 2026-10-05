@@ -1,11 +1,12 @@
-import { isWon } from './engine'
+import { blockAt, isCellFilled, isIce, isWall, isWon, targetIndexAt } from './engine'
 import { PencilSprite } from './PencilSprite'
 import type { GameState } from './types'
 
 type Props = {
   state: GameState
-  cellSize?: number
 }
+
+const CELL_SIZE = 60
 
 const ICE_PATTERN =
   'repeating-linear-gradient(45deg, oklch(96% 0.03 230) 0 6px, oklch(89% 0.06 230) 6px 8px)'
@@ -14,21 +15,15 @@ const ICE_PATTERN_DARK =
 
 const WALL_PATTERN = 'linear-gradient(135deg, oklch(40% 0.02 260), oklch(30% 0.02 260))'
 
-export function Board({ state, cellSize = 60 }: Props) {
+export function Board({ state }: Props) {
   const { level, player, blocks } = state
   const won = isWon(state)
   const isIceLevel = level.ice.length > 0
 
-  const isWall = (x: number, y: number) => level.walls.some(([wx, wy]) => wx === x && wy === y)
-  const isIce = (x: number, y: number) => level.ice.some(([ix, iy]) => ix === x && iy === y)
-  const targetIndex = (x: number, y: number) =>
-    level.target.cells.findIndex(([tx, ty]) => tx === x && ty === y)
-  const blockAt = (x: number, y: number) => blocks.find((b) => b.pos[0] === x && b.pos[1] === y)
-
   const rows = Array.from({ length: level.height }, (_, y) => y)
   const cols = Array.from({ length: level.width }, (_, x) => x)
 
-  const blockSize = cellSize - 8
+  const blockSize = CELL_SIZE - 8
 
   return (
     <div
@@ -43,24 +38,24 @@ export function Board({ state, cellSize = 60 }: Props) {
       <div
         className="relative overflow-hidden rounded-xl"
         style={{
-          width: level.width * cellSize,
-          height: level.height * cellSize,
+          width: level.width * CELL_SIZE,
+          height: level.height * CELL_SIZE,
         }}
       >
         <div
           className="grid"
           style={{
-            gridTemplateColumns: `repeat(${level.width}, ${cellSize}px)`,
-            gridTemplateRows: `repeat(${level.height}, ${cellSize}px)`,
+            gridTemplateColumns: `repeat(${level.width}, ${CELL_SIZE}px)`,
+            gridTemplateRows: `repeat(${level.height}, ${CELL_SIZE}px)`,
           }}
           role="grid"
         >
           {rows.flatMap((y) =>
             cols.map((x) => {
-              const wall = isWall(x, y)
-              const ice = isIce(x, y)
-              const tIndex = targetIndex(x, y)
-              const block = blockAt(x, y)
+              const wall = isWall(level, [x, y])
+              const ice = isIce(level, [x, y])
+              const tIndex = targetIndexAt(level, [x, y])
+              const block = blockAt(blocks, [x, y])
 
               return (
                 <div
@@ -84,7 +79,7 @@ export function Board({ state, cellSize = 60 }: Props) {
                   {tIndex >= 0 && !block && (
                     <span
                       className="flex h-[78%] w-[78%] items-center justify-center rounded-md border-2 border-dashed border-amber-400/70 text-2xl font-bold text-amber-500/40 dark:border-amber-500/60 dark:text-amber-400/30"
-                      style={{ fontSize: cellSize * 0.5 }}
+                      style={{ fontSize: CELL_SIZE * 0.5 }}
                       aria-hidden="true"
                     >
                       {level.target.word[tIndex]}
@@ -105,13 +100,8 @@ export function Board({ state, cellSize = 60 }: Props) {
         `}</style>
 
         {blocks.map((b) => {
-          const targetIdx = level.target.cells.findIndex(
-            ([tx, ty]) => tx === b.pos[0] && ty === b.pos[1],
-          )
-          const onTarget = targetIdx >= 0
-          const onTargetCorrect =
-            won ||
-            (onTarget && level.target.word[targetIdx]?.toUpperCase() === b.letter.toUpperCase())
+          const targetIdx = targetIndexAt(level, b.pos)
+          const onTargetCorrect = won || (targetIdx >= 0 && isCellFilled(state, targetIdx))
           return (
             <div
               key={b.id}
@@ -123,8 +113,8 @@ export function Board({ state, cellSize = 60 }: Props) {
                 left: 0,
                 width: blockSize,
                 height: blockSize,
-                fontSize: cellSize * 0.5,
-                transform: `translate(${b.pos[0] * cellSize + 4}px, ${b.pos[1] * cellSize + 4}px)`,
+                fontSize: CELL_SIZE * 0.5,
+                transform: `translate(${b.pos[0] * CELL_SIZE + 4}px, ${b.pos[1] * CELL_SIZE + 4}px)`,
                 background: onTargetCorrect
                   ? 'linear-gradient(180deg, oklch(85% 0.16 145), oklch(68% 0.17 145))'
                   : 'linear-gradient(180deg, oklch(88% 0.13 80), oklch(73% 0.16 70))',
@@ -145,12 +135,12 @@ export function Board({ state, cellSize = 60 }: Props) {
           style={{
             top: 0,
             left: 0,
-            width: cellSize,
-            height: cellSize,
-            transform: `translate(${player[0] * cellSize}px, ${player[1] * cellSize}px)`,
+            width: CELL_SIZE,
+            height: CELL_SIZE,
+            transform: `translate(${player[0] * CELL_SIZE}px, ${player[1] * CELL_SIZE}px)`,
           }}
         >
-          <PencilSprite direction={state.lastDirection} size={cellSize * 0.95} />
+          <PencilSprite direction={state.lastDirection} size={CELL_SIZE * 0.95} />
         </div>
 
         {won && (

@@ -18,6 +18,9 @@ const LEVEL: Level = {
   ],
   clues: { '1,1': 2 },
   solutionWord: 'E',
+  solutionInsideCells: [[1, 1]],
+  parMoves: 4,
+  canonicalWord: 'e',
 }
 
 describe('boucle/Board', () => {

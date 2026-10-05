@@ -114,7 +114,7 @@ make start          # http://localhost:2222
 
 | Commande | Effet |
 |---|---|
-| `make check` | build + lint + typecheck + tests (avant chaque commit) |
+| `make check` | build + lint + code mort (knip) + typecheck + tests (avant chaque commit) |
 | `make test` | tests unitaires, de composants et d'intégrité des niveaux |
 | `make verify-levels` | vérifications lourdes : unicité de chaque niveau, générateurs sur un large échantillon de dates |
 | `make generate-levels` | régénère les défis quotidiens (à la demande uniquement) |
@@ -127,7 +127,8 @@ v4, Vitest et Testing Library.
 | Document | Contenu |
 |---|---|
 | [docs/new-games.md](docs/new-games.md) | Règles détaillées et génération de chaque jeu |
-| [docs/project-plan.md](docs/project-plan.md) | Architecture et plan d'ensemble |
+| [docs/project-plan.md](docs/project-plan.md) | Choix d'architecture et modèle de chaque moteur |
+| [docs/semantogramme-curation.md](docs/semantogramme-curation.md) | Curation et génération de Sémantogramme, corriger un mot |
 | [docs/existing-games.md](docs/existing-games.md) | Les jeux qui ont inspiré le projet |
 | [generators/README.md](generators/README.md) | Générateurs et dictionnaire |
 | [AGENTS.md](AGENTS.md) | Arborescence, conventions, commandes |

@@ -1,31 +1,17 @@
 import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MemoryRouter } from 'react-router'
 import { ChallengeListPage } from '~/components/ChallengeListPage'
-import { writeLevelProgress } from '~/lib/localStorage'
-import { levelKey } from '~/lib/useLocalProgress'
+import { findGame } from '~/lib/games-registry'
+import { levelKey, writeLevelProgress } from '~/lib/localStorage'
+
+/** Jour fixe dans le calendrier publié : les défis suivants sont masqués. */
+const TODAY = '2026-10-03'
 
 function renderPage(initialUrl = '/sokomot') {
-  // On utilise des dates qui existent dans le dataset commité — sinon
-  // `getLevelParMoves` retourne `undefined` partout et `LevelTile` n'a
-  // pas de quoi calculer un statut perfect/solved.
-  const dates = [
-    '2026-09-01',
-    '2026-09-15',
-    '2026-10-01',
-    '2026-10-02',
-    '2026-10-03', // = today (fourni par currentDate de la session)
-  ]
   render(
     <MemoryRouter initialEntries={[initialUrl]}>
-      <ChallengeListPage
-        gameId="sokomot"
-        title="Sokomot"
-        tagline="Pousse les lettres"
-        description="Description du jeu Sokomot."
-        dates={dates}
-      />
+      <ChallengeListPage gameId="sokomot" />
     </MemoryRouter>,
   )
 }
@@ -33,16 +19,27 @@ function renderPage(initialUrl = '/sokomot') {
 describe('ChallengeListPage', () => {
   beforeEach(() => {
     window.localStorage.clear()
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date(2026, 9, 3))
   })
   afterEach(() => {
+    vi.useRealTimers()
     window.localStorage.clear()
   })
 
-  it('affiche le titre, la tagline et la description', () => {
+  it('affiche le nom, la tagline et la description du jeu', () => {
     renderPage()
-    expect(screen.getByRole('heading', { name: 'Sokomot' })).toBeInTheDocument()
-    expect(screen.getByText('Pousse les lettres')).toBeInTheDocument()
-    expect(screen.getByText('Description du jeu Sokomot.')).toBeInTheDocument()
+    const game = findGame('sokomot')
+    expect(screen.getByRole('heading', { name: game.name })).toBeInTheDocument()
+    expect(screen.getByText(game.tagline)).toBeInTheDocument()
+    expect(screen.getByText(game.description)).toBeInTheDocument()
+  })
+
+  it('masque les défis à venir', () => {
+    renderPage('/sokomot?from=2026-10-02')
+    expect(
+      screen.queryAllByRole('link').some((a) => a.getAttribute('href')?.includes('2026-10-04')),
+    ).toBe(false)
   })
 
   it('affiche une section « Défi du jour » avec 4 niveaux', () => {
@@ -60,7 +57,7 @@ describe('ChallengeListPage', () => {
   })
 
   it('déverrouille le niveau 2 quand le niveau 1 est résolu', () => {
-    writeLevelProgress('sokomot', levelKey('2026-10-03', 1), { completed: true, bestMoves: 100 })
+    writeLevelProgress('sokomot', levelKey(TODAY, 1), { completed: true, bestMoves: 100 })
     renderPage()
     expect(screen.queryByLabelText(/Niveau 2 verrouillé/)).toBeNull()
   })
@@ -77,28 +74,6 @@ describe('ChallengeListPage', () => {
     expect(await screen.findByText(/mar\. 15/)).toBeInTheDocument()
   })
 
-  it('replie/déplie un mois au clic sur son entête', async () => {
-    const user = userEvent.setup()
-    renderPage()
-    // Plusieurs mois affichés, le plus récent (octobre 2026) ouvert par défaut.
-    const octoberHeader = screen.getByRole('button', { name: /octobre 2026/i })
-    expect(octoberHeader).toHaveAttribute('aria-expanded', 'true')
-    await user.click(octoberHeader)
-    expect(octoberHeader).toHaveAttribute('aria-expanded', 'false')
-  })
-
-  it('ouvre un seul mois à la fois (accordéon mutuellement exclusif)', async () => {
-    const user = userEvent.setup()
-    renderPage()
-    const octoberHeader = screen.getByRole('button', { name: /octobre 2026/i })
-    const septemberHeader = screen.getByRole('button', { name: /septembre 2026/i })
-    expect(octoberHeader).toHaveAttribute('aria-expanded', 'true')
-    expect(septemberHeader).toHaveAttribute('aria-expanded', 'false')
-    await user.click(septemberHeader)
-    expect(septemberHeader).toHaveAttribute('aria-expanded', 'true')
-    expect(octoberHeader).toHaveAttribute('aria-expanded', 'false')
-  })
-
   it("affiche les 4 tuiles de niveau pour chaque jour d'archive", () => {
     renderPage()
     // L'archive du mois en cours est ouverte par défaut. On cherche un lien
@@ -112,7 +87,7 @@ describe('ChallengeListPage', () => {
   it('couronne « perfect » au header du jour si tous les niveaux du jour sont parfaits', () => {
     // Marque les 4 niveaux comme perfect (bestMoves = 1 ≤ parMoves).
     for (const i of [1, 2, 3, 4]) {
-      writeLevelProgress('sokomot', levelKey('2026-10-03', i), {
+      writeLevelProgress('sokomot', levelKey(TODAY, i), {
         completed: true,
         bestMoves: 1,
       })

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { moveCellCursor } from '~/lib/cursor'
 
-describe('moveCellCursor', () => {
+describe('lib/cursor', () => {
   it('flèches déplacent le curseur dans les 4 directions', () => {
     const start = { x: 2, y: 2 }
     expect(moveCellCursor(start, 'left', 5, 5)).toEqual({ x: 1, y: 2 })

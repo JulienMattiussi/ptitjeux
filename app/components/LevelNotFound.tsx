@@ -7,8 +7,8 @@ type Props = {
 }
 
 /**
- * Page d'erreur quand l'URL pointe sur un niveau inexistant.
- * Identique pour les 3 jeux, paramétrée par la route de retour.
+ * Page d'erreur quand l'URL pointe sur un niveau inexistant, commune à tous
+ * les jeux, paramétrée par la route de retour.
  */
 export function LevelNotFound({ backHref }: Props) {
   return (

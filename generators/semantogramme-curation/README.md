@@ -1,6 +1,6 @@
-# Curation Sémantogramme (travail en cours)
+# Curation Sémantogramme
 
-Refonte des thèmes : 1580 thèmes (395 jours × 4 niveaux, du 2026-09-01 au 2027-09-30).
+1580 thèmes (395 jours × 4 niveaux, du 2026-09-01 au 2027-09-30).
 
 - `schedule.json` : calendrier, un thème par jour et par niveau, avec sa catégorie.
 - `domains.json` : domaines de sens (tous niveaux confondus) ; deux thèmes d'un même domaine sont espacés d'au moins 7 jours.
@@ -10,6 +10,6 @@ Refonte des thèmes : 1580 thèmes (395 jours × 4 niveaux, du 2026-09-01 au 202
   - `pairs` : couples `thème|mot` signalés à tort comme trahissant le thème (thé|menthe, vis|tournevis).
   - `banned` : couples `thème|mot` refusés (dérivés directs : chien|chiot, musique|musicien).
 
-Les règles automatiques vivent dans `generators/semantogramme-curation.ts` (source unique) et le test `tests/unit/semantogramme-curation.test.ts` vérifie tout le corpus à chaque `make test`. Elles ne couvrent pas le jugement (nom propre obscur, lien trop indirect), qui reste une relecture humaine.
+Les règles automatiques vivent dans `generators/semantogramme-curation.ts` (source unique) et le test `tests/unit/semantogramme.curation.test.ts` vérifie tout le corpus à chaque `make test`. Elles ne couvrent pas le jugement (nom propre obscur, lien trop indirect), qui reste une relecture humaine.
 
-Ces fichiers seront intégrés aux grilles une fois relus.
+Ces fichiers ont servi à produire les grilles publiées, qui sont figées : ne jamais régénérer l'année. Un mot se corrige localement, dans la curation et dans le JSON du niveau (voir « Corriger un mot » dans `docs/semantogramme-curation.md`).

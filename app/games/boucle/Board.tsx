@@ -1,5 +1,12 @@
 import { EdgeLine } from './EdgeLine'
-import { clueStatus, findInsideCells, isValidLoop } from './engine'
+import {
+  clueCell,
+  clueStatus,
+  findInsideCells,
+  isValidLoop,
+  sameEdge,
+  type ClueStatus,
+} from './engine'
 import type { Edge, GameState } from './types'
 
 type Props = {
@@ -9,32 +16,27 @@ type Props = {
   selected?: Edge
   /** Mise à jour de la sélection quand la souris passe sur une arête. */
   onHoverEdge?: (edge: Edge) => void
-  cellSize?: number
 }
 
+const CELL_SIZE = 64
 const PADDING = 18
 
-const CLUE_COLOR: Record<'ok' | 'over' | 'under', string> = {
+const CLUE_COLOR: Record<ClueStatus, string> = {
   ok: 'fill-emerald-600 dark:fill-emerald-400',
   over: 'fill-rose-600 dark:fill-rose-400',
   under: 'fill-gray-500 dark:fill-gray-400',
 }
 
-function isEdgeActive(edges: Edge[], target: Edge): boolean {
-  return edges.some(
-    (e) => e.orientation === target.orientation && e.x === target.x && e.y === target.y,
-  )
+const CLUE_BACKGROUND: Record<ClueStatus, string> = {
+  ok: 'fill-emerald-100 dark:fill-emerald-900/50',
+  over: 'fill-rose-100 dark:fill-rose-900/40',
+  under: 'fill-white/80 dark:fill-gray-800/80',
 }
 
-function isSameEdge(a: Edge | undefined, b: Edge): boolean {
-  if (!a) return false
-  return a.orientation === b.orientation && a.x === b.x && a.y === b.y
-}
-
-export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 64 }: Props) {
+export function Board({ state, onToggleEdge, selected, onHoverEdge }: Props) {
   const { level } = state
-  const width = level.width * cellSize + 2 * PADDING
-  const height = level.height * cellSize + 2 * PADDING
+  const width = level.width * CELL_SIZE + 2 * PADDING
+  const height = level.height * CELL_SIZE + 2 * PADDING
   const loopValid = isValidLoop(state.edges)
   const inside = loopValid ? findInsideCells(state.edges, level.width, level.height) : []
   const insideKeys = new Set(inside.map(([x, y]) => `${x},${y}`))
@@ -78,10 +80,10 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
             return (
               <rect
                 key={`inside-${cx}-${cy}`}
-                x={PADDING + cx * cellSize}
-                y={PADDING + cy * cellSize}
-                width={cellSize}
-                height={cellSize}
+                x={PADDING + cx * CELL_SIZE}
+                y={PADDING + cy * CELL_SIZE}
+                width={CELL_SIZE}
+                height={CELL_SIZE}
                 className="fill-emerald-200/60 dark:fill-emerald-700/30"
                 style={{ transition: 'opacity 0.3s ease-out' }}
               />
@@ -93,8 +95,8 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
           Array.from({ length: level.width }, (_, cx) => (
             <text
               key={`letter-${cx}-${cy}`}
-              x={PADDING + (cx + 0.5) * cellSize}
-              y={PADDING + (cy + 0.5) * cellSize}
+              x={PADDING + (cx + 0.5) * CELL_SIZE}
+              y={PADDING + (cy + 0.5) * CELL_SIZE}
               textAnchor="middle"
               dominantBaseline="central"
               className={`font-display font-bold transition-colors ${
@@ -102,7 +104,7 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
                   ? 'fill-emerald-800 dark:fill-emerald-100'
                   : 'fill-gray-700 dark:fill-gray-200'
               }`}
-              style={{ fontSize: cellSize * 0.42 }}
+              style={{ fontSize: CELL_SIZE * 0.42 }}
             >
               {level.letters[cy][cx]}
             </text>
@@ -110,31 +112,23 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
         )}
 
         {Object.entries(level.clues).map(([key, value]) => {
-          const [cxStr, cyStr] = key.split(',')
-          const cx = Number(cxStr)
-          const cy = Number(cyStr)
+          const [cx, cy] = clueCell(key)
           const status = clueStatus(state, cx, cy) ?? 'under'
           return (
             <g key={`clue-${key}`}>
               <circle
-                cx={PADDING + cx * cellSize + 11}
-                cy={PADDING + cy * cellSize + 11}
+                cx={PADDING + cx * CELL_SIZE + 11}
+                cy={PADDING + cy * CELL_SIZE + 11}
                 r={9}
-                className={
-                  status === 'ok'
-                    ? 'fill-emerald-100 dark:fill-emerald-900/50'
-                    : status === 'over'
-                      ? 'fill-rose-100 dark:fill-rose-900/40'
-                      : 'fill-white/80 dark:fill-gray-800/80'
-                }
+                className={CLUE_BACKGROUND[status]}
               />
               <text
-                x={PADDING + cx * cellSize + 11}
-                y={PADDING + cy * cellSize + 11}
+                x={PADDING + cx * CELL_SIZE + 11}
+                y={PADDING + cy * CELL_SIZE + 11}
                 textAnchor="middle"
                 dominantBaseline="central"
                 className={`font-bold ${CLUE_COLOR[status]}`}
-                style={{ fontSize: cellSize * 0.22 }}
+                style={{ fontSize: CELL_SIZE * 0.22 }}
               >
                 {value}
               </text>
@@ -146,8 +140,8 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
           Array.from({ length: level.width + 1 }, (_, i) => (
             <circle
               key={`vertex-${i}-${j}`}
-              cx={PADDING + i * cellSize}
-              cy={PADDING + j * cellSize}
+              cx={PADDING + i * CELL_SIZE}
+              cy={PADDING + j * CELL_SIZE}
               r={2}
               className="fill-gray-400/80 dark:fill-gray-600/80"
             />
@@ -158,12 +152,12 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
           <EdgeLine
             key={`h-${e.x}-${e.y}`}
             edge={e}
-            x1={PADDING + e.x * cellSize}
-            y1={PADDING + e.y * cellSize}
-            x2={PADDING + (e.x + 1) * cellSize}
-            y2={PADDING + e.y * cellSize}
-            active={isEdgeActive(state.edges, e)}
-            isSelected={isSameEdge(selected, e)}
+            x1={PADDING + e.x * CELL_SIZE}
+            y1={PADDING + e.y * CELL_SIZE}
+            x2={PADDING + (e.x + 1) * CELL_SIZE}
+            y2={PADDING + e.y * CELL_SIZE}
+            active={state.edges.some((a) => sameEdge(a, e))}
+            isSelected={!!selected && sameEdge(selected, e)}
             onToggle={onToggleEdge}
             onHover={onHoverEdge}
           />
@@ -173,12 +167,12 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge, cellSize = 6
           <EdgeLine
             key={`v-${e.x}-${e.y}`}
             edge={e}
-            x1={PADDING + e.x * cellSize}
-            y1={PADDING + e.y * cellSize}
-            x2={PADDING + e.x * cellSize}
-            y2={PADDING + (e.y + 1) * cellSize}
-            active={isEdgeActive(state.edges, e)}
-            isSelected={isSameEdge(selected, e)}
+            x1={PADDING + e.x * CELL_SIZE}
+            y1={PADDING + e.y * CELL_SIZE}
+            x2={PADDING + e.x * CELL_SIZE}
+            y2={PADDING + (e.y + 1) * CELL_SIZE}
+            active={state.edges.some((a) => sameEdge(a, e))}
+            isSelected={!!selected && sameEdge(selected, e)}
             onToggle={onToggleEdge}
             onHover={onHoverEdge}
           />

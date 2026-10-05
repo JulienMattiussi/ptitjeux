@@ -1,3 +1,7 @@
+import type { Direction } from '~/lib/cursor'
+
+export type { Direction }
+
 export type Coord = [number, number]
 
 export type Block = {
@@ -19,27 +23,18 @@ export type Level = {
     word: string
     cells: Coord[]
   }
-  parMoves?: number
+  parMoves: number
   /** Suite de coups qui résout le niveau. Lue par les tests d'intégrité et par l'aide. */
-  solution?: Direction[]
+  solution: Direction[]
   /** Forme canonique du mot cible (avec accents) pour la recherche Wiktionnaire. */
-  canonicalWord?: string
+  canonicalWord: string
 }
-
-export type Direction = 'up' | 'down' | 'left' | 'right'
 
 export type GameState = {
   level: Level
   player: Coord
   blocks: Block[]
   moves: number
-  history: GameSnapshot[]
-  /** Dernière direction tentée par le joueur — utilisée pour orienter le crayon. */
-  lastDirection: Direction
-}
-
-export type GameSnapshot = {
-  player: Coord
-  blocks: Block[]
+  /** Direction du dernier coup joué, qui oriente le crayon. */
   lastDirection: Direction
 }

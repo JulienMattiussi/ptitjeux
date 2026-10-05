@@ -1,4 +1,4 @@
-.PHONY: help install start build preview lint format format-check typecheck test test-watch test-coverage verify-levels fix check clean
+.PHONY: default help install start build preview lint knip format format-check typecheck test test-watch test-coverage verify-levels generate-levels fix check clean
 
 default: help
 
@@ -19,6 +19,9 @@ preview: build ## Prévisualiser le build de production
 
 lint: ## Vérifier le code avec ESLint
 	npm run lint
+
+knip: ## Détecter le code mort (fichiers, exports, dépendances inutilisés)
+	npm run knip
 
 format: ## Formater le code avec Prettier
 	npm run format
@@ -51,7 +54,7 @@ generate-levels: ## Régénérer les défis quotidiens. Args : ARGS="--start 202
 
 fix: format lint ## Formater et linter le code
 
-check: build lint typecheck test ## Lancer toutes les vérifications (build, lint, typecheck, tests)
+check: build lint knip typecheck test ## Lancer toutes les vérifications (build, lint, code mort, typecheck, tests)
 	@echo "Toutes les vérifications passent."
 
 clean: ## Supprimer les artefacts de build

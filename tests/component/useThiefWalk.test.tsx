@@ -6,13 +6,13 @@ describe('useThiefWalk', () => {
   beforeEach(() => vi.useFakeTimers())
   afterEach(() => vi.useRealTimers())
 
-  it('reste hors du couloir tant que la partie n est pas gagnée', () => {
+  it("reste hors du couloir tant que la partie n'est pas gagnée", () => {
     const { result } = renderHook(() => useThiefWalk(false, 3, 100))
     act(() => vi.advanceTimersByTime(1000))
     expect(result.current).toEqual({ step: -1, done: false })
   })
 
-  it('avance d une case par pas', () => {
+  it("avance d'une case par pas", () => {
     const { result } = renderHook(() => useThiefWalk(true, 3, 100))
     act(() => vi.advanceTimersByTime(200))
     expect(result.current).toEqual({ step: 1, done: false })

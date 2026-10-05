@@ -1,11 +1,9 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import { MemoryRouter } from 'react-router'
 import { ArchiveAccordion } from '~/components/ArchiveAccordion'
-import { writeLevelProgress } from '~/lib/localStorage'
-import type { GameProgress } from '~/lib/localStorage'
-import { levelKey } from '~/lib/useLocalProgress'
+import { levelKey, type GameProgress } from '~/lib/localStorage'
 
 function renderArchive(props: Partial<React.ComponentProps<typeof ArchiveAccordion>> = {}) {
   const defaults: React.ComponentProps<typeof ArchiveAccordion> = {
@@ -22,13 +20,6 @@ function renderArchive(props: Partial<React.ComponentProps<typeof ArchiveAccordi
 }
 
 describe('ArchiveAccordion', () => {
-  beforeEach(() => {
-    window.localStorage.clear()
-  })
-  afterEach(() => {
-    window.localStorage.clear()
-  })
-
   it("rend un message vide quand il n'y a aucune archive", () => {
     renderArchive({ dates: [] })
     expect(screen.getByText(/Aucun défi archivé/)).toBeInTheDocument()
@@ -115,11 +106,5 @@ describe('ArchiveAccordion', () => {
     renderArchive({ progress })
     const octoberHeader = screen.getByRole('button', { name: /octobre 2026/i })
     expect(octoberHeader.querySelector('span.bg-amber-500')).not.toBeNull()
-  })
-
-  it("ne sert pas writeLevelProgress (sanity check : pas d'effet de bord)", () => {
-    writeLevelProgress('sokomot', '2026-10-02-1', { completed: true })
-    renderArchive()
-    expect(screen.getByRole('button', { name: /octobre 2026/i })).toBeInTheDocument()
   })
 })

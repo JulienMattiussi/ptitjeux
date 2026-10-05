@@ -1,9 +1,22 @@
 import { useMemo } from 'react'
-import { ClueMark, DiamondMark, DoorMark, doorSide, MirrorMark, SIDE_VECTOR } from './BoardMarks'
-import { beamOutlines, computeVision, isPlaceable, key, unseenCells } from './engine'
+import type { CellCursor } from '~/lib/cursor'
+import { BoardCell, CELL, WALL_CLASS, type CellContent } from './BoardCell'
+import { DoorMark } from './BoardMarks'
+import {
+  beamOutlines,
+  computeVision,
+  DELTA,
+  doorSide,
+  isPlaceable,
+  key,
+  OPPOSITE,
+  samePos,
+  unseenCells,
+} from './engine'
 import { GuardSprite } from './GuardSprite'
 import { ThiefSprite } from './ThiefSprite'
 import type { Dir, GameState, Pos } from './types'
+import { THIEF_STEP_MS } from './useThiefWalk'
 
 type Props = {
   state: GameState
@@ -11,7 +24,7 @@ type Props = {
   onCellClick: (x: number, y: number) => void
   /** Clic droit : retire le vigile. */
   onCellRemove: (x: number, y: number) => void
-  selected?: { x: number; y: number }
+  selected?: CellCursor
   onHoverCell?: (x: number, y: number) => void
   /** Aide : couloir attendu, teinté sur le plateau. */
   expected?: Pos[]
@@ -23,18 +36,10 @@ type Props = {
   diamondTaken?: boolean
 }
 
-const CELL = 52
 /** Marge autour de la grille, où le cambrioleur attend devant l'entrée. */
 const MARGIN = 64
 /** Épaisseur du mur d'enceinte. */
 const WALL = 10
-/** Même teinte pour l'enceinte et les piliers : tout ce qui est mur. */
-const WALL_CLASS = 'fill-slate-300 dark:fill-slate-500'
-
-/** Direction qui entre dans la salle depuis chaque côté. */
-const INWARD: Record<Dir, Dir> = { N: 'S', S: 'N', W: 'E', E: 'W' }
-
-const DIR_LABEL: Record<Dir, string> = { N: 'le nord', E: "l'est", S: 'le sud', W: "l'ouest" }
 
 export function Board({
   state,
@@ -67,99 +72,33 @@ export function Board({
   for (let y = 0; y < level.height; y++) {
     for (let x = 0; x < level.width; x++) {
       const k = key(x, y)
-      const [ox, oy] = origin(x, y)
-      const cx = ox + CELL / 2
-      const cy = oy + CELL / 2
-      const handlers = {
-        onMouseEnter: () => onHoverCell?.(x, y),
-        onClick: () => onCellClick(x, y),
-        onContextMenu: (e: React.MouseEvent) => {
-          e.preventDefault()
-          onCellRemove(x, y)
-        },
-      }
-
-      if (pillars.has(k)) {
-        cells.push(
-          <g key={k} role="img" aria-label="Pilier" onMouseEnter={handlers.onMouseEnter}>
-            <rect x={ox} y={oy} width={CELL} height={CELL} className={WALL_CLASS} />
-          </g>,
-        )
-        continue
-      }
-
       const mirror = mirrors.get(k)
-      if (mirror) {
-        cells.push(
-          <g
-            key={k}
-            role="img"
-            aria-label={`Miroir ${mirror}`}
-            onMouseEnter={handlers.onMouseEnter}
-          >
-            <MirrorMark ox={ox} oy={oy} size={CELL} kind={mirror} lit={vision.litMirrors[k]} />
-          </g>,
-        )
-        continue
-      }
-
-      const seen = vision.seen[y][x]
-      const clue = level.clues[k]
-      const guard = guardByCell.get(k)
-      const isDoor = level.door[0] === x && level.door[1] === y
-      const isDiamond = level.diamond[0] === x && level.diamond[1] === y
-      const label = guard
-        ? `Vigile tourné vers ${DIR_LABEL[guard.facing]}`
-        : isDoor
-          ? "Case d'entrée"
-          : isDiamond
-            ? 'Diamant'
-            : clue !== undefined
-              ? `Indice : ${clue} vigile${clue > 1 ? 's' : ''} doivent éclairer cette case, ${seen} actuellement`
-              : seen > 0
-                ? `Case éclairée par ${seen} vigile${seen > 1 ? 's' : ''}`
-                : 'Case dans l’ombre'
-
+      const content: CellContent = pillars.has(k)
+        ? { kind: 'pillar' }
+        : mirror
+          ? { kind: 'mirror', mirror, lit: vision.litMirrors[k] }
+          : {
+              kind: 'floor',
+              seen: vision.seen[y][x],
+              clue: level.clues[k],
+              guard: guardByCell.get(k),
+              isDoor: samePos(level.door, x, y),
+              isDiamond: samePos(level.diamond, x, y),
+              diamondTaken,
+              unseen: unseen.has(k),
+              expected: expectedSet.has(k),
+            }
+      const [ox, oy] = origin(x, y)
       cells.push(
-        <g key={k} role="button" aria-label={label} className="cursor-pointer" {...handlers}>
-          <rect
-            x={ox + 1.5}
-            y={oy + 1.5}
-            width={CELL - 3}
-            height={CELL - 3}
-            rx={4}
-            className={`transition-colors duration-200 ${
-              guard
-                ? 'fill-amber-50 dark:fill-amber-800/60'
-                : seen > 0
-                  ? 'fill-amber-100 dark:fill-amber-700/60'
-                  : 'fill-slate-700 dark:fill-slate-900'
-            }`}
-          />
-          {expectedSet.has(k) && (
-            <rect
-              x={ox + 1.5}
-              y={oy + 1.5}
-              width={CELL - 3}
-              height={CELL - 3}
-              rx={4}
-              className="fill-fuchsia-500/35"
-            />
-          )}
-          {unseen.has(k) && !isDoor && !isDiamond && (
-            <rect
-              x={ox + 6}
-              y={oy + 6}
-              width={CELL - 12}
-              height={CELL - 12}
-              rx={4}
-              className="fill-none stroke-violet-400/70 dark:stroke-violet-600/70"
-              strokeDasharray="4 3"
-            />
-          )}
-          {isDiamond && !diamondTaken && <DiamondMark cx={cx} cy={cy} />}
-          {clue !== undefined && <ClueMark cx={cx} cy={cy} clue={clue} seen={seen} />}
-        </g>,
+        <BoardCell
+          key={k}
+          ox={ox}
+          oy={oy}
+          content={content}
+          onHover={() => onHoverCell?.(x, y)}
+          onClick={() => onCellClick(x, y)}
+          onRemove={() => onCellRemove(x, y)}
+        />,
       )
     }
   }
@@ -170,7 +109,7 @@ export function Board({
   const wait = CELL / 2 + WALL + 22
   const [thiefX, thiefY] = thief
     ? [origin(...thief)[0] + CELL / 2, origin(...thief)[1] + CELL / 2]
-    : [dx + CELL / 2 + SIDE_VECTOR[side][0] * wait, dy + CELL / 2 + SIDE_VECTOR[side][1] * wait]
+    : [dx + CELL / 2 + DELTA[side][0] * wait, dy + CELL / 2 + DELTA[side][1] * wait]
 
   return (
     <div className="rounded-2xl bg-linear-to-br from-violet-50 to-fuchsia-100 p-2 shadow-xl shadow-violet-200/30 dark:from-violet-950/50 dark:to-fuchsia-950/50 dark:shadow-fuchsia-900/30">
@@ -227,12 +166,12 @@ export function Board({
         <g
           style={{
             transform: `translate(${thiefX}px, ${thiefY}px)`,
-            transition: 'transform 140ms linear',
+            transition: `transform ${THIEF_STEP_MS}ms linear`,
           }}
           pointerEvents="none"
         >
           <g transform="scale(1.35)">
-            <ThiefSprite facing={thiefFacing ?? INWARD[side]} />
+            <ThiefSprite facing={thiefFacing ?? OPPOSITE[side]} />
           </g>
         </g>
         {selected && !thief && (

@@ -4,6 +4,13 @@ import { MemoryRouter, Route, Routes } from 'react-router'
 import SokomotPlayRoute from '~/routes/sokomot.$date.$index'
 import BouclePlayRoute from '~/routes/boucle.$date.$index'
 import SemantogrammePlayRoute from '~/routes/semantogramme.$date.$index'
+import AngleMortPlayRoute from '~/routes/anglemort.$date.$index'
+import Home from '~/routes/home'
+import SokomotIndex from '~/routes/sokomot'
+import BoucleIndex from '~/routes/boucle'
+import SemantogrammeIndex from '~/routes/semantogramme'
+import AngleMortIndex from '~/routes/anglemort'
+import { games } from '~/lib/games-registry'
 
 // Date qui existe dans le dataset commité — chaque jeu a 4 niveaux.
 const DATE = '2026-10-01'
@@ -25,8 +32,12 @@ describe('Routes de jeu — smoke', () => {
     // Empêche les requêtes Wiktionnaire en arrière-plan : on n'a rien à
     // tester côté définition ici, c'est couvert ailleurs.
     vi.spyOn(globalThis, 'fetch').mockImplementation(() => new Promise(() => {}))
+    // Les listes masquent les défis à venir : jour fixe dans le calendrier publié.
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date(2026, 9, 5))
   })
   afterEach(() => {
+    vi.useRealTimers()
     vi.restoreAllMocks()
     window.localStorage.clear()
   })
@@ -80,6 +91,42 @@ describe('Routes de jeu — smoke', () => {
     it("affiche LevelNotFound quand l'URL ne fournit pas d'index valide", () => {
       renderRoute('/semantogramme/:date/:index', `/semantogramme/${DATE}/0`, SemantogrammePlayRoute)
       expect(screen.getByRole('heading', { name: /introuvable/i })).toBeInTheDocument()
+    })
+  })
+
+  describe('anglemort.$date.$index', () => {
+    it('rend la page avec le titre, le compteur de poses et la réserve de vigiles', () => {
+      renderRoute('/anglemort/:date/:index', `/anglemort/${DATE}/1`, AngleMortPlayRoute)
+      expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(/Angle mort/)
+      expect(screen.getByText('Poses')).toBeInTheDocument()
+      expect(screen.getByText('Vigiles à placer')).toBeInTheDocument()
+    })
+
+    it('affiche LevelNotFound pour une date inexistante', () => {
+      renderRoute('/anglemort/:date/:index', `/anglemort/2099-01-01/1`, AngleMortPlayRoute)
+      expect(screen.getByRole('heading', { name: /introuvable/i })).toBeInTheDocument()
+    })
+  })
+
+  describe("page d'accueil", () => {
+    it('présente les quatre jeux', () => {
+      renderRoute('/', '/', Home)
+      for (const game of games) {
+        expect(screen.getByRole('heading', { name: game.name })).toBeInTheDocument()
+      }
+    })
+  })
+
+  describe('listes des niveaux', () => {
+    it.each([
+      ['sokomot', SokomotIndex],
+      ['boucle', BoucleIndex],
+      ['semantogramme', SemantogrammeIndex],
+      ['anglemort', AngleMortIndex],
+    ] as const)('/%s affiche le défi du jour et les archives', (id, Component) => {
+      renderRoute(`/${id}`, `/${id}`, Component)
+      expect(screen.getByRole('heading', { name: /Défi du jour/ })).toBeInTheDocument()
+      expect(screen.getByRole('heading', { name: 'Archives' })).toBeInTheDocument()
     })
   })
 })

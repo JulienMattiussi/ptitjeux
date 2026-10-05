@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { GAME_IDS } from '~/lib/game-styles'
 import { findGame, games } from '~/lib/games-registry'
 
 describe('lib/games-registry', () => {
@@ -21,13 +22,7 @@ describe('lib/games-registry', () => {
     }
   })
 
-  it('findGame trouve les jeux existants', () => {
-    expect(findGame('sokomot')?.id).toBe('sokomot')
-    expect(findGame('boucle')?.id).toBe('boucle')
-    expect(findGame('semantogramme')?.id).toBe('semantogramme')
-  })
-
-  it('findGame renvoie undefined pour un jeu inconnu', () => {
-    expect(findGame('inconnu')).toBeUndefined()
+  it.each(GAME_IDS)('findGame trouve %s', (id) => {
+    expect(findGame(id).id).toBe(id)
   })
 })

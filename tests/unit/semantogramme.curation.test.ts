@@ -130,7 +130,7 @@ describe('checkCuration', () => {
 })
 
 describe('neighbourIssues', () => {
-  it('voit, dans les deux sens, une collision avec un jour suivant', () => {
+  it('signale une collision une seule fois, depuis le thème le plus tardif', () => {
     const curation: Curation = {
       schedule: {
         '1': [
@@ -141,12 +141,12 @@ describe('neighbourIssues', () => {
         '3': [],
         '4': [],
       },
-      words: { '1|chat': [], '1|fleur': ['jardin'] },
+      words: { '1|chat': ['jardin'], '1|fleur': ['jardin'] },
       allowed: noException,
     }
     const index = buildIndex(curation)
     expect(neighbourIssues('jardin', '1|chat', index)).toEqual([])
-    expect(neighbourIssues('jardin', '1|chat', index, true)).toEqual(['déjà dans 1|fleur (1 j)'])
+    expect(neighbourIssues('jardin', '1|fleur', index)).toEqual(['déjà dans 1|chat (1 j)'])
   })
 })
 

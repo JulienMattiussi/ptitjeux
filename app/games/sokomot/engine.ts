@@ -1,4 +1,4 @@
-import type { Block, Coord, Direction, GameSnapshot, GameState, Level } from './types'
+import type { Block, Coord, Direction, GameState, Level } from './types'
 
 const DIRECTIONS: Record<Direction, Coord> = {
   up: [0, -1],
@@ -19,16 +19,21 @@ function inBounds(level: Level, [x, y]: Coord): boolean {
   return x >= 0 && y >= 0 && x < level.width && y < level.height
 }
 
-function isWall(level: Level, c: Coord): boolean {
+export function isWall(level: Level, c: Coord): boolean {
   return level.walls.some((w) => eq(w, c))
 }
 
-function isIce(level: Level, c: Coord): boolean {
+export function isIce(level: Level, c: Coord): boolean {
   return level.ice.some((i) => eq(i, c))
 }
 
-function blockAt(blocks: Block[], c: Coord): Block | undefined {
+export function blockAt(blocks: Block[], c: Coord): Block | undefined {
   return blocks.find((b) => eq(b.pos, c))
+}
+
+/** Rang de la case `c` dans le mot cible, -1 hors cible. */
+export function targetIndexAt(level: Level, c: Coord): number {
+  return level.target.cells.findIndex((t) => eq(t, c))
 }
 
 export function loadLevel(level: Level): GameState {
@@ -37,25 +42,13 @@ export function loadLevel(level: Level): GameState {
     player: level.player,
     blocks: level.blocks.map((b) => ({ ...b, pos: [...b.pos] as Coord })),
     moves: 0,
-    history: [],
     lastDirection: 'right',
   }
 }
 
-function snapshot(state: GameState): GameSnapshot {
-  return {
-    player: [...state.player] as Coord,
-    blocks: state.blocks.map((b) => ({ ...b, pos: [...b.pos] as Coord })),
-    lastDirection: state.lastDirection,
-  }
-}
-
 /**
- * Slide an entity from `from` toward `dir` until it hits an obstacle.
- * Used on ice. Returns the resting position.
- *
- * `predicateBlocking(c)` is called for each candidate destination ; it must
- * return true if the cell is blocked (wall, another block, out of bounds).
+ * Sur la glace, une entité glisse jusqu'au premier obstacle (`isBlocking`, ou
+ * bord de grille) ou jusqu'à la première case sans glace, où elle s'arrête.
  */
 function slideUntilBlocked(
   level: Level,
@@ -87,7 +80,6 @@ export function applyMove(state: GameState, direction: Direction): GameState {
   if (pushed) {
     const behind = add(pushed.pos, dir)
     if (!inBounds(level, behind) || isWall(level, behind) || blockAt(state.blocks, behind)) {
-      // Can't push.
       return state
     }
     let blockRest: Coord = behind
@@ -114,25 +106,11 @@ export function applyMove(state: GameState, direction: Direction): GameState {
     player: newPlayer,
     blocks: newBlocks,
     moves: state.moves + 1,
-    history: [...state.history, snapshot(state)],
     lastDirection: direction,
   }
 }
 
-export function undo(state: GameState): GameState {
-  if (state.history.length === 0) return state
-  const previous = state.history[state.history.length - 1]
-  return {
-    ...state,
-    player: previous.player,
-    blocks: previous.blocks,
-    moves: Math.max(0, state.moves - 1),
-    history: state.history.slice(0, -1),
-    lastDirection: previous.lastDirection,
-  }
-}
-
-export function reset(state: GameState): GameState {
+function reset(state: GameState): GameState {
   return loadLevel(state.level)
 }
 
@@ -142,7 +120,8 @@ export function isWon(state: GameState): boolean {
   return target.cells.every((_, index) => isCellFilled(state, index))
 }
 
-function isCellFilled(state: GameState, index: number): boolean {
+/** La case cible n° `index` porte la bonne lettre. */
+export function isCellFilled(state: GameState, index: number): boolean {
   const block = blockAt(state.blocks, state.level.target.cells[index])
   return block?.letter.toUpperCase() === state.level.target.word[index].toUpperCase()
 }
@@ -150,11 +129,9 @@ function isCellFilled(state: GameState, index: number): boolean {
 /**
  * Rang de placement (1 = première posée) de chaque lettre du mot cible, dans
  * l'ordre de la solution enregistrée : une lettre compte comme posée au dernier
- * coup qui l'amène sur sa case, puisqu'elle n'en bouge plus ensuite. Vide si
- * le niveau n'a pas de solution.
+ * coup qui l'amène sur sa case, puisqu'elle n'en bouge plus ensuite.
  */
 export function placementOrder(level: Level): number[] {
-  if (!level.solution) return []
   const placedAt = level.target.cells.map(() => -1)
   let state = loadLevel(level)
   level.solution.forEach((direction, step) => {
@@ -170,14 +147,12 @@ export function placementOrder(level: Level): number[] {
   return ranks
 }
 
-export type Action = { type: 'move'; direction: Direction } | { type: 'undo' } | { type: 'reset' }
+export type Action = { type: 'move'; direction: Direction } | { type: 'reset' }
 
 export function reducer(state: GameState, action: Action): GameState {
   switch (action.type) {
     case 'move':
       return applyMove(state, action.direction)
-    case 'undo':
-      return undo(state)
     case 'reset':
       return reset(state)
   }

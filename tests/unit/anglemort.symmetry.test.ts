@@ -20,6 +20,7 @@ const level: Level = {
   diamond: [1, 1],
   clues: {},
   pool: { simple: 1, angle: 1, oppose: 0 },
+  parMoves: 2,
   solution: [
     { pos: [3, 0], type: 'simple', facing: 'W' },
     { pos: [2, 1], type: 'angle', facing: 'E' },
@@ -49,8 +50,8 @@ describe('anglemort : symétries', () => {
     expect(new Set(keys).size).toBe(8)
   })
 
-  it('une symétrie conserve l éclairage total et le nombre de solutions', () => {
-    const base = solveAngleMort(level, { exactPool: true, limit: 10, maxNodes: 100_000 })
+  it("une symétrie conserve l'éclairage total et le nombre de solutions", () => {
+    const base = solveAngleMort(level, { limit: 10, maxNodes: 100_000 })
     for (const v of VARIANTS) {
       const t = transformLevel(level, v)
       const lit = (l: Level) =>
@@ -58,9 +59,9 @@ describe('anglemort : symétries', () => {
           .seen.flat()
           .reduce((a, b) => a + b, 0)
       expect(lit(t)).toBe(lit(level))
-      expect(
-        solveAngleMort(t, { exactPool: true, limit: 10, maxNodes: 100_000 }).solutions,
-      ).toHaveLength(base.solutions.length)
+      expect(solveAngleMort(t, { limit: 10, maxNodes: 100_000 }).solutions).toHaveLength(
+        base.solutions.length,
+      )
     }
   })
 })

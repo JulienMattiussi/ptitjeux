@@ -1,43 +1,33 @@
 import { describe, expect, it } from 'vitest'
-import { applyMove, isWon as sokomotIsWon, loadLevel as sokomotLoad } from '~/games/sokomot/engine'
-import {
-  areCluesSatisfied,
-  isValidLoop,
-  isWon as boucleIsWon,
-  loadLevel as boucleLoad,
-  toggleEdge,
-} from '~/games/boucle/engine'
-import {
-  isGridSolved,
-  isWon as semanIsWon,
-  loadLevel as semanLoad,
-  setCellStatus,
-  setThemeGuess,
-} from '~/games/semantogramme/engine'
-import type { Coord, Edge } from '~/games/boucle/types'
-import { generateSokomotLevel } from '../../generators/sokomot'
-import { generateAngleMortLevel } from '../../generators/anglemort'
-import { isWon as anglemortIsWon } from '~/games/anglemort/engine'
+import { isWon as anglemortIsWon, loadLevel as anglemortLoad } from '~/games/anglemort/engine'
+import { areCluesSatisfied, isValidLoop, isWon as boucleIsWon } from '~/games/boucle/engine'
+import { isGridSolved, isWon as semanIsWon, setThemeGuess } from '~/games/semantogramme/engine'
+import { isWon as sokomotIsWon } from '~/games/sokomot/engine'
+import { LEVEL_INDICES, type LevelIndex } from '~/games/types'
 import { GAME_SIZE } from '~/lib/game-styles'
+import { generateAngleMortLevel } from '../../generators/anglemort'
 import { generateBoucleLevel } from '../../generators/boucle'
 import { generateSemantogrammeLevel } from '../../generators/semantogramme'
 import { loadCuration } from '../../generators/semantogramme-curation'
+import { generateSokomotLevel } from '../../generators/sokomot'
+import { playExpectedLoop } from '../helpers/boucle'
+import { applySolution, cluesOf } from '../helpers/semantogramme'
+import { replaySolution } from '../helpers/sokomot'
 
 /**
- * Tests « heavy » qui appellent les 3 générateurs sur un large échantillon
- * de dates pour détecter les régressions silencieuses : niveau impossible,
- * solution invalide, dépassement de parMoves, contraintes structurelles
- * cassées (ligne sans IN, perimeter…).
+ * Les 4 générateurs rejoués sur un large échantillon de dates, pour détecter
+ * les régressions silencieuses : niveau impossible, solution invalide,
+ * dépassement de parMoves, contraintes structurelles cassées (ligne sans case
+ * thème, périmètre…).
  *
  * Complète les tests d'intégrité (`<jeu>.levels.test.ts`) qui ne couvrent
- * que les niveaux **commités**. Ici on appelle directement les générateurs
- * sur des dates additionnelles, ce qui attrape les régressions du
- * générateur avant le prochain `make generate-levels`.
+ * que les niveaux **publiés** : ici, les générateurs tournent sur d'autres
+ * dates, ce qui attrape leurs régressions avant le prochain
+ * `make generate-levels`.
  */
 
-// 24 dates couvrant : 1er du mois (souvent un seed différent), bornes
-// d'année bissextile (2024-02-29 hors plage commitée → bonne couverture),
-// premiers et milieux de mois sur plusieurs mois.
+// 24 dates hors du calendrier publié pour la plupart : premiers, milieux et
+// fins de mois, sur deux années.
 const SAMPLE_DATES = [
   '2025-01-01',
   '2025-02-28',
@@ -65,62 +55,47 @@ const SAMPLE_DATES = [
   '2026-12-31',
 ]
 
-const INDICES = [1, 2, 3, 4] as const
-
-/** Niveaux Angle mort dont le générateur est finalisé (on durcit niveau par niveau). */
-const ANGLEMORT_READY = [1] as const
-
-function insideCellsToBoundary(cells: Coord[]): Edge[] {
-  const set = new Set(cells.map(([x, y]) => `${x},${y}`))
-  const isIn = (x: number, y: number) => set.has(`${x},${y}`)
-  const out: Edge[] = []
-  for (const [cx, cy] of cells) {
-    if (!isIn(cx, cy - 1)) out.push({ x: cx, y: cy, orientation: 'horizontal' })
-    if (!isIn(cx, cy + 1)) out.push({ x: cx, y: cy + 1, orientation: 'horizontal' })
-    if (!isIn(cx - 1, cy)) out.push({ x: cx, y: cy, orientation: 'vertical' })
-    if (!isIn(cx + 1, cy)) out.push({ x: cx + 1, y: cy, orientation: 'vertical' })
-  }
-  return out
+/**
+ * Angle mort : chaque date tire une grille de base différente. Le niveau 3
+ * coûte deux à trois minutes de solveur par grille : on n'en rejoue que deux.
+ */
+const ANGLEMORT_SAMPLES: Record<LevelIndex, readonly string[]> = {
+  1: SAMPLE_DATES,
+  2: SAMPLE_DATES,
+  3: SAMPLE_DATES.slice(0, 2),
+  4: SAMPLE_DATES,
 }
 
 describe('générateurs : robustesse sur un large échantillon de dates', () => {
   describe('anglemort', () => {
-    it.each(SAMPLE_DATES)('date %s : niveaux finalisés gagnants et bien formés', (date) => {
-      for (const idx of ANGLEMORT_READY) {
-        const level = generateAngleMortLevel(date, idx)
-        const { width, height } = GAME_SIZE.anglemort(idx)
-        // Les versions tournées d'une quart de tour sont en portrait.
-        expect([level.width, level.height].sort(), `${date}/${idx} taille`).toEqual(
-          [width, height].sort(),
-        )
-        const state = { level, guards: level.solution, moves: level.solution.length }
-        expect(anglemortIsWon(state), `${date}/${idx} non gagnant`).toBe(true)
-        expect(level.solution.length, `${date}/${idx} dépasse parMoves`).toBe(level.parMoves)
-      }
+    const cases = LEVEL_INDICES.flatMap((idx) =>
+      ANGLEMORT_SAMPLES[idx].map((date) => [date, idx] as const),
+    )
+    it.each(cases)('date %s, niveau %s : gagnant et bien formé', (date, idx) => {
+      const level = generateAngleMortLevel(date, idx)
+      const { width, height } = GAME_SIZE.anglemort(idx)
+      // Les versions tournées d'un quart de tour sont en portrait.
+      expect([level.width, level.height].sort(), 'taille').toEqual([width, height].sort())
+      const state = { ...anglemortLoad(level), guards: level.solution }
+      expect(anglemortIsWon(state), 'non gagnant').toBe(true)
+      expect(level.solution.length, 'parMoves').toBe(level.parMoves)
     })
   })
 
   describe('boucle', () => {
     it.each(SAMPLE_DATES)('date %s : 4 niveaux résolubles et bien formés', (date) => {
-      for (const idx of INDICES) {
+      for (const idx of LEVEL_INDICES) {
         const level = generateBoucleLevel(date, idx)
-        expect(level.width, `${date}/${idx} width`).toBe(3 + idx)
-        expect(level.height, `${date}/${idx} height`).toBe(3 + idx)
-        expect(level.solutionWord.length, `${date}/${idx} word length`).toBe(level.height)
-        expect(level.solutionInsideCells, `${date}/${idx} sans cells`).toBeDefined()
+        expect({ width: level.width, height: level.height }, `${date}/${idx}`).toEqual(
+          GAME_SIZE.boucle(idx),
+        )
+        expect(level.solutionWord.length, `${date}/${idx} longueur du mot`).toBe(level.width)
 
-        const edges = insideCellsToBoundary(level.solutionInsideCells!)
-        let state = boucleLoad(level)
-        for (const e of edges) state = toggleEdge(state, e)
+        const { state, edges } = playExpectedLoop(level)
         expect(isValidLoop(state.edges), `${date}/${idx} boucle invalide`).toBe(true)
         expect(areCluesSatisfied(state), `${date}/${idx} indices KO`).toBe(true)
         expect(boucleIsWon(state), `${date}/${idx} non gagnant`).toBe(true)
-
-        if (level.parMoves !== undefined) {
-          expect(edges.length, `${date}/${idx} solution dépasse parMoves`).toBeLessThanOrEqual(
-            level.parMoves,
-          )
-        }
+        expect(edges.length, `${date}/${idx} dépasse parMoves`).toBeLessThanOrEqual(level.parMoves)
       }
     })
   })
@@ -132,70 +107,38 @@ describe('générateurs : robustesse sur un large échantillon de dates', () => 
       .filter((_, i) => i % 17 === 0)
 
     it.each(SEMANTOGRAMME_SAMPLE)('date %s : 4 niveaux résolubles et bien formés', (date) => {
-      for (const idx of INDICES) {
+      for (const idx of LEVEL_INDICES) {
         const level = generateSemantogrammeLevel(date, idx)
-        expect(level.width, `${date}/${idx} width`).toBe(3 + idx)
-        expect(level.height, `${date}/${idx} height`).toBe(3 + idx)
-
-        // Cohérence rowClues / colClues.
-        for (let y = 0; y < level.height; y++) {
-          const expected = level.solution[y].filter(Boolean).length
-          expect(level.rowClues[y], `${date}/${idx} rowClue[${y}]`).toBe(expected)
+        expect({ width: level.width, height: level.height }, `${date}/${idx}`).toEqual(
+          GAME_SIZE.semantogramme(idx),
+        )
+        const clues = cluesOf(level.solution)
+        expect(clues, `${date}/${idx} indices`).toEqual({
+          rowClues: level.rowClues,
+          colClues: level.colClues,
+        })
+        for (const n of [...clues.rowClues, ...clues.colClues]) {
+          expect(n > 0 && n < level.width, `${date}/${idx} ligne ou colonne uniforme`).toBe(true)
         }
-        for (let x = 0; x < level.width; x++) {
-          let count = 0
-          for (let y = 0; y < level.height; y++) if (level.solution[y][x]) count++
-          expect(level.colClues[x], `${date}/${idx} colClue[${x}]`).toBe(count)
-        }
-
-        // Au moins un IN par ligne et par colonne, au moins un OUT par ligne.
-        for (let y = 0; y < level.height; y++) {
-          expect(level.solution[y].some(Boolean), `${date}/${idx} ligne ${y} sans IN`).toBe(true)
-          expect(level.rowClues[y], `${date}/${idx} ligne ${y} pleine`).toBeLessThan(level.width)
-        }
-        for (let x = 0; x < level.width; x++) {
-          let any = false
-          for (let y = 0; y < level.height; y++) if (level.solution[y][x]) any = true
-          expect(any, `${date}/${idx} colonne ${x} sans IN`).toBe(true)
-        }
-
-        // Résoluble en appliquant la solution.
-        let state = semanLoad(level)
-        for (let y = 0; y < level.height; y++) {
-          for (let x = 0; x < level.width; x++) {
-            state = setCellStatus(state, x, y, level.solution[y][x] ? 'in' : 'out')
-          }
-        }
+        const state = applySolution(level)
         expect(isGridSolved(state), `${date}/${idx} grille non résolue`).toBe(true)
-        state = setThemeGuess(state, level.themeWord)
-        expect(semanIsWon(state), `${date}/${idx} pas gagnant`).toBe(true)
+        expect(semanIsWon(setThemeGuess(state, level.themeWord)), `${date}/${idx}`).toBe(true)
       }
     })
   })
 
   describe('sokomot', () => {
-    // Le solver A* tourne pendant la génération (lent surtout pour L3/L4).
-    // On échantillonne donc 6 dates × 4 niveaux ≈ 1-2 min — suffisant pour
-    // attraper les bugs de générateur sans bloquer trop la CI.
+    // Les solveurs tournent pendant la génération (lents surtout pour L3/L4) :
+    // 6 dates × 4 niveaux suffisent à attraper les bugs du générateur.
     const SOKOMOT_SAMPLE = SAMPLE_DATES.slice(0, 6)
 
     it.each(SOKOMOT_SAMPLE)(
       'date %s : 4 niveaux générés avec solution valide',
       (date) => {
-        for (const idx of INDICES) {
+        for (const idx of LEVEL_INDICES) {
           const level = generateSokomotLevel(date, idx)
-          expect(level.solution, `${date}/${idx} sans solution`).toBeDefined()
-
-          let state = sokomotLoad(level)
-          for (const move of level.solution!) state = applyMove(state, move)
-          expect(sokomotIsWon(state), `${date}/${idx} non résolu`).toBe(true)
-
-          if (level.parMoves !== undefined) {
-            expect(
-              level.solution!.length,
-              `${date}/${idx} solution dépasse parMoves`,
-            ).toBeLessThanOrEqual(level.parMoves)
-          }
+          expect(sokomotIsWon(replaySolution(level)), `${date}/${idx} non résolu`).toBe(true)
+          expect(level.solution.length, `${date}/${idx} parMoves`).toBe(level.parMoves)
         }
       },
       120_000,

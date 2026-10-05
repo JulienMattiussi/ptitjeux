@@ -13,11 +13,6 @@ describe('useHint', () => {
     expect(result.current.available).toBe(true)
   })
 
-  it("n'est jamais proposée sans objectif", () => {
-    const { result } = renderHook(() => useHint(1000, undefined))
-    expect(result.current.available).toBe(false)
-  })
-
   it('reste proposée quand les coups redescendent (annuler, recommencer)', () => {
     const { result, rerender } = renderHook(({ moves }) => useHint(moves, 5), {
       initialProps: { moves: 11 },

@@ -4,7 +4,7 @@ import type { GameId } from './game-styles'
 import { findGame } from './games-registry'
 
 /** Adresse publique du site : base des URL canoniques et des aperçus de partage. */
-export const SITE_URL = 'https://ptitjeux.yavadeus.dev'
+const SITE_URL = 'https://ptitjeux.yavadeus.dev'
 export const SITE_NAME = "P'titjeux"
 
 /** Aperçu de partage : capture de l'accueil, au format paysage des réseaux sociaux. */
@@ -46,15 +46,9 @@ export function pageMeta({
   ]
 }
 
-function gameOf(gameId: GameId) {
-  const game = findGame(gameId)
-  if (!game) throw new Error(`Jeu inconnu : ${gameId}`)
-  return game
-}
-
 /** Page « liste des niveaux » d'un jeu. */
 export function gameListMeta(gameId: GameId): MetaDescriptor[] {
-  const game = gameOf(gameId)
+  const game = findGame(gameId)
   return pageMeta({
     title: `${game.name} : ${game.tagline.replace(/\.$/, '')} | ${SITE_NAME}`,
     description: game.description,
@@ -68,7 +62,7 @@ export function gameListMeta(gameId: GameId): MetaDescriptor[] {
  * liste des niveaux du jeu est la page à référencer.
  */
 export function gamePlayMeta(gameId: GameId, date = '', index = ''): MetaDescriptor[] {
-  const game = gameOf(gameId)
+  const game = findGame(gameId)
   const day = /^\d{4}-\d{2}-\d{2}$/.test(date) ? dateLabel(date) : date
   return pageMeta({
     title: `${game.name} · ${day} · niveau ${index} | ${SITE_NAME}`,

@@ -1,3 +1,5 @@
+import { stripAccents } from '~/lib/text'
+
 /**
  * Règles de variété des grilles Sémantogramme, partagées par le générateur
  * et les tests d'intégrité.
@@ -5,10 +7,7 @@
 
 /** Forme de comparaison : sans accents, en minuscules. */
 export function normalizeWord(word: string): string {
-  return word
-    .normalize('NFD')
-    .replace(/\p{Diacritic}/gu, '')
-    .toLowerCase()
+  return stripAccents(word).toLowerCase()
 }
 
 /**

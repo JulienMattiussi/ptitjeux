@@ -1,16 +1,14 @@
 import { Link } from 'react-router'
 import { CheckMark } from './CheckMark'
 import { ChevronRight, LockIcon } from './icons'
-import { THUMBNAILS } from './Thumbnails'
+import { THUMBNAILS } from '~/games/thumbnails'
 import type { CompletionStatus } from '~/lib/completion'
-import { GAME_ACCENT, type GameId } from '~/lib/game-styles'
+import { GAME_ACCENT, GAME_SIZE, type GameId } from '~/lib/game-styles'
 
 type Props = {
   gameId: GameId
   date: string
   index: number
-  width: number
-  height: number
   locked: boolean
   /** Statut de complétion : non résolu / résolu / parfait (objectif respecté). */
   status: CompletionStatus
@@ -18,20 +16,11 @@ type Props = {
   variant?: 'daily' | 'archive'
 }
 
-export function LevelTile({
-  gameId,
-  date,
-  index,
-  width,
-  height,
-  locked,
-  status,
-  variant = 'daily',
-}: Props) {
+export function LevelTile({ gameId, date, index, locked, status, variant = 'daily' }: Props) {
   const c = GAME_ACCENT[gameId]
+  const { width, height } = GAME_SIZE[gameId](index)
+  const Thumbnail = THUMBNAILS[gameId]
   const compact = variant === 'archive'
-  const completed = status !== 'unsolved'
-  const checkVariant = status === 'perfect' ? 'perfect' : 'solved'
 
   const sizeBadgeBase = `font-display font-extrabold tracking-tight rounded-full border-2 bg-white/95 backdrop-blur dark:bg-gray-900/95 ${c.badgeBorder} ${c.text}`
   const sizeBadgeClass = compact
@@ -51,23 +40,20 @@ export function LevelTile({
           <span className="text-xs font-medium uppercase tracking-wider text-gray-500 dark:text-gray-400">
             Niveau {index}
           </span>
-          {completed && <CheckMark size="sm" variant={checkVariant} />}
+          {status !== 'unsolved' && <CheckMark size="sm" variant={status} />}
         </div>
       )}
 
       <div className="relative aspect-3/2 overflow-hidden rounded-md bg-gray-100 dark:bg-gray-950">
-        {(() => {
-          const Thumbnail = THUMBNAILS[gameId]
-          return <Thumbnail className="h-full w-full opacity-80" />
-        })()}
+        <Thumbnail className="h-full w-full opacity-80" />
         <div className="absolute inset-0 flex items-center justify-center">
           <span className={sizeBadgeClass}>
             {width} × {height}
           </span>
         </div>
-        {compact && completed && (
+        {compact && status !== 'unsolved' && (
           <div className="absolute right-1.5 top-1.5">
-            <CheckMark size="sm" variant={checkVariant} />
+            <CheckMark size="sm" variant={status} />
           </div>
         )}
         {locked && (

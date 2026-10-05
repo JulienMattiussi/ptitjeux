@@ -7,10 +7,6 @@ describe('lib/completion — completionStatus', () => {
     expect(completionStatus({ completed: false, lastPlayedAt: '' }, 10)).toBe('unsolved')
   })
 
-  it('solved si terminé sans parMoves connu', () => {
-    expect(completionStatus({ completed: true, lastPlayedAt: '' }, undefined)).toBe('solved')
-  })
-
   it('solved si terminé sans bestMoves', () => {
     expect(completionStatus({ completed: true, lastPlayedAt: '' }, 10)).toBe('solved')
   })
@@ -59,9 +55,5 @@ describe('lib/completion — victoryVariant', () => {
 
   it('solved si moves > parMoves', () => {
     expect(victoryVariant(12, 10)).toBe('solved')
-  })
-
-  it('perfect si parMoves est undefined', () => {
-    expect(victoryVariant(99, undefined)).toBe('perfect')
   })
 })

@@ -2,14 +2,13 @@ import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 import { MemoryRouter } from 'react-router'
 import { LevelTile } from '~/components/LevelTile'
+import { GAME_IDS } from '~/lib/game-styles'
 
 function renderTile(overrides: Partial<React.ComponentProps<typeof LevelTile>> = {}) {
   const props: React.ComponentProps<typeof LevelTile> = {
     gameId: 'sokomot',
     date: '2026-05-08',
     index: 1,
-    width: 7,
-    height: 6,
     locked: false,
     status: 'unsolved',
     ...overrides,
@@ -61,23 +60,8 @@ describe('LevelTile', () => {
     expect(screen.queryByText('Rejouer')).toBeNull()
   })
 
-  it('génère le bon href pour chaque jeu', () => {
-    for (const gameId of ['sokomot', 'boucle', 'semantogramme'] as const) {
-      const { unmount } = render(
-        <MemoryRouter>
-          <LevelTile
-            gameId={gameId}
-            date="2026-05-08"
-            index={2}
-            width={5}
-            height={5}
-            locked={false}
-            status="unsolved"
-          />
-        </MemoryRouter>,
-      )
-      expect(screen.getByRole('link')).toHaveAttribute('href', `/${gameId}/2026-05-08/2`)
-      unmount()
-    }
+  it.each(GAME_IDS)('génère le bon href pour %s', (gameId) => {
+    renderTile({ gameId, index: 2 })
+    expect(screen.getByRole('link')).toHaveAttribute('href', `/${gameId}/2026-05-08/2`)
   })
 })

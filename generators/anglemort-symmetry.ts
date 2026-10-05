@@ -4,21 +4,16 @@
  * éclairage, solutions (donc l'unicité). Les quarts de tour échangent largeur
  * et hauteur (versions portrait).
  */
-import { DIRS, guardDirs } from '~/games/anglemort/engine'
-import type { Dir, Guard, GuardType, Level, MirrorKind, Pos } from '~/games/anglemort/types'
+import { CLOCKWISE, FACINGS, guardDirs } from '~/games/anglemort/engine'
+import type { Dir, Guard, Level, MirrorKind, Pos } from '~/games/anglemort/types'
+import { parseKey } from './anglemort-grid'
 
 /** 0..7 : `variant % 4` quarts de tour horaires, précédés d'un miroir gauche-droite si `variant >= 4`. */
 export type Variant = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
 
 export const VARIANTS: readonly Variant[] = [0, 1, 2, 3, 4, 5, 6, 7]
 
-const CLOCKWISE: Record<Dir, Dir> = { N: 'E', E: 'S', S: 'W', W: 'N' }
 const FLIP: Record<Dir, Dir> = { N: 'N', S: 'S', E: 'W', W: 'E' }
-const FACINGS: Record<GuardType, readonly Dir[]> = {
-  simple: DIRS,
-  angle: DIRS,
-  oppose: ['N', 'E'],
-}
 
 type Transform = {
   pos: (p: Pos) => Pos
@@ -87,7 +82,7 @@ export function transformLevel(level: Level, variant: Variant): Level {
     diamond: t.pos(level.diamond),
     clues: Object.fromEntries(
       Object.entries(level.clues).map(([k, v]) => {
-        const [x, y] = t.pos(k.split(',').map(Number) as Pos)
+        const [x, y] = t.pos(parseKey(k))
         return [`${x},${y}`, v]
       }),
     ),

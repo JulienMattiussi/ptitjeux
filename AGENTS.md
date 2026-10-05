@@ -3,7 +3,7 @@
 ## Description du projet
 
 Plateforme web de mini-jeux logico-spatiaux, **full front-end**, sans backend.
-Les niveaux sont des fichiers JSON statiques chargés par les routes du framework.
+Les niveaux sont des fichiers JSON statiques, embarqués au build (`import.meta.glob`).
 La progression locale est stockée dans `localStorage`.
 
 Quatre jeux :
@@ -27,7 +27,7 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 | Prettier | Formatage |
 | ESLint flat config (typescript-eslint) | Linting |
 
-> Note : React Router 7 est l'évolution officielle de Remix v2 (fusion en 2025). On utilise le mode "Framework" qui fournit `loader`, routing par fichier, types générés.
+> Note : React Router 7 est l'évolution officielle de Remix v2 (fusion en 2025). On utilise le mode "Framework" : routes déclarées dans `app/routes.ts`, SSR, types générés (`+types`).
 
 ## Règles impératives
 
@@ -41,11 +41,11 @@ Voir [docs/new-games.md](docs/new-games.md) pour les spécifications détaillée
 **Tout niveau livré (Sokomot, Boucle, Sémantogramme, Angle mort) doit avoir un test d'intégrité dans `tests/unit/<jeu>.levels.test.ts` qui prouve sa résolubilité.**
 
 - **Sokomot** : encoder une séquence de coups (`Direction[]`) qui résout le niveau. Le test rejoue les coups et vérifie `isWon()`. Le test vérifie aussi que `moves.length ≤ parMoves`. Aucun mot ne sert deux fois sur l'ensemble des niveaux (même mécanisme que Boucle).
-- **Boucle** : encoder la boucle attendue (typiquement via un helper `rectangleEdges` ou la liste explicite des arêtes), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`. Aucun mot ne sert deux fois sur l'ensemble des niveaux : le générateur exclut les mots déjà publiés (`usedWords`, fourni par `scripts/generate-levels.ts`).
-- **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`. Le même test vérifie les règles de variété : mots d'un jour tous différents et différents des thèmes du jour (règle 2), aucun mot commun avec les deux jours précédents (règle 3), pas deux mots de la même famille dans une grille (règle 4), thèmes tous distincts. La curation (`generators/semantogramme-curation/`) a son propre test sur tout le corpus (`tests/unit/semantogramme-curation.test.ts`), règles dans `generators/semantogramme-curation.ts` ; voir [docs/semantogramme-curation.md](docs/semantogramme-curation.md). **Ne jamais régénérer l'année Sémantogramme** : les grilles publiées sont relues et jouées. Un mot à corriger se corrige localement, dans la curation et dans le JSON du niveau (procédure dans [docs/semantogramme-curation.md](docs/semantogramme-curation.md)).
-- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis prouver que le **couloir est unique** (`generators/anglemort-corridors.ts` : couloirs compatibles avec les indices, chaque concurrent déclaré impossible par le solveur). Plusieurs poses peuvent produire ce couloir, c'est voulu. Le test parcourt tous les niveaux présents (`getChallenge`), sans map à tenir à jour. Chaque grille de base sert 8 fois (symétries, qui conservent l'unicité) : `make test` prouve l'unicité sur chaque grille d'origine, `make verify-levels` sur tous les niveaux. La preuve dispose d'un budget de solveur plus large que la génération (`PROOF_NODES` contre `RIVAL_NODES`, dans `generators/anglemort.ts`) : une variante tournée peut demander plus de calcul que sa grille d'origine. Au niveau 4, la génération n'appelle jamais le solveur (trop lent avec les miroirs) : elle ajoute des indices jusqu'à ce qu'un seul couloir soit possible par la forme, la preuve est donc immédiate. Certaines grilles de base sont fixées (`FIXED_BASES`) : la génération relit leur fichier au lieu de les recalculer (la grille d'essai `2026-10-04-4.json` en base 33, et 5 bases gardées telles qu'avant le plafond de piliers).
+- **Boucle** : reconstruire la boucle attendue à partir de `solutionInsideCells` (son contour), la jouer, vérifier `isValidLoop`, `areCluesSatisfied`, `getInsideWord` et `isWon`. Aucun mot ne sert deux fois sur l'ensemble des niveaux : le générateur exclut les mots déjà publiés (`usedWords`, fourni par `scripts/generate-levels.ts`).
+- **Sémantogramme** : vérifier que `rowClues` et `colClues` correspondent au comptage de la matrice `solution`, puis appliquer la solution et le `themeWord` et vérifier `isWon`. Le même test vérifie les règles de variété : mots d'un jour tous différents et différents des thèmes du jour (règle 2), aucun mot commun avec les deux jours précédents (règle 3), pas deux mots de la même famille dans une grille (règle 4), thèmes tous distincts. La curation (`generators/semantogramme-curation/`) a son propre test sur tout le corpus (`tests/unit/semantogramme.curation.test.ts`), règles dans `generators/semantogramme-curation.ts` ; voir [docs/semantogramme-curation.md](docs/semantogramme-curation.md). **Ne jamais régénérer l'année Sémantogramme** : les grilles publiées sont relues et jouées. Un mot à corriger se corrige localement, dans la curation et dans le JSON du niveau (procédure dans [docs/semantogramme-curation.md](docs/semantogramme-curation.md)).
+- **Angle mort** : rejouer la `solution` pose par pose (pose puis rotations), vérifier `isWon` et `moves ≤ parMoves`, puis prouver que le **couloir est unique** (`generators/anglemort-corridors.ts` : couloirs compatibles avec les indices, chaque concurrent déclaré impossible par le solveur). Plusieurs poses peuvent produire ce couloir, c'est voulu. Le test parcourt tous les niveaux présents (`committedLevels`, `tests/helpers/levels.ts`), sans map à tenir à jour. Chaque grille de base sert 8 fois (symétries, qui conservent l'unicité) : `make test` prouve l'unicité sur chaque grille d'origine, `make verify-levels` sur tous les niveaux. La preuve dispose d'un budget de solveur plus large que la génération (budget par défaut d'`isCorridorUnique` dans `generators/anglemort-corridors.ts`, contre `RIVAL_NODES` dans `generators/anglemort-clues.ts`) : une variante tournée peut demander plus de calcul que sa grille d'origine. Au niveau 4, la génération n'appelle jamais le solveur (trop lent avec les miroirs) : elle ajoute des indices jusqu'à ce qu'un seul couloir soit possible par la forme, la preuve est donc immédiate. Certaines grilles de base sont fixées (`FIXED_BASES`, `generators/anglemort-schedule.ts`) : la génération relit leur fichier au lieu de les recalculer (la grille d'essai `2026-10-04-4.json` en base 33, et 5 bases gardées telles qu'avant le plafond de piliers), et `--clean` ne les supprime jamais (`scripts/level-files.ts`).
 
-**Ajouter un niveau sans son entrée dans le fichier de tests d'intégrité fait échouer le test concerné** (par construction : la map `SOLUTIONS` ou `LEVEL_IDS` doit être mise à jour). C'est intentionnel et bloquant.
+**Les tests d'intégrité parcourent tous les niveaux présents** (`getAllDates`) : un niveau ajouté est vérifié d'office, et un niveau dont la solution enregistrée ne résout pas la grille fait échouer le test. C'est intentionnel et bloquant.
 
 Cette règle empêche de livrer un puzzle qu'on n'a pas su résoudre soi-même, et empêche les régressions dans le moteur (un changement de logique fait immédiatement tomber les tests d'intégrité des niveaux).
 
@@ -64,22 +64,28 @@ app/
 ├── app.css                        # Tailwind + variables globales
 ├── routes/
 │   ├── home.tsx                   # /  — liste des jeux
-│   ├── <jeu>.tsx                  # /<jeu> — sélecteur de niveau
-│   └── <jeu>.$date.$index.tsx     # /<jeu>/:date/:index — partie
-├── games/<jeu>/
-│   ├── engine.ts                  # Logique pure, zéro React
-│   ├── types.ts
-│   ├── Board.tsx                  # Rendu SVG/DOM de la grille
-│   └── challenges/
-│       ├── index.ts               # Wrapper mince autour de buildChallengeIndex
-│       └── <YYYY-MM>/             # JSON des niveaux
+│   ├── <jeu>.tsx                  # /<jeu> : liste des niveaux (ChallengeListPage)
+│   └── <jeu>.$date.$index.tsx     # /<jeu>/:date/:index : partie
+├── games/
+│   ├── index.ts                   # Accès commun aux niveaux de tous les jeux (dates, statuts du jour)
+│   ├── types.ts                   # LevelIndex, LEVEL_INDICES
+│   ├── thumbnails.ts              # Miniature de chaque jeu (accueil, tuiles)
+│   └── <jeu>/
+│       ├── engine.ts              # Logique pure, zéro React
+│       ├── types.ts
+│       ├── Board.tsx              # Rendu SVG/DOM de la grille
+│       ├── Thumbnail.tsx          # Mini-illustration du jeu
+│       └── challenges/
+│           ├── index.ts           # Wrapper mince autour de buildChallengeIndex
+│           └── <YYYY-MM>/         # JSON des niveaux
 ├── components/                    # Composants partagés (jamais spécifiques à un jeu)
 └── lib/                           # Utilitaires, hooks, source de vérité partagée
 
-generators/                        # Build-time uniquement, jamais bundlé
+generators/                        # Build-time uniquement, jamais bundlé (modules décrits dans generators/README.md)
 scripts/                           # Scripts CLI (génération de niveaux)
 tests/
 ├── setup.ts                       # @testing-library/jest-dom matchers
+├── helpers/                       # Rejeu des solutions, partagé par les tests d'intégrité et lourds
 ├── unit/                          # Logique pure : moteurs, lib, generators, niveaux
 ├── component/                     # Rendu RTL : composants et hooks
 └── levels/                        # Vérifications lourdes (make verify-levels) : unicité, générateurs en masse
@@ -90,19 +96,17 @@ tests/
 Séparation **moteur / rendu** stricte :
 
 ```ts
-// app/games/<jeu>/engine.ts — logique pure, testable sans DOM
-export type Level = { /* JSON parsé */ }
-export type GameState = { /* état courant */ }
-export type Move = { /* action joueur */ }
-
+// app/games/<jeu>/engine.ts : logique pure, testable sans DOM
 export function loadLevel(level: Level): GameState
-export function applyMove(state: GameState, move: Move): GameState
+export function toggleEdge(state: GameState, edge: Edge): GameState // transitions propres au jeu
+export type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }
+export function reducer(state: GameState, action: Action): GameState
 export function isWon(state: GameState): boolean
 ```
 
 - Aucun import React dans `engine.ts`.
 - Toutes les transitions sont **immutables** (retournent un nouveau `GameState`).
-- L'historique des coups est dans `state.history` (pour l'undo).
+- L'annulation ne vit pas dans les moteurs : chaque page enveloppe le `reducer` avec `withUndo` (`app/lib/undoable.ts`), qui garde la pile des états précédents.
 - Le composant React n'est qu'une projection visuelle de l'état.
 
 ## Qualité de code
@@ -113,22 +117,33 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 
 | Pattern | Source unique |
 |---|---|
-| Couleurs/accents par jeu | `app/lib/game-styles.ts` (`GAME_ACCENT`, `GAME_SIZE`, `isIceLevel`) |
-| Catalogue des jeux | `app/lib/games-registry.ts` |
+| Couleurs/accents et tailles par jeu | `app/lib/game-styles.ts` (`GameId`, `GAME_IDS`, `GAME_ACCENT`, `GAME_SIZE`) |
+| Catalogue des jeux | `app/lib/games-registry.ts` (`games`, `findGame`) |
 | Chargement des niveaux JSON | `app/lib/challenges-loader.ts` (`buildChallengeIndex`) |
+| Niveaux de n'importe quel jeu (dates, statuts d'un jour) | `app/games/index.ts` (`getGameDates`, `lastAvailableDate`, `dayStatuses`) |
+| Index des niveaux d'un jour | `app/games/types.ts` (`LevelIndex`, `LEVEL_INDICES`) |
+| Miniature de chaque jeu | `app/games/thumbnails.ts` (`THUMBNAILS`) |
+| Page « liste des niveaux » | `app/components/ChallengeListPage.tsx` (+ `ArchiveAccordion`, `LevelTile`) |
+| Cadre d'une page de partie | `app/components/GameLayout.tsx`, `GameFrame.tsx`, `PlaySidebar.tsx`, `HelpBox.tsx` |
 | Clavier dans une page de jeu | `app/lib/useGameKeyboard.ts` (flèches + ZQSD/WASD + Espace/Entrée + Ctrl+Z + R + Échap) |
 | Clavier hors des pages de jeu | `app/lib/useGridNavigation.ts` + `app/lib/spatialFocus.ts` (attribut `data-nav-item`) |
-| Cycle de vie d'une partie | `app/lib/useLevelPlayLifecycle.ts` (isToday, dateChip, nextHref, écriture progression) |
-| Lecture progression | `app/lib/useLocalProgress.ts` + `app/lib/localStorage.ts` |
-| Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`, `victoryVariant`) |
-| Curseur de case (clavier) | `app/lib/cursor.ts` (`moveCellCursor`) |
+| Niveau désigné par l'URL | `app/lib/useLevelPlayLifecycle.ts` (`useLevelParams`) |
+| Cycle de vie d'une partie | `app/lib/useLevelPlayLifecycle.ts` (titre, retour, niveau suivant, variante de victoire, enregistrement du meilleur score) |
+| Progression | `app/lib/localStorage.ts` (`levelKey`, `recordWin`) + `app/lib/useLocalProgress.ts` |
+| Statuts de complétion | `app/lib/completion.ts` (`unsolved` / `solved` / `perfect`, `SolvedStatus`, `victoryVariant`) |
+| Modale de victoire | `app/components/VictoryOverlay.tsx` + `app/components/ParObjective.tsx` (« Objectif N atteint ») |
+| Coches de complétion | `app/components/CheckMark.tsx` |
+| Direction et curseur de case (clavier) | `app/lib/cursor.ts` (`Direction`, `CellCursor`, `moveCellCursor`) |
+| Accents et pluriels | `app/lib/text.ts` (`stripAccents`, `plural`) |
+| Dates (format, libellés français, drapeaux de dev) | `app/lib/dates.ts` |
+| Balises SEO et de partage | `app/lib/seo.ts` (`pageMeta`, `gameListMeta`, `gamePlayMeta`) |
 | Ref toujours à jour | `app/lib/useLatestRef.ts` |
 | Page « niveau introuvable » | `app/components/LevelNotFound.tsx` |
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |
 | Compteur de coups + objectif (sidebar) | `app/components/MovesCard.tsx` (extras du jeu en `children`) |
 | Boutons Annuler (Ctrl+Z) / Recommencer (R) | `app/components/PlayControls.tsx` |
 | Aide « Coincé ? » (au-delà de 2 × `parMoves`) | `app/lib/useHint.ts` + `app/components/HintButton.tsx` (prop `hint` de `MovesCard`) |
-| Annulation pour un moteur sans historique | `app/lib/undoable.ts` (`withUndo`, `undoable`) |
+| Annulation (tous les jeux) | `app/lib/undoable.ts` (`withUndo`, `undoable`) |
 
 Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas déjà** un équivalent dans `lib/` ou `components/`. Avant de copier-coller du code entre 2 routes/jeux, **extraire** dans `lib/`.
 
@@ -156,7 +171,8 @@ Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas dé
 
 - Composants React : `PascalCase.tsx`.
 - Modules de logique et hooks : `camelCase.ts` (`useGameKeyboard.ts`, `wiktionary.ts`).
-- Tests unitaires : `tests/unit/<sujet>.test.ts`. Tests de composants : `tests/component/<Sujet>.test.tsx`.
+- Tests unitaires : `tests/unit/<préfixe>.<module>.test.ts`, avec le préfixe `<jeu>` pour le code d'un jeu (`boucle.engine`, `anglemort.corridors`), `lib` pour `app/lib`, `generators` pour un module commun des générateurs, `games` pour ce qui concerne tous les jeux.
+- Tests de composants et de hooks : `tests/component/<Composant>.test.tsx` ou `<useHook>.test.tsx` ; `<Jeu>Board` pour le plateau d'un jeu ; `routes.<sujet>.test.tsx` pour les routes.
 - `~/*` est l'alias de `app/*` (configuré dans `tsconfig.json` ET `vitest.config.ts`).
 
 ## Tests
@@ -188,7 +204,8 @@ Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas dé
 make test            # tous les tests une fois
 make test-watch      # mode watch
 make test-coverage   # rapport coverage v8
-make check           # build + lint + typecheck + test (pré-commit complet)
+make knip            # code mort : fichiers, exports, dépendances inutilisés
+make check           # build + lint + knip + typecheck + test (pré-commit complet)
 make verify-levels   # vérifications lourdes des niveaux, après chaque make generate-levels
 ```
 
@@ -200,10 +217,10 @@ Toute interaction de jeu doit être faisable **sans souris**. Convention partag�
 
 | Touche | Action |
 |---|---|
-| Flèches **↑↓←→**, **ZQSD** (AZERTY) ou **WASD** (QWERTY) | Déplacer le curseur (Boucle, Sémantogramme) ou le joueur (Sokomot) |
+| Flèches **↑↓←→**, **ZQSD** (AZERTY) ou **WASD** (QWERTY) | Déplacer le curseur (Boucle, Sémantogramme, Angle mort) ou le joueur (Sokomot) |
 | **Espace** ou **Entrée** | Action principale (toggle arête, cycle case, etc.). Si le jeu fournit `onSecondaryAction`, Entrée la déclenche et seul Espace reste l'action principale (Angle mort : Espace pose ou retire, Entrée fait pivoter). |
 | **Ctrl+Z** / **Cmd+Z** | Annuler le dernier coup (tous les jeux) |
-| **R** | Recommencer le niveau (tous les jeux) |
+| **R** | Recommencer le niveau (tous les jeux ; Ctrl+R reste le rechargement du navigateur) |
 | **Échap** | Quitter la partie, retour à la liste des niveaux (tous les jeux) |
 | **1**, **2**, **3** | Choisir le type de vigile à poser (Angle mort, dès que le lot mélange plusieurs types). Lus aussi par position physique (`event.code`) : sur AZERTY, la rangée des chiffres produit `&`, `é`, `"` sans Majuscule. |
 
@@ -249,6 +266,8 @@ Trois états (`app/lib/completion.ts`) avec sémantique stricte :
 
 La modale de victoire et les checkmarks reflètent ce statut : variante `perfect` célèbre fort (🎉, gradient vert), `solved` félicite plus discrètement (👍, gradient ambre).
 
+Le statut d'un niveau se calcule sur le **meilleur** score (`recordWin`) : rejouer un niveau parfait en plus de coups ne le fait pas repasser en ambre.
+
 ### Couleurs d'accent par jeu
 
 Source unique : `app/lib/game-styles.ts`.
@@ -283,7 +302,7 @@ Quand le joueur dépasse le double de `parMoves` (`HINT_PAR_FACTOR` dans `app/li
 ### Mot du jour et définitions
 
 - Tout niveau à mots a un **mot cible** (Sokomot/Boucle) ou un **thème** (Sémantogramme). Angle mort n'a pas de mot.
-- Un même jour, deux jeux ne font jamais chercher le même mot (`tests/unit/daily-words.test.ts`) : `scripts/generate-levels.ts` exclut les mots déjà publiés par les autres jeux à cette date. Les thèmes Sémantogramme étant fixés par la curation, une collision se règle en régénérant le niveau de l'autre jeu.
+- Un même jour, deux jeux ne font jamais chercher le même mot (`tests/unit/games.daily-words.test.ts`) : `scripts/generate-levels.ts` exclut les mots déjà publiés par les autres jeux à cette date. Les thèmes Sémantogramme étant fixés par la curation, une collision se règle en régénérant le niveau de l'autre jeu.
 - À l'arrivée sur la page de jeu, on **précharge** la définition Wiktionnaire (`prefetchDefinition`) pour qu'elle soit instantanée à la victoire.
 - Le mot envoyé au Wiktionnaire est `level.canonicalWord ?? level.target.word` — préserve les **accents** (le display est ASCII pour la grille, le canonical avec accents pour l'API).
 - Endpoint utilisé : **`fr.wiktionary.org/w/api.php`** (action=query, prop=extracts). Le REST `/api/rest_v1/page/definition` ne marche **pas** sur le Wiktionnaire FR (501).
@@ -317,22 +336,27 @@ Quand le joueur dépasse le double de `parMoves` (`HINT_PAR_FACTOR` dans `app/li
 
 ## Pattern critique — remount par `key`
 
-Les pages `<jeu>.$date.$index.tsx` exposent un **wrapper** qui force un remount complet via `key={`${date}-${index}`}` à chaque changement d'URL :
+Les pages `<jeu>.$date.$index.tsx` exposent un **wrapper** qui lit le niveau dans l'URL, affiche `LevelNotFound` s'il n'existe pas, et sinon force un remount complet via `key` à chaque changement de niveau :
 
 ```tsx
 export default function SokomotPlayRoute() {
-  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
-  return <SokomotPlay key={`${date}-${index}`} />
+  const { date, idx, level } = useLevelParams(getLevel)
+  if (!level) return <LevelNotFound backHref="/sokomot" />
+  return <SokomotPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
 }
 ```
 
-Sans ce wrapper, le `useReducer` interne garde l'état du niveau précédent quand l'utilisateur passe au niveau suivant via le bouton « Suivant ». **Ne pas retirer ce pattern.**
+Sans ce wrapper, le `useReducer` interne garde l'état du niveau précédent quand l'utilisateur passe au niveau suivant via le bouton « Suivant ». Il garantit aussi à la partie un niveau toujours défini. **Ne pas retirer ce pattern.**
 
 ## SSR-safe localStorage
 
 - `app/lib/localStorage.ts` détecte `typeof window` avant tout accès — appel safe pendant le rendu serveur.
 - `useLocalProgress` lit le localStorage **dans un `useEffect`** (pas pendant le render) et écoute l'événement `storage` pour la sync cross-onglets.
 - Si le localStorage est indisponible (mode privé, quota plein), les écritures échouent silencieusement.
+
+## Drapeaux de dev
+
+Dans `.env.local` (non versionné) : `VITE_SHOW_FUTURE_DAYS=1` montre les défis à venir dans les archives, `VITE_FREEZE_TODAY=last-available` fige « aujourd'hui » sur le dernier défi publié (`app/lib/dates.ts`). Les tests les ignorent (`envDir: false` dans `vitest.config.ts`) pour ne pas dépendre de la machine.
 
 ## Commandes
 
@@ -345,7 +369,8 @@ Sans ce wrapper, le `useReducer` interne garde l'état du niveau précédent qua
 | `make test-coverage` | Tests + rapport de couverture v8 |
 | `make typecheck` | Vérifier les types TypeScript |
 | `make fix` | Formater (Prettier) + linter (ESLint) |
-| `make check` | Toutes les vérifications (build + lint + typecheck + test) |
+| `make knip` | Code mort : fichiers, exports et dépendances inutilisés (`knip.json`) |
+| `make check` | Toutes les vérifications (build + lint + knip + typecheck + test) |
 | `make verify-levels` | Vérifications lourdes des niveaux (`tests/levels/`, config `vitest.levels.config.ts`) : unicité du couloir de chaque niveau d'Angle mort, générateurs rejoués sur un large échantillon de dates. À lancer après chaque `make generate-levels`. |
 | `make generate-levels` | **(Manuel uniquement)** Régénérer les défis quotidiens |
 

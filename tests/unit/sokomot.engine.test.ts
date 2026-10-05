@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { applyMove, isWon, loadLevel, placementOrder, undo } from '~/games/sokomot/engine'
+import { applyMove, isWon, loadLevel, placementOrder, reducer } from '~/games/sokomot/engine'
 import type { Level } from '~/games/sokomot/types'
 
 function makeLevel(overrides: Partial<Level> = {}): Level {
@@ -13,6 +13,9 @@ function makeLevel(overrides: Partial<Level> = {}): Level {
     ice: [],
     blocks: [{ id: 'b1', letter: 'A', pos: [2, 1] }],
     target: { word: 'A', cells: [[3, 1]] },
+    parMoves: 2,
+    solution: ['right', 'right'],
+    canonicalWord: 'a',
     ...overrides,
   }
 }
@@ -26,27 +29,14 @@ describe('sokomot engine', () => {
     expect(state.lastDirection).toBe('right')
   })
 
-  it('met à jour lastDirection à chaque coup réussi', () => {
-    let state = loadLevel(makeLevel())
-    state = applyMove(state, 'right')
-    expect(state.lastDirection).toBe('right')
-    // Niveau au-delà du mur : le coup est refusé, lastDirection ne change pas
-    const blockedLevel = makeLevel({ player: [0, 1], walls: [[1, 1]] })
-    let blocked = loadLevel(blockedLevel)
-    blocked = applyMove(blocked, 'right')
-    expect(blocked.lastDirection).toBe('right') // inchangé car bloqué
+  it('oriente le crayon dans la direction du coup joué', () => {
+    const state = applyMove(loadLevel(makeLevel()), 'down')
+    expect(state.lastDirection).toBe('down')
   })
 
-  it('undo restaure aussi lastDirection', () => {
-    let state = loadLevel(makeLevel())
-    state = applyMove(state, 'right') // lastDirection: right
-    const beforeUp = state
-    // Tenter up depuis (1,1) : sort des bornes (haut), donc bloqué — pas de changement
-    // Faisons plutôt un coup à droite confirmé puis undo
-    state = applyMove(state, 'right')
-    // après undo, lastDirection redevient ce qu'il était à l'état précédent
-    state = undo(state)
-    expect(state).toEqual(beforeUp)
+  it("garde l'orientation quand le coup est bloqué", () => {
+    const down = applyMove(loadLevel(makeLevel({ walls: [[1, 2]] })), 'down')
+    expect(applyMove(down, 'right').lastDirection).toBe('down')
   })
 
   it('déplace le joueur dans une direction libre', () => {
@@ -94,12 +84,9 @@ describe('sokomot engine', () => {
     expect(isWon(next)).toBe(true)
   })
 
-  it('annule le dernier coup avec undo', () => {
-    const state = loadLevel(makeLevel())
-    const moved = applyMove(state, 'right')
-    const back = undo(moved)
-    expect(back.player).toEqual(state.player)
-    expect(back.moves).toBe(0)
+  it('reset revient au niveau de départ', () => {
+    const moved = applyMove(loadLevel(makeLevel()), 'right')
+    expect(reducer(moved, { type: 'reset' })).toEqual(loadLevel(makeLevel()))
   })
 
   it('détecte la victoire', () => {
@@ -136,9 +123,5 @@ describe('sokomot placementOrder', () => {
 
   it('donne à chaque lettre son rang de pose dans la solution', () => {
     expect(placementOrder(twoBlocks)).toEqual([2, 1])
-  })
-
-  it('renvoie une liste vide sans solution enregistrée', () => {
-    expect(placementOrder(makeLevel())).toEqual([])
   })
 })

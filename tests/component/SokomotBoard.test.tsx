@@ -17,6 +17,8 @@ const LEVEL: Level = {
   blocks: [{ id: 'a', letter: 'A', pos: [1, 1] }],
   target: { word: 'A', cells: [[3, 1]] },
   parMoves: 2,
+  solution: ['right', 'right'],
+  canonicalWord: 'a',
 }
 
 describe('sokomot/Board', () => {
@@ -36,14 +38,14 @@ describe('sokomot/Board', () => {
   it('rend le crayon (player) avec une orientation par défaut « right »', () => {
     const state = loadLevel(LEVEL)
     render(<Board state={state} />)
-    expect(screen.getByRole('img', { name: /Crayon orienté right/i })).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /Crayon tourné vers la droite/i })).toBeInTheDocument()
   })
 
   it("met à jour l'orientation du crayon après un déplacement", () => {
     let state = loadLevel(LEVEL)
     state = applyMove(state, 'down')
     render(<Board state={state} />)
-    expect(screen.getByRole('img', { name: /Crayon orienté down/i })).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /Crayon tourné vers le bas/i })).toBeInTheDocument()
   })
 
   it('rend autant de gridcell que de cases (width × height)', () => {

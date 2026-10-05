@@ -1,10 +1,11 @@
+import type { Direction } from '~/lib/cursor'
 import type { Coord, Edge, GameState, Level } from './types'
 
 export function loadLevel(level: Level): GameState {
   return { level, edges: [], moves: 0 }
 }
 
-export function reset(state: GameState): GameState {
+function reset(state: GameState): GameState {
   return loadLevel(state.level)
 }
 
@@ -24,7 +25,7 @@ export function reset(state: GameState): GameState {
  */
 export function moveEdgeSelection(
   current: Edge,
-  arrow: 'up' | 'down' | 'left' | 'right',
+  arrow: Direction,
   width: number,
   height: number,
 ): Edge {
@@ -67,7 +68,7 @@ function edgeKey(e: Edge): string {
   return `${e.orientation}:${e.x},${e.y}`
 }
 
-function sameEdge(a: Edge, b: Edge): boolean {
+export function sameEdge(a: Edge, b: Edge): boolean {
   return a.x === b.x && a.y === b.y && a.orientation === b.orientation
 }
 
@@ -158,25 +159,30 @@ export function isValidLoop(edges: Edge[]): boolean {
   return visited.size === degree.size
 }
 
-/**
- * Vérifie que tous les indices sont satisfaits :
- * pour chaque case avec un indice, le nombre d'arêtes utilisées correspond.
- */
-export function areCluesSatisfied(state: GameState): boolean {
-  for (const [key, expected] of Object.entries(state.level.clues)) {
-    const [cxStr, cyStr] = key.split(',')
-    const count = countEdgesAroundCell(state, Number(cxStr), Number(cyStr))
-    if (count !== expected) return false
-  }
-  return true
+/** Case `[x, y]` d'une clé d'indice `"x,y"`. */
+export function clueCell(key: string): Coord {
+  const [x, y] = key.split(',').map(Number)
+  return [x, y]
 }
 
-/**
- * Renvoie l'état de chaque indice : satisfait, dépassé ou non encore atteint.
- * Utile pour l'UI (couleur des indices).
- */
+/** Nombre d'indices actuellement satisfaits (progression « x / y » de l'UI). */
+export function countSatisfiedClues(state: GameState): number {
+  return Object.entries(state.level.clues).filter(
+    ([key, expected]) => countEdgesAroundCell(state, ...clueCell(key)) === expected,
+  ).length
+}
+
+export function countClues(state: GameState): number {
+  return Object.keys(state.level.clues).length
+}
+
+export function areCluesSatisfied(state: GameState): boolean {
+  return countSatisfiedClues(state) === countClues(state)
+}
+
 export type ClueStatus = 'ok' | 'over' | 'under'
 
+/** État d'un indice (satisfait, dépassé, pas encore atteint), `null` sans indice. */
 export function clueStatus(state: GameState, cx: number, cy: number): ClueStatus | null {
   const expected = state.level.clues[`${cx},${cy}`]
   if (expected === undefined) return null
@@ -266,23 +272,6 @@ export function isWon(state: GameState): boolean {
   if (!isValidLoop(state.edges)) return false
   if (!areCluesSatisfied(state)) return false
   return getInsideWord(state).toUpperCase() === state.level.solutionWord.toUpperCase()
-}
-
-/**
- * Nombre d'indices actuellement satisfaits. Utilisé par l'UI pour afficher
- * la progression « x/y indices ok ».
- */
-export function countSatisfiedClues(state: GameState): number {
-  let ok = 0
-  for (const [key, expected] of Object.entries(state.level.clues)) {
-    const [cxStr, cyStr] = key.split(',')
-    if (countEdgesAroundCell(state, Number(cxStr), Number(cyStr)) === expected) ok++
-  }
-  return ok
-}
-
-export function countClues(state: GameState): number {
-  return Object.keys(state.level.clues).length
 }
 
 export type Action = { type: 'toggle'; edge: Edge } | { type: 'reset' }

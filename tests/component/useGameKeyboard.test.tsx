@@ -127,10 +127,33 @@ describe('useGameKeyboard', () => {
     renderHook(() => useGameKeyboard({ enabled: true, onDirection, ignoreInputs: true }))
     const input = document.createElement('input')
     document.body.appendChild(input)
-    input.focus()
     input.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowUp', bubbles: true }))
+    input.remove()
     expect(onDirection).not.toHaveBeenCalled()
-    document.body.removeChild(input)
+  })
+
+  it('Entrée déclenche onSecondaryAction quand il est fourni, Espace reste onAction', () => {
+    const onAction = vi.fn()
+    const onSecondaryAction = vi.fn()
+    renderHook(() => useGameKeyboard({ enabled: true, onAction, onSecondaryAction }))
+    press('Enter')
+    press(' ')
+    expect(onSecondaryAction).toHaveBeenCalledTimes(1)
+    expect(onAction).toHaveBeenCalledTimes(1)
+  })
+
+  it('R majuscule recommence aussi (Verr. Maj, Maj+R)', () => {
+    const onReset = vi.fn()
+    renderHook(() => useGameKeyboard({ enabled: true, onReset }))
+    press('R')
+    expect(onReset).toHaveBeenCalledTimes(1)
+  })
+
+  it('Ctrl+R est laissé au navigateur (rechargement)', () => {
+    const onReset = vi.fn()
+    renderHook(() => useGameKeyboard({ enabled: true, onReset }))
+    press('r', { ctrlKey: true })
+    expect(onReset).not.toHaveBeenCalled()
   })
 
   it('cleanup : retire le listener au démontage', () => {

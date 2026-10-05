@@ -1,20 +1,6 @@
 import type { MirrorHalf } from './engine'
-import type { Level, MirrorKind, Pos } from './types'
-
-type Side = 'N' | 'S' | 'W' | 'E'
-
-/** Côté extérieur de la case d'entrée (la porte est toujours sur le bord). */
-export const SIDE_VECTOR: Record<Side, Pos> = { N: [0, -1], S: [0, 1], W: [-1, 0], E: [1, 0] }
-
-export function doorSide(level: Level): Side {
-  const [x, y] = level.door
-  if (x === 0) return 'W'
-  if (x === level.width - 1) return 'E'
-  if (y === 0) return 'N'
-  return 'S'
-}
-
-const SIDE_ROTATION: Record<Side, number> = { N: 0, E: 90, S: 180, W: 270 }
+import type { Dir, MirrorKind } from './types'
+import { ANGLE } from './useHeading'
 
 /**
  * Porte dans l'épaisseur du mur, sur le pourtour de la case d'entrée.
@@ -32,12 +18,12 @@ export function DoorMark({
   size: number
   /** Épaisseur du mur : la porte occupe l'ouverture dans le mur. */
   wall: number
-  side: Side
+  side: Dir
 }) {
   const half = size / 2
   const outside = -half - wall
   return (
-    <g transform={`translate(${cx} ${cy}) rotate(${SIDE_ROTATION[side]})`} aria-hidden="true">
+    <g transform={`translate(${cx} ${cy}) rotate(${ANGLE[side]})`} aria-hidden="true">
       <rect
         x={-half + 4}
         y={outside}

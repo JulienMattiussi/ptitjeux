@@ -1,27 +1,25 @@
+import type { SolvedStatus } from '~/lib/completion'
 import { CheckIcon } from './icons'
 
-type Size = 'sm' | 'md' | 'lg'
-export type CheckVariant = 'perfect' | 'solved'
+type Size = 'sm' | 'md'
 
 const WRAP: Record<Size, string> = {
   sm: 'h-5 w-5',
   md: 'h-6 w-6',
-  lg: 'h-7 w-7',
 }
 
 const INNER: Record<Size, string> = {
   sm: 'h-3 w-3',
   md: 'h-3.5 w-3.5',
-  lg: 'h-4 w-4',
 }
 
-const VARIANT_BG: Record<CheckVariant, string> = {
+const VARIANT_BG: Record<SolvedStatus, string> = {
   perfect: 'bg-emerald-500',
   solved: 'bg-amber-500',
 }
 
 /**
- * Pastille colorée avec coche, en trois tailles et deux variantes :
+ * Pastille colorée avec coche, en deux tailles et deux variantes :
  * - `perfect` (vert) : niveau résolu en respectant l'objectif de coups
  * - `solved` (ambre) : niveau résolu mais au-dessus de l'objectif
  */
@@ -30,7 +28,7 @@ export function CheckMark({
   variant = 'perfect',
 }: {
   size?: Size
-  variant?: CheckVariant
+  variant?: SolvedStatus
 }) {
   return (
     <span

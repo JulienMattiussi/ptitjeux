@@ -1,182 +1,103 @@
+/**
+ * Solveur Sokomot **par poussées**, pour les niveaux sans glace : recours de
+ * `finalize` quand le solveur optimal dépasse son budget (niveau 3 profond,
+ * échanges de blocs voisins).
+ *
+ * Chaque transition est une marche du joueur (plus court chemin) suivie d'une
+ * poussée, de coût « longueur de la marche + 1 ». On ne crée de nœud que pour
+ * les états après poussée : le graphe est bien plus creux qu'avec un nœud par
+ * pas, et A* explore 10 à 100 fois moins d'états. Les états restent
+ * distingués par la case exacte du joueur (et non par la zone qu'il peut
+ * atteindre), dont dépend le coût des marches suivantes.
+ *
+ * **Pas d'optimalité garantie** : le test de victoire se fait à la création
+ * d'un nœud, alors que les transitions n'ont pas toutes le même coût ; une
+ * solution plus courte peut rester dans le tas. Le résultat est une solution
+ * valide, en pratique proche de l'optimum, donc une borne supérieure de
+ * `parMoves` bien meilleure que la solution générée à rebours.
+ */
 import type { Coord, Direction, Level } from '~/games/sokomot/types'
+import { DIRECTIONS, cellKey } from './sokomot-grid'
+import { createMinHeap, matchingDistance, stateKey } from './sokomot-search'
 
-/**
- * Solveur Sokoban optimal **par-push** (pour les niveaux SANS glace).
- *
- * Idée : au lieu d'explorer chaque coup joueur (BFS-A* classique), on
- * explore par poussées. À chaque expansion, le joueur marche (BFS interne)
- * jusqu'à une position de poussée puis pousse un cube ; le coût de cette
- * « macro-transition » = longueur du chemin de marche + 1.
- *
- * Bénéfices vs BFS-A* :
- * - L'espace d'états (cubes_positions, position_joueur) reste le même,
- *   mais on ne crée un nœud que pour les états « post-push », pas pour
- *   les intermédiaires de marche. Le graphe de recherche est donc beaucoup
- *   plus sparse — A* trouve l'optimum en explorant 10-100× moins d'états
- *   sur les puzzles Sokoban profonds (échanges de cubes adjacents, etc.).
- *
- * Note : on dédup par `(cubes, position_joueur_actuelle)` et pas par région
- * canonique. Une collapse par région perd la position précise du joueur,
- * laquelle conditionne le coût des marches futures — ce qui casse
- * l'optimalité pour la métrique « coups joueur minimum ». La version par
- * (cubes, joueur) garde toute la précision tout en évitant les nœuds
- * intermédiaires de marche.
- *
- * Restriction : niveaux sans glace (la glace fait glisser et casse la
- * notion de « walk-then-push »).
- */
-const DIRECTIONS: Array<{ dir: Direction; dx: number; dy: number }> = [
-  { dir: 'up', dx: 0, dy: -1 },
-  { dir: 'down', dx: 0, dy: 1 },
-  { dir: 'left', dx: -1, dy: 0 },
-  { dir: 'right', dx: 1, dy: 0 },
-]
+type Walk = { dist: Map<string, number>; parent: Map<string, [string, Direction] | null> }
 
-function coordKey(x: number, y: number): string {
-  return `${x},${y}`
-}
-
-/**
- * BFS de marche du joueur depuis `start`, évitant murs + cubes. Renvoie
- * distance et parents pour reconstituer le chemin jusqu'à toute cellule
- * joignable.
- */
-function bfsPlayerWalk(
+/** Parcours en largeur de la marche du joueur depuis `start`, murs et blocs exclus. */
+function walkFrom(
   start: Coord,
   cubeSet: Set<string>,
   wallSet: Set<string>,
   width: number,
   height: number,
-): { dist: Map<string, number>; parent: Map<string, [string, Direction] | null> } {
+): Walk {
   const dist = new Map<string, number>()
   const parent = new Map<string, [string, Direction] | null>()
-  const startKey = coordKey(start[0], start[1])
+  const startKey = cellKey(start)
   dist.set(startKey, 0)
   parent.set(startKey, null)
-  const queue: Array<[number, number]> = [[start[0], start[1]]]
+  const queue: Coord[] = [start]
   let head = 0
   while (head < queue.length) {
     const [x, y] = queue[head++]
-    const k = coordKey(x, y)
+    const k = cellKey([x, y])
     const d = dist.get(k)!
-    for (const { dir, dx, dy } of DIRECTIONS) {
-      const nx = x + dx
-      const ny = y + dy
-      if (nx < 0 || nx >= width || ny < 0 || ny >= height) continue
-      const nk = coordKey(nx, ny)
-      if (wallSet.has(nk) || cubeSet.has(nk)) continue
-      if (dist.has(nk)) continue
+    for (const { dir, vec } of DIRECTIONS) {
+      const next: Coord = [x + vec[0], y + vec[1]]
+      if (next[0] < 0 || next[0] >= width || next[1] < 0 || next[1] >= height) continue
+      const nk = cellKey(next)
+      if (wallSet.has(nk) || cubeSet.has(nk) || dist.has(nk)) continue
       dist.set(nk, d + 1)
       parent.set(nk, [k, dir])
-      queue.push([nx, ny])
+      queue.push(next)
     }
   }
   return { dist, parent }
 }
 
-function pathFromParents(
-  end: string,
-  parent: Map<string, [string, Direction] | null>,
-): Direction[] {
+function pathTo(end: string, parent: Walk['parent']): Direction[] {
   const path: Direction[] = []
-  let cur = end
-  while (true) {
-    const p = parent.get(cur)
-    if (!p) break
-    path.unshift(p[1])
-    cur = p[0]
-  }
+  for (let p = parent.get(end); p; p = parent.get(p[0])) path.unshift(p[1])
   return path
 }
 
-function heuristic(
-  blocks: Coord[],
-  targets: Coord[],
-  blockLetters: string[],
-  targetLetters: string[],
-): number {
-  const n = blocks.length
-  if (n !== targets.length) return Infinity
-  const dist: number[][] = Array.from({ length: n }, () => new Array(n).fill(Infinity))
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      if (blockLetters[i] !== targetLetters[j]) continue
-      dist[i][j] = Math.abs(blocks[i][0] - targets[j][0]) + Math.abs(blocks[i][1] - targets[j][1])
-    }
-  }
-  let best = Infinity
-  const used = new Array<boolean>(n).fill(false)
-  function rec(i: number, sum: number) {
-    if (sum >= best) return
-    if (i === n) {
-      best = sum
-      return
-    }
-    for (let j = 0; j < n; j++) {
-      if (used[j]) continue
-      if (!Number.isFinite(dist[i][j])) continue
-      used[j] = true
-      rec(i + 1, sum + dist[i][j])
-      used[j] = false
-    }
-  }
-  rec(0, 0)
-  return Number.isFinite(best) ? best : Infinity
-}
-
 type Node = {
+  /** Vidé une fois le nœud développé, pour ménager la mémoire. */
   cubes: Coord[]
   playerPos: Coord
   parent: number
-  /** Suite de directions joueur jusqu'à cet état (marche + push final). */
+  /** Coups depuis le nœud parent : marche puis poussée. */
   moves: Direction[] | null
   g: number
   f: number
 }
 
-export function solveOptimalSokobanPushState(
-  level: Level,
-  maxStates = 5_000_000,
-): Direction[] | null {
+/**
+ * Une solution du niveau (voir l'en-tête : pas forcément la plus courte), ou
+ * `null` si le niveau a de la glace ou si `maxStates` états sont dépassés.
+ */
+export function solveSokomotByPushes(level: Level, maxStates: number): Direction[] | null {
   if (level.ice.length > 0) return null
 
   const { width, height } = level
-  const wallSet = new Set(level.walls.map(([x, y]) => coordKey(x, y)))
-  const blockLetters = level.blocks.map((b) => b.letter.toUpperCase())
-  const targetLetters = level.target.word.split('').map((l) => l.toUpperCase())
-  const targets: Coord[] = level.target.cells.map(([x, y]) => [x, y])
+  const wallSet = new Set(level.walls.map(cellKey))
+  const blockLetters = level.blocks.map((b) => b.letter)
+  const targetLetters = level.target.word.split('')
+  const targets = level.target.cells
+
+  const isWon = (cubes: Coord[]): boolean =>
+    targets.every((t, i) =>
+      cubes.some((c, j) => c[0] === t[0] && c[1] === t[1] && blockLetters[j] === targetLetters[i]),
+    )
+  const keyOf = (cubes: Coord[], player: Coord): string =>
+    stateKey(
+      player,
+      cubes.map((pos, i) => ({ letter: blockLetters[i], pos })),
+    )
+  const h = (cubes: Coord[]) => matchingDistance(cubes, blockLetters, targets, targetLetters)
 
   const initialCubes: Coord[] = level.blocks.map((b) => [b.pos[0], b.pos[1]])
   const initialPlayer: Coord = [level.player[0], level.player[1]]
-
-  function isWon(cubes: Coord[]): boolean {
-    for (let i = 0; i < targets.length; i++) {
-      let found = false
-      for (let j = 0; j < cubes.length; j++) {
-        if (
-          cubes[j][0] === targets[i][0] &&
-          cubes[j][1] === targets[i][1] &&
-          blockLetters[j] === targetLetters[i]
-        ) {
-          found = true
-          break
-        }
-      }
-      if (!found) return false
-    }
-    return true
-  }
-
-  function stateKey(cubes: Coord[], player: Coord): string {
-    const parts: string[] = []
-    for (let i = 0; i < cubes.length; i++) {
-      parts.push(`${blockLetters[i]}:${cubes[i][0]},${cubes[i][1]}`)
-    }
-    parts.sort()
-    return `${player[0]},${player[1]}|${parts.join(';')}`
-  }
-
-  const initialH = heuristic(initialCubes, targets, blockLetters, targetLetters)
+  if (isWon(initialCubes)) return []
   const nodes: Node[] = [
     {
       cubes: initialCubes,
@@ -184,112 +105,63 @@ export function solveOptimalSokobanPushState(
       parent: -1,
       moves: null,
       g: 0,
-      f: initialH,
+      f: h(initialCubes),
     },
   ]
-  if (isWon(initialCubes)) return []
-
-  const heap: number[] = [0]
+  const heap = createMinHeap((a, b) => nodes[a].f - nodes[b].f)
+  heap.push(0)
   const bestG = new Map<string, number>()
-  bestG.set(stateKey(initialCubes, initialPlayer), 0)
+  bestG.set(keyOf(initialCubes, initialPlayer), 0)
 
-  const cmp = (a: number, b: number) => nodes[a].f - nodes[b].f
-  const push = (idx: number) => {
-    heap.push(idx)
-    let i = heap.length - 1
-    while (i > 0) {
-      const p = (i - 1) >> 1
-      if (cmp(heap[i], heap[p]) < 0) {
-        const t = heap[i]
-        heap[i] = heap[p]
-        heap[p] = t
-        i = p
-      } else break
-    }
-  }
-  const pop = (): number => {
-    const top = heap[0]
-    const last = heap.pop()!
-    if (heap.length > 0) {
-      heap[0] = last
-      let i = 0
-      while (true) {
-        const l = 2 * i + 1
-        const r = 2 * i + 2
-        let best = i
-        if (l < heap.length && cmp(heap[l], heap[best]) < 0) best = l
-        if (r < heap.length && cmp(heap[r], heap[best]) < 0) best = r
-        if (best === i) break
-        const t = heap[i]
-        heap[i] = heap[best]
-        heap[best] = t
-        i = best
-      }
-    }
-    return top
-  }
-
-  while (heap.length > 0) {
+  while (heap.size > 0) {
     if (nodes.length > maxStates) return null
-    const cur = pop()
+    const cur = heap.pop()
     const node = nodes[cur]
-    if (node.cubes.length === 0) continue // déjà libéré
+    if (node.cubes.length === 0) continue
 
-    const cubeSet = new Set(node.cubes.map(([x, y]) => coordKey(x, y)))
-    const reach = bfsPlayerWalk(node.playerPos, cubeSet, wallSet, width, height)
+    const cubeSet = new Set(node.cubes.map(cellKey))
+    const reach = walkFrom(node.playerPos, cubeSet, wallSet, width, height)
 
     for (let i = 0; i < node.cubes.length; i++) {
       const [cx, cy] = node.cubes[i]
-      for (const { dir, dx, dy } of DIRECTIONS) {
-        const px = cx - dx
-        const py = cy - dy
-        const tx = cx + dx
-        const ty = cy + dy
-        if (tx < 0 || tx >= width || ty < 0 || ty >= height) continue
-        if (px < 0 || px >= width || py < 0 || py >= height) continue
-        const tk = coordKey(tx, ty)
+      for (const { dir, vec } of DIRECTIONS) {
+        const pusher: Coord = [cx - vec[0], cy - vec[1]]
+        const to: Coord = [cx + vec[0], cy + vec[1]]
+        if (to[0] < 0 || to[0] >= width || to[1] < 0 || to[1] >= height) continue
+        if (pusher[0] < 0 || pusher[0] >= width || pusher[1] < 0 || pusher[1] >= height) continue
+        const tk = cellKey(to)
         if (wallSet.has(tk) || cubeSet.has(tk)) continue
-        const pk = coordKey(px, py)
+        const pk = cellKey(pusher)
         if (!reach.dist.has(pk)) continue
 
-        const walkPath = pathFromParents(pk, reach.parent)
-        const newCubes: Coord[] = node.cubes.map((c, j) =>
-          j === i ? ([tx, ty] as Coord) : ([c[0], c[1]] as Coord),
-        )
+        const walk = pathTo(pk, reach.parent)
+        const newCubes: Coord[] = node.cubes.map((c, j) => (j === i ? to : ([c[0], c[1]] as Coord)))
         const newPlayer: Coord = [cx, cy]
-        const k = stateKey(newCubes, newPlayer)
-        const stepCost = walkPath.length + 1
-        const newG = node.g + stepCost
+        const k = keyOf(newCubes, newPlayer)
+        const newG = node.g + walk.length + 1
         const prev = bestG.get(k)
         if (prev !== undefined && prev <= newG) continue
         bestG.set(k, newG)
-        const h = heuristic(newCubes, targets, blockLetters, targetLetters)
-        if (!Number.isFinite(h)) continue
-        const moves: Direction[] = [...walkPath, dir]
+        const hn = h(newCubes)
+        if (!Number.isFinite(hn)) continue
         const idx = nodes.length
         nodes.push({
           cubes: newCubes,
           playerPos: newPlayer,
           parent: cur,
-          moves,
+          moves: [...walk, dir],
           g: newG,
-          f: newG + h,
+          f: newG + hn,
         })
         if (isWon(newCubes)) {
           const full: Direction[] = []
-          let ni = idx
-          while (ni !== -1) {
-            const n = nodes[ni]
-            if (n.moves) full.unshift(...n.moves)
-            ni = n.parent
-          }
+          for (let ni = idx; ni !== -1; ni = nodes[ni].parent)
+            full.unshift(...(nodes[ni].moves ?? []))
           return full
         }
-        push(idx)
+        heap.push(idx)
       }
     }
-    // Libère le state lourd post-expansion (parent/moves suffisent pour
-    // reconstituer le chemin final).
     node.cubes = []
     node.playerPos = [0, 0]
   }

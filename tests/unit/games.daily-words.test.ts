@@ -2,20 +2,17 @@ import { describe, expect, it } from 'vitest'
 import * as boucle from '~/games/boucle/challenges'
 import * as semantogramme from '~/games/semantogramme/challenges'
 import * as sokomot from '~/games/sokomot/challenges'
-
-const LEVELS = [1, 2, 3, 4] as const
+import { LEVEL_INDICES } from '~/games/types'
+import { stripAccents } from '~/lib/text'
 
 /** Comparaison telle que le joueur la voit : sans accents, en majuscules. */
 function normalize(word: string): string {
-  return word
-    .normalize('NFD')
-    .replace(/\p{Diacritic}/gu, '')
-    .toUpperCase()
+  return stripAccents(word).toUpperCase()
 }
 
 /** Mots à trouver d'une journée, tous jeux et niveaux confondus. */
 function wordsOfDay(date: string): { word: string; source: string }[] {
-  return LEVELS.flatMap((i) => [
+  return LEVEL_INDICES.flatMap((i) => [
     { word: sokomot.getLevel(date, i)?.target.word, source: `Sokomot ${i}` },
     { word: boucle.getLevel(date, i)?.solutionWord, source: `Boucle ${i}` },
     { word: semantogramme.getLevel(date, i)?.themeWord, source: `Sémantogramme ${i}` },

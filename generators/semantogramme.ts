@@ -1,7 +1,9 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { Rng } from '~/lib/random'
 import type { Level } from '~/games/semantogramme/types'
+import type { LevelIndex } from '~/games/types'
+import { GAME_SIZE } from '~/lib/game-styles'
+import { Rng } from './random'
 import {
   LEVELS,
   REUSE_GAP,
@@ -13,18 +15,23 @@ import {
 } from './semantogramme-curation'
 import { normalizeWord, sameFamily } from './semantogramme-rules'
 
-/** Taille de grille et nombre de cases « thème », tiré dans [nMin, nMax]. */
-const GRID: Record<ThemeLevel, { size: number; nMin: number; nMax: number }> = {
-  1: { size: 4, nMin: 7, nMax: 10 },
-  2: { size: 5, nMin: 11, nMax: 15 },
-  3: { size: 6, nMin: 14, nMax: 18 },
-  4: { size: 7, nMin: 15, nMax: 19 },
+/** Nombre de cases « thème », tiré dans [nMin, nMax]. */
+const THEME_CELLS: Record<ThemeLevel, { nMin: number; nMax: number }> = {
+  1: { nMin: 7, nMax: 10 },
+  2: { nMin: 11, nMax: 15 },
+  3: { nMin: 14, nMax: 18 },
+  4: { nMin: 15, nMax: 19 },
+}
+
+/** Côté de la grille, carrée. */
+function gridSize(level: ThemeLevel): number {
+  return GAME_SIZE.semantogramme(Number(level)).width
 }
 
 const MAX_SHUFFLES = 1000
 
 /** Domaine de sens → thèmes (tous niveaux confondus), voir `semantogramme-curation/`. */
-export type Domains = Record<string, string[]>
+type Domains = Record<string, string[]>
 
 let plan: Map<string, Level> | undefined
 
@@ -33,7 +40,7 @@ let plan: Map<string, Level> | undefined
  * (`planYear`) : les mots hors thème d'un jour dépendent de ceux des jours
  * précédents (règle 3), un niveau ne se génère donc pas isolément.
  */
-export function generateSemantogrammeLevel(date: string, index: 1 | 2 | 3 | 4): Level {
+export function generateSemantogrammeLevel(date: string, index: LevelIndex): Level {
   plan ??= planYear(loadCuration(), loadDomains())
   const level = plan.get(`${date}-${index}`)
   if (!level) throw new Error(`Sémantogramme : aucun thème curé le ${date} au niveau ${index}`)
@@ -54,7 +61,7 @@ export function loadDomains(): Domains {
  * - règle 5 (approchée) : pas de mot d'un thème du même domaine de sens, ni d'un
  *   thème lié (dont la liste contient le thème courant, ou l'inverse).
  */
-export function planYear(curation: Curation, domains: Domains): Map<string, Level> {
+function planYear(curation: Curation, domains: Domains): Map<string, Level> {
   const days = curation.schedule['1'].map((t) => t.date)
   const themeOf = (level: ThemeLevel, day: number) => curation.schedule[level][day].word
   const membersOf = (level: ThemeLevel, day: number) =>
@@ -74,7 +81,7 @@ export function planYear(curation: Curation, domains: Domains): Map<string, Leve
   )
   const pool = [...new Set(Object.values(curation.words).flat())]
 
-  /** Mots qu'aucun mot hors thème du thème `key` ne doit être (règle 5 approchée). */
+  /** Mots exclus des mots hors thème de `theme` (règle 5 approchée). */
   function relatedWords(level: ThemeLevel, theme: string): Set<string> {
     const t = normalizeWord(theme)
     const own = new Set(curation.words[`${level}|${theme}`].map(normalizeWord))
@@ -110,7 +117,8 @@ export function planYear(curation: Curation, domains: Domains): Map<string, Leve
 
     for (const level of LEVELS) {
       const theme = themeOf(level, day)
-      const { size, nMin, nMax } = GRID[level]
+      const size = gridSize(level)
+      const { nMin, nMax } = THEME_CELLS[level]
       const rng = new Rng(`semantogramme:${date}:${level}`)
       const n = nMin + rng.nextInt(nMax - nMin + 1)
       const members = rng.shuffle(membersOf(level, day).slice()).slice(0, n)
@@ -163,7 +171,7 @@ function buildLevel(
   fillers: string[],
   rng: Rng,
 ): Level {
-  const size = GRID[level].size
+  const size = gridSize(level)
   const cells = [
     ...members.map((word) => ({ word, isIn: true })),
     ...fillers.map((word) => ({ word, isIn: false })),

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { Rng } from '~/lib/random'
+import { Rng } from '../../generators/random'
 
-describe('lib/random', () => {
+describe('generators/random', () => {
   it('produit la même séquence pour le même seed', () => {
     const a = new Rng('hello')
     const b = new Rng('hello')

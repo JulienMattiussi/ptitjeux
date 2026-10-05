@@ -27,21 +27,21 @@ describe('lib/undoable', () => {
     expect(reducer(u, { type: 'undo' }).present.value).toBe(1)
   })
 
-  it('ignore l annulation quand l historique est vide', () => {
+  it("ignore l'annulation quand l'historique est vide", () => {
     expect(reducer(start, { type: 'undo' })).toBe(start)
   })
 
-  it('n empile pas les actions non suivies', () => {
+  it("n'empile pas les actions non suivies", () => {
     const u = reducer(start, { type: 'label', text: 'abc' })
     expect(u.present.label).toBe('abc')
     expect(u.past).toEqual([])
   })
 
-  it('n empile pas une action sans effet', () => {
+  it("n'empile pas une action sans effet", () => {
     expect(reducer(start, { type: 'noop' })).toBe(start)
   })
 
-  it('reset vide l historique', () => {
+  it("reset vide l'historique", () => {
     const u = reducer(reducer(start, { type: 'add' }), { type: 'reset' })
     expect(u).toEqual({ present: { value: 0, label: '' }, past: [] })
   })

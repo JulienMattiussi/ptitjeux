@@ -1,8 +1,7 @@
 /**
- * Ajoute l'annulation à n'importe quel reducer de jeu, sans toucher au
- * moteur : on garde la pile des états précédents. Même comportement que
- * l'annulation de Sokomot (historique dans le moteur) : annuler restaure
- * l'état d'avant, compteur de coups compris, et `reset` vide l'historique.
+ * Ajoute l'annulation au reducer de n'importe quel jeu, sans toucher au
+ * moteur : on garde la pile des états précédents. Annuler restaure l'état
+ * d'avant, compteur de coups compris, et `reset` vide l'historique.
  */
 export type Undoable<S> = { present: S; past: S[] }
 

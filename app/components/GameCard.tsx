@@ -1,15 +1,9 @@
 import { Link } from 'react-router'
 import { ChevronRight } from './icons'
-import { THUMBNAILS } from './Thumbnails'
+import { THUMBNAILS } from '~/games/thumbnails'
 import type { GameDescriptor } from '~/lib/games-registry'
 
-type Props = {
-  game: GameDescriptor
-  completedCount?: number
-  totalLevels?: number
-}
-
-export function GameCard({ game, completedCount, totalLevels }: Props) {
+export function GameCard({ game }: { game: GameDescriptor }) {
   const Thumbnail = THUMBNAILS[game.id]
 
   return (
@@ -22,20 +16,11 @@ export function GameCard({ game, completedCount, totalLevels }: Props) {
         className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r ${game.accentClass}`}
         aria-hidden="true"
       />
-      {Thumbnail && (
-        <div className="relative aspect-3/2 overflow-hidden bg-linear-to-br from-gray-50 to-gray-100 transition-transform duration-500 group-hover:scale-[1.03] dark:from-gray-900 dark:to-gray-950">
-          <Thumbnail className="h-full w-full" />
-        </div>
-      )}
+      <div className="relative aspect-3/2 overflow-hidden bg-linear-to-br from-gray-50 to-gray-100 transition-transform duration-500 group-hover:scale-[1.03] dark:from-gray-900 dark:to-gray-950">
+        <Thumbnail className="h-full w-full" />
+      </div>
       <div className="flex flex-1 flex-col gap-3 p-6">
-        <div className="flex items-baseline justify-between gap-3">
-          <h2 className="font-display text-2xl font-bold tracking-tight">{game.name}</h2>
-          {typeof totalLevels === 'number' && (
-            <span className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600 dark:bg-gray-800 dark:text-gray-300">
-              {completedCount ?? 0} / {totalLevels}
-            </span>
-          )}
-        </div>
+        <h2 className="font-display text-2xl font-bold tracking-tight">{game.name}</h2>
         <p className="text-sm font-medium text-gray-700 dark:text-gray-200">{game.tagline}</p>
         <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400">
           {game.description}

@@ -1,18 +1,18 @@
 import { useEffect, useReducer, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
+import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { StatusRow } from '~/components/StatusRow'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/boucle/Board'
-import { getAllDates, getLevel } from '~/games/boucle/challenges'
+import { getLevel } from '~/games/boucle/challenges'
 import {
   areCluesSatisfied,
   countClues,
@@ -23,13 +23,13 @@ import {
   moveEdgeSelection,
   reducer,
 } from '~/games/boucle/engine'
-import type { Edge, GameState } from '~/games/boucle/types'
+import type { Edge, Level } from '~/games/boucle/types'
+import { plural } from '~/lib/text'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
-import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
-import { getVictoryState } from '~/lib/victoryState'
+import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/boucle.$date.$index'
 
@@ -39,100 +39,70 @@ export function meta({ params }: Route.MetaArgs) {
 
 const undoableReducer = withUndo(reducer, (action) => action.type === 'toggle')
 
-// Wrapper qui force un remount complet quand l'URL change de niveau.
+// Le `key` remonte une partie neuve à chaque changement de niveau.
 export default function BouclePlayRoute() {
-  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
-  return <BouclePlay key={`${date}-${index}`} />
+  const { date, idx, level } = useLevelParams(getLevel)
+  if (!level) return <LevelNotFound backHref="/boucle" />
+  return <BouclePlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
 }
 
-function BouclePlay() {
-  const { date, index } = useParams<{ date: string; index: string }>()
-  const navigate = useNavigate()
-  const idx = Number(index)
-  const level = date && idx ? getLevel(date, idx) : undefined
-
-  const [history, dispatch] = useReducer(undoableReducer, level ?? null, (initialLevel) =>
-    undoable(initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
-  )
+function BouclePlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+  const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
+  const won = isWon(state)
+  const loopOk = isValidLoop(state.edges)
+  const hint = useHint(state.moves, level.parMoves)
+  const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
+    gameId: 'boucle',
+    date,
+    idx,
+    won,
+    moves: state.moves,
+    parMoves: level.parMoves,
+  })
 
-  const won = level ? isWon(state) : false
-  const cluesOk = level ? areCluesSatisfied(state) : false
-  const totalClues = level ? countClues(state) : 0
-  const okClues = level ? countSatisfiedClues(state) : 0
-
-  // Sélection au clavier : flèches déplacent l'arête, Espace toggle.
   const [selected, setSelected] = useState<Edge>({ x: 0, y: 0, orientation: 'horizontal' })
   const selectedRef = useLatestRef(selected)
 
   useGameKeyboard({
-    onBack: () => navigate(`/boucle?from=${date}`),
-    enabled: !!level && !won,
-    onDirection: (direction) => {
-      if (!level) return
-      setSelected((prev) => moveEdgeSelection(prev, direction, level.width, level.height))
-    },
+    onBack: goBack,
+    enabled: !won,
+    onDirection: (direction) =>
+      setSelected((prev) => moveEdgeSelection(prev, direction, level.width, level.height)),
     onAction: () => dispatch({ type: 'toggle', edge: selectedRef.current }),
     onUndo: () => dispatch({ type: 'undo' }),
     onReset: () => dispatch({ type: 'reset' }),
   })
 
   useEffect(() => {
-    if (level) prefetchDefinition(level.canonicalWord ?? level.solutionWord)
+    prefetchDefinition(level.canonicalWord)
   }, [level])
-
-  const loopOk = level ? isValidLoop(state.edges) : false
-  const { beatPar, variant } = getVictoryState(level, state.moves)
-  const hint = useHint(state.moves, level?.parMoves)
-
-  const allDates = getAllDates()
-  const { dateChip, nextHref } = useLevelPlayLifecycle({
-    gameId: 'boucle',
-    date: date ?? '',
-    idx,
-    lastAvailableDate: allDates[allDates.length - 1],
-    won,
-    moves: state.moves,
-  })
-
-  if (!level || !date) {
-    return <LevelNotFound backHref="/boucle" />
-  }
 
   return (
     <GameLayout
-      title={`Boucle · ${dateChip} · niveau ${idx}`}
+      title={title}
       subtitle={`${level.solutionWord.length} lettres à encercler.`}
-      backHref={`/boucle?from=${date}`}
+      backHref={backHref}
       backLabel="Niveaux"
     >
       <GameFrame
-        size="lg"
         overlay={
           <VictoryOverlay
             show={won}
             variant={variant}
-            title={beatPar ? 'Boucle parfaite !' : 'Boucle complète'}
+            title={variant === 'perfect' ? 'Boucle parfaite !' : 'Boucle complète'}
             detail={
               <>
                 <div>
                   Mot encerclé : <span className="font-bold">{level.solutionWord}</span> en{' '}
-                  <span className="font-bold">
-                    {state.moves} coup{state.moves > 1 ? 's' : ''}
-                  </span>
-                  .
+                  <span className="font-bold">{plural(state.moves, 'coup')}</span>.
                 </div>
-                {level.parMoves !== undefined && (
-                  <div>
-                    Objectif <span className="font-bold">{level.parMoves}</span>{' '}
-                    {beatPar ? 'atteint' : 'dépassé'}.
-                  </div>
-                )}
-                <WordDefinition word={level.canonicalWord ?? level.solutionWord} />
+                <ParObjective parMoves={level.parMoves} variant={variant} />
+                <WordDefinition word={level.canonicalWord} />
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}
-            backHref={`/boucle?from=${date}`}
+            backHref={backHref}
             nextHref={nextHref}
           />
         }
@@ -144,10 +114,9 @@ function BouclePlay() {
             if (!won) setSelected(edge)
           }}
           onToggleEdge={(edge) => {
-            if (!won) {
-              setSelected(edge)
-              dispatch({ type: 'toggle', edge })
-            }
+            if (won) return
+            setSelected(edge)
+            dispatch({ type: 'toggle', edge })
           }}
         />
         <PlaySidebar>
@@ -161,7 +130,11 @@ function BouclePlay() {
             }
           >
             <div className="flex flex-col gap-1 text-sm">
-              <StatusRow label="Indices ok" value={`${okClues} / ${totalClues}`} ok={cluesOk} />
+              <StatusRow
+                label="Indices ok"
+                value={`${countSatisfiedClues(state)} / ${countClues(state)}`}
+                ok={areCluesSatisfied(state)}
+              />
               <StatusRow label="Boucle" value={loopOk ? 'fermée' : 'ouverte'} ok={loopOk} />
             </div>
           </MovesCard>

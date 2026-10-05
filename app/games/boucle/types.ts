@@ -27,11 +27,11 @@ export type Level = {
   clues: Record<string, number>
   solutionWord: string
   /** Cases qui doivent finir à l'intérieur de la boucle, en ordre lecture. Utilisé par les tests. */
-  solutionInsideCells?: Coord[]
+  solutionInsideCells: Coord[]
   /** Nombre maximum de toggles d'arêtes pour que la résolution soit considérée « parfaite ». */
-  parMoves?: number
+  parMoves: number
   /** Forme canonique du mot solution (avec accents) pour la recherche Wiktionnaire. */
-  canonicalWord?: string
+  canonicalWord: string
 }
 
 export type GameState = {

@@ -1,19 +1,20 @@
 /**
  * Règles de la curation Sémantogramme (`generators/semantogramme-curation/`).
  *
- * Source unique : le test d'intégrité de la curation, le script de contrôle
- * et l'outil de remplissage appellent tous ces fonctions, pour qu'aucun mot
- * n'entre dans le corpus sans passer les mêmes règles.
+ * Source unique : le test de la curation (`checkCuration` sur tout le corpus)
+ * et le générateur appliquent ces mêmes règles. Le corpus est publié : un mot
+ * se corrige localement (voir `docs/semantogramme-curation.md`).
  */
 import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
+import { daysBetween } from '~/lib/dates'
 import { familyPairs, normalizeWord, sameFamily } from './semantogramme-rules'
 
 export type ThemeLevel = '1' | '2' | '3' | '4'
-export type ScheduledTheme = { date: string; word: string; category: string }
-export type Schedule = Record<ThemeLevel, ScheduledTheme[]>
+type ScheduledTheme = { date: string; word: string; category: string }
+type Schedule = Record<ThemeLevel, ScheduledTheme[]>
 /** Clé `niveau|thème` → mots du thème. */
-export type ThemeWords = Record<string, string[]>
+type ThemeWords = Record<string, string[]>
 /**
  * Exceptions validées à la main :
  * - `words` : mots en minuscules absents du dictionnaire mais admis (wifi, selfie…) ;
@@ -25,9 +26,9 @@ export type Allowed = { words: string[]; pairs: string[]; banned: string[] }
 export type Curation = { schedule: Schedule; words: ThemeWords; allowed: Allowed }
 
 export const LEVELS: readonly ThemeLevel[] = ['1', '2', '3', '4']
-export const MEMBER_COUNT: Record<ThemeLevel, number> = { 1: 10, 2: 15, 3: 18, 4: 19 }
+const MEMBER_COUNT: Record<ThemeLevel, number> = { 1: 10, 2: 15, 3: 18, 4: 19 }
 /** Au-delà, le mot déborde de sa case dans une grille 7 × 7. */
-export const MAX_LENGTH = 14
+const MAX_LENGTH = 14
 /** Un mot ne sert pas dans deux thèmes à moins de 3 jours d'écart (règle 3 : ±2 jours). */
 export const REUSE_GAP = 3
 
@@ -75,7 +76,7 @@ export function revealsTheme(word: string, theme: string): boolean {
  * L'indice d'aide trahit-il le thème ? Dans les deux sens, mot par mot :
  * fleur / fleurs, musique / musique populaire, météorologie / météo.
  */
-export function hintRevealsTheme(hint: string, theme: string): boolean {
+function hintRevealsTheme(hint: string, theme: string): boolean {
   return hint.split(' ').some((w) => revealsTheme(w, theme) || revealsTheme(theme, w))
 }
 
@@ -113,14 +114,9 @@ export function wordIssues(
   return issues
 }
 
-/** Numéro de jour depuis le début du calendrier. */
-function dayIndex(date: string, origin: string): number {
-  return Math.round((Date.parse(date) - Date.parse(origin)) / 86_400_000)
-}
-
 /**
  * Contexte de voisinage : pour chaque mot (normalisé), les jours où il sert ;
- * pour chaque jour, ses thèmes. Sert au contrôle global comme au remplissage.
+ * pour chaque jour, ses thèmes.
  */
 export function buildIndex(curation: Curation) {
   const origin = curation.schedule['1'][0].date
@@ -128,7 +124,7 @@ export function buildIndex(curation: Curation) {
   const themesOfDay = new Map<number, string[]>()
   for (const level of LEVELS) {
     for (const t of curation.schedule[level]) {
-      const day = dayIndex(t.date, origin)
+      const day = daysBetween(origin, t.date)
       dayOfKey.set(`${level}|${t.word}`, day)
       themesOfDay.set(day, [...(themesOfDay.get(day) ?? []), normalizeWord(t.word)])
     }
@@ -145,19 +141,13 @@ export function buildIndex(curation: Curation) {
   return { dayOfKey, themesOfDay, usage }
 }
 
-export type CurationIndex = ReturnType<typeof buildIndex>
+type CurationIndex = ReturnType<typeof buildIndex>
 
 /**
- * Problèmes de voisinage d'un mot placé dans le thème `key`. Par défaut, une
- * collision n'est signalée que depuis le thème le plus tardif (pour le rapport
- * global) ; `bothWays` la signale dans les deux sens (pour tester un ajout).
+ * Problèmes de voisinage d'un mot placé dans le thème `key`. Une collision
+ * entre deux thèmes n'est signalée qu'une fois, depuis le plus tardif.
  */
-export function neighbourIssues(
-  word: string,
-  key: string,
-  index: CurationIndex,
-  bothWays = false,
-): string[] {
+export function neighbourIssues(word: string, key: string, index: CurationIndex): string[] {
   const day = index.dayOfKey.get(key)
   if (day === undefined) return []
   const n = normalizeWord(word)
@@ -168,7 +158,7 @@ export function neighbourIssues(
   }
   for (const other of index.usage.get(n) ?? []) {
     const earlier = other.day < day || (other.day === day && other.key < key)
-    if (other.key !== key && (bothWays || earlier) && Math.abs(day - other.day) < REUSE_GAP) {
+    if (other.key !== key && earlier && Math.abs(day - other.day) < REUSE_GAP) {
       issues.push(`déjà dans ${other.key} (${Math.abs(other.day - day)} j)`)
     }
   }

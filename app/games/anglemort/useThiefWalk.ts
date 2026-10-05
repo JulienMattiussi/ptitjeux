@@ -9,12 +9,15 @@ export type ThiefWalk = {
 
 const IDLE: ThiefWalk = { step: -1, done: false }
 
+/** Durée d'un pas du cambrioleur, partagée avec la transition CSS de son sprite. */
+export const THIEF_STEP_MS = 140
+
 /**
  * Fait avancer le cambrioleur d'une case toutes les `stepMs` millisecondes dès
  * que `active` passe à vrai. Un pas supplémentaire après la dernière case sert
  * de pause avant d'annoncer la fin, pour laisser voir le diamant ramassé.
  */
-export function useThiefWalk(active: boolean, length: number, stepMs = 140): ThiefWalk {
+export function useThiefWalk(active: boolean, length: number, stepMs = THIEF_STEP_MS): ThiefWalk {
   const [walk, setWalk] = useState<ThiefWalk>(IDLE)
 
   useEffect(() => {

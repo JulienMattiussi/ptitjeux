@@ -22,7 +22,7 @@ export type Guard = {
  */
 export type MirrorKind = '/' | '\\'
 
-export type Mirror = {
+type Mirror = {
   pos: Pos
   kind: MirrorKind
 }
@@ -47,14 +47,9 @@ export type Level = {
   /** Lot de vigiles à placer entièrement. */
   pool: Pool
   /** Taille du lot : une pose par vigile, sans retrait. */
-  parMoves?: number
+  parMoves: number
   /** Lu par le test d'intégrité et par l'aide (couloir attendu). */
   solution: Guard[]
-  /**
-   * Mise au point uniquement : couloir attendu d'une grille d'expérimentation
-   * qui n'a pas encore de solution. Absent des niveaux générés.
-   */
-  corridor?: Pos[]
 }
 
 export type GameState = {

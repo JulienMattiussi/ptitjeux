@@ -1,4 +1,4 @@
-import { ANGLE, useHeading } from './rotation'
+import { ANGLE, useHeading } from './useHeading'
 import type { Dir, GuardType } from './types'
 
 /**
@@ -35,7 +35,6 @@ type Props = {
   facing: Dir
   /** Faisceaux dessinés devant les lampes (désactivé dans la réserve). */
   beams?: boolean
-  muted?: boolean
 }
 
 /** Torche tenue à l'origine (la main), pointée vers le haut, avec son faisceau. */
@@ -89,7 +88,7 @@ function Cap() {
  * Vigile vu de dessus, dessiné autour de (0, 0) et orienté vers le haut puis
  * pivoté selon `facing`. Chaque lampe torche matérialise un champ de vision.
  */
-export function GuardSprite({ type, facing, beams = true, muted = false }: Props) {
+export function GuardSprite({ type, facing, beams = true }: Props) {
   const angle = useHeading(ANGLE[facing] + BODY_OFFSET[type])
   return (
     <g
@@ -97,7 +96,6 @@ export function GuardSprite({ type, facing, beams = true, muted = false }: Props
         transform: `rotate(${angle}deg)`,
         transition: 'transform 200ms',
       }}
-      opacity={muted ? 0.35 : 1}
     >
       <rect
         x="-13"

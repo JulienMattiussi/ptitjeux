@@ -3,23 +3,19 @@ import { ArchiveAccordion } from './ArchiveAccordion'
 import { CheckMark } from './CheckMark'
 import { GameLayout } from './GameLayout'
 import { LevelTile } from './LevelTile'
-import { getLevelParMoves } from '~/games'
-import { completionStatus } from '~/lib/completion'
+import { dayStatuses, getGameDates } from '~/games'
+import { LEVEL_INDICES } from '~/games/types'
+import { aggregateCompletion } from '~/lib/completion'
 import { dateLabel, shouldShowFutureDates, todayString } from '~/lib/dates'
-import { GAME_SIZE, type GameId } from '~/lib/game-styles'
+import type { GameId } from '~/lib/game-styles'
+import { findGame } from '~/lib/games-registry'
 import { useGridNavigation } from '~/lib/useGridNavigation'
-import { useLocalProgress, levelKey } from '~/lib/useLocalProgress'
+import { useLocalProgress } from '~/lib/useLocalProgress'
 
-type Props = {
-  gameId: GameId
-  title: string
-  tagline: string
-  description: string
-  dates: string[]
-}
-
-export function ChallengeListPage({ gameId, title, tagline, description, dates }: Props) {
-  const allSorted = dates.slice().sort()
+/** Page « liste des niveaux » d'un jeu : défi du jour, puis archives par mois. */
+export function ChallengeListPage({ gameId }: { gameId: GameId }) {
+  const { name, tagline, description } = findGame(gameId)
+  const allSorted = getGameDates(gameId)
   // Sans le flag dev `VITE_SHOW_FUTURE_DAYS=1`, on masque les défis dont la
   // date est postérieure à aujourd'hui pour ne pas spoiler le contenu non
   // encore publié. On calcule « aujourd'hui » sans `lastAvailableDate` ici :
@@ -53,29 +49,11 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
       document.querySelector<HTMLElement>(`[data-nav-item][data-date="${fromDate ?? dailyDate}"]`),
   })
 
-  const dailyAllPerfect =
-    !!dailyDate &&
-    [1, 2, 3, 4].every(
-      (i) =>
-        completionStatus(
-          progress[levelKey(dailyDate, i)],
-          getLevelParMoves(gameId, dailyDate, i),
-        ) === 'perfect',
-    )
-  const dailyAllSolved =
-    !!dailyDate &&
-    [1, 2, 3, 4].every(
-      (i) =>
-        completionStatus(
-          progress[levelKey(dailyDate, i)],
-          getLevelParMoves(gameId, dailyDate, i),
-        ) !== 'unsolved',
-    )
-
-  const dailyHeaderCheck = dailyAllPerfect ? 'perfect' : dailyAllSolved ? 'solved' : null
+  const dailyStatuses = dailyDate ? dayStatuses(gameId, dailyDate, progress) : []
+  const dailyAggregate = aggregateCompletion(dailyStatuses)
 
   return (
-    <GameLayout title={title} subtitle={tagline}>
+    <GameLayout title={name} subtitle={tagline}>
       <p className="mb-8 max-w-2xl text-gray-600 dark:text-gray-300">{description}</p>
 
       {dailyDate && (
@@ -83,41 +61,24 @@ export function ChallengeListPage({ gameId, title, tagline, description, dates }
           <header className="mb-4 flex items-baseline justify-between gap-4">
             <h2 className="flex items-center gap-2 font-display text-xl font-bold tracking-tight">
               Défi du jour
-              {dailyHeaderCheck && <CheckMark size="md" variant={dailyHeaderCheck} />}
+              {dailyAggregate !== 'unsolved' && <CheckMark size="md" variant={dailyAggregate} />}
             </h2>
             <span className="text-sm capitalize text-gray-500 dark:text-gray-400">
               {dateLabel(dailyDate)}
             </span>
           </header>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3, 4].map((i) => {
-              const size = GAME_SIZE[gameId](i)
-              const status = completionStatus(
-                progress[levelKey(dailyDate, i)],
-                getLevelParMoves(gameId, dailyDate, i),
-              )
-              const previousStatus =
-                i === 1
-                  ? 'solved'
-                  : completionStatus(
-                      progress[levelKey(dailyDate, i - 1)],
-                      getLevelParMoves(gameId, dailyDate, i - 1),
-                    )
-              const locked = previousStatus === 'unsolved'
-              return (
-                <LevelTile
-                  key={i}
-                  gameId={gameId}
-                  date={dailyDate}
-                  index={i}
-                  width={size.width}
-                  height={size.height}
-                  locked={locked}
-                  status={status}
-                  variant="daily"
-                />
-              )
-            })}
+            {LEVEL_INDICES.map((i) => (
+              <LevelTile
+                key={i}
+                gameId={gameId}
+                date={dailyDate}
+                index={i}
+                locked={i > 1 && dailyStatuses[i - 2] === 'unsolved'}
+                status={dailyStatuses[i - 1]}
+                variant="daily"
+              />
+            ))}
           </div>
         </section>
       )}

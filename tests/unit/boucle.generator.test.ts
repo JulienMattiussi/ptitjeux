@@ -1,68 +1,48 @@
 import { describe, expect, it } from 'vitest'
-import { areCluesSatisfied, isValidLoop, isWon, loadLevel, toggleEdge } from '~/games/boucle/engine'
+import { areCluesSatisfied, isValidLoop, isWon } from '~/games/boucle/engine'
+import { LEVEL_INDICES } from '~/games/types'
+import { GAME_SIZE } from '~/lib/game-styles'
+import { stripAccents } from '~/lib/text'
 import { generateBoucleLevel } from '../../generators/boucle'
-import type { Coord, Edge } from '~/games/boucle/types'
+import { playExpectedLoop } from '../helpers/boucle'
 
-function insideCellsToBoundary(cells: Coord[]): Edge[] {
-  const set = new Set(cells.map(([x, y]) => `${x},${y}`))
-  const isIn = (x: number, y: number) => set.has(`${x},${y}`)
-  const out: Edge[] = []
-  for (const [cx, cy] of cells) {
-    if (!isIn(cx, cy - 1)) out.push({ x: cx, y: cy, orientation: 'horizontal' })
-    if (!isIn(cx, cy + 1)) out.push({ x: cx, y: cy + 1, orientation: 'horizontal' })
-    if (!isIn(cx - 1, cy)) out.push({ x: cx, y: cy, orientation: 'vertical' })
-    if (!isIn(cx + 1, cy)) out.push({ x: cx + 1, y: cy, orientation: 'vertical' })
-  }
-  return out
-}
+const DATE = '2026-10-07'
 
 describe('boucle/generator', () => {
-  it.each([1, 2, 3, 4] as const)('niveau %s : grille carrée 3+i', (i) => {
-    const level = generateBoucleLevel('2026-05-07', i)
-    expect(level.width).toBe(3 + i)
-    expect(level.height).toBe(3 + i)
+  it.each(LEVEL_INDICES)('niveau %s : grille à la taille du niveau', (i) => {
+    const level = generateBoucleLevel(DATE, i)
+    expect({ width: level.width, height: level.height }).toEqual(GAME_SIZE.boucle(i))
   })
 
-  it('solution stockée fait gagner', () => {
-    for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateBoucleLevel('2026-05-07', idx)
-      const edges = insideCellsToBoundary(level.solutionInsideCells!)
-      let state = loadLevel(level)
-      for (const e of edges) state = toggleEdge(state, e)
-      expect(isValidLoop(state.edges), `niveau ${idx} : boucle invalide`).toBe(true)
-      expect(areCluesSatisfied(state), `niveau ${idx} : indices KO`).toBe(true)
-      expect(isWon(state), `niveau ${idx} : non gagnant`).toBe(true)
-    }
+  it.each(LEVEL_INDICES)('niveau %s : la boucle attendue fait gagner', (i) => {
+    const { state } = playExpectedLoop(generateBoucleLevel(DATE, i))
+    expect(isValidLoop(state.edges), 'boucle invalide').toBe(true)
+    expect(areCluesSatisfied(state), 'indices KO').toBe(true)
+    expect(isWon(state), 'non gagnant').toBe(true)
   })
 
-  it('expose le canonicalWord (forme avec accents pour le Wiktionnaire)', () => {
-    for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateBoucleLevel('2026-05-07', idx)
-      expect(level.canonicalWord).toBeDefined()
-      const stripped = level.canonicalWord!.normalize('NFD').replace(/\p{Diacritic}/gu, '')
-      expect(stripped.toUpperCase()).toBe(level.solutionWord)
-    }
+  it.each(LEVEL_INDICES)('niveau %s : le mot affiché est le canonicalWord sans accents', (i) => {
+    const level = generateBoucleLevel(DATE, i)
+    expect(stripAccents(level.canonicalWord).toUpperCase()).toBe(level.solutionWord)
   })
 
-  it('expose un parMoves cohérent avec le périmètre', () => {
-    for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateBoucleLevel('2026-05-07', idx)
-      const expectedPerimeter = 2 * (1 + level.height)
-      expect(level.parMoves).toBeGreaterThanOrEqual(expectedPerimeter)
-    }
+  it.each(LEVEL_INDICES)('niveau %s : parMoves = périmètre + 4', (i) => {
+    const level = generateBoucleLevel(DATE, i)
+    expect(level.parMoves).toBe(playExpectedLoop(level).edges.length + 4)
+  })
+
+  it.each(LEVEL_INDICES)('niveau %s : mot aussi long que la grille', (i) => {
+    const level = generateBoucleLevel(DATE, i)
+    expect(level.solutionWord).toHaveLength(level.width)
   })
 
   it('génération déterministe', () => {
-    const a = generateBoucleLevel('2026-05-07', 2)
-    const b = generateBoucleLevel('2026-05-07', 2)
-    expect(a.solutionWord).toBe(b.solutionWord)
-    expect(a.letters).toEqual(b.letters)
+    expect(generateBoucleLevel(DATE, 2)).toEqual(generateBoucleLevel(DATE, 2))
   })
 
-  it('mot solution = hauteur de la grille', () => {
-    for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateBoucleLevel('2026-05-07', idx)
-      expect(level.solutionWord.length).toBe(level.height)
-    }
+  it('écarte les mots déjà publiés', () => {
+    const first = generateBoucleLevel(DATE, 1)
+    const other = generateBoucleLevel(DATE, 1, { usedWords: new Set([first.solutionWord]) })
+    expect(other.solutionWord).not.toBe(first.solutionWord)
   })
 })

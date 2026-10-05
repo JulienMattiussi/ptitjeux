@@ -24,7 +24,7 @@ différents).
 Les règles automatiques des listes (taille, dictionnaire, famille, mot qui
 trahit le thème, répétition à moins de 3 jours…) sont dans
 `generators/semantogramme-curation.ts` et vérifiées sur tout le corpus par
-`tests/unit/semantogramme-curation.test.ts`. Le jugement (lien évident,
+`tests/unit/semantogramme.curation.test.ts`. Le jugement (lien évident,
 nom propre connu) reste une relecture humaine.
 
 ## Génération

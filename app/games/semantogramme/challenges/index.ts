@@ -6,4 +6,4 @@ const modules = import.meta.glob<Level>('./*/*.json', {
   import: 'default',
 })
 
-export const { getChallenge, getLevel, getAllDates } = buildChallengeIndex(modules)
+export const { getLevel, getAllDates } = buildChallengeIndex(modules)

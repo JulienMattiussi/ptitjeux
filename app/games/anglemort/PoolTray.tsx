@@ -1,4 +1,4 @@
-import { GUARD_TYPES, remaining } from './engine'
+import { GUARD_TYPES, remaining, restFacing } from './engine'
 import { GuardSprite } from './GuardSprite'
 import type { GameState, GuardType } from './types'
 
@@ -30,7 +30,7 @@ export function PoolTray({ state }: { state: GameState }) {
           {Array.from({ length: remaining(state, type) }, (_, i) => (
             <li key={i} title={`Vigile à ${TYPE_LABEL[type]}`}>
               <svg viewBox="-20 -20 40 40" width="36" height="36" aria-hidden="true">
-                <GuardSprite type={type} facing={type === 'oppose' ? 'E' : 'N'} beams={false} />
+                <GuardSprite type={type} facing={restFacing(type)} beams={false} />
               </svg>
             </li>
           ))}

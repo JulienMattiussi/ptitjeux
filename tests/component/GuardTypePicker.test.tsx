@@ -18,6 +18,7 @@ function state(pool: Pool) {
     clues: {},
     pool,
     solution: [],
+    parMoves: 0,
   }
   return loadLevel(level)
 }

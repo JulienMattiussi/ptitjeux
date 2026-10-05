@@ -1,58 +1,70 @@
 import { useEffect } from 'react'
+import { useNavigate, useParams } from 'react-router'
+import { lastAvailableDate } from '~/games'
+import { LEVEL_INDICES } from '~/games/types'
+import { victoryVariant, type SolvedStatus } from './completion'
 import { dateLabel, todayString } from './dates'
-import { writeLevelProgress } from './localStorage'
-import { levelKey } from './useLocalProgress'
+import type { GameId } from './game-styles'
+import { findGame } from './games-registry'
+import { levelKey, recordWin } from './localStorage'
+
+/**
+ * Niveau désigné par l'URL `/<jeu>/:date/:index`, `undefined` s'il n'existe
+ * pas. Lu par le wrapper de chaque route de partie, qui affiche alors
+ * `LevelNotFound`, ou remonte la partie sur un `key` propre au niveau.
+ */
+export function useLevelParams<L>(getLevel: (date: string, index: number) => L | undefined) {
+  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
+  const idx = Number(index)
+  return { date, idx, level: getLevel(date, idx) }
+}
 
 type Options = {
-  /** Identifiant du jeu, aussi utilisé comme préfixe de route (`/sokomot`, …). */
-  gameId: string
+  gameId: GameId
   date: string
   idx: number
-  /** Date du dernier niveau disponible (pour la mention « Défi du jour »). */
-  lastAvailableDate?: string
   won: boolean
   moves: number
-  /** Nombre de niveaux dans une journée (4 par défaut, le dernier n'a pas de « suivant »). */
-  totalLevels?: number
+  parMoves: number
 }
 
 type Lifecycle = {
-  isToday: boolean
-  dateChip: string
-  /** URL du niveau suivant, ou `undefined` si on est au dernier. */
+  /** Titre de la barre du haut : jeu, « Défi du jour » ou date, niveau. */
+  title: string
+  /** Liste des niveaux, ouverte sur le jour joué. */
+  backHref: string
+  goBack: () => void
+  /** URL du niveau suivant, `undefined` au dernier niveau du jour. */
   nextHref: string | undefined
+  variant: SolvedStatus
 }
 
 /**
- * Centralise les calculs et effets dupliqués entre les 3 pages de jeu :
- * - étiquette « Défi du jour » vs date complète,
- * - calcul de l'URL du niveau suivant (4 niveaux par jour),
- * - écriture de la progression dans `localStorage` à la victoire.
- *
- * Les pages de jeu restent responsables de leurs spécificités (reducer,
- * sélection clavier propre au plateau, animations, etc.).
+ * Ce que toutes les pages de partie partagent : titre, liens de navigation,
+ * variante de victoire et enregistrement de la progression à la victoire.
  */
 export function useLevelPlayLifecycle({
   gameId,
   date,
   idx,
-  lastAvailableDate,
   won,
   moves,
-  totalLevels = 4,
+  parMoves,
 }: Options): Lifecycle {
+  const navigate = useNavigate()
+
   useEffect(() => {
-    if (won && date && idx) {
-      writeLevelProgress(gameId, levelKey(date, idx), {
-        completed: true,
-        bestMoves: moves,
-      })
-    }
+    if (won) recordWin(gameId, levelKey(date, idx), moves)
   }, [gameId, won, date, idx, moves])
 
-  const isToday = !!date && !!lastAvailableDate && date === todayString(lastAvailableDate)
-  const dateChip = isToday ? 'Défi du jour' : date ? dateLabel(date) : ''
-  const nextHref = idx < totalLevels ? `/${gameId}/${date}/${idx + 1}` : undefined
-
-  return { isToday, dateChip, nextHref }
+  const isToday = date === todayString(lastAvailableDate(gameId))
+  const dateChip = isToday ? 'Défi du jour' : dateLabel(date)
+  const backHref = `/${gameId}?from=${date}`
+  return {
+    title: `${findGame(gameId).name} · ${dateChip} · niveau ${idx}`,
+    backHref,
+    goBack: () => navigate(backHref),
+    nextHref: idx < LEVEL_INDICES.length ? `/${gameId}/${date}/${idx + 1}` : undefined,
+    variant: victoryVariant(moves, parMoves),
+  }
 }

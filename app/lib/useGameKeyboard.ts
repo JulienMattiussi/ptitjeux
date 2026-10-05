@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
+import type { Direction } from './cursor'
 
-export type GameKeyDirection = 'up' | 'down' | 'left' | 'right'
-
-const KEY_TO_DIRECTION: Record<string, GameKeyDirection> = {
+const KEY_TO_DIRECTION: Record<string, Direction> = {
   ArrowUp: 'up',
   ArrowDown: 'down',
   ArrowLeft: 'left',
@@ -20,7 +19,7 @@ const KEY_TO_DIRECTION: Record<string, GameKeyDirection> = {
 // `event.code` cible la position physique de la touche, indépendamment de la
 // disposition : permet de couvrir QWERTZ et autres dispositions sans surcharger
 // `KEY_TO_DIRECTION`.
-const CODE_TO_DIRECTION: Record<string, GameKeyDirection> = {
+const CODE_TO_DIRECTION: Record<string, Direction> = {
   KeyW: 'up',
   KeyA: 'left',
   KeyS: 'down',
@@ -28,7 +27,7 @@ const CODE_TO_DIRECTION: Record<string, GameKeyDirection> = {
 }
 
 /** Direction associée à une touche (flèches, ZQSD, WASD), quelle que soit la disposition. */
-export function keyDirection(event: KeyboardEvent): GameKeyDirection | undefined {
+export function keyDirection(event: KeyboardEvent): Direction | undefined {
   return KEY_TO_DIRECTION[event.key] ?? CODE_TO_DIRECTION[event.code]
 }
 
@@ -36,7 +35,7 @@ export function keyDirection(event: KeyboardEvent): GameKeyDirection | undefined
  * Chiffre 1 à 9 associé à une touche. On lit aussi `event.code` : sur AZERTY,
  * la rangée des chiffres produit `&`, `é`, `"`… sans Majuscule.
  */
-export function keyDigit(event: KeyboardEvent): number | undefined {
+function keyDigit(event: KeyboardEvent): number | undefined {
   if (/^[1-9]$/.test(event.key)) return Number(event.key)
   const match = /^(?:Digit|Numpad)([1-9])$/.exec(event.code)
   return match ? Number(match[1]) : undefined
@@ -46,7 +45,7 @@ const ACTION_KEYS = new Set([' ', 'Enter'])
 
 type Options = {
   enabled: boolean
-  onDirection?: (direction: GameKeyDirection) => void
+  onDirection?: (direction: Direction) => void
   /** Espace ou Entrée — action principale (poser/cycler/basculer). */
   onAction?: () => void
   /**
@@ -56,7 +55,7 @@ type Options = {
   onSecondaryAction?: () => void
   /** Ctrl+Z / Cmd+Z. */
   onUndo?: () => void
-  /** Touche `r`. */
+  /** Touche R (sans Ctrl ni Cmd, pour laisser le rechargement de page au navigateur). */
   onReset?: () => void
   /** Échap : quitter la partie (retour à la liste des niveaux). */
   onBack?: () => void
@@ -67,15 +66,8 @@ type Options = {
 }
 
 /**
- * Écoute les frappes clavier au niveau `window` et invoque les callbacks
- * adéquats. Centralise le pattern dupliqué dans les 3 routes de jeu :
- * - flèches (et ZQSD pour Sokomot) → `onDirection`
- * - Espace / Entrée → `onAction`
- * - Ctrl+Z / Cmd+Z → `onUndo`
- * - `r` → `onReset`
- *
- * Le listener est suspendu quand `enabled === false` (typiquement après la
- * victoire ou avant que le niveau ne soit chargé).
+ * Clavier commun aux pages de jeu, écouté sur `window`. Suspendu quand
+ * `enabled` est faux (typiquement après la victoire).
  */
 export function useGameKeyboard({
   enabled,
@@ -133,7 +125,7 @@ export function useGameKeyboard({
         onAction()
         return
       }
-      if (onReset && event.key === 'r') {
+      if (onReset && event.key.toLowerCase() === 'r' && !event.ctrlKey && !event.metaKey) {
         onReset()
       }
     }

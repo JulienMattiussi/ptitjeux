@@ -1,13 +1,18 @@
 import { describe, expect, it } from 'vitest'
 import {
   areCluesSatisfied,
+  clueCell,
+  clueStatus,
+  countClues,
   countEdgesAroundCell,
+  countSatisfiedClues,
   findInsideCells,
   getInsideWord,
   isValidLoop,
   isWon,
   loadLevel,
   moveEdgeSelection,
+  sameEdge,
   toggleEdge,
 } from '~/games/boucle/engine'
 import type { Edge, Level } from '~/games/boucle/types'
@@ -25,6 +30,9 @@ function makeLevel(overrides: Partial<Level> = {}): Level {
     ],
     clues: {},
     solutionWord: 'E',
+    solutionInsideCells: [[1, 1]],
+    parMoves: 4,
+    canonicalWord: 'e',
     ...overrides,
   }
 }
@@ -244,5 +252,44 @@ describe('boucle engine', () => {
       state = toggleEdge(state, e)
     }
     expect(isWon(state)).toBe(true)
+  })
+})
+
+describe('boucle engine : indices', () => {
+  const square: Edge[] = [
+    { x: 1, y: 1, orientation: 'horizontal' },
+    { x: 1, y: 2, orientation: 'horizontal' },
+    { x: 1, y: 1, orientation: 'vertical' },
+    { x: 2, y: 1, orientation: 'vertical' },
+  ]
+
+  function withEdges(clues: Record<string, number>, edges: Edge[]) {
+    return { ...loadLevel(makeLevel({ clues })), edges }
+  }
+
+  it("clueCell lit la case d'une clé « x,y »", () => {
+    expect(clueCell('2,1')).toEqual([2, 1])
+  })
+
+  it('clueStatus : satisfait, dépassé ou pas encore atteint', () => {
+    const state = withEdges({ '1,1': 4, '0,1': 0, '1,0': 2 }, square)
+    expect(clueStatus(state, 1, 1)).toBe('ok')
+    expect(clueStatus(state, 0, 1)).toBe('over')
+    expect(clueStatus(state, 1, 0)).toBe('under')
+  })
+
+  it('clueStatus renvoie null sur une case sans indice', () => {
+    expect(clueStatus(withEdges({}, square), 0, 0)).toBeNull()
+  })
+
+  it('compte les indices satisfaits parmi tous les indices', () => {
+    const state = withEdges({ '1,1': 4, '0,1': 0, '1,0': 1 }, square)
+    expect(countSatisfiedClues(state)).toBe(2)
+    expect(countClues(state)).toBe(3)
+  })
+
+  it('sameEdge compare position et orientation', () => {
+    expect(sameEdge(square[0], { x: 1, y: 1, orientation: 'horizontal' })).toBe(true)
+    expect(sameEdge(square[0], { x: 1, y: 1, orientation: 'vertical' })).toBe(false)
   })
 })

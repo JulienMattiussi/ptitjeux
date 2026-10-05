@@ -1,3 +1,4 @@
+import { stripAccents } from '~/lib/text'
 import type { CellStatus, GameState, Level } from './types'
 
 export function loadLevel(level: Level): GameState {
@@ -32,7 +33,7 @@ export function setThemeGuess(state: GameState, themeGuess: string): GameState {
   return { ...state, themeGuess }
 }
 
-export function reset(state: GameState): GameState {
+function reset(state: GameState): GameState {
   return loadLevel(state.level)
 }
 
@@ -71,7 +72,7 @@ export function isGridSolved(state: GameState): boolean {
 }
 
 function normalize(s: string): string {
-  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
+  return stripAccents(s).toLowerCase().trim()
 }
 
 export function isThemeGuessCorrect(state: GameState): boolean {

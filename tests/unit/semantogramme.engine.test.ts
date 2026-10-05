@@ -30,6 +30,7 @@ function makeLevel(overrides: Partial<Level> = {}): Level {
       [true, false],
       [false, true],
     ],
+    parMoves: 2,
     ...overrides,
   }
 }

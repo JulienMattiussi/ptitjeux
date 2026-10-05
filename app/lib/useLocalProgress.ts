@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
-import { readGameProgress, type GameProgress } from './localStorage'
+import type { GameId } from './game-styles'
+import { readGameProgress, STORAGE_KEY, type GameProgress } from './localStorage'
 
 /**
  * Hook SSR-safe qui lit la progression locale d'un jeu et se met à jour
  * lorsque la valeur change dans `localStorage` (y compris via d'autres onglets).
  */
-export function useLocalProgress(gameId: string): GameProgress {
+export function useLocalProgress(gameId: GameId): GameProgress {
   const [progress, setProgress] = useState<GameProgress>({})
 
   useEffect(() => {
@@ -14,7 +15,7 @@ export function useLocalProgress(gameId: string): GameProgress {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(readGameProgress(gameId))
     function handler(event: StorageEvent) {
-      if (event.key === 'ptitjeux.progress') {
+      if (event.key === STORAGE_KEY) {
         setProgress(readGameProgress(gameId))
       }
     }
@@ -23,9 +24,4 @@ export function useLocalProgress(gameId: string): GameProgress {
   }, [gameId])
 
   return progress
-}
-
-/** Construit l'identifiant de progression utilisé pour un (date, index). */
-export function levelKey(date: string, index: number): string {
-  return `${date}-${index}`
 }

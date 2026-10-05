@@ -1,6 +1,6 @@
 /**
  * Source unique de vérité pour les styles et conventions par jeu :
- * couleurs d'accent, formules de taille de niveau, helpers spécifiques.
+ * couleurs d'accent et formules de taille de niveau.
  *
  * Tout composant qui rend des éléments dépendant du jeu (cartes, tuiles,
  * accordéons, boards) doit consommer ces constantes plutôt que de

@@ -95,7 +95,7 @@ describe('VictoryOverlay', () => {
     expect(onReset).toHaveBeenCalledTimes(1)
   })
 
-  it('flèche gauche / Backspace / Échap navigue vers backHref', async () => {
+  it('flèche gauche navigue vers backHref', async () => {
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     renderOverlay()
     await user.keyboard('{ArrowLeft}')

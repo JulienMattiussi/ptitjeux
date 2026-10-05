@@ -1,5 +1,6 @@
-import { ANGLE, useHeading } from './rotation'
+import { ANGLE, useHeading } from './useHeading'
 import type { Dir } from './types'
+import { THIEF_STEP_MS } from './useThiefWalk'
 
 /**
  * Cambrioleur vu de dessus, sur le même gabarit que le vigile : vêtements
@@ -10,7 +11,10 @@ export function ThiefSprite({ facing = 'N' }: { facing?: Dir }) {
   const angle = useHeading(ANGLE[facing])
   return (
     <g
-      style={{ transform: `rotate(${angle}deg)`, transition: 'transform 140ms linear' }}
+      style={{
+        transform: `rotate(${angle}deg)`,
+        transition: `transform ${THIEF_STEP_MS}ms linear`,
+      }}
       aria-hidden="true"
     >
       <rect x="-13" y="-4" width="26" height="12" rx="4" className="fill-orange-500" />

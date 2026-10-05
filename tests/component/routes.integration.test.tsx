@@ -41,9 +41,7 @@ describe('routes (intégration) : Sokomot — flow complet jouer → gagner → 
   })
 
   it('appliquer la solution au clavier déclenche la victoire et écrit la progression', async () => {
-    const level = getLevel(DATE, 1)
-    expect(level, 'niveau de test introuvable').toBeDefined()
-    expect(level!.solution, 'niveau sans solution stockée').toBeDefined()
+    const level = getLevel(DATE, 1)!
 
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     renderRoute(`/sokomot/${DATE}/1`)
@@ -52,7 +50,7 @@ describe('routes (intégration) : Sokomot — flow complet jouer → gagner → 
     expect(screen.queryByText(/Niveau parfait|Niveau résolu/)).not.toBeInTheDocument()
 
     // Joue la solution stockée.
-    for (const move of level!.solution!) {
+    for (const move of level.solution) {
       await user.keyboard(KEY_BY_DIRECTION[move])
     }
 
@@ -65,26 +63,26 @@ describe('routes (intégration) : Sokomot — flow complet jouer → gagner → 
     // La progression a été écrite dans localStorage.
     const progress = readGameProgress('sokomot')
     expect(progress[`${DATE}-1`]?.completed).toBe(true)
-    expect(progress[`${DATE}-1`]?.bestMoves).toBe(level!.solution!.length)
+    expect(progress[`${DATE}-1`]?.bestMoves).toBe(level.solution.length)
   })
 
   it('le bouton Recommencer remet les coups à 0', async () => {
     const user = userEvent.setup()
     renderRoute(`/sokomot/${DATE}/1`)
-
-    // Quelques déplacements arbitraires.
-    await user.keyboard('{ArrowRight}{ArrowRight}{ArrowDown}')
-
-    // Le compteur Coups (3xl bold) doit refléter les coups effectifs (peut
-    // être < 3 si certains coups étaient bloqués par un mur).
+    // Le premier coup de la solution est forcément jouable.
+    await user.keyboard(KEY_BY_DIRECTION[getLevel(DATE, 1)!.solution[0]])
     const counter = screen.getByText('Coups').nextElementSibling
-    const before = Number(counter?.textContent ?? '0')
+    expect(counter).toHaveTextContent('1')
 
     await user.click(screen.getByRole('button', { name: /Recommencer/i }))
+    expect(counter).toHaveTextContent('0')
+  })
 
-    const after = Number(counter?.textContent ?? '-1')
-    expect(after).toBe(0)
-    // Et avant le reset, le compteur n'était pas à 0 (sinon le test ne prouve rien).
-    expect(before).toBeGreaterThanOrEqual(0)
+  it('Ctrl+Z annule le dernier coup', async () => {
+    const user = userEvent.setup()
+    renderRoute(`/sokomot/${DATE}/1`)
+    await user.keyboard(KEY_BY_DIRECTION[getLevel(DATE, 1)!.solution[0]])
+    await user.keyboard('{Control>}z{/Control}')
+    expect(screen.getByText('Coups').nextElementSibling).toHaveTextContent('0')
   })
 })

@@ -8,10 +8,15 @@ export type GameProgress = Record<string, LevelProgress>
 
 export type AllProgress = Record<string, GameProgress>
 
-const STORAGE_KEY = 'ptitjeux.progress'
+export const STORAGE_KEY = 'ptitjeux.progress'
 
 function isBrowser(): boolean {
   return typeof window !== 'undefined' && typeof window.localStorage !== 'undefined'
+}
+
+/** Identifiant de progression d'un niveau (date, index). */
+export function levelKey(date: string, index: number): string {
+  return `${date}-${index}`
 }
 
 export function readAllProgress(): AllProgress {
@@ -48,7 +53,14 @@ export function writeLevelProgress(
   }
 }
 
-export function countCompleted(gameId: string): number {
-  const game = readGameProgress(gameId)
-  return Object.values(game).filter((l) => l.completed).length
+/**
+ * Enregistre une victoire en gardant le meilleur score : rejouer un niveau
+ * parfait en plus de coups ne doit pas lui faire perdre son statut.
+ */
+export function recordWin(gameId: string, levelId: string, moves: number): void {
+  const best = readGameProgress(gameId)[levelId]?.bestMoves
+  writeLevelProgress(gameId, levelId, {
+    completed: true,
+    bestMoves: best === undefined ? moves : Math.min(best, moves),
+  })
 }

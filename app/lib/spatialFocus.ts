@@ -1,4 +1,4 @@
-import type { GameKeyDirection } from './useGameKeyboard'
+import type { Direction } from './cursor'
 
 export type Box = { left: number; top: number; width: number; height: number }
 
@@ -11,7 +11,7 @@ const EPSILON = 1
  * l'écart latéral pèse double pour préférer l'élément aligné (même ligne ou
  * même colonne) à un voisin en diagonale.
  */
-export function pickInDirection(from: Box, candidates: Box[], direction: GameKeyDirection): number {
+export function pickInDirection(from: Box, candidates: Box[], direction: Direction): number {
   const cx = from.left + from.width / 2
   const cy = from.top + from.height / 2
   let best = -1

@@ -1,13 +1,15 @@
-import { describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
 import {
-  compareDates,
   dateLabel,
   dateLabelShort,
   dateRange,
+  daysBetween,
   formatDate,
   monthKey,
   monthLabel,
   parseDate,
+  shouldShowFutureDates,
+  todayString,
 } from '~/lib/dates'
 
 describe('lib/dates', () => {
@@ -22,12 +24,13 @@ describe('lib/dates', () => {
     expect(parseDate(formatDate(d)).getTime()).toBe(d.getTime())
   })
 
-  it('compareDates ordonne chronologiquement', () => {
-    expect(compareDates('2026-04-01', '2026-04-02')).toBe(-1)
-    expect(compareDates('2026-04-02', '2026-04-01')).toBe(1)
-    expect(compareDates('2026-04-01', '2026-04-01')).toBe(0)
-    // Tri lexicographique = chronologique grâce au padding
-    expect(['2026-05-01', '2026-04-30'].sort(compareDates)).toEqual(['2026-04-30', '2026-05-01'])
+  it('daysBetween compte les jours, en négatif vers le passé', () => {
+    expect(daysBetween('2026-09-01', '2026-10-01')).toBe(30)
+    expect(daysBetween('2026-10-01', '2026-09-01')).toBe(-30)
+  })
+
+  it("daysBetween ignore le changement d'heure", () => {
+    expect(daysBetween('2026-10-24', '2026-10-26')).toBe(2)
   })
 
   it('monthKey extrait YYYY-MM', () => {
@@ -64,5 +67,26 @@ describe('lib/dates', () => {
 
   it('dateRange supporte une seule date', () => {
     expect(dateRange('2026-05-07', '2026-05-07')).toEqual(['2026-05-07'])
+  })
+})
+
+describe('lib/dates : drapeaux de dev', () => {
+  afterEach(() => {
+    vi.unstubAllEnvs()
+  })
+
+  it('todayString renvoie la vraie date du jour par défaut', () => {
+    expect(todayString('2027-09-30')).toBe(formatDate(new Date()))
+  })
+
+  it('todayString se fige sur la dernière date disponible avec VITE_FREEZE_TODAY', () => {
+    vi.stubEnv('VITE_FREEZE_TODAY', 'last-available')
+    expect(todayString('2027-09-30')).toBe('2027-09-30')
+  })
+
+  it('shouldShowFutureDates suit VITE_SHOW_FUTURE_DAYS', () => {
+    expect(shouldShowFutureDates()).toBe(false)
+    vi.stubEnv('VITE_SHOW_FUTURE_DAYS', '1')
+    expect(shouldShowFutureDates()).toBe(true)
   })
 })

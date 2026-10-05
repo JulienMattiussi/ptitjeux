@@ -1,79 +1,111 @@
 import { describe, expect, it } from 'vitest'
-import { applyMove, isWon, loadLevel } from '~/games/sokomot/engine'
+import { isWon } from '~/games/sokomot/engine'
+import type { Level } from '~/games/sokomot/types'
+import { LEVEL_INDICES } from '~/games/types'
+import { GAME_SIZE } from '~/lib/game-styles'
+import { stripAccents } from '~/lib/text'
+import { Rng } from '../../generators/random'
 import { generateSokomotLevel, isIceIndex } from '../../generators/sokomot'
+import { buildBorderWalls } from '../../generators/sokomot-grid'
+import { tryGenerateSokobanPullChain } from '../../generators/sokomot-pullchain'
+import { replaySolution } from '../helpers/sokomot'
+
+const DATE = '2026-10-07'
+// Les niveaux 3 et 4 passent par les solveurs, qui prennent quelques secondes.
+const SOLVER_TIMEOUT = 30_000
 
 describe('sokomot/generator', () => {
   it('isIceIndex cible niveaux 2 et 4 uniquement', () => {
-    expect(isIceIndex(1)).toBe(false)
-    expect(isIceIndex(2)).toBe(true)
-    expect(isIceIndex(3)).toBe(false)
-    expect(isIceIndex(4)).toBe(true)
+    expect(LEVEL_INDICES.map(isIceIndex)).toEqual([false, true, false, true])
   })
 
-  it('niveau 1 : 7×6 sans glace, mot de 3 lettres', () => {
-    const level = generateSokomotLevel('2026-05-07', 1)
-    expect(level.width).toBe(7)
-    expect(level.height).toBe(6)
-    expect(level.ice).toEqual([])
-    expect(level.target.word.length).toBe(3)
-    expect(level.target.cells.length).toBe(3)
-    expect(level.blocks.length).toBe(3)
+  it.each(LEVEL_INDICES)(
+    'niveau %s : taille, longueur du mot et glace attendues',
+    (i) => {
+      const level = generateSokomotLevel(DATE, i)
+      expect({ width: level.width, height: level.height }).toEqual(GAME_SIZE.sokomot(i))
+      expect(level.target.word).toHaveLength(2 + i)
+      expect(level.blocks).toHaveLength(2 + i)
+      expect(level.ice.length > 0).toBe(isIceIndex(i))
+      expect(level.name.includes('glace')).toBe(isIceIndex(i))
+    },
+    SOLVER_TIMEOUT,
+  )
+
+  it("niveau 4 : tout l'intérieur est gelé", () => {
+    const level = generateSokomotLevel(DATE, 4)
+    expect(level.ice).toHaveLength((level.width - 2) * (level.height - 2))
   })
 
-  it('niveau 2 : 8×7 avec glace, mot de 4 lettres', () => {
-    const level = generateSokomotLevel('2026-05-07', 2)
-    expect(level.width).toBe(8)
-    expect(level.height).toBe(7)
-    expect(level.ice.length).toBeGreaterThan(0)
-    expect(level.target.word.length).toBe(4)
-    expect(level.name).toMatch(/glace/)
+  it.each(LEVEL_INDICES)(
+    'niveau %s : la solution stockée gagne en parMoves coups',
+    (i) => {
+      const level = generateSokomotLevel(DATE, i)
+      expect(isWon(replaySolution(level))).toBe(true)
+      expect(level.solution).toHaveLength(level.parMoves)
+    },
+    SOLVER_TIMEOUT,
+  )
+
+  it.each(LEVEL_INDICES)(
+    'niveau %s : le mot affiché est le canonicalWord sans accents',
+    (i) => {
+      const level = generateSokomotLevel(DATE, i)
+      expect(stripAccents(level.canonicalWord).toUpperCase()).toBe(level.target.word)
+    },
+    SOLVER_TIMEOUT,
+  )
+
+  it('génération déterministe (même date et index, même niveau)', () => {
+    expect(generateSokomotLevel(DATE, 2)).toEqual(generateSokomotLevel(DATE, 2))
   })
 
-  it('niveau 4 : 10×9 avec glace plus longue', () => {
-    const l2 = generateSokomotLevel('2026-05-07', 2)
-    const l4 = generateSokomotLevel('2026-05-07', 4)
-    expect(l4.width).toBe(10)
-    expect(l4.height).toBe(9)
-    expect(l4.ice.length).toBeGreaterThan(l2.ice.length)
-    expect(l4.target.word.length).toBe(6)
+  it('génération qui varie selon la date', () => {
+    const words = ['2026-10-01', '2026-10-02', '2026-10-03'].map(
+      (d) => generateSokomotLevel(d, 1).target.word,
+    )
+    expect(new Set(words).size).toBeGreaterThan(1)
   })
 
-  it('expose le canonicalWord (forme avec accents pour le Wiktionnaire)', () => {
-    for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateSokomotLevel('2026-05-07', idx)
-      expect(level.canonicalWord).toBeDefined()
-      expect(typeof level.canonicalWord).toBe('string')
-      // Le display est l'ASCII du canonical
-      const stripped = level.canonicalWord!.normalize('NFD').replace(/\p{Diacritic}/gu, '')
-      expect(stripped.toUpperCase()).toBe(level.target.word)
+  it('écarte les mots déjà publiés', () => {
+    const first = generateSokomotLevel(DATE, 1)
+    const other = generateSokomotLevel(DATE, 1, { usedWords: new Set([first.target.word]) })
+    expect(other.target.word).not.toBe(first.target.word)
+  })
+})
+
+describe('sokomot/pullchain (niveau 3)', () => {
+  const draft = (() => {
+    for (let attempt = 0; ; attempt++) {
+      const found = tryGenerateSokobanPullChain(new Rng(`test:${attempt}`), 'MOTUS', 9, 8, 2)
+      if (found) return found
     }
-  }, 30_000) // L3 et L4 lancent un solveur A* qui peut prendre quelques secondes.
+  })()
 
-  it('génération déterministe (même date+index → même niveau)', () => {
-    const a = generateSokomotLevel('2026-05-07', 2)
-    const b = generateSokomotLevel('2026-05-07', 2)
-    expect(a.target.word).toBe(b.target.word)
-    expect(a.solution).toEqual(b.solution)
+  it("aucun obstacle intérieur ni glace : seulement les murs d'enceinte", () => {
+    expect(draft.walls).toEqual(buildBorderWalls(9, 8))
+    expect(draft.ice).toEqual([])
   })
 
-  it('génération diverge selon la date', () => {
-    let differ = 0
-    for (let i = 0; i < 5; i++) {
-      const a = generateSokomotLevel(`2026-04-0${i + 1}`, 1)
-      const b = generateSokomotLevel(`2026-05-0${i + 1}`, 1)
-      if (a.target.word !== b.target.word) differ++
-    }
-    expect(differ).toBeGreaterThan(0)
+  it('aucun bloc ne part sur sa cible', () => {
+    draft.blocks.forEach((b, i) => expect(b.pos).not.toEqual(draft.targets[i]))
   })
 
-  it('la solution stockée résout effectivement le niveau', () => {
-    for (const idx of [1, 2, 3, 4] as const) {
-      const level = generateSokomotLevel('2026-05-07', idx)
-      let state = loadLevel(level)
-      for (const move of level.solution!) {
-        state = applyMove(state, move)
-      }
-      expect(isWon(state), `niveau ${idx} non résolu`).toBe(true)
+  it('la solution générée à rebours gagne', () => {
+    const level: Level = {
+      id: 'test',
+      name: 'test',
+      width: 9,
+      height: 8,
+      player: draft.player,
+      walls: draft.walls,
+      ice: draft.ice,
+      blocks: draft.blocks,
+      target: { word: 'MOTUS', cells: draft.targets },
+      parMoves: draft.solution.length,
+      solution: draft.solution,
+      canonicalWord: 'motus',
     }
-  }, 30_000)
+    expect(isWon(replaySolution(level))).toBe(true)
+  })
 })

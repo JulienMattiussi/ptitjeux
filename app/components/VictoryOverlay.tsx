@@ -1,7 +1,6 @@
 import { Link, useNavigate } from 'react-router'
 import { useEffect, type ReactNode } from 'react'
-
-export type VictoryVariant = 'perfect' | 'solved'
+import type { SolvedStatus } from '~/lib/completion'
 
 type Props = {
   show: boolean
@@ -9,10 +8,9 @@ type Props = {
   detail?: ReactNode
   onReset: () => void
   backHref: string
-  backLabel?: string
   /**
-   * Si défini, affiche un bouton « Niveau suivant → » comme action principale,
-   * et reléguer « Rejouer » en action secondaire. Doit pointer vers le niveau
+   * Si défini, affiche un bouton « Suivant → » comme action principale, et
+   * relègue « Rejouer » en action secondaire. Doit pointer vers le niveau
    * suivant (par exemple `/sokomot/2026-05-08/2`).
    */
   nextHref?: string
@@ -20,11 +18,11 @@ type Props = {
    * `perfect` (vert) : objectif de coups atteint.
    * `solved` (ambre) : niveau résolu mais au-dessus de l'objectif.
    */
-  variant?: VictoryVariant
+  variant?: SolvedStatus
 }
 
 const STYLES: Record<
-  VictoryVariant,
+  SolvedStatus,
   {
     border: string
     cardBg: string
@@ -63,8 +61,8 @@ const STYLES: Record<
 /**
  * Overlay de victoire commun. Couvre intégralement la `GameFrame` parente
  * (qui doit être en `position: relative`) avec un voile flou et une carte
- * centrée. Bloque les interactions sous-jacentes ; les seuls choix possibles
- * sont « Rejouer » ou retourner à la liste des niveaux.
+ * centrée. Bloque les interactions sous-jacentes : retour à la liste,
+ * « Rejouer » ou « Suivant ».
  *
  * Deux variantes :
  * - `perfect` (vert) : objectif de coups atteint — célébration maximale.
@@ -77,7 +75,6 @@ export function VictoryOverlay({
   detail,
   onReset,
   backHref,
-  backLabel = '← Niveaux',
   nextHref,
   variant = 'perfect',
 }: Props) {
@@ -161,7 +158,7 @@ export function VictoryOverlay({
             to={backHref}
             className={`rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`}
           >
-            {backLabel}
+            ← Niveaux
           </Link>
           <button
             type="button"

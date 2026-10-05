@@ -38,6 +38,7 @@ function room(clues: Record<string, number> = {}): Level {
     clues,
     pool: { simple: 1, angle: 0, oppose: 0 },
     solution: [{ pos: [0, 1], type: 'simple', facing: 'E' }],
+    parMoves: 1,
   }
 }
 

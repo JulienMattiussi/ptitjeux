@@ -1,16 +1,16 @@
 import { useMemo, useReducer, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
+import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/anglemort/Board'
-import { getAllDates, getLevel } from '~/games/anglemort/challenges'
+import { getLevel } from '~/games/anglemort/challenges'
 import {
   computeVision,
   corridorOrder,
@@ -18,22 +18,24 @@ import {
   guardAt,
   isWon,
   loadLevel,
+  pickableTypes,
   reducer,
   remaining,
+  stepDir,
   unseenCells,
 } from '~/games/anglemort/engine'
-import { GuardTypePicker, pickableTypes } from '~/games/anglemort/GuardTypePicker'
+import { GuardTypePicker } from '~/games/anglemort/GuardTypePicker'
 import { MirrorHelp } from '~/games/anglemort/MirrorHelp'
 import { PoolTray } from '~/games/anglemort/PoolTray'
-import type { Dir, GameState, GuardType, Pos } from '~/games/anglemort/types'
+import type { GuardType, Level } from '~/games/anglemort/types'
 import { useThiefWalk } from '~/games/anglemort/useThiefWalk'
-import { moveCellCursor } from '~/lib/cursor'
+import { moveCellCursor, type CellCursor } from '~/lib/cursor'
+import { plural } from '~/lib/text'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
-import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
-import { getVictoryState } from '~/lib/victoryState'
+import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/anglemort.$date.$index'
 
@@ -43,62 +45,58 @@ export function meta({ params }: Route.MetaArgs) {
 
 const undoableReducer = withUndo(reducer, (action) => action.type !== 'reset')
 
-function stepDir([fx, fy]: Pos, [tx, ty]: Pos): Dir {
-  if (tx > fx) return 'E'
-  if (tx < fx) return 'W'
-  return ty > fy ? 'S' : 'N'
-}
-
-// Wrapper qui force un remount complet quand l'URL change de niveau.
+// Le `key` remonte une partie neuve à chaque changement de niveau.
 export default function AngleMortPlayRoute() {
-  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
-  return <AngleMortPlay key={`${date}-${index}`} />
+  const { date, idx, level } = useLevelParams(getLevel)
+  if (!level) return <LevelNotFound backHref="/anglemort" />
+  return <AngleMortPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
 }
 
-function AngleMortPlay() {
-  const { date, index } = useParams<{ date: string; index: string }>()
-  const navigate = useNavigate()
-  const idx = Number(index)
-  const level = date && idx ? getLevel(date, idx) : undefined
-
-  const [history, dispatch] = useReducer(undoableReducer, level ?? null, (initialLevel) =>
-    undoable(initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
-  )
+function AngleMortPlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+  const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
-  const won = level ? isWon(state) : false
+  const won = isWon(state)
+  const hint = useHint(state.moves, level.parMoves)
+  const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
+    gameId: 'anglemort',
+    date,
+    idx,
+    won,
+    moves: state.moves,
+    parMoves: level.parMoves,
+  })
+
   // Le cambrioleur traverse le couloir avant l'annonce de la victoire.
   const corridor = useMemo(
     () =>
       won
         ? corridorOrder(
-            unseenCells(state.level, state.guards, computeVision(state.level, state.guards)),
-            state.level.door,
+            unseenCells(level, state.guards, computeVision(level, state.guards)),
+            level.door,
           )
         : [],
-    [won, state.level, state.guards],
+    [won, level, state.guards],
   )
   const walk = useThiefWalk(won, corridor.length)
 
-  const [selected, setSelected] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
+  const [selected, setSelected] = useState<CellCursor>({ x: 0, y: 0 })
   const selectedRef = useLatestRef(selected)
 
   // Type de vigile à poser (sélecteur sous la grille). Quand le type choisi est
   // épuisé, on bascule sur le premier type encore disponible.
-  const types = level ? pickableTypes(state) : []
+  const types = pickableTypes(state)
   const [chosenType, setChosenType] = useState<GuardType>(types[0] ?? 'simple')
   const guardType =
-    !level || remaining(state, chosenType) > 0
+    remaining(state, chosenType) > 0
       ? chosenType
       : (types.find((t) => remaining(state, t) > 0) ?? chosenType)
   const guardTypeRef = useLatestRef(guardType)
 
   useGameKeyboard({
-    onBack: () => navigate(`/anglemort?from=${date}`),
-    enabled: !!level && !won,
-    onDirection: (direction) => {
-      if (!level) return
-      setSelected((s) => moveCellCursor(s, direction, level.width, level.height))
-    },
+    onBack: goBack,
+    enabled: !won,
+    onDirection: (direction) =>
+      setSelected((s) => moveCellCursor(s, direction, level.width, level.height)),
     onAction: () =>
       dispatch({ type: 'toggle', ...selectedRef.current, guardType: guardTypeRef.current }),
     onSecondaryAction: () => dispatch({ type: 'rotate', ...selectedRef.current }),
@@ -110,56 +108,31 @@ function AngleMortPlay() {
     },
   })
 
-  const { beatPar, variant } = getVictoryState(level, state.moves)
-  const hint = useHint(state.moves, level?.parMoves)
-  const allDates = getAllDates()
-  const { dateChip, nextHref } = useLevelPlayLifecycle({
-    gameId: 'anglemort',
-    date: date ?? '',
-    idx,
-    lastAvailableDate: allDates[allDates.length - 1],
-    won,
-    moves: state.moves,
-  })
-
-  if (!level || !date) {
-    return <LevelNotFound backHref="/anglemort" />
-  }
-
   return (
     <GameLayout
-      title={`Angle mort · ${dateChip} · niveau ${idx}`}
+      title={title}
       subtitle="Chef de la sécurité corrompu : laisse le champ libre à ton complice."
-      backHref={`/anglemort?from=${date}`}
+      backHref={backHref}
       backLabel="Niveaux"
     >
       <GameFrame
-        size="lg"
         overlay={
           <VictoryOverlay
             show={won && walk.done}
             variant={variant}
-            title={beatPar ? 'Casse parfait !' : 'Le diamant a disparu'}
+            title={variant === 'perfect' ? 'Casse parfait !' : 'Le diamant a disparu'}
             detail={
               <>
                 <div>
                   Ton complice a filé avec le diamant sans croiser un seul faisceau, et personne ne
                   soupçonne le chef de la sécurité. Vigiles placés en{' '}
-                  <span className="font-bold">
-                    {state.moves} pose{state.moves > 1 ? 's' : ''}
-                  </span>
-                  .
+                  <span className="font-bold">{plural(state.moves, 'pose')}</span>.
                 </div>
-                {level.parMoves !== undefined && (
-                  <div>
-                    Objectif <span className="font-bold">{level.parMoves}</span>{' '}
-                    {beatPar ? 'atteint' : 'dépassé'}.
-                  </div>
-                )}
+                <ParObjective parMoves={level.parMoves} variant={variant} />
               </>
             }
             onReset={() => dispatch({ type: 'reset' })}
-            backHref={`/anglemort?from=${date}`}
+            backHref={backHref}
             nextHref={nextHref}
           />
         }
@@ -187,8 +160,7 @@ function AngleMortPlay() {
               )
             }}
             onCellRemove={(x, y) => {
-              if (won) return
-              dispatch({ type: 'toggle', x, y })
+              if (!won) dispatch({ type: 'toggle', x, y })
             }}
           />
           <GuardTypePicker state={state} selected={guardType} onSelect={setChosenType} />

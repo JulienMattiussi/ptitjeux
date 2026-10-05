@@ -4,20 +4,25 @@ import {
   beamOutlines,
   computeVision,
   corridorOrder,
+  doorSide,
   expectedCorridor,
   guardAt,
   guardDirs,
   isFacingAllowed,
+  isFloor,
   isPlaceable,
   isPoolComplete,
   isSinglePath,
   isWon,
   loadLevel,
+  pickableTypes,
   placeGuard,
   reducer,
   remaining,
   removeGuard,
+  restFacing,
   rotateGuard,
+  stepDir,
   toggleGuard,
   unseenCells,
 } from '~/games/anglemort/engine'
@@ -152,7 +157,7 @@ describe('anglemort engine : placement', () => {
     expect(placeGuard(state, 2, 1, 'angle')).toBe(state)
   })
 
-  it('transmet le type choisi via l action toggle', () => {
+  it("transmet le type choisi via l'action toggle", () => {
     const level = makeLevel({ pool: { simple: 1, angle: 1, oppose: 0 } })
     const state = reducer(loadLevel(level), { type: 'toggle', x: 2, y: 1, guardType: 'angle' })
     expect(guardAt(state, 2, 1)?.type).toBe('angle')
@@ -232,7 +237,7 @@ describe('anglemort engine : rotation', () => {
     expect(rotateGuard(state, 0, 2).moves).toBe(1)
   })
 
-  it('ne pivote pas un vigile dont aucune orientation n est autorisée', () => {
+  it("ne pivote pas un vigile dont aucune orientation n'est autorisée", () => {
     const level = makeLevel({
       pillars: [
         [1, 2],
@@ -251,7 +256,7 @@ describe('anglemort engine : rotation', () => {
 })
 
 describe('anglemort engine : vision', () => {
-  it('un regard couvre la ligne jusqu au bord', () => {
+  it("un regard couvre la ligne jusqu'au bord", () => {
     const level = makeLevel()
     const { seen } = computeVision(level, [{ pos: [0, 2], type: 'simple', facing: 'E' }])
     expect(seen[2]).toEqual([0, 1, 1, 1])
@@ -272,7 +277,7 @@ describe('anglemort engine : vision', () => {
     expect(seen[2][1]).toBe(2)
   })
 
-  it('un vigile arrête le faisceau d un autre et fait de l ombre derrière lui', () => {
+  it("un vigile arrête le faisceau d'un autre et fait de l'ombre derrière lui", () => {
     const level = makeLevel()
     const { seen } = computeVision(level, [
       { pos: [0, 2], type: 'simple', facing: 'E' },
@@ -281,13 +286,13 @@ describe('anglemort engine : vision', () => {
     expect(seen[2]).toEqual([0, 1, 0, 0])
   })
 
-  it('un miroir / renvoie vers le nord un regard qui va vers l est', () => {
+  it("un miroir / renvoie vers le nord un regard qui va vers l'est", () => {
     const level = makeLevel({ mirrors: [{ pos: [2, 2], kind: '/' }] })
     const { seen } = computeVision(level, [{ pos: [0, 2], type: 'simple', facing: 'E' }])
     expect([seen[2][3], seen[1][2], seen[0][2]]).toEqual([0, 1, 1])
   })
 
-  it('un miroir \\ renvoie vers le sud un regard qui va vers l est', () => {
+  it("un miroir \\ renvoie vers le sud un regard qui va vers l'est", () => {
     const level = makeLevel({ mirrors: [{ pos: [2, 0], kind: '\\' }] })
     const { seen } = computeVision(level, [{ pos: [0, 0], type: 'simple', facing: 'E' }])
     expect([seen[0][3], seen[1][2], seen[2][2]]).toEqual([0, 1, 1])
@@ -308,7 +313,7 @@ describe('anglemort engine : vision', () => {
     expect(litMirrors['2,0']).toEqual(['NW', 'SE'])
   })
 
-  it('le tracé d un faisceau s arrête au bord de la case qui le bloque', () => {
+  it("le tracé d'un faisceau s'arrête au bord de la case qui le bloque", () => {
     const level = makeLevel({ pillars: [[3, 2]] })
     const guard: Guard = { pos: [0, 2], type: 'simple', facing: 'E' }
     expect(beamOutlines(level, [guard], guard)).toEqual([
@@ -319,7 +324,7 @@ describe('anglemort engine : vision', () => {
     ])
   })
 
-  it('le tracé d un faisceau tourne sur les miroirs', () => {
+  it("le tracé d'un faisceau tourne sur les miroirs", () => {
     const level = makeLevel({ mirrors: [{ pos: [2, 0], kind: '\\' }] })
     const guard: Guard = { pos: [0, 0], type: 'simple', facing: 'E' }
     expect(beamOutlines(level, [guard], guard)).toEqual([
@@ -331,7 +336,7 @@ describe('anglemort engine : vision', () => {
     ])
   })
 
-  it('le tracé d une lampe contre un vigile s arrête au bord de sa case', () => {
+  it("le tracé d'une lampe contre un vigile s'arrête au bord de sa case", () => {
     const guards: Guard[] = [
       { pos: [0, 2], type: 'simple', facing: 'E' },
       { pos: [1, 2], type: 'simple', facing: 'N' },
@@ -344,7 +349,7 @@ describe('anglemort engine : vision', () => {
     ])
   })
 
-  it('un regard qui boucle par les miroirs s arrête en revenant sur son vigile', () => {
+  it("un regard qui boucle par les miroirs s'arrête en revenant sur son vigile", () => {
     const level = makeLevel({
       width: 3,
       height: 3,
@@ -362,7 +367,7 @@ describe('anglemort engine : vision', () => {
     ])
   })
 
-  it('un vigile à deux regards ne compte qu une fois une case vue deux fois', () => {
+  it("un vigile à deux regards ne compte qu'une fois une case vue deux fois", () => {
     const level = makeLevel({
       width: 3,
       height: 3,
@@ -453,7 +458,7 @@ describe('anglemort engine : chemin du cambrioleur', () => {
   })
 })
 
-describe('anglemort engine : couloir attendu (mise au point)', () => {
+describe('anglemort engine : couloir attendu', () => {
   it('déduit le couloir de la solution enregistrée', () => {
     expect(expectedCorridor(makeLevel())).toEqual([
       [0, 0],
@@ -461,18 +466,6 @@ describe('anglemort engine : couloir attendu (mise au point)', () => {
       [2, 0],
       [3, 0],
     ])
-  })
-
-  it('préfère le couloir tracé d une grille d expérimentation', () => {
-    const corridor: Pos[] = [
-      [0, 0],
-      [0, 1],
-    ]
-    expect(expectedCorridor(makeLevel({ corridor }))).toBe(corridor)
-  })
-
-  it('ne renvoie rien sans solution ni couloir tracé', () => {
-    expect(expectedCorridor(makeLevel({ solution: [] }))).toEqual([])
   })
 })
 
@@ -492,7 +485,7 @@ describe('anglemort engine : marche du cambrioleur', () => {
     ])
   })
 
-  it('renvoie une liste vide si la porte n est pas dans le couloir', () => {
+  it("renvoie une liste vide si la porte n'est pas dans le couloir", () => {
     expect(corridorOrder([[1, 0]], [0, 0])).toEqual([])
   })
 })
@@ -520,7 +513,7 @@ describe('anglemort engine : victoire', () => {
     expect(state.moves).toBe(2)
   })
 
-  it('ne gagne pas tant que le lot n est pas entièrement posé', () => {
+  it("ne gagne pas tant que le lot n'est pas entièrement posé", () => {
     const level = makeLevel()
     const state = withGuards(level, level.solution.slice(0, 1))
     expect(isPoolComplete(state)).toBe(false)
@@ -556,5 +549,44 @@ describe('anglemort engine : victoire', () => {
     const state = reducer(placeGuard(loadLevel(makeLevel()), 0, 2), { type: 'reset' })
     expect(state.guards).toEqual([])
     expect(state.moves).toBe(0)
+  })
+})
+
+describe('anglemort engine : géométrie', () => {
+  it('isFloor exclut piliers, miroirs et hors grille', () => {
+    const level = makeLevel({ pillars: [[1, 1]], mirrors: [{ pos: [2, 1], kind: '/' }] })
+    expect(isFloor(level, 0, 1)).toBe(true)
+    expect(isFloor(level, 1, 1)).toBe(false)
+    expect(isFloor(level, 2, 1)).toBe(false)
+    expect(isFloor(level, 4, 0)).toBe(false)
+  })
+
+  it.each([
+    [[0, 1], 'W'],
+    [[3, 1], 'E'],
+    [[1, 0], 'N'],
+    [[1, 2], 'S'],
+  ] as [Pos, string][])("doorSide : une porte en %j s'ouvre côté %s", (door, side) => {
+    expect(doorSide(makeLevel({ door }))).toBe(side)
+  })
+
+  it('stepDir donne la direction entre deux cases voisines', () => {
+    expect(stepDir([1, 1], [2, 1])).toBe('E')
+    expect(stepDir([1, 1], [0, 1])).toBe('W')
+    expect(stepDir([1, 1], [1, 0])).toBe('N')
+    expect(stepDir([1, 1], [1, 2])).toBe('S')
+  })
+})
+
+describe('anglemort engine : types de vigiles', () => {
+  it("pickableTypes garde les types présents dans le lot, dans l'ordre du sélecteur", () => {
+    const state = loadLevel(makeLevel({ pool: { simple: 1, angle: 0, oppose: 2 } }))
+    expect(pickableTypes(state)).toEqual(['simple', 'oppose'])
+  })
+
+  it("restFacing présente le vigile dos à dos à l'horizontale, les autres vers le haut", () => {
+    expect(restFacing('oppose')).toBe('E')
+    expect(restFacing('simple')).toBe('N')
+    expect(restFacing('angle')).toBe('N')
   })
 })

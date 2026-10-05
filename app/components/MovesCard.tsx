@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 
 type Props = {
   moves: number
-  parMoves?: number
+  parMoves: number
   /** Libellé du compteur (« Coups » par défaut). */
   label?: string
   /** Aide du jeu (`HintButton`), à droite du compteur. */
@@ -19,9 +19,7 @@ export function MovesCard({ moves, parMoves, label = 'Coups', hint, children }: 
         <div>
           <div className="text-sm text-gray-500 dark:text-gray-400">{label}</div>
           <div className="text-3xl font-bold">{moves}</div>
-          {parMoves !== undefined && (
-            <div className="text-xs text-gray-500 dark:text-gray-400">Objectif : {parMoves}</div>
-          )}
+          <div className="text-xs text-gray-500 dark:text-gray-400">Objectif : {parMoves}</div>
         </div>
         {hint}
       </div>

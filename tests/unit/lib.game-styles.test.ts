@@ -24,6 +24,11 @@ describe('lib/game-styles', () => {
     expect(GAME_SIZE.sokomot(4)).toEqual({ width: 10, height: 9 })
   })
 
+  it('GAME_SIZE Angle mort suit les tailles de Sokomot', () => {
+    expect(GAME_SIZE.anglemort(1)).toEqual({ width: 7, height: 6 })
+    expect(GAME_SIZE.anglemort(4)).toEqual({ width: 10, height: 9 })
+  })
+
   it('GAME_SIZE Boucle et Sémantogramme produisent des grilles carrées', () => {
     expect(GAME_SIZE.boucle(1)).toEqual({ width: 4, height: 4 })
     expect(GAME_SIZE.boucle(4)).toEqual({ width: 7, height: 7 })

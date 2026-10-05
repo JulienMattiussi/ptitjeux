@@ -7,6 +7,13 @@ const PENCIL_ROTATION: Record<Direction, number> = {
   up: -90,
 }
 
+const DIRECTION_LABEL: Record<Direction, string> = {
+  right: 'la droite',
+  down: 'le bas',
+  left: 'la gauche',
+  up: 'le haut',
+}
+
 type Props = {
   direction: Direction
   size: number
@@ -21,7 +28,7 @@ export function PencilSprite({ direction, size }: Props) {
       className="drop-shadow-lg transition-transform duration-150 ease-out"
       style={{ transform: `rotate(${PENCIL_ROTATION[direction]}deg)` }}
       role="img"
-      aria-label={`Crayon orienté ${direction}`}
+      aria-label={`Crayon tourné vers ${DIRECTION_LABEL[direction]}`}
     >
       <rect
         x="2"

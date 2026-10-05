@@ -18,7 +18,7 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 - **Objectif** : aligner les lettres dans la zone cible pour former le mot demandé, dans l'ordre.
 
 ### Variante "mode glace"
-- Sur les cases glacées : un bloc poussé glisse jusqu'à heurter un obstacle.
+- Sur les cases glacées, joueur et blocs glissent jusqu'à heurter un obstacle (ou jusqu'à la première case sans glace).
 - Permet des résolutions plus longues et des trajectoires non triviales.
 - Le sol non-glacé fonctionne en Sokoban classique.
 
@@ -28,8 +28,7 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 - **Lexical** : le mot guide mais peut être deviné en cours de jeu.
 
 ### Score
-- Nombre de coups (objectif minimal).
-- Niveau quotidien partagé.
+- Nombre de coups, comparé à l'objectif `parMoves` (le minimum trouvé par le solveur).
 
 ### Format de niveau
 
@@ -40,26 +39,26 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 
 ```json
 {
-  "id": "2026-05-07-1",
+  "id": "2026-10-01-1",
   "name": "Niveau 1 · 7×6",
-  "width": 8,
+  "width": 7,
   "height": 6,
-  "player": [1, 1],
-  "walls": [[0,0], [0,1], ...],
-  "ice": [[3,2], [3,3], [3,4]],
+  "player": [5, 1],
+  "walls": [[0, 0], [0, 5], [1, 0], ...],
+  "ice": [],
   "blocks": [
-    { "letter": "M", "pos": [2, 3] },
-    { "letter": "A", "pos": [4, 1] },
-    { "letter": "I", "pos": [5, 4] },
-    { "letter": "S", "pos": [6, 2] }
+    { "id": "b1", "letter": "F", "pos": [4, 1] },
+    { "id": "b2", "letter": "I", "pos": [3, 2] },
+    { "id": "b3", "letter": "N", "pos": [5, 3] }
   ],
-  "target": {
-    "word": "MAIS",
-    "cells": [[1,5], [2,5], [3,5], [4,5]]
-  },
-  "parMoves": 18
+  "target": { "word": "FIN", "cells": [[3, 1], [4, 2], [5, 2]] },
+  "parMoves": 11,
+  "solution": ["left", "down", "down", ...],
+  "canonicalWord": "fin"
 }
 ```
+
+`solution` n'est lu que par le test d'intégrité et par l'aide (ordre de pose des lettres) ; `canonicalWord` garde les accents pour le Wiktionnaire.
 
 ---
 
@@ -79,28 +78,28 @@ Le projet vise une **forte dimension logique/spatiale**, avec une touche lexical
 
 ### Génération
 - Choisir un mot.
-- Placer les lettres du mot sur des cases connexes formant un polygone simple.
+- Placer les lettres du mot sur un chemin aléatoire de cases voisines (vers la droite ou vers le bas), qui forme l'intérieur de la boucle.
 - Remplir le reste de la grille avec d'autres lettres aléatoires.
 - Calculer les indices Slitherlink correspondants.
-- Vérifier l'unicité de la solution.
+- L'unicité du tracé n'est pas vérifiée : le mot à encercler sert d'indice supplémentaire.
 
 ### Format de niveau
 ```json
 {
-  "id": "2026-05-07-1",
+  "id": "2026-10-01-1",
   "name": "Niveau 1 · 4×4",
-  "width": 7,
-  "height": 7,
+  "width": 4,
+  "height": 4,
   "letters": [
-    ["A", "B", "M", "I", "S", "T", "E"],
+    ["E", "R", "R", "Z"],
+    ["S", "Q", "E", "G"],
     ...
   ],
-  "clues": {
-    "1,2": 3,
-    "3,4": 2,
-    "5,1": 0
-  },
-  "solutionWord": "MAISON"
+  "clues": { "0,0": 3, "1,0": 2, "2,1": 3, ... },
+  "solutionWord": "ERRE",
+  "solutionInsideCells": [[0, 0], [1, 0], [2, 0], [2, 1]],
+  "parMoves": 14,
+  "canonicalWord": "erre"
 }
 ```
 
@@ -149,31 +148,31 @@ Le chiffre `4` à gauche de la ligne 1 dit : 4 des 6 mots de cette ligne sont li
 ### Format de niveau
 ```json
 {
-  "id": "2026-05-07-3",
-  "name": "Niveau 3 · 6×6",
-  "width": 6,
-  "height": 6,
+  "id": "2026-10-01-1",
+  "name": "Niveau 1 · 4×4",
+  "width": 4,
+  "height": 4,
   "words": [
-    ["thon", "crevette", "saumon", "requin", "calas", "avenir"],
-    ["vent", "table", "banque", "dauphin", "portail", "mer"],
-    ["sardine", "anchois", "carrelet", "vague", "filet", "écaille"],
-    ["livre", "pieuvre", "morue", "hameçon", "plage", "voile"],
-    ["thon", "table", "rouget", "lieu", "ourson", "sole"],
-    ["bar", "merlu", "barque", "marin", "phare", "perche"]
-  ],
-  "rowClues": [4, 2, 5, 3, 5, 6],
-  "colClues": [4, 4, 5, 3, 3, 6],
-  "themeWord": "poisson",
-  "solution": [
-    [true, true, true, true, false, false],
-    [false, false, false, true, false, true],
+    ["Marseille", "modique", "bulle", "baignoire"],
+    ["Dove", "gisant", "Jamaïque", "douche"],
     ...
-  ]
+  ],
+  "rowClues": [3, 2, 2, 3],
+  "colClues": [3, 2, 2, 3],
+  "themeWord": "savon",
+  "domains": ["maison"],
+  "solution": [
+    [true, false, true, true],
+    [true, false, false, true],
+    ...
+  ],
+  "parMoves": 10
 }
 ```
 
+`domains` est révélé par l'aide ; `solution` sert au jeu (grille résolue) et au test d'intégrité.
+
 ### Variantes futures
-- **Mode "thème caché"** : le joueur ne connaît pas le thème, il doit le deviner à la fin.
 - **Mode "thème donné"** : le thème est affiché, on joue le Nonogram pur.
 - **Mode "double thème"** : ligne et colonne ont des thèmes différents (deux mots à deviner).
 
@@ -228,7 +227,7 @@ Tailles alignées sur Sokomot (`GAME_SIZE`), en surface jouable.
 | 1 | 7×6 | simples | règles de base, couloir compris |
 | 2 | 8×7 | simples | grille plus grande, plus de piliers |
 | 3 | 9×8 | simples + 2 à 3 doubles (angle, opposé) | vigiles à 2 lampes, choisis au sélecteur ; au moins 4 piliers ; diamant contre un mur ; un indice d'office hors du couloir |
-| 4 | 10×9 | simples + au plus 4 doubles | 1 ou 2 miroirs, chacun indispensable |
+| 4 | 10×9 | simples + 1 à 4 doubles | 1 ou 2 miroirs, chacun indispensable |
 
 ### Couloir du cambrioleur
 - Longueur **variable**, au minimum `largeur + hauteur` cases (13 en 7×6, 19 en 10×9), au plus ~40 % des cases libres.
@@ -256,9 +255,9 @@ Ce qui est garanti, c'est qu'**un seul couloir** est possible, pas une seule pos
 ### Génération (offline, build-time)
 1. Placer des piliers aléatoires.
 2. Tirer l'entrée sur le bord, puis un couloir auto-évitant **induit** (aucune case ne touche le couloir hors de ses voisines) de longueur et de nombre de virages conformes ; il se termine sur le diamant.
-3. Construire avec le solveur un placement de vigiles qui éclaire toutes les cases hors couloir sans éclairer le couloir, puis retirer les vigiles superflus.
+3. Couvrir de façon gloutonne les cases hors couloir avec des vigiles qui n'éclairent pas le couloir, puis retirer les vigiles superflus.
 4. Au niveau 4, remplacer 1 ou 2 vigiles par un miroir : un vigile qui reçoit déjà un faisceau par le côté peut devenir un miroir qui renvoie ce faisceau là où il éclairait. On ne garde que des miroirs indispensables (remplacé par un pilier, le couloir change).
-5. Déduire le lot, poser les indices d'office, puis ajouter à chaque tour l'indice qui élimine le plus de couloirs concurrents : un « 0 » sur le couloir élimine ceux qui l'évitent, un chiffre positif ceux qui traversent sa case. Quand il reste peu de concurrents, le solveur écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice). On s'arrête à l'**unicité du couloir**.
+5. Déduire le lot, poser les indices d'office, puis ajouter à chaque tour l'indice qui élimine le plus de couloirs concurrents : un « 0 » sur le couloir élimine ceux qui l'évitent, un chiffre positif ceux qui traversent sa case. Quand il reste peu de concurrents, le solveur écarte ceux qu'aucune pose ne produit (ils ne coûtent aucun indice). On s'arrête à l'**unicité du couloir**. Au niveau 4, le solveur n'est jamais appelé (trop lent avec les miroirs) : on ajoute des indices jusqu'à ce qu'un seul couloir reste possible par la forme.
 
 Le solveur (`generators/anglemort-solver.ts`) gère le blocage par des bornes « éclairé à coup sûr » / « peut-être éclairé », propage les contraintes du couloir (degrés, connexité de l'entrée au diamant), des indices et de la couverture, et branche sur les vigiles capables d'éclairer la case la plus contrainte.
 

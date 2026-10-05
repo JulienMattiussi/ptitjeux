@@ -1,5 +1,7 @@
-import { Rng } from '~/lib/random'
 import type { Coord, Level } from '~/games/boucle/types'
+import type { LevelIndex } from '~/games/types'
+import { GAME_SIZE } from '~/lib/game-styles'
+import { Rng } from './random'
 import { freshWords } from './wordlists'
 
 const FILLER_LETTERS = 'BCDFGHJKLMNPQRSTVWXZ'.split('')
@@ -7,51 +9,39 @@ const FILLER_LETTERS = 'BCDFGHJKLMNPQRSTVWXZ'.split('')
 const cellKey = (c: Coord): string => `${c[0]},${c[1]}`
 
 /**
- * Pas autorisés pour la marche aléatoire des cases du mot dans Boucle :
- * uniquement à droite ou en bas. Pourquoi ces deux uniquement ?
- *
- * - Pour que la lecture en ordre normal (haut-bas, gauche-droite) du mot
- *   encerclé corresponde à l'ordre des lettres écrites dans la grille.
- * - Pour que les cases du mot soient **edge-connectées** (chaque pas
- *   orthogonal de 1 case), donc qu'on puisse toutes les enclore avec une
- *   seule boucle simple sans inclure de filler.
- *
- * Sokomot autorise aussi les diagonales (TR / BR) mais Boucle s'y limite à
- * cause de la contrainte de connexité.
+ * Pas de la marche des cases du mot : à droite ou en bas seulement. Le mot
+ * se lit ainsi dans l'ordre de lecture (haut-bas, gauche-droite), et ses
+ * cases, voisines par un côté, s'enclosent d'une seule boucle sans lettre de
+ * remplissage. Une telle marche ne repasse jamais sur ses pas.
  */
 const BOUCLE_STEPS: readonly Coord[] = [
-  [1, 0], // droite
-  [0, 1], // bas
-] as const
+  [1, 0],
+  [0, 1],
+]
 
-function inInterior(c: Coord, width: number, height: number): boolean {
+function inGrid(c: Coord, width: number, height: number): boolean {
   return c[0] >= 0 && c[0] < width && c[1] >= 0 && c[1] < height
 }
 
 /**
- * Marche aléatoire connexe (droite + bas) pour positionner les cases du mot.
- * Renvoie `null` si la marche sort de la grille avant la fin.
+ * Cases du mot, par marche aléatoire depuis le quart haut-gauche. `null` si
+ * aucun pas ne reste dans la grille après 30 tirages (en pratique jamais :
+ * partie du quart haut-gauche, la marche n'atteint pas le coin bas-droit
+ * avant son dernier pas, il reste donc toujours un pas possible).
  */
 function placeWordCells(rng: Rng, wordLen: number, width: number, height: number): Coord[] | null {
-  const used = new Set<string>()
-  const cells: Coord[] = []
-  // Position de départ dans le quart haut-gauche, marge pour grandir.
   let cur: Coord = [
     rng.nextInt(Math.max(1, Math.floor(width / 2))),
     rng.nextInt(Math.max(1, Math.floor(height / 2))),
   ]
-  cells.push(cur)
-  used.add(cellKey(cur))
-
+  const cells: Coord[] = [cur]
   for (let i = 1; i < wordLen; i++) {
     let placed = false
     for (let attempt = 0; attempt < 30; attempt++) {
       const [dx, dy] = rng.pick(BOUCLE_STEPS)
       const next: Coord = [cur[0] + dx, cur[1] + dy]
-      if (!inInterior(next, width, height)) continue
-      if (used.has(cellKey(next))) continue
+      if (!inGrid(next, width, height)) continue
       cells.push(next)
-      used.add(cellKey(next))
       cur = next
       placed = true
       break
@@ -97,70 +87,49 @@ function clueForCell(cell: Coord, perimeter: Set<string>): number {
 }
 
 /**
- * Choisit un sous-ensemble pertinent de cases pour afficher des indices.
- * On garde toutes les cases avec un indice non nul (cases du mot ou voisines
- * de la boucle), et on ajoute quelques zéros « informatifs » à distance.
- *
- * Tous les indices sont affichés ; cela facilite la résolution. On peut
- * réduire plus tard pour augmenter la difficulté.
+ * Indices affichés : chaque case touchée par la boucle, plus les « 0 »
+ * voisins d'une case du mot. Les cases lointaines restent vides.
  */
 function chooseClues(insideCells: Coord[], width: number, height: number): Record<string, number> {
   const perimeter = perimeterEdges(insideCells)
+  const insideSet = new Set(insideCells.map(cellKey))
   const clues: Record<string, number> = {}
   for (let y = 0; y < height; y++) {
     for (let x = 0; x < width; x++) {
-      const cell: Coord = [x, y]
-      const count = clueForCell(cell, perimeter)
-      // Cases du mot et leurs voisines reçoivent un indice ; les cases
-      // « lointaines » (count=0 et toutes leurs voisines aussi) sont laissées vides.
-      if (count > 0) {
+      const count = clueForCell([x, y], perimeter)
+      const neighbours: Coord[] = [
+        [x - 1, y],
+        [x + 1, y],
+        [x, y - 1],
+        [x, y + 1],
+      ]
+      if (count > 0 || neighbours.some((c) => insideSet.has(cellKey(c)))) {
         clues[`${x},${y}`] = count
-      } else {
-        // count 0 : afficher seulement si adjacent à une case du mot
-        const insideSet = new Set(insideCells.map(cellKey))
-        const adj = [
-          [x - 1, y],
-          [x + 1, y],
-          [x, y - 1],
-          [x, y + 1],
-        ] as Coord[]
-        if (adj.some((c) => insideSet.has(cellKey(c)))) {
-          clues[`${x},${y}`] = 0
-        }
       }
     }
   }
   return clues
 }
 
-/**
- * Génère un niveau Boucle pour une date et un index donnés.
- *
- * Layout :
- * - Grille carrée width × height = 3 + index (donc 4..7).
- * - Les cases du mot suivent une marche aléatoire connexe (droite + bas),
- *   garantissant à la fois la lecture en ordre normal et la possibilité
- *   d'enclore le tout par une seule boucle simple.
- * - La boucle attendue est le **périmètre** de l'ensemble des cases du mot.
- * - Les cases hors-mot sont remplies de lettres aléatoires.
- * - Les indices Slitherlink sont calculés exactement à partir du périmètre.
- */
 export type BoucleOptions = {
   /** Mots (forme affichée) déjà publiés : jamais réutilisés. */
   usedWords?: ReadonlySet<string>
 }
 
+/**
+ * Niveau Boucle : grille carrée (`GAME_SIZE`), mot aussi long que la grille,
+ * posé par une marche aléatoire à droite ou en bas. La boucle attendue est
+ * le périmètre des cases du mot ; les autres cases reçoivent des lettres
+ * aléatoires, et les indices sont comptés sur ce périmètre.
+ */
 export function generateBoucleLevel(
   date: string,
-  index: 1 | 2 | 3 | 4,
+  index: LevelIndex,
   { usedWords }: BoucleOptions = {},
 ): Level {
-  const size = 3 + index // 4..7
-  const width = size
-  const height = size
-  const wordLen = size
+  const { width, height } = GAME_SIZE.boucle(index)
+  const wordLen = width
 
-  // Tentatives successives jusqu'à obtenir une marche complète qui rentre.
   for (let attempt = 0; attempt < 30; attempt++) {
     const rng = new Rng(`boucle:${date}:${index}:${attempt}`)
     const entry = rng.pick(freshWords(wordLen, usedWords))
@@ -169,26 +138,12 @@ export function generateBoucleLevel(
     const cells = placeWordCells(rng, wordLen, width, height)
     if (!cells) continue
 
-    // Place les lettres dans la grille. Lecture en ordre normal (y, puis x)
-    // doit donner le mot. Vérifions : on trie cells par (y, x) et on compare
-    // à l'ordre de marche. Avec des pas droite/bas uniquement, l'ordre de
-    // marche EST déjà l'ordre de lecture, donc OK.
-    const letters: string[][] = []
-    for (let y = 0; y < height; y++) {
-      const row: string[] = []
-      for (let x = 0; x < width; x++) {
-        row.push(rng.pick(FILLER_LETTERS))
-      }
-      letters.push(row)
-    }
+    const letters = Array.from({ length: height }, () =>
+      Array.from({ length: width }, () => rng.pick(FILLER_LETTERS)),
+    )
     cells.forEach(([cx, cy], i) => {
       letters[cy][cx] = word[i]
     })
-
-    const clues = chooseClues(cells, width, height)
-
-    const perimeterCount = perimeterEdges(cells).size
-    const parMoves = perimeterCount + 4
 
     return {
       id: `${date}-${index}`,
@@ -196,45 +151,13 @@ export function generateBoucleLevel(
       width,
       height,
       letters,
-      clues,
+      clues: chooseClues(cells, width, height),
       solutionWord: word,
       solutionInsideCells: cells,
-      parMoves,
+      // Le périmètre, plus une marge de 4 clics.
+      parMoves: perimeterEdges(cells).size + 4,
       canonicalWord: entry.canonical,
     }
   }
-
-  // Filet de sécurité : layout vertical fixe (colonne 0).
-  const fallbackRng = new Rng(`boucle:${date}:${index}:fallback`)
-  const entry = fallbackRng.pick(freshWords(wordLen, usedWords))
-  const word = entry.display
-
-  const letters: string[][] = []
-  const cells: Coord[] = []
-  for (let y = 0; y < height; y++) {
-    const row: string[] = []
-    for (let x = 0; x < width; x++) {
-      if (x === 0 && y < wordLen) {
-        row.push(word[y])
-        cells.push([0, y])
-      } else {
-        row.push(fallbackRng.pick(FILLER_LETTERS))
-      }
-    }
-    letters.push(row)
-  }
-  const clues = chooseClues(cells, width, height)
-  const perimeterCount = perimeterEdges(cells).size
-  return {
-    id: `${date}-${index}`,
-    name: `Niveau ${index} · ${width}×${height}`,
-    width,
-    height,
-    letters,
-    clues,
-    solutionWord: word,
-    solutionInsideCells: cells,
-    parMoves: perimeterCount + 4,
-    canonicalWord: entry.canonical,
-  }
+  throw new Error(`Boucle ${date} L${index} : aucune grille en 30 tentatives`)
 }

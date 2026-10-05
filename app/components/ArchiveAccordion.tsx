@@ -2,12 +2,13 @@ import { useEffect, useRef, useState } from 'react'
 import { CheckMark } from './CheckMark'
 import { ChevronRight } from './icons'
 import { LevelTile } from './LevelTile'
-import { getLevelParMoves } from '~/games'
-import { aggregateCompletion, completionStatus, type CompletionStatus } from '~/lib/completion'
+import { dayStatuses } from '~/games'
+import { LEVEL_INDICES } from '~/games/types'
+import { aggregateCompletion } from '~/lib/completion'
 import { dateLabelShort, monthKey, monthLabel } from '~/lib/dates'
-import { GAME_SIZE, type GameId } from '~/lib/game-styles'
+import type { GameId } from '~/lib/game-styles'
 import type { GameProgress } from '~/lib/localStorage'
-import { levelKey } from '~/lib/useLocalProgress'
+import { plural } from '~/lib/text'
 
 type Props = {
   gameId: GameId
@@ -30,12 +31,6 @@ function groupByMonth(dates: string[]): Map<string, string[]> {
     m.set(k, list)
   }
   return m
-}
-
-function dayStatuses(gameId: GameId, date: string, progress: GameProgress): CompletionStatus[] {
-  return [1, 2, 3, 4].map((i) =>
-    completionStatus(progress[levelKey(date, i)], getLevelParMoves(gameId, date, i)),
-  )
 }
 
 export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) {
@@ -84,17 +79,10 @@ export function ArchiveAccordion({ gameId, dates, progress, focusDate }: Props) 
             >
               <span className="flex items-center gap-2 font-display text-base font-semibold capitalize">
                 {monthLabel(month)}
-                {monthAggregate !== 'unsolved' && (
-                  <CheckMark
-                    size="sm"
-                    variant={monthAggregate === 'perfect' ? 'perfect' : 'solved'}
-                  />
-                )}
+                {monthAggregate !== 'unsolved' && <CheckMark size="sm" variant={monthAggregate} />}
               </span>
               <span className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
-                <span>
-                  {monthDates.length} jour{monthDates.length > 1 ? 's' : ''}
-                </span>
+                <span>{plural(monthDates.length, 'jour')}</span>
                 <ChevronRight
                   className={`h-4 w-4 transition-transform ${isOpen ? 'rotate-90' : ''}`}
                 />
@@ -136,27 +124,20 @@ function ArchiveDayRow({ gameId, date, progress, rowRef }: DayRowProps) {
         <span className="font-mono text-sm capitalize text-gray-700 dark:text-gray-200">
           {dateLabelShort(date)}
         </span>
-        {aggregate !== 'unsolved' && (
-          <CheckMark size="sm" variant={aggregate === 'perfect' ? 'perfect' : 'solved'} />
-        )}
+        {aggregate !== 'unsolved' && <CheckMark size="sm" variant={aggregate} />}
       </div>
       <div className="grid flex-1 grid-cols-2 gap-2 sm:grid-cols-4">
-        {[1, 2, 3, 4].map((i) => {
-          const size = GAME_SIZE[gameId](i)
-          return (
-            <LevelTile
-              key={i}
-              gameId={gameId}
-              date={date}
-              index={i}
-              width={size.width}
-              height={size.height}
-              locked={false}
-              status={statuses[i - 1]}
-              variant="archive"
-            />
-          )
-        })}
+        {LEVEL_INDICES.map((i) => (
+          <LevelTile
+            key={i}
+            gameId={gameId}
+            date={date}
+            index={i}
+            locked={false}
+            status={statuses[i - 1]}
+            variant="archive"
+          />
+        ))}
       </div>
     </li>
   )

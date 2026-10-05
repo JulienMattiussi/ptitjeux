@@ -1,27 +1,21 @@
 import { describe, expect, it } from 'vitest'
-import { getAllDates, getChallenge } from '~/games/anglemort/challenges'
+import * as challenges from '~/games/anglemort/challenges'
 import { isWon, loadLevel, placeGuard, rotateGuard } from '~/games/anglemort/engine'
-import type { Level } from '~/games/anglemort/types'
-import { hasUniqueCorridor, originalLevels } from '../levels/anglemort.helpers'
+import { hasUniqueCorridor, originalLevels } from '../helpers/anglemort'
+import { byId, committedLevels } from '../helpers/levels'
 
 const PROOF_TIMEOUT = 60_000
 
-/**
- * Les défis Angle mort peuvent être partiels pendant la mise au point du jeu :
- * on vérifie chaque niveau présent, quel que soit son index.
- */
-function committedLevels(): Level[] {
-  return getAllDates().flatMap((date) => (getChallenge(date) ?? []).filter(Boolean))
-}
-
 describe('niveaux Angle mort : intégrité', () => {
-  const levels = committedLevels()
+  const levels = committedLevels(challenges)
 
-  it('au moins un niveau est généré', () => {
-    expect(levels.length).toBeGreaterThan(0)
+  it('chaque jour publié a ses 4 niveaux', () => {
+    const dates = challenges.getAllDates()
+    expect(dates.length).toBeGreaterThan(0)
+    expect(levels).toHaveLength(dates.length * 4)
   })
 
-  it.each(levels.map((l) => [l.id, l] as const))(
+  it.each(byId(levels))(
     '%s : la solution, jouée pose par pose, gagne en parMoves poses',
     (_, level) => {
       let state = loadLevel(level)
@@ -36,14 +30,14 @@ describe('niveaux Angle mort : intégrité', () => {
         }
       }
       expect(isWon(state)).toBe(true)
-      expect(state.moves).toBeLessThanOrEqual(level.parMoves ?? Infinity)
+      expect(state.moves).toBeLessThanOrEqual(level.parMoves)
     },
   )
 
   // Chaque grille de base sert 8 fois (symétries) ; une symétrie conserve
   // l'unicité du couloir (cf. anglemort.symmetry.test.ts). Ici, chaque grille
   // d'origine ; `make verify-levels` repasse sur toutes les versions.
-  it.each(originalLevels(levels).map((l) => [l.id, l] as const))(
+  it.each(byId(originalLevels(levels)))(
     '%s : le couloir est unique',
     (_, level) => {
       expect(hasUniqueCorridor(level)).toBe(true)

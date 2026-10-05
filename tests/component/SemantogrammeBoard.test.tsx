@@ -22,6 +22,7 @@ const LEVEL: Level = {
     [true, false],
     [false, true],
   ],
+  parMoves: 2,
 }
 
 describe('semantogramme/Board', () => {

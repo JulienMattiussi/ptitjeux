@@ -49,6 +49,8 @@ export const games: GameDescriptor[] = [
   },
 ]
 
-export function findGame(id: string): GameDescriptor | undefined {
-  return games.find((g) => g.id === id)
+export function findGame(id: GameId): GameDescriptor {
+  const game = games.find((g) => g.id === id)
+  if (!game) throw new Error(`Jeu absent du catalogue : ${id}`)
+  return game
 }

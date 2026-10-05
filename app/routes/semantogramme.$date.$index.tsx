@@ -1,17 +1,17 @@
 import { useEffect, useReducer, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
 import { HintButton } from '~/components/HintButton'
 import { LevelNotFound } from '~/components/LevelNotFound'
 import { MovesCard } from '~/components/MovesCard'
+import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/semantogramme/Board'
-import { getAllDates, getLevel } from '~/games/semantogramme/challenges'
+import { getLevel } from '~/games/semantogramme/challenges'
 import {
   isFullyMarked,
   isGridSolved,
@@ -19,15 +19,17 @@ import {
   isWon,
   loadLevel,
   reducer,
+  type Action,
 } from '~/games/semantogramme/engine'
-import type { GameState } from '~/games/semantogramme/types'
-import { moveCellCursor } from '~/lib/cursor'
-import { undoable, withUndo } from '~/lib/undoable'
+import { ThemeGuessForm } from '~/games/semantogramme/ThemeGuessForm'
+import type { Level } from '~/games/semantogramme/types'
+import { moveCellCursor, type CellCursor } from '~/lib/cursor'
+import { plural } from '~/lib/text'
+import { undoable, withUndo, type UndoAction } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
 import { useLatestRef } from '~/lib/useLatestRef'
-import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
-import { getVictoryState } from '~/lib/victoryState'
+import { useLevelParams, useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
 import type { Route } from './+types/semantogramme.$date.$index'
 
@@ -38,126 +40,79 @@ export function meta({ params }: Route.MetaArgs) {
 // La saisie du thème n'est pas un coup : seuls les changements de case s'annulent.
 const undoableReducer = withUndo(reducer, (action) => action.type === 'cycle')
 
-// Wrapper qui force un remount complet quand l'URL change de niveau.
+// Le `key` remonte une partie neuve à chaque changement de niveau.
 export default function SemantogrammePlayRoute() {
-  const { date = '', index = '' } = useParams<{ date: string; index: string }>()
-  return <SemantogrammePlay key={`${date}-${index}`} />
+  const { date, idx, level } = useLevelParams(getLevel)
+  if (!level) return <LevelNotFound backHref="/semantogramme" />
+  return <SemantogrammePlay key={`${date}-${idx}`} level={level} date={date} idx={idx} />
 }
 
-function SemantogrammePlay() {
-  const { date, index } = useParams<{ date: string; index: string }>()
-  const navigate = useNavigate()
-  const idx = Number(index)
-  const level = date && idx ? getLevel(date, idx) : undefined
-
-  const [history, dispatch] = useReducer(undoableReducer, level ?? null, (initialLevel) =>
-    undoable(initialLevel ? loadLevel(initialLevel) : ({} as GameState)),
-  )
+function SemantogrammePlay({ level, date, idx }: { level: Level; date: string; idx: number }) {
+  const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
+  const won = isWon(state)
+  const gridSolved = isGridSolved(state)
+  const hint = useHint(state.moves, level.parMoves)
+  const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
+    gameId: 'semantogramme',
+    date,
+    idx,
+    won,
+    moves: state.moves,
+    parMoves: level.parMoves,
+  })
 
+  // Toute action efface le message « Pas tout à fait » de la proposition précédente.
   const [themeError, setThemeError] = useState(false)
+  function play(action: Action | UndoAction) {
+    dispatch(action)
+    setThemeError(false)
+  }
 
-  const fullyMarked = level ? isFullyMarked(state) : false
-  const gridSolved = level ? isGridSolved(state) : false
-  const won = level ? isWon(state) : false
-
-  // Sélection au clavier sur la grille : flèches déplacent, Espace cycle.
-  const [selected, setSelected] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
+  const [selected, setSelected] = useState<CellCursor>({ x: 0, y: 0 })
   const selectedRef = useLatestRef(selected)
 
   useGameKeyboard({
-    onBack: () => navigate(`/semantogramme?from=${date}`),
-    enabled: !!level && !won && !gridSolved,
+    onBack: goBack,
+    enabled: !won,
+    // Le champ du thème garde ses touches (R, Espace, flèches) pour la saisie.
     ignoreInputs: true,
-    onDirection: (direction) => {
-      if (!level) return
-      setSelected((s) => moveCellCursor(s, direction, level.width, level.height))
-    },
-    onAction: () => {
-      dispatch({
-        type: 'cycle',
-        x: selectedRef.current.x,
-        y: selectedRef.current.y,
-      })
-      setThemeError(false)
-    },
-    onUndo: () => {
-      dispatch({ type: 'undo' })
-      setThemeError(false)
-    },
-    onReset: () => {
-      dispatch({ type: 'reset' })
-      setThemeError(false)
-    },
+    onDirection: (direction) =>
+      setSelected((s) => moveCellCursor(s, direction, level.width, level.height)),
+    onAction: () => play({ type: 'cycle', ...selectedRef.current }),
+    onUndo: () => play({ type: 'undo' }),
+    onReset: () => play({ type: 'reset' }),
   })
 
   useEffect(() => {
-    if (level) prefetchDefinition(level.themeWord)
+    prefetchDefinition(level.themeWord)
   }, [level])
-  const { beatPar, variant } = getVictoryState(level, state.moves)
-  const hint = useHint(state.moves, level?.parMoves)
-
-  const allDates = getAllDates()
-  const { dateChip, nextHref } = useLevelPlayLifecycle({
-    gameId: 'semantogramme',
-    date: date ?? '',
-    idx,
-    lastAvailableDate: allDates[allDates.length - 1],
-    won,
-    moves: state.moves,
-  })
-
-  if (!level || !date) {
-    return <LevelNotFound backHref="/semantogramme" />
-  }
-
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault()
-    if (isThemeGuessCorrect(state)) {
-      setThemeError(false)
-    } else {
-      setThemeError(true)
-    }
-  }
 
   return (
     <GameLayout
-      title={`Sémantogramme · ${dateChip} · niveau ${idx}`}
+      title={title}
       subtitle="Identifie les mots liés au thème caché."
-      backHref={`/semantogramme?from=${date}`}
+      backHref={backHref}
       backLabel="Niveaux"
     >
       <GameFrame
-        size="lg"
         overlay={
           <VictoryOverlay
             show={won}
             variant={variant}
-            title={beatPar ? 'Thème trouvé !' : 'Thème trouvé'}
+            title={variant === 'perfect' ? 'Thème trouvé !' : 'Thème trouvé'}
             detail={
               <>
                 <div>
                   Le mot caché était <span className="font-bold">« {level.themeWord} »</span>,
-                  trouvé en{' '}
-                  <span className="font-bold">
-                    {state.moves} clic{state.moves > 1 ? 's' : ''}
-                  </span>
-                  .
+                  trouvé en <span className="font-bold">{plural(state.moves, 'clic')}</span>.
                 </div>
-                {level.parMoves !== undefined && (
-                  <div>
-                    Objectif <span className="font-bold">{level.parMoves}</span>{' '}
-                    {beatPar ? 'atteint' : 'dépassé'}.
-                  </div>
-                )}
+                <ParObjective parMoves={level.parMoves} variant={variant} />
                 <WordDefinition word={level.themeWord} />
               </>
             }
-            onReset={() => {
-              dispatch({ type: 'reset' })
-              setThemeError(false)
-            }}
-            backHref={`/semantogramme?from=${date}`}
+            onReset={() => play({ type: 'reset' })}
+            backHref={backHref}
             nextHref={nextHref}
           />
         }
@@ -166,13 +121,12 @@ function SemantogrammePlay() {
           state={state}
           selected={selected}
           onHoverCell={(x, y) => {
-            if (!won && !gridSolved) setSelected({ x, y })
+            if (!won) setSelected({ x, y })
           }}
           onCellClick={(x, y) => {
             if (won) return
             setSelected({ x, y })
-            dispatch({ type: 'cycle', x, y })
-            setThemeError(false)
+            play({ type: 'cycle', x, y })
           }}
         />
         <PlaySidebar>
@@ -188,14 +142,8 @@ function SemantogrammePlay() {
           />
 
           <PlayControls
-            onUndo={() => {
-              dispatch({ type: 'undo' })
-              setThemeError(false)
-            }}
-            onReset={() => {
-              dispatch({ type: 'reset' })
-              setThemeError(false)
-            }}
+            onUndo={() => play({ type: 'undo' })}
+            onReset={() => play({ type: 'reset' })}
             undoDisabled={won || history.past.length === 0}
           />
 
@@ -211,7 +159,7 @@ function SemantogrammePlay() {
             (hors thème) → vide.
           </HelpBox>
 
-          {fullyMarked && !gridSolved && (
+          {isFullyMarked(state) && !gridSolved && (
             <div className="rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-200">
               Toutes les cases sont marquées, mais le placement ne correspond pas. Vérifie les
               compteurs.
@@ -219,40 +167,12 @@ function SemantogrammePlay() {
           )}
 
           {gridSolved && !won && (
-            <form
-              onSubmit={handleSubmit}
-              className="animate-pop flex flex-col gap-2 rounded-xl border border-emerald-300 bg-linear-to-br from-emerald-50 to-teal-50 p-3 shadow-md shadow-emerald-200/50 dark:border-emerald-700 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/30"
-            >
-              <label
-                htmlFor="theme-guess"
-                className="text-sm font-medium text-emerald-900 dark:text-emerald-200"
-              >
-                Grille résolue. Quel est le thème ?
-              </label>
-              <input
-                id="theme-guess"
-                type="text"
-                value={state.themeGuess}
-                onChange={(e) => {
-                  dispatch({ type: 'guess', value: e.target.value })
-                  setThemeError(false)
-                }}
-                autoFocus
-                className="rounded-md border border-emerald-300 bg-white px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-200 dark:border-emerald-700 dark:bg-gray-900 dark:text-gray-100"
-                placeholder="Ton mot-thème"
-              />
-              {themeError && (
-                <p className="text-xs text-rose-600 dark:text-rose-400">
-                  Pas tout à fait. Réessaie.
-                </p>
-              )}
-              <button
-                type="submit"
-                className="rounded-md bg-emerald-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-emerald-500"
-              >
-                Valider le thème
-              </button>
-            </form>
+            <ThemeGuessForm
+              value={state.themeGuess}
+              onChange={(value) => play({ type: 'guess', value })}
+              onSubmit={() => setThemeError(!isThemeGuessCorrect(state))}
+              error={themeError}
+            />
           )}
         </PlaySidebar>
       </GameFrame>

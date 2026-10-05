@@ -1,4 +1,4 @@
-import { GUARD_TYPES, remaining } from './engine'
+import { pickableTypes, remaining, restFacing } from './engine'
 import { GuardSprite } from './GuardSprite'
 import type { GameState, GuardType } from './types'
 
@@ -6,11 +6,6 @@ const LABEL: Record<GuardType, string> = {
   simple: 'Simple',
   angle: 'En angle',
   oppose: 'Opposé',
-}
-
-/** Types de vigiles présents dans le lot, dans l'ordre du sélecteur (touches 1, 2, 3). */
-export function pickableTypes(state: GameState): GuardType[] {
-  return GUARD_TYPES.filter((t) => state.level.pool[t] > 0)
 }
 
 type Props = {
@@ -48,7 +43,7 @@ export function GuardTypePicker({ state, selected, onSelect }: Props) {
           >
             {/* Faisceaux visibles : c'est leur direction qui distingue les types. */}
             <svg viewBox="-36 -36 72 72" width="56" height="56" aria-hidden="true">
-              <GuardSprite type={type} facing={type === 'oppose' ? 'E' : 'N'} />
+              <GuardSprite type={type} facing={restFacing(type)} />
             </svg>
             <kbd className="absolute right-1 bottom-1 rounded bg-slate-950/70 px-1 text-xs font-semibold text-slate-200">
               {i + 1}

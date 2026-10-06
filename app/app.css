@@ -123,6 +123,28 @@ body {
     overflow-y: auto;
     transform-origin: top left;
     transform: translateX(100cqw) rotate(90deg);
+    container-type: size;
+  }
+  /* La grille tient dans la hauteur de la zone pivotée (la largeur du téléphone) :
+     ses lignes se partagent cette hauteur, moins les marges du cadre, du plateau
+     et la ligne des compteurs (5rem). Un petit niveau a ainsi de grandes cases. */
+  .force-landscape .semanto-grid {
+    grid-template-rows: auto repeat(
+        var(--rows),
+        calc((100cqh - 5rem - var(--rows) * 0.25rem) / var(--rows))
+      );
+  }
+  /* Le plateau s'étire sur toute la longueur de la zone pivotée. */
+  .force-landscape div:has(> .semanto-grid) {
+    align-self: stretch;
+  }
+  /* Texte proportionné à la largeur des colonnes (~7,5 largeurs de caractère par
+     colonne, 13 lettres au plus par mot), plafonné à 1rem : pas de coupure de mot. */
+  .force-landscape .semanto-grid button {
+    min-height: 0;
+    font-size: min(1rem, calc((100cqw - 8rem) / var(--cols) / 7.5));
+    overflow-wrap: normal;
+    hyphens: manual;
   }
 }
 

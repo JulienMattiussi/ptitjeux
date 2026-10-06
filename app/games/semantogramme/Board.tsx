@@ -40,8 +40,8 @@ export function Board({ state, onCellClick, selected, onHoverCell }: Props) {
       {/* Sur mobile, les colonnes se partagent la largeur disponible et les mots longs
           passent à la ligne : la grille s'allonge en hauteur au lieu de déborder. */}
       <div
-        className="grid grid-cols-[auto_repeat(var(--cols),minmax(0,1fr))] gap-1 sm:grid-cols-[auto_repeat(var(--cols),minmax(96px,1fr))] sm:gap-1.5"
-        style={{ '--cols': level.width } as CSSProperties}
+        className="semanto-grid grid grid-cols-[auto_repeat(var(--cols),minmax(0,1fr))] gap-1 sm:grid-cols-[auto_repeat(var(--cols),minmax(96px,1fr))] sm:gap-1.5"
+        style={{ '--cols': level.width, '--rows': level.height } as CSSProperties}
       >
         <div />
         {level.colClues.map((target, x) => {

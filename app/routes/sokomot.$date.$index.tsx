@@ -1,4 +1,5 @@
 import { useEffect, useReducer, useState } from 'react'
+import { KeyboardOnly, TouchOnly } from '~/components/InputHint'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -138,9 +139,11 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           />
 
           <HelpBox>
-            Déplace-toi avec les flèches ou ZQSD, ou au doigt : glisse sur le plateau, ou touche une
-            case à côté du crayon. Pousse les lettres sur les cases en pointillés pour former le
-            mot.
+            <KeyboardOnly>Déplace-toi avec les flèches ou ZQSD.</KeyboardOnly>
+            <TouchOnly>
+              Glisse sur le plateau, ou touche une case à côté du crayon, pour te déplacer.
+            </TouchOnly>{' '}
+            Pousse les lettres sur les cases en pointillés pour former le mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

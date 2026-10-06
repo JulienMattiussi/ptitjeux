@@ -40,7 +40,7 @@ export function GuardTypePicker({ state, selected, onSelect }: Props) {
             <svg viewBox="-36 -36 72 72" width="56" height="56" aria-hidden="true">
               <GuardSprite type={type} facing={restFacing(type)} />
             </svg>
-            <kbd className="absolute right-1 bottom-1 rounded bg-slate-950/70 px-1 text-xs font-semibold text-slate-200">
+            <kbd className="absolute right-1 bottom-1 pointer-coarse:hidden rounded bg-slate-950/70 px-1 text-xs font-semibold text-slate-200">
               {i + 1}
             </kbd>
           </button>

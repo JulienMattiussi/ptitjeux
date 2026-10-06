@@ -1,4 +1,5 @@
 import { useEffect, useReducer, useState } from 'react'
+import { KeyboardOnly, TouchOnly } from '~/components/InputHint'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -163,7 +164,8 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             />
 
             <HelpBox>
-              Clique (ou flèches + Espace ou Entrée) pour changer l'état d'une case :
+              <KeyboardOnly>Clique (ou flèches + Espace ou Entrée)</KeyboardOnly>
+              <TouchOnly>Touche une case</TouchOnly> pour changer l'état d'une case :
               <span className="mx-1 inline-block rounded bg-amber-200 px-1.5 py-0.5 text-amber-950 dark:bg-amber-700/70 dark:text-amber-50">
                 Liée au thème
               </span>

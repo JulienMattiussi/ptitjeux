@@ -115,7 +115,7 @@ export function VictoryOverlay({
       role="dialog"
       aria-modal="true"
       aria-labelledby="victory-title"
-      className="animate-fade-in-up absolute inset-0 z-30 flex items-center justify-center rounded-3xl bg-white/70 p-4 backdrop-blur-sm dark:bg-gray-950/70"
+      className="animate-fade-in-up absolute inset-0 z-30 flex overflow-y-auto rounded-3xl bg-white/70 p-4 backdrop-blur-sm max-sm:fixed max-sm:rounded-none dark:bg-gray-950/70"
     >
       <span
         className="animate-float pointer-events-none absolute left-[18%] top-[14%] text-3xl"
@@ -139,20 +139,20 @@ export function VictoryOverlay({
       </span>
 
       <div
-        className={`animate-pop relative w-full max-w-md rounded-3xl border bg-linear-to-br p-8 text-center shadow-2xl ${s.border} ${s.cardBg} ${s.shadow}`}
+        className={`animate-pop relative m-auto w-full max-w-md rounded-3xl border bg-linear-to-br p-6 text-center sm:p-8 shadow-2xl ${s.border} ${s.cardBg} ${s.shadow}`}
       >
-        <div className="text-6xl drop-shadow-md" aria-hidden="true">
+        <div className="text-5xl drop-shadow-md sm:text-6xl" aria-hidden="true">
           {variant === 'perfect' ? '🎉' : '👍'}
         </div>
         <h2
           id="victory-title"
-          className={`mt-3 font-display text-3xl font-bold tracking-tight ${s.title}`}
+          className={`mt-3 font-display text-2xl font-bold tracking-tight sm:text-3xl ${s.title}`}
         >
           {title}
         </h2>
         {detail && <div className={`mt-2 text-base ${s.detail}`}>{detail}</div>}
 
-        <div className="mt-7 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:justify-center">
+        <div className="mt-5 flex flex-col gap-2 sm:mt-7 sm:flex-row sm:flex-wrap sm:justify-center">
           <Link
             to={backHref}
             className={`rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`}

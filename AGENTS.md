@@ -138,6 +138,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Balises SEO et de partage | `app/lib/seo.ts` (`pageMeta`, `gameListMeta`, `gamePlayMeta`) |
 | Ref toujours à jour | `app/lib/useLatestRef.ts` |
 | Appui long au doigt (équivalent du clic droit) | `app/lib/useLongPress.ts` |
+| Aide propre au clavier/souris ou au tactile | `app/components/InputHint.tsx` (`KeyboardOnly`, `TouchOnly`, variante `pointer-coarse`) |
 | Glissé du doigt sur un plateau (Sokomot) | `app/lib/useSwipe.ts` (`useSwipe`, `dominantDirection`) |
 | Page « niveau introuvable » | `app/components/LevelNotFound.tsx` |
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |

@@ -1,4 +1,5 @@
 import { useMemo, useReducer, useState } from 'react'
+import { KeyboardOnly, TouchOnly } from '~/components/InputHint'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -199,8 +200,11 @@ function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             {level.mirrors.length > 0 && <MirrorHelp />}
           </HelpBox>
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            Clic : poser ou pivoter · clic droit : retirer · clavier : flèches, Espace, Entrée
-            {types.length > 1 && ' · 1, 2, 3 : type de vigile'}
+            <KeyboardOnly>
+              Clic : poser ou pivoter · clic droit : retirer · clavier : flèches, Espace, Entrée
+              {types.length > 1 && ' · 1, 2, 3 : type de vigile'}
+            </KeyboardOnly>
+            <TouchOnly>Toucher : poser ou pivoter · appui long : retirer</TouchOnly>
           </p>
         </PlaySidebar>
       </GameFrame>

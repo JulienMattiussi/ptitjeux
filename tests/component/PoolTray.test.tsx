@@ -23,10 +23,25 @@ function state(pool: Pool) {
 }
 
 describe('PoolTray', () => {
+  // Les deux vues (liste sur ordinateur, décompte sur mobile) sont rendues, le CSS choisit.
   it('une ligne par type encore à placer, avec le nombre restant', () => {
     render(<PoolTray state={state({ simple: 2, angle: 0, oppose: 1 })} />)
-    expect(screen.getByLabelText('Vigiles à placer, type simple : 2')).toBeInTheDocument()
-    expect(screen.getByLabelText('Vigiles à placer, type opposé : 1')).toBeInTheDocument()
+    expect(screen.getAllByLabelText('Vigiles à placer, type simple : 2')).toHaveLength(2)
+    expect(screen.getAllByLabelText('Vigiles à placer, type opposé : 1')).toHaveLength(2)
+  })
+
+  it('sur mobile, un vigile par type du lot avec son nombre restant', () => {
+    render(<PoolTray state={state({ simple: 7, angle: 0, oppose: 3 })} />)
+    expect(screen.getByText('× 7')).toBeInTheDocument()
+    expect(screen.getByText('× 3')).toBeInTheDocument()
+    expect(screen.queryByText('× 0')).not.toBeInTheDocument()
+  })
+
+  it('sur mobile, un type épuisé reste affiché, grisé, à 0', () => {
+    render(<PoolTray state={placeGuard(state({ simple: 1, angle: 0, oppose: 2 }), 1, 1)} />)
+    const exhausted = screen.getByLabelText('Vigiles à placer, type simple : 0')
+    expect(exhausted).toHaveTextContent('× 0')
+    expect(exhausted).toHaveClass('grayscale')
   })
 
   it('annonce quand tous les vigiles sont placés', () => {

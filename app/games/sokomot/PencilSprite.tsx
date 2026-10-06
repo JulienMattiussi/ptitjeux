@@ -16,7 +16,8 @@ const DIRECTION_LABEL: Record<Direction, string> = {
 
 type Props = {
   direction: Direction
-  size: number
+  /** Côté du dessin : en pixels, ou relatif à la case (`95%`). */
+  size: number | string
 }
 
 export function PencilSprite({ direction, size }: Props) {

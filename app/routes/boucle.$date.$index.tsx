@@ -1,4 +1,5 @@
 import { useEffect, useReducer, useState } from 'react'
+import { KeyboardOnly, TouchOnly } from '~/components/InputHint'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
 import { HelpBox } from '~/components/HelpBox'
@@ -155,10 +156,13 @@ function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           />
 
           <HelpBox>
-            Clique sur une arête entre deux cases pour l'ajouter à la boucle, ou navigue avec les
-            flèches et appuie sur Espace pour la basculer. Les indices te disent combien d'arêtes de
-            la boucle entourent chaque case. Quand la boucle est valide, les lettres encerclées
-            doivent former le mot.
+            <KeyboardOnly>
+              Clique sur une arête entre deux cases pour l'ajouter à la boucle, ou navigue avec les
+              flèches et appuie sur Espace pour la basculer.
+            </KeyboardOnly>
+            <TouchOnly>Touche une arête entre deux cases pour l'ajouter à la boucle.</TouchOnly> Les
+            indices te disent combien d'arêtes de la boucle entourent chaque case. Quand la boucle
+            est valide, les lettres encerclées doivent former le mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

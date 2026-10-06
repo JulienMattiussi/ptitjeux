@@ -1,4 +1,5 @@
 import { OutlineButton } from './OutlineButton'
+import { KeyboardOnly } from './InputHint'
 
 type Props = {
   onUndo: () => void
@@ -20,10 +21,10 @@ export function PlayControls({ onUndo, onReset, undoDisabled = false }: Props) {
         disabled={undoDisabled}
         className="flex-1 basis-36 whitespace-nowrap"
       >
-        Annuler (Ctrl+Z)
+        Annuler<KeyboardOnly> (Ctrl+Z)</KeyboardOnly>
       </OutlineButton>
       <OutlineButton onClick={onReset} className="flex-1 basis-36 whitespace-nowrap">
-        Recommencer (R)
+        Recommencer<KeyboardOnly> (R)</KeyboardOnly>
       </OutlineButton>
     </div>
   )

@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, type CSSProperties } from 'react'
 import type { Direction } from '~/lib/cursor'
 import { dominantDirection, useSwipe } from '~/lib/useSwipe'
 import { blockAt, isCellFilled, isIce, isWall, isWon, targetIndexAt } from './engine'
@@ -11,7 +11,16 @@ type Props = {
   onMove?: (direction: Direction) => void
 }
 
-const CELL_SIZE = 60
+/**
+ * Côté d'une case : 60 px, réduit sur petit écran pour que la grille tienne en
+ * largeur (6rem : marges de la page, du cadre de jeu et du plateau).
+ */
+const CELL = 'min(60px, calc((100vw - 6rem) / var(--cols)))'
+
+/** Longueur de `n` cases, plus un décalage en pixels. */
+function cells(n: number, px = 0): string {
+  return `calc(var(--cell) * ${n} + ${px}px)`
+}
 
 const ICE_PATTERN =
   'repeating-linear-gradient(45deg, oklch(96% 0.03 230) 0 6px, oklch(89% 0.06 230) 6px 8px)'
@@ -40,8 +49,6 @@ export function Board({ state, onMove }: Props) {
   const rows = Array.from({ length: level.height }, (_, y) => y)
   const cols = Array.from({ length: level.width }, (_, x) => x)
 
-  const blockSize = CELL_SIZE - 8
-
   return (
     <div
       className={`inline-block rounded-2xl p-3 shadow-xl ${
@@ -56,16 +63,20 @@ export function Board({ state, onMove }: Props) {
         ref={areaRef}
         {...swipe}
         className="relative touch-none overflow-hidden rounded-xl select-none"
-        style={{
-          width: level.width * CELL_SIZE,
-          height: level.height * CELL_SIZE,
-        }}
+        style={
+          {
+            '--cols': level.width,
+            '--cell': CELL,
+            width: cells(level.width),
+            height: cells(level.height),
+          } as CSSProperties
+        }
       >
         <div
           className="grid"
           style={{
-            gridTemplateColumns: `repeat(${level.width}, ${CELL_SIZE}px)`,
-            gridTemplateRows: `repeat(${level.height}, ${CELL_SIZE}px)`,
+            gridTemplateColumns: `repeat(${level.width}, var(--cell))`,
+            gridTemplateRows: `repeat(${level.height}, var(--cell))`,
           }}
           role="grid"
         >
@@ -94,7 +105,7 @@ export function Board({ state, onMove }: Props) {
                   {tIndex >= 0 && !block && (
                     <span
                       className="flex h-[78%] w-[78%] items-center justify-center rounded-md border-2 border-dashed border-amber-400/70 text-2xl font-bold text-amber-500/40 dark:border-amber-500/60 dark:text-amber-400/30"
-                      style={{ fontSize: CELL_SIZE * 0.5 }}
+                      style={{ fontSize: cells(0.5) }}
                       aria-hidden="true"
                     >
                       {level.target.word[tIndex]}
@@ -118,10 +129,10 @@ export function Board({ state, onMove }: Props) {
               style={{
                 top: 0,
                 left: 0,
-                width: blockSize,
-                height: blockSize,
-                fontSize: CELL_SIZE * 0.5,
-                transform: `translate(${b.pos[0] * CELL_SIZE + 4}px, ${b.pos[1] * CELL_SIZE + 4}px)`,
+                width: cells(1, -8),
+                height: cells(1, -8),
+                fontSize: cells(0.5),
+                transform: `translate(${cells(b.pos[0], 4)}, ${cells(b.pos[1], 4)})`,
                 background: onTargetCorrect
                   ? 'linear-gradient(180deg, oklch(85% 0.16 145), oklch(68% 0.17 145))'
                   : 'linear-gradient(180deg, oklch(88% 0.13 80), oklch(73% 0.16 70))',
@@ -142,12 +153,12 @@ export function Board({ state, onMove }: Props) {
           style={{
             top: 0,
             left: 0,
-            width: CELL_SIZE,
-            height: CELL_SIZE,
-            transform: `translate(${player[0] * CELL_SIZE}px, ${player[1] * CELL_SIZE}px)`,
+            width: cells(1),
+            height: cells(1),
+            transform: `translate(${cells(player[0])}, ${cells(player[1])})`,
           }}
         >
-          <PencilSprite direction={state.lastDirection} size={CELL_SIZE * 0.95} />
+          <PencilSprite direction={state.lastDirection} size="95%" />
         </div>
 
         {won && (

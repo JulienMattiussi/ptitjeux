@@ -91,58 +91,41 @@ body {
   }
 }
 
-/* Téléphone tenu en portrait : la zone de jeu pivote d'un quart de tour pour
-   s'afficher en paysage (Sémantogramme, dont les mots manquent de largeur). Le
-   titre reste droit : la page occupe l'écran, la zone sous le titre sert de
-   conteneur, et la zone pivotée prend ses dimensions inversées (unités cq*). */
+/* Téléphone tenu en portrait : le plateau de Sémantogramme, dont les mots
+   manquent de largeur, pivote d'un quart de tour pour s'afficher en paysage. Le
+   reste de la page (titre, compteurs, saisie, victoire) reste droit. Son cadre
+   occupe la hauteur de l'écran sous le titre et sert de conteneur : le plateau
+   pivoté prend ses dimensions inversées (unités cq*). */
 @media (orientation: portrait) and (max-width: 639px) {
-  div:has(> main > .force-landscape) {
-    display: flex;
-    flex-direction: column;
-    height: 100dvh;
-  }
-  main:has(> .force-landscape) {
-    position: relative;
-    flex: 1;
-    /* Ses marges auto la réduiraient à son contenu, nul sous le confinement de taille. */
-    width: 100%;
-    margin: 0;
-    min-height: 0;
-    padding: 0;
-    overflow: hidden;
-    container-type: size;
-    animation: none;
-  }
   .force-landscape {
+    position: relative;
+    align-self: stretch;
+    height: calc(100dvh - 7.5rem);
+    container-type: size;
+  }
+  .force-landscape > * {
     position: absolute;
     top: 0;
     left: 0;
     width: 100cqh;
+    max-width: none;
     height: 100cqw;
-    padding: 0.75rem;
-    overflow-y: auto;
     transform-origin: top left;
     transform: translateX(100cqw) rotate(90deg);
-    container-type: size;
   }
-  /* La grille tient dans la hauteur de la zone pivotée (la largeur du téléphone) :
-     ses lignes se partagent cette hauteur, moins les marges du cadre, du plateau
-     et la ligne des compteurs (5rem). Un petit niveau a ainsi de grandes cases. */
+  /* Les lignes se partagent la largeur du téléphone, moins les marges du plateau
+     et la ligne des compteurs (3rem) : un petit niveau a de grandes cases. */
   .force-landscape .semanto-grid {
     grid-template-rows: auto repeat(
         var(--rows),
-        calc((100cqh - 5rem - var(--rows) * 0.25rem) / var(--rows))
+        calc((100cqw - 3rem - var(--rows) * 0.25rem) / var(--rows))
       );
-  }
-  /* Le plateau s'étire sur toute la longueur de la zone pivotée. */
-  .force-landscape div:has(> .semanto-grid) {
-    align-self: stretch;
   }
   /* Texte proportionné à la largeur des colonnes (~7,5 largeurs de caractère par
      colonne, 13 lettres au plus par mot), plafonné à 1rem : pas de coupure de mot. */
   .force-landscape .semanto-grid button {
     min-height: 0;
-    font-size: min(1rem, calc((100cqw - 8rem) / var(--cols) / 7.5));
+    font-size: min(1rem, calc((100cqh - 5rem) / var(--cols) / 7.5));
     overflow-wrap: normal;
     hyphens: manual;
   }

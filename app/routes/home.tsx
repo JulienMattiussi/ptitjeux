@@ -1,4 +1,5 @@
 import { GameCard } from '~/components/GameCard'
+import { GamesMenu } from '~/components/GamesMenu'
 import { games } from '~/lib/games-registry'
 import { useGridNavigation } from '~/lib/useGridNavigation'
 import { pageMeta, SITE_NAME } from '~/lib/seo'
@@ -53,6 +54,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <GamesMenu />
     </main>
   )
 }

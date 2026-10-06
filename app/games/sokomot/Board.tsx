@@ -1,9 +1,14 @@
+import { useRef } from 'react'
+import type { Direction } from '~/lib/cursor'
+import { dominantDirection, useSwipe } from '~/lib/useSwipe'
 import { blockAt, isCellFilled, isIce, isWall, isWon, targetIndexAt } from './engine'
 import { PencilSprite } from './PencilSprite'
 import type { GameState } from './types'
 
 type Props = {
   state: GameState
+  /** Déplacement au doigt : glissé sur le plateau, ou touche d'une case vers laquelle avancer. */
+  onMove?: (direction: Direction) => void
 }
 
 const CELL_SIZE = 60
@@ -15,8 +20,22 @@ const ICE_PATTERN_DARK =
 
 const WALL_PATTERN = 'linear-gradient(135deg, oklch(40% 0.02 260), oklch(30% 0.02 260))'
 
-export function Board({ state }: Props) {
+export function Board({ state, onMove }: Props) {
   const { level, player, blocks } = state
+  const areaRef = useRef<HTMLDivElement>(null)
+  const swipe = useSwipe(
+    (direction) => onMove?.(direction),
+    // Une touche fait avancer d'un pas vers la case touchée, sauf sur le crayon lui-même.
+    ({ x, y }) => {
+      const rect = areaRef.current?.getBoundingClientRect()
+      if (!rect) return
+      const cell = rect.width / level.width
+      const dx = x - (rect.left + (player[0] + 0.5) * cell)
+      const dy = y - (rect.top + (player[1] + 0.5) * cell)
+      if (Math.max(Math.abs(dx), Math.abs(dy)) < cell / 2) return
+      onMove?.(dominantDirection(dx, dy))
+    },
+  )
   const won = isWon(state)
   const isIceLevel = level.ice.length > 0
 
@@ -36,7 +55,9 @@ export function Board({ state }: Props) {
       aria-label={`Plateau ${level.name}`}
     >
       <div
-        className="relative overflow-hidden rounded-xl"
+        ref={areaRef}
+        {...swipe}
+        className="relative touch-none overflow-hidden rounded-xl select-none"
         style={{
           width: level.width * CELL_SIZE,
           height: level.height * CELL_SIZE,

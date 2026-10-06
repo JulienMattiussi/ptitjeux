@@ -58,3 +58,24 @@ export function CheckIcon({ className = 'h-3 w-3' }: IconProps) {
     </svg>
   )
 }
+
+/** Menu burger ; devient une croix quand le menu est ouvert. */
+export function MenuIcon({ open, className = 'h-5 w-5' }: IconProps & { open: boolean }) {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      aria-hidden="true"
+    >
+      {open ? (
+        <path d="M 3.5 3.5 L 12.5 12.5 M 12.5 3.5 L 3.5 12.5" />
+      ) : (
+        <path d="M 2 4 H 14 M 2 8 H 14 M 2 12 H 14" />
+      )}
+    </svg>
+  )
+}

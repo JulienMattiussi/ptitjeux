@@ -36,10 +36,12 @@ type Props = {
   diamondTaken?: boolean
 }
 
-/** Marge autour de la grille, où le cambrioleur attend devant l'entrée. */
-const MARGIN = 64
 /** Épaisseur du mur d'enceinte. */
 const WALL = 10
+/** Marge du côté de la porte, où le cambrioleur attend devant l'entrée. */
+const DOOR_MARGIN = 56
+/** Marge des autres côtés : le mur seul, pour ne pas rapetisser la grille sur mobile. */
+const SIDE_MARGIN = WALL + 2
 
 export function Board({
   state,
@@ -64,9 +66,13 @@ export function Board({
   const guardByCell = new Map(guards.map((g) => [key(...g.pos), g]))
   // Vigile sous le curseur (souris ou clavier) : ses faisceaux sont tracés en entier.
   const hovered = selected ? guardByCell.get(key(selected.x, selected.y)) : undefined
-  const width = level.width * CELL + MARGIN * 2
-  const height = level.height * CELL + MARGIN * 2
-  const origin = (x: number, y: number) => [MARGIN + x * CELL, MARGIN + y * CELL] as const
+  const side = doorSide(level)
+  const margin = (d: Dir) => (d === side ? DOOR_MARGIN : SIDE_MARGIN)
+  const left = margin('W')
+  const top = margin('N')
+  const width = level.width * CELL + left + margin('E')
+  const height = level.height * CELL + top + margin('S')
+  const origin = (x: number, y: number) => [left + x * CELL, top + y * CELL] as const
 
   const cells = []
   for (let y = 0; y < level.height; y++) {
@@ -104,7 +110,6 @@ export function Board({
   }
 
   const [dx, dy] = origin(...level.door)
-  const side = doorSide(level)
   // Avant la victoire, le cambrioleur attend dehors, face à la porte.
   const wait = CELL / 2 + WALL + 22
   const [thiefX, thiefY] = thief
@@ -119,8 +124,8 @@ export function Board({
         className="h-auto max-w-full select-none [-webkit-touch-callout:none]"
       >
         <rect
-          x={MARGIN - WALL}
-          y={MARGIN - WALL}
+          x={left - WALL}
+          y={top - WALL}
           width={level.width * CELL + WALL * 2}
           height={level.height * CELL + WALL * 2}
           rx={6}
@@ -128,8 +133,8 @@ export function Board({
         />
         {/* Sol sous les dalles : les joints restent sombres, sans quadrillage clair. */}
         <rect
-          x={MARGIN}
-          y={MARGIN}
+          x={left}
+          y={top}
           width={level.width * CELL}
           height={level.height * CELL}
           className="fill-slate-800 dark:fill-slate-950"
@@ -142,7 +147,7 @@ export function Board({
             <polyline
               key={i}
               points={line
-                .map(([x, y]) => `${MARGIN + (x + 0.5) * CELL},${MARGIN + (y + 0.5) * CELL}`)
+                .map(([x, y]) => `${left + (x + 0.5) * CELL},${top + (y + 0.5) * CELL}`)
                 .join(' ')}
               className="fill-none stroke-yellow-300"
               strokeWidth="3"

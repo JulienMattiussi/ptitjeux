@@ -116,7 +116,10 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           />
         }
       >
-        <Board state={state} />
+        <Board
+          state={state}
+          onMove={won ? undefined : (direction) => dispatch({ type: 'move', direction })}
+        />
         <PlaySidebar>
           <MovesCard
             moves={state.moves}
@@ -135,8 +138,9 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
           />
 
           <HelpBox>
-            Déplace-toi avec les flèches ou ZQSD. Pousse les lettres sur les cases en pointillés
-            pour former le mot.
+            Déplace-toi avec les flèches ou ZQSD, ou au doigt : glisse sur le plateau, ou touche une
+            case à côté du crayon. Pousse les lettres sur les cases en pointillés pour former le
+            mot.
           </HelpBox>
         </PlaySidebar>
       </GameFrame>

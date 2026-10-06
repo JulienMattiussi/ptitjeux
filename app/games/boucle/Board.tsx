@@ -55,12 +55,11 @@ export function Board({ state, onToggleEdge, selected, onHoverEdge }: Props) {
   }
 
   return (
-    <div className="rounded-2xl bg-linear-to-br from-emerald-50 to-teal-100 p-4 shadow-xl shadow-emerald-200/30 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/40">
+    <div className="rounded-2xl bg-linear-to-br from-emerald-50 to-teal-100 p-2 shadow-xl shadow-emerald-200/30 sm:p-4 dark:from-emerald-950 dark:to-teal-950 dark:shadow-emerald-900/40">
       <svg
         viewBox={`0 0 ${width} ${height}`}
-        width={width}
-        height={height}
-        className="touch-none select-none"
+        style={{ width }}
+        className="h-auto max-w-full touch-none select-none"
         role="application"
         aria-label={`Plateau ${level.name}`}
       >

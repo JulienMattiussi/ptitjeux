@@ -138,6 +138,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Balises SEO et de partage | `app/lib/seo.ts` (`pageMeta`, `gameListMeta`, `gamePlayMeta`) |
 | Ref toujours à jour | `app/lib/useLatestRef.ts` |
 | Appui long au doigt (équivalent du clic droit) | `app/lib/useLongPress.ts` |
+| Glissé du doigt sur un plateau (Sokomot) | `app/lib/useSwipe.ts` (`useSwipe`, `dominantDirection`) |
 | Page « niveau introuvable » | `app/components/LevelNotFound.tsx` |
 | Définitions Wiktionnaire | `app/components/WordDefinition.tsx` + `app/lib/wiktionary.ts` |
 | Compteur de coups + objectif (sidebar) | `app/components/MovesCard.tsx` (extras du jeu en `children`) |
@@ -146,6 +147,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Annulation (tous les jeux) | `app/lib/undoable.ts` (`withUndo`, `undoable`) |
 | Icônes SVG, bouton secondaire, ligne de statut | `app/components/icons.tsx`, `OutlineButton.tsx`, `StatusRow.tsx` |
 | Carte d'un jeu (accueil) | `app/components/GameCard.tsx` |
+| Menu burger des jeux (accueil, mobile) | `app/components/GamesMenu.tsx` |
 
 Avant d'écrire un nouveau composant ou hook, **vérifier qu'il n'existe pas déjà** un équivalent dans `lib/` ou `components/`. Avant de copier-coller du code entre 2 routes/jeux, **extraire** dans `lib/`.
 

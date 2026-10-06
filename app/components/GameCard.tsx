@@ -8,13 +8,13 @@ export function GameCard({ game }: { game: GameDescriptor }) {
     <Link
       to={game.href}
       data-nav-item=""
-      className="animate-fade-in-up group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 bg-white/80 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900/70 dark:hover:border-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:focus-visible:ring-gray-100 dark:focus-visible:ring-offset-gray-950"
+      className="animate-fade-in-up group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 bg-white/80 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-gray-300 hover:shadow-xl dark:border-gray-700 dark:bg-gray-800/70 dark:shadow-black/40 dark:hover:border-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:focus-visible:ring-gray-100 dark:focus-visible:ring-offset-gray-950"
     >
       <div
         className={`absolute inset-x-0 top-0 h-1 bg-linear-to-r ${game.accentClass}`}
         aria-hidden="true"
       />
-      <div className="relative aspect-3/2 overflow-hidden bg-linear-to-br from-gray-50 to-gray-100 transition-transform duration-500 group-hover:scale-[1.03] dark:from-gray-900 dark:to-gray-950">
+      <div className="relative aspect-3/2 overflow-hidden bg-linear-to-br from-gray-50 to-gray-100 transition-transform duration-500 group-hover:scale-[1.03] dark:from-gray-800 dark:to-gray-900">
         <Thumbnail gameId={game.id} className="h-full w-full" />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">

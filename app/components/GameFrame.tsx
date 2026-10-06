@@ -16,7 +16,7 @@ type Props = {
  */
 export function GameFrame({ children, overlay }: Props) {
   return (
-    <div className="relative mx-auto w-full max-w-5xl rounded-3xl border border-gray-200/80 bg-white/80 p-5 shadow-xl shadow-gray-300/30 backdrop-blur sm:p-8 dark:border-gray-800/80 dark:bg-gray-900/70 dark:shadow-black/30">
+    <div className="relative mx-auto w-full max-w-5xl rounded-3xl border border-gray-200/80 bg-white/80 p-3 shadow-xl shadow-gray-300/30 backdrop-blur sm:p-8 dark:border-gray-800/80 dark:bg-gray-900/70 dark:shadow-black/30">
       <div className="flex flex-col items-center gap-6 lg:flex-row lg:items-start lg:justify-center">
         {children}
       </div>

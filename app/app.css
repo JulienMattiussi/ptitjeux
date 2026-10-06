@@ -91,6 +91,23 @@ body {
   }
 }
 
+/* Téléphone tenu en portrait : la page pivote d'un quart de tour pour s'afficher
+   en paysage (Sémantogramme, dont les mots manquent de largeur). Elle défile dans
+   son propre cadre, aux dimensions de l'écran inversées. */
+@media (orientation: portrait) and (max-width: 639px) {
+  .force-landscape {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100dvh;
+    height: 100dvw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform-origin: top left;
+    transform: translateX(100dvw) rotate(90deg);
+  }
+}
+
 .animate-fade-in-up {
   animation: fade-in-up 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
 }

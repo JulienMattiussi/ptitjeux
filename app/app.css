@@ -91,20 +91,35 @@ body {
   }
 }
 
-/* Téléphone tenu en portrait : la page pivote d'un quart de tour pour s'afficher
-   en paysage (Sémantogramme, dont les mots manquent de largeur). Elle défile dans
-   son propre cadre, aux dimensions de l'écran inversées. */
+/* Téléphone tenu en portrait : la zone de jeu pivote d'un quart de tour pour
+   s'afficher en paysage (Sémantogramme, dont les mots manquent de largeur). Le
+   titre reste droit : la page occupe l'écran, la zone sous le titre sert de
+   conteneur, et la zone pivotée prend ses dimensions inversées (unités cq*). */
 @media (orientation: portrait) and (max-width: 639px) {
+  div:has(> main > .force-landscape) {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+  }
+  main:has(> .force-landscape) {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    container-type: size;
+    animation: none;
+  }
   .force-landscape {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100dvh;
-    height: 100dvw;
-    overflow-x: hidden;
+    width: 100cqh;
+    height: 100cqw;
+    padding: 0.75rem;
     overflow-y: auto;
     transform-origin: top left;
-    transform: translateX(100dvw) rotate(90deg);
+    transform: translateX(100cqw) rotate(90deg);
   }
 }
 

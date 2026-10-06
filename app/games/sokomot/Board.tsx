@@ -15,8 +15,6 @@ const CELL_SIZE = 60
 
 const ICE_PATTERN =
   'repeating-linear-gradient(45deg, oklch(96% 0.03 230) 0 6px, oklch(89% 0.06 230) 6px 8px)'
-const ICE_PATTERN_DARK =
-  'repeating-linear-gradient(45deg, oklch(35% 0.07 230) 0 6px, oklch(28% 0.05 230) 6px 8px)'
 
 const WALL_PATTERN = 'linear-gradient(135deg, oklch(40% 0.02 260), oklch(30% 0.02 260))'
 
@@ -84,11 +82,7 @@ export function Board({ state, onMove }: Props) {
                   className="relative flex items-center justify-center"
                   role="gridcell"
                   style={{
-                    background: wall
-                      ? WALL_PATTERN
-                      : ice
-                        ? `var(--ice-bg, ${ICE_PATTERN})`
-                        : 'oklch(99% 0.005 240)',
+                    background: wall ? WALL_PATTERN : ice ? ICE_PATTERN : 'oklch(99% 0.005 240)',
                   }}
                 >
                   {wall && (
@@ -111,14 +105,6 @@ export function Board({ state, onMove }: Props) {
             }),
           )}
         </div>
-
-        <style>{`
-          @media (prefers-color-scheme: dark) {
-            [role="application"] [role="gridcell"] {
-              --ice-bg: ${ICE_PATTERN_DARK};
-            }
-          }
-        `}</style>
 
         {blocks.map((b) => {
           const targetIdx = targetIndexAt(level, b.pos)

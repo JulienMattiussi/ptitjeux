@@ -23,7 +23,12 @@ export function PoolTray({ state }: { state: GameState }) {
           aria-label={`Vigiles à placer, type ${GUARD_LABEL[type].toLowerCase()} : ${remaining(state, type)}`}
         >
           {Array.from({ length: remaining(state, type) }, (_, i) => (
-            <li key={i} title={`Vigile ${GUARD_LABEL[type].toLowerCase()}`}>
+            <li
+              key={i}
+              title={`Vigile ${GUARD_LABEL[type].toLowerCase()}`}
+              // Fond clair, comme les dalles éclairées : la casquette sombre reste lisible en mode sombre.
+              className="rounded-lg bg-slate-100 dark:bg-slate-400"
+            >
               <svg viewBox="-20 -20 40 40" width="36" height="36" aria-hidden="true">
                 <GuardSprite type={type} facing={restFacing(type)} beams={false} />
               </svg>

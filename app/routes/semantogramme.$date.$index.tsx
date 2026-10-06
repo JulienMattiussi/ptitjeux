@@ -104,13 +104,13 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
   }, [level])
 
   return (
-    <div className="force-landscape">
-      <GameLayout
-        title={title}
-        subtitle="Identifie les mots liés au thème caché."
-        backHref={backHref}
-        backLabel="Niveaux"
-      >
+    <GameLayout
+      title={title}
+      subtitle="Identifie les mots liés au thème caché."
+      backHref={backHref}
+      backLabel="Niveaux"
+    >
+      <div className="force-landscape">
         <GameFrame
           overlay={
             <VictoryOverlay
@@ -191,7 +191,7 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             )}
           </PlaySidebar>
         </GameFrame>
-      </GameLayout>
-    </div>
+      </div>
+    </GameLayout>
   )
 }

@@ -81,8 +81,8 @@ export function ClueMark({
         : 'fill-rose-300'
       : state === 'ok'
         ? lit
-          ? 'fill-emerald-700 dark:fill-emerald-200'
-          : 'fill-emerald-300'
+          ? 'fill-emerald-700 dark:fill-emerald-400'
+          : 'fill-emerald-400'
         : lit
           ? 'fill-gray-800 dark:fill-gray-100'
           : 'fill-gray-100'

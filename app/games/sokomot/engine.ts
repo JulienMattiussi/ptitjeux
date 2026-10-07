@@ -114,6 +114,11 @@ function reset(state: GameState): GameState {
   return loadLevel(state.level)
 }
 
+/** Grille résolue : la solution enregistrée rejouée (test d'intégrité, solution d'un jour passé). */
+export function solvedState(level: Level): GameState {
+  return level.solution.reduce(applyMove, loadLevel(level))
+}
+
 export function isWon(state: GameState): boolean {
   const { target } = state.level
   if (target.cells.length !== target.word.length) return false

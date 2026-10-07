@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { areCluesSatisfied, getInsideWord, isValidLoop, isWon } from '~/games/boucle/engine'
+import {
+  areCluesSatisfied,
+  getInsideWord,
+  isValidLoop,
+  isWon,
+  solvedState,
+} from '~/games/boucle/engine'
 import { playExpectedLoop } from '../helpers/boucle'
 import { byId, committedChallenges, committedLevels } from '../helpers/levels'
 
@@ -21,6 +27,10 @@ describe('niveaux Boucle : intégrité', () => {
     expect(getInsideWord(state)).toBe(level.solutionWord)
     expect(isWon(state)).toBe(true)
     expect(edges.length).toBeLessThanOrEqual(level.parMoves)
+  })
+
+  it.each(byId(levels))('%s : la solution affichée des jours passés est gagnante', (_, level) => {
+    expect(isWon(solvedState(level))).toBe(true)
   })
 
   it('aucun mot ne sert deux fois, tous jours et niveaux confondus', () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isWon, loadLevel, placeGuard, rotateGuard } from '~/games/anglemort/engine'
+import { isWon, loadLevel, placeGuard, rotateGuard, solvedState } from '~/games/anglemort/engine'
 import { hasUniqueCorridor, originalLevels } from '../helpers/anglemort'
 import { byId, committedChallenges, committedLevels } from '../helpers/levels'
 
@@ -34,6 +34,10 @@ describe('niveaux Angle mort : intégrité', () => {
       expect(state.moves).toBeLessThanOrEqual(level.parMoves)
     },
   )
+
+  it.each(byId(levels))('%s : la solution affichée des jours passés est gagnante', (_, level) => {
+    expect(isWon(solvedState(level))).toBe(true)
+  })
 
   // Chaque grille de base sert 8 fois (symétries) ; une symétrie conserve
   // l'unicité du couloir (cf. anglemort.symmetry.test.ts). Ici, chaque grille

@@ -9,6 +9,7 @@ import { MovesCard } from '~/components/MovesCard'
 import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
+import { SolutionCard } from '~/components/SolutionCard'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { Board } from '~/games/anglemort/Board'
 import * as challenges from '~/games/anglemort/challenges'
@@ -22,6 +23,7 @@ import {
   pickableTypes,
   reducer,
   remaining,
+  solvedState,
   stepDir,
   unseenCells,
 } from '~/games/anglemort/engine'
@@ -35,6 +37,7 @@ import { plural } from '~/lib/text'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
+import { useSolution } from '~/lib/useSolution'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
@@ -54,18 +57,28 @@ const undoableReducer = withUndo(reducer, (action) => action.type !== 'reset')
 // Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
 // le `useReducer` garderait l'état du niveau précédent.
 export default function AngleMortPlayRoute({ loaderData }: Route.ComponentProps) {
-  const { date, idx, level, lastDate } = loaderData
+  const { date, idx, level, lastDate, revealed } = loaderData
   if (!level) return <LevelNotFound backHref="/anglemort" />
   return (
-    <AngleMortPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
+    <AngleMortPlay
+      key={`${date}-${idx}`}
+      level={level}
+      date={date}
+      idx={idx}
+      lastDate={lastDate}
+      revealed={revealed}
+    />
   )
 }
 
-function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
+function AngleMortPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
   const hint = useHint(state.moves, level.parMoves)
+  const solution = useSolution(revealed)
+  const solved = useMemo(() => solvedState(level), [level])
+  const locked = won || solution.shown
   const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
     gameId: 'anglemort',
     date,
@@ -104,7 +117,7 @@ function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
 
   useGameKeyboard({
     onBack: goBack,
-    enabled: !won,
+    enabled: !won && !solution.shown,
     onDirection: (direction) =>
       setSelected((s) => moveCellCursor(s, direction, level.width, level.height)),
     onAction: () =>
@@ -149,19 +162,19 @@ function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
       >
         <div className="flex flex-col items-center gap-3">
           <Board
-            state={state}
-            expected={hint.revealed ? expectedCorridor(level) : undefined}
+            state={solution.shown ? solved : state}
+            expected={hint.revealed && !solution.shown ? expectedCorridor(level) : undefined}
             thief={walk.step >= 0 ? corridor[walk.step] : undefined}
             thiefFacing={
               walk.step > 0 ? stepDir(corridor[walk.step - 1], corridor[walk.step]) : undefined
             }
             diamondTaken={walk.step >= 0 && walk.step === corridor.length - 1}
-            selected={selected}
+            selected={solution.shown ? undefined : selected}
             onHoverCell={(x, y) => {
-              if (!won) setSelected({ x, y })
+              if (!locked) setSelected({ x, y })
             }}
             onCellClick={(x, y) => {
-              if (won) return
+              if (locked) return
               setSelected({ x, y })
               dispatch(
                 guardAt(state, x, y)
@@ -171,10 +184,12 @@ function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             }}
             onCellRemove={(x, y) => {
               // Retirer seulement : sur une case vide, « toggle » poserait un vigile.
-              if (!won && guardAt(state, x, y)) dispatch({ type: 'toggle', x, y })
+              if (!locked && guardAt(state, x, y)) dispatch({ type: 'toggle', x, y })
             }}
           />
-          <GuardTypePicker state={state} selected={guardType} onSelect={setChosenType} />
+          {!solution.shown && (
+            <GuardTypePicker state={state} selected={guardType} onSelect={setChosenType} />
+          )}
         </div>
         <PlaySidebar>
           <MovesCard
@@ -192,6 +207,10 @@ function AngleMortPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             onReset={() => dispatch({ type: 'reset' })}
             undoDisabled={won || history.past.length === 0}
           />
+
+          <SolutionCard solution={solution}>
+            Le plan du casse est affiché sur la grille.
+          </SolutionCard>
 
           <HelpBox>
             Place tous les vigiles. Les cases sombres doivent former un seul couloir, sans

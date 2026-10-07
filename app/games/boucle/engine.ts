@@ -267,6 +267,25 @@ export function getInsideWord(state: GameState): string {
   return inside.map(([x, y]) => state.level.letters[y][x]).join('')
 }
 
+/** Boucle attendue : le contour des cases du mot (`solutionInsideCells`). */
+export function solutionEdges(level: Level): Edge[] {
+  const inside = new Set(level.solutionInsideCells.map(([x, y]) => `${x},${y}`))
+  const isIn = (x: number, y: number) => inside.has(`${x},${y}`)
+  const out: Edge[] = []
+  for (const [cx, cy] of level.solutionInsideCells) {
+    if (!isIn(cx, cy - 1)) out.push({ x: cx, y: cy, orientation: 'horizontal' })
+    if (!isIn(cx, cy + 1)) out.push({ x: cx, y: cy + 1, orientation: 'horizontal' })
+    if (!isIn(cx - 1, cy)) out.push({ x: cx, y: cy, orientation: 'vertical' })
+    if (!isIn(cx + 1, cy)) out.push({ x: cx + 1, y: cy, orientation: 'vertical' })
+  }
+  return out
+}
+
+/** Grille résolue, pour la solution d'un jour passé. */
+export function solvedState(level: Level): GameState {
+  return { ...loadLevel(level), edges: solutionEdges(level) }
+}
+
 export function isWon(state: GameState): boolean {
   if (!isValidLoop(state.edges)) return false
   if (!areCluesSatisfied(state)) return false

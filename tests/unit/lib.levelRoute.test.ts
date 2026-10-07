@@ -34,6 +34,14 @@ describe('lib/levelRoute', () => {
     })
   })
 
+  it("révèle la solution d'un jour passé", async () => {
+    expect((await load('2026-10-04', '1')).revealed).toBe(true)
+  })
+
+  it('cache la solution du défi du jour', async () => {
+    expect((await load('2026-10-05', '2')).revealed).toBe(false)
+  })
+
   it('répond 404 pour un niveau absent', async () => {
     expect(await load('2026-10-05', '1')).toMatchObject({ level: null, status: 404 })
   })

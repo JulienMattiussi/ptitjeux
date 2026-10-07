@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isGridSolved, isWon, setThemeGuess } from '~/games/semantogramme/engine'
+import { isGridSolved, isWon, setThemeGuess, solvedState } from '~/games/semantogramme/engine'
 import { LEVEL_INDICES } from '~/games/types'
 import { loadDomains } from '../../generators/semantogramme'
 import { type ThemeLevel, helpDomains, loadCuration } from '../../generators/semantogramme-curation'
@@ -28,6 +28,10 @@ describe('niveaux Sémantogramme : intégrité', () => {
     expect(isWon(setThemeGuess(state, level.themeWord)), `thème ${level.themeWord} rejeté`).toBe(
       true,
     )
+  })
+
+  it.each(byId(levels))('%s : la solution affichée des jours passés est gagnante', (_, level) => {
+    expect(isWon(solvedState(level))).toBe(true)
   })
 
   // Une ligne ou colonne toute « thème » ou toute « hors thème » appauvrit le puzzle.

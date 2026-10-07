@@ -358,6 +358,11 @@ export function isPoolComplete(state: GameState): boolean {
   return GUARD_TYPES.every((t) => remaining(state, t) === 0)
 }
 
+/** Vigiles de la solution enregistrée en place, pour la solution d'un jour passé. */
+export function solvedState(level: Level): GameState {
+  return { level, guards: level.solution, moves: level.solution.length }
+}
+
 export function isWon(state: GameState): boolean {
   if (!isPoolComplete(state)) return false
   const { level, guards } = state

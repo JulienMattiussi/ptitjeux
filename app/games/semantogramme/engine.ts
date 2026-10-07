@@ -80,6 +80,14 @@ export function isThemeGuessCorrect(state: GameState): boolean {
   return normalize(state.themeGuess) === normalize(state.level.themeWord)
 }
 
+/** Grille résolue et thème trouvé, pour la solution d'un jour passé. */
+export function solvedState(level: Level): GameState {
+  const status = level.solution.map((row) =>
+    row.map((inTheme): CellStatus => (inTheme ? 'in' : 'out')),
+  )
+  return { ...loadLevel(level), status, themeGuess: level.themeWord }
+}
+
 export function isWon(state: GameState): boolean {
   return isGridSolved(state) && isThemeGuessCorrect(state)
 }

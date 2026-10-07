@@ -1,6 +1,6 @@
 import { data } from 'react-router'
 import type { GameChallenges } from './challenges-loader'
-import { shouldShowFutureDates, todayString } from './dates'
+import { isRevealed, shouldShowFutureDates, todayString } from './dates'
 
 /** Calendrier publié d'un jeu : un défi chaque jour, de `firstDate` à `lastDate`. */
 export type CalendarRange = { firstDate: string | undefined; lastDate: string | undefined }
@@ -26,6 +26,8 @@ export type PlayProps<L> = {
   idx: number
   /** Dernier défi publié, base de la mention « Défi du jour ». */
   lastDate: string | undefined
+  /** Jour passé : la solution peut s'afficher (`isRevealed`). */
+  revealed: boolean
 }
 
 /** Un défi à venir n'est pas encore publié, même si son fichier existe. */
@@ -46,5 +48,7 @@ export async function loadLevelRoute<L>(params: LevelParams, challenges: GameCha
   const level =
     valid && isPublished(date) ? ((await challenges.fetchLevel(date, idx)) ?? null) : null
   const lastDate = challenges.getAllDates().at(-1)
-  return data({ date, idx, level, lastDate }, { status: level ? 200 : 404 })
+  // Calculé par le serveur : le rendu et l'hydratation s'accordent, même à minuit.
+  const revealed = valid && isRevealed(date)
+  return data({ date, idx, level, lastDate, revealed }, { status: level ? 200 : 404 })
 }

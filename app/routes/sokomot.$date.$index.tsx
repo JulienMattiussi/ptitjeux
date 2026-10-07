@@ -9,17 +9,21 @@ import { MovesCard } from '~/components/MovesCard'
 import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
+import { SolutionCard } from '~/components/SolutionCard'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/sokomot/Board'
 import * as challenges from '~/games/sokomot/challenges'
 import { isWon, loadLevel, reducer } from '~/games/sokomot/engine'
 import { PlacementOrder } from '~/games/sokomot/PlacementOrder'
+import { SolutionReplayControls } from '~/games/sokomot/SolutionReplayControls'
+import { useSolutionReplay } from '~/games/sokomot/useSolutionReplay'
 import type { Level } from '~/games/sokomot/types'
 import { plural } from '~/lib/text'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
+import { useSolution } from '~/lib/useSolution'
 import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
 import { gamePlayMeta } from '~/lib/seo'
@@ -54,19 +58,28 @@ function useDelayedVictory(won: boolean): boolean {
 // Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
 // le `useReducer` garderait l'état du niveau précédent.
 export default function SokomotPlayRoute({ loaderData }: Route.ComponentProps) {
-  const { date, idx, level, lastDate } = loaderData
+  const { date, idx, level, lastDate, revealed } = loaderData
   if (!level) return <LevelNotFound backHref="/sokomot" />
   return (
-    <SokomotPlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
+    <SokomotPlay
+      key={`${date}-${idx}`}
+      level={level}
+      date={date}
+      idx={idx}
+      lastDate={lastDate}
+      revealed={revealed}
+    />
   )
 }
 
-function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
+function SokomotPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
   const showVictory = useDelayedVictory(won)
   const hint = useHint(state.moves, level.parMoves)
+  const solution = useSolution(revealed)
+  const replay = useSolutionReplay(level, solution.shown)
   const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
     gameId: 'sokomot',
     date,
@@ -83,7 +96,7 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
 
   useGameKeyboard({
     onBack: goBack,
-    enabled: !won,
+    enabled: !won && !solution.shown,
     onDirection: (direction) => dispatch({ type: 'move', direction }),
     onUndo: () => dispatch({ type: 'undo' }),
     onReset: () => dispatch({ type: 'reset' }),
@@ -118,8 +131,10 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
         }
       >
         <Board
-          state={state}
-          onMove={won ? undefined : (direction) => dispatch({ type: 'move', direction })}
+          state={solution.shown ? replay.state : state}
+          onMove={
+            won || solution.shown ? undefined : (direction) => dispatch({ type: 'move', direction })
+          }
         />
         <PlaySidebar>
           <MovesCard
@@ -137,6 +152,12 @@ function SokomotPlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             onReset={() => dispatch({ type: 'reset' })}
             undoDisabled={won || history.past.length === 0}
           />
+
+          <SolutionCard solution={solution}>
+            Le mot était <span className="font-bold">{level.canonicalWord}</span>.
+            <SolutionReplayControls replay={replay} />
+            <WordDefinition word={level.canonicalWord} />
+          </SolutionCard>
 
           <HelpBox>
             <KeyboardOnly>Déplace-toi avec les flèches ou ZQSD.</KeyboardOnly>

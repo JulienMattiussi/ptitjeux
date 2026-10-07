@@ -146,6 +146,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Boutons Annuler (Ctrl+Z) / Recommencer (R) | `app/components/PlayControls.tsx` |
 | Aide « Coincé ? » (au-delà de 2 × `parMoves`) | `app/lib/useHint.ts` + `app/components/HintButton.tsx` (prop `hint` de `MovesCard`) |
 | Annulation (tous les jeux) | `app/lib/undoable.ts` (`withUndo`, `undoable`) |
+| Solution d'un jour passé | `app/lib/useSolution.ts` + `app/components/SolutionCard.tsx` ; plateau résolu par `solvedState` de chaque moteur ; règle `isRevealed` (`app/lib/dates.ts`) |
 | Icônes SVG, bouton secondaire, ligne de statut | `app/components/icons.tsx`, `OutlineButton.tsx`, `StatusRow.tsx` |
 | Carte d'un jeu (accueil) | `app/components/GameCard.tsx` |
 | Menu burger des jeux (accueil, mobile) | `app/components/GamesMenu.tsx` |
@@ -306,6 +307,10 @@ Quand le joueur dépasse le double de `parMoves` (`HINT_PAR_FACTOR` dans `app/li
 | Boucle | Le mot à encercler |
 | Sémantogramme | Le ou les domaines de sens du thème (champ `domains` du niveau, tiré de `domains.json`) ; un domaine qui trahit le thème est écarté, à défaut on montre la catégorie (`helpDomains` dans `generators/semantogramme-curation.ts`) |
 | Angle mort | Le couloir attendu, teinté sur la grille (`expectedCorridor`) |
+
+### Solution des jours passés
+
+Les réponses d'un défi sont publiées le lendemain (`isRevealed`, `app/lib/dates.ts`, toujours le vrai jour de Paris) : jamais dans l'interface le jour même. Le `loader` transmet `revealed` ; la page propose alors « Voir la solution » (`SolutionCard`), qui affiche le plateau résolu (`solvedState` du moteur) en lecture seule à la place de la partie, avec le mot ou le thème et sa définition. Sokomot rejoue sa solution coup par coup (`useSolutionReplay`, lecture/pause, coup précédent/suivant), pour montrer le chemin du crayon. La partie reste intacte derrière (« Revenir à ma partie »), et voir la solution n'a **aucun effet** sur la progression. Dans les archives, un œil sur chaque tuile ouvre le niveau avec `?solution`. Le test d'intégrité de chaque jeu vérifie que `solvedState` gagne, pour chaque niveau.
 
 ### Mot du jour et définitions
 

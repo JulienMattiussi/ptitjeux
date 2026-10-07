@@ -80,7 +80,7 @@ describe('ChallengeListPage', () => {
     // L'archive du mois en cours est ouverte par défaut. On cherche un lien
     // niveau pour une date d'archive (autre que le jour même).
     const archive = screen
-      .getAllByRole('link')
+      .getAllByRole('link', { name: /^Niveau/ })
       .filter((a) => a.getAttribute('href')?.startsWith('/sokomot/2026-10-02/'))
     expect(archive).toHaveLength(4)
   })

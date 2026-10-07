@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { isWon as anglemortIsWon, loadLevel as anglemortLoad } from '~/games/anglemort/engine'
 import { areCluesSatisfied, isValidLoop, isWon as boucleIsWon } from '~/games/boucle/engine'
 import { isGridSolved, isWon as semanIsWon, setThemeGuess } from '~/games/semantogramme/engine'
-import { isWon as sokomotIsWon } from '~/games/sokomot/engine'
+import { isWon as sokomotIsWon, solvedState } from '~/games/sokomot/engine'
 import { LEVEL_INDICES, type LevelIndex } from '~/games/types'
 import { GAME_SIZE } from '~/lib/game-styles'
 import { generateAngleMortLevel } from '../../generators/anglemort'
@@ -12,7 +12,6 @@ import { loadCuration } from '../../generators/semantogramme-curation'
 import { generateSokomotLevel } from '../../generators/sokomot'
 import { playExpectedLoop } from '../helpers/boucle'
 import { applySolution, cluesOf } from '../helpers/semantogramme'
-import { replaySolution } from '../helpers/sokomot'
 
 /**
  * Les 4 générateurs rejoués sur un large échantillon de dates, pour détecter
@@ -139,7 +138,7 @@ describe('générateurs : robustesse sur un large échantillon de dates', () => 
       (date) => {
         for (const idx of LEVEL_INDICES) {
           const level = generateSokomotLevel(date, idx)
-          expect(sokomotIsWon(replaySolution(level)), `${date}/${idx} non résolu`).toBe(true)
+          expect(sokomotIsWon(solvedState(level)), `${date}/${idx} non résolu`).toBe(true)
           expect(level.solution.length, `${date}/${idx} parMoves`).toBe(level.parMoves)
         }
       },

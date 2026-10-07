@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isWon } from '~/games/sokomot/engine'
+import { isWon, solvedState } from '~/games/sokomot/engine'
 import type { Level } from '~/games/sokomot/types'
 import { LEVEL_INDICES } from '~/games/types'
 import { GAME_SIZE } from '~/lib/game-styles'
@@ -8,7 +8,6 @@ import { Rng } from '../../generators/random'
 import { generateSokomotLevel, isIceIndex } from '../../generators/sokomot'
 import { buildBorderWalls } from '../../generators/sokomot-grid'
 import { tryGenerateSokobanPullChain } from '../../generators/sokomot-pullchain'
-import { replaySolution } from '../helpers/sokomot'
 
 const DATE = '2026-10-07'
 // Les solveurs prennent quelques secondes aux niveaux 3 et 4.
@@ -41,7 +40,7 @@ describe('sokomot/generator', () => {
     'niveau %s : la solution stockée gagne en parMoves coups',
     (i) => {
       const level = generateSokomotLevel(DATE, i)
-      expect(isWon(replaySolution(level))).toBe(true)
+      expect(isWon(solvedState(level))).toBe(true)
       expect(level.solution).toHaveLength(level.parMoves)
     },
     SOLVER_TIMEOUT,
@@ -106,6 +105,6 @@ describe('sokomot/pullchain (niveau 3)', () => {
       solution: draft.solution,
       canonicalWord: 'motus',
     }
-    expect(isWon(replaySolution(level))).toBe(true)
+    expect(isWon(solvedState(level))).toBe(true)
   })
 })

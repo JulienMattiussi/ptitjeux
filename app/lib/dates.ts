@@ -65,6 +65,15 @@ export function shouldShowFutureDates(): boolean {
   return import.meta.env?.VITE_SHOW_FUTURE_DAYS === '1'
 }
 
+/**
+ * Les réponses d'un défi sont publiées le lendemain : on ne peut voir la
+ * solution que d'un jour passé, jamais celle du défi du jour. Toujours le
+ * vrai jour, même avec `VITE_FREEZE_TODAY`, comme la publication des défis.
+ */
+export function isRevealed(date: DateString): boolean {
+  return date < todayString()
+}
+
 /** Nombre de jours de `from` à `to` (négatif si `to` précède `from`). */
 export function daysBetween(from: DateString, to: DateString): number {
   return Math.round((Date.parse(to) - Date.parse(from)) / 86_400_000)

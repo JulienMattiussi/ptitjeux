@@ -42,6 +42,24 @@ export function LockIcon({ className = 'h-4 w-4' }: IconProps) {
   )
 }
 
+export function EyeIcon({ className = 'h-4 w-4' }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M 1.5 8 C 3.5 4.5 5.5 3 8 3 C 10.5 3 12.5 4.5 14.5 8 C 12.5 11.5 10.5 13 8 13 C 5.5 13 3.5 11.5 1.5 8 Z" />
+      <circle cx="8" cy="8" r="2" />
+    </svg>
+  )
+}
+
 export function CheckIcon({ className = 'h-3 w-3' }: IconProps) {
   return (
     <svg

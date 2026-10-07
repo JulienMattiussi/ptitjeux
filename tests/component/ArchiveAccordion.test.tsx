@@ -51,7 +51,7 @@ describe('ArchiveAccordion', () => {
     renderArchive()
     // Octobre est ouvert : 2 jours × 4 niveaux = 8 liens vers /sokomot/2026-10-*/N.
     const links = screen
-      .getAllByRole('link')
+      .getAllByRole('link', { name: /^Niveau/ })
       .filter((l) => l.getAttribute('href')?.startsWith('/sokomot/2026-10-'))
     expect(links).toHaveLength(8)
   })

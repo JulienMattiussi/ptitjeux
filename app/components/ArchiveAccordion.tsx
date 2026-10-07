@@ -4,7 +4,7 @@ import { ChevronRight } from './icons'
 import { LevelTile } from './LevelTile'
 import { LEVEL_INDICES } from '~/games/types'
 import { aggregateCompletion, dayStatuses } from '~/lib/completion'
-import { dateLabelShort, monthKey, monthLabel } from '~/lib/dates'
+import { dateLabelShort, isRevealed, monthKey, monthLabel } from '~/lib/dates'
 import type { GameId } from '~/lib/game-styles'
 import type { GameProgress } from '~/lib/localStorage'
 import { plural } from '~/lib/text'
@@ -135,6 +135,7 @@ function ArchiveDayRow({ gameId, date, progress, rowRef }: DayRowProps) {
             locked={false}
             status={statuses[i - 1]}
             variant="archive"
+            revealed={isRevealed(date)}
           />
         ))}
       </div>

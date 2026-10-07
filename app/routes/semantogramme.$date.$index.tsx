@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useEffect, useMemo, useReducer, useState } from 'react'
 import { KeyboardOnly, TouchOnly } from '~/components/InputHint'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
@@ -9,6 +9,7 @@ import { MovesCard } from '~/components/MovesCard'
 import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
+import { SolutionCard } from '~/components/SolutionCard'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
 import { Board } from '~/games/semantogramme/Board'
@@ -20,6 +21,7 @@ import {
   isWon,
   loadLevel,
   reducer,
+  solvedState,
   type Action,
 } from '~/games/semantogramme/engine'
 import { ThemeGuessForm } from '~/games/semantogramme/ThemeGuessForm'
@@ -29,6 +31,7 @@ import { plural } from '~/lib/text'
 import { undoable, withUndo, type UndoAction } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
+import { useSolution } from '~/lib/useSolution'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
@@ -49,7 +52,7 @@ const undoableReducer = withUndo(reducer, (action) => action.type === 'cycle')
 // Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
 // le `useReducer` garderait l'état du niveau précédent.
 export default function SemantogrammePlayRoute({ loaderData }: Route.ComponentProps) {
-  const { date, idx, level, lastDate } = loaderData
+  const { date, idx, level, lastDate, revealed } = loaderData
   if (!level) return <LevelNotFound backHref="/semantogramme" />
   return (
     <SemantogrammePlay
@@ -58,16 +61,20 @@ export default function SemantogrammePlayRoute({ loaderData }: Route.ComponentPr
       date={date}
       idx={idx}
       lastDate={lastDate}
+      revealed={revealed}
     />
   )
 }
 
-function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
+function SemantogrammePlay({ level, date, idx, lastDate, revealed }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
   const gridSolved = isGridSolved(state)
   const hint = useHint(state.moves, level.parMoves)
+  const solution = useSolution(revealed)
+  const solved = useMemo(() => solvedState(level), [level])
+  const locked = won || solution.shown
   const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
     gameId: 'semantogramme',
     date,
@@ -90,7 +97,7 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
 
   useGameKeyboard({
     onBack: goBack,
-    enabled: !won,
+    enabled: !won && !solution.shown,
     // Le champ du thème garde ses touches (R, Espace, flèches) pour la saisie.
     ignoreInputs: true,
     onDirection: (direction) =>
@@ -135,13 +142,13 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
       >
         <div className="force-landscape">
           <Board
-            state={state}
-            selected={selected}
+            state={solution.shown ? solved : state}
+            selected={solution.shown ? undefined : selected}
             onHoverCell={(x, y) => {
-              if (!won) setSelected({ x, y })
+              if (!locked) setSelected({ x, y })
             }}
             onCellClick={(x, y) => {
-              if (won) return
+              if (locked) return
               setSelected({ x, y })
               play({ type: 'cycle', x, y })
             }}
@@ -164,6 +171,11 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             undoDisabled={won || history.past.length === 0}
           />
 
+          <SolutionCard solution={solution}>
+            Le thème était <span className="font-bold">« {level.themeWord} »</span>.
+            <WordDefinition word={level.themeWord} />
+          </SolutionCard>
+
           <HelpBox>
             <KeyboardOnly>Clique (ou flèches + Espace ou Entrée)</KeyboardOnly>
             <TouchOnly>Touche une case</TouchOnly> pour changer l'état d'une case :
@@ -177,14 +189,14 @@ function SemantogrammePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             → non marquée.
           </HelpBox>
 
-          {isFullyMarked(state) && !gridSolved && (
+          {!solution.shown && isFullyMarked(state) && !gridSolved && (
             <div className="rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-200">
               Toutes les cases sont marquées, mais le placement ne correspond pas. Vérifie les
               compteurs.
             </div>
           )}
 
-          {gridSolved && !won && (
+          {gridSolved && !locked && (
             <ThemeGuessForm
               value={state.themeGuess}
               onChange={(value) => play({ type: 'guess', value })}

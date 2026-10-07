@@ -5,6 +5,7 @@ import {
   dateRange,
   daysBetween,
   formatDate,
+  isRevealed,
   monthKey,
   monthLabel,
   parseDate,
@@ -79,6 +80,15 @@ describe('lib/dates : drapeaux de dev', () => {
     vi.useFakeTimers({ toFake: ['Date'] })
     vi.setSystemTime(new Date('2026-10-05T12:00:00+02:00'))
     expect(todayString('2027-09-30')).toBe('2026-10-05')
+    vi.useRealTimers()
+  })
+
+  it('isRevealed : réponses visibles le lendemain, jamais le jour même', () => {
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date('2026-10-05T12:00:00+02:00'))
+    expect(isRevealed('2026-10-04')).toBe(true)
+    expect(isRevealed('2026-10-05')).toBe(false)
+    expect(isRevealed('2026-10-06')).toBe(false)
     vi.useRealTimers()
   })
 

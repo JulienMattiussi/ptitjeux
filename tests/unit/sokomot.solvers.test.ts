@@ -1,10 +1,9 @@
 import { describe, expect, it } from 'vitest'
-import { isWon } from '~/games/sokomot/engine'
+import { isWon, solvedState } from '~/games/sokomot/engine'
 import type { Coord, Level } from '~/games/sokomot/types'
 import { buildBorderWalls } from '../../generators/sokomot-grid'
 import { solveOptimalSokomot } from '../../generators/sokomot-optimal-solver'
 import { solveSokomotByPushes } from '../../generators/sokomot-pushstate-solver'
-import { replaySolution } from '../helpers/sokomot'
 
 /**
  * #######
@@ -40,7 +39,7 @@ function tinyLevel(ice: Coord[] = []): Level {
 }
 
 const solved = (level: Level, solution: Level['solution'] | null) =>
-  solution !== null && isWon(replaySolution({ ...level, solution }))
+  solution !== null && isWon(solvedState({ ...level, solution }))
 
 describe('solveOptimalSokomot', () => {
   it('trouve une solution la plus courte', () => {

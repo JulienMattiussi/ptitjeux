@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 import { CheckMark } from './CheckMark'
-import { ChevronRight, LockIcon } from './icons'
+import { ChevronRight, EyeIcon, LockIcon } from './icons'
 import { ThumbnailRef } from './Thumbnail'
 import type { CompletionStatus } from '~/lib/completion'
 import { dateLabel } from '~/lib/dates'
@@ -15,6 +15,8 @@ type Props = {
   status: CompletionStatus
   /** `daily` = grande tuile avec libellé « Niveau N ». `archive` = compact, sans libellé. */
   variant?: 'daily' | 'archive'
+  /** Jour passé : un œil ouvre le niveau avec sa solution affichée. */
+  revealed?: boolean
 }
 
 const STATUS_SUFFIX: Record<CompletionStatus, string> = {
@@ -27,7 +29,15 @@ function archiveLabel(index: number, date: string, status: CompletionStatus): st
   return `Niveau ${index} du ${dateLabel(date)}${STATUS_SUFFIX[status]}`
 }
 
-export function LevelTile({ gameId, date, index, locked, status, variant = 'daily' }: Props) {
+export function LevelTile({
+  gameId,
+  date,
+  index,
+  locked,
+  status,
+  variant = 'daily',
+  revealed = false,
+}: Props) {
   const c = GAME_ACCENT[gameId]
   const { width, height } = GAME_SIZE[gameId](index)
   const compact = variant === 'archive'
@@ -120,7 +130,7 @@ export function LevelTile({ gameId, date, index, locked, status, variant = 'dail
     )
   }
 
-  return (
+  const tile = (
     <Link
       to={`/${gameId}/${date}/${index}`}
       {...navAttrs}
@@ -130,5 +140,22 @@ export function LevelTile({ gameId, date, index, locked, status, variant = 'dail
     >
       {inner}
     </Link>
+  )
+  if (!revealed) return tile
+
+  // Un lien ne peut pas en contenir un autre : l'œil est posé par-dessus la tuile.
+  return (
+    <div className="relative">
+      {tile}
+      <Link
+        to={`/${gameId}/${date}/${index}?solution`}
+        data-nav-item=""
+        aria-label={`Solution du niveau ${index} du ${dateLabel(date)}`}
+        title="Voir la solution"
+        className="absolute bottom-1.5 left-1.5 rounded-full border border-gray-200 bg-white/95 p-1 text-gray-500 shadow-sm transition hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 dark:border-gray-700 dark:bg-gray-900/95 dark:text-gray-400 dark:hover:text-gray-100 dark:focus-visible:ring-gray-100"
+      >
+        <EyeIcon className="h-3.5 w-3.5" />
+      </Link>
+    </div>
   )
 }

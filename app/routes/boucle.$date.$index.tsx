@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from 'react'
+import { useEffect, useMemo, useReducer, useState } from 'react'
 import { KeyboardOnly, TouchOnly } from '~/components/InputHint'
 import { GameFrame } from '~/components/GameFrame'
 import { GameLayout } from '~/components/GameLayout'
@@ -9,6 +9,7 @@ import { MovesCard } from '~/components/MovesCard'
 import { ParObjective } from '~/components/ParObjective'
 import { PlayControls } from '~/components/PlayControls'
 import { PlaySidebar } from '~/components/PlaySidebar'
+import { SolutionCard } from '~/components/SolutionCard'
 import { StatusRow } from '~/components/StatusRow'
 import { VictoryOverlay } from '~/components/VictoryOverlay'
 import { prefetchDefinition, WordDefinition } from '~/components/WordDefinition'
@@ -23,12 +24,14 @@ import {
   loadLevel,
   moveEdgeSelection,
   reducer,
+  solvedState,
 } from '~/games/boucle/engine'
 import type { Edge, Level } from '~/games/boucle/types'
 import { plural } from '~/lib/text'
 import { undoable, withUndo } from '~/lib/undoable'
 import { useGameKeyboard } from '~/lib/useGameKeyboard'
 import { useHint } from '~/lib/useHint'
+import { useSolution } from '~/lib/useSolution'
 import { useLatestRef } from '~/lib/useLatestRef'
 import { loadLevelRoute, type LevelParams, type PlayProps } from '~/lib/levelRoute'
 import { useLevelPlayLifecycle } from '~/lib/useLevelPlayLifecycle'
@@ -48,19 +51,29 @@ const undoableReducer = withUndo(reducer, (action) => action.type === 'toggle')
 // Le `key` remonte une partie neuve à chaque changement de niveau : sans lui,
 // le `useReducer` garderait l'état du niveau précédent.
 export default function BouclePlayRoute({ loaderData }: Route.ComponentProps) {
-  const { date, idx, level, lastDate } = loaderData
+  const { date, idx, level, lastDate, revealed } = loaderData
   if (!level) return <LevelNotFound backHref="/boucle" />
   return (
-    <BouclePlay key={`${date}-${idx}`} level={level} date={date} idx={idx} lastDate={lastDate} />
+    <BouclePlay
+      key={`${date}-${idx}`}
+      level={level}
+      date={date}
+      idx={idx}
+      lastDate={lastDate}
+      revealed={revealed}
+    />
   )
 }
 
-function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
+function BouclePlay({ level, date, idx, lastDate, revealed }: PlayProps<Level>) {
   const [history, dispatch] = useReducer(undoableReducer, level, (l) => undoable(loadLevel(l)))
   const state = history.present
   const won = isWon(state)
   const loopOk = isValidLoop(state.edges)
   const hint = useHint(state.moves, level.parMoves)
+  const solution = useSolution(revealed)
+  const solved = useMemo(() => solvedState(level), [level])
+  const locked = won || solution.shown
   const { title, backHref, goBack, nextHref, variant } = useLevelPlayLifecycle({
     gameId: 'boucle',
     date,
@@ -76,7 +89,7 @@ function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
 
   useGameKeyboard({
     onBack: goBack,
-    enabled: !won,
+    enabled: !won && !solution.shown,
     onDirection: (direction) =>
       setSelected((prev) => moveEdgeSelection(prev, direction, level.width, level.height)),
     onAction: () => dispatch({ type: 'toggle', edge: selectedRef.current }),
@@ -118,13 +131,13 @@ function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
         }
       >
         <Board
-          state={state}
-          selected={selected}
+          state={solution.shown ? solved : state}
+          selected={solution.shown ? undefined : selected}
           onHoverEdge={(edge) => {
-            if (!won) setSelected(edge)
+            if (!locked) setSelected(edge)
           }}
           onToggleEdge={(edge) => {
-            if (won) return
+            if (locked) return
             setSelected(edge)
             dispatch({ type: 'toggle', edge })
           }}
@@ -154,6 +167,11 @@ function BouclePlay({ level, date, idx, lastDate }: PlayProps<Level>) {
             onReset={() => dispatch({ type: 'reset' })}
             undoDisabled={won || history.past.length === 0}
           />
+
+          <SolutionCard solution={solution}>
+            Le mot à encercler était <span className="font-bold">{level.canonicalWord}</span>.
+            <WordDefinition word={level.canonicalWord} />
+          </SolutionCard>
 
           <HelpBox>
             <KeyboardOnly>

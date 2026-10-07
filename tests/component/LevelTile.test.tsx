@@ -31,6 +31,18 @@ describe('LevelTile', () => {
     expect(screen.getByText('Niveau 1')).toBeInTheDocument()
   })
 
+  it('jour passé en archive : un œil ouvre le niveau avec sa solution', () => {
+    renderTile({ variant: 'archive', revealed: true })
+    expect(
+      screen.getByRole('link', { name: 'Solution du niveau 1 du 8 mai 2026' }),
+    ).toHaveAttribute('href', '/sokomot/2026-05-08/1?solution')
+  })
+
+  it('sans révélation : pas de lien vers la solution', () => {
+    renderTile({ variant: 'archive' })
+    expect(screen.queryByRole('link', { name: /Solution/ })).toBeNull()
+  })
+
   it('verrouillé : pas de lien, message de verrouillage et infobulle', () => {
     renderTile({ locked: true, index: 3 })
     expect(screen.queryByRole('link')).toBeNull()

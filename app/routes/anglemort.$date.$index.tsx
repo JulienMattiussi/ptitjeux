@@ -27,6 +27,7 @@ import {
   stepDir,
   unseenCells,
 } from '~/games/anglemort/engine'
+import { CorridorHelp } from '~/games/anglemort/CorridorHelp'
 import { GuardTypePicker } from '~/games/anglemort/GuardTypePicker'
 import { MirrorHelp } from '~/games/anglemort/MirrorHelp'
 import { PoolTray } from '~/games/anglemort/PoolTray'
@@ -216,6 +217,7 @@ function AngleMortPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level
             Place tous les vigiles. Les cases sombres doivent former un seul couloir, sans
             embranchement, de la porte jusqu'au diamant. Un chiffre indique combien de vigiles
             éclairent sa case.
+            <CorridorHelp />
             {level.mirrors.length > 0 && <MirrorHelp />}
           </HelpBox>
           <p className="text-xs text-gray-500 dark:text-gray-400">

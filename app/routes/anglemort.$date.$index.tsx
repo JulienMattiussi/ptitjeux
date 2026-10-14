@@ -200,7 +200,7 @@ function AngleMortPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level
             hint={<HintButton hint={hint} label="Le couloir est teinté en rose sur la grille." />}
           >
             <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">Vigiles à placer</div>
-            <PoolTray state={state} />
+            <PoolTray state={state} onSelect={setChosenType} />
           </MovesCard>
 
           <PlayControls

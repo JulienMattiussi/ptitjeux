@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react'
-import { describe, expect, it } from 'vitest'
+import userEvent from '@testing-library/user-event'
+import { describe, expect, it, vi } from 'vitest'
 import { loadLevel, placeGuard } from '~/games/anglemort/engine'
 import { PoolTray } from '~/games/anglemort/PoolTray'
 import type { Level, Pool } from '~/games/anglemort/types'
@@ -42,6 +43,24 @@ describe('PoolTray', () => {
     const exhausted = screen.getByLabelText('Vigiles à placer, type simple : 0')
     expect(exhausted).toHaveTextContent('× 0')
     expect(exhausted).toHaveClass('grayscale')
+  })
+
+  it('cliquer un vigile de la réserve choisit son type', async () => {
+    const onSelect = vi.fn()
+    render(<PoolTray state={state({ simple: 1, angle: 0, oppose: 2 })} onSelect={onSelect} />)
+    await userEvent.click(screen.getAllByRole('button', { name: 'Choisir le vigile opposé' })[0])
+    expect(onSelect).toHaveBeenCalledWith('oppose')
+  })
+
+  it('un type épuisé ne se choisit pas', () => {
+    const s = placeGuard(state({ simple: 1, angle: 0, oppose: 2 }), 1, 1)
+    render(<PoolTray state={s} onSelect={() => {}} />)
+    expect(screen.queryByRole('button', { name: 'Choisir le vigile simple' })).toBeNull()
+  })
+
+  it("un lot d'un seul type n'offre rien à choisir", () => {
+    render(<PoolTray state={state({ simple: 2, angle: 0, oppose: 0 })} onSelect={() => {}} />)
+    expect(screen.queryByRole('button')).toBeNull()
   })
 
   it('annonce quand tous les vigiles sont placés', () => {

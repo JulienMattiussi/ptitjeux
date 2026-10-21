@@ -60,8 +60,8 @@ const STYLES: Record<
 
 /**
  * Overlay de victoire commun. Couvre intégralement la `GameFrame` parente
- * (qui doit être en `position: relative`) avec un voile flou et une carte
- * centrée. Bloque les interactions sous-jacentes et propose : retour à la
+ * (dont il occupe la cellule de grille, voir son slot `overlay`) avec un
+ * voile flou et une carte centrée ; sur téléphone, il couvre l'écran. Bloque les interactions sous-jacentes et propose : retour à la
  * liste, « Rejouer » ou « Suivant ».
  *
  * Deux variantes :
@@ -115,7 +115,7 @@ export function VictoryOverlay({
       role="dialog"
       aria-modal="true"
       aria-labelledby="victory-title"
-      className="animate-fade-in-up absolute inset-0 z-30 flex overflow-y-auto rounded-3xl bg-white/70 p-4 backdrop-blur-sm max-sm:fixed max-sm:rounded-none dark:bg-gray-950/70"
+      className="animate-fade-in-up fixed inset-0 z-30 flex overflow-y-auto bg-white/70 p-4 backdrop-blur-sm sm:relative sm:inset-auto sm:overflow-visible sm:rounded-3xl dark:bg-gray-950/70"
     >
       <span
         className="animate-float pointer-events-none absolute left-[18%] top-[14%] text-3xl"

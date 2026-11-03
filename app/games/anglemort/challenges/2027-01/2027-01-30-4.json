@@ -74,24 +74,48 @@
   },
   "pool": {
     "simple": 5,
-    "angle": 3,
+    "angle": 2,
     "oppose": 1
   },
   "solution": [
     {
       "pos": [
-        0,
-        1
+        6,
+        9
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        8,
+        7
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        6,
+        7
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        6,
+        6
       ],
       "type": "angle",
-      "facing": "E"
+      "facing": "W"
     },
     {
       "pos": [
         7,
         4
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "W"
     },
     {
@@ -104,52 +128,20 @@
     },
     {
       "pos": [
-        2,
-        0
+        4,
+        1
       ],
       "type": "oppose",
       "facing": "E"
     },
     {
       "pos": [
-        6,
-        9
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        5,
-        6
+        8,
+        0
       ],
       "type": "simple",
       "facing": "W"
-    },
-    {
-      "pos": [
-        6,
-        7
-      ],
-      "type": "simple",
-      "facing": "N"
-    },
-    {
-      "pos": [
-        8,
-        7
-      ],
-      "type": "simple",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        2,
-        7
-      ],
-      "type": "simple",
-      "facing": "E"
     }
   ],
-  "parMoves": 9
+  "parMoves": 8
 }

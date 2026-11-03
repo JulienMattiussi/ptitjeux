@@ -33,8 +33,16 @@ export function levelOrigin(date: string): { base: number; variant: Variant } {
  * - base 33 : la grille d'essai du niveau 4, validée par Julien ;
  * - bases 1, 9, 11, 27, 48 : gardées telles qu'avant le plafond de piliers
  *   (`maxPillars`), qui décalait leur tirage sans les concerner.
+ * - niveau 3, bases 1, 20, 29, 37, et niveau 4, base 1 : lot réduit à la main
+ *   après coup, car le lot généré laissait un vigile sans rôle (une pose plus
+ *   courte donnait le même couloir). Le générateur ne garantit pas encore un
+ *   lot minimal.
  */
 const FIXED_BASES: Record<string, string> = {
+  '3-1': '2026-09-02',
+  '3-20': '2026-09-21',
+  '3-29': '2026-09-30',
+  '3-37': '2026-10-08',
   '4-1': '2026-09-02',
   '4-9': '2026-09-10',
   '4-11': '2026-09-12',

@@ -55,19 +55,11 @@
     "2,6": 0
   },
   "pool": {
-    "simple": 5,
+    "simple": 4,
     "angle": 3,
     "oppose": 0
   },
   "solution": [
-    {
-      "pos": [
-        4,
-        6
-      ],
-      "type": "angle",
-      "facing": "N"
-    },
     {
       "pos": [
         0,
@@ -94,10 +86,10 @@
     },
     {
       "pos": [
-        6,
-        2
+        4,
+        1
       ],
-      "type": "simple",
+      "type": "angle",
       "facing": "S"
     },
     {
@@ -110,11 +102,11 @@
     },
     {
       "pos": [
-        3,
+        6,
         2
       ],
       "type": "angle",
-      "facing": "W"
+      "facing": "S"
     },
     {
       "pos": [
@@ -125,5 +117,5 @@
       "facing": "S"
     }
   ],
-  "parMoves": 8
+  "parMoves": 7
 }

@@ -9,9 +9,10 @@ type Props = {
   onReset: () => void
   backHref: string
   /**
-   * Si défini, affiche un bouton « Suivant → » comme action principale, et
-   * relègue « Rejouer » en action secondaire. Doit pointer vers le niveau
-   * suivant (par exemple `/sokomot/2026-05-08/2`).
+   * Si défini, affiche un bouton « Suivant → » comme action principale ;
+   * sinon (dernier niveau du jour), c'est « ← Niveaux ». « Rejouer » reste
+   * toujours discret : on rejoue rarement un niveau qu'on vient de finir.
+   * Doit pointer vers le niveau suivant (par exemple `/sokomot/2026-05-08/2`).
    */
   nextHref?: string
   /**
@@ -31,6 +32,7 @@ const STYLES: Record<
     detail: string
     primaryBtn: string
     secondaryBtn: string
+    discreetBtn: string
   }
 > = {
   perfect: {
@@ -44,6 +46,8 @@ const STYLES: Record<
       'bg-emerald-600 shadow-emerald-500/30 hover:bg-emerald-500 dark:shadow-emerald-900/40',
     secondaryBtn:
       'border-emerald-300 text-emerald-700 hover:bg-emerald-50 dark:border-emerald-700 dark:text-emerald-200',
+    discreetBtn:
+      'text-emerald-700/80 hover:bg-emerald-100/60 dark:text-emerald-300/80 dark:hover:bg-emerald-900/40',
   },
   solved: {
     border: 'border-amber-300 dark:border-amber-700',
@@ -55,8 +59,12 @@ const STYLES: Record<
     primaryBtn: 'bg-amber-600 shadow-amber-500/30 hover:bg-amber-500 dark:shadow-amber-900/40',
     secondaryBtn:
       'border-amber-300 text-amber-700 hover:bg-amber-50 dark:border-amber-700 dark:text-amber-200',
+    discreetBtn:
+      'text-amber-700/80 hover:bg-amber-100/60 dark:text-amber-300/80 dark:hover:bg-amber-900/40',
   },
 }
+
+const BUTTON = 'rounded-lg px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5'
 
 /**
  * Overlay de victoire commun. Couvre intégralement la `GameFrame` parente
@@ -110,6 +118,8 @@ export function VictoryOverlay({
 
   if (!show) return null
   const s = STYLES[variant]
+  const primary = `${BUTTON} text-white shadow-md hover:shadow-lg ${s.primaryBtn}`
+  const secondary = `${BUTTON} border bg-white dark:bg-gray-900 ${s.secondaryBtn}`
   return (
     <div
       role="dialog"
@@ -153,28 +163,14 @@ export function VictoryOverlay({
         {detail && <div className={`mt-2 text-base ${s.detail}`}>{detail}</div>}
 
         <div className="mt-5 flex flex-col gap-2 sm:mt-7 sm:flex-row sm:flex-wrap sm:justify-center">
-          <Link
-            to={backHref}
-            className={`rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`}
-          >
+          <Link to={backHref} className={nextHref ? secondary : primary}>
             ← Niveaux
           </Link>
-          <button
-            type="button"
-            onClick={onReset}
-            className={
-              nextHref
-                ? `rounded-lg border bg-white px-6 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 dark:bg-gray-900 ${s.secondaryBtn}`
-                : `rounded-lg px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-lg ${s.primaryBtn}`
-            }
-          >
+          <button type="button" onClick={onReset} className={`${BUTTON} ${s.discreetBtn}`}>
             Rejouer
           </button>
           {nextHref ? (
-            <Link
-              to={nextHref}
-              className={`rounded-lg px-6 py-2.5 text-sm font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-lg ${s.primaryBtn}`}
-            >
+            <Link to={nextHref} className={primary}>
               Suivant →
             </Link>
           ) : null}

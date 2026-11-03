@@ -7,7 +7,9 @@ type Props = {
    * contenu et bloque les interactions. Il partage la cellule de grille du
    * contenu (marge négative = padding du cadre, pour le couvrir aussi) : le
    * cadre prend la hauteur du plus grand des deux, et une modale plus haute
-   * qu'un petit plateau agrandit le cadre au lieu de défiler dedans.
+   * qu'un petit plateau agrandit le cadre au lieu de défiler dedans. La colonne
+   * est bornée à la largeur du cadre (`grid-cols-1`) : en `auto`, elle
+   * s'élargirait au contenu et un plateau large pousserait la sidebar dehors.
    */
   overlay?: ReactNode
 }
@@ -22,7 +24,7 @@ type Props = {
  */
 export function GameFrame({ children, overlay }: Props) {
   return (
-    <div className="relative mx-auto grid w-full max-w-5xl rounded-3xl border border-transparent p-3 shadow-xl shadow-gray-300/30 sm:p-8 dark:shadow-black/30">
+    <div className="relative mx-auto grid w-full max-w-5xl grid-cols-1 rounded-3xl border border-transparent p-3 shadow-xl shadow-gray-300/30 sm:p-8 dark:shadow-black/30">
       <div
         className="absolute -inset-px rounded-3xl border border-gray-200/80 bg-white/80 backdrop-blur dark:border-gray-800/80 dark:bg-gray-900/70"
         aria-hidden="true"

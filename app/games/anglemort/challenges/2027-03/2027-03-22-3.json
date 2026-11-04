@@ -66,15 +66,31 @@
   "pool": {
     "simple": 10,
     "angle": 2,
-    "oppose": 1
+    "oppose": 0
   },
   "solution": [
     {
       "pos": [
-        0,
-        2
+        3,
+        0
       ],
-      "type": "oppose",
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        0,
+        0
+      ],
+      "type": "angle",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        8,
+        1
+      ],
+      "type": "simple",
       "facing": "N"
     },
     {
@@ -87,51 +103,11 @@
     },
     {
       "pos": [
-        3,
-        6
-      ],
-      "type": "simple",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        7,
-        6
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        7,
-        7
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
         6,
         2
       ],
       "type": "simple",
       "facing": "W"
-    },
-    {
-      "pos": [
-        6,
-        4
-      ],
-      "type": "simple",
-      "facing": "N"
-    },
-    {
-      "pos": [
-        5,
-        6
-      ],
-      "type": "simple",
-      "facing": "N"
     },
     {
       "pos": [
@@ -143,24 +119,24 @@
     },
     {
       "pos": [
-        8,
-        0
+        6,
+        4
       ],
       "type": "simple",
-      "facing": "S"
+      "facing": "N"
     },
     {
       "pos": [
-        0,
-        0
+        7,
+        6
       ],
       "type": "simple",
       "facing": "E"
     },
     {
       "pos": [
-        2,
-        7
+        5,
+        6
       ],
       "type": "simple",
       "facing": "N"
@@ -168,11 +144,27 @@
     {
       "pos": [
         3,
-        2
+        6
       ],
-      "type": "angle",
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        7,
+        7
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        3,
+        7
+      ],
+      "type": "simple",
       "facing": "W"
     }
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

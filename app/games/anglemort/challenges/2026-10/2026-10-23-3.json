@@ -66,15 +66,31 @@
   "pool": {
     "simple": 10,
     "angle": 2,
-    "oppose": 1
+    "oppose": 0
   },
   "solution": [
     {
       "pos": [
-        5,
+        7,
+        5
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        7,
         8
       ],
-      "type": "oppose",
+      "type": "angle",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        6,
+        0
+      ],
+      "type": "simple",
       "facing": "E"
     },
     {
@@ -87,34 +103,18 @@
     },
     {
       "pos": [
-        1,
-        5
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        1,
-        1
-      ],
-      "type": "simple",
-      "facing": "N"
-    },
-    {
-      "pos": [
-        0,
-        1
-      ],
-      "type": "simple",
-      "facing": "N"
-    },
-    {
-      "pos": [
         5,
         2
       ],
       "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        4,
+        7
+      ],
+      "type": "angle",
       "facing": "S"
     },
     {
@@ -128,6 +128,14 @@
     {
       "pos": [
         1,
+        1
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        1,
         3
       ],
       "type": "simple",
@@ -135,24 +143,16 @@
     },
     {
       "pos": [
-        4,
-        7
+        1,
+        5
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "S"
     },
     {
       "pos": [
-        7,
-        0
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        7,
-        8
+        0,
+        1
       ],
       "type": "simple",
       "facing": "N"
@@ -160,19 +160,11 @@
     {
       "pos": [
         0,
-        6
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        5,
         5
       ],
-      "type": "angle",
-      "facing": "E"
+      "type": "simple",
+      "facing": "S"
     }
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

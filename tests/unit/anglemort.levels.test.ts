@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { isWon, loadLevel, placeGuard, rotateGuard, solvedState } from '~/games/anglemort/engine'
-import { hasUniqueCorridor, originalLevels } from '../helpers/anglemort'
+import { hasMinimalPool, hasUniqueCorridor, originalLevels } from '../helpers/anglemort'
 import { byId, committedChallenges, committedLevels } from '../helpers/levels'
 
 const challenges = committedChallenges('anglemort')
@@ -48,5 +48,14 @@ describe('niveaux Angle mort : intégrité', () => {
       expect(hasUniqueCorridor(level)).toBe(true)
     },
     PROOF_TIMEOUT,
+  )
+
+  // Comme l'unicité, la taille du lot ne dépend pas de la symétrie : `make
+  // verify-levels` repasse sur toutes les versions.
+  it.each(byId(originalLevels(levels)))(
+    "%s : aucun vigile du lot n'est inutile",
+    async (_, level) => {
+      expect(await hasMinimalPool(level)).toBe(true)
+    },
   )
 })

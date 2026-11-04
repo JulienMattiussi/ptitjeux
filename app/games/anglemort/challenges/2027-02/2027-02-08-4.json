@@ -73,34 +73,42 @@
     "7,5": 0
   },
   "pool": {
-    "simple": 8,
+    "simple": 7,
     "angle": 4,
     "oppose": 0
   },
   "solution": [
     {
       "pos": [
-        3,
-        8
+        1,
+        5
       ],
-      "type": "angle",
-      "facing": "N"
+      "type": "simple",
+      "facing": "W"
     },
     {
       "pos": [
-        0,
-        7
+        1,
+        2
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "E"
     },
     {
       "pos": [
         1,
-        9
+        0
       ],
       "type": "simple",
-      "facing": "E"
+      "facing": "W"
+    },
+    {
+      "pos": [
+        3,
+        9
+      ],
+      "type": "angle",
+      "facing": "W"
     },
     {
       "pos": [
@@ -113,10 +121,42 @@
     {
       "pos": [
         6,
+        5
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        6,
         2
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "N"
+    },
+    {
+      "pos": [
+        7,
+        8
+      ],
+      "type": "angle",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        7,
+        2
+      ],
+      "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        8,
+        7
+      ],
+      "type": "angle",
+      "facing": "S"
     },
     {
       "pos": [
@@ -125,55 +165,7 @@
       ],
       "type": "simple",
       "facing": "N"
-    },
-    {
-      "pos": [
-        1,
-        2
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        1,
-        8
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        1,
-        5
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        7,
-        1
-      ],
-      "type": "simple",
-      "facing": "N"
-    },
-    {
-      "pos": [
-        6,
-        5
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        1,
-        0
-      ],
-      "type": "simple",
-      "facing": "W"
     }
   ],
-  "parMoves": 12
+  "parMoves": 11
 }

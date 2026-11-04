@@ -66,16 +66,32 @@
   "pool": {
     "simple": 10,
     "angle": 2,
-    "oppose": 1
+    "oppose": 0
   },
   "solution": [
     {
       "pos": [
-        2,
+        0,
+        3
+      ],
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        0,
         0
       ],
-      "type": "oppose",
+      "type": "angle",
       "facing": "E"
+    },
+    {
+      "pos": [
+        1,
+        8
+      ],
+      "type": "simple",
+      "facing": "W"
     },
     {
       "pos": [
@@ -87,34 +103,18 @@
     },
     {
       "pos": [
-        6,
-        3
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        6,
-        7
-      ],
-      "type": "simple",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        7,
-        7
-      ],
-      "type": "simple",
-      "facing": "S"
-    },
-    {
-      "pos": [
         2,
         6
       ],
       "type": "simple",
+      "facing": "N"
+    },
+    {
+      "pos": [
+        3,
+        1
+      ],
+      "type": "angle",
       "facing": "N"
     },
     {
@@ -128,6 +128,14 @@
     {
       "pos": [
         6,
+        7
+      ],
+      "type": "simple",
+      "facing": "S"
+    },
+    {
+      "pos": [
+        6,
         5
       ],
       "type": "simple",
@@ -135,24 +143,16 @@
     },
     {
       "pos": [
-        3,
-        1
+        6,
+        3
       ],
-      "type": "angle",
+      "type": "simple",
       "facing": "N"
     },
     {
       "pos": [
-        0,
-        8
-      ],
-      "type": "simple",
-      "facing": "E"
-    },
-    {
-      "pos": [
-        0,
-        0
+        7,
+        7
       ],
       "type": "simple",
       "facing": "S"
@@ -160,19 +160,11 @@
     {
       "pos": [
         7,
-        2
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        2,
         3
       ],
-      "type": "angle",
-      "facing": "W"
+      "type": "simple",
+      "facing": "N"
     }
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

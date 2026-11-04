@@ -66,16 +66,32 @@
   "pool": {
     "simple": 10,
     "angle": 2,
-    "oppose": 1
+    "oppose": 0
   },
   "solution": [
     {
       "pos": [
-        8,
-        5
+        5,
+        7
       ],
-      "type": "oppose",
+      "type": "simple",
       "facing": "N"
+    },
+    {
+      "pos": [
+        8,
+        7
+      ],
+      "type": "angle",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        0,
+        6
+      ],
+      "type": "simple",
+      "facing": "S"
     },
     {
       "pos": [
@@ -87,51 +103,11 @@
     },
     {
       "pos": [
-        5,
-        1
-      ],
-      "type": "simple",
-      "facing": "N"
-    },
-    {
-      "pos": [
-        1,
-        1
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
-        1,
-        0
-      ],
-      "type": "simple",
-      "facing": "W"
-    },
-    {
-      "pos": [
         2,
         5
       ],
       "type": "simple",
       "facing": "E"
-    },
-    {
-      "pos": [
-        2,
-        3
-      ],
-      "type": "simple",
-      "facing": "S"
-    },
-    {
-      "pos": [
-        3,
-        1
-      ],
-      "type": "simple",
-      "facing": "S"
     },
     {
       "pos": [
@@ -143,24 +119,24 @@
     },
     {
       "pos": [
-        0,
-        7
+        2,
+        3
       ],
       "type": "simple",
-      "facing": "N"
+      "facing": "S"
     },
     {
       "pos": [
-        8,
-        7
+        1,
+        1
       ],
       "type": "simple",
       "facing": "W"
     },
     {
       "pos": [
-        6,
-        0
+        3,
+        1
       ],
       "type": "simple",
       "facing": "S"
@@ -168,11 +144,27 @@
     {
       "pos": [
         5,
-        5
+        1
       ],
-      "type": "angle",
+      "type": "simple",
+      "facing": "E"
+    },
+    {
+      "pos": [
+        1,
+        0
+      ],
+      "type": "simple",
+      "facing": "W"
+    },
+    {
+      "pos": [
+        5,
+        0
+      ],
+      "type": "simple",
       "facing": "E"
     }
   ],
-  "parMoves": 13
+  "parMoves": 12
 }

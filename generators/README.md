@@ -32,6 +32,7 @@ runtime — l'app ne consomme que les JSON déjà générés dans
 | [anglemort-construct.ts](anglemort-construct.ts) | Construction d'une grille : couloir, vigiles, piliers, diamant, miroirs. |
 | [anglemort-clues.ts](anglemort-clues.ts) | Indices posés d'office, puis ajoutés jusqu'à l'unicité du couloir. |
 | [anglemort-corridors.ts](anglemort-corridors.ts) | Unicité du couloir : couloirs compatibles avec les indices, concurrents soumis au solveur, preuve des tests d'intégrité. |
+| [anglemort-minpose.ts](anglemort-minpose.ts) | Plus petite pose qui produit un couloir donné (programme linéaire en nombres entiers, HiGHS) : détecte un lot qui laisse un vigile inutile. |
 | [anglemort-solver.ts](anglemort-solver.ts) | Solveur : poses du lot entier qui respectent les indices et laissent un seul chemin dans l'ombre. |
 | [anglemort-bounds.ts](anglemort-bounds.ts) | Contexte du solveur : candidats, nœuds de recherche, bornes d'éclairage. |
 | [anglemort-propagate.ts](anglemort-propagate.ts) | Propagation du solveur : règles de déduction jusqu'au point fixe. |

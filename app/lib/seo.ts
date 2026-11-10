@@ -1,7 +1,7 @@
 import type { MetaDescriptor } from 'react-router'
-import { dateLabel } from './dates'
+import { dateLabel, type DateString } from './dates'
 import type { GameId } from './game-styles'
-import { findGame } from './games-registry'
+import { findGame, games } from './games-registry'
 
 /** Adresse publique du site : base des URL canoniques et des aperçus de partage. */
 const SITE_URL = 'https://ptitjeux.yavadeus.dev'
@@ -10,6 +10,13 @@ export const SITE_NAME = "P'titjeux"
 /** Aperçu de partage : capture de l'accueil, au format paysage des réseaux sociaux. */
 const SHARE_IMAGE = { path: '/og.png', width: 1200, height: 630 }
 
+const AUTHOR = {
+  '@type': 'Person',
+  name: 'Julien Mattiussi',
+  alternateName: 'yavadeus',
+  url: 'https://yavadeus.dev/',
+}
+
 type PageMeta = {
   title: string
   description: string
@@ -17,6 +24,8 @@ type PageMeta = {
   path: string
   /** `false` : page exclue des moteurs de recherche (liens suivis quand même). */
   indexable?: boolean
+  /** Données structurées schema.org, rendues en `<script type="application/ld+json">`. */
+  jsonLd?: Record<string, unknown>
 }
 
 /** Titre, description, URL canonique et aperçu de partage (Open Graph, Twitter). */
@@ -25,6 +34,7 @@ export function pageMeta({
   description,
   path,
   indexable = true,
+  jsonLd,
 }: PageMeta): MetaDescriptor[] {
   const url = `${SITE_URL}${path}`
   const image = `${SITE_URL}${SHARE_IMAGE.path}`
@@ -43,7 +53,30 @@ export function pageMeta({
     { property: 'og:image:width', content: String(SHARE_IMAGE.width) },
     { property: 'og:image:height', content: String(SHARE_IMAGE.height) },
     { name: 'twitter:card', content: 'summary_large_image' },
+    ...(jsonLd ? [{ 'script:ld+json': { '@context': 'https://schema.org', ...jsonLd } }] : []),
   ]
+}
+
+/** Page d'accueil : le site et ses jeux. */
+export function homeMeta(title: string, description: string): MetaDescriptor[] {
+  return pageMeta({
+    title,
+    description,
+    path: '/',
+    jsonLd: {
+      '@type': 'WebSite',
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+      description,
+      inLanguage: 'fr',
+      author: AUTHOR,
+      hasPart: games.map((game) => ({
+        '@type': 'VideoGame',
+        name: game.name,
+        url: `${SITE_URL}${game.href}`,
+      })),
+    },
+  })
 }
 
 /** Pas de majuscule après « : » dans un titre. */
@@ -58,6 +91,19 @@ export function gameListMeta(gameId: GameId): MetaDescriptor[] {
     title: `${game.name} : ${lowerFirst(game.tagline.replace(/\.$/, ''))} | ${SITE_NAME}`,
     description: game.description,
     path: game.href,
+    jsonLd: {
+      '@type': 'VideoGame',
+      name: game.name,
+      url: `${SITE_URL}${game.href}`,
+      description: `${game.tagline} ${game.description}`,
+      image: `${SITE_URL}${SHARE_IMAGE.path}`,
+      genre: 'Casse-tête',
+      gamePlatform: 'Navigateur web',
+      inLanguage: 'fr',
+      isAccessibleForFree: true,
+      author: AUTHOR,
+      isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: `${SITE_URL}/` },
+    },
   })
 }
 
@@ -82,4 +128,21 @@ export function gamePlayMeta(
     path: `${game.href}/${date}/${index}`,
     indexable: false,
   })
+}
+
+/**
+ * Sitemap : l'accueil et la liste de chaque jeu (les pages de niveau sont hors
+ * index). Le défi change chaque jour, d'où `lastmod` à la date du jour : Google
+ * ignore `changefreq` mais tient compte de `lastmod`.
+ */
+export function sitemapXml(today: DateString): string {
+  const paths = ['/', ...games.map((game) => game.href)]
+  const urls = paths
+    .map((path) => `  <url><loc>${SITE_URL}${path}</loc><lastmod>${today}</lastmod></url>`)
+    .join('\n')
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>
+`
 }

@@ -2,15 +2,13 @@ import { GameCard } from '~/components/GameCard'
 import { GamesMenu } from '~/components/GamesMenu'
 import { games } from '~/lib/games-registry'
 import { useGridNavigation } from '~/lib/useGridNavigation'
-import { pageMeta, SITE_NAME } from '~/lib/seo'
+import { homeMeta, SITE_NAME } from '~/lib/seo'
 
 export function meta() {
-  return pageMeta({
-    title: `${SITE_NAME} : casse-tête logico-spatiaux du jour`,
-    description:
-      'Des casse-tête logico-spatiaux à explorer chaque jour : Boucle, Angle mort, Sokomot et Sémantogramme. Gratuit, sans compte.',
-    path: '/',
-  })
+  return homeMeta(
+    `${SITE_NAME} : casse-tête logico-spatiaux du jour`,
+    'Des casse-tête logico-spatiaux à explorer chaque jour : Boucle, Angle mort, Sokomot et Sémantogramme. Gratuit, sans compte.',
+  )
 }
 
 export default function Home() {

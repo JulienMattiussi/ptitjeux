@@ -135,7 +135,7 @@ Tout pattern partagé entre les jeux doit vivre dans `app/lib/` ou `app/componen
 | Direction et curseur de case (clavier) | `app/lib/cursor.ts` (`Direction`, `CellCursor`, `moveCellCursor`) |
 | Accents et pluriels | `app/lib/text.ts` (`stripAccents`, `plural`) |
 | Dates (format, libellés français, drapeaux de dev) | `app/lib/dates.ts` |
-| Balises SEO et de partage | `app/lib/seo.ts` (`pageMeta`, `gameListMeta`, `gamePlayMeta`) |
+| Balises SEO et de partage, données structurées, sitemap | `app/lib/seo.ts` (`pageMeta`, `homeMeta`, `gameListMeta`, `gamePlayMeta`, `sitemapXml`), servi par `app/routes/sitemap[.xml].ts` |
 | Ref toujours à jour | `app/lib/useLatestRef.ts` |
 | Appui long au doigt (équivalent du clic droit) | `app/lib/useLongPress.ts` |
 | Aide propre au clavier/souris ou au tactile | `app/components/InputHint.tsx` (`KeyboardOnly`, `TouchOnly`, variante `pointer-coarse`) |

@@ -2,6 +2,7 @@ import { type RouteConfig, index, route } from '@react-router/dev/routes'
 
 export default [
   index('routes/home.tsx'),
+  route('sitemap.xml', 'routes/sitemap[.xml].ts'),
   route('sokomot', 'routes/sokomot.tsx'),
   route('sokomot/:date/:index', 'routes/sokomot.$date.$index.tsx'),
   route('boucle', 'routes/boucle.tsx'),

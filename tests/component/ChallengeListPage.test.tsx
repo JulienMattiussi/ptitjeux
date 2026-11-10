@@ -28,12 +28,15 @@ describe('ChallengeListPage', () => {
     window.localStorage.clear()
   })
 
-  it('affiche le nom, la tagline et la description du jeu', () => {
+  it('affiche le nom, la tagline et les règles du jeu', () => {
     renderPage()
     const game = findGame('sokomot')
     expect(screen.getByRole('heading', { name: game.name })).toBeInTheDocument()
     expect(screen.getByText(game.tagline)).toBeInTheDocument()
-    expect(screen.getByText(game.description)).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: `Comment jouer à ${game.name} ?` }),
+    ).toBeInTheDocument()
+    expect(screen.getByText(game.howToPlay)).toBeInTheDocument()
   })
 
   it('masque les défis à venir', () => {

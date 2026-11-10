@@ -97,7 +97,7 @@ export function gameListMeta(gameId: GameId): MetaDescriptor[] {
       url: `${SITE_URL}${game.href}`,
       description: `${game.tagline} ${game.description}`,
       image: `${SITE_URL}${SHARE_IMAGE.path}`,
-      genre: 'Casse-tête',
+      genre: game.genre,
       gamePlatform: 'Navigateur web',
       inLanguage: 'fr',
       isAccessibleForFree: true,

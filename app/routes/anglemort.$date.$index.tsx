@@ -216,7 +216,7 @@ function AngleMortPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level
           <HelpBox>
             Place tous les vigiles. Les cases sombres doivent former un seul couloir, sans
             embranchement, de la porte jusqu'au diamant. Un chiffre indique combien de vigiles
-            éclairent sa case.
+            doivent éclairer sa case.
             <CorridorHelp />
             {level.mirrors.length > 0 && <MirrorHelp />}
           </HelpBox>

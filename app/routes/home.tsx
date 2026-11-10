@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { GameCard } from '~/components/GameCard'
 import { GamesMenu } from '~/components/GamesMenu'
 import { games } from '~/lib/games-registry'
@@ -7,7 +8,7 @@ import { homeMeta, SITE_NAME } from '~/lib/seo'
 export function meta() {
   return homeMeta(
     `${SITE_NAME} : casse-tête logico-spatiaux du jour`,
-    'Des casse-tête logico-spatiaux à explorer chaque jour : Boucle, Angle mort, Sokomot et Sémantogramme. Gratuit, sans compte.',
+    'Des casse-tête logico-spatiaux à explorer chaque jour : Boucle, Angle mort, Sémantogramme et Sokomot. Gratuit, sans compte.',
   )
 }
 
@@ -51,6 +52,30 @@ export default function Home() {
             <GameCard key={game.id} game={game} />
           ))}
         </div>
+
+        <section className="mx-auto mt-16 max-w-2xl border-t border-gray-200 pt-8 text-center dark:border-gray-800">
+          <h2 className="mb-4 font-display text-xl font-bold tracking-tight">À propos</h2>
+          <p className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300">
+            {SITE_NAME} propose chaque jour quatre casse-tête logiques et jeux de lettres en
+            français :
+          </p>
+          <ul className="mb-4 space-y-1 leading-relaxed text-gray-600 dark:text-gray-300">
+            {games.map((game) => (
+              <li key={game.id}>
+                <Link
+                  to={game.href}
+                  className="font-semibold text-gray-900 underline-offset-4 hover:underline dark:text-gray-100"
+                >
+                  {game.name}
+                </Link>{' '}
+                : {game.genre}
+              </li>
+            ))}
+          </ul>
+          <p className="leading-relaxed text-gray-600 dark:text-gray-300">
+            Une partie dure quelques minutes, sans inscription.
+          </p>
+        </section>
       </section>
       <GamesMenu />
     </main>

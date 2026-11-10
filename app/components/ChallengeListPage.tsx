@@ -8,18 +8,18 @@ import { LEVEL_INDICES } from '~/games/types'
 import { aggregateCompletion, dayStatuses } from '~/lib/completion'
 import { dateLabel, dateRange, shouldShowFutureDates, todayString } from '~/lib/dates'
 import type { GameId } from '~/lib/game-styles'
-import { findGame } from '~/lib/games-registry'
+import { DAILY_PITCH, findGame } from '~/lib/games-registry'
 import type { CalendarRange } from '~/lib/levelRoute'
 import { useGridNavigation } from '~/lib/useGridNavigation'
 import { useLocalProgress } from '~/lib/useLocalProgress'
 
-/** Page « liste des niveaux » d'un jeu : défi du jour, puis archives par mois. */
+/** Page « liste des niveaux » d'un jeu : défi du jour, règles, puis archives par mois. */
 export function ChallengeListPage({
   gameId,
   firstDate,
   lastDate,
 }: { gameId: GameId } & CalendarRange) {
-  const { name, tagline, description } = findGame(gameId)
+  const { name, tagline, howToPlay } = findGame(gameId)
   const allSorted = firstDate && lastDate ? dateRange(firstDate, lastDate) : []
   // Sans le flag dev `VITE_SHOW_FUTURE_DAYS=1`, on masque les défis dont la
   // date est postérieure à aujourd'hui pour ne pas spoiler le contenu non
@@ -60,7 +60,6 @@ export function ChallengeListPage({
   return (
     <GameLayout title={name} subtitle={tagline}>
       <ThumbnailSymbol gameId={gameId} />
-      <p className="mb-8 max-w-2xl text-gray-600 dark:text-gray-300">{description}</p>
 
       {dailyDate && (
         <section className="mb-12">
@@ -88,6 +87,14 @@ export function ChallengeListPage({
           </div>
         </section>
       )}
+
+      <section className="mb-12 max-w-2xl">
+        <h2 className="mb-4 font-display text-xl font-bold tracking-tight">
+          Comment jouer à {name} ?
+        </h2>
+        <p className="mb-3 leading-relaxed text-gray-600 dark:text-gray-300">{howToPlay}</p>
+        <p className="leading-relaxed text-gray-600 dark:text-gray-300">{DAILY_PITCH}</p>
+      </section>
 
       <section>
         <header className="mb-4">

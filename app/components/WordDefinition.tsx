@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { extractPageText, parseFrenchDefinition } from '~/lib/wiktionary'
+import { extractPageText, parseFrenchDefinition, wiktionaryUrl } from '~/lib/wiktionary'
 
 const ENDPOINT = 'https://fr.wiktionary.org/w/api.php'
 
@@ -86,7 +86,7 @@ export function WordDefinition({ word }: { word: string }) {
   if (!text) return null
 
   const lower = word.toLowerCase()
-  const articleUrl = `https://fr.wiktionary.org/wiki/${encodeURIComponent(lower)}`
+  const articleUrl = wiktionaryUrl(lower)
 
   return (
     <div className="mt-4 rounded-lg border border-gray-200/60 bg-white/70 p-3 text-left text-sm italic text-gray-700 backdrop-blur dark:border-gray-700/60 dark:bg-gray-800/60 dark:text-gray-300">
@@ -105,20 +105,27 @@ export function WordDefinition({ word }: { word: string }) {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1 font-medium transition hover:text-gray-800 hover:underline dark:hover:text-gray-100"
         >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wiktionary-logo-fr.svg/40px-Wiktionary-logo-fr.svg.png"
-            alt=""
-            width={16}
-            height={16}
-            className="rounded-sm"
-            loading="lazy"
-            onError={(event) => {
-              event.currentTarget.style.display = 'none'
-            }}
-          />
+          <WiktionaryLogo />
           Wiktionnaire
         </a>
       </p>
     </div>
+  )
+}
+
+/** Logo du Wiktionnaire, décoratif : masqué s'il ne se charge pas. */
+function WiktionaryLogo() {
+  return (
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wiktionary-logo-fr.svg/40px-Wiktionary-logo-fr.svg.png"
+      alt=""
+      width={16}
+      height={16}
+      className="rounded-sm"
+      loading="lazy"
+      onError={(event) => {
+        event.currentTarget.style.display = 'none'
+      }}
+    />
   )
 }

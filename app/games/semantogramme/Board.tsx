@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react'
 import type { CellCursor } from '~/lib/cursor'
+import { wiktionaryUrl } from '~/lib/wiktionary'
 import { countInPerCol, countInPerRow } from './engine'
 import type { CellStatus, GameState } from './types'
 
@@ -69,21 +70,42 @@ export function Board({ state, onCellClick, selected, onHoverCell }: Props) {
                 const s = status[y][x]
                 const isSelected = selected?.x === x && selected?.y === y
                 return (
-                  <button
-                    type="button"
+                  <div
                     key={`${x}-${y}`}
-                    onClick={() => onCellClick(x, y)}
+                    className="relative min-w-0"
                     onMouseEnter={() => onHoverCell?.(x, y)}
-                    className={`flex min-h-12 min-w-0 items-center justify-center rounded-lg px-0.5 py-1 text-center text-xs leading-tight font-medium hyphens-auto [overflow-wrap:anywhere] sm:h-12 sm:px-0 sm:py-0 sm:text-sm transition-all duration-200 ${CELL_CLASS[s]} ${
-                      isSelected
-                        ? 'ring-2 ring-amber-500 ring-offset-1 ring-offset-transparent dark:ring-amber-400'
-                        : ''
-                    }`}
-                    aria-label={`Case ${word}, ${STATUS_LABEL[s]}`}
-                    aria-pressed={s === 'in'}
                   >
-                    {word}
-                  </button>
+                    <button
+                      type="button"
+                      onClick={() => onCellClick(x, y)}
+                      className={`flex h-full w-full min-h-12 min-w-0 items-center justify-center rounded-lg px-0.5 py-1 text-center text-xs leading-tight font-medium hyphens-auto [overflow-wrap:anywhere] sm:h-12 sm:px-0 sm:py-0 sm:text-sm transition-all duration-200 ${CELL_CLASS[s]} ${
+                        isSelected
+                          ? 'ring-2 ring-amber-500 ring-offset-1 ring-offset-transparent dark:ring-amber-400'
+                          : ''
+                      }`}
+                      aria-label={`Case ${word}, ${STATUS_LABEL[s]}`}
+                      aria-pressed={s === 'in'}
+                    >
+                      {word}
+                    </button>
+                    {/* Hors du bouton (un lien ne peut pas y être imbriqué), en
+                      pastille posée dans son coin. Souris seulement : au doigt, le
+                      survol n'existe pas et un tap viserait la case. Hors de
+                      l'ordre de tabulation : le clavier joue au curseur. */}
+                    <a
+                      href={wiktionaryUrl(word)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      tabIndex={-1}
+                      aria-label={`${word} sur le Wiktionnaire`}
+                      title="Voir sur le Wiktionnaire"
+                      className={`absolute top-0.5 right-0.5 z-10 flex h-5 w-5 items-center justify-center rounded-md bg-white font-serif text-xs font-bold text-gray-800 shadow ring-1 ring-gray-300 transition duration-200 hover:scale-110 hover:bg-amber-100 hover:ring-amber-500 dark:text-gray-100 dark:hover:bg-amber-900 pointer-coarse:hidden dark:bg-gray-800 dark:ring-gray-600 ${
+                        isSelected ? 'opacity-100' : 'pointer-events-none opacity-0'
+                      }`}
+                    >
+                      W
+                    </a>
+                  </div>
                 )
               })}
             </div>

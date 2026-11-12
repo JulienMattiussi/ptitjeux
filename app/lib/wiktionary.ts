@@ -9,6 +9,14 @@
 const MAX_LENGTH = 280
 
 /**
+ * Article du Wiktionnaire. Les titres y sont sensibles à la casse : un nom
+ * propre (« Finlande ») garde sa majuscule.
+ */
+export function wiktionaryUrl(word: string): string {
+  return `https://fr.wiktionary.org/wiki/${encodeURIComponent(word)}`
+}
+
+/**
  * Priorité d'extraction : on préfère le nom commun ; à défaut on accepte
  * verbe, adjectif, forme conjuguée, etc. Les noms propres vivent sur les
  * pages capitalisées du Wiktionnaire (qu'on n'interroge pas).

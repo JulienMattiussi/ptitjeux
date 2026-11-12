@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { extractPageText, parseFrenchDefinition, shortenToSentence } from '~/lib/wiktionary'
+import {
+  extractPageText,
+  parseFrenchDefinition,
+  shortenToSentence,
+  wiktionaryUrl,
+} from '~/lib/wiktionary'
 
 describe('lib/wiktionary : extractPageText', () => {
   it("renvoie l'extrait de la première page non manquante", () => {
@@ -173,5 +178,11 @@ describe('lib/wiktionary : shortenToSentence', () => {
     const result = shortenToSentence(s, 50)
     expect(result.length).toBeLessThanOrEqual(50)
     expect(result.endsWith('…')).toBe(true)
+  })
+})
+
+describe('lib/wiktionary : wiktionaryUrl', () => {
+  it('garde la majuscule des noms propres et encode les accents', () => {
+    expect(wiktionaryUrl('Norvège')).toBe('https://fr.wiktionary.org/wiki/Norv%C3%A8ge')
   })
 })

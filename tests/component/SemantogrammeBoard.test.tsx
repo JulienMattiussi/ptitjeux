@@ -73,4 +73,20 @@ describe('semantogramme/Board', () => {
     await user.hover(screen.getByRole('button', { name: /Case lion/i }))
     expect(onHoverCell).toHaveBeenCalledWith(1, 1)
   })
+
+  it('relie chaque mot à son article du Wiktionnaire', () => {
+    render(<Board state={loadLevel(LEVEL)} onCellClick={() => {}} />)
+    expect(screen.getByRole('link', { name: 'pomme sur le Wiktionnaire' })).toHaveAttribute(
+      'href',
+      'https://fr.wiktionary.org/wiki/pomme',
+    )
+  })
+
+  it('ne montre le lien Wiktionnaire que sur la case sélectionnée', () => {
+    render(<Board state={loadLevel(LEVEL)} onCellClick={() => {}} selected={{ x: 1, y: 0 }} />)
+    expect(screen.getByRole('link', { name: 'pomme sur le Wiktionnaire' })).toHaveClass(
+      'opacity-100',
+    )
+    expect(screen.getByRole('link', { name: 'lion sur le Wiktionnaire' })).toHaveClass('opacity-0')
+  })
 })

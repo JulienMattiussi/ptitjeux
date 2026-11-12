@@ -30,6 +30,11 @@ type Props = {
   ox: number
   oy: number
   content: CellContent
+  /**
+   * Compteur de poses refusées sur cette case : chaque nouvelle valeur rejoue
+   * le cadre rouge, même sur des clics répétés.
+   */
+  rejected?: number
   onHover: () => void
   onClick: () => void
   onRemove: () => void
@@ -48,7 +53,7 @@ function floorLabel(c: Extract<CellContent, { kind: 'floor' }>): string {
 }
 
 /** Une case du plateau : pilier, miroir, ou dalle de sol avec ses marques. */
-export function BoardCell({ ox, oy, content, onHover, onClick, onRemove }: Props) {
+export function BoardCell({ ox, oy, content, rejected, onHover, onClick, onRemove }: Props) {
   // Au doigt, l'appui long remplace le clic droit (retirer le vigile).
   const longPress = useLongPress(onRemove)
 
@@ -122,6 +127,18 @@ export function BoardCell({ ox, oy, content, onHover, onClick, onRemove }: Props
       )}
       {isDiamond && !content.diamondTaken && <DiamondMark cx={cx} cy={cy} />}
       {clue !== undefined && <ClueMark cx={cx} cy={cy} clue={clue} seen={seen} />}
+      {rejected !== undefined && (
+        <rect
+          key={rejected}
+          x={ox + 2.5}
+          y={oy + 2.5}
+          width={CELL - 5}
+          height={CELL - 5}
+          rx={4}
+          strokeWidth={3}
+          className="animate-flash-out pointer-events-none fill-none stroke-rose-500"
+        />
+      )}
     </g>
   )
 }

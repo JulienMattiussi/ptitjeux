@@ -143,6 +143,22 @@ body {
   animation: pop 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
+/* Cadre de retour d'un clic (Angle mort : pose refusée, type choisi dans la
+   réserve) : il reste net un instant, puis s'efface. */
+@keyframes flash-out {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-flash-out {
+  animation: flash-out 0.6s ease-out forwards;
+}
+
 /* Stagger : applique sur des frères avec animate-fade-in-up */
 .stagger > *:nth-child(1) {
   animation-delay: 0ms;
@@ -169,5 +185,9 @@ body {
   *::after {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
+  }
+  /* Un fondu n'est pas un mouvement : sans lui, le cadre de retour serait invisible. */
+  .animate-flash-out {
+    animation-duration: 0.6s !important;
   }
 }

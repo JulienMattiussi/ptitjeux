@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useState, type ReactNode } from 'react'
 import { GUARD_TYPES, pickableTypes, remaining, restFacing } from './engine'
 import { GuardSprite } from './GuardSprite'
 import { GUARD_LABEL } from './guardLabels'
@@ -111,8 +111,14 @@ type PickProps = {
   children: ReactNode
 }
 
-/** Bouton qui choisit le type quand la sélection est possible, simple bloc sinon. */
+/**
+ * Bouton qui choisit le type quand la sélection est possible, simple bloc sinon.
+ * Chaque clic encadre brièvement de vert le vigile cliqué : le sélecteur, sous
+ * la grille, est trop loin pour que son changement se remarque.
+ */
 function Pick({ type, onSelect, title, className = '', children }: PickProps) {
+  // Compteur de clics : chaque nouvelle valeur rejoue le cadre.
+  const [clicks, setClicks] = useState(0)
   if (!onSelect) {
     return (
       <div title={title} className={className}>
@@ -125,10 +131,20 @@ function Pick({ type, onSelect, title, className = '', children }: PickProps) {
       type="button"
       aria-label={`Choisir le vigile ${GUARD_LABEL[type].toLowerCase()}`}
       title={title}
-      onClick={() => onSelect(type)}
-      className={`block cursor-pointer rounded-lg ${className}`}
+      onClick={() => {
+        onSelect(type)
+        setClicks((n) => n + 1)
+      }}
+      className={`relative block cursor-pointer rounded-lg ${className}`}
     >
       {children}
+      {clicks > 0 && (
+        <span
+          key={clicks}
+          aria-hidden="true"
+          className="animate-flash-out pointer-events-none absolute -inset-0.5 rounded-lg ring-2 ring-emerald-500"
+        />
+      )}
     </button>
   )
 }

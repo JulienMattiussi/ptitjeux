@@ -141,17 +141,44 @@ function allowedVariants(level: Level, pos: Pos, types: readonly GuardType[]) {
 }
 
 /**
- * Pose un vigile du type demandé (choisi dans le sélecteur), ou à défaut du
- * premier type encore disponible dans le lot.
+ * Variante que prendrait un vigile du type demandé (ou à défaut du premier type
+ * encore disponible) posé sur cette case libre : aucune si le type est épuisé ou
+ * qu'aucune de ses orientations n'est autorisée ici.
  */
-export function placeGuard(state: GameState, x: number, y: number, type?: GuardType): GameState {
-  if (!isPlaceable(state.level, x, y) || guardAt(state, x, y)) return state
+function placementVariant(state: GameState, x: number, y: number, type?: GuardType) {
   const available = type
     ? remaining(state, type) > 0
       ? [type]
       : []
     : GUARD_TYPES.filter((t) => remaining(state, t) > 0)
-  const [variant] = allowedVariants(state.level, [x, y], available)
+  return allowedVariants(state.level, [x, y], available)[0]
+}
+
+/**
+ * Case libre qui accepte d'ordinaire un vigile, mais où la pose demandée est
+ * impossible (lot épuisé, ou aucune orientation possible) : le plateau le
+ * signale, faute de quoi le clic semblerait perdu.
+ */
+export function isPlacementRefused(
+  state: GameState,
+  x: number,
+  y: number,
+  type?: GuardType,
+): boolean {
+  return (
+    isPlaceable(state.level, x, y) &&
+    !guardAt(state, x, y) &&
+    placementVariant(state, x, y, type) === undefined
+  )
+}
+
+/**
+ * Pose un vigile du type demandé (choisi dans le sélecteur), ou à défaut du
+ * premier type encore disponible dans le lot.
+ */
+export function placeGuard(state: GameState, x: number, y: number, type?: GuardType): GameState {
+  if (!isPlaceable(state.level, x, y) || guardAt(state, x, y)) return state
+  const variant = placementVariant(state, x, y, type)
   if (!variant) return state
   const guard: Guard = { pos: [x, y], ...variant }
   return { ...state, guards: [...state.guards, guard], moves: state.moves + 1 }

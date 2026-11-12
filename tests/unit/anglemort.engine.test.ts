@@ -11,6 +11,7 @@ import {
   isFacingAllowed,
   isFloor,
   isPlaceable,
+  isPlacementRefused,
   isPoolComplete,
   isSinglePath,
   isWon,
@@ -189,6 +190,45 @@ describe('anglemort engine : placement', () => {
     const placed = toggleGuard(loadLevel(makeLevel()), 0, 2)
     expect(guardAt(placed, 0, 2)).toBeDefined()
     expect(guardAt(toggleGuard(placed, 0, 2), 0, 2)).toBeUndefined()
+  })
+})
+
+describe('anglemort engine : pose refusée', () => {
+  // (2, 1) entre deux piliers : un angle n'y trouve aucune orientation.
+  const corridor = makeLevel({
+    pillars: [
+      [2, 0],
+      [2, 2],
+    ],
+    pool: { simple: 1, angle: 1, oppose: 1 },
+  })
+
+  it('refuse un angle entre deux murs parallèles', () => {
+    expect(isPlacementRefused(loadLevel(corridor), 2, 1, 'angle')).toBe(true)
+  })
+
+  it('accepte sur la même case un type qui y trouve une orientation', () => {
+    expect(isPlacementRefused(loadLevel(corridor), 2, 1, 'oppose')).toBe(false)
+  })
+
+  it('refuse quand le lot est épuisé', () => {
+    const level = makeLevel({ pool: { simple: 1, angle: 0, oppose: 0 } })
+    const state = placeGuard(loadLevel(level), 0, 2)
+    expect(isPlacementRefused(state, 3, 1)).toBe(true)
+  })
+
+  it("ne signale rien sur une case qui n'accueille jamais de vigile", () => {
+    const state = loadLevel(makeLevel({ pool: { simple: 0, angle: 0, oppose: 0 } }))
+    expect(isPlacementRefused(state, 1, 1)).toBe(false)
+  })
+
+  it('ne signale rien sur un vigile déjà posé', () => {
+    const state = placeGuard(
+      loadLevel(makeLevel({ pool: { simple: 1, angle: 0, oppose: 0 } })),
+      0,
+      2,
+    )
+    expect(isPlacementRefused(state, 0, 2)).toBe(false)
   })
 })
 

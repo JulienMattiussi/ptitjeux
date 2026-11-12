@@ -18,6 +18,7 @@ import {
   corridorOrder,
   expectedCorridor,
   guardAt,
+  isPlacementRefused,
   isWon,
   loadLevel,
   pickableTypes,
@@ -116,13 +117,19 @@ function AngleMortPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level
       : (types.find((t) => remaining(state, t) > 0) ?? chosenType)
   const guardTypeRef = useLatestRef(guardType)
 
+  // Pose refusée : la case s'encadre de rouge, sinon le clic semblerait perdu.
+  const [rejected, setRejected] = useState<{ x: number; y: number; n: number }>()
+  const toggleAt = (x: number, y: number, type: GuardType) => {
+    if (isPlacementRefused(state, x, y, type)) setRejected((r) => ({ x, y, n: (r?.n ?? 0) + 1 }))
+    else dispatch({ type: 'toggle', x, y, guardType: type })
+  }
+
   useGameKeyboard({
     onBack: goBack,
     enabled: !won && !solution.shown,
     onDirection: (direction) =>
       setSelected((s) => moveCellCursor(s, direction, level.width, level.height)),
-    onAction: () =>
-      dispatch({ type: 'toggle', ...selectedRef.current, guardType: guardTypeRef.current }),
+    onAction: () => toggleAt(selectedRef.current.x, selectedRef.current.y, guardTypeRef.current),
     onSecondaryAction: () => dispatch({ type: 'rotate', ...selectedRef.current }),
     onUndo: () => dispatch({ type: 'undo' }),
     onReset: () => dispatch({ type: 'reset' }),
@@ -171,17 +178,15 @@ function AngleMortPlay({ level, date, idx, lastDate, revealed }: PlayProps<Level
             }
             diamondTaken={walk.step >= 0 && walk.step === corridor.length - 1}
             selected={solution.shown ? undefined : selected}
+            rejected={solution.shown ? undefined : rejected}
             onHoverCell={(x, y) => {
               if (!locked) setSelected({ x, y })
             }}
             onCellClick={(x, y) => {
               if (locked) return
               setSelected({ x, y })
-              dispatch(
-                guardAt(state, x, y)
-                  ? { type: 'rotate', x, y }
-                  : { type: 'toggle', x, y, guardType },
-              )
+              if (guardAt(state, x, y)) dispatch({ type: 'rotate', x, y })
+              else toggleAt(x, y, guardType)
             }}
             onCellRemove={(x, y) => {
               // Retirer seulement : sur une case vide, « toggle » poserait un vigile.

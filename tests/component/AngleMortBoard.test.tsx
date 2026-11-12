@@ -20,10 +20,17 @@ const LEVEL: Level = {
   solution: [],
 }
 
-function renderBoard(state = loadLevel(LEVEL)) {
+function renderBoard(state = loadLevel(LEVEL), rejected?: { x: number; y: number; n: number }) {
   const onCellClick = vi.fn()
   const onCellRemove = vi.fn()
-  render(<Board state={state} onCellClick={onCellClick} onCellRemove={onCellRemove} />)
+  render(
+    <Board
+      state={state}
+      rejected={rejected}
+      onCellClick={onCellClick}
+      onCellRemove={onCellRemove}
+    />,
+  )
   return { onCellClick, onCellRemove }
 }
 
@@ -62,5 +69,15 @@ describe('anglemort/Board', () => {
       target: screen.getByRole('button', { name: /Vigile tourné vers/ }),
     })
     expect(onCellRemove).toHaveBeenCalledWith(0, 1)
+  })
+
+  it('encadre de rouge la seule case où la pose a été refusée', () => {
+    // (1, 0) : première case dans l'ombre, dans l'ordre de lecture.
+    renderBoard(loadLevel(LEVEL), { x: 1, y: 0, n: 1 })
+    const frames = document.querySelectorAll('.animate-flash-out')
+    expect(frames).toHaveLength(1)
+    expect(screen.getAllByRole('button', { name: 'Case dans l’ombre' })[0]).toContainElement(
+      frames[0] as SVGElement,
+    )
   })
 })

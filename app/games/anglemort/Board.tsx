@@ -26,6 +26,8 @@ type Props = {
   onCellRemove: (x: number, y: number) => void
   selected?: CellCursor
   onHoverCell?: (x: number, y: number) => void
+  /** Dernière pose refusée : sa case s'encadre de rouge (`n` rejoue l'effet). */
+  rejected?: { x: number; y: number; n: number }
   /** Aide : couloir attendu, teinté sur le plateau. */
   expected?: Pos[]
   /** Position du cambrioleur pendant sa traversée de victoire. */
@@ -53,6 +55,7 @@ export function Board({
   thiefFacing,
   diamondTaken = false,
   expected = [],
+  rejected,
 }: Props) {
   const expectedSet = new Set(expected.map(([x, y]) => key(x, y)))
   const { level, guards } = state
@@ -101,6 +104,7 @@ export function Board({
           ox={ox}
           oy={oy}
           content={content}
+          rejected={rejected && samePos([rejected.x, rejected.y], x, y) ? rejected.n : undefined}
           onHover={() => onHoverCell?.(x, y)}
           onClick={() => onCellClick(x, y)}
           onRemove={() => onCellRemove(x, y)}

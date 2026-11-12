@@ -52,6 +52,15 @@ describe('PoolTray', () => {
     expect(onSelect).toHaveBeenCalledWith('oppose')
   })
 
+  it('encadre brièvement le seul vigile cliqué', async () => {
+    render(<PoolTray state={state({ simple: 1, angle: 0, oppose: 2 })} onSelect={() => {}} />)
+    const [clicked] = screen.getAllByRole('button', { name: 'Choisir le vigile opposé' })
+    await userEvent.click(clicked)
+    const frames = document.querySelectorAll('.animate-flash-out')
+    expect(frames).toHaveLength(1)
+    expect(clicked).toContainElement(frames[0] as HTMLElement)
+  })
+
   it('un type épuisé ne se choisit pas', () => {
     const s = placeGuard(state({ simple: 1, angle: 0, oppose: 2 }), 1, 1)
     render(<PoolTray state={s} onSelect={() => {}} />)
